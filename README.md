@@ -1,5 +1,9 @@
 # README
 
+## Scrape data
+
+```python scrape.py```
+
 ## Generate content
 
 ```python generate_content.py```

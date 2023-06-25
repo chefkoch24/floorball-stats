@@ -1,4 +1,3 @@
-AUTHOR = 'Felix'
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 
