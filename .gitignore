@@ -1,0 +1,40 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Dependency directories
+venv/
+env/
+
+# macOS specific files
+.DS_Store
+
+# Editor-specific files
+*~
+
+# Custom stuff here
+
+/data
