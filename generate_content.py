@@ -144,9 +144,19 @@ def add_points(team, event):
 
 data = pd.read_csv('data/goals_team.csv')
 teams = np.unique(data['event_team'])
+playoff_teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VFL Red Hocks Kaufering', 'Floor Fighters Chemnitz']
+playdown_teams = ['SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Blau Weiss Schenefeld',]
+top4_teams = playoff_teams[:4]
+print()
 EVENT_GOAL = 'goal'
 EVENT_PENALTY = 'penalty'
 OUTPUT_FOLDER = 'content/teams/'
+OUTPUT_FOLDER_LIGA = 'content/liga/'
+
+playoff_stats = []
+playdown_stats = []
+average_stats = []
+top4_team_stats = []
 
 for team in teams:
     stats = initalize_stats(team, teams)
@@ -327,4 +337,30 @@ for team in teams:
     filename = generate_slug(stats['team'])
 
     with open(OUTPUT_FOLDER + filename + '.md', 'w') as f:
+        f.write(md)
+
+    if team in playoff_teams:
+        playoff_stats.append(stats)
+        if team in top4_teams:
+            top4_team_stats.append(stats)
+    elif team in playdown_teams:
+        playdown_stats.append(stats)
+    average_stats.append(stats)
+
+for filename, aggregated_stats in [('playoffs', playoff_stats), ('playdowns', playdown_stats), ('ligaschnitt',average_stats), ('top_4_teams', top4_team_stats)]:
+    # calculate average stats over all items in the list for each respective key
+    stats = {}
+    for key in aggregated_stats[0].keys():
+        if key in ['team', 'points_against']:
+            continue
+        else:
+            s = 0
+            for agg in aggregated_stats:
+                s += float(agg[key])
+            stats[key] = round(s / len(aggregated_stats), 2)
+
+    stats['team'] = filename.capitalize()
+    md = dict_to_markdown(stats)
+
+    with open(OUTPUT_FOLDER_LIGA + filename + '.md', 'w') as f:
         f.write(md)

@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: UHC Sparkasse Weißenfels
 Slug: uhc-sparkasse-weissenfels
 team: UHC Sparkasse Weißenfels

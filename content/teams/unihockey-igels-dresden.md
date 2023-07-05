@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: Unihockey Igels Dresden
 Slug: unihockey-igels-dresden
 team: Unihockey Igels Dresden

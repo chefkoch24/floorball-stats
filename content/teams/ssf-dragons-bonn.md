@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: SSF Dragons Bonn
 Slug: ssf-dragons-bonn
 team: SSF Dragons Bonn

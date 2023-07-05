@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: Red Devils Wernigerode
 Slug: red-devils-wernigerode
 team: Red Devils Wernigerode

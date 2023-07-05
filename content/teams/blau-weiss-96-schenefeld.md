@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: Blau-Weiß 96 Schenefeld
 Slug: blau-weiss-96-schenefeld
 team: Blau-Weiß 96 Schenefeld

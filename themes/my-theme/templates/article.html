@@ -2,9 +2,10 @@
 
 {% block content %}
 <section>
-    <div class="container mt-5">
-        <h2>{{ article.title }}</h2>
-
+    <div class="container justify-content-center">
+        <div class="row mt-3 mb-3">
+            <h2>{{ article.title }}</h2>
+        </div>
         <div class="row">
             <div class="col-lg-6">
                 <h6>Tore</h6>
@@ -29,15 +30,15 @@
                 <small>pro Drittel</small>
                 <div class="row">
                     <div class="card align-items-center p-2 m-2">
-                        <small>1. Period</small>
+                        <small>1. Drittel</small>
                         <div>{{article.goals_in_first_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>2. Period</small>
+                        <small>2. Drittel</small>
                         <div>{{article.goals_in_second_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>3. Period</small>
+                        <small>3. Drittel</small>
                         <div>{{article.goals_in_third_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
@@ -70,15 +71,15 @@
                 <small>pro Drittel</small>
                 <div class="row">
                     <div class="card align-items-center p-2 m-2">
-                        <small>1. Period</small>
+                        <small>1. Drittel</small>
                         <div>{{article.goals_in_first_period_against}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>2. Period</small>
+                        <small>2. Drittel</small>
                         <div>{{article.goals_in_second_period_against}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>3. Period</small>
+                        <small>3. Drittel</small>
                         <div>{{article.goals_in_third_period_against}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
@@ -112,15 +113,15 @@
                 <small>pro Drittel</small>
                 <div class="row">
                     <div class="card align-items-center p-2 m-2">
-                        <small>1. Period</small>
+                        <small>1. Drittel</small>
                         <div>{{article.powerplay_first_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>2. Period</small>
+                        <small>2. Drittel</small>
                         <div>{{article.powerplay_second_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>3. Period</small>
+                        <small>3. Drittel</small>
                         <div>{{article.powerplay_third_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
@@ -153,15 +154,15 @@
                 <small>pro Drittel</small>
                 <div class="row">
                     <div class="card align-items-center p-2 m-2">
-                        <small>1. Period</small>
+                        <small>1. Drittel</small>
                         <div>{{article.boxplay_first_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>2. Period</small>
+                        <small>2. Drittel</small>
                         <div>{{article.boxplay_second_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
-                        <small>3. Period</small>
+                        <small>3. Drittel</small>
                         <div>{{article.boxplay_third_period}}</div>
                     </div>
                     <div class="card align-items-center p-2 m-2">
@@ -281,6 +282,7 @@
                      </div>
                  </div>
              </div>
+             {%if article.tags  %}
              <div class="col-lg-6">
                  <h6>Punkte gegen Teams</h6>
                  <div>
@@ -289,6 +291,7 @@
                      {% endfor %}
                  </div>
              </div>
+             {% endif %}
         </div>
 
     </div>

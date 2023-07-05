@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: TV Schriesheim
 Slug: tv-schriesheim
 team: TV Schriesheim

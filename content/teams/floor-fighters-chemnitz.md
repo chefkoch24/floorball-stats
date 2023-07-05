@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: Floor Fighters Chemnitz
 Slug: floor-fighters-chemnitz
 team: Floor Fighters Chemnitz

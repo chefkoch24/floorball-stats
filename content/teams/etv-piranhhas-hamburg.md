@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: ETV Piranhhas Hamburg
 Slug: etv-piranhhas-hamburg
 team: ETV Piranhhas Hamburg

@@ -1,4 +1,4 @@
-Date: 2023-06-13
+Date: 2023-07-05
 Title: VfL Red Hocks Kaufering
 Slug: vfl-red-hocks-kaufering
 team: VfL Red Hocks Kaufering

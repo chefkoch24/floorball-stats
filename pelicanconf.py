@@ -15,7 +15,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-ARTICLE_PATHS = ['teams']
+ARTICLE_PATHS = ['teams', 'liga']
 
 
 # Blogroll
