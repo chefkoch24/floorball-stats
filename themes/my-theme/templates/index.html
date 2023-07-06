@@ -4,19 +4,50 @@
 <section>
     <div class="container justify-content-center">
         <div class="row mt-5 m-2">
-                <h1>Reguläre Saison 2022/23</h1>
+            <h1>Reguläre Saison 2022/23</h1>
         </div>
         <div class="row mt-4 ml-2">
             <h2>Teams</h2>
         </div>
         <div class="row ml-2">
-            {% for article in articles_page.object_list %}
-            {% if article.category == "teams" %}
-            <div class="col-lg-5 mt-4 mr-4 card">
-                <a href="{{ SITEURL }}/{{ article.url }}" class="pl-2 pt-2"><h5>{{ article.title }}</h5></a>
-            </div>
-            {% endif %}
-            {% endfor %}
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Team</th>
+                    <th scope="col">PpS</th>
+                    <th scope="col">TpS</th>
+                    <th scope="col">GpS</th>
+                    <th scope="col">PP%</th>
+                    <th scope="col">BP%</th>
+                    <th scope="col">S</th>
+                    <th scope="col">U</th>
+                    <th scope="col">N</th>
+                    <th scope="col">OS</th>
+                    <th scope="col">ON</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for article in articles_page.object_list %}
+                {% if article.category == "teams" %}
+                <tr>
+                    <th scope="row"><a href="{{article.url}}">{{article.team}}</a></th>
+                    <td>{{article.points_per_game}}</td>
+                    <td>{{article.goals_per_game}}</td>
+                    <td>{{article.goals_against_per_game}}</td>
+                    <td>{{article.powerplay_efficiency[0:5]}}</td>
+                    <td>{{article.boxplay_efficiency[0:5]}}</td>
+                    <td>{{article.wins}}</td>
+                    <td>{{article.draws}}</td>
+                    <td>{{article.losses}}</td>
+                    <td>{{article.over_time_wins}}</td>
+                    <td>{{article.over_time_losses}}</td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+
         </div>
         <div class="row mt-4 ml-2">
             <h2>Liga</h2>

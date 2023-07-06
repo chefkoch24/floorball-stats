@@ -7,291 +7,176 @@
             <h2>{{ article.title }}</h2>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <h6>Tore</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Tore</small>
-                        <div>{{article.goals}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Tore pro Spiel</small>
-                        <div>{{article.goals_per_game}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Heim Tore</small>
-                        <div>{{article.goals_home}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Auswärts Tore</small>
-                        <div>{{article.goals_away}}</div>
-                    </div>
-                </div>
-                <small>pro Drittel</small>
-                <div class="row">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>1. Drittel</small>
-                        <div>{{article.goals_in_first_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>2. Drittel</small>
-                        <div>{{article.goals_in_second_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>3. Drittel</small>
-                        <div>{{article.goals_in_third_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime</small>
-                        <div>{{article.goals_in_overtime}}</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h6>Gegentore</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Gegentore</small>
-                        <div>{{article.goals_against}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Gegentore pro Spiel</small>
-                        <div>{{article.goals_against_per_game}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Heim Gegentore</small>
-                        <div>{{article.goals_against_home}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Auswärts Gegentore</small>
-                        <div>{{article.goals_against_away}}</div>
-                    </div>
-                </div>
-
-                <small>pro Drittel</small>
-                <div class="row">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>1. Drittel</small>
-                        <div>{{article.goals_in_first_period_against}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>2. Drittel</small>
-                        <div>{{article.goals_in_second_period_against}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>3. Drittel</small>
-                        <div>{{article.goals_in_third_period_against}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime</small>
-                        <div>{{article.goals_in_overtime_against}}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="margin-top: 20px">
-            <div class="col-lg-6">
-                <h6>Powerplay</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>PP Effizienz</small>
-                        <div>{{article.powerplay_efficiency[0:5]}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Tore in PP</small>
-                        <div>{{article.goals_in_powerplay}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>PPs</small>
-                        <div>{{article.powerplay}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>PP pro Spiel </small>
-                        <div>{{article.powerplay_per_game}}</div>
-                    </div>
-                </div>
-                <small>pro Drittel</small>
-                <div class="row">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>1. Drittel</small>
-                        <div>{{article.powerplay_first_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>2. Drittel</small>
-                        <div>{{article.powerplay_second_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>3. Drittel</small>
-                        <div>{{article.powerplay_third_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime</small>
-                        <div>{{article.powerplay_overtime}}</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h6>Boxplay</h6>
-                <div class="row mb-2">
-
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Box Effizienz</small>
-                        <div>{{article.boxplay_efficiency[0:5]}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Gegentore in Box</small>
-                        <div>{{article.goals_against_in_boxplay}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Boxplays</small>
-                        <div>{{article.boxplay}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Box pro Spiel </small>
-                        <div>{{article.boxplay_per_game}}</div>
-                    </div>
-                </div>
-                <small>pro Drittel</small>
-                <div class="row">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>1. Drittel</small>
-                        <div>{{article.boxplay_first_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>2. Drittel</small>
-                        <div>{{article.boxplay_second_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>3. Drittel</small>
-                        <div>{{article.boxplay_third_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime</small>
-                        <div>{{article.boxplay_overtime}}</div>
-                    </div>
-                </div>
-            </div>
+            <h3>Tore</h3>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">T</th>
+                    <th scope="col">G</th>
+                    <th scope="col">TpS</th>
+                    <th scope="col">GpS</th>
+                    <th scope="col">HT</th>
+                    <th scope="col">HG</th>
+                    <th scope="col">AT</th>
+                    <th scope="col">AG</th>
+                    <th scope="col">T_1</th>
+                    <th scope="col">T_2</th>
+                    <th scope="col">T_3</th>
+                    <th scope="col">T_O</th>
+                    <th scope="col">G_1</th>
+                    <th scope="col">G_2</th>
+                    <th scope="col">G_3</th>
+                    <th scope="col">G_O</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{article.goals}}</td>
+                    <td>{{article.goals_against}}</td>
+                    <td>{{article.goals_per_game}}</td>
+                    <td>{{article.goals_against_per_game}}</td>
+                    <td>{{article.goals_home}}</td>
+                    <td>{{article.goals_against_home}}</td>
+                    <td>{{article.goals_away}}</td>
+                    <td>{{article.goals_against_away}}</td>
+                    <td>{{article.goals_in_first_period}}</td>
+                    <td>{{article.goals_in_second_period}}</td>
+                    <td>{{article.goals_in_third_period}}</td>
+                    <td>{{article.goals_in_overtime}}</td>
+                    <td>{{article.goals_in_first_period_against}}</td>
+                    <td>{{article.goals_in_second_period_against}}</td>
+                    <td>{{article.goals_in_third_period_against}}</td>
+                    <td>{{article.goals_in_overtime_against}}</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
 
         <div class="row" style="margin-top: 20px">
-            <div class="col-lg-6">
-                <h6>Special Tore</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Führungstor</small>
-                        <div>{{article.leading_goals}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Ausgleich</small>
-                        <div>{{article.equalizer_goals}}</div>
-                    </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Erstes Tor im Spiel</small>
-                        <div>{{article.first_goal_of_match}}</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h6>Special Gegentore</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Führungsgegentor</small>
-                        <div>{{article.leading_goals_against}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Ausgleich</small>
-                        <div>{{article.equalizer_goals_against}}</div>
-                    </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Erstes Gegentor im Spiel</small>
-                        <div>{{article.first_goal_of_match_against}}</div>
-                    </div>
-                </div>
-            </div>
+            <h3>Punkte</h3>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">P</th>
+                    <th scope="col">PpS</th>
+                    <th scope="col">HP</th>
+                    <th scope="col">AP</th>
+                    <th scope="col">S</th>
+                    <th scope="col">U</th>
+                    <th scope="col">N</th>
+                    <th scope="col">SO</th>
+                    <th scope="col">NO</th>
+                    <th scope="col">P_20min</th>
+                    <th scope="col">P_40min</th>
+                    <th scope="col">P_55min</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{article.points}}</td>
+                    <td>{{article.points_per_game}}</td>
+                    <td>{{article.home_points}}</td>
+                    <td>{{article.away_points}}</td>
+                    <td>{{article.wins}}</td>
+                    <td>{{article.draws}}</td>
+                    <td>{{article.losses}}</td>
+                    <td>{{article.over_time_wins}}</td>
+                    <td>{{article.over_time_losses}}</td>
+                    <td>{{article.points_after_first_period}}</td>
+                    <td>{{article.points_after_second_period}}</td>
+                    <td>{{article.points_after_55_min}}</td>
+
+                </tr>
+                </tbody>
+            </table>
+
         </div>
 
-
-         <div class="row" style="margin-top: 20px">
-             <div class="col-lg-6">
-                <h6>Punkte</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Punkte</small>
-                        <div>{{article.points}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Heim Punkte</small>
-                        <div>{{article.home_points}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Auswärts Punkte</small>
-                        <div>{{article.away_points}}</div>
-                    </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Punkte pro Spiel</small>
-                        <div>{{article.points_per_game}}</div>
-                    </div>
-                </div>
+        <div class="row" style="margin-top: 20px">
+            <h3>Special Teams</h3>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">PPT</th>
+                    <th scope="col">PPs</th>
+                    <th scope="col">PP%</th>
+                    <th scope="col">PPpS</th>
+                    <th scope="col">BPG</th>
+                    <th scope="col">BPs</th>
+                    <th scope="col">BP%</th>
+                    <th scope="col">BPpS</th>
+                    <th scope="col">ST</th>
+                    <th scope="col">SG</th>
+                    <th scope="col">PP_1</th>
+                    <th scope="col">PP_2</th>
+                    <th scope="col">PP_3</th>
+                    <th scope="col">PP_O</th>
+                    <th scope="col">BP_1</th>
+                    <th scope="col">BP_2</th>
+                    <th scope="col">BP_3</th>
+                    <th scope="col">BP_O</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{article.goals_in_powerplay}}</td>
+                    <td>{{article.powerplay}}</td>
+                    <td>{{article.powerplay_efficiency[0:5]}}</td>
+                    <td>{{article.powerplay_per_game}}</td>
+                    <td>{{article.goals_against_in_boxplay}}</td>
+                    <td>{{article.boxplay}}</td>
+                    <td>{{article.boxplay_efficiency[0:5]}}</td>
+                    <td>{{article.boxplay_per_game}}</td>
+                    <td>{{article.goals_in_boxplay}}</td>
+                    <td>{{article.goals_against_in_powerplay}}</td>
+                    <td>{{article.powerplay_first_period}}</td>
+                    <td>{{article.powerplay_second_period}}</td>
+                    <td>{{article.powerplay_third_period}}</td>
+                    <td>{{article.powerplay_overtime}}</td>
+                    <td>{{article.boxplay_first_period}}</td>
+                    <td>{{article.boxplay_second_period}}</td>
+                    <td>{{article.boxplay_third_period}}</td>
+                    <td>{{article.boxplay_overtime}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row" style="margin-top: 20px">
+            <div class="col-lg-6">
+                <h3>Special Tore</h3>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">FT</th>
+                        <th scope="col">AT</th>
+                        <th scope="col">1:0</th>
+                        <th scope="col">FG</th>
+                        <th scope="col">AT</th>
+                        <th scope="col">0:1</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{{article.leading_goals}}</td>
+                        <td>{{article.equalizer_goals}}</td>
+                        <td>{{article.first_goal_of_match}}</td>
+                        <td>{{article.leading_goals_against}}</td>
+                        <td>{{article.equalizer_goals_against}}</td>
+                        <td>{{article.first_goal_of_match_against}}</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-             <div class="col-lg-6">
-                <h6>Spiele</h6>
-                <div class="row mb-2">
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Siege</small>
-                        <div>{{article.wins}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Unentschieden</small>
-                        <div>{{article.draws}}</div>
-                    </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Niederlagen</small>
-                        <div>{{article.losses}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime Sieg</small>
-                        <div>{{article.over_time_wins}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>Overtime Niederlage</small>
-                        <div>{{article.over_time_losses}}</div>
-                    </div>
-                </div>
-            </div>
-         </div>
-         <div class="row" style="margin-top: 20px">
-             <div class="col-lg-6">
-                 <h6>Punkte nach Drittel</h6>
-                 <div class="row mb-2">
-
-                    <div class="card align-items-center p-2 m-2">
-                        <small>1. Drittel</small>
-                        <div>{{article.points_after_first_period}}</div>
-                    </div>
-                    <div class="card align-items-center p-2 m-2">
-                        <small>2. Drittel</small>
-                        <div>{{article.points_after_second_period}}</div>
-                    </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Nach 55 Min</small>
-                        <div>{{article.points_after_55_min}}</div>
-                     </div>
-                     <div class="card align-items-center p-2 m-2">
-                        <small>Spielende</small>
-                        <div>{{article.points}}</div>
-                     </div>
-                 </div>
-             </div>
-             {%if article.tags  %}
-             <div class="col-lg-6">
-                 <h6>Punkte gegen Teams</h6>
-                 <div>
-                     {% for points_team in article.tags %}
+            {%if article.tags %}
+            <div class="col-lg-6 justify-content-center">
+                <h3>Punkte gegen Teams</h3>
+                <div>
+                    {% for points_team in article.tags %}
                     <div>{{points_team}}</div>
-                     {% endfor %}
-                 </div>
-             </div>
-             {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
         </div>
 
     </div>
