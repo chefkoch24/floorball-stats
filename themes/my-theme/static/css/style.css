@@ -1,0 +1,9 @@
+.table{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.glossary {
+    background-color: #f8f9fa!important;
+}

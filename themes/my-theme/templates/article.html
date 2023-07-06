@@ -3,30 +3,30 @@
 {% block content %}
 <section>
     <div class="container justify-content-center">
-        <div class="row mt-3 mb-3">
+        <div class="row ml-2" style="margin-top: 5rem!important">
             <h2>{{ article.title }}</h2>
         </div>
-        <div class="row">
+        <div class="row m-2">
             <h3>Tore</h3>
             <table class="table table-hover">
                 <thead>
                 <tr>
-                    <th scope="col">T</th>
-                    <th scope="col">G</th>
-                    <th scope="col">TpS</th>
-                    <th scope="col">GpS</th>
-                    <th scope="col">HT</th>
-                    <th scope="col">HG</th>
-                    <th scope="col">AT</th>
-                    <th scope="col">AG</th>
-                    <th scope="col">T_1</th>
-                    <th scope="col">T_2</th>
-                    <th scope="col">T_3</th>
-                    <th scope="col">T_O</th>
-                    <th scope="col">G_1</th>
-                    <th scope="col">G_2</th>
-                    <th scope="col">G_3</th>
-                    <th scope="col">G_O</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore">T</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore">G</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Heimtore">HT</th>
+                    <th scope="col" data-toggle="tooltip" title="Heimgegentore">HG</th>
+                    <th scope="col" data-toggle="tooltip" title="Auswärtstore">AT</th>
+                    <th scope="col" data-toggle="tooltip" title="Auswärtsgegentore">AG</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore 1. Drittel">T_1</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore 2. Drittel">T_2</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore 3. Drittel">T_3</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore Overtime">T_O</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore 1. Drittel">G_1</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore 2. Drittel">G_2</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore 3. Drittel">G_3</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore Overtime">G_O</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -52,23 +52,23 @@
             </table>
         </div>
 
-        <div class="row" style="margin-top: 20px">
+        <div class="row m-2" >
             <h3>Punkte</h3>
             <table class="table table-hover">
                 <thead>
                 <tr>
-                    <th scope="col">P</th>
-                    <th scope="col">PpS</th>
-                    <th scope="col">HP</th>
-                    <th scope="col">AP</th>
-                    <th scope="col">S</th>
-                    <th scope="col">U</th>
-                    <th scope="col">N</th>
-                    <th scope="col">SO</th>
-                    <th scope="col">NO</th>
-                    <th scope="col">P_20min</th>
-                    <th scope="col">P_40min</th>
-                    <th scope="col">P_55min</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte">P</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Heimpunkte">HP</th>
+                    <th scope="col" data-toggle="tooltip" title="Auswärtspunkte" >AP</th>
+                    <th scope="col" data-toggle="tooltip" title="Siege">S</th>
+                    <th scope="col" data-toggle="tooltip" title="Unentschieden">U</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Siege">SO</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">NO</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte nach 20 min">P_20min</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte nach 40 min">P_40min</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte nach 55 min">P_55min</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -92,29 +92,29 @@
 
         </div>
 
-        <div class="row" style="margin-top: 20px">
+        <div class="row m-2">
             <h3>Special Teams</h3>
             <table class="table table-hover">
                 <thead>
                 <tr>
-                    <th scope="col">PPT</th>
-                    <th scope="col">PPs</th>
-                    <th scope="col">PP%</th>
-                    <th scope="col">PPpS</th>
-                    <th scope="col">BPG</th>
-                    <th scope="col">BPs</th>
-                    <th scope="col">BP%</th>
-                    <th scope="col">BPpS</th>
-                    <th scope="col">ST</th>
-                    <th scope="col">SG</th>
-                    <th scope="col">PP_1</th>
-                    <th scope="col">PP_2</th>
-                    <th scope="col">PP_3</th>
-                    <th scope="col">PP_O</th>
-                    <th scope="col">BP_1</th>
-                    <th scope="col">BP_2</th>
-                    <th scope="col">BP_3</th>
-                    <th scope="col">BP_O</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay Tore">PPT</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplays">PPs</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay Effizienz">PP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplays pro Spiel">PPpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay Tore">BPG</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplays">BPs</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay Effizienz">BP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplays pro Spiel">BPpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Shorthanded Tore">ST</th>
+                    <th scope="col" data-toggle="tooltip" title="Shorthanded Gegentore">SG</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay 1. Drittel">PP_1</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay 2. Drittel">PP_2</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay 3. Drittel">PP_3</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay Overtime">PP_O</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay 1. Drittel">BP_1</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay 2. Drittel">BP_2</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay 3. Drittel">BP_3</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay Overtime">BP_O</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -141,18 +141,18 @@
                 </tbody>
             </table>
         </div>
-        <div class="row" style="margin-top: 20px">
-            <div class="col-lg-6">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 m-1">
                 <h3>Special Tore</h3>
                 <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th scope="col">FT</th>
-                        <th scope="col">AT</th>
-                        <th scope="col">1:0</th>
-                        <th scope="col">FG</th>
-                        <th scope="col">AT</th>
-                        <th scope="col">0:1</th>
+                        <th scope="col" data-toggle="tooltip" title="Führungstor">FT</th>
+                        <th scope="col" data-toggle="tooltip" title="Ausgleichstor">AT</th>
+                        <th scope="col" data-toggle="tooltip" title="Erste Tor im Spiel geschossen">1:0</th>
+                        <th scope="col" data-toggle="tooltip" title="Führungsgegentor">FG</th>
+                        <th scope="col" data-toggle="tooltip" title="Ausgleichsgegentor">AG</th>
+                        <th scope="col" data-toggle="tooltip" title="Erste Tor im Spiel gekriegt">0:1</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -168,7 +168,7 @@
                 </table>
             </div>
             {%if article.tags %}
-            <div class="col-lg-6 justify-content-center">
+            <div class="col-lg-5 col-md-5 m-1">
                 <h3>Punkte gegen Teams</h3>
                 <div>
                     {% for points_team in article.tags %}
@@ -180,5 +180,75 @@
         </div>
 
     </div>
+</section>
+
+<section >
+    <div class="glossary container p-3 mt-5 ">
+        <h6>Glossar</h6>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>T: Tore</p>
+                <p>G: Gegentore</p>
+                <p>TpS: Tore pro Spiel</p>
+                <p>GpS: Gegentore pro Spiel</p>
+                <p>HT: Heimtore</p>
+                <p>HG: Heimgegentore</p>
+                <p>AT: Auswärtstore</p>
+                <p>AG: Auswärtsgegentore</p>
+                <p>T_1: Tore 1. Drittel</p>
+                <p>T_2: Tore 2. Drittel</p>
+                <p>T_3: Tore 3. Drittel</p>
+                <p>T_O: Tore Overtime</p>
+                <p>G_1: Gegentore 1. Drittel</p>
+                <p>G_2: Gegentore 2. Drittel</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>G_3: Gegentore 3. Drittel</p>
+                <p>G_O: Gegentore Overtime</p>
+                <p>P: Punkte</p>
+                <p>PpS: Punkte pro Spiel</p>
+                <p>HP: Heimpunkte</p>
+                <p>AP: Auswärtspunkte</p>
+                <p>S: Siege</p>
+                <p>U: Unentschieden</p>
+                <p>N: Niederlagen</p>
+                <p>SO: Siege Overtime</p>
+                <p>NO: Niederlagen Overtime</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>P_20min: Punkte nach 20 min</p>
+                <p>P_40min: Punkte nach 40 min</p>
+                <p>P_60min: Punkte nach 55 min</p>
+                <p>PPT: Powerplay Tore</p>
+                <p>PPs: Powerplays</p>
+                <p>PP%: Powerplay Effizienz</p>
+                <p>PPpS: Powerplays pro Spiel</p>
+                <p>BPG: Boxplay Gegentore</p>
+                <p>BPs: Boxplays</p>
+                <p>BP%: Boxplay Effizienz</p>
+                <p>BPpS: Boxplays pro Spiel</p>
+                <p>ST: Shorthanded Tore</p>
+                <p>SG: Shorthanded Gegentore</p>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>PP_1: Powerplay 1. Drittel</p>
+                <p>PP_2: Powerplay 2. Drittel</p>
+                <p>PP_3: Powerplay 3. Drittel</p>
+                <p>PP_O: Powerplay Overtime</p>
+                <p>BP_1: Boxplay 1. Drittel</p>
+                <p>BP_2: Boxplay 2. Drittel</p>
+                <p>BP_3: Boxplay 3. Drittel</p>
+                <p>BP_O: Boxplay Overtime</p>
+                <p>FT: Führungstor (nur das erste)</p>
+                <p>AT: Ausgleichstor</p>
+                <p>1:0: Erste Tor im Spiel geschossen</p>
+                <p>FG: Führungsgegentor</p>
+                <p>AG: Ausgleichsgegentor</p>
+                <p>0:1: Erste Tor im Spiel gekriegt</p>
+            </div>
+        </div>
+    </div>
+
 </section>
 {% endblock content %}

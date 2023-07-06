@@ -15,16 +15,16 @@
                 <thead>
                 <tr>
                     <th scope="col">Team</th>
-                    <th scope="col">PpS</th>
-                    <th scope="col">TpS</th>
-                    <th scope="col">GpS</th>
-                    <th scope="col">PP%</th>
-                    <th scope="col">BP%</th>
-                    <th scope="col">S</th>
-                    <th scope="col">U</th>
-                    <th scope="col">N</th>
-                    <th scope="col">OS</th>
-                    <th scope="col">ON</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay Effizienz">PP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay Effizienz">BP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Siege">S</th>
+                    <th scope="col" data-toggle="tooltip" title="Unentschieden">U</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Siege">OS</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">ON</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -62,6 +62,32 @@
             {% endfor %}
         </div>
     </div>
+</section>
+<section >
+    <div class="glossary container p-3 mt-5 ">
+        <h6>Glossar</h6>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>PpS: Punkte pro Spiel</p>
+                <p>TpS: Tore pro Spiel</p>
+                <p>GpS: Gegentore pro Spiel</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>PP%: Powerplay Effizienz</p>
+                <p>BP%: Boxplay Effizienz</p>
+                <p>S: Siege</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>U: Unentschieden</p>
+                <p>N: Niederlagen</p>
+                <p>OS: Overtime Siege</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>ON: Overtime Niederlagen</p>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 {% endblock content %}
