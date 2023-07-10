@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Unihockey Igels Dresden
 Slug: unihockey-igels-dresden
 team: Unihockey Igels Dresden
@@ -46,10 +46,13 @@ over_time_wins: 2
 losses: 16
 over_time_losses: 0
 draws: 0
-Tags:  Berlin Rockets: 3,  Blau-Weiß 96 Schenefeld: 4,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 3,  TV Schriesheim: 3,  UHC Sparkasse Weißenfels: 0,  VfL Red Hocks Kaufering: 0,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 3,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 3,  Red Devils Wernigerode: 3,  Blau-Weiß 96 Schenefeld: 4,
 points_after_first_period: 27
 points_after_second_period: 14
 points_after_55_min: 17
+win_1: 5
+loss_1: 3
+rank: 11
 goals_per_game: 5.05
 goals_against_per_game: 7.68
 boxplay_per_game: 1.59

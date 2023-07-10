@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Berlin Rockets
 Slug: berlin-rockets
 team: Berlin Rockets
@@ -46,10 +46,13 @@ over_time_wins: 4
 losses: 6
 over_time_losses: 1
 draws: 0
-Tags:  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 5,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 5,  Red Devils Wernigerode: 5,  SSF Dragons Bonn: 6,  TV Schriesheim: 4,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 2,
+Tags:  MFBC Leipzig: 5,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 5,  TV Schriesheim: 4,  VfL Red Hocks Kaufering: 2,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 5,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 38
 points_after_second_period: 40
 points_after_55_min: 40
+win_1: 5
+loss_1: 2
+rank: 5
 goals_per_game: 6.91
 goals_against_per_game: 6.41
 boxplay_per_game: 1.55

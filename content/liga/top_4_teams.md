@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Top_4_teams
 Slug: top_4_teams
 goals: 170.75
@@ -48,11 +48,14 @@ draws: 0.25
 points_after_first_period: 36.0
 points_after_second_period: 44.0
 points_after_55_min: 50.5
+win_1: 2.5
+loss_1: 1.0
+rank: 2.5
 goals_per_game: 7.76
 goals_against_per_game: 5.09
 boxplay_per_game: 1.9
 powerplay_per_game: 2.18
-powerplay_efficiency: 39.0
+powerplay_efficiency: 38.99
 boxplay_efficiency: 67.19
 percent_goals_first_period: 29.23
 percent_goals_second_period: 32.79
@@ -62,5 +65,5 @@ percent_goals_first_period_against: 33.13
 percent_goals_second_period_against: 31.66
 percent_goals_third_period_against: 34.76
 percent_goals_overtime_against: 0.45
-points_per_game: 2.28
+points_per_game: 2.29
 team: Top_4_teams

@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: ETV Piranhhas Hamburg
 Slug: etv-piranhhas-hamburg
 team: ETV Piranhhas Hamburg
@@ -46,10 +46,13 @@ over_time_wins: 2
 losses: 5
 over_time_losses: 1
 draws: 1
-Tags:  Berlin Rockets: 1,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 3,  Floor Fighters Chemnitz: 4,  MFBC Leipzig: 3,  Red Devils Wernigerode: 2,  SSF Dragons Bonn: 5,  TV Schriesheim: 6,  UHC Sparkasse Weißenfels: 6,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 3,
+Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 6,  Berlin Rockets: 1,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 3,  Floor Fighters Chemnitz: 4,  SSF Dragons Bonn: 5,  Red Devils Wernigerode: 2,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 33
 points_after_second_period: 41
 points_after_55_min: 45
+win_1: 3
+loss_1: 2
+rank: 4
 goals_per_game: 7.55
 goals_against_per_game: 5.59
 boxplay_per_game: 2.14

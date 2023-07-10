@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: DJK Holzbüttgen
 Slug: djk-holzbuettgen
 team: DJK Holzbüttgen
@@ -46,10 +46,13 @@ over_time_wins: 0
 losses: 5
 over_time_losses: 0
 draws: 0
-Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 3,  ETV Piranhhas Hamburg: 3,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 0,  Red Devils Wernigerode: 6,  SSF Dragons Bonn: 6,  TV Schriesheim: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 6,
+Tags:  MFBC Leipzig: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 6,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 3,
 points_after_first_period: 38
 points_after_second_period: 44
 points_after_55_min: 49
+win_1: 0
+loss_1: 1
+rank: 2
 goals_per_game: 7.45
 goals_against_per_game: 4.86
 boxplay_per_game: 2.23

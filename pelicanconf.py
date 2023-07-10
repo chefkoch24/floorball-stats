@@ -1,5 +1,9 @@
 SITENAME = 'Floorball Stats'
 SITEURL = ''
+PLUGINS = [
+    # others...
+    "pelican.plugins.jinja_filters",
+]
 
 PATH = 'content'
 
@@ -47,3 +51,10 @@ MENUITEMS = (
     ('Unihockey Igels Dresden', '/unihockey-igels-dresden.html'),
     ('VFL Red Hocks Kaufering', '/vfl-red-hocks-kaufering.html'),
 )
+
+from functools import partial
+
+JINJA_FILTERS = {
+    'sort_by_rank': partial(sorted,
+        key=lambda article: float(article.rank))
+} # reversed for descending order

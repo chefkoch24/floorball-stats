@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: MFBC Leipzig
 Slug: mfbc-leipzig
 team: MFBC Leipzig
@@ -46,10 +46,13 @@ over_time_wins: 1
 losses: 3
 over_time_losses: 1
 draws: 0
-Tags:  Berlin Rockets: 1,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 6,  ETV Piranhhas Hamburg: 3,  Floor Fighters Chemnitz: 6,  Red Devils Wernigerode: 6,  SSF Dragons Bonn: 5,  TV Schriesheim: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 6,
+Tags:  DJK Holzbüttgen: 6,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 1,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 5,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 49
 points_after_second_period: 52
 points_after_55_min: 54
+win_1: 2
+loss_1: 1
+rank: 1
 goals_per_game: 9.18
 goals_against_per_game: 4.64
 boxplay_per_game: 1.45

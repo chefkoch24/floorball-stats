@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Red Devils Wernigerode
 Slug: red-devils-wernigerode
 team: Red Devils Wernigerode
@@ -46,10 +46,13 @@ over_time_wins: 0
 losses: 14
 over_time_losses: 3
 draws: 0
-Tags:  Berlin Rockets: 1,  Blau-Weiß 96 Schenefeld: 3,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 4,  Floor Fighters Chemnitz: 3,  MFBC Leipzig: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 3,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 1,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 4,  Berlin Rockets: 1,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 1,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 0,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 3,
 points_after_first_period: 27
 points_after_second_period: 27
 points_after_55_min: 18
+win_1: 4
+loss_1: 6
+rank: 10
 goals_per_game: 5.68
 goals_against_per_game: 8.5
 boxplay_per_game: 2.45

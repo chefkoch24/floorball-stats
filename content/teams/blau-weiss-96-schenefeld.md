@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Blau-Weiß 96 Schenefeld
 Slug: blau-weiss-96-schenefeld
 team: Blau-Weiß 96 Schenefeld
@@ -46,10 +46,13 @@ over_time_wins: 0
 losses: 18
 over_time_losses: 2
 draws: 0
-Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 2,  VfL Red Hocks Kaufering: 0,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 2,
 points_after_first_period: 15
 points_after_second_period: 12
 points_after_55_min: 8
+win_1: 0
+loss_1: 5
+rank: 12
 goals_per_game: 4.5
 goals_against_per_game: 8.64
 boxplay_per_game: 3.09

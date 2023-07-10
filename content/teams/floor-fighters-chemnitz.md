@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Floor Fighters Chemnitz
 Slug: floor-fighters-chemnitz
 team: Floor Fighters Chemnitz
@@ -46,10 +46,13 @@ over_time_wins: 0
 losses: 13
 over_time_losses: 1
 draws: 1
-Tags:  Berlin Rockets: 0,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 1,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 4,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 3,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 1,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 3,  SSF Dragons Bonn: 4,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 25
 points_after_second_period: 18
 points_after_55_min: 24
+win_1: 2
+loss_1: 3
+rank: 8
 goals_per_game: 6.18
 goals_against_per_game: 7.55
 boxplay_per_game: 2.41

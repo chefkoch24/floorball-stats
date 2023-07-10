@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: VfL Red Hocks Kaufering
 Slug: vfl-red-hocks-kaufering
 team: VfL Red Hocks Kaufering
@@ -46,10 +46,13 @@ over_time_wins: 1
 losses: 11
 over_time_losses: 1
 draws: 0
-Tags:  Berlin Rockets: 4,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 3,  Floor Fighters Chemnitz: 3,  MFBC Leipzig: 0,  Red Devils Wernigerode: 5,  SSF Dragons Bonn: 3,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 6,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 4,  TV Schriesheim: 0,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 3,  Red Devils Wernigerode: 5,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 20
 points_after_second_period: 27
 points_after_55_min: 30
+win_1: 2
+loss_1: 4
+rank: 7
 goals_per_game: 6.23
 goals_against_per_game: 5.73
 boxplay_per_game: 2.32

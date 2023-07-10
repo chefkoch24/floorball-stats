@@ -79,6 +79,8 @@ def initalize_stats(team, teams):
         'points_after_first_period': 0,
         'points_after_second_period': 0,
         'points_after_55_min': 0,
+        'win_1':0,
+        'loss_1':0,
     }
 
 
@@ -127,25 +129,26 @@ def add_points(team, event):
         opponent_final = 'home_goals'
     if event[team_final] > event[opponent_final]:
         if event['period'] == 4:
-            return 2, 'over_time_wins'
+            return 2, 'over_time_wins', event[team_final] - event[opponent_final]
         else:
-            return 3, 'wins'
+            return 3, 'wins', event[team_final] - event[opponent_final]
     elif event[team_final] == event[opponent_final]:
-        return 1, 'draws'
+        return 1, 'draws' , event[team_final]- event[opponent_final]
     elif event[team_final] < event[opponent_final]:
         if event['period'] == 4:
-            return 1, 'over_time_losses'
+            return 1, 'over_time_losses', event[team_final] - event[opponent_final]
         else:
-            return 0, 'losses'
+            return 0, 'losses',  event[team_final] - event[opponent_final]
     else:
-        return 0, 'losses'
+        return 0, 'losses',  event[team_final]- event[opponent_final]
 
 
 
 data = pd.read_csv('data/goals_team.csv')
-teams = np.unique(data['event_team'])
-playoff_teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VFL Red Hocks Kaufering', 'Floor Fighters Chemnitz']
-playdown_teams = ['SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Blau Weiss Schenefeld',]
+teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VfL Red Hocks Kaufering', 'Floor Fighters Chemnitz', 'SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Blau-Weiß 96 Schenefeld']
+playoff_teams = teams[:9]
+playdown_teams = teams[9:]
+teams = playoff_teams + playdown_teams
 top4_teams = playoff_teams[:4]
 print()
 EVENT_GOAL = 'goal'
@@ -158,8 +161,9 @@ playdown_stats = []
 average_stats = []
 top4_team_stats = []
 
-for team in teams:
+for rank, team in enumerate(teams):
     stats = initalize_stats(team, teams)
+    stats['rank'] = rank+1
 
     events_from_team = data[(data['home_team_name'] == team) | (data['away_team_name'] == team)]
     events_from_team = transform_in_seconds(events_from_team)
@@ -297,7 +301,7 @@ for team in teams:
             # points
             if prev_game_id is not None:
                 if event['game_id'] != prev_game_id or index == len(events_from_team):
-                    points, result = add_points(team, last_goal_event)
+                    points, result, diff = add_points(team, last_goal_event)
                     stats['points'] += points
                     stats[result] += 1
                     opponent = last_goal_event['away_team_name'] if last_goal_event['home_team_name'] == team else last_goal_event['home_team_name']
@@ -306,6 +310,11 @@ for team in teams:
                         stats['home_points'] += points
                     else:
                         stats['away_points'] += points
+
+                    if diff == 1:
+                        stats['win_1'] += 1
+                    elif diff == -1:
+                        stats['loss_1'] += 1
 
             prev_game_id = event['game_id']
             prev_period = event['period']

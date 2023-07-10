@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: Ligaschnitt
 Slug: ligaschnitt
 goals: 144.0
@@ -48,6 +48,9 @@ draws: 0.17
 points_after_first_period: 30.92
 points_after_second_period: 31.58
 points_after_55_min: 32.75
+win_1: 2.83
+loss_1: 2.92
+rank: 6.5
 goals_per_game: 6.55
 goals_against_per_game: 6.55
 boxplay_per_game: 2.14

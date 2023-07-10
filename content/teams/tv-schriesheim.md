@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: TV Schriesheim
 Slug: tv-schriesheim
 team: TV Schriesheim
@@ -46,10 +46,13 @@ over_time_wins: 1
 losses: 10
 over_time_losses: 0
 draws: 0
-Tags:  Berlin Rockets: 2,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 6,
+Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 2,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 37
 points_after_second_period: 35
 points_after_55_min: 35
+win_1: 3
+loss_1: 4
+rank: 6
 goals_per_game: 7.32
 goals_against_per_game: 6.77
 boxplay_per_game: 2.82

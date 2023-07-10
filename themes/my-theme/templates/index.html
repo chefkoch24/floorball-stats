@@ -14,6 +14,7 @@
             <table class="table table-hover">
                 <thead>
                 <tr>
+                    <th scope="col">Platz</th>
                     <th scope="col">Team</th>
                     <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
                     <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
@@ -25,12 +26,16 @@
                     <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
                     <th scope="col" data-toggle="tooltip" title="Overtime Siege">OS</th>
                     <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">ON</th>
+                    <th scope="col" data-toggle="tooltip" title="Sieg +1 Tor">S+1</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlage -1 Tor">N-1</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte">P</th>
                 </tr>
                 </thead>
                 <tbody>
-                {% for article in articles_page.object_list %}
+                {% for article in articles_page.object_list | sort_by_rank  %}
                 {% if article.category == "teams" %}
                 <tr>
+                    <td>{{article.rank}}</td>
                     <th scope="row"><a href="{{article.url}}">{{article.team}}</a></th>
                     <td>{{article.points_per_game}}</td>
                     <td>{{article.goals_per_game}}</td>
@@ -42,6 +47,9 @@
                     <td>{{article.losses}}</td>
                     <td>{{article.over_time_wins}}</td>
                     <td>{{article.over_time_losses}}</td>
+                    <td>{{article.win_1}}</td>
+                    <td>{{article.loss_1}}</td>
+                    <td>{{article.points}}</td>
                 </tr>
                 {% endif %}
                 {% endfor %}

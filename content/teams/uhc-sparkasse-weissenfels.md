@@ -1,4 +1,4 @@
-Date: 2023-07-05
+Date: 2023-07-10
 Title: UHC Sparkasse Weißenfels
 Slug: uhc-sparkasse-weissenfels
 team: UHC Sparkasse Weißenfels
@@ -46,10 +46,13 @@ over_time_wins: 0
 losses: 5
 over_time_losses: 0
 draws: 0
-Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 3,  Red Devils Wernigerode: 6,  SSF Dragons Bonn: 6,  TV Schriesheim: 3,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 6,
+Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 6,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
 points_after_first_period: 24
 points_after_second_period: 39
 points_after_55_min: 54
+win_1: 5
+loss_1: 0
+rank: 3
 goals_per_game: 6.86
 goals_against_per_game: 5.27
 boxplay_per_game: 1.77

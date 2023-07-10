@@ -10,4 +10,4 @@
 
 ## Start server for development
 
-``` pelican --autoreload --listen```
+```pelican --autoreload --listen```
