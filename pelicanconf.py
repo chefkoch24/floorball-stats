@@ -56,7 +56,7 @@ def string_in_category_path(article, string_to_check):
 def category2string(slug):
     slug = slug.split('-')
     slug = [s.capitalize() for s in slug]
-    return f'{slug[0]}/{slug[1]} ' + " ".join(slug[2:])
+    return f'{slug[0]}/' + " ".join(slug[1:])
 
 
 JINJA_FILTERS = {
