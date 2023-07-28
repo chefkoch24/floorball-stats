@@ -42,7 +42,7 @@ DEFAULT_PAGINATION = False
 
 MENUITEMS = (
     ('Regular Season 22-23', '/category/22-23-regular-season.html'),
-    ('Playoffs 22-23', '/category/22-23-playoffs.html'),
+    ('Playoffs 22-23', '/category/22-23-playoffs.html')
 )
 
 def string_in_category_path(article, string_to_check):
