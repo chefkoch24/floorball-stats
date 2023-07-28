@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+ <div class="container justify-content-center">
+     <div class="row mt-5 m-2"></div>
+     <div class="row mt-5 m-2">
+         <h1>{{category.shortname | category2string}}</h1>
+     </div>
+        <div class="row mt-4 ml-2">
+            <h2>Teams</h2>
+        </div>
+        <div class="row ml-2">
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">Platz</th>
+                    <th scope="col">Team</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Differenz pro Spiel">+/-</th>
+                    <th scope="col" data-toggle="tooltip" title="Powerplay Effizienz">PP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Boxplay Effizienz">BP%</th>
+                    <th scope="col" data-toggle="tooltip" title="Siege">S</th>
+                    <th scope="col" data-toggle="tooltip" title="Unentschieden">U</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Siege">OS</th>
+                    <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">ON</th>
+                    <th scope="col" data-toggle="tooltip" title="Sieg +1 Tor">S+1</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlage -1 Tor">N-1</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte">P</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for article in articles_page.object_list | sort_by_rank  %}
+                {% if article|string_in_category_path('teams') %}
+                <tr>
+                    <td>{{article.rank}}</td>
+                    <th scope="row"><a href="{{SITEURL}}/{{article.url}}">{{article.team}}</a></th>
+                    <td>{{article.points_per_game}}</td>
+                    <td>{{article.goals_per_game}}</td>
+                    <td>{{article.goals_against_per_game}}</td>
+                    <td>{{article.goal_difference_per_game}}</td>
+                    <td>{{article.powerplay_efficiency[0:5]}}</td>
+                    <td>{{article.boxplay_efficiency[0:5]}}</td>
+                    <td>{{article.wins}}</td>
+                    <td>{{article.draws}}</td>
+                    <td>{{article.losses}}</td>
+                    <td>{{article.over_time_wins}}</td>
+                    <td>{{article.over_time_losses}}</td>
+                    <td>{{article.win_1}}</td>
+                    <td>{{article.loss_1}}</td>
+                    <td>{{article.points}}</td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+        <div class="row mt-4 ml-2">
+            <h2>Liga</h2>
+        </div>
+        <div class="row ml-2">
+            {% for article in articles_page.object_list %}
+            {% if article|string_in_category_path('liga') %}
+            <div class="col-lg-5 mt-4 mr-4 card">
+                <a href="{{ SITEURL }}/{{ article.url }}" class="pl-2 pt-2"><h5>{{ article.title }}</h5></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock content %}

@@ -37,4 +37,6 @@ env/
 
 # Custom stuff here
 
-/data
+/data/*
+/content/*
+/notebooks/.iypnb_checkpoints

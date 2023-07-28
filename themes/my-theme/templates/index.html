@@ -3,71 +3,18 @@
 {% block content %}
 <section>
     <div class="container justify-content-center">
+        <div class="row mt-5 m-2"></div>
         <div class="row mt-5 m-2">
-            <h1>Reguläre Saison 2022/23</h1>
-        </div>
-        <div class="row mt-4 ml-2">
-            <h2>Teams</h2>
+            <h1>Saison 2022/23</h1>
         </div>
         <div class="row ml-2">
 
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th scope="col">Platz</th>
-                    <th scope="col">Team</th>
-                    <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Powerplay Effizienz">PP%</th>
-                    <th scope="col" data-toggle="tooltip" title="Boxplay Effizienz">BP%</th>
-                    <th scope="col" data-toggle="tooltip" title="Siege">S</th>
-                    <th scope="col" data-toggle="tooltip" title="Unentschieden">U</th>
-                    <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
-                    <th scope="col" data-toggle="tooltip" title="Overtime Siege">OS</th>
-                    <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">ON</th>
-                    <th scope="col" data-toggle="tooltip" title="Sieg +1 Tor">S+1</th>
-                    <th scope="col" data-toggle="tooltip" title="Niederlage -1 Tor">N-1</th>
-                    <th scope="col" data-toggle="tooltip" title="Punkte">P</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for article in articles_page.object_list | sort_by_rank  %}
-                {% if article.category == "teams" %}
-                <tr>
-                    <td>{{article.rank}}</td>
-                    <th scope="row"><a href="{{article.url}}">{{article.team}}</a></th>
-                    <td>{{article.points_per_game}}</td>
-                    <td>{{article.goals_per_game}}</td>
-                    <td>{{article.goals_against_per_game}}</td>
-                    <td>{{article.powerplay_efficiency[0:5]}}</td>
-                    <td>{{article.boxplay_efficiency[0:5]}}</td>
-                    <td>{{article.wins}}</td>
-                    <td>{{article.draws}}</td>
-                    <td>{{article.losses}}</td>
-                    <td>{{article.over_time_wins}}</td>
-                    <td>{{article.over_time_losses}}</td>
-                    <td>{{article.win_1}}</td>
-                    <td>{{article.loss_1}}</td>
-                    <td>{{article.points}}</td>
-                </tr>
-                {% endif %}
-                {% endfor %}
-                </tbody>
-            </table>
-
-        </div>
-        <div class="row mt-4 ml-2">
-            <h2>Liga</h2>
-        </div>
-        <div class="row ml-2">
-            {% for article in articles_page.object_list %}
-            {% if article.category == "liga" %}
             <div class="col-lg-5 mt-4 mr-4 card">
-                <a href="{{ SITEURL }}/{{ article.url }}" class="pl-2 pt-2"><h5>{{ article.title }}</h5></a>
+                <a href="{{SITEURL}}/category/22-23-regular-season.html" class="pl-2 pt-2"> <h5>Reguläre Saison 22-23</h5></a>
             </div>
-            {% endif %}
-            {% endfor %}
+            <div class="col-lg-5 mt-4 mr-4 card">
+                <a href="{{SITEURL}}/category/22-23-playoffs.html" class="pl-2 pt-2"> <h5>Playoffs 2022-23</h5></a>
+            </div>
         </div>
     </div>
 </section>
@@ -76,24 +23,74 @@
         <h6>Glossar</h6>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>PpS: Punkte pro Spiel</p>
+                <p>T: Tore</p>
+                <p>G: Gegentore</p>
+                <p>+/-: Tordifferenz</p>
                 <p>TpS: Tore pro Spiel</p>
                 <p>GpS: Gegentore pro Spiel</p>
+                <p>HT: Heimtore</p>
+                <p>HG: Heimgegentore</p>
+                <p>AT: Auswärtstore</p>
+                <p>AG: Auswärtsgegentore</p>
+                <p>T_1: Tore 1. Drittel</p>
+                <p>T_2: Tore 2. Drittel</p>
+                <p>T_3: Tore 3. Drittel</p>
+                <p>T_O: Tore Overtime</p>
+                <p>G_1: Gegentore 1. Drittel</p>
+                <p>G_2: Gegentore 2. Drittel</p>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>PP%: Powerplay Effizienz</p>
-                <p>BP%: Boxplay Effizienz</p>
+                <p>G_3: Gegentore 3. Drittel</p>
+                <p>G_O: Gegentore Overtime</p>
+                <p>P: Punkte</p>
+                <p>PpS: Punkte pro Spiel</p>
+                <p>HP: Heimpunkte</p>
+                <p>AP: Auswärtspunkte</p>
                 <p>S: Siege</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <p>U: Unentschieden</p>
                 <p>N: Niederlagen</p>
-                <p>OS: Overtime Siege</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>ON: Overtime Niederlagen</p>
+                <p>SO: Siege Overtime</p>
+                <p>NO: Niederlagen Overtime</p>
                 <p>S+1: Siege mit einem Tor Differenz</p>
                 <p>N-1: Niederlagen mit einem Tor Differenz</p>
+                <p>SR: Scoring Ratio</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>P_20min: Punkte nach 20 min</p>
+                <p>P_40min: Punkte nach 40 min</p>
+                <p>P_55min: Punkte nach 55 min</p>
+                <p>P_58min: Punkte nach 58 min</p>
+                <p>P_59min: Punkte nach 59 min</p>
+                <p>PPT: Powerplay Tore</p>
+                <p>PPs: Powerplays</p>
+                <p>PP%: Powerplay Effizienz</p>
+                <p>PPpS: Powerplays pro Spiel</p>
+                <p>BPG: Boxplay Gegentore</p>
+                <p>BPs: Boxplays</p>
+                <p>BP%: Boxplay Effizienz</p>
+                <p>BPpS: Boxplays pro Spiel</p>
+                <p>ST: Shorthanded Tore</p>
+                <p>SG: Shorthanded Gegentore</p>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <p>PP_1: Powerplay 1. Drittel</p>
+                <p>PP_2: Powerplay 2. Drittel</p>
+                <p>PP_3: Powerplay 3. Drittel</p>
+                <p>PP_O: Powerplay Overtime</p>
+                <p>BP_1: Boxplay 1. Drittel</p>
+                <p>BP_2: Boxplay 2. Drittel</p>
+                <p>BP_3: Boxplay 3. Drittel</p>
+                <p>BP_O: Boxplay Overtime</p>
+                <p>FT: Führungstor (nur das erste)</p>
+                <p>AT: Ausgleichstor</p>
+                <p>1:0: Erste Tor im Spiel geschossen</p>
+                <p>FG: Führungsgegentor</p>
+                <p>AG: Ausgleichsgegentor</p>
+                <p>0:1: Erste Tor im Spiel gekriegt</p>
+                <p>P*: Punkte knappes Spiel</p>
+                <p>S*: Siege knappes Spiel</p>
+                <p>N*: Niederlagen knappes Spiel</p>
             </div>
         </div>
     </div>

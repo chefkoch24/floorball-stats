@@ -1,14 +1,17 @@
+from pelican.plugins import more_categories, jinja_filters
+from functools import partial
+
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 PLUGINS = [
-    # others...
-    "pelican.plugins.jinja_filters",
+    jinja_filters,
+    more_categories
 ]
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
-
+USE_FOLDER_AS_CATEGORY = False
 DEFAULT_LANG = 'de'
 THEME = 'themes/my-theme/'
 
@@ -19,7 +22,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-ARTICLE_PATHS = ['teams', 'liga']
+ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga']
 
 
 # Blogroll
@@ -38,23 +41,27 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 MENUITEMS = (
-    ('Berlin Rockets', '/berlin-rockets.html'),
-    ('Blau Weiss Schenefeld', '/blau-weiss-schenefeld.html'),
-    ('DJK Holzbüttgen', '/djk-holzbuettgen.html'),
-    ('ETV Piranhhas Hamburg', '/etv-piranhhas-hamburg.html'),
-    ('Floor Fighters Chemnitz', '/floor-fighters-chemnitz.html'),
-    ('MFBC Leipzig', '/mfbc-leipzig.html'),
-    ('Red Devils Wernigerode', '/red-devils-wernigerode.html'),
-    ('SSF Dragons Bonn', '/ssf-dragons-bonn.html'),
-    ('TV Schriesheim', '/tv-schriesheim.html'),
-    ('UHC Sparkasse Weißenfels', '/uhc-sparkasse-weissenfels.html'),
-    ('Unihockey Igels Dresden', '/unihockey-igels-dresden.html'),
-    ('VFL Red Hocks Kaufering', '/vfl-red-hocks-kaufering.html'),
+    ('Regular Season 22-23', '/category/22-23-regular-season.html'),
+    ('Playoffs 22-23', '/category/22-23-playoffs.html'),
 )
 
-from functools import partial
+def string_in_category_path(article, string_to_check):
+    # Get the article's category path as a list of strings
+    categories = [c.shortname for c in article.categories]
+    categories = [c.split('-') for c in categories]
+    categories = [item for sublist in categories for item in sublist]
+    # Check if the string is in the category path
+    return string_to_check in categories
+
+def category2string(slug):
+    slug = slug.split('-')
+    slug = [s.capitalize() for s in slug]
+    return f'{slug[0]}/{slug[1]} ' + " ".join(slug[2:])
+
 
 JINJA_FILTERS = {
     'sort_by_rank': partial(sorted,
-        key=lambda article: float(article.rank))
+        key=lambda article: float(article.rank)),
+    'string_in_category_path': string_in_category_path,
+    'category2string': category2string,
 } # reversed for descending order

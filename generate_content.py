@@ -1,14 +1,31 @@
 from datetime import datetime
 import pandas as pd
 import numpy as np
+import argparse
+import os
 
+def str2bool(val):
+    if isinstance(val, bool):
+        return val
+    if val.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif val.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Expected boolean value.')
+
+def create_path_if_not_exists(directory_path):
+    if not os.path.exists(directory_path):
+        os.makedirs(directory_path)
 
 def dict_to_markdown(dictionary):
     markdown = ""
     # add meta data
     date = datetime.now().strftime('%Y-%m-%d')
+    typ = 'liga' if dictionary['team'] not in teams else 'teams'
     markdown += "Date: " + date + "\n"
     markdown += f"Title: {stats['team']}\n"
+    markdown += f"Category: {args.year}-{time_of_year}, {typ}\n"
     markdown += f"Slug: {generate_slug(dictionary['team'])}\n"
     for key, value in dictionary.items():
         if key != 'points_against':
@@ -27,7 +44,7 @@ def generate_slug(name: str):
     filename = filename.replace('ä', 'ae')
     filename = filename.replace('ü', 'ue')
     filename = filename.replace('ß', 'ss')
-    return filename
+    return filename + f'-{args.year}-{time_of_year}'
 
 def initalize_stats(team, teams):
     return{'team': team,
@@ -78,9 +95,17 @@ def initalize_stats(team, teams):
         'points_against': {t: 0 for t in teams if t != team},
         'points_after_first_period': 0,
         'points_after_second_period': 0,
+        'points_after_third_period': 0,
         'points_after_55_min': 0,
+        'points_after_58_min': 0,
+        'points_after_59_min': 0,
         'win_1':0,
         'loss_1':0,
+        'points_max_difference_3': 0,
+        'points_more_3_difference': 0,
+        'close_game_win': 0,
+        'close_game_loss': 0,
+        'close_game_overtime': 0,
     }
 
 
@@ -95,8 +120,8 @@ def transform_in_seconds(data):
     return data
 
 def is_boxplay(time):
-    if len(penalties_for_us) > len(penalties_opponent):
-        if time - penalties_for_us[0] <= 120:
+    if len(penalties_for) > len(penalties_against):
+        if time - penalties_for[0] <= 120:
             return True
         else:
             return False
@@ -104,8 +129,8 @@ def is_boxplay(time):
         return False
 
 def is_powerplay(time):
-    if len(penalties_for_us) < len(penalties_opponent):
-        if time - penalties_opponent[0] <= 120:
+    if len(penalties_for) < len(penalties_against):
+        if time - penalties_against[0] <= 120:
             return True
         else:
             return False
@@ -142,26 +167,42 @@ def add_points(team, event):
     else:
         return 0, 'losses',  event[team_final]- event[opponent_final]
 
+def read_data(path):
+    return pd.read_csv(path)
 
 
-data = pd.read_csv('data/goals_team.csv')
+arg_parser = argparse.ArgumentParser()
+arg_parser.add_argument("--input_path", type=str, default="data/data_regular_season.csv")
+arg_parser.add_argument("--output_path", type=str, default="data/enriched_data_regular_season.csv")
+arg_parser.add_argument("--year", type=str, default='22-23')
+arg_parser.add_argument("--is_playoffs", type=str2bool, nargs='?', const=True, default=False)
+args, _ = arg_parser.parse_known_args()
+
+data = read_data(args.input_path)
 teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VfL Red Hocks Kaufering', 'Floor Fighters Chemnitz', 'SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Blau-Weiß 96 Schenefeld']
-playoff_teams = teams[:9]
-playdown_teams = teams[9:]
-teams = playoff_teams + playdown_teams
+playoff_teams = teams[:8]
+playdown_teams = teams[8:]
 top4_teams = playoff_teams[:4]
+time_of_year = 'playoffs' if args.is_playoffs else 'regular-season'
 print()
 EVENT_GOAL = 'goal'
 EVENT_PENALTY = 'penalty'
-OUTPUT_FOLDER = 'content/teams/'
-OUTPUT_FOLDER_LIGA = 'content/liga/'
+OUTPUT_FOLDER = f'content/{args.year}-{time_of_year}/teams/'
+OUTPUT_FOLDER_LIGA = f'content/{args.year}-{time_of_year}/liga/'
+create_path_if_not_exists(OUTPUT_FOLDER)
+create_path_if_not_exists(OUTPUT_FOLDER_LIGA)
 
 playoff_stats = []
 playdown_stats = []
 average_stats = []
 top4_team_stats = []
+goal_differences_in_game = []
+
+if args.is_playoffs:
+    teams = playoff_teams
 
 for rank, team in enumerate(teams):
+    print(team)
     stats = initalize_stats(team, teams)
     stats['rank'] = rank+1
 
@@ -178,31 +219,49 @@ for rank, team in enumerate(teams):
     for i, event in events_from_team.iterrows():
             index += 1
 
-            # reset for new game
+            # reset variables for new game
             if prev_game_id != event['game_id'] or prev_game_id is None:
-                penalties_for_us = []
-                penalties_opponent = []
+                penalties_for = []
+                penalties_against = []
                 stats['games'] += 1
-                is_crunchtime = True
+                calculated_55_min = False
+                calculated_58_min = False
+                calculated_59_min = False
 
             # intermediate points after period
-            if prev_period < event['period']:
+            if prev_period != event['period']:
                 if event['period'] == 2:
                     stats['points_after_first_period'] += add_points(team, event)[0]
                 elif event['period'] == 3:
                     stats['points_after_second_period'] += add_points(team, event)[0]
 
-            if (event['time_in_s'] >= 55 * 60 or (prev_game_id != event['game_id'] and prev_game_id is not None)) and is_crunchtime:
-                stats['points_after_55_min'] += add_points(team, last_goal_event)[0]
-                is_crunchtime = False
+            if ((event['time_in_s'] >= 55 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_55_min:
+                if last_goal_event['period'] != 4:
+                    stats['points_after_55_min'] += add_points(team, last_goal_event)[0]
+                else:
+                    stats['points_after_55_min'] += 1
+                calculated_55_min = True
+            if ((event['time_in_s'] >= 58 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_58_min:
+                if last_goal_event['period'] != 4:
+                    stats['points_after_58_min'] += add_points(team, last_goal_event)[0]
+                else:
+                    stats['points_after_58_min'] += 1
+                calculated_58_min = True
+            if ((event['time_in_s'] >= 59 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_59_min:
+                if last_goal_event['period'] != 4:
+                    stats['points_after_59_min'] += add_points(team, last_goal_event)[0]
+                else:
+                    stats['points_after_59_min'] += 1
+                calculated_59_min = True
+
 
             # check if penalties are over
-            if len(penalties_for_us) > 0:
-                if event['time_in_s'] - penalties_for_us[0] >= 120:
-                    penalties_for_us.pop(0)
-            if len(penalties_opponent) > 0:
-                if event['time_in_s'] - penalties_opponent[0] >= 120:
-                    penalties_opponent.pop(0)
+            if len(penalties_for) > 0:
+                if event['time_in_s'] - penalties_for[0] >= 120:
+                    penalties_for.pop(0)
+            if len(penalties_against) > 0:
+                if event['time_in_s'] - penalties_against[0] >= 120:
+                    penalties_against.pop(0)
             # our goals
             if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
                 stats['goals'] += 1
@@ -218,9 +277,9 @@ for rank, team in enumerate(teams):
                     stats['goals_in_boxplay'] += 1
                     event['goal_in_boxplay'] = 1
                 if is_powerplay(event['time_in_s']):
-                    if event['time_in_s'] - penalties_opponent[0] <= 120:
+                    if event['time_in_s'] - penalties_against[0] <= 120:
                         stats['goals_in_powerplay'] += 1
-                        penalties_opponent.pop(0) # remove penalty
+                        penalties_against.pop(0) # remove penalty
                         event['is_powerplay_goal'] = 1
 
                 if event['home_goals'] - event['guest_goals'] == 1:
@@ -252,9 +311,9 @@ for rank, team in enumerate(teams):
                     stats['goals_against_in_powerplay']+=1
                     event['goal_against_powerplay'] = 1
                 if is_boxplay(event['time_in_s']):
-                    if event['time_in_s'] - penalties_for_us[0] <= 120:
+                    if event['time_in_s'] - penalties_for[0] <= 120:
                         stats['goals_against_in_boxplay'] += 1
-                        penalties_for_us.pop(0) # remove penalty
+                        penalties_for.pop(0) # remove penalty
                         event['is_boxplay_goal_against'] = 1
                 else:
                     stats['goals_not_in_boxplay'] += 1
@@ -275,7 +334,7 @@ for rank, team in enumerate(teams):
 
             # boxplay
             if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
-                penalties_for_us = add_penalties(event['penalty_type'], penalties_for_us, event['time_in_s'])
+                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
                 stats['boxplay'] += 1
                 if event['period'] == 1:
                     stats['boxplay_first_period'] += 1
@@ -287,7 +346,7 @@ for rank, team in enumerate(teams):
                     stats['boxplay_overtime'] += 1
             # powerplay
             if event['event_type'] == EVENT_PENALTY and event['event_team'] != team:
-                penalties_opponent = add_penalties(event['penalty_type'], penalties_opponent, event['time_in_s'])
+                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
                 stats['powerplay'] += 1
                 if event['period'] == 1:
                     stats['powerplay_first_period'] += 1
@@ -315,11 +374,25 @@ for rank, team in enumerate(teams):
                         stats['win_1'] += 1
                     elif diff == -1:
                         stats['loss_1'] += 1
+                    if max(goal_differences_in_game) < 3:
+                        points = add_points(team, last_goal_event)[0]
+                        stats['points_max_difference_3'] += points
+                        if points == 3:
+                            stats['close_game_win'] += 1
+                        elif points == 0:
+                            stats['close_game_loss'] += 1
+                        else:
+                            stats['close_game_overtime'] += 1
+                    else:
+                        stats['points_more_3_difference'] += add_points(team, last_goal_event)[0]
+                    goal_differences_in_game = []
+
 
             prev_game_id = event['game_id']
             prev_period = event['period']
             if event['event_type'] == EVENT_GOAL:
                 last_goal_event = event
+                goal_differences_in_game.append(abs(event['home_goals'] - event['guest_goals']))
             enriched_events.append(event)
 
     # calculated stats
@@ -339,9 +412,12 @@ for rank, team in enumerate(teams):
     stats['percent_goals_third_period_against'] = round(stats['goals_in_third_period_against'] / stats['goals_against'], 4)*100
     stats['percent_goals_overtime_against'] = round(stats['goals_in_overtime_against'] / stats['goals_against'], 4)*100
     stats['points_per_game'] = round(stats['points'] / stats['games'], 2)
+    stats['goal_difference'] = stats['goals'] - stats['goals_against']
+    stats['goal_difference_per_game'] = round(stats['goal_difference'] / stats['games'], 2)
+    stats['is_playoffs'] = team in playoff_teams
+    stats['scoring_ratio'] = round(stats['goals'] / stats['goals_against'],2)
 
-
-    #pd.DataFrame(enriched_events).to_csv('enriched_events.csv')
+    pd.DataFrame(enriched_events).to_csv(args.output_path)
     md = dict_to_markdown(stats)
     filename = generate_slug(stats['team'])
 
@@ -356,8 +432,12 @@ for rank, team in enumerate(teams):
         playdown_stats.append(stats)
     average_stats.append(stats)
 
+pd.DataFrame(average_stats).to_csv('data/processed_stats.csv')
+
 for filename, aggregated_stats in [('playoffs', playoff_stats), ('playdowns', playdown_stats), ('ligaschnitt',average_stats), ('top_4_teams', top4_team_stats)]:
     # calculate average stats over all items in the list for each respective key
+    if args.is_playoffs and filename in ['playdowns', 'top_4_teams']:
+        break
     stats = {}
     for key in aggregated_stats[0].keys():
         if key in ['team', 'points_against']:

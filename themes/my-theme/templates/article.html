@@ -3,7 +3,8 @@
 {% block content %}
 <section>
     <div class="container justify-content-center">
-        <div class="row ml-2" style="margin-top: 5rem!important">
+        <div class="row mt-5 m-2"></div>
+        <div class="row mt-5 ml-2">
             <h2>{{ article.title }}</h2>
         </div>
         <div class="row m-2">
@@ -13,8 +14,11 @@
                 <tr>
                     <th scope="col" data-toggle="tooltip" title="Tore">T</th>
                     <th scope="col" data-toggle="tooltip" title="Gegentore">G</th>
+                    <th scope="col" data-toggle="tooltip" title="Differenz">+/-</th>
                     <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
                     <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
+                    <th scope="col" data-toggle="tooltip" title="Differenz pro Spiel">+/-</th>
+                    <th scope="col" data-toggle="tooltip" title="Scoring Ratio">SR</th>
                     <th scope="col" data-toggle="tooltip" title="Heimtore">HT</th>
                     <th scope="col" data-toggle="tooltip" title="Heimgegentore">HG</th>
                     <th scope="col" data-toggle="tooltip" title="Auswärtstore">AT</th>
@@ -33,8 +37,11 @@
                 <tr>
                     <td>{{article.goals}}</td>
                     <td>{{article.goals_against}}</td>
+                    <td>{{article.goal_difference}}</td>
                     <td>{{article.goals_per_game}}</td>
                     <td>{{article.goals_against_per_game}}</td>
+                    <td>{{article.goal_difference_per_game}}</td>
+                    <td>{{article.scoring_ratio}}</td>
                     <td>{{article.goals_home}}</td>
                     <td>{{article.goals_against_home}}</td>
                     <td>{{article.goals_away}}</td>
@@ -71,6 +78,11 @@
                     <th scope="col" data-toggle="tooltip" title="Punkte nach 20 min">P_20min</th>
                     <th scope="col" data-toggle="tooltip" title="Punkte nach 40 min">P_40min</th>
                     <th scope="col" data-toggle="tooltip" title="Punkte nach 55 min">P_55min</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte nach 58 min">P_58min</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte nach 59 min">P_59min</th>
+                    <th scope="col" data-toggle="tooltip" title="Siege knappe Spiele">S*</th>
+                    <th scope="col" data-toggle="tooltip" title="Niederlage knappe Spiele">N*</th>
+                    <th scope="col" data-toggle="tooltip" title="Punkte aus knappen Spielen">P*</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -89,7 +101,11 @@
                     <td>{{article.points_after_first_period}}</td>
                     <td>{{article.points_after_second_period}}</td>
                     <td>{{article.points_after_55_min}}</td>
-
+                    <td>{{article.points_after_58_min}}</td>
+                    <td>{{article.points_after_59_min}}</td>
+                    <td>{{article.close_game_win}}</td>
+                    <td>{{article.close_game_loss}}</td>
+                    <td>{{article.points_max_difference_3}}</td>
                 </tr>
                 </tbody>
             </table>
@@ -186,75 +202,4 @@
     </div>
 </section>
 
-<section >
-    <div class="glossary container p-3 mt-5 ">
-        <h6>Glossar</h6>
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>T: Tore</p>
-                <p>G: Gegentore</p>
-                <p>TpS: Tore pro Spiel</p>
-                <p>GpS: Gegentore pro Spiel</p>
-                <p>HT: Heimtore</p>
-                <p>HG: Heimgegentore</p>
-                <p>AT: Auswärtstore</p>
-                <p>AG: Auswärtsgegentore</p>
-                <p>T_1: Tore 1. Drittel</p>
-                <p>T_2: Tore 2. Drittel</p>
-                <p>T_3: Tore 3. Drittel</p>
-                <p>T_O: Tore Overtime</p>
-                <p>G_1: Gegentore 1. Drittel</p>
-                <p>G_2: Gegentore 2. Drittel</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>G_3: Gegentore 3. Drittel</p>
-                <p>G_O: Gegentore Overtime</p>
-                <p>P: Punkte</p>
-                <p>PpS: Punkte pro Spiel</p>
-                <p>HP: Heimpunkte</p>
-                <p>AP: Auswärtspunkte</p>
-                <p>S: Siege</p>
-                <p>U: Unentschieden</p>
-                <p>N: Niederlagen</p>
-                <p>SO: Siege Overtime</p>
-                <p>NO: Niederlagen Overtime</p>
-                <p>S+1: Siege mit einem Tor Differenz</p>
-                <p>N-1: Niederlagen mit einem Tor Differenz</p>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>P_20min: Punkte nach 20 min</p>
-                <p>P_40min: Punkte nach 40 min</p>
-                <p>P_60min: Punkte nach 55 min</p>
-                <p>PPT: Powerplay Tore</p>
-                <p>PPs: Powerplays</p>
-                <p>PP%: Powerplay Effizienz</p>
-                <p>PPpS: Powerplays pro Spiel</p>
-                <p>BPG: Boxplay Gegentore</p>
-                <p>BPs: Boxplays</p>
-                <p>BP%: Boxplay Effizienz</p>
-                <p>BPpS: Boxplays pro Spiel</p>
-                <p>ST: Shorthanded Tore</p>
-                <p>SG: Shorthanded Gegentore</p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <p>PP_1: Powerplay 1. Drittel</p>
-                <p>PP_2: Powerplay 2. Drittel</p>
-                <p>PP_3: Powerplay 3. Drittel</p>
-                <p>PP_O: Powerplay Overtime</p>
-                <p>BP_1: Boxplay 1. Drittel</p>
-                <p>BP_2: Boxplay 2. Drittel</p>
-                <p>BP_3: Boxplay 3. Drittel</p>
-                <p>BP_O: Boxplay Overtime</p>
-                <p>FT: Führungstor (nur das erste)</p>
-                <p>AT: Ausgleichstor</p>
-                <p>1:0: Erste Tor im Spiel geschossen</p>
-                <p>FG: Führungsgegentor</p>
-                <p>AG: Ausgleichsgegentor</p>
-                <p>0:1: Erste Tor im Spiel gekriegt</p>
-            </div>
-        </div>
-    </div>
-
-</section>
 {% endblock content %}
