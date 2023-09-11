@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Floor Fighters Chemnitz
 Category: 22-23-regular-season, teams
 Slug: floor-fighters-chemnitz-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 61
 goals_away: 75
-goals_against_home: 94
-goals_against_away: 72
+goals_against_home: 72
+goals_against_away: 94
 points: 23
 home_points: 8
 away_points: 15
@@ -48,8 +48,8 @@ losses: 13
 over_time_losses: 1
 draws: 1
 Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 1,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 3,  SSF Dragons Bonn: 4,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
-points_after_first_period: 25
-points_after_second_period: 18
+points_after_first_period: 18
+points_after_second_period: 24
 points_after_third_period: 0
 points_after_55_min: 24
 points_after_58_min: 23
@@ -61,7 +61,6 @@ points_more_3_difference: 16
 close_game_win: 2
 close_game_loss: 3
 close_game_overtime: 1
-rank: 8
 goals_per_game: 6.18
 goals_against_per_game: 7.55
 boxplay_per_game: 2.41
@@ -81,3 +80,4 @@ goal_difference: -30
 goal_difference_per_game: -1.36
 is_playoffs: True
 scoring_ratio: 0.82
+rank: 8

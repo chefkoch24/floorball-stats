@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: TV Schriesheim
 Category: 22-23-regular-season, teams
 Slug: tv-schriesheim-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 88
 goals_away: 73
-goals_against_home: 72
-goals_against_away: 77
+goals_against_home: 77
+goals_against_away: 72
 points: 35
 home_points: 17
 away_points: 18
@@ -48,8 +48,8 @@ losses: 10
 over_time_losses: 0
 draws: 0
 Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 2,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
-points_after_first_period: 37
-points_after_second_period: 35
+points_after_first_period: 26
+points_after_second_period: 40
 points_after_third_period: 0
 points_after_55_min: 34
 points_after_58_min: 34
@@ -61,7 +61,6 @@ points_more_3_difference: 32
 close_game_win: 1
 close_game_loss: 2
 close_game_overtime: 0
-rank: 6
 goals_per_game: 7.32
 goals_against_per_game: 6.77
 boxplay_per_game: 2.82
@@ -81,3 +80,4 @@ goal_difference: 12
 goal_difference_per_game: 0.55
 is_playoffs: True
 scoring_ratio: 1.08
+rank: 6

@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Top_4_teams
 Category: 22-23-regular-season, liga
 Slug: top_4_teams-22-23-regular-season
@@ -36,8 +36,8 @@ powerplay_overtime: 0.25
 games: 22.0
 goals_home: 91.25
 goals_away: 79.5
-goals_against_home: 62.25
-goals_against_away: 49.75
+goals_against_home: 49.75
+goals_against_away: 62.25
 points: 50.25
 home_points: 28.75
 away_points: 21.5
@@ -46,8 +46,8 @@ over_time_wins: 0.75
 losses: 4.5
 over_time_losses: 0.5
 draws: 0.25
-points_after_first_period: 36.75
-points_after_second_period: 44.0
+points_after_first_period: 35.75
+points_after_second_period: 42.5
 points_after_third_period: 0.0
 points_after_55_min: 49.75
 points_after_58_min: 49.5
@@ -59,7 +59,6 @@ points_more_3_difference: 38.75
 close_game_win: 3.25
 close_game_loss: 0.75
 close_game_overtime: 1.0
-rank: 2.5
 goals_per_game: 7.76
 goals_against_per_game: 5.09
 boxplay_per_game: 1.9
@@ -79,4 +78,5 @@ goal_difference: 58.75
 goal_difference_per_game: 2.67
 is_playoffs: 1.0
 scoring_ratio: 1.54
+rank: 2.5
 team: Top_4_teams

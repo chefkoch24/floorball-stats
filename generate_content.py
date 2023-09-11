@@ -179,7 +179,7 @@ arg_parser.add_argument("--is_playoffs", type=str2bool, nargs='?', const=True, d
 args, _ = arg_parser.parse_known_args()
 
 data = read_data(args.input_path)
-teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VfL Red Hocks Kaufering', 'Floor Fighters Chemnitz', 'SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Blau-Weiß 96 Schenefeld']
+teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VfL Red Hocks Kaufering', 'Floor Fighters Chemnitz', 'SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Floorball-Club München']#'Blau-Weiß 96 Schenefeld']
 playoff_teams = teams[:8]
 playdown_teams = teams[8:]
 top4_teams = playoff_teams[:4]
@@ -201,10 +201,11 @@ goal_differences_in_game = []
 if args.is_playoffs:
     teams = playoff_teams
 
+all = []
+
 for rank, team in enumerate(teams):
     print(team)
     stats = initalize_stats(team, teams)
-    stats['rank'] = rank+1
 
     events_from_team = data[(data['home_team_name'] == team) | (data['away_team_name'] == team)]
     events_from_team = transform_in_seconds(events_from_team)
@@ -231,9 +232,9 @@ for rank, team in enumerate(teams):
             # intermediate points after period
             if prev_period != event['period']:
                 if event['period'] == 2:
-                    stats['points_after_first_period'] += add_points(team, event)[0]
+                    stats['points_after_first_period'] += add_points(team,last_goal_event)[0]
                 elif event['period'] == 3:
-                    stats['points_after_second_period'] += add_points(team, event)[0]
+                    stats['points_after_second_period'] += add_points(team, last_goal_event)[0]
 
             if ((event['time_in_s'] >= 55 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_55_min:
                 if last_goal_event['period'] != 4:
@@ -327,7 +328,7 @@ for rank, team in enumerate(teams):
                 if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
                     stats['first_goal_of_match_against'] +=1
 
-                if event['event_team'] == event['home_team_name']:
+                if event['event_team'] != event['home_team_name']:
                     stats['goals_against_home'] += 1
                 else:
                     stats['goals_against_away'] += 1
@@ -418,19 +419,25 @@ for rank, team in enumerate(teams):
     stats['scoring_ratio'] = round(stats['goals'] / stats['goals_against'],2)
 
     pd.DataFrame(enriched_events).to_csv(args.output_path)
+
+    all.append(stats)
+all = sorted(all, key=lambda x: (-x['points'], -x['goal_difference']))
+
+for index, stats in enumerate(all):
+    stats['rank'] = index + 1
+    if stats['rank'] <= 8:
+        playoff_stats.append(stats)
+        if stats['rank'] <= 4:
+            top4_team_stats.append(stats)
+    elif stats['rank'] > 8:
+        playdown_stats.append(stats)
+    average_stats.append(stats)
     md = dict_to_markdown(stats)
     filename = generate_slug(stats['team'])
 
     with open(OUTPUT_FOLDER + filename + '.md', 'w') as f:
         f.write(md)
 
-    if team in playoff_teams:
-        playoff_stats.append(stats)
-        if team in top4_teams:
-            top4_team_stats.append(stats)
-    elif team in playdown_teams:
-        playdown_stats.append(stats)
-    average_stats.append(stats)
 
 pd.DataFrame(average_stats).to_csv('data/processed_stats.csv')
 

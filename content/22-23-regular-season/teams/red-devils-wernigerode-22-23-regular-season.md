@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Red Devils Wernigerode
 Category: 22-23-regular-season, teams
 Slug: red-devils-wernigerode-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 59
 goals_away: 66
-goals_against_home: 99
-goals_against_away: 88
+goals_against_home: 88
+goals_against_away: 99
 points: 18
 home_points: 6
 away_points: 12
@@ -48,8 +48,8 @@ losses: 14
 over_time_losses: 3
 draws: 0
 Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 4,  Berlin Rockets: 1,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 1,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 0,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 3,
-points_after_first_period: 27
-points_after_second_period: 27
+points_after_first_period: 30
+points_after_second_period: 25
 points_after_third_period: 0
 points_after_55_min: 18
 points_after_58_min: 18
@@ -61,7 +61,6 @@ points_more_3_difference: 13
 close_game_win: 1
 close_game_loss: 3
 close_game_overtime: 2
-rank: 10
 goals_per_game: 5.68
 goals_against_per_game: 8.5
 boxplay_per_game: 2.45
@@ -81,3 +80,4 @@ goal_difference: -62
 goal_difference_per_game: -2.82
 is_playoffs: False
 scoring_ratio: 0.67
+rank: 10

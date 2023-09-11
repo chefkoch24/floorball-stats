@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Playdowns
 Category: 22-23-regular-season, liga
 Slug: playdowns-22-23-regular-season
@@ -36,8 +36,8 @@ powerplay_overtime: 0.0
 games: 22.0
 goals_home: 59.75
 goals_away: 55.0
-goals_against_home: 88.75
-goals_against_away: 85.75
+goals_against_home: 85.75
+goals_against_away: 88.75
 points: 16.0
 home_points: 6.25
 away_points: 9.75
@@ -46,8 +46,8 @@ over_time_wins: 0.75
 losses: 15.25
 over_time_losses: 1.75
 draws: 0.0
-points_after_first_period: 26.75
-points_after_second_period: 20.75
+points_after_first_period: 28.5
+points_after_second_period: 20.25
 points_after_third_period: 0.0
 points_after_55_min: 14.75
 points_after_58_min: 14.5
@@ -59,7 +59,6 @@ points_more_3_difference: 12.0
 close_game_win: 0.5
 close_game_loss: 2.25
 close_game_overtime: 2.0
-rank: 10.5
 goals_per_game: 5.22
 goals_against_per_game: 7.93
 boxplay_per_game: 2.24
@@ -79,4 +78,5 @@ goal_difference: -59.75
 goal_difference_per_game: -2.72
 is_playoffs: 0.0
 scoring_ratio: 0.67
+rank: 10.5
 team: Playdowns

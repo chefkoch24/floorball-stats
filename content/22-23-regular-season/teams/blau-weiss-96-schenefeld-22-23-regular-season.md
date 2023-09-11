@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Blau-Weiß 96 Schenefeld
 Category: 22-23-regular-season, teams
 Slug: blau-weiss-96-schenefeld-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 60
 goals_away: 39
-goals_against_home: 94
-goals_against_away: 96
+goals_against_home: 96
+goals_against_away: 94
 points: 8
 home_points: 4
 away_points: 4
@@ -48,8 +48,8 @@ losses: 18
 over_time_losses: 2
 draws: 0
 Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 2,
-points_after_first_period: 15
-points_after_second_period: 12
+points_after_first_period: 16
+points_after_second_period: 8
 points_after_third_period: 0
 points_after_55_min: 8
 points_after_58_min: 8
@@ -61,7 +61,6 @@ points_more_3_difference: 6
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 2
-rank: 12
 goals_per_game: 4.5
 goals_against_per_game: 8.64
 boxplay_per_game: 3.09
@@ -81,3 +80,4 @@ goal_difference: -91
 goal_difference_per_game: -4.14
 is_playoffs: False
 scoring_ratio: 0.52
+rank: 12

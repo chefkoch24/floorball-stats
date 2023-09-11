@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: Ligaschnitt
 Category: 22-23-regular-season, liga
 Slug: ligaschnitt-22-23-regular-season
@@ -36,8 +36,8 @@ powerplay_overtime: 0.17
 games: 22.0
 goals_home: 75.08
 goals_away: 68.92
-goals_against_home: 75.08
-goals_against_away: 68.92
+goals_against_home: 68.92
+goals_against_away: 75.08
 points: 32.92
 home_points: 16.75
 away_points: 16.17
@@ -46,8 +46,8 @@ over_time_wins: 1.0
 losses: 9.92
 over_time_losses: 1.0
 draws: 0.17
-points_after_first_period: 31.17
-points_after_second_period: 31.58
+points_after_first_period: 30.25
+points_after_second_period: 31.5
 points_after_third_period: 0.0
 points_after_55_min: 31.75
 points_after_58_min: 31.42
@@ -59,7 +59,6 @@ points_more_3_difference: 26.5
 close_game_win: 1.58
 close_game_loss: 1.58
 close_game_overtime: 1.17
-rank: 6.5
 goals_per_game: 6.55
 goals_against_per_game: 6.55
 boxplay_per_game: 2.14
@@ -79,4 +78,5 @@ goal_difference: 0.0
 goal_difference_per_game: 0.0
 is_playoffs: 0.67
 scoring_ratio: 1.07
+rank: 6.5
 team: Ligaschnitt

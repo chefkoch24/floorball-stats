@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: VfL Red Hocks Kaufering
 Category: 22-23-regular-season, teams
 Slug: vfl-red-hocks-kaufering-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 77
 goals_away: 60
-goals_against_home: 59
-goals_against_away: 67
+goals_against_home: 67
+goals_against_away: 59
 points: 30
 home_points: 15
 away_points: 15
@@ -48,8 +48,8 @@ losses: 11
 over_time_losses: 1
 draws: 0
 Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 4,  TV Schriesheim: 0,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 3,  Red Devils Wernigerode: 5,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
-points_after_first_period: 20
-points_after_second_period: 27
+points_after_first_period: 21
+points_after_second_period: 24
 points_after_third_period: 0
 points_after_55_min: 29
 points_after_58_min: 29
@@ -61,7 +61,6 @@ points_more_3_difference: 25
 close_game_win: 1
 close_game_loss: 2
 close_game_overtime: 1
-rank: 7
 goals_per_game: 6.23
 goals_against_per_game: 5.73
 boxplay_per_game: 2.32
@@ -81,3 +80,4 @@ goal_difference: 11
 goal_difference_per_game: 0.5
 is_playoffs: True
 scoring_ratio: 1.09
+rank: 7

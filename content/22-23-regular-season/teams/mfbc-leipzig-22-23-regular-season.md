@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: MFBC Leipzig
 Category: 22-23-regular-season, teams
 Slug: mfbc-leipzig-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 111
 goals_away: 91
-goals_against_home: 60
-goals_against_away: 42
+goals_against_home: 42
+goals_against_away: 60
 points: 54
 home_points: 30
 away_points: 24
@@ -48,8 +48,8 @@ losses: 3
 over_time_losses: 1
 draws: 0
 Tags:  DJK Holzbüttgen: 6,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 1,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 5,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
-points_after_first_period: 49
-points_after_second_period: 52
+points_after_first_period: 44
+points_after_second_period: 50
 points_after_third_period: 0
 points_after_55_min: 53
 points_after_58_min: 53
@@ -61,7 +61,6 @@ points_more_3_difference: 46
 close_game_win: 2
 close_game_loss: 1
 close_game_overtime: 1
-rank: 1
 goals_per_game: 9.18
 goals_against_per_game: 4.64
 boxplay_per_game: 1.45
@@ -81,3 +80,4 @@ goal_difference: 100
 goal_difference_per_game: 4.55
 is_playoffs: True
 scoring_ratio: 1.98
+rank: 1

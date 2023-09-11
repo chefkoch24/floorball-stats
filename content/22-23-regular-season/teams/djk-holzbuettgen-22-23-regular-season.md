@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: DJK Holzbüttgen
 Category: 22-23-regular-season, teams
 Slug: djk-holzbuettgen-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 85
 goals_away: 79
-goals_against_home: 62
-goals_against_away: 45
+goals_against_home: 45
+goals_against_away: 62
 points: 51
 home_points: 27
 away_points: 24
@@ -48,8 +48,8 @@ losses: 5
 over_time_losses: 0
 draws: 0
 Tags:  MFBC Leipzig: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 6,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 3,
-points_after_first_period: 41
-points_after_second_period: 44
+points_after_first_period: 42
+points_after_second_period: 47
 points_after_third_period: 0
 points_after_55_min: 49
 points_after_58_min: 51
@@ -61,7 +61,6 @@ points_more_3_difference: 45
 close_game_win: 2
 close_game_loss: 1
 close_game_overtime: 0
-rank: 2
 goals_per_game: 7.45
 goals_against_per_game: 4.86
 boxplay_per_game: 2.23
@@ -81,3 +80,4 @@ goal_difference: 57
 goal_difference_per_game: 2.59
 is_playoffs: True
 scoring_ratio: 1.53
+rank: 2

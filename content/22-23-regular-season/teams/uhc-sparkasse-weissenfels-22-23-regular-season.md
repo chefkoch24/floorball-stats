@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-11
 Title: UHC Sparkasse Weißenfels
 Category: 22-23-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-22-23-regular-season
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 22
 goals_home: 83
 goals_away: 68
-goals_against_home: 59
-goals_against_away: 57
+goals_against_home: 57
+goals_against_away: 59
 points: 51
 home_points: 30
 away_points: 21
@@ -48,8 +48,8 @@ losses: 5
 over_time_losses: 0
 draws: 0
 Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 6,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
-points_after_first_period: 24
-points_after_second_period: 39
+points_after_first_period: 31
+points_after_second_period: 32
 points_after_third_period: 0
 points_after_55_min: 54
 points_after_58_min: 54
@@ -61,7 +61,6 @@ points_more_3_difference: 27
 close_game_win: 8
 close_game_loss: 1
 close_game_overtime: 0
-rank: 3
 goals_per_game: 6.86
 goals_against_per_game: 5.27
 boxplay_per_game: 1.77
@@ -81,3 +80,4 @@ goal_difference: 35
 goal_difference_per_game: 1.59
 is_playoffs: True
 scoring_ratio: 1.3
+rank: 3
