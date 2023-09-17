@@ -158,7 +158,7 @@ def add_points(team, event):
         else:
             return 3, 'wins', event[team_final] - event[opponent_final]
     elif event[team_final] == event[opponent_final]:
-        return 1, 'draws' , event[team_final]- event[opponent_final]
+        return 1, 'draws', event[team_final] - event[opponent_final]
     elif event[team_final] < event[opponent_final]:
         if event['period'] == 4:
             return 1, 'over_time_losses', event[team_final] - event[opponent_final]
@@ -184,7 +184,6 @@ playoff_teams = teams[:8]
 playdown_teams = teams[8:]
 top4_teams = playoff_teams[:4]
 time_of_year = 'playoffs' if args.is_playoffs else 'regular-season'
-print()
 EVENT_GOAL = 'goal'
 EVENT_PENALTY = 'penalty'
 OUTPUT_FOLDER = f'content/{args.year}-{time_of_year}/teams/'
@@ -206,195 +205,187 @@ all = []
 for rank, team in enumerate(teams):
     print(team)
     stats = initalize_stats(team, teams)
-
     events_from_team = data[(data['home_team_name'] == team) | (data['away_team_name'] == team)]
     events_from_team = transform_in_seconds(events_from_team)
-
     enriched_events = []
-
     all_stats = []
     prev_period = 100
     last_goal_event = None
-    prev_game_id = None
-    index = 0
-    for i, event in events_from_team.iterrows():
-            index += 1
+    for game in events_from_team['game_id'].unique():
+        game_events = events_from_team[events_from_team['game_id'] == game]
+        penalties_for = []
+        penalties_against = []
+        stats['games'] += 1
+        calculated_55_min = False
+        calculated_58_min = False
+        calculated_59_min = False
+        index = 0
+        for i, event in game_events.iterrows():
+                index += 1
+                # reset variables for new game
+                if prev_period != event['period']:
+                    if event['period'] == 2:
+                        stats['points_after_first_period'] += add_points(team,last_goal_event)[0]
+                    elif event['period'] == 3:
+                        stats['points_after_second_period'] += add_points(team, last_goal_event)[0]
 
-            # reset variables for new game
-            if prev_game_id != event['game_id'] or prev_game_id is None:
-                penalties_for = []
-                penalties_against = []
-                stats['games'] += 1
-                calculated_55_min = False
-                calculated_58_min = False
-                calculated_59_min = False
-
-            # intermediate points after period
-            if prev_period != event['period']:
-                if event['period'] == 2:
-                    stats['points_after_first_period'] += add_points(team,last_goal_event)[0]
-                elif event['period'] == 3:
-                    stats['points_after_second_period'] += add_points(team, last_goal_event)[0]
-
-            if ((event['time_in_s'] >= 55 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_55_min:
-                if last_goal_event['period'] != 4:
-                    stats['points_after_55_min'] += add_points(team, last_goal_event)[0]
-                else:
-                    stats['points_after_55_min'] += 1
-                calculated_55_min = True
-            if ((event['time_in_s'] >= 58 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_58_min:
-                if last_goal_event['period'] != 4:
-                    stats['points_after_58_min'] += add_points(team, last_goal_event)[0]
-                else:
-                    stats['points_after_58_min'] += 1
-                calculated_58_min = True
-            if ((event['time_in_s'] >= 59 * 60 and event['time_in_s'] < 60 * 60) or (prev_game_id != event['game_id'] and prev_game_id is not None)) and not calculated_59_min:
-                if last_goal_event['period'] != 4:
-                    stats['points_after_59_min'] += add_points(team, last_goal_event)[0]
-                else:
-                    stats['points_after_59_min'] += 1
-                calculated_59_min = True
-
-
-            # check if penalties are over
-            if len(penalties_for) > 0:
-                if event['time_in_s'] - penalties_for[0] >= 120:
-                    penalties_for.pop(0)
-            if len(penalties_against) > 0:
-                if event['time_in_s'] - penalties_against[0] >= 120:
-                    penalties_against.pop(0)
-            # our goals
-            if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-                stats['goals'] += 1
-                if event['period'] == 1:
-                    stats['goals_in_first_period'] += 1
-                elif event['period'] == 2:
-                    stats['goals_in_second_period'] += 1
-                elif event['period'] == 3:
-                    stats['goals_in_third_period'] += 1
-                elif event['period'] == 4:
-                    stats['goals_in_overtime'] += 1
-                if is_boxplay(event['time_in_s']):
-                    stats['goals_in_boxplay'] += 1
-                    event['goal_in_boxplay'] = 1
-                if is_powerplay(event['time_in_s']):
-                    if event['time_in_s'] - penalties_against[0] <= 120:
-                        stats['goals_in_powerplay'] += 1
-                        penalties_against.pop(0) # remove penalty
-                        event['is_powerplay_goal'] = 1
-
-                if event['home_goals'] - event['guest_goals'] == 1:
-                    stats['leading_goals'] += 1
-
-                if event['home_goals'] - event['guest_goals'] == 0:
-                    stats['equalizer_goals'] += 1
-
-                if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                    stats['first_goal_of_match'] +=1
-
-                if event['event_team'] == event['home_team_name']:
-                    stats['goals_home'] += 1
-                else:
-                    stats['goals_away'] += 1
-
-            # goals against
-            if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-                stats['goals_against'] += 1
-                if event['period'] == 1:
-                    stats['goals_in_first_period_against'] += 1
-                elif event['period'] == 2:
-                    stats['goals_in_second_period_against'] += 1
-                elif event['period'] == 3:
-                    stats['goals_in_third_period_against'] += 1
-                elif event['period'] == 4:
-                    stats['goals_in_overtime_against'] += 1
-                if is_powerplay(event['time_in_s']):
-                    stats['goals_against_in_powerplay']+=1
-                    event['goal_against_powerplay'] = 1
-                if is_boxplay(event['time_in_s']):
-                    if event['time_in_s'] - penalties_for[0] <= 120:
-                        stats['goals_against_in_boxplay'] += 1
-                        penalties_for.pop(0) # remove penalty
-                        event['is_boxplay_goal_against'] = 1
-                else:
-                    stats['goals_not_in_boxplay'] += 1
-
-                if event['home_goals'] - event['guest_goals'] == 1:
-                    stats['leading_goals_against'] += 1
-
-                if event['home_goals'] - event['guest_goals'] == 0:
-                    stats['equalizer_goals_against'] += 1
-
-                if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                    stats['first_goal_of_match_against'] +=1
-
-                if event['event_team'] != event['home_team_name']:
-                    stats['goals_against_home'] += 1
-                else:
-                    stats['goals_against_away'] += 1
-
-            # boxplay
-            if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
-                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
-                stats['boxplay'] += 1
-                if event['period'] == 1:
-                    stats['boxplay_first_period'] += 1
-                elif event['period'] == 2:
-                    stats['boxplay_second_period'] += 1
-                elif event['period'] == 3:
-                    stats['boxplay_third_period'] += 1
-                elif event['period'] == 4:
-                    stats['boxplay_overtime'] += 1
-            # powerplay
-            if event['event_type'] == EVENT_PENALTY and event['event_team'] != team:
-                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
-                stats['powerplay'] += 1
-                if event['period'] == 1:
-                    stats['powerplay_first_period'] += 1
-                elif event['period'] == 2:
-                    stats['powerplay_second_period'] += 1
-                elif event['period'] == 3:
-                    stats['powerplay_third_period'] += 1
-                elif event['period'] == 4:
-                    stats['powerplay_overtime'] += 1
-
-            # points
-            if prev_game_id is not None:
-                if event['game_id'] != prev_game_id or index == len(events_from_team):
-                    points, result, diff = add_points(team, last_goal_event)
-                    stats['points'] += points
-                    stats[result] += 1
-                    opponent = last_goal_event['away_team_name'] if last_goal_event['home_team_name'] == team else last_goal_event['home_team_name']
-                    stats['points_against'][opponent] += points
-                    if last_goal_event['home_team_name'] == team:
-                        stats['home_points'] += points
+                if (event['time_in_s'] >= 55 * 60 and event['time_in_s'] < 60 * 60) and not calculated_55_min:
+                    if last_goal_event['period'] != 4:
+                        stats['points_after_55_min'] += add_points(team, last_goal_event)[0]
                     else:
-                        stats['away_points'] += points
-
-                    if diff == 1:
-                        stats['win_1'] += 1
-                    elif diff == -1:
-                        stats['loss_1'] += 1
-                    if max(goal_differences_in_game) < 3:
-                        points = add_points(team, last_goal_event)[0]
-                        stats['points_max_difference_3'] += points
-                        if points == 3:
-                            stats['close_game_win'] += 1
-                        elif points == 0:
-                            stats['close_game_loss'] += 1
-                        else:
-                            stats['close_game_overtime'] += 1
+                        stats['points_after_55_min'] += 1
+                    calculated_55_min = True
+                if (event['time_in_s'] >= 58 * 60 and event['time_in_s'] < 60 * 60) and not calculated_58_min:
+                    if last_goal_event['period'] != 4:
+                        stats['points_after_58_min'] += add_points(team, last_goal_event)[0]
                     else:
-                        stats['points_more_3_difference'] += add_points(team, last_goal_event)[0]
-                    goal_differences_in_game = []
+                        stats['points_after_58_min'] += 1
+                    calculated_58_min = True
+                if (event['time_in_s'] >= 59 * 60 and event['time_in_s'] < 60 * 60)  and not calculated_59_min:
+                    if last_goal_event['period'] != 4:
+                        stats['points_after_59_min'] += add_points(team, last_goal_event)[0]
+                    else:
+                        stats['points_after_59_min'] += 1
+                    calculated_59_min = True
+
+                # check if penalties are over
+                if len(penalties_for) > 0:
+                    if event['time_in_s'] - penalties_for[0] >= 120:
+                        penalties_for.pop(0)
+                if len(penalties_against) > 0:
+                    if event['time_in_s'] - penalties_against[0] >= 120:
+                        penalties_against.pop(0)
+                # our goals
+                if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
+                    stats['goals'] += 1
+                    if event['period'] == 1:
+                        stats['goals_in_first_period'] += 1
+                    elif event['period'] == 2:
+                        stats['goals_in_second_period'] += 1
+                    elif event['period'] == 3:
+                        stats['goals_in_third_period'] += 1
+                    elif event['period'] == 4:
+                        stats['goals_in_overtime'] += 1
+                    if is_boxplay(event['time_in_s']):
+                        stats['goals_in_boxplay'] += 1
+                        event['goal_in_boxplay'] = 1
+                    if is_powerplay(event['time_in_s']):
+                        if event['time_in_s'] - penalties_against[0] <= 120:
+                            stats['goals_in_powerplay'] += 1
+                            penalties_against.pop(0) # remove penalty
+                            event['is_powerplay_goal'] = 1
+
+                    if event['home_goals'] - event['guest_goals'] == 1:
+                        stats['leading_goals'] += 1
+
+                    if event['home_goals'] - event['guest_goals'] == 0:
+                        stats['equalizer_goals'] += 1
+
+                    if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
+                        stats['first_goal_of_match'] +=1
+
+                    if event['event_team'] == event['home_team_name']:
+                        stats['goals_home'] += 1
+                    else:
+                        stats['goals_away'] += 1
+
+                # goals against
+                if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
+                    stats['goals_against'] += 1
+                    if event['period'] == 1:
+                        stats['goals_in_first_period_against'] += 1
+                    elif event['period'] == 2:
+                        stats['goals_in_second_period_against'] += 1
+                    elif event['period'] == 3:
+                        stats['goals_in_third_period_against'] += 1
+                    elif event['period'] == 4:
+                        stats['goals_in_overtime_against'] += 1
+                    if is_powerplay(event['time_in_s']):
+                        stats['goals_against_in_powerplay']+=1
+                        event['goal_against_powerplay'] = 1
+                    if is_boxplay(event['time_in_s']):
+                        if event['time_in_s'] - penalties_for[0] <= 120:
+                            stats['goals_against_in_boxplay'] += 1
+                            penalties_for.pop(0) # remove penalty
+                            event['is_boxplay_goal_against'] = 1
+                    else:
+                        stats['goals_not_in_boxplay'] += 1
+
+                    if event['home_goals'] - event['guest_goals'] == 1:
+                        stats['leading_goals_against'] += 1
+
+                    if event['home_goals'] - event['guest_goals'] == 0:
+                        stats['equalizer_goals_against'] += 1
+
+                    if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
+                        stats['first_goal_of_match_against'] +=1
+
+                    if event['event_team'] != event['home_team_name']:
+                        stats['goals_against_home'] += 1
+                    else:
+                        stats['goals_against_away'] += 1
+
+                # boxplay
+                if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
+                    penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
+                    stats['boxplay'] += 1
+                    if event['period'] == 1:
+                        stats['boxplay_first_period'] += 1
+                    elif event['period'] == 2:
+                        stats['boxplay_second_period'] += 1
+                    elif event['period'] == 3:
+                        stats['boxplay_third_period'] += 1
+                    elif event['period'] == 4:
+                        stats['boxplay_overtime'] += 1
+                # powerplay
+                if event['event_type'] == EVENT_PENALTY and event['event_team'] != team:
+                    penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
+                    stats['powerplay'] += 1
+                    if event['period'] == 1:
+                        stats['powerplay_first_period'] += 1
+                    elif event['period'] == 2:
+                        stats['powerplay_second_period'] += 1
+                    elif event['period'] == 3:
+                        stats['powerplay_third_period'] += 1
+                    elif event['period'] == 4:
+                        stats['powerplay_overtime'] += 1
+                prev_period = event['period']
+                if event['event_type'] == EVENT_GOAL:
+                    last_goal_event = event
+                    goal_differences_in_game.append(abs(event['home_goals'] - event['guest_goals']))
+                enriched_events.append(event)
+
+        # Point calculations
+        point_event = game_events[game_events['event_type'] == EVENT_GOAL].iloc[-1]
+        points, result, diff = add_points(team, point_event)
+        stats['points'] += points
+        stats[result] += 1
+        opponent = point_event['away_team_name'] if point_event['home_team_name'] == team else point_event['home_team_name']
+        stats['points_against'][opponent] += points
+        if point_event['home_team_name'] == team:
+            stats['home_points'] += points
+        else:
+            stats['away_points'] += points
+
+        if diff == 1:
+            stats['win_1'] += 1
+        elif diff == -1:
+            stats['loss_1'] += 1
+        if max(goal_differences_in_game) < 3:
+            points = add_points(team, point_event)[0]
+            stats['points_max_difference_3'] += points
+            if points == 3:
+                stats['close_game_win'] += 1
+            elif points == 0:
+                stats['close_game_loss'] += 1
+            else:
+                stats['close_game_overtime'] += 1
+        else:
+            stats['points_more_3_difference'] += add_points(team, point_event)[0]
+            goal_differences_in_game = []
 
 
-            prev_game_id = event['game_id']
-            prev_period = event['period']
-            if event['event_type'] == EVENT_GOAL:
-                last_goal_event = event
-                goal_differences_in_game.append(abs(event['home_goals'] - event['guest_goals']))
-            enriched_events.append(event)
+
 
     # calculated stats
     stats['goals_per_game'] = round(stats['goals'] / stats['games'],2)
