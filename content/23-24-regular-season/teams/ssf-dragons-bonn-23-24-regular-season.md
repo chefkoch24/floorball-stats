@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: SSF Dragons Bonn
 Category: 23-24-regular-season, teams
 Slug: ssf-dragons-bonn-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/ssf-dragons-bonn-23-24-regular-season_platzierungsverlauf.png
 team: SSF Dragons Bonn
 goals: 24
 goals_in_first_period: 11
@@ -47,7 +48,7 @@ over_time_wins: 0
 losses: 2
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  Red Devils Wernigerode: 0,  Unihockey Igels Dresden: 0,  Floorball-Club München: 3,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  Floorball-Club München: 3,  MFBC Leipzig: 0,  Red Devils Wernigerode: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 6
 points_after_second_period: 6
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 1.0
 goal_difference: -2
 goal_difference_per_game: -0.67
-is_playoffs: False
 scoring_ratio: 0.92
 rank: 8
+is_playoffs: True

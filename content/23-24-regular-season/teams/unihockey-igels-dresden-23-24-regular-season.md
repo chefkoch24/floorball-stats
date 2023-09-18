@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Unihockey Igels Dresden
 Category: 23-24-regular-season, teams
 Slug: unihockey-igels-dresden-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/unihockey-igels-dresden-23-24-regular-season_platzierungsverlauf.png
 team: Unihockey Igels Dresden
 goals: 19
 goals_in_first_period: 6
@@ -47,7 +48,7 @@ over_time_wins: 1
 losses: 0
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 2,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 0,  Floorball-Club München: 0,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 3,  Floorball-Club München: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 2,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 5
 points_after_second_period: 7
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 2.67
 goal_difference: 9
 goal_difference_per_game: 3.0
-is_playoffs: False
 scoring_ratio: 1.9
 rank: 2
+is_playoffs: True

@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Berlin Rockets
 Category: 23-24-regular-season, teams
 Slug: berlin-rockets-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/berlin-rockets-23-24-regular-season_platzierungsverlauf.png
 team: Berlin Rockets
 goals: 26
 goals_in_first_period: 7
@@ -47,7 +48,7 @@ over_time_wins: 0
 losses: 0
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 3,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 0,  Unihockey Igels Dresden: 0,  Floorball-Club München: 3,
+Tags:  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  Floorball-Club München: 3,  MFBC Leipzig: 0,  Red Devils Wernigerode: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,  VfL Red Hocks Kaufering: 3,
 points_after_first_period: 7
 points_after_second_period: 9
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 3.0
 goal_difference: 17
 goal_difference_per_game: 5.67
-is_playoffs: True
 scoring_ratio: 2.89
 rank: 1
+is_playoffs: True

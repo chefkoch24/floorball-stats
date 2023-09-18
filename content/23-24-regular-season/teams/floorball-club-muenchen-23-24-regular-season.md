@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Floorball-Club München
 Category: 23-24-regular-season, teams
 Slug: floorball-club-muenchen-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/floorball-club-muenchen-23-24-regular-season_platzierungsverlauf.png
 team: Floorball-Club München
 goals: 17
 goals_in_first_period: 5
@@ -47,7 +48,7 @@ over_time_wins: 0
 losses: 3
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 0,  Unihockey Igels Dresden: 0,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 1
 points_after_second_period: 0
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 0.0
 goal_difference: -9
 goal_difference_per_game: -3.0
-is_playoffs: False
 scoring_ratio: 0.65
 rank: 10
+is_playoffs: False

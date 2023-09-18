@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: VfL Red Hocks Kaufering
 Category: 23-24-regular-season, teams
 Slug: vfl-red-hocks-kaufering-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/vfl-red-hocks-kaufering-23-24-regular-season_platzierungsverlauf.png
 team: VfL Red Hocks Kaufering
 goals: 19
 goals_in_first_period: 5
@@ -47,7 +48,7 @@ over_time_wins: 0
 losses: 2
 over_time_losses: 1
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 1,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 0,  Unihockey Igels Dresden: 0,  Floorball-Club München: 0,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  Floorball-Club München: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 1,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,
 points_after_first_period: 1
 points_after_second_period: 0
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 3.5700000000000003
 points_per_game: 0.33
 goal_difference: -9
 goal_difference_per_game: -3.0
-is_playoffs: True
 scoring_ratio: 0.68
 rank: 9
+is_playoffs: False

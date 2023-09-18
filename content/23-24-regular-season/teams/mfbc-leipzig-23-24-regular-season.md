@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: MFBC Leipzig
 Category: 23-24-regular-season, teams
 Slug: mfbc-leipzig-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/mfbc-leipzig-23-24-regular-season_platzierungsverlauf.png
 team: MFBC Leipzig
 goals: 20
 goals_in_first_period: 5
@@ -47,7 +48,7 @@ over_time_wins: 0
 losses: 0
 over_time_losses: 1
 draws: 0
-Tags:  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 1,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 0,  Unihockey Igels Dresden: 0,  Floorball-Club München: 3,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  Floorball-Club München: 3,  Red Devils Wernigerode: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 1,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 4
 points_after_second_period: 6
 points_after_third_period: 0
@@ -78,6 +79,6 @@ percent_goals_overtime_against: 8.33
 points_per_game: 2.33
 goal_difference: 8
 goal_difference_per_game: 2.67
-is_playoffs: True
 scoring_ratio: 1.67
 rank: 3
+is_playoffs: True
