@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Playoffs
 Category: 23-24-regular-season, liga
 Slug: playoffs-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/playoffs-23-24-regular-season_platzierungsverlauf.png
 goals: 22.12
 goals_in_first_period: 6.88
 goals_in_second_period: 7.38
@@ -76,7 +77,7 @@ percent_goals_overtime_against: 2.0
 points_per_game: 2.21
 goal_difference: 5.88
 goal_difference_per_game: 1.96
-is_playoffs: 0.75
 scoring_ratio: 1.55
 rank: 4.5
+is_playoffs: 1.0
 team: Playoffs

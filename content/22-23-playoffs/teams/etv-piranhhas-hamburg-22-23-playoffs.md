@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: ETV Piranhhas Hamburg
 Category: 22-23-playoffs, teams
 Slug: etv-piranhhas-hamburg-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 3
 goals_home: 5
 goals_away: 6
-goals_against_home: 3
-goals_against_away: 8
+goals_against_home: 8
+goals_against_away: 3
 points: 3
 home_points: 0
 away_points: 3
@@ -47,13 +47,13 @@ over_time_wins: 0
 losses: 2
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  Berlin Rockets: 3,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,
+Tags:  Berlin Rockets: 3,  DJK Holzbüttgen: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 3
 points_after_second_period: 3
 points_after_third_period: 0
-points_after_55_min: 6
-points_after_58_min: 6
-points_after_59_min: 6
+points_after_55_min: 3
+points_after_58_min: 3
+points_after_59_min: 3
 win_1: 0
 loss_1: 1
 points_max_difference_3: 0
@@ -61,7 +61,6 @@ points_more_3_difference: 3
 close_game_win: 0
 close_game_loss: 1
 close_game_overtime: 0
-rank: 4
 goals_per_game: 3.67
 goals_against_per_game: 3.67
 boxplay_per_game: 2.33
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 1.0
 goal_difference: 0
 goal_difference_per_game: 0.0
-is_playoffs: True
 scoring_ratio: 1.0
+rank: 5
+is_playoffs: True

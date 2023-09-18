@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: Berlin Rockets
 Category: 22-23-playoffs, teams
 Slug: berlin-rockets-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 7
 goals_home: 16
 goals_away: 22
-goals_against_home: 26
-goals_against_away: 29
+goals_against_home: 29
+goals_against_away: 26
 points: 6
 home_points: 0
 away_points: 6
@@ -47,13 +47,13 @@ over_time_wins: 0
 losses: 5
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 6,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,
-points_after_first_period: 7
+Tags:  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 6,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  VfL Red Hocks Kaufering: 0,
+points_after_first_period: 10
 points_after_second_period: 6
 points_after_third_period: 0
-points_after_55_min: 6
-points_after_58_min: 6
-points_after_59_min: 6
+points_after_55_min: 3
+points_after_58_min: 0
+points_after_59_min: 0
 win_1: 1
 loss_1: 0
 points_max_difference_3: 3
@@ -61,7 +61,6 @@ points_more_3_difference: 3
 close_game_win: 1
 close_game_loss: 1
 close_game_overtime: 0
-rank: 5
 goals_per_game: 5.43
 goals_against_per_game: 7.86
 boxplay_per_game: 1.57
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 0.86
 goal_difference: -17
 goal_difference_per_game: -2.43
-is_playoffs: True
 scoring_ratio: 0.69
+rank: 4
+is_playoffs: True

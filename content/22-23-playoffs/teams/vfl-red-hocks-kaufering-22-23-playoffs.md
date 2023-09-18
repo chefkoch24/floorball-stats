@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: VfL Red Hocks Kaufering
 Category: 22-23-playoffs, teams
 Slug: vfl-red-hocks-kaufering-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 3
 goals_home: 7
 goals_away: 3
-goals_against_home: 12
-goals_against_away: 6
+goals_against_home: 6
+goals_against_away: 12
 points: 2
 home_points: 2
 away_points: 0
@@ -47,13 +47,13 @@ over_time_wins: 1
 losses: 2
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 2,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  Floor Fighters Chemnitz: 0,
-points_after_first_period: 3
-points_after_second_period: 1
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 2,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,
+points_after_first_period: 1
+points_after_second_period: 3
 points_after_third_period: 0
-points_after_55_min: 1
-points_after_58_min: 1
-points_after_59_min: 1
+points_after_55_min: 0
+points_after_58_min: 0
+points_after_59_min: 0
 win_1: 1
 loss_1: 0
 points_max_difference_3: 0
@@ -61,7 +61,6 @@ points_more_3_difference: 2
 close_game_win: 0
 close_game_loss: 1
 close_game_overtime: 0
-rank: 7
 goals_per_game: 3.33
 goals_against_per_game: 6.0
 boxplay_per_game: 2.67
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 0.67
 goal_difference: -8
 goal_difference_per_game: -2.67
-is_playoffs: True
 scoring_ratio: 0.56
+rank: 8
+is_playoffs: True

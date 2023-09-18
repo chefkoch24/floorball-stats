@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import argparse
 import os
+from matplotlib import pyplot as plt
+
 
 def str2bool(val):
     if isinstance(val, bool):
@@ -27,6 +29,7 @@ def dict_to_markdown(dictionary):
     markdown += f"Title: {stats['team']}\n"
     markdown += f"Category: {args.year}-{time_of_year}, {typ}\n"
     markdown += f"Slug: {generate_slug(dictionary['team'])}\n"
+    markdown += "Platzierungsverlauf:" + f"{args.year}-{time_of_year}/teams/" + f"{generate_slug(dictionary['team'])}_platzierungsverlauf.png\n"
     for key, value in dictionary.items():
         if key != 'points_against':
             markdown += f"{key}: {value}\n"
@@ -145,6 +148,40 @@ def add_penalties(penalty_type, penalties, time):
         penalties.append(time)
     return penalties
 
+def calculate_rank_after_gamedays(all_logs_after_game):
+    teams = {x['team']:[] for x in all_logs_after_game}
+    gamedays = max([x['game'] for x in all_logs_after_game])
+    for gameday in range(1, gamedays+1):
+        gameday_stats = [x for x in all_logs_after_game if x['game'] == gameday]
+        ranking = sorted(gameday_stats, key=lambda x: (-x['points'], -x['goal_difference'], -x['goals']))
+        for i, team in enumerate(ranking):
+            teams[team['team']].append(i+1)
+    return teams
+
+def create_visualization_rankings(data, path):
+    for team in data.keys():
+        plt.figure(figsize=(8, 6))  # Set a custom figure size
+        plt.scatter(x=range(len(data[team])), y=data[team], label=team)
+        plt.plot(range(len(data[team])), data[team])
+        plt.title(f"Platzierungsverlauf {team}")
+        # Customize the x-axis and y-axis scale and labels
+        plt.xticks(range(len(data[team])), [f"{i + 1}" for i in range(len(data[team]))])
+        plt.yticks(range(13))  # Reverse the y-axis scale
+
+        # Add gridlines
+        plt.grid(True, linestyle='--', alpha=0.7)
+
+        # Set margins
+        plt.margins(0.5)  # Adjust the margin as needed
+
+        plt.xlim(-0.1, len(data[team]) - 0.9)  # Set custom limits for x-axis
+        plt.ylim(0.5, 12.5)  # Set custom limits for y-axis
+        plt.xlabel('Spieltag')
+        plt.ylabel('Platzierung')
+        plt.gca().invert_yaxis()
+        plt.tight_layout()  # Ensure the labels are not cut off
+        plt.savefig(os.path.join(path, f'{generate_slug(team)}_platzierungsverlauf.png'))
+
 def add_points(team, event):
     if team == event['home_team_name']:
         team_final = 'home_goals'
@@ -179,10 +216,8 @@ arg_parser.add_argument("--is_playoffs", type=str2bool, nargs='?', const=True, d
 args, _ = arg_parser.parse_known_args()
 
 data = read_data(args.input_path)
-teams = ['MFBC Leipzig', 'DJK Holzbüttgen', 'UHC Sparkasse Weißenfels', 'ETV Piranhhas Hamburg', 'Berlin Rockets',  'TV Schriesheim', 'VfL Red Hocks Kaufering', 'Floor Fighters Chemnitz', 'SSF Dragons Bonn', 'Red Devils Wernigerode', 'Unihockey Igels Dresden', 'Floorball-Club München']#'Blau-Weiß 96 Schenefeld']
-playoff_teams = teams[:8]
-playdown_teams = teams[8:]
-top4_teams = playoff_teams[:4]
+teams = list(data['home_team_name'].unique()) + list(data['away_team_name'].unique())
+teams = np.unique(teams)
 time_of_year = 'playoffs' if args.is_playoffs else 'regular-season'
 EVENT_GOAL = 'goal'
 EVENT_PENALTY = 'penalty'
@@ -197,12 +232,9 @@ average_stats = []
 top4_team_stats = []
 goal_differences_in_game = []
 
-if args.is_playoffs:
-    teams = playoff_teams
-
 all = []
-
-for rank, team in enumerate(teams):
+all_logs_after_game = []
+for _ , team in enumerate(teams):
     print(team)
     stats = initalize_stats(team, teams)
     events_from_team = data[(data['home_team_name'] == team) | (data['away_team_name'] == team)]
@@ -212,6 +244,7 @@ for rank, team in enumerate(teams):
     prev_period = 100
     last_goal_event = None
     for game in events_from_team['game_id'].unique():
+        logs_after_game = {}
         game_events = events_from_team[events_from_team['game_id'] == game]
         penalties_for = []
         penalties_against = []
@@ -354,7 +387,6 @@ for rank, team in enumerate(teams):
                     last_goal_event = event
                     goal_differences_in_game.append(abs(event['home_goals'] - event['guest_goals']))
                 enriched_events.append(event)
-
         # Point calculations
         point_event = game_events[game_events['event_type'] == EVENT_GOAL].iloc[-1]
         points, result, diff = add_points(team, point_event)
@@ -383,9 +415,12 @@ for rank, team in enumerate(teams):
         else:
             stats['points_more_3_difference'] += add_points(team, point_event)[0]
             goal_differences_in_game = []
-
-
-
+        logs_after_game['game'] = stats['games']
+        logs_after_game['team'] = team
+        logs_after_game['points'] = stats['points']
+        logs_after_game['goal_difference'] = stats['goals'] - stats['goals_against']
+        logs_after_game['goals'] = stats['goals']
+        all_logs_after_game.append(logs_after_game)
 
     # calculated stats
     stats['goals_per_game'] = round(stats['goals'] / stats['games'],2)
@@ -406,22 +441,30 @@ for rank, team in enumerate(teams):
     stats['points_per_game'] = round(stats['points'] / stats['games'], 2)
     stats['goal_difference'] = stats['goals'] - stats['goals_against']
     stats['goal_difference_per_game'] = round(stats['goal_difference'] / stats['games'], 2)
-    stats['is_playoffs'] = team in playoff_teams
+
     stats['scoring_ratio'] = round(stats['goals'] / stats['goals_against'],2)
 
     pd.DataFrame(enriched_events).to_csv(args.output_path)
-
     all.append(stats)
+
+print(all_logs_after_game)
+
+
+rankings_gameday = calculate_rank_after_gamedays(all_logs_after_game)
+create_visualization_rankings(rankings_gameday, OUTPUT_FOLDER)
+
 all = sorted(all, key=lambda x: (-x['points'], -x['goal_difference']))
 
 for index, stats in enumerate(all):
     stats['rank'] = index + 1
     if stats['rank'] <= 8:
+        stats['is_playoffs'] = True
         playoff_stats.append(stats)
         if stats['rank'] <= 4:
             top4_team_stats.append(stats)
     elif stats['rank'] > 8:
         playdown_stats.append(stats)
+        stats['is_playoffs'] = False
     average_stats.append(stats)
     md = dict_to_markdown(stats)
     filename = generate_slug(stats['team'])

@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: Floor Fighters Chemnitz
 Category: 22-23-playoffs, teams
 Slug: floor-fighters-chemnitz-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 3
 goals_home: 7
 goals_away: 11
-goals_against_home: 18
-goals_against_away: 5
+goals_against_home: 5
+goals_against_away: 18
 points: 3
 home_points: 3
 away_points: 0
@@ -47,13 +47,13 @@ over_time_wins: 0
 losses: 2
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  MFBC Leipzig: 3,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 1
 points_after_second_period: 3
 points_after_third_period: 0
-points_after_55_min: 6
-points_after_58_min: 6
-points_after_59_min: 6
+points_after_55_min: 3
+points_after_58_min: 3
+points_after_59_min: 3
 win_1: 0
 loss_1: 0
 points_max_difference_3: 3
@@ -61,7 +61,6 @@ points_more_3_difference: 0
 close_game_win: 1
 close_game_loss: 0
 close_game_overtime: 0
-rank: 8
 goals_per_game: 6.0
 goals_against_per_game: 7.67
 boxplay_per_game: 3.67
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 1.0
 goal_difference: -5
 goal_difference_per_game: -1.67
-is_playoffs: True
 scoring_ratio: 0.78
+rank: 7
+is_playoffs: True

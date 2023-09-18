@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Playdowns
 Category: 23-24-regular-season, liga
 Slug: playdowns-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/playdowns-23-24-regular-season_platzierungsverlauf.png
 goals: 15.5
 goals_in_first_period: 5.25
 goals_in_second_period: 4.0
@@ -76,7 +77,7 @@ percent_goals_overtime_against: 0.89
 points_per_game: 0.08
 goal_difference: -11.75
 goal_difference_per_game: -3.92
-is_playoffs: 0.5
 scoring_ratio: 0.57
 rank: 10.5
+is_playoffs: 0.0
 team: Playdowns

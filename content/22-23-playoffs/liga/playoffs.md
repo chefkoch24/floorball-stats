@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: Playoffs
 Category: 22-23-playoffs, liga
 Slug: playoffs-22-23-playoffs
@@ -36,8 +36,8 @@ powerplay_overtime: 0.25
 games: 6.0
 goals_home: 18.62
 goals_away: 16.75
-goals_against_home: 18.62
-goals_against_away: 16.75
+goals_against_home: 16.75
+goals_against_away: 18.62
 points: 9.0
 home_points: 4.5
 away_points: 4.5
@@ -46,12 +46,12 @@ over_time_wins: 0.38
 losses: 2.62
 over_time_losses: 0.38
 draws: 0.0
-points_after_first_period: 7.88
-points_after_second_period: 8.75
+points_after_first_period: 8.38
+points_after_second_period: 8.88
 points_after_third_period: 0.0
-points_after_55_min: 9.38
-points_after_58_min: 9.0
-points_after_59_min: 9.0
+points_after_55_min: 8.12
+points_after_58_min: 6.0
+points_after_59_min: 4.12
 win_1: 1.0
 loss_1: 1.0
 points_max_difference_3: 2.62
@@ -59,7 +59,6 @@ points_more_3_difference: 6.38
 close_game_win: 0.75
 close_game_loss: 0.75
 close_game_overtime: 0.25
-rank: 4.5
 goals_per_game: 5.38
 goals_against_per_game: 5.91
 boxplay_per_game: 2.34
@@ -77,6 +76,7 @@ percent_goals_overtime_against: 0.75
 points_per_game: 1.28
 goal_difference: 0.0
 goal_difference_per_game: -0.52
-is_playoffs: 1.0
 scoring_ratio: 0.94
+rank: 4.5
+is_playoffs: 1.0
 team: Playoffs

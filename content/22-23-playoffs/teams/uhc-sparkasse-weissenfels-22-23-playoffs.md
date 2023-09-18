@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: UHC Sparkasse Weißenfels
 Category: 22-23-playoffs, teams
 Slug: uhc-sparkasse-weissenfels-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 2
 games: 11
 goals_home: 39
 goals_away: 29
-goals_against_home: 24
-goals_against_away: 29
+goals_against_home: 29
+goals_against_away: 24
 points: 22
 home_points: 10
 away_points: 12
@@ -47,13 +47,13 @@ over_time_wins: 2
 losses: 3
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 8,  DJK Holzbüttgen: 8,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,
-points_after_first_period: 16
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 8,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 8,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 0,
+points_after_first_period: 11
 points_after_second_period: 19
 points_after_third_period: 0
-points_after_55_min: 20
-points_after_58_min: 17
-points_after_59_min: 17
+points_after_55_min: 19
+points_after_58_min: 9
+points_after_59_min: 6
 win_1: 5
 loss_1: 1
 points_max_difference_3: 8
@@ -61,7 +61,6 @@ points_more_3_difference: 14
 close_game_win: 2
 close_game_loss: 0
 close_game_overtime: 1
-rank: 3
 goals_per_game: 6.18
 goals_against_per_game: 4.82
 boxplay_per_game: 1.45
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 2.0
 goal_difference: 15
 goal_difference_per_game: 1.36
-is_playoffs: True
 scoring_ratio: 1.28
+rank: 1
+is_playoffs: True

@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Ligaschnitt
 Category: 23-24-regular-season, liga
 Slug: ligaschnitt-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/ligaschnitt-23-24-regular-season_platzierungsverlauf.png
 goals: 19.92
 goals_in_first_period: 6.33
 goals_in_second_period: 6.25
@@ -76,7 +77,7 @@ percent_goals_overtime_against: 1.63
 points_per_game: 1.5
 goal_difference: 0.0
 goal_difference_per_game: 0.0
-is_playoffs: 0.67
 scoring_ratio: 1.22
 rank: 6.5
+is_playoffs: 0.67
 team: Ligaschnitt

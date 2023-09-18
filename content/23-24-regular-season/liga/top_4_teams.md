@@ -1,7 +1,8 @@
-Date: 2023-09-17
+Date: 2023-09-18
 Title: Top_4_teams
 Category: 23-24-regular-season, liga
 Slug: top_4_teams-23-24-regular-season
+Platzierungsverlauf:23-24-regular-season/teams/top_4_teams-23-24-regular-season_platzierungsverlauf.png
 goals: 21.0
 goals_in_first_period: 5.25
 goals_in_second_period: 7.0
@@ -76,7 +77,7 @@ percent_goals_overtime_against: 4.0
 points_per_game: 2.58
 goal_difference: 10.0
 goal_difference_per_game: 3.33
-is_playoffs: 0.75
 scoring_ratio: 1.98
 rank: 2.5
+is_playoffs: 1.0
 team: Top_4_teams

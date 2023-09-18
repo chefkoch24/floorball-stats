@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: MFBC Leipzig
 Category: 22-23-playoffs, teams
 Slug: mfbc-leipzig-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 9
 goals_home: 32
 goals_away: 37
-goals_against_home: 40
-goals_against_away: 21
+goals_against_home: 21
+goals_against_away: 40
 points: 16
 home_points: 9
 away_points: 7
@@ -47,13 +47,13 @@ over_time_wins: 0
 losses: 3
 over_time_losses: 1
 draws: 0
-Tags:  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 1,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 9,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 6,
-points_after_first_period: 15
-points_after_second_period: 18
+Tags:  Berlin Rockets: 9,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 6,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 1,  VfL Red Hocks Kaufering: 0,
+points_after_first_period: 19
+points_after_second_period: 19
 points_after_third_period: 0
 points_after_55_min: 16
-points_after_58_min: 16
-points_after_59_min: 16
+points_after_58_min: 15
+points_after_59_min: 9
 win_1: 0
 loss_1: 2
 points_max_difference_3: 1
@@ -61,7 +61,6 @@ points_more_3_difference: 15
 close_game_win: 0
 close_game_loss: 1
 close_game_overtime: 1
-rank: 1
 goals_per_game: 7.67
 goals_against_per_game: 6.78
 boxplay_per_game: 3.11
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 1.6400000000000001
 points_per_game: 1.78
 goal_difference: 8
 goal_difference_per_game: 0.89
-is_playoffs: True
 scoring_ratio: 1.13
+rank: 3
+is_playoffs: True

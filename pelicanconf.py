@@ -23,8 +23,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
-'23-24-regular-season/teams', '23-24-regular-season/liga'
-                 ]
+'23-24-regular-season/teams', '23-24-regular-season/liga']
 
 
 # Blogroll

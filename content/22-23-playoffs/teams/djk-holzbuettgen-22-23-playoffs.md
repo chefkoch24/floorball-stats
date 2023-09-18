@@ -1,4 +1,4 @@
-Date: 2023-07-28
+Date: 2023-09-18
 Title: DJK Holzbüttgen
 Category: 22-23-playoffs, teams
 Slug: djk-holzbuettgen-22-23-playoffs
@@ -37,8 +37,8 @@ powerplay_overtime: 0
 games: 9
 goals_home: 39
 goals_away: 16
-goals_against_home: 15
-goals_against_away: 31
+goals_against_home: 31
+goals_against_away: 15
 points: 17
 home_points: 12
 away_points: 5
@@ -47,13 +47,13 @@ over_time_wins: 0
 losses: 2
 over_time_losses: 2
 draws: 0
-Tags:  MFBC Leipzig: 0,  UHC Sparkasse Weißenfels: 7,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 3,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 7,  Floor Fighters Chemnitz: 0,
-points_after_first_period: 16
-points_after_second_period: 17
+Tags:  Berlin Rockets: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 7,  VfL Red Hocks Kaufering: 7,
+points_after_first_period: 15
+points_after_second_period: 15
 points_after_third_period: 0
-points_after_55_min: 17
-points_after_58_min: 17
-points_after_59_min: 17
+points_after_55_min: 18
+points_after_58_min: 18
+points_after_59_min: 12
 win_1: 1
 loss_1: 3
 points_max_difference_3: 6
@@ -61,7 +61,6 @@ points_more_3_difference: 11
 close_game_win: 2
 close_game_loss: 1
 close_game_overtime: 0
-rank: 2
 goals_per_game: 6.11
 goals_against_per_game: 5.11
 boxplay_per_game: 2.22
@@ -79,5 +78,6 @@ percent_goals_overtime_against: 4.35
 points_per_game: 1.89
 goal_difference: 9
 goal_difference_per_game: 1.0
-is_playoffs: True
 scoring_ratio: 1.2
+rank: 2
+is_playoffs: True
