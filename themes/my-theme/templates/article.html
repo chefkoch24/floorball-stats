@@ -5,13 +5,14 @@
     <div class="container justify-content-center">
         <div class="row mt-5 m-2"></div>
         <div class="row mt-5 ml-2">
-            <h2>{{ article.title }}</h2>
+            <h2>{{ article.title | category2title}}</h2>
         </div>
         <div class="row m-2">
             <h3>Tore</h3>
             <table class="table table-hover">
                 <thead>
                 <tr>
+                    <th scope="col" data-toggle="tooltip" title="Spiele">Spiele</th>
                     <th scope="col" data-toggle="tooltip" title="Tore">T</th>
                     <th scope="col" data-toggle="tooltip" title="Gegentore">G</th>
                     <th scope="col" data-toggle="tooltip" title="Differenz">+/-</th>
@@ -35,6 +36,7 @@
                 </thead>
                 <tbody>
                 <tr>
+                    <td>{{article.games}}</td>
                     <td>{{article.goals}}</td>
                     <td>{{article.goals_against}}</td>
                     <td>{{article.goal_difference}}</td>
@@ -173,6 +175,8 @@
                         <th scope="col" data-toggle="tooltip" title="Führungsgegentor">FG</th>
                         <th scope="col" data-toggle="tooltip" title="Ausgleichsgegentor">AG</th>
                         <th scope="col" data-toggle="tooltip" title="Erste Tor im Spiel gekriegt">0:1</th>
+                        <th scope="col" data-toggle="tooltip" title="Penalty Shot Tore">PST</th>
+                        <th scope="col" data-toggle="tooltip" title="Penalty Shot Gegentore">PSG</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -183,10 +187,37 @@
                         <td>{{article.leading_goals_against}}</td>
                         <td>{{article.equalizer_goals_against}}</td>
                         <td>{{article.first_goal_of_match_against}}</td>
+                        <td>{{article.penalty_shot_goals}}</td>
+                        <td>{{article.penalty_shot_goals_against}}</td>
                     </tr>
                     </tbody>
                 </table>
             </div>
+            <div class="col-lg-5 col-md-5 m-1">
+                <h3>Penalties</h3>
+                <div>
+                    <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col" data-toggle="tooltip" title="2min Strafe">2min</th>
+                        <th scope="col" data-toggle="tooltip" title="2+2min Strafe">2+2min</th>
+                        <th scope="col" data-toggle="tooltip" title="10min Strafe">10min</th>
+                        <th scope="col" data-toggle="tooltip" title="Matchstrafe">MS</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{{article.penalty_2}}</td>
+                        <td>{{article.penalty_2and2}}</td>
+                        <td>{{article.penalty_10}}</td>
+                        <td>{{article.penalty_ms}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             {%if article.tags %}
             <div class="col-lg-5 col-md-5 m-1">
                 <h3>Punkte gegen Teams</h3>
@@ -197,12 +228,14 @@
                 </div>
             </div>
             {% endif %}
+            {%if article.platzierungsverlauf %}
             <div class="col-lg-5 col-md-5 m-1">
                 <h3>Platzierungsverlauf</h3>
                 <div>
                     <img src="{{article.platzierungsverlauf}}" class="img-fluid" />
                 </div>
             </div>
+            {% endif %}
         </div>
 
     </div>

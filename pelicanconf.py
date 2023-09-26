@@ -60,10 +60,15 @@ def category2string(slug):
     slug = [s.capitalize() for s in slug]
     return f'{slug[0]}/' + " ".join(slug[1:])
 
+def category2title(slug):
+    slug = slug.split('-')
+    return " ".join(slug)
+
 
 JINJA_FILTERS = {
     'sort_by_rank': partial(sorted,
         key=lambda article: float(article.rank)),
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
+    'category2title': category2title,
 } # reversed for descending order

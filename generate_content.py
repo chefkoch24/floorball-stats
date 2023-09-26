@@ -26,10 +26,11 @@ def dict_to_markdown(dictionary):
     date = datetime.now().strftime('%Y-%m-%d')
     typ = 'liga' if dictionary['team'] not in teams else 'teams'
     markdown += "Date: " + date + "\n"
-    markdown += f"Title: {stats['team']}\n"
+    markdown += f"Title: {stats['team'].replace('_', '-')}\n"
     markdown += f"Category: {args.year}-{time_of_year}, {typ}\n"
     markdown += f"Slug: {generate_slug(dictionary['team'])}\n"
-    markdown += "Platzierungsverlauf:" + f"{args.year}-{time_of_year}/teams/" + f"{generate_slug(dictionary['team'])}_platzierungsverlauf.png\n"
+    if typ == 'teams':
+        markdown += "Platzierungsverlauf:" + f"{args.year}-{time_of_year}/teams/" + f"{generate_slug(dictionary['team'])}_platzierungsverlauf.png\n"
     for key, value in dictionary.items():
         if key != 'points_against':
             markdown += f"{key}: {value}\n"
@@ -109,6 +110,12 @@ def initalize_stats(team, teams):
         'close_game_win': 0,
         'close_game_loss': 0,
         'close_game_overtime': 0,
+        'penalty_shot_goals': 0,
+        'penalty_shot_goals_against': 0,
+        'penalty_2': 0,
+        'penalty_2and2': 0,
+        'penalty_10': 0,
+        'penalty_ms': 0,
     }
 
 
@@ -143,7 +150,7 @@ def is_powerplay(time):
 def add_penalties(penalty_type, penalties, time):
     if penalty_type == 'penalty_2' or penalty_type == 'penalty_10':
         penalties.append(time)
-    elif penalty_type == 'penalty_2and2' or penalty_type == 'penalty_ms_full':
+    elif penalty_type == 'penalty_2and2' or penalty_type == 'penalty_ms_full' or penalty_type == 'penalty_ms_tech':
         penalties.append(time)
         penalties.append(time)
     return penalties
@@ -235,7 +242,6 @@ goal_differences_in_game = []
 all = []
 all_logs_after_game = []
 for _ , team in enumerate(teams):
-    print(team)
     stats = initalize_stats(team, teams)
     events_from_team = data[(data['home_team_name'] == team) | (data['away_team_name'] == team)]
     events_from_team = transform_in_seconds(events_from_team)
@@ -291,6 +297,8 @@ for _ , team in enumerate(teams):
                 # our goals
                 if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
                     stats['goals'] += 1
+                    if event['goal_type'] == 'penalty_shot':
+                        stats['penalty_shot_goals'] += 1
                     if event['period'] == 1:
                         stats['goals_in_first_period'] += 1
                     elif event['period'] == 2:
@@ -325,6 +333,8 @@ for _ , team in enumerate(teams):
                 # goals against
                 if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
                     stats['goals_against'] += 1
+                    if event['goal_type'] == 'penalty_shot':
+                        stats['penalty_shot_goals_against'] += 1
                     if event['period'] == 1:
                         stats['goals_in_first_period_against'] += 1
                     elif event['period'] == 2:
@@ -360,6 +370,15 @@ for _ , team in enumerate(teams):
 
                 # boxplay
                 if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
+                    penalty_type = event['penalty_type']
+                    if penalty_type == 'penalty_2':
+                        stats['penalty_2'] += 1
+                    elif penalty_type == 'penalty_2and2':
+                        stats['penalty_2and2'] += 1
+                    elif penalty_type == 'penalty_10':
+                        stats['penalty_10'] += 1
+                    elif penalty_type == 'penalty_ms_full' or penalty_type == 'penalty_ms_tech':
+                        stats['penalty_ms'] += 1
                     penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
                     stats['boxplay'] += 1
                     if event['period'] == 1:
@@ -446,9 +465,6 @@ for _ , team in enumerate(teams):
 
     pd.DataFrame(enriched_events).to_csv(args.output_path)
     all.append(stats)
-
-print(all_logs_after_game)
-
 
 rankings_gameday = calculate_rank_after_gamedays(all_logs_after_game)
 create_visualization_rankings(rankings_gameday, OUTPUT_FOLDER)

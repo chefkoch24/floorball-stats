@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Playdowns
 Category: 22-23-regular-season, liga
 Slug: playdowns-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/playdowns-22-23-regular-season_platzierungsverlauf.png
 goals: 114.75
 goals_in_first_period: 37.75
 goals_in_second_period: 34.25
@@ -49,9 +50,9 @@ draws: 0.0
 points_after_first_period: 28.5
 points_after_second_period: 20.25
 points_after_third_period: 0.0
-points_after_55_min: 14.75
-points_after_58_min: 14.5
-points_after_59_min: 14.5
+points_after_55_min: 14.25
+points_after_58_min: 9.25
+points_after_59_min: 6.5
 win_1: 3.0
 loss_1: 4.5
 points_max_difference_3: 4.0
@@ -59,6 +60,12 @@ points_more_3_difference: 12.0
 close_game_win: 0.5
 close_game_loss: 2.25
 close_game_overtime: 2.0
+penalty_shot_goals: 3.5
+penalty_shot_goals_against: 1.75
+penalty_2: 47.0
+penalty_2and2: 1.25
+penalty_10: 0.75
+penalty_ms: 0.25
 goals_per_game: 5.22
 goals_against_per_game: 7.93
 boxplay_per_game: 2.24
@@ -76,7 +83,7 @@ percent_goals_overtime_against: 0.99
 points_per_game: 0.73
 goal_difference: -59.75
 goal_difference_per_game: -2.72
-is_playoffs: 0.0
 scoring_ratio: 0.67
 rank: 10.5
+is_playoffs: 0.0
 team: Playdowns

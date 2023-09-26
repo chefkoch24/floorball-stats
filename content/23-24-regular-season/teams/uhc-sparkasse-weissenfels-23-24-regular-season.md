@@ -1,4 +1,4 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: UHC Sparkasse Weißenfels
 Category: 23-24-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-23-24-regular-season
@@ -62,6 +62,12 @@ points_more_3_difference: 6
 close_game_win: 1
 close_game_loss: 0
 close_game_overtime: 1
+penalty_shot_goals: 0
+penalty_shot_goals_against: 0
+penalty_2: 4
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 7.0
 goals_against_per_game: 4.75
 boxplay_per_game: 1.0

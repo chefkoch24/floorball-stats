@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Playoffs
 Category: 22-23-regular-season, liga
 Slug: playoffs-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/playoffs-22-23-regular-season_platzierungsverlauf.png
 goals: 158.62
 goals_in_first_period: 45.25
 goals_in_second_period: 52.62
@@ -49,16 +50,22 @@ draws: 0.25
 points_after_first_period: 31.12
 points_after_second_period: 37.12
 points_after_third_period: 0.0
-points_after_55_min: 40.25
-points_after_58_min: 39.88
-points_after_59_min: 39.5
+points_after_55_min: 36.0
+points_after_58_min: 30.12
+points_after_59_min: 18.62
 win_1: 2.75
-loss_1: 2.12
+loss_1: 2.0
 points_max_difference_3: 7.62
 points_more_3_difference: 33.75
 close_game_win: 2.12
 close_game_loss: 1.25
 close_game_overtime: 0.75
+penalty_shot_goals: 2.5
+penalty_shot_goals_against: 3.38
+penalty_2: 44.0
+penalty_2and2: 1.12
+penalty_10: 0.5
+penalty_ms: 0.25
 goals_per_game: 7.21
 goals_against_per_game: 5.85
 boxplay_per_game: 2.09
@@ -76,7 +83,7 @@ percent_goals_overtime_against: 0.49
 points_per_game: 1.88
 goal_difference: 29.88
 goal_difference_per_game: 1.36
-is_playoffs: 1.0
 scoring_ratio: 1.28
 rank: 4.5
+is_playoffs: 1.0
 team: Playoffs

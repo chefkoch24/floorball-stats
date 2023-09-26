@@ -1,4 +1,4 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: SSF Dragons Bonn
 Category: 23-24-regular-season, teams
 Slug: ssf-dragons-bonn-23-24-regular-season
@@ -9,7 +9,7 @@ goals_in_first_period: 12
 goals_in_second_period: 8
 goals_in_third_period: 10
 goals_in_overtime: 0
-goals_in_boxplay: 0
+goals_in_boxplay: 1
 goals_in_powerplay: 2
 leading_goals: 8
 equalizer_goals: 1
@@ -62,6 +62,12 @@ points_more_3_difference: 3
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 0
+penalty_shot_goals: 1
+penalty_shot_goals_against: 0
+penalty_2: 7
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 1
 goals_per_game: 7.5
 goals_against_per_game: 8.75
 boxplay_per_game: 2.0

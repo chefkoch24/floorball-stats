@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: SSF Dragons Bonn
 Category: 22-23-regular-season, teams
 Slug: ssf-dragons-bonn-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/ssf-dragons-bonn-22-23-regular-season_platzierungsverlauf.png
 team: SSF Dragons Bonn
 goals: 124
 goals_in_first_period: 47
@@ -47,13 +48,13 @@ over_time_wins: 1
 losses: 13
 over_time_losses: 2
 draws: 0
-Tags:  MFBC Leipzig: 1,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 1,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 3,  Floor Fighters Chemnitz: 2,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Berlin Rockets: 0,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 1,  Floor Fighters Chemnitz: 2,  MFBC Leipzig: 1,  Red Devils Wernigerode: 6,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 3,
 points_after_first_period: 39
 points_after_second_period: 32
 points_after_third_period: 0
 points_after_55_min: 18
-points_after_58_min: 18
-points_after_59_min: 18
+points_after_58_min: 13
+points_after_59_min: 7
 win_1: 3
 loss_1: 4
 points_max_difference_3: 5
@@ -61,6 +62,12 @@ points_more_3_difference: 17
 close_game_win: 1
 close_game_loss: 3
 close_game_overtime: 2
+penalty_shot_goals: 1
+penalty_shot_goals_against: 2
+penalty_2: 40
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 5.64
 goals_against_per_game: 6.91
 boxplay_per_game: 1.82
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 1.32
 points_per_game: 1.0
 goal_difference: -28
 goal_difference_per_game: -1.27
-is_playoffs: False
 scoring_ratio: 0.82
 rank: 9
+is_playoffs: False

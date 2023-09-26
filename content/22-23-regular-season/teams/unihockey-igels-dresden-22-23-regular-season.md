@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Unihockey Igels Dresden
 Category: 22-23-regular-season, teams
 Slug: unihockey-igels-dresden-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/unihockey-igels-dresden-22-23-regular-season_platzierungsverlauf.png
 team: Unihockey Igels Dresden
 goals: 111
 goals_in_first_period: 36
@@ -47,13 +48,13 @@ over_time_wins: 2
 losses: 16
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 3,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 3,  Red Devils Wernigerode: 3,  Blau-Weiß 96 Schenefeld: 4,
+Tags:  Berlin Rockets: 3,  Blau-Weiß 96 Schenefeld: 4,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 3,  TV Schriesheim: 3,  UHC Sparkasse Weißenfels: 0,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 29
 points_after_second_period: 16
 points_after_third_period: 0
-points_after_55_min: 15
-points_after_58_min: 14
-points_after_59_min: 14
+points_after_55_min: 10
+points_after_58_min: 7
+points_after_59_min: 6
 win_1: 5
 loss_1: 3
 points_max_difference_3: 4
@@ -61,6 +62,12 @@ points_more_3_difference: 12
 close_game_win: 0
 close_game_loss: 3
 close_game_overtime: 2
+penalty_shot_goals: 3
+penalty_shot_goals_against: 1
+penalty_2: 34
+penalty_2and2: 0
+penalty_10: 1
+penalty_ms: 0
 goals_per_game: 5.05
 goals_against_per_game: 7.68
 boxplay_per_game: 1.59
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 0.73
 goal_difference: -58
 goal_difference_per_game: -2.64
-is_playoffs: False
 scoring_ratio: 0.66
 rank: 11
+is_playoffs: False

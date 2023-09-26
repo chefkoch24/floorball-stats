@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Blau-Weiß 96 Schenefeld
 Category: 22-23-regular-season, teams
 Slug: blau-weiss-96-schenefeld-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/blau-weiss-96-schenefeld-22-23-regular-season_platzierungsverlauf.png
 team: Blau-Weiß 96 Schenefeld
 goals: 99
 goals_in_first_period: 27
@@ -47,13 +48,13 @@ over_time_wins: 0
 losses: 18
 over_time_losses: 2
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 0,  Floor Fighters Chemnitz: 0,  SSF Dragons Bonn: 0,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 2,
+Tags:  Berlin Rockets: 0,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 0,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 2,  VfL Red Hocks Kaufering: 0,
 points_after_first_period: 16
 points_after_second_period: 8
 points_after_third_period: 0
-points_after_55_min: 8
-points_after_58_min: 8
-points_after_59_min: 8
+points_after_55_min: 10
+points_after_58_min: 6
+points_after_59_min: 3
 win_1: 0
 loss_1: 5
 points_max_difference_3: 2
@@ -61,6 +62,12 @@ points_more_3_difference: 6
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 2
+penalty_shot_goals: 4
+penalty_shot_goals_against: 1
+penalty_2: 64
+penalty_2and2: 2
+penalty_10: 2
+penalty_ms: 0
 goals_per_game: 4.5
 goals_against_per_game: 8.64
 boxplay_per_game: 3.09
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 1.05
 points_per_game: 0.36
 goal_difference: -91
 goal_difference_per_game: -4.14
-is_playoffs: False
 scoring_ratio: 0.52
 rank: 12
+is_playoffs: False

@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Floor Fighters Chemnitz
 Category: 22-23-regular-season, teams
 Slug: floor-fighters-chemnitz-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/floor-fighters-chemnitz-22-23-regular-season_platzierungsverlauf.png
 team: Floor Fighters Chemnitz
 goals: 136
 goals_in_first_period: 34
@@ -47,13 +48,13 @@ over_time_wins: 0
 losses: 13
 over_time_losses: 1
 draws: 1
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 1,  Berlin Rockets: 0,  TV Schriesheim: 0,  VfL Red Hocks Kaufering: 3,  SSF Dragons Bonn: 4,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Berlin Rockets: 0,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 1,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 4,  TV Schriesheim: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 3,
 points_after_first_period: 18
 points_after_second_period: 24
 points_after_third_period: 0
-points_after_55_min: 24
-points_after_58_min: 23
-points_after_59_min: 23
+points_after_55_min: 19
+points_after_58_min: 17
+points_after_59_min: 12
 win_1: 2
 loss_1: 3
 points_max_difference_3: 7
@@ -61,6 +62,12 @@ points_more_3_difference: 16
 close_game_win: 2
 close_game_loss: 3
 close_game_overtime: 1
+penalty_shot_goals: 3
+penalty_shot_goals_against: 4
+penalty_2: 49
+penalty_2and2: 2
+penalty_10: 2
+penalty_ms: 0
 goals_per_game: 6.18
 goals_against_per_game: 7.55
 boxplay_per_game: 2.41
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.6
 points_per_game: 1.05
 goal_difference: -30
 goal_difference_per_game: -1.36
-is_playoffs: True
 scoring_ratio: 0.82
 rank: 8
+is_playoffs: True

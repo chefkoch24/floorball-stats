@@ -1,4 +1,4 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: Red Devils Wernigerode
 Category: 23-24-regular-season, teams
 Slug: red-devils-wernigerode-23-24-regular-season
@@ -62,6 +62,12 @@ points_more_3_difference: 3
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 0
+penalty_shot_goals: 1
+penalty_shot_goals_against: 1
+penalty_2: 13
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 1
 goals_per_game: 5.75
 goals_against_per_game: 9.0
 boxplay_per_game: 3.5

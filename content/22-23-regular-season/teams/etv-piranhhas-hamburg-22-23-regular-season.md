@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: ETV Piranhhas Hamburg
 Category: 22-23-regular-season, teams
 Slug: etv-piranhhas-hamburg-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/etv-piranhhas-hamburg-22-23-regular-season_platzierungsverlauf.png
 team: ETV Piranhhas Hamburg
 goals: 166
 goals_in_first_period: 39
@@ -47,13 +48,13 @@ over_time_wins: 2
 losses: 5
 over_time_losses: 1
 draws: 1
-Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 3,  UHC Sparkasse Weißenfels: 6,  Berlin Rockets: 1,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 3,  Floor Fighters Chemnitz: 4,  SSF Dragons Bonn: 5,  Red Devils Wernigerode: 2,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Berlin Rockets: 1,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 3,  Floor Fighters Chemnitz: 4,  MFBC Leipzig: 3,  Red Devils Wernigerode: 2,  SSF Dragons Bonn: 5,  TV Schriesheim: 6,  UHC Sparkasse Weißenfels: 6,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 3,
 points_after_first_period: 26
 points_after_second_period: 41
 points_after_third_period: 0
-points_after_55_min: 43
-points_after_58_min: 40
-points_after_59_min: 40
+points_after_55_min: 48
+points_after_58_min: 37
+points_after_59_min: 22
 win_1: 3
 loss_1: 2
 points_max_difference_3: 8
@@ -61,6 +62,12 @@ points_more_3_difference: 37
 close_game_win: 1
 close_game_loss: 0
 close_game_overtime: 3
+penalty_shot_goals: 2
+penalty_shot_goals_against: 4
+penalty_2: 45
+penalty_2and2: 2
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 7.55
 goals_against_per_game: 5.59
 boxplay_per_game: 2.14
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.8099999999999999
 points_per_game: 2.05
 goal_difference: 43
 goal_difference_per_game: 1.95
-is_playoffs: True
 scoring_ratio: 1.35
 rank: 4
+is_playoffs: True

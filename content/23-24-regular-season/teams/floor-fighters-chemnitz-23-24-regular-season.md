@@ -1,4 +1,4 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: Floor Fighters Chemnitz
 Category: 23-24-regular-season, teams
 Slug: floor-fighters-chemnitz-23-24-regular-season
@@ -23,7 +23,7 @@ goals_in_second_period_against: 9
 goals_in_third_period_against: 17
 goals_in_overtime_against: 0
 goals_against_in_boxplay: 3
-goals_against_in_powerplay: 0
+goals_against_in_powerplay: 1
 goals_not_in_boxplay: 29
 boxplay: 8
 powerplay: 5
@@ -62,6 +62,12 @@ points_more_3_difference: 6
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 0
+penalty_shot_goals: 1
+penalty_shot_goals_against: 0
+penalty_2: 7
+penalty_2and2: 1
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 7.5
 goals_against_per_game: 8.0
 boxplay_per_game: 2.0

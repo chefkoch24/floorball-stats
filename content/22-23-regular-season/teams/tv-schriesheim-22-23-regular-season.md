@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: TV Schriesheim
 Category: 22-23-regular-season, teams
 Slug: tv-schriesheim-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/tv-schriesheim-22-23-regular-season_platzierungsverlauf.png
 team: TV Schriesheim
 goals: 161
 goals_in_first_period: 48
@@ -47,20 +48,26 @@ over_time_wins: 1
 losses: 10
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 2,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 3,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Berlin Rockets: 2,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 0,  Red Devils Wernigerode: 3,  SSF Dragons Bonn: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 6,
 points_after_first_period: 26
 points_after_second_period: 40
 points_after_third_period: 0
-points_after_55_min: 34
-points_after_58_min: 34
-points_after_59_min: 34
+points_after_55_min: 27
+points_after_58_min: 21
+points_after_59_min: 12
 win_1: 3
-loss_1: 4
+loss_1: 3
 points_max_difference_3: 3
 points_more_3_difference: 32
 close_game_win: 1
 close_game_loss: 2
 close_game_overtime: 0
+penalty_shot_goals: 0
+penalty_shot_goals_against: 5
+penalty_2: 58
+penalty_2and2: 2
+penalty_10: 0
+penalty_ms: 2
 goals_per_game: 7.32
 goals_against_per_game: 6.77
 boxplay_per_game: 2.82
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 1.59
 goal_difference: 12
 goal_difference_per_game: 0.55
-is_playoffs: True
 scoring_ratio: 1.08
 rank: 6
+is_playoffs: True

@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: UHC Sparkasse Weißenfels
 Category: 22-23-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/uhc-sparkasse-weissenfels-22-23-regular-season_platzierungsverlauf.png
 team: UHC Sparkasse Weißenfels
 goals: 151
 goals_in_first_period: 42
@@ -47,13 +48,13 @@ over_time_wins: 0
 losses: 5
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 3,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 6,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 3,  Red Devils Wernigerode: 6,  SSF Dragons Bonn: 6,  TV Schriesheim: 3,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 6,
 points_after_first_period: 31
 points_after_second_period: 32
 points_after_third_period: 0
-points_after_55_min: 54
-points_after_58_min: 54
-points_after_59_min: 51
+points_after_55_min: 38
+points_after_58_min: 34
+points_after_59_min: 10
 win_1: 5
 loss_1: 0
 points_max_difference_3: 24
@@ -61,6 +62,12 @@ points_more_3_difference: 27
 close_game_win: 8
 close_game_loss: 1
 close_game_overtime: 0
+penalty_shot_goals: 0
+penalty_shot_goals_against: 7
+penalty_2: 38
+penalty_2and2: 0
+penalty_10: 1
+penalty_ms: 0
 goals_per_game: 6.86
 goals_against_per_game: 5.27
 boxplay_per_game: 1.77
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 2.32
 goal_difference: 35
 goal_difference_per_game: 1.59
-is_playoffs: True
 scoring_ratio: 1.3
 rank: 3
+is_playoffs: True

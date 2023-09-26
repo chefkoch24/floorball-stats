@@ -1,8 +1,7 @@
-Date: 2023-09-25
-Title: Top_4_teams
+Date: 2023-09-26
+Title: Top-4-teams
 Category: 23-24-regular-season, liga
 Slug: top_4_teams-23-24-regular-season
-Platzierungsverlauf:23-24-regular-season/teams/top_4_teams-23-24-regular-season_platzierungsverlauf.png
 goals: 29.75
 goals_in_first_period: 8.25
 goals_in_second_period: 10.0
@@ -60,6 +59,12 @@ points_more_3_difference: 8.0
 close_game_win: 0.5
 close_game_loss: 0.0
 close_game_overtime: 0.25
+penalty_shot_goals: 0.75
+penalty_shot_goals_against: 0.75
+penalty_2: 6.5
+penalty_2and2: 0.0
+penalty_10: 0.0
+penalty_ms: 0.0
 goals_per_game: 7.44
 goals_against_per_game: 4.94
 boxplay_per_game: 1.62

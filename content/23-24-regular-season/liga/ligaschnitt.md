@@ -1,14 +1,13 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: Ligaschnitt
 Category: 23-24-regular-season, liga
 Slug: ligaschnitt-23-24-regular-season
-Platzierungsverlauf:23-24-regular-season/teams/ligaschnitt-23-24-regular-season_platzierungsverlauf.png
 goals: 26.58
 goals_in_first_period: 8.42
 goals_in_second_period: 8.5
 goals_in_third_period: 9.42
 goals_in_overtime: 0.25
-goals_in_boxplay: 0.5
+goals_in_boxplay: 0.58
 goals_in_powerplay: 2.92
 leading_goals: 4.67
 equalizer_goals: 3.17
@@ -22,7 +21,7 @@ goals_in_second_period_against: 8.5
 goals_in_third_period_against: 9.42
 goals_in_overtime_against: 0.25
 goals_against_in_boxplay: 2.92
-goals_against_in_powerplay: 0.5
+goals_against_in_powerplay: 0.58
 goals_not_in_boxplay: 23.67
 boxplay: 7.58
 powerplay: 7.58
@@ -60,6 +59,12 @@ points_more_3_difference: 5.0
 close_game_win: 0.25
 close_game_loss: 0.25
 close_game_overtime: 0.17
+penalty_shot_goals: 0.58
+penalty_shot_goals_against: 0.58
+penalty_2: 7.33
+penalty_2and2: 0.08
+penalty_10: 0.0
+penalty_ms: 0.17
 goals_per_game: 6.65
 goals_against_per_game: 6.65
 boxplay_per_game: 1.9

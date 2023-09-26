@@ -1,4 +1,4 @@
-Date: 2023-09-25
+Date: 2023-09-26
 Title: VfL Red Hocks Kaufering
 Category: 23-24-regular-season, teams
 Slug: vfl-red-hocks-kaufering-23-24-regular-season
@@ -62,6 +62,12 @@ points_more_3_difference: 1
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 0
+penalty_shot_goals: 0
+penalty_shot_goals_against: 2
+penalty_2: 6
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 6.25
 goals_against_per_game: 9.25
 boxplay_per_game: 1.5

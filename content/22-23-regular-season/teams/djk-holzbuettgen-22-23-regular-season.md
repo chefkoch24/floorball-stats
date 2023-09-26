@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: DJK Holzbüttgen
 Category: 22-23-regular-season, teams
 Slug: djk-holzbuettgen-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/djk-holzbuettgen-22-23-regular-season_platzierungsverlauf.png
 team: DJK Holzbüttgen
 goals: 164
 goals_in_first_period: 50
@@ -47,13 +48,13 @@ over_time_wins: 0
 losses: 5
 over_time_losses: 0
 draws: 0
-Tags:  MFBC Leipzig: 0,  UHC Sparkasse Weißenfels: 3,  ETV Piranhhas Hamburg: 3,  Berlin Rockets: 6,  TV Schriesheim: 6,  VfL Red Hocks Kaufering: 6,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 6,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 3,
+Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 3,  ETV Piranhhas Hamburg: 3,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 0,  Red Devils Wernigerode: 6,  SSF Dragons Bonn: 6,  TV Schriesheim: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,  VfL Red Hocks Kaufering: 6,
 points_after_first_period: 42
 points_after_second_period: 47
 points_after_third_period: 0
-points_after_55_min: 49
-points_after_58_min: 51
-points_after_59_min: 51
+points_after_55_min: 47
+points_after_58_min: 42
+points_after_59_min: 30
 win_1: 0
 loss_1: 1
 points_max_difference_3: 6
@@ -61,6 +62,12 @@ points_more_3_difference: 45
 close_game_win: 2
 close_game_loss: 1
 close_game_overtime: 0
+penalty_shot_goals: 5
+penalty_shot_goals_against: 3
+penalty_2: 49
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 7.45
 goals_against_per_game: 4.86
 boxplay_per_game: 2.23
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.0
 points_per_game: 2.32
 goal_difference: 57
 goal_difference_per_game: 2.59
-is_playoffs: True
 scoring_ratio: 1.53
 rank: 2
+is_playoffs: True

@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Red Devils Wernigerode
 Category: 22-23-regular-season, teams
 Slug: red-devils-wernigerode-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/red-devils-wernigerode-22-23-regular-season_platzierungsverlauf.png
 team: Red Devils Wernigerode
 goals: 125
 goals_in_first_period: 41
@@ -47,13 +48,13 @@ over_time_wins: 0
 losses: 14
 over_time_losses: 3
 draws: 0
-Tags:  MFBC Leipzig: 0,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 4,  Berlin Rockets: 1,  TV Schriesheim: 3,  VfL Red Hocks Kaufering: 1,  Floor Fighters Chemnitz: 3,  SSF Dragons Bonn: 0,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 3,
+Tags:  Berlin Rockets: 1,  Blau-Weiß 96 Schenefeld: 3,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 4,  Floor Fighters Chemnitz: 3,  MFBC Leipzig: 0,  SSF Dragons Bonn: 0,  TV Schriesheim: 3,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 1,
 points_after_first_period: 30
 points_after_second_period: 25
 points_after_third_period: 0
-points_after_55_min: 18
-points_after_58_min: 18
-points_after_59_min: 18
+points_after_55_min: 19
+points_after_58_min: 11
+points_after_59_min: 10
 win_1: 4
 loss_1: 6
 points_max_difference_3: 5
@@ -61,6 +62,12 @@ points_more_3_difference: 13
 close_game_win: 1
 close_game_loss: 3
 close_game_overtime: 2
+penalty_shot_goals: 6
+penalty_shot_goals_against: 3
+penalty_2: 50
+penalty_2and2: 3
+penalty_10: 0
+penalty_ms: 1
 goals_per_game: 5.68
 goals_against_per_game: 8.5
 boxplay_per_game: 2.45
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 1.6
 points_per_game: 0.82
 goal_difference: -62
 goal_difference_per_game: -2.82
-is_playoffs: False
 scoring_ratio: 0.67
 rank: 10
+is_playoffs: False

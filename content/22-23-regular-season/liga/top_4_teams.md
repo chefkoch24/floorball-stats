@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Top_4_teams
 Category: 22-23-regular-season, liga
 Slug: top_4_teams-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/top_4_teams-22-23-regular-season_platzierungsverlauf.png
 goals: 170.75
 goals_in_first_period: 50.5
 goals_in_second_period: 56.0
@@ -49,9 +50,9 @@ draws: 0.25
 points_after_first_period: 35.75
 points_after_second_period: 42.5
 points_after_third_period: 0.0
-points_after_55_min: 49.75
-points_after_58_min: 49.5
-points_after_59_min: 48.75
+points_after_55_min: 42.5
+points_after_58_min: 37.25
+points_after_59_min: 20.75
 win_1: 2.5
 loss_1: 1.0
 points_max_difference_3: 11.5
@@ -59,6 +60,12 @@ points_more_3_difference: 38.75
 close_game_win: 3.25
 close_game_loss: 0.75
 close_game_overtime: 1.0
+penalty_shot_goals: 2.75
+penalty_shot_goals_against: 4.0
+penalty_2: 40.75
+penalty_2and2: 0.75
+penalty_10: 0.25
+penalty_ms: 0.0
 goals_per_game: 7.76
 goals_against_per_game: 5.09
 boxplay_per_game: 1.9
@@ -76,7 +83,7 @@ percent_goals_overtime_against: 0.45
 points_per_game: 2.29
 goal_difference: 58.75
 goal_difference_per_game: 2.67
-is_playoffs: 1.0
 scoring_ratio: 1.54
 rank: 2.5
+is_playoffs: 1.0
 team: Top_4_teams

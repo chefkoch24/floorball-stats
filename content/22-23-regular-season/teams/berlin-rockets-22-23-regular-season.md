@@ -1,7 +1,8 @@
-Date: 2023-09-11
+Date: 2023-09-26
 Title: Berlin Rockets
 Category: 22-23-regular-season, teams
 Slug: berlin-rockets-22-23-regular-season
+Platzierungsverlauf:22-23-regular-season/teams/berlin-rockets-22-23-regular-season_platzierungsverlauf.png
 team: Berlin Rockets
 goals: 152
 goals_in_first_period: 45
@@ -47,13 +48,13 @@ over_time_wins: 4
 losses: 6
 over_time_losses: 1
 draws: 0
-Tags:  MFBC Leipzig: 5,  DJK Holzbüttgen: 0,  UHC Sparkasse Weißenfels: 0,  ETV Piranhhas Hamburg: 5,  TV Schriesheim: 4,  VfL Red Hocks Kaufering: 2,  Floor Fighters Chemnitz: 6,  SSF Dragons Bonn: 6,  Red Devils Wernigerode: 5,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 6,
+Tags:  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 5,  Floor Fighters Chemnitz: 6,  MFBC Leipzig: 5,  Red Devils Wernigerode: 5,  SSF Dragons Bonn: 6,  TV Schriesheim: 4,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 3,  VfL Red Hocks Kaufering: 2,
 points_after_first_period: 41
 points_after_second_period: 39
 points_after_third_period: 0
-points_after_55_min: 36
-points_after_58_min: 35
-points_after_59_min: 35
+points_after_55_min: 38
+points_after_58_min: 30
+points_after_59_min: 27
 win_1: 5
 loss_1: 2
 points_max_difference_3: 0
@@ -61,6 +62,12 @@ points_more_3_difference: 42
 close_game_win: 0
 close_game_loss: 0
 close_game_overtime: 0
+penalty_shot_goals: 5
+penalty_shot_goals_against: 0
+penalty_2: 32
+penalty_2and2: 1
+penalty_10: 1
+penalty_ms: 0
 goals_per_game: 6.91
 goals_against_per_game: 6.41
 boxplay_per_game: 1.55
@@ -78,6 +85,6 @@ percent_goals_overtime_against: 0.7100000000000001
 points_per_game: 1.91
 goal_difference: 11
 goal_difference_per_game: 0.5
-is_playoffs: True
 scoring_ratio: 1.08
 rank: 5
+is_playoffs: True
