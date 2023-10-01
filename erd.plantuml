@@ -1,0 +1,18 @@
+@startuml
+title ERD
+entity league{
+    + league_id
+    + year
+    + league_name
+}
+entity team{
+    + team_id
+    + team_name
+}
+entity stats{
+}
+
+league ||--o{ team
+team ||--|| stats
+
+@enduml
