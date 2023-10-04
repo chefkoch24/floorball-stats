@@ -1,4 +1,4 @@
-Date: 2023-10-01
+Date: 2023-10-04
 Title: ETV Piranhhas Hamburg
 Category: 23-24-regular-season, teams
 Slug: etv-piranhhas-hamburg-23-24-regular-season
@@ -86,5 +86,5 @@ points_per_game: 2.0
 goal_difference: 10
 goal_difference_per_game: 2.0
 scoring_ratio: 1.43
-rank: 4
+rank: 6
 is_playoffs: True
