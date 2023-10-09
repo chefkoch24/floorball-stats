@@ -1,3 +1,5 @@
+from typing import Dict
+
 import strawberry
 from strawberry.types import Info
 
@@ -9,7 +11,7 @@ class League:
     league_id: strawberry.ID
     year: str
     league_name: str
-    team = list['Team']
+    team: list['Team']
 
 @strawberry.type
 class Team:
@@ -62,53 +64,53 @@ class Stats:
     home_points: int
     away_points: int
     wins: int
-    over_time_wins = int
-    losses = int
-    over_time_losses = int
-    draws = int
-    points_against = dict
-    points_after_first_period = int
-    points_after_second_period = int
-    points_after_third_period = int
-    points_after_55_min = int
-    points_after_58_min = int
-    points_after_59_min = int
-    win_1 = int
-    loss_1 = int
-    points_max_difference_3 = int
-    points_more_3_difference = int
-    close_game_win = int
-    close_game_loss = int
-    close_game_overtime = int
-    penalty_shot_goals = int
-    penalty_shot_goals_against = int
-    penalty_2 = int
-    penalty_2and2 = int
-    penalty_10 = int
-    penalty_ms = int
-    goals_per_game = float
-    goals_against_per_game = float
-    boxplay_per_game = float
-    powerplay_per_game = float
-    powerplay_efficiency = float
-    boxplay_efficiency = float
-    percent_goals_first_period = float
-    percent_goals_second_period = float
-    percent_goals_third_period = float
-    percent_goals_overtime = float
-    percent_goals_in_boxplay = float
-    percent_goals_in_powerplay = float
-    percent_goals_first_period_against = float
-    percent_goals_second_period_against = float
-    percent_goals_third_period_against = float
-    percent_goals_overtime_against = float
-    points_per_game = float
-    goal_difference = float
-    goal_difference_per_game = float
-    scoring_ratio = float
-    is_playoffs = bool
-    rank = int
-    team = Team
+    over_time_wins: int
+    losses: int
+    over_time_losses: int
+    draws: int
+    #points_against: Dict
+    points_after_first_period: int
+    points_after_second_period: int
+    points_after_third_period: int
+    points_after_55_min: int
+    points_after_58_min: int
+    points_after_59_min: int
+    win_1: int
+    loss_1: int
+    points_max_difference_3: int
+    points_more_3_difference: int
+    close_game_win: int
+    close_game_loss: int
+    close_game_overtime: int
+    penalty_shot_goals: int
+    penalty_shot_goals_against: int
+    penalty_2: int
+    penalty_2and2: int
+    penalty_10: int
+    penalty_ms: int
+    goals_per_game: float
+    goals_against_per_game: float
+    boxplay_per_game: float
+    powerplay_per_game: float
+    powerplay_efficiency: float
+    boxplay_efficiency: float
+    percent_goals_first_period: float
+    percent_goals_second_period: float
+    percent_goals_third_period: float
+    percent_goals_overtime: float
+    percent_goals_in_boxplay: float
+    percent_goals_in_powerplay: float
+    percent_goals_first_period_against: float
+    percent_goals_second_period_against: float
+    percent_goals_third_period_against: float
+    percent_goals_overtime_against: float
+    points_per_game: float
+    goal_difference: float
+    goal_difference_per_game: float
+    scoring_ratio: float
+    is_playoffs: bool
+    rank: int
+    team: Team
 
 
 
