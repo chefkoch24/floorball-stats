@@ -1,0 +1,17 @@
+version: '3'
+services:
+  directus:
+    image: directus/directus:latest
+    ports:
+      - 8055:8055
+    volumes:
+      - ./database:/directus/database
+      - ./uploads:/directus/uploads
+    environment:
+      KEY: ${KEY}
+      SECRET: ${SECRET}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      DB_CLIENT: 'pg'
+      DB_CONNECTION_STRING: ${DATABASE_URL}
+      WEBSOCKETS_ENABLED: false
