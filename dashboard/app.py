@@ -20,16 +20,19 @@ from python_graphql_client import GraphqlClient
 url = os.getenv("SUPABASE_URL")
 key = os.getenv("SUPABASE_KEY")
 
-data = requests.get(f"{url}/rest/v1/stats?select=*,teams(team_name)", headers={'apikey': key}).json()
+#data = requests.get(f"{url}/rest/v1/stats?select=*,teams(team_name)", headers={'apikey': key}).json()
 # flatten the json
-data = [dict(**d, **d.pop('teams')) for d in data]
+#data = [dict(**d, **d.pop('teams')) for d in data]
 
-df = pd.DataFrame(data)
+#df = pd.DataFrame(data)
+df = pd.DataFrame.from_csv('../data/regular_season_23_24.csv')
 
 
 fig_goals = px.bar(df, x="team_name", y=["goals", 'goals_against'], barmode="group", labels={'goals': 'Goals', 'goals_against': 'Goals Against'})
 fig_penalties = px.bar(df, x="team_name", y=['powerplay', 'boxplay'], barmode="group", labels={'powerplay': 'Powerplay', 'boxplay': 'Boxplay'})
-fig_efficeny = px.bar(df, x="team_name", y=['powerplay_efficiency', 'boxplay_efficiency'], barmode="group", labels={'powerplay_efficiency': 'Powerplay Effizienz', 'boxplay_efficiency': 'Boxplay Effizienz'})
+fig_efficeny = px.scatter(df, x="boxplay_efficiency",y='powerplay_efficiency', text='team_name', hover_name='team_name', hover_data=['rank','points', 'points_per_game'],  labels={'powerplay_efficiency': 'Powerplay Effizienz', 'boxplay_efficiency': 'Boxplay Effizienz'})
+fig_efficeny.update_traces(textposition='top center')
+
 
 teams = df['team_name'].to_list()
 points_against = df['points_against'].to_list()
@@ -46,7 +49,8 @@ heatmap = pd.DataFrame(heatmap_data, columns=['team_name'] + teams, index=teams)
 
 fig_points_against = px.imshow(heatmap[teams], y=teams, text_auto=True)
 
-fig_goals_per_game = px.scatter(df, x="goals_per_game", hover_name='team_name', hover_data=['points', 'points_per_game', 'scoring_ratio'], y='goals_against_per_game', labels={'goals_per_game': 'Goals per Game', 'goals_against_per_game': 'Goals Against per Game'})
+fig_goals_per_game = px.scatter(df, x="goals_per_game", text='team_name',hover_name='team_name', hover_data=['points', 'points_per_game', 'scoring_ratio'], y='goals_against_per_game', labels={'goals_per_game': 'Goals per Game', 'goals_against_per_game': 'Goals Against per Game'})
+fig_goals_per_game.update_traces(textposition='top center')
 
 special_goals_fig = px.bar(df, x="team_name", y=['leading_goals', 'equalizer_goals', 'first_goal_of_match', 'penalty_shot_goals', 'penalty_shot_goals_against'], labels={'leading_goals': 'Leading Goals', 'equalizer_goals': 'Equalizer Goals', 'first_goal_of_match': 'First Goal of Match', 'penalty_shot_goals': 'Penalty Shot Goals', 'penalty_shot_goals_against': 'Penalty Shot Goals Against'})
 
@@ -75,13 +79,15 @@ app.layout = html.Div(children=[
                         'goals',
                         'home_points',
                       'away_points',
-                  ]]
+                  ]],
+inline=True
                   ),
     dash_table.DataTable(
         id='table',
         columns=[{"name": i, "id": i} for i in columns],
         data=df[columns].to_dict('records'),
         sort_action='native',
+        style_cell={'text-align': 'left'}
     )
 ])
 
@@ -113,12 +119,13 @@ def update_goals_graph(selected_period):
 @app.callback(
     Output('table', 'columns'),
     [Input('table-columns', 'value')])
-def update_table(columns):
-    if columns is not None:
-        columns = ['team_name'] + columns
-        return [{"name": col, "id": col} for col in columns]
+def update_table(selected_columns):
+    default_columns = ['rank', 'team_name', 'points', 'goals', 'goals_against']
+    if selected_columns is not None:
+        columns = default_columns + selected_columns
     else:
-        return []
+        columns = default_columns
+    return [{"name": col, "id": col} for col in columns]
 
 
 @app.callback(
