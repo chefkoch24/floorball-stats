@@ -1,4 +1,4 @@
-Date: 2024-02-14
+Date: 2024-02-18
 Title: Red Devils Wernigerode
 Category: 23-24-regular-season, teams
 Slug: red-devils-wernigerode-23-24-regular-season

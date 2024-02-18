@@ -1,4 +1,4 @@
-Date: 2024-02-14
+Date: 2024-02-18
 Title: Unihockey Igels Dresden
 Category: 23-24-regular-season, teams
 Slug: unihockey-igels-dresden-23-24-regular-season
@@ -86,5 +86,5 @@ points_per_game: 1.48
 goal_difference: 4
 goal_difference_per_game: 0.19
 scoring_ratio: 1.04
-rank: 8
+rank: 7
 is_playoffs: True
