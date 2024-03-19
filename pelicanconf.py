@@ -45,6 +45,7 @@ MENUITEMS = (
     ('Regular Season 22-23', '/category/22-23-regular-season.html'),
     ('Playoffs 22-23', '/category/22-23-playoffs.html'),
     ('Regular Season 23-24', '/category/23-24-regular-season.html'),
+    ('Playoffs 23-24', '/category/23-24-playoffs.html'),
 )
 
 def string_in_category_path(article, string_to_check):

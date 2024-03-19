@@ -1,7 +1,8 @@
-Date: 2023-09-18
+Date: 2024-03-19
 Title: VfL Red Hocks Kaufering
 Category: 22-23-playoffs, teams
 Slug: vfl-red-hocks-kaufering-22-23-playoffs
+Platzierungsverlauf:22-23-playoffs/teams/vfl-red-hocks-kaufering-22-23-playoffs_platzierungsverlauf.png
 team: VfL Red Hocks Kaufering
 goals: 10
 goals_in_first_period: 2
@@ -61,6 +62,12 @@ points_more_3_difference: 2
 close_game_win: 0
 close_game_loss: 1
 close_game_overtime: 0
+penalty_shot_goals: 0
+penalty_shot_goals_against: 0
+penalty_2: 7
+penalty_2and2: 1
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 3.33
 goals_against_per_game: 6.0
 boxplay_per_game: 2.67

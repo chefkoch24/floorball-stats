@@ -1,7 +1,8 @@
-Date: 2023-09-18
+Date: 2024-03-19
 Title: TV Schriesheim
 Category: 22-23-playoffs, teams
 Slug: tv-schriesheim-22-23-playoffs
+Platzierungsverlauf:22-23-playoffs/teams/tv-schriesheim-22-23-playoffs_platzierungsverlauf.png
 team: TV Schriesheim
 goals: 14
 goals_in_first_period: 5
@@ -61,6 +62,12 @@ points_more_3_difference: 3
 close_game_win: 0
 close_game_loss: 1
 close_game_overtime: 0
+penalty_shot_goals: 0
+penalty_shot_goals_against: 1
+penalty_2: 5
+penalty_2and2: 0
+penalty_10: 0
+penalty_ms: 0
 goals_per_game: 4.67
 goals_against_per_game: 5.33
 boxplay_per_game: 1.67
