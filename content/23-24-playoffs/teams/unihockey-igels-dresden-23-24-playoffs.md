@@ -1,4 +1,4 @@
-Date: 2024-03-19
+Date: 2024-03-25
 Title: Unihockey Igels Dresden
 Category: 23-24-playoffs, teams
 Slug: unihockey-igels-dresden-23-24-playoffs

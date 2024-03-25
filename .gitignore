@@ -39,3 +39,4 @@ env/
 
 /data/*
 /notebooks/.iypnb_checkpoints
+/output/

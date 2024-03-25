@@ -1,4 +1,4 @@
-Date: 2024-03-19
+Date: 2024-03-25
 Title: SSF Dragons Bonn
 Category: 23-24-playoffs, teams
 Slug: ssf-dragons-bonn-23-24-playoffs

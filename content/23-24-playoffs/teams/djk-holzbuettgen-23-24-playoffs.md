@@ -1,4 +1,4 @@
-Date: 2024-03-19
+Date: 2024-03-25
 Title: DJK Holzbüttgen
 Category: 23-24-playoffs, teams
 Slug: djk-holzbuettgen-23-24-playoffs
