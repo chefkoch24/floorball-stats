@@ -23,7 +23,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
-'23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/liga', '23-24-playoffs/teams'] # add season links here for teams and liga
+                 '23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/teams', '23-24-playoffs/liga',
+                 '24-25-regular-season/teams', '24-25-regular-season/liga', '24-25-playoffs/teams', '24-25-playoffs/liga',
+                 ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
 
 # Blogroll
@@ -45,7 +47,9 @@ MENUITEMS = (
     ('Regular Season 22-23', '/category/22-23-regular-season.html'),
     ('Playoffs 22-23', '/category/22-23-playoffs.html'),
     ('Regular Season 23-24', '/category/23-24-regular-season.html'),
-    ('Playoffs 23-24', '/category/23-24-playoffs.html'), # add season links here
+    ('Playoffs 23-24', '/category/23-24-playoffs.html'),
+    ('Regular Season 24-25', '/category/24-25-regular-season.html'),
+    # add season links here
 )
 
 def string_in_category_path(article, string_to_check):
