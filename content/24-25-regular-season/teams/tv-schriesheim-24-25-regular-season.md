@@ -1,4 +1,4 @@
-Date: 2025-01-27
+Date: 2025-02-21
 Title: TV Schriesheim
 Category: 24-25-regular-season, teams
 Slug: tv-schriesheim-24-25-regular-season

@@ -1,4 +1,4 @@
-Date: 2025-01-27
+Date: 2025-02-21
 Title: VfL Red Hocks Kaufering
 Category: 24-25-regular-season, teams
 Slug: vfl-red-hocks-kaufering-24-25-regular-season
