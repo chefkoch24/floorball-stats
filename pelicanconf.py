@@ -49,6 +49,7 @@ MENUITEMS = (
     ('Regular Season 23-24', '/category/23-24-regular-season.html'),
     ('Playoffs 23-24', '/category/23-24-playoffs.html'),
     ('Regular Season 24-25', '/category/24-25-regular-season.html'),
+    ('Playoffs 24-25', '/category/24-25-playoffs.html'),
     # add season links here
 )
 
