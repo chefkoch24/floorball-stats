@@ -1,4 +1,4 @@
-Date: 2025-03-17
+Date: 2025-03-24
 Title: Unihockey Igels Dresden
 Category: 24-25-playoffs, teams
 Slug: unihockey-igels-dresden-24-25-playoffs

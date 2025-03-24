@@ -1,4 +1,4 @@
-Date: 2025-03-17
+Date: 2025-03-24
 Title: ETV Piranhhas Hamburg
 Category: 24-25-playoffs, teams
 Slug: etv-piranhhas-hamburg-24-25-playoffs
