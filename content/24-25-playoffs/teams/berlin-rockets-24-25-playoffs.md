@@ -1,4 +1,4 @@
-Date: 2025-03-24
+Date: 2025-09-06
 Title: Berlin Rockets
 Category: 24-25-playoffs, teams
 Slug: berlin-rockets-24-25-playoffs
