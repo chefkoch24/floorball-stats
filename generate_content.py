@@ -214,6 +214,19 @@ def add_points(team, event):
 def read_data(path):
     return pd.read_csv(path)
 
+def safe_div(numerator, denominator,  rounding=2, in_percent= False, default: float | str = 0.0):
+    """Divide and return default if denominator is 0 or None."""
+    if denominator:
+        val = round(numerator / denominator, rounding)
+        if in_percent:
+            return val * 100
+        else:
+            return val
+    else:
+        return default
+
+
+
 
 arg_parser = argparse.ArgumentParser()
 arg_parser.add_argument("--input_path", type=str, default="data/data_regular_season.csv")
@@ -238,6 +251,8 @@ playdown_stats = []
 average_stats = []
 top4_team_stats = []
 goal_differences_in_game = []
+
+
 
 all = []
 all_logs_after_game = []
@@ -442,26 +457,28 @@ for _ , team in enumerate(teams):
         all_logs_after_game.append(logs_after_game)
 
     # calculated stats
-    stats['goals_per_game'] = round(stats['goals'] / stats['games'],2)
-    stats['goals_against_per_game'] = round(stats['goals_against'] / stats['games'], 2)
-    stats['boxplay_per_game'] = round(stats['boxplay'] / stats['games'],2)
-    stats['powerplay_per_game'] = round(stats['powerplay'] / stats['games'],2)
+    stats['goals_per_game'] = safe_div(stats['goals'], stats['games'],2)
+    stats['goals_against_per_game'] = safe_div(stats['goals_against'] ,stats['games'], 2)
+    stats['boxplay_per_game'] = safe_div(stats['boxplay'], stats['games'],2)
+    stats['powerplay_per_game'] = safe_div(stats['powerplay'],stats['games'],2)
 
-    stats['powerplay_efficiency'] = round(stats['goals_in_powerplay'] / stats['powerplay'], 4)*100
-    stats['boxplay_efficiency'] = round(1 - (stats['goals_against_in_boxplay'] / stats['boxplay']), 4)*100
-    stats['percent_goals_first_period'] = round(stats['goals_in_first_period'] / stats['goals'], 4)*100
-    stats['percent_goals_second_period'] = round(stats['goals_in_second_period'] / stats['goals'], 4)*100
-    stats['percent_goals_third_period'] = round(stats['goals_in_third_period'] / stats['goals'], 4)*100
-    stats['percent_goals_overtime'] = round(stats['goals_in_overtime'] / stats['goals'], 4)*100
-    stats['percent_goals_first_period_against'] = round(stats['goals_in_first_period_against'] / stats['goals_against'], 4)*100
-    stats['percent_goals_second_period_against'] = round(stats['goals_in_second_period_against'] / stats['goals_against'], 4)*100
-    stats['percent_goals_third_period_against'] = round(stats['goals_in_third_period_against'] / stats['goals_against'], 4)*100
-    stats['percent_goals_overtime_against'] = round(stats['goals_in_overtime_against'] / stats['goals_against'], 4)*100
-    stats['points_per_game'] = round(stats['points'] / stats['games'], 2)
+    stats['powerplay_efficiency'] = safe_div(stats['goals_in_powerplay'],stats['powerplay'], 4, True, "n.a.")
+    stats['boxplay_efficiency'] =safe_div(stats['goals_against_in_boxplay'],stats['boxplay'], 4, True, "n.a.")
+    if type(stats['boxplay_efficiency']) != str:
+        stats['boxplay_efficiency'] = 100 - stats['boxplay_efficiency']
+    stats['percent_goals_first_period'] = safe_div(stats['goals_in_first_period'], stats['goals'], 4, True, "n.a.")
+    stats['percent_goals_second_period'] = safe_div(stats['goals_in_second_period'], stats['goals'], 4, True, "n.a.")
+    stats['percent_goals_third_period'] = safe_div(stats['goals_in_third_period'], stats['goals'], 4, True, "n.a.")
+    stats['percent_goals_overtime'] = safe_div(stats['goals_in_overtime'], stats['goals'], 4, True, "n.a.")
+    stats['percent_goals_first_period_against'] = safe_div(stats['goals_in_first_period_against'], stats['goals_against'], 4, True, "n.a.")
+    stats['percent_goals_second_period_against'] = safe_div(stats['goals_in_second_period_against'], stats['goals_against'], 4, True, "n.a.")
+    stats['percent_goals_third_period_against'] = safe_div(stats['goals_in_third_period_against'], stats['goals_against'], 4, True, "n.a.")
+    stats['percent_goals_overtime_against'] = safe_div(stats['goals_in_overtime_against'], stats['goals_against'], 4, True, "n.a.")
+    stats['points_per_game'] = safe_div(stats['points'], stats['games'])
     stats['goal_difference'] = stats['goals'] - stats['goals_against']
-    stats['goal_difference_per_game'] = round(stats['goal_difference'] / stats['games'], 2)
+    stats['goal_difference_per_game'] = safe_div(stats['goal_difference'], stats['games'])
 
-    stats['scoring_ratio'] = round(stats['goals'] / stats['goals_against'],2)
+    stats['scoring_ratio'] = safe_div(stats['goals'], stats['goals_against'])
 
     pd.DataFrame(enriched_events).to_csv(args.output_path)
     all.append(stats)
