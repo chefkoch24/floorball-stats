@@ -519,7 +519,8 @@ for filename, aggregated_stats in [('playoffs', playoff_stats), ('playdowns', pl
         else:
             s = 0
             for agg in aggregated_stats:
-                s += float(agg[key])
+                if type(agg[key]) != str:
+                    s += float(agg[key])
             stats[key] = round(s / len(aggregated_stats), 2)
 
     stats['team'] = filename.capitalize()
