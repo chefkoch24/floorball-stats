@@ -86,5 +86,5 @@ points_per_game: 0.5
 goal_difference: -3
 goal_difference_per_game: -1.5
 scoring_ratio: 0.83
-rank: 10
+rank: 9
 is_playoffs: False
