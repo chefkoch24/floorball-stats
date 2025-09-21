@@ -1,4 +1,4 @@
-Date: 2025-09-14
+Date: 2025-09-21
 Title: Berlin Rockets
 Category: 25-26-regular-season, teams
 Slug: berlin-rockets-25-26-regular-season
@@ -48,7 +48,7 @@ over_time_wins: 0
 losses: 1
 over_time_losses: 0
 draws: 0
-Tags:  Blau-Weiß 96 Schenefeld: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  SC DHfK Leipzig: 0,  SC Potsdam: 0,  SSF Dragons Bonn: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,
+Tags:  Blau-Weiß 96 Schenefeld: 0,  DJK Holzbüttgen: 0,  ETV Piranhhas Hamburg: 0,  Floor Fighters Chemnitz: 0,  MFBC Leipzig: 0,  SC DHfK Leipzig: 0,  SC Potsdam: 0,  SSF Dragons Bonn: 0,  UHC Sparkasse Weißenfels: 0,  Unihockey Igels Dresden: 0,
 points_after_first_period: 0
 points_after_second_period: 0
 points_after_third_period: 0
@@ -86,5 +86,5 @@ points_per_game: 0.0
 goal_difference: -5
 goal_difference_per_game: -5.0
 scoring_ratio: 0.17
-rank: 9
+rank: 11
 is_playoffs: False
