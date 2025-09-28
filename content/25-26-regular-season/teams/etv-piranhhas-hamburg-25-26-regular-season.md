@@ -1,4 +1,4 @@
-Date: 2025-09-21
+Date: 2025-09-28
 Title: ETV Piranhhas Hamburg
 Category: 25-26-regular-season, teams
 Slug: etv-piranhhas-hamburg-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 2.0
 goal_difference: 0
 goal_difference_per_game: 0.0
 scoring_ratio: 1.0
-rank: 5
+rank: 6
 is_playoffs: True
