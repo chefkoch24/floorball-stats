@@ -1,4 +1,4 @@
-Date: 2025-09-28
+Date: 2025-10-05
 Title: UHC Sparkasse Weißenfels
 Category: 25-26-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 2.25
 goal_difference: 8
 goal_difference_per_game: 2.0
 scoring_ratio: 1.4
-rank: 3
+rank: 4
 is_playoffs: True
