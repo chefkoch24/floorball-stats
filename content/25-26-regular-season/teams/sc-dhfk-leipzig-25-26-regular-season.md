@@ -1,4 +1,4 @@
-Date: 2025-10-05
+Date: 2025-10-12
 Title: SC DHfK Leipzig
 Category: 25-26-regular-season, teams
 Slug: sc-dhfk-leipzig-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 1.8
 goal_difference: 6
 goal_difference_per_game: 1.2
 scoring_ratio: 1.25
-rank: 5
+rank: 6
 is_playoffs: True
