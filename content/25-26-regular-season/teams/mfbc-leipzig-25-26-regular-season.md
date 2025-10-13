@@ -1,4 +1,4 @@
-Date: 2025-10-12
+Date: 2025-10-13
 Title: MFBC Leipzig
 Category: 25-26-regular-season, teams
 Slug: mfbc-leipzig-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 2.0
 goal_difference: -1
 goal_difference_per_game: -0.17
 scoring_ratio: 0.96
-rank: 3
+rank: 5
 is_playoffs: True
