@@ -1,4 +1,4 @@
-Date: 2025-10-26
+Date: 2025-11-02
 Title: SSF Dragons Bonn
 Category: 25-26-regular-season, teams
 Slug: ssf-dragons-bonn-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 1.62
 goal_difference: 9
 goal_difference_per_game: 1.12
 scoring_ratio: 1.24
-rank: 5
+rank: 7
 is_playoffs: True
