@@ -1,4 +1,4 @@
-Date: 2025-11-16
+Date: 2025-11-23
 Title: Blau-Weiß 96 Schenefeld
 Category: 25-26-regular-season, teams
 Slug: blau-weiss-96-schenefeld-25-26-regular-season
