@@ -1,4 +1,4 @@
-Date: 2025-11-23
+Date: 2025-12-07
 Title: SC Potsdam
 Category: 25-26-regular-season, teams
 Slug: sc-potsdam-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 0.82
 goal_difference: -29
 goal_difference_per_game: -2.64
 scoring_ratio: 0.68
-rank: 9
+rank: 10
 is_playoffs: False
