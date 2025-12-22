@@ -1,4 +1,4 @@
-Date: 2025-12-07
+Date: 2025-12-22
 Title: DJK Holzbüttgen
 Category: 25-26-regular-season, teams
 Slug: djk-holzbuettgen-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 1.75
 goal_difference: 9
 goal_difference_per_game: 0.75
 scoring_ratio: 1.12
-rank: 4
+rank: 5
 is_playoffs: True
