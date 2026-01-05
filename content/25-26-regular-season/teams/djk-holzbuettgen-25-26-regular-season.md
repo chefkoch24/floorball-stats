@@ -1,4 +1,4 @@
-Date: 2025-12-22
+Date: 2026-01-05
 Title: DJK Holzbüttgen
 Category: 25-26-regular-season, teams
 Slug: djk-holzbuettgen-25-26-regular-season

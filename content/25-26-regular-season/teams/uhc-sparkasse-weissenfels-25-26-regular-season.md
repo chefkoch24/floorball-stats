@@ -1,4 +1,4 @@
-Date: 2025-12-22
+Date: 2026-01-05
 Title: UHC Sparkasse Weißenfels
 Category: 25-26-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-25-26-regular-season

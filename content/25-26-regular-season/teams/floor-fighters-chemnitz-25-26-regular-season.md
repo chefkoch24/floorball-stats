@@ -1,4 +1,4 @@
-Date: 2025-12-22
+Date: 2026-01-05
 Title: Floor Fighters Chemnitz
 Category: 25-26-regular-season, teams
 Slug: floor-fighters-chemnitz-25-26-regular-season
@@ -86,5 +86,5 @@ points_per_game: 2.0
 goal_difference: 24
 goal_difference_per_game: 2.0
 scoring_ratio: 1.39
-rank: 3
+rank: 4
 is_playoffs: True
