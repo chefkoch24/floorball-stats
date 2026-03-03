@@ -1,5 +1,4 @@
 from pelican.plugins import more_categories, jinja_filters
-from functools import partial
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
@@ -25,7 +24,10 @@ AUTHOR_FEED_RSS = None
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
                  '23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/teams', '23-24-playoffs/liga',
                  '24-25-regular-season/teams', '24-25-regular-season/liga', '24-25-playoffs/teams', '24-25-playoffs/liga',
-                 '25-26-regular-season/teams', '25-26-regular-season/liga', '25-26-playoffs/teams', '25-26-playoffs/liga',
+                 '25-26-regular-season/teams',
+                 '25-26-regular-season/liga',
+                 '25-26-regular-season/games',
+                 #'25-26-playoffs/teams', '25-26-playoffs/liga'
                  ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
 
@@ -51,7 +53,7 @@ MENUITEMS = (
     ('Playoffs 23-24', '/category/23-24-playoffs.html'),
     ('Regular Season 24-25', '/category/24-25-regular-season.html'),
     ('Playoffs 24-25', '/category/24-25-playoffs.html'),
-    ('Regular Season 25-26', '/category/25-26-regular-season.html')
+    ('Regular Season 25-26', '/category/25-26-regular-season.html'),
     # add season links here
 )
 
@@ -73,9 +75,22 @@ def category2title(slug):
     return " ".join(slug)
 
 
+def sort_by_rank(articles):
+    # Artikel mit rank Attribut
+    ranked_articles = [a for a in articles if hasattr(a, 'rank') and a.rank is not None]
+    # Artikel ohne rank Attribut
+    unranked_articles = [a for a in articles if not hasattr(a, 'rank') or a.rank is None]
+
+    # Sortiere nur die Artikel mit rank
+    try:
+        sorted_ranked = sorted(ranked_articles, key=lambda article: float(article.rank))
+        return sorted_ranked + unranked_articles
+    except (ValueError, TypeError):
+        return articles
+
+
 JINJA_FILTERS = {
-    'sort_by_rank': partial(sorted,
-        key=lambda article: float(article.rank)),
+    'sort_by_rank': sort_by_rank,
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
     'category2title': category2title,

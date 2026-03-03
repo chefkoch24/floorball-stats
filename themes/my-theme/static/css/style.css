@@ -1,9 +1,122 @@
-.table{
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+/* Allgemeine Karten-Styles */
+.card {
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+    padding: 14px;
+    background: #fafbfc;
+    margin-bottom: 1.5rem;
 }
 
+/* Allgemeine Überschriften und Labels */
+.title {
+    color: #6c757d;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.label {
+    color: #6c757d;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Farbige Texte für Home/Away */
+.text-home {
+    color: #0d6efd;
+    font-weight: 700;
+    min-width: 60px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+.text-away {
+    color: #dc3545;
+    font-weight: 700;
+    min-width: 60px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Allgemeine Zeilen-Styles */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+    font-size: 1.05rem;
+}
+.row:last-child {
+    border-bottom: none;
+}
+
+/* Tabellen-Styles */
+.table th {
+    color: #6c757d;
+    font-weight: 600;
+    background: #f8f9fa;
+}
+.table-hover tbody tr:hover {
+    background-color: #f1f3f4;
+}
+
+/* Container bleibt erhalten */
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Glossar-Boxen */
 .glossary {
     background-color: #f8f9fa!important;
 }
+
+
+  .score-header { background:#fafbfc; border:1px solid #e9ecef; border-radius:14px; }
+  .kpi-card { border:1px solid #e9ecef; border-radius:14px; padding:14px; height:100%; }
+  .kpi-title{ font-size:.85rem; color:#6c757d; margin:0; }
+  .kpi-value{ font-weight:700; font-size:1.25rem; margin:2px 0 0 0; }
+  .muted{ color:#6c757d; }
+  .mirror-row{ padding:10px 0; border-bottom:1px dashed #e9ecef; }
+  .mirror-row:last-child{ border-bottom:none; }
+  .mirror-label{ font-size:.9rem; text-align:center; color:#6c757d; }
+  .bar-wrap{ display:flex; align-items:center; gap:8px; }
+  .bar { height:12px; border-radius:10px; background:#e9ecef; position:relative; flex:1; }
+  .bar > span { position:absolute; top:0; bottom:0; border-radius:10px; }
+  .bar-home > span{ right:0; background:#0d6efd; }
+  .bar-away > span{ left:0; background:#dc3545; }
+  .val { font-weight:600, min-width:46px, text-align:center, font-variant-numeric: tabular-nums; }
+  .brand-home{ color:#0d6efd; }
+  .brand-away{ color:#dc3545; }
+  .section-card{ border:1px solid #e9ecef; border-radius:14px; padding:14px; }
+
+  /* KPI CARDS VERTIKAL */
+  .stats-list { width:100%; margin:0; padding:0; list-style:none; }
+  .stats-list-row {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid #e9ecef;
+    padding:10px 0;
+    font-size:1.05rem;
+  }
+  .stats-list-row:last-child { border-bottom:none; }
+  .stats-list-label {
+    flex:1;
+    text-align:center;
+    color:#6c757d;
+    font-weight:500;
+  }
+  .stats-list-home {
+    min-width:60px;
+    text-align:right;
+    color:#0d6efd;
+    font-weight:700;
+    font-variant-numeric: tabular-nums;
+  }
+  .stats-list-away {
+    min-width:60px;
+    text-align:left;
+    color:#dc3545;
+    font-weight:700;
+    font-variant-numeric: tabular-nums;
+

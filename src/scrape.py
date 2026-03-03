@@ -8,7 +8,7 @@ class Scraper:
     def __init__(self):
         arg_parser = argparse.ArgumentParser()
         arg_parser.add_argument("--input_path", type=str, default="leagues/1204/schedule.json")
-        arg_parser.add_argument("--output_path", type=str, default="data/data_regular_season.csv")
+        arg_parser.add_argument("--output_path", type=str, default="../data/data_regular_season.csv")
         args, _ = arg_parser.parse_known_args()
         self.input_path = args.input_path
         self.output_path = args.output_path
