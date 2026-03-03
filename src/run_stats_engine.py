@@ -1,6 +1,8 @@
+import argparse
 import numpy as np
 import pandas as pd
 import json
+from pathlib import Path
 
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
@@ -8,6 +10,19 @@ from src.utils import add_points, add_penalties, is_powerplay, is_boxplay, safe_
 
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
+
+
+def _is_extra_time_period(period: int) -> bool:
+    return int(period) >= 4
+
+
+def _points_from_final_score(team_goals: int, opp_goals: int, period: int) -> int:
+    if team_goals > opp_goals:
+        return 2 if _is_extra_time_period(period) else 3
+    if team_goals == opp_goals:
+        return 1
+    return 1 if _is_extra_time_period(period) else 0
+
 
 def stat_goals(events: pd.DataFrame, team: str):
     return int((events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] == team)]).shape[0])
@@ -17,6 +32,86 @@ def stat_goals_against(events: pd.DataFrame, team: str):
 
 def stat_games(events: pd.DataFrame, team: str):
     return int(events['game_id'].nunique())
+
+
+def _final_score_for_team(last_goal: pd.Series, team: str):
+    if team == last_goal['home_team_name']:
+        team_goals = last_goal['home_goals']
+        opp_goals = last_goal['guest_goals']
+    else:
+        team_goals = last_goal['guest_goals']
+        opp_goals = last_goal['home_goals']
+    return team_goals, opp_goals, last_goal['period']
+
+
+def _last_goals_per_game(events: pd.DataFrame):
+    for _, game_df in events.groupby('game_id'):
+        goals = game_df[game_df['event_type'] == EVENT_GOAL]
+        if not goals.empty:
+            yield goals.iloc[-1]
+
+
+def stat_wins(events: pd.DataFrame, team: str):
+    wins = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals > opp_goals and int(period) <= 3:
+            wins += 1
+    return wins
+
+
+def stat_over_time_wins(events: pd.DataFrame, team: str):
+    wins = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals > opp_goals and int(period) == 4:
+            wins += 1
+    return wins
+
+
+def stat_draws(events: pd.DataFrame, team: str):
+    draws = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, _ = _final_score_for_team(last_goal, team)
+        if team_goals == opp_goals:
+            draws += 1
+    return draws
+
+
+def stat_losses(events: pd.DataFrame, team: str):
+    losses = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals < opp_goals and int(period) <= 3:
+            losses += 1
+    return losses
+
+
+def stat_over_time_losses(events: pd.DataFrame, team: str):
+    losses = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals < opp_goals and int(period) == 4:
+            losses += 1
+    return losses
+
+
+def stat_penalty_shootout_wins(events: pd.DataFrame, team: str):
+    wins = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals > opp_goals and int(period) == 5:
+            wins += 1
+    return wins
+
+
+def stat_penalty_shootout_losses(events: pd.DataFrame, team: str):
+    losses = 0
+    for last_goal in _last_goals_per_game(events):
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        if team_goals < opp_goals and int(period) == 5:
+            losses += 1
+    return losses
 
 def stat_points(events: pd.DataFrame, team: str):
     points = 0
@@ -30,12 +125,7 @@ def stat_points(events: pd.DataFrame, team: str):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if team_goals > opp_goals:
-            points += 2 if period == 4 else 3
-        elif team_goals == opp_goals:
-            points += 1
-        elif team_goals < opp_goals:
-            points += 1 if period == 4 else 0
+        points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_goal_difference(events: pd.DataFrame, team: str):
@@ -56,12 +146,7 @@ def stat_points_max_difference(events: pd.DataFrame, team: str, num_goals: int =
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
         if diff <= num_goals:
-            if team_goals > opp_goals:
-                points += 2 if period == 4 else 3
-            elif team_goals == opp_goals:
-                points += 1
-            elif team_goals < opp_goals:
-                points += 1 if period == 4 else 0
+            points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_goals_in_first_period(events: pd.DataFrame, team: str):
@@ -75,6 +160,10 @@ def stat_goals_in_third_period(events: pd.DataFrame, team: str):
 
 def stat_goals_in_overtime(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] == team) & (events['period'] == 4)].shape[0])
+
+
+def stat_goals_in_penalty_shootout(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] == team) & (events['period'] == 5)].shape[0])
 
 def stat_goals_in_powerplay(events: pd.DataFrame, team: str):
     penalties_against = []
@@ -182,50 +271,97 @@ def stat_powerplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     powerplays = 0
-    for _, event in events.iterrows():
-        if len(penalties_for) > 0:
-            if event['time_in_s'] - penalties_for[0] >= 120:
-                penalties_for.pop(0)
-        if len(penalties_against) > 0:
-            if event['time_in_s'] - penalties_against[0] >= 120:
+
+    def _expire_penalties(current_time: int):
+        while penalties_for and current_time - penalties_for[0] >= 120:
+            penalties_for.pop(0)
+        while penalties_against and current_time - penalties_against[0] >= 120:
+            penalties_against.pop(0)
+
+    events_sorted = events.sort_values(by='time_in_s')
+    for current_time, bucket in events_sorted.groupby('time_in_s', sort=True):
+        _expire_penalties(current_time)
+        prev_adv = max(0, len(penalties_against) - len(penalties_for))
+
+        penalties = bucket[bucket['event_type'] == EVENT_PENALTY]
+        for _, event in penalties.iterrows():
+            if event['event_team'] != team:
+                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
+            else:
+                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
+
+        goals = bucket[bucket['event_type'] == EVENT_GOAL]
+        for _, event in goals.iterrows():
+            if event['event_team'] == team and is_powerplay(current_time, penalties_for, penalties_against):
                 penalties_against.pop(0)
 
-        if event['event_type'] == EVENT_PENALTY and event['event_team'] != team:
-            penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
-        if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
-            penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
+        new_adv = max(0, len(penalties_against) - len(penalties_for))
+        if new_adv > prev_adv:
+            powerplays += new_adv - prev_adv
 
-        if is_powerplay(event['time_in_s'], penalties_for, penalties_against):
-            powerplays += 1
-            if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-                penalties_against.pop(0)
-    return powerplays
+    return int(powerplays)
+
+def _events_for_period(events: pd.DataFrame, period: int) -> pd.DataFrame:
+    return events[events['period'] == period]
+
+def stat_powerplay_first_period(events: pd.DataFrame, team: str):
+    return stat_powerplay(_events_for_period(events, 1), team)
+
+def stat_powerplay_second_period(events: pd.DataFrame, team: str):
+    return stat_powerplay(_events_for_period(events, 2), team)
+
+def stat_powerplay_third_period(events: pd.DataFrame, team: str):
+    return stat_powerplay(_events_for_period(events, 3), team)
+
+def stat_powerplay_overtime(events: pd.DataFrame, team: str):
+    return stat_powerplay(_events_for_period(events, 4), team)
 
 
 def stat_boxplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     boxplays = 0
-    for _, event in events.iterrows():
-        if len(penalties_for) > 0:
-            if event['time_in_s'] - penalties_for[0] >= 120:
+
+    def _expire_penalties(current_time: int):
+        while penalties_for and current_time - penalties_for[0] >= 120:
+            penalties_for.pop(0)
+        while penalties_against and current_time - penalties_against[0] >= 120:
+            penalties_against.pop(0)
+
+    events_sorted = events.sort_values(by='time_in_s')
+    for current_time, bucket in events_sorted.groupby('time_in_s', sort=True):
+        _expire_penalties(current_time)
+        prev_adv = max(0, len(penalties_for) - len(penalties_against))
+
+        penalties = bucket[bucket['event_type'] == EVENT_PENALTY]
+        for _, event in penalties.iterrows():
+            if event['event_team'] != team:
+                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
+            else:
+                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
+
+        goals = bucket[bucket['event_type'] == EVENT_GOAL]
+        for _, event in goals.iterrows():
+            if event['event_team'] != team and is_boxplay(current_time, penalties_for, penalties_against):
                 penalties_for.pop(0)
-        if len(penalties_against) > 0:
-            if event['time_in_s'] - penalties_against[0] >= 120:
-                penalties_against.pop(0)
 
-        if event['event_type'] == EVENT_PENALTY and event['event_team'] != team:
-            penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
-        if event['event_type'] == EVENT_PENALTY and event['event_team'] == team:
-            penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
+        new_adv = max(0, len(penalties_for) - len(penalties_against))
+        if new_adv > prev_adv:
+            boxplays += new_adv - prev_adv
 
+    return int(boxplays)
 
-            if is_boxplay(event['time_in_s'], penalties_for, penalties_against):
-                boxplays += 1
-                if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-                    penalties_for.pop(0)
+def stat_boxplay_first_period(events: pd.DataFrame, team: str):
+    return stat_boxplay(_events_for_period(events, 1), team)
 
-    return boxplays
+def stat_boxplay_second_period(events: pd.DataFrame, team: str):
+    return stat_boxplay(_events_for_period(events, 2), team)
+
+def stat_boxplay_third_period(events: pd.DataFrame, team: str):
+    return stat_boxplay(_events_for_period(events, 3), team)
+
+def stat_boxplay_overtime(events: pd.DataFrame, team: str):
+    return stat_boxplay(_events_for_period(events, 4), team)
 
 def _stat_points_after_period(events: pd.DataFrame, team: str, period: int):
     points = 0
@@ -278,12 +414,7 @@ def _stat_points_after_minute(events: pd.DataFrame, team: str, minute: int):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if team_goals > opp_goals:
-            points += 2 if period == 4 else 3
-        elif team_goals == opp_goals:
-            points += 1
-        elif team_goals < opp_goals:
-            points += 1 if period == 4 else 0
+        points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_win_1(events: pd.DataFrame, team: str):
@@ -325,12 +456,7 @@ def stat_points_max_difference_3(events: pd.DataFrame, team: str):
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
         if diff < 3:
-            if team_goals > opp_goals:
-                points += 2 if period == 4 else 3
-            elif team_goals == opp_goals:
-                points += 1
-            elif team_goals < opp_goals:
-                points += 1 if period == 4 else 0
+            points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_points_more_3_difference(events: pd.DataFrame, team: str):
@@ -348,12 +474,7 @@ def stat_points_more_3_difference(events: pd.DataFrame, team: str):
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
         if diff >= 3:
-            if team_goals > opp_goals:
-                points += 2 if period == 4 else 3
-            elif team_goals == opp_goals:
-                points += 1
-            elif team_goals < opp_goals:
-                points += 1 if period == 4 else 0
+            points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_close_game_win(events: pd.DataFrame, team: str):
@@ -402,7 +523,7 @@ def stat_close_game_overtime(events: pd.DataFrame, team: str):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if diff < 3 and team_goals != opp_goals and period == 4:
+        if diff < 3 and team_goals != opp_goals and _is_extra_time_period(period):
             close_game_ot += 1
     return close_game_ot
 
@@ -423,6 +544,18 @@ def stat_penalty_10(events: pd.DataFrame, team: str):
 
 def stat_penalty_ms(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & ((events['penalty_type'] == 'penalty_ms_full') | (events['penalty_type'] == 'penalty_ms_tech'))].shape[0])
+
+def stat_penalty_first_period(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 1)].shape[0])
+
+def stat_penalty_second_period(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 2)].shape[0])
+
+def stat_penalty_third_period(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 3)].shape[0])
+
+def stat_penalty_overtime(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 4)].shape[0])
 
 def stat_leading_goals(events: pd.DataFrame, team: str):
     count = 0
@@ -484,6 +617,10 @@ def stat_goals_in_third_period_against(events: pd.DataFrame, team: str):
 def stat_goals_in_overtime_against(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] != team) & (events['period'] == 4)].shape[0])
 
+
+def stat_goals_in_penalty_shootout_against(events: pd.DataFrame, team: str):
+    return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] != team) & (events['period'] == 5)].shape[0])
+
 def stat_goals_not_in_boxplay(events: pd.DataFrame, team: str):
     total_goals_against = stat_goals_against(events, team)
     boxplay_goals_against = stat_goals_against_in_boxplay(events, team)
@@ -514,12 +651,7 @@ def stat_home_points(events: pd.DataFrame, team: str):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if team_goals > opp_goals:
-            points += 2 if period == 4 else 3
-        elif team_goals == opp_goals:
-            points += 1
-        elif team_goals < opp_goals:
-            points += 1 if period == 4 else 0
+        points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 def stat_away_points(events: pd.DataFrame, team: str):
@@ -535,12 +667,7 @@ def stat_away_points(events: pd.DataFrame, team: str):
                 team_goals = last_goal['guest_goals']
                 opp_goals = last_goal['home_goals']
                 period = last_goal['period']
-            if team_goals > opp_goals:
-                points += 2 if period == 4 else 3
-            elif team_goals == opp_goals:
-                points += 1
-            elif team_goals < opp_goals:
-                points += 1 if period == 4 else 0
+            points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
 
@@ -556,13 +683,16 @@ def stat_points_against(events: pd.DataFrame, team: str):
         points_against[str(opponent)] += points
     return points_against
 
-if __name__ == "__main__":
-    df = pd.read_csv("../data/data_regular_season.csv")
-    teams = list(df['home_team_name'].unique()) + list(df['away_team_name'].unique())
-    teams = np.unique(teams)
-
+def build_engine() -> StatsEngine:
     engine = StatsEngine()
     engine.register_stat('points', stat_points)
+    engine.register_stat('wins', stat_wins)
+    engine.register_stat('over_time_wins', stat_over_time_wins)
+    engine.register_stat('penalty_shootout_wins', stat_penalty_shootout_wins)
+    engine.register_stat('draws', stat_draws)
+    engine.register_stat('losses', stat_losses)
+    engine.register_stat('over_time_losses', stat_over_time_losses)
+    engine.register_stat('penalty_shootout_losses', stat_penalty_shootout_losses)
     engine.register_stat('goals', stat_goals)
     engine.register_stat('goals_against', stat_goals_against)
     engine.register_stat('games', stat_games)
@@ -572,12 +702,21 @@ if __name__ == "__main__":
     engine.register_stat('goals_in_second_period', stat_goals_in_second_period)
     engine.register_stat('goals_in_third_period', stat_goals_in_third_period)
     engine.register_stat('goals_in_overtime', stat_goals_in_overtime)
+    engine.register_stat('goals_in_penalty_shootout', stat_goals_in_penalty_shootout)
     engine.register_stat('goals_in_powerplay', stat_goals_in_powerplay)
     engine.register_stat('goals_in_boxplay', stat_goals_in_boxplay)
     engine.register_stat('goals_against_in_powerplay', stat_goals_against_in_powerplay)
     engine.register_stat('goals_against_in_boxplay', stat_goals_against_in_boxplay)
     engine.register_stat('powerplay', stat_powerplay)
     engine.register_stat('boxplay', stat_boxplay)
+    engine.register_stat('powerplay_first_period', stat_powerplay_first_period)
+    engine.register_stat('powerplay_second_period', stat_powerplay_second_period)
+    engine.register_stat('powerplay_third_period', stat_powerplay_third_period)
+    engine.register_stat('powerplay_overtime', stat_powerplay_overtime)
+    engine.register_stat('boxplay_first_period', stat_boxplay_first_period)
+    engine.register_stat('boxplay_second_period', stat_boxplay_second_period)
+    engine.register_stat('boxplay_third_period', stat_boxplay_third_period)
+    engine.register_stat('boxplay_overtime', stat_boxplay_overtime)
     engine.register_stat('points_after_first_period', stat_points_after_first_period)
     engine.register_stat('points_after_second_period', stat_points_after_second_period)
     engine.register_stat('points_after_third_period', stat_points_after_third_period)
@@ -597,6 +736,10 @@ if __name__ == "__main__":
     engine.register_stat('penalty_2and2', stat_penalty_2and2)
     engine.register_stat('penalty_10', stat_penalty_10)
     engine.register_stat('penalty_ms', stat_penalty_ms)
+    engine.register_stat('penalty_first_period', stat_penalty_first_period)
+    engine.register_stat('penalty_second_period', stat_penalty_second_period)
+    engine.register_stat('penalty_third_period', stat_penalty_third_period)
+    engine.register_stat('penalty_overtime', stat_penalty_overtime)
     engine.register_stat('leading_goals', stat_leading_goals)
     engine.register_stat('equalizer_goals', stat_equalizer_goals)
     engine.register_stat('first_goal_of_match', stat_first_goal_of_match)
@@ -604,11 +747,29 @@ if __name__ == "__main__":
     engine.register_stat('goals_in_second_period_against', stat_goals_in_second_period_against)
     engine.register_stat('goals_in_third_period_against', stat_goals_in_third_period_against)
     engine.register_stat('goals_in_overtime_against', stat_goals_in_overtime_against)
+    engine.register_stat('goals_in_penalty_shootout_against', stat_goals_in_penalty_shootout_against)
     engine.register_stat('goals_against_in_boxplay', stat_goals_against_in_boxplay)
     engine.register_stat('goals_home', stat_goals_home)
+    engine.register_stat('goals_away', stat_goals_away)
+    engine.register_stat('goals_against_home', stat_goals_against_home)
+    engine.register_stat('goals_against_away', stat_goals_against_away)
     engine.register_stat('home_points', stat_home_points)
     engine.register_stat('away_points', stat_away_points)
+    engine.register_stat('leading_goals_against', stat_leading_goals_against)
+    engine.register_stat('equalizer_goals_against', stat_equalizer_goals_against)
+    engine.register_stat('first_goal_of_match_against', stat_first_goal_of_match_against)
     engine.register_stat('points_against', stat_points_against)
+    return engine
+
+
+def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    df = pd.read_csv(input_csv_path)
+    teams = list(df['home_team_name'].unique()) + list(df['away_team_name'].unique())
+    teams = np.unique(teams)
+    engine = build_engine()
     game_stats = []
 
     for game_id, game_df in df.groupby('game_id'):
@@ -624,10 +785,15 @@ if __name__ == "__main__":
             stats['boxplay_efficiency'] = safe_div(stats['goals_against_in_boxplay'], stats['boxplay'], 4, True, "n.a.")
             if type(stats['boxplay_efficiency']) != str:
                 stats['boxplay_efficiency'] = 100 - stats['boxplay_efficiency']
+            stats['penalties'] = stats['penalty_2'] + stats['penalty_2and2'] + stats['penalty_10'] + stats['penalty_ms']
 
 
         game_stat = {
             'game_id': game_id,
+            'date': game_df['game_date'].iloc[0] if 'game_date' in game_df.columns else None,
+            'start_time': game_df['game_start_time'].iloc[0] if 'game_start_time' in game_df.columns else None,
+            'result_string': game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None,
+            'ingame_status': game_df['ingame_status'].iloc[0] if 'ingame_status' in game_df.columns else None,
             'home_team': home_team,
             'home_stats': home_stats,
             'away_team': away_team,
@@ -639,7 +805,7 @@ if __name__ == "__main__":
 
 
     # save to json
-    with open('../data/game_stats.json', 'w') as f:
+    with open(output_path / 'game_stats.json', 'w') as f:
         json.dump(game_stats, f, indent=4)
 
     # aggregate per team
@@ -652,17 +818,21 @@ if __name__ == "__main__":
             if team not in team_stats:
                 team_stats[team] = {}
             for key, value in stats.items():
-                if key not in ['points_against', 'powerplay_efficiency', 'boxplay_efficiency']:
+                if key == 'points_against':
+                    if key not in team_stats[team]:
+                        team_stats[team][key] = {}
+                    for opponent, pts in value.items():
+                        team_stats[team][key][opponent] = team_stats[team][key].get(opponent, 0) + pts
+                elif key not in ['powerplay_efficiency', 'boxplay_efficiency']:
                     if key not in team_stats[team]:
                         team_stats[team][key] = value
                     else:
                         try:
                             team_stats[team][key] += value
                         except Exception as e:
-                            print(f"Error adding {key} for team {team}: {e}")
+                            raise ValueError(f"Error adding {key} for team {team}: {e}") from e
 
-
-    with open('../data/team_stats.json', 'w') as f:
+    with open(output_path / 'team_stats.json', 'w') as f:
         json.dump(team_stats, f, indent=4)
 
     # add ratio features
@@ -694,42 +864,49 @@ if __name__ == "__main__":
         stats['boxplay_per_game'] = safe_div(stats['boxplay'], stats['games'], 2)
         stats['powerplay_per_game'] = safe_div(stats['powerplay'], stats['games'], 2)
 
-
-    print(team_stats)
-    with open('../data/team_stats_enhanced.json', 'w') as f:
-        json.dump(team_stats, f, indent=4)
-
-
     # convert to a list of dicts
     all_stats = [TeamStats(team, stats) for team, stats in team_stats.items()]
+    ranking = sorted(all_stats, key=lambda x: (-x.stats.get('points', 0), -x.stats.get('goal_difference', 0), -x.stats.get('goals', 0)))
+    for i, entry in enumerate(ranking):
+        team_stats[entry.team]['rank'] = i + 1
 
-
-
-
+    with open(output_path / 'team_stats_enhanced.json', 'w') as f:
+        json.dump(team_stats, f, indent=4)
 
     playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(all_stats)
     league_stats = engine.aggregate_stats(all_stats)
-    print('Playoff Stats:', [t.stats for t in playoff_stats])
-    print('Playdown Stats:', [t.stats for t in playdown_stats])
-    print('Top4 Stats:', [t.stats for t in top4_stats])
-    print('Ligaschnitt:', league_stats)
-
-    with open('../data/playoff_stats.json', 'w') as f:
+    with open(output_path / 'playoff_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in playoff_stats], f, indent=4)
 
-    with open('../data/playdown_stats.json', 'w') as f:
+    with open(output_path / 'playdown_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in playdown_stats], f, indent=4)
 
-    with open('../data/top4_stats.json', 'w') as f:
+    with open(output_path / 'top4_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in top4_stats], f, indent=4)
 
-    with open('../data/league_averages.json', 'w') as f:
+    with open(output_path / 'league_averages.json', 'w') as f:
         json.dump(league_stats, f, indent=4)
+    return {
+        "game_stats": game_stats,
+        "team_stats_enhanced": team_stats,
+        "playoff_stats": [team.to_dict() for team in playoff_stats],
+        "playdown_stats": [team.to_dict() for team in playdown_stats],
+        "top4_stats": [team.to_dict() for team in top4_stats],
+        "league_averages": league_stats,
+    }
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input_csv_path", default="data/data_regular_season.csv")
+    parser.add_argument("--output_dir", default="data")
+    return parser.parse_args()
 
 
+def main():
+    args = parse_args()
+    run_stats_pipeline(input_csv_path=args.input_csv_path, output_dir=args.output_dir)
 
 
-
-
+if __name__ == "__main__":
+    main()

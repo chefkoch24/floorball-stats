@@ -3,9 +3,9 @@ from typing import Dict, Any
 
 
 class TeamStats:
-    def __init__(self, team: str, stats: Dict[str, Any] = {}):
+    def __init__(self, team: str, stats: Dict[str, Any] | None = None):
         self.team = team
-        self.stats: Dict[str, Any] = stats
+        self.stats: Dict[str, Any] = {} if stats is None else stats
 
     def to_dict(self) -> Dict[str, Any]:
         """convert to dictionary"""

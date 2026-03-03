@@ -1,398 +1,135 @@
-{% extends "base.html" %}
+<section class="hero">
+    <div class="team-sides">
+        <div class="side-team home">
+            <p class="side-name">{{ article.home_team }}</p>
+            <p class="side-meta">Punkte: {{ article.home_points|default('–') }}</p>
+        </div>
+        <div class="score-stack">
+            <div class="hero-score">{{ article.home_goals|default('–') }} : {{ article.away_goals|default('–') }}</div>
+            <div class="period-line">
+                {{ article.home_goals_in_first_period|default('–') }}:{{ article.away_goals_in_first_period|default('–') }} |
+                {{ article.home_goals_in_second_period|default('–') }}:{{ article.away_goals_in_second_period|default('–') }} |
+                {{ article.home_goals_in_third_period|default('–') }}:{{ article.away_goals_in_third_period|default('–') }}
+                {% if article.home_goals_in_overtime or article.away_goals_in_overtime %}
+                | OT {{ article.home_goals_in_overtime|default('0') }}:{{ article.away_goals_in_overtime|default('0') }}
+                {% endif %}
+                {% if article.home_goals_in_penalty_shootout or article.away_goals_in_penalty_shootout %}
+                | PS {{ article.home_goals_in_penalty_shootout|default('0') }}:{{ article.away_goals_in_penalty_shootout|default('0') }}
+                {% endif %}
+            </div>
+        </div>
+        <div class="side-team away">
+            <p class="side-name">{{ article.away_team }}</p>
+            <p class="side-meta">Punkte: {{ article.away_points|default('–') }}</p>
+        </div>
+    </div>
+    <div class="chip-row">
+        <span class="chip">Spiel-ID: {{ article.game_id|default('n.a.') }}</span>
+        <span class="chip">Datum: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
+    </div>
+</section>
 
-{% block content %}
+<section class="kpi-grid">
+    <article class="kpi">
+        <p class="kpi-label">Powerplay Effizienz</p>
+        <p class="kpi-value">{{ article.home_powerplay_efficiency|default('–') }} / {{ article.away_powerplay_efficiency|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Boxplay Effizienz</p>
+        <p class="kpi-value">{{ article.home_boxplay_efficiency|default('–') }} / {{ article.away_boxplay_efficiency|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Strafen</p>
+        <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Knappes Spiel Punkte</p>
+        <p class="kpi-value">{{ article.home_points_max_difference_3|default('–') }} / {{ article.away_points_max_difference_3|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Shootout W/L</p>
+        <p class="kpi-value">{{ article.home_penalty_shootout_wins|default('0') }}-{{ article.home_penalty_shootout_losses|default('0') }} / {{ article.away_penalty_shootout_wins|default('0') }}-{{ article.away_penalty_shootout_losses|default('0') }}</p>
+    </article>
+</section>
 
-<div class="container mt-5">
-  <!-- SCORE HEADER -->
-  <div class="row score-header p-3 align-items-center" style="margin-top:4rem !important;">
-    <div class="col-4 text-end">
-      <h4 class="m-0">{{ article.home_team }}</h4>
-      <div class="muted">{{ article.home_record or '' }}</div>
-    </div>
-    <div class="col-4 text-center">
-      <div style="font-size:2rem; font-weight:800;">
-        {{ article.home_goals }} : {{ article.away_goals }}
-      </div>
-      <div class="muted">
-        ({{ article.home_goals_in_first_period }} : {{ article.away_goals_in_first_period }} |
-        {{ article.home_goals_in_second_period }} : {{ article.away_goals_in_second_period }} |
-        {{ article.home_goals_in_third_period }} : {{ article.away_goals_in_third_period }} |
-        {% if article.home_goals_in_overtime or article.away_goals_in_overtime %}
-          {{ article.home_goals_in_overtime }} : {{ article.away_goals_in_overtime }}
-        {% endif %}
-        )
-      </div>
-    </div>
-    <div class="col-4 text-start">
-      <h4 class="m-0">{{ article.away_team }}</h4>
-      <div class="muted">{{ article.away_record or '' }}</div>
-    </div>
-  </div>
+<section class="section-grid">
+    <article class="panel">
+        <h2 class="panel-title">Special Teams</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Powerplays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Powerplay Tore</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Boxplays</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Gegentore in Boxplay</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
+        </table>
+    </article>
 
+    <article class="panel">
+        <h2 class="panel-title">Spielverlauf</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_leading_goals|default('–') }}</td><td class="value-label">Führungstore</td><td class="value-away">{{ article.away_leading_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Ausgleichstore</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">Erstes Tor</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Knappes Spiel gewonnen</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Knappes Spiel verloren</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
+        </table>
+    </article>
 
-  <!-- KPI CARDS -->
-  <!--<div class="row g-3 mt-1">
-    <div class="col-6 col-md-3">
-      <div class="kpi-card">
-        <p class="kpi-title">Schüsse</p>
-        <p class="kpi-value">
-          <span class="brand-home">{{ article.home_penalties or '–' }}</span>
-          <span class="muted"> : </span>
-          <span class="brand-away">{{ article.away_penalties or '–' }}</span>
-        </p>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="kpi-card">
-        <p class="kpi-title">Schussgenauigkeit (%)</p>
-        <p class="kpi-value">
-          <span class="brand-home">{{ article.home_shot_accuracy or '–' }}</span>
-          <span class="muted"> : </span>
-          <span class="brand-away">{{ article.away_shot_accuracy or '–' }}</span>
-        </p>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="kpi-card">
-        <p class="kpi-title">Ballbesitz (%)</p>
-        <p class="kpi-value">
-          <span class="brand-home">{{ article.home_possession or '–' }}</span>
-          <span class="muted"> : </span>
-          <span class="brand-away">{{ article.away_possession or '–' }}</span>
-        </p>
-      </div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="kpi-card">
-        <p class="kpi-title">Turnovers</p>
-        <p class="kpi-value">
-          <span class="brand-home">{{ article.home_turnovers or '–' }}</span>
-          <span class="muted"> : </span>
-          <span class="brand-away">{{ article.away_turnovers or '–' }}</span>
-        </p>
-      </div>
-    </div>
-  </div>-->
+    <article class="panel">
+        <h2 class="panel-title">Strafen</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Typ</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 Minuten</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 Minuten</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 Minuten</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Matchstrafe</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
+        </table>
+    </article>
 
-  <!-- KPI CARDS VERTIKAL -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Special Teams Statistiken</h5>
-      <ul class="stats-list">
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_powerplay or '–' }}</span>
-          <span class="stats-list-label">Powerplays</span>
-          <span class="stats-list-away">{{ article.away_powerplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_goals_in_powerplay or '–' }}</span>
-          <span class="stats-list-label">Powerplay-Tore</span>
-          <span class="stats-list-away">{{ article.away_goals_in_powerplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_goals_against_in_powerplay or '–' }}</span>
-          <span class="stats-list-label">Powerplay-Gegentore</span>
-          <span class="stats-list-away">{{ article.away_goals_against_in_powerplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_powerplay_efficiency or '–' }}%</span>
-          <span class="stats-list-label">Powerplay-Effizienz</span>
-          <span class="stats-list-away">{{ article.away_powerplay_efficiency or '–' }}%</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_boxplay or '–' }}</span>
-          <span class="stats-list-label">Boxplays</span>
-          <span class="stats-list-away">{{ article.away_boxplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_goals_in_boxplay or '–' }}</span>
-          <span class="stats-list-label">Boxplay-Tore</span>
-          <span class="stats-list-away">{{ article.away_goals_in_boxplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_goals_against_in_boxplay or '–' }}</span>
-          <span class="stats-list-label">Boxplay-Gegentore</span>
-          <span class="stats-list-away">{{ article.away_goals_against_in_boxplay or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_boxplay_efficiency or '–' }}%</span>
-          <span class="stats-list-label">Boxplay-Effizienz</span>
-          <span class="stats-list-away">{{ article.away_boxplay_efficiency or '–' }}%</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-
-  <!-- STRAFEN NACH TYP -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Strafen nach Typ</h5>
-      <ul class="stats-list">
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_2 or '–' }}</span>
-          <span class="stats-list-label">2 Minuten</span>
-          <span class="stats-list-away">{{ article.away_penalty_2 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_2and2 or '–' }}</span>
-          <span class="stats-list-label">2+2 Minuten</span>
-          <span class="stats-list-away">{{ article.away_penalty_2and2 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_10 or '–' }}</span>
-          <span class="stats-list-label">10 Minuten</span>
-          <span class="stats-list-away">{{ article.away_penalty_10 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_ms or '–' }}</span>
-          <span class="stats-list-label">Matchstrafe</span>
-          <span class="stats-list-away">{{ article.away_penalty_ms or '–' }}</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- FÜHRUNGS-/AUSGLEICHS-/ERSTES TOR -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Tore & Spielsituationen</h5>
-      <ul class="stats-list">
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_leading_goals or '–' }}</span>
-          <span class="stats-list-label">Führungstore</span>
-          <span class="stats-list-away">{{ article.away_leading_goals or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_equalizer_goals or '–' }}</span>
-          <span class="stats-list-label">Ausgleichstore</span>
-          <span class="stats-list-away">{{ article.away_equalizer_goals or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_first_goal_of_match or '–' }}</span>
-          <span class="stats-list-label">Erstes Tor des Spiels</span>
-          <span class="stats-list-away">{{ article.away_first_goal_of_match or '–' }}</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- PENALTY SHOTS -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Penaltyschuss-Tore</h5>
-      <ul class="stats-list">
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_shot_goals or '–' }}</span>
-          <span class="stats-list-label">Penaltyschuss-Tore</span>
-          <span class="stats-list-away">{{ article.away_penalty_shot_goals or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_penalty_shot_goals_against or '–' }}</span>
-          <span class="stats-list-label">Penaltyschuss-Gegentore</span>
-          <span class="stats-list-away">{{ article.away_penalty_shot_goals_against or '–' }}</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- KNAPPES SPIEL -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Knappes Spiel / Spielverlauf</h5>
-      <ul class="stats-list">
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_win_1 or '–' }}</span>
-          <span class="stats-list-label">Sieg mit 1 Tor Vorsprung</span>
-          <span class="stats-list-away">{{ article.away_win_1 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_loss_1 or '–' }}</span>
-          <span class="stats-list-label">Niederlage mit 1 Tor Rückstand</span>
-          <span class="stats-list-away">{{ article.away_loss_1 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_points_max_difference_3 or '–' }}</span>
-          <span class="stats-list-label">Max. 3 Tore Unterschied</span>
-          <span class="stats-list-away">{{ article.away_points_max_difference_3 or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_points_more_3_difference or '–' }}</span>
-          <span class="stats-list-label">Mehr als 3 Tore Unterschied</span>
-          <span class="stats-list-away">{{ article.away_points_more_3_difference or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_close_game_win or '–' }}</span>
-          <span class="stats-list-label">Knappes Spiel gewonnen</span>
-          <span class="stats-list-away">{{ article.away_close_game_win or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_close_game_loss or '–' }}</span>
-          <span class="stats-list-label">Knappes Spiel verloren</span>
-          <span class="stats-list-away">{{ article.away_close_game_loss or '–' }}</span>
-        </li>
-        <li class="stats-list-row">
-          <span class="stats-list-home">{{ article.home_close_game_overtime or '–' }}</span>
-          <span class="stats-list-label">Knappes Spiel in Overtime</span>
-          <span class="stats-list-away">{{ article.away_close_game_overtime or '–' }}</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- TORE PRO DRITTEL (verschoben ans Seitenende) -->
-  <div class="row mt-4">
-    <div class="col-12 section-card">
-      <h5 class="mb-3">Tore pro Drittel</h5>
-      <canvas id="goalsPerPeriodChart"></canvas>
-    </div>
-  </div>
-
-</div>
+    <article class="panel">
+        <h2 class="panel-title">Tore Pro Drittel</h2>
+        <canvas id="goalsPerPeriodChart"></canvas>
+    </article>
+</section>
 
 <script>
-/** === Tore pro Drittel (dein bestehender Chart verbessert) === */
-new Chart(document.getElementById('goalsPerPeriodChart').getContext('2d'), {
-  type: 'bar',
-  data: {
-    labels: ['1. Drittel', '2. Drittel', '3. Drittel', 'OT'],
-    datasets: [
-      {
-        label: '{{ article.home_team }}',
-        data: [
-          {{ article.home_goals_in_first_period | default(0) }},
-          {{ article.home_goals_in_second_period | default(0) }},
-          {{ article.home_goals_in_third_period | default(0) }},
-          {{ article.home_goals_in_overtime | default(0) }}
-        ],
-        backgroundColor: '#0d6efd'
-      },
-      {
-        label: '{{ article.away_team }}',
-        data: [
-          {{ article.away_goals_in_first_period | default(0) }},
-          {{ article.away_goals_in_second_period | default(0) }},
-          {{ article.away_goals_in_third_period | default(0) }},
-          {{ article.away_goals_in_overtime | default(0) }}
-        ],
-        backgroundColor: '#dc3545'
-      }
-    ]
-  },
-  options: {
-    responsive:true,
-    plugins:{ legend:{ position:'bottom' } },
-    scales: {
-      y: { beginAtZero:true, ticks:{ precision:0 } }
-    }
-  }
-});
-
-/** === Powerplay- und Boxplay-Effizienz als horizontales Balkendiagramm === */
-new Chart(document.getElementById('specialTeamsBarChartRight').getContext('2d'), {
-  type: 'bar',
-  data: {
-    labels: [
-      '{{ article.home_team }} Powerplay',
-      '{{ article.away_team }} Powerplay',
-      '{{ article.home_team }} Boxplay',
-      '{{ article.away_team }} Boxplay'
-    ],
-    datasets: [{
-      label: 'Effizienz (%)',
-      data: [
-        {{ article.home_powerplay_efficiency | default(0) }},
-        {{ article.away_powerplay_efficiency | default(0) }},
-        {{ article.home_boxplay_efficiency | default(0) }},
-        {{ article.away_boxplay_efficiency | default(0) }}
-      ],
-      backgroundColor: [
-        '#0d6efd',
-        '#dc3545',
-        '#198754',
-        '#ffc107'
+const goalsPerPeriodChart = document.getElementById('goalsPerPeriodChart');
+if (goalsPerPeriodChart) {
+  new Chart(goalsPerPeriodChart.getContext('2d'), {
+    type: 'bar',
+    data: {
+      labels: ['1. Drittel', '2. Drittel', '3. Drittel', 'OT'],
+      datasets: [
+        {
+          label: '{{ article.home_team }}',
+          data: [
+            {{ article.home_goals_in_first_period | default(0) }},
+            {{ article.home_goals_in_second_period | default(0) }},
+            {{ article.home_goals_in_third_period | default(0) }},
+            {{ article.home_goals_in_overtime | default(0) }}
+          ],
+          backgroundColor: '#0f4c81'
+        },
+        {
+          label: '{{ article.away_team }}',
+          data: [
+            {{ article.away_goals_in_first_period | default(0) }},
+            {{ article.away_goals_in_second_period | default(0) }},
+            {{ article.away_goals_in_third_period | default(0) }},
+            {{ article.away_goals_in_overtime | default(0) }}
+          ],
+          backgroundColor: '#c62828'
+        }
       ]
-    }]
-  },
-  options: {
-    indexAxis: 'y',
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-      tooltip: { enabled: true }
     },
-    scales: {
-      x: {
-        beginAtZero: true,
-        max: 100,
-        ticks: { stepSize: 10, callback: function(value) { return value + '%'; } }
-      },
-      y: {
-        grid: { display: false }
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom' } },
+      scales: {
+        y: { beginAtZero: true, ticks: { precision: 0 } }
       }
     }
-  }
-});
-new Chart(document.getElementById('specialTeamsBarChartLeft').getContext('2d'), {
-  type: 'bar',
-  data: {
-    labels: [
-      '{{ article.home_team }} Powerplay',
-      '{{ article.away_team }} Powerplay',
-      '{{ article.home_team }} Boxplay',
-      '{{ article.away_team }} Boxplay'
-    ],
-    datasets: [{
-      label: 'Effizienz (%)',
-      data: [
-        {{ article.home_powerplay_efficiency | default(0) }},
-        {{ article.away_powerplay_efficiency | default(0) }},
-        {{ article.home_boxplay_efficiency | default(0) }},
-        {{ article.away_boxplay_efficiency | default(0) }}
-      ],
-      backgroundColor: [
-        '#0d6efd',
-        '#dc3545',
-        '#198754',
-        '#ffc107'
-      ]
-    }]
-  },
-  options: {
-    indexAxis: 'y',
-    responsive: true,
-    plugins: {
-      legend: { display: false },
-      tooltip: { enabled: true }
-    },
-    scales: {
-      x: {
-        beginAtZero: true,
-        max: 100,
-        ticks: { stepSize: 10, callback: function(value) { return value + '%'; } }
-      },
-      y: {
-        grid: { display: false },
-        reverse: true
-      }
-    }
-  }
-});
-
-/** === Special Teams Pies (wie gehabt) === */
-function pie(el, val, color){
-  const v = clamp(Number(val)||0, 0, 100);
-  new Chart(document.getElementById(el).getContext('2d'), {
-    type:'pie',
-    data:{
-      labels:['Effizienz','Rest'],
-      datasets:[{ data:[v, 100-v], backgroundColor:[color,'#e9ecef'] }]
-    },
-    options:{ plugins:{ legend:{ display:false } } }
   });
 }
-
-pie('homeBoxplayPie',   {{ article.home_boxplay_efficiency   | default(0) }}, '#198754');
-pie('awayBoxplayPie',   {{ article.away_boxplay_efficiency   | default(0) }}, '#ffc107');
 </script>
-{% endblock %}

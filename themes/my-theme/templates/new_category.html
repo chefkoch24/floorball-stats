@@ -1,77 +1,110 @@
 {% extends "base.html" %}
 
 {% block content %}
- <div class="container justify-content-center">
-     <div class="row mt-5 m-2"></div>
-     <div class="row mt-5 m-2">
-         <h1>{{category.shortname | category2string}}</h1>
-     </div>
-        <div class="row mt-4 ml-2">
-            <h2>Teams</h2>
-        </div>
-        <div class="row ml-2">
+{% set ns = namespace(team_count=0, game_count=0, top_team=None) %}
+{% for candidate in articles_page.object_list | sort_by_rank %}
+    {% if candidate|string_in_category_path('teams') %}
+        {% set ns.team_count = ns.team_count + 1 %}
+        {% if ns.top_team is none %}
+            {% set ns.top_team = candidate %}
+        {% endif %}
+    {% endif %}
+    {% if candidate.type == 'game' %}
+        {% set ns.game_count = ns.game_count + 1 %}
+    {% endif %}
+{% endfor %}
 
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th scope="col">Platz</th>
-                    <th scope="col">Team</th>
-                    <th scope="col" data-toggle="tooltip" title="Punkte pro Spiel">PpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Tore pro Spiel">TpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Gegentore pro Spiel">GpS</th>
-                    <th scope="col" data-toggle="tooltip" title="Differenz pro Spiel">+/-</th>
-                    <th scope="col" data-toggle="tooltip" title="Powerplay Effizienz">PP%</th>
-                    <th scope="col" data-toggle="tooltip" title="Boxplay Effizienz">BP%</th>
-                    <th scope="col" data-toggle="tooltip" title="Siege">S</th>
-                    <th scope="col" data-toggle="tooltip" title="Unentschieden">U</th>
-                    <th scope="col" data-toggle="tooltip" title="Niederlagen">N</th>
-                    <th scope="col" data-toggle="tooltip" title="Overtime Siege">OS</th>
-                    <th scope="col" data-toggle="tooltip" title="Overtime Niederlagen">ON</th>
-                    <th scope="col" data-toggle="tooltip" title="Sieg +1 Tor">S+1</th>
-                    <th scope="col" data-toggle="tooltip" title="Niederlage -1 Tor">N-1</th>
-                    <th scope="col" data-toggle="tooltip" title="Punkte">P</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for article in articles_page.object_list | sort_by_rank  %}
-                {% if article|string_in_category_path('teams') %}
-                <tr>
-                    <td>{{article.rank}}</td>
-                    <th scope="row"><a href="{{SITEURL}}/{{article.url}}">{{article.team}}</a></th>
-                    <td>{{article.points_per_game}}</td>
-                    <td>{{article.goals_per_game}}</td>
-                    <td>{{article.goals_against_per_game}}</td>
-                    <td>{{article.goal_difference_per_game}}</td>
-                    <td>{{article.powerplay_efficiency[0:5]}}</td>
-                    <td>{{article.boxplay_efficiency[0:5]}}</td>
-                    <td>{{article.wins}}</td>
-                    <td>{{article.draws}}</td>
-                    <td>{{article.losses}}</td>
-                    <td>{{article.over_time_wins}}</td>
-                    <td>{{article.over_time_losses}}</td>
-                    <td>{{article.win_1}}</td>
-                    <td>{{article.loss_1}}</td>
-                    <td>{{article.points}}</td>
-                </tr>
-                {% endif %}
-                {% endfor %}
-                </tbody>
-            </table>
-
+<section class="hero">
+    <div class="hero-top">
+        <div>
+            <h1 class="hero-title">{{ category.shortname | category2string }}</h1>
+            <p class="hero-subtitle">Leistungsübersicht der Saison mit direktem Zugang zu Team-, Liga- und Spiel-Daten.</p>
         </div>
-        <div class="row mt-4 ml-2">
-            <h2>Liga</h2>
-        </div>
-        <div class="row ml-2">
-            {% for article in articles_page.object_list %}
-            {% if article|string_in_category_path('liga') %}
-            <div class="col-lg-5 mt-4 mr-4 card">
-                <a href="{{ SITEURL }}/{{ article.url }}" class="pl-2 pt-2"><h5>{{ article.title | category2title}}</h5></a>
-            </div>
-            {% endif %}
-            {% endfor %}
-        </div>
+    </div>
+    <div class="chip-row">
+        <span class="chip">Teams: {{ ns.team_count }}</span>
     </div>
 </section>
 
+<section class="panel">
+    <h2 class="panel-title">Tabelle</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Platz</th>
+                <th>Team</th>
+                <th>Punkte</th>
+                <th>PpS</th>
+                <th>TpS</th>
+                <th>GpS</th>
+                <th>Diff/Spiel</th>
+                <th>PP%</th>
+                <th>BP%</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for candidate in articles_page.object_list | sort_by_rank %}
+            {% if candidate|string_in_category_path('teams') %}
+            <tr>
+                <td>{{ candidate.rank|default('–') }}</td>
+                <td><a href="{{ SITEURL }}/{{ candidate.url }}">{{ candidate.team }}</a></td>
+                <td>{{ candidate.points|default('–') }}</td>
+                <td>{{ candidate.points_per_game|default('–') }}</td>
+                <td>{{ candidate.goals_per_game|default('–') }}</td>
+                <td>{{ candidate.goals_against_per_game|default('–') }}</td>
+                <td>{{ candidate.goal_difference_per_game|default('–') }}</td>
+                <td>{{ candidate.powerplay_efficiency|default('–') }}</td>
+                <td>{{ candidate.boxplay_efficiency|default('–') }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="panel">
+    <h2 class="panel-title">Liga Reports</h2>
+    <div class="season-grid">
+        {% for candidate in articles_page.object_list %}
+        {% if candidate|string_in_category_path('liga') %}
+        <a class="season-card" href="{{ SITEURL }}/{{ candidate.url }}">
+            <h3>{{ candidate.title | category2title }}</h3>
+            <p>Scoring, Effizienz und Trendwerte</p>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+{% if ns.game_count > 0 %}
+<section class="panel">
+    <h2 class="panel-title">Spiele der Saison</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Datum</th>
+                <th>Spiel</th>
+                <th>Ergebnis</th>
+                <th>Report</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+            {% if game.type == 'game' %}
+            <tr>
+                <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
+                <td>{{ game.home_team }} vs {{ game.away_team }}</td>
+                <td>{{ game.home_goals|default('–') }} : {{ game.away_goals|default('–') }}</td>
+                <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
 {% endblock content %}

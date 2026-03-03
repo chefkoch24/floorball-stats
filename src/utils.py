@@ -25,15 +25,17 @@ def add_points(team, event):
     else:
         team_final = 'guest_goals'
         opponent_final = 'home_goals'
+    period = int(event.get('period', 0))
+    is_extra_time = period >= 4
     if event[team_final] > event[opponent_final]:
-        if event['period'] == 4:
+        if is_extra_time:
             return 2, 'over_time_wins', event[team_final] - event[opponent_final]
         else:
             return 3, 'wins', event[team_final] - event[opponent_final]
     elif event[team_final] == event[opponent_final]:
         return 1, 'draws', event[team_final] - event[opponent_final]
     elif event[team_final] < event[opponent_final]:
-        if event['period'] == 4:
+        if is_extra_time:
             return 1, 'over_time_losses', event[team_final] - event[opponent_final]
         else:
             return 0, 'losses',  event[team_final] - event[opponent_final]
@@ -88,12 +90,17 @@ def generate_slug(name: str, year:str, time_of_year: str) -> str:
 
 def flatten_team_stats(stats_dict, prefix):
     """Flacht die Team-Stats mit dem gegebenen Präfix"""
+    def _normalize_key(key: str) -> str:
+        key = key.replace(' ', '_').lower()
+        key = key.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
+        return key
+
     flattened = {}
     for key, value in stats_dict.items():
         if isinstance(value, dict):
             # Für verschachtelte Dicts wie 'points_against'
             for nested_key, nested_value in value.items():
-                flattened[f"{prefix}_{key}_{nested_key.replace(' ', '_').lower()}"] = nested_value
+                flattened[f"{prefix}_{key}_{_normalize_key(nested_key)}"] = nested_value
         else:
             flattened[f"{prefix}_{key}"] = value
     return flattened
@@ -140,7 +147,7 @@ def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str)
     result.append(f"Slug: {slug.lower().replace(' ', '_')}-{season}-{phase}")
     result.append(f"type: team")
     result.append(f"team:{team}")
-    result.append("Platzierungsverlauf:" + f"{season}-{phase}/teams/" + f"{slug}_platzierungsverlauf.png\n")
+    result.append("platzierungsverlauf:" + f"{season}-{phase}/teams/" + f"{slug}_platzierungsverlauf.png")
 
     for key, value in stats.items():
         if key != 'points_against':

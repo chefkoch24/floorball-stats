@@ -2,11 +2,19 @@
 
 {% block content %}
 
-{% if "game" in article.categories %}
+{% set article_type = article.type|default('') %}
+
+{% if article_type == "game" or article|string_in_category_path('game') %}
     {% include "game.html" %}
-{% endif %}
-{%if "team" in article.categories %}
+{% elif article_type == "team" or article|string_in_category_path('teams') %}
     {% include "team.html" %}
+{% elif article|string_in_category_path('liga') %}
+    {% include "liga.html" %}
+{% else %}
+    <div class="container mt-5 pt-5">
+        <h2>{{ article.title }}</h2>
+        {{ article.content }}
+    </div>
 {% endif %}
 
 {% endblock content %}

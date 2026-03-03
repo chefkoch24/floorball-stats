@@ -17,7 +17,6 @@ class StatsEngine:
         team_events = transform_in_seconds(df)  # Zeit umwandeln
         for stat_name, func in self.stat_functions.items():
             team_stats.stats[stat_name] = func(team_events, team)
-        print(f"Calculated stats for {team_stats.team}: {team_stats.stats}")
         return team_stats
 
     def aggregate_stats(self, team_stats_list: List[TeamStats]) -> Dict[str, Any]:
@@ -39,5 +38,4 @@ class StatsEngine:
         playdown_stats = sorted_stats[playoff_cut:]
         top4_stats = sorted_stats[:top4_cut]
         return playoff_stats, playdown_stats, top4_stats
-
 

@@ -88,10 +88,44 @@ def sort_by_rank(articles):
     except (ValueError, TypeError):
         return articles
 
+def fmt2(value, default='n.a.'):
+    if value is None or value == '':
+        return default
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return f"{float(value):.2f}"
+    if isinstance(value, str):
+        try:
+            parsed = float(value)
+            return f"{parsed:.2f}"
+        except (ValueError, TypeError):
+            return value
+    return value
+
+def finalize_rendered_value(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return f"{value:.2f}"
+    if isinstance(value, str):
+        try:
+            parsed = float(value)
+            return value if parsed.is_integer() else f"{parsed:.2f}"
+        except (ValueError, TypeError):
+            return value
+    return value
 
 JINJA_FILTERS = {
     'sort_by_rank': sort_by_rank,
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
     'category2title': category2title,
+    'fmt2': fmt2,
 } # reversed for descending order
+
+JINJA_ENVIRONMENT = {
+    'finalize': finalize_rendered_value,
+}
