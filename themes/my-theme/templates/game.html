@@ -1,0 +1,135 @@
+<section class="hero">
+    <div class="team-sides">
+        <div class="side-team home">
+            <p class="side-name">{{ article.home_team }}</p>
+            <p class="side-meta">Punkte: {{ article.home_points|default('–') }}</p>
+        </div>
+        <div class="score-stack">
+            <div class="hero-score">{{ article.home_goals|default('–') }} : {{ article.away_goals|default('–') }}</div>
+            <div class="period-line">
+                {{ article.home_goals_in_first_period|default('–') }}:{{ article.away_goals_in_first_period|default('–') }} |
+                {{ article.home_goals_in_second_period|default('–') }}:{{ article.away_goals_in_second_period|default('–') }} |
+                {{ article.home_goals_in_third_period|default('–') }}:{{ article.away_goals_in_third_period|default('–') }}
+                {% if article.home_goals_in_overtime or article.away_goals_in_overtime %}
+                | OT {{ article.home_goals_in_overtime|default('0') }}:{{ article.away_goals_in_overtime|default('0') }}
+                {% endif %}
+                {% if article.home_goals_in_penalty_shootout or article.away_goals_in_penalty_shootout %}
+                | PS {{ article.home_goals_in_penalty_shootout|default('0') }}:{{ article.away_goals_in_penalty_shootout|default('0') }}
+                {% endif %}
+            </div>
+        </div>
+        <div class="side-team away">
+            <p class="side-name">{{ article.away_team }}</p>
+            <p class="side-meta">Punkte: {{ article.away_points|default('–') }}</p>
+        </div>
+    </div>
+    <div class="chip-row">
+        <span class="chip">Spiel-ID: {{ article.game_id|default('n.a.') }}</span>
+        <span class="chip">Datum: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
+    </div>
+</section>
+
+<section class="kpi-grid">
+    <article class="kpi">
+        <p class="kpi-label">Powerplay Effizienz</p>
+        <p class="kpi-value">{{ article.home_powerplay_efficiency|default('–') }} / {{ article.away_powerplay_efficiency|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Boxplay Effizienz</p>
+        <p class="kpi-value">{{ article.home_boxplay_efficiency|default('–') }} / {{ article.away_boxplay_efficiency|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Strafen</p>
+        <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Knappes Spiel Punkte</p>
+        <p class="kpi-value">{{ article.home_points_max_difference_3|default('–') }} / {{ article.away_points_max_difference_3|default('–') }}</p>
+    </article>
+    <article class="kpi">
+        <p class="kpi-label">Shootout W/L</p>
+        <p class="kpi-value">{{ article.home_penalty_shootout_wins|default('0') }}-{{ article.home_penalty_shootout_losses|default('0') }} / {{ article.away_penalty_shootout_wins|default('0') }}-{{ article.away_penalty_shootout_losses|default('0') }}</p>
+    </article>
+</section>
+
+<section class="section-grid">
+    <article class="panel">
+        <h2 class="panel-title">Special Teams</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Powerplays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Powerplay Tore</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Boxplays</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Gegentore in Boxplay</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
+        </table>
+    </article>
+
+    <article class="panel">
+        <h2 class="panel-title">Spielverlauf</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_leading_goals|default('–') }}</td><td class="value-label">Führungstore</td><td class="value-away">{{ article.away_leading_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Ausgleichstore</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">Erstes Tor</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Knappes Spiel gewonnen</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Knappes Spiel verloren</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
+        </table>
+    </article>
+
+    <article class="panel">
+        <h2 class="panel-title">Strafen</h2>
+        <table class="stats-split-table">
+            <tr><th class="value-home">Home</th><th class="value-label">Typ</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 Minuten</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 Minuten</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 Minuten</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Matchstrafe</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
+        </table>
+    </article>
+
+    <article class="panel">
+        <h2 class="panel-title">Tore Pro Drittel</h2>
+        <canvas id="goalsPerPeriodChart"></canvas>
+    </article>
+</section>
+
+<script>
+const goalsPerPeriodChart = document.getElementById('goalsPerPeriodChart');
+if (goalsPerPeriodChart) {
+  new Chart(goalsPerPeriodChart.getContext('2d'), {
+    type: 'bar',
+    data: {
+      labels: ['1. Drittel', '2. Drittel', '3. Drittel', 'OT'],
+      datasets: [
+        {
+          label: '{{ article.home_team }}',
+          data: [
+            {{ article.home_goals_in_first_period | default(0) }},
+            {{ article.home_goals_in_second_period | default(0) }},
+            {{ article.home_goals_in_third_period | default(0) }},
+            {{ article.home_goals_in_overtime | default(0) }}
+          ],
+          backgroundColor: '#0f4c81'
+        },
+        {
+          label: '{{ article.away_team }}',
+          data: [
+            {{ article.away_goals_in_first_period | default(0) }},
+            {{ article.away_goals_in_second_period | default(0) }},
+            {{ article.away_goals_in_third_period | default(0) }},
+            {{ article.away_goals_in_overtime | default(0) }}
+          ],
+          backgroundColor: '#c62828'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'bottom' } },
+      scales: {
+        y: { beginAtZero: true, ticks: { precision: 0 } }
+      }
+    }
+  });
+}
+</script>

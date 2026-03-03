@@ -30,8 +30,7 @@ endif
 # Data pipeline defaults for current 1. FBL Herren season
 LEAGUE_ID ?= 1890
 SEASON ?= 25-26
-RAW_DATA_PATH ?= data/data_$(SEASON)_regular_season.csv
-ENRICHED_DATA_PATH ?= data/enriched_data_$(SEASON)_regular_season.csv
+PHASE ?= regular-season
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -45,11 +44,11 @@ help:
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
-	@echo '   make refresh-current-season         scrape + generate 1. FBL Herren    '
+	@echo '   make refresh-current-season         full pipeline for 1. FBL Herren     '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo 'Set LEAGUE_ID/SEASON to override defaults for refresh-current-season      '
+	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
 	@echo '                                                                          '
 
 html:
@@ -77,8 +76,7 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 refresh-current-season:
-	"$(PYTHON)" scrape.py --input_path "leagues/$(LEAGUE_ID)/schedule.json" --output_path "$(RAW_DATA_PATH)"
-	"$(PYTHON)" generate_content.py --input_path "$(RAW_DATA_PATH)" --output_path "$(ENRICHED_DATA_PATH)" --year "$(SEASON)" --is_playoffs false
+	"$(PYTHON)" -m src.pipeline --league_id "$(LEAGUE_ID)" --season "$(SEASON)" --phase "$(PHASE)"
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season
