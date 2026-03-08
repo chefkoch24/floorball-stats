@@ -20,6 +20,20 @@ This runs the new unified module entrypoint:
 python -m src.pipeline --league_id 1890 --season 25-26 --phase regular-season
 ```
 
+## Sweden (StatsApp backend)
+
+Pipeline entrypoint with Sweden backend:
+
+```bash
+python -m src.pipeline --backend sweden --competition_id 40693 --season se-25-26 --phase regular-season
+```
+
+Make target:
+
+```bash
+make refresh-sweden SWEDEN_COMPETITION_ID=40693 SWEDEN_SEASON=se-25-26 PHASE=regular-season
+```
+
 ## Refresh current 1. FBL Herren season data
 
 Defaults:

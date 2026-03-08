@@ -31,6 +31,9 @@ endif
 LEAGUE_ID ?= 1890
 SEASON ?= 25-26
 PHASE ?= regular-season
+# Sweden pipeline defaults (SSL StatsApp)
+SWEDEN_COMPETITION_ID ?= 40693
+SWEDEN_SEASON ?= se-25-26
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -45,10 +48,12 @@ help:
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '   make refresh-current-season         full pipeline for 1. FBL Herren     '
+	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
+	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
 	@echo '                                                                          '
 
 html:
@@ -78,5 +83,7 @@ publish:
 refresh-current-season:
 	"$(PYTHON)" -m src.pipeline --league_id "$(LEAGUE_ID)" --season "$(SEASON)" --phase "$(PHASE)"
 
+refresh-sweden:
+	"$(PYTHON)" -m src.pipeline --backend sweden --competition_id "$(SWEDEN_COMPETITION_ID)" --season "$(SWEDEN_SEASON)" --phase "$(PHASE)"
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden

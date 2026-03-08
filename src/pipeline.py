@@ -4,12 +4,15 @@ from pathlib import Path
 from src.generate_markdown import generate_markdown_files
 from src.run_stats_engine import run_stats_pipeline
 from src.scrape import scrape_events
+from src.scrape_sweden import scrape_competition_events
 
 
 def run_pipeline(
     league_id: int,
     season: str,
     phase: str,
+    backend: str = "saisonmanager",
+    competition_id: int | None = None,
     data_dir: str = "data",
     content_dir: str = "content",
     skip_scrape: bool = False,
@@ -23,10 +26,18 @@ def run_pipeline(
     raw_csv = data_path / f"data_{season}_{phase.replace('-', '_')}.csv"
 
     if not skip_scrape:
-        scrape_events(
-            input_path=f"leagues/{league_id}/schedule.json",
-            output_path=str(raw_csv),
-        )
+        if backend == "sweden":
+            if competition_id is None:
+                raise ValueError("competition_id is required when backend=sweden")
+            scrape_competition_events(
+                competition_id=competition_id,
+                output_path=str(raw_csv),
+            )
+        else:
+            scrape_events(
+                input_path=f"leagues/{league_id}/schedule.json",
+                output_path=str(raw_csv),
+            )
 
     if not raw_csv.exists():
         raise FileNotFoundError(f"Expected input CSV at {raw_csv} but file does not exist.")
@@ -49,7 +60,9 @@ def run_pipeline(
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--backend", default="saisonmanager", choices=["saisonmanager", "sweden"])
     parser.add_argument("--league_id", type=int, default=1890)
+    parser.add_argument("--competition_id", type=int, default=None)
     parser.add_argument("--season", default="25-26")
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
@@ -64,6 +77,8 @@ def main():
         league_id=args.league_id,
         season=args.season,
         phase=args.phase,
+        backend=args.backend,
+        competition_id=args.competition_id,
         data_dir=args.data_dir,
         content_dir=args.content_dir,
         skip_scrape=args.skip_scrape,
