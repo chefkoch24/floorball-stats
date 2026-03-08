@@ -1,4 +1,4 @@
-Date: 2026-03-03
+Date: 2026-03-08
 Title: SC Potsdam
 Category: 25-26-regular-season, teams
 Slug: sc-potsdam-25-26-regular-season-25-26-regular-season

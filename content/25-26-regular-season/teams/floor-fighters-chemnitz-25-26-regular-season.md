@@ -1,4 +1,4 @@
-Date: 2026-03-03
+Date: 2026-03-08
 Title: Floor Fighters Chemnitz
 Category: 25-26-regular-season, teams
 Slug: floor-fighters-chemnitz-25-26-regular-season-25-26-regular-season
@@ -96,4 +96,4 @@ goals_per_game: 7.11
 goals_against_per_game: 4.5
 boxplay_per_game: 1.94
 powerplay_per_game: 1.89
-rank: 3
+rank: 4
