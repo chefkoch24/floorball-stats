@@ -158,3 +158,27 @@ def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str)
                 markdown += f"  {k}: {v},"
             result.append(markdown)
     return '\n'.join(result)
+
+
+def dict_to_markdown_league_stats(stats: dict, title: str, season: str, phase: str):
+    def _normalize_slug(value: str) -> str:
+        filename = value.replace(' ', '-').lower()
+        filename = filename.replace('ö', 'oe')
+        filename = filename.replace('ä', 'ae')
+        filename = filename.replace('ü', 'ue')
+        filename = filename.replace('ß', 'ss')
+        return filename
+
+    result = []
+    category = "liga"
+    result.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}")
+    result.append(f"Title: {title}")
+    result.append(f"Category: {season}-{phase}, {category}")
+    slug = _normalize_slug(f"{title}-{season}-{phase}")
+    result.append(f"Slug: {slug.lower().replace(' ', '_')}")
+    result.append(f"type: liga")
+    result.append(f"team: {title}")
+
+    for key, value in stats.items():
+        result.append(f"{key}: {value}")
+    return '\n'.join(result)

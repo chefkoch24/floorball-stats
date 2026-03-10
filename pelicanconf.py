@@ -8,6 +8,9 @@ PLUGINS = [
 ]
 
 PATH = 'content'
+PAGE_PATHS = ['pages']
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 TIMEZONE = 'Europe/Berlin'
 USE_FOLDER_AS_CATEGORY = False
@@ -30,6 +33,12 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'se-25-26-regular-season/teams',
                  'se-25-26-regular-season/liga',
                  'se-25-26-regular-season/games',
+                 'ch-25-26-regular-season/teams',
+                 'ch-25-26-regular-season/games',
+                 'ch-25-26-regular-season/liga',
+                 'ch-25-26-playoffs/teams',
+                 'ch-25-26-playoffs/games',
+                 'ch-25-26-playoffs/liga',
                  #'25-26-playoffs/teams', '25-26-playoffs/liga'
                  ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
@@ -58,6 +67,8 @@ MENUITEMS = (
     ('Playoffs 24-25', '/category/24-25-playoffs.html'),
     ('Regular Season 25-26', '/category/25-26-regular-season.html'),
     ('Sweden Regular Season 25-26', '/category/se-25-26-regular-season.html'),
+    ('Switzerland Regular Season 25-26', '/category/ch-25-26-regular-season.html'),
+    ('Switzerland Playoffs 25-26', '/category/ch-25-26-playoffs.html'),
     # add season links here
 )
 
@@ -73,6 +84,12 @@ def category2string(slug):
     slug = slug.split('-')
     if slug[0] in {'se', 'sweden'}:
         label = 'Sweden'
+        rest = slug[1:]
+        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
+            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+        return f"{label} " + " ".join([s.capitalize() for s in rest])
+    if slug[0] in {'ch', 'switzerland'}:
+        label = 'Switzerland'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
             return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])

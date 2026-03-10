@@ -34,6 +34,24 @@ Make target:
 make refresh-sweden SWEDEN_COMPETITION_ID=40693 SWEDEN_SEASON=se-25-26 PHASE=regular-season
 ```
 
+## Switzerland (renderengine backend)
+
+Use a schedule page URL (the scraper extracts `game_id` links) or pass explicit IDs:
+
+```bash
+python -m src.pipeline --backend switzerland --swiss_schedule_url "https://www.swissunihockey.ch/de/game-detail?game_id=1073873" --season ch-25-26 --phase regular-season
+```
+
+```bash
+python -m src.pipeline --backend switzerland --swiss_game_ids "1073873,1073807" --season ch-25-26 --phase regular-season
+```
+
+Use renderengine schedule parameters with round traversal (recommended for L-UPL/NLB pages):
+
+```bash
+python -m src.pipeline --backend switzerland --swiss_league 24 --swiss_season 2025 --swiss_game_class 11 --swiss_group "Gruppe 1" --season ch-25-26 --phase regular-season
+```
+
 ## Refresh current 1. FBL Herren season data
 
 Defaults:
