@@ -154,7 +154,7 @@ away_away_points: 1
 away_leading_goals_against: 2
 away_equalizer_goals_against: 4
 away_first_goal_of_match_against: 0
-away_points_against_blau-weiss_96_schenefeld: 1
+away_points_against_blau_weiss_96_schenefeld: 1
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: 100.0
 away_penalties: 1

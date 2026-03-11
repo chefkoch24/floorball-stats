@@ -33,6 +33,12 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'se-25-26-regular-season/teams',
                  'se-25-26-regular-season/liga',
                  'se-25-26-regular-season/games',
+                 'fi-25-26-regular-season/teams',
+                 'fi-25-26-regular-season/liga',
+                 'fi-25-26-regular-season/games',
+                 'cz-25-26-regular-season/teams',
+                 'cz-25-26-regular-season/liga',
+                 'cz-25-26-regular-season/games',
                  'ch-25-26-regular-season/teams',
                  'ch-25-26-regular-season/games',
                  'ch-25-26-regular-season/liga',
@@ -69,6 +75,7 @@ MENUITEMS = (
     ('Sweden Regular Season 25-26', '/category/se-25-26-regular-season.html'),
     ('Switzerland Regular Season 25-26', '/category/ch-25-26-regular-season.html'),
     ('Switzerland Playoffs 25-26', '/category/ch-25-26-playoffs.html'),
+    ('Finland Regular Season 25-26', '/category/fi-25-26-regular-season.html'),
     # add season links here
 )
 
@@ -90,6 +97,18 @@ def category2string(slug):
         return f"{label} " + " ".join([s.capitalize() for s in rest])
     if slug[0] in {'ch', 'switzerland'}:
         label = 'Switzerland'
+        rest = slug[1:]
+        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
+            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+        return f"{label} " + " ".join([s.capitalize() for s in rest])
+    if slug[0] in {'cz', 'czech'}:
+        label = 'Czech Republic'
+        rest = slug[1:]
+        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
+            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+        return f"{label} " + " ".join([s.capitalize() for s in rest])
+    if slug[0] in {'fi', 'finland'}:
+        label = 'Finland'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
             return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])

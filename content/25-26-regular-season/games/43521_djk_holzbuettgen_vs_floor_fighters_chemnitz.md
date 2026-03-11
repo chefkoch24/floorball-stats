@@ -154,7 +154,7 @@ away_away_points: 1
 away_leading_goals_against: 5
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 1
-away_points_against_djk_holzbuettgen: 1
+away_points_against_djk_holzbuttgen: 1
 away_powerplay_efficiency: 50.0
 away_boxplay_efficiency: 33.33
 away_penalties: 3

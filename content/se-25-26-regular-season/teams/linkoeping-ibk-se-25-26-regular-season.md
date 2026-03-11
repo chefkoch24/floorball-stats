@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-11
 Title: Linköping IBK
 Category: se-25-26-regular-season, teams
 Slug: linkoeping-ibk-se-25-26-regular-season-se-25-26-regular-season

@@ -1,7 +1,9 @@
 from datetime import datetime
+import re
 
 import pandas as pd
 import numpy as np
+from unidecode import unidecode
 
 
 def read_data(path):
@@ -91,8 +93,10 @@ def generate_slug(name: str, year:str, time_of_year: str) -> str:
 def flatten_team_stats(stats_dict, prefix):
     """Flacht die Team-Stats mit dem gegebenen Präfix"""
     def _normalize_key(key: str) -> str:
+        key = unidecode(key)
         key = key.replace(' ', '_').lower()
-        key = key.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
+        key = re.sub(r'[^a-z0-9_]', '_', key)
+        key = re.sub(r'_+', '_', key).strip('_')
         return key
 
     flattened = {}

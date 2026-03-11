@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 1
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 0
-away_points_against_hovslaetts_ik: 0
+away_points_against_hovslatts_ik: 0
 away_powerplay_efficiency: 50.0
 away_boxplay_efficiency: 100.0
 away_penalties: 2

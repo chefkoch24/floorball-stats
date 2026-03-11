@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-11
 Title: Grasshopper Club Zürich
 Category: ch-25-26-regular-season, teams
 Slug: grasshopper-club-zuerich-ch-25-26-regular-season-ch-25-26-regular-season

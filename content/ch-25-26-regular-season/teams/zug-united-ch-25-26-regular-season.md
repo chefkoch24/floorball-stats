@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-11
 Title: Zug United
 Category: ch-25-26-regular-season, teams
 Slug: zug-united-ch-25-26-regular-season-ch-25-26-regular-season

@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
-home_points_against_vaexjoe_ibk: 1
+home_points_against_vaxjo_ibk: 1
 home_powerplay_efficiency: n.a.
 home_boxplay_efficiency: n.a.
 home_penalties: 0
@@ -154,7 +154,7 @@ away_away_points: 2
 away_leading_goals_against: 0
 away_equalizer_goals_against: 3
 away_first_goal_of_match_against: 0
-away_points_against_linkoeping_ibk: 2
+away_points_against_linkoping_ibk: 2
 away_powerplay_efficiency: n.a.
 away_boxplay_efficiency: n.a.
 away_penalties: 0

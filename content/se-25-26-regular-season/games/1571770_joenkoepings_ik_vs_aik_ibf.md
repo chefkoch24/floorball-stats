@@ -154,7 +154,7 @@ away_away_points: 1
 away_leading_goals_against: 1
 away_equalizer_goals_against: 3
 away_first_goal_of_match_against: 0
-away_points_against_joenkoepings_ik: 1
+away_points_against_jonkopings_ik: 1
 away_powerplay_efficiency: n.a.
 away_boxplay_efficiency: n.a.
 away_penalties: 0

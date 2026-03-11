@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 3
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 0
-home_points_against_wasa_st._gallen: 3
+home_points_against_wasa_st_gallen: 3
 home_powerplay_efficiency: 66.67
 home_boxplay_efficiency: 100.0
 home_penalties: 2
@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 4
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 0
-away_points_against_sv_wiler-ersigen: 0
+away_points_against_sv_wiler_ersigen: 0
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: 33.33
 away_penalties: 3

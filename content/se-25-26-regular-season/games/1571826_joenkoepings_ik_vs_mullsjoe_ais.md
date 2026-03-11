@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
-home_points_against_mullsjoe_ais: 3
+home_points_against_mullsjo_ais: 3
 home_powerplay_efficiency: 100.0
 home_boxplay_efficiency: 100.0
 home_penalties: 4
@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 1
 away_equalizer_goals_against: 2
 away_first_goal_of_match_against: 0
-away_points_against_joenkoepings_ik: 0
+away_points_against_jonkopings_ik: 0
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: 0.0
 away_penalties: 4

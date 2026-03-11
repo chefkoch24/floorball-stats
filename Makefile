@@ -41,6 +41,9 @@ SWISS_GAME_CLASS ?= 11
 SWISS_SEASON_SLUG ?= ch-25-26
 SWISS_PLAYOFFS_SLUG ?= ch-25-26
 SWISS_GROUP ?= Gruppe 1
+# Finland pipeline defaults (F-Liiga)
+FINLAND_SEASON ?= fi-25-26
+FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -58,12 +61,14 @@ help:
 	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
 	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
 	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
+	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
 	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
 	@echo 'Set SWISS_* to override refresh-switzerland                                '
+	@echo 'Set FINLAND_* to override refresh-finland                                   '
 	@echo '                                                                          '
 
 html:
@@ -102,4 +107,7 @@ refresh-switzerland:
 refresh-switzerland-playoffs:
 	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --season "$(SWISS_PLAYOFFS_SLUG)" --phase "playoffs"
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs
+refresh-finland:
+	"$(PYTHON)" -m src.pipeline --backend finland --finland_schedule_url "$(FINLAND_SCHEDULE_URL)" --season "$(FINLAND_SEASON)" --phase "$(PHASE)"
+
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland

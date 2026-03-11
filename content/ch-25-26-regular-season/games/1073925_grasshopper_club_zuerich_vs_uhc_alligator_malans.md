@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 5
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 0
-away_points_against_grasshopper_club_zuerich: 0
+away_points_against_grasshopper_club_zurich: 0
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: 50.0
 away_penalties: 2

@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 1
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 0
-home_points_against_joenkoepings_ik: 3
+home_points_against_jonkopings_ik: 3
 home_powerplay_efficiency: 100.0
 home_boxplay_efficiency: n.a.
 home_penalties: 0
@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 3
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 1
-away_points_against_linkoeping_ibk: 0
+away_points_against_linkoping_ibk: 0
 away_powerplay_efficiency: n.a.
 away_boxplay_efficiency: 0.0
 away_penalties: 1

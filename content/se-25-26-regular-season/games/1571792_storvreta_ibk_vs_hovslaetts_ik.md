@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 0
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 0
-home_points_against_hovslaetts_ik: 2
+home_points_against_hovslatts_ik: 2
 home_powerplay_efficiency: n.a.
 home_boxplay_efficiency: 100.0
 home_penalties: 1

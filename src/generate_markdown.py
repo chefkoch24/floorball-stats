@@ -20,6 +20,9 @@ def generate_markdown_files(
     output_liga_dir: str,
     season: str,
     phase: str,
+    playoff_averages_path: str | None = None,
+    playdown_averages_path: str | None = None,
+    top4_averages_path: str | None = None,
 ) -> tuple[int, int, int]:
     games_out = Path(output_games_dir)
     teams_out = Path(output_teams_dir)
@@ -54,12 +57,30 @@ def generate_markdown_files(
         league_stats = json.load(f)
 
     league_written = 0
-    league_title = "Ligaschnitt"
+    league_title = "League Average"
     league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase)
     league_slug = _slugify(f"{league_title}-{season}-{phase}")
     with open(liga_out / f"{league_slug}.md", "w", encoding="utf-8") as f:
         f.write(league_md)
     league_written += 1
+
+    def _write_extra(path: str | None, title: str) -> None:
+        nonlocal league_written
+        if not path:
+            return
+        extra_path = Path(path)
+        if not extra_path.exists():
+            return
+        with extra_path.open("r", encoding="utf-8") as f:
+            extra_stats = json.load(f)
+        extra_md = dict_to_markdown_league_stats(extra_stats, title, season, phase)
+        extra_slug = _slugify(f"{title}-{season}-{phase}")
+        with open(liga_out / f"{extra_slug}.md", "w", encoding="utf-8") as f:
+            f.write(extra_md)
+        league_written += 1
+
+    _write_extra(playoff_averages_path, "Playoffs")
+    _write_extra(top4_averages_path, "Top 4 Teams")
 
     return games_written, teams_written, league_written
 

@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-11
 Title: Unihockey Basel Regio
 Category: ch-25-26-regular-season, teams
 Slug: unihockey-basel-regio-ch-25-26-regular-season-ch-25-26-regular-season

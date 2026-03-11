@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-11
 Title: Strängnäs IBK
 Category: se-25-26-regular-season, teams
 Slug: straengnaes-ibk-se-25-26-regular-season-se-25-26-regular-season

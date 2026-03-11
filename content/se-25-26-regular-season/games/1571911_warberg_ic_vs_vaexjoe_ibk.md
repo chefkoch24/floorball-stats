@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
-home_points_against_vaexjoe_ibk: 0
+home_points_against_vaxjo_ibk: 0
 home_powerplay_efficiency: 0.0
 home_boxplay_efficiency: n.a.
 home_penalties: 0

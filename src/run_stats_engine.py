@@ -875,6 +875,9 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
 
     playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(all_stats)
     league_stats = engine.aggregate_stats(all_stats)
+    playoff_averages = engine.aggregate_stats(playoff_stats)
+    playdown_averages = engine.aggregate_stats(playdown_stats)
+    top4_averages = engine.aggregate_stats(top4_stats)
     with open(output_path / 'playoff_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in playoff_stats], f, indent=4)
 
@@ -884,6 +887,15 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     with open(output_path / 'top4_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in top4_stats], f, indent=4)
 
+    with open(output_path / 'playoff_averages.json', 'w') as f:
+        json.dump(playoff_averages, f, indent=4)
+
+    with open(output_path / 'playdown_averages.json', 'w') as f:
+        json.dump(playdown_averages, f, indent=4)
+
+    with open(output_path / 'top4_averages.json', 'w') as f:
+        json.dump(top4_averages, f, indent=4)
+
     with open(output_path / 'league_averages.json', 'w') as f:
         json.dump(league_stats, f, indent=4)
     return {
@@ -892,6 +904,9 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
         "playoff_stats": [team.to_dict() for team in playoff_stats],
         "playdown_stats": [team.to_dict() for team in playdown_stats],
         "top4_stats": [team.to_dict() for team in top4_stats],
+        "playoff_averages": playoff_averages,
+        "playdown_averages": playdown_averages,
+        "top4_averages": top4_averages,
         "league_averages": league_stats,
     }
 

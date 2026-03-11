@@ -78,7 +78,7 @@ home_away_points: 0
 home_leading_goals_against: 1
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 1
-home_points_against_straengnaes_ibk: 1
+home_points_against_strangnas_ibk: 1
 home_powerplay_efficiency: n.a.
 home_boxplay_efficiency: 0.0
 home_penalties: 3

@@ -154,7 +154,7 @@ away_away_points: 0
 away_leading_goals_against: 2
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 1
-away_points_against_vaexjoe_ibk: 0
+away_points_against_vaxjo_ibk: 0
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: n.a.
 away_penalties: 0

@@ -154,7 +154,7 @@ away_away_points: 2
 away_leading_goals_against: 3
 away_equalizer_goals_against: 2
 away_first_goal_of_match_against: 1
-away_points_against_linkoeping_ibk: 2
+away_points_against_linkoping_ibk: 2
 away_powerplay_efficiency: 100.0
 away_boxplay_efficiency: 66.67
 away_penalties: 3
