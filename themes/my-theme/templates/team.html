@@ -25,100 +25,39 @@
     <article class="panel">
         <h2 class="panel-title">Results</h2>
         <div class="tile-grid">
-            <div class="tile"><p class="tile-title">Playoffs</p><p class="tile-value">{{ article.is_playoffs|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Wins</p><p class="tile-value">{{ article.wins|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Draws</p><p class="tile-value">{{ article.draws|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Losses</p><p class="tile-value">{{ article.losses|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">OT Wins</p><p class="tile-value">{{ article.over_time_wins|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">OT Losses</p><p class="tile-value">{{ article.over_time_losses|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">SO Wins</p><p class="tile-value">{{ article.penalty_shootout_wins|default('0') }}</p></div>
-            <div class="tile"><p class="tile-title">SO Losses</p><p class="tile-value">{{ article.penalty_shootout_losses|default('0') }}</p></div>
+            <div class="tile"><p class="tile-title">PS Wins</p><p class="tile-value">{{ article.penalty_shootout_wins|default('0') }}</p></div>
+            <div class="tile"><p class="tile-title">PS Losses</p><p class="tile-value">{{ article.penalty_shootout_losses|default('0') }}</p></div>
             <div class="tile"><p class="tile-title">Scoring Ratio</p><p class="tile-value">{{ article.scoring_ratio|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Close game wins</p><p class="tile-value">{{ article.close_game_win|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Close game losses</p><p class="tile-value">{{ article.close_game_loss|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Points after 55 min</p><p class="tile-value">{{ article.points_after_55_min|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Points in games <=2 goal diff</p><p class="tile-value">{{ article.points_max_difference_2|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Points in games >2 goal diff</p><p class="tile-value">{{ article.points_more_2_difference|default('–') }}</p></div>
         </div>
     </article>
 
     <article class="panel">
-        <h2 class="panel-title">Goals</h2>
+        <h2 class="panel-title">Scoring &amp; Game Flow</h2>
         <div class="tile-grid">
             <div class="tile"><p class="tile-title">Goals</p><p class="tile-value">{{ article.goals|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Goals Against</p><p class="tile-value">{{ article.goals_against|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Goal Difference</p><p class="tile-value">{{ article.goal_difference|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">1st period goals</p><p class="tile-value">{{ article.goals_in_first_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">2nd period goals</p><p class="tile-value">{{ article.goals_in_second_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">3rd period goals</p><p class="tile-value">{{ article.goals_in_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">OT goals</p><p class="tile-value">{{ article.goals_in_overtime|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PS goals</p><p class="tile-value">{{ article.goals_in_penalty_shootout|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Even-strength goals</p><p class="tile-value">{{ article.goals_not_in_boxplay|default('–') }}</p></div>
-        </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Goals Against</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">Goals against</p><p class="tile-value">{{ article.goals_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">1st period against</p><p class="tile-value">{{ article.goals_in_first_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">2nd period against</p><p class="tile-value">{{ article.goals_in_second_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">3rd period against</p><p class="tile-value">{{ article.goals_in_third_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">OT against</p><p class="tile-value">{{ article.goals_in_overtime_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PS against</p><p class="tile-value">{{ article.goals_in_penalty_shootout_against|default('–') }}</p></div>
-        </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Game Flow</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">Leading goals</p><p class="tile-value">{{ article.leading_goals|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Leading goals against</p><p class="tile-value">{{ article.leading_goals_against|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Take the lead goals</p><p class="tile-value">{{ article.take_the_lead_goals|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Take the lead goals against</p><p class="tile-value">{{ article.take_the_lead_goals_against|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Equalizer goals</p><p class="tile-value">{{ article.equalizer_goals|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Equalizer goals against</p><p class="tile-value">{{ article.equalizer_goals_against|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">First goal</p><p class="tile-value">{{ article.first_goal_of_match|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">First goal against</p><p class="tile-value">{{ article.first_goal_of_match_against|default('–') }}</p></div>
-        </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Scoring Percentages</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">1st period (%)</p><p class="tile-value">{{ article.percent_goals_first_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">2nd period (%)</p><p class="tile-value">{{ article.percent_goals_second_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">3rd period (%)</p><p class="tile-value">{{ article.percent_goals_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Overtime (%)</p><p class="tile-value">{{ article.percent_goals_overtime|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">1st period against (%)</p><p class="tile-value">{{ article.percent_goals_first_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">2nd period against (%)</p><p class="tile-value">{{ article.percent_goals_second_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">3rd period against (%)</p><p class="tile-value">{{ article.percent_goals_third_period_against|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Overtime against (%)</p><p class="tile-value">{{ article.percent_goals_overtime_against|default('–') }}</p></div>
-        </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Game State</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">Points after 1st</p><p class="tile-value">{{ article.points_after_first_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points after 2nd</p><p class="tile-value">{{ article.points_after_second_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points after 3rd</p><p class="tile-value">{{ article.points_after_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points after 55 min</p><p class="tile-value">{{ article.points_after_55_min|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points after 58 min</p><p class="tile-value">{{ article.points_after_58_min|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points after 59 min</p><p class="tile-value">{{ article.points_after_59_min|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Close game wins</p><p class="tile-value">{{ article.close_game_win|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Close game losses</p><p class="tile-value">{{ article.close_game_loss|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Close game OT</p><p class="tile-value">{{ article.close_game_overtime|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Wins by 1</p><p class="tile-value">{{ article.win_1|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Losses by 1</p><p class="tile-value">{{ article.loss_1|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Max diff (2+)</p><p class="tile-value">{{ article.points_max_difference_2|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Max diff (3+)</p><p class="tile-value">{{ article.points_max_difference_3|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Points 3+ diff</p><p class="tile-value">{{ article.points_more_3_difference|default('–') }}</p></div>
-        </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Home &amp; Away</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">Home goals</p><p class="tile-value">{{ article.goals_home|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Away goals</p><p class="tile-value">{{ article.goals_away|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Home goals against</p><p class="tile-value">{{ article.goals_against_home|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Away goals against</p><p class="tile-value">{{ article.goals_against_away|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Home points</p><p class="tile-value">{{ article.home_points|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Away points</p><p class="tile-value">{{ article.away_points|default('–') }}</p></div>
+        </div>
+        <div class="chart-card">
+            <p class="chart-card-title">Period Profile</p>
+            <canvas id="periodGoalsChart" height="130"></canvas>
         </div>
     </article>
 
@@ -129,24 +68,14 @@
             <div class="tile"><p class="tile-title">Power play goals</p><p class="tile-value">{{ article.goals_in_powerplay|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Box plays</p><p class="tile-value">{{ article.boxplay|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Goals against on PK</p><p class="tile-value">{{ article.goals_against_in_boxplay|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Shorthanded goals</p><p class="tile-value">{{ article.goals_in_boxplay|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Short-handed goals against</p><p class="tile-value">{{ article.goals_against_in_powerplay|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Power plays/game</p><p class="tile-value">{{ article.powerplay_per_game|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Box plays/game</p><p class="tile-value">{{ article.boxplay_per_game|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">PP goals against</p><p class="tile-value">{{ article.goals_against_in_powerplay|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Shorthanded goals</p><p class="tile-value">{{ article.goals_in_boxplay|default('–') }}</p></div>
         </div>
-    </article>
-
-    <article class="panel">
-        <h2 class="panel-title">Special Teams Timing</h2>
-        <div class="tile-grid">
-            <div class="tile"><p class="tile-title">PP 1st period</p><p class="tile-value">{{ article.powerplay_first_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PP 2nd period</p><p class="tile-value">{{ article.powerplay_second_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PP 3rd period</p><p class="tile-value">{{ article.powerplay_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PP OT</p><p class="tile-value">{{ article.powerplay_overtime|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">BP 1st period</p><p class="tile-value">{{ article.boxplay_first_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">BP 2nd period</p><p class="tile-value">{{ article.boxplay_second_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">BP 3rd period</p><p class="tile-value">{{ article.boxplay_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">BP OT</p><p class="tile-value">{{ article.boxplay_overtime|default('–') }}</p></div>
+        <div class="chart-card">
+            <p class="chart-card-title">Special Teams Efficiency</p>
+            <canvas id="specialTeamsChart" height="120"></canvas>
         </div>
     </article>
 
@@ -169,13 +98,106 @@
             <div class="tile"><p class="tile-title">Penalties 2nd period</p><p class="tile-value">{{ article.penalty_second_period|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Penalties 3rd period</p><p class="tile-value">{{ article.penalty_third_period|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Penalties OT</p><p class="tile-value">{{ article.penalty_overtime|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">2 min share (%)</p><p class="tile-value">{{ (p2 * 100 / ptotal)|round(2) if ptotal > 0 else '–' }}</p></div>
-            <div class="tile"><p class="tile-title">2+2 share (%)</p><p class="tile-value">{{ (p22 * 100 / ptotal)|round(2) if ptotal > 0 else '–' }}</p></div>
-            <div class="tile"><p class="tile-title">10 min share (%)</p><p class="tile-value">{{ (p10 * 100 / ptotal)|round(2) if ptotal > 0 else '–' }}</p></div>
-            <div class="tile"><p class="tile-title">Match penalty share (%)</p><p class="tile-value">{{ (pms * 100 / ptotal)|round(2) if ptotal > 0 else '–' }}</p></div>
+        </div>
+        <div class="chart-card">
+            <p class="chart-card-title">Penalty Type Share</p>
+            <canvas id="penaltyShareChart" height="130"></canvas>
         </div>
     </article>
+
 </section>
+
+<script>
+(() => {
+  const num = (v) => {
+    const n = Number(v);
+    return Number.isFinite(n) ? n : 0;
+  };
+
+  const periodGoalsCtx = document.getElementById("periodGoalsChart");
+  if (periodGoalsCtx && window.Chart) {
+    const gf = [
+      num("{{ article.goals_in_first_period|default(0) }}"),
+      num("{{ article.goals_in_second_period|default(0) }}"),
+      num("{{ article.goals_in_third_period|default(0) }}"),
+      num("{{ article.goals_in_overtime|default(0) }}"),
+    ];
+    const ga = [
+      num("{{ article.goals_in_first_period_against|default(0) }}"),
+      num("{{ article.goals_in_second_period_against|default(0) }}"),
+      num("{{ article.goals_in_third_period_against|default(0) }}"),
+      num("{{ article.goals_in_overtime_against|default(0) }}"),
+    ];
+    new Chart(periodGoalsCtx, {
+      type: "bar",
+      data: {
+        labels: ["P1", "P2", "P3", "OT"],
+        datasets: [
+          { label: "Goals For", data: gf, backgroundColor: "#1f77b4" },
+          { label: "Goals Against", data: ga, backgroundColor: "#d62728" }
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { position: "bottom" } },
+        scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+      }
+    });
+  }
+
+  const stCtx = document.getElementById("specialTeamsChart");
+  if (stCtx && window.Chart) {
+    const pp = num("{{ article.powerplay_efficiency|default(0) }}");
+    const bp = num("{{ article.boxplay_efficiency|default(0) }}");
+    new Chart(stCtx, {
+      type: "bar",
+      data: {
+        labels: ["Powerplay %", "Boxplay %"],
+        datasets: [{
+          label: "Efficiency %",
+          data: [pp, bp],
+          backgroundColor: ["#2ca02c", "#9467bd"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, suggestedMax: 100 }
+        }
+      }
+    });
+  }
+
+  const penaltyCtx = document.getElementById("penaltyShareChart");
+  if (penaltyCtx && window.Chart) {
+    const p2 = num("{{ article.penalty_2|default(0) }}");
+    const p22 = num("{{ article.penalty_2and2|default(0) }}");
+    const p10 = num("{{ article.penalty_10|default(0) }}");
+    const pms = num("{{ article.penalty_ms|default(0) }}");
+    const total = p2 + p22 + p10 + pms;
+
+    if (total > 0) {
+      new Chart(penaltyCtx, {
+        type: "pie",
+        data: {
+          labels: ["2 min", "2+2 min", "10 min", "Match penalty"],
+          datasets: [{
+            data: [p2, p22, p10, pms],
+            backgroundColor: ["#2563eb", "#f59e0b", "#14b8a6", "#dc2626"]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: "bottom" }
+          }
+        }
+      });
+    }
+  }
+})();
+</script>
 
 {% if articles %}
 {% set current_season = article.categories[0].shortname if article.categories else '' %}

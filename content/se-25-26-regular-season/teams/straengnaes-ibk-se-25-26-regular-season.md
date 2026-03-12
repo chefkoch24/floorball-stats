@@ -45,8 +45,7 @@ points_after_58_min: 19
 points_after_59_min: 20
 win_1: 5
 loss_1: 6
-points_max_difference_3: 16
-points_more_3_difference: 6
+points_more_2_difference: 6
 close_game_win: 6
 close_game_loss: 8
 close_game_overtime: 6
@@ -60,7 +59,7 @@ penalty_first_period: 9
 penalty_second_period: 11
 penalty_third_period: 21
 penalty_overtime: 0
-leading_goals: 18
+take_the_lead_goals: 34
 equalizer_goals: 19
 first_goal_of_match: 13
 goals_in_first_period_against: 35
@@ -74,7 +73,7 @@ goals_against_home: 66
 goals_against_away: 81
 home_points: 10
 away_points: 12
-leading_goals_against: 24
+take_the_lead_goals_against: 36
 equalizer_goals_against: 26
 first_goal_of_match_against: 12
 Tags:  Storvreta IBK: 0,  Mullsjö AIS: 0,  Warberg IC: 1,  Linköping IBK: 2,  Jönköpings IK: 0,  FBC Kalmarsund: 0,  Pixbo IBK: 2,  Växjö IBK: 1,  Visby IBK: 3,  Hovslätts IK: 6,  IBF Falun: 3,  AIK IBF: 2,  Nykvarns IBF: 2,

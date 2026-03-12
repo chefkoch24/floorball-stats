@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-regular-season, teams
 Slug: ba-sokoli-pardubice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 23
 points_after_59_min: 20
 win_1: 2
 loss_1: 4
-points_max_difference_3: 10
-points_more_3_difference: 21
+points_more_2_difference: 21
 close_game_win: 3
 close_game_loss: 8
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 9
 penalty_second_period: 10
 penalty_third_period: 24
 penalty_overtime: 0
-leading_goals: 23
+take_the_lead_goals: 27
 equalizer_goals: 13
 first_goal_of_match: 16
 goals_in_first_period_against: 29
@@ -74,7 +73,7 @@ goals_against_home: 58
 goals_against_away: 85
 home_points: 17
 away_points: 14
-leading_goals_against: 19
+take_the_lead_goals_against: 26
 equalizer_goals_against: 17
 first_goal_of_match_against: 9
 Tags:  FBC ČPP Bystroň Group OSTRAVA: 4,  Florbal Ústí: 6,  1. SC NATIOS Vítkovice: 0,  TJ Sokol Královské Vinohrady: 6,  FBŠ Hummel Hattrick Brno: 6,  FBC Liberec: 0,  Kanonýři Kladno: 5,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 4,  ACEMA Sparta Praha: 0,  HDT.cz Florbal Vary Bohemians: 0,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 0,

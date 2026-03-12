@@ -45,8 +45,7 @@ points_after_58_min: 12
 points_after_59_min: 12
 win_1: 2
 loss_1: 3
-points_max_difference_3: 7
-points_more_3_difference: 3
+points_more_2_difference: 3
 close_game_win: 2
 close_game_loss: 5
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 3
 penalty_second_period: 17
 penalty_third_period: 13
 penalty_overtime: 0
-leading_goals: 15
+take_the_lead_goals: 11
 equalizer_goals: 15
 first_goal_of_match: 2
 goals_in_first_period_against: 41
@@ -74,7 +73,7 @@ goals_against_home: 61
 goals_against_away: 63
 home_points: 4
 away_points: 6
-leading_goals_against: 17
+take_the_lead_goals_against: 30
 equalizer_goals_against: 8
 first_goal_of_match_against: 16
 Tags:  SSF Dragons Bonn: 0,  SC DHfK Leipzig: 1,  DJK Holzbüttgen: 0,  Unihockey Igels Dresden: 6,  Blau-Weiß 96 Schenefeld: 2,  ETV Piranhhas Hamburg: 0,  UHC Sparkasse Weißenfels: 0,  SC Potsdam: 1,  MFBC Leipzig: 0,  Floor Fighters Chemnitz: 0,

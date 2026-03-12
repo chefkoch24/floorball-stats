@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Florbal Ústí
 Category: cz-25-26-regular-season, teams
 Slug: florbal-ústí-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 4
 points_after_59_min: 4
 win_1: 1
 loss_1: 3
-points_max_difference_3: 3
-points_more_3_difference: 3
+points_more_2_difference: 3
 close_game_win: 1
 close_game_loss: 5
 close_game_overtime: 0
@@ -60,7 +59,7 @@ penalty_first_period: 7
 penalty_second_period: 17
 penalty_third_period: 17
 penalty_overtime: 0
-leading_goals: 15
+take_the_lead_goals: 11
 equalizer_goals: 4
 first_goal_of_match: 7
 goals_in_first_period_against: 68
@@ -74,7 +73,7 @@ goals_against_home: 92
 goals_against_away: 118
 home_points: 6
 away_points: 0
-leading_goals_against: 19
+take_the_lead_goals_against: 27
 equalizer_goals_against: 9
 first_goal_of_match_against: 18
 Tags:  ESA logistika Tatran Střešovice: 0,  BA SOKOLI Pardubice: 0,  ACEMA Sparta Praha: 0,  FBC ČPP Bystroň Group OSTRAVA: 0,  FBC Liberec: 3,  1. SC NATIOS Vítkovice: 0,  FBŠ Hummel Hattrick Brno: 3,  FAT PIPE FLORBAL CHODOV: 0,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 0,  HDT.cz Florbal Vary Bohemians: 0,  TJ Sokol Královské Vinohrady: 0,

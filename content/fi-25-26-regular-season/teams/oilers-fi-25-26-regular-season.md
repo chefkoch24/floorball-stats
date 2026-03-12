@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Oilers
 Category: fi-25-26-regular-season, teams
 Slug: oilers-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 74
 points_after_59_min: 74
 win_1: 4
 loss_1: 2
-points_max_difference_3: 19
-points_more_3_difference: 57
+points_more_2_difference: 57
 close_game_win: 7
 close_game_loss: 3
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 17
 penalty_second_period: 16
 penalty_third_period: 16
 penalty_overtime: 0
-leading_goals: 26
+take_the_lead_goals: 44
 equalizer_goals: 16
 first_goal_of_match: 19
 goals_in_first_period_against: 33
@@ -74,7 +73,7 @@ goals_against_home: 67
 goals_against_away: 68
 home_points: 37
 away_points: 39
-leading_goals_against: 19
+take_the_lead_goals_against: 21
 equalizer_goals_against: 18
 first_goal_of_match_against: 12
 Tags:  Classic: 0,  EräViikingit: 11,  FBC Turku: 12,  Hawks: 12,  Indians: 5,  Jymy: 6,  LASB: 6,  Nokian KrP: 3,  OLS: 6,  SPV: 6,  TPS: 9,

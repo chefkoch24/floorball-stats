@@ -1,23 +1,23 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: SV Wiler-Ersigen
 Category: ch-25-26-regular-season, teams
 Slug: sv-wiler-ersigen-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:SV Wiler-Ersigen
 platzierungsverlauf:ch-25-26-regular-season/teams/sv-wiler-ersigen-ch-25-26-regular-season_platzierungsverlauf.png
-points: 54
-wins: 18
+points: 39
+wins: 13
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 4
+losses: 9
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 142
 goals_against: 81
 games: 22
 goal_difference: 61
-points_max_difference_2: 27
+points_max_difference_2: 39
 goals_in_first_period: 37
 goals_in_second_period: 53
 goals_in_third_period: 50
@@ -37,18 +37,17 @@ boxplay_first_period: 11
 boxplay_second_period: 12
 boxplay_third_period: 13
 boxplay_overtime: 0
-points_after_first_period: 54
-points_after_second_period: 54
-points_after_third_period: 54
-points_after_55_min: 54
-points_after_58_min: 54
-points_after_59_min: 54
-win_1: 5
-loss_1: 2
-points_max_difference_3: 27
-points_more_3_difference: 27
-close_game_win: 9
-close_game_loss: 4
+points_after_first_period: 34
+points_after_second_period: 34
+points_after_third_period: 34
+points_after_55_min: 34
+points_after_58_min: 34
+points_after_59_min: 34
+win_1: 13
+loss_1: 9
+points_more_2_difference: 0
+close_game_win: 13
+close_game_loss: 9
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -60,9 +59,9 @@ penalty_first_period: 11
 penalty_second_period: 12
 penalty_third_period: 17
 penalty_overtime: 0
-leading_goals: 13
-equalizer_goals: 0
-first_goal_of_match: 0
+take_the_lead_goals: 35
+equalizer_goals: 21
+first_goal_of_match: 13
 goals_in_first_period_against: 26
 goals_in_second_period_against: 27
 goals_in_third_period_against: 27
@@ -72,12 +71,12 @@ goals_home: 80
 goals_away: 62
 goals_against_home: 41
 goals_against_away: 40
-home_points: 30
-away_points: 24
-leading_goals_against: 12
-equalizer_goals_against: 0
-first_goal_of_match_against: 0
-Tags:  Grasshopper Club Zürich: 6,  HC Rychenberg Winterthur: 3,  WASA St. Gallen: 6,  Unihockey Basel Regio: 6,  UHC Alligator Malans: 6,  Floorball Köniz Bern: 6,  Floorball Thurgau: 6,  Zug United: 3,  Floorball Chur United: 6,  UHC Uster: 6,  Tigers Langnau: 0,
+home_points: 18
+away_points: 21
+take_the_lead_goals_against: 25
+equalizer_goals_against: 17
+first_goal_of_match_against: 9
+Tags:  Grasshopper Club Zürich: 3,  HC Rychenberg Winterthur: 3,  WASA St. Gallen: 0,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 6,  Floorball Köniz Bern: 6,  Floorball Thurgau: 3,  Zug United: 6,  Floorball Chur United: 6,  UHC Uster: 0,  Tigers Langnau: 3,
 penalties: 40
 powerplay_efficiency: 48.39
 boxplay_efficiency: 66.67
@@ -89,11 +88,11 @@ percent_goals_first_period_against: 32.1
 percent_goals_second_period_against: 33.33
 percent_goals_third_period_against: 33.33
 percent_goals_overtime_against: 1.23
-points_per_game: 2.45
+points_per_game: 1.77
 goal_difference_per_game: 2.77
 scoring_ratio: 1.75
 goals_per_game: 6.45
 goals_against_per_game: 3.68
 boxplay_per_game: 1.64
 powerplay_per_game: 1.41
-rank: 1
+rank: 3

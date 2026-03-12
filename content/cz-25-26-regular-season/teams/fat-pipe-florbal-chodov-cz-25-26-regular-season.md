@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FAT PIPE FLORBAL CHODOV
 Category: cz-25-26-regular-season, teams
 Slug: fat-pipe-florbal-chodov-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 32
 points_after_59_min: 33
 win_1: 0
 loss_1: 4
-points_max_difference_3: 13
-points_more_3_difference: 27
+points_more_2_difference: 27
 close_game_win: 4
 close_game_loss: 4
 close_game_overtime: 1
@@ -60,7 +59,7 @@ penalty_first_period: 11
 penalty_second_period: 6
 penalty_third_period: 16
 penalty_overtime: 0
-leading_goals: 17
+take_the_lead_goals: 27
 equalizer_goals: 18
 first_goal_of_match: 13
 goals_in_first_period_against: 38
@@ -74,7 +73,7 @@ goals_against_home: 80
 goals_against_away: 74
 home_points: 24
 away_points: 16
-leading_goals_against: 26
+take_the_lead_goals_against: 30
 equalizer_goals_against: 14
 first_goal_of_match_against: 12
 Tags:  ACEMA Sparta Praha: 3,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 3,  1. SC NATIOS Vítkovice: 0,  ESA logistika Tatran Střešovice: 0,  FBC 4CLEAN Česká Lípa: 3,  FBC ČPP Bystroň Group OSTRAVA: 4,  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 6,  FBŠ Hummel Hattrick Brno: 6,  FBC Liberec: 3,  Předvýběr.CZ Florbal MB: 0,  BA SOKOLI Pardubice: 6,

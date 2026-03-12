@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Nokian KrP
 Category: fi-25-26-regular-season, teams
 Slug: nokian-krp-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 66
 points_after_59_min: 66
 win_1: 4
 loss_1: 2
-points_max_difference_3: 14
-points_more_3_difference: 54
+points_more_2_difference: 54
 close_game_win: 5
 close_game_loss: 3
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 10
 penalty_second_period: 11
 penalty_third_period: 16
 penalty_overtime: 0
-leading_goals: 24
+take_the_lead_goals: 42
 equalizer_goals: 16
 first_goal_of_match: 19
 goals_in_first_period_against: 30
@@ -74,7 +73,7 @@ goals_against_home: 54
 goals_against_away: 57
 home_points: 36
 away_points: 32
-leading_goals_against: 23
+take_the_lead_goals_against: 22
 equalizer_goals_against: 19
 first_goal_of_match_against: 10
 Tags:  Classic: 5,  EräViikingit: 6,  FBC Turku: 6,  Hawks: 6,  Indians: 6,  Jymy: 12,  LASB: 9,  Oilers: 3,  OLS: 6,  SPV: 4,  TPS: 5,

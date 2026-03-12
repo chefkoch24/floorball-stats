@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Indians
 Category: fi-25-26-regular-season, teams
 Slug: indians-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 50
 points_after_59_min: 48
 win_1: 5
 loss_1: 5
-points_max_difference_3: 23
-points_more_3_difference: 27
+points_more_2_difference: 27
 close_game_win: 7
 close_game_loss: 8
 close_game_overtime: 6
@@ -60,7 +59,7 @@ penalty_first_period: 8
 penalty_second_period: 21
 penalty_third_period: 16
 penalty_overtime: 1
-leading_goals: 14
+take_the_lead_goals: 35
 equalizer_goals: 14
 first_goal_of_match: 19
 goals_in_first_period_against: 23
@@ -74,7 +73,7 @@ goals_against_home: 57
 goals_against_away: 56
 home_points: 19
 away_points: 31
-leading_goals_against: 19
+take_the_lead_goals_against: 27
 equalizer_goals_against: 19
 first_goal_of_match_against: 10
 Tags:  Classic: 1,  EräViikingit: 7,  FBC Turku: 9,  Hawks: 9,  LASB: 4,  Nokian KrP: 0,  Oilers: 7,  OLS: 1,  SPV: 0,  TPS: 9,  Jymy: 3,

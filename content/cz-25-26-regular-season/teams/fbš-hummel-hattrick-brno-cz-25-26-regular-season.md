@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FBŠ Hummel Hattrick Brno
 Category: cz-25-26-regular-season, teams
 Slug: fbš-hummel-hattrick-brno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 13
 points_after_59_min: 14
 win_1: 1
 loss_1: 1
-points_max_difference_3: 6
-points_more_3_difference: 9
+points_more_2_difference: 9
 close_game_win: 2
 close_game_loss: 5
 close_game_overtime: 0
@@ -60,7 +59,7 @@ penalty_first_period: 4
 penalty_second_period: 8
 penalty_third_period: 18
 penalty_overtime: 0
-leading_goals: 19
+take_the_lead_goals: 22
 equalizer_goals: 10
 first_goal_of_match: 7
 goals_in_first_period_against: 55
@@ -74,7 +73,7 @@ goals_against_home: 118
 goals_against_away: 108
 home_points: 12
 away_points: 3
-leading_goals_against: 16
+take_the_lead_goals_against: 29
 equalizer_goals_against: 16
 first_goal_of_match_against: 18
 Tags:  HDT.cz Florbal Vary Bohemians: 0,  1. SC NATIOS Vítkovice: 0,  Předvýběr.CZ Florbal MB: 0,  ESA logistika Tatran Střešovice: 0,  BA SOKOLI Pardubice: 0,  ACEMA Sparta Praha: 0,  Florbal Ústí: 3,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 3,  FAT PIPE FLORBAL CHODOV: 0,  Kanonýři Kladno: 0,  FBC 4CLEAN Česká Lípa: 3,  FBC ČPP Bystroň Group OSTRAVA: 0,

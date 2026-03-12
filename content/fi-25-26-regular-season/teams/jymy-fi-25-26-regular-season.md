@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Jymy
 Category: fi-25-26-regular-season, teams
 Slug: jymy-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 16
 points_after_59_min: 16
 win_1: 5
 loss_1: 4
-points_max_difference_3: 14
-points_more_3_difference: 3
+points_more_2_difference: 3
 close_game_win: 5
 close_game_loss: 11
 close_game_overtime: 1
@@ -60,7 +59,7 @@ penalty_first_period: 15
 penalty_second_period: 14
 penalty_third_period: 28
 penalty_overtime: 0
-leading_goals: 27
+take_the_lead_goals: 22
 equalizer_goals: 18
 first_goal_of_match: 7
 goals_in_first_period_against: 63
@@ -74,7 +73,7 @@ goals_against_home: 103
 goals_against_away: 91
 home_points: 14
 away_points: 3
-leading_goals_against: 27
+take_the_lead_goals_against: 41
 equalizer_goals_against: 16
 first_goal_of_match_against: 22
 Tags:  Classic: 0,  EräViikingit: 0,  FBC Turku: 6,  Hawks: 2,  Indians: 0,  LASB: 6,  Nokian KrP: 0,  Oilers: 0,  OLS: 3,  SPV: 0,  TPS: 0,

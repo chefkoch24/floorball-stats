@@ -11,11 +11,11 @@ goals_in_third_period: 59
 goals_in_overtime: 2
 goals_in_boxplay: 5
 goals_in_powerplay: 26
-leading_goals: 23
+take_the_lead_goals: 23
 equalizer_goals: 19
 first_goal_of_match: 11
 goals_against: 118
-leading_goals_against: 19
+take_the_lead_goals_against: 19
 equalizer_goals_against: 18
 first_goal_of_match_against: 11
 goals_in_first_period_against: 37
@@ -57,8 +57,6 @@ points_after_58_min: 33
 points_after_59_min: 22
 win_1: 5
 loss_1: 4
-points_max_difference_3: 6
-points_more_3_difference: 38
 close_game_win: 2
 close_game_loss: 3
 close_game_overtime: 0

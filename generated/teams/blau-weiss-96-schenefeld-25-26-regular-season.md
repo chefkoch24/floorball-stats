@@ -40,7 +40,7 @@ penalty_2: 8
 penalty_2and2: 0
 penalty_10: 0
 penalty_ms: 1
-leading_goals: 4
+take_the_lead_goals: 4
 equalizer_goals: 6
 first_goal_of_match: 2
 goals_in_first_period_against: 6

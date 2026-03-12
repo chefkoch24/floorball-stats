@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-regular-season, teams
 Slug: esa-logistika-tatran-střešovice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 49
 points_after_59_min: 55
 win_1: 4
 loss_1: 1
-points_max_difference_3: 10
-points_more_3_difference: 48
+points_more_2_difference: 48
 close_game_win: 4
 close_game_loss: 1
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 8
 penalty_second_period: 10
 penalty_third_period: 10
 penalty_overtime: 0
-leading_goals: 23
+take_the_lead_goals: 32
 equalizer_goals: 28
 first_goal_of_match: 11
 goals_in_first_period_against: 37
@@ -74,7 +73,7 @@ goals_against_home: 50
 goals_against_away: 65
 home_points: 28
 away_points: 30
-leading_goals_against: 22
+take_the_lead_goals_against: 33
 equalizer_goals_against: 13
 first_goal_of_match_against: 14
 Tags:  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 5,  FBŠ Hummel Hattrick Brno: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC ČPP Bystroň Group OSTRAVA: 3,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 6,  ACEMA Sparta Praha: 3,  HDT.cz Florbal Vary Bohemians: 2,  1. SC NATIOS Vítkovice: 6,  BA SOKOLI Pardubice: 6,  Kanonýři Kladno: 3,

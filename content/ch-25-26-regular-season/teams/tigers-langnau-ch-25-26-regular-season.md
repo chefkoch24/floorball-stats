@@ -1,23 +1,23 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Tigers Langnau
 Category: ch-25-26-regular-season, teams
 Slug: tigers-langnau-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:Tigers Langnau
 platzierungsverlauf:ch-25-26-regular-season/teams/tigers-langnau-ch-25-26-regular-season_platzierungsverlauf.png
-points: 51
-wins: 17
+points: 45
+wins: 15
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 5
+losses: 7
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 141
 goals_against: 94
 games: 22
 goal_difference: 47
-points_max_difference_2: 27
+points_max_difference_2: 45
 goals_in_first_period: 56
 goals_in_second_period: 28
 goals_in_third_period: 54
@@ -37,18 +37,17 @@ boxplay_first_period: 6
 boxplay_second_period: 14
 boxplay_third_period: 8
 boxplay_overtime: 0
-points_after_first_period: 51
-points_after_second_period: 51
-points_after_third_period: 51
-points_after_55_min: 51
-points_after_58_min: 51
-points_after_59_min: 51
-win_1: 6
-loss_1: 3
-points_max_difference_3: 27
-points_more_3_difference: 24
-close_game_win: 9
-close_game_loss: 5
+points_after_first_period: 43
+points_after_second_period: 43
+points_after_third_period: 43
+points_after_55_min: 43
+points_after_58_min: 43
+points_after_59_min: 43
+win_1: 15
+loss_1: 7
+points_more_2_difference: 0
+close_game_win: 15
+close_game_loss: 7
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -60,9 +59,9 @@ penalty_first_period: 8
 penalty_second_period: 16
 penalty_third_period: 11
 penalty_overtime: 0
-leading_goals: 33
-equalizer_goals: 0
-first_goal_of_match: 0
+take_the_lead_goals: 34
+equalizer_goals: 11
+first_goal_of_match: 15
 goals_in_first_period_against: 28
 goals_in_second_period_against: 35
 goals_in_third_period_against: 31
@@ -72,12 +71,12 @@ goals_home: 71
 goals_away: 70
 goals_against_home: 48
 goals_against_away: 46
-home_points: 24
+home_points: 18
 away_points: 27
-leading_goals_against: 31
-equalizer_goals_against: 0
-first_goal_of_match_against: 0
-Tags:  Floorball Chur United: 6,  UHC Uster: 3,  Zug United: 3,  Grasshopper Club Zürich: 6,  HC Rychenberg Winterthur: 6,  WASA St. Gallen: 6,  Unihockey Basel Regio: 6,  UHC Alligator Malans: 6,  Floorball Köniz Bern: 3,  Floorball Thurgau: 0,  SV Wiler-Ersigen: 6,
+take_the_lead_goals_against: 16
+equalizer_goals_against: 17
+first_goal_of_match_against: 7
+Tags:  Floorball Chur United: 3,  UHC Uster: 0,  Zug United: 6,  Grasshopper Club Zürich: 6,  HC Rychenberg Winterthur: 3,  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 6,  Floorball Köniz Bern: 3,  Floorball Thurgau: 6,  SV Wiler-Ersigen: 3,
 penalties: 35
 powerplay_efficiency: 43.480000000000004
 boxplay_efficiency: 50.0
@@ -89,11 +88,11 @@ percent_goals_first_period_against: 29.79
 percent_goals_second_period_against: 37.230000000000004
 percent_goals_third_period_against: 32.98
 percent_goals_overtime_against: 0.0
-points_per_game: 2.32
+points_per_game: 2.05
 goal_difference_per_game: 2.14
 scoring_ratio: 1.5
 goals_per_game: 6.41
 goals_against_per_game: 4.27
 boxplay_per_game: 1.27
 powerplay_per_game: 1.05
-rank: 3
+rank: 1

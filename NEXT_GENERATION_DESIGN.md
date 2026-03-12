@@ -20,7 +20,7 @@ while keeping one coherent user experience, comparable metrics, and country-spec
 2. **Canonical domain model**
    Normalize all leagues/countries into one internal schema.
 3. **Rule-driven stats engine**
-   Rule variations (e.g., points for OT/SO wins) are configuration, not hardcoded branching everywhere.
+  Rule variations (e.g., points for OT/PS wins) are configuration, not hardcoded branching everywhere.
 4. **Separation of storage layers**
    Keep raw payloads, normalized events, and aggregated stats separate for traceability.
 5. **Incremental onboarding**
@@ -133,8 +133,8 @@ Example profiles:
 
 - **Profile A (current-like)**
   - Win reg: 3
-  - Win OT/SO: 2
-  - Loss OT/SO: 1
+  - Win OT/PS: 2
+  - Loss OT/PS: 1
   - Loss reg: 0
 
 - **Profile B (if league differs)**
@@ -198,7 +198,7 @@ For long-term scale, move from flat files to database-backed warehouse:
 
 ## 8.2 Comparability Layer
 - Define a "Core KPI Set" available everywhere:
-  - Points, PpS, Goals/Game, Against/Game, Goal Diff/Game, PP%, BP%, W/L/OT/SO
+  - Points, PpS, Goals/Game, Against/Game, Goal Diff/Game, PP%, BP%, W/L/OT/PS
 - Show additional local metrics only when available.
 
 ## 8.3 Locale

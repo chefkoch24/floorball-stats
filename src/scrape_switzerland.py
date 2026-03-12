@@ -193,8 +193,8 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "game_id": game_id,
                     "home_team_name": details.home_team,
                     "away_team_name": details.away_team,
-                    "home_goals": details.goals_home,
-                    "guest_goals": details.goals_away,
+                    "home_goals": 0,
+                    "guest_goals": 0,
                     "goal_type": _goal_type(event_text),
                     "penalty_type": None,
                     "game_date": details.game_date,
@@ -214,8 +214,8 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "game_id": game_id,
                     "home_team_name": details.home_team,
                     "away_team_name": details.away_team,
-                    "home_goals": details.goals_home,
-                    "guest_goals": details.goals_away,
+                    "home_goals": 0,
+                    "guest_goals": 0,
                     "goal_type": None,
                     "penalty_type": _penalty_type(event_text),
                     "game_date": details.game_date,
@@ -276,6 +276,36 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "result_string": details.result_string,
                 }
             )
+
+    def _sort_key(event: dict[str, Any]) -> tuple[int, int, int]:
+        sortkey = str(event.get("sortkey", "1-00:00"))
+        period_str, time_str = sortkey.split("-", 1) if "-" in sortkey else ("1", "00:00")
+        minute_str, second_str = time_str.split(":", 1) if ":" in time_str else ("0", "0")
+        try:
+            period = int(period_str)
+            minute = int(minute_str)
+            second = int(second_str)
+        except ValueError:
+            return (99, 99, 99)
+        return (period, minute, second)
+
+    # Swiss feed contains final score on each event row. Rebuild in-game score progression.
+    home_goals = 0
+    away_goals = 0
+    for event in sorted(events, key=_sort_key):
+        if event.get("event_type") == "goal" and int(event.get("period", 0)) <= 4:
+            if event.get("event_team") == details.home_team:
+                home_goals += 1
+            elif event.get("event_team") == details.away_team:
+                away_goals += 1
+        event["home_goals"] = home_goals
+        event["guest_goals"] = away_goals
+
+        # Keep shootout marker at final result when available.
+        if int(event.get("period", 0)) == 5 and details.goals_home is not None and details.goals_away is not None:
+            event["home_goals"] = details.goals_home
+            event["guest_goals"] = details.goals_away
+
     return events
 
 

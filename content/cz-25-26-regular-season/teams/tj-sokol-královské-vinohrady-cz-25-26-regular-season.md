@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: TJ Sokol Královské Vinohrady
 Category: cz-25-26-regular-season, teams
 Slug: tj-sokol-královské-vinohrady-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 12
 points_after_59_min: 12
 win_1: 5
 loss_1: 2
-points_max_difference_3: 12
-points_more_3_difference: 3
+points_more_2_difference: 3
 close_game_win: 5
 close_game_loss: 3
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 4
 penalty_second_period: 11
 penalty_third_period: 15
 penalty_overtime: 1
-leading_goals: 17
+take_the_lead_goals: 16
 equalizer_goals: 16
 first_goal_of_match: 8
 goals_in_first_period_against: 43
@@ -74,7 +73,7 @@ goals_against_home: 79
 goals_against_away: 79
 home_points: 10
 away_points: 5
-leading_goals_against: 20
+take_the_lead_goals_against: 35
 equalizer_goals_against: 13
 first_goal_of_match_against: 17
 Tags:  1. SC NATIOS Vítkovice: 2,  ESA logistika Tatran Střešovice: 0,  FBC 4CLEAN Česká Lípa: 0,  BA SOKOLI Pardubice: 0,  FBC ČPP Bystroň Group OSTRAVA: 5,  HDT.cz Florbal Vary Bohemians: 0,  FBC Liberec: 0,  FBŠ Hummel Hattrick Brno: 0,  FAT PIPE FLORBAL CHODOV: 0,  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  ACEMA Sparta Praha: 0,  Florbal Ústí: 6,

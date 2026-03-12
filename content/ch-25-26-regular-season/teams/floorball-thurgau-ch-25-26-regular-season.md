@@ -1,23 +1,23 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Floorball Thurgau
 Category: ch-25-26-regular-season, teams
 Slug: floorball-thurgau-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:Floorball Thurgau
 platzierungsverlauf:ch-25-26-regular-season/teams/floorball-thurgau-ch-25-26-regular-season_platzierungsverlauf.png
-points: 45
-wins: 15
+points: 33
+wins: 11
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 7
+losses: 11
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 126
 goals_against: 94
 games: 22
 goal_difference: 32
-points_max_difference_2: 30
+points_max_difference_2: 33
 goals_in_first_period: 28
 goals_in_second_period: 49
 goals_in_third_period: 46
@@ -37,18 +37,17 @@ boxplay_first_period: 9
 boxplay_second_period: 7
 boxplay_third_period: 19
 boxplay_overtime: 0
-points_after_first_period: 45
-points_after_second_period: 45
-points_after_third_period: 45
-points_after_55_min: 45
-points_after_58_min: 45
-points_after_59_min: 45
-win_1: 6
-loss_1: 4
-points_max_difference_3: 30
-points_more_3_difference: 15
-close_game_win: 10
-close_game_loss: 5
+points_after_first_period: 32
+points_after_second_period: 32
+points_after_third_period: 32
+points_after_55_min: 32
+points_after_58_min: 32
+points_after_59_min: 32
+win_1: 11
+loss_1: 11
+points_more_2_difference: 0
+close_game_win: 11
+close_game_loss: 11
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -60,9 +59,9 @@ penalty_first_period: 10
 penalty_second_period: 10
 penalty_third_period: 19
 penalty_overtime: 0
-leading_goals: 20
-equalizer_goals: 0
-first_goal_of_match: 0
+take_the_lead_goals: 32
+equalizer_goals: 20
+first_goal_of_match: 11
 goals_in_first_period_against: 23
 goals_in_second_period_against: 26
 goals_in_third_period_against: 43
@@ -72,12 +71,12 @@ goals_home: 59
 goals_away: 67
 goals_against_home: 49
 goals_against_away: 45
-home_points: 21
-away_points: 24
-leading_goals_against: 19
-equalizer_goals_against: 0
-first_goal_of_match_against: 0
-Tags:  HC Rychenberg Winterthur: 6,  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 3,  Floorball Köniz Bern: 6,  Zug United: 0,  SV Wiler-Ersigen: 0,  Floorball Chur United: 6,  UHC Uster: 3,  Tigers Langnau: 6,  Grasshopper Club Zürich: 6,
+home_points: 15
+away_points: 18
+take_the_lead_goals_against: 27
+equalizer_goals_against: 17
+first_goal_of_match_against: 11
+Tags:  HC Rychenberg Winterthur: 3,  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 0,  Floorball Köniz Bern: 6,  Zug United: 6,  SV Wiler-Ersigen: 3,  Floorball Chur United: 3,  UHC Uster: 0,  Tigers Langnau: 0,  Grasshopper Club Zürich: 3,
 penalties: 39
 powerplay_efficiency: 39.129999999999995
 boxplay_efficiency: 68.57
@@ -89,11 +88,11 @@ percent_goals_first_period_against: 24.47
 percent_goals_second_period_against: 27.66
 percent_goals_third_period_against: 45.739999999999995
 percent_goals_overtime_against: 2.13
-points_per_game: 2.05
+points_per_game: 1.5
 goal_difference_per_game: 1.45
 scoring_ratio: 1.34
 goals_per_game: 5.73
 goals_against_per_game: 4.27
 boxplay_per_game: 1.59
 powerplay_per_game: 2.09
-rank: 4
+rank: 6

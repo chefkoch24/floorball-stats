@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: LASB
 Category: fi-25-26-regular-season, teams
 Slug: lasb-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 11
 points_after_59_min: 12
 win_1: 2
 loss_1: 5
-points_max_difference_3: 12
-points_more_3_difference: 3
+points_more_2_difference: 3
 close_game_win: 4
 close_game_loss: 8
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 12
 penalty_second_period: 11
 penalty_third_period: 17
 penalty_overtime: 0
-leading_goals: 17
+take_the_lead_goals: 18
 equalizer_goals: 11
 first_goal_of_match: 9
 goals_in_first_period_against: 74
@@ -74,7 +73,7 @@ goals_against_home: 103
 goals_against_away: 96
 home_points: 6
 away_points: 9
-leading_goals_against: 20
+take_the_lead_goals_against: 36
 equalizer_goals_against: 13
 first_goal_of_match_against: 21
 Tags:  Classic: 0,  EräViikingit: 1,  FBC Turku: 3,  Hawks: 0,  Indians: 2,  Jymy: 3,  Nokian KrP: 0,  Oilers: 0,  OLS: 0,  SPV: 3,  TPS: 3,

@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-12
 Title: Floorball Köniz Bern
 Category: ch-25-26-playoffs, teams
 Slug: floorball-koeniz-bern-ch-25-26-playoffs-ch-25-26-playoffs
@@ -37,18 +37,17 @@ boxplay_first_period: 1
 boxplay_second_period: 0
 boxplay_third_period: 2
 boxplay_overtime: 0
-points_after_first_period: 0
-points_after_second_period: 0
-points_after_third_period: 0
-points_after_55_min: 0
-points_after_58_min: 0
-points_after_59_min: 0
+points_after_first_period: 1
+points_after_second_period: 1
+points_after_third_period: 1
+points_after_55_min: 1
+points_after_58_min: 1
+points_after_59_min: 1
 win_1: 0
-loss_1: 0
-points_max_difference_3: 0
-points_more_3_difference: 0
+loss_1: 1
+points_more_2_difference: 0
 close_game_win: 0
-close_game_loss: 0
+close_game_loss: 1
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -60,7 +59,7 @@ penalty_first_period: 1
 penalty_second_period: 0
 penalty_third_period: 2
 penalty_overtime: 0
-leading_goals: 0
+take_the_lead_goals: 0
 equalizer_goals: 0
 first_goal_of_match: 0
 goals_in_first_period_against: 2
@@ -74,9 +73,9 @@ goals_against_home: 0
 goals_against_away: 7
 home_points: 0
 away_points: 0
-leading_goals_against: 0
+take_the_lead_goals_against: 1
 equalizer_goals_against: 0
-first_goal_of_match_against: 0
+first_goal_of_match_against: 1
 Tags:  Floorball Thurgau: 0,
 penalties: 3
 powerplay_efficiency: 0.0
@@ -96,4 +95,4 @@ goals_per_game: 3.0
 goals_against_per_game: 7.0
 boxplay_per_game: 3.0
 powerplay_per_game: 2.0
-rank: 7
+rank: 8

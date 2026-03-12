@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-regular-season, teams
 Slug: fbc-čpp-bystroň-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 20
 points_after_59_min: 22
 win_1: 5
 loss_1: 3
-points_max_difference_3: 14
-points_more_3_difference: 12
+points_more_2_difference: 12
 close_game_win: 5
 close_game_loss: 5
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 8
 penalty_second_period: 11
 penalty_third_period: 13
 penalty_overtime: 0
-leading_goals: 23
+take_the_lead_goals: 26
 equalizer_goals: 15
 first_goal_of_match: 11
 goals_in_first_period_against: 43
@@ -74,7 +73,7 @@ goals_against_home: 80
 goals_against_away: 82
 home_points: 16
 away_points: 10
-leading_goals_against: 21
+take_the_lead_goals_against: 28
 equalizer_goals_against: 18
 first_goal_of_match_against: 14
 Tags:  BA SOKOLI Pardubice: 2,  FBC Liberec: 6,  HDT.cz Florbal Vary Bohemians: 0,  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 1,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 2,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 3,  ACEMA Sparta Praha: 3,  1. SC NATIOS Vítkovice: 0,  FBŠ Hummel Hattrick Brno: 3,

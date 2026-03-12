@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-regular-season, teams
 Slug: fbc-4clean-česká-lípa-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 28
 points_after_59_min: 25
 win_1: 4
 loss_1: 2
-points_max_difference_3: 12
-points_more_3_difference: 12
+points_more_2_difference: 12
 close_game_win: 5
 close_game_loss: 3
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 14
 penalty_second_period: 7
 penalty_third_period: 25
 penalty_overtime: 0
-leading_goals: 21
+take_the_lead_goals: 26
 equalizer_goals: 19
 first_goal_of_match: 13
 goals_in_first_period_against: 49
@@ -74,7 +73,7 @@ goals_against_home: 84
 goals_against_away: 105
 home_points: 17
 away_points: 7
-leading_goals_against: 22
+take_the_lead_goals_against: 33
 equalizer_goals_against: 19
 first_goal_of_match_against: 12
 Tags:  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 3,  FBC Liberec: 5,  ACEMA Sparta Praha: 0,  FAT PIPE FLORBAL CHODOV: 0,  1. SC NATIOS Vítkovice: 3,  ESA logistika Tatran Střešovice: 0,  BA SOKOLI Pardubice: 2,  FBC ČPP Bystroň Group OSTRAVA: 3,  Florbal Ústí: 6,  FBŠ Hummel Hattrick Brno: 0,  HDT.cz Florbal Vary Bohemians: 0,

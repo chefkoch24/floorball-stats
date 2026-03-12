@@ -65,22 +65,27 @@ def test_run_stats_and_generate_markdown_end_to_end(tmp_path: Path):
     _sample_events().to_csv(events_csv, index=False)
 
     run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
-    games_written, teams_written = generate_markdown_files(
+    games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_dir / "game_stats.json"),
         team_stats_path=str(data_dir / "team_stats_enhanced.json"),
+        league_stats_path=str(data_dir / "league_averages.json"),
         output_games_dir=str(content_dir / "25-26-regular-season" / "games"),
         output_teams_dir=str(content_dir / "25-26-regular-season" / "teams"),
+        output_liga_dir=str(content_dir / "25-26-regular-season" / "liga"),
         season="25-26",
         phase="regular-season",
     )
 
     assert games_written == 1
     assert teams_written == 2
+    assert league_written == 1
 
     game_files = list((content_dir / "25-26-regular-season" / "games").glob("*.md"))
     team_files = list((content_dir / "25-26-regular-season" / "teams").glob("*.md"))
+    liga_files = list((content_dir / "25-26-regular-season" / "liga").glob("*.md"))
     assert len(game_files) == 1
     assert len(team_files) == 2
+    assert len(liga_files) == 1
 
     game_content = game_files[0].read_text(encoding="utf-8")
     assert "type: game" in game_content

@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: EräViikingit
 Category: fi-25-26-regular-season, teams
 Slug: eraeviikingit-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 35
 points_after_59_min: 34
 win_1: 8
 loss_1: 5
-points_max_difference_3: 22
-points_more_3_difference: 18
+points_more_2_difference: 18
 close_game_win: 8
 close_game_loss: 6
 close_game_overtime: 8
@@ -60,7 +59,7 @@ penalty_first_period: 15
 penalty_second_period: 29
 penalty_third_period: 23
 penalty_overtime: 0
-leading_goals: 17
+take_the_lead_goals: 35
 equalizer_goals: 29
 first_goal_of_match: 11
 goals_in_first_period_against: 48
@@ -74,7 +73,7 @@ goals_against_home: 89
 goals_against_away: 80
 home_points: 14
 away_points: 26
-leading_goals_against: 28
+take_the_lead_goals_against: 45
 equalizer_goals_against: 22
 first_goal_of_match_against: 19
 Tags:  Classic: 0,  FBC Turku: 11,  Hawks: 7,  Indians: 5,  Jymy: 6,  LASB: 5,  Nokian KrP: 0,  Oilers: 1,  OLS: 3,  SPV: 0,  TPS: 2,

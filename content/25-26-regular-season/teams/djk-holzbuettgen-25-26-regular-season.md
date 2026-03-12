@@ -45,8 +45,7 @@ points_after_58_min: 26
 points_after_59_min: 25
 win_1: 2
 loss_1: 3
-points_max_difference_3: 8
-points_more_3_difference: 18
+points_more_2_difference: 18
 close_game_win: 3
 close_game_loss: 4
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 7
 penalty_second_period: 15
 penalty_third_period: 21
 penalty_overtime: 0
-leading_goals: 21
+take_the_lead_goals: 24
 equalizer_goals: 18
 first_goal_of_match: 10
 goals_in_first_period_against: 33
@@ -74,7 +73,7 @@ goals_against_home: 55
 goals_against_away: 55
 home_points: 13
 away_points: 13
-leading_goals_against: 22
+take_the_lead_goals_against: 27
 equalizer_goals_against: 16
 first_goal_of_match_against: 8
 Tags:  UHC Sparkasse Weißenfels: 3,  MFBC Leipzig: 0,  Berlin Rockets: 6,  SC Potsdam: 6,  SC DHfK Leipzig: 5,  Floor Fighters Chemnitz: 2,  Unihockey Igels Dresden: 3,  Blau-Weiß 96 Schenefeld: 0,  ETV Piranhhas Hamburg: 0,  SSF Dragons Bonn: 1,

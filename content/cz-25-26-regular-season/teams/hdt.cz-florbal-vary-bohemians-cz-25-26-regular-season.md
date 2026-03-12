@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-regular-season, teams
 Slug: hdt.cz-florbal-vary-bohemians-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 39
 points_after_59_min: 39
 win_1: 1
 loss_1: 2
-points_max_difference_3: 8
-points_more_3_difference: 54
+points_more_2_difference: 54
 close_game_win: 2
 close_game_loss: 2
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 8
 penalty_second_period: 8
 penalty_third_period: 12
 penalty_overtime: 0
-leading_goals: 19
+take_the_lead_goals: 39
 equalizer_goals: 15
 first_goal_of_match: 16
 goals_in_first_period_against: 44
@@ -74,7 +73,7 @@ goals_against_home: 83
 goals_against_away: 67
 home_points: 31
 away_points: 31
-leading_goals_against: 15
+take_the_lead_goals_against: 18
 equalizer_goals_against: 18
 first_goal_of_match_against: 9
 Tags:  FBŠ Hummel Hattrick Brno: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC ČPP Bystroň Group OSTRAVA: 6,  Kanonýři Kladno: 6,  Předvýběr.CZ Florbal MB: 1,  TJ Sokol Královské Vinohrady: 3,  ACEMA Sparta Praha: 3,  FBC Liberec: 6,  1. SC NATIOS Vítkovice: 6,  ESA logistika Tatran Střešovice: 4,  BA SOKOLI Pardubice: 6,  Florbal Ústí: 6,  FBC 4CLEAN Česká Lípa: 3,

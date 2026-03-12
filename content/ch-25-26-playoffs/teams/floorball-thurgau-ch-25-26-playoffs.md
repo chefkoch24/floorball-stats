@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-12
 Title: Floorball Thurgau
 Category: ch-25-26-playoffs, teams
 Slug: floorball-thurgau-ch-25-26-playoffs-ch-25-26-playoffs
@@ -17,7 +17,7 @@ goals: 7
 goals_against: 3
 games: 1
 goal_difference: 4
-points_max_difference_2: 0
+points_max_difference_2: 3
 goals_in_first_period: 2
 goals_in_second_period: 2
 goals_in_third_period: 3
@@ -37,17 +37,16 @@ boxplay_first_period: 0
 boxplay_second_period: 1
 boxplay_third_period: 1
 boxplay_overtime: 0
-points_after_first_period: 3
-points_after_second_period: 3
-points_after_third_period: 3
-points_after_55_min: 3
-points_after_58_min: 3
-points_after_59_min: 3
-win_1: 0
+points_after_first_period: 1
+points_after_second_period: 1
+points_after_third_period: 1
+points_after_55_min: 1
+points_after_58_min: 1
+points_after_59_min: 1
+win_1: 1
 loss_1: 0
-points_max_difference_3: 0
-points_more_3_difference: 3
-close_game_win: 0
+points_more_2_difference: 0
+close_game_win: 1
 close_game_loss: 0
 close_game_overtime: 0
 penalty_shot_goals: 0
@@ -60,9 +59,9 @@ penalty_first_period: 0
 penalty_second_period: 1
 penalty_third_period: 2
 penalty_overtime: 0
-leading_goals: 0
+take_the_lead_goals: 1
 equalizer_goals: 0
-first_goal_of_match: 0
+first_goal_of_match: 1
 goals_in_first_period_against: 0
 goals_in_second_period_against: 2
 goals_in_third_period_against: 1
@@ -74,7 +73,7 @@ goals_against_home: 3
 goals_against_away: 0
 home_points: 3
 away_points: 0
-leading_goals_against: 0
+take_the_lead_goals_against: 0
 equalizer_goals_against: 0
 first_goal_of_match_against: 0
 Tags:  Floorball Köniz Bern: 3,
@@ -96,4 +95,4 @@ goals_per_game: 7.0
 goals_against_per_game: 3.0
 boxplay_per_game: 2.0
 powerplay_per_game: 3.0
-rank: 3
+rank: 4

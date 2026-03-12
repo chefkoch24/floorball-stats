@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: HC Rychenberg Winterthur
 Category: ch-25-26-regular-season, teams
 Slug: hc-rychenberg-winterthur-ch-25-26-regular-season-ch-25-26-regular-season
@@ -17,7 +17,7 @@ goals: 134
 goals_against: 122
 games: 22
 goal_difference: 12
-points_max_difference_2: 18
+points_max_difference_2: 33
 goals_in_first_period: 38
 goals_in_second_period: 46
 goals_in_third_period: 46
@@ -37,18 +37,17 @@ boxplay_first_period: 11
 boxplay_second_period: 12
 boxplay_third_period: 6
 boxplay_overtime: 1
-points_after_first_period: 33
-points_after_second_period: 33
-points_after_third_period: 33
-points_after_55_min: 33
-points_after_58_min: 33
-points_after_59_min: 33
-win_1: 5
-loss_1: 6
-points_max_difference_3: 18
-points_more_3_difference: 15
-close_game_win: 6
-close_game_loss: 9
+points_after_first_period: 29
+points_after_second_period: 29
+points_after_third_period: 29
+points_after_55_min: 29
+points_after_58_min: 29
+points_after_59_min: 29
+win_1: 10
+loss_1: 11
+points_more_2_difference: 0
+close_game_win: 11
+close_game_loss: 11
 close_game_overtime: 2
 penalty_shot_goals: 0
 penalty_shot_goals_against: 1
@@ -60,9 +59,9 @@ penalty_first_period: 11
 penalty_second_period: 13
 penalty_third_period: 9
 penalty_overtime: 1
-leading_goals: 30
-equalizer_goals: 0
-first_goal_of_match: 0
+take_the_lead_goals: 30
+equalizer_goals: 25
+first_goal_of_match: 10
 goals_in_first_period_against: 41
 goals_in_second_period_against: 44
 goals_in_third_period_against: 33
@@ -72,12 +71,12 @@ goals_home: 63
 goals_away: 71
 goals_against_home: 48
 goals_against_away: 74
-home_points: 19
-away_points: 14
-leading_goals_against: 31
-equalizer_goals_against: 0
-first_goal_of_match_against: 0
-Tags:  Floorball Thurgau: 0,  SV Wiler-Ersigen: 3,  Floorball Chur United: 6,  UHC Uster: 5,  Tigers Langnau: 0,  Grasshopper Club Zürich: 4,  Zug United: 0,  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 0,  Floorball Köniz Bern: 6,
+home_points: 16
+away_points: 17
+take_the_lead_goals_against: 35
+equalizer_goals_against: 18
+first_goal_of_match_against: 12
+Tags:  Floorball Thurgau: 3,  SV Wiler-Ersigen: 3,  Floorball Chur United: 6,  UHC Uster: 2,  Tigers Langnau: 3,  Grasshopper Club Zürich: 4,  Zug United: 0,  WASA St. Gallen: 3,  Unihockey Basel Regio: 6,  UHC Alligator Malans: 3,  Floorball Köniz Bern: 0,
 penalties: 34
 powerplay_efficiency: 46.43
 boxplay_efficiency: 56.67

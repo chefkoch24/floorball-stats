@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FBC Liberec
 Category: cz-25-26-regular-season, teams
 Slug: fbc-liberec-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 21
 points_after_59_min: 21
 win_1: 1
 loss_1: 5
-points_max_difference_3: 8
-points_more_3_difference: 12
+points_more_2_difference: 12
 close_game_win: 2
 close_game_loss: 6
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 4
 penalty_second_period: 8
 penalty_third_period: 10
 penalty_overtime: 0
-leading_goals: 25
+take_the_lead_goals: 26
 equalizer_goals: 17
 first_goal_of_match: 11
 goals_in_first_period_against: 60
@@ -74,7 +73,7 @@ goals_against_home: 104
 goals_against_away: 98
 home_points: 12
 away_points: 8
-leading_goals_against: 27
+take_the_lead_goals_against: 34
 equalizer_goals_against: 19
 first_goal_of_match_against: 14
 Tags:  Předvýběr.CZ Florbal MB: 0,  FBC ČPP Bystroň Group OSTRAVA: 0,  ESA logistika Tatran Střešovice: 1,  FBC 4CLEAN Česká Lípa: 1,  Florbal Ústí: 3,  BA SOKOLI Pardubice: 3,  TJ Sokol Královské Vinohrady: 6,  HDT.cz Florbal Vary Bohemians: 0,  FBŠ Hummel Hattrick Brno: 3,  1. SC NATIOS Vítkovice: 0,  FAT PIPE FLORBAL CHODOV: 3,  Kanonýři Kladno: 0,  ACEMA Sparta Praha: 0,

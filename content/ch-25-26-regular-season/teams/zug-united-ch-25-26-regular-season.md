@@ -1,23 +1,23 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Zug United
 Category: ch-25-26-regular-season, teams
 Slug: zug-united-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:Zug United
 platzierungsverlauf:ch-25-26-regular-season/teams/zug-united-ch-25-26-regular-season_platzierungsverlauf.png
-points: 51
-wins: 17
+points: 21
+wins: 7
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 5
+losses: 15
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 149
 goals_against: 102
 games: 22
 goal_difference: 47
-points_max_difference_2: 27
+points_max_difference_2: 21
 goals_in_first_period: 36
 goals_in_second_period: 57
 goals_in_third_period: 54
@@ -37,18 +37,17 @@ boxplay_first_period: 6
 boxplay_second_period: 8
 boxplay_third_period: 6
 boxplay_overtime: 0
-points_after_first_period: 48
-points_after_second_period: 51
-points_after_third_period: 51
-points_after_55_min: 51
-points_after_58_min: 51
-points_after_59_min: 51
-win_1: 4
-loss_1: 4
-points_max_difference_3: 27
-points_more_3_difference: 24
-close_game_win: 9
-close_game_loss: 4
+points_after_first_period: 18
+points_after_second_period: 24
+points_after_third_period: 24
+points_after_55_min: 24
+points_after_58_min: 24
+points_after_59_min: 24
+win_1: 7
+loss_1: 15
+points_more_2_difference: 0
+close_game_win: 7
+close_game_loss: 15
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -60,9 +59,9 @@ penalty_first_period: 7
 penalty_second_period: 8
 penalty_third_period: 9
 penalty_overtime: 0
-leading_goals: 34
-equalizer_goals: 0
-first_goal_of_match: 0
+take_the_lead_goals: 31
+equalizer_goals: 23
+first_goal_of_match: 7
 goals_in_first_period_against: 41
 goals_in_second_period_against: 23
 goals_in_third_period_against: 37
@@ -72,12 +71,12 @@ goals_home: 74
 goals_away: 75
 goals_against_home: 46
 goals_against_away: 56
-home_points: 30
-away_points: 21
-leading_goals_against: 36
-equalizer_goals_against: 0
-first_goal_of_match_against: 0
-Tags:  UHC Uster: 6,  UHC Alligator Malans: 3,  Tigers Langnau: 3,  Floorball Köniz Bern: 3,  Grasshopper Club Zürich: 3,  Floorball Thurgau: 6,  HC Rychenberg Winterthur: 6,  SV Wiler-Ersigen: 3,  WASA St. Gallen: 6,  Floorball Chur United: 6,  Unihockey Basel Regio: 6,
+home_points: 9
+away_points: 12
+take_the_lead_goals_against: 28
+equalizer_goals_against: 14
+first_goal_of_match_against: 15
+Tags:  UHC Uster: 3,  UHC Alligator Malans: 0,  Tigers Langnau: 0,  Floorball Köniz Bern: 0,  Grasshopper Club Zürich: 3,  Floorball Thurgau: 0,  HC Rychenberg Winterthur: 6,  SV Wiler-Ersigen: 0,  WASA St. Gallen: 3,  Floorball Chur United: 3,  Unihockey Basel Regio: 3,
 penalties: 24
 powerplay_efficiency: 50.0
 boxplay_efficiency: 70.0
@@ -89,11 +88,11 @@ percent_goals_first_period_against: 40.2
 percent_goals_second_period_against: 22.55
 percent_goals_third_period_against: 36.27
 percent_goals_overtime_against: 0.98
-points_per_game: 2.32
+points_per_game: 0.95
 goal_difference_per_game: 2.14
 scoring_ratio: 1.46
 goals_per_game: 6.77
 goals_against_per_game: 4.64
 boxplay_per_game: 0.91
 powerplay_per_game: 1.73
-rank: 2
+rank: 12

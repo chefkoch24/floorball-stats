@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: FBC Turku
 Category: fi-25-26-regular-season, teams
 Slug: fbc-turku-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 7
 points_after_59_min: 7
 win_1: 2
 loss_1: 3
-points_max_difference_3: 6
-points_more_3_difference: 0
+points_more_2_difference: 0
 close_game_win: 2
 close_game_loss: 4
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 9
 penalty_second_period: 19
 penalty_third_period: 18
 penalty_overtime: 0
-leading_goals: 23
+take_the_lead_goals: 26
 equalizer_goals: 16
 first_goal_of_match: 11
 goals_in_first_period_against: 52
@@ -74,7 +73,7 @@ goals_against_home: 105
 goals_against_away: 124
 home_points: 2
 away_points: 4
-leading_goals_against: 24
+take_the_lead_goals_against: 42
 equalizer_goals_against: 24
 first_goal_of_match_against: 18
 Tags:  Classic: 0,  EräViikingit: 1,  Hawks: 0,  Indians: 0,  Jymy: 0,  LASB: 3,  Nokian KrP: 0,  Oilers: 0,  OLS: 2,  TPS: 0,  SPV: 0,

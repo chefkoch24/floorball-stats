@@ -441,7 +441,7 @@ def stat_loss_1(events: pd.DataFrame, team: str):
             loss_1 += 1
     return loss_1
 
-def stat_points_max_difference_3(events: pd.DataFrame, team: str):
+def stat_points_more_2_difference(events: pd.DataFrame, team: str):
     points = 0
     last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
     if last_goal is not None:
@@ -455,25 +455,7 @@ def stat_points_max_difference_3(events: pd.DataFrame, team: str):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if diff < 3:
-            points += _points_from_final_score(team_goals, opp_goals, period)
-    return points
-
-def stat_points_more_3_difference(events: pd.DataFrame, team: str):
-    points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
-    if last_goal is not None:
-        if team == last_goal['home_team_name']:
-            diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
-            team_goals = last_goal['home_goals']
-            opp_goals = last_goal['guest_goals']
-            period = last_goal['period']
-        else:
-            diff = abs(last_goal['guest_goals'] - last_goal['home_goals'])
-            team_goals = last_goal['guest_goals']
-            opp_goals = last_goal['home_goals']
-            period = last_goal['period']
-        if diff >= 3:
+        if diff > 2:
             points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
@@ -557,53 +539,76 @@ def stat_penalty_third_period(events: pd.DataFrame, team: str):
 def stat_penalty_overtime(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 4)].shape[0])
 
-def stat_leading_goals(events: pd.DataFrame, team: str):
+def _team_score_state(event: pd.Series, team: str):
+    if event.get('home_team_name') == team:
+        return event['home_goals'], event['guest_goals']
+    if event.get('away_team_name') == team:
+        return event['guest_goals'], event['home_goals']
+    return None, None
+
+def _goal_progression(events: pd.DataFrame) -> pd.DataFrame:
+    """Return deduplicated in-game goals (periods 1-4) in chronological order."""
+    goals = events[(events['event_type'] == EVENT_GOAL) & (events['period'] <= 4)].copy()
+    if goals.empty:
+        return goals
+    goals = goals.sort_values(by=['time_in_s', 'sortkey'])
+    goals['score_key'] = goals['home_goals'].astype(str) + ":" + goals['guest_goals'].astype(str)
+    goals = goals[goals['score_key'].ne(goals['score_key'].shift())].copy()
+    return goals.drop(columns=['score_key'])
+
+def stat_take_the_lead_goals(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-            if event['home_goals'] - event['guest_goals'] == 1:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] == team:
+            team_goals, opp_goals = _team_score_state(event, team)
+            if team_goals is None:
+                continue
+            # Leading goal: a goal that turns a tie into a lead.
+            if team_goals == opp_goals + 1:
                 count += 1
     return count
 
 def stat_equalizer_goals(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] == team:
             if event['home_goals'] - event['guest_goals'] == 0:
                 count += 1
     return count
 
 def stat_first_goal_of_match(events: pd.DataFrame, team: str):
-    count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-            if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                count += 1
-    return count
+    goals = _goal_progression(events)
+    if goals.empty:
+        return 0
+    first = goals.iloc[0]
+    return int(first['event_team'] == team)
 
-def stat_leading_goals_against(events: pd.DataFrame, team: str):
+def stat_take_the_lead_goals_against(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-            if event['home_goals'] - event['guest_goals'] == 1:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] != team:
+            team_goals, opp_goals = _team_score_state(event, team)
+            if team_goals is None:
+                continue
+            # Against: opponent scores to take the lead from a tie.
+            if opp_goals == team_goals + 1:
                 count += 1
     return count
 
 def stat_equalizer_goals_against(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] != team:
             if event['home_goals'] - event['guest_goals'] == 0:
                 count += 1
     return count
 
 def stat_first_goal_of_match_against(events: pd.DataFrame, team: str):
-    count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-            if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                count += 1
-    return count
+    goals = _goal_progression(events)
+    if goals.empty:
+        return 0
+    first = goals.iloc[0]
+    return int(first['event_team'] != team)
 
 def stat_goals_in_first_period_against(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] != team) & (events['period'] == 1)].shape[0])
@@ -725,8 +730,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('points_after_59_min', stat_points_after_59_minutes)
     engine.register_stat('win_1', stat_win_1)
     engine.register_stat('loss_1', stat_loss_1)
-    engine.register_stat('points_max_difference_3', stat_points_max_difference_3)
-    engine.register_stat('points_more_3_difference', stat_points_more_3_difference)
+    engine.register_stat('points_more_2_difference', stat_points_more_2_difference)
     engine.register_stat('close_game_win', stat_close_game_win)
     engine.register_stat('close_game_loss', stat_close_game_loss)
     engine.register_stat('close_game_overtime', stat_close_game_overtime)
@@ -740,7 +744,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('penalty_second_period', stat_penalty_second_period)
     engine.register_stat('penalty_third_period', stat_penalty_third_period)
     engine.register_stat('penalty_overtime', stat_penalty_overtime)
-    engine.register_stat('leading_goals', stat_leading_goals)
+    engine.register_stat('take_the_lead_goals', stat_take_the_lead_goals)
     engine.register_stat('equalizer_goals', stat_equalizer_goals)
     engine.register_stat('first_goal_of_match', stat_first_goal_of_match)
     engine.register_stat('goals_in_first_period_against', stat_goals_in_first_period_against)
@@ -755,7 +759,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('goals_against_away', stat_goals_against_away)
     engine.register_stat('home_points', stat_home_points)
     engine.register_stat('away_points', stat_away_points)
-    engine.register_stat('leading_goals_against', stat_leading_goals_against)
+    engine.register_stat('take_the_lead_goals_against', stat_take_the_lead_goals_against)
     engine.register_stat('equalizer_goals_against', stat_equalizer_goals_against)
     engine.register_stat('first_goal_of_match_against', stat_first_goal_of_match_against)
     engine.register_stat('points_against', stat_points_against)

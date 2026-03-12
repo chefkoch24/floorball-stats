@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: TPS
 Category: fi-25-26-regular-season, teams
 Slug: tps-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 38
 points_after_59_min: 38
 win_1: 7
 loss_1: 3
-points_max_difference_3: 26
-points_more_3_difference: 15
+points_more_2_difference: 15
 close_game_win: 9
 close_game_loss: 4
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 4
 penalty_second_period: 23
 penalty_third_period: 20
 penalty_overtime: 0
-leading_goals: 24
+take_the_lead_goals: 31
 equalizer_goals: 22
 first_goal_of_match: 13
 goals_in_first_period_against: 44
@@ -74,7 +73,7 @@ goals_against_home: 70
 goals_against_away: 95
 home_points: 18
 away_points: 23
-leading_goals_against: 20
+take_the_lead_goals_against: 38
 equalizer_goals_against: 17
 first_goal_of_match_against: 17
 Tags:  Classic: 0,  EräViikingit: 7,  FBC Turku: 12,  Hawks: 6,  Indians: 3,  Jymy: 3,  LASB: 3,  Nokian KrP: 1,  Oilers: 3,  OLS: 3,  SPV: 0,

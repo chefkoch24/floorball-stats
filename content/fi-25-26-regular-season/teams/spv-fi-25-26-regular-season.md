@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: SPV
 Category: fi-25-26-regular-season, teams
 Slug: spv-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 66
 points_after_59_min: 66
 win_1: 4
 loss_1: 2
-points_max_difference_3: 22
-points_more_3_difference: 45
+points_more_2_difference: 45
 close_game_win: 8
 close_game_loss: 5
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 10
 penalty_second_period: 18
 penalty_third_period: 14
 penalty_overtime: 0
-leading_goals: 27
+take_the_lead_goals: 35
 equalizer_goals: 20
 first_goal_of_match: 17
 goals_in_first_period_against: 35
@@ -74,7 +73,7 @@ goals_against_home: 59
 goals_against_away: 64
 home_points: 38
 away_points: 29
-leading_goals_against: 23
+take_the_lead_goals_against: 27
 equalizer_goals_against: 12
 first_goal_of_match_against: 13
 Tags:  Classic: 6,  EräViikingit: 6,  Hawks: 5,  Indians: 6,  Jymy: 12,  LASB: 9,  Nokian KrP: 8,  Oilers: 0,  OLS: 6,  FBC Turku: 3,  TPS: 6,

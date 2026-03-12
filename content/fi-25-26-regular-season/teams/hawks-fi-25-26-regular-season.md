@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Hawks
 Category: fi-25-26-regular-season, teams
 Slug: hawks-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 34
 points_after_59_min: 34
 win_1: 1
 loss_1: 9
-points_max_difference_3: 17
-points_more_3_difference: 15
+points_more_2_difference: 15
 close_game_win: 3
 close_game_loss: 10
 close_game_overtime: 8
@@ -60,7 +59,7 @@ penalty_first_period: 8
 penalty_second_period: 16
 penalty_third_period: 16
 penalty_overtime: 1
-leading_goals: 18
+take_the_lead_goals: 29
 equalizer_goals: 16
 first_goal_of_match: 14
 goals_in_first_period_against: 50
@@ -74,7 +73,7 @@ goals_against_home: 92
 goals_against_away: 88
 home_points: 19
 away_points: 13
-leading_goals_against: 21
+take_the_lead_goals_against: 38
 equalizer_goals_against: 21
 first_goal_of_match_against: 16
 Tags:  Classic: 0,  EräViikingit: 5,  FBC Turku: 9,  Indians: 0,  Jymy: 4,  LASB: 6,  Nokian KrP: 0,  Oilers: 0,  OLS: 1,  SPV: 1,  TPS: 6,

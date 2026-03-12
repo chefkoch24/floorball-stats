@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: OLS
 Category: fi-25-26-regular-season, teams
 Slug: ols-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 45
 points_after_59_min: 45
 win_1: 3
 loss_1: 5
-points_max_difference_3: 20
-points_more_3_difference: 27
+points_more_2_difference: 27
 close_game_win: 7
 close_game_loss: 5
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 11
 penalty_second_period: 14
 penalty_third_period: 13
 penalty_overtime: 0
-leading_goals: 26
+take_the_lead_goals: 33
 equalizer_goals: 18
 first_goal_of_match: 16
 goals_in_first_period_against: 41
@@ -74,7 +73,7 @@ goals_against_home: 58
 goals_against_away: 92
 home_points: 30
 away_points: 17
-leading_goals_against: 28
+take_the_lead_goals_against: 31
 equalizer_goals_against: 17
 first_goal_of_match_against: 13
 Tags:  Classic: 3,  EräViikingit: 3,  FBC Turku: 4,  Hawks: 5,  Indians: 5,  Jymy: 9,  LASB: 12,  Nokian KrP: 0,  Oilers: 0,  SPV: 3,  TPS: 3,

@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Classic
 Category: fi-25-26-regular-season, teams
 Slug: classic-fi-25-26-regular-season-fi-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 72
 points_after_59_min: 72
 win_1: 4
 loss_1: 4
-points_max_difference_3: 21
-points_more_3_difference: 54
+points_more_2_difference: 54
 close_game_win: 7
 close_game_loss: 5
 close_game_overtime: 4
@@ -60,7 +59,7 @@ penalty_first_period: 9
 penalty_second_period: 16
 penalty_third_period: 13
 penalty_overtime: 2
-leading_goals: 25
+take_the_lead_goals: 37
 equalizer_goals: 14
 first_goal_of_match: 23
 goals_in_first_period_against: 30
@@ -74,7 +73,7 @@ goals_against_home: 49
 goals_against_away: 57
 home_points: 41
 away_points: 34
-leading_goals_against: 16
+take_the_lead_goals_against: 19
 equalizer_goals_against: 12
 first_goal_of_match_against: 7
 Tags:  FBC Turku: 6,  Hawks: 6,  Indians: 5,  Jymy: 12,  LASB: 12,  Nokian KrP: 7,  Oilers: 3,  OLS: 9,  SPV: 6,  TPS: 6,  EräViikingit: 3,

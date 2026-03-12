@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
 Slug: kanonýři-kladno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 22
 points_after_59_min: 19
 win_1: 4
 loss_1: 3
-points_max_difference_3: 24
-points_more_3_difference: 12
+points_more_2_difference: 12
 close_game_win: 7
 close_game_loss: 4
 close_game_overtime: 3
@@ -60,7 +59,7 @@ penalty_first_period: 14
 penalty_second_period: 14
 penalty_third_period: 15
 penalty_overtime: 0
-leading_goals: 23
+take_the_lead_goals: 40
 equalizer_goals: 24
 first_goal_of_match: 11
 goals_in_first_period_against: 41
@@ -74,7 +73,7 @@ goals_against_home: 69
 goals_against_away: 90
 home_points: 27
 away_points: 9
-leading_goals_against: 18
+take_the_lead_goals_against: 35
 equalizer_goals_against: 27
 first_goal_of_match_against: 14
 Tags:  FBC 4CLEAN Česká Lípa: 4,  ACEMA Sparta Praha: 3,  FAT PIPE FLORBAL CHODOV: 0,  HDT.cz Florbal Vary Bohemians: 0,  1. SC NATIOS Vítkovice: 3,  Předvýběr.CZ Florbal MB: 0,  BA SOKOLI Pardubice: 1,  FBC ČPP Bystroň Group OSTRAVA: 6,  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 4,  FBŠ Hummel Hattrick Brno: 3,  FBC Liberec: 3,  ESA logistika Tatran Střešovice: 3,
