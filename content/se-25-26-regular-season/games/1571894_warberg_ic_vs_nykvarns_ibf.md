@@ -6,6 +6,26 @@ type: game
 game_id: 1571894
 home_team: Warberg IC
 away_team: Nykvarns IBF
+start_time: 19:00:00
+result_string: 4-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.67,10.2,13.7,16.35,33.98,47.92,55.03
+timeline_diffs_csv: 0,1,0,1,2,1,2,1
+timeline_home_goals_csv: 0,1,1,2,3,3,4,4
+timeline_away_goals_csv: 0,0,1,1,1,2,2,3
+home_goal_minutes_csv: 7.67,13.7,16.35,47.92
+home_goal_diffs_csv: 1,1,2,2
+away_goal_minutes_csv: 10.2,33.98,55.03
+away_goal_diffs_csv: 0,1,1
+home_penalty_minutes_csv: 26.18
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 28.18
+away_penalty_minutes_csv: 42.25
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 44.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

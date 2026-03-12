@@ -6,6 +6,26 @@ type: game
 game_id: 1571791
 home_team: Jönköpings IK
 away_team: Strängnäs IBK
+start_time: 17:00:00
+result_string: 9-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.67,14.85,17.18,17.77,20.85,28.2,29.82,31.92,39.93,44.13,51.27,57.97
+timeline_diffs_csv: 0,-1,0,1,2,3,4,3,2,3,4,5,6
+timeline_home_goals_csv: 0,0,1,2,3,4,5,5,5,6,7,8,9
+timeline_away_goals_csv: 0,1,1,1,1,1,1,2,3,3,3,3,3
+home_goal_minutes_csv: 14.85,17.18,17.77,20.85,28.2,39.93,44.13,51.27,57.97
+home_goal_diffs_csv: 0,1,2,3,4,3,4,5,6
+away_goal_minutes_csv: 5.67,29.82,31.92
+away_goal_diffs_csv: -1,3,2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 55.98
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 57.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

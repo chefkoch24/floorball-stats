@@ -6,6 +6,26 @@ type: game
 game_id: 43453
 home_team: Blau-Weiß 96 Schenefeld
 away_team: MFBC Leipzig
+start_time: 18:00
+result_string: 3:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.22,14.42,20.3,28.18,33.1,34.9,41.23,49.9,53.68,54.12
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-1,-2,-3,-4
+timeline_home_goals_csv: 0,0,1,2,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,1,1,1,2,3,4,4,5,6,7
+home_goal_minutes_csv: 14.42,20.3,41.23
+home_goal_diffs_csv: 0,1,-1
+away_goal_minutes_csv: 3.22,28.18,33.1,34.9,49.9,53.68,54.12
+away_goal_diffs_csv: -1,0,-1,-2,-2,-3,-4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 15.48,58.05
+away_penalty_goals_csv: 1,7
+away_penalty_ends_csv: 17.48,60.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.05
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

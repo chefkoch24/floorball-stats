@@ -6,6 +6,26 @@ type: game
 game_id: 1073841
 home_team: Tigers Langnau
 away_team: WASA St. Gallen
+start_time: 19:00
+result_string: 4:3 (2:1, 0:1, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.35,13.3,13.67,27.28,55.23,57.95,58.57
+timeline_diffs_csv: 0,1,2,1,0,1,0,1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,4
+timeline_away_goals_csv: 0,0,0,1,2,2,3,3
+home_goal_minutes_csv: 2.35,13.3,55.23,58.57
+home_goal_diffs_csv: 1,2,1,1
+away_goal_minutes_csv: 13.67,27.28,57.95
+away_goal_diffs_csv: 1,0,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

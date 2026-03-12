@@ -6,6 +6,26 @@ type: game
 game_id: 1218482
 home_team: TJ Sokol Královské Vinohrady
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 2:9
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.73,4.72,15.28,19.57,48.02,58.43,80.5,86.57,90.02,92.7,96.27,96.5
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-5,-6,-7,-8,0,-7
+timeline_home_goals_csv: 0,0,0,0,0,0,0,1,1,1,1,0,2
+timeline_away_goals_csv: 0,1,2,3,4,5,6,6,7,8,9,0,9
+home_goal_minutes_csv: 80.5,96.27,96.5
+home_goal_diffs_csv: -5,0,-7
+away_goal_minutes_csv: 2.73,4.72,15.28,19.57,48.02,58.43,86.57,90.02,92.7
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-6,-7,-8
+home_penalty_minutes_csv: 86.0
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 86.57
+away_penalty_minutes_csv: 91.12,98.83
+away_penalty_goals_csv: 8,9
+away_penalty_ends_csv: 93.12,100.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 100.83
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

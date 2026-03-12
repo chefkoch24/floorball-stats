@@ -6,6 +6,26 @@ type: game
 game_id: 1073811
 home_team: Tigers Langnau
 away_team: Floorball Chur United
+start_time: 19:00
+result_string: 9:3 (4:1, 3:1, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.78,8.62,10.47,12.3,17.87,20.4,26.47,28.2,33.0,55.13,58.75,59.77
+timeline_diffs_csv: 0,-1,0,1,2,3,2,3,4,5,6,5,6
+timeline_home_goals_csv: 0,0,1,2,3,4,4,5,6,7,8,8,9
+timeline_away_goals_csv: 0,1,1,1,1,1,2,2,2,2,2,3,3
+home_goal_minutes_csv: 8.62,10.47,12.3,17.87,26.47,28.2,33.0,55.13,59.77
+home_goal_diffs_csv: 0,1,2,3,3,4,5,6,6
+away_goal_minutes_csv: 1.78,20.4,58.75
+away_goal_diffs_csv: -1,2,5
+home_penalty_minutes_csv: 7.33,35.03,37.05,57.57
+home_penalty_goals_csv: 0,7,7,8
+home_penalty_ends_csv: 9.33,37.03,39.05,58.75
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

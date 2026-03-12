@@ -6,6 +6,26 @@ type: game
 game_id: 1073911
 home_team: SV Wiler-Ersigen
 away_team: Floorball Thurgau
+start_time: 17:00
+result_string: 6:4 (1:1, 1:1, 4:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.38,17.4,30.68,33.73,41.95,42.5,48.58,49.52,54.48,59.85
+timeline_diffs_csv: 0,-1,0,-1,0,-1,0,1,0,1,2
+timeline_home_goals_csv: 0,0,1,1,2,2,3,4,4,5,6
+timeline_away_goals_csv: 0,1,1,2,2,3,3,3,4,4,4
+home_goal_minutes_csv: 17.4,33.73,42.5,48.58,54.48,59.85
+home_goal_diffs_csv: 0,0,0,1,1,2
+away_goal_minutes_csv: 7.38,30.68,41.95,49.52
+away_goal_diffs_csv: -1,-1,-1,0
+home_penalty_minutes_csv: 39.88
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 41.88
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571870
 home_team: Växjö IBK
 away_team: Pixbo IBK
+start_time: 18:00:00
+result_string: 8-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.45,6.97,9.93,10.95,14.63,28.12,31.63,35.0,41.7,42.03,44.52,47.23,53.45,58.12
+timeline_diffs_csv: 0,1,0,1,0,1,2,1,0,1,0,1,2,1,0
+timeline_home_goals_csv: 0,1,1,2,2,3,4,4,4,5,5,6,7,7,7
+timeline_away_goals_csv: 0,0,1,1,2,2,2,3,4,4,5,5,5,6,7
+home_goal_minutes_csv: 2.45,9.93,14.63,28.12,41.7,44.52,47.23
+home_goal_diffs_csv: 1,1,1,2,1,1,2
+away_goal_minutes_csv: 6.97,10.95,31.63,35.0,42.03,53.45,58.12
+away_goal_diffs_csv: 0,0,1,0,0,1,0
+home_penalty_minutes_csv: 57.72
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 58.12
+away_penalty_minutes_csv: 12.75,27.28,50.97
+away_penalty_goals_csv: 2,2,5
+away_penalty_ends_csv: 14.63,28.12,52.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

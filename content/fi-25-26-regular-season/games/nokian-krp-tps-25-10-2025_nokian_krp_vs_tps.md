@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-tps-25-10-2025
 home_team: Nokian KrP
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,14.92,16.25,21.98,26.62,38.07,39.8,42.78,51.73,54.75
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,9
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0,0
+home_goal_minutes_csv: 14.92,16.25,21.98,26.62,38.07,39.8,42.78,51.73,54.75
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8,9
+away_goal_minutes_csv: 
+away_goal_diffs_csv: 
+home_penalty_minutes_csv: 58.93
+home_penalty_goals_csv: 9
+home_penalty_ends_csv: 60.93
+away_penalty_minutes_csv: 36.82,42.53,50.25
+away_penalty_goals_csv: 0,0,0
+away_penalty_ends_csv: 38.07,42.78,51.73
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 58.78
+timeline_max_minute: 60.93
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

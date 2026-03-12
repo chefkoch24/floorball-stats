@@ -6,6 +6,26 @@ type: game
 game_id: jymy-oilers-12-10-2025
 home_team: Jymy
 away_team: Oilers
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.42,2.25,17.3,19.12,25.6,38.93,39.37,45.6,48.03,51.65
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3,-4,-3,-4
+timeline_home_goals_csv: 0,0,0,1,1,1,1,2,2,3,3
+timeline_away_goals_csv: 0,1,2,2,3,4,5,5,6,6,7
+home_goal_minutes_csv: 17.3,39.37,48.03
+home_goal_diffs_csv: -1,-3,-3
+away_goal_minutes_csv: 1.42,2.25,19.12,25.6,38.93,45.6,51.65
+away_goal_diffs_csv: -1,-2,-2,-3,-4,-4,-4
+home_penalty_minutes_csv: 17.22
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 19.12
+away_penalty_minutes_csv: 55.38
+away_penalty_goals_csv: 7
+away_penalty_ends_csv: 57.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

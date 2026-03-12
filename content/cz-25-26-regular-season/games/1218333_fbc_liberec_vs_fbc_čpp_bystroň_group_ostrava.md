@@ -6,6 +6,26 @@ type: game
 game_id: 1218333
 home_team: FBC Liberec
 away_team: FBC ČPP Bystroň Group OSTRAVA
+start_time: nan
+result_string: 6:12
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.78,6.38,9.9,10.18,43.37,46.02,46.37,51.35,81.23,81.33,83.4,90.1,91.13,93.05,94.02,96.88,98.78,98.78,99.78
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5,-6,-5,-6,-5,-6,-7,-6,-5,-6,-5,0,-6
+timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1,2,2,3,3,3,4,5,5,6,0,6
+timeline_away_goals_csv: 0,1,2,3,4,4,5,6,7,7,8,8,9,10,10,10,11,11,0,12
+home_goal_minutes_csv: 43.37,81.23,83.4,93.05,94.02,98.78,98.78
+home_goal_diffs_csv: -3,-5,-5,-6,-5,-5,0
+away_goal_minutes_csv: 1.78,6.38,9.9,10.18,46.02,46.37,51.35,81.33,90.1,91.13,96.88,99.78
+away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6,-6,-6,-7,-6,-6
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.78
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

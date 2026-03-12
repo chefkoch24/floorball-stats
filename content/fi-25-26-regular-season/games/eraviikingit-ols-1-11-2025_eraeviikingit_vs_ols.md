@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-ols-1-11-2025
 home_team: EräViikingit
 away_team: OLS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.1,15.32,27.87,28.25,32.8,45.43,58.93
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-4,-5
+timeline_home_goals_csv: 0,0,1,1,1,1,1,1
+timeline_away_goals_csv: 0,1,1,2,3,4,5,6
+home_goal_minutes_csv: 15.32
+home_goal_diffs_csv: 0
+away_goal_minutes_csv: 7.1,27.87,28.25,32.8,45.43,58.93
+away_goal_diffs_csv: -1,-1,-2,-3,-4,-5
+home_penalty_minutes_csv: 23.52,39.88,41.3
+home_penalty_goals_csv: 1,1,1
+home_penalty_ends_csv: 25.52,41.88,43.3
+away_penalty_minutes_csv: 18.98
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 20.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

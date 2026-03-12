@@ -6,6 +6,26 @@ type: game
 game_id: 1571857
 home_team: Warberg IC
 away_team: IBF Falun
+start_time: 15:00:00
+result_string: 3-10
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.97,1.32,2.62,6.75,13.43,20.68,25.85,28.38,32.38,33.92,34.55,52.68,58.78
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,-1,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,0,1,1,1,2,3,3,3,3,3,3,3,3
+timeline_away_goals_csv: 0,1,1,2,3,3,3,4,5,6,7,8,9,10
+home_goal_minutes_csv: 1.32,13.43,20.68
+home_goal_diffs_csv: 0,-1,0
+away_goal_minutes_csv: 0.97,2.62,6.75,25.85,28.38,32.38,33.92,34.55,52.68,58.78
+away_goal_diffs_csv: -1,-1,-2,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 26.9,56.83
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 28.38,58.78
+away_penalty_minutes_csv: 28.6
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 30.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

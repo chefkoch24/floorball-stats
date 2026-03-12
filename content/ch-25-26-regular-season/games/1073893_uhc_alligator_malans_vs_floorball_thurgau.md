@@ -6,6 +6,26 @@ type: game
 game_id: 1073893
 home_team: UHC Alligator Malans
 away_team: Floorball Thurgau
+start_time: 19:30
+result_string: 5:6 (3:1, 1:3, 1:1, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.82,12.3,19.53,19.95,21.87,26.28,30.17,38.6,40.08,53.35,63.15
+timeline_diffs_csv: 0,1,2,1,2,1,0,-1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,3,3,3,3,4,5,5,5
+timeline_away_goals_csv: 0,0,0,1,1,2,3,4,4,4,5,6
+home_goal_minutes_csv: 2.82,12.3,19.95,38.6,40.08
+home_goal_diffs_csv: 1,2,2,0,1
+away_goal_minutes_csv: 19.53,21.87,26.28,30.17,53.35,63.15
+away_goal_diffs_csv: 1,1,0,-1,0,-1
+home_penalty_minutes_csv: 13.32,16.85,26.18
+home_penalty_goals_csv: 2,2,3
+home_penalty_ends_csv: 15.32,18.85,26.28
+away_penalty_minutes_csv: 26.18,38.35
+away_penalty_goals_csv: 2,4
+away_penalty_ends_csv: 28.18,38.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.15
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

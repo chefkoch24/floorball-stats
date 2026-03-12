@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-indians-21-2-2026
 home_team: Nokian KrP
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.48,4.75,12.18,15.62,36.0,36.17,48.47,49.88,56.0,56.88,57.1,57.43
+timeline_diffs_csv: 0,-1,0,-1,0,1,2,3,4,5,4,3,4
+timeline_home_goals_csv: 0,0,1,1,2,3,4,5,6,7,7,7,8
+timeline_away_goals_csv: 0,1,1,2,2,2,2,2,2,2,3,4,4
+home_goal_minutes_csv: 4.75,15.62,36.0,36.17,48.47,49.88,56.0,57.43
+home_goal_diffs_csv: 0,0,1,2,3,4,5,4
+away_goal_minutes_csv: 3.48,12.18,56.88,57.1
+away_goal_diffs_csv: -1,-1,4,3
+home_penalty_minutes_csv: 33.22
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 35.22
+away_penalty_minutes_csv: 48.3,55.72,59.8
+away_penalty_goals_csv: 2,2,4
+away_penalty_ends_csv: 48.47,56.0,61.8
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.8
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

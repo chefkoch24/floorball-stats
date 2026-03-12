@@ -305,6 +305,29 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.panel-wide {
+  grid-column: 1 / -1;
+}
+
+.timeline-chart-wrap {
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+.penalty-strip-wrap {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  margin-top: 0.65rem;
+}
+
+.timeline-note {
+  margin: 0.55rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 .panel-title {
   margin: 0 0 0.75rem;
   font-size: 1.08rem;

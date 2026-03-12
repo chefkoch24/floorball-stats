@@ -6,6 +6,26 @@ type: game
 game_id: 1218379
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: Kanonýři Kladno
+start_time: nan
+result_string: 3:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.92,15.08,15.43,18.32,49.73,83.73,92.93,96.38,96.63,98.82
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-3,0,-4,-3
+timeline_home_goals_csv: 0,0,0,0,1,1,1,2,0,2,3
+timeline_away_goals_csv: 0,1,2,3,3,4,5,5,0,6,6
+home_goal_minutes_csv: 18.32,92.93,98.82
+home_goal_diffs_csv: -2,-3,-3
+away_goal_minutes_csv: 8.92,15.08,15.43,49.73,83.73,96.38,96.63
+away_goal_diffs_csv: -1,-2,-3,-3,-4,0,-4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 45.1
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 47.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.82
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

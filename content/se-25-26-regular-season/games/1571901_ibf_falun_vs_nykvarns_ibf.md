@@ -6,6 +6,26 @@ type: game
 game_id: 1571901
 home_team: IBF Falun
 away_team: Nykvarns IBF
+start_time: 17:07:00
+result_string: 6-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.08,6.52,9.38,9.93,11.78,14.48,14.77,17.8,18.48,25.57,56.45,58.85,63.37
+timeline_diffs_csv: 0,-1,0,1,2,3,4,3,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,2,3,4,5,5,5,5,5,6,6,6
+timeline_away_goals_csv: 0,1,1,1,1,1,1,2,3,4,5,5,6,7
+home_goal_minutes_csv: 6.52,9.38,9.93,11.78,14.48,56.45
+home_goal_diffs_csv: 0,1,2,3,4,1
+away_goal_minutes_csv: 1.08,14.77,17.8,18.48,25.57,58.85,63.37
+away_goal_diffs_csv: -1,3,2,1,0,0,-1
+home_penalty_minutes_csv: 31.92
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 33.92
+away_penalty_minutes_csv: 13.53,53.18
+away_penalty_goals_csv: 1,5
+away_penalty_ends_csv: 14.48,55.18
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.37
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

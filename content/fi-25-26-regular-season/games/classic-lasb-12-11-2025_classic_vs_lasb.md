@@ -6,6 +6,26 @@ type: game
 game_id: classic-lasb-12-11-2025
 home_team: Classic
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.17,1.87,7.38,19.72,40.32,43.83,48.73,50.58,53.5,58.22,58.77,59.27
+timeline_diffs_csv: 0,1,2,3,4,5,4,3,4,3,4,5,4
+timeline_home_goals_csv: 0,1,2,3,4,5,5,5,6,6,7,8,8
+timeline_away_goals_csv: 0,0,0,0,0,0,1,2,2,3,3,3,4
+home_goal_minutes_csv: 1.17,1.87,7.38,19.72,40.32,50.58,58.22,58.77
+home_goal_diffs_csv: 1,2,3,4,5,4,4,5
+away_goal_minutes_csv: 43.83,48.73,53.5,59.27
+away_goal_diffs_csv: 4,3,3,4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 38.47,49.27
+away_penalty_goals_csv: 0,2
+away_penalty_ends_csv: 40.32,50.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

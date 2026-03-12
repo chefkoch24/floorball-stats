@@ -6,6 +6,26 @@ type: game
 game_id: 1571937
 home_team: Växjö IBK
 away_team: Visby IBK
+start_time: 15:00:00
+result_string: 6-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.57,11.78,13.92,16.98,19.98,27.5,28.57,51.6,52.58,58.08,59.82
+timeline_diffs_csv: 0,1,0,1,2,3,4,3,2,3,2,1
+timeline_home_goals_csv: 0,1,1,2,3,4,5,5,5,6,6,6
+timeline_away_goals_csv: 0,0,1,1,1,1,1,2,3,3,4,5
+home_goal_minutes_csv: 5.57,13.92,16.98,19.98,27.5,52.58
+home_goal_diffs_csv: 1,1,2,3,4,3
+away_goal_minutes_csv: 11.78,28.57,51.6,58.08,59.82
+away_goal_diffs_csv: 0,3,2,2,1
+home_penalty_minutes_csv: 48.67
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 50.67
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571854
 home_team: Jönköpings IK
 away_team: Linköping IBK
+start_time: 17:00:00
+result_string: 2-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.37,8.7,21.27,26.67,33.53,41.18,46.93,52.15,55.72,56.4
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5,-6,-7,-6
+timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1,1,2
+timeline_away_goals_csv: 0,1,2,3,4,4,5,6,7,8,8
+home_goal_minutes_csv: 33.53,56.4
+home_goal_diffs_csv: -3,-6
+away_goal_minutes_csv: 8.37,8.7,21.27,26.67,41.18,46.93,52.15,55.72
+away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6,-7
+home_penalty_minutes_csv: 53.4
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 55.4
+away_penalty_minutes_csv: 49.52
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 51.52
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

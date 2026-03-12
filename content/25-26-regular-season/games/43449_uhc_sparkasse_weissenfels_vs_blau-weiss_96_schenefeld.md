@@ -6,6 +6,26 @@ type: game
 game_id: 43449
 home_team: UHC Sparkasse Weißenfels
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 18:00
+result_string: 8:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,5.85,8.85,9.98,13.97,26.27,27.73,30.73,33.75,56.2,58.18,59.77
+timeline_diffs_csv: 0,-1,0,1,0,1,2,1,2,3,4,5
+timeline_home_goals_csv: 0,0,1,2,2,3,4,4,5,6,7,8
+timeline_away_goals_csv: 0,1,1,1,2,2,2,3,3,3,3,3
+home_goal_minutes_csv: 8.85,9.98,26.27,27.73,33.75,56.2,58.18,59.77
+home_goal_diffs_csv: 0,1,1,2,2,3,4,5
+away_goal_minutes_csv: 5.85,13.97,30.73
+away_goal_diffs_csv: -1,0,1
+home_penalty_minutes_csv: 28.27,39.6
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 30.27,41.6
+away_penalty_minutes_csv: 25.4
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 26.27
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 58.18
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

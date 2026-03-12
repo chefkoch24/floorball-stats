@@ -6,6 +6,26 @@ type: game
 game_id: 1218453
 home_team: FBŠ Hummel Hattrick Brno
 away_team: Florbal Ústí
+start_time: nan
+result_string: 7:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.8,11.48,18.68,43.72,52.6,56.75,59.75,80.58,89.13,96.42,99.92
+timeline_diffs_csv: 0,1,2,3,2,1,2,3,2,3,2,3
+timeline_home_goals_csv: 0,1,2,3,3,3,4,5,5,6,6,7
+timeline_away_goals_csv: 0,0,0,0,1,2,2,2,3,3,4,4
+home_goal_minutes_csv: 5.8,11.48,18.68,56.75,59.75,89.13,99.92
+home_goal_diffs_csv: 1,2,3,2,3,3,3
+away_goal_minutes_csv: 43.72,52.6,80.58,96.42
+away_goal_diffs_csv: 2,1,2,2
+home_penalty_minutes_csv: 90.8,93.45
+home_penalty_goals_csv: 6,6
+home_penalty_ends_csv: 92.8,95.45
+away_penalty_minutes_csv: 90.8,91.87
+away_penalty_goals_csv: 3,3
+away_penalty_ends_csv: 92.8,93.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.92
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

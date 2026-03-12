@@ -6,6 +6,26 @@ type: game
 game_id: 43499
 home_team: Unihockey Igels Dresden
 away_team: ETV Piranhhas Hamburg
+start_time: 18:00
+result_string: 13:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.22,2.95,7.0,7.9,9.83,9.98,11.63,12.85,16.45,19.12,23.0,24.83,28.37,38.77,41.17,43.95,45.05,46.23,47.85,49.33,50.15,55.63
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3,-4,-3,-4,-5,-4,-5,-4,-3,-2,-1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,1,1,1,1,2,2,3,3,3,4,4,5,6,7,8,9,10,11,12,13
+timeline_away_goals_csv: 0,0,1,2,3,4,5,5,6,6,7,8,8,9,9,9,9,9,9,9,9,9,9
+home_goal_minutes_csv: 1.22,11.63,16.45,24.83,38.77,41.17,43.95,45.05,46.23,47.85,49.33,50.15,55.63
+home_goal_diffs_csv: 1,-3,-3,-4,-4,-3,-2,-1,0,1,2,3,4
+away_goal_minutes_csv: 2.95,7.0,7.9,9.83,9.98,12.85,19.12,23.0,28.37
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-4,-4,-5,-5
+home_penalty_minutes_csv: 52.82
+home_penalty_goals_csv: 12
+home_penalty_ends_csv: 54.82
+away_penalty_minutes_csv: 23.52
+away_penalty_goals_csv: 8
+away_penalty_ends_csv: 24.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

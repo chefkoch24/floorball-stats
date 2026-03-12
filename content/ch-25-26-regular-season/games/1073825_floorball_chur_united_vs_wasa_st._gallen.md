@@ -6,6 +6,26 @@ type: game
 game_id: 1073825
 home_team: Floorball Chur United
 away_team: WASA St. Gallen
+start_time: 18:00
+result_string: 4:6 (1:1, 1:3, 2:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.13,0.4,20.55,24.37,29.0,30.23,46.52,49.07,50.42,57.45
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-1,-2,-3,-2
+timeline_home_goals_csv: 0,1,1,1,2,2,2,3,3,3,4
+timeline_away_goals_csv: 0,0,1,2,2,3,4,4,5,6,6
+home_goal_minutes_csv: 0.13,24.37,46.52,57.45
+home_goal_diffs_csv: 1,0,-1,-2
+away_goal_minutes_csv: 0.4,20.55,29.0,30.23,49.07,50.42
+away_goal_diffs_csv: 0,-1,-1,-2,-2,-3
+home_penalty_minutes_csv: 27.37,59.15
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 29.0,61.15
+away_penalty_minutes_csv: 22.55
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 24.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.15
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

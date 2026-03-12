@@ -6,6 +6,26 @@ type: game
 game_id: 1073831
 home_team: Zug United
 away_team: Grasshopper Club Zürich
+start_time: 16:00
+result_string: 7:6 (3:3, 3:1, 0:2, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.92,12.18,13.8,14.4,15.93,17.92,21.05,34.27,37.95,39.38,46.35,55.62,65.15
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,0,1,2,1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,4,5,6,6,6,7
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,4,4,4,5,6,6
+home_goal_minutes_csv: 12.18,13.8,14.4,34.27,37.95,39.38,65.15
+home_goal_diffs_csv: 0,1,2,0,1,2,1
+away_goal_minutes_csv: 8.92,15.93,17.92,21.05,46.35,55.62
+away_goal_diffs_csv: -1,1,0,-1,1,0
+home_penalty_minutes_csv: 30.35
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 32.35
+away_penalty_minutes_csv: 12.78,39.35
+away_penalty_goals_csv: 1,4
+away_penalty_ends_csv: 13.8,39.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.15
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

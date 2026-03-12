@@ -6,6 +6,26 @@ type: game
 game_id: 1571837
 home_team: FBC Kalmarsund
 away_team: Växjö IBK
+start_time: 18:00:00
+result_string: 3-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.6,15.27,17.62,20.5,24.07,25.33,45.93,50.6
+timeline_diffs_csv: 0,1,2,1,0,1,0,-1,-2
+timeline_home_goals_csv: 0,1,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,0,0,1,2,2,3,4,5
+home_goal_minutes_csv: 1.6,15.27,24.07
+home_goal_diffs_csv: 1,2,1
+away_goal_minutes_csv: 17.62,20.5,25.33,45.93,50.6
+away_goal_diffs_csv: 1,0,0,-1,-2
+home_penalty_minutes_csv: 1.28
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 3.28
+away_penalty_minutes_csv: 1.28,3.98
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 1.6,5.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

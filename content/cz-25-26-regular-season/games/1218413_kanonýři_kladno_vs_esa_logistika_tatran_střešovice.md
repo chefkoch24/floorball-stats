@@ -6,6 +6,26 @@ type: game
 game_id: 1218413
 home_team: Kanonýři Kladno
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 6:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.07,4.82,12.38,54.27,59.97,80.08,81.42,86.77,91.1,92.77,97.63
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,1,0,1,2,1
+timeline_home_goals_csv: 0,0,1,2,2,2,3,4,4,5,6,6
+timeline_away_goals_csv: 0,1,1,1,2,3,3,3,4,4,4,5
+home_goal_minutes_csv: 4.82,12.38,80.08,81.42,91.1,92.77
+home_goal_diffs_csv: 0,1,0,1,1,2
+away_goal_minutes_csv: 1.07,54.27,59.97,86.77,97.63
+away_goal_diffs_csv: -1,0,-1,0,1
+home_penalty_minutes_csv: 89.33
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 91.33
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.63
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

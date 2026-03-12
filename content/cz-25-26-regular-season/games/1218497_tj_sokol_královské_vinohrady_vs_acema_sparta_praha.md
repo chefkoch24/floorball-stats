@@ -6,6 +6,26 @@ type: game
 game_id: 1218497
 home_team: TJ Sokol Královské Vinohrady
 away_team: ACEMA Sparta Praha
+start_time: nan
+result_string: 3:8
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.12,11.25,11.43,16.2,46.72,47.85,54.38,86.52,88.22,93.47,97.68
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-5,-6,-5
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,2,2,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,7,8,8
+home_goal_minutes_csv: 47.85,86.52,97.68
+home_goal_diffs_csv: -4,-4,-5
+away_goal_minutes_csv: 9.12,11.25,11.43,16.2,46.72,54.38,88.22,93.47
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-5,-6
+home_penalty_minutes_csv: 9.02,49.68,92.77
+home_penalty_goals_csv: 0,1,2
+home_penalty_ends_csv: 9.12,51.68,93.47
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.68
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

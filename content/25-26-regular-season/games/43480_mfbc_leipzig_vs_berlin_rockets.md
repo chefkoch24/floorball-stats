@@ -6,6 +6,26 @@ type: game
 game_id: 43480
 home_team: MFBC Leipzig
 away_team: Berlin Rockets
+start_time: 16:00
+result_string: 6:4
+ingame_status: period3
+timeline_minutes_csv: 0.0,9.23,18.12,21.73,23.27,38.88,47.05,50.08,50.23,51.1,53.73
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-1,0,1,2
+timeline_home_goals_csv: 0,1,1,1,1,1,2,3,4,5,6
+timeline_away_goals_csv: 0,0,1,2,3,4,4,4,4,4,4
+home_goal_minutes_csv: 9.23,47.05,50.08,50.23,51.1,53.73
+home_goal_diffs_csv: 1,-2,-1,0,1,2
+away_goal_minutes_csv: 18.12,21.73,23.27,38.88
+away_goal_diffs_csv: 0,-1,-2,-3
+home_penalty_minutes_csv: 18.7,20.55,43.37
+home_penalty_goals_csv: 1,1,1
+home_penalty_ends_csv: 20.7,21.73,45.37
+away_penalty_minutes_csv: 7.72,25.95,58.38
+away_penalty_goals_csv: 0,3,4
+away_penalty_ends_csv: 9.23,27.95,60.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.38
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

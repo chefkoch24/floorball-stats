@@ -6,6 +6,26 @@ type: game
 game_id: 1571897
 home_team: FBC Kalmarsund
 away_team: Storvreta IBK
+start_time: 18:00:00
+result_string: 2-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.87,26.17,34.42,38.62,50.3
+timeline_diffs_csv: 0,1,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,2,2
+timeline_away_goals_csv: 0,0,0,1,2,3
+home_goal_minutes_csv: 7.87,26.17
+home_goal_diffs_csv: 1,2
+away_goal_minutes_csv: 34.42,38.62,50.3
+away_goal_diffs_csv: 1,0,-1
+home_penalty_minutes_csv: 33.18
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 34.42
+away_penalty_minutes_csv: 33.18
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 35.18
+home_major_penalty_minutes_csv: 36.62
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

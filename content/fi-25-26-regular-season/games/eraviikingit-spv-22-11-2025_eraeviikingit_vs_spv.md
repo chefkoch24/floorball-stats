@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-spv-22-11-2025
 home_team: EräViikingit
 away_team: SPV
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.83,2.07,7.85,8.42,13.17,27.52,27.93,30.23,46.05,52.47,57.37,59.97
+timeline_diffs_csv: 0,1,0,1,0,-1,-2,-3,-4,-5,-6,-5,-4
+timeline_home_goals_csv: 0,1,1,2,2,2,2,2,2,2,2,3,4
+timeline_away_goals_csv: 0,0,1,1,2,3,4,5,6,7,8,8,8
+home_goal_minutes_csv: 1.83,7.85,57.37,59.97
+home_goal_diffs_csv: 1,1,-5,-4
+away_goal_minutes_csv: 2.07,8.42,13.17,27.52,27.93,30.23,46.05,52.47
+away_goal_diffs_csv: 0,0,-1,-2,-3,-4,-5,-6
+home_penalty_minutes_csv: 29.62,45.37
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 30.23,46.05
+away_penalty_minutes_csv: 16.0,31.73,37.72,42.75
+away_penalty_goals_csv: 3,6,6,6
+away_penalty_ends_csv: 18.0,33.73,39.72,44.75
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43459
 home_team: SC Potsdam
 away_team: ETV Piranhhas Hamburg
+start_time: 16:00
+result_string: 10:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,6.9,7.68,9.03,12.03,14.1,20.35,22.82,23.3,25.7,33.83,35.03,42.12,47.0,48.48,49.62,53.55,55.75,59.4,59.98
+timeline_diffs_csv: 0,1,2,3,2,3,2,1,0,-1,-2,-3,-2,-3,-4,-3,-2,-1,0,1
+timeline_home_goals_csv: 0,1,2,3,3,4,4,4,4,4,4,4,5,5,5,6,7,8,9,10
+timeline_away_goals_csv: 0,0,0,0,1,1,2,3,4,5,6,7,7,8,9,9,9,9,9,9
+home_goal_minutes_csv: 6.9,7.68,9.03,14.1,42.12,49.62,53.55,55.75,59.4,59.98
+home_goal_diffs_csv: 1,2,3,3,-2,-3,-2,-1,0,1
+away_goal_minutes_csv: 12.03,20.35,22.82,23.3,25.7,33.83,35.03,47.0,48.48
+away_goal_diffs_csv: 2,2,1,0,-1,-2,-3,-3,-4
+home_penalty_minutes_csv: 14.73,19.13
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 16.73,20.35
+away_penalty_minutes_csv: 50.2,53.08
+away_penalty_goals_csv: 9,9
+away_penalty_ends_csv: 52.2,53.55
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43483
 home_team: Berlin Rockets
 away_team: Floor Fighters Chemnitz
+start_time: 16:00
+result_string: 4:8
+ingame_status: period3
+timeline_minutes_csv: 0.0,12.72,14.97,25.15,26.42,27.23,27.38,30.03,33.62,36.45,39.32,43.28,57.82
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-3,-2,-3,-2,-3,-4
+timeline_home_goals_csv: 0,0,1,2,2,2,2,2,3,3,4,4,4
+timeline_away_goals_csv: 0,1,1,1,2,3,4,5,5,6,6,7,8
+home_goal_minutes_csv: 14.97,25.15,33.62,39.32
+home_goal_diffs_csv: 0,1,-2,-2
+away_goal_minutes_csv: 12.72,26.42,27.23,27.38,30.03,36.45,43.28,57.82
+away_goal_diffs_csv: -1,0,-1,-2,-3,-3,-3,-4
+home_penalty_minutes_csv: 23.37,25.77
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 25.37,26.42
+away_penalty_minutes_csv: 27.9,28.97,28.97,33.03
+away_penalty_goals_csv: 4,4,4,5
+away_penalty_ends_csv: 31.9,30.97,32.97,33.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

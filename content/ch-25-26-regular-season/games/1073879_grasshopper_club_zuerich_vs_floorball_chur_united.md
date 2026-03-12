@@ -6,6 +6,26 @@ type: game
 game_id: 1073879
 home_team: Grasshopper Club Zürich
 away_team: Floorball Chur United
+start_time: 19:30
+result_string: 4:6 (2:0, 0:4, 2:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.52,11.72,28.05,30.27,34.05,39.65,40.67,41.37,50.2,55.1
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-3,-4,-3,-2
+timeline_home_goals_csv: 0,1,2,2,2,2,2,2,2,3,4
+timeline_away_goals_csv: 0,0,0,1,2,3,4,5,6,6,6
+home_goal_minutes_csv: 4.52,11.72,50.2,55.1
+home_goal_diffs_csv: 1,2,-3,-2
+away_goal_minutes_csv: 28.05,30.27,34.05,39.65,40.67,41.37
+away_goal_diffs_csv: 1,0,-1,-2,-3,-4
+home_penalty_minutes_csv: 21.9,26.02
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 23.9,28.02
+away_penalty_minutes_csv: 8.82,53.37,57.22
+away_penalty_goals_csv: 0,6,6
+away_penalty_ends_csv: 10.82,55.1,59.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

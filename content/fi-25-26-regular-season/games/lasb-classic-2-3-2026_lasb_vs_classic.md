@@ -6,6 +6,26 @@ type: game
 game_id: lasb-classic-2-3-2026
 home_team: LASB
 away_team: Classic
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.78,3.42,4.13,6.8,11.8,20.52,21.25,22.87,25.73,26.2,28.37,35.45,43.57,45.87,50.7,52.27,54.38
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-5,-4,-5,-6,-7,-8,-9,-8,-9
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,2,3,3,3,3,3,3,4,4
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,7,7,8,9,10,11,12,12,13
+home_goal_minutes_csv: 20.52,22.87,26.2,52.27
+home_goal_diffs_csv: -4,-4,-4,-8
+away_goal_minutes_csv: 2.78,3.42,4.13,6.8,11.8,21.25,25.73,28.37,35.45,43.57,45.87,50.7,54.38
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-5,-5,-6,-7,-8,-9,-9
+home_penalty_minutes_csv: 57.28
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 59.28
+away_penalty_minutes_csv: 36.63
+away_penalty_goals_csv: 9
+away_penalty_ends_csv: 38.63
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

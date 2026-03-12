@@ -6,6 +6,26 @@ type: game
 game_id: 1073870
 home_team: HC Rychenberg Winterthur
 away_team: Floorball Köniz Bern
+start_time: 19:30
+result_string: 7:6 (2:4, 3:2, 2:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.42,5.33,6.3,9.03,12.27,14.08,26.83,27.13,27.52,32.22,32.93,43.97,54.33
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-2,-1,-2,-1,0,1
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,3,4,4,5,6,7
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,5,5,6,6,6,6
+home_goal_minutes_csv: 9.03,12.27,27.13,27.52,32.93,43.97,54.33
+home_goal_diffs_csv: -2,-1,-2,-1,-1,0,1
+away_goal_minutes_csv: 2.42,5.33,6.3,14.08,26.83,32.22
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-2
+home_penalty_minutes_csv: 12.52,37.28,43.6
+home_penalty_goals_csv: 2,5,5
+home_penalty_ends_csv: 14.08,39.28,45.6
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218461
 home_team: ACEMA Sparta Praha
 away_team: BA SOKOLI Pardubice
+start_time: nan
+result_string: 13:2
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.23,11.37,13.95,14.4,16.77,44.12,53.92,54.85,58.92,82.42,92.18,93.45,94.93,96.47,98.52
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,7,8,7,8,9,10,11
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,8,9,9,10,11,12,13
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2
+home_goal_minutes_csv: 4.23,11.37,13.95,14.4,16.77,44.12,53.92,58.92,82.42,93.45,94.93,96.47,98.52
+home_goal_diffs_csv: 1,2,3,4,5,6,7,7,8,8,9,10,11
+away_goal_minutes_csv: 54.85,92.18
+away_goal_diffs_csv: 6,7
+home_penalty_minutes_csv: 45.8,86.15
+home_penalty_goals_csv: 6,9
+home_penalty_ends_csv: 47.8,88.15
+away_penalty_minutes_csv: 87.5,93.7,95.63
+away_penalty_goals_csv: 1,2,2
+away_penalty_ends_csv: 89.5,94.93,96.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.52
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

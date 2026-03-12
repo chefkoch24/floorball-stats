@@ -6,6 +6,26 @@ type: game
 game_id: 1073892
 home_team: Unihockey Basel Regio
 away_team: SV Wiler-Ersigen
+start_time: 17:00
+result_string: 2:8 (1:4, 0:2, 1:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.48,12.07,12.62,13.53,14.2,32.1,35.33,43.4,58.0,59.9
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-5,-4,-5,-6
+timeline_home_goals_csv: 0,0,0,0,1,1,1,1,2,2,2
+timeline_away_goals_csv: 0,1,2,3,3,4,5,6,6,7,8
+home_goal_minutes_csv: 13.53,43.4
+home_goal_diffs_csv: -2,-4
+away_goal_minutes_csv: 7.48,12.07,12.62,14.2,32.1,35.33,58.0,59.9
+away_goal_diffs_csv: -1,-2,-3,-3,-4,-5,-5,-6
+home_penalty_minutes_csv: 24.83,56.9
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 26.83,58.0
+away_penalty_minutes_csv: 18.43,35.92,57.77
+away_penalty_goals_csv: 4,6,6
+away_penalty_ends_csv: 20.43,37.92,59.77
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

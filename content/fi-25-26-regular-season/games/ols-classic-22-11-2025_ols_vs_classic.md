@@ -6,6 +6,26 @@ type: game
 game_id: ols-classic-22-11-2025
 home_team: OLS
 away_team: Classic
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.08,3.98,4.5,6.63,13.03,19.73,23.25,24.88,33.53,38.68,61.55
+timeline_diffs_csv: 0,-1,0,-1,0,-1,0,1,2,1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,2,3,4,5,5,5,6
+timeline_away_goals_csv: 0,1,1,2,2,3,3,3,3,4,5,5
+home_goal_minutes_csv: 3.98,6.63,19.73,23.25,24.88,61.55
+home_goal_diffs_csv: 0,0,0,1,2,1
+away_goal_minutes_csv: 3.08,4.5,13.03,33.53,38.68
+away_goal_diffs_csv: -1,-1,-1,1,0
+home_penalty_minutes_csv: 14.42,33.02
+home_penalty_goals_csv: 2,5
+home_penalty_ends_csv: 16.42,33.53
+away_penalty_minutes_csv: 14.42,33.02,61.55
+away_penalty_goals_csv: 3,3,5
+away_penalty_ends_csv: 16.42,35.02,61.55
+home_major_penalty_minutes_csv: 33.02
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.55
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

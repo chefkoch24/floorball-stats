@@ -6,6 +6,26 @@ type: game
 game_id: 1073848
 home_team: Unihockey Basel Regio
 away_team: Tigers Langnau
+start_time: 19:00
+result_string: 3:5 (2:2, 0:2, 1:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.3,5.62,9.9,12.83,24.52,33.08,46.58,52.95
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,1,2,2,2,2,3
+timeline_away_goals_csv: 0,1,2,2,2,3,4,5,5
+home_goal_minutes_csv: 9.9,12.83,52.95
+home_goal_diffs_csv: -1,0,-2
+away_goal_minutes_csv: 4.3,5.62,24.52,33.08,46.58
+away_goal_diffs_csv: -1,-2,-1,-2,-3
+home_penalty_minutes_csv: 17.28,32.12,46.0
+home_penalty_goals_csv: 2,2,2
+home_penalty_ends_csv: 19.28,33.08,46.58
+away_penalty_minutes_csv: 17.28
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 19.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

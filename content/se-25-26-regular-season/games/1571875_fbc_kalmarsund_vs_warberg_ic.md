@@ -6,6 +6,26 @@ type: game
 game_id: 1571875
 home_team: FBC Kalmarsund
 away_team: Warberg IC
+start_time: 18:00:00
+result_string: 4-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.57,27.6,30.1,45.85,51.78,58.5
+timeline_diffs_csv: 0,1,0,1,2,1,0
+timeline_home_goals_csv: 0,1,1,2,3,3,3
+timeline_away_goals_csv: 0,0,1,1,1,2,3
+home_goal_minutes_csv: 11.57,30.1,45.85
+home_goal_diffs_csv: 1,1,2
+away_goal_minutes_csv: 27.6,51.78,58.5
+away_goal_diffs_csv: 0,1,0
+home_penalty_minutes_csv: 26.63,39.65,53.03
+home_penalty_goals_csv: 1,2,3
+home_penalty_ends_csv: 27.6,41.65,55.03
+away_penalty_minutes_csv: 28.68
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 30.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

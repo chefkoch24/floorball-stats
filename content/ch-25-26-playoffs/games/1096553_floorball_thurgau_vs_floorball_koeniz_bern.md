@@ -6,6 +6,26 @@ type: game
 game_id: 1096553
 home_team: Floorball Thurgau
 away_team: Floorball Köniz Bern
+start_time: 17:00
+result_string: 7:3 (2:0, 2:2, 3:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.58,13.58,21.38,30.62,32.25,35.35,41.57,44.28,55.15,57.32
+timeline_diffs_csv: 0,1,2,3,2,1,2,3,4,5,4
+timeline_home_goals_csv: 0,1,2,3,3,3,4,5,6,7,7
+timeline_away_goals_csv: 0,0,0,0,1,2,2,2,2,2,3
+home_goal_minutes_csv: 6.58,13.58,21.38,35.35,41.57,44.28,55.15
+home_goal_diffs_csv: 1,2,3,2,3,4,5
+away_goal_minutes_csv: 30.62,32.25,57.32
+away_goal_diffs_csv: 2,1,4
+home_penalty_minutes_csv: 20.57,56.72,59.85
+home_penalty_goals_csv: 2,7,7
+home_penalty_ends_csv: 22.57,57.32,61.85
+away_penalty_minutes_csv: 3.18,51.95,58.87
+away_penalty_goals_csv: 0,2,3
+away_penalty_ends_csv: 5.18,53.95,60.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.85
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

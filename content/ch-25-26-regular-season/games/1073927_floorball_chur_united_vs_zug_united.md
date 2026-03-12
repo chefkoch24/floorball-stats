@@ -6,6 +6,26 @@ type: game
 game_id: 1073927
 home_team: Floorball Chur United
 away_team: Zug United
+start_time: 18:00
+result_string: 7:9 (3:1, 3:6, 1:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.28,9.63,11.85,14.5,20.32,20.9,28.87,30.0,30.4,31.45,34.88,38.6,39.6,48.42,59.12,59.8
+timeline_diffs_csv: 0,1,0,1,2,1,0,1,0,1,2,1,0,-1,-2,-1,-2
+timeline_home_goals_csv: 0,1,1,2,3,3,3,4,4,5,6,6,6,6,6,7,7
+timeline_away_goals_csv: 0,0,1,1,1,2,3,3,4,4,4,5,6,7,8,8,9
+home_goal_minutes_csv: 4.28,11.85,14.5,28.87,30.4,31.45,59.12
+home_goal_diffs_csv: 1,1,2,1,1,2,-1
+away_goal_minutes_csv: 9.63,20.32,20.9,30.0,34.88,38.6,39.6,48.42,59.8
+away_goal_diffs_csv: 0,1,0,0,1,0,-1,-2,-2
+home_penalty_minutes_csv: 37.77,39.32,45.45,47.72
+home_penalty_goals_csv: 6,6,6,6
+home_penalty_ends_csv: 38.6,39.6,47.45,48.42
+away_penalty_minutes_csv: 2.48
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 4.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

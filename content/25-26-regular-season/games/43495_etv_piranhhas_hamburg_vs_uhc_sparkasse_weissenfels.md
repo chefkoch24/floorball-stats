@@ -6,6 +6,26 @@ type: game
 game_id: 43495
 home_team: ETV Piranhhas Hamburg
 away_team: UHC Sparkasse Weißenfels
+start_time: 19:00
+result_string: 2:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,12.72,15.27,16.58,18.33,46.1
+timeline_diffs_csv: 0,1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,1,1,2,2
+timeline_away_goals_csv: 0,0,1,2,2,3
+home_goal_minutes_csv: 12.72,18.33
+home_goal_diffs_csv: 1,0
+away_goal_minutes_csv: 15.27,16.58,46.1
+away_goal_diffs_csv: 0,-1,-1
+home_penalty_minutes_csv: 4.88,59.83
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 6.88,61.83
+away_penalty_minutes_csv: 59.83
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 61.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.83
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

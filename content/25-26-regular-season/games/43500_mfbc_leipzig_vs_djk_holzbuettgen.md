@@ -6,6 +6,26 @@ type: game
 game_id: 43500
 home_team: MFBC Leipzig
 away_team: DJK Holzbüttgen
+start_time: 18:00
+result_string: 8:6
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.27,3.85,7.52,13.02,22.32,31.23,33.1,36.92,38.92,41.63,45.58,47.12,55.57,59.98
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-2,-1,0,-1,0,1,2
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,3,4,5,5,6,7,8
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,5,5,5,6,6,6,6
+home_goal_minutes_csv: 13.02,22.32,36.92,38.92,41.63,47.12,55.57,59.98
+home_goal_diffs_csv: -2,-1,-2,-1,0,0,1,2
+away_goal_minutes_csv: 3.27,3.85,7.52,31.23,33.1,45.58
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-1
+home_penalty_minutes_csv: 44.55
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 45.58
+away_penalty_minutes_csv: 12.4,17.32,40.0,50.6,59.98
+away_penalty_goals_csv: 3,3,5,6,6
+away_penalty_ends_csv: 13.02,19.32,41.63,52.6,59.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

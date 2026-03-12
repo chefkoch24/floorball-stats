@@ -6,6 +6,26 @@ type: game
 game_id: 1073807
 home_team: Zug United
 away_team: UHC Uster
+start_time: 16:00
+result_string: 8:1 (0:0, 5:0, 3:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,22.82,33.9,35.53,36.13,37.25,46.97,49.03,54.07,59.38
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,7
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0,1
+home_goal_minutes_csv: 22.82,33.9,35.53,36.13,37.25,46.97,49.03,54.07
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8
+away_goal_minutes_csv: 59.38
+away_goal_diffs_csv: 7
+home_penalty_minutes_csv: 44.87
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 46.87
+away_penalty_minutes_csv: 31.85,37.07,53.58
+away_penalty_goals_csv: 0,0,0
+away_penalty_ends_csv: 33.85,37.25,54.07
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

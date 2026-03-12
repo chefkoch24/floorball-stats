@@ -6,6 +6,26 @@ type: game
 game_id: jymy-nokian-krp-3-10-2025
 home_team: Jymy
 away_team: Nokian KrP
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.25,2.98,6.6,13.3,15.98,17.6,21.18,23.3,31.05,31.65,39.95,45.92,50.58,52.72,55.92,56.78,58.73,59.2
+timeline_diffs_csv: 0,-1,0,1,2,1,0,1,0,-1,-2,-3,-2,-3,-2,-3,-4,-5,-6
+timeline_home_goals_csv: 0,0,1,2,3,3,3,4,4,4,4,4,5,5,6,6,6,6,6
+timeline_away_goals_csv: 0,1,1,1,1,2,3,3,4,5,6,7,7,8,8,9,10,11,12
+home_goal_minutes_csv: 2.98,6.6,13.3,21.18,45.92,52.72
+home_goal_diffs_csv: 0,1,2,1,-2,-2
+away_goal_minutes_csv: 2.25,15.98,17.6,23.3,31.05,31.65,39.95,50.58,55.92,56.78,58.73,59.2
+away_goal_diffs_csv: -1,1,0,0,-1,-2,-3,-3,-3,-4,-5,-6
+home_penalty_minutes_csv: 30.75,49.98,55.32,58.47
+home_penalty_goals_csv: 4,5,6,6
+home_penalty_ends_csv: 31.05,50.58,55.92,58.73
+away_penalty_minutes_csv: 11.58,37.83,45.15,52.27,58.47
+away_penalty_goals_csv: 1,6,7,8,10
+away_penalty_ends_csv: 13.3,39.83,45.92,52.72,60.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.47
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

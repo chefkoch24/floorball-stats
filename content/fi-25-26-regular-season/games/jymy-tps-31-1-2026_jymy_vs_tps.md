@@ -6,6 +6,26 @@ type: game
 game_id: jymy-tps-31-1-2026
 home_team: Jymy
 away_team: TPS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.62,7.67,10.33,12.4,15.12,16.9,17.47,24.27,34.73,42.23,43.38,43.78,44.3,48.83
+timeline_diffs_csv: 0,-1,0,1,2,3,2,1,0,1,0,1,0,-1,-2
+timeline_home_goals_csv: 0,0,1,2,3,4,4,4,4,5,5,6,6,6,6
+timeline_away_goals_csv: 0,1,1,1,1,1,2,3,4,4,5,5,6,7,8
+home_goal_minutes_csv: 7.67,10.33,12.4,15.12,34.73,43.38
+home_goal_diffs_csv: 0,1,2,3,1,1
+away_goal_minutes_csv: 2.62,16.9,17.47,24.27,42.23,43.78,44.3,48.83
+away_goal_diffs_csv: -1,2,1,0,0,0,-1,-2
+home_penalty_minutes_csv: 16.65,17.47,32.2
+home_penalty_goals_csv: 4,4,4
+home_penalty_ends_csv: 16.9,17.47,34.2
+away_penalty_minutes_csv: 11.08,34.08
+away_penalty_goals_csv: 1,4
+away_penalty_ends_csv: 12.4,34.73
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

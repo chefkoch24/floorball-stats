@@ -6,6 +6,26 @@ type: game
 game_id: 43478
 home_team: SSF Dragons Bonn
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 18:00
+result_string: 6:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.8,14.28,15.48,23.78,30.57,33.6,44.12,48.0,59.92
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,2,3
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,5,6
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,3,3
+home_goal_minutes_csv: 15.48,23.78,30.57,33.6,44.12,59.92
+home_goal_diffs_csv: -1,0,1,2,3,3
+away_goal_minutes_csv: 3.8,14.28,48.0
+away_goal_diffs_csv: -1,-2,2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 16.82,48.17
+away_penalty_goals_csv: 2,3
+away_penalty_ends_csv: 18.82,50.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

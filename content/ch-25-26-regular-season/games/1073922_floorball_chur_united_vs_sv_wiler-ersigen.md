@@ -6,6 +6,26 @@ type: game
 game_id: 1073922
 home_team: Floorball Chur United
 away_team: SV Wiler-Ersigen
+start_time: 17:00
+result_string: 2:7 (1:2, 1:1, 0:4)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.82,7.9,9.53,30.05,31.65,47.07,49.05,52.55,59.03
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,-2,-3,-4,-5
+timeline_home_goals_csv: 0,0,1,1,1,2,2,2,2,2
+timeline_away_goals_csv: 0,1,1,2,3,3,4,5,6,7
+home_goal_minutes_csv: 7.9,31.65
+home_goal_diffs_csv: 0,-1
+away_goal_minutes_csv: 3.82,9.53,30.05,47.07,49.05,52.55,59.03
+away_goal_diffs_csv: -1,-1,-2,-2,-3,-4,-5
+home_penalty_minutes_csv: 45.0
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 47.0
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

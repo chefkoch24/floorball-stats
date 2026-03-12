@@ -6,6 +6,26 @@ type: game
 game_id: spv-indians-2-11-2025
 home_team: SPV
 away_team: Indians
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.22,39.07,45.98,48.07,57.1
+timeline_diffs_csv: 0,1,2,3,2,1
+timeline_home_goals_csv: 0,1,2,3,3,3
+timeline_away_goals_csv: 0,0,0,0,1,2
+home_goal_minutes_csv: 12.22,39.07,45.98
+home_goal_diffs_csv: 1,2,3
+away_goal_minutes_csv: 48.07,57.1
+away_goal_diffs_csv: 2,1
+home_penalty_minutes_csv: 46.12
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 48.07
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

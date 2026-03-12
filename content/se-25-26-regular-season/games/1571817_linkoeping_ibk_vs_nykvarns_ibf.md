@@ -6,6 +6,26 @@ type: game
 game_id: 1571817
 home_team: Linköping IBK
 away_team: Nykvarns IBF
+start_time: 16:00:00
+result_string: 10-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.52,29.4,32.87,39.15,39.83,39.98,41.6,42.72,45.48,48.35,49.9,51.98,53.87,55.85,57.2,58.37,59.9
+timeline_diffs_csv: 0,1,2,3,4,5,6,5,6,5,6,7,6,7,6,5,4,3
+timeline_home_goals_csv: 0,1,2,3,4,5,6,6,7,7,8,9,9,10,10,10,10,10
+timeline_away_goals_csv: 0,0,0,0,0,0,0,1,1,2,2,2,3,3,4,5,6,7
+home_goal_minutes_csv: 1.52,29.4,32.87,39.15,39.83,39.98,42.72,48.35,49.9,53.87
+home_goal_diffs_csv: 1,2,3,4,5,6,6,6,7,7
+away_goal_minutes_csv: 41.6,45.48,51.98,55.85,57.2,58.37,59.9
+away_goal_diffs_csv: 5,5,6,6,5,4,3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 31.92
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 32.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

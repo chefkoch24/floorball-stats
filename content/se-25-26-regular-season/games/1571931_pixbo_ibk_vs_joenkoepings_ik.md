@@ -6,6 +6,26 @@ type: game
 game_id: 1571931
 home_team: Pixbo IBK
 away_team: Jönköpings IK
+start_time: 19:00:00
+result_string: 4-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.88,5.9,7.42,11.93,18.05,41.73,42.48,51.67,55.93,56.83
+timeline_diffs_csv: 0,-1,0,1,0,1,0,-1,0,-1,-2
+timeline_home_goals_csv: 0,0,1,2,2,3,3,3,4,4,4
+timeline_away_goals_csv: 0,1,1,1,2,2,3,4,4,5,6
+home_goal_minutes_csv: 5.9,7.42,18.05,51.67
+home_goal_diffs_csv: 0,1,1,0
+away_goal_minutes_csv: 1.88,11.93,41.73,42.48,55.93,56.83
+away_goal_diffs_csv: -1,0,0,-1,-1,-2
+home_penalty_minutes_csv: 31.25,38.15,56.55
+home_penalty_goals_csv: 3,3,4
+home_penalty_ends_csv: 33.25,40.15,56.83
+away_penalty_minutes_csv: 17.85
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 18.05
+home_major_penalty_minutes_csv: 46.05
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

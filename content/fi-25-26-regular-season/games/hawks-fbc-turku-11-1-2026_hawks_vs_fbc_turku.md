@@ -6,6 +6,26 @@ type: game
 game_id: hawks-fbc-turku-11-1-2026
 home_team: Hawks
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.12,25.77,27.82,29.08,58.48,59.72
+timeline_diffs_csv: 0,1,0,1,2,1,2
+timeline_home_goals_csv: 0,1,1,2,3,3,4
+timeline_away_goals_csv: 0,0,1,1,1,2,2
+home_goal_minutes_csv: 0.12,27.82,29.08,59.72
+home_goal_diffs_csv: 1,1,2,2
+away_goal_minutes_csv: 25.77,58.48
+away_goal_diffs_csv: 0,1
+home_penalty_minutes_csv: 2.95,44.78
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 4.95,46.78
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

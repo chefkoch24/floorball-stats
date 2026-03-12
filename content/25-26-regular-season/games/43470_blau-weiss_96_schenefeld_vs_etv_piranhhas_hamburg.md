@@ -6,6 +6,26 @@ type: game
 game_id: 43470
 home_team: Blau-Weiß 96 Schenefeld
 away_team: ETV Piranhhas Hamburg
+start_time: 18:00
+result_string: 6:7 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,19.12,26.07,31.47,38.35,38.77,43.68,44.33,45.22,50.42,50.97,52.1,54.18,69.1
+timeline_diffs_csv: 0,1,2,3,4,5,4,5,4,3,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,4,5,5,6,6,6,6,6,6,6
+timeline_away_goals_csv: 0,0,0,0,0,0,1,1,2,3,4,5,6,7
+home_goal_minutes_csv: 19.12,26.07,31.47,38.35,38.77,44.33
+home_goal_diffs_csv: 1,2,3,4,5,5
+away_goal_minutes_csv: 43.68,45.22,50.42,50.97,52.1,54.18,69.1
+away_goal_diffs_csv: 4,4,3,2,1,0,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 25.07,37.15
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 26.07,38.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 69.1
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

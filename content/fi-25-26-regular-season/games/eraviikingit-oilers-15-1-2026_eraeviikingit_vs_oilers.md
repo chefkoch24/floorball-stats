@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-oilers-15-1-2026
 home_team: EräViikingit
 away_team: Oilers
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.35,21.4,21.68,24.32,32.72,37.5,38.83,41.67,42.55,45.03,49.03,51.33,51.9,55.97,59.27
+timeline_diffs_csv: 0,1,2,3,4,3,2,3,2,1,0,-1,-2,-3,-2,-1
+timeline_home_goals_csv: 0,1,2,3,4,4,4,5,5,5,5,5,5,5,6,7
+timeline_away_goals_csv: 0,0,0,0,0,1,2,2,3,4,5,6,7,8,8,8
+home_goal_minutes_csv: 11.35,21.4,21.68,24.32,38.83,55.97,59.27
+home_goal_diffs_csv: 1,2,3,4,3,-2,-1
+away_goal_minutes_csv: 32.72,37.5,41.67,42.55,45.03,49.03,51.33,51.9
+away_goal_diffs_csv: 3,2,2,1,0,-1,-2,-3
+home_penalty_minutes_csv: 36.12,51.1
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 37.5,51.33
+away_penalty_minutes_csv: 14.0
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 16.0
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

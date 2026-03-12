@@ -6,6 +6,26 @@ type: game
 game_id: 43457
 home_team: Floor Fighters Chemnitz
 away_team: SC Potsdam
+start_time: 16:00
+result_string: 12:2
+ingame_status: period3
+timeline_minutes_csv: 0.0,7.6,17.18,23.78,25.7,28.87,30.35,33.23,34.55,39.72,41.88,46.12,49.4,52.68,56.75
+timeline_diffs_csv: 0,1,2,3,2,3,4,5,4,5,6,7,8,9,10
+timeline_home_goals_csv: 0,1,2,3,3,4,5,6,6,7,8,9,10,11,12
+timeline_away_goals_csv: 0,0,0,0,1,1,1,1,2,2,2,2,2,2,2
+home_goal_minutes_csv: 7.6,17.18,23.78,28.87,30.35,33.23,39.72,41.88,46.12,49.4,52.68,56.75
+home_goal_diffs_csv: 1,2,3,3,4,5,5,6,7,8,9,10
+away_goal_minutes_csv: 25.7,34.55
+away_goal_diffs_csv: 2,4
+home_penalty_minutes_csv: 53.8
+home_penalty_goals_csv: 11
+home_penalty_ends_csv: 55.8
+away_penalty_minutes_csv: 16.97,37.88,45.8,58.58
+away_penalty_goals_csv: 0,2,2,2
+away_penalty_ends_csv: 17.18,39.72,46.12,60.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.58
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

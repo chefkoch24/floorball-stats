@@ -6,6 +6,26 @@ type: game
 game_id: 1218473
 home_team: FBC Liberec
 away_team: ACEMA Sparta Praha
+start_time: nan
+result_string: 2:10
+ingame_status: nan
+timeline_minutes_csv: 0.0,19.17,42.18,44.25,44.62,44.83,81.35,81.67,92.5,97.02,97.47,97.98,98.52,99.5
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-2,-3,-4,-5,0,-6,-7,-8
+timeline_home_goals_csv: 0,0,0,0,1,1,2,2,2,2,0,2,2,2
+timeline_away_goals_csv: 0,1,2,3,3,4,4,5,6,7,0,8,9,10
+home_goal_minutes_csv: 44.62,81.35
+home_goal_diffs_csv: -2,-2
+away_goal_minutes_csv: 19.17,42.18,44.25,44.83,81.67,92.5,97.02,97.47,97.98,98.52,99.5
+away_goal_diffs_csv: -1,-2,-3,-3,-3,-4,-5,0,-6,-7,-8
+home_penalty_minutes_csv: 19.07,89.15
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 19.17,91.15
+away_penalty_minutes_csv: 59.57,88.92
+away_penalty_goals_csv: 4,5
+away_penalty_ends_csv: 61.57,90.92
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.5
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

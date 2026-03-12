@@ -6,6 +6,26 @@ type: game
 game_id: 43513
 home_team: SC DHfK Leipzig
 away_team: DJK Holzbüttgen
+start_time: 17:00
+result_string: 4:13
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.85,4.35,19.95,21.63,33.43,38.3,38.48,43.48,43.55,46.88,50.18,51.05,55.1,55.22,56.35,57.25,58.37
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-3,-4,-5,-6,-7,-8,-7,-8,-9,-8,-9
+timeline_home_goals_csv: 0,0,0,0,1,1,1,2,2,2,2,2,2,3,3,3,4,4
+timeline_away_goals_csv: 0,1,2,3,3,4,5,5,6,7,8,9,10,10,11,12,12,13
+home_goal_minutes_csv: 21.63,38.48,55.1,57.25
+home_goal_diffs_csv: -2,-3,-7,-8
+away_goal_minutes_csv: 1.85,4.35,19.95,33.43,38.3,43.48,43.55,46.88,50.18,51.05,55.22,56.35,58.37
+away_goal_diffs_csv: -1,-2,-3,-3,-4,-4,-5,-6,-7,-8,-8,-9,-9
+home_penalty_minutes_csv: 50.18
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 50.18
+away_penalty_minutes_csv: 45.75,56.63,58.15
+away_penalty_goals_csv: 7,12,12
+away_penalty_ends_csv: 47.75,57.25,60.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.15
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: tps-eraviikingit-5-1-2026
 home_team: TPS
 away_team: EräViikingit
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,21.85,25.95,29.37,43.73,46.48,55.65,60.7
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4
+home_goal_minutes_csv: 43.73,46.48,55.65
+home_goal_diffs_csv: -2,-1,0
+away_goal_minutes_csv: 21.85,25.95,29.37,60.7
+away_goal_diffs_csv: -1,-2,-3,-1
+home_penalty_minutes_csv: 28.43
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 29.37
+away_penalty_minutes_csv: 10.13,52.7
+away_penalty_goals_csv: 0,3
+away_penalty_ends_csv: 12.13,54.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.7
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

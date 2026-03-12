@@ -6,6 +6,26 @@ type: game
 game_id: 1218467
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: TJ Sokol Královské Vinohrady
+start_time: nan
+result_string: 8:1
+ingame_status: nan
+timeline_minutes_csv: 0.0,16.5,47.97,50.42,56.87,58.52,81.55,93.17,95.9,98.38
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,7
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,1
+home_goal_minutes_csv: 16.5,47.97,50.42,56.87,58.52,81.55,93.17,98.38
+home_goal_diffs_csv: 1,2,3,4,5,6,7,7
+away_goal_minutes_csv: 95.9
+away_goal_diffs_csv: 6
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.38
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

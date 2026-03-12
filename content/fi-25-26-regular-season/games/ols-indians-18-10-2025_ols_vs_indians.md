@@ -6,6 +6,26 @@ type: game
 game_id: ols-indians-18-10-2025
 home_team: OLS
 away_team: Indians
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.72,35.45,46.07,50.77,56.93,59.6
+timeline_diffs_csv: 0,1,2,1,0,1,2
+timeline_home_goals_csv: 0,1,2,2,2,3,4
+timeline_away_goals_csv: 0,0,0,1,2,2,2
+home_goal_minutes_csv: 4.72,35.45,56.93,59.6
+home_goal_diffs_csv: 1,2,1,2
+away_goal_minutes_csv: 46.07,50.77
+away_goal_diffs_csv: 1,0
+home_penalty_minutes_csv: 11.53
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 13.53
+away_penalty_minutes_csv: 4.1
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 4.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

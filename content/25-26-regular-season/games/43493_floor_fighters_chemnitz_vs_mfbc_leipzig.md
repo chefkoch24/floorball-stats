@@ -6,6 +6,26 @@ type: game
 game_id: 43493
 home_team: Floor Fighters Chemnitz
 away_team: MFBC Leipzig
+start_time: 18:00
+result_string: 5:6 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,7.03,19.45,28.42,31.87,33.17,38.0,51.55,54.48,57.8,59.88,63.98
+timeline_diffs_csv: 0,1,2,3,2,1,0,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,3,3,4,4,5,5,5
+timeline_away_goals_csv: 0,0,0,0,1,2,3,3,4,4,5,6
+home_goal_minutes_csv: 7.03,19.45,28.42,51.55,57.8
+home_goal_diffs_csv: 1,2,3,1,1
+away_goal_minutes_csv: 31.87,33.17,38.0,54.48,59.88,63.98
+away_goal_diffs_csv: 2,1,0,0,0,-1
+home_penalty_minutes_csv: 9.92,52.5
+home_penalty_goals_csv: 1,4
+home_penalty_ends_csv: 11.92,54.48
+away_penalty_minutes_csv: 50.18
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 51.55
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.98
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

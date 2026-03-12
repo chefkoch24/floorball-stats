@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-tps-14-11-2025
 home_team: FBC Turku
 away_team: TPS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,14.62,20.52,31.6,38.15,40.5,42.97,45.15,46.82,48.08,48.22,48.45,50.7
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-5,-6,-5,-6,-5,-4
+timeline_home_goals_csv: 0,0,0,0,0,0,0,1,1,2,2,3,4
+timeline_away_goals_csv: 0,1,2,3,4,5,6,6,7,7,8,8,8
+home_goal_minutes_csv: 45.15,48.08,48.45,50.7
+home_goal_diffs_csv: -5,-5,-5,-4
+away_goal_minutes_csv: 14.62,20.52,31.6,38.15,40.5,42.97,46.82,48.22
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-6,-6
+home_penalty_minutes_csv: 32.38,36.63,37.75,42.63
+home_penalty_goals_csv: 0,0,0,0
+home_penalty_ends_csv: 34.38,38.15,38.15,42.97
+away_penalty_minutes_csv: 32.38,53.45,56.0
+away_penalty_goals_csv: 3,8,8
+away_penalty_ends_csv: 34.38,55.45,58.0
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

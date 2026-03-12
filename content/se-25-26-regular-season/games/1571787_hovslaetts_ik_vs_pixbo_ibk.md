@@ -6,6 +6,26 @@ type: game
 game_id: 1571787
 home_team: Hovslätts IK
 away_team: Pixbo IBK
+start_time: 19:45:00
+result_string: 6-15
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.63,6.62,9.15,10.47,12.33,14.77,28.5,31.32,34.75,36.68,37.57,38.05,38.63,39.87,40.88,42.63,49.55,50.57,52.03,54.17,58.6
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-4,-3,-4,-3,-4,-5,-4,-5,-6,-7,-8,-9,-8,-9
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,2,3,3,4,4,4,5,5,5,5,5,5,6,6
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,6,6,7,7,8,9,9,10,11,12,13,14,14,15
+home_goal_minutes_csv: 10.47,12.33,34.75,37.57,39.87,54.17
+home_goal_diffs_csv: -2,-1,-3,-3,-4,-8
+away_goal_minutes_csv: 1.63,6.62,9.15,14.77,28.5,31.32,36.68,38.05,38.63,40.88,42.63,49.55,50.57,52.03,58.6
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-4,-4,-4,-5,-5,-6,-7,-8,-9,-9
+home_penalty_minutes_csv: 8.68,46.17,47.95
+home_penalty_goals_csv: 0,5,5
+home_penalty_ends_csv: 9.15,48.17,49.55
+away_penalty_minutes_csv: 52.53,59.37
+away_penalty_goals_csv: 14,15
+away_penalty_ends_csv: 54.17,61.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.37
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

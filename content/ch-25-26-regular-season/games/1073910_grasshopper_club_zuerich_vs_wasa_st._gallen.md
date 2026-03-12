@@ -6,6 +6,26 @@ type: game
 game_id: 1073910
 home_team: Grasshopper Club Zürich
 away_team: WASA St. Gallen
+start_time: 19:00
+result_string: 1:2 (0:0, 1:1, 0:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,30.53,32.78,55.15
+timeline_diffs_csv: 0,-1,0,-1
+timeline_home_goals_csv: 0,0,1,1
+timeline_away_goals_csv: 0,1,1,2
+home_goal_minutes_csv: 32.78
+home_goal_diffs_csv: 0
+away_goal_minutes_csv: 30.53,55.15
+away_goal_diffs_csv: -1,-1
+home_penalty_minutes_csv: 28.67
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 30.53
+away_penalty_minutes_csv: 27.3
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 29.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

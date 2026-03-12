@@ -6,6 +6,26 @@ type: game
 game_id: 1571776
 home_team: FBC Kalmarsund
 away_team: Linköping IBK
+start_time: 19:00:00
+result_string: 6-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.63,4.43,4.82,9.88,14.02,29.98,32.32,45.23,51.62
+timeline_diffs_csv: 0,1,2,3,2,3,2,3,4,3
+timeline_home_goals_csv: 0,1,2,3,3,4,4,5,6,6
+timeline_away_goals_csv: 0,0,0,0,1,1,2,2,2,3
+home_goal_minutes_csv: 2.63,4.43,4.82,14.02,32.32,45.23
+home_goal_diffs_csv: 1,2,3,3,3,4
+away_goal_minutes_csv: 9.88,29.98,51.62
+away_goal_diffs_csv: 2,2,3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

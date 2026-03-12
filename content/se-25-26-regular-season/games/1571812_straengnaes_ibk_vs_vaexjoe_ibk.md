@@ -6,6 +6,26 @@ type: game
 game_id: 1571812
 home_team: Strängnäs IBK
 away_team: Växjö IBK
+start_time: 15:00:00
+result_string: 7-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.58,7.85,8.9,16.32,21.55,28.38,30.9,32.45,34.02,47.28,48.1,48.9,55.72,57.3,60.05
+timeline_diffs_csv: 0,1,2,3,2,1,0,1,2,3,2,1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,3,3,4,5,6,6,6,6,6,7,7
+timeline_away_goals_csv: 0,0,0,0,1,2,3,3,3,3,4,5,6,7,7,8
+home_goal_minutes_csv: 0.58,7.85,8.9,30.9,32.45,34.02,57.3
+home_goal_diffs_csv: 1,2,3,1,2,3,0
+away_goal_minutes_csv: 16.32,21.55,28.38,47.28,48.1,48.9,55.72,60.05
+away_goal_diffs_csv: 2,1,0,2,1,0,-1,-1
+home_penalty_minutes_csv: 13.38,42.17,54.15
+home_penalty_goals_csv: 3,6,6
+home_penalty_ends_csv: 15.38,44.17,55.72
+away_penalty_minutes_csv: 13.38
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 15.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.05
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

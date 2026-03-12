@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-lasb-3-11-2025
 home_team: EräViikingit
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.17,13.15,19.92,21.4,53.98,58.08,61.63
+timeline_diffs_csv: 0,1,2,1,2,1,0,1
+timeline_home_goals_csv: 0,1,2,2,3,3,3,4
+timeline_away_goals_csv: 0,0,0,1,1,2,3,3
+home_goal_minutes_csv: 6.17,13.15,21.4,61.63
+home_goal_diffs_csv: 1,2,2,1
+away_goal_minutes_csv: 19.92,53.98,58.08
+away_goal_diffs_csv: 1,1,0
+home_penalty_minutes_csv: 45.98,59.55
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 47.98,61.55
+away_penalty_minutes_csv: 44.03,46.98
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 46.03,48.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.63
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-hawks-12-12-2025
 home_team: FBC Turku
 away_team: Hawks
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,25.8,34.02,36.08,40.68,53.17,54.38,59.63
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-3
+timeline_home_goals_csv: 0,0,0,1,1,1,2,2
+timeline_away_goals_csv: 0,1,2,2,3,4,4,5
+home_goal_minutes_csv: 36.08,54.38
+home_goal_diffs_csv: -1,-2
+away_goal_minutes_csv: 25.8,34.02,40.68,53.17,59.63
+away_goal_diffs_csv: -1,-2,-2,-3,-3
+home_penalty_minutes_csv: 32.98,51.48
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 34.02,53.17
+away_penalty_minutes_csv: 35.38
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 36.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

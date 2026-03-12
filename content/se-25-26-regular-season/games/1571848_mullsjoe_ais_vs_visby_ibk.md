@@ -6,6 +6,26 @@ type: game
 game_id: 1571848
 home_team: Mullsjö AIS
 away_team: Visby IBK
+start_time: 16:00:00
+result_string: 11-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.68,16.02,16.48,34.18,35.77,36.82,37.07,45.02,47.97,53.9,55.03,59.37,59.95
+timeline_diffs_csv: 0,1,2,3,2,3,2,1,2,3,2,3,6,7
+timeline_home_goals_csv: 0,1,2,3,3,4,4,4,5,6,6,7,10,11
+timeline_away_goals_csv: 0,0,0,0,1,1,2,3,3,3,4,4,4,4
+home_goal_minutes_csv: 1.68,16.02,16.48,35.77,45.02,47.97,55.03,59.37,59.95
+home_goal_diffs_csv: 1,2,3,3,2,3,3,6,7
+away_goal_minutes_csv: 34.18,36.82,37.07,53.9
+away_goal_diffs_csv: 2,2,1,2
+home_penalty_minutes_csv: 48.37,57.22
+home_penalty_goals_csv: 6,7
+home_penalty_ends_csv: 50.37,59.22
+away_penalty_minutes_csv: 4.12,15.5
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 6.12,16.02
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

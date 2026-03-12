@@ -6,6 +6,26 @@ type: game
 game_id: 1571767
 home_team: AIK IBF
 away_team: Växjö IBK
+start_time: 15:00:00
+result_string: 4-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,22.08,31.85,37.73,42.32,43.03,45.93,46.43,53.35,61.75
+timeline_diffs_csv: 0,1,2,3,2,3,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,0,0,0,1,1,2,3,4,5
+home_goal_minutes_csv: 22.08,31.85,37.73,43.03
+home_goal_diffs_csv: 1,2,3,3
+away_goal_minutes_csv: 42.32,45.93,46.43,53.35,61.75
+away_goal_diffs_csv: 2,2,1,0,-1
+home_penalty_minutes_csv: 41.92
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 42.32
+away_penalty_minutes_csv: 3.65
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 5.65
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.75
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

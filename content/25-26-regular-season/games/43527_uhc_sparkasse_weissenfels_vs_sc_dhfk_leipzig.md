@@ -6,6 +6,26 @@ type: game
 game_id: 43527
 home_team: UHC Sparkasse Weißenfels
 away_team: SC DHfK Leipzig
+start_time: 16:00
+result_string: 9:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,4.15,8.2,9.75,12.42,19.25,35.88,36.9,39.42,39.8,45.45,46.3,49.9,58.38,59.78
+timeline_diffs_csv: 0,-1,0,1,2,3,4,3,4,3,4,3,4,3,4
+timeline_home_goals_csv: 0,0,1,2,3,4,5,5,6,6,7,7,8,8,9
+timeline_away_goals_csv: 0,1,1,1,1,1,1,2,2,3,3,4,4,5,5
+home_goal_minutes_csv: 8.2,9.75,12.42,19.25,35.88,39.42,45.45,49.9,59.78
+home_goal_diffs_csv: 0,1,2,3,4,4,4,4,4
+away_goal_minutes_csv: 4.15,36.9,39.8,46.3,58.38
+away_goal_diffs_csv: -1,3,3,3,3
+home_penalty_minutes_csv: 6.62,55.08
+home_penalty_goals_csv: 0,8
+home_penalty_ends_csv: 8.62,57.08
+away_penalty_minutes_csv: 18.9,26.73,55.08
+away_penalty_goals_csv: 1,1,4
+away_penalty_ends_csv: 19.25,28.73,57.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

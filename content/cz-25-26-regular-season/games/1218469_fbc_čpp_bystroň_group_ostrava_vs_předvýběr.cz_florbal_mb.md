@@ -6,6 +6,26 @@ type: game
 game_id: 1218469
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 2:17
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.65,13.1,16.88,42.03,42.9,43.53,47.33,48.2,50.05,54.92,84.88,87.7,89.72,90.48,91.35,93.52,94.55,96.18,96.67,98.47
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-8,-9,-10,-11,-12,-11,-12,-13,-14,0,-15
+timeline_home_goals_csv: 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,0,2
+timeline_away_goals_csv: 0,1,2,3,4,5,6,7,8,9,9,10,11,12,13,13,14,15,16,0,17
+home_goal_minutes_csv: 54.92,91.35
+home_goal_diffs_csv: -8,-11
+away_goal_minutes_csv: 8.65,13.1,16.88,42.03,42.9,43.53,47.33,48.2,50.05,84.88,87.7,89.72,90.48,93.52,94.55,96.18,96.67,98.47
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-9,-9,-10,-11,-12,-12,-13,-14,0,-15
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 5.4,59.27
+away_penalty_goals_csv: 0,9
+away_penalty_ends_csv: 7.4,61.27
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.47
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

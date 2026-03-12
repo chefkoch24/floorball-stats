@@ -6,6 +6,26 @@ type: game
 game_id: 1073884
 home_team: Tigers Langnau
 away_team: UHC Uster
+start_time: 19:30
+result_string: 2:4 (0:2, 1:2, 1:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.18,15.33,28.23,38.3,39.32,53.05
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,0,1,1,2
+timeline_away_goals_csv: 0,1,2,3,3,4,4
+home_goal_minutes_csv: 38.3,53.05
+home_goal_diffs_csv: -2,-2
+away_goal_minutes_csv: 12.18,15.33,28.23,39.32
+away_goal_diffs_csv: -1,-2,-3,-3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

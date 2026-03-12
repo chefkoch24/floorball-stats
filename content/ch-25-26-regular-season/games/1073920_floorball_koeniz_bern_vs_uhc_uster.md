@@ -6,6 +6,26 @@ type: game
 game_id: 1073920
 home_team: Floorball Köniz Bern
 away_team: UHC Uster
+start_time: 17:00
+result_string: 7:6 (4:1, 0:2, 3:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.87,10.98,12.8,14.88,15.98,23.43,29.35,46.78,48.63,51.82,54.7,57.65,59.33
+timeline_diffs_csv: 0,1,0,1,2,3,2,1,0,1,0,1,2,1
+timeline_home_goals_csv: 0,1,1,2,3,4,4,4,4,5,5,6,7,7
+timeline_away_goals_csv: 0,0,1,1,1,1,2,3,4,4,5,5,5,6
+home_goal_minutes_csv: 8.87,12.8,14.88,15.98,48.63,54.7,57.65
+home_goal_diffs_csv: 1,1,2,3,1,1,2
+away_goal_minutes_csv: 10.98,23.43,29.35,46.78,51.82,59.33
+away_goal_diffs_csv: 0,2,1,0,0,1
+home_penalty_minutes_csv: 28.13
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 29.35
+away_penalty_minutes_csv: 19.17
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 21.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

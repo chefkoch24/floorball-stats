@@ -6,6 +6,26 @@ type: game
 game_id: 43529
 home_team: Berlin Rockets
 away_team: UHC Sparkasse Weißenfels
+start_time: 18:00
+result_string: 3:12
+ingame_status: period3
+timeline_minutes_csv: 0.0,0.85,3.12,13.27,14.3,16.08,20.63,30.18,32.33,32.48,33.18,36.38,48.67,58.18,59.55,59.95
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-7,-8,-7,-8,-9,-10,-9
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,8,9,9,10,11,12,12
+home_goal_minutes_csv: 20.63,36.38,59.95
+home_goal_diffs_csv: -4,-7,-9
+away_goal_minutes_csv: 0.85,3.12,13.27,14.3,16.08,30.18,32.33,32.48,33.18,48.67,58.18,59.55
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-7,-8,-8,-9,-10
+home_penalty_minutes_csv: 22.93
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 24.93
+away_penalty_minutes_csv: 20.0,58.72
+away_penalty_goals_csv: 5,11
+away_penalty_ends_csv: 20.63,59.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

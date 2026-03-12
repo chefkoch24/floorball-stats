@@ -6,6 +6,26 @@ type: game
 game_id: 1218438
 home_team: FBC Liberec
 away_team: Florbal Ústí
+start_time: nan
+result_string: 7:3
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.2,9.55,41.32,48.27,49.68,54.98,56.48,81.13,87.03,99.93
+timeline_diffs_csv: 0,1,0,1,2,1,2,3,4,3,4
+timeline_home_goals_csv: 0,1,1,2,3,3,4,5,6,6,7
+timeline_away_goals_csv: 0,0,1,1,1,2,2,2,2,3,3
+home_goal_minutes_csv: 4.2,41.32,48.27,54.98,56.48,81.13,99.93
+home_goal_diffs_csv: 1,1,2,2,3,4,4
+away_goal_minutes_csv: 9.55,49.68,87.03
+away_goal_diffs_csv: 0,1,3
+home_penalty_minutes_csv: 57.93,86.43
+home_penalty_goals_csv: 5,6
+home_penalty_ends_csv: 59.93,87.03
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.93
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

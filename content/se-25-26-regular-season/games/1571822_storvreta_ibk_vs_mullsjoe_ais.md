@@ -6,6 +6,26 @@ type: game
 game_id: 1571822
 home_team: Storvreta IBK
 away_team: Mullsjö AIS
+start_time: 16:00:00
+result_string: 7-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.62,11.85,22.62,31.42,33.3,33.77,43.25,44.45,47.22,48.67,56.45
+timeline_diffs_csv: 0,-1,0,1,0,1,2,1,2,3,4,3
+timeline_home_goals_csv: 0,0,1,2,2,3,4,4,5,6,7,7
+timeline_away_goals_csv: 0,1,1,1,2,2,2,3,3,3,3,4
+home_goal_minutes_csv: 11.85,22.62,33.3,33.77,44.45,47.22,48.67
+home_goal_diffs_csv: 0,1,1,2,2,3,4
+away_goal_minutes_csv: 10.62,31.42,43.25,56.45
+away_goal_diffs_csv: -1,0,1,3
+home_penalty_minutes_csv: 14.13
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 16.13
+away_penalty_minutes_csv: 43.97,58.5
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 44.45,60.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.5
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

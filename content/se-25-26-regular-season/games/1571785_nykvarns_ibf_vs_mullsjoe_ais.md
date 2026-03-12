@@ -6,6 +6,26 @@ type: game
 game_id: 1571785
 home_team: Nykvarns IBF
 away_team: Mullsjö AIS
+start_time: 16:00:00
+result_string: 8-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.4,12.0,13.65,15.53,22.78,23.62,27.23,28.6,33.58,33.83,40.22,41.98,53.9,55.22,58.03
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,-1,0,-1,0,1,2,1,2,1
+timeline_home_goals_csv: 0,1,1,1,1,2,3,3,4,4,5,6,7,7,8,8
+timeline_away_goals_csv: 0,0,1,2,3,3,3,4,4,5,5,5,5,6,6,7
+home_goal_minutes_csv: 6.4,22.78,23.62,28.6,33.83,40.22,41.98,55.22
+home_goal_diffs_csv: 1,-1,0,0,0,1,2,2
+away_goal_minutes_csv: 12.0,13.65,15.53,27.23,33.58,53.9,58.03
+away_goal_diffs_csv: 0,-1,-2,-1,-1,1,1
+home_penalty_minutes_csv: 13.63,13.63,52.5,55.6
+home_penalty_goals_csv: 1,1,7,8
+home_penalty_ends_csv: 13.65,13.65,53.9,57.6
+away_penalty_minutes_csv: 28.28,47.3
+away_penalty_goals_csv: 4,5
+away_penalty_ends_csv: 28.6,49.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

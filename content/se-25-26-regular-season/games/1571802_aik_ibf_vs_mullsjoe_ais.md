@@ -6,6 +6,26 @@ type: game
 game_id: 1571802
 home_team: AIK IBF
 away_team: Mullsjö AIS
+start_time: 19:00:00
+result_string: 6-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.22,4.88,6.2,8.75,10.4,10.8,24.68,35.85,41.22,47.22
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,1,0,1,0
+timeline_home_goals_csv: 0,0,1,2,2,2,3,4,4,5,5
+timeline_away_goals_csv: 0,1,1,1,2,3,3,3,4,4,5
+home_goal_minutes_csv: 4.88,6.2,10.8,24.68,41.22
+home_goal_diffs_csv: 0,1,0,1,1
+away_goal_minutes_csv: 0.22,8.75,10.4,35.85,47.22
+away_goal_diffs_csv: -1,0,-1,0,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 31.9,40.0
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 33.9,41.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

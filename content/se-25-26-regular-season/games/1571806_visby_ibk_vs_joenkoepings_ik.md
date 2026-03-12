@@ -6,6 +6,26 @@ type: game
 game_id: 1571806
 home_team: Visby IBK
 away_team: Jönköpings IK
+start_time: 18:30:00
+result_string: 6-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.68,25.95,30.58,37.33,38.27,42.52
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2
+timeline_home_goals_csv: 0,0,0,1,2,3,4
+timeline_away_goals_csv: 0,1,2,2,2,2,2
+home_goal_minutes_csv: 30.58,37.33,38.27,42.52
+home_goal_diffs_csv: -1,0,1,2
+away_goal_minutes_csv: 8.68,25.95
+away_goal_diffs_csv: -1,-2
+home_penalty_minutes_csv: 6.72,24.72
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 8.68,25.95
+away_penalty_minutes_csv: 38.88,53.5
+away_penalty_goals_csv: 2,2
+away_penalty_ends_csv: 40.88,55.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

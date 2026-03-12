@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-ols-12-10-2025
 home_team: FBC Turku
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.62,15.85,19.92,21.67,34.65,51.97,54.3,56.88,65.0
+timeline_diffs_csv: 0,1,2,1,0,1,0,1,0,1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,4,4,5
+timeline_away_goals_csv: 0,0,0,1,2,2,3,3,4,4
+home_goal_minutes_csv: 8.62,15.85,34.65,54.3,65.0
+home_goal_diffs_csv: 1,2,1,1,1
+away_goal_minutes_csv: 19.92,21.67,51.97,56.88
+away_goal_diffs_csv: 1,0,0,0
+home_penalty_minutes_csv: 19.0,50.17,54.98
+home_penalty_goals_csv: 2,3,4
+home_penalty_ends_csv: 19.92,51.97,56.88
+away_penalty_minutes_csv: 13.88,17.4
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 15.85,19.4
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

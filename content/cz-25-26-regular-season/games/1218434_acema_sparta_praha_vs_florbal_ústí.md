@@ -6,6 +6,26 @@ type: game
 game_id: 1218434
 home_team: ACEMA Sparta Praha
 away_team: Florbal Ústí
+start_time: nan
+result_string: 15:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.7,11.63,18.67,19.42,43.78,45.77,49.02,50.33,53.9,82.43,82.72,87.03,87.48,89.07,89.6,90.98,93.25,97.6,99.12
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,6,7,8,7,8,9,10,9,10,9,10,11
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,7,8,9,9,10,11,12,12,13,13,14,15
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,3,3,4,4,4
+home_goal_minutes_csv: 2.7,11.63,18.67,19.42,45.77,49.02,50.33,53.9,82.43,87.03,87.48,89.07,90.98,97.6,99.12
+home_goal_diffs_csv: 1,2,3,4,4,5,6,7,8,8,9,10,10,10,11
+away_goal_minutes_csv: 43.78,82.72,89.6,93.25
+away_goal_diffs_csv: 3,7,9,9
+home_penalty_minutes_csv: 41.7
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 43.7
+away_penalty_minutes_csv: 18.3,53.47,54.18,85.55
+away_penalty_goals_csv: 0,1,1,2
+away_penalty_ends_csv: 18.67,53.9,56.18,87.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.12
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

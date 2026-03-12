@@ -6,6 +6,26 @@ type: game
 game_id: 1073898
 home_team: UHC Uster
 away_team: WASA St. Gallen
+start_time: 18:00
+result_string: 7:6 (3:1, 1:2, 3:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.23,3.58,16.77,18.85,21.17,22.37,32.35,40.35,43.27,44.43,50.85,51.03,51.9
+timeline_diffs_csv: 0,-1,0,1,2,3,2,1,2,1,0,1,2,1
+timeline_home_goals_csv: 0,0,1,2,3,4,4,4,5,5,5,6,7,7
+timeline_away_goals_csv: 0,1,1,1,1,1,2,3,3,4,5,5,5,6
+home_goal_minutes_csv: 3.58,16.77,18.85,21.17,40.35,50.85,51.03
+home_goal_diffs_csv: 0,1,2,3,2,1,2
+away_goal_minutes_csv: 3.23,22.37,32.35,43.27,44.43,51.9
+away_goal_diffs_csv: -1,2,1,1,0,1
+home_penalty_minutes_csv: 24.43,30.93
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 26.43,32.35
+away_penalty_minutes_csv: 1.82,17.42
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 3.58,18.85
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

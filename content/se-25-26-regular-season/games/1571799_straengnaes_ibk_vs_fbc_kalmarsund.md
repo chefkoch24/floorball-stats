@@ -6,6 +6,26 @@ type: game
 game_id: 1571799
 home_team: Strängnäs IBK
 away_team: FBC Kalmarsund
+start_time: 19:00:00
+result_string: 4-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.65,14.3,16.85,17.2,31.97,34.72,37.93,42.97,46.15,56.42
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-3,-2
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,3,4
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,6,6
+home_goal_minutes_csv: 34.72,42.97,46.15,56.42
+home_goal_diffs_csv: -4,-4,-3,-2
+away_goal_minutes_csv: 1.65,14.3,16.85,17.2,31.97,37.93
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5
+home_penalty_minutes_csv: 4.77,13.37,36.47,46.62
+home_penalty_goals_csv: 0,0,1,3
+home_penalty_ends_csv: 6.77,14.3,37.93,48.62
+away_penalty_minutes_csv: 24.7,27.07,42.62,45.65,46.62
+away_penalty_goals_csv: 4,4,6,6,6
+away_penalty_ends_csv: 26.7,29.07,42.97,46.15,48.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

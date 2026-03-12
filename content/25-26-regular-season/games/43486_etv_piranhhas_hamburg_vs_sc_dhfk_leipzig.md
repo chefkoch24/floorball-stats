@@ -6,6 +6,26 @@ type: game
 game_id: 43486
 home_team: ETV Piranhhas Hamburg
 away_team: SC DHfK Leipzig
+start_time: 16:00
+result_string: 7:8
+ingame_status: period3
+timeline_minutes_csv: 0.0,6.0,7.78,10.4,21.35,21.8,22.38,25.53,33.45,39.48,42.25,47.5,48.9,52.28,52.52,59.85
+timeline_diffs_csv: 0,1,2,1,0,1,0,1,2,1,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,4,5,5,6,6,6,7,7,7
+timeline_away_goals_csv: 0,0,0,1,2,2,3,3,3,4,4,5,6,6,7,8
+home_goal_minutes_csv: 6.0,7.78,21.8,25.53,33.45,42.25,52.28
+home_goal_diffs_csv: 1,2,1,1,2,2,1
+away_goal_minutes_csv: 10.4,21.35,22.38,39.48,47.5,48.9,52.52,59.85
+away_goal_diffs_csv: 1,0,0,1,1,0,0,-1
+home_penalty_minutes_csv: 22.38,37.47,55.97
+home_penalty_goals_csv: 3,5,7
+home_penalty_ends_csv: 22.38,39.47,57.97
+away_penalty_minutes_csv: 23.82
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 25.53
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

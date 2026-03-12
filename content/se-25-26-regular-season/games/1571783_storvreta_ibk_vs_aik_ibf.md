@@ -6,6 +6,26 @@ type: game
 game_id: 1571783
 home_team: Storvreta IBK
 away_team: AIK IBF
+start_time: 18:30:00
+result_string: 7-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,13.63,14.65,15.53,17.52,20.22,20.93,35.57,41.62
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,6
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,7
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,1
+home_goal_minutes_csv: 13.63,14.65,17.52,20.22,20.93,35.57,41.62
+home_goal_diffs_csv: 1,2,2,3,4,5,6
+away_goal_minutes_csv: 15.53
+away_goal_diffs_csv: 1
+home_penalty_minutes_csv: 55.42
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 57.42
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

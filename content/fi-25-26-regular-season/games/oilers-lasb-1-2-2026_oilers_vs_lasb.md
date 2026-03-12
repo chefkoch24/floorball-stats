@@ -6,6 +6,26 @@ type: game
 game_id: oilers-lasb-1-2-2026
 home_team: Oilers
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.62,3.52,6.58,12.82,18.9,23.93,24.93,29.03,29.67,37.08,39.9,42.28,45.72,47.68,53.63,56.93,58.6
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,9,10,9,10,11,12,11,12,11
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,10,10,11,12,13,13,14,14
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,3
+home_goal_minutes_csv: 1.62,3.52,6.58,12.82,18.9,23.93,24.93,29.03,29.67,37.08,42.28,45.72,47.68,56.93
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8,9,10,10,11,12,12
+away_goal_minutes_csv: 39.9,53.63,58.6
+away_goal_diffs_csv: 9,11,11
+home_penalty_minutes_csv: 39.05
+home_penalty_goals_csv: 10
+home_penalty_ends_csv: 39.9
+away_penalty_minutes_csv: 24.47,37.53,45.15
+away_penalty_goals_csv: 0,0,1
+away_penalty_ends_csv: 24.93,39.53,45.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

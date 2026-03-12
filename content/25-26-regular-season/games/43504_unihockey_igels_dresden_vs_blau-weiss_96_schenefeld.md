@@ -6,6 +6,26 @@ type: game
 game_id: 43504
 home_team: Unihockey Igels Dresden
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 15:00
+result_string: 7:8 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,10.93,11.3,12.32,13.42,19.7,23.5,30.37,32.03,40.47,50.1,51.0,54.1,54.65,55.93,66.28
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,-1,0,-1,-2,-1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,2,2,2,3,3,4,4,4,5,6,7,7,7
+timeline_away_goals_csv: 0,1,1,1,2,3,3,4,4,5,6,6,6,6,7,8
+home_goal_minutes_csv: 11.3,12.32,23.5,32.03,51.0,54.1,54.65
+home_goal_diffs_csv: 0,1,0,0,-1,0,1
+away_goal_minutes_csv: 10.93,13.42,19.7,30.37,40.47,50.1,55.93,66.28
+away_goal_diffs_csv: -1,0,-1,-1,-1,-2,0,-1
+home_penalty_minutes_csv: 10.45,29.23,34.88,55.78,56.38
+home_penalty_goals_csv: 0,3,4,7,7
+home_penalty_ends_csv: 10.93,30.37,36.88,55.93,58.38
+away_penalty_minutes_csv: 53.72
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 54.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 66.28
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

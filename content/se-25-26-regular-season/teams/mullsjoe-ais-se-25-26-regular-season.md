@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: Mullsjö AIS
 Category: se-25-26-regular-season, teams
 Slug: mullsjoe-ais-se-25-26-regular-season-se-25-26-regular-season

@@ -6,6 +6,26 @@ type: game
 game_id: 1218366
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: FBC 4CLEAN Česká Lípa
+start_time: nan
+result_string: 8:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.7,9.47,16.53,49.83,50.83,51.93,83.17,86.75,89.62,94.15,97.12,98.5,99.08
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,2,1,2,3,2,3
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,5,5,6,7,7,8
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,3,4,4,4,5,5
+home_goal_minutes_csv: 16.53,49.83,50.83,51.93,83.17,94.15,97.12,99.08
+home_goal_diffs_csv: -1,0,1,2,3,2,3,3
+away_goal_minutes_csv: 6.7,9.47,86.75,89.62,98.5
+away_goal_diffs_csv: -1,-2,2,1,2
+home_penalty_minutes_csv: 5.22,8.55,95.63
+home_penalty_goals_csv: 0,0,6
+home_penalty_ends_csv: 6.7,9.47,97.63
+away_penalty_minutes_csv: 15.92,48.47,95.63
+away_penalty_goals_csv: 2,2,4
+away_penalty_ends_csv: 16.53,49.83,97.12
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.08
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

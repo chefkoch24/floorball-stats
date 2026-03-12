@@ -6,6 +6,26 @@ type: game
 game_id: 1073855
 home_team: Zug United
 away_team: WASA St. Gallen
+start_time: 20:00
+result_string: 9:4 (1:3, 3:0, 5:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.37,7.38,8.43,15.2,26.87,31.12,35.8,44.35,45.17,47.17,51.12,57.35,57.35
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,1,2,1,2,3,4,5
+timeline_home_goals_csv: 0,0,1,1,1,2,3,4,5,5,6,7,8,9
+timeline_away_goals_csv: 0,1,1,2,3,3,3,3,3,4,4,4,4,4
+home_goal_minutes_csv: 7.38,26.87,31.12,35.8,44.35,47.17,51.12,57.35,57.35
+home_goal_diffs_csv: 0,-1,0,1,2,2,3,4,5
+away_goal_minutes_csv: 5.37,8.43,15.2,45.17
+away_goal_diffs_csv: -1,-1,-2,1
+home_penalty_minutes_csv: 44.35,52.95
+home_penalty_goals_csv: 5,7
+home_penalty_ends_csv: 45.17,54.95
+away_penalty_minutes_csv: 30.93,44.35
+away_penalty_goals_csv: 3,3
+away_penalty_ends_csv: 31.12,44.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

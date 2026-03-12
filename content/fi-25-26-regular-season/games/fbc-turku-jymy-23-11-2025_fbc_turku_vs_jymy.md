@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-jymy-23-11-2025
 home_team: FBC Turku
 away_team: Jymy
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.5,10.8,19.92,24.9,28.25,36.55,37.3,43.2,48.02,48.3,55.92
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-4,-5,-6,-5,-6,-7
+timeline_home_goals_csv: 0,0,1,1,1,1,1,1,1,2,2,2
+timeline_away_goals_csv: 0,1,1,2,3,4,5,6,7,7,8,9
+home_goal_minutes_csv: 10.8,48.02
+home_goal_diffs_csv: 0,-5
+away_goal_minutes_csv: 6.5,19.92,24.9,28.25,36.55,37.3,43.2,48.3,55.92
+away_goal_diffs_csv: -1,-1,-2,-3,-4,-5,-6,-6,-7
+home_penalty_minutes_csv: 34.9,42.67
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 36.55,43.2
+away_penalty_minutes_csv: 10.38,46.32,55.7
+away_penalty_goals_csv: 1,7,8
+away_penalty_ends_csv: 10.8,48.02,57.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

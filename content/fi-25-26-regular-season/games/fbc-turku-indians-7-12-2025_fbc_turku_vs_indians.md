@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-indians-7-12-2025
 home_team: FBC Turku
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.95,11.47,20.57,23.53,34.57,37.12,39.07,47.93,58.68
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,0,1,1,1,1,1,1,1,1
+timeline_away_goals_csv: 0,1,1,2,3,4,5,6,7,8
+home_goal_minutes_csv: 11.47
+home_goal_diffs_csv: 0
+away_goal_minutes_csv: 8.95,20.57,23.53,34.57,37.12,39.07,47.93,58.68
+away_goal_diffs_csv: -1,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 34.53,47.23
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 34.57,47.93
+away_penalty_minutes_csv: 59.47
+away_penalty_goals_csv: 8
+away_penalty_ends_csv: 61.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.47
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

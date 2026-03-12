@@ -6,6 +6,26 @@ type: game
 game_id: spv-ols-19-10-2025
 home_team: SPV
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.45,7.95,15.58,25.15,44.63,54.0,54.28,54.8,56.63
+timeline_diffs_csv: 0,1,2,3,2,3,4,5,6,5
+timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7,7
+timeline_away_goals_csv: 0,0,0,0,1,1,1,1,1,2
+home_goal_minutes_csv: 3.45,7.95,15.58,44.63,54.0,54.28,54.8
+home_goal_diffs_csv: 1,2,3,3,4,5,6
+away_goal_minutes_csv: 25.15,56.63
+away_goal_diffs_csv: 2,5
+home_penalty_minutes_csv: 9.53,27.1,33.83
+home_penalty_goals_csv: 2,3,3
+home_penalty_ends_csv: 11.53,29.1,35.83
+away_penalty_minutes_csv: 35.8
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 37.8
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

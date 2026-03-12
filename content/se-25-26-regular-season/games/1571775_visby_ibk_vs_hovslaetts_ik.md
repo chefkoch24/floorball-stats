@@ -6,6 +6,26 @@ type: game
 game_id: 1571775
 home_team: Visby IBK
 away_team: Hovslätts IK
+start_time: 18:30:00
+result_string: 6-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.27,6.95,11.25,13.1,17.35,22.53,51.43,56.92,57.45,58.0,62.08
+timeline_diffs_csv: 0,-1,0,-1,0,1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3,3,3,4,4,5,6
+timeline_away_goals_csv: 0,1,1,2,2,2,3,4,4,5,5,5
+home_goal_minutes_csv: 6.95,13.1,17.35,56.92,58.0,62.08
+home_goal_diffs_csv: 0,0,1,0,0,1
+away_goal_minutes_csv: 5.27,11.25,22.53,51.43,57.45
+away_goal_diffs_csv: -1,-1,0,-1,-1
+home_penalty_minutes_csv: 39.03,44.65
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 41.03,46.65
+away_penalty_minutes_csv: 33.22
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 35.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.08
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

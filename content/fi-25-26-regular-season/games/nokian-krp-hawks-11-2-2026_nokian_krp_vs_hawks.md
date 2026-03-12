@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-hawks-11-2-2026
 home_team: Nokian KrP
 away_team: Hawks
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.72,23.93,24.65,44.98,51.47,51.85,58.95,59.87
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,4
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,2
+home_goal_minutes_csv: 23.93,24.65,44.98,51.85,58.95,59.87
+home_goal_diffs_csv: 0,1,2,2,3,4
+away_goal_minutes_csv: 1.72,51.47
+away_goal_diffs_csv: -1,1
+home_penalty_minutes_csv: 59.7
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 61.7
+away_penalty_minutes_csv: 58.2
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 58.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.7
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

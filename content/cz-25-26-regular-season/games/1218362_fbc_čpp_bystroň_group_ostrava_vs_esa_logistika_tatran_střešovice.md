@@ -6,6 +6,26 @@ type: game
 game_id: 1218362
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 3:9
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.0,10.9,19.95,51.58,54.95,59.58,89.83,90.37,91.28,92.95,97.48,98.43
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-3,-4,-3,-4,-5,-6
+timeline_home_goals_csv: 0,1,2,2,2,2,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,0,0,1,2,3,4,5,6,6,7,8,9
+home_goal_minutes_csv: 10.0,10.9,91.28
+home_goal_diffs_csv: 1,2,-3
+away_goal_minutes_csv: 19.95,51.58,54.95,59.58,89.83,90.37,92.95,97.48,98.43
+away_goal_diffs_csv: 1,0,-1,-2,-3,-4,-4,-5,-6
+home_penalty_minutes_csv: 14.12,19.85
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 16.12,19.95
+away_penalty_minutes_csv: 53.52
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 55.52
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.43
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

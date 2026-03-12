@@ -6,6 +6,26 @@ type: game
 game_id: 1218494
 home_team: Kanonýři Kladno
 away_team: FBC Liberec
+start_time: nan
+result_string: 7:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.13,6.78,10.53,13.37,47.33,49.95,50.88,57.98,93.08,94.08,96.2,98.27,98.67
+timeline_diffs_csv: 0,-1,0,-1,0,1,0,-1,-2,-1,0,1,0,2
+timeline_home_goals_csv: 0,0,1,1,2,3,3,3,3,4,5,6,0,7
+timeline_away_goals_csv: 0,1,1,2,2,2,3,4,5,5,5,5,0,5
+home_goal_minutes_csv: 6.78,13.37,47.33,93.08,94.08,96.2,98.27,98.67
+home_goal_diffs_csv: 0,0,1,-1,0,1,0,2
+away_goal_minutes_csv: 5.13,10.53,49.95,50.88,57.98
+away_goal_diffs_csv: -1,-1,0,-1,-2
+home_penalty_minutes_csv: 4.72,16.95,49.08
+home_penalty_goals_csv: 0,2,3
+home_penalty_ends_csv: 5.13,18.95,49.95
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.67
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571789
 home_team: Linköping IBK
 away_team: Strängnäs IBK
+start_time: 14:00:00
+result_string: 8-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.22,6.47,10.87,11.82,15.65,18.58,19.43,44.18,45.1,49.0,58.83,59.97
+timeline_diffs_csv: 0,1,0,-1,0,1,0,-1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,1,2,3,3,3,4,5,6,7,8
+timeline_away_goals_csv: 0,0,1,2,2,2,3,4,4,4,4,4,4
+home_goal_minutes_csv: 3.22,11.82,15.65,44.18,45.1,49.0,58.83,59.97
+home_goal_diffs_csv: 1,0,1,0,1,2,3,4
+away_goal_minutes_csv: 6.47,10.87,18.58,19.43
+away_goal_diffs_csv: 0,-1,0,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571933
 home_team: Mullsjö AIS
 away_team: FBC Kalmarsund
+start_time: 16:00:00
+result_string: 3-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.25,3.68,10.13,28.18,47.02,53.65,59.42
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-1
+timeline_home_goals_csv: 0,1,2,2,2,2,2,3
+timeline_away_goals_csv: 0,0,0,1,2,3,4,4
+home_goal_minutes_csv: 2.25,3.68,59.42
+home_goal_diffs_csv: 1,2,-1
+away_goal_minutes_csv: 10.13,28.18,47.02,53.65
+away_goal_diffs_csv: 1,0,-1,-2
+home_penalty_minutes_csv: 9.45,15.1
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 10.13,17.1
+away_penalty_minutes_csv: 56.1
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 58.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

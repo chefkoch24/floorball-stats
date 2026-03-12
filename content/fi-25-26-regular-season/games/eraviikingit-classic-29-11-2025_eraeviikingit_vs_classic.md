@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-classic-29-11-2025
 home_team: EräViikingit
 away_team: Classic
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.15,18.43,31.87,32.22,36.52,43.17,44.73,45.22,45.63,48.62,55.95
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3,-4,-3,-4,-5
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2,2,3,3,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5,6,6,7,8
+home_goal_minutes_csv: 43.17,44.73,45.63
+home_goal_diffs_csv: -4,-3,-3
+away_goal_minutes_csv: 15.15,18.43,31.87,32.22,36.52,45.22,48.62,55.95
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-4,-4,-5
+home_penalty_minutes_csv: 26.2,47.05
+home_penalty_goals_csv: 0,3
+home_penalty_ends_csv: 28.2,48.62
+away_penalty_minutes_csv: 6.15
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 8.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: classic-oilers-11-1-2026
 home_team: Classic
 away_team: Oilers
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.92,7.05,10.82,12.8,23.12,26.78,33.82,35.47,41.67,45.18,51.42,52.1,52.53,54.22,56.6
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,1,2,3,4,3,4,3,4,3
+timeline_home_goals_csv: 0,0,0,1,2,3,4,4,5,6,7,7,8,8,9,9
+timeline_away_goals_csv: 0,1,2,2,2,2,2,3,3,3,3,4,4,5,5,6
+home_goal_minutes_csv: 10.82,12.8,23.12,26.78,35.47,41.67,45.18,52.1,54.22
+home_goal_diffs_csv: -1,0,1,2,2,3,4,4,4
+away_goal_minutes_csv: 2.92,7.05,33.82,51.42,52.53,56.6
+away_goal_diffs_csv: -1,-2,1,3,3,3
+home_penalty_minutes_csv: 51.12
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 51.42
+away_penalty_minutes_csv: 11.72,57.77
+away_penalty_goals_csv: 2,6
+away_penalty_ends_csv: 12.8,59.77
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

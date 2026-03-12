@@ -6,6 +6,26 @@ type: game
 game_id: 1218439
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: TJ Sokol Královské Vinohrady
+start_time: nan
+result_string: 5:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,51.27,53.27,58.68,59.68,85.07,87.68,88.28,93.25,97.33,99.43,99.52,99.52
+timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,1,0,0,0
+timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,5,5,0,0
+timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,4,5,0,0
+home_goal_minutes_csv: 51.27,58.68,59.68,85.07,88.28,99.52,99.52
+home_goal_diffs_csv: 1,1,2,3,3,0,0
+away_goal_minutes_csv: 53.27,87.68,93.25,97.33,99.43
+away_goal_diffs_csv: 0,2,2,1,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 122.02
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 124.02
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 124.02
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073908
 home_team: Unihockey Basel Regio
 away_team: UHC Uster
+start_time: 18:00
+result_string: 7:8 (3:1, 3:1, 1:6)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.23,0.9,4.35,18.22,21.77,32.0,35.2,39.98,40.62,41.1,48.38,51.75,53.67,58.48,58.85
+timeline_diffs_csv: 0,1,2,3,2,3,4,3,4,3,2,1,0,-1,-2,-1
+timeline_home_goals_csv: 0,1,2,3,3,4,5,5,6,6,6,6,6,6,6,7
+timeline_away_goals_csv: 0,0,0,0,1,1,1,2,2,3,4,5,6,7,8,8
+home_goal_minutes_csv: 0.23,0.9,4.35,21.77,32.0,39.98,58.85
+home_goal_diffs_csv: 1,2,3,3,4,4,-1
+away_goal_minutes_csv: 18.22,35.2,40.62,41.1,48.38,51.75,53.67,58.48
+away_goal_diffs_csv: 2,3,3,2,1,0,-1,-2
+home_penalty_minutes_csv: 16.9,51.1
+home_penalty_goals_csv: 3,6
+home_penalty_ends_csv: 18.22,51.75
+away_penalty_minutes_csv: 14.3,15.98,38.08
+away_penalty_goals_csv: 0,0,2
+away_penalty_ends_csv: 16.3,17.98,39.98
+home_major_penalty_minutes_csv: 47.17
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

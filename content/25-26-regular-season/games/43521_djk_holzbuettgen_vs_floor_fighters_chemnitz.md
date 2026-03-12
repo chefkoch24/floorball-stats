@@ -6,6 +6,26 @@ type: game
 game_id: 43521
 home_team: DJK Holzbüttgen
 away_team: Floor Fighters Chemnitz
+start_time: 18:30
+result_string: 6:5 n. PS
+ingame_status: penalty_shots
+timeline_minutes_csv: 0.0,11.23,11.73,13.13,20.85,21.0,29.05,32.32,49.45,51.2,55.45
+timeline_diffs_csv: 0,1,0,-1,0,1,0,1,0,1,0
+timeline_home_goals_csv: 0,1,1,1,2,3,3,4,4,5,5
+timeline_away_goals_csv: 0,0,1,2,2,2,3,3,4,4,5
+home_goal_minutes_csv: 11.23,20.85,21.0,32.32,51.2
+home_goal_diffs_csv: 1,0,1,1,1
+away_goal_minutes_csv: 11.73,13.13,29.05,49.45,55.45
+away_goal_diffs_csv: 0,-1,0,0,0
+home_penalty_minutes_csv: 12.88,53.23
+home_penalty_goals_csv: 1,5
+home_penalty_ends_csv: 13.13,55.23
+away_penalty_minutes_csv: 19.32,46.37,50.45
+away_penalty_goals_csv: 2,3,4
+away_penalty_ends_csv: 20.85,48.37,51.2
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

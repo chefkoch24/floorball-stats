@@ -6,6 +6,26 @@ type: game
 game_id: 1218460
 home_team: ESA logistika Tatran Střešovice
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 7:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,43.4,43.68,47.92,52.0,53.85,55.22,57.68,59.65,80.63,82.88,93.37,98.8
+timeline_diffs_csv: 0,-1,-2,-1,0,1,0,-1,0,-1,0,-1,0
+timeline_home_goals_csv: 0,0,0,1,2,3,3,3,4,4,5,5,6
+timeline_away_goals_csv: 0,1,2,2,2,2,3,4,4,5,5,6,6
+home_goal_minutes_csv: 47.92,52.0,53.85,59.65,82.88,98.8
+home_goal_diffs_csv: -1,0,1,0,0,0
+away_goal_minutes_csv: 43.4,43.68,55.22,57.68,80.63,93.37
+away_goal_diffs_csv: -1,-2,0,-1,-1,-1
+home_penalty_minutes_csv: 56.35,86.88
+home_penalty_goals_csv: 3,5
+home_penalty_ends_csv: 57.68,88.88
+away_penalty_minutes_csv: 81.67
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 82.88
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.8
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

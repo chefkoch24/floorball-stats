@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: ETV Piranhhas Hamburg
 Category: 25-26-regular-season, teams
 Slug: etv-piranhhas-hamburg-25-26-regular-season-25-26-regular-season

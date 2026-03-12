@@ -6,6 +6,26 @@ type: game
 game_id: 1571872
 home_team: Visby IBK
 away_team: IBF Falun
+start_time: 17:00:00
+result_string: 2-9
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.45,12.42,26.65,32.27,34.27,34.78,38.57,51.53,51.9,53.88,58.15
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,0,1,2,2,2,2,2,2,2,2,2
+timeline_away_goals_csv: 0,1,1,1,2,3,4,5,6,7,8,9
+home_goal_minutes_csv: 12.42,26.65
+home_goal_diffs_csv: 0,1
+away_goal_minutes_csv: 4.45,32.27,34.27,34.78,38.57,51.53,51.9,53.88,58.15
+away_goal_diffs_csv: -1,0,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 40.37
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 42.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

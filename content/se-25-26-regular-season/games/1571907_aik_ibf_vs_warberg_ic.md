@@ -6,6 +6,26 @@ type: game
 game_id: 1571907
 home_team: AIK IBF
 away_team: Warberg IC
+start_time: 15:00:00
+result_string: 7-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.28,3.97,6.57,12.22,13.93,20.67,22.98,24.37,27.18,28.43,36.65,37.35,57.35
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,-1,0,1,2,1,0,1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,3,4,5,6,6,6,7
+timeline_away_goals_csv: 0,1,2,2,2,3,3,4,4,4,4,5,6,6
+home_goal_minutes_csv: 6.57,12.22,20.67,24.37,27.18,28.43,57.35
+home_goal_diffs_csv: -1,0,0,0,1,2,1
+away_goal_minutes_csv: 0.28,3.97,13.93,22.98,36.65,37.35
+away_goal_diffs_csv: -1,-2,-1,-1,1,0
+home_penalty_minutes_csv: 34.48,49.98
+home_penalty_goals_csv: 6,6
+home_penalty_ends_csv: 36.48,51.98
+away_penalty_minutes_csv: 49.98
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 51.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

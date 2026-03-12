@@ -6,6 +6,26 @@ type: game
 game_id: 1218495
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 5:10
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.87,8.02,18.77,44.18,50.7,51.38,53.23,53.8,54.32,55.95,56.25,84.72,90.85,95.4,96.15,97.2
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,0,-4,-5,-6,-7,-6,-5,-6,-5
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,0,2,2,2,2,3,4,4,5
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,0,6,7,8,9,9,9,10,10
+home_goal_minutes_csv: 51.38,54.32,90.85,95.4,97.2
+home_goal_diffs_csv: -4,-4,-6,-5,-5
+away_goal_minutes_csv: 6.87,8.02,18.77,44.18,50.7,53.23,53.8,55.95,56.25,84.72,96.15
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,0,-5,-6,-7,-6
+home_penalty_minutes_csv: 46.7,84.47
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 48.7,84.72
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.2
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

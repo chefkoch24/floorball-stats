@@ -6,6 +6,26 @@ type: game
 game_id: 1571813
 home_team: Mullsjö AIS
 away_team: Pixbo IBK
+start_time: 18:30:00
+result_string: 3-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,18.9,22.4,25.42,28.52,29.75,33.7
+timeline_diffs_csv: 0,-1,0,1,0,-1,0
+timeline_home_goals_csv: 0,0,1,2,2,2,3
+timeline_away_goals_csv: 0,1,1,1,2,3,3
+home_goal_minutes_csv: 22.4,25.42,33.7
+home_goal_diffs_csv: 0,1,0
+away_goal_minutes_csv: 18.9,28.52,29.75
+away_goal_diffs_csv: -1,0,-1
+home_penalty_minutes_csv: 11.2,25.42
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 13.2,27.42
+away_penalty_minutes_csv: 25.42,32.28
+away_penalty_goals_csv: 1,3
+away_penalty_ends_csv: 25.42,33.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

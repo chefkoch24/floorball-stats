@@ -6,6 +6,26 @@ type: game
 game_id: 43482
 home_team: DJK Holzbüttgen
 away_team: ETV Piranhhas Hamburg
+start_time: 16:00
+result_string: 5:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.17,6.2,13.82,15.48,20.42,23.57,25.93,31.9,35.18,36.77,45.72,53.95,55.45,58.53
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1,-2,-3,-4,-3,-4,-5,-4
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3,3,3,3,4,4,4,5
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4,5,6,7,7,8,9,9
+home_goal_minutes_csv: 15.48,20.42,23.57,45.72,58.53
+home_goal_diffs_csv: -2,-1,0,-3,-4
+away_goal_minutes_csv: 1.17,6.2,13.82,25.93,31.9,35.18,36.77,53.95,55.45
+away_goal_diffs_csv: -1,-2,-3,-1,-2,-3,-4,-4,-5
+home_penalty_minutes_csv: 35.83
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 36.77
+away_penalty_minutes_csv: 22.93,28.62,40.95,56.45,59.98
+away_penalty_goals_csv: 3,4,7,9,9
+away_penalty_ends_csv: 23.57,30.62,42.95,58.45,61.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.98
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

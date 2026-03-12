@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-classic-13-12-2025
 home_team: Nokian KrP
 away_team: Classic
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.63,8.35,10.18,13.48,24.68,38.5,41.2,46.18,63.7
+timeline_diffs_csv: 0,-1,0,1,2,3,2,1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,4,4,4,4,5
+timeline_away_goals_csv: 0,1,1,1,1,1,2,3,4,4
+home_goal_minutes_csv: 8.35,10.18,13.48,24.68,63.7
+home_goal_diffs_csv: 0,1,2,3,1
+away_goal_minutes_csv: 7.63,38.5,41.2,46.18
+away_goal_diffs_csv: -1,2,1,0
+home_penalty_minutes_csv: 15.23
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 17.23
+away_penalty_minutes_csv: 16.13,63.7
+away_penalty_goals_csv: 1,4
+away_penalty_ends_csv: 18.13,63.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.7
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

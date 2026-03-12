@@ -6,6 +6,26 @@ type: game
 game_id: classic-hawks-25-9-2025
 home_team: Classic
 away_team: Hawks
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.37,4.78,10.3,19.28,20.35,22.42,22.97,25.47,26.4,30.97,32.32,38.6,52.55,54.6
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,12
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,13
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+home_goal_minutes_csv: 1.37,4.78,10.3,19.28,20.35,22.42,22.97,25.47,26.4,30.97,32.32,38.6,52.55
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8,9,10,11,12,13
+away_goal_minutes_csv: 54.6
+away_goal_diffs_csv: 12
+home_penalty_minutes_csv: 41.45,50.53
+home_penalty_goals_csv: 12,12
+home_penalty_ends_csv: 43.45,52.53
+away_penalty_minutes_csv: 10.67,39.7,50.53,51.85
+away_penalty_goals_csv: 0,0,0,0
+away_penalty_ends_csv: 12.67,41.7,52.53,52.55
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

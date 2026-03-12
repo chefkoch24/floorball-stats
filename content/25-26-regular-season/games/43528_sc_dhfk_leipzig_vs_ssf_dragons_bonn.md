@@ -6,6 +6,26 @@ type: game
 game_id: 43528
 home_team: SC DHfK Leipzig
 away_team: SSF Dragons Bonn
+start_time: 17:00
+result_string: 5:6 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,1.25,2.48,16.9,22.23,29.8,32.5,33.35,36.87,40.73,46.28,66.83
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,5,5
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,5,5,6
+home_goal_minutes_csv: 2.48,16.9,22.23,40.73,46.28
+home_goal_diffs_csv: 0,1,2,-1,0
+away_goal_minutes_csv: 1.25,29.8,32.5,33.35,36.87,66.83
+away_goal_diffs_csv: -1,1,0,-1,-2,-1
+home_penalty_minutes_csv: 12.67,32.25,34.42,61.63
+home_penalty_goals_csv: 1,3,3,5
+home_penalty_ends_csv: 14.67,32.5,36.42,63.63
+away_penalty_minutes_csv: 11.82,38.3,42.83
+away_penalty_goals_csv: 1,5,5
+away_penalty_ends_csv: 13.82,40.3,44.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 66.83
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

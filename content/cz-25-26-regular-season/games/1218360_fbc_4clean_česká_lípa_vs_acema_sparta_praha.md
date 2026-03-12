@@ -6,6 +6,26 @@ type: game
 game_id: 1218360
 home_team: FBC 4CLEAN Česká Lípa
 away_team: ACEMA Sparta Praha
+start_time: nan
+result_string: 4:9
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.03,8.97,17.23,43.63,49.8,53.37,54.67,54.98,81.45,84.97,88.4,92.48,92.8,99.25
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,0,-4,-3,-4,-5,-4,-5
+timeline_home_goals_csv: 0,1,1,1,2,2,2,2,0,2,3,3,3,4,4
+timeline_away_goals_csv: 0,0,1,2,2,3,4,5,0,6,6,7,8,8,9
+home_goal_minutes_csv: 3.03,43.63,84.97,92.8
+home_goal_diffs_csv: 1,0,-3,-4
+away_goal_minutes_csv: 8.97,17.23,49.8,53.37,54.67,54.98,81.45,88.4,92.48,99.25
+away_goal_diffs_csv: 0,-1,-1,-2,-3,0,-4,-4,-5,-5
+home_penalty_minutes_csv: 51.93,90.65
+home_penalty_goals_csv: 2,3
+home_penalty_ends_csv: 53.37,92.48
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.25
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

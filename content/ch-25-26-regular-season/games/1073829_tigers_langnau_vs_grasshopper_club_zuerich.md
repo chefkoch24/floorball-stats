@@ -6,6 +6,26 @@ type: game
 game_id: 1073829
 home_team: Tigers Langnau
 away_team: Grasshopper Club Zürich
+start_time: 19:00
+result_string: 7:3 (3:0, 0:2, 4:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.92,8.15,18.55,22.38,38.22,42.58,43.53,44.67,47.8,57.88
+timeline_diffs_csv: 0,1,2,3,2,1,2,3,2,3,4
+timeline_home_goals_csv: 0,1,2,3,3,3,4,5,5,6,7
+timeline_away_goals_csv: 0,0,0,0,1,2,2,2,3,3,3
+home_goal_minutes_csv: 2.92,8.15,18.55,42.58,43.53,47.8,57.88
+home_goal_diffs_csv: 1,2,3,2,3,3,4
+away_goal_minutes_csv: 22.38,38.22,44.67
+away_goal_diffs_csv: 2,1,2
+home_penalty_minutes_csv: 29.2
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 31.2
+away_penalty_minutes_csv: 6.9,33.6
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 8.15,35.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

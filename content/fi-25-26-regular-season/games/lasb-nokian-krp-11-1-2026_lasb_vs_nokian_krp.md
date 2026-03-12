@@ -6,6 +6,26 @@ type: game
 game_id: lasb-nokian-krp-11-1-2026
 home_team: LASB
 away_team: Nokian KrP
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.13,5.97,9.18,15.25,18.87,32.07,39.15,45.3,47.95,56.32,59.07
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-5,-6,-5,-6,-5
+timeline_home_goals_csv: 0,1,1,1,1,1,1,1,1,2,2,3
+timeline_away_goals_csv: 0,0,1,2,3,4,5,6,7,7,8,8
+home_goal_minutes_csv: 0.13,47.95,59.07
+home_goal_diffs_csv: 1,-5,-5
+away_goal_minutes_csv: 5.97,9.18,15.25,18.87,32.07,39.15,45.3,56.32
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-6
+home_penalty_minutes_csv: 44.58
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 45.3
+away_penalty_minutes_csv: 34.17,41.75,47.07
+away_penalty_goals_csv: 5,6,7
+away_penalty_ends_csv: 36.17,43.75,47.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

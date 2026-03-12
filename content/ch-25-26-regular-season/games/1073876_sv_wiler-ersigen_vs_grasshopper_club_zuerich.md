@@ -6,6 +6,26 @@ type: game
 game_id: 1073876
 home_team: SV Wiler-Ersigen
 away_team: Grasshopper Club Zürich
+start_time: 17:00
+result_string: 7:1 (0:0, 4:1, 3:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,28.98,32.75,34.07,35.8,39.0,47.77,57.67,58.55
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,6
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,7
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,1
+home_goal_minutes_csv: 28.98,32.75,34.07,35.8,47.77,57.67,58.55
+home_goal_diffs_csv: 1,2,3,4,4,5,6
+away_goal_minutes_csv: 39.0
+away_goal_diffs_csv: 3
+home_penalty_minutes_csv: 5.07,8.92,42.73
+home_penalty_goals_csv: 0,0,4
+home_penalty_ends_csv: 7.07,10.92,44.73
+away_penalty_minutes_csv: 47.48,59.57
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 47.77,61.57
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.57
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

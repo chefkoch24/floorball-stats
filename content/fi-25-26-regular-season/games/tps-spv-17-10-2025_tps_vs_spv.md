@@ -6,6 +6,26 @@ type: game
 game_id: tps-spv-17-10-2025
 home_team: TPS
 away_team: SPV
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.55,26.2,27.8,30.98,44.8,48.92,49.63,54.85
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7,-6
+timeline_home_goals_csv: 0,0,0,0,0,0,0,0,1
+timeline_away_goals_csv: 0,1,2,3,4,5,6,7,7
+home_goal_minutes_csv: 54.85
+home_goal_diffs_csv: -6
+away_goal_minutes_csv: 10.55,26.2,27.8,30.98,44.8,48.92,49.63
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 20.57,26.03,26.03,30.98,47.8
+home_penalty_goals_csv: 0,0,0,0,0
+home_penalty_ends_csv: 22.57,26.2,26.2,30.98,48.92
+away_penalty_minutes_csv: 51.58
+away_penalty_goals_csv: 7
+away_penalty_ends_csv: 53.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

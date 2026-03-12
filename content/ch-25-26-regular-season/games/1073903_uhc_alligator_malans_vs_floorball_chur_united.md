@@ -6,6 +6,26 @@ type: game
 game_id: 1073903
 home_team: UHC Alligator Malans
 away_team: Floorball Chur United
+start_time: 17:00
+result_string: 4:6 (3:1, 1:1, 0:4)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.82,12.73,17.27,18.15,28.37,43.97,45.65,56.92,58.15
+timeline_diffs_csv: 0,1,2,3,2,1,0,-1,-2,-3
+timeline_home_goals_csv: 0,1,2,3,3,3,3,3,3,3
+timeline_away_goals_csv: 0,0,0,0,1,2,3,4,5,6
+home_goal_minutes_csv: 3.82,12.73,17.27
+home_goal_diffs_csv: 1,2,3
+away_goal_minutes_csv: 18.15,28.37,43.97,45.65,56.92,58.15
+away_goal_diffs_csv: 2,1,0,-1,-2,-3
+home_penalty_minutes_csv: 14.27,46.93,56.25
+home_penalty_goals_csv: 2,3,3
+home_penalty_ends_csv: 16.27,48.93,56.92
+away_penalty_minutes_csv: 9.57,29.25,46.93
+away_penalty_goals_csv: 0,2,4
+away_penalty_ends_csv: 11.57,31.25,48.93
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

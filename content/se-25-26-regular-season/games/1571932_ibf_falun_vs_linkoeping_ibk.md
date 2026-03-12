@@ -6,6 +6,26 @@ type: game
 game_id: 1571932
 home_team: IBF Falun
 away_team: Linköping IBK
+start_time: 17:07:00
+result_string: 5-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.28,4.37,5.6,9.33,11.47,20.65,21.15,23.75,53.0,59.95,61.0
+timeline_diffs_csv: 0,1,2,1,0,-1,0,-1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,2,2,3,3,4,5,5,5
+timeline_away_goals_csv: 0,0,0,1,2,3,3,4,4,4,5,6
+home_goal_minutes_csv: 4.28,4.37,20.65,23.75,53.0
+home_goal_diffs_csv: 1,2,0,0,1
+away_goal_minutes_csv: 5.6,9.33,11.47,21.15,59.95,61.0
+away_goal_diffs_csv: 1,0,-1,-1,0,-1
+home_penalty_minutes_csv: 34.77,57.15
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 36.77,59.15
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

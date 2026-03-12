@@ -6,6 +6,26 @@ type: game
 game_id: jymy-classic-14-12-2025
 home_team: Jymy
 away_team: Classic
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.05,9.48,13.03,18.75,34.98,35.72,40.45,46.88,54.38,55.48,58.05
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-3,-4,-3,-4,-5
+timeline_home_goals_csv: 0,1,2,2,2,2,2,2,2,3,3,3
+timeline_away_goals_csv: 0,0,0,1,2,3,4,5,6,6,7,8
+home_goal_minutes_csv: 5.05,9.48,54.38
+home_goal_diffs_csv: 1,2,-3
+away_goal_minutes_csv: 13.03,18.75,34.98,35.72,40.45,46.88,55.48,58.05
+away_goal_diffs_csv: 1,0,-1,-2,-3,-4,-4,-5
+home_penalty_minutes_csv: 12.93,34.88,45.83
+home_penalty_goals_csv: 2,2,2
+home_penalty_ends_csv: 13.03,34.98,46.88
+away_penalty_minutes_csv: 29.6
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 31.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

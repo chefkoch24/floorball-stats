@@ -6,6 +6,26 @@ type: game
 game_id: 1218486
 home_team: ESA logistika Tatran Střešovice
 away_team: 1. SC NATIOS Vítkovice
+start_time: nan
+result_string: 10:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.97,15.22,17.92,45.38,47.28,48.17,55.98,59.2,80.5,84.43,90.9,93.05,93.83,95.42,97.55
+timeline_diffs_csv: 0,-1,0,1,2,1,2,1,2,3,4,5,0,4,5,6
+timeline_home_goals_csv: 0,0,1,2,3,3,4,4,5,6,7,8,0,8,9,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,3,3,3,3,3,0,4,4,4
+home_goal_minutes_csv: 15.22,17.92,45.38,48.17,59.2,80.5,84.43,90.9,95.42,97.55
+home_goal_diffs_csv: 0,1,2,2,2,3,4,5,5,6
+away_goal_minutes_csv: 11.97,47.28,55.98,93.05,93.83
+away_goal_diffs_csv: -1,1,1,0,4
+home_penalty_minutes_csv: 46.82,55.08
+home_penalty_goals_csv: 3,4
+home_penalty_ends_csv: 47.28,55.98
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.55
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073886
 home_team: SV Wiler-Ersigen
 away_team: WASA St. Gallen
+start_time: 17:00
+result_string: 4:3 (0:3, 3:0, 1:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.57,14.22,17.27,22.12,33.05,36.32,59.33
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,4
+timeline_away_goals_csv: 0,1,2,3,3,3,3,3
+home_goal_minutes_csv: 22.12,33.05,36.32,59.33
+home_goal_diffs_csv: -2,-1,0,1
+away_goal_minutes_csv: 0.57,14.22,17.27
+away_goal_diffs_csv: -1,-2,-3
+home_penalty_minutes_csv: 13.87,26.37
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 14.22,28.37
+away_penalty_minutes_csv: 11.33,36.25,55.75
+away_penalty_goals_csv: 1,3,3
+away_penalty_ends_csv: 13.33,36.32,57.75
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

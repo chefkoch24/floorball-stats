@@ -6,6 +6,26 @@ type: game
 game_id: ols-lasb-27-9-2025
 home_team: OLS
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.38,18.15,37.15,52.95,54.8,56.57,57.57
+timeline_diffs_csv: 0,1,2,1,2,3,4,5
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1
+home_goal_minutes_csv: 0.38,18.15,52.95,54.8,56.57,57.57
+home_goal_diffs_csv: 1,2,2,3,4,5
+away_goal_minutes_csv: 37.15
+away_goal_diffs_csv: 1
+home_penalty_minutes_csv: 35.12
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 37.12
+away_penalty_minutes_csv: 16.48,38.43
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 18.15,40.43
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

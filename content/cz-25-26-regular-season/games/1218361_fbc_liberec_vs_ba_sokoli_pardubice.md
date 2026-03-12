@@ -6,6 +6,26 @@ type: game
 game_id: 1218361
 home_team: FBC Liberec
 away_team: BA SOKOLI Pardubice
+start_time: nan
+result_string: 9:7
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.97,1.95,3.82,3.82,4.22,4.85,5.53,7.67,14.33,16.7,40.35,45.63,50.67,81.0,91.03,93.82,98.8,99.88
+timeline_diffs_csv: 0,-1,-2,0,0,-1,0,1,2,3,2,1,2,3,2,3,2,1,2
+timeline_home_goals_csv: 0,0,0,0,0,1,2,3,4,5,5,5,6,7,7,8,8,8,9
+timeline_away_goals_csv: 0,1,2,0,0,2,2,2,2,2,3,4,4,4,5,5,6,7,7
+home_goal_minutes_csv: 4.22,4.85,5.53,7.67,14.33,45.63,50.67,91.03,99.88
+home_goal_diffs_csv: -1,0,1,2,3,2,3,3,2
+away_goal_minutes_csv: 0.97,1.95,3.82,3.82,16.7,40.35,81.0,93.82,98.8
+away_goal_diffs_csv: -1,-2,0,0,2,1,2,2,1
+home_penalty_minutes_csv: 59.95
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 61.95
+away_penalty_minutes_csv: 89.63
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 91.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.88
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: spv-fbc-turku-30-11-2025
 home_team: SPV
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.73,12.47,27.03,35.35,40.65,42.68,58.75,59.38
+timeline_diffs_csv: 0,1,2,3,4,3,2,3,4
+timeline_home_goals_csv: 0,1,2,3,4,4,4,5,6
+timeline_away_goals_csv: 0,0,0,0,0,1,2,2,2
+home_goal_minutes_csv: 4.73,12.47,27.03,35.35,58.75,59.38
+home_goal_diffs_csv: 1,2,3,4,3,4
+away_goal_minutes_csv: 40.65,42.68
+away_goal_diffs_csv: 3,2
+home_penalty_minutes_csv: 17.97,41.12
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 19.97,42.68
+away_penalty_minutes_csv: 51.05
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 53.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

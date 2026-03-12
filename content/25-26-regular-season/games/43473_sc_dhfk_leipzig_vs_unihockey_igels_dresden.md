@@ -6,6 +6,26 @@ type: game
 game_id: 43473
 home_team: SC DHfK Leipzig
 away_team: Unihockey Igels Dresden
+start_time: 17:00
+result_string: 14:4
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.28,4.22,7.02,9.5,15.33,15.4,17.03,28.92,34.6,35.62,47.35,48.7,49.08,50.6,52.02,56.62,58.85,59.83
+timeline_diffs_csv: 0,-1,0,1,2,3,4,3,4,5,6,7,6,7,6,7,8,9,10
+timeline_home_goals_csv: 0,0,1,2,3,4,5,5,6,7,8,9,9,10,10,11,12,13,14
+timeline_away_goals_csv: 0,1,1,1,1,1,1,2,2,2,2,2,3,3,4,4,4,4,4
+home_goal_minutes_csv: 4.22,7.02,9.5,15.33,15.4,28.92,34.6,35.62,47.35,49.08,52.02,56.62,58.85,59.83
+home_goal_diffs_csv: 0,1,2,3,4,4,5,6,7,7,7,8,9,10
+away_goal_minutes_csv: 3.28,17.03,48.7,50.6
+away_goal_diffs_csv: -1,3,6,6
+home_penalty_minutes_csv: 2.13,7.65,48.25,51.75
+home_penalty_goals_csv: 0,2,9,10
+home_penalty_ends_csv: 3.28,9.65,48.7,53.75
+away_penalty_minutes_csv: 33.77
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 34.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

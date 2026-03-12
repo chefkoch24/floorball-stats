@@ -6,6 +6,26 @@ type: game
 game_id: ols-spv-31-1-2026
 home_team: OLS
 away_team: SPV
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.93,17.02,48.33,54.25,58.0
+timeline_diffs_csv: 0,1,0,1,2,3
+timeline_home_goals_csv: 0,1,1,2,3,4
+timeline_away_goals_csv: 0,0,1,1,1,1
+home_goal_minutes_csv: 7.93,48.33,54.25,58.0
+home_goal_diffs_csv: 1,1,2,3
+away_goal_minutes_csv: 17.02
+away_goal_diffs_csv: 0
+home_penalty_minutes_csv: 16.38
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 17.02
+away_penalty_minutes_csv: 19.58
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 21.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

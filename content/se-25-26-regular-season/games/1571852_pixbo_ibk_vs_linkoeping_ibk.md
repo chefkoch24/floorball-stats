@@ -6,6 +6,26 @@ type: game
 game_id: 1571852
 home_team: Pixbo IBK
 away_team: Linköping IBK
+start_time: 16:00:00
+result_string: 2-9
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.3,10.02,10.77,20.6,32.12,35.12,42.72,43.0,48.17,58.38
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-5,-4,-5,-7
+timeline_home_goals_csv: 0,0,0,0,0,0,0,1,2,2,2
+timeline_away_goals_csv: 0,1,2,3,4,5,6,6,6,7,9
+home_goal_minutes_csv: 42.72,43.0
+home_goal_diffs_csv: -5,-4
+away_goal_minutes_csv: 4.3,10.02,10.77,20.6,32.12,35.12,48.17,58.38
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-5,-7
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 12.48,31.42
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 14.48,33.42
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

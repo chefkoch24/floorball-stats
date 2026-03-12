@@ -6,6 +6,26 @@ type: game
 game_id: 43530
 home_team: Unihockey Igels Dresden
 away_team: MFBC Leipzig
+start_time: 18:00
+result_string: 3:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,9.65,10.13,10.7,18.7,25.18,35.53,47.42,53.55,53.93,58.2
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-5,-4,-3,-4
+timeline_home_goals_csv: 0,1,1,1,1,1,1,1,2,3,3
+timeline_away_goals_csv: 0,0,1,2,3,4,5,6,6,6,7
+home_goal_minutes_csv: 9.65,53.55,53.93
+home_goal_diffs_csv: 1,-4,-3
+away_goal_minutes_csv: 10.13,10.7,18.7,25.18,35.53,47.42,58.2
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-4
+home_penalty_minutes_csv: 45.6,47.28
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 47.42,47.42
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571792
 home_team: Storvreta IBK
 away_team: Hovslätts IK
+start_time: 16:00:00
+result_string: 5-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.97,11.07,34.27,40.32,48.02,50.95,55.05,56.57,64.98
+timeline_diffs_csv: 0,1,0,1,0,-1,-2,-1,0,1
+timeline_home_goals_csv: 0,1,1,2,2,2,2,3,4,5
+timeline_away_goals_csv: 0,0,1,1,2,3,4,4,4,4
+home_goal_minutes_csv: 5.97,34.27,55.05,56.57,64.98
+home_goal_diffs_csv: 1,1,-1,0,1
+away_goal_minutes_csv: 11.07,40.32,48.02,50.95
+away_goal_diffs_csv: 0,0,-1,-2
+home_penalty_minutes_csv: 17.52
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 19.52
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 64.98
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

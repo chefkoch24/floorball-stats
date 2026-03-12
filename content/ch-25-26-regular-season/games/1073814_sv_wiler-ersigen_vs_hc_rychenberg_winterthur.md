@@ -6,6 +6,26 @@ type: game
 game_id: 1073814
 home_team: SV Wiler-Ersigen
 away_team: HC Rychenberg Winterthur
+start_time: 19:30
+result_string: 8:1 (2:0, 3:0, 3:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.57,19.83,28.5,35.68,37.63,42.22,45.82,49.25,54.22
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,7
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,1
+home_goal_minutes_csv: 15.57,19.83,28.5,35.68,37.63,42.22,45.82,54.22
+home_goal_diffs_csv: 1,2,3,4,5,6,7,7
+away_goal_minutes_csv: 49.25
+away_goal_diffs_csv: 6
+home_penalty_minutes_csv: 19.18,43.3
+home_penalty_goals_csv: 1,6
+home_penalty_ends_csv: 21.18,45.3
+away_penalty_minutes_csv: 31.7,53.95
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 33.7,54.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

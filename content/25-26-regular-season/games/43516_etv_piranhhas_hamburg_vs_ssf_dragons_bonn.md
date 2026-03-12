@@ -6,6 +6,26 @@ type: game
 game_id: 43516
 home_team: ETV Piranhhas Hamburg
 away_team: SSF Dragons Bonn
+start_time: 19:00
+result_string: 4:5 n. PS
+ingame_status: penalty_shots
+timeline_minutes_csv: 0.0,15.12,17.42,17.55,30.77,33.7,34.77,50.68,53.42
+timeline_diffs_csv: 0,-1,-2,-1,0,1,0,1,0
+timeline_home_goals_csv: 0,0,0,1,2,3,3,4,4
+timeline_away_goals_csv: 0,1,2,2,2,2,3,3,4
+home_goal_minutes_csv: 17.55,30.77,33.7,50.68
+home_goal_diffs_csv: -1,0,1,1
+away_goal_minutes_csv: 15.12,17.42,34.77,53.42
+away_goal_diffs_csv: -1,-2,0,0
+home_penalty_minutes_csv: 40.97
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 42.97
+away_penalty_minutes_csv: 32.4
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 33.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

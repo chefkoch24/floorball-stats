@@ -6,6 +6,26 @@ type: game
 game_id: jymy-hawks-2-11-2025
 home_team: Jymy
 away_team: Hawks
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,21.57,27.15,41.17,44.4,64.52
+timeline_diffs_csv: 0,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,2,2,3
+timeline_away_goals_csv: 0,1,1,1,2,2
+home_goal_minutes_csv: 27.15,41.17,64.52
+home_goal_diffs_csv: 0,1,1
+away_goal_minutes_csv: 21.57,44.4
+away_goal_diffs_csv: -1,0
+home_penalty_minutes_csv: 43.53
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 44.4
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 64.52
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

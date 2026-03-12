@@ -6,6 +6,26 @@ type: game
 game_id: 1073836
 home_team: Unihockey Basel Regio
 away_team: Floorball Chur United
+start_time: 17:00
+result_string: 7:6 (2:2, 0:3, 4:1, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.68,8.7,13.68,19.43,22.58,30.05,31.97,42.65,48.48,51.48,55.12,58.58,68.0
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-3,-2,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,2,2,2,2,2,3,4,5,6,6,7
+timeline_away_goals_csv: 0,1,1,1,2,3,4,5,5,5,5,5,6,6
+home_goal_minutes_csv: 8.7,13.68,42.65,48.48,51.48,55.12,68.0
+home_goal_diffs_csv: 0,1,-2,-1,0,1,1
+away_goal_minutes_csv: 1.68,19.43,22.58,30.05,31.97,58.58
+away_goal_diffs_csv: -1,0,-1,-2,-3,0
+home_penalty_minutes_csv: 44.27,55.42,56.82
+home_penalty_goals_csv: 3,6,6
+home_penalty_ends_csv: 46.27,57.42,58.58
+away_penalty_minutes_csv: 13.3
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 13.68
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 68.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

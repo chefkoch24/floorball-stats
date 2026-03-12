@@ -6,6 +6,26 @@ type: game
 game_id: 1073812
 home_team: Unihockey Basel Regio
 away_team: UHC Alligator Malans
+start_time: 18:30
+result_string: 6:3 (2:1, 2:2, 2:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.8,6.87,14.12,26.3,27.32,33.23,33.85,40.6,59.9
+timeline_diffs_csv: 0,1,0,1,2,1,0,1,2,3
+timeline_home_goals_csv: 0,1,1,2,3,3,3,4,5,6
+timeline_away_goals_csv: 0,0,1,1,1,2,3,3,3,3
+home_goal_minutes_csv: 2.8,14.12,26.3,33.85,40.6,59.9
+home_goal_diffs_csv: 1,1,2,1,2,3
+away_goal_minutes_csv: 6.87,27.32,33.23
+away_goal_diffs_csv: 0,1,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 57.98
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 59.9
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

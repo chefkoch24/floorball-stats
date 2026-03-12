@@ -6,6 +6,26 @@ type: game
 game_id: 1218452
 home_team: TJ Sokol Královské Vinohrady
 away_team: FBC Liberec
+start_time: nan
+result_string: 3:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.13,11.77,45.7,48.62,48.73,50.35,90.02,97.48,99.73
+timeline_diffs_csv: 0,1,0,1,0,-1,0,-1,-2,-3
+timeline_home_goals_csv: 0,1,1,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,0,1,1,2,3,3,4,5,6
+home_goal_minutes_csv: 5.13,45.7,50.35
+home_goal_diffs_csv: 1,1,0
+away_goal_minutes_csv: 11.77,48.62,48.73,90.02,97.48,99.73
+away_goal_diffs_csv: 0,0,-1,-1,-2,-3
+home_penalty_minutes_csv: 40.65,57.33
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 42.65,59.33
+away_penalty_minutes_csv: 19.6
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 21.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.73
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073885
 home_team: Tigers Langnau
 away_team: Zug United
+start_time: 19:00
+result_string: 9:8 (5:2, 0:5, 3:1, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.95,6.37,9.23,10.12,10.8,11.27,14.5,23.35,23.93,25.45,28.37,35.05,42.27,53.1,53.25,55.33,61.07
+timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,1,0,-1,-2,-1,-2,-1,0,1
+timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,5,5,5,5,6,6,7,8,9
+timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,4,5,6,7,7,8,8,8,8
+home_goal_minutes_csv: 5.95,9.23,10.12,10.8,14.5,42.27,53.25,55.33,61.07
+home_goal_diffs_csv: 1,1,2,3,3,-1,-1,0,1
+away_goal_minutes_csv: 6.37,11.27,23.35,23.93,25.45,28.37,35.05,53.1
+away_goal_diffs_csv: 0,2,2,1,0,-1,-2,-2
+home_penalty_minutes_csv: 34.05,44.35
+home_penalty_goals_csv: 5,6
+home_penalty_ends_csv: 35.05,46.35
+away_penalty_minutes_csv: 40.65,54.67
+away_penalty_goals_csv: 7,8
+away_penalty_ends_csv: 42.27,55.33
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.07
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

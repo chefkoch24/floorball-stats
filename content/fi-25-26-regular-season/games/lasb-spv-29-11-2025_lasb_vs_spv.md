@@ -6,6 +6,26 @@ type: game
 game_id: lasb-spv-29-11-2025
 home_team: LASB
 away_team: SPV
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.67,2.23,7.95,9.88,16.78,21.03,22.47,35.63,39.5,43.93,45.88,52.32,52.6,52.8,59.27,59.48
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,2,1,0,1,0,-1,0,1,2
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,5,5,5,6,6,6,7,8,9
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,3,4,5,5,6,7,7,7,7
+home_goal_minutes_csv: 1.67,2.23,7.95,9.88,35.63,45.88,52.8,59.27,59.48
+home_goal_diffs_csv: 1,2,3,4,2,1,0,1,2
+away_goal_minutes_csv: 16.78,21.03,22.47,39.5,43.93,52.32,52.6
+away_goal_diffs_csv: 3,2,1,1,0,0,-1
+home_penalty_minutes_csv: 14.8,19.8
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 16.78,21.03
+away_penalty_minutes_csv: 34.78
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 35.63
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

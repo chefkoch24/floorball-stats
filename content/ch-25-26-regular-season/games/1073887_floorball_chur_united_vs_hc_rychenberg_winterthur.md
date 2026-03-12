@@ -6,6 +6,26 @@ type: game
 game_id: 1073887
 home_team: Floorball Chur United
 away_team: HC Rychenberg Winterthur
+start_time: 19:00
+result_string: 6:11 (2:1, 2:3, 2:7)
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.05,10.88,18.9,25.22,30.7,35.18,36.53,37.78,42.45,43.67,44.22,50.53,51.48,53.15,57.33,58.52,59.87
+timeline_diffs_csv: 0,-1,0,1,2,1,0,1,0,-1,-2,-3,-4,-3,-4,-5,-4,-5
+timeline_home_goals_csv: 0,0,1,2,3,3,3,4,4,4,4,4,4,5,5,5,6,6
+timeline_away_goals_csv: 0,1,1,1,1,2,3,3,4,5,6,7,8,8,9,10,10,11
+home_goal_minutes_csv: 10.88,18.9,25.22,36.53,51.48,58.52
+home_goal_diffs_csv: 0,1,2,1,-3,-4
+away_goal_minutes_csv: 6.05,30.7,35.18,37.78,42.45,43.67,44.22,50.53,53.15,57.33,59.87
+away_goal_diffs_csv: -1,1,0,0,-1,-2,-3,-4,-4,-5,-5
+home_penalty_minutes_csv: 16.8,36.98,50.12
+home_penalty_goals_csv: 1,4,4
+home_penalty_ends_csv: 18.8,37.78,50.53
+away_penalty_minutes_csv: 23.15
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 25.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073815
 home_team: Floorball Thurgau
 away_team: WASA St. Gallen
+start_time: 18:00
+result_string: 8:4 (2:0, 2:0, 4:4)
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.23,16.65,34.25,39.15,47.08,49.25,52.43,53.82,54.92,55.8,58.93,59.6
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,4,3,2,3,4
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,6,6,6,7,8
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,2,3,4,4,4
+home_goal_minutes_csv: 15.23,16.65,34.25,39.15,49.25,52.43,58.93,59.6
+home_goal_diffs_csv: 1,2,3,4,4,5,3,4
+away_goal_minutes_csv: 47.08,53.82,54.92,55.8
+away_goal_diffs_csv: 3,4,3,2
+home_penalty_minutes_csv: 28.28
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 30.28
+away_penalty_minutes_csv: 14.92,15.9,33.18,47.83
+away_penalty_goals_csv: 0,0,0,1
+away_penalty_ends_csv: 15.23,16.65,34.25,49.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

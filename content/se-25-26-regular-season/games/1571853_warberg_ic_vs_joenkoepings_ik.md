@@ -6,6 +6,26 @@ type: game
 game_id: 1571853
 home_team: Warberg IC
 away_team: Jönköpings IK
+start_time: 19:00:00
+result_string: 6-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.25,13.77,16.5,18.7,31.03,33.62,46.5
+timeline_diffs_csv: 0,1,0,-1,0,1,2,3
+timeline_home_goals_csv: 0,1,1,1,2,3,4,5
+timeline_away_goals_csv: 0,0,1,2,2,2,2,2
+home_goal_minutes_csv: 3.25,18.7,31.03,33.62,46.5
+home_goal_diffs_csv: 1,0,1,2,3
+away_goal_minutes_csv: 13.77,16.5
+away_goal_diffs_csv: 0,-1
+home_penalty_minutes_csv: 38.83
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 40.83
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

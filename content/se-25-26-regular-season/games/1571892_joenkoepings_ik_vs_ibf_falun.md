@@ -6,6 +6,26 @@ type: game
 game_id: 1571892
 home_team: Jönköpings IK
 away_team: IBF Falun
+start_time: 18:30:00
+result_string: 8-12
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.32,5.28,10.92,12.17,15.7,20.77,23.92,29.83,30.08,32.57,37.57,38.25,39.97,47.43,48.47,52.27,54.77,55.28,57.38,59.75
+timeline_diffs_csv: 0,1,2,3,2,1,0,-1,0,1,0,-1,-2,-3,-4,-3,-4,-5,-4,-3,-4
+timeline_home_goals_csv: 0,1,2,3,3,3,3,3,4,5,5,5,5,5,5,6,6,6,7,8,8
+timeline_away_goals_csv: 0,0,0,0,1,2,3,4,4,4,5,6,7,8,9,9,10,11,11,11,12
+home_goal_minutes_csv: 2.32,5.28,10.92,29.83,30.08,48.47,55.28,57.38
+home_goal_diffs_csv: 1,2,3,0,1,-3,-4,-3
+away_goal_minutes_csv: 12.17,15.7,20.77,23.92,32.57,37.57,38.25,39.97,47.43,52.27,54.77,59.75
+away_goal_diffs_csv: 2,1,0,-1,0,-1,-2,-3,-4,-4,-5,-4
+home_penalty_minutes_csv: 37.98
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 38.25
+away_penalty_minutes_csv: 0.4,58.62
+away_penalty_goals_csv: 0,11
+away_penalty_ends_csv: 2.32,60.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.62
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

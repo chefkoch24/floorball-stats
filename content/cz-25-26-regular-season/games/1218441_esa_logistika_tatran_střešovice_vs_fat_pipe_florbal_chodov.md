@@ -6,6 +6,26 @@ type: game
 game_id: 1218441
 home_team: ESA logistika Tatran Střešovice
 away_team: FAT PIPE FLORBAL CHODOV
+start_time: nan
+result_string: 13:3
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.02,11.02,13.22,14.4,40.78,41.9,44.73,55.0,55.68,58.4,59.4,85.45,86.98,93.32,94.13,96.23
+timeline_diffs_csv: 0,-1,0,1,2,1,2,1,2,3,4,5,6,7,8,9,10
+timeline_home_goals_csv: 0,0,1,2,3,3,4,4,5,6,7,8,9,10,11,12,13
+timeline_away_goals_csv: 0,1,1,1,1,2,2,3,3,3,3,3,3,3,3,3,3
+home_goal_minutes_csv: 11.02,13.22,14.4,41.9,55.0,55.68,58.4,59.4,85.45,86.98,93.32,94.13,96.23
+home_goal_diffs_csv: 0,1,2,2,2,3,4,5,6,7,8,9,10
+away_goal_minutes_csv: 7.02,40.78,44.73
+away_goal_diffs_csv: -1,1,1
+home_penalty_minutes_csv: 97.63
+home_penalty_goals_csv: 13
+home_penalty_ends_csv: 99.63
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.63
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

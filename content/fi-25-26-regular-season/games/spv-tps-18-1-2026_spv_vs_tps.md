@@ -6,6 +6,26 @@ type: game
 game_id: spv-tps-18-1-2026
 home_team: SPV
 away_team: TPS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.27,4.07,14.15,17.7,17.77,27.28,33.27,38.22,38.98,44.45,53.72,58.95,59.8
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,2,3,4,5,6,7
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,6,7,8,9,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,3,3,3,3,3,3
+home_goal_minutes_csv: 4.07,14.15,17.7,27.28,33.27,38.98,44.45,53.72,58.95,59.8
+home_goal_diffs_csv: 0,1,2,2,3,3,4,5,6,7
+away_goal_minutes_csv: 1.27,17.77,38.22
+away_goal_diffs_csv: -1,1,2
+home_penalty_minutes_csv: 55.67
+home_penalty_goals_csv: 8
+home_penalty_ends_csv: 57.67
+away_penalty_minutes_csv: 33.08,37.88
+away_penalty_goals_csv: 2,2
+away_penalty_ends_csv: 33.27,38.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

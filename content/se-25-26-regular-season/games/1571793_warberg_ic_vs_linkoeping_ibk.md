@@ -6,6 +6,26 @@ type: game
 game_id: 1571793
 home_team: Warberg IC
 away_team: Linköping IBK
+start_time: 15:00:00
+result_string: 5-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.22,9.38,13.98,16.78,27.8,33.13,34.68,35.28,49.33,56.28,59.15
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-5,-4,-3,-2,-1
+timeline_home_goals_csv: 0,0,0,1,1,1,1,1,2,3,4,5
+timeline_away_goals_csv: 0,1,2,2,3,4,5,6,6,6,6,6
+home_goal_minutes_csv: 13.98,35.28,49.33,56.28,59.15
+home_goal_diffs_csv: -1,-4,-3,-2,-1
+away_goal_minutes_csv: 8.22,9.38,16.78,27.8,33.13,34.68
+away_goal_diffs_csv: -1,-2,-2,-3,-4,-5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 12.85
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 13.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

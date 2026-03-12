@@ -6,6 +6,26 @@ type: game
 game_id: 1218408
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: 1. SC NATIOS Vítkovice
+start_time: nan
+result_string: 2:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.2,4.63,44.1,51.72,52.2,86.42,99.12
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3
+timeline_home_goals_csv: 0,1,1,1,1,2,2,2
+timeline_away_goals_csv: 0,0,1,2,3,3,4,5
+home_goal_minutes_csv: 1.2,52.2
+home_goal_diffs_csv: 1,-1
+away_goal_minutes_csv: 4.63,44.1,51.72,86.42,99.12
+away_goal_diffs_csv: 0,-1,-2,-2,-3
+home_penalty_minutes_csv: 11.93,91.25
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 13.93,93.25
+away_penalty_minutes_csv: 81.32,91.25
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 83.32,93.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.12
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

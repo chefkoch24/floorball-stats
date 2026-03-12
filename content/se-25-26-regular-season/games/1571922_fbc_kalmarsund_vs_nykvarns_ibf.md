@@ -6,6 +6,26 @@ type: game
 game_id: 1571922
 home_team: FBC Kalmarsund
 away_team: Nykvarns IBF
+start_time: 15:00:00
+result_string: 10-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.4,12.03,31.03,32.42,34.27,37.32,39.5,40.6,44.23,46.45,48.68,52.38,57.25,57.65
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,4,5,6,7,8,7,6
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6,7,8,9,10,10,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,2,2,2,2,2,3,4
+home_goal_minutes_csv: 12.03,31.03,32.42,37.32,39.5,40.6,44.23,46.45,48.68,52.38
+home_goal_diffs_csv: 0,1,2,2,3,4,5,6,7,8
+away_goal_minutes_csv: 9.4,34.27,57.25,57.65
+away_goal_diffs_csv: -1,1,7,6
+home_penalty_minutes_csv: 19.38
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 21.38
+away_penalty_minutes_csv: 29.28,36.17
+away_penalty_goals_csv: 1,2
+away_penalty_ends_csv: 31.03,37.32
+home_major_penalty_minutes_csv: 17.5
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

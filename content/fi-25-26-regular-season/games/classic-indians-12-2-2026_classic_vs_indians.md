@@ -6,6 +6,26 @@ type: game
 game_id: classic-indians-12-2-2026
 home_team: Classic
 away_team: Indians
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.32,15.97,20.05,27.62,37.65,55.32,65.0
+timeline_diffs_csv: 0,1,0,1,0,1,0,1
+timeline_home_goals_csv: 0,1,1,2,2,3,3,4
+timeline_away_goals_csv: 0,0,1,1,2,2,3,3
+home_goal_minutes_csv: 7.32,20.05,37.65,65.0
+home_goal_diffs_csv: 1,1,1,1
+away_goal_minutes_csv: 15.97,27.62,55.32
+away_goal_diffs_csv: 0,0,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

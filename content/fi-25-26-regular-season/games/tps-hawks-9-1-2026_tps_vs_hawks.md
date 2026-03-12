@@ -6,6 +6,26 @@ type: game
 game_id: tps-hawks-9-1-2026
 home_team: TPS
 away_team: Hawks
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.7,21.33,27.15,38.65,62.48
+timeline_diffs_csv: 0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3
+timeline_away_goals_csv: 0,1,1,2,2,2
+home_goal_minutes_csv: 21.33,38.65,62.48
+home_goal_diffs_csv: 0,0,1
+away_goal_minutes_csv: 6.7,27.15
+away_goal_diffs_csv: -1,-1
+home_penalty_minutes_csv: 32.92,53.12
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 34.92,55.12
+away_penalty_minutes_csv: 18.1,30.8,36.65
+away_penalty_goals_csv: 1,2,2
+away_penalty_ends_csv: 20.1,32.8,38.65
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 54.95
+timeline_max_minute: 62.48
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

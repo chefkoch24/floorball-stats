@@ -6,6 +6,26 @@ type: game
 game_id: 1571832
 home_team: AIK IBF
 away_team: Pixbo IBK
+start_time: 15:00:00
+result_string: 3-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.12,17.48,21.95,28.67,36.12,47.98,52.17,55.28
+timeline_diffs_csv: 0,-1,-2,-1,-2,-1,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,1,1,2,2,3,3
+timeline_away_goals_csv: 0,1,2,2,3,3,4,4,5
+home_goal_minutes_csv: 21.95,36.12,52.17
+home_goal_diffs_csv: -1,-1,-1
+away_goal_minutes_csv: 6.12,17.48,28.67,47.98,55.28
+away_goal_diffs_csv: -1,-2,-2,-2,-2
+home_penalty_minutes_csv: 14.27,21.57,47.25
+home_penalty_goals_csv: 0,0,2
+home_penalty_ends_csv: 16.27,23.57,47.98
+away_penalty_minutes_csv: 21.37
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 21.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

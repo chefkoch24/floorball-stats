@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-hawks-14-11-2025
 home_team: EräViikingit
 away_team: Hawks
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.15,1.72,5.35,11.78,12.43,14.45,41.23,45.52,52.72,53.72
+timeline_diffs_csv: 0,1,0,1,2,1,2,3,4,5,6
+timeline_home_goals_csv: 0,1,1,2,3,3,4,5,6,7,8
+timeline_away_goals_csv: 0,0,1,1,1,2,2,2,2,2,2
+home_goal_minutes_csv: 1.15,5.35,11.78,14.45,41.23,45.52,52.72,53.72
+home_goal_diffs_csv: 1,1,2,2,3,4,5,6
+away_goal_minutes_csv: 1.72,12.43
+away_goal_diffs_csv: 0,1
+home_penalty_minutes_csv: 18.92,49.95,58.9
+home_penalty_goals_csv: 4,6,8
+home_penalty_ends_csv: 20.92,51.95,60.9
+away_penalty_minutes_csv: 51.27
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 52.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.9
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-lasb-16-1-2026
 home_team: FBC Turku
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,36.63,47.07,57.33
+timeline_diffs_csv: 0,-1,-2,-3
+timeline_home_goals_csv: 0,0,0,0
+timeline_away_goals_csv: 0,1,2,3
+home_goal_minutes_csv: 
+home_goal_diffs_csv: 
+away_goal_minutes_csv: 36.63,47.07,57.33
+away_goal_diffs_csv: -1,-2,-3
+home_penalty_minutes_csv: 46.93,52.8,55.7
+home_penalty_goals_csv: 0,0,0
+home_penalty_ends_csv: 47.07,54.8,57.33
+away_penalty_minutes_csv: 41.3
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 43.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: ols-jymy-22-9-2025
 home_team: OLS
 away_team: Jymy
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.55,11.7,22.02,23.35,24.18,30.25,35.75,39.98,40.37,47.65,58.48,58.95
+timeline_diffs_csv: 0,-1,0,1,2,3,2,3,2,1,2,1,2
+timeline_home_goals_csv: 0,0,1,2,3,4,4,5,5,5,6,6,7
+timeline_away_goals_csv: 0,1,1,1,1,1,2,2,3,4,4,5,5
+home_goal_minutes_csv: 11.7,22.02,23.35,24.18,35.75,47.65,58.95
+home_goal_diffs_csv: 0,1,2,3,3,2,2
+away_goal_minutes_csv: 8.55,30.25,39.98,40.37,58.48
+away_goal_diffs_csv: -1,2,2,1,1
+home_penalty_minutes_csv: 10.77,25.38,39.13,39.13,54.3
+home_penalty_goals_csv: 0,4,5,5,6
+home_penalty_ends_csv: 12.77,27.38,39.98,39.98,56.3
+away_penalty_minutes_csv: 10.77,23.35
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 11.7,23.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

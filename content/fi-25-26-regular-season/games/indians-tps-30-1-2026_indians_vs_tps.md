@@ -6,6 +6,26 @@ type: game
 game_id: indians-tps-30-1-2026
 home_team: Indians
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.78,21.28,29.47,41.82,45.48,49.83,57.45
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3
+timeline_home_goals_csv: 0,1,1,1,1,1,1,2
+timeline_away_goals_csv: 0,0,1,2,3,4,5,5
+home_goal_minutes_csv: 10.78,57.45
+home_goal_diffs_csv: 1,-3
+away_goal_minutes_csv: 21.28,29.47,41.82,45.48,49.83
+away_goal_diffs_csv: 0,-1,-2,-3,-4
+home_penalty_minutes_csv: 17.03,25.8,30.03
+home_penalty_goals_csv: 1,1,1
+home_penalty_ends_csv: 19.03,27.8,32.03
+away_penalty_minutes_csv: 24.97,59.37
+away_penalty_goals_csv: 1,5
+away_penalty_ends_csv: 26.97,61.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.37
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

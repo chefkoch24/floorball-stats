@@ -6,6 +6,26 @@ type: game
 game_id: 1571868
 home_team: Warberg IC
 away_team: Strängnäs IBK
+start_time: 15:00:00
+result_string: 7-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.0,9.92,21.97,31.73,34.82,39.68,47.2,50.65,58.12
+timeline_diffs_csv: 0,-1,0,-1,0,1,2,1,2,1
+timeline_home_goals_csv: 0,0,1,1,2,3,4,4,5,5
+timeline_away_goals_csv: 0,1,1,2,2,2,2,3,3,4
+home_goal_minutes_csv: 9.92,31.73,34.82,39.68,50.65
+home_goal_diffs_csv: 0,0,1,2,2
+away_goal_minutes_csv: 9.0,21.97,47.2,58.12
+away_goal_diffs_csv: -1,-1,1,1
+home_penalty_minutes_csv: 59.83
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 61.83
+away_penalty_minutes_csv: 59.83
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 61.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.83
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

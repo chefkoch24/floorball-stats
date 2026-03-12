@@ -6,6 +6,26 @@ type: game
 game_id: 1571765
 home_team: Hovslätts IK
 away_team: Mullsjö AIS
+start_time: 14:00:00
+result_string: 6-12
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.43,3.28,5.37,5.55,7.47,7.67,12.32,12.87,14.58,22.67,25.47,34.25,39.05,44.45,56.43,57.52,57.9,59.85
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3,-2,-3,-2,-3,-4,-5,-6,-7,-8,-7,-6
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2,3,3,4,4,4,4,4,4,4,5,6
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5,5,6,6,7,8,9,10,11,12,12,12
+home_goal_minutes_csv: 7.67,12.32,12.87,22.67,57.9,59.85
+home_goal_diffs_csv: -4,-3,-2,-2,-7,-6
+away_goal_minutes_csv: 0.43,3.28,5.37,5.55,7.47,14.58,25.47,34.25,39.05,44.45,56.43,57.52
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-3,-3,-4,-5,-6,-7,-8
+home_penalty_minutes_csv: 6.27,23.75,33.45,56.13,56.13
+home_penalty_goals_csv: 0,4,4,4,4
+home_penalty_ends_csv: 7.47,25.47,34.25,56.43,56.43
+away_penalty_minutes_csv: 42.23,51.08
+away_penalty_goals_csv: 9,10
+away_penalty_ends_csv: 44.23,53.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

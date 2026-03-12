@@ -6,6 +6,26 @@ type: game
 game_id: 1073863
 home_team: HC Rychenberg Winterthur
 away_team: UHC Alligator Malans
+start_time: 17:00
+result_string: 6:7 (3:1, 2:3, 1:2, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.58,8.22,12.37,12.75,23.08,26.67,28.88,31.22,35.9,51.82,56.1,56.98,60.45
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,5,5,6,6,6
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,3,4,5,5,6,7
+home_goal_minutes_csv: 8.22,12.37,12.75,26.67,28.88,56.1
+home_goal_diffs_csv: 0,1,2,2,3,1
+away_goal_minutes_csv: 4.58,23.08,31.22,35.9,51.82,56.98,60.45
+away_goal_diffs_csv: -1,1,2,1,0,0,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 34.93,40.0
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 36.93,42.0
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.45
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

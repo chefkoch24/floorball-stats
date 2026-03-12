@@ -6,6 +6,26 @@ type: game
 game_id: 1218340
 home_team: FBC Liberec
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 4:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.63,3.97,15.32,17.02,41.87,50.28,51.58,55.42,96.55
+timeline_diffs_csv: 0,-1,0,1,0,1,2,1,0,-1
+timeline_home_goals_csv: 0,0,1,2,2,3,4,4,4,4
+timeline_away_goals_csv: 0,1,1,1,2,2,2,3,4,5
+home_goal_minutes_csv: 3.97,15.32,41.87,50.28
+home_goal_diffs_csv: 0,1,1,2
+away_goal_minutes_csv: 3.63,17.02,51.58,55.42,96.55
+away_goal_diffs_csv: -1,0,1,0,-1
+home_penalty_minutes_csv: 52.47,95.17
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 54.47,96.55
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 96.55
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

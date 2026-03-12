@@ -6,6 +6,26 @@ type: game
 game_id: 1571911
 home_team: Warberg IC
 away_team: Växjö IBK
+start_time: 19:00:00
+result_string: 1-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.62,7.72,21.97,25.47,28.13,30.27,49.9
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-5
+timeline_home_goals_csv: 0,0,0,1,1,1,1,1
+timeline_away_goals_csv: 0,1,2,2,3,4,5,6
+home_goal_minutes_csv: 21.97
+home_goal_diffs_csv: -1
+away_goal_minutes_csv: 1.62,7.72,25.47,28.13,30.27,49.9
+away_goal_diffs_csv: -1,-2,-2,-3,-4,-5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 40.28
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 42.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

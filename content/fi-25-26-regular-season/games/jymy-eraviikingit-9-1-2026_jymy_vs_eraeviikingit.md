@@ -6,6 +6,26 @@ type: game
 game_id: jymy-eraviikingit-9-1-2026
 home_team: Jymy
 away_team: EräViikingit
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.27,15.42,26.7,28.27,30.5,31.7,41.75,45.35,47.02,48.38,57.93
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-5,-4,-3,-2,-3
+timeline_home_goals_csv: 0,1,1,1,1,1,1,1,2,3,4,4
+timeline_away_goals_csv: 0,0,1,2,3,4,5,6,6,6,6,7
+home_goal_minutes_csv: 11.27,45.35,47.02,48.38
+home_goal_diffs_csv: 1,-4,-3,-2
+away_goal_minutes_csv: 15.42,26.7,28.27,30.5,31.7,41.75,57.93
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-3
+home_penalty_minutes_csv: 25.57,57.33
+home_penalty_goals_csv: 1,4
+home_penalty_ends_csv: 26.7,57.93
+away_penalty_minutes_csv: 47.02
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 47.02
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

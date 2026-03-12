@@ -6,6 +6,26 @@ type: game
 game_id: 1571780
 home_team: FBC Kalmarsund
 away_team: Hovslätts IK
+start_time: 16:00:00
+result_string: 9-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.92,18.6,25.42,31.0,33.68,33.78,35.73,39.35,44.92,52.53,55.38
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,6,5,6,7
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,7,7,8,9
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,1,2,2,2
+home_goal_minutes_csv: 7.92,18.6,31.0,33.68,33.78,35.73,39.35,52.53,55.38
+home_goal_diffs_csv: 1,2,2,3,4,5,6,6,7
+away_goal_minutes_csv: 25.42,44.92
+away_goal_diffs_csv: 1,5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 37.93
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 39.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

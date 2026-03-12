@@ -6,6 +6,26 @@ type: game
 game_id: 1571900
 home_team: Linköping IBK
 away_team: AIK IBF
+start_time: 18:30:00
+result_string: 2-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.67,11.82,29.67,47.27
+timeline_diffs_csv: 0,1,2,1,0
+timeline_home_goals_csv: 0,1,2,2,2
+timeline_away_goals_csv: 0,0,0,1,2
+home_goal_minutes_csv: 4.67,11.82
+home_goal_diffs_csv: 1,2
+away_goal_minutes_csv: 29.67,47.27
+away_goal_diffs_csv: 1,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 2.65
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 4.65
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

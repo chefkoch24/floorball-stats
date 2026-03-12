@@ -6,6 +6,26 @@ type: game
 game_id: 1571828
 home_team: Warberg IC
 away_team: Visby IBK
+start_time: 15:00:00
+result_string: 7-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.43,18.45,19.58,25.82,28.08,43.05,44.8,45.32,46.47,48.65,50.43
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,4,5,4,3
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,6,7,7,7
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,2,2,3,4
+home_goal_minutes_csv: 19.58,25.82,28.08,43.05,44.8,45.32,46.47
+home_goal_diffs_csv: -1,0,1,2,3,4,5
+away_goal_minutes_csv: 5.43,18.45,48.65,50.43
+away_goal_diffs_csv: -1,-2,4,3
+home_penalty_minutes_csv: 38.93,50.08
+home_penalty_goals_csv: 3,7
+home_penalty_ends_csv: 40.93,50.43
+away_penalty_minutes_csv: 29.1
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 31.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

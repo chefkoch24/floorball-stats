@@ -6,6 +6,26 @@ type: game
 game_id: 1073909
 home_team: HC Rychenberg Winterthur
 away_team: Zug United
+start_time: 17:00
+result_string: 5:7 (0:4, 1:1, 4:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.6,4.9,17.3,17.83,20.32,35.42,45.65,48.05,51.07,51.65,57.23,59.95
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-3,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,3,4,5,5
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,6,6,6,7
+home_goal_minutes_csv: 35.42,48.05,51.07,51.65,57.23
+home_goal_diffs_csv: -4,-4,-3,-2,-1
+away_goal_minutes_csv: 0.6,4.9,17.3,17.83,20.32,45.65,59.95
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-2
+home_penalty_minutes_csv: 8.73,39.2,47.15
+home_penalty_goals_csv: 0,1,1
+home_penalty_ends_csv: 10.73,41.2,49.15
+away_penalty_minutes_csv: 15.3,29.83,34.18,47.15
+away_penalty_goals_csv: 2,5,5,6
+away_penalty_ends_csv: 17.3,31.83,35.42,48.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

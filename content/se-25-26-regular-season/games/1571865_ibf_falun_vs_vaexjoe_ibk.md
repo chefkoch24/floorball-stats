@@ -6,6 +6,26 @@ type: game
 game_id: 1571865
 home_team: IBF Falun
 away_team: Växjö IBK
+start_time: 16:07:00
+result_string: 7-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.45,17.35,28.25,37.67,42.17,44.53,49.15,51.15,57.08
+timeline_diffs_csv: 0,1,0,-1,0,1,2,1,2,3
+timeline_home_goals_csv: 0,1,1,1,2,3,4,4,5,6
+timeline_away_goals_csv: 0,0,1,2,2,2,2,3,3,3
+home_goal_minutes_csv: 8.45,37.67,42.17,44.53,51.15,57.08
+home_goal_diffs_csv: 1,0,1,2,2,3
+away_goal_minutes_csv: 17.35,28.25,49.15
+away_goal_diffs_csv: 0,-1,1
+home_penalty_minutes_csv: 25.92
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 27.92
+away_penalty_minutes_csv: 6.43,41.87
+away_penalty_goals_csv: 0,2
+away_penalty_ends_csv: 8.43,42.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

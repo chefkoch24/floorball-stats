@@ -6,6 +6,26 @@ type: game
 game_id: 43518
 home_team: SSF Dragons Bonn
 away_team: Unihockey Igels Dresden
+start_time: 14:00
+result_string: 7:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,0.62,2.43,10.08,13.42,24.02,24.98,25.28,34.75,35.73,41.47,52.03,55.48
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,-1,-2,-1,0,1,2
+timeline_home_goals_csv: 0,1,1,1,1,2,3,3,3,4,5,6,7
+timeline_away_goals_csv: 0,0,1,2,3,3,3,4,5,5,5,5,5
+home_goal_minutes_csv: 0.62,24.02,24.98,35.73,41.47,52.03,55.48
+home_goal_diffs_csv: 1,-1,0,-1,0,1,2
+away_goal_minutes_csv: 2.43,10.08,13.42,25.28,34.75
+away_goal_diffs_csv: 0,-1,-2,-1,-2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

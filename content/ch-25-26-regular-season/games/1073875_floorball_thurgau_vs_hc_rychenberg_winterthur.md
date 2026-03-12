@@ -6,6 +6,26 @@ type: game
 game_id: 1073875
 home_team: Floorball Thurgau
 away_team: HC Rychenberg Winterthur
+start_time: 17:00
+result_string: 6:5 (1:2, 3:2, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.25,6.33,13.23,27.08,32.32,35.45,37.32,38.97,43.23,48.55,53.17
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1,0,1,2,1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,4,4,5,6,6
+timeline_away_goals_csv: 0,1,2,2,2,3,3,3,4,4,4,5
+home_goal_minutes_csv: 13.23,27.08,35.45,37.32,43.23,48.55
+home_goal_diffs_csv: -1,0,0,1,1,2
+away_goal_minutes_csv: 2.25,6.33,32.32,38.97,53.17
+away_goal_diffs_csv: -1,-2,-1,0,1
+home_penalty_minutes_csv: 5.72,44.27
+home_penalty_goals_csv: 0,5
+home_penalty_ends_csv: 6.33,46.27
+away_penalty_minutes_csv: 19.98,37.13
+away_penalty_goals_csv: 2,3
+away_penalty_ends_csv: 21.98,37.32
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

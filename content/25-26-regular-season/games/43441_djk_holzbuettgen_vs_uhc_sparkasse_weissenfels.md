@@ -6,6 +6,26 @@ type: game
 game_id: 43441
 home_team: DJK Holzbüttgen
 away_team: UHC Sparkasse Weißenfels
+start_time: 18:30
+result_string: 9:6
+ingame_status: period3
+timeline_minutes_csv: 0.0,16.85,24.07,30.1,32.68,33.07,33.58,37.73,40.48,41.58,42.93,43.28,49.92,51.4,55.85,57.63
+timeline_diffs_csv: 0,1,2,1,2,1,2,3,2,3,4,3,4,3,2,3
+timeline_home_goals_csv: 0,1,2,2,3,3,4,5,5,6,7,7,8,8,8,9
+timeline_away_goals_csv: 0,0,0,1,1,2,2,2,3,3,3,4,4,5,6,6
+home_goal_minutes_csv: 16.85,24.07,32.68,33.58,37.73,41.58,42.93,49.92,57.63
+home_goal_diffs_csv: 1,2,2,2,3,3,4,4,3
+away_goal_minutes_csv: 30.1,33.07,40.48,43.28,51.4,55.85
+away_goal_diffs_csv: 1,1,2,3,3,2
+home_penalty_minutes_csv: 28.03,44.98
+home_penalty_goals_csv: 2,7
+home_penalty_ends_csv: 30.03,46.98
+away_penalty_minutes_csv: 50.68
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 54.68
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

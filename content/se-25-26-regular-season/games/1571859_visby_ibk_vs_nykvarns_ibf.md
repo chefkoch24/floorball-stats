@@ -6,6 +6,26 @@ type: game
 game_id: 1571859
 home_team: Visby IBK
 away_team: Nykvarns IBF
+start_time: 17:00:00
+result_string: 9-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.93,7.4,9.43,10.47,13.75,26.73,27.98,29.6,43.57,48.17,49.63,54.1,55.77,57.15,58.87
+timeline_diffs_csv: 0,-1,0,1,2,3,4,3,2,1,2,1,0,1,2,2
+timeline_home_goals_csv: 0,0,1,2,3,4,5,5,5,5,6,6,6,7,8,9
+timeline_away_goals_csv: 0,1,1,1,1,1,1,2,3,4,4,5,6,6,6,7
+home_goal_minutes_csv: 7.4,9.43,10.47,13.75,26.73,48.17,55.77,57.15
+home_goal_diffs_csv: 0,1,2,3,4,2,1,2
+away_goal_minutes_csv: 6.93,27.98,29.6,43.57,49.63,54.1,58.87
+away_goal_diffs_csv: -1,3,2,1,1,0,2
+home_penalty_minutes_csv: 27.82
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 27.98
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

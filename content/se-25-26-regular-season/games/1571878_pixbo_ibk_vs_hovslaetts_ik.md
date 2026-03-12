@@ -6,6 +6,26 @@ type: game
 game_id: 1571878
 home_team: Pixbo IBK
 away_team: Hovslätts IK
+start_time: 19:00:00
+result_string: 6-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,17.03,17.82,24.75,25.95,26.97,31.38,39.88,42.37,52.13,59.62
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,-2,-1,0,1,1
+timeline_home_goals_csv: 0,0,1,1,1,2,2,3,4,5,6
+timeline_away_goals_csv: 0,1,1,2,3,3,4,4,4,4,5
+home_goal_minutes_csv: 17.82,26.97,39.88,42.37,52.13
+home_goal_diffs_csv: 0,-1,-1,0,1
+away_goal_minutes_csv: 17.03,24.75,25.95,31.38,59.62
+away_goal_diffs_csv: -1,-1,-2,-2,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 37.98,59.42
+away_penalty_goals_csv: 4,4
+away_penalty_ends_csv: 39.88,61.42
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.42
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: classic-spv-27-12-2025
 home_team: Classic
 away_team: SPV
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.4,8.13,10.9,24.43,25.02,28.0,28.98,41.68,46.83,47.68,51.12,55.22,55.92,56.27,56.5,57.95
+timeline_diffs_csv: 0,1,2,3,2,3,4,3,2,1,0,-1,0,1,2,1,2
+timeline_home_goals_csv: 0,1,2,3,3,4,5,5,5,5,5,5,6,7,8,8,9
+timeline_away_goals_csv: 0,0,0,0,1,1,1,2,3,4,5,6,6,6,6,7,7
+home_goal_minutes_csv: 7.4,8.13,10.9,25.02,28.0,55.22,55.92,56.27,57.95
+home_goal_diffs_csv: 1,2,3,3,4,0,1,2,2
+away_goal_minutes_csv: 24.43,28.98,41.68,46.83,47.68,51.12,56.5
+away_goal_diffs_csv: 2,3,2,1,0,-1,1
+home_penalty_minutes_csv: 18.53,52.82
+home_penalty_goals_csv: 3,5
+home_penalty_ends_csv: 20.53,54.82
+away_penalty_minutes_csv: 33.15,57.95
+away_penalty_goals_csv: 2,7
+away_penalty_ends_csv: 35.15,57.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 38.0
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

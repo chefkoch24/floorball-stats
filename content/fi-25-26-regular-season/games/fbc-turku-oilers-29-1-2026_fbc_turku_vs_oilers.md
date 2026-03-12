@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-oilers-29-1-2026
 home_team: FBC Turku
 away_team: Oilers
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.47,4.62,9.2,10.82,15.57,19.0,21.78,27.52,28.38,29.57,30.58,31.3,35.17,35.87,39.05,42.25,44.13,48.78,49.82,52.52,53.25,59.98
+timeline_diffs_csv: 0,1,0,-1,0,-1,0,-1,-2,-1,-2,-1,-2,-3,-4,-5,-6,-7,-8,-9,-8,-7,-8
+timeline_home_goals_csv: 0,1,1,1,2,2,3,3,3,4,4,5,5,5,5,5,5,5,5,5,6,7,7
+timeline_away_goals_csv: 0,0,1,2,2,3,3,4,5,5,6,6,7,8,9,10,11,12,13,14,14,14,15
+home_goal_minutes_csv: 2.47,10.82,19.0,28.38,30.58,52.52,53.25
+home_goal_diffs_csv: 1,0,0,-1,-1,-8,-7
+away_goal_minutes_csv: 4.62,9.2,15.57,21.78,27.52,29.57,31.3,35.17,35.87,39.05,42.25,44.13,48.78,49.82,59.98
+away_goal_diffs_csv: 0,-1,-1,-1,-2,-2,-2,-3,-4,-5,-6,-7,-8,-9,-8
+home_penalty_minutes_csv: 15.2
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 15.57
+away_penalty_minutes_csv: 17.15
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 19.0
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

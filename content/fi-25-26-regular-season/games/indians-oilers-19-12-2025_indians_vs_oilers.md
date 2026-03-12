@@ -6,6 +6,26 @@ type: game
 game_id: indians-oilers-19-12-2025
 home_team: Indians
 away_team: Oilers
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.78,13.63,19.72,25.38,26.33,31.95,34.12,52.73,55.07,58.12,59.4
+timeline_diffs_csv: 0,1,2,1,0,-1,0,-1,-2,-3,-2,-3
+timeline_home_goals_csv: 0,1,2,2,2,2,3,3,3,3,4,4
+timeline_away_goals_csv: 0,0,0,1,2,3,3,4,5,6,6,7
+home_goal_minutes_csv: 10.78,13.63,31.95,58.12
+home_goal_diffs_csv: 1,2,0,-2
+away_goal_minutes_csv: 19.72,25.38,26.33,34.12,52.73,55.07,59.4
+away_goal_diffs_csv: 1,0,-1,-1,-2,-3,-3
+home_penalty_minutes_csv: 29.52
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 31.52
+away_penalty_minutes_csv: 12.65,31.6
+away_penalty_goals_csv: 0,3
+away_penalty_ends_csv: 13.63,31.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

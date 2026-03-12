@@ -6,6 +6,26 @@ type: game
 game_id: hawks-oilers-27-12-2025
 home_team: Hawks
 away_team: Oilers
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.53,17.52,21.45,27.07,28.05,28.75,37.15,38.1,39.05,46.82,48.57,50.78,51.62,52.18,57.7,58.22
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7,-8,-7,-8,-9,-10,-11,-10,-11,-10
+timeline_home_goals_csv: 0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,3
+timeline_away_goals_csv: 0,1,2,3,4,5,6,7,8,8,9,10,11,12,12,13,13
+home_goal_minutes_csv: 39.05,52.18,58.22
+home_goal_diffs_csv: -7,-10,-10
+away_goal_minutes_csv: 7.53,17.52,21.45,27.07,28.05,28.75,37.15,38.1,46.82,48.57,50.78,51.62,57.7
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-8,-9,-10,-11,-11
+home_penalty_minutes_csv: 21.02,24.52,47.53
+home_penalty_goals_csv: 0,0,1
+home_penalty_ends_csv: 21.45,26.52,48.57
+away_penalty_minutes_csv: 0.5,41.5,49.4
+away_penalty_goals_csv: 0,8,10
+away_penalty_ends_csv: 2.5,43.5,51.4
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

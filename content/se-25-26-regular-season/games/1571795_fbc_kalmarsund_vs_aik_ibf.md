@@ -6,6 +6,26 @@ type: game
 game_id: 1571795
 home_team: FBC Kalmarsund
 away_team: AIK IBF
+start_time: 16:00:00
+result_string: 8-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.92,17.4,19.13,26.88,34.02,38.17,45.45,47.82,57.9,58.72,59.77
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,1,2,2,3,2
+timeline_home_goals_csv: 0,1,1,1,1,2,3,4,5,6,7,7
+timeline_away_goals_csv: 0,0,1,2,3,3,3,3,3,4,4,5
+home_goal_minutes_csv: 9.92,34.02,38.17,45.45,47.82,58.72
+home_goal_diffs_csv: 1,-1,0,1,2,3
+away_goal_minutes_csv: 17.4,19.13,26.88,57.9,59.77
+away_goal_diffs_csv: 0,-1,-2,2,2
+home_penalty_minutes_csv: 51.1
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 53.1
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 56.03
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

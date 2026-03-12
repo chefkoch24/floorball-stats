@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-nokian-krp-18-10-2025
 home_team: EräViikingit
 away_team: Nokian KrP
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.22,28.98,35.92,41.03,42.73,43.55,50.02,53.47
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5,-6
+timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1
+timeline_away_goals_csv: 0,1,2,3,4,4,5,6,7
+home_goal_minutes_csv: 42.73
+home_goal_diffs_csv: -3
+away_goal_minutes_csv: 11.22,28.98,35.92,41.03,43.55,50.02,53.47
+away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6
+home_penalty_minutes_csv: 15.2
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 17.2
+away_penalty_minutes_csv: 12.37,39.98,55.03
+away_penalty_goals_csv: 1,3,7
+away_penalty_ends_csv: 14.37,41.98,57.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43515
 home_team: Berlin Rockets
 away_team: Unihockey Igels Dresden
+start_time: 18:00
+result_string: 4:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,8.5,15.72,17.77,35.68,39.55,42.9,43.55
+timeline_diffs_csv: 0,-1,0,1,2,1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,4
+timeline_away_goals_csv: 0,1,1,1,1,2,3,3
+home_goal_minutes_csv: 15.72,17.77,35.68,43.55
+home_goal_diffs_csv: 0,1,2,1
+away_goal_minutes_csv: 8.5,39.55,42.9
+away_goal_diffs_csv: -1,1,0
+home_penalty_minutes_csv: 46.37,50.98
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 48.37,52.98
+away_penalty_minutes_csv: 30.23,59.68
+away_penalty_goals_csv: 1,3
+away_penalty_ends_csv: 32.23,61.68
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.68
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

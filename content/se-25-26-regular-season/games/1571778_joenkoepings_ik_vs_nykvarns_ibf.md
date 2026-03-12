@@ -6,6 +6,26 @@ type: game
 game_id: 1571778
 home_team: Jönköpings IK
 away_team: Nykvarns IBF
+start_time: 16:30:00
+result_string: 7-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.3,18.75,20.05,23.72,25.07,32.95,35.05,37.35,38.53,46.35,59.75
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,2,1,2,3
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,5,5,6,7
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,3,4,4,4
+home_goal_minutes_csv: 12.3,18.75,20.05,23.72,37.35,46.35,59.75
+home_goal_diffs_csv: 1,2,3,4,2,2,3
+away_goal_minutes_csv: 25.07,32.95,35.05,38.53
+away_goal_diffs_csv: 3,2,1,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

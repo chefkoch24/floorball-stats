@@ -6,6 +6,26 @@ type: game
 game_id: 43501
 home_team: UHC Sparkasse Weißenfels
 away_team: SSF Dragons Bonn
+start_time: 18:00
+result_string: 6:5 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,16.55,19.35,20.38,20.93,31.03,38.07,40.52,43.07,45.8,53.03,67.88
+timeline_diffs_csv: 0,-1,0,-1,0,1,0,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3,3,3,4,5,5,6
+timeline_away_goals_csv: 0,1,1,2,2,2,3,4,4,4,5,5
+home_goal_minutes_csv: 19.35,20.93,31.03,43.07,45.8,67.88
+home_goal_diffs_csv: 0,0,1,0,1,1
+away_goal_minutes_csv: 16.55,20.38,38.07,40.52,53.03
+away_goal_diffs_csv: -1,-1,0,-1,0
+home_penalty_minutes_csv: 15.5
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 16.55
+away_penalty_minutes_csv: 29.15
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 31.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 67.88
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

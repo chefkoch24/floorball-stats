@@ -6,6 +6,26 @@ type: game
 game_id: classic-tps-6-12-2025
 home_team: Classic
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.62,8.72,9.0,9.77,11.95,21.05,24.52,27.28,28.05,33.17,34.72,37.98,38.77,43.83,48.45,53.73,55.12,56.38,57.2
+timeline_diffs_csv: 0,1,2,3,4,5,4,5,6,7,6,7,8,9,8,9,10,11,12,13
+timeline_home_goals_csv: 0,1,2,3,4,5,5,6,7,8,8,9,10,11,11,12,13,14,15,16
+timeline_away_goals_csv: 0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,3,3
+home_goal_minutes_csv: 3.62,8.72,9.0,9.77,11.95,24.52,27.28,28.05,34.72,37.98,38.77,48.45,53.73,55.12,56.38,57.2
+home_goal_diffs_csv: 1,2,3,4,5,5,6,7,7,8,9,9,10,11,12,13
+away_goal_minutes_csv: 21.05,33.17,43.83
+away_goal_diffs_csv: 4,6,8
+home_penalty_minutes_csv: 32.47,42.48,46.68
+home_penalty_goals_csv: 8,11,11
+home_penalty_ends_csv: 33.17,43.83,48.68
+away_penalty_minutes_csv: 26.07,46.88,59.22
+away_penalty_goals_csv: 1,3,3
+away_penalty_ends_csv: 27.28,48.45,61.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.22
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

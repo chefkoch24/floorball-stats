@@ -6,6 +6,26 @@ type: game
 game_id: 1218370
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: FAT PIPE FLORBAL CHODOV
+start_time: nan
+result_string: 5:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.72,44.52,48.9,55.43,93.7,97.23,97.25,97.53,99.8,123.83
+timeline_diffs_csv: 0,1,0,1,0,-1,-2,0,-1,0,1
+timeline_home_goals_csv: 0,1,1,2,2,2,2,0,3,4,5
+timeline_away_goals_csv: 0,0,1,1,2,3,4,0,4,4,4
+home_goal_minutes_csv: 0.72,48.9,97.25,97.53,99.8,123.83
+home_goal_diffs_csv: 1,1,0,-1,0,1
+away_goal_minutes_csv: 44.52,55.43,93.7,97.23
+away_goal_diffs_csv: 0,0,-1,-2
+home_penalty_minutes_csv: 12.67,81.77
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 14.67,83.77
+away_penalty_minutes_csv: 3.88
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 5.88
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 123.83
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

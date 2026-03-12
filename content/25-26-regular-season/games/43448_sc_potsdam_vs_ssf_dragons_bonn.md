@@ -6,6 +6,26 @@ type: game
 game_id: 43448
 home_team: SC Potsdam
 away_team: SSF Dragons Bonn
+start_time: 18:00
+result_string: 2:8
+ingame_status: period3
+timeline_minutes_csv: 0.0,15.77,16.28,17.58,35.5,37.3,51.68,53.45,54.43,56.13,56.73
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-5,-6,-7,-6
+timeline_home_goals_csv: 0,1,1,1,1,1,1,1,1,1,2
+timeline_away_goals_csv: 0,0,1,2,3,4,5,6,7,8,8
+home_goal_minutes_csv: 15.77,56.73
+home_goal_diffs_csv: 1,-6
+away_goal_minutes_csv: 16.28,17.58,35.5,37.3,51.68,53.45,54.43,56.13
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 26.45,35.12
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 28.45,35.5
+away_penalty_minutes_csv: 37.47,56.45
+away_penalty_goals_csv: 4,8
+away_penalty_ends_csv: 39.47,56.73
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

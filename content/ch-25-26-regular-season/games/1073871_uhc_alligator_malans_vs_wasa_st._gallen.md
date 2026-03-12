@@ -6,6 +6,26 @@ type: game
 game_id: 1073871
 home_team: UHC Alligator Malans
 away_team: WASA St. Gallen
+start_time: 19:30
+result_string: 4:7 (0:1, 1:3, 3:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.0,33.6,33.93,36.17,37.42,46.55,56.47,57.1,57.47,58.12,59.32
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-1,-2,-3,-4,-3
+timeline_home_goals_csv: 0,0,0,1,1,1,2,3,3,3,3,4
+timeline_away_goals_csv: 0,1,2,2,3,4,4,4,5,6,7,7
+home_goal_minutes_csv: 33.93,46.55,56.47,59.32
+home_goal_diffs_csv: -1,-2,-1,-3
+away_goal_minutes_csv: 4.0,33.6,36.17,37.42,57.1,57.47,58.12
+away_goal_diffs_csv: -1,-2,-2,-3,-2,-3,-4
+home_penalty_minutes_csv: 3.08,26.12
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 4.0,28.12
+away_penalty_minutes_csv: 51.23
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 53.23
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

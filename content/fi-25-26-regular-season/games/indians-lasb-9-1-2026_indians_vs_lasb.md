@@ -6,6 +6,26 @@ type: game
 game_id: indians-lasb-9-1-2026
 home_team: Indians
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,21.9,22.6,30.7,46.67,64.4
+timeline_diffs_csv: 0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,0,1,2,2
+timeline_away_goals_csv: 0,1,2,2,2,3
+home_goal_minutes_csv: 30.7,46.67
+home_goal_diffs_csv: -1,0
+away_goal_minutes_csv: 21.9,22.6,64.4
+away_goal_diffs_csv: -1,-2,-1
+home_penalty_minutes_csv: 37.77,37.77,50.83
+home_penalty_goals_csv: 1,1,2
+home_penalty_ends_csv: 39.77,39.77,52.83
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 64.4
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571888
 home_team: Pixbo IBK
 away_team: Visby IBK
+start_time: 16:00:00
+result_string: 11-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.98,16.72,18.57,20.72,29.58,30.3,31.02,36.88,49.9,50.18,51.63,53.32,57.62
+timeline_diffs_csv: 0,1,2,1,2,1,2,3,4,5,6,7,8,9
+timeline_home_goals_csv: 0,1,2,2,3,3,4,5,6,7,8,9,10,11
+timeline_away_goals_csv: 0,0,0,1,1,2,2,2,2,2,2,2,2,2
+home_goal_minutes_csv: 12.98,16.72,20.72,30.3,31.02,36.88,49.9,50.18,51.63,53.32,57.62
+home_goal_diffs_csv: 1,2,2,2,3,4,5,6,7,8,9
+away_goal_minutes_csv: 18.57,29.58
+away_goal_diffs_csv: 1,1
+home_penalty_minutes_csv: 28.48,38.08,45.55
+home_penalty_goals_csv: 3,6,6
+home_penalty_ends_csv: 29.58,40.08,47.55
+away_penalty_minutes_csv: 13.22,35.3,38.08
+away_penalty_goals_csv: 0,2,2
+away_penalty_ends_csv: 15.22,36.88,40.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: spv-jymy-2-3-2026
 home_team: SPV
 away_team: Jymy
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.58,4.08,5.83,9.43,10.25,14.83,22.63,37.65,38.32,48.22,49.97,54.53,55.35,57.48,58.97,59.47
+timeline_diffs_csv: 0,1,2,1,2,3,4,3,2,3,4,3,4,3,2,3,2
+timeline_home_goals_csv: 0,1,2,2,3,4,5,5,5,6,7,7,8,8,8,9,9
+timeline_away_goals_csv: 0,0,0,1,1,1,1,2,3,3,3,4,4,5,6,6,7
+home_goal_minutes_csv: 1.58,4.08,9.43,10.25,14.83,38.32,48.22,54.53,58.97
+home_goal_diffs_csv: 1,2,2,3,4,3,4,4,3
+away_goal_minutes_csv: 5.83,22.63,37.65,49.97,55.35,57.48,59.47
+away_goal_diffs_csv: 1,3,2,3,3,2,2
+home_penalty_minutes_csv: 14.65
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 16.65
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

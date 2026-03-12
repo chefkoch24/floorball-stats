@@ -6,6 +6,26 @@ type: game
 game_id: 43434
 home_team: Blau-Weiß 96 Schenefeld
 away_team: SC DHfK Leipzig
+start_time: 18:00
+result_string: 5:10
+ingame_status: period3
+timeline_minutes_csv: 0.0,10.57,12.07,23.18,24.58,26.22,33.08,35.3,36.15,38.48,39.45,39.97,47.25,53.93,58.03,59.73
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-3,-2,-1,-2,-3,-4,-5,-4,-5
+timeline_home_goals_csv: 0,0,0,1,2,2,2,2,3,4,4,4,4,4,5,5
+timeline_away_goals_csv: 0,1,2,2,2,3,4,5,5,5,6,7,8,9,9,10
+home_goal_minutes_csv: 23.18,24.58,36.15,38.48,58.03
+home_goal_diffs_csv: -1,0,-2,-1,-4
+away_goal_minutes_csv: 10.57,12.07,26.22,33.08,35.3,39.45,39.97,47.25,53.93,59.73
+away_goal_diffs_csv: -1,-2,-1,-2,-3,-2,-3,-4,-5,-5
+home_penalty_minutes_csv: 31.07,52.97
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 33.07,53.93
+away_penalty_minutes_csv: 5.37,22.08,24.17,32.5,54.63
+away_penalty_goals_csv: 0,2,2,3,9
+away_penalty_ends_csv: 7.37,23.18,24.58,34.5,56.63
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: jymy-lasb-24-1-2026
 home_team: Jymy
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.83,13.88,18.92,24.02,28.53,34.73,43.25,48.57,50.33
+timeline_diffs_csv: 0,-1,0,-1,0,-1,0,1,2,1
+timeline_home_goals_csv: 0,0,1,1,2,2,3,4,5,5
+timeline_away_goals_csv: 0,1,1,2,2,3,3,3,3,4
+home_goal_minutes_csv: 13.88,24.02,34.73,43.25,48.57
+home_goal_diffs_csv: 0,0,0,1,2
+away_goal_minutes_csv: 3.83,18.92,28.53,50.33
+away_goal_diffs_csv: -1,-1,-1,1
+home_penalty_minutes_csv: 17.77
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 18.92
+away_penalty_minutes_csv: 23.08,42.12
+away_penalty_goals_csv: 2,3
+away_penalty_ends_csv: 24.02,43.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

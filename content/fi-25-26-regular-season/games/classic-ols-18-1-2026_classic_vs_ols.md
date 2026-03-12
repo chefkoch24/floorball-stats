@@ -6,6 +6,26 @@ type: game
 game_id: classic-ols-18-1-2026
 home_team: Classic
 away_team: OLS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.23,19.95,23.12,26.53,30.35,30.68,34.77,36.72,38.28,39.07,47.12,51.37,55.95,59.98
+timeline_diffs_csv: 0,-1,0,1,2,3,2,3,4,5,6,7,8,9,10
+timeline_home_goals_csv: 0,0,1,2,3,4,4,5,6,7,8,9,10,11,12
+timeline_away_goals_csv: 0,1,1,1,1,1,2,2,2,2,2,2,2,2,2
+home_goal_minutes_csv: 19.95,23.12,26.53,30.35,34.77,36.72,38.28,39.07,47.12,51.37,55.95,59.98
+home_goal_diffs_csv: 0,1,2,3,3,4,5,6,7,8,9,10
+away_goal_minutes_csv: 1.23,30.68
+away_goal_diffs_csv: -1,2
+home_penalty_minutes_csv: 2.85,8.45,34.77
+home_penalty_goals_csv: 0,0,5
+home_penalty_ends_csv: 4.85,10.45,36.77
+away_penalty_minutes_csv: 24.07
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 26.07
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

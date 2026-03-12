@@ -6,6 +6,26 @@ type: game
 game_id: 1218382
 home_team: FBC Liberec
 away_team: FBŠ Hummel Hattrick Brno
+start_time: nan
+result_string: 7:2
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.27,8.6,10.2,18.7,41.22,41.95,45.75,54.22,91.95,93.13
+timeline_diffs_csv: 0,1,0,-1,0,1,0,2,3,4,5
+timeline_home_goals_csv: 0,1,1,1,2,3,0,4,5,6,7
+timeline_away_goals_csv: 0,0,1,2,2,2,0,2,2,2,2
+home_goal_minutes_csv: 8.27,18.7,41.22,41.95,45.75,54.22,91.95,93.13
+home_goal_diffs_csv: 1,0,1,0,2,3,4,5
+away_goal_minutes_csv: 8.6,10.2
+away_goal_diffs_csv: 0,-1
+home_penalty_minutes_csv: 80.98
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 82.98
+away_penalty_minutes_csv: 44.08,89.83
+away_penalty_goals_csv: 0,2
+away_penalty_ends_csv: 45.75,91.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 93.13
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

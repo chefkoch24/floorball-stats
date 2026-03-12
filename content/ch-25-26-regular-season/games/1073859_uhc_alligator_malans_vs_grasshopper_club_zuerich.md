@@ -6,6 +6,26 @@ type: game
 game_id: 1073859
 home_team: UHC Alligator Malans
 away_team: Grasshopper Club Zürich
+start_time: 17:00
+result_string: 5:6 (1:3, 1:1, 3:1, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.8,17.63,17.85,19.32,21.9,31.37,45.85,50.83,52.9,57.47,65.13
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-2,-1,0,1,0,-1
+timeline_home_goals_csv: 0,0,0,0,1,1,2,3,4,5,5,5
+timeline_away_goals_csv: 0,1,2,3,3,4,4,4,4,4,5,6
+home_goal_minutes_csv: 19.32,31.37,45.85,50.83,52.9
+home_goal_diffs_csv: -2,-2,-1,0,1
+away_goal_minutes_csv: 5.8,17.63,17.85,21.9,57.47,65.13
+away_goal_diffs_csv: -1,-2,-3,-3,0,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 30.57,48.85
+away_penalty_goals_csv: 4,4
+away_penalty_ends_csv: 31.37,50.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.13
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-jymy-3-1-2026
 home_team: Nokian KrP
 away_team: Jymy
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.2,6.08,6.62,16.52,21.42,21.8,28.48,38.87,44.03,48.13,48.52,51.98,53.72,57.95,59.42
+timeline_diffs_csv: 0,1,2,1,0,1,2,3,4,3,4,5,6,5,6,5
+timeline_home_goals_csv: 0,1,2,2,2,3,4,5,6,6,7,8,9,9,10,10
+timeline_away_goals_csv: 0,0,0,1,2,2,2,2,2,3,3,3,3,4,4,5
+home_goal_minutes_csv: 5.2,6.08,21.42,21.8,28.48,38.87,48.13,48.52,51.98,57.95
+home_goal_diffs_csv: 1,2,1,2,3,4,4,5,6,6
+away_goal_minutes_csv: 6.62,16.52,44.03,53.72,59.42
+away_goal_diffs_csv: 1,0,3,5,5
+home_penalty_minutes_csv: 29.7
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 31.7
+away_penalty_minutes_csv: 19.92,26.8,47.35,47.35,52.62
+away_penalty_goals_csv: 2,2,3,3,3
+away_penalty_ends_csv: 21.42,28.48,48.13,48.13,54.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 50.98
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

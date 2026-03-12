@@ -6,6 +6,26 @@ type: game
 game_id: 1218374
 home_team: ACEMA Sparta Praha
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 3:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.08,5.93,13.18,19.23,19.43,45.02,54.32,81.5
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,1,2,2,2,3,3
+timeline_away_goals_csv: 0,1,2,2,2,3,4,4,5
+home_goal_minutes_csv: 13.18,19.23,54.32
+home_goal_diffs_csv: -1,0,-1
+away_goal_minutes_csv: 5.08,5.93,19.43,45.02,81.5
+away_goal_diffs_csv: -1,-2,-1,-2,-2
+home_penalty_minutes_csv: 85.6,87.05
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 87.6,89.05
+away_penalty_minutes_csv: 84.48,87.05
+away_penalty_goals_csv: 5,5
+away_penalty_ends_csv: 86.48,89.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 89.05
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

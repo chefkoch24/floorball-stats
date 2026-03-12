@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-fbc-turku-17-11-2025
 home_team: Nokian KrP
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.78,4.22,11.32,14.8,14.98,16.12,21.95,25.7,26.73,38.78,46.02,54.68,55.72,56.38,57.4,59.83
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,9,10,9,8,9,10,11,12
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,10,10,10,11,12,13,14
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2
+home_goal_minutes_csv: 3.78,4.22,11.32,14.8,14.98,16.12,21.95,25.7,26.73,38.78,55.72,56.38,57.4,59.83
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8,9,10,9,10,11,12
+away_goal_minutes_csv: 46.02,54.68
+away_goal_diffs_csv: 9,8
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 26.4,31.88
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 26.73,33.88
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

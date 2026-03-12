@@ -6,6 +6,26 @@ type: game
 game_id: 1571833
 home_team: Hovslätts IK
 away_team: Jönköpings IK
+start_time: 18:30:00
+result_string: 9-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.58,3.4,6.48,11.3,16.95,21.47,24.77,27.95,29.45,35.28,35.98,39.23,46.68,48.82,52.82,53.65,53.78
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,1,2,3,4,3,2,3,2,3,2,1
+timeline_home_goals_csv: 0,0,1,2,2,2,3,4,5,6,7,7,7,8,8,9,9,9
+timeline_away_goals_csv: 0,1,1,1,2,3,3,3,3,3,3,4,5,5,6,6,7,8
+home_goal_minutes_csv: 3.4,6.48,21.47,24.77,27.95,29.45,35.28,46.68,52.82
+home_goal_diffs_csv: 0,1,0,1,2,3,4,3,3
+away_goal_minutes_csv: 0.58,11.3,16.95,35.98,39.23,48.82,53.65,53.78
+away_goal_diffs_csv: -1,0,-1,3,2,2,2,1
+home_penalty_minutes_csv: 9.65,38.55
+home_penalty_goals_csv: 2,7
+home_penalty_ends_csv: 11.3,39.23
+away_penalty_minutes_csv: 9.65,25.87,28.95
+away_penalty_goals_csv: 1,3,3
+away_penalty_ends_csv: 11.65,27.87,29.45
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

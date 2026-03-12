@@ -6,6 +6,26 @@ type: game
 game_id: 1073904
 home_team: Floorball Köniz Bern
 away_team: SV Wiler-Ersigen
+start_time: 18:00
+result_string: 6:7 (3:3, 1:1, 2:2, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.57,4.2,9.37,15.87,17.32,18.95,25.0,34.27,42.1,47.95,55.1,57.43,69.5
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,0,-1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,4,4,5,6,6,6
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,4,5,5,5,6,7
+home_goal_minutes_csv: 4.2,9.37,15.87,34.27,47.95,55.1
+home_goal_diffs_csv: 0,1,2,0,0,1
+away_goal_minutes_csv: 0.57,17.32,18.95,25.0,42.1,57.43,69.5
+away_goal_diffs_csv: -1,1,0,-1,-1,0,-1
+home_penalty_minutes_csv: 23.93,28.23
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 25.0,30.23
+away_penalty_minutes_csv: 7.05,32.92,54.28
+away_penalty_goals_csv: 1,4,5
+away_penalty_ends_csv: 9.05,34.27,55.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 69.5
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

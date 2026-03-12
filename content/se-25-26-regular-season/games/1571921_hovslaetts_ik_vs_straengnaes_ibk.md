@@ -6,6 +6,26 @@ type: game
 game_id: 1571921
 home_team: Hovslätts IK
 away_team: Strängnäs IBK
+start_time: 16:30:00
+result_string: 5-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.78,5.02,29.95,42.5,44.38,44.77,47.85,48.12,49.0,50.55,53.97,58.28
+timeline_diffs_csv: 0,-1,0,-1,0,1,2,3,2,1,0,-1,-3
+timeline_home_goals_csv: 0,0,1,1,2,3,4,5,5,5,5,5,5
+timeline_away_goals_csv: 0,1,1,2,2,2,2,2,3,4,5,6,8
+home_goal_minutes_csv: 5.02,42.5,44.38,44.77,47.85
+home_goal_diffs_csv: 0,0,1,2,3
+away_goal_minutes_csv: 4.78,29.95,48.12,49.0,50.55,53.97,58.28
+away_goal_diffs_csv: -1,-1,2,1,0,-1,-3
+home_penalty_minutes_csv: 15.9,28.42
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 17.9,29.95
+away_penalty_minutes_csv: 43.47,59.28
+away_penalty_goals_csv: 2,8
+away_penalty_ends_csv: 44.38,61.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.28
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

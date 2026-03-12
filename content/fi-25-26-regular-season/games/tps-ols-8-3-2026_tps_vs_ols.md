@@ -6,6 +6,26 @@ type: game
 game_id: tps-ols-8-3-2026
 home_team: TPS
 away_team: OLS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.05,8.27,28.3,34.92,35.7,48.43,52.88,56.78,58.97
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1,2,1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,4,5,5
+timeline_away_goals_csv: 0,1,2,2,2,3,3,3,3,4
+home_goal_minutes_csv: 28.3,34.92,48.43,52.88,56.78
+home_goal_diffs_csv: -1,0,0,1,2
+away_goal_minutes_csv: 6.05,8.27,35.7,58.97
+away_goal_diffs_csv: -1,-2,-1,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 34.18
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 34.92
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571877
 home_team: Jönköpings IK
 away_team: Växjö IBK
+start_time: 16:00:00
+result_string: 4-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.53,10.08,10.83,29.38,30.23,33.83,38.92,42.03,44.33,44.62
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-2,-3,-2
+timeline_home_goals_csv: 0,1,1,1,1,2,2,2,3,3,4
+timeline_away_goals_csv: 0,0,1,2,3,3,4,5,5,6,6
+home_goal_minutes_csv: 0.53,30.23,42.03,44.62
+home_goal_diffs_csv: 1,-1,-2,-2
+away_goal_minutes_csv: 10.08,10.83,29.38,33.83,38.92,44.33
+away_goal_diffs_csv: 0,-1,-2,-2,-3,-3
+home_penalty_minutes_csv: 32.02
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 33.83
+away_penalty_minutes_csv: 20.75,23.22
+away_penalty_goals_csv: 2,2
+away_penalty_ends_csv: 22.75,25.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

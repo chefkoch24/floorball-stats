@@ -6,6 +6,26 @@ type: game
 game_id: 43476
 home_team: Berlin Rockets
 away_team: SC Potsdam
+start_time: 18:00
+result_string: 5:6 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,5.07,5.62,7.6,13.68,24.58,26.75,33.63,49.97,51.88,56.68,62.98
+timeline_diffs_csv: 0,-1,0,-1,0,-1,-2,-1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,1,2,2,2,3,4,5,5,5
+timeline_away_goals_csv: 0,1,1,2,2,3,4,4,4,4,5,6
+home_goal_minutes_csv: 5.62,13.68,33.63,49.97,51.88
+home_goal_diffs_csv: 0,0,-1,0,1
+away_goal_minutes_csv: 5.07,7.6,24.58,26.75,56.68,62.98
+away_goal_diffs_csv: -1,-1,-1,-2,0,-1
+home_penalty_minutes_csv: 30.02,44.15,55.87
+home_penalty_goals_csv: 2,3,5
+home_penalty_ends_csv: 32.02,46.15,56.68
+away_penalty_minutes_csv: 12.35,24.0,48.92
+away_penalty_goals_csv: 2,2,4
+away_penalty_ends_csv: 13.68,26.0,49.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.98
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

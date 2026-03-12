@@ -6,6 +6,26 @@ type: game
 game_id: jymy-indians-16-11-2025
 home_team: Jymy
 away_team: Indians
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.0,10.52,14.72,27.4,44.13,47.83,53.8,58.08
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,1,1,1,2,2,3
+timeline_away_goals_csv: 0,1,2,2,3,4,4,5,5
+home_goal_minutes_csv: 14.72,47.83,58.08
+home_goal_diffs_csv: -1,-2,-2
+away_goal_minutes_csv: 10.0,10.52,27.4,44.13,53.8
+away_goal_diffs_csv: -1,-2,-2,-3,-3
+home_penalty_minutes_csv: 13.05
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 15.05
+away_penalty_minutes_csv: 8.4,29.8,57.72
+away_penalty_goals_csv: 0,3,5
+away_penalty_ends_csv: 10.4,31.8,58.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

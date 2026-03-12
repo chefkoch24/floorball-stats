@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-indians-13-9-2025
 home_team: EräViikingit
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.97,3.55,12.27,13.67,14.6,19.48,23.48,24.45,27.63,30.37,42.52,48.48,54.48,54.67,55.53,58.33
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-2,-1,0,-1,-2,-3,-4,-5,-6,-7,-6
+timeline_home_goals_csv: 0,0,1,1,1,1,2,3,4,4,4,4,4,4,4,4,5
+timeline_away_goals_csv: 0,1,1,2,3,4,4,4,4,5,6,7,8,9,10,11,11
+home_goal_minutes_csv: 3.55,19.48,23.48,24.45,58.33
+home_goal_diffs_csv: 0,-2,-1,0,-6
+away_goal_minutes_csv: 0.97,12.27,13.67,14.6,27.63,30.37,42.52,48.48,54.48,54.67,55.53
+away_goal_diffs_csv: -1,-1,-2,-3,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 8.65,24.55
+home_penalty_goals_csv: 1,4
+home_penalty_ends_csv: 10.65,26.55
+away_penalty_minutes_csv: 8.65,35.75
+away_penalty_goals_csv: 1,6
+away_penalty_ends_csv: 10.65,37.75
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

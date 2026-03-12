@@ -6,6 +6,26 @@ type: game
 game_id: 1073839
 home_team: Floorball Thurgau
 away_team: Zug United
+start_time: 14:00
+result_string: 5:9 (2:2, 1:4, 2:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.08,13.9,17.93,18.92,26.32,26.53,30.0,33.82,38.05,49.67,53.65,54.63,56.63,58.25
+timeline_diffs_csv: 0,1,2,1,0,-1,0,-1,-2,-3,-4,-3,-4,-5,-4
+timeline_home_goals_csv: 0,1,2,2,2,2,3,3,3,3,3,4,4,4,5
+timeline_away_goals_csv: 0,0,0,1,2,3,3,4,5,6,7,7,8,9,9
+home_goal_minutes_csv: 9.08,13.9,26.53,53.65,58.25
+home_goal_diffs_csv: 1,2,0,-3,-4
+away_goal_minutes_csv: 17.93,18.92,26.32,30.0,33.82,38.05,49.67,54.63,56.63
+away_goal_diffs_csv: 1,0,-1,-1,-2,-3,-4,-4,-5
+home_penalty_minutes_csv: 15.42,16.13
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 17.42,17.93
+away_penalty_minutes_csv: 13.4,33.82
+away_penalty_goals_csv: 0,5
+away_penalty_ends_csv: 13.9,35.82
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

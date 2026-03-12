@@ -6,6 +6,26 @@ type: game
 game_id: 43450
 home_team: Unihockey Igels Dresden
 away_team: Floor Fighters Chemnitz
+start_time: 18:00
+result_string: 6:7 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,1.85,4.65,11.97,16.33,19.47,22.45,24.52,40.47,50.07,57.18,57.3,58.5,66.78
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-1,-2,-3,-2,-1,0,-1
+timeline_home_goals_csv: 0,1,1,1,1,1,2,3,3,3,4,5,6,6
+timeline_away_goals_csv: 0,0,1,2,3,4,4,4,5,6,6,6,6,7
+home_goal_minutes_csv: 1.85,22.45,24.52,57.18,57.3,58.5
+home_goal_diffs_csv: 1,-2,-1,-2,-1,0
+away_goal_minutes_csv: 4.65,11.97,16.33,19.47,40.47,50.07,66.78
+away_goal_diffs_csv: 0,-1,-2,-3,-2,-3,-1
+home_penalty_minutes_csv: 15.02
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 16.33
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 66.78
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

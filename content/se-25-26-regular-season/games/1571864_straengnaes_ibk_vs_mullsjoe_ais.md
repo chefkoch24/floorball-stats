@@ -6,6 +6,26 @@ type: game
 game_id: 1571864
 home_team: Strängnäs IBK
 away_team: Mullsjö AIS
+start_time: 19:00:00
+result_string: 4-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,20.5,22.47,31.87,32.47,37.42,42.02,47.02,48.13,53.05
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-1,-2,-1
+timeline_home_goals_csv: 0,1,1,1,1,2,2,3,3,4
+timeline_away_goals_csv: 0,0,1,2,3,3,4,4,5,5
+home_goal_minutes_csv: 20.5,37.42,47.02,53.05
+home_goal_diffs_csv: 1,-1,-1,-1
+away_goal_minutes_csv: 22.47,31.87,32.47,42.02,48.13
+away_goal_diffs_csv: 0,-1,-2,-2,-2
+home_penalty_minutes_csv: 31.32,33.35,55.22
+home_penalty_goals_csv: 1,1,4
+home_penalty_ends_csv: 31.87,35.35,57.22
+away_penalty_minutes_csv: 35.72
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 37.42
+home_major_penalty_minutes_csv: 59.8
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

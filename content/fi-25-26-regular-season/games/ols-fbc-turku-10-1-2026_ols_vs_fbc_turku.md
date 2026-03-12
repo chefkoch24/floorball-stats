@@ -6,6 +6,26 @@ type: game
 game_id: ols-fbc-turku-10-1-2026
 home_team: OLS
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.35,15.52,25.13,28.6,30.22,32.53,34.43,37.83,50.37,53.08,53.57,53.77,54.92,55.82
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,6,7,8,9,10,9,10
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,7,8,9,10,11,11,12
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,1,1,1,1,1,2,2
+home_goal_minutes_csv: 4.35,15.52,28.6,30.22,32.53,34.43,37.83,50.37,53.08,53.57,53.77,55.82
+home_goal_diffs_csv: 1,2,2,3,4,5,6,7,8,9,10,10
+away_goal_minutes_csv: 25.13,54.92
+away_goal_diffs_csv: 1,9
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 53.77
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 53.77
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43488
 home_team: SC DHfK Leipzig
 away_team: MFBC Leipzig
+start_time: 18:30
+result_string: 4:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,2.75,10.8,21.93,23.98,35.15,50.43,50.73,54.6,59.17
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3,-2,-1
+timeline_home_goals_csv: 0,0,0,1,1,1,1,2,3,4
+timeline_away_goals_csv: 0,1,2,2,3,4,5,5,5,5
+home_goal_minutes_csv: 21.93,50.73,54.6,59.17
+home_goal_diffs_csv: -1,-3,-2,-1
+away_goal_minutes_csv: 2.75,10.8,23.98,35.15,50.43
+away_goal_diffs_csv: -1,-2,-2,-3,-4
+home_penalty_minutes_csv: 13.82,34.73,46.33
+home_penalty_goals_csv: 0,1,1
+home_penalty_ends_csv: 15.82,35.15,48.33
+away_penalty_minutes_csv: 52.83
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 54.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

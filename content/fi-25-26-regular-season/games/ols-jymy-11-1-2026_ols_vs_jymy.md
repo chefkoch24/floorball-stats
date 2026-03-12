@@ -6,6 +6,26 @@ type: game
 game_id: ols-jymy-11-1-2026
 home_team: OLS
 away_team: Jymy
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,25.27,30.35,31.23,35.02,36.97,40.63,41.62,51.82,51.98,52.42,52.92,57.83
+timeline_diffs_csv: 0,1,0,1,2,3,2,1,2,3,4,5,4
+timeline_home_goals_csv: 0,1,1,2,3,4,4,4,5,6,7,8,8
+timeline_away_goals_csv: 0,0,1,1,1,1,2,3,3,3,3,3,4
+home_goal_minutes_csv: 25.27,31.23,35.02,36.97,51.82,51.98,52.42,52.92
+home_goal_diffs_csv: 1,1,2,3,2,3,4,5
+away_goal_minutes_csv: 30.35,40.63,41.62,57.83
+away_goal_diffs_csv: 0,2,1,4
+home_penalty_minutes_csv: 28.8,38.65
+home_penalty_goals_csv: 1,4
+home_penalty_ends_csv: 30.35,40.63
+away_penalty_minutes_csv: 21.78,30.62,36.53,55.85,57.92
+away_penalty_goals_csv: 0,1,1,3,4
+away_penalty_ends_csv: 23.78,31.23,36.97,57.85,59.92
+home_major_penalty_minutes_csv: 40.0,55.85
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

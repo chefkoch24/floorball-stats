@@ -6,6 +6,26 @@ type: game
 game_id: classic-fbc-turku-2-2-2026
 home_team: Classic
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.6,2.45,4.62,6.07,10.13,16.85,24.1,36.85,38.47,40.97,45.97,51.58,52.8,54.98,57.97
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,7,8,9,10,9,10,9
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,8,9,10,11,11,12,12
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,3
+home_goal_minutes_csv: 0.6,2.45,4.62,6.07,10.13,16.85,24.1,38.47,40.97,45.97,51.58,54.98
+home_goal_diffs_csv: 1,2,3,4,5,6,7,7,8,9,10,10
+away_goal_minutes_csv: 36.85,52.8,57.97
+away_goal_diffs_csv: 6,9,9
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 38.47
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 38.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

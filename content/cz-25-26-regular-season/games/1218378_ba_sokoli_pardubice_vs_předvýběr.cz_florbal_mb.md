@@ -6,6 +6,26 @@ type: game
 game_id: 1218378
 home_team: BA SOKOLI Pardubice
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 1:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,42.65,42.78,49.25,49.32,59.1,59.88,99.92
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,0,-4
+timeline_home_goals_csv: 0,0,0,1,1,1,0,1
+timeline_away_goals_csv: 0,1,2,2,3,4,0,5
+home_goal_minutes_csv: 49.25
+home_goal_diffs_csv: -1
+away_goal_minutes_csv: 42.65,42.78,49.32,59.1,59.88,99.92
+away_goal_diffs_csv: -1,-2,-2,-3,0,-4
+home_penalty_minutes_csv: 17.73,90.8
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 19.73,92.8
+away_penalty_minutes_csv: 93.47
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 95.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.92
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

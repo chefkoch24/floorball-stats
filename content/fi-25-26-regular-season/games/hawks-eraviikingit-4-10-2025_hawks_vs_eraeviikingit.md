@@ -6,6 +6,26 @@ type: game
 game_id: hawks-eraviikingit-4-10-2025
 home_team: Hawks
 away_team: EräViikingit
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,13.6,18.78,37.53,37.98,38.98,48.62,65.0
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,1,1,1,2,3,3
+timeline_away_goals_csv: 0,1,1,2,3,3,3,4
+home_goal_minutes_csv: 18.78,38.98,48.62
+home_goal_diffs_csv: 0,-1,0
+away_goal_minutes_csv: 13.6,37.53,37.98,65.0
+away_goal_diffs_csv: -1,-1,-2,-1
+home_penalty_minutes_csv: 36.43
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 37.53
+away_penalty_minutes_csv: 47.9
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 48.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

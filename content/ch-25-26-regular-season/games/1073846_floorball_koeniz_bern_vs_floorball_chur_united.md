@@ -6,6 +6,26 @@ type: game
 game_id: 1073846
 home_team: Floorball Köniz Bern
 away_team: Floorball Chur United
+start_time: 16:00
+result_string: 8:0 (1:0, 2:0, 5:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.28,28.92,36.62,41.73,45.3,46.18,57.73,59.73
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,8
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,0
+home_goal_minutes_csv: 8.28,28.92,36.62,41.73,45.3,46.18,57.73,59.73
+home_goal_diffs_csv: 1,2,3,4,5,6,7,8
+away_goal_minutes_csv: 
+away_goal_diffs_csv: 
+home_penalty_minutes_csv: 5.62,18.72
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 7.62,20.72
+away_penalty_minutes_csv: 6.95,27.37
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 8.28,28.92
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

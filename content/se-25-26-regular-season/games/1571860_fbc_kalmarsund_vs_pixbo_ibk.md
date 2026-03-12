@@ -6,6 +6,26 @@ type: game
 game_id: 1571860
 home_team: FBC Kalmarsund
 away_team: Pixbo IBK
+start_time: 16:00:00
+result_string: 5-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.5,2.15,2.5,18.25,27.53,33.43,38.48,43.68,50.35,55.22
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-4,-3,-2,-1,0
+timeline_home_goals_csv: 0,0,1,1,1,1,1,2,3,4,5
+timeline_away_goals_csv: 0,1,1,2,3,4,5,5,5,5,5
+home_goal_minutes_csv: 2.15,38.48,43.68,50.35,55.22
+home_goal_diffs_csv: 0,-3,-2,-1,0
+away_goal_minutes_csv: 0.5,2.5,18.25,27.53,33.43
+away_goal_diffs_csv: -1,-1,-2,-3,-4
+home_penalty_minutes_csv: 31.5
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 33.43
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

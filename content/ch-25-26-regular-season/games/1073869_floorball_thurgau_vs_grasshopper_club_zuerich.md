@@ -6,6 +6,26 @@ type: game
 game_id: 1073869
 home_team: Floorball Thurgau
 away_team: Grasshopper Club Zürich
+start_time: 20:00
+result_string: 5:3 (0:2, 2:0, 3:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.65,14.65,24.57,26.62,43.97,47.8,56.87,58.83
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,2
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,5
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,3
+home_goal_minutes_csv: 24.57,26.62,43.97,47.8,56.87
+home_goal_diffs_csv: -1,0,1,2,3
+away_goal_minutes_csv: 6.65,14.65,58.83
+away_goal_diffs_csv: -1,-2,2
+home_penalty_minutes_csv: 59.18,59.67,59.7
+home_penalty_goals_csv: 5,5,5
+home_penalty_ends_csv: 61.18,61.67,61.7
+away_penalty_minutes_csv: 26.55,29.7,43.53
+away_penalty_goals_csv: 2,2,2
+away_penalty_ends_csv: 26.62,31.7,43.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.7
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

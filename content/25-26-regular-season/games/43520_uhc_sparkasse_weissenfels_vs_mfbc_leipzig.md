@@ -6,6 +6,26 @@ type: game
 game_id: 43520
 home_team: UHC Sparkasse Weißenfels
 away_team: MFBC Leipzig
+start_time: 18:00
+result_string: 4:6
+ingame_status: period3
+timeline_minutes_csv: 0.0,10.9,20.97,32.12,33.6,37.77,45.55,51.63,52.03,52.43,57.27
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3,3,4,4
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4,5,5,6
+home_goal_minutes_csv: 33.6,37.77,45.55,52.43
+home_goal_diffs_csv: -2,-1,0,-1
+away_goal_minutes_csv: 10.9,20.97,32.12,51.63,52.03,57.27
+away_goal_diffs_csv: -1,-2,-3,-1,-2,-2
+home_penalty_minutes_csv: 27.6,31.62,46.1,52.43
+home_penalty_goals_csv: 0,0,3,4
+home_penalty_ends_csv: 29.6,32.12,48.1,54.43
+away_penalty_minutes_csv: 15.65,59.82
+away_penalty_goals_csv: 1,6
+away_penalty_ends_csv: 17.65,61.82
+home_major_penalty_minutes_csv: 52.53
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.82
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

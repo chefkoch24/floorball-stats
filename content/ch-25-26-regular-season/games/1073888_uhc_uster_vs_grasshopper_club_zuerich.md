@@ -6,6 +6,26 @@ type: game
 game_id: 1073888
 home_team: UHC Uster
 away_team: Grasshopper Club Zürich
+start_time: 18:00
+result_string: 8:4 (3:2, 3:1, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.6,9.02,10.63,18.4,18.67,22.07,26.73,36.02,38.52,49.88,56.13,59.35
+timeline_diffs_csv: 0,-1,0,1,0,1,2,3,4,3,2,3,4
+timeline_home_goals_csv: 0,0,1,2,2,3,4,5,6,6,6,7,8
+timeline_away_goals_csv: 0,1,1,1,2,2,2,2,2,3,4,4,4
+home_goal_minutes_csv: 9.02,10.63,18.67,22.07,26.73,36.02,56.13,59.35
+home_goal_diffs_csv: 0,1,1,2,3,4,3,4
+away_goal_minutes_csv: 6.6,18.4,38.52,49.88
+away_goal_diffs_csv: -1,0,3,2
+home_penalty_minutes_csv: 27.55,37.53,40.88
+home_penalty_goals_csv: 5,6,6
+home_penalty_ends_csv: 29.55,38.52,42.88
+away_penalty_minutes_csv: 22.05
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 22.07
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

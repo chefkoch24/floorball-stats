@@ -6,6 +6,26 @@ type: game
 game_id: 43439
 home_team: Blau-Weiß 96 Schenefeld
 away_team: Floor Fighters Chemnitz
+start_time: 18:00
+result_string: 8:7 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,4.45,14.45,21.0,21.15,31.23,31.68,31.93,39.1,39.65,40.33,41.93,46.98,50.1,54.93,65.68
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,5,5,6,6,7,8
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,5,5,6,6,7,7,7
+home_goal_minutes_csv: 14.45,21.0,21.15,39.65,40.33,46.98,54.93,65.68
+home_goal_diffs_csv: 0,1,2,-1,0,0,0,1
+away_goal_minutes_csv: 4.45,31.23,31.68,31.93,39.1,41.93,50.1
+away_goal_diffs_csv: -1,1,0,-1,-2,-1,-1
+home_penalty_minutes_csv: 5.2,26.42
+home_penalty_goals_csv: 0,3
+home_penalty_ends_csv: 7.2,28.42
+away_penalty_minutes_csv: 35.43
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 37.43
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.68
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

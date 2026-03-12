@@ -6,6 +6,26 @@ type: game
 game_id: 1073934
 home_team: Tigers Langnau
 away_team: SV Wiler-Ersigen
+start_time: 16:00
+result_string: 5:4 (1:1, 2:1, 1:2, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.18,4.77,23.5,29.2,31.2,49.27,51.08,54.93,60.97
+timeline_diffs_csv: 0,-1,0,1,0,1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,2,2,3,3,4,4,5
+timeline_away_goals_csv: 0,1,1,1,2,2,3,3,4,4
+home_goal_minutes_csv: 4.77,23.5,31.2,51.08,60.97
+home_goal_diffs_csv: 0,1,1,1,1
+away_goal_minutes_csv: 4.18,29.2,49.27,54.93
+away_goal_diffs_csv: -1,0,0,0
+home_penalty_minutes_csv: 29.1,43.12
+home_penalty_goals_csv: 2,3
+home_penalty_ends_csv: 29.2,45.12
+away_penalty_minutes_csv: 43.12,49.57
+away_penalty_goals_csv: 2,3
+away_penalty_ends_csv: 45.12,51.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.97
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

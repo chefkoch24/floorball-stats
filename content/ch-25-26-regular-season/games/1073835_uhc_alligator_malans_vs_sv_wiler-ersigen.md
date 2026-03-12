@@ -6,6 +6,26 @@ type: game
 game_id: 1073835
 home_team: UHC Alligator Malans
 away_team: SV Wiler-Ersigen
+start_time: 18:00
+result_string: 2:5 (0:2, 0:3, 2:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.82,18.75,22.27,35.52,38.75,50.65,57.67
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5
+home_goal_minutes_csv: 50.65,57.67
+home_goal_diffs_csv: -4,-3
+away_goal_minutes_csv: 15.82,18.75,22.27,35.52,38.75
+away_goal_diffs_csv: -1,-2,-3,-4,-5
+home_penalty_minutes_csv: 28.43,34.8,55.15,56.87
+home_penalty_goals_csv: 0,0,1,1
+home_penalty_ends_csv: 30.43,35.52,57.15,58.87
+away_penalty_minutes_csv: 13.87,30.65,49.73,55.15,56.87,57.37
+away_penalty_goals_csv: 0,3,5,5,5,5
+away_penalty_ends_csv: 15.87,32.65,50.65,57.15,57.67,57.67
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

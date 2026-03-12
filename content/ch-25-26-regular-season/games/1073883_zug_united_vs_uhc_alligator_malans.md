@@ -6,6 +6,26 @@ type: game
 game_id: 1073883
 home_team: Zug United
 away_team: UHC Alligator Malans
+start_time: 20:00
+result_string: 6:2 (1:1, 2:1, 3:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.05,19.65,21.87,31.25,37.48,44.92,48.33,59.98
+timeline_diffs_csv: 0,-1,0,1,0,1,2,3,4
+timeline_home_goals_csv: 0,0,1,2,2,3,4,5,6
+timeline_away_goals_csv: 0,1,1,1,2,2,2,2,2
+home_goal_minutes_csv: 19.65,21.87,37.48,44.92,48.33,59.98
+home_goal_diffs_csv: 0,1,1,2,3,4
+away_goal_minutes_csv: 7.05,31.25
+away_goal_diffs_csv: -1,0
+home_penalty_minutes_csv: 27.5
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 29.5
+away_penalty_minutes_csv: 36.43
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 37.48
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

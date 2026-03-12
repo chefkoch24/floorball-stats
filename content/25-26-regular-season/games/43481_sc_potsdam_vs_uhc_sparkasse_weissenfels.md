@@ -6,6 +6,26 @@ type: game
 game_id: 43481
 home_team: SC Potsdam
 away_team: UHC Sparkasse Weißenfels
+start_time: 16:00
+result_string: 2:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,13.68,19.97,21.83,22.62,32.07,44.87,45.6
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-3
+timeline_home_goals_csv: 0,1,1,1,1,1,2,2
+timeline_away_goals_csv: 0,0,1,2,3,4,4,5
+home_goal_minutes_csv: 13.68,44.87
+home_goal_diffs_csv: 1,-2
+away_goal_minutes_csv: 19.97,21.83,22.62,32.07,45.6
+away_goal_diffs_csv: 0,-1,-2,-3,-3
+home_penalty_minutes_csv: 10.25,18.0,24.48,35.32,59.13
+home_penalty_goals_csv: 0,1,1,1,2
+home_penalty_ends_csv: 12.25,19.97,26.48,37.32,61.13
+away_penalty_minutes_csv: 46.38
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 48.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.13
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

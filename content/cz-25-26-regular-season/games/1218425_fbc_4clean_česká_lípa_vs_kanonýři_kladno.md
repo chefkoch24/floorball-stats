@@ -6,6 +6,26 @@ type: game
 game_id: 1218425
 home_team: FBC 4CLEAN Česká Lípa
 away_team: Kanonýři Kladno
+start_time: nan
+result_string: 6:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.38,9.57,40.55,44.62,47.23,50.27,82.3,83.28,87.23,97.68,121.18
+timeline_diffs_csv: 0,1,0,-1,0,1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,1,1,1,2,3,3,3,4,4,5,6
+timeline_away_goals_csv: 0,0,1,2,2,2,3,4,4,5,5,5
+home_goal_minutes_csv: 1.38,44.62,47.23,83.28,97.68,121.18
+home_goal_diffs_csv: 1,0,1,0,0,1
+away_goal_minutes_csv: 9.57,40.55,50.27,82.3,87.23
+away_goal_diffs_csv: 0,-1,0,-1,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 83.47
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 85.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 121.18
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

@@ -6,6 +6,26 @@ type: game
 game_id: 1218365
 home_team: FBŠ Hummel Hattrick Brno
 away_team: ACEMA Sparta Praha
+start_time: nan
+result_string: 2:11
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.87,6.8,7.78,11.32,19.5,19.87,41.0,45.65,46.97,49.45,54.73,57.23,87.35,97.4
+timeline_diffs_csv: 0,-1,-2,-3,-2,0,-1,-2,-3,-4,-5,-6,-7,-8,-9
+timeline_home_goals_csv: 0,0,0,0,1,0,2,2,2,2,2,2,2,2,2
+timeline_away_goals_csv: 0,1,2,3,3,0,3,4,5,6,7,8,9,10,11
+home_goal_minutes_csv: 11.32,19.5,19.87
+home_goal_diffs_csv: -2,0,-1
+away_goal_minutes_csv: 3.87,6.8,7.78,41.0,45.65,46.97,49.45,54.73,57.23,87.35,97.4
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-4,-5,-6,-7,-8,-9
+home_penalty_minutes_csv: 84.48
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 86.48
+away_penalty_minutes_csv: 17.83,59.62
+away_penalty_goals_csv: 3,9
+away_penalty_ends_csv: 19.5,61.62
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.4
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

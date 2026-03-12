@@ -6,6 +6,26 @@ type: game
 game_id: 1571936
 home_team: Warberg IC
 away_team: Storvreta IBK
+start_time: 15:00:00
+result_string: 1-9
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.73,14.47,19.32,21.92,28.68,33.98,46.38,46.92,47.48,58.67
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-7,-8
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,1,1
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,8,9
+home_goal_minutes_csv: 33.98
+home_goal_diffs_csv: -4
+away_goal_minutes_csv: 2.73,14.47,19.32,21.92,28.68,46.38,46.92,47.48,58.67
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-7,-8
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 40.0
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 42.0
+home_major_penalty_minutes_csv: 46.92
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43496
 home_team: SSF Dragons Bonn
 away_team: Berlin Rockets
+start_time: 19:00
+result_string: 10:4
+ingame_status: period3
+timeline_minutes_csv: 0.0,5.92,10.3,11.28,15.55,19.55,27.25,31.42,31.83,35.95,37.05,37.67,43.63,49.3,53.58
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,6,7,6,7,6,5,6
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,7,8,8,9,9,9,10
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,1,1,2,2,3,4,4
+home_goal_minutes_csv: 5.92,10.3,11.28,15.55,27.25,31.42,31.83,35.95,37.67,53.58
+home_goal_diffs_csv: 1,2,3,4,4,5,6,7,7,6
+away_goal_minutes_csv: 19.55,37.05,43.63,49.3
+away_goal_diffs_csv: 3,6,6,5
+home_penalty_minutes_csv: 10.8,32.52,49.67,54.4
+home_penalty_goals_csv: 2,7,9,10
+home_penalty_ends_csv: 12.8,34.52,51.67,56.4
+away_penalty_minutes_csv: 1.57,26.98
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 3.57,27.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

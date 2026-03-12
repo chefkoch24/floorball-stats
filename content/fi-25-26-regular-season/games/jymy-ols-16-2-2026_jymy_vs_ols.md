@@ -6,6 +6,26 @@ type: game
 game_id: jymy-ols-16-2-2026
 home_team: Jymy
 away_team: OLS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.97,3.75,5.78,6.23,6.48,15.52,28.27,36.9,42.17,53.3,54.8,55.4,55.85,59.9
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-1,-2,-1,-2,-3,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,1,1,1,2,3,3,4,4,4,5,6,6
+timeline_away_goals_csv: 0,1,2,2,3,4,4,4,5,5,6,7,7,7,8
+home_goal_minutes_csv: 5.78,15.52,28.27,42.17,55.4,55.85
+home_goal_diffs_csv: -1,-2,-1,-1,-2,-1
+away_goal_minutes_csv: 2.97,3.75,6.23,6.48,36.9,53.3,54.8,59.9
+away_goal_diffs_csv: -1,-2,-2,-3,-2,-2,-3,-2
+home_penalty_minutes_csv: 24.62
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 26.62
+away_penalty_minutes_csv: 57.83
+away_penalty_goals_csv: 7
+away_penalty_ends_csv: 59.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

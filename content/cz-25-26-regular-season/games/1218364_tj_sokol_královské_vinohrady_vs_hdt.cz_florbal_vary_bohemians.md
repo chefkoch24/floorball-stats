@@ -6,6 +6,26 @@ type: game
 game_id: 1218364
 home_team: TJ Sokol Královské Vinohrady
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 3:10
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.98,15.22,15.93,46.93,47.37,50.12,53.52,81.33,81.75,83.02,83.93,92.45,94.78
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-4,-5,-6,-5,-6,-7
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,2,2,2,3,3,3
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,6,7,8,8,9,10
+home_goal_minutes_csv: 46.93,47.37,83.93
+home_goal_diffs_csv: -2,-1,-5
+away_goal_minutes_csv: 11.98,15.22,15.93,50.12,53.52,81.33,81.75,83.02,92.45,94.78
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-4,-5,-6,-6,-7
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 94.78
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

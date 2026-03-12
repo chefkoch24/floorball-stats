@@ -6,6 +6,26 @@ type: game
 game_id: hawks-lasb-18-10-2025
 home_team: Hawks
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.42,8.87
+timeline_diffs_csv: 0,1,2
+timeline_home_goals_csv: 0,1,2
+timeline_away_goals_csv: 0,0,0
+home_goal_minutes_csv: 2.42,8.87
+home_goal_diffs_csv: 1,2
+away_goal_minutes_csv: 
+away_goal_diffs_csv: 
+home_penalty_minutes_csv: 47.65,53.45
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 49.65,55.45
+away_penalty_minutes_csv: 18.0,34.23,49.88,53.45
+away_penalty_goals_csv: 0,0,0,0
+away_penalty_ends_csv: 20.0,36.23,51.88,55.45
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

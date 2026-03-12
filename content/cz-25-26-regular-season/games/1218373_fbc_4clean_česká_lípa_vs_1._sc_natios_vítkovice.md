@@ -6,6 +6,26 @@ type: game
 game_id: 1218373
 home_team: FBC 4CLEAN Česká Lípa
 away_team: 1. SC NATIOS Vítkovice
+start_time: nan
+result_string: 4:1
+ingame_status: nan
+timeline_minutes_csv: 0.0,56.05,83.95,88.28,97.03,99.68
+timeline_diffs_csv: 0,1,0,1,2,3
+timeline_home_goals_csv: 0,1,1,2,3,4
+timeline_away_goals_csv: 0,0,1,1,1,1
+home_goal_minutes_csv: 56.05,88.28,97.03,99.68
+home_goal_diffs_csv: 1,1,2,3
+away_goal_minutes_csv: 83.95
+away_goal_diffs_csv: 0
+home_penalty_minutes_csv: 85.25,89.4
+home_penalty_goals_csv: 1,2
+home_penalty_ends_csv: 87.25,91.4
+away_penalty_minutes_csv: 87.4,88.28
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 88.28,88.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.68
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

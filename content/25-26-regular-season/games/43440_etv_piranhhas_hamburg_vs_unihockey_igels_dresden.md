@@ -6,6 +6,26 @@ type: game
 game_id: 43440
 home_team: ETV Piranhhas Hamburg
 away_team: Unihockey Igels Dresden
+start_time: 18:00
+result_string: 7:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,15.07,19.35,21.55,24.85,30.25,32.18,40.5,41.97,44.58,45.47,52.07,54.5
+timeline_diffs_csv: 0,1,0,1,0,1,0,1,2,1,0,1,2
+timeline_home_goals_csv: 0,1,1,2,2,3,3,4,5,5,5,6,7
+timeline_away_goals_csv: 0,0,1,1,2,2,3,3,3,4,5,5,5
+home_goal_minutes_csv: 15.07,21.55,30.25,40.5,41.97,52.07,54.5
+home_goal_diffs_csv: 1,1,1,1,2,1,2
+away_goal_minutes_csv: 19.35,24.85,32.18,44.58,45.47
+away_goal_diffs_csv: 0,0,0,1,0
+home_penalty_minutes_csv: 57.42
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 59.42
+away_penalty_minutes_csv: 38.58
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 40.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

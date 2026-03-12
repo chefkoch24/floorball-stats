@@ -6,6 +6,26 @@ type: game
 game_id: 43475
 home_team: UHC Sparkasse Weißenfels
 away_team: Floor Fighters Chemnitz
+start_time: 18:00
+result_string: 8:11
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.35,7.0,11.18,12.82,14.48,15.23,25.72,31.18,34.33,37.07,37.18,39.73,41.48,42.08,50.82,56.47,59.5,59.55,59.72
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-3,-4,-5,-4,-3,-4,-3,-4,-5,-4,-5,-4,-3
+timeline_home_goals_csv: 0,0,0,1,2,2,2,2,2,2,3,4,4,5,5,5,6,6,7,8
+timeline_away_goals_csv: 0,1,2,2,2,3,4,5,6,7,7,7,8,8,9,10,10,11,11,11
+home_goal_minutes_csv: 11.18,12.82,37.07,37.18,41.48,56.47,59.55,59.72
+home_goal_diffs_csv: -1,0,-4,-3,-3,-4,-4,-3
+away_goal_minutes_csv: 3.35,7.0,14.48,15.23,25.72,31.18,34.33,39.73,42.08,50.82,59.5
+away_goal_diffs_csv: -1,-2,-1,-2,-3,-4,-5,-4,-4,-5,-5
+home_penalty_minutes_csv: 28.68,39.32
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 30.68,39.73
+away_penalty_minutes_csv: 48.63,53.3
+away_penalty_goals_csv: 9,10
+away_penalty_ends_csv: 50.63,55.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

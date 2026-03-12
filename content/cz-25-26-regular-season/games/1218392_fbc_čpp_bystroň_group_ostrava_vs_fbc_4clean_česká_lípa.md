@@ -6,6 +6,26 @@ type: game
 game_id: 1218392
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: FBC 4CLEAN Česká Lípa
+start_time: nan
+result_string: 5:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.73,12.47,13.23,16.58,42.95,80.15,92.12,93.83
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-1,0
+timeline_home_goals_csv: 0,1,2,2,2,2,2,3,4
+timeline_away_goals_csv: 0,0,0,1,2,3,4,4,4
+home_goal_minutes_csv: 7.73,12.47,92.12,93.83
+home_goal_diffs_csv: 1,2,-1,0
+away_goal_minutes_csv: 13.23,16.58,42.95,80.15
+away_goal_diffs_csv: 1,0,-1,-2
+home_penalty_minutes_csv: 4.98,58.2
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 6.98,60.2
+away_penalty_minutes_csv: 82.38
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 84.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 93.83
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

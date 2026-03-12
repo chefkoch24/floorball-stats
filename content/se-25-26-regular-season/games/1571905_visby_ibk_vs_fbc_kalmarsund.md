@@ -6,6 +6,26 @@ type: game
 game_id: 1571905
 home_team: Visby IBK
 away_team: FBC Kalmarsund
+start_time: 17:00:00
+result_string: 4-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.1,20.72,29.37,31.65,34.22,37.57,40.73,46.2,56.8,58.7,59.75
+timeline_diffs_csv: 0,1,2,1,0,-1,-2,-1,-2,-1,-2,-3
+timeline_home_goals_csv: 0,1,2,2,2,2,2,3,3,4,4,4
+timeline_away_goals_csv: 0,0,0,1,2,3,4,4,5,5,6,7
+home_goal_minutes_csv: 15.1,20.72,40.73,56.8
+home_goal_diffs_csv: 1,2,-1,-1
+away_goal_minutes_csv: 29.37,31.65,34.22,37.57,46.2,58.7,59.75
+away_goal_diffs_csv: 1,0,-1,-2,-2,-2,-3
+home_penalty_minutes_csv: 33.32,59.63
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 34.22,59.75
+away_penalty_minutes_csv: 14.53,59.63
+away_penalty_goals_csv: 0,6
+away_penalty_ends_csv: 15.1,63.63
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.63
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

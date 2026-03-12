@@ -6,6 +6,26 @@ type: game
 game_id: 1073931
 home_team: Floorball Thurgau
 away_team: Tigers Langnau
+start_time: 17:00
+result_string: 4:3 (0:2, 2:0, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.63,13.57,33.23,37.18,45.37,50.47,56.55
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,4
+timeline_away_goals_csv: 0,1,2,2,2,3,3,3
+home_goal_minutes_csv: 33.23,37.18,50.47,56.55
+home_goal_diffs_csv: -1,0,0,1
+away_goal_minutes_csv: 10.63,13.57,45.37
+away_goal_diffs_csv: -1,-2,-1
+home_penalty_minutes_csv: 9.18
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 10.63
+away_penalty_minutes_csv: 50.98
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 52.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

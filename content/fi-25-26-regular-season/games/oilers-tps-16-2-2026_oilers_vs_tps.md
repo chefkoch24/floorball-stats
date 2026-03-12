@@ -6,6 +6,26 @@ type: game
 game_id: oilers-tps-16-2-2026
 home_team: Oilers
 away_team: TPS
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.47,6.68,11.88,12.23,16.45,22.78,34.17,37.02,39.77,40.8,42.95,44.23,47.65,50.25,55.18
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,1,2,1,2,3,2,1,0,-1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,4,5,5,6,7,7,7,7,7
+timeline_away_goals_csv: 0,1,2,3,3,3,3,3,3,4,4,4,5,6,7,8
+home_goal_minutes_csv: 12.23,16.45,22.78,34.17,37.02,40.8,42.95
+home_goal_diffs_csv: -2,-1,0,1,2,2,3
+away_goal_minutes_csv: 5.47,6.68,11.88,39.77,44.23,47.65,50.25,55.18
+away_goal_diffs_csv: -1,-2,-3,1,2,1,0,-1
+home_penalty_minutes_csv: 12.47,19.98,37.73
+home_penalty_goals_csv: 1,2,5
+home_penalty_ends_csv: 14.47,21.98,39.73
+away_penalty_minutes_csv: 14.82,33.18,59.43
+away_penalty_goals_csv: 3,3,8
+away_penalty_ends_csv: 16.45,34.17,61.43
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.43
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

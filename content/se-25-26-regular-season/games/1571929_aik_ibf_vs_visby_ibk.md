@@ -6,6 +6,26 @@ type: game
 game_id: 1571929
 home_team: AIK IBF
 away_team: Visby IBK
+start_time: 19:00:00
+result_string: 5-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.83,18.43,35.45,39.43,41.52,49.32,50.77,59.93
+timeline_diffs_csv: 0,-1,0,-1,0,1,0,1,0
+timeline_home_goals_csv: 0,0,1,1,2,3,3,4,4
+timeline_away_goals_csv: 0,1,1,2,2,2,3,3,4
+home_goal_minutes_csv: 18.43,39.43,41.52,50.77
+home_goal_diffs_csv: 0,0,1,1
+away_goal_minutes_csv: 4.83,35.45,49.32,59.93
+away_goal_diffs_csv: -1,-1,0,0
+home_penalty_minutes_csv: 45.67,56.17,64.98,64.98
+home_penalty_goals_csv: 3,4,4,4
+home_penalty_ends_csv: 47.67,58.17,66.98,66.98
+away_penalty_minutes_csv: 40.92
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 41.52
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 66.98
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

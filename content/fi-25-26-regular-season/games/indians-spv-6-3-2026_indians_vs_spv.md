@@ -6,6 +6,26 @@ type: game
 game_id: indians-spv-6-3-2026
 home_team: Indians
 away_team: SPV
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.65,7.17,24.08,25.73,40.28,43.73,56.42,56.75
+timeline_diffs_csv: 0,-1,-2,-1,-2,-1,-2,-3,-4
+timeline_home_goals_csv: 0,0,0,1,1,2,2,2,2
+timeline_away_goals_csv: 0,1,2,2,3,3,4,5,6
+home_goal_minutes_csv: 24.08,40.28
+home_goal_diffs_csv: -1,-1
+away_goal_minutes_csv: 2.65,7.17,25.73,43.73,56.42,56.75
+away_goal_diffs_csv: -1,-2,-2,-2,-3,-4
+home_penalty_minutes_csv: 6.47,25.2
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 7.17,25.73
+away_penalty_minutes_csv: 47.5
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 49.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

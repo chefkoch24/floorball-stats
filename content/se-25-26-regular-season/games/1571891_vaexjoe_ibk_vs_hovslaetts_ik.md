@@ -6,6 +6,26 @@ type: game
 game_id: 1571891
 home_team: Växjö IBK
 away_team: Hovslätts IK
+start_time: 18:30:00
+result_string: 13-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.12,15.08,17.03,20.23,23.3,25.45,29.17,30.32,33.58,35.37,40.33,44.15,47.53,54.15,54.2,56.07,57.28,59.6,59.87
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,4,5,4,3,2,3,4,5,6,7,6,7
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,6,7,7,7,7,8,9,10,11,12,12,13
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,2,2,3,4,5,5,5,5,5,5,6,6
+home_goal_minutes_csv: 7.12,15.08,20.23,23.3,25.45,29.17,33.58,47.53,54.15,54.2,56.07,57.28,59.87
+home_goal_diffs_csv: 1,2,2,3,4,5,5,3,4,5,6,7,7
+away_goal_minutes_csv: 17.03,30.32,35.37,40.33,44.15,59.6
+away_goal_diffs_csv: 1,4,4,3,2,6
+home_penalty_minutes_csv: 6.78
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 8.78
+away_penalty_minutes_csv: 28.15,59.5
+away_penalty_goals_csv: 1,5
+away_penalty_ends_csv: 29.17,59.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

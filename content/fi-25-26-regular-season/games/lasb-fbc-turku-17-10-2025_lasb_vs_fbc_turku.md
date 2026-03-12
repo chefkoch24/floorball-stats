@@ -6,6 +6,26 @@ type: game
 game_id: lasb-fbc-turku-17-10-2025
 home_team: LASB
 away_team: FBC Turku
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.0,33.52,42.2,49.7,55.67,56.43,57.57
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-1
+timeline_home_goals_csv: 0,0,1,2,2,2,2,3
+timeline_away_goals_csv: 0,1,1,1,2,3,4,4
+home_goal_minutes_csv: 33.52,42.2,57.57
+home_goal_diffs_csv: 0,1,-1
+away_goal_minutes_csv: 2.0,49.7,55.67,56.43
+away_goal_diffs_csv: -1,0,-1,-2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 34.67
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 36.67
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

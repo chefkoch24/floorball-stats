@@ -6,6 +6,26 @@ type: game
 game_id: 1571801
 home_team: IBF Falun
 away_team: Jönköpings IK
+start_time: 18:30:00
+result_string: 10-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.0,6.82,12.23,14.43,15.02,15.57,17.42,28.37,35.8,38.82,40.67,42.52,53.42,54.65
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,1,2,3,4,5,4,3,4
+timeline_home_goals_csv: 0,0,1,2,2,2,3,4,5,6,7,8,8,8,9
+timeline_away_goals_csv: 0,1,1,1,2,3,3,3,3,3,3,3,4,5,5
+home_goal_minutes_csv: 6.82,12.23,15.57,17.42,28.37,35.8,38.82,40.67,54.65
+home_goal_diffs_csv: 0,1,0,1,2,3,4,5,4
+away_goal_minutes_csv: 3.0,14.43,15.02,42.52,53.42
+away_goal_diffs_csv: -1,0,-1,4,3
+home_penalty_minutes_csv: 22.35,55.53
+home_penalty_goals_csv: 4,9
+home_penalty_ends_csv: 24.35,57.53
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

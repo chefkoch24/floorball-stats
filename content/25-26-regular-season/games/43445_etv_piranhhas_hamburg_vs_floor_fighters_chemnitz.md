@@ -6,6 +6,26 @@ type: game
 game_id: 43445
 home_team: ETV Piranhhas Hamburg
 away_team: Floor Fighters Chemnitz
+start_time: 16:00
+result_string: 5:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,4.7,12.55,27.07,27.98,31.28,39.93,42.83,44.17
+timeline_diffs_csv: 0,1,2,3,2,3,2,3,2
+timeline_home_goals_csv: 0,1,2,3,3,4,4,5,5
+timeline_away_goals_csv: 0,0,0,0,1,1,2,2,3
+home_goal_minutes_csv: 4.7,12.55,27.07,31.28,42.83
+home_goal_diffs_csv: 1,2,3,3,3
+away_goal_minutes_csv: 27.98,39.93,44.17
+away_goal_diffs_csv: 2,2,2
+home_penalty_minutes_csv: 14.57,59.43
+home_penalty_goals_csv: 2,5
+home_penalty_ends_csv: 16.57,61.43
+away_penalty_minutes_csv: 25.6
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 27.07
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.43
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571824
 home_team: Nykvarns IBF
 away_team: AIK IBF
+start_time: 19:00:00
+result_string: 10-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.4,10.22,11.33,15.53,20.45,23.15,25.65,36.85,37.93,43.68,47.75,48.87,50.17,50.57
+timeline_diffs_csv: 0,1,0,1,2,3,4,5,4,5,6,5,6,7,6
+timeline_home_goals_csv: 0,1,1,2,3,4,5,6,6,7,8,8,9,10,10
+timeline_away_goals_csv: 0,0,1,1,1,1,1,1,2,2,2,3,3,3,4
+home_goal_minutes_csv: 3.4,11.33,15.53,20.45,23.15,25.65,37.93,43.68,48.87,50.17
+home_goal_diffs_csv: 1,1,2,3,4,5,5,6,6,7
+away_goal_minutes_csv: 10.22,36.85,47.75,50.57
+away_goal_diffs_csv: 0,4,5,6
+home_penalty_minutes_csv: 26.85
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 28.85
+away_penalty_minutes_csv: 13.87,44.08
+away_penalty_goals_csv: 1,2
+away_penalty_ends_csv: 15.53,46.08
+home_major_penalty_minutes_csv: 44.08
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

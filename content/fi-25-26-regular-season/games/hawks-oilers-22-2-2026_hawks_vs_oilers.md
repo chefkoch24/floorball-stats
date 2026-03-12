@@ -6,6 +6,26 @@ type: game
 game_id: hawks-oilers-22-2-2026
 home_team: Hawks
 away_team: Oilers
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.85,4.32,4.55,8.37,10.97,18.33,24.37,25.67,29.53,33.08,37.75,38.37,42.43,47.08,53.08,57.23,59.73
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-3,-4,-5,-6,-5,-4,-3,-4,-5,-4,-5
+timeline_home_goals_csv: 0,0,0,1,2,2,2,2,2,2,2,3,4,5,5,5,6,6
+timeline_away_goals_csv: 0,1,2,2,2,3,4,5,6,7,8,8,8,8,9,10,10,11
+home_goal_minutes_csv: 4.55,8.37,37.75,38.37,42.43,57.23
+home_goal_diffs_csv: -1,0,-5,-4,-3,-4
+away_goal_minutes_csv: 3.85,4.32,10.97,18.33,24.37,25.67,29.53,33.08,47.08,53.08,59.73
+away_goal_diffs_csv: -1,-2,-1,-2,-3,-4,-5,-6,-4,-5,-5
+home_penalty_minutes_csv: 29.23
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 29.53
+away_penalty_minutes_csv: 7.85,19.57,39.03
+away_penalty_goals_csv: 2,4,8
+away_penalty_ends_csv: 8.37,21.57,41.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

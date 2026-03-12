@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-nokian-krp-6-3-2026
 home_team: FBC Turku
 away_team: Nokian KrP
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.93,14.53,19.02,21.1,23.93,24.65,29.83,39.58,57.45,59.72
+timeline_diffs_csv: 0,1,0,1,0,-1,-2,-3,-2,-3,-4
+timeline_home_goals_csv: 0,1,1,2,2,2,2,2,3,3,3
+timeline_away_goals_csv: 0,0,1,1,2,3,4,5,5,6,7
+home_goal_minutes_csv: 5.93,19.02,39.58
+home_goal_diffs_csv: 1,1,-2
+away_goal_minutes_csv: 14.53,21.1,23.93,24.65,29.83,57.45,59.72
+away_goal_diffs_csv: 0,0,-1,-2,-3,-3,-4
+home_penalty_minutes_csv: 56.78
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 57.45
+away_penalty_minutes_csv: 43.37
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 45.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

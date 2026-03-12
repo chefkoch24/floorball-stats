@@ -6,6 +6,26 @@ type: game
 game_id: 43462
 home_team: Berlin Rockets
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 18:00
+result_string: 4:6
+ingame_status: period3
+timeline_minutes_csv: 0.0,2.25,13.93,27.9,31.52,36.43,37.57,49.47,52.85,57.05,59.83
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-4,-3,-4,-3,-2
+timeline_home_goals_csv: 0,0,1,1,1,1,1,2,2,3,4
+timeline_away_goals_csv: 0,1,1,2,3,4,5,5,6,6,6
+home_goal_minutes_csv: 13.93,49.47,57.05,59.83
+home_goal_diffs_csv: 0,-3,-3,-2
+away_goal_minutes_csv: 2.25,27.9,31.52,36.43,37.57,52.85
+away_goal_diffs_csv: -1,-1,-2,-3,-4,-4
+home_penalty_minutes_csv: 27.0,32.75,34.5
+home_penalty_goals_csv: 1,1,1
+home_penalty_ends_csv: 27.9,34.75,36.43
+away_penalty_minutes_csv: 22.07,47.45
+away_penalty_goals_csv: 1,5
+away_penalty_ends_csv: 24.07,49.45
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

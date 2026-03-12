@@ -6,6 +6,26 @@ type: game
 game_id: 1218341
 home_team: BA SOKOLI Pardubice
 away_team: 1. SC NATIOS Vítkovice
+start_time: nan
+result_string: 2:3
+ingame_status: nan
+timeline_minutes_csv: 0.0,40.47,43.62,49.68,87.38,91.52
+timeline_diffs_csv: 0,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,1,2,2,2
+timeline_away_goals_csv: 0,0,1,1,2,3
+home_goal_minutes_csv: 40.47,49.68
+home_goal_diffs_csv: 1,1
+away_goal_minutes_csv: 43.62,87.38,91.52
+away_goal_diffs_csv: 0,0,-1
+home_penalty_minutes_csv: 16.33
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 18.33
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 91.52
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

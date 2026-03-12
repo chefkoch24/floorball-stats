@@ -6,6 +6,26 @@ type: game
 game_id: tps-fbc-turku-13-2-2026
 home_team: TPS
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.3,16.03,27.45,36.52,36.7,58.25
+timeline_diffs_csv: 0,1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,2,3,4,5
+timeline_away_goals_csv: 0,0,1,1,1,1,1
+home_goal_minutes_csv: 4.3,27.45,36.52,36.7,58.25
+home_goal_diffs_csv: 1,1,2,3,4
+away_goal_minutes_csv: 16.03
+away_goal_diffs_csv: 0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 27.27,27.27,33.35
+away_penalty_goals_csv: 1,1,1
+away_penalty_ends_csv: 27.45,27.45,35.35
+home_major_penalty_minutes_csv: 28.92
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218429
 home_team: Florbal Ústí
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 5:8
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.48,1.28,9.85,12.35,18.13,41.33,42.55,50.1,56.6,58.55,83.93,89.43,98.88
+timeline_diffs_csv: 0,1,2,1,0,1,0,-1,-2,-1,-2,-1,-2,-3
+timeline_home_goals_csv: 0,1,2,2,2,3,3,3,3,4,4,5,5,5
+timeline_away_goals_csv: 0,0,0,1,2,2,3,4,5,5,6,6,7,8
+home_goal_minutes_csv: 0.48,1.28,18.13,56.6,83.93
+home_goal_diffs_csv: 1,2,1,-1,-1
+away_goal_minutes_csv: 9.85,12.35,41.33,42.55,50.1,58.55,89.43,98.88
+away_goal_diffs_csv: 1,0,0,-1,-2,-2,-2,-3
+home_penalty_minutes_csv: 88.42,89.27
+home_penalty_goals_csv: 5,5
+home_penalty_ends_csv: 89.43,89.43
+away_penalty_minutes_csv: 19.92
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 21.92
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.88
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

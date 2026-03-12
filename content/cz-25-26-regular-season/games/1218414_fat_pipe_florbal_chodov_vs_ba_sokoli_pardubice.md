@@ -6,6 +6,26 @@ type: game
 game_id: 1218414
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: BA SOKOLI Pardubice
+start_time: nan
+result_string: 7:3
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.88,17.18,46.15,50.82,54.42,59.9,90.05,90.75,90.75,96.87,98.95,99.98
+timeline_diffs_csv: 0,1,2,1,2,1,2,3,0,0,4,3,4
+timeline_home_goals_csv: 0,1,2,2,3,3,4,5,0,0,6,6,7
+timeline_away_goals_csv: 0,0,0,1,1,2,2,2,0,0,2,3,3
+home_goal_minutes_csv: 6.88,17.18,50.82,59.9,90.05,96.87,99.98
+home_goal_diffs_csv: 1,2,2,2,3,4,4
+away_goal_minutes_csv: 46.15,54.42,90.75,90.75,98.95
+away_goal_diffs_csv: 1,1,0,0,3
+home_penalty_minutes_csv: 54.15
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 54.42
+away_penalty_minutes_csv: 41.95,88.98
+away_penalty_goals_csv: 0,2
+away_penalty_ends_csv: 43.95,90.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.98
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

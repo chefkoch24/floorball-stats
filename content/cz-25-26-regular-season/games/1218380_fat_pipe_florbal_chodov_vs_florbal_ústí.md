@@ -6,6 +6,26 @@ type: game
 game_id: 1218380
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: Florbal Ústí
+start_time: nan
+result_string: 8:1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.65,8.15,8.67,44.78,49.45,53.25,88.7,96.75,97.82
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,6,7
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,7,8
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,1,1
+home_goal_minutes_csv: 3.65,8.15,44.78,49.45,53.25,88.7,96.75,97.82
+home_goal_diffs_csv: 1,2,2,3,4,5,6,7
+away_goal_minutes_csv: 8.67
+away_goal_diffs_csv: 1
+home_penalty_minutes_csv: 93.72
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 95.72
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.82
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571881
 home_team: IBF Falun
 away_team: AIK IBF
+start_time: 17:07:00
+result_string: 5-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.05,17.5,18.08,27.73,37.15,38.67,49.27,58.05
+timeline_diffs_csv: 0,1,2,1,2,3,2,1,2
+timeline_home_goals_csv: 0,1,2,2,3,4,4,4,5
+timeline_away_goals_csv: 0,0,0,1,1,1,2,3,3
+home_goal_minutes_csv: 9.05,17.5,27.73,37.15,58.05
+home_goal_diffs_csv: 1,2,2,3,2
+away_goal_minutes_csv: 18.08,38.67,49.27
+away_goal_diffs_csv: 1,2,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

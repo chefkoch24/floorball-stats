@@ -6,6 +6,26 @@ type: game
 game_id: 1073918
 home_team: Unihockey Basel Regio
 away_team: Grasshopper Club Zürich
+start_time: 16:00
+result_string: 2:4 (0:0, 0:1, 2:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,22.88,43.38,44.05,44.65,54.08,59.98
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,0,1,1,2
+timeline_away_goals_csv: 0,1,2,3,3,4,4
+home_goal_minutes_csv: 44.65,59.98
+home_goal_diffs_csv: -2,-2
+away_goal_minutes_csv: 22.88,43.38,44.05,54.08
+away_goal_diffs_csv: -1,-2,-3,-3
+home_penalty_minutes_csv: 12.28,24.62
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 14.28,26.62
+away_penalty_minutes_csv: 36.7
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 38.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

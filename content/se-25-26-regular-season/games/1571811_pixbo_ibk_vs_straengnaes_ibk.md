@@ -6,6 +6,26 @@ type: game
 game_id: 1571811
 home_team: Pixbo IBK
 away_team: Strängnäs IBK
+start_time: 16:00:00
+result_string: 7-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.62,4.42,5.52,9.28,18.12,25.03,28.15,35.6,37.0,41.2,41.98,49.88,55.33,58.48,63.0
+timeline_diffs_csv: 0,-1,0,-1,0,1,2,3,4,3,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,1,2,3,4,5,6,6,6,6,6,7,7,7
+timeline_away_goals_csv: 0,1,1,2,2,2,2,2,2,3,4,5,6,6,7,8
+home_goal_minutes_csv: 4.42,9.28,18.12,25.03,28.15,35.6,55.33
+home_goal_diffs_csv: 0,0,1,2,3,4,1
+away_goal_minutes_csv: 1.62,5.52,37.0,41.2,41.98,49.88,58.48,63.0
+away_goal_diffs_csv: -1,-1,3,2,1,0,0,-1
+home_penalty_minutes_csv: 36.83,52.4,62.43
+home_penalty_goals_csv: 6,6,7
+home_penalty_ends_csv: 37.0,54.4,63.0
+away_penalty_minutes_csv: 52.4
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 54.4
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

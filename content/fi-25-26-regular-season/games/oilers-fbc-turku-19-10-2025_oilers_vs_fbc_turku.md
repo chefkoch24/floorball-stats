@@ -6,6 +6,26 @@ type: game
 game_id: oilers-fbc-turku-19-10-2025
 home_team: Oilers
 away_team: FBC Turku
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.03,6.5,17.52,18.87,21.8,27.63,34.27,37.88,43.48,44.05,44.67,48.38,48.7,49.4,52.58,55.38,56.17,57.17
+timeline_diffs_csv: 0,1,2,3,4,5,6,5,6,7,8,9,10,11,10,9,10,9,8
+timeline_home_goals_csv: 0,1,2,3,4,5,6,6,7,8,9,10,11,12,12,12,13,13,13
+timeline_away_goals_csv: 0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,3,3,4,5
+home_goal_minutes_csv: 2.03,6.5,17.52,18.87,21.8,27.63,37.88,43.48,44.05,44.67,48.38,48.7,55.38
+home_goal_diffs_csv: 1,2,3,4,5,6,6,7,8,9,10,11,10
+away_goal_minutes_csv: 34.27,49.4,52.58,56.17,57.17
+away_goal_diffs_csv: 5,10,9,9,8
+home_penalty_minutes_csv: 51.9,51.9,54.03
+home_penalty_goals_csv: 12,12,12
+home_penalty_ends_csv: 52.58,52.58,56.03
+away_penalty_minutes_csv: 6.17,46.58
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 6.5,48.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

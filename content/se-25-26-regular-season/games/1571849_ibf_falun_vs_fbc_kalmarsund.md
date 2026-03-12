@@ -6,6 +6,26 @@ type: game
 game_id: 1571849
 home_team: IBF Falun
 away_team: FBC Kalmarsund
+start_time: 17:07:00
+result_string: 8-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.35,7.13,9.02,15.35,19.97,27.53,47.1,53.2,54.18,56.4,57.45
+timeline_diffs_csv: 0,1,2,3,4,5,6,5,4,3,4,4
+timeline_home_goals_csv: 0,1,2,3,4,5,6,6,6,6,7,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,1,2,3,3,4
+home_goal_minutes_csv: 5.35,7.13,9.02,15.35,19.97,27.53,56.4
+home_goal_diffs_csv: 1,2,3,4,5,6,4
+away_goal_minutes_csv: 47.1,53.2,54.18,57.45
+away_goal_diffs_csv: 5,4,3,4
+home_penalty_minutes_csv: 43.62
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 45.62
+away_penalty_minutes_csv: 43.62,48.12
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 45.62,50.12
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

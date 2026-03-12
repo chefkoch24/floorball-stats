@@ -6,6 +6,26 @@ type: game
 game_id: 1571842
 home_team: FBC Kalmarsund
 away_team: Mullsjö AIS
+start_time: 19:00:00
+result_string: 10-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.68,5.72,6.03,8.17,10.42,10.58,11.22,25.57,30.95,37.87,38.82,42.95,44.2,53.43,54.92,59.98
+timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,3,4,3,4,5,4,3,4
+timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,6,7,7,8,9,9,9,10
+timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,3,3,4,4,4,5,6,6
+home_goal_minutes_csv: 0.68,6.03,8.17,10.42,11.22,30.95,37.87,42.95,44.2,59.98
+home_goal_diffs_csv: 1,1,2,3,3,3,4,4,5,4
+away_goal_minutes_csv: 5.72,10.58,25.57,38.82,53.43,54.92
+away_goal_diffs_csv: 0,2,2,3,4,3
+home_penalty_minutes_csv: 28.53,45.83
+home_penalty_goals_csv: 5,9
+home_penalty_ends_csv: 30.53,47.83
+away_penalty_minutes_csv: 6.78
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 8.17
+home_major_penalty_minutes_csv: 49.72
+away_major_penalty_minutes_csv: 8.4
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

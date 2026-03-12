@@ -6,6 +6,26 @@ type: game
 game_id: 1218447
 home_team: FBC 4CLEAN Česká Lípa
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 5:13
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.83,5.57,6.43,10.0,13.3,18.78,40.62,44.3,46.08,47.6,48.4,51.75,56.8,80.73,91.35,92.93,93.58,96.02
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-4,-5,-4,-5,-6,-5,-4,-5,-6,-7,-8
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,2,2,3,3,3,4,5,5,5,5,5
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,6,7,7,8,9,9,9,10,11,12,13
+home_goal_minutes_csv: 10.0,13.3,47.6,56.8,80.73
+home_goal_diffs_csv: -2,-1,-4,-5,-4
+away_goal_minutes_csv: 4.83,5.57,6.43,18.78,40.62,44.3,46.08,48.4,51.75,91.35,92.93,93.58,96.02
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-4,-5,-5,-6,-5,-6,-7,-8
+home_penalty_minutes_csv: 90.33
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 91.35
+away_penalty_minutes_csv: 55.97
+away_penalty_goals_csv: 9
+away_penalty_ends_csv: 56.8
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 96.02
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

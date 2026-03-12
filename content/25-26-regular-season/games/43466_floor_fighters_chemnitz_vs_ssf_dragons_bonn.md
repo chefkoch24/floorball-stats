@@ -6,6 +6,26 @@ type: game
 game_id: 43466
 home_team: Floor Fighters Chemnitz
 away_team: SSF Dragons Bonn
+start_time: 16:00
+result_string: 7:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.5,4.38,13.8,22.75,29.83,36.6,39.47,41.48,43.88,51.88,53.25,58.28
+timeline_diffs_csv: 0,1,2,1,2,1,0,1,2,3,4,3,2
+timeline_home_goals_csv: 0,1,2,2,3,3,3,4,5,6,7,7,7
+timeline_away_goals_csv: 0,0,0,1,1,2,3,3,3,3,3,4,5
+home_goal_minutes_csv: 1.5,4.38,22.75,39.47,41.48,43.88,51.88
+home_goal_diffs_csv: 1,2,2,1,2,3,4
+away_goal_minutes_csv: 13.8,29.83,36.6,53.25,58.28
+away_goal_diffs_csv: 1,1,0,3,2
+home_penalty_minutes_csv: 29.4,53.22,56.37
+home_penalty_goals_csv: 3,7,7
+home_penalty_ends_csv: 29.83,53.25,58.28
+away_penalty_minutes_csv: 38.28
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 39.47
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

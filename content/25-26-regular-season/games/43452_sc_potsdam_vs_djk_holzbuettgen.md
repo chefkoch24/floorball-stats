@@ -6,6 +6,26 @@ type: game
 game_id: 43452
 home_team: SC Potsdam
 away_team: DJK Holzbüttgen
+start_time: 14:00
+result_string: 4:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,0.42,17.87,22.4,25.37,29.75,35.43,36.45,38.57,43.35,48.67,53.88,57.17,59.9
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-1,-2,-3,-4,-5
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,5,6,7,8,9
+home_goal_minutes_csv: 17.87,22.4,25.37,43.35
+home_goal_diffs_csv: 0,1,2,-1
+away_goal_minutes_csv: 0.42,29.75,35.43,36.45,38.57,48.67,53.88,57.17,59.9
+away_goal_diffs_csv: -1,1,0,-1,-2,-2,-3,-4,-5
+home_penalty_minutes_csv: 31.12,38.57,43.45,47.73,52.93
+home_penalty_goals_csv: 3,3,4,4,4
+home_penalty_ends_csv: 33.12,38.57,45.45,48.67,53.88
+away_penalty_minutes_csv: 20.33,41.85,59.28
+away_penalty_goals_csv: 1,5,8
+away_penalty_ends_csv: 22.33,43.35,61.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.28
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

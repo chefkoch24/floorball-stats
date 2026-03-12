@@ -6,6 +6,26 @@ type: game
 game_id: 1218395
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: FBŠ Hummel Hattrick Brno
+start_time: nan
+result_string: 10:8
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.32,41.12,44.75,47.65,49.42,54.33,54.57,58.77,59.98,80.5,86.53,88.27,88.77,89.73,92.35,93.03,93.7,98.3
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-1,-2,-3,-2,-3,-2,-1,0,1,2,1,2
+timeline_home_goals_csv: 0,0,0,1,2,2,2,3,3,3,4,4,5,6,7,8,9,9,10
+timeline_away_goals_csv: 0,1,2,2,2,3,4,4,5,6,6,7,7,7,7,7,7,8,8
+home_goal_minutes_csv: 44.75,47.65,54.57,80.5,88.27,88.77,89.73,92.35,93.03,98.3
+home_goal_diffs_csv: -1,0,-1,-2,-2,-1,0,1,2,2
+away_goal_minutes_csv: 9.32,41.12,49.42,54.33,58.77,59.98,86.53,93.7
+away_goal_diffs_csv: -1,-2,-1,-2,-2,-3,-3,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.3
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

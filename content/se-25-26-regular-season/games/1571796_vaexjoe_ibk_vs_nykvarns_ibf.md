@@ -6,6 +6,26 @@ type: game
 game_id: 1571796
 home_team: Växjö IBK
 away_team: Nykvarns IBF
+start_time: 18:00:00
+result_string: 6-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.28,15.9,16.85,22.98,31.63,38.7,41.68,43.08,45.28,49.68,50.23,58.73
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,1,0,-1,-2,-1,0
+timeline_home_goals_csv: 0,1,1,1,1,2,3,4,4,4,4,5,6
+timeline_away_goals_csv: 0,0,1,2,3,3,3,3,4,5,6,6,6
+home_goal_minutes_csv: 9.28,31.63,38.7,41.68,50.23,58.73
+home_goal_diffs_csv: 1,-1,0,1,-1,0
+away_goal_minutes_csv: 15.9,16.85,22.98,43.08,45.28,49.68
+away_goal_diffs_csv: 0,-1,-2,0,-1,-2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 29.58
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 31.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

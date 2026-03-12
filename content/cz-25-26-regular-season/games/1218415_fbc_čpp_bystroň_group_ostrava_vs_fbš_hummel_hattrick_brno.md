@@ -6,6 +6,26 @@ type: game
 game_id: 1218415
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: FBŠ Hummel Hattrick Brno
+start_time: nan
+result_string: 5:1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.3,81.35,92.53,94.52,95.7,97.0,98.7,98.7,98.7
+timeline_diffs_csv: 0,1,2,3,4,3,4,0,0,0
+timeline_home_goals_csv: 0,1,2,3,4,4,5,0,0,0
+timeline_away_goals_csv: 0,0,0,0,0,1,1,0,0,0
+home_goal_minutes_csv: 1.3,81.35,92.53,94.52,97.0,98.7,98.7,98.7
+home_goal_diffs_csv: 1,2,3,4,4,0,0,0
+away_goal_minutes_csv: 95.7
+away_goal_diffs_csv: 3
+home_penalty_minutes_csv: 43.1,49.65
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 45.1,51.65
+away_penalty_minutes_csv: 47.77,99.85
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 49.77,101.85
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 101.85
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

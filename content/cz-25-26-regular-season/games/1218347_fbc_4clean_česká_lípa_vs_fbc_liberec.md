@@ -6,6 +6,26 @@ type: game
 game_id: 1218347
 home_team: FBC 4CLEAN Česká Lípa
 away_team: FBC Liberec
+start_time: nan
+result_string: 6:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.3,13.53,43.22,49.85,50.07,53.8,57.97,82.48,85.83,92.4
+timeline_diffs_csv: 0,1,0,1,2,3,2,1,2,1,0
+timeline_home_goals_csv: 0,1,1,2,3,4,4,4,5,5,5
+timeline_away_goals_csv: 0,0,1,1,1,1,2,3,3,4,5
+home_goal_minutes_csv: 8.3,43.22,49.85,50.07,82.48
+home_goal_diffs_csv: 1,1,2,3,2
+away_goal_minutes_csv: 13.53,53.8,57.97,85.83,92.4
+away_goal_diffs_csv: 0,2,1,1,0
+home_penalty_minutes_csv: 52.12
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 53.8
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 92.4
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218437
 home_team: Kanonýři Kladno
 away_team: FAT PIPE FLORBAL CHODOV
+start_time: nan
+result_string: 7:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.47,13.98,15.2,16.9,46.75,53.1,55.08,56.72,91.22,98.37,99.88,99.88
+timeline_diffs_csv: 0,-1,0,1,0,1,0,-1,0,1,2,3,0
+timeline_home_goals_csv: 0,0,1,2,2,3,3,3,4,5,6,7,0
+timeline_away_goals_csv: 0,1,1,1,2,2,3,4,4,4,4,4,0
+home_goal_minutes_csv: 13.98,15.2,46.75,56.72,91.22,98.37,99.88,99.88
+home_goal_diffs_csv: 0,1,1,0,1,2,3,0
+away_goal_minutes_csv: 4.47,16.9,53.1,55.08
+away_goal_diffs_csv: -1,0,0,-1
+home_penalty_minutes_csv: 4.25,94.28
+home_penalty_goals_csv: 0,5
+home_penalty_ends_csv: 4.47,96.28
+away_penalty_minutes_csv: 90.77,94.28
+away_penalty_goals_csv: 4,4
+away_penalty_ends_csv: 91.22,96.28
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.88
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

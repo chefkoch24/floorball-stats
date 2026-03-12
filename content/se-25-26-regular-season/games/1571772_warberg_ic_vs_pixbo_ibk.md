@@ -6,6 +6,26 @@ type: game
 game_id: 1571772
 home_team: Warberg IC
 away_team: Pixbo IBK
+start_time: 19:00:00
+result_string: 2-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,20.62,23.98,29.88,43.17,50.03,53.27,58.75
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3
+timeline_home_goals_csv: 0,0,0,1,1,1,1,2
+timeline_away_goals_csv: 0,1,2,2,3,4,5,5
+home_goal_minutes_csv: 29.88,58.75
+home_goal_diffs_csv: -1,-3
+away_goal_minutes_csv: 20.62,23.98,43.17,50.03,53.27
+away_goal_diffs_csv: -1,-2,-2,-3,-4
+home_penalty_minutes_csv: 19.52,59.42
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 20.62,61.42
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.42
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218440
 home_team: BA SOKOLI Pardubice
 away_team: FBŠ Hummel Hattrick Brno
+start_time: nan
+result_string: 8:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.45,19.55,42.75,43.33,48.5,51.22,51.62,57.83,82.75,85.5,88.35,90.87,92.02,92.02,92.22
+timeline_diffs_csv: 0,1,2,3,4,5,0,6,5,4,3,4,3,0,2,3
+timeline_home_goals_csv: 0,1,2,3,4,5,0,6,6,6,6,7,7,0,7,8
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,2,3,3,4,0,5,5
+home_goal_minutes_csv: 9.45,19.55,42.75,43.33,48.5,51.22,51.62,88.35,92.02,92.22
+home_goal_diffs_csv: 1,2,3,4,5,0,6,4,0,3
+away_goal_minutes_csv: 57.83,82.75,85.5,90.87,92.02
+away_goal_diffs_csv: 5,4,3,3,2
+home_penalty_minutes_csv: 85.47,90.02,94.28,98.53
+home_penalty_goals_csv: 6,7,8,8
+home_penalty_ends_csv: 85.5,90.87,96.28,100.53
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 100.53
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

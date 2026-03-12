@@ -6,6 +6,26 @@ type: game
 game_id: 1218344
 home_team: TJ Sokol Královské Vinohrady
 away_team: FBC 4CLEAN Česká Lípa
+start_time: nan
+result_string: 2:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,9.68,18.47,46.82,88.85,97.63,99.58,99.58
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,0
+timeline_home_goals_csv: 0,0,0,1,2,2,2,0
+timeline_away_goals_csv: 0,1,2,2,2,3,4,0
+home_goal_minutes_csv: 46.82,88.85
+home_goal_diffs_csv: -1,0
+away_goal_minutes_csv: 9.68,18.47,97.63,99.58,99.58
+away_goal_diffs_csv: -1,-2,-1,-2,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.58
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073928
 home_team: Unihockey Basel Regio
 away_team: WASA St. Gallen
+start_time: 16:00
+result_string: 6:5 (3:1, 1:1, 1:3, 0:0) n.P.
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.33,11.75,13.53,19.85,25.73,38.07,40.17,44.08,53.1,58.0
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,2,1,0
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,5,5
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,3,4,5
+home_goal_minutes_csv: 11.75,13.53,19.85,38.07,40.17
+home_goal_diffs_csv: 0,1,2,2,3
+away_goal_minutes_csv: 6.33,25.73,44.08,53.1,58.0
+away_goal_diffs_csv: -1,1,2,1,0
+home_penalty_minutes_csv: 61.23
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 63.23
+away_penalty_minutes_csv: 26.38
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 28.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.23
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

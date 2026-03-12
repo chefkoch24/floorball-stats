@@ -6,6 +6,26 @@ type: game
 game_id: 1571771
 home_team: Nykvarns IBF
 away_team: Storvreta IBK
+start_time: 19:00:00
+result_string: 3-10
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.9,9.15,15.58,16.0,16.63,20.12,25.17,32.5,36.07,37.23,48.2,50.37,55.07
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,-1,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,1,1,1,1,2,3,3,3,3,3,3,3,3
+timeline_away_goals_csv: 0,0,1,2,3,3,3,4,5,6,7,8,9,10
+home_goal_minutes_csv: 7.9,16.63,20.12
+home_goal_diffs_csv: 1,-1,0
+away_goal_minutes_csv: 9.15,15.58,16.0,25.17,32.5,36.07,37.23,48.2,50.37,55.07
+away_goal_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 31.83
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 32.5
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

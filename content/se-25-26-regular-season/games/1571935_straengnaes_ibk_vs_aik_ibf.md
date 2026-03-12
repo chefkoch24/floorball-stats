@@ -6,6 +6,26 @@ type: game
 game_id: 1571935
 home_team: Strängnäs IBK
 away_team: AIK IBF
+start_time: 15:00:00
+result_string: 4-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,18.4,19.0,20.88,21.43,36.28,40.83,47.48,49.43,51.17
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-1,-2,-1
+timeline_home_goals_csv: 0,0,0,1,2,2,2,3,3,4
+timeline_away_goals_csv: 0,1,2,2,2,3,4,4,5,5
+home_goal_minutes_csv: 20.88,21.43,47.48,51.17
+home_goal_diffs_csv: -1,0,-1,-1
+away_goal_minutes_csv: 18.4,19.0,36.28,40.83,49.43
+away_goal_diffs_csv: -1,-2,-1,-2,-2
+home_penalty_minutes_csv: 31.47,57.47
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 33.47,59.47
+away_penalty_minutes_csv: 12.58
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 14.58
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

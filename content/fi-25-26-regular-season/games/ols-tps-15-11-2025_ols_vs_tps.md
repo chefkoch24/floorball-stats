@@ -6,6 +6,26 @@ type: game
 game_id: ols-tps-15-11-2025
 home_team: OLS
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.73,5.97,19.87,24.7,30.87,33.38,35.82,38.08,43.03,43.58,44.48,47.22,54.07,57.95,59.3
+timeline_diffs_csv: 0,1,2,1,0,-1,0,1,2,3,4,5,6,5,4,3
+timeline_home_goals_csv: 0,1,2,2,2,2,3,4,5,6,7,8,9,9,9,9
+timeline_away_goals_csv: 0,0,0,1,2,3,3,3,3,3,3,3,3,4,5,6
+home_goal_minutes_csv: 2.73,5.97,33.38,35.82,38.08,43.03,43.58,44.48,47.22
+home_goal_diffs_csv: 1,2,0,1,2,3,4,5,6
+away_goal_minutes_csv: 19.87,24.7,30.87,54.07,57.95,59.3
+away_goal_diffs_csv: 1,0,-1,5,4,3
+home_penalty_minutes_csv: 56.6
+home_penalty_goals_csv: 9
+home_penalty_ends_csv: 57.95
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

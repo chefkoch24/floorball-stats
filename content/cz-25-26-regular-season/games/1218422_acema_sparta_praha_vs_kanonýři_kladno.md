@@ -6,6 +6,26 @@ type: game
 game_id: 1218422
 home_team: ACEMA Sparta Praha
 away_team: Kanonýři Kladno
+start_time: nan
+result_string: 10:3
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.33,7.3,17.97,43.55,45.63,47.97,81.42,82.3,86.75,90.62,93.43,94.47,97.28
+timeline_diffs_csv: 0,-1,0,1,2,3,4,5,6,7,6,7,6,7
+timeline_home_goals_csv: 0,0,1,2,3,4,5,6,7,8,8,9,9,10
+timeline_away_goals_csv: 0,1,1,1,1,1,1,1,1,1,2,2,3,3
+home_goal_minutes_csv: 7.3,17.97,43.55,45.63,47.97,81.42,82.3,86.75,93.43,97.28
+home_goal_diffs_csv: 0,1,2,3,4,5,6,7,7,7
+away_goal_minutes_csv: 5.33,90.62,94.47
+away_goal_diffs_csv: -1,6,6
+home_penalty_minutes_csv: 50.83
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 52.83
+away_penalty_minutes_csv: 11.1
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 13.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.28
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

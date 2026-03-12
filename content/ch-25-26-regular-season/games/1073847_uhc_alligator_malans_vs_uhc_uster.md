@@ -6,6 +6,26 @@ type: game
 game_id: 1073847
 home_team: UHC Alligator Malans
 away_team: UHC Uster
+start_time: 17:00
+result_string: 5:4 (2:1, 3:2, 0:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.97,9.97,14.23,23.18,24.6,30.6,33.53,38.53
+timeline_diffs_csv: 0,1,2,1,2,3,2,1,2
+timeline_home_goals_csv: 0,1,2,2,3,4,4,4,5
+timeline_away_goals_csv: 0,0,0,1,1,1,2,3,3
+home_goal_minutes_csv: 3.97,9.97,23.18,24.6,38.53
+home_goal_diffs_csv: 1,2,2,3,2
+away_goal_minutes_csv: 14.23,30.6,33.53
+away_goal_diffs_csv: 1,2,1
+home_penalty_minutes_csv: 10.43,19.43,52.15
+home_penalty_goals_csv: 2,2,5
+home_penalty_ends_csv: 12.43,21.43,54.15
+away_penalty_minutes_csv: 22.72,54.88
+away_penalty_goals_csv: 1,3
+away_penalty_ends_csv: 23.18,56.88
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

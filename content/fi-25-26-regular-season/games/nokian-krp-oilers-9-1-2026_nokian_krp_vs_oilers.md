@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-oilers-9-1-2026
 home_team: Nokian KrP
 away_team: Oilers
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,18.4,32.02,35.3,39.72,56.35,58.37,59.13,59.47
+timeline_diffs_csv: 0,-1,0,1,0,1,2,3,4
+timeline_home_goals_csv: 0,0,1,2,2,3,4,5,6
+timeline_away_goals_csv: 0,1,1,1,2,2,2,2,2
+home_goal_minutes_csv: 32.02,35.3,56.35,58.37,59.13,59.47
+home_goal_diffs_csv: 0,1,1,2,3,4
+away_goal_minutes_csv: 18.4,39.72
+away_goal_diffs_csv: -1,0
+home_penalty_minutes_csv: 11.7
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 13.7
+away_penalty_minutes_csv: 15.68,22.08
+away_penalty_goals_csv: 0,1
+away_penalty_ends_csv: 17.68,24.08
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

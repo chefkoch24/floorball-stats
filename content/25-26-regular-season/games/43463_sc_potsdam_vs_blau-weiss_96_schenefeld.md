@@ -6,6 +6,26 @@ type: game
 game_id: 43463
 home_team: SC Potsdam
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 14:00
+result_string: 12:4
+ingame_status: period3
+timeline_minutes_csv: 0.0,13.3,21.82,28.33,29.77,33.13,38.13,39.32,39.9,44.2,46.02,48.85,51.87,53.92,55.42,57.32,59.65
+timeline_diffs_csv: 0,1,2,3,4,5,4,3,4,5,4,3,4,5,6,7,8
+timeline_home_goals_csv: 0,1,2,3,4,5,5,5,6,7,7,7,8,9,10,11,12
+timeline_away_goals_csv: 0,0,0,0,0,0,1,2,2,2,3,4,4,4,4,4,4
+home_goal_minutes_csv: 13.3,21.82,28.33,29.77,33.13,39.9,44.2,51.87,53.92,55.42,57.32,59.65
+home_goal_diffs_csv: 1,2,3,4,5,4,5,4,5,6,7,8
+away_goal_minutes_csv: 38.13,39.32,46.02,48.85
+away_goal_diffs_csv: 4,3,4,3
+home_penalty_minutes_csv: 3.75,12.2,27.47,36.63,44.85,48.07
+home_penalty_goals_csv: 0,0,2,5,7,7
+home_penalty_ends_csv: 5.75,14.2,29.47,38.13,46.02,48.85
+away_penalty_minutes_csv: 42.53
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 44.2
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

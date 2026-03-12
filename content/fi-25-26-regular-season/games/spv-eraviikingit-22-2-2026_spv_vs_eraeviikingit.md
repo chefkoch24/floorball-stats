@@ -6,6 +6,26 @@ type: game
 game_id: spv-eraviikingit-22-2-2026
 home_team: SPV
 away_team: EräViikingit
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.38,14.6,19.1,31.22,41.33,41.68,44.5,59.92
+timeline_diffs_csv: 0,1,0,1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,2,2,3,4,5,6
+timeline_away_goals_csv: 0,0,1,1,2,2,2,2,2
+home_goal_minutes_csv: 6.38,19.1,41.33,41.68,44.5,59.92
+home_goal_diffs_csv: 1,1,1,2,3,4
+away_goal_minutes_csv: 14.6,31.22
+away_goal_diffs_csv: 0,0
+home_penalty_minutes_csv: 24.8,37.33
+home_penalty_goals_csv: 2,2
+home_penalty_ends_csv: 26.8,39.33
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

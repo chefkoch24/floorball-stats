@@ -6,6 +6,26 @@ type: game
 game_id: 43487
 home_team: MFBC Leipzig
 away_team: SC Potsdam
+start_time: 16:00
+result_string: 8:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,11.28,15.47,21.4,23.55,25.2,33.7,39.25,43.37,55.78,56.98,59.17
+timeline_diffs_csv: 0,1,0,1,2,3,4,5,4,3,4,5
+timeline_home_goals_csv: 0,1,1,2,3,4,5,6,6,6,7,8
+timeline_away_goals_csv: 0,0,1,1,1,1,1,1,2,3,3,3
+home_goal_minutes_csv: 11.28,21.4,23.55,25.2,33.7,39.25,56.98,59.17
+home_goal_diffs_csv: 1,1,2,3,4,5,4,5
+away_goal_minutes_csv: 15.47,43.37,55.78
+away_goal_diffs_csv: 0,4,3
+home_penalty_minutes_csv: 27.58,42.9
+home_penalty_goals_csv: 4,6
+home_penalty_ends_csv: 29.58,43.37
+away_penalty_minutes_csv: 19.4,32.15
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 21.4,33.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

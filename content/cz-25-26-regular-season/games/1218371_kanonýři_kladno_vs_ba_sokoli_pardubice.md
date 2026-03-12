@@ -6,6 +6,26 @@ type: game
 game_id: 1218371
 home_team: Kanonýři Kladno
 away_team: BA SOKOLI Pardubice
+start_time: nan
+result_string: 1:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,16.42,40.88,49.38,49.47,86.13,88.48,88.88
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,0,-4
+timeline_home_goals_csv: 0,0,0,0,0,0,0,1
+timeline_away_goals_csv: 0,1,2,3,4,5,0,5
+home_goal_minutes_csv: 88.48,88.88
+home_goal_diffs_csv: 0,-4
+away_goal_minutes_csv: 16.42,40.88,49.38,49.47,86.13
+away_goal_diffs_csv: -1,-2,-3,-4,-5
+home_penalty_minutes_csv: 15.48,19.6,40.6,55.27
+home_penalty_goals_csv: 0,0,0,0
+home_penalty_ends_csv: 16.42,21.6,40.88,57.27
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 88.88
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

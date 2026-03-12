@@ -6,6 +6,26 @@ type: game
 game_id: 1073890
 home_team: Floorball Thurgau
 away_team: Unihockey Basel Regio
+start_time: 18:00
+result_string: 3:4 (2:1, 1:2, 0:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.0,14.72,16.65,21.62,25.87,28.65,57.4
+timeline_diffs_csv: 0,1,2,1,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,3,3,3,3
+timeline_away_goals_csv: 0,0,0,1,1,2,3,4
+home_goal_minutes_csv: 5.0,14.72,21.62
+home_goal_diffs_csv: 1,2,2
+away_goal_minutes_csv: 16.65,25.87,28.65,57.4
+away_goal_diffs_csv: 1,1,0,-1
+home_penalty_minutes_csv: 46.0,59.43
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 48.0,61.43
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.43
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

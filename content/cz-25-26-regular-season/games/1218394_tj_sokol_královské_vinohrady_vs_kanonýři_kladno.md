@@ -6,6 +6,26 @@ type: game
 game_id: 1218394
 home_team: TJ Sokol Královské Vinohrady
 away_team: Kanonýři Kladno
+start_time: nan
+result_string: 7:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.57,5.88,12.67,14.3,16.53,41.63,43.22,44.43,56.48,85.47,91.85,95.05
+timeline_diffs_csv: 0,1,0,1,0,-1,-2,-1,0,-1,0,-1,0
+timeline_home_goals_csv: 0,1,1,2,2,2,2,3,4,4,5,5,6
+timeline_away_goals_csv: 0,0,1,1,2,3,4,4,4,5,5,6,6
+home_goal_minutes_csv: 5.57,12.67,43.22,44.43,85.47,95.05
+home_goal_diffs_csv: 1,1,-1,0,0,0
+away_goal_minutes_csv: 5.88,14.3,16.53,41.63,56.48,91.85
+away_goal_diffs_csv: 0,0,-1,-2,-1,-1
+home_penalty_minutes_csv: 47.42,54.67
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 49.42,56.48
+away_penalty_minutes_csv: 47.42
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 49.42
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 95.05
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

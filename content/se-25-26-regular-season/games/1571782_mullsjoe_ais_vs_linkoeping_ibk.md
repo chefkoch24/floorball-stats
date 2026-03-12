@@ -6,6 +6,26 @@ type: game
 game_id: 1571782
 home_team: Mullsjö AIS
 away_team: Linköping IBK
+start_time: 16:00:00
+result_string: 7-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.27,15.47,19.65,28.72,33.52,36.22,45.42,49.88,50.37,51.5,53.12,53.95,56.68,58.23,62.45
+timeline_diffs_csv: 0,1,2,3,2,1,0,1,0,1,0,1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,3,3,4,4,5,5,6,6,6,7,7
+timeline_away_goals_csv: 0,0,0,0,1,2,3,3,4,4,5,5,6,7,7,8
+home_goal_minutes_csv: 3.27,15.47,19.65,45.42,50.37,53.12,58.23
+home_goal_diffs_csv: 1,2,3,1,1,1,0
+away_goal_minutes_csv: 28.72,33.52,36.22,49.88,51.5,53.95,56.68,62.45
+away_goal_diffs_csv: 2,1,0,0,0,0,-1,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 52.35
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 53.12
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.45
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

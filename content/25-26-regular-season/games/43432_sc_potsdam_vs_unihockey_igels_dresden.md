@@ -6,6 +6,26 @@ type: game
 game_id: 43432
 home_team: SC Potsdam
 away_team: Unihockey Igels Dresden
+start_time: 15:00
+result_string: 8:9 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,5.8,6.17,8.35,14.93,22.27,30.25,34.98,36.83,42.52,46.15,47.2,50.17,56.95,57.53,57.62,58.38,65.73
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3,-2,-1,-2,-3,-2,-1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,1,1,1,1,1,2,3,4,4,4,5,6,7,7,8,8
+timeline_away_goals_csv: 0,0,1,2,3,4,5,5,5,5,6,7,7,7,7,8,8,9
+home_goal_minutes_csv: 5.8,34.98,36.83,42.52,50.17,56.95,57.53,58.38
+home_goal_diffs_csv: 1,-3,-2,-1,-2,-1,0,0
+away_goal_minutes_csv: 6.17,8.35,14.93,22.27,30.25,46.15,47.2,57.62,65.73
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-2,-3,-1,-1
+home_penalty_minutes_csv: 22.18,51.25
+home_penalty_goals_csv: 1,5
+home_penalty_ends_csv: 22.27,53.25
+away_penalty_minutes_csv: 49.58
+away_penalty_goals_csv: 7
+away_penalty_ends_csv: 50.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.73
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

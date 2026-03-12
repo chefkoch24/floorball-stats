@@ -6,6 +6,26 @@ type: game
 game_id: spv-classic-10-1-2026
 home_team: SPV
 away_team: Classic
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.53,8.37,9.02,12.68,13.72,15.83,24.05,30.43,36.17,48.83,49.97,51.28,52.1,52.47
+timeline_diffs_csv: 0,1,2,3,2,3,4,3,4,5,6,5,4,3,2
+timeline_home_goals_csv: 0,1,2,3,3,4,5,5,6,7,8,8,8,8,8
+timeline_away_goals_csv: 0,0,0,0,1,1,1,2,2,2,2,3,4,5,6
+home_goal_minutes_csv: 3.53,8.37,9.02,13.72,15.83,30.43,36.17,48.83
+home_goal_diffs_csv: 1,2,3,3,4,4,5,6
+away_goal_minutes_csv: 12.68,24.05,49.97,51.28,52.1,52.47
+away_goal_diffs_csv: 2,3,5,4,3,2
+home_penalty_minutes_csv: 35.1,50.87
+home_penalty_goals_csv: 6,8
+home_penalty_ends_csv: 37.1,51.28
+away_penalty_minutes_csv: 48.17,50.87,55.9
+away_penalty_goals_csv: 2,3,6
+away_penalty_ends_csv: 48.83,52.87,57.9
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

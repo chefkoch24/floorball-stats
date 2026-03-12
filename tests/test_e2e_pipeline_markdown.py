@@ -93,6 +93,8 @@ def test_run_stats_and_generate_markdown_end_to_end(tmp_path: Path):
     assert "home_team: Team A" in game_content
     assert "away_team: Team B" in game_content
     assert "Category: 25-26-regular-season, game" in game_content
+    assert "timeline_minutes_csv:" in game_content
+    assert "timeline_diffs_csv:" in game_content
 
     team_content = team_files[0].read_text(encoding="utf-8")
     assert "type: team" in team_content

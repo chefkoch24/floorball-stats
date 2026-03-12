@@ -6,6 +6,26 @@ type: game
 game_id: 43507
 home_team: Berlin Rockets
 away_team: SC DHfK Leipzig
+start_time: 16:00
+result_string: 2:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,0.7,1.62,2.87,27.38,47.1,56.98,59.13
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5
+home_goal_minutes_csv: 56.98,59.13
+home_goal_diffs_csv: -4,-3
+away_goal_minutes_csv: 0.7,1.62,2.87,27.38,47.1
+away_goal_diffs_csv: -1,-2,-3,-4,-5
+home_penalty_minutes_csv: 30.35,48.77
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 32.35,50.77
+away_penalty_minutes_csv: 9.8,58.13
+away_penalty_goals_csv: 3,5
+away_penalty_ends_csv: 11.8,59.13
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

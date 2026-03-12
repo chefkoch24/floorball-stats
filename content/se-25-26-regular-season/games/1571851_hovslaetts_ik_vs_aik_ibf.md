@@ -6,6 +6,26 @@ type: game
 game_id: 1571851
 home_team: Hovslätts IK
 away_team: AIK IBF
+start_time: 13:30:00
+result_string: 5-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.12,15.13,17.73,23.72,26.72,27.4,42.78,47.55,50.42,57.62,58.77
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-3,-2,-3,-2,-1
+timeline_home_goals_csv: 0,0,0,0,0,1,1,2,3,3,4,5
+timeline_away_goals_csv: 0,1,2,3,4,4,5,5,5,6,6,6
+home_goal_minutes_csv: 26.72,42.78,47.55,57.62,58.77
+home_goal_diffs_csv: -3,-3,-2,-2,-1
+away_goal_minutes_csv: 7.12,15.13,17.73,23.72,27.4,50.42
+away_goal_diffs_csv: -1,-2,-3,-4,-4,-3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 14.38
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: jymy-fbc-turku-21-2-2026
 home_team: Jymy
 away_team: FBC Turku
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.43,9.82,14.03,22.77,25.08,26.17,36.15,48.17,49.13,57.43,59.27
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1,0,1,2,1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3,4,5,6,6
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4,4,4,4,5
+home_goal_minutes_csv: 22.77,25.08,26.17,48.17,49.13,57.43
+home_goal_diffs_csv: -2,-1,0,0,1,2
+away_goal_minutes_csv: 3.43,9.82,14.03,36.15,59.27
+away_goal_diffs_csv: -1,-2,-3,-1,1
+home_penalty_minutes_csv: 9.67,57.85
+home_penalty_goals_csv: 0,6
+home_penalty_ends_csv: 9.82,59.27
+away_penalty_minutes_csv: 26.08
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 26.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

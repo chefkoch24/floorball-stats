@@ -6,6 +6,26 @@ type: game
 game_id: oilers-ols-2-11-2025
 home_team: Oilers
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.6,5.9,10.58,11.5,12.98,26.38,26.95,29.1,35.83,37.93,41.58,43.12,46.43,50.97,52.0,58.03
+timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,7,8,9,10,9,10,11,10
+timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,8,9,10,11,11,12,13,13
+timeline_away_goals_csv: 0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,3
+home_goal_minutes_csv: 1.6,5.9,10.58,11.5,12.98,26.38,26.95,35.83,37.93,41.58,43.12,50.97,52.0
+home_goal_diffs_csv: 1,2,3,4,5,6,7,7,8,9,10,10,11
+away_goal_minutes_csv: 29.1,46.43,58.03
+away_goal_diffs_csv: 6,9,10
+home_penalty_minutes_csv: 30.05
+home_penalty_goals_csv: 7
+home_penalty_ends_csv: 32.05
+away_penalty_minutes_csv: 21.67,26.72
+away_penalty_goals_csv: 0,0
+away_penalty_ends_csv: 23.67,26.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-lasb-27-12-2025
 home_team: Nokian KrP
 away_team: LASB
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.25,9.9,12.22,22.02,22.43,22.57,35.05,47.67,56.53,57.27
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,6,5,6
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,7,7,8
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,1,2,2
+home_goal_minutes_csv: 1.25,9.9,12.22,22.02,22.57,35.05,47.67,57.27
+home_goal_diffs_csv: 1,2,3,4,4,5,6,6
+away_goal_minutes_csv: 22.43,56.53
+away_goal_diffs_csv: 3,5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 34.43
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 35.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

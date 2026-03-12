@@ -6,6 +6,26 @@ type: game
 game_id: 43464
 home_team: Berlin Rockets
 away_team: ETV Piranhhas Hamburg
+start_time: 15:00
+result_string: 1:5
+ingame_status: period3
+timeline_minutes_csv: 0.0,2.27,6.7,8.12,17.53,35.98,53.63
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4
+timeline_home_goals_csv: 0,0,0,0,1,1,1
+timeline_away_goals_csv: 0,1,2,3,3,4,5
+home_goal_minutes_csv: 17.53
+home_goal_diffs_csv: -2
+away_goal_minutes_csv: 2.27,6.7,8.12,35.98,53.63
+away_goal_diffs_csv: -1,-2,-3,-3,-4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43485
 home_team: UHC Sparkasse Weißenfels
 away_team: Unihockey Igels Dresden
+start_time: 18:00
+result_string: 6:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,10.03,13.55,14.32,17.98,35.15,39.48,40.47,47.07,49.77,52.3,56.78,58.65,59.97
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3,-2,-1,0,-1,0,-1
+timeline_home_goals_csv: 0,0,0,1,1,1,1,2,3,4,5,5,6,6
+timeline_away_goals_csv: 0,1,2,2,3,4,5,5,5,5,5,6,6,7
+home_goal_minutes_csv: 14.32,40.47,47.07,49.77,52.3,58.65
+home_goal_diffs_csv: -1,-3,-2,-1,0,0
+away_goal_minutes_csv: 10.03,13.55,17.98,35.15,39.48,56.78,59.97
+away_goal_diffs_csv: -1,-2,-2,-3,-4,-1,-1
+home_penalty_minutes_csv: 8.87,33.35
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 10.03,35.15
+away_penalty_minutes_csv: 35.77,52.17
+away_penalty_goals_csv: 4,5
+away_penalty_ends_csv: 37.77,52.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

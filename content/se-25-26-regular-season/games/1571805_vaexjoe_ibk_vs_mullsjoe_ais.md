@@ -6,6 +6,26 @@ type: game
 game_id: 1571805
 home_team: Växjö IBK
 away_team: Mullsjö AIS
+start_time: 19:00:00
+result_string: 3-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.55,25.47,29.67,44.8,46.52,59.78,60.47
+timeline_diffs_csv: 0,1,0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,1,1,1,1,2,3,3
+timeline_away_goals_csv: 0,0,1,2,3,3,3,4
+home_goal_minutes_csv: 2.55,46.52,59.78
+home_goal_diffs_csv: 1,-1,0
+away_goal_minutes_csv: 25.47,29.67,44.8,60.47
+away_goal_diffs_csv: 0,-1,-2,-1
+home_penalty_minutes_csv: 28.92
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 29.67
+away_penalty_minutes_csv: 11.65
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 13.65
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.47
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

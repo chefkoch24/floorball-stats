@@ -6,6 +6,26 @@ type: game
 game_id: oilers-eraviikingit-6-12-2025
 home_team: Oilers
 away_team: EräViikingit
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.63,20.92,30.52,33.22,37.35,38.22,39.95,53.68,59.88
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,4,5
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,6,7
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,2,2
+home_goal_minutes_csv: 3.63,20.92,33.22,37.35,38.22,39.95,59.88
+home_goal_diffs_csv: 1,2,2,3,4,5,5
+away_goal_minutes_csv: 30.52,53.68
+away_goal_diffs_csv: 1,4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 15.8,20.17,27.65,37.05,46.38
+away_penalty_goals_csv: 0,0,0,1,1
+away_penalty_ends_csv: 17.8,20.92,29.65,37.35,48.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

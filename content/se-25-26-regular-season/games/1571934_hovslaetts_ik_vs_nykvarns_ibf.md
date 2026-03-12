@@ -6,6 +6,26 @@ type: game
 game_id: 1571934
 home_team: Hovslätts IK
 away_team: Nykvarns IBF
+start_time: 16:30:00
+result_string: 2-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.65,13.97,23.77,34.43,35.38,41.32,43.43,54.62,59.98
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-4,-6
+timeline_home_goals_csv: 0,1,1,1,1,2,2,2,2,2
+timeline_away_goals_csv: 0,0,1,2,3,3,4,5,6,8
+home_goal_minutes_csv: 7.65,35.38
+home_goal_diffs_csv: 1,-1
+away_goal_minutes_csv: 13.97,23.77,34.43,41.32,43.43,54.62,59.98
+away_goal_diffs_csv: 0,-1,-2,-2,-3,-4,-6
+home_penalty_minutes_csv: 40.78
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 41.32
+away_penalty_minutes_csv: 32.67
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 35.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

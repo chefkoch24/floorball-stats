@@ -1,4 +1,4 @@
-Date: 2026-03-11
+Date: 2026-03-12
 Title: AIK IBF
 Category: se-25-26-regular-season, teams
 Slug: aik-ibf-se-25-26-regular-season-se-25-26-regular-season

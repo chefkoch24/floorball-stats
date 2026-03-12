@@ -6,6 +6,26 @@ type: game
 game_id: 1571850
 home_team: Nykvarns IBF
 away_team: Strängnäs IBK
+start_time: 16:00:00
+result_string: 4-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.47,27.9,36.05,37.52,45.02,48.72,50.23,55.0,60.23
+timeline_diffs_csv: 0,1,2,3,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,3,3,4,4,4
+timeline_away_goals_csv: 0,0,0,0,1,2,3,3,4,5
+home_goal_minutes_csv: 2.47,27.9,36.05,50.23
+home_goal_diffs_csv: 1,2,3,1
+away_goal_minutes_csv: 37.52,45.02,48.72,55.0,60.23
+away_goal_diffs_csv: 2,1,0,0,-1
+home_penalty_minutes_csv: 48.33,51.63
+home_penalty_goals_csv: 3,4
+home_penalty_ends_csv: 48.72,53.63
+away_penalty_minutes_csv: 49.7
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 50.23
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.23
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

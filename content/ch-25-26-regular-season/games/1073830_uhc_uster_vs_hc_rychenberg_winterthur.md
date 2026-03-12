@@ -6,6 +6,26 @@ type: game
 game_id: 1073830
 home_team: UHC Uster
 away_team: HC Rychenberg Winterthur
+start_time: 18:00
+result_string: 6:7 (1:3, 3:3, 2:1, 0:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.8,6.22,8.55,9.52,20.55,23.27,23.9,26.55,29.67,31.42,51.88,55.58,58.98,60.0
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-5,-4,-3,-2,-1,-2,-1,-2
+timeline_home_goals_csv: 0,1,1,1,1,1,1,1,2,3,4,5,5,6,6
+timeline_away_goals_csv: 0,0,1,2,3,4,5,6,6,6,6,6,7,7,8
+home_goal_minutes_csv: 5.8,26.55,29.67,31.42,51.88,58.98
+home_goal_diffs_csv: 1,-4,-3,-2,-1,-1
+away_goal_minutes_csv: 6.22,8.55,9.52,20.55,23.27,23.9,55.58,60.0
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-2,-2
+home_penalty_minutes_csv: 53.68
+home_penalty_goals_csv: 5
+home_penalty_ends_csv: 55.58
+away_penalty_minutes_csv: 14.25,25.62,29.03
+away_penalty_goals_csv: 3,6,6
+away_penalty_ends_csv: 16.25,26.55,29.67
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

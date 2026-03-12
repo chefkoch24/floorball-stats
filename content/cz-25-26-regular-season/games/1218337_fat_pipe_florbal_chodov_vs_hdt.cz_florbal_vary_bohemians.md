@@ -6,6 +6,26 @@ type: game
 game_id: 1218337
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 4:7
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.47,6.88,10.9,47.35,47.6,50.82,51.53,51.8,59.02,84.53,93.55,97.8
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,0,-1,-2,-3,-4,-3
+timeline_home_goals_csv: 0,1,1,1,1,1,2,0,3,3,3,3,4
+timeline_away_goals_csv: 0,0,1,2,3,4,4,0,4,5,6,7,7
+home_goal_minutes_csv: 6.47,50.82,51.53,51.8,97.8
+home_goal_diffs_csv: 1,-2,0,-1,-3
+away_goal_minutes_csv: 6.88,10.9,47.35,47.6,59.02,84.53,93.55
+away_goal_diffs_csv: 0,-1,-2,-3,-2,-3,-4
+home_penalty_minutes_csv: 15.25,57.58
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 17.25,59.02
+away_penalty_minutes_csv: 19.03,55.1
+away_penalty_goals_csv: 2,4
+away_penalty_ends_csv: 21.03,57.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.8
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

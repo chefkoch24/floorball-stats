@@ -6,6 +6,26 @@ type: game
 game_id: ols-oilers-14-2-2026
 home_team: OLS
 away_team: Oilers
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.57,9.88,23.32,24.53,29.57,30.17,33.92,40.63,47.12,49.25,55.05,59.92
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-3,-4,-3,-4,-5,-4
+timeline_home_goals_csv: 0,0,0,1,2,2,2,2,2,3,3,3,4
+timeline_away_goals_csv: 0,1,2,2,2,3,4,5,6,6,7,8,8
+home_goal_minutes_csv: 23.32,24.53,47.12,59.92
+home_goal_diffs_csv: -1,0,-3,-4
+away_goal_minutes_csv: 2.57,9.88,29.57,30.17,33.92,40.63,49.25,55.05
+away_goal_diffs_csv: -1,-2,-1,-2,-3,-4,-4,-5
+home_penalty_minutes_csv: 17.13
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 19.13
+away_penalty_minutes_csv: 18.92,32.97
+away_penalty_goals_csv: 2,4
+away_penalty_ends_csv: 20.92,34.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

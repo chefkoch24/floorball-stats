@@ -6,6 +6,26 @@ type: game
 game_id: 1571834
 home_team: IBF Falun
 away_team: Strängnäs IBK
+start_time: 17:07:00
+result_string: 5-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.22,9.33,17.48,22.7,26.15,30.25,40.82,41.85,43.72,51.28,55.83,55.98
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3,-4,-3,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,1,1,1,1,2,2,3,4,4,5
+timeline_away_goals_csv: 0,1,2,2,3,4,5,5,6,6,6,7,7
+home_goal_minutes_csv: 17.48,40.82,43.72,51.28,55.98
+home_goal_diffs_csv: -1,-3,-3,-2,-2
+away_goal_minutes_csv: 4.22,9.33,22.7,26.15,30.25,41.85,55.83
+away_goal_diffs_csv: -1,-2,-2,-3,-4,-4,-3
+home_penalty_minutes_csv: 30.9,45.65
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 32.9,47.65
+away_penalty_minutes_csv: 17.0,47.15
+away_penalty_goals_csv: 2,6
+away_penalty_ends_csv: 17.48,49.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

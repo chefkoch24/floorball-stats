@@ -6,6 +6,26 @@ type: game
 game_id: 1073938
 home_team: Zug United
 away_team: Unihockey Basel Regio
+start_time: 16:00
+result_string: 6:4 (1:1, 2:4, 3:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.12,13.37,24.97,30.7,35.58,38.2,39.97,50.88,58.72,58.93
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,-1,0,1,2
+timeline_home_goals_csv: 0,0,1,2,2,2,3,3,4,5,6
+timeline_away_goals_csv: 0,1,1,1,2,3,3,4,4,4,4
+home_goal_minutes_csv: 13.37,24.97,38.2,50.88,58.72,58.93
+home_goal_diffs_csv: 0,1,0,0,1,2
+away_goal_minutes_csv: 8.12,30.7,35.58,39.97
+away_goal_diffs_csv: -1,0,-1,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 23.18,50.27
+away_penalty_goals_csv: 1,4
+away_penalty_ends_csv: 24.97,50.88
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

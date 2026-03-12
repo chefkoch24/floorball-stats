@@ -6,6 +6,26 @@ type: game
 game_id: indians-hawks-5-12-2025
 home_team: Indians
 away_team: Hawks
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,30.3,31.27,31.67,38.65,42.33,51.5
+timeline_diffs_csv: 0,1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,2,3,4,5
+timeline_away_goals_csv: 0,0,1,1,1,1,1
+home_goal_minutes_csv: 30.3,31.67,38.65,42.33,51.5
+home_goal_diffs_csv: 1,1,2,3,4
+away_goal_minutes_csv: 31.27
+away_goal_diffs_csv: 0
+home_penalty_minutes_csv: 30.48,31.02
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 31.27,31.27
+away_penalty_minutes_csv: 28.3
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 30.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

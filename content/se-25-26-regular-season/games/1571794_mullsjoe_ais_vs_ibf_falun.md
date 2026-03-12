@@ -6,6 +6,26 @@ type: game
 game_id: 1571794
 home_team: Mullsjö AIS
 away_team: IBF Falun
+start_time: 16:00:00
+result_string: 10-3
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.33,9.42,14.88,33.05,37.78,43.62,44.68,45.6,49.57,54.22,57.52,59.98
+timeline_diffs_csv: 0,1,0,1,0,1,2,3,4,5,4,6,7
+timeline_home_goals_csv: 0,1,1,2,2,3,4,5,6,7,7,9,10
+timeline_away_goals_csv: 0,0,1,1,2,2,2,2,2,2,3,3,3
+home_goal_minutes_csv: 5.33,14.88,37.78,43.62,44.68,45.6,49.57,57.52,59.98
+home_goal_diffs_csv: 1,1,1,2,3,4,5,6,7
+away_goal_minutes_csv: 9.42,33.05,54.22
+away_goal_diffs_csv: 0,0,4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

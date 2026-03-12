@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-tps-20-9-2025
 home_team: EräViikingit
 away_team: TPS
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.37,13.42,33.02,39.83,41.92
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1
+timeline_home_goals_csv: 0,0,0,0,1,2
+timeline_away_goals_csv: 0,1,2,3,3,3
+home_goal_minutes_csv: 39.83,41.92
+home_goal_diffs_csv: -2,-1
+away_goal_minutes_csv: 10.37,13.42,33.02
+away_goal_diffs_csv: -1,-2,-3
+home_penalty_minutes_csv: 8.72,15.72,30.27
+home_penalty_goals_csv: 0,0,0
+home_penalty_ends_csv: 10.37,17.72,32.27
+away_penalty_minutes_csv: 50.35
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 52.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

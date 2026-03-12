@@ -6,6 +6,26 @@ type: game
 game_id: 1218491
 home_team: FBŠ Hummel Hattrick Brno
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 3:16
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.65,5.73,6.62,15.92,17.87,18.92,45.73,47.58,52.67,57.43,57.92,58.6,86.7,90.77,91.07,92.22,94.42,94.77,98.08
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-5,-6,-7,-8,-7,-8,-9,-10,-11,-10,-11,-12,-13
+timeline_home_goals_csv: 0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,1,2,3,4,5,6,6,7,8,9,9,10,11,12,13,13,14,15,16
+home_goal_minutes_csv: 45.73,57.92,92.22
+home_goal_diffs_csv: -5,-7,-10
+away_goal_minutes_csv: 3.65,5.73,6.62,15.92,17.87,18.92,47.58,52.67,57.43,58.6,86.7,90.77,91.07,94.42,94.77,98.08
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-6,-7,-8,-8,-9,-10,-11,-11,-12,-13
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 12.38,56.9
+away_penalty_goals_csv: 3,8
+away_penalty_ends_csv: 14.38,57.92
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.08
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

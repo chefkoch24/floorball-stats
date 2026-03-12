@@ -6,6 +6,26 @@ type: game
 game_id: 1571902
 home_team: Strängnäs IBK
 away_team: Pixbo IBK
+start_time: 15:00:00
+result_string: 1-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.87,5.55,17.23,18.02,42.12,51.8
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4
+timeline_home_goals_csv: 0,0,0,1,1,1,1
+timeline_away_goals_csv: 0,1,2,2,3,4,5
+home_goal_minutes_csv: 17.23
+home_goal_diffs_csv: -1
+away_goal_minutes_csv: 4.87,5.55,18.02,42.12,51.8
+away_goal_diffs_csv: -1,-2,-2,-3,-4
+home_penalty_minutes_csv: 34.77
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 36.77
+away_penalty_minutes_csv: 32.37,56.4,57.15
+away_penalty_goals_csv: 3,5,5
+away_penalty_ends_csv: 34.37,58.4,59.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

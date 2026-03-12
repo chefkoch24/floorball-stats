@@ -6,6 +6,26 @@ type: game
 game_id: indians-ols-17-1-2026
 home_team: Indians
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.48,9.27,15.83,30.67,33.25,38.23,63.93
+timeline_diffs_csv: 0,1,2,1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,2,2,2,2,3,3
+timeline_away_goals_csv: 0,0,0,1,2,3,3,4
+home_goal_minutes_csv: 5.48,9.27,38.23
+home_goal_diffs_csv: 1,2,0
+away_goal_minutes_csv: 15.83,30.67,33.25,63.93
+away_goal_diffs_csv: 1,0,-1,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.93
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: spv-jymy-17-12-2025
 home_team: SPV
 away_team: Jymy
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.5,9.33,15.15,25.48,27.48,29.97,30.9,31.7,34.42,38.27,40.68,46.55,48.12,57.23,57.45,57.82
+timeline_diffs_csv: 0,1,0,-1,0,1,0,1,2,3,4,5,6,5,6,7,8
+timeline_home_goals_csv: 0,1,1,1,2,3,3,4,5,6,7,8,9,9,10,11,12
+timeline_away_goals_csv: 0,0,1,2,2,2,3,3,3,3,3,3,3,4,4,4,4
+home_goal_minutes_csv: 2.5,25.48,27.48,30.9,31.7,34.42,38.27,40.68,46.55,57.23,57.45,57.82
+home_goal_diffs_csv: 1,0,1,1,2,3,4,5,6,6,7,8
+away_goal_minutes_csv: 9.33,15.15,29.97,48.12
+away_goal_diffs_csv: 0,-1,0,5
+home_penalty_minutes_csv: 28.83
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 29.97
+away_penalty_minutes_csv: 31.7,39.1,56.85,57.45
+away_penalty_goals_csv: 3,3,4,4
+away_penalty_ends_csv: 31.7,40.68,57.23,57.45
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

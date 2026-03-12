@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-eraviikingit-17-1-2026
 home_team: Nokian KrP
 away_team: EräViikingit
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.73,11.07,13.12,17.18,24.67,26.8,26.97,29.98,31.58,32.28,33.38,41.2,44.83,45.47,51.43,59.02
+timeline_diffs_csv: 0,1,0,1,2,3,4,5,6,7,8,7,8,9,10,11,10
+timeline_home_goals_csv: 0,1,1,2,3,4,5,6,7,8,9,9,10,11,12,13,13
+timeline_away_goals_csv: 0,0,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3
+home_goal_minutes_csv: 3.73,13.12,17.18,24.67,26.8,26.97,29.98,31.58,32.28,41.2,44.83,45.47,51.43
+home_goal_diffs_csv: 1,1,2,3,4,5,6,7,8,8,9,10,11
+away_goal_minutes_csv: 11.07,33.38,59.02
+away_goal_diffs_csv: 0,7,10
+home_penalty_minutes_csv: 37.67
+home_penalty_goals_csv: 9
+home_penalty_ends_csv: 39.67
+away_penalty_minutes_csv: 28.63
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 29.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

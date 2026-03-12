@@ -6,6 +6,26 @@ type: game
 game_id: 1073833
 home_team: HC Rychenberg Winterthur
 away_team: Tigers Langnau
+start_time: 17:00
+result_string: 4:5 (3:3, 1:0, 0:1, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.75,6.17,6.3,8.87,11.7,15.72,22.4,58.13,60.97
+timeline_diffs_csv: 0,1,0,-1,0,-1,0,1,0,-1
+timeline_home_goals_csv: 0,1,1,1,2,2,3,4,4,4
+timeline_away_goals_csv: 0,0,1,2,2,3,3,3,4,5
+home_goal_minutes_csv: 1.75,8.87,15.72,22.4
+home_goal_diffs_csv: 1,0,0,1
+away_goal_minutes_csv: 6.17,6.3,11.7,58.13,60.97
+away_goal_diffs_csv: 0,-1,-1,0,-1
+home_penalty_minutes_csv: 5.27,19.58
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 6.17,21.58
+away_penalty_minutes_csv: 0.68,27.63
+away_penalty_goals_csv: 0,3
+away_penalty_ends_csv: 1.75,29.63
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.97
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

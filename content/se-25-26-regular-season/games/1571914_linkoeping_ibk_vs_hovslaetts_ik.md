@@ -6,6 +6,26 @@ type: game
 game_id: 1571914
 home_team: Linköping IBK
 away_team: Hovslätts IK
+start_time: 16:00:00
+result_string: 11-5
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.5,11.55,11.62,18.78,21.82,33.5,36.48,41.03,41.65,46.3,49.58,52.2,56.45,59.78
+timeline_diffs_csv: 0,1,2,3,2,3,2,3,4,3,2,3,4,3,6
+timeline_home_goals_csv: 0,1,2,3,3,4,4,5,6,6,6,7,8,8,11
+timeline_away_goals_csv: 0,0,0,0,1,1,2,2,2,3,4,4,4,5,5
+home_goal_minutes_csv: 4.5,11.55,11.62,21.82,36.48,41.03,49.58,52.2,59.78
+home_goal_diffs_csv: 1,2,3,3,3,4,3,4,6
+away_goal_minutes_csv: 18.78,33.5,41.65,46.3,56.45
+away_goal_diffs_csv: 2,2,3,2,3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 34.1
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 36.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

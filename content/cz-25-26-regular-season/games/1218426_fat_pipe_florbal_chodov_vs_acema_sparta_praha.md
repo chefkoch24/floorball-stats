@@ -6,6 +6,26 @@ type: game
 game_id: 1218426
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: ACEMA Sparta Praha
+start_time: nan
+result_string: 8:6
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.45,9.83,10.47,14.2,18.12,51.68,55.18,83.97,87.3,87.47,89.4,91.27,94.17,98.92,99.82
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,2,3,0,2,3,2,1,2
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,6,0,6,7,7,7,8
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,3,3,0,4,4,5,6,6
+home_goal_minutes_csv: 9.83,10.47,14.2,51.68,55.18,87.3,87.47,91.27,99.82
+home_goal_diffs_csv: 0,1,2,2,3,3,0,3,2
+away_goal_minutes_csv: 1.45,18.12,83.97,89.4,94.17,98.92
+away_goal_diffs_csv: -1,1,2,2,2,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 86.3
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 87.3
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.82
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -126,6 +126,13 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     result.append(f"home_team: {game_data['home_team']}")
     result.append(f"away_team: {game_data['away_team']}")
 
+    excluded_keys = {"game_id", "date", "home_team", "away_team", "home_stats", "away_stats", "title", "slug", "category", "type"}
+    for key, value in game_data.items():
+        if key in excluded_keys:
+            continue
+        if isinstance(value, (str, int, float)) or value is None:
+            result.append(f"{key}: {value}")
+
     # Flat Home Stats
     home_stats = flatten_team_stats(game_data['home_stats'], 'home')
     for key, value in home_stats.items():

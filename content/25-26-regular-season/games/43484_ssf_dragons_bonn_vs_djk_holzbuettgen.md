@@ -6,6 +6,26 @@ type: game
 game_id: 43484
 home_team: SSF Dragons Bonn
 away_team: DJK Holzbüttgen
+start_time: 18:00
+result_string: 7:6 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,10.4,16.48,28.17,32.98,36.43,44.28,46.03,46.17,50.15,53.27,58.12,58.65,62.45
+timeline_diffs_csv: 0,1,2,1,0,-1,0,-1,0,-1,0,1,0,1
+timeline_home_goals_csv: 0,1,2,2,2,2,3,3,4,4,5,6,6,7
+timeline_away_goals_csv: 0,0,0,1,2,3,3,4,4,5,5,5,6,6
+home_goal_minutes_csv: 10.4,16.48,44.28,46.17,53.27,58.12,62.45
+home_goal_diffs_csv: 1,2,0,0,0,1,1
+away_goal_minutes_csv: 28.17,32.98,36.43,46.03,50.15,58.65
+away_goal_diffs_csv: 1,0,-1,-1,-1,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 30.62,37.28,48.5
+away_penalty_goals_csv: 1,3,4
+away_penalty_ends_csv: 32.62,39.28,50.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.45
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

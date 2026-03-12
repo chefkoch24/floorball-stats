@@ -6,6 +6,26 @@ type: game
 game_id: 1571855
 home_team: Storvreta IBK
 away_team: Strängnäs IBK
+start_time: 16:00:00
+result_string: 6-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.15,8.25,26.07,39.92,45.0,48.63,52.0,59.38
+timeline_diffs_csv: 0,-1,0,1,2,3,2,3,4
+timeline_home_goals_csv: 0,0,1,2,3,4,4,5,6
+timeline_away_goals_csv: 0,1,1,1,1,1,2,2,2
+home_goal_minutes_csv: 8.25,26.07,39.92,45.0,52.0,59.38
+home_goal_diffs_csv: 0,1,2,3,3,4
+away_goal_minutes_csv: 5.15,48.63
+away_goal_diffs_csv: -1,2
+home_penalty_minutes_csv: 40.55,48.1,49.63
+home_penalty_goals_csv: 3,4,4
+home_penalty_ends_csv: 42.55,48.63,51.63
+away_penalty_minutes_csv: 25.23,53.98
+away_penalty_goals_csv: 1,2
+away_penalty_ends_csv: 26.07,55.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

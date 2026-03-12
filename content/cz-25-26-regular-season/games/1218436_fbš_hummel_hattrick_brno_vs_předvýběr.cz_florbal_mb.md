@@ -6,6 +6,26 @@ type: game
 game_id: 1218436
 home_team: FBŠ Hummel Hattrick Brno
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 6:12
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.15,3.08,10.0,12.15,44.65,44.85,45.48,49.52,50.05,58.08,86.2,90.27,91.8,93.85,94.42,97.37,98.28,99.02
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-2,-1,-2,-3,-2,-3,-4,-3,-4,-5,-6
+timeline_home_goals_csv: 0,1,1,1,2,2,2,2,3,4,4,4,5,5,5,6,6,6,6
+timeline_away_goals_csv: 0,0,1,2,2,3,4,5,5,5,6,7,7,8,9,9,10,11,12
+home_goal_minutes_csv: 1.15,12.15,49.52,50.05,90.27,94.42
+home_goal_diffs_csv: 1,0,-2,-1,-2,-3
+away_goal_minutes_csv: 3.08,10.0,44.65,44.85,45.48,58.08,86.2,91.8,93.85,97.37,98.28,99.02
+away_goal_diffs_csv: 0,-1,-1,-2,-3,-2,-3,-3,-4,-4,-5,-6
+home_penalty_minutes_csv: 98.23
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 98.28
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.02
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

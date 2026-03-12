@@ -6,6 +6,26 @@ type: game
 game_id: 1218332
 home_team: BA SOKOLI Pardubice
 away_team: FBC ČPP Bystroň Group OSTRAVA
+start_time: nan
+result_string: 5:0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.05,14.48,15.2,85.7,97.82
+timeline_diffs_csv: 0,1,2,3,4,5
+timeline_home_goals_csv: 0,1,2,3,4,5
+timeline_away_goals_csv: 0,0,0,0,0,0
+home_goal_minutes_csv: 2.05,14.48,15.2,85.7,97.82
+home_goal_diffs_csv: 1,2,3,4,5
+away_goal_minutes_csv: 
+away_goal_diffs_csv: 
+home_penalty_minutes_csv: 18.13,54.15,88.77,92.13,94.05
+home_penalty_goals_csv: 3,3,4,4,4
+home_penalty_ends_csv: 20.13,56.15,90.77,94.13,96.05
+away_penalty_minutes_csv: 1.72,44.35,99.83
+away_penalty_goals_csv: 0,0,0
+away_penalty_ends_csv: 2.05,46.35,101.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 101.83
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

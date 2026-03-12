@@ -6,6 +6,26 @@ type: game
 game_id: 1571861
 home_team: AIK IBF
 away_team: Jönköpings IK
+start_time: 15:00:00
+result_string: 4-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.97,5.22,13.4,26.22,31.95,35.5,35.63,36.95,42.45,54.6,55.25,55.78
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-3,-4,-5,-4
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,3,3,3,4
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,6,7,8,8
+home_goal_minutes_csv: 5.22,13.4,26.22,55.78
+home_goal_diffs_csv: 0,1,2,-4
+away_goal_minutes_csv: 0.97,31.95,35.5,35.63,36.95,42.45,54.6,55.25
+away_goal_diffs_csv: -1,1,0,-1,-2,-3,-4,-5
+home_penalty_minutes_csv: 7.92,18.77,31.45
+home_penalty_goals_csv: 1,2,3
+home_penalty_ends_csv: 9.92,20.77,31.95
+away_penalty_minutes_csv: 12.75,48.72
+away_penalty_goals_csv: 1,6
+away_penalty_ends_csv: 13.4,50.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: oilers-nokian-krp-10-9-2025
 home_team: Oilers
 away_team: Nokian KrP
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.98,6.6,14.3,15.2,36.93,39.55,52.05,53.25,57.13,57.6,58.28,59.32
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,4,5,6,7,6
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,6,7,8,9,9
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,2,2,2,2,3
+home_goal_minutes_csv: 0.98,6.6,14.3,15.2,39.55,52.05,57.13,57.6,58.28
+home_goal_diffs_csv: 1,2,3,4,4,5,5,6,7
+away_goal_minutes_csv: 36.93,53.25,59.32
+away_goal_diffs_csv: 3,4,6
+home_penalty_minutes_csv: 36.02
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 36.93
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

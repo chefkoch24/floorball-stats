@@ -6,6 +6,26 @@ type: game
 game_id: oilers-indians-24-1-2026
 home_team: Oilers
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,13.57,14.35,21.92,23.85,43.08,45.78,52.37,55.4,56.13,57.97,60.38
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3,4,5,5,6
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4,4,4,5,5
+home_goal_minutes_csv: 23.85,43.08,45.78,55.4,56.13,60.38
+home_goal_diffs_csv: -2,-1,0,0,1,1
+away_goal_minutes_csv: 13.57,14.35,21.92,52.37,57.97
+away_goal_diffs_csv: -1,-2,-3,-1,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 55.1
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 55.4
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.38
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

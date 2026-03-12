@@ -6,6 +6,26 @@ type: game
 game_id: 1571917
 home_team: Mullsjö AIS
 away_team: Jönköpings IK
+start_time: 18:30:00
+result_string: 4-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.32,4.3,14.62,17.62,24.57,29.75,38.95,41.95,43.08,44.37,53.18,58.95
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,0,-1,-2,-3,-4
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,4,4,4,4,4
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,4,5,6,7,8
+home_goal_minutes_csv: 0.32,4.3,14.62,17.62
+home_goal_diffs_csv: 1,2,3,4
+away_goal_minutes_csv: 24.57,29.75,38.95,41.95,43.08,44.37,53.18,58.95
+away_goal_diffs_csv: 3,2,1,0,-1,-2,-3,-4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 13.28
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 14.62
+home_major_penalty_minutes_csv: 38.43
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

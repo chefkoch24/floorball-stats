@@ -6,6 +6,26 @@ type: game
 game_id: oilers-spv-7-3-2026
 home_team: Oilers
 away_team: SPV
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.03,6.0,8.12,11.4,18.37,32.72,34.12,36.62,49.97,53.35,56.28
+timeline_diffs_csv: 0,-1,0,1,0,-1,0,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,2,2,2,3,3,4,5,5,6
+timeline_away_goals_csv: 0,1,1,1,2,3,3,4,4,4,5,5
+home_goal_minutes_csv: 6.0,8.12,32.72,36.62,49.97,56.28
+home_goal_diffs_csv: 0,1,0,0,1,1
+away_goal_minutes_csv: 5.03,11.4,18.37,34.12,53.35
+away_goal_diffs_csv: -1,0,-1,-1,0
+home_penalty_minutes_csv: 11.25,24.83,42.33
+home_penalty_goals_csv: 2,2,4
+home_penalty_ends_csv: 11.4,26.83,44.33
+away_penalty_minutes_csv: 31.05,42.7
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 32.72,44.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

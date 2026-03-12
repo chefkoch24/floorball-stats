@@ -6,6 +6,26 @@ type: game
 game_id: 1218342
 home_team: FBC ČPP Bystroň Group OSTRAVA
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 2:15
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.9,14.27,14.85,17.13,17.27,17.62,41.7,44.07,46.18,51.03,55.6,57.08,59.55,59.6,82.55,86.45,94.22,94.48
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14,0,-13
+timeline_home_goals_csv: 0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,2
+timeline_away_goals_csv: 0,1,2,3,3,4,5,6,7,8,9,10,11,12,13,14,15,0,15
+home_goal_minutes_csv: 17.13,94.22,94.48
+home_goal_diffs_csv: -2,0,-13
+away_goal_minutes_csv: 1.9,14.27,14.85,17.27,17.62,41.7,44.07,46.18,51.03,55.6,57.08,59.55,59.6,82.55,86.45
+away_goal_diffs_csv: -1,-2,-3,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14
+home_penalty_minutes_csv: 40.58,49.42,50.67
+home_penalty_goals_csv: 1,1,1
+home_penalty_ends_csv: 41.7,51.03,51.03
+away_penalty_minutes_csv: 15.15,94.22
+away_penalty_goals_csv: 3,0
+away_penalty_ends_csv: 17.13,94.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 94.48
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

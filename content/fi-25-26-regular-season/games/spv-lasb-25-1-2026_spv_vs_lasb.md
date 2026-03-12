@@ -6,6 +6,26 @@ type: game
 game_id: spv-lasb-25-1-2026
 home_team: SPV
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.0,16.57,24.62,28.93,30.03,31.53,35.03,46.7,47.7,48.67,51.1,53.5,55.97,57.63,58.38
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,2,3,4,5,6,5,6,5
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,6,7,8,9,9,10,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,3,3,3,3,3,4,4,5
+home_goal_minutes_csv: 16.57,24.62,28.93,31.53,35.03,47.7,48.67,51.1,53.5,57.63
+home_goal_diffs_csv: 0,1,2,2,3,3,4,5,6,6
+away_goal_minutes_csv: 10.0,30.03,46.7,55.97,58.38
+away_goal_diffs_csv: -1,1,2,5,5
+home_penalty_minutes_csv: 26.1
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 28.1
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

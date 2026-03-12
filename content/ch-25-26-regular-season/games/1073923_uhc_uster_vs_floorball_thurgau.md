@@ -6,6 +6,26 @@ type: game
 game_id: 1073923
 home_team: UHC Uster
 away_team: Floorball Thurgau
+start_time: 18:00
+result_string: 4:3 (1:1, 2:1, 0:1, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.22,12.3,21.98,28.2,35.15,51.08,60.2
+timeline_diffs_csv: 0,1,0,1,2,1,0,1
+timeline_home_goals_csv: 0,1,1,2,3,3,3,4
+timeline_away_goals_csv: 0,0,1,1,1,2,3,3
+home_goal_minutes_csv: 7.22,21.98,28.2,60.2
+home_goal_diffs_csv: 1,1,2,1
+away_goal_minutes_csv: 12.3,35.15,51.08
+away_goal_diffs_csv: 0,1,0
+home_penalty_minutes_csv: 29.15,47.95
+home_penalty_goals_csv: 3,3
+home_penalty_ends_csv: 31.15,49.95
+away_penalty_minutes_csv: 26.82,38.07
+away_penalty_goals_csv: 1,2
+away_penalty_ends_csv: 28.2,40.07
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.2
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1571815
 home_team: IBF Falun
 away_team: Hovslätts IK
+start_time: 17:07:00
+result_string: 11-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.3,7.87,11.37,15.48,19.98,20.32,29.07,31.02,31.68,43.97,45.83,46.22,51.72,54.5,59.23,59.88
+timeline_diffs_csv: 0,1,2,3,2,1,2,1,0,1,0,1,2,1,2,4,5
+timeline_home_goals_csv: 0,1,2,3,3,3,4,4,4,5,5,6,7,7,8,10,11
+timeline_away_goals_csv: 0,0,0,0,1,2,2,3,4,4,5,5,5,6,6,6,6
+home_goal_minutes_csv: 2.3,7.87,11.37,20.32,31.68,45.83,46.22,54.5,59.23,59.88
+home_goal_diffs_csv: 1,2,3,2,1,1,2,2,4,5
+away_goal_minutes_csv: 15.48,19.98,29.07,31.02,43.97,51.72
+away_goal_diffs_csv: 2,1,1,0,0,1
+home_penalty_minutes_csv: 30.68,36.57
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 31.02,38.57
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

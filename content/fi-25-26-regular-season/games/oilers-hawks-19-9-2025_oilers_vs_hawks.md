@@ -6,6 +6,26 @@ type: game
 game_id: oilers-hawks-19-9-2025
 home_team: Oilers
 away_team: Hawks
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.37,12.25,37.07,40.9,42.52,43.72,44.95,50.68
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,2
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,5
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,3
+home_goal_minutes_csv: 37.07,40.9,42.52,43.72,44.95
+home_goal_diffs_csv: -1,0,1,2,3
+away_goal_minutes_csv: 1.37,12.25,50.68
+away_goal_diffs_csv: -1,-2,2
+home_penalty_minutes_csv: 46.22,55.75
+home_penalty_goals_csv: 5,5
+home_penalty_ends_csv: 48.22,57.75
+away_penalty_minutes_csv: 49.85
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 51.85
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

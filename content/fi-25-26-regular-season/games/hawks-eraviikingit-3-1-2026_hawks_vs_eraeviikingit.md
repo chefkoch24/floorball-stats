@@ -6,6 +6,26 @@ type: game
 game_id: hawks-eraviikingit-3-1-2026
 home_team: Hawks
 away_team: EräViikingit
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.03,4.03,7.07,8.22,16.97,31.63,39.43,46.47,60.8
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,1,0,-1
+timeline_home_goals_csv: 0,0,1,1,1,2,3,4,4,4
+timeline_away_goals_csv: 0,1,1,2,3,3,3,3,4,5
+home_goal_minutes_csv: 4.03,16.97,31.63,39.43
+home_goal_diffs_csv: 0,-1,0,1
+away_goal_minutes_csv: 1.03,7.07,8.22,46.47,60.8
+away_goal_diffs_csv: -1,-1,-2,0,-1
+home_penalty_minutes_csv: 46.97
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 48.97
+away_penalty_minutes_csv: 3.47,29.32,31.12,38.88,38.88,46.97
+away_penalty_goals_csv: 1,3,3,3,3,4
+away_penalty_ends_csv: 4.03,31.32,31.63,39.43,39.43,48.97
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.8
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

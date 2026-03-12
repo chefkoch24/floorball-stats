@@ -6,6 +6,26 @@ type: game
 game_id: hawks-jymy-14-2-2026
 home_team: Hawks
 away_team: Jymy
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.87,7.03,7.27,10.03,16.88,19.98,30.73,50.25,59.58
+timeline_diffs_csv: 0,1,2,1,0,1,0,1,2,1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,4,5,5
+timeline_away_goals_csv: 0,0,0,1,2,2,3,3,3,4
+home_goal_minutes_csv: 6.87,7.03,16.88,30.73,50.25
+home_goal_diffs_csv: 1,2,1,1,2
+away_goal_minutes_csv: 7.27,10.03,19.98,59.58
+away_goal_diffs_csv: 1,0,0,1
+home_penalty_minutes_csv: 13.13
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 15.13
+away_penalty_minutes_csv: 48.53
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 50.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

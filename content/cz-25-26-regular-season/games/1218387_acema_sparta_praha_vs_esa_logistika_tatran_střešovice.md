@@ -6,6 +6,26 @@ type: game
 game_id: 1218387
 home_team: ACEMA Sparta Praha
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 4:8
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.7,4.0,6.62,41.8,46.45,49.28,55.82,57.8,86.98,91.95,93.92,98.17
+timeline_diffs_csv: 0,1,2,3,2,1,0,-1,0,-1,-2,-3,-4
+timeline_home_goals_csv: 0,1,2,3,3,3,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,0,0,0,1,2,3,4,4,5,6,7,8
+home_goal_minutes_csv: 3.7,4.0,6.62,57.8
+home_goal_diffs_csv: 1,2,3,0
+away_goal_minutes_csv: 41.8,46.45,49.28,55.82,86.98,91.95,93.92,98.17
+away_goal_diffs_csv: 2,1,0,-1,-1,-2,-3,-4
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 11.17,87.83,90.05
+away_penalty_goals_csv: 0,5,5
+away_penalty_ends_csv: 13.17,89.83,92.05
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 98.17
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

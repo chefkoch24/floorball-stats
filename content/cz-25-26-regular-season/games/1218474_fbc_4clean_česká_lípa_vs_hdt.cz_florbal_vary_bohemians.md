@@ -6,6 +6,26 @@ type: game
 game_id: 1218474
 home_team: FBC 4CLEAN Česká Lípa
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 7:10
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.55,4.4,12.92,16.08,17.73,19.45,45.18,46.13,53.0,54.17,83.43,85.47,87.3,91.33,91.8,93.93,97.75,97.75
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-2,-1,-2,-3,-4,-5,-6,-5,-4,-3,0
+timeline_home_goals_csv: 0,1,1,1,2,2,2,2,3,4,4,4,4,4,4,5,6,7,0
+timeline_away_goals_csv: 0,0,1,2,2,3,4,5,5,5,6,7,8,9,10,10,10,10,0
+home_goal_minutes_csv: 3.55,16.08,46.13,53.0,91.8,93.93,97.75,97.75
+home_goal_diffs_csv: 1,0,-2,-1,-5,-4,-3,0
+away_goal_minutes_csv: 4.4,12.92,17.73,19.45,45.18,54.17,83.43,85.47,87.3,91.33
+away_goal_diffs_csv: 0,-1,-1,-2,-3,-2,-3,-4,-5,-6
+home_penalty_minutes_csv: 11.18,12.92,55.37,89.48
+home_penalty_goals_csv: 1,1,4,4
+home_penalty_ends_csv: 12.92,12.92,57.37,91.33
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 97.75
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

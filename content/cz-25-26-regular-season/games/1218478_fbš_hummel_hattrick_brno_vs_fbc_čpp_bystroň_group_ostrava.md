@@ -6,6 +6,26 @@ type: game
 game_id: 1218478
 home_team: FBŠ Hummel Hattrick Brno
 away_team: FBC ČPP Bystroň Group OSTRAVA
+start_time: nan
+result_string: 7:10
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.8,6.07,8.77,16.1,17.23,18.4,18.73,18.73,18.95,42.4,45.3,49.63,54.55,59.25,81.67,86.62,86.88,98.45,99.45
+timeline_diffs_csv: 0,-1,0,1,0,1,0,0,0,-1,0,-1,-2,-1,-2,-1,0,-1,-2,-3
+timeline_home_goals_csv: 0,0,1,2,2,3,3,0,0,3,4,4,4,5,5,6,7,7,7,7
+timeline_away_goals_csv: 0,1,1,1,2,2,3,0,0,4,4,5,6,6,7,7,7,8,9,10
+home_goal_minutes_csv: 6.07,8.77,17.23,18.73,18.73,42.4,54.55,81.67,86.62
+home_goal_diffs_csv: 0,1,1,0,0,0,-1,-1,0
+away_goal_minutes_csv: 2.8,16.1,18.4,18.95,45.3,49.63,59.25,86.88,98.45,99.45
+away_goal_diffs_csv: -1,0,0,-1,-1,-2,-2,-1,-2,-3
+home_penalty_minutes_csv: 47.6,57.25
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 49.6,59.25
+away_penalty_minutes_csv: 8.48
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 8.77
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.45
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

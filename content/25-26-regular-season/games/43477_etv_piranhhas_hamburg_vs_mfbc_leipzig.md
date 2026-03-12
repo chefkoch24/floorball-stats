@@ -6,6 +6,26 @@ type: game
 game_id: 43477
 home_team: ETV Piranhhas Hamburg
 away_team: MFBC Leipzig
+start_time: 19:00
+result_string: 5:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,6.3,24.28,38.82,40.72,48.28,50.85,54.42,59.83
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,2
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,5
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,3
+home_goal_minutes_csv: 6.3,24.28,38.82,40.72,59.83
+home_goal_diffs_csv: 1,2,3,4,2
+away_goal_minutes_csv: 48.28,50.85,54.42
+away_goal_diffs_csv: 3,2,1
+home_penalty_minutes_csv: 23.1,31.1,40.15,41.67
+home_penalty_goals_csv: 1,2,3,4
+home_penalty_ends_csv: 25.1,33.1,42.15,45.67
+away_penalty_minutes_csv: 37.65,39.92,40.15
+away_penalty_goals_csv: 0,0,0
+away_penalty_ends_csv: 38.82,40.72,40.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

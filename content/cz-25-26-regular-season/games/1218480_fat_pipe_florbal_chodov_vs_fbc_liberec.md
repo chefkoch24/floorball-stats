@@ -6,6 +6,26 @@ type: game
 game_id: 1218480
 home_team: FAT PIPE FLORBAL CHODOV
 away_team: FBC Liberec
+start_time: nan
+result_string: 8:9
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.6,3.35,5.48,6.53,13.87,14.8,15.97,18.47,42.02,45.75,56.1,59.8,84.5,85.52,85.7,85.7,90.62,91.53,94.5
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-2,-1,0,-1,-2,-3,-4,-3,0,-2,0,-3,-2,-1
+timeline_home_goals_csv: 0,0,1,1,1,1,2,3,4,4,4,4,4,5,0,6,0,6,7,8
+timeline_away_goals_csv: 0,1,1,2,3,4,4,4,4,5,6,7,8,8,0,8,0,9,9,9
+home_goal_minutes_csv: 3.35,14.8,15.97,18.47,84.5,85.7,91.53,94.5
+home_goal_diffs_csv: 0,-2,-1,0,-3,-2,-2,-1
+away_goal_minutes_csv: 0.6,5.48,6.53,13.87,42.02,45.75,56.1,59.8,85.52,85.7,90.62
+away_goal_diffs_csv: -1,-1,-2,-3,-1,-2,-3,-4,0,0,-3
+home_penalty_minutes_csv: 5.83,7.23,9.08,97.6
+home_penalty_goals_csv: 1,1,1,8
+home_penalty_ends_csv: 6.53,9.23,11.08,99.6
+away_penalty_minutes_csv: 48.17,98.25
+away_penalty_goals_csv: 6,9
+away_penalty_ends_csv: 50.17,100.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 100.25
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

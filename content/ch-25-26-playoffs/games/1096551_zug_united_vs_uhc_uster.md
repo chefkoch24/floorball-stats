@@ -6,6 +6,26 @@ type: game
 game_id: 1096551
 home_team: Zug United
 away_team: UHC Uster
+start_time: 14:00
+result_string: 14:6 (3:2, 5:1, 6:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.73,4.3,6.87,11.85,18.48,20.85,21.73,22.92,32.12,34.8,36.4,40.98,42.33,45.18,46.18,46.88,56.02,59.12,59.3
+timeline_diffs_csv: 0,-1,0,-1,0,1,2,3,4,5,4,5,4,5,6,5,6,7,6,7
+timeline_home_goals_csv: 0,0,1,1,2,3,4,5,6,7,7,8,8,9,10,10,11,12,12,13
+timeline_away_goals_csv: 0,1,1,2,2,2,2,2,2,2,3,3,4,4,4,5,5,5,6,6
+home_goal_minutes_csv: 4.3,11.85,18.48,20.85,21.73,22.92,32.12,36.4,42.33,45.18,46.88,56.02,59.3
+home_goal_diffs_csv: 0,0,1,2,3,4,5,5,5,6,6,7,7
+away_goal_minutes_csv: 0.73,6.87,34.8,40.98,46.18,59.12
+away_goal_diffs_csv: -1,-1,4,4,5,6
+home_penalty_minutes_csv: 8.55,39.07
+home_penalty_goals_csv: 1,8
+home_penalty_ends_csv: 10.55,40.98
+away_penalty_minutes_csv: 55.83
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 56.02
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

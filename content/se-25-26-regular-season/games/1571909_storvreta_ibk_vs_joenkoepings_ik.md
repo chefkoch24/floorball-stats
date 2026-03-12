@@ -6,6 +6,26 @@ type: game
 game_id: 1571909
 home_team: Storvreta IBK
 away_team: Jönköpings IK
+start_time: 14:00:00
+result_string: 14-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,11.42,14.83,23.3,24.0,25.55,27.82,31.72,37.72,40.67,41.43,42.38,43.13,52.33,54.22,56.73
+timeline_diffs_csv: 0,1,2,1,2,3,4,5,6,7,8,9,10,11,12,13
+timeline_home_goals_csv: 0,1,2,2,3,4,5,6,7,8,9,10,11,12,13,14
+timeline_away_goals_csv: 0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+home_goal_minutes_csv: 11.42,14.83,24.0,25.55,27.82,31.72,37.72,40.67,41.43,42.38,43.13,52.33,54.22,56.73
+home_goal_diffs_csv: 1,2,2,3,4,5,6,7,8,9,10,11,12,13
+away_goal_minutes_csv: 23.3
+away_goal_diffs_csv: 1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 49.7
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 51.7
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

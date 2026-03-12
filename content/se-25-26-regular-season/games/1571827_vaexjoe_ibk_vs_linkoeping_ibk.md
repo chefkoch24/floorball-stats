@@ -6,6 +6,26 @@ type: game
 game_id: 1571827
 home_team: Växjö IBK
 away_team: Linköping IBK
+start_time: 18:00:00
+result_string: 3-4
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.9,11.35,24.87,27.58,28.83,50.6,61.22
+timeline_diffs_csv: 0,1,2,3,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,3,3,3
+timeline_away_goals_csv: 0,0,0,0,1,2,3,4
+home_goal_minutes_csv: 1.9,11.35,24.87
+home_goal_diffs_csv: 1,2,3
+away_goal_minutes_csv: 27.58,28.83,50.6,61.22
+away_goal_diffs_csv: 2,1,0,-1
+home_penalty_minutes_csv: 7.15,30.33
+home_penalty_goals_csv: 1,3
+home_penalty_ends_csv: 9.15,32.33
+away_penalty_minutes_csv: 25.22
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 27.22
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 61.22
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

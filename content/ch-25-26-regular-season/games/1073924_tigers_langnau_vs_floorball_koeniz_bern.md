@@ -6,6 +6,26 @@ type: game
 game_id: 1073924
 home_team: Tigers Langnau
 away_team: Floorball Köniz Bern
+start_time: 19:00
+result_string: 7:8 (1:3, 2:2, 4:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.12,3.18,7.6,16.53,21.18,26.2,27.95,29.17,40.0,40.7,43.05,45.73,46.62,50.35,53.32
+timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-1,-2,-3,-2,-3,-2,-1,-2,-1
+timeline_home_goals_csv: 0,0,0,1,1,1,2,3,3,3,4,4,5,6,6,7
+timeline_away_goals_csv: 0,1,2,2,3,4,4,4,5,6,6,7,7,7,8,8
+home_goal_minutes_csv: 7.6,26.2,27.95,40.7,45.73,46.62,53.32
+home_goal_diffs_csv: -1,-2,-1,-2,-2,-1,-1
+away_goal_minutes_csv: 0.12,3.18,16.53,21.18,29.17,40.0,43.05,50.35
+away_goal_diffs_csv: -1,-2,-2,-3,-2,-3,-3,-2
+home_penalty_minutes_csv: 33.32,43.05
+home_penalty_goals_csv: 3,4
+home_penalty_ends_csv: 35.32,43.05
+away_penalty_minutes_csv: 7.0,31.47
+away_penalty_goals_csv: 2,5
+away_penalty_ends_csv: 7.6,33.47
+home_major_penalty_minutes_csv: 45.05
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

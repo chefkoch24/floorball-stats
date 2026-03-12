@@ -6,6 +6,26 @@ type: game
 game_id: tps-indians-29-10-2025
 home_team: TPS
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.82,7.1,12.02,30.45,31.87,57.47,59.27,59.72
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-3,-4
+timeline_home_goals_csv: 0,0,0,0,1,2,2,2,2
+timeline_away_goals_csv: 0,1,2,3,3,3,4,5,6
+home_goal_minutes_csv: 30.45,31.87
+home_goal_diffs_csv: -2,-1
+away_goal_minutes_csv: 4.82,7.1,12.02,57.47,59.27,59.72
+away_goal_diffs_csv: -1,-2,-3,-2,-3,-4
+home_penalty_minutes_csv: 24.53,59.72
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 26.53,59.72
+away_penalty_minutes_csv: 25.42,27.72,49.48
+away_penalty_goals_csv: 3,3,3
+away_penalty_ends_csv: 27.42,29.72,51.48
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

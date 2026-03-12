@@ -6,6 +6,26 @@ type: game
 game_id: 1218427
 home_team: FBŠ Hummel Hattrick Brno
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 1:18
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.02,7.37,10.77,12.28,15.6,18.27,41.92,47.5,48.43,53.67,59.28,81.17,87.1,90.75,91.62,92.95,93.67,95.48,96.65
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14,-15,-16,-17
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+home_goal_minutes_csv: 18.27
+home_goal_diffs_csv: -4
+away_goal_minutes_csv: 5.02,7.37,10.77,12.28,15.6,41.92,47.5,48.43,53.67,59.28,81.17,87.1,90.75,91.62,92.95,93.67,95.48,96.65
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14,-15,-16,-17
+home_penalty_minutes_csv: 6.3,54.82,99.5
+home_penalty_goals_csv: 0,1,1
+home_penalty_ends_csv: 7.37,56.82,101.5
+away_penalty_minutes_csv: 43.17
+away_penalty_goals_csv: 6
+away_penalty_ends_csv: 45.17
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 101.5
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

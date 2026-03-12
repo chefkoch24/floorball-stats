@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-ols-5-12-2025
 home_team: Nokian KrP
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.47,35.17,39.08,39.87,46.03,46.5,48.17,51.05,55.95,57.75,59.6
+timeline_diffs_csv: 0,1,2,3,4,5,6,5,6,5,6,7
+timeline_home_goals_csv: 0,1,2,3,4,5,6,6,7,7,8,9
+timeline_away_goals_csv: 0,0,0,0,0,0,0,1,1,2,2,2
+home_goal_minutes_csv: 3.47,35.17,39.08,39.87,46.03,46.5,51.05,57.75,59.6
+home_goal_diffs_csv: 1,2,3,4,5,6,6,6,7
+away_goal_minutes_csv: 48.17,55.95
+away_goal_diffs_csv: 5,5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 58.95
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 59.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

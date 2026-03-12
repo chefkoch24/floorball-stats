@@ -6,6 +6,26 @@ type: game
 game_id: 1218493
 home_team: Florbal Ústí
 away_team: FBC ČPP Bystroň Group OSTRAVA
+start_time: nan
+result_string: 1:5
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.32,17.3,45.18,51.28,55.13,57.52
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4
+timeline_home_goals_csv: 0,1,1,1,1,1,1
+timeline_away_goals_csv: 0,0,1,2,3,4,5
+home_goal_minutes_csv: 12.32
+home_goal_diffs_csv: 1
+away_goal_minutes_csv: 17.3,45.18,51.28,55.13,57.52
+away_goal_diffs_csv: 0,-1,-2,-3,-4
+home_penalty_minutes_csv: 43.28,53.1
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 45.18,55.1
+away_penalty_minutes_csv: 85.85,91.42,92.37
+away_penalty_goals_csv: 5,5,5
+away_penalty_ends_csv: 87.85,93.42,94.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 94.37
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

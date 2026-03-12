@@ -6,6 +6,26 @@ type: game
 game_id: 1073913
 home_team: UHC Uster
 away_team: UHC Alligator Malans
+start_time: 18:00
+result_string: 10:9 (4:2, 1:4, 5:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.23,1.55,6.6,10.08,11.03,16.58,20.28,23.77,24.83,33.33,35.65,47.17,50.95,51.65,52.75,54.95,56.73,58.42,59.73
+timeline_diffs_csv: 0,-1,0,1,2,1,2,1,0,-1,-2,-1,-2,-1,-2,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,3,4,4,4,4,4,5,5,6,6,7,8,9,9,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,3,4,5,6,6,7,7,8,8,8,8,9,9
+home_goal_minutes_csv: 1.55,6.6,10.08,16.58,35.65,50.95,52.75,54.95,56.73,59.73
+home_goal_diffs_csv: 0,1,2,2,-1,-1,-1,0,1,1
+away_goal_minutes_csv: 1.23,11.03,20.28,23.77,24.83,33.33,47.17,51.65,58.42
+away_goal_diffs_csv: -1,1,1,0,-1,-2,-2,-2,0
+home_penalty_minutes_csv: 29.15,36.28
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 31.15,38.28
+away_penalty_minutes_csv: 9.4,15.65,27.47,29.15,29.48,56.42
+away_penalty_goals_csv: 1,2,5,5,5,8
+away_penalty_ends_csv: 10.08,16.58,29.47,31.15,31.48,56.73
+home_major_penalty_minutes_csv: 36.28
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

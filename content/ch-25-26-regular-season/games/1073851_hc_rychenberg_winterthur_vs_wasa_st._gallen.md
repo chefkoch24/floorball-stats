@@ -6,6 +6,26 @@ type: game
 game_id: 1073851
 home_team: HC Rychenberg Winterthur
 away_team: WASA St. Gallen
+start_time: 17:00
+result_string: 4:1 (2:0, 2:1, 0:0)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.67,15.77,29.1,32.42
+timeline_diffs_csv: 0,1,2,1,2
+timeline_home_goals_csv: 0,1,2,2,3
+timeline_away_goals_csv: 0,0,0,1,1
+home_goal_minutes_csv: 3.67,15.77,32.42
+home_goal_diffs_csv: 1,2,2
+away_goal_minutes_csv: 29.1
+away_goal_diffs_csv: 1
+home_penalty_minutes_csv: 11.83
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 13.83
+away_penalty_minutes_csv: 7.03
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 9.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

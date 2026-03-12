@@ -6,6 +6,26 @@ type: game
 game_id: 1571930
 home_team: Nykvarns IBF
 away_team: Pixbo IBK
+start_time: 19:00:00
+result_string: 7-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,10.4,10.78,10.95,14.08,16.93,27.5,29.85,41.03,41.75,44.2,44.45,48.35,52.43,55.35,62.53
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-1,0,1,0,-1,0,1,0,-1
+timeline_home_goals_csv: 0,1,1,1,1,2,2,3,4,5,5,5,6,7,7,7
+timeline_away_goals_csv: 0,0,1,2,3,3,4,4,4,4,5,6,6,6,7,8
+home_goal_minutes_csv: 10.4,16.93,29.85,41.03,41.75,48.35,52.43
+home_goal_diffs_csv: 1,-1,-1,0,1,0,1
+away_goal_minutes_csv: 10.78,10.95,14.08,27.5,44.2,44.45,55.35,62.53
+away_goal_diffs_csv: 0,-1,-2,-2,0,-1,0,-1
+home_penalty_minutes_csv: 46.13,53.45
+home_penalty_goals_csv: 5,7
+home_penalty_ends_csv: 48.13,55.35
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.53
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43438
 home_team: SC DHfK Leipzig
 away_team: SC Potsdam
+start_time: 17:00
+result_string: 9:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.0,5.98,11.68,12.42,15.05,22.17,22.37,22.67,29.77,34.93,41.12,41.48,43.88,46.28,49.78,52.22
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,3,2,1,2,1,2,3,2,1,2
+timeline_home_goals_csv: 0,0,0,1,2,3,4,5,5,5,6,6,7,8,8,8,9
+timeline_away_goals_csv: 0,1,2,2,2,2,2,2,3,4,4,5,5,5,6,7,7
+home_goal_minutes_csv: 11.68,12.42,15.05,22.17,22.37,34.93,41.48,43.88,52.22
+home_goal_diffs_csv: -1,0,1,2,3,2,2,3,2
+away_goal_minutes_csv: 3.0,5.98,22.67,29.77,41.12,46.28,49.78
+away_goal_diffs_csv: -1,-2,2,1,1,2,1
+home_penalty_minutes_csv: 39.08
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 41.08
+away_penalty_minutes_csv: 11.43,45.65
+away_penalty_goals_csv: 2,5
+away_penalty_ends_csv: 11.68,47.65
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

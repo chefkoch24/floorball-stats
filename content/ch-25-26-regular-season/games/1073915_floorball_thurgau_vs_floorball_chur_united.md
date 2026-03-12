@@ -6,6 +6,26 @@ type: game
 game_id: 1073915
 home_team: Floorball Thurgau
 away_team: Floorball Chur United
+start_time: 17:00
+result_string: 8:3 (4:0, 1:1, 3:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.15,5.12,9.08,11.85,29.08,38.37,44.52,47.12,51.12,53.77,55.8
+timeline_diffs_csv: 0,1,2,3,4,3,4,5,4,5,6,5
+timeline_home_goals_csv: 0,1,2,3,4,4,5,6,6,7,8,8
+timeline_away_goals_csv: 0,0,0,0,0,1,1,1,2,2,2,3
+home_goal_minutes_csv: 4.15,5.12,9.08,11.85,38.37,44.52,51.12,53.77
+home_goal_diffs_csv: 1,2,3,4,4,5,5,6
+away_goal_minutes_csv: 29.08,47.12,55.8
+away_goal_diffs_csv: 3,4,5
+home_penalty_minutes_csv: 9.98,46.4
+home_penalty_goals_csv: 3,6
+home_penalty_ends_csv: 11.98,47.12
+away_penalty_minutes_csv: 31.62,35.73,54.5
+away_penalty_goals_csv: 1,1,2
+away_penalty_ends_csv: 33.62,37.73,56.5
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

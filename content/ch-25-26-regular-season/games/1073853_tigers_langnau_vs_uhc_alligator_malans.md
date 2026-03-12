@@ -6,6 +6,26 @@ type: game
 game_id: 1073853
 home_team: Tigers Langnau
 away_team: UHC Alligator Malans
+start_time: 19:00
+result_string: 5:4 (4:0, 0:2, 1:2)
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.18,5.62,10.9,15.05,23.73,36.53,42.78,52.0,54.5
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,2,1
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,5,5
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,3,4
+home_goal_minutes_csv: 3.18,5.62,10.9,15.05,52.0
+home_goal_diffs_csv: 1,2,3,4,2
+away_goal_minutes_csv: 23.73,36.53,42.78,54.5
+away_goal_diffs_csv: 3,2,1,1
+home_penalty_minutes_csv: 39.8,47.63
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 41.8,49.63
+away_penalty_minutes_csv: 31.23,51.25
+away_penalty_goals_csv: 1,3
+away_penalty_ends_csv: 33.23,52.0
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

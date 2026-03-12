@@ -6,6 +6,26 @@ type: game
 game_id: hawks-classic-17-1-2026
 home_team: Hawks
 away_team: Classic
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,8.83,10.92,12.13,24.12,27.0,30.8,33.92,37.77,39.8,43.07,50.67,51.37,58.53
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-5,-6,-7,-6,-7
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,2,2,2,3,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,7,8,9,9,10
+home_goal_minutes_csv: 30.8,39.8,51.37
+home_goal_diffs_csv: -4,-5,-6
+away_goal_minutes_csv: 8.83,10.92,12.13,24.12,27.0,33.92,37.77,43.07,50.67,58.53
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-6,-7,-7
+home_penalty_minutes_csv: 25.38,33.92
+home_penalty_goals_csv: 0,1
+home_penalty_ends_csv: 27.0,33.92
+away_penalty_minutes_csv: 29.32
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 30.8
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

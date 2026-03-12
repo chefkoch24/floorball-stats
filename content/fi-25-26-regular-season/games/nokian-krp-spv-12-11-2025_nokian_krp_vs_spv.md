@@ -6,6 +6,26 @@ type: game
 game_id: nokian-krp-spv-12-11-2025
 home_team: Nokian KrP
 away_team: SPV
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.23,10.85,12.98,20.7,22.87,23.8,32.5,38.7,43.82,54.53,56.83,57.27,65.0
+timeline_diffs_csv: 0,1,2,1,2,1,2,1,0,1,2,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,3,3,4,4,4,5,6,6,6,6
+timeline_away_goals_csv: 0,0,0,1,1,2,2,3,4,4,4,5,6,7
+home_goal_minutes_csv: 2.23,10.85,20.7,23.8,43.82,54.53
+home_goal_diffs_csv: 1,2,2,2,1,2
+away_goal_minutes_csv: 12.98,22.87,32.5,38.7,56.83,57.27,65.0
+away_goal_diffs_csv: 1,1,1,0,1,0,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

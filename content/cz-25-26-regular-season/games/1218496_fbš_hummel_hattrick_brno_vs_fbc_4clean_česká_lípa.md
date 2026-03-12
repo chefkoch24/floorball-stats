@@ -6,6 +6,26 @@ type: game
 game_id: 1218496
 home_team: FBŠ Hummel Hattrick Brno
 away_team: FBC 4CLEAN Česká Lípa
+start_time: nan
+result_string: 6:4
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.8,10.98,45.08,50.65,51.12,85.43,96.68,98.55,99.72,99.9
+timeline_diffs_csv: 0,1,0,1,0,1,2,1,0,1,2
+timeline_home_goals_csv: 0,1,1,2,2,3,4,4,4,5,6
+timeline_away_goals_csv: 0,0,1,1,2,2,2,3,4,4,4
+home_goal_minutes_csv: 0.8,45.08,51.12,85.43,99.72,99.9
+home_goal_diffs_csv: 1,1,1,2,1,2
+away_goal_minutes_csv: 10.98,50.65,96.68,98.55
+away_goal_diffs_csv: 0,0,1,0
+home_penalty_minutes_csv: 56.15
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 58.15
+away_penalty_minutes_csv: 3.38
+away_penalty_goals_csv: 0
+away_penalty_ends_csv: 5.38
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.9
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

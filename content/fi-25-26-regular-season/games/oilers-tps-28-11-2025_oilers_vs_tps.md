@@ -6,6 +6,26 @@ type: game
 game_id: oilers-tps-28-11-2025
 home_team: Oilers
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.9,4.25,7.25,9.82,13.12,21.77,22.0,23.8,27.25,30.32,31.83,33.07,34.78,43.38,44.82,54.83,55.38
+timeline_diffs_csv: 0,1,2,3,2,3,4,3,4,3,4,5,6,7,8,7,8,7
+timeline_home_goals_csv: 0,1,2,3,3,4,5,5,6,6,7,8,9,10,11,11,12,12
+timeline_away_goals_csv: 0,0,0,0,1,1,1,2,2,3,3,3,3,3,3,4,4,5
+home_goal_minutes_csv: 2.9,4.25,7.25,13.12,21.77,23.8,30.32,31.83,33.07,34.78,43.38,54.83
+home_goal_diffs_csv: 1,2,3,3,4,4,4,5,6,7,8,8
+away_goal_minutes_csv: 9.82,22.0,27.25,44.82,55.38
+away_goal_diffs_csv: 2,3,3,7,7
+home_penalty_minutes_csv: 8.27,52.18
+home_penalty_goals_csv: 3,11
+home_penalty_ends_csv: 9.82,54.18
+away_penalty_minutes_csv: 30.83,56.9
+away_penalty_goals_csv: 3,5
+away_penalty_ends_csv: 31.83,58.9
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

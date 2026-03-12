@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-indians-25-2-2026
 home_team: EräViikingit
 away_team: Indians
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.67,25.95,33.47,39.8,41.4,42.53,43.68,55.78,56.07,58.28,65.0
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,3,3,4,5,5
+timeline_away_goals_csv: 0,1,2,2,2,3,3,4,5,5,5,6
+home_goal_minutes_csv: 33.47,39.8,42.53,56.07,58.28
+home_goal_diffs_csv: -1,0,0,-1,0
+away_goal_minutes_csv: 1.67,25.95,41.4,43.68,55.78,65.0
+away_goal_diffs_csv: -1,-2,-1,-1,-2,-1
+home_penalty_minutes_csv: 37.47
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 39.47
+away_penalty_minutes_csv: 1.92,64.42
+away_penalty_goals_csv: 1,5
+away_penalty_ends_csv: 3.92,66.42
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 66.42
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

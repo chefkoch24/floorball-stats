@@ -6,6 +6,26 @@ type: game
 game_id: 1073916
 home_team: Zug United
 away_team: SV Wiler-Ersigen
+start_time: 17:00
+result_string: 5:3 (1:2, 2:0, 2:1)
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.55,6.43,13.83,37.05,39.07,44.33,46.2,56.58
+timeline_diffs_csv: 0,-1,-2,-1,0,1,0,1,2
+timeline_home_goals_csv: 0,0,0,1,2,3,3,4,5
+timeline_away_goals_csv: 0,1,2,2,2,2,3,3,3
+home_goal_minutes_csv: 13.83,37.05,39.07,46.2,56.58
+home_goal_diffs_csv: -1,0,1,1,2
+away_goal_minutes_csv: 2.55,6.43,44.33
+away_goal_diffs_csv: -1,-2,0
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 35.02
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 37.02
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

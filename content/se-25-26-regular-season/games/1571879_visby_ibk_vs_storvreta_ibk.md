@@ -6,6 +6,26 @@ type: game
 game_id: 1571879
 home_team: Visby IBK
 away_team: Storvreta IBK
+start_time: 17:00:00
+result_string: 3-11
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.35,8.18,12.38,18.8,24.75,24.95,30.48,37.33,37.85,41.43,41.93,48.1,50.85,55.12
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3,-4,-5,-4,-5,-6,-7,-8
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2,2,2,3,3,3,3,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5,6,7,7,8,9,10,11
+home_goal_minutes_csv: 24.95,30.48,41.43
+home_goal_diffs_csv: -4,-3,-4
+away_goal_minutes_csv: 7.35,8.18,12.38,18.8,24.75,37.33,37.85,41.93,48.1,50.85,55.12
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-4,-5,-5,-6,-7,-8
+home_penalty_minutes_csv: 40.22,47.58,53.27
+home_penalty_goals_csv: 2,3,3
+home_penalty_ends_csv: 41.93,48.1,55.12
+away_penalty_minutes_csv: 29.12,40.22
+away_penalty_goals_csv: 5,7
+away_penalty_ends_csv: 30.48,41.43
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43451
 home_team: Berlin Rockets
 away_team: DJK Holzbüttgen
+start_time: 19:00
+result_string: 5:10
+ingame_status: period3
+timeline_minutes_csv: 0.0,6.58,8.42,8.95,10.22,10.9,12.25,18.78,21.13,33.97,34.7,39.68,45.97,53.72,57.02,57.1
+timeline_diffs_csv: 0,1,0,1,2,1,0,-1,0,1,0,-1,-2,-3,-4,-5
+timeline_home_goals_csv: 0,1,1,2,3,3,3,3,4,5,5,5,5,5,5,5
+timeline_away_goals_csv: 0,0,1,1,1,2,3,4,4,4,5,6,7,8,9,10
+home_goal_minutes_csv: 6.58,8.95,10.22,21.13,33.97
+home_goal_diffs_csv: 1,1,2,0,1
+away_goal_minutes_csv: 8.42,10.9,12.25,18.78,34.7,39.68,45.97,53.72,57.02,57.1
+away_goal_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-4,-5
+home_penalty_minutes_csv: 36.37,59.97
+home_penalty_goals_csv: 5,5
+home_penalty_ends_csv: 38.37,63.97
+away_penalty_minutes_csv: 13.65,32.05,36.37,47.73,58.23
+away_penalty_goals_csv: 3,4,5,7,10
+away_penalty_ends_csv: 15.65,33.97,38.37,49.73,62.23
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.97
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218489
 home_team: Kanonýři Kladno
 away_team: HDT.cz Florbal Vary Bohemians
+start_time: nan
+result_string: 4:7
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.75,6.18,43.75,49.0,50.48,50.73,80.98,87.9,91.87,97.03,97.03,97.65,98.18,98.78,99.57
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,-2,-3,-2,0,0,-3,0,-4,-3
+timeline_home_goals_csv: 0,0,0,1,2,2,0,2,2,3,0,0,3,0,3,4
+timeline_away_goals_csv: 0,1,2,2,2,3,0,4,5,5,0,0,6,0,7,7
+home_goal_minutes_csv: 43.75,49.0,91.87,97.03,97.03,99.57
+home_goal_diffs_csv: -1,0,-2,0,0,-3
+away_goal_minutes_csv: 1.75,6.18,50.48,50.73,80.98,87.9,97.65,98.18,98.78
+away_goal_diffs_csv: -1,-2,-1,0,-2,-3,-3,0,-4
+home_penalty_minutes_csv: 12.67,98.18
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 14.67,98.18
+away_penalty_minutes_csv: 12.67,88.67
+away_penalty_goals_csv: 2,5
+away_penalty_ends_csv: 14.67,90.67
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.57
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

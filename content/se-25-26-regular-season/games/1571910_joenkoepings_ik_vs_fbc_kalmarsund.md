@@ -6,6 +6,26 @@ type: game
 game_id: 1571910
 home_team: Jönköpings IK
 away_team: FBC Kalmarsund
+start_time: 16:00:00
+result_string: 5-6
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.32,6.07,8.0,16.73,22.77,29.25,32.65,39.28,47.93,52.88
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-2,-1,0
+timeline_home_goals_csv: 0,1,1,1,1,2,2,2,3,4,5
+timeline_away_goals_csv: 0,0,1,2,3,3,4,5,5,5,5
+home_goal_minutes_csv: 2.32,22.77,39.28,47.93,52.88
+home_goal_diffs_csv: 1,-1,-2,-1,0
+away_goal_minutes_csv: 6.07,8.0,16.73,29.25,32.65
+away_goal_diffs_csv: 0,-1,-2,-2,-3
+home_penalty_minutes_csv: 21.08,57.23
+home_penalty_goals_csv: 1,5
+home_penalty_ends_csv: 23.08,59.23
+away_penalty_minutes_csv: 21.08,21.08,38.92,46.28
+away_penalty_goals_csv: 3,3,5,5
+away_penalty_ends_csv: 22.77,22.77,39.28,47.93
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1218393
 home_team: Florbal Ústí
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 4:15
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.33,7.32,40.98,41.4,47.35,47.65,50.08,50.65,53.65,55.77,56.33,84.28,87.98,89.6,89.75,92.43,93.08,93.98,99.58
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-8,-9,-8,-7,-8,-7,-8,-9,-10,-11
+timeline_home_goals_csv: 0,0,0,0,0,0,0,0,0,0,1,1,2,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,1,2,3,4,5,6,7,8,9,9,10,10,10,11,11,12,13,14,15
+home_goal_minutes_csv: 55.77,84.28,87.98,89.75
+home_goal_diffs_csv: -8,-8,-7,-7
+away_goal_minutes_csv: 3.33,7.32,40.98,41.4,47.35,47.65,50.08,50.65,53.65,56.33,89.6,92.43,93.08,93.98,99.58
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-9,-9,-8,-8,-9,-10,-11
+home_penalty_minutes_csv: 19.32,46.73
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 21.32,47.35
+away_penalty_minutes_csv: 87.47
+away_penalty_goals_csv: 10
+away_penalty_ends_csv: 87.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.58
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

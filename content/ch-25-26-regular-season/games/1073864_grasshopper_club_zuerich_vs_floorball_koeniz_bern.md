@@ -6,6 +6,26 @@ type: game
 game_id: 1073864
 home_team: Grasshopper Club Zürich
 away_team: Floorball Köniz Bern
+start_time: 17:00
+result_string: 5:6 (1:3, 2:1, 2:1, 0:0) n.P.
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.62,2.98,4.33,16.23,23.58,28.23,33.27,44.35,48.6,58.12
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-2,-1,0,1,0
+timeline_home_goals_csv: 0,0,1,1,1,1,2,3,4,5,5
+timeline_away_goals_csv: 0,1,1,2,3,4,4,4,4,4,5
+home_goal_minutes_csv: 2.98,28.23,33.27,44.35,48.6
+home_goal_diffs_csv: 0,-2,-1,0,1
+away_goal_minutes_csv: 0.62,4.33,16.23,23.58,58.12
+away_goal_diffs_csv: -1,-1,-2,-3,0
+home_penalty_minutes_csv: 15.13,51.18
+home_penalty_goals_csv: 1,5
+home_penalty_ends_csv: 16.23,53.18
+away_penalty_minutes_csv: 18.35,39.05,48.27
+away_penalty_goals_csv: 3,4,4
+away_penalty_ends_csv: 20.35,41.05,48.6
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 39.05
+timeline_max_minute: 60.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

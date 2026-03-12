@@ -6,6 +6,26 @@ type: game
 game_id: 1218419
 home_team: TJ Sokol Královské Vinohrady
 away_team: ESA logistika Tatran Střešovice
+start_time: nan
+result_string: 4:7
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.93,13.25,45.9,49.82,50.42,51.05,51.05,51.28,55.9,85.0,96.17,96.75,99.05,99.6
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,0,0,-2,-3,-2,0,-1,-2,-3
+timeline_home_goals_csv: 0,0,0,0,1,1,0,0,2,2,3,0,4,4,4
+timeline_away_goals_csv: 0,1,2,3,3,4,0,0,4,5,5,0,5,6,7
+home_goal_minutes_csv: 49.82,51.28,85.0,96.17,96.75
+home_goal_diffs_csv: -2,-2,-2,0,-1
+away_goal_minutes_csv: 1.93,13.25,45.9,50.42,51.05,51.05,55.9,99.05,99.6
+away_goal_diffs_csv: -1,-2,-3,-3,0,0,-3,-2,-3
+home_penalty_minutes_csv: 44.27,54.72
+home_penalty_goals_csv: 0,2
+home_penalty_ends_csv: 45.9,55.9
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.6
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

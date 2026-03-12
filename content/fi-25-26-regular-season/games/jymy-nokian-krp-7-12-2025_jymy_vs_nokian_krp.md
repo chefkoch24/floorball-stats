@@ -6,6 +6,26 @@ type: game
 game_id: jymy-nokian-krp-7-12-2025
 home_team: Jymy
 away_team: Nokian KrP
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.77,16.43,19.1,27.52,28.37,35.78,59.35
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,-2,-1
+timeline_home_goals_csv: 0,0,0,0,1,2,2,3
+timeline_away_goals_csv: 0,1,2,3,3,3,4,4
+home_goal_minutes_csv: 27.52,28.37,59.35
+home_goal_diffs_csv: -2,-1,-1
+away_goal_minutes_csv: 1.77,16.43,19.1,35.78
+away_goal_diffs_csv: -1,-2,-3,-2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 26.92,45.87
+away_penalty_goals_csv: 3,4
+away_penalty_ends_csv: 27.52,47.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

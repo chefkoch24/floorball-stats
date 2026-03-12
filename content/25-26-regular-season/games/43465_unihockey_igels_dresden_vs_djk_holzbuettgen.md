@@ -6,6 +6,26 @@ type: game
 game_id: 43465
 home_team: Unihockey Igels Dresden
 away_team: DJK Holzbüttgen
+start_time: 16:00
+result_string: 5:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,11.13,14.73,19.37,19.97,24.72,25.35,26.92,45.9,49.18,54.52,56.42,59.83
+timeline_diffs_csv: 0,1,2,3,2,1,2,1,2,1,0,-1,-2
+timeline_home_goals_csv: 0,1,2,3,3,3,4,4,5,5,5,5,5
+timeline_away_goals_csv: 0,0,0,0,1,2,2,3,3,4,5,6,7
+home_goal_minutes_csv: 11.13,14.73,19.37,25.35,45.9
+home_goal_diffs_csv: 1,2,3,2,2
+away_goal_minutes_csv: 19.97,24.72,26.92,49.18,54.52,56.42,59.83
+away_goal_diffs_csv: 2,1,1,1,0,-1,-2
+home_penalty_minutes_csv: 20.95,46.63,54.5
+home_penalty_goals_csv: 3,5,5
+home_penalty_ends_csv: 22.95,48.63,54.52
+away_penalty_minutes_csv: 52.37
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 54.37
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

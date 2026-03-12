@@ -6,6 +6,26 @@ type: game
 game_id: 1073882
 home_team: Unihockey Basel Regio
 away_team: Floorball Köniz Bern
+start_time: 17:00
+result_string: 8:11 (2:2, 0:5, 6:4)
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.7,6.53,15.22,15.45,22.9,28.42,31.1,34.5,35.08,41.72,46.77,49.25,50.08,52.68,52.85,55.88,57.9,58.03,59.63
+timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-3,-4,-5,-4,-3,-2,-3,-2,-3,-4,-5,-4,-3
+timeline_home_goals_csv: 0,0,1,2,2,2,2,2,2,2,3,4,5,5,6,6,6,6,7,8
+timeline_away_goals_csv: 0,1,1,1,2,3,4,5,6,7,7,7,7,8,8,9,10,11,11,11
+home_goal_minutes_csv: 6.53,15.22,41.72,46.77,49.25,52.68,58.03,59.63
+home_goal_diffs_csv: 0,1,-4,-3,-2,-2,-4,-3
+away_goal_minutes_csv: 4.7,15.45,22.9,28.42,31.1,34.5,35.08,50.08,52.85,55.88,57.9
+away_goal_diffs_csv: -1,0,-1,-2,-3,-4,-5,-3,-3,-4,-5
+home_penalty_minutes_csv: 55.45
+home_penalty_goals_csv: 6
+home_penalty_ends_csv: 55.88
+away_penalty_minutes_csv: 44.72,47.5
+away_penalty_goals_csv: 7,7
+away_penalty_ends_csv: 46.72,49.25
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

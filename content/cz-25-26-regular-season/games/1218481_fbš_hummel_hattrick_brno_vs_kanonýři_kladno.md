@@ -6,6 +6,26 @@ type: game
 game_id: 1218481
 home_team: FBŠ Hummel Hattrick Brno
 away_team: Kanonýři Kladno
+start_time: nan
+result_string: 3:9
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.27,1.77,5.15,7.43,19.97,52.23,52.68,57.38,93.27,94.9,94.98,95.93,95.93
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3,-4,-3,-4,-5,-6,0
+timeline_home_goals_csv: 0,1,1,1,1,1,1,2,2,3,3,3,3,0
+timeline_away_goals_csv: 0,0,1,2,3,4,5,5,6,6,7,8,9,0
+home_goal_minutes_csv: 0.27,52.68,93.27
+home_goal_diffs_csv: 1,-3,-3
+away_goal_minutes_csv: 1.77,5.15,7.43,19.97,52.23,57.38,94.9,94.98,95.93,95.93
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-4,-4,-5,-6,0
+home_penalty_minutes_csv: 4.07
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 5.15
+away_penalty_minutes_csv: 10.15
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 12.15
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 95.93
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

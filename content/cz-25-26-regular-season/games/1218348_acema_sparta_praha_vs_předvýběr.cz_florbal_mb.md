@@ -6,6 +6,26 @@ type: game
 game_id: 1218348
 home_team: ACEMA Sparta Praha
 away_team: Předvýběr.CZ Florbal MB
+start_time: nan
+result_string: 4:14
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.08,8.0,10.82,17.23,17.63,44.23,45.88,49.65,54.87,56.02,56.92,59.85,80.85,84.53,90.75,91.15,92.63,98.33,98.77
+timeline_diffs_csv: 0,-1,-2,-1,0,-2,-3,-4,-5,-4,-5,-6,-5,-6,-7,-6,-7,-8,-9,-10
+timeline_home_goals_csv: 0,0,0,1,0,1,1,1,1,2,2,2,3,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,1,2,2,0,3,4,5,6,6,7,8,8,9,10,10,11,12,13,14
+home_goal_minutes_csv: 10.82,54.87,59.85,90.75
+home_goal_diffs_csv: -1,-4,-5,-6
+away_goal_minutes_csv: 6.08,8.0,17.23,17.63,44.23,45.88,49.65,56.02,56.92,80.85,84.53,91.15,92.63,98.33,98.77
+away_goal_diffs_csv: -1,-2,0,-2,-3,-4,-5,-5,-6,-6,-7,-7,-8,-9,-10
+home_penalty_minutes_csv: 99.32
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 101.32
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 101.32
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

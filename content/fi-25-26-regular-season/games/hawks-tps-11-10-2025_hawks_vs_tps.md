@@ -6,6 +6,26 @@ type: game
 game_id: hawks-tps-11-10-2025
 home_team: Hawks
 away_team: TPS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.1,24.5,30.12,37.42,40.93,49.18,58.05
+timeline_diffs_csv: 0,1,2,3,4,3,4,3
+timeline_home_goals_csv: 0,1,2,3,4,4,5,5
+timeline_away_goals_csv: 0,0,0,0,0,1,1,2
+home_goal_minutes_csv: 3.1,24.5,30.12,37.42,49.18
+home_goal_diffs_csv: 1,2,3,4,4
+away_goal_minutes_csv: 40.93,58.05
+away_goal_diffs_csv: 3,3
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

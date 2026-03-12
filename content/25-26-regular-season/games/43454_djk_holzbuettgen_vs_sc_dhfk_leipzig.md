@@ -6,6 +6,26 @@ type: game
 game_id: 43454
 home_team: DJK Holzbüttgen
 away_team: SC DHfK Leipzig
+start_time: 18:00
+result_string: 6:5 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,8.2,9.98,12.8,13.87,15.78,25.07,28.97,36.72,37.75,47.93,65.08
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,0,0,1,2,3,3,4,4,5,6
+timeline_away_goals_csv: 0,1,2,3,3,3,3,4,4,5,5,5
+home_goal_minutes_csv: 13.87,15.78,25.07,36.72,47.93,65.08
+home_goal_diffs_csv: -2,-1,0,0,0,1
+away_goal_minutes_csv: 8.2,9.98,12.8,28.97,37.75
+away_goal_diffs_csv: -1,-2,-3,-1,-1
+home_penalty_minutes_csv: 27.05,50.68
+home_penalty_goals_csv: 3,5
+home_penalty_ends_csv: 28.97,52.68
+away_penalty_minutes_csv: 37.32
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 39.32
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.08
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

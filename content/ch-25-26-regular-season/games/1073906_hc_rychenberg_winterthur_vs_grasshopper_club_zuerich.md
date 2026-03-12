@@ -6,6 +6,26 @@ type: game
 game_id: 1073906
 home_team: HC Rychenberg Winterthur
 away_team: Grasshopper Club Zürich
+start_time: 19:30
+result_string: 3:4 (0:2, 3:1, 0:0, 0:0) n.P.
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.53,21.73,28.03,32.68,36.5
+timeline_diffs_csv: 0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3
+timeline_away_goals_csv: 0,1,1,2,2,2
+home_goal_minutes_csv: 21.73,32.68,36.5
+home_goal_diffs_csv: 0,0,1
+away_goal_minutes_csv: 7.53,28.03
+away_goal_diffs_csv: -1,-1
+home_penalty_minutes_csv: 63.18
+home_penalty_goals_csv: 3
+home_penalty_ends_csv: 65.18
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.18
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: jymy-lasb-13-12-2025
 home_team: Jymy
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.87,6.72,12.02,15.53,15.98,16.1,20.23,43.63,57.1
+timeline_diffs_csv: 0,-1,0,1,2,3,2,1,2,1
+timeline_home_goals_csv: 0,0,1,2,3,4,4,4,5,5
+timeline_away_goals_csv: 0,1,1,1,1,1,2,3,3,4
+home_goal_minutes_csv: 6.72,12.02,15.53,15.98,43.63
+home_goal_diffs_csv: 0,1,2,3,2
+away_goal_minutes_csv: 1.87,16.1,20.23,57.1
+away_goal_diffs_csv: -1,2,1,1
+home_penalty_minutes_csv: 16.32
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 18.32
+away_penalty_minutes_csv: 6.52
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 6.72
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

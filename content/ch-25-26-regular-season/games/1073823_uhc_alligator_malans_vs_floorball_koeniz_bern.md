@@ -6,6 +6,26 @@ type: game
 game_id: 1073823
 home_team: UHC Alligator Malans
 away_team: Floorball Köniz Bern
+start_time: 17:00
+result_string: 5:12 (1:3, 1:6, 3:3)
+ingame_status: nan
+timeline_minutes_csv: 0.0,1.73,9.62,14.4,15.68,24.22,24.6,25.3,27.02,30.7,37.88,38.58,47.45,49.58,51.58,54.9,57.4,59.7
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-5,-6,-7,-8,-7,-6,-5,-6,-5,-6,-7
+timeline_home_goals_csv: 0,0,0,0,1,1,1,1,1,1,1,2,3,4,4,5,5,5
+timeline_away_goals_csv: 0,1,2,3,3,4,5,6,7,8,9,9,9,9,10,10,11,12
+home_goal_minutes_csv: 15.68,38.58,47.45,49.58,54.9
+home_goal_diffs_csv: -2,-7,-6,-5,-5
+away_goal_minutes_csv: 1.73,9.62,14.4,24.22,24.6,25.3,27.02,30.7,37.88,51.58,57.4,59.7
+away_goal_diffs_csv: -1,-2,-3,-3,-4,-5,-6,-7,-8,-6,-6,-7
+home_penalty_minutes_csv: 6.58
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 8.58
+away_penalty_minutes_csv: 17.07,47.2
+away_penalty_goals_csv: 3,9
+away_penalty_ends_csv: 19.07,47.45
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

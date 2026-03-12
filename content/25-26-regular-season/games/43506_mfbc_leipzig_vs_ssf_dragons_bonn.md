@@ -6,6 +6,26 @@ type: game
 game_id: 43506
 home_team: MFBC Leipzig
 away_team: SSF Dragons Bonn
+start_time: 16:00
+result_string: 5:4 n. PS
+ingame_status: penalty_shots
+timeline_minutes_csv: 0.0,2.27,5.62,9.55,10.42,11.88,15.35,45.63,54.72
+timeline_diffs_csv: 0,1,2,3,2,1,2,1,0
+timeline_home_goals_csv: 0,1,2,3,3,3,4,4,4
+timeline_away_goals_csv: 0,0,0,0,1,2,2,3,4
+home_goal_minutes_csv: 2.27,5.62,9.55,15.35
+home_goal_diffs_csv: 1,2,3,2
+away_goal_minutes_csv: 10.42,11.88,45.63,54.72
+away_goal_diffs_csv: 2,1,1,0
+home_penalty_minutes_csv: 36.72,54.67
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 38.72,54.72
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 2.27
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

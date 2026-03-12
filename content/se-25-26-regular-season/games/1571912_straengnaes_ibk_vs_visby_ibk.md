@@ -6,6 +6,26 @@ type: game
 game_id: 1571912
 home_team: Strängnäs IBK
 away_team: Visby IBK
+start_time: 15:00:00
+result_string: 9-7
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.4,12.2,12.47,26.15,27.12,27.7,31.0,33.9,38.12,43.32,48.07,48.68,51.1,51.55,54.2
+timeline_diffs_csv: 0,-1,0,1,2,3,2,3,4,3,2,3,4,3,2,1
+timeline_home_goals_csv: 0,0,1,2,3,4,4,5,6,6,6,7,8,8,8,8
+timeline_away_goals_csv: 0,1,1,1,1,1,2,2,2,3,4,4,4,5,6,7
+home_goal_minutes_csv: 12.2,12.47,26.15,27.12,31.0,33.9,48.07,48.68
+home_goal_diffs_csv: 0,1,2,3,3,4,3,4
+away_goal_minutes_csv: 3.4,27.7,38.12,43.32,51.1,51.55,54.2
+away_goal_diffs_csv: -1,2,3,2,3,2,1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

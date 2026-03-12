@@ -6,6 +6,26 @@ type: game
 game_id: hawks-ols-21-2-2026
 home_team: Hawks
 away_team: OLS
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,3.35,9.43,14.85,17.65,19.13,26.28,29.53,31.48,37.37,45.77,53.45,59.23,65.0
+timeline_diffs_csv: 0,1,2,3,2,3,2,1,0,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,3,3,4,4,4,4,5,5,6,6,6
+timeline_away_goals_csv: 0,0,0,0,1,1,2,3,4,4,5,5,6,7
+home_goal_minutes_csv: 3.35,9.43,14.85,19.13,37.37,53.45
+home_goal_diffs_csv: 1,2,3,3,1,1
+away_goal_minutes_csv: 17.65,26.28,29.53,31.48,45.77,59.23,65.0
+away_goal_diffs_csv: 2,2,1,0,0,0,-1
+home_penalty_minutes_csv: 30.33
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 31.48
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 65.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

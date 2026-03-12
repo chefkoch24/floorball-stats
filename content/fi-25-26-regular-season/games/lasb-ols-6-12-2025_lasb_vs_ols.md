@@ -6,6 +6,26 @@ type: game
 game_id: lasb-ols-6-12-2025
 home_team: LASB
 away_team: OLS
+start_time: nan
+result_string: 0-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.63,8.05,10.25,22.6,23.95,37.05,37.7,44.47,50.67,56.03,58.75
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-3,-4,-5
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,3,3,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,6,7,8
+home_goal_minutes_csv: 37.05,44.47,50.67
+home_goal_diffs_csv: -4,-4,-3
+away_goal_minutes_csv: 4.63,8.05,10.25,22.6,23.95,37.7,56.03,58.75
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-4,-5
+home_penalty_minutes_csv: 4.43,21.17
+home_penalty_goals_csv: 0,0
+home_penalty_ends_csv: 4.63,22.6
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

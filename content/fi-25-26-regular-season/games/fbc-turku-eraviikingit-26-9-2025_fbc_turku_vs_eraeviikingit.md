@@ -6,6 +6,26 @@ type: game
 game_id: fbc-turku-eraviikingit-26-9-2025
 home_team: FBC Turku
 away_team: EräViikingit
+start_time: nan
+result_string: 1-0
+ingame_status: nan
+timeline_minutes_csv: 0.0,0.72,5.28,10.1,23.92,24.13,24.98,28.35,30.23,53.83,55.63,58.15
+timeline_diffs_csv: 0,1,0,-1,0,1,0,1,0,-1,-2,-3
+timeline_home_goals_csv: 0,1,1,1,2,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,0,1,2,2,2,3,3,4,5,6,7
+home_goal_minutes_csv: 0.72,23.92,24.13,28.35
+home_goal_diffs_csv: 1,0,1,1
+away_goal_minutes_csv: 5.28,10.1,24.98,30.23,53.83,55.63,58.15
+away_goal_diffs_csv: 0,-1,0,0,-1,-2,-3
+home_penalty_minutes_csv: 36.4
+home_penalty_goals_csv: 4
+home_penalty_ends_csv: 38.4
+away_penalty_minutes_csv: 32.65,40.83
+away_penalty_goals_csv: 4,4
+away_penalty_ends_csv: 34.65,42.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

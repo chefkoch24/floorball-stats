@@ -6,6 +6,26 @@ type: game
 game_id: tps-lasb-21-2-2026
 home_team: TPS
 away_team: LASB
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,5.33,14.78,18.87,20.97,32.98,40.7,55.75,58.83
+timeline_diffs_csv: 0,-1,0,1,0,1,0,-1,-2
+timeline_home_goals_csv: 0,0,1,2,2,3,3,3,3
+timeline_away_goals_csv: 0,1,1,1,2,2,3,4,5
+home_goal_minutes_csv: 14.78,18.87,32.98
+home_goal_diffs_csv: 0,1,1
+away_goal_minutes_csv: 5.33,20.97,40.7,55.75,58.83
+away_goal_diffs_csv: -1,0,0,-1,-2
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 14.0,18.82,34.22,54.75
+away_penalty_goals_csv: 1,1,2,3
+away_penalty_ends_csv: 14.78,18.87,36.22,56.75
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 1073866
 home_team: UHC Uster
 away_team: SV Wiler-Ersigen
+start_time: 18:00
+result_string: 3:4 (2:1, 1:2, 0:0, 0:1) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,15.92,17.1,18.3,22.93,33.33,37.22,63.6
+timeline_diffs_csv: 0,1,2,1,0,1,0,-1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,3
+timeline_away_goals_csv: 0,0,0,1,2,2,3,4
+home_goal_minutes_csv: 15.92,17.1,33.33
+home_goal_diffs_csv: 1,2,1
+away_goal_minutes_csv: 18.3,22.93,37.22,63.6
+away_goal_diffs_csv: 1,0,0,-1
+home_penalty_minutes_csv: 28.62,39.97
+home_penalty_goals_csv: 2,3
+home_penalty_ends_csv: 30.62,41.97
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 63.6
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

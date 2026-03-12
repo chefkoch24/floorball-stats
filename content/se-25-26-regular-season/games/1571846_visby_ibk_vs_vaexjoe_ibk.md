@@ -6,6 +6,26 @@ type: game
 game_id: 1571846
 home_team: Visby IBK
 away_team: Växjö IBK
+start_time: 17:00:00
+result_string: 10-11
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.47,10.43,12.98,14.28,23.9,26.47,29.78,30.17,33.42,34.67,38.72,39.97,42.52,43.27,49.67,52.48,53.27,53.35,56.43,59.48,60.93
+timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,3,4,3,2,1,2,3,2,1,0,-1,0,-1
+timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,6,7,7,7,7,8,9,9,9,9,9,10,10
+timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,3,3,4,5,6,6,6,7,8,9,10,10,11
+home_goal_minutes_csv: 4.47,12.98,14.28,23.9,29.78,33.42,34.67,43.27,49.67,59.48
+home_goal_diffs_csv: 1,1,2,3,3,3,4,2,3,0
+away_goal_minutes_csv: 10.43,26.47,30.17,38.72,39.97,42.52,52.48,53.27,53.35,56.43,60.93
+away_goal_diffs_csv: 0,2,2,3,2,1,2,1,0,-1,-1
+home_penalty_minutes_csv: 52.78
+home_penalty_goals_csv: 9
+home_penalty_ends_csv: 53.27
+away_penalty_minutes_csv: 8.95,28.35,36.87,49.25
+away_penalty_goals_csv: 0,2,3,6
+away_penalty_ends_csv: 10.95,29.78,38.87,49.67
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.93
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0

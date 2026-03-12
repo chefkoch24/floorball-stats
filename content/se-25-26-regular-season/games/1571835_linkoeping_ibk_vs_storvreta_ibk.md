@@ -6,6 +6,26 @@ type: game
 game_id: 1571835
 home_team: Linköping IBK
 away_team: Storvreta IBK
+start_time: 16:00:00
+result_string: 3-2
+ingame_status: nan
+timeline_minutes_csv: 0.0,7.6,24.7,37.87,59.65,64.68
+timeline_diffs_csv: 0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3
+timeline_away_goals_csv: 0,1,1,2,2,2
+home_goal_minutes_csv: 24.7,59.65,64.68
+home_goal_diffs_csv: 0,0,1
+away_goal_minutes_csv: 7.6,37.87
+away_goal_diffs_csv: -1,-1
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 35.03
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 37.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 64.68
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1

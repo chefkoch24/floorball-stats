@@ -6,6 +6,26 @@ type: game
 game_id: 1218418
 home_team: BA SOKOLI Pardubice
 away_team: Florbal Ústí
+start_time: nan
+result_string: 7:2
+ingame_status: nan
+timeline_minutes_csv: 0.0,2.05,9.72,9.83,12.23,13.8,42.95,91.53,98.18,99.38
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,4,5
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6,7
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,2,2
+home_goal_minutes_csv: 9.72,9.83,12.23,42.95,91.53,98.18,99.38
+home_goal_diffs_csv: 0,1,2,2,3,4,5
+away_goal_minutes_csv: 2.05,13.8
+away_goal_diffs_csv: -1,1
+home_penalty_minutes_csv: 19.48,49.47
+home_penalty_goals_csv: 3,4
+home_penalty_ends_csv: 21.48,51.47
+away_penalty_minutes_csv: 
+away_penalty_goals_csv: 
+away_penalty_ends_csv: 
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 99.38
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

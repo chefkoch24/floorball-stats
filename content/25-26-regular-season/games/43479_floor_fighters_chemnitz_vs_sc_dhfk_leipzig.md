@@ -6,6 +6,26 @@ type: game
 game_id: 43479
 home_team: Floor Fighters Chemnitz
 away_team: SC DHfK Leipzig
+start_time: 18:00
+result_string: 6:5 n. PS
+ingame_status: penalty_shots
+timeline_minutes_csv: 0.0,2.95,18.58,19.32,24.08,26.87,27.25,31.87,37.27,39.92,43.87
+timeline_diffs_csv: 0,1,2,3,4,3,2,1,0,-1,0
+timeline_home_goals_csv: 0,1,2,3,4,4,4,4,4,4,5
+timeline_away_goals_csv: 0,0,0,0,0,1,2,3,4,5,5
+home_goal_minutes_csv: 2.95,18.58,19.32,24.08,43.87
+home_goal_diffs_csv: 1,2,3,4,0
+away_goal_minutes_csv: 26.87,27.25,31.87,37.27,39.92
+away_goal_diffs_csv: 3,2,1,0,-1
+home_penalty_minutes_csv: 16.0,31.82,34.78
+home_penalty_goals_csv: 1,4,4
+home_penalty_ends_csv: 18.0,31.87,36.78
+away_penalty_minutes_csv: 34.78,36.27,43.17
+away_penalty_goals_csv: 3,3,5
+away_penalty_ends_csv: 36.78,38.27,43.87
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

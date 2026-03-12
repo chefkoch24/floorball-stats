@@ -6,6 +6,26 @@ type: game
 game_id: 1571920
 home_team: IBF Falun
 away_team: Storvreta IBK
+start_time: 18:07:00
+result_string: 4-8
+ingame_status: nan
+timeline_minutes_csv: 0.0,6.07,10.9,13.15,13.58,27.3,31.13,31.4,36.57,37.75,40.6,56.45
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-3,-4,-5,-4,-3
+timeline_home_goals_csv: 0,1,1,1,1,1,2,2,2,2,3,4
+timeline_away_goals_csv: 0,0,1,2,3,4,4,5,6,7,7,7
+home_goal_minutes_csv: 6.07,31.13,40.6,56.45
+home_goal_diffs_csv: 1,-2,-4,-3
+away_goal_minutes_csv: 10.9,13.15,13.58,27.3,31.4,36.57,37.75
+away_goal_diffs_csv: 0,-1,-2,-3,-3,-4,-5
+home_penalty_minutes_csv: 38.98
+home_penalty_goals_csv: 2
+home_penalty_ends_csv: 40.98
+away_penalty_minutes_csv: 4.23,38.98,44.28,49.42
+away_penalty_goals_csv: 0,7,7,7
+away_penalty_ends_csv: 6.07,40.6,46.28,51.42
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -6,6 +6,26 @@ type: game
 game_id: eraviikingit-jymy-10-10-2025
 home_team: EräViikingit
 away_team: Jymy
+start_time: nan
+result_string: 0-1
+ingame_status: nan
+timeline_minutes_csv: 0.0,4.18,9.58,11.6,19.23,41.45,42.02,42.95,49.52,50.92
+timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,1,2,1
+timeline_home_goals_csv: 0,0,1,1,1,2,3,4,5,5
+timeline_away_goals_csv: 0,1,1,2,3,3,3,3,3,4
+home_goal_minutes_csv: 9.58,41.45,42.02,42.95,49.52
+home_goal_diffs_csv: 0,-1,0,1,2
+away_goal_minutes_csv: 4.18,11.6,19.23,50.92
+away_goal_diffs_csv: -1,-1,-2,1
+home_penalty_minutes_csv: 11.42,24.9,57.87
+home_penalty_goals_csv: 1,1,5
+home_penalty_ends_csv: 11.6,26.9,59.87
+away_penalty_minutes_csv: 32.4
+away_penalty_goals_csv: 3
+away_penalty_ends_csv: 34.4
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

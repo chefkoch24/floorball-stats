@@ -6,6 +6,26 @@ type: game
 game_id: 1073860
 home_team: Unihockey Basel Regio
 away_team: HC Rychenberg Winterthur
+start_time: 18:00
+result_string: 7:6 (2:1, 2:1, 2:4, 1:0) n.V.
+ingame_status: nan
+timeline_minutes_csv: 0.0,12.83,13.28,14.98,32.23,36.08,37.42,40.07,40.88,42.72,50.7,54.08,57.85,62.18
+timeline_diffs_csv: 0,-1,0,1,2,3,2,1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,4,4,4,4,4,5,5,6,7
+timeline_away_goals_csv: 0,1,1,1,1,1,2,3,4,5,5,6,6,6
+home_goal_minutes_csv: 13.28,14.98,32.23,36.08,50.7,57.85,62.18
+home_goal_diffs_csv: 0,1,2,3,0,0,1
+away_goal_minutes_csv: 12.83,37.42,40.07,40.88,42.72,54.08
+away_goal_diffs_csv: -1,2,1,0,-1,-1
+home_penalty_minutes_csv: 21.52,46.17
+home_penalty_goals_csv: 2,4
+home_penalty_ends_csv: 23.52,48.17
+away_penalty_minutes_csv: 14.37
+away_penalty_goals_csv: 1
+away_penalty_ends_csv: 14.98
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 62.18
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
