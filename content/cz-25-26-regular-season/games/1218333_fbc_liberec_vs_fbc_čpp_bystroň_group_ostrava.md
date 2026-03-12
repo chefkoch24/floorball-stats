@@ -9,13 +9,13 @@ away_team: FBC ČPP Bystroň Group OSTRAVA
 start_time: nan
 result_string: 6:12
 ingame_status: nan
-timeline_minutes_csv: 0.0,1.78,6.38,9.9,10.18,43.37,46.02,46.37,51.35,81.23,81.33,83.4,90.1,91.13,93.05,94.02,96.88,98.78,98.78,99.78
-timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5,-6,-5,-6,-5,-6,-7,-6,-5,-6,-5,0,-6
-timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1,2,2,3,3,3,4,5,5,6,0,6
-timeline_away_goals_csv: 0,1,2,3,4,4,5,6,7,7,8,8,9,10,10,10,11,11,0,12
-home_goal_minutes_csv: 43.37,81.23,83.4,93.05,94.02,98.78,98.78
-home_goal_diffs_csv: -3,-5,-5,-6,-5,-5,0
-away_goal_minutes_csv: 1.78,6.38,9.9,10.18,46.02,46.37,51.35,81.33,90.1,91.13,96.88,99.78
+timeline_minutes_csv: 0.0,1.78,6.38,9.9,10.18,23.37,26.02,26.37,31.35,41.23,41.33,43.4,50.1,51.13,53.05,54.02,56.88,58.78,59.78
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5,-6,-5,-6,-5,-6,-7,-6,-5,-6,-5,-6
+timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1,2,2,3,3,3,4,5,5,6,6
+timeline_away_goals_csv: 0,1,2,3,4,4,5,6,7,7,8,8,9,10,10,10,11,11,12
+home_goal_minutes_csv: 23.37,41.23,43.4,53.05,54.02,58.78
+home_goal_diffs_csv: -3,-5,-5,-6,-5,-5
+away_goal_minutes_csv: 1.78,6.38,9.9,10.18,26.02,26.37,31.35,41.33,50.1,51.13,56.88,59.78
 away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6,-6,-6,-7,-6,-6
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
@@ -25,7 +25,7 @@ away_penalty_goals_csv:
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.78
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -34,14 +34,14 @@ home_draws: 0
 home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 7
+home_goals: 6
 home_goals_against: 12
 home_games: 1
-home_goal_difference: -5
+home_goal_difference: -6
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 1
-home_goals_in_third_period: 6
+home_goals_in_third_period: 5
 home_goals_in_overtime: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_powerplay: 0
@@ -88,7 +88,7 @@ home_goals_in_second_period_against: 3
 home_goals_in_third_period_against: 5
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 7
+home_goals_home: 6
 home_goals_away: 0
 home_goals_against_home: 12
 home_goals_against_away: 0
@@ -110,9 +110,9 @@ away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
 away_goals: 12
-away_goals_against: 7
+away_goals_against: 6
 away_games: 1
-away_goal_difference: 5
+away_goal_difference: 6
 away_points_max_difference_2: 0
 away_goals_in_first_period: 4
 away_goals_in_second_period: 3
@@ -160,13 +160,13 @@ away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 0
 away_goals_in_second_period_against: 1
-away_goals_in_third_period_against: 6
+away_goals_in_third_period_against: 5
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
 away_goals_away: 12
 away_goals_against_home: 0
-away_goals_against_away: 7
+away_goals_against_away: 6
 away_home_points: 0
 away_away_points: 3
 away_take_the_lead_goals_against: 0

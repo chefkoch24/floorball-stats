@@ -9,23 +9,23 @@ away_team: Florbal Ústí
 start_time: nan
 result_string: 9:4
 ingame_status: nan
-timeline_minutes_csv: 0.0,4.55,5.43,5.85,7.5,13.15,15.25,50.27,50.85,81.75,87.12,89.33,95.92,96.98
+timeline_minutes_csv: 0.0,4.55,5.43,5.85,7.5,13.15,15.25,30.27,30.85,41.75,47.12,49.33,55.92,56.98
 timeline_diffs_csv: 0,1,2,1,2,3,4,3,2,3,4,3,4,5
 timeline_home_goals_csv: 0,1,2,2,3,4,5,5,5,6,7,7,8,9
 timeline_away_goals_csv: 0,0,0,1,1,1,1,2,3,3,3,4,4,4
-home_goal_minutes_csv: 4.55,5.43,7.5,13.15,15.25,81.75,87.12,95.92,96.98
+home_goal_minutes_csv: 4.55,5.43,7.5,13.15,15.25,41.75,47.12,55.92,56.98
 home_goal_diffs_csv: 1,2,2,3,4,3,4,4,5
-away_goal_minutes_csv: 5.85,50.27,50.85,89.33
+away_goal_minutes_csv: 5.85,30.27,30.85,49.33
 away_goal_diffs_csv: 1,3,2,3
-home_penalty_minutes_csv: 9.97,19.73,90.88
+home_penalty_minutes_csv: 9.97,19.73,50.88
 home_penalty_goals_csv: 3,5,7
-home_penalty_ends_csv: 11.97,21.73,92.88
-away_penalty_minutes_csv: 9.97,47.08
+home_penalty_ends_csv: 11.97,21.73,52.88
+away_penalty_minutes_csv: 9.97,27.08
 away_penalty_goals_csv: 1,1
-away_penalty_ends_csv: 11.97,49.08
+away_penalty_ends_csv: 11.97,29.08
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 96.98
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

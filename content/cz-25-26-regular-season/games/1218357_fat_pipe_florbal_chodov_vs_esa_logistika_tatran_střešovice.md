@@ -9,13 +9,13 @@ away_team: ESA logistika Tatran Střešovice
 start_time: nan
 result_string: 6:7
 ingame_status: nan
-timeline_minutes_csv: 0.0,4.9,9.77,12.75,18.88,46.92,47.75,50.63,55.15,57.87,83.8,84.37,89.8,99.4,99.72
-timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1,0,-1,0,-1,-2,0,-1
-timeline_home_goals_csv: 0,0,0,1,2,2,3,4,4,4,5,5,5,0,6
-timeline_away_goals_csv: 0,1,2,2,2,3,3,3,4,5,5,6,7,0,7
-home_goal_minutes_csv: 12.75,18.88,47.75,50.63,83.8,99.4,99.72
-home_goal_diffs_csv: -1,0,0,1,0,0,-1
-away_goal_minutes_csv: 4.9,9.77,46.92,55.15,57.87,84.37,89.8
+timeline_minutes_csv: 0.0,4.9,9.77,12.75,18.88,26.92,27.75,30.63,35.15,37.87,43.8,44.37,49.8,59.72
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1,0,-1,0,-1,-2,-1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,4,4,4,5,5,5,6
+timeline_away_goals_csv: 0,1,2,2,2,3,3,3,4,5,5,6,7,7
+home_goal_minutes_csv: 12.75,18.88,27.75,30.63,43.8,59.72
+home_goal_diffs_csv: -1,0,0,1,0,-1
+away_goal_minutes_csv: 4.9,9.77,26.92,35.15,37.87,44.37,49.8
 away_goal_diffs_csv: -1,-2,-1,0,-1,-1,-2
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
@@ -25,7 +25,7 @@ away_penalty_goals_csv:
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.72
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -34,14 +34,14 @@ home_draws: 0
 home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 7
+home_goals: 6
 home_goals_against: 7
 home_games: 1
-home_goal_difference: 0
+home_goal_difference: -1
 home_points_max_difference_2: 0
 home_goals_in_first_period: 2
 home_goals_in_second_period: 2
-home_goals_in_third_period: 3
+home_goals_in_third_period: 2
 home_goals_in_overtime: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_powerplay: 0
@@ -88,7 +88,7 @@ home_goals_in_second_period_against: 3
 home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 7
+home_goals_home: 6
 home_goals_away: 0
 home_goals_against_home: 7
 home_goals_against_away: 0
@@ -110,9 +110,9 @@ away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
 away_goals: 7
-away_goals_against: 7
+away_goals_against: 6
 away_games: 1
-away_goal_difference: 0
+away_goal_difference: 1
 away_points_max_difference_2: 3
 away_goals_in_first_period: 2
 away_goals_in_second_period: 3
@@ -160,13 +160,13 @@ away_equalizer_goals: 1
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 2
 away_goals_in_second_period_against: 2
-away_goals_in_third_period_against: 3
+away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
 away_goals_away: 7
 away_goals_against_home: 0
-away_goals_against_away: 7
+away_goals_against_away: 6
 away_home_points: 0
 away_away_points: 3
 away_take_the_lead_goals_against: 1

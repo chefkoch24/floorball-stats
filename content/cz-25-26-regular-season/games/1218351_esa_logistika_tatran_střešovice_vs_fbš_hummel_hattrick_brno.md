@@ -9,23 +9,23 @@ away_team: FBŠ Hummel Hattrick Brno
 start_time: nan
 result_string: 14:2
 ingame_status: nan
-timeline_minutes_csv: 0.0,1.03,6.92,9.82,10.32,15.58,45.02,46.37,47.63,55.33,88.85,95.63,96.0,96.83,96.93,98.6,99.98
+timeline_minutes_csv: 0.0,1.03,6.92,9.82,10.32,15.58,25.02,26.37,27.63,35.33,48.85,55.63,56.0,56.83,56.93,58.6,59.98
 timeline_diffs_csv: 0,1,2,3,2,3,4,5,6,7,8,9,10,11,10,11,12
 timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7,8,9,10,11,12,12,13,14
 timeline_away_goals_csv: 0,0,0,0,1,1,1,1,1,1,1,1,1,1,2,2,2
-home_goal_minutes_csv: 1.03,6.92,9.82,15.58,45.02,46.37,47.63,55.33,88.85,95.63,96.0,96.83,98.6,99.98
+home_goal_minutes_csv: 1.03,6.92,9.82,15.58,25.02,26.37,27.63,35.33,48.85,55.63,56.0,56.83,58.6,59.98
 home_goal_diffs_csv: 1,2,3,3,4,5,6,7,8,9,10,11,11,12
-away_goal_minutes_csv: 10.32,96.93
+away_goal_minutes_csv: 10.32,56.93
 away_goal_diffs_csv: 2,10
-home_penalty_minutes_csv: 40.32
+home_penalty_minutes_csv: 20.32
 home_penalty_goals_csv: 4
-home_penalty_ends_csv: 42.32
-away_penalty_minutes_csv: 11.43,87.28,92.68
+home_penalty_ends_csv: 22.32
+away_penalty_minutes_csv: 11.43,47.28,52.68
 away_penalty_goals_csv: 1,1,1
-away_penalty_ends_csv: 13.43,88.85,94.68
+away_penalty_ends_csv: 13.43,48.85,54.68
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.98
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

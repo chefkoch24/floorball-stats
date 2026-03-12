@@ -280,13 +280,16 @@ if (timelineChart && penaltyChart) {
           type: 'linear',
           title: { display: true, text: 'Minute' },
           min: 0,
-          suggestedMax: maxMinute,
+          max: maxMinute,
           grid: { color: 'rgba(148, 163, 184, 0.2)' }
         },
         y: {
           title: { display: true, text: 'Cumulative goals' },
           beginAtZero: true,
-          ticks: { precision: 0 }
+          ticks: { precision: 0 },
+          afterFit: (scale) => {
+            scale.width = 90;
+          }
         }
       }
     }
@@ -368,7 +371,7 @@ if (timelineChart && penaltyChart) {
         x: {
           type: 'linear',
           min: 0,
-          suggestedMax: maxMinute,
+          max: maxMinute,
           title: { display: true, text: 'Penalty timeline' },
           grid: { color: 'rgba(148, 163, 184, 0.2)' }
         },
@@ -378,10 +381,13 @@ if (timelineChart && penaltyChart) {
           ticks: {
             stepSize: 1,
             callback: (value) => {
-              if (value === 1) return '{{ article.home_team }}';
-              if (value === 0) return '{{ article.away_team }}';
+              if (value === 1) return 'Home';
+              if (value === 0) return 'Away';
               return '';
             }
+          },
+          afterFit: (scale) => {
+            scale.width = 90;
           },
           grid: { display: false }
         }

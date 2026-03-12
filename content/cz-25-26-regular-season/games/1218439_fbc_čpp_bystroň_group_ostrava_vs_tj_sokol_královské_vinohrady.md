@@ -9,23 +9,23 @@ away_team: TJ Sokol Královské Vinohrady
 start_time: nan
 result_string: 5:6
 ingame_status: nan
-timeline_minutes_csv: 0.0,51.27,53.27,58.68,59.68,85.07,87.68,88.28,93.25,97.33,99.43,99.52,99.52
-timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,1,0,0,0
-timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,5,5,0,0
-timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,4,5,0,0
-home_goal_minutes_csv: 51.27,58.68,59.68,85.07,88.28,99.52,99.52
-home_goal_diffs_csv: 1,1,2,3,3,0,0
-away_goal_minutes_csv: 53.27,87.68,93.25,97.33,99.43
+timeline_minutes_csv: 0.0,31.27,33.27,38.68,39.68,45.07,47.68,48.28,53.25,57.33,59.43
+timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,1,0
+timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,5,5
+timeline_away_goals_csv: 0,0,1,1,1,1,2,2,3,4,5
+home_goal_minutes_csv: 31.27,38.68,39.68,45.07,48.28
+home_goal_diffs_csv: 1,1,2,3,3
+away_goal_minutes_csv: 33.27,47.68,53.25,57.33,59.43
 away_goal_diffs_csv: 0,2,2,1,0
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 122.02
-away_penalty_goals_csv: 0
-away_penalty_ends_csv: 124.02
+away_penalty_minutes_csv: 62.02
+away_penalty_goals_csv: 5
+away_penalty_ends_csv: 64.02
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 124.02
+timeline_max_minute: 64.02
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0
@@ -34,14 +34,14 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 1
-home_goals: 7
+home_goals: 5
 home_goals_against: 6
 home_games: 1
-home_goal_difference: 1
+home_goal_difference: -1
 home_points_max_difference_2: 1
 home_goals_in_first_period: 0
 home_goals_in_second_period: 3
-home_goals_in_third_period: 4
+home_goals_in_third_period: 2
 home_goals_in_overtime: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_powerplay: 0
@@ -88,7 +88,7 @@ home_goals_in_second_period_against: 1
 home_goals_in_third_period_against: 4
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 1
-home_goals_home: 7
+home_goals_home: 5
 home_goals_away: 0
 home_goals_against_home: 6
 home_goals_against_away: 0
@@ -110,9 +110,9 @@ away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
 away_goals: 6
-away_goals_against: 7
+away_goals_against: 5
 away_games: 1
-away_goal_difference: -1
+away_goal_difference: 1
 away_points_max_difference_2: 2
 away_goals_in_first_period: 0
 away_goals_in_second_period: 1
@@ -160,13 +160,13 @@ away_equalizer_goals: 2
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 0
 away_goals_in_second_period_against: 3
-away_goals_in_third_period_against: 4
+away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
 away_goals_away: 6
 away_goals_against_home: 0
-away_goals_against_away: 7
+away_goals_against_away: 5
 away_home_points: 0
 away_away_points: 2
 away_take_the_lead_goals_against: 2

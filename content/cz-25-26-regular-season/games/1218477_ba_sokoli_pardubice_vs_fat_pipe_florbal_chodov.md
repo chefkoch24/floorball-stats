@@ -9,23 +9,23 @@ away_team: FAT PIPE FLORBAL CHODOV
 start_time: nan
 result_string: 4:6
 ingame_status: nan
-timeline_minutes_csv: 0.0,6.62,50.22,50.77,51.85,53.43,55.65,56.58,80.22,83.32,89.68,93.22
-timeline_diffs_csv: 0,1,0,0,1,2,1,2,1,0,-1,-2
-timeline_home_goals_csv: 0,1,0,1,2,3,3,4,4,4,4,4
-timeline_away_goals_csv: 0,0,0,1,1,1,2,2,3,4,5,6
-home_goal_minutes_csv: 6.62,51.85,53.43,56.58
+timeline_minutes_csv: 0.0,6.62,30.77,31.85,33.43,35.65,36.58,40.22,43.32,49.68,53.22
+timeline_diffs_csv: 0,1,0,1,2,1,2,1,0,-1,-2
+timeline_home_goals_csv: 0,1,1,2,3,3,4,4,4,4,4
+timeline_away_goals_csv: 0,0,1,1,1,2,2,3,4,5,6
+home_goal_minutes_csv: 6.62,31.85,33.43,36.58
 home_goal_diffs_csv: 1,1,2,2
-away_goal_minutes_csv: 50.22,50.77,55.65,80.22,83.32,89.68,93.22
-away_goal_diffs_csv: 0,0,1,1,0,-1,-2
+away_goal_minutes_csv: 30.77,35.65,40.22,43.32,49.68,53.22
+away_goal_diffs_csv: 0,1,1,0,-1,-2
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 95.0
+away_penalty_minutes_csv: 55.0
 away_penalty_goals_csv: 6
-away_penalty_ends_csv: 97.0
+away_penalty_ends_csv: 57.0
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 97.0
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 4
-home_goals_against: 7
+home_goals_against: 6
 home_games: 1
-home_goal_difference: -3
+home_goal_difference: -2
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 3
@@ -84,13 +84,13 @@ home_take_the_lead_goals: 2
 home_equalizer_goals: 0
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 0
-home_goals_in_second_period_against: 3
+home_goals_in_second_period_against: 2
 home_goals_in_third_period_against: 4
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 4
 home_goals_away: 0
-home_goals_against_home: 7
+home_goals_against_home: 6
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,13 +109,13 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 7
+away_goals: 6
 away_goals_against: 4
 away_games: 1
-away_goal_difference: 3
+away_goal_difference: 2
 away_points_max_difference_2: 3
 away_goals_in_first_period: 0
-away_goals_in_second_period: 3
+away_goals_in_second_period: 2
 away_goals_in_third_period: 4
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 7
+away_goals_away: 6
 away_goals_against_home: 0
 away_goals_against_away: 4
 away_home_points: 0

@@ -20,11 +20,20 @@ def _parse_sortkey_to_minute(sortkey: str) -> float:
         second = int(second_str)
     except (ValueError, AttributeError):
         return 0.0
+    # Most providers use period-relative clock (00:00..19:59), but some
+    # (notably Czech) provide absolute game clock in sortkey (e.g. 53:05 in P3).
+    if period > 1 and minute >= 20:
+        return round(minute + second / 60.0, 2)
     return round((period - 1) * 20 + minute + second / 60.0, 2)
 
 
 def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: str) -> dict:
+    periods = pd.to_numeric(game_df.get("period"), errors="coerce").fillna(0).astype(int)
+    has_extra_time = bool((periods >= 4).any())
+
     goals = game_df[game_df["event_type"] == EVENT_GOAL].copy()
+    if {"home_goals", "guest_goals"}.issubset(goals.columns):
+        goals = goals[~(goals["home_goals"].isna() & goals["guest_goals"].isna())]
     goals = goals[goals["period"].astype(int) <= 4]
     goals = goals.sort_values(by=["period", "sortkey"])
 
@@ -53,19 +62,34 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
         except (TypeError, ValueError):
             return 0
 
+    running_home_goals = 0
+    running_away_goals = 0
+    goal_times: list[tuple[float, str]] = []
+
     for _, event in goals.iterrows():
         minute = _parse_sortkey_to_minute(event.get("sortkey", ""))
-        home_goals = _to_int(event.get("home_goals", 0))
-        away_goals = _to_int(event.get("guest_goals", 0))
-        diff = home_goals - away_goals
+        scoring_team = str(event.get("event_team", ""))
+        if scoring_team == home_team:
+            running_home_goals += 1
+        elif scoring_team == away_team:
+            running_away_goals += 1
+        else:
+            # Unknown scoring team cannot be placed on a home/away timeline.
+            continue
+
+        home_goals = running_home_goals
+        away_goals = running_away_goals
+        diff = running_home_goals - running_away_goals
         timeline_minutes.append(minute)
         timeline_diffs.append(diff)
         timeline_home_goals.append(home_goals)
         timeline_away_goals.append(away_goals)
-        if event.get("event_team") == home_team:
+        goal_times.append((minute, scoring_team))
+
+        if scoring_team == home_team:
             home_goal_minutes.append(minute)
             home_goal_diffs.append(diff)
-        elif event.get("event_team") == away_team:
+        elif scoring_team == away_team:
             away_goal_minutes.append(minute)
             away_goal_diffs.append(diff)
 
@@ -77,10 +101,11 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
     goal_events = goal_events.sort_values(by=["period", "sortkey"])
 
     timeline_events = list(zip(timeline_minutes, timeline_home_goals, timeline_away_goals))
-    goal_times = [
-        (_parse_sortkey_to_minute(event.get("sortkey", "")), str(event.get("event_team", "")))
-        for _, event in goal_events.iterrows()
-    ]
+    if not goal_times:
+        goal_times = [
+            (_parse_sortkey_to_minute(event.get("sortkey", "")), str(event.get("event_team", "")))
+            for _, event in goal_events.iterrows()
+        ]
 
     def _score_at(minute: float) -> tuple[int, int]:
         home = 0
@@ -129,14 +154,7 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
             away_penalty_goals.append(away_score)
             away_penalty_ends.append(end_minute)
 
-    timeline_max_minute = max(
-        [60.0]
-        + timeline_minutes
-        + home_penalty_ends
-        + away_penalty_ends
-        + home_major_penalty_minutes
-        + away_major_penalty_minutes
-    )
+    timeline_max_minute = 70.0 if has_extra_time else 60.0
 
     def _csv(values: list[float | int]) -> str:
         return ",".join(str(v) for v in values)
@@ -921,6 +939,15 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     output_path.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_csv_path)
+    if {"event_type", "home_goals", "guest_goals"}.issubset(df.columns):
+        # Some sources include malformed goal rows (e.g. mixed timeline blocks)
+        # without any score snapshot. Drop them before computing stats.
+        invalid_goals = (
+            (df["event_type"] == EVENT_GOAL)
+            & df["home_goals"].isna()
+            & df["guest_goals"].isna()
+        )
+        df = df.loc[~invalid_goals].copy()
     teams = list(df['home_team_name'].unique()) + list(df['away_team_name'].unique())
     teams = np.unique(teams)
     engine = build_engine()

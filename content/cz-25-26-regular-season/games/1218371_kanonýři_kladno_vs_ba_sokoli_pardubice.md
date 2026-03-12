@@ -9,23 +9,23 @@ away_team: BA SOKOLI Pardubice
 start_time: nan
 result_string: 1:5
 ingame_status: nan
-timeline_minutes_csv: 0.0,16.42,40.88,49.38,49.47,86.13,88.48,88.88
-timeline_diffs_csv: 0,-1,-2,-3,-4,-5,0,-4
-timeline_home_goals_csv: 0,0,0,0,0,0,0,1
-timeline_away_goals_csv: 0,1,2,3,4,5,0,5
-home_goal_minutes_csv: 88.48,88.88
-home_goal_diffs_csv: 0,-4
-away_goal_minutes_csv: 16.42,40.88,49.38,49.47,86.13
+timeline_minutes_csv: 0.0,16.42,20.88,29.38,29.47,46.13,48.88
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4
+timeline_home_goals_csv: 0,0,0,0,0,0,1
+timeline_away_goals_csv: 0,1,2,3,4,5,5
+home_goal_minutes_csv: 48.88
+home_goal_diffs_csv: -4
+away_goal_minutes_csv: 16.42,20.88,29.38,29.47,46.13
 away_goal_diffs_csv: -1,-2,-3,-4,-5
-home_penalty_minutes_csv: 15.48,19.6,40.6,55.27
+home_penalty_minutes_csv: 15.48,19.6,20.6,35.27
 home_penalty_goals_csv: 0,0,0,0
-home_penalty_ends_csv: 16.42,21.6,40.88,57.27
+home_penalty_ends_csv: 16.42,20.88,20.88,37.27
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 88.88
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -34,14 +34,14 @@ home_draws: 0
 home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 2
+home_goals: 1
 home_goals_against: 5
 home_games: 1
-home_goal_difference: -3
+home_goal_difference: -4
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 0
-home_goals_in_third_period: 2
+home_goals_in_third_period: 1
 home_goals_in_overtime: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_powerplay: 0
@@ -88,7 +88,7 @@ home_goals_in_second_period_against: 3
 home_goals_in_third_period_against: 1
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 2
+home_goals_home: 1
 home_goals_away: 0
 home_goals_against_home: 5
 home_goals_against_away: 0
@@ -110,9 +110,9 @@ away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
 away_goals: 5
-away_goals_against: 2
+away_goals_against: 1
 away_games: 1
-away_goal_difference: 3
+away_goal_difference: 4
 away_points_max_difference_2: 0
 away_goals_in_first_period: 1
 away_goals_in_second_period: 3
@@ -160,13 +160,13 @@ away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 0
 away_goals_in_second_period_against: 0
-away_goals_in_third_period_against: 2
+away_goals_in_third_period_against: 1
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
 away_goals_away: 5
 away_goals_against_home: 0
-away_goals_against_away: 2
+away_goals_against_away: 1
 away_home_points: 0
 away_away_points: 3
 away_take_the_lead_goals_against: 0

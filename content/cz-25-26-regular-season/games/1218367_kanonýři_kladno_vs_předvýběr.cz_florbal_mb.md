@@ -9,23 +9,23 @@ away_team: Předvýběr.CZ Florbal MB
 start_time: nan
 result_string: 3:14
 ingame_status: nan
-timeline_minutes_csv: 0.0,3.98,15.73,15.85,16.0,18.62,40.62,44.02,45.85,49.42,54.63,80.92,91.27,92.43,97.63,97.72,99.37,99.55
+timeline_minutes_csv: 0.0,3.98,15.73,15.85,16.0,18.62,20.62,24.02,25.85,29.42,34.63,40.92,51.27,52.43,57.63,57.72,59.37,59.55
 timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-4,-3,-4,-5,-6,-7,-8,-9,-10,-11
 timeline_home_goals_csv: 0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3
 timeline_away_goals_csv: 0,0,1,2,3,3,4,5,6,6,7,8,9,10,11,12,13,14
-home_goal_minutes_csv: 3.98,18.62,49.42
+home_goal_minutes_csv: 3.98,18.62,29.42
 home_goal_diffs_csv: 1,-1,-3
-away_goal_minutes_csv: 15.73,15.85,16.0,40.62,44.02,45.85,54.63,80.92,91.27,92.43,97.63,97.72,99.37,99.55
+away_goal_minutes_csv: 15.73,15.85,16.0,20.62,24.02,25.85,34.63,40.92,51.27,52.43,57.63,57.72,59.37,59.55
 away_goal_diffs_csv: 0,-1,-2,-2,-3,-4,-4,-5,-6,-7,-8,-9,-10,-11
-home_penalty_minutes_csv: 19.28,44.02,53.08,97.78
+home_penalty_minutes_csv: 19.28,24.02,33.08,57.78
 home_penalty_goals_csv: 2,2,3,3
-home_penalty_ends_csv: 21.28,44.02,54.63,99.37
-away_penalty_minutes_csv: 18.4,51.52
+home_penalty_ends_csv: 20.62,24.02,34.63,59.37
+away_penalty_minutes_csv: 18.4,31.52
 away_penalty_goals_csv: 3,6
-away_penalty_ends_csv: 18.62,53.52
+away_penalty_ends_csv: 18.62,33.52
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.55
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

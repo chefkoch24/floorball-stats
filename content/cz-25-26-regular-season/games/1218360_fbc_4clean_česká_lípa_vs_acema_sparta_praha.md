@@ -9,23 +9,23 @@ away_team: ACEMA Sparta Praha
 start_time: nan
 result_string: 4:9
 ingame_status: nan
-timeline_minutes_csv: 0.0,3.03,8.97,17.23,43.63,49.8,53.37,54.67,54.98,81.45,84.97,88.4,92.48,92.8,99.25
-timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,0,-4,-3,-4,-5,-4,-5
-timeline_home_goals_csv: 0,1,1,1,2,2,2,2,0,2,3,3,3,4,4
-timeline_away_goals_csv: 0,0,1,2,2,3,4,5,0,6,6,7,8,8,9
-home_goal_minutes_csv: 3.03,43.63,84.97,92.8
+timeline_minutes_csv: 0.0,3.03,8.97,17.23,23.63,29.8,33.37,34.67,41.45,44.97,48.4,52.48,52.8,59.25
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-4,-3,-4,-5,-4,-5
+timeline_home_goals_csv: 0,1,1,1,2,2,2,2,2,3,3,3,4,4
+timeline_away_goals_csv: 0,0,1,2,2,3,4,5,6,6,7,8,8,9
+home_goal_minutes_csv: 3.03,23.63,44.97,52.8
 home_goal_diffs_csv: 1,0,-3,-4
-away_goal_minutes_csv: 8.97,17.23,49.8,53.37,54.67,54.98,81.45,88.4,92.48,99.25
-away_goal_diffs_csv: 0,-1,-1,-2,-3,0,-4,-4,-5,-5
-home_penalty_minutes_csv: 51.93,90.65
+away_goal_minutes_csv: 8.97,17.23,29.8,33.37,34.67,41.45,48.4,52.48,59.25
+away_goal_diffs_csv: 0,-1,-1,-2,-3,-4,-4,-5,-5
+home_penalty_minutes_csv: 31.93,50.65
 home_penalty_goals_csv: 2,3
-home_penalty_ends_csv: 53.37,92.48
+home_penalty_ends_csv: 33.37,52.48
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.25
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 4
-home_goals_against: 10
+home_goals_against: 9
 home_games: 1
-home_goal_difference: -6
+home_goal_difference: -5
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 1
@@ -84,13 +84,13 @@ home_take_the_lead_goals: 1
 home_equalizer_goals: 1
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 2
-home_goals_in_second_period_against: 4
+home_goals_in_second_period_against: 3
 home_goals_in_third_period_against: 4
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 4
 home_goals_away: 0
-home_goals_against_home: 10
+home_goals_against_home: 9
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,13 +109,13 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 10
+away_goals: 9
 away_goals_against: 4
 away_games: 1
-away_goal_difference: 6
+away_goal_difference: 5
 away_points_max_difference_2: 0
 away_goals_in_first_period: 2
-away_goals_in_second_period: 4
+away_goals_in_second_period: 3
 away_goals_in_third_period: 4
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
@@ -134,11 +134,11 @@ away_boxplay_second_period: 0
 away_boxplay_third_period: 0
 away_boxplay_overtime: 0
 away_points_after_first_period: 3
-away_points_after_second_period: 0
+away_points_after_second_period: 3
 away_points_after_third_period: 3
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 0
 away_points_more_2_difference: 3
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 10
+away_goals_away: 9
 away_goals_against_home: 0
 away_goals_against_away: 4
 away_home_points: 0

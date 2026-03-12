@@ -9,23 +9,23 @@ away_team: Kanonýři Kladno
 start_time: nan
 result_string: 3:6
 ingame_status: nan
-timeline_minutes_csv: 0.0,8.92,15.08,15.43,18.32,49.73,83.73,92.93,96.38,96.63,98.82
-timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-3,0,-4,-3
-timeline_home_goals_csv: 0,0,0,0,1,1,1,2,0,2,3
-timeline_away_goals_csv: 0,1,2,3,3,4,5,5,0,6,6
-home_goal_minutes_csv: 18.32,92.93,98.82
+timeline_minutes_csv: 0.0,8.92,15.08,15.43,18.32,29.73,43.73,52.93,56.63,58.82
+timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-3,-4,-3
+timeline_home_goals_csv: 0,0,0,0,1,1,1,2,2,3
+timeline_away_goals_csv: 0,1,2,3,3,4,5,5,6,6
+home_goal_minutes_csv: 18.32,52.93,58.82
 home_goal_diffs_csv: -2,-3,-3
-away_goal_minutes_csv: 8.92,15.08,15.43,49.73,83.73,96.38,96.63
-away_goal_diffs_csv: -1,-2,-3,-3,-4,0,-4
+away_goal_minutes_csv: 8.92,15.08,15.43,29.73,43.73,56.63
+away_goal_diffs_csv: -1,-2,-3,-3,-4,-4
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 45.1
+away_penalty_minutes_csv: 25.1
 away_penalty_goals_csv: 3
-away_penalty_ends_csv: 47.1
+away_penalty_ends_csv: 27.1
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 98.82
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 3
-home_goals_against: 7
+home_goals_against: 6
 home_games: 1
-home_goal_difference: -4
+home_goal_difference: -3
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 0
@@ -85,12 +85,12 @@ home_equalizer_goals: 0
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 3
 home_goals_in_second_period_against: 1
-home_goals_in_third_period_against: 3
+home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 3
 home_goals_away: 0
-home_goals_against_home: 7
+home_goals_against_home: 6
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,14 +109,14 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 7
+away_goals: 6
 away_goals_against: 3
 away_games: 1
-away_goal_difference: 4
+away_goal_difference: 3
 away_points_max_difference_2: 0
 away_goals_in_first_period: 3
 away_goals_in_second_period: 1
-away_goals_in_third_period: 3
+away_goals_in_third_period: 2
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_powerplay: 0
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 7
+away_goals_away: 6
 away_goals_against_home: 0
 away_goals_against_away: 3
 away_home_points: 0

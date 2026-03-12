@@ -155,6 +155,11 @@ def _parse_event_rows(
         home_goals = int(score_match.group(1)) if score_match else None
         away_goals = int(score_match.group(2)) if score_match else None
 
+        # Timeline "more" blocks can mix goals with penalties/timeouts.
+        # If this row is treated as a goal but has no score snapshot, skip it.
+        if penalty_type is None and score_match is None:
+            continue
+
         row_data = {
             "event_type": "penalty" if penalty_type else "goal",
             "event_team": event_team,

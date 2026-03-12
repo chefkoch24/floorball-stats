@@ -9,23 +9,23 @@ away_team: Kanonýři Kladno
 start_time: nan
 result_string: 3:12
 ingame_status: nan
-timeline_minutes_csv: 0.0,0.45,7.28,15.48,42.05,42.35,46.4,47.93,52.33,56.27,57.4,84.57,84.85,87.87,95.1,99.6
+timeline_minutes_csv: 0.0,0.45,7.28,15.48,22.05,22.35,26.4,27.93,32.33,36.27,37.4,44.57,44.85,47.87,55.1,59.6
 timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7,-8,-7,-8,-9,-8,-9,-8,-9
 timeline_home_goals_csv: 0,0,0,0,0,0,0,0,0,1,1,1,2,2,3,3
 timeline_away_goals_csv: 0,1,2,3,4,5,6,7,8,8,9,10,10,11,11,12
-home_goal_minutes_csv: 56.27,84.85,95.1
+home_goal_minutes_csv: 36.27,44.85,55.1
 home_goal_diffs_csv: -7,-8,-8
-away_goal_minutes_csv: 0.45,7.28,15.48,42.05,42.35,46.4,47.93,52.33,57.4,84.57,87.87,99.6
+away_goal_minutes_csv: 0.45,7.28,15.48,22.05,22.35,26.4,27.93,32.33,37.4,44.57,47.87,59.6
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-8,-9,-9,-9
-home_penalty_minutes_csv: 58.65,98.02
+home_penalty_minutes_csv: 38.65,58.02
 home_penalty_goals_csv: 1,3
-home_penalty_ends_csv: 60.65,99.6
-away_penalty_minutes_csv: 92.0
+home_penalty_ends_csv: 40.65,59.6
+away_penalty_minutes_csv: 52.0
 away_penalty_goals_csv: 11
-away_penalty_ends_csv: 94.0
+away_penalty_ends_csv: 54.0
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.6
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -9,23 +9,23 @@ away_team: ESA logistika Tatran Střešovice
 start_time: nan
 result_string: 3:8
 ingame_status: nan
-timeline_minutes_csv: 0.0,12.53,40.58,46.73,49.98,58.47,83.78,86.48,91.27,99.05,99.13,99.65
+timeline_minutes_csv: 0.0,12.53,20.58,26.73,29.98,38.47,43.78,46.48,51.27,59.05,59.13,59.65
 timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3,-2,-3,-4,-5
 timeline_home_goals_csv: 0,1,1,1,1,1,1,2,3,3,3,3
 timeline_away_goals_csv: 0,0,1,2,3,4,5,5,5,6,7,8
-home_goal_minutes_csv: 12.53,86.48,91.27
+home_goal_minutes_csv: 12.53,46.48,51.27
 home_goal_diffs_csv: 1,-3,-2
-away_goal_minutes_csv: 40.58,46.73,49.98,58.47,83.78,99.05,99.13,99.65
+away_goal_minutes_csv: 20.58,26.73,29.98,38.47,43.78,59.05,59.13,59.65
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-3,-4,-5
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 52.57
+away_penalty_minutes_csv: 32.57
 away_penalty_goals_csv: 3
-away_penalty_ends_csv: 54.57
+away_penalty_ends_csv: 34.57
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.65
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -9,23 +9,23 @@ away_team: FAT PIPE FLORBAL CHODOV
 start_time: nan
 result_string: 3:7
 ingame_status: nan
-timeline_minutes_csv: 0.0,13.75,18.67,43.48,43.72,45.05,57.93,59.63,85.57,96.45,99.95
+timeline_minutes_csv: 0.0,13.75,18.67,23.48,23.72,25.05,37.93,39.63,45.57,56.45,59.95
 timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-1,-2,-3,-4
 timeline_home_goals_csv: 0,1,1,1,1,1,2,3,3,3,3
 timeline_away_goals_csv: 0,0,1,2,3,4,4,4,5,6,7
-home_goal_minutes_csv: 13.75,57.93,59.63
+home_goal_minutes_csv: 13.75,37.93,39.63
 home_goal_diffs_csv: 1,-2,-1
-away_goal_minutes_csv: 18.67,43.48,43.72,45.05,85.57,96.45,99.95
+away_goal_minutes_csv: 18.67,23.48,23.72,25.05,45.57,56.45,59.95
 away_goal_diffs_csv: 0,-1,-2,-3,-2,-3,-4
-home_penalty_minutes_csv: 91.83
+home_penalty_minutes_csv: 51.83
 home_penalty_goals_csv: 3
-home_penalty_ends_csv: 93.83
-away_penalty_minutes_csv: 90.73
+home_penalty_ends_csv: 53.83
+away_penalty_minutes_csv: 50.73
 away_penalty_goals_csv: 5
-away_penalty_ends_csv: 92.73
+away_penalty_ends_csv: 52.73
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.95
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

@@ -9,14 +9,14 @@ away_team: FBC 4CLEAN Česká Lípa
 start_time: nan
 result_string: 2:4
 ingame_status: nan
-timeline_minutes_csv: 0.0,9.68,18.47,46.82,88.85,97.63,99.58,99.58
-timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,0
-timeline_home_goals_csv: 0,0,0,1,2,2,2,0
-timeline_away_goals_csv: 0,1,2,2,2,3,4,0
-home_goal_minutes_csv: 46.82,88.85
+timeline_minutes_csv: 0.0,9.68,18.47,26.82,48.85,57.63,59.58
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2
+timeline_home_goals_csv: 0,0,0,1,2,2,2
+timeline_away_goals_csv: 0,1,2,2,2,3,4
+home_goal_minutes_csv: 26.82,48.85
 home_goal_diffs_csv: -1,0
-away_goal_minutes_csv: 9.68,18.47,97.63,99.58,99.58
-away_goal_diffs_csv: -1,-2,-1,-2,0
+away_goal_minutes_csv: 9.68,18.47,57.63,59.58
+away_goal_diffs_csv: -1,-2,-1,-2
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
@@ -25,19 +25,19 @@ away_penalty_goals_csv:
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.58
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
 home_penalty_shootout_wins: 0
 home_draws: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 2
-home_goals_against: 5
+home_goals_against: 4
 home_games: 1
-home_goal_difference: -3
+home_goal_difference: -2
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 1
@@ -68,7 +68,7 @@ home_win_1: 0
 home_loss_1: 0
 home_points_more_2_difference: 0
 home_close_game_win: 0
-home_close_game_loss: 0
+home_close_game_loss: 1
 home_close_game_overtime: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
@@ -85,12 +85,12 @@ home_equalizer_goals: 1
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 2
 home_goals_in_second_period_against: 0
-home_goals_in_third_period_against: 3
+home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 2
 home_goals_away: 0
-home_goals_against_home: 5
+home_goals_against_home: 4
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -101,22 +101,22 @@ home_points_against_fbc_4clean_ceska_lipa: 0
 home_powerplay_efficiency: n.a.
 home_boxplay_efficiency: n.a.
 home_penalties: 0
-away_points: 0
-away_wins: 0
+away_points: 3
+away_wins: 1
 away_over_time_wins: 0
 away_penalty_shootout_wins: 0
 away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 5
+away_goals: 4
 away_goals_against: 2
 away_games: 1
-away_goal_difference: 3
-away_points_max_difference_2: 0
+away_goal_difference: 2
+away_points_max_difference_2: 3
 away_goals_in_first_period: 2
 away_goals_in_second_period: 0
-away_goals_in_third_period: 3
+away_goals_in_third_period: 2
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_powerplay: 0
@@ -135,14 +135,14 @@ away_boxplay_third_period: 0
 away_boxplay_overtime: 0
 away_points_after_first_period: 3
 away_points_after_second_period: 3
-away_points_after_third_period: 0
+away_points_after_third_period: 3
 away_points_after_55_min: 3
 away_points_after_58_min: 3
 away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 0
 away_points_more_2_difference: 0
-away_close_game_win: 0
+away_close_game_win: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_penalty_shot_goals: 0
@@ -164,15 +164,15 @@ away_goals_in_third_period_against: 1
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 5
+away_goals_away: 4
 away_goals_against_home: 0
 away_goals_against_away: 2
 away_home_points: 0
-away_away_points: 0
+away_away_points: 3
 away_take_the_lead_goals_against: 0
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 0
-away_points_against_tj_sokol_kralovske_vinohrady: 0
+away_points_against_tj_sokol_kralovske_vinohrady: 3
 away_powerplay_efficiency: n.a.
 away_boxplay_efficiency: n.a.
 away_penalties: 0

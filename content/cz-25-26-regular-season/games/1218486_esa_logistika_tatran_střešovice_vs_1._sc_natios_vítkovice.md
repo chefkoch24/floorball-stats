@@ -9,23 +9,23 @@ away_team: 1. SC NATIOS Vítkovice
 start_time: nan
 result_string: 10:4
 ingame_status: nan
-timeline_minutes_csv: 0.0,11.97,15.22,17.92,45.38,47.28,48.17,55.98,59.2,80.5,84.43,90.9,93.05,93.83,95.42,97.55
-timeline_diffs_csv: 0,-1,0,1,2,1,2,1,2,3,4,5,0,4,5,6
-timeline_home_goals_csv: 0,0,1,2,3,3,4,4,5,6,7,8,0,8,9,10
-timeline_away_goals_csv: 0,1,1,1,1,2,2,3,3,3,3,3,0,4,4,4
-home_goal_minutes_csv: 15.22,17.92,45.38,48.17,59.2,80.5,84.43,90.9,95.42,97.55
+timeline_minutes_csv: 0.0,11.97,15.22,17.92,25.38,27.28,28.17,35.98,39.2,40.5,44.43,50.9,53.83,55.42,57.55
+timeline_diffs_csv: 0,-1,0,1,2,1,2,1,2,3,4,5,4,5,6
+timeline_home_goals_csv: 0,0,1,2,3,3,4,4,5,6,7,8,8,9,10
+timeline_away_goals_csv: 0,1,1,1,1,2,2,3,3,3,3,3,4,4,4
+home_goal_minutes_csv: 15.22,17.92,25.38,28.17,39.2,40.5,44.43,50.9,55.42,57.55
 home_goal_diffs_csv: 0,1,2,2,2,3,4,5,5,6
-away_goal_minutes_csv: 11.97,47.28,55.98,93.05,93.83
-away_goal_diffs_csv: -1,1,1,0,4
-home_penalty_minutes_csv: 46.82,55.08
+away_goal_minutes_csv: 11.97,27.28,35.98,53.83
+away_goal_diffs_csv: -1,1,1,4
+home_penalty_minutes_csv: 26.82,35.08
 home_penalty_goals_csv: 3,4
-home_penalty_ends_csv: 47.28,55.98
+home_penalty_ends_csv: 27.28,35.98
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 97.55
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 10
-home_goals_against: 5
+home_goals_against: 4
 home_games: 1
-home_goal_difference: 5
+home_goal_difference: 6
 home_points_max_difference_2: 0
 home_goals_in_first_period: 2
 home_goals_in_second_period: 3
@@ -85,12 +85,12 @@ home_equalizer_goals: 1
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 1
 home_goals_in_second_period_against: 2
-home_goals_in_third_period_against: 2
+home_goals_in_third_period_against: 1
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 10
 home_goals_away: 0
-home_goals_against_home: 5
+home_goals_against_home: 4
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
@@ -109,14 +109,14 @@ away_draws: 0
 away_losses: 1
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 5
+away_goals: 4
 away_goals_against: 10
 away_games: 1
-away_goal_difference: -5
+away_goal_difference: -6
 away_points_max_difference_2: 0
 away_goals_in_first_period: 1
 away_goals_in_second_period: 2
-away_goals_in_third_period: 2
+away_goals_in_third_period: 1
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_powerplay: 2
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 5
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 5
+away_goals_away: 4
 away_goals_against_home: 0
 away_goals_against_away: 10
 away_home_points: 0

@@ -9,23 +9,23 @@ away_team: FBC 4CLEAN Česká Lípa
 start_time: nan
 result_string: 3:7
 ingame_status: nan
-timeline_minutes_csv: 0.0,2.87,3.43,11.7,48.02,87.5,87.83,95.17,95.97,96.88,98.13,98.53
-timeline_diffs_csv: 0,1,0,-1,0,-1,0,-2,-1,-2,-3,-4
-timeline_home_goals_csv: 0,1,1,1,2,2,0,2,3,3,3,3
-timeline_away_goals_csv: 0,0,1,2,2,3,0,4,4,5,6,7
-home_goal_minutes_csv: 2.87,48.02,95.97
+timeline_minutes_csv: 0.0,2.87,3.43,11.7,28.02,47.5,55.17,55.97,56.88,58.13,58.53
+timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-1,-2,-3,-4
+timeline_home_goals_csv: 0,1,1,1,2,2,2,3,3,3,3
+timeline_away_goals_csv: 0,0,1,2,2,3,4,4,5,6,7
+home_goal_minutes_csv: 2.87,28.02,55.97
 home_goal_diffs_csv: 1,0,-1
-away_goal_minutes_csv: 3.43,11.7,87.5,87.83,95.17,96.88,98.13,98.53
-away_goal_diffs_csv: 0,-1,-1,0,-2,-2,-3,-4
+away_goal_minutes_csv: 3.43,11.7,47.5,55.17,56.88,58.13,58.53
+away_goal_diffs_csv: 0,-1,-1,-2,-2,-3,-4
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 2.7,99.37
+away_penalty_minutes_csv: 2.7,59.37
 away_penalty_goals_csv: 0,7
-away_penalty_ends_csv: 2.87,101.37
+away_penalty_ends_csv: 2.87,61.37
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 101.37
+timeline_max_minute: 61.37
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 3
-home_goals_against: 8
+home_goals_against: 7
 home_games: 1
-home_goal_difference: -5
+home_goal_difference: -4
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 1
@@ -85,12 +85,12 @@ home_equalizer_goals: 1
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 2
 home_goals_in_second_period_against: 0
-home_goals_in_third_period_against: 6
+home_goals_in_third_period_against: 5
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 3
 home_goals_away: 0
-home_goals_against_home: 8
+home_goals_against_home: 7
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,14 +109,14 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 8
+away_goals: 7
 away_goals_against: 3
 away_games: 1
-away_goal_difference: 5
+away_goal_difference: 4
 away_points_max_difference_2: 0
 away_goals_in_first_period: 2
 away_goals_in_second_period: 0
-away_goals_in_third_period: 6
+away_goals_in_third_period: 5
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_powerplay: 0
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 1
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 8
+away_goals_away: 7
 away_goals_against_home: 0
 away_goals_against_away: 3
 away_home_points: 0

@@ -9,23 +9,23 @@ away_team: TJ Sokol Královské Vinohrady
 start_time: nan
 result_string: 4:1
 ingame_status: nan
-timeline_minutes_csv: 0.0,0.97,12.03,52.87,92.13,96.12
+timeline_minutes_csv: 0.0,0.97,12.03,32.87,52.13,56.12
 timeline_diffs_csv: 0,1,2,1,2,3
 timeline_home_goals_csv: 0,1,2,2,3,4
 timeline_away_goals_csv: 0,0,0,1,1,1
-home_goal_minutes_csv: 0.97,12.03,92.13,96.12
+home_goal_minutes_csv: 0.97,12.03,52.13,56.12
 home_goal_diffs_csv: 1,2,2,3
-away_goal_minutes_csv: 52.87
+away_goal_minutes_csv: 32.87
 away_goal_diffs_csv: 1
-home_penalty_minutes_csv: 19.75,45.28
+home_penalty_minutes_csv: 19.75,25.28
 home_penalty_goals_csv: 2,2
-home_penalty_ends_csv: 21.75,47.28
-away_penalty_minutes_csv: 19.75,88.78
+home_penalty_ends_csv: 21.75,27.28
+away_penalty_minutes_csv: 19.75,48.78
 away_penalty_goals_csv: 0,1
-away_penalty_ends_csv: 21.75,90.78
+away_penalty_ends_csv: 21.75,50.78
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 96.12
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

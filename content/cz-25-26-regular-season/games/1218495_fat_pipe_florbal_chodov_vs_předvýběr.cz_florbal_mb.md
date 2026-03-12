@@ -9,23 +9,23 @@ away_team: Předvýběr.CZ Florbal MB
 start_time: nan
 result_string: 5:10
 ingame_status: nan
-timeline_minutes_csv: 0.0,6.87,8.02,18.77,44.18,50.7,51.38,53.23,53.8,54.32,55.95,56.25,84.72,90.85,95.4,96.15,97.2
-timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,0,-4,-5,-6,-7,-6,-5,-6,-5
-timeline_home_goals_csv: 0,0,0,0,0,0,1,1,0,2,2,2,2,3,4,4,5
-timeline_away_goals_csv: 0,1,2,3,4,5,5,6,0,6,7,8,9,9,9,10,10
-home_goal_minutes_csv: 51.38,54.32,90.85,95.4,97.2
+timeline_minutes_csv: 0.0,6.87,8.02,18.77,24.18,30.7,31.38,33.23,34.32,35.95,36.25,44.72,50.85,55.4,56.15,57.2
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-5,-6,-7,-6,-5,-6,-5
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,2,2,2,3,4,4,5
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,7,8,9,9,9,10,10
+home_goal_minutes_csv: 31.38,34.32,50.85,55.4,57.2
 home_goal_diffs_csv: -4,-4,-6,-5,-5
-away_goal_minutes_csv: 6.87,8.02,18.77,44.18,50.7,53.23,53.8,55.95,56.25,84.72,96.15
-away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,0,-5,-6,-7,-6
-home_penalty_minutes_csv: 46.7,84.47
+away_goal_minutes_csv: 6.87,8.02,18.77,24.18,30.7,33.23,35.95,36.25,44.72,56.15
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-5,-6,-7,-6
+home_penalty_minutes_csv: 26.7,44.47
 home_penalty_goals_csv: 0,2
-home_penalty_ends_csv: 48.7,84.72
+home_penalty_ends_csv: 28.7,44.72
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 97.2
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -35,9 +35,9 @@ home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
 home_goals: 5
-home_goals_against: 11
+home_goals_against: 10
 home_games: 1
-home_goal_difference: -6
+home_goal_difference: -5
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 2
@@ -84,13 +84,13 @@ home_take_the_lead_goals: 0
 home_equalizer_goals: 0
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 3
-home_goals_in_second_period_against: 6
+home_goals_in_second_period_against: 5
 home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_home: 5
 home_goals_away: 0
-home_goals_against_home: 11
+home_goals_against_home: 10
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,13 +109,13 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 11
+away_goals: 10
 away_goals_against: 5
 away_games: 1
-away_goal_difference: 6
+away_goal_difference: 5
 away_points_max_difference_2: 0
 away_goals_in_first_period: 3
-away_goals_in_second_period: 6
+away_goals_in_second_period: 5
 away_goals_in_third_period: 2
 away_goals_in_overtime: 0
 away_goals_in_penalty_shootout: 0
@@ -164,7 +164,7 @@ away_goals_in_third_period_against: 3
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 11
+away_goals_away: 10
 away_goals_against_home: 0
 away_goals_against_away: 5
 away_home_points: 0

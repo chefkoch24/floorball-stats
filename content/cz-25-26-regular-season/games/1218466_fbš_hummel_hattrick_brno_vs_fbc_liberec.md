@@ -9,23 +9,23 @@ away_team: FBC Liberec
 start_time: nan
 result_string: 6:5
 ingame_status: nan
-timeline_minutes_csv: 0.0,1.87,3.12,4.67,8.58,16.7,43.57,53.48,57.33,84.85,92.8,99.75
+timeline_minutes_csv: 0.0,1.87,3.12,4.67,8.58,16.7,23.57,33.48,37.33,44.85,52.8,59.75
 timeline_diffs_csv: 0,-1,0,1,2,3,2,1,0,1,0,1
 timeline_home_goals_csv: 0,0,1,2,3,4,4,4,4,5,5,6
 timeline_away_goals_csv: 0,1,1,1,1,1,2,3,4,4,5,5
-home_goal_minutes_csv: 3.12,4.67,8.58,16.7,84.85,99.75
+home_goal_minutes_csv: 3.12,4.67,8.58,16.7,44.85,59.75
 home_goal_diffs_csv: 0,1,2,3,1,1
-away_goal_minutes_csv: 1.87,43.57,53.48,57.33,92.8
+away_goal_minutes_csv: 1.87,23.57,33.48,37.33,52.8
 away_goal_diffs_csv: -1,2,1,0,0
-home_penalty_minutes_csv: 80.72,86.85
+home_penalty_minutes_csv: 40.72,46.85
 home_penalty_goals_csv: 4,5
-home_penalty_ends_csv: 82.72,88.85
-away_penalty_minutes_csv: 94.75
+home_penalty_ends_csv: 42.72,48.85
+away_penalty_minutes_csv: 54.75
 away_penalty_goals_csv: 5
-away_penalty_ends_csv: 96.75
+away_penalty_ends_csv: 56.75
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.75
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

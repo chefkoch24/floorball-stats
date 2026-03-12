@@ -9,23 +9,23 @@ away_team: FBC ČPP Bystroň Group OSTRAVA
 start_time: nan
 result_string: 7:3
 ingame_status: nan
-timeline_minutes_csv: 0.0,2.15,9.15,9.22,55.1,56.03,59.38,59.75,88.02,96.33,99.25
+timeline_minutes_csv: 0.0,2.15,9.15,9.22,35.1,36.03,39.38,39.75,48.02,56.33,59.25
 timeline_diffs_csv: 0,1,0,1,2,3,2,3,4,5,4
 timeline_home_goals_csv: 0,1,1,2,3,4,4,5,6,7,7
 timeline_away_goals_csv: 0,0,1,1,1,1,2,2,2,2,3
-home_goal_minutes_csv: 2.15,9.22,55.1,56.03,59.75,88.02,96.33
+home_goal_minutes_csv: 2.15,9.22,35.1,36.03,39.75,48.02,56.33
 home_goal_diffs_csv: 1,1,2,3,3,4,5
-away_goal_minutes_csv: 9.15,59.38,99.25
+away_goal_minutes_csv: 9.15,39.38,59.25
 away_goal_diffs_csv: 0,2,4
-home_penalty_minutes_csv: 8.15,41.58,48.7,85.02,94.28
+home_penalty_minutes_csv: 8.15,21.58,28.7,45.02,54.28
 home_penalty_goals_csv: 1,2,2,5,6
-home_penalty_ends_csv: 9.15,43.58,50.7,87.02,96.28
-away_penalty_minutes_csv: 86.47,94.28
+home_penalty_ends_csv: 9.15,23.58,30.7,47.02,56.28
+away_penalty_minutes_csv: 46.47,54.28
 away_penalty_goals_csv: 2,2
-away_penalty_ends_csv: 88.02,96.28
+away_penalty_ends_csv: 48.02,56.28
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.25
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

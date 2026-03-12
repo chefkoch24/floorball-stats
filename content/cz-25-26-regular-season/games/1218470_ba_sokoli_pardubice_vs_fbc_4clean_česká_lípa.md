@@ -9,23 +9,23 @@ away_team: FBC 4CLEAN Česká Lípa
 start_time: nan
 result_string: 10:4
 ingame_status: nan
-timeline_minutes_csv: 0.0,3.78,15.53,16.92,40.73,49.35,53.97,58.25,59.65,80.28,80.73,90.38,91.77,92.9,98.98
+timeline_minutes_csv: 0.0,3.78,15.53,16.92,20.73,29.35,33.97,38.25,39.65,40.28,40.73,50.38,51.77,52.9,58.98
 timeline_diffs_csv: 0,1,0,1,2,3,4,3,4,5,4,5,6,5,6
 timeline_home_goals_csv: 0,1,1,2,3,4,5,5,6,7,7,8,9,9,10
 timeline_away_goals_csv: 0,0,1,1,1,1,1,2,2,2,3,3,3,4,4
-home_goal_minutes_csv: 3.78,16.92,40.73,49.35,53.97,59.65,80.28,90.38,91.77,98.98
+home_goal_minutes_csv: 3.78,16.92,20.73,29.35,33.97,39.65,40.28,50.38,51.77,58.98
 home_goal_diffs_csv: 1,1,2,3,4,4,5,5,6,6
-away_goal_minutes_csv: 15.53,58.25,80.73,92.9
+away_goal_minutes_csv: 15.53,38.25,40.73,52.9
 away_goal_diffs_csv: 0,3,4,5
-home_penalty_minutes_csv: 86.8
+home_penalty_minutes_csv: 46.8
 home_penalty_goals_csv: 7
-home_penalty_ends_csv: 88.8
-away_penalty_minutes_csv: 19.98,97.03
+home_penalty_ends_csv: 48.8
+away_penalty_minutes_csv: 19.98,57.03
 away_penalty_goals_csv: 1,4
-away_penalty_ends_csv: 21.98,98.98
+away_penalty_ends_csv: 20.73,58.98
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 98.98
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -9,23 +9,23 @@ away_team: HDT.cz Florbal Vary Bohemians
 start_time: nan
 result_string: 6:12
 ingame_status: nan
-timeline_minutes_csv: 0.0,3.87,9.42,19.33,42.75,45.17,47.97,51.3,51.52,51.9,52.97,54.35,55.88,80.78,83.63,86.78,89.92,90.8,91.08
+timeline_minutes_csv: 0.0,3.87,9.42,19.33,22.75,25.17,27.97,31.3,31.52,31.9,32.97,34.35,35.88,40.78,43.63,46.78,49.92,50.8,51.08
 timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-5,-4,-5,-6,-7,-6,-5,-6,-7,-6
 timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,2,3,3,3,3,4,5,5,5,6
 timeline_away_goals_csv: 0,1,2,3,4,5,5,6,6,7,7,8,9,10,10,10,11,12,12
-home_goal_minutes_csv: 47.97,51.52,52.97,83.63,86.78,91.08
+home_goal_minutes_csv: 27.97,31.52,32.97,43.63,46.78,51.08
 home_goal_diffs_csv: -4,-4,-4,-6,-5,-6
-away_goal_minutes_csv: 3.87,9.42,19.33,42.75,45.17,51.3,51.9,54.35,55.88,80.78,89.92,90.8
+away_goal_minutes_csv: 3.87,9.42,19.33,22.75,25.17,31.3,31.9,34.35,35.88,40.78,49.92,50.8
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-5,-5,-6,-7,-6,-7
-home_penalty_minutes_csv: 87.87
+home_penalty_minutes_csv: 47.87
 home_penalty_goals_csv: 5
-home_penalty_ends_csv: 89.87
-away_penalty_minutes_csv: 49.0,81.57,99.47
+home_penalty_ends_csv: 49.87
+away_penalty_minutes_csv: 29.0,41.57,59.47
 away_penalty_goals_csv: 5,10,12
-away_penalty_ends_csv: 51.0,83.57,101.47
+away_penalty_ends_csv: 31.0,43.57,61.47
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 101.47
+timeline_max_minute: 61.47
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

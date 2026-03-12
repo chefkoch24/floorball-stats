@@ -9,23 +9,23 @@ away_team: BA SOKOLI Pardubice
 start_time: nan
 result_string: 10:5
 ingame_status: nan
-timeline_minutes_csv: 0.0,5.37,7.07,9.88,11.5,14.73,19.82,40.65,43.8,46.45,51.53,57.53,85.53,91.1,97.25,99.82
+timeline_minutes_csv: 0.0,5.37,7.07,9.88,11.5,14.73,19.82,20.65,23.8,26.45,31.53,37.53,45.53,51.1,57.25,59.82
 timeline_diffs_csv: 0,1,0,1,0,1,2,3,2,3,2,3,2,3,4,5
 timeline_home_goals_csv: 0,1,1,2,2,3,4,5,5,6,6,7,7,8,9,10
 timeline_away_goals_csv: 0,0,1,1,2,2,2,2,3,3,4,4,5,5,5,5
-home_goal_minutes_csv: 5.37,9.88,14.73,19.82,40.65,46.45,57.53,91.1,97.25,99.82
+home_goal_minutes_csv: 5.37,9.88,14.73,19.82,20.65,26.45,37.53,51.1,57.25,59.82
 home_goal_diffs_csv: 1,1,1,2,3,3,3,3,4,5
-away_goal_minutes_csv: 7.07,11.5,43.8,51.53,85.53
+away_goal_minutes_csv: 7.07,11.5,23.8,31.53,45.53
 away_goal_diffs_csv: 0,0,2,2,2
-home_penalty_minutes_csv: 85.37
+home_penalty_minutes_csv: 45.37
 home_penalty_goals_csv: 7
-home_penalty_ends_csv: 85.53
-away_penalty_minutes_csv: 53.52,56.1,84.93
+home_penalty_ends_csv: 45.53
+away_penalty_minutes_csv: 33.52,36.1,44.93
 away_penalty_goals_csv: 4,4,4
-away_penalty_ends_csv: 55.52,57.53,86.93
+away_penalty_ends_csv: 35.52,37.53,46.93
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.82
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

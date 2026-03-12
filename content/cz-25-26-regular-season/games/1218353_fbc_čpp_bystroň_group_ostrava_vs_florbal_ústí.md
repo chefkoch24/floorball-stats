@@ -9,23 +9,23 @@ away_team: Florbal Ústí
 start_time: nan
 result_string: 3:2
 ingame_status: nan
-timeline_minutes_csv: 0.0,16.62,47.15,51.17,53.17,93.52
+timeline_minutes_csv: 0.0,16.62,27.15,31.17,33.17,53.52
 timeline_diffs_csv: 0,-1,0,-1,0,1
 timeline_home_goals_csv: 0,0,1,1,2,3
 timeline_away_goals_csv: 0,1,1,2,2,2
-home_goal_minutes_csv: 47.15,53.17,93.52
+home_goal_minutes_csv: 27.15,33.17,53.52
 home_goal_diffs_csv: 0,0,1
-away_goal_minutes_csv: 16.62,51.17
+away_goal_minutes_csv: 16.62,31.17
 away_goal_diffs_csv: -1,-1
-home_penalty_minutes_csv: 44.12,81.98
+home_penalty_minutes_csv: 24.12,41.98
 home_penalty_goals_csv: 0,2
-home_penalty_ends_csv: 46.12,83.98
+home_penalty_ends_csv: 26.12,43.98
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 93.52
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

@@ -9,23 +9,23 @@ away_team: ACEMA Sparta Praha
 start_time: nan
 result_string: 5:4
 ingame_status: nan
-timeline_minutes_csv: 0.0,10.72,43.03,43.7,55.38,57.3,92.07,93.18,93.4,96.62
+timeline_minutes_csv: 0.0,10.72,23.03,23.7,35.38,37.3,52.07,53.18,53.4,56.62
 timeline_diffs_csv: 0,1,0,-1,0,-1,0,1,0,1
 timeline_home_goals_csv: 0,1,1,1,2,2,3,4,4,5
 timeline_away_goals_csv: 0,0,1,2,2,3,3,3,4,4
-home_goal_minutes_csv: 10.72,55.38,92.07,93.18,96.62
+home_goal_minutes_csv: 10.72,35.38,52.07,53.18,56.62
 home_goal_diffs_csv: 1,0,0,1,1
-away_goal_minutes_csv: 43.03,43.7,57.3,93.4
+away_goal_minutes_csv: 23.03,23.7,37.3,53.4
 away_goal_diffs_csv: 0,-1,-1,0
-home_penalty_minutes_csv: 19.85,81.27
+home_penalty_minutes_csv: 19.85,41.27
 home_penalty_goals_csv: 1,2
-home_penalty_ends_csv: 21.85,83.27
-away_penalty_minutes_csv: 19.85,90.68
+home_penalty_ends_csv: 21.85,43.27
+away_penalty_minutes_csv: 19.85,50.68
 away_penalty_goals_csv: 0,3
-away_penalty_ends_csv: 21.85,92.07
+away_penalty_ends_csv: 21.85,52.07
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 96.62
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

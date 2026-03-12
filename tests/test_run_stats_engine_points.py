@@ -1,6 +1,7 @@
 import pandas as pd
 
 from src.run_stats_engine import (
+    _build_gameflow_timeline,
     stat_away_points,
     stat_boxplay,
     stat_losses,
@@ -262,3 +263,31 @@ def test_points_more_2_difference_counts_only_games_above_two():
 
     assert stat_points_more_2_difference(close_game, "A") == 0
     assert stat_points_more_2_difference(big_margin, "A") == 3
+
+
+def test_gameflow_handles_czech_absolute_clock_sortkeys():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "1-05:08", 1, "Home", "Away", 0, 1, "Away"),
+            _goal_event(1, "1-06:47", 1, "Home", "Away", 1, 1, "Home"),
+            _goal_event(1, "2-27:20", 2, "Home", "Away", 2, 1, "Home"),
+            _goal_event(1, "3-53:05", 3, "Home", "Away", 3, 1, "Home"),
+        ]
+    )
+
+    flow = _build_gameflow_timeline(events, "Home", "Away")
+    minutes = [float(v) for v in flow["timeline_minutes_csv"].split(",") if v]
+    assert minutes == [0.0, 5.13, 6.78, 27.33, 53.08]
+    assert flow["timeline_max_minute"] == 60.0
+
+
+def test_gameflow_uses_70_minutes_for_extra_time_games():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:30", 3, "Home", "Away", 2, 2, "Away"),
+            _goal_event(1, "4-01:00", 4, "Home", "Away", 3, 2, "Home"),
+        ]
+    )
+
+    flow = _build_gameflow_timeline(events, "Home", "Away")
+    assert flow["timeline_max_minute"] == 70.0

@@ -9,23 +9,23 @@ away_team: Předvýběr.CZ Florbal MB
 start_time: nan
 result_string: 2:6
 ingame_status: nan
-timeline_minutes_csv: 0.0,2.93,14.07,15.75,55.87,82.27,93.68,97.3,99.53
+timeline_minutes_csv: 0.0,2.93,14.07,15.75,35.87,42.27,53.68,57.3,59.53
 timeline_diffs_csv: 0,-1,0,-1,0,-1,-2,-3,-4
 timeline_home_goals_csv: 0,0,1,1,2,2,2,2,2
 timeline_away_goals_csv: 0,1,1,2,2,3,4,5,6
-home_goal_minutes_csv: 14.07,55.87
+home_goal_minutes_csv: 14.07,35.87
 home_goal_diffs_csv: 0,0
-away_goal_minutes_csv: 2.93,15.75,82.27,93.68,97.3,99.53
+away_goal_minutes_csv: 2.93,15.75,42.27,53.68,57.3,59.53
 away_goal_diffs_csv: -1,-1,-1,-2,-3,-4
-home_penalty_minutes_csv: 11.78,90.8
+home_penalty_minutes_csv: 11.78,50.8
 home_penalty_goals_csv: 0,2
-home_penalty_ends_csv: 13.78,92.8
+home_penalty_ends_csv: 13.78,52.8
 away_penalty_minutes_csv: 13.65
 away_penalty_goals_csv: 1
 away_penalty_ends_csv: 14.07
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.53
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

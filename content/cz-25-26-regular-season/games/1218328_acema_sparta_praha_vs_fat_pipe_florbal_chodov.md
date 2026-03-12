@@ -9,23 +9,23 @@ away_team: FAT PIPE FLORBAL CHODOV
 start_time: nan
 result_string: 6:2
 ingame_status: nan
-timeline_minutes_csv: 0.0,5.48,11.35,17.92,40.98,54.98,57.7,97.9,99.78
+timeline_minutes_csv: 0.0,5.48,11.35,17.92,20.98,34.98,37.7,57.9,59.78
 timeline_diffs_csv: 0,1,0,1,2,1,2,3,4
 timeline_home_goals_csv: 0,1,1,2,3,3,4,5,6
 timeline_away_goals_csv: 0,0,1,1,1,2,2,2,2
-home_goal_minutes_csv: 5.48,17.92,40.98,57.7,97.9,99.78
+home_goal_minutes_csv: 5.48,17.92,20.98,37.7,57.9,59.78
 home_goal_diffs_csv: 1,1,2,2,3,4
-away_goal_minutes_csv: 11.35,54.98
+away_goal_minutes_csv: 11.35,34.98
 away_goal_diffs_csv: 0,1
-home_penalty_minutes_csv: 10.92,44.63
+home_penalty_minutes_csv: 10.92,24.63
 home_penalty_goals_csv: 1,3
-home_penalty_ends_csv: 11.35,46.63
+home_penalty_ends_csv: 11.35,26.63
 away_penalty_minutes_csv: 
 away_penalty_goals_csv: 
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 99.78
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0

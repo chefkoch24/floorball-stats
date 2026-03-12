@@ -9,13 +9,13 @@ away_team: 1. SC NATIOS Vítkovice
 start_time: nan
 result_string: 4:10
 ingame_status: nan
-timeline_minutes_csv: 0.0,5.15,15.33,16.05,41.75,49.9,56.22,56.85,59.42,82.13,84.22,89.68,91.53,92.28,95.7
+timeline_minutes_csv: 0.0,5.15,15.33,16.05,21.75,29.9,36.22,36.85,39.42,42.13,44.22,49.68,51.53,52.28,55.7
 timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-4,-3,-2,-3,-4,-5,-6
 timeline_home_goals_csv: 0,1,1,1,1,2,2,2,2,3,4,4,4,4,4
 timeline_away_goals_csv: 0,0,1,2,3,3,4,5,6,6,6,7,8,9,10
-home_goal_minutes_csv: 5.15,49.9,82.13,84.22
+home_goal_minutes_csv: 5.15,29.9,42.13,44.22
 home_goal_diffs_csv: 1,-1,-3,-2
-away_goal_minutes_csv: 15.33,16.05,41.75,56.22,56.85,59.42,89.68,91.53,92.28,95.7
+away_goal_minutes_csv: 15.33,16.05,21.75,36.22,36.85,39.42,49.68,51.53,52.28,55.7
 away_goal_diffs_csv: 0,-1,-2,-2,-3,-4,-3,-4,-5,-6
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
@@ -25,7 +25,7 @@ away_penalty_goals_csv:
 away_penalty_ends_csv: 
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 95.7
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
