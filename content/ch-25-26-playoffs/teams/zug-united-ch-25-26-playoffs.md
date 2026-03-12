@@ -95,4 +95,4 @@ goals_per_game: 12.0
 goals_against_per_game: 5.0
 boxplay_per_game: 3.0
 powerplay_per_game: 0.5
-rank: 2
+rank: 3
