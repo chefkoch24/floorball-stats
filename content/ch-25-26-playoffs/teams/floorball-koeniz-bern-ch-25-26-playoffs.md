@@ -5,19 +5,19 @@ Slug: floorball-koeniz-bern-ch-25-26-playoffs-ch-25-26-playoffs
 type: team
 team:Floorball Köniz Bern
 platzierungsverlauf:ch-25-26-playoffs/teams/floorball-koeniz-bern-ch-25-26-playoffs_platzierungsverlauf.png
-points: 0
-wins: 0
+points: 3
+wins: 1
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 2
+losses: 1
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 7
 goals_against: 10
 games: 2
 goal_difference: -3
-points_max_difference_2: 0
+points_max_difference_2: 3
 goals_in_first_period: 0
 goals_in_second_period: 3
 goals_in_third_period: 4
@@ -37,17 +37,17 @@ boxplay_first_period: 1
 boxplay_second_period: 0
 boxplay_third_period: 3
 boxplay_overtime: 0
-points_after_first_period: 1
-points_after_second_period: 1
-points_after_third_period: 1
-points_after_55_min: 1
-points_after_58_min: 1
-points_after_59_min: 1
-win_1: 0
-loss_1: 2
+points_after_first_period: 0
+points_after_second_period: 0
+points_after_third_period: 3
+points_after_55_min: 3
+points_after_58_min: 3
+points_after_59_min: 3
+win_1: 1
+loss_1: 0
 points_more_2_difference: 0
-close_game_win: 0
-close_game_loss: 2
+close_game_win: 1
+close_game_loss: 0
 close_game_overtime: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
@@ -72,11 +72,11 @@ goals_away: 7
 goals_against_home: 0
 goals_against_away: 10
 home_points: 0
-away_points: 0
+away_points: 3
 take_the_lead_goals_against: 3
 equalizer_goals_against: 0
 first_goal_of_match_against: 2
-Tags:  Floorball Thurgau: 0,
+Tags:  Floorball Thurgau: 3,
 penalties: 4
 powerplay_efficiency: 25.0
 boxplay_efficiency: 100.0
@@ -88,11 +88,11 @@ percent_goals_first_period_against: 30.0
 percent_goals_second_period_against: 30.0
 percent_goals_third_period_against: 40.0
 percent_goals_overtime_against: 0.0
-points_per_game: 0.0
+points_per_game: 1.5
 goal_difference_per_game: -1.5
 scoring_ratio: 0.7
 goals_per_game: 3.5
 goals_against_per_game: 5.0
 boxplay_per_game: 2.0
 powerplay_per_game: 2.0
-rank: 8
+rank: 5

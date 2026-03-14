@@ -212,11 +212,40 @@ def _final_score_for_team(last_goal: pd.Series, team: str):
     return team_goals, opp_goals, last_goal['period']
 
 
+def _sort_events_chronologically(events: pd.DataFrame) -> pd.DataFrame:
+    if events.empty:
+        return events
+    ordered = events.copy()
+    if "sortkey" in ordered.columns:
+        ordered["_minute_sort"] = ordered["sortkey"].apply(_parse_sortkey_to_minute)
+    else:
+        ordered["_minute_sort"] = 0.0
+    if "time_in_s" in ordered.columns:
+        time_values = pd.to_numeric(ordered["time_in_s"], errors="coerce")
+        ordered["_time_sort"] = time_values.where(time_values.notna(), ordered["_minute_sort"] * 60.0)
+    else:
+        ordered["_time_sort"] = ordered["_minute_sort"] * 60.0
+    if "period" in ordered.columns:
+        ordered["_period_sort"] = pd.to_numeric(ordered["period"], errors="coerce").fillna(0).astype(int)
+    else:
+        ordered["_period_sort"] = 0
+    ordered = ordered.sort_values(by=["_time_sort", "_period_sort", "sortkey"] if "sortkey" in ordered.columns else ["_time_sort", "_period_sort"])
+    return ordered.drop(columns=["_minute_sort", "_time_sort", "_period_sort"], errors="ignore")
+
+
+def _last_goal_event(events: pd.DataFrame) -> pd.Series | None:
+    goals = events[events['event_type'] == EVENT_GOAL]
+    if goals.empty:
+        return None
+    goals = _sort_events_chronologically(goals)
+    return goals.iloc[-1]
+
+
 def _last_goals_per_game(events: pd.DataFrame):
     for _, game_df in events.groupby('game_id'):
-        goals = game_df[game_df['event_type'] == EVENT_GOAL]
-        if not goals.empty:
-            yield goals.iloc[-1]
+        last_goal = _last_goal_event(game_df)
+        if last_goal is not None:
+            yield last_goal
 
 
 def stat_wins(events: pd.DataFrame, team: str):
@@ -283,7 +312,7 @@ def stat_penalty_shootout_losses(events: pd.DataFrame, team: str):
 
 def stat_points(events: pd.DataFrame, team: str):
     points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             team_goals = last_goal['home_goals']
@@ -301,7 +330,7 @@ def stat_goal_difference(events: pd.DataFrame, team: str):
 
 def stat_points_max_difference(events: pd.DataFrame, team: str, num_goals: int = 2):
     points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
@@ -535,7 +564,7 @@ def _stat_points_after_period(events: pd.DataFrame, team: str, period: int):
     points = 0
     period_events = events[((events['event_type'] == EVENT_GOAL) | (events['event_type'] == EVENT_PENALTY)) & (events['period'] <= period)]
     if not period_events.empty:
-        last_goal = period_events.iloc[-1]
+        last_goal = _sort_events_chronologically(period_events).iloc[-1]
         if team == last_goal['home_team_name']:
             team_goals = last_goal['home_goals']
             opp_goals = last_goal['guest_goals']
@@ -573,7 +602,7 @@ def _stat_points_after_minute(events: pd.DataFrame, team: str, minute: int):
     points = 0
     period_events = events[((events['event_type'] == EVENT_GOAL) | (events['event_type'] == EVENT_PENALTY))  &  (events.get('time_in_s', 0) <= minute * 60)]
     if not period_events.empty:
-        last_goal = period_events.iloc[-1]
+        last_goal = _sort_events_chronologically(period_events).iloc[-1]
         if team == last_goal['home_team_name']:
             team_goals = last_goal['home_goals']
             opp_goals = last_goal['guest_goals']
@@ -587,7 +616,7 @@ def _stat_points_after_minute(events: pd.DataFrame, team: str, minute: int):
 
 def stat_win_1(events: pd.DataFrame, team: str):
     win_1 = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = last_goal['home_goals'] - last_goal['guest_goals']
@@ -599,7 +628,7 @@ def stat_win_1(events: pd.DataFrame, team: str):
 
 def stat_loss_1(events: pd.DataFrame, team: str):
     loss_1 = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = last_goal['home_goals'] - last_goal['guest_goals']
@@ -611,7 +640,7 @@ def stat_loss_1(events: pd.DataFrame, team: str):
 
 def stat_points_more_2_difference(events: pd.DataFrame, team: str):
     points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
@@ -629,7 +658,7 @@ def stat_points_more_2_difference(events: pd.DataFrame, team: str):
 
 def stat_close_game_win(events: pd.DataFrame, team: str):
     close_game_win = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
@@ -645,7 +674,7 @@ def stat_close_game_win(events: pd.DataFrame, team: str):
 
 def stat_close_game_loss(events: pd.DataFrame, team: str):
     close_game_loss = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
@@ -661,7 +690,7 @@ def stat_close_game_loss(events: pd.DataFrame, team: str):
 
 def stat_close_game_overtime(events: pd.DataFrame, team: str):
     close_game_ot = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         if team == last_goal['home_team_name']:
             diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
@@ -814,7 +843,7 @@ def stat_goals_against_away(events: pd.DataFrame, team: str):
 
 def stat_home_points(events: pd.DataFrame, team: str):
     points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None and last_goal['home_team_name'] == team:
         if team == last_goal['home_team_name']:
             team_goals = last_goal['home_goals']
@@ -830,7 +859,7 @@ def stat_home_points(events: pd.DataFrame, team: str):
 def stat_away_points(events: pd.DataFrame, team: str):
     points = 0
     for game_id, game_df in events.groupby('game_id'):
-        last_goal = game_df[game_df['event_type'] == EVENT_GOAL].iloc[-1] if not game_df[game_df['event_type'] == EVENT_GOAL].empty else None
+        last_goal = _last_goal_event(game_df)
         if last_goal is not None and last_goal['away_team_name'] == team:
             if team == last_goal['home_team_name']:
                 team_goals = last_goal['home_goals']
@@ -849,7 +878,7 @@ def stat_points_against(events: pd.DataFrame, team: str):
     teams = list(events['home_team_name'].unique()) + list(events['away_team_name'].unique())
     teams = np.unique(teams)
     points_against = {str(t): 0 for t in teams if t != team}
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
+    last_goal = _last_goal_event(events)
     if last_goal is not None:
         opponent = last_goal['away_team_name'] if last_goal['home_team_name'] == team else last_goal['home_team_name']
         points = add_points(team, last_goal)[0]

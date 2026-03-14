@@ -5,19 +5,19 @@ Slug: hc-rychenberg-winterthur-ch-25-26-playoffs-ch-25-26-playoffs
 type: team
 team:HC Rychenberg Winterthur
 platzierungsverlauf:ch-25-26-playoffs/teams/hc-rychenberg-winterthur-ch-25-26-playoffs_platzierungsverlauf.png
-points: 3
+points: 5
 wins: 1
-over_time_wins: 0
+over_time_wins: 1
 penalty_shootout_wins: 0
 draws: 0
-losses: 1
+losses: 0
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 16
 goals_against: 11
 games: 2
 goal_difference: 5
-points_max_difference_2: 3
+points_max_difference_2: 2
 goals_in_first_period: 4
 goals_in_second_period: 6
 goals_in_third_period: 5
@@ -38,17 +38,17 @@ boxplay_second_period: 1
 boxplay_third_period: 2
 boxplay_overtime: 0
 points_after_first_period: 3
-points_after_second_period: 3
-points_after_third_period: 3
-points_after_55_min: 3
-points_after_58_min: 3
-points_after_59_min: 3
+points_after_second_period: 6
+points_after_third_period: 4
+points_after_55_min: 6
+points_after_58_min: 4
+points_after_59_min: 4
 win_1: 1
-loss_1: 1
-points_more_2_difference: 0
+loss_1: 0
+points_more_2_difference: 3
 close_game_win: 1
-close_game_loss: 1
-close_game_overtime: 0
+close_game_loss: 0
+close_game_overtime: 1
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
 penalty_2: 4
@@ -72,11 +72,11 @@ goals_away: 16
 goals_against_home: 0
 goals_against_away: 11
 home_points: 0
-away_points: 3
+away_points: 5
 take_the_lead_goals_against: 2
 equalizer_goals_against: 3
 first_goal_of_match_against: 1
-Tags:  Tigers Langnau: 3,
+Tags:  Tigers Langnau: 5,
 penalties: 4
 powerplay_efficiency: 50.0
 boxplay_efficiency: 75.0
@@ -88,11 +88,11 @@ percent_goals_first_period_against: 36.36
 percent_goals_second_period_against: 18.18
 percent_goals_third_period_against: 45.45
 percent_goals_overtime_against: 0.0
-points_per_game: 1.5
+points_per_game: 2.5
 goal_difference_per_game: 2.5
 scoring_ratio: 1.45
 goals_per_game: 8.0
 goals_against_per_game: 5.5
 boxplay_per_game: 2.0
 powerplay_per_game: 3.0
-rank: 4
+rank: 2

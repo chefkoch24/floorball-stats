@@ -5,19 +5,19 @@ Slug: grasshopper-club-zuerich-ch-25-26-playoffs-ch-25-26-playoffs
 type: team
 team:Grasshopper Club Zürich
 platzierungsverlauf:ch-25-26-playoffs/teams/grasshopper-club-zuerich-ch-25-26-playoffs_platzierungsverlauf.png
-points: 5
-wins: 1
+points: 2
+wins: 0
 over_time_wins: 0
 penalty_shootout_wins: 1
 draws: 0
-losses: 0
+losses: 1
 over_time_losses: 0
 penalty_shootout_losses: 0
 goals: 8
 goals_against: 10
 games: 2
 goal_difference: -2
-points_max_difference_2: 5
+points_max_difference_2: 2
 goals_in_first_period: 4
 goals_in_second_period: 2
 goals_in_third_period: 1
@@ -37,16 +37,16 @@ boxplay_first_period: 0
 boxplay_second_period: 0
 boxplay_third_period: 1
 boxplay_overtime: 0
-points_after_first_period: 3
-points_after_second_period: 3
-points_after_third_period: 3
-points_after_55_min: 3
-points_after_58_min: 3
-points_after_59_min: 3
-win_1: 2
+points_after_first_period: 1
+points_after_second_period: 1
+points_after_third_period: 1
+points_after_55_min: 0
+points_after_58_min: 1
+points_after_59_min: 1
+win_1: 1
 loss_1: 0
 points_more_2_difference: 0
-close_game_win: 2
+close_game_win: 1
 close_game_loss: 0
 close_game_overtime: 1
 penalty_shot_goals: 1
@@ -72,11 +72,11 @@ goals_away: 8
 goals_against_home: 0
 goals_against_away: 10
 home_points: 0
-away_points: 5
+away_points: 2
 take_the_lead_goals_against: 4
 equalizer_goals_against: 1
 first_goal_of_match_against: 1
-Tags:  SV Wiler-Ersigen: 5,
+Tags:  SV Wiler-Ersigen: 2,
 penalties: 2
 powerplay_efficiency: 50.0
 boxplay_efficiency: 100.0
@@ -88,11 +88,11 @@ percent_goals_first_period_against: 50.0
 percent_goals_second_period_against: 20.0
 percent_goals_third_period_against: 30.0
 percent_goals_overtime_against: 0.0
-points_per_game: 2.5
+points_per_game: 1.0
 goal_difference_per_game: -1.0
 scoring_ratio: 0.8
 goals_per_game: 4.0
 goals_against_per_game: 5.0
 boxplay_per_game: 0.5
 powerplay_per_game: 1.0
-rank: 2
+rank: 6

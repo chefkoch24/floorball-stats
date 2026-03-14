@@ -291,3 +291,18 @@ def test_gameflow_uses_70_minutes_for_extra_time_games():
 
     flow = _build_gameflow_timeline(events, "Home", "Away")
     assert flow["timeline_max_minute"] == 70.0
+
+
+def test_stats_use_chronological_last_goal_when_events_are_reverse_ordered():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-14:58", 3, "Home", "Away", 3, 4, "Away"),  # final goal
+            _goal_event(1, "2-05:53", 2, "Home", "Away", 2, 1, "Home"),
+            _goal_event(1, "1-13:12", 1, "Home", "Away", 1, 0, "Home"),
+        ]
+    )
+
+    assert stat_points(events, "Home") == 0
+    assert stat_points(events, "Away") == 3
+    assert stat_wins(events, "Home") == 0
+    assert stat_wins(events, "Away") == 1
