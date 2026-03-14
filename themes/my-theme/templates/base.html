@@ -22,7 +22,11 @@
             <a class="nav-home" href="{{ SITEURL }}/">Home</a>
 
             <div class="nav-section">
-                <span class="nav-section-title">Sweden</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Sweden</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -35,7 +39,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Finland</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">Finland</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -48,7 +56,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Czech Republic</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">Czech Republic</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -61,7 +73,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Switzerland</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">Switzerland</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">Regular</a>
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/ch-25-26-playoffs.html">Playoffs</a>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -74,7 +90,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Slovakia</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Slovakia</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -87,7 +107,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Latvia</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Latvia</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -100,7 +124,11 @@
             </div>
 
             <div class="nav-section">
-                <span class="nav-section-title">Germany</span>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/25-26-regular-season.html">Germany</a>
+                <div class="nav-mobile-phase-links">
+                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/25-26-regular-season.html">Regular</a>
+                    <span class="nav-mobile-phase-link is-disabled">Playoffs</span>
+                </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
                         <span class="nav-group-title">25-26</span>
@@ -143,7 +171,7 @@ if (__phEnabled) {
         capture_pageleave: false,
         disable_session_recording: true,
         persistence: 'localStorage+cookie',
-        person_profiles: 'never'
+        person_profiles: 'always'
     });
 } else {
     console.info('[Analytics] PostHog disabled on localhost:', __phHost);
