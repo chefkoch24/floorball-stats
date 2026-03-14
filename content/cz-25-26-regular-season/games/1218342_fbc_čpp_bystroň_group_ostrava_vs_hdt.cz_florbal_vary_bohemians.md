@@ -135,7 +135,7 @@ away_boxplay_third_period: 1
 away_boxplay_overtime: 0
 away_points_after_first_period: 3
 away_points_after_second_period: 3
-away_points_after_third_period: 0
+away_points_after_third_period: 3
 away_points_after_55_min: 3
 away_points_after_58_min: 3
 away_points_after_59_min: 3

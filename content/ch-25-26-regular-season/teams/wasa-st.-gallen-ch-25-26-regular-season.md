@@ -5,19 +5,19 @@ Slug: wasa-st.-gallen-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:WASA St. Gallen
 platzierungsverlauf:ch-25-26-regular-season/teams/wasa-st.-gallen-ch-25-26-regular-season_platzierungsverlauf.png
-points: 22
-wins: 7
+points: 14
+wins: 4
 over_time_wins: 0
 penalty_shootout_wins: 0
 draws: 0
-losses: 14
-over_time_losses: 0
+losses: 16
+over_time_losses: 1
 penalty_shootout_losses: 1
 goals: 91
 goals_against: 148
 games: 22
 goal_difference: -57
-points_max_difference_2: 22
+points_max_difference_2: 11
 goals_in_first_period: 23
 goals_in_second_period: 28
 goals_in_third_period: 40
@@ -37,18 +37,18 @@ boxplay_first_period: 13
 boxplay_second_period: 13
 boxplay_third_period: 11
 boxplay_overtime: 0
-points_after_first_period: 18
-points_after_second_period: 19
-points_after_third_period: 19
-points_after_55_min: 19
-points_after_58_min: 19
-points_after_59_min: 19
-win_1: 7
-loss_1: 15
-points_more_2_difference: 0
-close_game_win: 7
-close_game_loss: 15
-close_game_overtime: 1
+points_after_first_period: 14
+points_after_second_period: 11
+points_after_third_period: 13
+points_after_55_min: 13
+points_after_58_min: 16
+points_after_59_min: 15
+win_1: 2
+loss_1: 6
+points_more_2_difference: 3
+close_game_win: 3
+close_game_loss: 9
+close_game_overtime: 2
 penalty_shot_goals: 0
 penalty_shot_goals_against: 1
 penalty_2: 41
@@ -71,12 +71,12 @@ goals_home: 47
 goals_away: 44
 goals_against_home: 92
 goals_against_away: 56
-home_points: 6
-away_points: 16
+home_points: 4
+away_points: 10
 take_the_lead_goals_against: 30
 equalizer_goals_against: 15
 first_goal_of_match_against: 14
-Tags:  Floorball Köniz Bern: 0,  Floorball Thurgau: 0,  SV Wiler-Ersigen: 6,  Floorball Chur United: 0,  UHC Uster: 3,  Tigers Langnau: 0,  Grasshopper Club Zürich: 3,  HC Rychenberg Winterthur: 3,  Zug United: 3,  Unihockey Basel Regio: 1,  UHC Alligator Malans: 3,
+Tags:  Floorball Köniz Bern: 0,  Floorball Thurgau: 0,  SV Wiler-Ersigen: 0,  Floorball Chur United: 3,  UHC Uster: 0,  Tigers Langnau: 0,  Grasshopper Club Zürich: 3,  HC Rychenberg Winterthur: 1,  Zug United: 0,  Unihockey Basel Regio: 1,  UHC Alligator Malans: 6,
 penalties: 41
 powerplay_efficiency: 31.03
 boxplay_efficiency: 56.76
@@ -88,11 +88,11 @@ percent_goals_first_period_against: 30.409999999999997
 percent_goals_second_period_against: 34.46
 percent_goals_third_period_against: 33.78
 percent_goals_overtime_against: 0.6799999999999999
-points_per_game: 1.0
+points_per_game: 0.64
 goal_difference_per_game: -2.59
 scoring_ratio: 0.61
 goals_per_game: 4.14
 goals_against_per_game: 6.73
 boxplay_per_game: 1.68
 powerplay_per_game: 1.32
-rank: 11
+rank: 12

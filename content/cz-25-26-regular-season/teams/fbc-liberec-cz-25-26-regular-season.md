@@ -9,10 +9,10 @@ points: 23
 wins: 7
 over_time_wins: 0
 penalty_shootout_wins: 0
-draws: 0
+draws: 1
 losses: 16
 over_time_losses: 1
-penalty_shootout_losses: 1
+penalty_shootout_losses: 0
 goals: 136
 goals_against: 197
 games: 25
@@ -44,11 +44,11 @@ points_after_55_min: 19
 points_after_58_min: 21
 points_after_59_min: 21
 win_1: 1
-loss_1: 5
+loss_1: 4
 points_more_2_difference: 15
 close_game_win: 2
-close_game_loss: 6
-close_game_overtime: 2
+close_game_loss: 5
+close_game_overtime: 1
 penalty_shot_goals: 1
 penalty_shot_goals_against: 1
 penalty_2: 22

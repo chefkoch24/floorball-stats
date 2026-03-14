@@ -34,6 +34,34 @@ Make target:
 make refresh-sweden SWEDEN_COMPETITION_ID=40693 SWEDEN_SEASON=se-25-26 PHASE=regular-season
 ```
 
+## Slovakia (SZFB backend)
+
+Pipeline entrypoint with Slovakia backend:
+
+```bash
+python -m src.pipeline --backend slovakia --slovakia_schedule_url "https://www.szfb.sk/sk/stats/results-date/1164/florbalova-extraliga-muzov" --season sk-25-26 --phase regular-season
+```
+
+Make target:
+
+```bash
+make refresh-slovakia SLOVAKIA_LEAGUE_CONFIG=config/leagues/slovakia-extraliga.json
+```
+
+## Latvia (floorball.lv backend)
+
+Pipeline entrypoint with Latvia backend:
+
+```bash
+python -m src.pipeline --backend latvia --latvia_calendar_url "https://www.floorball.lv/lv/2025/chempionats/vv/kalendars" --latvia_season_start_year 2025 --season lv-25-26 --phase regular-season
+```
+
+Make target:
+
+```bash
+make refresh-latvia LATVIA_LEAGUE_CONFIG=config/leagues/latvia-elvi-vv.json
+```
+
 ## Switzerland (renderengine backend)
 
 Use a schedule page URL (the scraper extracts `game_id` links) or pass explicit IDs:

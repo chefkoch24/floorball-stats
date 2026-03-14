@@ -26,11 +26,11 @@ away_penalty_ends_csv:
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 70.0
-home_points: 2
+home_points: 1
 home_wins: 0
 home_over_time_wins: 0
-home_penalty_shootout_wins: 1
-home_draws: 0
+home_penalty_shootout_wins: 0
+home_draws: 1
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
@@ -38,7 +38,7 @@ home_goals: 6
 home_goals_against: 5
 home_games: 1
 home_goal_difference: 1
-home_points_max_difference_2: 2
+home_points_max_difference_2: 1
 home_goals_in_first_period: 1
 home_goals_in_second_period: 3
 home_goals_in_third_period: 1
@@ -64,12 +64,12 @@ home_points_after_third_period: 1
 home_points_after_55_min: 3
 home_points_after_58_min: 3
 home_points_after_59_min: 3
-home_win_1: 1
+home_win_1: 0
 home_loss_1: 0
 home_points_more_2_difference: 0
-home_close_game_win: 1
+home_close_game_win: 0
 home_close_game_loss: 0
-home_close_game_overtime: 1
+home_close_game_overtime: 0
 home_penalty_shot_goals: 1
 home_penalty_shot_goals_against: 0
 home_penalty_2: 1
@@ -92,12 +92,12 @@ home_goals_home: 6
 home_goals_away: 0
 home_goals_against_home: 5
 home_goals_against_away: 0
-home_home_points: 2
+home_home_points: 1
 home_away_points: 0
 home_take_the_lead_goals_against: 0
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 0
-home_points_against_fbc_liberec: 2
+home_points_against_fbc_liberec: 1
 home_powerplay_efficiency: n.a.
 home_boxplay_efficiency: 0.0
 home_penalties: 1
@@ -105,10 +105,10 @@ away_points: 1
 away_wins: 0
 away_over_time_wins: 0
 away_penalty_shootout_wins: 0
-away_draws: 0
+away_draws: 1
 away_losses: 0
 away_over_time_losses: 0
-away_penalty_shootout_losses: 1
+away_penalty_shootout_losses: 0
 away_goals: 5
 away_goals_against: 6
 away_games: 1
@@ -140,11 +140,11 @@ away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_win_1: 0
-away_loss_1: 1
+away_loss_1: 0
 away_points_more_2_difference: 0
 away_close_game_win: 0
-away_close_game_loss: 1
-away_close_game_overtime: 1
+away_close_game_loss: 0
+away_close_game_overtime: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 1
 away_penalty_2: 0

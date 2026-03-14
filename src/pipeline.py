@@ -8,6 +8,8 @@ from src.scrape import scrape_events
 from src.scrape_sweden import scrape_competition_events
 from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
+from src.scrape_latvia import scrape_competition as scrape_latvia_competition
+from src.scrape_slovakia import scrape_competition as scrape_slovakia_competition
 from src.scrape_switzerland import (
     fetch_game_ids_by_rounds,
     fetch_game_ids_from_renderengine,
@@ -33,6 +35,9 @@ def run_pipeline(
     czech_schedule_urls: list[str] | None = None,
     czech_season_start_year: int | None = None,
     finland_schedule_urls: list[str] | None = None,
+    slovakia_schedule_urls: list[str] | None = None,
+    latvia_calendar_urls: list[str] | None = None,
+    latvia_season_start_year: int | None = None,
     data_dir: str = "data",
     content_dir: str = "content",
     skip_scrape: bool = False,
@@ -99,6 +104,23 @@ def run_pipeline(
                 schedule_urls=finland_schedule_urls,
                 output_path=str(raw_csv),
             )
+        elif backend == "slovakia":
+            if not slovakia_schedule_urls:
+                raise ValueError("slovakia_schedule_urls are required when backend=slovakia")
+            scrape_slovakia_competition(
+                schedule_urls=slovakia_schedule_urls,
+                output_path=str(raw_csv),
+            )
+        elif backend == "latvia":
+            if not latvia_calendar_urls:
+                raise ValueError("latvia_calendar_urls are required when backend=latvia")
+            if not latvia_season_start_year:
+                raise ValueError("latvia_season_start_year is required when backend=latvia")
+            scrape_latvia_competition(
+                calendar_urls=latvia_calendar_urls,
+                output_path=str(raw_csv),
+                season_start_year=latvia_season_start_year,
+            )
         else:
             scrape_events(
                 input_path=f"leagues/{league_id}/schedule.json",
@@ -135,7 +157,7 @@ def parse_args():
     parser.add_argument(
         "--backend",
         default="saisonmanager",
-        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland"],
+        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia"],
     )
     parser.add_argument("--league_id", type=int, default=1890)
     parser.add_argument("--competition_id", type=int, default=None)
@@ -151,6 +173,9 @@ def parse_args():
     parser.add_argument("--czech_schedule_url", action="append", default=None)
     parser.add_argument("--czech_season_start_year", type=int, default=None)
     parser.add_argument("--finland_schedule_url", action="append", default=None)
+    parser.add_argument("--slovakia_schedule_url", action="append", default=None)
+    parser.add_argument("--latvia_calendar_url", action="append", default=None)
+    parser.add_argument("--latvia_season_start_year", type=int, default=None)
     parser.add_argument("--season", default="25-26")
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
@@ -191,6 +216,9 @@ def main():
         czech_schedule_urls=args.czech_schedule_url,
         czech_season_start_year=args.czech_season_start_year,
         finland_schedule_urls=args.finland_schedule_url,
+        slovakia_schedule_urls=args.slovakia_schedule_url,
+        latvia_calendar_urls=args.latvia_calendar_url,
+        latvia_season_start_year=args.latvia_season_start_year,
         data_dir=args.data_dir,
         content_dir=args.content_dir,
         skip_scrape=args.skip_scrape,

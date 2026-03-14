@@ -74,6 +74,32 @@
             </div>
 
             <div class="nav-section">
+                <span class="nav-section-title">Slovakia</span>
+                <div class="nav-section-groups">
+                    <div class="nav-group">
+                        <span class="nav-group-title">25-26</span>
+                        <div class="nav-group-links">
+                            <a class="nav-group-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Regular</a>
+                            <span class="nav-link-disabled">Playoffs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <span class="nav-section-title">Latvia</span>
+                <div class="nav-section-groups">
+                    <div class="nav-group">
+                        <span class="nav-group-title">25-26</span>
+                        <div class="nav-group-links">
+                            <a class="nav-group-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Regular</a>
+                            <span class="nav-link-disabled">Playoffs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-section">
                 <span class="nav-section-title">Germany</span>
                 <div class="nav-section-groups">
                     <div class="nav-group">
@@ -102,6 +128,53 @@
         <span>© 2026 Floorball Stats</span>
     </div>
 </footer>
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister unregister_once alias identify set_config reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing startSessionRecording stopSessionRecording".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+var __phHost = window.location.hostname;
+var __phIsLocal = __phHost === 'localhost' || __phHost === '127.0.0.1' || __phHost === '::1';
+var __phEnabled = !__phIsLocal;
+
+if (__phEnabled) {
+    posthog.init('phc_aH9HEcHF3KJyGFem9EtvjGtvZK9Agz37ZiVkOHwd8F3', {
+        api_host: 'https://eu.i.posthog.com',
+        defaults: '2026-01-30',
+        autocapture: false,
+        capture_pageview: true,
+        capture_pageleave: false,
+        disable_session_recording: true,
+        persistence: 'localStorage+cookie',
+        person_profiles: 'never'
+    });
+} else {
+    console.info('[Analytics] PostHog disabled on localhost:', __phHost);
+}
+
+(function () {
+    var firstSeenKey = 'fs_first_seen_at';
+    var now = Date.now();
+    var firstSeenRaw = localStorage.getItem(firstSeenKey);
+    var firstSeen = firstSeenRaw ? Number(firstSeenRaw) : null;
+    var isReturning = Number.isFinite(firstSeen) && firstSeen > 0;
+    if (!isReturning) {
+        localStorage.setItem(firstSeenKey, String(now));
+        firstSeen = now;
+    }
+    var daysSinceFirstSeen = Math.floor((now - firstSeen) / (1000 * 60 * 60 * 24));
+    var eventName = 'site_visit';
+    var eventProperties = {
+        visit_type: isReturning ? 'returning' : 'new',
+        days_since_first_seen: daysSinceFirstSeen,
+        page_path: window.location.pathname
+    };
+
+    if (__phEnabled) {
+        posthog.capture(eventName, eventProperties);
+    } else {
+        console.info('[Analytics][localhost] posthog.capture', eventName, eventProperties);
+    }
+
+})();
+</script>
 <script>
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('#mainNav');

@@ -39,7 +39,7 @@ boxplay_third_period: 16
 boxplay_overtime: 0
 points_after_first_period: 17
 points_after_second_period: 11
-points_after_third_period: 18
+points_after_third_period: 15
 points_after_55_min: 16
 points_after_58_min: 13
 points_after_59_min: 14
@@ -47,7 +47,7 @@ win_1: 1
 loss_1: 1
 points_more_2_difference: 12
 close_game_win: 2
-close_game_loss: 5
+close_game_loss: 4
 close_game_overtime: 0
 penalty_shot_goals: 2
 penalty_shot_goals_against: 6

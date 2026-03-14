@@ -5,11 +5,11 @@ Slug: tj-sokol-královské-vinohrady-cz-25-26-regular-season-cz-25-26-regular-se
 type: team
 team:TJ Sokol Královské Vinohrady
 platzierungsverlauf:cz-25-26-regular-season/teams/tj-sokol-královské-vinohrady-cz-25-26-regular-season_platzierungsverlauf.png
-points: 15
+points: 12
 wins: 3
 over_time_wins: 0
-penalty_shootout_wins: 3
-draws: 0
+penalty_shootout_wins: 0
+draws: 3
 losses: 19
 over_time_losses: 0
 penalty_shootout_losses: 0
@@ -17,7 +17,7 @@ goals: 84
 goals_against: 152
 games: 25
 goal_difference: -68
-points_max_difference_2: 12
+points_max_difference_2: 9
 goals_in_first_period: 22
 goals_in_second_period: 28
 goals_in_third_period: 31
@@ -37,18 +37,18 @@ boxplay_first_period: 2
 boxplay_second_period: 9
 boxplay_third_period: 15
 boxplay_overtime: 1
-points_after_first_period: 19
+points_after_first_period: 22
 points_after_second_period: 7
-points_after_third_period: 6
+points_after_third_period: 3
 points_after_55_min: 17
 points_after_58_min: 12
 points_after_59_min: 12
-win_1: 5
+win_1: 2
 loss_1: 2
 points_more_2_difference: 3
-close_game_win: 5
+close_game_win: 2
 close_game_loss: 4
-close_game_overtime: 3
+close_game_overtime: 0
 penalty_shot_goals: 4
 penalty_shot_goals_against: 1
 penalty_2: 31
@@ -71,12 +71,12 @@ goals_home: 46
 goals_away: 38
 goals_against_home: 76
 goals_against_away: 76
-home_points: 10
-away_points: 5
+home_points: 8
+away_points: 4
 take_the_lead_goals_against: 35
 equalizer_goals_against: 13
 first_goal_of_match_against: 17
-Tags:  1. SC NATIOS Vítkovice: 2,  ESA logistika Tatran Střešovice: 0,  FBC 4CLEAN Česká Lípa: 0,  BA SOKOLI Pardubice: 0,  FBC ČPP Bystroň Group OSTRAVA: 5,  HDT.cz Florbal Vary Bohemians: 0,  FBC Liberec: 0,  FBŠ Hummel Hattrick Brno: 0,  FAT PIPE FLORBAL CHODOV: 0,  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  ACEMA Sparta Praha: 0,  Florbal Ústí: 6,
+Tags:  1. SC NATIOS Vítkovice: 1,  ESA logistika Tatran Střešovice: 0,  FBC 4CLEAN Česká Lípa: 0,  BA SOKOLI Pardubice: 0,  FBC ČPP Bystroň Group OSTRAVA: 4,  HDT.cz Florbal Vary Bohemians: 0,  FBC Liberec: 0,  FBŠ Hummel Hattrick Brno: 0,  FAT PIPE FLORBAL CHODOV: 0,  Kanonýři Kladno: 1,  Předvýběr.CZ Florbal MB: 0,  ACEMA Sparta Praha: 0,  Florbal Ústí: 6,
 penalties: 31
 powerplay_efficiency: 28.57
 boxplay_efficiency: 59.260000000000005
@@ -88,7 +88,7 @@ percent_goals_first_period_against: 28.29
 percent_goals_second_period_against: 29.609999999999996
 percent_goals_third_period_against: 42.11
 percent_goals_overtime_against: 0.0
-points_per_game: 0.6
+points_per_game: 0.48
 goal_difference_per_game: -2.72
 scoring_ratio: 0.55
 goals_per_game: 3.36

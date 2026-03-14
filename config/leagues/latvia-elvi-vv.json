@@ -1,0 +1,11 @@
+{
+  "backend": "latvia",
+  "season": "lv-25-26",
+  "phase": "regular-season",
+  "latvia": {
+    "season_start_year": 2025,
+    "calendar_urls": [
+      "https://www.floorball.lv/lv/2025/chempionats/vv/kalendars"
+    ]
+  }
+}

@@ -6,18 +6,18 @@ type: team
 team:Floorball Köniz Bern
 platzierungsverlauf:ch-25-26-regular-season/teams/floorball-koeniz-bern-ch-25-26-regular-season_platzierungsverlauf.png
 points: 41
-wins: 13
+wins: 12
 over_time_wins: 0
 penalty_shootout_wins: 1
 draws: 0
-losses: 8
-over_time_losses: 0
+losses: 6
+over_time_losses: 3
 penalty_shootout_losses: 0
 goals: 144
 goals_against: 125
 games: 22
 goal_difference: 19
-points_max_difference_2: 41
+points_max_difference_2: 20
 goals_in_first_period: 54
 goals_in_second_period: 38
 goals_in_third_period: 51
@@ -37,18 +37,18 @@ boxplay_first_period: 5
 boxplay_second_period: 16
 boxplay_third_period: 16
 boxplay_overtime: 0
-points_after_first_period: 36
-points_after_second_period: 36
-points_after_third_period: 36
-points_after_55_min: 36
-points_after_58_min: 36
-points_after_59_min: 36
-win_1: 14
-loss_1: 8
-points_more_2_difference: 0
-close_game_win: 14
-close_game_loss: 8
-close_game_overtime: 1
+points_after_first_period: 45
+points_after_second_period: 46
+points_after_third_period: 40
+points_after_55_min: 39
+points_after_58_min: 39
+points_after_59_min: 40
+win_1: 4
+loss_1: 5
+points_more_2_difference: 21
+close_game_win: 6
+close_game_loss: 5
+close_game_overtime: 4
 penalty_shot_goals: 1
 penalty_shot_goals_against: 0
 penalty_2: 37
@@ -71,12 +71,12 @@ goals_home: 69
 goals_away: 75
 goals_against_home: 62
 goals_against_away: 63
-home_points: 21
-away_points: 20
+home_points: 18
+away_points: 23
 take_the_lead_goals_against: 21
 equalizer_goals_against: 13
 first_goal_of_match_against: 8
-Tags:  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 6,  Zug United: 6,  Floorball Thurgau: 0,  SV Wiler-Ersigen: 0,  Floorball Chur United: 3,  UHC Uster: 3,  Tigers Langnau: 3,  Grasshopper Club Zürich: 5,  HC Rychenberg Winterthur: 6,
+Tags:  WASA St. Gallen: 6,  Unihockey Basel Regio: 3,  UHC Alligator Malans: 6,  Zug United: 3,  Floorball Thurgau: 1,  SV Wiler-Ersigen: 1,  Floorball Chur United: 6,  UHC Uster: 6,  Tigers Langnau: 3,  Grasshopper Club Zürich: 5,  HC Rychenberg Winterthur: 1,
 penalties: 38
 powerplay_efficiency: 38.71
 boxplay_efficiency: 59.46
@@ -95,4 +95,4 @@ goals_per_game: 6.55
 goals_against_per_game: 5.68
 boxplay_per_game: 1.68
 powerplay_per_game: 1.41
-rank: 2
+rank: 5

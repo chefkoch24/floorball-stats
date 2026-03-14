@@ -5,11 +5,11 @@ Slug: esa-logistika-tatran-střešovice-cz-25-26-regular-season-cz-25-26-regular
 type: team
 team:ESA logistika Tatran Střešovice
 platzierungsverlauf:cz-25-26-regular-season/teams/esa-logistika-tatran-střešovice-cz-25-26-regular-season_platzierungsverlauf.png
-points: 58
+points: 57
 wins: 18
 over_time_wins: 1
-penalty_shootout_wins: 1
-draws: 0
+penalty_shootout_wins: 0
+draws: 1
 losses: 5
 over_time_losses: 0
 penalty_shootout_losses: 0
@@ -17,7 +17,7 @@ goals: 207
 goals_against: 110
 games: 25
 goal_difference: 97
-points_max_difference_2: 10
+points_max_difference_2: 9
 goals_in_first_period: 50
 goals_in_second_period: 80
 goals_in_third_period: 75
@@ -43,12 +43,12 @@ points_after_third_period: 50
 points_after_55_min: 43
 points_after_58_min: 49
 points_after_59_min: 55
-win_1: 4
+win_1: 3
 loss_1: 1
 points_more_2_difference: 48
-close_game_win: 4
+close_game_win: 3
 close_game_loss: 1
-close_game_overtime: 2
+close_game_overtime: 1
 penalty_shot_goals: 5
 penalty_shot_goals_against: 1
 penalty_2: 28
@@ -71,12 +71,12 @@ goals_home: 105
 goals_away: 102
 goals_against_home: 47
 goals_against_away: 63
-home_points: 28
+home_points: 27
 away_points: 30
 take_the_lead_goals_against: 33
 equalizer_goals_against: 13
 first_goal_of_match_against: 14
-Tags:  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 5,  FBŠ Hummel Hattrick Brno: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC ČPP Bystroň Group OSTRAVA: 3,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 6,  ACEMA Sparta Praha: 3,  HDT.cz Florbal Vary Bohemians: 2,  1. SC NATIOS Vítkovice: 6,  BA SOKOLI Pardubice: 6,  Kanonýři Kladno: 3,
+Tags:  Florbal Ústí: 6,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 5,  FBŠ Hummel Hattrick Brno: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC ČPP Bystroň Group OSTRAVA: 3,  Předvýběr.CZ Florbal MB: 0,  FBC 4CLEAN Česká Lípa: 6,  ACEMA Sparta Praha: 3,  HDT.cz Florbal Vary Bohemians: 1,  1. SC NATIOS Vítkovice: 6,  BA SOKOLI Pardubice: 6,  Kanonýři Kladno: 3,
 penalties: 28
 powerplay_efficiency: 57.69
 boxplay_efficiency: 56.0
@@ -88,7 +88,7 @@ percent_goals_first_period_against: 33.64
 percent_goals_second_period_against: 29.09
 percent_goals_third_period_against: 37.269999999999996
 percent_goals_overtime_against: 0.0
-points_per_game: 2.32
+points_per_game: 2.28
 goal_difference_per_game: 3.88
 scoring_ratio: 1.88
 goals_per_game: 8.28

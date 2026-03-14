@@ -41,8 +41,8 @@ points_after_first_period: 49
 points_after_second_period: 40
 points_after_third_period: 52
 points_after_55_min: 43
-points_after_58_min: 38
-points_after_59_min: 41
+points_after_58_min: 40
+points_after_59_min: 43
 win_1: 3
 loss_1: 2
 points_more_2_difference: 39

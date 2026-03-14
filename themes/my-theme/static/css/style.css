@@ -448,6 +448,67 @@ a:hover {
   text-align: left;
 }
 
+.game-team-winner {
+  font-weight: 700;
+}
+
+.result-extra {
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 76, 129, 0.2);
+  background: rgba(15, 76, 129, 0.08);
+  color: #1e3a5f;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.result-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.result-pill--win {
+  color: #166534;
+  background: #dcfce7;
+  border-color: #86efac;
+}
+
+.result-pill--loss {
+  color: #991b1b;
+  background: #fee2e2;
+  border-color: #fca5a5;
+}
+
+.result-pill--ot-win {
+  color: #166534;
+  background: linear-gradient(90deg, #dcfce7 0%, #dcfce7 50%, #fde68a 50%, #fde68a 100%);
+  border-color: #86efac;
+}
+
+.result-pill--ot-loss {
+  color: #991b1b;
+  background: linear-gradient(90deg, #fee2e2 0%, #fee2e2 50%, #fde68a 50%, #fde68a 100%);
+  border-color: #fca5a5;
+}
+
+.result-pill--draw {
+  color: #334155;
+  background: #e2e8f0;
+  border-color: #cbd5e1;
+}
+
 .table-wrapper {
   overflow-x: auto;
 }

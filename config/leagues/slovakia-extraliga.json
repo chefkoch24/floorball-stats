@@ -1,0 +1,10 @@
+{
+  "backend": "slovakia",
+  "season": "sk-25-26",
+  "phase": "regular-season",
+  "slovakia": {
+    "schedule_urls": [
+      "https://www.szfb.sk/sk/stats/results-date/1164/florbalova-extraliga-muzov"
+    ]
+  }
+}

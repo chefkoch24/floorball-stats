@@ -5,19 +5,19 @@ Slug: fbc-4clean-česká-lípa-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:FBC 4CLEAN Česká Lípa
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-4clean-česká-lípa-cz-25-26-regular-season_platzierungsverlauf.png
-points: 27
+points: 24
 wins: 6
 over_time_wins: 1
-penalty_shootout_wins: 3
-draws: 0
+penalty_shootout_wins: 0
+draws: 4
 losses: 14
 over_time_losses: 0
-penalty_shootout_losses: 1
+penalty_shootout_losses: 0
 goals: 124
 goals_against: 186
 games: 25
 goal_difference: -62
-points_max_difference_2: 15
+points_max_difference_2: 12
 goals_in_first_period: 37
 goals_in_second_period: 32
 goals_in_third_period: 51
@@ -39,16 +39,16 @@ boxplay_third_period: 23
 boxplay_overtime: 0
 points_after_first_period: 19
 points_after_second_period: 24
-points_after_third_period: 19
+points_after_third_period: 20
 points_after_55_min: 24
 points_after_58_min: 28
 points_after_59_min: 25
-win_1: 4
-loss_1: 2
+win_1: 1
+loss_1: 1
 points_more_2_difference: 12
-close_game_win: 6
-close_game_loss: 3
-close_game_overtime: 5
+close_game_win: 3
+close_game_loss: 2
+close_game_overtime: 1
 penalty_shot_goals: 7
 penalty_shot_goals_against: 4
 penalty_2: 46
@@ -71,12 +71,12 @@ goals_home: 67
 goals_away: 57
 goals_against_home: 81
 goals_against_away: 105
-home_points: 17
+home_points: 14
 away_points: 10
 take_the_lead_goals_against: 33
 equalizer_goals_against: 19
 first_goal_of_match_against: 12
-Tags:  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 5,  ACEMA Sparta Praha: 0,  FAT PIPE FLORBAL CHODOV: 0,  1. SC NATIOS Vítkovice: 3,  ESA logistika Tatran Střešovice: 0,  BA SOKOLI Pardubice: 2,  FBC ČPP Bystroň Group OSTRAVA: 3,  Florbal Ústí: 6,  FBŠ Hummel Hattrick Brno: 0,  HDT.cz Florbal Vary Bohemians: 0,
+Tags:  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,  FBC Liberec: 4,  ACEMA Sparta Praha: 0,  FAT PIPE FLORBAL CHODOV: 0,  1. SC NATIOS Vítkovice: 3,  ESA logistika Tatran Střešovice: 0,  BA SOKOLI Pardubice: 1,  FBC ČPP Bystroň Group OSTRAVA: 2,  Florbal Ústí: 6,  FBŠ Hummel Hattrick Brno: 0,  HDT.cz Florbal Vary Bohemians: 0,
 penalties: 46
 powerplay_efficiency: 36.36
 boxplay_efficiency: 56.1
@@ -88,7 +88,7 @@ percent_goals_first_period_against: 26.340000000000003
 percent_goals_second_period_against: 30.11
 percent_goals_third_period_against: 43.01
 percent_goals_overtime_against: 0.0
-points_per_game: 1.08
+points_per_game: 0.96
 goal_difference_per_game: -2.48
 scoring_ratio: 0.67
 goals_per_game: 4.96
