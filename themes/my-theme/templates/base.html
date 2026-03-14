@@ -178,29 +178,9 @@ if (__phEnabled) {
 }
 
 (function () {
-    var firstSeenKey = 'fs_first_seen_at';
-    var now = Date.now();
-    var firstSeenRaw = localStorage.getItem(firstSeenKey);
-    var firstSeen = firstSeenRaw ? Number(firstSeenRaw) : null;
-    var isReturning = Number.isFinite(firstSeen) && firstSeen > 0;
-    if (!isReturning) {
-        localStorage.setItem(firstSeenKey, String(now));
-        firstSeen = now;
+    if (__phIsLocal) {
+        console.info('[Analytics][localhost] pageview enabled via PostHog capture_pageview for path:', window.location.pathname);
     }
-    var daysSinceFirstSeen = Math.floor((now - firstSeen) / (1000 * 60 * 60 * 24));
-    var eventName = 'site_visit';
-    var eventProperties = {
-        visit_type: isReturning ? 'returning' : 'new',
-        days_since_first_seen: daysSinceFirstSeen,
-        page_path: window.location.pathname
-    };
-
-    if (__phEnabled) {
-        posthog.capture(eventName, eventProperties);
-    } else {
-        console.info('[Analytics][localhost] posthog.capture', eventName, eventProperties);
-    }
-
 })();
 </script>
 <script>
