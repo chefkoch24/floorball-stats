@@ -63,15 +63,15 @@ fig_goals_per_game = px.scatter(df, x="goals_per_game", text='team_name', hover_
 fig_goals_per_game.update_traces(textposition='top center')
 
 special_goals_fig = px.bar(df, x="team_name",
-                           y=['leading_goals', 'equalizer_goals', 'first_goal_of_match', 'penalty_shot_goals'],
-                           labels={'leading_goals': 'Leading Goals', 'equalizer_goals': 'Equalizer Goals',
+                           y=['take_the_lead_goals', 'equalizer_goals', 'first_goal_of_match', 'penalty_shot_goals'],
+                           labels={'take_the_lead_goals': 'Leading Goals', 'equalizer_goals': 'Equalizer Goals',
                                    'first_goal_of_match': 'First Goal of Match',
                                    'penalty_shot_goals': 'Penalty Shot Goals',
                                    })
 
 special_goals_against_fig = px.bar(df, x="team_name",
-                           y=['leading_goals_against', 'equalizer_goals_against', 'first_goal_of_match_against', 'penalty_shot_goals_against'],
-                           labels={'leading_goals_against': 'Leading Goals', 'equalizer_goals_against': 'Equalizer Goals',
+                           y=['take_the_lead_goals_against', 'equalizer_goals_against', 'first_goal_of_match_against', 'penalty_shot_goals_against'],
+                           labels={'take_the_lead_goals_against': 'Leading Goals', 'equalizer_goals_against': 'Equalizer Goals',
                                    'first_goal_of_match_against': 'First Goal of Match',
                                    'penalty_shot_goals_against': 'Penalty Shot Goals',
                                    })

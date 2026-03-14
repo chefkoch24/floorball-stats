@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-14
 Title: Unihockey Igels Dresden
 Category: 25-26-regular-season, teams
 Slug: unihockey-igels-dresden-25-26-regular-season-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 20
 points_after_59_min: 17
 win_1: 4
 loss_1: 6
-points_max_difference_3: 13
-points_more_3_difference: 6
+points_more_2_difference: 6
 close_game_win: 4
 close_game_loss: 9
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 3
 penalty_second_period: 12
 penalty_third_period: 15
 penalty_overtime: 0
-leading_goals: 15
+take_the_lead_goals: 26
 equalizer_goals: 18
 first_goal_of_match: 11
 goals_in_first_period_against: 37
@@ -74,7 +73,7 @@ goals_against_home: 67
 goals_against_away: 64
 home_points: 8
 away_points: 11
-leading_goals_against: 22
+take_the_lead_goals_against: 31
 equalizer_goals_against: 20
 first_goal_of_match_against: 8
 Tags:  SC Potsdam: 5,  ETV Piranhhas Hamburg: 3,  Blau-Weiß 96 Schenefeld: 3,  Floor Fighters Chemnitz: 2,  Berlin Rockets: 0,  SSF Dragons Bonn: 0,  DJK Holzbüttgen: 3,  MFBC Leipzig: 0,  SC DHfK Leipzig: 0,  UHC Sparkasse Weißenfels: 3,

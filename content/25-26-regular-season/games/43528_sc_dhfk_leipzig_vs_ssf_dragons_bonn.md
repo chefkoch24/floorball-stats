@@ -6,6 +6,26 @@ type: game
 game_id: 43528
 home_team: SC DHfK Leipzig
 away_team: SSF Dragons Bonn
+start_time: 17:00
+result_string: 5:6 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,1.25,2.48,16.9,22.23,29.8,32.5,33.35,36.87,40.73,46.28,66.83
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-1,0,-1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,5,5
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,5,5,6
+home_goal_minutes_csv: 2.48,16.9,22.23,40.73,46.28
+home_goal_diffs_csv: 0,1,2,-1,0
+away_goal_minutes_csv: 1.25,29.8,32.5,33.35,36.87,66.83
+away_goal_diffs_csv: -1,1,0,-1,-2,-1
+home_penalty_minutes_csv: 12.67,32.25,34.42,61.63
+home_penalty_goals_csv: 1,3,3,5
+home_penalty_ends_csv: 14.67,32.5,36.42,63.63
+away_penalty_minutes_csv: 11.82,38.3,42.83
+away_penalty_goals_csv: 1,5,5
+away_penalty_ends_csv: 13.82,40.3,44.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 70.0
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 1
 home_points_after_59_min: 1
 home_win_1: 0
 home_loss_1: 1
-home_points_max_difference_3: 1
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 0
 home_close_game_loss: 1
 home_close_game_overtime: 1
@@ -61,7 +80,7 @@ home_penalty_first_period: 1
 home_penalty_second_period: 2
 home_penalty_third_period: 0
 home_penalty_overtime: 1
-home_leading_goals: 1
+home_take_the_lead_goals: 1
 home_equalizer_goals: 2
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 6
 home_goals_against_away: 0
 home_home_points: 1
 home_away_points: 0
-home_leading_goals_against: 1
+home_take_the_lead_goals_against: 3
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 1
 home_points_against_ssf_dragons_bonn: 1
@@ -122,8 +141,7 @@ away_points_after_58_min: 1
 away_points_after_59_min: 1
 away_win_1: 1
 away_loss_1: 0
-away_points_max_difference_3: 2
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 1
 away_close_game_loss: 0
 away_close_game_overtime: 1
@@ -137,7 +155,7 @@ away_penalty_first_period: 1
 away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
-away_leading_goals: 1
+away_take_the_lead_goals: 3
 away_equalizer_goals: 1
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 2
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 5
 away_home_points: 0
 away_away_points: 2
-away_leading_goals_against: 1
+away_take_the_lead_goals_against: 1
 away_equalizer_goals_against: 2
 away_first_goal_of_match_against: 0
 away_points_against_sc_dhfk_leipzig: 2

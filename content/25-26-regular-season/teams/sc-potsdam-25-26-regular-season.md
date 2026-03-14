@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-14
 Title: SC Potsdam
 Category: 25-26-regular-season, teams
 Slug: sc-potsdam-25-26-regular-season-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 7
 points_after_59_min: 8
 win_1: 2
 loss_1: 3
-points_max_difference_3: 6
-points_more_3_difference: 6
+points_more_2_difference: 6
 close_game_win: 2
 close_game_loss: 4
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 14
 penalty_second_period: 20
 penalty_third_period: 16
 penalty_overtime: 0
-leading_goals: 16
+take_the_lead_goals: 17
 equalizer_goals: 12
 first_goal_of_match: 8
 goals_in_first_period_against: 39
@@ -74,7 +73,7 @@ goals_against_home: 69
 goals_against_away: 80
 home_points: 7
 away_points: 5
-leading_goals_against: 15
+take_the_lead_goals_against: 26
 equalizer_goals_against: 13
 first_goal_of_match_against: 10
 Tags:  Unihockey Igels Dresden: 1,  SC DHfK Leipzig: 0,  SSF Dragons Bonn: 0,  DJK Holzbüttgen: 0,  Floor Fighters Chemnitz: 0,  ETV Piranhhas Hamburg: 3,  Blau-Weiß 96 Schenefeld: 6,  Berlin Rockets: 2,  UHC Sparkasse Weißenfels: 0,  MFBC Leipzig: 0,

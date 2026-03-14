@@ -11,6 +11,174 @@ from src.utils import add_points, add_penalties, is_powerplay, is_boxplay, safe_
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
 
+def _parse_sortkey_to_minute(sortkey: str) -> float:
+    try:
+        period_str, clock = str(sortkey).split("-", 1)
+        minute_str, second_str = clock.split(":", 1)
+        period = int(period_str)
+        minute = int(minute_str)
+        second = int(second_str)
+    except (ValueError, AttributeError):
+        return 0.0
+    # Most providers use period-relative clock (00:00..19:59), but some
+    # (notably Czech) provide absolute game clock in sortkey (e.g. 53:05 in P3).
+    if period > 1 and minute >= 20:
+        return round(minute + second / 60.0, 2)
+    return round((period - 1) * 20 + minute + second / 60.0, 2)
+
+
+def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: str) -> dict:
+    periods = pd.to_numeric(game_df.get("period"), errors="coerce").fillna(0).astype(int)
+    has_extra_time = bool((periods >= 4).any())
+
+    goals = game_df[game_df["event_type"] == EVENT_GOAL].copy()
+    if {"home_goals", "guest_goals"}.issubset(goals.columns):
+        goals = goals[~(goals["home_goals"].isna() & goals["guest_goals"].isna())]
+    goals = goals[goals["period"].astype(int) <= 4]
+    goals = goals.sort_values(by=["period", "sortkey"])
+
+    timeline_minutes = [0.0]
+    timeline_diffs = [0]
+    timeline_home_goals = [0]
+    timeline_away_goals = [0]
+    home_goal_minutes = []
+    home_goal_diffs = []
+    away_goal_minutes = []
+    away_goal_diffs = []
+    home_penalty_minutes = []
+    home_penalty_goals = []
+    home_penalty_ends = []
+    away_penalty_minutes = []
+    away_penalty_goals = []
+    away_penalty_ends = []
+    home_major_penalty_minutes = []
+    away_major_penalty_minutes = []
+
+    def _to_int(value: object) -> int:
+        if pd.isna(value):
+            return 0
+        try:
+            return int(value)
+        except (TypeError, ValueError):
+            return 0
+
+    running_home_goals = 0
+    running_away_goals = 0
+    goal_times: list[tuple[float, str]] = []
+
+    for _, event in goals.iterrows():
+        minute = _parse_sortkey_to_minute(event.get("sortkey", ""))
+        scoring_team = str(event.get("event_team", ""))
+        if scoring_team == home_team:
+            running_home_goals += 1
+        elif scoring_team == away_team:
+            running_away_goals += 1
+        else:
+            # Unknown scoring team cannot be placed on a home/away timeline.
+            continue
+
+        home_goals = running_home_goals
+        away_goals = running_away_goals
+        diff = running_home_goals - running_away_goals
+        timeline_minutes.append(minute)
+        timeline_diffs.append(diff)
+        timeline_home_goals.append(home_goals)
+        timeline_away_goals.append(away_goals)
+        goal_times.append((minute, scoring_team))
+
+        if scoring_team == home_team:
+            home_goal_minutes.append(minute)
+            home_goal_diffs.append(diff)
+        elif scoring_team == away_team:
+            away_goal_minutes.append(minute)
+            away_goal_diffs.append(diff)
+
+    penalties = game_df[game_df["event_type"] == EVENT_PENALTY].copy()
+    penalties = penalties[penalties["period"].astype(int) <= 4]
+    penalties = penalties.sort_values(by=["period", "sortkey"])
+    goal_events = game_df[game_df["event_type"] == EVENT_GOAL].copy()
+    goal_events = goal_events[goal_events["period"].astype(int) <= 4]
+    goal_events = goal_events.sort_values(by=["period", "sortkey"])
+
+    timeline_events = list(zip(timeline_minutes, timeline_home_goals, timeline_away_goals))
+    if not goal_times:
+        goal_times = [
+            (_parse_sortkey_to_minute(event.get("sortkey", "")), str(event.get("event_team", "")))
+            for _, event in goal_events.iterrows()
+        ]
+
+    def _score_at(minute: float) -> tuple[int, int]:
+        home = 0
+        away = 0
+        for m, h, a in timeline_events:
+            if m <= minute:
+                home = h
+                away = a
+            else:
+                break
+        return home, away
+
+    for _, event in penalties.iterrows():
+        minute = _parse_sortkey_to_minute(event.get("sortkey", ""))
+        home_score, away_score = _score_at(minute)
+        penalized_team = str(event.get("event_team", ""))
+        penalty_type = str(event.get("penalty_type") or "")
+        if penalty_type in {"penalty_10", "penalty_ms_full", "penalty_ms_tech"}:
+            if penalized_team == home_team:
+                home_major_penalty_minutes.append(minute)
+            elif penalized_team == away_team:
+                away_major_penalty_minutes.append(minute)
+            continue
+        if penalty_type not in {"penalty_2", "penalty_2and2"}:
+            continue
+        duration = 2
+        if penalty_type == "penalty_2and2":
+            duration = 4
+        natural_end = round(minute + duration, 2)
+        end_minute = natural_end
+        # Minor penalties end early when the non-penalized team scores.
+        if penalty_type in {"penalty_2", "penalty_2and2"}:
+            for goal_minute, goal_team in goal_times:
+                if goal_minute < minute or goal_minute > natural_end:
+                    continue
+                if goal_team and goal_team != penalized_team:
+                    end_minute = goal_minute
+                    break
+
+        if penalized_team == home_team:
+            home_penalty_minutes.append(minute)
+            home_penalty_goals.append(home_score)
+            home_penalty_ends.append(end_minute)
+        elif penalized_team == away_team:
+            away_penalty_minutes.append(minute)
+            away_penalty_goals.append(away_score)
+            away_penalty_ends.append(end_minute)
+
+    timeline_max_minute = 70.0 if has_extra_time else 60.0
+
+    def _csv(values: list[float | int]) -> str:
+        return ",".join(str(v) for v in values)
+
+    return {
+        "timeline_minutes_csv": _csv(timeline_minutes),
+        "timeline_diffs_csv": _csv(timeline_diffs),
+        "timeline_home_goals_csv": _csv(timeline_home_goals),
+        "timeline_away_goals_csv": _csv(timeline_away_goals),
+        "home_goal_minutes_csv": _csv(home_goal_minutes),
+        "home_goal_diffs_csv": _csv(home_goal_diffs),
+        "away_goal_minutes_csv": _csv(away_goal_minutes),
+        "away_goal_diffs_csv": _csv(away_goal_diffs),
+        "home_penalty_minutes_csv": _csv(home_penalty_minutes),
+        "home_penalty_goals_csv": _csv(home_penalty_goals),
+        "home_penalty_ends_csv": _csv(home_penalty_ends),
+        "away_penalty_minutes_csv": _csv(away_penalty_minutes),
+        "away_penalty_goals_csv": _csv(away_penalty_goals),
+        "away_penalty_ends_csv": _csv(away_penalty_ends),
+        "home_major_penalty_minutes_csv": _csv(home_major_penalty_minutes),
+        "away_major_penalty_minutes_csv": _csv(away_major_penalty_minutes),
+        "timeline_max_minute": round(timeline_max_minute, 2),
+    }
+
 
 def _is_extra_time_period(period: int) -> bool:
     return int(period) >= 4
@@ -441,7 +609,7 @@ def stat_loss_1(events: pd.DataFrame, team: str):
             loss_1 += 1
     return loss_1
 
-def stat_points_max_difference_3(events: pd.DataFrame, team: str):
+def stat_points_more_2_difference(events: pd.DataFrame, team: str):
     points = 0
     last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
     if last_goal is not None:
@@ -455,25 +623,7 @@ def stat_points_max_difference_3(events: pd.DataFrame, team: str):
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if diff < 3:
-            points += _points_from_final_score(team_goals, opp_goals, period)
-    return points
-
-def stat_points_more_3_difference(events: pd.DataFrame, team: str):
-    points = 0
-    last_goal = events[events['event_type'] == EVENT_GOAL].iloc[-1] if not events[events['event_type'] == EVENT_GOAL].empty else None
-    if last_goal is not None:
-        if team == last_goal['home_team_name']:
-            diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
-            team_goals = last_goal['home_goals']
-            opp_goals = last_goal['guest_goals']
-            period = last_goal['period']
-        else:
-            diff = abs(last_goal['guest_goals'] - last_goal['home_goals'])
-            team_goals = last_goal['guest_goals']
-            opp_goals = last_goal['home_goals']
-            period = last_goal['period']
-        if diff >= 3:
+        if diff > 2:
             points += _points_from_final_score(team_goals, opp_goals, period)
     return points
 
@@ -557,53 +707,76 @@ def stat_penalty_third_period(events: pd.DataFrame, team: str):
 def stat_penalty_overtime(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team) & (events['period'] == 4)].shape[0])
 
-def stat_leading_goals(events: pd.DataFrame, team: str):
+def _team_score_state(event: pd.Series, team: str):
+    if event.get('home_team_name') == team:
+        return event['home_goals'], event['guest_goals']
+    if event.get('away_team_name') == team:
+        return event['guest_goals'], event['home_goals']
+    return None, None
+
+def _goal_progression(events: pd.DataFrame) -> pd.DataFrame:
+    """Return deduplicated in-game goals (periods 1-4) in chronological order."""
+    goals = events[(events['event_type'] == EVENT_GOAL) & (events['period'] <= 4)].copy()
+    if goals.empty:
+        return goals
+    goals = goals.sort_values(by=['time_in_s', 'sortkey'])
+    goals['score_key'] = goals['home_goals'].astype(str) + ":" + goals['guest_goals'].astype(str)
+    goals = goals[goals['score_key'].ne(goals['score_key'].shift())].copy()
+    return goals.drop(columns=['score_key'])
+
+def stat_take_the_lead_goals(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-            if event['home_goals'] - event['guest_goals'] == 1:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] == team:
+            team_goals, opp_goals = _team_score_state(event, team)
+            if team_goals is None:
+                continue
+            # Leading goal: a goal that turns a tie into a lead.
+            if team_goals == opp_goals + 1:
                 count += 1
     return count
 
 def stat_equalizer_goals(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] == team:
             if event['home_goals'] - event['guest_goals'] == 0:
                 count += 1
     return count
 
 def stat_first_goal_of_match(events: pd.DataFrame, team: str):
-    count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] == team:
-            if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                count += 1
-    return count
+    goals = _goal_progression(events)
+    if goals.empty:
+        return 0
+    first = goals.iloc[0]
+    return int(first['event_team'] == team)
 
-def stat_leading_goals_against(events: pd.DataFrame, team: str):
+def stat_take_the_lead_goals_against(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-            if event['home_goals'] - event['guest_goals'] == 1:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] != team:
+            team_goals, opp_goals = _team_score_state(event, team)
+            if team_goals is None:
+                continue
+            # Against: opponent scores to take the lead from a tie.
+            if opp_goals == team_goals + 1:
                 count += 1
     return count
 
 def stat_equalizer_goals_against(events: pd.DataFrame, team: str):
     count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
+    for _, event in _goal_progression(events).iterrows():
+        if event['event_team'] != team:
             if event['home_goals'] - event['guest_goals'] == 0:
                 count += 1
     return count
 
 def stat_first_goal_of_match_against(events: pd.DataFrame, team: str):
-    count = 0
-    for _, event in events.iterrows():
-        if event['event_type'] == EVENT_GOAL and event['event_team'] != team:
-            if (event['home_goals'] == 1 and event['guest_goals'] == 0) or (event['home_goals'] == 0 and event['guest_goals'] == 1):
-                count += 1
-    return count
+    goals = _goal_progression(events)
+    if goals.empty:
+        return 0
+    first = goals.iloc[0]
+    return int(first['event_team'] != team)
 
 def stat_goals_in_first_period_against(events: pd.DataFrame, team: str):
     return int(events[(events['event_type'] == EVENT_GOAL) & (events['event_team'] != team) & (events['period'] == 1)].shape[0])
@@ -725,8 +898,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('points_after_59_min', stat_points_after_59_minutes)
     engine.register_stat('win_1', stat_win_1)
     engine.register_stat('loss_1', stat_loss_1)
-    engine.register_stat('points_max_difference_3', stat_points_max_difference_3)
-    engine.register_stat('points_more_3_difference', stat_points_more_3_difference)
+    engine.register_stat('points_more_2_difference', stat_points_more_2_difference)
     engine.register_stat('close_game_win', stat_close_game_win)
     engine.register_stat('close_game_loss', stat_close_game_loss)
     engine.register_stat('close_game_overtime', stat_close_game_overtime)
@@ -740,7 +912,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('penalty_second_period', stat_penalty_second_period)
     engine.register_stat('penalty_third_period', stat_penalty_third_period)
     engine.register_stat('penalty_overtime', stat_penalty_overtime)
-    engine.register_stat('leading_goals', stat_leading_goals)
+    engine.register_stat('take_the_lead_goals', stat_take_the_lead_goals)
     engine.register_stat('equalizer_goals', stat_equalizer_goals)
     engine.register_stat('first_goal_of_match', stat_first_goal_of_match)
     engine.register_stat('goals_in_first_period_against', stat_goals_in_first_period_against)
@@ -755,7 +927,7 @@ def build_engine() -> StatsEngine:
     engine.register_stat('goals_against_away', stat_goals_against_away)
     engine.register_stat('home_points', stat_home_points)
     engine.register_stat('away_points', stat_away_points)
-    engine.register_stat('leading_goals_against', stat_leading_goals_against)
+    engine.register_stat('take_the_lead_goals_against', stat_take_the_lead_goals_against)
     engine.register_stat('equalizer_goals_against', stat_equalizer_goals_against)
     engine.register_stat('first_goal_of_match_against', stat_first_goal_of_match_against)
     engine.register_stat('points_against', stat_points_against)
@@ -767,6 +939,15 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     output_path.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_csv_path)
+    if {"event_type", "home_goals", "guest_goals"}.issubset(df.columns):
+        # Some sources include malformed goal rows (e.g. mixed timeline blocks)
+        # without any score snapshot. Drop them before computing stats.
+        invalid_goals = (
+            (df["event_type"] == EVENT_GOAL)
+            & df["home_goals"].isna()
+            & df["guest_goals"].isna()
+        )
+        df = df.loc[~invalid_goals].copy()
     teams = list(df['home_team_name'].unique()) + list(df['away_team_name'].unique())
     teams = np.unique(teams)
     engine = build_engine()
@@ -799,6 +980,7 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
             'away_team': away_team,
             'away_stats': away_stats
         }
+        game_stat.update(_build_gameflow_timeline(game_df, home_team, away_team))
         game_stats.append(game_stat)
 
     # aggregate per game
@@ -875,6 +1057,9 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
 
     playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(all_stats)
     league_stats = engine.aggregate_stats(all_stats)
+    playoff_averages = engine.aggregate_stats(playoff_stats)
+    playdown_averages = engine.aggregate_stats(playdown_stats)
+    top4_averages = engine.aggregate_stats(top4_stats)
     with open(output_path / 'playoff_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in playoff_stats], f, indent=4)
 
@@ -884,6 +1069,15 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     with open(output_path / 'top4_stats.json', 'w') as f:
         json.dump([team.to_dict() for team in top4_stats], f, indent=4)
 
+    with open(output_path / 'playoff_averages.json', 'w') as f:
+        json.dump(playoff_averages, f, indent=4)
+
+    with open(output_path / 'playdown_averages.json', 'w') as f:
+        json.dump(playdown_averages, f, indent=4)
+
+    with open(output_path / 'top4_averages.json', 'w') as f:
+        json.dump(top4_averages, f, indent=4)
+
     with open(output_path / 'league_averages.json', 'w') as f:
         json.dump(league_stats, f, indent=4)
     return {
@@ -892,6 +1086,9 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
         "playoff_stats": [team.to_dict() for team in playoff_stats],
         "playdown_stats": [team.to_dict() for team in playdown_stats],
         "top4_stats": [team.to_dict() for team in top4_stats],
+        "playoff_averages": playoff_averages,
+        "playdown_averages": playdown_averages,
+        "top4_averages": top4_averages,
         "league_averages": league_stats,
     }
 

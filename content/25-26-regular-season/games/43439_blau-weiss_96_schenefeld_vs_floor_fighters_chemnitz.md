@@ -6,6 +6,26 @@ type: game
 game_id: 43439
 home_team: Blau-Weiß 96 Schenefeld
 away_team: Floor Fighters Chemnitz
+start_time: 18:00
+result_string: 8:7 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,4.45,14.45,21.0,21.15,31.23,31.68,31.93,39.1,39.65,40.33,41.93,46.98,50.1,54.93,65.68
+timeline_diffs_csv: 0,-1,0,1,2,1,0,-1,-2,-1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,5,5,6,6,7,8
+timeline_away_goals_csv: 0,1,1,1,1,2,3,4,5,5,5,6,6,7,7,7
+home_goal_minutes_csv: 14.45,21.0,21.15,39.65,40.33,46.98,54.93,65.68
+home_goal_diffs_csv: 0,1,2,-1,0,0,0,1
+away_goal_minutes_csv: 4.45,31.23,31.68,31.93,39.1,41.93,50.1
+away_goal_diffs_csv: -1,1,0,-1,-2,-1,-1
+home_penalty_minutes_csv: 5.2,26.42
+home_penalty_goals_csv: 0,3
+home_penalty_ends_csv: 7.2,28.42
+away_penalty_minutes_csv: 35.43
+away_penalty_goals_csv: 4
+away_penalty_ends_csv: 37.43
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 70.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1
@@ -46,8 +66,7 @@ home_points_after_58_min: 1
 home_points_after_59_min: 1
 home_win_1: 1
 home_loss_1: 0
-home_points_max_difference_3: 2
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 1
 home_close_game_loss: 0
 home_close_game_overtime: 1
@@ -61,7 +80,7 @@ home_penalty_first_period: 1
 home_penalty_second_period: 1
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 2
+home_take_the_lead_goals: 2
 home_equalizer_goals: 4
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 7
 home_goals_against_away: 0
 home_home_points: 2
 home_away_points: 0
-home_leading_goals_against: 1
+home_take_the_lead_goals_against: 4
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 1
 home_points_against_floor_fighters_chemnitz: 2
@@ -122,8 +141,7 @@ away_points_after_58_min: 1
 away_points_after_59_min: 1
 away_win_1: 0
 away_loss_1: 1
-away_points_max_difference_3: 1
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 1
 away_close_game_overtime: 1
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 0
 away_penalty_overtime: 0
-away_leading_goals: 1
+away_take_the_lead_goals: 4
 away_equalizer_goals: 1
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 1
@@ -151,10 +169,10 @@ away_goals_against_home: 0
 away_goals_against_away: 8
 away_home_points: 0
 away_away_points: 1
-away_leading_goals_against: 2
+away_take_the_lead_goals_against: 2
 away_equalizer_goals_against: 4
 away_first_goal_of_match_against: 0
-away_points_against_blau-weiss_96_schenefeld: 1
+away_points_against_blau_weiss_96_schenefeld: 1
 away_powerplay_efficiency: 0.0
 away_boxplay_efficiency: 100.0
 away_penalties: 1

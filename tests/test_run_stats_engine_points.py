@@ -1,6 +1,7 @@
 import pandas as pd
 
 from src.run_stats_engine import (
+    _build_gameflow_timeline,
     stat_away_points,
     stat_boxplay,
     stat_losses,
@@ -10,11 +11,19 @@ from src.run_stats_engine import (
     stat_penalty_overtime,
     stat_penalty_second_period,
     stat_penalty_third_period,
+    stat_first_goal_of_match,
+    stat_first_goal_of_match_against,
+    stat_take_the_lead_goals,
+    stat_take_the_lead_goals_against,
+    stat_equalizer_goals,
+    stat_equalizer_goals_against,
     stat_points,
     stat_points_after_55_minutes,
     stat_points_after_58_minutes,
     stat_points_after_59_minutes,
     stat_points_against,
+    stat_points_max_difference,
+    stat_points_more_2_difference,
     stat_powerplay,
     stat_wins,
 )
@@ -192,3 +201,93 @@ def test_penalties_are_counted_per_period():
     assert stat_penalty_second_period(events, "A") == 1
     assert stat_penalty_third_period(events, "A") == 1
     assert stat_penalty_overtime(events, "A") == 1
+
+
+def test_game_flow_metrics_ignore_duplicate_goal_rows():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "1-01:00", 1, "A", "B", 1, 0, "A"),
+            _goal_event(1, "1-01:00", 1, "A", "B", 1, 0, "A"),  # duplicate
+            _goal_event(1, "2-05:00", 2, "A", "B", 1, 1, "B"),
+            _goal_event(1, "2-05:00", 2, "A", "B", 1, 1, "B"),  # duplicate
+            _goal_event(1, "3-10:00", 3, "A", "B", 2, 1, "A"),
+        ]
+    )
+
+    assert stat_first_goal_of_match(events, "A") == 1
+    assert stat_first_goal_of_match_against(events, "A") == 0
+    assert stat_take_the_lead_goals(events, "A") == 2
+    assert stat_take_the_lead_goals_against(events, "A") == 0
+    assert stat_equalizer_goals(events, "A") == 0
+    assert stat_equalizer_goals_against(events, "A") == 1
+
+
+def test_game_flow_metrics_exclude_penalty_shootout_goals():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:00", 3, "A", "B", 1, 0, "A"),
+            _goal_event(1, "3-19:30", 3, "A", "B", 1, 1, "B"),
+            _goal_event(1, "5-01:00", 5, "A", "B", 2, 1, "A"),  # shootout
+            _goal_event(1, "5-01:30", 5, "A", "B", 2, 2, "B"),  # shootout
+        ]
+    )
+
+    assert stat_take_the_lead_goals(events, "A") == 1
+    assert stat_equalizer_goals(events, "A") == 0
+    assert stat_take_the_lead_goals_against(events, "A") == 0
+    assert stat_equalizer_goals_against(events, "A") == 1
+
+
+def test_points_max_difference_2_counts_games_with_diff_of_two():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:00", 3, "A", "B", 5, 3, "A"),
+        ]
+    )
+
+    assert stat_points_max_difference(events, "A") == 3
+    assert stat_points_max_difference(events, "B") == 0
+
+
+def test_points_more_2_difference_counts_only_games_above_two():
+    close_game = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:00", 3, "A", "B", 5, 3, "A"),
+        ]
+    )
+    big_margin = pd.DataFrame(
+        [
+            _goal_event(2, "3-19:00", 3, "A", "B", 6, 3, "A"),
+        ]
+    )
+
+    assert stat_points_more_2_difference(close_game, "A") == 0
+    assert stat_points_more_2_difference(big_margin, "A") == 3
+
+
+def test_gameflow_handles_czech_absolute_clock_sortkeys():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "1-05:08", 1, "Home", "Away", 0, 1, "Away"),
+            _goal_event(1, "1-06:47", 1, "Home", "Away", 1, 1, "Home"),
+            _goal_event(1, "2-27:20", 2, "Home", "Away", 2, 1, "Home"),
+            _goal_event(1, "3-53:05", 3, "Home", "Away", 3, 1, "Home"),
+        ]
+    )
+
+    flow = _build_gameflow_timeline(events, "Home", "Away")
+    minutes = [float(v) for v in flow["timeline_minutes_csv"].split(",") if v]
+    assert minutes == [0.0, 5.13, 6.78, 27.33, 53.08]
+    assert flow["timeline_max_minute"] == 60.0
+
+
+def test_gameflow_uses_70_minutes_for_extra_time_games():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:30", 3, "Home", "Away", 2, 2, "Away"),
+            _goal_event(1, "4-01:00", 4, "Home", "Away", 3, 2, "Home"),
+        ]
+    )
+
+    flow = _build_gameflow_timeline(events, "Home", "Away")
+    assert flow["timeline_max_minute"] == 70.0

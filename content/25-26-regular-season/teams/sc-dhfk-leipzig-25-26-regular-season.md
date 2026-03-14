@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-14
 Title: SC DHfK Leipzig
 Category: 25-26-regular-season, teams
 Slug: sc-dhfk-leipzig-25-26-regular-season-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 24
 points_after_59_min: 24
 win_1: 4
 loss_1: 6
-points_max_difference_3: 19
-points_more_3_difference: 9
+points_more_2_difference: 9
 close_game_win: 6
 close_game_loss: 6
 close_game_overtime: 5
@@ -60,7 +59,7 @@ penalty_first_period: 9
 penalty_second_period: 17
 penalty_third_period: 11
 penalty_overtime: 1
-leading_goals: 12
+take_the_lead_goals: 24
 equalizer_goals: 11
 first_goal_of_match: 8
 goals_in_first_period_against: 26
@@ -74,7 +73,7 @@ goals_against_home: 50
 goals_against_away: 50
 home_points: 11
 away_points: 17
-leading_goals_against: 18
+take_the_lead_goals_against: 18
 equalizer_goals_against: 15
 first_goal_of_match_against: 9
 Tags:  Blau-Weiß 96 Schenefeld: 3,  SC Potsdam: 6,  Berlin Rockets: 5,  MFBC Leipzig: 0,  DJK Holzbüttgen: 1,  UHC Sparkasse Weißenfels: 2,  SSF Dragons Bonn: 4,  Unihockey Igels Dresden: 3,  Floor Fighters Chemnitz: 1,  ETV Piranhhas Hamburg: 3,

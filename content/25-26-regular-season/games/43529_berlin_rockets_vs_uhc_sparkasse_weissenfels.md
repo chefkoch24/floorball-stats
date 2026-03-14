@@ -6,6 +6,26 @@ type: game
 game_id: 43529
 home_team: Berlin Rockets
 away_team: UHC Sparkasse Weißenfels
+start_time: 18:00
+result_string: 3:12
+ingame_status: period3
+timeline_minutes_csv: 0.0,0.85,3.12,13.27,14.3,16.08,20.63,30.18,32.33,32.48,33.18,36.38,48.67,58.18,59.55,59.95
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-7,-8,-7,-8,-9,-10,-9
+timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,1,1,2,2,2,2,3
+timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,8,9,9,10,11,12,12
+home_goal_minutes_csv: 20.63,36.38,59.95
+home_goal_diffs_csv: -4,-7,-9
+away_goal_minutes_csv: 0.85,3.12,13.27,14.3,16.08,30.18,32.33,32.48,33.18,48.67,58.18,59.55
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-7,-8,-8,-9,-10
+home_penalty_minutes_csv: 22.93
+home_penalty_goals_csv: 1
+home_penalty_ends_csv: 24.93
+away_penalty_minutes_csv: 20.0,58.72
+away_penalty_goals_csv: 5,11
+away_penalty_ends_csv: 20.63,59.95
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 1
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 0
+home_take_the_lead_goals: 0
 home_equalizer_goals: 0
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 5
@@ -75,7 +94,7 @@ home_goals_against_home: 12
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
 home_points_against_uhc_sparkasse_weissenfels: 0
@@ -122,8 +141,7 @@ away_points_after_58_min: 3
 away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 3
+away_points_more_2_difference: 3
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 1
 away_penalty_second_period: 0
 away_penalty_third_period: 1
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 1
 away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 0
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 3
 away_home_points: 0
 away_away_points: 3
-away_leading_goals_against: 0
+away_take_the_lead_goals_against: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 0
 away_points_against_berlin_rockets: 3

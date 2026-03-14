@@ -1,7 +1,9 @@
 from datetime import datetime
+import re
 
 import pandas as pd
 import numpy as np
+from unidecode import unidecode
 
 
 def read_data(path):
@@ -91,8 +93,10 @@ def generate_slug(name: str, year:str, time_of_year: str) -> str:
 def flatten_team_stats(stats_dict, prefix):
     """Flacht die Team-Stats mit dem gegebenen Präfix"""
     def _normalize_key(key: str) -> str:
+        key = unidecode(key)
         key = key.replace(' ', '_').lower()
-        key = key.replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss')
+        key = re.sub(r'[^a-z0-9_]', '_', key)
+        key = re.sub(r'_+', '_', key).strip('_')
         return key
 
     flattened = {}
@@ -121,6 +125,13 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     # Team Namen
     result.append(f"home_team: {game_data['home_team']}")
     result.append(f"away_team: {game_data['away_team']}")
+
+    excluded_keys = {"game_id", "date", "home_team", "away_team", "home_stats", "away_stats", "title", "slug", "category", "type"}
+    for key, value in game_data.items():
+        if key in excluded_keys:
+            continue
+        if isinstance(value, (str, int, float)) or value is None:
+            result.append(f"{key}: {value}")
 
     # Flat Home Stats
     home_stats = flatten_team_stats(game_data['home_stats'], 'home')
@@ -157,4 +168,28 @@ def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str)
             for k, v in value.items():
                 markdown += f"  {k}: {v},"
             result.append(markdown)
+    return '\n'.join(result)
+
+
+def dict_to_markdown_league_stats(stats: dict, title: str, season: str, phase: str):
+    def _normalize_slug(value: str) -> str:
+        filename = value.replace(' ', '-').lower()
+        filename = filename.replace('ö', 'oe')
+        filename = filename.replace('ä', 'ae')
+        filename = filename.replace('ü', 'ue')
+        filename = filename.replace('ß', 'ss')
+        return filename
+
+    result = []
+    category = "liga"
+    result.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}")
+    result.append(f"Title: {title}")
+    result.append(f"Category: {season}-{phase}, {category}")
+    slug = _normalize_slug(f"{title}-{season}-{phase}")
+    result.append(f"Slug: {slug.lower().replace(' ', '_')}")
+    result.append(f"type: liga")
+    result.append(f"team: {title}")
+
+    for key, value in stats.items():
+        result.append(f"{key}: {value}")
     return '\n'.join(result)

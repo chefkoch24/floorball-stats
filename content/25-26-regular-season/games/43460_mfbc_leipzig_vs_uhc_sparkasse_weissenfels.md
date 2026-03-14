@@ -6,6 +6,26 @@ type: game
 game_id: 43460
 home_team: MFBC Leipzig
 away_team: UHC Sparkasse Weißenfels
+start_time: 16:00
+result_string: 0:7
+ingame_status: period3
+timeline_minutes_csv: 0.0,9.1,18.9,33.28,35.88,38.47,43.02,45.57
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,0,0,0,0,0,0,0
+timeline_away_goals_csv: 0,1,2,3,4,5,6,7
+home_goal_minutes_csv: 
+home_goal_diffs_csv: 
+away_goal_minutes_csv: 9.1,18.9,33.28,35.88,38.47,43.02,45.57
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 17.32,17.32,28.98
+home_penalty_goals_csv: 0,0,0
+home_penalty_ends_csv: 18.9,18.9,30.98
+away_penalty_minutes_csv: 31.92,39.72,59.1
+away_penalty_goals_csv: 2,5,7
+away_penalty_ends_csv: 33.92,41.72,63.1
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 2
 home_penalty_second_period: 1
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 0
+home_take_the_lead_goals: 0
 home_equalizer_goals: 0
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 2
@@ -75,7 +94,7 @@ home_goals_against_home: 7
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
 home_points_against_uhc_sparkasse_weissenfels: 0
@@ -122,8 +141,7 @@ away_points_after_58_min: 3
 away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 3
+away_points_more_2_difference: 3
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 2
 away_penalty_third_period: 1
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 1
 away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 0
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 0
 away_home_points: 0
 away_away_points: 3
-away_leading_goals_against: 0
+away_take_the_lead_goals_against: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 0
 away_points_against_mfbc_leipzig: 3

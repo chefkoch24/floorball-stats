@@ -18,7 +18,7 @@
     <div class="hero-top">
         <div>
             <h1 class="hero-title">{{ category.shortname | category2string }}</h1>
-            <p class="hero-subtitle">Leistungsübersicht der Saison mit direktem Zugang zu Team-, Liga- und Spiel-Daten.</p>
+            <p class="hero-subtitle">Season performance overview with direct access to team, league, and game data.</p>
         </div>
     </div>
     <div class="chip-row">
@@ -27,18 +27,18 @@
 </section>
 
 <section class="panel">
-    <h2 class="panel-title">Tabelle</h2>
+    <h2 class="panel-title">Standings</h2>
     <div class="table-wrapper">
         <table class="data-table">
             <thead>
             <tr>
-                <th>Platz</th>
+                <th>Rank</th>
                 <th>Team</th>
-                <th>Punkte</th>
+                <th>Points</th>
                 <th>PpS</th>
                 <th>TpS</th>
                 <th>GpS</th>
-                <th>Diff/Spiel</th>
+                <th>Diff/Game</th>
                 <th>PP%</th>
                 <th>BP%</th>
             </tr>
@@ -65,13 +65,13 @@
 </section>
 
 <section class="panel">
-    <h2 class="panel-title">Liga Reports</h2>
+    <h2 class="panel-title">League Reports</h2>
     <div class="season-grid">
         {% for candidate in articles_page.object_list %}
         {% if candidate|string_in_category_path('liga') %}
         <a class="season-card" href="{{ SITEURL }}/{{ candidate.url }}">
             <h3>{{ candidate.title | category2title }}</h3>
-            <p>Scoring, Effizienz und Trendwerte</p>
+            <p>Scoring, efficiency, and trend metrics</p>
         </a>
         {% endif %}
         {% endfor %}
@@ -80,14 +80,14 @@
 
 {% if ns.game_count > 0 %}
 <section class="panel">
-    <h2 class="panel-title">Spiele der Saison</h2>
+    <h2 class="panel-title">Season Games</h2>
     <div class="table-wrapper">
         <table class="data-table">
             <thead>
             <tr>
-                <th>Datum</th>
-                <th>Spiel</th>
-                <th>Ergebnis</th>
+                <th>Date</th>
+                <th>Game</th>
+                <th>Result</th>
                 <th>Report</th>
             </tr>
             </thead>

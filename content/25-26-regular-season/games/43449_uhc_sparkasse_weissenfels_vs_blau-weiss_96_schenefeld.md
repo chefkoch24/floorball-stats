@@ -6,6 +6,26 @@ type: game
 game_id: 43449
 home_team: UHC Sparkasse Weißenfels
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 18:00
+result_string: 8:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,5.85,8.85,9.98,13.97,26.27,27.73,30.73,33.75,56.2,58.18,59.77
+timeline_diffs_csv: 0,-1,0,1,0,1,2,1,2,3,4,5
+timeline_home_goals_csv: 0,0,1,2,2,3,4,4,5,6,7,8
+timeline_away_goals_csv: 0,1,1,1,2,2,2,3,3,3,3,3
+home_goal_minutes_csv: 8.85,9.98,26.27,27.73,33.75,56.2,58.18,59.77
+home_goal_diffs_csv: 0,1,1,2,2,3,4,5
+away_goal_minutes_csv: 5.85,13.97,30.73
+away_goal_diffs_csv: -1,0,1
+home_penalty_minutes_csv: 28.27,39.6
+home_penalty_goals_csv: 4,5
+home_penalty_ends_csv: 30.27,41.6
+away_penalty_minutes_csv: 25.4
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 26.27
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 58.18
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 3
 home_points_after_59_min: 3
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 3
+home_points_more_2_difference: 3
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 2
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 2
+home_take_the_lead_goals: 2
 home_equalizer_goals: 1
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 2
@@ -75,10 +94,10 @@ home_goals_against_home: 3
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
-home_leading_goals_against: 1
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 1
-home_points_against_blau-weiss_96_schenefeld: 3
+home_points_against_blau_weiss_96_schenefeld: 3
 home_powerplay_efficiency: 100.0
 home_boxplay_efficiency: 100.0
 home_penalties: 2
@@ -122,8 +141,7 @@ away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
-away_leading_goals: 1
+away_take_the_lead_goals: 1
 away_equalizer_goals: 1
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 2
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 8
 away_home_points: 0
 away_away_points: 0
-away_leading_goals_against: 2
+away_take_the_lead_goals_against: 2
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 0
 away_points_against_uhc_sparkasse_weissenfels: 0

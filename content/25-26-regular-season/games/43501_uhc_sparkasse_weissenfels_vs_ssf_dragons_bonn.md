@@ -6,6 +6,26 @@ type: game
 game_id: 43501
 home_team: UHC Sparkasse Weißenfels
 away_team: SSF Dragons Bonn
+start_time: 18:00
+result_string: 6:5 n.V.
+ingame_status: extratime
+timeline_minutes_csv: 0.0,16.55,19.35,20.38,20.93,31.03,38.07,40.52,43.07,45.8,53.03,67.88
+timeline_diffs_csv: 0,-1,0,-1,0,1,0,-1,0,1,0,1
+timeline_home_goals_csv: 0,0,1,1,2,3,3,3,4,5,5,6
+timeline_away_goals_csv: 0,1,1,2,2,2,3,4,4,4,5,5
+home_goal_minutes_csv: 19.35,20.93,31.03,43.07,45.8,67.88
+home_goal_diffs_csv: 0,0,1,0,1,1
+away_goal_minutes_csv: 16.55,20.38,38.07,40.52,53.03
+away_goal_diffs_csv: -1,-1,0,-1,0
+home_penalty_minutes_csv: 15.5
+home_penalty_goals_csv: 0
+home_penalty_ends_csv: 16.55
+away_penalty_minutes_csv: 29.15
+away_penalty_goals_csv: 2
+away_penalty_ends_csv: 31.03
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 70.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 1
@@ -46,8 +66,7 @@ home_points_after_58_min: 1
 home_points_after_59_min: 1
 home_win_1: 1
 home_loss_1: 0
-home_points_max_difference_3: 2
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 1
 home_close_game_loss: 0
 home_close_game_overtime: 1
@@ -61,7 +80,7 @@ home_penalty_first_period: 1
 home_penalty_second_period: 0
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 3
+home_take_the_lead_goals: 3
 home_equalizer_goals: 3
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 5
 home_goals_against_away: 0
 home_home_points: 2
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 3
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 1
 home_points_against_ssf_dragons_bonn: 2
@@ -122,8 +141,7 @@ away_points_after_58_min: 1
 away_points_after_59_min: 1
 away_win_1: 0
 away_loss_1: 1
-away_points_max_difference_3: 1
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 1
 away_close_game_overtime: 1
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 0
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 3
 away_equalizer_goals: 2
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 1
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 6
 away_home_points: 0
 away_away_points: 1
-away_leading_goals_against: 3
+away_take_the_lead_goals_against: 3
 away_equalizer_goals_against: 3
 away_first_goal_of_match_against: 0
 away_points_against_uhc_sparkasse_weissenfels: 1

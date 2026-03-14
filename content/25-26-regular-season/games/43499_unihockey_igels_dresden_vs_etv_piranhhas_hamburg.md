@@ -6,6 +6,26 @@ type: game
 game_id: 43499
 home_team: Unihockey Igels Dresden
 away_team: ETV Piranhhas Hamburg
+start_time: 18:00
+result_string: 13:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.22,2.95,7.0,7.9,9.83,9.98,11.63,12.85,16.45,19.12,23.0,24.83,28.37,38.77,41.17,43.95,45.05,46.23,47.85,49.33,50.15,55.63
+timeline_diffs_csv: 0,1,0,-1,-2,-3,-4,-3,-4,-3,-4,-5,-4,-5,-4,-3,-2,-1,0,1,2,3,4
+timeline_home_goals_csv: 0,1,1,1,1,1,1,2,2,3,3,3,4,4,5,6,7,8,9,10,11,12,13
+timeline_away_goals_csv: 0,0,1,2,3,4,5,5,6,6,7,8,8,9,9,9,9,9,9,9,9,9,9
+home_goal_minutes_csv: 1.22,11.63,16.45,24.83,38.77,41.17,43.95,45.05,46.23,47.85,49.33,50.15,55.63
+home_goal_diffs_csv: 1,-3,-3,-4,-4,-3,-2,-1,0,1,2,3,4
+away_goal_minutes_csv: 2.95,7.0,7.9,9.83,9.98,12.85,19.12,23.0,28.37
+away_goal_diffs_csv: 0,-1,-2,-3,-4,-4,-4,-5,-5
+home_penalty_minutes_csv: 52.82
+home_penalty_goals_csv: 12
+home_penalty_ends_csv: 54.82
+away_penalty_minutes_csv: 23.52
+away_penalty_goals_csv: 8
+away_penalty_ends_csv: 24.83
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 3
 home_points_after_59_min: 3
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 3
+home_points_more_2_difference: 3
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 0
 home_penalty_third_period: 1
 home_penalty_overtime: 0
-home_leading_goals: 2
+home_take_the_lead_goals: 2
 home_equalizer_goals: 1
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 7
@@ -75,7 +94,7 @@ home_goals_against_home: 9
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 0
 home_points_against_etv_piranhhas_hamburg: 3
@@ -122,8 +141,7 @@ away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 0
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 1
 away_equalizer_goals: 1
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 3
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 13
 away_home_points: 0
 away_away_points: 0
-away_leading_goals_against: 2
+away_take_the_lead_goals_against: 2
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 1
 away_points_against_unihockey_igels_dresden: 0

@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-14
 Title: MFBC Leipzig
 Category: 25-26-regular-season, teams
 Slug: mfbc-leipzig-25-26-regular-season-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 38
 points_after_59_min: 38
 win_1: 6
 loss_1: 0
-points_max_difference_3: 25
-points_more_3_difference: 18
+points_more_2_difference: 18
 close_game_win: 9
 close_game_loss: 1
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 7
 penalty_second_period: 7
 penalty_third_period: 12
 penalty_overtime: 0
-leading_goals: 15
+take_the_lead_goals: 21
 equalizer_goals: 17
 first_goal_of_match: 8
 goals_in_first_period_against: 29
@@ -74,7 +73,7 @@ goals_against_home: 35
 goals_against_away: 41
 home_points: 23
 away_points: 20
-leading_goals_against: 12
+take_the_lead_goals_against: 20
 equalizer_goals_against: 7
 first_goal_of_match_against: 10
 Tags:  Floor Fighters Chemnitz: 5,  SSF Dragons Bonn: 2,  DJK Holzbüttgen: 6,  SC DHfK Leipzig: 6,  Blau-Weiß 96 Schenefeld: 6,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,  ETV Piranhhas Hamburg: 0,  Berlin Rockets: 3,  SC Potsdam: 6,

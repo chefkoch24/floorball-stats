@@ -31,6 +31,21 @@ endif
 LEAGUE_ID ?= 1890
 SEASON ?= 25-26
 PHASE ?= regular-season
+# Sweden pipeline defaults (SSL StatsApp)
+SWEDEN_COMPETITION_ID ?= 40693
+SWEDEN_SEASON ?= se-25-26
+# Switzerland pipeline defaults (Swiss Unihockey renderengine)
+SWISS_LEAGUE ?= 24
+SWISS_SEASON ?= 2025
+SWISS_GAME_CLASS ?= 11
+SWISS_SEASON_SLUG ?= ch-25-26
+SWISS_PLAYOFFS_SLUG ?= ch-25-26
+SWISS_GROUP ?= Gruppe 1
+# Finland pipeline defaults (F-Liiga)
+FINLAND_SEASON ?= fi-25-26
+FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
+# Czech pipeline defaults (Czech Extraliga config)
+CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -45,10 +60,20 @@ help:
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '   make refresh-current-season         full pipeline for 1. FBL Herren     '
+	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
+	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
+	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
+	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
+	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
+	@echo '   make refresh-all-leagues            run all league pipelines + html     '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
+	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
+	@echo 'Set SWISS_* to override refresh-switzerland                                '
+	@echo 'Set FINLAND_* to override refresh-finland                                   '
+	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
 	@echo '                                                                          '
 
 html:
@@ -78,5 +103,28 @@ publish:
 refresh-current-season:
 	"$(PYTHON)" -m src.pipeline --league_id "$(LEAGUE_ID)" --season "$(SEASON)" --phase "$(PHASE)"
 
+refresh-sweden:
+	"$(PYTHON)" -m src.pipeline --backend sweden --competition_id "$(SWEDEN_COMPETITION_ID)" --season "$(SWEDEN_SEASON)" --phase "$(PHASE)"
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season
+refresh-switzerland:
+	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --swiss_group "$(SWISS_GROUP)" --season "$(SWISS_SEASON_SLUG)" --phase "$(PHASE)"
+
+refresh-switzerland-playoffs:
+	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --season "$(SWISS_PLAYOFFS_SLUG)" --phase "playoffs"
+
+refresh-finland:
+	"$(PYTHON)" -m src.pipeline --backend finland --finland_schedule_url "$(FINLAND_SCHEDULE_URL)" --season "$(FINLAND_SEASON)" --phase "$(PHASE)"
+
+refresh-czech:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)"
+
+refresh-all-leagues:
+	$(MAKE) refresh-current-season
+	$(MAKE) refresh-sweden
+	$(MAKE) refresh-switzerland
+	$(MAKE) refresh-switzerland-playoffs
+	$(MAKE) refresh-finland
+	$(MAKE) refresh-czech
+	$(MAKE) html
+
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland refresh-czech refresh-all-leagues

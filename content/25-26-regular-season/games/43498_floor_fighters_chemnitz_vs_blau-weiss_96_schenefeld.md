@@ -6,6 +6,26 @@ type: game
 game_id: 43498
 home_team: Floor Fighters Chemnitz
 away_team: Blau-Weiß 96 Schenefeld
+start_time: 16:00
+result_string: 9:1
+ingame_status: period3
+timeline_minutes_csv: 0.0,2.83,17.82,21.03,28.45,29.03,31.42,49.65,55.53,57.62,58.48
+timeline_diffs_csv: 0,1,2,3,4,5,4,5,6,7,8
+timeline_home_goals_csv: 0,1,2,3,4,5,5,6,7,8,9
+timeline_away_goals_csv: 0,0,0,0,0,0,1,1,1,1,1
+home_goal_minutes_csv: 2.83,17.82,21.03,28.45,29.03,49.65,55.53,57.62,58.48
+home_goal_diffs_csv: 1,2,3,4,5,5,6,7,8
+away_goal_minutes_csv: 31.42
+away_goal_diffs_csv: 4
+home_penalty_minutes_csv: 42.98,58.15
+home_penalty_goals_csv: 5,8
+home_penalty_ends_csv: 44.98,60.15
+away_penalty_minutes_csv: 31.98,55.23
+away_penalty_goals_csv: 1,1
+away_penalty_ends_csv: 33.98,55.53
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 56.45
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 3
 home_points_after_59_min: 3
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 3
+home_points_more_2_difference: 3
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 0
 home_penalty_third_period: 2
 home_penalty_overtime: 0
-home_leading_goals: 1
+home_take_the_lead_goals: 1
 home_equalizer_goals: 0
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 0
@@ -75,10 +94,10 @@ home_goals_against_home: 1
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 0
-home_points_against_blau-weiss_96_schenefeld: 3
+home_points_against_blau_weiss_96_schenefeld: 3
 home_powerplay_efficiency: 66.67
 home_boxplay_efficiency: 100.0
 home_penalties: 2
@@ -122,8 +141,7 @@ away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 2
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 0
 away_equalizer_goals: 0
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 2
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 9
 away_home_points: 0
 away_away_points: 0
-away_leading_goals_against: 1
+away_take_the_lead_goals_against: 1
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 1
 away_points_against_floor_fighters_chemnitz: 0

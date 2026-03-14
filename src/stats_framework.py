@@ -97,4 +97,4 @@ if __name__ == "__main__":
     print('Playoff Stats:', [t.stats for t in playoff_stats])
     print('Playdown Stats:', [t.stats for t in playdown_stats])
     print('Top4 Stats:', [t.stats for t in top4_stats])
-    print('Ligaschnitt:', engine.aggregate_stats(all_stats))
+print('League Average:', engine.aggregate_stats(all_stats))

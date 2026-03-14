@@ -2,7 +2,7 @@
     <div class="team-sides">
         <div class="side-team home">
             <p class="side-name">{{ article.home_team }}</p>
-            <p class="side-meta">Punkte: {{ article.home_points|default('–') }}</p>
+            <p class="side-meta">Points: {{ article.home_points|default('–') }}</p>
         </div>
         <div class="score-stack">
             <div class="hero-score">{{ article.home_goals|default('–') }} : {{ article.away_goals|default('–') }}</div>
@@ -20,31 +20,31 @@
         </div>
         <div class="side-team away">
             <p class="side-name">{{ article.away_team }}</p>
-            <p class="side-meta">Punkte: {{ article.away_points|default('–') }}</p>
+            <p class="side-meta">Points: {{ article.away_points|default('–') }}</p>
         </div>
     </div>
     <div class="chip-row">
-        <span class="chip">Spiel-ID: {{ article.game_id|default('n.a.') }}</span>
-        <span class="chip">Datum: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
+        <span class="chip">Game ID: {{ article.game_id|default('n.a.') }}</span>
+        <span class="chip">Date: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
     </div>
 </section>
 
 <section class="kpi-grid">
     <article class="kpi">
-        <p class="kpi-label">Powerplay Effizienz</p>
+        <p class="kpi-label">Power play efficiency</p>
         <p class="kpi-value">{{ article.home_powerplay_efficiency|default('–') }} / {{ article.away_powerplay_efficiency|default('–') }}</p>
     </article>
     <article class="kpi">
-        <p class="kpi-label">Boxplay Effizienz</p>
+        <p class="kpi-label">Penalty kill efficiency</p>
         <p class="kpi-value">{{ article.home_boxplay_efficiency|default('–') }} / {{ article.away_boxplay_efficiency|default('–') }}</p>
     </article>
     <article class="kpi">
-        <p class="kpi-label">Strafen</p>
+        <p class="kpi-label">Penalties</p>
         <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
     </article>
     <article class="kpi">
-        <p class="kpi-label">Knappes Spiel Punkte</p>
-        <p class="kpi-value">{{ article.home_points_max_difference_3|default('–') }} / {{ article.away_points_max_difference_3|default('–') }}</p>
+        <p class="kpi-label">Points in Games <=2 Goal Diff</p>
+        <p class="kpi-value">{{ article.home_points_max_difference_2|default('–') }} / {{ article.away_points_max_difference_2|default('–') }}</p>
     </article>
     <article class="kpi">
         <p class="kpi-label">Shootout W/L</p>
@@ -56,40 +56,53 @@
     <article class="panel">
         <h2 class="panel-title">Special Teams</h2>
         <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Powerplays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Powerplay Tore</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Boxplays</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Gegentore in Boxplay</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
+            <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Power plays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Power play goals</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Penalty kills</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Goals against on PK</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
         </table>
     </article>
 
     <article class="panel">
-        <h2 class="panel-title">Spielverlauf</h2>
+        <h2 class="panel-title">Game Flow</h2>
         <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Kennzahl</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_leading_goals|default('–') }}</td><td class="value-label">Führungstore</td><td class="value-away">{{ article.away_leading_goals|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Ausgleichstore</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">Erstes Tor</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Knappes Spiel gewonnen</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Knappes Spiel verloren</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
+            <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_take_the_lead_goals|default('–') }}</td><td class="value-label">Take the Lead</td><td class="value-away">{{ article.away_take_the_lead_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Equalizers</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">First goal</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Close game won</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Close game lost</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
         </table>
     </article>
 
     <article class="panel">
-        <h2 class="panel-title">Strafen</h2>
+        <h2 class="panel-title">Penalties</h2>
         <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Typ</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 Minuten</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 Minuten</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 Minuten</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Matchstrafe</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
+            <tr><th class="value-home">Home</th><th class="value-label">Type</th><th class="value-away">Away</th></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 minutes</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 minutes</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 minutes</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
+            <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Match penalty</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
         </table>
     </article>
 
     <article class="panel">
-        <h2 class="panel-title">Tore Pro Drittel</h2>
+        <h2 class="panel-title">Goals per period</h2>
         <canvas id="goalsPerPeriodChart"></canvas>
+    </article>
+
+    <article class="panel panel-wide panel-timeline">
+        <h2 class="panel-title">Gameflow Graph</h2>
+        <div class="timeline-chart-wrap">
+            <canvas id="scoreTimelineChart"></canvas>
+        </div>
+        <div class="penalty-strip-wrap">
+            <canvas id="penaltyTimelineChart"></canvas>
+        </div>
+        <p class="timeline-note">
+            Note: 10-minute and match penalties are displayed as X markers (Home: {{ article.home_penalty_10|default(0) }} + {{ article.home_penalty_ms|default(0) }}, Away: {{ article.away_penalty_10|default(0) }} + {{ article.away_penalty_ms|default(0) }}).
+        </p>
     </article>
 </section>
 
@@ -99,7 +112,7 @@ if (goalsPerPeriodChart) {
   new Chart(goalsPerPeriodChart.getContext('2d'), {
     type: 'bar',
     data: {
-      labels: ['1. Drittel', '2. Drittel', '3. Drittel', 'OT'],
+      labels: ['1st period', '2nd period', '3rd period', 'OT'],
       datasets: [
         {
           label: '{{ article.home_team }}',
@@ -128,6 +141,256 @@ if (goalsPerPeriodChart) {
       plugins: { legend: { position: 'bottom' } },
       scales: {
         y: { beginAtZero: true, ticks: { precision: 0 } }
+      }
+    }
+  });
+}
+
+const parseCsvNumbers = (raw) => {
+  return String(raw || '')
+    .split(',')
+    .map((x) => x.trim())
+    .filter((x) => x.length > 0)
+    .map((x) => Number(x))
+    .filter((x) => Number.isFinite(x));
+};
+
+const timelineChart = document.getElementById('scoreTimelineChart');
+const penaltyChart = document.getElementById('penaltyTimelineChart');
+if (timelineChart && penaltyChart) {
+  const maxMinute = Number("{{ article.timeline_max_minute|default(60) }}") || 60;
+  const minutes = parseCsvNumbers("{{ article.timeline_minutes_csv|default('0') }}");
+  const homeGoals = parseCsvNumbers("{{ article.timeline_home_goals_csv|default('0') }}");
+  const awayGoals = parseCsvNumbers("{{ article.timeline_away_goals_csv|default('0') }}");
+  const homePenaltyMinutes = parseCsvNumbers("{{ article.home_penalty_minutes_csv|default('') }}");
+  const homePenaltyEnds = parseCsvNumbers("{{ article.home_penalty_ends_csv|default('') }}");
+  const awayPenaltyMinutes = parseCsvNumbers("{{ article.away_penalty_minutes_csv|default('') }}");
+  const awayPenaltyEnds = parseCsvNumbers("{{ article.away_penalty_ends_csv|default('') }}");
+  const homeMajorPenaltyMinutes = parseCsvNumbers("{{ article.home_major_penalty_minutes_csv|default('') }}");
+  const awayMajorPenaltyMinutes = parseCsvNumbers("{{ article.away_major_penalty_minutes_csv|default('') }}");
+
+  const homeSeries = minutes.map((x, i) => ({ x, y: homeGoals[i] ?? 0 }));
+  const awaySeries = minutes.map((x, i) => ({ x, y: awayGoals[i] ?? 0 }));
+  const homePenaltyStartSeries = homePenaltyMinutes.map((x) => ({ x, y: 1 }));
+  const awayPenaltyStartSeries = awayPenaltyMinutes.map((x) => ({ x, y: 0 }));
+  const homePenaltyEndSeries = homePenaltyEnds.map((x) => ({ x, y: 1 }));
+  const awayPenaltyEndSeries = awayPenaltyEnds.map((x) => ({ x, y: 0 }));
+  const homeMajorPenaltySeries = homeMajorPenaltyMinutes.map((x) => ({ x, y: 1 }));
+  const awayMajorPenaltySeries = awayMajorPenaltyMinutes.map((x) => ({ x, y: 0 }));
+
+  const periodBandsPlugin = {
+    id: 'periodBands',
+    beforeDatasetsDraw(chart) {
+      const { ctx, scales: { x, y } } = chart;
+      const bands = [
+        [0, 20, 'rgba(15, 76, 129, 0.03)'],
+        [20, 40, 'rgba(15, 76, 129, 0.06)'],
+        [40, 60, 'rgba(15, 76, 129, 0.03)'],
+      ];
+      ctx.save();
+      bands.forEach(([start, end, color]) => {
+        const xStart = x.getPixelForValue(start);
+        const xEnd = x.getPixelForValue(end);
+        ctx.fillStyle = color;
+        ctx.fillRect(xStart, y.top, xEnd - xStart, y.bottom - y.top);
+      });
+      ctx.restore();
+    }
+  };
+
+  const periodLinesPlugin = {
+    id: 'periodLines',
+    afterDraw(chart) {
+      const { ctx, scales: { x, y } } = chart;
+      [20, 40, 60].forEach((m) => {
+        const xp = x.getPixelForValue(m);
+        if (xp < x.left || xp > x.right) return;
+        ctx.save();
+        ctx.setLineDash([4, 4]);
+        ctx.strokeStyle = 'rgba(100, 116, 139, 0.45)';
+        ctx.beginPath();
+        ctx.moveTo(xp, y.top);
+        ctx.lineTo(xp, y.bottom);
+        ctx.stroke();
+        ctx.restore();
+      });
+    }
+  };
+
+  const penaltyWindowsPlugin = {
+    id: 'penaltyWindows',
+    afterDatasetsDraw(chart) {
+      const { ctx, scales: { x, y } } = chart;
+      const drawWindows = (starts, ends, row, color) => {
+        starts.forEach((start, idx) => {
+          const end = Number.isFinite(ends[idx]) ? ends[idx] : (start + 2);
+          const xStart = x.getPixelForValue(start);
+          const xEnd = x.getPixelForValue(end);
+          const yRow = y.getPixelForValue(row);
+          ctx.save();
+          ctx.strokeStyle = color;
+          ctx.lineWidth = 4;
+          ctx.lineCap = 'round';
+          ctx.beginPath();
+          ctx.moveTo(xStart, yRow);
+          ctx.lineTo(xEnd, yRow);
+          ctx.stroke();
+          ctx.restore();
+        });
+      };
+
+      drawWindows(homePenaltyMinutes, homePenaltyEnds, 1, 'rgba(15, 76, 129, 0.75)');
+      drawWindows(awayPenaltyMinutes, awayPenaltyEnds, 0, 'rgba(198, 40, 40, 0.75)');
+    }
+  };
+
+  new Chart(timelineChart.getContext('2d'), {
+    type: 'line',
+    data: {
+      datasets: [
+        {
+          label: '{{ article.home_team }}',
+          data: homeSeries,
+          borderColor: '#0f4c81',
+          backgroundColor: '#0f4c81',
+          stepped: true,
+          pointRadius: 0,
+          borderWidth: 3,
+          tension: 0
+        },
+        {
+          label: '{{ article.away_team }}',
+          data: awaySeries,
+          borderColor: '#c62828',
+          backgroundColor: '#c62828',
+          stepped: true,
+          pointRadius: 0,
+          borderWidth: 3,
+          tension: 0
+        }
+      ]
+    },
+    plugins: [periodBandsPlugin, periodLinesPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom' } },
+      scales: {
+        x: {
+          type: 'linear',
+          title: { display: true, text: 'Minute' },
+          min: 0,
+          max: maxMinute,
+          grid: { color: 'rgba(148, 163, 184, 0.2)' }
+        },
+        y: {
+          title: { display: true, text: 'Cumulative goals' },
+          beginAtZero: true,
+          ticks: { precision: 0 },
+          afterFit: (scale) => {
+            scale.width = 90;
+          }
+        }
+      }
+    }
+  });
+
+  const penaltyDatasets = [];
+  if (homePenaltyStartSeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.home_team }} penalties start',
+      data: homePenaltyStartSeries,
+      borderColor: '#0f4c81',
+      backgroundColor: '#0f4c81',
+      pointRadius: 4,
+      pointStyle: 'circle'
+    });
+  }
+  if (awayPenaltyStartSeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.away_team }} penalties start',
+      data: awayPenaltyStartSeries,
+      borderColor: '#c62828',
+      backgroundColor: '#c62828',
+      pointRadius: 4,
+      pointStyle: 'circle'
+    });
+  }
+  if (homePenaltyEndSeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.home_team }} penalties end',
+      data: homePenaltyEndSeries,
+      borderColor: '#0f4c81',
+      backgroundColor: '#0f4c81',
+      pointRadius: 4,
+      pointStyle: 'circle'
+    });
+  }
+  if (awayPenaltyEndSeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.away_team }} penalties end',
+      data: awayPenaltyEndSeries,
+      borderColor: '#c62828',
+      backgroundColor: '#c62828',
+      pointRadius: 4,
+      pointStyle: 'circle'
+    });
+  }
+  if (homeMajorPenaltySeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.home_team }} 10/MS',
+      data: homeMajorPenaltySeries,
+      borderColor: '#0f4c81',
+      backgroundColor: '#0f4c81',
+      pointRadius: 6,
+      pointStyle: 'crossRot'
+    });
+  }
+  if (awayMajorPenaltySeries.length) {
+    penaltyDatasets.push({
+      label: '{{ article.away_team }} 10/MS',
+      data: awayMajorPenaltySeries,
+      borderColor: '#c62828',
+      backgroundColor: '#c62828',
+      pointRadius: 6,
+      pointStyle: 'crossRot'
+    });
+  }
+
+  new Chart(penaltyChart.getContext('2d'), {
+    type: 'scatter',
+    data: {
+      datasets: penaltyDatasets
+    },
+    plugins: [periodBandsPlugin, periodLinesPlugin, penaltyWindowsPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          type: 'linear',
+          min: 0,
+          max: maxMinute,
+          title: { display: true, text: 'Penalty timeline' },
+          grid: { color: 'rgba(148, 163, 184, 0.2)' }
+        },
+        y: {
+          min: -0.5,
+          max: 1.5,
+          ticks: {
+            stepSize: 1,
+            callback: (value) => {
+              if (value === 1) return 'Home';
+              if (value === 0) return 'Away';
+              return '';
+            }
+          },
+          afterFit: (scale) => {
+            scale.width = 90;
+          },
+          grid: { display: false }
+        }
       }
     }
   });

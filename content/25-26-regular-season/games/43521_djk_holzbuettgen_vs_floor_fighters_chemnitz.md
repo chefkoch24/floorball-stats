@@ -6,6 +6,26 @@ type: game
 game_id: 43521
 home_team: DJK Holzbüttgen
 away_team: Floor Fighters Chemnitz
+start_time: 18:30
+result_string: 6:5 n. PS
+ingame_status: penalty_shots
+timeline_minutes_csv: 0.0,11.23,11.73,13.13,20.85,21.0,29.05,32.32,49.45,51.2,55.45
+timeline_diffs_csv: 0,1,0,-1,0,1,0,1,0,1,0
+timeline_home_goals_csv: 0,1,1,1,2,3,3,4,4,5,5
+timeline_away_goals_csv: 0,0,1,2,2,2,3,3,4,4,5
+home_goal_minutes_csv: 11.23,20.85,21.0,32.32,51.2
+home_goal_diffs_csv: 1,0,1,1,1
+away_goal_minutes_csv: 11.73,13.13,29.05,49.45,55.45
+away_goal_diffs_csv: 0,-1,0,0,0
+home_penalty_minutes_csv: 12.88,53.23
+home_penalty_goals_csv: 1,5
+home_penalty_ends_csv: 13.13,55.23
+away_penalty_minutes_csv: 19.32,46.37,50.45
+away_penalty_goals_csv: 2,3,4
+away_penalty_ends_csv: 20.85,48.37,51.2
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 70.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 1
 home_points_after_59_min: 1
 home_win_1: 1
 home_loss_1: 0
-home_points_max_difference_3: 2
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 1
 home_close_game_loss: 0
 home_close_game_overtime: 1
@@ -61,7 +80,7 @@ home_penalty_first_period: 1
 home_penalty_second_period: 0
 home_penalty_third_period: 1
 home_penalty_overtime: 0
-home_leading_goals: 5
+home_take_the_lead_goals: 4
 home_equalizer_goals: 1
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 2
@@ -75,7 +94,7 @@ home_goals_against_home: 5
 home_goals_against_away: 0
 home_home_points: 2
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 4
 home_first_goal_of_match_against: 0
 home_points_against_floor_fighters_chemnitz: 2
@@ -122,8 +141,7 @@ away_points_after_58_min: 1
 away_points_after_59_min: 1
 away_win_1: 0
 away_loss_1: 1
-away_points_max_difference_3: 1
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 1
 away_close_game_overtime: 1
@@ -137,7 +155,7 @@ away_penalty_first_period: 1
 away_penalty_second_period: 0
 away_penalty_third_period: 2
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 1
 away_equalizer_goals: 4
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 1
@@ -151,10 +169,10 @@ away_goals_against_home: 0
 away_goals_against_away: 6
 away_home_points: 0
 away_away_points: 1
-away_leading_goals_against: 5
+away_take_the_lead_goals_against: 4
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 1
-away_points_against_djk_holzbuettgen: 1
+away_points_against_djk_holzbuttgen: 1
 away_powerplay_efficiency: 50.0
 away_boxplay_efficiency: 33.33
 away_penalties: 3

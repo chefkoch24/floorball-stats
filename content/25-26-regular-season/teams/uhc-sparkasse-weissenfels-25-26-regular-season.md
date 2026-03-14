@@ -1,4 +1,4 @@
-Date: 2026-03-08
+Date: 2026-03-14
 Title: UHC Sparkasse Weißenfels
 Category: 25-26-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-25-26-regular-season-25-26-regular-season
@@ -45,8 +45,7 @@ points_after_58_min: 34
 points_after_59_min: 35
 win_1: 4
 loss_1: 2
-points_max_difference_3: 15
-points_more_3_difference: 24
+points_more_2_difference: 24
 close_game_win: 5
 close_game_loss: 3
 close_game_overtime: 2
@@ -60,7 +59,7 @@ penalty_first_period: 7
 penalty_second_period: 15
 penalty_third_period: 12
 penalty_overtime: 0
-leading_goals: 18
+take_the_lead_goals: 25
 equalizer_goals: 18
 first_goal_of_match: 6
 goals_in_first_period_against: 26
@@ -74,7 +73,7 @@ goals_against_home: 50
 goals_against_away: 39
 home_points: 17
 away_points: 22
-leading_goals_against: 15
+take_the_lead_goals_against: 23
 equalizer_goals_against: 12
 first_goal_of_match_against: 12
 Tags:  ETV Piranhhas Hamburg: 6,  DJK Holzbüttgen: 3,  SSF Dragons Bonn: 5,  Blau-Weiß 96 Schenefeld: 6,  MFBC Leipzig: 3,  SC DHfK Leipzig: 4,  Berlin Rockets: 6,  Floor Fighters Chemnitz: 0,  SC Potsdam: 3,  Unihockey Igels Dresden: 3,

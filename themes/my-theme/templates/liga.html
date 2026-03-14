@@ -2,37 +2,37 @@
     <div class="hero-top">
         <div>
             <h1 class="hero-title">{{ article.title }}</h1>
-            <p class="hero-subtitle">Ligaweite Durchschnittswerte mit Fokus auf Scoring, Special Teams und Spielverlauf.</p>
+            <p class="hero-subtitle">League-wide averages focused on scoring, special teams, and game flow.</p>
         </div>
     </div>
     <div class="chip-row">
-        <span class="chip">Spiele je Team: {{ article.games|default('–') }}</span>
-        <span class="chip">Punkte/Spiel: {{ article.points_per_game|default('–') }}</span>
+        <span class="chip">Games per team: {{ article.games|default('–') }}</span>
+        <span class="chip">Points/Game: {{ article.points_per_game|default('–') }}</span>
         <span class="chip">Scoring Ratio: {{ article.scoring_ratio|default('–') }}</span>
     </div>
 </section>
 
 <section class="kpi-grid">
-    <article class="kpi"><p class="kpi-label">Punkte/Spiel</p><p class="kpi-value">{{ article.points_per_game|default('–') }}</p></article>
-    <article class="kpi"><p class="kpi-label">Tore/Spiel</p><p class="kpi-value">{{ article.goals_per_game|default('–') }}</p></article>
-    <article class="kpi"><p class="kpi-label">Gegentore/Spiel</p><p class="kpi-value">{{ article.goals_against_per_game|default('–') }}</p></article>
-    <article class="kpi"><p class="kpi-label">Diff/Spiel</p><p class="kpi-value">{{ article.goal_difference_per_game|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Points/Game</p><p class="kpi-value">{{ article.points_per_game|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Goals/Game</p><p class="kpi-value">{{ article.goals_per_game|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Goals Against/Game</p><p class="kpi-value">{{ article.goals_against_per_game|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Diff/Game</p><p class="kpi-value">{{ article.goal_difference_per_game|default('–') }}</p></article>
     <article class="kpi"><p class="kpi-label">Powerplay %</p><p class="kpi-value">{{ article.powerplay_efficiency|default('–') }}</p></article>
     <article class="kpi"><p class="kpi-label">Boxplay %</p><p class="kpi-value">{{ article.boxplay_efficiency|default('–') }}</p></article>
-    <article class="kpi"><p class="kpi-label">Siege</p><p class="kpi-value">{{ article.wins|default('–') }}</p></article>
-    <article class="kpi"><p class="kpi-label">Niederlagen</p><p class="kpi-value">{{ article.losses|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Wins</p><p class="kpi-value">{{ article.wins|default('–') }}</p></article>
+    <article class="kpi"><p class="kpi-label">Losses</p><p class="kpi-value">{{ article.losses|default('–') }}</p></article>
 </section>
 
 <section class="section-grid">
     <article class="panel">
-        <h2 class="panel-title">Scoring-Verteilung</h2>
+        <h2 class="panel-title">Scoring Distribution</h2>
         <div class="table-wrapper">
             <table class="data-table">
                 <tbody>
-                <tr><td>Tore gesamt</td><td>{{ article.goals|default('–') }}</td></tr>
-                <tr><td>1. Drittel (%)</td><td>{{ article.percent_goals_first_period|default('–') }}</td></tr>
-                <tr><td>2. Drittel (%)</td><td>{{ article.percent_goals_second_period|default('–') }}</td></tr>
-                <tr><td>3. Drittel (%)</td><td>{{ article.percent_goals_third_period|default('–') }}</td></tr>
+                <tr><td>Total goals</td><td>{{ article.goals|default('–') }}</td></tr>
+                <tr><td>1st period (%)</td><td>{{ article.percent_goals_first_period|default('–') }}</td></tr>
+                <tr><td>2nd period (%)</td><td>{{ article.percent_goals_second_period|default('–') }}</td></tr>
+                <tr><td>3rd period (%)</td><td>{{ article.percent_goals_third_period|default('–') }}</td></tr>
                 <tr><td>Overtime (%)</td><td>{{ article.percent_goals_overtime|default('–') }}</td></tr>
                 </tbody>
             </table>
@@ -44,26 +44,26 @@
         <div class="table-wrapper">
             <table class="data-table">
                 <tbody>
-                <tr><td>Powerplays pro Spiel</td><td>{{ article.powerplay_per_game|default('–') }}</td></tr>
-                <tr><td>Boxplays pro Spiel</td><td>{{ article.boxplay_per_game|default('–') }}</td></tr>
-                <tr><td>Powerplay Tore</td><td>{{ article.goals_in_powerplay|default('–') }}</td></tr>
-                <tr><td>Gegentore in Boxplay</td><td>{{ article.goals_against_in_boxplay|default('–') }}</td></tr>
-                <tr><td>Shorthanded Tore</td><td>{{ article.goals_in_boxplay|default('–') }}</td></tr>
+                <tr><td>Power plays per game</td><td>{{ article.powerplay_per_game|default('–') }}</td></tr>
+                <tr><td>Box plays per game</td><td>{{ article.boxplay_per_game|default('–') }}</td></tr>
+                <tr><td>Power play goals</td><td>{{ article.goals_in_powerplay|default('–') }}</td></tr>
+                <tr><td>Goals against on PK</td><td>{{ article.goals_against_in_boxplay|default('–') }}</td></tr>
+                <tr><td>Shorthanded goals</td><td>{{ article.goals_in_boxplay|default('–') }}</td></tr>
                 </tbody>
             </table>
         </div>
     </article>
 
     <article class="panel">
-        <h2 class="panel-title">Ergebnisprofil</h2>
+        <h2 class="panel-title">Result Profile</h2>
         <div class="table-wrapper">
             <table class="data-table">
                 <tbody>
-                <tr><td>Siege</td><td>{{ article.wins|default('–') }}</td></tr>
-                <tr><td>Niederlagen</td><td>{{ article.losses|default('–') }}</td></tr>
-                <tr><td>OT Siege</td><td>{{ article.over_time_wins|default('–') }}</td></tr>
-                <tr><td>OT Niederlagen</td><td>{{ article.over_time_losses|default('–') }}</td></tr>
-                <tr><td>Knappes Spiel (OT)</td><td>{{ article.close_game_overtime|default('–') }}</td></tr>
+                <tr><td>Wins</td><td>{{ article.wins|default('–') }}</td></tr>
+                <tr><td>Losses</td><td>{{ article.losses|default('–') }}</td></tr>
+                <tr><td>OT Wins</td><td>{{ article.over_time_wins|default('–') }}</td></tr>
+                <tr><td>OT Losses</td><td>{{ article.over_time_losses|default('–') }}</td></tr>
+                <tr><td>Close game (OT)</td><td>{{ article.close_game_overtime|default('–') }}</td></tr>
                 </tbody>
             </table>
         </div>

@@ -41,7 +41,7 @@ home_penalty_2: 0
 home_penalty_2and2: 0
 home_penalty_10: 0
 home_penalty_ms: 0
-home_leading_goals: 0
+home_take_the_lead_goals: 0
 home_equalizer_goals: 0
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 2
@@ -89,7 +89,7 @@ away_penalty_2: 0
 away_penalty_2and2: 0
 away_penalty_10: 0
 away_penalty_ms: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 0
 away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 0

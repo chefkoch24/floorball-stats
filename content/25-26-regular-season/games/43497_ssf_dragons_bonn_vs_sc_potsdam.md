@@ -6,6 +6,26 @@ type: game
 game_id: 43497
 home_team: SSF Dragons Bonn
 away_team: SC Potsdam
+start_time: 16:00
+result_string: 11:3
+ingame_status: period3
+timeline_minutes_csv: 0.0,3.18,10.3,17.38,18.03,21.23,31.15,31.52,34.48,38.27,53.63,55.07,55.58,56.17,59.85
+timeline_diffs_csv: 0,1,0,1,2,3,4,3,4,5,6,5,6,7,8
+timeline_home_goals_csv: 0,1,1,2,3,4,5,5,6,7,8,8,9,10,11
+timeline_away_goals_csv: 0,0,1,1,1,1,1,2,2,2,2,3,3,3,3
+home_goal_minutes_csv: 3.18,17.38,18.03,21.23,31.15,34.48,38.27,53.63,55.58,56.17,59.85
+home_goal_diffs_csv: 1,1,2,3,4,4,5,6,6,7,8
+away_goal_minutes_csv: 10.3,31.52,55.07
+away_goal_diffs_csv: 0,3,5
+home_penalty_minutes_csv: 
+home_penalty_goals_csv: 
+home_penalty_ends_csv: 
+away_penalty_minutes_csv: 39.6,59.12
+away_penalty_goals_csv: 2,3
+away_penalty_ends_csv: 41.6,59.85
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 3
 home_points_after_59_min: 3
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 3
+home_points_more_2_difference: 3
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 0
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 2
+home_take_the_lead_goals: 2
 home_equalizer_goals: 0
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 3
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 0
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 0
 home_points_against_sc_potsdam: 3
@@ -122,8 +141,7 @@ away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 0
 away_equalizer_goals: 1
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 3
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 11
 away_home_points: 0
 away_away_points: 0
-away_leading_goals_against: 2
+away_take_the_lead_goals_against: 2
 away_equalizer_goals_against: 0
 away_first_goal_of_match_against: 1
 away_points_against_ssf_dragons_bonn: 0

@@ -6,6 +6,26 @@ type: game
 game_id: 43511
 home_team: Unihockey Igels Dresden
 away_team: UHC Sparkasse Weißenfels
+start_time: 18:00
+result_string: 3:10
+ingame_status: period3
+timeline_minutes_csv: 0.0,1.98,13.72,24.27,25.37,27.3,38.97,39.85,50.98,51.25,54.83,57.22,58.07,59.8
+timeline_diffs_csv: 0,-1,0,-1,-2,-3,-2,-3,-2,-3,-4,-5,-6,-7
+timeline_home_goals_csv: 0,0,1,1,1,1,2,2,3,3,3,3,3,3
+timeline_away_goals_csv: 0,1,1,2,3,4,4,5,5,6,7,8,9,10
+home_goal_minutes_csv: 13.72,38.97,50.98
+home_goal_diffs_csv: 0,-2,-2
+away_goal_minutes_csv: 1.98,24.27,25.37,27.3,39.85,51.25,54.83,57.22,58.07,59.8
+away_goal_diffs_csv: -1,-1,-2,-3,-3,-3,-4,-5,-6,-7
+home_penalty_minutes_csv: 28.93,37.95
+home_penalty_goals_csv: 1,1
+home_penalty_ends_csv: 30.93,39.85
+away_penalty_minutes_csv: 23.65,31.35
+away_penalty_goals_csv: 1,4
+away_penalty_ends_csv: 25.65,33.35
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_win_1: 0
 home_loss_1: 0
-home_points_max_difference_3: 0
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 0
 home_penalty_second_period: 2
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 0
+home_take_the_lead_goals: 0
 home_equalizer_goals: 1
 home_first_goal_of_match: 0
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 10
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
-home_leading_goals_against: 0
+home_take_the_lead_goals_against: 2
 home_equalizer_goals_against: 0
 home_first_goal_of_match_against: 1
 home_points_against_uhc_sparkasse_weissenfels: 0
@@ -122,8 +141,7 @@ away_points_after_58_min: 3
 away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 0
-away_points_max_difference_3: 0
-away_points_more_3_difference: 3
+away_points_more_2_difference: 3
 away_close_game_win: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 2
 away_penalty_third_period: 0
 away_penalty_overtime: 0
-away_leading_goals: 0
+away_take_the_lead_goals: 2
 away_equalizer_goals: 0
 away_first_goal_of_match: 1
 away_goals_in_first_period_against: 1
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 3
 away_home_points: 0
 away_away_points: 3
-away_leading_goals_against: 0
+away_take_the_lead_goals_against: 0
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 0
 away_points_against_unihockey_igels_dresden: 3

@@ -1,0 +1,13 @@
+{
+  "backend": "switzerland",
+  "season": "ch-25-26",
+  "phase": "regular-season",
+  "swiss": {
+    "league": 24,
+    "season": 2025,
+    "game_class": 11,
+    "group": "Gruppe 1",
+    "mode": "list",
+    "start_round": 114332
+  }
+}

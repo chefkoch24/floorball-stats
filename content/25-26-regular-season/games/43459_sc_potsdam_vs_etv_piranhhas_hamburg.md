@@ -6,6 +6,26 @@ type: game
 game_id: 43459
 home_team: SC Potsdam
 away_team: ETV Piranhhas Hamburg
+start_time: 16:00
+result_string: 10:9
+ingame_status: period3
+timeline_minutes_csv: 0.0,6.9,7.68,9.03,12.03,14.1,20.35,22.82,23.3,25.7,33.83,35.03,42.12,47.0,48.48,49.62,53.55,55.75,59.4,59.98
+timeline_diffs_csv: 0,1,2,3,2,3,2,1,0,-1,-2,-3,-2,-3,-4,-3,-2,-1,0,1
+timeline_home_goals_csv: 0,1,2,3,3,4,4,4,4,4,4,4,5,5,5,6,7,8,9,10
+timeline_away_goals_csv: 0,0,0,0,1,1,2,3,4,5,6,7,7,8,9,9,9,9,9,9
+home_goal_minutes_csv: 6.9,7.68,9.03,14.1,42.12,49.62,53.55,55.75,59.4,59.98
+home_goal_diffs_csv: 1,2,3,3,-2,-3,-2,-1,0,1
+away_goal_minutes_csv: 12.03,20.35,22.82,23.3,25.7,33.83,35.03,47.0,48.48
+away_goal_diffs_csv: 2,2,1,0,-1,-2,-3,-3,-4
+home_penalty_minutes_csv: 14.73,19.13
+home_penalty_goals_csv: 4,4
+home_penalty_ends_csv: 16.73,20.35
+away_penalty_minutes_csv: 50.2,53.08
+away_penalty_goals_csv: 9,9
+away_penalty_ends_csv: 52.2,53.55
+home_major_penalty_minutes_csv: 
+away_major_penalty_minutes_csv: 
+timeline_max_minute: 60.0
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -46,8 +66,7 @@ home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_win_1: 1
 home_loss_1: 0
-home_points_max_difference_3: 3
-home_points_more_3_difference: 0
+home_points_more_2_difference: 0
 home_close_game_win: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -61,7 +80,7 @@ home_penalty_first_period: 2
 home_penalty_second_period: 0
 home_penalty_third_period: 0
 home_penalty_overtime: 0
-home_leading_goals: 2
+home_take_the_lead_goals: 2
 home_equalizer_goals: 1
 home_first_goal_of_match: 1
 home_goals_in_first_period_against: 1
@@ -75,7 +94,7 @@ home_goals_against_home: 9
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
-home_leading_goals_against: 1
+home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 0
 home_points_against_etv_piranhhas_hamburg: 3
@@ -122,8 +141,7 @@ away_points_after_58_min: 3
 away_points_after_59_min: 3
 away_win_1: 0
 away_loss_1: 1
-away_points_max_difference_3: 0
-away_points_more_3_difference: 0
+away_points_more_2_difference: 0
 away_close_game_win: 0
 away_close_game_loss: 1
 away_close_game_overtime: 0
@@ -137,7 +155,7 @@ away_penalty_first_period: 0
 away_penalty_second_period: 0
 away_penalty_third_period: 2
 away_penalty_overtime: 0
-away_leading_goals: 1
+away_take_the_lead_goals: 1
 away_equalizer_goals: 1
 away_first_goal_of_match: 0
 away_goals_in_first_period_against: 4
@@ -151,7 +169,7 @@ away_goals_against_home: 0
 away_goals_against_away: 10
 away_home_points: 0
 away_away_points: 0
-away_leading_goals_against: 2
+away_take_the_lead_goals_against: 2
 away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 1
 away_points_against_sc_potsdam: 0
