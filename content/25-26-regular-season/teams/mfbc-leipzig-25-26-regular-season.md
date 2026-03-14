@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: MFBC Leipzig
 Category: 25-26-regular-season, teams
 Slug: mfbc-leipzig-25-26-regular-season-25-26-regular-season

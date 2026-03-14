@@ -11,6 +11,15 @@ def _slugify(value: str) -> str:
     return value
 
 
+def _write_if_changed(path: Path, content: str) -> bool:
+    if path.exists():
+        existing = path.read_text(encoding="utf-8")
+        if existing == content:
+            return False
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
 def generate_markdown_files(
     game_stats_path: str,
     team_stats_path: str,
@@ -38,8 +47,7 @@ def generate_markdown_files(
     for gs in game_stats:
         title = _slugify(f"{gs['game_id']}_{gs['home_team']}_vs_{gs['away_team']}")
         md = dict_to_markdown_game_stats(gs, title, season, phase)
-        with open(games_out / f"{title}.md", "w", encoding="utf-8") as f:
-            f.write(md)
+        _write_if_changed(games_out / f"{title}.md", md)
         games_written += 1
 
     with open(team_stats_path, "r", encoding="utf-8") as f:
@@ -49,8 +57,7 @@ def generate_markdown_files(
     for team, stats in team_stats.items():
         title = _slugify(f"{team}-{season}-{phase}".replace(" ", "-"))
         md = dict_to_markdown_team_stats(stats, team, season, phase)
-        with open(teams_out / f"{title}.md", "w", encoding="utf-8") as f:
-            f.write(md)
+        _write_if_changed(teams_out / f"{title}.md", md)
         teams_written += 1
 
     with open(league_stats_path, "r", encoding="utf-8") as f:
@@ -60,8 +67,7 @@ def generate_markdown_files(
     league_title = "League Average"
     league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase)
     league_slug = _slugify(f"{league_title}-{season}-{phase}")
-    with open(liga_out / f"{league_slug}.md", "w", encoding="utf-8") as f:
-        f.write(league_md)
+    _write_if_changed(liga_out / f"{league_slug}.md", league_md)
     league_written += 1
 
     def _write_extra(path: str | None, title: str) -> None:
@@ -75,8 +81,7 @@ def generate_markdown_files(
             extra_stats = json.load(f)
         extra_md = dict_to_markdown_league_stats(extra_stats, title, season, phase)
         extra_slug = _slugify(f"{title}-{season}-{phase}")
-        with open(liga_out / f"{extra_slug}.md", "w", encoding="utf-8") as f:
-            f.write(extra_md)
+        _write_if_changed(liga_out / f"{extra_slug}.md", extra_md)
         league_written += 1
 
     _write_extra(playoff_averages_path, "Playoffs")

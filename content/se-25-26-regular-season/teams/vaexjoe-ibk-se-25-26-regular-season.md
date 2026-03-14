@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Växjö IBK
 Category: se-25-26-regular-season, teams
 Slug: vaexjoe-ibk-se-25-26-regular-season-se-25-26-regular-season

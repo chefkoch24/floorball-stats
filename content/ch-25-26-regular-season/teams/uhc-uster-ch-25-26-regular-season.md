@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: UHC Uster
 Category: ch-25-26-regular-season, teams
 Slug: uhc-uster-ch-25-26-regular-season-ch-25-26-regular-season

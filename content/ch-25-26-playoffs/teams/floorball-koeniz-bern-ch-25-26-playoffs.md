@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Floorball Köniz Bern
 Category: ch-25-26-playoffs, teams
 Slug: floorball-koeniz-bern-ch-25-26-playoffs-ch-25-26-playoffs

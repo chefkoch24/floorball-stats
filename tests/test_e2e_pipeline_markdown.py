@@ -1,4 +1,5 @@
 from pathlib import Path
+import time
 
 import pandas as pd
 
@@ -124,3 +125,53 @@ def test_pipeline_writes_markdown_into_content_tree(tmp_path: Path):
     assert result["teams_written"] == 2
     assert (content_dir / f"{season}-{phase}" / "games").exists()
     assert (content_dir / f"{season}-{phase}" / "teams").exists()
+
+
+def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
+    data_dir = tmp_path / "data"
+    content_dir = tmp_path / "content"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    events_csv = data_dir / "events.csv"
+    _sample_events().to_csv(events_csv, index=False)
+
+    run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
+    generate_markdown_files(
+        game_stats_path=str(data_dir / "game_stats.json"),
+        team_stats_path=str(data_dir / "team_stats_enhanced.json"),
+        league_stats_path=str(data_dir / "league_averages.json"),
+        output_games_dir=str(content_dir / "25-26-regular-season" / "games"),
+        output_teams_dir=str(content_dir / "25-26-regular-season" / "teams"),
+        output_liga_dir=str(content_dir / "25-26-regular-season" / "liga"),
+        season="25-26",
+        phase="regular-season",
+    )
+
+    game_file = next((content_dir / "25-26-regular-season" / "games").glob("*.md"))
+    team_file = next((content_dir / "25-26-regular-season" / "teams").glob("*.md"))
+    liga_file = next((content_dir / "25-26-regular-season" / "liga").glob("*.md"))
+
+    before = (
+        game_file.stat().st_mtime_ns,
+        team_file.stat().st_mtime_ns,
+        liga_file.stat().st_mtime_ns,
+    )
+    time.sleep(1.1)
+
+    generate_markdown_files(
+        game_stats_path=str(data_dir / "game_stats.json"),
+        team_stats_path=str(data_dir / "team_stats_enhanced.json"),
+        league_stats_path=str(data_dir / "league_averages.json"),
+        output_games_dir=str(content_dir / "25-26-regular-season" / "games"),
+        output_teams_dir=str(content_dir / "25-26-regular-season" / "teams"),
+        output_liga_dir=str(content_dir / "25-26-regular-season" / "liga"),
+        season="25-26",
+        phase="regular-season",
+    )
+
+    after = (
+        game_file.stat().st_mtime_ns,
+        team_file.stat().st_mtime_ns,
+        liga_file.stat().st_mtime_ns,
+    )
+    assert after == before

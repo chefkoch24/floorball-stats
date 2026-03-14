@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
 Slug: kanonýři-kladno-cz-25-26-regular-season-cz-25-26-regular-season

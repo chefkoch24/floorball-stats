@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Floorball Thurgau
 Category: ch-25-26-playoffs, teams
 Slug: floorball-thurgau-ch-25-26-playoffs-ch-25-26-playoffs

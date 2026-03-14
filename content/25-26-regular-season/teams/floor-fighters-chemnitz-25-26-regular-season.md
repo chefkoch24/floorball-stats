@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Floor Fighters Chemnitz
 Category: 25-26-regular-season, teams
 Slug: floor-fighters-chemnitz-25-26-regular-season-25-26-regular-season

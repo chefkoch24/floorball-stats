@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Berlin Rockets
 Category: 25-26-regular-season, teams
 Slug: berlin-rockets-25-26-regular-season-25-26-regular-season

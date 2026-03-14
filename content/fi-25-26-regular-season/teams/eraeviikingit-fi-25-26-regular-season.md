@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: EräViikingit
 Category: fi-25-26-regular-season, teams
 Slug: eraeviikingit-fi-25-26-regular-season-fi-25-26-regular-season

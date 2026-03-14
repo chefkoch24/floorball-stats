@@ -44,6 +44,8 @@ SWISS_GROUP ?= Gruppe 1
 # Finland pipeline defaults (F-Liiga)
 FINLAND_SEASON ?= fi-25-26
 FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
+# Czech pipeline defaults (Czech Extraliga config)
+CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -62,6 +64,8 @@ help:
 	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
 	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
 	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
+	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
+	@echo '   make refresh-all-leagues            run all league pipelines + html     '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -69,6 +73,7 @@ help:
 	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
 	@echo 'Set SWISS_* to override refresh-switzerland                                '
 	@echo 'Set FINLAND_* to override refresh-finland                                   '
+	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
 	@echo '                                                                          '
 
 html:
@@ -110,4 +115,16 @@ refresh-switzerland-playoffs:
 refresh-finland:
 	"$(PYTHON)" -m src.pipeline --backend finland --finland_schedule_url "$(FINLAND_SCHEDULE_URL)" --season "$(FINLAND_SEASON)" --phase "$(PHASE)"
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland
+refresh-czech:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)"
+
+refresh-all-leagues:
+	$(MAKE) refresh-current-season
+	$(MAKE) refresh-sweden
+	$(MAKE) refresh-switzerland
+	$(MAKE) refresh-switzerland-playoffs
+	$(MAKE) refresh-finland
+	$(MAKE) refresh-czech
+	$(MAKE) html
+
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland refresh-czech refresh-all-leagues

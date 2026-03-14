@@ -10,11 +10,11 @@ start_time: 16:00:00
 result_string: 10-3
 ingame_status: nan
 timeline_minutes_csv: 0.0,5.33,9.42,14.88,33.05,37.78,43.62,44.68,45.6,49.57,54.22,57.52,59.98
-timeline_diffs_csv: 0,1,0,1,0,1,2,3,4,5,4,6,7
-timeline_home_goals_csv: 0,1,1,2,2,3,4,5,6,7,7,9,10
+timeline_diffs_csv: 0,1,0,1,0,1,2,3,4,5,4,5,6
+timeline_home_goals_csv: 0,1,1,2,2,3,4,5,6,7,7,8,9
 timeline_away_goals_csv: 0,0,1,1,2,2,2,2,2,2,3,3,3
 home_goal_minutes_csv: 5.33,14.88,37.78,43.62,44.68,45.6,49.57,57.52,59.98
-home_goal_diffs_csv: 1,1,1,2,3,4,5,6,7
+home_goal_diffs_csv: 1,1,1,2,3,4,5,5,6
 away_goal_minutes_csv: 9.42,33.05,54.22
 away_goal_diffs_csv: 0,0,4
 home_penalty_minutes_csv: 

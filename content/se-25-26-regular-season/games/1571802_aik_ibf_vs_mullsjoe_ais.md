@@ -20,12 +20,12 @@ away_goal_diffs_csv: -1,0,-1,0,0
 home_penalty_minutes_csv: 
 home_penalty_goals_csv: 
 home_penalty_ends_csv: 
-away_penalty_minutes_csv: 31.9,40.0
-away_penalty_goals_csv: 3,4
-away_penalty_ends_csv: 33.9,41.22
+away_penalty_minutes_csv: 31.9,20.0
+away_penalty_goals_csv: 3,3
+away_penalty_ends_csv: 33.9,22.0
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 60.0
+timeline_max_minute: 70.0
 home_points: 2
 home_wins: 0
 home_over_time_wins: 0

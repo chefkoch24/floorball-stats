@@ -9,23 +9,23 @@ away_team: Floor Fighters Chemnitz
 start_time: 16:00
 result_string: 2:8
 ingame_status: period3
-timeline_minutes_csv: 0.0,1.28,4.58,9.52,10.52,18.57,43.95,45.43,57.98,84.9,89.37
+timeline_minutes_csv: 0.0,1.28,4.58,9.52,10.52,18.57,23.95,25.43,37.98,44.9,49.37
 timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-6,-5,-6
 timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,2,2
 timeline_away_goals_csv: 0,1,2,3,4,5,5,6,7,7,8
-home_goal_minutes_csv: 43.95,84.9
+home_goal_minutes_csv: 23.95,44.9
 home_goal_diffs_csv: -4,-5
-away_goal_minutes_csv: 1.28,4.58,9.52,10.52,18.57,45.43,57.98,89.37
+away_goal_minutes_csv: 1.28,4.58,9.52,10.52,18.57,25.43,37.98,49.37
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-6
-home_penalty_minutes_csv: 2.82,44.5,51.55,59.52
+home_penalty_minutes_csv: 2.82,24.5,31.55,39.52
 home_penalty_goals_csv: 0,1,1,1
-home_penalty_ends_csv: 4.58,45.43,53.55,61.52
-away_penalty_minutes_csv: 11.88,43.35
+home_penalty_ends_csv: 4.58,25.43,33.55,41.52
+away_penalty_minutes_csv: 11.88,23.35
 away_penalty_goals_csv: 4,5
-away_penalty_ends_csv: 13.88,43.95
+away_penalty_ends_csv: 13.88,23.95
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
-timeline_max_minute: 89.37
+timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0

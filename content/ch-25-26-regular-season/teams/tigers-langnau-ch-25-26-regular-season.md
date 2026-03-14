@@ -1,4 +1,4 @@
-Date: 2026-03-12
+Date: 2026-03-14
 Title: Tigers Langnau
 Category: ch-25-26-regular-season, teams
 Slug: tigers-langnau-ch-25-26-regular-season-ch-25-26-regular-season
