@@ -107,6 +107,8 @@
 </section>
 
 <script>
+const isMobileViewport = window.matchMedia('(max-width: 800px)').matches;
+
 const goalsPerPeriodChart = document.getElementById('goalsPerPeriodChart');
 if (goalsPerPeriodChart) {
   new Chart(goalsPerPeriodChart.getContext('2d'), {
@@ -140,7 +142,13 @@ if (goalsPerPeriodChart) {
       responsive: true,
       plugins: { legend: { position: 'bottom' } },
       scales: {
-        y: { beginAtZero: true, ticks: { precision: 0 } }
+        y: {
+          beginAtZero: true,
+          ticks: { precision: 0 },
+          afterFit: (scale) => {
+            scale.width = isMobileViewport ? 38 : 56;
+          }
+        }
       }
     }
   });
@@ -158,6 +166,8 @@ const parseCsvNumbers = (raw) => {
 const timelineChart = document.getElementById('scoreTimelineChart');
 const penaltyChart = document.getElementById('penaltyTimelineChart');
 if (timelineChart && penaltyChart) {
+  const isMobile = isMobileViewport;
+  const syncedAxisWidth = isMobile ? 38 : 90;
   const maxMinute = Number("{{ article.timeline_max_minute|default(60) }}") || 60;
   const minutes = parseCsvNumbers("{{ article.timeline_minutes_csv|default('0') }}");
   const homeGoals = parseCsvNumbers("{{ article.timeline_home_goals_csv|default('0') }}");
@@ -284,11 +294,11 @@ if (timelineChart && penaltyChart) {
           grid: { color: 'rgba(148, 163, 184, 0.2)' }
         },
         y: {
-          title: { display: true, text: 'Cumulative goals' },
+          title: { display: !isMobile, text: 'Cumulative goals' },
           beginAtZero: true,
           ticks: { precision: 0 },
           afterFit: (scale) => {
-            scale.width = 90;
+            scale.width = syncedAxisWidth;
           }
         }
       }
@@ -381,13 +391,13 @@ if (timelineChart && penaltyChart) {
           ticks: {
             stepSize: 1,
             callback: (value) => {
-              if (value === 1) return 'Home';
-              if (value === 0) return 'Away';
+              if (value === 1) return isMobile ? 'H' : 'Home';
+              if (value === 0) return isMobile ? 'A' : 'Away';
               return '';
             }
           },
           afterFit: (scale) => {
-            scale.width = 90;
+            scale.width = syncedAxisWidth;
           },
           grid: { display: false }
         }
