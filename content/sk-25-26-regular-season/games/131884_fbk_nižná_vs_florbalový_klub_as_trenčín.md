@@ -20,9 +20,9 @@ away_goal_diffs_csv: -1,-2,0,-1,0
 home_penalty_minutes_csv: 25.43
 home_penalty_goals_csv: 2
 home_penalty_ends_csv: 27.43
-away_penalty_minutes_csv: 31.97,31.97,57.93
-away_penalty_goals_csv: 2,2,5
-away_penalty_ends_csv: 33.97,33.97,58.72
+away_penalty_minutes_csv: 31.97,57.93
+away_penalty_goals_csv: 2,5
+away_penalty_ends_csv: 33.97,58.72
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
@@ -48,10 +48,10 @@ home_goals_in_powerplay: 1
 home_goals_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_against_in_boxplay: 0
-home_powerplay: 3
+home_powerplay: 2
 home_boxplay: 1
 home_powerplay_first_period: 0
-home_powerplay_second_period: 2
+home_powerplay_second_period: 1
 home_powerplay_third_period: 1
 home_powerplay_overtime: 0
 home_boxplay_first_period: 0
@@ -98,7 +98,7 @@ home_take_the_lead_goals_against: 2
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 1
 home_points_against_florbalovy_klub_as_trencin: 3
-home_powerplay_efficiency: 33.33
+home_powerplay_efficiency: 50.0
 home_boxplay_efficiency: 100.0
 home_penalties: 1
 away_points: 0
@@ -124,13 +124,13 @@ away_goals_in_boxplay: 0
 away_goals_against_in_powerplay: 0
 away_goals_against_in_boxplay: 1
 away_powerplay: 1
-away_boxplay: 3
+away_boxplay: 2
 away_powerplay_first_period: 0
 away_powerplay_second_period: 1
 away_powerplay_third_period: 0
 away_powerplay_overtime: 0
 away_boxplay_first_period: 0
-away_boxplay_second_period: 2
+away_boxplay_second_period: 1
 away_boxplay_third_period: 1
 away_boxplay_overtime: 0
 away_points_after_first_period: 1
@@ -147,12 +147,12 @@ away_close_game_loss: 1
 away_close_game_overtime: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
-away_penalty_2: 3
+away_penalty_2: 2
 away_penalty_2and2: 0
 away_penalty_10: 0
 away_penalty_ms: 0
 away_penalty_first_period: 0
-away_penalty_second_period: 2
+away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
 away_take_the_lead_goals: 2
@@ -174,5 +174,5 @@ away_equalizer_goals_against: 2
 away_first_goal_of_match_against: 0
 away_points_against_fbk_nizna: 0
 away_powerplay_efficiency: 0.0
-away_boxplay_efficiency: 66.67
-away_penalties: 3
+away_boxplay_efficiency: 50.0
+away_penalties: 2

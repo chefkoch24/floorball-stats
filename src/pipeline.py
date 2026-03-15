@@ -36,6 +36,8 @@ def run_pipeline(
     czech_season_start_year: int | None = None,
     finland_schedule_urls: list[str] | None = None,
     slovakia_schedule_urls: list[str] | None = None,
+    slovakia_regular_season_end: str | None = None,
+    slovakia_regular_season_games_per_team: int | None = None,
     latvia_calendar_urls: list[str] | None = None,
     latvia_season_start_year: int | None = None,
     data_dir: str = "data",
@@ -110,6 +112,9 @@ def run_pipeline(
             scrape_slovakia_competition(
                 schedule_urls=slovakia_schedule_urls,
                 output_path=str(raw_csv),
+                phase=phase,
+                regular_season_end_date=slovakia_regular_season_end,
+                regular_season_games_per_team=slovakia_regular_season_games_per_team,
             )
         elif backend == "latvia":
             if not latvia_calendar_urls:
@@ -120,6 +125,7 @@ def run_pipeline(
                 calendar_urls=latvia_calendar_urls,
                 output_path=str(raw_csv),
                 season_start_year=latvia_season_start_year,
+                phase=phase,
             )
         else:
             scrape_events(
@@ -174,6 +180,8 @@ def parse_args():
     parser.add_argument("--czech_season_start_year", type=int, default=None)
     parser.add_argument("--finland_schedule_url", action="append", default=None)
     parser.add_argument("--slovakia_schedule_url", action="append", default=None)
+    parser.add_argument("--slovakia_regular_season_end", type=str, default=None)
+    parser.add_argument("--slovakia_regular_season_games_per_team", type=int, default=None)
     parser.add_argument("--latvia_calendar_url", action="append", default=None)
     parser.add_argument("--latvia_season_start_year", type=int, default=None)
     parser.add_argument("--season", default="25-26")
@@ -217,6 +225,8 @@ def main():
         czech_season_start_year=args.czech_season_start_year,
         finland_schedule_urls=args.finland_schedule_url,
         slovakia_schedule_urls=args.slovakia_schedule_url,
+        slovakia_regular_season_end=args.slovakia_regular_season_end,
+        slovakia_regular_season_games_per_team=args.slovakia_regular_season_games_per_team,
         latvia_calendar_urls=args.latvia_calendar_url,
         latvia_season_start_year=args.latvia_season_start_year,
         data_dir=args.data_dir,

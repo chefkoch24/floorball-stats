@@ -24,7 +24,7 @@ away_penalty_minutes_csv: 15.72,37.67,59.93
 away_penalty_goals_csv: 3,4,9
 away_penalty_ends_csv: 17.62,39.67,59.98
 home_major_penalty_minutes_csv: 
-away_major_penalty_minutes_csv: 10.58,10.58
+away_major_penalty_minutes_csv: 10.58
 timeline_max_minute: 60.0
 home_points: 0
 home_wins: 0
@@ -48,9 +48,9 @@ home_goals_in_powerplay: 0
 home_goals_in_boxplay: 0
 home_goals_against_in_powerplay: 1
 home_goals_against_in_boxplay: 1
-home_powerplay: 3
+home_powerplay: 2
 home_boxplay: 0
-home_powerplay_first_period: 2
+home_powerplay_first_period: 1
 home_powerplay_second_period: 1
 home_powerplay_third_period: 0
 home_powerplay_overtime: 0
@@ -124,12 +124,12 @@ away_goals_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_against_in_boxplay: 0
 away_powerplay: 0
-away_boxplay: 3
+away_boxplay: 2
 away_powerplay_first_period: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
 away_powerplay_overtime: 0
-away_boxplay_first_period: 2
+away_boxplay_first_period: 1
 away_boxplay_second_period: 1
 away_boxplay_third_period: 0
 away_boxplay_overtime: 0
@@ -149,9 +149,9 @@ away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_2: 3
 away_penalty_2and2: 0
-away_penalty_10: 2
+away_penalty_10: 1
 away_penalty_ms: 0
-away_penalty_first_period: 3
+away_penalty_first_period: 2
 away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
@@ -175,4 +175,4 @@ away_first_goal_of_match_against: 1
 away_points_against_fabk_atu_kosice: 3
 away_powerplay_efficiency: n.a.
 away_boxplay_efficiency: 100.0
-away_penalties: 5
+away_penalties: 4

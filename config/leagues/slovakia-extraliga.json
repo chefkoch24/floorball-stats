@@ -3,6 +3,8 @@
   "season": "sk-25-26",
   "phase": "regular-season",
   "slovakia": {
+    "regular_season_end_date": "2026-02-14",
+    "regular_season_games_per_team": 22,
     "schedule_urls": [
       "https://www.szfb.sk/sk/stats/results-date/1164/florbalova-extraliga-muzov"
     ]

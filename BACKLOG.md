@@ -7,3 +7,4 @@
 - [x] Research and implement a way to integrate the Latvian top mens league similar to all other leagues
 - [x] Bug: on the latvian website the teams have different points. can you please check it and if required adapt the calculation only for the latvian league 
 - [x] Bug: in darkmode you can not read the leagues on the home page due to the contrast. check all contrasts
+- [ ] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over

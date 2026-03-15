@@ -2,6 +2,7 @@
 
 {% block content %}
 {% set ns = namespace(team_count=0, game_count=0, top_team=None) %}
+{% set is_playoffs = 'playoffs' in category.shortname %}
 {% for candidate in articles_page.object_list | sort_by_rank %}
     {% if candidate|string_in_category_path('teams') %}
         {% set ns.team_count = ns.team_count + 1 %}
@@ -64,6 +65,7 @@
     </div>
 </section>
 
+{% if not is_playoffs %}
 <section class="panel">
     <h2 class="panel-title">League Reports</h2>
     <div class="season-grid">
@@ -77,6 +79,7 @@
         {% endfor %}
     </div>
 </section>
+{% endif %}
 
 {% if ns.game_count > 0 %}
 <section class="panel">

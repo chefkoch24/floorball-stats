@@ -1,7 +1,7 @@
 import argparse
 import re
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin
@@ -215,6 +215,9 @@ def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dic
 def scrape_competition(
     schedule_urls: list[str],
     output_path: str,
+    phase: str = "regular-season",
+    regular_season_end_date: str | None = None,
+    regular_season_games_per_team: int | None = None,
 ) -> pd.DataFrame:
     session = _new_session()
     all_matches: dict[int, MatchCard] = {}
@@ -238,6 +241,76 @@ def scrape_competition(
     rows: list[dict[str, Any]] = []
     for match in tqdm(sorted(all_matches.values(), key=lambda m: m.match_id), desc="slovakia matches"):
         rows.extend(_parse_match_events(session, match))
+
+    if regular_season_end_date:
+        cutoff = datetime.strptime(regular_season_end_date, "%Y-%m-%d").date()
+
+        def _parse_row_date(value: Any) -> date | None:
+            if not value:
+                return None
+            try:
+                return datetime.strptime(str(value), "%Y-%m-%d").date()
+            except ValueError:
+                return None
+
+        games: dict[int, dict[str, Any]] = {}
+        for row in rows:
+            game_id = int(row.get("game_id"))
+            entry = games.setdefault(
+                game_id,
+                {
+                    "rows": [],
+                    "date": _parse_row_date(row.get("game_date")),
+                    "home": row.get("home_team_name"),
+                    "away": row.get("away_team_name"),
+                },
+            )
+            entry["rows"].append(row)
+            if entry["date"] is None:
+                entry["date"] = _parse_row_date(row.get("game_date"))
+
+        pre_cutoff_ids = {
+            game_id
+            for game_id, game in games.items()
+            if game.get("date") is not None and game["date"] <= cutoff
+        }
+        post_cutoff_ids = [
+            game_id
+            for game_id, game in sorted(
+                games.items(),
+                key=lambda item: (item[1].get("date") or date.max, item[0]),
+            )
+            if game.get("date") is not None and game["date"] > cutoff
+        ]
+
+        regular_ids = set(pre_cutoff_ids)
+        if regular_season_games_per_team and regular_season_games_per_team > 0:
+            team_games: dict[str, int] = {}
+
+            def _inc_team(team: str | None) -> None:
+                if not team:
+                    return
+                team_games[team] = team_games.get(team, 0) + 1
+
+            for game_id in sorted(regular_ids):
+                game = games[game_id]
+                _inc_team(game.get("home"))
+                _inc_team(game.get("away"))
+
+            for game_id in post_cutoff_ids:
+                game = games[game_id]
+                home = game.get("home")
+                away = game.get("away")
+                home_games = team_games.get(home, 0)
+                away_games = team_games.get(away, 0)
+                if home_games < regular_season_games_per_team and away_games < regular_season_games_per_team:
+                    regular_ids.add(game_id)
+                    _inc_team(home)
+                    _inc_team(away)
+
+        phase_lower = (phase or "regular-season").lower()
+        selected_ids = regular_ids if phase_lower == "regular-season" else (set(games.keys()) - regular_ids)
+        rows = [row for game_id in sorted(selected_ids) for row in games[game_id]["rows"]]
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -269,13 +342,22 @@ def scrape_competition(
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--schedule_url", action="append", required=True)
+    parser.add_argument("--phase", type=str, default="regular-season")
+    parser.add_argument("--regular_season_end_date", type=str, default=None)
+    parser.add_argument("--regular_season_games_per_team", type=int, default=None)
     parser.add_argument("--output_path", type=str, default="data/data_slovakia.csv")
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
-    scrape_competition(schedule_urls=args.schedule_url, output_path=args.output_path)
+    scrape_competition(
+        schedule_urls=args.schedule_url,
+        output_path=args.output_path,
+        phase=args.phase,
+        regular_season_end_date=args.regular_season_end_date,
+        regular_season_games_per_team=args.regular_season_games_per_team,
+    )
 
 
 if __name__ == "__main__":

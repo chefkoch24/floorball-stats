@@ -56,7 +56,7 @@ def _extract_season_id(page_html: str) -> int:
     return int(match.group(1))
 
 
-def _extract_game_types(page_html: str) -> list[str]:
+def _extract_game_types(page_html: str, phase: str = "regular-season") -> list[str]:
     soup = BeautifulSoup(page_html, "html.parser")
     options: list[tuple[str, str]] = []
     for option in soup.select("#filtrs_kalendars_spelu_veids option"):
@@ -69,10 +69,16 @@ def _extract_game_types(page_html: str) -> list[str]:
     if not options:
         return ["all"]
 
-    # Prefer regular-season matches; "all" also includes playoffs and inflates standings.
-    regular_values = [value for value, label in options if "regul" in label]
-    if regular_values:
-        return [regular_values[0]]
+    # Prefer phase-specific matches; "all" mixes regular season and playoffs.
+    phase_lower = (phase or "regular-season").lower()
+    if phase_lower == "playoffs":
+        playoff_values = [value for value, label in options if ("play" in label or "izsl" in label)]
+        if playoff_values:
+            return [playoff_values[0]]
+    else:
+        regular_values = [value for value, label in options if "regul" in label]
+        if regular_values:
+            return [regular_values[0]]
 
     option_values = [value for value, _ in options]
     if "1" in option_values:
@@ -191,6 +197,7 @@ def _fetch_calendar_matches(
     session: requests.Session,
     calendar_url: str,
     season_start_year: int,
+    phase: str = "regular-season",
 ) -> list[LatviaMatch]:
     page_response = session.get(calendar_url, timeout=30)
     page_response.raise_for_status()
@@ -198,7 +205,7 @@ def _fetch_calendar_matches(
 
     season_id = _extract_season_id(page_html)
     group = _parse_group_from_url(calendar_url)
-    game_types = _extract_game_types(page_html)
+    game_types = _extract_game_types(page_html, phase=phase)
 
     matches: dict[int, LatviaMatch] = {}
     for game_type in game_types:
@@ -359,11 +366,12 @@ def scrape_competition(
     calendar_urls: list[str],
     output_path: str,
     season_start_year: int,
+    phase: str = "regular-season",
 ) -> pd.DataFrame:
     session = _new_session()
     all_matches: list[LatviaMatch] = []
     for calendar_url in calendar_urls:
-        all_matches.extend(_fetch_calendar_matches(session, calendar_url, season_start_year))
+        all_matches.extend(_fetch_calendar_matches(session, calendar_url, season_start_year, phase=phase))
 
     unique_matches: dict[int, LatviaMatch] = {m.game_id: m for m in all_matches}
     rows: list[dict[str, Any]] = []
@@ -381,6 +389,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--calendar_url", action="append", required=True)
     parser.add_argument("--season_start_year", type=int, required=True)
+    parser.add_argument("--phase", type=str, default="regular-season")
     parser.add_argument("--output_path", type=str, default="data/data_latvia.csv")
     return parser.parse_args()
 
@@ -391,6 +400,7 @@ def main():
         calendar_urls=args.calendar_url,
         output_path=args.output_path,
         season_start_year=args.season_start_year,
+        phase=args.phase,
     )
 
 

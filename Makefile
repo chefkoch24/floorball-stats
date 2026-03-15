@@ -48,8 +48,10 @@ FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
 CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
 # Slovakia pipeline defaults (SZFB Extraliga)
 SLOVAKIA_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga.json
+SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga-playoffs.json
 # Latvia pipeline defaults (ELVI men)
 LATVIA_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv.json
+LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv-playoffs.json
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -70,7 +72,9 @@ help:
 	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
 	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
 	@echo '   make refresh-slovakia               full pipeline for Slovak Extraliga  '
+	@echo '   make refresh-slovakia-playoffs      playoffs pipeline for Slovak Extraliga'
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
+	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
 	@echo '   make refresh-all-leagues            run all league pipelines + html     '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
@@ -81,7 +85,9 @@ help:
 	@echo 'Set FINLAND_* to override refresh-finland                                   '
 	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
 	@echo 'Set SLOVAKIA_LEAGUE_CONFIG to override refresh-slovakia                     '
+	@echo 'Set SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-slovakia-playoffs   '
 	@echo 'Set LATVIA_LEAGUE_CONFIG to override refresh-latvia                         '
+	@echo 'Set LATVIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-latvia-playoffs       '
 	@echo '                                                                          '
 
 html:
@@ -129,8 +135,14 @@ refresh-czech:
 refresh-slovakia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_LEAGUE_CONFIG)"
 
+refresh-slovakia-playoffs:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG)"
+
 refresh-latvia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_LEAGUE_CONFIG)"
+
+refresh-latvia-playoffs:
+	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-all-leagues:
 	$(MAKE) refresh-current-season
@@ -140,7 +152,9 @@ refresh-all-leagues:
 	$(MAKE) refresh-finland
 	$(MAKE) refresh-czech
 	$(MAKE) refresh-slovakia
+	$(MAKE) refresh-slovakia-playoffs
 	$(MAKE) refresh-latvia
+	$(MAKE) refresh-latvia-playoffs
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland refresh-czech refresh-slovakia refresh-latvia refresh-all-leagues
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland refresh-czech refresh-slovakia refresh-slovakia-playoffs refresh-latvia refresh-latvia-playoffs refresh-all-leagues
