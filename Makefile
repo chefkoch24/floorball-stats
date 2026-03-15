@@ -41,6 +41,7 @@ SWISS_GAME_CLASS ?= 11
 SWISS_SEASON_SLUG ?= ch-25-26
 SWISS_PLAYOFFS_SLUG ?= ch-25-26
 SWISS_GROUP ?= Gruppe 1
+SWISS_PLAYOFFS_CSV ?= data/data_$(SWISS_PLAYOFFS_SLUG)_playoffs.csv
 # Finland pipeline defaults (F-Liiga)
 FINLAND_SEASON ?= fi-25-26
 FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
@@ -49,9 +50,13 @@ CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
 # Slovakia pipeline defaults (SZFB Extraliga)
 SLOVAKIA_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga.json
 SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga-playoffs.json
+SLOVAKIA_PLAYOFFS_SEASON ?= sk-25-26
+SLOVAKIA_PLAYOFFS_CSV ?= data/data_$(SLOVAKIA_PLAYOFFS_SEASON)_playoffs.csv
 # Latvia pipeline defaults (ELVI men)
 LATVIA_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv.json
 LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv-playoffs.json
+LATVIA_PLAYOFFS_SEASON ?= lv-25-26
+LATVIA_PLAYOFFS_CSV ?= data/data_$(LATVIA_PLAYOFFS_SEASON)_playoffs.csv
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -144,17 +149,38 @@ refresh-latvia:
 refresh-latvia-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_PLAYOFFS_LEAGUE_CONFIG)"
 
+refresh-switzerland-smart:
+	$(MAKE) refresh-switzerland-playoffs
+	@if [ -f "$(SWISS_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SWISS_PLAYOFFS_CSV)")" -gt 1 ]; then \
+		echo "Playoffs detected in $(SWISS_PLAYOFFS_CSV); skipping refresh-switzerland."; \
+	else \
+		$(MAKE) refresh-switzerland; \
+	fi
+
+refresh-slovakia-smart:
+	$(MAKE) refresh-slovakia-playoffs
+	@if [ -f "$(SLOVAKIA_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SLOVAKIA_PLAYOFFS_CSV)")" -gt 1 ]; then \
+		echo "Playoffs detected in $(SLOVAKIA_PLAYOFFS_CSV); skipping refresh-slovakia."; \
+	else \
+		$(MAKE) refresh-slovakia; \
+	fi
+
+refresh-latvia-smart:
+	$(MAKE) refresh-latvia-playoffs
+	@if [ -f "$(LATVIA_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(LATVIA_PLAYOFFS_CSV)")" -gt 1 ]; then \
+		echo "Playoffs detected in $(LATVIA_PLAYOFFS_CSV); skipping refresh-latvia."; \
+	else \
+		$(MAKE) refresh-latvia; \
+	fi
+
 refresh-all-leagues:
 	$(MAKE) refresh-current-season
 	$(MAKE) refresh-sweden
-	$(MAKE) refresh-switzerland
-	$(MAKE) refresh-switzerland-playoffs
+	$(MAKE) refresh-switzerland-smart
 	$(MAKE) refresh-finland
 	$(MAKE) refresh-czech
-	$(MAKE) refresh-slovakia
-	$(MAKE) refresh-slovakia-playoffs
-	$(MAKE) refresh-latvia
-	$(MAKE) refresh-latvia-playoffs
+	$(MAKE) refresh-slovakia-smart
+	$(MAKE) refresh-latvia-smart
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-finland refresh-czech refresh-slovakia refresh-slovakia-playoffs refresh-latvia refresh-latvia-playoffs refresh-all-leagues
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-czech refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues

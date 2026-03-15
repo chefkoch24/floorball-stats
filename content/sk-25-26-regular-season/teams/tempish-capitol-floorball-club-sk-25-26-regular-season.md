@@ -27,9 +27,9 @@ goals_in_powerplay: 12
 goals_in_boxplay: 3
 goals_against_in_powerplay: 5
 goals_against_in_boxplay: 12
-powerplay: 37
+powerplay: 38
 boxplay: 33
-powerplay_first_period: 10
+powerplay_first_period: 11
 powerplay_second_period: 10
 powerplay_third_period: 17
 powerplay_overtime: 0
@@ -78,7 +78,7 @@ equalizer_goals_against: 16
 first_goal_of_match_against: 12
 Tags:  VŠK FTVŠ UK Hurikán Bratislava: 5,  Tsunami Záhorská Bystrica: 0,  FK Florko Košice: 0,  FaBK ATU Košice: 0,  DTF team Detva Joxers: 3,  Snipers Bratislava: 0,  ŠK Lido Prírodovedec Bratislava: 0,  Florbalový klub AS Trenčín: 2,  1. FBC Trenčín: 0,  FBC Grasshoppers AC UNIZA Žilina: 0,  FBK Nižná: 3,
 penalties: 38
-powerplay_efficiency: 32.43
+powerplay_efficiency: 31.580000000000002
 boxplay_efficiency: 63.64
 percent_goals_first_period: 27.48
 percent_goals_second_period: 34.35
@@ -94,5 +94,5 @@ scoring_ratio: 0.7
 goals_per_game: 5.95
 goals_against_per_game: 8.55
 boxplay_per_game: 1.5
-powerplay_per_game: 1.68
+powerplay_per_game: 1.73
 rank: 12

@@ -20,9 +20,9 @@ away_goal_diffs_csv: -1,-2,0,-1,-2,-2
 home_penalty_minutes_csv: 19.95,30.72,31.98,37.23,47.35,59.78
 home_penalty_goals_csv: 1,2,3,3,3,4
 home_penalty_ends_csv: 21.95,32.72,33.98,38.05,49.35,61.78
-away_penalty_minutes_csv: 8.35,15.12,35.82,53.08
-away_penalty_goals_csv: 1,2,2,5
-away_penalty_ends_csv: 10.35,17.12,37.82,53.82
+away_penalty_minutes_csv: 8.35,15.12,15.12,35.82,53.08
+away_penalty_goals_csv: 1,2,2,2,5
+away_penalty_ends_csv: 10.35,17.12,17.12,37.82,53.82
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
@@ -48,9 +48,9 @@ home_goals_in_powerplay: 1
 home_goals_in_boxplay: 1
 home_goals_against_in_powerplay: 0
 home_goals_against_in_boxplay: 1
-home_powerplay: 4
+home_powerplay: 5
 home_boxplay: 5
-home_powerplay_first_period: 2
+home_powerplay_first_period: 3
 home_powerplay_second_period: 1
 home_powerplay_third_period: 1
 home_powerplay_overtime: 0
@@ -98,7 +98,7 @@ home_take_the_lead_goals_against: 2
 home_equalizer_goals_against: 1
 home_first_goal_of_match_against: 1
 home_points_against_sk_lido_prirodovedec_bratislava: 0
-home_powerplay_efficiency: 25.0
+home_powerplay_efficiency: 20.0
 home_boxplay_efficiency: 80.0
 home_penalties: 6
 away_points: 3
@@ -124,12 +124,12 @@ away_goals_in_boxplay: 0
 away_goals_against_in_powerplay: 1
 away_goals_against_in_boxplay: 1
 away_powerplay: 5
-away_boxplay: 4
+away_boxplay: 5
 away_powerplay_first_period: 1
 away_powerplay_second_period: 2
 away_powerplay_third_period: 2
 away_powerplay_overtime: 0
-away_boxplay_first_period: 2
+away_boxplay_first_period: 3
 away_boxplay_second_period: 1
 away_boxplay_third_period: 1
 away_boxplay_overtime: 0
@@ -147,11 +147,11 @@ away_close_game_loss: 0
 away_close_game_overtime: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
-away_penalty_2: 4
+away_penalty_2: 5
 away_penalty_2and2: 0
 away_penalty_10: 0
 away_penalty_ms: 0
-away_penalty_first_period: 2
+away_penalty_first_period: 3
 away_penalty_second_period: 1
 away_penalty_third_period: 1
 away_penalty_overtime: 0
@@ -174,5 +174,5 @@ away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 0
 away_points_against_tempish_capitol_floorball_club: 3
 away_powerplay_efficiency: 20.0
-away_boxplay_efficiency: 75.0
-away_penalties: 4
+away_boxplay_efficiency: 80.0
+away_penalties: 5

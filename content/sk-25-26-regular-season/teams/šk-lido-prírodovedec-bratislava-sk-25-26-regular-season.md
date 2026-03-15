@@ -28,12 +28,12 @@ goals_in_boxplay: 2
 goals_against_in_powerplay: 2
 goals_against_in_boxplay: 12
 powerplay: 26
-boxplay: 35
+boxplay: 36
 powerplay_first_period: 7
 powerplay_second_period: 8
 powerplay_third_period: 11
 powerplay_overtime: 0
-boxplay_first_period: 7
+boxplay_first_period: 8
 boxplay_second_period: 17
 boxplay_third_period: 11
 boxplay_overtime: 0
@@ -51,11 +51,11 @@ close_game_loss: 2
 close_game_overtime: 3
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_2: 38
+penalty_2: 39
 penalty_2and2: 0
 penalty_10: 0
 penalty_ms: 0
-penalty_first_period: 9
+penalty_first_period: 10
 penalty_second_period: 18
 penalty_third_period: 11
 penalty_overtime: 0
@@ -77,9 +77,9 @@ take_the_lead_goals_against: 17
 equalizer_goals_against: 15
 first_goal_of_match_against: 6
 Tags:  FBK Nižná: 3,  FBC Grasshoppers AC UNIZA Žilina: 6,  Florbalový klub AS Trenčín: 6,  1. FBC Trenčín: 2,  Snipers Bratislava: 4,  DTF team Detva Joxers: 6,  TEMPISH CAPITOL Floorball Club: 6,  Tsunami Záhorská Bystrica: 6,  VŠK FTVŠ UK Hurikán Bratislava: 6,  FaBK ATU Košice: 6,  FK Florko Košice: 2,
-penalties: 38
+penalties: 39
 powerplay_efficiency: 57.69
-boxplay_efficiency: 65.71000000000001
+boxplay_efficiency: 66.67
 percent_goals_first_period: 34.150000000000006
 percent_goals_second_period: 28.660000000000004
 percent_goals_third_period: 34.760000000000005
@@ -93,6 +93,6 @@ goal_difference_per_game: 2.59
 scoring_ratio: 1.53
 goals_per_game: 7.45
 goals_against_per_game: 4.86
-boxplay_per_game: 1.59
+boxplay_per_game: 1.64
 powerplay_per_game: 1.18
 rank: 2

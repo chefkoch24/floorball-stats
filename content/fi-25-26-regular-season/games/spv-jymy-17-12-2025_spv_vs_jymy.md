@@ -34,10 +34,10 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 12
-home_goals_against: 4
+home_goals: 1
+home_goals_against: 0
 home_games: 1
-home_goal_difference: 8
+home_goal_difference: 1
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 6
@@ -88,9 +88,9 @@ home_goals_in_second_period_against: 1
 home_goals_in_third_period_against: 1
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 12
+home_goals_home: 1
 home_goals_away: 0
-home_goals_against_home: 4
+home_goals_against_home: 0
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
@@ -98,7 +98,7 @@ home_take_the_lead_goals_against: 1
 home_equalizer_goals_against: 2
 home_first_goal_of_match_against: 0
 home_points_against_jymy: 3
-home_powerplay_efficiency: 150.0
+home_powerplay_efficiency: 100.0
 home_boxplay_efficiency: 0.0
 home_penalties: 1
 away_points: 0
@@ -109,10 +109,10 @@ away_draws: 0
 away_losses: 1
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 4
-away_goals_against: 12
+away_goals: 0
+away_goals_against: 1
 away_games: 1
-away_goal_difference: -8
+away_goal_difference: -1
 away_points_max_difference_2: 0
 away_goals_in_first_period: 2
 away_goals_in_second_period: 1
@@ -164,9 +164,9 @@ away_goals_in_third_period_against: 5
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 4
+away_goals_away: 0
 away_goals_against_home: 0
-away_goals_against_away: 12
+away_goals_against_away: 1
 away_home_points: 0
 away_away_points: 0
 away_take_the_lead_goals_against: 3
@@ -174,5 +174,5 @@ away_equalizer_goals_against: 1
 away_first_goal_of_match_against: 1
 away_points_against_spv: 0
 away_powerplay_efficiency: 100.0
-away_boxplay_efficiency: -50.0
+away_boxplay_efficiency: 0.0
 away_penalties: 4

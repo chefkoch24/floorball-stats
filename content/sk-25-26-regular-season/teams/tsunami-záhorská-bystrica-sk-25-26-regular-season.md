@@ -27,11 +27,11 @@ goals_in_powerplay: 17
 goals_in_boxplay: 1
 goals_against_in_powerplay: 4
 goals_against_in_boxplay: 12
-powerplay: 36
+powerplay: 38
 boxplay: 24
 powerplay_first_period: 7
 powerplay_second_period: 17
-powerplay_third_period: 12
+powerplay_third_period: 14
 powerplay_overtime: 0
 boxplay_first_period: 4
 boxplay_second_period: 7
@@ -78,7 +78,7 @@ equalizer_goals_against: 22
 first_goal_of_match_against: 12
 Tags:  DTF team Detva Joxers: 6,  TEMPISH CAPITOL Floorball Club: 6,  FBK Nižná: 4,  FBC Grasshoppers AC UNIZA Žilina: 4,  VŠK FTVŠ UK Hurikán Bratislava: 6,  FK Florko Košice: 6,  FaBK ATU Košice: 5,  ŠK Lido Prírodovedec Bratislava: 0,  Snipers Bratislava: 5,  1. FBC Trenčín: 0,  Florbalový klub AS Trenčín: 6,
 penalties: 29
-powerplay_efficiency: 47.22
+powerplay_efficiency: 44.74
 boxplay_efficiency: 50.0
 percent_goals_first_period: 20.810000000000002
 percent_goals_second_period: 35.57
@@ -94,5 +94,5 @@ scoring_ratio: 1.37
 goals_per_game: 6.77
 goals_against_per_game: 4.95
 boxplay_per_game: 1.09
-powerplay_per_game: 1.64
+powerplay_per_game: 1.73
 rank: 3
