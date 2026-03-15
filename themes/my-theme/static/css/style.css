@@ -5,14 +5,14 @@
   --text: #111827;
   --text-muted: #5b6472;
   --line: #e4e8ef;
-  --brand: #c62828;
-  --brand-dark: #991b1b;
+  --brand: #0071e2;
+  --brand-dark: #005bb5;
   --accent: #0f4c81;
   --accent-soft: rgba(15, 76, 129, 0.08);
   --accent-line: rgba(15, 76, 129, 0.2);
   --header-bg: rgba(248, 250, 253, 0.92);
   --header-border: rgba(255, 255, 255, 0.2);
-  --bg-glow-warm: rgba(198, 40, 40, 0.16);
+  --bg-glow-warm: rgba(0, 113, 226, 0.16);
   --bg-glow-cool: rgba(15, 76, 129, 0.14);
   --control-text: #1f2937;
   --nav-text: #273244;
@@ -51,14 +51,14 @@
   --text: #e6edf7;
   --text-muted: #9fb0c7;
   --line: #2a3950;
-  --brand: #ef5350;
-  --brand-dark: #d64545;
+  --brand: #0071e2;
+  --brand-dark: #005bb5;
   --accent: #7fc2ff;
   --accent-soft: rgba(127, 194, 255, 0.14);
   --accent-line: rgba(127, 194, 255, 0.36);
   --header-bg: rgba(10, 17, 31, 0.92);
   --header-border: rgba(42, 57, 80, 0.9);
-  --bg-glow-warm: rgba(239, 83, 80, 0.14);
+  --bg-glow-warm: rgba(0, 113, 226, 0.14);
   --bg-glow-cool: rgba(127, 194, 255, 0.14);
   --control-text: #dbe7f6;
   --nav-text: #d8e4f3;
@@ -446,7 +446,7 @@ a:hover {
   margin: 0 0 0.75rem;
   font-size: 1.08rem;
   font-weight: 700;
-  color: #1f2a3d;
+  color: var(--card-text);
 }
 
 .section-grid {
@@ -715,7 +715,7 @@ a:hover {
   border-radius: 10px;
   border: 1px solid var(--line);
   background: var(--surface-muted);
-  color: #1f2a3d;
+  color: var(--card-text);
   font-weight: 600;
   font-size: 0.9rem;
 }
@@ -736,7 +736,7 @@ a:hover {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   padding: 0.95rem;
-  color: #1f2a3d;
+  color: var(--card-text);
   box-shadow: var(--shadow);
   transition: transform 0.16s ease, box-shadow 0.16s ease;
 }
@@ -785,6 +785,32 @@ a:hover {
 
 [data-theme="dark"] .panel-title {
   color: #edf4ff;
+}
+
+[data-theme="dark"] .season-group-card {
+  background: #17243a;
+  border-color: #365273;
+}
+
+[data-theme="dark"] .season-group-card h3 {
+  color: #e6f0ff;
+}
+
+[data-theme="dark"] .season-phase-link {
+  background: #1d2d45;
+  border-color: #3f5f85;
+  color: #e6f0ff;
+}
+
+[data-theme="dark"] .season-phase-link:hover {
+  border-color: rgba(127, 194, 255, 0.5);
+  background: rgba(127, 194, 255, 0.16);
+  color: #f4f9ff;
+}
+
+[data-theme="dark"] .season-phase-link.is-disabled {
+  color: #bcd0e8;
+  opacity: 0.8;
 }
 
 [data-theme="dark"] .side-meta {

@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: FK Irlava/I.S.A.M.
 Category: lv-25-26-regular-season, teams
 Slug: fk-irlava/i.s.a.m.-lv-25-26-regular-season-lv-25-26-regular-season

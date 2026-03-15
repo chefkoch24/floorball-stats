@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: Floorball Chur United
 Category: ch-25-26-regular-season, teams
 Slug: floorball-chur-united-ch-25-26-regular-season-ch-25-26-regular-season

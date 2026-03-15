@@ -4,7 +4,7 @@
 
 - This is a Floorball Stats project running here: https://stats.floorballconnect.com
 - It's deployed via Netlify
-- Run the frontend with: `pelican --autoreload --listen --port 8003`
+- Run the frontend with: `pelican --autoreload --listen --port 8000`
 
 ## Work Instructions
 - BACKLOG.md is your main source for new tasks next to the commands from me.

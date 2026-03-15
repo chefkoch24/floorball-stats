@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: HC Rychenberg Winterthur
 Category: ch-25-26-playoffs, teams
 Slug: hc-rychenberg-winterthur-ch-25-26-playoffs-ch-25-26-playoffs
@@ -95,4 +95,4 @@ goals_per_game: 8.0
 goals_against_per_game: 5.5
 boxplay_per_game: 2.0
 powerplay_per_game: 3.0
-rank: 2
+rank: 4

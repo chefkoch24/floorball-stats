@@ -2,6 +2,8 @@ import pandas as pd
 
 from src.run_stats_engine import (
     _build_gameflow_timeline,
+    _penalty_kill_efficiency,
+    _powerplay_efficiency,
     stat_away_points,
     stat_boxplay,
     stat_losses,
@@ -306,3 +308,20 @@ def test_stats_use_chronological_last_goal_when_events_are_reverse_ordered():
     assert stat_points(events, "Away") == 3
     assert stat_wins(events, "Home") == 0
     assert stat_wins(events, "Away") == 1
+
+
+def test_powerplay_efficiency_is_capped_to_100_and_min_0():
+    assert _powerplay_efficiency(2, 1) == 100.0
+    assert _powerplay_efficiency(1, 2) == 50.0
+    assert _powerplay_efficiency(-1, 2) == 0.0
+
+
+def test_penalty_kill_efficiency_is_bounded_between_0_and_100():
+    assert _penalty_kill_efficiency(2, 1) == 0.0
+    assert _penalty_kill_efficiency(1, 2) == 50.0
+    assert _penalty_kill_efficiency(-1, 2) == 100.0
+
+
+def test_efficiency_helpers_return_na_when_denominator_is_zero():
+    assert _powerplay_efficiency(1, 0) == "n.a."
+    assert _penalty_kill_efficiency(1, 0) == "n.a."

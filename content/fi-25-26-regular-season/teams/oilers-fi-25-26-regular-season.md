@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: Oilers
 Category: fi-25-26-regular-season, teams
 Slug: oilers-fi-25-26-regular-season-fi-25-26-regular-season
@@ -95,4 +95,4 @@ goals_per_game: 8.26
 goals_against_per_game: 4.35
 boxplay_per_game: 1.35
 powerplay_per_game: 1.32
-rank: 1
+rank: 2

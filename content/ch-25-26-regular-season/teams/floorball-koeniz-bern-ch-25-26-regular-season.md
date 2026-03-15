@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: Floorball Köniz Bern
 Category: ch-25-26-regular-season, teams
 Slug: floorball-koeniz-bern-ch-25-26-regular-season-ch-25-26-regular-season

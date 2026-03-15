@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: UHC Sparkasse Weißenfels
 Category: 25-26-regular-season, teams
 Slug: uhc-sparkasse-weissenfels-25-26-regular-season-25-26-regular-season
@@ -41,8 +41,8 @@ points_after_first_period: 26
 points_after_second_period: 36
 points_after_third_period: 38
 points_after_55_min: 41
-points_after_58_min: 34
-points_after_59_min: 35
+points_after_58_min: 35
+points_after_59_min: 36
 win_1: 4
 loss_1: 2
 points_more_2_difference: 24

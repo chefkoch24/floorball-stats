@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: SSF Dragons Bonn
 Category: 25-26-regular-season, teams
 Slug: ssf-dragons-bonn-25-26-regular-season-25-26-regular-season
@@ -40,9 +40,9 @@ boxplay_overtime: 0
 points_after_first_period: 26
 points_after_second_period: 33
 points_after_third_period: 36
-points_after_55_min: 38
-points_after_58_min: 38
-points_after_59_min: 36
+points_after_55_min: 40
+points_after_58_min: 40
+points_after_59_min: 39
 win_1: 4
 loss_1: 3
 points_more_2_difference: 21

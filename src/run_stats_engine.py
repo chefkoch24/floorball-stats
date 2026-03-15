@@ -15,10 +15,24 @@ EVENT_GOAL = 'goal'
 def _parse_result_string_score(result_string: object) -> tuple[int, int] | None:
     if result_string is None:
         return None
-    match = pd.Series([result_string]).astype(str).str.extract(r"(\d+)\s*:\s*(\d+)").iloc[0]
+    match = pd.Series([result_string]).astype(str).str.extract(r"(\d+)\s*[:-]\s*(\d+)").iloc[0]
     if match.isna().any():
         return None
     return int(match[0]), int(match[1])
+
+
+def _powerplay_efficiency(goals_in_powerplay: object, powerplay: object) -> float | str:
+    raw = safe_div(goals_in_powerplay, powerplay, 4, True, "n.a.")
+    if isinstance(raw, str):
+        return raw
+    return max(0.0, min(100.0, float(raw)))
+
+
+def _penalty_kill_efficiency(goals_against_in_boxplay: object, boxplay: object) -> float | str:
+    raw_against = safe_div(goals_against_in_boxplay, boxplay, 4, True, "n.a.")
+    if isinstance(raw_against, str):
+        return raw_against
+    return max(0.0, min(100.0, 100.0 - float(raw_against)))
 
 def _parse_sortkey_to_minute(sortkey: str) -> float:
     try:
@@ -973,11 +987,31 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
 
         away_stats = engine.calculate_team_stats(game_df, away_team).stats.copy()
 
+        # Prefer an explicit final score snapshot when available. Some feeds contain
+        # inconsistent scorer flags for individual events, which can otherwise
+        # misclassify games as draws even though a final result is present.
+        final_score = _parse_result_string_score(game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None)
+        if final_score is not None:
+            home_final, away_final = final_score
+            home_stats['goals'] = home_final
+            home_stats['goals_against'] = away_final
+            home_stats['goal_difference'] = home_final - away_final
+            home_stats['goals_home'] = home_final
+            home_stats['goals_away'] = 0
+            home_stats['goals_against_home'] = away_final
+            home_stats['goals_against_away'] = 0
+
+            away_stats['goals'] = away_final
+            away_stats['goals_against'] = home_final
+            away_stats['goal_difference'] = away_final - home_final
+            away_stats['goals_home'] = 0
+            away_stats['goals_away'] = away_final
+            away_stats['goals_against_home'] = 0
+            away_stats['goals_against_away'] = home_final
+
         for stats in [home_stats, away_stats]:
-            stats['powerplay_efficiency'] = safe_div(stats['goals_in_powerplay'], stats['powerplay'], 4, True, "n.a.")
-            stats['boxplay_efficiency'] = safe_div(stats['goals_against_in_boxplay'], stats['boxplay'], 4, True, "n.a.")
-            if type(stats['boxplay_efficiency']) != str:
-                stats['boxplay_efficiency'] = 100 - stats['boxplay_efficiency']
+            stats['powerplay_efficiency'] = _powerplay_efficiency(stats['goals_in_powerplay'], stats['powerplay'])
+            stats['boxplay_efficiency'] = _penalty_kill_efficiency(stats['goals_against_in_boxplay'], stats['boxplay'])
             stats['penalties'] = stats['penalty_2'] + stats['penalty_2and2'] + stats['penalty_10'] + stats['penalty_ms']
 
 
@@ -1031,10 +1065,8 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
 
     # add ratio features
     for team, stats in team_stats.items():
-        stats['powerplay_efficiency'] = safe_div(stats['goals_in_powerplay'], stats['powerplay'], 4, True, "n.a.")
-        stats['boxplay_efficiency'] = safe_div(stats['goals_against_in_boxplay'], stats['boxplay'], 4, True, "n.a.")
-        if type(stats['boxplay_efficiency']) != str:
-            stats['boxplay_efficiency'] = 100 - stats['boxplay_efficiency']
+        stats['powerplay_efficiency'] = _powerplay_efficiency(stats['goals_in_powerplay'], stats['powerplay'])
+        stats['boxplay_efficiency'] = _penalty_kill_efficiency(stats['goals_against_in_boxplay'], stats['boxplay'])
         stats['percent_goals_first_period'] = safe_div(stats['goals_in_first_period'], stats['goals'], 4, True, "n.a.")
         stats['percent_goals_second_period'] = safe_div(stats['goals_in_second_period'], stats['goals'], 4, True,
                                                         "n.a.")

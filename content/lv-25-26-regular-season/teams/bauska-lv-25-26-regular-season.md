@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: Bauska
 Category: lv-25-26-regular-season, teams
 Slug: bauska-lv-25-26-regular-season-lv-25-26-regular-season

@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-15
 Title: FBC Turku
 Category: fi-25-26-regular-season, teams
 Slug: fbc-turku-fi-25-26-regular-season-fi-25-26-regular-season
