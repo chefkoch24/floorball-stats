@@ -4,6 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ SITENAME }}</title>
+    <script>
+    (function () {
+        try {
+            var savedTheme = localStorage.getItem('fs_theme');
+            var resolvedTheme = (savedTheme === 'light' || savedTheme === 'dark')
+                ? savedTheme
+                : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', resolvedTheme);
+            document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {}
+    })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,10 +29,7 @@
         <a class="brand" href="{{ SITEURL }}/">
             <span class="brand-title">{{ SITENAME }}</span>
         </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">Menu</button>
         <nav class="main-nav" id="mainNav">
-            <a class="nav-home" href="{{ SITEURL }}/">Home</a>
-
             <div class="nav-section">
                 <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Sweden</a>
                 <div class="nav-mobile-phase-links">
@@ -140,6 +149,10 @@
                 </div>
             </div>
         </nav>
+        <div class="header-actions">
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">Menu</button>
+        </div>
     </div>
 </header>
 
@@ -184,6 +197,52 @@ if (__phEnabled) {
 })();
 </script>
 <script>
+const themeToggle = document.querySelector('.theme-toggle');
+const themeStorageKey = 'fs_theme';
+const themeMedia = window.matchMedia('(prefers-color-scheme: dark)');
+const rootElement = document.documentElement;
+
+function setTheme(theme, persist) {
+  rootElement.setAttribute('data-theme', theme);
+  rootElement.style.colorScheme = theme;
+  if (persist) {
+    localStorage.setItem(themeStorageKey, theme);
+  }
+  if (themeToggle) {
+    const isDark = theme === 'dark';
+    themeToggle.textContent = isDark ? 'Light' : 'Dark';
+    themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+    themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+}
+
+function getPreferredTheme() {
+  const savedTheme = localStorage.getItem(themeStorageKey);
+  if (savedTheme === 'light' || savedTheme === 'dark') {
+    return savedTheme;
+  }
+  return themeMedia.matches ? 'dark' : 'light';
+}
+
+setTheme(getPreferredTheme(), false);
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = rootElement.getAttribute('data-theme') || 'light';
+    const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    setTheme(nextTheme, true);
+  });
+}
+
+if (themeMedia && themeMedia.addEventListener) {
+  themeMedia.addEventListener('change', (event) => {
+    const savedTheme = localStorage.getItem(themeStorageKey);
+    if (!savedTheme) {
+      setTheme(event.matches ? 'dark' : 'light', false);
+    }
+  });
+}
+
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('#mainNav');
 if (menuToggle && mainNav) {
