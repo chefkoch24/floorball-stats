@@ -30,7 +30,7 @@
 <section class="panel">
     <h2 class="panel-title">Standings</h2>
     <div class="table-wrapper">
-        <table class="data-table">
+        <table class="data-table standings-table">
             <thead>
             <tr>
                 <th>Rank</th>
@@ -47,7 +47,7 @@
             <tbody>
             {% for candidate in articles_page.object_list | sort_by_rank %}
             {% if candidate|string_in_category_path('teams') %}
-            <tr>
+            <tr class="standings-row">
                 <td>{{ candidate.rank|default('–') }}</td>
                 <td><a href="{{ SITEURL }}/{{ candidate.url }}">{{ candidate.team }}</a></td>
                 <td>{{ candidate.points|default('–') }}</td>
@@ -64,6 +64,34 @@
         </table>
     </div>
 </section>
+
+{% if is_playoffs and ns.game_count > 0 %}
+<section class="panel">
+    <h2 class="panel-title">Playoff Bracket</h2>
+    <p class="timeline-note">Rounds and progression are inferred from playoff game timelines.</p>
+    <div id="playoff-bracket-tabs" class="playoff-bracket-tabs">
+        <p class="playoff-bracket-empty">Loading rounds...</p>
+    </div>
+    <div id="playoff-bracket-rounds">
+        <p class="playoff-bracket-empty">Loading series...</p>
+    </div>
+    <div class="playoff-source" aria-hidden="true">
+        {% for game in articles_page.object_list %}
+        {% if game.type == 'game' %}
+        <span
+            class="playoff-game-source"
+            data-home-team="{{ game.home_team|default('')|e }}"
+            data-away-team="{{ game.away_team|default('')|e }}"
+            data-home-goals="{{ game.home_goals|default('') }}"
+            data-away-goals="{{ game.away_goals|default('') }}"
+            data-date="{{ game.date.strftime('%Y-%m-%d') if game.date else '' }}"
+            data-url="{{ SITEURL }}/{{ game.url }}"
+        ></span>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
 
 {% if not is_playoffs %}
 <section class="panel">
@@ -131,5 +159,297 @@
         </table>
     </div>
 </section>
+{% endif %}
+{% if is_playoffs and ns.game_count > 0 %}
+<script>
+(() => {
+  const tabsRoot = document.getElementById('playoff-bracket-tabs');
+  const roundsRoot = document.getElementById('playoff-bracket-rounds');
+  if (!tabsRoot || !roundsRoot) return;
+
+  const normalize = (value) => (value || '').trim().toLowerCase();
+  const toInt = (value) => {
+    const parsed = Number.parseInt(value, 10);
+    return Number.isNaN(parsed) ? null : parsed;
+  };
+  const dateValue = (value) => (value || '').trim();
+  const inferRoundLabel = (round) => `Round ${round}`;
+
+  const rankMap = new Map();
+  document.querySelectorAll('.standings-table .standings-row').forEach((row) => {
+    const rankCell = row.children[0];
+    const teamCell = row.children[1];
+    if (!rankCell || !teamCell) return;
+    const teamName = (teamCell.textContent || '').trim();
+    const rank = toInt(rankCell.textContent);
+    if (!teamName || rank === null) return;
+    rankMap.set(normalize(teamName), rank);
+  });
+  const topSeedTeams = new Set(
+    Array.from(rankMap.entries())
+      .filter(([, rank]) => rank <= 8)
+      .map(([teamKey]) => teamKey)
+  );
+  const enforceTop8Seeds = topSeedTeams.size >= 8;
+
+  const seriesMap = new Map();
+  const games = [];
+  document.querySelectorAll('.playoff-game-source').forEach((el) => {
+    const homeTeam = (el.dataset.homeTeam || '').trim();
+    const awayTeam = (el.dataset.awayTeam || '').trim();
+    if (!homeTeam || !awayTeam) return;
+    games.push({
+      homeTeam,
+      awayTeam,
+      homeGoals: toInt(el.dataset.homeGoals),
+      awayGoals: toInt(el.dataset.awayGoals),
+      date: dateValue(el.dataset.date),
+      url: el.dataset.url || '#',
+    });
+  });
+
+  games.sort((a, b) => a.date.localeCompare(b.date));
+  games.forEach((game) => {
+    const homeTeam = game.homeTeam;
+    const awayTeam = game.awayTeam;
+    const homeKey = normalize(homeTeam);
+    const awayKey = normalize(awayTeam);
+    if (enforceTop8Seeds && (!topSeedTeams.has(homeKey) || !topSeedTeams.has(awayKey))) {
+      return;
+    }
+    const pair = [homeKey, awayKey].sort();
+    const seriesKey = pair.join('||');
+
+    const homeGoals = game.homeGoals;
+    const awayGoals = game.awayGoals;
+    const gameDate = game.date;
+    const gameUrl = game.url;
+
+    if (!seriesMap.has(seriesKey)) {
+      seriesMap.set(seriesKey, {
+        key: seriesKey,
+        teams: {},
+        wins: {},
+        games: 0,
+        firstDate: '',
+        latestDate: '',
+        latestResult: '',
+        latestUrl: '#',
+      });
+    }
+    const series = seriesMap.get(seriesKey);
+    series.teams[homeKey] = homeTeam;
+    series.teams[awayKey] = awayTeam;
+    series.wins[homeKey] = series.wins[homeKey] || 0;
+    series.wins[awayKey] = series.wins[awayKey] || 0;
+    series.games += 1;
+    if (!series.firstDate || gameDate < series.firstDate) {
+      series.firstDate = gameDate;
+    }
+
+    if (homeGoals !== null && awayGoals !== null) {
+      if (homeGoals > awayGoals) series.wins[homeKey] += 1;
+      if (awayGoals > homeGoals) series.wins[awayKey] += 1;
+      if (!series.latestDate || gameDate >= series.latestDate) {
+        series.latestDate = gameDate;
+        series.latestResult = `${homeTeam} ${homeGoals}:${awayGoals} ${awayTeam}`;
+        series.latestUrl = gameUrl;
+      }
+    }
+  });
+
+  const seriesList = Array.from(seriesMap.values()).map((series, index) => {
+    const teamKeys = Object.keys(series.teams);
+    const [teamAKey, teamBKey] = teamKeys;
+    const teamA = series.teams[teamAKey] || 'Unknown';
+    const teamB = series.teams[teamBKey] || 'Unknown';
+    const teamAWins = series.wins[teamAKey] || 0;
+    const teamBWins = series.wins[teamBKey] || 0;
+    const rankA = rankMap.get(teamAKey) || 999;
+    const rankB = rankMap.get(teamBKey) || 999;
+    return {
+      teamAKey,
+      teamBKey,
+      teamA,
+      teamB,
+      teamAWins,
+      teamBWins,
+      games: series.games,
+      latestDate: series.latestDate,
+      latestResult: series.latestResult,
+      latestUrl: series.latestUrl,
+      sortRank: Math.min(rankA, rankB),
+      sortSecondary: Math.max(rankA, rankB),
+      firstDate: series.firstDate || '9999-12-31',
+      round: 1,
+      advancedTeamKey: null,
+      id: `${series.key}-${index}`,
+    };
+  });
+
+  seriesList.sort(
+    (a, b) =>
+      a.firstDate.localeCompare(b.firstDate) ||
+      (a.sortRank - b.sortRank) ||
+      (a.sortSecondary - b.sortSecondary)
+  );
+
+  if (!seriesList.length) {
+    tabsRoot.innerHTML = '';
+    roundsRoot.innerHTML = '<p class="playoff-bracket-empty">No playoff series data available yet.</p>';
+    return;
+  }
+
+  const teamSeries = new Map();
+  seriesList.forEach((series) => {
+    [series.teamAKey, series.teamBKey].forEach((teamKey) => {
+      if (!teamSeries.has(teamKey)) teamSeries.set(teamKey, []);
+      teamSeries.get(teamKey).push(series);
+    });
+  });
+
+  teamSeries.forEach((entries) => {
+    entries.sort((a, b) => a.firstDate.localeCompare(b.firstDate));
+  });
+
+  teamSeries.forEach((entries, teamKey) => {
+    let currentRound = 1;
+    let previousOpponentKey = null;
+
+    entries.forEach((series) => {
+      const opponentKey = series.teamAKey === teamKey ? series.teamBKey : series.teamAKey;
+      if (previousOpponentKey !== null && opponentKey !== previousOpponentKey) {
+        currentRound += 1;
+      }
+      if (series.round < currentRound) series.round = currentRound;
+      previousOpponentKey = opponentKey;
+    });
+  });
+
+  // Enforce: a team can appear in only one series per round.
+  let hasConflicts = true;
+  while (hasConflicts) {
+    hasConflicts = false;
+    const teamsSeenByRound = new Map();
+    seriesList
+      .slice()
+      .sort(
+        (a, b) =>
+          (a.round - b.round) ||
+          a.firstDate.localeCompare(b.firstDate) ||
+          (a.sortRank - b.sortRank) ||
+          (a.sortSecondary - b.sortSecondary)
+      )
+      .forEach((series) => {
+        const round = series.round;
+        if (!teamsSeenByRound.has(round)) teamsSeenByRound.set(round, new Set());
+        const seenTeams = teamsSeenByRound.get(round);
+        const conflict = seenTeams.has(series.teamAKey) || seenTeams.has(series.teamBKey);
+        if (conflict) {
+          series.round += 1;
+          hasConflicts = true;
+          return;
+        }
+        seenTeams.add(series.teamAKey);
+        seenTeams.add(series.teamBKey);
+      });
+  }
+
+  const maxRound = Math.max(...seriesList.map((series) => series.round));
+  const roundNumbers = Array.from(new Set(seriesList.map((series) => series.round))).sort((a, b) => a - b);
+
+  const seriesByRound = new Map();
+  roundNumbers.forEach((round) => seriesByRound.set(round, []));
+  seriesList.forEach((series) => {
+    seriesByRound.get(series.round).push(series);
+  });
+  roundNumbers.forEach((round) => {
+    seriesByRound.get(round).sort((a, b) => (a.sortRank - b.sortRank) || (a.sortSecondary - b.sortSecondary));
+  });
+
+  const teamMaxRound = new Map();
+  teamSeries.forEach((entries, teamKey) => {
+    teamMaxRound.set(teamKey, Math.max(...entries.map((entry) => entry.round)));
+  });
+
+  seriesList.forEach((series) => {
+    const aHasNext = (teamMaxRound.get(series.teamAKey) || 0) > series.round;
+    const bHasNext = (teamMaxRound.get(series.teamBKey) || 0) > series.round;
+    if (aHasNext && !bHasNext) series.advancedTeamKey = series.teamAKey;
+    if (bHasNext && !aHasNext) series.advancedTeamKey = series.teamBKey;
+  });
+
+  tabsRoot.innerHTML = roundNumbers.map((round) => {
+    const label = inferRoundLabel(round);
+    const active = round === maxRound ? ' is-active' : '';
+    return `<button type="button" class="playoff-tab${active}" data-round="${round}">${label}</button>`;
+  }).join('');
+
+  roundsRoot.innerHTML = roundNumbers.map((round) => {
+    const label = inferRoundLabel(round);
+    const active = round === maxRound ? ' is-active' : '';
+    const cards = seriesByRound.get(round).map((series, index) => {
+      const teamALeading = series.teamAWins > series.teamBWins;
+      const teamBLeading = series.teamBWins > series.teamAWins;
+      const latestLine = series.latestResult
+        ? `<a href="${series.latestUrl}">Latest: ${series.latestResult}</a>`
+        : 'Latest: pending result';
+      const advancedText = series.advancedTeamKey === series.teamAKey
+        ? `${series.teamA} advanced`
+        : series.advancedTeamKey === series.teamBKey
+          ? `${series.teamB} advanced`
+          : '';
+      const progressLine = advancedText
+        ? `<p class="playoff-series-progress">${advancedText}</p>`
+        : '';
+
+      return `
+        <article class="playoff-series-card">
+          <header class="playoff-series-head">
+            <h3>Series ${index + 1}</h3>
+            <span>${series.games} games</span>
+          </header>
+          <div class="playoff-series-team ${teamALeading ? 'is-leading' : ''}">
+            <span>${series.teamA}</span>
+            <strong>${series.teamAWins}</strong>
+          </div>
+          <div class="playoff-series-team ${teamBLeading ? 'is-leading' : ''}">
+            <span>${series.teamB}</span>
+            <strong>${series.teamBWins}</strong>
+          </div>
+          ${progressLine}
+          <p class="playoff-series-latest">${latestLine}</p>
+        </article>
+      `;
+    }).join('');
+
+    return `
+      <section class="playoff-round-panel${active}" data-round-panel="${round}">
+        <h3 class="playoff-round-title">${label}</h3>
+        <div class="playoff-round-grid">${cards}</div>
+      </section>
+    `;
+  }).join('');
+
+  const activateRound = (round) => {
+    tabsRoot.querySelectorAll('.playoff-tab').forEach((tab) => {
+      tab.classList.toggle('is-active', Number.parseInt(tab.dataset.round || '0', 10) === round);
+    });
+    roundsRoot.querySelectorAll('.playoff-round-panel').forEach((panel) => {
+      panel.classList.toggle('is-active', Number.parseInt(panel.dataset.roundPanel || '0', 10) === round);
+    });
+  };
+
+  tabsRoot.querySelectorAll('.playoff-tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const round = Number.parseInt(tab.dataset.round || '0', 10);
+      if (!round) return;
+      activateRound(round);
+    });
+  });
+
+  activateRound(maxRound);
+})();
+</script>
 {% endif %}
 {% endblock content %}

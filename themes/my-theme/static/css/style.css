@@ -757,6 +757,150 @@ a:hover {
   font-size: 0.9rem;
 }
 
+.playoff-source {
+  display: none;
+}
+
+.playoff-bracket-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.playoff-tab {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-muted);
+  color: var(--card-text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.28rem 0.7rem;
+  cursor: pointer;
+}
+
+.playoff-tab:hover {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.playoff-tab.is-active {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.playoff-round-panel {
+  display: none;
+}
+
+.playoff-round-panel.is-active {
+  display: block;
+}
+
+.playoff-round-title {
+  margin: 0 0 0.6rem;
+  font-size: 0.94rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.playoff-round-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.8rem;
+}
+
+.playoff-series-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-muted);
+  padding: 0.75rem 0.85rem;
+}
+
+.playoff-series-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.playoff-series-head h3 {
+  margin: 0;
+  font-size: 0.94rem;
+}
+
+.playoff-series-head span {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.playoff-series-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0.42rem 0.5rem;
+}
+
+.playoff-series-team + .playoff-series-team {
+  margin-top: 0.35rem;
+}
+
+.playoff-series-team span {
+  font-size: 0.92rem;
+  color: var(--card-text);
+  font-weight: 600;
+}
+
+.playoff-series-team strong {
+  min-width: 1.5rem;
+  text-align: center;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 0.82rem;
+  padding: 0.15rem 0.4rem;
+}
+
+.playoff-series-team.is-leading {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.playoff-series-latest {
+  margin: 0.5rem 0 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.playoff-series-latest a {
+  font-weight: 600;
+}
+
+.playoff-series-progress {
+  margin: 0.5rem 0 0;
+  font-size: 0.78rem;
+  color: var(--result-win-text);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.playoff-bracket-empty {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
 [data-theme="dark"] .kpi {
   background: #17243a;
   border-color: #365273;
@@ -811,6 +955,47 @@ a:hover {
 [data-theme="dark"] .season-phase-link.is-disabled {
   color: #bcd0e8;
   opacity: 0.8;
+}
+
+[data-theme="dark"] .playoff-series-card {
+  background: #1b2a40;
+  border-color: #38557a;
+}
+
+[data-theme="dark"] .playoff-series-team span {
+  color: #e6f0ff;
+}
+
+[data-theme="dark"] .playoff-series-team strong {
+  background: #152236;
+  border-color: #406287;
+  color: #edf5ff;
+}
+
+[data-theme="dark"] .playoff-series-team.is-leading {
+  background: rgba(127, 194, 255, 0.14);
+  border-color: rgba(127, 194, 255, 0.36);
+}
+
+[data-theme="dark"] .playoff-tab {
+  background: #1b2a40;
+  border-color: #38557a;
+  color: #dbe8f8;
+}
+
+[data-theme="dark"] .playoff-tab:hover,
+[data-theme="dark"] .playoff-tab.is-active {
+  background: rgba(127, 194, 255, 0.16);
+  border-color: rgba(127, 194, 255, 0.4);
+  color: #e9f4ff;
+}
+
+[data-theme="dark"] .playoff-round-title {
+  color: #b8cce4;
+}
+
+[data-theme="dark"] .playoff-series-progress {
+  color: #9ff2c8;
 }
 
 [data-theme="dark"] .side-meta {
@@ -1045,5 +1230,9 @@ a:hover {
   .stats-split-table .value-away,
   .stats-split-table .value-label {
     font-size: 0.88rem;
+  }
+
+  .playoff-round-grid {
+    grid-template-columns: 1fr;
   }
 }
