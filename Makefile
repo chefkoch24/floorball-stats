@@ -34,6 +34,7 @@ PHASE ?= regular-season
 # Sweden pipeline defaults (SSL StatsApp)
 SWEDEN_COMPETITION_ID ?= 40693
 SWEDEN_SEASON ?= se-25-26
+SWEDEN_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/sweden-ssl-playoffs.json
 # Switzerland pipeline defaults (Swiss Unihockey renderengine)
 SWISS_LEAGUE ?= 24
 SWISS_SEASON ?= 2025
@@ -47,6 +48,7 @@ FINLAND_SEASON ?= fi-25-26
 FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
 # Czech pipeline defaults (Czech Extraliga config)
 CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
+CZECH_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga-playoffs.json
 # Slovakia pipeline defaults (SZFB Extraliga)
 SLOVAKIA_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga.json
 SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga-playoffs.json
@@ -72,10 +74,12 @@ help:
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '   make refresh-current-season         full pipeline for 1. FBL Herren     '
 	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
+	@echo '   make refresh-sweden-playoffs        playoffs pipeline for Sweden SSL     '
 	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
 	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
 	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
 	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
+	@echo '   make refresh-czech-playoffs         playoffs pipeline for Czech Extraliga'
 	@echo '   make refresh-slovakia               full pipeline for Slovak Extraliga  '
 	@echo '   make refresh-slovakia-playoffs      playoffs pipeline for Slovak Extraliga'
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
@@ -86,9 +90,11 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
 	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
+	@echo 'Set SWEDEN_PLAYOFFS_LEAGUE_CONFIG to override refresh-sweden-playoffs      '
 	@echo 'Set SWISS_* to override refresh-switzerland                                '
 	@echo 'Set FINLAND_* to override refresh-finland                                   '
 	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
+	@echo 'Set CZECH_PLAYOFFS_LEAGUE_CONFIG to override refresh-czech-playoffs         '
 	@echo 'Set SLOVAKIA_LEAGUE_CONFIG to override refresh-slovakia                     '
 	@echo 'Set SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-slovakia-playoffs   '
 	@echo 'Set LATVIA_LEAGUE_CONFIG to override refresh-latvia                         '
@@ -125,6 +131,9 @@ refresh-current-season:
 refresh-sweden:
 	"$(PYTHON)" -m src.pipeline --backend sweden --competition_id "$(SWEDEN_COMPETITION_ID)" --season "$(SWEDEN_SEASON)" --phase "$(PHASE)"
 
+refresh-sweden-playoffs:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWEDEN_PLAYOFFS_LEAGUE_CONFIG)"
+
 refresh-switzerland:
 	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --swiss_group "$(SWISS_GROUP)" --season "$(SWISS_SEASON_SLUG)" --phase "$(PHASE)"
 
@@ -136,6 +145,9 @@ refresh-finland:
 
 refresh-czech:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)"
+
+refresh-czech-playoffs:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-slovakia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_LEAGUE_CONFIG)"
@@ -183,4 +195,4 @@ refresh-all-leagues:
 	$(MAKE) refresh-latvia-smart
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-czech refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-sweden refresh-sweden-playoffs refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues

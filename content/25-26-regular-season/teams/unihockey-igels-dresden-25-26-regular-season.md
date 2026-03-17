@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Unihockey Igels Dresden
 Category: 25-26-regular-season, teams
 Slug: unihockey-igels-dresden-25-26-regular-season-25-26-regular-season

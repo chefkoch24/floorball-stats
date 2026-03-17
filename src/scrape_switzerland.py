@@ -10,6 +10,8 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.scheduled_games import build_scheduled_game_row
+
 
 BASE_URL = "https://www.swissunihockey.ch"
 RENDER_URL = f"{BASE_URL}/renderengine/load_view.php"
@@ -24,6 +26,7 @@ class GameDetails:
     result_string: str | None
     goals_home: int | None
     goals_away: int | None
+    attendance: int | None
     header_text: str | None
 
 
@@ -87,6 +90,8 @@ def _parse_game_details(html: str) -> GameDetails:
         if match:
             goals_home = int(match.group("h"))
             goals_away = int(match.group("a"))
+    spectators_raw = data.get("spectators")
+    attendance = int(spectators_raw) if spectators_raw and str(spectators_raw).isdigit() else None
 
     return GameDetails(
         home_team=data.get("home_name", ""),
@@ -96,6 +101,7 @@ def _parse_game_details(html: str) -> GameDetails:
         result_string=result_raw,
         goals_home=goals_home,
         goals_away=goals_away,
+        attendance=attendance,
         header_text=header_text,
     )
 
@@ -122,6 +128,23 @@ def _goal_type(event_text: str) -> str:
     if "penaltyschuss" in text or "penaltyschiessen" in text:
         return "penalty_shot"
     return "goal"
+
+
+def _parse_player_details(player_text: str | None) -> tuple[str | None, str | None]:
+    if not player_text:
+        return None, None
+    cleaned = " ".join(player_text.split())
+    if not cleaned:
+        return None, None
+    assist_match = re.search(r"(?:assist|vorlage)\s*[:\-]?\s*(.+)$", cleaned, re.I)
+    if assist_match:
+        scorer_name = cleaned[:assist_match.start()].strip(" ,;-")
+        assist_name = assist_match.group(1).strip(" ,;-")
+        return scorer_name or None, assist_name or None
+    match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
+    if not match:
+        return cleaned, None
+    return (match.group("scorer") or "").strip() or None, (match.group("assist") or "").strip() or None
 
 
 def _classify_phase(header_text: str | None) -> str:
@@ -167,7 +190,7 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
         cells = [c.get_text(" ", strip=True) for c in row.find_all("td")]
         if len(cells) < 4:
             continue
-        minute_raw, event_text, team_name, _player = cells[:4]
+        minute_raw, event_text, team_name, player_text = cells[:4]
         if not minute_raw or not event_text:
             continue
         if ":" not in minute_raw:
@@ -184,6 +207,7 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
         sortkey = f"{period}-{minute_in_period:02d}:{second:02d}"
 
         if event_text.startswith("Torschütze") and team_name:
+            scorer_name, assist_name = _parse_player_details(player_text)
             events.append(
                 {
                     "event_type": "goal",
@@ -199,12 +223,19 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "penalty_type": None,
                     "game_date": details.game_date,
                     "game_start_time": details.game_start_time,
+                    "attendance": details.attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": details.result_string,
+                    "scorer_name": scorer_name,
+                    "assist_name": assist_name,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": None,
                 }
             )
         elif "strafe" in event_text.lower() and team_name:
+            penalty_player_name, _ = _parse_player_details(player_text)
             events.append(
                 {
                     "event_type": "penalty",
@@ -220,9 +251,15 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "penalty_type": _penalty_type(event_text),
                     "game_date": details.game_date,
                     "game_start_time": details.game_start_time,
+                    "attendance": details.attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": details.result_string,
+                    "scorer_name": None,
+                    "assist_name": None,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": penalty_player_name,
                 }
             )
 
@@ -246,9 +283,15 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "penalty_type": None,
                     "game_date": details.game_date,
                     "game_start_time": details.game_start_time,
+                    "attendance": details.attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": details.result_string,
+                    "scorer_name": None,
+                    "assist_name": None,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": None,
                 }
             )
     elif _needs_overtime_marker(details.result_string):
@@ -271,9 +314,15 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
                     "penalty_type": None,
                     "game_date": details.game_date,
                     "game_start_time": details.game_start_time,
+                    "attendance": details.attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": details.result_string,
+                    "scorer_name": None,
+                    "assist_name": None,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": None,
                 }
             )
 
@@ -423,7 +472,21 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
         if phase_filter and _classify_phase(details.header_text) != phase_filter:
             continue
         events = _parse_game_events(events_html, game_id, details)
-        all_events.extend(events)
+        if events:
+            all_events.extend(events)
+        else:
+            all_events.append(
+                build_scheduled_game_row(
+                    game_id=game_id,
+                    home_team=details.home_team,
+                    away_team=details.away_team,
+                    game_date=details.game_date,
+                    game_start_time=details.game_start_time,
+                    attendance=details.attendance,
+                    game_status="Scheduled" if details.goals_home is None or details.goals_away is None else "Played",
+                    result_string=details.result_string,
+                )
+            )
 
     if not all_events:
         raise ValueError("No Swiss games matched the requested phase filter.")

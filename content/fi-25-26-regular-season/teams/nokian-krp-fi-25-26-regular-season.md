@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Nokian KrP
 Category: fi-25-26-regular-season, teams
 Slug: nokian-krp-fi-25-26-regular-season-fi-25-26-regular-season
@@ -13,10 +13,10 @@ draws: 0
 losses: 5
 over_time_losses: 1
 penalty_shootout_losses: 0
-goals: 20
-goals_against: 9
+goals: 229
+goals_against: 114
 games: 31
-goal_difference: 11
+goal_difference: 115
 points_max_difference_2: 14
 goals_in_first_period: 66
 goals_in_second_period: 80
@@ -67,10 +67,10 @@ goals_in_second_period_against: 32
 goals_in_third_period_against: 51
 goals_in_overtime_against: 1
 goals_in_penalty_shootout_against: 0
-goals_home: 10
-goals_away: 10
-goals_against_home: 4
-goals_against_away: 5
+goals_home: 118
+goals_away: 111
+goals_against_home: 54
+goals_against_away: 60
 home_points: 36
 away_points: 38
 take_the_lead_goals_against: 22
@@ -80,19 +80,19 @@ Tags:  Classic: 5,  EräViikingit: 6,  FBC Turku: 6,  Hawks: 6,  Indians: 6,  Jy
 penalties: 41
 powerplay_efficiency: 69.39
 boxplay_efficiency: 62.16
-percent_goals_first_period: 330.0
-percent_goals_second_period: 400.0
-percent_goals_third_period: 405.0
-percent_goals_overtime: 10.0
-percent_goals_first_period_against: 333.33
-percent_goals_second_period_against: 355.56
-percent_goals_third_period_against: 566.67
-percent_goals_overtime_against: 11.110000000000001
+percent_goals_first_period: 28.82
+percent_goals_second_period: 34.93
+percent_goals_third_period: 35.370000000000005
+percent_goals_overtime: 0.8699999999999999
+percent_goals_first_period_against: 26.32
+percent_goals_second_period_against: 28.07
+percent_goals_third_period_against: 44.74
+percent_goals_overtime_against: 0.88
 points_per_game: 2.39
-goal_difference_per_game: 0.35
-scoring_ratio: 2.22
-goals_per_game: 0.65
-goals_against_per_game: 0.29
+goal_difference_per_game: 3.71
+scoring_ratio: 2.01
+goals_per_game: 7.39
+goals_against_per_game: 3.68
 boxplay_per_game: 1.19
 powerplay_per_game: 1.58
 rank: 3

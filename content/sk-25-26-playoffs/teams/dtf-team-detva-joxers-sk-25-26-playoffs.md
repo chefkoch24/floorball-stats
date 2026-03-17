@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: DTF team Detva Joxers
 Category: sk-25-26-playoffs, teams
 Slug: dtf-team-detva-joxers-sk-25-26-playoffs-sk-25-26-playoffs

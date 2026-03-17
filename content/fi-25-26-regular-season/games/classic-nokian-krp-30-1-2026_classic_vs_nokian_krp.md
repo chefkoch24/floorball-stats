@@ -6,9 +6,12 @@ type: game
 game_id: classic-nokian-krp-30-1-2026
 home_team: Classic
 away_team: Nokian KrP
-start_time: nan
-result_string: 1-0
-ingame_status: nan
+start_time: None
+attendance: 1036.0
+game_status: Played
+result_string: 4-1
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,20.48,30.17,31.6,49.42,58.42
 timeline_diffs_csv: 0,1,0,1,2,3
 timeline_home_goals_csv: 0,1,1,2,3,4
@@ -26,6 +29,8 @@ away_penalty_ends_csv:
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
+game_events_b64: W3sibWludXRlIjoiMDA6MjkiLCJwZXJpb2QiOjIsInRlYW0iOiJDbGFzc2ljIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJOaWNvIFNhbG8iLCJhc3Npc3QiOiJWaWxsZSBMYXN0aWtrYSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEwOjEwIiwicGVyaW9kIjoyLCJ0ZWFtIjoiTm9raWFuIEtyUCIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIxOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWlra28gTGFha3NvIiwiYXNzaXN0IjoiTmljbyBKb25hZXNvbiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjExOjM2IiwicGVyaW9kIjoyLCJ0ZWFtIjoiQ2xhc3NpYyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiVmlsbGUgSGlldGFyYW50YSIsImFzc2lzdCI6IlRlZW11IEthcnBwYW5lbiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjQwOjAwIiwicGVyaW9kIjoyLCJ0ZWFtIjpudWxsLCJzaWRlIjoiYnJlYWsiLCJzY29yZSI6bnVsbCwiZXZlbnRfa2luZCI6ImJyZWFrIiwidGl0bGUiOiJFbmQgMm5kIHBlcmlvZCIsImFzc2lzdCI6bnVsbCwidGFnIjpudWxsfSx7Im1pbnV0ZSI6IjA5OjI1IiwicGVyaW9kIjozLCJ0ZWFtIjoiQ2xhc3NpYyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIzOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRWVtZWxpIFNhbGluIiwiYXNzaXN0IjoiVmlsamFtaSBWaXJ0YW5lbiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE4OjI1IiwicGVyaW9kIjozLCJ0ZWFtIjoiQ2xhc3NpYyIsInNpZGUiOiJob21lIiwic2NvcmUiOiI0OjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiVmlsbGUgTGFzdGlra2EiLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifV0=
+game_events_count: 6
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -34,10 +39,10 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 1
-home_goals_against: 0
+home_goals: 4
+home_goals_against: 1
 home_games: 1
-home_goal_difference: 1
+home_goal_difference: 3
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 2
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 1
 home_goals_in_third_period_against: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 1
+home_goals_home: 4
 home_goals_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 1
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
@@ -109,10 +114,10 @@ away_draws: 0
 away_losses: 1
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 0
-away_goals_against: 1
+away_goals: 1
+away_goals_against: 4
 away_games: 1
-away_goal_difference: -1
+away_goal_difference: -3
 away_points_max_difference_2: 0
 away_goals_in_first_period: 0
 away_goals_in_second_period: 1
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 0
+away_goals_away: 1
 away_goals_against_home: 0
-away_goals_against_away: 1
+away_goals_against_away: 4
 away_home_points: 0
 away_away_points: 0
 away_take_the_lead_goals_against: 2

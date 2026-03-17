@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Florbalový klub AS Trenčín
 Category: sk-25-26-regular-season, teams
 Slug: florbalový-klub-as-trenčín-sk-25-26-regular-season-sk-25-26-regular-season

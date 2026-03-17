@@ -7,8 +7,10 @@ from typing import Any
 
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from tqdm import tqdm
+
+from src.scheduled_games import build_scheduled_game_row
 
 
 USER_AGENT = "Mozilla/5.0 (compatible; FloorballStats/1.0; +https://fliiga.com/)"
@@ -122,6 +124,17 @@ def _extract_score(desc: str | None, current_home: int, current_away: int) -> tu
     return int(match.group(1)), int(match.group(2))
 
 
+def _extract_final_score(soup: BeautifulSoup) -> tuple[int | None, int | None]:
+    home_node = soup.select_one(".match-scores .home-goals")
+    away_node = soup.select_one(".match-scores .away-goals")
+    if not home_node or not away_node:
+        return None, None
+    try:
+        return int(home_node.get_text(strip=True)), int(away_node.get_text(strip=True))
+    except ValueError:
+        return None, None
+
+
 def _penalty_type_from_event(event_div: Any) -> str:
     penalty_tag = event_div.select_one(".penalty-tag")
     if penalty_tag:
@@ -162,6 +175,41 @@ def _event_team_from_penalty(event_div: Any, home_team: str, away_team: str) -> 
     return None
 
 
+def _parse_goal_people(event_div: Any) -> tuple[str | None, str | None]:
+    scorer_node = event_div.select_one(".event-home .scorer, .event-away .scorer")
+    assist_node = event_div.select_one(
+        ".event-home .has-assists, .event-away .has-assists, .event-home .assist, .event-away .assist"
+    )
+    scorer_name = scorer_node.get_text(" ", strip=True) if scorer_node else None
+    assist_name = assist_node.get_text(" ", strip=True) if assist_node else None
+    if assist_name:
+        assist_name = re.sub(r"^(assist|syöttäjä)\s*[:\-]?\s*", "", assist_name, flags=re.I).strip()
+    return scorer_name or None, assist_name or None
+
+
+def _parse_penalty_player(event_div: Any) -> str | None:
+    info_node = event_div.select_one(".event-home .event-info, .event-away .event-info")
+    if not info_node:
+        return None
+    direct_text = "".join(
+        str(content) for content in info_node.contents if isinstance(content, NavigableString)
+    ).strip()
+    text = direct_text or info_node.get_text(" ", strip=True)
+    if not text:
+        return None
+    text = re.sub(r"^\d+\s*min\s*", "", text, flags=re.I).strip(" -")
+    return text or None
+
+
+def _extract_attendance(soup: BeautifulSoup) -> int | None:
+    attendance_node = soup.select_one(".additional.audience")
+    text = attendance_node.get_text(" ", strip=True) if attendance_node else soup.get_text(" ", strip=True)
+    match = re.search(r"(?:Audience|Yleisömäärä)\s*(\d+)", text, re.I)
+    if match:
+        return int(match.group(1))
+    return None
+
+
 def _parse_match_events(match_html: str, match: MatchCard) -> list[dict[str, Any]]:
     soup = BeautifulSoup(match_html, "html.parser")
     home_team = match.home_team
@@ -173,6 +221,9 @@ def _parse_match_events(match_html: str, match: MatchCard) -> list[dict[str, Any
             away_team = names[1]
     if not home_team or not away_team:
         return []
+
+    final_home, final_away = _extract_final_score(soup)
+    attendance = _extract_attendance(soup)
 
     current_home = 0
     current_away = 0
@@ -198,6 +249,7 @@ def _parse_match_events(match_html: str, match: MatchCard) -> list[dict[str, Any
 
         if event_type == "goal":
             event_team = _event_team_from_goal(event_div, home_team, away_team)
+            scorer_name, assist_name = _parse_goal_people(event_div)
             desc_node = event_div.select_one(".event-time .desc")
             current_home, current_away = _extract_score(
                 desc_node.get_text(strip=True) if desc_node else None,
@@ -208,11 +260,19 @@ def _parse_match_events(match_html: str, match: MatchCard) -> list[dict[str, Any
             goal_type = "goal"
         else:
             event_team = _event_team_from_penalty(event_div, home_team, away_team)
+            scorer_name = None
+            assist_name = None
+            penalty_player_name = _parse_penalty_player(event_div)
             penalty_type = _penalty_type_from_event(event_div)
             goal_type = None
+        if event_type == "goal":
+            penalty_player_name = None
 
         if not event_team:
             continue
+
+        result_home = final_home if final_home is not None else current_home
+        result_away = final_away if final_away is not None else current_away
 
         rows.append(
             {
@@ -229,9 +289,15 @@ def _parse_match_events(match_html: str, match: MatchCard) -> list[dict[str, Any
                 "penalty_type": penalty_type,
                 "game_date": match.game_date,
                 "game_start_time": match.game_start_time,
+                "attendance": attendance,
                 "game_status": "Played" if match.is_played else "Scheduled",
                 "ingame_status": None,
-                "result_string": f"{current_home}-{current_away}",
+                "result_string": f"{result_home}-{result_away}",
+                "scorer_name": scorer_name,
+                "assist_name": assist_name,
+                "scorer_number": None,
+                "assist_number": None,
+                "penalty_player_name": penalty_player_name,
             }
         )
 
@@ -256,6 +322,18 @@ def scrape_matches(
         events = _parse_match_events(match_html, match)
         if events:
             rows.extend(events)
+        elif include_unplayed:
+            rows.append(
+                build_scheduled_game_row(
+                    game_id=match.match_id,
+                    home_team=match.home_team,
+                    away_team=match.away_team,
+                    game_date=match.game_date,
+                    game_start_time=match.game_start_time,
+                    attendance=None,
+                    game_status="Played" if match.is_played else "Scheduled",
+                )
+            )
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)

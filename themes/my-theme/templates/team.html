@@ -201,72 +201,121 @@
 
 {% if articles %}
 {% set current_season = article.categories[0].shortname if article.categories else '' %}
-{% set ns = namespace(game_count=0) %}
+{% set ns = namespace(game_count=0, upcoming_count=0) %}
 {% for game in articles %}
 {% set game_season = game.categories[0].shortname if game.categories else '' %}
 {% if (game.type == 'game' or game|string_in_category_path('game')) and game_season == current_season and (game.home_team == article.team or game.away_team == article.team) %}
+{% set game_state = game.game_state|default('played')|string|lower %}
+{% if game_state == 'scheduled' %}
+{% set ns.upcoming_count = ns.upcoming_count + 1 %}
+{% else %}
 {% set ns.game_count = ns.game_count + 1 %}
 {% endif %}
+{% endif %}
 {% endfor %}
-{% if ns.game_count > 0 %}
+{% if ns.game_count > 0 or ns.upcoming_count > 0 %}
 <section class="panel">
-    <h2 class="panel-title">Team Games</h2>
-    <div class="table-wrapper">
+    <div class="games-tabs">
+        {% if ns.game_count > 0 %}
+        <button type="button" class="games-tab is-active" data-games-tab="previous">Previous Games</button>
+        {% endif %}
+        {% if ns.upcoming_count > 0 %}
+        <button type="button" class="games-tab{% if ns.game_count == 0 %} is-active{% endif %}" data-games-tab="upcoming">Upcoming Games</button>
+        {% endif %}
+    </div>
+
+    {% if ns.game_count > 0 %}
+    <div class="games-tab-panel is-active" data-games-panel="previous">
+        <h2 class="panel-title">Previous Games</h2>
+        <div class="table-wrapper">
+            <table class="data-table">
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Form</th>
+                    <th>Game</th>
+                    <th>Result</th>
+                    <th>Report</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for game in articles %}
+                {% set game_season = game.categories[0].shortname if game.categories else '' %}
+                {% set game_state = game.game_state|default('played')|string|lower %}
+                {% if (game.type == 'game' or game|string_in_category_path('game')) and game_season == current_season and game_state != 'scheduled' and (game.home_team == article.team or game.away_team == article.team) %}
+                {% set is_home = game.home_team == article.team %}
+                {% set home_goals = game.home_goals|default(0)|int %}
+                {% set away_goals = game.away_goals|default(0)|int %}
+                {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
+                {% set away_ot_goals = game.away_goals_in_overtime|default(0)|int %}
+                {% set home_ps_goals = game.home_goals_in_penalty_shootout|default(0)|int %}
+                {% set away_ps_goals = game.away_goals_in_penalty_shootout|default(0)|int %}
+                {% set result_string = game.result_string|default('')|string %}
+                {% set status = game.ingame_status|default('')|string %}
+                {% set ended_ps = (home_ps_goals + away_ps_goals) > 0 or 'n.P.' in result_string or 'penalty' in status %}
+                {% set ended_ot = (not ended_ps) and ((home_ot_goals + away_ot_goals) > 0 or 'n.V.' in result_string or status == 'extratime' or status == 'overtime') %}
+                {% set is_draw = home_goals == away_goals %}
+                {% set team_goals = home_goals if is_home else away_goals %}
+                {% set opp_goals = away_goals if is_home else home_goals %}
+                {% set is_team_win = team_goals > opp_goals %}
+                <tr>
+                    <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
+                    <td>
+                        {% if is_draw %}
+                        <span class="result-pill result-pill--draw">D</span>
+                        {% elif ended_ot or ended_ps %}
+                        <span class="result-pill {% if is_team_win %}result-pill--ot-win{% else %}result-pill--ot-loss{% endif %}">{% if is_team_win %}W{% else %}L{% endif %}</span>
+                        {% elif is_team_win %}
+                        <span class="result-pill result-pill--win">W</span>
+                        {% else %}
+                        <span class="result-pill result-pill--loss">L</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team }}</span>
+                        vs
+                        <span class="{% if not is_draw and away_goals > home_goals %}game-team-winner{% endif %}">{{ game.away_team }}</span>
+                    </td>
+                    <td>
+                        {{ game.home_goals|default('–') }} : {{ game.away_goals|default('–') }}
+                        {% if ended_ps %}
+                        <span class="result-extra">PS</span>
+                        {% elif ended_ot %}
+                        <span class="result-extra">OT</span>
+                        {% endif %}
+                    </td>
+                    <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if ns.upcoming_count > 0 %}
+    <div class="games-tab-panel{% if ns.game_count == 0 %} is-active{% endif %}" data-games-panel="upcoming">
+        <h2 class="panel-title">Upcoming Games</h2>
+        <div class="table-wrapper">
         <table class="data-table">
             <thead>
             <tr>
                 <th>Date</th>
-                <th>Form</th>
                 <th>Game</th>
-                <th>Result</th>
+                <th>Kickoff</th>
                 <th>Report</th>
             </tr>
             </thead>
             <tbody>
             {% for game in articles %}
             {% set game_season = game.categories[0].shortname if game.categories else '' %}
-            {% if (game.type == 'game' or game|string_in_category_path('game')) and game_season == current_season and (game.home_team == article.team or game.away_team == article.team) %}
-            {% set is_home = game.home_team == article.team %}
-            {% set home_goals = game.home_goals|default(0)|int %}
-            {% set away_goals = game.away_goals|default(0)|int %}
-            {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
-            {% set away_ot_goals = game.away_goals_in_overtime|default(0)|int %}
-            {% set home_ps_goals = game.home_goals_in_penalty_shootout|default(0)|int %}
-            {% set away_ps_goals = game.away_goals_in_penalty_shootout|default(0)|int %}
-            {% set result_string = game.result_string|default('')|string %}
-            {% set status = game.ingame_status|default('')|string %}
-            {% set ended_ps = (home_ps_goals + away_ps_goals) > 0 or 'n.P.' in result_string or 'penalty' in status %}
-            {% set ended_ot = (not ended_ps) and ((home_ot_goals + away_ot_goals) > 0 or 'n.V.' in result_string or status == 'extratime' or status == 'overtime') %}
-            {% set is_draw = home_goals == away_goals %}
-            {% set team_goals = home_goals if is_home else away_goals %}
-            {% set opp_goals = away_goals if is_home else home_goals %}
-            {% set is_team_win = team_goals > opp_goals %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if (game.type == 'game' or game|string_in_category_path('game')) and game_season == current_season and game_state == 'scheduled' and (game.home_team == article.team or game.away_team == article.team) %}
             <tr>
                 <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
-                <td>
-                    {% if is_draw %}
-                    <span class="result-pill result-pill--draw">D</span>
-                    {% elif ended_ot or ended_ps %}
-                    <span class="result-pill {% if is_team_win %}result-pill--ot-win{% else %}result-pill--ot-loss{% endif %}">{% if is_team_win %}W{% else %}L{% endif %}</span>
-                    {% elif is_team_win %}
-                    <span class="result-pill result-pill--win">W</span>
-                    {% else %}
-                    <span class="result-pill result-pill--loss">L</span>
-                    {% endif %}
-                </td>
-                <td>
-                    <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team }}</span>
-                    vs
-                    <span class="{% if not is_draw and away_goals > home_goals %}game-team-winner{% endif %}">{{ game.away_team }}</span>
-                </td>
-                <td>
-                    {{ game.home_goals|default('–') }} : {{ game.away_goals|default('–') }}
-                    {% if ended_ps %}
-                    <span class="result-extra">PS</span>
-                    {% elif ended_ot %}
-                    <span class="result-extra">OT</span>
-                    {% endif %}
-                </td>
+                <td>{{ game.home_team }} vs {{ game.away_team }}</td>
+                <td>{{ game.start_time|default('TBD') }}</td>
                 <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
             </tr>
             {% endif %}
@@ -274,6 +323,31 @@
             </tbody>
         </table>
     </div>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
 {% endif %}
+
+<script>
+(() => {
+  const tabsRoot = document.querySelector('.games-tabs');
+  if (!tabsRoot) return;
+
+  const tabs = Array.from(tabsRoot.querySelectorAll('.games-tab'));
+  const panels = Array.from(document.querySelectorAll('.games-tab-panel'));
+
+  const activate = (target) => {
+    tabs.forEach((tab) => {
+      tab.classList.toggle('is-active', tab.dataset.gamesTab === target);
+    });
+    panels.forEach((panel) => {
+      panel.classList.toggle('is-active', panel.dataset.gamesPanel === target);
+    });
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => activate(tab.dataset.gamesTab));
+  });
+})();
+</script>

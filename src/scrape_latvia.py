@@ -11,6 +11,8 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.scheduled_games import build_scheduled_game_row
+
 
 BASE_URL = "https://www.floorball.lv"
 AJAX_CALENDAR_URL = "https://www.floorball.lv/ajax/ajax_chempionats_kalendars.php"
@@ -276,14 +278,60 @@ def _map_penalty_type(text: str) -> str:
     return "penalty_2"
 
 
+def _parse_goal_people(details: str | None) -> tuple[str | None, str | None]:
+    if not details:
+        return None, None
+    cleaned = " ".join(details.split())
+    if not cleaned:
+        return None, None
+    assist_match = re.search(r"(?:piespēle|assist)\s*[:\-]?\s*(.+)$", cleaned, re.I)
+    if assist_match:
+        scorer_name = cleaned[:assist_match.start()].strip(" ,;-")
+        assist_name = assist_match.group(1).strip(" ,;-")
+        return scorer_name or None, assist_name or None
+    match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
+    if not match:
+        return cleaned, None
+    return (match.group("scorer") or "").strip() or None, (match.group("assist") or "").strip() or None
+
+
+def _parse_penalty_player(details: str | None) -> str | None:
+    if not details:
+        return None
+    cleaned = " ".join(details.split())
+    cleaned = re.sub(r"\b(2\+2|10|5|2|ms)\b", "", cleaned, flags=re.I).strip(" -")
+    return cleaned or None
+
+
+def _extract_attendance(soup: BeautifulSoup) -> int | None:
+    text = soup.get_text(" ", strip=True)
+    match = re.search(r"Apmeklētāji\s*:\s*(\d+)", text, re.I)
+    if match:
+        return int(match.group(1))
+    return None
+
+
 def _parse_proto_events(session: requests.Session, match: LatviaMatch) -> list[dict[str, Any]]:
     response = session.get(match.proto_url, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+    attendance = _extract_attendance(soup)
 
     events_table = soup.select_one("table.event_list")
     if not events_table:
-        return []
+        return [
+            build_scheduled_game_row(
+                game_id=match.game_id,
+                home_team=match.home_team,
+                away_team=match.away_team,
+                game_date=match.game_date,
+                game_start_time=match.game_start_time,
+                attendance=attendance,
+                game_status="Scheduled" if not match.result_string else "Played",
+                ingame_status=match.ingame_status,
+                result_string=match.result_string,
+            )
+        ]
 
     current_home = 0
     current_away = 0
@@ -327,13 +375,23 @@ def _parse_proto_events(session: requests.Session, match: LatviaMatch) -> list[d
         if "Vārti" in event_label:
             event_type = "goal"
             goal_type = "goal"
+            scorer_name, assist_name = _parse_goal_people(details)
             score_match = re.search(r"(\d+)\s*-\s*(\d+)", score_text)
             if score_match:
                 current_home = int(score_match.group(1))
                 current_away = int(score_match.group(2))
         elif "Sods" in event_label:
             event_type = "penalty"
+            scorer_name = None
+            assist_name = None
             penalty_type = _map_penalty_type(details)
+            penalty_player_name = _parse_penalty_player(details)
+        else:
+            scorer_name = None
+            assist_name = None
+            penalty_player_name = None
+        if event_type == "goal":
+            penalty_player_name = None
 
         if not event_type:
             continue
@@ -353,9 +411,15 @@ def _parse_proto_events(session: requests.Session, match: LatviaMatch) -> list[d
                 "penalty_type": penalty_type,
                 "game_date": match.game_date,
                 "game_start_time": match.game_start_time,
+                "attendance": attendance,
                 "game_status": "Played",
                 "ingame_status": match.ingame_status,
                 "result_string": match.result_string,
+                "scorer_name": scorer_name,
+                "assist_name": assist_name,
+                "scorer_number": None,
+                "assist_number": None,
+                "penalty_player_name": penalty_player_name,
             }
         )
 

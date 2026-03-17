@@ -6,9 +6,12 @@ type: game
 game_id: spv-nokian-krp-15-2-2026
 home_team: SPV
 away_team: Nokian KrP
-start_time: nan
-result_string: 0-0
-ingame_status: nan
+start_time: None
+attendance: 812.0
+game_status: Played
+result_string: 2-5
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,14.52,31.6,33.4,34.35,49.18,50.87,59.97
 timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-2,-3
 timeline_home_goals_csv: 0,0,0,0,1,1,2,2
@@ -26,6 +29,8 @@ away_penalty_ends_csv: 4.7
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
+game_events_b64: W3sibWludXRlIjoiMDI6NDIiLCJwZXJpb2QiOjEsInRlYW0iOiJOb2tpYW4gS3JQIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MCIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjpudWxsLCJ0YWciOiJwZW5hbHR5XzIifSx7Im1pbnV0ZSI6IjE0OjMxIiwicGVyaW9kIjoxLCJ0ZWFtIjoiTm9raWFuIEtyUCIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiSm9vbmEgUmFudGFsYSIsImFzc2lzdCI6Ikpvb25hdGFuIEtvdmFuZW4iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIxMTozNiIsInBlcmlvZCI6MiwidGVhbSI6Ik5va2lhbiBLclAiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikpvb25hdGFuIEtvdmFuZW4iLCJhc3Npc3QiOiJOaWNvIEpvbmFlc29uIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTM6MjQiLCJwZXJpb2QiOjIsInRlYW0iOiJOb2tpYW4gS3JQIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJKb29uYSBSYW50YWxhIiwiYXNzaXN0IjoiTWlra28gTGFha3NvIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTQ6MjEiLCJwZXJpb2QiOjIsInRlYW0iOiJTUFYiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkplcmkgSGVpa2tpbMOkIiwiYXNzaXN0IjoiQWFwbyBMb2thc2FhcmkiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI0MDowMCIsInBlcmlvZCI6MiwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDJuZCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwOToxMSIsInBlcmlvZCI6MywidGVhbSI6Ik5va2lhbiBLclAiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMTo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikpvb25hdGFuIEtvdmFuZW4iLCJhc3Npc3QiOiJNaWtrbyBMYWFrc28iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxMDo1MiIsInBlcmlvZCI6MywidGVhbSI6IlNQViIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiSnV1c28gS2Vza2luZW4iLCJhc3Npc3QiOiJFZW1lbGkgS2FyamFubGFodGkiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxOTo1OCIsInBlcmlvZCI6MywidGVhbSI6Ik5va2lhbiBLclAiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMjo1IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1pa2tvIExhYWtzbyIsImFzc2lzdCI6Ikpvb25hIFJhbnRhbGEiLCJ0YWciOiJnb2FsIn1d
+game_events_count: 10
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -34,10 +39,10 @@ home_draws: 0
 home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 0
-home_goals_against: 0
+home_goals: 2
+home_goals_against: 5
 home_games: 1
-home_goal_difference: 0
+home_goal_difference: -3
 home_points_max_difference_2: 0
 home_goals_in_first_period: 0
 home_goals_in_second_period: 1
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 2
 home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 0
+home_goals_home: 2
 home_goals_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 5
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,10 +114,10 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 0
-away_goals_against: 0
+away_goals: 5
+away_goals_against: 2
 away_games: 1
-away_goal_difference: 0
+away_goal_difference: 3
 away_points_max_difference_2: 0
 away_goals_in_first_period: 1
 away_goals_in_second_period: 2
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 1
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 0
+away_goals_away: 5
 away_goals_against_home: 0
-away_goals_against_away: 0
+away_goals_against_away: 2
 away_home_points: 0
 away_away_points: 3
 away_take_the_lead_goals_against: 0

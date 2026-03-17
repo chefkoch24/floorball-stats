@@ -6,9 +6,12 @@ type: game
 game_id: lasb-fbc-turku-17-10-2025
 home_team: LASB
 away_team: FBC Turku
-start_time: nan
-result_string: 0-1
-ingame_status: nan
+start_time: None
+attendance: 261.0
+game_status: Played
+result_string: 3-4
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,2.0,33.52,42.2,49.7,55.67,56.43,57.57
 timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-1
 timeline_home_goals_csv: 0,0,1,2,2,2,2,3
@@ -26,6 +29,8 @@ away_penalty_ends_csv: 36.67
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
+game_events_b64: W3sibWludXRlIjoiMDI6MDAiLCJwZXJpb2QiOjEsInRlYW0iOiJGQkMgVHVya3UiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkVlbWVsaSBIdWh0YWthbGxpbyIsImFzc2lzdCI6Illhbm5pY2sgTGluZHJvb3MiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIxMzozMSIsInBlcmlvZCI6MiwidGVhbSI6IkxBU0IiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMToxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlNhbWkgU2FsbWluZW4iLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE0OjQwIiwicGVyaW9kIjoyLCJ0ZWFtIjoiRkJDIFR1cmt1Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjE6MSIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjpudWxsLCJ0YWciOiJwZW5hbHR5XzIifSx7Im1pbnV0ZSI6IjQwOjAwIiwicGVyaW9kIjoyLCJ0ZWFtIjpudWxsLCJzaWRlIjoiYnJlYWsiLCJzY29yZSI6bnVsbCwiZXZlbnRfa2luZCI6ImJyZWFrIiwidGl0bGUiOiJFbmQgMm5kIHBlcmlvZCIsImFzc2lzdCI6bnVsbCwidGFnIjpudWxsfSx7Im1pbnV0ZSI6IjAyOjEyIiwicGVyaW9kIjozLCJ0ZWFtIjoiTEFTQiIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiQXR0ZSBSYWFwcGFuYSIsImFzc2lzdCI6IkplcmUgU3VsYW5kZXIiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIwOTo0MiIsInBlcmlvZCI6MywidGVhbSI6IkZCQyBUdXJrdSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFyaXVzIFN1b21pbmVuIiwiYXNzaXN0IjoiVmFsdHRlcmkgS29za2luZW4iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxNTo0MCIsInBlcmlvZCI6MywidGVhbSI6IkZCQyBUdXJrdSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjMiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFyaXVzIFN1b21pbmVuIiwiYXNzaXN0IjpudWxsLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxNjoyNiIsInBlcmlvZCI6MywidGVhbSI6IkZCQyBUdXJrdSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFyaXVzIFN1b21pbmVuIiwiYXNzaXN0IjoiWWFubmljayBMaW5kcm9vcyIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE3OjM0IiwicGVyaW9kIjozLCJ0ZWFtIjoiTEFTQiIsInNpZGUiOiJob21lIiwic2NvcmUiOiIzOjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiUGlldGFyaSBQb3J0dGlraXZpIiwiYXNzaXN0IjoiTmlrbGFzIEt1aXNtYSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 10
 home_points: 0
 home_wins: 0
 home_over_time_wins: 0
@@ -34,8 +39,8 @@ home_draws: 0
 home_losses: 1
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 0
-home_goals_against: 1
+home_goals: 3
+home_goals_against: 4
 home_games: 1
 home_goal_difference: -1
 home_points_max_difference_2: 0
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 0
 home_goals_in_third_period_against: 3
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 0
+home_goals_home: 3
 home_goals_away: 0
-home_goals_against_home: 1
+home_goals_against_home: 4
 home_goals_against_away: 0
 home_home_points: 0
 home_away_points: 0
@@ -109,8 +114,8 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 1
-away_goals_against: 0
+away_goals: 4
+away_goals_against: 3
 away_games: 1
 away_goal_difference: 1
 away_points_max_difference_2: 3
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 2
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 1
+away_goals_away: 4
 away_goals_against_home: 0
-away_goals_against_away: 0
+away_goals_against_away: 3
 away_home_points: 0
 away_away_points: 3
 away_take_the_lead_goals_against: 1

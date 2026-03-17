@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Talsu NSS/Krauzers
 Category: lv-25-26-regular-season, teams
 Slug: talsu-nss/krauzers-lv-25-26-regular-season-lv-25-26-regular-season

@@ -10,6 +10,8 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.scheduled_games import build_scheduled_game_row
+
 
 BASE_URL = "https://www.ceskyflorbal.cz"
 
@@ -22,7 +24,21 @@ class MatchSummary:
     score_text: str | None
     status: str | None
     round_name: str | None
-    date_text: str | None
+    game_date: str | None
+    game_start_time: str | None
+
+
+def _extract_attendance(soup: BeautifulSoup) -> int | None:
+    text = soup.get_text(" ", strip=True)
+    patterns = [
+        r"divák[ůu]\s*:\s*(\d+)",
+        r"návštěv[a-zá]*\s*:\s*(\d+)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            return int(match.group(1))
+    return None
 
 
 def _clean_text(value: str | None) -> str | None:
@@ -61,6 +77,31 @@ def _parse_date(date_text: str | None, season_start_year: int) -> str | None:
         return None
 
 
+def _parse_time(date_text: str | None) -> str | None:
+    if not date_text:
+        return None
+    match = re.search(r"(\d{1,2}:\d{2})", date_text)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def _is_playoff_round(round_name: str | None) -> bool:
+    if not round_name:
+        return False
+    normalized = round_name.lower()
+    playoff_markers = (
+        "osmifin",
+        "čtvrtfin",
+        "ctvrtfin",
+        "semifin",
+        "superfin",
+        "play-off",
+        "playoff",
+    )
+    return any(marker in normalized for marker in playoff_markers)
+
+
 def fetch_match_list(
     schedule_url: str,
     season_start_year: int,
@@ -96,7 +137,8 @@ def fetch_match_list(
                 score_text=score_text,
                 status=status,
                 round_name=round_name,
-                date_text=_parse_date(date_text, season_start_year),
+                game_date=_parse_date(date_text, season_start_year),
+                game_start_time=_parse_time(date_text),
             )
         )
     return matches
@@ -115,14 +157,78 @@ def _map_penalty_type(text: str | None) -> str:
     return "penalty_2"
 
 
+def _parse_scorer_details(text: str | None) -> tuple[str | None, str | None]:
+    cleaned = _clean_text(text)
+    if not cleaned:
+        return None, None
+    cleaned = re.sub(r"^\d+\s*:\s*\d+\s*", "", cleaned).strip(" -")
+    if not cleaned:
+        return None, None
+    match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
+    if not match:
+        return cleaned, None
+    scorer_name = _clean_text(match.group("scorer"))
+    assist_name = _clean_text(match.group("assist"))
+    if assist_name in {"", "()"}:
+        assist_name = None
+    return scorer_name, assist_name
+
+
+def _parse_penalty_player(lines: list[str]) -> str | None:
+    cleaned_lines = [_clean_text(line) for line in lines]
+    cleaned_lines = [line for line in cleaned_lines if line]
+    if len(cleaned_lines) >= 2:
+        return cleaned_lines[1]
+    if not cleaned_lines:
+        return None
+    cleaned = re.sub(r"^\d+\s*:\s*\d+\s*", "", cleaned_lines[0]).strip(" -")
+    cleaned = re.sub(r"^\d\+?\d?\b", "", cleaned).strip(" -")
+    return cleaned or None
+
+
+def _build_goal_detail_lookup(soup: BeautifulSoup) -> dict[tuple[str, str], tuple[str | None, str | None]]:
+    lookup: dict[tuple[str, str], tuple[str | None, str | None]] = {}
+    pattern = re.compile(
+        r"vstřelil\s+#?\d+\s+(?P<scorer>.+?)(?:,\s*asistoval\s+#?\d+\s+(?P<assist>.+?))?\s*\((?P<score>\d+:\d+)\)",
+        re.I,
+    )
+    for cell in soup.find_all("td"):
+        text = _clean_text(cell.get_text(" ", strip=True))
+        if not text or "vstřelil" not in text.lower():
+            continue
+        match = pattern.search(text)
+        if not match:
+            continue
+        detail_row = cell.find_parent("tr")
+        if detail_row is None:
+            continue
+        previous_row = detail_row.find_previous_sibling("tr")
+        if previous_row is None:
+            continue
+        previous_text = _clean_text(previous_row.get_text(" ", strip=True)) or ""
+        time_match = re.search(r"(\d{1,2}:\d{2})", previous_text)
+        if not time_match:
+            continue
+        time_text = time_match.group(1)
+        score_text = match.group("score")
+        lookup[(time_text, score_text)] = (
+            _clean_text(match.group("scorer")),
+            _clean_text(match.group("assist")),
+        )
+    return lookup
+
+
 def _parse_event_rows(
     event_block: Any,
+    goal_detail_lookup: dict[tuple[str, str], tuple[str | None, str | None]],
     event_team: str,
     period_label: str,
     home_team: str,
     away_team: str,
     game_id: int,
     game_date: str | None,
+    game_start_time: str | None,
+    attendance: int | None,
     result_string: str | None,
     goal_type: str,
     penalty_type: str | None,
@@ -144,16 +250,20 @@ def _parse_event_rows(
         if not left or not right:
             continue
         left_text = " ".join(left.get_text("\n").split())
-        right_text = " ".join(right.get_text("\n").split())
+        right_lines = [_clean_text(line) for line in right.get_text("\n").splitlines()]
+        right_lines = [line for line in right_lines if line]
+        right_text = " ".join(right_lines)
 
         time_match = re.search(r"(\d{1,2}):(\d{2})", left_text)
         minute = int(time_match.group(1)) if time_match else 0
         second = int(time_match.group(2)) if time_match else 0
         sortkey = f"{period}-{minute:02d}:{second:02d}"
+        time_text = f"{minute:02d}:{second:02d}"
 
         score_match = re.search(r"(\d+)\s*:\s*(\d+)", right_text)
         home_goals = int(score_match.group(1)) if score_match else None
         away_goals = int(score_match.group(2)) if score_match else None
+        score_text = f"{home_goals}:{away_goals}" if score_match else None
 
         # Timeline "more" blocks can mix goals with penalties/timeouts.
         # If this row is treated as a goal but has no score snapshot, skip it.
@@ -173,16 +283,47 @@ def _parse_event_rows(
             "goal_type": goal_type,
             "penalty_type": penalty_type,
             "game_date": game_date,
-            "game_start_time": None,
+            "game_start_time": game_start_time,
+            "attendance": attendance,
             "game_status": None,
             "ingame_status": None,
             "result_string": result_string,
+            "scorer_name": None,
+            "assist_name": None,
+            "scorer_number": None,
+            "assist_number": None,
+            "penalty_player_name": None,
         }
+        if penalty_type is None:
+            scorer_name, assist_name = _parse_scorer_details(right_text)
+            detailed_names = goal_detail_lookup.get((time_text, score_text)) if score_text else None
+            if detailed_names:
+                detailed_scorer, detailed_assist = detailed_names
+                scorer_name = detailed_scorer or scorer_name
+                assist_name = detailed_assist or assist_name
+            row_data["scorer_name"] = scorer_name
+            row_data["assist_name"] = assist_name
+        else:
+            row_data["penalty_player_name"] = _parse_penalty_player(right_lines)
         rows.append(row_data)
     return rows
 
 
-def fetch_match_events(match_id: int, game_date: str | None, session: requests.Session | None = None) -> list[dict[str, Any]]:
+def _parse_match_meta_time(soup: BeautifulSoup) -> str | None:
+    text = soup.get_text(" ", strip=True)
+    match = re.search(r"\b(\d{1,2}:\d{2})\b", text)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def fetch_match_events(
+    match_id: int,
+    game_date: str | None,
+    game_start_time: str | None,
+    status: str | None,
+    session: requests.Session | None = None,
+) -> list[dict[str, Any]]:
     sess = session or requests.Session()
     url = f"{BASE_URL}/match/detail/match/{match_id}?locale=en"
     resp = sess.get(url, timeout=30)
@@ -194,8 +335,11 @@ def fetch_match_events(match_id: int, game_date: str | None, session: requests.S
     score_text = _clean_text(soup.select_one(".MatchHeader-score") and soup.select_one(".MatchHeader-score").get_text())
     home_goals, away_goals, suffix = _parse_score(score_text)
     result_string = f"{home_goals}:{away_goals}" if home_goals is not None and away_goals is not None else None
+    game_start_time = game_start_time or _parse_match_meta_time(soup)
+    attendance = _extract_attendance(soup)
 
     events: list[dict[str, Any]] = []
+    goal_detail_lookup = _build_goal_detail_lookup(soup)
     timeline = soup.select_one(".Timeline.u-display-flex.u-sm-display-none")
     for part in timeline.select(".Timeline-part") if timeline else []:
         period_label = _clean_text(part.select_one(".Timeline-name") and part.select_one(".Timeline-name").get_text()) or ""
@@ -222,12 +366,15 @@ def fetch_match_events(match_id: int, game_date: str | None, session: requests.S
             events.extend(
                 _parse_event_rows(
                     event_block=event,
+                    goal_detail_lookup=goal_detail_lookup,
                     event_team=event_team,
                     period_label=period_label,
                     home_team=home_team,
                     away_team=away_team,
                     game_id=match_id,
                     game_date=game_date,
+                    game_start_time=game_start_time,
+                    attendance=attendance,
                     result_string=result_string,
                     goal_type=goal_type,
                     penalty_type=penalty_type,
@@ -251,10 +398,16 @@ def fetch_match_events(match_id: int, game_date: str | None, session: requests.S
                     "goal_type": "penalty_shot",
                     "penalty_type": None,
                     "game_date": game_date,
-                    "game_start_time": None,
+                    "game_start_time": game_start_time,
+                    "attendance": attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": result_string,
+                    "scorer_name": None,
+                    "assist_name": None,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": None,
                 }
             )
     elif suffix in {"pp", "ot"} and result_string:
@@ -274,12 +427,32 @@ def fetch_match_events(match_id: int, game_date: str | None, session: requests.S
                     "goal_type": "goal",
                     "penalty_type": None,
                     "game_date": game_date,
-                    "game_start_time": None,
+                    "game_start_time": game_start_time,
+                    "attendance": attendance,
                     "game_status": None,
                     "ingame_status": None,
                     "result_string": result_string,
+                    "scorer_name": None,
+                    "assist_name": None,
+                    "scorer_number": None,
+                    "assist_number": None,
+                    "penalty_player_name": None,
                 }
             )
+
+    if not events:
+        return [
+            build_scheduled_game_row(
+                game_id=match_id,
+                home_team=home_team,
+                away_team=away_team,
+                game_date=game_date,
+                game_start_time=game_start_time,
+                attendance=attendance,
+                game_status=status or "Scheduled",
+                result_string=result_string,
+            )
+        ]
 
     return events
 
@@ -289,6 +462,7 @@ def scrape_competition(
     output_path: str,
     season_start_year: int,
     include_unplayed: bool = False,
+    phase: str = "regular-season",
 ) -> pd.DataFrame:
     session = requests.Session()
     all_matches: list[MatchSummary] = []
@@ -297,9 +471,21 @@ def scrape_competition(
 
     rows: list[dict[str, Any]] = []
     for match in tqdm(all_matches, desc="matches"):
+        if phase == "playoffs" and not _is_playoff_round(match.round_name):
+            continue
+        if phase == "regular-season" and _is_playoff_round(match.round_name):
+            continue
         if not include_unplayed and match.status and match.status.lower() != "played":
             continue
-        rows.extend(fetch_match_events(match.match_id, match.date_text, session=session))
+        rows.extend(
+            fetch_match_events(
+                match.match_id,
+                match.game_date,
+                match.game_start_time,
+                match.status,
+                session=session,
+            )
+        )
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -324,6 +510,7 @@ def main():
         output_path=args.output_path,
         season_start_year=args.season_start_year,
         include_unplayed=args.include_unplayed,
+        phase="regular-season",
     )
 
 

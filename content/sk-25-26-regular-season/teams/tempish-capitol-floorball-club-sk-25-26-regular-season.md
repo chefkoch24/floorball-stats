@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: TEMPISH CAPITOL Floorball Club
 Category: sk-25-26-regular-season, teams
 Slug: tempish-capitol-floorball-club-sk-25-26-regular-season-sk-25-26-regular-season

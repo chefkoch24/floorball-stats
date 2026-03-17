@@ -5,7 +5,7 @@ from src.generate_markdown import generate_markdown_files
 from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
 from src.scrape import scrape_events
-from src.scrape_sweden import scrape_competition_events
+from src.scrape_sweden import scrape_competition_events, scrape_competitions_events
 from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
 from src.scrape_latvia import scrape_competition as scrape_latvia_competition
@@ -24,6 +24,7 @@ def run_pipeline(
     phase: str,
     backend: str = "saisonmanager",
     competition_id: int | None = None,
+    competition_ids: list[int] | None = None,
     swiss_game_ids: list[int] | None = None,
     swiss_schedule_urls: list[str] | None = None,
     swiss_league: int | None = None,
@@ -55,12 +56,21 @@ def run_pipeline(
 
     if not skip_scrape:
         if backend == "sweden":
-            if competition_id is None:
-                raise ValueError("competition_id is required when backend=sweden")
-            scrape_competition_events(
-                competition_id=competition_id,
-                output_path=str(raw_csv),
-            )
+            sweden_competition_ids = competition_ids or ([competition_id] if competition_id is not None else [])
+            if not sweden_competition_ids:
+                raise ValueError("competition_id or competition_ids is required when backend=sweden")
+            if len(sweden_competition_ids) == 1:
+                scrape_competition_events(
+                    competition_id=sweden_competition_ids[0],
+                    output_path=str(raw_csv),
+                    include_unplayed=True,
+                )
+            else:
+                scrape_competitions_events(
+                    competition_ids=sweden_competition_ids,
+                    output_path=str(raw_csv),
+                    include_unplayed=True,
+                )
         elif backend == "switzerland":
             game_ids = set(swiss_game_ids or [])
             for url in swiss_schedule_urls or []:
@@ -98,6 +108,8 @@ def run_pipeline(
                 schedule_urls=czech_schedule_urls,
                 output_path=str(raw_csv),
                 season_start_year=czech_season_start_year,
+                include_unplayed=True,
+                phase=phase,
             )
         elif backend == "finland":
             if not finland_schedule_urls:
@@ -105,6 +117,7 @@ def run_pipeline(
             scrape_finland_matches(
                 schedule_urls=finland_schedule_urls,
                 output_path=str(raw_csv),
+                include_unplayed=True,
             )
         elif backend == "slovakia":
             if not slovakia_schedule_urls:
@@ -136,7 +149,12 @@ def run_pipeline(
     if not raw_csv.exists():
         raise FileNotFoundError(f"Expected input CSV at {raw_csv} but file does not exist.")
 
-    run_stats_pipeline(input_csv_path=str(raw_csv), output_dir=str(data_path))
+    run_stats_pipeline(
+        input_csv_path=str(raw_csv),
+        output_dir=str(data_path),
+        season=season,
+        phase=phase,
+    )
     games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_path / "game_stats.json"),
         team_stats_path=str(data_path / "team_stats_enhanced.json"),
@@ -167,6 +185,7 @@ def parse_args():
     )
     parser.add_argument("--league_id", type=int, default=1890)
     parser.add_argument("--competition_id", type=int, default=None)
+    parser.add_argument("--competition_ids", type=str, default=None)
     parser.add_argument("--league_config", type=str, default=None)
     parser.add_argument("--swiss_game_ids", type=str, default=None)
     parser.add_argument("--swiss_schedule_url", action="append", default=None)
@@ -207,12 +226,23 @@ def main():
                 part = part.strip()
                 if part.isdigit():
                     swiss_game_ids.append(int(part))
+    sweden_competition_ids = None
+    if args.competition_ids:
+        sweden_competition_ids = []
+        if isinstance(args.competition_ids, list):
+            sweden_competition_ids = [int(v) for v in args.competition_ids]
+        else:
+            for part in str(args.competition_ids).split(","):
+                part = part.strip()
+                if part.isdigit():
+                    sweden_competition_ids.append(int(part))
     run_pipeline(
         league_id=args.league_id,
         season=args.season,
         phase=args.phase,
         backend=args.backend,
         competition_id=args.competition_id,
+        competition_ids=sweden_competition_ids,
         swiss_game_ids=swiss_game_ids,
         swiss_schedule_urls=args.swiss_schedule_url,
         swiss_league=args.swiss_league,

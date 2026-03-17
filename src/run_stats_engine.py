@@ -1,9 +1,12 @@
 import argparse
+import base64
 import numpy as np
 import pandas as pd
 import json
 from pathlib import Path
 
+from src.social_media.tables import write_home_away_split_table
+from src.scheduled_games import EVENT_SCHEDULED
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
 from src.utils import add_points, add_penalties, is_powerplay, is_boxplay, safe_div
@@ -201,6 +204,198 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
         "away_major_penalty_minutes_csv": _csv(away_major_penalty_minutes),
         "timeline_max_minute": round(timeline_max_minute, 2),
     }
+
+
+def _clean_nullable_text(value: object) -> str | None:
+    if value is None or pd.isna(value):
+        return None
+    text = str(value).strip()
+    return text or None
+
+
+def _clean_optional_player_ref(value: object) -> str | None:
+    text = _clean_nullable_text(value)
+    if text in {"0", "0.0"}:
+        return None
+    return text
+
+
+def _to_int_or_zero(value: object) -> int:
+    numeric = pd.to_numeric(value, errors="coerce")
+    if pd.isna(numeric):
+        return 0
+    return int(numeric)
+
+
+def _json_scalar(value: object) -> object:
+    if value is None or pd.isna(value):
+        return None
+    if isinstance(value, np.generic):
+        return value.item()
+    return value
+
+
+def _display_minute_for_event(event: pd.Series) -> str:
+    period = _to_int_or_zero(event.get("period"))
+    sortkey = str(event.get("sortkey") or "")
+    clock = sortkey.split("-", 1)[1] if "-" in sortkey else "00:00"
+    if period == 4:
+        return f"OT {clock}"
+    if period == 5:
+        return "PS"
+    return clock
+
+
+def _period_break_label(period: int) -> str | None:
+    if period == 1:
+        return "End 1st period"
+    if period == 2:
+        return "End 2nd period"
+    if period == 3:
+        return "End of regulation"
+    if period == 4:
+        return "End of overtime"
+    return None
+
+
+def _period_break_minute(period: int) -> int | None:
+    if period == 1:
+        return 20
+    if period == 2:
+        return 40
+    if period == 3:
+        return 60
+    if period == 4:
+        return 70
+    return None
+
+
+def _penalty_type_label(penalty_type: str | None) -> str:
+    mapping = {
+        "penalty_2": "2 min penalty",
+        "penalty_2and2": "2+2 min penalty",
+        "penalty_5": "5 min penalty",
+        "penalty_10": "10 min misconduct",
+        "penalty_ms": "Match penalty",
+        "penalty_ms_full": "Match penalty",
+        "penalty_ms_tech": "Technical match penalty",
+    }
+    normalized = _clean_nullable_text(penalty_type)
+    return mapping.get(normalized or "", "Penalty")
+
+
+def _played_events_only(game_df: pd.DataFrame) -> pd.DataFrame:
+    if "event_type" not in game_df.columns:
+        return game_df.copy()
+    return game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY])].copy()
+
+
+def _is_scheduled_game(game_df: pd.DataFrame) -> bool:
+    return _played_events_only(game_df).empty
+
+
+def _build_game_events_payload(game_df: pd.DataFrame, home_team: str, away_team: str) -> dict[str, object]:
+    relevant_events = game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY])].copy()
+    if relevant_events.empty:
+        return {"game_events_b64": "", "game_events_count": 0}
+
+    relevant_events = _sort_events_chronologically(relevant_events)
+    payload: list[dict[str, object]] = []
+
+    periods_present = {
+        _to_int_or_zero(period)
+        for period in pd.to_numeric(relevant_events.get("period"), errors="coerce").fillna(0).tolist()
+        if _to_int_or_zero(period) > 0
+    }
+
+    for _, event in relevant_events.iterrows():
+        event_team = _clean_nullable_text(event.get("event_team"))
+        if not event_team:
+            continue
+        side = "home" if event_team == home_team else "away" if event_team == away_team else "neutral"
+        event_type = _clean_nullable_text(event.get("event_type")) or ""
+        base_event = {
+            "minute": _display_minute_for_event(event),
+            "period": _to_int_or_zero(event.get("period")),
+            "team": event_team,
+            "side": side,
+            "score": f"{_to_int_or_zero(event.get('home_goals'))}:{_to_int_or_zero(event.get('guest_goals'))}",
+        }
+
+        if event_type == EVENT_GOAL:
+            scorer_name = _clean_nullable_text(event.get("scorer_name"))
+            scorer_number = _clean_optional_player_ref(event.get("scorer_number"))
+            assist_name = _clean_nullable_text(event.get("assist_name"))
+            assist_number = _clean_optional_player_ref(event.get("assist_number"))
+            payload.append(
+                {
+                    **base_event,
+                    "event_kind": "goal",
+                    "title": scorer_name or scorer_number or "Unknown",
+                    "assist": assist_name or assist_number,
+                    "tag": _clean_nullable_text(event.get("goal_type")) or "goal",
+                }
+            )
+        elif event_type == EVENT_PENALTY:
+            penalty_player_name = _clean_nullable_text(event.get("penalty_player_name"))
+            payload.append(
+                {
+                    **base_event,
+                    "event_kind": "penalty",
+                    "title": _penalty_type_label(event.get("penalty_type")),
+                    "assist": penalty_player_name,
+                    "tag": _clean_nullable_text(event.get("penalty_type")) or "penalty",
+                }
+            )
+
+    for period in sorted(periods_present):
+        if period not in {1, 2, 3, 4}:
+            continue
+        if not any(p > period for p in periods_present):
+            continue
+        label = _period_break_label(period)
+        minute = _period_break_minute(period)
+        if not label or minute is None:
+            continue
+        payload.append(
+            {
+                "minute": f"{minute:02d}:00" if period <= 3 else ("OT 10:00" if period == 4 else ""),
+                "period": period,
+                "team": None,
+                "side": "break",
+                "score": None,
+                "event_kind": "break",
+                "title": label,
+                "assist": None,
+                "tag": None,
+                "_minute_sort": float(minute),
+                "_sequence": 99,
+            }
+        )
+
+    def _sort_value(item: dict[str, object]) -> tuple[float, int]:
+        minute_label = str(item.get("minute") or "")
+        if "_minute_sort" in item:
+            minute_value = float(item["_minute_sort"])
+        elif minute_label == "PS":
+            minute_value = 80.0
+        elif minute_label.startswith("OT "):
+            clock = minute_label.split(" ", 1)[1]
+            mm, ss = clock.split(":", 1)
+            minute_value = 60.0 + int(mm) + int(ss) / 60.0
+        else:
+            mm, ss = minute_label.split(":", 1)
+            minute_value = (int(mm) + int(ss) / 60.0) + max(0, (_to_int_or_zero(item.get("period")) - 1) * 20 if _to_int_or_zero(item.get("period")) <= 3 else 0)
+        sequence = int(item.get("_sequence") or (2 if item.get("event_kind") == "break" else 1))
+        return (minute_value, sequence)
+
+    payload = sorted(payload, key=_sort_value)
+    for item in payload:
+        item.pop("_minute_sort", None)
+        item.pop("_sequence", None)
+
+    encoded = base64.b64encode(json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).decode("ascii")
+    return {"game_events_b64": encoded, "game_events_count": len(payload)}
 
 
 def _is_extra_time_period(period: int, ingame_status: str | None = None) -> bool:
@@ -960,7 +1155,12 @@ def build_engine() -> StatsEngine:
     return engine
 
 
-def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
+def run_stats_pipeline(
+    input_csv_path: str,
+    output_dir: str,
+    season: str | None = None,
+    phase: str | None = None,
+) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
@@ -978,14 +1178,17 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     teams = np.unique(teams)
     engine = build_engine()
     game_stats = []
+    played_game_stats = []
 
     for game_id, game_df in df.groupby('game_id'):
+        played_game_df = _played_events_only(game_df)
+        is_scheduled = played_game_df.empty
 
         home_team = game_df['home_team_name'].iloc[0]
         away_team = game_df['away_team_name'].iloc[0]
-        home_stats = engine.calculate_team_stats(game_df, home_team).stats.copy()
+        home_stats = engine.calculate_team_stats(played_game_df, home_team).stats.copy()
 
-        away_stats = engine.calculate_team_stats(game_df, away_team).stats.copy()
+        away_stats = engine.calculate_team_stats(played_game_df, away_team).stats.copy()
 
         # Prefer an explicit final score snapshot when available. Some feeds contain
         # inconsistent scorer flags for individual events, which can otherwise
@@ -1017,17 +1220,23 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
 
         game_stat = {
             'game_id': game_id,
-            'date': game_df['game_date'].iloc[0] if 'game_date' in game_df.columns else None,
-            'start_time': game_df['game_start_time'].iloc[0] if 'game_start_time' in game_df.columns else None,
-            'result_string': game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None,
-            'ingame_status': game_df['ingame_status'].iloc[0] if 'ingame_status' in game_df.columns else None,
+            'date': _json_scalar(game_df['game_date'].iloc[0] if 'game_date' in game_df.columns else None),
+            'start_time': _json_scalar(game_df['game_start_time'].iloc[0] if 'game_start_time' in game_df.columns else None),
+            'attendance': _json_scalar(game_df['attendance'].iloc[0] if 'attendance' in game_df.columns else None),
+            'game_status': _json_scalar(game_df['game_status'].iloc[0] if 'game_status' in game_df.columns else None),
+            'result_string': _json_scalar(game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None),
+            'ingame_status': _json_scalar(game_df['ingame_status'].iloc[0] if 'ingame_status' in game_df.columns else None),
+            'game_state': 'scheduled' if is_scheduled else 'played',
             'home_team': home_team,
             'home_stats': home_stats,
             'away_team': away_team,
             'away_stats': away_stats
         }
-        game_stat.update(_build_gameflow_timeline(game_df, home_team, away_team))
+        game_stat.update(_build_gameflow_timeline(played_game_df, home_team, away_team))
+        game_stat.update(_build_game_events_payload(played_game_df, home_team, away_team))
         game_stats.append(game_stat)
+        if not is_scheduled:
+            played_game_stats.append(game_stat)
 
     # aggregate per game
 
@@ -1039,7 +1248,7 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     # aggregate per team
     team_stats = {}
 
-    for game in game_stats:
+    for game in played_game_stats:
         for side in ['home', 'away']:
             team = game[f'{side}_team']
             stats = game[f'{side}_stats']
@@ -1099,6 +1308,14 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     with open(output_path / 'team_stats_enhanced.json', 'w') as f:
         json.dump(team_stats, f, indent=4)
 
+    home_away_split_table = write_home_away_split_table(
+        team_stats,
+        output_path / 'home_away_split_table.json',
+        game_stats,
+        season=season,
+        phase=phase,
+    )
+
     playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(all_stats)
     league_stats = engine.aggregate_stats(all_stats)
     playoff_averages = engine.aggregate_stats(playoff_stats)
@@ -1127,6 +1344,7 @@ def run_stats_pipeline(input_csv_path: str, output_dir: str) -> dict:
     return {
         "game_stats": game_stats,
         "team_stats_enhanced": team_stats,
+        "home_away_split_table": home_away_split_table,
         "playoff_stats": [team.to_dict() for team in playoff_stats],
         "playdown_stats": [team.to_dict() for team in playdown_stats],
         "top4_stats": [team.to_dict() for team in top4_stats],
