@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% set ns = namespace(team_count=0, game_count=0, top_team=None) %}
+{% set ns = namespace(team_count=0, game_count=0, upcoming_count=0, top_team=None) %}
 {% set is_playoffs = 'playoffs' in category.shortname %}
 {% for candidate in articles_page.object_list | sort_by_rank %}
     {% if candidate|string_in_category_path('teams') %}
@@ -11,7 +11,12 @@
         {% endif %}
     {% endif %}
     {% if candidate.type == 'game' %}
+        {% set game_state = candidate.game_state|default('played')|string|lower %}
+        {% if game_state == 'scheduled' %}
+            {% set ns.upcoming_count = ns.upcoming_count + 1 %}
+        {% else %}
         {% set ns.game_count = ns.game_count + 1 %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 
@@ -77,7 +82,8 @@
     </div>
     <div class="playoff-source" aria-hidden="true">
         {% for game in articles_page.object_list %}
-        {% if game.type == 'game' %}
+        {% set game_state = game.game_state|default('played')|string|lower %}
+        {% if game.type == 'game' and game_state != 'scheduled' %}
         <span
             class="playoff-game-source"
             data-home-team="{{ game.home_team|default('')|e }}"
@@ -109,10 +115,21 @@
 </section>
 {% endif %}
 
-{% if ns.game_count > 0 %}
+{% if ns.game_count > 0 or ns.upcoming_count > 0 %}
 <section class="panel">
-    <h2 class="panel-title">Season Games</h2>
-    <div class="table-wrapper">
+    <div class="games-tabs">
+        {% if ns.game_count > 0 %}
+        <button type="button" class="games-tab is-active" data-games-tab="previous">Previous Games</button>
+        {% endif %}
+        {% if ns.upcoming_count > 0 %}
+        <button type="button" class="games-tab{% if ns.game_count == 0 %} is-active{% endif %}" data-games-tab="upcoming">Upcoming Games</button>
+        {% endif %}
+    </div>
+
+    {% if ns.game_count > 0 %}
+    <div class="games-tab-panel is-active" data-games-panel="previous">
+        <h2 class="panel-title">Season Games</h2>
+        <div class="table-wrapper">
         <table class="data-table">
             <thead>
             <tr>
@@ -124,7 +141,8 @@
             </thead>
             <tbody>
             {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
-            {% if game.type == 'game' %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if game.type == 'game' and game_state != 'scheduled' %}
             {% set home_goals = game.home_goals|default(0)|int %}
             {% set away_goals = game.away_goals|default(0)|int %}
             {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
@@ -158,6 +176,39 @@
             </tbody>
         </table>
     </div>
+    </div>
+    {% endif %}
+
+    {% if ns.upcoming_count > 0 %}
+    <div class="games-tab-panel{% if ns.game_count == 0 %} is-active{% endif %}" data-games-panel="upcoming">
+        <h2 class="panel-title">Upcoming Games</h2>
+        <div class="table-wrapper">
+            <table class="data-table">
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Game</th>
+                    <th>Kickoff</th>
+                    <th>Report</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for game in articles_page.object_list|sort(attribute='date') %}
+                {% set game_state = game.game_state|default('played')|string|lower %}
+                {% if game.type == 'game' and game_state == 'scheduled' %}
+                <tr>
+                    <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
+                    <td>{{ game.home_team }} vs {{ game.away_team }}</td>
+                    <td>{{ game.start_time|default('TBD') }}</td>
+                    <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
 {% if is_playoffs and ns.game_count > 0 %}
@@ -449,6 +500,30 @@
   });
 
   activateRound(maxRound);
+})();
+</script>
+{% endif %}
+{% if ns.game_count > 0 or ns.upcoming_count > 0 %}
+<script>
+(() => {
+  const tabsRoot = document.querySelector('.games-tabs');
+  if (!tabsRoot) return;
+
+  const tabs = Array.from(tabsRoot.querySelectorAll('.games-tab'));
+  const panels = Array.from(document.querySelectorAll('.games-tab-panel'));
+
+  const activate = (target) => {
+    tabs.forEach((tab) => {
+      tab.classList.toggle('is-active', tab.dataset.gamesTab === target);
+    });
+    panels.forEach((panel) => {
+      panel.classList.toggle('is-active', panel.dataset.gamesPanel === target);
+    });
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => activate(tab.dataset.gamesTab));
+  });
 })();
 </script>
 {% endif %}

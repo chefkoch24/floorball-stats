@@ -8,6 +8,8 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+from src.scheduled_games import build_scheduled_game_row
+
 
 STARTKIT_URL = "https://api.innebandy.se/StatsAppApi/api/startkit"
 DEFAULT_API_ROOT = "https://api.innebandy.se/v2/api/"
@@ -107,9 +109,15 @@ def _event_to_row(event: dict[str, Any], match: dict[str, Any]) -> dict[str, Any
         "penalty_type": _map_penalty_type(event.get("PenaltyName")) if event_type == "penalty" else None,
         "game_date": game_date,
         "game_start_time": game_start_time,
+        "attendance": match.get("Spectators"),
         "game_status": match.get("MatchStatus"),
         "ingame_status": None,
         "result_string": result_string,
+        "scorer_name": event.get("PlayerName") if event_type == "goal" else None,
+        "assist_name": event.get("PlayerAssistName") if event_type == "goal" else None,
+        "scorer_number": event.get("PlayerShirtNo") if event_type == "goal" else None,
+        "assist_number": event.get("PlayerAssistShirtNo") if event_type == "goal" else None,
+        "penalty_player_name": event.get("PlayerName") if event_type == "penalty" else None,
     }
     return row
 
@@ -142,12 +150,88 @@ def scrape_competition_events(competition_id: int, output_path: str, include_unp
 
         events = match_detail.get("Events") or []
         if not events:
+            if include_unplayed:
+                game_date, game_start_time = _safe_split_datetime(match_detail.get("MatchDateTime"))
+                all_rows.append(
+                    build_scheduled_game_row(
+                        game_id=match_id,
+                        home_team=match_detail.get("HomeTeam"),
+                        away_team=match_detail.get("AwayTeam"),
+                        game_date=game_date,
+                        game_start_time=game_start_time,
+                        attendance=match_detail.get("Spectators"),
+                        game_status=match_detail.get("MatchStatus") or "Scheduled",
+                    )
+                )
             continue
 
         for event in events:
             row = _event_to_row(event, match_detail)
             if row:
                 all_rows.append(row)
+
+    out = Path(output_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    df = pd.DataFrame(all_rows)
+    df.to_csv(out, index=False)
+    return df
+
+
+def scrape_competitions_events(
+    competition_ids: list[int],
+    output_path: str,
+    include_unplayed: bool = False,
+) -> pd.DataFrame:
+    cfg = _get_api_config()
+    headers = _auth_headers(cfg.token)
+
+    all_rows: list[dict[str, Any]] = []
+    seen_match_ids: set[int] = set()
+    for competition_id in competition_ids:
+        matches_url = f"{cfg.api_root}competitions/{competition_id}/matches"
+        matches_response = requests.get(matches_url, headers=headers, timeout=30)
+        matches_response.raise_for_status()
+        matches = matches_response.json()
+
+        for match in tqdm(matches, desc=f"competition {competition_id}"):
+            match_id = match.get("MatchID")
+            if not match_id or match_id in seen_match_ids:
+                continue
+
+            if not include_unplayed:
+                results = match.get("Results") or []
+                has_final = any(r.get("IsFinalResult") for r in results)
+                if not has_final:
+                    continue
+
+            match_url = f"{cfg.api_root}matches/{match_id}"
+            match_response = requests.get(match_url, headers=headers, timeout=30)
+            match_response.raise_for_status()
+            match_detail = match_response.json()
+            events = match_detail.get("Events") or []
+
+            if not events:
+                if include_unplayed:
+                    game_date, game_start_time = _safe_split_datetime(match_detail.get("MatchDateTime"))
+                    all_rows.append(
+                        build_scheduled_game_row(
+                            game_id=match_id,
+                            home_team=match_detail.get("HomeTeam"),
+                            away_team=match_detail.get("AwayTeam"),
+                            game_date=game_date,
+                            game_start_time=game_start_time,
+                            attendance=match_detail.get("Spectators"),
+                            game_status=match_detail.get("MatchStatus") or "Scheduled",
+                        )
+                    )
+                seen_match_ids.add(match_id)
+                continue
+
+            for event in events:
+                row = _event_to_row(event, match_detail)
+                if row:
+                    all_rows.append(row)
+            seen_match_ids.add(match_id)
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)

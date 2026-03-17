@@ -33,6 +33,9 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'se-25-26-regular-season/teams',
                  'se-25-26-regular-season/liga',
                  'se-25-26-regular-season/games',
+                 'se-25-26-playoffs/teams',
+                 'se-25-26-playoffs/liga',
+                 'se-25-26-playoffs/games',
                  'fi-25-26-regular-season/teams',
                  'fi-25-26-regular-season/liga',
                  'fi-25-26-regular-season/games',
@@ -51,6 +54,9 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'cz-25-26-regular-season/teams',
                  'cz-25-26-regular-season/liga',
                  'cz-25-26-regular-season/games',
+                 'cz-25-26-playoffs/teams',
+                 'cz-25-26-playoffs/liga',
+                 'cz-25-26-playoffs/games',
                  'ch-25-26-regular-season/teams',
                  'ch-25-26-regular-season/games',
                  'ch-25-26-regular-season/liga',
@@ -85,6 +91,9 @@ MENUITEMS = (
     ('Playoffs 24-25', '/category/24-25-playoffs.html'),
     ('Regular Season 25-26', '/category/25-26-regular-season.html'),
     ('Sweden Regular Season 25-26', '/category/se-25-26-regular-season.html'),
+    ('Sweden Playoffs 25-26', '/category/se-25-26-playoffs.html'),
+    ('Czech Republic Regular Season 25-26', '/category/cz-25-26-regular-season.html'),
+    ('Czech Republic Playoffs 25-26', '/category/cz-25-26-playoffs.html'),
     ('Switzerland Regular Season 25-26', '/category/ch-25-26-regular-season.html'),
     ('Switzerland Playoffs 25-26', '/category/ch-25-26-playoffs.html'),
     ('Finland Regular Season 25-26', '/category/fi-25-26-regular-season.html'),
@@ -175,6 +184,22 @@ def fmt2(value, default='n.a.'):
             return value
     return value
 
+def fmt_int(value, default='n.a.'):
+    if value is None or value == '' or value == 'None':
+        return default
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return int(value)
+    if isinstance(value, str):
+        try:
+            return int(float(value))
+        except (ValueError, TypeError):
+            return value
+    return value
+
 def finalize_rendered_value(value):
     if isinstance(value, bool):
         return value
@@ -196,6 +221,7 @@ JINJA_FILTERS = {
     'category2string': category2string,
     'category2title': category2title,
     'fmt2': fmt2,
+    'fmt_int': fmt_int,
 } # reversed for descending order
 
 JINJA_ENVIRONMENT = {

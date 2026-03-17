@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Snipers Bratislava
 Category: sk-25-26-playoffs, teams
 Slug: snipers-bratislava-sk-25-26-playoffs-sk-25-26-playoffs

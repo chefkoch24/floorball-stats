@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: SV Wiler-Ersigen
 Category: ch-25-26-regular-season, teams
 Slug: sv-wiler-ersigen-ch-25-26-regular-season-ch-25-26-regular-season

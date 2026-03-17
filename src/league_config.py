@@ -20,6 +20,7 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
     args.backend = config.get("backend", args.backend)
     args.league_id = config.get("league_id", args.league_id)
     args.competition_id = config.get("competition_id", args.competition_id)
+    args.competition_ids = config.get("competition_ids", getattr(args, "competition_ids", None))
     args.season = config.get("season", args.season)
     args.phase = config.get("phase", args.phase)
     args.data_dir = config.get("data_dir", args.data_dir)

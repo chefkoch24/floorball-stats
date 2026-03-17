@@ -1,5 +1,7 @@
 from pathlib import Path
 import time
+import base64
+import json
 
 import pandas as pd
 
@@ -24,6 +26,28 @@ def _sample_events() -> pd.DataFrame:
                 "sortkey": "1-03:00",
                 "goal_type": "normal",
                 "penalty_type": None,
+                "attendance": 321,
+                "scorer_name": "Alice Forward",
+                "assist_name": None,
+                "penalty_player_name": None,
+            },
+            {
+                "game_id": 1,
+                "game_date": "2025-09-13",
+                "event_type": "penalty",
+                "event_team": "Team B",
+                "home_team_name": "Team A",
+                "away_team_name": "Team B",
+                "home_goals": 1,
+                "guest_goals": 0,
+                "period": 1,
+                "sortkey": "1-12:00",
+                "goal_type": None,
+                "penalty_type": "penalty_2",
+                "attendance": 321,
+                "scorer_name": None,
+                "assist_name": None,
+                "penalty_player_name": "Pat Defender",
             },
             {
                 "game_id": 1,
@@ -38,6 +62,10 @@ def _sample_events() -> pd.DataFrame:
                 "sortkey": "2-10:00",
                 "goal_type": "normal",
                 "penalty_type": None,
+                "attendance": 321,
+                "scorer_name": "Bob Sniper",
+                "assist_name": "Chris Setup",
+                "penalty_player_name": None,
             },
             {
                 "game_id": 1,
@@ -52,9 +80,42 @@ def _sample_events() -> pd.DataFrame:
                 "sortkey": "3-19:00",
                 "goal_type": "normal",
                 "penalty_type": None,
+                "attendance": 321,
+                "scorer_name": "Dana Clutch",
+                "assist_name": None,
+                "penalty_player_name": None,
             },
         ]
     )
+
+
+def _sample_events_with_upcoming() -> pd.DataFrame:
+    rows = _sample_events().to_dict(orient="records")
+    rows.append(
+        {
+            "game_id": 2,
+            "game_date": "2025-09-20",
+            "game_start_time": "18:30",
+            "event_type": "scheduled",
+            "event_team": None,
+            "home_team_name": "Team A",
+            "away_team_name": "Team C",
+            "home_goals": None,
+            "guest_goals": None,
+            "period": 0,
+            "sortkey": "0-00:00",
+            "goal_type": None,
+            "penalty_type": None,
+            "attendance": None,
+            "result_string": None,
+            "game_status": "Scheduled",
+            "ingame_status": None,
+            "scorer_name": None,
+            "assist_name": None,
+            "penalty_player_name": None,
+        }
+    )
+    return pd.DataFrame(rows)
 
 
 def test_run_stats_and_generate_markdown_end_to_end(tmp_path: Path):
@@ -66,6 +127,7 @@ def test_run_stats_and_generate_markdown_end_to_end(tmp_path: Path):
     _sample_events().to_csv(events_csv, index=False)
 
     run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
+    assert (data_dir / "home_away_split_table.json").exists()
     games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_dir / "game_stats.json"),
         team_stats_path=str(data_dir / "team_stats_enhanced.json"),
@@ -94,8 +156,20 @@ def test_run_stats_and_generate_markdown_end_to_end(tmp_path: Path):
     assert "home_team: Team A" in game_content
     assert "away_team: Team B" in game_content
     assert "Category: 25-26-regular-season, game" in game_content
+    assert "attendance: 321" in game_content
     assert "timeline_minutes_csv:" in game_content
     assert "timeline_diffs_csv:" in game_content
+    assert "game_events_b64:" in game_content
+
+    game_stats = json.loads((data_dir / "game_stats.json").read_text(encoding="utf-8"))
+    event_payload = base64.b64decode(game_stats[0]["game_events_b64"]).decode("utf-8")
+    decoded_events = json.loads(event_payload)
+    assert game_stats[0]["attendance"] == 321
+    assert decoded_events[0]["event_kind"] == "goal"
+    assert decoded_events[0]["title"] == "Alice Forward"
+    assert any(event["event_kind"] == "penalty" and event["title"] == "2 min penalty" and event["assist"] == "Pat Defender" for event in decoded_events)
+    assert any(event["event_kind"] == "break" and event["title"] == "End 1st period" for event in decoded_events)
+    assert any(event["event_kind"] == "goal" and event["assist"] == "Chris Setup" for event in decoded_events)
 
     team_content = team_files[0].read_text(encoding="utf-8")
     assert "type: team" in team_content
@@ -123,6 +197,7 @@ def test_pipeline_writes_markdown_into_content_tree(tmp_path: Path):
 
     assert result["games_written"] == 1
     assert result["teams_written"] == 2
+    assert (data_dir / "home_away_split_table.json").exists()
     assert (content_dir / f"{season}-{phase}" / "games").exists()
     assert (content_dir / f"{season}-{phase}" / "teams").exists()
 
@@ -175,3 +250,26 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
         liga_file.stat().st_mtime_ns,
     )
     assert after == before
+
+
+def test_run_stats_includes_upcoming_games_without_counting_them_in_team_stats(tmp_path: Path):
+    data_dir = tmp_path / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    events_csv = data_dir / "events.csv"
+    _sample_events_with_upcoming().to_csv(events_csv, index=False)
+
+    result = run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
+
+    game_stats = json.loads((data_dir / "game_stats.json").read_text(encoding="utf-8"))
+    assert len(game_stats) == 2
+
+    upcoming = next(game for game in game_stats if game["game_id"] == 2)
+    assert upcoming["game_state"] == "scheduled"
+    assert upcoming["start_time"] == "18:30"
+    assert upcoming["game_events_count"] == 0
+    assert upcoming["home_stats"]["games"] == 0
+    assert upcoming["away_stats"]["games"] == 0
+
+    team_stats = result["team_stats_enhanced"]
+    assert team_stats["Team A"]["games"] == 1

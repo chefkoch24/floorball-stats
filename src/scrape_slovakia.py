@@ -11,6 +11,8 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.scheduled_games import build_scheduled_game_row
+
 
 BASE_URL = "https://www.szfb.sk"
 USER_AGENT = "Mozilla/5.0 (compatible; FloorballStats/1.0; +https://stats.floorballconnect.com)"
@@ -91,6 +93,39 @@ def _sortkey(period: int, total_time: str) -> str:
     return f"{period}-{minute_in_period:02d}:{sec:02d}"
 
 
+def _parse_goal_people(text: str) -> tuple[str | None, str | None]:
+    cleaned = " ".join(text.split())
+    if not cleaned:
+        return None, None
+    match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
+    if not match:
+        return cleaned, None
+    scorer_name = (match.group("scorer") or "").strip()
+    assist_name = (match.group("assist") or "").strip()
+    return scorer_name or None, assist_name or None
+
+
+def _normalize_player_name(text: str | None) -> str | None:
+    cleaned = " ".join(str(text or "").split())
+    if not cleaned:
+        return None
+    cleaned = re.sub(r"\(\d+\)$", "", cleaned).strip(" -")
+    if "," in cleaned:
+        last_name, first_name = [part.strip() for part in cleaned.split(",", 1)]
+        if first_name and last_name:
+            cleaned = f"{first_name} {last_name}"
+    return cleaned or None
+
+
+def _parse_penalty_player(text: str) -> str | None:
+    cleaned = " ".join(text.split())
+    cleaned = re.sub(r"^\d+\s*:\s*\d+\s*", "", cleaned).strip()
+    cleaned = re.sub(r"\b(?:2\+2|10|5|4|2)\s*min\.?\b", "", cleaned, flags=re.I).strip()
+    cleaned = re.sub(r"\b(2\+2|10|5|2|ms)\b", "", cleaned, flags=re.I).strip(" -")
+    cleaned = re.sub(r"\([^)]*\)$", "", cleaned).strip(" -")
+    return _normalize_player_name(cleaned)
+
+
 def _parse_meta(soup: BeautifulSoup) -> tuple[str | None, str | None]:
     meta = soup.select_one(".match-info")
     if not meta:
@@ -107,6 +142,26 @@ def _parse_meta(soup: BeautifulSoup) -> tuple[str | None, str | None]:
     return game_date, time_match.group(1) if time_match else None
 
 
+def _extract_attendance(soup: BeautifulSoup) -> int | None:
+    candidates = []
+    match_info = soup.select_one(".match-info")
+    if match_info:
+        candidates.append(match_info.get_text(" ", strip=True))
+    candidates.append(soup.get_text(" ", strip=True))
+    patterns = [
+        r"diváci\s*:\s*(\d+)",
+        r"divákov\s*:\s*(\d+)",
+        r"návštevnosť\s*:\s*(\d+)",
+        r"návšteva\s*:\s*(\d+)",
+    ]
+    for text in candidates:
+        for pattern in patterns:
+            match = re.search(pattern, text, re.I)
+            if match:
+                return int(match.group(1))
+    return None
+
+
 def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dict[str, Any]]:
     response = session.get(match.match_url, timeout=30)
     response.raise_for_status()
@@ -118,23 +173,55 @@ def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dic
         return []
     home_team = home_node.get_text(" ", strip=True)
     away_team = away_node.get_text(" ", strip=True)
+    game_date, game_start_time = _parse_meta(soup)
+    attendance = _extract_attendance(soup)
 
     home_goals_node = soup.select_one("[data-match-text='goalsHome']")
     away_goals_node = soup.select_one("[data-match-text='goalsAway']")
     if not home_goals_node or not away_goals_node:
-        return []
+        return [
+            build_scheduled_game_row(
+                game_id=match.match_id,
+                home_team=home_team,
+                away_team=away_team,
+                game_date=game_date,
+                game_start_time=game_start_time,
+                attendance=attendance,
+                game_status="Scheduled",
+            )
+        ]
     try:
         final_home_goals = int(home_goals_node.get_text(strip=True))
         final_away_goals = int(away_goals_node.get_text(strip=True))
     except ValueError:
-        return []
+        return [
+            build_scheduled_game_row(
+                game_id=match.match_id,
+                home_team=home_team,
+                away_team=away_team,
+                game_date=game_date,
+                game_start_time=game_start_time,
+                attendance=attendance,
+                game_status="Scheduled",
+            )
+        ]
 
-    game_date, game_start_time = _parse_meta(soup)
     result_string = f"{final_home_goals}:{final_away_goals}"
 
     container = soup.select_one("[data-match-placeholder='MatchOverviewEvents']")
     if not container:
-        return []
+        return [
+            build_scheduled_game_row(
+                game_id=match.match_id,
+                home_team=home_team,
+                away_team=away_team,
+                game_date=game_date,
+                game_start_time=game_start_time,
+                attendance=attendance,
+                game_status="Played",
+                result_string=result_string,
+            )
+        ]
 
     rows: list[dict[str, Any]] = []
     current_home = 0
@@ -183,9 +270,26 @@ def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dic
                     event_type = "goal" if is_goal else "penalty"
                     penalty_type = None
                     goal_type = "goal" if is_goal else None
+                    scorer_name = None
+                    assist_name = None
+                    penalty_player_name = None
                     if is_penalty:
                         penalty_text = event_cell.get_text(" ", strip=True)
                         penalty_type = _parse_penalty_type(penalty_text)
+                        penalty_player_name = _parse_penalty_player(penalty_text)
+                    else:
+                        if score_label:
+                            score_label.extract()
+                        scorer_node = event_cell.select_one("div > a, span > a, a")
+                        assist_node = event_cell.select_one(".faded.font-small a")
+                        if scorer_node:
+                            scorer_name = _normalize_player_name(scorer_node.get_text(" ", strip=True))
+                        if assist_node:
+                            assist_name = _normalize_player_name(assist_node.get_text(" ", strip=True))
+                        if not scorer_name and not assist_name:
+                            scorer_name, assist_name = _parse_goal_people(event_cell.get_text(" ", strip=True))
+                            scorer_name = _normalize_player_name(scorer_name)
+                            assist_name = _normalize_player_name(assist_name)
 
                     rows.append(
                         {
@@ -202,9 +306,15 @@ def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dic
                             "penalty_type": penalty_type,
                             "game_date": game_date,
                             "game_start_time": game_start_time,
+                            "attendance": attendance,
                             "game_status": "Played",
                             "ingame_status": None,
                             "result_string": result_string,
+                            "scorer_name": scorer_name,
+                            "assist_name": assist_name,
+                            "scorer_number": None,
+                            "assist_number": None,
+                            "penalty_player_name": penalty_player_name,
                         }
                     )
             table = table.find_next_sibling("table", class_="table-comparison")
@@ -333,6 +443,12 @@ def scrape_competition(
             "game_status",
             "ingame_status",
             "result_string",
+            "attendance",
+            "scorer_name",
+            "assist_name",
+            "scorer_number",
+            "assist_number",
+            "penalty_player_name",
         ],
     )
     df.to_csv(out, index=False)

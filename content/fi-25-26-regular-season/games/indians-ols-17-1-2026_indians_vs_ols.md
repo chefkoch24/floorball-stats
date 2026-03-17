@@ -6,9 +6,12 @@ type: game
 game_id: indians-ols-17-1-2026
 home_team: Indians
 away_team: OLS
-start_time: nan
-result_string: 1-0
-ingame_status: nan
+start_time: None
+attendance: 545.0
+game_status: Played
+result_string: 3-4
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,5.48,9.27,15.83,30.67,33.25,38.23,63.93
 timeline_diffs_csv: 0,1,2,1,0,-1,0,-1
 timeline_home_goals_csv: 0,1,2,2,2,2,3,3
@@ -26,6 +29,8 @@ away_penalty_ends_csv:
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 70.0
+game_events_b64: W3sibWludXRlIjoiMDU6MjkiLCJwZXJpb2QiOjEsInRlYW0iOiJJbmRpYW5zIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJKZXNzZS1TYW11bGkgSHVwcHVuZW4iLCJhc3Npc3QiOiJUdW9tYXMgSGFyanVsYSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA5OjE2IiwicGVyaW9kIjoxLCJ0ZWFtIjoiSW5kaWFucyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjAiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRWVybyBIYXJqdWxhIiwiYXNzaXN0IjoiQW50b24gUm90aCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE1OjUwIiwicGVyaW9kIjoxLCJ0ZWFtIjoiT0xTIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJMdXVrYXMgVmlyb2xhaW5lbiIsImFzc2lzdCI6IkFhcm8gSGF2ZXJpbmVuIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMTA6NDAiLCJwZXJpb2QiOjIsInRlYW0iOiJPTFMiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMjoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik9sbGkgTHVra2FyaSIsImFzc2lzdCI6IlJvb3BlIE9ra29uZW4iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxMzoxNSIsInBlcmlvZCI6MiwidGVhbSI6Ik9MUyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjMiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiUm9vcGUgT2trb25lbiIsImFzc2lzdCI6IlZlZXRpIEtvaXZpc3RvIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTg6MTQiLCJwZXJpb2QiOjIsInRlYW0iOiJJbmRpYW5zIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJKb25hdGFuIEp1bmtrYXJpIiwiYXNzaXN0IjoiRWVybyBIYXJqdWxhIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiT1QgMDM6NTYiLCJwZXJpb2QiOjQsInRlYW0iOiJPTFMiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlJpa3UgUnVvbmFrYW5nYXMiLCJhc3Npc3QiOiJKb29uYSBLYXJqdWxhIiwidGFnIjoiZ29hbCJ9XQ==
+game_events_count: 9
 home_points: 1
 home_wins: 0
 home_over_time_wins: 0
@@ -34,10 +39,10 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 1
 home_penalty_shootout_losses: 0
-home_goals: 1
-home_goals_against: 0
+home_goals: 3
+home_goals_against: 4
 home_games: 1
-home_goal_difference: 1
+home_goal_difference: -1
 home_points_max_difference_2: 1
 home_goals_in_first_period: 2
 home_goals_in_second_period: 1
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 2
 home_goals_in_third_period_against: 0
 home_goals_in_overtime_against: 1
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 1
+home_goals_home: 3
 home_goals_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_away: 0
 home_home_points: 1
 home_away_points: 0
@@ -109,10 +114,10 @@ away_draws: 0
 away_losses: 0
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 0
-away_goals_against: 1
+away_goals: 4
+away_goals_against: 3
 away_games: 1
-away_goal_difference: -1
+away_goal_difference: 1
 away_points_max_difference_2: 2
 away_goals_in_first_period: 1
 away_goals_in_second_period: 2
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_against_home: 0
-away_goals_against_away: 1
+away_goals_against_away: 3
 away_home_points: 0
 away_away_points: 2
 away_take_the_lead_goals_against: 1

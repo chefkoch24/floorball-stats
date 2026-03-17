@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: ŠK Lido Prírodovedec Bratislava
 Category: sk-25-26-playoffs, teams
 Slug: šk-lido-prírodovedec-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
@@ -23,19 +23,19 @@ goals_in_second_period: 11
 goals_in_third_period: 9
 goals_in_overtime: 0
 goals_in_penalty_shootout: 0
-goals_in_powerplay: 6
+goals_in_powerplay: 5
 goals_in_boxplay: 1
 goals_against_in_powerplay: 1
 goals_against_in_boxplay: 0
-powerplay: 10
-boxplay: 8
+powerplay: 9
+boxplay: 9
 powerplay_first_period: 1
 powerplay_second_period: 4
-powerplay_third_period: 5
+powerplay_third_period: 4
 powerplay_overtime: 0
 boxplay_first_period: 1
 boxplay_second_period: 3
-boxplay_third_period: 5
+boxplay_third_period: 6
 boxplay_overtime: 0
 points_after_first_period: 8
 points_after_second_period: 12
@@ -51,13 +51,13 @@ close_game_loss: 1
 close_game_overtime: 1
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_2: 9
+penalty_2: 10
 penalty_2and2: 0
 penalty_10: 2
 penalty_ms: 0
 penalty_first_period: 2
 penalty_second_period: 3
-penalty_third_period: 6
+penalty_third_period: 7
 penalty_overtime: 0
 take_the_lead_goals: 6
 equalizer_goals: 4
@@ -77,8 +77,8 @@ take_the_lead_goals_against: 5
 equalizer_goals_against: 4
 first_goal_of_match_against: 2
 Tags:  FK Florko Košice: 10,
-penalties: 11
-powerplay_efficiency: 60.0
+penalties: 12
+powerplay_efficiency: 55.559999999999995
 boxplay_efficiency: 100.0
 percent_goals_first_period: 34.38
 percent_goals_second_period: 34.38
@@ -93,6 +93,6 @@ goal_difference_per_game: 4.0
 scoring_ratio: 2.0
 goals_per_game: 8.0
 goals_against_per_game: 4.0
-boxplay_per_game: 2.0
-powerplay_per_game: 2.5
+boxplay_per_game: 2.25
+powerplay_per_game: 2.25
 rank: 1

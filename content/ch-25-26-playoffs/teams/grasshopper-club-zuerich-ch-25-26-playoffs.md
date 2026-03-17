@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Grasshopper Club Zürich
 Category: ch-25-26-playoffs, teams
 Slug: grasshopper-club-zuerich-ch-25-26-playoffs-ch-25-26-playoffs

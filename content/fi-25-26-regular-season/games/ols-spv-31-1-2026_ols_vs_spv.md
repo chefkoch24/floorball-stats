@@ -6,9 +6,12 @@ type: game
 game_id: ols-spv-31-1-2026
 home_team: OLS
 away_team: SPV
-start_time: nan
-result_string: 1-0
-ingame_status: nan
+start_time: None
+attendance: 820.0
+game_status: Played
+result_string: 4-1
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,7.93,17.02,48.33,54.25,58.0
 timeline_diffs_csv: 0,1,0,1,2,3
 timeline_home_goals_csv: 0,1,1,2,3,4
@@ -26,6 +29,8 @@ away_penalty_ends_csv: 21.58
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
+game_events_b64: W3sibWludXRlIjoiMDc6NTYiLCJwZXJpb2QiOjEsInRlYW0iOiJPTFMiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFhcm8gSGF2ZXJpbmVuIiwiYXNzaXN0IjoiRWVyaWsgTHVra2FyaSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE2OjIzIiwicGVyaW9kIjoxLCJ0ZWFtIjoiT0xTIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MCIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjoiU2FudHR1IFJlaHUiLCJ0YWciOiJwZW5hbHR5XzIifSx7Im1pbnV0ZSI6IjE3OjAxIiwicGVyaW9kIjoxLCJ0ZWFtIjoiU1BWIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjE6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJFZW1lbGkgS2FyamFubGFodGkiLCJhc3Npc3QiOiJSaWt1IEhha2FuZW4iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxOTozNSIsInBlcmlvZCI6MSwidGVhbSI6IlNQViIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIxOjEiLCJldmVudF9raW5kIjoicGVuYWx0eSIsInRpdGxlIjoiMiBtaW4gcGVuYWx0eSIsImFzc2lzdCI6bnVsbCwidGFnIjoicGVuYWx0eV8yIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwODoyMCIsInBlcmlvZCI6MywidGVhbSI6Ik9MUyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiS2ltaSBWw6RudHRpbMOkIiwiYXNzaXN0IjoiUmlrdSBSdW9uYWthbmdhcyIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE0OjE1IiwicGVyaW9kIjozLCJ0ZWFtIjoiT0xTIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJSaWt1IFJ1b25ha2FuZ2FzIiwiYXNzaXN0IjoiSWlybyBTYXZlbGEiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxODowMCIsInBlcmlvZCI6MywidGVhbSI6Ik9MUyIsInNpZGUiOiJob21lIiwic2NvcmUiOiI0OjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiUmlrdSBSdW9uYWthbmdhcyIsImFzc2lzdCI6bnVsbCwidGFnIjoiZ29hbCJ9XQ==
+game_events_count: 8
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -34,10 +39,10 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 1
-home_goals_against: 0
+home_goals: 4
+home_goals_against: 1
 home_games: 1
-home_goal_difference: 1
+home_goal_difference: 3
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 0
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 0
 home_goals_in_third_period_against: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 1
+home_goals_home: 4
 home_goals_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 1
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
@@ -109,10 +114,10 @@ away_draws: 0
 away_losses: 1
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 0
-away_goals_against: 1
+away_goals: 1
+away_goals_against: 4
 away_games: 1
-away_goal_difference: -1
+away_goal_difference: -3
 away_points_max_difference_2: 0
 away_goals_in_first_period: 1
 away_goals_in_second_period: 0
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 3
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 0
+away_goals_away: 1
 away_goals_against_home: 0
-away_goals_against_away: 1
+away_goals_against_away: 4
 away_home_points: 0
 away_away_points: 0
 away_take_the_lead_goals_against: 2

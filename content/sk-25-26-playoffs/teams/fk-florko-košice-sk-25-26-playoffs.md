@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: FK Florko Košice
 Category: sk-25-26-playoffs, teams
 Slug: fk-florko-košice-sk-25-26-playoffs-sk-25-26-playoffs
@@ -26,16 +26,16 @@ goals_in_penalty_shootout: 0
 goals_in_powerplay: 0
 goals_in_boxplay: 1
 goals_against_in_powerplay: 1
-goals_against_in_boxplay: 6
-powerplay: 8
-boxplay: 10
+goals_against_in_boxplay: 5
+powerplay: 9
+boxplay: 9
 powerplay_first_period: 1
 powerplay_second_period: 3
-powerplay_third_period: 5
+powerplay_third_period: 6
 powerplay_overtime: 0
 boxplay_first_period: 1
 boxplay_second_period: 4
-boxplay_third_period: 5
+boxplay_third_period: 4
 boxplay_overtime: 0
 points_after_first_period: 2
 points_after_second_period: 0
@@ -79,7 +79,7 @@ first_goal_of_match_against: 2
 Tags:  ŠK Lido Prírodovedec Bratislava: 2,
 penalties: 13
 powerplay_efficiency: 0.0
-boxplay_efficiency: 40.0
+boxplay_efficiency: 44.440000000000005
 percent_goals_first_period: 31.25
 percent_goals_second_period: 31.25
 percent_goals_third_period: 31.25
@@ -93,6 +93,6 @@ goal_difference_per_game: -4.0
 scoring_ratio: 0.5
 goals_per_game: 4.0
 goals_against_per_game: 8.0
-boxplay_per_game: 2.5
-powerplay_per_game: 2.0
+boxplay_per_game: 2.25
+powerplay_per_game: 2.25
 rank: 8

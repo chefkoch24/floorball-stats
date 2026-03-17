@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: FK Florko Košice
 Category: sk-25-26-regular-season, teams
 Slug: fk-florko-košice-sk-25-26-regular-season-sk-25-26-regular-season

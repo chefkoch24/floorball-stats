@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Hovslätts IK
 Category: se-25-26-regular-season, teams
 Slug: hovslaetts-ik-se-25-26-regular-season-se-25-26-regular-season

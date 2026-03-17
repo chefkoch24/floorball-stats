@@ -6,9 +6,12 @@ type: game
 game_id: hawks-tps-11-10-2025
 home_team: Hawks
 away_team: TPS
-start_time: nan
-result_string: 1-0
-ingame_status: nan
+start_time: None
+attendance: 398.0
+game_status: Played
+result_string: 5-2
+ingame_status: None
+game_state: played
 timeline_minutes_csv: 0.0,3.1,24.5,30.12,37.42,40.93,49.18,58.05
 timeline_diffs_csv: 0,1,2,3,4,3,4,3
 timeline_home_goals_csv: 0,1,2,3,4,4,5,5
@@ -26,6 +29,8 @@ away_penalty_ends_csv:
 home_major_penalty_minutes_csv: 
 away_major_penalty_minutes_csv: 
 timeline_max_minute: 60.0
+game_events_b64: W3sibWludXRlIjoiMDM6MDYiLCJwZXJpb2QiOjEsInRlYW0iOiJIYXdrcyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIxOjAiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiVW5rbm93biIsImFzc2lzdCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDQ6MzAiLCJwZXJpb2QiOjIsInRlYW0iOiJIYXdrcyIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjAiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRmVsaXggU2thbmQiLCJhc3Npc3QiOiJSYXNtdXMgVmFuaGFsYSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEwOjA3IiwicGVyaW9kIjoyLCJ0ZWFtIjoiSGF3a3MiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMzowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkZlbGl4IFNrYW5kIiwiYXNzaXN0IjoiUmFzbXVzIFZhbmhhbGEiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxNzoyNSIsInBlcmlvZCI6MiwidGVhbSI6Ikhhd2tzIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjQ6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJTYWthcmkgS2F0YWphLVJhaGtvIiwiYXNzaXN0IjoiUmFzbXVzIFJlcG8iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI0MDowMCIsInBlcmlvZCI6MiwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDJuZCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDo1NiIsInBlcmlvZCI6MywidGVhbSI6IlRQUyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiI0OjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiQWxleCBFa2x1bmQiLCJhc3Npc3QiOiJFZXJvIEphbG8iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIwOToxMSIsInBlcmlvZCI6MywidGVhbSI6Ikhhd2tzIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjU6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJBYXJvIFBvaGphbm1hYSIsImFzc2lzdCI6IlJhc211cyBWYW5oYWxhIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTg6MDMiLCJwZXJpb2QiOjMsInRlYW0iOiJUUFMiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiNToyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlZlaWtrbyBQYWFqYW5lbiIsImFzc2lzdCI6Ikphc3BlciBKdXV0aSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 9
 home_points: 3
 home_wins: 1
 home_over_time_wins: 0
@@ -34,10 +39,10 @@ home_draws: 0
 home_losses: 0
 home_over_time_losses: 0
 home_penalty_shootout_losses: 0
-home_goals: 1
-home_goals_against: 0
+home_goals: 5
+home_goals_against: 2
 home_games: 1
-home_goal_difference: 1
+home_goal_difference: 3
 home_points_max_difference_2: 0
 home_goals_in_first_period: 1
 home_goals_in_second_period: 3
@@ -88,9 +93,9 @@ home_goals_in_second_period_against: 0
 home_goals_in_third_period_against: 2
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_home: 1
+home_goals_home: 5
 home_goals_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 2
 home_goals_against_away: 0
 home_home_points: 3
 home_away_points: 0
@@ -109,10 +114,10 @@ away_draws: 0
 away_losses: 1
 away_over_time_losses: 0
 away_penalty_shootout_losses: 0
-away_goals: 0
-away_goals_against: 1
+away_goals: 2
+away_goals_against: 5
 away_games: 1
-away_goal_difference: -1
+away_goal_difference: -3
 away_points_max_difference_2: 0
 away_goals_in_first_period: 0
 away_goals_in_second_period: 0
@@ -164,9 +169,9 @@ away_goals_in_third_period_against: 1
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_home: 0
-away_goals_away: 0
+away_goals_away: 2
 away_goals_against_home: 0
-away_goals_against_away: 1
+away_goals_against_away: 5
 away_home_points: 0
 away_away_points: 0
 away_take_the_lead_goals_against: 1

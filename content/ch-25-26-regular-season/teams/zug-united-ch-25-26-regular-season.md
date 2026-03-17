@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: Zug United
 Category: ch-25-26-regular-season, teams
 Slug: zug-united-ch-25-26-regular-season-ch-25-26-regular-season
@@ -14,9 +14,9 @@ losses: 4
 over_time_losses: 1
 penalty_shootout_losses: 0
 goals: 151
-goals_against: 103
+goals_against: 102
 games: 22
-goal_difference: 48
+goal_difference: 49
 points_max_difference_2: 26
 goals_in_first_period: 36
 goals_in_second_period: 57

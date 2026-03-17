@@ -1,4 +1,4 @@
-Date: 2026-03-15
+Date: 2026-03-17
 Title: SC DHfK Leipzig
 Category: 25-26-regular-season, teams
 Slug: sc-dhfk-leipzig-25-26-regular-season-25-26-regular-season
