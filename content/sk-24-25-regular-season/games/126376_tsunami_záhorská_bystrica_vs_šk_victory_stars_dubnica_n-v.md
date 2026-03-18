@@ -1,7 +1,7 @@
 Date: 2024-12-22
 Title: 126376 tsunami záhorská bystrica vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126376-tsunami-záhorská-bystrica-vs-šk-victory-stars-dubnica-n-v
+Slug: 126376-tsunami-zahorska-bystrica-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126376
 home_team: Tsunami Záhorská Bystrica

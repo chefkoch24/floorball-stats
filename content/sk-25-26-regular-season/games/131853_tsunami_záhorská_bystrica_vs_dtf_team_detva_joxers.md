@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 131853 tsunami záhorská bystrica vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131853-tsunami-záhorská-bystrica-vs-dtf-team-detva-joxers
+Slug: 131853-tsunami-zahorska-bystrica-vs-dtf-team-detva-joxers
 type: game
 game_id: 131853
 home_team: Tsunami Záhorská Bystrica

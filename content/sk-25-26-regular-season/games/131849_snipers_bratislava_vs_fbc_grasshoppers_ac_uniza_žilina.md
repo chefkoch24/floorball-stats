@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 131849 snipers bratislava vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131849-snipers-bratislava-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131849-snipers-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131849
 home_team: Snipers Bratislava

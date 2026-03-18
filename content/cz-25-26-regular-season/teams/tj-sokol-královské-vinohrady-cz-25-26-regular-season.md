@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: TJ Sokol Královské Vinohrady
 Category: cz-25-26-regular-season, teams
-Slug: tj-sokol-královské-vinohrady-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: tj-sokol-kralovske-vinohrady-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:TJ Sokol Královské Vinohrady
 platzierungsverlauf:cz-25-26-regular-season/teams/tj-sokol-královské-vinohrady-cz-25-26-regular-season_platzierungsverlauf.png

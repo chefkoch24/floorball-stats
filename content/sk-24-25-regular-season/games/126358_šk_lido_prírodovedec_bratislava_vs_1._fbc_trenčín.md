@@ -1,7 +1,7 @@
 Date: 2024-11-17
 Title: 126358 šk lido prírodovedec bratislava vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126358-šk-lido-prírodovedec-bratislava-vs-1.-fbc-trenčín
+Slug: 126358-sk-lido-prirodovedec-bratislava-vs-1-fbc-trencin
 type: game
 game_id: 126358
 home_team: ŠK Lido Prírodovedec Bratislava

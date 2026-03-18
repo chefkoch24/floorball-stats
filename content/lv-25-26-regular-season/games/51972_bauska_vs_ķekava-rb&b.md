@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 51972 bauska vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 51972-bauska-vs-ķekava-rb&b
+Slug: 51972-bauska-vs-kekava-rb-and-b
 type: game
 game_id: 51972
 home_team: Bauska

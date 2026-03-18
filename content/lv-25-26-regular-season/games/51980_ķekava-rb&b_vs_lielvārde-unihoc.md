@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 51980 ķekava-rb&b vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 51980-ķekava-rb&b-vs-lielvārde-unihoc
+Slug: 51980-kekava-rb-and-b-vs-lielvarde-unihoc
 type: game
 game_id: 51980
 home_team: Ķekava/RB&B

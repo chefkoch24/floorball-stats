@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 131861 tsunami záhorská bystrica vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131861-tsunami-záhorská-bystrica-vs-fbk-nižná
+Slug: 131861-tsunami-zahorska-bystrica-vs-fbk-nizna
 type: game
 game_id: 131861
 home_team: Tsunami Záhorská Bystrica

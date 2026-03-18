@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126419 fk florko košice vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126419-fk-florko-košice-vs-snipers-bratislava
+Slug: 126419-fk-florko-kosice-vs-snipers-bratislava
 type: game
 game_id: 126419
 home_team: FK Florko Košice

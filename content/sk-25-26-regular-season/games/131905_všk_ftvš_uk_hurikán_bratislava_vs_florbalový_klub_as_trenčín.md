@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 131905 všk ftvš uk hurikán bratislava vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131905-všk-ftvš-uk-hurikán-bratislava-vs-florbalový-klub-as-trenčín
+Slug: 131905-vsk-ftvs-uk-hurikan-bratislava-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131905
 home_team: VŠK FTVŠ UK Hurikán Bratislava

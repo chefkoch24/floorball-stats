@@ -1,7 +1,7 @@
 Date: 2025-10-28
 Title: 1218376 acema sparta praha vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218376-acema-sparta-praha-vs-1.-sc-natios-vítkovice
+Slug: 1218376-acema-sparta-praha-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218376
 home_team: ACEMA Sparta Praha

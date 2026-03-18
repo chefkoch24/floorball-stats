@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 52066 lielvārde-unihoc vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 52066-lielvārde-unihoc-vs-fbk-valmiera
+Slug: 52066-lielvarde-unihoc-vs-fbk-valmiera
 type: game
 game_id: 52066
 home_team: Lielvārde/Unihoc

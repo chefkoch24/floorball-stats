@@ -1,7 +1,7 @@
 Date: 2026-02-15
 Title: 1218478 fbš hummel hattrick brno vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218478-fbš-hummel-hattrick-brno-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218478-fbs-hummel-hattrick-brno-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218478
 home_team: FBŠ Hummel Hattrick Brno

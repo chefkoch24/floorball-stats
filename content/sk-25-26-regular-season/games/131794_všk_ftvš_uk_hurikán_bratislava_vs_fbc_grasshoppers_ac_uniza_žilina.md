@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 131794 všk ftvš uk hurikán bratislava vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131794-všk-ftvš-uk-hurikán-bratislava-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131794-vsk-ftvs-uk-hurikan-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131794
 home_team: VŠK FTVŠ UK Hurikán Bratislava

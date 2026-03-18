@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126318 fbk nižná vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126318-fbk-nižná-vs-1.-fbc-trenčín
+Slug: 126318-fbk-nizna-vs-1-fbc-trencin
 type: game
 game_id: 126318
 home_team: FBK Nižná

@@ -1,7 +1,7 @@
 Date: 2025-03-09
 Title: 126442 fabk atu košice vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126442-fabk-atu-košice-vs-1.-fbc-trenčín
+Slug: 126442-fabk-atu-kosice-vs-1-fbc-trencin
 type: game
 game_id: 126442
 home_team: FaBK ATU Košice

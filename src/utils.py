@@ -82,12 +82,16 @@ def safe_div(numerator, denominator,  rounding=2, in_percent= False, default: fl
         return default
 
 def generate_slug(name: str, year:str, time_of_year: str) -> str:
-    filename = name.replace(' ', '-').lower()
-    filename = filename.replace('ö', 'oe')
-    filename = filename.replace('ä', 'ae')
-    filename = filename.replace('ü', 'ue')
-    filename = filename.replace('ß', 'ss')
+    filename = normalize_slug_fragment(name)
     return filename + f'-{year}-{time_of_year}'
+
+
+def normalize_slug_fragment(value: str) -> str:
+    value = unidecode(value).lower()
+    value = value.replace('&', ' and ')
+    value = re.sub(r'[^a-z0-9]+', '-', value)
+    value = re.sub(r'-+', '-', value).strip('-')
+    return value
 
 
 def flatten_team_stats(stats_dict, prefix):
@@ -118,7 +122,7 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     title = title.replace('_', ' ')
     result.append(f"Title: {title}")
     result.append(f"Category: {season}-{phase}, {category}")
-    result.append(f"Slug: {title.lower().replace(' ', '-')}")
+    result.append(f"Slug: {normalize_slug_fragment(title)}")
     result.append(f"type: game")
     result.append(f"game_id: {game_data['game_id']}")
 
@@ -172,21 +176,13 @@ def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str)
 
 
 def dict_to_markdown_league_stats(stats: dict, title: str, season: str, phase: str):
-    def _normalize_slug(value: str) -> str:
-        filename = value.replace(' ', '-').lower()
-        filename = filename.replace('ö', 'oe')
-        filename = filename.replace('ä', 'ae')
-        filename = filename.replace('ü', 'ue')
-        filename = filename.replace('ß', 'ss')
-        return filename
-
     result = []
     category = "liga"
     result.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}")
     result.append(f"Title: {title}")
     result.append(f"Category: {season}-{phase}, {category}")
-    slug = _normalize_slug(f"{title}-{season}-{phase}")
-    result.append(f"Slug: {slug.lower().replace(' ', '_')}")
+    slug = normalize_slug_fragment(f"{title}-{season}-{phase}")
+    result.append(f"Slug: {slug}")
     result.append(f"type: liga")
     result.append(f"team: {title}")
 

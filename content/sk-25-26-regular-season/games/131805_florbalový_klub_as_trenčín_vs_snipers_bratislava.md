@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 131805 florbalový klub as trenčín vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131805-florbalový-klub-as-trenčín-vs-snipers-bratislava
+Slug: 131805-florbalovy-klub-as-trencin-vs-snipers-bratislava
 type: game
 game_id: 131805
 home_team: Florbalový klub AS Trenčín

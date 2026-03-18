@@ -1,7 +1,7 @@
 Date: 2025-12-19
 Title: 52046 ķekava-rb&b vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 52046-ķekava-rb&b-vs-rubene
+Slug: 52046-kekava-rb-and-b-vs-rubene
 type: game
 game_id: 52046
 home_team: Ķekava/RB&B

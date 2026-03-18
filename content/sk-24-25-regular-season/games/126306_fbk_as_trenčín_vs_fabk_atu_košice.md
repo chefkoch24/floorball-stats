@@ -1,7 +1,7 @@
 Date: 2024-09-14
 Title: 126306 fbk as trenčín vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126306-fbk-as-trenčín-vs-fabk-atu-košice
+Slug: 126306-fbk-as-trencin-vs-fabk-atu-kosice
 type: game
 game_id: 126306
 home_team: FBK AS Trenčín

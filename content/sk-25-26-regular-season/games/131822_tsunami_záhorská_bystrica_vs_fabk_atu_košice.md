@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 131822 tsunami záhorská bystrica vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131822-tsunami-záhorská-bystrica-vs-fabk-atu-košice
+Slug: 131822-tsunami-zahorska-bystrica-vs-fabk-atu-kosice
 type: game
 game_id: 131822
 home_team: Tsunami Záhorská Bystrica

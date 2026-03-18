@@ -1,7 +1,7 @@
 Date: 2024-10-05
 Title: 126327 fk florko košice vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126327-fk-florko-košice-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126327-fk-florko-kosice-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126327
 home_team: FK Florko Košice

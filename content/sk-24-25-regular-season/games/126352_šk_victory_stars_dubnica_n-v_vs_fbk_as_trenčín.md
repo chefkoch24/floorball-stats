@@ -1,7 +1,7 @@
 Date: 2024-11-03
 Title: 126352 šk victory stars dubnica n-v vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126352-šk-victory-stars-dubnica-n-v-vs-fbk-as-trenčín
+Slug: 126352-sk-victory-stars-dubnica-n-v-vs-fbk-as-trencin
 type: game
 game_id: 126352
 home_team: ŠK Victory Stars Dubnica n/V

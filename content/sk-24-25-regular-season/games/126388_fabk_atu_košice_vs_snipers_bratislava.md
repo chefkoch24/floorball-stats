@@ -1,7 +1,7 @@
 Date: 2025-01-06
 Title: 126388 fabk atu košice vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126388-fabk-atu-košice-vs-snipers-bratislava
+Slug: 126388-fabk-atu-kosice-vs-snipers-bratislava
 type: game
 game_id: 126388
 home_team: FaBK ATU Košice

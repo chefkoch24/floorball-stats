@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1073928 unihockey basel regio vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073928-unihockey-basel-regio-vs-wasa-st.-gallen
+Slug: 1073928-unihockey-basel-regio-vs-wasa-st-gallen
 type: game
 game_id: 1073928
 home_team: Unihockey Basel Regio

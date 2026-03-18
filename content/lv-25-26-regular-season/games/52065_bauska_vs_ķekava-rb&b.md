@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 52065 bauska vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52065-bauska-vs-ķekava-rb&b
+Slug: 52065-bauska-vs-kekava-rb-and-b
 type: game
 game_id: 52065
 home_team: Bauska

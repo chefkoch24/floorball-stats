@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131824 fabk atu košice vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131824-fabk-atu-košice-vs-fbk-nižná
+Slug: 131824-fabk-atu-kosice-vs-fbk-nizna
 type: game
 game_id: 131824
 home_team: FaBK ATU Košice

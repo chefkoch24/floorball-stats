@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: VŠK FTVŠ UK Hurikán Bratislava
 Category: sk-25-26-regular-season, teams
-Slug: všk-ftvš-uk-hurikán-bratislava-sk-25-26-regular-season-sk-25-26-regular-season
+Slug: vsk-ftvs-uk-hurikan-bratislava-sk-25-26-regular-season-sk-25-26-regular-season
 type: team
 team:VŠK FTVŠ UK Hurikán Bratislava
 platzierungsverlauf:sk-25-26-regular-season/teams/všk-ftvš-uk-hurikán-bratislava-sk-25-26-regular-season_platzierungsverlauf.png

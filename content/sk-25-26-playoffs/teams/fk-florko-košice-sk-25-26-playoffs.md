@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FK Florko Košice
 Category: sk-25-26-playoffs, teams
-Slug: fk-florko-košice-sk-25-26-playoffs-sk-25-26-playoffs
+Slug: fk-florko-kosice-sk-25-26-playoffs-sk-25-26-playoffs
 type: team
 team:FK Florko Košice
 platzierungsverlauf:sk-25-26-playoffs/teams/fk-florko-košice-sk-25-26-playoffs_platzierungsverlauf.png

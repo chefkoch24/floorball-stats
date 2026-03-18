@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 51987 lielvārde-unihoc vs talsu nss-krauzers
 Category: lv-25-26-regular-season, game
-Slug: 51987-lielvārde-unihoc-vs-talsu-nss-krauzers
+Slug: 51987-lielvarde-unihoc-vs-talsu-nss-krauzers
 type: game
 game_id: 51987
 home_team: Lielvārde/Unihoc

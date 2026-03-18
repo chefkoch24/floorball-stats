@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: 131855 fbk nižná vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131855-fbk-nižná-vs-snipers-bratislava
+Slug: 131855-fbk-nizna-vs-snipers-bratislava
 type: game
 game_id: 131855
 home_team: FBK Nižná

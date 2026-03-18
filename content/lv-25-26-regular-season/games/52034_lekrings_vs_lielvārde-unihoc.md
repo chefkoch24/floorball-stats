@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: 52034 lekrings vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52034-lekrings-vs-lielvārde-unihoc
+Slug: 52034-lekrings-vs-lielvarde-unihoc
 type: game
 game_id: 52034
 home_team: Lekrings

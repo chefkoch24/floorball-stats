@@ -1,7 +1,7 @@
 Date: 2025-03-22
 Title: 126455 šk lido prírodovedec bratislava vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126455-šk-lido-prírodovedec-bratislava-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126455-sk-lido-prirodovedec-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126455
 home_team: ŠK Lido Prírodovedec Bratislava

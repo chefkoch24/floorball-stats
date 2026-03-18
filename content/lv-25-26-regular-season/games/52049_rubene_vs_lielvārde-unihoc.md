@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 52049 rubene vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52049-rubene-vs-lielvārde-unihoc
+Slug: 52049-rubene-vs-lielvarde-unihoc
 type: game
 game_id: 52049
 home_team: Rubene

@@ -1,7 +1,7 @@
 Date: 2025-10-31
 Title: 52000 fbk valmiera vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52000-fbk-valmiera-vs-lielvārde-unihoc
+Slug: 52000-fbk-valmiera-vs-lielvarde-unihoc
 type: game
 game_id: 52000
 home_team: FBK Valmiera

@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 131842 fbc grasshoppers ac uniza žilina vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131842-fbc-grasshoppers-ac-uniza-žilina-vs-dtf-team-detva-joxers
+Slug: 131842-fbc-grasshoppers-ac-uniza-zilina-vs-dtf-team-detva-joxers
 type: game
 game_id: 131842
 home_team: FBC Grasshoppers AC UNIZA Žilina

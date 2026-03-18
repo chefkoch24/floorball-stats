@@ -1,7 +1,7 @@
 Date: 2025-10-18
 Title: 1218362 fbc čpp bystroň group ostrava vs esa logistika tatran střešovice
 Category: cz-25-26-regular-season, game
-Slug: 1218362-fbc-čpp-bystroň-group-ostrava-vs-esa-logistika-tatran-střešovice
+Slug: 1218362-fbc-cpp-bystron-group-ostrava-vs-esa-logistika-tatran-stresovice
 type: game
 game_id: 1218362
 home_team: FBC ČPP Bystroň Group OSTRAVA

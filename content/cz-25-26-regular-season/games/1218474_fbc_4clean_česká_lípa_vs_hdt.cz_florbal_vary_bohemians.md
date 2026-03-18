@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1218474 fbc 4clean česká lípa vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218474-fbc-4clean-česká-lípa-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218474-fbc-4clean-ceska-lipa-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218474
 home_team: FBC 4CLEAN Česká Lípa

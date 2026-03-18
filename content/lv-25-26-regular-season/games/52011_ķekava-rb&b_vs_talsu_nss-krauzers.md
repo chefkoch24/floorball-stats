@@ -1,7 +1,7 @@
 Date: 2025-11-21
 Title: 52011 ķekava-rb&b vs talsu nss-krauzers
 Category: lv-25-26-regular-season, game
-Slug: 52011-ķekava-rb&b-vs-talsu-nss-krauzers
+Slug: 52011-kekava-rb-and-b-vs-talsu-nss-krauzers
 type: game
 game_id: 52011
 home_team: Ķekava/RB&B

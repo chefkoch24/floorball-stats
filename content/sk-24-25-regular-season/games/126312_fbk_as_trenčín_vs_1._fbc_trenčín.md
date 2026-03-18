@@ -1,7 +1,7 @@
 Date: 2024-09-20
 Title: 126312 fbk as trenčín vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126312-fbk-as-trenčín-vs-1.-fbc-trenčín
+Slug: 126312-fbk-as-trencin-vs-1-fbc-trencin
 type: game
 game_id: 126312
 home_team: FBK AS Trenčín

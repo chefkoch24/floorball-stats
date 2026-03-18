@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 131839 florbalový klub as trenčín vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131839-florbalový-klub-as-trenčín-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131839-florbalovy-klub-as-trencin-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131839
 home_team: Florbalový klub AS Trenčín

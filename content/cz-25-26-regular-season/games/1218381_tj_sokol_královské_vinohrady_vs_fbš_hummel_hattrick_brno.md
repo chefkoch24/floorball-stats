@@ -1,7 +1,7 @@
 Date: 2025-10-28
 Title: 1218381 tj sokol královské vinohrady vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218381-tj-sokol-královské-vinohrady-vs-fbš-hummel-hattrick-brno
+Slug: 1218381-tj-sokol-kralovske-vinohrady-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218381
 home_team: TJ Sokol Královské Vinohrady

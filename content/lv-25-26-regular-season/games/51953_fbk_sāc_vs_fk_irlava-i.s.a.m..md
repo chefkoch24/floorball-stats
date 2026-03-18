@@ -1,7 +1,7 @@
 Date: 2025-09-14
 Title: 51953 fbk sāc vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 51953-fbk-sāc-vs-fk-irlava-i.s.a.m.
+Slug: 51953-fbk-sac-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 51953
 home_team: FBK SĀC

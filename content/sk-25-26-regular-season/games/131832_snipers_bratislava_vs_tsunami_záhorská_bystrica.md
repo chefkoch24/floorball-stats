@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 131832 snipers bratislava vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131832-snipers-bratislava-vs-tsunami-záhorská-bystrica
+Slug: 131832-snipers-bratislava-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131832
 home_team: Snipers Bratislava

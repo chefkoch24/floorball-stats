@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 131787 dtf team detva joxers vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131787-dtf-team-detva-joxers-vs-tsunami-záhorská-bystrica
+Slug: 131787-dtf-team-detva-joxers-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131787
 home_team: DTF team Detva Joxers

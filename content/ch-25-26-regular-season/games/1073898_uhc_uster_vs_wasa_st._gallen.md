@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1073898 uhc uster vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073898-uhc-uster-vs-wasa-st.-gallen
+Slug: 1073898-uhc-uster-vs-wasa-st-gallen
 type: game
 game_id: 1073898
 home_team: UHC Uster

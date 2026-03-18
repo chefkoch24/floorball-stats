@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126417 fbc grasshoppers ac uniza žilina vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126417-fbc-grasshoppers-ac-uniza-žilina-vs-fbk-nižná
+Slug: 126417-fbc-grasshoppers-ac-uniza-zilina-vs-fbk-nizna
 type: game
 game_id: 126417
 home_team: FBC Grasshoppers AC UNIZA Žilina

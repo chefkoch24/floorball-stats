@@ -1,7 +1,7 @@
 Date: 2025-12-21
 Title: 52043 lielvārde-unihoc vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 52043-lielvārde-unihoc-vs-lekrings
+Slug: 52043-lielvarde-unihoc-vs-lekrings
 type: game
 game_id: 52043
 home_team: Lielvārde/Unihoc

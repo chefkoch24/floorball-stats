@@ -1,7 +1,7 @@
 Date: 2026-01-26
 Title: 1218460 esa logistika tatran střešovice vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218460-esa-logistika-tatran-střešovice-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218460-esa-logistika-tatran-stresovice-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218460
 home_team: ESA logistika Tatran Střešovice

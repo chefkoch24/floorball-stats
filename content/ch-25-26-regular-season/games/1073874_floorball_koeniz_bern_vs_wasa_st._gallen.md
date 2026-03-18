@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 1073874 floorball koeniz bern vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073874-floorball-koeniz-bern-vs-wasa-st.-gallen
+Slug: 1073874-floorball-koeniz-bern-vs-wasa-st-gallen
 type: game
 game_id: 1073874
 home_team: Floorball Köniz Bern

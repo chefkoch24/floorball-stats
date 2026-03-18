@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 131886 šk lido prírodovedec bratislava vs tempish capitol floorball club
 Category: sk-25-26-regular-season, game
-Slug: 131886-šk-lido-prírodovedec-bratislava-vs-tempish-capitol-floorball-club
+Slug: 131886-sk-lido-prirodovedec-bratislava-vs-tempish-capitol-floorball-club
 type: game
 game_id: 131886
 home_team: ŠK Lido Prírodovedec Bratislava

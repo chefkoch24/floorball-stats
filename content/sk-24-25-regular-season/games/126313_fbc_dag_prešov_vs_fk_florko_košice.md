@@ -1,7 +1,7 @@
 Date: 2024-09-20
 Title: 126313 fbc dag prešov vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126313-fbc-dag-prešov-vs-fk-florko-košice
+Slug: 126313-fbc-dag-presov-vs-fk-florko-kosice
 type: game
 game_id: 126313
 home_team: FBC DAG Prešov

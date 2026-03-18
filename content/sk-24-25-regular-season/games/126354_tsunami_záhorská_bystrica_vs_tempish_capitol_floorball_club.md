@@ -1,7 +1,7 @@
 Date: 2024-11-03
 Title: 126354 tsunami záhorská bystrica vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126354-tsunami-záhorská-bystrica-vs-tempish-capitol-floorball-club
+Slug: 126354-tsunami-zahorska-bystrica-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126354
 home_team: Tsunami Záhorská Bystrica

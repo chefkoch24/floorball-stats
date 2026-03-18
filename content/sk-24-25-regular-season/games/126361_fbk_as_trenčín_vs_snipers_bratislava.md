@@ -1,7 +1,7 @@
 Date: 2024-11-16
 Title: 126361 fbk as trenčín vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126361-fbk-as-trenčín-vs-snipers-bratislava
+Slug: 126361-fbk-as-trencin-vs-snipers-bratislava
 type: game
 game_id: 126361
 home_team: FBK AS Trenčín

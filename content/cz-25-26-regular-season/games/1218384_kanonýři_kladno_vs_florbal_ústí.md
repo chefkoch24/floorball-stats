@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 1218384 kanonýři kladno vs florbal ústí
 Category: cz-25-26-regular-season, game
-Slug: 1218384-kanonýři-kladno-vs-florbal-ústí
+Slug: 1218384-kanonyri-kladno-vs-florbal-usti
 type: game
 game_id: 1218384
 home_team: Kanonýři Kladno

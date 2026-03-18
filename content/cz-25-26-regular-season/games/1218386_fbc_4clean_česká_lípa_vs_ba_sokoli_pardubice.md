@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 1218386 fbc 4clean česká lípa vs ba sokoli pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218386-fbc-4clean-česká-lípa-vs-ba-sokoli-pardubice
+Slug: 1218386-fbc-4clean-ceska-lipa-vs-ba-sokoli-pardubice
 type: game
 game_id: 1218386
 home_team: FBC 4CLEAN Česká Lípa

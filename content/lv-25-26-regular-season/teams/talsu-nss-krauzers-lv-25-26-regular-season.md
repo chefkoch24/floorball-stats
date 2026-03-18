@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Talsu NSS/Krauzers
 Category: lv-25-26-regular-season, teams
-Slug: talsu-nss/krauzers-lv-25-26-regular-season-lv-25-26-regular-season
+Slug: talsu-nss-krauzers-lv-25-26-regular-season-lv-25-26-regular-season
 type: team
 team:Talsu NSS/Krauzers
 platzierungsverlauf:lv-25-26-regular-season/teams/talsu-nss/krauzers-lv-25-26-regular-season_platzierungsverlauf.png

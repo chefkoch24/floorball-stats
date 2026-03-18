@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1073855 zug united vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073855-zug-united-vs-wasa-st.-gallen
+Slug: 1073855-zug-united-vs-wasa-st-gallen
 type: game
 game_id: 1073855
 home_team: Zug United

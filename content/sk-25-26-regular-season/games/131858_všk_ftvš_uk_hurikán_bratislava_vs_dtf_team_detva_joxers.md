@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: 131858 všk ftvš uk hurikán bratislava vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131858-všk-ftvš-uk-hurikán-bratislava-vs-dtf-team-detva-joxers
+Slug: 131858-vsk-ftvs-uk-hurikan-bratislava-vs-dtf-team-detva-joxers
 type: game
 game_id: 131858
 home_team: VŠK FTVŠ UK Hurikán Bratislava

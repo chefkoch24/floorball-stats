@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 131789 snipers bratislava vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131789-snipers-bratislava-vs-fbk-nižná
+Slug: 131789-snipers-bratislava-vs-fbk-nizna
 type: game
 game_id: 131789
 home_team: Snipers Bratislava

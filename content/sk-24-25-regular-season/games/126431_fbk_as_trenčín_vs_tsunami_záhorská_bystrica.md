@@ -1,7 +1,7 @@
 Date: 2025-03-01
 Title: 126431 fbk as trenčín vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126431-fbk-as-trenčín-vs-tsunami-záhorská-bystrica
+Slug: 126431-fbk-as-trencin-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126431
 home_team: FBK AS Trenčín

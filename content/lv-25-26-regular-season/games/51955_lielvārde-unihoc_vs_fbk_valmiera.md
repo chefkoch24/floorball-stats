@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 51955 lielvārde-unihoc vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 51955-lielvārde-unihoc-vs-fbk-valmiera
+Slug: 51955-lielvarde-unihoc-vs-fbk-valmiera
 type: game
 game_id: 51955
 home_team: Lielvārde/Unihoc

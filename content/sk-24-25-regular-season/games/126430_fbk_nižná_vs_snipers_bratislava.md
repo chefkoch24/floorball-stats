@@ -1,7 +1,7 @@
 Date: 2025-03-01
 Title: 126430 fbk nižná vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126430-fbk-nižná-vs-snipers-bratislava
+Slug: 126430-fbk-nizna-vs-snipers-bratislava
 type: game
 game_id: 126430
 home_team: FBK Nižná

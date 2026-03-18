@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 1218403 fbc liberec vs kanonýři kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218403-fbc-liberec-vs-kanonýři-kladno
+Slug: 1218403-fbc-liberec-vs-kanonyri-kladno
 type: game
 game_id: 1218403
 home_team: FBC Liberec

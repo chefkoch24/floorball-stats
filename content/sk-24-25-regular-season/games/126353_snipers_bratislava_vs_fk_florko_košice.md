@@ -1,7 +1,7 @@
 Date: 2024-11-03
 Title: 126353 snipers bratislava vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126353-snipers-bratislava-vs-fk-florko-košice
+Slug: 126353-snipers-bratislava-vs-fk-florko-kosice
 type: game
 game_id: 126353
 home_team: Snipers Bratislava

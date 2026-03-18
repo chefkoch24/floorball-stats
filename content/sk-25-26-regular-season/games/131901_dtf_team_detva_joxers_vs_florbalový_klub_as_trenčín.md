@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131901 dtf team detva joxers vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131901-dtf-team-detva-joxers-vs-florbalový-klub-as-trenčín
+Slug: 131901-dtf-team-detva-joxers-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131901
 home_team: DTF team Detva Joxers

@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1218337 fat pipe florbal chodov vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218337-fat-pipe-florbal-chodov-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218337-fat-pipe-florbal-chodov-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218337
 home_team: FAT PIPE FLORBAL CHODOV

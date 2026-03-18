@@ -1,7 +1,7 @@
 Date: 2026-01-23
 Title: 52068 lekrings vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52068-lekrings-vs-ķekava-rb&b
+Slug: 52068-lekrings-vs-kekava-rb-and-b
 type: game
 game_id: 52068
 home_team: Lekrings

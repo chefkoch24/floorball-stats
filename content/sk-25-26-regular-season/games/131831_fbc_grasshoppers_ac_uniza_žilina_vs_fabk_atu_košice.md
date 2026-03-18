@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 131831 fbc grasshoppers ac uniza žilina vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131831-fbc-grasshoppers-ac-uniza-žilina-vs-fabk-atu-košice
+Slug: 131831-fbc-grasshoppers-ac-uniza-zilina-vs-fabk-atu-kosice
 type: game
 game_id: 131831
 home_team: FBC Grasshoppers AC UNIZA Žilina

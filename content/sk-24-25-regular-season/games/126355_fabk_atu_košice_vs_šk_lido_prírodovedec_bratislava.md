@@ -1,7 +1,7 @@
 Date: 2024-11-03
 Title: 126355 fabk atu košice vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126355-fabk-atu-košice-vs-šk-lido-prírodovedec-bratislava
+Slug: 126355-fabk-atu-kosice-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126355
 home_team: FaBK ATU Košice

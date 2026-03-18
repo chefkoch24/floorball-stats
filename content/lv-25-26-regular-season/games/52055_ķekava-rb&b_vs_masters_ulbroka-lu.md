@@ -1,7 +1,7 @@
 Date: 2026-01-09
 Title: 52055 ķekava-rb&b vs masters ulbroka-lu
 Category: lv-25-26-regular-season, game
-Slug: 52055-ķekava-rb&b-vs-masters-ulbroka-lu
+Slug: 52055-kekava-rb-and-b-vs-masters-ulbroka-lu
 type: game
 game_id: 52055
 home_team: Ķekava/RB&B

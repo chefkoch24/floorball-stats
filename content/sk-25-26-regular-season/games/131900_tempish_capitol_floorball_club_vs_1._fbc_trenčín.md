@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131900 tempish capitol floorball club vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131900-tempish-capitol-floorball-club-vs-1.-fbc-trenčín
+Slug: 131900-tempish-capitol-floorball-club-vs-1-fbc-trencin
 type: game
 game_id: 131900
 home_team: TEMPISH CAPITOL Floorball Club

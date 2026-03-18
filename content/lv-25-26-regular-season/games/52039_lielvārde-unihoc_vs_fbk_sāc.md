@@ -1,7 +1,7 @@
 Date: 2025-12-18
 Title: 52039 lielvārde-unihoc vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52039-lielvārde-unihoc-vs-fbk-sāc
+Slug: 52039-lielvarde-unihoc-vs-fbk-sac
 type: game
 game_id: 52039
 home_team: Lielvārde/Unihoc

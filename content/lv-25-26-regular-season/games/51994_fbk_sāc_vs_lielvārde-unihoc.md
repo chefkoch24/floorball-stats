@@ -1,7 +1,7 @@
 Date: 2025-12-09
 Title: 51994 fbk sāc vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 51994-fbk-sāc-vs-lielvārde-unihoc
+Slug: 51994-fbk-sac-vs-lielvarde-unihoc
 type: game
 game_id: 51994
 home_team: FBK SĀC

@@ -1,7 +1,7 @@
 Date: 2025-11-16
 Title: 131835 florbalový klub as trenčín vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131835-florbalový-klub-as-trenčín-vs-dtf-team-detva-joxers
+Slug: 131835-florbalovy-klub-as-trencin-vs-dtf-team-detva-joxers
 type: game
 game_id: 131835
 home_team: Florbalový klub AS Trenčín

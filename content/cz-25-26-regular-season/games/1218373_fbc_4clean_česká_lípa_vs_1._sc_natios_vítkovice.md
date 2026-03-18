@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 1218373 fbc 4clean česká lípa vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218373-fbc-4clean-česká-lípa-vs-1.-sc-natios-vítkovice
+Slug: 1218373-fbc-4clean-ceska-lipa-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218373
 home_team: FBC 4CLEAN Česká Lípa

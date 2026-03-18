@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 131871 snipers bratislava vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131871-snipers-bratislava-vs-florbalový-klub-as-trenčín
+Slug: 131871-snipers-bratislava-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131871
 home_team: Snipers Bratislava

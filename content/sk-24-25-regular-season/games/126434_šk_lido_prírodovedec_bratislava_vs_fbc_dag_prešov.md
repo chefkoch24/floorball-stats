@@ -1,7 +1,7 @@
 Date: 2025-03-01
 Title: 126434 šk lido prírodovedec bratislava vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126434-šk-lido-prírodovedec-bratislava-vs-fbc-dag-prešov
+Slug: 126434-sk-lido-prirodovedec-bratislava-vs-fbc-dag-presov
 type: game
 game_id: 126434
 home_team: ŠK Lido Prírodovedec Bratislava

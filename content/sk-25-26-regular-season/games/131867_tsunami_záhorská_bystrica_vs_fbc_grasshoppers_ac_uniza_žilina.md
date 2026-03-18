@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 131867 tsunami záhorská bystrica vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131867-tsunami-záhorská-bystrica-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131867-tsunami-zahorska-bystrica-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131867
 home_team: Tsunami Záhorská Bystrica

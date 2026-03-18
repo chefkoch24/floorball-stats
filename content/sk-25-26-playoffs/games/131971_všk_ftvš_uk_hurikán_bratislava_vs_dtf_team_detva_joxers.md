@@ -1,7 +1,7 @@
 Date: 2026-03-28
 Title: 131971 všk ftvš uk hurikán bratislava vs dtf team detva joxers
 Category: sk-25-26-playoffs, game
-Slug: 131971-všk-ftvš-uk-hurikán-bratislava-vs-dtf-team-detva-joxers
+Slug: 131971-vsk-ftvs-uk-hurikan-bratislava-vs-dtf-team-detva-joxers
 type: game
 game_id: 131971
 home_team: VŠK FTVŠ UK Hurikán Bratislava

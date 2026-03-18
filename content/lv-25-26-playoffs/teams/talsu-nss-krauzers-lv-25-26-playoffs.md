@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Talsu NSS/Krauzers
 Category: lv-25-26-playoffs, teams
-Slug: talsu-nss/krauzers-lv-25-26-playoffs-lv-25-26-playoffs
+Slug: talsu-nss-krauzers-lv-25-26-playoffs-lv-25-26-playoffs
 type: team
 team:Talsu NSS/Krauzers
 platzierungsverlauf:lv-25-26-playoffs/teams/talsu-nss/krauzers-lv-25-26-playoffs_platzierungsverlauf.png

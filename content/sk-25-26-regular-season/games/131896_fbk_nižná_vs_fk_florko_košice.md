@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131896 fbk nižná vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131896-fbk-nižná-vs-fk-florko-košice
+Slug: 131896-fbk-nizna-vs-fk-florko-kosice
 type: game
 game_id: 131896
 home_team: FBK Nižná

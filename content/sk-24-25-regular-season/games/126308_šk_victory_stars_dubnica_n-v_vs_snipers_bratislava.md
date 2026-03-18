@@ -1,7 +1,7 @@
 Date: 2024-09-14
 Title: 126308 šk victory stars dubnica n-v vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126308-šk-victory-stars-dubnica-n-v-vs-snipers-bratislava
+Slug: 126308-sk-victory-stars-dubnica-n-v-vs-snipers-bratislava
 type: game
 game_id: 126308
 home_team: ŠK Victory Stars Dubnica n/V

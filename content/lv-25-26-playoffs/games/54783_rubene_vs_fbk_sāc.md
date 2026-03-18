@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 54783 rubene vs fbk sāc
 Category: lv-25-26-playoffs, game
-Slug: 54783-rubene-vs-fbk-sāc
+Slug: 54783-rubene-vs-fbk-sac
 type: game
 game_id: 54783
 home_team: Rubene

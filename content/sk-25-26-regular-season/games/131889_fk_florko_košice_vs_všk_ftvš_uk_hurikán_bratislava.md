@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 131889 fk florko košice vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131889-fk-florko-košice-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131889-fk-florko-kosice-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131889
 home_team: FK Florko Košice

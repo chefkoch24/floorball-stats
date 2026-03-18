@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 131818 florbalový klub as trenčín vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131818-florbalový-klub-as-trenčín-vs-fbk-nižná
+Slug: 131818-florbalovy-klub-as-trencin-vs-fbk-nizna
 type: game
 game_id: 131818
 home_team: Florbalový klub AS Trenčín

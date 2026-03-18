@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131898 tsunami záhorská bystrica vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131898-tsunami-záhorská-bystrica-vs-snipers-bratislava
+Slug: 131898-tsunami-zahorska-bystrica-vs-snipers-bratislava
 type: game
 game_id: 131898
 home_team: Tsunami Záhorská Bystrica

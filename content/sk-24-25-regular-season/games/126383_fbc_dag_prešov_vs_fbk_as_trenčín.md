@@ -1,7 +1,7 @@
 Date: 2025-01-04
 Title: 126383 fbc dag prešov vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126383-fbc-dag-prešov-vs-fbk-as-trenčín
+Slug: 126383-fbc-dag-presov-vs-fbk-as-trencin
 type: game
 game_id: 126383
 home_team: FBC DAG Prešov

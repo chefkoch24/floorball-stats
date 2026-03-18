@@ -397,7 +397,7 @@ Suggested tracking buckets:
 
 ### Foundation
 
-- [ ] sitemap generation
+- [x] sitemap generation
 - [ ] `robots.txt`
 - [x] breadcrumb structured data
 

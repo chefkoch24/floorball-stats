@@ -1,7 +1,7 @@
 Date: 2025-09-19
 Title: 51960 bauska vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 51960-bauska-vs-fk-irlava-i.s.a.m.
+Slug: 51960-bauska-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 51960
 home_team: Bauska

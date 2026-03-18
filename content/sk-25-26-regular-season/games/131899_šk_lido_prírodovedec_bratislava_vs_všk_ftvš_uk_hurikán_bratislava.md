@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131899 šk lido prírodovedec bratislava vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131899-šk-lido-prírodovedec-bratislava-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131899-sk-lido-prirodovedec-bratislava-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131899
 home_team: ŠK Lido Prírodovedec Bratislava

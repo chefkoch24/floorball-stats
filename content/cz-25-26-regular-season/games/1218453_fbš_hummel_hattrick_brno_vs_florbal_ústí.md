@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218453 fbš hummel hattrick brno vs florbal ústí
 Category: cz-25-26-regular-season, game
-Slug: 1218453-fbš-hummel-hattrick-brno-vs-florbal-ústí
+Slug: 1218453-fbs-hummel-hattrick-brno-vs-florbal-usti
 type: game
 game_id: 1218453
 home_team: FBŠ Hummel Hattrick Brno

@@ -1,7 +1,7 @@
 Date: 2025-10-16
 Title: 1218374 acema sparta praha vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218374-acema-sparta-praha-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218374-acema-sparta-praha-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218374
 home_team: ACEMA Sparta Praha

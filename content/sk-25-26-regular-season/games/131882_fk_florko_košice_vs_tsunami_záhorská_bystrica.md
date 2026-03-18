@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 131882 fk florko košice vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131882-fk-florko-košice-vs-tsunami-záhorská-bystrica
+Slug: 131882-fk-florko-kosice-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131882
 home_team: FK Florko Košice

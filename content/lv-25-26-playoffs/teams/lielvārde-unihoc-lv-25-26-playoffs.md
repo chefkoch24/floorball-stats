@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Lielvārde/Unihoc
 Category: lv-25-26-playoffs, teams
-Slug: lielvārde/unihoc-lv-25-26-playoffs-lv-25-26-playoffs
+Slug: lielvarde-unihoc-lv-25-26-playoffs-lv-25-26-playoffs
 type: team
 team:Lielvārde/Unihoc
 platzierungsverlauf:lv-25-26-playoffs/teams/lielvārde/unihoc-lv-25-26-playoffs_platzierungsverlauf.png

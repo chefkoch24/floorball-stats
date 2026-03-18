@@ -1,7 +1,7 @@
 Date: 2025-11-19
 Title: 52015 fk irlava-i.s.a.m. vs talsu nss-krauzers
 Category: lv-25-26-regular-season, game
-Slug: 52015-fk-irlava-i.s.a.m.-vs-talsu-nss-krauzers
+Slug: 52015-fk-irlava-i-s-a-m-vs-talsu-nss-krauzers
 type: game
 game_id: 52015
 home_team: FK Irlava/I.S.A.M.

@@ -1,7 +1,7 @@
 Date: 2025-12-05
 Title: 52023 lekrings vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52023-lekrings-vs-fk-irlava-i.s.a.m.
+Slug: 52023-lekrings-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52023
 home_team: Lekrings

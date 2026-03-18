@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 51986 bauska vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51986-bauska-vs-fbk-sāc
+Slug: 51986-bauska-vs-fbk-sac
 type: game
 game_id: 51986
 home_team: Bauska

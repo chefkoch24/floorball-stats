@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131912 snipers bratislava vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131912-snipers-bratislava-vs-fabk-atu-košice
+Slug: 131912-snipers-bratislava-vs-fabk-atu-kosice
 type: game
 game_id: 131912
 home_team: Snipers Bratislava

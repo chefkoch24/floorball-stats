@@ -1,7 +1,7 @@
 Date: 2025-04-06
 Title: 126466 šk lido prírodovedec bratislava vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126466-šk-lido-prírodovedec-bratislava-vs-tsunami-záhorská-bystrica
+Slug: 126466-sk-lido-prirodovedec-bratislava-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126466
 home_team: ŠK Lido Prírodovedec Bratislava

@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 1218413 kanonýři kladno vs esa logistika tatran střešovice
 Category: cz-25-26-regular-season, game
-Slug: 1218413-kanonýři-kladno-vs-esa-logistika-tatran-střešovice
+Slug: 1218413-kanonyri-kladno-vs-esa-logistika-tatran-stresovice
 type: game
 game_id: 1218413
 home_team: Kanonýři Kladno

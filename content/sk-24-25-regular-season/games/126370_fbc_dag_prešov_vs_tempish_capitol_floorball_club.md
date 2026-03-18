@@ -1,7 +1,7 @@
 Date: 2024-12-01
 Title: 126370 fbc dag prešov vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126370-fbc-dag-prešov-vs-tempish-capitol-floorball-club
+Slug: 126370-fbc-dag-presov-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126370
 home_team: FBC DAG Prešov

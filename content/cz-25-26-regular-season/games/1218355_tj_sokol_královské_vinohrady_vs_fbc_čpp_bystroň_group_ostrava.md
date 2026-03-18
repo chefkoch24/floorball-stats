@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 1218355 tj sokol královské vinohrady vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218355-tj-sokol-královské-vinohrady-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218355-tj-sokol-kralovske-vinohrady-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218355
 home_team: TJ Sokol Královské Vinohrady

@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131826 šk lido prírodovedec bratislava vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131826-šk-lido-prírodovedec-bratislava-vs-tsunami-záhorská-bystrica
+Slug: 131826-sk-lido-prirodovedec-bratislava-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131826
 home_team: ŠK Lido Prírodovedec Bratislava

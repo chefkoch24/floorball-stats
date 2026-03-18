@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1218333 fbc liberec vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218333-fbc-liberec-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218333-fbc-liberec-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218333
 home_team: FBC Liberec

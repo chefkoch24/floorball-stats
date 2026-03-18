@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1218393 florbal ústí vs předvýběr.cz florbal mb
 Category: cz-25-26-regular-season, game
-Slug: 1218393-florbal-ústí-vs-předvýběr.cz-florbal-mb
+Slug: 1218393-florbal-usti-vs-predvyber-cz-florbal-mb
 type: game
 game_id: 1218393
 home_team: Florbal Ústí

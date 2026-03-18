@@ -1,7 +1,7 @@
 Date: 2024-10-12
 Title: 126335 fbc dag prešov vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126335-fbc-dag-prešov-vs-snipers-bratislava
+Slug: 126335-fbc-dag-presov-vs-snipers-bratislava
 type: game
 game_id: 126335
 home_team: FBC DAG Prešov

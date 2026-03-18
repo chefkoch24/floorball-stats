@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 131884 fbk nižná vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131884-fbk-nižná-vs-florbalový-klub-as-trenčín
+Slug: 131884-fbk-nizna-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131884
 home_team: FBK Nižná

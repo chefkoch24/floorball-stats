@@ -1,7 +1,7 @@
 Date: 2024-11-16
 Title: 126359 tempish capitol floorball club vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126359-tempish-capitol-floorball-club-vs-fabk-atu-košice
+Slug: 126359-tempish-capitol-floorball-club-vs-fabk-atu-kosice
 type: game
 game_id: 126359
 home_team: TEMPISH CAPITOL Floorball Club

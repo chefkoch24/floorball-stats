@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126421 šk lido prírodovedec bratislava vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126421-šk-lido-prírodovedec-bratislava-vs-fabk-atu-košice
+Slug: 126421-sk-lido-prirodovedec-bratislava-vs-fabk-atu-kosice
 type: game
 game_id: 126421
 home_team: ŠK Lido Prírodovedec Bratislava

@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218505 acema sparta praha vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218505-acema-sparta-praha-vs-fbš-hummel-hattrick-brno
+Slug: 1218505-acema-sparta-praha-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218505
 home_team: ACEMA Sparta Praha

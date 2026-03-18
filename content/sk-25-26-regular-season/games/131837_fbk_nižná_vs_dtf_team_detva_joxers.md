@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 131837 fbk nižná vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131837-fbk-nižná-vs-dtf-team-detva-joxers
+Slug: 131837-fbk-nizna-vs-dtf-team-detva-joxers
 type: game
 game_id: 131837
 home_team: FBK Nižná

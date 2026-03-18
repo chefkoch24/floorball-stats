@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131908 dtf team detva joxers vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131908-dtf-team-detva-joxers-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131908-dtf-team-detva-joxers-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131908
 home_team: DTF team Detva Joxers

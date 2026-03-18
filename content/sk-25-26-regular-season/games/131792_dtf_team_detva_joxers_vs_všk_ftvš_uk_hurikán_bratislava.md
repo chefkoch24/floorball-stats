@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 131792 dtf team detva joxers vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131792-dtf-team-detva-joxers-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131792-dtf-team-detva-joxers-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131792
 home_team: DTF team Detva Joxers

@@ -1,7 +1,7 @@
 Date: 2024-10-05
 Title: 126330 šk victory stars dubnica n-v vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126330-šk-victory-stars-dubnica-n-v-vs-fbc-dag-prešov
+Slug: 126330-sk-victory-stars-dubnica-n-v-vs-fbc-dag-presov
 type: game
 game_id: 126330
 home_team: ŠK Victory Stars Dubnica n/V

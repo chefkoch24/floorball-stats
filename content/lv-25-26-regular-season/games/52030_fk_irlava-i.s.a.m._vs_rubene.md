@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 52030 fk irlava-i.s.a.m. vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 52030-fk-irlava-i.s.a.m.-vs-rubene
+Slug: 52030-fk-irlava-i-s-a-m-vs-rubene
 type: game
 game_id: 52030
 home_team: FK Irlava/I.S.A.M.

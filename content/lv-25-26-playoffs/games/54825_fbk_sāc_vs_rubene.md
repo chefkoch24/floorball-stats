@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 54825 fbk sāc vs rubene
 Category: lv-25-26-playoffs, game
-Slug: 54825-fbk-sāc-vs-rubene
+Slug: 54825-fbk-sac-vs-rubene
 type: game
 game_id: 54825
 home_team: FBK SĀC

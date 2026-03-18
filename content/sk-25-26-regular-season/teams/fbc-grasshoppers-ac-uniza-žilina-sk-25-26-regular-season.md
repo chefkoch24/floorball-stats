@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBC Grasshoppers AC UNIZA Žilina
 Category: sk-25-26-regular-season, teams
-Slug: fbc-grasshoppers-ac-uniza-žilina-sk-25-26-regular-season-sk-25-26-regular-season
+Slug: fbc-grasshoppers-ac-uniza-zilina-sk-25-26-regular-season-sk-25-26-regular-season
 type: team
 team:FBC Grasshoppers AC UNIZA Žilina
 platzierungsverlauf:sk-25-26-regular-season/teams/fbc-grasshoppers-ac-uniza-žilina-sk-25-26-regular-season_platzierungsverlauf.png

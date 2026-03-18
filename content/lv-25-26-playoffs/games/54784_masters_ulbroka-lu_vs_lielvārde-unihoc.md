@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 54784 masters ulbroka-lu vs lielvārde-unihoc
 Category: lv-25-26-playoffs, game
-Slug: 54784-masters-ulbroka-lu-vs-lielvārde-unihoc
+Slug: 54784-masters-ulbroka-lu-vs-lielvarde-unihoc
 type: game
 game_id: 54784
 home_team: Masters Ulbroka/LU

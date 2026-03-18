@@ -1,7 +1,7 @@
 Date: 2026-01-21
 Title: 1218431 esa logistika tatran střešovice vs fbc liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218431-esa-logistika-tatran-střešovice-vs-fbc-liberec
+Slug: 1218431-esa-logistika-tatran-stresovice-vs-fbc-liberec
 type: game
 game_id: 1218431
 home_team: ESA logistika Tatran Střešovice

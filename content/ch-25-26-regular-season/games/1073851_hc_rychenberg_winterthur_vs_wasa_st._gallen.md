@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1073851 hc rychenberg winterthur vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073851-hc-rychenberg-winterthur-vs-wasa-st.-gallen
+Slug: 1073851-hc-rychenberg-winterthur-vs-wasa-st-gallen
 type: game
 game_id: 1073851
 home_team: HC Rychenberg Winterthur

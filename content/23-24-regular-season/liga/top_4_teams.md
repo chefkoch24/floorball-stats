@@ -1,7 +1,7 @@
 Date: 2024-02-18
 Title: Top-4-teams
 Category: 23-24-regular-season, liga
-Slug: top_4_teams-23-24-regular-season
+Slug: top-4-teams-23-24-regular-season
 goals: 157.0
 goals_in_first_period: 48.25
 goals_in_second_period: 48.5

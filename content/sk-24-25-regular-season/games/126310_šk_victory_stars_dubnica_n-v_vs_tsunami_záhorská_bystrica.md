@@ -1,7 +1,7 @@
 Date: 2024-09-20
 Title: 126310 šk victory stars dubnica n-v vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126310-šk-victory-stars-dubnica-n-v-vs-tsunami-záhorská-bystrica
+Slug: 126310-sk-victory-stars-dubnica-n-v-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126310
 home_team: ŠK Victory Stars Dubnica n/V

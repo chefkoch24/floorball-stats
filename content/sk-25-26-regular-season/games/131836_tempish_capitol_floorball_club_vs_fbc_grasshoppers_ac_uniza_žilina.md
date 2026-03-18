@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 131836 tempish capitol floorball club vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131836-tempish-capitol-floorball-club-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131836-tempish-capitol-floorball-club-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131836
 home_team: TEMPISH CAPITOL Floorball Club

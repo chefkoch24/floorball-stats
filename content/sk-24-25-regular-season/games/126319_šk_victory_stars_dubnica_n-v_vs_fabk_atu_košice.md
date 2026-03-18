@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126319 šk victory stars dubnica n-v vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126319-šk-victory-stars-dubnica-n-v-vs-fabk-atu-košice
+Slug: 126319-sk-victory-stars-dubnica-n-v-vs-fabk-atu-kosice
 type: game
 game_id: 126319
 home_team: ŠK Victory Stars Dubnica n/V

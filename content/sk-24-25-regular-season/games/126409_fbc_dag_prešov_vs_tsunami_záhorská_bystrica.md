@@ -1,7 +1,7 @@
 Date: 2025-01-25
 Title: 126409 fbc dag prešov vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126409-fbc-dag-prešov-vs-tsunami-záhorská-bystrica
+Slug: 126409-fbc-dag-presov-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126409
 home_team: FBC DAG Prešov

@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 52079 fk irlava-i.s.a.m. vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52079-fk-irlava-i.s.a.m.-vs-ķekava-rb&b
+Slug: 52079-fk-irlava-i-s-a-m-vs-kekava-rb-and-b
 type: game
 game_id: 52079
 home_team: FK Irlava/I.S.A.M.

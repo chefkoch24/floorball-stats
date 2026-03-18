@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126422 fbc dag prešov vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126422-fbc-dag-prešov-vs-1.-fbc-trenčín
+Slug: 126422-fbc-dag-presov-vs-1-fbc-trencin
 type: game
 game_id: 126422
 home_team: FBC DAG Prešov

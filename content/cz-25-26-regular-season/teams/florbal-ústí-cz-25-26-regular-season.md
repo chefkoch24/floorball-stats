@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Florbal Ústí
 Category: cz-25-26-regular-season, teams
-Slug: florbal-ústí-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: florbal-usti-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:Florbal Ústí
 platzierungsverlauf:cz-25-26-regular-season/teams/florbal-ústí-cz-25-26-regular-season_platzierungsverlauf.png

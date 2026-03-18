@@ -1,7 +1,7 @@
 Date: 2025-01-25
 Title: 126405 fbc grasshoppers ac uniza žilina vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126405-fbc-grasshoppers-ac-uniza-žilina-vs-fbk-as-trenčín
+Slug: 126405-fbc-grasshoppers-ac-uniza-zilina-vs-fbk-as-trencin
 type: game
 game_id: 126405
 home_team: FBC Grasshoppers AC UNIZA Žilina

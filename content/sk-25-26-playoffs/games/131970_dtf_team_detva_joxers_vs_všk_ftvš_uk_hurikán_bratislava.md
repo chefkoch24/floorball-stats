@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 131970 dtf team detva joxers vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-playoffs, game
-Slug: 131970-dtf-team-detva-joxers-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131970-dtf-team-detva-joxers-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131970
 home_team: DTF team Detva Joxers

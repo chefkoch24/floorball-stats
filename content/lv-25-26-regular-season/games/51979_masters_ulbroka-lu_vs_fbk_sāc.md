@@ -1,7 +1,7 @@
 Date: 2025-10-07
 Title: 51979 masters ulbroka-lu vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51979-masters-ulbroka-lu-vs-fbk-sāc
+Slug: 51979-masters-ulbroka-lu-vs-fbk-sac
 type: game
 game_id: 51979
 home_team: Masters Ulbroka/LU

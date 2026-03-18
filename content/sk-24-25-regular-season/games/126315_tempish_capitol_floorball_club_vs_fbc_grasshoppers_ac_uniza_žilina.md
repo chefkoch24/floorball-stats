@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126315 tempish capitol floorball club vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126315-tempish-capitol-floorball-club-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126315-tempish-capitol-floorball-club-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126315
 home_team: TEMPISH CAPITOL Floorball Club

@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
-Slug: kanonýři-kladno-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: kanonyri-kladno-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:Kanonýři Kladno
 platzierungsverlauf:cz-25-26-regular-season/teams/kanonýři-kladno-cz-25-26-regular-season_platzierungsverlauf.png

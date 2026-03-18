@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 52017 fbk valmiera vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52017-fbk-valmiera-vs-fk-irlava-i.s.a.m.
+Slug: 52017-fbk-valmiera-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52017
 home_team: FBK Valmiera

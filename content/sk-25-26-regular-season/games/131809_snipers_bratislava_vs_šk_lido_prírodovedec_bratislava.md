@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 131809 snipers bratislava vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131809-snipers-bratislava-vs-šk-lido-prírodovedec-bratislava
+Slug: 131809-snipers-bratislava-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131809
 home_team: Snipers Bratislava

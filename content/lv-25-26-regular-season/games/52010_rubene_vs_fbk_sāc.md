@@ -1,7 +1,7 @@
 Date: 2025-11-19
 Title: 52010 rubene vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52010-rubene-vs-fbk-sāc
+Slug: 52010-rubene-vs-fbk-sac
 type: game
 game_id: 52010
 home_team: Rubene

@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: VŠK FTVŠ UK Hurikán Bratislava
 Category: sk-25-26-playoffs, teams
-Slug: všk-ftvš-uk-hurikán-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
+Slug: vsk-ftvs-uk-hurikan-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
 type: team
 team:VŠK FTVŠ UK Hurikán Bratislava
 platzierungsverlauf:sk-25-26-playoffs/teams/všk-ftvš-uk-hurikán-bratislava-sk-25-26-playoffs_platzierungsverlauf.png

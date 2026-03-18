@@ -1,7 +1,7 @@
 Date: 2025-01-18
 Title: 126399 fabk atu košice vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126399-fabk-atu-košice-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126399-fabk-atu-kosice-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126399
 home_team: FaBK ATU Košice

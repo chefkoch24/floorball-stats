@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1218368 fbc liberec vs tj sokol královské vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218368-fbc-liberec-vs-tj-sokol-královské-vinohrady
+Slug: 1218368-fbc-liberec-vs-tj-sokol-kralovske-vinohrady
 type: game
 game_id: 1218368
 home_team: FBC Liberec

@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: 1218401 ba sokoli pardubice vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218401-ba-sokoli-pardubice-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218401-ba-sokoli-pardubice-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218401
 home_team: BA SOKOLI Pardubice

@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 131803 dtf team detva joxers vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131803-dtf-team-detva-joxers-vs-fk-florko-košice
+Slug: 131803-dtf-team-detva-joxers-vs-fk-florko-kosice
 type: game
 game_id: 131803
 home_team: DTF team Detva Joxers

@@ -1,7 +1,7 @@
 Date: 2024-12-20
 Title: 126380 tempish capitol floorball club vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126380-tempish-capitol-floorball-club-vs-šk-lido-prírodovedec-bratislava
+Slug: 126380-tempish-capitol-floorball-club-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126380
 home_team: TEMPISH CAPITOL Floorball Club

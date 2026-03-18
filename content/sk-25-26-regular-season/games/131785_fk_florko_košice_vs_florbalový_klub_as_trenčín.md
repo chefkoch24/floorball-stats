@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 131785 fk florko košice vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131785-fk-florko-košice-vs-florbalový-klub-as-trenčín
+Slug: 131785-fk-florko-kosice-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131785
 home_team: FK Florko Košice

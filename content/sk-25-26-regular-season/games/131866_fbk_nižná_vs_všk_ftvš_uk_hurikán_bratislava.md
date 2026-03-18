@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 131866 fbk nižná vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131866-fbk-nižná-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131866-fbk-nizna-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131866
 home_team: FBK Nižná

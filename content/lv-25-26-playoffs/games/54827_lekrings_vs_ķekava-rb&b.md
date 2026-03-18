@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 54827 lekrings vs ķekava-rb&b
 Category: lv-25-26-playoffs, game
-Slug: 54827-lekrings-vs-ķekava-rb&b
+Slug: 54827-lekrings-vs-kekava-rb-and-b
 type: game
 game_id: 54827
 home_team: Lekrings

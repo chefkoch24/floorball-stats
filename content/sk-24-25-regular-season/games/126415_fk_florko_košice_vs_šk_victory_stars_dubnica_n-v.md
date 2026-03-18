@@ -1,7 +1,7 @@
 Date: 2025-02-08
 Title: 126415 fk florko košice vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126415-fk-florko-košice-vs-šk-victory-stars-dubnica-n-v
+Slug: 126415-fk-florko-kosice-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126415
 home_team: FK Florko Košice

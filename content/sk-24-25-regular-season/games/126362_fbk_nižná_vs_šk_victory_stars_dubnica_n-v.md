@@ -1,7 +1,7 @@
 Date: 2024-11-16
 Title: 126362 fbk nižná vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126362-fbk-nižná-vs-šk-victory-stars-dubnica-n-v
+Slug: 126362-fbk-nizna-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126362
 home_team: FBK Nižná

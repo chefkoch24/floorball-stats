@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 52072 bauska vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52072-bauska-vs-fbk-sāc
+Slug: 52072-bauska-vs-fbk-sac
 type: game
 game_id: 52072
 home_team: Bauska

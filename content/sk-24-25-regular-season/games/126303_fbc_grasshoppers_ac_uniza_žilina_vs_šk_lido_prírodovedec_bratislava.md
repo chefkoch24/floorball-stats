@@ -1,7 +1,7 @@
 Date: 2024-09-14
 Title: 126303 fbc grasshoppers ac uniza žilina vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126303-fbc-grasshoppers-ac-uniza-žilina-vs-šk-lido-prírodovedec-bratislava
+Slug: 126303-fbc-grasshoppers-ac-uniza-zilina-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126303
 home_team: FBC Grasshoppers AC UNIZA Žilina

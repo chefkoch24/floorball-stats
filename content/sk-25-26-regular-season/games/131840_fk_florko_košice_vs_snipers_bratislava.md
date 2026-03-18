@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 131840 fk florko košice vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131840-fk-florko-košice-vs-snipers-bratislava
+Slug: 131840-fk-florko-kosice-vs-snipers-bratislava
 type: game
 game_id: 131840
 home_team: FK Florko Košice

@@ -1,7 +1,7 @@
 Date: 2025-09-11
 Title: 1218335 esa logistika tatran střešovice vs tj sokol královské vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218335-esa-logistika-tatran-střešovice-vs-tj-sokol-královské-vinohrady
+Slug: 1218335-esa-logistika-tatran-stresovice-vs-tj-sokol-kralovske-vinohrady
 type: game
 game_id: 1218335
 home_team: ESA logistika Tatran Střešovice

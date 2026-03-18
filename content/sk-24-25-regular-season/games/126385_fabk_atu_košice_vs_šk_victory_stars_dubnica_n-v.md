@@ -1,7 +1,7 @@
 Date: 2025-01-04
 Title: 126385 fabk atu košice vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126385-fabk-atu-košice-vs-šk-victory-stars-dubnica-n-v
+Slug: 126385-fabk-atu-kosice-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126385
 home_team: FaBK ATU Košice

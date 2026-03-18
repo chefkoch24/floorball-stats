@@ -1,7 +1,7 @@
 Date: 2025-11-13
 Title: 52007 lielvārde-unihoc vs masters ulbroka-lu
 Category: lv-25-26-regular-season, game
-Slug: 52007-lielvārde-unihoc-vs-masters-ulbroka-lu
+Slug: 52007-lielvarde-unihoc-vs-masters-ulbroka-lu
 type: game
 game_id: 52007
 home_team: Lielvārde/Unihoc

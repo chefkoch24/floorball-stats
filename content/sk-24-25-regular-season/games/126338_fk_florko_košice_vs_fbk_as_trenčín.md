@@ -1,7 +1,7 @@
 Date: 2024-10-12
 Title: 126338 fk florko košice vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126338-fk-florko-košice-vs-fbk-as-trenčín
+Slug: 126338-fk-florko-kosice-vs-fbk-as-trencin
 type: game
 game_id: 126338
 home_team: FK Florko Košice

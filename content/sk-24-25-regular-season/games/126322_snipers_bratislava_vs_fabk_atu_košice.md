@@ -1,7 +1,7 @@
 Date: 2024-10-06
 Title: 126322 snipers bratislava vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126322-snipers-bratislava-vs-fabk-atu-košice
+Slug: 126322-snipers-bratislava-vs-fabk-atu-kosice
 type: game
 game_id: 126322
 home_team: Snipers Bratislava

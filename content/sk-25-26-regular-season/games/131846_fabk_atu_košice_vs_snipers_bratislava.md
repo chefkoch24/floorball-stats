@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 131846 fabk atu košice vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131846-fabk-atu-košice-vs-snipers-bratislava
+Slug: 131846-fabk-atu-kosice-vs-snipers-bratislava
 type: game
 game_id: 131846
 home_team: FaBK ATU Košice

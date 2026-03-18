@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 51976 fbk valmiera vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51976-fbk-valmiera-vs-fbk-sāc
+Slug: 51976-fbk-valmiera-vs-fbk-sac
 type: game
 game_id: 51976
 home_team: FBK Valmiera

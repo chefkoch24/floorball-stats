@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 52050 fbk sāc vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 52050-fbk-sāc-vs-lekrings
+Slug: 52050-fbk-sac-vs-lekrings
 type: game
 game_id: 52050
 home_team: FBK SĀC

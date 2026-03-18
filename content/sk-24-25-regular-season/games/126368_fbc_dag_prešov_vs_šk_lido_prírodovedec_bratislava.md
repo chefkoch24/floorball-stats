@@ -1,7 +1,7 @@
 Date: 2024-11-23
 Title: 126368 fbc dag prešov vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126368-fbc-dag-prešov-vs-šk-lido-prírodovedec-bratislava
+Slug: 126368-fbc-dag-presov-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126368
 home_team: FBC DAG Prešov

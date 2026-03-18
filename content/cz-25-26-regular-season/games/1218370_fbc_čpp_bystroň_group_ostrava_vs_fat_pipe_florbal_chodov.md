@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1218370 fbc čpp bystroň group ostrava vs fat pipe florbal chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218370-fbc-čpp-bystroň-group-ostrava-vs-fat-pipe-florbal-chodov
+Slug: 1218370-fbc-cpp-bystron-group-ostrava-vs-fat-pipe-florbal-chodov
 type: game
 game_id: 1218370
 home_team: FBC ČPP Bystroň Group OSTRAVA

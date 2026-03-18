@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1218447 fbc 4clean česká lípa vs esa logistika tatran střešovice
 Category: cz-25-26-regular-season, game
-Slug: 1218447-fbc-4clean-česká-lípa-vs-esa-logistika-tatran-střešovice
+Slug: 1218447-fbc-4clean-ceska-lipa-vs-esa-logistika-tatran-stresovice
 type: game
 game_id: 1218447
 home_team: FBC 4CLEAN Česká Lípa

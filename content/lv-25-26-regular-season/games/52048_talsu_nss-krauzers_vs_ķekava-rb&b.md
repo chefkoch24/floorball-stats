@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 52048 talsu nss-krauzers vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52048-talsu-nss-krauzers-vs-ķekava-rb&b
+Slug: 52048-talsu-nss-krauzers-vs-kekava-rb-and-b
 type: game
 game_id: 52048
 home_team: Talsu NSS/Krauzers

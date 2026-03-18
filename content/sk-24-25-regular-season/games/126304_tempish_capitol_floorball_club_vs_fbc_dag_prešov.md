@@ -1,7 +1,7 @@
 Date: 2024-09-14
 Title: 126304 tempish capitol floorball club vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126304-tempish-capitol-floorball-club-vs-fbc-dag-prešov
+Slug: 126304-tempish-capitol-floorball-club-vs-fbc-dag-presov
 type: game
 game_id: 126304
 home_team: TEMPISH CAPITOL Floorball Club

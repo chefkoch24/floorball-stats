@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 131800 všk ftvš uk hurikán bratislava vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131800-všk-ftvš-uk-hurikán-bratislava-vs-fbk-nižná
+Slug: 131800-vsk-ftvs-uk-hurikan-bratislava-vs-fbk-nizna
 type: game
 game_id: 131800
 home_team: VŠK FTVŠ UK Hurikán Bratislava

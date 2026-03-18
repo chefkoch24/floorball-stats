@@ -1,7 +1,7 @@
 Date: 2024-10-26
 Title: 126343 tsunami záhorská bystrica vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126343-tsunami-záhorská-bystrica-vs-fbc-dag-prešov
+Slug: 126343-tsunami-zahorska-bystrica-vs-fbc-dag-presov
 type: game
 game_id: 126343
 home_team: Tsunami Záhorská Bystrica

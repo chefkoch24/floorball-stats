@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: 131856 fabk atu košice vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131856-fabk-atu-košice-vs-florbalový-klub-as-trenčín
+Slug: 131856-fabk-atu-kosice-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131856
 home_team: FaBK ATU Košice

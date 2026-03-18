@@ -1,7 +1,7 @@
 Date: 2025-12-28
 Title: 1218427 fbš hummel hattrick brno vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218427-fbš-hummel-hattrick-brno-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218427-fbs-hummel-hattrick-brno-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218427
 home_team: FBŠ Hummel Hattrick Brno

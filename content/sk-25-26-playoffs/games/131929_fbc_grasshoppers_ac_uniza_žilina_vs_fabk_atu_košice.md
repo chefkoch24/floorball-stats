@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: 131929 fbc grasshoppers ac uniza žilina vs fabk atu košice
 Category: sk-25-26-playoffs, game
-Slug: 131929-fbc-grasshoppers-ac-uniza-žilina-vs-fabk-atu-košice
+Slug: 131929-fbc-grasshoppers-ac-uniza-zilina-vs-fabk-atu-kosice
 type: game
 game_id: 131929
 home_team: FBC Grasshoppers AC UNIZA Žilina

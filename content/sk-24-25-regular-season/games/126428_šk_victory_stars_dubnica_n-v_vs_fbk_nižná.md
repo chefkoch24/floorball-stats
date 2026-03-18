@@ -1,7 +1,7 @@
 Date: 2025-02-22
 Title: 126428 šk victory stars dubnica n-v vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126428-šk-victory-stars-dubnica-n-v-vs-fbk-nižná
+Slug: 126428-sk-victory-stars-dubnica-n-v-vs-fbk-nizna
 type: game
 game_id: 126428
 home_team: ŠK Victory Stars Dubnica n/V

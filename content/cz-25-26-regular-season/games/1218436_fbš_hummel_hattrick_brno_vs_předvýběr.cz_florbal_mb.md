@@ -1,7 +1,7 @@
 Date: 2025-12-30
 Title: 1218436 fbš hummel hattrick brno vs předvýběr.cz florbal mb
 Category: cz-25-26-regular-season, game
-Slug: 1218436-fbš-hummel-hattrick-brno-vs-předvýběr.cz-florbal-mb
+Slug: 1218436-fbs-hummel-hattrick-brno-vs-predvyber-cz-florbal-mb
 type: game
 game_id: 1218436
 home_team: FBŠ Hummel Hattrick Brno

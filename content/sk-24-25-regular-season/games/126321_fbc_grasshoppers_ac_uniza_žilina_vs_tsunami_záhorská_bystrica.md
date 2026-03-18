@@ -1,7 +1,7 @@
 Date: 2024-09-28
 Title: 126321 fbc grasshoppers ac uniza žilina vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126321-fbc-grasshoppers-ac-uniza-žilina-vs-tsunami-záhorská-bystrica
+Slug: 126321-fbc-grasshoppers-ac-uniza-zilina-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126321
 home_team: FBC Grasshoppers AC UNIZA Žilina

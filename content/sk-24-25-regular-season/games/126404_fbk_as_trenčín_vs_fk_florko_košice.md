@@ -1,7 +1,7 @@
 Date: 2025-01-18
 Title: 126404 fbk as trenčín vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126404-fbk-as-trenčín-vs-fk-florko-košice
+Slug: 126404-fbk-as-trencin-vs-fk-florko-kosice
 type: game
 game_id: 126404
 home_team: FBK AS Trenčín

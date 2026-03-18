@@ -1,7 +1,7 @@
 Date: 2026-01-30
 Title: 52080 fbk valmiera vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52080-fbk-valmiera-vs-fbk-sāc
+Slug: 52080-fbk-valmiera-vs-fbk-sac
 type: game
 game_id: 52080
 home_team: FBK Valmiera

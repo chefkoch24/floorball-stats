@@ -1,7 +1,7 @@
 Date: 2024-09-28
 Title: 126326 tempish capitol floorball club vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126326-tempish-capitol-floorball-club-vs-fk-florko-košice
+Slug: 126326-tempish-capitol-floorball-club-vs-fk-florko-kosice
 type: game
 game_id: 126326
 home_team: TEMPISH CAPITOL Floorball Club

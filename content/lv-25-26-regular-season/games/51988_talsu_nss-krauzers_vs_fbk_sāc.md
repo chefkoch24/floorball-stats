@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 51988 talsu nss-krauzers vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51988-talsu-nss-krauzers-vs-fbk-sāc
+Slug: 51988-talsu-nss-krauzers-vs-fbk-sac
 type: game
 game_id: 51988
 home_team: Talsu NSS/Krauzers

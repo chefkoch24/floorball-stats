@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 131906 snipers bratislava vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131906-snipers-bratislava-vs-fk-florko-košice
+Slug: 131906-snipers-bratislava-vs-fk-florko-kosice
 type: game
 game_id: 131906
 home_team: Snipers Bratislava

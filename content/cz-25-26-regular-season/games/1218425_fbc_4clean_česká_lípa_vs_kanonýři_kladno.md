@@ -1,7 +1,7 @@
 Date: 2025-12-28
 Title: 1218425 fbc 4clean česká lípa vs kanonýři kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218425-fbc-4clean-česká-lípa-vs-kanonýři-kladno
+Slug: 1218425-fbc-4clean-ceska-lipa-vs-kanonyri-kladno
 type: game
 game_id: 1218425
 home_team: FBC 4CLEAN Česká Lípa

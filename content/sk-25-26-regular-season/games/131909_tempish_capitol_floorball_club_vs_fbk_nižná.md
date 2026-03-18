@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131909 tempish capitol floorball club vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131909-tempish-capitol-floorball-club-vs-fbk-nižná
+Slug: 131909-tempish-capitol-floorball-club-vs-fbk-nizna
 type: game
 game_id: 131909
 home_team: TEMPISH CAPITOL Floorball Club

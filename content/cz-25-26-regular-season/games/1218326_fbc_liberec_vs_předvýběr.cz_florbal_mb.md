@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 1218326 fbc liberec vs předvýběr.cz florbal mb
 Category: cz-25-26-regular-season, game
-Slug: 1218326-fbc-liberec-vs-předvýběr.cz-florbal-mb
+Slug: 1218326-fbc-liberec-vs-predvyber-cz-florbal-mb
 type: game
 game_id: 1218326
 home_team: FBC Liberec

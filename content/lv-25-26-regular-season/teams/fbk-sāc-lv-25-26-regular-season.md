@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBK SĀC
 Category: lv-25-26-regular-season, teams
-Slug: fbk-sāc-lv-25-26-regular-season-lv-25-26-regular-season
+Slug: fbk-sac-lv-25-26-regular-season-lv-25-26-regular-season
 type: team
 team:FBK SĀC
 platzierungsverlauf:lv-25-26-regular-season/teams/fbk-sāc-lv-25-26-regular-season_platzierungsverlauf.png

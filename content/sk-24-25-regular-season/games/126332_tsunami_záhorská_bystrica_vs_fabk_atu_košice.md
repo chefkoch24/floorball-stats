@@ -1,7 +1,7 @@
 Date: 2024-10-05
 Title: 126332 tsunami záhorská bystrica vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126332-tsunami-záhorská-bystrica-vs-fabk-atu-košice
+Slug: 126332-tsunami-zahorska-bystrica-vs-fabk-atu-kosice
 type: game
 game_id: 126332
 home_team: Tsunami Záhorská Bystrica

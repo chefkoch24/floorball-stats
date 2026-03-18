@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 131817 všk ftvš uk hurikán bratislava vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131817-všk-ftvš-uk-hurikán-bratislava-vs-fabk-atu-košice
+Slug: 131817-vsk-ftvs-uk-hurikan-bratislava-vs-fabk-atu-kosice
 type: game
 game_id: 131817
 home_team: VŠK FTVŠ UK Hurikán Bratislava

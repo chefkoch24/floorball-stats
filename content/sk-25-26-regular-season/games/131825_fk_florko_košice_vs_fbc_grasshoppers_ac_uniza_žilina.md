@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131825 fk florko košice vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131825-fk-florko-košice-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131825-fk-florko-kosice-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131825
 home_team: FK Florko Košice

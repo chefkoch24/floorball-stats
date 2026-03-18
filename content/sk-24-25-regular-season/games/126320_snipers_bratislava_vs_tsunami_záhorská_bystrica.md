@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126320 snipers bratislava vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126320-snipers-bratislava-vs-tsunami-záhorská-bystrica
+Slug: 126320-snipers-bratislava-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126320
 home_team: Snipers Bratislava

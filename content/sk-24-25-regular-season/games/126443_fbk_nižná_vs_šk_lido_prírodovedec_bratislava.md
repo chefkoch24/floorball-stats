@@ -1,7 +1,7 @@
 Date: 2025-03-15
 Title: 126443 fbk nižná vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126443-fbk-nižná-vs-šk-lido-prírodovedec-bratislava
+Slug: 126443-fbk-nizna-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126443
 home_team: FBK Nižná

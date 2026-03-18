@@ -1,7 +1,7 @@
 Date: 2025-01-18
 Title: 126403 fbk nižná vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126403-fbk-nižná-vs-tempish-capitol-floorball-club
+Slug: 126403-fbk-nizna-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126403
 home_team: FBK Nižná

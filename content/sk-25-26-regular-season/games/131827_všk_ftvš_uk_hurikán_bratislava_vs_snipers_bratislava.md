@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131827 všk ftvš uk hurikán bratislava vs snipers bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131827-všk-ftvš-uk-hurikán-bratislava-vs-snipers-bratislava
+Slug: 131827-vsk-ftvs-uk-hurikan-bratislava-vs-snipers-bratislava
 type: game
 game_id: 131827
 home_team: VŠK FTVŠ UK Hurikán Bratislava

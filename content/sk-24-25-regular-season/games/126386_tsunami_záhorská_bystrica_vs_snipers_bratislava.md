@@ -1,7 +1,7 @@
 Date: 2025-01-04
 Title: 126386 tsunami záhorská bystrica vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126386-tsunami-záhorská-bystrica-vs-snipers-bratislava
+Slug: 126386-tsunami-zahorska-bystrica-vs-snipers-bratislava
 type: game
 game_id: 126386
 home_team: Tsunami Záhorská Bystrica

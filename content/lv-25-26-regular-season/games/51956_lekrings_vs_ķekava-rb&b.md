@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 51956 lekrings vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 51956-lekrings-vs-ķekava-rb&b
+Slug: 51956-lekrings-vs-kekava-rb-and-b
 type: game
 game_id: 51956
 home_team: Lekrings

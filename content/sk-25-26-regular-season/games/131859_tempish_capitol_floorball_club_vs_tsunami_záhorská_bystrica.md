@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: 131859 tempish capitol floorball club vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131859-tempish-capitol-floorball-club-vs-tsunami-záhorská-bystrica
+Slug: 131859-tempish-capitol-floorball-club-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131859
 home_team: TEMPISH CAPITOL Floorball Club

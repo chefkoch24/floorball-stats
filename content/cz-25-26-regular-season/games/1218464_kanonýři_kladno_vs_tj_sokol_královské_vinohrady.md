@@ -1,7 +1,7 @@
 Date: 2026-01-22
 Title: 1218464 kanonýři kladno vs tj sokol královské vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218464-kanonýři-kladno-vs-tj-sokol-královské-vinohrady
+Slug: 1218464-kanonyri-kladno-vs-tj-sokol-kralovske-vinohrady
 type: game
 game_id: 1218464
 home_team: Kanonýři Kladno

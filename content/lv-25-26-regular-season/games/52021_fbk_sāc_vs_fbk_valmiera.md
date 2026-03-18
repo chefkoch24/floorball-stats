@@ -1,7 +1,7 @@
 Date: 2025-11-28
 Title: 52021 fbk sāc vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 52021-fbk-sāc-vs-fbk-valmiera
+Slug: 52021-fbk-sac-vs-fbk-valmiera
 type: game
 game_id: 52021
 home_team: FBK SĀC

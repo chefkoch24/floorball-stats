@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 51966 fbk sāc vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 51966-fbk-sāc-vs-rubene
+Slug: 51966-fbk-sac-vs-rubene
 type: game
 game_id: 51966
 home_team: FBK SĀC

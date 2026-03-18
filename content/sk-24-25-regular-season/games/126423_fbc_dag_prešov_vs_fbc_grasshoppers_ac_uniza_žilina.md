@@ -1,7 +1,7 @@
 Date: 2025-02-22
 Title: 126423 fbc dag prešov vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126423-fbc-dag-prešov-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126423-fbc-dag-presov-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126423
 home_team: FBC DAG Prešov

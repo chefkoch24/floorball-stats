@@ -1,7 +1,7 @@
 Date: 2024-11-23
 Title: 126366 fabk atu košice vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126366-fabk-atu-košice-vs-fk-florko-košice
+Slug: 126366-fabk-atu-kosice-vs-fk-florko-kosice
 type: game
 game_id: 126366
 home_team: FaBK ATU Košice

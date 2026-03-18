@@ -1,7 +1,7 @@
 Date: 2024-10-26
 Title: 126341 šk victory stars dubnica n-v vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126341-šk-victory-stars-dubnica-n-v-vs-tempish-capitol-floorball-club
+Slug: 126341-sk-victory-stars-dubnica-n-v-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126341
 home_team: ŠK Victory Stars Dubnica n/V

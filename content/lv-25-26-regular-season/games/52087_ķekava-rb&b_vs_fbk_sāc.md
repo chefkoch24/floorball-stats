@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 52087 ķekava-rb&b vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52087-ķekava-rb&b-vs-fbk-sāc
+Slug: 52087-kekava-rb-and-b-vs-fbk-sac
 type: game
 game_id: 52087
 home_team: Ķekava/RB&B

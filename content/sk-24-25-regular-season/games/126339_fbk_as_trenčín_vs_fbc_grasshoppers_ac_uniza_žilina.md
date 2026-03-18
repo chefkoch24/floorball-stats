@@ -1,7 +1,7 @@
 Date: 2024-10-26
 Title: 126339 fbk as trenčín vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126339-fbk-as-trenčín-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126339-fbk-as-trencin-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126339
 home_team: FBK AS Trenčín

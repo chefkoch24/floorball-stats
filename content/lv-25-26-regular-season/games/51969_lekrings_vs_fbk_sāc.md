@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: 51969 lekrings vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51969-lekrings-vs-fbk-sāc
+Slug: 51969-lekrings-vs-fbk-sac
 type: game
 game_id: 51969
 home_team: Lekrings

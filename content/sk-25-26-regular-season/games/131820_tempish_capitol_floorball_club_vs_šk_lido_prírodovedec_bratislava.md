@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 131820 tempish capitol floorball club vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131820-tempish-capitol-floorball-club-vs-šk-lido-prírodovedec-bratislava
+Slug: 131820-tempish-capitol-floorball-club-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131820
 home_team: TEMPISH CAPITOL Floorball Club

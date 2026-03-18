@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1218493 florbal ústí vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218493-florbal-ústí-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218493-florbal-usti-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218493
 home_team: Florbal Ústí

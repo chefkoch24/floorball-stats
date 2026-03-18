@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Ķekava/RB&B
 Category: lv-25-26-regular-season, teams
-Slug: ķekava/rb&b-lv-25-26-regular-season-lv-25-26-regular-season
+Slug: kekava-rb-and-b-lv-25-26-regular-season-lv-25-26-regular-season
 type: team
 team:Ķekava/RB&B
 platzierungsverlauf:lv-25-26-regular-season/teams/ķekava/rb&b-lv-25-26-regular-season_platzierungsverlauf.png

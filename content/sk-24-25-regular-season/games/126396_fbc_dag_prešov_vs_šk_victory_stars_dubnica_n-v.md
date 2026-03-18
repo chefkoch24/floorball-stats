@@ -1,7 +1,7 @@
 Date: 2025-01-12
 Title: 126396 fbc dag prešov vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126396-fbc-dag-prešov-vs-šk-victory-stars-dubnica-n-v
+Slug: 126396-fbc-dag-presov-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126396
 home_team: FBC DAG Prešov

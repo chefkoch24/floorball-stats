@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 51989 lielvārde-unihoc vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 51989-lielvārde-unihoc-vs-lekrings
+Slug: 51989-lielvarde-unihoc-vs-lekrings
 type: game
 game_id: 51989
 home_team: Lielvārde/Unihoc

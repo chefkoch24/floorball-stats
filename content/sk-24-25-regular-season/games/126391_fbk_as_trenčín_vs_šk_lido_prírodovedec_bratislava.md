@@ -1,7 +1,7 @@
 Date: 2025-01-06
 Title: 126391 fbk as trenčín vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126391-fbk-as-trenčín-vs-šk-lido-prírodovedec-bratislava
+Slug: 126391-fbk-as-trencin-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126391
 home_team: FBK AS Trenčín

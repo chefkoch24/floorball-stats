@@ -1,7 +1,7 @@
 Date: 2025-03-01
 Title: 126432 fk florko košice vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126432-fk-florko-košice-vs-fabk-atu-košice
+Slug: 126432-fk-florko-kosice-vs-fabk-atu-kosice
 type: game
 game_id: 126432
 home_team: FK Florko Košice

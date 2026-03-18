@@ -1,7 +1,7 @@
 Date: 2024-11-24
 Title: 126363 šk victory stars dubnica n-v vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126363-šk-victory-stars-dubnica-n-v-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126363-sk-victory-stars-dubnica-n-v-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126363
 home_team: ŠK Victory Stars Dubnica n/V

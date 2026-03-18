@@ -1,7 +1,7 @@
 Date: 2025-12-21
 Title: 131860 fbc grasshoppers ac uniza žilina vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131860-fbc-grasshoppers-ac-uniza-žilina-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131860-fbc-grasshoppers-ac-uniza-zilina-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131860
 home_team: FBC Grasshoppers AC UNIZA Žilina

@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 52013 fbk sāc vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 52013-fbk-sāc-vs-lekrings
+Slug: 52013-fbk-sac-vs-lekrings
 type: game
 game_id: 52013
 home_team: FBK SĀC

@@ -1,7 +1,7 @@
 Date: 2024-12-21
 Title: 126377 fbk nižná vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126377-fbk-nižná-vs-fabk-atu-košice
+Slug: 126377-fbk-nizna-vs-fabk-atu-kosice
 type: game
 game_id: 126377
 home_team: FBK Nižná

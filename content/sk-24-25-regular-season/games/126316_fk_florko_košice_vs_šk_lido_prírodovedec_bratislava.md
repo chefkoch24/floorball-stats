@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126316 fk florko košice vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126316-fk-florko-košice-vs-šk-lido-prírodovedec-bratislava
+Slug: 126316-fk-florko-kosice-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126316
 home_team: FK Florko Košice

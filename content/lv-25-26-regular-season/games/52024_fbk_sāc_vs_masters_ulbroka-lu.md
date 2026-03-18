@@ -1,7 +1,7 @@
 Date: 2025-12-02
 Title: 52024 fbk sāc vs masters ulbroka-lu
 Category: lv-25-26-regular-season, game
-Slug: 52024-fbk-sāc-vs-masters-ulbroka-lu
+Slug: 52024-fbk-sac-vs-masters-ulbroka-lu
 type: game
 game_id: 52024
 home_team: FBK SĀC

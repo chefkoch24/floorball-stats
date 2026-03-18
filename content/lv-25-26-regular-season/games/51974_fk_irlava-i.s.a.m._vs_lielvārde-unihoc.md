@@ -1,7 +1,7 @@
 Date: 2025-10-01
 Title: 51974 fk irlava-i.s.a.m. vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 51974-fk-irlava-i.s.a.m.-vs-lielvārde-unihoc
+Slug: 51974-fk-irlava-i-s-a-m-vs-lielvarde-unihoc
 type: game
 game_id: 51974
 home_team: FK Irlava/I.S.A.M.

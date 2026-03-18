@@ -1,7 +1,7 @@
 Date: 2025-12-28
 Title: 1218428 tj sokol královské vinohrady vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218428-tj-sokol-královské-vinohrady-vs-1.-sc-natios-vítkovice
+Slug: 1218428-tj-sokol-kralovske-vinohrady-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218428
 home_team: TJ Sokol Královské Vinohrady

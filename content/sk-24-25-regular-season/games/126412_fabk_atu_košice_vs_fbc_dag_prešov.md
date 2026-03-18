@@ -1,7 +1,7 @@
 Date: 2025-02-08
 Title: 126412 fabk atu košice vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126412-fabk-atu-košice-vs-fbc-dag-prešov
+Slug: 126412-fabk-atu-kosice-vs-fbc-dag-presov
 type: game
 game_id: 126412
 home_team: FaBK ATU Košice

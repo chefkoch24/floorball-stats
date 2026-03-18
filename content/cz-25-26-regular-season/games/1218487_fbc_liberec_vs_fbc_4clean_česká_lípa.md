@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 1218487 fbc liberec vs fbc 4clean česká lípa
 Category: cz-25-26-regular-season, game
-Slug: 1218487-fbc-liberec-vs-fbc-4clean-česká-lípa
+Slug: 1218487-fbc-liberec-vs-fbc-4clean-ceska-lipa
 type: game
 game_id: 1218487
 home_team: FBC Liberec

@@ -2,13 +2,7 @@ import argparse
 import json
 from pathlib import Path
 
-from src.utils import dict_to_markdown_game_stats, dict_to_markdown_league_stats, dict_to_markdown_team_stats
-
-
-def _slugify(value: str) -> str:
-    value = value.replace(" ", "_").replace("/", "-").lower()
-    value = value.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
-    return value
+from src.utils import dict_to_markdown_game_stats, dict_to_markdown_league_stats, dict_to_markdown_team_stats, normalize_slug_fragment
 
 
 def _write_if_changed(path: Path, content: str) -> bool:
@@ -45,7 +39,7 @@ def generate_markdown_files(
 
     games_written = 0
     for gs in game_stats:
-        title = _slugify(f"{gs['game_id']}_{gs['home_team']}_vs_{gs['away_team']}")
+        title = normalize_slug_fragment(f"{gs['game_id']} {gs['home_team']} vs {gs['away_team']}")
         md = dict_to_markdown_game_stats(gs, title, season, phase)
         _write_if_changed(games_out / f"{title}.md", md)
         games_written += 1
@@ -55,7 +49,7 @@ def generate_markdown_files(
 
     teams_written = 0
     for team, stats in team_stats.items():
-        title = _slugify(f"{team}-{season}-{phase}".replace(" ", "-"))
+        title = normalize_slug_fragment(f"{team}-{season}-{phase}")
         md = dict_to_markdown_team_stats(stats, team, season, phase)
         _write_if_changed(teams_out / f"{title}.md", md)
         teams_written += 1
@@ -66,7 +60,7 @@ def generate_markdown_files(
     league_written = 0
     league_title = "League Average"
     league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase)
-    league_slug = _slugify(f"{league_title}-{season}-{phase}")
+    league_slug = normalize_slug_fragment(f"{league_title}-{season}-{phase}")
     _write_if_changed(liga_out / f"{league_slug}.md", league_md)
     league_written += 1
 
@@ -80,7 +74,7 @@ def generate_markdown_files(
         with extra_path.open("r", encoding="utf-8") as f:
             extra_stats = json.load(f)
         extra_md = dict_to_markdown_league_stats(extra_stats, title, season, phase)
-        extra_slug = _slugify(f"{title}-{season}-{phase}")
+        extra_slug = normalize_slug_fragment(f"{title}-{season}-{phase}")
         _write_if_changed(liga_out / f"{extra_slug}.md", extra_md)
         league_written += 1
 

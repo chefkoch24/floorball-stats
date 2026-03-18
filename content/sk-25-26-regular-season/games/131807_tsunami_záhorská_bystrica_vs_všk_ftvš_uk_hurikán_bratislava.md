@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 131807 tsunami záhorská bystrica vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131807-tsunami-záhorská-bystrica-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131807-tsunami-zahorska-bystrica-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131807
 home_team: Tsunami Záhorská Bystrica

@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 131793 tsunami záhorská bystrica vs tempish capitol floorball club
 Category: sk-25-26-regular-season, game
-Slug: 131793-tsunami-záhorská-bystrica-vs-tempish-capitol-floorball-club
+Slug: 131793-tsunami-zahorska-bystrica-vs-tempish-capitol-floorball-club
 type: game
 game_id: 131793
 home_team: Tsunami Záhorská Bystrica

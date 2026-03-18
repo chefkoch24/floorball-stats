@@ -1,7 +1,7 @@
 Date: 2025-10-24
 Title: 51993 ķekava-rb&b vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 51993-ķekava-rb&b-vs-fbk-valmiera
+Slug: 51993-kekava-rb-and-b-vs-fbk-valmiera
 type: game
 game_id: 51993
 home_team: Ķekava/RB&B

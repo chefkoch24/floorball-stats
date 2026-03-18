@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: 1218397 kanonýři kladno vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218397-kanonýři-kladno-vs-fbš-hummel-hattrick-brno
+Slug: 1218397-kanonyri-kladno-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218397
 home_team: Kanonýři Kladno

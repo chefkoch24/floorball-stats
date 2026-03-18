@@ -4,7 +4,8 @@ SITENAME = 'Floorball Stats'
 SITEURL = ''
 PLUGINS = [
     jinja_filters,
-    more_categories
+    more_categories,
+    'sitemap',
 ]
 
 PATH = 'content'
@@ -78,6 +79,20 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = False
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 1.0,
+        "indexes": 0.8,
+        "pages": 0.4,
+    },
+    "changefreqs": {
+        "articles": "daily",
+        "indexes": "weekly",
+        "pages": "monthly",
+    },
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

@@ -1,7 +1,7 @@
 Date: 2024-10-05
 Title: 126328 fbk as trenčín vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126328-fbk-as-trenčín-vs-tempish-capitol-floorball-club
+Slug: 126328-fbk-as-trencin-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126328
 home_team: FBK AS Trenčín

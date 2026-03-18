@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 131890 fbk nižná vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131890-fbk-nižná-vs-fabk-atu-košice
+Slug: 131890-fbk-nizna-vs-fabk-atu-kosice
 type: game
 game_id: 131890
 home_team: FBK Nižná

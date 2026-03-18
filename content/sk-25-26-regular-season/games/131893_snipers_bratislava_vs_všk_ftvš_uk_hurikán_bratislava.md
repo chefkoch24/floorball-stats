@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 131893 snipers bratislava vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131893-snipers-bratislava-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131893-snipers-bratislava-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131893
 home_team: Snipers Bratislava

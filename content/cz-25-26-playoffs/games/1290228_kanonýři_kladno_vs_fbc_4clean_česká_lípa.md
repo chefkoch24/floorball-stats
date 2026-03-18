@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: 1290228 kanonýři kladno vs fbc 4clean česká lípa
 Category: cz-25-26-playoffs, game
-Slug: 1290228-kanonýři-kladno-vs-fbc-4clean-česká-lípa
+Slug: 1290228-kanonyri-kladno-vs-fbc-4clean-ceska-lipa
 type: game
 game_id: 1290228
 home_team: Kanonýři Kladno

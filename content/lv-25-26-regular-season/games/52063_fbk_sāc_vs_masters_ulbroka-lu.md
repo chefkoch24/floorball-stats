@@ -1,7 +1,7 @@
 Date: 2026-01-16
 Title: 52063 fbk sāc vs masters ulbroka-lu
 Category: lv-25-26-regular-season, game
-Slug: 52063-fbk-sāc-vs-masters-ulbroka-lu
+Slug: 52063-fbk-sac-vs-masters-ulbroka-lu
 type: game
 game_id: 52063
 home_team: FBK SĀC

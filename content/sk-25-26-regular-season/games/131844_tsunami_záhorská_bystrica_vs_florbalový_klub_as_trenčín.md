@@ -1,7 +1,7 @@
 Date: 2025-12-04
 Title: 131844 tsunami záhorská bystrica vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131844-tsunami-záhorská-bystrica-vs-florbalový-klub-as-trenčín
+Slug: 131844-tsunami-zahorska-bystrica-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131844
 home_team: Tsunami Záhorská Bystrica

@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 131786 tempish capitol floorball club vs všk ftvš uk hurikán bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131786-tempish-capitol-floorball-club-vs-všk-ftvš-uk-hurikán-bratislava
+Slug: 131786-tempish-capitol-floorball-club-vs-vsk-ftvs-uk-hurikan-bratislava
 type: game
 game_id: 131786
 home_team: TEMPISH CAPITOL Floorball Club

@@ -1,7 +1,7 @@
 Date: 2025-11-14
 Title: 52004 fbk sāc vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52004-fbk-sāc-vs-ķekava-rb&b
+Slug: 52004-fbk-sac-vs-kekava-rb-and-b
 type: game
 game_id: 52004
 home_team: FBK SĀC

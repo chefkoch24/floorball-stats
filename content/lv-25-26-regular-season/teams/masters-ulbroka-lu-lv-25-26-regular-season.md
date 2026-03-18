@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Masters Ulbroka/LU
 Category: lv-25-26-regular-season, teams
-Slug: masters-ulbroka/lu-lv-25-26-regular-season-lv-25-26-regular-season
+Slug: masters-ulbroka-lu-lv-25-26-regular-season-lv-25-26-regular-season
 type: team
 team:Masters Ulbroka/LU
 platzierungsverlauf:lv-25-26-regular-season/teams/masters-ulbroka/lu-lv-25-26-regular-season_platzierungsverlauf.png

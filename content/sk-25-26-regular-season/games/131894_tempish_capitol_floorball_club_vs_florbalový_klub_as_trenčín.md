@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 131894 tempish capitol floorball club vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131894-tempish-capitol-floorball-club-vs-florbalový-klub-as-trenčín
+Slug: 131894-tempish-capitol-floorball-club-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131894
 home_team: TEMPISH CAPITOL Floorball Club

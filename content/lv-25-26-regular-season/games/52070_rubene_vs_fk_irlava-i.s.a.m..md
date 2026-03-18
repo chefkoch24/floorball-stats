@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 52070 rubene vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52070-rubene-vs-fk-irlava-i.s.a.m.
+Slug: 52070-rubene-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52070
 home_team: Rubene

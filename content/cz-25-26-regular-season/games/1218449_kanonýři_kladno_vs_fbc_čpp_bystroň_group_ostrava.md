@@ -1,7 +1,7 @@
 Date: 2026-01-12
 Title: 1218449 kanonýři kladno vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218449-kanonýři-kladno-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218449-kanonyri-kladno-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218449
 home_team: Kanonýři Kladno

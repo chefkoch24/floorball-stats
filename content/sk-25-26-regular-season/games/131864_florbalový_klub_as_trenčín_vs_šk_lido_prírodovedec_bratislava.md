@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 131864 florbalový klub as trenčín vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131864-florbalový-klub-as-trenčín-vs-šk-lido-prírodovedec-bratislava
+Slug: 131864-florbalovy-klub-as-trencin-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131864
 home_team: Florbalový klub AS Trenčín

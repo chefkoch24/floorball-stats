@@ -1,7 +1,7 @@
 Date: 2025-02-21
 Title: Top-4-teams
 Category: 24-25-regular-season, liga
-Slug: top_4_teams-24-25-regular-season
+Slug: top-4-teams-24-25-regular-season
 goals: 161.25
 goals_in_first_period: 45.75
 goals_in_second_period: 49.75

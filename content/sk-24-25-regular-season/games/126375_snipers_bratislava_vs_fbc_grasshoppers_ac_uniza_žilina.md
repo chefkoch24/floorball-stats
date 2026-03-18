@@ -1,7 +1,7 @@
 Date: 2024-12-21
 Title: 126375 snipers bratislava vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126375-snipers-bratislava-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126375-snipers-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126375
 home_team: Snipers Bratislava

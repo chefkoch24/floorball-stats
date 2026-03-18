@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1218492 tj sokol královské vinohrady vs ba sokoli pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218492-tj-sokol-královské-vinohrady-vs-ba-sokoli-pardubice
+Slug: 1218492-tj-sokol-kralovske-vinohrady-vs-ba-sokoli-pardubice
 type: game
 game_id: 1218492
 home_team: TJ Sokol Královské Vinohrady

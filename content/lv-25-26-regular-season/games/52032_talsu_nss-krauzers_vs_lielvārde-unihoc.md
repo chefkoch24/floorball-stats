@@ -1,7 +1,7 @@
 Date: 2025-12-27
 Title: 52032 talsu nss-krauzers vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52032-talsu-nss-krauzers-vs-lielvārde-unihoc
+Slug: 52032-talsu-nss-krauzers-vs-lielvarde-unihoc
 type: game
 game_id: 52032
 home_team: Talsu NSS/Krauzers

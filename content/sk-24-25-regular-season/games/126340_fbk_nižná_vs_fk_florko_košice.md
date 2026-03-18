@@ -1,7 +1,7 @@
 Date: 2024-10-26
 Title: 126340 fbk nižná vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126340-fbk-nižná-vs-fk-florko-košice
+Slug: 126340-fbk-nizna-vs-fk-florko-kosice
 type: game
 game_id: 126340
 home_team: FBK Nižná

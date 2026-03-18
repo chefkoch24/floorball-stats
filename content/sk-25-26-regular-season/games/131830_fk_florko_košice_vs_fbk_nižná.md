@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 131830 fk florko košice vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131830-fk-florko-košice-vs-fbk-nižná
+Slug: 131830-fk-florko-kosice-vs-fbk-nizna
 type: game
 game_id: 131830
 home_team: FK Florko Košice

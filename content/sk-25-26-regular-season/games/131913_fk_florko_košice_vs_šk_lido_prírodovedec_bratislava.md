@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131913 fk florko košice vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131913-fk-florko-košice-vs-šk-lido-prírodovedec-bratislava
+Slug: 131913-fk-florko-kosice-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131913
 home_team: FK Florko Košice

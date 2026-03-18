@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 51978 fk irlava-i.s.a.m. vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 51978-fk-irlava-i.s.a.m.-vs-lekrings
+Slug: 51978-fk-irlava-i-s-a-m-vs-lekrings
 type: game
 game_id: 51978
 home_team: FK Irlava/I.S.A.M.

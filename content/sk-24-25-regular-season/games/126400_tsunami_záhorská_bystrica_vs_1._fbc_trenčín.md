@@ -1,7 +1,7 @@
 Date: 2025-01-18
 Title: 126400 tsunami záhorská bystrica vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126400-tsunami-záhorská-bystrica-vs-1.-fbc-trenčín
+Slug: 126400-tsunami-zahorska-bystrica-vs-1-fbc-trencin
 type: game
 game_id: 126400
 home_team: Tsunami Záhorská Bystrica

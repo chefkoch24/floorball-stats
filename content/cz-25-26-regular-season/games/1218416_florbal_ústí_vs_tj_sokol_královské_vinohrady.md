@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1218416 florbal ústí vs tj sokol královské vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218416-florbal-ústí-vs-tj-sokol-královské-vinohrady
+Slug: 1218416-florbal-usti-vs-tj-sokol-kralovske-vinohrady
 type: game
 game_id: 1218416
 home_team: Florbal Ústí

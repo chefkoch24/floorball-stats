@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 52012 lielvārde-unihoc vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 52012-lielvārde-unihoc-vs-rubene
+Slug: 52012-lielvarde-unihoc-vs-rubene
 type: game
 game_id: 52012
 home_team: Lielvārde/Unihoc

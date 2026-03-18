@@ -1,7 +1,7 @@
 Date: 2025-01-25
 Title: 126406 fk florko košice vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126406-fk-florko-košice-vs-fbk-nižná
+Slug: 126406-fk-florko-kosice-vs-fbk-nizna
 type: game
 game_id: 126406
 home_team: FK Florko Košice

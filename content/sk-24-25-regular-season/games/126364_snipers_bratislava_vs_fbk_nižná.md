@@ -1,7 +1,7 @@
 Date: 2024-11-23
 Title: 126364 snipers bratislava vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126364-snipers-bratislava-vs-fbk-nižná
+Slug: 126364-snipers-bratislava-vs-fbk-nizna
 type: game
 game_id: 126364
 home_team: Snipers Bratislava

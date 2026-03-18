@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 131919 šk lido prírodovedec bratislava vs fk florko košice
 Category: sk-25-26-playoffs, game
-Slug: 131919-šk-lido-prírodovedec-bratislava-vs-fk-florko-košice
+Slug: 131919-sk-lido-prirodovedec-bratislava-vs-fk-florko-kosice
 type: game
 game_id: 131919
 home_team: ŠK Lido Prírodovedec Bratislava

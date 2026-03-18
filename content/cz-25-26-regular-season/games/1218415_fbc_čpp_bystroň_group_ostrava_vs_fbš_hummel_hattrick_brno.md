@@ -1,7 +1,7 @@
 Date: 2025-11-27
 Title: 1218415 fbc čpp bystroň group ostrava vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218415-fbc-čpp-bystroň-group-ostrava-vs-fbš-hummel-hattrick-brno
+Slug: 1218415-fbc-cpp-bystron-group-ostrava-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218415
 home_team: FBC ČPP Bystroň Group OSTRAVA

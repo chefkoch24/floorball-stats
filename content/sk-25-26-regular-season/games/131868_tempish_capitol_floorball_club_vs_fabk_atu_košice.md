@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 131868 tempish capitol floorball club vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131868-tempish-capitol-floorball-club-vs-fabk-atu-košice
+Slug: 131868-tempish-capitol-floorball-club-vs-fabk-atu-kosice
 type: game
 game_id: 131868
 home_team: TEMPISH CAPITOL Floorball Club

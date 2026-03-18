@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1218405 fbc 4clean česká lípa vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218405-fbc-4clean-česká-lípa-vs-fbš-hummel-hattrick-brno
+Slug: 1218405-fbc-4clean-ceska-lipa-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218405
 home_team: FBC 4CLEAN Česká Lípa

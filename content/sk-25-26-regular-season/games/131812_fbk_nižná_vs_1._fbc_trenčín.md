@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 131812 fbk nižná vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131812-fbk-nižná-vs-1.-fbc-trenčín
+Slug: 131812-fbk-nizna-vs-1-fbc-trencin
 type: game
 game_id: 131812
 home_team: FBK Nižná

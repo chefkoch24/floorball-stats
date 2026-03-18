@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 51992 fk irlava-i.s.a.m. vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 51992-fk-irlava-i.s.a.m.-vs-ķekava-rb&b
+Slug: 51992-fk-irlava-i-s-a-m-vs-kekava-rb-and-b
 type: game
 game_id: 51992
 home_team: FK Irlava/I.S.A.M.

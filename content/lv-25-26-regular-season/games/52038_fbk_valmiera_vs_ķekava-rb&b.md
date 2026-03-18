@@ -1,7 +1,7 @@
 Date: 2025-12-21
 Title: 52038 fbk valmiera vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52038-fbk-valmiera-vs-ķekava-rb&b
+Slug: 52038-fbk-valmiera-vs-kekava-rb-and-b
 type: game
 game_id: 52038
 home_team: FBK Valmiera

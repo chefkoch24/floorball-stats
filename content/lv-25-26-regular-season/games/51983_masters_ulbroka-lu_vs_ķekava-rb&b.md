@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 51983 masters ulbroka-lu vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 51983-masters-ulbroka-lu-vs-ķekava-rb&b
+Slug: 51983-masters-ulbroka-lu-vs-kekava-rb-and-b
 type: game
 game_id: 51983
 home_team: Masters Ulbroka/LU

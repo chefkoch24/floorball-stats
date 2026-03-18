@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218502 esa logistika tatran střešovice vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218502-esa-logistika-tatran-střešovice-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218502-esa-logistika-tatran-stresovice-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218502
 home_team: ESA logistika Tatran Střešovice

@@ -1,7 +1,7 @@
 Date: 2025-03-09
 Title: 126439 šk lido prírodovedec bratislava vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126439-šk-lido-prírodovedec-bratislava-vs-fbk-nižná
+Slug: 126439-sk-lido-prirodovedec-bratislava-vs-fbk-nizna
 type: game
 game_id: 126439
 home_team: ŠK Lido Prírodovedec Bratislava

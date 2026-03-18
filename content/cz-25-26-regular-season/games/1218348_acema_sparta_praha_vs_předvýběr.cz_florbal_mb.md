@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 1218348 acema sparta praha vs předvýběr.cz florbal mb
 Category: cz-25-26-regular-season, game
-Slug: 1218348-acema-sparta-praha-vs-předvýběr.cz-florbal-mb
+Slug: 1218348-acema-sparta-praha-vs-predvyber-cz-florbal-mb
 type: game
 game_id: 1218348
 home_team: ACEMA Sparta Praha

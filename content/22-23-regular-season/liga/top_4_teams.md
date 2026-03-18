@@ -1,7 +1,7 @@
 Date: 2023-09-26
 Title: Top_4_teams
 Category: 22-23-regular-season, liga
-Slug: top_4_teams-22-23-regular-season
+Slug: top-4-teams-22-23-regular-season
 Platzierungsverlauf:22-23-regular-season/teams/top_4_teams-22-23-regular-season_platzierungsverlauf.png
 goals: 170.75
 goals_in_first_period: 50.5

@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 131833 všk ftvš uk hurikán bratislava vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131833-všk-ftvš-uk-hurikán-bratislava-vs-šk-lido-prírodovedec-bratislava
+Slug: 131833-vsk-ftvs-uk-hurikan-bratislava-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131833
 home_team: VŠK FTVŠ UK Hurikán Bratislava

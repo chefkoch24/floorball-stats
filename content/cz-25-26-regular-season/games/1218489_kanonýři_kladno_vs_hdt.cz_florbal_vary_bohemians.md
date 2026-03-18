@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1218489 kanonýři kladno vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218489-kanonýři-kladno-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218489-kanonyri-kladno-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218489
 home_team: Kanonýři Kladno

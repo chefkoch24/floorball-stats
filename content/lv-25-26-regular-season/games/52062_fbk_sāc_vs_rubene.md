@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: 52062 fbk sāc vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 52062-fbk-sāc-vs-rubene
+Slug: 52062-fbk-sac-vs-rubene
 type: game
 game_id: 52062
 home_team: FBK SĀC

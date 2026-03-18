@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Tsunami Záhorská Bystrica
 Category: sk-25-26-playoffs, teams
-Slug: tsunami-záhorská-bystrica-sk-25-26-playoffs-sk-25-26-playoffs
+Slug: tsunami-zahorska-bystrica-sk-25-26-playoffs-sk-25-26-playoffs
 type: team
 team:Tsunami Záhorská Bystrica
 platzierungsverlauf:sk-25-26-playoffs/teams/tsunami-záhorská-bystrica-sk-25-26-playoffs_platzierungsverlauf.png

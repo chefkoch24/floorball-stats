@@ -1,7 +1,7 @@
 Date: 2025-02-08
 Title: 126416 fbk nižná vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126416-fbk-nižná-vs-fbk-as-trenčín
+Slug: 126416-fbk-nizna-vs-fbk-as-trencin
 type: game
 game_id: 126416
 home_team: FBK Nižná

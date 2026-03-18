@@ -1,7 +1,7 @@
 Date: 2024-11-16
 Title: 126357 fbc grasshoppers ac uniza žilina vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126357-fbc-grasshoppers-ac-uniza-žilina-vs-fbc-dag-prešov
+Slug: 126357-fbc-grasshoppers-ac-uniza-zilina-vs-fbc-dag-presov
 type: game
 game_id: 126357
 home_team: FBC Grasshoppers AC UNIZA Žilina

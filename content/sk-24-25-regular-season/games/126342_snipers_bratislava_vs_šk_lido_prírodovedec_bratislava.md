@@ -1,7 +1,7 @@
 Date: 2024-10-26
 Title: 126342 snipers bratislava vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126342-snipers-bratislava-vs-šk-lido-prírodovedec-bratislava
+Slug: 126342-snipers-bratislava-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126342
 home_team: Snipers Bratislava

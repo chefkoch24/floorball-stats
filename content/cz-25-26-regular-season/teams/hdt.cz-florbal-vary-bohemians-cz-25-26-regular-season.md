@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-regular-season, teams
-Slug: hdt.cz-florbal-vary-bohemians-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:HDT.cz Florbal Vary Bohemians
 platzierungsverlauf:cz-25-26-regular-season/teams/hdt.cz-florbal-vary-bohemians-cz-25-26-regular-season_platzierungsverlauf.png

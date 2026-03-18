@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 131797 tempish capitol floorball club vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131797-tempish-capitol-floorball-club-vs-fk-florko-košice
+Slug: 131797-tempish-capitol-floorball-club-vs-fk-florko-kosice
 type: game
 game_id: 131797
 home_team: TEMPISH CAPITOL Floorball Club

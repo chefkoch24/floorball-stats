@@ -1,7 +1,7 @@
 Date: 2025-12-30
 Title: 1218434 acema sparta praha vs florbal ústí
 Category: cz-25-26-regular-season, game
-Slug: 1218434-acema-sparta-praha-vs-florbal-ústí
+Slug: 1218434-acema-sparta-praha-vs-florbal-usti
 type: game
 game_id: 1218434
 home_team: ACEMA Sparta Praha

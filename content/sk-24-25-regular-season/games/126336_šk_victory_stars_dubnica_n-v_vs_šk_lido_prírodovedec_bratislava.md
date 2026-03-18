@@ -1,7 +1,7 @@
 Date: 2024-10-12
 Title: 126336 šk victory stars dubnica n-v vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126336-šk-victory-stars-dubnica-n-v-vs-šk-lido-prírodovedec-bratislava
+Slug: 126336-sk-victory-stars-dubnica-n-v-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126336
 home_team: ŠK Victory Stars Dubnica n/V

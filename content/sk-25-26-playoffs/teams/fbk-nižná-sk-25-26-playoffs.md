@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBK Nižná
 Category: sk-25-26-playoffs, teams
-Slug: fbk-nižná-sk-25-26-playoffs-sk-25-26-playoffs
+Slug: fbk-nizna-sk-25-26-playoffs-sk-25-26-playoffs
 type: team
 team:FBK Nižná
 platzierungsverlauf:sk-25-26-playoffs/teams/fbk-nižná-sk-25-26-playoffs_platzierungsverlauf.png

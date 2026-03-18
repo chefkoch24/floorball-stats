@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 1218342 fbc čpp bystroň group ostrava vs hdt.cz florbal vary bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218342-fbc-čpp-bystroň-group-ostrava-vs-hdt.cz-florbal-vary-bohemians
+Slug: 1218342-fbc-cpp-bystron-group-ostrava-vs-hdt-cz-florbal-vary-bohemians
 type: game
 game_id: 1218342
 home_team: FBC ČPP Bystroň Group OSTRAVA

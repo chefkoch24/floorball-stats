@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 131902 fbc grasshoppers ac uniza žilina vs tempish capitol floorball club
 Category: sk-25-26-regular-season, game
-Slug: 131902-fbc-grasshoppers-ac-uniza-žilina-vs-tempish-capitol-floorball-club
+Slug: 131902-fbc-grasshoppers-ac-uniza-zilina-vs-tempish-capitol-floorball-club
 type: game
 game_id: 131902
 home_team: FBC Grasshoppers AC UNIZA Žilina

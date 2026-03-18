@@ -1,7 +1,7 @@
 Date: 2024-09-20
 Title: 126314 šk lido prírodovedec bratislava vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126314-šk-lido-prírodovedec-bratislava-vs-tempish-capitol-floorball-club
+Slug: 126314-sk-lido-prirodovedec-bratislava-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126314
 home_team: ŠK Lido Prírodovedec Bratislava

@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-playoffs, teams
-Slug: fbc-čpp-bystroň-group-ostrava-cz-25-26-playoffs-cz-25-26-playoffs
+Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-playoffs-cz-25-26-playoffs
 type: team
 team:FBC ČPP Bystroň Group OSTRAVA
 platzierungsverlauf:cz-25-26-playoffs/teams/fbc-čpp-bystroň-group-ostrava-cz-25-26-playoffs_platzierungsverlauf.png

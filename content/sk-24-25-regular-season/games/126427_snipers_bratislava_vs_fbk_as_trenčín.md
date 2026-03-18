@@ -1,7 +1,7 @@
 Date: 2025-02-22
 Title: 126427 snipers bratislava vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126427-snipers-bratislava-vs-fbk-as-trenčín
+Slug: 126427-snipers-bratislava-vs-fbk-as-trencin
 type: game
 game_id: 126427
 home_team: Snipers Bratislava

@@ -1,7 +1,7 @@
 Date: 2025-11-21
 Title: 52008 bauska vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52008-bauska-vs-lielvārde-unihoc
+Slug: 52008-bauska-vs-lielvarde-unihoc
 type: game
 game_id: 52008
 home_team: Bauska

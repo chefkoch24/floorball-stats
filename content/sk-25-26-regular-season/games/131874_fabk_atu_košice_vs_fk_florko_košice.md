@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 131874 fabk atu košice vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131874-fabk-atu-košice-vs-fk-florko-košice
+Slug: 131874-fabk-atu-kosice-vs-fk-florko-kosice
 type: game
 game_id: 131874
 home_team: FaBK ATU Košice

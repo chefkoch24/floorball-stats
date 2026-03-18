@@ -1,7 +1,7 @@
 Date: 2026-01-05
 Title: 1218441 esa logistika tatran střešovice vs fat pipe florbal chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218441-esa-logistika-tatran-střešovice-vs-fat-pipe-florbal-chodov
+Slug: 1218441-esa-logistika-tatran-stresovice-vs-fat-pipe-florbal-chodov
 type: game
 game_id: 1218441
 home_team: ESA logistika Tatran Střešovice

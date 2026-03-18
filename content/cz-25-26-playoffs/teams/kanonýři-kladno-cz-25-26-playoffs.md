@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Kanonýři Kladno
 Category: cz-25-26-playoffs, teams
-Slug: kanonýři-kladno-cz-25-26-playoffs-cz-25-26-playoffs
+Slug: kanonyri-kladno-cz-25-26-playoffs-cz-25-26-playoffs
 type: team
 team:Kanonýři Kladno
 platzierungsverlauf:cz-25-26-playoffs/teams/kanonýři-kladno-cz-25-26-playoffs_platzierungsverlauf.png

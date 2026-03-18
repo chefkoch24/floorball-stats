@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126420 tempish capitol floorball club vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126420-tempish-capitol-floorball-club-vs-tsunami-záhorská-bystrica
+Slug: 126420-tempish-capitol-floorball-club-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126420
 home_team: TEMPISH CAPITOL Floorball Club

@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1218418 ba sokoli pardubice vs florbal ústí
 Category: cz-25-26-regular-season, game
-Slug: 1218418-ba-sokoli-pardubice-vs-florbal-ústí
+Slug: 1218418-ba-sokoli-pardubice-vs-florbal-usti
 type: game
 game_id: 1218418
 home_team: BA SOKOLI Pardubice

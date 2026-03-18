@@ -1,7 +1,7 @@
 Date: 2025-01-18
 Title: 126401 snipers bratislava vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126401-snipers-bratislava-vs-fbc-dag-prešov
+Slug: 126401-snipers-bratislava-vs-fbc-dag-presov
 type: game
 game_id: 126401
 home_team: Snipers Bratislava

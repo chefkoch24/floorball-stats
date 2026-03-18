@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 131796 dtf team detva joxers vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131796-dtf-team-detva-joxers-vs-fabk-atu-košice
+Slug: 131796-dtf-team-detva-joxers-vs-fabk-atu-kosice
 type: game
 game_id: 131796
 home_team: DTF team Detva Joxers

@@ -1,7 +1,7 @@
 Date: 2025-01-04
 Title: 126382 šk lido prírodovedec bratislava vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126382-šk-lido-prírodovedec-bratislava-vs-fk-florko-košice
+Slug: 126382-sk-lido-prirodovedec-bratislava-vs-fk-florko-kosice
 type: game
 game_id: 126382
 home_team: ŠK Lido Prírodovedec Bratislava

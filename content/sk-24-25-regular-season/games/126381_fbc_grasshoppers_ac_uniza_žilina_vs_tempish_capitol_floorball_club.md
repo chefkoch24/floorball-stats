@@ -1,7 +1,7 @@
 Date: 2025-01-04
 Title: 126381 fbc grasshoppers ac uniza žilina vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126381-fbc-grasshoppers-ac-uniza-žilina-vs-tempish-capitol-floorball-club
+Slug: 126381-fbc-grasshoppers-ac-uniza-zilina-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126381
 home_team: FBC Grasshoppers AC UNIZA Žilina

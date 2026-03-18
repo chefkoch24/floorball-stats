@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 131808 fk florko košice vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131808-fk-florko-košice-vs-fabk-atu-košice
+Slug: 131808-fk-florko-kosice-vs-fabk-atu-kosice
 type: game
 game_id: 131808
 home_team: FK Florko Košice

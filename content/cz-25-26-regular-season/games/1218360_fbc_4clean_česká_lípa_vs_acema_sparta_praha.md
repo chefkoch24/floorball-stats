@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1218360 fbc 4clean česká lípa vs acema sparta praha
 Category: cz-25-26-regular-season, game
-Slug: 1218360-fbc-4clean-česká-lípa-vs-acema-sparta-praha
+Slug: 1218360-fbc-4clean-ceska-lipa-vs-acema-sparta-praha
 type: game
 game_id: 1218360
 home_team: FBC 4CLEAN Česká Lípa

@@ -1,7 +1,7 @@
 Date: 2024-11-16
 Title: 126360 tsunami záhorská bystrica vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126360-tsunami-záhorská-bystrica-vs-fk-florko-košice
+Slug: 126360-tsunami-zahorska-bystrica-vs-fk-florko-kosice
 type: game
 game_id: 126360
 home_team: Tsunami Záhorská Bystrica

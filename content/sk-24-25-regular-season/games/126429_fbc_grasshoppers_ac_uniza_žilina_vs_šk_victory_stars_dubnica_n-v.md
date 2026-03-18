@@ -1,7 +1,7 @@
 Date: 2025-03-01
 Title: 126429 fbc grasshoppers ac uniza žilina vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126429-fbc-grasshoppers-ac-uniza-žilina-vs-šk-victory-stars-dubnica-n-v
+Slug: 126429-fbc-grasshoppers-ac-uniza-zilina-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126429
 home_team: FBC Grasshoppers AC UNIZA Žilina

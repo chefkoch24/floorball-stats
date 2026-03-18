@@ -1,7 +1,7 @@
 Date: 2025-10-31
 Title: 52001 ķekava-rb&b vs lekrings
 Category: lv-25-26-regular-season, game
-Slug: 52001-ķekava-rb&b-vs-lekrings
+Slug: 52001-kekava-rb-and-b-vs-lekrings
 type: game
 game_id: 52001
 home_team: Ķekava/RB&B

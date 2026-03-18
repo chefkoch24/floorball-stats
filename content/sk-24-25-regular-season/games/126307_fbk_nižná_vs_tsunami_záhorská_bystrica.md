@@ -1,7 +1,7 @@
 Date: 2024-09-14
 Title: 126307 fbk nižná vs tsunami záhorská bystrica
 Category: sk-24-25-regular-season, game
-Slug: 126307-fbk-nižná-vs-tsunami-záhorská-bystrica
+Slug: 126307-fbk-nizna-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 126307
 home_team: FBK Nižná

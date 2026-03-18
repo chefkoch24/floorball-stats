@@ -1,7 +1,7 @@
 Date: 2026-01-20
 Title: 1218437 kanonýři kladno vs fat pipe florbal chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218437-kanonýři-kladno-vs-fat-pipe-florbal-chodov
+Slug: 1218437-kanonyri-kladno-vs-fat-pipe-florbal-chodov
 type: game
 game_id: 1218437
 home_team: Kanonýři Kladno

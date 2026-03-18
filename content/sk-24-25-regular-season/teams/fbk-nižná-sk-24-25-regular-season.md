@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: FBK Nižná
 Category: sk-24-25-regular-season, teams
-Slug: fbk-nižná-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: fbk-nizna-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:FBK Nižná
 platzierungsverlauf:sk-24-25-regular-season/teams/fbk-nižná-sk-24-25-regular-season_platzierungsverlauf.png

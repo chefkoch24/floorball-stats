@@ -1,7 +1,7 @@
 Date: 2024-11-30
 Title: 126374 snipers bratislava vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126374-snipers-bratislava-vs-šk-victory-stars-dubnica-n-v
+Slug: 126374-snipers-bratislava-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126374
 home_team: Snipers Bratislava

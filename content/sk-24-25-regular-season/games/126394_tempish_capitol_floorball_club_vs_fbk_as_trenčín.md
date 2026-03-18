@@ -1,7 +1,7 @@
 Date: 2025-01-11
 Title: 126394 tempish capitol floorball club vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126394-tempish-capitol-floorball-club-vs-fbk-as-trenčín
+Slug: 126394-tempish-capitol-floorball-club-vs-fbk-as-trencin
 type: game
 game_id: 126394
 home_team: TEMPISH CAPITOL Floorball Club

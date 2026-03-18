@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Lielvārde/Unihoc
 Category: lv-25-26-regular-season, teams
-Slug: lielvārde/unihoc-lv-25-26-regular-season-lv-25-26-regular-season
+Slug: lielvarde-unihoc-lv-25-26-regular-season-lv-25-26-regular-season
 type: team
 team:Lielvārde/Unihoc
 platzierungsverlauf:lv-25-26-regular-season/teams/lielvārde/unihoc-lv-25-26-regular-season_platzierungsverlauf.png

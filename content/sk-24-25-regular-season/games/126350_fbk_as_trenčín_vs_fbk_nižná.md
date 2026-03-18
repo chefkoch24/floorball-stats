@@ -1,7 +1,7 @@
 Date: 2024-11-01
 Title: 126350 fbk as trenčín vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126350-fbk-as-trenčín-vs-fbk-nižná
+Slug: 126350-fbk-as-trencin-vs-fbk-nizna
 type: game
 game_id: 126350
 home_team: FBK AS Trenčín

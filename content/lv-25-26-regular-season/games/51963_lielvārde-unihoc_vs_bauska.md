@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 51963 lielvārde-unihoc vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 51963-lielvārde-unihoc-vs-bauska
+Slug: 51963-lielvarde-unihoc-vs-bauska
 type: game
 game_id: 51963
 home_team: Lielvārde/Unihoc

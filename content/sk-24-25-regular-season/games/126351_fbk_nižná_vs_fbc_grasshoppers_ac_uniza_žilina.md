@@ -1,7 +1,7 @@
 Date: 2024-11-03
 Title: 126351 fbk nižná vs fbc grasshoppers ac uniza žilina
 Category: sk-24-25-regular-season, game
-Slug: 126351-fbk-nižná-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 126351-fbk-nizna-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 126351
 home_team: FBK Nižná

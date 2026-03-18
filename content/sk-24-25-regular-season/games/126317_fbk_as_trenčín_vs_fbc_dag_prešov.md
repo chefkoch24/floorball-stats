@@ -1,7 +1,7 @@
 Date: 2024-09-22
 Title: 126317 fbk as trenčín vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126317-fbk-as-trenčín-vs-fbc-dag-prešov
+Slug: 126317-fbk-as-trencin-vs-fbc-dag-presov
 type: game
 game_id: 126317
 home_team: FBK AS Trenčín

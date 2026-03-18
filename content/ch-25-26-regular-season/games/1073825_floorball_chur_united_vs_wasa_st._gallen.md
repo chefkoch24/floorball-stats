@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 1073825 floorball chur united vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073825-floorball-chur-united-vs-wasa-st.-gallen
+Slug: 1073825-floorball-chur-united-vs-wasa-st-gallen
 type: game
 game_id: 1073825
 home_team: Floorball Chur United

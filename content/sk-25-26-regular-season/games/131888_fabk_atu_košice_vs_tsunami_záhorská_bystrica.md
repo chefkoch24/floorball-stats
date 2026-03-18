@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 131888 fabk atu košice vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131888-fabk-atu-košice-vs-tsunami-záhorská-bystrica
+Slug: 131888-fabk-atu-kosice-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131888
 home_team: FaBK ATU Košice

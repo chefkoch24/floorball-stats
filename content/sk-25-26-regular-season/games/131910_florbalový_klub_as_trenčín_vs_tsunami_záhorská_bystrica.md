@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131910 florbalový klub as trenčín vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131910-florbalový-klub-as-trenčín-vs-tsunami-záhorská-bystrica
+Slug: 131910-florbalovy-klub-as-trencin-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131910
 home_team: Florbalový klub AS Trenčín

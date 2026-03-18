@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Masters Ulbroka/LU
 Category: lv-25-26-playoffs, teams
-Slug: masters-ulbroka/lu-lv-25-26-playoffs-lv-25-26-playoffs
+Slug: masters-ulbroka-lu-lv-25-26-playoffs-lv-25-26-playoffs
 type: team
 team:Masters Ulbroka/LU
 platzierungsverlauf:lv-25-26-playoffs/teams/masters-ulbroka/lu-lv-25-26-playoffs_platzierungsverlauf.png

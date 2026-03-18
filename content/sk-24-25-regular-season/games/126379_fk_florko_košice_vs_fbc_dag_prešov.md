@@ -1,7 +1,7 @@
 Date: 2024-12-21
 Title: 126379 fk florko košice vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126379-fk-florko-košice-vs-fbc-dag-prešov
+Slug: 126379-fk-florko-kosice-vs-fbc-dag-presov
 type: game
 game_id: 126379
 home_team: FK Florko Košice

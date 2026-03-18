@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1218490 fat pipe florbal chodov vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218490-fat-pipe-florbal-chodov-vs-1.-sc-natios-vítkovice
+Slug: 1218490-fat-pipe-florbal-chodov-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218490
 home_team: FAT PIPE FLORBAL CHODOV

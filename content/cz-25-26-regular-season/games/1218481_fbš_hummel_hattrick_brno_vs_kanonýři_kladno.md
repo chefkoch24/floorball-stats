@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 1218481 fbš hummel hattrick brno vs kanonýři kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218481-fbš-hummel-hattrick-brno-vs-kanonýři-kladno
+Slug: 1218481-fbs-hummel-hattrick-brno-vs-kanonyri-kladno
 type: game
 game_id: 1218481
 home_team: FBŠ Hummel Hattrick Brno

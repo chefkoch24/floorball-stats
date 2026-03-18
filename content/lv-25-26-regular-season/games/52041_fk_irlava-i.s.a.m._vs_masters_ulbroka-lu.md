@@ -1,7 +1,7 @@
 Date: 2025-12-17
 Title: 52041 fk irlava-i.s.a.m. vs masters ulbroka-lu
 Category: lv-25-26-regular-season, game
-Slug: 52041-fk-irlava-i.s.a.m.-vs-masters-ulbroka-lu
+Slug: 52041-fk-irlava-i-s-a-m-vs-masters-ulbroka-lu
 type: game
 game_id: 52041
 home_team: FK Irlava/I.S.A.M.

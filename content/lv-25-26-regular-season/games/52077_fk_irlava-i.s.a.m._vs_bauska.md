@@ -1,7 +1,7 @@
 Date: 2026-01-21
 Title: 52077 fk irlava-i.s.a.m. vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 52077-fk-irlava-i.s.a.m.-vs-bauska
+Slug: 52077-fk-irlava-i-s-a-m-vs-bauska
 type: game
 game_id: 52077
 home_team: FK Irlava/I.S.A.M.

@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1218439 fbc čpp bystroň group ostrava vs tj sokol královské vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218439-fbc-čpp-bystroň-group-ostrava-vs-tj-sokol-královské-vinohrady
+Slug: 1218439-fbc-cpp-bystron-group-ostrava-vs-tj-sokol-kralovske-vinohrady
 type: game
 game_id: 1218439
 home_team: FBC ČPP Bystroň Group OSTRAVA

@@ -1,7 +1,7 @@
 Date: 2025-03-08
 Title: 126470 tempish capitol floorball club vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126470-tempish-capitol-floorball-club-vs-šk-victory-stars-dubnica-n-v
+Slug: 126470-tempish-capitol-floorball-club-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126470
 home_team: TEMPISH CAPITOL Floorball Club

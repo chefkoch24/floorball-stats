@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-regular-season, teams
-Slug: fbc-4clean-česká-lípa-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: fbc-4clean-ceska-lipa-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:FBC 4CLEAN Česká Lípa
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-4clean-česká-lípa-cz-25-26-regular-season_platzierungsverlauf.png

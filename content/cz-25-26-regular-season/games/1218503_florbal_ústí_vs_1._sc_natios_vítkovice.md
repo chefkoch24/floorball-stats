@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218503 florbal ústí vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218503-florbal-ústí-vs-1.-sc-natios-vítkovice
+Slug: 1218503-florbal-usti-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218503
 home_team: Florbal Ústí

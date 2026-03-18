@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1218371 kanonýři kladno vs ba sokoli pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218371-kanonýři-kladno-vs-ba-sokoli-pardubice
+Slug: 1218371-kanonyri-kladno-vs-ba-sokoli-pardubice
 type: game
 game_id: 1218371
 home_team: Kanonýři Kladno

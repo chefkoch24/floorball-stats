@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: WASA St. Gallen
 Category: ch-25-26-regular-season, teams
-Slug: wasa-st.-gallen-ch-25-26-regular-season-ch-25-26-regular-season
+Slug: wasa-st-gallen-ch-25-26-regular-season-ch-25-26-regular-season
 type: team
 team:WASA St. Gallen
 platzierungsverlauf:ch-25-26-regular-season/teams/wasa-st.-gallen-ch-25-26-regular-season_platzierungsverlauf.png

@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 131879 florbalový klub as trenčín vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131879-florbalový-klub-as-trenčín-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131879-florbalovy-klub-as-trencin-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131879
 home_team: Florbalový klub AS Trenčín

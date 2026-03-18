@@ -1,7 +1,7 @@
 Date: 2026-01-06
 Title: 52058 talsu nss-krauzers vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52058-talsu-nss-krauzers-vs-fk-irlava-i.s.a.m.
+Slug: 52058-talsu-nss-krauzers-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52058
 home_team: Talsu NSS/Krauzers

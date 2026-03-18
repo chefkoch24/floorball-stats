@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 131838 tsunami záhorská bystrica vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131838-tsunami-záhorská-bystrica-vs-1.-fbc-trenčín
+Slug: 131838-tsunami-zahorska-bystrica-vs-1-fbc-trencin
 type: game
 game_id: 131838
 home_team: Tsunami Záhorská Bystrica

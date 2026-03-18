@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: 52059 ķekava-rb&b vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52059-ķekava-rb&b-vs-lielvārde-unihoc
+Slug: 52059-kekava-rb-and-b-vs-lielvarde-unihoc
 type: game
 game_id: 52059
 home_team: Ķekava/RB&B

@@ -1,7 +1,7 @@
 Date: 2025-01-06
 Title: 126390 fbk nižná vs fbc dag prešov
 Category: sk-24-25-regular-season, game
-Slug: 126390-fbk-nižná-vs-fbc-dag-prešov
+Slug: 126390-fbk-nizna-vs-fbc-dag-presov
 type: game
 game_id: 126390
 home_team: FBK Nižná

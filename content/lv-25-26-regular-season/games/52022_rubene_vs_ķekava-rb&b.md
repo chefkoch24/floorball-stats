@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 52022 rubene vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52022-rubene-vs-ķekava-rb&b
+Slug: 52022-rubene-vs-kekava-rb-and-b
 type: game
 game_id: 52022
 home_team: Rubene

@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 131911 všk ftvš uk hurikán bratislava vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131911-všk-ftvš-uk-hurikán-bratislava-vs-1.-fbc-trenčín
+Slug: 131911-vsk-ftvs-uk-hurikan-bratislava-vs-1-fbc-trencin
 type: game
 game_id: 131911
 home_team: VŠK FTVŠ UK Hurikán Bratislava

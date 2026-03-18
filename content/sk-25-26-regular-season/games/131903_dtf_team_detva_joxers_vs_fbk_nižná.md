@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 131903 dtf team detva joxers vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131903-dtf-team-detva-joxers-vs-fbk-nižná
+Slug: 131903-dtf-team-detva-joxers-vs-fbk-nizna
 type: game
 game_id: 131903
 home_team: DTF team Detva Joxers

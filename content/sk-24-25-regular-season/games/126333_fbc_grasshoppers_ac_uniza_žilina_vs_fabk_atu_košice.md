@@ -1,7 +1,7 @@
 Date: 2024-10-12
 Title: 126333 fbc grasshoppers ac uniza žilina vs fabk atu košice
 Category: sk-24-25-regular-season, game
-Slug: 126333-fbc-grasshoppers-ac-uniza-žilina-vs-fabk-atu-košice
+Slug: 126333-fbc-grasshoppers-ac-uniza-zilina-vs-fabk-atu-kosice
 type: game
 game_id: 126333
 home_team: FBC Grasshoppers AC UNIZA Žilina

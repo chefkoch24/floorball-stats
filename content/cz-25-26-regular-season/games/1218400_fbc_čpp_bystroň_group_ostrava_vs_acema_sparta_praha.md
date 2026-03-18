@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: 1218400 fbc čpp bystroň group ostrava vs acema sparta praha
 Category: cz-25-26-regular-season, game
-Slug: 1218400-fbc-čpp-bystroň-group-ostrava-vs-acema-sparta-praha
+Slug: 1218400-fbc-cpp-bystron-group-ostrava-vs-acema-sparta-praha
 type: game
 game_id: 1218400
 home_team: FBC ČPP Bystroň Group OSTRAVA

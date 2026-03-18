@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 51998 fk irlava-i.s.a.m. vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51998-fk-irlava-i.s.a.m.-vs-fbk-sāc
+Slug: 51998-fk-irlava-i-s-a-m-vs-fbk-sac
 type: game
 game_id: 51998
 home_team: FK Irlava/I.S.A.M.

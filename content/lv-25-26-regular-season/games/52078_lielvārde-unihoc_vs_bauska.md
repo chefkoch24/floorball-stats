@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 52078 lielvārde-unihoc vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 52078-lielvārde-unihoc-vs-bauska
+Slug: 52078-lielvarde-unihoc-vs-bauska
 type: game
 game_id: 52078
 home_team: Lielvārde/Unihoc

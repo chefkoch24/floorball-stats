@@ -1,7 +1,7 @@
 Date: 2024-10-05
 Title: 126331 snipers bratislava vs 1. fbc trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126331-snipers-bratislava-vs-1.-fbc-trenčín
+Slug: 126331-snipers-bratislava-vs-1-fbc-trencin
 type: game
 game_id: 126331
 home_team: Snipers Bratislava

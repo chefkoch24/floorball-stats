@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 131922 fbk nižná vs 1. fbc trenčín
 Category: sk-25-26-playoffs, game
-Slug: 131922-fbk-nižná-vs-1.-fbc-trenčín
+Slug: 131922-fbk-nizna-vs-1-fbc-trencin
 type: game
 game_id: 131922
 home_team: FBK Nižná

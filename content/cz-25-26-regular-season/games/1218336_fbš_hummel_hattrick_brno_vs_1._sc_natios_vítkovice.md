@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 1218336 fbš hummel hattrick brno vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218336-fbš-hummel-hattrick-brno-vs-1.-sc-natios-vítkovice
+Slug: 1218336-fbs-hummel-hattrick-brno-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218336
 home_team: FBŠ Hummel Hattrick Brno

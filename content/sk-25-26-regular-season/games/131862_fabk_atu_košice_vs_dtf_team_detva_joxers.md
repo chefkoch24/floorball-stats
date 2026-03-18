@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 131862 fabk atu košice vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131862-fabk-atu-košice-vs-dtf-team-detva-joxers
+Slug: 131862-fabk-atu-kosice-vs-dtf-team-detva-joxers
 type: game
 game_id: 131862
 home_team: FaBK ATU Košice

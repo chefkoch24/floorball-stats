@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: FK Florko Košice
 Category: sk-24-25-regular-season, teams
-Slug: fk-florko-košice-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: fk-florko-kosice-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:FK Florko Košice
 platzierungsverlauf:sk-24-25-regular-season/teams/fk-florko-košice-sk-24-25-regular-season_platzierungsverlauf.png

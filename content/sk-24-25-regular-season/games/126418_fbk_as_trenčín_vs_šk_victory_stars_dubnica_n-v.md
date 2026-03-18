@@ -1,7 +1,7 @@
 Date: 2025-02-15
 Title: 126418 fbk as trenčín vs šk victory stars dubnica n-v
 Category: sk-24-25-regular-season, game
-Slug: 126418-fbk-as-trenčín-vs-šk-victory-stars-dubnica-n-v
+Slug: 126418-fbk-as-trencin-vs-sk-victory-stars-dubnica-n-v
 type: game
 game_id: 126418
 home_team: FBK AS Trenčín

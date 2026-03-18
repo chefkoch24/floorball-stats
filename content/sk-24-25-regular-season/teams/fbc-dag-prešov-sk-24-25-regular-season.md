@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: FBC DAG Prešov
 Category: sk-24-25-regular-season, teams
-Slug: fbc-dag-prešov-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: fbc-dag-presov-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:FBC DAG Prešov
 platzierungsverlauf:sk-24-25-regular-season/teams/fbc-dag-prešov-sk-24-25-regular-season_platzierungsverlauf.png

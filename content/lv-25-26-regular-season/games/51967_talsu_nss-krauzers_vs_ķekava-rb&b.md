@@ -1,7 +1,7 @@
 Date: 2025-09-17
 Title: 51967 talsu nss-krauzers vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 51967-talsu-nss-krauzers-vs-ķekava-rb&b
+Slug: 51967-talsu-nss-krauzers-vs-kekava-rb-and-b
 type: game
 game_id: 51967
 home_team: Talsu NSS/Krauzers

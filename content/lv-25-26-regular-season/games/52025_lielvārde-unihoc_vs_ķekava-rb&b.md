@@ -1,7 +1,7 @@
 Date: 2025-12-04
 Title: 52025 lielvārde-unihoc vs ķekava-rb&b
 Category: lv-25-26-regular-season, game
-Slug: 52025-lielvārde-unihoc-vs-ķekava-rb&b
+Slug: 52025-lielvarde-unihoc-vs-kekava-rb-and-b
 type: game
 game_id: 52025
 home_team: Lielvārde/Unihoc

@@ -1,7 +1,7 @@
 Date: 2025-10-28
 Title: 51996 masters ulbroka-lu vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 51996-masters-ulbroka-lu-vs-fk-irlava-i.s.a.m.
+Slug: 51996-masters-ulbroka-lu-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 51996
 home_team: Masters Ulbroka/LU

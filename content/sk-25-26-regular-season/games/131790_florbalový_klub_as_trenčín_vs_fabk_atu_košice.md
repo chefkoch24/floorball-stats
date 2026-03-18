@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 131790 florbalový klub as trenčín vs fabk atu košice
 Category: sk-25-26-regular-season, game
-Slug: 131790-florbalový-klub-as-trenčín-vs-fabk-atu-košice
+Slug: 131790-florbalovy-klub-as-trencin-vs-fabk-atu-kosice
 type: game
 game_id: 131790
 home_team: Florbalový klub AS Trenčín

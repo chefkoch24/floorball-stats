@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131829 dtf team detva joxers vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131829-dtf-team-detva-joxers-vs-1.-fbc-trenčín
+Slug: 131829-dtf-team-detva-joxers-vs-1-fbc-trencin
 type: game
 game_id: 131829
 home_team: DTF team Detva Joxers

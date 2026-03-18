@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: Předvýběr.CZ Florbal MB
 Category: cz-25-26-regular-season, teams
-Slug: předvýběr.cz-florbal-mb-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: predvyber-cz-florbal-mb-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:Předvýběr.CZ Florbal MB
 platzierungsverlauf:cz-25-26-regular-season/teams/předvýběr.cz-florbal-mb-cz-25-26-regular-season_platzierungsverlauf.png

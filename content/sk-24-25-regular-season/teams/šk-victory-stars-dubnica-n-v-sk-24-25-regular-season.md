@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: ŠK Victory Stars Dubnica n/V
 Category: sk-24-25-regular-season, teams
-Slug: šk-victory-stars-dubnica-n/v-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: sk-victory-stars-dubnica-n-v-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:ŠK Victory Stars Dubnica n/V
 platzierungsverlauf:sk-24-25-regular-season/teams/šk-victory-stars-dubnica-n/v-sk-24-25-regular-season_platzierungsverlauf.png

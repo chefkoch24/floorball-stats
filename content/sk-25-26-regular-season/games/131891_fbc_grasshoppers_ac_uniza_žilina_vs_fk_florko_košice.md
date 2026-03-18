@@ -1,7 +1,7 @@
 Date: 2026-02-01
 Title: 131891 fbc grasshoppers ac uniza žilina vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131891-fbc-grasshoppers-ac-uniza-žilina-vs-fk-florko-košice
+Slug: 131891-fbc-grasshoppers-ac-uniza-zilina-vs-fk-florko-kosice
 type: game
 game_id: 131891
 home_team: FBC Grasshoppers AC UNIZA Žilina

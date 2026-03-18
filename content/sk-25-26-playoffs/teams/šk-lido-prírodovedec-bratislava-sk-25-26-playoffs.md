@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: ŠK Lido Prírodovedec Bratislava
 Category: sk-25-26-playoffs, teams
-Slug: šk-lido-prírodovedec-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
+Slug: sk-lido-prirodovedec-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
 type: team
 team:ŠK Lido Prírodovedec Bratislava
 platzierungsverlauf:sk-25-26-playoffs/teams/šk-lido-prírodovedec-bratislava-sk-25-26-playoffs_platzierungsverlauf.png

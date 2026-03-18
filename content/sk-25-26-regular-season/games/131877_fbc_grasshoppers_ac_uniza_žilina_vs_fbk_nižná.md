@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 131877 fbc grasshoppers ac uniza žilina vs fbk nižná
 Category: sk-25-26-regular-season, game
-Slug: 131877-fbc-grasshoppers-ac-uniza-žilina-vs-fbk-nižná
+Slug: 131877-fbc-grasshoppers-ac-uniza-zilina-vs-fbk-nizna
 type: game
 game_id: 131877
 home_team: FBC Grasshoppers AC UNIZA Žilina

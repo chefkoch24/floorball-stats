@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: FaBK ATU Košice
 Category: sk-24-25-regular-season, teams
-Slug: fabk-atu-košice-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: fabk-atu-kosice-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:FaBK ATU Košice
 platzierungsverlauf:sk-24-25-regular-season/teams/fabk-atu-košice-sk-24-25-regular-season_platzierungsverlauf.png

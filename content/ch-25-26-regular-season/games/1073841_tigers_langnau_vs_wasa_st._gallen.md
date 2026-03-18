@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1073841 tigers langnau vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073841-tigers-langnau-vs-wasa-st.-gallen
+Slug: 1073841-tigers-langnau-vs-wasa-st-gallen
 type: game
 game_id: 1073841
 home_team: Tigers Langnau

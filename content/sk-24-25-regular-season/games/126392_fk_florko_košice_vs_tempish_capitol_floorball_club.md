@@ -1,7 +1,7 @@
 Date: 2025-01-06
 Title: 126392 fk florko košice vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126392-fk-florko-košice-vs-tempish-capitol-floorball-club
+Slug: 126392-fk-florko-kosice-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126392
 home_team: FK Florko Košice

@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 52053 fk irlava-i.s.a.m. vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 52053-fk-irlava-i.s.a.m.-vs-fbk-sāc
+Slug: 52053-fk-irlava-i-s-a-m-vs-fbk-sac
 type: game
 game_id: 52053
 home_team: FK Irlava/I.S.A.M.

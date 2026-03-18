@@ -1,7 +1,7 @@
 Date: 2026-01-23
 Title: 52076 fbk sāc vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52076-fbk-sāc-vs-lielvārde-unihoc
+Slug: 52076-fbk-sac-vs-lielvarde-unihoc
 type: game
 game_id: 52076
 home_team: FBK SĀC

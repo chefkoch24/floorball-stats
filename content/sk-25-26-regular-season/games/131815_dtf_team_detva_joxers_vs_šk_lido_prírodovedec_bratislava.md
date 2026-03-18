@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 131815 dtf team detva joxers vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131815-dtf-team-detva-joxers-vs-šk-lido-prírodovedec-bratislava
+Slug: 131815-dtf-team-detva-joxers-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131815
 home_team: DTF team Detva Joxers

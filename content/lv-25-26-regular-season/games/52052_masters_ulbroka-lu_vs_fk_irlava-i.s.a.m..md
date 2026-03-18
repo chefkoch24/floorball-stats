@@ -1,7 +1,7 @@
 Date: 2026-01-27
 Title: 52052 masters ulbroka-lu vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52052-masters-ulbroka-lu-vs-fk-irlava-i.s.a.m.
+Slug: 52052-masters-ulbroka-lu-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52052
 home_team: Masters Ulbroka/LU

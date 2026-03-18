@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1073886 sv wiler-ersigen vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073886-sv-wiler-ersigen-vs-wasa-st.-gallen
+Slug: 1073886-sv-wiler-ersigen-vs-wasa-st-gallen
 type: game
 game_id: 1073886
 home_team: SV Wiler-Ersigen

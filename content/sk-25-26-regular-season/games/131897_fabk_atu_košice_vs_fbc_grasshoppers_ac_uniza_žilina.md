@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 131897 fabk atu košice vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131897-fabk-atu-košice-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131897-fabk-atu-kosice-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131897
 home_team: FaBK ATU Košice

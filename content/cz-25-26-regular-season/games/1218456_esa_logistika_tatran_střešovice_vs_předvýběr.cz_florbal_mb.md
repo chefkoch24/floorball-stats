@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218456 esa logistika tatran střešovice vs předvýběr.cz florbal mb
 Category: cz-25-26-regular-season, game
-Slug: 1218456-esa-logistika-tatran-střešovice-vs-předvýběr.cz-florbal-mb
+Slug: 1218456-esa-logistika-tatran-stresovice-vs-predvyber-cz-florbal-mb
 type: game
 game_id: 1218456
 home_team: ESA logistika Tatran Střešovice

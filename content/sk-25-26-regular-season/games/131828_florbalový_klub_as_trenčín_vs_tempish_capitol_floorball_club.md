@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 131828 florbalový klub as trenčín vs tempish capitol floorball club
 Category: sk-25-26-regular-season, game
-Slug: 131828-florbalový-klub-as-trenčín-vs-tempish-capitol-floorball-club
+Slug: 131828-florbalovy-klub-as-trencin-vs-tempish-capitol-floorball-club
 type: game
 game_id: 131828
 home_team: Florbalový klub AS Trenčín

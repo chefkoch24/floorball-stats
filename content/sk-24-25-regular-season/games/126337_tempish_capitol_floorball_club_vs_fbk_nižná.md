@@ -1,7 +1,7 @@
 Date: 2024-10-12
 Title: 126337 tempish capitol floorball club vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126337-tempish-capitol-floorball-club-vs-fbk-nižná
+Slug: 126337-tempish-capitol-floorball-club-vs-fbk-nizna
 type: game
 game_id: 126337
 home_team: TEMPISH CAPITOL Floorball Club

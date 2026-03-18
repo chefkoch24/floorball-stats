@@ -1,7 +1,7 @@
 Date: 2024-09-28
 Title: 126324 fbc dag prešov vs fbk nižná
 Category: sk-24-25-regular-season, game
-Slug: 126324-fbc-dag-prešov-vs-fbk-nižná
+Slug: 126324-fbc-dag-presov-vs-fbk-nizna
 type: game
 game_id: 126324
 home_team: FBC DAG Prešov

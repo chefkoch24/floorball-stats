@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: Tsunami Záhorská Bystrica
 Category: sk-24-25-regular-season, teams
-Slug: tsunami-záhorská-bystrica-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: tsunami-zahorska-bystrica-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:Tsunami Záhorská Bystrica
 platzierungsverlauf:sk-24-25-regular-season/teams/tsunami-záhorská-bystrica-sk-24-25-regular-season_platzierungsverlauf.png

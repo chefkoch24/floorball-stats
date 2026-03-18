@@ -1,7 +1,7 @@
 Date: 2025-10-02
 Title: 51977 ķekava-rb&b vs rubene
 Category: lv-25-26-regular-season, game
-Slug: 51977-ķekava-rb&b-vs-rubene
+Slug: 51977-kekava-rb-and-b-vs-rubene
 type: game
 game_id: 51977
 home_team: Ķekava/RB&B

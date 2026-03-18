@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-regular-season, teams
-Slug: fbc-čpp-bystroň-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:FBC ČPP Bystroň Group OSTRAVA
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-čpp-bystroň-group-ostrava-cz-25-26-regular-season_platzierungsverlauf.png

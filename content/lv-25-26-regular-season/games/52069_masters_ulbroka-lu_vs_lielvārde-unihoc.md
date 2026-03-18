@@ -1,7 +1,7 @@
 Date: 2026-01-20
 Title: 52069 masters ulbroka-lu vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 52069-masters-ulbroka-lu-vs-lielvārde-unihoc
+Slug: 52069-masters-ulbroka-lu-vs-lielvarde-unihoc
 type: game
 game_id: 52069
 home_team: Masters Ulbroka/LU

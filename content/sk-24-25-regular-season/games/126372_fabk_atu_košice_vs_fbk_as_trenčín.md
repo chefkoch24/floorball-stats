@@ -1,7 +1,7 @@
 Date: 2024-11-30
 Title: 126372 fabk atu košice vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126372-fabk-atu-košice-vs-fbk-as-trenčín
+Slug: 126372-fabk-atu-kosice-vs-fbk-as-trencin
 type: game
 game_id: 126372
 home_team: FaBK ATU Košice

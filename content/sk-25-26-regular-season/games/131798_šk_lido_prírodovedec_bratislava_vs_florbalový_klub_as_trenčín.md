@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 131798 šk lido prírodovedec bratislava vs florbalový klub as trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131798-šk-lido-prírodovedec-bratislava-vs-florbalový-klub-as-trenčín
+Slug: 131798-sk-lido-prirodovedec-bratislava-vs-florbalovy-klub-as-trencin
 type: game
 game_id: 131798
 home_team: ŠK Lido Prírodovedec Bratislava

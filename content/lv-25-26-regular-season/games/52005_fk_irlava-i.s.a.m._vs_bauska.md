@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 52005 fk irlava-i.s.a.m. vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 52005-fk-irlava-i.s.a.m.-vs-bauska
+Slug: 52005-fk-irlava-i-s-a-m-vs-bauska
 type: game
 game_id: 52005
 home_team: FK Irlava/I.S.A.M.

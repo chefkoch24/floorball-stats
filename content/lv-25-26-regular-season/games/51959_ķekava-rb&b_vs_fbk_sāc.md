@@ -1,7 +1,7 @@
 Date: 2025-09-19
 Title: 51959 ķekava-rb&b vs fbk sāc
 Category: lv-25-26-regular-season, game
-Slug: 51959-ķekava-rb&b-vs-fbk-sāc
+Slug: 51959-kekava-rb-and-b-vs-fbk-sac
 type: game
 game_id: 51959
 home_team: Ķekava/RB&B

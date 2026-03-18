@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 131873 všk ftvš uk hurikán bratislava vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131873-všk-ftvš-uk-hurikán-bratislava-vs-tsunami-záhorská-bystrica
+Slug: 131873-vsk-ftvs-uk-hurikan-bratislava-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131873
 home_team: VŠK FTVŠ UK Hurikán Bratislava

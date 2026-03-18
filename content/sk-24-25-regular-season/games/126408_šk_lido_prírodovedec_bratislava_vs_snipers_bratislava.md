@@ -1,7 +1,7 @@
 Date: 2025-01-25
 Title: 126408 šk lido prírodovedec bratislava vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126408-šk-lido-prírodovedec-bratislava-vs-snipers-bratislava
+Slug: 126408-sk-lido-prirodovedec-bratislava-vs-snipers-bratislava
 type: game
 game_id: 126408
 home_team: ŠK Lido Prírodovedec Bratislava

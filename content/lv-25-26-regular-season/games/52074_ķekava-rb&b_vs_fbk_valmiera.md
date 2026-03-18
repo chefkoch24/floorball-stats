@@ -1,7 +1,7 @@
 Date: 2026-01-21
 Title: 52074 ķekava-rb&b vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 52074-ķekava-rb&b-vs-fbk-valmiera
+Slug: 52074-kekava-rb-and-b-vs-fbk-valmiera
 type: game
 game_id: 52074
 home_team: Ķekava/RB&B

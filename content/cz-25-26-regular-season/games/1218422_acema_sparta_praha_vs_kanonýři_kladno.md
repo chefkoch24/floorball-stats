@@ -1,7 +1,7 @@
 Date: 2025-12-21
 Title: 1218422 acema sparta praha vs kanonýři kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218422-acema-sparta-praha-vs-kanonýři-kladno
+Slug: 1218422-acema-sparta-praha-vs-kanonyri-kladno
 type: game
 game_id: 1218422
 home_team: ACEMA Sparta Praha

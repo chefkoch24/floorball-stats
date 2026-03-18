@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 131811 fbk nižná vs fbc grasshoppers ac uniza žilina
 Category: sk-25-26-regular-season, game
-Slug: 131811-fbk-nižná-vs-fbc-grasshoppers-ac-uniza-žilina
+Slug: 131811-fbk-nizna-vs-fbc-grasshoppers-ac-uniza-zilina
 type: game
 game_id: 131811
 home_team: FBK Nižná

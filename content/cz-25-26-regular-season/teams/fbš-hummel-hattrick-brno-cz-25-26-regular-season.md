@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: FBŠ Hummel Hattrick Brno
 Category: cz-25-26-regular-season, teams
-Slug: fbš-hummel-hattrick-brno-cz-25-26-regular-season-cz-25-26-regular-season
+Slug: fbs-hummel-hattrick-brno-cz-25-26-regular-season-cz-25-26-regular-season
 type: team
 team:FBŠ Hummel Hattrick Brno
 platzierungsverlauf:cz-25-26-regular-season/teams/fbš-hummel-hattrick-brno-cz-25-26-regular-season_platzierungsverlauf.png

@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 131795 fbk nižná vs tsunami záhorská bystrica
 Category: sk-25-26-regular-season, game
-Slug: 131795-fbk-nižná-vs-tsunami-záhorská-bystrica
+Slug: 131795-fbk-nizna-vs-tsunami-zahorska-bystrica
 type: game
 game_id: 131795
 home_team: FBK Nižná

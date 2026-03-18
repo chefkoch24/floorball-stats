@@ -1,7 +1,7 @@
 Date: 2024-11-23
 Title: 126365 tsunami záhorská bystrica vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126365-tsunami-záhorská-bystrica-vs-fbk-as-trenčín
+Slug: 126365-tsunami-zahorska-bystrica-vs-fbk-as-trencin
 type: game
 game_id: 126365
 home_team: Tsunami Záhorská Bystrica

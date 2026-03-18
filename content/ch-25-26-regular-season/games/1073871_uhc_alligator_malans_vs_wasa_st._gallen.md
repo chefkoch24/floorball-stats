@@ -1,7 +1,7 @@
 Date: 2025-12-03
 Title: 1073871 uhc alligator malans vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073871-uhc-alligator-malans-vs-wasa-st.-gallen
+Slug: 1073871-uhc-alligator-malans-vs-wasa-st-gallen
 type: game
 game_id: 1073871
 home_team: UHC Alligator Malans

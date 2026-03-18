@@ -1,7 +1,7 @@
 Date: 2025-12-14
 Title: 52033 fbk sāc vs talsu nss-krauzers
 Category: lv-25-26-regular-season, game
-Slug: 52033-fbk-sāc-vs-talsu-nss-krauzers
+Slug: 52033-fbk-sac-vs-talsu-nss-krauzers
 type: game
 game_id: 52033
 home_team: FBK SĀC

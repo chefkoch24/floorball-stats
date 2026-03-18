@@ -1,7 +1,7 @@
 Date: 2025-01-11
 Title: 126393 fbc grasshoppers ac uniza žilina vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126393-fbc-grasshoppers-ac-uniza-žilina-vs-fk-florko-košice
+Slug: 126393-fbc-grasshoppers-ac-uniza-zilina-vs-fk-florko-kosice
 type: game
 game_id: 126393
 home_team: FBC Grasshoppers AC UNIZA Žilina

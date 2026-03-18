@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 52045 fk irlava-i.s.a.m. vs fbk valmiera
 Category: lv-25-26-regular-season, game
-Slug: 52045-fk-irlava-i.s.a.m.-vs-fbk-valmiera
+Slug: 52045-fk-irlava-i-s-a-m-vs-fbk-valmiera
 type: game
 game_id: 52045
 home_team: FK Irlava/I.S.A.M.

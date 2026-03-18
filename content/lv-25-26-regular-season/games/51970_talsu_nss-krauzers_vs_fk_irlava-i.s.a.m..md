@@ -1,7 +1,7 @@
 Date: 2025-10-08
 Title: 51970 talsu nss-krauzers vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 51970-talsu-nss-krauzers-vs-fk-irlava-i.s.a.m.
+Slug: 51970-talsu-nss-krauzers-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 51970
 home_team: Talsu NSS/Krauzers

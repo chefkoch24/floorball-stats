@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: 51968 rubene vs lielvārde-unihoc
 Category: lv-25-26-regular-season, game
-Slug: 51968-rubene-vs-lielvārde-unihoc
+Slug: 51968-rubene-vs-lielvarde-unihoc
 type: game
 game_id: 51968
 home_team: Rubene

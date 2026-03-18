@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 1218484 acema sparta praha vs fbc čpp bystroň group ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218484-acema-sparta-praha-vs-fbc-čpp-bystroň-group-ostrava
+Slug: 1218484-acema-sparta-praha-vs-fbc-cpp-bystron-group-ostrava
 type: game
 game_id: 1218484
 home_team: ACEMA Sparta Praha

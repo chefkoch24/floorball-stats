@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 52056 lielvārde-unihoc vs talsu nss-krauzers
 Category: lv-25-26-regular-season, game
-Slug: 52056-lielvārde-unihoc-vs-talsu-nss-krauzers
+Slug: 52056-lielvarde-unihoc-vs-talsu-nss-krauzers
 type: game
 game_id: 52056
 home_team: Lielvārde/Unihoc

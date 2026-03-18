@@ -1,7 +1,7 @@
 Date: 2025-03-15
 Title: 126472 šk victory stars dubnica n-v vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126472-šk-victory-stars-dubnica-n-v-vs-tempish-capitol-floorball-club
+Slug: 126472-sk-victory-stars-dubnica-n-v-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126472
 home_team: ŠK Victory Stars Dubnica n/V

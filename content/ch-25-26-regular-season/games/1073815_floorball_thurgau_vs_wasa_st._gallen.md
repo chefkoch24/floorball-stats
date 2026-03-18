@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1073815 floorball thurgau vs wasa st. gallen
 Category: ch-25-26-regular-season, game
-Slug: 1073815-floorball-thurgau-vs-wasa-st.-gallen
+Slug: 1073815-floorball-thurgau-vs-wasa-st-gallen
 type: game
 game_id: 1073815
 home_team: Floorball Thurgau

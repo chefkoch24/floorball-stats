@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 131804 šk lido prírodovedec bratislava vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131804-šk-lido-prírodovedec-bratislava-vs-1.-fbc-trenčín
+Slug: 131804-sk-lido-prirodovedec-bratislava-vs-1-fbc-trencin
 type: game
 game_id: 131804
 home_team: ŠK Lido Prírodovedec Bratislava

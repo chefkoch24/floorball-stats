@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 131823 všk ftvš uk hurikán bratislava vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131823-všk-ftvš-uk-hurikán-bratislava-vs-fk-florko-košice
+Slug: 131823-vsk-ftvs-uk-hurikan-bratislava-vs-fk-florko-kosice
 type: game
 game_id: 131823
 home_team: VŠK FTVŠ UK Hurikán Bratislava

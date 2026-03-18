@@ -1,7 +1,7 @@
 Date: 2025-02-22
 Title: 126425 fabk atu košice vs tempish capitol floorball club
 Category: sk-24-25-regular-season, game
-Slug: 126425-fabk-atu-košice-vs-tempish-capitol-floorball-club
+Slug: 126425-fabk-atu-kosice-vs-tempish-capitol-floorball-club
 type: game
 game_id: 126425
 home_team: FaBK ATU Košice

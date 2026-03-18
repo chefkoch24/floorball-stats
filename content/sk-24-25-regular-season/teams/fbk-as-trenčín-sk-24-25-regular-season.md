@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: FBK AS Trenčín
 Category: sk-24-25-regular-season, teams
-Slug: fbk-as-trenčín-sk-24-25-regular-season-sk-24-25-regular-season
+Slug: fbk-as-trencin-sk-24-25-regular-season-sk-24-25-regular-season
 type: team
 team:FBK AS Trenčín
 platzierungsverlauf:sk-24-25-regular-season/teams/fbk-as-trenčín-sk-24-25-regular-season_platzierungsverlauf.png

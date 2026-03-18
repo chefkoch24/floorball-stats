@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 52084 lielvārde-unihoc vs fk irlava-i.s.a.m.
 Category: lv-25-26-regular-season, game
-Slug: 52084-lielvārde-unihoc-vs-fk-irlava-i.s.a.m.
+Slug: 52084-lielvarde-unihoc-vs-fk-irlava-i-s-a-m
 type: game
 game_id: 52084
 home_team: Lielvārde/Unihoc

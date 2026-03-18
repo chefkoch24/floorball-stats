@@ -1,7 +1,7 @@
 Date: 2024-11-02
 Title: 126349 šk victory stars dubnica n-v vs fk florko košice
 Category: sk-24-25-regular-season, game
-Slug: 126349-šk-victory-stars-dubnica-n-v-vs-fk-florko-košice
+Slug: 126349-sk-victory-stars-dubnica-n-v-vs-fk-florko-kosice
 type: game
 game_id: 126349
 home_team: ŠK Victory Stars Dubnica n/V

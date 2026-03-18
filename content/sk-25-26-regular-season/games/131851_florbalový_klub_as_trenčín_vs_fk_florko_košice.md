@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 131851 florbalový klub as trenčín vs fk florko košice
 Category: sk-25-26-regular-season, game
-Slug: 131851-florbalový-klub-as-trenčín-vs-fk-florko-košice
+Slug: 131851-florbalovy-klub-as-trencin-vs-fk-florko-kosice
 type: game
 game_id: 131851
 home_team: Florbalový klub AS Trenčín

@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1218382 fbc liberec vs fbš hummel hattrick brno
 Category: cz-25-26-regular-season, game
-Slug: 1218382-fbc-liberec-vs-fbš-hummel-hattrick-brno
+Slug: 1218382-fbc-liberec-vs-fbs-hummel-hattrick-brno
 type: game
 game_id: 1218382
 home_team: FBC Liberec

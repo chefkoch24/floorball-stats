@@ -1,7 +1,7 @@
 Date: 2026-01-16
 Title: 131876 florbalový klub as trenčín vs 1. fbc trenčín
 Category: sk-25-26-regular-season, game
-Slug: 131876-florbalový-klub-as-trenčín-vs-1.-fbc-trenčín
+Slug: 131876-florbalovy-klub-as-trencin-vs-1-fbc-trencin
 type: game
 game_id: 131876
 home_team: Florbalový klub AS Trenčín

@@ -1,7 +1,7 @@
 Date: 2024-09-28
 Title: 126325 šk lido prírodovedec bratislava vs fbk as trenčín
 Category: sk-24-25-regular-season, game
-Slug: 126325-šk-lido-prírodovedec-bratislava-vs-fbk-as-trenčín
+Slug: 126325-sk-lido-prirodovedec-bratislava-vs-fbk-as-trencin
 type: game
 game_id: 126325
 home_team: ŠK Lido Prírodovedec Bratislava

@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 131869 fk florko košice vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131869-fk-florko-košice-vs-dtf-team-detva-joxers
+Slug: 131869-fk-florko-kosice-vs-dtf-team-detva-joxers
 type: game
 game_id: 131869
 home_team: FK Florko Košice

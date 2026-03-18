@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 131881 šk lido prírodovedec bratislava vs dtf team detva joxers
 Category: sk-25-26-regular-season, game
-Slug: 131881-šk-lido-prírodovedec-bratislava-vs-dtf-team-detva-joxers
+Slug: 131881-sk-lido-prirodovedec-bratislava-vs-dtf-team-detva-joxers
 type: game
 game_id: 131881
 home_team: ŠK Lido Prírodovedec Bratislava

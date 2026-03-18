@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: ŠK Lido Prírodovedec Bratislava
 Category: sk-25-26-regular-season, teams
-Slug: šk-lido-prírodovedec-bratislava-sk-25-26-regular-season-sk-25-26-regular-season
+Slug: sk-lido-prirodovedec-bratislava-sk-25-26-regular-season-sk-25-26-regular-season
 type: team
 team:ŠK Lido Prírodovedec Bratislava
 platzierungsverlauf:sk-25-26-regular-season/teams/šk-lido-prírodovedec-bratislava-sk-25-26-regular-season_platzierungsverlauf.png

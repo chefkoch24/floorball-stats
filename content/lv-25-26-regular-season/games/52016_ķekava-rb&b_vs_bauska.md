@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 52016 ķekava-rb&b vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 52016-ķekava-rb&b-vs-bauska
+Slug: 52016-kekava-rb-and-b-vs-bauska
 type: game
 game_id: 52016
 home_team: Ķekava/RB&B

@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 131907 fabk atu košice vs šk lido prírodovedec bratislava
 Category: sk-25-26-regular-season, game
-Slug: 131907-fabk-atu-košice-vs-šk-lido-prírodovedec-bratislava
+Slug: 131907-fabk-atu-kosice-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 131907
 home_team: FaBK ATU Košice

@@ -1,7 +1,7 @@
 Date: 2024-09-20
 Title: 126309 fbc grasshoppers ac uniza žilina vs snipers bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126309-fbc-grasshoppers-ac-uniza-žilina-vs-snipers-bratislava
+Slug: 126309-fbc-grasshoppers-ac-uniza-zilina-vs-snipers-bratislava
 type: game
 game_id: 126309
 home_team: FBC Grasshoppers AC UNIZA Žilina

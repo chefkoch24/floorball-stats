@@ -1,7 +1,7 @@
 Date: 2025-11-20
 Title: 1218408 fbc čpp bystroň group ostrava vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218408-fbc-čpp-bystroň-group-ostrava-vs-1.-sc-natios-vítkovice
+Slug: 1218408-fbc-cpp-bystron-group-ostrava-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218408
 home_team: FBC ČPP Bystroň Group OSTRAVA

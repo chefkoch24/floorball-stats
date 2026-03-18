@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1218442 kanonýři kladno vs 1. sc natios vítkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218442-kanonýři-kladno-vs-1.-sc-natios-vítkovice
+Slug: 1218442-kanonyri-kladno-vs-1-sc-natios-vitkovice
 type: game
 game_id: 1218442
 home_team: Kanonýři Kladno

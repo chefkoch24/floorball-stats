@@ -1,7 +1,7 @@
 Date: 2025-12-05
 Title: 52031 fbk sāc vs bauska
 Category: lv-25-26-regular-season, game
-Slug: 52031-fbk-sāc-vs-bauska
+Slug: 52031-fbk-sac-vs-bauska
 type: game
 game_id: 52031
 home_team: FBK SĀC

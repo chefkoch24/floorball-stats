@@ -1,7 +1,7 @@
 Date: 2025-02-08
 Title: 126413 tsunami záhorská bystrica vs šk lido prírodovedec bratislava
 Category: sk-24-25-regular-season, game
-Slug: 126413-tsunami-záhorská-bystrica-vs-šk-lido-prírodovedec-bratislava
+Slug: 126413-tsunami-zahorska-bystrica-vs-sk-lido-prirodovedec-bratislava
 type: game
 game_id: 126413
 home_team: Tsunami Záhorská Bystrica

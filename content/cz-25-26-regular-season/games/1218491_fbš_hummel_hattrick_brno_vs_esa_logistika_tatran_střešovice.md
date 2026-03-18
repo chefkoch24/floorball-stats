@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 1218491 fbš hummel hattrick brno vs esa logistika tatran střešovice
 Category: cz-25-26-regular-season, game
-Slug: 1218491-fbš-hummel-hattrick-brno-vs-esa-logistika-tatran-střešovice
+Slug: 1218491-fbs-hummel-hattrick-brno-vs-esa-logistika-tatran-stresovice
 type: game
 game_id: 1218491
 home_team: FBŠ Hummel Hattrick Brno
