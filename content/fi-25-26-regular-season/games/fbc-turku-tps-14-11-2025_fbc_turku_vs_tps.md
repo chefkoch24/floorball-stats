@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-tps-14-11-2025
 home_team: FBC Turku
 away_team: TPS
-start_time: None
+start_time: 18:30
 attendance: 1114.0
 game_status: Played
 result_string: 4-8

@@ -6,7 +6,7 @@ type: game
 game_id: jymy-tps-31-1-2026
 home_team: Jymy
 away_team: TPS
-start_time: None
+start_time: 16:00
 attendance: 261.0
 game_status: Played
 result_string: 6-8

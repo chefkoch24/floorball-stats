@@ -6,7 +6,7 @@ type: game
 game_id: classic-nokian-krp-21-10-2025
 home_team: Classic
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 1011.0
 game_status: Played
 result_string: 3-4

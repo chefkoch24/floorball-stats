@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-jymy-10-10-2025
 home_team: EräViikingit
 away_team: Jymy
-start_time: None
+start_time: 18:30
 attendance: 474.0
 game_status: Played
 result_string: 5-4

@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-nokian-krp-18-10-2025
 home_team: EräViikingit
 away_team: Nokian KrP
-start_time: None
+start_time: 17:00
 attendance: 381.0
 game_status: Played
 result_string: 1-7

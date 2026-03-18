@@ -6,7 +6,7 @@ type: game
 game_id: spv-hawks-5-10-2025
 home_team: SPV
 away_team: Hawks
-start_time: None
+start_time: 16:00
 attendance: 976.0
 game_status: Played
 result_string: 6-5

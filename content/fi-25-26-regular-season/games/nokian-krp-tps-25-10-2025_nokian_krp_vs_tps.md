@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-tps-25-10-2025
 home_team: Nokian KrP
 away_team: TPS
-start_time: None
+start_time: 17:00
 attendance: 577.0
 game_status: Played
 result_string: 9-0

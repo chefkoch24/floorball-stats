@@ -6,7 +6,7 @@ type: game
 game_id: oilers-lasb-1-2-2026
 home_team: Oilers
 away_team: LASB
-start_time: None
+start_time: 16:00
 attendance: 485.0
 game_status: Played
 result_string: 14-3

@@ -6,7 +6,7 @@ type: game
 game_id: indians-oilers-19-12-2025
 home_team: Indians
 away_team: Oilers
-start_time: None
+start_time: 18:30
 attendance: 748.0
 game_status: Played
 result_string: 4-7

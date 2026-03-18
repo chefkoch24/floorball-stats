@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-lasb-27-12-2025
 home_team: Nokian KrP
 away_team: LASB
-start_time: None
+start_time: 17:00
 attendance: 427.0
 game_status: Played
 result_string: 8-2

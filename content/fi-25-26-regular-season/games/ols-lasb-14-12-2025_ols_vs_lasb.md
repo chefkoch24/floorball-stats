@@ -6,7 +6,7 @@ type: game
 game_id: ols-lasb-14-12-2025
 home_team: OLS
 away_team: LASB
-start_time: None
+start_time: 18:00
 attendance: 702.0
 game_status: Played
 result_string: 6-4

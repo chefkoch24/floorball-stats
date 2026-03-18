@@ -6,7 +6,7 @@ type: game
 game_id: jymy-spv-13-9-2025
 home_team: Jymy
 away_team: SPV
-start_time: None
+start_time: 17:00
 attendance: 776.0
 game_status: Played
 result_string: 3-8

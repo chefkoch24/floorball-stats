@@ -6,7 +6,7 @@ type: game
 game_id: ols-spv-4-10-2025
 home_team: OLS
 away_team: SPV
-start_time: None
+start_time: 18:00
 attendance: 712.0
 game_status: Played
 result_string: 5-8

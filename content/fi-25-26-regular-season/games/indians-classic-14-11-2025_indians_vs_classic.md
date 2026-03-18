@@ -6,7 +6,7 @@ type: game
 game_id: indians-classic-14-11-2025
 home_team: Indians
 away_team: Classic
-start_time: None
+start_time: 18:30
 attendance: 602.0
 game_status: Played
 result_string: 3-5

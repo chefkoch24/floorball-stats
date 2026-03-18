@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-classic-30-10-2025
 home_team: FBC Turku
 away_team: Classic
-start_time: None
+start_time: 18:30
 attendance: 276.0
 game_status: Played
 result_string: 0-11

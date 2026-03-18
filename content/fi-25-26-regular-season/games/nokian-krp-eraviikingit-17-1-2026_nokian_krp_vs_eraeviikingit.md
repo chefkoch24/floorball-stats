@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-eraviikingit-17-1-2026
 home_team: Nokian KrP
 away_team: EräViikingit
-start_time: None
+start_time: 17:00
 attendance: 577.0
 game_status: Played
 result_string: 13-3

@@ -6,7 +6,7 @@ type: game
 game_id: ols-tps-15-11-2025
 home_team: OLS
 away_team: TPS
-start_time: None
+start_time: 18:00
 attendance: 611.0
 game_status: Played
 result_string: 9-6

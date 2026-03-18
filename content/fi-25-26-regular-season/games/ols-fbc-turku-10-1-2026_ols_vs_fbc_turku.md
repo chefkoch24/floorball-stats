@@ -6,7 +6,7 @@ type: game
 game_id: ols-fbc-turku-10-1-2026
 home_team: OLS
 away_team: FBC Turku
-start_time: None
+start_time: 15:00
 attendance: 521.0
 game_status: Played
 result_string: 12-2

@@ -6,7 +6,7 @@ type: game
 game_id: oilers-fbc-turku-19-10-2025
 home_team: Oilers
 away_team: FBC Turku
-start_time: None
+start_time: 17:00
 attendance: 743.0
 game_status: Played
 result_string: 13-5

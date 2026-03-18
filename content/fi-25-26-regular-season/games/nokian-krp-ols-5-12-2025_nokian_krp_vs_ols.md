@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-ols-5-12-2025
 home_team: Nokian KrP
 away_team: OLS
-start_time: None
+start_time: 18:30
 attendance: 467.0
 game_status: Played
 result_string: 9-2

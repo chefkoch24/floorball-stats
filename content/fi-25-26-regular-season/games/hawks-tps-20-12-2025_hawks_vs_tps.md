@@ -6,7 +6,7 @@ type: game
 game_id: hawks-tps-20-12-2025
 home_team: Hawks
 away_team: TPS
-start_time: None
+start_time: 14:00
 attendance: 292.0
 game_status: Played
 result_string: 2-3

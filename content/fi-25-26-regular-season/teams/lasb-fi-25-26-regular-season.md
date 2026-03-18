@@ -1,4 +1,4 @@
-Date: 2026-03-17
+Date: 2026-03-18
 Title: LASB
 Category: fi-25-26-regular-season, teams
 Slug: lasb-fi-25-26-regular-season-fi-25-26-regular-season

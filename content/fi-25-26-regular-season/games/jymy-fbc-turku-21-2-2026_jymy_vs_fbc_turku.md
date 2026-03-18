@@ -6,7 +6,7 @@ type: game
 game_id: jymy-fbc-turku-21-2-2026
 home_team: Jymy
 away_team: FBC Turku
-start_time: None
+start_time: 16:00
 attendance: 221.0
 game_status: Played
 result_string: 6-5

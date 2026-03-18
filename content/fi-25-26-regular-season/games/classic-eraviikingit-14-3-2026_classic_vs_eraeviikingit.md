@@ -6,7 +6,7 @@ type: game
 game_id: classic-eraviikingit-14-3-2026
 home_team: Classic
 away_team: EräViikingit
-start_time: None
+start_time: 17:30
 attendance: 639.0
 game_status: Played
 result_string: 14-5

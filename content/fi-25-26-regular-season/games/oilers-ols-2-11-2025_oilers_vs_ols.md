@@ -6,7 +6,7 @@ type: game
 game_id: oilers-ols-2-11-2025
 home_team: Oilers
 away_team: OLS
-start_time: None
+start_time: 16:00
 attendance: 871.0
 game_status: Played
 result_string: 13-3

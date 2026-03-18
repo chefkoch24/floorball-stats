@@ -6,7 +6,7 @@ type: game
 game_id: indians-oilers-24-10-2025
 home_team: Indians
 away_team: Oilers
-start_time: None
+start_time: 18:30
 attendance: 773.0
 game_status: Played
 result_string: 3-2

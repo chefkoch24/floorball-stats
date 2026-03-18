@@ -6,7 +6,7 @@ type: game
 game_id: ols-oilers-14-2-2026
 home_team: OLS
 away_team: Oilers
-start_time: None
+start_time: 18:00
 attendance: 625.0
 game_status: Played
 result_string: 4-8

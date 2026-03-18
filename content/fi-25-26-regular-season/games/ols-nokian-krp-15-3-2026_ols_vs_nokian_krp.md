@@ -6,7 +6,7 @@ type: game
 game_id: ols-nokian-krp-15-3-2026
 home_team: OLS
 away_team: Nokian KrP
-start_time: None
+start_time: 15:00
 attendance: 682.0
 game_status: Played
 result_string: 1-9

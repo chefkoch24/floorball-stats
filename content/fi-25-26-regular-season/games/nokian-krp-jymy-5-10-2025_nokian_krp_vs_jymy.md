@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-jymy-5-10-2025
 home_team: Nokian KrP
 away_team: Jymy
-start_time: None
+start_time: 17:00
 attendance: 292.0
 game_status: Played
 result_string: 8-5

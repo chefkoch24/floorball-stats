@@ -6,7 +6,7 @@ type: game
 game_id: lasb-indians-12-10-2025
 home_team: LASB
 away_team: Indians
-start_time: None
+start_time: 15:00
 attendance: 326.0
 game_status: Played
 result_string: 0-6

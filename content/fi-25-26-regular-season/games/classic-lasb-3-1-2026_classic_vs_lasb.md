@@ -6,7 +6,7 @@ type: game
 game_id: classic-lasb-3-1-2026
 home_team: Classic
 away_team: LASB
-start_time: None
+start_time: 17:30
 attendance: 809.0
 game_status: Played
 result_string: 12-4

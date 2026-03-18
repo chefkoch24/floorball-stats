@@ -6,7 +6,7 @@ type: game
 game_id: oilers-jymy-17-1-2026
 home_team: Oilers
 away_team: Jymy
-start_time: None
+start_time: 17:00
 attendance: 526.0
 game_status: Played
 result_string: 7-3

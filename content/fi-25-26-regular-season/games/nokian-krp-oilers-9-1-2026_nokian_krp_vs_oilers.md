@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-oilers-9-1-2026
 home_team: Nokian KrP
 away_team: Oilers
-start_time: None
+start_time: 18:30
 attendance: 607.0
 game_status: Played
 result_string: 6-2

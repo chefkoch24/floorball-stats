@@ -6,7 +6,7 @@ type: game
 game_id: lasb-hawks-31-1-2026
 home_team: LASB
 away_team: Hawks
-start_time: None
+start_time: 15:00
 attendance: 403.0
 game_status: Played
 result_string: 1-4

@@ -6,7 +6,7 @@ type: game
 game_id: 868882
 home_team: SPV
 away_team: OLS
-start_time: None
+start_time: 18:30
 attendance: None
 game_status: Scheduled
 result_string: None

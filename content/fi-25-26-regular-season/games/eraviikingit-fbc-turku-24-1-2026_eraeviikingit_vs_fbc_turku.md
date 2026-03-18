@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-fbc-turku-24-1-2026
 home_team: EräViikingit
 away_team: FBC Turku
-start_time: None
+start_time: 14:00
 attendance: 165.0
 game_status: Played
 result_string: 8-7

@@ -6,7 +6,7 @@ type: game
 game_id: jymy-ols-27-12-2025
 home_team: Jymy
 away_team: OLS
-start_time: None
+start_time: 16:00
 attendance: 441.0
 game_status: Played
 result_string: 3-2

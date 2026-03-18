@@ -6,7 +6,7 @@ type: game
 game_id: jymy-eraviikingit-9-1-2026
 home_team: Jymy
 away_team: EräViikingit
-start_time: None
+start_time: 18:30
 attendance: 519.0
 game_status: Played
 result_string: 4-7

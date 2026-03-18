@@ -6,7 +6,7 @@ type: game
 game_id: hawks-lasb-18-10-2025
 home_team: Hawks
 away_team: LASB
-start_time: None
+start_time: 16:00
 attendance: 358.0
 game_status: Played
 result_string: 2-0

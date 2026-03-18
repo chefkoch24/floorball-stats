@@ -6,7 +6,7 @@ type: game
 game_id: spv-fbc-turku-30-11-2025
 home_team: SPV
 away_team: FBC Turku
-start_time: None
+start_time: 16:00
 attendance: 893.0
 game_status: Played
 result_string: 6-2

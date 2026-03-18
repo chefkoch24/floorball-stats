@@ -6,7 +6,7 @@ type: game
 game_id: oilers-tps-16-2-2026
 home_team: Oilers
 away_team: TPS
-start_time: None
+start_time: 18:30
 attendance: 613.0
 game_status: Played
 result_string: 7-8

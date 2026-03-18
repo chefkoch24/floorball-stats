@@ -6,7 +6,7 @@ type: game
 game_id: 868695
 home_team: EräViikingit
 away_team: TPS
-start_time: None
+start_time: 18:30
 attendance: None
 game_status: Scheduled
 result_string: None

@@ -6,7 +6,7 @@ type: game
 game_id: lasb-eraviikingit-14-2-2026
 home_team: LASB
 away_team: EräViikingit
-start_time: None
+start_time: 15:00
 attendance: 273.0
 game_status: Played
 result_string: 5-6

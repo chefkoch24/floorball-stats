@@ -6,7 +6,7 @@ type: game
 game_id: 868692
 home_team: Nokian KrP
 away_team: LASB
-start_time: None
+start_time: 18:30
 attendance: None
 game_status: Scheduled
 result_string: None

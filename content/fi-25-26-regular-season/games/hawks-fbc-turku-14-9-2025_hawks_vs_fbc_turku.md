@@ -6,7 +6,7 @@ type: game
 game_id: hawks-fbc-turku-14-9-2025
 home_team: Hawks
 away_team: FBC Turku
-start_time: None
+start_time: 17:00
 attendance: 379.0
 game_status: Played
 result_string: 11-4

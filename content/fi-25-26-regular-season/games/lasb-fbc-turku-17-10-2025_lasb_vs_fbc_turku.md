@@ -6,7 +6,7 @@ type: game
 game_id: lasb-fbc-turku-17-10-2025
 home_team: LASB
 away_team: FBC Turku
-start_time: None
+start_time: 18:30
 attendance: 261.0
 game_status: Played
 result_string: 3-4

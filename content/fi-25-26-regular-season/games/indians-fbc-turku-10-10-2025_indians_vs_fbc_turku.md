@@ -6,7 +6,7 @@ type: game
 game_id: indians-fbc-turku-10-10-2025
 home_team: Indians
 away_team: FBC Turku
-start_time: None
+start_time: 18:30
 attendance: 480.0
 game_status: Played
 result_string: 7-2

@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-spv-26-9-2025
 home_team: Nokian KrP
 away_team: SPV
-start_time: None
+start_time: 18:30
 attendance: 747.0
 game_status: Played
 result_string: 3-5

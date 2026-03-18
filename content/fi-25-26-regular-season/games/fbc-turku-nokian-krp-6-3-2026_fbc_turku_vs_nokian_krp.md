@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-nokian-krp-6-3-2026
 home_team: FBC Turku
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 295.0
 game_status: Played
 result_string: 3-7

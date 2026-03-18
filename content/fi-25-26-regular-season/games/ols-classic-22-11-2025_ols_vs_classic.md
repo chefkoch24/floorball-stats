@@ -6,7 +6,7 @@ type: game
 game_id: ols-classic-22-11-2025
 home_team: OLS
 away_team: Classic
-start_time: None
+start_time: 18:00
 attendance: 774.0
 game_status: Played
 result_string: 6-5

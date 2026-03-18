@@ -6,7 +6,7 @@ type: game
 game_id: tps-oilers-25-9-2025
 home_team: TPS
 away_team: Oilers
-start_time: None
+start_time: 18:30
 attendance: 722.0
 game_status: Played
 result_string: 2-5

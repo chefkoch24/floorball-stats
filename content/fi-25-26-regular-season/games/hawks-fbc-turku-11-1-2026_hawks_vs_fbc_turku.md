@@ -6,7 +6,7 @@ type: game
 game_id: hawks-fbc-turku-11-1-2026
 home_team: Hawks
 away_team: FBC Turku
-start_time: None
+start_time: 17:00
 attendance: 295.0
 game_status: Played
 result_string: 4-2

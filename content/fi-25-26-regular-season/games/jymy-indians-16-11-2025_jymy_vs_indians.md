@@ -6,7 +6,7 @@ type: game
 game_id: jymy-indians-16-11-2025
 home_team: Jymy
 away_team: Indians
-start_time: None
+start_time: 16:00
 attendance: 284.0
 game_status: Played
 result_string: 3-5

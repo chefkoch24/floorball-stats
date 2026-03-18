@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
@@ -15,6 +16,7 @@ from src.scheduled_games import build_scheduled_game_row
 
 USER_AGENT = "Mozilla/5.0 (compatible; FloorballStats/1.0; +https://fliiga.com/)"
 DEFAULT_SCHEDULE_URL = "https://fliiga.com/en/matches/men/"
+FINLAND_TZ = ZoneInfo("Europe/Helsinki")
 
 GOAL_SCORE_RE = re.compile(r"(\d+)\s*-\s*(\d+)")
 PENALTY_CLASS_RE = re.compile(r"event-(\d+)min")
@@ -57,12 +59,17 @@ def _parse_match_cards(html: str) -> list[MatchCard]:
         game_date = card.get("data-match-date")
         game_start_time = card.get("data-match-time")
         gameday = card.get("data-match-gameday")
-        if not game_date and gameday:
+        if gameday:
             try:
                 ts = int(gameday)
-                game_date = datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d")
+                dt_local = datetime.fromtimestamp(ts, tz=FINLAND_TZ)
+                if not game_date:
+                    game_date = dt_local.strftime("%Y-%m-%d")
+                if not game_start_time:
+                    game_start_time = dt_local.strftime("%H:%M")
             except (ValueError, OSError):
-                game_date = None
+                if not game_date:
+                    game_date = None
         if not game_date:
             slug = match_url["href"].rstrip("/").split("/")[-1]
             parts = slug.rsplit("-", 3)

@@ -6,7 +6,7 @@ type: game
 game_id: spv-jymy-17-12-2025
 home_team: SPV
 away_team: Jymy
-start_time: None
+start_time: 18:30
 attendance: 1178.0
 game_status: Played
 result_string: 12-4

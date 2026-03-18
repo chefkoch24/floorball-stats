@@ -6,7 +6,7 @@ type: game
 game_id: spv-classic-10-1-2026
 home_team: SPV
 away_team: Classic
-start_time: None
+start_time: 17:00
 attendance: 970.0
 game_status: Played
 result_string: 8-6

@@ -6,7 +6,7 @@ type: game
 game_id: classic-lasb-12-11-2025
 home_team: Classic
 away_team: LASB
-start_time: None
+start_time: 18:30
 attendance: 599.0
 game_status: Played
 result_string: 8-4

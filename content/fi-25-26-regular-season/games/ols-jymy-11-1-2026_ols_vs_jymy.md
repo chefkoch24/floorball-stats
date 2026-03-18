@@ -6,7 +6,7 @@ type: game
 game_id: ols-jymy-11-1-2026
 home_team: OLS
 away_team: Jymy
-start_time: None
+start_time: 18:00
 attendance: 782.0
 game_status: Played
 result_string: 8-4

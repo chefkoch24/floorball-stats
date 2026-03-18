@@ -8,11 +8,14 @@
 - [x] Bug: on the latvian website the teams have different points. can you please check it and if required adapt the calculation only for the latvian league 
 - [x] Bug: in darkmode you can not read the leagues on the home page due to the contrast. check all contrasts
 - [x] Playoff Bracket Visualization
-- [ ] Integrate full game events to have one place to check scorers, ...
-- [ ] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
+- [x] Integrate full game events to have one place to check scorers, ...
+- [x] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
+- [ ] Improve SEO
 
 
 ## Ideas & User Feedback
+- Add short summaries via LLMs to each game
+- Add Highlight videos
 - Integrate Player Stats
 - Integrate Offense and Defense Ratings for all teams
-- More advanced H2H
+- More advanced H2H in particular for upcoming games

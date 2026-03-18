@@ -6,7 +6,7 @@ type: game
 game_id: oilers-nokian-krp-10-9-2025
 home_team: Oilers
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 671.0
 game_status: Played
 result_string: 9-3

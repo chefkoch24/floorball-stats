@@ -6,7 +6,7 @@ type: game
 game_id: lasb-jymy-28-12-2025
 home_team: LASB
 away_team: Jymy
-start_time: None
+start_time: 15:00
 attendance: 428.0
 game_status: Played
 result_string: 5-4

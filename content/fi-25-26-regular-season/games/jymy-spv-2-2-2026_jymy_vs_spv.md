@@ -6,7 +6,7 @@ type: game
 game_id: jymy-spv-2-2-2026
 home_team: Jymy
 away_team: SPV
-start_time: None
+start_time: 18:30
 attendance: 616.0
 game_status: Played
 result_string: 4-6

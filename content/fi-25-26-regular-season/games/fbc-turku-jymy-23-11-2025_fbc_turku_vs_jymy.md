@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-jymy-23-11-2025
 home_team: FBC Turku
 away_team: Jymy
-start_time: None
+start_time: 16:30
 attendance: 457.0
 game_status: Played
 result_string: 2-9

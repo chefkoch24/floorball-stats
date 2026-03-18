@@ -6,7 +6,7 @@ type: game
 game_id: classic-ols-20-2-2026
 home_team: Classic
 away_team: OLS
-start_time: None
+start_time: 18:30
 attendance: 786.0
 game_status: Played
 result_string: 10-2

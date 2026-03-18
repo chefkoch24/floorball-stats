@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-hawks-11-2-2026
 home_team: Nokian KrP
 away_team: Hawks
-start_time: None
+start_time: 18:30
 attendance: 417.0
 game_status: Played
 result_string: 6-2

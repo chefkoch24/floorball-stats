@@ -4,9 +4,33 @@
 <section class="hero">
     <div class="hero-top">
         <div>
-            <h1 class="hero-title">Floorball Analytics</h1>
+            <h1 class="hero-title">Floorball Stats</h1>
             <p class="hero-subtitle">Data, stats, and insights for top floorball leagues in one place.</p>
         </div>
+    </div>
+</section>
+
+<section class="panel">
+    <h2 class="panel-title">Today's Games</h2>
+    <p id="today-games-label" class="hero-subtitle">Loading games for today…</p>
+    <div id="today-games-list" class="season-group-grid"></div>
+    <div id="today-games-source" hidden>
+        {% for article in articles %}
+            {% set article_type = article.type|default('') %}
+            {% set category_short = article.category.shortname if article.category else '' %}
+            {% if (article_type == "game" or article|string_in_category_path('game')) and '25-26' in category_short and article.date %}
+                <article
+                    data-date="{{ article.date.strftime('%Y-%m-%d') }}"
+                    data-time="{{ article.start_time|default('TBD') }}"
+                    data-home="{{ article.home_team|default('n.a.')|e }}"
+                    data-away="{{ article.away_team|default('n.a.')|e }}"
+                    data-league="{{ category_short|category2string|e }}"
+                    data-url="{{ SITEURL }}/{{ article.url }}"
+                    data-state="{{ article.game_state|default('scheduled')|e }}"
+                    data-result="{{ article.result_string|default('')|e }}">
+                </article>
+            {% endif %}
+        {% endfor %}
     </div>
 </section>
 
@@ -260,5 +284,67 @@
         </div>
     </div>
 </section>
+
+<script>
+(function () {
+    const source = document.getElementById('today-games-source');
+    const list = document.getElementById('today-games-list');
+    const label = document.getElementById('today-games-label');
+    if (!source || !list || !label) return;
+
+    const items = Array.from(source.querySelectorAll('article')).map((node) => ({
+        date: node.dataset.date || '',
+        time: node.dataset.time || 'TBD',
+        home: node.dataset.home || 'n.a.',
+        away: node.dataset.away || 'n.a.',
+        league: node.dataset.league || 'League',
+        url: node.dataset.url || '#',
+        state: node.dataset.state || 'scheduled',
+        result: node.dataset.result || '',
+    }));
+
+    const today = new Date();
+    const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+    const todayGames = items
+        .filter((game) => game.date === todayKey)
+        .sort((a, b) => String(a.time).localeCompare(String(b.time)));
+
+    if (!todayGames.length) {
+        label.textContent = `No games scheduled for ${todayKey}.`;
+        list.innerHTML = '';
+        return;
+    }
+
+    label.textContent = `${todayGames.length} game${todayGames.length === 1 ? '' : 's'} on ${todayKey}`;
+
+    const gamesByLeague = todayGames.reduce((acc, game) => {
+        if (!acc[game.league]) {
+            acc[game.league] = [];
+        }
+        acc[game.league].push(game);
+        return acc;
+    }, {});
+
+    list.innerHTML = Object.keys(gamesByLeague).sort().map((league) => {
+        const gamesHtml = gamesByLeague[league].map((game) => {
+            const detail = game.state === 'played' && game.result ? game.result : game.time;
+            return `
+                <a class="season-phase-link" href="${game.url}">
+                    <span>${game.home} vs ${game.away}</span>
+                    <span>${detail}</span>
+                </a>
+            `;
+        }).join('');
+        return `
+            <article class="season-group-card">
+                <h3>${league}</h3>
+                <div class="season-phase-links">
+                    ${gamesHtml}
+                </div>
+            </article>
+        `;
+    }).join('');
+})();
+</script>
 
 {% endblock content %}

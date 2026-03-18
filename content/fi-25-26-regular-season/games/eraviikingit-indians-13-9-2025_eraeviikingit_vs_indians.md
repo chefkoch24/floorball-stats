@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-indians-13-9-2025
 home_team: EräViikingit
 away_team: Indians
-start_time: None
+start_time: 17:30
 attendance: 552.0
 game_status: Played
 result_string: 5-11

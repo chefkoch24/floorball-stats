@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-lasb-3-11-2025
 home_team: EräViikingit
 away_team: LASB
-start_time: None
+start_time: 18:30
 attendance: 429.0
 game_status: Played
 result_string: 4-3

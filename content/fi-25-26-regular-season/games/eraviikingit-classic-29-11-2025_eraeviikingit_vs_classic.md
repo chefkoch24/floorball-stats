@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-classic-29-11-2025
 home_team: EräViikingit
 away_team: Classic
-start_time: None
+start_time: 17:00
 attendance: 255.0
 game_status: Played
 result_string: 3-8

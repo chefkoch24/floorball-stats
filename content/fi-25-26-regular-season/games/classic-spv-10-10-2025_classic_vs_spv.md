@@ -6,7 +6,7 @@ type: game
 game_id: classic-spv-10-10-2025
 home_team: Classic
 away_team: SPV
-start_time: None
+start_time: 18:30
 attendance: 1099.0
 game_status: Played
 result_string: 4-3

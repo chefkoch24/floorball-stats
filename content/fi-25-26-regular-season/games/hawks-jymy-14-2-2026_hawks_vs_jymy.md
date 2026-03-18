@@ -6,7 +6,7 @@ type: game
 game_id: hawks-jymy-14-2-2026
 home_team: Hawks
 away_team: Jymy
-start_time: None
+start_time: 16:00
 attendance: 287.0
 game_status: Played
 result_string: 5-4

@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-spv-22-11-2025
 home_team: EräViikingit
 away_team: SPV
-start_time: None
+start_time: 17:00
 attendance: 404.0
 game_status: Played
 result_string: 4-8

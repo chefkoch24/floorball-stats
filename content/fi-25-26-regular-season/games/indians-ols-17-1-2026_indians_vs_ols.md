@@ -6,7 +6,7 @@ type: game
 game_id: indians-ols-17-1-2026
 home_team: Indians
 away_team: OLS
-start_time: None
+start_time: 18:00
 attendance: 545.0
 game_status: Played
 result_string: 3-4

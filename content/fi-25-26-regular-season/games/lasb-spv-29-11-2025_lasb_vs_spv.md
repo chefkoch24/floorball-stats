@@ -6,7 +6,7 @@ type: game
 game_id: lasb-spv-29-11-2025
 home_team: LASB
 away_team: SPV
-start_time: None
+start_time: 15:00
 attendance: 280.0
 game_status: Played
 result_string: 9-7

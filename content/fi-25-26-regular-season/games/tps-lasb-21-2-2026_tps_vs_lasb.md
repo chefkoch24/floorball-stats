@@ -6,7 +6,7 @@ type: game
 game_id: tps-lasb-21-2-2026
 home_team: TPS
 away_team: LASB
-start_time: None
+start_time: 17:30
 attendance: 478.0
 game_status: Played
 result_string: 3-5

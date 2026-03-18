@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-spv-15-3-2026
 home_team: FBC Turku
 away_team: SPV
-start_time: None
+start_time: 16:30
 attendance: 298.0
 game_status: Played
 result_string: 3-12

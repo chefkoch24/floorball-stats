@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-tps-20-9-2025
 home_team: EräViikingit
 away_team: TPS
-start_time: None
+start_time: 17:00
 attendance: 372.0
 game_status: Played
 result_string: 2-3

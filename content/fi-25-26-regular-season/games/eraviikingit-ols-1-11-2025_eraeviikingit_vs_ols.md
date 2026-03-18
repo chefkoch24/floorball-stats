@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-ols-1-11-2025
 home_team: EräViikingit
 away_team: OLS
-start_time: None
+start_time: 18:30
 attendance: 451.0
 game_status: Played
 result_string: 1-6

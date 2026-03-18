@@ -6,7 +6,7 @@ type: game
 game_id: hawks-ols-21-2-2026
 home_team: Hawks
 away_team: OLS
-start_time: None
+start_time: 16:00
 attendance: 242.0
 game_status: Played
 result_string: 6-7

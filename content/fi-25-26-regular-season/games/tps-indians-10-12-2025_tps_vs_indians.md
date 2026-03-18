@@ -6,7 +6,7 @@ type: game
 game_id: tps-indians-10-12-2025
 home_team: TPS
 away_team: Indians
-start_time: None
+start_time: 18:30
 attendance: 320.0
 game_status: Played
 result_string: 3-6

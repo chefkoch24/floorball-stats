@@ -6,7 +6,7 @@ type: game
 game_id: indians-nokian-krp-21-11-2025
 home_team: Indians
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 590.0
 game_status: Played
 result_string: 3-5

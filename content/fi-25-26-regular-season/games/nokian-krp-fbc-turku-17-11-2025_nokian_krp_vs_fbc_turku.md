@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-fbc-turku-17-11-2025
 home_team: Nokian KrP
 away_team: FBC Turku
-start_time: None
+start_time: 18:30
 attendance: 407.0
 game_status: Played
 result_string: 14-2

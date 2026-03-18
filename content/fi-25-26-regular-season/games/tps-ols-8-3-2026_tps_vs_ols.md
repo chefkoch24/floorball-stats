@@ -6,7 +6,7 @@ type: game
 game_id: tps-ols-8-3-2026
 home_team: TPS
 away_team: OLS
-start_time: None
+start_time: 15:00
 attendance: 412.0
 game_status: Played
 result_string: 5-4

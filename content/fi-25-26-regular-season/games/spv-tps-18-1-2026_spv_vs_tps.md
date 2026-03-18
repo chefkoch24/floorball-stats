@@ -6,7 +6,7 @@ type: game
 game_id: spv-tps-18-1-2026
 home_team: SPV
 away_team: TPS
-start_time: None
+start_time: 16:00
 attendance: 723.0
 game_status: Played
 result_string: 10-3

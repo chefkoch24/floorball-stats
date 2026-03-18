@@ -6,7 +6,7 @@ type: game
 game_id: indians-spv-6-3-2026
 home_team: Indians
 away_team: SPV
-start_time: None
+start_time: 18:30
 attendance: 610.0
 game_status: Played
 result_string: 2-6

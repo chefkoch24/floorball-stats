@@ -6,7 +6,7 @@ type: game
 game_id: classic-tps-6-12-2025
 home_team: Classic
 away_team: TPS
-start_time: None
+start_time: 14:00
 attendance: 914.0
 game_status: Played
 result_string: 16-3

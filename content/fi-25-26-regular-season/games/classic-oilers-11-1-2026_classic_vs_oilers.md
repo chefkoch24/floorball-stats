@@ -6,7 +6,7 @@ type: game
 game_id: classic-oilers-11-1-2026
 home_team: Classic
 away_team: Oilers
-start_time: None
+start_time: 16:00
 attendance: 945.0
 game_status: Played
 result_string: 9-6

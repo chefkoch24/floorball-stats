@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-eraviikingit-24-10-2025
 home_team: FBC Turku
 away_team: EräViikingit
-start_time: None
+start_time: 18:30
 attendance: 403.0
 game_status: Played
 result_string: 5-10

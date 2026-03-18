@@ -6,7 +6,7 @@ type: game
 game_id: lasb-tps-22-11-2025
 home_team: LASB
 away_team: TPS
-start_time: None
+start_time: 15:00
 attendance: 361.0
 game_status: Played
 result_string: 1-3

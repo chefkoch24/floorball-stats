@@ -6,7 +6,7 @@ type: game
 game_id: hawks-eraviikingit-4-10-2025
 home_team: Hawks
 away_team: EräViikingit
-start_time: None
+start_time: 16:00
 attendance: 498.0
 game_status: Played
 result_string: 3-4

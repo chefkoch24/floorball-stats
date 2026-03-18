@@ -6,7 +6,7 @@ type: game
 game_id: hawks-indians-14-3-2026
 home_team: Hawks
 away_team: Indians
-start_time: None
+start_time: 18:30
 attendance: 347.0
 game_status: Played
 result_string: 7-4

@@ -6,7 +6,7 @@ type: game
 game_id: jymy-lasb-24-1-2026
 home_team: Jymy
 away_team: LASB
-start_time: None
+start_time: 16:00
 attendance: 249.0
 game_status: Played
 result_string: 5-4

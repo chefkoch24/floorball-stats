@@ -6,7 +6,7 @@ type: game
 game_id: jymy-oilers-12-10-2025
 home_team: Jymy
 away_team: Oilers
-start_time: None
+start_time: 16:00
 attendance: 289.0
 game_status: Played
 result_string: 3-7

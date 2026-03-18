@@ -6,7 +6,7 @@ type: game
 game_id: ols-hawks-25-10-2025
 home_team: OLS
 away_team: Hawks
-start_time: None
+start_time: 18:00
 attendance: 648.0
 game_status: Played
 result_string: 9-1

@@ -6,7 +6,7 @@ type: game
 game_id: tps-nokian-krp-19-1-2026
 home_team: TPS
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 388.0
 game_status: Played
 result_string: 5-6

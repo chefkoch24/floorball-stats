@@ -1,4 +1,4 @@
-Date: 2026-03-17
+Date: 2026-03-18
 Title: Nokian KrP
 Category: fi-25-26-regular-season, teams
 Slug: nokian-krp-fi-25-26-regular-season-fi-25-26-regular-season

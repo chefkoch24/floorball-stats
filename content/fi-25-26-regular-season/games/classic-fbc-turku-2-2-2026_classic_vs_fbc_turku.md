@@ -6,7 +6,7 @@ type: game
 game_id: classic-fbc-turku-2-2-2026
 home_team: Classic
 away_team: FBC Turku
-start_time: None
+start_time: 18:30
 attendance: 559.0
 game_status: Played
 result_string: 12-3

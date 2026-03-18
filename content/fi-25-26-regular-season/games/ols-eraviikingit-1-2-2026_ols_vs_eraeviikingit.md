@@ -6,7 +6,7 @@ type: game
 game_id: ols-eraviikingit-1-2-2026
 home_team: OLS
 away_team: EräViikingit
-start_time: None
+start_time: 18:00
 attendance: 768.0
 game_status: Played
 result_string: 5-6

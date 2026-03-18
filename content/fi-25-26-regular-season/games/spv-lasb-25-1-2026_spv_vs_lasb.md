@@ -6,7 +6,7 @@ type: game
 game_id: spv-lasb-25-1-2026
 home_team: SPV
 away_team: LASB
-start_time: None
+start_time: 16:00
 attendance: 988.0
 game_status: Played
 result_string: 10-5

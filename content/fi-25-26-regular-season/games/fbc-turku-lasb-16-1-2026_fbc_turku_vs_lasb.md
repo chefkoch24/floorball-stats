@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-lasb-16-1-2026
 home_team: FBC Turku
 away_team: LASB
-start_time: None
+start_time: 18:30
 attendance: 397.0
 game_status: Played
 result_string: 0-3

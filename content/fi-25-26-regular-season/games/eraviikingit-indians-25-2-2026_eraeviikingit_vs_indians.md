@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-indians-25-2-2026
 home_team: EräViikingit
 away_team: Indians
-start_time: None
+start_time: 18:30
 attendance: 450.0
 game_status: Played
 result_string: 5-6

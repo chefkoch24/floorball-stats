@@ -6,7 +6,7 @@ type: game
 game_id: hawks-indians-27-9-2025
 home_team: Hawks
 away_team: Indians
-start_time: None
+start_time: 16:00
 attendance: 388.0
 game_status: Played
 result_string: 5-6

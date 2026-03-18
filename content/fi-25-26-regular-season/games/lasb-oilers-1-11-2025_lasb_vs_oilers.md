@@ -6,7 +6,7 @@ type: game
 game_id: lasb-oilers-1-11-2025
 home_team: LASB
 away_team: Oilers
-start_time: None
+start_time: 15:00
 attendance: 297.0
 game_status: Played
 result_string: 5-9

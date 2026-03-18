@@ -6,7 +6,7 @@ type: game
 game_id: spv-eraviikingit-22-2-2026
 home_team: SPV
 away_team: EräViikingit
-start_time: None
+start_time: 16:00
 attendance: 678.0
 game_status: Played
 result_string: 6-2

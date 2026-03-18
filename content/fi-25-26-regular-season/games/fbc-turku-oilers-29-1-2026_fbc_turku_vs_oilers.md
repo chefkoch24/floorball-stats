@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-oilers-29-1-2026
 home_team: FBC Turku
 away_team: Oilers
-start_time: None
+start_time: 18:30
 attendance: 355.0
 game_status: Played
 result_string: 7-15

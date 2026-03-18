@@ -6,7 +6,7 @@ type: game
 game_id: tps-classic-24-1-2026
 home_team: TPS
 away_team: Classic
-start_time: None
+start_time: 17:00
 attendance: 703.0
 game_status: Played
 result_string: 1-6

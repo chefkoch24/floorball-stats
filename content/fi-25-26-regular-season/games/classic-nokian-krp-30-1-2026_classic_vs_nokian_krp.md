@@ -6,7 +6,7 @@ type: game
 game_id: classic-nokian-krp-30-1-2026
 home_team: Classic
 away_team: Nokian KrP
-start_time: None
+start_time: 18:30
 attendance: 1036.0
 game_status: Played
 result_string: 4-1

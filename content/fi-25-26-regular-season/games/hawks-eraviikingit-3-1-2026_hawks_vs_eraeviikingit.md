@@ -6,7 +6,7 @@ type: game
 game_id: hawks-eraviikingit-3-1-2026
 home_team: Hawks
 away_team: EräViikingit
-start_time: None
+start_time: 16:00
 attendance: 883.0
 game_status: Played
 result_string: 4-5

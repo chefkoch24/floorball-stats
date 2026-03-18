@@ -6,7 +6,7 @@ type: game
 game_id: oilers-hawks-22-11-2025
 home_team: Oilers
 away_team: Hawks
-start_time: None
+start_time: 17:00
 attendance: 581.0
 game_status: Played
 result_string: 14-2

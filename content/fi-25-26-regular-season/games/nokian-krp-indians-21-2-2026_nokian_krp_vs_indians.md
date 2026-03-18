@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-indians-21-2-2026
 home_team: Nokian KrP
 away_team: Indians
-start_time: None
+start_time: 17:00
 attendance: 457.0
 game_status: Played
 result_string: 8-4

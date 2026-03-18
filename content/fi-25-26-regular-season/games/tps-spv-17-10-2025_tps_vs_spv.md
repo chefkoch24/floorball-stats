@@ -6,7 +6,7 @@ type: game
 game_id: tps-spv-17-10-2025
 home_team: TPS
 away_team: SPV
-start_time: None
+start_time: 18:30
 attendance: 609.0
 game_status: Played
 result_string: 1-7

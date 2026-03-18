@@ -6,7 +6,7 @@ type: game
 game_id: hawks-oilers-22-2-2026
 home_team: Hawks
 away_team: Oilers
-start_time: None
+start_time: 17:00
 attendance: 201.0
 game_status: Played
 result_string: 6-11

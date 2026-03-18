@@ -6,7 +6,7 @@ type: game
 game_id: ols-indians-18-10-2025
 home_team: OLS
 away_team: Indians
-start_time: None
+start_time: 15:00
 attendance: 800.0
 game_status: Played
 result_string: 4-2

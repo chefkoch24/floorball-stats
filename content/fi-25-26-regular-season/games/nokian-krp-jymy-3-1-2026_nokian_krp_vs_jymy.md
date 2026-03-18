@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-jymy-3-1-2026
 home_team: Nokian KrP
 away_team: Jymy
-start_time: None
+start_time: 17:00
 attendance: 377.0
 game_status: Played
 result_string: 10-5

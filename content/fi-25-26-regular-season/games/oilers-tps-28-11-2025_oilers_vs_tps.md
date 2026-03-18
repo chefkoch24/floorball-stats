@@ -6,7 +6,7 @@ type: game
 game_id: oilers-tps-28-11-2025
 home_team: Oilers
 away_team: TPS
-start_time: None
+start_time: 18:30
 attendance: 519.0
 game_status: Played
 result_string: 12-5

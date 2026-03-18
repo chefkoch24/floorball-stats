@@ -6,7 +6,7 @@ type: game
 game_id: 868694
 home_team: FBC Turku
 away_team: Hawks
-start_time: None
+start_time: 18:30
 attendance: None
 game_status: Scheduled
 result_string: None

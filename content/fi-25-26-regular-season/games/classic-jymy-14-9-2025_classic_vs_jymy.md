@@ -6,7 +6,7 @@ type: game
 game_id: classic-jymy-14-9-2025
 home_team: Classic
 away_team: Jymy
-start_time: None
+start_time: 16:00
 attendance: 777.0
 game_status: Played
 result_string: 5-3

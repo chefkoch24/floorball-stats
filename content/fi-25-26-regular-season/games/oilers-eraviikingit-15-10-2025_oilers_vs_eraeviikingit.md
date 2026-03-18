@@ -6,7 +6,7 @@ type: game
 game_id: oilers-eraviikingit-15-10-2025
 home_team: Oilers
 away_team: EräViikingit
-start_time: None
+start_time: 14:00
 attendance: 684.0
 game_status: Played
 result_string: 6-5
