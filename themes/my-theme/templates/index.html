@@ -1,4 +1,22 @@
 {% extends "base.html" %}
+{% set seo_title = 'Floorball Stats for SSL, F-Liiga, L-UPL and More | ' ~ SITENAME %}
+{% set seo_description = 'Floorball Stats covers standings, team stats, league reports, match results, and game detail pages across top European floorball leagues.' %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = '' %}
+
+{% block structured_data %}
+{% if SITEURL %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ SITENAME }}",
+  "url": "{{ SITEURL }}/",
+  "description": "{{ seo_description }}"
+}
+</script>
+{% endif %}
+{% endblock %}
 
 {% block content %}
 <section class="hero">

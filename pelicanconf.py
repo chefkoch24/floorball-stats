@@ -155,6 +155,35 @@ def category2title(slug):
     slug = slug.split('-')
     return " ".join(slug)
 
+def category2breadcrumb(slug):
+    parts = slug.split('-')
+    country_map = {
+        'se': 'Sweden',
+        'sweden': 'Sweden',
+        'ch': 'Switzerland',
+        'switzerland': 'Switzerland',
+        'cz': 'Czech Republic',
+        'czech': 'Czech Republic',
+        'fi': 'Finland',
+        'finland': 'Finland',
+        'lv': 'Latvia',
+        'latvia': 'Latvia',
+        'sk': 'Slovakia',
+        'slovakia': 'Slovakia',
+    }
+
+    country = country_map.get(parts[0], 'Germany')
+    is_prefixed_country = parts[0] in country_map
+    season_parts = parts[1:3] if is_prefixed_country else parts[0:2]
+    phase_parts = parts[3:] if is_prefixed_country else parts[2:]
+    phase_label = " ".join([part.capitalize() for part in phase_parts]) if phase_parts else "Season"
+
+    if len(season_parts) == 2 and season_parts[0].isdigit() and season_parts[1].isdigit():
+        season = f"{season_parts[0]}/{season_parts[1]}"
+        return f"{country} {phase_label} {season}"
+
+    return country
+
 
 def sort_by_rank(articles):
     # Artikel mit rank Attribut
@@ -220,6 +249,7 @@ JINJA_FILTERS = {
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
     'category2title': category2title,
+    'category2breadcrumb': category2breadcrumb,
     'fmt2': fmt2,
     'fmt_int': fmt_int,
 } # reversed for descending order

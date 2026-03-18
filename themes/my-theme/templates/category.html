@@ -1,4 +1,43 @@
 {% extends "base.html" %}
+{% set category_label = category.shortname | category2string %}
+{% set breadcrumb_category_label = category.shortname | category2breadcrumb %}
+{% set seo_title = category_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
+{% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = category.url %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ breadcrumb_category_label }}</span>
+</nav>
+{% endblock %}
+
+{% block structured_data %}
+{% if SITEURL %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ SITEURL }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ breadcrumb_category_label }}",
+      "item": "{{ SITEURL }}/{{ category.url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}
 
 {% block content %}
 {% set ns = namespace(team_count=0, game_count=0, upcoming_count=0, top_team=None) %}
@@ -23,7 +62,7 @@
 <section class="hero">
     <div class="hero-top">
         <div>
-            <h1 class="hero-title">{{ category.shortname | category2string }}</h1>
+            <h1 class="hero-title">{{ category_label }}</h1>
             <p class="hero-subtitle">Season performance overview with direct access to team, league, and game data.</p>
         </div>
     </div>

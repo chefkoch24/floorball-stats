@@ -3,7 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ SITENAME }}</title>
+    <title>{{ seo_title|default(SITENAME) }}</title>
+    <meta name="description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European floorball leagues.') }}">
+    {% if SITEURL and seo_canonical_path is defined %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ seo_canonical_path }}">
+    <meta property="og:url" content="{{ SITEURL }}/{{ seo_canonical_path }}">
+    {% endif %}
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:type" content="{{ seo_type|default('website') }}">
+    <meta property="og:title" content="{{ seo_title|default(SITENAME) }}">
+    <meta property="og:description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European floorball leagues.') }}">
     <script>
     (function () {
         try {
@@ -158,6 +167,7 @@
 
 <main class="main-content">
     <div class="app-container">
+        {% block breadcrumbs %}{% endblock %}
         {% block content %}{% endblock %}
     </div>
 </main>
@@ -170,14 +180,16 @@
     </div>
 </footer>
 <script>
-!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister unregister_once alias identify set_config reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing startSessionRecording stopSessionRecording".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=(s.ui_host||s.api_host)+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister unregister_once alias identify set_config reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing startSessionRecording stopSessionRecording".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 var __phHost = window.location.hostname;
 var __phIsLocal = __phHost === 'localhost' || __phHost === '127.0.0.1' || __phHost === '::1';
 var __phEnabled = !__phIsLocal;
+var __phEndpoint = 'https://e.floorballconnect.com';
 
 if (__phEnabled) {
     posthog.init('phc_aH9HEcHF3KJyGFem9EtvjGtvZK9Agz37ZiVkOHwd8F3', {
-        api_host: 'https://eu.i.posthog.com',
+        api_host: __phEndpoint,
+        ui_host: __phEndpoint,
         defaults: '2026-01-30',
         autocapture: false,
         capture_pageview: true,
@@ -196,6 +208,7 @@ if (__phEnabled) {
     }
 })();
 </script>
+{% block structured_data %}{% endblock %}
 <script>
 const themeToggle = document.querySelector('.theme-toggle');
 const themeStorageKey = 'fs_theme';

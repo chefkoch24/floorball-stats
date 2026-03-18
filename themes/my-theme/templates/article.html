@@ -1,8 +1,127 @@
 {% extends "base.html" %}
 
-{% block content %}
-
 {% set article_type = article.type|default('') %}
+{% set current_category = article.categories[0].shortname if article.categories else '' %}
+{% set category_label = current_category|category2string if current_category else '' %}
+{% set breadcrumb_category_label = current_category|category2breadcrumb if current_category else '' %}
+
+{% if article_type == "game" or article|string_in_category_path('game') %}
+    {% set scoreline = (article.home_goals|default('–') ~ ':' ~ article.away_goals|default('–')) %}
+    {% set seo_title = article.home_team ~ ' vs ' ~ article.away_team ~ ' ' ~ scoreline ~ ' | ' ~ category_label ~ ' | ' ~ SITENAME %}
+    {% set seo_description = 'Match stats, scoring flow, penalties, special teams, and event timeline for ' ~ article.home_team ~ ' vs ' ~ article.away_team ~ ' in ' ~ category_label ~ '.' %}
+    {% set seo_type = 'article' %}
+{% elif article_type == "team" or article|string_in_category_path('teams') %}
+    {% set team_name = article.team|default(article.title) %}
+    {% set seo_title = team_name ~ ' Stats, Results and Special Teams | ' ~ category_label ~ ' | ' ~ SITENAME %}
+    {% set seo_description = 'Season stats, results, special teams, scoring profile, and recent games for ' ~ team_name ~ ' in ' ~ category_label ~ '.' %}
+    {% set seo_type = 'article' %}
+{% elif article|string_in_category_path('liga') %}
+    {% set seo_title = category_label ~ ' League Stats, Scoring and Special Teams | ' ~ SITENAME %}
+    {% set seo_description = 'League-wide scoring, special teams, and result trends for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+    {% set seo_type = 'article' %}
+{% else %}
+    {% set seo_title = article.title ~ ' | ' ~ SITENAME %}
+    {% set seo_description = article.summary|default('Floorball Stats article page.')|striptags %}
+    {% set seo_type = 'article' %}
+{% endif %}
+{% set seo_canonical_path = article.url %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    {% if breadcrumb_category_label %}
+    <span class="breadcrumbs-separator">/</span>
+    <a href="{{ SITEURL }}/{{ article.category.url }}">{{ breadcrumb_category_label }}</a>
+    {% endif %}
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">
+        {% if article_type == "game" or article|string_in_category_path('game') %}
+            {{ article.home_team }} vs {{ article.away_team }}
+        {% elif article_type == "team" or article|string_in_category_path('teams') %}
+            {{ article.team|default(article.title) }}
+        {% else %}
+            {{ article.title }}
+        {% endif %}
+    </span>
+</nav>
+{% endblock %}
+
+{% block structured_data %}
+{% if SITEURL %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ SITEURL }}/"
+    }{% if breadcrumb_category_label %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ breadcrumb_category_label }}",
+      "item": "{{ SITEURL }}/{{ article.category.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{% if article_type == "game" or article|string_in_category_path('game') %}{{ article.home_team }} vs {{ article.away_team }}{% elif article_type == "team" or article|string_in_category_path('teams') %}{{ article.team|default(article.title) }}{% else %}{{ article.title }}{% endif %}",
+      "item": "{{ SITEURL }}/{{ article.url }}"
+    }{% else %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ article.title }}",
+      "item": "{{ SITEURL }}/{{ article.url }}"
+    }{% endif %}
+  ]
+}
+</script>
+{% if article_type == "game" or article|string_in_category_path('game') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "{{ article.home_team }} vs {{ article.away_team }}",
+  "sport": "Floorball",
+  "url": "{{ SITEURL }}/{{ article.url }}",
+  "startDate": "{{ article.date.strftime('%Y-%m-%d') if article.date else '' }}",
+  "description": "{{ article.home_team }} vs {{ article.away_team }} in {{ category_label }} with full match stats, scoring flow, penalties, and event details.",
+  "competitor": [
+    {
+      "@type": "SportsTeam",
+      "name": "{{ article.home_team }}"
+    },
+    {
+      "@type": "SportsTeam",
+      "name": "{{ article.away_team }}"
+    }
+  ]
+}
+</script>
+{% elif article_type == "team" or article|string_in_category_path('teams') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsTeam",
+  "name": "{{ article.team|default(article.title) }}",
+  "sport": "Floorball",
+  "url": "{{ SITEURL }}/{{ article.url }}",
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "{{ category_label }}"
+  },
+  "description": "Season team profile for {{ article.team|default(article.title) }} with results, scoring, special teams, and game history."
+}
+</script>
+{% endif %}
+{% endif %}
+{% endblock %}
+
+{% block content %}
 
 {% if article_type == "game" or article|string_in_category_path('game') %}
     {% include "game.html" %}

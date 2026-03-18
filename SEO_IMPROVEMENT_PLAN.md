@@ -386,27 +386,27 @@ Suggested tracking buckets:
 
 ### Quick Wins
 
-- [ ] unique page titles
-- [ ] meta descriptions
-- [ ] canonical tags
-- [ ] production `SITEURL`
-- [ ] Open Graph tags
-- [ ] category intro copy
-- [ ] breadcrumbs
+- [x] unique page titles
+- [x] meta descriptions
+- [x] canonical tags
+- [x] production `SITEURL`
+- [x] Open Graph tags
+- [x] category intro copy
+- [x] breadcrumbs
 - [ ] language alignment
 
 ### Foundation
 
 - [ ] sitemap generation
 - [ ] `robots.txt`
-- [ ] breadcrumb structured data
+- [x] breadcrumb structured data
 
 ### Page Quality
 
-- [ ] game summary text
-- [ ] game structured data
-- [ ] team summary text
-- [ ] team structured data
+- [x] game summary text
+- [x] game structured data
+- [x] team summary text
+- [x] team structured data
 - [ ] league descriptive text
 - [ ] server-rendered homepage featured content
 
@@ -416,4 +416,3 @@ Suggested tracking buckets:
 - [ ] related entity links
 - [ ] comparison / head-to-head pages
 - [ ] player pages if data becomes available
-
