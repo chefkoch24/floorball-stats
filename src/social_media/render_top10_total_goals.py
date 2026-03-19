@@ -236,7 +236,9 @@ def render_frame(
 
         team_x = badge_box[2] + 12
         team_text = _fit_text(draw, row["team"], body_bold, max_width=300)
-        draw.text((team_x, top + 28), team_text, font=body_bold, fill=theme["text"])
+        tw, th = _text_size(draw, team_text, body_bold)
+        team_y = badge_y + (32 - th) / 2
+        draw.text((team_x, team_y), team_text, font=body_bold, fill=theme["text"])
 
         values = {
             "goals": str(row["goals"]),

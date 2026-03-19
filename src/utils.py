@@ -114,11 +114,16 @@ def flatten_team_stats(stats_dict, prefix):
     return flattened
 
 
-def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase: str):
+def _iter_stable_items(mapping: dict):
+    for key in sorted(mapping):
+        yield key, mapping[key]
+
+
+def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase: str, metadata_date: str | None = None):
     """Generiert Markdown mit geflatteten Team-Stats"""
     result = []
     category = "game"
-    result.append(f"Date: {game_data.get('date',datetime.now().strftime('%Y-%m-%d'))}")
+    result.append(f"Date: {game_data.get('date') or metadata_date or datetime.now().strftime('%Y-%m-%d')}")
     title = title.replace('_', ' ')
     result.append(f"Title: {title}")
     result.append(f"Category: {season}-{phase}, {category}")
@@ -131,7 +136,7 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     result.append(f"away_team: {game_data['away_team']}")
 
     excluded_keys = {"game_id", "date", "home_team", "away_team", "home_stats", "away_stats", "title", "slug", "category", "type"}
-    for key, value in game_data.items():
+    for key, value in _iter_stable_items(game_data):
         if key in excluded_keys:
             continue
         if isinstance(value, (str, int, float)) or value is None:
@@ -139,23 +144,29 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
 
     # Flat Home Stats
     home_stats = flatten_team_stats(game_data['home_stats'], 'home')
-    for key, value in home_stats.items():
+    for key, value in _iter_stable_items(home_stats):
         result.append(f"{key}: {value}")
 
     # Flat Away Stats
     away_stats = flatten_team_stats(game_data['away_stats'], 'away')
-    for key, value in away_stats.items():
+    for key, value in _iter_stable_items(away_stats):
         result.append(f"{key}: {value}")
 
     return '\n'.join(result)
 
 
 
-def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str):
+def dict_to_markdown_team_stats(
+    stats: dict,
+    team: str,
+    season: str,
+    phase: str,
+    metadata_date: str | None = None,
+):
     """Generiert Markdown mit geflatteten Team-Stats"""
     result = []
     category = "teams"
-    result.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}")
+    result.append(f"Date: {metadata_date or datetime.now().strftime('%Y-%m-%d')}")
     result.append(f"Title: {team}")
     result.append(f"Category: {season}-{phase}, {category}")
     slug = generate_slug(team, season, phase)
@@ -164,21 +175,27 @@ def dict_to_markdown_team_stats(stats: dict, team: str, season: str, phase: str)
     result.append(f"team:{team}")
     result.append("platzierungsverlauf:" + f"{season}-{phase}/teams/" + f"{slug}_platzierungsverlauf.png")
 
-    for key, value in stats.items():
+    for key, value in _iter_stable_items(stats):
         if key != 'points_against':
             result.append(f"{key}: {value}")
         else:
             markdown = f"Tags:"
-            for k, v in value.items():
+            for k, v in _iter_stable_items(value):
                 markdown += f"  {k}: {v},"
             result.append(markdown)
     return '\n'.join(result)
 
 
-def dict_to_markdown_league_stats(stats: dict, title: str, season: str, phase: str):
+def dict_to_markdown_league_stats(
+    stats: dict,
+    title: str,
+    season: str,
+    phase: str,
+    metadata_date: str | None = None,
+):
     result = []
     category = "liga"
-    result.append(f"Date: {datetime.now().strftime('%Y-%m-%d')}")
+    result.append(f"Date: {metadata_date or datetime.now().strftime('%Y-%m-%d')}")
     result.append(f"Title: {title}")
     result.append(f"Category: {season}-{phase}, {category}")
     slug = normalize_slug_fragment(f"{title}-{season}-{phase}")
@@ -186,6 +203,6 @@ def dict_to_markdown_league_stats(stats: dict, title: str, season: str, phase: s
     result.append(f"type: liga")
     result.append(f"team: {title}")
 
-    for key, value in stats.items():
+    for key, value in _iter_stable_items(stats):
         result.append(f"{key}: {value}")
     return '\n'.join(result)

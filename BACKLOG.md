@@ -11,6 +11,7 @@
 - [x] Integrate full game events to have one place to check scorers, ...
 - [x] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
 - [ ] Improve SEO
+- [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
 
 
 ## Ideas & User Feedback

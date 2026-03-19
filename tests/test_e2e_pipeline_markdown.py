@@ -211,7 +211,7 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
     _sample_events().to_csv(events_csv, index=False)
 
     run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
-    generate_markdown_files(
+    initial_counts = generate_markdown_files(
         game_stats_path=str(data_dir / "game_stats.json"),
         team_stats_path=str(data_dir / "team_stats_enhanced.json"),
         league_stats_path=str(data_dir / "league_averages.json"),
@@ -221,6 +221,7 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
         season="25-26",
         phase="regular-season",
     )
+    assert initial_counts == (1, 2, 1)
 
     game_file = next((content_dir / "25-26-regular-season" / "games").glob("*.md"))
     team_file = next((content_dir / "25-26-regular-season" / "teams").glob("*.md"))
@@ -233,7 +234,7 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
     )
     time.sleep(1.1)
 
-    generate_markdown_files(
+    second_counts = generate_markdown_files(
         game_stats_path=str(data_dir / "game_stats.json"),
         team_stats_path=str(data_dir / "team_stats_enhanced.json"),
         league_stats_path=str(data_dir / "league_averages.json"),
@@ -243,6 +244,7 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
         season="25-26",
         phase="regular-season",
     )
+    assert second_counts == (0, 0, 0)
 
     after = (
         game_file.stat().st_mtime_ns,

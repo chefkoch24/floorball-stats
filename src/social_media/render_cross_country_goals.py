@@ -15,7 +15,7 @@ VIDEO_FPS = 12
 VIDEO_STEP_REPEATS = 12
 VIDEO_FINAL_REPEATS = 24
 
-THEME = {
+DARK_THEME = {
     "bg": "#0b1220",
     "surface": "#121b2d",
     "surface_muted": "#1a2436",
@@ -25,6 +25,19 @@ THEME = {
     "brand": "#0071e2",
     "accent": "#7fc2ff",
 }
+
+LIGHT_THEME = {
+    "bg": "#f5f5f5",
+    "surface": "#ffffff",
+    "surface_muted": "#f0f0f0",
+    "text": "#0f1725",
+    "text_muted": "#475467",
+    "line": "#cbd5f5",
+    "brand": "#0071e2",
+    "accent": "#1d4ed8",
+}
+
+THEMES = {"light": LIGHT_THEME, "dark": DARK_THEME}
 
 COUNTRY_STYLES = {
     "GER": ("#f4efe2", "#8a6a18"),
@@ -124,8 +137,8 @@ def _league_entries() -> list[dict]:
     return rows
 
 
-def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
-    image = Image.new("RGB", (WIDTH, HEIGHT), THEME["bg"])
+def _render_frame(entries: list[dict], visible_ranks: set[int], theme: dict) -> Image.Image:
+    image = Image.new("RGB", (WIDTH, HEIGHT), theme["bg"])
     draw = ImageDraw.Draw(image)
 
     title_font = _font(58, bold=True)
@@ -136,9 +149,9 @@ def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
     small_font = _font(21)
 
     y = 72
-    draw.text((PADDING, y), "Regular Season Goal Trends", font=title_font, fill=THEME["brand"])
+    draw.text((PADDING, y), "Regular Season Goal Trends", font=title_font, fill=theme["brand"])
     y += 72
-    draw.text((PADDING, y), "Goals per game + period distribution by league", font=sub_font, fill=THEME["text_muted"])
+    draw.text((PADDING, y), "Goals per game + period distribution by league", font=sub_font, fill=theme["text_muted"])
     y += 58
 
     chips = ["Cross-country", "Regular Season", "All leagues"]
@@ -147,8 +160,8 @@ def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
     for chip in chips:
         w, h = _text_size(draw, chip, chip_font)
         box = (chip_x, y, chip_x + w + 30, y + h + 16)
-        _rounded(draw, box, 22, THEME["surface"], outline=THEME["line"])
-        draw.text((chip_x + 15, y + 8), chip, font=chip_font, fill=THEME["accent"])
+        _rounded(draw, box, 22, theme["surface"], outline=theme["line"])
+        draw.text((chip_x + 15, y + 8), chip, font=chip_font, fill=theme["accent"])
         chip_x = box[2] + 12
 
     y += 74
@@ -156,13 +169,13 @@ def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
     row_h = 104
     panel_h = 24 + header_h + row_h * len(entries) + 16
     panel = (PADDING, y, WIDTH - PADDING, y + panel_h)
-    _rounded(draw, panel, 24, THEME["surface"], outline=THEME["line"], width=2)
+    _rounded(draw, panel, 24, theme["surface"], outline=theme["line"], width=2)
     x1, y1, x2, _ = panel
     table_x1 = x1 + 28
     table_x2 = x2 - 28
     table_y1 = y1 + 24
     table_w = table_x2 - table_x1
-    _rounded(draw, (table_x1, table_y1, table_x2, table_y1 + header_h), 16, THEME["surface_muted"])
+    _rounded(draw, (table_x1, table_y1, table_x2, table_y1 + header_h), 16, theme["surface_muted"])
 
     cols = {
         "team": (0.00, 0.26),
@@ -184,13 +197,13 @@ def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
     for idx, row in enumerate(rank_sorted, start=1):
         top = table_y1 + header_h + (idx - 1) * row_h
         bottom = top + row_h
-        draw.line((table_x1, bottom, table_x2, bottom), fill=THEME["line"], width=2)
+        draw.line((table_x1, bottom, table_x2, bottom), fill=theme["line"], width=2)
 
         rank_box = (table_x1 + 8, top + 34, table_x1 + 44, top + 68)
-        _rounded(draw, rank_box, 17, THEME["surface_muted"])
+        _rounded(draw, rank_box, 17, theme["surface_muted"])
         rank_txt = str(row["rank"])
         rw, rh = _text_size(draw, rank_txt, small_font)
-        draw.text((rank_box[0] + 18 - rw / 2, rank_box[1] + 16 - rh / 2), rank_txt, font=small_font, fill=THEME["text_muted"])
+        draw.text((rank_box[0] + 18 - rw / 2, rank_box[1] + 16 - rh / 2), rank_txt, font=small_font, fill=theme["text_muted"])
 
         if row["rank"] not in visible_ranks:
             continue
@@ -203,18 +216,18 @@ def _render_frame(entries: list[dict], visible_ranks: set[int]) -> Image.Image:
         cw, ch = _text_size(draw, row["country"], small_font)
         draw.text((badge_x + 28 - cw / 2, badge_y + 16 - ch / 2), row["country"], font=small_font, fill=badge_text)
 
-        draw.text((badge_box[2] + 12, top + 34), row["team"], font=body_bold, fill=THEME["text"])
+        draw.text((badge_box[2] + 12, top + 34), row["team"], font=body_bold, fill=theme["text"])
 
         for key in ["gpg", "p1", "p2", "p3", "ot"]:
             _, end = cols[key]
             right = table_x1 + int(table_w * end) - 12
             value = f"{row[key]:.2f}" if key == "gpg" else f"{row[key]:.1f}"
             tw, _ = _text_size(draw, value, body_font)
-            draw.text((right - tw, top + 34), value, font=body_font, fill=THEME["accent"] if key in {"gpg", "p3"} else THEME["text"])
+            draw.text((right - tw, top + 34), value, font=body_font, fill=theme["accent"] if key in {"gpg", "p3"} else theme["text"])
 
     handle = "@floorballconnect"
     hw, hh = _text_size(draw, handle, _font(22, bold=True))
-    draw.text((WIDTH - PADDING - hw, HEIGHT - 44 - hh), handle, font=_font(22, bold=True), fill=THEME["text_muted"])
+    draw.text((WIDTH - PADDING - hw, HEIGHT - 44 - hh), handle, font=_font(22, bold=True), fill=theme["text_muted"])
     return image
 
 
@@ -241,22 +254,23 @@ def _encode_frames_to_mp4(frame_dir: Path, output_path: Path) -> None:
     subprocess.run(command, check=True)
 
 
-def render_goals_table_video(output_path: Path) -> None:
+def render_goals_table_video(output_path: Path, theme_name: str = "dark") -> None:
     entries = _league_entries()
     if not entries:
         raise RuntimeError("No league data found")
     max_rank = max(e["rank"] for e in entries)
+    theme = THEMES.get(theme_name, DARK_THEME)
     with tempfile.TemporaryDirectory(prefix="social-goals-video-") as tmp_dir:
         frame_dir = Path(tmp_dir)
         frame_index = 1
         for start_rank in range(max_rank, 0, -1):
             visible = set(range(start_rank, max_rank + 1))
-            frame = _render_frame(entries, visible)
+            frame = _render_frame(entries, visible, theme)
             repeats = VIDEO_STEP_REPEATS if start_rank > 1 else VIDEO_FINAL_REPEATS
             for _ in range(repeats):
                 frame.save(frame_dir / f"frame-{frame_index:03d}.png")
                 frame_index += 1
-        final_frame = _render_frame(entries, set(range(1, max_rank + 1)))
+        final_frame = _render_frame(entries, set(range(1, max_rank + 1)), theme)
         for _ in range(VIDEO_FINAL_REPEATS):
             final_frame.save(frame_dir / f"frame-{frame_index:03d}.png")
             frame_index += 1
@@ -269,12 +283,13 @@ def parse_args() -> argparse.Namespace:
         "--output-path",
         default="output/social/top7-goals-regular-season-cross-country-1080x1920.mp4",
     )
+    parser.add_argument("--theme", choices=list(THEMES.keys()), default="light")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    render_goals_table_video(Path(args.output_path))
+    render_goals_table_video(Path(args.output_path), args.theme)
     print(f"Created: {args.output_path}")
 
 
