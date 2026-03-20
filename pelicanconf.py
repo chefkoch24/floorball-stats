@@ -1,4 +1,5 @@
 from pelican.plugins import more_categories, jinja_filters
+from datetime import datetime, time
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
@@ -244,6 +245,22 @@ def fmt_int(value, default='n.a.'):
             return value
     return value
 
+def fmt_time(value, default='TBD'):
+    if value is None or value == '' or value == 'None':
+        return default
+    if isinstance(value, time):
+        return value.strftime('%H:%M')
+    if isinstance(value, datetime):
+        return value.strftime('%H:%M')
+    if isinstance(value, str):
+        cleaned = value.strip()
+        if not cleaned:
+            return default
+        if len(cleaned) >= 5 and cleaned[2] == ':' and cleaned[:2].isdigit() and cleaned[3:5].isdigit():
+            return cleaned[:5]
+        return cleaned
+    return value
+
 def finalize_rendered_value(value):
     if isinstance(value, bool):
         return value
@@ -267,6 +284,7 @@ JINJA_FILTERS = {
     'category2breadcrumb': category2breadcrumb,
     'fmt2': fmt2,
     'fmt_int': fmt_int,
+    'fmt_time': fmt_time,
 } # reversed for descending order
 
 JINJA_ENVIRONMENT = {

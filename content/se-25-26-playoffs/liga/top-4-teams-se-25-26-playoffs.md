@@ -1,9 +1,9 @@
 Date: 2026-04-03
-Title: Playoffs
+Title: Top 4 Teams
 Category: se-25-26-playoffs, liga
-Slug: playoffs-se-25-26-playoffs
+Slug: top-4-teams-se-25-26-playoffs
 type: liga
-team: Playoffs
+team: Top 4 Teams
 away_points: 0.75
 boxplay: 1.0
 boxplay_efficiency: 83.33

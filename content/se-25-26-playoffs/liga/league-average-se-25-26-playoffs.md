@@ -1,9 +1,9 @@
 Date: 2026-04-03
-Title: Playoffs
+Title: League Average
 Category: se-25-26-playoffs, liga
-Slug: playoffs-se-25-26-playoffs
+Slug: league-average-se-25-26-playoffs
 type: liga
-team: Playoffs
+team: League Average
 away_points: 0.75
 boxplay: 1.0
 boxplay_efficiency: 83.33

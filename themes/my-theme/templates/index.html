@@ -39,7 +39,7 @@
             {% if (article_type == "game" or article|string_in_category_path('game')) and '25-26' in category_short and article.date %}
                 <article
                     data-date="{{ article.date.strftime('%Y-%m-%d') }}"
-                    data-time="{{ article.start_time|default('TBD') }}"
+                    data-time="{{ article.start_time|fmt_time('TBD') }}"
                     data-home="{{ article.home_team|default('n.a.')|e }}"
                     data-away="{{ article.away_team|default('n.a.')|e }}"
                     data-league="{{ category_short|category2string|e }}"

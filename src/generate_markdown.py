@@ -15,6 +15,32 @@ def _write_if_changed(path: Path, content: str) -> bool:
     return True
 
 
+def _extract_slug(content: str) -> str | None:
+    for line in content.splitlines():
+        if line.startswith("Slug:"):
+            value = line.split(":", 1)[1].strip()
+            return value or None
+    return None
+
+
+def _remove_slug_aliases(directory: Path, canonical_path: Path, slug: str | None) -> int:
+    if not slug:
+        return 0
+    removed = 0
+    for candidate in directory.glob("*.md"):
+        if candidate == canonical_path:
+            continue
+        try:
+            candidate_content = candidate.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        if _extract_slug(candidate_content) != slug:
+            continue
+        candidate.unlink()
+        removed += 1
+    return removed
+
+
 def _resolve_metadata_date(game_stats: list[dict]) -> str:
     valid_dates = []
     for game in game_stats:
@@ -59,7 +85,9 @@ def generate_markdown_files(
     for gs in game_stats:
         title = normalize_slug_fragment(f"{gs['game_id']} {gs['home_team']} vs {gs['away_team']}")
         md = dict_to_markdown_game_stats(gs, title, season, phase, metadata_date=metadata_date)
-        if _write_if_changed(games_out / f"{title}.md", md):
+        target_path = games_out / f"{title}.md"
+        _remove_slug_aliases(games_out, target_path, _extract_slug(md))
+        if _write_if_changed(target_path, md):
             games_written += 1
 
     with open(team_stats_path, "r", encoding="utf-8") as f:
@@ -69,7 +97,9 @@ def generate_markdown_files(
     for team, stats in team_stats.items():
         title = normalize_slug_fragment(f"{team}-{season}-{phase}")
         md = dict_to_markdown_team_stats(stats, team, season, phase, metadata_date=metadata_date)
-        if _write_if_changed(teams_out / f"{title}.md", md):
+        target_path = teams_out / f"{title}.md"
+        _remove_slug_aliases(teams_out, target_path, _extract_slug(md))
+        if _write_if_changed(target_path, md):
             teams_written += 1
 
     with open(league_stats_path, "r", encoding="utf-8") as f:
@@ -79,7 +109,9 @@ def generate_markdown_files(
     league_title = "League Average"
     league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase, metadata_date=metadata_date)
     league_slug = normalize_slug_fragment(f"{league_title}-{season}-{phase}")
-    if _write_if_changed(liga_out / f"{league_slug}.md", league_md):
+    league_target_path = liga_out / f"{league_slug}.md"
+    _remove_slug_aliases(liga_out, league_target_path, _extract_slug(league_md))
+    if _write_if_changed(league_target_path, league_md):
         league_written += 1
 
     def _write_extra(path: str | None, title: str) -> None:
@@ -93,7 +125,9 @@ def generate_markdown_files(
             extra_stats = json.load(f)
         extra_md = dict_to_markdown_league_stats(extra_stats, title, season, phase, metadata_date=metadata_date)
         extra_slug = normalize_slug_fragment(f"{title}-{season}-{phase}")
-        if _write_if_changed(liga_out / f"{extra_slug}.md", extra_md):
+        target_path = liga_out / f"{extra_slug}.md"
+        _remove_slug_aliases(liga_out, target_path, _extract_slug(extra_md))
+        if _write_if_changed(target_path, extra_md):
             league_written += 1
 
     _write_extra(playoff_averages_path, "Playoffs")

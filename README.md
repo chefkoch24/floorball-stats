@@ -34,6 +34,13 @@ Make target:
 make refresh-sweden SWEDEN_COMPETITION_ID=40693 SWEDEN_SEASON=se-25-26 PHASE=regular-season
 ```
 
+Playoffs / smart refresh:
+
+```bash
+make refresh-sweden-playoffs
+make refresh-sweden-smart
+```
+
 ## Slovakia (SZFB backend)
 
 Pipeline entrypoint with Slovakia backend:

@@ -254,6 +254,50 @@ def test_generate_markdown_does_not_touch_unchanged_files(tmp_path: Path):
     assert after == before
 
 
+def test_generate_markdown_removes_slug_alias_files(tmp_path: Path):
+    data_dir = tmp_path / "data"
+    content_dir = tmp_path / "content"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    events_csv = data_dir / "events.csv"
+    _sample_events().to_csv(events_csv, index=False)
+    run_stats_pipeline(input_csv_path=str(events_csv), output_dir=str(data_dir))
+
+    liga_dir = content_dir / "25-26-regular-season" / "liga"
+    liga_dir.mkdir(parents=True, exist_ok=True)
+    stale_alias = liga_dir / "top_4_teams-25-26-regular-season.md"
+    stale_alias.write_text(
+        "\n".join(
+            [
+                "Date: 2025-09-13",
+                "Title: Top 4 Teams",
+                "Category: 25-26-regular-season, liga",
+                "Slug: top-4-teams-25-26-regular-season",
+                "type: liga",
+                "team: Top 4 Teams",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    _, _, league_written = generate_markdown_files(
+        game_stats_path=str(data_dir / "game_stats.json"),
+        team_stats_path=str(data_dir / "team_stats_enhanced.json"),
+        league_stats_path=str(data_dir / "league_averages.json"),
+        playoff_averages_path=str(data_dir / "playoff_averages.json"),
+        top4_averages_path=str(data_dir / "top4_averages.json"),
+        output_games_dir=str(content_dir / "25-26-regular-season" / "games"),
+        output_teams_dir=str(content_dir / "25-26-regular-season" / "teams"),
+        output_liga_dir=str(liga_dir),
+        season="25-26",
+        phase="regular-season",
+    )
+
+    assert league_written == 3
+    assert not stale_alias.exists()
+    assert (liga_dir / "top-4-teams-25-26-regular-season.md").exists()
+
+
 def test_run_stats_includes_upcoming_games_without_counting_them_in_team_stats(tmp_path: Path):
     data_dir = tmp_path / "data"
     data_dir.mkdir(parents=True, exist_ok=True)

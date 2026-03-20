@@ -315,7 +315,7 @@
             <tr>
                 <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
                 <td>{{ game.home_team }} vs {{ game.away_team }}</td>
-                <td>{{ game.start_time|default('TBD') }}</td>
+                <td>{{ game.start_time|fmt_time('TBD') }}</td>
                 <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
             </tr>
             {% endif %}
