@@ -16,7 +16,7 @@ away_penalty_minutes_csv:
 game_events_b64: 
 game_events_count: 0
 game_state: scheduled
-game_status: Scheduled
+game_status: pregame
 home_goal_diffs_csv: 
 home_goal_minutes_csv: 
 home_major_penalty_minutes_csv: 

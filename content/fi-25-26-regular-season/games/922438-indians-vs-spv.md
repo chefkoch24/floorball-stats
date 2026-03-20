@@ -1,11 +1,11 @@
-Date: 2026-03-22
-Title: 131944-1-fbc-trencin-vs-tsunami-zahorska-bystrica
-Category: sk-25-26-playoffs, game
-Slug: 131944-1-fbc-trencin-vs-tsunami-zahorska-bystrica
+Date: 2026-03-31
+Title: 922438-indians-vs-spv
+Category: fi-25-26-regular-season, game
+Slug: 922438-indians-vs-spv
 type: game
-game_id: 131944
-home_team: 1. FBC Trenčín
-away_team: Tsunami Záhorská Bystrica
+game_id: 922438
+home_team: Indians
+away_team: SPV
 attendance: None
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
@@ -25,7 +25,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: None
 result_string: None
-start_time: 16:00
+start_time: 18:30
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
