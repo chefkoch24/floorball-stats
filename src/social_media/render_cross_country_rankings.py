@@ -3,6 +3,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+from datetime import datetime
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -100,6 +101,15 @@ def _country_from_category(category: str) -> str:
     return "DE"
 
 
+def _parse_metadata_date(raw: str | None) -> datetime:
+    if not raw:
+        return datetime.min
+    try:
+        return datetime.strptime(raw.strip(), "%Y-%m-%d")
+    except ValueError:
+        return datetime.min
+
+
 def _metric_config(metric: str) -> dict:
     if metric == "pp":
         return {
@@ -124,21 +134,19 @@ def _metric_config(metric: str) -> dict:
             "labels": [("efficiency", "PK%"), ("opportunities", "BP"), ("goals", "GA BP")],
         }
     return {
-        "title": "Top 10 Penalties",
+        "title": "Top 10 Penalty Minutes",
         "columns": {
             "team": (0.00, 0.46),
             "penalty_2": (0.46, 0.58),
             "penalty_2and2": (0.58, 0.70),
             "penalty_10": (0.70, 0.80),
-            "penalty_ms": (0.80, 0.90),
-            "penalties": (0.90, 1.00),
+            "penalty_ms": (0.80, 1.00),
         },
         "labels": [
             ("penalty_2", "2'"),
             ("penalty_2and2", "2+2'"),
             ("penalty_10", "10'"),
             ("penalty_ms", "MS"),
-            ("penalties", "Tot"),
         ],
     }
 
@@ -149,6 +157,7 @@ def load_entries(metric: str) -> list[dict]:
         text = path.read_text(encoding="utf-8")
         category_match = re.search(r"^Category:\s*([^,]+)", text, re.M)
         team_match = re.search(r"^team:(.+)$", text, re.M)
+        date_match = re.search(r"^Date:\s*(.+)$", text, re.M)
         if metric == "pp":
             eff_match = re.search(r"^powerplay_efficiency:\s*(.+)$", text, re.M)
             opp_match = re.search(r"^powerplay:\s*(.+)$", text, re.M)
@@ -169,11 +178,11 @@ def load_entries(metric: str) -> list[dict]:
                 {
                     "country": _country_from_category(category_match.group(1).strip()),
                     "team": team_match.group(1).strip(),
+                    "metadata_date": _parse_metadata_date(date_match.group(1).strip() if date_match else None),
                     "penalty_2": int(float(p2.group(1).strip())),
                     "penalty_2and2": int(float(p22.group(1).strip())),
                     "penalty_10": int(float(p10.group(1).strip())),
                     "penalty_ms": int(float(pms.group(1).strip())),
-                    "penalties": int(float(total.group(1).strip())),
                 }
             )
             continue
@@ -186,18 +195,27 @@ def load_entries(metric: str) -> list[dict]:
             {
                 "country": _country_from_category(category_match.group(1).strip()),
                 "team": team_match.group(1).strip(),
+                "metadata_date": _parse_metadata_date(date_match.group(1).strip() if date_match else None),
                 "efficiency": float(raw_eff),
                 "opportunities": int(float(opp_match.group(1).strip())),
                 "goals": int(float(goals_match.group(1).strip())),
             }
         )
+    deduped_entries: dict[tuple[str, str], dict] = {}
+    for row in entries:
+        key = (row["country"], row["team"].strip().lower())
+        existing = deduped_entries.get(key)
+        if existing is None or row["metadata_date"] >= existing["metadata_date"]:
+            deduped_entries[key] = row
+    entries = list(deduped_entries.values())
     if metric in {"pp", "pk"}:
         entries.sort(key=lambda row: (-row["efficiency"], -row["opportunities"], row["team"].lower()))
     else:
         entries.sort(
             key=lambda row: (
                 -row["penalty_2"],
-                -row["penalties"],
+                -row["penalty_2and2"],
+                -row["penalty_10"],
                 -row["penalty_ms"],
                 row["team"].lower(),
             )
@@ -205,6 +223,7 @@ def load_entries(metric: str) -> list[dict]:
     top_entries = entries[:10]
     for idx, row in enumerate(top_entries, start=1):
         row["rank"] = idx
+        row.pop("metadata_date", None)
     return top_entries
 
 
@@ -311,7 +330,6 @@ def render_image(entries: list[dict], metric: str, theme_name: str, *, width: in
                 ("penalty_2and2", str(row["penalty_2and2"]), theme["text"], body_font),
                 ("penalty_10", str(row["penalty_10"]), theme["text"], body_font),
                 ("penalty_ms", str(row["penalty_ms"]), theme["text"], body_font),
-                ("penalties", str(row["penalties"]), theme["text"], body_font),
             ]
 
         for key, text_value, color, font in value_specs:
@@ -434,7 +452,6 @@ def render_image_rank_slots(
                 ("penalty_2and2", str(row["penalty_2and2"]), theme["text"], body_font),
                 ("penalty_10", str(row["penalty_10"]), theme["text"], body_font),
                 ("penalty_ms", str(row["penalty_ms"]), theme["text"], body_font),
-                ("penalties", str(row["penalties"]), theme["text"], body_font),
             ]
 
         for key, text_value, color, font in value_specs:
@@ -619,7 +636,7 @@ def render_mp4_fixed_slots(entries: list[dict], output_path: str, metric: str, t
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-path", required=True)
-    parser.add_argument("--metric", choices=["pp", "pk"], default="pp")
+    parser.add_argument("--metric", choices=["pp", "pk", "penalties"], default="pp")
     parser.add_argument("--theme", choices=["light", "dark"], default="light")
     args = parser.parse_args()
     render(load_entries(args.metric), args.output_path, args.metric, args.theme)

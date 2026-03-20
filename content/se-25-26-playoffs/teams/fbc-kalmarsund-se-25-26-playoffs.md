@@ -1,19 +1,19 @@
 Date: 2026-04-03
-Title: Nykvarns IBF
+Title: FBC Kalmarsund
 Category: se-25-26-playoffs, teams
-Slug: nykvarns-ibf-se-25-26-playoffs-se-25-26-playoffs
+Slug: fbc-kalmarsund-se-25-26-playoffs-se-25-26-playoffs
 type: team
-team:Nykvarns IBF
-platzierungsverlauf:se-25-26-playoffs/teams/nykvarns-ibf-se-25-26-playoffs_platzierungsverlauf.png
+team:FBC Kalmarsund
+platzierungsverlauf:se-25-26-playoffs/teams/fbc-kalmarsund-se-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
 boxplay: 1
 boxplay_efficiency: 100.0
-boxplay_first_period: 1
+boxplay_first_period: 0
 boxplay_overtime: 0
 boxplay_per_game: 1.0
 boxplay_second_period: 0
-boxplay_third_period: 0
-close_game_loss: 0
+boxplay_third_period: 1
+close_game_loss: 1
 close_game_overtime: 0
 close_game_win: 0
 draws: 0
@@ -22,30 +22,30 @@ equalizer_goals_against: 0
 first_goal_of_match: 0
 first_goal_of_match_against: 1
 games: 1
-goal_difference: -5
-goal_difference_per_game: -5.0
-goals: 3
-goals_against: 8
-goals_against_away: 8
+goal_difference: -2
+goal_difference_per_game: -2.0
+goals: 4
+goals_against: 6
+goals_against_away: 6
 goals_against_home: 0
 goals_against_in_boxplay: 0
 goals_against_in_powerplay: 1
-goals_against_per_game: 8.0
-goals_away: 3
+goals_against_per_game: 6.0
+goals_away: 4
 goals_home: 0
 goals_in_boxplay: 0
 goals_in_first_period: 0
-goals_in_first_period_against: 1
+goals_in_first_period_against: 3
 goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
 goals_in_powerplay: 1
-goals_in_second_period: 0
-goals_in_second_period_against: 4
+goals_in_second_period: 1
+goals_in_second_period_against: 1
 goals_in_third_period: 3
 goals_in_third_period_against: 2
-goals_per_game: 3.0
+goals_per_game: 4.0
 home_points: 0
 loss_1: 0
 losses: 1
@@ -55,23 +55,23 @@ penalties: 3
 penalty_10: 0
 penalty_2: 3
 penalty_2and2: 0
-penalty_first_period: 2
+penalty_first_period: 0
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 1
 penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
-penalty_shot_goals_against: 1
-penalty_third_period: 0
+penalty_shot_goals_against: 0
+penalty_third_period: 2
 percent_goals_first_period: 0.0
-percent_goals_first_period_against: 12.5
+percent_goals_first_period_against: 50.0
 percent_goals_overtime: 0.0
 percent_goals_overtime_against: 0.0
-percent_goals_second_period: 0.0
-percent_goals_second_period_against: 50.0
-percent_goals_third_period: 100.0
-percent_goals_third_period_against: 25.0
+percent_goals_second_period: 25.0
+percent_goals_second_period_against: 16.669999999999998
+percent_goals_third_period: 75.0
+percent_goals_third_period_against: 33.33
 points: 0
 points_after_55_min: 0
 points_after_58_min: 0
@@ -79,7 +79,7 @@ points_after_59_min: 0
 points_after_first_period: 0
 points_after_second_period: 0
 points_after_third_period: 0
-Tags:  Storvreta IBK: 0,
+Tags:  Växjö IBK: 0,
 points_max_difference_2: 0
 points_more_2_difference: 0
 points_per_game: 0.0
@@ -90,8 +90,8 @@ powerplay_overtime: 0
 powerplay_per_game: 2.0
 powerplay_second_period: 1
 powerplay_third_period: 1
-rank: 8
-scoring_ratio: 0.38
+rank: 6
+scoring_ratio: 0.67
 take_the_lead_goals: 0
 take_the_lead_goals_against: 1
 win_1: 0
