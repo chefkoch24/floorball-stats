@@ -10,7 +10,7 @@ from src.social_media.tables import write_home_away_split_table
 from src.scheduled_games import EVENT_SCHEDULED
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
-from src.utils import add_points, add_penalties, is_powerplay, is_boxplay, safe_div
+from src.utils import add_penalties, is_powerplay, is_boxplay, safe_div
 
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
@@ -103,6 +103,16 @@ def _parse_result_string_score(result_string: object) -> tuple[int, int] | None:
     if match.isna().any():
         return None
     return int(match[0]), int(match[1])
+
+
+def _result_string_indicates_extra_time(result_string: object) -> bool:
+    text = str(result_string or "").lower()
+    if not text:
+        return False
+    return any(
+        marker in text
+        for marker in ("n.p", "penalty", "n.v", "overtime", "ot", "extratime")
+    )
 
 
 def _powerplay_efficiency(goals_in_powerplay: object, powerplay: object) -> float | str:
@@ -489,12 +499,23 @@ def _is_extra_time_period(period: int, ingame_status: str | None = None) -> bool
     return status in {"extratime", "penalty_shots"}
 
 
-def _points_from_final_score(team_goals: int, opp_goals: int, period: int, ingame_status: str | None = None) -> int:
+def _is_extra_time_decision(period: int, ingame_status: str | None = None, result_string: object = None) -> bool:
+    return _is_extra_time_period(period, ingame_status) or _result_string_indicates_extra_time(result_string)
+
+
+def _points_from_final_score(
+    team_goals: int,
+    opp_goals: int,
+    period: int,
+    ingame_status: str | None = None,
+    result_string: object = None,
+) -> int:
+    decided_in_extra_time = _is_extra_time_decision(period, ingame_status, result_string)
     if team_goals > opp_goals:
-        return 2 if _is_extra_time_period(period, ingame_status) else 3
+        return 2 if decided_in_extra_time else 3
     if team_goals == opp_goals:
         return 1
-    return 1 if _is_extra_time_period(period, ingame_status) else 0
+    return 1 if decided_in_extra_time else 0
 
 
 def stat_goals(events: pd.DataFrame, team: str):
@@ -518,7 +539,7 @@ def _final_score_for_team(last_goal: pd.Series, team: str):
 
     period = last_goal['period']
     ingame_status = last_goal.get('ingame_status')
-    if team_goals == opp_goals and _is_extra_time_period(period, ingame_status):
+    if team_goals == opp_goals and _is_extra_time_decision(period, ingame_status, last_goal.get('result_string')):
         parsed = _parse_result_string_score(last_goal.get('result_string'))
         if parsed is not None:
             home_final, away_final = parsed
@@ -537,17 +558,14 @@ def _sort_events_chronologically(events: pd.DataFrame) -> pd.DataFrame:
         ordered["_minute_sort"] = ordered["sortkey"].apply(_parse_sortkey_to_minute)
     else:
         ordered["_minute_sort"] = 0.0
-    if "time_in_s" in ordered.columns:
-        time_values = pd.to_numeric(ordered["time_in_s"], errors="coerce")
-        ordered["_time_sort"] = time_values.where(time_values.notna(), ordered["_minute_sort"] * 60.0)
-    else:
-        ordered["_time_sort"] = ordered["_minute_sort"] * 60.0
     if "period" in ordered.columns:
         ordered["_period_sort"] = pd.to_numeric(ordered["period"], errors="coerce").fillna(0).astype(int)
     else:
         ordered["_period_sort"] = 0
-    ordered = ordered.sort_values(by=["_time_sort", "_period_sort", "sortkey"] if "sortkey" in ordered.columns else ["_time_sort", "_period_sort"])
-    return ordered.drop(columns=["_minute_sort", "_time_sort", "_period_sort"], errors="ignore")
+    ordered = ordered.sort_values(
+        by=["_minute_sort", "_period_sort", "sortkey"] if "sortkey" in ordered.columns else ["_minute_sort", "_period_sort"]
+    )
+    return ordered.drop(columns=["_minute_sort", "_period_sort"], errors="ignore")
 
 
 def _last_goal_event(events: pd.DataFrame) -> pd.Series | None:
@@ -632,7 +650,13 @@ def stat_points(events: pd.DataFrame, team: str):
     last_goal = _last_goal_event(events)
     if last_goal is not None:
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-        points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+        points += _points_from_final_score(
+            team_goals,
+            opp_goals,
+            period,
+            last_goal.get('ingame_status'),
+            last_goal.get('result_string'),
+        )
     return points
 
 def stat_goal_difference(events: pd.DataFrame, team: str):
@@ -645,7 +669,13 @@ def stat_points_max_difference(events: pd.DataFrame, team: str, num_goals: int =
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
         diff = abs(team_goals - opp_goals)
         if diff <= num_goals:
-            points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+            points += _points_from_final_score(
+                team_goals,
+                opp_goals,
+                period,
+                last_goal.get('ingame_status'),
+                last_goal.get('result_string'),
+            )
     return points
 
 def stat_goals_in_first_period(events: pd.DataFrame, team: str):
@@ -906,7 +936,13 @@ def _stat_points_after_minute(events: pd.DataFrame, team: str, minute: int):
     if not period_events.empty:
         last_goal = _sort_events_chronologically(period_events).iloc[-1]
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-        points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+        points += _points_from_final_score(
+            team_goals,
+            opp_goals,
+            period,
+            last_goal.get('ingame_status'),
+            last_goal.get('result_string'),
+        )
     return points
 
 def stat_win_1(events: pd.DataFrame, team: str):
@@ -940,7 +976,13 @@ def stat_points_more_2_difference(events: pd.DataFrame, team: str):
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
         diff = abs(team_goals - opp_goals)
         if diff > 2:
-            points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+            points += _points_from_final_score(
+                team_goals,
+                opp_goals,
+                period,
+                last_goal.get('ingame_status'),
+                last_goal.get('result_string'),
+            )
     return points
 
 def stat_close_game_win(events: pd.DataFrame, team: str):
@@ -1133,7 +1175,13 @@ def stat_home_points(events: pd.DataFrame, team: str):
     last_goal = _last_goal_event(events)
     if last_goal is not None and last_goal['home_team_name'] == team:
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-        points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+        points += _points_from_final_score(
+            team_goals,
+            opp_goals,
+            period,
+            last_goal.get('ingame_status'),
+            last_goal.get('result_string'),
+        )
     return points
 
 def stat_away_points(events: pd.DataFrame, team: str):
@@ -1142,7 +1190,13 @@ def stat_away_points(events: pd.DataFrame, team: str):
         last_goal = _last_goal_event(game_df)
         if last_goal is not None and last_goal['away_team_name'] == team:
             team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-            points += _points_from_final_score(team_goals, opp_goals, period, last_goal.get('ingame_status'))
+            points += _points_from_final_score(
+                team_goals,
+                opp_goals,
+                period,
+                last_goal.get('ingame_status'),
+                last_goal.get('result_string'),
+            )
     return points
 
 
@@ -1154,7 +1208,14 @@ def stat_points_against(events: pd.DataFrame, team: str):
     last_goal = _last_goal_event(events)
     if last_goal is not None:
         opponent = last_goal['away_team_name'] if last_goal['home_team_name'] == team else last_goal['home_team_name']
-        points = add_points(team, last_goal)[0]
+        team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
+        points = _points_from_final_score(
+            team_goals,
+            opp_goals,
+            period,
+            last_goal.get('ingame_status'),
+            last_goal.get('result_string'),
+        )
         points_against[str(opponent)] += points
     return points_against
 

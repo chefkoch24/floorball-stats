@@ -310,6 +310,19 @@ def test_stats_use_chronological_last_goal_when_events_are_reverse_ordered():
     assert stat_wins(events, "Away") == 1
 
 
+def test_stat_points_prefers_shootout_marker_over_czech_absolute_third_period_clock():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-54:22", 3, "Home", "Away", 5, 5, "Away"),
+            _goal_event(1, "5-00:00", 5, "Home", "Away", 6, 5, "Home"),
+        ]
+    )
+
+    assert stat_points(events, "Home") == 2
+    assert stat_points(events, "Away") == 1
+    assert stat_points_against(events, "Home")["Away"] == 2
+
+
 def test_powerplay_efficiency_is_capped_to_100_and_min_0():
     assert _powerplay_efficiency(2, 1) == 100.0
     assert _powerplay_efficiency(1, 2) == 50.0

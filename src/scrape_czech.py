@@ -102,6 +102,21 @@ def _is_playoff_round(round_name: str | None) -> bool:
     return any(marker in normalized for marker in playoff_markers)
 
 
+def _is_playout_round(round_name: str | None) -> bool:
+    if not round_name:
+        return False
+    normalized = round_name.lower()
+    playout_markers = (
+        "play-down",
+        "play down",
+        "playdown",
+        "play-out",
+        "play out",
+        "playout",
+    )
+    return any(marker in normalized for marker in playout_markers)
+
+
 def fetch_match_list(
     schedule_url: str,
     season_start_year: int,
@@ -471,6 +486,8 @@ def scrape_competition(
 
     rows: list[dict[str, Any]] = []
     for match in tqdm(all_matches, desc="matches"):
+        if _is_playout_round(match.round_name):
+            continue
         if phase == "playoffs" and not _is_playoff_round(match.round_name):
             continue
         if phase == "regular-season" and _is_playoff_round(match.round_name):

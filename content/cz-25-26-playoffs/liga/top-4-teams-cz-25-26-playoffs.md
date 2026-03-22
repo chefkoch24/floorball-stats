@@ -1,9 +1,9 @@
 Date: 2026-03-17
-Title: Playoffs
+Title: Top 4 Teams
 Category: cz-25-26-playoffs, liga
-Slug: playoffs-cz-25-26-playoffs
+Slug: top-4-teams-cz-25-26-playoffs
 type: liga
-team: Playoffs
+team: Top 4 Teams
 away_points: 0.75
 boxplay: 0.75
 boxplay_efficiency: 75.0
