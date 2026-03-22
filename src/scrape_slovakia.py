@@ -3,6 +3,7 @@ import re
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
+import time
 from typing import Any
 from urllib.parse import urljoin
 
@@ -162,9 +163,26 @@ def _extract_attendance(soup: BeautifulSoup) -> int | None:
     return None
 
 
+def _is_placeholder_team_name(name: Any) -> bool:
+    text = str(name or "").strip().upper()
+    return bool(re.fullmatch(r"[A-D]{3}", text))
+
+
 def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dict[str, Any]]:
-    response = session.get(match.match_url, timeout=30)
-    response.raise_for_status()
+    last_error: Exception | None = None
+    response = None
+    for attempt in range(3):
+        try:
+            response = session.get(match.match_url, timeout=30)
+            response.raise_for_status()
+            break
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt == 2:
+                raise
+            time.sleep(1.0 + attempt)
+    if response is None:
+        raise RuntimeError(f"Could not fetch match URL: {match.match_url}") from last_error
     soup = BeautifulSoup(response.text, "html.parser")
 
     home_node = soup.select_one(".HomeCompetitorTitle a")
@@ -350,7 +368,11 @@ def scrape_competition(
 
     rows: list[dict[str, Any]] = []
     for match in tqdm(sorted(all_matches.values(), key=lambda m: m.match_id), desc="slovakia matches"):
-        rows.extend(_parse_match_events(session, match))
+        try:
+            rows.extend(_parse_match_events(session, match))
+        except requests.RequestException as exc:
+            print(f"[WARN] skipping match {match.match_id} after repeated request failures: {exc}")
+            continue
 
     if regular_season_end_date:
         cutoff = datetime.strptime(regular_season_end_date, "%Y-%m-%d").date()
@@ -420,6 +442,15 @@ def scrape_competition(
 
         phase_lower = (phase or "regular-season").lower()
         selected_ids = regular_ids if phase_lower == "regular-season" else (set(games.keys()) - regular_ids)
+        if phase_lower == "playoffs":
+            selected_ids = {
+                game_id
+                for game_id in selected_ids
+                if not (
+                    _is_placeholder_team_name(games[game_id].get("home"))
+                    or _is_placeholder_team_name(games[game_id].get("away"))
+                )
+            }
         rows = [row for game_id in sorted(selected_ids) for row in games[game_id]["rows"]]
 
     out = Path(output_path)

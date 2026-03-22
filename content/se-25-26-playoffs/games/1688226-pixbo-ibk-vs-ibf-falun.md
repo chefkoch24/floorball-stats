@@ -6,17 +6,17 @@ type: game
 game_id: 1688226
 home_team: Pixbo IBK
 away_team: IBF Falun
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 923.0
+away_goal_diffs_csv: -1,-2,-3
+away_goal_minutes_csv: 20.67,23.42,34.4
 away_major_penalty_minutes_csv: 
-away_penalty_ends_csv: 
-away_penalty_goals_csv: 
-away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: 1
+away_penalty_ends_csv: 16.27
+away_penalty_goals_csv: 0
+away_penalty_minutes_csv: 14.27
+game_events_b64: W3sibWludXRlIjoiMTQ6MTYiLCJwZXJpb2QiOjEsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDowIiwiZXZlbnRfa2luZCI6InBlbmFsdHkiLCJ0aXRsZSI6IjIgbWluIHBlbmFsdHkiLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoicGVuYWx0eV8yIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDo0MCIsInBlcmlvZCI6MiwidGVhbSI6IklCRiBGYWx1biIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFsdGUgTHVuZG1hcmsiLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjAzOjI1IiwicGVyaW9kIjoyLCJ0ZWFtIjoiSUJGIEZhbHVuIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJFbWlsIEhhbGxxdmlzdC1Kb2hhbnNzb24iLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTQ6MjQiLCJwZXJpb2QiOjIsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik9saXZlciBTYW5kYmVyZyIsImFzc2lzdCI6IkpvbmF0aGFuIEJlcmdsdW5kIiwidGFnIjoiZ29hbCJ9XQ==
+game_events_count: 5
+game_state: played
+game_status: 2
 home_goal_diffs_csv: 
 home_goal_minutes_csv: 
 home_major_penalty_minutes_csv: 
@@ -24,13 +24,13 @@ home_penalty_ends_csv:
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
 ingame_status: None
-result_string: None
+result_string: 0-3
 start_time: 16:00:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,3
+timeline_diffs_csv: 0,-1,-2,-3
+timeline_home_goals_csv: 0,0,0,0
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,20.67,23.42,34.4
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -45,13 +45,13 @@ home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -3
 home_goals: 0
-home_goals_against: 0
+home_goals_against: 3
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 3
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
@@ -65,12 +65,12 @@ home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
+home_goals_in_second_period_against: 3
 home_goals_in_third_period: 0
 home_goals_in_third_period_against: 0
 home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
 home_penalties: 0
@@ -90,25 +90,26 @@ home_points: 0
 home_points_after_55_min: 0
 home_points_after_58_min: 0
 home_points_after_59_min: 0
-home_points_after_first_period: 0
+home_points_after_first_period: 1
 home_points_after_second_period: 0
 home_points_after_third_period: 0
+home_points_against_ibf_falun: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
-home_powerplay_first_period: 0
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
+home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
-away_boxplay_first_period: 0
+away_away_points: 3
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
+away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_third_period: 0
@@ -118,17 +119,17 @@ away_close_game_win: 0
 away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
+away_games: 1
+away_goal_difference: 3
+away_goals: 3
 away_goals_against: 0
 away_goals_against_away: 0
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 3
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
@@ -138,7 +139,7 @@ away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
+away_goals_in_second_period: 3
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 0
 away_goals_in_third_period_against: 0
@@ -147,11 +148,11 @@ away_loss_1: 0
 away_losses: 0
 away_over_time_losses: 0
 away_over_time_wins: 0
-away_penalties: 0
+away_penalties: 1
 away_penalty_10: 0
-away_penalty_2: 0
+away_penalty_2: 1
 away_penalty_2and2: 0
-away_penalty_first_period: 0
+away_penalty_first_period: 1
 away_penalty_ms: 0
 away_penalty_overtime: 0
 away_penalty_second_period: 0
@@ -160,22 +161,23 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 0
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
+away_points_after_first_period: 1
+away_points_after_second_period: 3
+away_points_after_third_period: 3
+away_points_against_pixbo_ibk: 3
 away_points_max_difference_2: 0
-away_points_more_2_difference: 0
+away_points_more_2_difference: 3
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
+away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0
-away_wins: 0
+away_wins: 1

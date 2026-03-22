@@ -1,5 +1,6 @@
 import argparse
 import base64
+import re
 import numpy as np
 import pandas as pd
 import json
@@ -13,6 +14,86 @@ from src.utils import add_points, add_penalties, is_powerplay, is_boxplay, safe_
 
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
+
+
+def _team_identity_key(name: object) -> str:
+    raw = str(name or "").strip().lower()
+    if not raw:
+        return ""
+    ascii_name = (
+        raw.replace("ä", "ae")
+        .replace("ö", "oe")
+        .replace("ü", "ue")
+        .replace("ß", "ss")
+    )
+    ascii_name = re.sub(r"[^a-z0-9]+", "", ascii_name)
+    # Fold common umlaut transliterations so variants like "vaxjo/vaexjoe"
+    # and "zurich/zuerich" resolve to the same identity.
+    ascii_name = re.sub(r"([bcdfghjklmnpqrstvwxyz])ae([bcdfghjklmnpqrstvwxyz])", r"\1a\2", ascii_name)
+    ascii_name = re.sub(r"([bcdfghjklmnpqrstvwxyz])oe([bcdfghjklmnpqrstvwxyz])", r"\1o\2", ascii_name)
+    ascii_name = re.sub(r"([bcdfghjklmnpqrstvwxyz])ue([bcdfghjklmnpqrstvwxyz])", r"\1u\2", ascii_name)
+    return ascii_name
+
+
+def _canonicalize_team_names(df: pd.DataFrame) -> pd.DataFrame:
+    columns = [col for col in ("home_team_name", "away_team_name", "event_team") if col in df.columns]
+    if not columns:
+        return df
+
+    candidates: list[str] = []
+    for col in columns:
+        values = df[col].dropna().astype(str).str.strip()
+        candidates.extend(v for v in values if v)
+    if not candidates:
+        return df
+
+    counts = pd.Series(candidates).value_counts().to_dict()
+    by_key: dict[str, list[str]] = {}
+    for name in counts:
+        key = _team_identity_key(name)
+        if not key:
+            continue
+        by_key.setdefault(key, []).append(name)
+
+    canonical_for_key: dict[str, str] = {}
+    for key, names in by_key.items():
+        canonical_for_key[key] = sorted(
+            names,
+            key=lambda n: (
+                -sum(1 for ch in n if ord(ch) > 127),  # prefer original diacritics
+                -counts.get(n, 0),                     # then the most frequent
+                -len(n),                               # then richest label
+                n,
+            ),
+        )[0]
+
+    name_map: dict[str, str] = {}
+    for key, names in by_key.items():
+        canonical = canonical_for_key[key]
+        for name in names:
+            name_map[name] = canonical
+
+    if not name_map:
+        return df
+
+    normalized = df.copy()
+    for col in columns:
+        normalized[col] = (
+            normalized[col]
+            .astype(str)
+            .str.strip()
+            .map(lambda value: name_map.get(value, value))
+        )
+        normalized.loc[normalized[col].isin({"", "nan", "None"}), col] = pd.NA
+    return normalized
+
+
+def _deduplicate_event_rows(df: pd.DataFrame) -> pd.DataFrame:
+    # Defensive guard: sources can return repeated records for the same event/game.
+    # Drop exact duplicates after team-name normalization to prevent inflated timelines.
+    if df.empty:
+        return df
+    return df.drop_duplicates(ignore_index=True)
 
 
 def _parse_result_string_score(result_string: object) -> tuple[int, int] | None:
@@ -1165,6 +1246,8 @@ def run_stats_pipeline(
     output_path.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_csv_path)
+    df = _canonicalize_team_names(df)
+    df = _deduplicate_event_rows(df)
     if {"event_type", "home_goals", "guest_goals"}.issubset(df.columns):
         # Some sources include malformed goal rows (e.g. mixed timeline blocks)
         # without any score snapshot. Drop them before computing stats.

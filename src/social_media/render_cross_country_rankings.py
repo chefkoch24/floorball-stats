@@ -77,6 +77,12 @@ def _fit_text(draw: ImageDraw.ImageDraw, text: str, font, max_width: int) -> str
     return text[:3]
 
 
+def _column_center_x(table_x1: int, table_w: int, start: float, end: float) -> float:
+    left = table_x1 + int(table_w * start)
+    right = table_x1 + int(table_w * end)
+    return (left + right) / 2
+
+
 def _rounded(draw: ImageDraw.ImageDraw, box, radius, fill, outline=None, width=1):
     draw.rounded_rectangle(box, radius=radius, fill=fill, outline=outline, width=width)
 
@@ -136,17 +142,19 @@ def _metric_config(metric: str) -> dict:
     return {
         "title": "Top 10 Penalty Minutes",
         "columns": {
-            "team": (0.00, 0.46),
-            "penalty_2": (0.46, 0.58),
-            "penalty_2and2": (0.58, 0.70),
-            "penalty_10": (0.70, 0.80),
-            "penalty_ms": (0.80, 1.00),
+            "team": (0.00, 0.43),
+            "penalty_2": (0.43, 0.52),
+            "penalty_2and2": (0.52, 0.61),
+            "penalty_10_ms": (0.61, 0.75),
+            "penalties": (0.75, 0.86),
+            "penalties_per_game": (0.86, 0.97),
         },
         "labels": [
             ("penalty_2", "2'"),
             ("penalty_2and2", "2+2'"),
-            ("penalty_10", "10'"),
-            ("penalty_ms", "MS"),
+            ("penalty_10_ms", "10'+MS"),
+            ("penalties", "Tot"),
+            ("penalties_per_game", "P/G"),
         ],
     }
 
@@ -172,8 +180,11 @@ def load_entries(metric: str) -> list[dict]:
             p10 = re.search(r"^penalty_10:\s*(.+)$", text, re.M)
             pms = re.search(r"^penalty_ms:\s*(.+)$", text, re.M)
             total = re.search(r"^penalties:\s*(.+)$", text, re.M)
-            if not (category_match and team_match and p2 and p22 and p10 and pms and total):
+            games = re.search(r"^games:\s*(.+)$", text, re.M)
+            if not (category_match and team_match and p2 and p22 and p10 and pms and total and games):
                 continue
+            total_penalties = int(float(total.group(1).strip()))
+            games_count = float(games.group(1).strip())
             entries.append(
                 {
                     "country": _country_from_category(category_match.group(1).strip()),
@@ -183,6 +194,8 @@ def load_entries(metric: str) -> list[dict]:
                     "penalty_2and2": int(float(p22.group(1).strip())),
                     "penalty_10": int(float(p10.group(1).strip())),
                     "penalty_ms": int(float(pms.group(1).strip())),
+                    "penalties": total_penalties,
+                    "penalties_per_game": (total_penalties / games_count) if games_count else 0.0,
                 }
             )
             continue
@@ -287,10 +300,14 @@ def render_image(entries: list[dict], metric: str, theme_name: str, *, width: in
     head_color = "#a8bbd1" if theme_name == "dark" else "#334155"
     draw.text((table_x1 + 14, table_y1 + 16), "Team", font=head_font, fill=head_color)
     for key, label in config["labels"]:
-        _, end = columns[key]
-        right = table_x1 + int(table_w * end) - 14
         lw, _ = _text_size(draw, label, head_font)
-        draw.text((right - lw, table_y1 + 16), label, font=head_font, fill=head_color)
+        start, end = columns[key]
+        if metric == "penalties":
+            center_x = _column_center_x(table_x1, table_w, start, end)
+            draw.text((center_x - lw / 2, table_y1 + 16), label, font=head_font, fill=head_color)
+        else:
+            right = table_x1 + int(table_w * end) - 14
+            draw.text((right - lw, table_y1 + 16), label, font=head_font, fill=head_color)
 
     for idx, row in enumerate(entries, start=1):
         top = table_y1 + header_h + (idx - 1) * row_h
@@ -312,7 +329,7 @@ def render_image(entries: list[dict], metric: str, theme_name: str, *, width: in
         draw.text((badge_x + 26 - cw / 2, badge_y + 16 - ch / 2), row["country"], font=small_font, fill=badge_text)
 
         team_x = badge_box[2] + 14
-        team_max_width = 300 if metric == "penalties" else 390
+        team_max_width = 220 if metric == "penalties" else 390
         team_text = _fit_text(draw, row["team"], body_bold, team_max_width)
         team_h = _text_size(draw, team_text, body_bold)[1]
         team_y = top + (row_h - team_h) // 2 - 2
@@ -328,15 +345,20 @@ def render_image(entries: list[dict], metric: str, theme_name: str, *, width: in
             value_specs = [
                 ("penalty_2", str(row["penalty_2"]), theme["accent"], body_bold),
                 ("penalty_2and2", str(row["penalty_2and2"]), theme["text"], body_font),
-                ("penalty_10", str(row["penalty_10"]), theme["text"], body_font),
-                ("penalty_ms", str(row["penalty_ms"]), theme["text"], body_font),
+                ("penalty_10_ms", f"{row['penalty_10']}+{row['penalty_ms']}", theme["text"], body_font),
+                ("penalties", str(row["penalties"]), theme["text"], body_font),
+                ("penalties_per_game", _format_decimal(row["penalties_per_game"]), theme["text"], body_font),
             ]
 
         for key, text_value, color, font in value_specs:
-            _, end = columns[key]
-            right = table_x1 + int(table_w * end) - 14
             tw, _ = _text_size(draw, text_value, font)
-            draw.text((right - tw, top + 28), text_value, font=font, fill=color)
+            start, end = columns[key]
+            if metric == "penalties":
+                center_x = _column_center_x(table_x1, table_w, start, end)
+                draw.text((center_x - tw / 2, top + 28), text_value, font=font, fill=color)
+            else:
+                right = table_x1 + int(table_w * end) - 14
+                draw.text((right - tw, top + 28), text_value, font=font, fill=color)
 
     handle = "@foorballconnect"
     hw, hh = _text_size(draw, handle, chip_font)
@@ -405,10 +427,14 @@ def render_image_rank_slots(
     head_color = "#a8bbd1" if theme_name == "dark" else "#334155"
     draw.text((table_x1 + 14, table_y1 + 16), "Team", font=head_font, fill=head_color)
     for key, label in config["labels"]:
-        _, end = columns[key]
-        right = table_x1 + int(table_w * end) - 14
         lw, _ = _text_size(draw, label, head_font)
-        draw.text((right - lw, table_y1 + 16), label, font=head_font, fill=head_color)
+        start, end = columns[key]
+        if metric == "penalties":
+            center_x = _column_center_x(table_x1, table_w, start, end)
+            draw.text((center_x - lw / 2, table_y1 + 16), label, font=head_font, fill=head_color)
+        else:
+            right = table_x1 + int(table_w * end) - 14
+            draw.text((right - lw, table_y1 + 16), label, font=head_font, fill=head_color)
 
     rank_sorted = sorted(entries, key=lambda row: row["rank"])
     for idx, row in enumerate(rank_sorted, start=1):
@@ -434,7 +460,7 @@ def render_image_rank_slots(
         draw.text((badge_x + 26 - cw / 2, badge_y + 16 - ch / 2), row["country"], font=small_font, fill=badge_text)
 
         team_x = badge_box[2] + 14
-        team_max_width = 300 if metric == "penalties" else 390
+        team_max_width = 220 if metric == "penalties" else 390
         team_text = _fit_text(draw, row["team"], body_bold, team_max_width)
         team_h = _text_size(draw, team_text, body_bold)[1]
         team_y = top + (row_h - team_h) // 2 - 2
@@ -450,15 +476,20 @@ def render_image_rank_slots(
             value_specs = [
                 ("penalty_2", str(row["penalty_2"]), theme["accent"], body_bold),
                 ("penalty_2and2", str(row["penalty_2and2"]), theme["text"], body_font),
-                ("penalty_10", str(row["penalty_10"]), theme["text"], body_font),
-                ("penalty_ms", str(row["penalty_ms"]), theme["text"], body_font),
+                ("penalty_10_ms", f"{row['penalty_10']}+{row['penalty_ms']}", theme["text"], body_font),
+                ("penalties", str(row["penalties"]), theme["text"], body_font),
+                ("penalties_per_game", _format_decimal(row["penalties_per_game"]), theme["text"], body_font),
             ]
 
         for key, text_value, color, font in value_specs:
-            _, end = columns[key]
-            right = table_x1 + int(table_w * end) - 14
             tw, _ = _text_size(draw, text_value, font)
-            draw.text((right - tw, top + 28), text_value, font=font, fill=color)
+            start, end = columns[key]
+            if metric == "penalties":
+                center_x = _column_center_x(table_x1, table_w, start, end)
+                draw.text((center_x - tw / 2, top + 28), text_value, font=font, fill=color)
+            else:
+                right = table_x1 + int(table_w * end) - 14
+                draw.text((right - tw, top + 28), text_value, font=font, fill=color)
 
     handle = "@foorballconnect"
     hw, hh = _text_size(draw, handle, chip_font)
