@@ -6,7 +6,7 @@ type: game
 game_id: 54831
 home_team: Ķekava/RB&B
 away_team: Lekrings
-attendance: 389.0
+attendance: 389
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-3
 away_goal_minutes_csv: 14.58,15.65,17.42,21.15,26.52,31.2
 away_major_penalty_minutes_csv: 

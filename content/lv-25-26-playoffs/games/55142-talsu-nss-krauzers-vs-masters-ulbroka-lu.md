@@ -6,7 +6,7 @@ type: game
 game_id: 55142
 home_team: Talsu NSS/Krauzers
 away_team: Masters Ulbroka/LU
-attendance: 368.0
+attendance: 368
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-5
 away_goal_minutes_csv: 27.2,28.03,28.22,28.67,35.37,35.8
 away_major_penalty_minutes_csv: 

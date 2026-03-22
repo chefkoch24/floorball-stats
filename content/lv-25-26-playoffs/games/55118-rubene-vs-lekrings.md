@@ -6,7 +6,7 @@ type: game
 game_id: 55118
 home_team: Rubene
 away_team: Lekrings
-attendance: 547.0
+attendance: 547
 away_goal_diffs_csv: 2,3
 away_goal_minutes_csv: 36.38,41.7
 away_major_penalty_minutes_csv: 8.82

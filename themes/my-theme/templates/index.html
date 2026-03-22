@@ -321,6 +321,14 @@
         result: node.dataset.result || '',
     }));
 
+    const normalizeResult = (raw) => {
+        const text = String(raw || '').trim();
+        if (!text) return '';
+        const score = text.match(/(\d+)\s*[:\-]\s*(\d+)/);
+        if (!score) return '';
+        return `${score[1]} : ${score[2]}`;
+    };
+
     const today = new Date();
     const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
     const todayGames = items
@@ -345,11 +353,13 @@
 
     list.innerHTML = Object.keys(gamesByLeague).sort().map((league) => {
         const gamesHtml = gamesByLeague[league].map((game) => {
-            const detail = game.state === 'played' && game.result ? game.result : game.time;
+            const normalizedResult = normalizeResult(game.result);
+            const detail = game.state === 'played' && normalizedResult ? normalizedResult : game.time;
             return `
-                <a class="season-phase-link" href="${game.url}">
-                    <span>${game.home} vs ${game.away}</span>
-                    <span>${detail}</span>
+                <a class="season-phase-link today-game-link" href="${game.url}">
+                    <span class="today-game-home">${game.home}</span>
+                    <span class="today-game-detail">${detail}</span>
+                    <span class="today-game-away">${game.away}</span>
                 </a>
             `;
         }).join('');

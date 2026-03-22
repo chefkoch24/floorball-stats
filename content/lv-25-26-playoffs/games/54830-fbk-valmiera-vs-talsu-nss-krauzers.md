@@ -6,7 +6,7 @@ type: game
 game_id: 54830
 home_team: FBK Valmiera
 away_team: Talsu NSS/Krauzers
-attendance: 681.0
+attendance: 681
 away_goal_diffs_csv: 0,-1,1,0,-1,-1,-2
 away_goal_minutes_csv: 10.32,21.93,49.15,51.22,53.38,59.73,59.97
 away_major_penalty_minutes_csv: 45.47

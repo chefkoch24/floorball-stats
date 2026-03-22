@@ -442,15 +442,14 @@ def scrape_competition(
 
         phase_lower = (phase or "regular-season").lower()
         selected_ids = regular_ids if phase_lower == "regular-season" else (set(games.keys()) - regular_ids)
-        if phase_lower == "playoffs":
-            selected_ids = {
-                game_id
-                for game_id in selected_ids
-                if not (
-                    _is_placeholder_team_name(games[game_id].get("home"))
-                    or _is_placeholder_team_name(games[game_id].get("away"))
-                )
-            }
+        selected_ids = {
+            game_id
+            for game_id in selected_ids
+            if not (
+                _is_placeholder_team_name(games[game_id].get("home"))
+                or _is_placeholder_team_name(games[game_id].get("away"))
+            )
+        }
         rows = [row for game_id in sorted(selected_ids) for row in games[game_id]["rows"]]
 
     out = Path(output_path)
