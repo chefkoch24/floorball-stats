@@ -6,12 +6,12 @@ type: team
 team:EräViikingit
 platzierungsverlauf:fi-25-26-regular-season/teams/eraviikingit-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 26
-boxplay: 67
-boxplay_efficiency: 59.699999999999996
+boxplay: 66
+boxplay_efficiency: 59.089999999999996
 boxplay_first_period: 14
 boxplay_overtime: 0
-boxplay_per_game: 2.09
-boxplay_second_period: 31
+boxplay_per_game: 2.06
+boxplay_second_period: 30
 boxplay_third_period: 22
 close_game_loss: 7
 close_game_overtime: 8
@@ -51,14 +51,14 @@ loss_1: 6
 losses: 15
 over_time_losses: 3
 over_time_wins: 5
-penalties: 78
+penalties: 77
 penalty_10: 1
-penalty_2: 77
+penalty_2: 76
 penalty_2and2: 0
 penalty_first_period: 17
 penalty_ms: 0
 penalty_overtime: 0
-penalty_second_period: 34
+penalty_second_period: 33
 penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0

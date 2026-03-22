@@ -83,12 +83,12 @@ Tags:  Classic: 0,  EräViikingit: 10,  FBC Turku: 12,  Hawks: 6,  Indians: 3,  
 points_max_difference_2: 32
 points_more_2_difference: 15
 points_per_game: 1.47
-powerplay: 59
-powerplay_efficiency: 32.2
+powerplay: 58
+powerplay_efficiency: 32.76
 powerplay_first_period: 17
 powerplay_overtime: 1
-powerplay_per_game: 1.84
-powerplay_second_period: 25
+powerplay_per_game: 1.81
+powerplay_second_period: 24
 powerplay_third_period: 16
 rank: 7
 scoring_ratio: 0.75

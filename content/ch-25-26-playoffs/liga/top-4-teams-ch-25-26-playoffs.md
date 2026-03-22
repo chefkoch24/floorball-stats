@@ -42,7 +42,7 @@ goals_in_penalty_shootout_against: 0.25
 goals_in_powerplay: 2.75
 goals_in_second_period: 9.0
 goals_in_second_period_against: 4.0
-goals_in_third_period: 11.75
+goals_in_third_period: 12.0
 goals_in_third_period_against: 8.25
 goals_per_game: 7.12
 home_points: 6.0
@@ -69,7 +69,7 @@ percent_goals_overtime: 1.79
 percent_goals_overtime_against: 1.04
 percent_goals_second_period: 27.77
 percent_goals_second_period_against: 21.16
-percent_goals_third_period: 37.55
+percent_goals_third_period: 38.51
 percent_goals_third_period_against: 41.37
 points: 11.25
 points_after_55_min: 10.5

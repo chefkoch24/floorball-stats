@@ -6,7 +6,7 @@ type: game
 game_id: 43520
 home_team: UHC Sparkasse Weißenfels
 away_team: MFBC Leipzig
-attendance: 273.0
+attendance: 273
 away_goal_diffs_csv: -1,-2,-3,-1,-2,-2
 away_goal_minutes_csv: 10.9,20.97,32.12,51.63,52.03,57.27
 away_major_penalty_minutes_csv: 

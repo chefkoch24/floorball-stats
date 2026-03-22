@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-22
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-regular-season, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-regular-season-cz-25-26-regular-season

@@ -6,12 +6,12 @@ type: team
 team:OLS
 platzierungsverlauf:fi-25-26-regular-season/teams/ols-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 17
-boxplay: 35
-boxplay_efficiency: 51.43
+boxplay: 34
+boxplay_efficiency: 52.94
 boxplay_first_period: 11
 boxplay_overtime: 0
-boxplay_per_game: 1.09
-boxplay_second_period: 14
+boxplay_per_game: 1.06
+boxplay_second_period: 13
 boxplay_third_period: 11
 close_game_loss: 5
 close_game_overtime: 5
@@ -28,7 +28,7 @@ goals: 160
 goals_against: 181
 goals_against_away: 102
 goals_against_home: 79
-goals_against_in_boxplay: 17
+goals_against_in_boxplay: 16
 goals_against_in_powerplay: 6
 goals_against_per_game: 5.66
 goals_away: 68
@@ -51,14 +51,14 @@ loss_1: 5
 losses: 14
 over_time_losses: 2
 over_time_wins: 3
-penalties: 42
+penalties: 41
 penalty_10: 3
-penalty_2: 39
+penalty_2: 38
 penalty_2and2: 0
 penalty_first_period: 13
 penalty_ms: 0
 penalty_overtime: 0
-penalty_second_period: 16
+penalty_second_period: 15
 penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0

@@ -6,12 +6,12 @@ type: team
 team:FBC Turku
 platzierungsverlauf:fi-25-26-regular-season/teams/fbc-turku-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 4
-boxplay: 46
-boxplay_efficiency: 28.25999999999999
+boxplay: 45
+boxplay_efficiency: 26.67
 boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 1.44
-boxplay_second_period: 19
+boxplay_per_game: 1.41
+boxplay_second_period: 18
 boxplay_third_period: 18
 close_game_loss: 4
 close_game_overtime: 2
@@ -51,14 +51,14 @@ loss_1: 3
 losses: 29
 over_time_losses: 1
 over_time_wins: 1
-penalties: 51
+penalties: 50
 penalty_10: 2
-penalty_2: 49
+penalty_2: 48
 penalty_2and2: 0
 penalty_first_period: 10
 penalty_ms: 0
 penalty_overtime: 0
-penalty_second_period: 21
+penalty_second_period: 20
 penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0

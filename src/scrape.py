@@ -34,6 +34,30 @@ def _build_player_map(players: list[dict] | None) -> dict[str, str]:
     return mapping
 
 
+def _resolve_player_name(
+    shirt_number: str | None,
+    raw_event_team: object,
+    home_player_map: dict[str, str],
+    away_player_map: dict[str, str],
+) -> str | None:
+    if not shirt_number:
+        return None
+
+    team_key = str(raw_event_team or "").strip().lower()
+    if team_key == "home":
+        return home_player_map.get(shirt_number)
+    if team_key in {"guest", "away"}:
+        return away_player_map.get(shirt_number)
+
+    in_home = shirt_number in home_player_map
+    in_away = shirt_number in away_player_map
+    if in_home and not in_away:
+        return home_player_map.get(shirt_number)
+    if in_away and not in_home:
+        return away_player_map.get(shirt_number)
+    return None
+
+
 def scrape_events(input_path: str, output_path: str, api_base: str = DEFAULT_API_BASE) -> pd.DataFrame:
     games_endpoint = "games/"
     all_games = json.loads(requests.request("GET", api_base + input_path).content)
@@ -44,9 +68,8 @@ def scrape_events(input_path: str, output_path: str, api_base: str = DEFAULT_API
         game = json.loads(requests.request("GET", api_base + games_endpoint + str(game_id)).content)
         home_team_name = game["home_team_name"]
         away_team_name = game["guest_team_name"]
-        player_map = {}
-        player_map.update(_build_player_map((game.get("players") or {}).get("home")))
-        player_map.update(_build_player_map((game.get("players") or {}).get("guest")))
+        home_player_map = _build_player_map((game.get("players") or {}).get("home"))
+        away_player_map = _build_player_map((game.get("players") or {}).get("guest"))
         game_date = game.get("date")
         game_start_time = game.get("start_time")
         attendance = game.get("audience")
@@ -70,14 +93,34 @@ def scrape_events(input_path: str, output_path: str, api_base: str = DEFAULT_API
             )
             continue
         for event in events:
-            event["event_team"] = home_team_name if event["event_team"] == "home" else away_team_name
+            raw_event_team = event.get("event_team")
+            event["event_team"] = home_team_name if raw_event_team == "home" else away_team_name
             scorer_number = _normalize_shirt_number(event.get("number"))
             assist_number = _normalize_shirt_number(event.get("assist"))
             event["scorer_number"] = scorer_number
             event["assist_number"] = assist_number
-            event["scorer_name"] = player_map.get(scorer_number) if scorer_number else None
-            event["assist_name"] = player_map.get(assist_number) if assist_number else None
-            event["penalty_player_name"] = player_map.get(scorer_number) if event.get("event_type") == "penalty" and scorer_number else None
+            event["scorer_name"] = _resolve_player_name(
+                scorer_number,
+                raw_event_team,
+                home_player_map,
+                away_player_map,
+            )
+            event["assist_name"] = _resolve_player_name(
+                assist_number,
+                raw_event_team,
+                home_player_map,
+                away_player_map,
+            )
+            event["penalty_player_name"] = (
+                _resolve_player_name(
+                    scorer_number,
+                    raw_event_team,
+                    home_player_map,
+                    away_player_map,
+                )
+                if event.get("event_type") == "penalty"
+                else None
+            )
             event["game_id"] = game_id
             event["home_team_name"] = home_team_name
             event["away_team_name"] = away_team_name

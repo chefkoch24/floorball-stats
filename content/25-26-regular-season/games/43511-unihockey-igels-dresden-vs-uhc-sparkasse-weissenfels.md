@@ -6,7 +6,7 @@ type: game
 game_id: 43511
 home_team: Unihockey Igels Dresden
 away_team: UHC Sparkasse Weißenfels
-attendance: 87.0
+attendance: 87
 away_goal_diffs_csv: -1,-1,-2,-3,-3,-3,-4,-5,-6,-7
 away_goal_minutes_csv: 1.98,24.27,25.37,27.3,39.85,51.25,54.83,57.22,58.07,59.8
 away_major_penalty_minutes_csv: 

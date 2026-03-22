@@ -6,7 +6,7 @@ type: game
 game_id: 43494
 home_team: Unihockey Igels Dresden
 away_team: SC Potsdam
-attendance: 223.0
+attendance: 223
 away_goal_diffs_csv: 1,1,0,-1
 away_goal_minutes_csv: 23.03,25.97,37.93,38.92
 away_major_penalty_minutes_csv: 

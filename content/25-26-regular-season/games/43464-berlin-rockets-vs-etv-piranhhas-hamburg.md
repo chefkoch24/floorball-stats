@@ -6,7 +6,7 @@ type: game
 game_id: 43464
 home_team: Berlin Rockets
 away_team: ETV Piranhhas Hamburg
-attendance: 101.0
+attendance: 101
 away_goal_diffs_csv: -1,-2,-3,-3,-4
 away_goal_minutes_csv: 2.27,6.7,8.12,35.98,53.63
 away_major_penalty_minutes_csv: 

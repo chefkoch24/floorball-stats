@@ -6,7 +6,7 @@ type: game
 game_id: 54821
 home_team: FBK SĀC
 away_team: Rubene
-attendance: 145
+attendance: 145.0
 away_goal_diffs_csv: -1,-2,-3,-3,-2,-3,-4,-5
 away_goal_minutes_csv: 6.18,10.9,12.35,17.43,30.58,41.0,46.55,49.7
 away_major_penalty_minutes_csv: 

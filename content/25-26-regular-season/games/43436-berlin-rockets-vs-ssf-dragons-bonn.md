@@ -6,7 +6,7 @@ type: game
 game_id: 43436
 home_team: Berlin Rockets
 away_team: SSF Dragons Bonn
-attendance: 86.0
+attendance: 86
 away_goal_diffs_csv: -1,-2,-3,-4,-4,-5
 away_goal_minutes_csv: 13.32,13.92,23.53,28.07,46.68,59.68
 away_major_penalty_minutes_csv: 

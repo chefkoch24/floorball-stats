@@ -13,24 +13,24 @@ away_major_penalty_minutes_csv:
 away_penalty_ends_csv: 16.27
 away_penalty_goals_csv: 0
 away_penalty_minutes_csv: 14.27
-game_events_b64: W3sibWludXRlIjoiMTQ6MTYiLCJwZXJpb2QiOjEsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDowIiwiZXZlbnRfa2luZCI6InBlbmFsdHkiLCJ0aXRsZSI6IjIgbWluIHBlbmFsdHkiLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoicGVuYWx0eV8yIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDo0MCIsInBlcmlvZCI6MiwidGVhbSI6IklCRiBGYWx1biIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFsdGUgTHVuZG1hcmsiLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjAzOjI1IiwicGVyaW9kIjoyLCJ0ZWFtIjoiSUJGIEZhbHVuIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJFbWlsIEhhbGxxdmlzdC1Kb2hhbnNzb24iLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTQ6MjQiLCJwZXJpb2QiOjIsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik9saXZlciBTYW5kYmVyZyIsImFzc2lzdCI6IkpvbmF0aGFuIEJlcmdsdW5kIiwidGFnIjoiZ29hbCJ9XQ==
-game_events_count: 5
+game_events_b64: W3sibWludXRlIjoiMTQ6MTYiLCJwZXJpb2QiOjEsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDowIiwiZXZlbnRfa2luZCI6InBlbmFsdHkiLCJ0aXRsZSI6IjIgbWluIHBlbmFsdHkiLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoicGVuYWx0eV8yIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDo0MCIsInBlcmlvZCI6MiwidGVhbSI6IklCRiBGYWx1biIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWFsdGUgTHVuZG1hcmsiLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjAzOjI1IiwicGVyaW9kIjoyLCJ0ZWFtIjoiSUJGIEZhbHVuIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJFbWlsIEhhbGxxdmlzdC1Kb2hhbnNzb24iLCJhc3Npc3QiOiJQYXRyaWsgQnVybWFuIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTQ6MjQiLCJwZXJpb2QiOjIsInRlYW0iOiJJQkYgRmFsdW4iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik9saXZlciBTYW5kYmVyZyIsImFzc2lzdCI6IkpvbmF0aGFuIEJlcmdsdW5kIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMTQ6MzEiLCJwZXJpb2QiOjMsInRlYW0iOiJQaXhibyBJQksiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IldpY3RvciBMdW5kc3RlZHQiLCJhc3Npc3QiOiJBcnZpZCDDhHNlIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTk6NDMiLCJwZXJpb2QiOjMsInRlYW0iOiJQaXhibyBJQksiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMjozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFydmlkIMOEc2UiLCJhc3Npc3QiOiJCZW5qYW1pbiBTY2hpbGwiLCJ0YWciOiJnb2FsIn1d
+game_events_count: 8
 game_state: played
-game_status: 2
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_status: 4
+home_goal_diffs_csv: -2,-1
+home_goal_minutes_csv: 54.52,59.72
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
 ingame_status: None
-result_string: 0-3
+result_string: 2-3
 start_time: 16:00:00
-timeline_away_goals_csv: 0,1,2,3
-timeline_diffs_csv: 0,-1,-2,-3
-timeline_home_goals_csv: 0,0,0,0
+timeline_away_goals_csv: 0,1,2,3,3,3
+timeline_diffs_csv: 0,-1,-2,-3,-2,-1
+timeline_home_goals_csv: 0,0,0,0,1,2
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0,20.67,23.42,34.4
+timeline_minutes_csv: 0.0,20.67,23.42,34.4,54.52,59.72
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -38,7 +38,7 @@ home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
-home_close_game_loss: 0
+home_close_game_loss: 1
 home_close_game_overtime: 0
 home_close_game_win: 0
 home_draws: 0
@@ -47,15 +47,15 @@ home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
 home_first_goal_of_match_against: 1
 home_games: 1
-home_goal_difference: -3
-home_goals: 0
+home_goal_difference: -1
+home_goals: 2
 home_goals_against: 3
 home_goals_against_away: 0
 home_goals_against_home: 3
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 2
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
 home_goals_in_first_period_against: 0
@@ -66,10 +66,10 @@ home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
 home_goals_in_second_period_against: 3
-home_goals_in_third_period: 0
+home_goals_in_third_period: 2
 home_goals_in_third_period_against: 0
 home_home_points: 0
-home_loss_1: 0
+home_loss_1: 1
 home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
@@ -115,17 +115,17 @@ away_boxplay_second_period: 0
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
-away_close_game_win: 0
+away_close_game_win: 1
 away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
 away_games: 1
-away_goal_difference: 3
+away_goal_difference: 1
 away_goals: 3
-away_goals_against: 0
-away_goals_against_away: 0
+away_goals_against: 2
+away_goals_against_away: 2
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
@@ -142,7 +142,7 @@ away_goals_in_powerplay: 0
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 2
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
@@ -169,8 +169,8 @@ away_points_after_first_period: 1
 away_points_after_second_period: 3
 away_points_after_third_period: 3
 away_points_against_pixbo_ibk: 3
-away_points_max_difference_2: 0
-away_points_more_2_difference: 3
+away_points_max_difference_2: 3
+away_points_more_2_difference: 0
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
@@ -179,5 +179,5 @@ away_powerplay_second_period: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
-away_win_1: 0
+away_win_1: 1
 away_wins: 1

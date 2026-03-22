@@ -44,7 +44,7 @@ goals_in_powerplay: 1
 goals_in_second_period: 4
 goals_in_second_period_against: 5
 goals_in_third_period: 3
-goals_in_third_period_against: 10
+goals_in_third_period_against: 11
 goals_per_game: 2.8
 home_points: 0
 loss_1: 0
@@ -71,7 +71,7 @@ percent_goals_overtime_against: 0.0
 percent_goals_second_period: 28.57
 percent_goals_second_period_against: 19.23
 percent_goals_third_period: 21.43
-percent_goals_third_period_against: 38.46
+percent_goals_third_period_against: 42.309999999999995
 points: 2
 points_after_55_min: 0
 points_after_58_min: 1

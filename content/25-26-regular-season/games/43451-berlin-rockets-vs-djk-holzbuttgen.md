@@ -6,7 +6,7 @@ type: game
 game_id: 43451
 home_team: Berlin Rockets
 away_team: DJK Holzbüttgen
-attendance: 75.0
+attendance: 75
 away_goal_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-4,-5
 away_goal_minutes_csv: 8.42,10.9,12.25,18.78,34.7,39.68,45.97,53.72,57.02,57.1
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: 43510
 home_team: SC DHfK Leipzig
 away_team: ETV Piranhhas Hamburg
-attendance: 140.0
+attendance: 140
 away_goal_diffs_csv: -1,-2,-2,-2
 away_goal_minutes_csv: 10.62,11.85,40.92,58.22
 away_major_penalty_minutes_csv: 

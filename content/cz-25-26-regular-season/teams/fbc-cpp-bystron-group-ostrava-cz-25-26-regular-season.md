@@ -1,4 +1,4 @@
-Date: 2026-03-14
+Date: 2026-03-22
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-regular-season, teams
 Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season

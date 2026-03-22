@@ -6,13 +6,13 @@ type: team
 team:Jymy
 platzierungsverlauf:fi-25-26-regular-season/teams/jymy-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 6
-boxplay: 54
-boxplay_efficiency: 25.929999999999993
+boxplay: 53
+boxplay_efficiency: 26.42
 boxplay_first_period: 13
 boxplay_overtime: 0
-boxplay_per_game: 1.69
+boxplay_per_game: 1.66
 boxplay_second_period: 14
-boxplay_third_period: 27
+boxplay_third_period: 26
 close_game_loss: 12
 close_game_overtime: 1
 close_game_win: 6
@@ -28,7 +28,7 @@ goals: 138
 goals_against: 220
 goals_against_away: 117
 goals_against_home: 103
-goals_against_in_boxplay: 40
+goals_against_in_boxplay: 39
 goals_against_in_powerplay: 3
 goals_against_per_game: 6.88
 goals_away: 72
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 26
+goals_in_powerplay: 25
 goals_in_second_period: 38
 goals_in_second_period_against: 62
 goals_in_third_period: 55
@@ -51,9 +51,9 @@ loss_1: 4
 losses: 25
 over_time_losses: 0
 over_time_wins: 1
-penalties: 63
+penalties: 62
 penalty_10: 1
-penalty_2: 62
+penalty_2: 61
 penalty_2and2: 0
 penalty_first_period: 15
 penalty_ms: 0
@@ -63,7 +63,7 @@ penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_third_period: 31
+penalty_third_period: 30
 percent_goals_first_period: 31.879999999999995
 percent_goals_first_period_against: 32.73
 percent_goals_overtime: 0.72
@@ -83,12 +83,12 @@ Tags:  Classic: 0,  EräViikingit: 0,  FBC Turku: 6,  Hawks: 2,  Indians: 0,  LA
 points_max_difference_2: 17
 points_more_2_difference: 3
 points_per_game: 0.62
-powerplay: 50
-powerplay_efficiency: 52.0
+powerplay: 49
+powerplay_efficiency: 51.019999999999996
 powerplay_first_period: 11
 powerplay_overtime: 0
-powerplay_per_game: 1.56
-powerplay_second_period: 22
+powerplay_per_game: 1.53
+powerplay_second_period: 21
 powerplay_third_period: 17
 rank: 10
 scoring_ratio: 0.63

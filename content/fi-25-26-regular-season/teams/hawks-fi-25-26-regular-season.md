@@ -83,12 +83,12 @@ Tags:  Classic: 0,  EräViikingit: 5,  FBC Turku: 12,  Indians: 3,  Jymy: 4,  LA
 points_max_difference_2: 17
 points_more_2_difference: 21
 points_per_game: 1.19
-powerplay: 37
-powerplay_efficiency: 40.54
+powerplay: 36
+powerplay_efficiency: 41.67
 powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.16
-powerplay_second_period: 16
+powerplay_per_game: 1.12
+powerplay_second_period: 15
 powerplay_third_period: 16
 rank: 9
 scoring_ratio: 0.63

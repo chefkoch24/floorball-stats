@@ -6,7 +6,7 @@ type: game
 game_id: 43505
 home_team: UHC Sparkasse Weißenfels
 away_team: DJK Holzbüttgen
-attendance: 231.0
+attendance: 231
 away_goal_diffs_csv: 0,-1,1,0
 away_goal_minutes_csv: 22.07,25.55,51.9,56.13
 away_major_penalty_minutes_csv: 

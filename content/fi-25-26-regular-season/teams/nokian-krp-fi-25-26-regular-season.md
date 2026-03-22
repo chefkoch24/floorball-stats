@@ -40,7 +40,7 @@ goals_in_overtime: 2
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 34
+goals_in_powerplay: 33
 goals_in_second_period: 86
 goals_in_second_period_against: 32
 goals_in_third_period: 83
@@ -83,13 +83,13 @@ Tags:  Classic: 5,  EräViikingit: 6,  FBC Turku: 6,  Hawks: 6,  Indians: 6,  Jy
 points_max_difference_2: 14
 points_more_2_difference: 63
 points_per_game: 2.41
-powerplay: 49
-powerplay_efficiency: 69.39
+powerplay: 48
+powerplay_efficiency: 68.75
 powerplay_first_period: 8
 powerplay_overtime: 0
-powerplay_per_game: 1.53
+powerplay_per_game: 1.5
 powerplay_second_period: 18
-powerplay_third_period: 23
+powerplay_third_period: 22
 rank: 2
 scoring_ratio: 2.09
 take_the_lead_goals: 45

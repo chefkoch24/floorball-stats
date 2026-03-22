@@ -6,7 +6,7 @@ type: game
 game_id: 43522
 home_team: Blau-Weiß 96 Schenefeld
 away_team: Berlin Rockets
-attendance: 105.0
+attendance: 105
 away_goal_diffs_csv: 0,1,0,-1,-2,-1
 away_goal_minutes_csv: 1.85,45.08,49.78,51.78,53.9,61.57
 away_major_penalty_minutes_csv: 
