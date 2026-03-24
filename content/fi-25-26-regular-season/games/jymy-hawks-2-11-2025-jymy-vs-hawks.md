@@ -6,7 +6,7 @@ type: game
 game_id: jymy-hawks-2-11-2025
 home_team: Jymy
 away_team: Hawks
-attendance: 448.0
+attendance: 448
 away_goal_diffs_csv: -1,0
 away_goal_minutes_csv: 21.57,44.4
 away_major_penalty_minutes_csv: 

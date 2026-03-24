@@ -6,7 +6,7 @@ type: game
 game_id: jymy-ols-27-12-2025
 home_team: Jymy
 away_team: OLS
-attendance: 441.0
+attendance: 441
 away_goal_diffs_csv: -1,1
 away_goal_minutes_csv: 16.37,50.43
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-hawks-18-3-2026
 home_team: FBC Turku
 away_team: Hawks
-attendance: 347.0
+attendance: 347
 away_goal_diffs_csv: -1,0,-1,-2,-3,-4,-5
 away_goal_minutes_csv: 5.25,13.7,19.6,20.6,40.18,50.18,57.3
 away_major_penalty_minutes_csv: 

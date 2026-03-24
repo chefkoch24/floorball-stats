@@ -6,7 +6,7 @@ type: game
 game_id: classic-nokian-krp-30-1-2026
 home_team: Classic
 away_team: Nokian KrP
-attendance: 1036.0
+attendance: 1036
 away_goal_diffs_csv: 0
 away_goal_minutes_csv: 30.17
 away_major_penalty_minutes_csv: 

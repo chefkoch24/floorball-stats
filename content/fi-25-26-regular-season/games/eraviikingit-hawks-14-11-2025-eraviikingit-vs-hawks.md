@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-hawks-14-11-2025
 home_team: EräViikingit
 away_team: Hawks
-attendance: 510.0
+attendance: 510
 away_goal_diffs_csv: 0,1
 away_goal_minutes_csv: 1.72,12.43
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: jymy-eraviikingit-9-1-2026
 home_team: Jymy
 away_team: EräViikingit
-attendance: 519.0
+attendance: 519
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-3
 away_goal_minutes_csv: 15.42,26.7,28.27,30.5,31.7,41.75,57.93
 away_major_penalty_minutes_csv: 

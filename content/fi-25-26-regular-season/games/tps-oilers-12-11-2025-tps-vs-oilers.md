@@ -6,7 +6,7 @@ type: game
 game_id: tps-oilers-12-11-2025
 home_team: TPS
 away_team: Oilers
-attendance: 466.0
+attendance: 466
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-4,-5,-6,-7,-8
 away_goal_minutes_csv: 8.3,23.8,26.88,27.57,41.72,44.87,47.63,50.33,50.53,52.58
 away_major_penalty_minutes_csv: 

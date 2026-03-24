@@ -6,7 +6,7 @@ type: game
 game_id: spv-eraviikingit-22-2-2026
 home_team: SPV
 away_team: EräViikingit
-attendance: 678.0
+attendance: 678
 away_goal_diffs_csv: 0,0
 away_goal_minutes_csv: 14.6,31.22
 away_major_penalty_minutes_csv: 

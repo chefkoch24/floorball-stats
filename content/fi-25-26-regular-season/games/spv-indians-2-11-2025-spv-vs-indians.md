@@ -6,7 +6,7 @@ type: game
 game_id: spv-indians-2-11-2025
 home_team: SPV
 away_team: Indians
-attendance: 921.0
+attendance: 921
 away_goal_diffs_csv: 2,1
 away_goal_minutes_csv: 48.07,57.1
 away_major_penalty_minutes_csv: 

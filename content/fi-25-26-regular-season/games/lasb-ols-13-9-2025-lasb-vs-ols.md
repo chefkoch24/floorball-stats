@@ -6,7 +6,7 @@ type: game
 game_id: lasb-ols-13-9-2025
 home_team: LASB
 away_team: OLS
-attendance: 317.0
+attendance: 317
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-4,-4
 away_goal_minutes_csv: 5.63,9.9,14.62,15.27,19.98,51.83,58.48
 away_major_penalty_minutes_csv: 

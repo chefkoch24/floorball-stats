@@ -6,7 +6,7 @@ type: game
 game_id: spv-jymy-17-12-2025
 home_team: SPV
 away_team: Jymy
-attendance: 1178.0
+attendance: 1178
 away_goal_diffs_csv: 0,-1,0,5
 away_goal_minutes_csv: 9.33,15.15,29.97,48.12
 away_major_penalty_minutes_csv: 

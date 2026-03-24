@@ -6,7 +6,7 @@ type: game
 game_id: ols-eraviikingit-1-2-2026
 home_team: OLS
 away_team: EräViikingit
-attendance: 768.0
+attendance: 768
 away_goal_diffs_csv: -1,-2,-2,-3,-2,-1
 away_goal_minutes_csv: 2.68,5.85,17.83,26.53,42.72,56.67
 away_major_penalty_minutes_csv: 

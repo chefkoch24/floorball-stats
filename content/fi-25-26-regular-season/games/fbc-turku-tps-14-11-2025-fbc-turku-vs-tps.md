@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-tps-14-11-2025
 home_team: FBC Turku
 away_team: TPS
-attendance: 1114.0
+attendance: 1114
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-6,-6
 away_goal_minutes_csv: 14.62,20.52,31.6,38.15,40.5,42.97,46.82,48.22
 away_major_penalty_minutes_csv: 

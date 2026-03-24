@@ -6,7 +6,7 @@ type: game
 game_id: tps-lasb-21-2-2026
 home_team: TPS
 away_team: LASB
-attendance: 478.0
+attendance: 478
 away_goal_diffs_csv: -1,0,0,-1,-2
 away_goal_minutes_csv: 5.33,20.97,40.7,55.75,58.83
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-hawks-11-2-2026
 home_team: Nokian KrP
 away_team: Hawks
-attendance: 417.0
+attendance: 417
 away_goal_diffs_csv: -1,1
 away_goal_minutes_csv: 1.72,51.47
 away_major_penalty_minutes_csv: 

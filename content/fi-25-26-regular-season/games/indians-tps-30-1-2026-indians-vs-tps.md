@@ -6,7 +6,7 @@ type: game
 game_id: indians-tps-30-1-2026
 home_team: Indians
 away_team: TPS
-attendance: 544.0
+attendance: 544
 away_goal_diffs_csv: 0,-1,-2,-3,-4
 away_goal_minutes_csv: 21.28,29.47,41.82,45.48,49.83
 away_major_penalty_minutes_csv: 

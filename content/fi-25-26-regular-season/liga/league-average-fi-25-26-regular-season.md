@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-03-18
 Title: League Average
 Category: fi-25-26-regular-season, liga
 Slug: league-average-fi-25-26-regular-season

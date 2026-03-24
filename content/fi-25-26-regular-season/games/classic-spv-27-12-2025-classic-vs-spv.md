@@ -6,7 +6,7 @@ type: game
 game_id: classic-spv-27-12-2025
 home_team: Classic
 away_team: SPV
-attendance: 1257.0
+attendance: 1257
 away_goal_diffs_csv: 2,3,2,1,0,-1,1
 away_goal_minutes_csv: 24.43,28.98,41.68,46.83,47.68,51.12,56.5
 away_major_penalty_minutes_csv: 38.0

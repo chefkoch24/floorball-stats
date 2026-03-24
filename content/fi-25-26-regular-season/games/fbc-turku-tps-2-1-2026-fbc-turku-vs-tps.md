@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-tps-2-1-2026
 home_team: FBC Turku
 away_team: TPS
-attendance: 1075.0
+attendance: 1075
 away_goal_diffs_csv: 0,0,0,-1,-1
 away_goal_minutes_csv: 11.78,25.6,38.02,42.63,45.15
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: tps-eraviikingit-5-1-2026
 home_team: TPS
 away_team: EräViikingit
-attendance: 622.0
+attendance: 622
 away_goal_diffs_csv: -1,-2,-3,-1
 away_goal_minutes_csv: 21.85,25.95,29.37,60.7
 away_major_penalty_minutes_csv: 

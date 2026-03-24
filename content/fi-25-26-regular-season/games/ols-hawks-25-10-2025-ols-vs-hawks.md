@@ -6,7 +6,7 @@ type: game
 game_id: ols-hawks-25-10-2025
 home_team: OLS
 away_team: Hawks
-attendance: 648.0
+attendance: 648
 away_goal_diffs_csv: 2
 away_goal_minutes_csv: 33.45
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-oilers-29-1-2026
 home_team: FBC Turku
 away_team: Oilers
-attendance: 355.0
+attendance: 355
 away_goal_diffs_csv: 0,-1,-1,-1,-2,-2,-2,-3,-4,-5,-6,-7,-8,-9,-8
 away_goal_minutes_csv: 4.62,9.2,15.57,21.78,27.52,29.57,31.3,35.17,35.87,39.05,42.25,44.13,48.78,49.82,59.98
 away_major_penalty_minutes_csv: 

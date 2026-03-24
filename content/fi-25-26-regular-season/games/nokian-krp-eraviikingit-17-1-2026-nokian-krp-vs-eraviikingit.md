@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-eraviikingit-17-1-2026
 home_team: Nokian KrP
 away_team: EräViikingit
-attendance: 577.0
+attendance: 577
 away_goal_diffs_csv: 0,7,10
 away_goal_minutes_csv: 11.07,33.38,59.02
 away_major_penalty_minutes_csv: 

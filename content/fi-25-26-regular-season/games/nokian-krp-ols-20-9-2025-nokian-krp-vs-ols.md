@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-ols-20-9-2025
 home_team: Nokian KrP
 away_team: OLS
-attendance: 392.0
+attendance: 392
 away_goal_diffs_csv: 0,0,1
 away_goal_minutes_csv: 5.02,16.85,47.72
 away_major_penalty_minutes_csv: 

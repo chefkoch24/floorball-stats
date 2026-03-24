@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-jymy-23-11-2025
 home_team: FBC Turku
 away_team: Jymy
-attendance: 457.0
+attendance: 457
 away_goal_diffs_csv: -1,-1,-2,-3,-4,-5,-6,-6,-7
 away_goal_minutes_csv: 6.5,19.92,24.9,28.25,36.55,37.3,43.2,48.3,55.92
 away_major_penalty_minutes_csv: 

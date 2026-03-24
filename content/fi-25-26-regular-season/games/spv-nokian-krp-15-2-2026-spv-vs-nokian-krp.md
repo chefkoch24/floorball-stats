@@ -6,7 +6,7 @@ type: game
 game_id: spv-nokian-krp-15-2-2026
 home_team: SPV
 away_team: Nokian KrP
-attendance: 812.0
+attendance: 812
 away_goal_diffs_csv: -1,-2,-3,-3,-3
 away_goal_minutes_csv: 14.52,31.6,33.4,49.18,59.97
 away_major_penalty_minutes_csv: 

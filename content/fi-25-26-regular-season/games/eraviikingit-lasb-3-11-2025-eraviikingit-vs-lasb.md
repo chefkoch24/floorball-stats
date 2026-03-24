@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-lasb-3-11-2025
 home_team: EräViikingit
 away_team: LASB
-attendance: 429.0
+attendance: 429
 away_goal_diffs_csv: 1,1,0
 away_goal_minutes_csv: 19.92,53.98,58.08
 away_major_penalty_minutes_csv: 

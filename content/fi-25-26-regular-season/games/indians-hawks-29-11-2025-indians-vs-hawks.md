@@ -6,7 +6,7 @@ type: game
 game_id: indians-hawks-29-11-2025
 home_team: Indians
 away_team: Hawks
-attendance: 500.0
+attendance: 500
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
 away_major_penalty_minutes_csv: 

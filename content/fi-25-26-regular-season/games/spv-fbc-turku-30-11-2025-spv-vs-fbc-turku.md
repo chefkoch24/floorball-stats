@@ -6,7 +6,7 @@ type: game
 game_id: spv-fbc-turku-30-11-2025
 home_team: SPV
 away_team: FBC Turku
-attendance: 893.0
+attendance: 893
 away_goal_diffs_csv: 3,2
 away_goal_minutes_csv: 40.65,42.68
 away_major_penalty_minutes_csv: 

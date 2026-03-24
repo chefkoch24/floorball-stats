@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-classic-13-12-2025
 home_team: Nokian KrP
 away_team: Classic
-attendance: 1005.0
+attendance: 1005
 away_goal_diffs_csv: -1,2,1,0
 away_goal_minutes_csv: 7.63,38.5,41.2,46.18
 away_major_penalty_minutes_csv: 

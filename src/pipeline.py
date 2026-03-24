@@ -118,6 +118,7 @@ def run_pipeline(
                 schedule_urls=finland_schedule_urls,
                 output_path=str(raw_csv),
                 include_unplayed=True,
+                phase=phase,
             )
         elif backend == "slovakia":
             if not slovakia_schedule_urls:

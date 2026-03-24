@@ -6,7 +6,7 @@ type: game
 game_id: lasb-classic-4-10-2025
 home_team: LASB
 away_team: Classic
-attendance: 307.0
+attendance: 307
 away_goal_diffs_csv: -1,-2,-3,-4,-4,-4
 away_goal_minutes_csv: 13.83,14.77,18.28,29.58,57.47,58.53
 away_major_penalty_minutes_csv: 

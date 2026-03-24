@@ -6,7 +6,7 @@ type: game
 game_id: oilers-fbc-turku-13-12-2025
 home_team: Oilers
 away_team: FBC Turku
-attendance: 627.0
+attendance: 627
 away_goal_diffs_csv: -1,-2,-2,1,0,1,1
 away_goal_minutes_csv: 5.22,6.52,14.83,30.27,32.77,38.57,56.7
 away_major_penalty_minutes_csv: 

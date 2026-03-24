@@ -1,0 +1,10 @@
+{
+  "backend": "finland",
+  "season": "fi-25-26",
+  "phase": "playoffs",
+  "finland": {
+    "schedule_urls": [
+      "https://fliiga.com/en/matches/men/"
+    ]
+  }
+}

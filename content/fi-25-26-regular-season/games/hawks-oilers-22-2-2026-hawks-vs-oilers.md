@@ -6,7 +6,7 @@ type: game
 game_id: hawks-oilers-22-2-2026
 home_team: Hawks
 away_team: Oilers
-attendance: 201.0
+attendance: 201
 away_goal_diffs_csv: -1,-2,-1,-2,-3,-4,-5,-6,-4,-5,-5
 away_goal_minutes_csv: 3.85,4.32,10.97,18.33,24.37,25.67,29.53,33.08,47.08,53.08,59.73
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: tps-indians-29-10-2025
 home_team: TPS
 away_team: Indians
-attendance: 496.0
+attendance: 496
 away_goal_diffs_csv: -1,-2,-3,-2,-3,-4
 away_goal_minutes_csv: 4.82,7.1,12.02,57.47,59.27,59.72
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: oilers-eraviikingit-6-12-2025
 home_team: Oilers
 away_team: EräViikingit
-attendance: 781.0
+attendance: 781
 away_goal_diffs_csv: 1,4
 away_goal_minutes_csv: 30.52,53.68
 away_major_penalty_minutes_csv: 

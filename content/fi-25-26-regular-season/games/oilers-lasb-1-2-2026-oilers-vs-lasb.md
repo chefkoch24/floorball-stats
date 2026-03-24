@@ -6,7 +6,7 @@ type: game
 game_id: oilers-lasb-1-2-2026
 home_team: Oilers
 away_team: LASB
-attendance: 485.0
+attendance: 485
 away_goal_diffs_csv: 9,11,11
 away_goal_minutes_csv: 39.9,53.63,58.6
 away_major_penalty_minutes_csv: 

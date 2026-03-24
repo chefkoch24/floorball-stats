@@ -6,7 +6,7 @@ type: game
 game_id: oilers-spv-7-3-2026
 home_team: Oilers
 away_team: SPV
-attendance: 789.0
+attendance: 789
 away_goal_diffs_csv: -1,0,-1,-1,0
 away_goal_minutes_csv: 5.03,11.4,18.37,34.12,53.35
 away_major_penalty_minutes_csv: 

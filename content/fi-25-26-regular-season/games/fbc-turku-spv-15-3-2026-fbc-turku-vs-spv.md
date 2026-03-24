@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-spv-15-3-2026
 home_team: FBC Turku
 away_team: SPV
-attendance: 298.0
+attendance: 298
 away_goal_diffs_csv: 0,-1,-2,-3,-3,-4,-5,-5,-6,-7,-8,-9
 away_goal_minutes_csv: 8.52,14.3,14.98,17.98,25.88,27.53,33.45,34.12,41.57,44.48,56.87,59.67
 away_major_penalty_minutes_csv: 

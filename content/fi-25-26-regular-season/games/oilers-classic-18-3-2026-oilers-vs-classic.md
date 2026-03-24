@@ -6,7 +6,7 @@ type: game
 game_id: oilers-classic-18-3-2026
 home_team: Oilers
 away_team: Classic
-attendance: 1100.0
+attendance: 1100
 away_goal_diffs_csv: 0,0,-1,-1,-2,-2
 away_goal_minutes_csv: 12.62,14.37,21.23,26.88,29.33,58.55
 away_major_penalty_minutes_csv: 

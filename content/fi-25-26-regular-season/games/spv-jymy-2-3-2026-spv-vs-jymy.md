@@ -6,7 +6,7 @@ type: game
 game_id: spv-jymy-2-3-2026
 home_team: SPV
 away_team: Jymy
-attendance: 823.0
+attendance: 823
 away_goal_diffs_csv: 1,3,2,3,3,2,2
 away_goal_minutes_csv: 5.83,22.63,37.65,49.97,55.35,57.48,59.47
 away_major_penalty_minutes_csv: 

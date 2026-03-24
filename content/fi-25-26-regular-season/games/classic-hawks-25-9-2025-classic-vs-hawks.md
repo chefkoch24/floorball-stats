@@ -6,7 +6,7 @@ type: game
 game_id: classic-hawks-25-9-2025
 home_team: Classic
 away_team: Hawks
-attendance: 781.0
+attendance: 781
 away_goal_diffs_csv: 12
 away_goal_minutes_csv: 54.6
 away_major_penalty_minutes_csv: 

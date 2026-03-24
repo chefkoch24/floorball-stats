@@ -6,7 +6,7 @@ type: game
 game_id: lasb-jymy-28-12-2025
 home_team: LASB
 away_team: Jymy
-attendance: 428.0
+attendance: 428
 away_goal_diffs_csv: -1,-2,-3,-4
 away_goal_minutes_csv: 2.1,4.05,5.2,26.17
 away_major_penalty_minutes_csv: 

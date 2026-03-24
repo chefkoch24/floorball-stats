@@ -20,6 +20,12 @@ This runs the new unified module entrypoint:
 python -m src.pipeline --league_id 1890 --season 25-26 --phase regular-season
 ```
 
+German playoffs (Saisonmanager league id `1963`) via config:
+
+```bash
+make refresh-current-season-playoffs
+```
+
 ## Sweden (StatsApp backend)
 
 Pipeline entrypoint with Sweden backend:
@@ -69,6 +75,15 @@ Make target:
 make refresh-latvia LATVIA_LEAGUE_CONFIG=config/leagues/latvia-elvi-vv.json
 ```
 
+## Finland playoffs
+
+Playoffs / smart refresh:
+
+```bash
+make refresh-finland-playoffs
+make refresh-finland-smart
+```
+
 ## Switzerland (renderengine backend)
 
 Use a schedule page URL (the scraper extracts `game_id` links) or pass explicit IDs:
@@ -98,6 +113,12 @@ Override:
 
 ```bash
 make refresh-current-season LEAGUE_ID=1890 SEASON=25-26 PHASE=regular-season
+```
+
+Playoffs:
+
+```bash
+make refresh-current-season-playoffs GERMANY_PLAYOFFS_LEAGUE_CONFIG=config/leagues/germany-1fbl-playoffs.json
 ```
 
 ## Run tests

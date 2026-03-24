@@ -6,7 +6,7 @@ type: game
 game_id: ols-fbc-turku-10-1-2026
 home_team: OLS
 away_team: FBC Turku
-attendance: 521.0
+attendance: 521
 away_goal_diffs_csv: 1,9
 away_goal_minutes_csv: 25.13,54.92
 away_major_penalty_minutes_csv: 

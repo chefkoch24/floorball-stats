@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-ols-12-10-2025
 home_team: FBC Turku
 away_team: OLS
-attendance: 378.0
+attendance: 378
 away_goal_diffs_csv: 1,0,0,0
 away_goal_minutes_csv: 19.92,21.67,51.97,56.88
 away_major_penalty_minutes_csv: 

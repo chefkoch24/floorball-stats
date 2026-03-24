@@ -6,7 +6,7 @@ type: game
 game_id: lasb-oilers-1-11-2025
 home_team: LASB
 away_team: Oilers
-attendance: 297.0
+attendance: 297
 away_goal_diffs_csv: -1,-2,-2,-3,-4,-5,-6,-7,-5
 away_goal_minutes_csv: 6.65,12.17,23.65,24.18,30.0,33.07,38.2,45.87,59.33
 away_major_penalty_minutes_csv: 

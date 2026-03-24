@@ -6,7 +6,7 @@ type: game
 game_id: hawks-eraviikingit-3-1-2026
 home_team: Hawks
 away_team: EräViikingit
-attendance: 883.0
+attendance: 883
 away_goal_diffs_csv: -1,-1,-2,0,-1
 away_goal_minutes_csv: 1.03,7.07,8.22,46.47,60.8
 away_major_penalty_minutes_csv: 

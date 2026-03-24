@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-classic-29-11-2025
 home_team: EräViikingit
 away_team: Classic
-attendance: 255.0
+attendance: 255
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-4,-4,-5
 away_goal_minutes_csv: 15.15,18.43,31.87,32.22,36.52,45.22,48.62,55.95
 away_major_penalty_minutes_csv: 

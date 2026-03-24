@@ -6,7 +6,7 @@ type: game
 game_id: spv-ols-18-3-2026
 home_team: SPV
 away_team: OLS
-attendance: 812.0
+attendance: 812
 away_goal_diffs_csv: 1,0,0,0
 away_goal_minutes_csv: 8.37,17.55,24.62,37.2
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: hawks-jymy-14-2-2026
 home_team: Hawks
 away_team: Jymy
-attendance: 287.0
+attendance: 287
 away_goal_diffs_csv: 1,0,0,1
 away_goal_minutes_csv: 7.27,10.03,19.98,59.58
 away_major_penalty_minutes_csv: 

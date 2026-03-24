@@ -6,7 +6,7 @@ type: game
 game_id: classic-indians-12-2-2026
 home_team: Classic
 away_team: Indians
-attendance: 698.0
+attendance: 698
 away_goal_diffs_csv: 0,0,0
 away_goal_minutes_csv: 15.97,27.62,55.32
 away_major_penalty_minutes_csv: 

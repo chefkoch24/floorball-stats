@@ -6,7 +6,7 @@ type: game
 game_id: indians-nokian-krp-21-11-2025
 home_team: Indians
 away_team: Nokian KrP
-attendance: 590.0
+attendance: 590
 away_goal_diffs_csv: -1,-2,-3,-2,-3
 away_goal_minutes_csv: 6.38,25.62,27.08,51.7,54.77
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: hawks-tps-20-12-2025
 home_team: Hawks
 away_team: TPS
-attendance: 292.0
+attendance: 292
 away_goal_diffs_csv: -1,0,-1
 away_goal_minutes_csv: 10.45,42.73,64.95
 away_major_penalty_minutes_csv: 

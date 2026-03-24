@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-jymy-10-10-2025
 home_team: EräViikingit
 away_team: Jymy
-attendance: 474.0
+attendance: 474
 away_goal_diffs_csv: -1,-1,-2,1
 away_goal_minutes_csv: 4.18,11.6,19.23,50.92
 away_major_penalty_minutes_csv: 

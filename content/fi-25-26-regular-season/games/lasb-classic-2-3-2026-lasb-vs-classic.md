@@ -6,7 +6,7 @@ type: game
 game_id: lasb-classic-2-3-2026
 home_team: LASB
 away_team: Classic
-attendance: 395.0
+attendance: 395
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-5,-5,-6,-7,-8,-9,-9
 away_goal_minutes_csv: 2.78,3.42,4.13,6.8,11.8,21.25,25.73,28.37,35.45,43.57,45.87,50.7,54.38
 away_major_penalty_minutes_csv: 

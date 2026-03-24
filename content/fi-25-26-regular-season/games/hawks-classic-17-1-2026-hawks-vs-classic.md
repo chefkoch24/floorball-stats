@@ -6,7 +6,7 @@ type: game
 game_id: hawks-classic-17-1-2026
 home_team: Hawks
 away_team: Classic
-attendance: 292.0
+attendance: 292
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-6,-6,-7,-7
 away_goal_minutes_csv: 8.83,10.92,12.13,24.12,27.0,33.92,37.77,43.07,50.67,58.53
 away_major_penalty_minutes_csv: 

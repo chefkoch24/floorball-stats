@@ -6,7 +6,7 @@ type: game
 game_id: indians-oilers-24-10-2025
 home_team: Indians
 away_team: Oilers
-attendance: 773.0
+attendance: 773
 away_goal_diffs_csv: 1,1
 away_goal_minutes_csv: 54.77,58.28
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: indians-fbc-turku-10-10-2025
 home_team: Indians
 away_team: FBC Turku
-attendance: 480.0
+attendance: 480
 away_goal_diffs_csv: 0,2
 away_goal_minutes_csv: 7.72,30.07
 away_major_penalty_minutes_csv: 

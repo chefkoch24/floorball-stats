@@ -6,7 +6,7 @@ type: game
 game_id: indians-jymy-18-3-2026
 home_team: Indians
 away_team: Jymy
-attendance: 580.0
+attendance: 580
 away_goal_diffs_csv: 5,8,7
 away_goal_minutes_csv: 19.8,34.05,35.23
 away_major_penalty_minutes_csv: 

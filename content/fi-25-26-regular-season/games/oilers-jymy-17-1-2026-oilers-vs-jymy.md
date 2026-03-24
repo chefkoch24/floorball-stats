@@ -6,7 +6,7 @@ type: game
 game_id: oilers-jymy-17-1-2026
 home_team: Oilers
 away_team: Jymy
-attendance: 526.0
+attendance: 526
 away_goal_diffs_csv: 2,1,1
 away_goal_minutes_csv: 18.72,20.32,27.47
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: ols-classic-22-11-2025
 home_team: OLS
 away_team: Classic
-attendance: 774.0
+attendance: 774
 away_goal_diffs_csv: -1,-1,-1,1,0
 away_goal_minutes_csv: 3.08,4.5,13.03,33.53,38.68
 away_major_penalty_minutes_csv: 

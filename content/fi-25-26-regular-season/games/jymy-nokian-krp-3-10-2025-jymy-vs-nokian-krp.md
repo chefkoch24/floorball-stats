@@ -6,7 +6,7 @@ type: game
 game_id: jymy-nokian-krp-3-10-2025
 home_team: Jymy
 away_team: Nokian KrP
-attendance: 320.0
+attendance: 320
 away_goal_diffs_csv: -1,1,0,0,-1,-2,-3,-3,-3,-4,-5,-6
 away_goal_minutes_csv: 2.25,15.98,17.6,23.3,31.05,31.65,39.95,50.58,55.92,56.78,58.73,59.2
 away_major_penalty_minutes_csv: 

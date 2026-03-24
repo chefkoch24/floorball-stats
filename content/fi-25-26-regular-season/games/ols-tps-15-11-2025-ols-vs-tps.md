@@ -6,7 +6,7 @@ type: game
 game_id: ols-tps-15-11-2025
 home_team: OLS
 away_team: TPS
-attendance: 611.0
+attendance: 611
 away_goal_diffs_csv: 1,0,-1,5,4,3
 away_goal_minutes_csv: 19.87,24.7,30.87,54.07,57.95,59.3
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: tps-classic-24-1-2026
 home_team: TPS
 away_team: Classic
-attendance: 703.0
+attendance: 703
 away_goal_diffs_csv: -1,-2,-2,-3,-4,-5
 away_goal_minutes_csv: 14.8,15.32,29.48,37.65,39.25,59.75
 away_major_penalty_minutes_csv: 

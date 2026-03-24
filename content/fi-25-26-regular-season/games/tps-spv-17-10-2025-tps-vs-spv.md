@@ -6,7 +6,7 @@ type: game
 game_id: tps-spv-17-10-2025
 home_team: TPS
 away_team: SPV
-attendance: 609.0
+attendance: 609
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7
 away_goal_minutes_csv: 10.55,26.2,27.8,30.98,44.8,48.92,49.63
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: tps-jymy-13-3-2026
 home_team: TPS
 away_team: Jymy
-attendance: 459.0
+attendance: 459
 away_goal_diffs_csv: -1,2,2,1
 away_goal_minutes_csv: 2.27,50.45,56.0,56.2
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: nokian-krp-lasb-18-3-2026
 home_team: Nokian KrP
 away_team: LASB
-attendance: 417.0
+attendance: 417
 away_goal_diffs_csv: 9
 away_goal_minutes_csv: 54.45
 away_major_penalty_minutes_csv: 

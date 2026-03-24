@@ -6,7 +6,7 @@ type: game
 game_id: indians-ols-17-1-2026
 home_team: Indians
 away_team: OLS
-attendance: 545.0
+attendance: 545
 away_goal_diffs_csv: 1,0,-1,-1
 away_goal_minutes_csv: 15.83,30.67,33.25,63.93
 away_major_penalty_minutes_csv: 

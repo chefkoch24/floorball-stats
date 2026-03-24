@@ -6,7 +6,7 @@ type: game
 game_id: oilers-ols-2-11-2025
 home_team: Oilers
 away_team: OLS
-attendance: 871.0
+attendance: 871
 away_goal_diffs_csv: 6,9,10
 away_goal_minutes_csv: 29.1,46.43,58.03
 away_major_penalty_minutes_csv: 

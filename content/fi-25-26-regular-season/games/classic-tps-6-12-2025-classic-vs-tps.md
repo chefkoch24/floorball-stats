@@ -6,7 +6,7 @@ type: game
 game_id: classic-tps-6-12-2025
 home_team: Classic
 away_team: TPS
-attendance: 914.0
+attendance: 914
 away_goal_diffs_csv: 4,6,8
 away_goal_minutes_csv: 21.05,33.17,43.83
 away_major_penalty_minutes_csv: 

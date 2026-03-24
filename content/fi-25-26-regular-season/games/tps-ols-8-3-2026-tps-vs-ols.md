@@ -6,7 +6,7 @@ type: game
 game_id: tps-ols-8-3-2026
 home_team: TPS
 away_team: OLS
-attendance: 412.0
+attendance: 412
 away_goal_diffs_csv: -1,-2,-1,1
 away_goal_minutes_csv: 6.05,8.27,35.7,58.97
 away_major_penalty_minutes_csv: 

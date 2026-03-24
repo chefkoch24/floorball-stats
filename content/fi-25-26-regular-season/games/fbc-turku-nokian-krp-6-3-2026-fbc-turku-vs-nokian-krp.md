@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-nokian-krp-6-3-2026
 home_team: FBC Turku
 away_team: Nokian KrP
-attendance: 295.0
+attendance: 295
 away_goal_diffs_csv: 0,0,-1,-2,-3,-3,-4
 away_goal_minutes_csv: 14.53,21.1,23.93,24.65,29.83,57.45,59.72
 away_major_penalty_minutes_csv: 

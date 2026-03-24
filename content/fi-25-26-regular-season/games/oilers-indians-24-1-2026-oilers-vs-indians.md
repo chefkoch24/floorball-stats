@@ -6,7 +6,7 @@ type: game
 game_id: oilers-indians-24-1-2026
 home_team: Oilers
 away_team: Indians
-attendance: 1125.0
+attendance: 1125
 away_goal_diffs_csv: -1,-2,-3,-1,0
 away_goal_minutes_csv: 13.57,14.35,21.92,52.37,57.97
 away_major_penalty_minutes_csv: 

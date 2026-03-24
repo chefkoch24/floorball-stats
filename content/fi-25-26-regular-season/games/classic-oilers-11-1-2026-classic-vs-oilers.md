@@ -6,7 +6,7 @@ type: game
 game_id: classic-oilers-11-1-2026
 home_team: Classic
 away_team: Oilers
-attendance: 945.0
+attendance: 945
 away_goal_diffs_csv: -1,-2,1,3,3,3
 away_goal_minutes_csv: 2.92,7.05,33.82,51.42,52.53,56.6
 away_major_penalty_minutes_csv: 

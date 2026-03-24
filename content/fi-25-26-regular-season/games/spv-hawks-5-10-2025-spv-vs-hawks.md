@@ -6,7 +6,7 @@ type: game
 game_id: spv-hawks-5-10-2025
 home_team: SPV
 away_team: Hawks
-attendance: 976.0
+attendance: 976
 away_goal_diffs_csv: -1,-1,-1,-2,-1
 away_goal_minutes_csv: 1.75,6.65,18.3,26.57,41.53
 away_major_penalty_minutes_csv: 

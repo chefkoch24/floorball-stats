@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-spv-22-11-2025
 home_team: EräViikingit
 away_team: SPV
-attendance: 404.0
+attendance: 404
 away_goal_diffs_csv: 0,0,-1,-2,-3,-4,-5,-6
 away_goal_minutes_csv: 2.07,8.42,13.17,27.52,27.93,30.23,46.05,52.47
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: eraviikingit-indians-13-9-2025
 home_team: EräViikingit
 away_team: Indians
-attendance: 552.0
+attendance: 552
 away_goal_diffs_csv: -1,-1,-2,-3,-1,-2,-3,-4,-5,-6,-7
 away_goal_minutes_csv: 0.97,12.27,13.67,14.6,27.63,30.37,42.52,48.48,54.48,54.67,55.53
 away_major_penalty_minutes_csv: 

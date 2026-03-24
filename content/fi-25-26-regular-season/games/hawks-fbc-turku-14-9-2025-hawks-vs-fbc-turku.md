@@ -6,7 +6,7 @@ type: game
 game_id: hawks-fbc-turku-14-9-2025
 home_team: Hawks
 away_team: FBC Turku
-attendance: 379.0
+attendance: 379
 away_goal_diffs_csv: -1,-1,4,4
 away_goal_minutes_csv: 5.47,10.15,41.07,53.52
 away_major_penalty_minutes_csv: 

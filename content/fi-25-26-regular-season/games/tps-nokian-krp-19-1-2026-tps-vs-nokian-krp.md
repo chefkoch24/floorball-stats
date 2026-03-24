@@ -6,7 +6,7 @@ type: game
 game_id: tps-nokian-krp-19-1-2026
 home_team: TPS
 away_team: Nokian KrP
-attendance: 388.0
+attendance: 388
 away_goal_diffs_csv: -1,-1,0,-1,0,-1
 away_goal_minutes_csv: 13.73,19.78,23.52,31.38,51.7,61.03
 away_major_penalty_minutes_csv: 

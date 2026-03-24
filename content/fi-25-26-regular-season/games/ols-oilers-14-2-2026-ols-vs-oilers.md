@@ -6,7 +6,7 @@ type: game
 game_id: ols-oilers-14-2-2026
 home_team: OLS
 away_team: Oilers
-attendance: 625.0
+attendance: 625
 away_goal_diffs_csv: -1,-2,-1,-2,-3,-4,-4,-5
 away_goal_minutes_csv: 2.57,9.88,29.57,30.17,33.92,40.63,49.25,55.05
 away_major_penalty_minutes_csv: 

@@ -6,7 +6,7 @@ type: game
 game_id: lasb-indians-12-10-2025
 home_team: LASB
 away_team: Indians
-attendance: 326.0
+attendance: 326
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6
 away_goal_minutes_csv: 2.78,3.62,17.17,29.1,38.37,54.25
 away_major_penalty_minutes_csv: 

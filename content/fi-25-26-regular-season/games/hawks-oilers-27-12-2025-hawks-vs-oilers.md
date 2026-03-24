@@ -6,7 +6,7 @@ type: game
 game_id: hawks-oilers-27-12-2025
 home_team: Hawks
 away_team: Oilers
-attendance: 421.0
+attendance: 421
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-8,-9,-10,-11,-11
 away_goal_minutes_csv: 7.53,17.52,21.45,27.07,28.05,28.75,37.15,38.1,46.82,48.57,50.78,51.62,57.7
 away_major_penalty_minutes_csv: 

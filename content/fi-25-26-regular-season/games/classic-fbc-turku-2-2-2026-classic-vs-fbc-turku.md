@@ -6,7 +6,7 @@ type: game
 game_id: classic-fbc-turku-2-2-2026
 home_team: Classic
 away_team: FBC Turku
-attendance: 559.0
+attendance: 559
 away_goal_diffs_csv: 6,9,9
 away_goal_minutes_csv: 36.85,52.8,57.97
 away_major_penalty_minutes_csv: 

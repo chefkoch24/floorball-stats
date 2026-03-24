@@ -6,7 +6,7 @@ type: game
 game_id: classic-jymy-14-9-2025
 home_team: Classic
 away_team: Jymy
-attendance: 777.0
+attendance: 777
 away_goal_diffs_csv: 3,2,1
 away_goal_minutes_csv: 24.87,27.23,54.28
 away_major_penalty_minutes_csv: 

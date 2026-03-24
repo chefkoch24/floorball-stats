@@ -6,7 +6,7 @@ type: game
 game_id: classic-eraviikingit-14-3-2026
 home_team: Classic
 away_team: EräViikingit
-attendance: 639.0
+attendance: 639
 away_goal_diffs_csv: 0,-1,-2,2,7
 away_goal_minutes_csv: 4.28,5.43,7.88,31.37,53.88
 away_major_penalty_minutes_csv: 

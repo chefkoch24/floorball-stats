@@ -6,7 +6,7 @@ type: game
 game_id: fbc-turku-eraviikingit-24-10-2025
 home_team: FBC Turku
 away_team: EräViikingit
-attendance: 403.0
+attendance: 403
 away_goal_diffs_csv: -1,0,1,0,-1,-2,-3,-4,-4,-5
 away_goal_minutes_csv: 2.78,15.23,25.67,30.57,31.65,45.13,45.85,54.38,58.47,58.75
 away_major_penalty_minutes_csv: 
