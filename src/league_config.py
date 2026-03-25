@@ -43,6 +43,7 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
 
     finland = config.get("finland", {}) or {}
     args.finland_schedule_url = finland.get("schedule_urls", args.finland_schedule_url)
+    args.finland_playoff_start_date = finland.get("playoff_start_date", args.finland_playoff_start_date)
 
     slovakia = config.get("slovakia", {}) or {}
     args.slovakia_schedule_url = slovakia.get("schedule_urls", args.slovakia_schedule_url)

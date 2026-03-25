@@ -319,6 +319,7 @@ def scrape_matches(
     output_path: str,
     include_unplayed: bool = False,
     phase: str = "regular-season",
+    playoff_start_date: str | None = None,
 ) -> pd.DataFrame:
     matches: list[MatchCard] = []
     for url in schedule_urls:
@@ -334,23 +335,27 @@ def scrape_matches(
             return None
 
     phase_lower = phase.lower()
-    today_local = datetime.now(FINLAND_TZ).date()
+    if playoff_start_date:
+        playoff_start = datetime.strptime(playoff_start_date, "%Y-%m-%d").date()
+    else:
+        playoff_start = datetime.now(FINLAND_TZ).date()
+
     if phase_lower == "playoffs":
-        # User rule for Finland 25/26: playoffs start from today's games onward.
+        # Finland rule: all matches after regular-season cutoff are playoffs.
         filtered_matches: list[MatchCard] = []
         for match in matches:
             match_date = _as_date(match.game_date)
-            if match_date is not None and match_date >= today_local:
+            if match_date is not None and match_date >= playoff_start:
                 filtered_matches.append(match)
             elif match_date is None and not match.is_hidden:
                 filtered_matches.append(match)
         matches = filtered_matches
     elif phase_lower == "regular-season":
-        # All games before today belong to regular season.
+        # All games before playoff cutoff belong to regular season.
         filtered_matches = []
         for match in matches:
             match_date = _as_date(match.game_date)
-            if match_date is not None and match_date < today_local:
+            if match_date is not None and match_date < playoff_start:
                 filtered_matches.append(match)
             elif match_date is None and match.is_hidden:
                 filtered_matches.append(match)
@@ -390,6 +395,7 @@ def parse_args():
     parser.add_argument("--output_path", type=str, default="data/data_finland.csv")
     parser.add_argument("--include_unplayed", action="store_true")
     parser.add_argument("--phase", type=str, default="regular-season")
+    parser.add_argument("--playoff_start_date", type=str, default=None)
     return parser.parse_args()
 
 
@@ -400,6 +406,7 @@ def main():
         output_path=args.output_path,
         include_unplayed=args.include_unplayed,
         phase=args.phase,
+        playoff_start_date=args.playoff_start_date,
     )
 
 

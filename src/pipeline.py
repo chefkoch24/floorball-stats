@@ -36,6 +36,7 @@ def run_pipeline(
     czech_schedule_urls: list[str] | None = None,
     czech_season_start_year: int | None = None,
     finland_schedule_urls: list[str] | None = None,
+    finland_playoff_start_date: str | None = None,
     slovakia_schedule_urls: list[str] | None = None,
     slovakia_regular_season_end: str | None = None,
     slovakia_regular_season_games_per_team: int | None = None,
@@ -119,6 +120,7 @@ def run_pipeline(
                 output_path=str(raw_csv),
                 include_unplayed=True,
                 phase=phase,
+                playoff_start_date=finland_playoff_start_date,
             )
         elif backend == "slovakia":
             if not slovakia_schedule_urls:
@@ -199,6 +201,7 @@ def parse_args():
     parser.add_argument("--czech_schedule_url", action="append", default=None)
     parser.add_argument("--czech_season_start_year", type=int, default=None)
     parser.add_argument("--finland_schedule_url", action="append", default=None)
+    parser.add_argument("--finland_playoff_start_date", type=str, default=None)
     parser.add_argument("--slovakia_schedule_url", action="append", default=None)
     parser.add_argument("--slovakia_regular_season_end", type=str, default=None)
     parser.add_argument("--slovakia_regular_season_games_per_team", type=int, default=None)
@@ -255,6 +258,7 @@ def main():
         czech_schedule_urls=args.czech_schedule_url,
         czech_season_start_year=args.czech_season_start_year,
         finland_schedule_urls=args.finland_schedule_url,
+        finland_playoff_start_date=args.finland_playoff_start_date,
         slovakia_schedule_urls=args.slovakia_schedule_url,
         slovakia_regular_season_end=args.slovakia_regular_season_end,
         slovakia_regular_season_games_per_team=args.slovakia_regular_season_games_per_team,

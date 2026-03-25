@@ -3,6 +3,7 @@
   "season": "fi-25-26",
   "phase": "regular-season",
   "finland": {
+    "playoff_start_date": "2026-03-23",
     "schedule_urls": [
       "https://fliiga.com/en/matches/men/"
     ]
