@@ -1,0 +1,81 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    # 23:00 Europe/Berlin year-round via UTC (handles DST with a runtime gate below)
+    - cron: "0 21 * * *"
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check Berlin time gate (23:00)
+        id: berlin_gate
+        run: |
+          BERLIN_HOUR="$(TZ=Europe/Berlin date +%H)"
+          BERLIN_DATE="$(TZ=Europe/Berlin date +%Y-%m-%d)"
+          echo "Berlin date: ${BERLIN_DATE}, hour: ${BERLIN_HOUR}"
+          if [ "${BERLIN_HOUR}" = "23" ]; then
+            echo "run_refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_refresh=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: not 23:00 in Europe/Berlin."
+          fi
+
+      - name: Checkout
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run daily refresh
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          make refresh-current-season
+          make refresh-sweden-smart
+          make refresh-switzerland-smart
+          make refresh-finland-smart
+          make refresh-czech
+          make refresh-slovakia-smart
+          make refresh-latvia-smart
+          make html
+
+      - name: Run tests
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        run: pytest -q
+
+      - name: Commit changes if any
+        if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: daily data refresh ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push origin master
