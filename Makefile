@@ -32,6 +32,7 @@ LEAGUE_ID ?= 1890
 SEASON ?= 25-26
 PHASE ?= regular-season
 GERMANY_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/germany-1fbl-playoffs.json
+GERMANY_PLAYOFFS_CSV ?= data/data_$(SEASON)_playoffs.csv
 # Sweden pipeline defaults (SSL StatsApp)
 SWEDEN_COMPETITION_ID ?= 40693
 SWEDEN_SEASON ?= se-25-26
@@ -80,6 +81,7 @@ help:
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
 	@echo '   make refresh-current-season         full pipeline for 1. FBL Herren     '
 	@echo '   make refresh-current-season-playoffs playoffs pipeline for 1. FBL Herren '
+	@echo '   make refresh-current-season-smart   Germany smart regular/playoffs refresh'
 	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
 	@echo '   make refresh-sweden-playoffs        playoffs pipeline for Sweden SSL     '
 	@echo '   make refresh-sweden-smart           Sweden smart regular/playoffs refresh'
@@ -100,6 +102,7 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
 	@echo 'Set GERMANY_PLAYOFFS_LEAGUE_CONFIG to override refresh-current-season-playoffs'
+	@echo 'Set GERMANY_PLAYOFFS_CSV to override refresh-current-season-smart           '
 	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
 	@echo 'Set SWEDEN_PLAYOFFS_LEAGUE_CONFIG to override refresh-sweden-playoffs      '
 	@echo 'Set SWEDEN_PLAYOFFS_* to override refresh-sweden-smart                     '
@@ -144,6 +147,14 @@ refresh-current-season:
 
 refresh-current-season-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(GERMANY_PLAYOFFS_LEAGUE_CONFIG)"
+
+refresh-current-season-smart:
+	$(MAKE) refresh-current-season-playoffs
+	@if [ -f "$(GERMANY_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(GERMANY_PLAYOFFS_CSV)")" -gt 1 ]; then \
+		echo "Playoffs detected in $(GERMANY_PLAYOFFS_CSV); skipping refresh-current-season."; \
+	else \
+		$(MAKE) refresh-current-season; \
+	fi
 
 refresh-sweden:
 	"$(PYTHON)" -m src.pipeline --backend sweden --competition_id "$(SWEDEN_COMPETITION_ID)" --season "$(SWEDEN_SEASON)" --phase "$(PHASE)"
@@ -222,7 +233,7 @@ refresh-latvia-smart:
 	fi
 
 refresh-all-leagues:
-	$(MAKE) refresh-current-season
+	$(MAKE) refresh-current-season-smart
 	$(MAKE) refresh-sweden-smart
 	$(MAKE) refresh-switzerland-smart
 	$(MAKE) refresh-finland-smart
@@ -231,4 +242,4 @@ refresh-all-leagues:
 	$(MAKE) refresh-latvia-smart
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues

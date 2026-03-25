@@ -54,7 +54,7 @@ jobs:
       - name: Run daily refresh
         if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          make refresh-current-season
+          make refresh-current-season-smart
           make refresh-sweden-smart
           make refresh-switzerland-smart
           make refresh-finland-smart
