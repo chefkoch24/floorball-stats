@@ -25,7 +25,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: None
 result_string: None
-start_time: None
+start_time: 16:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

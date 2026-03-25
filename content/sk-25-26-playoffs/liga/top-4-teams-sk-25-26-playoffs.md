@@ -89,7 +89,7 @@ powerplay_per_game: 1.83
 powerplay_second_period: 4.75
 powerplay_third_period: 4.5
 rank: 2.5
-scoring_ratio: 1.48
+scoring_ratio: 1.47
 take_the_lead_goals: 9.75
 take_the_lead_goals_against: 6.75
 win_1: 1.0
