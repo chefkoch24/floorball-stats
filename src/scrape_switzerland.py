@@ -26,8 +26,8 @@ class GameDetails:
     result_string: str | None
     goals_home: int | None
     goals_away: int | None
-    attendance: int | None
-    header_text: str | None
+    attendance: int | None = None
+    header_text: str | None = None
 
 
 def _fetch_block(game_id: int, block_type: str, locale: str = "de-CH") -> str:
