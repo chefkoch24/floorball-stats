@@ -3,7 +3,9 @@ import re
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from time import sleep
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import pandas as pd
 import requests
@@ -14,6 +16,16 @@ from src.scheduled_games import build_scheduled_game_row
 
 
 BASE_URL = "https://www.ceskyflorbal.cz"
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/125.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "cs-CZ,cs;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": BASE_URL,
+}
 
 
 @dataclass
@@ -26,6 +38,55 @@ class MatchSummary:
     round_name: str | None
     game_date: str | None
     game_start_time: str | None
+
+
+def _build_url_variants(url: str) -> list[str]:
+    parts = urlsplit(url)
+    query = dict(parse_qsl(parts.query, keep_blank_values=True))
+    variants: list[str] = []
+    # Keep original URL first.
+    variants.append(url)
+    # locale=en can be blocked on some edge nodes; fallback to locale=cs.
+    if query.get("locale") == "en":
+        q_cs = dict(query)
+        q_cs["locale"] = "cs"
+        variants.append(urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(q_cs), parts.fragment)))
+    # Also try without locale parameter.
+    if "locale" in query:
+        q_no_locale = dict(query)
+        q_no_locale.pop("locale", None)
+        variants.append(urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(q_no_locale), parts.fragment)))
+    # Deduplicate while preserving order.
+    seen = set()
+    deduped = []
+    for candidate in variants:
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        deduped.append(candidate)
+    return deduped
+
+
+def _get_html(url: str, session: requests.Session, timeout: int = 30) -> str:
+    variants = _build_url_variants(url)
+    last_error: Exception | None = None
+    for candidate in variants:
+        for attempt in range(3):
+            try:
+                resp = session.get(candidate, timeout=timeout)
+                if resp.status_code == 403:
+                    raise requests.HTTPError(f"403 for {candidate}", response=resp)
+                resp.raise_for_status()
+                return resp.text
+            except requests.RequestException as exc:
+                last_error = exc
+                if attempt < 2:
+                    sleep(0.8 * (attempt + 1))
+                    continue
+                break
+    if last_error:
+        raise last_error
+    raise requests.RequestException(f"Failed to fetch {url}")
 
 
 def _extract_attendance(soup: BeautifulSoup) -> int | None:
@@ -123,9 +184,7 @@ def fetch_match_list(
     session: requests.Session | None = None,
 ) -> list[MatchSummary]:
     sess = session or requests.Session()
-    resp = sess.get(schedule_url, timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(_get_html(schedule_url, sess), "html.parser")
     matches = []
     for match_div in soup.select("div.Match"):
         score_anchor = match_div.select_one(".Match-score a")
@@ -341,9 +400,7 @@ def fetch_match_events(
 ) -> list[dict[str, Any]]:
     sess = session or requests.Session()
     url = f"{BASE_URL}/match/detail/match/{match_id}?locale=en"
-    resp = sess.get(url, timeout=30)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(_get_html(url, sess), "html.parser")
 
     home_team = _clean_text(soup.select_one(".MatchHeader-home .MatchHeader-normalName") and soup.select_one(".MatchHeader-home .MatchHeader-normalName").get_text()) or "n.a."
     away_team = _clean_text(soup.select_one(".MatchHeader-quest .MatchHeader-normalName") and soup.select_one(".MatchHeader-quest .MatchHeader-normalName").get_text()) or "n.a."
@@ -480,6 +537,7 @@ def scrape_competition(
     phase: str = "regular-season",
 ) -> pd.DataFrame:
     session = requests.Session()
+    session.headers.update(DEFAULT_HEADERS)
     all_matches: list[MatchSummary] = []
     for url in schedule_urls:
         all_matches.extend(fetch_match_list(url, season_start_year, session=session))
