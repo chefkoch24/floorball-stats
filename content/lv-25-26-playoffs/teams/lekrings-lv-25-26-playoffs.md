@@ -79,7 +79,7 @@ points_after_59_min: 18
 points_after_first_period: 17
 points_after_second_period: 24
 points_after_third_period: 17
-Tags:  Rubene: 4,  Ķekava/RB&B: 13,
+Tags:  Rubene: 5,  Ķekava/RB&B: 13,
 points_max_difference_2: 6
 points_more_2_difference: 12
 points_per_game: 1.64

@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: Playoffs
 Category: cz-25-26-regular-season, liga
 Slug: playoffs-cz-25-26-regular-season
@@ -12,10 +12,10 @@ boxplay_overtime: 0.0
 boxplay_per_game: 1.14
 boxplay_second_period: 9.75
 boxplay_third_period: 12.75
-close_game_loss: 2.75
-close_game_overtime: 1.38
-close_game_win: 4.25
-draws: 0.75
+close_game_loss: 3.38
+close_game_overtime: 2.12
+close_game_win: 4.38
+draws: 0.0
 equalizer_goals: 17.75
 equalizer_goals_against: 16.25
 first_goal_of_match: 15.5
@@ -45,8 +45,8 @@ goals_in_second_period_against: 46.12
 goals_in_third_period: 76.12
 goals_in_third_period_against: 51.88
 goals_per_game: 7.57
-home_points: 28.88
-loss_1: 1.88
+home_points: 29.0
+loss_1: 2.5
 losses: 7.12
 over_time_losses: 0.75
 over_time_wins: 0.62
@@ -58,8 +58,8 @@ penalty_first_period: 8.38
 penalty_ms: 0.0
 penalty_overtime: 0.0
 penalty_second_period: 11.25
-penalty_shootout_losses: 0.0
-penalty_shootout_wins: 0.0
+penalty_shootout_losses: 0.62
+penalty_shootout_wins: 0.12
 penalty_shot_goals: 3.38
 penalty_shot_goals_against: 3.12
 penalty_third_period: 15.12
@@ -71,14 +71,14 @@ percent_goals_second_period: 33.22
 percent_goals_second_period_against: 34.26
 percent_goals_third_period: 38.51
 percent_goals_third_period_against: 38.47
-points: 53.0
+points: 53.12
 points_after_55_min: 41.75
 points_after_58_min: 39.12
 points_after_59_min: 40.38
 points_after_first_period: 39.12
 points_after_second_period: 40.88
 points_after_third_period: 46.75
-points_max_difference_2: 13.62
+points_max_difference_2: 13.75
 points_more_2_difference: 39.38
 points_per_game: 2.04
 powerplay: 30.75
@@ -92,5 +92,5 @@ rank: 4.5
 scoring_ratio: 1.56
 take_the_lead_goals: 33.62
 take_the_lead_goals_against: 25.62
-win_1: 2.38
+win_1: 2.5
 wins: 16.75

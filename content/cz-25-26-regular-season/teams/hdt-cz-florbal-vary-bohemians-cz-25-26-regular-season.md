@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-regular-season, teams
 Slug: hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 0.85
 boxplay_second_period: 6
 boxplay_third_period: 9
-close_game_loss: 1
-close_game_overtime: 1
+close_game_loss: 2
+close_game_overtime: 2
 close_game_win: 2
-draws: 1
+draws: 0
 equalizer_goals: 15
 equalizer_goals_against: 18
 first_goal_of_match: 17
@@ -47,7 +47,7 @@ goals_in_third_period: 114
 goals_in_third_period_against: 50
 goals_per_game: 10.81
 home_points: 34
-loss_1: 1
+loss_1: 2
 losses: 2
 over_time_losses: 1
 over_time_wins: 0
@@ -59,7 +59,7 @@ penalty_first_period: 9
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 8
-penalty_shootout_losses: 0
+penalty_shootout_losses: 1
 penalty_shootout_wins: 0
 penalty_shot_goals: 5
 penalty_shot_goals_against: 3

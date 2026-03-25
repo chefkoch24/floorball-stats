@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
 Slug: kanonyri-kladno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 1.35
 boxplay_second_period: 11
 boxplay_third_period: 13
-close_game_loss: 3
-close_game_overtime: 2
+close_game_loss: 4
+close_game_overtime: 3
 close_game_win: 7
-draws: 1
+draws: 0
 equalizer_goals: 24
 equalizer_goals_against: 27
 first_goal_of_match: 11
@@ -47,7 +47,7 @@ goals_in_third_period: 58
 goals_in_third_period_against: 67
 goals_per_game: 5.54
 home_points: 30
-loss_1: 2
+loss_1: 3
 losses: 10
 over_time_losses: 2
 over_time_wins: 0
@@ -59,7 +59,7 @@ penalty_first_period: 14
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 15
-penalty_shootout_losses: 0
+penalty_shootout_losses: 1
 penalty_shootout_wins: 0
 penalty_shot_goals: 3
 penalty_shot_goals_against: 8

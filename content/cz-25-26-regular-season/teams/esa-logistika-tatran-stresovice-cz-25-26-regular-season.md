@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-regular-season, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -14,9 +14,9 @@ boxplay_per_game: 0.96
 boxplay_second_period: 9
 boxplay_third_period: 8
 close_game_loss: 1
-close_game_overtime: 1
-close_game_win: 3
-draws: 1
+close_game_overtime: 2
+close_game_win: 4
+draws: 0
 equalizer_goals: 28
 equalizer_goals_against: 14
 first_goal_of_match: 12
@@ -46,7 +46,7 @@ goals_in_second_period_against: 33
 goals_in_third_period: 79
 goals_in_third_period_against: 42
 goals_per_game: 8.27
-home_points: 30
+home_points: 31
 loss_1: 1
 losses: 5
 over_time_losses: 0
@@ -60,7 +60,7 @@ penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 10
 penalty_shootout_losses: 0
-penalty_shootout_wins: 0
+penalty_shootout_wins: 1
 penalty_shot_goals: 5
 penalty_shot_goals_against: 1
 penalty_third_period: 10
@@ -72,17 +72,17 @@ percent_goals_second_period: 37.21
 percent_goals_second_period_against: 28.95
 percent_goals_third_period: 36.74
 percent_goals_third_period_against: 36.84
-points: 60
+points: 61
 points_after_55_min: 46
 points_after_58_min: 52
 points_after_59_min: 58
 points_after_first_period: 33
 points_after_second_period: 59
 points_after_third_period: 50
-Tags:  1. SC NATIOS Vítkovice: 6,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 5,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 1,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
-points_max_difference_2: 9
+Tags:  1. SC NATIOS Vítkovice: 6,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 5,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 2,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
+points_max_difference_2: 10
 points_more_2_difference: 51
-points_per_game: 2.31
+points_per_game: 2.35
 powerplay: 27
 powerplay_efficiency: 55.559999999999995
 powerplay_first_period: 5
@@ -94,5 +94,5 @@ rank: 3
 scoring_ratio: 1.89
 take_the_lead_goals: 34
 take_the_lead_goals_against: 33
-win_1: 3
+win_1: 4
 wins: 19

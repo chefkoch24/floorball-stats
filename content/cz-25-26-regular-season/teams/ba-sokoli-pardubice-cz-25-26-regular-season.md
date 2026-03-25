@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-regular-season, teams
 Slug: ba-sokoli-pardubice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 1.69
 boxplay_second_period: 12
 boxplay_third_period: 23
-close_game_loss: 6
-close_game_overtime: 1
+close_game_loss: 8
+close_game_overtime: 3
 close_game_win: 2
-draws: 2
+draws: 0
 equalizer_goals: 14
 equalizer_goals_against: 18
 first_goal_of_match: 17
@@ -47,7 +47,7 @@ goals_in_third_period: 44
 goals_in_third_period_against: 61
 goals_per_game: 4.88
 home_points: 17
-loss_1: 2
+loss_1: 4
 losses: 14
 over_time_losses: 0
 over_time_wins: 1
@@ -59,7 +59,7 @@ penalty_first_period: 9
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 12
-penalty_shootout_losses: 0
+penalty_shootout_losses: 2
 penalty_shootout_wins: 0
 penalty_shot_goals: 2
 penalty_shot_goals_against: 3

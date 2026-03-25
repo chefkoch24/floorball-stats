@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: FBŠ Hummel Hattrick Brno
 Category: cz-25-26-regular-season, teams
 Slug: fbs-hummel-hattrick-brno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 1.14
 boxplay_second_period: 7
 boxplay_third_period: 18
-close_game_loss: 5
-close_game_overtime: 0
+close_game_loss: 6
+close_game_overtime: 1
 close_game_win: 3
-draws: 1
+draws: 0
 equalizer_goals: 11
 equalizer_goals_against: 18
 first_goal_of_match: 9
@@ -47,7 +47,7 @@ goals_in_third_period: 53
 goals_in_third_period_against: 89
 goals_per_game: 4.29
 home_points: 16
-loss_1: 1
+loss_1: 2
 losses: 20
 over_time_losses: 0
 over_time_wins: 0
@@ -59,7 +59,7 @@ penalty_first_period: 7
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 8
-penalty_shootout_losses: 0
+penalty_shootout_losses: 1
 penalty_shootout_wins: 0
 penalty_shot_goals: 3
 penalty_shot_goals_against: 7

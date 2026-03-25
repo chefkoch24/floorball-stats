@@ -73,9 +73,9 @@ percent_goals_second_period_against: 27.589999999999996
 percent_goals_third_period: 41.67
 percent_goals_third_period_against: 37.93
 points: 5
-points_after_55_min: 8
-points_after_58_min: 6
-points_after_59_min: 5
+points_after_55_min: 9
+points_after_58_min: 7
+points_after_59_min: 6
 points_after_first_period: 4
 points_after_second_period: 4
 points_after_third_period: 4

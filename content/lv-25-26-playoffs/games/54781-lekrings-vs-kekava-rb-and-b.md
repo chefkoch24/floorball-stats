@@ -168,7 +168,7 @@ away_points_after_59_min: 2
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 1
-away_points_against_lekrings: 1
+away_points_against_lekrings: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
 away_powerplay: 2

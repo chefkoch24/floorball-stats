@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-regular-season, teams
 Slug: fbc-4clean-ceska-lipa-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 1.62
 boxplay_second_period: 7
 boxplay_third_period: 23
-close_game_loss: 3
-close_game_overtime: 1
-close_game_win: 3
-draws: 4
+close_game_loss: 4
+close_game_overtime: 5
+close_game_win: 6
+draws: 0
 equalizer_goals: 20
 equalizer_goals_against: 19
 first_goal_of_match: 13
@@ -46,8 +46,8 @@ goals_in_second_period_against: 58
 goals_in_third_period: 54
 goals_in_third_period_against: 83
 goals_per_game: 5.0
-home_points: 14
-loss_1: 2
+home_points: 17
+loss_1: 3
 losses: 15
 over_time_losses: 0
 over_time_wins: 1
@@ -59,8 +59,8 @@ penalty_first_period: 15
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 7
-penalty_shootout_losses: 0
-penalty_shootout_wins: 0
+penalty_shootout_losses: 1
+penalty_shootout_wins: 3
 penalty_shot_goals: 7
 penalty_shot_goals_against: 4
 penalty_third_period: 25
@@ -72,17 +72,17 @@ percent_goals_second_period: 26.150000000000002
 percent_goals_second_period_against: 30.049999999999997
 percent_goals_third_period: 41.54
 percent_goals_third_period_against: 43.01
-points: 24
+points: 27
 points_after_55_min: 24
 points_after_58_min: 28
 points_after_59_min: 25
 points_after_first_period: 19
 points_after_second_period: 24
 points_after_third_period: 20
-Tags:  1. SC NATIOS Vítkovice: 3,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice: 1,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 0,  FBC Liberec: 4,  FBC ČPP Bystroň Group OSTRAVA: 2,  FBŠ Hummel Hattrick Brno: 0,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
-points_max_difference_2: 12
+Tags:  1. SC NATIOS Vítkovice: 3,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice: 2,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 0,  FBC Liberec: 5,  FBC ČPP Bystroň Group OSTRAVA: 3,  FBŠ Hummel Hattrick Brno: 0,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 2,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
+points_max_difference_2: 15
 points_more_2_difference: 12
-points_per_game: 0.92
+points_per_game: 1.04
 powerplay: 24
 powerplay_efficiency: 37.5
 powerplay_first_period: 5
@@ -90,9 +90,9 @@ powerplay_overtime: 0
 powerplay_per_game: 0.92
 powerplay_second_period: 10
 powerplay_third_period: 9
-rank: 11
+rank: 10
 scoring_ratio: 0.67
 take_the_lead_goals: 26
 take_the_lead_goals_against: 35
-win_1: 1
+win_1: 4
 wins: 6

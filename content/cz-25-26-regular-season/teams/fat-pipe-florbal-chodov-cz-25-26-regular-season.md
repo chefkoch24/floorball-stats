@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: FAT PIPE FLORBAL CHODOV
 Category: cz-25-26-regular-season, teams
 Slug: fat-pipe-florbal-chodov-cz-25-26-regular-season-cz-25-26-regular-season

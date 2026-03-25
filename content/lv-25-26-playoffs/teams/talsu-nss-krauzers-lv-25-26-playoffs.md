@@ -79,7 +79,7 @@ points_after_59_min: 12
 points_after_first_period: 14
 points_after_second_period: 12
 points_after_third_period: 11
-Tags:  FBK Valmiera: 11,  Masters Ulbroka/LU: 1,
+Tags:  FBK Valmiera: 11,  Masters Ulbroka/LU: 2,
 points_max_difference_2: 4
 points_more_2_difference: 9
 points_per_game: 1.3

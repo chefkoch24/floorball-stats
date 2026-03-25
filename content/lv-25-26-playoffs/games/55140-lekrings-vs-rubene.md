@@ -93,7 +93,7 @@ home_points_after_59_min: 2
 home_points_after_first_period: 0
 home_points_after_second_period: 3
 home_points_after_third_period: 1
-home_points_against_rubene: 1
+home_points_against_rubene: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
 home_powerplay: 0

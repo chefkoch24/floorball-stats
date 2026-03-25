@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: Top 4 Teams
 Category: cz-25-26-regular-season, liga
 Slug: top-4-teams-cz-25-26-regular-season
@@ -12,10 +12,10 @@ boxplay_overtime: 0.0
 boxplay_per_game: 0.93
 boxplay_second_period: 9.75
 boxplay_third_period: 9.25
-close_game_loss: 1.5
-close_game_overtime: 1.25
-close_game_win: 3.5
-draws: 0.5
+close_game_loss: 1.75
+close_game_overtime: 1.75
+close_game_win: 3.75
+draws: 0.0
 equalizer_goals: 15.5
 equalizer_goals_against: 14.0
 first_goal_of_match: 17.75
@@ -45,8 +45,8 @@ goals_in_second_period_against: 39.5
 goals_in_third_period: 96.0
 goals_in_third_period_against: 45.0
 goals_per_game: 9.63
-home_points: 33.0
-loss_1: 1.0
+home_points: 33.25
+loss_1: 1.25
 losses: 3.5
 over_time_losses: 0.25
 over_time_wins: 1.0
@@ -58,8 +58,8 @@ penalty_first_period: 6.5
 penalty_ms: 0.0
 penalty_overtime: 0.0
 penalty_second_period: 10.75
-penalty_shootout_losses: 0.0
-penalty_shootout_wins: 0.0
+penalty_shootout_losses: 0.25
+penalty_shootout_wins: 0.25
 penalty_shot_goals: 4.25
 penalty_shot_goals_against: 2.0
 penalty_third_period: 11.5
@@ -71,16 +71,16 @@ percent_goals_second_period: 33.28
 percent_goals_second_period_against: 33.35
 percent_goals_third_period: 37.95
 percent_goals_third_period_against: 37.74
-points: 65.0
+points: 65.25
 points_after_55_min: 53.25
 points_after_58_min: 50.0
 points_after_59_min: 52.25
 points_after_first_period: 46.25
 points_after_second_period: 52.0
 points_after_third_period: 55.0
-points_max_difference_2: 10.25
+points_max_difference_2: 10.5
 points_more_2_difference: 54.75
-points_per_game: 2.5
+points_per_game: 2.51
 powerplay: 35.25
 powerplay_efficiency: 52.71
 powerplay_first_period: 8.25
@@ -92,5 +92,5 @@ rank: 2.5
 scoring_ratio: 2.16
 take_the_lead_goals: 35.75
 take_the_lead_goals_against: 19.25
-win_1: 2.5
+win_1: 2.75
 wins: 20.75

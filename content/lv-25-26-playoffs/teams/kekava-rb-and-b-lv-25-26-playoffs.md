@@ -79,7 +79,7 @@ points_after_59_min: 8
 points_after_first_period: 5
 points_after_second_period: 6
 points_after_third_period: 7
-Tags:  Lekrings: 7,
+Tags:  Lekrings: 8,
 points_max_difference_2: 2
 points_more_2_difference: 6
 points_per_game: 1.14

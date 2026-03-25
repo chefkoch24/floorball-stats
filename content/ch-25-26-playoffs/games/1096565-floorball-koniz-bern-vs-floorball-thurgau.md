@@ -87,9 +87,9 @@ home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
 home_points: 2
-home_points_after_55_min: 1
-home_points_after_58_min: 1
-home_points_after_59_min: 1
+home_points_after_55_min: 2
+home_points_after_58_min: 2
+home_points_after_59_min: 2
 home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 1

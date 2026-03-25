@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-24
 Title: 1. SC NATIOS Vítkovice
 Category: cz-25-26-regular-season, teams
 Slug: 1-sc-natios-vitkovice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,10 +13,10 @@ boxplay_overtime: 0
 boxplay_per_game: 1.08
 boxplay_second_period: 10
 boxplay_third_period: 13
-close_game_loss: 3
-close_game_overtime: 2
+close_game_loss: 4
+close_game_overtime: 3
 close_game_win: 6
-draws: 1
+draws: 0
 equalizer_goals: 24
 equalizer_goals_against: 14
 first_goal_of_match: 11
@@ -47,7 +47,7 @@ goals_in_third_period: 57
 goals_in_third_period_against: 51
 goals_per_game: 5.65
 home_points: 28
-loss_1: 3
+loss_1: 4
 losses: 8
 over_time_losses: 2
 over_time_wins: 0
@@ -59,7 +59,7 @@ penalty_first_period: 7
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 14
-penalty_shootout_losses: 0
+penalty_shootout_losses: 1
 penalty_shootout_wins: 0
 penalty_shot_goals: 2
 penalty_shot_goals_against: 3
