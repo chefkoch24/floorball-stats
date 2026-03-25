@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-25
 Title: Zug United
 Category: ch-25-26-playoffs, teams
 Slug: zug-united-ch-25-26-playoffs-ch-25-26-playoffs
@@ -90,7 +90,7 @@ powerplay_overtime: 0
 powerplay_per_game: 0.75
 powerplay_second_period: 2
 powerplay_third_period: 1
-rank: 2
+rank: 3
 scoring_ratio: 2.1
 take_the_lead_goals: 6
 take_the_lead_goals_against: 4
