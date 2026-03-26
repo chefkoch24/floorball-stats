@@ -1,7 +1,7 @@
 Date: 2025-12-07
 Title: jymy-nokian-krp-7-12-2025-jymy-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: jymy-nokian-krp-7-12-2025-jymy-vs-nokian-krp
+Slug: jymy-nokian-krp-7-12-2025-jymy-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: jymy-nokian-krp-7-12-2025
 home_team: Jymy

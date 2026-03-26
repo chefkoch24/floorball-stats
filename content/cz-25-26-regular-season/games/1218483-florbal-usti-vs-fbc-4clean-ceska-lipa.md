@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 1218483-florbal-usti-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218483-florbal-usti-vs-fbc-4clean-ceska-lipa
+Slug: 1218483-florbal-usti-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218483
 home_team: Florbal Ústí

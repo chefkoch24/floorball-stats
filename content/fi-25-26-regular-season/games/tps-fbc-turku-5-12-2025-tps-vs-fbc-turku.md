@@ -1,7 +1,7 @@
 Date: 2025-12-05
 Title: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku
+Slug: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: tps-fbc-turku-5-12-2025
 home_team: TPS

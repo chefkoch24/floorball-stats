@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku
+Slug: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: spv-fbc-turku-30-11-2025
 home_team: SPV

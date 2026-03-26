@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 43502-sc-potsdam-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43502-sc-potsdam-vs-sc-dhfk-leipzig
+Slug: 43502-sc-potsdam-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43502
 home_team: SC Potsdam
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,1,1,1,1,2,3,3,4,4,5,5,6,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.85,15.88,23.28,25.03,26.93,27.62,28.72,29.18,31.33,40.57,45.68,46.25,48.77,50.8,53.2
 home_away_points: 0
-home_boxplay: 2
+home_boxplay: 3
 home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
+home_boxplay_second_period: 2
 home_boxplay_third_period: 1
 home_close_game_loss: 1
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_sc_potsdam: 3
 away_points_max_difference_2: 3
 away_points_more_2_difference: 0
-away_powerplay: 2
+away_powerplay: 3
 away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
+away_powerplay_second_period: 2
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 1

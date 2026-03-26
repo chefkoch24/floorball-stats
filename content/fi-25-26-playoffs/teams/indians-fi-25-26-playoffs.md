@@ -6,11 +6,11 @@ type: team
 team:Indians
 platzierungsverlauf:fi-25-26-playoffs/teams/indians-fi-25-26-playoffs_platzierungsverlauf.png
 away_points: 1
-boxplay: 3
-boxplay_efficiency: 66.67
+boxplay: 4
+boxplay_efficiency: 75.0
 boxplay_first_period: 0
-boxplay_overtime: 1
-boxplay_per_game: 3.0
+boxplay_overtime: 2
+boxplay_per_game: 4.0
 boxplay_second_period: 1
 boxplay_third_period: 1
 close_game_loss: 1

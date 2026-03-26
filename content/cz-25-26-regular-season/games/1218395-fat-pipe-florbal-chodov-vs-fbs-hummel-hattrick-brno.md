@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1218395-fat-pipe-florbal-chodov-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218395-fat-pipe-florbal-chodov-vs-fbs-hummel-hattrick-brno
+Slug: 1218395-fat-pipe-florbal-chodov-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218395
 home_team: FAT PIPE FLORBAL CHODOV

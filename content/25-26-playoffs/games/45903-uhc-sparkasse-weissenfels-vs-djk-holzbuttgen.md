@@ -1,7 +1,7 @@
 Date: 2026-04-04
 Title: 45903-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen
 Category: 25-26-playoffs, game
-Slug: 45903-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen
+Slug: 45903-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen-25-26-playoffs
 type: game
 game_id: 45903
 home_team: UHC Sparkasse Weißenfels

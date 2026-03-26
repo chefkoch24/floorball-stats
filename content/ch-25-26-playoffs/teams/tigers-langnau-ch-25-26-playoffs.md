@@ -6,13 +6,13 @@ type: team
 team:Tigers Langnau
 platzierungsverlauf:ch-25-26-playoffs/teams/tigers-langnau-ch-25-26-playoffs_platzierungsverlauf.png
 away_points: 1
-boxplay: 14
-boxplay_efficiency: 35.709999999999994
+boxplay: 12
+boxplay_efficiency: 41.669999999999995
 boxplay_first_period: 2
 boxplay_overtime: 0
-boxplay_per_game: 3.5
+boxplay_per_game: 3.0
 boxplay_second_period: 6
-boxplay_third_period: 6
+boxplay_third_period: 4
 close_game_loss: 2
 close_game_overtime: 2
 close_game_win: 0
@@ -28,12 +28,12 @@ goals: 19
 goals_against: 28
 goals_against_away: 12
 goals_against_home: 16
-goals_against_in_boxplay: 9
-goals_against_in_powerplay: 4
+goals_against_in_boxplay: 7
+goals_against_in_powerplay: 1
 goals_against_per_game: 7.0
 goals_away: 7
 goals_home: 12
-goals_in_boxplay: 8
+goals_in_boxplay: 0
 goals_in_first_period: 5
 goals_in_first_period_against: 8
 goals_in_overtime: 0

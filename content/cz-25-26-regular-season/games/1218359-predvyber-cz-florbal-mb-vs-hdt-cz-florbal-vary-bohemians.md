@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 1218359-predvyber-cz-florbal-mb-vs-hdt-cz-florbal-vary-bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218359-predvyber-cz-florbal-mb-vs-hdt-cz-florbal-vary-bohemians
+Slug: 1218359-predvyber-cz-florbal-mb-vs-hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season
 type: game
 game_id: 1218359
 home_team: Předvýběr.CZ Florbal MB

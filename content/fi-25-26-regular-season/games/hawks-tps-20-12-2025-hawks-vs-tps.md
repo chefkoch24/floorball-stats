@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: hawks-tps-20-12-2025-hawks-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: hawks-tps-20-12-2025-hawks-vs-tps
+Slug: hawks-tps-20-12-2025-hawks-vs-tps-fi-25-26-regular-season
 type: game
 game_id: hawks-tps-20-12-2025
 home_team: Hawks

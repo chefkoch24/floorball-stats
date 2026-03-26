@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: nokian-krp-spv-26-9-2025-nokian-krp-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-spv-26-9-2025-nokian-krp-vs-spv
+Slug: nokian-krp-spv-26-9-2025-nokian-krp-vs-spv-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-spv-26-9-2025
 home_team: Nokian KrP

@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1571927-warberg-ic-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571927-warberg-ic-vs-mullsjo-ais
+Slug: 1571927-warberg-ic-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571927
 home_team: Warberg IC

@@ -1,7 +1,7 @@
 Date: 2025-11-27
 Title: 1218415-fbc-cpp-bystron-group-ostrava-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218415-fbc-cpp-bystron-group-ostrava-vs-fbs-hummel-hattrick-brno
+Slug: 1218415-fbc-cpp-bystron-group-ostrava-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218415
 home_team: FBC ČPP Bystroň Group OSTRAVA
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,2,3,4,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.3,41.35,52.53,54.52,55.7,57.0
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
+home_boxplay_second_period: 2
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 0
 away_points_against_fbc_cpp_bystron_group_ostrava: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
+away_powerplay_second_period: 2
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1

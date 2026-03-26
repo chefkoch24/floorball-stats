@@ -1,7 +1,7 @@
 Date: 2026-03-28
 Title: 131946-tsunami-zahorska-bystrica-vs-1-fbc-trencin
 Category: sk-25-26-playoffs, game
-Slug: 131946-tsunami-zahorska-bystrica-vs-1-fbc-trencin
+Slug: 131946-tsunami-zahorska-bystrica-vs-1-fbc-trencin-sk-25-26-playoffs
 type: game
 game_id: 131946
 home_team: Tsunami Záhorská Bystrica

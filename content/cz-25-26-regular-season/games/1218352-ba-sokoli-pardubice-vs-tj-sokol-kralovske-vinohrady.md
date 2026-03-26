@@ -1,7 +1,7 @@
 Date: 2025-10-02
 Title: 1218352-ba-sokoli-pardubice-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218352-ba-sokoli-pardubice-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218352-ba-sokoli-pardubice-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218352
 home_team: BA SOKOLI Pardubice

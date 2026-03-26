@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1218463-predvyber-cz-florbal-mb-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218463-predvyber-cz-florbal-mb-vs-florbal-usti
+Slug: 1218463-predvyber-cz-florbal-mb-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218463
 home_team: Předvýběr.CZ Florbal MB

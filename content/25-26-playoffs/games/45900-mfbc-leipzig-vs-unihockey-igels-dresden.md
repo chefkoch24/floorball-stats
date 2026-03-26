@@ -1,7 +1,7 @@
 Date: 2026-04-04
 Title: 45900-mfbc-leipzig-vs-unihockey-igels-dresden
 Category: 25-26-playoffs, game
-Slug: 45900-mfbc-leipzig-vs-unihockey-igels-dresden
+Slug: 45900-mfbc-leipzig-vs-unihockey-igels-dresden-25-26-playoffs
 type: game
 game_id: 45900
 home_team: MFBC Leipzig

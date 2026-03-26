@@ -1,7 +1,7 @@
 Date: 2026-01-12
 Title: 1218449-kanonyri-kladno-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218449-kanonyri-kladno-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218449-kanonyri-kladno-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218449
 home_team: Kanonýři Kladno
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_fbc_cpp_bystron_group_ostrava: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

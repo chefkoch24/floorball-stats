@@ -1,7 +1,7 @@
 Date: 2026-03-19
 Title: 1290231-fbc-cpp-bystron-group-ostrava-vs-ba-sokoli-pardubice
 Category: cz-25-26-playoffs, game
-Slug: 1290231-fbc-cpp-bystron-group-ostrava-vs-ba-sokoli-pardubice
+Slug: 1290231-fbc-cpp-bystron-group-ostrava-vs-ba-sokoli-pardubice-cz-25-26-playoffs
 type: game
 game_id: 1290231
 home_team: FBC ČPP Bystroň Group OSTRAVA

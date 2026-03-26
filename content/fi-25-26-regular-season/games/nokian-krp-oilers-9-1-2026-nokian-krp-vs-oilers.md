@@ -1,7 +1,7 @@
 Date: 2026-01-09
 Title: nokian-krp-oilers-9-1-2026-nokian-krp-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-oilers-9-1-2026-nokian-krp-vs-oilers
+Slug: nokian-krp-oilers-9-1-2026-nokian-krp-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-oilers-9-1-2026
 home_team: Nokian KrP

@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: nokian-krp-eraviikingit-17-1-2026-nokian-krp-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-eraviikingit-17-1-2026-nokian-krp-vs-eraviikingit
+Slug: nokian-krp-eraviikingit-17-1-2026-nokian-krp-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-eraviikingit-17-1-2026
 home_team: Nokian KrP

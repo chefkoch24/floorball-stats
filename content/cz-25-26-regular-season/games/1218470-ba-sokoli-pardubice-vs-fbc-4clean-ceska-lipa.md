@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1218470-ba-sokoli-pardubice-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218470-ba-sokoli-pardubice-vs-fbc-4clean-ceska-lipa
+Slug: 1218470-ba-sokoli-pardubice-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218470
 home_team: BA SOKOLI Pardubice

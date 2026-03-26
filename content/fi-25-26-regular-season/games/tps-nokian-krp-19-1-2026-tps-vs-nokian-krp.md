@@ -1,7 +1,7 @@
 Date: 2026-01-19
 Title: tps-nokian-krp-19-1-2026-tps-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: tps-nokian-krp-19-1-2026-tps-vs-nokian-krp
+Slug: tps-nokian-krp-19-1-2026-tps-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: tps-nokian-krp-19-1-2026
 home_team: TPS

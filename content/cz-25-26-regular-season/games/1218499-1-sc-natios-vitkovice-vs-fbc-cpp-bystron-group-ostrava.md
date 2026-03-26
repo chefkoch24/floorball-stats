@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1218499-1-sc-natios-vitkovice-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218499-1-sc-natios-vitkovice-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218499-1-sc-natios-vitkovice-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218499
 home_team: 1. SC NATIOS Vítkovice

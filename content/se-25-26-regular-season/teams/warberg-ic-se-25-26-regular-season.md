@@ -6,12 +6,12 @@ type: team
 team:Warberg IC
 platzierungsverlauf:se-25-26-regular-season/teams/warberg-ic-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 11
-boxplay: 36
-boxplay_efficiency: 55.559999999999995
+boxplay: 37
+boxplay_efficiency: 56.76
 boxplay_first_period: 2
 boxplay_overtime: 1
-boxplay_per_game: 1.38
-boxplay_second_period: 17
+boxplay_per_game: 1.42
+boxplay_second_period: 18
 boxplay_third_period: 16
 close_game_loss: 6
 close_game_overtime: 3
@@ -83,12 +83,12 @@ Tags:  AIK IBF: 3,  FBC Kalmarsund: 4,  Hovslätts IK: 6,  IBF Falun: 0,  Jönk�
 points_max_difference_2: 23
 points_more_2_difference: 9
 points_per_game: 1.23
-powerplay: 20
-powerplay_efficiency: 35.0
+powerplay: 22
+powerplay_efficiency: 31.819999999999997
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 0.77
-powerplay_second_period: 9
+powerplay_per_game: 0.85
+powerplay_second_period: 11
 powerplay_third_period: 6
 rank: 10
 scoring_ratio: 0.75

@@ -1,7 +1,7 @@
 Date: 2025-12-13
 Title: indians-eraviikingit-13-12-2025-indians-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: indians-eraviikingit-13-12-2025-indians-vs-eraviikingit
+Slug: indians-eraviikingit-13-12-2025-indians-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: indians-eraviikingit-13-12-2025
 home_team: Indians

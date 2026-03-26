@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: 1218399-fbc-4clean-ceska-lipa-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218399-fbc-4clean-ceska-lipa-vs-florbal-usti
+Slug: 1218399-fbc-4clean-ceska-lipa-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218399
 home_team: FBC 4CLEAN Česká Lípa

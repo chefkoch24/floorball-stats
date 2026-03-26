@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 43519-etv-piranhhas-hamburg-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43519-etv-piranhhas-hamburg-vs-sc-potsdam
+Slug: 43519-etv-piranhhas-hamburg-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43519
 home_team: ETV Piranhhas Hamburg

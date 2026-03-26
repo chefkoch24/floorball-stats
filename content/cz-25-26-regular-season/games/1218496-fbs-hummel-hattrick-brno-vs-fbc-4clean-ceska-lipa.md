@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1218496-fbs-hummel-hattrick-brno-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218496-fbs-hummel-hattrick-brno-vs-fbc-4clean-ceska-lipa
+Slug: 1218496-fbs-hummel-hattrick-brno-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218496
 home_team: FBŠ Hummel Hattrick Brno

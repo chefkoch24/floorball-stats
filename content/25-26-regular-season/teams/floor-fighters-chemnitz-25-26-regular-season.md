@@ -6,13 +6,13 @@ type: team
 team:Floor Fighters Chemnitz
 platzierungsverlauf:25-26-regular-season/teams/floor-fighters-chemnitz-25-26-regular-season_platzierungsverlauf.png
 away_points: 15
-boxplay: 40
-boxplay_efficiency: 62.5
+boxplay: 42
+boxplay_efficiency: 64.29
 boxplay_first_period: 6
 boxplay_overtime: 0
-boxplay_per_game: 2.0
+boxplay_per_game: 2.1
 boxplay_second_period: 19
-boxplay_third_period: 15
+boxplay_third_period: 17
 close_game_loss: 6
 close_game_overtime: 7
 close_game_win: 6
@@ -83,13 +83,13 @@ Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 4,  DJK Holzbüttgen: 4,  E
 points_max_difference_2: 17
 points_more_2_difference: 24
 points_per_game: 2.05
-powerplay: 38
-powerplay_efficiency: 44.74
+powerplay: 40
+powerplay_efficiency: 42.5
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 1.9
-powerplay_second_period: 13
-powerplay_third_period: 18
+powerplay_per_game: 2.0
+powerplay_second_period: 14
+powerplay_third_period: 19
 rank: 4
 scoring_ratio: 1.55
 take_the_lead_goals: 33

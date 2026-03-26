@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku
+Slug: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: oilers-fbc-turku-19-10-2025
 home_team: Oilers

@@ -1,7 +1,7 @@
 Date: 2025-10-10
 Title: classic-spv-10-10-2025-classic-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: classic-spv-10-10-2025-classic-vs-spv
+Slug: classic-spv-10-10-2025-classic-vs-spv-fi-25-26-regular-season
 type: game
 game_id: classic-spv-10-10-2025
 home_team: Classic

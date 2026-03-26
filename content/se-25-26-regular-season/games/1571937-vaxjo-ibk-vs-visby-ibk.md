@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1571937-vaxjo-ibk-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571937-vaxjo-ibk-vs-visby-ibk
+Slug: 1571937-vaxjo-ibk-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571937
 home_team: Växjö IBK

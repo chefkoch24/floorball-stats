@@ -6,13 +6,13 @@ type: team
 team:BA SOKOLI Pardubice
 platzierungsverlauf:cz-25-26-regular-season/teams/ba-sokoli-pardubice-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 14
-boxplay: 44
-boxplay_efficiency: 61.36
+boxplay: 46
+boxplay_efficiency: 60.870000000000005
 boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 1.69
+boxplay_per_game: 1.77
 boxplay_second_period: 12
-boxplay_third_period: 23
+boxplay_third_period: 25
 close_game_loss: 8
 close_game_overtime: 3
 close_game_win: 2
@@ -28,7 +28,7 @@ goals: 127
 goals_against: 144
 goals_against_away: 82
 goals_against_home: 62
-goals_against_in_boxplay: 17
+goals_against_in_boxplay: 18
 goals_against_in_powerplay: 0
 goals_against_per_game: 5.54
 goals_away: 69
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 2
-goals_in_powerplay: 8
+goals_in_powerplay: 9
 goals_in_second_period: 48
 goals_in_second_period_against: 52
 goals_in_third_period: 44
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 0,  ESA logistika Tatran
 points_max_difference_2: 7
 points_more_2_difference: 24
 points_per_game: 1.19
-powerplay: 31
-powerplay_efficiency: 25.81
+powerplay: 32
+powerplay_efficiency: 28.12
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 1.19
+powerplay_per_game: 1.23
 powerplay_second_period: 11
-powerplay_third_period: 15
+powerplay_third_period: 16
 rank: 8
 scoring_ratio: 0.88
 take_the_lead_goals: 28

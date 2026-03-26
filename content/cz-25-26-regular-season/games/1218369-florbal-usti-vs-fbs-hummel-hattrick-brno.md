@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1218369-florbal-usti-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218369-florbal-usti-vs-fbs-hummel-hattrick-brno
+Slug: 1218369-florbal-usti-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218369
 home_team: Florbal Ústí

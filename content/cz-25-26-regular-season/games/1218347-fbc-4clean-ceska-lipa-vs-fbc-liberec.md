@@ -1,7 +1,7 @@
 Date: 2025-10-06
 Title: 1218347-fbc-4clean-ceska-lipa-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218347-fbc-4clean-ceska-lipa-vs-fbc-liberec
+Slug: 1218347-fbc-4clean-ceska-lipa-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218347
 home_team: FBC 4CLEAN Česká Lípa

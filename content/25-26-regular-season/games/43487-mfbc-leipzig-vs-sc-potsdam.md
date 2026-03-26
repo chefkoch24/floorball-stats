@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 43487-mfbc-leipzig-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43487-mfbc-leipzig-vs-sc-potsdam
+Slug: 43487-mfbc-leipzig-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43487
 home_team: MFBC Leipzig

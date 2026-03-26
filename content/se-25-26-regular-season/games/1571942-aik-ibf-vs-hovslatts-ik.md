@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1571942-aik-ibf-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571942-aik-ibf-vs-hovslatts-ik
+Slug: 1571942-aik-ibf-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571942
 home_team: AIK IBF

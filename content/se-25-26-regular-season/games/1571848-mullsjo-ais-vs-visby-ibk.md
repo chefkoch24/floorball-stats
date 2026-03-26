@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1571848-mullsjo-ais-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571848-mullsjo-ais-vs-visby-ibk
+Slug: 1571848-mullsjo-ais-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571848
 home_team: Mullsjö AIS

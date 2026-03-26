@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 43488-sc-dhfk-leipzig-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43488-sc-dhfk-leipzig-vs-mfbc-leipzig
+Slug: 43488-sc-dhfk-leipzig-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43488
 home_team: SC DHfK Leipzig

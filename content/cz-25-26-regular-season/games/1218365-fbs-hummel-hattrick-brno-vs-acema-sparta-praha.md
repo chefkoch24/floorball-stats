@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: 1218365-fbs-hummel-hattrick-brno-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218365-fbs-hummel-hattrick-brno-vs-acema-sparta-praha
+Slug: 1218365-fbs-hummel-hattrick-brno-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218365
 home_team: FBŠ Hummel Hattrick Brno

@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1218338-kanonyri-kladno-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218338-kanonyri-kladno-vs-acema-sparta-praha
+Slug: 1218338-kanonyri-kladno-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218338
 home_team: Kanonýři Kladno

@@ -1,7 +1,7 @@
 Date: 2026-01-28
 Title: 1571889-visby-ibk-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571889-visby-ibk-vs-linkoping-ibk
+Slug: 1571889-visby-ibk-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571889
 home_team: Visby IBK

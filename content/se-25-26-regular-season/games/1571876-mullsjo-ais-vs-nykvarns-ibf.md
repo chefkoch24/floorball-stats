@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1571876-mullsjo-ais-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571876-mullsjo-ais-vs-nykvarns-ibf
+Slug: 1571876-mullsjo-ais-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571876
 home_team: Mullsjö AIS

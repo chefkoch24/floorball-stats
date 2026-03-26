@@ -1,7 +1,7 @@
 Date: 2026-04-04
 Title: 922456-ols-vs-oilers
 Category: fi-25-26-playoffs, game
-Slug: 922456-ols-vs-oilers
+Slug: 922456-ols-vs-oilers-fi-25-26-playoffs
 type: game
 game_id: 922456
 home_team: OLS

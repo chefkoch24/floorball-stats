@@ -1,7 +1,7 @@
 Date: 2026-03-12
 Title: 1096557-floorball-thurgau-vs-floorball-koniz-bern
 Category: ch-25-26-playoffs, game
-Slug: 1096557-floorball-thurgau-vs-floorball-koniz-bern
+Slug: 1096557-floorball-thurgau-vs-floorball-koniz-bern-ch-25-26-playoffs
 type: game
 game_id: 1096557
 home_team: Floorball Thurgau
@@ -53,10 +53,10 @@ home_goals_against: 4
 home_goals_against_away: 0
 home_goals_against_home: 4
 home_goals_against_in_boxplay: 1
-home_goals_against_in_powerplay: 2
+home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 3
-home_goals_in_boxplay: 2
+home_goals_in_boxplay: 0
 home_goals_in_first_period: 1
 home_goals_in_first_period_against: 0
 home_goals_in_overtime: 0
@@ -128,10 +128,10 @@ away_goals_against: 3
 away_goals_against_away: 3
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
-away_goals_against_in_powerplay: 2
+away_goals_against_in_powerplay: 0
 away_goals_away: 4
 away_goals_home: 0
-away_goals_in_boxplay: 2
+away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
 away_goals_in_first_period_against: 1
 away_goals_in_overtime: 0

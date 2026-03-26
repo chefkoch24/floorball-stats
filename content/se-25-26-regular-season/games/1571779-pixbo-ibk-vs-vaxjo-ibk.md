@@ -1,7 +1,7 @@
 Date: 2025-09-28
 Title: 1571779-pixbo-ibk-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571779-pixbo-ibk-vs-vaxjo-ibk
+Slug: 1571779-pixbo-ibk-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571779
 home_team: Pixbo IBK

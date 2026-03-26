@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1218402-1-sc-natios-vitkovice-vs-esa-logistika-tatran-stresovice
 Category: cz-25-26-regular-season, game
-Slug: 1218402-1-sc-natios-vitkovice-vs-esa-logistika-tatran-stresovice
+Slug: 1218402-1-sc-natios-vitkovice-vs-esa-logistika-tatran-stresovice-cz-25-26-regular-season
 type: game
 game_id: 1218402
 home_team: 1. SC NATIOS Vítkovice

@@ -1,7 +1,7 @@
 Date: 2025-09-23
 Title: 1571770-jonkopings-ik-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571770-jonkopings-ik-vs-aik-ibf
+Slug: 1571770-jonkopings-ik-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571770
 home_team: Jönköpings IK

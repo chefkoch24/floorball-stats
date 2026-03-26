@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: ols-classic-26-9-2025-ols-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: ols-classic-26-9-2025-ols-vs-classic
+Slug: ols-classic-26-9-2025-ols-vs-classic-fi-25-26-regular-season
 type: game
 game_id: ols-classic-26-9-2025
 home_team: OLS
@@ -32,8 +32,8 @@ timeline_home_goals_csv: 0,0,1,2,2,3,3,4,4,4
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,2.4,13.52,16.63,20.72,27.65,35.1,53.38,59.07,65.0
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -171,8 +171,8 @@ away_points_after_third_period: 1
 away_points_against_ols: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

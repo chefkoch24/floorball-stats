@@ -1,7 +1,7 @@
 Date: 2025-12-18
 Title: 1218414-fat-pipe-florbal-chodov-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218414-fat-pipe-florbal-chodov-vs-ba-sokoli-pardubice
+Slug: 1218414-fat-pipe-florbal-chodov-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218414
 home_team: FAT PIPE FLORBAL CHODOV

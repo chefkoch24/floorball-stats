@@ -83,11 +83,11 @@ Tags:  Kanonýři Kladno: 3,
 points_max_difference_2: 3
 points_more_2_difference: 0
 points_per_game: 1.0
-powerplay: 3
-powerplay_efficiency: 66.67
-powerplay_first_period: 0
+powerplay: 4
+powerplay_efficiency: 50.0
+powerplay_first_period: 1
 powerplay_overtime: 0
-powerplay_per_game: 1.0
+powerplay_per_game: 1.33
 powerplay_second_period: 2
 powerplay_third_period: 1
 rank: 7

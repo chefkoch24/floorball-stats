@@ -1,7 +1,7 @@
 Date: 2026-02-27
 Title: 1571917-mullsjo-ais-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571917-mullsjo-ais-vs-jonkopings-ik
+Slug: 1571917-mullsjo-ais-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571917
 home_team: Mullsjö AIS

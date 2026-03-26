@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: ols-hawks-25-10-2025-ols-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: ols-hawks-25-10-2025-ols-vs-hawks
+Slug: ols-hawks-25-10-2025-ols-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: ols-hawks-25-10-2025
 home_team: OLS

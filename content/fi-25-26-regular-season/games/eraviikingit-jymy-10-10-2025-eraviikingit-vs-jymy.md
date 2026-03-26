@@ -1,7 +1,7 @@
 Date: 2025-10-10
 Title: eraviikingit-jymy-10-10-2025-eraviikingit-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-jymy-10-10-2025-eraviikingit-vs-jymy
+Slug: eraviikingit-jymy-10-10-2025-eraviikingit-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-jymy-10-10-2025
 home_team: EräViikingit

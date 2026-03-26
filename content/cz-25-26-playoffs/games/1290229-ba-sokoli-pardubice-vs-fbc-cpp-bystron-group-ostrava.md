@@ -1,7 +1,7 @@
 Date: 2026-03-17
 Title: 1290229-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-playoffs, game
-Slug: 1290229-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1290229-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-playoffs
 type: game
 game_id: 1290229
 home_team: BA SOKOLI Pardubice

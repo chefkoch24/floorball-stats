@@ -1,7 +1,7 @@
 Date: 2025-12-26
 Title: 1571858-vaxjo-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571858-vaxjo-ibk-vs-aik-ibf
+Slug: 1571858-vaxjo-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571858
 home_team: Växjö IBK

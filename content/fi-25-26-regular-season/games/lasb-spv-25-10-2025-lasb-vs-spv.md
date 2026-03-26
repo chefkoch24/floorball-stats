@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: lasb-spv-25-10-2025-lasb-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: lasb-spv-25-10-2025-lasb-vs-spv
+Slug: lasb-spv-25-10-2025-lasb-vs-spv-fi-25-26-regular-season
 type: game
 game_id: lasb-spv-25-10-2025
 home_team: LASB

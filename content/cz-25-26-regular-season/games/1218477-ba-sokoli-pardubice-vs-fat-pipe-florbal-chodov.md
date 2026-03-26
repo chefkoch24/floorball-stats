@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1218477-ba-sokoli-pardubice-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218477-ba-sokoli-pardubice-vs-fat-pipe-florbal-chodov
+Slug: 1218477-ba-sokoli-pardubice-vs-fat-pipe-florbal-chodov-cz-25-26-regular-season
 type: game
 game_id: 1218477
 home_team: BA SOKOLI Pardubice

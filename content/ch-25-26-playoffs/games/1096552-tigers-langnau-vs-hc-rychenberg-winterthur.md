@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 1096552-tigers-langnau-vs-hc-rychenberg-winterthur
 Category: ch-25-26-playoffs, game
-Slug: 1096552-tigers-langnau-vs-hc-rychenberg-winterthur
+Slug: 1096552-tigers-langnau-vs-hc-rychenberg-winterthur-ch-25-26-playoffs
 type: game
 game_id: 1096552
 home_team: Tigers Langnau
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,1,1,1,2,2,2,3,3,3,4,4,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,4.82,13.12,17.12,20.62,24.4,30.38,31.53,36.92,46.42,49.65,52.67,54.28,56.05,57.38
 home_away_points: 0
-home_boxplay: 5
-home_boxplay_efficiency: 40.0
+home_boxplay: 4
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
-home_boxplay_third_period: 3
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -52,11 +52,11 @@ home_goals: 6
 home_goals_against: 9
 home_goals_against_away: 0
 home_goals_against_home: 9
-home_goals_against_in_boxplay: 3
+home_goals_against_in_boxplay: 4
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 6
-home_goals_in_boxplay: 3
+home_goals_in_boxplay: 0
 home_goals_in_first_period: 1
 home_goals_in_first_period_against: 2
 home_goals_in_overtime: 0
@@ -128,7 +128,7 @@ away_goals_against: 6
 away_goals_against_away: 6
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
-away_goals_against_in_powerplay: 3
+away_goals_against_in_powerplay: 0
 away_goals_away: 9
 away_goals_home: 0
 away_goals_in_boxplay: 0
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 3
+away_goals_in_powerplay: 4
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 2
 away_goals_in_third_period: 4
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_tigers_langnau: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 5
-away_powerplay_efficiency: 60.0
+away_powerplay: 4
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
-away_powerplay_third_period: 3
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 0
 away_win_1: 0

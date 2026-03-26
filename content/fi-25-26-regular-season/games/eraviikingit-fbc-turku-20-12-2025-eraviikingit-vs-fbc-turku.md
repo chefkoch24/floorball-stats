@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: eraviikingit-fbc-turku-20-12-2025-eraviikingit-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-fbc-turku-20-12-2025-eraviikingit-vs-fbc-turku
+Slug: eraviikingit-fbc-turku-20-12-2025-eraviikingit-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-fbc-turku-20-12-2025
 home_team: EräViikingit

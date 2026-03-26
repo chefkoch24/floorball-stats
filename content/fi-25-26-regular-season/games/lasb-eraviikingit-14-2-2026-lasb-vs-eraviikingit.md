@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit
+Slug: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: lasb-eraviikingit-14-2-2026
 home_team: LASB

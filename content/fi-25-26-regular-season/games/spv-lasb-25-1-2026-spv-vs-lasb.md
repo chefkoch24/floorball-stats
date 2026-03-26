@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: spv-lasb-25-1-2026-spv-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: spv-lasb-25-1-2026-spv-vs-lasb
+Slug: spv-lasb-25-1-2026-spv-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: spv-lasb-25-1-2026
 home_team: SPV

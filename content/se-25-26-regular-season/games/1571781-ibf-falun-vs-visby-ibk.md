@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 1571781-ibf-falun-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571781-ibf-falun-vs-visby-ibk
+Slug: 1571781-ibf-falun-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571781
 home_team: IBF Falun

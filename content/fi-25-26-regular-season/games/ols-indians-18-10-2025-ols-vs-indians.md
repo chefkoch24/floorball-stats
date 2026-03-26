@@ -1,7 +1,7 @@
 Date: 2025-10-18
 Title: ols-indians-18-10-2025-ols-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: ols-indians-18-10-2025-ols-vs-indians
+Slug: ols-indians-18-10-2025-ols-vs-indians-fi-25-26-regular-season
 type: game
 game_id: ols-indians-18-10-2025
 home_team: OLS

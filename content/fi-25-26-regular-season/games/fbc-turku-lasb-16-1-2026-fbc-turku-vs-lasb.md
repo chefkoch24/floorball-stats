@@ -1,7 +1,7 @@
 Date: 2026-01-16
 Title: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb
+Slug: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-lasb-16-1-2026
 home_team: FBC Turku

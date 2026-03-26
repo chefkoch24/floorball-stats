@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 43456-ssf-dragons-bonn-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43456-ssf-dragons-bonn-vs-etv-piranhhas-hamburg
+Slug: 43456-ssf-dragons-bonn-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43456
 home_team: SSF Dragons Bonn

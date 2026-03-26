@@ -1,7 +1,7 @@
 Date: 2025-11-28
 Title: oilers-tps-28-11-2025-oilers-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: oilers-tps-28-11-2025-oilers-vs-tps
+Slug: oilers-tps-28-11-2025-oilers-vs-tps-fi-25-26-regular-season
 type: game
 game_id: oilers-tps-28-11-2025
 home_team: Oilers

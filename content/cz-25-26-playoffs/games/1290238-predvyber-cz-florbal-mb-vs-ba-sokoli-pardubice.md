@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: 1290238-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice
 Category: cz-25-26-playoffs, game
-Slug: 1290238-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice
+Slug: 1290238-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice-cz-25-26-playoffs
 type: game
 game_id: 1290238
 home_team: Předvýběr.CZ Florbal MB
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_ba_sokoli_pardubice: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

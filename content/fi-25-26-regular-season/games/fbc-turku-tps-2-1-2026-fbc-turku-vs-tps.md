@@ -1,7 +1,7 @@
 Date: 2026-01-02
 Title: fbc-turku-tps-2-1-2026-fbc-turku-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-tps-2-1-2026-fbc-turku-vs-tps
+Slug: fbc-turku-tps-2-1-2026-fbc-turku-vs-tps-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-tps-2-1-2026
 home_team: FBC Turku

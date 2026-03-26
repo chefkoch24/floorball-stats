@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1290234-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice
 Category: cz-25-26-playoffs, game
-Slug: 1290234-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice
+Slug: 1290234-predvyber-cz-florbal-mb-vs-ba-sokoli-pardubice-cz-25-26-playoffs
 type: game
 game_id: 1290234
 home_team: Předvýběr.CZ Florbal MB

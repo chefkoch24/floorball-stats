@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 43458-floor-fighters-chemnitz-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43458-floor-fighters-chemnitz-vs-djk-holzbuttgen
+Slug: 43458-floor-fighters-chemnitz-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43458
 home_team: Floor Fighters Chemnitz

@@ -1,7 +1,7 @@
 Date: 2025-12-21
 Title: 1218419-tj-sokol-kralovske-vinohrady-vs-esa-logistika-tatran-stresovice
 Category: cz-25-26-regular-season, game
-Slug: 1218419-tj-sokol-kralovske-vinohrady-vs-esa-logistika-tatran-stresovice
+Slug: 1218419-tj-sokol-kralovske-vinohrady-vs-esa-logistika-tatran-stresovice-cz-25-26-regular-season
 type: game
 game_id: 1218419
 home_team: TJ Sokol Královské Vinohrady

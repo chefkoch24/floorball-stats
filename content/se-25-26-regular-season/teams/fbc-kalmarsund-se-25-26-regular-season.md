@@ -6,12 +6,12 @@ type: team
 team:FBC Kalmarsund
 platzierungsverlauf:se-25-26-regular-season/teams/fbc-kalmarsund-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 15
-boxplay: 36
-boxplay_efficiency: 69.44
+boxplay: 35
+boxplay_efficiency: 71.43
 boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 1.38
-boxplay_second_period: 15
+boxplay_per_game: 1.35
+boxplay_second_period: 14
 boxplay_third_period: 13
 close_game_loss: 10
 close_game_overtime: 7
@@ -28,7 +28,7 @@ goals: 136
 goals_against: 117
 goals_against_away: 64
 goals_against_home: 53
-goals_against_in_boxplay: 11
+goals_against_in_boxplay: 10
 goals_against_in_powerplay: 1
 goals_against_per_game: 4.5
 goals_away: 57
@@ -51,14 +51,14 @@ loss_1: 7
 losses: 8
 over_time_losses: 2
 over_time_wins: 0
-penalties: 41
+penalties: 40
 penalty_10: 0
-penalty_2: 36
+penalty_2: 35
 penalty_2and2: 1
 penalty_first_period: 9
 penalty_ms: 4
 penalty_overtime: 0
-penalty_second_period: 18
+penalty_second_period: 17
 penalty_shootout_losses: 1
 penalty_shootout_wins: 4
 penalty_shot_goals: 6

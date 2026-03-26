@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: indians-ols-17-1-2026-indians-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: indians-ols-17-1-2026-indians-vs-ols
+Slug: indians-ols-17-1-2026-indians-vs-ols-fi-25-26-regular-season
 type: game
 game_id: indians-ols-17-1-2026
 home_team: Indians

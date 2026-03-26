@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1571763-linkoping-ibk-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571763-linkoping-ibk-vs-jonkopings-ik
+Slug: 1571763-linkoping-ibk-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571763
 home_team: Linköping IBK

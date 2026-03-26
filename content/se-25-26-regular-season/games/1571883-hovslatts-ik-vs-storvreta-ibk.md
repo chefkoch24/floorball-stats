@@ -1,7 +1,7 @@
 Date: 2026-02-12
 Title: 1571883-hovslatts-ik-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571883-hovslatts-ik-vs-storvreta-ibk
+Slug: 1571883-hovslatts-ik-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571883
 home_team: Hovslätts IK

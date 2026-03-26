@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians
+Slug: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-indians-21-2-2026
 home_team: Nokian KrP

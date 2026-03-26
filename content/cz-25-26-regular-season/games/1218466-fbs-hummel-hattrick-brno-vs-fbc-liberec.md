@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1218466-fbs-hummel-hattrick-brno-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218466-fbs-hummel-hattrick-brno-vs-fbc-liberec
+Slug: 1218466-fbs-hummel-hattrick-brno-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218466
 home_team: FBŠ Hummel Hattrick Brno

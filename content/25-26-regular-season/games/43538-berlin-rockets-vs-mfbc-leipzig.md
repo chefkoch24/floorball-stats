@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 43538-berlin-rockets-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43538-berlin-rockets-vs-mfbc-leipzig
+Slug: 43538-berlin-rockets-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43538
 home_team: Berlin Rockets
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,0,0,1,1,1,1,1,2,2,3,4,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,8.7,9.53,11.1,26.35,28.6,29.28,37.67,41.13,46.52,50.98,52.07,56.83,58.53
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_berlin_rockets: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0

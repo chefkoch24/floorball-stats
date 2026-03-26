@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1218474-fbc-4clean-ceska-lipa-vs-hdt-cz-florbal-vary-bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218474-fbc-4clean-ceska-lipa-vs-hdt-cz-florbal-vary-bohemians
+Slug: 1218474-fbc-4clean-ceska-lipa-vs-hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season
 type: game
 game_id: 1218474
 home_team: FBC 4CLEAN Česká Lípa
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,1,1,1,2,2,2,2,3,4,4,4,4,4,4,5,6,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.55,4.4,12.92,16.08,17.73,19.45,25.18,26.13,33.0,34.17,43.43,45.47,47.3,51.33,51.8,53.93,57.75
 home_away_points: 0
-home_boxplay: 3
-home_boxplay_efficiency: 66.67
-home_boxplay_first_period: 1
+home_boxplay: 4
+home_boxplay_efficiency: 50.0
+home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
 home_boxplay_third_period: 1
@@ -52,7 +52,7 @@ home_goals: 7
 home_goals_against: 10
 home_goals_against_away: 0
 home_goals_against_home: 10
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 2
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 7
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 2
 away_goals_in_second_period: 2
 away_goals_in_second_period_against: 2
 away_goals_in_third_period: 4
@@ -171,9 +171,9 @@ away_points_after_third_period: 3
 away_points_against_fbc_4clean_ceska_lipa: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 3
-away_powerplay_efficiency: 33.33
-away_powerplay_first_period: 1
+away_powerplay: 4
+away_powerplay_efficiency: 50.0
+away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
 away_powerplay_third_period: 1

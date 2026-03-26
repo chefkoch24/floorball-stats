@@ -7,7 +7,7 @@ team:Grasshopper Club Zürich
 platzierungsverlauf:ch-25-26-playoffs/teams/grasshopper-club-zurich-ch-25-26-playoffs_platzierungsverlauf.png
 away_points: 2
 boxplay: 5
-boxplay_efficiency: 60.0
+boxplay_efficiency: 40.0
 boxplay_first_period: 0
 boxplay_overtime: 0
 boxplay_per_game: 1.0
@@ -28,19 +28,19 @@ goals: 15
 goals_against: 37
 goals_against_away: 22
 goals_against_home: 15
-goals_against_in_boxplay: 2
-goals_against_in_powerplay: 6
+goals_against_in_boxplay: 3
+goals_against_in_powerplay: 0
 goals_against_per_game: 7.4
 goals_away: 9
 goals_home: 6
-goals_in_boxplay: 3
+goals_in_boxplay: 0
 goals_in_first_period: 6
 goals_in_first_period_against: 14
 goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 1
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 1
+goals_in_powerplay: 3
 goals_in_second_period: 4
 goals_in_second_period_against: 5
 goals_in_third_period: 4
@@ -84,7 +84,7 @@ points_max_difference_2: 2
 points_more_2_difference: 0
 points_per_game: 0.4
 powerplay: 5
-powerplay_efficiency: 20.0
+powerplay_efficiency: 60.0
 powerplay_first_period: 0
 powerplay_overtime: 0
 powerplay_per_game: 1.0

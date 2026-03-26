@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 131916-tsunami-zahorska-bystrica-vs-snipers-bratislava
 Category: sk-25-26-playoffs, game
-Slug: 131916-tsunami-zahorska-bystrica-vs-snipers-bratislava
+Slug: 131916-tsunami-zahorska-bystrica-vs-snipers-bratislava-sk-25-26-playoffs
 type: game
 game_id: 131916
 home_team: Tsunami Záhorská Bystrica

@@ -5,11 +5,11 @@ Slug: league-average-fi-25-26-playoffs
 type: liga
 team: League Average
 away_points: 0.12
-boxplay: 1.88
-boxplay_efficiency: 39.52
+boxplay: 2.0
+boxplay_efficiency: 40.71
 boxplay_first_period: 0.38
-boxplay_overtime: 0.12
-boxplay_per_game: 1.88
+boxplay_overtime: 0.25
+boxplay_per_game: 2.0
 boxplay_second_period: 0.62
 boxplay_third_period: 0.75
 close_game_loss: 0.25
@@ -81,11 +81,11 @@ points_after_third_period: 1.38
 points_max_difference_2: 0.75
 points_more_2_difference: 0.75
 points_per_game: 1.5
-powerplay: 1.88
-powerplay_efficiency: 60.48
+powerplay: 2.0
+powerplay_efficiency: 59.29
 powerplay_first_period: 0.38
-powerplay_overtime: 0.12
-powerplay_per_game: 1.88
+powerplay_overtime: 0.25
+powerplay_per_game: 2.0
 powerplay_second_period: 0.62
 powerplay_third_period: 0.75
 rank: 4.5

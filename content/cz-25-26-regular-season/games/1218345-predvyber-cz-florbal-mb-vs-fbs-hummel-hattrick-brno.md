@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1218345-predvyber-cz-florbal-mb-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218345-predvyber-cz-florbal-mb-vs-fbs-hummel-hattrick-brno
+Slug: 1218345-predvyber-cz-florbal-mb-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218345
 home_team: Předvýběr.CZ Florbal MB

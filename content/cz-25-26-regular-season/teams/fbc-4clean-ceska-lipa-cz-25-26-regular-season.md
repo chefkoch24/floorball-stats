@@ -6,13 +6,13 @@ type: team
 team:FBC 4CLEAN Česká Lípa
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-4clean-ceska-lipa-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 10
-boxplay: 42
-boxplay_efficiency: 57.14
-boxplay_first_period: 12
+boxplay: 44
+boxplay_efficiency: 50.0
+boxplay_first_period: 13
 boxplay_overtime: 0
-boxplay_per_game: 1.62
+boxplay_per_game: 1.69
 boxplay_second_period: 7
-boxplay_third_period: 23
+boxplay_third_period: 24
 close_game_loss: 4
 close_game_overtime: 5
 close_game_win: 6
@@ -28,7 +28,7 @@ goals: 130
 goals_against: 193
 goals_against_away: 105
 goals_against_home: 88
-goals_against_in_boxplay: 18
+goals_against_in_boxplay: 22
 goals_against_in_powerplay: 0
 goals_against_per_game: 7.42
 goals_away: 57
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 3
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 9
+goals_in_powerplay: 10
 goals_in_second_period: 34
 goals_in_second_period_against: 58
 goals_in_third_period: 54
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 3,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice:
 points_max_difference_2: 15
 points_more_2_difference: 12
 points_per_game: 1.04
-powerplay: 24
-powerplay_efficiency: 37.5
+powerplay: 26
+powerplay_efficiency: 38.46
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 0.92
-powerplay_second_period: 10
-powerplay_third_period: 9
+powerplay_per_game: 1.0
+powerplay_second_period: 11
+powerplay_third_period: 10
 rank: 10
 scoring_ratio: 0.67
 take_the_lead_goals: 26

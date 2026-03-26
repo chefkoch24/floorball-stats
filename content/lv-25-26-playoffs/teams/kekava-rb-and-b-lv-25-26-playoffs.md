@@ -6,13 +6,13 @@ type: team
 team:Ķekava/RB&B
 platzierungsverlauf:lv-25-26-playoffs/teams/kekava-rb-and-b-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 5
-boxplay: 24
-boxplay_efficiency: 83.33
+boxplay: 26
+boxplay_efficiency: 84.62
 boxplay_first_period: 10
 boxplay_overtime: 0
-boxplay_per_game: 3.43
+boxplay_per_game: 3.71
 boxplay_second_period: 12
-boxplay_third_period: 2
+boxplay_third_period: 4
 close_game_loss: 1
 close_game_overtime: 0
 close_game_win: 0

@@ -1,7 +1,7 @@
 Date: 2025-12-12
 Title: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers
+Slug: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-oilers-12-12-2025
 home_team: EräViikingit

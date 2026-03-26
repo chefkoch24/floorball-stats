@@ -1,7 +1,7 @@
 Date: 2025-12-30
 Title: 1218435-fbc-4clean-ceska-lipa-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218435-fbc-4clean-ceska-lipa-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218435-fbc-4clean-ceska-lipa-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218435
 home_team: FBC 4CLEAN Česká Lípa

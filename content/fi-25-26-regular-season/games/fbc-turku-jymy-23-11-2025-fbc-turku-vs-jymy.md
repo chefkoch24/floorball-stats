@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: fbc-turku-jymy-23-11-2025-fbc-turku-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-jymy-23-11-2025-fbc-turku-vs-jymy
+Slug: fbc-turku-jymy-23-11-2025-fbc-turku-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-jymy-23-11-2025
 home_team: FBC Turku

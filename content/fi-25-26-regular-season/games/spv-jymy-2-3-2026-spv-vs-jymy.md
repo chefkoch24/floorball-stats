@@ -1,7 +1,7 @@
 Date: 2026-03-02
 Title: spv-jymy-2-3-2026-spv-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: spv-jymy-2-3-2026-spv-vs-jymy
+Slug: spv-jymy-2-3-2026-spv-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: spv-jymy-2-3-2026
 home_team: SPV

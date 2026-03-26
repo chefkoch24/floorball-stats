@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: spv-classic-10-1-2026-spv-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: spv-classic-10-1-2026-spv-vs-classic
+Slug: spv-classic-10-1-2026-spv-vs-classic-fi-25-26-regular-season
 type: game
 game_id: spv-classic-10-1-2026
 home_team: SPV

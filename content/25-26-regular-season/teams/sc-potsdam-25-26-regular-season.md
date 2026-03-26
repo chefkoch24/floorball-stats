@@ -6,13 +6,13 @@ type: team
 team:SC Potsdam
 platzierungsverlauf:25-26-regular-season/teams/sc-potsdam-25-26-regular-season_platzierungsverlauf.png
 away_points: 5
-boxplay: 52
-boxplay_efficiency: 38.46000000000001
+boxplay: 57
+boxplay_efficiency: 42.11
 boxplay_first_period: 15
 boxplay_overtime: 0
-boxplay_per_game: 2.6
-boxplay_second_period: 21
-boxplay_third_period: 16
+boxplay_per_game: 2.85
+boxplay_second_period: 24
+boxplay_third_period: 18
 close_game_loss: 4
 close_game_overtime: 2
 close_game_win: 2
@@ -28,7 +28,7 @@ goals: 112
 goals_against: 175
 goals_against_away: 94
 goals_against_home: 81
-goals_against_in_boxplay: 32
+goals_against_in_boxplay: 33
 goals_against_in_powerplay: 3
 goals_against_per_game: 8.75
 goals_away: 50
@@ -83,13 +83,13 @@ Tags:  Berlin Rockets: 2,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 0,  E
 points_max_difference_2: 6
 points_more_2_difference: 6
 points_per_game: 0.6
-powerplay: 33
-powerplay_efficiency: 42.42
-powerplay_first_period: 5
+powerplay: 36
+powerplay_efficiency: 38.89
+powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.65
+powerplay_per_game: 1.8
 powerplay_second_period: 11
-powerplay_third_period: 17
+powerplay_third_period: 19
 rank: 11
 scoring_ratio: 0.64
 take_the_lead_goals: 18

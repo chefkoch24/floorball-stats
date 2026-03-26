@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 1218341-ba-sokoli-pardubice-vs-1-sc-natios-vitkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218341-ba-sokoli-pardubice-vs-1-sc-natios-vitkovice
+Slug: 1218341-ba-sokoli-pardubice-vs-1-sc-natios-vitkovice-cz-25-26-regular-season
 type: game
 game_id: 1218341
 home_team: BA SOKOLI Pardubice

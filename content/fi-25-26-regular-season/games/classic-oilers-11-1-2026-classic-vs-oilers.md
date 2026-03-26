@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: classic-oilers-11-1-2026-classic-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: classic-oilers-11-1-2026-classic-vs-oilers
+Slug: classic-oilers-11-1-2026-classic-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: classic-oilers-11-1-2026
 home_team: Classic

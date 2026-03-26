@@ -1,7 +1,7 @@
 Date: 2025-11-16
 Title: 43480-mfbc-leipzig-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43480-mfbc-leipzig-vs-berlin-rockets
+Slug: 43480-mfbc-leipzig-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43480
 home_team: MFBC Leipzig

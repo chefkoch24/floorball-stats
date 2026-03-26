@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: hawks-ols-21-2-2026-hawks-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: hawks-ols-21-2-2026-hawks-vs-ols
+Slug: hawks-ols-21-2-2026-hawks-vs-ols-fi-25-26-regular-season
 type: game
 game_id: hawks-ols-21-2-2026
 home_team: Hawks

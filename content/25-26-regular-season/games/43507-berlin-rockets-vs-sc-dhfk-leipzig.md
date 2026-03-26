@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 43507-berlin-rockets-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43507-berlin-rockets-vs-sc-dhfk-leipzig
+Slug: 43507-berlin-rockets-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43507
 home_team: Berlin Rockets

@@ -83,13 +83,13 @@ Tags:  BA SOKOLI Pardubice: 6,
 points_max_difference_2: 0
 points_more_2_difference: 6
 points_per_game: 3.0
-powerplay: 3
-powerplay_efficiency: 33.33
+powerplay: 4
+powerplay_efficiency: 25.0
 powerplay_first_period: 0
 powerplay_overtime: 0
-powerplay_per_game: 1.5
+powerplay_per_game: 2.0
 powerplay_second_period: 3
-powerplay_third_period: 0
+powerplay_third_period: 1
 rank: 3
 scoring_ratio: 2.11
 take_the_lead_goals: 5

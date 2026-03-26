@@ -1,7 +1,7 @@
 Date: 2025-10-28
 Title: 1218377-esa-logistika-tatran-stresovice-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218377-esa-logistika-tatran-stresovice-vs-fbc-4clean-ceska-lipa
+Slug: 1218377-esa-logistika-tatran-stresovice-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218377
 home_team: ESA logistika Tatran Střešovice
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 2
+home_goals_in_powerplay: 3
 home_goals_in_second_period: 5
 home_goals_in_second_period_against: 1
 home_goals_in_third_period: 5
@@ -97,7 +97,7 @@ home_points_against_fbc_4clean_ceska_lipa: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
 home_powerplay: 4
-home_powerplay_efficiency: 50.0
+home_powerplay_efficiency: 75.0
 home_powerplay_first_period: 2
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 1
 away_away_points: 0
 away_boxplay: 4
-away_boxplay_efficiency: 50.0
+away_boxplay_efficiency: 25.0
 away_boxplay_first_period: 2
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
@@ -127,7 +127,7 @@ away_goals: 2
 away_goals_against: 14
 away_goals_against_away: 14
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 2
+away_goals_against_in_boxplay: 3
 away_goals_against_in_powerplay: 0
 away_goals_away: 2
 away_goals_home: 0

@@ -7,7 +7,7 @@ team:SV Wiler-Ersigen
 platzierungsverlauf:ch-25-26-playoffs/teams/sv-wiler-ersigen-ch-25-26-playoffs_platzierungsverlauf.png
 away_points: 6
 boxplay: 5
-boxplay_efficiency: 80.0
+boxplay_efficiency: 40.0
 boxplay_first_period: 0
 boxplay_overtime: 0
 boxplay_per_game: 1.0
@@ -28,19 +28,19 @@ goals: 37
 goals_against: 15
 goals_against_away: 6
 goals_against_home: 9
-goals_against_in_boxplay: 1
-goals_against_in_powerplay: 3
+goals_against_in_boxplay: 3
+goals_against_in_powerplay: 0
 goals_against_per_game: 3.0
 goals_away: 15
 goals_home: 22
-goals_in_boxplay: 6
+goals_in_boxplay: 0
 goals_in_first_period: 14
 goals_in_first_period_against: 6
 goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 2
+goals_in_powerplay: 3
 goals_in_second_period: 5
 goals_in_second_period_against: 4
 goals_in_third_period: 17
@@ -84,7 +84,7 @@ points_max_difference_2: 1
 points_more_2_difference: 12
 points_per_game: 2.6
 powerplay: 5
-powerplay_efficiency: 40.0
+powerplay_efficiency: 60.0
 powerplay_first_period: 0
 powerplay_overtime: 0
 powerplay_per_game: 1.0

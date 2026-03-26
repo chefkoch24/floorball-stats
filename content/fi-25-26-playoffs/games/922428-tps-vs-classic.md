@@ -1,7 +1,7 @@
 Date: 2026-03-27
 Title: 922428-tps-vs-classic
 Category: fi-25-26-playoffs, game
-Slug: 922428-tps-vs-classic
+Slug: 922428-tps-vs-classic-fi-25-26-playoffs
 type: game
 game_id: 922428
 home_team: TPS

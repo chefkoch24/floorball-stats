@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: lasb-ols-13-9-2025-lasb-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: lasb-ols-13-9-2025-lasb-vs-ols
+Slug: lasb-ols-13-9-2025-lasb-vs-ols-fi-25-26-regular-season
 type: game
 game_id: lasb-ols-13-9-2025
 home_team: LASB

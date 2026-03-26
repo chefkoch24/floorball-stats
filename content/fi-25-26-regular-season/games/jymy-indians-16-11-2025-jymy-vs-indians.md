@@ -1,7 +1,7 @@
 Date: 2025-11-16
 Title: jymy-indians-16-11-2025-jymy-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: jymy-indians-16-11-2025-jymy-vs-indians
+Slug: jymy-indians-16-11-2025-jymy-vs-indians-fi-25-26-regular-season
 type: game
 game_id: jymy-indians-16-11-2025
 home_team: Jymy

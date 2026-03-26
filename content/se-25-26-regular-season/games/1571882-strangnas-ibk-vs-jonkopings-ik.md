@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1571882-strangnas-ibk-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571882-strangnas-ibk-vs-jonkopings-ik
+Slug: 1571882-strangnas-ibk-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571882
 home_team: Strängnäs IBK

@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: oilers-jymy-17-1-2026-oilers-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: oilers-jymy-17-1-2026-oilers-vs-jymy
+Slug: oilers-jymy-17-1-2026-oilers-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: oilers-jymy-17-1-2026
 home_team: Oilers

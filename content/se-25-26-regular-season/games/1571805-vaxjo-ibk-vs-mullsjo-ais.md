@@ -1,7 +1,7 @@
 Date: 2025-10-24
 Title: 1571805-vaxjo-ibk-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571805-vaxjo-ibk-vs-mullsjo-ais
+Slug: 1571805-vaxjo-ibk-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571805
 home_team: Växjö IBK

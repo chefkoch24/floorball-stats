@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1218494-kanonyri-kladno-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218494-kanonyri-kladno-vs-fbc-liberec
+Slug: 1218494-kanonyri-kladno-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218494
 home_team: Kanonýři Kladno

@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 131944-1-fbc-trencin-vs-tsunami-zahorska-bystrica
 Category: sk-25-26-playoffs, game
-Slug: 131944-1-fbc-trencin-vs-tsunami-zahorska-bystrica
+Slug: 131944-1-fbc-trencin-vs-tsunami-zahorska-bystrica-sk-25-26-playoffs
 type: game
 game_id: 131944
 home_team: 1. FBC Trenčín
@@ -96,23 +96,23 @@ home_points_after_third_period: 1
 home_points_against_tsunami_zahorska_bystrica: 1
 home_points_max_difference_2: 1
 home_points_more_2_difference: 0
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 3
 home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
 away_away_points: 2
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 1
 away_close_game_win: 1

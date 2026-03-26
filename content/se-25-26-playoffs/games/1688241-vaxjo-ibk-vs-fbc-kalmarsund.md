@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1688241-vaxjo-ibk-vs-fbc-kalmarsund
 Category: se-25-26-playoffs, game
-Slug: 1688241-vaxjo-ibk-vs-fbc-kalmarsund
+Slug: 1688241-vaxjo-ibk-vs-fbc-kalmarsund-se-25-26-playoffs
 type: game
 game_id: 1688241
 home_team: Växjö IBK

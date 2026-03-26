@@ -6,11 +6,11 @@ type: team
 team:Kanonýři Kladno
 platzierungsverlauf:cz-25-26-playoffs/teams/kanonyri-kladno-cz-25-26-playoffs_platzierungsverlauf.png
 away_points: 3
-boxplay: 8
-boxplay_efficiency: 50.0
-boxplay_first_period: 2
+boxplay: 9
+boxplay_efficiency: 44.440000000000005
+boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 1.6
+boxplay_per_game: 1.8
 boxplay_second_period: 3
 boxplay_third_period: 3
 close_game_loss: 1
@@ -28,7 +28,7 @@ goals: 24
 goals_against: 40
 goals_against_away: 27
 goals_against_home: 13
-goals_against_in_boxplay: 4
+goals_against_in_boxplay: 5
 goals_against_in_powerplay: 1
 goals_against_per_game: 8.0
 goals_away: 11

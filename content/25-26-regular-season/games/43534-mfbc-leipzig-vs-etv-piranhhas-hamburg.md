@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 43534-mfbc-leipzig-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43534-mfbc-leipzig-vs-etv-piranhhas-hamburg
+Slug: 43534-mfbc-leipzig-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43534
 home_team: MFBC Leipzig

@@ -1,7 +1,7 @@
 Date: 2025-09-28
 Title: 43452-sc-potsdam-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43452-sc-potsdam-vs-djk-holzbuttgen
+Slug: 43452-sc-potsdam-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43452
 home_team: SC Potsdam
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,4,4,4,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.42,17.87,22.4,25.37,29.75,35.43,36.45,38.57,43.35,48.67,53.88,57.17,59.9
 home_away_points: 0
-home_boxplay: 3
-home_boxplay_efficiency: 33.33
+home_boxplay: 5
+home_boxplay_efficiency: 40.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
-home_boxplay_third_period: 2
+home_boxplay_second_period: 2
+home_boxplay_third_period: 3
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -52,7 +52,7 @@ home_goals: 4
 home_goals_against: 9
 home_goals_against_away: 0
 home_goals_against_home: 9
-home_goals_against_in_boxplay: 2
+home_goals_against_in_boxplay: 3
 home_goals_against_in_powerplay: 1
 home_goals_away: 0
 home_goals_home: 4
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 2
+away_goals_in_powerplay: 3
 away_goals_in_second_period: 4
 away_goals_in_second_period_against: 2
 away_goals_in_third_period: 4
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_sc_potsdam: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 3
-away_powerplay_efficiency: 66.67
+away_powerplay: 5
+away_powerplay_efficiency: 60.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
-away_powerplay_third_period: 2
+away_powerplay_second_period: 2
+away_powerplay_third_period: 3
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 1
 away_win_1: 0

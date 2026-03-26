@@ -1,7 +1,7 @@
 Date: 2026-01-15
 Title: 1218455-ba-sokoli-pardubice-vs-kanonyri-kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218455-ba-sokoli-pardubice-vs-kanonyri-kladno
+Slug: 1218455-ba-sokoli-pardubice-vs-kanonyri-kladno-cz-25-26-regular-season
 type: game
 game_id: 1218455
 home_team: BA SOKOLI Pardubice

@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 1571790-aik-ibf-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571790-aik-ibf-vs-ibf-falun
+Slug: 1571790-aik-ibf-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571790
 home_team: AIK IBF

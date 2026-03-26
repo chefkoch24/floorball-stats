@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1218392-fbc-cpp-bystron-group-ostrava-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218392-fbc-cpp-bystron-group-ostrava-vs-fbc-4clean-ceska-lipa
+Slug: 1218392-fbc-cpp-bystron-group-ostrava-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218392
 home_team: FBC ČPP Bystroň Group OSTRAVA

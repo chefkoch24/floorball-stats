@@ -6,13 +6,13 @@ type: team
 team:ESA logistika Tatran Střešovice
 platzierungsverlauf:cz-25-26-regular-season/teams/esa-logistika-tatran-stresovice-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 30
-boxplay: 25
-boxplay_efficiency: 56.0
+boxplay: 27
+boxplay_efficiency: 59.260000000000005
 boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 0.96
+boxplay_per_game: 1.04
 boxplay_second_period: 9
-boxplay_third_period: 8
+boxplay_third_period: 10
 close_game_loss: 1
 close_game_overtime: 2
 close_game_win: 4
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 1
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 15
+goals_in_powerplay: 16
 goals_in_second_period: 80
 goals_in_second_period_against: 33
 goals_in_third_period: 79
@@ -83,11 +83,11 @@ Tags:  1. SC NATIOS Vítkovice: 6,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice:
 points_max_difference_2: 10
 points_more_2_difference: 51
 points_per_game: 2.35
-powerplay: 27
-powerplay_efficiency: 55.559999999999995
-powerplay_first_period: 5
+powerplay: 28
+powerplay_efficiency: 57.14
+powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.04
+powerplay_per_game: 1.08
 powerplay_second_period: 6
 powerplay_third_period: 16
 rank: 3

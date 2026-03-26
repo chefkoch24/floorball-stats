@@ -1,7 +1,7 @@
 Date: 2026-01-15
 Title: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers
+Slug: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-oilers-15-1-2026
 home_team: EräViikingit

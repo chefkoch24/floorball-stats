@@ -1,7 +1,7 @@
 Date: 2026-03-06
 Title: indians-spv-6-3-2026-indians-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: indians-spv-6-3-2026-indians-vs-spv
+Slug: indians-spv-6-3-2026-indians-vs-spv-fi-25-26-regular-season
 type: game
 game_id: indians-spv-6-3-2026
 home_team: Indians

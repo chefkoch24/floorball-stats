@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 1571792-storvreta-ibk-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571792-storvreta-ibk-vs-hovslatts-ik
+Slug: 1571792-storvreta-ibk-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571792
 home_team: Storvreta IBK

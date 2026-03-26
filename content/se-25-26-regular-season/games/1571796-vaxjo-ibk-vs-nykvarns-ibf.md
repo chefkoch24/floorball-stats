@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1571796-vaxjo-ibk-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571796-vaxjo-ibk-vs-nykvarns-ibf
+Slug: 1571796-vaxjo-ibk-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571796
 home_team: Växjö IBK

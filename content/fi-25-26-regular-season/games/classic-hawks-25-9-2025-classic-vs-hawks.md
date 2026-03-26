@@ -1,7 +1,7 @@
 Date: 2025-09-25
 Title: classic-hawks-25-9-2025-classic-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: classic-hawks-25-9-2025-classic-vs-hawks
+Slug: classic-hawks-25-9-2025-classic-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: classic-hawks-25-9-2025
 home_team: Classic
@@ -32,8 +32,8 @@ timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,13
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.37,4.78,10.3,19.28,20.35,22.42,22.97,25.47,26.4,30.97,32.32,38.6,52.55,54.6
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -171,8 +171,8 @@ away_points_after_third_period: 0
 away_points_against_classic: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

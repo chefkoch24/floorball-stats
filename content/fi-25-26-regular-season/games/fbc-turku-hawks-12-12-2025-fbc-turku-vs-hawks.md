@@ -1,7 +1,7 @@
 Date: 2025-12-12
 Title: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks
+Slug: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-hawks-12-12-2025
 home_team: FBC Turku

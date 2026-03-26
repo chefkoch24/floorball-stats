@@ -1,7 +1,7 @@
 Date: 2025-09-19
 Title: spv-classic-19-9-2025-spv-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: spv-classic-19-9-2025-spv-vs-classic
+Slug: spv-classic-19-9-2025-spv-vs-classic-fi-25-26-regular-season
 type: game
 game_id: spv-classic-19-9-2025
 home_team: SPV

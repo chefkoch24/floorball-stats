@@ -1,7 +1,7 @@
 Date: 2026-02-27
 Title: 54818-fbk-valmiera-vs-talsu-nss-krauzers
 Category: lv-25-26-playoffs, game
-Slug: 54818-fbk-valmiera-vs-talsu-nss-krauzers
+Slug: 54818-fbk-valmiera-vs-talsu-nss-krauzers-lv-25-26-playoffs
 type: game
 game_id: 54818
 home_team: FBK Valmiera

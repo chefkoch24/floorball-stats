@@ -1,7 +1,7 @@
 Date: 2026-03-29
 Title: 45905-sc-dhfk-leipzig-vs-ssf-dragons-bonn
 Category: 25-26-playoffs, game
-Slug: 45905-sc-dhfk-leipzig-vs-ssf-dragons-bonn
+Slug: 45905-sc-dhfk-leipzig-vs-ssf-dragons-bonn-25-26-playoffs
 type: game
 game_id: 45905
 home_team: SC DHfK Leipzig

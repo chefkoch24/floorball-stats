@@ -1,7 +1,7 @@
 Date: 2026-03-06
 Title: fbc-turku-nokian-krp-6-3-2026-fbc-turku-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-nokian-krp-6-3-2026-fbc-turku-vs-nokian-krp
+Slug: fbc-turku-nokian-krp-6-3-2026-fbc-turku-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-nokian-krp-6-3-2026
 home_team: FBC Turku

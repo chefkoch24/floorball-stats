@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 1218332-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218332-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218332-ba-sokoli-pardubice-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218332
 home_team: BA SOKOLI Pardubice

@@ -83,13 +83,13 @@ Tags:  Tsunami Záhorská Bystrica: 6,
 points_max_difference_2: 3
 points_more_2_difference: 3
 points_per_game: 1.2
-powerplay: 15
-powerplay_efficiency: 33.33
+powerplay: 14
+powerplay_efficiency: 35.709999999999994
 powerplay_first_period: 3
 powerplay_overtime: 0
-powerplay_per_game: 3.0
+powerplay_per_game: 2.8
 powerplay_second_period: 4
-powerplay_third_period: 8
+powerplay_third_period: 7
 rank: 6
 scoring_ratio: 0.83
 take_the_lead_goals: 5

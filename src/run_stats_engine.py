@@ -698,7 +698,8 @@ def stat_goals_in_powerplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     goals_in_powerplay = 0
-    for _, event in events.iterrows():
+    events_sorted = events.sort_values(by='time_in_s')
+    for _, event in events_sorted.iterrows():
         if len(penalties_for) > 0:
             if event['time_in_s'] - penalties_for[0] >= 120:
                 penalties_for.pop(0)
@@ -722,7 +723,8 @@ def stat_goals_in_boxplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     goals_in_boxplay = 0
-    for _, event in events.iterrows():
+    events_sorted = events.sort_values(by='time_in_s')
+    for _, event in events_sorted.iterrows():
         if len(penalties_for) > 0:
             if event['time_in_s'] - penalties_for[0] >= 120:
                 penalties_for.pop(0)
@@ -745,7 +747,8 @@ def stat_goals_against_in_boxplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     goals_against_in_boxplay = 0
-    for _, event in events.iterrows():
+    events_sorted = events.sort_values(by='time_in_s')
+    for _, event in events_sorted.iterrows():
         if len(penalties_for) > 0:
             if event['time_in_s'] - penalties_for[0] >= 120:
                 penalties_for.pop(0)
@@ -769,7 +772,8 @@ def stat_goals_against_in_powerplay(events: pd.DataFrame, team: str):
     penalties_against = []
     penalties_for = []
     goals_against_in_powerplay = 0
-    for _, event in events.iterrows():
+    events_sorted = events.sort_values(by='time_in_s')
+    for _, event in events_sorted.iterrows():
         if len(penalties_for) > 0:
             if event['time_in_s'] - penalties_for[0] >= 120:
                 penalties_for.pop(0)
@@ -796,37 +800,40 @@ def stat_penalties_for_team(events: pd.DataFrame, team: str):
     # number of penalities for the team
     return int(events[(events['event_type'] == EVENT_PENALTY) & (events['event_team'] == team)].shape[0])
 
+def _penalty_opportunity_segments(bucket: pd.DataFrame) -> int:
+    explicit_segments = 0
+    has_ten_minute_penalty = False
+    has_match_penalty = False
+
+    for _, event in bucket.iterrows():
+        penalty_type = event['penalty_type']
+        if penalty_type == 'penalty_2':
+            explicit_segments += 1
+        elif penalty_type == 'penalty_2and2':
+            explicit_segments += 2
+        elif penalty_type == 'penalty_10':
+            has_ten_minute_penalty = True
+        elif penalty_type in {'penalty_ms_full', 'penalty_ms_tech'}:
+            has_match_penalty = True
+
+    # A 10-minute misconduct still carries one 2-minute powerplay segment.
+    if has_ten_minute_penalty and explicit_segments < 1:
+        explicit_segments = 1
+
+    # Match penalties imply an additional 2+2 even if the feed omitted it.
+    if has_match_penalty and explicit_segments < 2:
+        explicit_segments = 2
+
+    return int(explicit_segments)
+
 def stat_powerplay(events: pd.DataFrame, team: str):
-    penalties_against = []
-    penalties_for = []
+    penalties = events[events['event_type'] == EVENT_PENALTY].sort_values(by='time_in_s')
     powerplays = 0
 
-    def _expire_penalties(current_time: int):
-        while penalties_for and current_time - penalties_for[0] >= 120:
-            penalties_for.pop(0)
-        while penalties_against and current_time - penalties_against[0] >= 120:
-            penalties_against.pop(0)
-
-    events_sorted = events.sort_values(by='time_in_s')
-    for current_time, bucket in events_sorted.groupby('time_in_s', sort=True):
-        _expire_penalties(current_time)
-        prev_adv = max(0, len(penalties_against) - len(penalties_for))
-
-        penalties = bucket[bucket['event_type'] == EVENT_PENALTY]
-        for _, event in penalties.iterrows():
-            if event['event_team'] != team:
-                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
-            else:
-                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
-
-        goals = bucket[bucket['event_type'] == EVENT_GOAL]
-        for _, event in goals.iterrows():
-            if event['event_team'] == team and is_powerplay(current_time, penalties_for, penalties_against):
-                penalties_against.pop(0)
-
-        new_adv = max(0, len(penalties_against) - len(penalties_for))
-        if new_adv > prev_adv:
-            powerplays += new_adv - prev_adv
+    for _, bucket in penalties.groupby('time_in_s', sort=True):
+        opponent_segments = _penalty_opportunity_segments(bucket[bucket['event_team'] != team])
+        team_segments = _penalty_opportunity_segments(bucket[bucket['event_team'] == team])
+        powerplays += max(0, opponent_segments - team_segments)
 
     return int(powerplays)
 
@@ -847,36 +854,13 @@ def stat_powerplay_overtime(events: pd.DataFrame, team: str):
 
 
 def stat_boxplay(events: pd.DataFrame, team: str):
-    penalties_against = []
-    penalties_for = []
+    penalties = events[events['event_type'] == EVENT_PENALTY].sort_values(by='time_in_s')
     boxplays = 0
 
-    def _expire_penalties(current_time: int):
-        while penalties_for and current_time - penalties_for[0] >= 120:
-            penalties_for.pop(0)
-        while penalties_against and current_time - penalties_against[0] >= 120:
-            penalties_against.pop(0)
-
-    events_sorted = events.sort_values(by='time_in_s')
-    for current_time, bucket in events_sorted.groupby('time_in_s', sort=True):
-        _expire_penalties(current_time)
-        prev_adv = max(0, len(penalties_for) - len(penalties_against))
-
-        penalties = bucket[bucket['event_type'] == EVENT_PENALTY]
-        for _, event in penalties.iterrows():
-            if event['event_team'] != team:
-                penalties_against = add_penalties(event['penalty_type'], penalties_against, event['time_in_s'])
-            else:
-                penalties_for = add_penalties(event['penalty_type'], penalties_for, event['time_in_s'])
-
-        goals = bucket[bucket['event_type'] == EVENT_GOAL]
-        for _, event in goals.iterrows():
-            if event['event_team'] != team and is_boxplay(current_time, penalties_for, penalties_against):
-                penalties_for.pop(0)
-
-        new_adv = max(0, len(penalties_for) - len(penalties_against))
-        if new_adv > prev_adv:
-            boxplays += new_adv - prev_adv
+    for _, bucket in penalties.groupby('time_in_s', sort=True):
+        team_segments = _penalty_opportunity_segments(bucket[bucket['event_team'] == team])
+        opponent_segments = _penalty_opportunity_segments(bucket[bucket['event_team'] != team])
+        boxplays += max(0, team_segments - opponent_segments)
 
     return int(boxplays)
 

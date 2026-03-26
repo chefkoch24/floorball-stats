@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218453-fbs-hummel-hattrick-brno-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218453-fbs-hummel-hattrick-brno-vs-florbal-usti
+Slug: 1218453-fbs-hummel-hattrick-brno-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218453
 home_team: FBŠ Hummel Hattrick Brno
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,2,3,3,3,4,5,5,6,6,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,5.8,11.48,18.68,23.72,32.6,36.75,39.75,40.58,49.13,56.42,59.92
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_fbs_hummel_hattrick_brno: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
 away_win_1: 0

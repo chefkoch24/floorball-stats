@@ -1,7 +1,7 @@
 Date: 2025-09-17
 Title: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp
+Slug: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: lasb-nokian-krp-17-9-2025
 home_team: LASB

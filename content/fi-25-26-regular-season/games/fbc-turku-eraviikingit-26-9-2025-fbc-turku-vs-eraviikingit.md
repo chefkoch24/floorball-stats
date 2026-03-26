@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit
+Slug: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-eraviikingit-26-9-2025
 home_team: FBC Turku

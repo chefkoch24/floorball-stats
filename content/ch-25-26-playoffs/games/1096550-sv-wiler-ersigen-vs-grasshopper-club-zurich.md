@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 1096550-sv-wiler-ersigen-vs-grasshopper-club-zurich
 Category: ch-25-26-playoffs, game
-Slug: 1096550-sv-wiler-ersigen-vs-grasshopper-club-zurich
+Slug: 1096550-sv-wiler-ersigen-vs-grasshopper-club-zurich-ch-25-26-playoffs
 type: game
 game_id: 1096550
 home_team: SV Wiler-Ersigen
@@ -33,7 +33,7 @@ timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,3.7,6.57,11.25,15.08,45.2,55.87
 home_away_points: 0
 home_boxplay: 1
-home_boxplay_efficiency: 100.0
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -52,18 +52,18 @@ home_goals: 3
 home_goals_against: 4
 home_goals_against_away: 0
 home_goals_against_home: 4
-home_goals_against_in_boxplay: 0
+home_goals_against_in_boxplay: 1
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 3
-home_goals_in_boxplay: 1
+home_goals_in_boxplay: 0
 home_goals_in_first_period: 2
 home_goals_in_first_period_against: 2
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 1
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 0
 home_goals_in_second_period_against: 0
 home_goals_in_third_period: 1
@@ -97,7 +97,7 @@ home_points_against_grasshopper_club_zurich: 1
 home_points_max_difference_2: 1
 home_points_more_2_difference: 0
 home_powerplay: 1
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 0
 away_away_points: 2
 away_boxplay: 1
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
@@ -127,8 +127,8 @@ away_goals: 4
 away_goals_against: 3
 away_goals_against_away: 3
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
-away_goals_against_in_powerplay: 1
+away_goals_against_in_boxplay: 1
+away_goals_against_in_powerplay: 0
 away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 1
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 0
+away_goals_in_powerplay: 1
 away_goals_in_second_period: 0
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 1
@@ -172,7 +172,7 @@ away_points_against_sv_wiler_ersigen: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
 away_powerplay: 1
-away_powerplay_efficiency: 0.0
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

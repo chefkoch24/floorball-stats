@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: tps-ols-8-3-2026-tps-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: tps-ols-8-3-2026-tps-vs-ols
+Slug: tps-ols-8-3-2026-tps-vs-ols-fi-25-26-regular-season
 type: game
 game_id: tps-ols-8-3-2026
 home_team: TPS

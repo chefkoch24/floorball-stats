@@ -6,13 +6,13 @@ type: team
 team:FBC ČPP Bystroň Group OSTRAVA
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 10
-boxplay: 29
-boxplay_efficiency: 68.97
+boxplay: 31
+boxplay_efficiency: 67.74000000000001
 boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 1.12
-boxplay_second_period: 10
-boxplay_third_period: 11
+boxplay_per_game: 1.19
+boxplay_second_period: 11
+boxplay_third_period: 12
 close_game_loss: 5
 close_game_overtime: 5
 close_game_win: 5
@@ -28,8 +28,8 @@ goals: 108
 goals_against: 164
 goals_against_away: 86
 goals_against_home: 78
-goals_against_in_boxplay: 9
-goals_against_in_powerplay: 3
+goals_against_in_boxplay: 10
+goals_against_in_powerplay: 2
 goals_against_per_game: 6.31
 goals_away: 58
 goals_home: 50
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 2
 goals_in_penalty_shootout_against: 2
-goals_in_powerplay: 7
+goals_in_powerplay: 9
 goals_in_second_period: 36
 goals_in_second_period_against: 50
 goals_in_third_period: 40
@@ -84,7 +84,7 @@ points_max_difference_2: 14
 points_more_2_difference: 15
 points_per_game: 1.12
 powerplay: 39
-powerplay_efficiency: 17.95
+powerplay_efficiency: 23.080000000000002
 powerplay_first_period: 8
 powerplay_overtime: 1
 powerplay_per_game: 1.5

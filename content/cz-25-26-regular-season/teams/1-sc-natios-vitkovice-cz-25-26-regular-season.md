@@ -6,13 +6,13 @@ type: team
 team:1. SC NATIOS V√≠tkovice
 platzierungsverlauf:cz-25-26-regular-season/teams/1-sc-natios-vitkovice-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 20
-boxplay: 28
-boxplay_efficiency: 60.709999999999994
+boxplay: 33
+boxplay_efficiency: 57.58
 boxplay_first_period: 5
 boxplay_overtime: 0
-boxplay_per_game: 1.08
-boxplay_second_period: 10
-boxplay_third_period: 13
+boxplay_per_game: 1.27
+boxplay_second_period: 13
+boxplay_third_period: 15
 close_game_loss: 4
 close_game_overtime: 3
 close_game_win: 6
@@ -28,7 +28,7 @@ goals: 147
 goals_against: 132
 goals_against_away: 69
 goals_against_home: 63
-goals_against_in_boxplay: 11
+goals_against_in_boxplay: 14
 goals_against_in_powerplay: 3
 goals_against_per_game: 5.08
 goals_away: 66
@@ -40,7 +40,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 2
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 7
+goals_in_powerplay: 9
 goals_in_second_period: 50
 goals_in_second_period_against: 45
 goals_in_third_period: 57
@@ -83,13 +83,13 @@ Tags:  ACEMA Sparta Praha: 1,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran St≈
 points_max_difference_2: 21
 points_more_2_difference: 27
 points_per_game: 1.85
-powerplay: 27
-powerplay_efficiency: 25.929999999999996
-powerplay_first_period: 6
+powerplay: 30
+powerplay_efficiency: 30.0
+powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 1.04
+powerplay_per_game: 1.15
 powerplay_second_period: 9
-powerplay_third_period: 12
+powerplay_third_period: 14
 rank: 5
 scoring_ratio: 1.11
 take_the_lead_goals: 29

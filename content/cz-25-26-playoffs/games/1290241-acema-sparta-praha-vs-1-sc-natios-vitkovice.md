@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: 1290241-acema-sparta-praha-vs-1-sc-natios-vitkovice
 Category: cz-25-26-playoffs, game
-Slug: 1290241-acema-sparta-praha-vs-1-sc-natios-vitkovice
+Slug: 1290241-acema-sparta-praha-vs-1-sc-natios-vitkovice-cz-25-26-playoffs
 type: game
 game_id: 1290241
 home_team: ACEMA Sparta Praha

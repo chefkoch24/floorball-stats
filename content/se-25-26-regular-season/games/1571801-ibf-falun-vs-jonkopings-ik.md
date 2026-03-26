@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1571801-ibf-falun-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571801-ibf-falun-vs-jonkopings-ik
+Slug: 1571801-ibf-falun-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571801
 home_team: IBF Falun

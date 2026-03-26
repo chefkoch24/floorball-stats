@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1096558-grasshopper-club-zurich-vs-sv-wiler-ersigen
 Category: ch-25-26-playoffs, game
-Slug: 1096558-grasshopper-club-zurich-vs-sv-wiler-ersigen
+Slug: 1096558-grasshopper-club-zurich-vs-sv-wiler-ersigen-ch-25-26-playoffs
 type: game
 game_id: 1096558
 home_team: Grasshopper Club Zürich
@@ -56,14 +56,14 @@ home_goals_against_in_boxplay: 1
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 3
-home_goals_in_boxplay: 1
+home_goals_in_boxplay: 0
 home_goals_in_first_period: 2
 home_goals_in_first_period_against: 3
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 1
 home_goals_in_second_period_against: 2
 home_goals_in_third_period: 0
@@ -97,7 +97,7 @@ home_points_against_sv_wiler_ersigen: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 1
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 0
 away_away_points: 3
 away_boxplay: 1
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
@@ -127,8 +127,8 @@ away_goals: 8
 away_goals_against: 3
 away_goals_against_away: 3
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
-away_goals_against_in_powerplay: 1
+away_goals_against_in_boxplay: 1
+away_goals_against_in_powerplay: 0
 away_goals_away: 8
 away_goals_home: 0
 away_goals_in_boxplay: 0

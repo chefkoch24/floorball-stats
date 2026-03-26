@@ -1,7 +1,7 @@
 Date: 2026-03-13
 Title: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku
+Slug: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: indians-fbc-turku-13-3-2026
 home_team: Indians

@@ -6,13 +6,13 @@ type: team
 team:FBŠ Hummel Hattrick Brno
 platzierungsverlauf:cz-25-26-regular-season/teams/fbs-hummel-hattrick-brno-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 6
-boxplay: 32
-boxplay_efficiency: 65.62
+boxplay: 33
+boxplay_efficiency: 60.61
 boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 1.14
+boxplay_per_game: 1.18
 boxplay_second_period: 7
-boxplay_third_period: 18
+boxplay_third_period: 19
 close_game_loss: 6
 close_game_overtime: 1
 close_game_win: 3
@@ -28,7 +28,7 @@ goals: 120
 goals_against: 231
 goals_against_away: 108
 goals_against_home: 123
-goals_against_in_boxplay: 11
+goals_against_in_boxplay: 13
 goals_against_in_powerplay: 3
 goals_against_per_game: 8.25
 goals_away: 56
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice:
 points_max_difference_2: 10
 points_more_2_difference: 12
 points_per_game: 0.79
-powerplay: 27
-powerplay_efficiency: 22.220000000000002
+powerplay: 30
+powerplay_efficiency: 20.0
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 0.96
-powerplay_second_period: 6
-powerplay_third_period: 14
+powerplay_per_game: 1.07
+powerplay_second_period: 7
+powerplay_third_period: 16
 rank: 12
 scoring_ratio: 0.52
 take_the_lead_goals: 25

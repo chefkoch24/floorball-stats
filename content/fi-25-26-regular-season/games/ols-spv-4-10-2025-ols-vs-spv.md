@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: ols-spv-4-10-2025-ols-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: ols-spv-4-10-2025-ols-vs-spv
+Slug: ols-spv-4-10-2025-ols-vs-spv-fi-25-26-regular-season
 type: game
 game_id: ols-spv-4-10-2025
 home_team: OLS

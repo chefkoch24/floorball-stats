@@ -1,7 +1,7 @@
 Date: 2025-12-27
 Title: 1571859-visby-ibk-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571859-visby-ibk-vs-nykvarns-ibf
+Slug: 1571859-visby-ibk-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571859
 home_team: Visby IBK

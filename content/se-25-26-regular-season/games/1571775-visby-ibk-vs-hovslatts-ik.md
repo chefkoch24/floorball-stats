@@ -1,7 +1,7 @@
 Date: 2025-09-23
 Title: 1571775-visby-ibk-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571775-visby-ibk-vs-hovslatts-ik
+Slug: 1571775-visby-ibk-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571775
 home_team: Visby IBK

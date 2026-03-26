@@ -1,4 +1,4 @@
-Date: 2026-03-18
+Date: 2026-03-25
 Title: Hawks
 Category: fi-25-26-regular-season, teams
 Slug: hawks-fi-25-26-regular-season-fi-25-26-regular-season
@@ -6,13 +6,13 @@ type: team
 team:Hawks
 platzierungsverlauf:fi-25-26-regular-season/teams/hawks-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 16
-boxplay: 34
-boxplay_efficiency: 50.0
-boxplay_first_period: 8
+boxplay: 38
+boxplay_efficiency: 55.26
+boxplay_first_period: 9
 boxplay_overtime: 1
-boxplay_per_game: 1.06
-boxplay_second_period: 15
-boxplay_third_period: 10
+boxplay_per_game: 1.19
+boxplay_second_period: 16
+boxplay_third_period: 12
 close_game_loss: 10
 close_game_overtime: 8
 close_game_win: 3
@@ -83,13 +83,13 @@ Tags:  Classic: 0,  EräViikingit: 5,  FBC Turku: 12,  Indians: 3,  Jymy: 4,  LA
 points_max_difference_2: 17
 points_more_2_difference: 21
 points_per_game: 1.19
-powerplay: 36
-powerplay_efficiency: 41.67
+powerplay: 39
+powerplay_efficiency: 38.46
 powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.12
+powerplay_per_game: 1.22
 powerplay_second_period: 15
-powerplay_third_period: 16
+powerplay_third_period: 18
 rank: 9
 scoring_ratio: 0.63
 take_the_lead_goals: 34

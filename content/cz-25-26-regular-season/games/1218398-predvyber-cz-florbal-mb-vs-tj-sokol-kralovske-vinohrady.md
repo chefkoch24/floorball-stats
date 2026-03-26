@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: 1218398-predvyber-cz-florbal-mb-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218398-predvyber-cz-florbal-mb-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218398-predvyber-cz-florbal-mb-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218398
 home_team: Předvýběr.CZ Florbal MB

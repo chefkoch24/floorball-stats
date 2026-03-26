@@ -1,7 +1,7 @@
 Date: 2025-10-28
 Title: 1218380-fat-pipe-florbal-chodov-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218380-fat-pipe-florbal-chodov-vs-florbal-usti
+Slug: 1218380-fat-pipe-florbal-chodov-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218380
 home_team: FAT PIPE FLORBAL CHODOV

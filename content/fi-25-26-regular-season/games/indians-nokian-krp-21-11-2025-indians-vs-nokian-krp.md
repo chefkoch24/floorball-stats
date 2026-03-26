@@ -1,7 +1,7 @@
 Date: 2025-11-21
 Title: indians-nokian-krp-21-11-2025-indians-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: indians-nokian-krp-21-11-2025-indians-vs-nokian-krp
+Slug: indians-nokian-krp-21-11-2025-indians-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: indians-nokian-krp-21-11-2025
 home_team: Indians

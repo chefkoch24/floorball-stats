@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1218439-fbc-cpp-bystron-group-ostrava-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218439-fbc-cpp-bystron-group-ostrava-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218439-fbc-cpp-bystron-group-ostrava-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218439
 home_team: FBC ČPP Bystroň Group OSTRAVA
@@ -53,7 +53,7 @@ home_goals_against: 6
 home_goals_against_away: 0
 home_goals_against_home: 6
 home_goals_against_in_boxplay: 0
-home_goals_against_in_powerplay: 1
+home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 5
 home_goals_in_boxplay: 0
@@ -131,7 +131,7 @@ away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
 away_goals_away: 6
 away_goals_home: 0
-away_goals_in_boxplay: 1
+away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
 away_goals_in_first_period_against: 0
 away_goals_in_overtime: 0

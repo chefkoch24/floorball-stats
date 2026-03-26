@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: spv-ols-18-3-2026-spv-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: spv-ols-18-3-2026-spv-vs-ols
+Slug: spv-ols-18-3-2026-spv-vs-ols-fi-25-26-regular-season
 type: game
 game_id: spv-ols-18-3-2026
 home_team: SPV

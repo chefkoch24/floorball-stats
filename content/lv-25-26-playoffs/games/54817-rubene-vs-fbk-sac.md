@@ -1,7 +1,7 @@
 Date: 2026-02-20
 Title: 54817-rubene-vs-fbk-sac
 Category: lv-25-26-playoffs, game
-Slug: 54817-rubene-vs-fbk-sac
+Slug: 54817-rubene-vs-fbk-sac-lv-25-26-playoffs
 type: game
 game_id: 54817
 home_team: Rubene

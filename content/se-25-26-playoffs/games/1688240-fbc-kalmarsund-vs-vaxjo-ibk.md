@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 1688240-fbc-kalmarsund-vs-vaxjo-ibk
 Category: se-25-26-playoffs, game
-Slug: 1688240-fbc-kalmarsund-vs-vaxjo-ibk
+Slug: 1688240-fbc-kalmarsund-vs-vaxjo-ibk-se-25-26-playoffs
 type: game
 game_id: 1688240
 home_team: FBC Kalmarsund

@@ -1,7 +1,7 @@
 Date: 2025-12-16
 Title: 1218438-fbc-liberec-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218438-fbc-liberec-vs-florbal-usti
+Slug: 1218438-fbc-liberec-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218438
 home_team: FBC Liberec

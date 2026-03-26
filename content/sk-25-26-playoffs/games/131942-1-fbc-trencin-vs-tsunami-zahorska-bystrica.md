@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 131942-1-fbc-trencin-vs-tsunami-zahorska-bystrica
 Category: sk-25-26-playoffs, game
-Slug: 131942-1-fbc-trencin-vs-tsunami-zahorska-bystrica
+Slug: 131942-1-fbc-trencin-vs-tsunami-zahorska-bystrica-sk-25-26-playoffs
 type: game
 game_id: 131942
 home_team: 1. FBC Trenčín

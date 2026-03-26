@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1571905-visby-ibk-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571905-visby-ibk-vs-fbc-kalmarsund
+Slug: 1571905-visby-ibk-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571905
 home_team: Visby IBK

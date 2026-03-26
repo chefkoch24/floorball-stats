@@ -1,7 +1,7 @@
 Date: 2025-10-18
 Title: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp
+Slug: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-nokian-krp-18-10-2025
 home_team: EräViikingit

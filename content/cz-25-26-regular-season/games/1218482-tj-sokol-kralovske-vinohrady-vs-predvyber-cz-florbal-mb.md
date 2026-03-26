@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 1218482-tj-sokol-kralovske-vinohrady-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218482-tj-sokol-kralovske-vinohrady-vs-predvyber-cz-florbal-mb
+Slug: 1218482-tj-sokol-kralovske-vinohrady-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218482
 home_team: TJ Sokol Královské Vinohrady

@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: hawks-classic-17-1-2026-hawks-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: hawks-classic-17-1-2026-hawks-vs-classic
+Slug: hawks-classic-17-1-2026-hawks-vs-classic-fi-25-26-regular-season
 type: game
 game_id: hawks-classic-17-1-2026
 home_team: Hawks
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,2,2,2,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,8.83,10.92,12.13,24.12,27.0,30.8,33.92,37.77,39.8,43.07,50.67,51.37,58.53
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay: 2
+home_boxplay_efficiency: 50.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
+home_boxplay_second_period: 2
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_hawks: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay: 2
+away_powerplay_efficiency: 50.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
+away_powerplay_second_period: 2
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0

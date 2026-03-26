@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1571940-fbc-kalmarsund-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571940-fbc-kalmarsund-vs-ibf-falun
+Slug: 1571940-fbc-kalmarsund-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571940
 home_team: FBC Kalmarsund

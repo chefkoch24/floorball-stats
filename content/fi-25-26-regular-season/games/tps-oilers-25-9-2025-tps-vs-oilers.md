@@ -1,7 +1,7 @@
 Date: 2025-09-25
 Title: tps-oilers-25-9-2025-tps-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: tps-oilers-25-9-2025-tps-vs-oilers
+Slug: tps-oilers-25-9-2025-tps-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: tps-oilers-25-9-2025
 home_team: TPS

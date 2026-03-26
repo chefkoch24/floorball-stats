@@ -1,7 +1,7 @@
 Date: 2026-03-03
 Title: 1571924-jonkopings-ik-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571924-jonkopings-ik-vs-hovslatts-ik
+Slug: 1571924-jonkopings-ik-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571924
 home_team: Jönköpings IK

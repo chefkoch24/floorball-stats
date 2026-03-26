@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1571767-aik-ibf-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571767-aik-ibf-vs-vaxjo-ibk
+Slug: 1571767-aik-ibf-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571767
 home_team: AIK IBF

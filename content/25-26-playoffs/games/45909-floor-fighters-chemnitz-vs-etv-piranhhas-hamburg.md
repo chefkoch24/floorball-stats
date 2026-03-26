@@ -1,7 +1,7 @@
 Date: 2026-04-04
 Title: 45909-floor-fighters-chemnitz-vs-etv-piranhhas-hamburg
 Category: 25-26-playoffs, game
-Slug: 45909-floor-fighters-chemnitz-vs-etv-piranhhas-hamburg
+Slug: 45909-floor-fighters-chemnitz-vs-etv-piranhhas-hamburg-25-26-playoffs
 type: game
 game_id: 45909
 home_team: Floor Fighters Chemnitz

@@ -1,7 +1,7 @@
 Date: 2025-12-04
 Title: 1218391-ba-sokoli-pardubice-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218391-ba-sokoli-pardubice-vs-acema-sparta-praha
+Slug: 1218391-ba-sokoli-pardubice-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218391
 home_team: BA SOKOLI Pardubice

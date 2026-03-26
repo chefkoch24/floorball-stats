@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: jymy-spv-13-9-2025-jymy-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: jymy-spv-13-9-2025-jymy-vs-spv
+Slug: jymy-spv-13-9-2025-jymy-vs-spv-fi-25-26-regular-season
 type: game
 game_id: jymy-spv-13-9-2025
 home_team: Jymy

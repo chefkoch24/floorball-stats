@@ -1,7 +1,7 @@
 Date: 2025-09-14
 Title: 1218331-esa-logistika-tatran-stresovice-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218331-esa-logistika-tatran-stresovice-vs-florbal-usti
+Slug: 1218331-esa-logistika-tatran-stresovice-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218331
 home_team: ESA logistika Tatran Střešovice

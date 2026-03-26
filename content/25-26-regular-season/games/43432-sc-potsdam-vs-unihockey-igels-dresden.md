@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 43432-sc-potsdam-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43432-sc-potsdam-vs-unihockey-igels-dresden
+Slug: 43432-sc-potsdam-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43432
 home_team: SC Potsdam
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,1,1,1,1,1,2,3,4,4,4,5,6,7,7,8,8
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,5.8,6.17,8.35,14.93,22.27,30.25,34.98,36.83,42.52,46.15,47.2,50.17,56.95,57.53,57.62,58.38,65.73
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay: 2
+home_boxplay_efficiency: 50.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 1
 home_close_game_overtime: 1
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 1
 away_points_against_sc_potsdam: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay: 2
+away_powerplay_efficiency: 50.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 3
 away_take_the_lead_goals_against: 1
 away_win_1: 1

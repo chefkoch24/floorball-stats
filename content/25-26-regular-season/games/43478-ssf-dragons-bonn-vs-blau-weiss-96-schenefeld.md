@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 43478-ssf-dragons-bonn-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43478-ssf-dragons-bonn-vs-blau-weiss-96-schenefeld
+Slug: 43478-ssf-dragons-bonn-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43478
 home_team: SSF Dragons Bonn

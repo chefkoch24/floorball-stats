@@ -6,13 +6,13 @@ type: team
 team:FBC Liberec
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-liberec-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 11
-boxplay: 22
-boxplay_efficiency: 72.73
+boxplay: 25
+boxplay_efficiency: 76.0
 boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 0.79
+boxplay_per_game: 0.89
 boxplay_second_period: 10
-boxplay_third_period: 9
+boxplay_third_period: 12
 close_game_loss: 7
 close_game_overtime: 2
 close_game_win: 2
@@ -40,7 +40,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 13
+goals_in_powerplay: 14
 goals_in_second_period: 61
 goals_in_second_period_against: 70
 goals_in_third_period: 54
@@ -84,7 +84,7 @@ points_max_difference_2: 8
 points_more_2_difference: 18
 points_per_game: 0.93
 powerplay: 41
-powerplay_efficiency: 31.71
+powerplay_efficiency: 34.150000000000006
 powerplay_first_period: 7
 powerplay_overtime: 0
 powerplay_per_game: 1.46

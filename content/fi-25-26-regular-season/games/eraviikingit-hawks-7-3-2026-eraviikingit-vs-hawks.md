@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks
+Slug: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-hawks-7-3-2026
 home_team: EräViikingit

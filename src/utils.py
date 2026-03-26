@@ -127,7 +127,7 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     title = title.replace('_', ' ')
     result.append(f"Title: {title}")
     result.append(f"Category: {season}-{phase}, {category}")
-    result.append(f"Slug: {normalize_slug_fragment(title)}")
+    result.append(f"Slug: {normalize_slug_fragment(f'{title}-{season}-{phase}')}")
     result.append(f"type: game")
     result.append(f"game_id: {game_data['game_id']}")
 

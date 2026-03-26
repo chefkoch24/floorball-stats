@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: nokian-krp-lasb-18-3-2026-nokian-krp-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-lasb-18-3-2026-nokian-krp-vs-lasb
+Slug: nokian-krp-lasb-18-3-2026-nokian-krp-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-lasb-18-3-2026
 home_team: Nokian KrP

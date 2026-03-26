@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1571847-vaxjo-ibk-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571847-vaxjo-ibk-vs-storvreta-ibk
+Slug: 1571847-vaxjo-ibk-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571847
 home_team: Växjö IBK

@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: classic-tps-25-3-2026-classic-vs-tps
 Category: fi-25-26-playoffs, game
-Slug: classic-tps-25-3-2026-classic-vs-tps
+Slug: classic-tps-25-3-2026-classic-vs-tps-fi-25-26-playoffs
 type: game
 game_id: classic-tps-25-3-2026
 home_team: Classic

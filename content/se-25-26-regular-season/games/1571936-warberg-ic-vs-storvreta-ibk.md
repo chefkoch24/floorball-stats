@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 1571936-warberg-ic-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571936-warberg-ic-vs-storvreta-ibk
+Slug: 1571936-warberg-ic-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571936
 home_team: Warberg IC
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,0,0,0,0,1,1,1,1,1
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.73,14.47,19.32,21.92,28.68,33.98,46.38,46.92,47.48,58.67
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_warberg_ic: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0

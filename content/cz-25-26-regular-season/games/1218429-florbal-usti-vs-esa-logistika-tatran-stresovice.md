@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1218429-florbal-usti-vs-esa-logistika-tatran-stresovice
 Category: cz-25-26-regular-season, game
-Slug: 1218429-florbal-usti-vs-esa-logistika-tatran-stresovice
+Slug: 1218429-florbal-usti-vs-esa-logistika-tatran-stresovice-cz-25-26-regular-season
 type: game
 game_id: 1218429
 home_team: Florbal Ústí

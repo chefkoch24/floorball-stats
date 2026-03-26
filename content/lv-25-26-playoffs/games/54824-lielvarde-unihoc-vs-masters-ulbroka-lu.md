@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 54824-lielvarde-unihoc-vs-masters-ulbroka-lu
 Category: lv-25-26-playoffs, game
-Slug: 54824-lielvarde-unihoc-vs-masters-ulbroka-lu
+Slug: 54824-lielvarde-unihoc-vs-masters-ulbroka-lu-lv-25-26-playoffs
 type: game
 game_id: 54824
 home_team: Lielvārde/Unihoc

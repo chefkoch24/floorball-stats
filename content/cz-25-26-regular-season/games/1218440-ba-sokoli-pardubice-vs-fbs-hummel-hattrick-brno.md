@@ -1,7 +1,7 @@
 Date: 2026-01-04
 Title: 1218440-ba-sokoli-pardubice-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218440-ba-sokoli-pardubice-vs-fbs-hummel-hattrick-brno
+Slug: 1218440-ba-sokoli-pardubice-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218440
 home_team: BA SOKOLI Pardubice

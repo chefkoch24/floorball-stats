@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: oilers-ols-25-3-2026-oilers-vs-ols
 Category: fi-25-26-playoffs, game
-Slug: oilers-ols-25-3-2026-oilers-vs-ols
+Slug: oilers-ols-25-3-2026-oilers-vs-ols-fi-25-26-playoffs
 type: game
 game_id: oilers-ols-25-3-2026
 home_team: Oilers

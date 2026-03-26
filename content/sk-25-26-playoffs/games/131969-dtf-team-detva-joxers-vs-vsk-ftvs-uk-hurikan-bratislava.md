@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 131969-dtf-team-detva-joxers-vs-vsk-ftvs-uk-hurikan-bratislava
 Category: sk-25-26-playoffs, game
-Slug: 131969-dtf-team-detva-joxers-vs-vsk-ftvs-uk-hurikan-bratislava
+Slug: 131969-dtf-team-detva-joxers-vs-vsk-ftvs-uk-hurikan-bratislava-sk-25-26-playoffs
 type: game
 game_id: 131969
 home_team: DTF team Detva Joxers

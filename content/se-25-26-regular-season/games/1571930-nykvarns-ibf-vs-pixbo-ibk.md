@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1571930-nykvarns-ibf-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571930-nykvarns-ibf-vs-pixbo-ibk
+Slug: 1571930-nykvarns-ibf-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571930
 home_team: Nykvarns IBF

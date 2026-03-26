@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1571899-warberg-ic-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571899-warberg-ic-vs-hovslatts-ik
+Slug: 1571899-warberg-ic-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571899
 home_team: Warberg IC

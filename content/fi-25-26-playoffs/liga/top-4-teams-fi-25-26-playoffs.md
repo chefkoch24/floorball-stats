@@ -81,11 +81,11 @@ points_after_third_period: 2.5
 points_max_difference_2: 1.25
 points_more_2_difference: 1.5
 points_per_game: 2.75
-powerplay: 1.75
-powerplay_efficiency: 83.33
+powerplay: 2.0
+powerplay_efficiency: 81.25
 powerplay_first_period: 0.5
-powerplay_overtime: 0.25
-powerplay_per_game: 1.75
+powerplay_overtime: 0.5
+powerplay_per_game: 2.0
 powerplay_second_period: 0.25
 powerplay_third_period: 0.75
 rank: 2.5

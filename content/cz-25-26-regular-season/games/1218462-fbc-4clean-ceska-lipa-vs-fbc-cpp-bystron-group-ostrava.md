@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1218462-fbc-4clean-ceska-lipa-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218462-fbc-4clean-ceska-lipa-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218462-fbc-4clean-ceska-lipa-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218462
 home_team: FBC 4CLEAN Česká Lípa

@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1218498-florbal-usti-vs-hdt-cz-florbal-vary-bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218498-florbal-usti-vs-hdt-cz-florbal-vary-bohemians
+Slug: 1218498-florbal-usti-vs-hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season
 type: game
 game_id: 1218498
 home_team: Florbal Ústí

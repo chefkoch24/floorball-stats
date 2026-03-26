@@ -1,7 +1,7 @@
 Date: 2026-02-12
 Title: classic-indians-12-2-2026-classic-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: classic-indians-12-2-2026-classic-vs-indians
+Slug: classic-indians-12-2-2026-classic-vs-indians-fi-25-26-regular-season
 type: game
 game_id: classic-indians-12-2-2026
 home_team: Classic

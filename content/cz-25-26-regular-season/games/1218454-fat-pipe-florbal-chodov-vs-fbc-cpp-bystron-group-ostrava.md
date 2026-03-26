@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218454-fat-pipe-florbal-chodov-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218454-fat-pipe-florbal-chodov-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218454-fat-pipe-florbal-chodov-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218454
 home_team: FAT PIPE FLORBAL CHODOV

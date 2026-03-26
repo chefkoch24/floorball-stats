@@ -1,7 +1,7 @@
 Date: 2026-02-16
 Title: jymy-ols-16-2-2026-jymy-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: jymy-ols-16-2-2026-jymy-vs-ols
+Slug: jymy-ols-16-2-2026-jymy-vs-ols-fi-25-26-regular-season
 type: game
 game_id: jymy-ols-16-2-2026
 home_team: Jymy

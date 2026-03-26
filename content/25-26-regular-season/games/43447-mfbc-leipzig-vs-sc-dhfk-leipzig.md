@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 43447-mfbc-leipzig-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43447-mfbc-leipzig-vs-sc-dhfk-leipzig
+Slug: 43447-mfbc-leipzig-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43447
 home_team: MFBC Leipzig

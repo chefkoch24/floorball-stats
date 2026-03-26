@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 43489-blau-weiss-96-schenefeld-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43489-blau-weiss-96-schenefeld-vs-uhc-sparkasse-weissenfels
+Slug: 43489-blau-weiss-96-schenefeld-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43489
 home_team: Blau-Weiß 96 Schenefeld

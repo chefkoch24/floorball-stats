@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: 131968-vsk-ftvs-uk-hurikan-bratislava-vs-dtf-team-detva-joxers
 Category: sk-25-26-playoffs, game
-Slug: 131968-vsk-ftvs-uk-hurikan-bratislava-vs-dtf-team-detva-joxers
+Slug: 131968-vsk-ftvs-uk-hurikan-bratislava-vs-dtf-team-detva-joxers-sk-25-26-playoffs
 type: game
 game_id: 131968
 home_team: VŠK FTVŠ UK Hurikán Bratislava
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6,7,7,8,8,9,10
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,8.03,16.53,22.23,23.73,30.03,31.37,31.65,38.18,39.97,41.22,42.25,47.07,55.88,56.83
 home_away_points: 0
-home_boxplay: 3
-home_boxplay_efficiency: 66.67
+home_boxplay: 4
+home_boxplay_efficiency: 75.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 2
-home_boxplay_third_period: 1
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_vsk_ftvs_uk_hurikan_bratislava: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 3
-away_powerplay_efficiency: 33.33
+away_powerplay: 4
+away_powerplay_efficiency: 25.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 2
-away_powerplay_third_period: 1
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 1
 away_win_1: 0

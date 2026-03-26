@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1218450-florbal-usti-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218450-florbal-usti-vs-fat-pipe-florbal-chodov
+Slug: 1218450-florbal-usti-vs-fat-pipe-florbal-chodov-cz-25-26-regular-season
 type: game
 game_id: 1218450
 home_team: Florbal Ústí

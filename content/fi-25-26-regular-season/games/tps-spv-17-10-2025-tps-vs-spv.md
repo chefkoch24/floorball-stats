@@ -1,7 +1,7 @@
 Date: 2025-10-17
 Title: tps-spv-17-10-2025-tps-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: tps-spv-17-10-2025-tps-vs-spv
+Slug: tps-spv-17-10-2025-tps-vs-spv-fi-25-26-regular-season
 type: game
 game_id: tps-spv-17-10-2025
 home_team: TPS
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,0,0,0,0,0,0,1
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.55,26.2,27.8,30.98,44.8,48.92,49.63,54.85
 home_away_points: 0
-home_boxplay: 4
-home_boxplay_efficiency: 25.0
+home_boxplay: 5
+home_boxplay_efficiency: 40.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 3
+home_boxplay_second_period: 4
 home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_tps: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 4
-away_powerplay_efficiency: 75.0
+away_powerplay: 5
+away_powerplay_efficiency: 60.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 3
+away_powerplay_second_period: 4
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0

@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 1218406-acema-sparta-praha-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218406-acema-sparta-praha-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218406-acema-sparta-praha-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218406
 home_team: ACEMA Sparta Praha

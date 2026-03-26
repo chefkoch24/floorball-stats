@@ -6,11 +6,11 @@ type: team
 team:Masters Ulbroka/LU
 platzierungsverlauf:lv-25-26-playoffs/teams/masters-ulbroka-lu-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 11
-boxplay: 16
-boxplay_efficiency: 56.25
-boxplay_first_period: 6
+boxplay: 17
+boxplay_efficiency: 58.82
+boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 2.0
+boxplay_per_game: 2.12
 boxplay_second_period: 3
 boxplay_third_period: 7
 close_game_loss: 0
@@ -83,13 +83,13 @@ Tags:  Lielvārde/Unihoc: 11,  Talsu NSS/Krauzers: 10,
 points_max_difference_2: 9
 points_more_2_difference: 12
 points_per_game: 2.62
-powerplay: 19
-powerplay_efficiency: 42.11
+powerplay: 20
+powerplay_efficiency: 40.0
 powerplay_first_period: 7
 powerplay_overtime: 1
-powerplay_per_game: 2.38
+powerplay_per_game: 2.5
 powerplay_second_period: 6
-powerplay_third_period: 5
+powerplay_third_period: 6
 rank: 1
 scoring_ratio: 1.87
 take_the_lead_goals: 13

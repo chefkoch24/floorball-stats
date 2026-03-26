@@ -1,7 +1,7 @@
 Date: 2025-09-16
 Title: tps-hawks-16-9-2025-tps-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: tps-hawks-16-9-2025-tps-vs-hawks
+Slug: tps-hawks-16-9-2025-tps-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: tps-hawks-16-9-2025
 home_team: TPS

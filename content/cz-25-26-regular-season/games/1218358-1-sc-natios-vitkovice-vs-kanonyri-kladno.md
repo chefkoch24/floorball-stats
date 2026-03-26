@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 1218358-1-sc-natios-vitkovice-vs-kanonyri-kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218358-1-sc-natios-vitkovice-vs-kanonyri-kladno
+Slug: 1218358-1-sc-natios-vitkovice-vs-kanonyri-kladno-cz-25-26-regular-season
 type: game
 game_id: 1218358
 home_team: 1. SC NATIOS Vítkovice

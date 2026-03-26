@@ -6,13 +6,13 @@ type: team
 team:Lekrings
 platzierungsverlauf:lv-25-26-playoffs/teams/lekrings-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 6
-boxplay: 31
-boxplay_efficiency: 80.65
+boxplay: 32
+boxplay_efficiency: 81.25
 boxplay_first_period: 6
 boxplay_overtime: 0
-boxplay_per_game: 2.82
+boxplay_per_game: 2.91
 boxplay_second_period: 10
-boxplay_third_period: 15
+boxplay_third_period: 16
 close_game_loss: 0
 close_game_overtime: 0
 close_game_win: 1
@@ -83,13 +83,13 @@ Tags:  Rubene: 5,  Ķekava/RB&B: 13,
 points_max_difference_2: 6
 points_more_2_difference: 12
 points_per_game: 1.64
-powerplay: 30
-powerplay_efficiency: 20.0
+powerplay: 32
+powerplay_efficiency: 18.75
 powerplay_first_period: 11
 powerplay_overtime: 0
-powerplay_per_game: 2.73
+powerplay_per_game: 2.91
 powerplay_second_period: 15
-powerplay_third_period: 4
+powerplay_third_period: 6
 rank: 3
 scoring_ratio: 0.95
 take_the_lead_goals: 11

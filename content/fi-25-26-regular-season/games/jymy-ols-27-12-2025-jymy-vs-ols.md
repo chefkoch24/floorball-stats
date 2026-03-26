@@ -1,7 +1,7 @@
 Date: 2025-12-27
 Title: jymy-ols-27-12-2025-jymy-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: jymy-ols-27-12-2025-jymy-vs-ols
+Slug: jymy-ols-27-12-2025-jymy-vs-ols-fi-25-26-regular-season
 type: game
 game_id: jymy-ols-27-12-2025
 home_team: Jymy

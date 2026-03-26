@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218456-esa-logistika-tatran-stresovice-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218456-esa-logistika-tatran-stresovice-vs-predvyber-cz-florbal-mb
+Slug: 1218456-esa-logistika-tatran-stresovice-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218456
 home_team: ESA logistika Tatran Střešovice
@@ -96,9 +96,9 @@ home_points_after_third_period: 0
 home_points_against_predvyber_cz_florbal_mb: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
-home_powerplay_first_period: 0
+home_powerplay: 1
+home_powerplay_efficiency: 100.0
+home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 3
 home_win_1: 0
 home_wins: 0
 away_away_points: 3
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
-away_boxplay_first_period: 0
+away_boxplay: 1
+away_boxplay_efficiency: 0.0
+away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_third_period: 0

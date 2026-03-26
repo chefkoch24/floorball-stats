@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 43492-sc-dhfk-leipzig-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43492-sc-dhfk-leipzig-vs-blau-weiss-96-schenefeld
+Slug: 43492-sc-dhfk-leipzig-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43492
 home_team: SC DHfK Leipzig

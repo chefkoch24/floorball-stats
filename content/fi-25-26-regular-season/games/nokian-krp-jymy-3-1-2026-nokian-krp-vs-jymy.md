@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy
+Slug: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-jymy-3-1-2026
 home_team: Nokian KrP

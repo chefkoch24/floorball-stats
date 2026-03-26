@@ -83,12 +83,12 @@ Tags:  AIK IBF: 3,  FBC Kalmarsund: 4,  Hovslätts IK: 6,  IBF Falun: 0,  Jönk�
 points_max_difference_2: 28
 points_more_2_difference: 12
 points_per_game: 1.54
-powerplay: 38
-powerplay_efficiency: 36.84
+powerplay: 39
+powerplay_efficiency: 35.9
 powerplay_first_period: 11
 powerplay_overtime: 0
-powerplay_per_game: 1.46
-powerplay_second_period: 14
+powerplay_per_game: 1.5
+powerplay_second_period: 15
 powerplay_third_period: 13
 rank: 7
 scoring_ratio: 1.03

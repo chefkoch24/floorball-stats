@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1218387-acema-sparta-praha-vs-esa-logistika-tatran-stresovice
 Category: cz-25-26-regular-season, game
-Slug: 1218387-acema-sparta-praha-vs-esa-logistika-tatran-stresovice
+Slug: 1218387-acema-sparta-praha-vs-esa-logistika-tatran-stresovice-cz-25-26-regular-season
 type: game
 game_id: 1218387
 home_team: ACEMA Sparta Praha

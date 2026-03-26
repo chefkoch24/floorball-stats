@@ -1,7 +1,7 @@
 Date: 2026-02-25
 Title: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians
+Slug: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-indians-25-2-2026
 home_team: EräViikingit

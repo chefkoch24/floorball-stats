@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1571852-pixbo-ibk-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571852-pixbo-ibk-vs-linkoping-ibk
+Slug: 1571852-pixbo-ibk-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571852
 home_team: Pixbo IBK

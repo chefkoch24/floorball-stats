@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic
+Slug: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-classic-13-9-2025
 home_team: Nokian KrP

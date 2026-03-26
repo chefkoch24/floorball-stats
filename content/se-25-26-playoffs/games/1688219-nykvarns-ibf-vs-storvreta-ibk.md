@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 1688219-nykvarns-ibf-vs-storvreta-ibk
 Category: se-25-26-playoffs, game
-Slug: 1688219-nykvarns-ibf-vs-storvreta-ibk
+Slug: 1688219-nykvarns-ibf-vs-storvreta-ibk-se-25-26-playoffs
 type: game
 game_id: 1688219
 home_team: Nykvarns IBF

@@ -1,7 +1,7 @@
 Date: 2025-10-09
 Title: 1218354-florbal-usti-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218354-florbal-usti-vs-fbc-liberec
+Slug: 1218354-florbal-usti-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218354
 home_team: Florbal Ústí

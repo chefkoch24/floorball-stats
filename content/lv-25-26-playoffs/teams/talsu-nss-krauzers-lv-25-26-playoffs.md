@@ -6,13 +6,13 @@ type: team
 team:Talsu NSS/Krauzers
 platzierungsverlauf:lv-25-26-playoffs/teams/talsu-nss-krauzers-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 7
-boxplay: 20
-boxplay_efficiency: 70.0
+boxplay: 21
+boxplay_efficiency: 71.43
 boxplay_first_period: 9
 boxplay_overtime: 1
-boxplay_per_game: 2.0
+boxplay_per_game: 2.1
 boxplay_second_period: 5
-boxplay_third_period: 5
+boxplay_third_period: 6
 close_game_loss: 2
 close_game_overtime: 1
 close_game_win: 1
@@ -83,11 +83,11 @@ Tags:  FBK Valmiera: 11,  Masters Ulbroka/LU: 2,
 points_max_difference_2: 4
 points_more_2_difference: 9
 points_per_game: 1.3
-powerplay: 13
-powerplay_efficiency: 61.53999999999999
-powerplay_first_period: 1
+powerplay: 14
+powerplay_efficiency: 57.14
+powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 1.3
+powerplay_per_game: 1.4
 powerplay_second_period: 5
 powerplay_third_period: 7
 rank: 4

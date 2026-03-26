@@ -1,7 +1,7 @@
 Date: 2026-03-29
 Title: 45902-djk-holzbuttgen-vs-uhc-sparkasse-weissenfels
 Category: 25-26-playoffs, game
-Slug: 45902-djk-holzbuttgen-vs-uhc-sparkasse-weissenfels
+Slug: 45902-djk-holzbuttgen-vs-uhc-sparkasse-weissenfels-25-26-playoffs
 type: game
 game_id: 45902
 home_team: DJK Holzbüttgen

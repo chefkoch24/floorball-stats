@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 1218326-fbc-liberec-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218326-fbc-liberec-vs-predvyber-cz-florbal-mb
+Slug: 1218326-fbc-liberec-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218326
 home_team: FBC Liberec
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.83,3.97,6.85,11.38,13.23,15.07,15.7,17.33,18.15,28.42,28.85,33.8,35.1,35.97,39.03,40.45,46.72,53.07,54.05,55.13,59.0,59.8
 home_away_points: 0
 home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -52,7 +52,7 @@ home_goals: 5
 home_goals_against: 17
 home_goals_against_away: 0
 home_goals_against_home: 17
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 5
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 0
 away_goals_in_second_period: 5
 away_goals_in_second_period_against: 1
 away_goals_in_third_period: 4
@@ -172,7 +172,7 @@ away_points_against_fbc_liberec: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

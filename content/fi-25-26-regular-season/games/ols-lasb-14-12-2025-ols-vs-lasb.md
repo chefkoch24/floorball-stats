@@ -1,7 +1,7 @@
 Date: 2025-12-14
 Title: ols-lasb-14-12-2025-ols-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: ols-lasb-14-12-2025-ols-vs-lasb
+Slug: ols-lasb-14-12-2025-ols-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: ols-lasb-14-12-2025
 home_team: OLS
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,1,2,3,3,4,4,4,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.82,15.27,18.38,23.2,30.27,36.47,45.27,46.42,54.85,59.38
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 1
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_ols: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 3
 away_win_1: 0

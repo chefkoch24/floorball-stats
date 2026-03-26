@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1571868-warberg-ic-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571868-warberg-ic-vs-strangnas-ibk
+Slug: 1571868-warberg-ic-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571868
 home_team: Warberg IC

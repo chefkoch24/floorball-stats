@@ -83,13 +83,13 @@ Tags:  FBK SĀC: 12,  Lekrings: 7,
 points_max_difference_2: 1
 points_more_2_difference: 18
 points_per_game: 2.38
-powerplay: 18
-powerplay_efficiency: 38.89
+powerplay: 19
+powerplay_efficiency: 36.84
 powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 2.25
+powerplay_per_game: 2.38
 powerplay_second_period: 5
-powerplay_third_period: 7
+powerplay_third_period: 8
 rank: 2
 scoring_ratio: 1.85
 take_the_lead_goals: 12

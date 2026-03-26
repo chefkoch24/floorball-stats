@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 1218409-esa-logistika-tatran-stresovice-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218409-esa-logistika-tatran-stresovice-vs-ba-sokoli-pardubice
+Slug: 1218409-esa-logistika-tatran-stresovice-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218409
 home_team: ESA logistika Tatran Střešovice
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,1,2,2,3,4,5,5,6,6,7,7,8,9,10
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,5.37,7.07,9.88,11.5,14.73,19.82,20.65,23.8,26.45,31.53,37.53,45.53,51.1,57.25,59.82
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_esa_logistika_tatran_stresovice: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 3
 away_win_1: 0

@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1218416-florbal-usti-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218416-florbal-usti-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218416-florbal-usti-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218416
 home_team: Florbal Ústí
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,15.53,16.97,25.88,31.02,36.9,40.37,55.05,58.27,58.63,58.9,59.67
 home_away_points: 0
 home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
@@ -52,7 +52,7 @@ home_goals: 3
 home_goals_against: 8
 home_goals_against_away: 0
 home_goals_against_home: 8
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 3
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 0
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 3
@@ -172,7 +172,7 @@ away_points_against_florbal_usti: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1

@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku
+Slug: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: hawks-fbc-turku-11-1-2026
 home_team: Hawks

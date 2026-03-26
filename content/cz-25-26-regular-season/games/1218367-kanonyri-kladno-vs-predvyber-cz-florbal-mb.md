@@ -1,7 +1,7 @@
 Date: 2025-10-18
 Title: 1218367-kanonyri-kladno-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218367-kanonyri-kladno-vs-predvyber-cz-florbal-mb
+Slug: 1218367-kanonyri-kladno-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218367
 home_team: Kanonýři Kladno
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.98,15.73,15.85,16.0,18.62,20.62,24.02,25.85,29.42,34.63,40.92,51.27,52.43,57.63,57.72,59.37,59.55
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
-home_boxplay_first_period: 0
+home_boxplay: 4
+home_boxplay_efficiency: 25.0
+home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 2
 home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 1
 home_goals_in_second_period_against: 4
 home_goals_in_third_period: 0
@@ -97,7 +97,7 @@ home_points_against_predvyber_cz_florbal_mb: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 2
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 0
 away_away_points: 3
 away_boxplay: 2
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 50.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
@@ -127,7 +127,7 @@ away_goals: 14
 away_goals_against: 3
 away_goals_against_away: 3
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_away: 14
 away_goals_home: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_kanonyri_kladno: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
-away_powerplay_first_period: 0
+away_powerplay: 4
+away_powerplay_efficiency: 75.0
+away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 2
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 1

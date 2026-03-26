@@ -1,7 +1,7 @@
 Date: 2025-12-10
 Title: tps-indians-10-12-2025-tps-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: tps-indians-10-12-2025-tps-vs-indians
+Slug: tps-indians-10-12-2025-tps-vs-indians-fi-25-26-regular-season
 type: game
 game_id: tps-indians-10-12-2025
 home_team: TPS

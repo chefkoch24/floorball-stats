@@ -1,7 +1,7 @@
 Date: 2026-04-01
 Title: 1688237-mullsjo-ais-vs-linkoping-ibk
 Category: se-25-26-playoffs, game
-Slug: 1688237-mullsjo-ais-vs-linkoping-ibk
+Slug: 1688237-mullsjo-ais-vs-linkoping-ibk-se-25-26-playoffs
 type: game
 game_id: 1688237
 home_team: Mullsjö AIS

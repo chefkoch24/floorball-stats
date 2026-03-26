@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 131914-1-fbc-trencin-vs-fbk-nizna
 Category: sk-25-26-playoffs, game
-Slug: 131914-1-fbc-trencin-vs-fbk-nizna
+Slug: 131914-1-fbc-trencin-vs-fbk-nizna-sk-25-26-playoffs
 type: game
 game_id: 131914
 home_team: 1. FBC Trenčín
@@ -36,8 +36,8 @@ home_boxplay: 4
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 3
-home_boxplay_third_period: 0
+home_boxplay_second_period: 2
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -96,22 +96,22 @@ home_points_after_third_period: 3
 home_points_against_fbk_nizna: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 4
-home_powerplay_efficiency: 75.0
+home_powerplay: 5
+home_powerplay_efficiency: 60.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
-home_powerplay_second_period: 3
+home_powerplay_second_period: 4
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 4
-away_boxplay_efficiency: 25.0
+away_boxplay: 5
+away_boxplay_efficiency: 40.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
-away_boxplay_second_period: 3
+away_boxplay_second_period: 4
 away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -175,8 +175,8 @@ away_powerplay: 4
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 3
-away_powerplay_third_period: 0
+away_powerplay_second_period: 2
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
 away_win_1: 0

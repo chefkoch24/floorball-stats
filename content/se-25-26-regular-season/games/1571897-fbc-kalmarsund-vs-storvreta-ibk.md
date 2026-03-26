@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1571897-fbc-kalmarsund-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571897-fbc-kalmarsund-vs-storvreta-ibk
+Slug: 1571897-fbc-kalmarsund-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571897
 home_team: FBC Kalmarsund

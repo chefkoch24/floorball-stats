@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 43469-ssf-dragons-bonn-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43469-ssf-dragons-bonn-vs-sc-dhfk-leipzig
+Slug: 43469-ssf-dragons-bonn-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43469
 home_team: SSF Dragons Bonn

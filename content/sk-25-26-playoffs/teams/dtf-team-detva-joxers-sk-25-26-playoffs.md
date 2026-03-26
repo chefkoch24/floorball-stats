@@ -83,13 +83,13 @@ Tags:  VŠK FTVŠ UK Hurikán Bratislava: 0,
 points_max_difference_2: 0
 points_more_2_difference: 0
 points_per_game: 0.0
-powerplay: 11
-powerplay_efficiency: 27.27
+powerplay: 12
+powerplay_efficiency: 25.0
 powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 3.67
+powerplay_per_game: 4.0
 powerplay_second_period: 4
-powerplay_third_period: 5
+powerplay_third_period: 6
 rank: 10
 scoring_ratio: 0.54
 take_the_lead_goals: 3

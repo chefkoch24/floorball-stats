@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 1571933-mullsjo-ais-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571933-mullsjo-ais-vs-fbc-kalmarsund
+Slug: 1571933-mullsjo-ais-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571933
 home_team: Mullsjö AIS

@@ -1,7 +1,7 @@
 Date: 2026-03-13
 Title: tps-jymy-13-3-2026-tps-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: tps-jymy-13-3-2026-tps-vs-jymy
+Slug: tps-jymy-13-3-2026-tps-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: tps-jymy-13-3-2026
 home_team: TPS

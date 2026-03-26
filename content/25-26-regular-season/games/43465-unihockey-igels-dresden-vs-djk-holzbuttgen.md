@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 43465-unihockey-igels-dresden-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43465-unihockey-igels-dresden-vs-djk-holzbuttgen
+Slug: 43465-unihockey-igels-dresden-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43465
 home_team: Unihockey Igels Dresden

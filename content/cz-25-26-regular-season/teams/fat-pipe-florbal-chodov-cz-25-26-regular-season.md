@@ -40,7 +40,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 12
+goals_in_powerplay: 13
 goals_in_second_period: 49
 goals_in_second_period_against: 55
 goals_in_third_period: 66
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice:
 points_max_difference_2: 16
 points_more_2_difference: 27
 points_per_game: 1.65
-powerplay: 26
-powerplay_efficiency: 46.150000000000006
+powerplay: 28
+powerplay_efficiency: 46.43
 powerplay_first_period: 8
 powerplay_overtime: 0
-powerplay_per_game: 1.0
+powerplay_per_game: 1.08
 powerplay_second_period: 9
-powerplay_third_period: 9
+powerplay_third_period: 11
 rank: 6
 scoring_ratio: 1.03
 take_the_lead_goals: 29

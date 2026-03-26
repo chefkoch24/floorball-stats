@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: fbc-turku-hawks-18-3-2026-fbc-turku-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-hawks-18-3-2026-fbc-turku-vs-hawks
+Slug: fbc-turku-hawks-18-3-2026-fbc-turku-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-hawks-18-3-2026
 home_team: FBC Turku

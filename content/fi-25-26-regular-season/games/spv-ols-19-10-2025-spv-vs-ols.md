@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: spv-ols-19-10-2025-spv-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: spv-ols-19-10-2025-spv-vs-ols
+Slug: spv-ols-19-10-2025-spv-vs-ols-fi-25-26-regular-season
 type: game
 game_id: spv-ols-19-10-2025
 home_team: SPV
@@ -96,22 +96,22 @@ home_points_after_third_period: 3
 home_points_against_ols: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
-home_powerplay_second_period: 0
+home_powerplay_second_period: 1
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
-away_boxplay_second_period: 0
+away_boxplay_second_period: 1
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0

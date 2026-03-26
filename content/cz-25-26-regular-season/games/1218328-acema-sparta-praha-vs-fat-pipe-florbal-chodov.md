@@ -1,7 +1,7 @@
 Date: 2025-09-15
 Title: 1218328-acema-sparta-praha-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218328-acema-sparta-praha-vs-fat-pipe-florbal-chodov
+Slug: 1218328-acema-sparta-praha-vs-fat-pipe-florbal-chodov-cz-25-26-regular-season
 type: game
 game_id: 1218328
 home_team: ACEMA Sparta Praha

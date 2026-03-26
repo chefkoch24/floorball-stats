@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: jymy-hawks-2-11-2025-jymy-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: jymy-hawks-2-11-2025-jymy-vs-hawks
+Slug: jymy-hawks-2-11-2025-jymy-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: jymy-hawks-2-11-2025
 home_team: Jymy

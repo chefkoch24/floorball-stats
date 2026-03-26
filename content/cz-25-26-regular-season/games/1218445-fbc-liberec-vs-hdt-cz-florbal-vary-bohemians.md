@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: 1218445-fbc-liberec-vs-hdt-cz-florbal-vary-bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218445-fbc-liberec-vs-hdt-cz-florbal-vary-bohemians
+Slug: 1218445-fbc-liberec-vs-hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season
 type: game
 game_id: 1218445
 home_team: FBC Liberec

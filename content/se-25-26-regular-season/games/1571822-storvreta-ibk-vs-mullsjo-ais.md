@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1571822-storvreta-ibk-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571822-storvreta-ibk-vs-mullsjo-ais
+Slug: 1571822-storvreta-ibk-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571822
 home_team: Storvreta IBK

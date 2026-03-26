@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1571795-fbc-kalmarsund-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571795-fbc-kalmarsund-vs-aik-ibf
+Slug: 1571795-fbc-kalmarsund-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571795
 home_team: FBC Kalmarsund

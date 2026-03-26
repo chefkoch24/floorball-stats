@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 1218407-hdt-cz-florbal-vary-bohemians-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218407-hdt-cz-florbal-vary-bohemians-vs-florbal-usti
+Slug: 1218407-hdt-cz-florbal-vary-bohemians-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218407
 home_team: HDT.cz Florbal Vary Bohemians
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 1
 home_goals_in_second_period_against: 3
 home_goals_in_third_period: 7
@@ -97,7 +97,7 @@ home_points_against_florbal_usti: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
 home_powerplay: 2
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 1
 away_away_points: 0
 away_boxplay: 2
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 50.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
@@ -127,7 +127,7 @@ away_goals: 8
 away_goals_against: 15
 away_goals_against_away: 15
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 1
 away_goals_away: 8
 away_goals_home: 0

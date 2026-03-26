@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 1571843-nykvarns-ibf-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571843-nykvarns-ibf-vs-hovslatts-ik
+Slug: 1571843-nykvarns-ibf-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571843
 home_team: Nykvarns IBF

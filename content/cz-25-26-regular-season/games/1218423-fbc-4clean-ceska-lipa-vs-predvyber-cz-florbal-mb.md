@@ -1,7 +1,7 @@
 Date: 2025-12-19
 Title: 1218423-fbc-4clean-ceska-lipa-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218423-fbc-4clean-ceska-lipa-vs-predvyber-cz-florbal-mb
+Slug: 1218423-fbc-4clean-ceska-lipa-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218423
 home_team: FBC 4CLEAN Česká Lípa

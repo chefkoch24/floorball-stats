@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1290236-esa-logistika-tatran-stresovice-vs-kanonyri-kladno
 Category: cz-25-26-playoffs, game
-Slug: 1290236-esa-logistika-tatran-stresovice-vs-kanonyri-kladno
+Slug: 1290236-esa-logistika-tatran-stresovice-vs-kanonyri-kladno-cz-25-26-playoffs
 type: game
 game_id: 1290236
 home_team: ESA logistika Tatran Střešovice

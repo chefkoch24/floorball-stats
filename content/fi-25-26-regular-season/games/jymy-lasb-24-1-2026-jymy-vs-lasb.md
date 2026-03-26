@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: jymy-lasb-24-1-2026-jymy-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: jymy-lasb-24-1-2026-jymy-vs-lasb
+Slug: jymy-lasb-24-1-2026-jymy-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: jymy-lasb-24-1-2026
 home_team: Jymy

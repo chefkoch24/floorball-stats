@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: oilers-classic-18-3-2026-oilers-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: oilers-classic-18-3-2026-oilers-vs-classic
+Slug: oilers-classic-18-3-2026-oilers-vs-classic-fi-25-26-regular-season
 type: game
 game_id: oilers-classic-18-3-2026
 home_team: Oilers

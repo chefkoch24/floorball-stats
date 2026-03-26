@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 43443-djk-holzbuttgen-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43443-djk-holzbuttgen-vs-mfbc-leipzig
+Slug: 43443-djk-holzbuttgen-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43443
 home_team: DJK Holzbüttgen

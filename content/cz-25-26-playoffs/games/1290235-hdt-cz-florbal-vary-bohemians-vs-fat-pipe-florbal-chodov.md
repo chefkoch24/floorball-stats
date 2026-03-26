@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1290235-hdt-cz-florbal-vary-bohemians-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-playoffs, game
-Slug: 1290235-hdt-cz-florbal-vary-bohemians-vs-fat-pipe-florbal-chodov
+Slug: 1290235-hdt-cz-florbal-vary-bohemians-vs-fat-pipe-florbal-chodov-cz-25-26-playoffs
 type: game
 game_id: 1290235
 home_team: HDT.cz Florbal Vary Bohemians

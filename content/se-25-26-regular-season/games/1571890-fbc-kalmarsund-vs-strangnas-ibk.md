@@ -1,7 +1,7 @@
 Date: 2026-01-27
 Title: 1571890-fbc-kalmarsund-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571890-fbc-kalmarsund-vs-strangnas-ibk
+Slug: 1571890-fbc-kalmarsund-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571890
 home_team: FBC Kalmarsund

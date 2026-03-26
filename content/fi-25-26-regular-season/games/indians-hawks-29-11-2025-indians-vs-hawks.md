@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: indians-hawks-29-11-2025-indians-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: indians-hawks-29-11-2025-indians-vs-hawks
+Slug: indians-hawks-29-11-2025-indians-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: indians-hawks-29-11-2025
 home_team: Indians

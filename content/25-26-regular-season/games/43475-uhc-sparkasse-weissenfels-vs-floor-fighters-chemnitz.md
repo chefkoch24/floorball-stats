@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 43475-uhc-sparkasse-weissenfels-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43475-uhc-sparkasse-weissenfels-vs-floor-fighters-chemnitz
+Slug: 43475-uhc-sparkasse-weissenfels-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43475
 home_team: UHC Sparkasse Weißenfels

@@ -1,7 +1,7 @@
 Date: 2025-11-17
 Title: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku
+Slug: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-fbc-turku-17-11-2025
 home_team: Nokian KrP

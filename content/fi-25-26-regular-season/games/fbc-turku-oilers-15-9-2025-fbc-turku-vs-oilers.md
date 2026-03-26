@@ -1,7 +1,7 @@
 Date: 2025-09-15
 Title: fbc-turku-oilers-15-9-2025-fbc-turku-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-oilers-15-9-2025-fbc-turku-vs-oilers
+Slug: fbc-turku-oilers-15-9-2025-fbc-turku-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-oilers-15-9-2025
 home_team: FBC Turku

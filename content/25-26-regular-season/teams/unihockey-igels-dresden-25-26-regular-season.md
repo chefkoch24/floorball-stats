@@ -6,13 +6,13 @@ type: team
 team:Unihockey Igels Dresden
 platzierungsverlauf:25-26-regular-season/teams/unihockey-igels-dresden-25-26-regular-season_platzierungsverlauf.png
 away_points: 11
-boxplay: 30
-boxplay_efficiency: 53.33
+boxplay: 32
+boxplay_efficiency: 56.25
 boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 1.5
-boxplay_second_period: 11
-boxplay_third_period: 16
+boxplay_per_game: 1.6
+boxplay_second_period: 12
+boxplay_third_period: 17
 close_game_loss: 9
 close_game_overtime: 6
 close_game_win: 5
@@ -83,13 +83,13 @@ Tags:  Berlin Rockets: 0,  Blau-Weiß 96 Schenefeld: 3,  DJK Holzbüttgen: 3,  E
 points_max_difference_2: 15
 points_more_2_difference: 6
 points_per_game: 1.05
-powerplay: 28
-powerplay_efficiency: 42.86
+powerplay: 29
+powerplay_efficiency: 41.38
 powerplay_first_period: 4
 powerplay_overtime: 0
-powerplay_per_game: 1.4
+powerplay_per_game: 1.45
 powerplay_second_period: 10
-powerplay_third_period: 14
+powerplay_third_period: 15
 rank: 8
 scoring_ratio: 0.84
 take_the_lead_goals: 29

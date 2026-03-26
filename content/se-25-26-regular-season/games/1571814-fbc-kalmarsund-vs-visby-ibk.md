@@ -1,7 +1,7 @@
 Date: 2025-10-31
 Title: 1571814-fbc-kalmarsund-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571814-fbc-kalmarsund-vs-visby-ibk
+Slug: 1571814-fbc-kalmarsund-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571814
 home_team: FBC Kalmarsund

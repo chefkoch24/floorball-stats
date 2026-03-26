@@ -1,7 +1,7 @@
 Date: 2025-09-14
 Title: classic-jymy-14-9-2025-classic-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: classic-jymy-14-9-2025-classic-vs-jymy
+Slug: classic-jymy-14-9-2025-classic-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: classic-jymy-14-9-2025
 home_team: Classic

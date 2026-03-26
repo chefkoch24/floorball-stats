@@ -1,7 +1,7 @@
 Date: 2026-02-15
 Title: 1218473-fbc-liberec-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218473-fbc-liberec-vs-acema-sparta-praha
+Slug: 1218473-fbc-liberec-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218473
 home_team: FBC Liberec
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,0,0,1,1,2,2,2,2,2,2,2
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,19.17,22.18,24.25,24.62,24.83,41.35,41.67,52.5,57.02,57.98,58.52,59.5
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay: 2
+home_boxplay_efficiency: 50.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_fbc_liberec: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay: 2
+away_powerplay_efficiency: 50.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0

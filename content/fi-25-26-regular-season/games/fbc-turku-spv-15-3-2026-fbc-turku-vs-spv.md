@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: fbc-turku-spv-15-3-2026-fbc-turku-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-spv-15-3-2026-fbc-turku-vs-spv
+Slug: fbc-turku-spv-15-3-2026-fbc-turku-vs-spv-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-spv-15-3-2026
 home_team: FBC Turku

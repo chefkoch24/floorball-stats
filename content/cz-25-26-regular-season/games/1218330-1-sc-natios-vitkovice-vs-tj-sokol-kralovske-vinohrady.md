@@ -1,7 +1,7 @@
 Date: 2025-09-14
 Title: 1218330-1-sc-natios-vitkovice-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218330-1-sc-natios-vitkovice-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218330-1-sc-natios-vitkovice-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218330
 home_team: 1. SC NATIOS Vítkovice

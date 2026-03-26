@@ -6,13 +6,13 @@ type: team
 team:VŠK FTVŠ UK Hurikán Bratislava
 platzierungsverlauf:sk-25-26-playoffs/teams/vsk-ftvs-uk-hurikan-bratislava-sk-25-26-playoffs_platzierungsverlauf.png
 away_points: 3
-boxplay: 11
-boxplay_efficiency: 72.73
+boxplay: 12
+boxplay_efficiency: 75.0
 boxplay_first_period: 2
 boxplay_overtime: 0
-boxplay_per_game: 3.67
+boxplay_per_game: 4.0
 boxplay_second_period: 4
-boxplay_third_period: 5
+boxplay_third_period: 6
 close_game_loss: 0
 close_game_overtime: 0
 close_game_win: 1

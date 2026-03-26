@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 43498-floor-fighters-chemnitz-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43498-floor-fighters-chemnitz-vs-blau-weiss-96-schenefeld
+Slug: 43498-floor-fighters-chemnitz-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43498
 home_team: Floor Fighters Chemnitz
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,2,3,4,5,5,6,7,8,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.83,17.82,21.03,28.45,29.03,31.42,49.65,55.53,57.62,58.48
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 1
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_floor_fighters_chemnitz: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 1
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
 away_win_1: 0

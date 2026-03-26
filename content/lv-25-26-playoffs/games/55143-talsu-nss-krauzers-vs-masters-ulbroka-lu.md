@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 55143-talsu-nss-krauzers-vs-masters-ulbroka-lu
 Category: lv-25-26-playoffs, game
-Slug: 55143-talsu-nss-krauzers-vs-masters-ulbroka-lu
+Slug: 55143-talsu-nss-krauzers-vs-masters-ulbroka-lu-lv-25-26-playoffs
 type: game
 game_id: 55143
 home_team: Talsu NSS/Krauzers

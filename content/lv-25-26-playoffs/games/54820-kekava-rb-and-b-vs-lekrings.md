@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 54820-kekava-rb-and-b-vs-lekrings
 Category: lv-25-26-playoffs, game
-Slug: 54820-kekava-rb-and-b-vs-lekrings
+Slug: 54820-kekava-rb-and-b-vs-lekrings-lv-25-26-playoffs
 type: game
 game_id: 54820
 home_team: Ķekava/RB&B
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,0,0,0,1,1,1,1,2
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.67,9.02,14.45,17.3,33.25,34.2,47.75,55.05,59.73
 home_away_points: 0
-home_boxplay: 3
-home_boxplay_efficiency: 66.67
+home_boxplay: 5
+home_boxplay_efficiency: 80.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
-home_boxplay_third_period: 2
+home_boxplay_third_period: 4
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_kekava_rb_b: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 3
-away_powerplay_efficiency: 33.33
+away_powerplay: 5
+away_powerplay_efficiency: 20.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
-away_powerplay_third_period: 2
+away_powerplay_third_period: 4
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0

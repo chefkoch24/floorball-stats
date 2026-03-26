@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: eraviikingit-spv-22-11-2025-eraviikingit-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-spv-22-11-2025-eraviikingit-vs-spv
+Slug: eraviikingit-spv-22-11-2025-eraviikingit-vs-spv-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-spv-22-11-2025
 home_team: EräViikingit

@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 43535-djk-holzbuttgen-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43535-djk-holzbuttgen-vs-blau-weiss-96-schenefeld
+Slug: 43535-djk-holzbuttgen-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43535
 home_team: DJK Holzbüttgen
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,0,0,1,2,3,4,4,5,6,7,7,7,8,9,9,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.12,5.47,5.57,5.62,9.15,12.18,14.87,17.2,19.52,19.78,20.33,36.02,36.83,41.27,46.9,51.12
 home_away_points: 0
-home_boxplay: 4
+home_boxplay: 3
 home_boxplay_efficiency: 100.0
-home_boxplay_first_period: 1
+home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 2
 home_boxplay_third_period: 1
@@ -171,9 +171,9 @@ away_points_after_third_period: 0
 away_points_against_djk_holzbuttgen: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 4
+away_powerplay: 3
 away_powerplay_efficiency: 0.0
-away_powerplay_first_period: 1
+away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 2
 away_powerplay_third_period: 1

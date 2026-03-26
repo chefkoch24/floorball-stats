@@ -1,7 +1,7 @@
 Date: 2026-01-09
 Title: indians-lasb-9-1-2026-indians-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: indians-lasb-9-1-2026-indians-vs-lasb
+Slug: indians-lasb-9-1-2026-indians-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: indians-lasb-9-1-2026
 home_team: Indians

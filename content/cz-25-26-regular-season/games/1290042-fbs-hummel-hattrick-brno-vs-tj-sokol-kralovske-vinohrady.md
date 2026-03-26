@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 1290042-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1290042-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady
+Slug: 1290042-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1290042
 home_team: FBŠ Hummel Hattrick Brno
@@ -96,23 +96,23 @@ home_points_after_third_period: 0
 home_points_against_tj_sokol_kralovske_vinohrady: 3
 home_points_max_difference_2: 3
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 1
 away_close_game_overtime: 0
 away_close_game_win: 0

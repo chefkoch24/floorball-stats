@@ -85,11 +85,11 @@ points_more_2_difference: 27
 points_per_game: 1.62
 powerplay: 47
 powerplay_efficiency: 46.81
-powerplay_first_period: 9
+powerplay_first_period: 10
 powerplay_overtime: 0
 powerplay_per_game: 1.81
 powerplay_second_period: 16
-powerplay_third_period: 22
+powerplay_third_period: 21
 rank: 6
 scoring_ratio: 1.24
 take_the_lead_goals: 36

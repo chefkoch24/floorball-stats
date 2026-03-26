@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 43445-etv-piranhhas-hamburg-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43445-etv-piranhhas-hamburg-vs-floor-fighters-chemnitz
+Slug: 43445-etv-piranhhas-hamburg-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43445
 home_team: ETV Piranhhas Hamburg

@@ -1,7 +1,7 @@
 Date: 2025-10-17
 Title: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku
+Slug: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: lasb-fbc-turku-17-10-2025
 home_team: LASB

@@ -1,7 +1,7 @@
 Date: 2025-10-24
 Title: fbc-turku-eraviikingit-24-10-2025-fbc-turku-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-eraviikingit-24-10-2025-fbc-turku-vs-eraviikingit
+Slug: fbc-turku-eraviikingit-24-10-2025-fbc-turku-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-eraviikingit-24-10-2025
 home_team: FBC Turku
@@ -96,9 +96,9 @@ home_points_after_third_period: 0
 home_points_against_eraviikingit: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 0.0
-home_powerplay_first_period: 0
+home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
 home_powerplay_third_period: 0
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 2
 home_win_1: 0
 home_wins: 0
 away_away_points: 3
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 100.0
-away_boxplay_first_period: 0
+away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
 away_boxplay_third_period: 0

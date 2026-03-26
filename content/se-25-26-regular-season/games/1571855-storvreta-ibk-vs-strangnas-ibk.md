@@ -1,7 +1,7 @@
 Date: 2025-12-26
 Title: 1571855-storvreta-ibk-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571855-storvreta-ibk-vs-strangnas-ibk
+Slug: 1571855-storvreta-ibk-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571855
 home_team: Storvreta IBK

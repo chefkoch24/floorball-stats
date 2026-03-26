@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1218389-1-sc-natios-vitkovice-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218389-1-sc-natios-vitkovice-vs-fbc-liberec
+Slug: 1218389-1-sc-natios-vitkovice-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218389
 home_team: 1. SC NATIOS Vítkovice

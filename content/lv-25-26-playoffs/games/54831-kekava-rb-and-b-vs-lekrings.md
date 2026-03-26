@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 54831-kekava-rb-and-b-vs-lekrings
 Category: lv-25-26-playoffs, game
-Slug: 54831-kekava-rb-and-b-vs-lekrings
+Slug: 54831-kekava-rb-and-b-vs-lekrings-lv-25-26-playoffs
 type: game
 game_id: 54831
 home_team: Ķekava/RB&B

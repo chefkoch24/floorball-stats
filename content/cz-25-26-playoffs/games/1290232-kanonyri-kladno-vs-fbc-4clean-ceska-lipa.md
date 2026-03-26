@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 1290232-kanonyri-kladno-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-playoffs, game
-Slug: 1290232-kanonyri-kladno-vs-fbc-4clean-ceska-lipa
+Slug: 1290232-kanonyri-kladno-vs-fbc-4clean-ceska-lipa-cz-25-26-playoffs
 type: game
 game_id: 1290232
 home_team: Kanonýři Kladno

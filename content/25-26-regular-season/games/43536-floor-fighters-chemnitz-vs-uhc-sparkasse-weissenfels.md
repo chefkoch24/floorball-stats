@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: 43536-floor-fighters-chemnitz-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43536-floor-fighters-chemnitz-vs-uhc-sparkasse-weissenfels
+Slug: 43536-floor-fighters-chemnitz-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43536
 home_team: Floor Fighters Chemnitz

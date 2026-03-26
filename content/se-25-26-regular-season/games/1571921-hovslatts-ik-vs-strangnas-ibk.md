@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1571921-hovslatts-ik-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571921-hovslatts-ik-vs-strangnas-ibk
+Slug: 1571921-hovslatts-ik-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571921
 home_team: Hovslätts IK

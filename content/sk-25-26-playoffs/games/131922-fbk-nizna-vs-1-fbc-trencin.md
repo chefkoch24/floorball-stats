@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 131922-fbk-nizna-vs-1-fbc-trencin
 Category: sk-25-26-playoffs, game
-Slug: 131922-fbk-nizna-vs-1-fbc-trencin
+Slug: 131922-fbk-nizna-vs-1-fbc-trencin-sk-25-26-playoffs
 type: game
 game_id: 131922
 home_team: FBK Nižná
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,0,1,1,2,2,3,3,3,4,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,2.8,6.33,18.43,18.63,19.58,26.38,31.88,34.67,37.8,53.85,61.13
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
-home_boxplay_first_period: 0
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
+home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
@@ -171,9 +171,9 @@ away_points_after_third_period: 1
 away_points_against_fbk_nizna: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
-away_powerplay_first_period: 0
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
+away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0

@@ -1,7 +1,7 @@
 Date: 2026-03-23
 Title: 1688234-linkoping-ibk-vs-mullsjo-ais
 Category: se-25-26-playoffs, game
-Slug: 1688234-linkoping-ibk-vs-mullsjo-ais
+Slug: 1688234-linkoping-ibk-vs-mullsjo-ais-se-25-26-playoffs
 type: game
 game_id: 1688234
 home_team: Linköping IBK

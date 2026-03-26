@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218504-hdt-cz-florbal-vary-bohemians-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218504-hdt-cz-florbal-vary-bohemians-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218504-hdt-cz-florbal-vary-bohemians-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218504
 home_team: HDT.cz Florbal Vary Bohemians

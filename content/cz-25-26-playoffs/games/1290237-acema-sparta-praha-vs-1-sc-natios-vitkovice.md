@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1290237-acema-sparta-praha-vs-1-sc-natios-vitkovice
 Category: cz-25-26-playoffs, game
-Slug: 1290237-acema-sparta-praha-vs-1-sc-natios-vitkovice
+Slug: 1290237-acema-sparta-praha-vs-1-sc-natios-vitkovice-cz-25-26-playoffs
 type: game
 game_id: 1290237
 home_team: ACEMA Sparta Praha
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 5
 home_goals_in_second_period_against: 0
 home_goals_in_third_period: 2
@@ -97,7 +97,7 @@ home_points_against_1_sc_natios_vitkovice: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
 home_powerplay: 1
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 1
 away_away_points: 0
 away_boxplay: 1
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
@@ -127,7 +127,7 @@ away_goals: 5
 away_goals_against: 10
 away_goals_against_away: 10
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_away: 5
 away_goals_home: 0

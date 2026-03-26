@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 131923-fk-florko-kosice-vs-sk-lido-prirodovedec-bratislava
 Category: sk-25-26-playoffs, game
-Slug: 131923-fk-florko-kosice-vs-sk-lido-prirodovedec-bratislava
+Slug: 131923-fk-florko-kosice-vs-sk-lido-prirodovedec-bratislava-sk-25-26-playoffs
 type: game
 game_id: 131923
 home_team: FK Florko Košice
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,2,2,2,2,3,3,4,5,5,5,6,7,7,8
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,10.97,13.55,13.67,18.85,20.23,23.48,26.43,30.72,33.83,36.7,39.17,47.45,50.72,50.87,69.97
 home_away_points: 0
-home_boxplay: 4
-home_boxplay_efficiency: 50.0
+home_boxplay: 5
+home_boxplay_efficiency: 60.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 2
-home_boxplay_third_period: 1
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 1
 home_close_game_win: 1
@@ -96,7 +96,7 @@ home_points_after_third_period: 1
 home_points_against_sk_lido_prirodovedec_bratislava: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 4
+home_powerplay: 5
 home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
@@ -107,7 +107,7 @@ home_take_the_lead_goals_against: 3
 home_win_1: 1
 home_wins: 0
 away_away_points: 1
-away_boxplay: 4
+away_boxplay: 5
 away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 1
 away_points_against_fk_florko_kosice: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 4
-away_powerplay_efficiency: 50.0
+away_powerplay: 5
+away_powerplay_efficiency: 40.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 2
-away_powerplay_third_period: 1
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 3
 away_take_the_lead_goals_against: 4
 away_win_1: 0

@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 43471-mfbc-leipzig-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43471-mfbc-leipzig-vs-unihockey-igels-dresden
+Slug: 43471-mfbc-leipzig-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43471
 home_team: MFBC Leipzig

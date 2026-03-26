@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1218383-tj-sokol-kralovske-vinohrady-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218383-tj-sokol-kralovske-vinohrady-vs-fat-pipe-florbal-chodov
+Slug: 1218383-tj-sokol-kralovske-vinohrady-vs-fat-pipe-florbal-chodov-cz-25-26-regular-season
 type: game
 game_id: 1218383
 home_team: TJ Sokol Královské Vinohrady

@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: ols-spv-31-1-2026-ols-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: ols-spv-31-1-2026-ols-vs-spv
+Slug: ols-spv-31-1-2026-ols-vs-spv-fi-25-26-regular-season
 type: game
 game_id: ols-spv-31-1-2026
 home_team: OLS

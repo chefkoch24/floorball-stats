@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 54821-fbk-sac-vs-rubene
 Category: lv-25-26-playoffs, game
-Slug: 54821-fbk-sac-vs-rubene
+Slug: 54821-fbk-sac-vs-rubene-lv-25-26-playoffs
 type: game
 game_id: 54821
 home_team: FBK SĀC

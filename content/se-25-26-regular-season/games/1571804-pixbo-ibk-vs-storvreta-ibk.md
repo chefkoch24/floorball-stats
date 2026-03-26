@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1571804-pixbo-ibk-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571804-pixbo-ibk-vs-storvreta-ibk
+Slug: 1571804-pixbo-ibk-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571804
 home_team: Pixbo IBK

@@ -83,11 +83,11 @@ Tags:  Indians: 2,
 points_max_difference_2: 2
 points_more_2_difference: 0
 points_per_game: 2.0
-powerplay: 3
-powerplay_efficiency: 33.33
+powerplay: 4
+powerplay_efficiency: 25.0
 powerplay_first_period: 0
-powerplay_overtime: 1
-powerplay_per_game: 3.0
+powerplay_overtime: 2
+powerplay_per_game: 4.0
 powerplay_second_period: 1
 powerplay_third_period: 1
 rank: 4

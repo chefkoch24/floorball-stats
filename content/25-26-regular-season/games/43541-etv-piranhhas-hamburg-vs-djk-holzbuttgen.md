@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 43541-etv-piranhhas-hamburg-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43541-etv-piranhhas-hamburg-vs-djk-holzbuttgen
+Slug: 43541-etv-piranhhas-hamburg-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43541
 home_team: ETV Piranhhas Hamburg
@@ -96,9 +96,9 @@ home_points_after_third_period: 3
 home_points_against_djk_holzbuttgen: 3
 home_points_max_difference_2: 3
 home_points_more_2_difference: 0
-home_powerplay: 2
-home_powerplay_efficiency: 100.0
-home_powerplay_first_period: 1
+home_powerplay: 3
+home_powerplay_efficiency: 66.67
+home_powerplay_first_period: 2
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 1
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 0
 home_win_1: 1
 home_wins: 1
 away_away_points: 0
-away_boxplay: 2
-away_boxplay_efficiency: 0.0
-away_boxplay_first_period: 1
+away_boxplay: 3
+away_boxplay_efficiency: 33.33
+away_boxplay_first_period: 2
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_third_period: 1

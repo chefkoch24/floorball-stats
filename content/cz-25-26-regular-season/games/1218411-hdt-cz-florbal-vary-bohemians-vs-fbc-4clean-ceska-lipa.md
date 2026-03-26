@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1218411-hdt-cz-florbal-vary-bohemians-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218411-hdt-cz-florbal-vary-bohemians-vs-fbc-4clean-ceska-lipa
+Slug: 1218411-hdt-cz-florbal-vary-bohemians-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218411
 home_team: HDT.cz Florbal Vary Bohemians
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,1,2,3,4,5,5,5,6,6,7,8,9,10,10,11,12,13,13,14,15,16,
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.02,3.07,4.37,6.87,7.13,8.0,13.6,14.1,17.3,24.63,27.12,29.0,33.07,33.47,37.45,46.78,50.5,50.75,53.77,56.7,58.33,59.52,59.82
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 2
+home_goals_in_powerplay: 3
 home_goals_in_second_period: 4
 home_goals_in_second_period_against: 2
 home_goals_in_third_period: 7
@@ -97,7 +97,7 @@ home_points_against_fbc_4clean_ceska_lipa: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
 home_powerplay: 4
-home_powerplay_efficiency: 50.0
+home_powerplay_efficiency: 75.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 2
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 1
 away_away_points: 0
 away_boxplay: 4
-away_boxplay_efficiency: 50.0
+away_boxplay_efficiency: 25.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 2
@@ -127,7 +127,7 @@ away_goals: 6
 away_goals_against: 17
 away_goals_against_away: 17
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 2
+away_goals_against_in_boxplay: 3
 away_goals_against_in_powerplay: 0
 away_goals_away: 6
 away_goals_home: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 0
 away_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 2

@@ -1,7 +1,7 @@
 Date: 2025-11-14
 Title: fbc-turku-tps-14-11-2025-fbc-turku-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-tps-14-11-2025-fbc-turku-vs-tps
+Slug: fbc-turku-tps-14-11-2025-fbc-turku-vs-tps-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-tps-14-11-2025
 home_team: FBC Turku

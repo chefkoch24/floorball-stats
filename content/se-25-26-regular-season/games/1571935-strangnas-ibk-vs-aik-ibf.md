@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 1571935-strangnas-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571935-strangnas-ibk-vs-aik-ibf
+Slug: 1571935-strangnas-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571935
 home_team: Strängnäs IBK

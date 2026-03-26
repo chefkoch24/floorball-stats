@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 55140-lekrings-vs-rubene
 Category: lv-25-26-playoffs, game
-Slug: 55140-lekrings-vs-rubene
+Slug: 55140-lekrings-vs-rubene-lv-25-26-playoffs
 type: game
 game_id: 55140
 home_team: Lekrings

@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: 1096565-floorball-koniz-bern-vs-floorball-thurgau
 Category: ch-25-26-playoffs, game
-Slug: 1096565-floorball-koniz-bern-vs-floorball-thurgau
+Slug: 1096565-floorball-koniz-bern-vs-floorball-thurgau-ch-25-26-playoffs
 type: game
 game_id: 1096565
 home_team: Floorball Köniz Bern
@@ -33,7 +33,7 @@ timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,5.37,6.35,10.48,13.65,17.9,25.57,31.0,34.75,38.47,48.2,51.05,53.05,64.37
 home_away_points: 0
 home_boxplay: 1
-home_boxplay_efficiency: 100.0
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -52,8 +52,8 @@ home_goals: 7
 home_goals_against: 6
 home_goals_against_away: 0
 home_goals_against_home: 6
-home_goals_against_in_boxplay: 0
-home_goals_against_in_powerplay: 6
+home_goals_against_in_boxplay: 1
+home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 7
 home_goals_in_boxplay: 0
@@ -63,7 +63,7 @@ home_goals_in_overtime: 1
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 4
+home_goals_in_powerplay: 3
 home_goals_in_second_period: 1
 home_goals_in_second_period_against: 3
 home_goals_in_third_period: 3
@@ -97,7 +97,7 @@ home_points_against_floorball_thurgau: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
 home_powerplay: 4
-home_powerplay_efficiency: 100.0
+home_powerplay_efficiency: 75.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 1
 home_powerplay_second_period: 0
@@ -108,7 +108,7 @@ home_win_1: 1
 home_wins: 0
 away_away_points: 1
 away_boxplay: 4
-away_boxplay_efficiency: 0.0
+away_boxplay_efficiency: 25.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 1
 away_boxplay_second_period: 0
@@ -127,18 +127,18 @@ away_goals: 6
 away_goals_against: 7
 away_goals_against_away: 7
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 4
+away_goals_against_in_boxplay: 3
 away_goals_against_in_powerplay: 0
 away_goals_away: 6
 away_goals_home: 0
-away_goals_in_boxplay: 6
+away_goals_in_boxplay: 0
 away_goals_in_first_period: 3
 away_goals_in_first_period_against: 2
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 1
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 0
+away_goals_in_powerplay: 1
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 1
 away_goals_in_third_period: 0
@@ -172,7 +172,7 @@ away_points_against_floorball_koniz_bern: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
 away_powerplay: 1
-away_powerplay_efficiency: 0.0
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 43511-unihockey-igels-dresden-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43511-unihockey-igels-dresden-vs-uhc-sparkasse-weissenfels
+Slug: 43511-unihockey-igels-dresden-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43511
 home_team: Unihockey Igels Dresden

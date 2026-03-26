@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp
+Slug: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: ols-nokian-krp-14-3-2026
 home_team: OLS

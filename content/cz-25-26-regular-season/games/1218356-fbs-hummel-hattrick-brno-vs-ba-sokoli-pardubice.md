@@ -1,7 +1,7 @@
 Date: 2025-10-09
 Title: 1218356-fbs-hummel-hattrick-brno-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218356-fbs-hummel-hattrick-brno-vs-ba-sokoli-pardubice
+Slug: 1218356-fbs-hummel-hattrick-brno-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218356
 home_team: FBŠ Hummel Hattrick Brno

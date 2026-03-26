@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 43437-ssf-dragons-bonn-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43437-ssf-dragons-bonn-vs-mfbc-leipzig
+Slug: 43437-ssf-dragons-bonn-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43437
 home_team: SSF Dragons Bonn

@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: nokian-krp-eraviikingit-24-3-2026-nokian-krp-vs-eraviikingit
 Category: fi-25-26-playoffs, game
-Slug: nokian-krp-eraviikingit-24-3-2026-nokian-krp-vs-eraviikingit
+Slug: nokian-krp-eraviikingit-24-3-2026-nokian-krp-vs-eraviikingit-fi-25-26-playoffs
 type: game
 game_id: nokian-krp-eraviikingit-24-3-2026
 home_team: Nokian KrP

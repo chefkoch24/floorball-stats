@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1218385-predvyber-cz-florbal-mb-vs-fbc-cpp-bystron-group-ostrava
 Category: cz-25-26-regular-season, game
-Slug: 1218385-predvyber-cz-florbal-mb-vs-fbc-cpp-bystron-group-ostrava
+Slug: 1218385-predvyber-cz-florbal-mb-vs-fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season
 type: game
 game_id: 1218385
 home_team: Předvýběr.CZ Florbal MB

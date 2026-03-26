@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 43467-sc-dhfk-leipzig-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43467-sc-dhfk-leipzig-vs-uhc-sparkasse-weissenfels
+Slug: 43467-sc-dhfk-leipzig-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43467
 home_team: SC DHfK Leipzig

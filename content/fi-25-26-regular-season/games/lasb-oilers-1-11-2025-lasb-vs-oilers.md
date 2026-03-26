@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: lasb-oilers-1-11-2025-lasb-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: lasb-oilers-1-11-2025-lasb-vs-oilers
+Slug: lasb-oilers-1-11-2025-lasb-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: lasb-oilers-1-11-2025
 home_team: LASB

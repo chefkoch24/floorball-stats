@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 43514-mfbc-leipzig-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43514-mfbc-leipzig-vs-blau-weiss-96-schenefeld
+Slug: 43514-mfbc-leipzig-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43514
 home_team: MFBC Leipzig

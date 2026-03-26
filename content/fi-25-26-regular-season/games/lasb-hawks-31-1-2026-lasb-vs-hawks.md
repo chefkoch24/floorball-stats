@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: lasb-hawks-31-1-2026-lasb-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: lasb-hawks-31-1-2026-lasb-vs-hawks
+Slug: lasb-hawks-31-1-2026-lasb-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: lasb-hawks-31-1-2026
 home_team: LASB

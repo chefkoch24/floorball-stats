@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: jymy-oilers-12-10-2025-jymy-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: jymy-oilers-12-10-2025-jymy-vs-oilers
+Slug: jymy-oilers-12-10-2025-jymy-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: jymy-oilers-12-10-2025
 home_team: Jymy

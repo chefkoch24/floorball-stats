@@ -6,13 +6,13 @@ type: team
 team:FK Florko Košice
 platzierungsverlauf:sk-25-26-playoffs/teams/fk-florko-kosice-sk-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
-boxplay: 9
-boxplay_efficiency: 44.440000000000005
+boxplay: 12
+boxplay_efficiency: 58.33
 boxplay_first_period: 1
 boxplay_overtime: 0
-boxplay_per_game: 2.25
-boxplay_second_period: 4
-boxplay_third_period: 4
+boxplay_per_game: 3.0
+boxplay_second_period: 5
+boxplay_third_period: 6
 close_game_loss: 0
 close_game_overtime: 1
 close_game_win: 1
@@ -83,11 +83,11 @@ Tags:  ŠK Lido Prírodovedec Bratislava: 2,
 points_max_difference_2: 2
 points_more_2_difference: 0
 points_per_game: 0.5
-powerplay: 9
+powerplay: 10
 powerplay_efficiency: 0.0
 powerplay_first_period: 1
 powerplay_overtime: 0
-powerplay_per_game: 2.25
+powerplay_per_game: 2.5
 powerplay_second_period: 3
 powerplay_third_period: 6
 rank: 8

@@ -1,7 +1,7 @@
 Date: 2026-02-16
 Title: oilers-tps-16-2-2026-oilers-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: oilers-tps-16-2-2026-oilers-vs-tps
+Slug: oilers-tps-16-2-2026-oilers-vs-tps-fi-25-26-regular-season
 type: game
 game_id: oilers-tps-16-2-2026
 home_team: Oilers

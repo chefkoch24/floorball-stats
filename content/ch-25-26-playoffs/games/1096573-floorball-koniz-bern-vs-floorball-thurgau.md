@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: 1096573-floorball-koniz-bern-vs-floorball-thurgau
 Category: ch-25-26-playoffs, game
-Slug: 1096573-floorball-koniz-bern-vs-floorball-thurgau
+Slug: 1096573-floorball-koniz-bern-vs-floorball-thurgau-ch-25-26-playoffs
 type: game
 game_id: 1096573
 home_team: Floorball Köniz Bern
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.82,30.22,32.85,40.0,49.2,52.33,56.17,56.68,57.43,57.53,58.63
 home_away_points: 0
 home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -52,11 +52,11 @@ home_goals: 4
 home_goals_against: 7
 home_goals_against_away: 0
 home_goals_against_home: 7
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 4
-home_goals_in_boxplay: 4
+home_goals_in_boxplay: 0
 home_goals_in_first_period: 1
 home_goals_in_first_period_against: 0
 home_goals_in_overtime: 0
@@ -128,7 +128,7 @@ away_goals_against: 4
 away_goals_against_away: 4
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
-away_goals_against_in_powerplay: 4
+away_goals_against_in_powerplay: 0
 away_goals_away: 7
 away_goals_home: 0
 away_goals_in_boxplay: 0
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 0
 away_goals_in_second_period: 1
 away_goals_in_second_period_against: 1
 away_goals_in_third_period: 6
@@ -172,7 +172,7 @@ away_points_against_floorball_koniz_bern: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

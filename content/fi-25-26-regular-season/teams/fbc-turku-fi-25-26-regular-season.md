@@ -1,4 +1,4 @@
-Date: 2026-03-18
+Date: 2026-03-25
 Title: FBC Turku
 Category: fi-25-26-regular-season, teams
 Slug: fbc-turku-fi-25-26-regular-season-fi-25-26-regular-season
@@ -6,13 +6,13 @@ type: team
 team:FBC Turku
 platzierungsverlauf:fi-25-26-regular-season/teams/fbc-turku-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 4
-boxplay: 45
-boxplay_efficiency: 26.67
-boxplay_first_period: 9
+boxplay: 49
+boxplay_efficiency: 32.650000000000006
+boxplay_first_period: 10
 boxplay_overtime: 0
-boxplay_per_game: 1.41
-boxplay_second_period: 18
-boxplay_third_period: 18
+boxplay_per_game: 1.53
+boxplay_second_period: 19
+boxplay_third_period: 20
 close_game_loss: 4
 close_game_overtime: 2
 close_game_win: 2
@@ -83,12 +83,12 @@ Tags:  Classic: 0,  EräViikingit: 1,  Hawks: 0,  Indians: 0,  Jymy: 0,  LASB: 3
 points_max_difference_2: 6
 points_more_2_difference: 0
 points_per_game: 0.19
-powerplay: 36
-powerplay_efficiency: 36.11
-powerplay_first_period: 9
+powerplay: 39
+powerplay_efficiency: 33.33
+powerplay_first_period: 11
 powerplay_overtime: 0
-powerplay_per_game: 1.12
-powerplay_second_period: 8
+powerplay_per_game: 1.22
+powerplay_second_period: 9
 powerplay_third_period: 19
 rank: 12
 scoring_ratio: 0.39

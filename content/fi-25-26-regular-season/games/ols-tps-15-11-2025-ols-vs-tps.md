@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: ols-tps-15-11-2025-ols-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: ols-tps-15-11-2025-ols-vs-tps
+Slug: ols-tps-15-11-2025-ols-vs-tps-fi-25-26-regular-season
 type: game
 game_id: ols-tps-15-11-2025
 home_team: OLS

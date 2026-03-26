@@ -6,12 +6,12 @@ type: team
 team:FAT PIPE FLORBAL CHODOV
 platzierungsverlauf:cz-25-26-playoffs/teams/fat-pipe-florbal-chodov-cz-25-26-playoffs_platzierungsverlauf.png
 away_points: 3
-boxplay: 2
+boxplay: 3
 boxplay_efficiency: 100.0
 boxplay_first_period: 0
 boxplay_overtime: 0
-boxplay_per_game: 1.0
-boxplay_second_period: 1
+boxplay_per_game: 1.5
+boxplay_second_period: 2
 boxplay_third_period: 1
 close_game_loss: 0
 close_game_overtime: 0

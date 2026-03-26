@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 43494-unihockey-igels-dresden-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43494-unihockey-igels-dresden-vs-sc-potsdam
+Slug: 43494-unihockey-igels-dresden-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43494
 home_team: Unihockey Igels Dresden

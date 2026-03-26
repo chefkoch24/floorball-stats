@@ -1,7 +1,7 @@
 Date: 2026-04-05
 Title: 922441-spv-vs-indians
 Category: fi-25-26-playoffs, game
-Slug: 922441-spv-vs-indians
+Slug: 922441-spv-vs-indians-fi-25-26-playoffs
 type: game
 game_id: 922441
 home_team: SPV

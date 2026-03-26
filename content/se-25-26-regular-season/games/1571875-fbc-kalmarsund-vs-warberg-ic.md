@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 1571875-fbc-kalmarsund-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571875-fbc-kalmarsund-vs-warberg-ic
+Slug: 1571875-fbc-kalmarsund-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571875
 home_team: FBC Kalmarsund

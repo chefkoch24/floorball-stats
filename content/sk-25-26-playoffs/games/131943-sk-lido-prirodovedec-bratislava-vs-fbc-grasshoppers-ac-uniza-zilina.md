@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 131943-sk-lido-prirodovedec-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
 Category: sk-25-26-playoffs, game
-Slug: 131943-sk-lido-prirodovedec-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina
+Slug: 131943-sk-lido-prirodovedec-bratislava-vs-fbc-grasshoppers-ac-uniza-zilina-sk-25-26-playoffs
 type: game
 game_id: 131943
 home_team: ŠK Lido Prírodovedec Bratislava

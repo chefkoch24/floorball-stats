@@ -5,13 +5,13 @@ Slug: league-average-25-26-regular-season
 type: liga
 team: League Average
 away_points: 14.55
-boxplay: 36.64
-boxplay_efficiency: 60.47
-boxplay_first_period: 6.73
+boxplay: 39.55
+boxplay_efficiency: 63.21
+boxplay_first_period: 7.0
 boxplay_overtime: 0.09
-boxplay_per_game: 1.83
-boxplay_second_period: 14.73
-boxplay_third_period: 15.18
+boxplay_per_game: 1.98
+boxplay_second_period: 15.64
+boxplay_third_period: 16.82
 close_game_loss: 5.55
 close_game_overtime: 4.36
 close_game_win: 5.55
@@ -27,7 +27,7 @@ goals: 120.09
 goals_against: 120.09
 goals_against_away: 61.27
 goals_against_home: 58.82
-goals_against_in_boxplay: 15.0
+goals_against_in_boxplay: 15.09
 goals_against_in_powerplay: 3.91
 goals_against_per_game: 6.0
 goals_away: 58.82
@@ -39,7 +39,7 @@ goals_in_overtime: 1.73
 goals_in_overtime_against: 1.73
 goals_in_penalty_shootout: 0.45
 goals_in_penalty_shootout_against: 0.45
-goals_in_powerplay: 15.0
+goals_in_powerplay: 15.09
 goals_in_second_period: 40.36
 goals_in_second_period_against: 40.36
 goals_in_third_period: 44.36
@@ -81,13 +81,13 @@ points_after_third_period: 27.82
 points_max_difference_2: 16.64
 points_more_2_difference: 13.36
 points_per_game: 1.5
-powerplay: 36.64
-powerplay_efficiency: 41.86
-powerplay_first_period: 6.73
+powerplay: 39.55
+powerplay_efficiency: 39.02
+powerplay_first_period: 7.0
 powerplay_overtime: 0.09
-powerplay_per_game: 1.83
-powerplay_second_period: 14.73
-powerplay_third_period: 15.18
+powerplay_per_game: 1.98
+powerplay_second_period: 15.64
+powerplay_third_period: 16.82
 rank: 6.0
 scoring_ratio: 1.07
 take_the_lead_goals: 25.45

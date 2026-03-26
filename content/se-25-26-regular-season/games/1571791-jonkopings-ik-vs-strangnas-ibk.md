@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 1571791-jonkopings-ik-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571791-jonkopings-ik-vs-strangnas-ibk
+Slug: 1571791-jonkopings-ik-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571791
 home_team: Jönköpings IK

@@ -1,7 +1,7 @@
 Date: 2026-03-29
 Title: 922445-nokian-krp-vs-eraviikingit
 Category: fi-25-26-playoffs, game
-Slug: 922445-nokian-krp-vs-eraviikingit
+Slug: 922445-nokian-krp-vs-eraviikingit-fi-25-26-playoffs
 type: game
 game_id: 922445
 home_team: Nokian KrP

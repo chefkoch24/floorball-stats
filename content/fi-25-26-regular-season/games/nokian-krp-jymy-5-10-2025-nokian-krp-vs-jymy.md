@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy
+Slug: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-jymy-5-10-2025
 home_team: Nokian KrP

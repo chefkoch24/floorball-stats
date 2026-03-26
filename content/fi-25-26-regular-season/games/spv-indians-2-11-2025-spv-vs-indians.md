@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: spv-indians-2-11-2025-spv-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: spv-indians-2-11-2025-spv-vs-indians
+Slug: spv-indians-2-11-2025-spv-vs-indians-fi-25-26-regular-season
 type: game
 game_id: spv-indians-2-11-2025
 home_team: SPV

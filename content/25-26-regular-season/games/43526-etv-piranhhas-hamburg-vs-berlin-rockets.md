@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 43526-etv-piranhhas-hamburg-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43526-etv-piranhhas-hamburg-vs-berlin-rockets
+Slug: 43526-etv-piranhhas-hamburg-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43526
 home_team: ETV Piranhhas Hamburg
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,1,1,2,2,3,4,4,4,5,5,6,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.47,6.3,9.38,11.02,14.05,15.75,18.18,21.23,44.73,51.45,59.17,59.5,59.95
 home_away_points: 0
-home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay: 5
+home_boxplay_efficiency: 80.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
-home_boxplay_third_period: 0
+home_boxplay_second_period: 3
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 1
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_etv_piranhhas_hamburg: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay: 5
+away_powerplay_efficiency: 20.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
-away_powerplay_third_period: 0
+away_powerplay_second_period: 3
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 5
 away_win_1: 0

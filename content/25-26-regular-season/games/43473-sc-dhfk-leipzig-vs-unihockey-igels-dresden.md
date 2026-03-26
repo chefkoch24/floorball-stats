@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 43473-sc-dhfk-leipzig-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43473-sc-dhfk-leipzig-vs-unihockey-igels-dresden
+Slug: 43473-sc-dhfk-leipzig-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43473
 home_team: SC DHfK Leipzig

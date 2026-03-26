@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: spv-eraviikingit-22-2-2026-spv-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: spv-eraviikingit-22-2-2026-spv-vs-eraviikingit
+Slug: spv-eraviikingit-22-2-2026-spv-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: spv-eraviikingit-22-2-2026
 home_team: SPV

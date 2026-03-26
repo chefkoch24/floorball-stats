@@ -1,7 +1,7 @@
 Date: 2025-09-25
 Title: 1571776-fbc-kalmarsund-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571776-fbc-kalmarsund-vs-linkoping-ibk
+Slug: 1571776-fbc-kalmarsund-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571776
 home_team: FBC Kalmarsund

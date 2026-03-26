@@ -6,13 +6,13 @@ type: team
 team:Strängnäs IBK
 platzierungsverlauf:se-25-26-regular-season/teams/strangnas-ibk-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 12
-boxplay: 33
-boxplay_efficiency: 48.480000000000004
+boxplay: 36
+boxplay_efficiency: 52.78
 boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 1.27
+boxplay_per_game: 1.38
 boxplay_second_period: 12
-boxplay_third_period: 14
+boxplay_third_period: 17
 close_game_loss: 8
 close_game_overtime: 7
 close_game_win: 7
@@ -83,13 +83,13 @@ Tags:  AIK IBF: 2,  FBC Kalmarsund: 0,  Hovslätts IK: 6,  IBF Falun: 3,  Jönk�
 points_max_difference_2: 18
 points_more_2_difference: 6
 points_per_game: 0.92
-powerplay: 35
-powerplay_efficiency: 40.0
+powerplay: 36
+powerplay_efficiency: 38.89
 powerplay_first_period: 6
 powerplay_overtime: 1
-powerplay_per_game: 1.35
+powerplay_per_game: 1.38
 powerplay_second_period: 12
-powerplay_third_period: 16
+powerplay_third_period: 17
 rank: 13
 scoring_ratio: 0.76
 take_the_lead_goals: 37

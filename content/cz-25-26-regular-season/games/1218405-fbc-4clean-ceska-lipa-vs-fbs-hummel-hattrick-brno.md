@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1218405-fbc-4clean-ceska-lipa-vs-fbs-hummel-hattrick-brno
 Category: cz-25-26-regular-season, game
-Slug: 1218405-fbc-4clean-ceska-lipa-vs-fbs-hummel-hattrick-brno
+Slug: 1218405-fbc-4clean-ceska-lipa-vs-fbs-hummel-hattrick-brno-cz-25-26-regular-season
 type: game
 game_id: 1218405
 home_team: FBC 4CLEAN Česká Lípa
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,7.23,8.77,21.22,22.92,34.57,39.22,41.08,46.05,51.35,53.37,55.9,56.12,57.57,58.22,59.4
 home_away_points: 0
 home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
@@ -52,7 +52,7 @@ home_goals: 5
 home_goals_against: 10
 home_goals_against_away: 0
 home_goals_against_home: 10
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 5
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 0
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 1
 away_goals_in_third_period: 7
@@ -172,7 +172,7 @@ away_points_against_fbc_4clean_ceska_lipa: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0

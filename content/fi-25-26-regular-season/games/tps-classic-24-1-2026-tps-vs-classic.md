@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: tps-classic-24-1-2026-tps-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: tps-classic-24-1-2026-tps-vs-classic
+Slug: tps-classic-24-1-2026-tps-vs-classic-fi-25-26-regular-season
 type: game
 game_id: tps-classic-24-1-2026
 home_team: TPS
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,0,1,1,1,1,1
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,14.8,15.32,24.25,29.48,37.65,39.25,59.75
 home_away_points: 0
-home_boxplay: 2
+home_boxplay: 3
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 1
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 3
 away_points_against_tps: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 2
+away_powerplay: 3
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 1
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0

@@ -1,7 +1,7 @@
 Date: 2025-10-14
 Title: 1571800-hovslatts-ik-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571800-hovslatts-ik-vs-vaxjo-ibk
+Slug: 1571800-hovslatts-ik-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571800
 home_team: Hovslätts IK

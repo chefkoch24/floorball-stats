@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1218469-fbc-cpp-bystron-group-ostrava-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218469-fbc-cpp-bystron-group-ostrava-vs-predvyber-cz-florbal-mb
+Slug: 1218469-fbc-cpp-bystron-group-ostrava-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218469
 home_team: FBC ČPP Bystroň Group OSTRAVA

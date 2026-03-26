@@ -7,7 +7,7 @@ team:1. SC NATIOS Vítkovice
 platzierungsverlauf:cz-25-26-playoffs/teams/1-sc-natios-vitkovice-cz-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
 boxplay: 2
-boxplay_efficiency: 50.0
+boxplay_efficiency: 0.0
 boxplay_first_period: 1
 boxplay_overtime: 0
 boxplay_per_game: 1.0
@@ -28,7 +28,7 @@ goals: 7
 goals_against: 18
 goals_against_away: 18
 goals_against_home: 0
-goals_against_in_boxplay: 1
+goals_against_in_boxplay: 2
 goals_against_in_powerplay: 0
 goals_against_per_game: 9.0
 goals_away: 7

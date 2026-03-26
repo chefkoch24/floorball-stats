@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 1218465-fbs-hummel-hattrick-brno-vs-fat-pipe-florbal-chodov
 Category: cz-25-26-regular-season, game
-Slug: 1218465-fbs-hummel-hattrick-brno-vs-fat-pipe-florbal-chodov
+Slug: 1218465-fbs-hummel-hattrick-brno-vs-fat-pipe-florbal-chodov-cz-25-26-regular-season
 type: game
 game_id: 1218465
 home_team: FBŠ Hummel Hattrick Brno

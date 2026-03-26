@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: 1218364-tj-sokol-kralovske-vinohrady-vs-hdt-cz-florbal-vary-bohemians
 Category: cz-25-26-regular-season, game
-Slug: 1218364-tj-sokol-kralovske-vinohrady-vs-hdt-cz-florbal-vary-bohemians
+Slug: 1218364-tj-sokol-kralovske-vinohrady-vs-hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season
 type: game
 game_id: 1218364
 home_team: TJ Sokol Královské Vinohrady

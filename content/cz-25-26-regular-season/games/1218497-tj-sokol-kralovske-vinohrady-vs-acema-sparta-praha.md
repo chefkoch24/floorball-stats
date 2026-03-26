@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1218497-tj-sokol-kralovske-vinohrady-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218497-tj-sokol-kralovske-vinohrady-vs-acema-sparta-praha
+Slug: 1218497-tj-sokol-kralovske-vinohrady-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218497
 home_team: TJ Sokol Královské Vinohrady

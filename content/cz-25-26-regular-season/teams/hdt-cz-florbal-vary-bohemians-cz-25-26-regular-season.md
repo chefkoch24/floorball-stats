@@ -6,13 +6,13 @@ type: team
 team:HDT.cz Florbal Vary Bohemians
 platzierungsverlauf:cz-25-26-regular-season/teams/hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 34
-boxplay: 22
-boxplay_efficiency: 54.55
+boxplay: 24
+boxplay_efficiency: 54.17
 boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 0.85
-boxplay_second_period: 6
-boxplay_third_period: 9
+boxplay_per_game: 0.92
+boxplay_second_period: 7
+boxplay_third_period: 10
 close_game_loss: 2
 close_game_overtime: 2
 close_game_win: 2
@@ -28,7 +28,7 @@ goals: 281
 goals_against: 143
 goals_against_away: 62
 goals_against_home: 81
-goals_against_in_boxplay: 10
+goals_against_in_boxplay: 11
 goals_against_in_powerplay: 5
 goals_against_per_game: 5.5
 goals_away: 130
@@ -40,7 +40,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 23
+goals_in_powerplay: 28
 goals_in_second_period: 89
 goals_in_second_period_against: 47
 goals_in_third_period: 114
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 6,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice:
 points_max_difference_2: 8
 points_more_2_difference: 60
 points_per_game: 2.62
-powerplay: 49
-powerplay_efficiency: 46.94
-powerplay_first_period: 12
+powerplay: 53
+powerplay_efficiency: 52.83
+powerplay_first_period: 13
 powerplay_overtime: 0
-powerplay_per_game: 1.88
+powerplay_per_game: 2.04
 powerplay_second_period: 23
-powerplay_third_period: 14
+powerplay_third_period: 17
 rank: 2
 scoring_ratio: 1.97
 take_the_lead_goals: 40

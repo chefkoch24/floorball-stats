@@ -1,7 +1,7 @@
 Date: 2025-09-28
 Title: 1218344-tj-sokol-kralovske-vinohrady-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218344-tj-sokol-kralovske-vinohrady-vs-fbc-4clean-ceska-lipa
+Slug: 1218344-tj-sokol-kralovske-vinohrady-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218344
 home_team: TJ Sokol Královské Vinohrady

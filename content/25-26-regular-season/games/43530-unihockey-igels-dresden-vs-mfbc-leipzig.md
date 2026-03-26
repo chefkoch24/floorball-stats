@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 43530-unihockey-igels-dresden-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43530-unihockey-igels-dresden-vs-mfbc-leipzig
+Slug: 43530-unihockey-igels-dresden-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43530
 home_team: Unihockey Igels Dresden

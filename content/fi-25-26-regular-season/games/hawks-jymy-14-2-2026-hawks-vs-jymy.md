@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: hawks-jymy-14-2-2026-hawks-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: hawks-jymy-14-2-2026-hawks-vs-jymy
+Slug: hawks-jymy-14-2-2026-hawks-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: hawks-jymy-14-2-2026
 home_team: Hawks

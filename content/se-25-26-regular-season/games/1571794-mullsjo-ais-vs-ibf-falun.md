@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1571794-mullsjo-ais-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571794-mullsjo-ais-vs-ibf-falun
+Slug: 1571794-mullsjo-ais-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571794
 home_team: Mullsjö AIS

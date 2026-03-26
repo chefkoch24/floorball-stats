@@ -1,7 +1,7 @@
 Date: 2026-04-04
 Title: 922448-eraviikingit-vs-nokian-krp
 Category: fi-25-26-playoffs, game
-Slug: 922448-eraviikingit-vs-nokian-krp
+Slug: 922448-eraviikingit-vs-nokian-krp-fi-25-26-playoffs
 type: game
 game_id: 922448
 home_team: EräViikingit

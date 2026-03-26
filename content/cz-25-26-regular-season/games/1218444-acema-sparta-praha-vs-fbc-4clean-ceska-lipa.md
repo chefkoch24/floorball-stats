@@ -1,7 +1,7 @@
 Date: 2026-01-05
 Title: 1218444-acema-sparta-praha-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218444-acema-sparta-praha-vs-fbc-4clean-ceska-lipa
+Slug: 1218444-acema-sparta-praha-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218444
 home_team: ACEMA Sparta Praha

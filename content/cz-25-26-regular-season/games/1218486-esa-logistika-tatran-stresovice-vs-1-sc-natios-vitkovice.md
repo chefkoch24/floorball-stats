@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 1218486-esa-logistika-tatran-stresovice-vs-1-sc-natios-vitkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218486-esa-logistika-tatran-stresovice-vs-1-sc-natios-vitkovice
+Slug: 1218486-esa-logistika-tatran-stresovice-vs-1-sc-natios-vitkovice-cz-25-26-regular-season
 type: game
 game_id: 1218486
 home_team: ESA logistika Tatran Střešovice

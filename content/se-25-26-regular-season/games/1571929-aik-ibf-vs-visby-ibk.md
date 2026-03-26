@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1571929-aik-ibf-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571929-aik-ibf-vs-visby-ibk
+Slug: 1571929-aik-ibf-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571929
 home_team: AIK IBF

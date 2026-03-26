@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1571943-linkoping-ibk-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571943-linkoping-ibk-vs-pixbo-ibk
+Slug: 1571943-linkoping-ibk-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571943
 home_team: Linköping IBK

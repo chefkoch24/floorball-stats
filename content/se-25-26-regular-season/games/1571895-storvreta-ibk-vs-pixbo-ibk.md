@@ -1,7 +1,7 @@
 Date: 2026-01-28
 Title: 1571895-storvreta-ibk-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571895-storvreta-ibk-vs-pixbo-ibk
+Slug: 1571895-storvreta-ibk-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571895
 home_team: Storvreta IBK

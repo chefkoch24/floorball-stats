@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit
+Slug: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: hawks-eraviikingit-4-10-2025
 home_team: Hawks

@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: hawks-indians-14-3-2026-hawks-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: hawks-indians-14-3-2026-hawks-vs-indians
+Slug: hawks-indians-14-3-2026-hawks-vs-indians-fi-25-26-regular-season
 type: game
 game_id: hawks-indians-14-3-2026
 home_team: Hawks

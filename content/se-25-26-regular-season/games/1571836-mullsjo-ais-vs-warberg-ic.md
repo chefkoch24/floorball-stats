@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1571836-mullsjo-ais-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571836-mullsjo-ais-vs-warberg-ic
+Slug: 1571836-mullsjo-ais-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571836
 home_team: Mullsjö AIS

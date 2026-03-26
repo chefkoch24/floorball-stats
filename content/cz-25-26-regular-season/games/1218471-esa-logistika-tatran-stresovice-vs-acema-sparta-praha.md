@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1218471-esa-logistika-tatran-stresovice-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218471-esa-logistika-tatran-stresovice-vs-acema-sparta-praha
+Slug: 1218471-esa-logistika-tatran-stresovice-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218471
 home_team: ESA logistika Tatran Střešovice

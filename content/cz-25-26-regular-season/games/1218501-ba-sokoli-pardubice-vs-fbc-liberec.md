@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218501-ba-sokoli-pardubice-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218501-ba-sokoli-pardubice-vs-fbc-liberec
+Slug: 1218501-ba-sokoli-pardubice-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218501
 home_team: BA SOKOLI Pardubice
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,25.35,25.73,27.75,30.32,34.27,35.82,39.02,44.43,49.28,51.3,59.37
 home_away_points: 0
 home_boxplay: 3
-home_boxplay_efficiency: 33.33
+home_boxplay_efficiency: 66.67
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 2
@@ -52,7 +52,7 @@ home_goals: 3
 home_goals_against: 8
 home_goals_against_away: 0
 home_goals_against_home: 8
-home_goals_against_in_boxplay: 2
+home_goals_against_in_boxplay: 1
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 3
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 2
 home_goals_in_second_period_against: 5
 home_goals_in_third_period: 1
@@ -97,7 +97,7 @@ home_points_against_fbc_liberec: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 3
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 33.33
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 0
 away_away_points: 3
 away_boxplay: 3
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 66.67
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
@@ -127,7 +127,7 @@ away_goals: 8
 away_goals_against: 3
 away_goals_against_away: 3
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_away: 8
 away_goals_home: 0
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 2
+away_goals_in_powerplay: 1
 away_goals_in_second_period: 5
 away_goals_in_second_period_against: 2
 away_goals_in_third_period: 3
@@ -172,7 +172,7 @@ away_points_against_ba_sokoli_pardubice: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 3
-away_powerplay_efficiency: 66.67
+away_powerplay_efficiency: 33.33
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 2

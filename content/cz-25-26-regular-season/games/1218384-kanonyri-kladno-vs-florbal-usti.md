@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 1218384-kanonyri-kladno-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218384-kanonyri-kladno-vs-florbal-usti
+Slug: 1218384-kanonyri-kladno-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218384
 home_team: Kanonýři Kladno
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
+home_goals_in_powerplay: 1
 home_goals_in_second_period: 0
 home_goals_in_second_period_against: 0
 home_goals_in_third_period: 2
@@ -97,7 +97,7 @@ home_points_against_florbal_usti: 3
 home_points_max_difference_2: 3
 home_points_more_2_difference: 0
 home_powerplay: 1
-home_powerplay_efficiency: 0.0
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
@@ -108,7 +108,7 @@ home_win_1: 0
 home_wins: 1
 away_away_points: 0
 away_boxplay: 1
-away_boxplay_efficiency: 100.0
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
@@ -127,7 +127,7 @@ away_goals: 2
 away_goals_against: 4
 away_goals_against_away: 4
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_away: 2
 away_goals_home: 0

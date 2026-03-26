@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: 1218363-1-sc-natios-vitkovice-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1218363-1-sc-natios-vitkovice-vs-florbal-usti
+Slug: 1218363-1-sc-natios-vitkovice-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1218363
 home_team: 1. SC NATIOS Vítkovice

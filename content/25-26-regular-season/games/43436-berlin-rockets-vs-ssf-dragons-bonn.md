@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 43436-berlin-rockets-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43436-berlin-rockets-vs-ssf-dragons-bonn
+Slug: 43436-berlin-rockets-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43436
 home_team: Berlin Rockets

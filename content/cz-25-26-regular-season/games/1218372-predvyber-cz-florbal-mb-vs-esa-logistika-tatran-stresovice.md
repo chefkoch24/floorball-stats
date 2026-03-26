@@ -1,7 +1,7 @@
 Date: 2025-10-23
 Title: 1218372-predvyber-cz-florbal-mb-vs-esa-logistika-tatran-stresovice
 Category: cz-25-26-regular-season, game
-Slug: 1218372-predvyber-cz-florbal-mb-vs-esa-logistika-tatran-stresovice
+Slug: 1218372-predvyber-cz-florbal-mb-vs-esa-logistika-tatran-stresovice-cz-25-26-regular-season
 type: game
 game_id: 1218372
 home_team: Předvýběr.CZ Florbal MB

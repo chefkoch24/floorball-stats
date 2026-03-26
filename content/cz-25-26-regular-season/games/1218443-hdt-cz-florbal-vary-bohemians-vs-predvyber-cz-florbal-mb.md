@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1218443-hdt-cz-florbal-vary-bohemians-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218443-hdt-cz-florbal-vary-bohemians-vs-predvyber-cz-florbal-mb
+Slug: 1218443-hdt-cz-florbal-vary-bohemians-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218443
 home_team: HDT.cz Florbal Vary Bohemians

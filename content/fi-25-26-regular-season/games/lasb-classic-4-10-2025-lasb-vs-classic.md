@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: lasb-classic-4-10-2025-lasb-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: lasb-classic-4-10-2025-lasb-vs-classic
+Slug: lasb-classic-4-10-2025-lasb-vs-classic-fi-25-26-regular-season
 type: game
 game_id: lasb-classic-4-10-2025
 home_team: LASB

@@ -1,7 +1,7 @@
 Date: 2025-12-07
 Title: 43490-djk-holzbuttgen-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43490-djk-holzbuttgen-vs-berlin-rockets
+Slug: 43490-djk-holzbuttgen-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43490
 home_team: DJK Holzbüttgen

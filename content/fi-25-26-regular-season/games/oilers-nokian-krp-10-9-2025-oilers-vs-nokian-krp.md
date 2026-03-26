@@ -1,7 +1,7 @@
 Date: 2025-09-10
 Title: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp
+Slug: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: oilers-nokian-krp-10-9-2025
 home_team: Oilers

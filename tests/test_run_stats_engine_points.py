@@ -6,6 +6,7 @@ from src.run_stats_engine import (
     _powerplay_efficiency,
     stat_away_points,
     stat_boxplay,
+    stat_goals_in_powerplay,
     stat_losses,
     stat_over_time_losses,
     stat_over_time_wins,
@@ -188,6 +189,51 @@ def test_powerplay_does_not_count_coincidental_penalties_at_same_time():
     )
     assert stat_powerplay(events, "A") == 0
     assert stat_boxplay(events, "A") == 0
+
+
+def test_goals_in_powerplay_replays_events_in_time_order():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "1-03:49", 1, "A", "B", 1, 0, "A"),
+            _event(1, "1-03:34", 1, "A", "B", "penalty", "B", penalty_type="penalty_2"),
+        ]
+    )
+
+    assert stat_goals_in_powerplay(events, "A") == 1
+
+
+def test_powerplay_counts_both_segments_of_two_plus_two():
+    events = pd.DataFrame(
+        [
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "B", penalty_type="penalty_2and2"),
+        ]
+    )
+
+    assert stat_powerplay(events, "A") == 2
+    assert stat_boxplay(events, "B") == 2
+
+
+def test_powerplay_infers_one_segment_from_ten_minute_penalty():
+    events = pd.DataFrame(
+        [
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "B", penalty_type="penalty_10"),
+        ]
+    )
+
+    assert stat_powerplay(events, "A") == 1
+    assert stat_boxplay(events, "B") == 1
+
+
+def test_powerplay_counts_only_net_segments_for_simultaneous_penalties():
+    events = pd.DataFrame(
+        [
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "B", penalty_type="penalty_2and2"),
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "A", penalty_type="penalty_2"),
+        ]
+    )
+
+    assert stat_powerplay(events, "A") == 1
+    assert stat_boxplay(events, "B") == 1
 
 
 def test_penalties_are_counted_per_period():

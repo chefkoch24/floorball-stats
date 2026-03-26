@@ -1,7 +1,7 @@
 Date: 2025-12-19
 Title: indians-oilers-19-12-2025-indians-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: indians-oilers-19-12-2025-indians-vs-oilers
+Slug: indians-oilers-19-12-2025-indians-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: indians-oilers-19-12-2025
 home_team: Indians

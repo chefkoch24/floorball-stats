@@ -6,13 +6,13 @@ type: team
 team:TJ Sokol Královské Vinohrady
 platzierungsverlauf:cz-25-26-regular-season/teams/tj-sokol-kralovske-vinohrady-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 7
-boxplay: 31
-boxplay_efficiency: 61.29
+boxplay: 32
+boxplay_efficiency: 59.38
 boxplay_first_period: 3
 boxplay_overtime: 1
-boxplay_per_game: 1.11
+boxplay_per_game: 1.14
 boxplay_second_period: 11
-boxplay_third_period: 16
+boxplay_third_period: 17
 close_game_loss: 5
 close_game_overtime: 4
 close_game_win: 6
@@ -28,12 +28,12 @@ goals: 94
 goals_against: 172
 goals_against_away: 96
 goals_against_home: 76
-goals_against_in_boxplay: 12
+goals_against_in_boxplay: 13
 goals_against_in_powerplay: 2
 goals_against_per_game: 6.14
 goals_away: 48
 goals_home: 46
-goals_in_boxplay: 2
+goals_in_boxplay: 1
 goals_in_first_period: 25
 goals_in_first_period_against: 51
 goals_in_overtime: 0
@@ -83,12 +83,12 @@ Tags:  1. SC NATIOS Vítkovice: 2,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice:
 points_max_difference_2: 14
 points_more_2_difference: 3
 points_per_game: 0.61
-powerplay: 26
-powerplay_efficiency: 34.62
+powerplay: 27
+powerplay_efficiency: 33.33
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 0.93
-powerplay_second_period: 6
+powerplay_per_game: 0.96
+powerplay_second_period: 7
 powerplay_third_period: 13
 rank: 13
 scoring_ratio: 0.55

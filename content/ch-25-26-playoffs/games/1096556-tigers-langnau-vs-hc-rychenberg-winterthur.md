@@ -1,7 +1,7 @@
 Date: 2026-03-11
 Title: 1096556-tigers-langnau-vs-hc-rychenberg-winterthur
 Category: ch-25-26-playoffs, game
-Slug: 1096556-tigers-langnau-vs-hc-rychenberg-winterthur
+Slug: 1096556-tigers-langnau-vs-hc-rychenberg-winterthur-ch-25-26-playoffs
 type: game
 game_id: 1096556
 home_team: Tigers Langnau
@@ -53,7 +53,7 @@ home_goals_against: 7
 home_goals_against_away: 0
 home_goals_against_home: 7
 home_goals_against_in_boxplay: 0
-home_goals_against_in_powerplay: 3
+home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 6
 home_goals_in_boxplay: 0
@@ -131,7 +131,7 @@ away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
 away_goals_away: 7
 away_goals_home: 0
-away_goals_in_boxplay: 3
+away_goals_in_boxplay: 0
 away_goals_in_first_period: 2
 away_goals_in_first_period_against: 3
 away_goals_in_overtime: 1

@@ -1,7 +1,7 @@
 Date: 2026-02-01
 Title: oilers-lasb-1-2-2026-oilers-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: oilers-lasb-1-2-2026-oilers-vs-lasb
+Slug: oilers-lasb-1-2-2026-oilers-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: oilers-lasb-1-2-2026
 home_team: Oilers
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,10,10,11,12,13,13,14,14
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.62,3.52,6.58,12.82,18.9,23.93,24.93,29.03,29.67,37.08,39.9,42.28,45.72,47.68,53.63,56.93,58.6
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 0
 away_points_against_oilers: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1

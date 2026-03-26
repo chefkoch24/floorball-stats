@@ -1,7 +1,7 @@
 Date: 2025-10-19
 Title: 1218361-fbc-liberec-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218361-fbc-liberec-vs-ba-sokoli-pardubice
+Slug: 1218361-fbc-liberec-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218361
 home_team: FBC Liberec

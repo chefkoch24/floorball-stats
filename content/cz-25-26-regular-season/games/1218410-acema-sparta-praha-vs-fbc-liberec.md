@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1218410-acema-sparta-praha-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218410-acema-sparta-praha-vs-fbc-liberec
+Slug: 1218410-acema-sparta-praha-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218410
 home_team: ACEMA Sparta Praha

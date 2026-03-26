@@ -1,7 +1,7 @@
 Date: 2025-11-28
 Title: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians
+Slug: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-indians-28-11-2025
 home_team: FBC Turku

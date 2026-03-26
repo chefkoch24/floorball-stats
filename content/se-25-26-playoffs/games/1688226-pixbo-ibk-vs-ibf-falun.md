@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 1688226-pixbo-ibk-vs-ibf-falun
 Category: se-25-26-playoffs, game
-Slug: 1688226-pixbo-ibk-vs-ibf-falun
+Slug: 1688226-pixbo-ibk-vs-ibf-falun-se-25-26-playoffs
 type: game
 game_id: 1688226
 home_team: Pixbo IBK

@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1571827-vaxjo-ibk-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571827-vaxjo-ibk-vs-linkoping-ibk
+Slug: 1571827-vaxjo-ibk-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571827
 home_team: Växjö IBK

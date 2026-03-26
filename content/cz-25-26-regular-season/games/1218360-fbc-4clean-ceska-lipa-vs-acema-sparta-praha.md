@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1218360-fbc-4clean-ceska-lipa-vs-acema-sparta-praha
 Category: cz-25-26-regular-season, game
-Slug: 1218360-fbc-4clean-ceska-lipa-vs-acema-sparta-praha
+Slug: 1218360-fbc-4clean-ceska-lipa-vs-acema-sparta-praha-cz-25-26-regular-season
 type: game
 game_id: 1218360
 home_team: FBC 4CLEAN Česká Lípa
@@ -33,7 +33,7 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.03,8.97,17.23,23.63,29.8,33.37,34.67,41.45,44.97,48.4,52.48,52.8,59.25
 home_away_points: 0
 home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
@@ -52,7 +52,7 @@ home_goals: 4
 home_goals_against: 9
 home_goals_against_away: 0
 home_goals_against_home: 9
-home_goals_against_in_boxplay: 1
+home_goals_against_in_boxplay: 2
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 4
@@ -138,7 +138,7 @@ away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 1
+away_goals_in_powerplay: 2
 away_goals_in_second_period: 3
 away_goals_in_second_period_against: 1
 away_goals_in_third_period: 4
@@ -172,7 +172,7 @@ away_points_against_fbc_4clean_ceska_lipa: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
 away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1

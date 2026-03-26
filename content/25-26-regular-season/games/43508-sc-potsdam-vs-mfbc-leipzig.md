@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 43508-sc-potsdam-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43508-sc-potsdam-vs-mfbc-leipzig
+Slug: 43508-sc-potsdam-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43508
 home_team: SC Potsdam

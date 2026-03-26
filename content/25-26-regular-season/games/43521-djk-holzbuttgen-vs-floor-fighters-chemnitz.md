@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 43521-djk-holzbuttgen-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43521-djk-holzbuttgen-vs-floor-fighters-chemnitz
+Slug: 43521-djk-holzbuttgen-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43521
 home_team: DJK Holzbüttgen

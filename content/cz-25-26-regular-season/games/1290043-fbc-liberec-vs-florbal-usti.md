@@ -1,7 +1,7 @@
 Date: 2026-03-24
 Title: 1290043-fbc-liberec-vs-florbal-usti
 Category: cz-25-26-regular-season, game
-Slug: 1290043-fbc-liberec-vs-florbal-usti
+Slug: 1290043-fbc-liberec-vs-florbal-usti-cz-25-26-regular-season
 type: game
 game_id: 1290043
 home_team: FBC Liberec

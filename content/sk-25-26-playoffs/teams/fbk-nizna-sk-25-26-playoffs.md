@@ -6,12 +6,12 @@ type: team
 team:FBK Nižná
 platzierungsverlauf:sk-25-26-playoffs/teams/fbk-nizna-sk-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
-boxplay: 4
-boxplay_efficiency: 0.0
-boxplay_first_period: 0
+boxplay: 7
+boxplay_efficiency: 42.86
+boxplay_first_period: 2
 boxplay_overtime: 0
-boxplay_per_game: 1.33
-boxplay_second_period: 3
+boxplay_per_game: 2.33
+boxplay_second_period: 4
 boxplay_third_period: 1
 close_game_loss: 1
 close_game_overtime: 1
@@ -88,8 +88,8 @@ powerplay_efficiency: 0.0
 powerplay_first_period: 5
 powerplay_overtime: 0
 powerplay_per_game: 3.33
-powerplay_second_period: 4
-powerplay_third_period: 1
+powerplay_second_period: 3
+powerplay_third_period: 2
 rank: 9
 scoring_ratio: 0.5
 take_the_lead_goals: 2

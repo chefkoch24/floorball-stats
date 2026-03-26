@@ -1,7 +1,7 @@
 Date: 2025-12-28
 Title: 1218424-predvyber-cz-florbal-mb-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218424-predvyber-cz-florbal-mb-vs-fbc-liberec
+Slug: 1218424-predvyber-cz-florbal-mb-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218424
 home_team: Předvýběr.CZ Florbal MB

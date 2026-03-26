@@ -1,7 +1,7 @@
 Date: 2026-03-06
 Title: 1571931-pixbo-ibk-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571931-pixbo-ibk-vs-jonkopings-ik
+Slug: 1571931-pixbo-ibk-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571931
 home_team: Pixbo IBK

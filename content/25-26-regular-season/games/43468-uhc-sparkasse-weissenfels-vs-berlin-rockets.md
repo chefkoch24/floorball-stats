@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 43468-uhc-sparkasse-weissenfels-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43468-uhc-sparkasse-weissenfels-vs-berlin-rockets
+Slug: 43468-uhc-sparkasse-weissenfels-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43468
 home_team: UHC Sparkasse Weißenfels

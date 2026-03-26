@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1096559-uhc-uster-vs-zug-united
 Category: ch-25-26-playoffs, game
-Slug: 1096559-uhc-uster-vs-zug-united
+Slug: 1096559-uhc-uster-vs-zug-united-ch-25-26-playoffs
 type: game
 game_id: 1096559
 home_team: UHC Uster

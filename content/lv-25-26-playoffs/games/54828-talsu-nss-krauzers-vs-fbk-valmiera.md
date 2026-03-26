@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 54828-talsu-nss-krauzers-vs-fbk-valmiera
 Category: lv-25-26-playoffs, game
-Slug: 54828-talsu-nss-krauzers-vs-fbk-valmiera
+Slug: 54828-talsu-nss-krauzers-vs-fbk-valmiera-lv-25-26-playoffs
 type: game
 game_id: 54828
 home_team: Talsu NSS/Krauzers

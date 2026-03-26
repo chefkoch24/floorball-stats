@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: 1571873-linkoping-ibk-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571873-linkoping-ibk-vs-mullsjo-ais
+Slug: 1571873-linkoping-ibk-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571873
 home_team: Linköping IBK

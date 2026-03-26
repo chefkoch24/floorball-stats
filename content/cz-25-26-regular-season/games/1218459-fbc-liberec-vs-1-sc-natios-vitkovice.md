@@ -1,7 +1,7 @@
 Date: 2026-01-04
 Title: 1218459-fbc-liberec-vs-1-sc-natios-vitkovice
 Category: cz-25-26-regular-season, game
-Slug: 1218459-fbc-liberec-vs-1-sc-natios-vitkovice
+Slug: 1218459-fbc-liberec-vs-1-sc-natios-vitkovice-cz-25-26-regular-season
 type: game
 game_id: 1218459
 home_team: FBC Liberec

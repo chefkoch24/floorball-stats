@@ -1,7 +1,7 @@
 Date: 2026-03-18
 Title: indians-jymy-18-3-2026-indians-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: indians-jymy-18-3-2026-indians-vs-jymy
+Slug: indians-jymy-18-3-2026-indians-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: indians-jymy-18-3-2026
 home_team: Indians

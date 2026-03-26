@@ -1,7 +1,7 @@
 Date: 2026-01-30
 Title: classic-nokian-krp-30-1-2026-classic-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: classic-nokian-krp-30-1-2026-classic-vs-nokian-krp
+Slug: classic-nokian-krp-30-1-2026-classic-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: classic-nokian-krp-30-1-2026
 home_team: Classic

@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp
+Slug: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: hawks-nokian-krp-24-1-2026
 home_team: Hawks

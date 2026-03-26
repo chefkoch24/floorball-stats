@@ -1,7 +1,7 @@
 Date: 2025-12-05
 Title: nokian-krp-ols-5-12-2025-nokian-krp-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-ols-5-12-2025-nokian-krp-vs-ols
+Slug: nokian-krp-ols-5-12-2025-nokian-krp-vs-ols-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-ols-5-12-2025
 home_team: Nokian KrP

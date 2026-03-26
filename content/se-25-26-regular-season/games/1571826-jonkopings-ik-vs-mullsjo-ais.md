@@ -1,7 +1,7 @@
 Date: 2025-11-21
 Title: 1571826-jonkopings-ik-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571826-jonkopings-ik-vs-mullsjo-ais
+Slug: 1571826-jonkopings-ik-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571826
 home_team: Jönköpings IK

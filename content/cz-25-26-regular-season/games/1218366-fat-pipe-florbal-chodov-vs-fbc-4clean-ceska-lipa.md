@@ -1,7 +1,7 @@
 Date: 2025-10-18
 Title: 1218366-fat-pipe-florbal-chodov-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218366-fat-pipe-florbal-chodov-vs-fbc-4clean-ceska-lipa
+Slug: 1218366-fat-pipe-florbal-chodov-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218366
 home_team: FAT PIPE FLORBAL CHODOV

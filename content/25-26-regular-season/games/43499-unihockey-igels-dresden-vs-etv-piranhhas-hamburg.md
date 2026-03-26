@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 43499-unihockey-igels-dresden-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43499-unihockey-igels-dresden-vs-etv-piranhhas-hamburg
+Slug: 43499-unihockey-igels-dresden-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43499
 home_team: Unihockey Igels Dresden

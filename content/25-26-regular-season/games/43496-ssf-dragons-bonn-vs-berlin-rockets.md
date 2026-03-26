@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 43496-ssf-dragons-bonn-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43496-ssf-dragons-bonn-vs-berlin-rockets
+Slug: 43496-ssf-dragons-bonn-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43496
 home_team: SSF Dragons Bonn

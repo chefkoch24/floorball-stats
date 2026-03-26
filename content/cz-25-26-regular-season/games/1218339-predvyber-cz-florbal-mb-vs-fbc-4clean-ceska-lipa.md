@@ -1,7 +1,7 @@
 Date: 2025-10-08
 Title: 1218339-predvyber-cz-florbal-mb-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218339-predvyber-cz-florbal-mb-vs-fbc-4clean-ceska-lipa
+Slug: 1218339-predvyber-cz-florbal-mb-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218339
 home_team: Předvýběr.CZ Florbal MB

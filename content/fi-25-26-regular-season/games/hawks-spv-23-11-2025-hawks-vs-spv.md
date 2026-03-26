@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: hawks-spv-23-11-2025-hawks-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: hawks-spv-23-11-2025-hawks-vs-spv
+Slug: hawks-spv-23-11-2025-hawks-vs-spv-fi-25-26-regular-season
 type: game
 game_id: hawks-spv-23-11-2025
 home_team: Hawks

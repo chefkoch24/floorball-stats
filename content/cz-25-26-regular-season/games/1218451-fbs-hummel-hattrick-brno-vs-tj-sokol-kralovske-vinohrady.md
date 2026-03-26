@@ -1,7 +1,7 @@
 Date: 2026-01-11
 Title: 1218451-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady
 Category: cz-25-26-regular-season, game
-Slug: 1218451-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady
+Slug: 1218451-fbs-hummel-hattrick-brno-vs-tj-sokol-kralovske-vinohrady-cz-25-26-regular-season
 type: game
 game_id: 1218451
 home_team: FBŠ Hummel Hattrick Brno

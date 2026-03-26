@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1571919-visby-ibk-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571919-visby-ibk-vs-warberg-ic
+Slug: 1571919-visby-ibk-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571919
 home_team: Visby IBK

@@ -6,11 +6,11 @@ type: team
 team:ŠK Lido Prírodovedec Bratislava
 platzierungsverlauf:sk-25-26-playoffs/teams/sk-lido-prirodovedec-bratislava-sk-25-26-playoffs_platzierungsverlauf.png
 away_points: 4
-boxplay: 14
-boxplay_efficiency: 85.71000000000001
+boxplay: 15
+boxplay_efficiency: 86.67
 boxplay_first_period: 1
 boxplay_overtime: 0
-boxplay_per_game: 2.33
+boxplay_per_game: 2.5
 boxplay_second_period: 6
 boxplay_third_period: 8
 close_game_loss: 2
@@ -83,13 +83,13 @@ Tags:  FBC Grasshoppers AC UNIZA Žilina: 3,  FK Florko Košice: 10,
 points_max_difference_2: 1
 points_more_2_difference: 12
 points_per_game: 2.17
-powerplay: 12
-powerplay_efficiency: 41.67
+powerplay: 15
+powerplay_efficiency: 33.33
 powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 2.0
-powerplay_second_period: 5
-powerplay_third_period: 5
+powerplay_per_game: 2.5
+powerplay_second_period: 6
+powerplay_third_period: 7
 rank: 1
 scoring_ratio: 1.79
 take_the_lead_goals: 9

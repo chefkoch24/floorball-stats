@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: eraviikingit-classic-29-11-2025-eraviikingit-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-classic-29-11-2025-eraviikingit-vs-classic
+Slug: eraviikingit-classic-29-11-2025-eraviikingit-vs-classic-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-classic-29-11-2025
 home_team: EräViikingit

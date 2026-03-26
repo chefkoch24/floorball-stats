@@ -1,7 +1,7 @@
 Date: 2025-10-30
 Title: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic
+Slug: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-classic-30-10-2025
 home_team: FBC Turku

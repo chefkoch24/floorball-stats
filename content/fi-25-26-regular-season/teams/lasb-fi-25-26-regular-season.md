@@ -1,4 +1,4 @@
-Date: 2026-03-18
+Date: 2026-03-25
 Title: LASB
 Category: fi-25-26-regular-season, teams
 Slug: lasb-fi-25-26-regular-season-fi-25-26-regular-season
@@ -6,13 +6,13 @@ type: team
 team:LASB
 platzierungsverlauf:fi-25-26-regular-season/teams/lasb-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 9
-boxplay: 36
-boxplay_efficiency: 36.11
-boxplay_first_period: 11
+boxplay: 39
+boxplay_efficiency: 41.03
+boxplay_first_period: 12
 boxplay_overtime: 0
-boxplay_per_game: 1.12
+boxplay_per_game: 1.22
 boxplay_second_period: 11
-boxplay_third_period: 14
+boxplay_third_period: 16
 close_game_loss: 9
 close_game_overtime: 2
 close_game_win: 4
@@ -83,13 +83,13 @@ Tags:  Classic: 0,  EräViikingit: 1,  FBC Turku: 3,  Hawks: 0,  Indians: 2,  Jy
 points_max_difference_2: 12
 points_more_2_difference: 3
 points_per_game: 0.47
-powerplay: 33
-powerplay_efficiency: 30.3
+powerplay: 36
+powerplay_efficiency: 27.779999999999998
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 1.03
-powerplay_second_period: 12
-powerplay_third_period: 14
+powerplay_per_game: 1.12
+powerplay_second_period: 13
+powerplay_third_period: 16
 rank: 11
 scoring_ratio: 0.48
 take_the_lead_goals: 18

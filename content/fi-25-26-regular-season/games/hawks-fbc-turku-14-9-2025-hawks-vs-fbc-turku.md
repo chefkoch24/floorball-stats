@@ -1,7 +1,7 @@
 Date: 2025-09-14
 Title: hawks-fbc-turku-14-9-2025-hawks-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: hawks-fbc-turku-14-9-2025-hawks-vs-fbc-turku
+Slug: hawks-fbc-turku-14-9-2025-hawks-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: hawks-fbc-turku-14-9-2025
 home_team: Hawks

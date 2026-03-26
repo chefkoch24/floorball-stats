@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: classic-lasb-3-1-2026-classic-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: classic-lasb-3-1-2026-classic-vs-lasb
+Slug: classic-lasb-3-1-2026-classic-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: classic-lasb-3-1-2026
 home_team: Classic

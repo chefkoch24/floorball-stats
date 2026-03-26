@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 43442-blau-weiss-96-schenefeld-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43442-blau-weiss-96-schenefeld-vs-unihockey-igels-dresden
+Slug: 43442-blau-weiss-96-schenefeld-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43442
 home_team: Blau-Weiß 96 Schenefeld
@@ -96,23 +96,23 @@ home_points_after_third_period: 1
 home_points_against_unihockey_igels_dresden: 1
 home_points_max_difference_2: 1
 home_points_more_2_difference: 0
-home_powerplay: 1
-home_powerplay_efficiency: 100.0
+home_powerplay: 2
+home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
 away_away_points: 2
-away_boxplay: 1
-away_boxplay_efficiency: 0.0
+away_boxplay: 2
+away_boxplay_efficiency: 50.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 1
 away_close_game_win: 1

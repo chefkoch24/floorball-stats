@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1571941-strangnas-ibk-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571941-strangnas-ibk-vs-nykvarns-ibf
+Slug: 1571941-strangnas-ibk-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571941
 home_team: Strängnäs IBK

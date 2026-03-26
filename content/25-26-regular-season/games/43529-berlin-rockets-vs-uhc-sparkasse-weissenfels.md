@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 43529-berlin-rockets-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43529-berlin-rockets-vs-uhc-sparkasse-weissenfels
+Slug: 43529-berlin-rockets-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43529
 home_team: Berlin Rockets

@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 43520-uhc-sparkasse-weissenfels-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43520-uhc-sparkasse-weissenfels-vs-mfbc-leipzig
+Slug: 43520-uhc-sparkasse-weissenfels-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43520
 home_team: UHC Sparkasse Weißenfels

@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 43518-ssf-dragons-bonn-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43518-ssf-dragons-bonn-vs-unihockey-igels-dresden
+Slug: 43518-ssf-dragons-bonn-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43518
 home_team: SSF Dragons Bonn

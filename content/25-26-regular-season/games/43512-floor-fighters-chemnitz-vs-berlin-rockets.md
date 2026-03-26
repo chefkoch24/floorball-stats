@@ -1,7 +1,7 @@
 Date: 2026-01-25
 Title: 43512-floor-fighters-chemnitz-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43512-floor-fighters-chemnitz-vs-berlin-rockets
+Slug: 43512-floor-fighters-chemnitz-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43512
 home_team: Floor Fighters Chemnitz

@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: oilers-ols-2-11-2025-oilers-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: oilers-ols-2-11-2025-oilers-vs-ols
+Slug: oilers-ols-2-11-2025-oilers-vs-ols-fi-25-26-regular-season
 type: game
 game_id: oilers-ols-2-11-2025
 home_team: Oilers

@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 1218327-kanonyri-kladno-vs-fbc-4clean-ceska-lipa
 Category: cz-25-26-regular-season, game
-Slug: 1218327-kanonyri-kladno-vs-fbc-4clean-ceska-lipa
+Slug: 1218327-kanonyri-kladno-vs-fbc-4clean-ceska-lipa-cz-25-26-regular-season
 type: game
 game_id: 1218327
 home_team: Kanonýři Kladno

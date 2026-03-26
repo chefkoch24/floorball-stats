@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1218452-tj-sokol-kralovske-vinohrady-vs-fbc-liberec
 Category: cz-25-26-regular-season, game
-Slug: 1218452-tj-sokol-kralovske-vinohrady-vs-fbc-liberec
+Slug: 1218452-tj-sokol-kralovske-vinohrady-vs-fbc-liberec-cz-25-26-regular-season
 type: game
 game_id: 1218452
 home_team: TJ Sokol Královské Vinohrady

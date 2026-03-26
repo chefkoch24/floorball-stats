@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1218334-florbal-usti-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218334-florbal-usti-vs-ba-sokoli-pardubice
+Slug: 1218334-florbal-usti-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218334
 home_team: Florbal Ústí

@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: oilers-eraviikingit-15-10-2025-oilers-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: oilers-eraviikingit-15-10-2025-oilers-vs-eraviikingit
+Slug: oilers-eraviikingit-15-10-2025-oilers-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: oilers-eraviikingit-15-10-2025
 home_team: Oilers

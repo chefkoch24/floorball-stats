@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 1571881-ibf-falun-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571881-ibf-falun-vs-aik-ibf
+Slug: 1571881-ibf-falun-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571881
 home_team: IBF Falun

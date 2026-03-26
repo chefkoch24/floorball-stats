@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 43444-ssf-dragons-bonn-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43444-ssf-dragons-bonn-vs-uhc-sparkasse-weissenfels
+Slug: 43444-ssf-dragons-bonn-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43444
 home_team: SSF Dragons Bonn

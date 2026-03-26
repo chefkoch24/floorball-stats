@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: eraviikingit-indians-13-9-2025-eraviikingit-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-indians-13-9-2025-eraviikingit-vs-indians
+Slug: eraviikingit-indians-13-9-2025-eraviikingit-vs-indians-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-indians-13-9-2025
 home_team: EräViikingit

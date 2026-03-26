@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 54822-lielvarde-unihoc-vs-masters-ulbroka-lu
 Category: lv-25-26-playoffs, game
-Slug: 54822-lielvarde-unihoc-vs-masters-ulbroka-lu
+Slug: 54822-lielvarde-unihoc-vs-masters-ulbroka-lu-lv-25-26-playoffs
 type: game
 game_id: 54822
 home_team: Lielvārde/Unihoc

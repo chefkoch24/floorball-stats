@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku
+Slug: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: jymy-fbc-turku-21-2-2026
 home_team: Jymy

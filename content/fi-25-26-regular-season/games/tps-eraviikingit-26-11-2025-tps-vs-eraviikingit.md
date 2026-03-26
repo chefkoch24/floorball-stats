@@ -1,7 +1,7 @@
 Date: 2025-11-26
 Title: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit
+Slug: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: tps-eraviikingit-26-11-2025
 home_team: TPS

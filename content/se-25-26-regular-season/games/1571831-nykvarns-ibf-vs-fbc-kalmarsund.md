@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1571831-nykvarns-ibf-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571831-nykvarns-ibf-vs-fbc-kalmarsund
+Slug: 1571831-nykvarns-ibf-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571831
 home_team: Nykvarns IBF

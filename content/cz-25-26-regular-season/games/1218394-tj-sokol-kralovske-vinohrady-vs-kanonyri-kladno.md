@@ -1,7 +1,7 @@
 Date: 2025-11-13
 Title: 1218394-tj-sokol-kralovske-vinohrady-vs-kanonyri-kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218394-tj-sokol-kralovske-vinohrady-vs-kanonyri-kladno
+Slug: 1218394-tj-sokol-kralovske-vinohrady-vs-kanonyri-kladno-cz-25-26-regular-season
 type: game
 game_id: 1218394
 home_team: TJ Sokol Královské Vinohrady

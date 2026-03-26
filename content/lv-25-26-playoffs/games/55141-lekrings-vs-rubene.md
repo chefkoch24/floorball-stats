@@ -1,7 +1,7 @@
 Date: 2026-03-22
 Title: 55141-lekrings-vs-rubene
 Category: lv-25-26-playoffs, game
-Slug: 55141-lekrings-vs-rubene
+Slug: 55141-lekrings-vs-rubene-lv-25-26-playoffs
 type: game
 game_id: 55141
 home_team: Lekrings
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,1,1,2,3,4,5,6,7,8,8,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.55,11.95,16.2,21.97,22.23,27.12,32.75,35.85,48.48,55.48,56.53,59.7
 home_away_points: 0
-home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay: 3
+home_boxplay_efficiency: 66.67
 home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_lekrings: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay: 3
+away_powerplay_efficiency: 33.33
 away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 1
 away_win_1: 0

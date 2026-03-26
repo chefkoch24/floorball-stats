@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1571819-fbc-kalmarsund-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571819-fbc-kalmarsund-vs-jonkopings-ik
+Slug: 1571819-fbc-kalmarsund-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571819
 home_team: FBC Kalmarsund

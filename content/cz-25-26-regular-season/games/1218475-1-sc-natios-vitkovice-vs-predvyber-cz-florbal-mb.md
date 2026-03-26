@@ -1,7 +1,7 @@
 Date: 2026-02-15
 Title: 1218475-1-sc-natios-vitkovice-vs-predvyber-cz-florbal-mb
 Category: cz-25-26-regular-season, game
-Slug: 1218475-1-sc-natios-vitkovice-vs-predvyber-cz-florbal-mb
+Slug: 1218475-1-sc-natios-vitkovice-vs-predvyber-cz-florbal-mb-cz-25-26-regular-season
 type: game
 game_id: 1218475
 home_team: 1. SC NATIOS Vítkovice
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,1,2,3,3,4,5,5,5,5,5,6,6
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,3.63,6.02,6.65,9.93,16.03,24.62,34.92,40.23,46.1,46.88,50.55,58.62,60.37
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay: 3
+home_boxplay_efficiency: 66.67
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 2
 home_boxplay_third_period: 0
 home_close_game_loss: 1
 home_close_game_overtime: 1
@@ -96,9 +96,9 @@ home_points_after_third_period: 1
 home_points_against_predvyber_cz_florbal_mb: 1
 home_points_max_difference_2: 1
 home_points_more_2_difference: 0
-home_powerplay: 2
-home_powerplay_efficiency: 50.0
-home_powerplay_first_period: 0
+home_powerplay: 3
+home_powerplay_efficiency: 33.33
+home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 2
 home_powerplay_third_period: 0
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 3
 home_win_1: 0
 home_wins: 0
 away_away_points: 2
-away_boxplay: 2
-away_boxplay_efficiency: 50.0
-away_boxplay_first_period: 0
+away_boxplay: 3
+away_boxplay_efficiency: 66.67
+away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 2
 away_boxplay_third_period: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 1
 away_points_against_1_sc_natios_vitkovice: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay: 3
+away_powerplay_efficiency: 33.33
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 2
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 3
 away_take_the_lead_goals_against: 1

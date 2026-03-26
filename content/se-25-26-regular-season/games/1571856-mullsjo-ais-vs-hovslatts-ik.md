@@ -1,7 +1,7 @@
 Date: 2025-12-26
 Title: 1571856-mullsjo-ais-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571856-mullsjo-ais-vs-hovslatts-ik
+Slug: 1571856-mullsjo-ais-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571856
 home_team: Mullsjö AIS

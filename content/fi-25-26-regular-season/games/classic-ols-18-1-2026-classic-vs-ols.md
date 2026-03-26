@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: classic-ols-18-1-2026-classic-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: classic-ols-18-1-2026-classic-vs-ols
+Slug: classic-ols-18-1-2026-classic-vs-ols-fi-25-26-regular-season
 type: game
 game_id: classic-ols-18-1-2026
 home_team: Classic

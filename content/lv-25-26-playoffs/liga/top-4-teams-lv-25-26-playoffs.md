@@ -5,13 +5,13 @@ Slug: top-4-teams-lv-25-26-playoffs
 type: liga
 team: Top 4 Teams
 away_points: 7.75
-boxplay: 19.5
-boxplay_efficiency: 69.91
-boxplay_first_period: 6.0
+boxplay: 20.25
+boxplay_efficiency: 71.06
+boxplay_first_period: 6.25
 boxplay_overtime: 0.25
-boxplay_per_game: 2.05
+boxplay_per_game: 2.13
 boxplay_second_period: 5.5
-boxplay_third_period: 7.75
+boxplay_third_period: 8.25
 close_game_loss: 0.5
 close_game_overtime: 0.5
 close_game_win: 1.25
@@ -81,13 +81,13 @@ points_after_third_period: 16.75
 points_max_difference_2: 5.0
 points_more_2_difference: 12.75
 points_per_game: 1.98
-powerplay: 20.0
-powerplay_efficiency: 40.63
-powerplay_first_period: 6.25
+powerplay: 21.25
+powerplay_efficiency: 38.18
+powerplay_first_period: 6.5
 powerplay_overtime: 0.25
-powerplay_per_game: 2.17
+powerplay_per_game: 2.3
 powerplay_second_period: 7.75
-powerplay_third_period: 5.75
+powerplay_third_period: 6.75
 rank: 2.5
 scoring_ratio: 1.41
 take_the_lead_goals: 12.25

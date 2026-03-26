@@ -1,7 +1,7 @@
 Date: 2025-12-27
 Title: nokian-krp-lasb-27-12-2025-nokian-krp-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-lasb-27-12-2025-nokian-krp-vs-lasb
+Slug: nokian-krp-lasb-27-12-2025-nokian-krp-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-lasb-27-12-2025
 home_team: Nokian KrP

@@ -1,7 +1,7 @@
 Date: 2026-03-25
 Title: spv-indians-25-3-2026-spv-vs-indians
 Category: fi-25-26-playoffs, game
-Slug: spv-indians-25-3-2026-spv-vs-indians
+Slug: spv-indians-25-3-2026-spv-vs-indians-fi-25-26-playoffs
 type: game
 game_id: spv-indians-25-3-2026
 home_team: SPV
@@ -96,10 +96,10 @@ home_points_after_third_period: 1
 home_points_against_indians: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 3
-home_powerplay_efficiency: 33.33
+home_powerplay: 4
+home_powerplay_efficiency: 25.0
 home_powerplay_first_period: 0
-home_powerplay_overtime: 1
+home_powerplay_overtime: 2
 home_powerplay_second_period: 1
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 4
@@ -107,10 +107,10 @@ home_take_the_lead_goals_against: 1
 home_win_1: 1
 home_wins: 0
 away_away_points: 1
-away_boxplay: 3
-away_boxplay_efficiency: 66.67
+away_boxplay: 4
+away_boxplay_efficiency: 75.0
 away_boxplay_first_period: 0
-away_boxplay_overtime: 1
+away_boxplay_overtime: 2
 away_boxplay_second_period: 1
 away_boxplay_third_period: 1
 away_close_game_loss: 1

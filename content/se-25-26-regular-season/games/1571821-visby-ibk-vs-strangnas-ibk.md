@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1571821-visby-ibk-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571821-visby-ibk-vs-strangnas-ibk
+Slug: 1571821-visby-ibk-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571821
 home_team: Visby IBK

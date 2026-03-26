@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: lasb-jymy-14-3-2026-lasb-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: lasb-jymy-14-3-2026-lasb-vs-jymy
+Slug: lasb-jymy-14-3-2026-lasb-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: lasb-jymy-14-3-2026
 home_team: LASB

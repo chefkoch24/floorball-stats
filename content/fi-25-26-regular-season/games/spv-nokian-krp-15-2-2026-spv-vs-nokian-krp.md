@@ -1,7 +1,7 @@
 Date: 2026-02-15
 Title: spv-nokian-krp-15-2-2026-spv-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: spv-nokian-krp-15-2-2026-spv-vs-nokian-krp
+Slug: spv-nokian-krp-15-2-2026-spv-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: spv-nokian-krp-15-2-2026
 home_team: SPV

@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1571849-ibf-falun-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571849-ibf-falun-vs-fbc-kalmarsund
+Slug: 1571849-ibf-falun-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571849
 home_team: IBF Falun

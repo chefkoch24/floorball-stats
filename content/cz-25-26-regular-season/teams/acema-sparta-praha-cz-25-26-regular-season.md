@@ -6,13 +6,13 @@ type: team
 team:ACEMA Sparta Praha
 platzierungsverlauf:cz-25-26-regular-season/teams/acema-sparta-praha-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 27
-boxplay: 25
-boxplay_efficiency: 76.0
+boxplay: 26
+boxplay_efficiency: 69.23
 boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 0.96
+boxplay_per_game: 1.0
 boxplay_second_period: 14
-boxplay_third_period: 8
+boxplay_third_period: 9
 close_game_loss: 4
 close_game_overtime: 1
 close_game_win: 6
@@ -28,7 +28,7 @@ goals: 194
 goals_against: 122
 goals_against_away: 55
 goals_against_home: 67
-goals_against_in_boxplay: 6
+goals_against_in_boxplay: 8
 goals_against_in_powerplay: 2
 goals_against_per_game: 4.69
 goals_away: 95
@@ -40,7 +40,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 16
+goals_in_powerplay: 19
 goals_in_second_period: 60
 goals_in_second_period_against: 40
 goals_in_third_period: 68
@@ -83,13 +83,13 @@ Tags:  1. SC NATIOS Vítkovice: 5,  BA SOKOLI Pardubice: 6,  ESA logistika Tatra
 points_max_difference_2: 17
 points_more_2_difference: 39
 points_per_game: 2.15
-powerplay: 34
-powerplay_efficiency: 47.06
+powerplay: 36
+powerplay_efficiency: 52.78
 powerplay_first_period: 9
 powerplay_overtime: 0
-powerplay_per_game: 1.31
+powerplay_per_game: 1.38
 powerplay_second_period: 10
-powerplay_third_period: 15
+powerplay_third_period: 17
 rank: 4
 scoring_ratio: 1.59
 take_the_lead_goals: 30

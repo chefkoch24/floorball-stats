@@ -1,7 +1,7 @@
 Date: 2026-02-01
 Title: 1571898-jonkopings-ik-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571898-jonkopings-ik-vs-visby-ibk
+Slug: 1571898-jonkopings-ik-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571898
 home_team: Jönköpings IK

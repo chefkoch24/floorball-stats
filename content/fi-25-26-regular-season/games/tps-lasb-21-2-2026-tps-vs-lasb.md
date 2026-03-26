@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: tps-lasb-21-2-2026-tps-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: tps-lasb-21-2-2026-tps-vs-lasb
+Slug: tps-lasb-21-2-2026-tps-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: tps-lasb-21-2-2026
 home_team: TPS

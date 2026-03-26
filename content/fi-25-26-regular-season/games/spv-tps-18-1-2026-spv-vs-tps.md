@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: spv-tps-18-1-2026-spv-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: spv-tps-18-1-2026-spv-vs-tps
+Slug: spv-tps-18-1-2026-spv-vs-tps-fi-25-26-regular-season
 type: game
 game_id: spv-tps-18-1-2026
 home_team: SPV

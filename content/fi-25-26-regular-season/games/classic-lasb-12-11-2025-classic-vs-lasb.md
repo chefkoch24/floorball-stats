@@ -1,7 +1,7 @@
 Date: 2025-11-12
 Title: classic-lasb-12-11-2025-classic-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: classic-lasb-12-11-2025-classic-vs-lasb
+Slug: classic-lasb-12-11-2025-classic-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: classic-lasb-12-11-2025
 home_team: Classic

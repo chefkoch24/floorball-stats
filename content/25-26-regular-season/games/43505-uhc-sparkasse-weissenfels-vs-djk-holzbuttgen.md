@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 43505-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43505-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen
+Slug: 43505-uhc-sparkasse-weissenfels-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43505
 home_team: UHC Sparkasse Weißenfels

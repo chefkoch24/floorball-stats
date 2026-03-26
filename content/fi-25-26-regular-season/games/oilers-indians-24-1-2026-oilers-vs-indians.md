@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: oilers-indians-24-1-2026-oilers-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: oilers-indians-24-1-2026-oilers-vs-indians
+Slug: oilers-indians-24-1-2026-oilers-vs-indians-fi-25-26-regular-season
 type: game
 game_id: oilers-indians-24-1-2026
 home_team: Oilers

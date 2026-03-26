@@ -6,13 +6,13 @@ type: team
 team:BA SOKOLI Pardubice
 platzierungsverlauf:cz-25-26-playoffs/teams/ba-sokoli-pardubice-cz-25-26-playoffs_platzierungsverlauf.png
 away_points: 3
-boxplay: 4
-boxplay_efficiency: 75.0
+boxplay: 5
+boxplay_efficiency: 80.0
 boxplay_first_period: 0
 boxplay_overtime: 0
-boxplay_per_game: 1.0
+boxplay_per_game: 1.25
 boxplay_second_period: 3
-boxplay_third_period: 1
+boxplay_third_period: 2
 close_game_loss: 0
 close_game_overtime: 1
 close_game_win: 1

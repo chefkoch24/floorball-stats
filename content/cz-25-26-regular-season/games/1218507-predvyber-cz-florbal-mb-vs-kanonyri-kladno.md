@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 1218507-predvyber-cz-florbal-mb-vs-kanonyri-kladno
 Category: cz-25-26-regular-season, game
-Slug: 1218507-predvyber-cz-florbal-mb-vs-kanonyri-kladno
+Slug: 1218507-predvyber-cz-florbal-mb-vs-kanonyri-kladno-cz-25-26-regular-season
 type: game
 game_id: 1218507
 home_team: Předvýběr.CZ Florbal MB

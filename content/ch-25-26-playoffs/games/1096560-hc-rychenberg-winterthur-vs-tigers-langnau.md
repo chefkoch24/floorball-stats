@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: 1096560-hc-rychenberg-winterthur-vs-tigers-langnau
 Category: ch-25-26-playoffs, game
-Slug: 1096560-hc-rychenberg-winterthur-vs-tigers-langnau
+Slug: 1096560-hc-rychenberg-winterthur-vs-tigers-langnau-ch-25-26-playoffs
 type: game
 game_id: 1096560
 home_team: HC Rychenberg Winterthur

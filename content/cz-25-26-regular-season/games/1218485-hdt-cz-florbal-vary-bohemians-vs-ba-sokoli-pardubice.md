@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: 1218485-hdt-cz-florbal-vary-bohemians-vs-ba-sokoli-pardubice
 Category: cz-25-26-regular-season, game
-Slug: 1218485-hdt-cz-florbal-vary-bohemians-vs-ba-sokoli-pardubice
+Slug: 1218485-hdt-cz-florbal-vary-bohemians-vs-ba-sokoli-pardubice-cz-25-26-regular-season
 type: game
 game_id: 1218485
 home_team: HDT.cz Florbal Vary Bohemians
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_ba_sokoli_pardubice: 3
 home_points_max_difference_2: 3
 home_points_more_2_difference: 0
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 3
 home_win_1: 1
 home_wins: 1
 away_away_points: 0
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 1
 away_close_game_overtime: 0
 away_close_game_win: 0

@@ -1,7 +1,7 @@
 Date: 2026-02-22
 Title: hawks-oilers-22-2-2026-hawks-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: hawks-oilers-22-2-2026-hawks-vs-oilers
+Slug: hawks-oilers-22-2-2026-hawks-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: hawks-oilers-22-2-2026
 home_team: Hawks

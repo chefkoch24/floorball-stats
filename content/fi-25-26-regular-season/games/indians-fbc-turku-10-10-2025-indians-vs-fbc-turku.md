@@ -1,7 +1,7 @@
 Date: 2025-10-10
 Title: indians-fbc-turku-10-10-2025-indians-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: indians-fbc-turku-10-10-2025-indians-vs-fbc-turku
+Slug: indians-fbc-turku-10-10-2025-indians-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: indians-fbc-turku-10-10-2025
 home_team: Indians

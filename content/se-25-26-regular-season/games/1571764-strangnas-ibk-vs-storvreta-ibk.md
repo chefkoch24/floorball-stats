@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1571764-strangnas-ibk-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571764-strangnas-ibk-vs-storvreta-ibk
+Slug: 1571764-strangnas-ibk-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571764
 home_team: Strängnäs IBK

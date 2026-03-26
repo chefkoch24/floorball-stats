@@ -1,7 +1,7 @@
 Date: 2026-03-19
 Title: 1096564-hc-rychenberg-winterthur-vs-tigers-langnau
 Category: ch-25-26-playoffs, game
-Slug: 1096564-hc-rychenberg-winterthur-vs-tigers-langnau
+Slug: 1096564-hc-rychenberg-winterthur-vs-tigers-langnau-ch-25-26-playoffs
 type: game
 game_id: 1096564
 home_team: HC Rychenberg Winterthur
@@ -53,7 +53,7 @@ home_goals_against: 5
 home_goals_against_away: 0
 home_goals_against_home: 5
 home_goals_against_in_boxplay: 0
-home_goals_against_in_powerplay: 5
+home_goals_against_in_powerplay: 0
 home_goals_away: 0
 home_goals_home: 9
 home_goals_in_boxplay: 0
@@ -63,7 +63,7 @@ home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 6
+home_goals_in_powerplay: 3
 home_goals_in_second_period: 2
 home_goals_in_second_period_against: 2
 home_goals_in_third_period: 5
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_tigers_langnau: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 6
-home_powerplay_efficiency: 100.0
+home_powerplay: 5
+home_powerplay_efficiency: 60.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 3
-home_powerplay_third_period: 3
+home_powerplay_third_period: 2
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 6
-away_boxplay_efficiency: 0.0
+away_boxplay: 5
+away_boxplay_efficiency: 40.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 3
-away_boxplay_third_period: 3
+away_boxplay_third_period: 2
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
@@ -127,11 +127,11 @@ away_goals: 5
 away_goals_against: 9
 away_goals_against_away: 9
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 6
+away_goals_against_in_boxplay: 3
 away_goals_against_in_powerplay: 0
 away_goals_away: 5
 away_goals_home: 0
-away_goals_in_boxplay: 5
+away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
 away_goals_in_first_period_against: 2
 away_goals_in_overtime: 0

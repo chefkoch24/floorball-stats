@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 131920-tsunami-zahorska-bystrica-vs-snipers-bratislava
 Category: sk-25-26-playoffs, game
-Slug: 131920-tsunami-zahorska-bystrica-vs-snipers-bratislava
+Slug: 131920-tsunami-zahorska-bystrica-vs-snipers-bratislava-sk-25-26-playoffs
 type: game
 game_id: 131920
 home_team: Tsunami Záhorská Bystrica
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,0,1,2,3,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,38.12,41.27,45.37,50.17,53.3,54.93
 home_away_points: 0
-home_boxplay: 3
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 1
+home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_tsunami_zahorska_bystrica: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 3
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 1
+away_powerplay_third_period: 0
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 1
 away_win_1: 0
