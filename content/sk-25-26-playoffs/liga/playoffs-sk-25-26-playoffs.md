@@ -80,7 +80,7 @@ points_after_second_period: 8.12
 points_after_third_period: 7.88
 points_max_difference_2: 3.62
 points_more_2_difference: 4.88
-points_per_game: 1.68
+points_per_game: 1.67
 powerplay: 10.75
 powerplay_efficiency: 34.95
 powerplay_first_period: 2.25

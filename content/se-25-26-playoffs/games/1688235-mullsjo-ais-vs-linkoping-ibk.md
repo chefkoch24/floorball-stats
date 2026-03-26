@@ -6,56 +6,56 @@ type: game
 game_id: 1688235
 home_team: Mullsjö AIS
 away_team: Linköping IBK
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 1029.0
+away_goal_diffs_csv: -1,-2,-3
+away_goal_minutes_csv: 26.27,36.37,43.42
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: 1
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMDY6MTYiLCJwZXJpb2QiOjIsInRlYW0iOiJMaW5rw7ZwaW5nIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTWVsa2VyIEhlbW1pbmdiZXJnIiwiYXNzaXN0IjoiS2ltIFZhcmdhIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTY6MjIiLCJwZXJpb2QiOjIsInRlYW0iOiJMaW5rw7ZwaW5nIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTHVrYXMgUHVuY29jaGFyIiwiYXNzaXN0IjoiT3NrYXIgU2V0aCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjQwOjAwIiwicGVyaW9kIjoyLCJ0ZWFtIjpudWxsLCJzaWRlIjoiYnJlYWsiLCJzY29yZSI6bnVsbCwiZXZlbnRfa2luZCI6ImJyZWFrIiwidGl0bGUiOiJFbmQgMm5kIHBlcmlvZCIsImFzc2lzdCI6bnVsbCwidGFnIjpudWxsfSx7Im1pbnV0ZSI6IjAzOjI1IiwicGVyaW9kIjozLCJ0ZWFtIjoiTGlua8O2cGluZyBJQksiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlNpbW9uIFBhbG3DqW4iLCJhc3Npc3QiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEwOjAyIiwicGVyaW9kIjozLCJ0ZWFtIjoiTXVsbHNqw7YgQUlTIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjA6MyIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjoiVGltIEFuZGVyc3NvbiBDYXJsc3NvbiIsInRhZyI6InBlbmFsdHlfMiJ9LHsibWludXRlIjoiMTc6NTgiLCJwZXJpb2QiOjMsInRlYW0iOiJNdWxsc2rDtiBBSVMiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlBlbGxlIFRhcmVuaXVzIiwiYXNzaXN0IjoiU2ViYXN0aWFuIFBhbG1xdmlzdCIsInRhZyI6ImdvYWwifV0=
+game_events_count: 6
+game_state: played
+game_status: 4
+home_goal_diffs_csv: -2
+home_goal_minutes_csv: 57.97
 home_major_penalty_minutes_csv: 
-home_penalty_ends_csv: 
-home_penalty_goals_csv: 
-home_penalty_minutes_csv: 
+home_penalty_ends_csv: 52.03
+home_penalty_goals_csv: 0
+home_penalty_minutes_csv: 50.03
 ingame_status: None
-result_string: None
+result_string: 1-4
 start_time: 18:00:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,3,3
+timeline_diffs_csv: 0,-1,-2,-3,-2
+timeline_home_goals_csv: 0,0,0,0,1
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,26.27,36.37,43.42,57.97
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
-home_close_game_loss: 0
+home_boxplay_third_period: 1
+home_close_game_loss: 1
 home_close_game_overtime: 0
 home_close_game_win: 0
 home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -3
+home_goals: 1
+home_goals_against: 4
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 1
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
 home_goals_in_first_period_against: 0
@@ -65,17 +65,17 @@ home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
+home_goals_in_second_period_against: 2
+home_goals_in_third_period: 1
+home_goals_in_third_period_against: 1
 home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
-home_penalties: 0
+home_penalties: 1
 home_penalty_10: 0
-home_penalty_2: 0
+home_penalty_2: 1
 home_penalty_2and2: 0
 home_penalty_first_period: 0
 home_penalty_ms: 0
@@ -85,7 +85,7 @@ home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
-home_penalty_third_period: 0
+home_penalty_third_period: 1
 home_points: 0
 home_points_after_55_min: 0
 home_points_after_58_min: 0
@@ -93,6 +93,7 @@ home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 0
+home_points_against_linkoping_ibk: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 0
@@ -102,10 +103,10 @@ home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 0
+away_away_points: 3
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -114,21 +115,21 @@ away_boxplay_second_period: 0
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
-away_close_game_win: 0
+away_close_game_win: 1
 away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: 3
+away_goals: 4
+away_goals_against: 1
+away_goals_against_away: 1
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
@@ -138,10 +139,10 @@ away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
+away_goals_in_second_period: 2
 away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period: 1
+away_goals_in_third_period_against: 1
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
@@ -160,22 +161,23 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 0
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
 away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
-away_points_max_difference_2: 0
+away_points_after_second_period: 3
+away_points_after_third_period: 3
+away_points_against_mullsjo_ais: 3
+away_points_max_difference_2: 3
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
+away_powerplay_third_period: 1
+away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0
-away_wins: 0
+away_wins: 1

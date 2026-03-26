@@ -6,31 +6,31 @@ type: game
 game_id: 1688221
 home_team: Nykvarns IBF
 away_team: Storvreta IBK
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 477.0
+away_goal_diffs_csv: 0,-1,-2,-2,-3,-4,-5,-6,-7,-7,-8,-9
+away_goal_minutes_csv: 4.82,12.03,15.35,20.45,20.87,23.52,27.65,28.45,29.7,37.52,44.98,58.25
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: 1
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMDM6NDYiLCJwZXJpb2QiOjEsInRlYW0iOiJOeWt2YXJucyBJQkYiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikx1Y2FzIFJpZ29naWFubmlzIiwiYXNzaXN0IjoiSGFtcHVzIEFocsOpbiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA0OjQ5IiwicGVyaW9kIjoxLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIxOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiU2FrYXJpYXMgVWxyaWtzc29uIiwiYXNzaXN0IjoiUGFzY2FsIFNjaG11a2kiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxMjowMiIsInBlcmlvZCI6MSwidGVhbSI6IlN0b3J2cmV0YSBJQksiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMToyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik90dG8gV2VpZG1hbiIsImFzc2lzdCI6IlNpbW9uIEfDtnR6IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTU6MjEiLCJwZXJpb2QiOjEsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjE6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJPdHRvIFdlaWRtYW4iLCJhc3Npc3QiOiJGaWxpcCBMYW5nZXIiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxODowMSIsInBlcmlvZCI6MSwidGVhbSI6Ik55a3Zhcm5zIElCRiIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjMiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiR3VzdGF2IEhhbnNlbiIsImFzc2lzdCI6IlNpbW9uIFdlc3Rnw6RyZHMiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDoyNyIsInBlcmlvZCI6MiwidGVhbSI6IlN0b3J2cmV0YSBJQksiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMjo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik90dG8gV2VpZG1hbiIsImFzc2lzdCI6IkZpbGlwIExhbmdlciIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjAwOjUyIiwicGVyaW9kIjoyLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjUiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiU2FrYXJpYXMgVWxyaWtzc29uIiwiYXNzaXN0IjoiR2FicmllbCBLb2hvbmVuIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDM6MzEiLCJwZXJpb2QiOjIsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6NiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJGaWxpcCBMYW5nZXIiLCJhc3Npc3QiOiJPbmRyZWogTmVtZWNlayIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA3OjM5IiwicGVyaW9kIjoyLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjciLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRmlsaXAgQmrDtnJrIiwiYXNzaXN0IjoiU2FrYXJpYXMgVWxyaWtzc29uIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDg6MjciLCJwZXJpb2QiOjIsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6OCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJGaWxpcCBMYW5nZXIiLCJhc3Npc3QiOiJPbmRyZWogTmVtZWNlayIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA5OjQyIiwicGVyaW9kIjoyLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjkiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiR2FicmllbCBLb2hvbmVuIiwiYXNzaXN0IjoiU2FrYXJpYXMgVWxyaWtzc29uIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTE6MDgiLCJwZXJpb2QiOjIsInRlYW0iOiJOeWt2YXJucyBJQkYiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMzo5IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlNlYmFzdGlhbiBUaG9yYmVyZyIsImFzc2lzdCI6Ik9zY2FyIEZvbmRlbGl1cyIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE3OjMxIiwicGVyaW9kIjoyLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIzOjEwIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik90dG8gV2VpZG1hbiIsImFzc2lzdCI6IkZpbGlwIEVyaWtzc29uIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDQ6NTkiLCJwZXJpb2QiOjMsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjM6MTEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiT3R0byBXZWlkbWFuIiwiYXNzaXN0IjoiRmlsaXAgRXJpa3Nzb24iLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxODoxNSIsInBlcmlvZCI6MywidGVhbSI6IlN0b3J2cmV0YSBJQksiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzoxMyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJPdHRvIFdlaWRtYW4iLCJhc3Npc3QiOm51bGwsInRhZyI6InBlbmFsdHlfc2hvdCJ9XQ==
+game_events_count: 17
+game_state: played
+game_status: 4
+home_goal_diffs_csv: 1,-1,-6
+home_goal_minutes_csv: 3.77,18.02,31.13
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
 ingame_status: None
-result_string: None
+result_string: 3-13
 start_time: 19:00:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,0,1,2,3,3,4,5,6,7,8,9,9,10,11,12
+timeline_diffs_csv: 0,1,0,-1,-2,-1,-2,-3,-4,-5,-6,-7,-6,-7,-8,-9
+timeline_home_goals_csv: 0,1,1,1,1,2,2,2,2,2,2,2,3,3,3,3
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,3.77,4.82,12.03,15.35,18.02,20.45,20.87,23.52,27.65,28.45,29.7,31.13,37.52,44.98,58.25
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -43,34 +43,34 @@ home_close_game_overtime: 0
 home_close_game_win: 0
 home_draws: 0
 home_equalizer_goals: 0
-home_equalizer_goals_against: 0
-home_first_goal_of_match: 0
+home_equalizer_goals_against: 1
+home_first_goal_of_match: 1
 home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_games: 1
+home_goal_difference: -10
+home_goals: 3
+home_goals_against: 13
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 13
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 3
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period: 2
+home_goals_in_first_period_against: 3
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
+home_goals_in_second_period: 1
+home_goals_in_second_period_against: 7
 home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
+home_goals_in_third_period_against: 2
 home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
 home_penalties: 0
@@ -84,7 +84,7 @@ home_penalty_second_period: 0
 home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
-home_penalty_shot_goals_against: 0
+home_penalty_shot_goals_against: 1
 home_penalty_third_period: 0
 home_points: 0
 home_points_after_55_min: 0
@@ -93,6 +93,7 @@ home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 0
+home_points_against_storvreta_ibk: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 0
@@ -101,11 +102,11 @@ home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals: 1
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 0
+away_away_points: 3
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -116,31 +117,31 @@ away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
 away_draws: 0
-away_equalizer_goals: 0
+away_equalizer_goals: 1
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
-away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_first_goal_of_match_against: 1
+away_games: 1
+away_goal_difference: 10
+away_goals: 13
+away_goals_against: 3
+away_goals_against_away: 3
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 13
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period: 3
+away_goals_in_first_period_against: 2
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
+away_goals_in_second_period: 7
+away_goals_in_second_period_against: 1
+away_goals_in_third_period: 2
 away_goals_in_third_period_against: 0
 away_home_points: 0
 away_loss_1: 0
@@ -157,25 +158,26 @@ away_penalty_overtime: 0
 away_penalty_second_period: 0
 away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
-away_penalty_shot_goals: 0
+away_penalty_shot_goals: 1
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 0
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
+away_points_after_first_period: 3
+away_points_after_second_period: 3
+away_points_after_third_period: 3
+away_points_against_nykvarns_ibf: 3
 away_points_max_difference_2: 0
-away_points_more_2_difference: 0
+away_points_more_2_difference: 3
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals: 1
+away_take_the_lead_goals_against: 1
 away_win_1: 0
-away_wins: 0
+away_wins: 1
