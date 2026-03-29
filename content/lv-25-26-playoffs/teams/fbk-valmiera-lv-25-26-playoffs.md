@@ -1,4 +1,4 @@
-Date: 2026-03-28
+Date: 2026-03-29
 Title: FBK Valmiera
 Category: lv-25-26-playoffs, teams
 Slug: fbk-valmiera-lv-25-26-playoffs-lv-25-26-playoffs

@@ -1,4 +1,4 @@
-Date: 2026-03-28
+Date: 2026-03-29
 Title: FBK SĀC
 Category: lv-25-26-playoffs, teams
 Slug: fbk-sac-lv-25-26-playoffs-lv-25-26-playoffs
