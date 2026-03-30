@@ -1,4 +1,4 @@
-Date: 2026-03-25
+Date: 2026-03-29
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-playoffs, teams
 Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-playoffs-cz-25-26-playoffs
@@ -90,7 +90,7 @@ powerplay_overtime: 0
 powerplay_per_game: 0.5
 powerplay_second_period: 0
 powerplay_third_period: 1
-rank: 9
+rank: 10
 scoring_ratio: 0.46
 take_the_lead_goals: 2
 take_the_lead_goals_against: 2

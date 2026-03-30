@@ -1,4 +1,4 @@
-Date: 2026-03-25
+Date: 2026-03-29
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-playoffs, teams
 Slug: fbc-4clean-ceska-lipa-cz-25-26-playoffs-cz-25-26-playoffs
@@ -90,7 +90,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.33
 powerplay_second_period: 2
 powerplay_third_period: 1
-rank: 7
+rank: 8
 scoring_ratio: 0.86
 take_the_lead_goals: 2
 take_the_lead_goals_against: 7
