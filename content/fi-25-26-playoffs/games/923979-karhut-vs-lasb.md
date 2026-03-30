@@ -1,11 +1,11 @@
-Date: 2026-04-03
-Title: 1688231-ibf-falun-vs-pixbo-ibk
-Category: se-25-26-playoffs, game
-Slug: 1688231-ibf-falun-vs-pixbo-ibk-se-25-26-playoffs
+Date: 2026-04-04
+Title: 923979-karhut-vs-lasb
+Category: fi-25-26-playoffs, game
+Slug: 923979-karhut-vs-lasb-fi-25-26-playoffs
 type: game
-game_id: 1688231
-home_team: IBF Falun
-away_team: Pixbo IBK
+game_id: 923979
+home_team: Karhut
+away_team: LASB
 attendance: None
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
@@ -16,7 +16,7 @@ away_penalty_minutes_csv:
 game_events_b64: 
 game_events_count: 0
 game_state: scheduled
-game_status: 1
+game_status: Scheduled
 home_goal_diffs_csv: 
 home_goal_minutes_csv: 
 home_major_penalty_minutes_csv: 
@@ -25,7 +25,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: None
 result_string: None
-start_time: 18:30:00
+start_time: 16:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

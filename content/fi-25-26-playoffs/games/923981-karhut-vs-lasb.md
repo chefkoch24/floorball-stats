@@ -1,11 +1,11 @@
-Date: 2026-04-02
-Title: 922431-classic-vs-tps
+Date: 2026-04-09
+Title: 923981-karhut-vs-lasb
 Category: fi-25-26-playoffs, game
-Slug: 922431-classic-vs-tps-fi-25-26-playoffs
+Slug: 923981-karhut-vs-lasb-fi-25-26-playoffs
 type: game
-game_id: 922431
-home_team: Classic
-away_team: TPS
+game_id: 923981
+home_team: Karhut
+away_team: LASB
 attendance: None
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
