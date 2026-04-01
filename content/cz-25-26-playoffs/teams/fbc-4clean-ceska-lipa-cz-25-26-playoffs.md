@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-31
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-playoffs, teams
 Slug: fbc-4clean-ceska-lipa-cz-25-26-playoffs-cz-25-26-playoffs

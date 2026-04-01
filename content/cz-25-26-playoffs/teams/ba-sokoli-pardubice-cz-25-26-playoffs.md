@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-31
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-playoffs, teams
 Slug: ba-sokoli-pardubice-cz-25-26-playoffs-cz-25-26-playoffs
@@ -90,7 +90,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.5
 powerplay_second_period: 5
 powerplay_third_period: 3
-rank: 6
+rank: 7
 scoring_ratio: 0.69
 take_the_lead_goals: 3
 take_the_lead_goals_against: 12

@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-31
 Title: Kanonýři Kladno
 Category: cz-25-26-playoffs, teams
 Slug: kanonyri-kladno-cz-25-26-playoffs-cz-25-26-playoffs
@@ -90,7 +90,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.71
 powerplay_second_period: 2
 powerplay_third_period: 6
-rank: 5
+rank: 6
 scoring_ratio: 0.56
 take_the_lead_goals: 7
 take_the_lead_goals_against: 6

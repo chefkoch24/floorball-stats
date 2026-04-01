@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-31
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-playoffs, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-playoffs-cz-25-26-playoffs

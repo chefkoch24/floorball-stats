@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-03-31
 Title: Předvýběr.CZ Florbal MB
 Category: cz-25-26-playoffs, teams
 Slug: predvyber-cz-florbal-mb-cz-25-26-playoffs-cz-25-26-playoffs
