@@ -1,12 +1,12 @@
-Date: 2026-04-01
-Title: 923978-lasb-vs-karhut
-Category: fi-25-26-playoffs, game
-Slug: 923978-lasb-vs-karhut-fi-25-26-playoffs
+Date: 2026-04-06
+Title: 1096863-hc-rychenberg-winterthur-vs-sv-wiler-ersigen
+Category: ch-25-26-playoffs, game
+Slug: 1096863-hc-rychenberg-winterthur-vs-sv-wiler-ersigen-ch-25-26-playoffs
 type: game
-game_id: 923978
-home_team: LASB
-away_team: Karhut
-attendance: None
+game_id: 1096863
+home_team: HC Rychenberg Winterthur
+away_team: SV Wiler-Ersigen
+attendance: 0
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
 away_major_penalty_minutes_csv: 
@@ -25,7 +25,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: None
 result_string: None
-start_time: 19:00
+start_time: 17:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

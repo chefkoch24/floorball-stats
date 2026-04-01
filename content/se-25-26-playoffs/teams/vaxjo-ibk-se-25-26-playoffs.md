@@ -1,4 +1,4 @@
-Date: 2026-04-03
+Date: 2026-04-01
 Title: Växjö IBK
 Category: se-25-26-playoffs, teams
 Slug: vaxjo-ibk-se-25-26-playoffs-se-25-26-playoffs

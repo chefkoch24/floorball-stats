@@ -1,11 +1,11 @@
-Date: 2026-04-03
-Title: 1688238-linkoping-ibk-vs-mullsjo-ais
-Category: se-25-26-playoffs, game
-Slug: 1688238-linkoping-ibk-vs-mullsjo-ais-se-25-26-playoffs
+Date: 2026-04-05
+Title: 131953-1-fbc-trencin-vs-sk-lido-prirodovedec-bratislava
+Category: sk-25-26-playoffs, game
+Slug: 131953-1-fbc-trencin-vs-sk-lido-prirodovedec-bratislava-sk-25-26-playoffs
 type: game
-game_id: 1688238
-home_team: Linköping IBK
-away_team: Mullsjö AIS
+game_id: 131953
+home_team: 1. FBC Trenčín
+away_team: ŠK Lido Prírodovedec Bratislava
 attendance: None
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
@@ -16,7 +16,7 @@ away_penalty_minutes_csv:
 game_events_b64: 
 game_events_count: 0
 game_state: scheduled
-game_status: 1
+game_status: Scheduled
 home_goal_diffs_csv: 
 home_goal_minutes_csv: 
 home_major_penalty_minutes_csv: 
@@ -25,7 +25,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: None
 result_string: None
-start_time: 15:00:00
+start_time: 0:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
