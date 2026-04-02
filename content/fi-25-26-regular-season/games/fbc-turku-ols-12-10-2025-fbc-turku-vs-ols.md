@@ -1,12 +1,12 @@
 Date: 2025-10-12
 Title: fbc-turku-ols-12-10-2025-fbc-turku-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-ols-12-10-2025-fbc-turku-vs-ols
+Slug: fbc-turku-ols-12-10-2025-fbc-turku-vs-ols-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-ols-12-10-2025
 home_team: FBC Turku
 away_team: OLS
-attendance: 378.0
+attendance: 378
 away_goal_diffs_csv: 1,0,0,0
 away_goal_minutes_csv: 19.92,21.67,51.97,56.88
 away_major_penalty_minutes_csv: 
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,1,2,2,2,3,3,4,4,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,8.62,15.85,19.92,21.67,34.65,51.97,54.3,56.88,65.0
 home_away_points: 0
-home_boxplay: 2
+home_boxplay: 3
 home_boxplay_efficiency: 0.0
-home_boxplay_first_period: 0
+home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 2
@@ -171,9 +171,9 @@ away_points_after_third_period: 1
 away_points_against_fbc_turku: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 2
+away_powerplay: 3
 away_powerplay_efficiency: 100.0
-away_powerplay_first_period: 0
+away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 2

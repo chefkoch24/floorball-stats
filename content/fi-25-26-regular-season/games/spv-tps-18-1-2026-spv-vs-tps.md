@@ -1,12 +1,12 @@
 Date: 2026-01-18
 Title: spv-tps-18-1-2026-spv-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: spv-tps-18-1-2026-spv-vs-tps
+Slug: spv-tps-18-1-2026-spv-vs-tps-fi-25-26-regular-season
 type: game
 game_id: spv-tps-18-1-2026
 home_team: SPV
 away_team: TPS
-attendance: 723.0
+attendance: 723
 away_goal_diffs_csv: -1,1,2
 away_goal_minutes_csv: 1.27,17.77,38.22
 away_major_penalty_minutes_csv: 

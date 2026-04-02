@@ -1,7 +1,7 @@
 Date: 2025-12-04
 Title: 1571842-fbc-kalmarsund-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571842-fbc-kalmarsund-vs-mullsjo-ais
+Slug: 1571842-fbc-kalmarsund-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571842
 home_team: FBC Kalmarsund

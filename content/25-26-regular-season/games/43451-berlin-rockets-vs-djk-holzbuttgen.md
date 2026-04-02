@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 43451-berlin-rockets-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43451-berlin-rockets-vs-djk-holzbuttgen
+Slug: 43451-berlin-rockets-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43451
 home_team: Berlin Rockets
@@ -77,12 +77,12 @@ timeline_home_goals_csv: 0,1,1,2,3,3,3,3,4,5,5,5,5,5,5,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.58,8.42,8.95,10.22,10.9,12.25,18.78,21.13,33.97,34.7,39.68,45.97,53.72,57.02,57.1
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 2
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -323,12 +323,12 @@ away_points_after_third_period: 3
 away_points_against_berlin_rockets: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 2
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 3
 away_win_1: 0

@@ -1,12 +1,12 @@
 Date: 2025-11-28
 Title: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians
+Slug: fbc-turku-indians-28-11-2025-fbc-turku-vs-indians-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-indians-28-11-2025
 home_team: FBC Turku
 away_team: Indians
-attendance: 635.0
+attendance: 635
 away_goal_diffs_csv: -1,-2,-3,-3,-4
 away_goal_minutes_csv: 9.37,14.93,20.5,25.58,47.65
 away_major_penalty_minutes_csv: 

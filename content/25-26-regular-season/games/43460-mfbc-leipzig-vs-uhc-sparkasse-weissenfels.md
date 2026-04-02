@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 43460-mfbc-leipzig-vs-uhc-sparkasse-weissenfels
 Category: 25-26-regular-season, game
-Slug: 43460-mfbc-leipzig-vs-uhc-sparkasse-weissenfels
+Slug: 43460-mfbc-leipzig-vs-uhc-sparkasse-weissenfels-25-26-regular-season
 type: game
 game_id: 43460
 home_team: MFBC Leipzig

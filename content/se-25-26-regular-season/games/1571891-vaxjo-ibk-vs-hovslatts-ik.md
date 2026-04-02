@@ -1,7 +1,7 @@
 Date: 2026-01-28
 Title: 1571891-vaxjo-ibk-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571891-vaxjo-ibk-vs-hovslatts-ik
+Slug: 1571891-vaxjo-ibk-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571891
 home_team: Växjö IBK

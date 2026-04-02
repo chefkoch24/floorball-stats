@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1571803-nykvarns-ibf-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571803-nykvarns-ibf-vs-warberg-ic
+Slug: 1571803-nykvarns-ibf-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571803
 home_team: Nykvarns IBF

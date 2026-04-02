@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 1571880-strangnas-ibk-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571880-strangnas-ibk-vs-linkoping-ibk
+Slug: 1571880-strangnas-ibk-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571880
 home_team: Strängnäs IBK

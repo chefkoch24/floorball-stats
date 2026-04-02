@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 43533-unihockey-igels-dresden-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43533-unihockey-igels-dresden-vs-sc-dhfk-leipzig
+Slug: 43533-unihockey-igels-dresden-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43533
 home_team: Unihockey Igels Dresden
@@ -77,11 +77,11 @@ timeline_home_goals_csv: 0,1,2,2,3,3,3,4,4,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,8.15,11.77,18.42,22.63,23.43,25.55,34.73,36.18,48.18,59.83
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 1
@@ -323,11 +323,11 @@ away_points_after_third_period: 1
 away_points_against_unihockey_igels_dresden: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 3

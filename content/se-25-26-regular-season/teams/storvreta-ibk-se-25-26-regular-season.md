@@ -6,11 +6,11 @@ type: team
 team:Storvreta IBK
 platzierungsverlauf:se-25-26-regular-season/teams/storvreta-ibk-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 32
-boxplay: 31
-boxplay_efficiency: 67.74000000000001
-boxplay_first_period: 9
+boxplay: 32
+boxplay_efficiency: 68.75
+boxplay_first_period: 10
 boxplay_overtime: 2
-boxplay_per_game: 1.19
+boxplay_per_game: 1.23
 boxplay_second_period: 11
 boxplay_third_period: 9
 close_game_loss: 3
@@ -83,13 +83,13 @@ Tags:  AIK IBF: 4,  FBC Kalmarsund: 5,  Hovslätts IK: 5,  IBF Falun: 5,  Jönk�
 points_max_difference_2: 17
 points_more_2_difference: 51
 points_per_game: 2.62
-powerplay: 21
-powerplay_efficiency: 76.19
-powerplay_first_period: 3
+powerplay: 24
+powerplay_efficiency: 66.67
+powerplay_first_period: 4
 powerplay_overtime: 0
-powerplay_per_game: 0.81
-powerplay_second_period: 6
-powerplay_third_period: 12
+powerplay_per_game: 0.92
+powerplay_second_period: 7
+powerplay_third_period: 13
 rank: 1
 scoring_ratio: 2.46
 take_the_lead_goals: 42

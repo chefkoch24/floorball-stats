@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1571811-pixbo-ibk-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571811-pixbo-ibk-vs-strangnas-ibk
+Slug: 1571811-pixbo-ibk-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571811
 home_team: Pixbo IBK

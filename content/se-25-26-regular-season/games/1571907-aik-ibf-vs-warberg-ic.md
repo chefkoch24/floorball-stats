@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1571907-aik-ibf-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571907-aik-ibf-vs-warberg-ic
+Slug: 1571907-aik-ibf-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571907
 home_team: AIK IBF

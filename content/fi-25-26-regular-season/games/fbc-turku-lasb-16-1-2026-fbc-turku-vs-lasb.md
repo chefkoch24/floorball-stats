@@ -1,12 +1,12 @@
 Date: 2026-01-16
 Title: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb
+Slug: fbc-turku-lasb-16-1-2026-fbc-turku-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-lasb-16-1-2026
 home_team: FBC Turku
 away_team: LASB
-attendance: 397.0
+attendance: 397
 away_goal_diffs_csv: -1,-2,-3
 away_goal_minutes_csv: 36.63,47.07,57.33
 away_major_penalty_minutes_csv: 

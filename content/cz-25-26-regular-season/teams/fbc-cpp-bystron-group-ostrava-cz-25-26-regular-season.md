@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-31
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-regular-season, teams
 Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season
@@ -6,21 +6,26 @@ type: team
 team:FBC ČPP Bystroň Group OSTRAVA
 platzierungsverlauf:cz-25-26-regular-season/teams/fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 10
-boxplay: 29
-boxplay_efficiency: 68.97
+boxplay: 31
+boxplay_efficiency: 67.74000000000001
 boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 1.12
-boxplay_second_period: 10
-boxplay_third_period: 11
-close_game_loss: 3
-close_game_overtime: 1
-close_game_win: 3
-draws: 4
+boxplay_per_game: 1.19
+boxplay_second_period: 11
+boxplay_third_period: 12
+close_game_loss: 5
+close_game_overtime: 5
+close_game_points_per_game: 0.93
+close_game_points_share: 31.11
+close_game_win: 5
+close_games: 15
+draws: 0
 equalizer_goals: 16
 equalizer_goals_against: 18
 first_goal_of_match: 11
 first_goal_of_match_against: 15
+first_period_goals_against_per_game: 1.73
+first_period_goals_per_game: 1.12
 games: 26
 goal_difference: -56
 goal_difference_per_game: -2.15
@@ -28,8 +33,9 @@ goals: 108
 goals_against: 164
 goals_against_away: 86
 goals_against_home: 78
-goals_against_in_boxplay: 9
-goals_against_in_powerplay: 3
+goals_against_in_boxplay: 10
+goals_against_in_boxplay_per_game: 0.38
+goals_against_in_powerplay: 2
 goals_against_per_game: 6.31
 goals_away: 58
 goals_home: 50
@@ -40,18 +46,19 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 2
 goals_in_penalty_shootout_against: 2
-goals_in_powerplay: 7
+goals_in_powerplay: 9
 goals_in_second_period: 36
 goals_in_second_period_against: 50
 goals_in_third_period: 40
 goals_in_third_period_against: 67
 goals_per_game: 4.15
-home_points: 17
-loss_1: 1
+home_points: 19
+loss_1: 3
 losses: 14
 over_time_losses: 0
 over_time_wins: 1
 penalties: 33
+penalties_per_game: 1.27
 penalty_10: 0
 penalty_2: 33
 penalty_2and2: 0
@@ -59,8 +66,8 @@ penalty_first_period: 8
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 11
-penalty_shootout_losses: 0
-penalty_shootout_wins: 0
+penalty_shootout_losses: 2
+penalty_shootout_wins: 2
 penalty_shot_goals: 3
 penalty_shot_goals_against: 4
 penalty_third_period: 14
@@ -72,19 +79,20 @@ percent_goals_second_period: 33.33
 percent_goals_second_period_against: 30.490000000000002
 percent_goals_third_period: 37.04
 percent_goals_third_period_against: 40.849999999999994
-points: 27
+points: 29
 points_after_55_min: 24
 points_after_58_min: 22
 points_after_59_min: 24
 points_after_first_period: 21
+points_after_first_period_per_game: 0.81
 points_after_second_period: 27
 points_after_third_period: 17
-Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 1,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 2,  FBC 4CLEAN Česká Lípa: 2,  FBC Liberec: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 1,
-points_max_difference_2: 12
+Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 2,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 2,  FBC 4CLEAN Česká Lípa: 3,  FBC Liberec: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 1,
+points_max_difference_2: 14
 points_more_2_difference: 15
-points_per_game: 1.04
+points_per_game: 1.12
 powerplay: 39
-powerplay_efficiency: 17.95
+powerplay_efficiency: 23.080000000000002
 powerplay_first_period: 8
 powerplay_overtime: 1
 powerplay_per_game: 1.5
@@ -94,5 +102,5 @@ rank: 9
 scoring_ratio: 0.66
 take_the_lead_goals: 26
 take_the_lead_goals_against: 30
-win_1: 3
+win_1: 5
 wins: 7

@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1571810-nykvarns-ibf-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571810-nykvarns-ibf-vs-ibf-falun
+Slug: 1571810-nykvarns-ibf-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571810
 home_team: Nykvarns IBF

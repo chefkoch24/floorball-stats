@@ -1,7 +1,7 @@
 Date: 2026-02-11
 Title: 1571885-ibf-falun-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571885-ibf-falun-vs-mullsjo-ais
+Slug: 1571885-ibf-falun-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571885
 home_team: IBF Falun

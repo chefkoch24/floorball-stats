@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1571797-visby-ibk-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571797-visby-ibk-vs-pixbo-ibk
+Slug: 1571797-visby-ibk-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571797
 home_team: Visby IBK

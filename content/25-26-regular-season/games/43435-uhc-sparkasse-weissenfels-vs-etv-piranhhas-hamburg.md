@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 43435-uhc-sparkasse-weissenfels-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43435-uhc-sparkasse-weissenfels-vs-etv-piranhhas-hamburg
+Slug: 43435-uhc-sparkasse-weissenfels-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43435
 home_team: UHC Sparkasse Weißenfels

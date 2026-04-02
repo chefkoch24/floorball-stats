@@ -6,13 +6,13 @@ type: team
 team:SC DHfK Leipzig
 platzierungsverlauf:25-26-regular-season/teams/sc-dhfk-leipzig-25-26-regular-season_platzierungsverlauf.png
 away_points: 18
-boxplay: 35
-boxplay_efficiency: 54.29
-boxplay_first_period: 8
+boxplay: 41
+boxplay_efficiency: 60.980000000000004
+boxplay_first_period: 9
 boxplay_overtime: 1
-boxplay_per_game: 1.75
-boxplay_second_period: 17
-boxplay_third_period: 9
+boxplay_per_game: 2.05
+boxplay_second_period: 19
+boxplay_third_period: 12
 close_game_loss: 9
 close_game_overtime: 7
 close_game_points_per_game: 0.95
@@ -91,13 +91,13 @@ Tags:  Berlin Rockets: 5,  Blau-Weiß 96 Schenefeld: 3,  DJK Holzbüttgen: 1,  E
 points_max_difference_2: 21
 points_more_2_difference: 9
 points_per_game: 1.5
-powerplay: 35
-powerplay_efficiency: 40.0
+powerplay: 39
+powerplay_efficiency: 35.9
 powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.75
-powerplay_second_period: 10
-powerplay_third_period: 19
+powerplay_per_game: 1.95
+powerplay_second_period: 13
+powerplay_third_period: 20
 rank: 6
 scoring_ratio: 1.03
 take_the_lead_goals: 24

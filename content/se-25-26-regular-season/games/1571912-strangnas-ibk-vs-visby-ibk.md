@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 1571912-strangnas-ibk-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571912-strangnas-ibk-vs-visby-ibk
+Slug: 1571912-strangnas-ibk-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571912
 home_team: Strängnäs IBK

@@ -1,12 +1,12 @@
 Date: 2026-01-09
 Title: indians-lasb-9-1-2026-indians-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: indians-lasb-9-1-2026-indians-vs-lasb
+Slug: indians-lasb-9-1-2026-indians-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: indians-lasb-9-1-2026
 home_team: Indians
 away_team: LASB
-attendance: 567.0
+attendance: 567
 away_goal_diffs_csv: -1,-2,-1
 away_goal_minutes_csv: 21.9,22.6,64.4
 away_major_penalty_minutes_csv: 

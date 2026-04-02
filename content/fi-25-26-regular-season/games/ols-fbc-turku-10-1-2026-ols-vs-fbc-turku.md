@@ -1,12 +1,12 @@
 Date: 2026-01-10
 Title: ols-fbc-turku-10-1-2026-ols-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: ols-fbc-turku-10-1-2026-ols-vs-fbc-turku
+Slug: ols-fbc-turku-10-1-2026-ols-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: ols-fbc-turku-10-1-2026
 home_team: OLS
 away_team: FBC Turku
-attendance: 521.0
+attendance: 521
 away_goal_diffs_csv: 1,9
 away_goal_minutes_csv: 25.13,54.92
 away_major_penalty_minutes_csv: 
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_fbc_turku: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

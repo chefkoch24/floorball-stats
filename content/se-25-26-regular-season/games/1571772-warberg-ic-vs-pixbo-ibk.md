@@ -1,7 +1,7 @@
 Date: 2025-09-24
 Title: 1571772-warberg-ic-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571772-warberg-ic-vs-pixbo-ibk
+Slug: 1571772-warberg-ic-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571772
 home_team: Warberg IC

@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1571903-vaxjo-ibk-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571903-vaxjo-ibk-vs-strangnas-ibk
+Slug: 1571903-vaxjo-ibk-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571903
 home_team: Växjö IBK
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_strangnas_ibk: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 2
-home_powerplay_efficiency: 100.0
+home_powerplay: 3
+home_powerplay_efficiency: 66.67
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 1
+home_powerplay_third_period: 2
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 2
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 2
-away_boxplay_efficiency: 0.0
+away_boxplay: 3
+away_boxplay_efficiency: 33.33
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 1
+away_boxplay_third_period: 2
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

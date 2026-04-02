@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 43506-mfbc-leipzig-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43506-mfbc-leipzig-vs-ssf-dragons-bonn
+Slug: 43506-mfbc-leipzig-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43506
 home_team: MFBC Leipzig

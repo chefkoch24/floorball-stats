@@ -6,13 +6,13 @@ type: team
 team:Blau-Weiß 96 Schenefeld
 platzierungsverlauf:25-26-regular-season/teams/blau-weiss-96-schenefeld-25-26-regular-season_platzierungsverlauf.png
 away_points: 8
-boxplay: 39
-boxplay_efficiency: 53.849999999999994
-boxplay_first_period: 4
+boxplay: 44
+boxplay_efficiency: 59.089999999999996
+boxplay_first_period: 6
 boxplay_overtime: 0
-boxplay_per_game: 1.95
+boxplay_per_game: 2.2
 boxplay_second_period: 14
-boxplay_third_period: 21
+boxplay_third_period: 24
 close_game_loss: 7
 close_game_overtime: 5
 close_game_points_per_game: 0.94
@@ -91,13 +91,13 @@ Tags:  Berlin Rockets: 4,  DJK Holzbüttgen: 3,  ETV Piranhhas Hamburg: 1,  Floo
 points_max_difference_2: 16
 points_more_2_difference: 0
 points_per_game: 0.8
-powerplay: 47
-powerplay_efficiency: 46.81
-powerplay_first_period: 10
+powerplay: 51
+powerplay_efficiency: 43.14
+powerplay_first_period: 9
 powerplay_overtime: 0
-powerplay_per_game: 2.35
-powerplay_second_period: 24
-powerplay_third_period: 13
+powerplay_per_game: 2.55
+powerplay_second_period: 25
+powerplay_third_period: 17
 rank: 9
 scoring_ratio: 0.68
 take_the_lead_goals: 25

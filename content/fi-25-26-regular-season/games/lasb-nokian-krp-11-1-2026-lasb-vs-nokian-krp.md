@@ -1,12 +1,12 @@
 Date: 2026-01-11
 Title: lasb-nokian-krp-11-1-2026-lasb-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: lasb-nokian-krp-11-1-2026-lasb-vs-nokian-krp
+Slug: lasb-nokian-krp-11-1-2026-lasb-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: lasb-nokian-krp-11-1-2026
 home_team: LASB
 away_team: Nokian KrP
-attendance: 351.0
+attendance: 351
 away_goal_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-6
 away_goal_minutes_csv: 5.97,9.18,15.25,18.87,32.07,39.15,45.3,56.32
 away_major_penalty_minutes_csv: 

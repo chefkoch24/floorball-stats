@@ -1,12 +1,12 @@
 Date: 2026-03-14
 Title: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp
+Slug: ols-nokian-krp-14-3-2026-ols-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: ols-nokian-krp-14-3-2026
 home_team: OLS
 away_team: Nokian KrP
-attendance: 752.0
+attendance: 752
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12
 away_goal_minutes_csv: 8.62,11.6,15.77,17.88,28.77,30.87,32.42,35.33,36.0,36.62,49.17,53.07
 away_major_penalty_minutes_csv: 

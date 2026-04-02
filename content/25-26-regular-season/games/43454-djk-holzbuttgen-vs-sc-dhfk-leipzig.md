@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 43454-djk-holzbuttgen-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43454-djk-holzbuttgen-vs-sc-dhfk-leipzig
+Slug: 43454-djk-holzbuttgen-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43454
 home_team: DJK Holzbüttgen

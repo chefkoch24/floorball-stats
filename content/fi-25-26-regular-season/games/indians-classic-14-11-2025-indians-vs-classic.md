@@ -1,12 +1,12 @@
 Date: 2025-11-14
 Title: indians-classic-14-11-2025-indians-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: indians-classic-14-11-2025-indians-vs-classic
+Slug: indians-classic-14-11-2025-indians-vs-classic-fi-25-26-regular-season
 type: game
 game_id: indians-classic-14-11-2025
 home_team: Indians
 away_team: Classic
-attendance: 602.0
+attendance: 602
 away_goal_diffs_csv: -1,-2,-2,-3,-4
 away_goal_minutes_csv: 1.6,19.4,39.85,45.87,58.17
 away_major_penalty_minutes_csv: 

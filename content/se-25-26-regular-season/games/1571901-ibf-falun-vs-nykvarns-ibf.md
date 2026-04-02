@@ -1,7 +1,7 @@
 Date: 2026-01-31
 Title: 1571901-ibf-falun-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571901-ibf-falun-vs-nykvarns-ibf
+Slug: 1571901-ibf-falun-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571901
 home_team: IBF Falun

@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 43483-berlin-rockets-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43483-berlin-rockets-vs-floor-fighters-chemnitz
+Slug: 43483-berlin-rockets-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43483
 home_team: Berlin Rockets

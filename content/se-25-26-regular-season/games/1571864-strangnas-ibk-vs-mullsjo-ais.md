@@ -1,7 +1,7 @@
 Date: 2026-01-05
 Title: 1571864-strangnas-ibk-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571864-strangnas-ibk-vs-mullsjo-ais
+Slug: 1571864-strangnas-ibk-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571864
 home_team: Strängnäs IBK

@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 43433-mfbc-leipzig-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43433-mfbc-leipzig-vs-floor-fighters-chemnitz
+Slug: 43433-mfbc-leipzig-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43433
 home_team: MFBC Leipzig

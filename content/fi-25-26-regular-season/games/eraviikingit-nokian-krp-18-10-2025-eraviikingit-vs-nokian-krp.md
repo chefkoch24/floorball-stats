@@ -1,12 +1,12 @@
 Date: 2025-10-18
 Title: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp
+Slug: eraviikingit-nokian-krp-18-10-2025-eraviikingit-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-nokian-krp-18-10-2025
 home_team: EräViikingit
 away_team: Nokian KrP
-attendance: 381.0
+attendance: 381
 away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6
 away_goal_minutes_csv: 11.22,28.98,35.92,41.03,43.55,50.02,53.47
 away_major_penalty_minutes_csv: 

@@ -1,12 +1,12 @@
 Date: 2025-10-05
 Title: spv-hawks-5-10-2025-spv-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: spv-hawks-5-10-2025-spv-vs-hawks
+Slug: spv-hawks-5-10-2025-spv-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: spv-hawks-5-10-2025
 home_team: SPV
 away_team: Hawks
-attendance: 976.0
+attendance: 976
 away_goal_diffs_csv: -1,-1,-1,-2,-1
 away_goal_minutes_csv: 1.75,6.65,18.3,26.57,41.53
 away_major_penalty_minutes_csv: 
@@ -96,9 +96,9 @@ home_points_after_third_period: 1
 home_points_against_hawks: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 0.0
-home_powerplay_first_period: 0
+home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 1
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 4
 home_win_1: 1
 home_wins: 0
 away_away_points: 1
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 100.0
-away_boxplay_first_period: 0
+away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_third_period: 1

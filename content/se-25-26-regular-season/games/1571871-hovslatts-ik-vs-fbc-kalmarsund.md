@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1571871-hovslatts-ik-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571871-hovslatts-ik-vs-fbc-kalmarsund
+Slug: 1571871-hovslatts-ik-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571871
 home_team: Hovslätts IK

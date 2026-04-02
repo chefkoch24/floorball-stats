@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 1571808-hovslatts-ik-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571808-hovslatts-ik-vs-warberg-ic
+Slug: 1571808-hovslatts-ik-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571808
 home_team: Hovslätts IK

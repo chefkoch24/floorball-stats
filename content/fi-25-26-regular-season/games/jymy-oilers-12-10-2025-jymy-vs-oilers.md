@@ -1,12 +1,12 @@
 Date: 2025-10-12
 Title: jymy-oilers-12-10-2025-jymy-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: jymy-oilers-12-10-2025-jymy-vs-oilers
+Slug: jymy-oilers-12-10-2025-jymy-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: jymy-oilers-12-10-2025
 home_team: Jymy
 away_team: Oilers
-attendance: 289.0
+attendance: 289
 away_goal_diffs_csv: -1,-2,-2,-3,-4,-4,-4
 away_goal_minutes_csv: 1.42,2.25,19.12,25.6,38.93,45.6,51.65
 away_major_penalty_minutes_csv: 

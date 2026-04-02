@@ -1,12 +1,12 @@
 Date: 2025-09-27
 Title: ols-lasb-27-9-2025-ols-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: ols-lasb-27-9-2025-ols-vs-lasb
+Slug: ols-lasb-27-9-2025-ols-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: ols-lasb-27-9-2025
 home_team: OLS
 away_team: LASB
-attendance: 534.0
+attendance: 534
 away_goal_diffs_csv: 1
 away_goal_minutes_csv: 37.15
 away_major_penalty_minutes_csv: 

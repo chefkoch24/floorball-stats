@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1571925-strangnas-ibk-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571925-strangnas-ibk-vs-ibf-falun
+Slug: 1571925-strangnas-ibk-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571925
 home_team: Strängnäs IBK

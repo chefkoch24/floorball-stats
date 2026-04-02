@@ -1,12 +1,12 @@
 Date: 2026-02-21
 Title: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku
+Slug: jymy-fbc-turku-21-2-2026-jymy-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: jymy-fbc-turku-21-2-2026
 home_team: Jymy
 away_team: FBC Turku
-attendance: 221.0
+attendance: 221
 away_goal_diffs_csv: -1,-2,-3,-1,1
 away_goal_minutes_csv: 3.43,9.82,14.03,36.15,59.27
 away_major_penalty_minutes_csv: 

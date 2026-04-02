@@ -1,12 +1,12 @@
 Date: 2025-10-11
 Title: spv-oilers-11-10-2025-spv-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: spv-oilers-11-10-2025-spv-vs-oilers
+Slug: spv-oilers-11-10-2025-spv-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: spv-oilers-11-10-2025
 home_team: SPV
 away_team: Oilers
-attendance: 978.0
+attendance: 978
 away_goal_diffs_csv: -1,-2,-3,-3,-2
 away_goal_minutes_csv: 2.72,5.58,25.33,53.48,59.88
 away_major_penalty_minutes_csv: 

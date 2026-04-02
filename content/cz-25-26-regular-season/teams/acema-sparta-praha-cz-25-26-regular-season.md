@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-31
 Title: ACEMA Sparta Praha
 Category: cz-25-26-regular-season, teams
 Slug: acema-sparta-praha-cz-25-26-regular-season-cz-25-26-regular-season
@@ -6,21 +6,26 @@ type: team
 team:ACEMA Sparta Praha
 platzierungsverlauf:cz-25-26-regular-season/teams/acema-sparta-praha-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 27
-boxplay: 25
-boxplay_efficiency: 76.0
+boxplay: 26
+boxplay_efficiency: 69.23
 boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 0.96
+boxplay_per_game: 1.0
 boxplay_second_period: 14
-boxplay_third_period: 8
+boxplay_third_period: 9
 close_game_loss: 4
 close_game_overtime: 1
+close_game_points_per_game: 1.55
+close_game_points_share: 51.519999999999996
 close_game_win: 6
+close_games: 11
 draws: 0
 equalizer_goals: 9
 equalizer_goals_against: 11
 first_goal_of_match: 19
 first_goal_of_match_against: 7
+first_period_goals_against_per_game: 1.12
+first_period_goals_per_game: 2.5
 games: 26
 goal_difference: 72
 goal_difference_per_game: 2.77
@@ -28,7 +33,8 @@ goals: 194
 goals_against: 122
 goals_against_away: 55
 goals_against_home: 67
-goals_against_in_boxplay: 6
+goals_against_in_boxplay: 8
+goals_against_in_boxplay_per_game: 0.31
 goals_against_in_powerplay: 2
 goals_against_per_game: 4.69
 goals_away: 95
@@ -40,7 +46,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 16
+goals_in_powerplay: 19
 goals_in_second_period: 60
 goals_in_second_period_against: 40
 goals_in_third_period: 68
@@ -52,6 +58,7 @@ losses: 7
 over_time_losses: 0
 over_time_wins: 1
 penalties: 29
+penalties_per_game: 1.12
 penalty_10: 0
 penalty_2: 29
 penalty_2and2: 0
@@ -77,19 +84,20 @@ points_after_55_min: 46
 points_after_58_min: 43
 points_after_59_min: 46
 points_after_first_period: 52
+points_after_first_period_per_game: 2.0
 points_after_second_period: 43
 points_after_third_period: 55
 Tags:  1. SC NATIOS Vítkovice: 5,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran Střešovice: 3,  FAT PIPE FLORBAL CHODOV: 3,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 6,  FBC ČPP Bystroň Group OSTRAVA: 3,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 3,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
 points_max_difference_2: 17
 points_more_2_difference: 39
 points_per_game: 2.15
-powerplay: 34
-powerplay_efficiency: 47.06
+powerplay: 36
+powerplay_efficiency: 52.78
 powerplay_first_period: 9
 powerplay_overtime: 0
-powerplay_per_game: 1.31
+powerplay_per_game: 1.38
 powerplay_second_period: 10
-powerplay_third_period: 15
+powerplay_third_period: 17
 rank: 4
 scoring_ratio: 1.59
 take_the_lead_goals: 30

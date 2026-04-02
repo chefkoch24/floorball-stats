@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1571887-nykvarns-ibf-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571887-nykvarns-ibf-vs-vaxjo-ibk
+Slug: 1571887-nykvarns-ibf-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571887
 home_team: Nykvarns IBF

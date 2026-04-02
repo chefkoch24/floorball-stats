@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 1571879-visby-ibk-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571879-visby-ibk-vs-storvreta-ibk
+Slug: 1571879-visby-ibk-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571879
 home_team: Visby IBK

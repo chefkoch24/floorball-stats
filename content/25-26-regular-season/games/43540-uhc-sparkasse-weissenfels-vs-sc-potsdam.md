@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 43540-uhc-sparkasse-weissenfels-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43540-uhc-sparkasse-weissenfels-vs-sc-potsdam
+Slug: 43540-uhc-sparkasse-weissenfels-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43540
 home_team: UHC Sparkasse Weißenfels

@@ -1,12 +1,12 @@
 Date: 2025-11-16
 Title: jymy-indians-16-11-2025-jymy-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: jymy-indians-16-11-2025-jymy-vs-indians
+Slug: jymy-indians-16-11-2025-jymy-vs-indians-fi-25-26-regular-season
 type: game
 game_id: jymy-indians-16-11-2025
 home_team: Jymy
 away_team: Indians
-attendance: 284.0
+attendance: 284
 away_goal_diffs_csv: -1,-2,-2,-3,-3
 away_goal_minutes_csv: 10.0,10.52,27.4,44.13,53.8
 away_major_penalty_minutes_csv: 

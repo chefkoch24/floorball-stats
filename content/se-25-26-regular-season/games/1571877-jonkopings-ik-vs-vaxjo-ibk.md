@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 1571877-jonkopings-ik-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571877-jonkopings-ik-vs-vaxjo-ibk
+Slug: 1571877-jonkopings-ik-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571877
 home_team: Jönköpings IK

@@ -1,12 +1,12 @@
 Date: 2026-02-21
 Title: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians
+Slug: nokian-krp-indians-21-2-2026-nokian-krp-vs-indians-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-indians-21-2-2026
 home_team: Nokian KrP
 away_team: Indians
-attendance: 457.0
+attendance: 457
 away_goal_diffs_csv: -1,-1,4,3
 away_goal_minutes_csv: 3.48,12.18,56.88,57.1
 away_major_penalty_minutes_csv: 

@@ -1,12 +1,12 @@
 Date: 2025-09-16
 Title: tps-hawks-16-9-2025-tps-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: tps-hawks-16-9-2025-tps-vs-hawks
+Slug: tps-hawks-16-9-2025-tps-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: tps-hawks-16-9-2025
 home_team: TPS
 away_team: Hawks
-attendance: 679.0
+attendance: 679
 away_goal_diffs_csv: 0,-1,1,0
 away_goal_minutes_csv: 37.95,38.27,50.77,53.72
 away_major_penalty_minutes_csv: 

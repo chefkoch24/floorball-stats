@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 1571851-hovslatts-ik-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571851-hovslatts-ik-vs-aik-ibf
+Slug: 1571851-hovslatts-ik-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571851
 home_team: Hovslätts IK

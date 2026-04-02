@@ -1,7 +1,7 @@
 Date: 2026-03-08
 Title: 1571934-hovslatts-ik-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571934-hovslatts-ik-vs-nykvarns-ibf
+Slug: 1571934-hovslatts-ik-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571934
 home_team: Hovslätts IK

@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1571886-aik-ibf-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571886-aik-ibf-vs-fbc-kalmarsund
+Slug: 1571886-aik-ibf-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571886
 home_team: AIK IBF

@@ -1,7 +1,7 @@
 Date: 2025-11-28
 Title: 1571833-hovslatts-ik-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571833-hovslatts-ik-vs-jonkopings-ik
+Slug: 1571833-hovslatts-ik-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571833
 home_team: Hovslätts IK

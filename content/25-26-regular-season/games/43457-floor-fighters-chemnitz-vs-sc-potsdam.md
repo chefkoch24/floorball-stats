@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 43457-floor-fighters-chemnitz-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43457-floor-fighters-chemnitz-vs-sc-potsdam
+Slug: 43457-floor-fighters-chemnitz-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43457
 home_team: Floor Fighters Chemnitz

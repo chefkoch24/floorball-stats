@@ -1,7 +1,7 @@
 Date: 2025-12-27
 Title: 1571860-fbc-kalmarsund-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571860-fbc-kalmarsund-vs-pixbo-ibk
+Slug: 1571860-fbc-kalmarsund-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571860
 home_team: FBC Kalmarsund

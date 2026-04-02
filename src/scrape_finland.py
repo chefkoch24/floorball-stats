@@ -1,7 +1,7 @@
 import argparse
 import re
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -31,6 +31,7 @@ class MatchCard:
     home_team: str | None
     away_team: str | None
     is_played: bool
+    is_hidden: bool
 
 
 def _get(url: str) -> str:
@@ -56,6 +57,7 @@ def _parse_match_cards(html: str) -> list[MatchCard]:
         away_team = team_names[1] if len(team_names) >= 2 else None
         classes = card.get("class", [])
         is_played = "match-Played" in classes
+        is_hidden = "match-hidden" in classes
         game_date = card.get("data-match-date")
         game_start_time = card.get("data-match-time")
         gameday = card.get("data-match-gameday")
@@ -87,6 +89,7 @@ def _parse_match_cards(html: str) -> list[MatchCard]:
                 home_team=home_team,
                 away_team=away_team,
                 is_played=is_played,
+                is_hidden=is_hidden,
             )
         )
     return cards
@@ -315,11 +318,48 @@ def scrape_matches(
     schedule_urls: list[str],
     output_path: str,
     include_unplayed: bool = False,
+    phase: str = "regular-season",
+    playoff_start_date: str | None = None,
 ) -> pd.DataFrame:
     matches: list[MatchCard] = []
     for url in schedule_urls:
         html = _get(url)
         matches.extend(_parse_match_cards(html))
+
+    def _as_date(value: str | None) -> date | None:
+        if not value:
+            return None
+        try:
+            return datetime.strptime(value, "%Y-%m-%d").date()
+        except ValueError:
+            return None
+
+    phase_lower = phase.lower()
+    if playoff_start_date:
+        playoff_start = datetime.strptime(playoff_start_date, "%Y-%m-%d").date()
+    else:
+        playoff_start = datetime.now(FINLAND_TZ).date()
+
+    if phase_lower == "playoffs":
+        # Finland rule: all matches after regular-season cutoff are playoffs.
+        filtered_matches: list[MatchCard] = []
+        for match in matches:
+            match_date = _as_date(match.game_date)
+            if match_date is not None and match_date >= playoff_start:
+                filtered_matches.append(match)
+            elif match_date is None and not match.is_hidden:
+                filtered_matches.append(match)
+        matches = filtered_matches
+    elif phase_lower == "regular-season":
+        # All games before playoff cutoff belong to regular season.
+        filtered_matches = []
+        for match in matches:
+            match_date = _as_date(match.game_date)
+            if match_date is not None and match_date < playoff_start:
+                filtered_matches.append(match)
+            elif match_date is None and match.is_hidden:
+                filtered_matches.append(match)
+        matches = filtered_matches
 
     rows: list[dict[str, Any]] = []
     for match in tqdm(matches, desc="fliiga matches"):
@@ -354,6 +394,8 @@ def parse_args():
     parser.add_argument("--schedule_url", action="append", default=[DEFAULT_SCHEDULE_URL])
     parser.add_argument("--output_path", type=str, default="data/data_finland.csv")
     parser.add_argument("--include_unplayed", action="store_true")
+    parser.add_argument("--phase", type=str, default="regular-season")
+    parser.add_argument("--playoff_start_date", type=str, default=None)
     return parser.parse_args()
 
 
@@ -363,6 +405,8 @@ def main():
         schedule_urls=args.schedule_url,
         output_path=args.output_path,
         include_unplayed=args.include_unplayed,
+        phase=args.phase,
+        playoff_start_date=args.playoff_start_date,
     )
 
 

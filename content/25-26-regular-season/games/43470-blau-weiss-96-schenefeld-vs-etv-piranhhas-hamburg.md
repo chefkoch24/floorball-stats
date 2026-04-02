@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 43470-blau-weiss-96-schenefeld-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43470-blau-weiss-96-schenefeld-vs-etv-piranhhas-hamburg
+Slug: 43470-blau-weiss-96-schenefeld-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43470
 home_team: Blau-Weiß 96 Schenefeld

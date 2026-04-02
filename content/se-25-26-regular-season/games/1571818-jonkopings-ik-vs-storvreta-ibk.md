@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1571818-jonkopings-ik-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571818-jonkopings-ik-vs-storvreta-ibk
+Slug: 1571818-jonkopings-ik-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571818
 home_team: Jönköpings IK

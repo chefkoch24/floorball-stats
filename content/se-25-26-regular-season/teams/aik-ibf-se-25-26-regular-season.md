@@ -6,12 +6,12 @@ type: team
 team:AIK IBF
 platzierungsverlauf:se-25-26-regular-season/teams/aik-ibf-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 13
-boxplay: 27
-boxplay_efficiency: 62.96
+boxplay: 28
+boxplay_efficiency: 64.29
 boxplay_first_period: 10
 boxplay_overtime: 2
-boxplay_per_game: 1.04
-boxplay_second_period: 5
+boxplay_per_game: 1.08
+boxplay_second_period: 6
 boxplay_third_period: 10
 close_game_loss: 11
 close_game_overtime: 12

@@ -1,12 +1,12 @@
 Date: 2025-09-10
 Title: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp
+Slug: oilers-nokian-krp-10-9-2025-oilers-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: oilers-nokian-krp-10-9-2025
 home_team: Oilers
 away_team: Nokian KrP
-attendance: 671.0
+attendance: 671
 away_goal_diffs_csv: 3,4,6
 away_goal_minutes_csv: 36.93,53.25,59.32
 away_major_penalty_minutes_csv: 

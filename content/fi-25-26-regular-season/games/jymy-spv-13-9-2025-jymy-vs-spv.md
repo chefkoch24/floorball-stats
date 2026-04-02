@@ -1,12 +1,12 @@
 Date: 2025-09-13
 Title: jymy-spv-13-9-2025-jymy-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: jymy-spv-13-9-2025-jymy-vs-spv
+Slug: jymy-spv-13-9-2025-jymy-vs-spv-fi-25-26-regular-season
 type: game
 game_id: jymy-spv-13-9-2025
 home_team: Jymy
 away_team: SPV
-attendance: 776.0
+attendance: 776
 away_goal_diffs_csv: 0,-1,-2,-2,-3,-4,-5,-6
 away_goal_minutes_csv: 11.77,13.38,31.25,46.17,51.7,53.05,55.77,57.27
 away_major_penalty_minutes_csv: 

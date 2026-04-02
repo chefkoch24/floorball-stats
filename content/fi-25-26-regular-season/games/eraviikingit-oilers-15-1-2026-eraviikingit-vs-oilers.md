@@ -1,12 +1,12 @@
 Date: 2026-01-15
 Title: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers
+Slug: eraviikingit-oilers-15-1-2026-eraviikingit-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-oilers-15-1-2026
 home_team: EräViikingit
 away_team: Oilers
-attendance: 2190.0
+attendance: 2190
 away_goal_diffs_csv: 3,2,2,1,0,-1,-2,-3
 away_goal_minutes_csv: 32.72,37.5,41.67,42.55,45.03,49.03,51.33,51.9
 away_major_penalty_minutes_csv: 

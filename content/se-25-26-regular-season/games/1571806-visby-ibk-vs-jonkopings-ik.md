@@ -1,7 +1,7 @@
 Date: 2025-10-24
 Title: 1571806-visby-ibk-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571806-visby-ibk-vs-jonkopings-ik
+Slug: 1571806-visby-ibk-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571806
 home_team: Visby IBK

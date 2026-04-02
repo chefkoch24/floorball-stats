@@ -6,13 +6,13 @@ type: team
 team:ETV Piranhhas Hamburg
 platzierungsverlauf:25-26-regular-season/teams/etv-piranhhas-hamburg-25-26-regular-season_platzierungsverlauf.png
 away_points: 15
-boxplay: 36
-boxplay_efficiency: 66.67
+boxplay: 42
+boxplay_efficiency: 71.43
 boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 1.8
-boxplay_second_period: 13
-boxplay_third_period: 16
+boxplay_per_game: 2.1
+boxplay_second_period: 16
+boxplay_third_period: 18
 close_game_loss: 5
 close_game_overtime: 4
 close_game_points_per_game: 1.47
@@ -91,13 +91,13 @@ Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 5,  DJK Holzbüttgen: 6,  F
 points_max_difference_2: 28
 points_more_2_difference: 9
 points_per_game: 1.85
-powerplay: 28
-powerplay_efficiency: 57.14
-powerplay_first_period: 5
+powerplay: 31
+powerplay_efficiency: 51.61
+powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 1.4
-powerplay_second_period: 14
-powerplay_third_period: 9
+powerplay_per_game: 1.55
+powerplay_second_period: 15
+powerplay_third_period: 10
 rank: 5
 scoring_ratio: 1.14
 take_the_lead_goals: 39

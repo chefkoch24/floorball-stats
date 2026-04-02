@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 43464-berlin-rockets-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43464-berlin-rockets-vs-etv-piranhhas-hamburg
+Slug: 43464-berlin-rockets-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43464
 home_team: Berlin Rockets

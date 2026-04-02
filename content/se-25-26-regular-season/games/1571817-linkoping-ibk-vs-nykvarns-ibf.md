@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1571817-linkoping-ibk-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571817-linkoping-ibk-vs-nykvarns-ibf
+Slug: 1571817-linkoping-ibk-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571817
 home_team: Linköping IBK

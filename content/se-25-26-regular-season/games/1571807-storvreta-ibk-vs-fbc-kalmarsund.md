@@ -1,7 +1,7 @@
 Date: 2025-10-25
 Title: 1571807-storvreta-ibk-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571807-storvreta-ibk-vs-fbc-kalmarsund
+Slug: 1571807-storvreta-ibk-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571807
 home_team: Storvreta IBK

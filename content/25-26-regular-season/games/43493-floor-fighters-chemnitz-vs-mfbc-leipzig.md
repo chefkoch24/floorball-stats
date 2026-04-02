@@ -1,7 +1,7 @@
 Date: 2025-12-20
 Title: 43493-floor-fighters-chemnitz-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43493-floor-fighters-chemnitz-vs-mfbc-leipzig
+Slug: 43493-floor-fighters-chemnitz-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43493
 home_team: Floor Fighters Chemnitz

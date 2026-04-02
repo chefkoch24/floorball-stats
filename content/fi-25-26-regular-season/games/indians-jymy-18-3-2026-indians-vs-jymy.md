@@ -1,12 +1,12 @@
 Date: 2026-03-18
 Title: indians-jymy-18-3-2026-indians-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: indians-jymy-18-3-2026-indians-vs-jymy
+Slug: indians-jymy-18-3-2026-indians-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: indians-jymy-18-3-2026
 home_team: Indians
 away_team: Jymy
-attendance: 580.0
+attendance: 580
 away_goal_diffs_csv: 5,8,7
 away_goal_minutes_csv: 19.8,34.05,35.23
 away_major_penalty_minutes_csv: 

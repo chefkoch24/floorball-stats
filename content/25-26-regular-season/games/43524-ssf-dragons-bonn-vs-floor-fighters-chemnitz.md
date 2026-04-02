@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 43524-ssf-dragons-bonn-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43524-ssf-dragons-bonn-vs-floor-fighters-chemnitz
+Slug: 43524-ssf-dragons-bonn-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43524
 home_team: SSF Dragons Bonn

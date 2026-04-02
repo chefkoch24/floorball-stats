@@ -1,7 +1,7 @@
 Date: 2026-01-03
 Title: 1571863-pixbo-ibk-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571863-pixbo-ibk-vs-warberg-ic
+Slug: 1571863-pixbo-ibk-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571863
 home_team: Pixbo IBK

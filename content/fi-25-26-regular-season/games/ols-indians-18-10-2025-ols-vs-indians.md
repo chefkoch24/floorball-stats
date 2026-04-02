@@ -1,12 +1,12 @@
 Date: 2025-10-18
 Title: ols-indians-18-10-2025-ols-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: ols-indians-18-10-2025-ols-vs-indians
+Slug: ols-indians-18-10-2025-ols-vs-indians-fi-25-26-regular-season
 type: game
 game_id: ols-indians-18-10-2025
 home_team: OLS
 away_team: Indians
-attendance: 800.0
+attendance: 800
 away_goal_diffs_csv: 1,0
 away_goal_minutes_csv: 46.07,50.77
 away_major_penalty_minutes_csv: 

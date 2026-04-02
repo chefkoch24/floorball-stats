@@ -1,7 +1,7 @@
 Date: 2026-01-28
 Title: 1571893-mullsjo-ais-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571893-mullsjo-ais-vs-aik-ibf
+Slug: 1571893-mullsjo-ais-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571893
 home_team: Mullsjö AIS

@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1571768-nykvarns-ibf-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571768-nykvarns-ibf-vs-visby-ibk
+Slug: 1571768-nykvarns-ibf-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571768
 home_team: Nykvarns IBF

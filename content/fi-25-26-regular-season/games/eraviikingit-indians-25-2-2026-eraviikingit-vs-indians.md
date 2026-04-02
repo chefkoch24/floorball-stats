@@ -1,12 +1,12 @@
 Date: 2026-02-25
 Title: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians
+Slug: eraviikingit-indians-25-2-2026-eraviikingit-vs-indians-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-indians-25-2-2026
 home_team: EräViikingit
 away_team: Indians
-attendance: 450.0
+attendance: 450
 away_goal_diffs_csv: -1,-2,-1,-1,-2,-1
 away_goal_minutes_csv: 1.67,25.95,41.4,43.68,55.78,65.0
 away_major_penalty_minutes_csv: 

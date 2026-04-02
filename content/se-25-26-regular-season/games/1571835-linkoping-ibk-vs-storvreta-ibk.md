@@ -1,7 +1,7 @@
 Date: 2025-11-30
 Title: 1571835-linkoping-ibk-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571835-linkoping-ibk-vs-storvreta-ibk
+Slug: 1571835-linkoping-ibk-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571835
 home_team: Linköping IBK

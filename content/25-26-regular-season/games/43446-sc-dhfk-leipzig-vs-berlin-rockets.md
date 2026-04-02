@@ -1,7 +1,7 @@
 Date: 2025-09-21
 Title: 43446-sc-dhfk-leipzig-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43446-sc-dhfk-leipzig-vs-berlin-rockets
+Slug: 43446-sc-dhfk-leipzig-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43446
 home_team: SC DHfK Leipzig
@@ -77,12 +77,12 @@ timeline_home_goals_csv: 0,1,2,2,2,3
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,1.47,22.32,42.13,51.35,67.92
 home_away_points: 0
-home_boxplay: 2
+home_boxplay: 3
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
-home_boxplay_third_period: 1
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 1
 home_close_game_win: 1
@@ -141,12 +141,12 @@ home_points_after_third_period: 1
 home_points_against_berlin_rockets: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 1
+home_powerplay: 2
 home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 1
+home_powerplay_third_period: 2
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 1
@@ -259,12 +259,12 @@ home_pregame_take_the_lead_goals_against: 1
 home_pregame_win_1: 0
 home_pregame_wins: 2
 away_away_points: 1
-away_boxplay: 1
+away_boxplay: 2
 away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 1
+away_boxplay_third_period: 2
 away_close_game_loss: 1
 away_close_game_overtime: 1
 away_close_game_win: 0
@@ -323,12 +323,12 @@ away_points_after_third_period: 1
 away_points_against_sc_dhfk_leipzig: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 2
+away_powerplay: 3
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
-away_powerplay_third_period: 1
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 2
 away_win_1: 0

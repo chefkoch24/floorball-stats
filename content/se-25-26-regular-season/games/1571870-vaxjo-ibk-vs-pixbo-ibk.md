@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1571870-vaxjo-ibk-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571870-vaxjo-ibk-vs-pixbo-ibk
+Slug: 1571870-vaxjo-ibk-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571870
 home_team: Växjö IBK

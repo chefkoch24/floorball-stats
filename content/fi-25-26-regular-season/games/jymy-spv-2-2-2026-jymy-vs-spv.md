@@ -1,12 +1,12 @@
 Date: 2026-02-02
 Title: jymy-spv-2-2-2026-jymy-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: jymy-spv-2-2-2026-jymy-vs-spv
+Slug: jymy-spv-2-2-2026-jymy-vs-spv-fi-25-26-regular-season
 type: game
 game_id: jymy-spv-2-2-2026
 home_team: Jymy
 away_team: SPV
-attendance: 616.0
+attendance: 616
 away_goal_diffs_csv: -1,0,-1,-2,-3,-3
 away_goal_minutes_csv: 9.3,27.87,39.25,48.28,50.42,55.05
 away_major_penalty_minutes_csv: 

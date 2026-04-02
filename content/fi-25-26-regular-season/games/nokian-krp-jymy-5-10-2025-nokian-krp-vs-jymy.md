@@ -1,12 +1,12 @@
 Date: 2025-10-05
 Title: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy
+Slug: nokian-krp-jymy-5-10-2025-nokian-krp-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-jymy-5-10-2025
 home_team: Nokian KrP
 away_team: Jymy
-attendance: 292.0
+attendance: 292
 away_goal_diffs_csv: 0,2,1,2,2
 away_goal_minutes_csv: 7.92,36.2,38.47,49.03,54.35
 away_major_penalty_minutes_csv: 

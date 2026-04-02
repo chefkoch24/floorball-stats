@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1571920-ibf-falun-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571920-ibf-falun-vs-storvreta-ibk
+Slug: 1571920-ibf-falun-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571920
 home_team: IBF Falun

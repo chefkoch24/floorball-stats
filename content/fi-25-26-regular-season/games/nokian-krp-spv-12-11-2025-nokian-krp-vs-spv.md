@@ -1,12 +1,12 @@
 Date: 2025-11-12
 Title: nokian-krp-spv-12-11-2025-nokian-krp-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-spv-12-11-2025-nokian-krp-vs-spv
+Slug: nokian-krp-spv-12-11-2025-nokian-krp-vs-spv-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-spv-12-11-2025
 home_team: Nokian KrP
 away_team: SPV
-attendance: 807.0
+attendance: 807
 away_goal_diffs_csv: 1,1,1,0,1,0,-1
 away_goal_minutes_csv: 12.98,22.87,32.5,38.7,56.83,57.27,65.0
 away_major_penalty_minutes_csv: 

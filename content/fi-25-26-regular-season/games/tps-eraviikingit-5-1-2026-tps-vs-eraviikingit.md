@@ -1,12 +1,12 @@
 Date: 2026-01-05
 Title: tps-eraviikingit-5-1-2026-tps-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: tps-eraviikingit-5-1-2026-tps-vs-eraviikingit
+Slug: tps-eraviikingit-5-1-2026-tps-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: tps-eraviikingit-5-1-2026
 home_team: TPS
 away_team: EräViikingit
-attendance: 622.0
+attendance: 622
 away_goal_diffs_csv: -1,-2,-3,-1
 away_goal_minutes_csv: 21.85,25.95,29.37,60.7
 away_major_penalty_minutes_csv: 

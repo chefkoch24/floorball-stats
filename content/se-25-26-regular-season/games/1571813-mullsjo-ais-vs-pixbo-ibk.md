@@ -1,7 +1,7 @@
 Date: 2025-10-31
 Title: 1571813-mullsjo-ais-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571813-mullsjo-ais-vs-pixbo-ibk
+Slug: 1571813-mullsjo-ais-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571813
 home_team: Mullsjö AIS

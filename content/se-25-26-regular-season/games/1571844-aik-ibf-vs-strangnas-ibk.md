@@ -1,7 +1,7 @@
 Date: 2025-12-08
 Title: 1571844-aik-ibf-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571844-aik-ibf-vs-strangnas-ibk
+Slug: 1571844-aik-ibf-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571844
 home_team: AIK IBF

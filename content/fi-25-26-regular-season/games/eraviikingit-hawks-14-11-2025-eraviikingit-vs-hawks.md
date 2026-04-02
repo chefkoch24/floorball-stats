@@ -1,12 +1,12 @@
 Date: 2025-11-14
 Title: eraviikingit-hawks-14-11-2025-eraviikingit-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-hawks-14-11-2025-eraviikingit-vs-hawks
+Slug: eraviikingit-hawks-14-11-2025-eraviikingit-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-hawks-14-11-2025
 home_team: EräViikingit
 away_team: Hawks
-attendance: 510.0
+attendance: 510
 away_goal_diffs_csv: 0,1
 away_goal_minutes_csv: 1.72,12.43
 away_major_penalty_minutes_csv: 
@@ -96,23 +96,23 @@ home_points_after_third_period: 3
 home_points_against_hawks: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

@@ -1,12 +1,12 @@
 Date: 2026-01-03
 Title: classic-lasb-3-1-2026-classic-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: classic-lasb-3-1-2026-classic-vs-lasb
+Slug: classic-lasb-3-1-2026-classic-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: classic-lasb-3-1-2026
 home_team: Classic
 away_team: LASB
-attendance: 809.0
+attendance: 809
 away_goal_diffs_csv: 5,4,6,8
 away_goal_minutes_csv: 27.52,33.27,46.68,59.25
 away_major_penalty_minutes_csv: 

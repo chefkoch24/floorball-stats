@@ -1,7 +1,7 @@
 Date: 2026-01-30
 Title: 1571900-linkoping-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571900-linkoping-ibk-vs-aik-ibf
+Slug: 1571900-linkoping-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571900
 home_team: Linköping IBK

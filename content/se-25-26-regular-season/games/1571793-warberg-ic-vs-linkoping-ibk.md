@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 1571793-warberg-ic-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571793-warberg-ic-vs-linkoping-ibk
+Slug: 1571793-warberg-ic-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571793
 home_team: Warberg IC

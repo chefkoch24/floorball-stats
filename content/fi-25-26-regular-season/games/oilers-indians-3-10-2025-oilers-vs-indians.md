@@ -1,12 +1,12 @@
 Date: 2025-10-03
 Title: oilers-indians-3-10-2025-oilers-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: oilers-indians-3-10-2025-oilers-vs-indians
+Slug: oilers-indians-3-10-2025-oilers-vs-indians-fi-25-26-regular-season
 type: game
 game_id: oilers-indians-3-10-2025
 home_team: Oilers
 away_team: Indians
-attendance: 1071.0
+attendance: 1071
 away_goal_diffs_csv: -1,-2,-2,-3,-4,-4,-4,-5
 away_goal_minutes_csv: 5.02,7.82,16.5,18.77,20.6,38.65,41.65,43.25
 away_major_penalty_minutes_csv: 
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,0,0,1,1,1,1,2,2,3,3,3,4,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,5.02,7.82,12.88,16.5,18.77,20.6,35.15,38.65,38.8,41.65,43.25,54.72,59.42,59.98
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 0.0
-home_boxplay_first_period: 1
+home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
@@ -171,9 +171,9 @@ away_points_after_third_period: 3
 away_points_against_oilers: 3
 away_points_max_difference_2: 3
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 100.0
-away_powerplay_first_period: 1
+away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0

@@ -1,7 +1,7 @@
 Date: 2025-09-24
 Title: 1571774-vaxjo-ibk-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571774-vaxjo-ibk-vs-ibf-falun
+Slug: 1571774-vaxjo-ibk-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571774
 home_team: Växjö IBK

@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 1571839-pixbo-ibk-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571839-pixbo-ibk-vs-nykvarns-ibf
+Slug: 1571839-pixbo-ibk-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571839
 home_team: Pixbo IBK

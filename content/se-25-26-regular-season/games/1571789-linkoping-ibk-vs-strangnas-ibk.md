@@ -1,7 +1,7 @@
 Date: 2025-10-05
 Title: 1571789-linkoping-ibk-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571789-linkoping-ibk-vs-strangnas-ibk
+Slug: 1571789-linkoping-ibk-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571789
 home_team: Linköping IBK

@@ -1,12 +1,12 @@
 Date: 2026-02-16
 Title: jymy-ols-16-2-2026-jymy-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: jymy-ols-16-2-2026-jymy-vs-ols
+Slug: jymy-ols-16-2-2026-jymy-vs-ols-fi-25-26-regular-season
 type: game
 game_id: jymy-ols-16-2-2026
 home_team: Jymy
 away_team: OLS
-attendance: 485.0
+attendance: 485
 away_goal_diffs_csv: -1,-2,-2,-3,-2,-2,-3,-2
 away_goal_minutes_csv: 2.97,3.75,6.23,6.48,36.9,53.3,54.8,59.9
 away_major_penalty_minutes_csv: 

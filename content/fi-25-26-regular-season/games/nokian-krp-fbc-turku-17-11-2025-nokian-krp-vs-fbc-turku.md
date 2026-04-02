@@ -1,12 +1,12 @@
 Date: 2025-11-17
 Title: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku
+Slug: nokian-krp-fbc-turku-17-11-2025-nokian-krp-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-fbc-turku-17-11-2025
 home_team: Nokian KrP
 away_team: FBC Turku
-attendance: 407.0
+attendance: 407
 away_goal_diffs_csv: 9,8
 away_goal_minutes_csv: 46.02,54.68
 away_major_penalty_minutes_csv: 

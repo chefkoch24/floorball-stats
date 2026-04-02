@@ -1,12 +1,12 @@
 Date: 2025-12-10
 Title: tps-indians-10-12-2025-tps-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: tps-indians-10-12-2025-tps-vs-indians
+Slug: tps-indians-10-12-2025-tps-vs-indians-fi-25-26-regular-season
 type: game
 game_id: tps-indians-10-12-2025
 home_team: TPS
 away_team: Indians
-attendance: 320.0
+attendance: 320
 away_goal_diffs_csv: 0,-1,-2,-3,-3,-4
 away_goal_minutes_csv: 15.8,23.58,30.23,32.82,41.62,53.38
 away_major_penalty_minutes_csv: 

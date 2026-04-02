@@ -1,7 +1,7 @@
 Date: 2025-12-07
 Title: 1571845-storvreta-ibk-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571845-storvreta-ibk-vs-warberg-ic
+Slug: 1571845-storvreta-ibk-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571845
 home_team: Storvreta IBK

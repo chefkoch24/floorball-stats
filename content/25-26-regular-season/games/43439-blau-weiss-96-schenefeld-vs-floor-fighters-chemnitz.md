@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 43439-blau-weiss-96-schenefeld-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43439-blau-weiss-96-schenefeld-vs-floor-fighters-chemnitz
+Slug: 43439-blau-weiss-96-schenefeld-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43439
 home_team: Blau-Weiß 96 Schenefeld

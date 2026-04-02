@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1571798-linkoping-ibk-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571798-linkoping-ibk-vs-visby-ibk
+Slug: 1571798-linkoping-ibk-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571798
 home_team: Linköping IBK

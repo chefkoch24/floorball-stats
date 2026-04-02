@@ -1,12 +1,12 @@
 Date: 2025-10-19
 Title: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku
+Slug: oilers-fbc-turku-19-10-2025-oilers-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: oilers-fbc-turku-19-10-2025
 home_team: Oilers
 away_team: FBC Turku
-attendance: 743.0
+attendance: 743
 away_goal_diffs_csv: 5,10,9,9,8
 away_goal_minutes_csv: 34.27,49.4,52.58,56.17,57.17
 away_major_penalty_minutes_csv: 

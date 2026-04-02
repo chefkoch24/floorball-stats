@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-18
 Title: Snipers Bratislava
 Category: sk-25-26-playoffs, teams
 Slug: snipers-bratislava-sk-25-26-playoffs-sk-25-26-playoffs
@@ -15,20 +15,26 @@ boxplay_second_period: 3
 boxplay_third_period: 4
 close_game_loss: 1
 close_game_overtime: 0
+close_game_points_per_game: 1.5
+close_game_points_share: 50.0
 close_game_win: 1
+close_games: 2
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 3
 first_goal_of_match: 3
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 1.0
+first_period_goals_per_game: 2.0
 games: 5
 goal_difference: -5
 goal_difference_per_game: -1.0
 goals: 25
 goals_against: 30
-goals_against_away: 19
+goals_against_away: 18
 goals_against_home: 11
 goals_against_in_boxplay: 7
+goals_against_in_boxplay_per_game: 1.4
 goals_against_in_powerplay: 0
 goals_against_per_game: 6.0
 goals_away: 9
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 0
 penalties: 12
+penalties_per_game: 2.4
 penalty_10: 0
 penalty_2: 12
 penalty_2and2: 0
@@ -77,19 +84,20 @@ points_after_55_min: 6
 points_after_58_min: 6
 points_after_59_min: 6
 points_after_first_period: 10
+points_after_first_period_per_game: 2.0
 points_after_second_period: 10
 points_after_third_period: 6
 Tags:  Tsunami Záhorská Bystrica: 6,
 points_max_difference_2: 3
 points_more_2_difference: 3
 points_per_game: 1.2
-powerplay: 15
-powerplay_efficiency: 33.33
+powerplay: 14
+powerplay_efficiency: 35.709999999999994
 powerplay_first_period: 3
 powerplay_overtime: 0
-powerplay_per_game: 3.0
+powerplay_per_game: 2.8
 powerplay_second_period: 4
-powerplay_third_period: 8
+powerplay_third_period: 7
 rank: 6
 scoring_ratio: 0.83
 take_the_lead_goals: 5

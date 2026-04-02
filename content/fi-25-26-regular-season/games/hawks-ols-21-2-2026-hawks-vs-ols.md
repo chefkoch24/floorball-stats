@@ -1,12 +1,12 @@
 Date: 2026-02-21
 Title: hawks-ols-21-2-2026-hawks-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: hawks-ols-21-2-2026-hawks-vs-ols
+Slug: hawks-ols-21-2-2026-hawks-vs-ols-fi-25-26-regular-season
 type: game
 game_id: hawks-ols-21-2-2026
 home_team: Hawks
 away_team: OLS
-attendance: 242.0
+attendance: 242
 away_goal_diffs_csv: 2,2,1,0,0,0,-1
 away_goal_minutes_csv: 17.65,26.28,29.53,31.48,45.77,59.23,65.0
 away_major_penalty_minutes_csv: 

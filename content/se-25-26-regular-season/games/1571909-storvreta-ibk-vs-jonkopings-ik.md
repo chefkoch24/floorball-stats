@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1571909-storvreta-ibk-vs-jonkopings-ik
 Category: se-25-26-regular-season, game
-Slug: 1571909-storvreta-ibk-vs-jonkopings-ik
+Slug: 1571909-storvreta-ibk-vs-jonkopings-ik-se-25-26-regular-season
 type: game
 game_id: 1571909
 home_team: Storvreta IBK

@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 43462-berlin-rockets-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43462-berlin-rockets-vs-blau-weiss-96-schenefeld
+Slug: 43462-berlin-rockets-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43462
 home_team: Berlin Rockets

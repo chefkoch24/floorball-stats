@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 43522-blau-weiss-96-schenefeld-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43522-blau-weiss-96-schenefeld-vs-berlin-rockets
+Slug: 43522-blau-weiss-96-schenefeld-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43522
 home_team: Blau-Weiß 96 Schenefeld
@@ -77,9 +77,9 @@ timeline_home_goals_csv: 0,1,1,2,3,3,3,3,3,4,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,0.87,1.85,5.33,32.48,45.08,49.78,51.78,53.9,59.08,59.93,61.57
 home_away_points: 0
-home_boxplay: 6
+home_boxplay: 7
 home_boxplay_efficiency: 100.0
-home_boxplay_first_period: 1
+home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 3
 home_boxplay_third_period: 2
@@ -323,9 +323,9 @@ away_points_after_third_period: 1
 away_points_against_blau_weiss_96_schenefeld: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 6
+away_powerplay: 7
 away_powerplay_efficiency: 0.0
-away_powerplay_first_period: 1
+away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 3
 away_powerplay_third_period: 2

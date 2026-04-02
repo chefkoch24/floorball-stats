@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-31
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-regular-season, teams
 Slug: ba-sokoli-pardubice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -6,21 +6,26 @@ type: team
 team:BA SOKOLI Pardubice
 platzierungsverlauf:cz-25-26-regular-season/teams/ba-sokoli-pardubice-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 14
-boxplay: 44
-boxplay_efficiency: 61.36
+boxplay: 46
+boxplay_efficiency: 60.870000000000005
 boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 1.69
+boxplay_per_game: 1.77
 boxplay_second_period: 12
-boxplay_third_period: 23
-close_game_loss: 6
-close_game_overtime: 1
+boxplay_third_period: 25
+close_game_loss: 8
+close_game_overtime: 3
+close_game_points_per_game: 0.54
+close_game_points_share: 17.95
 close_game_win: 2
-draws: 2
+close_games: 13
+draws: 0
 equalizer_goals: 14
 equalizer_goals_against: 18
 first_goal_of_match: 17
 first_goal_of_match_against: 9
+first_period_goals_against_per_game: 1.12
+first_period_goals_per_game: 1.31
 games: 26
 goal_difference: -17
 goal_difference_per_game: -0.65
@@ -28,7 +33,8 @@ goals: 127
 goals_against: 144
 goals_against_away: 82
 goals_against_home: 62
-goals_against_in_boxplay: 17
+goals_against_in_boxplay: 18
+goals_against_in_boxplay_per_game: 0.69
 goals_against_in_powerplay: 0
 goals_against_per_game: 5.54
 goals_away: 69
@@ -40,18 +46,19 @@ goals_in_overtime: 1
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 2
-goals_in_powerplay: 8
+goals_in_powerplay: 9
 goals_in_second_period: 48
 goals_in_second_period_against: 52
 goals_in_third_period: 44
 goals_in_third_period_against: 61
 goals_per_game: 4.88
 home_points: 17
-loss_1: 2
+loss_1: 4
 losses: 14
 over_time_losses: 0
 over_time_wins: 1
 penalties: 46
+penalties_per_game: 1.77
 penalty_10: 0
 penalty_2: 46
 penalty_2and2: 0
@@ -59,7 +66,7 @@ penalty_first_period: 9
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 12
-penalty_shootout_losses: 0
+penalty_shootout_losses: 2
 penalty_shootout_wins: 0
 penalty_shot_goals: 2
 penalty_shot_goals_against: 3
@@ -77,19 +84,20 @@ points_after_55_min: 24
 points_after_58_min: 23
 points_after_59_min: 20
 points_after_first_period: 23
+points_after_first_period_per_game: 0.88
 points_after_second_period: 27
 points_after_third_period: 24
 Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 0,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 0,  FBC 4CLEAN Česká Lípa: 4,  FBC Liberec: 0,  FBC ČPP Bystroň Group OSTRAVA: 4,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 5,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
 points_max_difference_2: 7
 points_more_2_difference: 24
 points_per_game: 1.19
-powerplay: 31
-powerplay_efficiency: 25.81
+powerplay: 32
+powerplay_efficiency: 28.12
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 1.19
+powerplay_per_game: 1.23
 powerplay_second_period: 11
-powerplay_third_period: 15
+powerplay_third_period: 16
 rank: 8
 scoring_ratio: 0.88
 take_the_lead_goals: 28

@@ -1,7 +1,7 @@
 Date: 2025-12-06
 Title: 1571846-visby-ibk-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571846-visby-ibk-vs-vaxjo-ibk
+Slug: 1571846-visby-ibk-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571846
 home_team: Visby IBK

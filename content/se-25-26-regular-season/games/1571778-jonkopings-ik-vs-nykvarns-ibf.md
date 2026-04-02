@@ -1,7 +1,7 @@
 Date: 2025-09-28
 Title: 1571778-jonkopings-ik-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571778-jonkopings-ik-vs-nykvarns-ibf
+Slug: 1571778-jonkopings-ik-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571778
 home_team: Jönköpings IK

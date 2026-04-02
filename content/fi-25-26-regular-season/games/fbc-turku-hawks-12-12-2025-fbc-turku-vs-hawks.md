@@ -1,12 +1,12 @@
 Date: 2025-12-12
 Title: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks
+Slug: fbc-turku-hawks-12-12-2025-fbc-turku-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-hawks-12-12-2025
 home_team: FBC Turku
 away_team: Hawks
-attendance: 345.0
+attendance: 345
 away_goal_diffs_csv: -1,-2,-2,-3,-3
 away_goal_minutes_csv: 25.8,34.02,40.68,53.17,59.63
 away_major_penalty_minutes_csv: 

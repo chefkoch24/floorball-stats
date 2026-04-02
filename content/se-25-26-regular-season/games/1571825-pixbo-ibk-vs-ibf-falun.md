@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1571825-pixbo-ibk-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571825-pixbo-ibk-vs-ibf-falun
+Slug: 1571825-pixbo-ibk-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571825
 home_team: Pixbo IBK

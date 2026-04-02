@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 43448-sc-potsdam-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43448-sc-potsdam-vs-ssf-dragons-bonn
+Slug: 43448-sc-potsdam-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43448
 home_team: SC Potsdam

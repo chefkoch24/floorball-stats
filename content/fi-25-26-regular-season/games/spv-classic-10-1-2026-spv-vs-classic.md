@@ -1,12 +1,12 @@
 Date: 2026-01-10
 Title: spv-classic-10-1-2026-spv-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: spv-classic-10-1-2026-spv-vs-classic
+Slug: spv-classic-10-1-2026-spv-vs-classic-fi-25-26-regular-season
 type: game
 game_id: spv-classic-10-1-2026
 home_team: SPV
 away_team: Classic
-attendance: 970.0
+attendance: 970
 away_goal_diffs_csv: 2,3,5,4,3,2
 away_goal_minutes_csv: 12.68,24.05,49.97,51.28,52.1,52.47
 away_major_penalty_minutes_csv: 

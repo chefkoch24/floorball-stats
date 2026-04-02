@@ -1,7 +1,7 @@
 Date: 2026-01-16
 Title: 1571878-pixbo-ibk-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571878-pixbo-ibk-vs-hovslatts-ik
+Slug: 1571878-pixbo-ibk-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571878
 home_team: Pixbo IBK

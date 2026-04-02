@@ -1,12 +1,12 @@
 Date: 2026-03-06
 Title: indians-spv-6-3-2026-indians-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: indians-spv-6-3-2026-indians-vs-spv
+Slug: indians-spv-6-3-2026-indians-vs-spv-fi-25-26-regular-season
 type: game
 game_id: indians-spv-6-3-2026
 home_team: Indians
 away_team: SPV
-attendance: 610.0
+attendance: 610
 away_goal_diffs_csv: -1,-2,-2,-2,-3,-4
 away_goal_minutes_csv: 2.65,7.17,25.73,43.73,56.42,56.75
 away_major_penalty_minutes_csv: 

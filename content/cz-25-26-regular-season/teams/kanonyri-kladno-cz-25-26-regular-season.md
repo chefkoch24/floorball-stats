@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-31
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
 Slug: kanonyri-kladno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -6,21 +6,26 @@ type: team
 team:Kanonýři Kladno
 platzierungsverlauf:cz-25-26-regular-season/teams/kanonyri-kladno-cz-25-26-regular-season_platzierungsverlauf.png
 away_points: 12
-boxplay: 35
-boxplay_efficiency: 57.14
-boxplay_first_period: 11
+boxplay: 39
+boxplay_efficiency: 58.97
+boxplay_first_period: 12
 boxplay_overtime: 0
-boxplay_per_game: 1.35
-boxplay_second_period: 11
+boxplay_per_game: 1.5
+boxplay_second_period: 14
 boxplay_third_period: 13
-close_game_loss: 3
-close_game_overtime: 2
+close_game_loss: 4
+close_game_overtime: 3
+close_game_points_per_game: 1.71
+close_game_points_share: 57.14
 close_game_win: 7
-draws: 1
+close_games: 14
+draws: 0
 equalizer_goals: 24
 equalizer_goals_against: 27
 first_goal_of_match: 11
 first_goal_of_match_against: 15
+first_period_goals_against_per_game: 1.69
+first_period_goals_per_game: 1.69
 games: 26
 goal_difference: -29
 goal_difference_per_game: -1.12
@@ -28,7 +33,8 @@ goals: 144
 goals_against: 173
 goals_against_away: 106
 goals_against_home: 67
-goals_against_in_boxplay: 15
+goals_against_in_boxplay: 16
+goals_against_in_boxplay_per_game: 0.62
 goals_against_in_powerplay: 2
 goals_against_per_game: 6.65
 goals_away: 75
@@ -40,18 +46,19 @@ goals_in_overtime: 0
 goals_in_overtime_against: 2
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 10
+goals_in_powerplay: 13
 goals_in_second_period: 42
 goals_in_second_period_against: 59
 goals_in_third_period: 58
 goals_in_third_period_against: 67
 goals_per_game: 5.54
 home_points: 30
-loss_1: 2
+loss_1: 3
 losses: 10
 over_time_losses: 2
 over_time_wins: 0
 penalties: 45
+penalties_per_game: 1.73
 penalty_10: 0
 penalty_2: 45
 penalty_2and2: 0
@@ -59,7 +66,7 @@ penalty_first_period: 14
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 15
-penalty_shootout_losses: 0
+penalty_shootout_losses: 1
 penalty_shootout_wins: 0
 penalty_shot_goals: 3
 penalty_shot_goals_against: 8
@@ -77,19 +84,20 @@ points_after_55_min: 19
 points_after_58_min: 22
 points_after_59_min: 19
 points_after_first_period: 36
+points_after_first_period_per_game: 1.38
 points_after_second_period: 18
 points_after_third_period: 42
 Tags:  1. SC NATIOS Vítkovice: 3,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 1,  ESA logistika Tatran Střešovice: 3,  FAT PIPE FLORBAL CHODOV: 3,  FBC 4CLEAN Česká Lípa: 4,  FBC Liberec: 3,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 4,
 points_max_difference_2: 24
 points_more_2_difference: 18
 points_per_game: 1.62
-powerplay: 21
-powerplay_efficiency: 47.620000000000005
+powerplay: 23
+powerplay_efficiency: 56.52
 powerplay_first_period: 4
 powerplay_overtime: 0
-powerplay_per_game: 0.81
-powerplay_second_period: 7
-powerplay_third_period: 10
+powerplay_per_game: 0.88
+powerplay_second_period: 8
+powerplay_third_period: 11
 rank: 7
 scoring_ratio: 0.83
 take_the_lead_goals: 40

@@ -1,7 +1,7 @@
 Date: 2026-03-04
 Title: 1571928-vaxjo-ibk-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571928-vaxjo-ibk-vs-fbc-kalmarsund
+Slug: 1571928-vaxjo-ibk-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571928
 home_team: Växjö IBK

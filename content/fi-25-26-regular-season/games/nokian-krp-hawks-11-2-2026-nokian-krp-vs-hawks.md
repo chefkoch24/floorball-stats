@@ -1,12 +1,12 @@
 Date: 2026-02-11
 Title: nokian-krp-hawks-11-2-2026-nokian-krp-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-hawks-11-2-2026-nokian-krp-vs-hawks
+Slug: nokian-krp-hawks-11-2-2026-nokian-krp-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-hawks-11-2-2026
 home_team: Nokian KrP
 away_team: Hawks
-attendance: 417.0
+attendance: 417
 away_goal_diffs_csv: -1,1
 away_goal_minutes_csv: 1.72,51.47
 away_major_penalty_minutes_csv: 
@@ -32,12 +32,12 @@ timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.72,23.93,24.65,44.98,51.47,51.85,58.95,59.87
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_third_period: 0
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -171,12 +171,12 @@ away_points_after_third_period: 0
 away_points_against_nokian_krp: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_third_period: 0
+away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 1
 away_win_1: 0

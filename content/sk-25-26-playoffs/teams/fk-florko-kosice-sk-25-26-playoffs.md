@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-18
 Title: FK Florko Košice
 Category: sk-25-26-playoffs, teams
 Slug: fk-florko-kosice-sk-25-26-playoffs-sk-25-26-playoffs
@@ -6,29 +6,35 @@ type: team
 team:FK Florko Košice
 platzierungsverlauf:sk-25-26-playoffs/teams/fk-florko-kosice-sk-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
-boxplay: 9
-boxplay_efficiency: 44.440000000000005
+boxplay: 12
+boxplay_efficiency: 58.33
 boxplay_first_period: 1
 boxplay_overtime: 0
-boxplay_per_game: 2.25
-boxplay_second_period: 4
-boxplay_third_period: 4
+boxplay_per_game: 3.0
+boxplay_second_period: 5
+boxplay_third_period: 6
 close_game_loss: 0
 close_game_overtime: 1
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 1
+close_games: 2
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 4
 first_goal_of_match: 2
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 2.75
+first_period_goals_per_game: 1.25
 games: 4
 goal_difference: -16
 goal_difference_per_game: -4.0
 goals: 16
 goals_against: 32
-goals_against_away: 18
+goals_against_away: 17
 goals_against_home: 14
 goals_against_in_boxplay: 5
+goals_against_in_boxplay_per_game: 1.25
 goals_against_in_powerplay: 1
 goals_against_per_game: 8.0
 goals_away: 5
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 1
 penalties: 13
+penalties_per_game: 3.25
 penalty_10: 1
 penalty_2: 12
 penalty_2and2: 0
@@ -77,17 +84,18 @@ points_after_55_min: 1
 points_after_58_min: 1
 points_after_59_min: 1
 points_after_first_period: 2
+points_after_first_period_per_game: 0.5
 points_after_second_period: 0
 points_after_third_period: 1
 Tags:  ŠK Lido Prírodovedec Bratislava: 2,
 points_max_difference_2: 2
 points_more_2_difference: 0
 points_per_game: 0.5
-powerplay: 9
+powerplay: 10
 powerplay_efficiency: 0.0
 powerplay_first_period: 1
 powerplay_overtime: 0
-powerplay_per_game: 2.25
+powerplay_per_game: 2.5
 powerplay_second_period: 3
 powerplay_third_period: 6
 rank: 8

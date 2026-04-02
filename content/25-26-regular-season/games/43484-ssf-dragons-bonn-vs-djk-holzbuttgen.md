@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 43484-ssf-dragons-bonn-vs-djk-holzbuttgen
 Category: 25-26-regular-season, game
-Slug: 43484-ssf-dragons-bonn-vs-djk-holzbuttgen
+Slug: 43484-ssf-dragons-bonn-vs-djk-holzbuttgen-25-26-regular-season
 type: game
 game_id: 43484
 home_team: SSF Dragons Bonn

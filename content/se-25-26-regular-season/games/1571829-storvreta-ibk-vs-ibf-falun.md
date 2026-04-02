@@ -1,7 +1,7 @@
 Date: 2025-11-21
 Title: 1571829-storvreta-ibk-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571829-storvreta-ibk-vs-ibf-falun
+Slug: 1571829-storvreta-ibk-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571829
 home_team: Storvreta IBK
@@ -32,9 +32,9 @@ timeline_home_goals_csv: 0,1,1,1,2,3,3,4,4
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,2.4,3.08,6.13,15.43,15.8,18.73,55.73,58.6
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
-home_boxplay_first_period: 1
+home_boxplay_first_period: 2
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
@@ -171,9 +171,9 @@ away_points_after_third_period: 1
 away_points_against_storvreta_ibk: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
-away_powerplay_first_period: 1
+away_powerplay_first_period: 2
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0

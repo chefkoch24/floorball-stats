@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 1571777-strangnas-ibk-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571777-strangnas-ibk-vs-warberg-ic
+Slug: 1571777-strangnas-ibk-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571777
 home_team: Strängnäs IBK

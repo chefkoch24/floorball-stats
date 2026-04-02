@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 1571788-storvreta-ibk-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571788-storvreta-ibk-vs-visby-ibk
+Slug: 1571788-storvreta-ibk-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571788
 home_team: Storvreta IBK

@@ -1,7 +1,7 @@
 Date: 2026-01-18
 Title: 43504-unihockey-igels-dresden-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43504-unihockey-igels-dresden-vs-blau-weiss-96-schenefeld
+Slug: 43504-unihockey-igels-dresden-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43504
 home_team: Unihockey Igels Dresden

@@ -1,7 +1,7 @@
 Date: 2025-12-05
 Title: 1571840-jonkopings-ik-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571840-jonkopings-ik-vs-pixbo-ibk
+Slug: 1571840-jonkopings-ik-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571840
 home_team: Jönköpings IK

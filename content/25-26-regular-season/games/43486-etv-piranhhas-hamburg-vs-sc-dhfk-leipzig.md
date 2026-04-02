@@ -1,7 +1,7 @@
 Date: 2025-11-23
 Title: 43486-etv-piranhhas-hamburg-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43486-etv-piranhhas-hamburg-vs-sc-dhfk-leipzig
+Slug: 43486-etv-piranhhas-hamburg-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43486
 home_team: ETV Piranhhas Hamburg
@@ -77,11 +77,11 @@ timeline_home_goals_csv: 0,1,2,2,2,3,3,4,5,5,6,6,6,7,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.0,7.78,10.4,21.35,21.8,22.38,25.53,33.45,39.48,42.25,47.5,48.9,52.28,52.52,59.85
 home_away_points: 0
-home_boxplay: 2
+home_boxplay: 3
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
+home_boxplay_second_period: 2
 home_boxplay_third_period: 1
 home_close_game_loss: 1
 home_close_game_overtime: 0
@@ -141,11 +141,11 @@ home_points_after_third_period: 0
 home_points_against_sc_dhfk_leipzig: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
-home_powerplay_second_period: 0
+home_powerplay_second_period: 1
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 4
 home_take_the_lead_goals_against: 1
@@ -259,11 +259,11 @@ home_pregame_take_the_lead_goals_against: 7
 home_pregame_win_1: 2
 home_pregame_wins: 5
 away_away_points: 3
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
-away_boxplay_second_period: 0
+away_boxplay_second_period: 1
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -323,11 +323,11 @@ away_points_after_third_period: 3
 away_points_against_etv_piranhhas_hamburg: 3
 away_points_max_difference_2: 3
 away_points_more_2_difference: 0
-away_powerplay: 2
+away_powerplay: 3
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
+away_powerplay_second_period: 2
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 4

@@ -1,7 +1,7 @@
 Date: 2025-09-26
 Title: 1571783-storvreta-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571783-storvreta-ibk-vs-aik-ibf
+Slug: 1571783-storvreta-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571783
 home_team: Storvreta IBK

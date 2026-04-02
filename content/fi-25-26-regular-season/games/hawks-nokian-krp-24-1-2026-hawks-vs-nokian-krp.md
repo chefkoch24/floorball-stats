@@ -1,12 +1,12 @@
 Date: 2026-01-24
 Title: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp
+Slug: hawks-nokian-krp-24-1-2026-hawks-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: hawks-nokian-krp-24-1-2026
 home_team: Hawks
 away_team: Nokian KrP
-attendance: 261.0
+attendance: 261
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-5,-6,-7,-8,-9,-9,-10,-11,-12,-13
 away_goal_minutes_csv: 2.65,4.0,4.73,8.93,16.93,23.18,31.53,33.0,36.98,38.07,38.92,44.23,48.15,51.78,52.63,52.88
 away_major_penalty_minutes_csv: 

@@ -1,7 +1,7 @@
 Date: 2025-09-13
 Title: 43434-blau-weiss-96-schenefeld-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43434-blau-weiss-96-schenefeld-vs-sc-dhfk-leipzig
+Slug: 43434-blau-weiss-96-schenefeld-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43434
 home_team: Blau-Weiß 96 Schenefeld
@@ -141,12 +141,12 @@ home_points_after_third_period: 0
 home_points_against_sc_dhfk_leipzig: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 3
-home_powerplay_efficiency: 66.67
+home_powerplay: 5
+home_powerplay_efficiency: 40.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
-home_powerplay_second_period: 2
-home_powerplay_third_period: 0
+home_powerplay_second_period: 3
+home_powerplay_third_period: 1
 home_take_the_lead_goals: 0
 home_take_the_lead_goals_against: 2
 home_win_1: 0
@@ -187,12 +187,12 @@ home_pregame_powerplay_per_game: 0.0
 home_pregame_scoring_ratio: n.a.
 home_pregame_wins: 0
 away_away_points: 3
-away_boxplay: 3
-away_boxplay_efficiency: 33.33
+away_boxplay: 5
+away_boxplay_efficiency: 60.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
-away_boxplay_second_period: 2
-away_boxplay_third_period: 0
+away_boxplay_second_period: 3
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

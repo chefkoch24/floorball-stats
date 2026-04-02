@@ -1,7 +1,7 @@
 Date: 2026-02-14
 Title: 1571908-nykvarns-ibf-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571908-nykvarns-ibf-vs-linkoping-ibk
+Slug: 1571908-nykvarns-ibf-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571908
 home_team: Nykvarns IBF

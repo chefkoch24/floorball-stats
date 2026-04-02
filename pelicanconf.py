@@ -32,6 +32,9 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  '25-26-regular-season/teams',
                  '25-26-regular-season/liga',
                  '25-26-regular-season/games',
+                 '25-26-playoffs/teams',
+                 '25-26-playoffs/liga',
+                 '25-26-playoffs/games',
                  'se-25-26-regular-season/teams',
                  'se-25-26-regular-season/liga',
                  'se-25-26-regular-season/games',
@@ -41,6 +44,9 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'fi-25-26-regular-season/teams',
                  'fi-25-26-regular-season/liga',
                  'fi-25-26-regular-season/games',
+                 'fi-25-26-playoffs/teams',
+                 'fi-25-26-playoffs/liga',
+                 'fi-25-26-playoffs/games',
                  'lv-25-26-regular-season/teams',
                  'lv-25-26-regular-season/liga',
                  'lv-25-26-regular-season/games',
@@ -65,7 +71,6 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'ch-25-26-playoffs/teams',
                  'ch-25-26-playoffs/games',
                  'ch-25-26-playoffs/liga',
-                 #'25-26-playoffs/teams', '25-26-playoffs/liga'
                  ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
 
@@ -106,6 +111,7 @@ MENUITEMS = (
     ('Regular Season 24-25', '/category/24-25-regular-season.html'),
     ('Playoffs 24-25', '/category/24-25-playoffs.html'),
     ('Regular Season 25-26', '/category/25-26-regular-season.html'),
+    ('Playoffs 25-26', '/category/25-26-playoffs.html'),
     ('Sweden Regular Season 25-26', '/category/se-25-26-regular-season.html'),
     ('Sweden Playoffs 25-26', '/category/se-25-26-playoffs.html'),
     ('Czech Republic Regular Season 25-26', '/category/cz-25-26-regular-season.html'),
@@ -113,6 +119,7 @@ MENUITEMS = (
     ('Switzerland Regular Season 25-26', '/category/ch-25-26-regular-season.html'),
     ('Switzerland Playoffs 25-26', '/category/ch-25-26-playoffs.html'),
     ('Finland Regular Season 25-26', '/category/fi-25-26-regular-season.html'),
+    ('Finland Playoffs 25-26', '/category/fi-25-26-playoffs.html'),
     ('Latvia Regular Season 25-26', '/category/lv-25-26-regular-season.html'),
     ('Slovakia Regular Season 25-26', '/category/sk-25-26-regular-season.html'),
     # add season links here

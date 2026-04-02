@@ -1,12 +1,12 @@
 Date: 2026-01-18
 Title: classic-ols-18-1-2026-classic-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: classic-ols-18-1-2026-classic-vs-ols
+Slug: classic-ols-18-1-2026-classic-vs-ols-fi-25-26-regular-season
 type: game
 game_id: classic-ols-18-1-2026
 home_team: Classic
 away_team: OLS
-attendance: 812.0
+attendance: 812
 away_goal_diffs_csv: -1,2
 away_goal_minutes_csv: 1.23,30.68
 away_major_penalty_minutes_csv: 

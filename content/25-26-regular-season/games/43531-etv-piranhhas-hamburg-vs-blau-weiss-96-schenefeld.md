@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 43531-etv-piranhhas-hamburg-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43531-etv-piranhhas-hamburg-vs-blau-weiss-96-schenefeld
+Slug: 43531-etv-piranhhas-hamburg-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43531
 home_team: ETV Piranhhas Hamburg

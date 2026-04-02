@@ -5,13 +5,13 @@ Slug: top-4-teams-25-26-regular-season
 type: liga
 team: Top 4 Teams
 away_points: 20.25
-boxplay: 32.25
-boxplay_efficiency: 66.9
+boxplay: 32.75
+boxplay_efficiency: 67.35
 boxplay_first_period: 5.75
 boxplay_overtime: 0.0
-boxplay_per_game: 1.61
+boxplay_per_game: 1.64
 boxplay_second_period: 13.0
-boxplay_third_period: 13.5
+boxplay_third_period: 14.0
 close_game_loss: 4.25
 close_game_overtime: 4.5
 close_game_points_per_game: 1.34
@@ -89,13 +89,13 @@ points_after_third_period: 40.5
 points_max_difference_2: 19.75
 points_more_2_difference: 23.25
 points_per_game: 2.15
-powerplay: 36.25
-powerplay_efficiency: 38.25
-powerplay_first_period: 7.25
+powerplay: 38.0
+powerplay_efficiency: 36.58
+powerplay_first_period: 7.5
 powerplay_overtime: 0.25
-powerplay_per_game: 1.81
-powerplay_second_period: 14.75
-powerplay_third_period: 14.25
+powerplay_per_game: 1.9
+powerplay_second_period: 15.25
+powerplay_third_period: 15.0
 rank: 2.5
 scoring_ratio: 1.43
 take_the_lead_goals: 27.0

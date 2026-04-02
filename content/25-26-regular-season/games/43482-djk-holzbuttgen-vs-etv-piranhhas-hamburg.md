@@ -1,7 +1,7 @@
 Date: 2025-11-16
 Title: 43482-djk-holzbuttgen-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43482-djk-holzbuttgen-vs-etv-piranhhas-hamburg
+Slug: 43482-djk-holzbuttgen-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43482
 home_team: DJK Holzbüttgen

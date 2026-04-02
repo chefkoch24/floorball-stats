@@ -1,12 +1,12 @@
 Date: 2025-11-21
 Title: classic-jymy-21-11-2025-classic-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: classic-jymy-21-11-2025-classic-vs-jymy
+Slug: classic-jymy-21-11-2025-classic-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: classic-jymy-21-11-2025
 home_team: Classic
 away_team: Jymy
-attendance: 781.0
+attendance: 781
 away_goal_diffs_csv: 2,3,2
 away_goal_minutes_csv: 12.65,30.72,31.43
 away_major_penalty_minutes_csv: 

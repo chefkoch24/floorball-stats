@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 1571837-fbc-kalmarsund-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571837-fbc-kalmarsund-vs-vaxjo-ibk
+Slug: 1571837-fbc-kalmarsund-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571837
 home_team: FBC Kalmarsund

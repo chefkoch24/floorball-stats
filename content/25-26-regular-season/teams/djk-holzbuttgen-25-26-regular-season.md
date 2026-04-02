@@ -6,13 +6,13 @@ type: team
 team:DJK Holzbüttgen
 platzierungsverlauf:25-26-regular-season/teams/djk-holzbuttgen-25-26-regular-season_platzierungsverlauf.png
 away_points: 13
-boxplay: 47
-boxplay_efficiency: 68.09
+boxplay: 49
+boxplay_efficiency: 69.39
 boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 2.35
+boxplay_per_game: 2.45
 boxplay_second_period: 16
-boxplay_third_period: 22
+boxplay_third_period: 24
 close_game_loss: 5
 close_game_overtime: 3
 close_game_points_per_game: 0.92
@@ -46,7 +46,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 1
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 17
+goals_in_powerplay: 18
 goals_in_second_period: 37
 goals_in_second_period_against: 42
 goals_in_third_period: 55
@@ -91,13 +91,13 @@ Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 3,  ETV Piranhhas Hamburg: 
 points_max_difference_2: 11
 points_more_2_difference: 18
 points_per_game: 1.45
-powerplay: 34
-powerplay_efficiency: 50.0
+powerplay: 39
+powerplay_efficiency: 46.150000000000006
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 1.7
-powerplay_second_period: 10
-powerplay_third_period: 19
+powerplay_per_game: 1.95
+powerplay_second_period: 11
+powerplay_third_period: 23
 rank: 7
 scoring_ratio: 1.07
 take_the_lead_goals: 25

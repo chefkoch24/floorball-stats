@@ -91,13 +91,13 @@ Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 3,  E
 points_max_difference_2: 15
 points_more_2_difference: 27
 points_per_game: 2.1
-powerplay: 34
-powerplay_efficiency: 32.35
+powerplay: 35
+powerplay_efficiency: 31.430000000000003
 powerplay_first_period: 9
 powerplay_overtime: 0
-powerplay_per_game: 1.7
+powerplay_per_game: 1.75
 powerplay_second_period: 13
-powerplay_third_period: 12
+powerplay_third_period: 13
 rank: 2
 scoring_ratio: 1.44
 take_the_lead_goals: 26

@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 43466-floor-fighters-chemnitz-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43466-floor-fighters-chemnitz-vs-ssf-dragons-bonn
+Slug: 43466-floor-fighters-chemnitz-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43466
 home_team: Floor Fighters Chemnitz

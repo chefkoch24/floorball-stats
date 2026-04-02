@@ -1,12 +1,12 @@
 Date: 2025-11-12
 Title: classic-lasb-12-11-2025-classic-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: classic-lasb-12-11-2025-classic-vs-lasb
+Slug: classic-lasb-12-11-2025-classic-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: classic-lasb-12-11-2025
 home_team: Classic
 away_team: LASB
-attendance: 599.0
+attendance: 599
 away_goal_diffs_csv: 4,3,3,4
 away_goal_minutes_csv: 43.83,48.73,53.5,59.27
 away_major_penalty_minutes_csv: 

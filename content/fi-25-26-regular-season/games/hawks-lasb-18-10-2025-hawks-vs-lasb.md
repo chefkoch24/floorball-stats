@@ -1,12 +1,12 @@
 Date: 2025-10-18
 Title: hawks-lasb-18-10-2025-hawks-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: hawks-lasb-18-10-2025-hawks-vs-lasb
+Slug: hawks-lasb-18-10-2025-hawks-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: hawks-lasb-18-10-2025
 home_team: Hawks
 away_team: LASB
-attendance: 358.0
+attendance: 358
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
 away_major_penalty_minutes_csv: 

@@ -1,12 +1,12 @@
 Date: 2025-09-28
 Title: spv-lasb-28-9-2025-spv-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: spv-lasb-28-9-2025-spv-vs-lasb
+Slug: spv-lasb-28-9-2025-spv-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: spv-lasb-28-9-2025
 home_team: SPV
 away_team: LASB
-attendance: 789.0
+attendance: 789
 away_goal_diffs_csv: 0,7,8,7,6
 away_goal_minutes_csv: 9.13,38.18,47.73,48.25,53.68
 away_major_penalty_minutes_csv: 

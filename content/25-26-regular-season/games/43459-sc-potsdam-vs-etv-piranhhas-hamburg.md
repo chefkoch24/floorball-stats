@@ -1,7 +1,7 @@
 Date: 2025-10-11
 Title: 43459-sc-potsdam-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43459-sc-potsdam-vs-etv-piranhhas-hamburg
+Slug: 43459-sc-potsdam-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43459
 home_team: SC Potsdam

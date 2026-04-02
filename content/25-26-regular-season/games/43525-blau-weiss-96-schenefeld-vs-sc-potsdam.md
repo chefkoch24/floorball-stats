@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 43525-blau-weiss-96-schenefeld-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43525-blau-weiss-96-schenefeld-vs-sc-potsdam
+Slug: 43525-blau-weiss-96-schenefeld-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43525
 home_team: Blau-Weiß 96 Schenefeld
@@ -77,12 +77,12 @@ timeline_home_goals_csv: 0,1,2,3,3,3,3,3,4,4,4,4,5,6,6,6,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.67,5.15,16.77,21.42,28.78,30.35,36.55,38.12,43.67,45.35,47.15,48.2,50.3,51.63,54.47,56.85,59.87
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
-home_boxplay_first_period: 0
+home_boxplay: 4
+home_boxplay_efficiency: 50.0
+home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
-home_boxplay_third_period: 0
+home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
@@ -323,12 +323,12 @@ away_points_after_third_period: 3
 away_points_against_blau_weiss_96_schenefeld: 3
 away_points_max_difference_2: 0
 away_points_more_2_difference: 3
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
-away_powerplay_first_period: 0
+away_powerplay: 4
+away_powerplay_efficiency: 50.0
+away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
-away_powerplay_third_period: 0
+away_powerplay_third_period: 2
 away_take_the_lead_goals: 2
 away_take_the_lead_goals_against: 1
 away_win_1: 0

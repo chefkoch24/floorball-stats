@@ -1,12 +1,12 @@
 Date: 2025-11-22
 Title: ols-classic-22-11-2025-ols-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: ols-classic-22-11-2025-ols-vs-classic
+Slug: ols-classic-22-11-2025-ols-vs-classic-fi-25-26-regular-season
 type: game
 game_id: ols-classic-22-11-2025
 home_team: OLS
 away_team: Classic
-attendance: 774.0
+attendance: 774
 away_goal_diffs_csv: -1,-1,-1,1,0
 away_goal_minutes_csv: 3.08,4.5,13.03,33.53,38.68
 away_major_penalty_minutes_csv: 
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,1,1,2,2,3,4,5,5,5,6
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,3.08,3.98,4.5,6.63,13.03,19.73,23.25,24.88,33.53,38.68,61.55
 home_away_points: 0
-home_boxplay: 1
-home_boxplay_efficiency: 0.0
+home_boxplay: 0
+home_boxplay_efficiency: n.a.
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 1
+home_boxplay_second_period: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 1
@@ -96,10 +96,10 @@ home_points_after_third_period: 1
 home_points_against_classic: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
-home_powerplay_overtime: 0
+home_powerplay_overtime: 1
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 2
@@ -107,10 +107,10 @@ home_take_the_lead_goals_against: 3
 home_win_1: 1
 home_wins: 0
 away_away_points: 1
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
-away_boxplay_overtime: 0
+away_boxplay_overtime: 1
 away_boxplay_second_period: 0
 away_boxplay_third_period: 0
 away_close_game_loss: 1
@@ -171,11 +171,11 @@ away_points_after_third_period: 1
 away_points_against_ols: 1
 away_points_max_difference_2: 1
 away_points_more_2_difference: 0
-away_powerplay: 1
-away_powerplay_efficiency: 100.0
+away_powerplay: 0
+away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 1
+away_powerplay_second_period: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 3
 away_take_the_lead_goals_against: 2

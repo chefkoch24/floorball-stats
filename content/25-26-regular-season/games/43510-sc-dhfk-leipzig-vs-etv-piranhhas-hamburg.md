@@ -1,7 +1,7 @@
 Date: 2026-03-15
 Title: 43510-sc-dhfk-leipzig-vs-etv-piranhhas-hamburg
 Category: 25-26-regular-season, game
-Slug: 43510-sc-dhfk-leipzig-vs-etv-piranhhas-hamburg
+Slug: 43510-sc-dhfk-leipzig-vs-etv-piranhhas-hamburg-25-26-regular-season
 type: game
 game_id: 43510
 home_team: SC DHfK Leipzig

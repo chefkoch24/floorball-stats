@@ -1,12 +1,12 @@
 Date: 2025-12-05
 Title: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku
+Slug: tps-fbc-turku-5-12-2025-tps-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: tps-fbc-turku-5-12-2025
 home_team: TPS
 away_team: FBC Turku
-attendance: 606.0
+attendance: 606
 away_goal_diffs_csv: 0,0
 away_goal_minutes_csv: 23.33,31.48
 away_major_penalty_minutes_csv: 

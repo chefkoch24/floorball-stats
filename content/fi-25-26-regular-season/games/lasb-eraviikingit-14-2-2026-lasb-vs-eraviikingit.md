@@ -1,12 +1,12 @@
 Date: 2026-02-14
 Title: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit
+Slug: lasb-eraviikingit-14-2-2026-lasb-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: lasb-eraviikingit-14-2-2026
 home_team: LASB
 away_team: EräViikingit
-attendance: 273.0
+attendance: 273
 away_goal_diffs_csv: 0,-1,-2,-1,-2,-2
 away_goal_minutes_csv: 6.97,8.93,13.77,28.2,28.97,37.62
 away_major_penalty_minutes_csv: 

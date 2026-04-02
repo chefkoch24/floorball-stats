@@ -1,7 +1,7 @@
 Date: 2026-03-07
 Title: 43528-sc-dhfk-leipzig-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43528-sc-dhfk-leipzig-vs-ssf-dragons-bonn
+Slug: 43528-sc-dhfk-leipzig-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43528
 home_team: SC DHfK Leipzig
@@ -77,9 +77,9 @@ timeline_home_goals_csv: 0,0,1,2,3,3,3,3,3,4,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,1.25,2.48,16.9,22.23,29.8,32.5,33.35,36.87,40.73,46.28,66.83
 home_away_points: 0
-home_boxplay: 4
-home_boxplay_efficiency: 50.0
-home_boxplay_first_period: 0
+home_boxplay: 5
+home_boxplay_efficiency: 60.0
+home_boxplay_first_period: 1
 home_boxplay_overtime: 1
 home_boxplay_second_period: 3
 home_boxplay_third_period: 0
@@ -323,9 +323,9 @@ away_points_after_third_period: 1
 away_points_against_sc_dhfk_leipzig: 2
 away_points_max_difference_2: 2
 away_points_more_2_difference: 0
-away_powerplay: 4
-away_powerplay_efficiency: 50.0
-away_powerplay_first_period: 0
+away_powerplay: 5
+away_powerplay_efficiency: 40.0
+away_powerplay_first_period: 1
 away_powerplay_overtime: 1
 away_powerplay_second_period: 3
 away_powerplay_third_period: 0

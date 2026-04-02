@@ -6,11 +6,11 @@ type: team
 team:Visby IBK
 platzierungsverlauf:se-25-26-regular-season/teams/visby-ibk-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 8
-boxplay: 26
-boxplay_efficiency: 42.31
-boxplay_first_period: 7
+boxplay: 27
+boxplay_efficiency: 44.440000000000005
+boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 1.0
+boxplay_per_game: 1.04
 boxplay_second_period: 12
 boxplay_third_period: 7
 close_game_loss: 7

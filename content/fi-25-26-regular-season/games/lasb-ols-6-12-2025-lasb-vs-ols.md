@@ -1,12 +1,12 @@
 Date: 2025-12-06
 Title: lasb-ols-6-12-2025-lasb-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: lasb-ols-6-12-2025-lasb-vs-ols
+Slug: lasb-ols-6-12-2025-lasb-vs-ols-fi-25-26-regular-season
 type: game
 game_id: lasb-ols-6-12-2025
 home_team: LASB
 away_team: OLS
-attendance: 217.0
+attendance: 217
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-5,-4,-5
 away_goal_minutes_csv: 4.63,8.05,10.25,22.6,23.95,37.7,56.03,58.75
 away_major_penalty_minutes_csv: 

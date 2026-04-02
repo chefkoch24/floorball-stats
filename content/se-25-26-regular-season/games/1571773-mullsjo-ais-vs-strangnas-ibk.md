@@ -1,7 +1,7 @@
 Date: 2025-09-24
 Title: 1571773-mullsjo-ais-vs-strangnas-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571773-mullsjo-ais-vs-strangnas-ibk
+Slug: 1571773-mullsjo-ais-vs-strangnas-ibk-se-25-26-regular-season
 type: game
 game_id: 1571773
 home_team: Mullsjö AIS

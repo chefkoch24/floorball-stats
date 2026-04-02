@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 1571916-ibf-falun-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571916-ibf-falun-vs-pixbo-ibk
+Slug: 1571916-ibf-falun-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571916
 home_team: IBF Falun

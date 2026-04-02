@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1571832-aik-ibf-vs-pixbo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571832-aik-ibf-vs-pixbo-ibk
+Slug: 1571832-aik-ibf-vs-pixbo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571832
 home_team: AIK IBF
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,0,0,1,1,2,2,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.12,17.48,21.95,28.67,36.12,47.98,52.17,55.28
 home_away_points: 0
-home_boxplay: 2
-home_boxplay_efficiency: 50.0
+home_boxplay: 3
+home_boxplay_efficiency: 66.67
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 1
 home_close_game_loss: 1
 home_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 3
 away_points_against_aik_ibf: 3
 away_points_max_difference_2: 3
 away_points_more_2_difference: 0
-away_powerplay: 2
-away_powerplay_efficiency: 50.0
+away_powerplay: 3
+away_powerplay_efficiency: 33.33
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0

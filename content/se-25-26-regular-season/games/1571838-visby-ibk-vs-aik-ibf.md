@@ -1,7 +1,7 @@
 Date: 2025-11-29
 Title: 1571838-visby-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571838-visby-ibk-vs-aik-ibf
+Slug: 1571838-visby-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571838
 home_team: Visby IBK

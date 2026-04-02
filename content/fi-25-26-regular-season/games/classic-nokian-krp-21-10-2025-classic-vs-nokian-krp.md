@@ -1,12 +1,12 @@
 Date: 2025-10-21
 Title: classic-nokian-krp-21-10-2025-classic-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: classic-nokian-krp-21-10-2025-classic-vs-nokian-krp
+Slug: classic-nokian-krp-21-10-2025-classic-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: classic-nokian-krp-21-10-2025
 home_team: Classic
 away_team: Nokian KrP
-attendance: 1011.0
+attendance: 1011
 away_goal_diffs_csv: -1,-1,-1,-1
 away_goal_minutes_csv: 13.73,24.55,33.45,54.4
 away_major_penalty_minutes_csv: 

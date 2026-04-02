@@ -1,12 +1,12 @@
 Date: 2025-10-17
 Title: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku
+Slug: lasb-fbc-turku-17-10-2025-lasb-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: lasb-fbc-turku-17-10-2025
 home_team: LASB
 away_team: FBC Turku
-attendance: 261.0
+attendance: 261
 away_goal_diffs_csv: -1,0,-1,-2
 away_goal_minutes_csv: 2.0,49.7,55.67,56.43
 away_major_penalty_minutes_csv: 

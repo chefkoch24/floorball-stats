@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 43515-berlin-rockets-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43515-berlin-rockets-vs-unihockey-igels-dresden
+Slug: 43515-berlin-rockets-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43515
 home_team: Berlin Rockets

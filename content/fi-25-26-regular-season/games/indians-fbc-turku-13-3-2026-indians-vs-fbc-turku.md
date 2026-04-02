@@ -1,12 +1,12 @@
 Date: 2026-03-13
 Title: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku
+Slug: indians-fbc-turku-13-3-2026-indians-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: indians-fbc-turku-13-3-2026
 home_team: Indians
 away_team: FBC Turku
-attendance: 432.0
+attendance: 432
 away_goal_diffs_csv: 4,5,4,4,3
 away_goal_minutes_csv: 34.35,40.1,49.32,55.85,59.58
 away_major_penalty_minutes_csv: 56.1

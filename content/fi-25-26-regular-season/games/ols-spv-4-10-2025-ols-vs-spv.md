@@ -1,12 +1,12 @@
 Date: 2025-10-04
 Title: ols-spv-4-10-2025-ols-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: ols-spv-4-10-2025-ols-vs-spv
+Slug: ols-spv-4-10-2025-ols-vs-spv-fi-25-26-regular-season
 type: game
 game_id: ols-spv-4-10-2025
 home_team: OLS
 away_team: SPV
-attendance: 712.0
+attendance: 712
 away_goal_diffs_csv: -1,-2,-3,-3,-3,-1,-2,-3
 away_goal_minutes_csv: 1.62,10.35,15.08,23.95,30.8,46.63,55.7,59.43
 away_major_penalty_minutes_csv: 

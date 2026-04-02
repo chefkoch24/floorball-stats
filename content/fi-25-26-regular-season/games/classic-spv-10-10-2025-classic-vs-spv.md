@@ -1,12 +1,12 @@
 Date: 2025-10-10
 Title: classic-spv-10-10-2025-classic-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: classic-spv-10-10-2025-classic-vs-spv
+Slug: classic-spv-10-10-2025-classic-vs-spv-fi-25-26-regular-season
 type: game
 game_id: classic-spv-10-10-2025
 home_team: Classic
 away_team: SPV
-attendance: 1099.0
+attendance: 1099
 away_goal_diffs_csv: 2,2,1
 away_goal_minutes_csv: 44.87,55.22,55.7
 away_major_penalty_minutes_csv: 

@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 1571913-mullsjo-ais-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571913-mullsjo-ais-vs-storvreta-ibk
+Slug: 1571913-mullsjo-ais-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571913
 home_team: Mullsjö AIS

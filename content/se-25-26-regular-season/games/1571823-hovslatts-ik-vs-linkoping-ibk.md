@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 1571823-hovslatts-ik-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571823-hovslatts-ik-vs-linkoping-ibk
+Slug: 1571823-hovslatts-ik-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571823
 home_team: Hovslätts IK

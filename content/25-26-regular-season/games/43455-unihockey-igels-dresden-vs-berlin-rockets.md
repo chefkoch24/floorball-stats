@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 43455-unihockey-igels-dresden-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43455-unihockey-igels-dresden-vs-berlin-rockets
+Slug: 43455-unihockey-igels-dresden-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43455
 home_team: Unihockey Igels Dresden

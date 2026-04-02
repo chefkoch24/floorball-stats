@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1571830-strangnas-ibk-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571830-strangnas-ibk-vs-hovslatts-ik
+Slug: 1571830-strangnas-ibk-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571830
 home_team: Strängnäs IBK

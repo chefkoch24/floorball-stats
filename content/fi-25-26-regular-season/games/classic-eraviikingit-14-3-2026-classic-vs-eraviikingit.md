@@ -1,12 +1,12 @@
 Date: 2026-03-14
 Title: classic-eraviikingit-14-3-2026-classic-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: classic-eraviikingit-14-3-2026-classic-vs-eraviikingit
+Slug: classic-eraviikingit-14-3-2026-classic-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: classic-eraviikingit-14-3-2026
 home_team: Classic
 away_team: EräViikingit
-attendance: 639.0
+attendance: 639
 away_goal_diffs_csv: 0,-1,-2,2,7
 away_goal_minutes_csv: 4.28,5.43,7.88,31.37,53.88
 away_major_penalty_minutes_csv: 
@@ -96,22 +96,22 @@ home_points_after_third_period: 3
 home_points_against_eraviikingit: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 3
+home_powerplay: 5
 home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
-home_powerplay_second_period: 1
+home_powerplay_second_period: 3
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 3
+away_boxplay: 5
 away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
-away_boxplay_second_period: 1
+away_boxplay_second_period: 3
 away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0

@@ -1,7 +1,7 @@
 Date: 2026-01-17
 Title: 43501-uhc-sparkasse-weissenfels-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43501-uhc-sparkasse-weissenfels-vs-ssf-dragons-bonn
+Slug: 43501-uhc-sparkasse-weissenfels-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43501
 home_team: UHC Sparkasse Weißenfels

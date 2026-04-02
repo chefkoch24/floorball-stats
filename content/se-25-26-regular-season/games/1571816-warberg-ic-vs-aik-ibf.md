@@ -1,7 +1,7 @@
 Date: 2025-11-02
 Title: 1571816-warberg-ic-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571816-warberg-ic-vs-aik-ibf
+Slug: 1571816-warberg-ic-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571816
 home_team: Warberg IC

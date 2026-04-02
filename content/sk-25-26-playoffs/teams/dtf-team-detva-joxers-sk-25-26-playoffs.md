@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-18
 Title: DTF team Detva Joxers
 Category: sk-25-26-playoffs, teams
 Slug: dtf-team-detva-joxers-sk-25-26-playoffs-sk-25-26-playoffs
@@ -15,12 +15,17 @@ boxplay_second_period: 0
 boxplay_third_period: 3
 close_game_loss: 1
 close_game_overtime: 0
+close_game_points_per_game: 0.0
+close_game_points_share: 0.0
 close_game_win: 0
+close_games: 1
 draws: 0
 equalizer_goals: 0
 equalizer_goals_against: 3
 first_goal_of_match: 2
 first_goal_of_match_against: 1
+first_period_goals_against_per_game: 2.0
+first_period_goals_per_game: 0.67
 games: 3
 goal_difference: -12
 goal_difference_per_game: -4.0
@@ -29,6 +34,7 @@ goals_against: 26
 goals_against_away: 20
 goals_against_home: 6
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 1.33
 goals_against_in_powerplay: 4
 goals_against_per_game: 8.67
 goals_away: 10
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 0
 penalties: 7
+penalties_per_game: 2.33
 penalty_10: 2
 penalty_2: 5
 penalty_2and2: 0
@@ -77,19 +84,20 @@ points_after_55_min: 0
 points_after_58_min: 0
 points_after_59_min: 0
 points_after_first_period: 2
+points_after_first_period_per_game: 0.67
 points_after_second_period: 0
 points_after_third_period: 0
 Tags:  VŠK FTVŠ UK Hurikán Bratislava: 0,
 points_max_difference_2: 0
 points_more_2_difference: 0
 points_per_game: 0.0
-powerplay: 11
-powerplay_efficiency: 27.27
+powerplay: 12
+powerplay_efficiency: 25.0
 powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 3.67
+powerplay_per_game: 4.0
 powerplay_second_period: 4
-powerplay_third_period: 5
+powerplay_third_period: 6
 rank: 10
 scoring_ratio: 0.54
 take_the_lead_goals: 3

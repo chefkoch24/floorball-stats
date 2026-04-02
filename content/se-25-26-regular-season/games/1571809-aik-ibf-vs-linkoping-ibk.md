@@ -1,7 +1,7 @@
 Date: 2025-10-27
 Title: 1571809-aik-ibf-vs-linkoping-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571809-aik-ibf-vs-linkoping-ibk
+Slug: 1571809-aik-ibf-vs-linkoping-ibk-se-25-26-regular-season
 type: game
 game_id: 1571809
 home_team: AIK IBF

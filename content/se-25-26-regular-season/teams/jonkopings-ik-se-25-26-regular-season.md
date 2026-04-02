@@ -40,7 +40,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 1
 goals_in_penalty_shootout_against: 1
-goals_in_powerplay: 16
+goals_in_powerplay: 15
 goals_in_second_period: 34
 goals_in_second_period_against: 57
 goals_in_third_period: 63
@@ -83,13 +83,13 @@ Tags:  AIK IBF: 5,  FBC Kalmarsund: 1,  Hovslätts IK: 3,  IBF Falun: 0,  Linkö
 points_max_difference_2: 21
 points_more_2_difference: 15
 points_per_game: 1.38
-powerplay: 41
-powerplay_efficiency: 39.019999999999996
+powerplay: 39
+powerplay_efficiency: 38.46
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 1.58
-powerplay_second_period: 20
-powerplay_third_period: 14
+powerplay_per_game: 1.5
+powerplay_second_period: 19
+powerplay_third_period: 13
 rank: 9
 scoring_ratio: 0.89
 take_the_lead_goals: 32

@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 43523-djk-holzbuttgen-vs-unihockey-igels-dresden
 Category: 25-26-regular-season, game
-Slug: 43523-djk-holzbuttgen-vs-unihockey-igels-dresden
+Slug: 43523-djk-holzbuttgen-vs-unihockey-igels-dresden-25-26-regular-season
 type: game
 game_id: 43523
 home_team: DJK Holzbüttgen

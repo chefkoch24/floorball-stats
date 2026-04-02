@@ -1,7 +1,7 @@
 Date: 2026-01-05
 Title: 1571867-linkoping-ibk-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571867-linkoping-ibk-vs-fbc-kalmarsund
+Slug: 1571867-linkoping-ibk-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571867
 home_team: Linköping IBK

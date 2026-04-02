@@ -1,12 +1,12 @@
 Date: 2026-02-16
 Title: oilers-tps-16-2-2026-oilers-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: oilers-tps-16-2-2026-oilers-vs-tps
+Slug: oilers-tps-16-2-2026-oilers-vs-tps-fi-25-26-regular-season
 type: game
 game_id: oilers-tps-16-2-2026
 home_team: Oilers
 away_team: TPS
-attendance: 613.0
+attendance: 613
 away_goal_diffs_csv: -1,-2,-3,1,2,1,0,-1
 away_goal_minutes_csv: 5.47,6.68,11.88,39.77,44.23,47.65,50.25,55.18
 away_major_penalty_minutes_csv: 

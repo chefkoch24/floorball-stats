@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 43537-sc-dhfk-leipzig-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43537-sc-dhfk-leipzig-vs-floor-fighters-chemnitz
+Slug: 43537-sc-dhfk-leipzig-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43537
 home_team: SC DHfK Leipzig

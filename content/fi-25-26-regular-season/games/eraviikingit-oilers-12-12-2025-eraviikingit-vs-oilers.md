@@ -1,12 +1,12 @@
 Date: 2025-12-12
 Title: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers
+Slug: eraviikingit-oilers-12-12-2025-eraviikingit-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-oilers-12-12-2025
 home_team: EräViikingit
 away_team: Oilers
-attendance: 356.0
+attendance: 356
 away_goal_diffs_csv: 0,-1,0,-1,-2
 away_goal_minutes_csv: 12.93,15.1,41.08,50.9,55.32
 away_major_penalty_minutes_csv: 

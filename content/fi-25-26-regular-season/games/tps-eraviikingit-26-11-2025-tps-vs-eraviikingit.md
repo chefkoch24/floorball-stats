@@ -1,12 +1,12 @@
 Date: 2025-11-26
 Title: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit
+Slug: tps-eraviikingit-26-11-2025-tps-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: tps-eraviikingit-26-11-2025
 home_team: TPS
 away_team: EräViikingit
-attendance: 487.0
+attendance: 487
 away_goal_diffs_csv: 2,1
 away_goal_minutes_csv: 36.88,42.17
 away_major_penalty_minutes_csv: 

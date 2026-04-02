@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 1571766-ibf-falun-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571766-ibf-falun-vs-warberg-ic
+Slug: 1571766-ibf-falun-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571766
 home_team: IBF Falun
@@ -32,11 +32,11 @@ timeline_home_goals_csv: 0,1,1,2,3,4,5,6,6,7,8,9,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.1,7.13,20.85,24.78,29.32,35.22,36.35,44.33,47.92,50.67,53.33,55.25
 home_away_points: 0
-home_boxplay: 1
+home_boxplay: 2
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
+home_boxplay_second_period: 1
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -96,22 +96,22 @@ home_points_after_third_period: 3
 home_points_against_warberg_ic: 3
 home_points_max_difference_2: 0
 home_points_more_2_difference: 3
-home_powerplay: 3
-home_powerplay_efficiency: 66.67
+home_powerplay: 4
+home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
-home_powerplay_second_period: 2
+home_powerplay_second_period: 3
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 1
 away_away_points: 0
-away_boxplay: 3
-away_boxplay_efficiency: 33.33
+away_boxplay: 4
+away_boxplay_efficiency: 50.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
-away_boxplay_second_period: 2
+away_boxplay_second_period: 3
 away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -171,11 +171,11 @@ away_points_after_third_period: 0
 away_points_against_ibf_falun: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 1
+away_powerplay: 2
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
+away_powerplay_second_period: 1
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 2

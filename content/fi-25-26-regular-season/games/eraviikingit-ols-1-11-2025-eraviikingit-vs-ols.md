@@ -1,12 +1,12 @@
 Date: 2025-11-01
 Title: eraviikingit-ols-1-11-2025-eraviikingit-vs-ols
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-ols-1-11-2025-eraviikingit-vs-ols
+Slug: eraviikingit-ols-1-11-2025-eraviikingit-vs-ols-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-ols-1-11-2025
 home_team: EräViikingit
 away_team: OLS
-attendance: 451.0
+attendance: 451
 away_goal_diffs_csv: -1,-1,-2,-3,-4,-5
 away_goal_minutes_csv: 7.1,27.87,28.25,32.8,45.43,58.93
 away_major_penalty_minutes_csv: 

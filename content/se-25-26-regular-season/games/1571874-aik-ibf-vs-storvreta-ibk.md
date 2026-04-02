@@ -1,7 +1,7 @@
 Date: 2026-01-10
 Title: 1571874-aik-ibf-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571874-aik-ibf-vs-storvreta-ibk
+Slug: 1571874-aik-ibf-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571874
 home_team: AIK IBF

@@ -1,12 +1,12 @@
 Date: 2025-11-28
 Title: oilers-tps-28-11-2025-oilers-vs-tps
 Category: fi-25-26-regular-season, game
-Slug: oilers-tps-28-11-2025-oilers-vs-tps
+Slug: oilers-tps-28-11-2025-oilers-vs-tps-fi-25-26-regular-season
 type: game
 game_id: oilers-tps-28-11-2025
 home_team: Oilers
 away_team: TPS
-attendance: 519.0
+attendance: 519
 away_goal_diffs_csv: 2,3,3,7,7
 away_goal_minutes_csv: 9.82,22.0,27.25,44.82,55.38
 away_major_penalty_minutes_csv: 

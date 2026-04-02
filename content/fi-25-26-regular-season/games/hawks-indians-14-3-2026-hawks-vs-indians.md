@@ -1,12 +1,12 @@
 Date: 2026-03-14
 Title: hawks-indians-14-3-2026-hawks-vs-indians
 Category: fi-25-26-regular-season, game
-Slug: hawks-indians-14-3-2026-hawks-vs-indians
+Slug: hawks-indians-14-3-2026-hawks-vs-indians-fi-25-26-regular-season
 type: game
 game_id: hawks-indians-14-3-2026
 home_team: Hawks
 away_team: Indians
-attendance: 347.0
+attendance: 347
 away_goal_diffs_csv: 0,-1,0,2
 away_goal_minutes_csv: 3.5,4.07,19.13,53.82
 away_major_penalty_minutes_csv: 

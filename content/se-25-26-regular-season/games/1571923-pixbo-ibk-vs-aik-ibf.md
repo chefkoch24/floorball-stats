@@ -1,7 +1,7 @@
 Date: 2026-02-28
 Title: 1571923-pixbo-ibk-vs-aik-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571923-pixbo-ibk-vs-aik-ibf
+Slug: 1571923-pixbo-ibk-vs-aik-ibf-se-25-26-regular-season
 type: game
 game_id: 1571923
 home_team: Pixbo IBK

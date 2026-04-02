@@ -1,7 +1,7 @@
 Date: 2026-01-27
 Title: 1571892-jonkopings-ik-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571892-jonkopings-ik-vs-ibf-falun
+Slug: 1571892-jonkopings-ik-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571892
 home_team: Jönköpings IK

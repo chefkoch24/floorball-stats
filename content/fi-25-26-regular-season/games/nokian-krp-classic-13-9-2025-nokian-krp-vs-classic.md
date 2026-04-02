@@ -1,12 +1,12 @@
 Date: 2025-09-13
 Title: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic
+Slug: nokian-krp-classic-13-9-2025-nokian-krp-vs-classic-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-classic-13-9-2025
 home_team: Nokian KrP
 away_team: Classic
-attendance: 757.0
+attendance: 757
 away_goal_diffs_csv: -1,-2,-1,1,1,0,-1,-2
 away_goal_minutes_csv: 3.22,4.38,14.97,22.5,43.5,47.98,52.17,56.35
 away_major_penalty_minutes_csv: 

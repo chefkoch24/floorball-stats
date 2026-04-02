@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-18
 Title: FaBK ATU Košice
 Category: sk-25-26-playoffs, teams
 Slug: fabk-atu-kosice-sk-25-26-playoffs-sk-25-26-playoffs
@@ -15,20 +15,26 @@ boxplay_second_period: 3
 boxplay_third_period: 3
 close_game_loss: 1
 close_game_overtime: 1
+close_game_points_per_game: 0.67
+close_game_points_share: 22.220000000000002
 close_game_win: 1
+close_games: 3
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 3
 first_goal_of_match: 0
 first_goal_of_match_against: 4
+first_period_goals_against_per_game: 2.0
+first_period_goals_per_game: 1.25
 games: 4
 goal_difference: -14
 goal_difference_per_game: -3.5
 goals: 14
 goals_against: 28
-goals_against_away: 18
+goals_against_away: 17
 goals_against_home: 10
 goals_against_in_boxplay: 2
+goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 7.0
 goals_away: 6
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 1
 penalties: 7
+penalties_per_game: 1.75
 penalty_10: 0
 penalty_2: 7
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 1
 points_after_58_min: 1
 points_after_59_min: 1
 points_after_first_period: 4
+points_after_first_period_per_game: 1.0
 points_after_second_period: 1
 points_after_third_period: 1
 Tags:  FBC Grasshoppers AC UNIZA Žilina: 2,

@@ -6,12 +6,12 @@ type: team
 team:IBF Falun
 platzierungsverlauf:se-25-26-regular-season/teams/ibf-falun-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 25
-boxplay: 24
-boxplay_efficiency: 79.17
+boxplay: 26
+boxplay_efficiency: 80.77
 boxplay_first_period: 4
 boxplay_overtime: 0
-boxplay_per_game: 0.92
-boxplay_second_period: 13
+boxplay_per_game: 1.0
+boxplay_second_period: 15
 boxplay_third_period: 7
 close_game_loss: 7
 close_game_overtime: 6
@@ -83,13 +83,13 @@ Tags:  AIK IBF: 6,  FBC Kalmarsund: 3,  Hovslätts IK: 3,  Jönköpings IK: 6,  
 points_max_difference_2: 17
 points_more_2_difference: 36
 points_per_game: 2.04
-powerplay: 25
-powerplay_efficiency: 56.00000000000001
-powerplay_first_period: 7
+powerplay: 28
+powerplay_efficiency: 50.0
+powerplay_first_period: 8
 powerplay_overtime: 0
-powerplay_per_game: 0.96
-powerplay_second_period: 8
-powerplay_third_period: 10
+powerplay_per_game: 1.08
+powerplay_second_period: 9
+powerplay_third_period: 11
 rank: 2
 scoring_ratio: 1.38
 take_the_lead_goals: 39

@@ -1,12 +1,12 @@
 Date: 2025-10-04
 Title: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit
+Slug: hawks-eraviikingit-4-10-2025-hawks-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: hawks-eraviikingit-4-10-2025
 home_team: Hawks
 away_team: EräViikingit
-attendance: 498.0
+attendance: 498
 away_goal_diffs_csv: -1,-1,-2,-1
 away_goal_minutes_csv: 13.6,37.53,37.98,65.0
 away_major_penalty_minutes_csv: 

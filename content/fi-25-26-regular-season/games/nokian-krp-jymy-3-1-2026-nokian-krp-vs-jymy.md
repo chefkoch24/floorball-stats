@@ -1,12 +1,12 @@
 Date: 2026-01-03
 Title: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy
+Slug: nokian-krp-jymy-3-1-2026-nokian-krp-vs-jymy-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-jymy-3-1-2026
 home_team: Nokian KrP
 away_team: Jymy
-attendance: 377.0
+attendance: 377
 away_goal_diffs_csv: 1,0,3,5,5
 away_goal_minutes_csv: 6.62,16.52,44.03,53.72,59.42
 away_major_penalty_minutes_csv: 50.98

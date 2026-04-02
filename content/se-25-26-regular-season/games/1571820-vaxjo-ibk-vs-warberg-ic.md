@@ -1,7 +1,7 @@
 Date: 2025-11-14
 Title: 1571820-vaxjo-ibk-vs-warberg-ic
 Category: se-25-26-regular-season, game
-Slug: 1571820-vaxjo-ibk-vs-warberg-ic
+Slug: 1571820-vaxjo-ibk-vs-warberg-ic-se-25-26-regular-season
 type: game
 game_id: 1571820
 home_team: Växjö IBK

@@ -1,12 +1,12 @@
 Date: 2025-09-17
 Title: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp
 Category: fi-25-26-regular-season, game
-Slug: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp
+Slug: lasb-nokian-krp-17-9-2025-lasb-vs-nokian-krp-fi-25-26-regular-season
 type: game
 game_id: lasb-nokian-krp-17-9-2025
 home_team: LASB
 away_team: Nokian KrP
-attendance: 290.0
+attendance: 290
 away_goal_diffs_csv: -1,0,-1,-2,-3,-4,-5,-6,-7,-8
 away_goal_minutes_csv: 0.4,20.73,24.68,26.98,32.3,32.65,33.0,50.03,54.07,56.23
 away_major_penalty_minutes_csv: 

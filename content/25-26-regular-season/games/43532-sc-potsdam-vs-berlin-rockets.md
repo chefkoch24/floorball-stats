@@ -1,7 +1,7 @@
 Date: 2026-03-14
 Title: 43532-sc-potsdam-vs-berlin-rockets
 Category: 25-26-regular-season, game
-Slug: 43532-sc-potsdam-vs-berlin-rockets
+Slug: 43532-sc-potsdam-vs-berlin-rockets-25-26-regular-season
 type: game
 game_id: 43532
 home_team: SC Potsdam

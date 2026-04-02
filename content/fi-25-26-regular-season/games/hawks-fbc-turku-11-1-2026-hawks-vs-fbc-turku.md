@@ -1,12 +1,12 @@
 Date: 2026-01-11
 Title: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku
+Slug: hawks-fbc-turku-11-1-2026-hawks-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: hawks-fbc-turku-11-1-2026
 home_team: Hawks
 away_team: FBC Turku
-attendance: 295.0
+attendance: 295
 away_goal_diffs_csv: 0,1
 away_goal_minutes_csv: 25.77,58.48
 away_major_penalty_minutes_csv: 

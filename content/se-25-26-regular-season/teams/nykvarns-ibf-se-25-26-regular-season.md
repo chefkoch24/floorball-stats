@@ -6,13 +6,13 @@ type: team
 team:Nykvarns IBF
 platzierungsverlauf:se-25-26-regular-season/teams/nykvarns-ibf-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 13
-boxplay: 30
-boxplay_efficiency: 46.67
-boxplay_first_period: 6
+boxplay: 32
+boxplay_efficiency: 50.0
+boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 1.15
+boxplay_per_game: 1.23
 boxplay_second_period: 9
-boxplay_third_period: 15
+boxplay_third_period: 16
 close_game_loss: 7
 close_game_overtime: 8
 close_game_win: 11
@@ -83,13 +83,13 @@ Tags:  AIK IBF: 5,  FBC Kalmarsund: 3,  Hovslätts IK: 6,  IBF Falun: 4,  Jönk�
 points_max_difference_2: 31
 points_more_2_difference: 6
 points_per_game: 1.42
-powerplay: 28
-powerplay_efficiency: 32.14
+powerplay: 29
+powerplay_efficiency: 31.03
 powerplay_first_period: 7
 powerplay_overtime: 0
-powerplay_per_game: 1.08
+powerplay_per_game: 1.12
 powerplay_second_period: 11
-powerplay_third_period: 10
+powerplay_third_period: 11
 rank: 8
 scoring_ratio: 0.93
 take_the_lead_goals: 32

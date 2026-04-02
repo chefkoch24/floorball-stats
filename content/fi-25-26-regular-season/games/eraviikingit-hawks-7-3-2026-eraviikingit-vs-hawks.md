@@ -1,12 +1,12 @@
 Date: 2026-03-07
 Title: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks
+Slug: eraviikingit-hawks-7-3-2026-eraviikingit-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: eraviikingit-hawks-7-3-2026
 home_team: EräViikingit
 away_team: Hawks
-attendance: 618.0
+attendance: 618
 away_goal_diffs_csv: -1,-1,-2,-2,-2,-3
 away_goal_minutes_csv: 1.3,23.7,29.42,51.92,59.5,59.6
 away_major_penalty_minutes_csv: 

@@ -1,7 +1,7 @@
 Date: 2026-01-04
 Title: 43497-ssf-dragons-bonn-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43497-ssf-dragons-bonn-vs-sc-potsdam
+Slug: 43497-ssf-dragons-bonn-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43497
 home_team: SSF Dragons Bonn

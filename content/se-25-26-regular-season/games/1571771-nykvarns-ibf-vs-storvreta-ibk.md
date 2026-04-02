@@ -1,7 +1,7 @@
 Date: 2025-09-23
 Title: 1571771-nykvarns-ibf-vs-storvreta-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571771-nykvarns-ibf-vs-storvreta-ibk
+Slug: 1571771-nykvarns-ibf-vs-storvreta-ibk-se-25-26-regular-season
 type: game
 game_id: 1571771
 home_team: Nykvarns IBF

@@ -1,7 +1,7 @@
 Date: 2026-01-28
 Title: 1571894-warberg-ic-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571894-warberg-ic-vs-nykvarns-ibf
+Slug: 1571894-warberg-ic-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571894
 home_team: Warberg IC

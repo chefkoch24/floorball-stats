@@ -1,12 +1,12 @@
 Date: 2025-12-27
 Title: hawks-oilers-27-12-2025-hawks-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: hawks-oilers-27-12-2025-hawks-vs-oilers
+Slug: hawks-oilers-27-12-2025-hawks-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: hawks-oilers-27-12-2025
 home_team: Hawks
 away_team: Oilers
-attendance: 421.0
+attendance: 421
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-8,-9,-10,-11,-11
 away_goal_minutes_csv: 7.53,17.52,21.45,27.07,28.05,28.75,37.15,38.1,46.82,48.57,50.78,51.62,57.7
 away_major_penalty_minutes_csv: 
@@ -96,23 +96,23 @@ home_points_after_third_period: 0
 home_points_against_oilers: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 2
+home_powerplay: 3
 home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 1
+home_powerplay_third_period: 2
 home_take_the_lead_goals: 0
 home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
 away_away_points: 3
-away_boxplay: 2
+away_boxplay: 3
 away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 1
+away_boxplay_third_period: 2
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0

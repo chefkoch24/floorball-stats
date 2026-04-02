@@ -1,7 +1,7 @@
 Date: 2025-10-15
 Title: 1571799-strangnas-ibk-vs-fbc-kalmarsund
 Category: se-25-26-regular-season, game
-Slug: 1571799-strangnas-ibk-vs-fbc-kalmarsund
+Slug: 1571799-strangnas-ibk-vs-fbc-kalmarsund-se-25-26-regular-season
 type: game
 game_id: 1571799
 home_team: Strängnäs IBK

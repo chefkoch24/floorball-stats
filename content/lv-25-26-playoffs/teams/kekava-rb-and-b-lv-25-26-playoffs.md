@@ -1,4 +1,4 @@
-Date: 2026-03-22
+Date: 2026-03-29
 Title: Ķekava/RB&B
 Category: lv-25-26-playoffs, teams
 Slug: kekava-rb-and-b-lv-25-26-playoffs-lv-25-26-playoffs
@@ -6,33 +6,39 @@ type: team
 team:Ķekava/RB&B
 platzierungsverlauf:lv-25-26-playoffs/teams/kekava-rb-and-b-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 5
-boxplay: 24
-boxplay_efficiency: 83.33
+boxplay: 26
+boxplay_efficiency: 84.62
 boxplay_first_period: 10
 boxplay_overtime: 0
-boxplay_per_game: 3.43
+boxplay_per_game: 3.71
 boxplay_second_period: 12
-boxplay_third_period: 2
+boxplay_third_period: 4
 close_game_loss: 1
 close_game_overtime: 0
+close_game_points_per_game: 2.0
+close_game_points_share: 66.67
 close_game_win: 0
+close_games: 1
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 2
 first_goal_of_match: 3
 first_goal_of_match_against: 4
+first_period_goals_against_per_game: 2.0
+first_period_goals_per_game: 1.29
 games: 7
 goal_difference: 1
 goal_difference_per_game: 0.14
 goals: 39
 goals_against: 38
-goals_against_away: 23
+goals_against_away: 21
 goals_against_home: 15
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 0.57
 goals_against_in_powerplay: 0
 goals_against_per_game: 5.43
-goals_away: 20
-goals_home: 19
+goals_away: 19
+goals_home: 18
 goals_in_boxplay: 1
 goals_in_first_period: 9
 goals_in_first_period_against: 14
@@ -52,6 +58,7 @@ losses: 4
 over_time_losses: 0
 over_time_wins: 0
 penalties: 24
+penalties_per_game: 3.43
 penalty_10: 0
 penalty_2: 15
 penalty_2and2: 0
@@ -77,9 +84,10 @@ points_after_55_min: 7
 points_after_58_min: 8
 points_after_59_min: 8
 points_after_first_period: 5
+points_after_first_period_per_game: 0.71
 points_after_second_period: 6
 points_after_third_period: 7
-Tags:  Lekrings: 7,
+Tags:  Lekrings: 8,
 points_max_difference_2: 2
 points_more_2_difference: 6
 points_per_game: 1.14

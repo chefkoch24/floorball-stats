@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 1571785-nykvarns-ibf-vs-mullsjo-ais
 Category: se-25-26-regular-season, game
-Slug: 1571785-nykvarns-ibf-vs-mullsjo-ais
+Slug: 1571785-nykvarns-ibf-vs-mullsjo-ais-se-25-26-regular-season
 type: game
 game_id: 1571785
 home_team: Nykvarns IBF

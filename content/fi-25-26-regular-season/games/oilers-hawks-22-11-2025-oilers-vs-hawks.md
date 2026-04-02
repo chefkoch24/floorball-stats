@@ -1,12 +1,12 @@
 Date: 2025-11-22
 Title: oilers-hawks-22-11-2025-oilers-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: oilers-hawks-22-11-2025-oilers-vs-hawks
+Slug: oilers-hawks-22-11-2025-oilers-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: oilers-hawks-22-11-2025
 home_team: Oilers
 away_team: Hawks
-attendance: 581.0
+attendance: 581
 away_goal_diffs_csv: 7,8
 away_goal_minutes_csv: 40.32,54.38
 away_major_penalty_minutes_csv: 

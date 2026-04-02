@@ -1,12 +1,12 @@
 Date: 2025-09-26
 Title: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit
+Slug: fbc-turku-eraviikingit-26-9-2025-fbc-turku-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-eraviikingit-26-9-2025
 home_team: FBC Turku
 away_team: EräViikingit
-attendance: 462.0
+attendance: 462
 away_goal_diffs_csv: 0,-1,0,0,-1,-2,-3
 away_goal_minutes_csv: 5.28,10.1,24.98,30.23,53.83,55.63,58.15
 away_major_penalty_minutes_csv: 

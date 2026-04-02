@@ -42,3 +42,8 @@ env/
 /output/
 
 .venv
+
+social/output/
+
+.claude
+.worktrees

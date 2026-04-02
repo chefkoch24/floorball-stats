@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-03-25
 Title: Jymy
 Category: fi-25-26-regular-season, teams
 Slug: jymy-fi-25-26-regular-season-fi-25-26-regular-season
@@ -6,13 +6,13 @@ type: team
 team:Jymy
 platzierungsverlauf:fi-25-26-regular-season/teams/jymy-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 6
-boxplay: 53
-boxplay_efficiency: 26.42
-boxplay_first_period: 13
+boxplay: 58
+boxplay_efficiency: 31.03
+boxplay_first_period: 14
 boxplay_overtime: 0
-boxplay_per_game: 1.66
-boxplay_second_period: 14
-boxplay_third_period: 26
+boxplay_per_game: 1.81
+boxplay_second_period: 17
+boxplay_third_period: 27
 close_game_loss: 12
 close_game_overtime: 1
 close_game_win: 6
@@ -28,7 +28,7 @@ goals: 138
 goals_against: 220
 goals_against_away: 117
 goals_against_home: 103
-goals_against_in_boxplay: 39
+goals_against_in_boxplay: 40
 goals_against_in_powerplay: 3
 goals_against_per_game: 6.88
 goals_away: 72
@@ -83,13 +83,13 @@ Tags:  Classic: 0,  EräViikingit: 0,  FBC Turku: 6,  Hawks: 2,  Indians: 0,  LA
 points_max_difference_2: 17
 points_more_2_difference: 3
 points_per_game: 0.62
-powerplay: 49
-powerplay_efficiency: 51.019999999999996
+powerplay: 51
+powerplay_efficiency: 49.02
 powerplay_first_period: 11
 powerplay_overtime: 0
-powerplay_per_game: 1.53
-powerplay_second_period: 21
-powerplay_third_period: 17
+powerplay_per_game: 1.59
+powerplay_second_period: 22
+powerplay_third_period: 18
 rank: 10
 scoring_ratio: 0.63
 take_the_lead_goals: 24

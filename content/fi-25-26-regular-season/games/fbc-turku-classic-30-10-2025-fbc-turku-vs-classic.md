@@ -1,12 +1,12 @@
 Date: 2025-10-30
 Title: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic
+Slug: fbc-turku-classic-30-10-2025-fbc-turku-vs-classic-fi-25-26-regular-season
 type: game
 game_id: fbc-turku-classic-30-10-2025
 home_team: FBC Turku
 away_team: Classic
-attendance: 276.0
+attendance: 276
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11
 away_goal_minutes_csv: 6.93,8.05,25.1,25.65,27.13,37.1,37.9,41.93,42.45,52.38,54.78
 away_major_penalty_minutes_csv: 

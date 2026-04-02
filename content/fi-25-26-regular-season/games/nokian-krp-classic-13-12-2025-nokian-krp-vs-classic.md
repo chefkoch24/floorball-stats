@@ -1,12 +1,12 @@
 Date: 2025-12-13
 Title: nokian-krp-classic-13-12-2025-nokian-krp-vs-classic
 Category: fi-25-26-regular-season, game
-Slug: nokian-krp-classic-13-12-2025-nokian-krp-vs-classic
+Slug: nokian-krp-classic-13-12-2025-nokian-krp-vs-classic-fi-25-26-regular-season
 type: game
 game_id: nokian-krp-classic-13-12-2025
 home_team: Nokian KrP
 away_team: Classic
-attendance: 1005.0
+attendance: 1005
 away_goal_diffs_csv: -1,2,1,0
 away_goal_minutes_csv: 7.63,38.5,41.2,46.18
 away_major_penalty_minutes_csv: 
@@ -96,10 +96,10 @@ home_points_after_third_period: 1
 home_points_against_classic: 2
 home_points_max_difference_2: 2
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
-home_powerplay_first_period: 0
-home_powerplay_overtime: 0
+home_powerplay: 2
+home_powerplay_efficiency: 0.0
+home_powerplay_first_period: 1
+home_powerplay_overtime: 1
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 2
@@ -107,10 +107,10 @@ home_take_the_lead_goals_against: 1
 home_win_1: 1
 home_wins: 0
 away_away_points: 1
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
-away_boxplay_first_period: 0
-away_boxplay_overtime: 0
+away_boxplay: 2
+away_boxplay_efficiency: 100.0
+away_boxplay_first_period: 1
+away_boxplay_overtime: 1
 away_boxplay_second_period: 0
 away_boxplay_third_period: 0
 away_close_game_loss: 1

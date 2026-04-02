@@ -1,7 +1,7 @@
 Date: 2026-02-20
 Title: 1571915-aik-ibf-vs-nykvarns-ibf
 Category: se-25-26-regular-season, game
-Slug: 1571915-aik-ibf-vs-nykvarns-ibf
+Slug: 1571915-aik-ibf-vs-nykvarns-ibf-se-25-26-regular-season
 type: game
 game_id: 1571915
 home_team: AIK IBF

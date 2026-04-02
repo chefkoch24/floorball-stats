@@ -1,7 +1,7 @@
 Date: 2026-03-21
 Title: 43539-blau-weiss-96-schenefeld-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43539-blau-weiss-96-schenefeld-vs-ssf-dragons-bonn
+Slug: 43539-blau-weiss-96-schenefeld-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43539
 home_team: Blau-Weiß 96 Schenefeld

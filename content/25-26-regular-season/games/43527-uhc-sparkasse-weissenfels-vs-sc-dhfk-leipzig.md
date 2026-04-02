@@ -1,7 +1,7 @@
 Date: 2026-03-01
 Title: 43527-uhc-sparkasse-weissenfels-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43527-uhc-sparkasse-weissenfels-vs-sc-dhfk-leipzig
+Slug: 43527-uhc-sparkasse-weissenfels-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43527
 home_team: UHC Sparkasse Weißenfels

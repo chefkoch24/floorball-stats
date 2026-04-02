@@ -1,7 +1,7 @@
 Date: 2025-10-04
 Title: 43453-blau-weiss-96-schenefeld-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43453-blau-weiss-96-schenefeld-vs-mfbc-leipzig
+Slug: 43453-blau-weiss-96-schenefeld-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43453
 home_team: Blau-Weiß 96 Schenefeld

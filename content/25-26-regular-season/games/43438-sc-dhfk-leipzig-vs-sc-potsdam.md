@@ -1,7 +1,7 @@
 Date: 2025-09-20
 Title: 43438-sc-dhfk-leipzig-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43438-sc-dhfk-leipzig-vs-sc-potsdam
+Slug: 43438-sc-dhfk-leipzig-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43438
 home_team: SC DHfK Leipzig

@@ -1,7 +1,7 @@
 Date: 2026-01-06
 Title: 1571865-ibf-falun-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571865-ibf-falun-vs-vaxjo-ibk
+Slug: 1571865-ibf-falun-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571865
 home_team: IBF Falun

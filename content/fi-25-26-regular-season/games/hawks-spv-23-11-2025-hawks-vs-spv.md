@@ -1,12 +1,12 @@
 Date: 2025-11-23
 Title: hawks-spv-23-11-2025-hawks-vs-spv
 Category: fi-25-26-regular-season, game
-Slug: hawks-spv-23-11-2025-hawks-vs-spv
+Slug: hawks-spv-23-11-2025-hawks-vs-spv-fi-25-26-regular-season
 type: game
 game_id: hawks-spv-23-11-2025
 home_team: Hawks
 away_team: SPV
-attendance: 371.0
+attendance: 371
 away_goal_diffs_csv: -1,-2,-3,-4,-5
 away_goal_minutes_csv: 5.03,26.45,31.77,35.22,40.8
 away_major_penalty_minutes_csv: 

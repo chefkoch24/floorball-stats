@@ -1,12 +1,12 @@
 Date: 2026-01-24
 Title: jymy-lasb-24-1-2026-jymy-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: jymy-lasb-24-1-2026-jymy-vs-lasb
+Slug: jymy-lasb-24-1-2026-jymy-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: jymy-lasb-24-1-2026
 home_team: Jymy
 away_team: LASB
-attendance: 249.0
+attendance: 249
 away_goal_diffs_csv: -1,-1,-1,1
 away_goal_minutes_csv: 3.83,18.92,28.53,50.33
 away_major_penalty_minutes_csv: 

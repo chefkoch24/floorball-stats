@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 43450-unihockey-igels-dresden-vs-floor-fighters-chemnitz
 Category: 25-26-regular-season, game
-Slug: 43450-unihockey-igels-dresden-vs-floor-fighters-chemnitz
+Slug: 43450-unihockey-igels-dresden-vs-floor-fighters-chemnitz-25-26-regular-season
 type: game
 game_id: 43450
 home_team: Unihockey Igels Dresden

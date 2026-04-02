@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 43477-etv-piranhhas-hamburg-vs-mfbc-leipzig
 Category: 25-26-regular-season, game
-Slug: 43477-etv-piranhhas-hamburg-vs-mfbc-leipzig
+Slug: 43477-etv-piranhhas-hamburg-vs-mfbc-leipzig-25-26-regular-season
 type: game
 game_id: 43477
 home_team: ETV Piranhhas Hamburg
@@ -77,7 +77,7 @@ timeline_home_goals_csv: 0,1,2,3,4,4,4,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.3,24.28,38.82,40.72,48.28,50.85,54.42,59.83
 home_away_points: 0
-home_boxplay: 3
+home_boxplay: 4
 home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
@@ -323,7 +323,7 @@ away_points_after_third_period: 0
 away_points_against_etv_piranhhas_hamburg: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
-away_powerplay: 3
+away_powerplay: 4
 away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0

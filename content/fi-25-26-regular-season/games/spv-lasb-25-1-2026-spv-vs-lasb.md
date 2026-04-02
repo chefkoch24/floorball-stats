@@ -1,12 +1,12 @@
 Date: 2026-01-25
 Title: spv-lasb-25-1-2026-spv-vs-lasb
 Category: fi-25-26-regular-season, game
-Slug: spv-lasb-25-1-2026-spv-vs-lasb
+Slug: spv-lasb-25-1-2026-spv-vs-lasb-fi-25-26-regular-season
 type: game
 game_id: spv-lasb-25-1-2026
 home_team: SPV
 away_team: LASB
-attendance: 988.0
+attendance: 988
 away_goal_diffs_csv: -1,1,2,5,5
 away_goal_minutes_csv: 10.0,30.03,46.7,55.97,58.38
 away_major_penalty_minutes_csv: 

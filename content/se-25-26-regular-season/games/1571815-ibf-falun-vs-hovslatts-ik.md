@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 1571815-ibf-falun-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571815-ibf-falun-vs-hovslatts-ik
+Slug: 1571815-ibf-falun-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571815
 home_team: IBF Falun

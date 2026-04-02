@@ -1,7 +1,7 @@
 Date: 2025-10-12
 Title: 43463-sc-potsdam-vs-blau-weiss-96-schenefeld
 Category: 25-26-regular-season, game
-Slug: 43463-sc-potsdam-vs-blau-weiss-96-schenefeld
+Slug: 43463-sc-potsdam-vs-blau-weiss-96-schenefeld-25-26-regular-season
 type: game
 game_id: 43463
 home_team: SC Potsdam

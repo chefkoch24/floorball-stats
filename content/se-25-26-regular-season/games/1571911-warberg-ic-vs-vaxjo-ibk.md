@@ -1,7 +1,7 @@
 Date: 2026-02-20
 Title: 1571911-warberg-ic-vs-vaxjo-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571911-warberg-ic-vs-vaxjo-ibk
+Slug: 1571911-warberg-ic-vs-vaxjo-ibk-se-25-26-regular-season
 type: game
 game_id: 1571911
 home_team: Warberg IC

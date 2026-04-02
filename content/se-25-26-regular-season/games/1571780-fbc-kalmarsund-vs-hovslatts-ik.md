@@ -1,7 +1,7 @@
 Date: 2025-09-27
 Title: 1571780-fbc-kalmarsund-vs-hovslatts-ik
 Category: se-25-26-regular-season, game
-Slug: 1571780-fbc-kalmarsund-vs-hovslatts-ik
+Slug: 1571780-fbc-kalmarsund-vs-hovslatts-ik-se-25-26-regular-season
 type: game
 game_id: 1571780
 home_team: FBC Kalmarsund

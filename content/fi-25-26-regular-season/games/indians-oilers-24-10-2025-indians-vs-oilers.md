@@ -1,12 +1,12 @@
 Date: 2025-10-24
 Title: indians-oilers-24-10-2025-indians-vs-oilers
 Category: fi-25-26-regular-season, game
-Slug: indians-oilers-24-10-2025-indians-vs-oilers
+Slug: indians-oilers-24-10-2025-indians-vs-oilers-fi-25-26-regular-season
 type: game
 game_id: indians-oilers-24-10-2025
 home_team: Indians
 away_team: Oilers
-attendance: 773.0
+attendance: 773
 away_goal_diffs_csv: 1,1
 away_goal_minutes_csv: 54.77,58.28
 away_major_penalty_minutes_csv: 

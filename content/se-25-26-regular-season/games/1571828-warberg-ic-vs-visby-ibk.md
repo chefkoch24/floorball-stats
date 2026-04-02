@@ -1,7 +1,7 @@
 Date: 2025-11-22
 Title: 1571828-warberg-ic-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571828-warberg-ic-vs-visby-ibk
+Slug: 1571828-warberg-ic-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571828
 home_team: Warberg IC

@@ -1,7 +1,7 @@
 Date: 2025-10-26
 Title: 43472-djk-holzbuttgen-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43472-djk-holzbuttgen-vs-sc-potsdam
+Slug: 43472-djk-holzbuttgen-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43472
 home_team: DJK Holzbüttgen

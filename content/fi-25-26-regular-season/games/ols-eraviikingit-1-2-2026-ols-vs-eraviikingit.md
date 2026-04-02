@@ -1,12 +1,12 @@
 Date: 2026-02-01
 Title: ols-eraviikingit-1-2-2026-ols-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: ols-eraviikingit-1-2-2026-ols-vs-eraviikingit
+Slug: ols-eraviikingit-1-2-2026-ols-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: ols-eraviikingit-1-2-2026
 home_team: OLS
 away_team: EräViikingit
-attendance: 768.0
+attendance: 768
 away_goal_diffs_csv: -1,-2,-2,-3,-2,-1
 away_goal_minutes_csv: 2.68,5.85,17.83,26.53,42.72,56.67
 away_major_penalty_minutes_csv: 
@@ -96,9 +96,9 @@ home_points_after_third_period: 0
 home_points_against_eraviikingit: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
-home_powerplay: 3
+home_powerplay: 4
 home_powerplay_efficiency: 0.0
-home_powerplay_first_period: 1
+home_powerplay_first_period: 2
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
 home_powerplay_third_period: 1
@@ -107,9 +107,9 @@ home_take_the_lead_goals_against: 2
 home_win_1: 0
 home_wins: 0
 away_away_points: 3
-away_boxplay: 3
+away_boxplay: 4
 away_boxplay_efficiency: 100.0
-away_boxplay_first_period: 1
+away_boxplay_first_period: 2
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
 away_boxplay_third_period: 1

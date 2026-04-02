@@ -1,12 +1,12 @@
 Date: 2025-09-22
 Title: indians-eraviikingit-22-9-2025-indians-vs-eraviikingit
 Category: fi-25-26-regular-season, game
-Slug: indians-eraviikingit-22-9-2025-indians-vs-eraviikingit
+Slug: indians-eraviikingit-22-9-2025-indians-vs-eraviikingit-fi-25-26-regular-season
 type: game
 game_id: indians-eraviikingit-22-9-2025
 home_team: Indians
 away_team: EräViikingit
-attendance: 488.0
+attendance: 488
 away_goal_diffs_csv: -1,-2,-2,-3
 away_goal_minutes_csv: 31.08,34.85,39.55,47.12
 away_major_penalty_minutes_csv: 

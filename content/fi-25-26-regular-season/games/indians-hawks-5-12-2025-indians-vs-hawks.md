@@ -1,12 +1,12 @@
 Date: 2025-12-05
 Title: indians-hawks-5-12-2025-indians-vs-hawks
 Category: fi-25-26-regular-season, game
-Slug: indians-hawks-5-12-2025-indians-vs-hawks
+Slug: indians-hawks-5-12-2025-indians-vs-hawks-fi-25-26-regular-season
 type: game
 game_id: indians-hawks-5-12-2025
 home_team: Indians
 away_team: Hawks
-attendance: 503.0
+attendance: 503
 away_goal_diffs_csv: 0
 away_goal_minutes_csv: 31.27
 away_major_penalty_minutes_csv: 

@@ -1,7 +1,7 @@
 Date: 2026-02-21
 Title: 43516-etv-piranhhas-hamburg-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43516-etv-piranhhas-hamburg-vs-ssf-dragons-bonn
+Slug: 43516-etv-piranhhas-hamburg-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43516
 home_team: ETV Piranhhas Hamburg

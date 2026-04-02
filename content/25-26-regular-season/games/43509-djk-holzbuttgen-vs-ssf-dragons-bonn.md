@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 43509-djk-holzbuttgen-vs-ssf-dragons-bonn
 Category: 25-26-regular-season, game
-Slug: 43509-djk-holzbuttgen-vs-ssf-dragons-bonn
+Slug: 43509-djk-holzbuttgen-vs-ssf-dragons-bonn-25-26-regular-season
 type: game
 game_id: 43509
 home_team: DJK Holzbüttgen

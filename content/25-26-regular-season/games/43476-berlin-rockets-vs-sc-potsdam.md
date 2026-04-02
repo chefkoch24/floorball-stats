@@ -1,7 +1,7 @@
 Date: 2025-11-01
 Title: 43476-berlin-rockets-vs-sc-potsdam
 Category: 25-26-regular-season, game
-Slug: 43476-berlin-rockets-vs-sc-potsdam
+Slug: 43476-berlin-rockets-vs-sc-potsdam-25-26-regular-season
 type: game
 game_id: 43476
 home_team: Berlin Rockets

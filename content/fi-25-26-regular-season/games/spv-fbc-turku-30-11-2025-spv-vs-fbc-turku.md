@@ -1,12 +1,12 @@
 Date: 2025-11-30
 Title: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku
 Category: fi-25-26-regular-season, game
-Slug: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku
+Slug: spv-fbc-turku-30-11-2025-spv-vs-fbc-turku-fi-25-26-regular-season
 type: game
 game_id: spv-fbc-turku-30-11-2025
 home_team: SPV
 away_team: FBC Turku
-attendance: 893.0
+attendance: 893
 away_goal_diffs_csv: 3,2
 away_goal_minutes_csv: 40.65,42.68
 away_major_penalty_minutes_csv: 

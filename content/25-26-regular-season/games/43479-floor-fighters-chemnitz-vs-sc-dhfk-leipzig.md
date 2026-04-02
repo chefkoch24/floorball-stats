@@ -1,7 +1,7 @@
 Date: 2025-11-15
 Title: 43479-floor-fighters-chemnitz-vs-sc-dhfk-leipzig
 Category: 25-26-regular-season, game
-Slug: 43479-floor-fighters-chemnitz-vs-sc-dhfk-leipzig
+Slug: 43479-floor-fighters-chemnitz-vs-sc-dhfk-leipzig-25-26-regular-season
 type: game
 game_id: 43479
 home_team: Floor Fighters Chemnitz

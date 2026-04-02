@@ -1,7 +1,7 @@
 Date: 2026-02-15
 Title: 1571906-hovslatts-ik-vs-ibf-falun
 Category: se-25-26-regular-season, game
-Slug: 1571906-hovslatts-ik-vs-ibf-falun
+Slug: 1571906-hovslatts-ik-vs-ibf-falun-se-25-26-regular-season
 type: game
 game_id: 1571906
 home_team: Hovslätts IK

@@ -1,7 +1,7 @@
 Date: 2026-01-24
 Title: 1571888-pixbo-ibk-vs-visby-ibk
 Category: se-25-26-regular-season, game
-Slug: 1571888-pixbo-ibk-vs-visby-ibk
+Slug: 1571888-pixbo-ibk-vs-visby-ibk-se-25-26-regular-season
 type: game
 game_id: 1571888
 home_team: Pixbo IBK
