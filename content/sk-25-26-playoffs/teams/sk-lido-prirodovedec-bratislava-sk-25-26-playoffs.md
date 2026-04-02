@@ -15,12 +15,17 @@ boxplay_second_period: 6
 boxplay_third_period: 8
 close_game_loss: 2
 close_game_overtime: 1
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 1
+close_games: 4
 draws: 0
 equalizer_goals: 8
 equalizer_goals_against: 7
 first_goal_of_match: 4
 first_goal_of_match_against: 4
+first_period_goals_against_per_game: 1.5
+first_period_goals_per_game: 2.25
 games: 8
 goal_difference: 26
 goal_difference_per_game: 3.25
@@ -29,10 +34,11 @@ goals_against: 32
 goals_against_away: 19
 goals_against_home: 13
 goals_against_in_boxplay: 2
+goals_against_in_boxplay_per_game: 0.25
 goals_against_in_powerplay: 1
 goals_against_per_game: 4.0
 goals_away: 29
-goals_home: 29
+goals_home: 28
 goals_in_boxplay: 1
 goals_in_first_period: 18
 goals_in_first_period_against: 12
@@ -52,6 +58,7 @@ losses: 1
 over_time_losses: 1
 over_time_wins: 0
 penalties: 17
+penalties_per_game: 2.12
 penalty_10: 2
 penalty_2: 15
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 19
 points_after_58_min: 19
 points_after_59_min: 19
 points_after_first_period: 12
+points_after_first_period_per_game: 1.5
 points_after_second_period: 18
 points_after_third_period: 19
 Tags:  FBC Grasshoppers AC UNIZA Žilina: 9,  FK Florko Košice: 10,

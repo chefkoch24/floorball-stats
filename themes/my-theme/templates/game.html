@@ -4,7 +4,7 @@
             <p class="side-name">{{ article.home_team }}</p>
             <p class="side-meta">Points: {{ article.home_points|default('–') }}</p>
         </div>
-        <div class="score-stack">
+        <div class="score-stack" id="heroScoreStack">
             <div class="hero-score">{{ article.home_goals|default('–') }} : {{ article.away_goals|default('–') }}</div>
             <div class="period-line">
                 {{ article.home_goals_in_first_period|default('–') }}:{{ article.away_goals_in_first_period|default('–') }} |
@@ -30,89 +30,212 @@
     </div>
 </section>
 
-<section class="kpi-grid">
-    <article class="kpi">
-        <p class="kpi-label">Power play efficiency</p>
-        <p class="kpi-value">{{ article.home_powerplay_efficiency|default('–') }} / {{ article.away_powerplay_efficiency|default('–') }}</p>
-    </article>
-    <article class="kpi">
-        <p class="kpi-label">Penalty kill efficiency</p>
-        <p class="kpi-value">{{ article.home_boxplay_efficiency|default('–') }} / {{ article.away_boxplay_efficiency|default('–') }}</p>
-    </article>
-    <article class="kpi">
-        <p class="kpi-label">Penalties</p>
-        <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
-    </article>
-    <article class="kpi">
-        <p class="kpi-label">Points in Games <=2 Goal Diff</p>
-        <p class="kpi-value">{{ article.home_points_max_difference_2|default('–') }} / {{ article.away_points_max_difference_2|default('–') }}</p>
-    </article>
-    <article class="kpi">
-        <p class="kpi-label">Shootout W/L</p>
-        <p class="kpi-value">{{ article.home_penalty_shootout_wins|default('0') }}-{{ article.home_penalty_shootout_losses|default('0') }} / {{ article.away_penalty_shootout_wins|default('0') }}-{{ article.away_penalty_shootout_losses|default('0') }}</p>
-    </article>
-</section>
+{% set default_pregame_tab = game_state == 'scheduled' %}
+{% set home_form_codes = (article.pregame_h2h_form5_home_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_home_tag_codes_csv else [] %}
+{% set away_form_codes = (article.pregame_h2h_form5_away_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_away_tag_codes_csv else [] %}
 
-<section class="section-grid">
-    <article class="panel">
-        <h2 class="panel-title">Special Teams</h2>
-        <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Power plays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Power play goals</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Penalty kills</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Goals against on PK</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
-        </table>
-    </article>
+<section>
+    <div class="games-tabs" id="game-view-tabs">
+        <button type="button" class="games-tab{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-tab="match">Game Stats</button>
+        <button type="button" class="games-tab{% if default_pregame_tab %} is-active{% endif %}" data-game-view-tab="pregame">Pre-Game H2H</button>
+    </div>
 
-    <article class="panel">
-        <h2 class="panel-title">Game Flow</h2>
-        <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_take_the_lead_goals|default('–') }}</td><td class="value-label">Take the Lead</td><td class="value-away">{{ article.away_take_the_lead_goals|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Equalizers</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">First goal</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Close game won</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Close game lost</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
-        </table>
-    </article>
+    <div class="games-tab-panel{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-panel="match">
+        <section class="kpi-grid">
+            <article class="kpi">
+                <p class="kpi-label">Power play efficiency</p>
+                <p class="kpi-value">{{ article.home_powerplay_efficiency|default('–') }} / {{ article.away_powerplay_efficiency|default('–') }}</p>
+            </article>
+            <article class="kpi">
+                <p class="kpi-label">Penalty kill efficiency</p>
+                <p class="kpi-value">{{ article.home_boxplay_efficiency|default('–') }} / {{ article.away_boxplay_efficiency|default('–') }}</p>
+            </article>
+            <article class="kpi">
+                <p class="kpi-label">Penalties</p>
+                <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
+            </article>
+            <article class="kpi">
+                <p class="kpi-label">Points in Games <=2 Goal Diff</p>
+                <p class="kpi-value">{{ article.home_points_max_difference_2|default('–') }} / {{ article.away_points_max_difference_2|default('–') }}</p>
+            </article>
+            <article class="kpi">
+                <p class="kpi-label">Shootout W/L</p>
+                <p class="kpi-value">{{ article.home_penalty_shootout_wins|default('0') }}-{{ article.home_penalty_shootout_losses|default('0') }} / {{ article.away_penalty_shootout_wins|default('0') }}-{{ article.away_penalty_shootout_losses|default('0') }}</p>
+            </article>
+        </section>
+        <section class="section-grid">
+            <article class="panel">
+                <h2 class="panel-title">Special Teams</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+                    <tr><td class="value-home">{{ article.home_powerplay|default('–') }}</td><td class="value-label">Power plays</td><td class="value-away">{{ article.away_powerplay|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_goals_in_powerplay|default('–') }}</td><td class="value-label">Power play goals</td><td class="value-away">{{ article.away_goals_in_powerplay|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_boxplay|default('–') }}</td><td class="value-label">Penalty kills</td><td class="value-away">{{ article.away_boxplay|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_goals_against_in_boxplay|default('–') }}</td><td class="value-label">Goals against on PK</td><td class="value-away">{{ article.away_goals_against_in_boxplay|default('–') }}</td></tr>
+                </table>
+            </article>
 
-    <article class="panel">
-        <h2 class="panel-title">Penalties</h2>
-        <table class="stats-split-table">
-            <tr><th class="value-home">Home</th><th class="value-label">Type</th><th class="value-away">Away</th></tr>
-            <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 minutes</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 minutes</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 minutes</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
-            <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Match penalty</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
-        </table>
-    </article>
+            <article class="panel">
+                <h2 class="panel-title">Game Flow</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+                    <tr><td class="value-home">{{ article.home_take_the_lead_goals|default('–') }}</td><td class="value-label">Take the Lead</td><td class="value-away">{{ article.away_take_the_lead_goals|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_equalizer_goals|default('–') }}</td><td class="value-label">Equalizers</td><td class="value-away">{{ article.away_equalizer_goals|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_first_goal_of_match|default('–') }}</td><td class="value-label">First goal</td><td class="value-away">{{ article.away_first_goal_of_match|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_close_game_win|default('–') }}</td><td class="value-label">Close game won</td><td class="value-away">{{ article.away_close_game_win|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_close_game_loss|default('–') }}</td><td class="value-label">Close game lost</td><td class="value-away">{{ article.away_close_game_loss|default('–') }}</td></tr>
+                </table>
+            </article>
 
-    <article class="panel">
-        <h2 class="panel-title">Goals per period</h2>
-        <canvas id="goalsPerPeriodChart"></canvas>
-    </article>
+            <article class="panel">
+                <h2 class="panel-title">Penalties</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Type</th><th class="value-away">Away</th></tr>
+                    <tr><td class="value-home">{{ article.home_penalty_2|default('–') }}</td><td class="value-label">2 minutes</td><td class="value-away">{{ article.away_penalty_2|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_penalty_2and2|default('–') }}</td><td class="value-label">2+2 minutes</td><td class="value-away">{{ article.away_penalty_2and2|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_penalty_10|default('–') }}</td><td class="value-label">10 minutes</td><td class="value-away">{{ article.away_penalty_10|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_penalty_ms|default('–') }}</td><td class="value-label">Match penalty</td><td class="value-away">{{ article.away_penalty_ms|default('–') }}</td></tr>
+                </table>
+            </article>
 
-    <article class="panel panel-wide">
-        <h2 class="panel-title">Game Events</h2>
-        <div id="gameEventsTimeline" class="event-timeline" data-events-b64="{{ article.game_events_b64|default('') }}"></div>
-    </article>
+            <article class="panel">
+                <h2 class="panel-title">Goals per period</h2>
+                <canvas id="goalsPerPeriodChart"></canvas>
+            </article>
 
-    <article class="panel panel-wide panel-timeline">
-        <h2 class="panel-title">Gameflow Graph</h2>
-        <div class="timeline-chart-wrap">
-            <canvas id="scoreTimelineChart"></canvas>
-        </div>
-        <div class="penalty-strip-wrap">
-            <canvas id="penaltyTimelineChart"></canvas>
-        </div>
-        <p class="timeline-note">
-            Note: 10-minute and match penalties are displayed as X markers (Home: {{ article.home_penalty_10|default(0) }} + {{ article.home_penalty_ms|default(0) }}, Away: {{ article.away_penalty_10|default(0) }} + {{ article.away_penalty_ms|default(0) }}).
-        </p>
-    </article>
+            <article class="panel panel-wide">
+                <h2 class="panel-title">Game Events</h2>
+                <div id="gameEventsTimeline" class="event-timeline" data-events-b64="{{ article.game_events_b64|default('') }}"></div>
+            </article>
+
+            <article class="panel panel-wide panel-timeline">
+                <h2 class="panel-title">Gameflow Graph</h2>
+                <div class="timeline-chart-wrap">
+                    <canvas id="scoreTimelineChart"></canvas>
+                </div>
+                <div class="penalty-strip-wrap">
+                    <canvas id="penaltyTimelineChart"></canvas>
+                </div>
+                <p class="timeline-note">
+                    Note: 10-minute and match penalties are displayed as X markers (Home: {{ article.home_penalty_10|default(0) }} + {{ article.home_penalty_ms|default(0) }}, Away: {{ article.away_penalty_10|default(0) }} + {{ article.away_penalty_ms|default(0) }}).
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <div class="games-tab-panel{% if default_pregame_tab %} is-active{% endif %}" data-game-view-panel="pregame">
+        <section class="section-grid">
+            <article class="panel">
+                <h2 class="panel-title">General Season Performance</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_games|default('–') }}</td><td class="value-label">Games played</td><td class="value-away">{{ article.away_pregame_games|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_points|default('–') }}</td><td class="value-label">Points</td><td class="value-away">{{ article.away_pregame_points|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.away_pregame_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_wins|default('–') }}</td><td class="value-label">Wins</td><td class="value-away">{{ article.away_pregame_wins|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_losses|default('–') }}</td><td class="value-label">Losses</td><td class="value-away">{{ article.away_pregame_losses|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goals_per_game|default('–') }}</td><td class="value-label">Goals per game</td><td class="value-away">{{ article.away_pregame_goals_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goals_against_per_game|default('–') }}</td><td class="value-label">Goals against per game</td><td class="value-away">{{ article.away_pregame_goals_against_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goal_difference_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.away_pregame_goal_difference_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_penalties_per_game|default('–') }}</td><td class="value-label">Discipline pressure: penalties/game</td><td class="value-away">{{ article.pregame_h2h_discipline_away_penalties_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_pk_goals_against_per_game|default('–') }}</td><td class="value-label">Discipline pressure: PK GA/game</td><td class="value-away">{{ article.pregame_h2h_discipline_away_pk_goals_against_per_game|default('–') }}</td></tr>
+                </table>
+            </article>
+
+            <article class="panel">
+                <h2 class="panel-title">Last 5 Form</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+                    <tr>
+                        <td class="value-home">
+                            {% if home_form_codes %}
+                                {% for code in home_form_codes %}
+                                    {% set token = code|trim %}
+                                    {% if token == 'W' %}
+                                    <span class="result-pill result-pill--win">W</span>
+                                    {% elif token == 'L' %}
+                                    <span class="result-pill result-pill--loss">L</span>
+                                    {% elif token == 'D' %}
+                                    <span class="result-pill result-pill--draw">D</span>
+                                    {% elif token == 'OW' %}
+                                    <span class="result-pill result-pill--ot-win">W</span>
+                                    {% elif token == 'OL' %}
+                                    <span class="result-pill result-pill--ot-loss">L</span>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                n.a.
+                            {% endif %}
+                        </td>
+                        <td class="value-label">Last 5 tags</td>
+                        <td class="value-away">
+                            {% if away_form_codes %}
+                                {% for code in away_form_codes %}
+                                    {% set token = code|trim %}
+                                    {% if token == 'W' %}
+                                    <span class="result-pill result-pill--win">W</span>
+                                    {% elif token == 'L' %}
+                                    <span class="result-pill result-pill--loss">L</span>
+                                    {% elif token == 'D' %}
+                                    <span class="result-pill result-pill--draw">D</span>
+                                    {% elif token == 'OW' %}
+                                    <span class="result-pill result-pill--ot-win">W</span>
+                                    {% elif token == 'OL' %}
+                                    <span class="result-pill result-pill--ot-loss">L</span>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                n.a.
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.pregame_h2h_form5_away_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_goal_diff_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.pregame_h2h_form5_away_goal_diff_per_game|default('–') }}</td></tr>
+                </table>
+            </article>
+
+            <article class="panel">
+                <h2 class="panel-title">Home vs Away Strength</h2>
+                <table class="stats-split-table">
+                    <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.pregame_h2h_away_split_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_goal_diff_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.pregame_h2h_away_split_goal_diff_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_special_home_pp_eff|default('–') }}</td><td class="value-label">PP% vs Away PK%</td><td class="value-away">{{ article.pregame_h2h_special_away_pk_eff|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_special_home_pk_eff|default('–') }}</td><td class="value-label">PK% vs Away PP%</td><td class="value-away">{{ article.pregame_h2h_special_away_pp_eff|default('–') }}</td></tr>
+                </table>
+            </article>
+
+        </section>
+    </div>
 </section>
 
 <script>
+(() => {
+  const tabsRoot = document.getElementById('game-view-tabs');
+  if (!tabsRoot) return;
+
+  const tabs = Array.from(tabsRoot.querySelectorAll('.games-tab'));
+  const panels = Array.from(document.querySelectorAll('[data-game-view-panel]'));
+
+  const activate = (target) => {
+    tabs.forEach((tab) => {
+      tab.classList.toggle('is-active', tab.dataset.gameViewTab === target);
+    });
+    panels.forEach((panel) => {
+      panel.classList.toggle('is-active', panel.dataset.gameViewPanel === target);
+    });
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => activate(tab.dataset.gameViewTab));
+  });
+
+  const initiallyActive = tabs.find((tab) => tab.classList.contains('is-active'));
+  if (initiallyActive) {
+    activate(initiallyActive.dataset.gameViewTab);
+  }
+})();
+
 const isMobileViewport = window.matchMedia('(max-width: 800px)').matches;
 
 const goalsPerPeriodChart = document.getElementById('goalsPerPeriodChart');

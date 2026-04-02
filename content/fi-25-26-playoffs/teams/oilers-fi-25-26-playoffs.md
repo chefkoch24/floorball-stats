@@ -15,12 +15,17 @@ boxplay_second_period: 3
 boxplay_third_period: 2
 close_game_loss: 2
 close_game_overtime: 0
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 1
+close_games: 3
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 2
 first_goal_of_match: 2
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 1.5
+first_period_goals_per_game: 2.75
 games: 4
 goal_difference: 3
 goal_difference_per_game: 0.75
@@ -29,6 +34,7 @@ goals_against: 15
 goals_against_away: 8
 goals_against_home: 7
 goals_against_in_boxplay: 3
+goals_against_in_boxplay_per_game: 0.75
 goals_against_in_powerplay: 0
 goals_against_per_game: 3.75
 goals_away: 8
@@ -52,6 +58,7 @@ losses: 2
 over_time_losses: 0
 over_time_wins: 0
 penalties: 8
+penalties_per_game: 2.0
 penalty_10: 0
 penalty_2: 8
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 6
 points_after_58_min: 6
 points_after_59_min: 6
 points_after_first_period: 9
+points_after_first_period_per_game: 2.25
 points_after_second_period: 9
 points_after_third_period: 6
 Tags:  OLS: 6,

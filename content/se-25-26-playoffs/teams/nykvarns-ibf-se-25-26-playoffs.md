@@ -15,20 +15,26 @@ boxplay_second_period: 0
 boxplay_third_period: 0
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 2
 first_goal_of_match: 2
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 2.0
+first_period_goals_per_game: 0.75
 games: 4
 goal_difference: -24
 goal_difference_per_game: -6.0
 goals: 10
 goals_against: 34
-goals_against_away: 13
-goals_against_home: 21
+goals_against_away: 12
+goals_against_home: 20
 goals_against_in_boxplay: 1
+goals_against_in_boxplay_per_game: 0.25
 goals_against_in_powerplay: 1
 goals_against_per_game: 8.5
 goals_away: 5
@@ -52,6 +58,7 @@ losses: 4
 over_time_losses: 0
 over_time_wins: 0
 penalties: 5
+penalties_per_game: 1.25
 penalty_10: 0
 penalty_2: 4
 penalty_2and2: 1
@@ -77,6 +84,7 @@ points_after_55_min: 0
 points_after_58_min: 0
 points_after_59_min: 0
 points_after_first_period: 1
+points_after_first_period_per_game: 0.25
 points_after_second_period: 1
 points_after_third_period: 0
 Tags:  Storvreta IBK: 0,
