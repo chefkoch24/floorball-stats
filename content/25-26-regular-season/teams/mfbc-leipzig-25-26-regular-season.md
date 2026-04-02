@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 1.6
 boxplay_second_period: 10
 boxplay_third_period: 14
-close_game_loss: 2
-close_game_overtime: 3
-close_game_win: 9
+close_game_loss: 0
+close_game_overtime: 0
+close_game_win: 2
 draws: 0
 equalizer_goals: 18
 equalizer_goals_against: 8
@@ -80,8 +80,8 @@ points_after_first_period: 27
 points_after_second_period: 36
 points_after_third_period: 45
 Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 6,  ETV Piranhhas Hamburg: 1,  Floor Fighters Chemnitz: 5,  SC DHfK Leipzig: 6,  SC Potsdam: 6,  SSF Dragons Bonn: 2,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,
-points_max_difference_2: 26
-points_more_2_difference: 21
+points_max_difference_2: 6
+points_more_2_difference: 41
 points_per_game: 2.35
 powerplay: 46
 powerplay_efficiency: 30.43

@@ -15,7 +15,7 @@ boxplay_second_period: 2
 boxplay_third_period: 5
 close_game_loss: 0
 close_game_overtime: 0
-close_game_win: 3
+close_game_win: 2
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 2
@@ -80,8 +80,8 @@ points_after_first_period: 7
 points_after_second_period: 8
 points_after_third_period: 12
 Tags:  FBC Kalmarsund: 12,
-points_max_difference_2: 9
-points_more_2_difference: 3
+points_max_difference_2: 6
+points_more_2_difference: 6
 points_per_game: 3.0
 powerplay: 4
 powerplay_efficiency: 25.0

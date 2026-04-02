@@ -6,6 +6,9 @@ from src.run_stats_engine import (
     _powerplay_efficiency,
     stat_away_points,
     stat_boxplay,
+    stat_close_game_loss,
+    stat_close_game_overtime,
+    stat_close_game_win,
     stat_goals_in_powerplay,
     stat_losses,
     stat_over_time_losses,
@@ -311,6 +314,36 @@ def test_points_more_2_difference_counts_only_games_above_two():
 
     assert stat_points_more_2_difference(close_game, "A") == 0
     assert stat_points_more_2_difference(big_margin, "A") == 3
+
+
+def test_close_game_metrics_use_max_in_game_gap_not_only_final_gap():
+    # Final diff is 2, but game reached a 3-goal gap -> not a close game.
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "1-05:00", 1, "A", "B", 1, 0, "A"),
+            _goal_event(1, "2-02:00", 2, "A", "B", 2, 0, "A"),
+            _goal_event(1, "2-12:00", 2, "A", "B", 3, 0, "A"),
+            _goal_event(1, "3-18:00", 3, "A", "B", 3, 1, "B"),
+        ]
+    )
+
+    assert stat_points_max_difference(events, "A") == 0
+    assert stat_points_more_2_difference(events, "A") == 3
+    assert stat_close_game_win(events, "A") == 0
+    assert stat_close_game_loss(events, "B") == 0
+
+
+def test_close_game_overtime_does_not_count_penalty_shootout_games():
+    events = pd.DataFrame(
+        [
+            _goal_event(1, "3-19:00", 3, "A", "B", 1, 0, "A"),
+            _goal_event(1, "3-19:30", 3, "A", "B", 1, 1, "B"),
+            _goal_event(1, "5-01:00", 5, "A", "B", 2, 1, "A"),
+        ]
+    )
+
+    assert stat_close_game_overtime(events, "A") == 0
+    assert stat_close_game_overtime(events, "B") == 0
 
 
 def test_gameflow_handles_czech_absolute_clock_sortkeys():

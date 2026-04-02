@@ -135,7 +135,20 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     result.append(f"home_team: {game_data['home_team']}")
     result.append(f"away_team: {game_data['away_team']}")
 
-    excluded_keys = {"game_id", "date", "home_team", "away_team", "home_stats", "away_stats", "title", "slug", "category", "type"}
+    excluded_keys = {
+        "game_id",
+        "date",
+        "home_team",
+        "away_team",
+        "home_stats",
+        "away_stats",
+        "home_pregame_stats",
+        "away_pregame_stats",
+        "title",
+        "slug",
+        "category",
+        "type",
+    }
     for key, value in _iter_stable_items(game_data):
         if key in excluded_keys:
             continue
@@ -151,6 +164,16 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
     away_stats = flatten_team_stats(game_data['away_stats'], 'away')
     for key, value in _iter_stable_items(away_stats):
         result.append(f"{key}: {value}")
+
+    # Flat pregame stats (used by Pre-Game H2H "General Season Performance")
+    if isinstance(game_data.get("home_pregame_stats"), dict):
+        home_pregame_stats = flatten_team_stats(game_data["home_pregame_stats"], "home_pregame")
+        for key, value in _iter_stable_items(home_pregame_stats):
+            result.append(f"{key}: {value}")
+    if isinstance(game_data.get("away_pregame_stats"), dict):
+        away_pregame_stats = flatten_team_stats(game_data["away_pregame_stats"], "away_pregame")
+        for key, value in _iter_stable_items(away_pregame_stats):
+            result.append(f"{key}: {value}")
 
     return '\n'.join(result)
 

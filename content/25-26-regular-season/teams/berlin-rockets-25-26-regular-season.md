@@ -13,7 +13,7 @@ boxplay_overtime: 0
 boxplay_per_game: 1.95
 boxplay_second_period: 19
 boxplay_third_period: 16
-close_game_loss: 5
+close_game_loss: 3
 close_game_overtime: 3
 close_game_win: 2
 draws: 0

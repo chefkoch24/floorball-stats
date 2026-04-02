@@ -15,7 +15,7 @@ boxplay_second_period: 4
 boxplay_third_period: 6
 close_game_loss: 0
 close_game_overtime: 0
-close_game_win: 1
+close_game_win: 0
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 0
@@ -80,8 +80,8 @@ points_after_first_period: 5
 points_after_second_period: 9
 points_after_third_period: 9
 Tags:  DTF team Detva Joxers: 9,
-points_max_difference_2: 3
-points_more_2_difference: 6
+points_max_difference_2: 0
+points_more_2_difference: 9
 points_per_game: 3.0
 powerplay: 7
 powerplay_efficiency: 57.14

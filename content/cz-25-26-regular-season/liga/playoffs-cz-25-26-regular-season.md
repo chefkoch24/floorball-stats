@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: Playoffs
 Category: cz-25-26-regular-season, liga
 Slug: playoffs-cz-25-26-regular-season
@@ -12,9 +12,9 @@ boxplay_overtime: 0.0
 boxplay_per_game: 1.22
 boxplay_second_period: 10.62
 boxplay_third_period: 13.75
-close_game_loss: 3.38
-close_game_overtime: 2.12
-close_game_win: 4.38
+close_game_loss: 2.25
+close_game_overtime: 0.62
+close_game_win: 2.12
 draws: 0.0
 equalizer_goals: 17.75
 equalizer_goals_against: 16.25
@@ -78,8 +78,8 @@ points_after_59_min: 40.38
 points_after_first_period: 39.12
 points_after_second_period: 40.88
 points_after_third_period: 46.75
-points_max_difference_2: 13.75
-points_more_2_difference: 39.38
+points_max_difference_2: 6.88
+points_more_2_difference: 46.25
 points_per_game: 2.04
 powerplay: 33.25
 powerplay_efficiency: 47.08

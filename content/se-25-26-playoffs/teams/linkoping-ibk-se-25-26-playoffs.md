@@ -14,8 +14,8 @@ boxplay_per_game: 0.83
 boxplay_second_period: 0
 boxplay_third_period: 3
 close_game_loss: 2
-close_game_overtime: 1
-close_game_win: 2
+close_game_overtime: 0
+close_game_win: 1
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 4
@@ -80,8 +80,8 @@ points_after_first_period: 9
 points_after_second_period: 9
 points_after_third_period: 10
 Tags:  Mullsjö AIS: 11,
-points_max_difference_2: 5
-points_more_2_difference: 6
+points_max_difference_2: 2
+points_more_2_difference: 9
 points_per_game: 1.83
 powerplay: 3
 powerplay_efficiency: 33.33

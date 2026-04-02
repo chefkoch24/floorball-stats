@@ -13,8 +13,8 @@ boxplay_per_game: 1.31
 boxplay_second_period: 1.0
 boxplay_third_period: 4.0
 close_game_loss: 0.75
-close_game_overtime: 0.5
-close_game_win: 1.5
+close_game_overtime: 0.0
+close_game_win: 0.75
 draws: 0.0
 equalizer_goals: 1.75
 equalizer_goals_against: 2.75
@@ -78,8 +78,8 @@ points_after_59_min: 11.75
 points_after_first_period: 9.25
 points_after_second_period: 10.5
 points_after_third_period: 11.75
-points_max_difference_2: 4.5
-points_more_2_difference: 7.5
+points_max_difference_2: 2.25
+points_more_2_difference: 9.75
 points_per_game: 2.61
 powerplay: 3.75
 powerplay_efficiency: 32.91

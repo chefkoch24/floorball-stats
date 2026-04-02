@@ -13,9 +13,9 @@ boxplay_overtime: 1
 boxplay_per_game: 1.91
 boxplay_second_period: 5
 boxplay_third_period: 6
-close_game_loss: 2
-close_game_overtime: 1
-close_game_win: 1
+close_game_loss: 1
+close_game_overtime: 0
+close_game_win: 0
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 9
@@ -80,8 +80,8 @@ points_after_first_period: 14
 points_after_second_period: 12
 points_after_third_period: 11
 Tags:  FBK Valmiera: 11,  Masters Ulbroka/LU: 2,
-points_max_difference_2: 4
-points_more_2_difference: 9
+points_max_difference_2: 2
+points_more_2_difference: 11
 points_per_game: 1.18
 powerplay: 16
 powerplay_efficiency: 56.25

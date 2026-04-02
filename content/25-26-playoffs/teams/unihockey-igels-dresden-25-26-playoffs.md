@@ -15,12 +15,17 @@ boxplay_second_period: 1
 boxplay_third_period: 4
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 0
 first_goal_of_match: 0
 first_goal_of_match_against: 1
+first_period_goals_against_per_game: 1.0
+first_period_goals_per_game: 0.0
 games: 1
 goal_difference: -3
 goal_difference_per_game: -3.0
@@ -29,6 +34,7 @@ goals_against: 6
 goals_against_away: 0
 goals_against_home: 6
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 4.0
 goals_against_in_powerplay: 0
 goals_against_per_game: 6.0
 goals_away: 0
@@ -52,6 +58,7 @@ losses: 1
 over_time_losses: 0
 over_time_wins: 0
 penalties: 5
+penalties_per_game: 5.0
 penalty_10: 0
 penalty_2: 5
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 0
 points_after_58_min: 0
 points_after_59_min: 0
 points_after_first_period: 0
+points_after_first_period_per_game: 0.0
 points_after_second_period: 1
 points_after_third_period: 0
 Tags:  MFBC Leipzig: 0,

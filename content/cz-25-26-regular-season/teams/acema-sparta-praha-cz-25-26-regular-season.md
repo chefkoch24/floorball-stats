@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: ACEMA Sparta Praha
 Category: cz-25-26-regular-season, teams
 Slug: acema-sparta-praha-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 1.0
 boxplay_second_period: 14
 boxplay_third_period: 9
-close_game_loss: 4
-close_game_overtime: 1
-close_game_win: 6
+close_game_loss: 2
+close_game_overtime: 0
+close_game_win: 1
 draws: 0
 equalizer_goals: 9
 equalizer_goals_against: 11
@@ -80,8 +80,8 @@ points_after_first_period: 52
 points_after_second_period: 43
 points_after_third_period: 55
 Tags:  1. SC NATIOS Vítkovice: 5,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran Střešovice: 3,  FAT PIPE FLORBAL CHODOV: 3,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 6,  FBC ČPP Bystroň Group OSTRAVA: 3,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 3,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,
-points_max_difference_2: 17
-points_more_2_difference: 39
+points_max_difference_2: 3
+points_more_2_difference: 53
 points_per_game: 2.15
 powerplay: 36
 powerplay_efficiency: 52.78

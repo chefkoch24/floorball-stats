@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 2.2
 boxplay_second_period: 7
 boxplay_third_period: 11
-close_game_loss: 2
-close_game_overtime: 2
-close_game_win: 3
+close_game_loss: 1
+close_game_overtime: 1
+close_game_win: 2
 draws: 0
 equalizer_goals: 10
 equalizer_goals_against: 8
@@ -80,8 +80,8 @@ points_after_first_period: 11
 points_after_second_period: 11
 points_after_third_period: 11
 Tags:  1. FBC Trenčín: 4,  Snipers Bratislava: 9,
-points_max_difference_2: 7
-points_more_2_difference: 6
+points_max_difference_2: 5
+points_more_2_difference: 8
 points_per_game: 1.3
 powerplay: 20
 powerplay_efficiency: 45.0

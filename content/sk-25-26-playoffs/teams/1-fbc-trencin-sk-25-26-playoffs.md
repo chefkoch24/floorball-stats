@@ -13,8 +13,8 @@ boxplay_overtime: 0
 boxplay_per_game: 2.38
 boxplay_second_period: 6
 boxplay_third_period: 6
-close_game_loss: 2
-close_game_overtime: 3
+close_game_loss: 1
+close_game_overtime: 2
 close_game_win: 2
 draws: 0
 equalizer_goals: 6
@@ -80,8 +80,8 @@ points_after_first_period: 14
 points_after_second_period: 14
 points_after_third_period: 18
 Tags:  FBK Nižná: 8,  Tsunami Záhorská Bystrica: 11,
-points_max_difference_2: 7
-points_more_2_difference: 12
+points_max_difference_2: 6
+points_more_2_difference: 13
 points_per_game: 2.38
 powerplay: 15
 powerplay_efficiency: 40.0

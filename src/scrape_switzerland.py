@@ -151,11 +151,14 @@ def _classify_phase(header_text: str | None) -> str:
     if not header_text:
         return "regular-season"
     text = header_text.lower()
+    # Swiss phases can include multiple post-season tracks; keep them separate.
+    if any(keyword in text for keyword in ["playout", "play-out", "play out"]):
+        return "playouts"
+    if any(keyword in text for keyword in ["playdown", "play-down", "play down"]):
+        return "playdowns"
     playoff_keywords = [
         "playoff",
         "playoffs",
-        "playdown",
-        "playdowns",
         "viertelfinal",
         "halbfinal",
         "final",
@@ -403,7 +406,7 @@ def fetch_game_ids_by_rounds(
     league: int,
     season: int,
     game_class: int,
-    group: str,
+    group: str | None = None,
     locale: str = "de-CH",
     start_round: int | None = None,
 ) -> list[int]:
@@ -413,11 +416,12 @@ def fetch_game_ids_by_rounds(
         "season": str(season),
         "game_class": str(game_class),
         "view": "full",
-        "group": group,
         "mode": "list",
         "use_streaming_logos": "0",
         "locale": locale,
     }
+    if group:
+        base_params["group"] = group
 
     to_visit: list[int] = []
     seen_rounds: set[int] = set()
@@ -469,8 +473,15 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
         details_html = _fetch_block(game_id, "game_details")
         events_html = _fetch_block(game_id, "game_events")
         details = _parse_game_details(details_html)
-        if phase_filter and _classify_phase(details.header_text) != phase_filter:
-            continue
+        if phase_filter:
+            game_phase = _classify_phase(details.header_text)
+            if phase_filter == "playoffs":
+                # For Swiss post-season fetches, include only true playoffs and
+                # exclude playdowns/playouts.
+                if game_phase != "playoffs":
+                    continue
+            elif game_phase != phase_filter:
+                continue
         events = _parse_game_events(events_html, game_id, details)
         if events:
             all_events.extend(events)

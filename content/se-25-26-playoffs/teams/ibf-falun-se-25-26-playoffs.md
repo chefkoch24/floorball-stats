@@ -14,8 +14,8 @@ boxplay_per_game: 1.4
 boxplay_second_period: 1
 boxplay_third_period: 4
 close_game_loss: 1
-close_game_overtime: 1
-close_game_win: 1
+close_game_overtime: 0
+close_game_win: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 4
@@ -80,8 +80,8 @@ points_after_first_period: 11
 points_after_second_period: 15
 points_after_third_period: 13
 Tags:  Pixbo IBK: 13,
-points_max_difference_2: 4
-points_more_2_difference: 9
+points_max_difference_2: 1
+points_more_2_difference: 12
 points_per_game: 2.6
 powerplay: 5
 powerplay_efficiency: 40.0

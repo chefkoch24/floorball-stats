@@ -15,7 +15,7 @@ boxplay_second_period: 11
 boxplay_third_period: 18
 close_game_loss: 0
 close_game_overtime: 0
-close_game_win: 2
+close_game_win: 1
 draws: 0
 equalizer_goals: 8
 equalizer_goals_against: 7
@@ -80,8 +80,8 @@ points_after_first_period: 20
 points_after_second_period: 27
 points_after_third_period: 20
 Tags:  Rubene: 8,  Ķekava/RB&B: 13,
-points_max_difference_2: 9
-points_more_2_difference: 12
+points_max_difference_2: 5
+points_more_2_difference: 16
 points_per_game: 1.62
 powerplay: 40
 powerplay_efficiency: 22.5

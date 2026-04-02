@@ -39,8 +39,8 @@ home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
-home_close_game_overtime: 1
-home_close_game_win: 1
+home_close_game_overtime: 0
+home_close_game_win: 0
 home_draws: 0
 home_equalizer_goals: 1
 home_equalizer_goals_against: 0
@@ -94,8 +94,8 @@ home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 1
 home_points_against_1_sc_natios_vitkovice: 2
-home_points_max_difference_2: 2
-home_points_more_2_difference: 0
+home_points_max_difference_2: 0
+home_points_more_2_difference: 2
 home_powerplay: 1
 home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
@@ -113,8 +113,8 @@ away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
 away_boxplay_third_period: 0
-away_close_game_loss: 1
-away_close_game_overtime: 1
+away_close_game_loss: 0
+away_close_game_overtime: 0
 away_close_game_win: 0
 away_draws: 0
 away_equalizer_goals: 0
@@ -169,8 +169,8 @@ away_points_after_first_period: 3
 away_points_after_second_period: 3
 away_points_after_third_period: 1
 away_points_against_acema_sparta_praha: 1
-away_points_max_difference_2: 1
-away_points_more_2_difference: 0
+away_points_max_difference_2: 0
+away_points_more_2_difference: 1
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0

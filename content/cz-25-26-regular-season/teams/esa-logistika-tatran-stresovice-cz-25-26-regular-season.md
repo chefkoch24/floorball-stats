@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-regular-season, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -14,7 +14,7 @@ boxplay_per_game: 1.04
 boxplay_second_period: 9
 boxplay_third_period: 10
 close_game_loss: 1
-close_game_overtime: 2
+close_game_overtime: 1
 close_game_win: 4
 draws: 0
 equalizer_goals: 28

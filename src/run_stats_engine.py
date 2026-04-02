@@ -96,7 +96,10 @@ def _deduplicate_event_rows(df: pd.DataFrame) -> pd.DataFrame:
     return df.drop_duplicates(ignore_index=True)
 
 
-def _parse_result_string_score(result_string: object) -> tuple[int, int] | None:
+from typing import Optional, Tuple, Union, List, Any
+
+
+def _parse_result_string_score(result_string: object) -> Optional[Tuple[int, int]]:
     if result_string is None:
         return None
     match = pd.Series([result_string]).astype(str).str.extract(r"(\d+)\s*[:-]\s*(\d+)").iloc[0]
@@ -115,14 +118,14 @@ def _result_string_indicates_extra_time(result_string: object) -> bool:
     )
 
 
-def _powerplay_efficiency(goals_in_powerplay: object, powerplay: object) -> float | str:
+def _powerplay_efficiency(goals_in_powerplay: object, powerplay: object) -> Union[float, str]:
     raw = safe_div(goals_in_powerplay, powerplay, 4, True, "n.a.")
     if isinstance(raw, str):
         return raw
     return max(0.0, min(100.0, float(raw)))
 
 
-def _penalty_kill_efficiency(goals_against_in_boxplay: object, boxplay: object) -> float | str:
+def _penalty_kill_efficiency(goals_against_in_boxplay: object, boxplay: object) -> Union[float, str]:
     raw_against = safe_div(goals_against_in_boxplay, boxplay, 4, True, "n.a.")
     if isinstance(raw_against, str):
         return raw_against
@@ -273,7 +276,7 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
 
     timeline_max_minute = 70.0 if has_extra_time else 60.0
 
-    def _csv(values: list[float | int]) -> str:
+    def _csv(values: List[Union[float, int]]) -> str:
         return ",".join(str(v) for v in values)
 
     return {
@@ -297,14 +300,14 @@ def _build_gameflow_timeline(game_df: pd.DataFrame, home_team: str, away_team: s
     }
 
 
-def _clean_nullable_text(value: object) -> str | None:
+def _clean_nullable_text(value: object) -> Optional[str]:
     if value is None or pd.isna(value):
         return None
     text = str(value).strip()
     return text or None
 
 
-def _clean_optional_player_ref(value: object) -> str | None:
+def _clean_optional_player_ref(value: object) -> Optional[str]:
     text = _clean_nullable_text(value)
     if text in {"0", "0.0"}:
         return None
@@ -337,7 +340,7 @@ def _display_minute_for_event(event: pd.Series) -> str:
     return clock
 
 
-def _period_break_label(period: int) -> str | None:
+def _period_break_label(period: int) -> Optional[str]:
     if period == 1:
         return "End 1st period"
     if period == 2:
@@ -349,7 +352,7 @@ def _period_break_label(period: int) -> str | None:
     return None
 
 
-def _period_break_minute(period: int) -> int | None:
+def _period_break_minute(period: int) -> Optional[int]:
     if period == 1:
         return 20
     if period == 2:
@@ -361,7 +364,7 @@ def _period_break_minute(period: int) -> int | None:
     return None
 
 
-def _penalty_type_label(penalty_type: str | None) -> str:
+def _penalty_type_label(penalty_type: Optional[str]) -> str:
     mapping = {
         "penalty_2": "2 min penalty",
         "penalty_2and2": "2+2 min penalty",
@@ -489,7 +492,7 @@ def _build_game_events_payload(game_df: pd.DataFrame, home_team: str, away_team:
     return {"game_events_b64": encoded, "game_events_count": len(payload)}
 
 
-def _is_extra_time_period(period: int, ingame_status: str | None = None) -> bool:
+def _is_extra_time_period(period: int, ingame_status: Optional[str] = None) -> bool:
     try:
         if int(period) >= 4:
             return True
@@ -499,7 +502,7 @@ def _is_extra_time_period(period: int, ingame_status: str | None = None) -> bool
     return status in {"extratime", "penalty_shots"}
 
 
-def _is_extra_time_decision(period: int, ingame_status: str | None = None, result_string: object = None) -> bool:
+def _is_extra_time_decision(period: int, ingame_status: Optional[str] = None, result_string: object = None) -> bool:
     return _is_extra_time_period(period, ingame_status) or _result_string_indicates_extra_time(result_string)
 
 
@@ -507,7 +510,7 @@ def _points_from_final_score(
     team_goals: int,
     opp_goals: int,
     period: int,
-    ingame_status: str | None = None,
+    ingame_status: Optional[str] = None,
     result_string: object = None,
 ) -> int:
     decided_in_extra_time = _is_extra_time_decision(period, ingame_status, result_string)
@@ -568,7 +571,7 @@ def _sort_events_chronologically(events: pd.DataFrame) -> pd.DataFrame:
     return ordered.drop(columns=["_minute_sort", "_period_sort"], errors="ignore")
 
 
-def _last_goal_event(events: pd.DataFrame) -> pd.Series | None:
+def _last_goal_event(events: pd.DataFrame) -> Optional[pd.Series]:
     goals = events[events['event_type'] == EVENT_GOAL]
     if goals.empty:
         return None
@@ -1281,160 +1284,547 @@ def build_engine() -> StatsEngine:
     return engine
 
 
+def _update_team_stats(current_totals: dict, increment: dict):
+    for key, value in increment.items():
+        if key == "points_against":
+            if key not in current_totals:
+                current_totals[key] = {}
+            for opponent, pts in value.items():
+                current_totals[key][opponent] = current_totals[key].get(opponent, 0) + pts
+        elif key not in ["powerplay_efficiency", "boxplay_efficiency"]:
+            if key not in current_totals:
+                current_totals[key] = value
+            else:
+                try:
+                    current_totals[key] += value
+                except (TypeError, ValueError):
+                    pass
+    return current_totals
+
+
+def _enhance_team_stats(stats: dict):
+    enhanced = stats.copy()
+    
+    # Ensure basic keys exist
+    for key in ["games", "goals", "goals_against", "points", "wins", "losses", "draws", "powerplay", "boxplay"]:
+        if key not in enhanced:
+            enhanced[key] = 0
+            
+    enhanced["powerplay_efficiency"] = _powerplay_efficiency(enhanced.get("goals_in_powerplay", 0), enhanced.get("powerplay", 0))
+    enhanced["boxplay_efficiency"] = _penalty_kill_efficiency(enhanced.get("goals_against_in_boxplay", 0), enhanced.get("boxplay", 0))
+
+    games = enhanced.get("games", 0)
+    goals = enhanced.get("goals", 0)
+    goals_against = enhanced.get("goals_against", 0)
+
+    enhanced["percent_goals_first_period"] = safe_div(enhanced.get("goals_in_first_period", 0), goals, 4, True, "n.a.")
+    enhanced["percent_goals_second_period"] = safe_div(enhanced.get("goals_in_second_period", 0), goals, 4, True, "n.a.")
+    enhanced["percent_goals_third_period"] = safe_div(enhanced.get("goals_in_third_period", 0), goals, 4, True, "n.a.")
+    enhanced["percent_goals_overtime"] = safe_div(enhanced.get("goals_in_overtime", 0), goals, 4, True, "n.a.")
+
+    enhanced["percent_goals_first_period_against"] = safe_div(
+        enhanced.get("goals_in_first_period_against", 0), goals_against, 4, True, "n.a."
+    )
+    enhanced["percent_goals_second_period_against"] = safe_div(
+        enhanced.get("goals_in_second_period_against", 0), goals_against, 4, True, "n.a."
+    )
+    enhanced["percent_goals_third_period_against"] = safe_div(
+        enhanced.get("goals_in_third_period_against", 0), goals_against, 4, True, "n.a."
+    )
+    enhanced["percent_goals_overtime_against"] = safe_div(
+        enhanced.get("goals_in_overtime_against", 0), goals_against, 4, True, "n.a."
+    )
+    enhanced["points_per_game"] = safe_div(enhanced.get("points", 0), games)
+    enhanced["goal_difference"] = goals - goals_against
+    enhanced["goal_difference_per_game"] = safe_div(enhanced["goal_difference"], games)
+
+    enhanced["scoring_ratio"] = safe_div(goals, goals_against, 2, False, "n.a.")
+    enhanced["goals_per_game"] = safe_div(goals, games, 2)
+    enhanced["goals_against_per_game"] = safe_div(goals_against, games, 2)
+    enhanced["boxplay_per_game"] = safe_div(enhanced.get("boxplay", 0), games, 2)
+    enhanced["powerplay_per_game"] = safe_div(enhanced.get("powerplay", 0), games, 2)
+    enhanced["first_period_goals_per_game"] = safe_div(enhanced.get("goals_in_first_period", 0), games, 2)
+    enhanced["first_period_goals_against_per_game"] = safe_div(enhanced.get("goals_in_first_period_against", 0), games, 2)
+    enhanced["points_after_first_period_per_game"] = safe_div(enhanced.get("points_after_first_period", 0), games, 2)
+    enhanced["penalties_per_game"] = safe_div(enhanced.get("penalties", 0), games, 2)
+    enhanced["goals_against_in_boxplay_per_game"] = safe_div(enhanced.get("goals_against_in_boxplay", 0), games, 2)
+    close_games = enhanced.get("close_game_win", 0) + enhanced.get("close_game_loss", 0) + enhanced.get("close_game_overtime", 0)
+    enhanced["close_games"] = close_games
+    enhanced["close_game_points_per_game"] = safe_div(enhanced.get("points_max_difference_2", 0), close_games, 2, False, "n.a.")
+    enhanced["close_game_points_share"] = safe_div(enhanced.get("points_max_difference_2", 0), close_games * 3, 4, True, "n.a.")
+
+    return enhanced
+
+
+def _history_window_metrics(
+    history: List[dict[str, Any]],
+    *,
+    limit: Optional[int] = None,
+    venue: Optional[str] = None,
+    opponent: Optional[str] = None,
+) -> dict[str, Any]:
+    filtered = history
+    if venue:
+        filtered = [entry for entry in filtered if entry.get("venue") == venue]
+    if opponent:
+        filtered = [entry for entry in filtered if entry.get("opponent") == opponent]
+    if limit is not None:
+        filtered = filtered[-limit:]
+
+    games = len(filtered)
+    if games == 0:
+        return {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0,
+            "points": 0,
+            "points_per_game": 0.0,
+            "goals_for_per_game": 0.0,
+            "goals_against_per_game": 0.0,
+            "goal_diff_per_game": 0.0,
+            "first_period_goals_per_game": 0.0,
+            "first_period_goals_against_per_game": 0.0,
+            "points_after_first_period_per_game": 0.0,
+            "penalties_per_game": 0.0,
+            "goals_against_in_boxplay_per_game": 0.0,
+            "powerplay_efficiency": "n.a.",
+            "boxplay_efficiency": "n.a.",
+            "close_games": 0,
+            "close_game_points_per_game": "n.a.",
+            "comeback_wins": 0,
+            "blown_leads": 0,
+            "ot_ps_games": 0,
+            "form_tags": "n.a.",
+            "form_tag_codes_csv": "",
+            "form_opponents_csv": "",
+        }
+
+    wins = sum(1 for entry in filtered if entry.get("win"))
+    losses = sum(1 for entry in filtered if entry.get("loss"))
+    draws = sum(1 for entry in filtered if entry.get("draw"))
+    points = sum(int(entry.get("points", 0)) for entry in filtered)
+    goals_for = sum(int(entry.get("goals_for", 0)) for entry in filtered)
+    goals_against = sum(int(entry.get("goals_against", 0)) for entry in filtered)
+    first_period_goals = sum(int(entry.get("goals_in_first_period", 0)) for entry in filtered)
+    first_period_goals_against = sum(int(entry.get("goals_in_first_period_against", 0)) for entry in filtered)
+    points_after_first_period = sum(int(entry.get("points_after_first_period", 0)) for entry in filtered)
+    penalties = sum(int(entry.get("penalties", 0)) for entry in filtered)
+    goals_against_in_boxplay = sum(int(entry.get("goals_against_in_boxplay", 0)) for entry in filtered)
+    goals_in_powerplay = sum(int(entry.get("goals_in_powerplay", 0)) for entry in filtered)
+    powerplay = sum(int(entry.get("powerplay", 0)) for entry in filtered)
+    boxplay = sum(int(entry.get("boxplay", 0)) for entry in filtered)
+    close_games = sum(1 for entry in filtered if entry.get("close_game"))
+    close_points = sum(int(entry.get("points", 0)) for entry in filtered if entry.get("close_game"))
+    comeback_wins = sum(1 for entry in filtered if entry.get("win") and entry.get("first_goal_against"))
+    blown_leads = sum(1 for entry in filtered if not entry.get("win") and entry.get("first_goal_for"))
+    ot_ps_games = sum(1 for entry in filtered if entry.get("ot_ps_decision"))
+    form_tags = []
+    form_tag_codes = []
+    for entry in filtered:
+        if entry.get("draw"):
+            form_tags.append("D")
+            form_tag_codes.append("D")
+        elif entry.get("win"):
+            if entry.get("ot_ps_decision"):
+                form_tags.append("OTW")
+                form_tag_codes.append("OW")
+            else:
+                form_tags.append("W")
+                form_tag_codes.append("W")
+        else:
+            if entry.get("ot_ps_decision"):
+                form_tags.append("OTL")
+                form_tag_codes.append("OL")
+            else:
+                form_tags.append("L")
+                form_tag_codes.append("L")
+    form_opponents = [str(entry.get("opponent") or "") for entry in filtered]
+
+    return {
+        "games": games,
+        "wins": wins,
+        "losses": losses,
+        "draws": draws,
+        "points": points,
+        "points_per_game": safe_div(points, games, 2),
+        "goals_for_per_game": safe_div(goals_for, games, 2),
+        "goals_against_per_game": safe_div(goals_against, games, 2),
+        "goal_diff_per_game": safe_div(goals_for - goals_against, games, 2),
+        "first_period_goals_per_game": safe_div(first_period_goals, games, 2),
+        "first_period_goals_against_per_game": safe_div(first_period_goals_against, games, 2),
+        "points_after_first_period_per_game": safe_div(points_after_first_period, games, 2),
+        "penalties_per_game": safe_div(penalties, games, 2),
+        "goals_against_in_boxplay_per_game": safe_div(goals_against_in_boxplay, games, 2),
+        "powerplay_efficiency": _powerplay_efficiency(goals_in_powerplay, powerplay),
+        "boxplay_efficiency": _penalty_kill_efficiency(goals_against_in_boxplay, boxplay),
+        "close_games": close_games,
+        "close_game_points_per_game": safe_div(close_points, close_games, 2, False, "n.a."),
+        "comeback_wins": comeback_wins,
+        "blown_leads": blown_leads,
+        "ot_ps_games": ot_ps_games,
+        "form_tags": " ".join(form_tags),
+        "form_tag_codes_csv": ",".join(form_tag_codes),
+        "form_opponents_csv": "||".join(form_opponents),
+    }
+
+
+def _common_opponents_metrics(home_history: List[dict[str, Any]], away_history: List[dict[str, Any]]) -> dict[str, Any]:
+    def _build_map(history: List[dict[str, Any]]) -> dict[str, dict[str, int]]:
+        result: dict[str, dict[str, int]] = {}
+        for entry in history:
+            opponent = str(entry.get("opponent") or "").strip()
+            if not opponent:
+                continue
+            bucket = result.setdefault(opponent, {"games": 0, "points": 0, "goal_diff": 0})
+            bucket["games"] += 1
+            bucket["points"] += int(entry.get("points", 0))
+            bucket["goal_diff"] += int(entry.get("goals_for", 0)) - int(entry.get("goals_against", 0))
+        return result
+
+    home_map = _build_map(home_history)
+    away_map = _build_map(away_history)
+    common = sorted(set(home_map).intersection(away_map))
+
+    home_games = sum(home_map[opp]["games"] for opp in common)
+    away_games = sum(away_map[opp]["games"] for opp in common)
+    home_points = sum(home_map[opp]["points"] for opp in common)
+    away_points = sum(away_map[opp]["points"] for opp in common)
+    home_goal_diff = sum(home_map[opp]["goal_diff"] for opp in common)
+    away_goal_diff = sum(away_map[opp]["goal_diff"] for opp in common)
+
+    return {
+        "count": len(common),
+        "home_games": home_games,
+        "away_games": away_games,
+        "home_points_per_game": safe_div(home_points, home_games, 2, False, "n.a."),
+        "away_points_per_game": safe_div(away_points, away_games, 2, False, "n.a."),
+        "home_goal_diff_per_game": safe_div(home_goal_diff, home_games, 2, False, "n.a."),
+        "away_goal_diff_per_game": safe_div(away_goal_diff, away_games, 2, False, "n.a."),
+    }
+
+
+def _pregame_h2h_metrics(
+    home_team: str,
+    away_team: str,
+    home_history: List[dict[str, Any]],
+    away_history: List[dict[str, Any]],
+) -> dict[str, Any]:
+    home_form5 = _history_window_metrics(home_history, limit=5)
+    away_form5 = _history_window_metrics(away_history, limit=5)
+    home_home = _history_window_metrics(home_history, venue="home")
+    away_away = _history_window_metrics(away_history, venue="away")
+    h2h = _history_window_metrics(home_history, opponent=away_team)
+    common = _common_opponents_metrics(home_history, away_history)
+
+    return {
+        # 1) Form (last 5)
+        "pregame_h2h_form5_home_tags": home_form5["form_tags"],
+        "pregame_h2h_form5_away_tags": away_form5["form_tags"],
+        "pregame_h2h_form5_home_tag_codes_csv": home_form5["form_tag_codes_csv"],
+        "pregame_h2h_form5_away_tag_codes_csv": away_form5["form_tag_codes_csv"],
+        "pregame_h2h_form5_home_opponents_csv": home_form5["form_opponents_csv"],
+        "pregame_h2h_form5_away_opponents_csv": away_form5["form_opponents_csv"],
+        "pregame_h2h_form5_home_points_per_game": home_form5["points_per_game"],
+        "pregame_h2h_form5_away_points_per_game": away_form5["points_per_game"],
+        "pregame_h2h_form5_home_goal_diff_per_game": home_form5["goal_diff_per_game"],
+        "pregame_h2h_form5_away_goal_diff_per_game": away_form5["goal_diff_per_game"],
+        "pregame_h2h_form5_home_wins": home_form5["wins"],
+        "pregame_h2h_form5_away_wins": away_form5["wins"],
+        # 2) Home vs Away strength
+        "pregame_h2h_home_split_points_per_game": home_home["points_per_game"],
+        "pregame_h2h_away_split_points_per_game": away_away["points_per_game"],
+        "pregame_h2h_home_split_goal_diff_per_game": home_home["goal_diff_per_game"],
+        "pregame_h2h_away_split_goal_diff_per_game": away_away["goal_diff_per_game"],
+        # 3) Direct H2H
+        "pregame_h2h_direct_games": h2h["games"],
+        "pregame_h2h_direct_home_wins": h2h["wins"],
+        "pregame_h2h_direct_away_wins": h2h["losses"],
+        "pregame_h2h_direct_draws": h2h["draws"],
+        "pregame_h2h_direct_home_points_per_game": h2h["points_per_game"],
+        "pregame_h2h_direct_ot_ps_games": h2h["ot_ps_games"],
+        # 4) Common opponents
+        "pregame_h2h_common_opponents_count": common["count"],
+        "pregame_h2h_common_home_points_per_game": common["home_points_per_game"],
+        "pregame_h2h_common_away_points_per_game": common["away_points_per_game"],
+        "pregame_h2h_common_home_goal_diff_per_game": common["home_goal_diff_per_game"],
+        "pregame_h2h_common_away_goal_diff_per_game": common["away_goal_diff_per_game"],
+        # 5) First-period profile
+        "pregame_h2h_first_period_home_goals_per_game": home_form5["first_period_goals_per_game"],
+        "pregame_h2h_first_period_away_goals_per_game": away_form5["first_period_goals_per_game"],
+        "pregame_h2h_first_period_home_goals_against_per_game": home_form5["first_period_goals_against_per_game"],
+        "pregame_h2h_first_period_away_goals_against_per_game": away_form5["first_period_goals_against_per_game"],
+        "pregame_h2h_first_period_home_points_after_first_per_game": home_form5["points_after_first_period_per_game"],
+        "pregame_h2h_first_period_away_points_after_first_per_game": away_form5["points_after_first_period_per_game"],
+        # 6) Special teams matchup (cross)
+        "pregame_h2h_special_home_pp_eff": home_form5["powerplay_efficiency"],
+        "pregame_h2h_special_away_pp_eff": away_form5["powerplay_efficiency"],
+        "pregame_h2h_special_home_pk_eff": home_form5["boxplay_efficiency"],
+        "pregame_h2h_special_away_pk_eff": away_form5["boxplay_efficiency"],
+        # 7) Discipline pressure
+        "pregame_h2h_discipline_home_penalties_per_game": home_form5["penalties_per_game"],
+        "pregame_h2h_discipline_away_penalties_per_game": away_form5["penalties_per_game"],
+        "pregame_h2h_discipline_home_pk_goals_against_per_game": home_form5["goals_against_in_boxplay_per_game"],
+        "pregame_h2h_discipline_away_pk_goals_against_per_game": away_form5["goals_against_in_boxplay_per_game"],
+        # 8) Game-state resilience
+        "pregame_h2h_resilience_home_comeback_wins": home_form5["comeback_wins"],
+        "pregame_h2h_resilience_away_comeback_wins": away_form5["comeback_wins"],
+        "pregame_h2h_resilience_home_blown_leads": home_form5["blown_leads"],
+        "pregame_h2h_resilience_away_blown_leads": away_form5["blown_leads"],
+        "pregame_h2h_resilience_home_close_game_points_per_game": home_form5["close_game_points_per_game"],
+        "pregame_h2h_resilience_away_close_game_points_per_game": away_form5["close_game_points_per_game"],
+    }
+
+
 def run_stats_pipeline(
     input_csv_path: str,
     output_dir: str,
-    season: str | None = None,
-    phase: str | None = None,
+    season: Optional[str] = None,
+    phase: Optional[str] = None,
+    pregame_history_csv_paths: Optional[List[str]] = None,
 ) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    df = pd.read_csv(input_csv_path)
-    df = _canonicalize_team_names(df)
-    df = _deduplicate_event_rows(df)
-    if {"event_type", "home_goals", "guest_goals"}.issubset(df.columns):
-        # Some sources include malformed goal rows (e.g. mixed timeline blocks)
-        # without any score snapshot. Drop them before computing stats.
-        invalid_goals = (
-            (df["event_type"] == EVENT_GOAL)
-            & df["home_goals"].isna()
-            & df["guest_goals"].isna()
-        )
-        df = df.loc[~invalid_goals].copy()
-    teams = list(df['home_team_name'].unique()) + list(df['away_team_name'].unique())
+    def _prepare_df(raw_df: pd.DataFrame) -> pd.DataFrame:
+        prepared = _canonicalize_team_names(raw_df)
+        prepared = _deduplicate_event_rows(prepared)
+        if {"event_type", "home_goals", "guest_goals"}.issubset(prepared.columns):
+            # Some sources include malformed goal rows (e.g. mixed timeline blocks)
+            # without any score snapshot. Drop them before computing stats.
+            invalid_goals = (prepared["event_type"] == EVENT_GOAL) & prepared["home_goals"].isna() & prepared["guest_goals"].isna()
+            prepared = prepared.loc[~invalid_goals].copy()
+        return prepared
+
+    df = _prepare_df(pd.read_csv(input_csv_path))
+    teams = list(df["home_team_name"].unique()) + list(df["away_team_name"].unique())
     teams = np.unique(teams)
     engine = build_engine()
     game_stats = []
     played_game_stats = []
 
-    for game_id, game_df in df.groupby('game_id'):
+    # Sort games chronologically to track pregame stats
+    game_groups = []
+    for game_id, game_df in df.groupby("game_id"):
+        game_groups.append(
+            {
+                "game_id": game_id,
+                "game_df": game_df,
+                "date": _json_scalar(game_df["game_date"].iloc[0] if "game_date" in game_df.columns else ""),
+                "start_time": _json_scalar(game_df["game_start_time"].iloc[0] if "game_start_time" in game_df.columns else ""),
+            }
+        )
+
+    # Use an empty string if date or time is None for sorting
+    game_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
+
+    # Keep table accumulators independent from pregame-history accumulators so
+    # playoffs can have a fresh table while pregame comparisons can still use
+    # prior phase context.
+    team_accumulators = {}
+    team_game_history: dict[str, List[dict[str, Any]]] = {}
+    pregame_accumulators = {}
+    pregame_game_history: dict[str, List[dict[str, Any]]] = {}
+
+    def _ingest_played_game_into_history(
+        game_df: pd.DataFrame,
+        target_accumulators: dict[str, dict[str, Any]],
+        target_history: dict[str, List[dict[str, Any]]],
+    ):
+        played_df = _played_events_only(game_df)
+        if played_df.empty:
+            return
+        home_team_name = game_df["home_team_name"].iloc[0]
+        away_team_name = game_df["away_team_name"].iloc[0]
+        home_stats_local = engine.calculate_team_stats(played_df, home_team_name).stats.copy()
+        away_stats_local = engine.calculate_team_stats(played_df, away_team_name).stats.copy()
+
+        final_score_local = _parse_result_string_score(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
+        if final_score_local is not None:
+            home_final_local, away_final_local = final_score_local
+            home_stats_local["goals"] = home_final_local
+            home_stats_local["goals_against"] = away_final_local
+            away_stats_local["goals"] = away_final_local
+            away_stats_local["goals_against"] = home_final_local
+
+        for stats_local in [home_stats_local, away_stats_local]:
+            stats_local["powerplay_efficiency"] = _powerplay_efficiency(stats_local["goals_in_powerplay"], stats_local["powerplay"])
+            stats_local["boxplay_efficiency"] = _penalty_kill_efficiency(stats_local["goals_against_in_boxplay"], stats_local["boxplay"])
+            stats_local["penalties"] = stats_local["penalty_2"] + stats_local["penalty_2and2"] + stats_local["penalty_10"] + stats_local["penalty_ms"]
+
+        period_local = int(pd.to_numeric(played_df.get("period"), errors="coerce").max()) if not played_df.empty else 0
+        ingame_status_local = _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None)
+        result_string_local = _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
+        home_goals_local = int(home_stats_local.get("goals", 0))
+        away_goals_local = int(away_stats_local.get("goals", 0))
+        home_points_local = _points_from_final_score(home_goals_local, away_goals_local, period_local, ingame_status_local, result_string_local)
+        away_points_local = _points_from_final_score(away_goals_local, home_goals_local, period_local, ingame_status_local, result_string_local)
+        ot_ps_decision_local = _is_extra_time_decision(period_local, ingame_status_local, result_string_local)
+
+        home_entry_local = {
+            "opponent": away_team_name,
+            "venue": "home",
+            "goals_for": home_goals_local,
+            "goals_against": away_goals_local,
+            "points": home_points_local,
+            "win": home_goals_local > away_goals_local,
+            "loss": home_goals_local < away_goals_local,
+            "draw": home_goals_local == away_goals_local,
+            "ot_ps_decision": ot_ps_decision_local,
+            "close_game": abs(home_goals_local - away_goals_local) <= 2,
+            "first_goal_for": int(home_stats_local.get("first_goal_of_match", 0)) > 0,
+            "first_goal_against": int(home_stats_local.get("first_goal_of_match_against", 0)) > 0,
+            "goals_in_first_period": int(home_stats_local.get("goals_in_first_period", 0)),
+            "goals_in_first_period_against": int(home_stats_local.get("goals_in_first_period_against", 0)),
+            "points_after_first_period": int(home_stats_local.get("points_after_first_period", 0)),
+            "penalties": int(home_stats_local.get("penalties", 0)),
+            "goals_against_in_boxplay": int(home_stats_local.get("goals_against_in_boxplay", 0)),
+            "goals_in_powerplay": int(home_stats_local.get("goals_in_powerplay", 0)),
+            "powerplay": int(home_stats_local.get("powerplay", 0)),
+            "boxplay": int(home_stats_local.get("boxplay", 0)),
+        }
+        away_entry_local = {
+            "opponent": home_team_name,
+            "venue": "away",
+            "goals_for": away_goals_local,
+            "goals_against": home_goals_local,
+            "points": away_points_local,
+            "win": away_goals_local > home_goals_local,
+            "loss": away_goals_local < home_goals_local,
+            "draw": away_goals_local == home_goals_local,
+            "ot_ps_decision": ot_ps_decision_local,
+            "close_game": abs(home_goals_local - away_goals_local) <= 2,
+            "first_goal_for": int(away_stats_local.get("first_goal_of_match", 0)) > 0,
+            "first_goal_against": int(away_stats_local.get("first_goal_of_match_against", 0)) > 0,
+            "goals_in_first_period": int(away_stats_local.get("goals_in_first_period", 0)),
+            "goals_in_first_period_against": int(away_stats_local.get("goals_in_first_period_against", 0)),
+            "points_after_first_period": int(away_stats_local.get("points_after_first_period", 0)),
+            "penalties": int(away_stats_local.get("penalties", 0)),
+            "goals_against_in_boxplay": int(away_stats_local.get("goals_against_in_boxplay", 0)),
+            "goals_in_powerplay": int(away_stats_local.get("goals_in_powerplay", 0)),
+            "powerplay": int(away_stats_local.get("powerplay", 0)),
+            "boxplay": int(away_stats_local.get("boxplay", 0)),
+        }
+        target_history.setdefault(home_team_name, []).append(home_entry_local)
+        target_history.setdefault(away_team_name, []).append(away_entry_local)
+        target_accumulators[home_team_name] = _update_team_stats(target_accumulators.get(home_team_name, {}), home_stats_local)
+        target_accumulators[away_team_name] = _update_team_stats(target_accumulators.get(away_team_name, {}), away_stats_local)
+
+    for history_path in pregame_history_csv_paths or []:
+        history_file = Path(history_path)
+        if not history_file.exists():
+            continue
+        history_df = _prepare_df(pd.read_csv(history_file))
+        history_groups = []
+        for history_game_id, history_game_df in history_df.groupby("game_id"):
+            history_groups.append(
+                {
+                    "game_id": history_game_id,
+                    "game_df": history_game_df,
+                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_game_df.columns else ""),
+                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_game_df.columns else ""),
+                }
+            )
+        history_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
+        for history_group in history_groups:
+            _ingest_played_game_into_history(
+                history_group["game_df"],
+                pregame_accumulators,
+                pregame_game_history,
+            )
+
+    for group in game_groups:
+        game_id = group["game_id"]
+        game_df = group["game_df"]
+
         played_game_df = _played_events_only(game_df)
         is_scheduled = played_game_df.empty
 
-        home_team = game_df['home_team_name'].iloc[0]
-        away_team = game_df['away_team_name'].iloc[0]
-        home_stats = engine.calculate_team_stats(played_game_df, home_team).stats.copy()
+        home_team = game_df["home_team_name"].iloc[0]
+        away_team = game_df["away_team_name"].iloc[0]
 
+        # Get pregame stats (enhanced)
+        home_pregame_stats = _enhance_team_stats(pregame_accumulators.get(home_team, {}))
+        away_pregame_stats = _enhance_team_stats(pregame_accumulators.get(away_team, {}))
+        home_history = pregame_game_history.get(home_team, [])
+        away_history = pregame_game_history.get(away_team, [])
+        pregame_h2h_stats = _pregame_h2h_metrics(home_team, away_team, home_history, away_history)
+
+        home_stats = engine.calculate_team_stats(played_game_df, home_team).stats.copy()
         away_stats = engine.calculate_team_stats(played_game_df, away_team).stats.copy()
 
         # Prefer an explicit final score snapshot when available. Some feeds contain
         # inconsistent scorer flags for individual events, which can otherwise
         # misclassify games as draws even though a final result is present.
-        final_score = _parse_result_string_score(game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None)
+        final_score = _parse_result_string_score(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
         if final_score is not None:
             home_final, away_final = final_score
-            home_stats['goals'] = home_final
-            home_stats['goals_against'] = away_final
-            home_stats['goal_difference'] = home_final - away_final
-            home_stats['goals_home'] = home_final
-            home_stats['goals_away'] = 0
-            home_stats['goals_against_home'] = away_final
-            home_stats['goals_against_away'] = 0
+            home_stats["goals"] = home_final
+            home_stats["goals_against"] = away_final
+            home_stats["goal_difference"] = home_final - away_final
+            home_stats["goals_home"] = home_final
+            home_stats["goals_away"] = 0
+            home_stats["goals_against_home"] = away_final
+            home_stats["goals_against_away"] = 0
 
-            away_stats['goals'] = away_final
-            away_stats['goals_against'] = home_final
-            away_stats['goal_difference'] = away_final - home_final
-            away_stats['goals_home'] = 0
-            away_stats['goals_away'] = away_final
-            away_stats['goals_against_home'] = 0
-            away_stats['goals_against_away'] = home_final
+            away_stats["goals"] = away_final
+            away_stats["goals_against"] = home_final
+            away_stats["goal_difference"] = away_final - home_final
+            away_stats["goals_home"] = 0
+            away_stats["goals_away"] = away_final
+            away_stats["goals_against_home"] = 0
+            away_stats["goals_against_away"] = home_final
 
         for stats in [home_stats, away_stats]:
-            stats['powerplay_efficiency'] = _powerplay_efficiency(stats['goals_in_powerplay'], stats['powerplay'])
-            stats['boxplay_efficiency'] = _penalty_kill_efficiency(stats['goals_against_in_boxplay'], stats['boxplay'])
-            stats['penalties'] = stats['penalty_2'] + stats['penalty_2and2'] + stats['penalty_10'] + stats['penalty_ms']
-
+            stats["powerplay_efficiency"] = _powerplay_efficiency(stats["goals_in_powerplay"], stats["powerplay"])
+            stats["boxplay_efficiency"] = _penalty_kill_efficiency(stats["goals_against_in_boxplay"], stats["boxplay"])
+            stats["penalties"] = stats["penalty_2"] + stats["penalty_2and2"] + stats["penalty_10"] + stats["penalty_ms"]
 
         game_stat = {
-            'game_id': game_id,
-            'date': _json_scalar(game_df['game_date'].iloc[0] if 'game_date' in game_df.columns else None),
-            'start_time': _json_scalar(game_df['game_start_time'].iloc[0] if 'game_start_time' in game_df.columns else None),
-            'attendance': _json_scalar(game_df['attendance'].iloc[0] if 'attendance' in game_df.columns else None),
-            'game_status': _json_scalar(game_df['game_status'].iloc[0] if 'game_status' in game_df.columns else None),
-            'result_string': _json_scalar(game_df['result_string'].iloc[0] if 'result_string' in game_df.columns else None),
-            'ingame_status': _json_scalar(game_df['ingame_status'].iloc[0] if 'ingame_status' in game_df.columns else None),
-            'game_state': 'scheduled' if is_scheduled else 'played',
-            'home_team': home_team,
-            'home_stats': home_stats,
-            'away_team': away_team,
-            'away_stats': away_stats
+            "game_id": game_id,
+            "date": _json_scalar(game_df["game_date"].iloc[0] if "game_date" in game_df.columns else None),
+            "start_time": _json_scalar(game_df["game_start_time"].iloc[0] if "game_start_time" in game_df.columns else None),
+            "attendance": _json_scalar(game_df["attendance"].iloc[0] if "attendance" in game_df.columns else None),
+            "game_status": _json_scalar(game_df["game_status"].iloc[0] if "game_status" in game_df.columns else None),
+            "result_string": _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None),
+            "ingame_status": _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None),
+            "game_state": "scheduled" if is_scheduled else "played",
+            "home_team": home_team,
+            "home_stats": home_stats,
+            "home_pregame_stats": home_pregame_stats,
+            "away_team": away_team,
+            "away_stats": away_stats,
+            "away_pregame_stats": away_pregame_stats,
         }
+        game_stat.update(pregame_h2h_stats)
         game_stat.update(_build_gameflow_timeline(played_game_df, home_team, away_team))
         game_stat.update(_build_game_events_payload(played_game_df, home_team, away_team))
         game_stats.append(game_stat)
         if not is_scheduled:
             played_game_stats.append(game_stat)
-
-    # aggregate per game
-
+            _ingest_played_game_into_history(game_df, team_accumulators, team_game_history)
+            _ingest_played_game_into_history(game_df, pregame_accumulators, pregame_game_history)
 
     # save to json
-    with open(output_path / 'game_stats.json', 'w') as f:
+    with open(output_path / "game_stats.json", "w") as f:
         json.dump(game_stats, f, indent=4)
 
-    # aggregate per team
+    # Final team stats from accumulators
     team_stats = {}
-
-    for game in played_game_stats:
-        for side in ['home', 'away']:
-            team = game[f'{side}_team']
-            stats = game[f'{side}_stats']
-            if team not in team_stats:
-                team_stats[team] = {}
-            for key, value in stats.items():
-                if key == 'points_against':
-                    if key not in team_stats[team]:
-                        team_stats[team][key] = {}
-                    for opponent, pts in value.items():
-                        team_stats[team][key][opponent] = team_stats[team][key].get(opponent, 0) + pts
-                elif key not in ['powerplay_efficiency', 'boxplay_efficiency']:
-                    if key not in team_stats[team]:
-                        team_stats[team][key] = value
-                    else:
-                        try:
-                            team_stats[team][key] += value
-                        except Exception as e:
-                            raise ValueError(f"Error adding {key} for team {team}: {e}") from e
-
-    with open(output_path / 'team_stats.json', 'w') as f:
-        json.dump(team_stats, f, indent=4)
-
-    # add ratio features
-    for team, stats in team_stats.items():
-        stats['powerplay_efficiency'] = _powerplay_efficiency(stats['goals_in_powerplay'], stats['powerplay'])
-        stats['boxplay_efficiency'] = _penalty_kill_efficiency(stats['goals_against_in_boxplay'], stats['boxplay'])
-        stats['percent_goals_first_period'] = safe_div(stats['goals_in_first_period'], stats['goals'], 4, True, "n.a.")
-        stats['percent_goals_second_period'] = safe_div(stats['goals_in_second_period'], stats['goals'], 4, True,
-                                                        "n.a.")
-        stats['percent_goals_third_period'] = safe_div(stats['goals_in_third_period'], stats['goals'], 4, True, "n.a.")
-        stats['percent_goals_overtime'] = safe_div(stats['goals_in_overtime'], stats['goals'], 4, True, "n.a.")
-        stats['percent_goals_first_period_against'] = safe_div(stats['goals_in_first_period_against'],
-                                                               stats['goals_against'], 4, True, "n.a.")
-        stats['percent_goals_second_period_against'] = safe_div(stats['goals_in_second_period_against'],
-                                                                stats['goals_against'], 4, True, "n.a.")
-        stats['percent_goals_third_period_against'] = safe_div(stats['goals_in_third_period_against'],
-                                                               stats['goals_against'], 4, True, "n.a.")
-        stats['percent_goals_overtime_against'] = safe_div(stats['goals_in_overtime_against'], stats['goals_against'],
-                                                           4, True, "n.a.")
-        stats['points_per_game'] = safe_div(stats['points'], stats['games'])
-        stats['goal_difference'] = stats['goals'] - stats['goals_against']
-        stats['goal_difference_per_game'] = safe_div(stats['goal_difference'], stats['games'])
-
-        stats['scoring_ratio'] = safe_div(stats['goals'], stats['goals_against'], 2, False, "n.a.")
-        stats['goals_per_game'] = safe_div(stats['goals'], stats['games'], 2)
-        stats['goals_against_per_game'] = safe_div(stats['goals_against'], stats['games'], 2)
-        stats['boxplay_per_game'] = safe_div(stats['boxplay'], stats['games'], 2)
-        stats['powerplay_per_game'] = safe_div(stats['powerplay'], stats['games'], 2)
+    for team, stats in team_accumulators.items():
+        team_stats[team] = _enhance_team_stats(stats)
 
     # convert to a list of dicts
     all_stats = [TeamStats(team, stats) for team, stats in team_stats.items()]
-    ranking = sorted(all_stats, key=lambda x: (-x.stats.get('points', 0), -x.stats.get('goal_difference', 0), -x.stats.get('goals', 0)))
+    ranking = sorted(
+        all_stats, key=lambda x: (-x.stats.get("points", 0), -x.stats.get("goal_difference", 0), -x.stats.get("goals", 0))
+    )
     for i, entry in enumerate(ranking):
-        team_stats[entry.team]['rank'] = i + 1
+        team_stats[entry.team]["rank"] = i + 1
 
-    with open(output_path / 'team_stats_enhanced.json', 'w') as f:
+    with open(output_path / "team_stats_enhanced.json", "w") as f:
         json.dump(team_stats, f, indent=4)
+
 
     home_away_split_table = write_home_away_split_table(
         team_stats,

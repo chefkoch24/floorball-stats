@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: Kanonýři Kladno
 Category: cz-25-26-regular-season, teams
 Slug: kanonyri-kladno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -14,8 +14,8 @@ boxplay_per_game: 1.5
 boxplay_second_period: 14
 boxplay_third_period: 13
 close_game_loss: 4
-close_game_overtime: 3
-close_game_win: 7
+close_game_overtime: 2
+close_game_win: 4
 draws: 0
 equalizer_goals: 24
 equalizer_goals_against: 27
@@ -80,8 +80,8 @@ points_after_first_period: 36
 points_after_second_period: 18
 points_after_third_period: 42
 Tags:  1. SC NATIOS Vítkovice: 3,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 1,  ESA logistika Tatran Střešovice: 3,  FAT PIPE FLORBAL CHODOV: 3,  FBC 4CLEAN Česká Lípa: 4,  FBC Liberec: 3,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 4,
-points_max_difference_2: 24
-points_more_2_difference: 18
+points_max_difference_2: 15
+points_more_2_difference: 27
 points_per_game: 1.62
 powerplay: 23
 powerplay_efficiency: 56.52

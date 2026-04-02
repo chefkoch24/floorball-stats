@@ -13,8 +13,8 @@ boxplay_overtime: 0
 boxplay_per_game: 1.5
 boxplay_second_period: 2
 boxplay_third_period: 7
-close_game_loss: 1
-close_game_overtime: 1
+close_game_loss: 0
+close_game_overtime: 0
 close_game_win: 1
 draws: 0
 equalizer_goals: 3
@@ -80,8 +80,8 @@ points_after_first_period: 5
 points_after_second_period: 9
 points_after_third_period: 7
 Tags:  Talsu NSS/Krauzers: 7,
-points_max_difference_2: 4
-points_more_2_difference: 3
+points_max_difference_2: 3
+points_more_2_difference: 4
 points_per_game: 1.17
 powerplay: 7
 powerplay_efficiency: 14.29

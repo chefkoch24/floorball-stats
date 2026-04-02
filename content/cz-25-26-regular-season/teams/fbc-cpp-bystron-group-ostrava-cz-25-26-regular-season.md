@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: FBC ČPP Bystroň Group OSTRAVA
 Category: cz-25-26-regular-season, teams
 Slug: fbc-cpp-bystron-group-ostrava-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,8 +13,8 @@ boxplay_overtime: 0
 boxplay_per_game: 1.19
 boxplay_second_period: 11
 boxplay_third_period: 12
-close_game_loss: 5
-close_game_overtime: 5
+close_game_loss: 1
+close_game_overtime: 1
 close_game_win: 5
 draws: 0
 equalizer_goals: 16
@@ -80,8 +80,8 @@ points_after_first_period: 21
 points_after_second_period: 27
 points_after_third_period: 17
 Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 2,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 2,  FBC 4CLEAN Česká Lípa: 3,  FBC Liberec: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 1,
-points_max_difference_2: 14
-points_more_2_difference: 15
+points_max_difference_2: 12
+points_more_2_difference: 17
 points_per_game: 1.12
 powerplay: 39
 powerplay_efficiency: 23.080000000000002

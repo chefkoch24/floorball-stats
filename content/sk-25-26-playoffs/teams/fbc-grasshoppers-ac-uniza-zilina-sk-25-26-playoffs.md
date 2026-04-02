@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 1.0
 boxplay_second_period: 5
 boxplay_third_period: 2
-close_game_loss: 2
+close_game_loss: 1
 close_game_overtime: 1
-close_game_win: 2
+close_game_win: 0
 draws: 0
 equalizer_goals: 6
 equalizer_goals_against: 8
@@ -80,8 +80,8 @@ points_after_first_period: 11
 points_after_second_period: 16
 points_after_third_period: 13
 Tags:  FaBK ATU Košice: 10,  ŠK Lido Prírodovedec Bratislava: 3,
-points_max_difference_2: 7
-points_more_2_difference: 6
+points_max_difference_2: 1
+points_more_2_difference: 12
 points_per_game: 1.62
 powerplay: 11
 powerplay_efficiency: 36.36

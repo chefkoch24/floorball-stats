@@ -15,7 +15,7 @@ boxplay_second_period: 5
 boxplay_third_period: 7
 close_game_loss: 0
 close_game_overtime: 1
-close_game_win: 3
+close_game_win: 2
 draws: 0
 equalizer_goals: 8
 equalizer_goals_against: 7
@@ -80,8 +80,8 @@ points_after_first_period: 19
 points_after_second_period: 24
 points_after_third_period: 23
 Tags:  Lielvārde/Unihoc: 11,  Talsu NSS/Krauzers: 13,
-points_max_difference_2: 9
-points_more_2_difference: 15
+points_max_difference_2: 6
+points_more_2_difference: 18
 points_per_game: 2.67
 powerplay: 20
 powerplay_efficiency: 40.0

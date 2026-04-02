@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: 1. SC NATIOS Vítkovice
 Category: cz-25-26-regular-season, teams
 Slug: 1-sc-natios-vitkovice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 1.27
 boxplay_second_period: 13
 boxplay_third_period: 15
-close_game_loss: 4
-close_game_overtime: 3
-close_game_win: 6
+close_game_loss: 2
+close_game_overtime: 0
+close_game_win: 3
 draws: 0
 equalizer_goals: 24
 equalizer_goals_against: 14
@@ -80,8 +80,8 @@ points_after_first_period: 32
 points_after_second_period: 36
 points_after_third_period: 48
 Tags:  ACEMA Sparta Praha: 1,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 6,  FBC 4CLEAN Česká Lípa: 3,  FBC Liberec: 6,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 1,  TJ Sokol Královské Vinohrady: 4,
-points_max_difference_2: 21
-points_more_2_difference: 27
+points_max_difference_2: 10
+points_more_2_difference: 38
 points_per_game: 1.85
 powerplay: 30
 powerplay_efficiency: 30.0

@@ -13,9 +13,9 @@ boxplay_overtime: 0
 boxplay_per_game: 1.88
 boxplay_second_period: 6
 boxplay_third_period: 8
-close_game_loss: 2
+close_game_loss: 1
 close_game_overtime: 1
-close_game_win: 1
+close_game_win: 0
 draws: 0
 equalizer_goals: 8
 equalizer_goals_against: 7
@@ -80,8 +80,8 @@ points_after_first_period: 12
 points_after_second_period: 18
 points_after_third_period: 19
 Tags:  FBC Grasshoppers AC UNIZA Žilina: 9,  FK Florko Košice: 10,
-points_max_difference_2: 4
-points_more_2_difference: 15
+points_max_difference_2: 1
+points_more_2_difference: 18
 points_per_game: 2.38
 powerplay: 17
 powerplay_efficiency: 35.29

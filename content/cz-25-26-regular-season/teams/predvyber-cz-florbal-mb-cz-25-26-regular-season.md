@@ -1,4 +1,4 @@
-Date: 2026-03-24
+Date: 2026-03-31
 Title: Předvýběr.CZ Florbal MB
 Category: cz-25-26-regular-season, teams
 Slug: predvyber-cz-florbal-mb-cz-25-26-regular-season-cz-25-26-regular-season
@@ -14,8 +14,8 @@ boxplay_per_game: 1.04
 boxplay_second_period: 10
 boxplay_third_period: 12
 close_game_loss: 0
-close_game_overtime: 2
-close_game_win: 3
+close_game_overtime: 0
+close_game_win: 0
 draws: 0
 equalizer_goals: 10
 equalizer_goals_against: 13
@@ -80,8 +80,8 @@ points_after_first_period: 51
 points_after_second_period: 56
 points_after_third_period: 56
 Tags:  1. SC NATIOS Vítkovice: 5,  ACEMA Sparta Praha: 6,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran Střešovice: 6,  FAT PIPE FLORBAL CHODOV: 6,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 6,  FBC ČPP Bystroň Group OSTRAVA: 6,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 5,  Kanonýři Kladno: 6,  TJ Sokol Královské Vinohrady: 6,
-points_max_difference_2: 7
-points_more_2_difference: 69
+points_max_difference_2: 0
+points_more_2_difference: 76
 points_per_game: 2.92
 powerplay: 36
 powerplay_efficiency: 52.78

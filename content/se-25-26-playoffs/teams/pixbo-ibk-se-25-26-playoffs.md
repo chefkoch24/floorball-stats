@@ -13,8 +13,8 @@ boxplay_overtime: 0
 boxplay_per_game: 1.0
 boxplay_second_period: 2
 boxplay_third_period: 3
-close_game_loss: 1
-close_game_overtime: 1
+close_game_loss: 0
+close_game_overtime: 0
 close_game_win: 1
 draws: 0
 equalizer_goals: 4

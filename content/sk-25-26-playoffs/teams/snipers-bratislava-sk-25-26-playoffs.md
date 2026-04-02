@@ -15,7 +15,7 @@ boxplay_second_period: 3
 boxplay_third_period: 4
 close_game_loss: 1
 close_game_overtime: 0
-close_game_win: 1
+close_game_win: 0
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 3
@@ -80,8 +80,8 @@ points_after_first_period: 10
 points_after_second_period: 10
 points_after_third_period: 6
 Tags:  Tsunami Záhorská Bystrica: 6,
-points_max_difference_2: 3
-points_more_2_difference: 3
+points_max_difference_2: 0
+points_more_2_difference: 6
 points_per_game: 1.2
 powerplay: 14
 powerplay_efficiency: 35.709999999999994
