@@ -159,6 +159,7 @@
             </div>
         </nav>
         <div class="header-actions">
+            <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
             <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
             <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">Menu</button>
         </div>
@@ -176,9 +177,39 @@
     <div class="footer-inner">
         <a class="footer-link" href="{{ SITEURL }}/archive.html">Archive</a>
         <span class="footer-divider">·</span>
+        <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
+        <span class="footer-divider">·</span>
         <span>© 2026 Floorball Stats</span>
     </div>
 </footer>
+
+<div class="feedback-modal" id="feedbackModal" hidden>
+    <div class="feedback-modal__backdrop" data-feedback-close></div>
+    <div class="feedback-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="feedbackModalTitle">
+        <div class="feedback-modal__head">
+            <h2 class="feedback-modal__title" id="feedbackModalTitle">Send Feedback</h2>
+            <button class="feedback-modal__close" type="button" aria-label="Close feedback dialog" data-feedback-close>×</button>
+        </div>
+        <p class="feedback-modal__copy">Share wrong data, feedback, or anything else. We include helpful page and device metadata automatically.</p>
+        <form class="feedback-form" id="feedbackForm">
+            <label class="feedback-form__label" for="feedbackType">Type</label>
+            <select class="feedback-form__input" id="feedbackType" name="type" required>
+                <option value="Wrong Data">Wrong Data</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Suggestion">Suggestion</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label class="feedback-form__label" for="feedbackMessage">Message</label>
+            <textarea class="feedback-form__input feedback-form__textarea" id="feedbackMessage" name="message" required placeholder="Describe what is wrong or what should be improved."></textarea>
+
+            <div class="feedback-form__actions">
+                <button class="feedback-form__submit" type="submit">Create Email</button>
+                <button class="feedback-form__cancel" type="button" data-feedback-close>Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
 <script>
 !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=(s.ui_host||s.api_host)+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister unregister_once alias identify set_config reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing startSessionRecording stopSessionRecording".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 var __phHost = window.location.hostname;
@@ -263,6 +294,103 @@ if (menuToggle && mainNav) {
     const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
     menuToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
     mainNav.classList.toggle('is-open');
+  });
+}
+
+const feedbackEmail = "{{ FEEDBACK_EMAIL|default('hello@floorballconnect.com') }}";
+const feedbackModal = document.querySelector('#feedbackModal');
+const feedbackForm = document.querySelector('#feedbackForm');
+const feedbackTriggers = document.querySelectorAll('.feedback-trigger, .footer-feedback-trigger');
+const feedbackCloseButtons = document.querySelectorAll('[data-feedback-close]');
+
+function detectDeviceType() {
+  const userAgent = navigator.userAgent || '';
+  const width = window.innerWidth || 0;
+  if (/ipad|tablet/i.test(userAgent) || (width >= 700 && width <= 1024)) {
+    return 'tablet';
+  }
+  if (/mobi|android|iphone|ipod/i.test(userAgent) || width < 700) {
+    return 'mobile';
+  }
+  return 'desktop';
+}
+
+function openFeedbackModal() {
+  if (!feedbackModal) {
+    return;
+  }
+  feedbackModal.hidden = false;
+  document.body.classList.add('feedback-modal-open');
+  const messageField = feedbackForm ? feedbackForm.querySelector('#feedbackMessage') : null;
+  if (messageField) {
+    messageField.focus();
+  }
+}
+
+function closeFeedbackModal() {
+  if (!feedbackModal) {
+    return;
+  }
+  feedbackModal.hidden = true;
+  document.body.classList.remove('feedback-modal-open');
+}
+
+feedbackTriggers.forEach((button) => {
+  button.addEventListener('click', openFeedbackModal);
+});
+
+feedbackCloseButtons.forEach((button) => {
+  button.addEventListener('click', closeFeedbackModal);
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && feedbackModal && !feedbackModal.hidden) {
+    closeFeedbackModal();
+  }
+});
+
+if (feedbackForm) {
+  feedbackForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const type = feedbackForm.querySelector('#feedbackType').value || 'Feedback';
+    const message = (feedbackForm.querySelector('#feedbackMessage').value || '').trim();
+    if (!message) {
+      return;
+    }
+
+    const now = new Date();
+    const metadata = [
+      'Reported from Floorball Stats',
+      '----------------------------',
+      'URL: ' + window.location.href,
+      'Page title: ' + document.title,
+      'Referrer: ' + (document.referrer || 'direct'),
+      'User agent: ' + (navigator.userAgent || 'unknown'),
+      'Platform: ' + (navigator.platform || 'unknown'),
+      'Language: ' + (navigator.language || 'unknown'),
+      'Device type: ' + detectDeviceType(),
+      'Viewport: ' + window.innerWidth + 'x' + window.innerHeight,
+      'Screen: ' + window.screen.width + 'x' + window.screen.height,
+      'Pixel ratio: ' + (window.devicePixelRatio || 1),
+      'Timezone: ' + (Intl.DateTimeFormat().resolvedOptions().timeZone || 'unknown'),
+      'Timestamp: ' + now.toISOString()
+    ].join('\n');
+
+    const subject = '[Floorball Stats] ' + type + ' - ' + document.title;
+    const body = [
+      'Type: ' + type,
+      '',
+      message,
+      '',
+      metadata
+    ].join('\n');
+
+    window.location.href = 'mailto:' + encodeURIComponent(feedbackEmail) +
+      '?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+
+    feedbackForm.reset();
+    closeFeedbackModal();
   });
 }
 </script>

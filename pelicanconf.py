@@ -3,6 +3,7 @@ from datetime import datetime, time
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
+FEEDBACK_EMAIL = 'hello@floorballconnect.com'
 PLUGINS = [
     jinja_filters,
     more_categories,
