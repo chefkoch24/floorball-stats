@@ -15,17 +15,12 @@ boxplay_second_period: 2
 boxplay_third_period: 5
 close_game_loss: 0
 close_game_overtime: 0
-close_game_points_per_game: 3.0
-close_game_points_share: 100.0
-close_game_win: 3
-close_games: 3
+close_game_win: 2
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 2
 first_goal_of_match: 3
 first_goal_of_match_against: 1
-first_period_goals_against_per_game: 0.75
-first_period_goals_per_game: 1.5
 games: 4
 goal_difference: 8
 goal_difference_per_game: 2.0
@@ -34,11 +29,10 @@ goals_against: 12
 goals_against_away: 4
 goals_against_home: 8
 goals_against_in_boxplay: 2
-goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 3.0
 goals_away: 8
-goals_home: 11
+goals_home: 12
 goals_in_boxplay: 1
 goals_in_first_period: 6
 goals_in_first_period_against: 3
@@ -58,7 +52,6 @@ losses: 0
 over_time_losses: 0
 over_time_wins: 0
 penalties: 10
-penalties_per_game: 2.5
 penalty_10: 0
 penalty_2: 9
 penalty_2and2: 1
@@ -84,12 +77,11 @@ points_after_55_min: 10
 points_after_58_min: 12
 points_after_59_min: 12
 points_after_first_period: 7
-points_after_first_period_per_game: 1.75
 points_after_second_period: 8
 points_after_third_period: 12
 Tags:  FBC Kalmarsund: 12,
-points_max_difference_2: 9
-points_more_2_difference: 3
+points_max_difference_2: 6
+points_more_2_difference: 6
 points_per_game: 3.0
 powerplay: 4
 powerplay_efficiency: 25.0

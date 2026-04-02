@@ -13,7 +13,7 @@ boxplay_overtime: 0
 boxplay_per_game: 2.33
 boxplay_second_period: 0
 boxplay_third_period: 3
-close_game_loss: 1
+close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: 0.0
 close_game_points_share: 0.0

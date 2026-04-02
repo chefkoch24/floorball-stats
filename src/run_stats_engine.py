@@ -1397,6 +1397,7 @@ def _history_window_metrics(
             "ot_ps_games": 0,
             "form_tags": "n.a.",
             "form_tag_codes_csv": "",
+            "form_opponents_csv": "",
         }
 
     wins = sum(1 for entry in filtered if entry.get("win"))
@@ -1438,6 +1439,7 @@ def _history_window_metrics(
             else:
                 form_tags.append("L")
                 form_tag_codes.append("L")
+    form_opponents = [str(entry.get("opponent") or "") for entry in filtered]
 
     return {
         "games": games,
@@ -1463,6 +1465,7 @@ def _history_window_metrics(
         "ot_ps_games": ot_ps_games,
         "form_tags": " ".join(form_tags),
         "form_tag_codes_csv": ",".join(form_tag_codes),
+        "form_opponents_csv": "||".join(form_opponents),
     }
 
 
@@ -1520,6 +1523,8 @@ def _pregame_h2h_metrics(
         "pregame_h2h_form5_away_tags": away_form5["form_tags"],
         "pregame_h2h_form5_home_tag_codes_csv": home_form5["form_tag_codes_csv"],
         "pregame_h2h_form5_away_tag_codes_csv": away_form5["form_tag_codes_csv"],
+        "pregame_h2h_form5_home_opponents_csv": home_form5["form_opponents_csv"],
+        "pregame_h2h_form5_away_opponents_csv": away_form5["form_opponents_csv"],
         "pregame_h2h_form5_home_points_per_game": home_form5["points_per_game"],
         "pregame_h2h_form5_away_points_per_game": away_form5["points_per_game"],
         "pregame_h2h_form5_home_goal_diff_per_game": home_form5["goal_diff_per_game"],
@@ -1613,10 +1618,19 @@ def run_stats_pipeline(
     # Use an empty string if date or time is None for sorting
     game_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
 
+    # Keep table accumulators independent from pregame-history accumulators so
+    # playoffs can have a fresh table while pregame comparisons can still use
+    # prior phase context.
     team_accumulators = {}
     team_game_history: dict[str, List[dict[str, Any]]] = {}
+    pregame_accumulators = {}
+    pregame_game_history: dict[str, List[dict[str, Any]]] = {}
 
-    def _ingest_played_game_into_history(game_df: pd.DataFrame):
+    def _ingest_played_game_into_history(
+        game_df: pd.DataFrame,
+        target_accumulators: dict[str, dict[str, Any]],
+        target_history: dict[str, List[dict[str, Any]]],
+    ):
         played_df = _played_events_only(game_df)
         if played_df.empty:
             return
@@ -1691,10 +1705,10 @@ def run_stats_pipeline(
             "powerplay": int(away_stats_local.get("powerplay", 0)),
             "boxplay": int(away_stats_local.get("boxplay", 0)),
         }
-        team_game_history.setdefault(home_team_name, []).append(home_entry_local)
-        team_game_history.setdefault(away_team_name, []).append(away_entry_local)
-        team_accumulators[home_team_name] = _update_team_stats(team_accumulators.get(home_team_name, {}), home_stats_local)
-        team_accumulators[away_team_name] = _update_team_stats(team_accumulators.get(away_team_name, {}), away_stats_local)
+        target_history.setdefault(home_team_name, []).append(home_entry_local)
+        target_history.setdefault(away_team_name, []).append(away_entry_local)
+        target_accumulators[home_team_name] = _update_team_stats(target_accumulators.get(home_team_name, {}), home_stats_local)
+        target_accumulators[away_team_name] = _update_team_stats(target_accumulators.get(away_team_name, {}), away_stats_local)
 
     for history_path in pregame_history_csv_paths or []:
         history_file = Path(history_path)
@@ -1713,7 +1727,11 @@ def run_stats_pipeline(
             )
         history_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
         for history_group in history_groups:
-            _ingest_played_game_into_history(history_group["game_df"])
+            _ingest_played_game_into_history(
+                history_group["game_df"],
+                pregame_accumulators,
+                pregame_game_history,
+            )
 
     for group in game_groups:
         game_id = group["game_id"]
@@ -1726,10 +1744,10 @@ def run_stats_pipeline(
         away_team = game_df["away_team_name"].iloc[0]
 
         # Get pregame stats (enhanced)
-        home_pregame_stats = _enhance_team_stats(team_accumulators.get(home_team, {}))
-        away_pregame_stats = _enhance_team_stats(team_accumulators.get(away_team, {}))
-        home_history = team_game_history.get(home_team, [])
-        away_history = team_game_history.get(away_team, [])
+        home_pregame_stats = _enhance_team_stats(pregame_accumulators.get(home_team, {}))
+        away_pregame_stats = _enhance_team_stats(pregame_accumulators.get(away_team, {}))
+        home_history = pregame_game_history.get(home_team, [])
+        away_history = pregame_game_history.get(away_team, [])
         pregame_h2h_stats = _pregame_h2h_metrics(home_team, away_team, home_history, away_history)
 
         home_stats = engine.calculate_team_stats(played_game_df, home_team).stats.copy()
@@ -1784,7 +1802,8 @@ def run_stats_pipeline(
         game_stats.append(game_stat)
         if not is_scheduled:
             played_game_stats.append(game_stat)
-            _ingest_played_game_into_history(game_df)
+            _ingest_played_game_into_history(game_df, team_accumulators, team_game_history)
+            _ingest_played_game_into_history(game_df, pregame_accumulators, pregame_game_history)
 
     # save to json
     with open(output_path / "game_stats.json", "w") as f:

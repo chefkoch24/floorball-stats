@@ -85,7 +85,9 @@ def run_pipeline(
                         mode=swiss_mode,
                     )
                 )
-            if swiss_league and swiss_season and swiss_game_class and swiss_group:
+            # For playoffs, traverse available rounds to avoid only scraping the
+            # currently listed stage.
+            if swiss_league and swiss_season and swiss_game_class and (swiss_group or phase == "playoffs"):
                 game_ids.update(
                     fetch_game_ids_by_rounds(
                         league=swiss_league,

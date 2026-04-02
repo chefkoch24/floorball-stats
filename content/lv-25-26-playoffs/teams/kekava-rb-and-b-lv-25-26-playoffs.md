@@ -13,7 +13,7 @@ boxplay_overtime: 0
 boxplay_per_game: 3.71
 boxplay_second_period: 12
 boxplay_third_period: 4
-close_game_loss: 1
+close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: 2.0
 close_game_points_share: 66.67
@@ -88,8 +88,8 @@ points_after_first_period_per_game: 0.71
 points_after_second_period: 6
 points_after_third_period: 7
 Tags:  Lekrings: 8,
-points_max_difference_2: 2
-points_more_2_difference: 6
+points_max_difference_2: 0
+points_more_2_difference: 8
 points_per_game: 1.14
 powerplay: 22
 powerplay_efficiency: 13.639999999999999

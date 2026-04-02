@@ -13,19 +13,14 @@ boxplay_overtime: 0
 boxplay_per_game: 1.6
 boxplay_second_period: 10
 boxplay_third_period: 14
-close_game_loss: 2
-close_game_overtime: 3
-close_game_points_per_game: 1.86
-close_game_points_share: 61.9
-close_game_win: 9
-close_games: 14
+close_game_loss: 0
+close_game_overtime: 0
+close_game_win: 2
 draws: 0
 equalizer_goals: 18
 equalizer_goals_against: 8
 first_goal_of_match: 9
 first_goal_of_match_against: 11
-first_period_goals_against_per_game: 1.55
-first_period_goals_per_game: 1.35
 games: 20
 goal_difference: 30
 goal_difference_per_game: 1.5
@@ -34,7 +29,6 @@ goals_against: 85
 goals_against_away: 45
 goals_against_home: 40
 goals_against_in_boxplay: 11
-goals_against_in_boxplay_per_game: 0.55
 goals_against_in_powerplay: 5
 goals_against_per_game: 4.25
 goals_away: 63
@@ -58,7 +52,6 @@ losses: 3
 over_time_losses: 1
 over_time_wins: 1
 penalties: 31
-penalties_per_game: 1.55
 penalty_10: 1
 penalty_2: 28
 penalty_2and2: 2
@@ -84,12 +77,11 @@ points_after_55_min: 40
 points_after_58_min: 44
 points_after_59_min: 44
 points_after_first_period: 27
-points_after_first_period_per_game: 1.35
 points_after_second_period: 36
 points_after_third_period: 45
 Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 6,  DJK Holzbüttgen: 6,  ETV Piranhhas Hamburg: 1,  Floor Fighters Chemnitz: 5,  SC DHfK Leipzig: 6,  SC Potsdam: 6,  SSF Dragons Bonn: 2,  UHC Sparkasse Weißenfels: 3,  Unihockey Igels Dresden: 6,
-points_max_difference_2: 26
-points_more_2_difference: 21
+points_max_difference_2: 6
+points_more_2_difference: 41
 points_per_game: 2.35
 powerplay: 46
 powerplay_efficiency: 30.43

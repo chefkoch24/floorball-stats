@@ -15,17 +15,12 @@ boxplay_second_period: 0
 boxplay_third_period: 2
 close_game_loss: 1
 close_game_overtime: 0
-close_game_points_per_game: 2.0
-close_game_points_share: 66.67
-close_game_win: 2
-close_games: 3
+close_game_win: 1
 draws: 0
 equalizer_goals: 2
 equalizer_goals_against: 1
 first_goal_of_match: 2
 first_goal_of_match_against: 2
-first_period_goals_against_per_game: 2.75
-first_period_goals_per_game: 1.5
 games: 4
 goal_difference: -3
 goal_difference_per_game: -0.75
@@ -34,7 +29,6 @@ goals_against: 18
 goals_against_away: 10
 goals_against_home: 8
 goals_against_in_boxplay: 2
-goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 4.5
 goals_away: 7
@@ -58,7 +52,6 @@ losses: 2
 over_time_losses: 0
 over_time_wins: 0
 penalties: 5
-penalties_per_game: 1.25
 penalty_10: 0
 penalty_2: 5
 penalty_2and2: 0
@@ -84,12 +77,11 @@ points_after_55_min: 6
 points_after_58_min: 6
 points_after_59_min: 6
 points_after_first_period: 3
-points_after_first_period_per_game: 0.75
 points_after_second_period: 3
 points_after_third_period: 6
 Tags:  Oilers: 6,
-points_max_difference_2: 6
-points_more_2_difference: 0
+points_max_difference_2: 3
+points_more_2_difference: 3
 points_per_game: 1.5
 powerplay: 6
 powerplay_efficiency: 50.0

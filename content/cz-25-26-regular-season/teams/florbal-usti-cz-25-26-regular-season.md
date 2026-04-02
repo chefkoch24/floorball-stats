@@ -13,19 +13,14 @@ boxplay_overtime: 0
 boxplay_per_game: 1.47
 boxplay_second_period: 18
 boxplay_third_period: 18
-close_game_loss: 5
+close_game_loss: 2
 close_game_overtime: 1
-close_game_points_per_game: 1.1
-close_game_points_share: 36.67
-close_game_win: 4
-close_games: 10
+close_game_win: 2
 draws: 0
 equalizer_goals: 6
 equalizer_goals_against: 17
 first_goal_of_match: 10
 first_goal_of_match_against: 20
-first_period_goals_against_per_game: 2.4
-first_period_goals_per_game: 0.9
 games: 30
 goal_difference: -127
 goal_difference_per_game: -4.23
@@ -34,7 +29,6 @@ goals_against: 230
 goals_against_away: 125
 goals_against_home: 105
 goals_against_in_boxplay: 22
-goals_against_in_boxplay_per_game: 0.73
 goals_against_in_powerplay: 2
 goals_against_per_game: 7.67
 goals_away: 51
@@ -58,7 +52,6 @@ losses: 24
 over_time_losses: 0
 over_time_wins: 1
 penalties: 47
-penalties_per_game: 1.57
 penalty_10: 0
 penalty_2: 47
 penalty_2and2: 0
@@ -84,12 +77,11 @@ points_after_55_min: 15
 points_after_58_min: 9
 points_after_59_min: 8
 points_after_first_period: 19
-points_after_first_period_per_game: 0.63
 points_after_second_period: 8
 points_after_third_period: 13
 Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 0,  BA SOKOLI Pardubice: 0,  ESA logistika Tatran Střešovice: 0,  FAT PIPE FLORBAL CHODOV: 0,  FBC 4CLEAN Česká Lípa: 0,  FBC Liberec: 14,  FBC ČPP Bystroň Group OSTRAVA: 0,  FBŠ Hummel Hattrick Brno: 3,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 0,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 0,
-points_max_difference_2: 11
-points_more_2_difference: 6
+points_max_difference_2: 5
+points_more_2_difference: 12
 points_per_game: 0.57
 powerplay: 31
 powerplay_efficiency: 16.13

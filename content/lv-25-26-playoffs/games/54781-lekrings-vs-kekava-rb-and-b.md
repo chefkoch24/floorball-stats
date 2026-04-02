@@ -139,8 +139,8 @@ home_points_after_first_period: 3
 home_points_after_second_period: 3
 home_points_after_third_period: 1
 home_points_against_kekava_rb_b: 1
-home_points_max_difference_2: 1
-home_points_more_2_difference: 0
+home_points_max_difference_2: 0
+home_points_more_2_difference: 1
 home_powerplay: 2
 home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 0
@@ -249,8 +249,8 @@ away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 1
 away_points_against_lekrings: 2
-away_points_max_difference_2: 2
-away_points_more_2_difference: 0
+away_points_max_difference_2: 0
+away_points_more_2_difference: 2
 away_powerplay: 2
 away_powerplay_efficiency: 50.0
 away_powerplay_first_period: 0
