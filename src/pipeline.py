@@ -149,11 +149,19 @@ def run_pipeline(
     if not raw_csv.exists():
         raise FileNotFoundError(f"Expected input CSV at {raw_csv} but file does not exist.")
 
+    pregame_history_csv_paths: list[str] = []
+    if phase == "playoffs":
+        regular_phase = "regular-season"
+        regular_csv = data_path / f"data_{season}_{regular_phase.replace('-', '_')}.csv"
+        if regular_csv.exists():
+            pregame_history_csv_paths.append(str(regular_csv))
+
     run_stats_pipeline(
         input_csv_path=str(raw_csv),
         output_dir=str(data_path),
         season=season,
         phase=phase,
+        pregame_history_csv_paths=pregame_history_csv_paths,
     )
     games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_path / "game_stats.json"),

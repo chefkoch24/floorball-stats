@@ -1,9 +1,9 @@
 import json
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 
 class TeamStats:
-    def __init__(self, team: str, stats: Dict[str, Any] | None = None):
+    def __init__(self, team: str, stats: Optional[Dict[str, Any]] = None):
         self.team = team
         self.stats: Dict[str, Any] = {} if stats is None else stats
 

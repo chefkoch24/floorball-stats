@@ -6,6 +6,8 @@ import numpy as np
 from unidecode import unidecode
 
 
+from typing import Union, Optional
+
 def read_data(path):
     return pd.read_csv(path)
 
@@ -70,7 +72,7 @@ def add_penalties(penalty_type: str, penalties: list, time: int):
         penalties.append(time)
     return penalties
 
-def safe_div(numerator, denominator,  rounding=2, in_percent= False, default: float | str = 0.0):
+def safe_div(numerator, denominator,  rounding=2, in_percent= False, default: Union[float, str] = 0.0):
     """Divide and return default if denominator is 0 or None."""
     if denominator:
         val = round(numerator / denominator, rounding)
@@ -119,7 +121,7 @@ def _iter_stable_items(mapping: dict):
         yield key, mapping[key]
 
 
-def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase: str, metadata_date: str | None = None):
+def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase: str, metadata_date: Optional[str] = None):
     """Generiert Markdown mit geflatteten Team-Stats"""
     result = []
     category = "game"
@@ -143,16 +145,28 @@ def dict_to_markdown_game_stats(game_data: dict, title: str, season: str, phase:
             result.append(f"{key}: {value}")
 
     # Flat Home Stats
-    home_stats = flatten_team_stats(game_data['home_stats'], 'home')
+    home_stats = flatten_team_stats(game_data["home_stats"], "home")
     for key, value in _iter_stable_items(home_stats):
         result.append(f"{key}: {value}")
 
+    # Flat Home Pregame Stats
+    if "home_pregame_stats" in game_data:
+        home_pre_stats = flatten_team_stats(game_data["home_pregame_stats"], "home_pregame")
+        for key, value in _iter_stable_items(home_pre_stats):
+            result.append(f"{key}: {value}")
+
     # Flat Away Stats
-    away_stats = flatten_team_stats(game_data['away_stats'], 'away')
+    away_stats = flatten_team_stats(game_data["away_stats"], "away")
     for key, value in _iter_stable_items(away_stats):
         result.append(f"{key}: {value}")
 
-    return '\n'.join(result)
+    # Flat Away Pregame Stats
+    if "away_pregame_stats" in game_data:
+        away_pre_stats = flatten_team_stats(game_data["away_pregame_stats"], "away_pregame")
+        for key, value in _iter_stable_items(away_pre_stats):
+            result.append(f"{key}: {value}")
+
+    return "\n".join(result)
 
 
 
@@ -161,7 +175,7 @@ def dict_to_markdown_team_stats(
     team: str,
     season: str,
     phase: str,
-    metadata_date: str | None = None,
+    metadata_date: Optional[str] = None,
 ):
     """Generiert Markdown mit geflatteten Team-Stats"""
     result = []
@@ -191,7 +205,7 @@ def dict_to_markdown_league_stats(
     title: str,
     season: str,
     phase: str,
-    metadata_date: str | None = None,
+    metadata_date: Optional[str] = None,
 ):
     result = []
     category = "liga"

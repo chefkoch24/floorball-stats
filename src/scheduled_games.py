@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Optional
 
 
 EVENT_SCHEDULED = "scheduled"
@@ -8,14 +8,14 @@ SCHEDULED_SORTKEY = "0-00:00"
 def build_scheduled_game_row(
     *,
     game_id: Any,
-    home_team: str | None,
-    away_team: str | None,
-    game_date: str | None,
-    game_start_time: str | None,
-    attendance: int | None = None,
-    game_status: str | None = "Scheduled",
-    ingame_status: str | None = None,
-    result_string: str | None = None,
+    home_team: Optional[str],
+    away_team: Optional[str],
+    game_date: Optional[str],
+    game_start_time: Optional[str],
+    attendance: Optional[int] = None,
+    game_status: Optional[str] = "Scheduled",
+    ingame_status: Optional[str] = None,
+    result_string: Optional[str] = None,
 ) -> dict[str, Any]:
     return {
         "event_type": EVENT_SCHEDULED,

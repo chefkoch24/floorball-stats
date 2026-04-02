@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional, List, Union
 
 
-def _build_home_away_games_map(game_stats: list[dict[str, Any]] | None) -> dict[str, dict[str, int]]:
+def _build_home_away_games_map(game_stats: Optional[List[dict[str, Any]]]) -> dict[str, dict[str, int]]:
     counts: dict[str, dict[str, int]] = {}
     for game in game_stats or []:
         home_team = game.get("home_team")
@@ -19,10 +19,10 @@ def _build_home_away_games_map(game_stats: list[dict[str, Any]] | None) -> dict[
 
 def build_home_away_split_table(
     team_stats: dict[str, dict[str, Any]],
-    game_stats: list[dict[str, Any]] | None = None,
+    game_stats: Optional[List[dict[str, Any]]] = None,
     *,
-    season: str | None = None,
-    phase: str | None = None,
+    season: Optional[str] = None,
+    phase: Optional[str] = None,
 ) -> dict[str, Any]:
     rows: list[dict[str, Any]] = []
     game_counts = _build_home_away_games_map(game_stats)
@@ -87,11 +87,11 @@ def build_home_away_split_table(
 
 def write_home_away_split_table(
     team_stats: dict[str, dict[str, Any]],
-    output_path: str | Path,
-    game_stats: list[dict[str, Any]] | None = None,
+    output_path: Union[str, Path],
+    game_stats: Optional[List[dict[str, Any]]] = None,
     *,
-    season: str | None = None,
-    phase: str | None = None,
+    season: Optional[str] = None,
+    phase: Optional[str] = None,
 ) -> dict[str, Any]:
     table = build_home_away_split_table(team_stats, game_stats, season=season, phase=phase)
     output_file = Path(output_path)

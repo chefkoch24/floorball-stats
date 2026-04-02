@@ -2,6 +2,7 @@ import argparse
 import json
 from datetime import datetime
 from pathlib import Path
+from typing import Optional, Tuple
 
 from src.utils import dict_to_markdown_game_stats, dict_to_markdown_league_stats, dict_to_markdown_team_stats, normalize_slug_fragment
 
@@ -15,7 +16,7 @@ def _write_if_changed(path: Path, content: str) -> bool:
     return True
 
 
-def _extract_slug(content: str) -> str | None:
+def _extract_slug(content: str) -> Optional[str]:
     for line in content.splitlines():
         if line.startswith("Slug:"):
             value = line.split(":", 1)[1].strip()
@@ -23,7 +24,7 @@ def _extract_slug(content: str) -> str | None:
     return None
 
 
-def _remove_slug_aliases(directory: Path, canonical_path: Path, slug: str | None) -> int:
+def _remove_slug_aliases(directory: Path, canonical_path: Path, slug: Optional[str]) -> int:
     if not slug:
         return 0
     removed = 0
@@ -92,10 +93,10 @@ def generate_markdown_files(
     output_liga_dir: str,
     season: str,
     phase: str,
-    playoff_averages_path: str | None = None,
-    playdown_averages_path: str | None = None,
-    top4_averages_path: str | None = None,
-) -> tuple[int, int, int]:
+    playoff_averages_path: Optional[str] = None,
+    playdown_averages_path: Optional[str] = None,
+    top4_averages_path: Optional[str] = None,
+) -> Tuple[int, int, int]:
     games_out = Path(output_games_dir)
     teams_out = Path(output_teams_dir)
     liga_out = Path(output_liga_dir)
