@@ -150,14 +150,15 @@ def test_playoff_split_respects_configured_playoff_cut_from_regular_season(tmp_p
             _event(2, "2026-02-02", "goal", "Team 2", "Team 2", "Team 8", 3, 0, 3, "3-19:00", "3-0"),
             _event(3, "2026-02-03", "goal", "Team 3", "Team 3", "Team 9", 3, 0, 3, "3-19:00", "3-0"),
             _event(4, "2026-02-04", "goal", "Team 4", "Team 4", "Team 10", 3, 0, 3, "3-19:00", "3-0"),
-            _event(5, "2026-02-05", "goal", "Team 5", "Team 5", "Team 6", 3, 0, 3, "3-19:00", "3-0"),
+            _event(5, "2026-02-05", "goal", "Team 5", "Team 5", "Team 7", 3, 0, 3, "3-19:00", "3-0"),
+            _event(6, "2026-02-06", "goal", "Team 6", "Team 6", "Team 8", 3, 0, 3, "3-19:00", "3-0"),
         ]
     )
     regular_events.to_csv(regular_csv, index=False)
 
     playoffs_events = pd.DataFrame(
         [
-            _event(101, "2026-03-10", "goal", "Team 7", "Team 7", "Team 8", 2, 1, 3, "3-19:00", "2-1"),
+            _event(101, "2026-03-10", "goal", "Team 5", "Team 5", "Team 6", 2, 1, 3, "3-19:00", "2-1"),
             _event(102, "2026-03-11", "goal", "Team 9", "Team 9", "Team 10", 2, 1, 3, "3-19:00", "2-1"),
         ]
     )
@@ -176,5 +177,11 @@ def test_playoff_split_respects_configured_playoff_cut_from_regular_season(tmp_p
 
     assert "Team 9" not in playoff_teams
     assert "Team 10" not in playoff_teams
-    assert "Team 9" in playdown_teams
-    assert "Team 10" in playdown_teams
+    assert "Team 9" not in playdown_teams
+    assert "Team 10" not in playdown_teams
+
+    playoff_ranks = [team["stats"].get("rank") for team in result["playoff_stats"]]
+    assert playoff_ranks == list(range(1, len(playoff_ranks) + 1))
+
+    playoff_game_ids = {game["game_id"] for game in result["game_stats"]}
+    assert playoff_game_ids == {101}

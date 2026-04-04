@@ -1,4 +1,4 @@
-Date: 2026-03-25
+Date: 2026-04-02
 Title: Jymy
 Category: fi-25-26-regular-season, teams
 Slug: jymy-fi-25-26-regular-season-fi-25-26-regular-season
@@ -13,14 +13,19 @@ boxplay_overtime: 0
 boxplay_per_game: 1.81
 boxplay_second_period: 17
 boxplay_third_period: 27
-close_game_loss: 12
+close_game_loss: 2
 close_game_overtime: 1
-close_game_win: 6
+close_game_points_per_game: 1.33
+close_game_points_share: 44.440000000000005
+close_game_win: 3
+close_games: 6
 draws: 0
 equalizer_goals: 18
 equalizer_goals_against: 17
 first_goal_of_match: 9
 first_goal_of_match_against: 23
+first_period_goals_against_per_game: 2.25
+first_period_goals_per_game: 1.38
 games: 32
 goal_difference: -82
 goal_difference_per_game: -2.56
@@ -29,6 +34,7 @@ goals_against: 220
 goals_against_away: 117
 goals_against_home: 103
 goals_against_in_boxplay: 40
+goals_against_in_boxplay_per_game: 1.25
 goals_against_in_powerplay: 3
 goals_against_per_game: 6.88
 goals_away: 72
@@ -52,6 +58,7 @@ losses: 25
 over_time_losses: 0
 over_time_wins: 1
 penalties: 62
+penalties_per_game: 1.94
 penalty_10: 1
 penalty_2: 61
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 20
 points_after_58_min: 19
 points_after_59_min: 19
 points_after_first_period: 28
+points_after_first_period_per_game: 0.88
 points_after_second_period: 23
 points_after_third_period: 19
 Tags:  Classic: 0,  EräViikingit: 0,  FBC Turku: 6,  Hawks: 2,  Indians: 0,  LASB: 9,  Nokian KrP: 0,  OLS: 3,  Oilers: 0,  SPV: 0,  TPS: 0,
-points_max_difference_2: 17
-points_more_2_difference: 3
+points_max_difference_2: 8
+points_more_2_difference: 12
 points_per_game: 0.62
 powerplay: 51
 powerplay_efficiency: 49.02

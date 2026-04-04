@@ -1,4 +1,4 @@
-Date: 2026-03-31
+Date: 2026-04-02
 Title: FAT PIPE FLORBAL CHODOV
 Category: cz-25-26-regular-season, teams
 Slug: fat-pipe-florbal-chodov-cz-25-26-regular-season-cz-25-26-regular-season
@@ -15,12 +15,17 @@ boxplay_second_period: 6
 boxplay_third_period: 16
 close_game_loss: 3
 close_game_overtime: 1
+close_game_points_per_game: 1.17
+close_game_points_share: 38.89
 close_game_win: 2
+close_games: 6
 draws: 0
 equalizer_goals: 18
 equalizer_goals_against: 15
 first_goal_of_match: 14
 first_goal_of_match_against: 12
+first_period_goals_against_per_game: 1.5
+first_period_goals_per_game: 1.54
 games: 26
 goal_difference: 4
 goal_difference_per_game: 0.15
@@ -29,6 +34,7 @@ goals_against: 151
 goals_against_away: 78
 goals_against_home: 73
 goals_against_in_boxplay: 11
+goals_against_in_boxplay_per_game: 0.42
 goals_against_in_powerplay: 3
 goals_against_per_game: 5.81
 goals_away: 61
@@ -52,6 +58,7 @@ losses: 11
 over_time_losses: 1
 over_time_wins: 0
 penalties: 35
+penalties_per_game: 1.35
 penalty_10: 0
 penalty_2: 35
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 40
 points_after_58_min: 35
 points_after_59_min: 36
 points_after_first_period: 37
+points_after_first_period_per_game: 1.42
 points_after_second_period: 38
 points_after_third_period: 40
 Tags:  1. SC NATIOS Vítkovice: 0,  ACEMA Sparta Praha: 3,  BA SOKOLI Pardubice: 6,  ESA logistika Tatran Střešovice: 0,  FBC 4CLEAN Česká Lípa: 6,  FBC Liberec: 3,  FBC ČPP Bystroň Group OSTRAVA: 4,  FBŠ Hummel Hattrick Brno: 6,  Florbal Ústí: 6,  HDT.cz Florbal Vary Bohemians: 0,  Kanonýři Kladno: 3,  Předvýběr.CZ Florbal MB: 0,  TJ Sokol Královské Vinohrady: 6,

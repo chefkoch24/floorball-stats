@@ -1,4 +1,4 @@
-Date: 2026-03-31
+Date: 2026-04-02
 Title: Top 4 Teams
 Category: cz-25-26-regular-season, liga
 Slug: top-4-teams-cz-25-26-regular-season
@@ -14,12 +14,17 @@ boxplay_second_period: 10.0
 boxplay_third_period: 10.25
 close_game_loss: 1.0
 close_game_overtime: 0.25
+close_game_points_per_game: 1.67
+close_game_points_share: 55.56
 close_game_win: 1.75
+close_games: 3.0
 draws: 0.0
 equalizer_goals: 15.5
 equalizer_goals_against: 14.0
 first_goal_of_match: 17.75
 first_goal_of_match_against: 8.25
+first_period_goals_against_per_game: 1.32
+first_period_goals_per_game: 2.69
 games: 26.0
 goal_difference: 131.25
 goal_difference_per_game: 5.05
@@ -28,6 +33,7 @@ goals_against: 119.25
 goals_against_away: 57.75
 goals_against_home: 61.5
 goals_against_in_boxplay: 8.75
+goals_against_in_boxplay_per_game: 0.33
 goals_against_in_powerplay: 2.25
 goals_against_per_game: 4.58
 goals_away: 118.25
@@ -51,6 +57,7 @@ losses: 3.5
 over_time_losses: 0.25
 over_time_wins: 1.0
 penalties: 28.75
+penalties_per_game: 1.11
 penalty_10: 0.0
 penalty_2: 28.75
 penalty_2and2: 0.0
@@ -76,6 +83,7 @@ points_after_55_min: 53.25
 points_after_58_min: 50.0
 points_after_59_min: 52.25
 points_after_first_period: 46.25
+points_after_first_period_per_game: 1.78
 points_after_second_period: 52.0
 points_after_third_period: 55.0
 points_max_difference_2: 5.0

@@ -13,14 +13,19 @@ boxplay_overtime: 0
 boxplay_per_game: 1.45
 boxplay_second_period: 9
 boxplay_third_period: 16
-close_game_loss: 6
+close_game_loss: 5
 close_game_overtime: 1
-close_game_win: 6
+close_game_points_per_game: 1.3
+close_game_points_share: 43.33
+close_game_win: 4
+close_games: 10
 draws: 0
 equalizer_goals: 15
 equalizer_goals_against: 17
 first_goal_of_match: 11
 first_goal_of_match_against: 11
+first_period_goals_against_per_game: 2.23
+first_period_goals_per_game: 1.14
 games: 22
 goal_difference: -59
 goal_difference_per_game: -2.68
@@ -29,9 +34,10 @@ goals_against: 156
 goals_against_away: 90
 goals_against_home: 66
 goals_against_in_boxplay: 11
+goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 2
 goals_against_per_game: 7.09
-goals_away: 52
+goals_away: 51
 goals_home: 45
 goals_in_boxplay: 1
 goals_in_first_period: 25
@@ -52,6 +58,7 @@ losses: 14
 over_time_losses: 1
 over_time_wins: 0
 penalties: 34
+penalties_per_game: 1.55
 penalty_10: 1
 penalty_2: 33
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 21
 points_after_58_min: 23
 points_after_59_min: 22
 points_after_first_period: 15
+points_after_first_period_per_game: 0.68
 points_after_second_period: 15
 points_after_third_period: 22
 Tags:  1. FBC Trenčín: 0,  DTF team Detva Joxers: 6,  FBC Grasshoppers AC UNIZA Žilina: 0,  FBK Nižná: 3,  FK Florko Košice: 3,  FaBK ATU Košice: 0,  Snipers Bratislava: 6,  TEMPISH CAPITOL Floorball Club: 4,  Tsunami Záhorská Bystrica: 0,  VŠK FTVŠ UK Hurikán Bratislava: 0,  ŠK Lido Prírodovedec Bratislava: 0,
-points_max_difference_2: 19
-points_more_2_difference: 3
+points_max_difference_2: 13
+points_more_2_difference: 9
 points_per_game: 1.0
 powerplay: 30
 powerplay_efficiency: 16.669999999999998

@@ -170,9 +170,15 @@ def run_pipeline(
         pregame_history_csv_paths=pregame_history_csv_paths,
         playoff_cut=playoff_teams_count,
     )
+    team_stats_markdown_path = data_path / "team_stats_enhanced.json"
+    if phase == "playoffs":
+        playoff_stats_path = data_path / "playoff_stats.json"
+        if playoff_stats_path.exists():
+            team_stats_markdown_path = playoff_stats_path
+
     games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_path / "game_stats.json"),
-        team_stats_path=str(data_path / "team_stats_enhanced.json"),
+        team_stats_path=str(team_stats_markdown_path),
         league_stats_path=str(data_path / "league_averages.json"),
         playoff_averages_path=str(data_path / "playoff_averages.json"),
         playdown_averages_path=str(data_path / "playdown_averages.json"),

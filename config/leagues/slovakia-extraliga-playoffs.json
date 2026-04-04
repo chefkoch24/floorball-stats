@@ -2,7 +2,7 @@
   "backend": "slovakia",
   "season": "sk-25-26",
   "phase": "playoffs",
-  "playoff_teams_count": 6,
+  "playoff_teams_count": 8,
   "slovakia": {
     "regular_season_end_date": "2026-02-14",
     "regular_season_games_per_team": 22,

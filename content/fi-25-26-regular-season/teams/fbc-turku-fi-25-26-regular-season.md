@@ -1,4 +1,4 @@
-Date: 2026-03-25
+Date: 2026-04-02
 Title: FBC Turku
 Category: fi-25-26-regular-season, teams
 Slug: fbc-turku-fi-25-26-regular-season-fi-25-26-regular-season
@@ -13,14 +13,19 @@ boxplay_overtime: 0
 boxplay_per_game: 1.53
 boxplay_second_period: 19
 boxplay_third_period: 20
-close_game_loss: 4
-close_game_overtime: 2
+close_game_loss: 2
+close_game_overtime: 1
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 2
+close_games: 5
 draws: 0
 equalizer_goals: 17
 equalizer_goals_against: 26
 first_goal_of_match: 12
 first_goal_of_match_against: 20
+first_period_goals_against_per_game: 1.97
+first_period_goals_per_game: 1.0
 games: 32
 goal_difference: -156
 goal_difference_per_game: -4.88
@@ -29,6 +34,7 @@ goals_against: 257
 goals_against_away: 133
 goals_against_home: 124
 goals_against_in_boxplay: 33
+goals_against_in_boxplay_per_game: 1.03
 goals_against_in_powerplay: 4
 goals_against_per_game: 8.03
 goals_away: 57
@@ -52,6 +58,7 @@ losses: 29
 over_time_losses: 1
 over_time_wins: 1
 penalties: 50
+penalties_per_game: 1.56
 penalty_10: 2
 penalty_2: 48
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 7
 points_after_58_min: 7
 points_after_59_min: 7
 points_after_first_period: 25
+points_after_first_period_per_game: 0.78
 points_after_second_period: 13
 points_after_third_period: 5
 Tags:  Classic: 0,  EräViikingit: 1,  Hawks: 0,  Indians: 0,  Jymy: 0,  LASB: 3,  Nokian KrP: 0,  OLS: 2,  Oilers: 0,  SPV: 0,  TPS: 0,
-points_max_difference_2: 6
-points_more_2_difference: 0
+points_max_difference_2: 5
+points_more_2_difference: 1
 points_per_game: 0.19
 powerplay: 39
 powerplay_efficiency: 33.33

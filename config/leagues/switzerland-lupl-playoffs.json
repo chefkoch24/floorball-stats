@@ -1,0 +1,12 @@
+{
+  "backend": "switzerland",
+  "season": "ch-25-26",
+  "phase": "playoffs",
+  "playoff_teams_count": 8,
+  "swiss": {
+    "league": 24,
+    "season": 2025,
+    "game_class": 11,
+    "mode": "list"
+  }
+}

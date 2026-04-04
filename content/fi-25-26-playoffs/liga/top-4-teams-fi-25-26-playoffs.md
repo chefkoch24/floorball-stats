@@ -1,4 +1,4 @@
-Date: 2026-04-11
+Date: 2026-04-05
 Title: Top 4 Teams
 Category: fi-25-26-playoffs, liga
 Slug: top-4-teams-fi-25-26-playoffs
@@ -23,7 +23,7 @@ equalizer_goals: 3.0
 equalizer_goals_against: 3.0
 first_goal_of_match: 2.5
 first_goal_of_match_against: 2.0
-first_period_goals_against_per_game: 0.92
+first_period_goals_against_per_game: 0.93
 first_period_goals_per_game: 1.7
 games: 4.5
 goal_difference: 12.5

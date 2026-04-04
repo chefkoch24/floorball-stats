@@ -1,4 +1,4 @@
-Date: 2026-04-11
+Date: 2026-04-05
 Title: EräViikingit
 Category: fi-25-26-playoffs, teams
 Slug: eraviikingit-fi-25-26-playoffs-fi-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.75
 powerplay_second_period: 2
 powerplay_third_period: 4
-rank: 10
+rank: 8
 scoring_ratio: 0.28
 take_the_lead_goals: 1
 take_the_lead_goals_against: 4

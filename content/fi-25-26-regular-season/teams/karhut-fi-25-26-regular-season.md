@@ -1,10 +1,10 @@
-Date: 2026-04-11
+Date: 2026-04-02
 Title: Karhut
-Category: fi-25-26-playoffs, teams
-Slug: karhut-fi-25-26-playoffs-fi-25-26-playoffs
+Category: fi-25-26-regular-season, teams
+Slug: karhut-fi-25-26-regular-season-fi-25-26-regular-season
 type: team
 team:Karhut
-platzierungsverlauf:fi-25-26-playoffs/teams/karhut-fi-25-26-playoffs_platzierungsverlauf.png
+platzierungsverlauf:fi-25-26-regular-season/teams/karhut-fi-25-26-regular-season_platzierungsverlauf.png
 away_points: 1
 boxplay: 0
 boxplay_efficiency: n.a.
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 0.0
 powerplay_second_period: 0
 powerplay_third_period: 0
-rank: 8
+rank: 13
 scoring_ratio: 0.75
 take_the_lead_goals: 2
 take_the_lead_goals_against: 2

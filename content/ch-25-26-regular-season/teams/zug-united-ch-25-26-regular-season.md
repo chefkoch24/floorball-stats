@@ -13,14 +13,19 @@ boxplay_overtime: 0
 boxplay_per_game: 0.95
 boxplay_second_period: 8
 boxplay_third_period: 6
-close_game_loss: 4
-close_game_overtime: 3
-close_game_win: 9
+close_game_loss: 2
+close_game_overtime: 2
+close_game_points_per_game: 1.6
+close_game_points_share: 53.33
+close_game_win: 6
+close_games: 10
 draws: 0
 equalizer_goals: 23
 equalizer_goals_against: 14
 first_goal_of_match: 7
 first_goal_of_match_against: 15
+first_period_goals_against_per_game: 1.86
+first_period_goals_per_game: 1.64
 games: 22
 goal_difference: 49
 goal_difference_per_game: 2.23
@@ -29,9 +34,10 @@ goals_against: 102
 goals_against_away: 56
 goals_against_home: 46
 goals_against_in_boxplay: 6
+goals_against_in_boxplay_per_game: 0.27
 goals_against_in_powerplay: 0
 goals_against_per_game: 4.64
-goals_away: 77
+goals_away: 75
 goals_home: 74
 goals_in_boxplay: 3
 goals_in_first_period: 36
@@ -52,6 +58,7 @@ losses: 4
 over_time_losses: 1
 over_time_wins: 2
 penalties: 24
+penalties_per_game: 1.09
 penalty_10: 0
 penalty_2: 24
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 49
 points_after_58_min: 49
 points_after_59_min: 50
 points_after_first_period: 21
+points_after_first_period_per_game: 0.95
 points_after_second_period: 49
 points_after_third_period: 48
 Tags:  Floorball Chur United: 6,  Floorball Köniz Bern: 3,  Floorball Thurgau: 5,  Grasshopper Club Zürich: 2,  HC Rychenberg Winterthur: 6,  SV Wiler-Ersigen: 3,  Tigers Langnau: 4,  UHC Alligator Malans: 3,  UHC Uster: 6,  Unihockey Basel Regio: 6,  WASA St. Gallen: 6,
-points_max_difference_2: 26
-points_more_2_difference: 24
+points_max_difference_2: 16
+points_more_2_difference: 34
 points_per_game: 2.27
 powerplay: 39
 powerplay_efficiency: 46.150000000000006

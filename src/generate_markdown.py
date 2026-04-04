@@ -122,7 +122,15 @@ def generate_markdown_files(
     _prune_stale_markdown(games_out, expected_game_files)
 
     with open(team_stats_path, "r", encoding="utf-8") as f:
-        team_stats = json.load(f)
+        team_stats_raw = json.load(f)
+    if isinstance(team_stats_raw, list):
+        team_stats = {
+            str(entry.get("team", "")): dict(entry.get("stats", {}))
+            for entry in team_stats_raw
+            if isinstance(entry, dict) and entry.get("team")
+        }
+    else:
+        team_stats = team_stats_raw
 
     teams_written = 0
     expected_team_files: set[str] = set()

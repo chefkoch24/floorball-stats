@@ -46,6 +46,7 @@ SWISS_GAME_CLASS ?= 11
 SWISS_SEASON_SLUG ?= ch-25-26
 SWISS_PLAYOFFS_SLUG ?= ch-25-26
 SWISS_GROUP ?= Gruppe 1
+SWISS_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/switzerland-lupl-playoffs.json
 SWISS_PLAYOFFS_CSV ?= data/data_$(SWISS_PLAYOFFS_SLUG)_playoffs.csv
 # Finland pipeline defaults (F-Liiga)
 FINLAND_SEASON ?= fi-25-26
@@ -109,6 +110,7 @@ help:
 	@echo 'Set SWEDEN_PLAYOFFS_LEAGUE_CONFIG to override refresh-sweden-playoffs      '
 	@echo 'Set SWEDEN_PLAYOFFS_* to override refresh-sweden-smart                     '
 	@echo 'Set SWISS_* to override refresh-switzerland                                '
+	@echo 'Set SWISS_PLAYOFFS_LEAGUE_CONFIG to override refresh-switzerland-playoffs  '
 	@echo 'Set FINLAND_* to override refresh-finland                                   '
 	@echo 'Set FINLAND_PLAYOFFS_LEAGUE_CONFIG to override refresh-finland-playoffs     '
 	@echo 'Set FINLAND_PLAYOFFS_* to override refresh-finland-smart                    '
@@ -176,7 +178,7 @@ refresh-switzerland:
 	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --swiss_group "$(SWISS_GROUP)" --season "$(SWISS_SEASON_SLUG)" --phase "$(PHASE)"
 
 refresh-switzerland-playoffs:
-	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --season "$(SWISS_PLAYOFFS_SLUG)" --phase "playoffs"
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-finland:
 	"$(PYTHON)" -m src.pipeline --backend finland --finland_schedule_url "$(FINLAND_SCHEDULE_URL)" --season "$(FINLAND_SEASON)" --phase "$(PHASE)"
