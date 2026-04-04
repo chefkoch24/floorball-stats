@@ -1780,11 +1780,15 @@ def run_stats_pipeline(
         game_id = group["game_id"]
         game_df = group["game_df"]
 
-        played_game_df = _played_events_only(game_df)
-        is_scheduled = played_game_df.empty
-
         home_team = game_df["home_team_name"].iloc[0]
         away_team = game_df["away_team_name"].iloc[0]
+        if phase == "playoffs" and playoff_eligible_teams is not None:
+            if home_team not in playoff_eligible_teams or away_team not in playoff_eligible_teams:
+                # Exclude playdown/non-playoff pairings entirely from playoff outputs.
+                continue
+
+        played_game_df = _played_events_only(game_df)
+        is_scheduled = played_game_df.empty
 
         # Get pregame stats (enhanced)
         home_pregame_stats = _enhance_team_stats(pregame_accumulators.get(home_team, {}))
@@ -1859,15 +1863,6 @@ def run_stats_pipeline(
 
     # convert to a list of dicts
     all_stats = [TeamStats(team, stats) for team, stats in team_stats.items()]
-    ranking = sorted(
-        all_stats, key=lambda x: (-x.stats.get("points", 0), -x.stats.get("goal_difference", 0), -x.stats.get("goals", 0))
-    )
-    for i, entry in enumerate(ranking):
-        team_stats[entry.team]["rank"] = i + 1
-
-    with open(output_path / "team_stats_enhanced.json", "w") as f:
-        json.dump(team_stats, f, indent=4)
-
 
     home_away_split_table = write_home_away_split_table(
         team_stats,
@@ -1883,6 +1878,23 @@ def run_stats_pipeline(
         top4_cut=4,
         playoff_eligible_teams=playoff_eligible_teams if phase == "playoffs" else None,
     )
+
+    # Assign ranks after splitting so playoff standings are not skewed by
+    # playdown teams during mixed playoff/playdown phases.
+    if phase == "playoffs":
+        for i, entry in enumerate(playoff_stats):
+            team_stats[entry.team]["rank"] = i + 1
+        for i, entry in enumerate(playdown_stats):
+            team_stats[entry.team]["rank"] = i + 1
+    else:
+        ranking = sorted(
+            all_stats, key=lambda x: (-x.stats.get("points", 0), -x.stats.get("goal_difference", 0), -x.stats.get("goals", 0))
+        )
+        for i, entry in enumerate(ranking):
+            team_stats[entry.team]["rank"] = i + 1
+
+    with open(output_path / "team_stats_enhanced.json", "w") as f:
+        json.dump(team_stats, f, indent=4)
     league_stats = engine.aggregate_stats(all_stats)
     playoff_averages = engine.aggregate_stats(playoff_stats)
     playdown_averages = engine.aggregate_stats(playdown_stats)

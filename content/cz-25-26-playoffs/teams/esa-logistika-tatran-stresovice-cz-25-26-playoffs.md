@@ -1,4 +1,4 @@
-Date: 2026-03-31
+Date: 2026-04-02
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-playoffs, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-playoffs-cz-25-26-playoffs
@@ -15,12 +15,17 @@ boxplay_second_period: 1
 boxplay_third_period: 3
 close_game_loss: 0
 close_game_overtime: 0
-close_game_win: 1
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
+close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 0
 equalizer_goals_against: 0
 first_goal_of_match: 4
 first_goal_of_match_against: 0
+first_period_goals_against_per_game: 0.25
+first_period_goals_per_game: 3.25
 games: 4
 goal_difference: 27
 goal_difference_per_game: 6.75
@@ -29,6 +34,7 @@ goals_against: 8
 goals_against_away: 6
 goals_against_home: 2
 goals_against_in_boxplay: 2
+goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 2.0
 goals_away: 14
@@ -52,6 +58,7 @@ losses: 0
 over_time_losses: 0
 over_time_wins: 0
 penalties: 5
+penalties_per_game: 1.25
 penalty_10: 0
 penalty_2: 5
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 9
 points_after_58_min: 9
 points_after_59_min: 9
 points_after_first_period: 9
+points_after_first_period_per_game: 2.25
 points_after_second_period: 12
 points_after_third_period: 9
 Tags:  Kanonýři Kladno: 12,
-points_max_difference_2: 3
-points_more_2_difference: 9
+points_max_difference_2: 0
+points_more_2_difference: 12
 points_per_game: 3.0
 powerplay: 8
 powerplay_efficiency: 50.0

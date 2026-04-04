@@ -1,4 +1,4 @@
-Date: 2026-03-31
+Date: 2026-04-02
 Title: FAT PIPE FLORBAL CHODOV
 Category: cz-25-26-playoffs, teams
 Slug: fat-pipe-florbal-chodov-cz-25-26-playoffs-cz-25-26-playoffs
@@ -15,12 +15,17 @@ boxplay_second_period: 3
 boxplay_third_period: 3
 close_game_loss: 1
 close_game_overtime: 0
-close_game_win: 1
+close_game_points_per_game: 0.0
+close_game_points_share: 0.0
+close_game_win: 0
+close_games: 1
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 7
 first_goal_of_match: 2
 first_goal_of_match_against: 3
+first_period_goals_against_per_game: 2.2
+first_period_goals_per_game: 1.4
 games: 5
 goal_difference: -13
 goal_difference_per_game: -2.6
@@ -29,6 +34,7 @@ goals_against: 40
 goals_against_away: 22
 goals_against_home: 18
 goals_against_in_boxplay: 3
+goals_against_in_boxplay_per_game: 0.6
 goals_against_in_powerplay: 2
 goals_against_per_game: 8.0
 goals_away: 14
@@ -52,6 +58,7 @@ losses: 4
 over_time_losses: 0
 over_time_wins: 0
 penalties: 8
+penalties_per_game: 1.6
 penalty_10: 0
 penalty_2: 8
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 3
 points_after_58_min: 4
 points_after_59_min: 2
 points_after_first_period: 4
+points_after_first_period_per_game: 0.8
 points_after_second_period: 2
 points_after_third_period: 3
 Tags:  HDT.cz Florbal Vary Bohemians: 3,
-points_max_difference_2: 3
-points_more_2_difference: 0
+points_max_difference_2: 0
+points_more_2_difference: 3
 points_per_game: 0.6
 powerplay: 8
 powerplay_efficiency: 25.0
@@ -90,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.6
 powerplay_second_period: 4
 powerplay_third_period: 1
-rank: 9
+rank: 6
 scoring_ratio: 0.68
 take_the_lead_goals: 8
 take_the_lead_goals_against: 7

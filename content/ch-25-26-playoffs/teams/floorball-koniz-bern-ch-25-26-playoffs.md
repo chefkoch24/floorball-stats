@@ -14,11 +14,11 @@ boxplay_per_game: 1.67
 boxplay_second_period: 1
 boxplay_third_period: 5
 close_game_loss: 2
-close_game_overtime: 1
+close_game_overtime: 0
 close_game_points_per_game: 1.0
 close_game_points_share: 33.33
-close_game_win: 2
-close_games: 5
+close_game_win: 1
+close_games: 3
 draws: 0
 equalizer_goals: 7
 equalizer_goals_against: 7
@@ -88,8 +88,8 @@ points_after_first_period_per_game: 1.17
 points_after_second_period: 7
 points_after_third_period: 4
 Tags:  Floorball Thurgau: 5,
-points_max_difference_2: 5
-points_more_2_difference: 0
+points_max_difference_2: 3
+points_more_2_difference: 2
 points_per_game: 0.83
 powerplay: 12
 powerplay_efficiency: 58.330000000000005

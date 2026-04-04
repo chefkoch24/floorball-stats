@@ -1,4 +1,4 @@
-Date: 2026-04-11
+Date: 2026-04-05
 Title: TPS
 Category: fi-25-26-playoffs, teams
 Slug: tps-fi-25-26-playoffs-fi-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.75
 powerplay_second_period: 4
 powerplay_third_period: 1
-rank: 9
+rank: 7
 scoring_ratio: 0.38
 take_the_lead_goals: 3
 take_the_lead_goals_against: 10

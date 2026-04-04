@@ -1,4 +1,4 @@
-Date: 2026-04-11
+Date: 2026-04-05
 Title: EräViikingit
 Category: fi-25-26-playoffs, teams
 Slug: eraviikingit-fi-25-26-playoffs-fi-25-26-playoffs
@@ -13,12 +13,12 @@ boxplay_overtime: 0
 boxplay_per_game: 1.5
 boxplay_second_period: 3
 boxplay_third_period: 2
-close_game_loss: 1
+close_game_loss: 0
 close_game_overtime: 0
-close_game_points_per_game: 0.0
-close_game_points_share: 0.0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
-close_games: 1
+close_games: 0
 draws: 0
 equalizer_goals: 0
 equalizer_goals_against: 1
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.75
 powerplay_second_period: 2
 powerplay_third_period: 4
-rank: 10
+rank: 8
 scoring_ratio: 0.28
 take_the_lead_goals: 1
 take_the_lead_goals_against: 4

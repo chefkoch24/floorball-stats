@@ -1,4 +1,4 @@
-Date: 2026-03-31
+Date: 2026-04-02
 Title: Předvýběr.CZ Florbal MB
 Category: cz-25-26-playoffs, teams
 Slug: predvyber-cz-florbal-mb-cz-25-26-playoffs-cz-25-26-playoffs
@@ -15,12 +15,17 @@ boxplay_second_period: 3
 boxplay_third_period: 2
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 6
 first_goal_of_match: 3
 first_goal_of_match_against: 1
+first_period_goals_against_per_game: 1.5
+first_period_goals_per_game: 2.5
 games: 4
 goal_difference: 20
 goal_difference_per_game: 5.0
@@ -29,6 +34,7 @@ goals_against: 16
 goals_against_away: 7
 goals_against_home: 9
 goals_against_in_boxplay: 3
+goals_against_in_boxplay_per_game: 0.75
 goals_against_in_powerplay: 0
 goals_against_per_game: 4.0
 goals_away: 17
@@ -52,6 +58,7 @@ losses: 0
 over_time_losses: 0
 over_time_wins: 0
 penalties: 8
+penalties_per_game: 2.0
 penalty_10: 0
 penalty_2: 8
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 9
 points_after_58_min: 12
 points_after_59_min: 12
 points_after_first_period: 9
+points_after_first_period_per_game: 2.25
 points_after_second_period: 12
 points_after_third_period: 12
 Tags:  BA SOKOLI Pardubice: 12,

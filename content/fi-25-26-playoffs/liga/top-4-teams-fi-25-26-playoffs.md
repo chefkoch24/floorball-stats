@@ -1,4 +1,4 @@
-Date: 2026-04-11
+Date: 2026-04-05
 Title: Top 4 Teams
 Category: fi-25-26-playoffs, liga
 Slug: top-4-teams-fi-25-26-playoffs
@@ -12,12 +12,12 @@ boxplay_overtime: 0.5
 boxplay_per_game: 1.62
 boxplay_second_period: 3.0
 boxplay_third_period: 2.25
-close_game_loss: 1.0
+close_game_loss: 0.75
 close_game_overtime: 0.75
-close_game_points_per_game: 2.12
-close_game_points_share: 70.83
-close_game_win: 1.5
-close_games: 3.25
+close_game_points_per_game: 1.83
+close_game_points_share: 61.11
+close_game_win: 1.0
+close_games: 2.5
 draws: 0.0
 equalizer_goals: 3.0
 equalizer_goals_against: 3.0
@@ -86,8 +86,8 @@ points_after_first_period: 8.75
 points_after_first_period_per_game: 1.96
 points_after_second_period: 11.0
 points_after_third_period: 10.5
-points_max_difference_2: 4.75
-points_more_2_difference: 6.0
+points_max_difference_2: 3.25
+points_more_2_difference: 7.5
 points_per_game: 2.45
 powerplay: 4.25
 powerplay_efficiency: 39.17

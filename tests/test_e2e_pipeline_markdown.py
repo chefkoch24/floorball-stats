@@ -319,3 +319,44 @@ def test_run_stats_includes_upcoming_games_without_counting_them_in_team_stats(t
 
     team_stats = result["team_stats_enhanced"]
     assert team_stats["Team A"]["games"] == 1
+
+
+def test_generate_markdown_accepts_playoff_team_stats_list(tmp_path: Path):
+    data_dir = tmp_path / "data"
+    content_dir = tmp_path / "content"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    game_stats = [
+        {
+            "game_id": 1,
+            "date": "2026-03-10",
+            "home_team": "Team A",
+            "away_team": "Team B",
+            "home_stats": {"goals": 2},
+            "away_stats": {"goals": 1},
+        }
+    ]
+    team_stats_list = [
+        {"team": "Team A", "stats": {"points": 3, "rank": 1}},
+        {"team": "Team B", "stats": {"points": 0, "rank": 2}},
+    ]
+    league_stats = {"points_per_game": 1.5}
+
+    (data_dir / "game_stats.json").write_text(json.dumps(game_stats), encoding="utf-8")
+    (data_dir / "playoff_stats.json").write_text(json.dumps(team_stats_list), encoding="utf-8")
+    (data_dir / "league_averages.json").write_text(json.dumps(league_stats), encoding="utf-8")
+
+    _, teams_written, _ = generate_markdown_files(
+        game_stats_path=str(data_dir / "game_stats.json"),
+        team_stats_path=str(data_dir / "playoff_stats.json"),
+        league_stats_path=str(data_dir / "league_averages.json"),
+        output_games_dir=str(content_dir / "25-26-playoffs" / "games"),
+        output_teams_dir=str(content_dir / "25-26-playoffs" / "teams"),
+        output_liga_dir=str(content_dir / "25-26-playoffs" / "liga"),
+        season="25-26",
+        phase="playoffs",
+    )
+
+    assert teams_written == 2
+    team_files = list((content_dir / "25-26-playoffs" / "teams").glob("*.md"))
+    assert len(team_files) == 2
