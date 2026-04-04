@@ -15,10 +15,10 @@ boxplay_second_period: 3
 boxplay_third_period: 3
 close_game_loss: 0
 close_game_overtime: 1
-close_game_points_per_game: 0.67
-close_game_points_share: 22.220000000000002
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 1
-close_games: 3
+close_games: 2
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 3

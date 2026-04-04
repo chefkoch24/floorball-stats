@@ -2,6 +2,7 @@
   "backend": "latvia",
   "season": "lv-25-26",
   "phase": "playoffs",
+  "playoff_teams_count": 8,
   "latvia": {
     "season_start_year": 2025,
     "calendar_urls": [

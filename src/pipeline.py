@@ -42,6 +42,7 @@ def run_pipeline(
     slovakia_regular_season_games_per_team: int | None = None,
     latvia_calendar_urls: list[str] | None = None,
     latvia_season_start_year: int | None = None,
+    playoff_teams_count: int = 8,
     data_dir: str = "data",
     content_dir: str = "content",
     skip_scrape: bool = False,
@@ -167,6 +168,7 @@ def run_pipeline(
         season=season,
         phase=phase,
         pregame_history_csv_paths=pregame_history_csv_paths,
+        playoff_cut=playoff_teams_count,
     )
     games_written, teams_written, league_written = generate_markdown_files(
         game_stats_path=str(data_path / "game_stats.json"),
@@ -217,6 +219,7 @@ def parse_args():
     parser.add_argument("--slovakia_regular_season_games_per_team", type=int, default=None)
     parser.add_argument("--latvia_calendar_url", action="append", default=None)
     parser.add_argument("--latvia_season_start_year", type=int, default=None)
+    parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default="25-26")
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
@@ -274,6 +277,7 @@ def main():
         slovakia_regular_season_games_per_team=args.slovakia_regular_season_games_per_team,
         latvia_calendar_urls=args.latvia_calendar_url,
         latvia_season_start_year=args.latvia_season_start_year,
+        playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
         content_dir=args.content_dir,
         skip_scrape=args.skip_scrape,
