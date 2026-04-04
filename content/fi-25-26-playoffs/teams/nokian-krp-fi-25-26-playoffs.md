@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-04-11
 Title: Nokian KrP
 Category: fi-25-26-playoffs, teams
 Slug: nokian-krp-fi-25-26-playoffs-fi-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.5
 powerplay_second_period: 3
 powerplay_third_period: 2
-rank: 1
+rank: 2
 scoring_ratio: 3.62
 take_the_lead_goals: 4
 take_the_lead_goals_against: 1
