@@ -39,3 +39,23 @@ def test_split_by_rank_orders_by_points_then_goal_difference():
     assert [t.team for t in playoff] == ["B", "A"]
     assert [t.team for t in playdown] == ["C"]
     assert [t.team for t in top4] == ["B", "A"]
+
+
+def test_split_by_rank_respects_playoff_eligibility():
+    engine = StatsEngine()
+    all_stats = [
+        _team_stats("A", points=12, goal_difference=8, goals=25),
+        _team_stats("B", points=10, goal_difference=5, goals=20),
+        _team_stats("C", points=9, goal_difference=1, goals=18),
+    ]
+
+    playoff, playdown, top4 = engine.split_by_rank(
+        all_stats,
+        playoff_cut=2,
+        top4_cut=2,
+        playoff_eligible_teams={"B"},
+    )
+
+    assert [t.team for t in playoff] == ["B"]
+    assert [t.team for t in playdown] == ["A", "C"]
+    assert [t.team for t in top4] == ["B"]

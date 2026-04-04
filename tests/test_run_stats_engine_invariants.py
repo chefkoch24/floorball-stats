@@ -136,3 +136,39 @@ def test_game_score_and_timeline_consistency(tmp_path: Path):
 
         assert home_timeline == sorted(home_timeline)
         assert away_timeline == sorted(away_timeline)
+
+
+def test_playoff_split_uses_regular_season_top8_eligibility(tmp_path: Path):
+    data_dir = tmp_path / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    regular_csv = data_dir / "regular.csv"
+    playoffs_csv = data_dir / "playoffs.csv"
+
+    regular_events = pd.DataFrame(
+        [
+            _event(1, "2026-02-01", "goal", "Team 1", "Team 1", "Team 9", 5, 0, 3, "3-19:00", "5-0"),
+            _event(2, "2026-02-02", "goal", "Team 2", "Team 2", "Team 10", 5, 0, 3, "3-19:00", "5-0"),
+            _event(3, "2026-02-03", "goal", "Team 3", "Team 3", "Team 4", 2, 1, 3, "3-19:00", "2-1"),
+            _event(4, "2026-02-04", "goal", "Team 5", "Team 5", "Team 6", 2, 1, 3, "3-19:00", "2-1"),
+            _event(5, "2026-02-05", "goal", "Team 7", "Team 7", "Team 8", 2, 1, 3, "3-19:00", "2-1"),
+        ]
+    )
+    regular_events.to_csv(regular_csv, index=False)
+
+    # Team 9 and Team 10 should be in playdowns only, even if they play in this dataset.
+    playoff_events = pd.DataFrame(
+        [
+            _event(101, "2026-03-10", "goal", "Team 9", "Team 9", "Team 10", 3, 0, 3, "3-19:00", "3-0"),
+        ]
+    )
+    playoff_events.to_csv(playoffs_csv, index=False)
+
+    result = run_stats_pipeline(
+        input_csv_path=str(playoffs_csv),
+        output_dir=str(data_dir),
+        phase="playoffs",
+        pregame_history_csv_paths=[str(regular_csv)],
+    )
+
+    assert [team["team"] for team in result["playoff_stats"]] == []
+    assert [team["team"] for team in result["playdown_stats"]] == ["Team 9", "Team 10"]

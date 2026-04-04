@@ -1721,11 +1721,42 @@ def run_stats_pipeline(
         target_accumulators[home_team_name] = _update_team_stats(target_accumulators.get(home_team_name, {}), home_stats_local)
         target_accumulators[away_team_name] = _update_team_stats(target_accumulators.get(away_team_name, {}), away_stats_local)
 
+    def _derive_playoff_eligible_teams_from_history_df(history_df: pd.DataFrame, playoff_cut: int = 8) -> set[str]:
+        regular_accumulators: dict[str, dict[str, Any]] = {}
+        regular_history: dict[str, List[dict[str, Any]]] = {}
+        regular_game_groups = []
+        for history_game_id, history_game_df in history_df.groupby("game_id"):
+            regular_game_groups.append(
+                {
+                    "game_id": history_game_id,
+                    "game_df": history_game_df,
+                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_game_df.columns else ""),
+                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_game_df.columns else ""),
+                }
+            )
+        regular_game_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
+        for regular_group in regular_game_groups:
+            _ingest_played_game_into_history(
+                regular_group["game_df"],
+                regular_accumulators,
+                regular_history,
+            )
+
+        regular_all_stats = [TeamStats(team, stats) for team, stats in regular_accumulators.items()]
+        regular_ranking = sorted(
+            regular_all_stats,
+            key=lambda x: (-x.stats.get("points", 0), -x.stats.get("goal_difference", 0), -x.stats.get("goals", 0)),
+        )
+        return {entry.team for entry in regular_ranking[:playoff_cut]}
+
+    playoff_eligible_teams: Optional[set[str]] = None
     for history_path in pregame_history_csv_paths or []:
         history_file = Path(history_path)
         if not history_file.exists():
             continue
         history_df = _prepare_df(pd.read_csv(history_file))
+        if phase == "playoffs" and playoff_eligible_teams is None:
+            playoff_eligible_teams = _derive_playoff_eligible_teams_from_history_df(history_df)
         history_groups = []
         for history_game_id, history_game_df in history_df.groupby("game_id"):
             history_groups.append(
@@ -1845,7 +1876,10 @@ def run_stats_pipeline(
         phase=phase,
     )
 
-    playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(all_stats)
+    playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(
+        all_stats,
+        playoff_eligible_teams=playoff_eligible_teams if phase == "playoffs" else None,
+    )
     league_stats = engine.aggregate_stats(all_stats)
     playoff_averages = engine.aggregate_stats(playoff_stats)
     playdown_averages = engine.aggregate_stats(playdown_stats)
