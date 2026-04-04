@@ -1,0 +1,47 @@
+Date: 2026-04-03
+Title: Casper Backby
+Category: se-25-26-playoffs, players
+Slug: casper-backby-sweden-ssl
+type: player
+player: Casper Backby
+player_uid: casper-backby-sweden-ssl
+season_count: 1
+current_season: se-25-26
+previous_season: n.a.
+current_games: 8
+current_goals: 3
+current_assists: 4
+current_points: 7
+current_pim: 2
+regular_games: 7
+regular_goals: 3
+regular_assists: 3
+regular_points: 6
+regular_pim: 2
+playoff_games: 1
+playoff_goals: 0
+playoff_assists: 1
+playoff_points: 1
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 8
+career_goals: 3
+career_assists: 4
+career_points: 7
+career_pim: 2
+history_rows_csv: se-25-26|playoffs|IBF Falun|1|0|1|1|0||se-25-26|regular-season|IBF Falun|7|3|3|6|2
+assists: 1
+games: 1
+goals: 0
+league: Sweden SSL
+penalties: 0
+phase: playoffs
+pim: 0
+points: 1
+rank: 82
+season: se-25-26
+team: IBF Falun

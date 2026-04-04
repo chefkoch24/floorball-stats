@@ -84,6 +84,27 @@ make refresh-finland-playoffs
 make refresh-finland-smart
 ```
 
+## Player pages from CSV
+
+Build Swedish player stats CSV (all available Sweden season files) and generate unique player pages:
+
+```bash
+make refresh-player-stats-sweden
+make refresh-player-pages
+```
+
+Player pages are canonical per player (`player_uid`) and include:
+- current season totals
+- current regular-season and playoffs splits
+- previous season totals (when older season CSVs exist in `data/`)
+
+Then build or serve the site as usual:
+
+```bash
+make html
+pelican --autoreload --listen --port 8000
+```
+
 ## Switzerland (renderengine backend)
 
 Use a schedule page URL (the scraper extracts `game_id` links) or pass explicit IDs:

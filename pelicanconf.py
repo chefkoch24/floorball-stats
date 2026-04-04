@@ -72,6 +72,7 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'ch-25-26-playoffs/teams',
                  'ch-25-26-playoffs/games',
                  'ch-25-26-playoffs/liga',
+                 'players',
                  ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
 

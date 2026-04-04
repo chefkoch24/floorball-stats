@@ -97,6 +97,8 @@ help:
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
 	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
 	@echo '   make refresh-all-leagues            run all league pipelines + html     '
+	@echo '   make refresh-player-stats-sweden    build Sweden player stats CSV        '
+	@echo '   make refresh-player-pages           generate player pages from CSV       '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -242,4 +244,10 @@ refresh-all-leagues:
 	$(MAKE) refresh-latvia-smart
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues
+refresh-player-pages:
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats.csv" --output-dir "content/players"
+
+refresh-player-stats-sweden:
+	"$(PYTHON)" -m src.build_player_stats_sweden --data-dir "data" --output-csv "data/player_stats.csv"
+
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-player-pages refresh-player-stats-sweden

@@ -40,7 +40,7 @@
 {% endblock %}
 
 {% block content %}
-{% set ns = namespace(team_count=0, game_count=0, upcoming_count=0, top_team=None) %}
+{% set ns = namespace(team_count=0, player_count=0, game_count=0, upcoming_count=0, top_team=None) %}
 {% set is_playoffs = 'playoffs' in category.shortname %}
 {% for candidate in articles_page.object_list | sort_by_rank %}
     {% if candidate|string_in_category_path('teams') %}
@@ -48,6 +48,9 @@
         {% if ns.top_team is none %}
             {% set ns.top_team = candidate %}
         {% endif %}
+    {% endif %}
+    {% if candidate.type == 'player' or candidate|string_in_category_path('players') %}
+        {% set ns.player_count = ns.player_count + 1 %}
     {% endif %}
     {% if candidate.type == 'game' %}
         {% set game_state = candidate.game_state|default('played')|string|lower %}
@@ -68,6 +71,9 @@
     </div>
     <div class="chip-row">
         <span class="chip">Teams: {{ ns.team_count }}</span>
+        {% if ns.player_count > 0 %}
+        <span class="chip">Players: {{ ns.player_count }}</span>
+        {% endif %}
     </div>
 </section>
 
@@ -108,6 +114,44 @@
         </table>
     </div>
 </section>
+
+{% if ns.player_count > 0 %}
+<section class="panel">
+    <h2 class="panel-title">Top Players</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Games</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>PIM</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for candidate in articles_page.object_list | sort_by_rank %}
+            {% if candidate.type == 'player' or candidate|string_in_category_path('players') %}
+            <tr>
+                <td>{{ candidate.rank|default('–') }}</td>
+                <td><a href="{{ SITEURL }}/{{ candidate.url }}">{{ candidate.player|default(candidate.title) }}</a></td>
+                <td>{{ candidate.team|default('–') }}</td>
+                <td>{{ candidate.games|default('–') }}</td>
+                <td>{{ candidate.goals|default('–') }}</td>
+                <td>{{ candidate.assists|default('–') }}</td>
+                <td>{{ candidate.points|default('–') }}</td>
+                <td>{{ candidate.pim|default('–') }}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
 
 {% if is_playoffs and ns.game_count > 0 %}
 <section class="panel">
