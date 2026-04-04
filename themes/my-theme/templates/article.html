@@ -15,6 +15,11 @@
     {% set seo_title = team_name ~ ' Stats, Results and Special Teams | ' ~ category_label ~ ' | ' ~ SITENAME %}
     {% set seo_description = 'Season stats, results, special teams, scoring profile, and recent games for ' ~ team_name ~ ' in ' ~ category_label ~ '.' %}
     {% set seo_type = 'article' %}
+{% elif article_type == "player" or article|string_in_category_path('players') %}
+    {% set player_name = article.player|default(article.title) %}
+    {% set seo_title = player_name ~ ' Player Stats | ' ~ SITENAME %}
+    {% set seo_description = 'Player profile and performance stats for ' ~ player_name ~ ' on ' ~ SITENAME ~ '.' %}
+    {% set seo_type = 'article' %}
 {% elif article|string_in_category_path('liga') %}
     {% set seo_title = category_label ~ ' League Stats, Scoring and Special Teams | ' ~ SITENAME %}
     {% set seo_description = 'League-wide scoring, special teams, and result trends for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
@@ -39,6 +44,8 @@
             {{ article.home_team }} vs {{ article.away_team }}
         {% elif article_type == "team" or article|string_in_category_path('teams') %}
             {{ article.team|default(article.title) }}
+        {% elif article_type == "player" or article|string_in_category_path('players') %}
+            {{ article.player|default(article.title) }}
         {% else %}
             {{ article.title }}
         {% endif %}
@@ -117,6 +124,16 @@
   "description": "Season team profile for {{ article.team|default(article.title) }} with results, scoring, special teams, and game history."
 }
 </script>
+{% elif article_type == "player" or article|string_in_category_path('players') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ article.player|default(article.title) }}",
+  "url": "{{ SITEURL }}/{{ article.url }}",
+  "description": "Player profile and stats for {{ article.player|default(article.title) }}."
+}
+</script>
 {% endif %}
 {% endif %}
 {% endblock %}
@@ -127,6 +144,8 @@
     {% include "game.html" %}
 {% elif article_type == "team" or article|string_in_category_path('teams') %}
     {% include "team.html" %}
+{% elif article_type == "player" or article|string_in_category_path('players') %}
+    {% include "player.html" %}
 {% elif article|string_in_category_path('liga') %}
     {% include "liga.html" %}
 {% else %}

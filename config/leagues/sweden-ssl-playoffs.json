@@ -2,5 +2,6 @@
   "backend": "sweden",
   "season": "se-25-26",
   "phase": "playoffs",
+  "playoff_teams_count": 8,
   "competition_ids": [43813, 43814, 43815, 43816]
 }

@@ -1593,6 +1593,7 @@ def run_stats_pipeline(
     season: Optional[str] = None,
     phase: Optional[str] = None,
     pregame_history_csv_paths: Optional[List[str]] = None,
+    playoff_cut: int = 8,
 ) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -1721,7 +1722,9 @@ def run_stats_pipeline(
         target_accumulators[home_team_name] = _update_team_stats(target_accumulators.get(home_team_name, {}), home_stats_local)
         target_accumulators[away_team_name] = _update_team_stats(target_accumulators.get(away_team_name, {}), away_stats_local)
 
-    def _derive_playoff_eligible_teams_from_history_df(history_df: pd.DataFrame, playoff_cut: int = 8) -> set[str]:
+    playoff_eligible_teams: Optional[set[str]] = None
+
+    def _derive_playoff_eligible_teams_from_history_df(history_df: pd.DataFrame) -> set[str]:
         regular_accumulators: dict[str, dict[str, Any]] = {}
         regular_history: dict[str, List[dict[str, Any]]] = {}
         regular_game_groups = []
@@ -1730,8 +1733,8 @@ def run_stats_pipeline(
                 {
                     "game_id": history_game_id,
                     "game_df": history_game_df,
-                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_game_df.columns else ""),
-                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_game_df.columns else ""),
+                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_df.columns else ""),
+                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_df.columns else ""),
                 }
             )
         regular_game_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
@@ -1741,7 +1744,6 @@ def run_stats_pipeline(
                 regular_accumulators,
                 regular_history,
             )
-
         regular_all_stats = [TeamStats(team, stats) for team, stats in regular_accumulators.items()]
         regular_ranking = sorted(
             regular_all_stats,
@@ -1749,7 +1751,6 @@ def run_stats_pipeline(
         )
         return {entry.team for entry in regular_ranking[:playoff_cut]}
 
-    playoff_eligible_teams: Optional[set[str]] = None
     for history_path in pregame_history_csv_paths or []:
         history_file = Path(history_path)
         if not history_file.exists():
@@ -1878,6 +1879,8 @@ def run_stats_pipeline(
 
     playoff_stats, playdown_stats, top4_stats = engine.split_by_rank(
         all_stats,
+        playoff_cut=playoff_cut,
+        top4_cut=4,
         playoff_eligible_teams=playoff_eligible_teams if phase == "playoffs" else None,
     )
     league_stats = engine.aggregate_stats(all_stats)

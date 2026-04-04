@@ -40,13 +40,11 @@ class StatsEngine:
         playoff_eligible_teams: Optional[Set[str]] = None,
     ):
         sorted_stats = sorted(all_stats, key=lambda x: (-x.stats.get('points', 0), -x.stats.get('goal_difference', 0)))
-
         if playoff_eligible_teams:
             playoff_stats = [team for team in sorted_stats if team.team in playoff_eligible_teams]
             playdown_stats = [team for team in sorted_stats if team.team not in playoff_eligible_teams]
         else:
             playoff_stats = sorted_stats[:playoff_cut]
             playdown_stats = sorted_stats[playoff_cut:]
-
         top4_stats = playoff_stats[:top4_cut]
         return playoff_stats, playdown_stats, top4_stats

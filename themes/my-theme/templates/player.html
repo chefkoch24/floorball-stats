@@ -1,0 +1,167 @@
+<section class="hero">
+    <div class="hero-top">
+        <div>
+            <h1 class="hero-title">{{ article.player|default(article.title) }}</h1>
+            <p class="hero-subtitle">Individual player profile with core season performance metrics.</p>
+        </div>
+    </div>
+    <div class="chip-row">
+        {% if article.current_season %}<span class="chip">Current Season: {{ article.current_season }}</span>{% endif %}
+        {% if article.team %}<span class="chip">Team: {{ article.team }}</span>{% endif %}
+        {% if article.league %}<span class="chip">League: {{ article.league }}</span>{% endif %}
+        {% if article.season_count %}<span class="chip">Seasons: {{ article.season_count }}</span>{% endif %}
+        {% if article.position %}<span class="chip">Position: {{ article.position }}</span>{% endif %}
+        {% if article.jersey_number %}<span class="chip">#{{ article.jersey_number }}</span>{% endif %}
+    </div>
+</section>
+
+{% set games = article.current_games|default(article.games|default(article.gp|default(0)))|int %}
+{% set points = article.current_points|default(article.points|default(0))|int %}
+{% set goals = article.current_goals|default(article.goals|default(0))|int %}
+{% set assists = article.current_assists|default(article.assists|default(0))|int %}
+{% set pim = article.current_pim|default(article.pim|default(0))|int %}
+{% if games > 0 %}
+    {% set ppg = (points / games)|round(2) %}
+    {% set gpg = (goals / games)|round(2) %}
+    {% set apg = (assists / games)|round(2) %}
+    {% set pimg = (pim / games)|round(2) %}
+{% else %}
+    {% set ppg = '–' %}
+    {% set gpg = '–' %}
+    {% set apg = '–' %}
+    {% set pimg = '–' %}
+{% endif %}
+
+<section class="kpi-grid">
+    <article class="kpi"><p class="kpi-label">Games</p><p class="kpi-value">{{ games if games > 0 else '–' }}</p></article>
+    <article class="kpi"><p class="kpi-label">Points</p><p class="kpi-value">{{ points }}</p></article>
+    <article class="kpi"><p class="kpi-label">Goals</p><p class="kpi-value">{{ goals }}</p></article>
+    <article class="kpi"><p class="kpi-label">Assists</p><p class="kpi-value">{{ assists }}</p></article>
+    <article class="kpi"><p class="kpi-label">Points/Game</p><p class="kpi-value">{{ ppg }}</p></article>
+    <article class="kpi"><p class="kpi-label">Goals/Game</p><p class="kpi-value">{{ gpg }}</p></article>
+    <article class="kpi"><p class="kpi-label">Assists/Game</p><p class="kpi-value">{{ apg }}</p></article>
+    <article class="kpi"><p class="kpi-label">PIM</p><p class="kpi-value">{{ pim }}</p></article>
+    <article class="kpi"><p class="kpi-label">PIM/Game</p><p class="kpi-value">{{ pimg }}</p></article>
+    {% if article.shots %}<article class="kpi"><p class="kpi-label">Shots</p><p class="kpi-value">{{ article.shots }}</p></article>{% endif %}
+</section>
+
+<section class="panel">
+    <h2 class="panel-title">Season Splits</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Scope</th>
+                <th>Games</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>PIM</th>
+                <th>Points/Game</th>
+                <th>PIM/Game</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% set rg = article.regular_games|default(0)|int %}
+            {% set rp = article.regular_points|default(0)|int %}
+            {% set rr = article.regular_pim|default(0)|int %}
+            {% set pg = article.playoff_games|default(0)|int %}
+            {% set pp = article.playoff_points|default(0)|int %}
+            {% set pr = article.playoff_pim|default(0)|int %}
+            {% set vg = article.previous_games|default(0)|int %}
+            {% set vp = article.previous_points|default(0)|int %}
+            {% set vr = article.previous_pim|default(0)|int %}
+            <tr>
+                <td>Current Total ({{ article.current_season|default('–') }})</td>
+                <td>{{ article.current_games|default('–') }}</td>
+                <td>{{ article.current_goals|default('–') }}</td>
+                <td>{{ article.current_assists|default('–') }}</td>
+                <td>{{ article.current_points|default('–') }}</td>
+                <td>{{ article.current_pim|default('–') }}</td>
+                <td>{{ (article.current_points|default(0)|int / article.current_games|default(1)|int)|round(2) if article.current_games|default(0)|int > 0 else '–' }}</td>
+                <td>{{ (article.current_pim|default(0)|int / article.current_games|default(1)|int)|round(2) if article.current_games|default(0)|int > 0 else '–' }}</td>
+            </tr>
+            <tr>
+                <td>Current Regular Season</td>
+                <td>{{ article.regular_games|default('–') }}</td>
+                <td>{{ article.regular_goals|default('–') }}</td>
+                <td>{{ article.regular_assists|default('–') }}</td>
+                <td>{{ article.regular_points|default('–') }}</td>
+                <td>{{ article.regular_pim|default('–') }}</td>
+                <td>{{ (rp / rg)|round(2) if rg > 0 else '–' }}</td>
+                <td>{{ (rr / rg)|round(2) if rg > 0 else '–' }}</td>
+            </tr>
+            <tr>
+                <td>Current Playoffs</td>
+                <td>{{ article.playoff_games|default('–') }}</td>
+                <td>{{ article.playoff_goals|default('–') }}</td>
+                <td>{{ article.playoff_assists|default('–') }}</td>
+                <td>{{ article.playoff_points|default('–') }}</td>
+                <td>{{ article.playoff_pim|default('–') }}</td>
+                <td>{{ (pp / pg)|round(2) if pg > 0 else '–' }}</td>
+                <td>{{ (pr / pg)|round(2) if pg > 0 else '–' }}</td>
+            </tr>
+            {% if article.previous_season and article.previous_season != 'n.a.' %}
+            <tr>
+                <td>Previous Season ({{ article.previous_season }})</td>
+                <td>{{ article.previous_games|default('–') }}</td>
+                <td>{{ article.previous_goals|default('–') }}</td>
+                <td>{{ article.previous_assists|default('–') }}</td>
+                <td>{{ article.previous_points|default('–') }}</td>
+                <td>{{ article.previous_pim|default('–') }}</td>
+                <td>{{ (vp / vg)|round(2) if vg > 0 else '–' }}</td>
+                <td>{{ (vr / vg)|round(2) if vg > 0 else '–' }}</td>
+            </tr>
+            {% endif %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+{% if article.history_rows_csv %}
+<section class="panel">
+    <h2 class="panel-title">Season History</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Season</th>
+                <th>Phase</th>
+                <th>Team</th>
+                <th>Games</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>PIM</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for row in article.history_rows_csv.split('||') %}
+                    {% set cols = row.split('|') %}
+                    {% if cols|length >= 8 %}
+                    <tr>
+                        <td>{{ cols[0] }}</td>
+                        <td>{{ cols[1] }}</td>
+                        <td>{{ cols[2] }}</td>
+                        <td>{{ cols[3] }}</td>
+                        <td>{{ cols[4] }}</td>
+                        <td>{{ cols[5] }}</td>
+                        <td>{{ cols[6] }}</td>
+                        <td>{{ cols[7] }}</td>
+                    </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
+
+{% if article.content %}
+<section class="panel">
+    <h2 class="panel-title">Notes</h2>
+    <div>
+        {{ article.content }}
+    </div>
+</section>
+{% endif %}

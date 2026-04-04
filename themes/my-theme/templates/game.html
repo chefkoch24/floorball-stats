@@ -330,6 +330,31 @@ const decodeGoalEvents = (raw) => {
 
 const gameEventsTimeline = document.getElementById('gameEventsTimeline');
 if (gameEventsTimeline) {
+  const siteBase = "{{ SITEURL }}";
+  const playerSeasonPhase = "{{ article.categories[0].shortname if article.categories else '' }}";
+  const playerLeagueSuffix = playerSeasonPhase.startsWith('se-') ? '-sweden-ssl' : '';
+  const escapeHtml = (value) => String(value || '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+  const slugifyFragment = (value) => String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replaceAll('&', ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+  const renderPlayerLink = (name) => {
+    const raw = String(name || '').trim();
+    if (!raw || !playerSeasonPhase) return escapeHtml(raw);
+    const slug = slugifyFragment(`${raw}${playerLeagueSuffix}`);
+    if (!slug) return escapeHtml(raw);
+    return `<a href="${siteBase}/${slug}.html">${escapeHtml(raw)}</a>`;
+  };
+
   const gameEvents = decodeGoalEvents(gameEventsTimeline.dataset.eventsB64 || '');
   if (!gameEvents.length) {
     gameEventsTimeline.innerHTML = '<p class="timeline-empty">No event details available for this game.</p>';
@@ -343,21 +368,24 @@ if (gameEventsTimeline) {
               <div class="event-timeline__meta">
                 <span class="event-timeline__minute">${event.minute}</span>
               </div>
-              <p class="event-timeline__headline">${event.title}</p>
+              <p class="event-timeline__headline">${escapeHtml(event.title)}</p>
             </div>
           </article>
         `;
       }
 
       const assistLine = event.assist
-        ? `<p class="event-timeline__assist">${event.event_kind === 'penalty' ? 'Player' : 'Assist'}: ${event.assist}</p>`
+        ? `<p class="event-timeline__assist">${event.event_kind === 'penalty' ? 'Player' : 'Assist'}: ${renderPlayerLink(event.assist)}</p>`
         : '';
       const tag = event.tag && !['goal', 'penalty', 'penalty_2'].includes(event.tag)
-        ? `<span class="event-timeline__tag">${event.tag.replaceAll('_', ' ')}</span>`
+        ? `<span class="event-timeline__tag">${escapeHtml(event.tag.replaceAll('_', ' '))}</span>`
         : '';
       const score = event.score
-        ? `<span class="event-timeline__score">${event.score}</span>`
+        ? `<span class="event-timeline__score">${escapeHtml(event.score)}</span>`
         : '';
+      const headline = event.event_kind === 'goal'
+        ? renderPlayerLink(event.title)
+        : escapeHtml(event.title);
       return `
         <article class="event-timeline__item event-timeline__item--${event.side} event-timeline__item--${event.event_kind}">
           <div class="event-timeline__marker"></div>
@@ -366,8 +394,8 @@ if (gameEventsTimeline) {
               <span class="event-timeline__minute">${event.minute}</span>
               ${score}
             </div>
-            ${event.team ? `<p class="event-timeline__team">${event.team}</p>` : ''}
-            <p class="event-timeline__headline">${event.title}</p>
+            ${event.team ? `<p class="event-timeline__team">${escapeHtml(event.team)}</p>` : ''}
+            <p class="event-timeline__headline">${headline}</p>
             ${assistLine}
             ${tag}
           </div>

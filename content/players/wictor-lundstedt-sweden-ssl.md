@@ -1,0 +1,47 @@
+Date: 2026-04-03
+Title: Wictor Lundstedt
+Category: se-25-26-playoffs, players
+Slug: wictor-lundstedt-sweden-ssl
+type: player
+player: Wictor Lundstedt
+player_uid: wictor-lundstedt-sweden-ssl
+season_count: 1
+current_season: se-25-26
+previous_season: n.a.
+current_games: 9
+current_goals: 7
+current_assists: 7
+current_points: 14
+current_pim: 2
+regular_games: 6
+regular_goals: 4
+regular_assists: 7
+regular_points: 11
+regular_pim: 2
+playoff_games: 3
+playoff_goals: 3
+playoff_assists: 0
+playoff_points: 3
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 9
+career_goals: 7
+career_assists: 7
+career_points: 14
+career_pim: 2
+history_rows_csv: se-25-26|playoffs|Pixbo IBK|3|3|0|3|0||se-25-26|regular-season|Pixbo IBK|6|4|7|11|2
+assists: 0
+games: 3
+goals: 3
+league: Sweden SSL
+penalties: 0
+phase: playoffs
+pim: 0
+points: 3
+rank: 34
+season: se-25-26
+team: Pixbo IBK
