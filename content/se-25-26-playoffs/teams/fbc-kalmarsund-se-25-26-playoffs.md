@@ -18,7 +18,7 @@ close_game_overtime: 0
 close_game_points_per_game: 0.0
 close_game_points_share: 0.0
 close_game_win: 0
-close_games: 3
+close_games: 2
 draws: 0
 equalizer_goals: 2
 equalizer_goals_against: 3

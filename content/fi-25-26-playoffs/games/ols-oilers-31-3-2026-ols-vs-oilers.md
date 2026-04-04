@@ -240,8 +240,8 @@ home_pregame_close_game_loss: 0
 home_pregame_close_game_overtime: 0
 home_pregame_close_game_points_per_game: 3.0
 home_pregame_close_game_points_share: 100.0
-home_pregame_close_game_win: 2
-home_pregame_close_games: 2
+home_pregame_close_game_win: 1
+home_pregame_close_games: 1
 home_pregame_draws: 0
 home_pregame_equalizer_goals: 2
 home_pregame_equalizer_goals_against: 0
@@ -311,8 +311,8 @@ home_pregame_points_after_first_period_per_game: 1.0
 home_pregame_points_after_second_period: 3
 home_pregame_points_after_third_period: 6
 home_pregame_points_against_oilers: 6
-home_pregame_points_max_difference_2: 6
-home_pregame_points_more_2_difference: 0
+home_pregame_points_max_difference_2: 3
+home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 2.0
 home_pregame_powerplay: 5
 home_pregame_powerplay_efficiency: 40.0
@@ -334,12 +334,12 @@ away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 1.67
 away_pregame_boxplay_second_period: 2
 away_pregame_boxplay_third_period: 2
-away_pregame_close_game_loss: 2
+away_pregame_close_game_loss: 1
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 0.0
 away_pregame_close_game_points_share: 0.0
 away_pregame_close_game_win: 0
-away_pregame_close_games: 2
+away_pregame_close_games: 1
 away_pregame_draws: 0
 away_pregame_equalizer_goals: 0
 away_pregame_equalizer_goals_against: 2

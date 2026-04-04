@@ -13,12 +13,12 @@ boxplay_overtime: 1
 boxplay_per_game: 2.0
 boxplay_second_period: 2
 boxplay_third_period: 8
-close_game_loss: 2
-close_game_overtime: 1
-close_game_points_per_game: 1.4
-close_game_points_share: 46.67
+close_game_loss: 1
+close_game_overtime: 0
+close_game_points_per_game: 2.0
+close_game_points_share: 66.67
 close_game_win: 2
-close_games: 5
+close_games: 3
 draws: 0
 equalizer_goals: 7
 equalizer_goals_against: 7
@@ -88,8 +88,8 @@ points_after_first_period_per_game: 1.67
 points_after_second_period: 10
 points_after_third_period: 13
 Tags:  Floorball Köniz Bern: 13,
-points_max_difference_2: 7
-points_more_2_difference: 6
+points_max_difference_2: 6
+points_more_2_difference: 7
 points_per_game: 2.17
 powerplay: 10
 powerplay_efficiency: 40.0

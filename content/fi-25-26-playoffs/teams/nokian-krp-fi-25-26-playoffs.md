@@ -15,10 +15,10 @@ boxplay_second_period: 2
 boxplay_third_period: 4
 close_game_loss: 0
 close_game_overtime: 0
-close_game_points_per_game: 3.0
-close_game_points_share: 100.0
-close_game_win: 1
-close_games: 1
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
+close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 0
@@ -88,8 +88,8 @@ points_after_first_period_per_game: 2.25
 points_after_second_period: 10
 points_after_third_period: 12
 Tags:  EräViikingit: 12,
-points_max_difference_2: 3
-points_more_2_difference: 9
+points_max_difference_2: 0
+points_more_2_difference: 12
 points_per_game: 3.0
 powerplay: 6
 powerplay_efficiency: 66.67

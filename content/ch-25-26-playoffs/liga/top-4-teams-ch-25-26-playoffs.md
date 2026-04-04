@@ -12,12 +12,12 @@ boxplay_overtime: 0.25
 boxplay_per_game: 1.81
 boxplay_second_period: 2.25
 boxplay_third_period: 4.75
-close_game_loss: 0.75
-close_game_overtime: 1.0
-close_game_points_per_game: 0.97
-close_game_points_share: 32.22
+close_game_loss: 0.5
+close_game_overtime: 0.5
+close_game_points_per_game: 1.33
+close_game_points_share: 44.44
 close_game_win: 1.0
-close_games: 2.75
+close_games: 2.0
 draws: 0.0
 equalizer_goals: 3.5
 equalizer_goals_against: 4.0
@@ -76,7 +76,7 @@ percent_goals_overtime: 1.79
 percent_goals_overtime_against: 0.89
 percent_goals_second_period: 25.7
 percent_goals_second_period_against: 20.68
-percent_goals_third_period: 41.74
+percent_goals_third_period: 41.75
 percent_goals_third_period_against: 42.98
 points: 12.0
 points_after_55_min: 11.0
@@ -86,8 +86,8 @@ points_after_first_period: 10.5
 points_after_first_period_per_game: 2.25
 points_after_second_period: 11.75
 points_after_third_period: 11.5
-points_max_difference_2: 3.0
-points_more_2_difference: 9.0
+points_max_difference_2: 2.75
+points_more_2_difference: 9.25
 points_per_game: 2.57
 powerplay: 7.75
 powerplay_efficiency: 52.08

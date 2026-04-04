@@ -1,4 +1,4 @@
-Date: 2026-03-29
+Date: 2026-04-02
 Title: FBK Valmiera
 Category: lv-25-26-playoffs, teams
 Slug: fbk-valmiera-lv-25-26-playoffs-lv-25-26-playoffs
@@ -15,20 +15,26 @@ boxplay_second_period: 2
 boxplay_third_period: 7
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: 3.0
+close_game_points_share: 100.0
 close_game_win: 1
+close_games: 1
 draws: 0
 equalizer_goals: 3
 equalizer_goals_against: 2
 first_goal_of_match: 2
 first_goal_of_match_against: 4
+first_period_goals_against_per_game: 1.17
+first_period_goals_per_game: 0.67
 games: 6
 goal_difference: -9
 goal_difference_per_game: -1.5
 goals: 24
 goals_against: 33
-goals_against_away: 15
-goals_against_home: 18
+goals_against_away: 14
+goals_against_home: 17
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 0.67
 goals_against_in_powerplay: 0
 goals_against_per_game: 5.5
 goals_away: 6
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 1
 over_time_wins: 0
 penalties: 11
+penalties_per_game: 1.83
 penalty_10: 0
 penalty_2: 11
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 7
 points_after_58_min: 7
 points_after_59_min: 7
 points_after_first_period: 5
+points_after_first_period_per_game: 0.83
 points_after_second_period: 9
 points_after_third_period: 7
 Tags:  Talsu NSS/Krauzers: 7,
