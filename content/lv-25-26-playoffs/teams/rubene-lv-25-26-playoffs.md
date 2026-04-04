@@ -15,23 +15,29 @@ boxplay_second_period: 7
 boxplay_third_period: 7
 close_game_loss: 1
 close_game_overtime: 0
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 0
+close_games: 1
 draws: 0
 equalizer_goals: 5
 equalizer_goals_against: 7
 first_goal_of_match: 8
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 1.4
+first_period_goals_per_game: 2.2
 games: 10
 goal_difference: 34
 goal_difference_per_game: 3.4
 goals: 75
 goals_against: 41
-goals_against_away: 25
+goals_against_away: 24
 goals_against_home: 16
 goals_against_in_boxplay: 6
+goals_against_in_boxplay_per_game: 0.6
 goals_against_in_powerplay: 0
 goals_against_per_game: 4.1
-goals_away: 34
+goals_away: 33
 goals_home: 41
 goals_in_boxplay: 1
 goals_in_first_period: 22
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 0
 penalties: 19
+penalties_per_game: 1.9
 penalty_10: 0
 penalty_2: 17
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 22
 points_after_58_min: 22
 points_after_59_min: 22
 points_after_first_period: 21
+points_after_first_period_per_game: 2.1
 points_after_second_period: 18
 points_after_third_period: 22
 Tags:  FBK SĀC: 12,  Lekrings: 10,

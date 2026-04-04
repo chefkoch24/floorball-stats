@@ -15,20 +15,26 @@ boxplay_second_period: 5
 boxplay_third_period: 6
 close_game_loss: 0
 close_game_overtime: 1
+close_game_points_per_game: 1.0
+close_game_points_share: 33.33
 close_game_win: 1
+close_games: 2
 draws: 0
 equalizer_goals: 4
 equalizer_goals_against: 4
 first_goal_of_match: 2
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 2.75
+first_period_goals_per_game: 1.25
 games: 4
 goal_difference: -16
 goal_difference_per_game: -4.0
 goals: 16
 goals_against: 32
-goals_against_away: 18
+goals_against_away: 17
 goals_against_home: 14
 goals_against_in_boxplay: 5
+goals_against_in_boxplay_per_game: 1.25
 goals_against_in_powerplay: 1
 goals_against_per_game: 8.0
 goals_away: 5
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 0
 over_time_wins: 1
 penalties: 13
+penalties_per_game: 3.25
 penalty_10: 1
 penalty_2: 12
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 1
 points_after_58_min: 1
 points_after_59_min: 1
 points_after_first_period: 2
+points_after_first_period_per_game: 0.5
 points_after_second_period: 0
 points_after_third_period: 1
 Tags:  ŠK Lido Prírodovedec Bratislava: 2,

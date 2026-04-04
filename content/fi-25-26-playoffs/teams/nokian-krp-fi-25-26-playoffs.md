@@ -15,12 +15,17 @@ boxplay_second_period: 2
 boxplay_third_period: 4
 close_game_loss: 0
 close_game_overtime: 0
-close_game_win: 0
+close_game_points_per_game: 3.0
+close_game_points_share: 100.0
+close_game_win: 1
+close_games: 1
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 0
 first_goal_of_match: 3
 first_goal_of_match_against: 1
+first_period_goals_against_per_game: 0.5
+first_period_goals_per_game: 1.5
 games: 4
 goal_difference: 21
 goal_difference_per_game: 5.25
@@ -29,6 +34,7 @@ goals_against: 8
 goals_against_away: 5
 goals_against_home: 3
 goals_against_in_boxplay: 2
+goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 2.0
 goals_away: 14
@@ -52,6 +58,7 @@ losses: 0
 over_time_losses: 0
 over_time_wins: 0
 penalties: 8
+penalties_per_game: 2.0
 penalty_10: 0
 penalty_2: 8
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 12
 points_after_58_min: 12
 points_after_59_min: 12
 points_after_first_period: 9
+points_after_first_period_per_game: 2.25
 points_after_second_period: 10
 points_after_third_period: 12
 Tags:  EräViikingit: 12,
-points_max_difference_2: 0
-points_more_2_difference: 12
+points_max_difference_2: 3
+points_more_2_difference: 9
 points_per_game: 3.0
 powerplay: 6
 powerplay_efficiency: 66.67

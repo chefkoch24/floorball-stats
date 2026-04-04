@@ -15,12 +15,17 @@ boxplay_second_period: 4
 boxplay_third_period: 1
 close_game_loss: 1
 close_game_overtime: 1
+close_game_points_per_game: 0.5
+close_game_points_share: 16.669999999999998
 close_game_win: 0
+close_games: 2
 draws: 0
 equalizer_goals: 6
 equalizer_goals_against: 2
 first_goal_of_match: 1
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 2.33
+first_period_goals_per_game: 1.0
 games: 3
 goal_difference: -13
 goal_difference_per_game: -4.33
@@ -29,9 +34,10 @@ goals_against: 26
 goals_against_away: 20
 goals_against_home: 6
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 1.33
 goals_against_in_powerplay: 0
 goals_against_per_game: 8.67
-goals_away: 8
+goals_away: 7
 goals_home: 5
 goals_in_boxplay: 0
 goals_in_first_period: 3
@@ -52,6 +58,7 @@ losses: 2
 over_time_losses: 1
 over_time_wins: 0
 penalties: 7
+penalties_per_game: 2.33
 penalty_10: 0
 penalty_2: 7
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 2
 points_after_58_min: 1
 points_after_59_min: 1
 points_after_first_period: 1
+points_after_first_period_per_game: 0.33
 points_after_second_period: 1
 points_after_third_period: 1
 Tags:  1. FBC Trenčín: 1,

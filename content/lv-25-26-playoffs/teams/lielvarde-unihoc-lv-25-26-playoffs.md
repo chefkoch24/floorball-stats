@@ -15,20 +15,26 @@ boxplay_second_period: 2
 boxplay_third_period: 3
 close_game_loss: 2
 close_game_overtime: 1
+close_game_points_per_game: 0.33
+close_game_points_share: 11.110000000000001
 close_game_win: 0
+close_games: 3
 draws: 0
 equalizer_goals: 5
 equalizer_goals_against: 2
 first_goal_of_match: 1
 first_goal_of_match_against: 3
+first_period_goals_against_per_game: 2.0
+first_period_goals_per_game: 0.75
 games: 4
 goal_difference: -16
 goal_difference_per_game: -4.0
 goals: 11
 goals_against: 27
 goals_against_away: 14
-goals_against_home: 13
+goals_against_home: 11
 goals_against_in_boxplay: 3
+goals_against_in_boxplay_per_game: 0.75
 goals_against_in_powerplay: 2
 goals_against_per_game: 6.75
 goals_away: 4
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 1
 over_time_wins: 0
 penalties: 6
+penalties_per_game: 1.5
 penalty_10: 0
 penalty_2: 5
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 1
 points_after_58_min: 1
 points_after_59_min: 1
 points_after_first_period: 1
+points_after_first_period_per_game: 0.25
 points_after_second_period: 0
 points_after_third_period: 1
 Tags:  Masters Ulbroka/LU: 1,

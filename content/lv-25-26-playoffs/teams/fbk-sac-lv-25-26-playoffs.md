@@ -15,20 +15,26 @@ boxplay_second_period: 4
 boxplay_third_period: 3
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 1
 equalizer_goals_against: 1
 first_goal_of_match: 1
 first_goal_of_match_against: 3
+first_period_goals_against_per_game: 2.5
+first_period_goals_per_game: 1.75
 games: 4
 goal_difference: -27
 goal_difference_per_game: -6.75
 goals: 14
 goals_against: 41
 goals_against_away: 26
-goals_against_home: 15
+goals_against_home: 14
 goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 1.0
 goals_against_in_powerplay: 0
 goals_against_per_game: 10.25
 goals_away: 7
@@ -52,6 +58,7 @@ losses: 4
 over_time_losses: 0
 over_time_wins: 0
 penalties: 10
+penalties_per_game: 2.5
 penalty_10: 1
 penalty_2: 9
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 0
 points_after_58_min: 0
 points_after_59_min: 0
 points_after_first_period: 3
+points_after_first_period_per_game: 0.75
 points_after_second_period: 0
 points_after_third_period: 0
 Tags:  Rubene: 0,

@@ -15,12 +15,17 @@ boxplay_second_period: 1
 boxplay_third_period: 4
 close_game_loss: 0
 close_game_overtime: 0
+close_game_points_per_game: n.a.
+close_game_points_share: n.a.
 close_game_win: 0
+close_games: 0
 draws: 0
 equalizer_goals: 2
 equalizer_goals_against: 1
 first_goal_of_match: 2
 first_goal_of_match_against: 2
+first_period_goals_against_per_game: 0.75
+first_period_goals_per_game: 2.0
 games: 4
 goal_difference: 24
 goal_difference_per_game: 6.0
@@ -29,10 +34,11 @@ goals_against: 10
 goals_against_away: 5
 goals_against_home: 5
 goals_against_in_boxplay: 2
+goals_against_in_boxplay_per_game: 0.5
 goals_against_in_powerplay: 0
 goals_against_per_game: 2.5
-goals_away: 21
-goals_home: 13
+goals_away: 20
+goals_home: 12
 goals_in_boxplay: 1
 goals_in_first_period: 8
 goals_in_first_period_against: 3
@@ -52,6 +58,7 @@ losses: 0
 over_time_losses: 0
 over_time_wins: 0
 penalties: 8
+penalties_per_game: 2.0
 penalty_10: 1
 penalty_2: 7
 penalty_2and2: 0
@@ -77,6 +84,7 @@ points_after_55_min: 12
 points_after_58_min: 12
 points_after_59_min: 12
 points_after_first_period: 10
+points_after_first_period_per_game: 2.5
 points_after_second_period: 10
 points_after_third_period: 12
 Tags:  Nykvarns IBF: 12,

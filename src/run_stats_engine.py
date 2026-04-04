@@ -586,6 +586,20 @@ def _last_goals_per_game(events: pd.DataFrame):
             yield last_goal
 
 
+def _max_in_game_goal_diff(events: pd.DataFrame, team: str) -> int:
+    goals = events[events['event_type'] == EVENT_GOAL]
+    if goals.empty:
+        return 0
+    goals = _sort_events_chronologically(goals)
+    max_diff = 0
+    for _, goal in goals.iterrows():
+        team_goals, opp_goals = _team_score_state(goal, team)
+        if team_goals is None or opp_goals is None:
+            continue
+        max_diff = max(max_diff, abs(int(team_goals) - int(opp_goals)))
+    return max_diff
+
+
 def stat_wins(events: pd.DataFrame, team: str):
     wins = 0
     for last_goal in _last_goals_per_game(events):
@@ -670,8 +684,8 @@ def stat_points_max_difference(events: pd.DataFrame, team: str, num_goals: int =
     last_goal = _last_goal_event(events)
     if last_goal is not None:
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-        diff = abs(team_goals - opp_goals)
-        if diff <= num_goals:
+        max_in_game_diff = _max_in_game_goal_diff(events, team)
+        if max_in_game_diff <= num_goals:
             points += _points_from_final_score(
                 team_goals,
                 opp_goals,
@@ -961,8 +975,8 @@ def stat_points_more_2_difference(events: pd.DataFrame, team: str):
     last_goal = _last_goal_event(events)
     if last_goal is not None:
         team_goals, opp_goals, period = _final_score_for_team(last_goal, team)
-        diff = abs(team_goals - opp_goals)
-        if diff > 2:
+        max_in_game_diff = _max_in_game_goal_diff(events, team)
+        if max_in_game_diff > 2:
             points += _points_from_final_score(
                 team_goals,
                 opp_goals,
@@ -976,15 +990,14 @@ def stat_close_game_win(events: pd.DataFrame, team: str):
     close_game_win = 0
     last_goal = _last_goal_event(events)
     if last_goal is not None:
+        max_in_game_diff = _max_in_game_goal_diff(events, team)
         if team == last_goal['home_team_name']:
-            diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
             team_goals = last_goal['home_goals']
             opp_goals = last_goal['guest_goals']
         else:
-            diff = abs(last_goal['guest_goals'] - last_goal['home_goals'])
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
-        if diff < 3 and team_goals > opp_goals:
+        if max_in_game_diff < 3 and team_goals > opp_goals:
             close_game_win += 1
     return close_game_win
 
@@ -992,15 +1005,14 @@ def stat_close_game_loss(events: pd.DataFrame, team: str):
     close_game_loss = 0
     last_goal = _last_goal_event(events)
     if last_goal is not None:
+        max_in_game_diff = _max_in_game_goal_diff(events, team)
         if team == last_goal['home_team_name']:
-            diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
             team_goals = last_goal['home_goals']
             opp_goals = last_goal['guest_goals']
         else:
-            diff = abs(last_goal['guest_goals'] - last_goal['home_goals'])
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
-        if diff < 3 and team_goals < opp_goals:
+        if max_in_game_diff < 3 and team_goals < opp_goals:
             close_game_loss += 1
     return close_game_loss
 
@@ -1008,17 +1020,16 @@ def stat_close_game_overtime(events: pd.DataFrame, team: str):
     close_game_ot = 0
     last_goal = _last_goal_event(events)
     if last_goal is not None:
+        max_in_game_diff = _max_in_game_goal_diff(events, team)
         if team == last_goal['home_team_name']:
-            diff = abs(last_goal['home_goals'] - last_goal['guest_goals'])
             team_goals = last_goal['home_goals']
             opp_goals = last_goal['guest_goals']
             period = last_goal['period']
         else:
-            diff = abs(last_goal['guest_goals'] - last_goal['home_goals'])
             team_goals = last_goal['guest_goals']
             opp_goals = last_goal['home_goals']
             period = last_goal['period']
-        if diff < 3 and team_goals != opp_goals and _is_extra_time_period(period):
+        if max_in_game_diff < 3 and team_goals != opp_goals and int(period) == 4:
             close_game_ot += 1
     return close_game_ot
 
