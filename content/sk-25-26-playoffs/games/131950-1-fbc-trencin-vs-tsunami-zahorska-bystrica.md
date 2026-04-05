@@ -311,7 +311,7 @@ home_pregame_points_after_first_period_per_game: 1.57
 home_pregame_points_after_second_period: 11
 home_pregame_points_after_third_period: 15
 home_pregame_points_against_fbk_nizna: 8
-home_pregame_points_against_sk_lido_prirodovedec_bratislava: 3
+home_pregame_points_against_sk_lido_prirodovedec_bratislava: 6
 home_pregame_points_against_tsunami_zahorska_bystrica: 11
 home_pregame_points_max_difference_2: 6
 home_pregame_points_more_2_difference: 10

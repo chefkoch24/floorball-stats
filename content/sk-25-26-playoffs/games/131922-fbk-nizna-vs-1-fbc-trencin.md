@@ -409,7 +409,7 @@ away_pregame_points_after_first_period_per_game: 2.0
 away_pregame_points_after_second_period: 4
 away_pregame_points_after_third_period: 6
 away_pregame_points_against_fbk_nizna: 8
-away_pregame_points_against_sk_lido_prirodovedec_bratislava: 3
+away_pregame_points_against_sk_lido_prirodovedec_bratislava: 6
 away_pregame_points_against_tsunami_zahorska_bystrica: 11
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 6

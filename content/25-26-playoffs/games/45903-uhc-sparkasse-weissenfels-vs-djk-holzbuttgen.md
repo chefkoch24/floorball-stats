@@ -310,7 +310,7 @@ home_pregame_points_after_first_period: 3
 home_pregame_points_after_first_period_per_game: 3.0
 home_pregame_points_after_second_period: 1
 home_pregame_points_after_third_period: 1
-home_pregame_points_against_djk_holzbuttgen: 4
+home_pregame_points_against_djk_holzbuttgen: 6
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 0
 home_pregame_points_per_game: 1.0
@@ -408,7 +408,7 @@ away_pregame_points_after_first_period: 0
 away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 1
 away_pregame_points_after_third_period: 1
-away_pregame_points_against_uhc_sparkasse_weissenfels: 2
+away_pregame_points_against_uhc_sparkasse_weissenfels: 3
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 2.0

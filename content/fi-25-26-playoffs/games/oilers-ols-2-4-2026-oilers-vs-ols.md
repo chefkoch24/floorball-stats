@@ -310,7 +310,7 @@ home_pregame_points_after_first_period: 9
 home_pregame_points_after_first_period_per_game: 2.25
 home_pregame_points_after_second_period: 9
 home_pregame_points_after_third_period: 6
-home_pregame_points_against_ols: 9
+home_pregame_points_against_ols: 12
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 1.5
