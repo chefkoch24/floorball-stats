@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-03-25
 Title: Hawks
 Category: fi-25-26-regular-season, teams
 Slug: hawks-fi-25-26-regular-season-fi-25-26-regular-season

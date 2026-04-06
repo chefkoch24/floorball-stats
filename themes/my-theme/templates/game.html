@@ -331,28 +331,18 @@ const decodeGoalEvents = (raw) => {
 const gameEventsTimeline = document.getElementById('gameEventsTimeline');
 if (gameEventsTimeline) {
   const siteBase = "{{ SITEURL }}";
-  const playerSeasonPhase = "{{ article.categories[0].shortname if article.categories else '' }}";
-  const playerLeagueSuffix = playerSeasonPhase.startsWith('se-') ? '-sweden-ssl' : '';
   const escapeHtml = (value) => String(value || '')
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
-  const slugifyFragment = (value) => String(value || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replaceAll('&', ' and ')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-  const renderPlayerLink = (name) => {
+  const renderPlayerLink = (name, uid) => {
     const raw = String(name || '').trim();
-    if (!raw || !playerSeasonPhase) return escapeHtml(raw);
-    const slug = slugifyFragment(`${raw}${playerLeagueSuffix}`);
-    if (!slug) return escapeHtml(raw);
-    return `<a href="${siteBase}/${slug}.html">${escapeHtml(raw)}</a>`;
+    const playerUid = String(uid || '').trim();
+    if (!raw) return escapeHtml(raw);
+    if (!playerUid) return escapeHtml(raw);
+    return `<a href="${siteBase}/${playerUid}.html">${escapeHtml(raw)}</a>`;
   };
 
   const gameEvents = decodeGoalEvents(gameEventsTimeline.dataset.eventsB64 || '');
@@ -375,7 +365,7 @@ if (gameEventsTimeline) {
       }
 
       const assistLine = event.assist
-        ? `<p class="event-timeline__assist">${event.event_kind === 'penalty' ? 'Player' : 'Assist'}: ${renderPlayerLink(event.assist)}</p>`
+        ? `<p class="event-timeline__assist">${event.event_kind === 'penalty' ? 'Player' : 'Assist'}: ${renderPlayerLink(event.assist, event.assist_uid)}</p>`
         : '';
       const tag = event.tag && !['goal', 'penalty', 'penalty_2'].includes(event.tag)
         ? `<span class="event-timeline__tag">${escapeHtml(event.tag.replaceAll('_', ' '))}</span>`
@@ -384,7 +374,7 @@ if (gameEventsTimeline) {
         ? `<span class="event-timeline__score">${escapeHtml(event.score)}</span>`
         : '';
       const headline = event.event_kind === 'goal'
-        ? renderPlayerLink(event.title)
+        ? renderPlayerLink(event.title, event.title_uid)
         : escapeHtml(event.title);
       return `
         <article class="event-timeline__item event-timeline__item--${event.side} event-timeline__item--${event.event_kind}">

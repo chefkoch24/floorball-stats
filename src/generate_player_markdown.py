@@ -83,7 +83,7 @@ def _phase_priority(phase: str) -> int:
 
 def _canonical_player_uid(row: dict[str, str], player: str) -> str:
     existing = row.get("player_uid", "").strip()
-    if existing and existing.startswith("player_"):
+    if existing and (existing.startswith("player-") or existing.startswith("player_")):
         return existing.lower()
     normalized_player = normalize_slug_fragment(player)
     if normalized_player:

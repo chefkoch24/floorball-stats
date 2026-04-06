@@ -15,12 +15,17 @@ boxplay_second_period: 19
 boxplay_third_period: 17
 close_game_loss: 3
 close_game_overtime: 2
+close_game_points_per_game: 0.67
+close_game_points_share: 22.220000000000002
 close_game_win: 1
+close_games: 6
 draws: 0
 equalizer_goals: 13
 equalizer_goals_against: 20
 first_goal_of_match: 15
 first_goal_of_match_against: 5
+first_period_goals_against_per_game: 0.75
+first_period_goals_per_game: 2.15
 games: 20
 goal_difference: 51
 goal_difference_per_game: 2.55
@@ -29,6 +34,7 @@ goals_against: 92
 goals_against_away: 55
 goals_against_home: 37
 goals_against_in_boxplay: 15
+goals_against_in_boxplay_per_game: 0.75
 goals_against_in_powerplay: 2
 goals_against_per_game: 4.6
 goals_away: 63
@@ -52,6 +58,7 @@ losses: 3
 over_time_losses: 2
 over_time_wins: 3
 penalties: 40
+penalties_per_game: 2.0
 penalty_10: 1
 penalty_2: 36
 penalty_2and2: 3
@@ -77,6 +84,7 @@ points_after_55_min: 43
 points_after_58_min: 42
 points_after_59_min: 42
 points_after_first_period: 45
+points_after_first_period_per_game: 2.25
 points_after_second_period: 41
 points_after_third_period: 37
 Tags:  Berlin Rockets: 6,  Blau-Weiß 96 Schenefeld: 4,  DJK Holzbüttgen: 4,  ETV Piranhhas Hamburg: 3,  MFBC Leipzig: 1,  SC DHfK Leipzig: 4,  SC Potsdam: 6,  SSF Dragons Bonn: 3,  UHC Sparkasse Weißenfels: 6,  Unihockey Igels Dresden: 4,

@@ -10,7 +10,7 @@ from src.social_media.tables import write_home_away_split_table
 from src.scheduled_games import EVENT_SCHEDULED
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
-from src.utils import add_penalties, is_powerplay, is_boxplay, safe_div
+from src.utils import add_penalties, is_powerplay, is_boxplay, normalize_slug_fragment, safe_div
 
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
@@ -329,6 +329,57 @@ def _json_scalar(value: object) -> object:
     return value
 
 
+def _normalize_player_key(name: object) -> str:
+    return normalize_slug_fragment(str(name or "").strip())
+
+
+def _load_player_uid_lookup(player_stats_csv: Path, season: Optional[str], phase: Optional[str]) -> tuple[dict[tuple[str, str], str], dict[str, str]]:
+    exact_lookup: dict[tuple[str, str], str] = {}
+    fallback_candidates: dict[str, set[str]] = {}
+    if not player_stats_csv.exists():
+        return exact_lookup, {}
+
+    player_df = pd.read_csv(player_stats_csv, dtype=str).fillna("")
+    if season:
+        player_df = player_df[player_df["season"].astype(str).str.strip() == str(season).strip()]
+    if phase:
+        player_df = player_df[player_df["phase"].astype(str).str.strip() == str(phase).strip()]
+
+    for _, row in player_df.iterrows():
+        uid = str(row.get("player_uid", "")).strip()
+        player_key = _normalize_player_key(row.get("player", ""))
+        team_key = _team_identity_key(row.get("team", ""))
+        if not uid or not player_key:
+            continue
+        if team_key:
+            exact_lookup.setdefault((team_key, player_key), uid)
+        fallback_candidates.setdefault(player_key, set()).add(uid)
+
+    fallback_lookup = {
+        player_key: next(iter(uids))
+        for player_key, uids in fallback_candidates.items()
+        if len(uids) == 1
+    }
+    return exact_lookup, fallback_lookup
+
+
+def _resolve_player_uid(
+    name: object,
+    team: object,
+    exact_lookup: dict[tuple[str, str], str],
+    fallback_lookup: dict[str, str],
+) -> Optional[str]:
+    player_key = _normalize_player_key(name)
+    if not player_key:
+        return None
+    team_key = _team_identity_key(team)
+    if team_key:
+        exact = exact_lookup.get((team_key, player_key))
+        if exact:
+            return exact
+    return fallback_lookup.get(player_key)
+
+
 def _display_minute_for_event(event: pd.Series) -> str:
     period = _to_int_or_zero(event.get("period"))
     sortkey = str(event.get("sortkey") or "")
@@ -388,7 +439,13 @@ def _is_scheduled_game(game_df: pd.DataFrame) -> bool:
     return _played_events_only(game_df).empty
 
 
-def _build_game_events_payload(game_df: pd.DataFrame, home_team: str, away_team: str) -> dict[str, object]:
+def _build_game_events_payload(
+    game_df: pd.DataFrame,
+    home_team: str,
+    away_team: str,
+    exact_player_lookup: dict[tuple[str, str], str],
+    fallback_player_lookup: dict[str, str],
+) -> dict[str, object]:
     relevant_events = game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY])].copy()
     if relevant_events.empty:
         return {"game_events_b64": "", "game_events_count": 0}
@@ -421,12 +478,16 @@ def _build_game_events_payload(game_df: pd.DataFrame, home_team: str, away_team:
             scorer_number = _clean_optional_player_ref(event.get("scorer_number"))
             assist_name = _clean_nullable_text(event.get("assist_name"))
             assist_number = _clean_optional_player_ref(event.get("assist_number"))
+            scorer_label = scorer_name or scorer_number or "Unknown"
+            assist_label = assist_name or assist_number
             payload.append(
                 {
                     **base_event,
                     "event_kind": "goal",
-                    "title": scorer_name or scorer_number or "Unknown",
-                    "assist": assist_name or assist_number,
+                    "title": scorer_label,
+                    "title_uid": _resolve_player_uid(scorer_label, event_team, exact_player_lookup, fallback_player_lookup),
+                    "assist": assist_label,
+                    "assist_uid": _resolve_player_uid(assist_label, event_team, exact_player_lookup, fallback_player_lookup),
                     "tag": _clean_nullable_text(event.get("goal_type")) or "goal",
                 }
             )
@@ -438,6 +499,7 @@ def _build_game_events_payload(game_df: pd.DataFrame, home_team: str, away_team:
                     "event_kind": "penalty",
                     "title": _penalty_type_label(event.get("penalty_type")),
                     "assist": penalty_player_name,
+                    "assist_uid": _resolve_player_uid(penalty_player_name, event_team, exact_player_lookup, fallback_player_lookup),
                     "tag": _clean_nullable_text(event.get("penalty_type")) or "penalty",
                 }
             )
@@ -1609,6 +1671,11 @@ def run_stats_pipeline(
         return prepared
 
     df = _prepare_df(pd.read_csv(input_csv_path))
+    exact_player_lookup, fallback_player_lookup = _load_player_uid_lookup(
+        Path(input_csv_path).resolve().parent / "player_stats.csv",
+        season=season,
+        phase=phase,
+    )
     teams = list(df["home_team_name"].unique()) + list(df["away_team_name"].unique())
     teams = np.unique(teams)
     engine = build_engine()
@@ -1845,7 +1912,15 @@ def run_stats_pipeline(
         }
         game_stat.update(pregame_h2h_stats)
         game_stat.update(_build_gameflow_timeline(played_game_df, home_team, away_team))
-        game_stat.update(_build_game_events_payload(played_game_df, home_team, away_team))
+        game_stat.update(
+            _build_game_events_payload(
+                played_game_df,
+                home_team,
+                away_team,
+                exact_player_lookup,
+                fallback_player_lookup,
+            )
+        )
         game_stats.append(game_stat)
         if not is_scheduled:
             played_game_stats.append(game_stat)

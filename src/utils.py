@@ -100,7 +100,7 @@ def generate_player_uid(*parts: object) -> str:
     if not normalized_parts:
         raise ValueError("generate_player_uid requires at least one non-empty part")
     digest = hashlib.sha1("::".join(normalized_parts).encode("utf-8")).hexdigest()[:16]
-    return f"player_{digest}"
+    return f"player-{digest}"
 
 
 def flatten_team_stats(stats_dict, prefix):
