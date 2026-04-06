@@ -73,6 +73,7 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'ch-25-26-playoffs/games',
                  'ch-25-26-playoffs/liga',
                  'players',
+                 'player-stats',
                  ] # add season links here for teams and liga
 STATIC_PATHS = ARTICLE_PATHS
 
@@ -137,44 +138,62 @@ def string_in_category_path(article, string_to_check):
 
 def category2string(slug):
     slug = slug.split('-')
+    is_players = bool(slug) and slug[-1] == 'players'
+    if is_players:
+        slug = slug[:-1]
+    if not slug:
+        return 'Players'
     if slug[0] in {'se', 'sweden'}:
         label = 'Sweden'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     if slug[0] in {'ch', 'switzerland'}:
         label = 'Switzerland'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     if slug[0] in {'cz', 'czech'}:
         label = 'Czech Republic'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     if slug[0] in {'fi', 'finland'}:
         label = 'Finland'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     if slug[0] in {'lv', 'latvia'}:
         label = 'Latvia'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     if slug[0] in {'sk', 'slovakia'}:
         label = 'Slovakia'
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            return f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-        return f"{label} " + " ".join([s.capitalize() for s in rest])
+            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
+            return f"{base} Player Stats" if is_players else base
+        base = f"{label} " + " ".join([s.capitalize() for s in rest])
+        return f"{base} Player Stats" if is_players else base
     slug = [s.capitalize() for s in slug]
-    return f'{slug[0]}/' + " ".join(slug[1:])
+    base = f'{slug[0]}/' + " ".join(slug[1:])
+    return f"{base} Player Stats" if is_players else base
 
 def category2title(slug):
     slug = slug.split('-')
@@ -182,6 +201,11 @@ def category2title(slug):
 
 def category2breadcrumb(slug):
     parts = slug.split('-')
+    is_players = bool(parts) and parts[-1] == 'players'
+    if is_players:
+        parts = parts[:-1]
+    if not parts:
+        return 'Players'
     country_map = {
         'se': 'Sweden',
         'sweden': 'Sweden',
@@ -205,9 +229,10 @@ def category2breadcrumb(slug):
 
     if len(season_parts) == 2 and season_parts[0].isdigit() and season_parts[1].isdigit():
         season = f"{season_parts[0]}/{season_parts[1]}"
-        return f"{country} {phase_label} {season}"
+        base = f"{country} {phase_label} {season}"
+        return f"{base} Player Stats" if is_players else base
 
-    return country
+    return f"{country} Player Stats" if is_players else country
 
 
 def sort_by_rank(articles):

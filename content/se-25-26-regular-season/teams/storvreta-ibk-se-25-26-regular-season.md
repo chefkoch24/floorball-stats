@@ -14,13 +14,18 @@ boxplay_per_game: 1.23
 boxplay_second_period: 11
 boxplay_third_period: 9
 close_game_loss: 3
-close_game_overtime: 5
-close_game_win: 6
+close_game_overtime: 4
+close_game_points_per_game: 1.17
+close_game_points_share: 38.89
+close_game_win: 5
+close_games: 12
 draws: 0
 equalizer_goals: 16
 equalizer_goals_against: 20
 first_goal_of_match: 15
 first_goal_of_match_against: 11
+first_period_goals_against_per_game: 1.15
+first_period_goals_per_game: 1.77
 games: 26
 goal_difference: 111
 goal_difference_per_game: 4.27
@@ -29,10 +34,11 @@ goals_against: 76
 goals_against_away: 40
 goals_against_home: 36
 goals_against_in_boxplay: 10
+goals_against_in_boxplay_per_game: 0.38
 goals_against_in_powerplay: 1
 goals_against_per_game: 2.92
-goals_away: 89
-goals_home: 98
+goals_away: 85
+goals_home: 97
 goals_in_boxplay: 1
 goals_in_first_period: 46
 goals_in_first_period_against: 30
@@ -52,6 +58,7 @@ losses: 1
 over_time_losses: 2
 over_time_wins: 2
 penalties: 35
+penalties_per_game: 1.35
 penalty_10: 0
 penalty_2: 32
 penalty_2and2: 0
@@ -77,11 +84,12 @@ points_after_55_min: 68
 points_after_58_min: 69
 points_after_59_min: 67
 points_after_first_period: 47
+points_after_first_period_per_game: 1.81
 points_after_second_period: 64
 points_after_third_period: 65
 Tags:  AIK IBF: 4,  FBC Kalmarsund: 5,  Hovslätts IK: 5,  IBF Falun: 5,  Jönköpings IK: 6,  Linköping IBK: 4,  Mullsjö AIS: 6,  Nykvarns IBF: 6,  Pixbo IBK: 3,  Strängnäs IBK: 6,  Visby IBK: 6,  Växjö IBK: 6,  Warberg IC: 6,
-points_max_difference_2: 17
-points_more_2_difference: 51
+points_max_difference_2: 14
+points_more_2_difference: 54
 points_per_game: 2.62
 powerplay: 24
 powerplay_efficiency: 66.67

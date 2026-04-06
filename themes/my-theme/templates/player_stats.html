@@ -1,0 +1,53 @@
+{% set player_rows = article.player_rows_csv.split('||') if article.player_rows_csv else [] %}
+
+<section class="hero">
+    <div class="hero-top">
+        <div>
+            <h1 class="hero-title">{{ article.title }}</h1>
+            <p class="hero-subtitle">Complete season ranking table with links to canonical player profiles.</p>
+        </div>
+    </div>
+    <div class="chip-row">
+        {% if article.league %}<span class="chip">League: {{ article.league }}</span>{% endif %}
+        {% if article.season %}<span class="chip">Season: {{ article.season }}</span>{% endif %}
+        {% if article.phase %}<span class="chip">Phase: {{ article.phase|replace('-', ' ')|title }}</span>{% endif %}
+        <span class="chip">Players: {{ article.player_count|default(player_rows|length) }}</span>
+    </div>
+</section>
+
+<section class="panel">
+    <h2 class="panel-title">All Players</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Games</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>PIM</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in player_rows %}
+                {% set cols = row.split('|') %}
+                {% if cols|length >= 9 %}
+                <tr>
+                    <td>{{ cols[0] }}</td>
+                    <td><a href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a></td>
+                    <td>{{ cols[3] }}</td>
+                    <td>{{ cols[4] }}</td>
+                    <td>{{ cols[5] }}</td>
+                    <td>{{ cols[6] }}</td>
+                    <td>{{ cols[7] }}</td>
+                    <td>{{ cols[8] }}</td>
+                </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>

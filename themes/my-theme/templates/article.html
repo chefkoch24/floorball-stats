@@ -15,6 +15,10 @@
     {% set seo_title = team_name ~ ' Stats, Results and Special Teams | ' ~ category_label ~ ' | ' ~ SITENAME %}
     {% set seo_description = 'Season stats, results, special teams, scoring profile, and recent games for ' ~ team_name ~ ' in ' ~ category_label ~ '.' %}
     {% set seo_type = 'article' %}
+{% elif article_type == "player_stats" %}
+    {% set seo_title = article.title ~ ' | ' ~ SITENAME %}
+    {% set seo_description = 'Season-wide player rankings and full stat tables for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+    {% set seo_type = 'article' %}
 {% elif article_type == "player" or article|string_in_category_path('players') %}
     {% set player_name = article.player|default(article.title) %}
     {% set seo_title = player_name ~ ' Player Stats | ' ~ SITENAME %}
@@ -44,6 +48,8 @@
             {{ article.home_team }} vs {{ article.away_team }}
         {% elif article_type == "team" or article|string_in_category_path('teams') %}
             {{ article.team|default(article.title) }}
+        {% elif article_type == "player_stats" %}
+            {{ article.title }}
         {% elif article_type == "player" or article|string_in_category_path('players') %}
             {{ article.player|default(article.title) }}
         {% else %}
@@ -124,6 +130,16 @@
   "description": "Season team profile for {{ article.team|default(article.title) }} with results, scoring, special teams, and game history."
 }
 </script>
+{% elif article_type == "player_stats" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "{{ article.title }}",
+  "url": "{{ SITEURL }}/{{ article.url }}",
+  "description": "Season player rankings and stat table for {{ category_label }}."
+}
+</script>
 {% elif article_type == "player" or article|string_in_category_path('players') %}
 <script type="application/ld+json">
 {
@@ -144,6 +160,8 @@
     {% include "game.html" %}
 {% elif article_type == "team" or article|string_in_category_path('teams') %}
     {% include "team.html" %}
+{% elif article_type == "player_stats" %}
+    {% include "player_stats.html" %}
 {% elif article_type == "player" or article|string_in_category_path('players') %}
     {% include "player.html" %}
 {% elif article|string_in_category_path('liga') %}

@@ -426,7 +426,7 @@ away_pregame_points_against_sc_dhfk_leipzig: 6
 away_pregame_points_against_sc_potsdam: 6
 away_pregame_points_against_ssf_dragons_bonn: 2
 away_pregame_points_against_uhc_sparkasse_weissenfels: 3
-away_pregame_points_against_unihockey_igels_dresden: 9
+away_pregame_points_against_unihockey_igels_dresden: 12
 away_pregame_points_max_difference_2: 6
 away_pregame_points_more_2_difference: 41
 away_pregame_points_per_game: 2.35

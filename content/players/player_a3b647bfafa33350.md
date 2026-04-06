@@ -1,0 +1,47 @@
+Date: 2026-04-06
+Title: Jan Sitora
+Category: players
+Slug: player_a3b647bfafa33350
+type: player
+player: Jan Sitora
+player_uid: player_a3b647bfafa33350
+team: 1. SC NATIOS Vítkovice
+league: Czech Republic
+season_count: 1
+current_season: cz-25-26
+previous_season: n.a.
+current_games: 18
+current_goals: 10
+current_assists: 6
+current_points: 16
+current_pim: 8
+regular_games: 14
+regular_goals: 8
+regular_assists: 3
+regular_points: 11
+regular_pim: 6
+playoff_games: 4
+playoff_goals: 2
+playoff_assists: 3
+playoff_points: 5
+playoff_pim: 2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 18
+career_goals: 10
+career_assists: 6
+career_points: 16
+career_pim: 8
+history_rows_csv: cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|3|2|3|5|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|1|0|0|0|2||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|11|8|3|11|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|3|0|0|0|6
+assists: 3
+games: 3
+goals: 2
+penalties: 0
+phase: playoffs
+pim: 0
+points: 5
+rank: 43
+season: cz-25-26

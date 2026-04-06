@@ -86,10 +86,10 @@ make refresh-finland-smart
 
 ## Player pages from CSV
 
-Build Swedish player stats CSV (all available Sweden season files) and generate unique player pages:
+Build player stats CSV for all available leagues and generate unique player pages plus season player-stats indexes:
 
 ```bash
-make refresh-player-stats-sweden
+make refresh-player-stats
 make refresh-player-pages
 ```
 
@@ -97,6 +97,9 @@ Player pages are canonical per player (`player_uid`) and include:
 - current season totals
 - current regular-season and playoffs splits
 - previous season totals (when older season CSVs exist in `data/`)
+- merged season history across leagues when the same player name appears in multiple league files
+
+Season player-stats category pages are also generated, so season pages can show the top 10 players plus a link to the full ranking table.
 
 Then build or serve the site as usual:
 

@@ -3,19 +3,133 @@ from pathlib import Path
 import re
 
 import pandas as pd
+import requests
 
-from src.utils import normalize_slug_fragment
+from src.utils import generate_player_uid, normalize_slug_fragment
 
 
 FILE_PATTERN = re.compile(r"^data_(se-\d{2}-\d{2})_(regular_season|playoffs)\.csv$")
+STARTKIT_URL = "https://api.innebandy.se/StatsAppApi/api/startkit"
+DEFAULT_API_ROOT = "https://api.innebandy.se/v2/api/"
 
 
 def _phase_from_file_token(token: str) -> str:
     return "regular-season" if token == "regular_season" else token
 
 
-def _player_uid(player: str) -> str:
+def _player_uid(player: str, source_player_id: int | None = None) -> str:
+    if source_player_id:
+        return generate_player_uid("sweden", "player", int(source_player_id))
     return normalize_slug_fragment(f"{player}-sweden-ssl")
+
+
+def _get_api_root_and_headers() -> tuple[str, dict[str, str]]:
+    payload = requests.get(STARTKIT_URL, timeout=30).json()
+    api_root = payload.get("apiRoot") or DEFAULT_API_ROOT
+    token = payload.get("accessToken")
+    if not token:
+        raise RuntimeError("Startkit response did not include accessToken")
+    return api_root, {"Authorization": f"Bearer {token}"}
+
+
+def _fetch_player_statistics_for_competition(competition_id: int) -> list[dict]:
+    api_root, headers = _get_api_root_and_headers()
+    response = requests.get(f"{api_root}competitions/{competition_id}/playerstatistics", headers=headers, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
+    return payload.get("PlayerStatisticsRows") or []
+
+
+def _fetch_match_lineups(match_id: int, api_root: str, headers: dict[str, str]) -> dict:
+    response = requests.get(f"{api_root}matches/{match_id}/lineups", headers=headers, timeout=30)
+    response.raise_for_status()
+    return response.json()
+
+
+def _rows_from_match_lineups(
+    match_ids: list[int],
+    season: str,
+    phase: str,
+    league: str = "Sweden SSL",
+) -> pd.DataFrame:
+    api_root, headers = _get_api_root_and_headers()
+    records: list[dict] = []
+    for match_id in sorted(set(match_ids)):
+        lineups = _fetch_match_lineups(match_id, api_root=api_root, headers=headers)
+        team_name_by_id = {
+            int(lineups.get("HomeTeamID") or 0): str(lineups.get("HomeTeam") or "").strip(),
+            int(lineups.get("AwayTeamID") or 0): str(lineups.get("AwayTeam") or "").strip(),
+        }
+        for side in ["HomeTeamPlayers", "AwayTeamPlayers"]:
+            for row in lineups.get(side, []) or []:
+                player = str(row.get("Name") or "").strip()
+                if not player:
+                    continue
+                team_id = int(row.get("TeamID") or 0)
+                team_name = team_name_by_id.get(team_id) or str(row.get("LicensedAssociationName") or "").strip()
+                goals = int(row.get("Goals") or 0)
+                assists = int(row.get("Assists") or 0)
+                points = int(row.get("Points") or goals + assists)
+                pim = int(row.get("PenaltyMinutes") or 0)
+                records.append(
+                    {
+                        "player_uid": _player_uid(player, row.get("PlayerID")),
+                        "source_system": "sweden",
+                        "source_player_id": int(row.get("PlayerID") or 0),
+                        "player": player,
+                        "title": player,
+                        "slug": normalize_slug_fragment(f"{player}-{season}-{phase}"),
+                        "category": f"{season}-{phase}, players",
+                        "team": team_name,
+                        "league": league,
+                        "season": season,
+                        "phase": phase,
+                        "games": int(row.get("Matches") or 0) or 1,
+                        "goals": goals,
+                        "assists": assists,
+                        "points": points,
+                        "pim": pim,
+                        "penalties": pim // 2,
+                    }
+                )
+
+    stats = pd.DataFrame.from_records(records)
+    if stats.empty:
+        return stats
+
+    stats = (
+        stats.groupby(
+            ["player_uid", "source_system", "source_player_id", "player", "title", "slug", "category", "team", "league", "season", "phase"],
+            as_index=False,
+        )[
+            ["games", "goals", "assists", "points", "pim", "penalties"]
+        ]
+        .sum()
+    )
+    stats = stats.sort_values(["points", "goals", "assists"], ascending=[False, False, False]).reset_index(drop=True)
+    stats["rank"] = stats.index + 1
+    return stats[
+        [
+            "player_uid",
+            "source_system",
+            "source_player_id",
+            "player",
+            "title",
+            "slug",
+            "category",
+            "team",
+            "league",
+            "season",
+            "phase",
+            "rank",
+            "games",
+            "goals",
+            "assists",
+            "points",
+            "pim",
+            "penalties",
+        ]
+    ]
 
 
 def _build_context_rows(path: Path, season: str, phase: str) -> pd.DataFrame:
@@ -63,6 +177,8 @@ def _build_context_rows(path: Path, season: str, phase: str) -> pd.DataFrame:
 
     stats = stats.sort_values(["points", "goals", "assists"], ascending=[False, False, False]).reset_index(drop=True)
     stats["rank"] = stats.index + 1
+    stats["source_system"] = ""
+    stats["source_player_id"] = 0
     stats["player_uid"] = stats["player"].apply(_player_uid)
     stats["league"] = "Sweden SSL"
     stats["season"] = season
@@ -77,6 +193,8 @@ def _build_context_rows(path: Path, season: str, phase: str) -> pd.DataFrame:
     return stats[
         [
             "player_uid",
+            "source_system",
+            "source_player_id",
             "player",
             "title",
             "slug",
@@ -106,7 +224,17 @@ def build_sweden_player_stats(data_dir: str, output_csv: str) -> int:
             continue
         season, phase_token = match.groups()
         phase = _phase_from_file_token(phase_token)
-        context_rows = _build_context_rows(candidate, season=season, phase=phase)
+        try:
+            match_ids = (
+                pd.read_csv(candidate, usecols=["game_id"])["game_id"]
+                .dropna()
+                .astype(int)
+                .drop_duplicates()
+                .tolist()
+            )
+            context_rows = _rows_from_match_lineups(match_ids, season=season, phase=phase)
+        except Exception:
+            context_rows = _build_context_rows(candidate, season=season, phase=phase)
         all_rows.append(context_rows)
 
     if not all_rows:

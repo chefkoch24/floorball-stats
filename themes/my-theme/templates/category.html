@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 {% set category_label = category.shortname | category2string %}
 {% set breadcrumb_category_label = category.shortname | category2breadcrumb %}
+{% set is_player_stats = category.shortname.split('-')[-1] == 'players' %}
+{% if is_player_stats %}
+{% set seo_title = category_label ~ ' | ' ~ SITENAME %}
+{% set seo_description = 'Season-wide player rankings, scoring totals, and full stat tables for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% else %}
 {% set seo_title = category_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
 {% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% endif %}
 {% set seo_type = 'website' %}
 {% set seo_canonical_path = category.url %}
 
@@ -40,7 +46,30 @@
 {% endblock %}
 
 {% block content %}
-{% set ns = namespace(team_count=0, player_count=0, game_count=0, upcoming_count=0, top_team=None) %}
+{% set player_stats = namespace(article=None, player_count=0) %}
+{% if is_player_stats %}
+    {% for candidate in articles_page.object_list %}
+        {% if candidate.type == 'player_stats' %}
+            {% set player_stats.article = candidate %}
+            {% set player_stats.player_count = candidate.player_count|default(0)|int %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% set target_player_category = category.shortname ~ '-players' %}
+    {% for stats_category, stats_articles in categories %}
+        {% if stats_category.shortname == target_player_category %}
+            {% for candidate in stats_articles %}
+                {% if candidate.type == 'player_stats' %}
+                    {% set player_stats.article = candidate %}
+                    {% set player_stats.player_count = candidate.player_count|default(0)|int %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% set player_rows = player_stats.article.player_rows_csv.split('||') if player_stats.article and player_stats.article.player_rows_csv else [] %}
+
+{% set ns = namespace(team_count=0, game_count=0, upcoming_count=0, top_team=None) %}
 {% set is_playoffs = 'playoffs' in category.shortname %}
 {% for candidate in articles_page.object_list | sort_by_rank %}
     {% if candidate|string_in_category_path('teams') %}
@@ -49,15 +78,12 @@
             {% set ns.top_team = candidate %}
         {% endif %}
     {% endif %}
-    {% if candidate.type == 'player' or candidate|string_in_category_path('players') %}
-        {% set ns.player_count = ns.player_count + 1 %}
-    {% endif %}
     {% if candidate.type == 'game' %}
         {% set game_state = candidate.game_state|default('played')|string|lower %}
         {% if game_state == 'scheduled' %}
             {% set ns.upcoming_count = ns.upcoming_count + 1 %}
         {% else %}
-        {% set ns.game_count = ns.game_count + 1 %}
+            {% set ns.game_count = ns.game_count + 1 %}
         {% endif %}
     {% endif %}
 {% endfor %}
@@ -66,17 +92,59 @@
     <div class="hero-top">
         <div>
             <h1 class="hero-title">{{ category_label }}</h1>
-            <p class="hero-subtitle">Season performance overview with direct access to team, league, and game data.</p>
+            <p class="hero-subtitle">{% if is_player_stats %}Season-wide player rankings with links to unique player profiles.{% else %}Season performance overview with direct access to team, league, game, and player data.{% endif %}</p>
         </div>
     </div>
     <div class="chip-row">
+        {% if is_player_stats %}
+        <span class="chip">Players: {{ player_stats.player_count|default(player_rows|length) }}</span>
+        {% else %}
         <span class="chip">Teams: {{ ns.team_count }}</span>
-        {% if ns.player_count > 0 %}
-        <span class="chip">Players: {{ ns.player_count }}</span>
+        {% if player_stats.article %}
+        <span class="chip">Players: {{ player_stats.player_count|default(player_rows|length) }}</span>
+        {% endif %}
         {% endif %}
     </div>
 </section>
 
+{% if is_player_stats and player_stats.article %}
+<section class="panel">
+    <h2 class="panel-title">All Players</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Games</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Points</th>
+                <th>PIM</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in player_rows %}
+                {% set cols = row.split('|') %}
+                {% if cols|length >= 9 %}
+                <tr>
+                    <td>{{ cols[0] }}</td>
+                    <td><a href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a></td>
+                    <td>{{ cols[3] }}</td>
+                    <td>{{ cols[4] }}</td>
+                    <td>{{ cols[5] }}</td>
+                    <td>{{ cols[6] }}</td>
+                    <td>{{ cols[7] }}</td>
+                    <td>{{ cols[8] }}</td>
+                </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% else %}
 <section class="panel">
     <h2 class="panel-title">Standings</h2>
     <div class="table-wrapper">
@@ -115,7 +183,7 @@
     </div>
 </section>
 
-{% if ns.player_count > 0 %}
+{% if player_stats.article %}
 <section class="panel">
     <h2 class="panel-title">Top Players</h2>
     <div class="table-wrapper">
@@ -133,23 +201,29 @@
             </tr>
             </thead>
             <tbody>
-            {% for candidate in articles_page.object_list | sort_by_rank %}
-            {% if candidate.type == 'player' or candidate|string_in_category_path('players') %}
-            <tr>
-                <td>{{ candidate.rank|default('–') }}</td>
-                <td><a href="{{ SITEURL }}/{{ candidate.url }}">{{ candidate.player|default(candidate.title) }}</a></td>
-                <td>{{ candidate.team|default('–') }}</td>
-                <td>{{ candidate.games|default('–') }}</td>
-                <td>{{ candidate.goals|default('–') }}</td>
-                <td>{{ candidate.assists|default('–') }}</td>
-                <td>{{ candidate.points|default('–') }}</td>
-                <td>{{ candidate.pim|default('–') }}</td>
-            </tr>
-            {% endif %}
+            {% for row in player_rows[:10] %}
+                {% set cols = row.split('|') %}
+                {% if cols|length >= 9 %}
+                <tr>
+                    <td>{{ cols[0] }}</td>
+                    <td><a href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a></td>
+                    <td>{{ cols[3] }}</td>
+                    <td>{{ cols[4] }}</td>
+                    <td>{{ cols[5] }}</td>
+                    <td>{{ cols[6] }}</td>
+                    <td>{{ cols[7] }}</td>
+                    <td>{{ cols[8] }}</td>
+                </tr>
+                {% endif %}
             {% endfor %}
             </tbody>
         </table>
     </div>
+    {% if player_rows|length > 10 %}
+    <div class="panel-actions">
+        <a class="button-link" href="{{ SITEURL }}/{{ player_stats.article.category.url }}">More Player Stats</a>
+    </div>
+    {% endif %}
 </section>
 {% endif %}
 
@@ -294,6 +368,8 @@
     {% endif %}
 </section>
 {% endif %}
+{% endif %}
+
 {% if is_playoffs and ns.game_count > 0 %}
 <script>
 (() => {
@@ -460,7 +536,6 @@
     });
   });
 
-  // Enforce: a team can appear in only one series per round.
   let hasConflicts = true;
   while (hasConflicts) {
     hasConflicts = false;
@@ -586,7 +661,7 @@
 })();
 </script>
 {% endif %}
-{% if ns.game_count > 0 or ns.upcoming_count > 0 %}
+{% if not is_player_stats and (ns.game_count > 0 or ns.upcoming_count > 0) %}
 <script>
 (() => {
   const tabsRoot = document.querySelector('.games-tabs');

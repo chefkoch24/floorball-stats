@@ -278,6 +278,34 @@ def _map_penalty_type(text: str) -> str:
     return "penalty_2"
 
 
+def _normalize_player_name(text: str | None) -> str | None:
+    if not text:
+        return None
+    cleaned = " ".join(str(text).split()).strip(" ,;-")
+    if not cleaned:
+        return None
+    cleaned = re.sub(r"\(\([^)]*\)\)", "", cleaned).strip(" ,;-")
+    cleaned = re.sub(r"\(#?\d+[^)]*\)", "", cleaned).strip(" ,;-")
+    cleaned = cleaned.split(", #", 1)[0].strip(" ,;-")
+    cleaned = re.sub(r"^#?\d+\s+", "", cleaned)
+    cleaned = re.sub(r"\s*\([^)]*\)\s*$", "", cleaned).strip(" ,;-")
+    lowered = cleaned.lower()
+    status_markers = (
+        "aizturētā soda laikā",
+        "bez vārtsarga",
+        "wg -",
+        "esh",
+        "eshen",
+        "shen",
+        "vienādi nepilni",
+        "vienādos nepilnos",
+        "vienādi nepilni sastāvi",
+    )
+    if any(marker in lowered for marker in status_markers):
+        return None
+    return cleaned or None
+
+
 def _parse_goal_people(details: str | None) -> tuple[str | None, str | None]:
     if not details:
         return None, None
@@ -286,21 +314,22 @@ def _parse_goal_people(details: str | None) -> tuple[str | None, str | None]:
         return None, None
     assist_match = re.search(r"(?:piespēle|assist)\s*[:\-]?\s*(.+)$", cleaned, re.I)
     if assist_match:
-        scorer_name = cleaned[:assist_match.start()].strip(" ,;-")
-        assist_name = assist_match.group(1).strip(" ,;-")
-        return scorer_name or None, assist_name or None
+        scorer_name = _normalize_player_name(cleaned[:assist_match.start()])
+        assist_name = _normalize_player_name(assist_match.group(1))
+        return scorer_name, assist_name
     match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
     if not match:
-        return cleaned, None
-    return (match.group("scorer") or "").strip() or None, (match.group("assist") or "").strip() or None
+        return _normalize_player_name(cleaned), None
+    return _normalize_player_name(match.group("scorer")), _normalize_player_name(match.group("assist"))
 
 
 def _parse_penalty_player(details: str | None) -> str | None:
     if not details:
         return None
     cleaned = " ".join(details.split())
+    cleaned = re.sub(r"\([^)]*\)", "", cleaned).strip()
     cleaned = re.sub(r"\b(2\+2|10|5|2|ms)\b", "", cleaned, flags=re.I).strip(" -")
-    return cleaned or None
+    return _normalize_player_name(cleaned)
 
 
 def _extract_attendance(soup: BeautifulSoup) -> int | None:
