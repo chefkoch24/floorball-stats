@@ -320,7 +320,7 @@ home_pregame_points_against_uhc_alligator_malans: 2
 home_pregame_points_against_uhc_uster: 3
 home_pregame_points_against_unihockey_basel_regio: 3
 home_pregame_points_against_wasa_st_gallen: 6
-home_pregame_points_against_zug_united: 1
+home_pregame_points_against_zug_united: 2
 home_pregame_points_max_difference_2: 15
 home_pregame_points_more_2_difference: 32
 home_pregame_points_per_game: 2.04

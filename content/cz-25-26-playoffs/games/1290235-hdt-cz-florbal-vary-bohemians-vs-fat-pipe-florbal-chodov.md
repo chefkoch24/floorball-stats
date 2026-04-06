@@ -6,7 +6,7 @@ type: game
 game_id: 1290235
 home_team: HDT.cz Florbal Vary Bohemians
 away_team: FAT PIPE FLORBAL CHODOV
-attendance: 210
+attendance: 210.0
 away_goal_diffs_csv: -1,-1,2,3,2,1,0,-1
 away_goal_minutes_csv: 5.02,10.28,32.68,42.55,50.7,51.38,52.97,56.0
 away_major_penalty_minutes_csv: 

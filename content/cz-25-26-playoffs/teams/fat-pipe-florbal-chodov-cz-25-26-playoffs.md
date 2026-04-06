@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-04-19
 Title: FAT PIPE FLORBAL CHODOV
 Category: cz-25-26-playoffs, teams
 Slug: fat-pipe-florbal-chodov-cz-25-26-playoffs-cz-25-26-playoffs

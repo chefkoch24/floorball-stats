@@ -5,7 +5,7 @@ from src.generate_markdown import generate_markdown_files
 from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
 from src.scrape import scrape_events
-from src.scrape_sweden import scrape_competition_events, scrape_competitions_events
+from src.scrape_sweden import expand_competition_ids_by_category, scrape_competition_events, scrape_competitions_events
 from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
 from src.scrape_latvia import scrape_competition as scrape_latvia_competition
@@ -61,6 +61,8 @@ def run_pipeline(
             sweden_competition_ids = competition_ids or ([competition_id] if competition_id is not None else [])
             if not sweden_competition_ids:
                 raise ValueError("competition_id or competition_ids is required when backend=sweden")
+            if phase == "playoffs":
+                sweden_competition_ids = expand_competition_ids_by_category(sweden_competition_ids)
             if len(sweden_competition_ids) == 1:
                 scrape_competition_events(
                     competition_id=sweden_competition_ids[0],
@@ -96,6 +98,7 @@ def run_pipeline(
                         game_class=swiss_game_class,
                         group=swiss_group,
                         start_round=swiss_start_round,
+                        phase_filter=phase,
                     )
                 )
             if not game_ids:

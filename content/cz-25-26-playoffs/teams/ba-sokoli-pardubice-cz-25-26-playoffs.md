@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-04-19
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-playoffs, teams
 Slug: ba-sokoli-pardubice-cz-25-26-playoffs-cz-25-26-playoffs

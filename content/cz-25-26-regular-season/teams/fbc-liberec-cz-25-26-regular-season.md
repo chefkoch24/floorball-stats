@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-04-04
 Title: FBC Liberec
 Category: cz-25-26-regular-season, teams
 Slug: fbc-liberec-cz-25-26-regular-season-cz-25-26-regular-season

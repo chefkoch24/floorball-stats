@@ -6,7 +6,7 @@ type: game
 game_id: 1688228
 home_team: Pixbo IBK
 away_team: IBF Falun
-attendance: 952
+attendance: 952.0
 away_goal_diffs_csv: -1,-1,-2,-3,-4,-3,-4,-4
 away_goal_minutes_csv: 2.38,14.4,34.75,36.42,38.48,55.27,55.4,59.05
 away_major_penalty_minutes_csv: 

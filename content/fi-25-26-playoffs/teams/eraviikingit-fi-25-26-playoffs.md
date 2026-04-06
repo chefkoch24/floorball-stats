@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-04-21
 Title: EräViikingit
 Category: fi-25-26-playoffs, teams
 Slug: eraviikingit-fi-25-26-playoffs-fi-25-26-playoffs

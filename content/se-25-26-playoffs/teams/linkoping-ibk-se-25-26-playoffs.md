@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-20
 Title: Linköping IBK
 Category: se-25-26-playoffs, teams
 Slug: linkoping-ibk-se-25-26-playoffs-se-25-26-playoffs

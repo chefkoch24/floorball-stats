@@ -140,7 +140,7 @@
                     <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
                     <tr><td class="value-home">{{ article.home_pregame_games|default('–') }}</td><td class="value-label">Games played</td><td class="value-away">{{ article.away_pregame_games|default('–') }}</td></tr>
                     <tr><td class="value-home">{{ article.home_pregame_points|default('–') }}</td><td class="value-label">Points</td><td class="value-away">{{ article.away_pregame_points|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.home_pregame_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.away_pregame_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_points_per_game|default('–') }}</td><td class="value-label">PPG</td><td class="value-away">{{ article.away_pregame_points_per_game|default('–') }}</td></tr>
                     <tr><td class="value-home">{{ article.home_pregame_wins|default('–') }}</td><td class="value-label">Wins</td><td class="value-away">{{ article.away_pregame_wins|default('–') }}</td></tr>
                     <tr><td class="value-home">{{ article.home_pregame_losses|default('–') }}</td><td class="value-label">Losses</td><td class="value-away">{{ article.away_pregame_losses|default('–') }}</td></tr>
                     <tr>
@@ -153,11 +153,11 @@
                         <td class="value-label">OT/PS Losses</td>
                         <td class="value-away">{{ (article.away_pregame_over_time_losses|default(0)|int + article.away_pregame_penalty_shootout_losses|default(0)|int) }}</td>
                     </tr>
-                    <tr><td class="value-home">{{ article.home_pregame_goals_per_game|default('–') }}</td><td class="value-label">Goals per game</td><td class="value-away">{{ article.away_pregame_goals_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.home_pregame_goals_against_per_game|default('–') }}</td><td class="value-label">Goals against per game</td><td class="value-away">{{ article.away_pregame_goals_against_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.home_pregame_goal_difference_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.away_pregame_goal_difference_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_penalties_per_game|default('–') }}</td><td class="value-label">Penalties/game</td><td class="value-away">{{ article.pregame_h2h_discipline_away_penalties_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_pk_goals_against_per_game|default('–') }}</td><td class="value-label">PK GA/game</td><td class="value-away">{{ article.pregame_h2h_discipline_away_pk_goals_against_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goals_per_game|default('–') }}</td><td class="value-label">GPG</td><td class="value-away">{{ article.away_pregame_goals_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goals_against_per_game|default('–') }}</td><td class="value-label">GA/G</td><td class="value-away">{{ article.away_pregame_goals_against_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.home_pregame_goal_difference_per_game|default('–') }}</td><td class="value-label">GD/G</td><td class="value-away">{{ article.away_pregame_goal_difference_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_penalties_per_game|default('–') }}</td><td class="value-label">Pen/G</td><td class="value-away">{{ article.pregame_h2h_discipline_away_penalties_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_discipline_home_pk_goals_against_per_game|default('–') }}</td><td class="value-label">PK GA/G</td><td class="value-away">{{ article.pregame_h2h_discipline_away_pk_goals_against_per_game|default('–') }}</td></tr>
                 </table>
             </article>
 
@@ -214,8 +214,8 @@
                             {% endif %}
                         </td>
                     </tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.pregame_h2h_form5_away_points_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_goal_diff_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.pregame_h2h_form5_away_goal_diff_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_points_per_game|default('–') }}</td><td class="value-label">PPG</td><td class="value-away">{{ article.pregame_h2h_form5_away_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_form5_home_goal_diff_per_game|default('–') }}</td><td class="value-label">GD/G</td><td class="value-away">{{ article.pregame_h2h_form5_away_goal_diff_per_game|default('–') }}</td></tr>
                 </table>
             </article>
 
@@ -223,8 +223,8 @@
                 <h2 class="panel-title">Home vs Away Strength</h2>
                 <table class="stats-split-table">
                     <tr><th class="value-home">Home</th><th class="value-label">Metric</th><th class="value-away">Away</th></tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_points_per_game|default('–') }}</td><td class="value-label">Points per game</td><td class="value-away">{{ article.pregame_h2h_away_split_points_per_game|default('–') }}</td></tr>
-                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_goal_diff_per_game|default('–') }}</td><td class="value-label">Goal diff per game</td><td class="value-away">{{ article.pregame_h2h_away_split_goal_diff_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_points_per_game|default('–') }}</td><td class="value-label">PPG</td><td class="value-away">{{ article.pregame_h2h_away_split_points_per_game|default('–') }}</td></tr>
+                    <tr><td class="value-home">{{ article.pregame_h2h_home_split_goal_diff_per_game|default('–') }}</td><td class="value-label">GD/G</td><td class="value-away">{{ article.pregame_h2h_away_split_goal_diff_per_game|default('–') }}</td></tr>
                     <tr><td class="value-home">{{ article.pregame_h2h_special_home_pp_eff|default('–') }}</td><td class="value-label">PP% vs Away PK%</td><td class="value-away">{{ article.pregame_h2h_special_away_pk_eff|default('–') }}</td></tr>
                     <tr><td class="value-home">{{ article.pregame_h2h_special_home_pk_eff|default('–') }}</td><td class="value-label">PK% vs Away PP%</td><td class="value-away">{{ article.pregame_h2h_special_away_pp_eff|default('–') }}</td></tr>
                 </table>

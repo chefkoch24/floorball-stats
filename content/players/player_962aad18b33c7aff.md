@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 9
+rank: 11
 season: fi-25-26

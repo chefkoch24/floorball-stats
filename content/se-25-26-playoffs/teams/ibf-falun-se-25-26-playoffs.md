@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-20
 Title: IBF Falun
 Category: se-25-26-playoffs, teams
 Slug: ibf-falun-se-25-26-playoffs-se-25-26-playoffs

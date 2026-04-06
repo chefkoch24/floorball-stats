@@ -6,7 +6,7 @@ type: game
 game_id: 1290249
 home_team: 1. SC NATIOS Vítkovice
 away_team: ACEMA Sparta Praha
-attendance: 257
+attendance: 257.0
 away_goal_diffs_csv: 0,0,-1,-1,-1
 away_goal_minutes_csv: 23.33,34.87,46.6,57.62,67.88
 away_major_penalty_minutes_csv: 

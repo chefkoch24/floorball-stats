@@ -6,7 +6,7 @@ type: game
 game_id: 1290246
 home_team: BA SOKOLI Pardubice
 away_team: Předvýběr.CZ Florbal MB
-attendance: 455
+attendance: 455.0
 away_goal_diffs_csv: -1,-1,-1,-1,-2,-3,-4,-5
 away_goal_minutes_csv: 9.57,15.02,23.6,25.27,33.78,55.87,56.62,58.23
 away_major_penalty_minutes_csv: 

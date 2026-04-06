@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 7
-rank: 27
+rank: 28
 season: sk-25-26

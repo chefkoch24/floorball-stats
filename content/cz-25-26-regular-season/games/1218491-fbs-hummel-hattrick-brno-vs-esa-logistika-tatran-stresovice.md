@@ -322,7 +322,7 @@ home_pregame_points_against_florbal_usti: 3
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 home_pregame_points_against_kanonyri_kladno: 0
 home_pregame_points_against_predvyber_cz_florbal_mb: 0
-home_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
+home_pregame_points_against_tj_sokol_kralovske_vinohrady: 19
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 15
 home_pregame_points_per_game: 0.65

@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-04-04
 Title: 1. SC NATIOS Vítkovice
 Category: cz-25-26-regular-season, teams
 Slug: 1-sc-natios-vitkovice-cz-25-26-regular-season-cz-25-26-regular-season

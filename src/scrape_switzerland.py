@@ -402,6 +402,14 @@ def _extract_round_ids(html: str) -> set[int]:
     return ids
 
 
+def _extract_round_label(html: str) -> str | None:
+    soup = BeautifulSoup(html, "html.parser")
+    label = soup.select_one("div.su-label")
+    if not label:
+        return None
+    return label.get_text(" ", strip=True) or None
+
+
 def fetch_game_ids_by_rounds(
     league: int,
     season: int,
@@ -409,6 +417,7 @@ def fetch_game_ids_by_rounds(
     group: str | None = None,
     locale: str = "de-CH",
     start_round: int | None = None,
+    phase_filter: str | None = None,
 ) -> list[int]:
     base_params = {
         "block_type": "games",
@@ -427,13 +436,20 @@ def fetch_game_ids_by_rounds(
     seen_rounds: set[int] = set()
     game_ids: set[int] = set()
 
+    def _should_include_round(html: str) -> bool:
+        if not phase_filter:
+            return True
+        label = _extract_round_label(html)
+        return _classify_phase(label) == phase_filter
+
     if start_round is not None:
         to_visit.append(start_round)
     else:
         response = requests.get(RENDER_URL, params=base_params, timeout=30)
         response.raise_for_status()
         html = response.text
-        game_ids.update(_extract_game_ids(html))
+        if _should_include_round(html):
+            game_ids.update(_extract_game_ids(html))
         rounds = sorted(_extract_round_ids(html))
         to_visit.extend(rounds)
 
@@ -447,7 +463,8 @@ def fetch_game_ids_by_rounds(
         response = requests.get(RENDER_URL, params=params, timeout=30)
         response.raise_for_status()
         html = response.text
-        game_ids.update(_extract_game_ids(html))
+        if _should_include_round(html):
+            game_ids.update(_extract_game_ids(html))
         for nxt in _extract_round_ids(html):
             if nxt not in seen_rounds:
                 to_visit.append(nxt)

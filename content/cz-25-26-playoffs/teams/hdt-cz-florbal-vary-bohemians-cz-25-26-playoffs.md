@@ -1,4 +1,4 @@
-Date: 2026-04-02
+Date: 2026-04-19
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-playoffs, teams
 Slug: hdt-cz-florbal-vary-bohemians-cz-25-26-playoffs-cz-25-26-playoffs

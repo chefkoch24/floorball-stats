@@ -93,11 +93,13 @@ help:
 	@echo '   make refresh-finland-smart          Finland smart regular/playoffs refresh'
 	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
 	@echo '   make refresh-czech-playoffs         playoffs pipeline for Czech Extraliga'
+	@echo '   make refresh-czech-smart            Czech smart regular/playoffs refresh'
 	@echo '   make refresh-slovakia               full pipeline for Slovak Extraliga  '
 	@echo '   make refresh-slovakia-playoffs      playoffs pipeline for Slovak Extraliga'
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
 	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
-	@echo '   make refresh-all-leagues            run all league pipelines + html     '
+	@echo '   make refresh-all-leagues            run all league pipelines + player stats + html'
+	@echo '   make refresh-everything             alias for refresh-all-leagues        '
 	@echo '   make refresh-player-stats           build all player stats CSV           '
 	@echo '   make refresh-player-pages           generate player pages from CSV       '
 	@echo '   make refresh-player-stats-pages     generate season player stats pages   '
@@ -201,6 +203,14 @@ refresh-czech:
 refresh-czech-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)"
 
+refresh-czech-smart:
+	$(MAKE) refresh-czech-playoffs
+	@if [ -f "data/data_cz-25-26_playoffs.csv" ] && [ "$$(wc -l < "data/data_cz-25-26_playoffs.csv")" -gt 1 ]; then \
+		echo "Playoffs detected in data/data_cz-25-26_playoffs.csv; skipping refresh-czech."; \
+	else \
+		$(MAKE) refresh-czech; \
+	fi
+
 refresh-slovakia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_LEAGUE_CONFIG)"
 
@@ -242,10 +252,15 @@ refresh-all-leagues:
 	$(MAKE) refresh-sweden-smart
 	$(MAKE) refresh-switzerland-smart
 	$(MAKE) refresh-finland-smart
-	$(MAKE) refresh-czech
+	$(MAKE) refresh-czech-smart
 	$(MAKE) refresh-slovakia-smart
 	$(MAKE) refresh-latvia-smart
+	$(MAKE) refresh-player-stats
+	$(MAKE) refresh-player-pages
 	$(MAKE) html
+
+refresh-everything:
+	$(MAKE) refresh-all-leagues
 
 refresh-player-pages:
 	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats.csv" --output-dir "content/players"
@@ -260,4 +275,4 @@ refresh-player-stats:
 refresh-player-stats-sweden:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats.csv"
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-player-pages refresh-player-stats refresh-player-stats-pages refresh-player-stats-sweden
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-everything refresh-player-pages refresh-player-stats refresh-player-stats-pages refresh-player-stats-sweden

@@ -6,7 +6,7 @@ type: game
 game_id: 1688220
 home_team: Storvreta IBK
 away_team: Nykvarns IBF
-attendance: 1094
+attendance: 1094.0
 away_goal_diffs_csv: -1,0
 away_goal_minutes_csv: 16.15,29.52
 away_major_penalty_minutes_csv: 

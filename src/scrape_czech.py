@@ -188,10 +188,12 @@ def fetch_match_list(
     matches = []
     for match_div in soup.select("div.Match"):
         score_anchor = match_div.select_one(".Match-score a")
+        start_time_anchor = match_div.select_one(".Match-startTime a")
+        match_anchor = score_anchor or start_time_anchor
         match_id = None
         score_text = _clean_text(score_anchor.get_text()) if score_anchor else None
-        if score_anchor and score_anchor.has_attr("href"):
-            match = re.search(r"/match/detail/default/(\d+)", score_anchor["href"])
+        if match_anchor and match_anchor.has_attr("href"):
+            match = re.search(r"/match/detail/default/(\d+)", match_anchor["href"])
             if match:
                 match_id = int(match.group(1))
         if not match_id:

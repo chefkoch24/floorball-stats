@@ -428,7 +428,7 @@ away_pregame_points_against_uhc_alligator_malans: 2
 away_pregame_points_against_uhc_uster: 3
 away_pregame_points_against_unihockey_basel_regio: 3
 away_pregame_points_against_wasa_st_gallen: 6
-away_pregame_points_against_zug_united: 1
+away_pregame_points_against_zug_united: 2
 away_pregame_points_max_difference_2: 21
 away_pregame_points_more_2_difference: 33
 away_pregame_points_per_game: 2.0

@@ -432,7 +432,7 @@ away_pregame_points_against_florbal_usti: 3
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 0
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 19
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 6
 away_pregame_points_per_game: 0.38

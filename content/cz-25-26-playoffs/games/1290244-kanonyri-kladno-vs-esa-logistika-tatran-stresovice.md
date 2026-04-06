@@ -6,7 +6,7 @@ type: game
 game_id: 1290244
 home_team: Kanonýři Kladno
 away_team: ESA logistika Tatran Střešovice
-attendance: 600
+attendance: 600.0
 away_goal_diffs_csv: -1,-2,-3,-4,-4,-5,-6
 away_goal_minutes_csv: 0.67,20.77,26.43,39.45,56.18,56.5,58.05
 away_major_penalty_minutes_csv: 

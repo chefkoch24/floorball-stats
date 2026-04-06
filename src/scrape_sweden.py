@@ -39,6 +39,54 @@ def _auth_headers(token: str) -> dict[str, str]:
     return {"Authorization": f"Bearer {token}"}
 
 
+def _fetch_federation_competitions(api_root: str, headers: dict[str, str], federation_id: int = 1) -> list[dict[str, Any]]:
+    response = requests.get(f"{api_root}federations/{federation_id}/competitions", headers=headers, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
+    return payload if isinstance(payload, list) else []
+
+
+def _fetch_competition(api_root: str, headers: dict[str, str], competition_id: int) -> dict[str, Any]:
+    response = requests.get(f"{api_root}competitions/{competition_id}", headers=headers, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
+    return payload if isinstance(payload, dict) else {}
+
+
+def _fetch_competition_category_competitions(
+    api_root: str, headers: dict[str, str], category_id: int
+) -> list[dict[str, Any]]:
+    response = requests.get(f"{api_root}competitioncategories/{category_id}/competitions", headers=headers, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
+    return payload if isinstance(payload, list) else []
+
+
+def expand_competition_ids_by_category(competition_ids: list[int], federation_id: int = 1) -> list[int]:
+    cfg = _get_api_config()
+    headers = _auth_headers(cfg.token)
+    competitions = _fetch_federation_competitions(cfg.api_root, headers, federation_id=federation_id)
+    by_id = {int(item.get("CompetitionID")): item for item in competitions if item.get("CompetitionID")}
+    category_ids = {
+        int(item.get("CategoryID"))
+        for competition_id in competition_ids
+        for item in [by_id.get(int(competition_id)) or _fetch_competition(cfg.api_root, headers, int(competition_id))]
+        if item and item.get("CategoryID") is not None
+    }
+    if not category_ids:
+        return sorted({int(value) for value in competition_ids})
+
+    expanded: set[int] = set()
+    for category_id in category_ids:
+        category_competitions = _fetch_competition_category_competitions(cfg.api_root, headers, int(category_id))
+        expanded.update(
+            int(item.get("CompetitionID"))
+            for item in category_competitions
+            if item.get("CompetitionID") is not None
+        )
+    return sorted(expanded or {int(value) for value in competition_ids})
+
+
 def _safe_split_datetime(dt: str | None) -> tuple[str | None, str | None]:
     if not dt:
         return None, None

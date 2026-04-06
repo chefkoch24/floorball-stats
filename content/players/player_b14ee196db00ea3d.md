@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 163
+rank: 165
 season: cz-25-26
