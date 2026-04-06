@@ -91,13 +91,13 @@ Tags:  Bauska: 9,  FBK SĀC: 9,  FBK Valmiera: 9,  FK Irlava/I.S.A.M.: 9,  Lekri
 points_max_difference_2: 17
 points_more_2_difference: 53
 points_per_game: 2.59
-powerplay: 69
-powerplay_efficiency: 43.480000000000004
+powerplay: 68
+powerplay_efficiency: 44.12
 powerplay_first_period: 10
 powerplay_overtime: 1
-powerplay_per_game: 2.56
+powerplay_per_game: 2.52
 powerplay_second_period: 23
-powerplay_third_period: 35
+powerplay_third_period: 34
 rank: 2
 scoring_ratio: 1.81
 take_the_lead_goals: 47

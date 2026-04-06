@@ -6,12 +6,12 @@ type: team
 team:Lekrings
 platzierungsverlauf:lv-25-26-regular-season/teams/lekrings-lv-25-26-regular-season_platzierungsverlauf.png
 away_points: 23
-boxplay: 56
-boxplay_efficiency: 64.29
+boxplay: 55
+boxplay_efficiency: 63.64
 boxplay_first_period: 11
 boxplay_overtime: 1
-boxplay_per_game: 2.07
-boxplay_second_period: 24
+boxplay_per_game: 2.04
+boxplay_second_period: 23
 boxplay_third_period: 20
 close_game_loss: 2
 close_game_overtime: 2
@@ -57,15 +57,15 @@ loss_1: 2
 losses: 10
 over_time_losses: 1
 over_time_wins: 2
-penalties: 59
-penalties_per_game: 2.19
+penalties: 58
+penalties_per_game: 2.15
 penalty_10: 14
-penalty_2: 42
+penalty_2: 41
 penalty_2and2: 0
 penalty_first_period: 14
 penalty_ms: 3
 penalty_overtime: 2
-penalty_second_period: 29
+penalty_second_period: 28
 penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0

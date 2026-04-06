@@ -9,7 +9,7 @@ boxplay: 24.25
 boxplay_efficiency: 69.83
 boxplay_first_period: 7.25
 boxplay_overtime: 0.25
-boxplay_per_game: 2.12
+boxplay_per_game: 2.11
 boxplay_second_period: 7.25
 boxplay_third_period: 9.5
 close_game_loss: 0.5

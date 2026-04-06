@@ -1,4 +1,5 @@
 from datetime import datetime
+import hashlib
 import re
 
 import pandas as pd
@@ -92,6 +93,14 @@ def normalize_slug_fragment(value: str) -> str:
     value = re.sub(r'[^a-z0-9]+', '-', value)
     value = re.sub(r'-+', '-', value).strip('-')
     return value
+
+
+def generate_player_uid(*parts: object) -> str:
+    normalized_parts = [str(part).strip().lower() for part in parts if str(part).strip()]
+    if not normalized_parts:
+        raise ValueError("generate_player_uid requires at least one non-empty part")
+    digest = hashlib.sha1("::".join(normalized_parts).encode("utf-8")).hexdigest()[:16]
+    return f"player_{digest}"
 
 
 def flatten_team_stats(stats_dict, prefix):

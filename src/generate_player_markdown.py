@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 import re
 
-from src.utils import normalize_slug_fragment
+from src.utils import generate_player_uid, normalize_slug_fragment
 
 
 CONTROL_FIELDS = {
@@ -12,12 +12,17 @@ CONTROL_FIELDS = {
     "title",
     "slug",
     "category",
+    "team",
+    "league",
     "date",
     "type",
     "content",
     "name",
     "full_name",
     "player_uid",
+    "source_system",
+    "source_player_id",
+    "source_person_id",
     "history_rows_csv",
 }
 
@@ -78,8 +83,18 @@ def _phase_priority(phase: str) -> int:
 
 def _canonical_player_uid(row: dict[str, str], player: str) -> str:
     existing = row.get("player_uid", "").strip()
-    if existing:
-        return normalize_slug_fragment(existing)
+    if existing and existing.startswith("player_"):
+        return existing.lower()
+    normalized_player = normalize_slug_fragment(player)
+    if normalized_player:
+        return generate_player_uid("player", normalized_player)
+    source_system = row.get("source_system", "").strip().lower()
+    source_person_id = row.get("source_person_id", "").strip()
+    if source_person_id and source_person_id != "0":
+        return generate_player_uid(source_system or "unknown", "person", source_person_id)
+    source_player_id = row.get("source_player_id", "").strip()
+    if source_player_id and source_player_id != "0":
+        return generate_player_uid(source_system or "unknown", "player", source_player_id)
     return normalize_slug_fragment(player)
 
 
@@ -112,12 +127,24 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
     playoff_rows = [row for row in current_rows if row.get("phase", "").strip() == "playoffs"]
     previous_rows = [row for row in rows if row.get("season", "").strip() == previous_season] if previous_season else []
 
+    def _join_unique(rows_subset: list[dict[str, str]], key: str) -> str:
+        values: list[str] = []
+        for row in rows_subset:
+            value = row.get(key, "").strip()
+            if not value or value in values:
+                continue
+            values.append(value)
+        return " / ".join(values)
+
+    current_team = _join_unique(current_rows, "team") or current_row.get("team", "")
+    current_league = _join_unique(current_rows, "league") or current_row.get("league", "")
+
     def _sum(rows_subset: list[dict[str, str]], key: str) -> int:
         return sum(_to_int(row.get(key)) for row in rows_subset)
 
     title = current_row.get("title") or player
     slug = uid
-    category = current_row.get("category") or default_category
+    category = default_category
     content = current_row.get("content") or ""
     date = current_row.get("date") or metadata_date
 
@@ -129,6 +156,8 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
         "type: player",
         f"player: {player}",
         f"player_uid: {uid}",
+        f"team: {current_team}",
+        f"league: {current_league}",
         f"season_count: {len(seasons_desc)}",
         f"current_season: {current_season}",
         f"previous_season: {previous_season or 'n.a.'}",
@@ -166,6 +195,7 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
                 [
                     row.get("season", ""),
                     row.get("phase", ""),
+                    row.get("league", ""),
                     row.get("team", ""),
                     str(_to_int(row.get("games"))),
                     str(_to_int(row.get("goals"))),

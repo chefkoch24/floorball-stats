@@ -6,13 +6,13 @@ type: team
 team:Bauska
 platzierungsverlauf:lv-25-26-regular-season/teams/bauska-lv-25-26-regular-season_platzierungsverlauf.png
 away_points: 4
-boxplay: 82
-boxplay_efficiency: 52.44
+boxplay: 81
+boxplay_efficiency: 51.85
 boxplay_first_period: 18
 boxplay_overtime: 0
-boxplay_per_game: 3.04
+boxplay_per_game: 3.0
 boxplay_second_period: 27
-boxplay_third_period: 37
+boxplay_third_period: 36
 close_game_loss: 1
 close_game_overtime: 0
 close_game_points_per_game: 0.0
@@ -46,7 +46,7 @@ goals_in_overtime: 1
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 19
+goals_in_powerplay: 18
 goals_in_second_period: 41
 goals_in_second_period_against: 96
 goals_in_third_period: 56
@@ -57,10 +57,10 @@ loss_1: 3
 losses: 23
 over_time_losses: 1
 over_time_wins: 1
-penalties: 81
-penalties_per_game: 3.0
+penalties: 80
+penalties_per_game: 2.96
 penalty_10: 5
-penalty_2: 72
+penalty_2: 71
 penalty_2and2: 0
 penalty_first_period: 17
 penalty_ms: 4
@@ -70,7 +70,7 @@ penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_third_period: 36
+penalty_third_period: 35
 percent_goals_first_period: 24.82
 percent_goals_first_period_against: 23.86
 percent_goals_overtime: 0.7100000000000001
@@ -91,13 +91,13 @@ Tags:  FBK SĀC: 3,  FBK Valmiera: 0,  FK Irlava/I.S.A.M.: 4,  Lekrings: 0,  Lie
 points_max_difference_2: 0
 points_more_2_difference: 9
 points_per_game: 0.33
-powerplay: 53
-powerplay_efficiency: 35.85
+powerplay: 52
+powerplay_efficiency: 34.62
 powerplay_first_period: 14
 powerplay_overtime: 0
-powerplay_per_game: 1.96
+powerplay_per_game: 1.93
 powerplay_second_period: 15
-powerplay_third_period: 24
+powerplay_third_period: 23
 rank: 10
 scoring_ratio: 0.49
 take_the_lead_goals: 21

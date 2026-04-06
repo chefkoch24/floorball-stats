@@ -1,0 +1,47 @@
+Date: 2026-04-06
+Title: Elias Rensing
+Category: players
+Slug: player_08efffb367336d9e
+type: player
+player: Elias Rensing
+player_uid: player_08efffb367336d9e
+team: SSF Dragons Bonn
+league: Germany
+season_count: 1
+current_season: 25-26
+previous_season: n.a.
+current_games: 6
+current_goals: 5
+current_assists: 3
+current_points: 8
+current_pim: 0
+regular_games: 5
+regular_goals: 4
+regular_assists: 3
+regular_points: 7
+regular_pim: 0
+playoff_games: 1
+playoff_goals: 1
+playoff_assists: 0
+playoff_points: 1
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 6
+career_goals: 5
+career_assists: 3
+career_points: 8
+career_pim: 0
+history_rows_csv: 25-26|playoffs|Germany|SSF Dragons Bonn|1|1|0|1|0||25-26|regular-season|Germany|SSF Dragons Bonn|5|4|3|7|0
+assists: 0
+games: 1
+goals: 1
+penalties: 0
+phase: playoffs
+pim: 0
+points: 1
+rank: 56
+season: 25-26

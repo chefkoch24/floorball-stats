@@ -91,12 +91,12 @@ Tags:  Bauska: 9,  FBK SĀC: 7,  FK Irlava/I.S.A.M.: 3,  Lekrings: 7,  Lielvārd
 points_max_difference_2: 8
 points_more_2_difference: 26
 points_per_game: 1.26
-powerplay: 43
-powerplay_efficiency: 41.86
+powerplay: 42
+powerplay_efficiency: 42.86
 powerplay_first_period: 14
 powerplay_overtime: 0
-powerplay_per_game: 1.59
-powerplay_second_period: 15
+powerplay_per_game: 1.56
+powerplay_second_period: 14
 powerplay_third_period: 14
 rank: 6
 scoring_ratio: 0.99

@@ -6,13 +6,13 @@ type: team
 team:FBK SĀC
 platzierungsverlauf:lv-25-26-regular-season/teams/fbk-sac-lv-25-26-regular-season_platzierungsverlauf.png
 away_points: 12
-boxplay: 43
-boxplay_efficiency: 55.809999999999995
+boxplay: 41
+boxplay_efficiency: 56.1
 boxplay_first_period: 14
 boxplay_overtime: 0
-boxplay_per_game: 1.59
+boxplay_per_game: 1.52
 boxplay_second_period: 12
-boxplay_third_period: 17
+boxplay_third_period: 15
 close_game_loss: 3
 close_game_overtime: 1
 close_game_points_per_game: 0.83
@@ -33,8 +33,8 @@ goals: 177
 goals_against: 233
 goals_against_away: 119
 goals_against_home: 111
-goals_against_in_boxplay: 19
-goals_against_in_boxplay_per_game: 0.7
+goals_against_in_boxplay: 18
+goals_against_in_boxplay_per_game: 0.67
 goals_against_in_powerplay: 4
 goals_against_per_game: 8.63
 goals_away: 88
@@ -57,10 +57,10 @@ loss_1: 7
 losses: 19
 over_time_losses: 1
 over_time_wins: 1
-penalties: 42
-penalties_per_game: 1.56
+penalties: 40
+penalties_per_game: 1.48
 penalty_10: 7
-penalty_2: 33
+penalty_2: 31
 penalty_2and2: 0
 penalty_first_period: 15
 penalty_ms: 2
@@ -70,7 +70,7 @@ penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_third_period: 19
+penalty_third_period: 17
 percent_goals_first_period: 33.900000000000006
 percent_goals_first_period_against: 32.62
 percent_goals_overtime: 0.5599999999999999

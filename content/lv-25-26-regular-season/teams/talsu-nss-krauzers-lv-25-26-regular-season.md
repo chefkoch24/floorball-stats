@@ -70,7 +70,7 @@ penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_third_period: 25
+penalty_third_period: 24
 percent_goals_first_period: 30.48
 percent_goals_first_period_against: 24.03
 percent_goals_overtime: 0.95

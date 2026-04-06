@@ -62,7 +62,7 @@ penalties_per_game: 2.11
 penalty_10: 6
 penalty_2: 49
 penalty_2and2: 0
-penalty_first_period: 17
+penalty_first_period: 16
 penalty_ms: 2
 penalty_overtime: 0
 penalty_second_period: 23

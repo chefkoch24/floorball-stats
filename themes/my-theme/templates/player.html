@@ -127,6 +127,7 @@
             <tr>
                 <th>Season</th>
                 <th>Phase</th>
+                <th>League</th>
                 <th>Team</th>
                 <th>Games</th>
                 <th>Goals</th>
@@ -138,16 +139,24 @@
             <tbody>
                 {% for row in article.history_rows_csv.split('||') %}
                     {% set cols = row.split('|') %}
-                    {% if cols|length >= 8 %}
+                    {% if cols|length >= 9 %}
                     <tr>
+                        {% set season_parts = cols[0].split('-') %}
+                        {% if season_parts|length >= 3 and season_parts[1].isdigit() and season_parts[2].isdigit() %}
+                        <td>{{ season_parts[1] }}/{{ season_parts[2] }}</td>
+                        {% elif season_parts|length >= 2 and season_parts[0].isdigit() and season_parts[1].isdigit() %}
+                        <td>{{ season_parts[0] }}/{{ season_parts[1] }}</td>
+                        {% else %}
                         <td>{{ cols[0] }}</td>
-                        <td>{{ cols[1] }}</td>
+                        {% endif %}
+                        <td>{{ cols[1]|replace('-', ' ')|title }}</td>
                         <td>{{ cols[2] }}</td>
                         <td>{{ cols[3] }}</td>
                         <td>{{ cols[4] }}</td>
                         <td>{{ cols[5] }}</td>
                         <td>{{ cols[6] }}</td>
                         <td>{{ cols[7] }}</td>
+                        <td>{{ cols[8] }}</td>
                     </tr>
                     {% endif %}
                 {% endfor %}
