@@ -10,16 +10,16 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 24
-current_goals: 30
-current_assists: 14
-current_points: 44
-current_pim: 14
-regular_games: 18
-regular_goals: 20
-regular_assists: 10
-regular_points: 30
-regular_pim: 12
+current_games: 6
+current_goals: 10
+current_assists: 4
+current_points: 14
+current_pim: 2
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 6
 playoff_goals: 10
 playoff_assists: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
-career_goals: 30
-career_assists: 14
-career_points: 44
-career_pim: 14
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|6|10|4|14|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|18|20|10|30|12
+career_games: 6
+career_goals: 10
+career_assists: 4
+career_points: 14
+career_pim: 2
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|6|10|4|14|2
 assists: 4
 games: 6
 goals: 10

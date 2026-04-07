@@ -10,16 +10,16 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 8
-current_goals: 3
-current_assists: 5
-current_points: 8
-current_pim: 10
-regular_games: 6
-regular_goals: 2
-regular_assists: 4
-regular_points: 6
-regular_pim: 6
+current_games: 2
+current_goals: 1
+current_assists: 1
+current_points: 2
+current_pim: 4
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 2
 playoff_goals: 1
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 3
-career_assists: 5
-career_points: 8
-career_pim: 10
-history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|2|1|1|2|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|6|2|4|6|6
+career_games: 2
+career_goals: 1
+career_assists: 1
+career_points: 2
+career_pim: 4
+history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|2|1|1|2|4
 assists: 1
 games: 2
 goals: 1

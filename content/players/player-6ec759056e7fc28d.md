@@ -10,16 +10,16 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 8
-current_goals: 2
-current_assists: 4
-current_points: 6
-current_pim: 6
-regular_games: 7
-regular_goals: 2
-regular_assists: 3
-regular_points: 5
-regular_pim: 6
+current_games: 1
+current_goals: 0
+current_assists: 1
+current_points: 1
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 1
 playoff_goals: 0
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 2
-career_assists: 4
-career_points: 6
-career_pim: 6
-history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|1|0|1|1|0||25-26|regular-season|Germany|DJK Holzbüttgen|7|2|3|5|6
+career_games: 1
+career_goals: 0
+career_assists: 1
+career_points: 1
+career_pim: 0
+history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|1|0|1|1|0
 assists: 1
 games: 1
 goals: 0

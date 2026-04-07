@@ -71,7 +71,7 @@ penalty_shot_goals: 0.0
 penalty_shot_goals_against: 0.0
 penalty_third_period: 3.0
 percent_goals_first_period: 29.09
-percent_goals_first_period_against: 29.49
+percent_goals_first_period_against: 29.5
 percent_goals_overtime: 0.96
 percent_goals_overtime_against: 2.63
 percent_goals_second_period: 34.01

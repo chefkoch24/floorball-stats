@@ -10,16 +10,16 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 23
-current_goals: 20
-current_assists: 18
-current_points: 38
-current_pim: 10
-regular_games: 19
-regular_goals: 17
-regular_assists: 17
-regular_points: 34
-regular_pim: 10
+current_games: 4
+current_goals: 3
+current_assists: 1
+current_points: 4
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 4
 playoff_goals: 3
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
-career_goals: 20
-career_assists: 18
-career_points: 38
-career_pim: 10
-history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|4|3|1|4|0||lv-25-26|regular-season|Latvia|FBK Valmiera|19|17|17|34|10
+career_games: 4
+career_goals: 3
+career_assists: 1
+career_points: 4
+career_pim: 0
+history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|4|3|1|4|0
 assists: 1
 games: 4
 goals: 3
