@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: AMRICH Michal
 Category: players
 Slug: player-2edd1a45c0ec8ca8

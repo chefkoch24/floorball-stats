@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Petr Majer z trestného střílení
 Category: players
 Slug: player-a6f77a91752a5ab3

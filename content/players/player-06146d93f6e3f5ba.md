@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Y. Klöti
 Category: players
 Slug: player-06146d93f6e3f5ba
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 22
+rank: 25
 season: ch-25-26

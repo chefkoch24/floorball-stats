@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Šimon Batkovič z trestného střílení
 Category: players
 Slug: player-6aa885eadc3f83bf

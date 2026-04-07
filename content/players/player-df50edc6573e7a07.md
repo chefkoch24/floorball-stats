@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Johan Palmqvist
 Category: players
 Slug: player-df50edc6573e7a07
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 129
+rank: 133
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: HURINSKÝ Lukáš
 Category: players
 Slug: player-ba6c8296adc0b0d5

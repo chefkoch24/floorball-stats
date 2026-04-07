@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: FILÍPEK Vladimír
 Category: players
 Slug: player-29d57dc3f2b1d6fe

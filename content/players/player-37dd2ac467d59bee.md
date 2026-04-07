@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: J. Wilhelmsson
 Category: players
 Slug: player-37dd2ac467d59bee
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 36
+rank: 40
 season: ch-25-26

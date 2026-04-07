@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: GÁLL Samuel
 Category: players
 Slug: player-c9c1b0adaf815448

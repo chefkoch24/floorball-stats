@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Juho . RANTALA
 Category: players
 Slug: player-5c89a2034bbe4d57

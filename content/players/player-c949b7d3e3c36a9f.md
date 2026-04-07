@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: ČUPORÁK Timotej
 Category: players
 Slug: player-c949b7d3e3c36a9f

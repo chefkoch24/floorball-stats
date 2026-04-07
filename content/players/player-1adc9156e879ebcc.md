@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: T. Schaffner
 Category: players
 Slug: player-1adc9156e879ebcc
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 116
+rank: 117
 season: ch-25-26

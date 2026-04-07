@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: KÁTLOVSKÝ Martin
 Category: players
 Slug: player-6136db7ff45f29fe

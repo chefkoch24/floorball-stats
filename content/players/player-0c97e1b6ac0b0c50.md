@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jonáš . BAGÍN
 Category: players
 Slug: player-0c97e1b6ac0b0c50

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: FATRSÍK Michal
 Category: players
 Slug: player-27e84a6a2cc57c5f

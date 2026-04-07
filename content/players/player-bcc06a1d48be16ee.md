@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jakub Bína z trestného střílení
 Category: players
 Slug: player-bcc06a1d48be16ee

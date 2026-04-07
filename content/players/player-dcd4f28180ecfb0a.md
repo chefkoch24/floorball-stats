@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: T. Flütsch
 Category: players
 Slug: player-dcd4f28180ecfb0a
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 1
-rank: 91
+rank: 92
 season: ch-25-26

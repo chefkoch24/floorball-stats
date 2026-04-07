@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: BEDNÁR Peter
 Category: players
 Slug: player-affa59b4946ca3e4

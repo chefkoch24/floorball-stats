@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam . MADAJ
 Category: players
 Slug: player-851aa0d9ec350c32

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš Novotný z trestného střílení
 Category: players
 Slug: player-98e40956ff7b08bc

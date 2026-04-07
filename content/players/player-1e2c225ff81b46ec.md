@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Petri Niemelä
 Category: players
 Slug: player-1e2c225ff81b46ec
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 58
+rank: 64
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Schlegel
 Category: players
 Slug: player-bfecf5cd1576be5f

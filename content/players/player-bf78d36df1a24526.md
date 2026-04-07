@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: HATALA Šimon
 Category: players
 Slug: player-bf78d36df1a24526

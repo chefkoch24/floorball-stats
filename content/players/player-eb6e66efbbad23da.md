@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Mäkinen
 Category: players
 Slug: player-eb6e66efbbad23da
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 79
+rank: 81
 season: ch-25-26

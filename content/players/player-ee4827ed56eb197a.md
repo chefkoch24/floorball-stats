@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Martin Horn z trestného střílení
 Category: players
 Slug: player-ee4827ed56eb197a

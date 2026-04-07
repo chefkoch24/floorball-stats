@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jaroslav Petrák z trestného střílení
 Category: players
 Slug: player-eff24378dca15ac9

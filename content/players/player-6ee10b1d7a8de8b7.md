@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: P. Mendelin
 Category: players
 Slug: player-6ee10b1d7a8de8b7

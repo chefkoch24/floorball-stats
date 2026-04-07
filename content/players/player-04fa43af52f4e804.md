@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Christopher Dahl
 Category: players
 Slug: player-04fa43af52f4e804
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 107
+rank: 112
 season: se-25-26

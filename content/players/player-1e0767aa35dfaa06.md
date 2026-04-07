@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Ivan Pergler bez asistence
 Category: players
 Slug: player-1e0767aa35dfaa06

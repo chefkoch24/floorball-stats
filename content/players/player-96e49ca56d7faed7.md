@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Hänni
 Category: players
 Slug: player-96e49ca56d7faed7
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 60
+rank: 64
 season: ch-25-26

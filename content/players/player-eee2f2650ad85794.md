@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Šimon Ruber bez asistence
 Category: players
 Slug: player-eee2f2650ad85794

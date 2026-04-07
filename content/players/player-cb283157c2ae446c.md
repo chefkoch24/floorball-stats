@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Vojtěch Petráň z trestného střílení
 Category: players
 Slug: player-cb283157c2ae446c

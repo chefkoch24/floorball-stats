@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Matyáš Šindler bez asistence
 Category: players
 Slug: player-bbdb63ad1292d76f

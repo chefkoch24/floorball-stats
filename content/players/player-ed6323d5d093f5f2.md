@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Sipronen
 Category: players
 Slug: player-ed6323d5d093f5f2
@@ -43,5 +43,5 @@ penalties: 3
 phase: playoffs
 pim: 6
 points: 6
-rank: 24
+rank: 27
 season: ch-25-26

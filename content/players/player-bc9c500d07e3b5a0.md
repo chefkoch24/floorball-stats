@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jonáš Tuma z trestného střílení
 Category: players
 Slug: player-bc9c500d07e3b5a0

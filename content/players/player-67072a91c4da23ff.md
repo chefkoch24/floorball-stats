@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Arnold
 Category: players
 Slug: player-67072a91c4da23ff
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 75
+rank: 77
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: A. Helin
 Category: players
 Slug: player-42181af3b984e4da
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 6
-rank: 23
+rank: 26
 season: ch-25-26

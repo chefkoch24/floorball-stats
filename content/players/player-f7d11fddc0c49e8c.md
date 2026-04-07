@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tim Nyander
 Category: players
 Slug: player-f7d11fddc0c49e8c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 35
+rank: 37
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš Trnka bez asistence
 Category: players
 Slug: player-af64c39af87f3205

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: I. Lüthi
 Category: players
 Slug: player-3fe87324d7bda366

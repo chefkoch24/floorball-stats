@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: V. Schubiger
 Category: players
 Slug: player-0e1bf9418e86c1a7

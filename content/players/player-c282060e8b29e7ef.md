@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: August Bergkvist
 Category: players
 Slug: player-c282060e8b29e7ef
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 79
+rank: 86
 season: se-25-26

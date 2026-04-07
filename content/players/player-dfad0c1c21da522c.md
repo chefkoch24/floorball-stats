@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Aaro Haverinen
 Category: players
 Slug: player-dfad0c1c21da522c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 49
+rank: 56
 season: fi-25-26

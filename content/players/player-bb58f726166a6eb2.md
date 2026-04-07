@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: V. Burren
 Category: players
 Slug: player-bb58f726166a6eb2
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 10
-rank: 8
+rank: 10
 season: ch-25-26

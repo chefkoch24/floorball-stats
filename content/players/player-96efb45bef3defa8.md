@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Arwid Hedlund
 Category: players
 Slug: player-96efb45bef3defa8
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 102
+rank: 107
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: KULICH Vladimír
 Category: players
 Slug: player-f91fccfb0b2cb454

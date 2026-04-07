@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jakub . FRONC
 Category: players
 Slug: player-f5b189a98bc6c6dd

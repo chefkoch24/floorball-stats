@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Matěj Vrátný
 Category: players
 Slug: player-9d3b8f5e25456a0b

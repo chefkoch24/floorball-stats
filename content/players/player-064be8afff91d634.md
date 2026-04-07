@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: N. Bischofberger
 Category: players
 Slug: player-064be8afff91d634
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 87
+rank: 88
 season: ch-25-26

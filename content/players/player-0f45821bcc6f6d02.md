@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam . LUPTÁK
 Category: players
 Slug: player-0f45821bcc6f6d02

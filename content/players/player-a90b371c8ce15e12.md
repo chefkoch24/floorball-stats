@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: DURAN Michal
 Category: players
 Slug: player-a90b371c8ce15e12

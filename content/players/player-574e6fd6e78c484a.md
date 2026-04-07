@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: REGULY Tomáš
 Category: players
 Slug: player-574e6fd6e78c484a

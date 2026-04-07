@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: KASTLER Denis
 Category: players
 Slug: player-6de31ae2a714650d

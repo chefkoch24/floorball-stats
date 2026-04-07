@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: 20 min. Team penalty (Trest do konca zápasu (ČK))
 Category: players
 Slug: player-7fa82e8a3babd6db

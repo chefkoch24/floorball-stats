@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Gustav Hansen
 Category: players
 Slug: player-fd27a32fef323b1d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 66
+rank: 68
 season: se-25-26

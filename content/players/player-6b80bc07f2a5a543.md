@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Patrik Neterder z trestného střílení
 Category: players
 Slug: player-6b80bc07f2a5a543

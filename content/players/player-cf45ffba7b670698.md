@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: HRUŠOVSKÝ Frederik
 Category: players
 Slug: player-cf45ffba7b670698

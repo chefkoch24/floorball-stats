@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Michal . ŠIFRA
 Category: players
 Slug: player-bfdf96355e52d9b0

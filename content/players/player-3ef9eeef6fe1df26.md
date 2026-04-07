@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Ville Hietaranta
 Category: players
 Slug: player-3ef9eeef6fe1df26
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 41
+rank: 42
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam . KRECHÁČ
 Category: players
 Slug: player-8ac5942041b73afe

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Joel Lindberg
 Category: players
 Slug: player-b7eca8dcbdd7a5c6

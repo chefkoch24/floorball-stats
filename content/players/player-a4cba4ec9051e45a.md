@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: ČIRČ Richard
 Category: players
 Slug: player-a4cba4ec9051e45a

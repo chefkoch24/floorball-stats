@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jesper Alm
 Category: players
 Slug: player-ae3b1fd7645d0cc5
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 0
-rank: 128
+rank: 132
 season: se-25-26

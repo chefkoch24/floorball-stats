@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Kamil . NAVRÁTIL
 Category: players
 Slug: player-a9e9bbb8939ed236

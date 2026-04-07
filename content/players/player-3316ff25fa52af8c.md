@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Kailiala
 Category: players
 Slug: player-3316ff25fa52af8c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 12
-rank: 4
+rank: 7
 season: ch-25-26

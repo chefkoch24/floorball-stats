@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Aapo Rantaniemi
 Category: players
 Slug: player-0e877ffdfeab41c4
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 60
+rank: 66
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: A. Christen
 Category: players
 Slug: player-77adf5bc381843a7
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 5
-rank: 34
+rank: 36
 season: ch-25-26

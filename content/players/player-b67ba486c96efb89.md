@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Victor Frejd
 Category: players
 Slug: player-b67ba486c96efb89
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 164
+rank: 165
 season: se-25-26

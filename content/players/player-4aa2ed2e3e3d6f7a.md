@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: MADAJ Matúš
 Category: players
 Slug: player-4aa2ed2e3e3d6f7a

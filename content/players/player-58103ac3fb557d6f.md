@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: A. Koskinen
 Category: players
 Slug: player-58103ac3fb557d6f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 71
+rank: 73
 season: ch-25-26

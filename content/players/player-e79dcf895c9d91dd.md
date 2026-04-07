@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Steiner
 Category: players
 Slug: player-e79dcf895c9d91dd
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 30
+rank: 33
 season: ch-25-26

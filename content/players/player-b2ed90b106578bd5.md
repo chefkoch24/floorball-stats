@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Pelle Tarenius
 Category: players
 Slug: player-b2ed90b106578bd5
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 7
-rank: 9
+rank: 10
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: HORŇÁK Samuel
 Category: players
 Slug: player-ade9f9280b6feb79

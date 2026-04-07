@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Bernsteiner
 Category: players
 Slug: player-bba2e346ae5070df
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 76
+rank: 78
 season: ch-25-26

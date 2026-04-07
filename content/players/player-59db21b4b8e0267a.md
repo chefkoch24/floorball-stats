@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Daniel . HAJNÍK
 Category: players
 Slug: player-59db21b4b8e0267a

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Otto Weidman
 Category: players
 Slug: player-868eed8f1d7155aa
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 28
+current_games: 29
 current_goals: 22
 current_assists: 11
 current_points: 33
@@ -20,7 +20,7 @@ regular_goals: 12
 regular_assists: 9
 regular_points: 21
 regular_pim: 2
-playoff_games: 4
+playoff_games: 5
 playoff_goals: 10
 playoff_assists: 2
 playoff_points: 12
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 29
 career_goals: 22
 career_assists: 11
 career_points: 33
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|4|10|2|12|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|12|9|21|2
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|5|10|2|12|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|12|9|21|2
 assists: 2
-games: 4
+games: 5
 goals: 10
 penalties: 0
 phase: playoffs
 pim: 0
 points: 12
-rank: 1
+rank: 3
 season: se-25-26

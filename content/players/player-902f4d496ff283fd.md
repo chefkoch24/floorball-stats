@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš Novotný bez asistence
 Category: players
 Slug: player-902f4d496ff283fd

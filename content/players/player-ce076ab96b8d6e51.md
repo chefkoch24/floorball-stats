@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Martin (Trest do konca zápasu (ČK)) 20 min. KÁTLOVSKÝ
 Category: players
 Slug: player-ce076ab96b8d6e51

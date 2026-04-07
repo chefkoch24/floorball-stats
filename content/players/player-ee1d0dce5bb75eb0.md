@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: LACKNER Richard
 Category: players
 Slug: player-ee1d0dce5bb75eb0

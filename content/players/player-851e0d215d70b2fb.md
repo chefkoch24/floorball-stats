@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: D. Hocevar
 Category: players
 Slug: player-851e0d215d70b2fb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 93
+rank: 94
 season: ch-25-26

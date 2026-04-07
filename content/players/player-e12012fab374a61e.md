@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Emil Ruud
 Category: players
 Slug: player-e12012fab374a61e
@@ -12,8 +12,8 @@ current_season: se-25-26
 previous_season: n.a.
 current_games: 32
 current_goals: 32
-current_assists: 27
-current_points: 59
+current_assists: 28
+current_points: 60
 current_pim: 8
 regular_games: 26
 regular_goals: 27
@@ -22,8 +22,8 @@ regular_points: 53
 regular_pim: 8
 playoff_games: 6
 playoff_goals: 5
-playoff_assists: 1
-playoff_points: 6
+playoff_assists: 2
+playoff_points: 7
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -32,16 +32,16 @@ previous_points: 0
 previous_pim: 0
 career_games: 32
 career_goals: 32
-career_assists: 27
-career_points: 59
+career_assists: 28
+career_points: 60
 career_pim: 8
-history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|6|5|1|6|0||se-25-26|regular-season|Sweden|IBF Falun|26|27|26|53|8
-assists: 1
+history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|6|5|2|7|0||se-25-26|regular-season|Sweden|IBF Falun|26|27|26|53|8
+assists: 2
 games: 6
 goals: 5
 penalties: 0
 phase: playoffs
 pim: 0
-points: 6
-rank: 14
+points: 7
+rank: 12
 season: se-25-26

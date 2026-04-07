@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: SNINČÁK Erik
 Category: players
 Slug: player-613b06aade0ef1d7

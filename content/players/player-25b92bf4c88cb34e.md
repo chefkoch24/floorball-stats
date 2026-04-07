@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Dennis Andersson
 Category: players
 Slug: player-25b92bf4c88cb34e
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 0
-rank: 109
+rank: 114
 season: se-25-26

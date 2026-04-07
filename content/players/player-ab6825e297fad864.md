@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: A. Hedlund
 Category: players
 Slug: player-ab6825e297fad864
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 6
-rank: 26
+rank: 30
 season: ch-25-26

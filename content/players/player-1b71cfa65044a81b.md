@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: J. Stettler
 Category: players
 Slug: player-1b71cfa65044a81b

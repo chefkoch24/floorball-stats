@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Valdemar Ahlroth
 Category: players
 Slug: player-697f8bf275b29f2f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 75
+rank: 80
 season: se-25-26

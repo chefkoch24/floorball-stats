@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš . PÚPALA
 Category: players
 Slug: player-03af3e01f4909e8f

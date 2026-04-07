@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Martin Gattnar bez asistence
 Category: players
 Slug: player-8b6df689415f43cf

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam Hemerka
 Category: players
 Slug: player-780ee5fc067e198a

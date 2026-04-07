@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Niklas Ohlström
 Category: players
 Slug: player-56e76ba9e1a595a3
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 146
+rank: 150
 season: se-25-26

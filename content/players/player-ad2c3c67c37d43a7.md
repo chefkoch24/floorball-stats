@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: N. Rottaris
 Category: players
 Slug: player-ad2c3c67c37d43a7
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 80
+rank: 82
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: F. Karlsson
 Category: players
 Slug: player-af9b35ad3c72f91b
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 53
+rank: 58
 season: ch-25-26

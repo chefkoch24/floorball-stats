@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Hedlund
 Category: players
 Slug: player-edea548c6da1ba29
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 68
+rank: 71
 season: ch-25-26

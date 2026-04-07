@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Fankhauser
 Category: players
 Slug: player-0e6dc884c41fe685
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 109
+rank: 110
 season: ch-25-26

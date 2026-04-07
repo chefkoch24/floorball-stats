@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam Bureš bez asistence
 Category: players
 Slug: player-0951a2514d3abfdf

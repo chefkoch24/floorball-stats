@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Filip (Trest do konca zápasu (ČK)) 20 min. KOŠINÁR
 Category: players
 Slug: player-03c7b291c59fda95

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Oliver Sillanpää
 Category: players
 Slug: player-f0f26b83e098d7cd
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 4
-rank: 34
+rank: 35
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Joona Hokkanen
 Category: players
 Slug: player-85adb6d843a34f7f
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 70
+rank: 74
 season: fi-25-26

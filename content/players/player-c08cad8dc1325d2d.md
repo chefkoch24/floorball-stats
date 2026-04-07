@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: L. Münger
 Category: players
 Slug: player-c08cad8dc1325d2d
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 110
+rank: 111
 season: ch-25-26

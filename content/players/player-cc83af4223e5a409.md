@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: T. Gfeller
 Category: players
 Slug: player-cc83af4223e5a409
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 83
+rank: 84
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Hofer
 Category: players
 Slug: player-c2a40c7edd3502ea

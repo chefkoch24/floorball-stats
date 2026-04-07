@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: KUBÍK Richard
 Category: players
 Slug: player-e8781676a60aa2fd

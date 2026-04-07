@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš Macháček z trestného střílení
 Category: players
 Slug: player-baad97e6b140d7c7

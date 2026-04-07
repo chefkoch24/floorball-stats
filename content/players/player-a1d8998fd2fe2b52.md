@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Marek (Technický trest (ČK)) 20 min. PISKORZ
 Category: players
 Slug: player-a1d8998fd2fe2b52

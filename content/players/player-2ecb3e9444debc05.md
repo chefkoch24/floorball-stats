@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: JÁGER Daniel
 Category: players
 Slug: player-2ecb3e9444debc05

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: J. Egli
 Category: players
 Slug: player-edefefe6db32e095

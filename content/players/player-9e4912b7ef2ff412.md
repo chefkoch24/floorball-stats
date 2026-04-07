@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Michal Malec
 Category: players
 Slug: player-9e4912b7ef2ff412

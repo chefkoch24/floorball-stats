@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Karel Petrák z trestného střílení
 Category: players
 Slug: player-a329b1d17ea0987f

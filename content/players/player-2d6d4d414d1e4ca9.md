@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: T. Ledergerber
 Category: players
 Slug: player-2d6d4d414d1e4ca9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 92
+rank: 93
 season: ch-25-26

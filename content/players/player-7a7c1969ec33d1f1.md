@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: KOVALČÍK Samuel
 Category: players
 Slug: player-7a7c1969ec33d1f1

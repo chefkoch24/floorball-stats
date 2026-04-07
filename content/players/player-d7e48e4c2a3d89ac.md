@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Alex 12 min. LAZOR
 Category: players
 Slug: player-d7e48e4c2a3d89ac

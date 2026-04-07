@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: STANO Šimon
 Category: players
 Slug: player-b3d292b7d29fb613

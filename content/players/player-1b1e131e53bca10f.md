@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: T. Renner
 Category: players
 Slug: player-1b1e131e53bca10f
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 115
+rank: 116
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Y. Fitzi
 Category: players
 Slug: player-af73839acea97937
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 39
+rank: 44
 season: ch-25-26

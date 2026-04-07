@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Dominik Lehel (Trest do konca zápasu (ČK)) 20 min. NÉMETH
 Category: players
 Slug: player-75be12bd2dda5209

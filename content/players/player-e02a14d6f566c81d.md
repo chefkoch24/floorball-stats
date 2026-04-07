@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: R. Thalmann
 Category: players
 Slug: player-e02a14d6f566c81d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 37
+rank: 41
 season: ch-25-26

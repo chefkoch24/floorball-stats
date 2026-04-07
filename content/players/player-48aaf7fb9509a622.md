@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: GÍRET Jakub
 Category: players
 Slug: player-48aaf7fb9509a622

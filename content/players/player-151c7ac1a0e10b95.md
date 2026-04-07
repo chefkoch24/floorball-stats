@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Michal . JANIGA
 Category: players
 Slug: player-151c7ac1a0e10b95

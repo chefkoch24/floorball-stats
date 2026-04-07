@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: BUJNA Michal
 Category: players
 Slug: player-bdad0804f1b4d026

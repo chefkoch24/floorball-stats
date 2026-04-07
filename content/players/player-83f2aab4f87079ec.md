@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš . JURICA
 Category: players
 Slug: player-83f2aab4f87079ec

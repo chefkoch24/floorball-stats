@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Šimon . HATALA
 Category: players
 Slug: player-5b8900aea6b0085e

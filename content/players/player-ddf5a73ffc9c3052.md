@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Vilém Doležal bez asistence
 Category: players
 Slug: player-ddf5a73ffc9c3052

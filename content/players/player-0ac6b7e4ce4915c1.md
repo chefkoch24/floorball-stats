@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jonathan Berglund
 Category: players
 Slug: player-0ac6b7e4ce4915c1
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 18
+rank: 19
 season: se-25-26

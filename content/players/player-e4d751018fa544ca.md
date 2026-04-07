@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: R. Kainulainen
 Category: players
 Slug: player-e4d751018fa544ca
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 6
-rank: 31
+rank: 34
 season: ch-25-26

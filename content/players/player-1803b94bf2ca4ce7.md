@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Lukas Puncochar
 Category: players
 Slug: player-1803b94bf2ca4ce7
@@ -14,7 +14,7 @@ current_games: 33
 current_goals: 8
 current_assists: 1
 current_points: 9
-current_pim: 4
+current_pim: 6
 regular_games: 26
 regular_goals: 4
 regular_assists: 1
@@ -24,7 +24,7 @@ playoff_games: 7
 playoff_goals: 4
 playoff_assists: 0
 playoff_points: 4
-playoff_pim: 2
+playoff_pim: 4
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -34,14 +34,14 @@ career_games: 33
 career_goals: 8
 career_assists: 1
 career_points: 9
-career_pim: 4
-history_rows_csv: se-25-26|playoffs|Sweden|Linköping IBK|7|4|0|4|2||se-25-26|regular-season|Sweden|Linköping IBK|26|4|1|5|2
+career_pim: 6
+history_rows_csv: se-25-26|playoffs|Sweden|Linköping IBK|7|4|0|4|4||se-25-26|regular-season|Sweden|Linköping IBK|26|4|1|5|2
 assists: 0
 games: 7
 goals: 4
-penalties: 1
+penalties: 2
 phase: playoffs
-pim: 2
+pim: 4
 points: 4
-rank: 27
+rank: 30
 season: se-25-26

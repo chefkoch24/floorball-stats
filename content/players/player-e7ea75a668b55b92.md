@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Hugo Hellgren
 Category: players
 Slug: player-e7ea75a668b55b92
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 68
+rank: 70
 season: se-25-26

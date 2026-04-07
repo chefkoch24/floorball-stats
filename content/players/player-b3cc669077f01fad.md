@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Michal Sládek z trestného střílení
 Category: players
 Slug: player-b3cc669077f01fad

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: N. Brütsch
 Category: players
 Slug: player-6d17eb1ed0e00888
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 100
+rank: 101
 season: ch-25-26

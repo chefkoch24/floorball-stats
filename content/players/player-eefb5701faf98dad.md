@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: BERNÁT Ondrej
 Category: players
 Slug: player-eefb5701faf98dad

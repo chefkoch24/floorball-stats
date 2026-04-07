@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: GLONČÁK Martin
 Category: players
 Slug: player-7e6ac77c71d2667a

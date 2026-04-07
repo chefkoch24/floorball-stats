@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: SZABO Adrián
 Category: players
 Slug: player-25b0ab43b2579bd4

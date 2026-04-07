@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jakub . GÁLET
 Category: players
 Slug: player-9dc76db7d07206e5

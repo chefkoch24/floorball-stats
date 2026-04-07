@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Anton . BAJZÍK
 Category: players
 Slug: player-93ea24f2fcb65a11

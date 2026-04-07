@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: J. Klöti
 Category: players
 Slug: player-7ece1b82001ea9a6

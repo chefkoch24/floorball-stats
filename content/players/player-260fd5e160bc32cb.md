@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: William Törngren
 Category: players
 Slug: player-260fd5e160bc32cb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 167
+rank: 168
 season: se-25-26

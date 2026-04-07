@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: R. Neidhart
 Category: players
 Slug: player-2951ec03e36dafda
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 50
+rank: 52
 season: ch-25-26

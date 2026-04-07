@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: D. Dürler
 Category: players
 Slug: player-c7968beb2fb587be

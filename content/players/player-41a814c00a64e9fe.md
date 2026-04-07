@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: M. Frei
 Category: players
 Slug: player-41a814c00a64e9fe
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 77
+rank: 79
 season: ch-25-26

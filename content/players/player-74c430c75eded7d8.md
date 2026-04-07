@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: C. Söderberg
 Category: players
 Slug: player-74c430c75eded7d8

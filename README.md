@@ -8,7 +8,7 @@ python3 -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Canonical pipeline (scrape -> stats -> markdown)
+## Canonical pipeline (single league)
 
 ```bash
 make refresh-current-season
@@ -25,6 +25,22 @@ German playoffs (Saisonmanager league id `1963`) via config:
 ```bash
 make refresh-current-season-playoffs
 ```
+
+## Canonical full refresh (all leagues + player stats + site build)
+
+Use this when you want the repository fully updated end-to-end:
+
+```bash
+make refresh-all-leagues
+```
+
+This runs:
+- all smart league refresh targets
+- `make refresh-player-stats`
+- `make refresh-player-pages`
+- `make html`
+
+`make refresh-everything` is an alias for the same flow.
 
 ## Sweden (StatsApp backend)
 
@@ -107,6 +123,12 @@ Then build or serve the site as usual:
 make html
 pelican --autoreload --listen --port 8000
 ```
+
+Nightly GitHub Actions refreshes now include these same player-stat steps before the Pelican build, so the scheduled job updates:
+- `data/player_stats.csv`
+- `content/players/`
+- `content/player-stats/`
+- rendered site output
 
 ## Switzerland (renderengine backend)
 

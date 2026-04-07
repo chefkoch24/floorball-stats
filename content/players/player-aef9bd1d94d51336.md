@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Klāvs Araks
 Category: players
 Slug: player-aef9bd1d94d51336

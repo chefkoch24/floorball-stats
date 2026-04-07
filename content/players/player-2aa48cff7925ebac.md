@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Camill Wagner
 Category: players
 Slug: player-2aa48cff7925ebac

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Liam Arvidsson
 Category: players
 Slug: player-a5c4869cf2609efc
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 135
+rank: 139
 season: se-25-26

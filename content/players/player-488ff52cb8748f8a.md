@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Michal . MINAROVSKÝ
 Category: players
 Slug: player-488ff52cb8748f8a

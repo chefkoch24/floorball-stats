@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: D. Jaaranen
 Category: players
 Slug: player-47e9ed17eeeb22f3
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 51
+rank: 54
 season: ch-25-26

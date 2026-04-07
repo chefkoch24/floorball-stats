@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Matěj Čelakovský z trestného střílení
 Category: players
 Slug: player-4edfb641b892267f

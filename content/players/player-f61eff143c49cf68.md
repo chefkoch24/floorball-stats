@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Dávid . UJHELYI
 Category: players
 Slug: player-f61eff143c49cf68

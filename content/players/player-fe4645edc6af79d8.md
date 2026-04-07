@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam (Trest do konca zápasu (ČK)) 20 min. PEŠKO
 Category: players
 Slug: player-fe4645edc6af79d8

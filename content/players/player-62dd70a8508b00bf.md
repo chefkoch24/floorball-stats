@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: F. Niederberger
 Category: players
 Slug: player-62dd70a8508b00bf
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 73
+rank: 75
 season: ch-25-26

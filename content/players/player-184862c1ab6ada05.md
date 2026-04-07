@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Jakub . KUREČKO
 Category: players
 Slug: player-184862c1ab6ada05

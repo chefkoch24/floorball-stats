@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Andreas Pernhall
 Category: players
 Slug: player-268eb0aed635874f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 98
+rank: 104
 season: se-25-26

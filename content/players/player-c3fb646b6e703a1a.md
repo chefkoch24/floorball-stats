@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Victor Frisch
 Category: players
 Slug: player-c3fb646b6e703a1a
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 165
+rank: 166
 season: se-25-26

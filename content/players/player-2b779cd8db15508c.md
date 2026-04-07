@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Adam . FIALA
 Category: players
 Slug: player-2b779cd8db15508c

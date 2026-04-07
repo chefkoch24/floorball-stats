@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Tomáš Navrátil bez asistence
 Category: players
 Slug: player-77d85ac7ac01fb71

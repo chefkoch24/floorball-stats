@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Kalle Laakso
 Category: players
 Slug: player-d236c80de8f454b9

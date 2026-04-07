@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Patrik Svoboda
 Category: players
 Slug: player-de028e02c1d7b060
