@@ -1,9 +1,11 @@
 import argparse
+import json
 from pathlib import Path
 import re
 
 import pandas as pd
 import requests
+from bs4 import BeautifulSoup
 
 from src.utils import generate_player_uid, normalize_slug_fragment
 
@@ -11,6 +13,9 @@ from src.utils import generate_player_uid, normalize_slug_fragment
 FILE_PATTERN = re.compile(r"^data_((?P<prefix>[a-z]{2})-)?(?P<years>\d{2}-\d{2})_(?P<phase>regular_season|playoffs)\.csv$")
 STARTKIT_URL = "https://api.innebandy.se/StatsAppApi/api/startkit"
 DEFAULT_API_ROOT = "https://api.innebandy.se/v2/api/"
+GERMANY_API_BASE = "https://saisonmanager.de/api/v2/"
+CZECH_BASE_URL = "https://www.ceskyflorbal.cz"
+SWISS_RENDER_URL = "https://www.swissunihockey.ch/renderengine/load_view.php"
 LEAGUE_INFO = {
     "": {"source_system": "germany", "league": "Germany"},
     "ch": {"source_system": "switzerland", "league": "Switzerland"},
@@ -192,6 +197,563 @@ def _rows_from_event_csv(path: Path, season: str, phase: str, league: str, sourc
     return _finalize_rows(stats, season=season, phase=phase, league=league, source_system=source_system)
 
 
+def _load_league_configs_for(backend: str, season: str, phase: str) -> list[dict]:
+    configs: list[dict] = []
+    for cfg_path in sorted(Path("config/leagues").glob("*.json")):
+        try:
+            cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if str(cfg.get("backend") or "").strip().lower() != backend.lower():
+            continue
+        if str(cfg.get("season") or "").strip() != season:
+            continue
+        if str(cfg.get("phase") or "").strip() != phase:
+            continue
+        configs.append(cfg)
+    return configs
+
+
+def _rows_from_germany_lineups(match_ids: list[int], season: str, phase: str) -> pd.DataFrame:
+    records: list[dict] = []
+    session = requests.Session()
+    for match_id in sorted(set(match_ids)):
+        response = session.get(f"{GERMANY_API_BASE}games/{match_id}", timeout=30)
+        response.raise_for_status()
+        game = response.json()
+        home_team = str(game.get("home_team_name") or "").strip()
+        away_team = str(game.get("guest_team_name") or "").strip()
+        if not home_team or not away_team:
+            continue
+        players = game.get("players") or {}
+        for side_key, team_name in [("home", home_team), ("guest", away_team)]:
+            for player in players.get(side_key) or []:
+                first_name = str(player.get("player_firstname") or "").strip()
+                last_name = str(player.get("player_name") or "").strip()
+                player_name = " ".join(part for part in [first_name, last_name] if part).strip()
+                if not player_name:
+                    continue
+                records.append(
+                    {
+                        "player_uid": _canonical_player_uid(player_name),
+                        "source_player_id": str(int(player.get("player_id") or 0) or ""),
+                        "source_person_id": "",
+                        "player": player_name,
+                        "team": team_name,
+                        "games": 1,
+                        "goals": 0,
+                        "assists": 0,
+                        "points": 0,
+                        "pim": 0,
+                        "penalties": 0,
+                    }
+                )
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league="Germany", source_system="germany")
+
+
+def _normalize_finland_player_name(text: str) -> str:
+    cleaned = " ".join(str(text or "").split()).strip()
+    cleaned = re.sub(r"\s+[CV]$", "", cleaned)
+    return cleaned.strip(" ,-")
+
+
+def _normalize_roster_player_name(text: str | None) -> str:
+    cleaned = " ".join(str(text or "").split()).strip()
+    if not cleaned:
+        return ""
+    cleaned = re.sub(r"\(\d+\)$", "", cleaned).strip(" -")
+    if "," in cleaned:
+        last_name, first_name = [part.strip() for part in cleaned.split(",", 1)]
+        if first_name and last_name:
+            cleaned = f"{first_name} {last_name}"
+    return cleaned.strip()
+
+
+def _extract_finland_match_players_data(html: str) -> list[str]:
+    marker = "var matchPlayersData = "
+    start = html.find(marker)
+    if start < 0:
+        return []
+    start += len(marker)
+    end = html.find(";</script>", start)
+    if end < 0:
+        return []
+    payload = html[start:end].strip()
+    try:
+        data = json.loads(payload)
+    except Exception:
+        return []
+    names: list[str] = []
+    for value in (data or {}).values():
+        player_name = _normalize_finland_player_name((value or {}).get("name"))
+        if player_name:
+            names.append(player_name)
+    return names
+
+
+def _rows_from_finland_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    from src.scrape_finland import _get as _fin_get, _parse_match_cards
+
+    configs = _load_league_configs_for("finland", season, phase)
+    schedule_urls: list[str] = []
+    for cfg in configs:
+        schedule_urls.extend((cfg.get("finland") or {}).get("schedule_urls") or [])
+    schedule_urls = list(dict.fromkeys(schedule_urls))
+    if not schedule_urls:
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Finland", source_system="finland")
+
+    match_url_by_id: dict[str, str] = {}
+    for url in schedule_urls:
+        cards = _parse_match_cards(_fin_get(url))
+        for card in cards:
+            match_url_by_id[str(card.match_id)] = card.url
+
+    records: list[dict] = []
+    session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; FloorballStats/1.0; +https://fliiga.com/)"})
+    lineup_titles = {"1. kenttä", "2. kenttä", "3. kenttä", "4. kenttä", "maalivahdit"}
+
+    for row in matches.itertuples(index=False):
+        game_id = str(getattr(row, "game_id"))
+        home_team = str(getattr(row, "home_team_name", "") or "").strip()
+        away_team = str(getattr(row, "away_team_name", "") or "").strip()
+        if not home_team or not away_team:
+            continue
+        rel_url = match_url_by_id.get(game_id)
+        if not rel_url:
+            continue
+        url = rel_url if rel_url.startswith("http") else f"https://fliiga.com{rel_url}"
+        response = session.get(url, timeout=30, allow_redirects=True)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        lineup_tables: list = []
+        titles: list[str] = []
+        for table in soup.select("table"):
+            if "sortable-table" in (table.get("class") or []):
+                continue
+            heading = table.find_previous("h4")
+            heading_text = " ".join((heading.get_text(" ", strip=True) if heading else "").lower().split())
+            if heading_text in lineup_titles:
+                lineup_tables.append(table)
+                titles.append(heading_text)
+        if len(lineup_tables) >= 2:
+            split_idx = None
+            for idx in range(1, len(titles)):
+                if titles[idx].startswith("1."):
+                    split_idx = idx
+                    break
+            if split_idx is None:
+                split_idx = len(lineup_tables) // 2
+
+            for side, tables in [("home", lineup_tables[:split_idx]), ("away", lineup_tables[split_idx:])]:
+                team_name = home_team if side == "home" else away_team
+                seen_names: set[str] = set()
+                for table in tables:
+                    for tr in table.select("tr"):
+                        cells = tr.find_all("td")
+                        if len(cells) < 2:
+                            continue
+                        player_name = _normalize_finland_player_name(cells[1].get_text(" ", strip=True))
+                        if not player_name or player_name in seen_names:
+                            continue
+                        seen_names.add(player_name)
+                        records.append(
+                            {
+                                "player_uid": _canonical_player_uid(player_name),
+                                "source_player_id": "",
+                                "source_person_id": "",
+                                "player": player_name,
+                                "team": team_name,
+                                "games": 1,
+                                "goals": 0,
+                                "assists": 0,
+                                "points": 0,
+                                "pim": 0,
+                                "penalties": 0,
+                            }
+                        )
+        else:
+            # Current F-liiga pages often embed players in JS payload instead of static lineup tables.
+            for player_name in _extract_finland_match_players_data(response.text):
+                records.append(
+                    {
+                        "player_uid": _canonical_player_uid(player_name),
+                        "source_player_id": "",
+                        "source_person_id": "",
+                        "player": player_name,
+                        # Team assignment is not exposed in this payload; keep empty and rely on event rows for team labels.
+                        "team": "",
+                        "games": 1,
+                        "goals": 0,
+                        "assists": 0,
+                        "points": 0,
+                        "pim": 0,
+                        "penalties": 0,
+                    }
+                )
+
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league="Finland", source_system="finland")
+
+
+def _fetch_czech_roster_html(match_id: int, session: requests.Session) -> str:
+    response = session.get(f"{CZECH_BASE_URL}/match/detail/roster/{match_id}", timeout=30)
+    response.raise_for_status()
+    return response.text
+
+
+def _extract_player_id_from_href(href: str) -> str:
+    match = re.search(r"/person/detail/player/(\d+)", href)
+    return match.group(1) if match else ""
+
+
+def _extract_roster_players(container) -> list[tuple[str, str]]:
+    players: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for anchor in container.select("a[href*='/person/detail/player/']"):
+        href = str(anchor.get("href") or "")
+        player_name = str(anchor.get_text(" ", strip=True) or "").strip()
+        if not player_name:
+            continue
+        source_person_id = _extract_player_id_from_href(href)
+        key = (player_name, source_person_id)
+        if key in seen:
+            continue
+        seen.add(key)
+        players.append((player_name, source_person_id))
+    return players
+
+
+def _rows_from_czech_rosters(matches: pd.DataFrame, season: str, phase: str, league: str, source_system: str) -> pd.DataFrame:
+    records: list[dict] = []
+    session = requests.Session()
+    for row in matches.itertuples(index=False):
+        match_id = int(row.game_id)
+        home_team = str(getattr(row, "home_team_name", "") or "").strip()
+        away_team = str(getattr(row, "away_team_name", "") or "").strip()
+        if not home_team or not away_team:
+            continue
+        html = _fetch_czech_roster_html(match_id, session=session)
+        soup = BeautifulSoup(html, "html.parser")
+        home_container = soup.select_one("#tab-domaci")
+        away_container = soup.select_one("#tab-hoste")
+        if home_container is None or away_container is None:
+            continue
+        for player_name, source_person_id in _extract_roster_players(home_container):
+            records.append(
+                {
+                    "player_uid": _canonical_player_uid(player_name),
+                    "source_player_id": "",
+                    "source_person_id": source_person_id,
+                    "player": player_name,
+                    "team": home_team,
+                    "games": 1,
+                    "goals": 0,
+                    "assists": 0,
+                    "points": 0,
+                    "pim": 0,
+                    "penalties": 0,
+                }
+            )
+        for player_name, source_person_id in _extract_roster_players(away_container):
+            records.append(
+                {
+                    "player_uid": _canonical_player_uid(player_name),
+                    "source_player_id": "",
+                    "source_person_id": source_person_id,
+                    "player": player_name,
+                    "team": away_team,
+                    "games": 1,
+                    "goals": 0,
+                    "assists": 0,
+                    "points": 0,
+                    "pim": 0,
+                    "penalties": 0,
+                }
+            )
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system=source_system)
+
+
+def _rows_from_slovakia_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    from src.scrape_slovakia import _new_session, _parse_schedule_matches, _results_url_from_date_url
+
+    configs = _load_league_configs_for("slovakia", season, phase)
+    schedule_urls: list[str] = []
+    for cfg in configs:
+        schedule_urls.extend((cfg.get("slovakia") or {}).get("schedule_urls") or [])
+    schedule_urls = list(dict.fromkeys(schedule_urls))
+    if not schedule_urls:
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Slovakia", source_system="slovakia")
+
+    session = _new_session()
+    lineup_url_by_id: dict[int, str] = {}
+    for schedule_url in schedule_urls:
+        resolved = [schedule_url]
+        alt = _results_url_from_date_url(schedule_url)
+        if alt:
+            resolved.append(alt)
+        for url in resolved:
+            html = session.get(url, timeout=30).text
+            for match in _parse_schedule_matches(html, schedule_url):
+                lineup_url_by_id[match.match_id] = match.match_url.replace("/overview", "/LineUp")
+
+    records: list[dict] = []
+    for row in matches.itertuples(index=False):
+        game_id = int(getattr(row, "game_id"))
+        home_team = str(getattr(row, "home_team_name", "") or "").strip()
+        away_team = str(getattr(row, "away_team_name", "") or "").strip()
+        lineup_url = lineup_url_by_id.get(game_id)
+        if not lineup_url or not home_team or not away_team:
+            continue
+        response = session.get(lineup_url, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        tables = soup.select("table.table-hover")
+        if len(tables) < 2:
+            continue
+        for side, table in [("home", tables[0]), ("away", tables[1])]:
+            team_name = home_team if side == "home" else away_team
+            seen_names: set[str] = set()
+            for anchor in table.select("a[href*='/stats/players/'][href*='/player/']"):
+                player_name = _normalize_roster_player_name(anchor.get_text(" ", strip=True))
+                if not player_name or player_name in seen_names:
+                    continue
+                seen_names.add(player_name)
+                href = str(anchor.get("href") or "")
+                match = re.search(r"/player/(\d+)", href)
+                source_person_id = match.group(1) if match else ""
+                records.append(
+                    {
+                        "player_uid": _canonical_player_uid(player_name),
+                        "source_player_id": "",
+                        "source_person_id": source_person_id,
+                        "player": player_name,
+                        "team": team_name,
+                        "games": 1,
+                        "goals": 0,
+                        "assists": 0,
+                        "points": 0,
+                        "pim": 0,
+                        "penalties": 0,
+                    }
+                )
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league="Slovakia", source_system="slovakia")
+
+
+def _rows_from_latvia_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    from src.scrape_latvia import _fetch_calendar_matches, _new_session
+
+    configs = _load_league_configs_for("latvia", season, phase)
+    calendar_url = None
+    season_start_year = None
+    for cfg in configs:
+        lat = cfg.get("latvia") or {}
+        calendar_url = calendar_url or ((lat.get("calendar_urls") or [None])[0] if isinstance(lat.get("calendar_urls"), list) else None)
+        calendar_url = calendar_url or lat.get("calendar_url")
+        season_start_year = season_start_year or lat.get("season_start_year")
+    if not calendar_url or not season_start_year:
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Latvia", source_system="latvia")
+
+    session = _new_session()
+    calendar_matches = _fetch_calendar_matches(
+        session=session,
+        calendar_url=calendar_url,
+        season_start_year=int(season_start_year),
+        phase=phase,
+    )
+    proto_url_by_id = {m.game_id: m.proto_url for m in calendar_matches}
+
+    records: list[dict] = []
+    for row in matches.itertuples(index=False):
+        game_id = int(getattr(row, "game_id"))
+        home_team = str(getattr(row, "home_team_name", "") or "").strip()
+        away_team = str(getattr(row, "away_team_name", "") or "").strip()
+        proto_url = proto_url_by_id.get(game_id)
+        if not proto_url or not home_team or not away_team:
+            continue
+        response = session.get(proto_url, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        roster_tables = soup.select("table.speletaji")
+        if len(roster_tables) < 2:
+            continue
+        team_names = [home_team, away_team]
+        wrap_first_row = soup.select_one("table.speletaji_wrap tr")
+        if wrap_first_row:
+            wrap_cells = [c.get_text(" ", strip=True) for c in wrap_first_row.find_all("td")]
+            if len(wrap_cells) >= 2:
+                team_names = [wrap_cells[0] or home_team, wrap_cells[1] or away_team]
+        for idx, table in enumerate(roster_tables[:2]):
+            team_name = team_names[idx]
+            seen_names: set[str] = set()
+            for tr in table.select("tr"):
+                cells = tr.find_all("td")
+                if len(cells) < 2:
+                    continue
+                player_text = cells[1].get_text(" ", strip=True)
+                player_name = _normalize_roster_player_name(re.sub(r"#\s*\d+.*$", "", player_text).strip())
+                if not player_name or player_name in seen_names:
+                    continue
+                seen_names.add(player_name)
+                records.append(
+                    {
+                        "player_uid": _canonical_player_uid(player_name),
+                        "source_player_id": "",
+                        "source_person_id": "",
+                        "player": player_name,
+                        "team": team_name,
+                        "games": 1,
+                        "goals": 0,
+                        "assists": 0,
+                        "points": 0,
+                        "pim": 0,
+                        "penalties": 0,
+                    }
+                )
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league="Latvia", source_system="latvia")
+
+
+def _fetch_swiss_players_block(game_id: int, is_home: bool, session: requests.Session) -> str:
+    params = {
+        "view": "short",
+        "game_id": str(game_id),
+        "is_home": "1" if is_home else "0",
+        "block_type": "players",
+        "ID_Block": "SU_2886",
+        "locale": "de-CH",
+    }
+    response = session.get(SWISS_RENDER_URL, params=params, timeout=30)
+    response.raise_for_status()
+    return response.text
+
+
+def _extract_swiss_players(html: str) -> list[tuple[str, str]]:
+    soup = BeautifulSoup(html, "html.parser")
+    players: list[tuple[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for row in soup.select("table.su-result tbody tr"):
+        player_cell = row.select_one("td:nth-of-type(3)")
+        if player_cell is None:
+            continue
+        anchor = player_cell.select_one("a")
+        player_name = (anchor or player_cell).get_text(" ", strip=True)
+        player_name = str(player_name or "").strip()
+        if not player_name:
+            continue
+        href = str(anchor.get("href") if anchor else "")
+        match = re.search(r"player_id=(\d+)", href)
+        source_person_id = match.group(1) if match else ""
+        key = (player_name, source_person_id)
+        if key in seen:
+            continue
+        seen.add(key)
+        players.append(key)
+    return players
+
+
+def _rows_from_swiss_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    records: list[dict] = []
+    session = requests.Session()
+    for row in matches.itertuples(index=False):
+        game_id = int(row.game_id)
+        home_team = str(getattr(row, "home_team_name", "") or "").strip()
+        away_team = str(getattr(row, "away_team_name", "") or "").strip()
+        if not home_team or not away_team:
+            continue
+        home_html = _fetch_swiss_players_block(game_id=game_id, is_home=True, session=session)
+        away_html = _fetch_swiss_players_block(game_id=game_id, is_home=False, session=session)
+        for player_name, source_person_id in _extract_swiss_players(home_html):
+            records.append(
+                {
+                    "player_uid": _canonical_player_uid(player_name),
+                    "source_player_id": "",
+                    "source_person_id": source_person_id,
+                    "player": player_name,
+                    "team": home_team,
+                    "games": 1,
+                    "goals": 0,
+                    "assists": 0,
+                    "points": 0,
+                    "pim": 0,
+                    "penalties": 0,
+                }
+            )
+        for player_name, source_person_id in _extract_swiss_players(away_html):
+            records.append(
+                {
+                    "player_uid": _canonical_player_uid(player_name),
+                    "source_player_id": "",
+                    "source_person_id": source_person_id,
+                    "player": player_name,
+                    "team": away_team,
+                    "games": 1,
+                    "goals": 0,
+                    "assists": 0,
+                    "points": 0,
+                    "pim": 0,
+                    "penalties": 0,
+                }
+            )
+    stats = pd.DataFrame.from_records(records)
+    return _finalize_rows(stats, season=season, phase=phase, league="Switzerland", source_system="switzerland")
+
+
+def _merge_finalized_rows(
+    rows: list[pd.DataFrame], season: str, phase: str, league: str, source_system: str
+) -> pd.DataFrame:
+    compact: list[pd.DataFrame] = []
+    for frame in rows:
+        if frame is None or frame.empty:
+            continue
+        compact.append(
+            frame[
+                [
+                    "player_uid",
+                    "source_player_id",
+                    "source_person_id",
+                    "player",
+                    "team",
+                    "games",
+                    "goals",
+                    "assists",
+                    "points",
+                    "pim",
+                    "penalties",
+                ]
+            ].copy()
+        )
+    if not compact:
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system=source_system)
+    stats = pd.concat(compact, ignore_index=True)
+    for col in ["games", "goals", "assists", "points", "pim", "penalties"]:
+        stats[col] = stats[col].fillna(0).astype(int)
+
+    # Merge multiple sources (events + lineups) without double-counting appearances:
+    # games should be authoritative max per player/team, while counting stats are additive.
+    stats = (
+        stats.groupby(["player_uid", "player", "team"], as_index=False)
+        .agg(
+            {
+                "games": "max",
+                "goals": "sum",
+                "assists": "sum",
+                "pim": "sum",
+                "penalties": "sum",
+                "source_player_id": _aggregate_source_ids,
+                "source_person_id": _aggregate_source_ids,
+            }
+        )
+        .reset_index(drop=True)
+    )
+    stats["points"] = stats["goals"] + stats["assists"]
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system=source_system)
+
+
 def _get_api_root_and_headers() -> tuple[str, dict[str, str]]:
     payload = requests.get(STARTKIT_URL, timeout=30).json()
     api_root = payload.get("apiRoot") or DEFAULT_API_ROOT
@@ -282,6 +844,158 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                     league=info["league"],
                     source_system=info["source_system"],
                 )
+        elif prefix == "":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                match_ids = (
+                    pd.read_csv(candidate, usecols=["game_id"])["game_id"]
+                    .dropna()
+                    .astype(int)
+                    .drop_duplicates()
+                    .tolist()
+                )
+                lineup_rows = _rows_from_germany_lineups(match_ids=match_ids, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, lineup_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix == "cz":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = (
+                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
+                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
+                    .drop_duplicates(subset=["game_id"])
+                )
+                roster_rows = _rows_from_czech_rosters(
+                    matches,
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+                context_rows = _merge_finalized_rows(
+                    [event_rows, roster_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix == "ch":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = (
+                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
+                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
+                    .drop_duplicates(subset=["game_id"])
+                )
+                roster_rows = _rows_from_swiss_rosters(matches=matches, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, roster_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix == "fi":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = (
+                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
+                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
+                    .drop_duplicates(subset=["game_id"])
+                )
+                roster_rows = _rows_from_finland_rosters(matches=matches, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, roster_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix == "sk":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = (
+                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
+                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
+                    .drop_duplicates(subset=["game_id"])
+                )
+                roster_rows = _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, roster_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix == "lv":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = (
+                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
+                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
+                    .drop_duplicates(subset=["game_id"])
+                )
+                roster_rows = _rows_from_latvia_rosters(matches=matches, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, roster_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
         else:
             context_rows = _rows_from_event_csv(
                 candidate,

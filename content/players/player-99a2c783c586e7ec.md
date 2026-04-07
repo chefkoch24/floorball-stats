@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 19
+current_games: 26
 current_goals: 22
 current_assists: 17
 current_points: 39
 current_pim: 2
-regular_games: 19
+regular_games: 26
 regular_goals: 22
 regular_assists: 17
 regular_points: 39
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 26
 career_goals: 22
 career_assists: 17
 career_points: 39
 career_pim: 2
-history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|19|22|17|39|2
+history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|26|22|17|39|2
 assists: 17
-games: 19
+games: 26
 goals: 22
 penalties: 1
 phase: regular-season

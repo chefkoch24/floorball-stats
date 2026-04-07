@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 4
+current_games: 11
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 6
-regular_games: 4
+regular_games: 11
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 11
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 6
-history_rows_csv: 25-26|regular-season|Germany|SC Potsdam|4|2|0|2|6
+history_rows_csv: 25-26|regular-season|Germany|SC Potsdam|11|2|0|2|6
 assists: 0
-games: 4
+games: 11
 goals: 2
 penalties: 3
 phase: regular-season

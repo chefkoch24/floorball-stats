@@ -1,5 +1,5 @@
 Date: 2026-04-07
-Title: Ondrej . PAGÁČ
+Title: Ondrej PAGÁČ
 Category: players
 Slug: player-60a151251aeb42ed
 type: player
@@ -10,17 +10,17 @@ league: Slovakia
 season_count: 2
 current_season: sk-25-26
 previous_season: sk-24-25
-current_games: 2
+current_games: 17
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 4
-regular_games: 2
+regular_games: 13
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 4
-playoff_games: 0
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 8
-career_games: 5
+career_games: 20
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 12
-history_rows_csv: sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|2|0|0|0|4||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|3|0|0|0|8
+history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|4|0|0|0|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|2|0|0|0|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|0|0|0||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|3|0|0|0|8
 assists: 0
-games: 2
+games: 4
 goals: 0
-penalties: 2
-phase: regular-season
-pim: 4
+penalties: 0
+phase: playoffs
+pim: 0
 points: 0
-rank: 415
+rank: 340
 season: sk-25-26

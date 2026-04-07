@@ -10,7 +10,7 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 9
+current_games: 11
 current_goals: 6
 current_assists: 4
 current_points: 10
@@ -20,7 +20,7 @@ regular_goals: 5
 regular_assists: 2
 regular_points: 7
 regular_pim: 0
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 11
 career_goals: 6
 career_assists: 4
 career_points: 10
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|LASB|2|1|2|3|2||fi-25-26|regular-season|Finland|LASB|7|5|2|7|0
+history_rows_csv: fi-25-26|playoffs|Finland|LASB|4|1|2|3|2||fi-25-26|regular-season|Finland|LASB|7|5|2|7|0
 assists: 2
-games: 2
+games: 4
 goals: 1
 penalties: 1
 phase: playoffs

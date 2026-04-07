@@ -10,17 +10,17 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 3
+current_games: 13
 current_goals: 0
 current_assists: 3
 current_points: 3
 current_pim: 2
-regular_games: 3
+regular_games: 12
 regular_goals: 0
 regular_assists: 3
 regular_points: 3
 regular_pim: 2
-playoff_games: 0
+playoff_games: 1
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 13
 career_goals: 0
 career_assists: 3
 career_points: 3
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|2|0|3|3|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|2
-assists: 3
-games: 2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|11|0|3|3|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|2
+assists: 0
+games: 1
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
-points: 3
-rank: 267
+points: 0
+rank: 199
 season: cz-25-26

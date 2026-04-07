@@ -10,7 +10,10 @@
 - [x] Playoff Bracket Visualization
 - [x] Integrate full game events to have one place to check scorers, ...
 - [x] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
-- [ ] Improve SEO
+- [x] Improve SEO
+- [ ] Search for Players in the player list
+- [ ] Scalable process across leagues
+- [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
 
 

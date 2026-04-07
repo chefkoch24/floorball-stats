@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 13
+current_games: 31
 current_goals: 9
 current_assists: 8
 current_points: 17
 current_pim: 4
-regular_games: 13
+regular_games: 31
 regular_goals: 9
 regular_assists: 8
 regular_points: 17
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 13
+career_games: 31
 career_goals: 9
 career_assists: 8
 career_points: 17
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|11|9|8|17|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|2|0|0|0|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|29|9|8|17|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|2|0|0|0|4
 assists: 8
-games: 11
+games: 29
 goals: 9
 penalties: 0
 phase: regular-season

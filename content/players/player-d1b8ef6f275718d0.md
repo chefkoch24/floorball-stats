@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 10
+current_games: 13
 current_goals: 9
 current_assists: 10
 current_points: 19
 current_pim: 14
-regular_games: 10
+regular_games: 13
 regular_goals: 9
 regular_assists: 10
 regular_points: 19
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 13
 career_goals: 9
 career_assists: 10
 career_points: 19
 career_pim: 14
-history_rows_csv: 25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|10|9|10|19|14
+history_rows_csv: 25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|13|9|10|19|14
 assists: 10
-games: 10
+games: 13
 goals: 9
 penalties: 7
 phase: regular-season

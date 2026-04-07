@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 18
+current_games: 30
 current_goals: 7
 current_assists: 14
 current_points: 21
 current_pim: 12
-regular_games: 18
+regular_games: 30
 regular_goals: 7
 regular_assists: 14
 regular_points: 21
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 30
 career_goals: 7
 career_assists: 14
 career_points: 21
 career_pim: 12
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|13|7|14|21|0||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|5|0|0|0|12
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|25|7|14|21|0||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|5|0|0|0|12
 assists: 14
-games: 13
+games: 25
 goals: 7
 penalties: 0
 phase: regular-season

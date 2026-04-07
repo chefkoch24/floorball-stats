@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 10
+current_games: 23
 current_goals: 8
 current_assists: 1
 current_points: 9
 current_pim: 6
-regular_games: 10
+regular_games: 23
 regular_goals: 8
 regular_assists: 1
 regular_points: 9
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 23
 career_goals: 8
 career_assists: 1
 career_points: 9
 career_pim: 6
-history_rows_csv: cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|7|8|1|9|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|3|0|0|0|6
+history_rows_csv: cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|20|8|1|9|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|3|0|0|0|6
 assists: 1
-games: 7
+games: 20
 goals: 8
 penalties: 0
 phase: regular-season

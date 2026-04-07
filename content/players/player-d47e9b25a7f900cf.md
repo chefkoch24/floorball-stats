@@ -1,26 +1,26 @@
 Date: 2026-04-07
-Title: Viktor . MACINSKÝ
+Title: Viktor MACINSKÝ
 Category: players
 Slug: player-d47e9b25a7f900cf
 type: player
-player: Viktor . MACINSKÝ
+player: Viktor MACINSKÝ
 player_uid: player-d47e9b25a7f900cf
 team: FK Florko Košice
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 3
+current_games: 28
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 6
-regular_games: 3
+regular_games: 24
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 6
-playoff_games: 0
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 28
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 6
-history_rows_csv: sk-25-26|regular-season|Slovakia|FK Florko Košice|3|0|0|0|6
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FK Florko Košice|3|0|0|0|6||sk-25-26|regular-season|Slovakia|FK Florko Košice|21|0|0|0|0
 assists: 0
-games: 3
+games: 4
 goals: 0
-penalties: 3
-phase: regular-season
-pim: 6
+penalties: 0
+phase: playoffs
+pim: 0
 points: 0
-rank: 466
+rank: 410
 season: sk-25-26
