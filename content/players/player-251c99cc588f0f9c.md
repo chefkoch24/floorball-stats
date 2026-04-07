@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: JANČO Samuel
 Category: players
 Slug: player-251c99cc588f0f9c
@@ -7,35 +7,35 @@ player: JANČO Samuel
 player_uid: player-251c99cc588f0f9c
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 14
-current_goals: 23
-current_assists: 8
-current_points: 31
+previous_season: n.a.
+current_games: 6
+current_goals: 14
+current_assists: 0
+current_points: 14
 current_pim: 0
-regular_games: 8
-regular_goals: 9
-regular_assists: 8
-regular_points: 17
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 6
 playoff_goals: 14
 playoff_assists: 0
 playoff_points: 14
 playoff_pim: 0
-previous_games: 15
-previous_goals: 26
-previous_assists: 13
-previous_points: 39
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 29
-career_goals: 49
-career_assists: 21
-career_points: 70
+career_games: 6
+career_goals: 14
+career_assists: 0
+career_points: 14
 career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|6|14|0|14|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|9|8|17|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|15|26|13|39|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|6|14|0|14|0
 assists: 0
 games: 6
 goals: 14

@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Olli Jokela
 Category: players
 Slug: player-7077dd3c5feda5d6
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 14
-current_goals: 5
-current_assists: 12
-current_points: 17
+current_games: 2
+current_goals: 0
+current_assists: 2
+current_points: 2
 current_pim: 0
-regular_games: 12
-regular_goals: 5
-regular_assists: 10
-regular_points: 15
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 14
-career_goals: 5
-career_assists: 12
-career_points: 17
+career_games: 2
+career_goals: 0
+career_assists: 2
+career_points: 2
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Oilers|2|0|2|2|0||fi-25-26|regular-season|Finland|Oilers|12|5|10|15|0
+history_rows_csv: fi-25-26|playoffs|Finland|Oilers|2|0|2|2|0
 assists: 2
 games: 2
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 83
+rank: 86
 season: fi-25-26

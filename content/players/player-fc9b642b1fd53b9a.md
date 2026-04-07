@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: LATKA Martin
 Category: players
 Slug: player-fc9b642b1fd53b9a
@@ -7,35 +7,35 @@ player: LATKA Martin
 player_uid: player-fc9b642b1fd53b9a
 team: FBK Nižná
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 22
-current_goals: 18
-current_assists: 31
-current_points: 49
+previous_season: n.a.
+current_games: 3
+current_goals: 2
+current_assists: 2
+current_points: 4
 current_pim: 0
-regular_games: 19
-regular_goals: 16
-regular_assists: 29
-regular_points: 45
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 2
 playoff_assists: 2
 playoff_points: 4
 playoff_pim: 0
-previous_games: 18
-previous_goals: 23
-previous_assists: 21
-previous_points: 44
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 40
-career_goals: 41
-career_assists: 52
-career_points: 93
+career_games: 3
+career_goals: 2
+career_assists: 2
+career_points: 4
 career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|3|2|2|4|0||sk-25-26|regular-season|Slovakia|FBK Nižná|19|16|29|45|0||sk-24-25|regular-season|Slovakia|FBK Nižná|18|23|21|44|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|3|2|2|4|0
 assists: 2
 games: 3
 goals: 2

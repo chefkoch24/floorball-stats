@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: F. Göldi
 Category: players
 Slug: player-e88d88a7ab20189a
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 2
-rank: 66
+rank: 69
 season: ch-25-26

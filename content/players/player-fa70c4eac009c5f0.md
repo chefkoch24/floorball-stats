@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Samuli Junnila
 Category: players
 Slug: player-fa70c4eac009c5f0
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 23
-current_goals: 25
-current_assists: 17
-current_points: 42
+current_games: 4
+current_goals: 5
+current_assists: 1
+current_points: 6
 current_pim: 0
-regular_games: 19
-regular_goals: 20
-regular_assists: 16
-regular_points: 36
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 4
 playoff_goals: 5
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
-career_goals: 25
-career_assists: 17
-career_points: 42
+career_games: 4
+career_goals: 5
+career_assists: 1
+career_points: 6
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Indians|4|5|1|6|0||fi-25-26|regular-season|Finland|Indians|19|20|16|36|0
+history_rows_csv: fi-25-26|playoffs|Finland|Indians|4|5|1|6|0
 assists: 1
 games: 4
 goals: 5

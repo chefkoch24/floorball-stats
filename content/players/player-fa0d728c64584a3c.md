@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Niko Einiö
 Category: players
 Slug: player-fa0d728c64584a3c
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 24
-current_goals: 29
-current_assists: 8
-current_points: 37
+current_games: 3
+current_goals: 5
+current_assists: 0
+current_points: 5
 current_pim: 0
-regular_games: 21
-regular_goals: 24
-regular_assists: 8
-regular_points: 32
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 5
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
-career_goals: 29
-career_assists: 8
-career_points: 37
+career_games: 3
+career_goals: 5
+career_assists: 0
+career_points: 5
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Indians|3|5|0|5|0||fi-25-26|regular-season|Finland|Indians|21|24|8|32|0
+history_rows_csv: fi-25-26|playoffs|Finland|Indians|3|5|0|5|0
 assists: 0
 games: 3
 goals: 5

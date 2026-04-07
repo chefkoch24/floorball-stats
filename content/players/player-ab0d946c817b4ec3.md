@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 26
-current_goals: 35
-current_assists: 23
-current_points: 58
+current_games: 2
+current_goals: 4
+current_assists: 1
+current_points: 5
 current_pim: 0
-regular_games: 24
-regular_goals: 31
-regular_assists: 22
-regular_points: 53
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 26
-career_goals: 35
-career_assists: 23
-career_points: 58
+career_games: 2
+career_goals: 4
+career_assists: 1
+career_points: 5
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|4|1|5|0||fi-25-26|regular-season|Finland|Nokian KrP|24|31|22|53|0
+history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|4|1|5|0
 assists: 1
 games: 2
 goals: 4

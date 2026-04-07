@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: Andrej 12 min. STRELEC
 Category: players
 Slug: player-ac238734fde6e6b1

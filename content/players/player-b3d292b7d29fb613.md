@@ -1,4 +1,4 @@
-Date: 2026-04-06
+Date: 2026-04-07
 Title: STANO Šimon
 Category: players
 Slug: player-b3d292b7d29fb613
@@ -7,35 +7,35 @@ player: STANO Šimon
 player_uid: player-b3d292b7d29fb613
 team: FK Florko Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 18
-current_goals: 14
-current_assists: 21
-current_points: 35
+previous_season: n.a.
+current_games: 3
+current_goals: 5
+current_assists: 3
+current_points: 8
 current_pim: 0
-regular_games: 15
-regular_goals: 9
-regular_assists: 18
-regular_points: 27
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 5
 playoff_assists: 3
 playoff_points: 8
 playoff_pim: 0
-previous_games: 9
-previous_goals: 6
-previous_assists: 8
-previous_points: 14
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 27
-career_goals: 20
-career_assists: 29
-career_points: 49
+career_games: 3
+career_goals: 5
+career_assists: 3
+career_points: 8
 career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|3|5|3|8|0||sk-25-26|regular-season|Slovakia|FK Florko Košice|15|9|18|27|0||sk-24-25|regular-season|Slovakia|FK Florko Košice|9|6|8|14|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|3|5|3|8|0
 assists: 3
 games: 3
 goals: 5
