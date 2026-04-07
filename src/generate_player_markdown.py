@@ -83,11 +83,8 @@ def _phase_priority(phase: str) -> int:
 
 def _canonical_player_uid(row: dict[str, str], player: str) -> str:
     existing = row.get("player_uid", "").strip()
-    if existing and (existing.startswith("player-") or existing.startswith("player_")):
+    if existing:
         return existing.lower()
-    normalized_player = normalize_slug_fragment(player)
-    if normalized_player:
-        return generate_player_uid("player", normalized_player)
     source_system = row.get("source_system", "").strip().lower()
     source_person_id = row.get("source_person_id", "").strip()
     if source_person_id and source_person_id != "0":
@@ -95,7 +92,10 @@ def _canonical_player_uid(row: dict[str, str], player: str) -> str:
     source_player_id = row.get("source_player_id", "").strip()
     if source_player_id and source_player_id != "0":
         return generate_player_uid(source_system or "unknown", "player", source_player_id)
-    return normalize_slug_fragment(player)
+    normalized_player = normalize_slug_fragment(player)
+    if normalized_player:
+        return normalized_player
+    return generate_player_uid("player", player)
 
 
 def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadata_date: str) -> tuple[str, str]:
