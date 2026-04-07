@@ -10,16 +10,16 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 31
-current_goals: 18
-current_assists: 13
-current_points: 31
-current_pim: 10
-regular_games: 26
-regular_goals: 18
-regular_assists: 10
-regular_points: 28
-regular_pim: 8
+current_games: 5
+current_goals: 0
+current_assists: 3
+current_points: 3
+current_pim: 2
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 5
 playoff_goals: 0
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
-career_goals: 18
-career_assists: 13
-career_points: 31
-career_pim: 10
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|5|0|3|3|2||se-25-26|regular-season|Sweden|Växjö IBK|26|18|10|28|8
+career_games: 5
+career_goals: 0
+career_assists: 3
+career_points: 3
+career_pim: 2
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|5|0|3|3|2
 assists: 3
 games: 5
 goals: 0

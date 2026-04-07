@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-25
 Title: League Average
 Category: se-25-26-playoffs, liga
 Slug: league-average-se-25-26-playoffs
@@ -75,7 +75,7 @@ percent_goals_first_period_against: 24.53
 percent_goals_overtime: 0.33
 percent_goals_overtime_against: 0.78
 percent_goals_second_period: 27.52
-percent_goals_second_period_against: 28.91
+percent_goals_second_period_against: 28.9
 percent_goals_third_period: 39.75
 percent_goals_third_period_against: 38.13
 points: 7.88
