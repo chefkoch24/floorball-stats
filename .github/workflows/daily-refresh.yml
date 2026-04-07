@@ -75,6 +75,8 @@ jobs:
           set -e
           make refresh-slovakia-smart
           make refresh-latvia-smart
+          make refresh-player-stats
+          make refresh-player-pages
           make html
 
       - name: Run tests
