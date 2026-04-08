@@ -79,6 +79,8 @@
     const rows = Array.from(document.querySelectorAll('tr.player-search-row'));
     const totalRows = rows.length;
     const removeCombiningMarks = /[\u0300-\u036f]/g;
+    let searchTrackTimer = null;
+    let lastTrackedQuery = '';
 
     function normalizeForSearch(value) {
         return String(value || '')
@@ -113,11 +115,42 @@
         if (emptyNode) {
             emptyNode.hidden = visible !== 0;
         }
+        return { query: query, visible: visible };
+    }
+
+    function trackSearch(query, visible) {
+        if (!window.posthog || typeof window.posthog.capture !== 'function') {
+            return;
+        }
+        if (!query || query === lastTrackedQuery) {
+            return;
+        }
+        lastTrackedQuery = query;
+        window.posthog.capture('player_search_used', {
+            query_length: query.length,
+            token_count: query.split(/\s+/).filter(Boolean).length,
+            results_count: visible,
+            total_rows: totalRows,
+            page_path: window.location.pathname,
+            search_context: 'player_stats_page',
+        });
     }
 
     if (countNode) {
         countNode.textContent = String(totalRows);
     }
-    searchInput.addEventListener('input', updateFilter);
+    searchInput.addEventListener('input', function () {
+        const state = updateFilter();
+        if (searchTrackTimer) {
+            window.clearTimeout(searchTrackTimer);
+        }
+        if (!state.query) {
+            lastTrackedQuery = '';
+            return;
+        }
+        searchTrackTimer = window.setTimeout(function () {
+            trackSearch(state.query, state.visible);
+        }, 500);
+    });
 })();
 </script>
