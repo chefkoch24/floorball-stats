@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: D. Kälin
 Category: players
 Slug: player-6f8a5bc55e248a76

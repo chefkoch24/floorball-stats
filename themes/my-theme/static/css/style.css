@@ -791,6 +791,43 @@ body.feedback-modal-open {
   color: var(--card-text);
 }
 
+.table-search {
+  margin: 0 0 0.8rem;
+}
+
+.table-search-label {
+  display: block;
+  margin: 0 0 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table-search-input {
+  width: min(420px, 100%);
+  border: 1px solid var(--line);
+  background: var(--surface-muted);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 0.48rem 0.62rem;
+  font-size: 0.92rem;
+}
+
+.table-search-input:focus {
+  outline: none;
+  border-color: var(--accent-line);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-soft) 65%, transparent);
+}
+
+.table-search-status,
+.table-search-empty {
+  margin: 0.4rem 0 0;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+}
+
 .panel-actions {
   margin-top: 1rem;
   display: flex;

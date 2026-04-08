@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: J. Tschan
 Category: players
 Slug: player-83eaae2b39832d6f

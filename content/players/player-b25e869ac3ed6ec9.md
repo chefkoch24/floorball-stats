@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pārstāvis Jānis Trēziņš
 Category: players
 Slug: player-b25e869ac3ed6ec9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 191
+rank: 186
 season: lv-25-26

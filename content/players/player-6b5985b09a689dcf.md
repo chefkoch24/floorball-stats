@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Michal VICO
+Date: 2026-04-08
+Title: Michal Vico
 Category: players
 Slug: player-6b5985b09a689dcf
 type: player
-player: Michal . VICO
+player: Michal Vico
 player_uid: player-6b5985b09a689dcf
 team: ŠK Lido Prírodovedec Bratislava
 league: Slovakia
-season_count: 2
-current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 29
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 4
-regular_games: 21
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 4
-playoff_games: 8
+season_count: 1
+current_season: sk-24-25
+previous_season: n.a.
+current_games: 20
+current_goals: 7
+current_assists: 7
+current_points: 14
+current_pim: 18
+regular_games: 20
+regular_goals: 7
+regular_assists: 7
+regular_points: 14
+regular_pim: 18
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 9
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 18
-career_games: 38
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 22
-history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|8|0|0|0|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|2|0|0|0|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|19|0|0|0|0||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|9|0|0|0|18
-assists: 0
-games: 8
-goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
-points: 0
-rank: 323
-season: sk-25-26
+previous_pim: 0
+career_games: 20
+career_goals: 7
+career_assists: 7
+career_points: 14
+career_pim: 18
+history_rows_csv: sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|7|14|18
+assists: 7
+games: 20
+goals: 7
+penalties: 9
+phase: regular-season
+pim: 18
+points: 14
+rank: 88
+season: sk-24-25

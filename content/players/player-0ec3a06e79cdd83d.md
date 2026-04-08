@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Mikuláš Krbec C
 Category: players
 Slug: player-0ec3a06e79cdd83d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 271
+rank: 202
 season: cz-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Miikka Marjamäki
 Category: players
 Slug: player-fb3b401896bf37c7
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 213
+rank: 212
 season: fi-25-26

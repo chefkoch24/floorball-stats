@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Andris Briedis
 Category: players
 Slug: player-8cf08943ec206ff0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 132
+rank: 127
 season: lv-25-26

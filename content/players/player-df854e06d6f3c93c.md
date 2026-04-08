@@ -1,21 +1,21 @@
-Date: 2026-04-07
-Title: Andrej BÁLINT
+Date: 2026-04-08
+Title: Andrej Bálint
 Category: players
 Slug: player-df854e06d6f3c93c
 type: player
-player: Andrej BÁLINT
+player: Andrej Bálint
 player_uid: player-df854e06d6f3c93c
 team: Tsunami Záhorská Bystrica
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 1
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|1|0|0|0|0||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|1|0|0|0|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 148
+rank: 130
 season: sk-25-26

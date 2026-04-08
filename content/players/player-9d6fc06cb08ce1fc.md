@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Anton BREICHA
+Date: 2026-04-08
+Title: Anton Breicha
 Category: players
 Slug: player-9d6fc06cb08ce1fc
 type: player
-player: Anton BREICHA
+player: Anton Breicha
 player_uid: player-9d6fc06cb08ce1fc
 team: FaBK ATU Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 156
+rank: 133
 season: sk-25-26

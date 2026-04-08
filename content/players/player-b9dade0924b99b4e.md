@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Santtu Pohjonen
 Category: players
 Slug: player-b9dade0924b99b4e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 255
+rank: 254
 season: fi-25-26

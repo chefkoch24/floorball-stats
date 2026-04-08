@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Kroužek
 Category: players
 Slug: player-26e7b46395ee7fe7
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 431
+rank: 300
 season: cz-25-26

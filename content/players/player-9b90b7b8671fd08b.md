@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Gints Siliņš
 Category: players
 Slug: player-9b90b7b8671fd08b
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 28
+current_games: 24
 current_goals: 9
 current_assists: 12
 current_points: 21
 current_pim: 10
-regular_games: 28
+regular_games: 24
 regular_goals: 9
 regular_assists: 12
 regular_points: 21
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 24
 career_goals: 9
 career_assists: 12
 career_points: 21
 career_pim: 10
-history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|24|9|12|21|0||lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|4|0|0|0|10
+history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|24|9|12|21|10
 assists: 12
 games: 24
 goals: 9
-penalties: 0
+penalties: 5
 phase: regular-season
-pim: 0
+pim: 10
 points: 21
 rank: 61
 season: lv-25-26

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Rudolf KOLEDA
+Date: 2026-04-08
+Title: Rudolf Koleda
 Category: players
 Slug: player-b7395c3db71123bb
 type: player
-player: Rudolf KOLEDA
+player: Rudolf Koleda
 player_uid: player-b7395c3db71123bb
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 709
+rank: 331
 season: sk-25-26

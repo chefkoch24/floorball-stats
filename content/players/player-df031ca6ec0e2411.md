@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Andrej . VRÁBEL
+Date: 2026-04-08
+Title: Andrej Vrábel
 Category: players
 Slug: player-df031ca6ec0e2411
 type: player
-player: Andrej . VRÁBEL
+player: Andrej Vrábel
 player_uid: player-df031ca6ec0e2411
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
 season_count: 1
-current_season: sk-25-26
+current_season: sk-24-25
 previous_season: n.a.
-current_games: 30
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 2
-regular_games: 21
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+current_games: 3
+current_goals: 2
+current_assists: 1
+current_points: 3
+current_pim: 0
+regular_games: 3
+regular_goals: 2
+regular_assists: 1
+regular_points: 3
 regular_pim: 0
-playoff_games: 9
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
+playoff_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 30
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|1|0|0|0|2||sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|21|0|0|0|0
-assists: 0
-games: 1
-goals: 0
-penalties: 1
-phase: playoffs
-pim: 2
-points: 0
-rank: 146
-season: sk-25-26
+career_games: 3
+career_goals: 2
+career_assists: 1
+career_points: 3
+career_pim: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|3|2|1|3|0
+assists: 1
+games: 3
+goals: 2
+penalties: 0
+phase: regular-season
+pim: 0
+points: 3
+rank: 187
+season: sk-24-25

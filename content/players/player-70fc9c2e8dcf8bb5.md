@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Dušan ĎURMEK
+Date: 2026-04-08
+Title: Dušan Ďurmek
 Category: players
 Slug: player-70fc9c2e8dcf8bb5
 type: player
-player: Dušan ĎURMEK
+player: Dušan Ďurmek
 player_uid: player-70fc9c2e8dcf8bb5
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 187
+rank: 146
 season: sk-25-26

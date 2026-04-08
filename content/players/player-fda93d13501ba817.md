@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Michal Blažek
 Category: players
 Slug: player-fda93d13501ba817
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 390
+rank: 283
 season: cz-25-26

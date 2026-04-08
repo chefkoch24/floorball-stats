@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Michal CHAMILLA
+Date: 2026-04-08
+Title: Michal Chamilla
 Category: players
 Slug: player-3d3d43206bff5eac
 type: player
-player: Michal CHAMILLA
+player: Michal Chamilla
 player_uid: player-3d3d43206bff5eac
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 615
+rank: 315
 season: sk-25-26

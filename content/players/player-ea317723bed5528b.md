@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kristers Keišs
 Category: players
 Slug: player-ea317723bed5528b
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 273
+rank: 258
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Dāvids Daniels Kalniņš
 Category: players
 Slug: player-aa6e08ffcffff3c0
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 250
+rank: 236
 season: lv-25-26

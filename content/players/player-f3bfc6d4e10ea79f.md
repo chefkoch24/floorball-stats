@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Matúš ŠTUPÁK
+Date: 2026-04-08
+Title: Matúš Štupák
 Category: players
 Slug: player-f3bfc6d4e10ea79f
 type: player
-player: Matúš . ŠTUPÁK
+player: Matúš Štupák
 player_uid: player-f3bfc6d4e10ea79f
-team: FaBK ATU Košice
+team: FBC DAG Prešov
 league: Slovakia
-season_count: 2
-current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 24
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 2
-regular_games: 20
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 2
-playoff_games: 4
+season_count: 1
+current_season: sk-24-25
+previous_season: n.a.
+current_games: 6
+current_goals: 4
+current_assists: 4
+current_points: 8
+current_pim: 4
+regular_games: 6
+regular_goals: 4
+regular_assists: 4
+regular_points: 8
+regular_pim: 4
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 2
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 4
-career_games: 26
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 6
-history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|1|0|0|0|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|19|0|0|0|0||sk-24-25|regular-season|Slovakia|FBC DAG Prešov|2|0|0|0|4
-assists: 0
-games: 4
-goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
-points: 0
-rank: 295
-season: sk-25-26
+previous_pim: 0
+career_games: 6
+career_goals: 4
+career_assists: 4
+career_points: 8
+career_pim: 4
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBC DAG Prešov|6|4|4|8|4
+assists: 4
+games: 6
+goals: 4
+penalties: 2
+phase: regular-season
+pim: 4
+points: 8
+rank: 129
+season: sk-24-25

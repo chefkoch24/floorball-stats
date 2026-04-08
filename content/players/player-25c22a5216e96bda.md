@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Treneris Normunds Jansons
 Category: players
 Slug: player-25c22a5216e96bda
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 349
+rank: 333
 season: lv-25-26

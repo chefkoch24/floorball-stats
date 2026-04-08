@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Mikula
 Category: players
 Slug: player-ced4e8b1d715b67d
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 527
+rank: 330
 season: cz-25-26

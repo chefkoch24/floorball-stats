@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Panu Kivinen
 Category: players
 Slug: player-50632c7adc52cc3e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 232
+rank: 231
 season: fi-25-26

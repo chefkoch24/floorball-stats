@@ -1,4 +1,4 @@
-from src.scrape_slovakia import MatchCard, scrape_competition
+from src.scrape_slovakia import MatchCard, _normalize_player_name, _parse_penalty_player, scrape_competition
 
 
 class _FakeResponse:
@@ -69,3 +69,14 @@ def test_scrape_competition_filters_placeholder_teams_for_regular_season(monkeyp
 
     assert set(df["game_id"].tolist()) == {1}
     assert set(df["home_team_name"].tolist()) == {"Real Team A"}
+
+
+def test_normalize_player_name_reorders_and_normalizes_casing():
+    assert _normalize_player_name("PETRÁK, JAROSLAV") == "Jaroslav Petrák"
+    assert _normalize_player_name("karel petrák") == "Karel Petrák"
+    assert _normalize_player_name("Tomáš . Tvrdý") == "Tomáš Tvrdý"
+
+
+def test_parse_penalty_player_strips_dot_separator_and_team_penalty():
+    assert _parse_penalty_player("12:31 Tomáš . Tvrdý 2 Min.") == "Tomáš Tvrdý"
+    assert _parse_penalty_player("2:00 Team Penalty 2 Min.") is None

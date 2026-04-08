@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Henrijs Gustavs Magons
 Category: players
 Slug: player-3e1b0b0dc4ba0d78
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 266
+rank: 251
 season: lv-25-26

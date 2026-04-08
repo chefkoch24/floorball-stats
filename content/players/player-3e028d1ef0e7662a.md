@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Matúš PINTÉR
+Date: 2026-04-08
+Title: Matúš Pintér
 Category: players
 Slug: player-3e028d1ef0e7662a
 type: player
-player: Matúš PINTÉR
+player: Matúš Pintér
 player_uid: player-3e028d1ef0e7662a
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 586
+rank: 312
 season: sk-25-26

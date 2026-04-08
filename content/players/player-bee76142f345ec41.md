@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Eero Ranne
 Category: players
 Slug: player-bee76142f345ec41

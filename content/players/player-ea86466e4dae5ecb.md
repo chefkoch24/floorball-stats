@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Emīls Dzalbs
 Category: players
 Slug: player-ea86466e4dae5ecb
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 38
+current_games: 37
 current_goals: 17
 current_assists: 16
 current_points: 33
 current_pim: 12
-regular_games: 24
+regular_games: 23
 regular_goals: 8
 regular_assists: 10
 regular_points: 18
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 38
+career_games: 37
 career_goals: 17
 career_assists: 16
 career_points: 33
 career_pim: 12
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|9|6|15|2||lv-25-26|regular-season|Latvia|Lekrings|23|8|10|18|8||lv-25-26|regular-season|Latvia|Lekrings|1|0|0|0|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|9|6|15|2||lv-25-26|regular-season|Latvia|Lekrings|23|8|10|18|10
 assists: 6
 games: 14
 goals: 9

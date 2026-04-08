@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jan Malič
 Category: players
 Slug: player-a61fe37265a5b1b0
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 35
+current_games: 33
 current_goals: 12
 current_assists: 36
 current_points: 48
 current_pim: 6
-regular_games: 28
+regular_games: 26
 regular_goals: 11
 regular_assists: 31
 regular_points: 42
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 35
+career_games: 33
 career_goals: 12
 career_assists: 36
 career_points: 48
 career_pim: 6
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|6|1|5|6|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|1|0|0|0|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|11|31|42|0||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|2|0|0|0|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|7|1|5|6|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|11|31|42|4
 assists: 5
-games: 6
+games: 7
 goals: 1
-penalties: 0
+penalties: 1
 phase: playoffs
-pim: 0
+pim: 2
 points: 6
-rank: 36
+rank: 40
 season: cz-25-26

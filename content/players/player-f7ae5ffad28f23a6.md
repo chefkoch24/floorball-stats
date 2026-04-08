@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Matúš TURAN
+Date: 2026-04-08
+Title: Matúš Turan
 Category: players
 Slug: player-f7ae5ffad28f23a6
 type: player
-player: Matúš TURAN
+player: Matúš Turan
 player_uid: player-f7ae5ffad28f23a6
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 590
+rank: 314
 season: sk-25-26

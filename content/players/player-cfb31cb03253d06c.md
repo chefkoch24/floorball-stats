@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tomass Freiverts
 Category: players
 Slug: player-cfb31cb03253d06c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 216
+rank: 210
 season: lv-25-26

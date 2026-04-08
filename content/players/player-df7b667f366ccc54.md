@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kirils Namļinskis
 Category: players
 Slug: player-df7b667f366ccc54

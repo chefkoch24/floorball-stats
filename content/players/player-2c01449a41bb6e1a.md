@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Martins Traubergs
 Category: players
 Slug: player-2c01449a41bb6e1a
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 283
+rank: 267
 season: lv-25-26

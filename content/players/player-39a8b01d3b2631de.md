@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Nico Moser
 Category: players
 Slug: player-39a8b01d3b2631de

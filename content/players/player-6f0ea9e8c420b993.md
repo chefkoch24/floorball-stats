@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Dobosz
 Category: players
 Slug: player-6f0ea9e8c420b993
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 657
+rank: 383
 season: cz-25-26

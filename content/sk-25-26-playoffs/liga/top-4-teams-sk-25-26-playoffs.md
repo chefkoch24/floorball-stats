@@ -50,7 +50,7 @@ goals_in_second_period: 19.0
 goals_in_second_period_against: 15.5
 goals_in_third_period: 22.75
 goals_in_third_period_against: 16.5
-goals_per_game: 6.27
+goals_per_game: 6.28
 home_points: 10.25
 loss_1: 1.5
 losses: 2.75

@@ -1,24 +1,24 @@
-Date: 2026-04-07
-Title: Róbert . TREFNÝ
+Date: 2026-04-08
+Title: Róbert Trefný
 Category: players
 Slug: player-9f2f37eeeb251daa
 type: player
-player: Róbert . TREFNÝ
+player: Róbert Trefný
 player_uid: player-9f2f37eeeb251daa
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
 season_count: 1
 current_season: sk-24-25
 previous_season: n.a.
-current_games: 2
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 9
+current_goals: 4
+current_assists: 4
+current_points: 8
 current_pim: 4
-regular_games: 2
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 9
+regular_goals: 4
+regular_assists: 4
+regular_points: 8
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 9
+career_goals: 4
+career_assists: 4
+career_points: 8
 career_pim: 4
-history_rows_csv: sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|2|0|0|0|4
-assists: 0
-games: 2
-goals: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|9|4|4|8|4
+assists: 4
+games: 9
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 0
-rank: 450
+points: 8
+rank: 131
 season: sk-24-25

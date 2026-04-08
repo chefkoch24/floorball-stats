@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Saku Mäkimarttunen
 Category: players
 Slug: player-c2a2fd3e57a1d667
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 250
+rank: 249
 season: fi-25-26

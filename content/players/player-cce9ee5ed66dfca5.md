@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jannik Nitsche
 Category: players
 Slug: player-cce9ee5ed66dfca5

@@ -30,11 +30,11 @@ class GameDetails:
     header_text: str | None = None
 
 
-def _fetch_block(game_id: int, block_type: str, locale: str = "de-CH") -> str:
+def _fetch_block(game_id: int, block_type: str, locale: str = "de-CH", is_home: bool = True) -> str:
     params = {
         "view": "short",
         "game_id": str(game_id),
-        "is_home": "1",
+        "is_home": "1" if is_home else "0",
         "block_type": block_type,
         "ID_Block": "SU_2886",
         "locale": locale,
@@ -138,13 +138,101 @@ def _parse_player_details(player_text: str | None) -> tuple[str | None, str | No
         return None, None
     assist_match = re.search(r"(?:assist|vorlage)\s*[:\-]?\s*(.+)$", cleaned, re.I)
     if assist_match:
-        scorer_name = cleaned[:assist_match.start()].strip(" ,;-")
-        assist_name = assist_match.group(1).strip(" ,;-")
+        scorer_name = cleaned[:assist_match.start()].strip(" ,;()-")
+        assist_name = assist_match.group(1).strip(" ,;()-")
         return scorer_name or None, assist_name or None
     match = re.match(r"(?P<scorer>.+?)(?:\s*\((?P<assist>[^)]+)\))?$", cleaned)
     if not match:
         return cleaned, None
     return (match.group("scorer") or "").strip() or None, (match.group("assist") or "").strip() or None
+
+
+def _normalize_person_name(value: str | None) -> str | None:
+    cleaned = " ".join(str(value or "").split()).strip()
+    if not cleaned:
+        return None
+    if "," in cleaned:
+        last_name, first_name = [part.strip() for part in cleaned.split(",", 1)]
+        if first_name and last_name:
+            cleaned = f"{first_name} {last_name}"
+    tokens = [token for token in re.split(r"\s+", cleaned) if token]
+    normalized_tokens: list[str] = []
+    for token in tokens:
+        if len(token) <= 1:
+            normalized_tokens.append(token)
+            continue
+        if token.endswith(".") and len(token) <= 3:
+            normalized_tokens.append(token.upper())
+            continue
+        if token.isupper() or token.islower():
+            normalized_tokens.append(token[0].upper() + token[1:].lower())
+            continue
+        normalized_tokens.append(token)
+    normalized = " ".join(normalized_tokens).strip()
+    return normalized or None
+
+
+def _abbreviated_player_key(full_name: str) -> str | None:
+    parts = [part for part in full_name.split(" ") if part]
+    if len(parts) < 2:
+        return None
+    first = parts[0]
+    last = parts[-1]
+    if not first or not last:
+        return None
+    return f"{first[0].upper()}. {last}"
+
+
+def _parse_players_block_names(html: str) -> list[str]:
+    soup = BeautifulSoup(html, "html.parser")
+    names: list[str] = []
+    seen: set[str] = set()
+    for row in soup.select("table.su-result tbody tr"):
+        player_cell = row.select_one("td:nth-of-type(3)")
+        if player_cell is None:
+            continue
+        anchor = player_cell.select_one("a")
+        player_name = (anchor or player_cell).get_text(" ", strip=True)
+        normalized = _normalize_person_name(player_name)
+        if not normalized:
+            continue
+        key = normalized.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        names.append(normalized)
+    return names
+
+
+def _build_player_name_lookup(game_id: int, details: GameDetails) -> dict[str, dict[str, str]]:
+    lookup: dict[str, dict[str, str]] = {details.home_team: {}, details.away_team: {}}
+    try:
+        home_html = _fetch_block(game_id, "players", is_home=True)
+        away_html = _fetch_block(game_id, "players", is_home=False)
+    except requests.RequestException:
+        return lookup
+
+    for team_name, html in [(details.home_team, home_html), (details.away_team, away_html)]:
+        team_lookup = lookup.setdefault(team_name, {})
+        for full_name in _parse_players_block_names(html):
+            keys = {full_name.lower()}
+            abbreviated = _abbreviated_player_key(full_name)
+            if abbreviated:
+                keys.add(abbreviated.lower())
+                keys.add(abbreviated.replace(".", "").lower())
+            for key in keys:
+                team_lookup.setdefault(key, full_name)
+    return lookup
+
+
+def _resolve_player_name(name: str | None, team_name: str | None, lookup: dict[str, dict[str, str]]) -> str | None:
+    normalized = _normalize_person_name(name)
+    if not normalized:
+        return None
+    if not team_name:
+        return normalized
+    team_lookup = lookup.get(team_name) or {}
+    return team_lookup.get(normalized.lower(), team_lookup.get(normalized.replace(".", "").lower(), normalized))
 
 
 def _classify_phase(header_text: str | None) -> str:
@@ -184,10 +272,16 @@ def _needs_overtime_marker(result_string: str | None) -> bool:
     return "n.v" in text or "verlängerung" in text
 
 
-def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[dict[str, Any]]:
+def _parse_game_events(
+    html: str,
+    game_id: int,
+    details: GameDetails,
+    player_name_lookup: dict[str, dict[str, str]] | None = None,
+) -> list[dict[str, Any]]:
     soup = BeautifulSoup(html, "html.parser")
     rows = soup.select("table.su-result tbody tr")
     events: list[dict[str, Any]] = []
+    name_lookup = player_name_lookup or {}
 
     for row in rows:
         cells = [c.get_text(" ", strip=True) for c in row.find_all("td")]
@@ -211,6 +305,8 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
 
         if event_text.startswith("Torschütze") and team_name:
             scorer_name, assist_name = _parse_player_details(player_text)
+            scorer_name = _resolve_player_name(scorer_name, team_name, name_lookup)
+            assist_name = _resolve_player_name(assist_name, team_name, name_lookup)
             events.append(
                 {
                     "event_type": "goal",
@@ -239,6 +335,7 @@ def _parse_game_events(html: str, game_id: int, details: GameDetails) -> list[di
             )
         elif "strafe" in event_text.lower() and team_name:
             penalty_player_name, _ = _parse_player_details(player_text)
+            penalty_player_name = _resolve_player_name(penalty_player_name, team_name, name_lookup)
             events.append(
                 {
                     "event_type": "penalty",
@@ -490,6 +587,7 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
         details_html = _fetch_block(game_id, "game_details")
         events_html = _fetch_block(game_id, "game_events")
         details = _parse_game_details(details_html)
+        player_name_lookup = _build_player_name_lookup(game_id, details)
         if phase_filter:
             game_phase = _classify_phase(details.header_text)
             if phase_filter == "playoffs":
@@ -499,7 +597,7 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
                     continue
             elif game_phase != phase_filter:
                 continue
-        events = _parse_game_events(events_html, game_id, details)
+        events = _parse_game_events(events_html, game_id, details, player_name_lookup=player_name_lookup)
         if events:
             all_events.extend(events)
         else:

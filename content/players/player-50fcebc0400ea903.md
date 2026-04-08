@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jiří Hájek
 Category: players
 Slug: player-50fcebc0400ea903
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 559
+rank: 342
 season: cz-25-26

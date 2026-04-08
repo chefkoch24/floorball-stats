@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tomáš Bém
 Category: players
 Slug: player-8dc28963b6e47a7c
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 748
+rank: 420
 season: cz-25-26

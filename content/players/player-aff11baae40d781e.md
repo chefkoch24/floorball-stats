@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Malte Lundmark
 Category: players
 Slug: player-aff11baae40d781e
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 32
+current_games: 33
 current_goals: 49
 current_assists: 30
 current_points: 79
@@ -20,7 +20,7 @@ regular_goals: 38
 regular_assists: 24
 regular_points: 62
 regular_pim: 0
-playoff_games: 6
+playoff_games: 7
 playoff_goals: 11
 playoff_assists: 6
 playoff_points: 17
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 49
 career_assists: 30
 career_points: 79
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|6|11|6|17|2||se-25-26|regular-season|Sweden|IBF Falun|26|38|24|62|0
+history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|7|11|6|17|2||se-25-26|regular-season|Sweden|IBF Falun|26|38|24|62|0
 assists: 6
-games: 6
+games: 7
 goals: 11
 penalties: 1
 phase: playoffs

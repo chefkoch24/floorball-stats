@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vojtěch Hubinger
 Category: players
 Slug: player-f4a61dd6e1b83dc1
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 321
+rank: 275
 season: cz-25-26

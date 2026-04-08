@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Vítovec C
 Category: players
 Slug: player-91a3ef145bcd188e
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 707
+rank: 401
 season: cz-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Lauri Ranki
 Category: players
 Slug: player-c2f4e3eef910b95c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 200
+rank: 199
 season: fi-25-26

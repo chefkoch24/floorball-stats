@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Tadeáš TOKARČÍK
+Date: 2026-04-08
+Title: Tadeáš Tokarčík
 Category: players
 Slug: player-6dc25a11de842d1e
 type: player
-player: Tadeáš TOKARČÍK
+player: Tadeáš Tokarčík
 player_uid: player-6dc25a11de842d1e
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 386
+rank: 203
 season: sk-25-26

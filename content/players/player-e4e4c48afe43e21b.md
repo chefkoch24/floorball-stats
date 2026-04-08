@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vít Pavelka
 Category: players
 Slug: player-e4e4c48afe43e21b
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 266
+rank: 246
 season: cz-25-26

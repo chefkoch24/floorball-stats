@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Matej VÁCLAVÍK
+Date: 2026-04-08
+Title: Matej Václavík
 Category: players
 Slug: player-8b50d2dda453b4f4
 type: player
-player: Matej VÁCLAVÍK
+player: Matej Václavík
 player_uid: player-8b50d2dda453b4f4
 team: DTF team Detva Joxers
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 570
+rank: 307
 season: sk-25-26

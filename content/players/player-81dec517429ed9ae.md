@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Štěpán Novák
 Category: players
 Slug: player-81dec517429ed9ae
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 796
+rank: 435
 season: cz-25-26

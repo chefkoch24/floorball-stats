@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: PELEGRIN Patrik
+Date: 2026-04-08
+Title: Pelegrin Patrik
 Category: players
 Slug: player-a387fe15c42fd9fa
 type: player
-player: PELEGRIN Patrik
+player: Pelegrin Patrik
 player_uid: player-a387fe15c42fd9fa
 team: FK Florko Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 14
+previous_season: n.a.
+current_games: 39
 current_goals: 16
 current_assists: 13
 current_points: 29
-current_pim: 0
-regular_games: 13
+current_pim: 16
+regular_games: 33
 regular_goals: 16
 regular_assists: 12
 regular_points: 28
-regular_pim: 0
-playoff_games: 1
+regular_pim: 14
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
-playoff_pim: 0
-previous_games: 14
-previous_goals: 15
-previous_assists: 14
-previous_points: 29
+playoff_pim: 2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 28
-career_goals: 31
-career_assists: 27
-career_points: 58
-career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|1|0|1|1|0||sk-25-26|regular-season|Slovakia|FK Florko Košice|13|16|12|28|0||sk-24-25|regular-season|Slovakia|FK Florko Košice|14|15|14|29|0
+career_games: 39
+career_goals: 16
+career_assists: 13
+career_points: 29
+career_pim: 16
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|6|0|1|1|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|33|16|12|28|14
 assists: 1
-games: 1
+games: 6
 goals: 0
-penalties: 0
+penalties: 1
 phase: playoffs
-pim: 0
+pim: 2
 points: 1
-rank: 123
+rank: 121
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: L. Tringaniello
 Category: players
 Slug: player-b9f77d7f8c5684f0

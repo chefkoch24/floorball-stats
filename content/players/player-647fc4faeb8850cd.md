@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Róbert HAMRÁK
+Date: 2026-04-08
+Title: Róbert Hamrák
 Category: players
 Slug: player-647fc4faeb8850cd
 type: player
-player: Róbert HAMRÁK
+player: Róbert Hamrák
 player_uid: player-647fc4faeb8850cd
 team: FaBK ATU Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 372
+rank: 199
 season: sk-25-26

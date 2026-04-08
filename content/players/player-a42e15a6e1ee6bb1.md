@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Radim Křenek
 Category: players
 Slug: player-a42e15a6e1ee6bb1
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 24
+current_games: 22
 current_goals: 2
 current_assists: 10
 current_points: 12
 current_pim: 4
-regular_games: 21
+regular_games: 19
 regular_goals: 2
 regular_assists: 6
 regular_points: 8
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 22
 career_goals: 2
 career_assists: 10
 career_points: 12
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|4|4|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|19|2|6|8|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|2|0|0|0|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|4|4|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|19|2|6|8|4
 assists: 4
 games: 3
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 63
+rank: 66
 season: cz-25-26

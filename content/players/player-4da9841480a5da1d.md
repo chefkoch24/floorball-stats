@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Uldis Dūniņš
 Category: players
 Slug: player-4da9841480a5da1d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 226
+rank: 220
 season: lv-25-26

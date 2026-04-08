@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Marek (Technický trest (ČK)) 20 min. PISKORZ
+Date: 2026-04-08
+Title: Marek (Technický Trest (čk)) 20 Min. Piskorz
 Category: players
 Slug: player-a1d8998fd2fe2b52
 type: player
-player: Marek (Technický trest (ČK)) 20 min. PISKORZ
+player: Marek (Technický Trest (čk)) 20 Min. Piskorz
 player_uid: player-a1d8998fd2fe2b52
 team: FBK Nižná
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 347
+rank: 280
 season: sk-24-25

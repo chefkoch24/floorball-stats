@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Lukáš Täuber
 Category: players
 Slug: player-4a836dd0e1ccc117
@@ -35,13 +35,13 @@ career_goals: 1
 career_assists: 7
 career_points: 8
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|6|1|7|8|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|2|0|0|0|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|8|1|7|8|4
 assists: 7
-games: 6
+games: 8
 goals: 1
-penalties: 0
+penalties: 2
 phase: regular-season
-pim: 0
+pim: 4
 points: 8
-rank: 168
+rank: 176
 season: cz-25-26

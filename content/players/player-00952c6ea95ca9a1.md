@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Patriks Zvejnieks
 Category: players
 Slug: player-00952c6ea95ca9a1

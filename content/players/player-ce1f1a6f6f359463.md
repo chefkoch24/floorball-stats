@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Antonín Votava
 Category: players
 Slug: player-ce1f1a6f6f359463
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 25
-current_goals: 26
+current_games: 22
+current_goals: 27
 current_assists: 13
-current_points: 39
+current_points: 40
 current_pim: 6
-regular_games: 25
-regular_goals: 26
+regular_games: 22
+regular_goals: 27
 regular_assists: 13
-regular_points: 39
+regular_points: 40
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
-career_goals: 26
+career_games: 22
+career_goals: 27
 career_assists: 13
-career_points: 39
+career_points: 40
 career_pim: 6
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|22|26|13|39|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|3|0|0|0|6
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|22|27|13|40|6
 assists: 13
 games: 22
-goals: 26
-penalties: 0
+goals: 27
+penalties: 3
 phase: regular-season
-pim: 0
-points: 39
-rank: 23
+pim: 6
+points: 40
+rank: 25
 season: cz-25-26

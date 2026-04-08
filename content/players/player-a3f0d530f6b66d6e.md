@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Dominik Dvořák C
 Category: players
 Slug: player-a3f0d530f6b66d6e
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 486
+rank: 318
 season: cz-25-26

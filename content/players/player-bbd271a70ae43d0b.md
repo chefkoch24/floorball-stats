@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Anton Kidell
 Category: players
 Slug: player-bbd271a70ae43d0b

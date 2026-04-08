@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Rasmus Österman
 Category: players
 Slug: player-9ec881c0ca4cb2df
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 245
+rank: 244
 season: fi-25-26

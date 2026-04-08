@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Krupica
 Category: players
 Slug: player-1199d0ee6a1e858e
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 525
+rank: 329
 season: cz-25-26

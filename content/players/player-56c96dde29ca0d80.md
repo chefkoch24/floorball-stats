@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Miroslav Steiger
 Category: players
 Slug: player-56c96dde29ca0d80
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 692
+rank: 394
 season: cz-25-26

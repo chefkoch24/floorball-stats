@@ -1,25 +1,25 @@
-Date: 2026-04-07
-Title: JANČOK Jakub
+Date: 2026-04-08
+Title: Jančok Jakub
 Category: players
 Slug: player-1da1aa0a4dec5453
 type: player
-player: JANČOK Jakub
+player: Jančok Jakub
 player_uid: player-1da1aa0a4dec5453
 team: FK Florko Košice
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 15
 current_goals: 2
 current_assists: 0
 current_points: 2
-current_pim: 0
-regular_games: 2
+current_pim: 2
+regular_games: 15
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 15
 career_goals: 2
 career_assists: 0
 career_points: 2
-career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|FK Florko Košice|2|2|0|2|0
+career_pim: 2
+history_rows_csv: sk-25-26|regular-season|Slovakia|FK Florko Košice|15|2|0|2|2
 assists: 0
-games: 2
+games: 15
 goals: 2
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 2
-rank: 208
+rank: 207
 season: sk-25-26

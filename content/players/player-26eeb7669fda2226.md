@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pietari Jääskeläinen
 Category: players
 Slug: player-26eeb7669fda2226
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 235
+rank: 234
 season: fi-25-26

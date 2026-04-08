@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Viliam SCHROJF
+Date: 2026-04-08
+Title: Viliam Schrojf
 Category: players
 Slug: player-1f27c80918df1fee
 type: player
-player: Viliam SCHROJF
+player: Viliam Schrojf
 player_uid: player-1f27c80918df1fee
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 790
+rank: 344
 season: sk-25-26

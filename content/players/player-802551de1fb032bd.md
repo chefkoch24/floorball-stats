@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vojtěch Šmatlák
 Category: players
 Slug: player-802551de1fb032bd
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 307
+rank: 228
 season: cz-25-26

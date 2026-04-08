@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Artis Saldatenoks
 Category: players
 Slug: player-885bb039edb53e40
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 246
+rank: 232
 season: lv-25-26

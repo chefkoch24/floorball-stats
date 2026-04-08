@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Samuel . MLKVIK
+Date: 2026-04-08
+Title: Samuel Mlkvik
 Category: players
 Slug: player-a2b2194d8f0cbe19
 type: player
-player: Samuel . MLKVIK
+player: Samuel Mlkvik
 player_uid: player-a2b2194d8f0cbe19
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 457
+rank: 291
 season: sk-24-25

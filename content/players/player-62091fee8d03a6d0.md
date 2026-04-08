@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pārstāvis Ivars Jēkabsons
 Category: players
 Slug: player-62091fee8d03a6d0
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 302
+rank: 286
 season: lv-25-26

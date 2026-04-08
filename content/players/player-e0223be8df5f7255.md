@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Teemu Korhonen
 Category: players
 Slug: player-e0223be8df5f7255
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 261
+rank: 260
 season: fi-25-26

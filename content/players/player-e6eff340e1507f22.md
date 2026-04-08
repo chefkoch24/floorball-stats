@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Josef Šedivý
 Category: players
 Slug: player-e6eff340e1507f22
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 569
+rank: 346
 season: cz-25-26

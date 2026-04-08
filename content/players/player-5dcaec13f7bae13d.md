@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Adam . SABOL
+Date: 2026-04-08
+Title: Adam Sabol
 Category: players
 Slug: player-5dcaec13f7bae13d
 type: player
-player: Adam . SABOL
+player: Adam Sabol
 player_uid: player-5dcaec13f7bae13d
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
-season_count: 2
-current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 33
-current_goals: 0
-current_assists: 0
-current_points: 0
+season_count: 1
+current_season: sk-24-25
+previous_season: n.a.
+current_games: 17
+current_goals: 12
+current_assists: 16
+current_points: 28
 current_pim: 6
-regular_games: 24
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 4
-playoff_games: 9
+regular_games: 17
+regular_goals: 12
+regular_assists: 16
+regular_points: 28
+regular_pim: 6
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
-previous_games: 3
+playoff_pim: 0
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 6
-career_games: 36
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 12
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|1|0|0|0|2||sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|2|0|0|0|4||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|22|0|0|0|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|3|0|0|0|6
-assists: 0
-games: 1
-goals: 0
-penalties: 1
-phase: playoffs
-pim: 2
-points: 0
-rank: 129
-season: sk-25-26
+previous_pim: 0
+career_games: 17
+career_goals: 12
+career_assists: 16
+career_points: 28
+career_pim: 6
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|17|12|16|28|6
+assists: 16
+games: 17
+goals: 12
+penalties: 3
+phase: regular-season
+pim: 6
+points: 28
+rank: 31
+season: sk-24-25

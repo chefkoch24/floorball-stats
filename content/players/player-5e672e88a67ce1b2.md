@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jonáš Kreysa
 Category: players
 Slug: player-5e672e88a67ce1b2
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 31
-current_goals: 15
+current_games: 29
+current_goals: 16
 current_assists: 8
-current_points: 23
+current_points: 24
 current_pim: 4
-regular_games: 28
-regular_goals: 14
+regular_games: 26
+regular_goals: 15
 regular_assists: 8
-regular_points: 22
+regular_points: 23
 regular_pim: 4
 playoff_games: 3
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
-career_goals: 15
+career_games: 29
+career_goals: 16
 career_assists: 8
-career_points: 23
+career_points: 24
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|3|1|0|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|14|8|22|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|2|0|0|0|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|3|1|0|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|15|8|23|4
 assists: 0
 games: 3
 goals: 1
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 131
+rank: 118
 season: cz-25-26

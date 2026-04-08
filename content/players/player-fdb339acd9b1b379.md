@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Filip Kovářík
 Category: players
 Slug: player-fdb339acd9b1b379
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 196
+rank: 160
 season: cz-25-26

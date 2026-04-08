@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Lauris Nazarovs
 Category: players
 Slug: player-69f7e5ea7a378a01
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 164
+rank: 159
 season: lv-25-26

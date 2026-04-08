@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marek Zabral
 Category: players
 Slug: player-5136c5c13e76c2bb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 244
+rank: 187
 season: cz-25-26

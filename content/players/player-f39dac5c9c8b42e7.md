@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vojta Čapek
 Category: players
 Slug: player-f39dac5c9c8b42e7
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 152
+rank: 131
 season: cz-25-26

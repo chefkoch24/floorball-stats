@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Onni Forss
 Category: players
 Slug: player-fa3e0bde7c024448
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 227
+rank: 226
 season: fi-25-26

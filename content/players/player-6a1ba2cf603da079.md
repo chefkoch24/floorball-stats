@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Simon KRÁČMAR
+Date: 2026-04-08
+Title: Simon Kráčmar
 Category: players
 Slug: player-6a1ba2cf603da079
 type: player
-player: Simon KRÁČMAR
+player: Simon Kráčmar
 player_uid: player-6a1ba2cf603da079
 team: FK Florko Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 736
+rank: 337
 season: sk-25-26

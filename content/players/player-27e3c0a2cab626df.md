@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Michal KORČEK
+Date: 2026-04-08
+Title: Michal Korček
 Category: players
 Slug: player-27e3c0a2cab626df
 type: player
-player: Michal . KORČEK
+player: Michal Korček
 player_uid: player-27e3c0a2cab626df
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
 season_count: 2
 current_season: sk-25-26
 previous_season: sk-24-25
-current_games: 30
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 54
+current_goals: 20
+current_assists: 21
+current_points: 41
 current_pim: 0
-regular_games: 22
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 40
+regular_goals: 16
+regular_assists: 13
+regular_points: 29
 regular_pim: 0
-playoff_games: 8
-playoff_goals: 0
-playoff_assists: 0
-playoff_points: 0
+playoff_games: 14
+playoff_goals: 4
+playoff_assists: 8
+playoff_points: 12
 playoff_pim: 0
-previous_games: 2
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_games: 13
+previous_goals: 13
+previous_assists: 7
+previous_points: 20
 previous_pim: 4
-career_games: 32
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 67
+career_goals: 33
+career_assists: 28
+career_points: 61
 career_pim: 4
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|22|0|0|0|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|2|0|0|0|4
-assists: 0
-games: 8
-goals: 0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|14|4|8|12|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|40|16|13|29|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|13|13|7|20|4
+assists: 8
+games: 14
+goals: 4
 penalties: 0
 phase: playoffs
 pim: 0
-points: 0
-rank: 316
+points: 12
+rank: 13
 season: sk-25-26

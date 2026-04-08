@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Jakub KLOBUČNÍK
+Date: 2026-04-08
+Title: Jakub Klobučník
 Category: players
 Slug: player-c13bbf129c854ccd
 type: player
-player: Jakub KLOBUČNÍK
+player: Jakub Klobučník
 player_uid: player-c13bbf129c854ccd
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 214
+rank: 158
 season: sk-25-26

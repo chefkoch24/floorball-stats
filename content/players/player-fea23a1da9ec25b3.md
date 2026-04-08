@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: David Kozelka
 Category: players
 Slug: player-fea23a1da9ec25b3
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 337
+rank: 277
 season: cz-25-26

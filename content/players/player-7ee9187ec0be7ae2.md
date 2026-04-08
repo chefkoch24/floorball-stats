@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tomáš Týc
 Category: players
 Slug: player-7ee9187ec0be7ae2
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 298
+rank: 222
 season: cz-25-26

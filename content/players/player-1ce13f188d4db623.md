@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Hőpp
 Category: players
 Slug: player-1ce13f188d4db623
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 662
+rank: 385
 season: cz-25-26

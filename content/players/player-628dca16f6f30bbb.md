@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Šváb
 Category: players
 Slug: player-628dca16f6f30bbb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 214
+rank: 169
 season: cz-25-26

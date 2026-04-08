@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Daniel Dias
 Category: players
 Slug: player-6aaebc994800428b

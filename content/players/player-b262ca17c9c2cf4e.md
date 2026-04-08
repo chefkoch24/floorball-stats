@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tom Fougstedt
 Category: players
 Slug: player-b262ca17c9c2cf4e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 264
+rank: 263
 season: fi-25-26

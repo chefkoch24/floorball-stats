@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Richard HODÁK
+Date: 2026-04-08
+Title: Richard Hodák
 Category: players
 Slug: player-fdc1c425134f9c99
 type: player
-player: Richard HODÁK
+player: Richard Hodák
 player_uid: player-fdc1c425134f9c99
 team: Snipers Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 696
+rank: 327
 season: sk-25-26

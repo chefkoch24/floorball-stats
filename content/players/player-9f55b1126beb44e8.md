@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Patrik Šebek
 Category: players
 Slug: player-9f55b1126beb44e8
@@ -10,17 +10,17 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 33
+current_games: 31
 current_goals: 22
 current_assists: 13
 current_points: 35
 current_pim: 4
-regular_games: 27
+regular_games: 26
 regular_goals: 18
 regular_assists: 10
 regular_points: 28
 regular_pim: 2
-playoff_games: 6
+playoff_games: 5
 playoff_goals: 4
 playoff_assists: 3
 playoff_points: 7
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 33
+career_games: 31
 career_goals: 22
 career_assists: 13
 career_points: 35
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|5|4|3|7|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|1|0|0|0|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|18|10|28|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|1|0|0|0|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|5|4|3|7|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|18|10|28|2
 assists: 3
 games: 5
 goals: 4
-penalties: 0
+penalties: 1
 phase: playoffs
-pim: 0
+pim: 2
 points: 7
-rank: 20
+rank: 24
 season: cz-25-26

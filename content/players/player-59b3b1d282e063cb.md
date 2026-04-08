@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Habart
 Category: players
 Slug: player-59b3b1d282e063cb
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 661
+rank: 384
 season: cz-25-26

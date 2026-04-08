@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Martin TOMAGA
+Date: 2026-04-08
+Title: Martin Tomaga
 Category: players
 Slug: player-afc8a593c4359db3
 type: player
-player: Martin TOMAGA
+player: Martin Tomaga
 player_uid: player-afc8a593c4359db3
 team: FBK Nižná
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 545
+rank: 303
 season: sk-25-26

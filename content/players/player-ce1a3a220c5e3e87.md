@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marek Šmíd C
 Category: players
 Slug: player-ce1a3a220c5e3e87
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 245
+rank: 188
 season: cz-25-26

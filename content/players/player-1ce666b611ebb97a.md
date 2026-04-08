@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jesper Sankell
 Category: players
 Slug: player-1ce666b611ebb97a
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 28
+current_games: 29
 current_goals: 13
 current_assists: 19
 current_points: 32
@@ -20,7 +20,7 @@ regular_goals: 12
 regular_assists: 18
 regular_points: 30
 regular_pim: 10
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 1
 playoff_assists: 1
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 29
 career_goals: 13
 career_assists: 19
 career_points: 32
 career_pim: 18
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|5|1|1|2|8||se-25-26|regular-season|Sweden|Växjö IBK|23|12|18|30|10
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|1|1|2|8||se-25-26|regular-season|Sweden|Växjö IBK|23|12|18|30|10
 assists: 1
-games: 5
+games: 6
 goals: 1
 penalties: 4
 phase: playoffs

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kosťantyn Šlosar
 Category: players
 Slug: player-ba08a5bc251503a9
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 576
+rank: 348
 season: cz-25-26

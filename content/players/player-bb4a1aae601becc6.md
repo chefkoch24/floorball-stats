@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Oliver Järvenreuna
 Category: players
 Slug: player-bb4a1aae601becc6
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 221
+rank: 220
 season: fi-25-26

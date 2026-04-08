@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Emīls Krūmiņš
 Category: players
 Slug: player-8d30e9d5f0ad3fe1
@@ -43,5 +43,5 @@ penalties: 8
 phase: regular-season
 pim: 16
 points: 43
-rank: 11
+rank: 10
 season: lv-25-26

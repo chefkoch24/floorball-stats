@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Peter (Trest do konca zápasu (ČK)) 20 min. HRABČÁK
+Date: 2026-04-08
+Title: Peter (Trest Do Konca Zápasu (čk)) 20 Min. Hrabčák
 Category: players
 Slug: player-6bc8b8a3ffd99f7c
 type: player
-player: Peter (Trest do konca zápasu (ČK)) 20 min. HRABČÁK
+player: Peter (Trest Do Konca Zápasu (čk)) 20 Min. Hrabčák
 player_uid: player-6bc8b8a3ffd99f7c
 team: FK Florko Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 432
+rank: 287
 season: sk-24-25

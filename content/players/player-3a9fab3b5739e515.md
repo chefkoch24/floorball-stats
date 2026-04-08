@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jaroslav David
 Category: players
 Slug: player-3a9fab3b5739e515
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 554
+rank: 341
 season: cz-25-26

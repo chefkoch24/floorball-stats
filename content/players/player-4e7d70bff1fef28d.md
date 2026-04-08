@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kaapo Kettunen
 Category: players
 Slug: player-4e7d70bff1fef28d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 190
+rank: 189
 season: fi-25-26

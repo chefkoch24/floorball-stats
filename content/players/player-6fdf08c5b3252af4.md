@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Timi Kotka
 Category: players
 Slug: player-6fdf08c5b3252af4
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 262
+rank: 261
 season: fi-25-26

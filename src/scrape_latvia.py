@@ -284,6 +284,8 @@ def _normalize_player_name(text: str | None) -> str | None:
     cleaned = " ".join(str(text).split()).strip(" ,;-")
     if not cleaned:
         return None
+    cleaned = cleaned.replace("#", " ")
+    cleaned = " ".join(cleaned.split()).strip(" ,;-")
     cleaned = re.sub(r"\(\([^)]*\)\)", "", cleaned).strip(" ,;-")
     cleaned = re.sub(r"\(#?\d+[^)]*\)", "", cleaned).strip(" ,;-")
     cleaned = cleaned.split(", #", 1)[0].strip(" ,;-")

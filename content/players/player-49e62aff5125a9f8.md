@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Maxmilián Munduch
 Category: players
 Slug: player-49e62aff5125a9f8
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 674
+rank: 387
 season: cz-25-26

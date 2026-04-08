@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Severin Ott
 Category: players
 Slug: player-54d0a0d00e3ee9e7

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Mi. Wellauer
+Date: 2026-04-08
+Title: MI. Wellauer
 Category: players
 Slug: player-b8158d7d7cda15f1
 type: player
-player: Mi. Wellauer
+player: MI. Wellauer
 player_uid: player-b8158d7d7cda15f1
 team: Floorball Thurgau
 league: Switzerland

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pepe Strömmer
 Category: players
 Slug: player-3110ed4c615d42cf
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 234
+rank: 233
 season: fi-25-26

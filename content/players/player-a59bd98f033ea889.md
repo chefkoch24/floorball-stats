@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: PAULIKOVIČ Patrik
+Date: 2026-04-08
+Title: Paulikovič Patrik
 Category: players
 Slug: player-a59bd98f033ea889
 type: player
-player: PAULIKOVIČ Patrik
+player: Paulikovič Patrik
 player_uid: player-a59bd98f033ea889
 team: ŠK Lido Prírodovedec Bratislava
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 7
+previous_season: n.a.
+current_games: 43
 current_goals: 4
 current_assists: 3
 current_points: 7
-current_pim: 0
-regular_games: 3
+current_pim: 12
+regular_games: 28
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
-regular_pim: 0
-playoff_games: 4
+regular_pim: 10
+playoff_games: 15
 playoff_goals: 2
 playoff_assists: 2
 playoff_points: 4
-playoff_pim: 0
-previous_games: 6
-previous_goals: 3
-previous_assists: 6
-previous_points: 9
+playoff_pim: 2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 13
-career_goals: 7
-career_assists: 9
-career_points: 16
-career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|4|2|2|4|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|3|2|1|3|0||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|6|3|6|9|0
+career_games: 43
+career_goals: 4
+career_assists: 3
+career_points: 7
+career_pim: 12
+history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|15|2|2|4|2||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|28|2|1|3|10
 assists: 2
-games: 4
+games: 15
 goals: 2
-penalties: 0
+penalties: 1
 phase: playoffs
-pim: 0
+pim: 2
 points: 4
-rank: 53
+rank: 52
 season: sk-25-26

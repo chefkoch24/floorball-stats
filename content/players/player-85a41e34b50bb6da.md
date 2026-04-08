@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ivan Pergler C
 Category: players
 Slug: player-85a41e34b50bb6da
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 505
+rank: 321
 season: cz-25-26

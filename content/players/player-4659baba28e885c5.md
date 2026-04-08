@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Renàrs Capars
 Category: players
 Slug: player-4659baba28e885c5

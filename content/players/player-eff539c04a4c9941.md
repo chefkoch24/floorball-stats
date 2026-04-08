@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Janne Kuusiluoto
 Category: players
 Slug: player-eff539c04a4c9941
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 163
+rank: 162
 season: fi-25-26

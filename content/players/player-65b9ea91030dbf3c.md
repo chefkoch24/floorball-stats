@@ -1,25 +1,25 @@
-Date: 2026-04-07
-Title: PAVLIKOVSKÝ Alex
+Date: 2026-04-08
+Title: Pavlikovský Alex
 Category: players
 Slug: player-65b9ea91030dbf3c
 type: player
-player: PAVLIKOVSKÝ Alex
+player: Pavlikovský Alex
 player_uid: player-65b9ea91030dbf3c
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 5
+current_games: 21
 current_goals: 4
 current_assists: 4
 current_points: 8
-current_pim: 0
-regular_games: 5
+current_pim: 4
+regular_games: 21
 regular_goals: 4
 regular_assists: 4
 regular_points: 8
-regular_pim: 0
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 21
 career_goals: 4
 career_assists: 4
 career_points: 8
-career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|5|4|4|8|0
+career_pim: 4
+history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|21|4|4|8|4
 assists: 4
-games: 5
+games: 21
 goals: 4
-penalties: 0
+penalties: 2
 phase: regular-season
-pim: 0
+pim: 4
 points: 8
 rank: 124
 season: sk-25-26

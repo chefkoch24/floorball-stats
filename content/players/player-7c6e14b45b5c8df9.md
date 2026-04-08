@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Hampus Öhgren
 Category: players
 Slug: player-7c6e14b45b5c8df9
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 31
+current_games: 32
 current_goals: 18
 current_assists: 13
 current_points: 31
@@ -20,7 +20,7 @@ regular_goals: 18
 regular_assists: 10
 regular_points: 28
 regular_pim: 8
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 3
 playoff_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 32
 career_goals: 18
 career_assists: 13
 career_points: 31
 career_pim: 10
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|5|0|3|3|2||se-25-26|regular-season|Sweden|Växjö IBK|26|18|10|28|8
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|0|3|3|2||se-25-26|regular-season|Sweden|Växjö IBK|26|18|10|28|8
 assists: 3
-games: 5
+games: 6
 goals: 0
 penalties: 1
 phase: playoffs

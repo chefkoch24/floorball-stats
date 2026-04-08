@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Rasmus Nyström
 Category: players
 Slug: player-83fe5fbb2e25fc6f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 240
+rank: 239
 season: fi-25-26

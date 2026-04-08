@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marek Beneš C
 Category: players
 Slug: player-c4dd89e414c5e0df
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 603
+rank: 361
 season: cz-25-26

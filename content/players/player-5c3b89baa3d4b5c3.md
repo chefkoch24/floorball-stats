@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Ján ŠUŠKA
+Date: 2026-04-08
+Title: Ján Šuška
 Category: players
 Slug: player-5c3b89baa3d4b5c3
 type: player
-player: Ján . ŠUŠKA
+player: Ján Šuška
 player_uid: player-5c3b89baa3d4b5c3
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
-season_count: 2
-current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 27
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 2
-regular_games: 19
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 2
-playoff_games: 8
+season_count: 1
+current_season: sk-24-25
+previous_season: n.a.
+current_games: 15
+current_goals: 15
+current_assists: 11
+current_points: 26
+current_pim: 6
+regular_games: 15
+regular_goals: 15
+regular_assists: 11
+regular_points: 26
+regular_pim: 6
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 3
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 6
-career_games: 30
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 8
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|1|0|0|0|2||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|18|0|0|0|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|3|0|0|0|6
-assists: 0
-games: 8
-goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
-points: 0
-rank: 233
-season: sk-25-26
+previous_pim: 0
+career_games: 15
+career_goals: 15
+career_assists: 11
+career_points: 26
+career_pim: 6
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|15|15|11|26|6
+assists: 11
+games: 15
+goals: 15
+penalties: 3
+phase: regular-season
+pim: 6
+points: 26
+rank: 36
+season: sk-24-25

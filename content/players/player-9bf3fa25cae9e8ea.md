@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Oscar Magnusson
 Category: players
 Slug: player-9bf3fa25cae9e8ea
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 57
+current_games: 58
 current_goals: 13
 current_assists: 9
 current_points: 22
@@ -20,7 +20,7 @@ regular_goals: 12
 regular_assists: 9
 regular_points: 21
 regular_pim: 10
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 1
 playoff_assists: 0
 playoff_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 57
+career_games: 58
 career_goals: 13
 career_assists: 9
 career_points: 22
 career_pim: 10
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|5|1|0|1|0||se-25-26|regular-season|Sweden|Storvreta IBK / Visby IBK|52|12|9|21|10
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|6|1|0|1|0||se-25-26|regular-season|Sweden|Storvreta IBK / Visby IBK|52|12|9|21|10
 assists: 0
-games: 5
+games: 6
 goals: 1
 penalties: 0
 phase: playoffs

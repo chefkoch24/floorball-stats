@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Alexander KOŠTIAL
+Date: 2026-04-08
+Title: Alexander Koštial
 Category: players
 Slug: player-4afd873fd3622fa6
 type: player
-player: Alexander KOŠTIAL
+player: Alexander Koštial
 player_uid: player-4afd873fd3622fa6
 team: Florbalový klub AS Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 297
+rank: 267
 season: sk-25-26

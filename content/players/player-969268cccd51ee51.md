@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: Adam . HERVAY
+Date: 2026-04-08
+Title: Adam Hervay
 Category: players
 Slug: player-969268cccd51ee51
 type: player
-player: Adam . HERVAY
+player: Adam Hervay
 player_uid: player-969268cccd51ee51
 team: Tsunami Záhorská Bystrica
 league: Slovakia
-season_count: 2
-current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 35
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 8
-regular_games: 24
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 6
-playoff_games: 11
+season_count: 1
+current_season: sk-24-25
+previous_season: n.a.
+current_games: 6
+current_goals: 3
+current_assists: 2
+current_points: 5
+current_pim: 4
+regular_games: 6
+regular_goals: 3
+regular_assists: 2
+regular_points: 5
+regular_pim: 4
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
-previous_games: 2
+playoff_pim: 0
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 4
-career_games: 37
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 12
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|1|0|0|0|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|0|0|0|0||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|2|0|0|0|6||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|22|0|0|0|0||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|2|0|0|0|4
-assists: 0
-games: 1
-goals: 0
-penalties: 1
-phase: playoffs
-pim: 2
-points: 0
-rank: 127
-season: sk-25-26
+previous_pim: 0
+career_games: 6
+career_goals: 3
+career_assists: 2
+career_points: 5
+career_pim: 4
+history_rows_csv: sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|6|3|2|5|4
+assists: 2
+games: 6
+goals: 3
+penalties: 2
+phase: regular-season
+pim: 4
+points: 5
+rank: 161
+season: sk-24-25

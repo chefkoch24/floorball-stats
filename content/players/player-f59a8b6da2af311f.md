@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Ivan JANÍK
+Date: 2026-04-08
+Title: Ivan Janík
 Category: players
 Slug: player-f59a8b6da2af311f
 type: player
-player: Ivan JANÍK
+player: Ivan Janík
 player_uid: player-f59a8b6da2af311f
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 402
+rank: 290
 season: sk-25-26

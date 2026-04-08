@@ -1,25 +1,25 @@
-Date: 2026-04-07
-Title: Adam . KRECHÁČ
+Date: 2026-04-08
+Title: Adam Krecháč
 Category: players
 Slug: player-8ac5942041b73afe
 type: player
-player: Adam . KRECHÁČ
+player: Adam Krecháč
 player_uid: player-8ac5942041b73afe
-team: Florbalový klub AS Trenčín
+team: FBK AS Trenčín
 league: Slovakia
 season_count: 1
-current_season: sk-25-26
+current_season: sk-24-25
 previous_season: n.a.
-current_games: 19
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 2
-regular_games: 19
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 2
+current_games: 4
+current_goals: 1
+current_assists: 3
+current_points: 4
+current_pim: 0
+regular_games: 4
+regular_goals: 1
+regular_assists: 3
+regular_points: 4
+regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 2
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|1|0|0|0|2||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|18|0|0|0|0
-assists: 0
-games: 1
-goals: 0
-penalties: 1
+career_games: 4
+career_goals: 1
+career_assists: 3
+career_points: 4
+career_pim: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBK AS Trenčín|4|1|3|4|0
+assists: 3
+games: 4
+goals: 1
+penalties: 0
 phase: regular-season
-pim: 2
-points: 0
-rank: 266
-season: sk-25-26
+pim: 0
+points: 4
+rank: 180
+season: sk-24-25

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Peter-Pavol NOVÁKY
+Date: 2026-04-08
+Title: Peter-pavol Nováky
 Category: players
 Slug: player-6ce33a0e1d119aad
 type: player
-player: Peter-Pavol NOVÁKY
+player: Peter-pavol Nováky
 player_uid: player-6ce33a0e1d119aad
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 688
+rank: 326
 season: sk-25-26

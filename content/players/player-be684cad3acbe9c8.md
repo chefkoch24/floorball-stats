@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Bednář
 Category: players
 Slug: player-be684cad3acbe9c8
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 312
+rank: 266
 season: cz-25-26

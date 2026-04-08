@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Valtteri Ryytty
 Category: players
 Slug: player-2c0f02363fa1f00d
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 270
+rank: 269
 season: fi-25-26

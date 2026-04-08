@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jānis Goža
 Category: players
 Slug: player-d30ecfe66ba6c5d3
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 253
 season: lv-25-26

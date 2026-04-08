@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Karlis Stukans
 Category: players
 Slug: player-ac888a6686f804ed
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 192
+rank: 191
 season: fi-25-26

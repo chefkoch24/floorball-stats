@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Korbel
 Category: players
 Slug: player-ad6199fe6828a4b3
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 262
+rank: 197
 season: cz-25-26

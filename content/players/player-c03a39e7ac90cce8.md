@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Trojan
 Category: players
 Slug: player-c03a39e7ac90cce8
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 534
+rank: 334
 season: cz-25-26

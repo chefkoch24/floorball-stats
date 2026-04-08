@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Miro Tuomala
 Category: players
 Slug: player-c0088ee0101d93cb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 215
+rank: 214
 season: fi-25-26

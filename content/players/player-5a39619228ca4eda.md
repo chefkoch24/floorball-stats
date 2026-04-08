@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Kolajta
 Category: players
 Slug: player-5a39619228ca4eda
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 701
+rank: 398
 season: cz-25-26

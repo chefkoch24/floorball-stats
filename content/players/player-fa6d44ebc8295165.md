@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Matej JUSKO
+Date: 2026-04-08
+Title: Matej Jusko
 Category: players
 Slug: player-fa6d44ebc8295165
 type: player
-player: Matej JUSKO
+player: Matej Jusko
 player_uid: player-fa6d44ebc8295165
 team: ŠK Lido Prírodovedec Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 282
+rank: 183
 season: sk-25-26

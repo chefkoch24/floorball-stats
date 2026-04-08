@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kristers Sīlis
 Category: players
 Slug: player-469f0e6ebae618b2
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 274
+rank: 259
 season: lv-25-26

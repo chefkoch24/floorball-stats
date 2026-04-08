@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marcel Jakubec C
 Category: players
 Slug: player-aa77ca4121be9d70
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 601
+rank: 360
 season: cz-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Fizioterapeits Elīna Beinare-Tjutjunova
 Category: players
 Slug: player-9ab6c79c27ffddb9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 145
+rank: 140
 season: lv-25-26

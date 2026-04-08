@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Otso Auvinen
 Category: players
 Slug: player-bcb3794fa6c347cd
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 230
+rank: 229
 season: fi-25-26

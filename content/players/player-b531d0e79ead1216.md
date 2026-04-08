@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Gusts Jurēvics
 Category: players
 Slug: player-b531d0e79ead1216
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 152
+rank: 147
 season: lv-25-26

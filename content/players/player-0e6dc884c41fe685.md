@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: L. Fankhauser
 Category: players
 Slug: player-0e6dc884c41fe685

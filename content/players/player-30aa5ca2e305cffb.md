@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Adam ADAMOV
+Date: 2026-04-08
+Title: Adam Adamov
 Category: players
 Slug: player-30aa5ca2e305cffb
 type: player
-player: Adam ADAMOV
+player: Adam Adamov
 player_uid: player-30aa5ca2e305cffb
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 271
+rank: 262
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Endijs Kleistrovs
 Category: players
 Slug: player-46c125fdcf0e6f3c

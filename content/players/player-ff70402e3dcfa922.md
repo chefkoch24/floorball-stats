@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Saku Virta
 Category: players
 Slug: player-ff70402e3dcfa922
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 251
+rank: 250
 season: fi-25-26

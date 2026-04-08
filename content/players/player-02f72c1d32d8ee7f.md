@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: No. Schnell
+Date: 2026-04-08
+Title: NO. Schnell
 Category: players
 Slug: player-02f72c1d32d8ee7f
 type: player
-player: No. Schnell
+player: NO. Schnell
 player_uid: player-02f72c1d32d8ee7f
 team: UHC Alligator Malans
 league: Switzerland

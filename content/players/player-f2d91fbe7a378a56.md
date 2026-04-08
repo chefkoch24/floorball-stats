@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Daniel FEHÉR
+Date: 2026-04-08
+Title: Daniel Fehér
 Category: players
 Slug: player-f2d91fbe7a378a56
 type: player
-player: Daniel FEHÉR
+player: Daniel Fehér
 player_uid: player-f2d91fbe7a378a56
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 170
+rank: 139
 season: sk-25-26

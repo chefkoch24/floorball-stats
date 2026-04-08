@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Zlesák
 Category: players
 Slug: player-9cc38c13bfb7d5a9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 226
+rank: 225
 season: fi-25-26

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Dominik PALLO
+Date: 2026-04-08
+Title: Dominik Pallo
 Category: players
 Slug: player-73bcf2cfd15f8ddb
 type: player
-player: Dominik PALLO
+player: Dominik Pallo
 player_uid: player-73bcf2cfd15f8ddb
 team: FBK Nižná
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 366
+rank: 280
 season: sk-25-26

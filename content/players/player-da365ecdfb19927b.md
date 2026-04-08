@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matyáš Vašíček
 Category: players
 Slug: player-da365ecdfb19927b
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 649
+rank: 378
 season: cz-25-26

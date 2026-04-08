@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jasper Johima
 Category: players
 Slug: player-48dc68f5fca7f0ce
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 166
+rank: 165
 season: fi-25-26

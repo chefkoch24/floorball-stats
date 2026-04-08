@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Martin Pražan
 Category: players
 Slug: player-24b52d8e5513cea4
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 34
-current_goals: 14
+current_games: 31
+current_goals: 15
 current_assists: 15
-current_points: 29
+current_points: 30
 current_pim: 6
-regular_games: 27
-regular_goals: 12
+regular_games: 24
+regular_goals: 13
 regular_assists: 10
-regular_points: 22
+regular_points: 23
 regular_pim: 6
 playoff_games: 7
 playoff_goals: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 34
-career_goals: 14
+career_games: 31
+career_goals: 15
 career_assists: 15
-career_points: 29
+career_points: 30
 career_pim: 6
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|7|2|5|7|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|24|12|10|22|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|3|0|0|0|6
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|7|2|5|7|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|24|13|10|23|6
 assists: 5
 games: 7
 goals: 2
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 7
-rank: 25
+rank: 27
 season: cz-25-26

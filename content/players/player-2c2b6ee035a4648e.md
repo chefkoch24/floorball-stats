@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Mārtiņš Muižnieks
 Category: players
 Slug: player-2c2b6ee035a4648e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 172
+rank: 167
 season: lv-25-26

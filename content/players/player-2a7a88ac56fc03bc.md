@@ -1,21 +1,21 @@
-Date: 2026-04-07
-Title: KRAJŇÁK Jakub
+Date: 2026-04-08
+Title: Krajňák Jakub
 Category: players
 Slug: player-2a7a88ac56fc03bc
 type: player
-player: KRAJŇÁK Jakub
+player: Krajňák Jakub
 player_uid: player-2a7a88ac56fc03bc
 team: FK Florko Košice
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 15
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 0
-regular_games: 2
+regular_games: 15
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 15
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|FK Florko Košice|2|0|2|2|0
+history_rows_csv: sk-25-26|regular-season|Slovakia|FK Florko Košice|15|0|2|2|0
 assists: 2
-games: 2
+games: 15
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 223
+rank: 222
 season: sk-25-26

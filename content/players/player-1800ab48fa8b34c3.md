@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jesperi Kainulainen
 Category: players
 Slug: player-1800ab48fa8b34c3
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 170
+rank: 169
 season: fi-25-26

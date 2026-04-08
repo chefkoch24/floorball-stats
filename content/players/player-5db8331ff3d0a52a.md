@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: K. Reich
 Category: players
 Slug: player-5db8331ff3d0a52a

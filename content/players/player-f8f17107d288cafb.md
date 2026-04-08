@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Radek Dvořák
 Category: players
 Slug: player-f8f17107d288cafb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 289
+rank: 216
 season: cz-25-26

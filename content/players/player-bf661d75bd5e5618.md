@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pārstāvis Adrija Dārta Siliņa
 Category: players
 Slug: player-bf661d75bd5e5618
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 177
+rank: 172
 season: lv-25-26

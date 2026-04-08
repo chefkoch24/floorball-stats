@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Lev Kliment
 Category: players
 Slug: player-25a7dcd84c007d8e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 231
+rank: 179
 season: cz-25-26

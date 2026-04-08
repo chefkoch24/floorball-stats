@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tomáš Chroust
 Category: players
 Slug: player-d8ee4c8afce1568a
@@ -35,7 +35,7 @@ career_goals: 10
 career_assists: 3
 career_points: 13
 career_pim: 2
-history_rows_csv: cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|3|3|1|4|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|8|7|2|9|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|1|0|0|0|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|3|3|1|4|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|9|7|2|9|2
 assists: 1
 games: 3
 goals: 3
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 53
+rank: 56
 season: cz-25-26

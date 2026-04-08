@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pietu Hakokorpi
 Category: players
 Slug: player-d4dcf1f3429ee30f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 237
+rank: 236
 season: fi-25-26

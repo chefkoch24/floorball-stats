@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ville Lax
 Category: players
 Slug: player-61f5c5956b97c6ce
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 276
+rank: 275
 season: fi-25-26

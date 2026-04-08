@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Viktor Dvořák
 Category: players
 Slug: player-83454ecf733d8efa
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 763
+rank: 426
 season: cz-25-26

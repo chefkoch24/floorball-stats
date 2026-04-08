@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Viktor ROĽKO
+Date: 2026-04-08
+Title: Viktor Roľko
 Category: players
 Slug: player-1ed2af97a28c29c9
 type: player
-player: Viktor ROĽKO
+player: Viktor Roľko
 player_uid: player-1ed2af97a28c29c9
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 788
+rank: 342
 season: sk-25-26

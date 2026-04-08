@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Pēteris Džeriņš
 Category: players
 Slug: player-17dbebd8e863b1fc
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 321
+rank: 305
 season: lv-25-26

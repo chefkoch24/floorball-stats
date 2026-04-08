@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ilari Talvitie
 Category: players
 Slug: player-8181c0f14c2a0d5e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 159
+rank: 158
 season: fi-25-26

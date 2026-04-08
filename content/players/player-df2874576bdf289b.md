@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vladimír Trčka
 Category: players
 Slug: player-df2874576bdf289b
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 31
-current_goals: 14
+current_games: 29
+current_goals: 15
 current_assists: 26
-current_points: 40
+current_points: 41
 current_pim: 4
-regular_games: 31
-regular_goals: 14
+regular_games: 29
+regular_goals: 15
 regular_assists: 26
-regular_points: 40
+regular_points: 41
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
-career_goals: 14
+career_games: 29
+career_goals: 15
 career_assists: 26
-career_points: 40
+career_points: 41
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|29|14|26|40|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|2|0|0|0|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|29|15|26|41|4
 assists: 26
 games: 29
-goals: 14
-penalties: 0
+goals: 15
+penalties: 2
 phase: regular-season
-pim: 0
-points: 40
-rank: 21
+pim: 4
+points: 41
+rank: 24
 season: cz-25-26

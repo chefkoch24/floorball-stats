@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Paavo Karttunen
 Category: players
 Slug: player-cabffd4ccdfe0ec5
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 231
+rank: 230
 season: fi-25-26

@@ -106,24 +106,47 @@ def _parse_goal_people(text: str) -> tuple[str | None, str | None]:
     return scorer_name or None, assist_name or None
 
 
+def _normalize_name_casing(text: str) -> str:
+    tokens = [token for token in re.split(r"\s+", text) if token]
+    normalized_tokens: list[str] = []
+    for token in tokens:
+        if len(token) <= 1:
+            normalized_tokens.append(token)
+            continue
+        if token.endswith(".") and len(token) <= 3:
+            normalized_tokens.append(token.upper())
+            continue
+        if token.isupper() or token.islower():
+            normalized_tokens.append(token[0].upper() + token[1:].lower())
+            continue
+        normalized_tokens.append(token)
+    return " ".join(normalized_tokens)
+
+
 def _normalize_player_name(text: str | None) -> str | None:
     cleaned = " ".join(str(text or "").split())
     if not cleaned:
         return None
     cleaned = re.sub(r"\(\d+\)$", "", cleaned).strip(" -")
+    # Slovak penalty feed often inserts a separator dot between first/last names.
+    cleaned = re.sub(r"\s+\.\s+", " ", cleaned)
     if "," in cleaned:
         last_name, first_name = [part.strip() for part in cleaned.split(",", 1)]
         if first_name and last_name:
             cleaned = f"{first_name} {last_name}"
+    cleaned = _normalize_name_casing(cleaned)
     return cleaned or None
 
 
 def _parse_penalty_player(text: str) -> str | None:
     cleaned = " ".join(text.split())
     cleaned = re.sub(r"^\d+\s*:\s*\d+\s*", "", cleaned).strip()
+    cleaned = re.sub(r"\([^)]*\)", " ", cleaned).strip()
     cleaned = re.sub(r"\b(?:2\+2|10|5|4|2)\s*min\.?\b", "", cleaned, flags=re.I).strip()
+    cleaned = re.sub(r"\b\d+\s*min\.?\b", "", cleaned, flags=re.I).strip()
     cleaned = re.sub(r"\b(2\+2|10|5|2|ms)\b", "", cleaned, flags=re.I).strip(" -")
-    cleaned = re.sub(r"\([^)]*\)$", "", cleaned).strip(" -")
+    cleaned = re.sub(r"\bteam\s*penalty\b", "", cleaned, flags=re.I).strip(" -")
+    cleaned = re.sub(r"\s+\.\s+", " ", cleaned).strip(" .-")
     return _normalize_player_name(cleaned)
 
 

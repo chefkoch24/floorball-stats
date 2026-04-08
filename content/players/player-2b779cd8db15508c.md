@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Adam . FIALA
+Date: 2026-04-08
+Title: Adam Fiala
 Category: players
 Slug: player-2b779cd8db15508c
 type: player
-player: Adam . FIALA
+player: Adam Fiala
 player_uid: player-2b779cd8db15508c
 team: ŠK Victory Stars Dubnica n/V
 league: Slovakia

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: M. Mäkinen
 Category: players
 Slug: player-eb6e66efbbad23da

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Marek GAJDOŠÍK
+Date: 2026-04-08
+Title: Marek Gajdošík
 Category: players
 Slug: player-ed5e7668d74dee3e
 type: player
-player: Marek GAJDOŠÍK
+player: Marek Gajdošík
 player_uid: player-ed5e7668d74dee3e
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 247
+rank: 171
 season: sk-25-26

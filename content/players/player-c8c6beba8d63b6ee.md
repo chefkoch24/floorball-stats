@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Krištof . KOVÁČIK
+Date: 2026-04-08
+Title: Krištof Kováčik
 Category: players
 Slug: player-c8c6beba8d63b6ee
 type: player
-player: Krištof . KOVÁČIK
+player: Krištof Kováčik
 player_uid: player-c8c6beba8d63b6ee
 team: 1. FBC Trenčín
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 340
+rank: 279
 season: sk-24-25

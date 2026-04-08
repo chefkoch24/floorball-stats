@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Emil Lundmark
 Category: players
 Slug: player-5a7e4106adf2212d
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 30
+current_games: 31
 current_goals: 9
 current_assists: 9
 current_points: 18
@@ -20,7 +20,7 @@ regular_goals: 6
 regular_assists: 7
 regular_points: 13
 regular_pim: 4
-playoff_games: 6
+playoff_games: 7
 playoff_goals: 3
 playoff_assists: 2
 playoff_points: 5
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 30
+career_games: 31
 career_goals: 9
 career_assists: 9
 career_points: 18
 career_pim: 8
-history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|6|3|2|5|4||se-25-26|regular-season|Sweden|IBF Falun|24|6|7|13|4
+history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|7|3|2|5|4||se-25-26|regular-season|Sweden|IBF Falun|24|6|7|13|4
 assists: 2
-games: 6
+games: 7
 goals: 3
 penalties: 2
 phase: playoffs

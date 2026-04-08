@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Samuel BALOGH
+Date: 2026-04-08
+Title: Samuel Balogh
 Category: players
 Slug: player-d6f27411bc936cf7
 type: player
-player: Samuel BALOGH
+player: Samuel Balogh
 player_uid: player-d6f27411bc936cf7
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 721
+rank: 334
 season: sk-25-26

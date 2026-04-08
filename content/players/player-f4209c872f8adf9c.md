@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Dominik TUREK
+Date: 2026-04-08
+Title: Dominik Turek
 Category: players
 Slug: player-f4209c872f8adf9c
 type: player
-player: Dominik TUREK
+player: Dominik Turek
 player_uid: player-f4209c872f8adf9c
 team: FK Florko Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 185
+rank: 145
 season: sk-25-26

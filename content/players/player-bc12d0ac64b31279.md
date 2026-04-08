@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Adam Karel
 Category: players
 Slug: player-bc12d0ac64b31279
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 421
+rank: 293
 season: cz-25-26

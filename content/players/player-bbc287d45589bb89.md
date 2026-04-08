@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Marcel PETRÍK
+Date: 2026-04-08
+Title: Marcel Petrík
 Category: players
 Slug: player-bbc287d45589bb89
 type: player
-player: Marcel PETRÍK
+player: Marcel Petrík
 player_uid: player-bbc287d45589bb89
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 478
+rank: 298
 season: sk-25-26

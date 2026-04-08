@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Anton . BAJZÍK
+Date: 2026-04-08
+Title: Anton Bajzík
 Category: players
 Slug: player-93ea24f2fcb65a11
 type: player
-player: Anton . BAJZÍK
+player: Anton Bajzík
 player_uid: player-93ea24f2fcb65a11
 team: ŠK Victory Stars Dubnica n/V
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 286
+rank: 270
 season: sk-24-25

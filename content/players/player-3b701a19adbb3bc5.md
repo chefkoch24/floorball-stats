@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Filip Šubert C
 Category: players
 Slug: player-3b701a19adbb3bc5
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 503
+rank: 320
 season: cz-25-26

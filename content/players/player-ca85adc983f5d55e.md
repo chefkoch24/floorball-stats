@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marek Vávra C
 Category: players
 Slug: player-ca85adc983f5d55e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 243
+rank: 186
 season: cz-25-26

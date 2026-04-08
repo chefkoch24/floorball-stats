@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: VOJTEK Erik
+Date: 2026-04-08
+Title: Vojtek Erik
 Category: players
 Slug: player-68af552aacdc9182
 type: player
-player: VOJTEK Erik
+player: Vojtek Erik
 player_uid: player-68af552aacdc9182
 team: Florbalový klub AS Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 11
+previous_season: n.a.
+current_games: 34
 current_goals: 5
 current_assists: 7
 current_points: 12
-current_pim: 0
-regular_games: 11
+current_pim: 6
+regular_games: 34
 regular_goals: 5
 regular_assists: 7
 regular_points: 12
-regular_pim: 0
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 11
-previous_goals: 9
-previous_assists: 7
-previous_points: 16
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 22
-career_goals: 14
-career_assists: 14
-career_points: 28
-career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|11|5|7|12|0||sk-24-25|regular-season|Slovakia|FBK AS Trenčín|11|9|7|16|0
+career_games: 34
+career_goals: 5
+career_assists: 7
+career_points: 12
+career_pim: 6
+history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|34|5|7|12|6
 assists: 7
-games: 11
+games: 34
 goals: 5
-penalties: 0
+penalties: 3
 phase: regular-season
-pim: 0
+pim: 6
 points: 12
 rank: 95
 season: sk-25-26

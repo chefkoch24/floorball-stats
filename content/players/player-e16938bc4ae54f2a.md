@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: M. Arnet
 Category: players
 Slug: player-e16938bc4ae54f2a

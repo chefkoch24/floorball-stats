@@ -1,24 +1,24 @@
-Date: 2026-04-07
-Title: Peter . BEDNÁR
+Date: 2026-04-08
+Title: Peter Bednár
 Category: players
 Slug: player-7cbc5543c4cca677
 type: player
-player: Peter . BEDNÁR
+player: Peter Bednár
 player_uid: player-7cbc5543c4cca677
 team: FBK AS Trenčín
 league: Slovakia
 season_count: 1
 current_season: sk-24-25
 previous_season: n.a.
-current_games: 2
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 9
+current_goals: 5
+current_assists: 6
+current_points: 11
 current_pim: 4
-regular_games: 2
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 9
+regular_goals: 5
+regular_assists: 6
+regular_points: 11
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 9
+career_goals: 5
+career_assists: 6
+career_points: 11
 career_pim: 4
-history_rows_csv: sk-24-25|regular-season|Slovakia|FBK AS Trenčín|2|0|0|0|4
-assists: 0
-games: 2
-goals: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|FBK AS Trenčín|9|5|6|11|4
+assists: 6
+games: 9
+goals: 5
 penalties: 2
 phase: regular-season
 pim: 4
-points: 0
-rank: 434
+points: 11
+rank: 106
 season: sk-24-25

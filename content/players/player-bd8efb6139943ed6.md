@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Horák
 Category: players
 Slug: player-bd8efb6139943ed6
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 177
+rank: 184
 season: cz-25-26

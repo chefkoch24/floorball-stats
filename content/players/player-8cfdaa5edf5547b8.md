@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: T. von Pritzbuer
+Date: 2026-04-08
+Title: T. Von Pritzbuer
 Category: players
 Slug: player-8cfdaa5edf5547b8
 type: player
-player: T. von Pritzbuer
+player: T. Von Pritzbuer
 player_uid: player-8cfdaa5edf5547b8
 team: WASA St. Gallen
 league: Switzerland

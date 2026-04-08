@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Karel Frýba
 Category: players
 Slug: player-afb7d538877c61d7
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 572
+rank: 347
 season: cz-25-26

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Adam (Trest do konca zápasu (ČK)) 20 min. PEŠKO
+Date: 2026-04-08
+Title: Adam (Trest Do Konca Zápasu (čk)) 20 Min. Peško
 Category: players
 Slug: player-fe4645edc6af79d8
 type: player
-player: Adam (Trest do konca zápasu (ČK)) 20 min. PEŠKO
+player: Adam (Trest Do Konca Zápasu (čk)) 20 Min. Peško
 player_uid: player-fe4645edc6af79d8
 team: 1. FBC Trenčín
 league: Slovakia

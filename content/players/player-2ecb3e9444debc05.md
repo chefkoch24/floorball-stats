@@ -1,47 +1,47 @@
-Date: 2026-04-07
-Title: JÁGER Daniel
+Date: 2026-04-08
+Title: Jáger Daniel
 Category: players
 Slug: player-2ecb3e9444debc05
 type: player
-player: JÁGER Daniel
+player: Jáger Daniel
 player_uid: player-2ecb3e9444debc05
 team: Snipers Bratislava
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 7
+previous_season: n.a.
+current_games: 35
 current_goals: 6
 current_assists: 2
 current_points: 8
-current_pim: 0
-regular_games: 6
+current_pim: 4
+regular_games: 28
 regular_goals: 6
 regular_assists: 1
 regular_points: 7
-regular_pim: 0
-playoff_games: 1
+regular_pim: 2
+playoff_games: 7
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
-playoff_pim: 0
-previous_games: 2
-previous_goals: 1
-previous_assists: 1
-previous_points: 2
+playoff_pim: 2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 7
-career_assists: 3
-career_points: 10
-career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|Snipers Bratislava|1|0|1|1|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|6|6|1|7|0||sk-24-25|regular-season|Slovakia|Snipers Bratislava|2|1|1|2|0
+career_games: 35
+career_goals: 6
+career_assists: 2
+career_points: 8
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|Snipers Bratislava|7|0|1|1|2||sk-25-26|regular-season|Slovakia|Snipers Bratislava|28|6|1|7|2
 assists: 1
-games: 1
+games: 7
 goals: 0
-penalties: 0
+penalties: 1
 phase: playoffs
-pim: 0
+pim: 2
 points: 1
-rank: 116
+rank: 114
 season: sk-25-26

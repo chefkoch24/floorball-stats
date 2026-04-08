@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jonáš Kůra
 Category: players
 Slug: player-77f463ee5aca9263
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 38
-current_goals: 5
+current_games: 32
+current_goals: 6
 current_assists: 8
-current_points: 13
+current_points: 14
 current_pim: 12
-regular_games: 38
-regular_goals: 5
+regular_games: 32
+regular_goals: 6
 regular_assists: 8
-regular_points: 13
+regular_points: 14
 regular_pim: 12
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 38
-career_goals: 5
+career_games: 32
+career_goals: 6
 career_assists: 8
-career_points: 13
+career_points: 14
 career_pim: 12
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|32|5|8|13|0||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|6|0|0|0|12
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|32|6|8|14|12
 assists: 8
 games: 32
-goals: 5
-penalties: 0
+goals: 6
+penalties: 6
 phase: regular-season
-pim: 0
-points: 13
-rank: 122
+pim: 12
+points: 14
+rank: 115
 season: cz-25-26

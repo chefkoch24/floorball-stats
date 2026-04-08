@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Adam Hanek
 Category: players
 Slug: player-2811b1eaf480c6d7
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 420
+rank: 292
 season: cz-25-26

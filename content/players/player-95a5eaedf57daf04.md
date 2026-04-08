@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Adamec
 Category: players
 Slug: player-95a5eaedf57daf04
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 694
+rank: 395
 season: cz-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jan Kourek
 Category: players
 Slug: player-6186b3c7bbb4c838
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 309
+rank: 263
 season: cz-25-26

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Nikolas SLEZIAK
+Date: 2026-04-08
+Title: Nikolas Sleziak
 Category: players
 Slug: player-1dd96eb2bfaf6818
 type: player
-player: Nikolas . SLEZIAK
+player: Nikolas Sleziak
 player_uid: player-1dd96eb2bfaf6818
 team: 1. FBC Trenčín
 league: Slovakia
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 2
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_games: 9
+previous_goals: 4
+previous_assists: 6
+previous_points: 10
 previous_pim: 4
-career_games: 7
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 14
+career_goals: 4
+career_assists: 6
+career_points: 10
 career_pim: 4
-history_rows_csv: sk-25-26|regular-season|Slovakia|1. FBC Trenčín|5|0|0|0|0||sk-24-25|regular-season|Slovakia|1. FBC Trenčín|2|0|0|0|4
+history_rows_csv: sk-25-26|regular-season|Slovakia|1. FBC Trenčín|5|0|0|0|0||sk-24-25|regular-season|Slovakia|1. FBC Trenčín|9|4|6|10|4
 assists: 0
 games: 5
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 641
+rank: 321
 season: sk-25-26

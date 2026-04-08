@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Markuss Jansons
 Category: players
 Slug: player-bedc5932858d87bc
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 279
+rank: 264
 season: lv-25-26

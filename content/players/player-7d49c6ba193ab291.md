@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Peetu Rantala
 Category: players
 Slug: player-7d49c6ba193ab291
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 233
+rank: 232
 season: fi-25-26

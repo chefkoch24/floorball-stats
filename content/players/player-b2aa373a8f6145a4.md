@@ -1,24 +1,24 @@
-Date: 2026-04-07
-Title: Lukáš . JELINEK
+Date: 2026-04-08
+Title: Lukáš Jelinek
 Category: players
 Slug: player-b2aa373a8f6145a4
 type: player
-player: Lukáš . JELINEK
+player: Lukáš Jelinek
 player_uid: player-b2aa373a8f6145a4
 team: ŠK Victory Stars Dubnica n/V
 league: Slovakia
 season_count: 1
 current_season: sk-24-25
 previous_season: n.a.
-current_games: 4
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 6
+current_goals: 1
+current_assists: 1
+current_points: 2
 current_pim: 8
-regular_games: 4
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 6
+regular_goals: 1
+regular_assists: 1
+regular_points: 2
 regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 6
+career_goals: 1
+career_assists: 1
+career_points: 2
 career_pim: 8
-history_rows_csv: sk-24-25|regular-season|Slovakia|ŠK Victory Stars Dubnica n/V|4|0|0|0|8
-assists: 0
-games: 4
-goals: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|ŠK Victory Stars Dubnica n/V|6|1|1|2|8
+assists: 1
+games: 6
+goals: 1
 penalties: 4
 phase: regular-season
 pim: 8
-points: 0
-rank: 344
+points: 2
+rank: 212
 season: sk-24-25

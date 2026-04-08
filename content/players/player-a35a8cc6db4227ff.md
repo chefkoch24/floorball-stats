@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Dmitrii ROGATYKH
+Date: 2026-04-08
+Title: Dmitrii Rogatykh
 Category: players
 Slug: player-a35a8cc6db4227ff
 type: player
-player: Dmitrii ROGATYKH
+player: Dmitrii Rogatykh
 player_uid: player-a35a8cc6db4227ff
 team: Snipers Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 350
+rank: 278
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Frederik Bonk
 Category: players
 Slug: player-faf4c2b760ab88a0

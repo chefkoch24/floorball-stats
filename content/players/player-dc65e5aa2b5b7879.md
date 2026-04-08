@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Milan Bína C
 Category: players
 Slug: player-dc65e5aa2b5b7879
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 687
+rank: 391
 season: cz-25-26

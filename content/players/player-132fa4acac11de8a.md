@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: ONDREJIČKA Adam Martin
+Date: 2026-04-08
+Title: Ondrejička Adam Martin
 Category: players
 Slug: player-132fa4acac11de8a
 type: player
-player: ONDREJIČKA Adam Martin
+player: Ondrejička Adam Martin
 player_uid: player-132fa4acac11de8a
 team: Snipers Bratislava
 league: Slovakia

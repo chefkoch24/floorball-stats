@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Marius Niemelä
 Category: players
 Slug: player-d09aba8a3d469892
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 205
+rank: 204
 season: fi-25-26

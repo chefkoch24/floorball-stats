@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Jirsa
 Category: players
 Slug: player-a7bb0d013b5fd485
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 29
+current_games: 27
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 6
-regular_games: 26
+regular_games: 24
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 29
+career_games: 27
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 6
-history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|0|0|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|2|0|0|0|6||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|24|0|0|0|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|0|0|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|24|0|0|0|6
 assists: 0
 games: 3
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 206
+rank: 165
 season: cz-25-26

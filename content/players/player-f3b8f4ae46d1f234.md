@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jiří Trojan
 Category: players
 Slug: player-f3b8f4ae46d1f234
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 562
+rank: 344
 season: cz-25-26

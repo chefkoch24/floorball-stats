@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: D. Hermle
 Category: players
 Slug: player-e081f9ead46dafb9

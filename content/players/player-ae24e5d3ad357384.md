@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Jakub HABRÚN
+Date: 2026-04-08
+Title: Jakub Habrún
 Category: players
 Slug: player-ae24e5d3ad357384
 type: player
-player: Jakub HABRÚN
+player: Jakub Habrún
 player_uid: player-ae24e5d3ad357384
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 212
+rank: 156
 season: sk-25-26

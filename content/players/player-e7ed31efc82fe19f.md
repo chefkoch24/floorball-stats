@@ -1,21 +1,21 @@
-Date: 2026-04-07
-Title: Markuss Nikolajs Trofimovs
+Date: 2026-04-08
+Title: Markuss Nikolajs Trofimovs )
 Category: players
 Slug: player-e7ed31efc82fe19f
 type: player
-player: Markuss Nikolajs Trofimovs
+player: Markuss Nikolajs Trofimovs )
 player_uid: player-e7ed31efc82fe19f
 team: Bauska
 league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 23
+current_games: 22
 current_goals: 1
 current_assists: 4
 current_points: 5
 current_pim: 4
-regular_games: 23
+regular_games: 22
 regular_goals: 1
 regular_assists: 4
 regular_points: 5
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
+career_games: 22
 career_goals: 1
 career_assists: 4
 career_points: 5
 career_pim: 4
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|22|1|4|5|2||lv-25-26|regular-season|Latvia|Bauska|1|0|0|0|2
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|22|1|4|5|4
 assists: 4
 games: 22
 goals: 1
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 5
 rank: 153
 season: lv-25-26

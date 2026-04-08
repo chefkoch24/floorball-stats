@@ -60,3 +60,38 @@ def test_parse_game_events_keeps_shootout_marker_on_final_score():
     assert len(shootout) == 1
     assert shootout[0]["home_goals"] == 2
     assert shootout[0]["guest_goals"] == 1
+
+
+def test_parse_game_events_expands_abbreviated_names_from_lookup():
+    html = """
+    <table class="su-result">
+      <tbody>
+        <tr><td>03:00</td><td>Torschütze</td><td>Home</td><td>D. Bürger (Assist: M. Gattnar)</td></tr>
+        <tr><td>04:00</td><td>Strafe (2 Minuten)</td><td>Home</td><td>D. Bürger</td></tr>
+      </tbody>
+    </table>
+    """
+    details = GameDetails(
+        home_team="Home",
+        away_team="Away",
+        game_date="2026-03-01",
+        game_start_time="16:00",
+        result_string="1:0",
+        goals_home=1,
+        goals_away=0,
+        header_text=None,
+    )
+    lookup = {
+        "Home": {
+            "d. bürger": "Dominik Bürger",
+            "m. gattnar": "Martin Gattnar",
+        }
+    }
+
+    events = _parse_game_events(html, game_id=3, details=details, player_name_lookup=lookup)
+    goal = next(e for e in events if e["event_type"] == "goal")
+    penalty = next(e for e in events if e["event_type"] == "penalty")
+
+    assert goal["scorer_name"] == "Dominik Bürger"
+    assert goal["assist_name"] == "Martin Gattnar"
+    assert penalty["penalty_player_name"] == "Dominik Bürger"

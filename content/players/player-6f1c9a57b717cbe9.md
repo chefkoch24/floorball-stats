@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Leevi Niukkanen
 Category: players
 Slug: player-6f1c9a57b717cbe9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 201
+rank: 200
 season: fi-25-26

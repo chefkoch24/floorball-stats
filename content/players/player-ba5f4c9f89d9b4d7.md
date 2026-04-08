@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Oskar Enquist
 Category: players
 Slug: player-ba5f4c9f89d9b4d7
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 29
+current_games: 30
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -20,7 +20,7 @@ regular_goals: 0
 regular_assists: 1
 regular_points: 1
 regular_pim: 0
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 29
+career_games: 30
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|5|0|0|0|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|0|1|1|0
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|6|0|0|0|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|0|1|1|0
 assists: 0
-games: 5
+games: 6
 goals: 0
 penalties: 0
 phase: playoffs

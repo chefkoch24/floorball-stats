@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ralfs Celmiņš
 Category: players
 Slug: player-7eacab906b0ca17c

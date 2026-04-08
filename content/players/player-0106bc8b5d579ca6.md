@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Aatu Hettula
 Category: players
 Slug: player-0106bc8b5d579ca6

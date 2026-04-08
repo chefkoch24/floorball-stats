@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Lukáš Pobořil C
 Category: players
 Slug: player-41fdf6cd60d8faee
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 590
+rank: 355
 season: cz-25-26

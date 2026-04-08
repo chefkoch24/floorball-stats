@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jan Peška
 Category: players
 Slug: player-5727cdef6cb55fae
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 127
+rank: 117
 season: cz-25-26

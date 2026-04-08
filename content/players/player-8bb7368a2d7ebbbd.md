@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jan Pinkas
 Category: players
 Slug: player-8bb7368a2d7ebbbd
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 27
-current_goals: 3
+current_games: 26
+current_goals: 5
 current_assists: 0
-current_points: 3
+current_points: 5
 current_pim: 2
-regular_games: 27
-regular_goals: 3
+regular_games: 26
+regular_goals: 5
 regular_assists: 0
-regular_points: 3
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
-career_goals: 3
+career_games: 26
+career_goals: 5
 career_assists: 0
-career_points: 3
+career_points: 5
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|26|3|0|3|0||cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|1|0|0|0|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|26|5|0|5|2
 assists: 0
 games: 26
-goals: 3
-penalties: 0
+goals: 5
+penalties: 1
 phase: regular-season
-pim: 0
-points: 3
-rank: 243
+pim: 2
+points: 5
+rank: 203
 season: cz-25-26

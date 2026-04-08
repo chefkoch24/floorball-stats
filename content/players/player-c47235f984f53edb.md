@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Emil Nyh
 Category: players
 Slug: player-c47235f984f53edb
@@ -10,7 +10,7 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 31
+current_games: 32
 current_goals: 8
 current_assists: 6
 current_points: 14
@@ -20,7 +20,7 @@ regular_goals: 7
 regular_assists: 6
 regular_points: 13
 regular_pim: 2
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 1
 playoff_assists: 0
 playoff_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 32
 career_goals: 8
 career_assists: 6
 career_points: 14
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|5|1|0|1|0||se-25-26|regular-season|Sweden|Växjö IBK|26|7|6|13|2
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|1|0|1|0||se-25-26|regular-season|Sweden|Växjö IBK|26|7|6|13|2
 assists: 0
-games: 5
+games: 6
 goals: 1
 penalties: 0
 phase: playoffs

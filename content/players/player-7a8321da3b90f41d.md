@@ -1,21 +1,21 @@
-Date: 2026-04-07
-Title: Milan . KOVÁČ
+Date: 2026-04-08
+Title: Milan Kováč
 Category: players
 Slug: player-7a8321da3b90f41d
 type: player
-player: Milan . KOVÁČ
+player: Milan Kováč
 player_uid: player-7a8321da3b90f41d
 team: Florbalový klub AS Trenčín
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 7
+current_games: 5
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 6
-regular_games: 7
+regular_games: 5
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 5
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 6
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|2|0|0|0|6||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|5|0|0|0|0
+history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|5|0|0|0|6
 assists: 0
-games: 2
+games: 5
 goals: 0
 penalties: 3
 phase: regular-season
 pim: 6
 points: 0
-rank: 635
+rank: 319
 season: sk-25-26

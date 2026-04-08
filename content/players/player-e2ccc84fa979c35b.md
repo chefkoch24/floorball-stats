@@ -1,24 +1,24 @@
-Date: 2026-04-07
-Title: Andrej . ŠŤASTNÝ
+Date: 2026-04-08
+Title: Andrej Šťastný
 Category: players
 Slug: player-e2ccc84fa979c35b
 type: player
-player: Andrej . ŠŤASTNÝ
+player: Andrej Šťastný
 player_uid: player-e2ccc84fa979c35b
 team: ŠK Victory Stars Dubnica n/V
 league: Slovakia
 season_count: 1
 current_season: sk-24-25
 previous_season: n.a.
-current_games: 2
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 5
+current_goals: 1
+current_assists: 2
+current_points: 3
 current_pim: 4
-regular_games: 2
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 5
+regular_goals: 1
+regular_assists: 2
+regular_points: 3
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 5
+career_goals: 1
+career_assists: 2
+career_points: 3
 career_pim: 4
-history_rows_csv: sk-24-25|regular-season|Slovakia|ŠK Victory Stars Dubnica n/V|2|0|0|0|4
-assists: 0
-games: 2
-goals: 0
+history_rows_csv: sk-24-25|regular-season|Slovakia|ŠK Victory Stars Dubnica n/V|5|1|2|3|4
+assists: 2
+games: 5
+goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
-points: 0
-rank: 285
+points: 3
+rank: 193
 season: sk-24-25

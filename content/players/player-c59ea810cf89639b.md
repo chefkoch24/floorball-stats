@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Adam Bařtipán
 Category: players
 Slug: player-c59ea810cf89639b
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 437
+rank: 305
 season: cz-25-26

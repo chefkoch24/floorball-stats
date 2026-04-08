@@ -27,6 +27,34 @@ LEAGUE_INFO = {
 }
 
 
+def _name_style_score(name: str) -> int:
+    tokens = [token for token in re.split(r"\s+", str(name or "").strip()) if token]
+    score = 0
+    for token in tokens:
+        if token.isupper():
+            score += 0
+        elif token.islower():
+            score += 1
+        elif token[0].isupper() and token[1:].islower():
+            score += 3
+        else:
+            score += 2
+    return score
+
+
+def _normalize_player_name_for_identity(value: str | None) -> str:
+    cleaned = " ".join(str(value or "").split()).strip()
+    if not cleaned:
+        return ""
+    cleaned = re.sub(
+        r"\s+(?:bez\s+asistence|z\s+trestn[eé]ho\s+stř[íi]len[íi])$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    return cleaned.strip(" ,-")
+
+
 def _phase_from_file_token(token: str) -> str:
     return "regular-season" if token == "regular_season" else token
 
@@ -36,7 +64,7 @@ def _season_token(prefix: str, years: str) -> str:
 
 
 def _canonical_player_uid(player: str) -> str:
-    cleaned_player = str(player or "").strip()
+    cleaned_player = _normalize_player_name_for_identity(player)
     normalized_player = normalize_slug_fragment(cleaned_player)
     return generate_player_uid("player", normalized_player or cleaned_player.lower())
 
@@ -65,6 +93,89 @@ def _aggregate_source_ids(values: pd.Series) -> str:
     return seen[0] if len(seen) == 1 else ",".join(seen)
 
 
+def _aggregate_player_name(values: pd.Series) -> str:
+    cleaned_values = [str(value).strip() for value in values.astype(str) if str(value).strip()]
+    if not cleaned_values:
+        return ""
+    counts: dict[str, int] = {}
+    for name in cleaned_values:
+        counts[name] = counts.get(name, 0) + 1
+    return max(
+        counts.keys(),
+        key=lambda name: (
+            counts[name],
+            _name_style_score(name),
+            -len(name),
+            name,
+        ),
+    )
+
+
+def _to_name_case(token: str) -> str:
+    token = str(token or "").strip()
+    if not token:
+        return ""
+    return token[0].upper() + token[1:].lower()
+
+
+def _harmonize_slovakia_player_names(stats: pd.DataFrame) -> pd.DataFrame:
+    frame = stats.copy()
+    players = (
+        frame.get("player", pd.Series(dtype=str))
+        .fillna("")
+        .astype(str)
+        .str.replace(r"\s+\.\s+", " ", regex=True)
+        .str.strip()
+    )
+
+    pair_votes: dict[tuple[str, str], dict[str, int]] = {}
+    for name in players.tolist():
+        parts = [part for part in name.split() if part]
+        if len(parts) != 2:
+            continue
+        first, second = parts
+        first_key = first.lower()
+        second_key = second.lower()
+        pair_key = tuple(sorted([first_key, second_key]))
+        votes = pair_votes.setdefault(pair_key, {})
+        if second.isupper() and not first.isupper():
+            votes[first_key] = votes.get(first_key, 0) + 3
+        elif first.isupper() and not second.isupper():
+            votes[second_key] = votes.get(second_key, 0) + 3
+        else:
+            votes[first_key] = votes.get(first_key, 0) + 1
+
+    preferred_first: dict[tuple[str, str], str] = {}
+    for pair_key, votes in pair_votes.items():
+        preferred_first[pair_key] = max(votes.keys(), key=lambda token: (votes[token], token))
+
+    def _normalize_name(name: str) -> str:
+        cleaned = " ".join(str(name or "").split()).strip()
+        if not cleaned:
+            return ""
+        parts = [part for part in cleaned.split() if part]
+        if len(parts) == 2:
+            first, second = parts
+            first_key = first.lower()
+            second_key = second.lower()
+            pair_key = tuple(sorted([first_key, second_key]))
+            chosen_first = preferred_first.get(pair_key)
+            if chosen_first == second_key:
+                first, second = second, first
+            return f"{_to_name_case(first)} {_to_name_case(second)}"
+        normalized_tokens = []
+        for token in parts:
+            if token.isupper() or token.islower():
+                normalized_tokens.append(_to_name_case(token))
+            else:
+                normalized_tokens.append(token)
+        return " ".join(normalized_tokens)
+
+    frame["player"] = players.map(_normalize_name)
+    frame["player_uid"] = frame["player"].map(_canonical_player_uid)
+    return frame
+
+
 def _finalize_rows(stats: pd.DataFrame, season: str, phase: str, league: str, source_system: str) -> pd.DataFrame:
     if stats.empty:
         return pd.DataFrame(
@@ -91,10 +202,15 @@ def _finalize_rows(stats: pd.DataFrame, season: str, phase: str, league: str, so
             ]
         )
 
+    prepared_stats = stats.copy()
+    if source_system == "slovakia":
+        prepared_stats = _harmonize_slovakia_player_names(prepared_stats)
+
     grouped = (
-        stats.groupby(["player_uid", "player"], as_index=False)
+        prepared_stats.groupby(["player_uid"], as_index=False)
         .agg(
             {
+                "player": _aggregate_player_name,
                 "team": _aggregate_team_names,
                 "games": "sum",
                 "goals": "sum",
@@ -149,12 +265,18 @@ def _rows_from_event_csv(path: Path, season: str, phase: str, league: str, sourc
         return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system=source_system)
 
     goals_df = df[df["event_type"] == "goal"].copy()
-    goals_df["scorer_name"] = goals_df["scorer_name"].fillna("").astype(str).str.strip()
-    goals_df["assist_name"] = goals_df["assist_name"].fillna("").astype(str).str.strip()
+    goals_df["scorer_name"] = (
+        goals_df["scorer_name"].fillna("").astype(str).map(_normalize_player_name_for_identity)
+    )
+    goals_df["assist_name"] = (
+        goals_df["assist_name"].fillna("").astype(str).map(_normalize_player_name_for_identity)
+    )
     goals_df = goals_df[goals_df["scorer_name"] != ""]
 
     penalties_df = df[df["event_type"] == "penalty"].copy()
-    penalties_df["penalty_player_name"] = penalties_df["penalty_player_name"].fillna("").astype(str).str.strip()
+    penalties_df["penalty_player_name"] = (
+        penalties_df["penalty_player_name"].fillna("").astype(str).map(_normalize_player_name_for_identity)
+    )
     penalties_df = penalties_df[penalties_df["penalty_player_name"] != ""]
 
     goals = goals_df.groupby(["scorer_name", "event_team"]).size().reset_index(name="goals")
@@ -736,9 +858,10 @@ def _merge_finalized_rows(
     # Merge multiple sources (events + lineups) without double-counting appearances:
     # games should be authoritative max per player/team, while counting stats are additive.
     stats = (
-        stats.groupby(["player_uid", "player", "team"], as_index=False)
+        stats.groupby(["player_uid", "team"], as_index=False)
         .agg(
             {
+                "player": _aggregate_player_name,
                 "games": "max",
                 "goals": "sum",
                 "assists": "sum",

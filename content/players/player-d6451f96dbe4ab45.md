@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Tomáš Kamarýt
 Category: players
 Slug: player-d6451f96dbe4ab45
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 30
+current_games: 26
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 8
-regular_games: 30
+regular_games: 26
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 30
+career_games: 26
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 8
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|26|1|0|1|0||cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|4|0|0|0|8
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|26|1|0|1|8
 assists: 0
 games: 26
 goals: 1
-penalties: 0
+penalties: 4
 phase: regular-season
-pim: 0
+pim: 8
 points: 1
-rank: 404
+rank: 286
 season: cz-25-26

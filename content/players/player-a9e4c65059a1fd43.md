@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Ondřej Martinec
 Category: players
 Slug: player-a9e4c65059a1fd43
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 702
+rank: 399
 season: cz-25-26

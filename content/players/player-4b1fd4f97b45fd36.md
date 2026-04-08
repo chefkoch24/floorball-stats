@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jan Bajtek
 Category: players
 Slug: player-4b1fd4f97b45fd36
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 538
+rank: 335
 season: cz-25-26

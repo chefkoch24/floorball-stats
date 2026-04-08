@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: MIKLUŠČÁK Valentín Pavel
+Date: 2026-04-08
+Title: Mikluščák Valentín Pavel
 Category: players
 Slug: player-0ec3d429222ed85f
 type: player
-player: MIKLUŠČÁK Valentín Pavel
+player: Mikluščák Valentín Pavel
 player_uid: player-0ec3d429222ed85f
 team: Tsunami Záhorská Bystrica
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 256
+rank: 259
 season: sk-24-25

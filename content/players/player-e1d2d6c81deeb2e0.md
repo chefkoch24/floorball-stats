@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Jakub Fuchsig
 Category: players
 Slug: player-e1d2d6c81deeb2e0
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 264
+rank: 245
 season: cz-25-26

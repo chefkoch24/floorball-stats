@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Roberts Blumbergs
 Category: players
 Slug: player-ce9dcf4ea70a33e8
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 329
+rank: 313
 season: lv-25-26

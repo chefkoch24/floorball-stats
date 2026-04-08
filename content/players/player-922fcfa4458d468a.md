@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Milan Meliš
 Category: players
 Slug: player-922fcfa4458d468a
@@ -35,7 +35,7 @@ career_goals: 3
 career_assists: 9
 career_points: 12
 career_pim: 2
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|2|1|1|2|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|8|2|8|10|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|1|0|0|0|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|2|1|1|2|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|9|2|8|10|2
 assists: 1
 games: 2
 goals: 1
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 102
+rank: 103
 season: cz-25-26

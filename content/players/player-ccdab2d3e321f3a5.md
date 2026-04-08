@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Kristián Šáda
 Category: players
 Slug: player-ccdab2d3e321f3a5
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 226
+rank: 177
 season: cz-25-26

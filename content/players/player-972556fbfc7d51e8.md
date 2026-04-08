@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Juho Syvänen
 Category: players
 Slug: player-972556fbfc7d51e8
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 185
+rank: 184
 season: fi-25-26

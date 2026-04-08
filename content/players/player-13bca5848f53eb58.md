@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Krišs Jēcis
 Category: players
 Slug: player-13bca5848f53eb58
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 217
+rank: 218
 season: lv-25-26

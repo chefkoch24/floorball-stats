@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Vertti Rautava
 Category: players
 Slug: player-bcb58aea1d5b48c4
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 271
+rank: 270
 season: fi-25-26

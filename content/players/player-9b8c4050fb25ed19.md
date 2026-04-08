@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Treneris Normunds Grunckis
 Category: players
 Slug: player-9b8c4050fb25ed19
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 348
+rank: 332
 season: lv-25-26

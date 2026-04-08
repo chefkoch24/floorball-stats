@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Matěj Hronek
 Category: players
 Slug: player-22597fc30df44df0
@@ -10,15 +10,15 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 32
-current_goals: 9
+current_games: 31
+current_goals: 11
 current_assists: 3
-current_points: 12
+current_points: 14
 current_pim: 2
-regular_games: 32
-regular_goals: 9
+regular_games: 31
+regular_goals: 11
 regular_assists: 3
-regular_points: 12
+regular_points: 14
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 32
-career_goals: 9
+career_games: 31
+career_goals: 11
 career_assists: 3
-career_points: 12
+career_points: 14
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|31|9|3|12|0||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|1|0|0|0|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|31|11|3|14|2
 assists: 3
 games: 31
-goals: 9
-penalties: 0
+goals: 11
+penalties: 1
 phase: regular-season
-pim: 0
-points: 12
-rank: 124
+pim: 2
+points: 14
+rank: 110
 season: cz-25-26

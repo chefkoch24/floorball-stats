@@ -1,15 +1,15 @@
-Date: 2026-04-07
-Title: Michal FATRSÍK
+Date: 2026-04-08
+Title: Michal Fatrsík
 Category: players
 Slug: player-61b09b883f1a3fd0
 type: player
-player: Michal FATRSÍK
+player: Michal Fatrsík
 player_uid: player-61b09b883f1a3fd0
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
-season_count: 1
+season_count: 2
 current_season: sk-25-26
-previous_season: n.a.
+previous_season: sk-24-25
 current_games: 2
 current_goals: 0
 current_assists: 0
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_games: 1
+previous_goals: 1
+previous_assists: 1
+previous_points: 2
 previous_pim: 0
-career_games: 2
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 3
+career_goals: 1
+career_assists: 1
+career_points: 2
 career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|2|0|0|0|0
+history_rows_csv: sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|2|0|0|0|0||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|1|1|1|2|0
 assists: 0
 games: 2
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 618
+rank: 317
 season: sk-25-26

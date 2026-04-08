@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: NÉMETH Dominik Lehel
+Date: 2026-04-08
+Title: Németh Dominik Lehel
 Category: players
 Slug: player-d5d9cb24a8aa5a10
 type: player
-player: NÉMETH Dominik Lehel
+player: Németh Dominik Lehel
 player_uid: player-d5d9cb24a8aa5a10
 team: FaBK ATU Košice
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 104
+rank: 101
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Agris Rogainis
 Category: players
 Slug: player-dc4c0196237df39e
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 129
+rank: 124
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Edijs Šenbergs
 Category: players
 Slug: player-d0c836aec8761db2

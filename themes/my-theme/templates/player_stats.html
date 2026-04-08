@@ -17,6 +17,19 @@
 
 <section class="panel">
     <h2 class="panel-title">All Players</h2>
+    <div class="table-search" data-player-search>
+        <label class="table-search-label" for="player-table-search">Search Player</label>
+        <input
+            id="player-table-search"
+            class="table-search-input"
+            type="search"
+            placeholder="Filter by player or team"
+            autocomplete="off"
+            data-player-search-input
+        >
+        <p class="table-search-status"><span data-player-search-count>{{ player_rows|length }}</span> players shown</p>
+        <p class="table-search-empty" data-player-search-empty hidden>No players match your search.</p>
+    </div>
     <div class="table-wrapper">
         <table class="data-table">
             <thead>
@@ -34,7 +47,11 @@
             {% for row in player_rows %}
                 {% set cols = row.split('|') %}
                 {% if cols|length >= 9 %}
-                <tr>
+                <tr
+                    class="player-search-row"
+                    data-player-name="{{ cols[2]|lower|e }}"
+                    data-team-name="{{ cols[3]|lower|e }}"
+                >
                     <td>{{ cols[0] }}</td>
                     <td><a href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a></td>
                     <td>{{ cols[3] }}</td>
@@ -49,3 +66,58 @@
         </table>
     </div>
 </section>
+
+<script>
+(function () {
+    const searchRoot = document.querySelector('[data-player-search]');
+    if (!searchRoot) {
+        return;
+    }
+    const searchInput = searchRoot.querySelector('[data-player-search-input]');
+    const countNode = searchRoot.querySelector('[data-player-search-count]');
+    const emptyNode = searchRoot.querySelector('[data-player-search-empty]');
+    const rows = Array.from(document.querySelectorAll('tr.player-search-row'));
+    const totalRows = rows.length;
+    const removeCombiningMarks = /[\u0300-\u036f]/g;
+
+    function normalizeForSearch(value) {
+        return String(value || '')
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(removeCombiningMarks, '');
+    }
+
+    const rowSearchIndex = rows.map((row) => ({
+        row: row,
+        playerName: normalizeForSearch(row.dataset.playerName),
+        teamName: normalizeForSearch(row.dataset.teamName),
+        searchText: normalizeForSearch((row.dataset.playerName || '') + ' ' + (row.dataset.teamName || '')),
+    }));
+
+    function updateFilter() {
+        const query = normalizeForSearch(searchInput.value).trim();
+        const tokens = query.length > 0 ? query.split(/\s+/).filter(Boolean) : [];
+        let visible = 0;
+        for (const rowData of rowSearchIndex) {
+            const matches =
+                query.length === 0 ||
+                tokens.every((token) => rowData.searchText.includes(token));
+            rowData.row.hidden = !matches;
+            if (matches) {
+                visible += 1;
+            }
+        }
+        if (countNode) {
+            countNode.textContent = String(visible);
+        }
+        if (emptyNode) {
+            emptyNode.hidden = visible !== 0;
+        }
+    }
+
+    if (countNode) {
+        countNode.textContent = String(totalRows);
+    }
+    searchInput.addEventListener('input', updateFilter);
+})();
+</script>

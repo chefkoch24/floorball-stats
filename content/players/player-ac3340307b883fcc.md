@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Damian ŠIŠA
+Date: 2026-04-08
+Title: Damian Šiša
 Category: players
 Slug: player-ac3340307b883fcc
 type: player
-player: Damian ŠIŠA
+player: Damian Šiša
 player_uid: player-ac3340307b883fcc
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 326
+rank: 271
 season: sk-25-26

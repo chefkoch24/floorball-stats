@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Oskari Piisilä
 Category: players
 Slug: player-a2ec209a7050c20c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 229
+rank: 228
 season: fi-25-26

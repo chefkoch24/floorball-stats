@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Ro. Chiplunkar
+Date: 2026-04-08
+Title: RO. Chiplunkar
 Category: players
 Slug: player-919e4bc0c67368bb
 type: player
-player: Ro. Chiplunkar
+player: RO. Chiplunkar
 player_uid: player-919e4bc0c67368bb
 team: WASA St. Gallen
 league: Switzerland

@@ -1,9 +1,9 @@
-Date: 2026-04-07
-Title: Viktor ZÁBORSKÝ
+Date: 2026-04-08
+Title: Viktor Záborský
 Category: players
 Slug: player-5ebb0a7c5b05b12f
 type: player
-player: Viktor ZÁBORSKÝ
+player: Viktor Záborský
 player_uid: player-5ebb0a7c5b05b12f
 team: VŠK FTVŠ UK Hurikán Bratislava
 league: Slovakia
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 411
+rank: 209
 season: sk-25-26

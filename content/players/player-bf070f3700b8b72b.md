@@ -1,4 +1,4 @@
-Date: 2026-04-07
+Date: 2026-04-08
 Title: Juha Kivilehto
 Category: players
 Slug: player-bf070f3700b8b72b
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 182
+rank: 181
 season: fi-25-26
