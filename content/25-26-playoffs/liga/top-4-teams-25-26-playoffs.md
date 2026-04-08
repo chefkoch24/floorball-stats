@@ -74,7 +74,7 @@ percent_goals_first_period: 26.51
 percent_goals_first_period_against: 20.95
 percent_goals_overtime: 1.92
 percent_goals_overtime_against: 2.08
-percent_goals_second_period: 34.67
+percent_goals_second_period: 34.66
 percent_goals_second_period_against: 33.61
 percent_goals_third_period: 35.23
 percent_goals_third_period_against: 43.36

@@ -10,16 +10,16 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 5
-current_goals: 2
-current_assists: 3
-current_points: 5
-current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 26
+current_goals: 32
+current_assists: 17
+current_points: 49
+current_pim: 16
+regular_games: 21
+regular_goals: 30
+regular_assists: 14
+regular_points: 44
+regular_pim: 14
 playoff_games: 5
 playoff_goals: 2
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
-career_goals: 2
-career_assists: 3
-career_points: 5
-career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2
+career_games: 26
+career_goals: 32
+career_assists: 17
+career_points: 49
+career_pim: 16
+history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2||se-25-26|regular-season|Sweden|Mullsjö AIS|21|30|14|44|14
 assists: 3
 games: 5
 goals: 2
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 5
-rank: 27
+rank: 22
 season: se-25-26

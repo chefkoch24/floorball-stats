@@ -1,6 +1,7 @@
 import pandas as pd
 
 from src.run_stats_engine import (
+    _build_game_events_payload,
     _build_gameflow_timeline,
     _penalty_kill_efficiency,
     _powerplay_efficiency,
@@ -417,3 +418,44 @@ def test_penalty_kill_efficiency_is_bounded_between_0_and_100():
 def test_efficiency_helpers_return_na_when_denominator_is_zero():
     assert _powerplay_efficiency(1, 0) == "n.a."
     assert _penalty_kill_efficiency(1, 0) == "n.a."
+
+
+def test_build_game_events_payload_translates_own_goal_labels():
+    events = pd.DataFrame(
+        [
+            {
+                "event_type": "goal",
+                "event_team": "Away",
+                "period": 3,
+                "sortkey": "3-07:38",
+                "home_goals": 1,
+                "guest_goals": 2,
+                "goal_type": "goal",
+                "scorer_name": "Självmål",
+                "assist_name": None,
+                "scorer_number": None,
+                "assist_number": None,
+                "penalty_player_name": None,
+            }
+        ]
+    )
+
+    payload_meta = _build_game_events_payload(
+        events,
+        home_team="Home",
+        away_team="Away",
+        exact_player_lookup={},
+        fallback_player_lookup={},
+    )
+    assert payload_meta["game_events_count"] == 1
+    encoded = payload_meta["game_events_b64"]
+    assert isinstance(encoded, str) and encoded
+
+    import base64
+    import json
+
+    decoded = json.loads(base64.b64decode(encoded).decode("utf-8"))
+    assert decoded[0]["event_kind"] == "goal"
+    assert decoded[0]["title"] == "Own goal"
+    assert decoded[0]["tag"] == "own_goal"
+    assert decoded[0]["title_uid"] is None

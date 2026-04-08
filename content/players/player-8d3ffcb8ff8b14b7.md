@@ -10,16 +10,16 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 6
-current_goals: 8
-current_assists: 4
-current_points: 12
-current_pim: 4
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 29
+current_goals: 51
+current_assists: 30
+current_points: 81
+current_pim: 18
+regular_games: 23
+regular_goals: 43
+regular_assists: 26
+regular_points: 69
+regular_pim: 14
 playoff_games: 6
 playoff_goals: 8
 playoff_assists: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 8
-career_assists: 4
-career_points: 12
-career_pim: 4
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|6|8|4|12|4
+career_games: 29
+career_goals: 51
+career_assists: 30
+career_points: 81
+career_pim: 18
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|6|8|4|12|4||se-25-26|regular-season|Sweden|Storvreta IBK|23|43|26|69|14
 assists: 4
 games: 6
 goals: 8
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 12
-rank: 4
+rank: 3
 season: se-25-26

@@ -14,6 +14,24 @@ from src.utils import add_penalties, is_powerplay, is_boxplay, normalize_slug_fr
 
 EVENT_PENALTY = 'penalty'
 EVENT_GOAL = 'goal'
+OWN_GOAL_LABEL = "Own goal"
+OWN_GOAL_TAG = "own_goal"
+_OWN_GOAL_MARKERS = {
+    "owngoal",
+    "selfgoal",
+    "autogoal",
+    "autogol",
+    "sjalvmal",
+    "sjalvmaal",
+    "eigentor",
+    "omamaali",
+    "vlastnigol",
+    "vlastnibranka",
+    "samoboj",
+    "samobojczygol",
+    "butcontresoncamp",
+    "autorete",
+}
 
 
 def _team_identity_key(name: object) -> str:
@@ -314,6 +332,25 @@ def _clean_optional_player_ref(value: object) -> Optional[str]:
     return text
 
 
+def _normalize_marker_token(value: object) -> str:
+    text = _clean_nullable_text(value)
+    if not text:
+        return ""
+    return normalize_slug_fragment(text).replace("-", "")
+
+
+def _is_own_goal_marker(value: object) -> bool:
+    token = _normalize_marker_token(value)
+    return bool(token) and token in _OWN_GOAL_MARKERS
+
+
+def _normalize_goal_event_text(scorer_label: str, goal_type: object) -> tuple[str, str, bool]:
+    is_own_goal = _is_own_goal_marker(scorer_label) or _is_own_goal_marker(goal_type)
+    if is_own_goal:
+        return OWN_GOAL_LABEL, OWN_GOAL_TAG, True
+    return scorer_label, (_clean_nullable_text(goal_type) or "goal"), False
+
+
 def _to_int_or_zero(value: object) -> int:
     numeric = pd.to_numeric(value, errors="coerce")
     if pd.isna(numeric):
@@ -479,16 +516,17 @@ def _build_game_events_payload(
             assist_name = _clean_nullable_text(event.get("assist_name"))
             assist_number = _clean_optional_player_ref(event.get("assist_number"))
             scorer_label = scorer_name or scorer_number or "Unknown"
+            scorer_label, goal_tag, is_own_goal = _normalize_goal_event_text(scorer_label, event.get("goal_type"))
             assist_label = assist_name or assist_number
             payload.append(
                 {
                     **base_event,
                     "event_kind": "goal",
                     "title": scorer_label,
-                    "title_uid": _resolve_player_uid(scorer_label, event_team, exact_player_lookup, fallback_player_lookup),
+                    "title_uid": None if is_own_goal else _resolve_player_uid(scorer_label, event_team, exact_player_lookup, fallback_player_lookup),
                     "assist": assist_label,
                     "assist_uid": _resolve_player_uid(assist_label, event_team, exact_player_lookup, fallback_player_lookup),
-                    "tag": _clean_nullable_text(event.get("goal_type")) or "goal",
+                    "tag": goal_tag,
                 }
             )
         elif event_type == EVENT_PENALTY:

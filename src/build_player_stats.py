@@ -932,6 +932,32 @@ def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str) -> 
     return _finalize_rows(stats, season=season, phase=phase, league="Sweden", source_system="sweden")
 
 
+def _load_played_matches(path: Path, required_columns: list[str]) -> pd.DataFrame:
+    available_columns = set(pd.read_csv(path, nrows=0).columns)
+    missing_required = [column for column in required_columns if column not in available_columns]
+    if missing_required:
+        raise ValueError(f"Missing required columns {missing_required} in {path}")
+
+    usecols = list(required_columns)
+    if "game_status" in available_columns and "game_status" not in usecols:
+        usecols.append("game_status")
+    matches = pd.read_csv(path, usecols=usecols)
+    if "game_status" in matches.columns:
+        statuses = matches["game_status"].fillna("").astype(str).str.strip().str.lower()
+        unplayed_statuses = {
+            "scheduled",
+            "postponed",
+            "canceled",
+            "cancelled",
+            "not played",
+            "to be played",
+            "upcoming",
+        }
+        matches = matches[~statuses.isin(unplayed_statuses)]
+    matches = matches.dropna(subset=required_columns).drop_duplicates(subset=["game_id"])
+    return matches[required_columns]
+
+
 def build_player_stats(data_dir: str, output_csv: str) -> int:
     directory = Path(data_dir)
     all_rows: list[pd.DataFrame] = []
@@ -1002,11 +1028,7 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                 source_system=info["source_system"],
             )
             try:
-                matches = (
-                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
-                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
-                    .drop_duplicates(subset=["game_id"])
-                )
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
                 roster_rows = _rows_from_czech_rosters(
                     matches,
                     season=season,
@@ -1032,11 +1054,7 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                 source_system=info["source_system"],
             )
             try:
-                matches = (
-                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
-                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
-                    .drop_duplicates(subset=["game_id"])
-                )
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
                 roster_rows = _rows_from_swiss_rosters(matches=matches, season=season, phase=phase)
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
@@ -1056,11 +1074,7 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                 source_system=info["source_system"],
             )
             try:
-                matches = (
-                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
-                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
-                    .drop_duplicates(subset=["game_id"])
-                )
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
                 roster_rows = _rows_from_finland_rosters(matches=matches, season=season, phase=phase)
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
@@ -1080,11 +1094,7 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                 source_system=info["source_system"],
             )
             try:
-                matches = (
-                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
-                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
-                    .drop_duplicates(subset=["game_id"])
-                )
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
                 roster_rows = _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase)
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
@@ -1104,11 +1114,7 @@ def build_player_stats(data_dir: str, output_csv: str) -> int:
                 source_system=info["source_system"],
             )
             try:
-                matches = (
-                    pd.read_csv(candidate, usecols=["game_id", "home_team_name", "away_team_name"])
-                    .dropna(subset=["game_id", "home_team_name", "away_team_name"])
-                    .drop_duplicates(subset=["game_id"])
-                )
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
                 roster_rows = _rows_from_latvia_rosters(matches=matches, season=season, phase=phase)
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],

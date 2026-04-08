@@ -10,17 +10,17 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 20
-current_goals: 12
-current_assists: 5
-current_points: 17
+current_games: 29
+current_goals: 43
+current_assists: 21
+current_points: 64
 current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 19
+regular_goals: 31
+regular_assists: 16
+regular_points: 47
 regular_pim: 0
-playoff_games: 20
+playoff_games: 10
 playoff_goals: 12
 playoff_assists: 5
 playoff_points: 17
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 20
-career_goals: 12
-career_assists: 5
-career_points: 17
+career_games: 29
+career_goals: 43
+career_assists: 21
+career_points: 64
 career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|20|12|5|17|2
+history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|12|5|17|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|19|31|16|47|0
 assists: 5
-games: 20
+games: 10
 goals: 12
 penalties: 1
 phase: playoffs

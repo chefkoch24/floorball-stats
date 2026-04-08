@@ -10,16 +10,16 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 2
-current_goals: 2
-current_assists: 2
-current_points: 4
-current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 11
+current_goals: 6
+current_assists: 8
+current_points: 14
+current_pim: 4
+regular_games: 9
+regular_goals: 4
+regular_assists: 6
+regular_points: 10
+regular_pim: 4
 playoff_games: 2
 playoff_goals: 2
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 2
-career_assists: 2
-career_points: 4
-career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|Unihockey Igels Dresden|2|2|2|4|0
+career_games: 11
+career_goals: 6
+career_assists: 8
+career_points: 14
+career_pim: 4
+history_rows_csv: 25-26|playoffs|Germany|Unihockey Igels Dresden|2|2|2|4|0||25-26|regular-season|Germany|Unihockey Igels Dresden|9|4|6|10|4
 assists: 2
 games: 2
 goals: 2

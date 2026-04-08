@@ -9,17 +9,17 @@ team: FK Florko Košice
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
-previous_season: n.a.
-current_games: 4
-current_goals: 5
-current_assists: 3
-current_points: 8
-current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+previous_season: sk-24-25
+current_games: 20
+current_goals: 14
+current_assists: 21
+current_points: 35
+current_pim: 4
+regular_games: 16
+regular_goals: 9
+regular_assists: 18
+regular_points: 27
+regular_pim: 2
 playoff_games: 4
 playoff_goals: 5
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 5
-career_assists: 3
-career_points: 8
-career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|5|3|8|2
+career_games: 29
+career_goals: 20
+career_assists: 29
+career_points: 49
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|5|3|8|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|16|9|18|27|2||sk-24-25|regular-season|Slovakia|FK Florko Košice|9|6|8|14|0
 assists: 3
 games: 4
 goals: 5

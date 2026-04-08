@@ -14,13 +14,13 @@ current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 0
-regular_games: 0
+current_pim: 2
+regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 0
-playoff_games: 1
+regular_pim: 2
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -34,14 +34,14 @@ career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 0
-history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|1|0|0|0|0
+career_pim: 2
+history_rows_csv: sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|1|0|0|0|2
 assists: 0
 games: 1
 goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
+penalties: 1
+phase: regular-season
+pim: 2
 points: 0
-rank: 149
+rank: 269
 season: sk-25-26
