@@ -5,20 +5,20 @@ Slug: player-46a0bc960ad8e549
 type: player
 player: Samu Dillström
 player_uid: player-46a0bc960ad8e549
-team: LASB
+team: 
 league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 8
-current_goals: 6
-current_assists: 1
-current_points: 7
+current_games: 2
+current_goals: 0
+current_assists: 0
+current_points: 0
 current_pim: 0
-regular_games: 6
-regular_goals: 6
-regular_assists: 1
-regular_points: 7
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 6
-career_assists: 1
-career_points: 7
+career_games: 2
+career_goals: 0
+career_assists: 0
+career_points: 0
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0||fi-25-26|regular-season|Finland|LASB|6|6|1|7|0
+history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0
 assists: 0
 games: 2
 goals: 0

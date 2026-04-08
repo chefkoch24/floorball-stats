@@ -5,20 +5,20 @@ Slug: player-2c0f02363fa1f00d
 type: player
 player: Valtteri Ryytty
 player_uid: player-2c0f02363fa1f00d
-team: LASB
+team: 
 league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 4
-current_goals: 2
+current_games: 2
+current_goals: 0
 current_assists: 0
-current_points: 2
+current_points: 0
 current_pim: 0
-regular_games: 2
-regular_goals: 2
+regular_games: 0
+regular_goals: 0
 regular_assists: 0
-regular_points: 2
+regular_points: 0
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 2
+career_games: 2
+career_goals: 0
 career_assists: 0
-career_points: 2
+career_points: 0
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0||fi-25-26|regular-season|Finland|LASB|2|2|0|2|0
+history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0
 assists: 0
 games: 2
 goals: 0

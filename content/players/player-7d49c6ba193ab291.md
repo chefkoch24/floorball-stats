@@ -5,20 +5,20 @@ Slug: player-7d49c6ba193ab291
 type: player
 player: Peetu Rantala
 player_uid: player-7d49c6ba193ab291
-team: LASB
+team: 
 league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 7
-current_goals: 3
-current_assists: 2
-current_points: 5
+current_games: 2
+current_goals: 0
+current_assists: 0
+current_points: 0
 current_pim: 0
-regular_games: 5
-regular_goals: 3
-regular_assists: 2
-regular_points: 5
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
-career_assists: 2
-career_points: 5
+career_games: 2
+career_goals: 0
+career_assists: 0
+career_points: 0
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0||fi-25-26|regular-season|Finland|LASB|5|3|2|5|0
+history_rows_csv: fi-25-26|playoffs|Finland||2|0|0|0|0
 assists: 0
 games: 2
 goals: 0
