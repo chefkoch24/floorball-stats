@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-05-03
 Title: Unihockey Igels Dresden
 Category: 25-26-playoffs, teams
 Slug: unihockey-igels-dresden-25-26-playoffs-25-26-playoffs

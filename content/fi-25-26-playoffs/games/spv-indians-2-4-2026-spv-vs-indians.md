@@ -408,6 +408,7 @@ away_pregame_points_after_first_period: 8
 away_pregame_points_after_first_period_per_game: 2.0
 away_pregame_points_after_second_period: 12
 away_pregame_points_after_third_period: 8
+away_pregame_points_against_classic: 0
 away_pregame_points_against_spv: 13
 away_pregame_points_max_difference_2: 6
 away_pregame_points_more_2_difference: 3

@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
+previous_games: 6
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 14
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|8|0|0|0|0||fi-25-26|playoffs|Finland||7|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|8|0|0|0|0||fi-25-26|playoffs|Finland||6|0|0|0|0
 assists: 0
 games: 8
 goals: 0

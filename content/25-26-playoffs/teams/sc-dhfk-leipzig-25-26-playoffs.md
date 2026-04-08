@@ -1,4 +1,4 @@
-Date: 2026-04-05
+Date: 2026-05-03
 Title: SC DHfK Leipzig
 Category: 25-26-playoffs, teams
 Slug: sc-dhfk-leipzig-25-26-playoffs-25-26-playoffs

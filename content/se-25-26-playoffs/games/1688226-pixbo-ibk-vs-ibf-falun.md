@@ -408,7 +408,7 @@ away_pregame_points_after_first_period: 1
 away_pregame_points_after_first_period_per_game: 1.0
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 1
-away_pregame_points_against_linkoping_ibk: 3
+away_pregame_points_against_linkoping_ibk: 6
 away_pregame_points_against_pixbo_ibk: 13
 away_pregame_points_max_difference_2: 1
 away_pregame_points_more_2_difference: 0

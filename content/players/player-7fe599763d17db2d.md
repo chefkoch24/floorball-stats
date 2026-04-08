@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 32
-previous_goals: 18
-previous_assists: 23
-previous_points: 41
-previous_pim: 10
-career_games: 39
-career_goals: 18
-career_assists: 23
-career_points: 41
-career_pim: 10
-history_rows_csv: fi-25-26|playoffs|Finland||7|0|0|0|0||se-25-26|playoffs|Sweden|Växjö IBK|6|5|2|7|0||se-25-26|regular-season|Sweden|Växjö IBK|26|13|21|34|10
+previous_games: 6
+previous_goals: 6
+previous_assists: 3
+previous_points: 9
+previous_pim: 0
+career_games: 13
+career_goals: 6
+career_assists: 3
+career_points: 9
+career_pim: 0
+history_rows_csv: fi-25-26|playoffs|Finland||7|0|0|0|0||se-25-26|playoffs|Sweden|Växjö IBK|6|6|3|9|0
 assists: 0
 games: 7
 goals: 0

@@ -10,16 +10,16 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 22
-current_goals: 6
-current_assists: 11
-current_points: 17
-current_pim: 6
-regular_games: 16
-regular_goals: 4
-regular_assists: 8
-regular_points: 12
-regular_pim: 6
+current_games: 6
+current_goals: 2
+current_assists: 3
+current_points: 5
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 6
 playoff_goals: 2
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
-career_goals: 6
-career_assists: 11
-career_points: 17
-career_pim: 6
-history_rows_csv: sk-25-26|playoffs|Slovakia|DTF team Detva Joxers|6|2|3|5|0||sk-25-26|regular-season|Slovakia|DTF team Detva Joxers|16|4|8|12|6
+career_games: 6
+career_goals: 2
+career_assists: 3
+career_points: 5
+career_pim: 0
+history_rows_csv: sk-25-26|playoffs|Slovakia|DTF team Detva Joxers|6|2|3|5|0
 assists: 3
 games: 6
 goals: 2

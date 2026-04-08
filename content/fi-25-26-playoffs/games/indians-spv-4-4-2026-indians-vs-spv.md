@@ -310,6 +310,7 @@ home_pregame_points_after_first_period: 8
 home_pregame_points_after_first_period_per_game: 1.6
 home_pregame_points_after_second_period: 12
 home_pregame_points_after_third_period: 9
+home_pregame_points_against_classic: 0
 home_pregame_points_against_spv: 13
 home_pregame_points_max_difference_2: 7
 home_pregame_points_more_2_difference: 3
