@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Eppu Suhanto
 Category: players
 Slug: player-000fec7aa4d259e1
@@ -10,16 +10,16 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 8
+current_games: 7
 current_goals: 3
 current_assists: 3
 current_points: 6
-current_pim: 4
-regular_games: 5
+current_pim: 2
+regular_games: 4
 regular_goals: 3
 regular_assists: 1
 regular_points: 4
-regular_pim: 2
+regular_pim: 0
 playoff_games: 3
 playoff_goals: 0
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 7
 career_goals: 3
 career_assists: 3
 career_points: 6
-career_pim: 4
-history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|0|2|2|2||fi-25-26|regular-season|Finland|Oilers|5|3|1|4|2
+career_pim: 2
+history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|0|2|2|2||fi-25-26|regular-season|Finland|Oilers|4|3|1|4|0
 assists: 2
 games: 3
 goals: 0

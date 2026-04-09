@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Matěj Bednář
 Category: players
 Slug: player-be684cad3acbe9c8
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 28
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 2
+regular_games: 28
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 28
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|2|1|1|2|0
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|28|1|1|2|0
 assists: 1
-games: 2
+games: 28
 goals: 1
 penalties: 0
 phase: regular-season

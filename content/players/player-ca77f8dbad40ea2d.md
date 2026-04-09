@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Elmeri Haveri
 Category: players
 Slug: player-ca77f8dbad40ea2d
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 26
-current_goals: 29
-current_assists: 12
-current_points: 41
+current_games: 25
+current_goals: 28
+current_assists: 11
+current_points: 39
 current_pim: 22
-regular_games: 24
-regular_goals: 28
-regular_assists: 11
-regular_points: 39
+regular_games: 23
+regular_goals: 27
+regular_assists: 10
+regular_points: 37
 regular_pim: 20
 playoff_games: 2
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 26
-career_goals: 29
-career_assists: 12
-career_points: 41
+career_games: 25
+career_goals: 28
+career_assists: 11
+career_points: 39
 career_pim: 22
-history_rows_csv: fi-25-26|playoffs|Finland|EräViikingit|2|1|1|2|2||fi-25-26|regular-season|Finland|EräViikingit|24|28|11|39|20
+history_rows_csv: fi-25-26|playoffs|Finland|EräViikingit|2|1|1|2|2||fi-25-26|regular-season|Finland|EräViikingit|23|27|10|37|20
 assists: 1
 games: 2
 goals: 1

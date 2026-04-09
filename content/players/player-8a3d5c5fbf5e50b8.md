@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Gustavs Siliņš
 Category: players
 Slug: player-8a3d5c5fbf5e50b8
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 27
+current_games: 38
 current_goals: 19
 current_assists: 23
 current_points: 42
 current_pim: 16
-regular_games: 21
+regular_games: 27
 regular_goals: 14
 regular_assists: 20
 regular_points: 34
 regular_pim: 10
-playoff_games: 6
+playoff_games: 11
 playoff_goals: 5
 playoff_assists: 3
 playoff_points: 8
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 38
 career_goals: 19
 career_assists: 23
 career_points: 42
 career_pim: 16
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|6|5|3|8|6||lv-25-26|regular-season|Latvia|Rubene|21|14|20|34|10
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|5|3|8|6||lv-25-26|regular-season|Latvia|Rubene|27|14|20|34|10
 assists: 3
-games: 6
+games: 11
 goals: 5
 penalties: 3
 phase: playoffs

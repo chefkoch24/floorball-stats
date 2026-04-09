@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: K. Eberle
 Category: players
 Slug: player-868e733eabf82d5a
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 256
+rank: 380
 season: ch-25-26

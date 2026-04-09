@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Mareks Stančiks
 Category: players
 Slug: player-d78e196c4b277dfa
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 16
 current_goals: 15
 current_assists: 13
 current_points: 28
 current_pim: 6
-regular_games: 15
+regular_games: 16
 regular_goals: 15
 regular_assists: 13
 regular_points: 28
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 16
 career_goals: 15
 career_assists: 13
 career_points: 28
 career_pim: 6
-history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|15|15|13|28|6
+history_rows_csv: lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|16|15|13|28|6
 assists: 13
-games: 15
+games: 16
 goals: 15
 penalties: 3
 phase: regular-season

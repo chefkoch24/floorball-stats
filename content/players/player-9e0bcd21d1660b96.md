@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Mariss Bergmanis
 Category: players
 Slug: player-9e0bcd21d1660b96
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 25
 current_goals: 11
 current_assists: 9
 current_points: 20
 current_pim: 4
-regular_games: 8
+regular_games: 14
 regular_goals: 8
 regular_assists: 5
 regular_points: 13
 regular_pim: 4
-playoff_games: 4
+playoff_games: 11
 playoff_goals: 3
 playoff_assists: 4
 playoff_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 25
 career_goals: 11
 career_assists: 9
 career_points: 20
 career_pim: 4
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|4|3|4|7|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|8|8|5|13|4
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|3|4|7|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|14|8|5|13|4
 assists: 4
-games: 4
+games: 11
 goals: 3
 penalties: 0
 phase: playoffs

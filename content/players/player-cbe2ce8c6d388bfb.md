@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Pavlák Matej
 Category: players
 Slug: player-cbe2ce8c6d388bfb
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 36
 current_goals: 14
 current_assists: 4
 current_points: 18
 current_pim: 4
-regular_games: 15
+regular_games: 36
 regular_goals: 14
 regular_assists: 4
 regular_points: 18
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 36
 career_goals: 14
 career_assists: 4
 career_points: 18
 career_pim: 4
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|15|14|4|18|4
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|36|14|4|18|4
 assists: 4
-games: 15
+games: 36
 goals: 14
 penalties: 2
 phase: regular-season

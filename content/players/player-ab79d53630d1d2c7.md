@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: J. Rüegger
 Category: players
 Slug: player-ab79d53630d1d2c7

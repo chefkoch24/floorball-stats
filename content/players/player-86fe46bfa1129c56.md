@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Oskar Andersson
 Category: players
 Slug: player-86fe46bfa1129c56
@@ -10,12 +10,12 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 1
+current_games: 4
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 0
-regular_games: 1
+regular_games: 4
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 4
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 0
-history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|1|2|0|2|0
+history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|4|2|0|2|0
 assists: 0
-games: 1
+games: 4
 goals: 2
 penalties: 0
 phase: regular-season

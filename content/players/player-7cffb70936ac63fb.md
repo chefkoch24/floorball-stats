@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Artis Černovskis
 Category: players
 Slug: player-7cffb70936ac63fb
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 8
+current_games: 26
 current_goals: 9
 current_assists: 1
 current_points: 10
 current_pim: 2
-regular_games: 8
+regular_games: 26
 regular_goals: 9
 regular_assists: 1
 regular_points: 10
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 26
 career_goals: 9
 career_assists: 1
 career_points: 10
 career_pim: 2
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|8|9|1|10|2
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|26|9|1|10|2
 assists: 1
-games: 8
+games: 26
 goals: 9
 penalties: 1
 phase: regular-season

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Tiitus Salokangas
 Category: players
 Slug: player-2e459a1664ff30da
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 12
-current_goals: 17
-current_assists: 14
-current_points: 31
+current_games: 11
+current_goals: 16
+current_assists: 13
+current_points: 29
 current_pim: 2
-regular_games: 10
-regular_goals: 15
-regular_assists: 13
-regular_points: 28
+regular_games: 9
+regular_goals: 14
+regular_assists: 12
+regular_points: 26
 regular_pim: 2
 playoff_games: 2
 playoff_goals: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
-career_goals: 17
-career_assists: 14
-career_points: 31
+career_games: 11
+career_goals: 16
+career_assists: 13
+career_points: 29
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|2|2|1|3|0||fi-25-26|regular-season|Finland|Classic|10|15|13|28|2
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|2|2|1|3|0||fi-25-26|regular-season|Finland|Classic|9|14|12|26|2
 assists: 1
 games: 2
 goals: 2

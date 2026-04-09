@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Renārs Kovaļovs
 Category: players
 Slug: player-eebd6f6a13aa8ab0
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 16
+current_games: 39
 current_goals: 7
 current_assists: 6
 current_points: 13
 current_pim: 12
-regular_games: 13
+regular_games: 25
 regular_goals: 6
 regular_assists: 4
 regular_points: 10
 regular_pim: 10
-playoff_games: 3
+playoff_games: 14
 playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 16
+career_games: 39
 career_goals: 7
 career_assists: 6
 career_points: 13
 career_pim: 12
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|3|1|2|3|2||lv-25-26|regular-season|Latvia|Lekrings|13|6|4|10|10
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|1|2|3|2||lv-25-26|regular-season|Latvia|Lekrings|25|6|4|10|10
 assists: 2
-games: 3
+games: 14
 goals: 1
 penalties: 1
 phase: playoffs

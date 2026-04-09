@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: David Lichtwer
 Category: players
 Slug: player-5136af1a9d4f015e
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 7
+current_games: 17
 current_goals: 1
 current_assists: 5
 current_points: 6
 current_pim: 6
-regular_games: 7
+regular_games: 17
 regular_goals: 1
 regular_assists: 5
 regular_points: 6
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 17
 career_goals: 1
 career_assists: 5
 career_points: 6
 career_pim: 6
-history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|7|1|5|6|6
+history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|17|1|5|6|6
 assists: 5
-games: 7
+games: 17
 goals: 1
 penalties: 3
 phase: regular-season

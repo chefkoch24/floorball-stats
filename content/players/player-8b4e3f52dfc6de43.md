@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Szombath Oliver
 Category: players
 Slug: player-8b4e3f52dfc6de43
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 13
+current_games: 34
 current_goals: 5
 current_assists: 9
 current_points: 14
 current_pim: 8
-regular_games: 13
+regular_games: 34
 regular_goals: 5
 regular_assists: 9
 regular_points: 14
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 13
+career_games: 34
 career_goals: 5
 career_assists: 9
 career_points: 14
 career_pim: 8
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|13|5|9|14|8
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|34|5|9|14|8
 assists: 9
-games: 13
+games: 34
 goals: 5
 penalties: 4
 phase: regular-season

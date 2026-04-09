@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Teemu Karppanen
 Category: players
 Slug: player-962aad18b33c7aff
@@ -10,16 +10,16 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 27
+current_games: 26
 current_goals: 20
 current_assists: 30
 current_points: 50
-current_pim: 4
-regular_games: 22
+current_pim: 2
+regular_games: 21
 regular_goals: 17
 regular_assists: 25
 regular_points: 42
-regular_pim: 2
+regular_pim: 0
 playoff_games: 5
 playoff_goals: 3
 playoff_assists: 5
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 26
 career_goals: 20
 career_assists: 30
 career_points: 50
-career_pim: 4
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|5|3|5|8|2||fi-25-26|regular-season|Finland|Classic|22|17|25|42|2
+career_pim: 2
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|5|3|5|8|2||fi-25-26|regular-season|Finland|Classic|21|17|25|42|0
 assists: 5
 games: 5
 goals: 3

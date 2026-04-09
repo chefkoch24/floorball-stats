@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Šimočko Matúš
 Category: players
 Slug: player-7f0cb2685a1b8d52
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 11
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 2
+regular_games: 11
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 11
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|2|0|1|1|2
+history_rows_csv: sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|1|1|2
 assists: 1
-games: 2
+games: 11
 goals: 0
 penalties: 1
 phase: regular-season

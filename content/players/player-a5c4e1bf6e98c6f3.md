@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Lazor Alex
 Category: players
 Slug: player-a5c4e1bf6e98c6f3
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 18
+current_games: 40
 current_goals: 23
 current_assists: 12
 current_points: 35
 current_pim: 6
-regular_games: 18
+regular_games: 40
 regular_goals: 23
 regular_assists: 12
 regular_points: 35
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 40
 career_goals: 23
 career_assists: 12
 career_points: 35
 career_pim: 6
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|18|23|12|35|6
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|40|23|12|35|6
 assists: 12
-games: 18
+games: 40
 goals: 23
 penalties: 3
 phase: regular-season

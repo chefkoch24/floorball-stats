@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Markuss Kaņeps
 Category: players
 Slug: player-6a48c2058c8d0b0f
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 19
+current_games: 26
 current_goals: 12
 current_assists: 15
 current_points: 27
 current_pim: 4
-regular_games: 19
+regular_games: 26
 regular_goals: 12
 regular_assists: 15
 regular_points: 27
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 26
 career_goals: 12
 career_assists: 15
 career_points: 27
 career_pim: 4
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|19|12|15|27|4
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|26|12|15|27|4
 assists: 15
-games: 19
+games: 26
 goals: 12
 penalties: 2
 phase: regular-season

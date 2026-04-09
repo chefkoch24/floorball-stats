@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Sandris Virsnītis
 Category: players
 Slug: player-c75eae8faa26d464
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 29
 current_goals: 7
 current_assists: 9
 current_points: 16
 current_pim: 6
-regular_games: 9
+regular_games: 25
 regular_goals: 6
 regular_assists: 6
 regular_points: 12
 regular_pim: 6
-playoff_games: 3
+playoff_games: 4
 playoff_goals: 1
 playoff_assists: 3
 playoff_points: 4
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 29
 career_goals: 7
 career_assists: 9
 career_points: 16
 career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|3|1|3|4|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|9|6|6|12|6
+history_rows_csv: lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|3|4|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|25|6|6|12|6
 assists: 3
-games: 3
+games: 4
 goals: 1
 penalties: 0
 phase: playoffs

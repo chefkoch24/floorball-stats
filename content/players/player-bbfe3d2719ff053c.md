@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Oskars Kuzins
 Category: players
 Slug: player-bbfe3d2719ff053c
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 15
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 4
-regular_games: 2
+regular_games: 15
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 15
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 4
-history_rows_csv: lv-25-26|regular-season|Latvia|FBK Valmiera|2|0|0|0|4
+history_rows_csv: lv-25-26|regular-season|Latvia|FBK Valmiera|15|0|0|0|4
 assists: 0
-games: 2
+games: 15
 goals: 0
 penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 236
+rank: 270
 season: lv-25-26

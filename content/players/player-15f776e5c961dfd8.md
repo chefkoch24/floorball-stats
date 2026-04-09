@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Marek Matejčík
 Category: players
 Slug: player-15f776e5c961dfd8
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 19
 current_goals: 6
 current_assists: 9
 current_points: 15
 current_pim: 4
-regular_games: 12
+regular_games: 19
 regular_goals: 6
 regular_assists: 9
 regular_points: 15
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 19
 career_goals: 6
 career_assists: 9
 career_points: 15
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|12|6|9|15|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|19|6|9|15|4
 assists: 9
-games: 12
+games: 19
 goals: 6
 penalties: 2
 phase: regular-season

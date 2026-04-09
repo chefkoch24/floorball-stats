@@ -51,6 +51,7 @@ SWISS_PLAYOFFS_CSV ?= data/data_$(SWISS_PLAYOFFS_SLUG)_playoffs.csv
 # Finland pipeline defaults (F-Liiga)
 FINLAND_SEASON ?= fi-25-26
 FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
+FINLAND_LEAGUE_CONFIG ?= config/leagues/finland-fliiga.json
 FINLAND_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/finland-fliiga-playoffs.json
 FINLAND_PLAYOFFS_SEASON ?= $(FINLAND_SEASON)
 FINLAND_PLAYOFFS_CSV ?= data/data_$(FINLAND_PLAYOFFS_SEASON)_playoffs.csv
@@ -114,7 +115,7 @@ help:
 	@echo 'Set SWEDEN_PLAYOFFS_* to override refresh-sweden-smart                     '
 	@echo 'Set SWISS_* to override refresh-switzerland                                '
 	@echo 'Set SWISS_PLAYOFFS_LEAGUE_CONFIG to override refresh-switzerland-playoffs  '
-	@echo 'Set FINLAND_* to override refresh-finland                                   '
+	@echo 'Set FINLAND_LEAGUE_CONFIG to override refresh-finland                       '
 	@echo 'Set FINLAND_PLAYOFFS_LEAGUE_CONFIG to override refresh-finland-playoffs     '
 	@echo 'Set FINLAND_PLAYOFFS_* to override refresh-finland-smart                    '
 	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
@@ -184,7 +185,7 @@ refresh-switzerland-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-finland:
-	"$(PYTHON)" -m src.pipeline --backend finland --finland_schedule_url "$(FINLAND_SCHEDULE_URL)" --season "$(FINLAND_SEASON)" --phase "$(PHASE)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_LEAGUE_CONFIG)"
 
 refresh-finland-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_PLAYOFFS_LEAGUE_CONFIG)"

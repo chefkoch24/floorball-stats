@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Jannes Wolff
 Category: players
 Slug: player-a6b1383303be4af8
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 12
+current_games: 19
 current_goals: 7
 current_assists: 4
 current_points: 11
 current_pim: 12
-regular_games: 12
+regular_games: 19
 regular_goals: 7
 regular_assists: 4
 regular_points: 11
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 19
 career_goals: 7
 career_assists: 4
 career_points: 11
 career_pim: 12
-history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|12|7|4|11|12
+history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|19|7|4|11|12
 assists: 4
-games: 12
+games: 19
 goals: 7
 penalties: 6
 phase: regular-season

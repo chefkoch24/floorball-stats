@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Arvis Kreicbergs
 Category: players
 Slug: player-f3325fdca1c5d715
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 8
+current_games: 21
 current_goals: 6
 current_assists: 0
 current_points: 6
 current_pim: 8
-regular_games: 8
+regular_games: 21
 regular_goals: 6
 regular_assists: 0
 regular_points: 6
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 21
 career_goals: 6
 career_assists: 0
 career_points: 6
 career_pim: 8
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|8|6|0|6|8
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|21|6|0|6|8
 assists: 0
-games: 8
+games: 21
 goals: 6
 penalties: 4
 phase: regular-season

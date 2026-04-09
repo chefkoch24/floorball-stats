@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Krišs Treimanis
 Category: players
 Slug: player-fa0ca90522a679cd
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 13
+current_games: 34
 current_goals: 8
 current_assists: 4
 current_points: 12
 current_pim: 8
-regular_games: 9
+regular_games: 22
 regular_goals: 8
 regular_assists: 2
 regular_points: 10
 regular_pim: 4
-playoff_games: 4
+playoff_games: 12
 playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 13
+career_games: 34
 career_goals: 8
 career_assists: 4
 career_points: 12
 career_pim: 8
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|4|0|2|2|4||lv-25-26|regular-season|Latvia|Lekrings|9|8|2|10|4
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|12|0|2|2|4||lv-25-26|regular-season|Latvia|Lekrings|22|8|2|10|4
 assists: 2
-games: 4
+games: 12
 goals: 0
 penalties: 2
 phase: playoffs

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Filip Norman
 Category: players
 Slug: player-c41a2ce063ecbb0f
@@ -10,15 +10,15 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 12
-current_goals: 5
+current_games: 24
+current_goals: 6
 current_assists: 4
-current_points: 9
+current_points: 10
 current_pim: 8
-regular_games: 12
-regular_goals: 5
+regular_games: 24
+regular_goals: 6
 regular_assists: 4
-regular_points: 9
+regular_points: 10
 regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
-career_goals: 5
+career_games: 24
+career_goals: 6
 career_assists: 4
-career_points: 9
+career_points: 10
 career_pim: 8
-history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|12|5|4|9|8
+history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|24|6|4|10|8
 assists: 4
-games: 12
-goals: 5
+games: 24
+goals: 6
 penalties: 4
 phase: regular-season
 pim: 8
-points: 9
-rank: 132
+points: 10
+rank: 126
 season: se-25-26

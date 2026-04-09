@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Lukáš Rada
 Category: players
 Slug: player-41733fe396f71eff
@@ -10,17 +10,17 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 18
+current_games: 29
 current_goals: 17
 current_assists: 9
 current_points: 26
 current_pim: 2
-regular_games: 16
+regular_games: 25
 regular_goals: 16
 regular_assists: 9
 regular_points: 25
 regular_pim: 0
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 1
 playoff_assists: 0
 playoff_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 29
 career_goals: 17
 career_assists: 9
 career_points: 26
 career_pim: 2
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|2|1|0|1|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|16|16|9|25|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|4|1|0|1|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|25|16|9|25|0
 assists: 0
-games: 2
+games: 4
 goals: 1
 penalties: 1
 phase: playoffs

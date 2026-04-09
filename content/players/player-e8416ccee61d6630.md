@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Mārcis Brīvulis
 Category: players
 Slug: player-e8416ccee61d6630
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 19
+current_games: 33
 current_goals: 3
 current_assists: 12
 current_points: 15
 current_pim: 16
-regular_games: 13
+regular_games: 22
 regular_goals: 1
 regular_assists: 10
 regular_points: 11
 regular_pim: 8
-playoff_games: 6
+playoff_games: 11
 playoff_goals: 2
 playoff_assists: 2
 playoff_points: 4
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 33
 career_goals: 3
 career_assists: 12
 career_points: 15
 career_pim: 16
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|6|2|2|4|8||lv-25-26|regular-season|Latvia|Rubene|13|1|10|11|8
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|2|2|4|8||lv-25-26|regular-season|Latvia|Rubene|22|1|10|11|8
 assists: 2
-games: 6
+games: 11
 goals: 2
 penalties: 4
 phase: playoffs

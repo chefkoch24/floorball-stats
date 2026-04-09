@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Albin Jakobsson
 Category: players
 Slug: player-dacbed8e72a6fe75
@@ -10,12 +10,12 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 4
+current_games: 26
 current_goals: 1
 current_assists: 2
 current_points: 3
 current_pim: 6
-regular_games: 4
+regular_games: 26
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 26
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 6
-history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|4|1|2|3|6
+history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|26|1|2|3|6
 assists: 2
-games: 4
+games: 26
 goals: 1
 penalties: 3
 phase: regular-season
 pim: 6
 points: 3
-rank: 206
+rank: 207
 season: se-25-26

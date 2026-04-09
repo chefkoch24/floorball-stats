@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Veselovský Martin
 Category: players
 Slug: player-e83ca389fcd92114
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 6
+current_games: 13
 current_goals: 3
 current_assists: 4
 current_points: 7
 current_pim: 4
-regular_games: 6
+regular_games: 13
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 13
 career_goals: 3
 career_assists: 4
 career_points: 7
 career_pim: 4
-history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|6|3|4|7|4
+history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|13|3|4|7|4
 assists: 4
-games: 6
+games: 13
 goals: 3
 penalties: 2
 phase: regular-season

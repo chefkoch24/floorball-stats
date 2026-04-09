@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Schätzel Marek
 Category: players
 Slug: player-3a49f2c9fcc9cdcc
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 9
+current_games: 22
 current_goals: 2
 current_assists: 4
 current_points: 6
 current_pim: 8
-regular_games: 9
+regular_games: 22
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 22
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 8
-history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|2|4|6|8
+history_rows_csv: sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|22|2|4|6|8
 assists: 4
-games: 9
+games: 22
 goals: 2
 penalties: 4
 phase: regular-season
 pim: 8
 points: 6
-rank: 156
+rank: 155
 season: sk-25-26

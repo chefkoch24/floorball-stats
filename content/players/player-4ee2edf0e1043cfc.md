@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Nils Hofferbert
 Category: players
 Slug: player-4ee2edf0e1043cfc
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 22
+current_games: 23
 current_goals: 28
 current_assists: 28
 current_points: 56
 current_pim: 10
-regular_games: 19
+regular_games: 20
 regular_goals: 26
 regular_assists: 23
 regular_points: 49
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 23
 career_goals: 28
 career_assists: 28
 career_points: 56
 career_pim: 10
-history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|3|2|5|7|2||25-26|regular-season|Germany|DJK Holzbüttgen|19|26|23|49|8
+history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|3|2|5|7|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|26|23|49|8
 assists: 5
 games: 3
 goals: 2

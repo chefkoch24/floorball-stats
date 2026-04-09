@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Aaro Tammiranta
 Category: players
 Slug: player-c06dfe7d8ec58654
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 31
-current_goals: 21
+current_games: 30
+current_goals: 20
 current_assists: 27
-current_points: 48
+current_points: 47
 current_pim: 6
-regular_games: 28
-regular_goals: 18
+regular_games: 27
+regular_goals: 17
 regular_assists: 27
-regular_points: 45
+regular_points: 44
 regular_pim: 6
 playoff_games: 3
 playoff_goals: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
-career_goals: 21
+career_games: 30
+career_goals: 20
 career_assists: 27
-career_points: 48
+career_points: 47
 career_pim: 6
-history_rows_csv: fi-25-26|playoffs|Finland|SPV|3|3|0|3|0||fi-25-26|regular-season|Finland|SPV|28|18|27|45|6
+history_rows_csv: fi-25-26|playoffs|Finland|SPV|3|3|0|3|0||fi-25-26|regular-season|Finland|SPV|27|17|27|44|6
 assists: 0
 games: 3
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Svens Balodis
 Category: players
 Slug: player-fc9c634454cde9d6
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 34
 current_goals: 8
 current_assists: 12
 current_points: 20
 current_pim: 6
-regular_games: 14
+regular_games: 27
 regular_goals: 6
 regular_assists: 12
 regular_points: 18
 regular_pim: 6
-playoff_games: 1
+playoff_games: 7
 playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 34
 career_goals: 8
 career_assists: 12
 career_points: 20
 career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|1|2|0|2|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|14|6|12|18|6
+history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|2|0|2|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|27|6|12|18|6
 assists: 0
-games: 1
+games: 7
 goals: 2
 penalties: 0
 phase: playoffs

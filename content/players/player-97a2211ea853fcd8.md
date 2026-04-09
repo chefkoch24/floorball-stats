@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Hugo Lindberg
 Category: players
 Slug: player-97a2211ea853fcd8
@@ -10,12 +10,12 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 23
 current_goals: 6
 current_assists: 8
 current_points: 14
 current_pim: 6
-regular_games: 12
+regular_games: 23
 regular_goals: 6
 regular_assists: 8
 regular_points: 14
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 23
 career_goals: 6
 career_assists: 8
 career_points: 14
 career_pim: 6
-history_rows_csv: se-25-26|regular-season|Sweden|Visby IBK|12|6|8|14|6
+history_rows_csv: se-25-26|regular-season|Sweden|Visby IBK|23|6|8|14|6
 assists: 8
-games: 12
+games: 23
 goals: 6
 penalties: 3
 phase: regular-season
 pim: 6
 points: 14
-rank: 96
+rank: 98
 season: se-25-26

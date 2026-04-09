@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: C. Buri
 Category: players
 Slug: player-eb11c0cb1dbc8281
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 250
+rank: 277
 season: ch-25-26

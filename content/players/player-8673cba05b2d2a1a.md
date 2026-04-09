@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Veikko Paajanen
 Category: players
 Slug: player-8673cba05b2d2a1a
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 25
-current_goals: 23
+current_games: 24
+current_goals: 22
 current_assists: 16
-current_points: 39
+current_points: 38
 current_pim: 4
-regular_games: 22
-regular_goals: 20
+regular_games: 21
+regular_goals: 19
 regular_assists: 14
-regular_points: 34
+regular_points: 33
 regular_pim: 4
 playoff_games: 3
 playoff_goals: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
-career_goals: 23
+career_games: 24
+career_goals: 22
 career_assists: 16
-career_points: 39
+career_points: 38
 career_pim: 4
-history_rows_csv: fi-25-26|playoffs|Finland|TPS|3|3|2|5|0||fi-25-26|regular-season|Finland|TPS|22|20|14|34|4
+history_rows_csv: fi-25-26|playoffs|Finland|TPS|3|3|2|5|0||fi-25-26|regular-season|Finland|TPS|21|19|14|33|4
 assists: 2
 games: 3
 goals: 3

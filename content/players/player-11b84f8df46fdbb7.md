@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Lucas Lindberg
 Category: players
 Slug: player-11b84f8df46fdbb7
@@ -10,15 +10,15 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 17
-current_goals: 17
+current_games: 26
+current_goals: 18
 current_assists: 4
-current_points: 21
+current_points: 22
 current_pim: 2
-regular_games: 17
-regular_goals: 17
+regular_games: 26
+regular_goals: 18
 regular_assists: 4
-regular_points: 21
+regular_points: 22
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 17
-career_goals: 17
+career_games: 26
+career_goals: 18
 career_assists: 4
-career_points: 21
+career_points: 22
 career_pim: 2
-history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|17|17|4|21|2
+history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|26|18|4|22|2
 assists: 4
-games: 17
-goals: 17
+games: 26
+goals: 18
 penalties: 1
 phase: regular-season
 pim: 2
-points: 21
-rank: 67
+points: 22
+rank: 66
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Vojtěch Janeček
 Category: players
 Slug: player-9a036eb7c186ab7f
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 17
+current_games: 26
 current_goals: 8
 current_assists: 10
 current_points: 18
 current_pim: 6
-regular_games: 17
+regular_games: 26
 regular_goals: 8
 regular_assists: 10
 regular_points: 18
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 17
+career_games: 26
 career_goals: 8
 career_assists: 10
 career_points: 18
 career_pim: 6
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|17|8|10|18|6
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|26|8|10|18|6
 assists: 10
-games: 17
+games: 26
 goals: 8
 penalties: 3
 phase: regular-season

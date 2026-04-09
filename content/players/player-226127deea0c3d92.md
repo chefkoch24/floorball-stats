@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Rūdolfs Dilbergs
 Category: players
 Slug: player-226127deea0c3d92
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 14
+current_games: 30
 current_goals: 8
 current_assists: 5
 current_points: 13
 current_pim: 8
-regular_games: 10
+regular_games: 23
 regular_goals: 8
 regular_assists: 2
 regular_points: 10
 regular_pim: 6
-playoff_games: 4
+playoff_games: 7
 playoff_goals: 0
 playoff_assists: 3
 playoff_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 14
+career_games: 30
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 8
-history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|4|0|3|3|2||lv-25-26|regular-season|Latvia|Ķekava/RB&B|10|8|2|10|6
+history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|0|3|3|2||lv-25-26|regular-season|Latvia|Ķekava/RB&B|23|8|2|10|6
 assists: 3
-games: 4
+games: 7
 goals: 0
 penalties: 1
 phase: playoffs

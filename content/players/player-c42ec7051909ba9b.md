@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Markus Salmi
 Category: players
 Slug: player-c42ec7051909ba9b
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 29
-current_goals: 37
-current_assists: 19
-current_points: 56
+current_games: 28
+current_goals: 36
+current_assists: 18
+current_points: 54
 current_pim: 4
-regular_games: 26
-regular_goals: 34
-regular_assists: 17
-regular_points: 51
+regular_games: 25
+regular_goals: 33
+regular_assists: 16
+regular_points: 49
 regular_pim: 2
 playoff_games: 3
 playoff_goals: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 29
-career_goals: 37
-career_assists: 19
-career_points: 56
+career_games: 28
+career_goals: 36
+career_assists: 18
+career_points: 54
 career_pim: 4
-history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|3|2|5|2||fi-25-26|regular-season|Finland|Oilers|26|34|17|51|2
+history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|3|2|5|2||fi-25-26|regular-season|Finland|Oilers|25|33|16|49|2
 assists: 2
 games: 3
 goals: 3

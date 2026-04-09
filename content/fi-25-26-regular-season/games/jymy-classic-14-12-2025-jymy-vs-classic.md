@@ -428,7 +428,7 @@ away_pregame_points_against_nokian_krp: 7
 away_pregame_points_against_oilers: 6
 away_pregame_points_against_ols: 9
 away_pregame_points_against_spv: 6
-away_pregame_points_against_tps: 9
+away_pregame_points_against_tps: 6
 away_pregame_points_max_difference_2: 6
 away_pregame_points_more_2_difference: 34
 away_pregame_points_per_game: 2.35

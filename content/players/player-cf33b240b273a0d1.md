@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Filip Wramdemark
 Category: players
 Slug: player-cf33b240b273a0d1
@@ -10,17 +10,17 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 14
-current_goals: 6
+current_games: 31
+current_goals: 7
 current_assists: 11
-current_points: 17
+current_points: 18
 current_pim: 8
-regular_games: 12
-regular_goals: 6
+regular_games: 26
+regular_goals: 7
 regular_assists: 9
-regular_points: 15
+regular_points: 16
 regular_pim: 8
-playoff_games: 2
+playoff_games: 5
 playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 14
-career_goals: 6
+career_games: 31
+career_goals: 7
 career_assists: 11
-career_points: 17
+career_points: 18
 career_pim: 8
-history_rows_csv: se-25-26|playoffs|Sweden|Pixbo IBK|2|0|2|2|0||se-25-26|regular-season|Sweden|Pixbo IBK|12|6|9|15|8
+history_rows_csv: se-25-26|playoffs|Sweden|Pixbo IBK|5|0|2|2|0||se-25-26|regular-season|Sweden|Pixbo IBK|26|7|9|16|8
 assists: 2
-games: 2
+games: 5
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 65
+rank: 66
 season: se-25-26

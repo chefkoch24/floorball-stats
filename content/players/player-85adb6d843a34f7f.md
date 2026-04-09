@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Joona Hokkanen
 Category: players
 Slug: player-85adb6d843a34f7f
@@ -10,16 +10,16 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 22
+current_games: 21
 current_goals: 23
 current_assists: 11
 current_points: 34
-current_pim: 4
-regular_games: 19
+current_pim: 2
+regular_games: 18
 regular_goals: 22
 regular_assists: 10
 regular_points: 32
-regular_pim: 2
+regular_pim: 0
 playoff_games: 3
 playoff_goals: 1
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 21
 career_goals: 23
 career_assists: 11
 career_points: 34
-career_pim: 4
-history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|1|1|2|2||fi-25-26|regular-season|Finland|Oilers|19|22|10|32|2
+career_pim: 2
+history_rows_csv: fi-25-26|playoffs|Finland|Oilers|3|1|1|2|2||fi-25-26|regular-season|Finland|Oilers|18|22|10|32|0
 assists: 1
 games: 3
 goals: 1

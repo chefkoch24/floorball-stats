@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Klāvs Araks
 Category: players
 Slug: player-aef9bd1d94d51336
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 30
 current_goals: 8
 current_assists: 7
 current_points: 15
 current_pim: 6
-regular_games: 15
+regular_games: 30
 regular_goals: 8
 regular_assists: 7
 regular_points: 15
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 30
 career_goals: 8
 career_assists: 7
 career_points: 15
 career_pim: 6
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|15|8|7|15|6
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|30|8|7|15|6
 assists: 7
-games: 15
+games: 30
 goals: 8
 penalties: 3
 phase: regular-season

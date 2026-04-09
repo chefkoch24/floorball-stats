@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Toms Rīsmanis
 Category: players
 Slug: player-2ef223bf1a819b04
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 14
+current_games: 36
 current_goals: 5
 current_assists: 14
 current_points: 19
 current_pim: 0
-regular_games: 9
+regular_games: 23
 regular_goals: 3
 regular_assists: 9
 regular_points: 12
 regular_pim: 0
-playoff_games: 5
+playoff_games: 13
 playoff_goals: 2
 playoff_assists: 5
 playoff_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 14
+career_games: 36
 career_goals: 5
 career_assists: 14
 career_points: 19
 career_pim: 0
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|5|2|5|7|0||lv-25-26|regular-season|Latvia|Lekrings|9|3|9|12|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|13|2|5|7|0||lv-25-26|regular-season|Latvia|Lekrings|23|3|9|12|0
 assists: 5
-games: 5
+games: 13
 goals: 2
 penalties: 0
 phase: playoffs

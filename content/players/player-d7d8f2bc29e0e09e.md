@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Eero Jalo
 Category: players
 Slug: player-d7d8f2bc29e0e09e
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 25
-current_goals: 17
-current_assists: 27
-current_points: 44
+current_games: 24
+current_goals: 16
+current_assists: 25
+current_points: 41
 current_pim: 8
-regular_games: 22
-regular_goals: 15
-regular_assists: 23
-regular_points: 38
+regular_games: 21
+regular_goals: 14
+regular_assists: 21
+regular_points: 35
 regular_pim: 8
 playoff_games: 3
 playoff_goals: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
-career_goals: 17
-career_assists: 27
-career_points: 44
+career_games: 24
+career_goals: 16
+career_assists: 25
+career_points: 41
 career_pim: 8
-history_rows_csv: fi-25-26|playoffs|Finland|TPS|3|2|4|6|0||fi-25-26|regular-season|Finland|TPS|22|15|23|38|8
+history_rows_csv: fi-25-26|playoffs|Finland|TPS|3|2|4|6|0||fi-25-26|regular-season|Finland|TPS|21|14|21|35|8
 assists: 4
 games: 3
 goals: 2

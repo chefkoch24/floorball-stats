@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Daniel Grézl
 Category: players
 Slug: player-67b10cef5797b3aa
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 29
 current_goals: 7
 current_assists: 5
 current_points: 12
 current_pim: 2
-regular_games: 12
+regular_games: 29
 regular_goals: 7
 regular_assists: 5
 regular_points: 12
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 29
 career_goals: 7
 career_assists: 5
 career_points: 12
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|12|7|5|12|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|29|7|5|12|2
 assists: 5
-games: 12
+games: 29
 goals: 7
 penalties: 1
 phase: regular-season

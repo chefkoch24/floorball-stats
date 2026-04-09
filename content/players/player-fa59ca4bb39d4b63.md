@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Kristiāns Čakāns
 Category: players
 Slug: player-fa59ca4bb39d4b63
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 12
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 2
-regular_games: 2
+regular_games: 12
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 12
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 2
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|2|1|1|2|2
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|12|1|1|2|2
 assists: 1
-games: 2
+games: 12
 goals: 1
 penalties: 1
 phase: regular-season

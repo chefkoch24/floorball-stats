@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Artūrs Jurševskis
 Category: players
 Slug: player-b2f4c04afceb8283
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 25
+current_games: 35
 current_goals: 16
 current_assists: 14
 current_points: 30
 current_pim: 6
-regular_games: 13
+regular_games: 21
 regular_goals: 10
 regular_assists: 7
 regular_points: 17
 regular_pim: 2
-playoff_games: 12
+playoff_games: 14
 playoff_goals: 6
 playoff_assists: 7
 playoff_points: 13
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 35
 career_goals: 16
 career_assists: 14
 career_points: 30
 career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|12|6|7|13|4||lv-25-26|regular-season|Latvia|Lekrings|13|10|7|17|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|6|7|13|4||lv-25-26|regular-season|Latvia|Lekrings|21|10|7|17|2
 assists: 7
-games: 12
+games: 14
 goals: 6
 penalties: 2
 phase: playoffs

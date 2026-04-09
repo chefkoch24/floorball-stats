@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Jānis Škutāns
 Category: players
 Slug: player-1bdb0935c327f12b
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 13
+current_games: 37
 current_goals: 3
 current_assists: 8
 current_points: 11
 current_pim: 12
-regular_games: 9
+regular_games: 26
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
 regular_pim: 8
-playoff_games: 4
+playoff_games: 11
 playoff_goals: 1
 playoff_assists: 4
 playoff_points: 5
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 13
+career_games: 37
 career_goals: 3
 career_assists: 8
 career_points: 11
 career_pim: 12
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|4|1|4|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|9|2|4|6|8
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|1|4|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|26|2|4|6|8
 assists: 4
-games: 4
+games: 11
 goals: 1
 penalties: 2
 phase: playoffs

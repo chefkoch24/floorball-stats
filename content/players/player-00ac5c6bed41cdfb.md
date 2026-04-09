@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Deniss Afanasjevs
 Category: players
 Slug: player-00ac5c6bed41cdfb
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 6
+current_games: 14
 current_goals: 5
 current_assists: 1
 current_points: 6
 current_pim: 4
-regular_games: 6
+regular_games: 14
 regular_goals: 5
 regular_assists: 1
 regular_points: 6
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 14
 career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 4
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|6|5|1|6|4
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|14|5|1|6|4
 assists: 1
-games: 6
+games: 14
 goals: 5
 penalties: 2
 phase: regular-season

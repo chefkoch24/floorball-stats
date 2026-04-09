@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Michálek Andrej
 Category: players
 Slug: player-3e8b11a685cd5ae2
@@ -10,17 +10,17 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 3
+current_games: 11
 current_goals: 4
 current_assists: 1
-current_points: 2
+current_points: 5
 current_pim: 2
-regular_games: 1
+regular_games: 7
 regular_goals: 3
 regular_assists: 0
-regular_points: 0
+regular_points: 3
 regular_pim: 0
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 1
 playoff_assists: 1
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 11
 career_goals: 4
 career_assists: 1
-career_points: 2
+career_points: 5
 career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|2|1|1|2|2||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|1|3|0|3|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|4|1|1|2|2||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|7|3|0|3|0
 assists: 1
-games: 2
+games: 4
 goals: 1
 penalties: 1
 phase: playoffs

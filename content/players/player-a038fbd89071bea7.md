@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: B. Arm
 Category: players
 Slug: player-a038fbd89071bea7
@@ -43,5 +43,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 248
+rank: 272
 season: ch-25-26

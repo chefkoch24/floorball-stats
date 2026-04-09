@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Matyáš Malkus
 Category: players
 Slug: player-454fb190c81e8bda
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 12
+current_games: 20
 current_goals: 8
 current_assists: 5
 current_points: 13
 current_pim: 2
-regular_games: 12
+regular_games: 20
 regular_goals: 8
 regular_assists: 5
 regular_points: 13
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 20
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|12|8|5|13|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|20|8|5|13|2
 assists: 5
-games: 12
+games: 20
 goals: 8
 penalties: 1
 phase: regular-season

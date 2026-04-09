@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Pelle Hansson
 Category: players
 Slug: player-df747b40bbf8e850
@@ -10,12 +10,12 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 14
+current_games: 22
 current_goals: 20
 current_assists: 4
 current_points: 24
 current_pim: 4
-regular_games: 14
+regular_games: 22
 regular_goals: 20
 regular_assists: 4
 regular_points: 24
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 14
+career_games: 22
 career_goals: 20
 career_assists: 4
 career_points: 24
 career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|14|20|4|24|4
+history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|22|20|4|24|4
 assists: 4
-games: 14
+games: 22
 goals: 20
 penalties: 2
 phase: regular-season
 pim: 4
 points: 24
-rank: 55
+rank: 57
 season: se-25-26

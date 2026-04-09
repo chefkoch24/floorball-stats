@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Peter Kotilainen
 Category: players
 Slug: player-087e8ce3de85e30f
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 14
 current_goals: 14
-current_assists: 7
-current_points: 21
+current_assists: 6
+current_points: 20
 current_pim: 0
-regular_games: 12
+regular_games: 11
 regular_goals: 10
-regular_assists: 6
-regular_points: 16
+regular_assists: 5
+regular_points: 15
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 14
 career_goals: 14
-career_assists: 7
-career_points: 21
+career_assists: 6
+career_points: 20
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|SPV|3|4|1|5|0||fi-25-26|regular-season|Finland|SPV|12|10|6|16|0
+history_rows_csv: fi-25-26|playoffs|Finland|SPV|3|4|1|5|0||fi-25-26|regular-season|Finland|SPV|11|10|5|15|0
 assists: 1
 games: 3
 goals: 4

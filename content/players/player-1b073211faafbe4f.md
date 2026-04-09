@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Radek Drba
 Category: players
 Slug: player-1b073211faafbe4f
@@ -10,17 +10,17 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 27
+current_games: 32
 current_goals: 26
 current_assists: 10
 current_points: 36
 current_pim: 14
-regular_games: 21
+regular_games: 24
 regular_goals: 21
 regular_assists: 5
 regular_points: 26
 regular_pim: 12
-playoff_games: 6
+playoff_games: 8
 playoff_goals: 5
 playoff_assists: 5
 playoff_points: 10
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 32
 career_goals: 26
 career_assists: 10
 career_points: 36
 career_pim: 14
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|6|5|5|10|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|21|21|5|26|12
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|8|5|5|10|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|24|21|5|26|12
 assists: 5
-games: 6
+games: 8
 goals: 5
 penalties: 1
 phase: playoffs

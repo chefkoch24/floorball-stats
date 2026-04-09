@@ -426,7 +426,7 @@ away_pregame_points_against_indians: 5
 away_pregame_points_against_jymy: 6
 away_pregame_points_against_lasb: 6
 away_pregame_points_against_nokian_krp: 3
-away_pregame_points_against_ols: 9
+away_pregame_points_against_ols: 6
 away_pregame_points_against_spv: 6
 away_pregame_points_against_tps: 9
 away_pregame_points_max_difference_2: 5

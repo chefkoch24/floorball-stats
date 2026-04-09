@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: M. Sipronen
 Category: players
 Slug: player-ed6323d5d093f5f2

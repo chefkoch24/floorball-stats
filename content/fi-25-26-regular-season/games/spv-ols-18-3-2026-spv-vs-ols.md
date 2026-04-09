@@ -314,7 +314,7 @@ home_pregame_points_against_classic: 6
 home_pregame_points_against_eraviikingit: 6
 home_pregame_points_against_fbc_turku: 6
 home_pregame_points_against_hawks: 5
-home_pregame_points_against_indians: 8
+home_pregame_points_against_indians: 6
 home_pregame_points_against_jymy: 12
 home_pregame_points_against_lasb: 9
 home_pregame_points_against_nokian_krp: 8

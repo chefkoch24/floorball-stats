@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Alpo Laitila
 Category: players
 Slug: player-c7641789b0efc1c6
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 23
+current_games: 22
 current_goals: 16
-current_assists: 25
-current_points: 41
+current_assists: 24
+current_points: 40
 current_pim: 0
-regular_games: 20
+regular_games: 19
 regular_goals: 15
-regular_assists: 21
-regular_points: 36
+regular_assists: 20
+regular_points: 35
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
+career_games: 22
 career_goals: 16
-career_assists: 25
-career_points: 41
+career_assists: 24
+career_points: 40
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|3|1|4|5|0||fi-25-26|regular-season|Finland|Classic|20|15|21|36|0
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|3|1|4|5|0||fi-25-26|regular-season|Finland|Classic|19|15|20|35|0
 assists: 4
 games: 3
 goals: 1

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Kristers Tiltiņš
 Category: players
 Slug: player-be956f5a3feb3c32
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 5
+current_games: 10
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 0
-regular_games: 5
+regular_games: 10
 regular_goals: 4
 regular_assists: 5
 regular_points: 9
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 10
 career_goals: 4
 career_assists: 5
 career_points: 9
 career_pim: 0
-history_rows_csv: lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|5|4|5|9|0
+history_rows_csv: lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|10|4|5|9|0
 assists: 5
-games: 5
+games: 10
 goals: 4
 penalties: 0
 phase: regular-season

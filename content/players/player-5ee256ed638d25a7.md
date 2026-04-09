@@ -1,21 +1,21 @@
-Date: 2026-04-08
-Title: Matyáš HARTMANN
+Date: 2026-04-09
+Title: Matyáš Hartmann
 Category: players
 Slug: player-5ee256ed638d25a7
 type: player
-player: Matyáš HARTMANN
+player: Matyáš Hartmann
 player_uid: player-5ee256ed638d25a7
 team: FBC ČPP Bystroň Group OSTRAVA
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 1
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 1
+regular_games: 8
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 8
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|1|0|0|0|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|8|0|0|0|2
 assists: 0
-games: 1
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 313
+rank: 375
 season: cz-25-26

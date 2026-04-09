@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Eetu Ijäs
 Category: players
 Slug: player-bff3d97f25d5257d
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 18
-current_goals: 8
-current_assists: 17
-current_points: 25
+current_games: 17
+current_goals: 7
+current_assists: 16
+current_points: 23
 current_pim: 2
-regular_games: 14
-regular_goals: 6
-regular_assists: 14
-regular_points: 20
+regular_games: 13
+regular_goals: 5
+regular_assists: 13
+regular_points: 18
 regular_pim: 0
 playoff_games: 4
 playoff_goals: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
-career_goals: 8
-career_assists: 17
-career_points: 25
+career_games: 17
+career_goals: 7
+career_assists: 16
+career_points: 23
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|OLS|4|2|3|5|2||fi-25-26|regular-season|Finland|OLS|14|6|14|20|0
+history_rows_csv: fi-25-26|playoffs|Finland|OLS|4|2|3|5|2||fi-25-26|regular-season|Finland|OLS|13|5|13|18|0
 assists: 3
 games: 4
 goals: 2

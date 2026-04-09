@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Lukáš Herblich
 Category: players
 Slug: player-d4eba17ba9138ca7
@@ -10,17 +10,17 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 4
+current_games: 20
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 3
+regular_games: 18
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
 regular_pim: 0
-playoff_games: 1
+playoff_games: 2
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 20
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 0
-history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|1|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|3|2|1|3|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|18|2|1|3|0
 assists: 1
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: playoffs

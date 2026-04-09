@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Petr Brautferger
 Category: players
 Slug: player-48e0f6b0a7dc4b46
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 8
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 2
+regular_games: 8
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 8
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|2|0|1|1|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|8|0|1|1|2
 assists: 1
-games: 2
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season

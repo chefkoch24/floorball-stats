@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Michal Malec
 Category: players
 Slug: player-9e4912b7ef2ff412
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 24
+current_games: 33
 current_goals: 20
 current_assists: 13
 current_points: 33
 current_pim: 4
-regular_games: 24
+regular_games: 33
 regular_goals: 20
 regular_assists: 13
 regular_points: 33
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 33
 career_goals: 20
 career_assists: 13
 career_points: 33
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|24|20|13|33|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|20|13|33|4
 assists: 13
-games: 24
+games: 33
 goals: 20
 penalties: 2
 phase: regular-season

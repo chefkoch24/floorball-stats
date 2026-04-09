@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Jēkabs Keišs
 Category: players
 Slug: player-9ea63e0ba498cc55
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 34
+current_games: 38
 current_goals: 28
 current_assists: 27
 current_points: 55
 current_pim: 24
-regular_games: 24
+regular_games: 27
 regular_goals: 20
 regular_assists: 23
 regular_points: 43
 regular_pim: 18
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 8
 playoff_assists: 4
 playoff_points: 12
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 34
+career_games: 38
 career_goals: 28
 career_assists: 27
 career_points: 55
 career_pim: 24
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|10|8|4|12|6||lv-25-26|regular-season|Latvia|Rubene|24|20|23|43|18
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|8|4|12|6||lv-25-26|regular-season|Latvia|Rubene|27|20|23|43|18
 assists: 4
-games: 10
+games: 11
 goals: 8
 penalties: 3
 phase: playoffs

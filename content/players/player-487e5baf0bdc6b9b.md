@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Patriks Bliska
 Category: players
 Slug: player-487e5baf0bdc6b9b
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 18
+current_games: 25
 current_goals: 16
 current_assists: 8
 current_points: 24
 current_pim: 20
-regular_games: 16
+regular_games: 21
 regular_goals: 14
 regular_assists: 7
 regular_points: 21
 regular_pim: 16
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 25
 career_goals: 16
 career_assists: 8
 career_points: 24
 career_pim: 20
-history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|2|2|1|3|4||lv-25-26|regular-season|Latvia|Ķekava/RB&B|16|14|7|21|16
+history_rows_csv: lv-25-26|playoffs|Latvia|Ķekava/RB&B|4|2|1|3|4||lv-25-26|regular-season|Latvia|Ķekava/RB&B|21|14|7|21|16
 assists: 1
-games: 2
+games: 4
 goals: 2
 penalties: 2
 phase: playoffs

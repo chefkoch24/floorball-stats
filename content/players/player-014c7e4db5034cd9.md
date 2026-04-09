@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: C. Reich
 Category: players
 Slug: player-014c7e4db5034cd9
@@ -43,5 +43,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 252
+rank: 279
 season: ch-25-26

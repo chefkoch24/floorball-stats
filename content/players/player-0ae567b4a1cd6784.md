@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Simon Janiszewski
 Category: players
 Slug: player-0ae567b4a1cd6784
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 7
+current_games: 19
 current_goals: 3
 current_assists: 4
 current_points: 7
 current_pim: 8
-regular_games: 7
+regular_games: 19
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 19
 career_goals: 3
 career_assists: 4
 career_points: 7
 career_pim: 8
-history_rows_csv: 25-26|regular-season|Germany|SC Potsdam|7|3|4|7|8
+history_rows_csv: 25-26|regular-season|Germany|SC Potsdam|19|3|4|7|8
 assists: 4
-games: 7
+games: 19
 goals: 3
 penalties: 4
 phase: regular-season

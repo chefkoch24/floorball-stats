@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Everts Janušauskis
 Category: players
 Slug: player-1382fcbb1cff6e29
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 19
+current_games: 22
 current_goals: 15
 current_assists: 10
 current_points: 25
 current_pim: 24
-regular_games: 19
+regular_games: 22
 regular_goals: 15
 regular_assists: 10
 regular_points: 25
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 22
 career_goals: 15
 career_assists: 10
 career_points: 25
 career_pim: 24
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|19|15|10|25|24
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|22|15|10|25|24
 assists: 10
-games: 19
+games: 22
 goals: 15
 penalties: 12
 phase: regular-season

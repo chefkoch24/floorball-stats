@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: J. Stettler
 Category: players
 Slug: player-1b71cfa65044a81b
@@ -43,5 +43,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 255
+rank: 338
 season: ch-25-26

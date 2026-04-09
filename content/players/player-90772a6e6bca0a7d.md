@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Ahmad Aldeeb
 Category: players
 Slug: player-90772a6e6bca0a7d
@@ -10,17 +10,17 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 16
-current_goals: 11
+current_games: 29
+current_goals: 12
 current_assists: 13
-current_points: 24
+current_points: 25
 current_pim: 2
-regular_games: 14
-regular_goals: 9
+regular_games: 21
+regular_goals: 10
 regular_assists: 12
-regular_points: 21
+regular_points: 22
 regular_pim: 2
-playoff_games: 2
+playoff_games: 8
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 16
-career_goals: 11
+career_games: 29
+career_goals: 12
 career_assists: 13
-career_points: 24
+career_points: 25
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|Linköping IBK|2|2|1|3|0||se-25-26|regular-season|Sweden|Linköping IBK|14|9|12|21|2
+history_rows_csv: se-25-26|playoffs|Sweden|Linköping IBK|8|2|1|3|0||se-25-26|regular-season|Sweden|Linköping IBK|21|10|12|22|2
 assists: 1
-games: 2
+games: 8
 goals: 2
 penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 40
+rank: 42
 season: se-25-26

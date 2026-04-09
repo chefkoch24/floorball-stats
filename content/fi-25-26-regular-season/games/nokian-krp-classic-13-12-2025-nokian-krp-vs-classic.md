@@ -311,7 +311,7 @@ home_pregame_points_after_first_period_per_game: 2.2
 home_pregame_points_after_second_period: 35
 home_pregame_points_after_third_period: 34
 home_pregame_points_against_classic: 5
-home_pregame_points_against_eraviikingit: 9
+home_pregame_points_against_eraviikingit: 6
 home_pregame_points_against_fbc_turku: 6
 home_pregame_points_against_hawks: 6
 home_pregame_points_against_indians: 6
@@ -428,7 +428,7 @@ away_pregame_points_against_nokian_krp: 7
 away_pregame_points_against_oilers: 6
 away_pregame_points_against_ols: 9
 away_pregame_points_against_spv: 6
-away_pregame_points_against_tps: 9
+away_pregame_points_against_tps: 6
 away_pregame_points_max_difference_2: 6
 away_pregame_points_more_2_difference: 33
 away_pregame_points_per_game: 2.44

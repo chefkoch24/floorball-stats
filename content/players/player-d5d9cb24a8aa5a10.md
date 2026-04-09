@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Németh Dominik Lehel
 Category: players
 Slug: player-d5d9cb24a8aa5a10
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 102
+rank: 101
 season: sk-25-26

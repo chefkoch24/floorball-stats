@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Roberts Jakubonis
 Category: players
 Slug: player-b5276f35e5792cff
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 11
+current_games: 24
 current_goals: 2
 current_assists: 6
 current_points: 8
 current_pim: 16
-regular_games: 11
+regular_games: 24
 regular_goals: 2
 regular_assists: 6
 regular_points: 8
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 24
 career_goals: 2
 career_assists: 6
 career_points: 8
 career_pim: 16
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|11|2|6|8|16
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|24|2|6|8|16
 assists: 6
-games: 11
+games: 24
 goals: 2
 penalties: 8
 phase: regular-season

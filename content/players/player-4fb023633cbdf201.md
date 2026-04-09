@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: S. Nigg
 Category: players
 Slug: player-4fb023633cbdf201

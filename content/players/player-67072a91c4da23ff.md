@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: L. Arnold
 Category: players
 Slug: player-67072a91c4da23ff

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Ričards Butans
 Category: players
 Slug: player-3fbf809fe99c3646
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 27
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 0
-regular_games: 2
+regular_games: 27
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 27
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 0
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|2|0|2|2|0
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|27|0|2|2|0
 assists: 2
-games: 2
+games: 27
 goals: 0
 penalties: 0
 phase: regular-season

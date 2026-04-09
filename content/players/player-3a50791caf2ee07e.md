@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Jorens Štāls
 Category: players
 Slug: player-3a50791caf2ee07e
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 5
+current_games: 25
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 4
-regular_games: 3
+regular_games: 15
 regular_goals: 1
 regular_assists: 3
 regular_points: 4
 regular_pim: 2
-playoff_games: 2
+playoff_games: 10
 playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 25
 career_goals: 3
 career_assists: 3
 career_points: 6
 career_pim: 4
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|2|2|0|2|2||lv-25-26|regular-season|Latvia|Lekrings|3|1|3|4|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|10|2|0|2|2||lv-25-26|regular-season|Latvia|Lekrings|15|1|3|4|2
 assists: 0
-games: 2
+games: 10
 goals: 2
 penalties: 1
 phase: playoffs

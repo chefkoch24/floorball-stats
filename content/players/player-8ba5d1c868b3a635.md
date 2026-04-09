@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Nyitray Andrej
 Category: players
 Slug: player-8ba5d1c868b3a635
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 11
+current_games: 28
 current_goals: 6
 current_assists: 4
 current_points: 10
 current_pim: 6
-regular_games: 11
+regular_games: 28
 regular_goals: 6
 regular_assists: 4
 regular_points: 10
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 28
 career_goals: 6
 career_assists: 4
 career_points: 10
 career_pim: 6
-history_rows_csv: sk-25-26|regular-season|Slovakia|Snipers Bratislava|11|6|4|10|6
+history_rows_csv: sk-25-26|regular-season|Slovakia|Snipers Bratislava|28|6|4|10|6
 assists: 4
-games: 11
+games: 28
 goals: 6
 penalties: 3
 phase: regular-season

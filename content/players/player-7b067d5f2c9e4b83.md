@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: P. Riedi
 Category: players
 Slug: player-7b067d5f2c9e4b83

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Lukáš Vlach
 Category: players
 Slug: player-00c4ef6de6e8cdb9
@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 16
+current_games: 26
 current_goals: 8
 current_assists: 15
 current_points: 23
 current_pim: 2
-regular_games: 16
+regular_games: 26
 regular_goals: 8
 regular_assists: 15
 regular_points: 23
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 16
+career_games: 26
 career_goals: 8
 career_assists: 15
 career_points: 23
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|16|8|15|23|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|26|8|15|23|2
 assists: 15
-games: 16
+games: 26
 goals: 8
 penalties: 1
 phase: regular-season

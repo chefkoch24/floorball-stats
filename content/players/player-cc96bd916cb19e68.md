@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Elias Haataja
 Category: players
 Slug: player-cc96bd916cb19e68
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 19
-current_goals: 10
+current_games: 18
+current_goals: 9
 current_assists: 15
-current_points: 25
+current_points: 24
 current_pim: 2
-regular_games: 17
-regular_goals: 9
+regular_games: 16
+regular_goals: 8
 regular_assists: 14
-regular_points: 23
+regular_points: 22
 regular_pim: 2
 playoff_games: 2
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
-career_goals: 10
+career_games: 18
+career_goals: 9
 career_assists: 15
-career_points: 25
+career_points: 24
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|TPS|2|1|1|2|0||fi-25-26|regular-season|Finland|TPS|17|9|14|23|2
+history_rows_csv: fi-25-26|playoffs|Finland|TPS|2|1|1|2|0||fi-25-26|regular-season|Finland|TPS|16|8|14|22|2
 assists: 1
 games: 2
 goals: 1

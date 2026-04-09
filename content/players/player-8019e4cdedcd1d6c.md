@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Gabriel Erol
 Category: players
 Slug: player-8019e4cdedcd1d6c
@@ -10,17 +10,17 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 7
+current_games: 30
 current_goals: 4
 current_assists: 1
 current_points: 5
 current_pim: 4
-regular_games: 7
+regular_games: 26
 regular_goals: 4
 regular_assists: 1
 regular_points: 5
 regular_pim: 4
-playoff_games: 0
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 30
 career_goals: 4
 career_assists: 1
 career_points: 5
 career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|FBC Kalmarsund|7|4|1|5|4
-assists: 1
-games: 7
-goals: 4
-penalties: 2
-phase: regular-season
-pim: 4
-points: 5
-rank: 172
+history_rows_csv: se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|4|1|5|4
+assists: 0
+games: 4
+goals: 0
+penalties: 0
+phase: playoffs
+pim: 0
+points: 0
+rank: 127
 season: se-25-26

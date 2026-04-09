@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Gints Bērtulis
 Category: players
 Slug: player-8d1e1bb934bbaf81
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 6
+current_games: 30
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 6
-regular_games: 2
+regular_games: 18
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
 regular_pim: 2
-playoff_games: 4
+playoff_games: 12
 playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 30
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|4|2|0|2|4||lv-25-26|regular-season|Latvia|Lekrings|2|1|0|1|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|12|2|0|2|4||lv-25-26|regular-season|Latvia|Lekrings|18|1|0|1|2
 assists: 0
-games: 4
+games: 12
 goals: 2
 penalties: 2
 phase: playoffs

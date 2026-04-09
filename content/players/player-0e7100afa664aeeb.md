@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Václav VAVRUŠKA
 Category: players
 Slug: player-0e7100afa664aeeb
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 156
+rank: 230
 season: cz-25-26

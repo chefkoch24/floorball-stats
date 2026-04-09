@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Bruno Beķeris
 Category: players
 Slug: player-bb9e7a1eeb673670
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 27
+current_games: 40
 current_goals: 21
 current_assists: 9
 current_points: 30
 current_pim: 18
-regular_games: 18
+regular_games: 26
 regular_goals: 13
 regular_assists: 6
 regular_points: 19
 regular_pim: 8
-playoff_games: 9
+playoff_games: 14
 playoff_goals: 8
 playoff_assists: 3
 playoff_points: 11
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 40
 career_goals: 21
 career_assists: 9
 career_points: 30
 career_pim: 18
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|9|8|3|11|10||lv-25-26|regular-season|Latvia|Lekrings|18|13|6|19|8
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|8|3|11|10||lv-25-26|regular-season|Latvia|Lekrings|26|13|6|19|8
 assists: 3
-games: 9
+games: 14
 goals: 8
 penalties: 5
 phase: playoffs

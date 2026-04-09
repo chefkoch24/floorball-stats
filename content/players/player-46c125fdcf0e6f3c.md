@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Endijs Kleistrovs
 Category: players
 Slug: player-46c125fdcf0e6f3c
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 11
+current_games: 16
 current_goals: 5
 current_assists: 16
 current_points: 21
 current_pim: 6
-regular_games: 11
+regular_games: 16
 regular_goals: 5
 regular_assists: 16
 regular_points: 21
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 16
 career_goals: 5
 career_assists: 16
 career_points: 21
 career_pim: 6
-history_rows_csv: lv-25-26|regular-season|Latvia|Ķekava/RB&B|11|5|16|21|6
+history_rows_csv: lv-25-26|regular-season|Latvia|Ķekava/RB&B|16|5|16|21|6
 assists: 16
-games: 11
+games: 16
 goals: 5
 penalties: 3
 phase: regular-season

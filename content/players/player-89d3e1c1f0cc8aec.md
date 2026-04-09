@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Filip Öijer
 Category: players
 Slug: player-89d3e1c1f0cc8aec
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 253
+rank: 252
 season: se-25-26

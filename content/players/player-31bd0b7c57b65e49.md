@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Samuel Hurajt
 Category: players
 Slug: player-31bd0b7c57b65e49
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 2
 current_season: sk-25-26
 previous_season: sk-24-25
-current_games: 15
+current_games: 21
 current_goals: 10
 current_assists: 8
 current_points: 18
 current_pim: 6
-regular_games: 15
+regular_games: 21
 regular_goals: 10
 regular_assists: 8
 regular_points: 18
@@ -30,14 +30,14 @@ previous_goals: 20
 previous_assists: 15
 previous_points: 35
 previous_pim: 4
-career_games: 34
+career_games: 40
 career_goals: 30
 career_assists: 23
 career_points: 53
 career_pim: 10
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|15|10|8|18|6||sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|19|20|15|35|4
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|21|10|8|18|6||sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|19|20|15|35|4
 assists: 8
-games: 15
+games: 21
 goals: 10
 penalties: 3
 phase: regular-season

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Edvards Katkovskis
 Category: players
 Slug: player-32774aa3b8ea01ed
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 5
+current_games: 27
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 0
-regular_games: 5
+regular_games: 27
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 27
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 0
-history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|5|3|2|5|0
+history_rows_csv: lv-25-26|regular-season|Latvia|Bauska|27|3|2|5|0
 assists: 2
-games: 5
+games: 27
 goals: 3
 penalties: 0
 phase: regular-season

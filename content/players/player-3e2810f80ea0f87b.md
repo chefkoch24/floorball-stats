@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Rihards Avots
 Category: players
 Slug: player-3e2810f80ea0f87b
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 24
+current_games: 34
 current_goals: 13
 current_assists: 14
 current_points: 27
 current_pim: 26
-regular_games: 16
+regular_games: 23
 regular_goals: 11
 regular_assists: 9
 regular_points: 20
 regular_pim: 20
-playoff_games: 8
+playoff_games: 11
 playoff_goals: 2
 playoff_assists: 5
 playoff_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 34
 career_goals: 13
 career_assists: 14
 career_points: 27
 career_pim: 26
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|8|2|5|7|6||lv-25-26|regular-season|Latvia|Rubene|16|11|9|20|20
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|2|5|7|6||lv-25-26|regular-season|Latvia|Rubene|23|11|9|20|20
 assists: 5
-games: 8
+games: 11
 goals: 2
 penalties: 3
 phase: playoffs

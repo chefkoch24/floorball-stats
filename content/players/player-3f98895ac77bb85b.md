@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Vincent Jordan
 Category: players
 Slug: player-3f98895ac77bb85b
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 12
+current_games: 16
 current_goals: 11
 current_assists: 12
 current_points: 23
 current_pim: 0
-regular_games: 12
+regular_games: 16
 regular_goals: 11
 regular_assists: 12
 regular_points: 23
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 16
 career_goals: 11
 career_assists: 12
 career_points: 23
 career_pim: 0
-history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|12|11|12|23|0
+history_rows_csv: 25-26|regular-season|Germany|Berlin Rockets|16|11|12|23|0
 assists: 12
-games: 12
+games: 16
 goals: 11
 penalties: 0
 phase: regular-season

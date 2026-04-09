@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Kristers Orlovs
 Category: players
 Slug: player-d21ed5fa6cf1d964
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 24
+current_games: 28
 current_goals: 26
 current_assists: 21
 current_points: 47
 current_pim: 16
-regular_games: 22
+regular_games: 24
 regular_goals: 25
 regular_assists: 21
 regular_points: 46
 regular_pim: 14
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 1
 playoff_assists: 0
 playoff_points: 1
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 28
 career_goals: 26
 career_assists: 21
 career_points: 47
 career_pim: 16
-history_rows_csv: lv-25-26|playoffs|Latvia|FBK SĀC|2|1|0|1|2||lv-25-26|regular-season|Latvia|FBK SĀC|22|25|21|46|14
+history_rows_csv: lv-25-26|playoffs|Latvia|FBK SĀC|4|1|0|1|2||lv-25-26|regular-season|Latvia|FBK SĀC|24|25|21|46|14
 assists: 0
-games: 2
+games: 4
 goals: 1
 penalties: 1
 phase: playoffs

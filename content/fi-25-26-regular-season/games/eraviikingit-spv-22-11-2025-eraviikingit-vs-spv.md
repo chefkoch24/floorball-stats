@@ -422,7 +422,7 @@ away_pregame_points_against_classic: 6
 away_pregame_points_against_eraviikingit: 6
 away_pregame_points_against_fbc_turku: 6
 away_pregame_points_against_hawks: 5
-away_pregame_points_against_indians: 8
+away_pregame_points_against_indians: 6
 away_pregame_points_against_jymy: 12
 away_pregame_points_against_lasb: 9
 away_pregame_points_against_nokian_krp: 8

@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Niki Lemberg
 Category: players
 Slug: player-a0ec43bd5b6b54c3
@@ -10,17 +10,17 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 7
+current_games: 19
 current_goals: 2
 current_assists: 7
 current_points: 9
 current_pim: 2
-regular_games: 6
+regular_games: 16
 regular_goals: 2
 regular_assists: 5
 regular_points: 7
 regular_pim: 2
-playoff_games: 1
+playoff_games: 3
 playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 19
 career_goals: 2
 career_assists: 7
 career_points: 9
 career_pim: 2
-history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|1|0|2|2|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|6|2|5|7|2
+history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|2|2|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|16|2|5|7|2
 assists: 2
-games: 1
+games: 3
 goals: 0
 penalties: 0
 phase: playoffs

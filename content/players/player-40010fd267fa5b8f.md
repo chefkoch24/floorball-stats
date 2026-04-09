@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Eemeli Salin
 Category: players
 Slug: player-40010fd267fa5b8f
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 27
-current_goals: 34
+current_games: 26
+current_goals: 33
 current_assists: 21
-current_points: 55
+current_points: 54
 current_pim: 2
-regular_games: 23
-regular_goals: 31
+regular_games: 22
+regular_goals: 30
 regular_assists: 19
-regular_points: 50
+regular_points: 49
 regular_pim: 2
 playoff_games: 4
 playoff_goals: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
-career_goals: 34
+career_games: 26
+career_goals: 33
 career_assists: 21
-career_points: 55
+career_points: 54
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|4|3|2|5|0||fi-25-26|regular-season|Finland|Classic|23|31|19|50|2
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|4|3|2|5|0||fi-25-26|regular-season|Finland|Classic|22|30|19|49|2
 assists: 2
 games: 4
 goals: 3

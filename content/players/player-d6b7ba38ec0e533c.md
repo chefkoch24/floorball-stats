@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Jēkabs Berkolts
 Category: players
 Slug: player-d6b7ba38ec0e533c
@@ -10,17 +10,17 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 27
+current_games: 40
 current_goals: 10
 current_assists: 23
 current_points: 33
 current_pim: 22
-regular_games: 20
+regular_games: 26
 regular_goals: 7
 regular_assists: 19
 regular_points: 26
 regular_pim: 10
-playoff_games: 7
+playoff_games: 14
 playoff_goals: 3
 playoff_assists: 4
 playoff_points: 7
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 40
 career_goals: 10
 career_assists: 23
 career_points: 33
 career_pim: 22
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|7|3|4|7|12||lv-25-26|regular-season|Latvia|Lekrings|20|7|19|26|10
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|3|4|7|12||lv-25-26|regular-season|Latvia|Lekrings|26|7|19|26|10
 assists: 4
-games: 7
+games: 14
 goals: 3
 penalties: 6
 phase: playoffs

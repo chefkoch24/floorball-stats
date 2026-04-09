@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Kristaps Jakāns
 Category: players
 Slug: player-9702bda6dd325e16
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 5
+current_games: 17
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 4
-regular_games: 5
+regular_games: 17
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 17
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 4
-history_rows_csv: lv-25-26|regular-season|Latvia|Lekrings|5|3|0|3|4
+history_rows_csv: lv-25-26|regular-season|Latvia|Lekrings|17|3|0|3|4
 assists: 0
-games: 5
+games: 17
 goals: 3
 penalties: 2
 phase: regular-season

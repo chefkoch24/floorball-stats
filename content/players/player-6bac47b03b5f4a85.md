@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Martin Rönnklint
 Category: players
 Slug: player-6bac47b03b5f4a85
@@ -10,12 +10,12 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 26
+current_games: 28
 current_goals: 32
 current_assists: 17
 current_points: 49
 current_pim: 16
-regular_games: 21
+regular_games: 23
 regular_goals: 30
 regular_assists: 14
 regular_points: 44
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 26
+career_games: 28
 career_goals: 32
 career_assists: 17
 career_points: 49
 career_pim: 16
-history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2||se-25-26|regular-season|Sweden|Mullsjö AIS|21|30|14|44|14
+history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2||se-25-26|regular-season|Sweden|Mullsjö AIS|23|30|14|44|14
 assists: 3
 games: 5
 goals: 2
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 5
-rank: 22
+rank: 27
 season: se-25-26

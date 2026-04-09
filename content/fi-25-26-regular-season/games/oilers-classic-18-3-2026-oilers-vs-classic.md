@@ -318,7 +318,7 @@ home_pregame_points_against_indians: 5
 home_pregame_points_against_jymy: 6
 home_pregame_points_against_lasb: 6
 home_pregame_points_against_nokian_krp: 3
-home_pregame_points_against_ols: 9
+home_pregame_points_against_ols: 6
 home_pregame_points_against_spv: 6
 home_pregame_points_against_tps: 9
 home_pregame_points_max_difference_2: 8
@@ -428,7 +428,7 @@ away_pregame_points_against_nokian_krp: 7
 away_pregame_points_against_oilers: 6
 away_pregame_points_against_ols: 9
 away_pregame_points_against_spv: 6
-away_pregame_points_against_tps: 9
+away_pregame_points_against_tps: 6
 away_pregame_points_max_difference_2: 8
 away_pregame_points_more_2_difference: 70
 away_pregame_points_per_game: 2.52

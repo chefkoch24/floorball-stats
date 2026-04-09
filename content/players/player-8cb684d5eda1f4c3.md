@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Santeri Uusi-Laitila
 Category: players
 Slug: player-8cb684d5eda1f4c3
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 9
+current_games: 8
 current_goals: 6
-current_assists: 7
-current_points: 13
+current_assists: 6
+current_points: 12
 current_pim: 0
-regular_games: 8
+regular_games: 7
 regular_goals: 6
-regular_assists: 6
-regular_points: 12
+regular_assists: 5
+regular_points: 11
 regular_pim: 0
 playoff_games: 1
 playoff_goals: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 8
 career_goals: 6
-career_assists: 7
-career_points: 13
+career_assists: 6
+career_points: 12
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|SPV|1|0|1|1|0||fi-25-26|regular-season|Finland|SPV|8|6|6|12|0
+history_rows_csv: fi-25-26|playoffs|Finland|SPV|1|0|1|1|0||fi-25-26|regular-season|Finland|SPV|7|6|5|11|0
 assists: 1
 games: 1
 goals: 0

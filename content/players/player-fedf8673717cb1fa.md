@@ -1,4 +1,4 @@
-Date: 2026-04-08
+Date: 2026-04-09
 Title: Martin Lauko
 Category: players
 Slug: player-fedf8673717cb1fa
@@ -10,12 +10,12 @@ league: Slovakia
 season_count: 2
 current_season: sk-25-26
 previous_season: sk-24-25
-current_games: 11
+current_games: 22
 current_goals: 7
 current_assists: 7
 current_points: 14
 current_pim: 2
-regular_games: 11
+regular_games: 22
 regular_goals: 7
 regular_assists: 7
 regular_points: 14
@@ -30,14 +30,14 @@ previous_goals: 1
 previous_assists: 3
 previous_points: 4
 previous_pim: 0
-career_games: 15
+career_games: 26
 career_goals: 8
 career_assists: 10
 career_points: 18
 career_pim: 2
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|11|7|7|14|2||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|4|1|3|4|0
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|7|7|14|2||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|4|1|3|4|0
 assists: 7
-games: 11
+games: 22
 goals: 7
 penalties: 1
 phase: regular-season
