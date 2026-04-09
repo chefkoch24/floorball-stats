@@ -7,9 +7,9 @@ player: Jakub Talarovič
 player_uid: player-bfb84e1fbe8fdedd
 team: FaBK ATU Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 4
 current_goals: 0
 current_assists: 0
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 2
-previous_games: 3
-previous_goals: 2
-previous_assists: 1
-previous_points: 3
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 2
-career_assists: 1
-career_points: 3
+career_games: 4
+career_goals: 0
+career_assists: 0
+career_points: 0
 career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|0|0|2||sk-24-25|regular-season|Slovakia|FaBK ATU Košice|3|2|1|3|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|0|0|2
 assists: 0
 games: 4
 goals: 0

@@ -5,22 +5,22 @@ Slug: player-af53738cc348a9ad
 type: player
 player: Elia Seiler
 player_uid: player-af53738cc348a9ad
-team: HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Floorball Köniz Bern
+team: Floorball Köniz Bern / Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 15
+current_games: 4
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 15
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 0
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 4
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Floorball Köniz Bern|15|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|4|0|0|0|0
 assists: 0
-games: 15
+games: 4
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
 points: 0
-rank: 309
+rank: 131
 season: ch-25-26

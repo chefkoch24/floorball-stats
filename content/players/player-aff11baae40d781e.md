@@ -10,15 +10,15 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 33
-current_goals: 50
-current_assists: 31
-current_points: 81
+current_games: 7
+current_goals: 12
+current_assists: 7
+current_points: 19
 current_pim: 2
-regular_games: 26
-regular_goals: 38
-regular_assists: 24
-regular_points: 62
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 7
 playoff_goals: 12
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 33
-career_goals: 50
-career_assists: 31
-career_points: 81
+career_games: 7
+career_goals: 12
+career_assists: 7
+career_points: 19
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|7|12|7|19|2||se-25-26|regular-season|Sweden|IBF Falun|26|38|24|62|0
+history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|7|12|7|19|2
 assists: 7
 games: 7
 goals: 12

@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-02
 Title: ETV Piranhhas Hamburg
 Category: 25-26-playoffs, teams
 Slug: etv-piranhhas-hamburg-25-26-playoffs-25-26-playoffs

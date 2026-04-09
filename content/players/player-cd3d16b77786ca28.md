@@ -10,16 +10,16 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 46
-current_goals: 24
-current_assists: 15
-current_points: 39
-current_pim: 18
-regular_games: 40
-regular_goals: 22
-regular_assists: 14
-regular_points: 36
-regular_pim: 12
+current_games: 6
+current_goals: 2
+current_assists: 1
+current_points: 3
+current_pim: 6
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 6
 playoff_goals: 2
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 46
-career_goals: 24
-career_assists: 15
-career_points: 39
-career_pim: 18
-history_rows_csv: sk-25-26|playoffs|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|6|2|1|3|6||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|40|22|14|36|12
+career_games: 6
+career_goals: 2
+career_assists: 1
+career_points: 3
+career_pim: 6
+history_rows_csv: sk-25-26|playoffs|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|6|2|1|3|6
 assists: 1
 games: 6
 goals: 2

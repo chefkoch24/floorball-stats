@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-02
 Title: Floor Fighters Chemnitz
 Category: 25-26-playoffs, teams
 Slug: floor-fighters-chemnitz-25-26-playoffs-25-26-playoffs

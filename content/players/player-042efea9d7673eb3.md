@@ -10,16 +10,16 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 35
-current_goals: 3
-current_assists: 9
-current_points: 12
-current_pim: 2
-regular_games: 28
-regular_goals: 2
-regular_assists: 7
-regular_points: 9
-regular_pim: 2
+current_games: 7
+current_goals: 1
+current_assists: 2
+current_points: 3
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 7
 playoff_goals: 1
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 35
-career_goals: 3
-career_assists: 9
-career_points: 12
-career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|7|1|2|3|0||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|28|2|7|9|2
+career_games: 7
+career_goals: 1
+career_assists: 2
+career_points: 3
+career_pim: 0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|7|1|2|3|0
 assists: 2
 games: 7
 goals: 1

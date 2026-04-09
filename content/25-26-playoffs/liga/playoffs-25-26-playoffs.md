@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-02
 Title: Playoffs
 Category: 25-26-playoffs, liga
 Slug: playoffs-25-26-playoffs
@@ -6,7 +6,7 @@ type: liga
 team: Playoffs
 away_points: 2.0
 boxplay: 4.62
-boxplay_efficiency: 56.28
+boxplay_efficiency: 56.29
 boxplay_first_period: 0.88
 boxplay_overtime: 0.12
 boxplay_per_game: 1.75
@@ -90,7 +90,7 @@ points_max_difference_2: 1.88
 points_more_2_difference: 2.25
 points_per_game: 1.5
 powerplay: 4.62
-powerplay_efficiency: 43.72
+powerplay_efficiency: 43.71
 powerplay_first_period: 0.88
 powerplay_overtime: 0.12
 powerplay_per_game: 1.75

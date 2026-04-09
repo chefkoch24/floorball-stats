@@ -5,22 +5,22 @@ Slug: player-beeec1b90a8bd5a5
 type: player
 player: Nico Mutter
 player_uid: player-beeec1b90a8bd5a5
-team: Floorball Thurgau / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern
+team: Tigers Langnau / SV Wiler-Ersigen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 19
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 19
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 0
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 6
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Thurgau / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern|19|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau / SV Wiler-Ersigen|6|0|0|0|0
 assists: 0
-games: 19
+games: 6
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
 points: 0
-rank: 487
+rank: 232
 season: ch-25-26

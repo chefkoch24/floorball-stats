@@ -10,16 +10,16 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 28
-current_goals: 19
-current_assists: 7
-current_points: 26
-current_pim: 4
-regular_games: 23
-regular_goals: 15
-regular_assists: 6
-regular_points: 21
-regular_pim: 4
+current_games: 5
+current_goals: 4
+current_assists: 1
+current_points: 5
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 5
 playoff_goals: 4
 playoff_assists: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
-career_goals: 19
-career_assists: 7
-career_points: 26
-career_pim: 4
-history_rows_csv: se-25-26|playoffs|Sweden|Pixbo IBK|5|4|1|5|0||se-25-26|regular-season|Sweden|Pixbo IBK|23|15|6|21|4
+career_games: 5
+career_goals: 4
+career_assists: 1
+career_points: 5
+career_pim: 0
+history_rows_csv: se-25-26|playoffs|Sweden|Pixbo IBK|5|4|1|5|0
 assists: 1
 games: 5
 goals: 4
