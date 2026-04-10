@@ -7,9 +7,9 @@ player: Marek Kalivoda
 player_uid: player-d07546fe69cb48a9
 team: ŠK Lido Prírodovedec Bratislava
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 30
 current_goals: 7
 current_assists: 7
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
 playoff_pim: 2
-previous_games: 1
-previous_goals: 1
-previous_assists: 1
-previous_points: 2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 31
-career_goals: 8
-career_assists: 8
-career_points: 16
+career_games: 30
+career_goals: 7
+career_assists: 7
+career_points: 14
 career_pim: 8
-history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|10|0|1|1|2||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|6|13|6||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|1|1|1|2|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|10|0|1|1|2||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|6|13|6
 assists: 1
 games: 10
 goals: 0
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 116
+rank: 98
 season: sk-25-26

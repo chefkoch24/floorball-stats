@@ -47,6 +47,7 @@ League backends (Germany, Sweden, Switzerland, Finland, Czech Republic, Slovakia
   - Intermediate generated Markdown files from JSON stats.
 - `data/`
   - Intermediate and processed CSV/JSON artifacts.
+  - Derived local SQLite store (`stats.db`) for query-heavy workflows.
 - `themes/my-theme/`
   - Custom Pelican theme and templates.
 - `tests/`
@@ -120,6 +121,7 @@ Provides reusable helpers:
 Single entrypoint that executes:
 - scrape events,
 - compute stats JSON artifacts,
+- sync a derived SQLite database,
 - generate markdown directly into website content tree.
 
 Supports `--skip_scrape` for local/e2e runs from existing CSV.
@@ -142,6 +144,18 @@ Reads:
 
 Produces:
 - markdown files in configurable output directories (canonical target: `content/<season>-<phase>/...`).
+
+### 4.7a Derived SQLite Store: `src/build_sqlite.py`
+
+Purpose:
+- Keep a local file-based relational view of the current repository state.
+- Load raw event CSVs into an `events` table.
+- Load derived game/team/league stats emitted by the pipeline into queryable SQLite tables.
+- Load `data/player_stats.csv` into `player_stats`.
+
+Important constraint:
+- SQLite is a derived artifact, not the git-tracked source of truth.
+- Git-tracked truth remains CSV and generated markdown so scheduled refreshes stay reviewable.
 
 
 ### 4.8 Site Build: Pelican (`pelicanconf.py`, `themes/my-theme`)

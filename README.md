@@ -40,6 +40,10 @@ This runs:
 - `make refresh-player-pages`
 - `make html`
 
+During refreshes, the pipeline also maintains a derived local SQLite database at `data/stats.db`.
+This database is intended for local querying and CI build steps; CSV and markdown remain the
+git-tracked source artifacts.
+
 `make refresh-everything` is an alias for the same flow.
 
 ## Sweden (StatsApp backend)
@@ -129,6 +133,23 @@ Nightly GitHub Actions refreshes now include these same player-stat steps before
 - `content/players/`
 - `content/player-stats/`
 - rendered site output
+
+## Derived SQLite database
+
+Rebuild the local SQLite database from committed CSV artifacts:
+
+```bash
+make refresh-sqlite
+```
+
+The database is written to `data/stats.db` and includes:
+- `events`
+- `game_stats`
+- `team_stats`
+- `league_stats`
+- `player_stats`
+
+This file is a derived local query layer and is not intended to be committed.
 
 ## Switzerland (renderengine backend)
 

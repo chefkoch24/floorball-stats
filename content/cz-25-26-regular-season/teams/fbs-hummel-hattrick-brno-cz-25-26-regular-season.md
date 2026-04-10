@@ -1,4 +1,4 @@
-Date: 2026-04-04
+Date: 2026-04-19
 Title: FBŠ Hummel Hattrick Brno
 Category: cz-25-26-regular-season, teams
 Slug: fbs-hummel-hattrick-brno-cz-25-26-regular-season-cz-25-26-regular-season
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.12
 powerplay_second_period: 8
 powerplay_third_period: 19
-rank: 9
+rank: 10
 scoring_ratio: 0.58
 take_the_lead_goals: 31
 take_the_lead_goals_against: 38

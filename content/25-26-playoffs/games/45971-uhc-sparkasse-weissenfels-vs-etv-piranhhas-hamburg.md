@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-02
 Title: 45971-uhc-sparkasse-weissenfels-vs-etv-piranhhas-hamburg
 Category: 25-26-playoffs, game
 Slug: 45971-uhc-sparkasse-weissenfels-vs-etv-piranhhas-hamburg-25-26-playoffs
@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 60.0
 pregame_h2h_special_home_pk_eff: 50.0
 pregame_h2h_special_home_pp_eff: 28.57
 result_string: None
-start_time: 16:00
+start_time: 19:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

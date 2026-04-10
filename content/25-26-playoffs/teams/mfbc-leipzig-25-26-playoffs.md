@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-02
 Title: MFBC Leipzig
 Category: 25-26-playoffs, teams
 Slug: mfbc-leipzig-25-26-playoffs-25-26-playoffs

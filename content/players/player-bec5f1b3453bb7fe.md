@@ -7,9 +7,9 @@ player: Matúš Strieženec
 player_uid: player-bec5f1b3453bb7fe
 team: Florbalový klub AS Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 5
 current_goals: 0
 current_assists: 0
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 12
-previous_goals: 16
-previous_assists: 3
-previous_points: 19
-previous_pim: 4
-career_games: 17
-career_goals: 16
-career_assists: 3
-career_points: 19
-career_pim: 4
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|5|0|0|0|0||sk-24-25|regular-season|Slovakia|FBK AS Trenčín|12|16|3|19|4
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 5
+career_goals: 0
+career_assists: 0
+career_points: 0
+career_pim: 0
+history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|5|0|0|0|0
 assists: 0
 games: 5
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 313
+rank: 315
 season: sk-25-26

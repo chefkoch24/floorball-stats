@@ -7,9 +7,9 @@ player: Jakub Blaško
 player_uid: player-29a7c421f1ce2b4c
 team: FK Florko Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 21
 current_goals: 5
 current_assists: 18
@@ -25,17 +25,17 @@ playoff_goals: 2
 playoff_assists: 5
 playoff_points: 7
 playoff_pim: 2
-previous_games: 13
-previous_goals: 6
-previous_assists: 8
-previous_points: 14
-previous_pim: 10
-career_games: 34
-career_goals: 11
-career_assists: 26
-career_points: 37
-career_pim: 22
-history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|2|5|7|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|17|3|13|16|10||sk-24-25|regular-season|Slovakia|FK Florko Košice|13|6|8|14|10
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 21
+career_goals: 5
+career_assists: 18
+career_points: 23
+career_pim: 12
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|2|5|7|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|17|3|13|16|10
 assists: 5
 games: 4
 goals: 2
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 26
+rank: 25
 season: sk-25-26

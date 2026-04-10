@@ -7,9 +7,9 @@ player: Tomáš Bulejčík
 player_uid: player-f4f90ad704dd7438
 team: 1. FBC Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 33
 current_goals: 33
 current_assists: 35
@@ -25,17 +25,17 @@ playoff_goals: 11
 playoff_assists: 8
 playoff_points: 19
 playoff_pim: 4
-previous_games: 23
-previous_goals: 24
-previous_assists: 23
-previous_points: 47
-previous_pim: 14
-career_games: 56
-career_goals: 57
-career_assists: 58
-career_points: 115
-career_pim: 30
-history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|11|8|19|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|23|22|27|49|12||sk-24-25|regular-season|Slovakia|1. FBC Trenčín|23|24|23|47|14
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 33
+career_goals: 33
+career_assists: 35
+career_points: 68
+career_pim: 16
+history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|11|8|19|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|23|22|27|49|12
 assists: 8
 games: 10
 goals: 11

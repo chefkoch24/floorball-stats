@@ -7,9 +7,9 @@ player: Peter Banga
 player_uid: player-af7c08218c4df7f5
 team: Tsunami Záhorská Bystrica
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 36
 current_goals: 41
 current_assists: 23
@@ -25,17 +25,17 @@ playoff_goals: 11
 playoff_assists: 8
 playoff_points: 19
 playoff_pim: 12
-previous_games: 20
-previous_goals: 29
-previous_assists: 15
-previous_points: 44
-previous_pim: 4
-career_games: 56
-career_goals: 70
-career_assists: 38
-career_points: 108
-career_pim: 26
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|13|11|8|19|12||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|23|30|15|45|10||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|20|29|15|44|4
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 36
+career_goals: 41
+career_assists: 23
+career_points: 64
+career_pim: 22
+history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|13|11|8|19|12||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|23|30|15|45|10
 assists: 8
 games: 13
 goals: 11

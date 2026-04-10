@@ -27,6 +27,23 @@ LEAGUE_INFO = {
 }
 
 
+def _normalize_prefix_tokens(raw: str | None) -> set[str]:
+    if not raw:
+        return set()
+    aliases = {
+        "de": "",
+        "ger": "",
+        "germany": "",
+    }
+    normalized: set[str] = set()
+    for token in str(raw).split(","):
+        cleaned = token.strip().lower()
+        if not cleaned:
+            continue
+        normalized.add(aliases.get(cleaned, cleaned))
+    return normalized
+
+
 def _name_style_score(name: str) -> int:
     tokens = [token for token in re.split(r"\s+", str(name or "").strip()) if token]
     score = 0
@@ -137,13 +154,22 @@ def _harmonize_slovakia_player_names(stats: pd.DataFrame) -> pd.DataFrame:
         first_key = first.lower()
         second_key = second.lower()
         pair_key = tuple(sorted([first_key, second_key]))
+
+        # Slovakia source feeds are predominantly "surname firstname".
+        # So default vote prefers swapping to firstname-surname.
+        first_weight = 0
+        second_weight = 2
+        # A fully upper token is typically a surname marker.
+        if first.isupper() and not second.isupper():
+            first_weight = 0
+            second_weight = 4
+        elif second.isupper() and not first.isupper():
+            first_weight = 4
+            second_weight = 0
+
         votes = pair_votes.setdefault(pair_key, {})
-        if second.isupper() and not first.isupper():
-            votes[first_key] = votes.get(first_key, 0) + 3
-        elif first.isupper() and not second.isupper():
-            votes[second_key] = votes.get(second_key, 0) + 3
-        else:
-            votes[first_key] = votes.get(first_key, 0) + 1
+        votes[first_key] = votes.get(first_key, 0) + first_weight
+        votes[second_key] = votes.get(second_key, 0) + second_weight
 
     preferred_first: dict[tuple[str, str], str] = {}
     for pair_key, votes in pair_votes.items():
@@ -203,8 +229,17 @@ def _finalize_rows(stats: pd.DataFrame, season: str, phase: str, league: str, so
         )
 
     prepared_stats = stats.copy()
+    prepared_stats["player"] = (
+        prepared_stats.get("player", pd.Series(dtype=str))
+        .fillna("")
+        .astype(str)
+        .map(_normalize_player_name_for_identity)
+    )
+    prepared_stats = prepared_stats[prepared_stats["player"] != ""].copy()
     if source_system == "slovakia":
         prepared_stats = _harmonize_slovakia_player_names(prepared_stats)
+    # Identity must always be derived from canonicalized names.
+    prepared_stats["player_uid"] = prepared_stats["player"].map(_canonical_player_uid)
 
     grouped = (
         prepared_stats.groupby(["player_uid"], as_index=False)
@@ -852,16 +887,31 @@ def _merge_finalized_rows(
     if not compact:
         return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system=source_system)
     stats = pd.concat(compact, ignore_index=True)
+    stats["player"] = (
+        stats.get("player", pd.Series(dtype=str))
+        .fillna("")
+        .astype(str)
+        .map(_normalize_player_name_for_identity)
+    )
+    stats = stats[stats["player"] != ""].copy()
+    if source_system == "slovakia":
+        # Harmonize cross-source name ordering (e.g. "Rantala Juho" vs "Juho Rantala")
+        # before grouping, otherwise games can be doubled for the same player.
+        stats = _harmonize_slovakia_player_names(stats)
+    # Identity must always be derived from canonicalized names.
+    stats["player_uid"] = stats["player"].map(_canonical_player_uid)
     for col in ["games", "goals", "assists", "points", "pim", "penalties"]:
         stats[col] = stats[col].fillna(0).astype(int)
 
-    # Merge multiple sources (events + lineups) without double-counting appearances:
-    # games should be authoritative max per player/team, while counting stats are additive.
+    # Merge multiple sources (events + lineups) without double-counting appearances.
+    # Each source is already season-aggregated per player, so merge by player_uid only.
+    # Team labels may differ slightly between sources; merging by team can inflate games.
     stats = (
-        stats.groupby(["player_uid", "team"], as_index=False)
+        stats.groupby(["player_uid"], as_index=False)
         .agg(
             {
                 "player": _aggregate_player_name,
+                "team": _aggregate_team_names,
                 "games": "max",
                 "goals": "sum",
                 "assists": "sum",
@@ -958,15 +1008,18 @@ def _load_played_matches(path: Path, required_columns: list[str]) -> pd.DataFram
     return matches[required_columns]
 
 
-def build_player_stats(data_dir: str, output_csv: str) -> int:
+def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str] | None = None) -> int:
     directory = Path(data_dir)
     all_rows: list[pd.DataFrame] = []
+    include_prefixes = season_prefixes or set()
 
     for candidate in sorted(directory.glob("data_*.csv")):
         match = FILE_PATTERN.match(candidate.name)
         if not match:
             continue
         prefix = (match.group("prefix") or "").lower()
+        if include_prefixes and prefix not in include_prefixes:
+            continue
         years = match.group("years")
         phase_token = match.group("phase")
         info = LEAGUE_INFO.get(prefix)
@@ -1148,12 +1201,21 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build player stats CSV from all available season event files.")
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--output-csv", default="data/player_stats.csv")
+    parser.add_argument(
+        "--season-prefixes",
+        default="",
+        help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de).",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    rows = build_player_stats(data_dir=args.data_dir, output_csv=args.output_csv)
+    rows = build_player_stats(
+        data_dir=args.data_dir,
+        output_csv=args.output_csv,
+        season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
+    )
     print(f"player-stats: wrote {rows} rows to {args.output_csv}")
 
 

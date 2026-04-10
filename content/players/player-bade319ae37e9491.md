@@ -5,12 +5,12 @@ Slug: player-bade319ae37e9491
 type: player
 player: Matteo Nico Steiner
 player_uid: player-bade319ae37e9491
-team: Floorball Chur United / WASA St. Gallen / Unihockey Basel Regio / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans
+team: HC Rychenberg Winterthur / Floorball Chur United / WASA St. Gallen / Unihockey Basel Regio / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 17
+current_games: 21
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -20,7 +20,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 0
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 17
+career_games: 21
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United / WASA St. Gallen / Unihockey Basel Regio / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans|17|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / WASA St. Gallen / Unihockey Basel Regio / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans|17|0|0|0|0
 assists: 0
-games: 17
+games: 4
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
 points: 0
-rank: 450
+rank: 214
 season: ch-25-26

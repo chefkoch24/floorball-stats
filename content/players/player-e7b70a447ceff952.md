@@ -7,9 +7,9 @@ player: Tomáš Brída
 player_uid: player-e7b70a447ceff952
 team: FBC Grasshoppers AC UNIZA Žilina
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 21
 current_goals: 2
 current_assists: 1
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 1
-previous_goals: 2
+previous_games: 0
+previous_goals: 0
 previous_assists: 0
-previous_points: 2
+previous_points: 0
 previous_pim: 0
-career_games: 22
-career_goals: 4
+career_games: 21
+career_goals: 2
 career_assists: 1
-career_points: 5
+career_points: 3
 career_pim: 2
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|17|2|1|3|2||sk-24-25|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|1|2|0|2|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|17|2|1|3|2
 assists: 0
 games: 4
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 204
+rank: 169
 season: sk-25-26

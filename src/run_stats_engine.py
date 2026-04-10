@@ -370,6 +370,20 @@ def _normalize_player_key(name: object) -> str:
     return normalize_slug_fragment(str(name or "").strip())
 
 
+def _alternate_player_keys(name: object) -> list[str]:
+    raw = str(name or "").strip()
+    primary = _normalize_player_key(raw)
+    if not primary:
+        return []
+    keys = [primary]
+    parts = [part for part in raw.split() if part]
+    if len(parts) == 2:
+        swapped = _normalize_player_key(f"{parts[1]} {parts[0]}")
+        if swapped and swapped not in keys:
+            keys.append(swapped)
+    return keys
+
+
 def _load_player_uid_lookup(player_stats_csv: Path, season: Optional[str], phase: Optional[str]) -> tuple[dict[tuple[str, str], str], dict[str, str]]:
     exact_lookup: dict[tuple[str, str], str] = {}
     fallback_candidates: dict[str, set[str]] = {}
@@ -406,15 +420,20 @@ def _resolve_player_uid(
     exact_lookup: dict[tuple[str, str], str],
     fallback_lookup: dict[str, str],
 ) -> Optional[str]:
-    player_key = _normalize_player_key(name)
-    if not player_key:
+    player_keys = _alternate_player_keys(name)
+    if not player_keys:
         return None
     team_key = _team_identity_key(team)
-    if team_key:
-        exact = exact_lookup.get((team_key, player_key))
-        if exact:
-            return exact
-    return fallback_lookup.get(player_key)
+    for player_key in player_keys:
+        if team_key:
+            exact = exact_lookup.get((team_key, player_key))
+            if exact:
+                return exact
+    for player_key in player_keys:
+        fallback = fallback_lookup.get(player_key)
+        if fallback:
+            return fallback
+    return None
 
 
 def _display_minute_for_event(event: pd.Series) -> str:

@@ -7,9 +7,9 @@ player: Tomáš Jurica
 player_uid: player-83f2aab4f87079ec
 team: Tsunami Záhorská Bystrica
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 20
 current_goals: 12
 current_assists: 6
@@ -25,17 +25,17 @@ playoff_goals: 7
 playoff_assists: 3
 playoff_points: 10
 playoff_pim: 2
-previous_games: 19
-previous_goals: 19
-previous_assists: 7
-previous_points: 26
-previous_pim: 10
-career_games: 39
-career_goals: 31
-career_assists: 13
-career_points: 44
-career_pim: 14
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|7|3|10|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|5|3|8|2||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|19|19|7|26|10
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 20
+career_goals: 12
+career_assists: 6
+career_points: 18
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|7|3|10|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|5|3|8|2
 assists: 3
 games: 10
 goals: 7
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 10
-rank: 17
+rank: 16
 season: sk-25-26

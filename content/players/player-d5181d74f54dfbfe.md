@@ -5,12 +5,12 @@ Slug: player-d5181d74f54dfbfe
 type: player
 player: Fabio Flütsch
 player_uid: player-d5181d74f54dfbfe
-team: Floorball Chur United / Unihockey Basel Regio
+team: UHC Uster / Floorball Thurgau / Floorball Chur United / Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 2
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -20,7 +20,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 0
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 8
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United / Unihockey Basel Regio|2|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster / Floorball Thurgau|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / Unihockey Basel Regio|2|0|0|0|0
 assists: 0
-games: 2
+games: 6
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
 points: 0
-rank: 317
+rank: 134
 season: ch-25-26

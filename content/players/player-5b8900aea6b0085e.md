@@ -7,10 +7,10 @@ player: Šimon Hatala
 player_uid: player-5b8900aea6b0085e
 team: 1. FBC Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
-current_games: 39
+previous_season: n.a.
+current_games: 31
 current_goals: 17
 current_assists: 35
 current_points: 52
@@ -20,24 +20,24 @@ regular_goals: 15
 regular_assists: 22
 regular_points: 37
 regular_pim: 8
-playoff_games: 18
+playoff_games: 10
 playoff_goals: 2
 playoff_assists: 13
 playoff_points: 15
 playoff_pim: 0
-previous_games: 19
-previous_goals: 11
-previous_assists: 26
-previous_points: 37
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 58
-career_goals: 28
-career_assists: 61
-career_points: 89
+career_games: 31
+career_goals: 17
+career_assists: 35
+career_points: 52
 career_pim: 8
-history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|18|2|13|15|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|15|22|37|8||sk-24-25|regular-season|Slovakia|1. FBC Trenčín|19|11|26|37|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|2|13|15|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|15|22|37|8
 assists: 13
-games: 18
+games: 10
 goals: 2
 penalties: 0
 phase: playoffs

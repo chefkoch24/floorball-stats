@@ -7,9 +7,9 @@ player: Stanislav Belko
 player_uid: player-812bc6cc2cd15b74
 team: FBK Nižná
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 14
 current_goals: 6
 current_assists: 7
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 13
-previous_goals: 11
-previous_assists: 4
-previous_points: 15
-previous_pim: 4
-career_games: 27
-career_goals: 17
-career_assists: 11
-career_points: 28
-career_pim: 6
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|3|0|0|0|0||sk-25-26|regular-season|Slovakia|FBK Nižná|11|6|7|13|2||sk-24-25|regular-season|Slovakia|FBK Nižná|13|11|4|15|4
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 14
+career_goals: 6
+career_assists: 7
+career_points: 13
+career_pim: 2
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|3|0|0|0|0||sk-25-26|regular-season|Slovakia|FBK Nižná|11|6|7|13|2
 assists: 0
 games: 3
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 202
+rank: 167
 season: sk-25-26

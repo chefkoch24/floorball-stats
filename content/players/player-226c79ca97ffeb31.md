@@ -7,9 +7,9 @@ player: Richard Lelák
 player_uid: player-226c79ca97ffeb31
 team: ŠK Lido Prírodovedec Bratislava
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 24
 current_goals: 6
 current_assists: 8
@@ -25,17 +25,17 @@ playoff_goals: 2
 playoff_assists: 5
 playoff_points: 7
 playoff_pim: 4
-previous_games: 8
-previous_goals: 2
-previous_assists: 7
-previous_points: 9
-previous_pim: 2
-career_games: 32
-career_goals: 8
-career_assists: 15
-career_points: 23
-career_pim: 14
-history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|10|2|5|7|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|3|7|8||sk-24-25|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|8|2|7|9|2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 24
+career_goals: 6
+career_assists: 8
+career_points: 14
+career_pim: 12
+history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|10|2|5|7|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|3|7|8
 assists: 5
 games: 10
 goals: 2
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 7
-rank: 27
+rank: 26
 season: sk-25-26

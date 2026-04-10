@@ -8,17 +8,17 @@ player_uid: player-33a3440eb4a4d5d1
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
 season_count: 1
-current_season: sk-24-25
+current_season: sk-25-26
 previous_season: n.a.
-current_games: 15
-current_goals: 12
-current_assists: 9
-current_points: 21
+current_games: 21
+current_goals: 14
+current_assists: 4
+current_points: 18
 current_pim: 4
-regular_games: 15
-regular_goals: 12
-regular_assists: 9
-regular_points: 21
+regular_games: 21
+regular_goals: 14
+regular_assists: 4
+regular_points: 18
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
-career_goals: 12
-career_assists: 9
-career_points: 21
+career_games: 21
+career_goals: 14
+career_assists: 4
+career_points: 18
 career_pim: 4
-history_rows_csv: sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|15|12|9|21|4
-assists: 9
-games: 15
-goals: 12
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|21|14|4|18|4
+assists: 4
+games: 21
+goals: 14
 penalties: 2
 phase: regular-season
 pim: 4
-points: 21
-rank: 48
-season: sk-24-25
+points: 18
+rank: 59
+season: sk-25-26

@@ -7,9 +7,9 @@ player: Samuel Kerekeš
 player_uid: player-19ed66ba25dfdaac
 team: FaBK ATU Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 22
 current_goals: 16
 current_assists: 16
@@ -25,17 +25,17 @@ playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
 playoff_pim: 2
-previous_games: 10
-previous_goals: 9
-previous_assists: 7
-previous_points: 16
-previous_pim: 2
-career_games: 32
-career_goals: 25
-career_assists: 23
-career_points: 48
-career_pim: 6
-history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|2|0|2|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|18|14|16|30|2||sk-24-25|regular-season|Slovakia|FaBK ATU Košice|10|9|7|16|2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 22
+career_goals: 16
+career_assists: 16
+career_points: 32
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|2|0|2|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|18|14|16|30|2
 assists: 0
 games: 4
 goals: 2
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 82
+rank: 68
 season: sk-25-26

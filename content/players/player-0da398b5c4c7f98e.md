@@ -7,9 +7,9 @@ player: Martin Bujaki
 player_uid: player-0da398b5c4c7f98e
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 24
 current_goals: 14
 current_assists: 10
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 20
-previous_goals: 12
-previous_assists: 8
-previous_points: 20
-previous_pim: 14
-career_games: 44
-career_goals: 26
-career_assists: 18
-career_points: 44
-career_pim: 38
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|24|14|10|24|24||sk-24-25|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|20|12|8|20|14
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 24
+career_goals: 14
+career_assists: 10
+career_points: 24
+career_pim: 24
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|24|14|10|24|24
 assists: 10
 games: 24
 goals: 14

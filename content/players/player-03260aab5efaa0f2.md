@@ -12,8 +12,8 @@ current_season: cz-25-26
 previous_season: n.a.
 current_games: 29
 current_goals: 3
-current_assists: 8
-current_points: 11
+current_assists: 9
+current_points: 12
 current_pim: 4
 regular_games: 23
 regular_goals: 3
@@ -22,8 +22,8 @@ regular_points: 8
 regular_pim: 2
 playoff_games: 6
 playoff_goals: 0
-playoff_assists: 3
-playoff_points: 3
+playoff_assists: 4
+playoff_points: 4
 playoff_pim: 2
 previous_games: 0
 previous_goals: 0
@@ -32,16 +32,16 @@ previous_points: 0
 previous_pim: 0
 career_games: 29
 career_goals: 3
-career_assists: 8
-career_points: 11
+career_assists: 9
+career_points: 12
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|3|3|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|23|3|5|8|2
-assists: 3
+history_rows_csv: cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|4|4|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|23|3|5|8|2
+assists: 4
 games: 6
 goals: 0
 penalties: 1
 phase: playoffs
 pim: 2
-points: 3
-rank: 89
+points: 4
+rank: 66
 season: cz-25-26

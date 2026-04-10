@@ -5,6 +5,30 @@ from pathlib import Path
 import re
 
 
+def _normalize_prefix_tokens(raw: str | None) -> set[str]:
+    if not raw:
+        return set()
+    aliases = {
+        "de": "",
+        "ger": "",
+        "germany": "",
+    }
+    normalized: set[str] = set()
+    for token in str(raw).split(","):
+        cleaned = token.strip().lower()
+        if not cleaned:
+            continue
+        normalized.add(aliases.get(cleaned, cleaned))
+    return normalized
+
+
+def _season_prefix(season: str) -> str:
+    match = re.match(r"^([a-z]{2})-\d{2}-\d{2}$", str(season or "").strip().lower())
+    if match:
+        return match.group(1)
+    return ""
+
+
 def _clean_row(row: dict[str, str]) -> dict[str, str]:
     cleaned: dict[str, str] = {}
     for key, value in row.items():
@@ -80,7 +104,12 @@ def _prune_stale_markdown(directory: Path, expected_filenames: set[str]) -> int:
     return removed
 
 
-def generate_player_stats_index_markdown(csv_path: str, output_dir: str) -> tuple[int, int]:
+def generate_player_stats_index_markdown(
+    csv_path: str,
+    output_dir: str,
+    season_prefixes: set[str] | None = None,
+    prune_stale: bool = True,
+) -> tuple[int, int]:
     source_path = Path(csv_path)
     if not source_path.exists():
         print(f"player-stats-index: csv not found at {source_path}; skipping.")
@@ -91,6 +120,7 @@ def generate_player_stats_index_markdown(csv_path: str, output_dir: str) -> tupl
     metadata_date = datetime.now().strftime("%Y-%m-%d")
 
     grouped_rows: dict[tuple[str, str], list[dict[str, str]]] = {}
+    include_prefixes = season_prefixes or set()
     with source_path.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         for raw_row in reader:
@@ -100,6 +130,8 @@ def generate_player_stats_index_markdown(csv_path: str, output_dir: str) -> tupl
             season = row.get("season", "")
             phase = row.get("phase", "")
             if not season or not phase:
+                continue
+            if include_prefixes and _season_prefix(season) not in include_prefixes:
                 continue
             grouped_rows.setdefault((season, phase), []).append(row)
 
@@ -138,7 +170,7 @@ def generate_player_stats_index_markdown(csv_path: str, output_dir: str) -> tupl
         if _write_if_changed(output_path / filename, "\n".join(lines)):
             written += 1
 
-    removed = _prune_stale_markdown(output_path, expected_files)
+    removed = _prune_stale_markdown(output_path, expected_files) if prune_stale else 0
     return written, removed
 
 
@@ -146,6 +178,16 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate season player-stats index markdown pages from CSV.")
     parser.add_argument("--csv-path", default="data/player_stats.csv")
     parser.add_argument("--output-dir", default="content/player-stats")
+    parser.add_argument(
+        "--season-prefixes",
+        default="",
+        help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de).",
+    )
+    parser.add_argument(
+        "--no-prune",
+        action="store_true",
+        help="Do not delete existing markdown files that are not part of this generation run.",
+    )
     return parser.parse_args()
 
 
@@ -154,6 +196,8 @@ def main() -> None:
     written, removed = generate_player_stats_index_markdown(
         csv_path=args.csv_path,
         output_dir=args.output_dir,
+        season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
+        prune_stale=not args.no_prune,
     )
     print(f"player-stats-index: wrote={written} removed={removed}")
 

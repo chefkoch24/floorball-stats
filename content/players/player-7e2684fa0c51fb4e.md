@@ -7,9 +7,9 @@ player: Timotej Kollár
 player_uid: player-7e2684fa0c51fb4e
 team: Florbalový klub AS Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 19
 current_goals: 16
 current_assists: 8
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
-previous_goals: 6
-previous_assists: 4
-previous_points: 10
-previous_pim: 6
-career_games: 26
-career_goals: 22
-career_assists: 12
-career_points: 34
-career_pim: 8
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|19|16|8|24|2||sk-24-25|regular-season|Slovakia|FBK AS Trenčín|7|6|4|10|6
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 19
+career_goals: 16
+career_assists: 8
+career_points: 24
+career_pim: 2
+history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|19|16|8|24|2
 assists: 8
 games: 19
 goals: 16

@@ -7,9 +7,9 @@ player: Martin Lauko
 player_uid: player-fedf8673717cb1fa
 team: TEMPISH CAPITOL Floorball Club
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 22
 current_goals: 7
 current_assists: 7
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 4
-previous_goals: 1
-previous_assists: 3
-previous_points: 4
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
 previous_pim: 0
-career_games: 26
-career_goals: 8
-career_assists: 10
-career_points: 18
+career_games: 22
+career_goals: 7
+career_assists: 7
+career_points: 14
 career_pim: 2
-history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|7|7|14|2||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|4|1|3|4|0
+history_rows_csv: sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|7|7|14|2
 assists: 7
 games: 22
 goals: 7

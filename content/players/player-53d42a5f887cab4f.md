@@ -7,9 +7,9 @@ player: Michal Bujna
 player_uid: player-53d42a5f887cab4f
 team: Tsunami Záhorská Bystrica
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 20
 current_goals: 2
 current_assists: 14
@@ -25,17 +25,17 @@ playoff_goals: 1
 playoff_assists: 6
 playoff_points: 7
 playoff_pim: 2
-previous_games: 18
-previous_goals: 5
-previous_assists: 24
-previous_points: 29
-previous_pim: 8
-career_games: 38
-career_goals: 7
-career_assists: 38
-career_points: 45
-career_pim: 12
-history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|1|6|7|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|1|8|9|2||sk-24-25|regular-season|Slovakia|Tsunami Záhorská Bystrica|18|5|24|29|8
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 20
+career_goals: 2
+career_assists: 14
+career_points: 16
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|1|6|7|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|1|8|9|2
 assists: 6
 games: 10
 goals: 1
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 28
+rank: 27
 season: sk-25-26

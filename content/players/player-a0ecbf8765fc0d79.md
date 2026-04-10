@@ -10,12 +10,12 @@ league: Czech Republic
 season_count: 1
 current_season: cz-25-26
 previous_season: n.a.
-current_games: 28
+current_games: 30
 current_goals: 6
 current_assists: 0
 current_points: 6
 current_pim: 2
-regular_games: 28
+regular_games: 30
 regular_goals: 6
 regular_assists: 0
 regular_points: 6
@@ -30,14 +30,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 30
 career_goals: 6
 career_assists: 0
 career_points: 6
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|28|6|0|6|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|30|6|0|6|2
 assists: 0
-games: 28
+games: 30
 goals: 6
 penalties: 1
 phase: regular-season

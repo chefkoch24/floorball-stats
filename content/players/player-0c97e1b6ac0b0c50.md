@@ -7,9 +7,9 @@ player: Jonáš Bagín
 player_uid: player-0c97e1b6ac0b0c50
 team: Florbalový klub AS Trenčín
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 15
 current_goals: 6
 current_assists: 3
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 14
-previous_goals: 6
-previous_assists: 10
-previous_points: 16
-previous_pim: 8
-career_games: 29
-career_goals: 12
-career_assists: 13
-career_points: 25
-career_pim: 10
-history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|15|6|3|9|2||sk-24-25|regular-season|Slovakia|FBK AS Trenčín|14|6|10|16|8
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 15
+career_goals: 6
+career_assists: 3
+career_points: 9
+career_pim: 2
+history_rows_csv: sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|15|6|3|9|2
 assists: 3
 games: 15
 goals: 6

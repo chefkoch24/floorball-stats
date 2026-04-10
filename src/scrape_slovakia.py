@@ -369,6 +369,7 @@ def scrape_competition(
     phase: str = "regular-season",
     regular_season_end_date: str | None = None,
     regular_season_games_per_team: int | None = None,
+    playoff_teams_count: int | None = None,
 ) -> pd.DataFrame:
     session = _new_session()
     all_matches: dict[int, MatchCard] = {}
@@ -463,8 +464,68 @@ def scrape_competition(
                     _inc_team(home)
                     _inc_team(away)
 
+        def _derive_playoff_eligible_teams() -> set[str]:
+            if not playoff_teams_count or playoff_teams_count <= 0:
+                return set()
+
+            points: dict[str, int] = {}
+            goal_diff: dict[str, int] = {}
+            goals_for: dict[str, int] = {}
+
+            def _ensure(team: str | None) -> None:
+                if not team:
+                    return
+                points.setdefault(team, 0)
+                goal_diff.setdefault(team, 0)
+                goals_for.setdefault(team, 0)
+
+            for game_id in sorted(regular_ids):
+                game = games.get(game_id) or {}
+                home = game.get("home")
+                away = game.get("away")
+                if not home or not away:
+                    continue
+                _ensure(home)
+                _ensure(away)
+                game_rows = game.get("rows") or []
+                if not game_rows:
+                    continue
+                final_home = int(max(int(row.get("home_goals") or 0) for row in game_rows))
+                final_away = int(max(int(row.get("guest_goals") or 0) for row in game_rows))
+                goal_diff[home] += final_home - final_away
+                goal_diff[away] += final_away - final_home
+                goals_for[home] += final_home
+                goals_for[away] += final_away
+                if final_home > final_away:
+                    points[home] += 3
+                elif final_away > final_home:
+                    points[away] += 3
+                else:
+                    points[home] += 1
+                    points[away] += 1
+
+            ranking = sorted(
+                points.keys(),
+                key=lambda team: (
+                    -points.get(team, 0),
+                    -goal_diff.get(team, 0),
+                    -goals_for.get(team, 0),
+                    str(team).lower(),
+                ),
+            )
+            return set(ranking[:playoff_teams_count])
+
         phase_lower = (phase or "regular-season").lower()
         selected_ids = regular_ids if phase_lower == "regular-season" else (set(games.keys()) - regular_ids)
+        if phase_lower == "playoffs":
+            playoff_eligible_teams = _derive_playoff_eligible_teams()
+            if playoff_eligible_teams:
+                selected_ids = {
+                    game_id
+                    for game_id in selected_ids
+                    if (games[game_id].get("home") in playoff_eligible_teams)
+                    and (games[game_id].get("away") in playoff_eligible_teams)
+                }
         selected_ids = {
             game_id
             for game_id in selected_ids
@@ -514,6 +575,7 @@ def parse_args():
     parser.add_argument("--phase", type=str, default="regular-season")
     parser.add_argument("--regular_season_end_date", type=str, default=None)
     parser.add_argument("--regular_season_games_per_team", type=int, default=None)
+    parser.add_argument("--playoff_teams_count", type=int, default=None)
     parser.add_argument("--output_path", type=str, default="data/data_slovakia.csv")
     return parser.parse_args()
 
@@ -526,6 +588,7 @@ def main():
         phase=args.phase,
         regular_season_end_date=args.regular_season_end_date,
         regular_season_games_per_team=args.regular_season_games_per_team,
+        playoff_teams_count=args.playoff_teams_count,
     )
 
 

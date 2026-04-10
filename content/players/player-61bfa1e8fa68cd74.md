@@ -7,9 +7,9 @@ player: Samuel Zemančík
 player_uid: player-61bfa1e8fa68cd74
 team: FBK Nižná
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 1
 current_goals: 0
 current_assists: 0
@@ -25,17 +25,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 10
-previous_goals: 7
-previous_assists: 14
-previous_points: 21
-previous_pim: 2
-career_games: 11
-career_goals: 7
-career_assists: 14
-career_points: 21
-career_pim: 2
-history_rows_csv: sk-25-26|regular-season|Slovakia|FBK Nižná|1|0|0|0|0||sk-24-25|regular-season|Slovakia|FBK Nižná|10|7|14|21|2
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 1
+career_goals: 0
+career_assists: 0
+career_points: 0
+career_pim: 0
+history_rows_csv: sk-25-26|regular-season|Slovakia|FBK Nižná|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0

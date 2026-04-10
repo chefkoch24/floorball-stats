@@ -7,9 +7,9 @@ player: Martin Kátlovský
 player_uid: player-a0481e3ba99c895b
 team: FK Florko Košice
 league: Slovakia
-season_count: 2
+season_count: 1
 current_season: sk-25-26
-previous_season: sk-24-25
+previous_season: n.a.
 current_games: 24
 current_goals: 29
 current_assists: 22
@@ -25,17 +25,17 @@ playoff_goals: 4
 playoff_assists: 3
 playoff_points: 7
 playoff_pim: 2
-previous_games: 20
-previous_goals: 15
-previous_assists: 12
-previous_points: 27
-previous_pim: 12
-career_games: 44
-career_goals: 44
-career_assists: 34
-career_points: 78
-career_pim: 24
-history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|4|3|7|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|20|25|19|44|10||sk-24-25|regular-season|Slovakia|FK Florko Košice|20|15|12|27|12
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 24
+career_goals: 29
+career_assists: 22
+career_points: 51
+career_pim: 12
+history_rows_csv: sk-25-26|playoffs|Slovakia|FK Florko Košice|4|4|3|7|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|20|25|19|44|10
 assists: 3
 games: 4
 goals: 4
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 24
+rank: 23
 season: sk-25-26

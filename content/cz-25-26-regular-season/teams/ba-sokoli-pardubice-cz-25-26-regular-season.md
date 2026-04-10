@@ -1,4 +1,4 @@
-Date: 2026-04-04
+Date: 2026-04-19
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-regular-season, teams
 Slug: ba-sokoli-pardubice-cz-25-26-regular-season-cz-25-26-regular-season
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.23
 powerplay_second_period: 11
 powerplay_third_period: 16
-rank: 8
+rank: 9
 scoring_ratio: 0.88
 take_the_lead_goals: 28
 take_the_lead_goals_against: 28

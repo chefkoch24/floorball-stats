@@ -1,6 +1,7 @@
 import argparse
 from pathlib import Path
 
+from src.build_sqlite import sync_pipeline_outputs
 from src.generate_markdown import generate_markdown_files
 from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
@@ -45,6 +46,7 @@ def run_pipeline(
     playoff_teams_count: int = 8,
     data_dir: str = "data",
     content_dir: str = "content",
+    sqlite_path: str | None = None,
     skip_scrape: bool = False,
 ) -> dict:
     data_path = Path(data_dir)
@@ -137,6 +139,7 @@ def run_pipeline(
                 phase=phase,
                 regular_season_end_date=slovakia_regular_season_end,
                 regular_season_games_per_team=slovakia_regular_season_games_per_team,
+                playoff_teams_count=playoff_teams_count,
             )
         elif backend == "latvia":
             if not latvia_calendar_urls:
@@ -165,13 +168,21 @@ def run_pipeline(
         if regular_csv.exists():
             pregame_history_csv_paths.append(str(regular_csv))
 
-    run_stats_pipeline(
+    stats_payload = run_stats_pipeline(
         input_csv_path=str(raw_csv),
         output_dir=str(data_path),
         season=season,
         phase=phase,
         pregame_history_csv_paths=pregame_history_csv_paths,
         playoff_cut=playoff_teams_count,
+    )
+    sqlite_db_path = sqlite_path or str(data_path / "stats.db")
+    sqlite_counts = sync_pipeline_outputs(
+        db_path=sqlite_db_path,
+        input_csv_path=str(raw_csv),
+        season=season,
+        phase=phase,
+        stats_payload=stats_payload,
     )
     team_stats_markdown_path = data_path / "team_stats_enhanced.json"
     if phase == "playoffs":
@@ -194,6 +205,8 @@ def run_pipeline(
     )
     return {
         "raw_csv": str(raw_csv),
+        "sqlite_db": sqlite_db_path,
+        "sqlite_counts": sqlite_counts,
         "games_written": games_written,
         "teams_written": teams_written,
         "league_written": league_written,
@@ -233,6 +246,7 @@ def parse_args():
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
     parser.add_argument("--content_dir", default="content")
+    parser.add_argument("--sqlite_path", default=None)
     parser.add_argument("--skip_scrape", action="store_true")
     return parser.parse_args()
 
@@ -289,6 +303,7 @@ def main():
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
         content_dir=args.content_dir,
+        sqlite_path=args.sqlite_path,
         skip_scrape=args.skip_scrape,
     )
 
