@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Vladyslav Bachurin
 Category: players
 Slug: player-3f3d2dc492e01ed1
@@ -13,12 +13,12 @@ previous_season: n.a.
 current_games: 16
 current_goals: 6
 current_assists: 1
-current_points: 5
+current_points: 7
 current_pim: 0
 regular_games: 11
 regular_goals: 2
 regular_assists: 0
-regular_points: 0
+regular_points: 2
 regular_pim: 0
 playoff_games: 5
 playoff_goals: 4

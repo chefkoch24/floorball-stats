@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Linards Putniņš
 Category: players
 Slug: player-fafc269ca0bdf535
@@ -10,16 +10,16 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 11
-current_goals: 3
-current_assists: 2
-current_points: 5
-current_pim: 4
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 38
+current_goals: 13
+current_assists: 12
+current_points: 25
+current_pim: 8
+regular_games: 27
+regular_goals: 10
+regular_assists: 10
+regular_points: 20
+regular_pim: 4
 playoff_games: 11
 playoff_goals: 3
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
-career_goals: 3
-career_assists: 2
-career_points: 5
-career_pim: 4
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|3|2|5|4
+career_games: 38
+career_goals: 13
+career_assists: 12
+career_points: 25
+career_pim: 8
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|3|2|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|10|10|20|4
 assists: 2
 games: 11
 goals: 3

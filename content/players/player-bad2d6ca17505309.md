@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: František Jaššo
 Category: players
 Slug: player-bad2d6ca17505309

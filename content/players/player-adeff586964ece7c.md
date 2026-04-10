@@ -1,0 +1,47 @@
+Date: 2026-04-10
+Title: Matyáš Bláha
+Category: players
+Slug: player-adeff586964ece7c
+type: player
+player: Matyáš Bláha
+player_uid: player-adeff586964ece7c
+team: ACEMA Sparta Praha
+league: Czech Republic
+season_count: 1
+current_season: cz-25-26
+previous_season: n.a.
+current_games: 29
+current_goals: 11
+current_assists: 9
+current_points: 20
+current_pim: 2
+regular_games: 23
+regular_goals: 11
+regular_assists: 9
+regular_points: 20
+regular_pim: 2
+playoff_games: 6
+playoff_goals: 0
+playoff_assists: 0
+playoff_points: 0
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 29
+career_goals: 11
+career_assists: 9
+career_points: 20
+career_pim: 2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|23|11|9|20|2
+assists: 0
+games: 6
+goals: 0
+penalties: 0
+phase: playoffs
+pim: 0
+points: 0
+rank: 195
+season: cz-25-26

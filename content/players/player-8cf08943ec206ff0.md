@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Andris Briedis
 Category: players
 Slug: player-8cf08943ec206ff0
@@ -10,12 +10,12 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 11
+current_games: 34
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 23
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 34
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|0|0|0|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|0|0|0|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|0|0|0|0
 assists: 0
 games: 11
 goals: 0

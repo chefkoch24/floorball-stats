@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Cedric Buri
 Category: players
 Slug: player-3d7e3eff55417f61
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 7
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

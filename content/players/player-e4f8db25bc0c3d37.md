@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Luca Steiner
 Category: players
 Slug: player-e4f8db25bc0c3d37
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 22
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

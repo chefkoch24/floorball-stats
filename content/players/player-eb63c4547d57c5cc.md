@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Atte Raappana
 Category: players
 Slug: player-eb63c4547d57c5cc
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 2
-current_goals: 1
-current_assists: 2
-current_points: 3
+current_games: 9
+current_goals: 6
+current_assists: 4
+current_points: 10
 current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 7
+regular_goals: 5
+regular_assists: 2
+regular_points: 7
 regular_pim: 0
 playoff_games: 2
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 1
-career_assists: 2
-career_points: 3
+career_games: 9
+career_goals: 6
+career_assists: 4
+career_points: 10
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|LASB|2|1|2|3|2
+history_rows_csv: fi-25-26|playoffs|Finland|LASB|2|1|2|3|2||fi-25-26|regular-season|Finland|LASB|7|5|2|7|0
 assists: 2
 games: 2
 goals: 1

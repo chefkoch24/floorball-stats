@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Heikki Iiskola
 Category: players
 Slug: player-7fe599763d17db2d
@@ -10,16 +10,16 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 6
-current_goals: 6
-current_assists: 3
-current_points: 9
-current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 32
+current_goals: 19
+current_assists: 24
+current_points: 43
+current_pim: 10
+regular_games: 26
+regular_goals: 13
+regular_assists: 21
+regular_points: 34
+regular_pim: 10
 playoff_games: 6
 playoff_goals: 6
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 6
-career_assists: 3
-career_points: 9
-career_pim: 0
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|6|3|9|0
+career_games: 32
+career_goals: 19
+career_assists: 24
+career_points: 43
+career_pim: 10
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|6|3|9|0||se-25-26|regular-season|Sweden|Växjö IBK|26|13|21|34|10
 assists: 3
 games: 6
 goals: 6

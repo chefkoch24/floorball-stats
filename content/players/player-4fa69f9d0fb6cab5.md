@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Deny Känzig
 Category: players
 Slug: player-4fa69f9d0fb6cab5
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 18
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

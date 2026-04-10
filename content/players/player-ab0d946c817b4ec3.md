@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3
@@ -15,10 +15,10 @@ current_goals: 36
 current_assists: 25
 current_points: 61
 current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 24
+regular_goals: 31
+regular_assists: 22
+regular_points: 53
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 5

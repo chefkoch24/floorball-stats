@@ -27,6 +27,11 @@ LEAGUE_INFO = {
 }
 
 
+def _player_stats_export_name(prefix: str) -> str:
+    normalized = prefix or "de"
+    return f"player_stats_{normalized}.csv"
+
+
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
     if not raw:
         return set()
@@ -42,6 +47,31 @@ def _normalize_prefix_tokens(raw: str | None) -> set[str]:
             continue
         normalized.add(aliases.get(cleaned, cleaned))
     return normalized
+
+
+def _load_existing_player_stats_exports(
+    directory: Path,
+    include_prefixes: set[str],
+    output_csv: str,
+) -> list[pd.DataFrame]:
+    frames: list[pd.DataFrame] = []
+    target_name = Path(output_csv).name
+    prefixes = sorted(include_prefixes if include_prefixes else LEAGUE_INFO.keys(), key=lambda value: (value != "", value))
+    for prefix in prefixes:
+        export_name = _player_stats_export_name(prefix)
+        if export_name == target_name:
+            continue
+        export_path = directory / export_name
+        if not export_path.exists():
+            continue
+        try:
+            frame = pd.read_csv(export_path)
+        except Exception:
+            continue
+        if frame.empty:
+            continue
+        frames.append(frame)
+    return frames
 
 
 def _name_style_score(name: str) -> int:
@@ -154,22 +184,21 @@ def _harmonize_slovakia_player_names(stats: pd.DataFrame) -> pd.DataFrame:
         first_key = first.lower()
         second_key = second.lower()
         pair_key = tuple(sorted([first_key, second_key]))
-
-        # Slovakia source feeds are predominantly "surname firstname".
-        # So default vote prefers swapping to firstname-surname.
-        first_weight = 0
-        second_weight = 2
-        # A fully upper token is typically a surname marker.
-        if first.isupper() and not second.isupper():
-            first_weight = 0
-            second_weight = 4
-        elif second.isupper() and not first.isupper():
-            first_weight = 4
-            second_weight = 0
-
         votes = pair_votes.setdefault(pair_key, {})
-        votes[first_key] = votes.get(first_key, 0) + first_weight
-        votes[second_key] = votes.get(second_key, 0) + second_weight
+
+        # Only change order when the source gives actual evidence.
+        # A fully upper token is typically the surname marker, which means the
+        # other token should become the canonical first name.
+        if first.isupper() and not second.isupper():
+            votes[second_key] = votes.get(second_key, 0) + 4
+            votes[first_key] = votes.get(first_key, 0) + 1
+        elif second.isupper() and not first.isupper():
+            votes[first_key] = votes.get(first_key, 0) + 4
+            votes[second_key] = votes.get(second_key, 0) + 1
+        else:
+            # Otherwise keep the observed order instead of guessing, so
+            # legitimate two-token identities are not flipped by default.
+            votes[first_key] = votes.get(first_key, 0) + 2
 
     preferred_first: dict[tuple[str, str], str] = {}
     for pair_key, votes in pair_votes.items():
@@ -1010,8 +1039,19 @@ def _load_played_matches(path: Path, required_columns: list[str]) -> pd.DataFram
 
 def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str] | None = None) -> int:
     directory = Path(data_dir)
-    all_rows: list[pd.DataFrame] = []
     include_prefixes = season_prefixes or set()
+
+    existing_exports = _load_existing_player_stats_exports(directory, include_prefixes, output_csv)
+    if existing_exports:
+        result = pd.concat(existing_exports, ignore_index=True)
+        result = result.sort_values(
+            ["season", "phase", "league", "points", "goals", "assists", "player"],
+            ascending=[True, True, True, False, False, False, True],
+        ).reset_index(drop=True)
+        result.to_csv(output_csv, index=False)
+        return len(result)
+
+    all_rows: list[pd.DataFrame] = []
 
     for candidate in sorted(directory.glob("data_*.csv")):
         match = FILE_PATTERN.match(candidate.name)

@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Riku Ruonakangas
 Category: players
 Slug: player-361a351ca6accd12
@@ -10,15 +10,15 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 6
-current_goals: 6
-current_assists: 2
-current_points: 8
+current_games: 24
+current_goals: 24
+current_assists: 11
+current_points: 35
 current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 18
+regular_goals: 18
+regular_assists: 9
+regular_points: 27
 regular_pim: 0
 playoff_games: 6
 playoff_goals: 6
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 6
-career_assists: 2
-career_points: 8
+career_games: 24
+career_goals: 24
+career_assists: 11
+career_points: 35
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|OLS|6|6|2|8|0
+history_rows_csv: fi-25-26|playoffs|Finland|OLS|6|6|2|8|0||fi-25-26|regular-season|Finland|OLS|18|18|9|27|0
 assists: 2
 games: 6
 goals: 6

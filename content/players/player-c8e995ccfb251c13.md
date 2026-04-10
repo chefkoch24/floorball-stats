@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Dominik Lehel Németh
 Category: players
 Slug: player-c8e995ccfb251c13
@@ -14,12 +14,12 @@ current_games: 18
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 2
-regular_games: 0
+current_pim: 12
+regular_games: 14
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 0
+regular_pim: 10
 playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0

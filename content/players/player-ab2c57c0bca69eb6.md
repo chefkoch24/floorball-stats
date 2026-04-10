@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Ludwig Persson
 Category: players
 Slug: player-ab2c57c0bca69eb6
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 21
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

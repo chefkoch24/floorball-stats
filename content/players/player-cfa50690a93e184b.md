@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 15
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

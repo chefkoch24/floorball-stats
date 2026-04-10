@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Oskar Weissbach
 Category: players
 Slug: player-b5763fe2fba5c1c0
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 20
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

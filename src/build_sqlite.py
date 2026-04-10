@@ -1,10 +1,13 @@
 import argparse
 import json
 import sqlite3
+import tempfile
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
+
+from src.run_stats_engine import run_stats_pipeline
 
 
 EVENT_FILE_PREFIX = "data_"
@@ -49,6 +52,7 @@ def _replace_table_slice(
     where_params: tuple[Any, ...],
 ) -> int:
     if frame.empty:
+        _ensure_table_schema(conn, table_name, frame)
         conn.execute(f'DELETE FROM "{table_name}" WHERE {where_clause}', where_params)
         return 0
 
@@ -127,6 +131,10 @@ def sync_pipeline_outputs(
             }
         )
 
+    playoff_team_rows = stats_payload.get("playoff_stats", []) or []
+    playdown_team_rows = stats_payload.get("playdown_stats", []) or []
+    top4_team_rows = stats_payload.get("top4_stats", []) or []
+
     db_target = Path(db_path)
     db_target.parent.mkdir(parents=True, exist_ok=True)
     with sqlite3.connect(db_target) as conn:
@@ -153,6 +161,27 @@ def sync_pipeline_outputs(
             "source_key = ?",
             (source_key,),
         )
+        playoff_team_rows_written = _replace_table_slice(
+            conn,
+            "playoff_team_stats",
+            _json_payload_frame(playoff_team_rows, source_key=source_key, season=season, phase=phase),
+            "source_key = ?",
+            (source_key,),
+        )
+        playdown_team_rows_written = _replace_table_slice(
+            conn,
+            "playdown_team_stats",
+            _json_payload_frame(playdown_team_rows, source_key=source_key, season=season, phase=phase),
+            "source_key = ?",
+            (source_key,),
+        )
+        top4_team_rows_written = _replace_table_slice(
+            conn,
+            "top4_team_stats",
+            _json_payload_frame(top4_team_rows, source_key=source_key, season=season, phase=phase),
+            "source_key = ?",
+            (source_key,),
+        )
         league_rows_written = _replace_table_slice(
             conn,
             "league_stats",
@@ -166,6 +195,9 @@ def sync_pipeline_outputs(
         "events": event_rows,
         "game_stats": game_rows_written,
         "team_stats": team_rows_written,
+        "playoff_team_stats": playoff_team_rows_written,
+        "playdown_team_stats": playdown_team_rows_written,
+        "top4_team_stats": top4_team_rows_written,
         "league_stats": league_rows_written,
     }
 
@@ -196,9 +228,17 @@ def sync_player_stats_csv(*, db_path: str, csv_path: str) -> int:
     return rows
 
 
-def rebuild_event_table(*, db_path: str, data_dir: str) -> int:
+def rebuild_from_event_csvs(*, db_path: str, data_dir: str) -> dict[str, int]:
     directory = Path(data_dir)
-    total_rows = 0
+    totals = {
+        "events": 0,
+        "game_stats": 0,
+        "team_stats": 0,
+        "playoff_team_stats": 0,
+        "playdown_team_stats": 0,
+        "top4_team_stats": 0,
+        "league_stats": 0,
+    }
     for candidate in sorted(directory.glob(f"{EVENT_FILE_PREFIX}*.csv")):
         if candidate.name == "player_stats.csv" or candidate.name.startswith("player_stats_"):
             continue
@@ -213,16 +253,23 @@ def rebuild_event_table(*, db_path: str, data_dir: str) -> int:
             phase = "playoffs"
         else:
             continue
-        frame = pd.read_csv(candidate)
-        frame.insert(0, "source_key", candidate.stem)
-        frame.insert(1, "season", season)
-        frame.insert(2, "phase", phase)
-        with sqlite3.connect(db_path) as conn:
-            conn.execute("PRAGMA journal_mode=WAL")
-            conn.execute("PRAGMA foreign_keys=ON")
-            total_rows += _replace_table_slice(conn, "events", frame, "source_key = ?", (candidate.stem,))
-            conn.commit()
-    return total_rows
+        with tempfile.TemporaryDirectory(prefix="floorball-stats-sqlite-") as temp_dir:
+            stats_payload = run_stats_pipeline(
+                input_csv_path=str(candidate),
+                output_dir=temp_dir,
+                season=season,
+                phase=phase,
+            )
+        counts = sync_pipeline_outputs(
+            db_path=db_path,
+            input_csv_path=str(candidate),
+            season=season,
+            phase=phase,
+            stats_payload=stats_payload,
+        )
+        for key, value in counts.items():
+            totals[key] += value
+    return totals
 
 
 def parse_args() -> argparse.Namespace:
@@ -235,13 +282,22 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    rebuilt_rows = 0
+    rebuilt_counts = {
+        "events": 0,
+        "game_stats": 0,
+        "team_stats": 0,
+        "playoff_team_stats": 0,
+        "playdown_team_stats": 0,
+        "top4_team_stats": 0,
+        "league_stats": 0,
+    }
     player_rows = 0
     if args.data_dir:
-        rebuilt_rows = rebuild_event_table(db_path=args.db_path, data_dir=args.data_dir)
+        rebuilt_counts = rebuild_from_event_csvs(db_path=args.db_path, data_dir=args.data_dir)
     if args.player_stats_csv:
         player_rows = sync_player_stats_csv(db_path=args.db_path, csv_path=args.player_stats_csv)
-    print(f"sqlite-sync: events={rebuilt_rows} player_stats={player_rows} db={args.db_path}")
+    summary = " ".join(f"{key}={value}" for key, value in rebuilt_counts.items())
+    print(f"sqlite-sync: {summary} player_stats={player_rows} db={args.db_path}")
 
 
 if __name__ == "__main__":

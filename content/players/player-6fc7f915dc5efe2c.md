@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Matthias Störi
 Category: players
 Slug: player-6fc7f915dc5efe2c
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 20
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

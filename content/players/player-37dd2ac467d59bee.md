@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: J. Wilhelmsson
 Category: players
 Slug: player-37dd2ac467d59bee
@@ -10,15 +10,15 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 3
-current_goals: 3
-current_assists: 2
-current_points: 5
+current_games: 22
+current_goals: 25
+current_assists: 24
+current_points: 49
 current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 19
+regular_goals: 22
+regular_assists: 22
+regular_points: 44
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
-career_goals: 3
-career_assists: 2
-career_points: 5
+career_games: 22
+career_goals: 25
+career_assists: 24
+career_points: 49
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster|3|3|2|5|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster|3|3|2|5|0||ch-25-26|regular-season|Switzerland|UHC Uster|19|22|22|44|0
 assists: 2
 games: 3
 goals: 3

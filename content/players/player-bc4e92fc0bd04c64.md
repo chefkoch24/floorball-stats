@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Jakub Šuška
 Category: players
 Slug: player-bc4e92fc0bd04c64
@@ -32,8 +32,8 @@ previous_points: 0
 previous_pim: 0
 career_games: 25
 career_goals: 0
-career_assists: 0
-career_points: 0
+career_assists: 2
+career_points: 2
 career_pim: 0
 history_rows_csv: sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|0|0|0|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|17|0|2|2|0
 assists: 0

@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Juho Rantala
 Category: players
 Slug: player-5c89a2034bbe4d57

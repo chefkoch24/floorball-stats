@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Aaron Niketta
 Category: players
 Slug: player-bf4c0ef60dc82834
@@ -10,12 +10,12 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 2
+current_games: 22
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 20
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 22
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|SSF Dragons Bonn|2|0|0|0|0
+history_rows_csv: 25-26|playoffs|Germany|SSF Dragons Bonn|2|0|0|0|0||25-26|regular-season|Germany|SSF Dragons Bonn|20|0|0|0|0
 assists: 0
 games: 2
 goals: 0

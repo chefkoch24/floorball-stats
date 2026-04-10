@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Martin Fronc
 Category: players
 Slug: player-096ccd194a6d3b0b
@@ -12,10 +12,10 @@ current_season: sk-25-26
 previous_season: n.a.
 current_games: 19
 current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
-regular_games: 0
+current_assists: 4
+current_points: 4
+current_pim: 18
+regular_games: 19
 regular_goals: 0
 regular_assists: 4
 regular_points: 4

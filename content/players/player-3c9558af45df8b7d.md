@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Oliver Wiedmer
 Category: players
 Slug: player-3c9558af45df8b7d
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 21
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

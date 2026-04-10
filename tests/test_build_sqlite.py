@@ -46,6 +46,9 @@ def test_sync_pipeline_outputs_writes_current_run_tables(tmp_path):
         "events": 1,
         "game_stats": 1,
         "team_stats": 2,
+        "playoff_team_stats": 0,
+        "playdown_team_stats": 0,
+        "top4_team_stats": 0,
         "league_stats": 2,
     }
 

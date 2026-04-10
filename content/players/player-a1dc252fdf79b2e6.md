@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: David Dürler
 Category: players
 Slug: player-a1dc252fdf79b2e6
@@ -15,7 +15,7 @@ current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 15
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

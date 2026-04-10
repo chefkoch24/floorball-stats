@@ -1,4 +1,4 @@
-Date: 2026-04-09
+Date: 2026-04-10
 Title: Arvis Kārkliņš
 Category: players
 Slug: player-d40ffc259cd4ab71
@@ -10,15 +10,15 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 6
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 21
+current_goals: 12
+current_assists: 17
+current_points: 29
 current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 15
+regular_goals: 8
+regular_assists: 12
+regular_points: 20
 regular_pim: 0
 playoff_games: 6
 playoff_goals: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 4
-career_assists: 5
-career_points: 9
+career_games: 21
+career_goals: 12
+career_assists: 17
+career_points: 29
 career_pim: 2
-history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|6|4|5|9|2
+history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|6|4|5|9|2||lv-25-26|regular-season|Latvia|FBK Valmiera|15|8|12|20|0
 assists: 5
 games: 6
 goals: 4
