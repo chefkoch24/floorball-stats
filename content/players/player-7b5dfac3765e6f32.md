@@ -10,16 +10,16 @@ league: Latvia
 season_count: 1
 current_season: lv-25-26
 previous_season: n.a.
-current_games: 38
-current_goals: 46
-current_assists: 28
-current_points: 74
-current_pim: 6
-regular_games: 27
-regular_goals: 41
-regular_assists: 23
-regular_points: 64
-regular_pim: 4
+current_games: 11
+current_goals: 5
+current_assists: 5
+current_points: 10
+current_pim: 2
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 11
 playoff_goals: 5
 playoff_assists: 5
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 38
-career_goals: 46
-career_assists: 28
-career_points: 74
-career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|5|5|10|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|41|23|64|4
+career_games: 11
+career_goals: 5
+career_assists: 5
+career_points: 10
+career_pim: 2
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|11|5|5|10|2
 assists: 5
 games: 11
 goals: 5

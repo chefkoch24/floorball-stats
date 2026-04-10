@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-25
 Title: Top 4 Teams
 Category: se-25-26-playoffs, liga
 Slug: top-4-teams-se-25-26-playoffs
@@ -77,7 +77,7 @@ percent_goals_overtime_against: 1.31
 percent_goals_second_period: 33.95
 percent_goals_second_period_against: 25.46
 percent_goals_third_period: 31.01
-percent_goals_third_period_against: 45.29
+percent_goals_third_period_against: 45.28
 points: 15.0
 points_after_55_min: 14.25
 points_after_58_min: 14.5

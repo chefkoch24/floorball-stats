@@ -13,12 +13,12 @@ previous_season: n.a.
 current_games: 16
 current_goals: 4
 current_assists: 0
-current_points: 4
+current_points: 0
 current_pim: 0
 regular_games: 12
 regular_goals: 4
 regular_assists: 0
-regular_points: 4
+regular_points: 0
 regular_pim: 0
 playoff_games: 4
 playoff_goals: 0

@@ -56,8 +56,8 @@ pregame_h2h_form5_away_wins: 3
 pregame_h2h_form5_home_goal_diff_per_game: -5.8
 pregame_h2h_form5_home_opponents_csv: TPS||Nokian KrP||Nokian KrP||SPV||Oilers
 pregame_h2h_form5_home_points_per_game: 0.0
-pregame_h2h_form5_home_tag_codes_csv: L,L,L,L,L
-pregame_h2h_form5_home_tags: L L L L L
+pregame_h2h_form5_home_tag_codes_csv: L
+pregame_h2h_form5_home_tags: L
 pregame_h2h_form5_home_wins: 0
 pregame_h2h_home_split_goal_diff_per_game: 0.81
 pregame_h2h_home_split_points_per_game: 1.88
@@ -288,7 +288,7 @@ home_pregame_penalty_2and2: 0
 home_pregame_penalty_first_period: 14
 home_pregame_penalty_ms: 0
 home_pregame_penalty_overtime: 0
-home_pregame_penalty_second_period: 15
+home_pregame_penalty_second_period: 0
 home_pregame_penalty_shootout_losses: 0
 home_pregame_penalty_shootout_wins: 0
 home_pregame_penalty_shot_goals: 0
@@ -393,7 +393,7 @@ away_pregame_penalties_per_game: 1.58
 away_pregame_penalty_10: 0
 away_pregame_penalty_2: 52
 away_pregame_penalty_2and2: 0
-away_pregame_penalty_first_period: 17
+away_pregame_penalty_first_period: 0
 away_pregame_penalty_ms: 0
 away_pregame_penalty_overtime: 0
 away_pregame_penalty_second_period: 18

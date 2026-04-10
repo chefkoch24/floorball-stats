@@ -15,10 +15,10 @@ current_goals: 4
 current_assists: 3
 current_points: 7
 current_pim: 0
-regular_games: 5
-regular_goals: 3
-regular_assists: 3
-regular_points: 6
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 1
 playoff_goals: 1

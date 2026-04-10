@@ -14,8 +14,8 @@ current_games: 18
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 2
-regular_games: 18
+current_pim: 0
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0

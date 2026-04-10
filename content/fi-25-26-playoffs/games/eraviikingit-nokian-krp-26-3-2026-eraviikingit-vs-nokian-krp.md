@@ -37,7 +37,7 @@ pregame_h2h_direct_games: 3
 pregame_h2h_direct_home_points_per_game: 0.0
 pregame_h2h_direct_home_wins: 0
 pregame_h2h_direct_ot_ps_games: 0
-pregame_h2h_discipline_away_penalties_per_game: 1.4
+pregame_h2h_discipline_away_penalties_per_game: 1.0
 pregame_h2h_discipline_away_pk_goals_against_per_game: 0.0
 pregame_h2h_discipline_home_penalties_per_game: 3.0
 pregame_h2h_discipline_home_pk_goals_against_per_game: 1.4
@@ -59,8 +59,8 @@ pregame_h2h_form5_home_points_per_game: 0.2
 pregame_h2h_form5_home_tag_codes_csv: OL,L,L,L,L
 pregame_h2h_form5_home_tags: OTL L L L L
 pregame_h2h_form5_home_wins: 0
-pregame_h2h_home_split_goal_diff_per_game: -1.44
-pregame_h2h_home_split_points_per_game: 0.88
+pregame_h2h_home_split_goal_diff_per_game: 0.0
+pregame_h2h_home_split_points_per_game: 0.0
 pregame_h2h_resilience_away_blown_leads: 0
 pregame_h2h_resilience_away_close_game_points_per_game: n.a.
 pregame_h2h_resilience_away_comeback_wins: 1
@@ -285,10 +285,10 @@ home_pregame_penalties_per_game: 2.36
 home_pregame_penalty_10: 1
 home_pregame_penalty_2: 77
 home_pregame_penalty_2and2: 0
-home_pregame_penalty_first_period: 17
+home_pregame_penalty_first_period: 0
 home_pregame_penalty_ms: 0
 home_pregame_penalty_overtime: 0
-home_pregame_penalty_second_period: 33
+home_pregame_penalty_second_period: 0
 home_pregame_penalty_shootout_losses: 0
 home_pregame_penalty_shootout_wins: 0
 home_pregame_penalty_shot_goals: 0
@@ -393,10 +393,10 @@ away_pregame_penalties_per_game: 1.3
 away_pregame_penalty_10: 0
 away_pregame_penalty_2: 43
 away_pregame_penalty_2and2: 0
-away_pregame_penalty_first_period: 11
+away_pregame_penalty_first_period: 0
 away_pregame_penalty_ms: 0
 away_pregame_penalty_overtime: 0
-away_pregame_penalty_second_period: 12
+away_pregame_penalty_second_period: 0
 away_pregame_penalty_shootout_losses: 0
 away_pregame_penalty_shootout_wins: 0
 away_pregame_penalty_shot_goals: 0

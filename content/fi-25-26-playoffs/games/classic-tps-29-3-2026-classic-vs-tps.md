@@ -396,7 +396,7 @@ away_pregame_penalty_2and2: 0
 away_pregame_penalty_first_period: 5
 away_pregame_penalty_ms: 0
 away_pregame_penalty_overtime: 0
-away_pregame_penalty_second_period: 27
+away_pregame_penalty_second_period: 0
 away_pregame_penalty_shootout_losses: 0
 away_pregame_penalty_shootout_wins: 0
 away_pregame_penalty_shot_goals: 0

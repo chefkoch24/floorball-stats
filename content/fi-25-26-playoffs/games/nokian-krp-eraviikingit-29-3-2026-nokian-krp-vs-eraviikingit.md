@@ -50,8 +50,8 @@ pregame_h2h_first_period_home_points_after_first_per_game: 3.0
 pregame_h2h_form5_away_goal_diff_per_game: -5.0
 pregame_h2h_form5_away_opponents_csv: Hawks||Classic||TPS||Nokian KrP||Nokian KrP
 pregame_h2h_form5_away_points_per_game: 0.0
-pregame_h2h_form5_away_tag_codes_csv: L,L,L,L,L
-pregame_h2h_form5_away_tags: L L L L L
+pregame_h2h_form5_away_tag_codes_csv: L,L
+pregame_h2h_form5_away_tags: L L
 pregame_h2h_form5_away_wins: 0
 pregame_h2h_form5_home_goal_diff_per_game: 8.0
 pregame_h2h_form5_home_opponents_csv: OLS||OLS||LASB||EräViikingit||EräViikingit
@@ -285,10 +285,10 @@ home_pregame_penalties_per_game: 1.35
 home_pregame_penalty_10: 0
 home_pregame_penalty_2: 46
 home_pregame_penalty_2and2: 0
-home_pregame_penalty_first_period: 11
+home_pregame_penalty_first_period: 0
 home_pregame_penalty_ms: 0
 home_pregame_penalty_overtime: 0
-home_pregame_penalty_second_period: 13
+home_pregame_penalty_second_period: 1
 home_pregame_penalty_shootout_losses: 0
 home_pregame_penalty_shootout_wins: 0
 home_pregame_penalty_shot_goals: 0
@@ -393,10 +393,10 @@ away_pregame_penalties_per_game: 2.32
 away_pregame_penalty_10: 1
 away_pregame_penalty_2: 78
 away_pregame_penalty_2and2: 0
-away_pregame_penalty_first_period: 17
+away_pregame_penalty_first_period: 0
 away_pregame_penalty_ms: 0
 away_pregame_penalty_overtime: 0
-away_pregame_penalty_second_period: 34
+away_pregame_penalty_second_period: 1
 away_pregame_penalty_shootout_losses: 0
 away_pregame_penalty_shootout_wins: 0
 away_pregame_penalty_shot_goals: 0

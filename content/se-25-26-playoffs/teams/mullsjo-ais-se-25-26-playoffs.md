@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-25
 Title: Mullsjö AIS
 Category: se-25-26-playoffs, teams
 Slug: mullsjo-ais-se-25-26-playoffs-se-25-26-playoffs
