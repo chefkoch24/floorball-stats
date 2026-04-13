@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-25
 Title: IBF Falun
 Category: se-25-26-playoffs, teams
 Slug: ibf-falun-se-25-26-playoffs-se-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.12
 powerplay_second_period: 4
 powerplay_third_period: 4
-rank: 1
+rank: 2
 scoring_ratio: 1.36
 take_the_lead_goals: 12
 take_the_lead_goals_against: 3

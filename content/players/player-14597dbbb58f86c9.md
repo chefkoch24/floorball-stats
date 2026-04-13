@@ -10,15 +10,15 @@ league: Sweden
 season_count: 1
 current_season: se-25-26
 previous_season: n.a.
-current_games: 24
-current_goals: 12
-current_assists: 2
-current_points: 14
+current_games: 4
+current_goals: 1
+current_assists: 0
+current_points: 1
 current_pim: 2
-regular_games: 20
-regular_goals: 11
-regular_assists: 2
-regular_points: 13
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 4
 playoff_goals: 1
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
-career_goals: 12
-career_assists: 2
-career_points: 14
+career_games: 4
+career_goals: 1
+career_assists: 0
+career_points: 1
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|Nykvarns IBF|4|1|0|1|2||se-25-26|regular-season|Sweden|Nykvarns IBF|20|11|2|13|0
+history_rows_csv: se-25-26|playoffs|Sweden|Nykvarns IBF|4|1|0|1|2
 assists: 0
 games: 4
 goals: 1
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 74
+rank: 78
 season: se-25-26

@@ -10,16 +10,16 @@ league: Slovakia
 season_count: 1
 current_season: sk-25-26
 previous_season: n.a.
-current_games: 27
-current_goals: 18
-current_assists: 31
-current_points: 49
-current_pim: 10
-regular_games: 22
-regular_goals: 16
-regular_assists: 29
-regular_points: 45
-regular_pim: 6
+current_games: 5
+current_goals: 2
+current_assists: 2
+current_points: 4
+current_pim: 4
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 5
 playoff_goals: 2
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
-career_goals: 18
-career_assists: 31
-career_points: 49
-career_pim: 10
-history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|5|2|2|4|4||sk-25-26|regular-season|Slovakia|FBK Nižná|22|16|29|45|6
+career_games: 5
+career_goals: 2
+career_assists: 2
+career_points: 4
+career_pim: 4
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|5|2|2|4|4
 assists: 2
 games: 5
 goals: 2
