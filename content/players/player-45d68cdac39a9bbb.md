@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Šimon Stránský
 Category: players
 Slug: player-45d68cdac39a9bbb

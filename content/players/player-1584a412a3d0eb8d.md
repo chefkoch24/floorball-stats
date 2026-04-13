@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: E. Degen
 Category: players
 Slug: player-1584a412a3d0eb8d

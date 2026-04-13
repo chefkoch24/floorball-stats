@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Jakub Jančok
 Category: players
 Slug: player-82a7fe1ad2cdbaa2

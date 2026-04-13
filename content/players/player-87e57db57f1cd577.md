@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: T. Glücki
 Category: players
 Slug: player-87e57db57f1cd577

@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Pārstāvis Rūdolfs Blūms
 Category: players
 Slug: player-7c66dd7dfcdc4dfc

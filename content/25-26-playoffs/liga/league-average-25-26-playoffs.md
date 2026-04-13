@@ -6,7 +6,7 @@ type: liga
 team: League Average
 away_points: 2.0
 boxplay: 4.62
-boxplay_efficiency: 56.29
+boxplay_efficiency: 56.28
 boxplay_first_period: 0.88
 boxplay_overtime: 0.12
 boxplay_per_game: 1.75
@@ -90,15 +90,17 @@ points_max_difference_2: 1.88
 points_more_2_difference: 2.25
 points_per_game: 1.5
 powerplay: 4.62
-powerplay_efficiency: 43.71
+powerplay_efficiency: 43.72
 powerplay_first_period: 0.88
 powerplay_overtime: 0.12
 powerplay_per_game: 1.75
 powerplay_second_period: 1.38
 powerplay_third_period: 2.25
 rank: 4.5
+record_type: league_averages
 scoring_ratio: 1.07
 take_the_lead_goals: 3.38
 take_the_lead_goals_against: 3.38
+title: League Average
 win_1: 0.75
 wins: 1.0

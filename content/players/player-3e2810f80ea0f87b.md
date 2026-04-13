@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Rihards Avots
 Category: players
 Slug: player-3e2810f80ea0f87b

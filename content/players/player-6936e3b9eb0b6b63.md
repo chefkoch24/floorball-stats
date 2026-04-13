@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Albert Švindrych
 Category: players
 Slug: player-6936e3b9eb0b6b63

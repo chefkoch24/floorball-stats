@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Elia Seiler
 Category: players
 Slug: player-af53738cc348a9ad

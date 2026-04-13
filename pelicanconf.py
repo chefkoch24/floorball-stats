@@ -195,12 +195,28 @@ def category2string(slug):
     base = f'{slug[0]}/' + " ".join(slug[1:])
     return f"{base} Player Stats" if is_players else base
 
+def _slug_parts(slug):
+    if isinstance(slug, list):
+        if not slug:
+            return []
+        if len(slug) == 1 and isinstance(slug[0], str):
+            slug = slug[0]
+        else:
+            return [str(part).strip() for part in slug if str(part).strip()]
+    if slug is None:
+        return []
+    text = str(slug).strip()
+    if not text:
+        return []
+    return [part for part in text.split('-') if part]
+
+
 def category2title(slug):
-    slug = slug.split('-')
-    return " ".join(slug)
+    parts = _slug_parts(slug)
+    return " ".join(parts)
 
 def category2breadcrumb(slug):
-    parts = slug.split('-')
+    parts = _slug_parts(slug)
     is_players = bool(parts) and parts[-1] == 'players'
     if is_players:
         parts = parts[:-1]

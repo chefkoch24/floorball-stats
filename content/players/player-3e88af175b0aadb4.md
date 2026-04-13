@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Adam Bureš
 Category: players
 Slug: player-3e88af175b0aadb4

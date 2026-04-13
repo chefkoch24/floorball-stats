@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Vladyslav Bachurin
 Category: players
 Slug: player-3f3d2dc492e01ed1

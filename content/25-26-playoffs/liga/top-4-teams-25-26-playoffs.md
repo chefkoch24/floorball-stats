@@ -74,7 +74,7 @@ percent_goals_first_period: 26.51
 percent_goals_first_period_against: 20.95
 percent_goals_overtime: 1.92
 percent_goals_overtime_against: 2.08
-percent_goals_second_period: 34.67
+percent_goals_second_period: 34.66
 percent_goals_second_period_against: 33.61
 percent_goals_third_period: 35.23
 percent_goals_third_period_against: 43.36
@@ -97,8 +97,10 @@ powerplay_per_game: 2.04
 powerplay_second_period: 1.5
 powerplay_third_period: 3.0
 rank: 2.5
+record_type: top4_averages
 scoring_ratio: 1.4
 take_the_lead_goals: 4.5
 take_the_lead_goals_against: 2.25
+title: Top 4 Teams
 win_1: 0.75
 wins: 1.5

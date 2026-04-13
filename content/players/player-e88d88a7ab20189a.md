@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: F. Göldi
 Category: players
 Slug: player-e88d88a7ab20189a

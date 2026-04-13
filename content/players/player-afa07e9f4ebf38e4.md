@@ -1,34 +1,34 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Casper Karlsson
 Category: players
 Slug: player-afa07e9f4ebf38e4
 type: player
 player: Casper Karlsson
 player_uid: player-afa07e9f4ebf38e4
-team: Mullsjö AIS
-league: Sweden
+team: HC Rychenberg Winterthur / Grasshopper Club Zürich / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster
+league: Switzerland
 season_count: 2
-current_season: se-25-26
-previous_season: ch-25-26
-current_games: 8
+current_season: ch-25-26
+previous_season: se-25-26
+current_games: 11
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 0
+current_points: 0
 current_pim: 0
-regular_games: 8
+regular_games: 11
 regular_goals: 0
-regular_assists: 1
-regular_points: 1
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 11
+previous_games: 8
 previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_assists: 1
+previous_points: 1
 previous_pim: 0
 career_games: 19
 career_goals: 0

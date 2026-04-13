@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: T. Fischer
 Category: players
 Slug: player-db804b8a0ddf2591

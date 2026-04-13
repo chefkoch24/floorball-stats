@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Jakub Vařecha
 Category: players
 Slug: player-c4bdc19953c12c81

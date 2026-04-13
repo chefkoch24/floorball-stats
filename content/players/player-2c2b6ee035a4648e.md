@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Mārtiņš Muižnieks
 Category: players
 Slug: player-2c2b6ee035a4648e

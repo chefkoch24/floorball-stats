@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Jiří Trojan
 Category: players
 Slug: player-f3b8f4ae46d1f234

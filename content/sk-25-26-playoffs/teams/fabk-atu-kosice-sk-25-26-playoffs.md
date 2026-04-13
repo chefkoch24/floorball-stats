@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-11
 Title: FaBK ATU Košice
 Category: sk-25-26-playoffs, teams
 Slug: fabk-atu-kosice-sk-25-26-playoffs-sk-25-26-playoffs

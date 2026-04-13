@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: J. Kürschner
 Category: players
 Slug: player-e7a80c69d3ff0d2e

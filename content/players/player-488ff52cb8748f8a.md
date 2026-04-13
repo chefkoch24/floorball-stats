@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Michal Minarovský
 Category: players
 Slug: player-488ff52cb8748f8a

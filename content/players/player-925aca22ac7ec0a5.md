@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: Konrad Paul
 Category: players
 Slug: player-925aca22ac7ec0a5

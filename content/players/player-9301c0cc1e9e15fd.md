@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: T. Günthard
 Category: players
 Slug: player-9301c0cc1e9e15fd

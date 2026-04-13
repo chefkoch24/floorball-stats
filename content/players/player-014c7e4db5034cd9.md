@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: C. Reich
 Category: players
 Slug: player-014c7e4db5034cd9

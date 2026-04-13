@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: M. Stingelin
 Category: players
 Slug: player-0db375a55103cc5d

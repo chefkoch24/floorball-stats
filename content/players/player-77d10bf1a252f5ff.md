@@ -1,4 +1,4 @@
-Date: 2026-04-10
+Date: 2026-04-13
 Title: A. Möckli
 Category: players
 Slug: player-77d10bf1a252f5ff
