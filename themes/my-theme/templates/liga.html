@@ -77,9 +77,9 @@
                 <tbody>
                 <tr><td>Wins</td><td>{{ article.wins|default('–') }}</td></tr>
                 <tr><td>Losses</td><td>{{ article.losses|default('–') }}</td></tr>
-                <tr><td>OT Wins</td><td>{{ article.over_time_wins|default('–') }}</td></tr>
-                <tr><td>OT Losses</td><td>{{ article.over_time_losses|default('–') }}</td></tr>
-                <tr><td>Close game (OT)</td><td>{{ article.close_game_overtime|default('–') }}</td></tr>
+                <tr><td>Overtime Wins (OT)</td><td>{{ article.over_time_wins|default('–') }}</td></tr>
+                <tr><td>Overtime Losses (OT)</td><td>{{ article.over_time_losses|default('–') }}</td></tr>
+                <tr><td>Close Games decided in Overtime/Shootout (OT/PS)</td><td>{{ article.close_game_overtime|default('–') }}</td></tr>
                 </tbody>
             </table>
         </div>

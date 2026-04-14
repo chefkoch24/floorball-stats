@@ -44,10 +44,10 @@
         <div class="tile-grid">
             <div class="tile"><p class="tile-title">Wins</p><p class="tile-value">{{ article.wins|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Losses</p><p class="tile-value">{{ article.losses|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">OT Wins</p><p class="tile-value">{{ article.over_time_wins|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">OT Losses</p><p class="tile-value">{{ article.over_time_losses|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">PS Wins</p><p class="tile-value">{{ article.penalty_shootout_wins|default('0') }}</p></div>
-            <div class="tile"><p class="tile-title">PS Losses</p><p class="tile-value">{{ article.penalty_shootout_losses|default('0') }}</p></div>
+            <div class="tile"><p class="tile-title">Overtime Wins (OT)</p><p class="tile-value">{{ article.over_time_wins|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Overtime Losses (OT)</p><p class="tile-value">{{ article.over_time_losses|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Shootout Wins (PS)</p><p class="tile-value">{{ article.penalty_shootout_wins|default('0') }}</p></div>
+            <div class="tile"><p class="tile-title">Shootout Losses (PS)</p><p class="tile-value">{{ article.penalty_shootout_losses|default('0') }}</p></div>
             <div class="tile"><p class="tile-title">Scoring Ratio</p><p class="tile-value">{{ article.scoring_ratio|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Close game wins</p><p class="tile-value">{{ article.close_game_win|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Close game losses</p><p class="tile-value">{{ article.close_game_loss|default('–') }}</p></div>
@@ -114,7 +114,7 @@
             <div class="tile"><p class="tile-title">Penalties 1st period</p><p class="tile-value">{{ article.penalty_first_period|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Penalties 2nd period</p><p class="tile-value">{{ article.penalty_second_period|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Penalties 3rd period</p><p class="tile-value">{{ article.penalty_third_period|default('–') }}</p></div>
-            <div class="tile"><p class="tile-title">Penalties OT</p><p class="tile-value">{{ article.penalty_overtime|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Penalties in Overtime (OT)</p><p class="tile-value">{{ article.penalty_overtime|default('–') }}</p></div>
         </div>
         <div class="chart-card">
             <p class="chart-card-title">Penalty Type Share</p>
