@@ -5,17 +5,17 @@ Slug: player-4a40ebcc6844a512
 type: player
 player: Sebastian Mathis
 player_uid: player-4a40ebcc6844a512
-team: SV Wiler-Ersigen / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Zug United / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau
+team: SV Wiler-Ersigen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 23
+current_games: 5
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 18
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
+career_games: 5
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|5|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Zug United / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau|18|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|5|0|0|0|0
 assists: 0
 games: 5
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 269
+rank: 274
 season: ch-25-26

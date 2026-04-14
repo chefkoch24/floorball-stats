@@ -10,16 +10,16 @@ league: Finland
 season_count: 1
 current_season: fi-25-26
 previous_season: n.a.
-current_games: 11
-current_goals: 6
-current_assists: 9
-current_points: 15
-current_pim: 2
-regular_games: 9
-regular_goals: 6
-regular_assists: 7
-regular_points: 13
-regular_pim: 2
+current_games: 2
+current_goals: 0
+current_assists: 2
+current_points: 2
+current_pim: 0
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 2
 playoff_goals: 0
 playoff_assists: 2
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
-career_goals: 6
-career_assists: 9
-career_points: 15
-career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|0|2|2|0||fi-25-26|regular-season|Finland|Nokian KrP|9|6|7|13|2
+career_games: 2
+career_goals: 0
+career_assists: 2
+career_points: 2
+career_pim: 0
+history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|0|2|2|0
 assists: 2
 games: 2
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 96
+rank: 97
 season: fi-25-26
