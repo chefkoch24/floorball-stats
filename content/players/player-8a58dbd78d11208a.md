@@ -1,4 +1,4 @@
-Date: 2026-04-13
+Date: 2026-04-14
 Title: M. Wahlen
 Category: players
 Slug: player-8a58dbd78d11208a
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 209
+rank: 204
 season: ch-25-26

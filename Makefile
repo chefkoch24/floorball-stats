@@ -287,11 +287,11 @@ refresh-everything:
 	$(MAKE) refresh-all-leagues
 
 refresh-player-pages:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats.csv" --output-dir "content/players"
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --output-dir "content/player-stats"
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players"
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
 
 refresh-player-stats-pages:
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --output-dir "content/player-stats"
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
 
 refresh-player-stats:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats.csv"

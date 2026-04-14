@@ -1,0 +1,47 @@
+Date: 2026-04-14
+Title: Martin Santer
+Category: players
+Slug: player-a6c9dc3832aeeb4d
+type: player
+player: Martin Santer
+player_uid: player-a6c9dc3832aeeb4d
+team: FBK Nižná
+league: Slovakia
+season_count: 1
+current_season: sk-25-26
+previous_season: n.a.
+current_games: 22
+current_goals: 4
+current_assists: 12
+current_points: 16
+current_pim: 2
+regular_games: 19
+regular_goals: 3
+regular_assists: 10
+regular_points: 13
+regular_pim: 2
+playoff_games: 3
+playoff_goals: 1
+playoff_assists: 2
+playoff_points: 3
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 22
+career_goals: 4
+career_assists: 12
+career_points: 16
+career_pim: 2
+history_rows_csv: sk-25-26|playoffs|Slovakia|FBK Nižná|3|1|2|3|0||sk-25-26|regular-season|Slovakia|FBK Nižná|19|3|10|13|2
+assists: 2
+games: 3
+goals: 1
+penalties: 0
+phase: playoffs
+pim: 0
+points: 3
+rank: 58
+season: sk-25-26

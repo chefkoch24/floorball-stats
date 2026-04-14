@@ -3,9 +3,12 @@ import csv
 from datetime import datetime
 from pathlib import Path
 import re
-
 from src.utils import generate_player_uid, normalize_slug_fragment
 
+try:
+    import psycopg
+except ImportError:  # pragma: no cover - optional when DB mode isn't used
+    psycopg = None
 
 CONTROL_FIELDS = {
     "player",
@@ -78,6 +81,53 @@ def _clean_row(row: dict[str, str]) -> dict[str, str]:
             continue
         cleaned[normalized_key] = (value or "").strip()
     return cleaned
+
+
+def _load_rows_from_csv(csv_path: str) -> list[dict[str, str]]:
+    source_path = Path(csv_path)
+    if not source_path.exists():
+        print(f"player-markdown: csv not found at {source_path}; skipping.")
+        return []
+    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        return [_clean_row(raw_row) for raw_row in reader]
+
+
+def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
+    if psycopg is None:
+        raise RuntimeError("psycopg is required for --database-url mode. Install dependencies first.")
+    rows: list[dict[str, str]] = []
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT
+                player_uid,
+                source_system,
+                source_player_id,
+                source_person_id,
+                player,
+                title,
+                slug,
+                category,
+                team,
+                league,
+                season,
+                phase,
+                rank,
+                games,
+                goals,
+                assists,
+                points,
+                pim,
+                penalties
+            FROM player_stats
+            """
+        )
+        columns = [description.name for description in cur.description]
+        for record in cur.fetchall():
+            row = {columns[idx]: "" if value is None else str(value) for idx, value in enumerate(record)}
+            rows.append(_clean_row(row))
+    return rows
 
 
 def _to_int(value: str | int | float | None) -> int:
@@ -250,12 +300,8 @@ def generate_player_markdown(
     default_category: str = "players",
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
+    database_url: str = "",
 ) -> tuple[int, int]:
-    source_path = Path(csv_path)
-    if not source_path.exists():
-        print(f"player-markdown: csv not found at {source_path}; skipping.")
-        return 0, 0
-
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     metadata_date = datetime.now().strftime("%Y-%m-%d")
@@ -265,21 +311,22 @@ def generate_player_markdown(
     grouped_rows: dict[str, list[dict[str, str]]] = {}
     include_prefixes = season_prefixes or set()
 
-    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
-        for raw_row in reader:
-            row = _clean_row(raw_row)
-            if not row:
+    source_rows = _load_rows_from_postgres(database_url) if database_url else _load_rows_from_csv(csv_path)
+    if not source_rows:
+        return 0, 0
+
+    for row in source_rows:
+        if not row:
+            continue
+        if include_prefixes:
+            season = row.get("season", "")
+            if _season_prefix(season) not in include_prefixes:
                 continue
-            if include_prefixes:
-                season = row.get("season", "")
-                if _season_prefix(season) not in include_prefixes:
-                    continue
-            player = row.get("player") or row.get("name") or row.get("full_name")
-            if not player:
-                continue
-            uid = _canonical_player_uid(row, player)
-            grouped_rows.setdefault(uid, []).append(row)
+        player = row.get("player") or row.get("name") or row.get("full_name")
+        if not player:
+            continue
+        uid = _canonical_player_uid(row, player)
+        grouped_rows.setdefault(uid, []).append(row)
 
     for uid, rows in grouped_rows.items():
         markdown, filename = _rows_to_markdown(rows, default_category=default_category, metadata_date=metadata_date)
@@ -298,6 +345,7 @@ def generate_player_markdown(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate Pelican player markdown pages from CSV.")
     parser.add_argument("--csv-path", default="data/player_stats.csv")
+    parser.add_argument("--database-url", default="")
     parser.add_argument("--output-dir", default="content/players")
     parser.add_argument("--default-category", default="players")
     parser.add_argument(
@@ -317,6 +365,7 @@ def main() -> None:
     args = parse_args()
     written, removed = generate_player_markdown(
         csv_path=args.csv_path,
+        database_url=args.database_url,
         output_dir=args.output_dir,
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),

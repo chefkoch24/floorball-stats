@@ -4,6 +4,11 @@ from datetime import datetime
 from pathlib import Path
 import re
 
+try:
+    import psycopg
+except ImportError:  # pragma: no cover - optional when DB mode isn't used
+    psycopg = None
+
 
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
     if not raw:
@@ -37,6 +42,53 @@ def _clean_row(row: dict[str, str]) -> dict[str, str]:
             continue
         cleaned[normalized_key] = (value or "").strip()
     return cleaned
+
+
+def _load_rows_from_csv(csv_path: str) -> list[dict[str, str]]:
+    source_path = Path(csv_path)
+    if not source_path.exists():
+        print(f"player-stats-index: csv not found at {source_path}; skipping.")
+        return []
+    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        return [_clean_row(raw_row) for raw_row in reader]
+
+
+def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
+    if psycopg is None:
+        raise RuntimeError("psycopg is required for --database-url mode. Install dependencies first.")
+    rows: list[dict[str, str]] = []
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT
+                player_uid,
+                source_system,
+                source_player_id,
+                source_person_id,
+                player,
+                title,
+                slug,
+                category,
+                team,
+                league,
+                season,
+                phase,
+                rank,
+                games,
+                goals,
+                assists,
+                points,
+                pim,
+                penalties
+            FROM player_stats
+            """
+        )
+        columns = [description.name for description in cur.description]
+        for record in cur.fetchall():
+            row = {columns[idx]: "" if value is None else str(value) for idx, value in enumerate(record)}
+            rows.append(_clean_row(row))
+    return rows
 
 
 def _season_sort_key(season: str) -> tuple[int, int]:
@@ -109,31 +161,27 @@ def generate_player_stats_index_markdown(
     output_dir: str,
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
+    database_url: str = "",
 ) -> tuple[int, int]:
-    source_path = Path(csv_path)
-    if not source_path.exists():
-        print(f"player-stats-index: csv not found at {source_path}; skipping.")
-        return 0, 0
-
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     metadata_date = datetime.now().strftime("%Y-%m-%d")
 
     grouped_rows: dict[tuple[str, str], list[dict[str, str]]] = {}
     include_prefixes = season_prefixes or set()
-    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
-        for raw_row in reader:
-            row = _clean_row(raw_row)
-            if not row:
-                continue
-            season = row.get("season", "")
-            phase = row.get("phase", "")
-            if not season or not phase:
-                continue
-            if include_prefixes and _season_prefix(season) not in include_prefixes:
-                continue
-            grouped_rows.setdefault((season, phase), []).append(row)
+    source_rows = _load_rows_from_postgres(database_url) if database_url else _load_rows_from_csv(csv_path)
+    if not source_rows:
+        return 0, 0
+    for row in source_rows:
+        if not row:
+            continue
+        season = row.get("season", "")
+        phase = row.get("phase", "")
+        if not season or not phase:
+            continue
+        if include_prefixes and _season_prefix(season) not in include_prefixes:
+            continue
+        grouped_rows.setdefault((season, phase), []).append(row)
 
     written = 0
     expected_files: set[str] = set()
@@ -177,6 +225,7 @@ def generate_player_stats_index_markdown(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate season player-stats index markdown pages from CSV.")
     parser.add_argument("--csv-path", default="data/player_stats.csv")
+    parser.add_argument("--database-url", default="")
     parser.add_argument("--output-dir", default="content/player-stats")
     parser.add_argument(
         "--season-prefixes",
@@ -195,6 +244,7 @@ def main() -> None:
     args = parse_args()
     written, removed = generate_player_stats_index_markdown(
         csv_path=args.csv_path,
+        database_url=args.database_url,
         output_dir=args.output_dir,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
         prune_stale=not args.no_prune,

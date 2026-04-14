@@ -1,21 +1,21 @@
-Date: 2026-04-13
+Date: 2026-04-14
 Title: Alexander Hedlund
 Category: players
 Slug: player-1acaf7997a73682b
 type: player
 player: Alexander Hedlund
 player_uid: player-1acaf7997a73682b
-team: HC Rychenberg Winterthur
+team: HC Rychenberg Winterthur / Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 3
+current_games: 25
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 22
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 25
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|3|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|3|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|22|0|0|0|0
 assists: 0
 games: 3
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 118
+rank: 113
 season: ch-25-26

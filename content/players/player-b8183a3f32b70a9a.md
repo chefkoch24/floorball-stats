@@ -1,4 +1,4 @@
-Date: 2026-04-13
+Date: 2026-04-14
 Title: Jakub Kepšta
 Category: players
 Slug: player-b8183a3f32b70a9a
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 132
+rank: 133
 season: sk-25-26

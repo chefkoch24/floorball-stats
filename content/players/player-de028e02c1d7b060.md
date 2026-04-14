@@ -1,4 +1,4 @@
-Date: 2026-04-13
+Date: 2026-04-14
 Title: Patrik Svoboda
 Category: players
 Slug: player-de028e02c1d7b060
@@ -10,16 +10,16 @@ league: Germany
 season_count: 1
 current_season: 25-26
 previous_season: n.a.
-current_games: 2
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 16
+current_goals: 6
+current_assists: 2
+current_points: 8
+current_pim: 10
+regular_games: 14
+regular_goals: 6
+regular_assists: 2
+regular_points: 8
+regular_pim: 10
 playoff_games: 2
 playoff_goals: 0
 playoff_assists: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0
+career_games: 16
+career_goals: 6
+career_assists: 2
+career_points: 8
+career_pim: 10
+history_rows_csv: 25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|14|6|2|8|10
 assists: 0
 games: 2
 goals: 0

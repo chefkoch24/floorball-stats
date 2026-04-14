@@ -1,4 +1,4 @@
-Date: 2026-04-13
+Date: 2026-04-14
 Title: G. Flisch
 Category: players
 Slug: player-bde563e3f165da0f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 75
+rank: 70
 season: ch-25-26
