@@ -1317,10 +1317,30 @@ body.feedback-modal-open {
   padding: 0.65rem 0.85rem;
   background: var(--surface-muted);
   border-bottom: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 .stat-guide summary::-webkit-details-marker {
   display: none;
+}
+
+.stat-guide summary::before {
+  content: "i";
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 999px;
+  border: 1px solid var(--badge-border);
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
 }
 
 .stat-guide[open] summary {

@@ -1,7 +1,7 @@
 <section class="hero">
     <div class="hero-top">
         <div>
-            <h1 class="hero-title">{{ article.title }}</h1>
+            <h1 class="hero-title">{{ article_display_title|default(article.title) }}</h1>
             <p class="hero-subtitle">League-wide averages focused on scoring, special teams, and game flow.</p>
         </div>
     </div>

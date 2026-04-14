@@ -199,10 +199,15 @@ def _slug_parts(slug):
     if isinstance(slug, list):
         if not slug:
             return []
-        if len(slug) == 1 and isinstance(slug[0], str):
-            slug = slug[0]
+        # Pelican metadata can surface duplicated list values like
+        # ['Playoffs', 'Playoffs']; use the first non-empty entry.
+        for part in slug:
+            text = str(part).strip()
+            if text:
+                slug = text
+                break
         else:
-            return [str(part).strip() for part in slug if str(part).strip()]
+            return []
     if slug is None:
         return []
     text = str(slug).strip()

@@ -4,6 +4,13 @@
 {% set current_category = article.categories[0].shortname if article.categories else '' %}
 {% set category_label = current_category|category2string if current_category else '' %}
 {% set breadcrumb_category_label = current_category|category2breadcrumb if current_category else '' %}
+{% if article.title is string %}
+    {% set article_display_title = article.title %}
+{% elif article.title %}
+    {% set article_display_title = article.title[0] %}
+{% else %}
+    {% set article_display_title = '' %}
+{% endif %}
 
 {% if article_type == "game" or article|string_in_category_path('game') %}
     {% set scoreline = (article.home_goals|default('–') ~ ':' ~ article.away_goals|default('–')) %}
@@ -16,7 +23,7 @@
     {% set seo_description = 'Season stats, results, special teams, scoring profile, and recent games for ' ~ team_name ~ ' in ' ~ category_label ~ '.' %}
     {% set seo_type = 'article' %}
 {% elif article_type == "player_stats" %}
-    {% set seo_title = article.title ~ ' | ' ~ SITENAME %}
+    {% set seo_title = article_display_title ~ ' | ' ~ SITENAME %}
     {% set seo_description = 'Season-wide player rankings and full stat tables for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
     {% set seo_type = 'article' %}
 {% elif article_type == "player" or article|string_in_category_path('players') %}
@@ -29,7 +36,7 @@
     {% set seo_description = 'League-wide scoring, special teams, and result trends for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
     {% set seo_type = 'article' %}
 {% else %}
-    {% set seo_title = article.title ~ ' | ' ~ SITENAME %}
+    {% set seo_title = article_display_title ~ ' | ' ~ SITENAME %}
     {% set seo_description = article.summary|default('Floorball Stats article page.')|striptags %}
     {% set seo_type = 'article' %}
 {% endif %}
@@ -49,11 +56,11 @@
         {% elif article_type == "team" or article|string_in_category_path('teams') %}
             {{ article.team|default(article.title) }}
         {% elif article_type == "player_stats" %}
-            {{ article.title }}
+            {{ article_display_title }}
         {% elif article_type == "player" or article|string_in_category_path('players') %}
             {{ article.player|default(article.title) }}
         {% else %}
-            {{ article.title }}
+            {{ article_display_title }}
         {% endif %}
     </span>
 </nav>
@@ -81,13 +88,13 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{% if article_type == "game" or article|string_in_category_path('game') %}{{ article.home_team }} vs {{ article.away_team }}{% elif article_type == "team" or article|string_in_category_path('teams') %}{{ article.team|default(article.title) }}{% else %}{{ article.title }}{% endif %}",
+      "name": "{% if article_type == "game" or article|string_in_category_path('game') %}{{ article.home_team }} vs {{ article.away_team }}{% elif article_type == "team" or article|string_in_category_path('teams') %}{{ article.team|default(article_display_title) }}{% else %}{{ article_display_title }}{% endif %}",
       "item": "{{ SITEURL }}/{{ article.url }}"
     }{% else %},
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "{{ article.title }}",
+      "name": "{{ article_display_title }}",
       "item": "{{ SITEURL }}/{{ article.url }}"
     }{% endif %}
   ]
@@ -135,7 +142,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "{{ article.title }}",
+  "name": "{{ article_display_title }}",
   "url": "{{ SITEURL }}/{{ article.url }}",
   "description": "Season player rankings and stat table for {{ category_label }}."
 }
@@ -168,7 +175,7 @@
     {% include "liga.html" %}
 {% else %}
     <div class="container mt-5 pt-5">
-        <h2>{{ article.title }}</h2>
+        <h2>{{ article_display_title }}</h2>
         {{ article.content }}
     </div>
 {% endif %}
