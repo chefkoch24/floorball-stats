@@ -30,6 +30,22 @@
     </div>
 </section>
 
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">Quick explanation of the game and pre-game metrics shown below.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Power play efficiency:</strong> How often a team scores while playing with a man advantage.</li>
+            <li class="stat-guide__item"><strong>Penalty kill efficiency:</strong> How often a team prevents goals while shorthanded.</li>
+            <li class="stat-guide__item"><strong>PPG:</strong> Points per game in the selected sample.</li>
+            <li class="stat-guide__item"><strong>GPG / GA/G:</strong> Goals scored / conceded per game.</li>
+            <li class="stat-guide__item"><strong>GD/G:</strong> Goal difference per game (scored minus conceded).</li>
+            <li class="stat-guide__item"><strong>OT/PS Wins/Losses:</strong> Overtime or shootout outcomes (close-game execution).</li>
+            <li class="stat-guide__item"><strong>Last 5 Form:</strong> Most recent five games (`W`, `L`, `D`, including OT variants).</li>
+        </ul>
+    </div>
+</details>
+
 {% set normalized_game_state = (game_state|default('', true)|string|lower) %}
 {% set normalized_game_status = (article.game_status|default('', true)|string|lower) %}
 {% set normalized_result_string = (article.result_string|default('', true)|string|lower) %}

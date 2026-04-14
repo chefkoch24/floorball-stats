@@ -107,6 +107,36 @@
     </div>
 </section>
 
+{% if is_player_stats %}
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">This ranking table lists player production for this season phase.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Rank:</strong> Position in this scoring table.</li>
+            <li class="stat-guide__item"><strong>Goals / Assists / Points:</strong> Offensive totals (`Points = Goals + Assists`).</li>
+            <li class="stat-guide__item"><strong>PIM:</strong> Total penalty minutes.</li>
+            <li class="stat-guide__item"><strong>Player Link:</strong> Opens full profile with season splits and history.</li>
+        </ul>
+    </div>
+</details>
+{% else %}
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">Standings and team cards summarize performance for this season phase.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Rank:</strong> Team order in the table.</li>
+            <li class="stat-guide__item"><strong>Points:</strong> Standings points earned from match results.</li>
+            <li class="stat-guide__item"><strong>PPG:</strong> Points per game.</li>
+            <li class="stat-guide__item"><strong>GPG:</strong> Goals scored per game.</li>
+            <li class="stat-guide__item"><strong>GA/G:</strong> Goals conceded per game.</li>
+            <li class="stat-guide__item"><strong>PP% / PK%:</strong> Power-play and penalty-kill efficiency.</li>
+        </ul>
+    </div>
+</details>
+{% endif %}
+
 {% if is_player_stats and player_stats.article %}
 <section class="panel">
     <h2 class="panel-title">All Players</h2>

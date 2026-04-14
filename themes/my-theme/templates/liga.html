@@ -12,6 +12,22 @@
     </div>
 </section>
 
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">League averages summarize a typical team in this competition phase.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Points/Game:</strong> Average standings points per team and match.</li>
+            <li class="stat-guide__item"><strong>Goals/Game:</strong> Average goals scored per team and match.</li>
+            <li class="stat-guide__item"><strong>Goals Against/Game:</strong> Average goals conceded per team and match.</li>
+            <li class="stat-guide__item"><strong>Diff/Game:</strong> Average goal margin per team and match.</li>
+            <li class="stat-guide__item"><strong>Powerplay %:</strong> League-wide conversion rate with man advantage.</li>
+            <li class="stat-guide__item"><strong>Boxplay %:</strong> League-wide success rate while shorthanded.</li>
+            <li class="stat-guide__item"><strong>Close game (OT):</strong> Frequency of games decided in overtime/shootout context.</li>
+        </ul>
+    </div>
+</details>
+
 <section class="kpi-grid">
     <article class="kpi"><p class="kpi-label">Points/Game</p><p class="kpi-value">{{ article.points_per_game|default('–') }}</p></article>
     <article class="kpi"><p class="kpi-label">Goals/Game</p><p class="kpi-value">{{ article.goals_per_game|default('–') }}</p></article>

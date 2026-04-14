@@ -1299,6 +1299,62 @@ body.feedback-modal-open {
   font-weight: 700;
 }
 
+.stat-guide {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  margin-bottom: 0.9rem;
+  overflow: hidden;
+}
+
+.stat-guide summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--card-text);
+  padding: 0.65rem 0.85rem;
+  background: var(--surface-muted);
+  border-bottom: 1px solid transparent;
+}
+
+.stat-guide summary::-webkit-details-marker {
+  display: none;
+}
+
+.stat-guide[open] summary {
+  border-bottom-color: var(--line);
+}
+
+.stat-guide__content {
+  padding: 0.65rem 0.85rem 0.75rem;
+}
+
+.stat-guide__intro {
+  margin: 0 0 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.86rem;
+}
+
+.stat-guide__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.36rem;
+}
+
+.stat-guide__item {
+  font-size: 0.84rem;
+  color: var(--card-text);
+  line-height: 1.35;
+}
+
+.stat-guide__item strong {
+  color: var(--text);
+}
+
 .season-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

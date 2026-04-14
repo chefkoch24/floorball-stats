@@ -15,6 +15,21 @@
     </div>
 </section>
 
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">Player metrics are cumulative totals and per-game rates for the selected season scope.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Games:</strong> Matches the player appeared in.</li>
+            <li class="stat-guide__item"><strong>Goals / Assists / Points:</strong> Core offensive totals (`Points = Goals + Assists`).</li>
+            <li class="stat-guide__item"><strong>PIM:</strong> Penalty minutes taken by the player.</li>
+            <li class="stat-guide__item"><strong>Points/Game:</strong> Offensive production rate per appearance.</li>
+            <li class="stat-guide__item"><strong>Regular vs Playoffs:</strong> Same season split by phase to show context changes.</li>
+            <li class="stat-guide__item"><strong>Season History:</strong> Archive of season-by-season totals across leagues/phases.</li>
+        </ul>
+    </div>
+</details>
+
 {% set games = article.current_games|default(article.games|default(article.gp|default(0)))|int %}
 {% set points = article.current_points|default(article.points|default(0))|int %}
 {% set goals = article.current_goals|default(article.goals|default(0))|int %}

@@ -12,6 +12,23 @@
     </div>
 </section>
 
+<details class="stat-guide">
+    <summary>Stat Guide</summary>
+    <div class="stat-guide__content">
+        <p class="stat-guide__intro">Quick explanation of the most important team metrics on this page.</p>
+        <ul class="stat-guide__list">
+            <li class="stat-guide__item"><strong>Points/Game:</strong> Average standings points won per match.</li>
+            <li class="stat-guide__item"><strong>Goals/Game:</strong> Average goals scored per match.</li>
+            <li class="stat-guide__item"><strong>Goals Against/Game:</strong> Average goals conceded per match.</li>
+            <li class="stat-guide__item"><strong>Goal Diff/Game:</strong> Average scoring margin per match (goals for minus goals against).</li>
+            <li class="stat-guide__item"><strong>Powerplay %:</strong> Share of power plays converted into goals.</li>
+            <li class="stat-guide__item"><strong>Boxplay %:</strong> Share of penalty kills without conceding.</li>
+            <li class="stat-guide__item"><strong>Scoring Ratio:</strong> Goals for divided by goals against.</li>
+            <li class="stat-guide__item"><strong>Close Game:</strong> Games decided by a small margin (typically 1-2 goals or OT/PS).</li>
+        </ul>
+    </div>
+</details>
+
 <section class="kpi-grid">
     <article class="kpi"><p class="kpi-label">Points/Game</p><p class="kpi-value">{{ article.points_per_game|default('–') }}</p></article>
     <article class="kpi"><p class="kpi-label">Goals/Game</p><p class="kpi-value">{{ article.goals_per_game|default('–') }}</p></article>
