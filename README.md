@@ -151,6 +151,29 @@ The database is written to `data/stats.db` and includes:
 
 This file is a derived local query layer and is not intended to be committed.
 
+## Derived PostgreSQL database (Neon)
+
+Rebuild the same derived tables in PostgreSQL using the current CSV artifacts:
+
+```bash
+export NEON_DATABASE_URL='postgresql://...'
+make refresh-postgres
+```
+
+`refresh-postgres` writes:
+- `events`
+- `game_stats`
+- `team_stats`
+- `playoff_team_stats`
+- `playdown_team_stats`
+- `top4_team_stats`
+- `league_stats`
+- `player_stats`
+
+The command expects `NEON_DATABASE_URL` (or `DATABASE_URL`) and is designed as the Postgres equivalent of `make refresh-sqlite`.
+
+When `NEON_DATABASE_URL` (or `DATABASE_URL`) is set, `src.pipeline` now also syncs the derived payload tables to Postgres and `generate_markdown` reads markdown inputs from Postgres first.
+
 ## Switzerland (renderengine backend)
 
 Use a schedule page URL (the scraper extracts `game_id` links) or pass explicit IDs:

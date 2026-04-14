@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-25
 Title: 1. SC NATIOS Vítkovice
 Category: cz-25-26-playoffs, teams
 Slug: 1-sc-natios-vitkovice-cz-25-26-playoffs-cz-25-26-playoffs

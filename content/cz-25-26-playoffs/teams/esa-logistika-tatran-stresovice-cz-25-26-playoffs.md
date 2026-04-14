@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-25
 Title: ESA logistika Tatran Střešovice
 Category: cz-25-26-playoffs, teams
 Slug: esa-logistika-tatran-stresovice-cz-25-26-playoffs-cz-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.38
 powerplay_second_period: 3
 powerplay_third_period: 4
-rank: 1
+rank: 2
 scoring_ratio: 2.23
 take_the_lead_goals: 12
 take_the_lead_goals_against: 4

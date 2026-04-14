@@ -105,6 +105,7 @@ help:
 	@echo '   make refresh-player-pages           generate player pages from CSV       '
 	@echo '   make refresh-player-stats-pages     generate season player stats pages   '
 	@echo '   make refresh-sqlite                 rebuild derived SQLite from CSV       '
+	@echo '   make refresh-postgres               rebuild derived Postgres tables from CSV'
 	@echo '   make refresh-player-stats-germany   build Germany-only player stats CSV  '
 	@echo '   make refresh-player-pages-germany   update Germany player markdown only  '
 	@echo '   make refresh-germany-full           4-step Germany pipeline + html       '
@@ -299,6 +300,13 @@ refresh-player-stats:
 refresh-sqlite:
 	"$(PYTHON)" -m src.build_sqlite --db-path "data/stats.db" --data-dir "data" --player-stats-csv "data/player_stats.csv"
 
+refresh-postgres:
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL)."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.build_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --data-dir "data" --player-stats-csv "data/player_stats.csv" $$( [ "$${POSTGRES_RESET:-0}" = "1" ] && echo "--reset-existing" )
+
 refresh-player-stats-sweden:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats.csv"
 
@@ -400,4 +408,4 @@ refresh-latvia-full:
 	$(MAKE) refresh-player-pages-latvia
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-everything refresh-player-pages refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-everything refresh-player-pages refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full

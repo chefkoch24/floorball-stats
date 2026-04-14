@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-25
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-playoffs, teams
 Slug: hdt-cz-florbal-vary-bohemians-cz-25-26-playoffs-cz-25-26-playoffs
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.56
 powerplay_second_period: 5
 powerplay_third_period: 6
-rank: 2
+rank: 3
 scoring_ratio: 1.16
 take_the_lead_goals: 11
 take_the_lead_goals_against: 16

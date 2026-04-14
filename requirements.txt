@@ -11,6 +11,7 @@ markdown-it-py~=2.2.0
 mdurl~=0.1.2
 numpy>=1.26,<3
 pandas>=2.2,<4
+psycopg[binary]>=3.2,<4
 matplotlib>=3.8,<4
 pelican~=4.8.0
 python-dateutil~=2.8.2
