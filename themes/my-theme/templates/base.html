@@ -270,6 +270,14 @@ const themeToggle = document.querySelector('.theme-toggle');
 const themeStorageKey = 'fs_theme';
 const themeMedia = window.matchMedia('(prefers-color-scheme: dark)');
 const rootElement = document.documentElement;
+const siteHeader = document.querySelector('.site-header');
+
+function updateHeaderOffset() {
+  if (!siteHeader) {
+    return;
+  }
+  rootElement.style.setProperty('--site-header-height', siteHeader.offsetHeight + 'px');
+}
 
 function setTheme(theme, persist) {
   rootElement.setAttribute('data-theme', theme);
@@ -294,6 +302,7 @@ function getPreferredTheme() {
 }
 
 setTheme(getPreferredTheme(), false);
+updateHeaderOffset();
 
 if (themeToggle) {
   themeToggle.addEventListener('click', () => {
@@ -312,6 +321,8 @@ if (themeMedia && themeMedia.addEventListener) {
   });
 }
 
+window.addEventListener('resize', updateHeaderOffset);
+
 const menuToggle = document.querySelector('.menu-toggle');
 const mainNav = document.querySelector('#mainNav');
 if (menuToggle && mainNav) {
@@ -319,6 +330,7 @@ if (menuToggle && mainNav) {
     const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
     menuToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
     mainNav.classList.toggle('is-open');
+    updateHeaderOffset();
   });
 }
 

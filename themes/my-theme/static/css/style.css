@@ -121,8 +121,11 @@ a:hover {
 }
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   z-index: 40;
   border-bottom: 1px solid var(--header-border);
   backdrop-filter: blur(8px);
@@ -352,7 +355,7 @@ a:hover {
 }
 
 .main-content {
-  padding: 1.25rem 1.25rem 2.5rem;
+  padding: calc(var(--site-header-height, 74px) + 1.25rem) 1.25rem 2.5rem;
 }
 
 body.feedback-modal-open {
@@ -1957,7 +1960,7 @@ body.feedback-modal-open {
   }
 
   .main-content {
-    padding: 1rem 0.8rem 2rem;
+    padding: calc(var(--site-header-height, 74px) + 1rem) 0.8rem 2rem;
   }
 
   .hero {
