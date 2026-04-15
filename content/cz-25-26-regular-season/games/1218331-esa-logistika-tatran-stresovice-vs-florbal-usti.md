@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,9,8,9,10,11
 timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9,9,10,11,12
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,4.22,9.42,10.65,11.47,12.43,16.07,24.83,33.42,36.45,37.52,48.68,58.53,58.8
+venue: Kategorie II Sportovní centrum Řepy
+venue_address: Na chobotě 1420/16 Praha
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

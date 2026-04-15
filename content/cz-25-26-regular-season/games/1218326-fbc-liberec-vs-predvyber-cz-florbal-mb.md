@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-6,-5,-6,-7,-8,-9,-10,-9,-10,-11,-12,-13,-1
 timeline_home_goals_csv: 0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,3,3,3,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.83,3.97,6.85,11.38,13.23,15.07,15.7,17.33,18.15,28.42,28.85,33.8,35.1,35.97,39.03,40.45,46.72,53.07,54.05,55.13,59.0,59.8
+venue: Kategorie I MSH Jablonec n. N.
+venue_address: U Přehrady 4747/20 Jablonec nad Nisou
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

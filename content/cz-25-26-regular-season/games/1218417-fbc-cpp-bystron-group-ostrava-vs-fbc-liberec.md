@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,1,2,1,0,-1,0,1
 timeline_home_goals_csv: 0,1,2,2,3,3,3,3,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,8.25,16.8,27.03,29.92,31.17,45.85,48.63,55.95,59.17
+venue: Kategorie I ČPP Aréna Ostrava
+venue_address: Hladnovská 259/128 Ostrava
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 16
 away_pregame_points_per_game: 1.14

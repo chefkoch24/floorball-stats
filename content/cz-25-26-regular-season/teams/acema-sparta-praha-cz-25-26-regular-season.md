@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-18
 Title: ACEMA Sparta Praha
 Category: cz-25-26-regular-season, teams
 Slug: acema-sparta-praha-cz-25-26-regular-season-cz-25-26-regular-season

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,-1,0,-1,-2,-3,-4,-5,-6,-5
 timeline_home_goals_csv: 0,1,1,1,2,2,2,2,2,2,2,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,25.35,25.73,27.75,30.32,34.27,35.82,39.02,44.43,49.28,51.3,59.37
+venue: Kategorie I SH Dašická Pardubice
+venue_address: Dašická 1888 Pardubice
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 66.67
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 1
 away_pregame_points_more_2_difference: 22
 away_pregame_points_per_game: 0.92

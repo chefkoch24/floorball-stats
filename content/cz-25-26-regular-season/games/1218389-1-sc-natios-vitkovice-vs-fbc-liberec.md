@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,5,4,5,4,5,4,3,4
 timeline_home_goals_csv: 0,1,2,3,4,5,5,6,6,7,7,7,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.85,4.63,16.42,18.53,28.07,29.88,34.62,45.55,46.32,49.4,55.08,59.0
+venue: Kategorie I SH Sareza Ostrava
+venue_address: Hrušovská 2953/15 Ostrava
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 10
 away_pregame_points_per_game: 1.11

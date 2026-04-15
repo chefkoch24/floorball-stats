@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-15
 Title: Timo Schreppers
 Category: players
 Slug: player-0e92ffd561441f6c
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 292
+rank: 294
 season: ch-25-26

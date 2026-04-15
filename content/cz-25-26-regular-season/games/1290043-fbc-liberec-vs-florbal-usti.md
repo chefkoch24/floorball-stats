@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-1,0,-1,-2,-1,-2,-3
 timeline_home_goals_csv: 0,0,0,1,2,2,2,3,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,11.13,12.15,19.25,20.87,24.72,30.62,31.77,52.58,59.77
+venue: Kategorie I SH Dukla Liberec
+venue_address: Jeronýmova 558/33 Liberec
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0
@@ -322,7 +324,7 @@ home_pregame_points_against_florbal_usti: 4
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 home_pregame_points_against_kanonyri_kladno: 3
 home_pregame_points_against_predvyber_cz_florbal_mb: 0
-home_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+home_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 25
 home_pregame_points_per_game: 0.96

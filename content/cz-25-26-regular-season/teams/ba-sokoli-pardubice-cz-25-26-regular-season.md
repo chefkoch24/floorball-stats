@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-18
 Title: BA SOKOLI Pardubice
 Category: cz-25-26-regular-season, teams
 Slug: ba-sokoli-pardubice-cz-25-26-regular-season-cz-25-26-regular-season

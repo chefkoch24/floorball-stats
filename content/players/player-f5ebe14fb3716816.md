@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-15
 Title: T. Aeschimann
 Category: players
 Slug: player-f5ebe14fb3716816
@@ -10,16 +10,16 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 7
-current_goals: 3
-current_assists: 5
-current_points: 8
-current_pim: 2
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 21
+current_goals: 22
+current_assists: 12
+current_points: 34
+current_pim: 6
+regular_games: 14
+regular_goals: 19
+regular_assists: 7
+regular_points: 26
+regular_pim: 4
 playoff_games: 7
 playoff_goals: 3
 playoff_assists: 5
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
-career_assists: 5
-career_points: 8
-career_pim: 2
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|7|3|5|8|2
+career_games: 21
+career_goals: 22
+career_assists: 12
+career_points: 34
+career_pim: 6
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|7|3|5|8|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|14|19|7|26|4
 assists: 5
 games: 7
 goals: 3
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 22
+rank: 25
 season: ch-25-26

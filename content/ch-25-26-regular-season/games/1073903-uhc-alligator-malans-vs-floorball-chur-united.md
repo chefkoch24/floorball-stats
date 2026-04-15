@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,2,3,2,1,0,-1,-2,-3
 timeline_home_goals_csv: 0,1,2,3,3,3,3,3,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.82,12.73,17.27,18.15,28.37,43.97,45.65,56.92,58.15
+venue: Sporthalle Lust Maienfeld
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 50.0

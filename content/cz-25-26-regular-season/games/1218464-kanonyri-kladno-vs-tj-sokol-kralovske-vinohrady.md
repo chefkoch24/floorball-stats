@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,3,4,5,4,3
 timeline_home_goals_csv: 0,1,1,2,3,4,5,6,6,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.6,16.85,28.68,43.15,44.25,52.12,58.07,58.87,59.98
+venue: Kategorie I SH BIOS Kladno
+venue_address: Hokejových legend 3368 Kladno
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 50.0
@@ -427,7 +429,7 @@ away_pregame_points_against_esa_logistika_tatran_stresovice: 0
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_4clean_ceska_lipa: 0
 away_pregame_points_against_fbc_cpp_bystron_group_ostrava: 5
-away_pregame_points_against_fbc_liberec: 0
+away_pregame_points_against_fbc_liberec: 5
 away_pregame_points_against_fbs_hummel_hattrick_brno: 8
 away_pregame_points_against_florbal_usti: 6
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,-1,0,1,2,3,4,5,6,7,8,9
 timeline_home_goals_csv: 0,1,1,1,2,3,4,5,6,7,8,9,10,11
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,7.12,8.53,14.22,18.53,29.52,36.35,37.32,41.35,41.97,52.08,53.9,56.48,56.7
+venue: Kategorie I MSH Mladá Boleslav
+venue_address: U stadionu 1322 Mladá Boleslav
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -427,7 +429,7 @@ away_pregame_points_against_esa_logistika_tatran_stresovice: 0
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_4clean_ceska_lipa: 0
 away_pregame_points_against_fbc_cpp_bystron_group_ostrava: 5
-away_pregame_points_against_fbc_liberec: 0
+away_pregame_points_against_fbc_liberec: 5
 away_pregame_points_against_fbs_hummel_hattrick_brno: 8
 away_pregame_points_against_florbal_usti: 6
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0

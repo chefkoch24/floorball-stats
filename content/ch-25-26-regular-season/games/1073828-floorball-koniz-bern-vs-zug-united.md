@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,2,3,4,3,2,1,0,-1,-2,-1,-2,-3,-4,-3,-2,-3
 timeline_home_goals_csv: 0,1,2,3,4,4,4,4,4,4,4,5,5,5,5,6,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.62,1.67,4.05,7.33,11.83,16.15,21.65,29.08,31.52,37.48,41.18,42.72,47.47,48.13,51.28,54.58,55.62
+venue: Sporthallen Weissenstein Bern
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

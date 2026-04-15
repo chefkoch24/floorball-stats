@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,3,2,3,4,5,4
 timeline_home_goals_csv: 0,1,1,2,3,4,4,5,6,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.15,9.15,9.22,35.1,36.03,39.38,39.75,48.02,56.33,59.25
+venue: Kategorie I SH SAMK Kladno
+venue_address: Sportovců 817 Kladno
 home_away_points: 0
 home_boxplay: 4
 home_boxplay_efficiency: 75.0

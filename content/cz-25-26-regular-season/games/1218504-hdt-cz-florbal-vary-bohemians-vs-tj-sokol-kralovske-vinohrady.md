@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,2,3,4,5,6,7,6,7,8,9,10,9,10,9
 timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7,8,8,9,10,11,12,12,13,13
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.03,2.18,2.57,7.72,10.8,19.75,22.3,32.77,34.57,37.28,37.8,38.32,39.07,41.3,46.68,55.23,59.7
+venue: Kategorie I Mattoni Arena - Hala míčových sportů
+venue_address: Západní 1812/73 Karlovy Vary
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0
@@ -427,7 +429,7 @@ away_pregame_points_against_esa_logistika_tatran_stresovice: 0
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_4clean_ceska_lipa: 0
 away_pregame_points_against_fbc_cpp_bystron_group_ostrava: 5
-away_pregame_points_against_fbc_liberec: 0
+away_pregame_points_against_fbc_liberec: 5
 away_pregame_points_against_fbs_hummel_hattrick_brno: 8
 away_pregame_points_against_florbal_usti: 6
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0

@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,1,2,1,2,3,4,3,2,3
 timeline_home_goals_csv: 0,0,0,0,1,2,3,4,5,5,6,7,8,8,8,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.43,12.07,19.67,21.65,33.15,36.45,38.37,39.83,40.37,46.08,54.58,55.38,55.97,56.77,59.97
+venue: Sporthalle Hardau Zürich
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 66.67

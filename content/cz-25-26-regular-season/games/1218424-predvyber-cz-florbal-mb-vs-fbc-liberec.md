@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,2,1,2,3,2,3,4,5,6,7,8,7,8,9,10,11,12,13,14,15,16,17,
 timeline_home_goals_csv: 0,1,2,3,3,3,4,5,5,6,7,8,9,10,11,11,12,13,14,15,16,17,18,19,20,21,21
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.7,4.3,7.65,10.65,19.27,20.32,22.8,23.33,25.23,26.12,27.85,28.67,34.98,35.17,36.58,37.15,37.27,38.87,39.32,43.32,47.82,48.5,49.18,55.18,55.55,58.12
+venue: Kategorie I MSH Mladá Boleslav
+venue_address: U stadionu 1322 Mladá Boleslav
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 16
 away_pregame_points_per_game: 1.07

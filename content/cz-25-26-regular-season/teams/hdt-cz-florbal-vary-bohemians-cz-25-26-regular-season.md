@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-18
 Title: HDT.cz Florbal Vary Bohemians
 Category: cz-25-26-regular-season, teams
 Slug: hdt-cz-florbal-vary-bohemians-cz-25-26-regular-season-cz-25-26-regular-season

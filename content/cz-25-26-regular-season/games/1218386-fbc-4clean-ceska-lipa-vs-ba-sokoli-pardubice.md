@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,1,0,-1,0
 timeline_home_goals_csv: 0,0,0,0,1,2,3,4,4,4,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,1.7,10.23,12.87,13.9,26.5,34.6,35.55,36.48,43.97,53.75
+venue: Kategorie II SH Česká Lípa
+venue_address: Wedrichova 3305 Česká Lípa
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

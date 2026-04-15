@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4
 timeline_home_goals_csv: 0,0,0,0,0,0,1
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,16.42,20.88,29.38,29.47,46.13,48.88
+venue: Kategorie I SH BIOS Kladno
+venue_address: Hokejových legend 3368 Kladno
 home_away_points: 0
 home_boxplay: 4
 home_boxplay_efficiency: 50.0

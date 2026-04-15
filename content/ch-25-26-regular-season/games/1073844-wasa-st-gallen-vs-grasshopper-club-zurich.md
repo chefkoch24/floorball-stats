@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-2,-3,-4,-5,-4,-3,-2,-1
 timeline_home_goals_csv: 0,0,0,1,1,1,2,2,2,2,3,4,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.38,9.55,12.42,13.25,14.18,24.27,30.02,31.92,32.47,39.42,42.08,47.02,51.77
+venue: Sporthalle Tal der Demut St. Gallen
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 33.33

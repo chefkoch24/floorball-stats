@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-5,-6,-5
 timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,2,2,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,9.12,11.25,11.43,16.2,26.72,27.85,34.38,46.52,48.22,53.47,57.68
+venue: Kategorie II TJ Sokol Vinohrady
+venue_address: Polská 2400/1a Praha
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 33.33
@@ -317,7 +319,7 @@ home_pregame_points_against_esa_logistika_tatran_stresovice: 0
 home_pregame_points_against_fat_pipe_florbal_chodov: 0
 home_pregame_points_against_fbc_4clean_ceska_lipa: 0
 home_pregame_points_against_fbc_cpp_bystron_group_ostrava: 5
-home_pregame_points_against_fbc_liberec: 0
+home_pregame_points_against_fbc_liberec: 5
 home_pregame_points_against_fbs_hummel_hattrick_brno: 8
 home_pregame_points_against_florbal_usti: 6
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0

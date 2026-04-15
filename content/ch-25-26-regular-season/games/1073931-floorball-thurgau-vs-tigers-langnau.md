@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,1
 timeline_home_goals_csv: 0,0,0,1,2,2,3,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.63,13.57,33.23,37.18,45.37,50.47,56.55
+venue: Paul Reinhart Halle Weinfelden
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,5
 timeline_home_goals_csv: 0,1,2,3,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.05,14.48,15.2,45.7,57.82
+venue: Kategorie I enteria arena Pardubice
+venue_address: Sukova třída 1735 Pardubice
 home_away_points: 0
 home_boxplay: 5
 home_boxplay_efficiency: 100.0

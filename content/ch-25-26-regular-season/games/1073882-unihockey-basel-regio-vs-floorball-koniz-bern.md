@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,0,1,0,-1,-2,-3,-4,-5,-4,-3,-2,-3,-2,-3,-4,-5,-4,-3
 timeline_home_goals_csv: 0,0,1,2,2,2,2,2,2,2,3,4,5,5,6,6,6,6,7,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,4.7,6.53,15.22,15.45,22.9,28.42,31.1,34.5,35.08,41.72,46.77,49.25,50.08,52.68,52.85,55.88,57.9,58.03,59.63
+venue: Pfaffenholz Basel
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,0,-1,-2,-1,0,1,2,1,2,3,4,5
 timeline_home_goals_csv: 0,0,1,1,1,2,3,4,5,5,6,7,8,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,5.37,7.38,8.43,15.2,26.87,31.12,35.8,44.35,45.17,47.17,51.12,57.35,57.35
+venue: Sporthalle Herti Zug
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

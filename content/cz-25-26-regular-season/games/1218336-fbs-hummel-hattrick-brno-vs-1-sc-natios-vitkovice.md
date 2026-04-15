@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,-1,-2,-3,-2,-3,-2,-3,-2,-1,-2,-1,-2
 timeline_home_goals_csv: 0,1,1,1,1,1,2,2,3,3,4,5,5,6,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.03,16.58,24.37,25.57,26.53,28.6,28.93,39.58,44.75,46.08,46.43,52.38,59.48,59.63
+venue: Kategorie I STAREZ ARÉNA VODOVA Hala 2
+venue_address: Vodova 336/108 Brno
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

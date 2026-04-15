@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-18
 Title: FBC 4CLEAN Česká Lípa
 Category: cz-25-26-regular-season, teams
 Slug: fbc-4clean-ceska-lipa-cz-25-26-regular-season-cz-25-26-regular-season
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.0
 powerplay_second_period: 11
 powerplay_third_period: 10
-rank: 12
+rank: 13
 scoring_ratio: 0.67
 take_the_lead_goals: 26
 take_the_lead_goals_against: 35

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,3,4,3,4,5,4,3,4,5,6,7,8,9,10,11
 timeline_home_goals_csv: 0,1,2,3,4,4,5,5,6,7,7,7,8,9,10,11,12,13,14,15
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.57,6.9,28.45,29.87,36.07,37.13,37.92,45.1,45.85,46.53,47.12,48.18,54.63,56.82,57.37,57.95,58.48,59.02,59.72
+venue: Kategorie I Mattoni Arena - Hala míčových sportů
+venue_address: Západní 1812/73 Karlovy Vary
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

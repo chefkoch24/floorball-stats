@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,0,-1,0,1,0,1,2,3,4,3,4,5,6,7,8
 timeline_home_goals_csv: 0,0,1,1,2,3,3,4,5,6,7,7,8,9,10,11,12
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.28,6.65,19.85,23.08,24.0,27.53,29.2,33.55,35.25,41.98,43.0,45.33,49.15,56.47,59.35,59.9
+venue: Sportanlage Grossmatt Kirchberg BE
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

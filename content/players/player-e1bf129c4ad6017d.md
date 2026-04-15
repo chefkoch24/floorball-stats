@@ -1,26 +1,26 @@
-Date: 2026-04-14
-Title: Tomas Novotny
+Date: 2026-04-15
+Title: Tomáš Novotný
 Category: players
 Slug: player-e1bf129c4ad6017d
 type: player
-player: Tomas Novotny
+player: Tomáš Novotný
 player_uid: player-e1bf129c4ad6017d
-team: Floor Fighters Chemnitz
-league: Germany
+team: Florbal Ústí
+league: Czech Republic
 season_count: 1
-current_season: 25-26
+current_season: cz-25-26
 previous_season: n.a.
-current_games: 3
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
-playoff_games: 3
+current_games: 27
+current_goals: 11
+current_assists: 8
+current_points: 19
+current_pim: 2
+regular_games: 27
+regular_goals: 11
+regular_assists: 8
+regular_points: 19
+regular_pim: 2
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0
-assists: 0
-games: 3
-goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
-points: 0
-rank: 168
-season: 25-26
+career_games: 27
+career_goals: 11
+career_assists: 8
+career_points: 19
+career_pim: 2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|27|11|8|19|2
+assists: 8
+games: 27
+goals: 11
+penalties: 1
+phase: regular-season
+pim: 2
+points: 19
+rank: 89
+season: cz-25-26

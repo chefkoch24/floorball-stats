@@ -1,21 +1,21 @@
-Date: 2026-04-14
+Date: 2026-04-15
 Title: Noel Hug
 Category: players
 Slug: player-de9d0ca3f80a668c
 type: player
 player: Noel Hug
 player_uid: player-de9d0ca3f80a668c
-team: Zug United
+team: Zug United / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 1
+current_games: 13
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 12
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 13
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|1|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|1|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / Floorball Chur United|12|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 251
+rank: 253
 season: ch-25-26

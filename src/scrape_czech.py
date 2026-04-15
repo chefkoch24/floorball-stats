@@ -393,6 +393,32 @@ def _parse_match_meta_time(soup: BeautifulSoup) -> str | None:
     return match.group(1)
 
 
+def _parse_match_venue_info(match_id: int, session: requests.Session) -> tuple[str | None, str | None]:
+    """Read venue name and address from Czech match info page."""
+    info_url = f"{BASE_URL}/match/detail/info/{match_id}?locale=cs"
+    try:
+        info_soup = BeautifulSoup(_get_html(info_url, session), "html.parser")
+    except requests.RequestException:
+        return None, None
+
+    venue_name = None
+    venue_link = info_soup.select_one("a.MatchCenter-placeView")
+    if venue_link:
+        venue_name = _clean_text(venue_link.get_text(" ", strip=True))
+
+    venue_address = None
+    for row in info_soup.select("tr"):
+        cells = row.find_all("td")
+        if len(cells) < 2:
+            continue
+        label = (_clean_text(cells[0].get_text(" ", strip=True)) or "").lower()
+        if "adresa" in label:
+            venue_address = _clean_text(cells[1].get_text(" ", strip=True))
+            break
+
+    return venue_name, venue_address
+
+
 def fetch_match_events(
     match_id: int,
     game_date: str | None,
@@ -411,6 +437,7 @@ def fetch_match_events(
     result_string = f"{home_goals}:{away_goals}" if home_goals is not None and away_goals is not None else None
     game_start_time = game_start_time or _parse_match_meta_time(soup)
     attendance = _extract_attendance(soup)
+    venue_name, venue_address = _parse_match_venue_info(match_id, sess)
 
     events: list[dict[str, Any]] = []
     goal_detail_lookup = _build_goal_detail_lookup(soup)
@@ -482,6 +509,8 @@ def fetch_match_events(
                     "scorer_number": None,
                     "assist_number": None,
                     "penalty_player_name": None,
+                    "venue": venue_name,
+                    "venue_address": venue_address,
                 }
             )
     elif suffix in {"pp", "ot"} and result_string:
@@ -511,22 +540,29 @@ def fetch_match_events(
                     "scorer_number": None,
                     "assist_number": None,
                     "penalty_player_name": None,
+                    "venue": venue_name,
+                    "venue_address": venue_address,
                 }
             )
 
+    for event in events:
+        event["venue"] = venue_name
+        event["venue_address"] = venue_address
+
     if not events:
-        return [
-            build_scheduled_game_row(
-                game_id=match_id,
-                home_team=home_team,
-                away_team=away_team,
-                game_date=game_date,
-                game_start_time=game_start_time,
-                attendance=attendance,
-                game_status=status or "Scheduled",
-                result_string=result_string,
-            )
-        ]
+        scheduled_row = build_scheduled_game_row(
+            game_id=match_id,
+            home_team=home_team,
+            away_team=away_team,
+            game_date=game_date,
+            game_start_time=game_start_time,
+            attendance=attendance,
+            game_status=status or "Scheduled",
+            result_string=result_string,
+        )
+        scheduled_row["venue"] = venue_name
+        scheduled_row["venue_address"] = venue_address
+        return [scheduled_row]
 
     return events
 

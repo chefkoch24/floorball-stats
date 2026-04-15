@@ -1,5 +1,6 @@
 import argparse
 import re
+import time
 from datetime import datetime, timedelta
 from dataclasses import dataclass
 from pathlib import Path
@@ -17,6 +18,24 @@ BASE_URL = "https://www.swissunihockey.ch"
 RENDER_URL = f"{BASE_URL}/renderengine/load_view.php"
 
 
+def _get_with_retries(url: str, *, params: dict[str, str] | None = None, timeout: int = 30, attempts: int = 3) -> requests.Response:
+    last_exc: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(url, params=params, timeout=timeout)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_exc = exc
+            if attempt < attempts:
+                time.sleep(0.8 * attempt)
+                continue
+            raise
+    if last_exc:
+        raise last_exc
+    raise RuntimeError(f"Failed to fetch {url}")
+
+
 @dataclass
 class GameDetails:
     home_team: str
@@ -27,6 +46,8 @@ class GameDetails:
     goals_home: int | None
     goals_away: int | None
     attendance: int | None = None
+    venue: str | None = None
+    venue_address: str | None = None
     header_text: str | None = None
 
 
@@ -39,8 +60,7 @@ def _fetch_block(game_id: int, block_type: str, locale: str = "de-CH", is_home: 
         "ID_Block": "SU_2886",
         "locale": locale,
     }
-    response = requests.get(RENDER_URL, params=params, timeout=30)
-    response.raise_for_status()
+    response = _get_with_retries(RENDER_URL, params=params, timeout=45, attempts=4)
     return response.text
 
 
@@ -67,6 +87,23 @@ def _parse_game_details(html: str) -> GameDetails:
     soup = BeautifulSoup(html, "html.parser")
     header = soup.select_one("div.su-header.su-basictable")
     header_text = header.get_text(" ", strip=True) if header else None
+
+    def _text_or_none(node: Any) -> str | None:
+        if not node:
+            return None
+        value = node.get_text(" ", strip=True)
+        return value or None
+
+    # Newer swissunihockey markup exposes details via CSS classes.
+    home_team = _text_or_none(soup.select_one(".su-value-teams-verein-name:nth-of-type(1) a"))
+    away_team = _text_or_none(soup.select_one(".su-col04:last-of-type .su-value-teams-verein-name a"))
+    result_raw = _text_or_none(soup.select_one(".su-value-result"))
+    game_date = _normalize_date(_text_or_none(soup.select_one(".su-value-date")))
+    game_start_time = _text_or_none(soup.select_one(".su-value-time"))
+    venue = _text_or_none(soup.select_one(".su-value-location"))
+    spectators_raw = _text_or_none(soup.select_one(".su-value-spectators"))
+
+    # Legacy fallback: table data-key format.
     rows = soup.select("table.su-result tr")
     data: dict[str, str] = {}
     for row in rows:
@@ -81,7 +118,21 @@ def _parse_game_details(html: str) -> GameDetails:
         if key:
             data[key] = value
 
-    result_raw = data.get("result")
+    if not home_team:
+        home_team = data.get("home_name") or ""
+    if not away_team:
+        away_team = data.get("away_name") or ""
+    if not result_raw:
+        result_raw = data.get("result")
+    if not game_date:
+        game_date = _normalize_date(data.get("date"))
+    if not game_start_time:
+        game_start_time = data.get("time")
+    if not spectators_raw:
+        spectators_raw = data.get("spectators")
+    if not venue:
+        venue = data.get("venue") or data.get("location") or data.get("place")
+
     goals_home = None
     goals_away = None
     if result_raw and ":" in result_raw:
@@ -90,18 +141,19 @@ def _parse_game_details(html: str) -> GameDetails:
         if match:
             goals_home = int(match.group("h"))
             goals_away = int(match.group("a"))
-    spectators_raw = data.get("spectators")
     attendance = int(spectators_raw) if spectators_raw and str(spectators_raw).isdigit() else None
 
     return GameDetails(
-        home_team=data.get("home_name", ""),
-        away_team=data.get("away_name", ""),
-        game_date=_normalize_date(data.get("date")),
-        game_start_time=data.get("time"),
+        home_team=home_team,
+        away_team=away_team,
+        game_date=game_date,
+        game_start_time=game_start_time,
         result_string=result_raw,
         goals_home=goals_home,
         goals_away=goals_away,
         attendance=attendance,
+        venue=venue,
+        venue_address=None,
         header_text=header_text,
     )
 
@@ -455,6 +507,10 @@ def _parse_game_events(
             event["home_goals"] = details.goals_home
             event["guest_goals"] = details.goals_away
 
+    for event in events:
+        event["venue"] = details.venue
+        event["venue_address"] = details.venue_address
+
     return events
 
 
@@ -466,8 +522,7 @@ def _extract_game_ids(html: str) -> set[int]:
 
 
 def fetch_game_ids_from_url(url: str) -> list[int]:
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
+    response = _get_with_retries(url, timeout=45, attempts=3)
     return sorted(_extract_game_ids(response.text))
 
 
@@ -487,8 +542,7 @@ def fetch_game_ids_from_renderengine(
         "mode": mode,
         "locale": locale,
     }
-    response = requests.get(RENDER_URL, params=params, timeout=30)
-    response.raise_for_status()
+    response = _get_with_retries(RENDER_URL, params=params, timeout=45, attempts=4)
     return sorted(_extract_game_ids(response.text))
 
 
@@ -542,8 +596,7 @@ def fetch_game_ids_by_rounds(
     if start_round is not None:
         to_visit.append(start_round)
     else:
-        response = requests.get(RENDER_URL, params=base_params, timeout=30)
-        response.raise_for_status()
+        response = _get_with_retries(RENDER_URL, params=base_params, timeout=45, attempts=4)
         html = response.text
         if _should_include_round(html):
             game_ids.update(_extract_game_ids(html))
@@ -557,8 +610,7 @@ def fetch_game_ids_by_rounds(
         seen_rounds.add(round_id)
         params = dict(base_params)
         params["round"] = str(round_id)
-        response = requests.get(RENDER_URL, params=params, timeout=30)
-        response.raise_for_status()
+        response = _get_with_retries(RENDER_URL, params=params, timeout=45, attempts=4)
         html = response.text
         if _should_include_round(html):
             game_ids.update(_extract_game_ids(html))
@@ -613,6 +665,8 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
                     result_string=details.result_string,
                 )
             )
+            all_events[-1]["venue"] = details.venue
+            all_events[-1]["venue_address"] = details.venue_address
 
     if not all_events:
         raise ValueError("No Swiss games matched the requested phase filter.")

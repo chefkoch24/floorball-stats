@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,1,2,3,2,1,2
 timeline_home_goals_csv: 0,1,1,2,3,3,4,5,5,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.98,14.88,16.33,21.18,31.57,41.98,44.67,45.15,53.27,59.98
+venue: Kategorie I MSH Havířov
+venue_address: Astronautů 859/2 Havířov
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 50.0

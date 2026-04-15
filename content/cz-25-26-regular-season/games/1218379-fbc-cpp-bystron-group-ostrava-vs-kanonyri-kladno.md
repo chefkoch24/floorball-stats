@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-3,-2,-3,-4,-3,-4,-3
 timeline_home_goals_csv: 0,0,0,0,1,1,1,2,2,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,8.92,15.08,15.43,18.32,29.73,43.73,52.93,56.63,58.82
+venue: Kategorie I ČPP Aréna Ostrava
+venue_address: Hladnovská 259/128 Ostrava
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

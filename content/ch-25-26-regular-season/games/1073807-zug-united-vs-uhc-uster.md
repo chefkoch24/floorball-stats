@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,2,3,4,5,6,7,8,7
 timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,22.82,33.9,35.53,36.13,37.25,46.97,49.03,54.07,59.38
+venue: Dreifachsporthalle Kantonsschule Zug Zug
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

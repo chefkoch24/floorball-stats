@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,1,2,3,2,1,2,3,4,5,4,3
 timeline_home_goals_csv: 0,1,2,2,3,4,4,4,5,6,7,8,8,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.47,6.42,16.27,25.35,29.85,31.92,36.62,37.45,40.52,52.4,55.85,56.22,57.42
+venue: Kategorie I UNYP ARENA
+venue_address: Kovanecká 2405/27 Praha
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 13
 away_pregame_points_per_game: 1.08

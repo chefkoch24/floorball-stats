@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,5,6,5,4,3,4,3,2,3
 timeline_home_goals_csv: 0,1,2,3,4,5,6,6,6,6,7,7,7,8
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,9.45,19.55,22.75,23.33,28.5,31.62,37.83,42.75,45.5,48.35,50.87,52.02,52.22
+venue: Kategorie I SH Dašická Pardubice
+venue_address: Dašická 1888 Pardubice
 home_away_points: 0
 home_boxplay: 4
 home_boxplay_efficiency: 50.0

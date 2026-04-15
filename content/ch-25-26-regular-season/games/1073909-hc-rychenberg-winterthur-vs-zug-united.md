@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-5,-4,-3,-2,-1,-2
 timeline_home_goals_csv: 0,0,0,0,0,0,1,1,2,3,4,5,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.6,4.9,17.3,17.83,20.32,35.42,45.65,48.05,51.07,51.65,57.23,59.95
+venue: AXA Arena Winterthur
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 100.0

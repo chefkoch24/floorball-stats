@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,0,1,2,1,0,1,2,1
 timeline_home_goals_csv: 0,1,1,2,3,3,3,4,5,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,16.82,31.57,35.73,39.52,41.12,41.32,49.3,56.75,57.48
+venue: Sporthalle Sportzentrum Zuchwil Zuchwil
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 100.0

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,-1,0,-1,0,-1,0,1
 timeline_home_goals_csv: 0,1,1,1,2,2,3,3,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.3,6.57,7.53,13.47,16.32,38.78,39.13,54.52,58.32
+venue: Kategorie I SH Sareza Ostrava
+venue_address: Hrušovská 2953/15 Ostrava
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 50.0

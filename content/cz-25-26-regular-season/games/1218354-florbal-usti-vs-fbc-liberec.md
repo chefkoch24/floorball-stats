@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,0,1,2,3,2,3,2,3
 timeline_home_goals_csv: 0,1,1,2,2,3,4,5,5,6,6,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,18.53,24.13,31.23,31.72,32.32,44.37,47.55,48.8,50.1,52.1,59.93
+venue: Kategorie I SC SLUNETA Ústí n/L
+venue_address: Jateční 1026/18 Ústí nad Labem
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 66.67
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 1
 away_pregame_points_per_game: 0.25

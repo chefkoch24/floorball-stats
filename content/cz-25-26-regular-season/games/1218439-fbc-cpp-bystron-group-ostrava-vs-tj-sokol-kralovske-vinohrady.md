@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,3,2,3,2,1,0
 timeline_home_goals_csv: 0,1,1,2,3,4,4,5,5,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,31.27,33.27,38.68,39.68,45.07,47.68,48.28,53.25,57.33,59.43
+venue: Kategorie I ČPP Aréna Ostrava
+venue_address: Hladnovská 259/128 Ostrava
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -427,7 +429,7 @@ away_pregame_points_against_esa_logistika_tatran_stresovice: 0
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_4clean_ceska_lipa: 0
 away_pregame_points_against_fbc_cpp_bystron_group_ostrava: 5
-away_pregame_points_against_fbc_liberec: 0
+away_pregame_points_against_fbc_liberec: 5
 away_pregame_points_against_fbs_hummel_hattrick_brno: 8
 away_pregame_points_against_florbal_usti: 6
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0

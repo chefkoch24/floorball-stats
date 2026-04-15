@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,2,3,4,3,2,3,2,3,4,5,6,7,8,7,8,7
 timeline_home_goals_csv: 0,1,2,3,3,4,5,5,5,6,6,7,8,9,10,11,12,12,13,13
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,7.23,11.65,14.35,14.78,15.43,21.53,21.85,21.93,30.33,32.67,34.08,35.5,40.55,43.37,47.63,50.53,51.62,54.57,56.78
+venue: Kategorie I MSH Mladá Boleslav
+venue_address: U stadionu 1322 Mladá Boleslav
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,0,-1,-2,-1,-2,-3,-4,-3,-4,-5,-4,-5,-4,-3
 timeline_home_goals_csv: 0,0,1,1,1,2,2,2,2,3,3,3,4,4,5,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.33,6.57,7.83,15.02,20.82,23.1,28.32,31.03,33.5,40.55,45.18,48.88,50.05,52.52,58.45
+venue: Kategorie II SH Svojsíkova Český Těšín
+venue_address: Svojsíkova 2119 Český Těšín
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

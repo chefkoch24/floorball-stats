@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,-1,0,1,2,3,2,1,2,3,4,5
 timeline_home_goals_csv: 0,1,1,1,2,3,4,5,5,5,6,7,8,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,22.7,24.47,25.37,26.62,31.55,36.78,38.4,39.53,39.78,42.28,44.22,48.8,59.4
+venue: Kategorie I Sportovní areál Jičín
+venue_address: Revoluční 863 Jičín
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

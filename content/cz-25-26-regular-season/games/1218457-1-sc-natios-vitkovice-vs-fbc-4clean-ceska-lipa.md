@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,5,6,7
 timeline_home_goals_csv: 0,1,2,3,4,5,6,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.92,8.05,26.1,27.58,33.5,48.28,59.98
+venue: Kategorie I CITY CAMPUS
+venue_address: Moravská Ostrava 3397 Ostrava
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

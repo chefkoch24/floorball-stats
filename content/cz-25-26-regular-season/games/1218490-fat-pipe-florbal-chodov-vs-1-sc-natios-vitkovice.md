@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,0,-1,-2,-3,-4,-5
 timeline_home_goals_csv: 0,1,1,2,2,2,2,2,2,2
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,9.65,14.72,27.88,29.7,33.8,35.68,57.67,59.45,59.57
+venue: Kategorie II SH Jižní Město
+venue_address: Květnového vítězství 1554/54 Praha
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

@@ -1951,6 +1951,22 @@ def run_stats_pipeline(
             stats["boxplay_efficiency"] = _penalty_kill_efficiency(stats["goals_against_in_boxplay"], stats["boxplay"])
             stats["penalties"] = stats["penalty_2"] + stats["penalty_2and2"] + stats["penalty_10"] + stats["penalty_ms"]
 
+        venue_value = None
+        for venue_column in ("venue", "arena", "location", "venue_name"):
+            if venue_column in game_df.columns:
+                raw_value = _json_scalar(game_df[venue_column].iloc[0])
+                if raw_value not in (None, "", "None"):
+                    venue_value = raw_value
+                    break
+
+        venue_address_value = None
+        for address_column in ("venue_address", "address"):
+            if address_column in game_df.columns:
+                raw_value = _json_scalar(game_df[address_column].iloc[0])
+                if raw_value not in (None, "", "None"):
+                    venue_address_value = raw_value
+                    break
+
         game_stat = {
             "game_id": game_id,
             "date": _json_scalar(game_df["game_date"].iloc[0] if "game_date" in game_df.columns else None),
@@ -1967,6 +1983,10 @@ def run_stats_pipeline(
             "away_stats": away_stats,
             "away_pregame_stats": away_pregame_stats,
         }
+        if venue_value is not None:
+            game_stat["venue"] = venue_value
+        if venue_address_value is not None:
+            game_stat["venue_address"] = venue_address_value
         game_stat.update(pregame_h2h_stats)
         game_stat.update(_build_gameflow_timeline(played_game_df, home_team, away_team))
         game_stat.update(

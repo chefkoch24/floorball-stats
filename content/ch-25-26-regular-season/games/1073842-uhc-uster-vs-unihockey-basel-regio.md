@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,0,-1,0,1,2,3,4,3
 timeline_home_goals_csv: 0,1,1,1,2,3,4,5,6,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,11.1,16.4,29.55,36.13,44.72,47.85,54.52,55.0,55.25
+venue: Buchholz Uster
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

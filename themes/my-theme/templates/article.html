@@ -11,6 +11,11 @@
 {% else %}
     {% set article_display_title = '' %}
 {% endif %}
+{% set event_location_name = article.venue|default(article.arena|default(article.location|default(''))) %}
+{% if not event_location_name or event_location_name == 'None' %}
+    {% set event_location_name = article.home_team ~ ' home venue' %}
+{% endif %}
+{% set event_location_address = article.venue_address|default(article.address|default('')) %}
 
 {% if article_type == "game" or article|string_in_category_path('game') %}
     {% set scoreline = (article.home_goals|default('–') ~ ':' ~ article.away_goals|default('–')) %}
@@ -109,6 +114,16 @@
   "sport": "Floorball",
   "url": "{{ SITEURL }}/{{ article.url }}",
   "startDate": "{{ article.date.strftime('%Y-%m-%d') if article.date else '' }}",
+  "location": {
+    "@type": "Place",
+    "name": "{{ event_location_name }}"
+    {% if event_location_address and event_location_address != 'None' %},
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ event_location_address }}"
+    }
+    {% endif %}
+  },
   "description": "{{ article.home_team }} vs {{ article.away_team }} in {{ category_label }} with full match stats, scoring flow, penalties, and event details.",
   "competitor": [
     {

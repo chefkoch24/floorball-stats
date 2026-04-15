@@ -78,6 +78,7 @@ timeline_diffs_csv: 0,1,2,3,2,1,2,1,0,1
 timeline_home_goals_csv: 0,1,2,3,3,3,4,4,4,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,3.87,24.17,35.17,36.37,44.9,48.88,57.43,59.35,65.45
+venue: Sporthalle Fortuna Chur
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

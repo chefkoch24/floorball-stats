@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,3,4,3,4,5,4,5,6,5,6
 timeline_home_goals_csv: 0,1,1,2,3,4,5,5,6,7,7,8,9,9,10
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.78,15.53,16.92,20.73,29.35,33.97,38.25,39.65,40.28,40.73,50.38,51.77,52.9,58.98
+venue: Kategorie II SH Pulická Dobruška
+venue_address: Pulická 378 Dobruška
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

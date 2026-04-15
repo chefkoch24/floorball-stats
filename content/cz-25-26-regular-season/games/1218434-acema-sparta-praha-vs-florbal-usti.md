@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,3,4,3,4,5,6,7,8,7,8,9,10,9,10,9,10,11
 timeline_home_goals_csv: 0,1,2,3,4,4,5,6,7,8,9,9,10,11,12,12,13,13,14,15
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.7,11.63,18.67,19.42,23.78,25.77,29.02,30.33,33.9,42.43,42.72,47.03,47.48,49.07,49.6,50.98,53.25,57.6,59.12
+venue: Kategorie I UNYP ARENA
+venue_address: Kovanecká 2405/27 Praha
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0

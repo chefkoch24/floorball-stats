@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,0,1,2,3,2,1,2,1,0
 timeline_home_goals_csv: 0,1,1,2,3,4,4,4,5,5,5
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,8.3,13.53,23.22,29.85,30.07,33.8,37.97,42.48,45.83,52.4
+venue: Kategorie II SH Česká Lípa
+venue_address: Wedrichova 3305 Česká Lípa
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 0.0

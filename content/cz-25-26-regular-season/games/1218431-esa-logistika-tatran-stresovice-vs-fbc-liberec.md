@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,-1,-2,-1,0,1,0,1,0,-1,0,-1,0,1
 timeline_home_goals_csv: 0,0,0,1,2,3,3,4,4,4,5,5,6,7
 timeline_max_minute: 70.0
 timeline_minutes_csv: 0.0,12.1,15.63,21.48,24.35,25.5,28.77,38.28,39.98,47.6,48.83,54.75,57.72,61.95
+venue: Kategorie II Sportovní centrum Řepy
+venue_address: Na chobotě 1420/16 Praha
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -432,7 +434,7 @@ away_pregame_points_against_florbal_usti: 4
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_predvyber_cz_florbal_mb: 0
-away_pregame_points_against_tj_sokol_kralovske_vinohrady: 12
+away_pregame_points_against_tj_sokol_kralovske_vinohrady: 16
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 19
 away_pregame_points_per_game: 1.0

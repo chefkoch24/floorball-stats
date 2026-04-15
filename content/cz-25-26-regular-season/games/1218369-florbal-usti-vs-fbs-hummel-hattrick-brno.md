@@ -78,6 +78,8 @@ timeline_diffs_csv: 0,1,2,1,2,3,2,1
 timeline_home_goals_csv: 0,1,2,2,3,4,4,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,14.9,21.23,24.57,25.57,31.5,36.9,45.75
+venue: Kategorie I SC SLUNETA Ústí n/L
+venue_address: Jateční 1026/18 Ústí nad Labem
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 0.0

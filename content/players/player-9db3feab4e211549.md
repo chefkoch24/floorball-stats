@@ -1,26 +1,26 @@
-Date: 2026-04-14
+Date: 2026-04-15
 Title: Tim Lindberg
 Category: players
 Slug: player-9db3feab4e211549
 type: player
 player: Tim Lindberg
 player_uid: player-9db3feab4e211549
-team: Floorball Köniz Bern / Zug United
+team: Floorball Köniz Bern / Zug United / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 10
+current_games: 32
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 21
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 32
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|10|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|11|0|0|0|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich|21|0|0|0|0
 assists: 0
-games: 10
+games: 11
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 289
+rank: 291
 season: ch-25-26
