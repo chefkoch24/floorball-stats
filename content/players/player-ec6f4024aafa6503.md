@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Sami Salminen
 Category: players
 Slug: player-ec6f4024aafa6503
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 124
+rank: 125
 season: fi-25-26

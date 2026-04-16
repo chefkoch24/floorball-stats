@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Pontus Nilsson
 Category: players
 Slug: player-243c26c93ffd18c1
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 82
+rank: 83
 season: se-25-26

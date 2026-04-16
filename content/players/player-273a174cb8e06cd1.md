@@ -1,14 +1,14 @@
-Date: 2026-04-15
-Title: Daniel Pravec
+Date: 2026-04-16
+Title: Pārstāvis Kristaps Jakāns
 Category: players
-Slug: player-7ea782f3b7e1dc51
+Slug: player-273a174cb8e06cd1
 type: player
-player: Daniel Pravec
-player_uid: player-7ea782f3b7e1dc51
-team: BA SOKOLI Pardubice
-league: Czech Republic
+player: Pārstāvis Kristaps Jakāns
+player_uid: player-273a174cb8e06cd1
+team: Lekrings
+league: Latvia
 season_count: 1
-current_season: cz-25-26
+current_season: lv-25-26
 previous_season: n.a.
 current_games: 1
 current_goals: 0
@@ -35,7 +35,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|1|0|0|0|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 160
-season: cz-25-26
+rank: 191
+season: lv-25-26

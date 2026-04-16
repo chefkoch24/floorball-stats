@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: N. Mutter
 Category: players
 Slug: player-5ee015d6ce5fd508
@@ -10,16 +10,16 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 21
-current_goals: 17
-current_assists: 14
-current_points: 31
-current_pim: 6
-regular_games: 13
-regular_goals: 9
-regular_assists: 10
-regular_points: 19
-regular_pim: 2
+current_games: 8
+current_goals: 8
+current_assists: 4
+current_points: 12
+current_pim: 4
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 8
 playoff_goals: 8
 playoff_assists: 4
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 21
-career_goals: 17
-career_assists: 14
-career_points: 31
-career_pim: 6
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|8|8|4|12|4||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|13|9|10|19|2
+career_games: 8
+career_goals: 8
+career_assists: 4
+career_points: 12
+career_pim: 4
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|8|8|4|12|4
 assists: 4
 games: 8
 goals: 8

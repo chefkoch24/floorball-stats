@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Filip Wramdemark
 Category: players
 Slug: player-cf33b240b273a0d1
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 70
+rank: 71
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Marek Mandler
 Category: players
 Slug: player-8bf2f39e02bf9609

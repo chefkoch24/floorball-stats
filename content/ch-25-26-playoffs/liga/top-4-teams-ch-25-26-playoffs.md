@@ -77,7 +77,7 @@ percent_goals_overtime_against: 1.55
 percent_goals_second_period: 25.08
 percent_goals_second_period_against: 22.48
 percent_goals_third_period: 41.08
-percent_goals_third_period_against: 41.59
+percent_goals_third_period_against: 41.6
 points: 19.5
 points_after_55_min: 18.25
 points_after_58_min: 18.25

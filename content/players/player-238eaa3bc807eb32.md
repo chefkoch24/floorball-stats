@@ -1,21 +1,21 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: Kevin Kropf
 Category: players
 Slug: player-238eaa3bc807eb32
 type: player
 player: Kevin Kropf
 player_uid: player-238eaa3bc807eb32
-team: HC Rychenberg Winterthur / Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen
+team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 24
+current_games: 4
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 20
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 4
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|20|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0
 assists: 0
 games: 4
 goals: 0

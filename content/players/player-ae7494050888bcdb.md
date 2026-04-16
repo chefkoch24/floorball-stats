@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Felix Ifwer
 Category: players
 Slug: player-ae7494050888bcdb
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 122
+rank: 125
 season: se-25-26

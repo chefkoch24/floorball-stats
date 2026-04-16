@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Daniel Johansson
 Category: players
 Slug: player-05bbfe4e2d3cc6f9
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 113
+rank: 116
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: G. Flisch
 Category: players
 Slug: player-bde563e3f165da0f

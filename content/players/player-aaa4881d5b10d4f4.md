@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Luca Vogel
 Category: players
 Slug: player-aaa4881d5b10d4f4

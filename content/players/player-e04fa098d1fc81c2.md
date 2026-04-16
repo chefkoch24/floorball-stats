@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Klāvs Vītols
 Category: players
 Slug: player-e04fa098d1fc81c2

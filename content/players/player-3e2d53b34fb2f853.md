@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Max Bandrock
 Category: players
 Slug: player-3e2d53b34fb2f853

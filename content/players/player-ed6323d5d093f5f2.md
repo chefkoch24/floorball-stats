@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: M. Sipronen
 Category: players
 Slug: player-ed6323d5d093f5f2
@@ -10,16 +10,16 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 22
-current_goals: 23
-current_assists: 15
-current_points: 38
-current_pim: 24
-regular_games: 15
-regular_goals: 15
-regular_assists: 12
-regular_points: 27
-regular_pim: 18
+current_games: 7
+current_goals: 8
+current_assists: 3
+current_points: 11
+current_pim: 6
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 7
 playoff_goals: 8
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
-career_goals: 23
-career_assists: 15
-career_points: 38
-career_pim: 24
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|7|8|3|11|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|15|12|27|18
+career_games: 7
+career_goals: 8
+career_assists: 3
+career_points: 11
+career_pim: 6
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|7|8|3|11|6
 assists: 3
 games: 7
 goals: 8

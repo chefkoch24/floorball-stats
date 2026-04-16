@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Atte Raappana
 Category: players
 Slug: player-eb63c4547d57c5cc
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 69
+rank: 70
 season: fi-25-26

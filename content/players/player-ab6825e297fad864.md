@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: A. Hedlund
 Category: players
 Slug: player-ab6825e297fad864
@@ -10,16 +10,16 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 23
-current_goals: 20
-current_assists: 28
-current_points: 48
-current_pim: 8
-regular_games: 20
-regular_goals: 17
-regular_assists: 25
-regular_points: 42
-regular_pim: 4
+current_games: 3
+current_goals: 3
+current_assists: 3
+current_points: 6
+current_pim: 4
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 3
 playoff_goals: 3
 playoff_assists: 3
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
-career_goals: 20
-career_assists: 28
-career_points: 48
-career_pim: 8
-history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau|3|3|3|6|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|20|17|25|42|4
+career_games: 3
+career_goals: 3
+career_assists: 3
+career_points: 6
+career_pim: 4
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau|3|3|3|6|4
 assists: 3
 games: 3
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Eetu Ijäs
 Category: players
 Slug: player-bff3d97f25d5257d
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 5
-rank: 39
+rank: 44
 season: fi-25-26

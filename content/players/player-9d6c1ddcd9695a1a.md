@@ -1,21 +1,21 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: Jamie Martinjas
 Category: players
 Slug: player-9d6c1ddcd9695a1a
 type: player
 player: Jamie Martinjas
 player_uid: player-9d6c1ddcd9695a1a
-team: Grasshopper Club Zürich / HC Rychenberg Winterthur / HC Rychenberg Winterthur / Unihockey Basel Regio / Floorball Thurgau / Zug United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen / UHC Alligator Malans / Floorball Köniz Bern / Floorball Chur United
+team: Grasshopper Club Zürich / HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 22
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 14
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 8
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|8|0|0|0|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur / Unihockey Basel Regio / Floorball Thurgau / Zug United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen / UHC Alligator Malans / Floorball Köniz Bern / Floorball Chur United|14|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|8|0|0|0|0
 assists: 0
 games: 8
 goals: 0

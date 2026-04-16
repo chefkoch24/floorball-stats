@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Hampus Morelius
 Category: players
 Slug: player-3263eedb3d6971dd
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 53
+rank: 57
 season: se-25-26

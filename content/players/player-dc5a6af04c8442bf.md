@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Albin Carlsten
 Category: players
 Slug: player-dc5a6af04c8442bf
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 88
+rank: 89
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Sebastian Thorberg
 Category: players
 Slug: player-cdda8cc47cf2e368
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 84
+rank: 85
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-16
 Title: J. Kainulainen
 Category: players
 Slug: player-9750e29a07f8aa9f
@@ -10,15 +10,15 @@ league: Switzerland
 season_count: 1
 current_season: ch-25-26
 previous_season: n.a.
-current_games: 10
-current_goals: 13
-current_assists: 9
-current_points: 22
+current_games: 8
+current_goals: 9
+current_assists: 8
+current_points: 17
 current_pim: 2
-regular_games: 2
-regular_goals: 4
-regular_assists: 1
-regular_points: 5
+regular_games: 0
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
 regular_pim: 0
 playoff_games: 8
 playoff_goals: 9
@@ -30,12 +30,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
-career_goals: 13
-career_assists: 9
-career_points: 22
+career_games: 8
+career_goals: 9
+career_assists: 8
+career_points: 17
 career_pim: 2
-history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|8|9|8|17|2||ch-25-26|regular-season|Switzerland|Zug United|2|4|1|5|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|8|9|8|17|2
 assists: 8
 games: 8
 goals: 9

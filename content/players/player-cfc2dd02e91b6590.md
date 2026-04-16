@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Alfred Pettersson
 Category: players
 Slug: player-cfc2dd02e91b6590
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 101
+rank: 104
 season: se-25-26

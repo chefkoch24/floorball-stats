@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Fabian Sammemyr
 Category: players
 Slug: player-740b3cad0bfede65
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 121
+rank: 124
 season: se-25-26

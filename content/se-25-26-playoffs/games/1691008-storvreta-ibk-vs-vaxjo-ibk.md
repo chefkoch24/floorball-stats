@@ -6,19 +6,19 @@ type: game
 game_id: 1691008
 home_team: Storvreta IBK
 away_team: Växjö IBK
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 1942.0
+away_goal_diffs_csv: 1,1
+away_goal_minutes_csv: 27.82,30.43
 away_major_penalty_minutes_csv: 
-away_penalty_ends_csv: 
-away_penalty_goals_csv: 
-away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: 1
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+away_penalty_ends_csv: 53.08
+away_penalty_goals_csv: 2
+away_penalty_minutes_csv: 52.62
+game_events_b64: W3sibWludXRlIjoiMDQ6MzUiLCJwZXJpb2QiOjEsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJDYXJsIEtvc3RvdiBCcmVkYmVyZyIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiU2FrYXJpYXMgVWxyaWtzc29uIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTg6MTIiLCJwZXJpb2QiOjEsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJGaWxpcCBFcmlrc3NvbiIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiRmlsaXAgTGFuZ2VyIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDc6NDkiLCJwZXJpb2QiOjIsInRlYW0iOiJWw6R4asO2IElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRmlsaXAgU3RqZXJuYmVyZyIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiRWVtZWxpIEFrb2xhIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDk6NDYiLCJwZXJpb2QiOjIsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJTaW1vbiBHw7Z0eiIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiT3R0byBXZWlkbWFuIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTA6MjYiLCJwZXJpb2QiOjIsInRlYW0iOiJWw6R4asO2IElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIzOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiVmljdG9yIEhhbnNzb24iLCJ0aXRsZV91aWQiOm51bGwsImFzc2lzdCI6IkhlaWtraSBJaXNrb2xhIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMTI6MzciLCJwZXJpb2QiOjMsInRlYW0iOiJWw6R4asO2IElCSyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIzOjIiLCJldmVudF9raW5kIjoicGVuYWx0eSIsInRpdGxlIjoiMiBtaW4gcGVuYWx0eSIsImFzc2lzdCI6IkZpbGlwIFN0amVybmJlcmciLCJhc3Npc3RfdWlkIjpudWxsLCJ0YWciOiJwZW5hbHR5XzIifSx7Im1pbnV0ZSI6IjEzOjA1IiwicGVyaW9kIjozLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJob21lIiwic2NvcmUiOiI0OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiT3R0byBXZWlkbWFuIiwidGl0bGVfdWlkIjpudWxsLCJhc3Npc3QiOiJGaWxpcCBFcmlrc3NvbiIsImFzc2lzdF91aWQiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE1OjU2IiwicGVyaW9kIjozLCJ0ZWFtIjoiU3RvcnZyZXRhIElCSyIsInNpZGUiOiJob21lIiwic2NvcmUiOiI1OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiUGFzY2FsIFNjaG11a2kiLCJ0aXRsZV91aWQiOm51bGwsImFzc2lzdCI6bnVsbCwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTg6NDYiLCJwZXJpb2QiOjMsInRlYW0iOiJTdG9ydnJldGEgSUJLIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjY6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJTYWthcmlhcyBVbHJpa3Nzb24iLCJ0aXRsZV91aWQiOm51bGwsImFzc2lzdCI6bnVsbCwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9XQ==
+game_events_count: 11
+game_state: played
+game_status: 4
+home_goal_diffs_csv: 1,2,2,2,3,4
+home_goal_minutes_csv: 4.58,18.2,29.77,53.08,55.93,58.77
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 100.0
 pregame_h2h_special_away_pp_eff: 0.0
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 0.0
-result_string: None
+result_string: 6-2
 start_time: 18:30:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,0,0,1,1,2,2,2,2
+timeline_diffs_csv: 0,1,2,1,2,1,2,3,4
+timeline_home_goals_csv: 0,1,2,2,3,3,4,5,6
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,4.58,18.2,27.82,29.77,30.43,53.08,55.93,58.77
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -91,31 +91,31 @@ home_close_game_win: 0
 home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
-home_first_goal_of_match: 0
+home_first_goal_of_match: 1
 home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_games: 1
+home_goal_difference: 4
+home_goals: 6
+home_goals_against: 2
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 2
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 6
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
+home_goals_in_first_period: 2
 home_goals_in_first_period_against: 0
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
-home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_powerplay: 1
+home_goals_in_second_period: 1
+home_goals_in_second_period_against: 2
+home_goals_in_third_period: 3
 home_goals_in_third_period_against: 0
-home_home_points: 0
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -133,32 +133,33 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 0
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
-home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
+home_points_after_first_period: 3
+home_points_after_second_period: 3
+home_points_after_third_period: 3
+home_points_against_vaxjo_ibk: 3
 home_points_max_difference_2: 0
-home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_points_more_2_difference: 3
+home_powerplay: 1
+home_powerplay_efficiency: 100.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
+home_powerplay_third_period: 1
+home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
-home_wins: 0
+home_wins: 1
 away_away_points: 0
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+away_boxplay: 1
+away_boxplay_efficiency: 0.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_third_period: 0
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
@@ -166,37 +167,37 @@ away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
-away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_first_goal_of_match_against: 1
+away_games: 1
+away_goal_difference: -4
+away_goals: 2
+away_goals_against: 6
+away_goals_against_away: 6
 away_goals_against_home: 0
-away_goals_against_in_boxplay: 0
+away_goals_against_in_boxplay: 1
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 2
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period_against: 2
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
+away_goals_in_second_period: 2
+away_goals_in_second_period_against: 1
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 3
 away_home_points: 0
 away_loss_1: 0
-away_losses: 0
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
-away_penalties: 0
+away_penalties: 1
 away_penalty_10: 0
-away_penalty_2: 0
+away_penalty_2: 1
 away_penalty_2and2: 0
 away_penalty_first_period: 0
 away_penalty_ms: 0
@@ -206,7 +207,7 @@ away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
-away_penalty_third_period: 0
+away_penalty_third_period: 1
 away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
@@ -214,6 +215,7 @@ away_points_after_59_min: 0
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 0
+away_points_against_storvreta_ibk: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -223,7 +225,7 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 9
@@ -309,7 +311,7 @@ home_pregame_points_after_first_period_per_game: 2.12
 home_pregame_points_after_second_period: 19
 home_pregame_points_after_third_period: 19
 home_pregame_points_against_nykvarns_ibf: 12
-home_pregame_points_against_vaxjo_ibk: 8
+home_pregame_points_against_vaxjo_ibk: 11
 home_pregame_points_max_difference_2: 5
 home_pregame_points_more_2_difference: 15
 home_pregame_points_per_game: 2.5

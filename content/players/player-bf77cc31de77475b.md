@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-16
 Title: Simon Westgärds
 Category: players
 Slug: player-bf77cc31de77475b
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 96
+rank: 99
 season: se-25-26

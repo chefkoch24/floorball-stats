@@ -409,7 +409,7 @@ away_pregame_points_after_first_period_per_game: 3.0
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_nykvarns_ibf: 12
-away_pregame_points_against_vaxjo_ibk: 8
+away_pregame_points_against_vaxjo_ibk: 11
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 3.0

@@ -1,26 +1,26 @@
-Date: 2026-04-15
-Title: Adam Zahraj
+Date: 2026-04-16
+Title: Rak Dominic
 Category: players
-Slug: player-e29ac237b7390735
+Slug: player-e400a06740bea95a
 type: player
-player: Adam Zahraj
-player_uid: player-e29ac237b7390735
-team: HDT.cz Florbal Vary Bohemians
-league: Czech Republic
+player: Rak Dominic
+player_uid: player-e400a06740bea95a
+team: Snipers Bratislava
+league: Slovakia
 season_count: 1
-current_season: cz-25-26
+current_season: sk-25-26
 previous_season: n.a.
-current_games: 10
+current_games: 5
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 1
+regular_games: 0
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 9
+playoff_games: 5
 playoff_goals: 1
 playoff_assists: 0
 playoff_points: 1
@@ -30,18 +30,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 5
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|9|1|0|1|0||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|1|0|0|0|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|1|0|1|0
 assists: 0
-games: 9
+games: 5
 goals: 1
 penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 122
-season: cz-25-26
+rank: 87
+season: sk-25-26
