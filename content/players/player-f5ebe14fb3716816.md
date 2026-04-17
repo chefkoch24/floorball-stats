@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: T. Aeschimann
 Category: players
 Slug: player-f5ebe14fb3716816
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 25
+rank: 26
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: L. Conrad
 Category: players
 Slug: player-abca59bca3525258
@@ -43,5 +43,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 9
-rank: 17
+rank: 19
 season: ch-25-26

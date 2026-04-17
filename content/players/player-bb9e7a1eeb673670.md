@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Bruno Beķeris
 Category: players
 Slug: player-bb9e7a1eeb673670

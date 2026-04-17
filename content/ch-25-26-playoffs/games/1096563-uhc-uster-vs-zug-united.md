@@ -409,7 +409,7 @@ away_pregame_points_after_first_period: 7
 away_pregame_points_after_first_period_per_game: 2.33
 away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 9
-away_pregame_points_against_floorball_thurgau: 9
+away_pregame_points_against_floorball_thurgau: 12
 away_pregame_points_against_uhc_uster: 12
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 9

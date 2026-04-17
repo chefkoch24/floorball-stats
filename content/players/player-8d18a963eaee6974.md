@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Eemeli Karjanlahti
 Category: players
 Slug: player-8d18a963eaee6974
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 62
+rank: 63
 season: fi-25-26

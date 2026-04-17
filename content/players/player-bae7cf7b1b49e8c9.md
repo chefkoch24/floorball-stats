@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Noel Nils Haldemann
 Category: players
 Slug: player-bae7cf7b1b49e8c9

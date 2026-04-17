@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Tiitus Salokangas
 Category: players
 Slug: player-2e459a1664ff30da
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 40
+rank: 41
 season: fi-25-26

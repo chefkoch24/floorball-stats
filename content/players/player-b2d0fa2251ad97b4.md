@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Hervay Adam
 Category: players
 Slug: player-b2d0fa2251ad97b4

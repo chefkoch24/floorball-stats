@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Samuel Jančo
 Category: players
 Slug: player-ddc6d68df803c354

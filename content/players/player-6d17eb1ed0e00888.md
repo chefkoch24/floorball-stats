@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: N. Brütsch
 Category: players
 Slug: player-6d17eb1ed0e00888

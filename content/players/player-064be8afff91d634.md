@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: N. Bischofberger
 Category: players
 Slug: player-064be8afff91d634

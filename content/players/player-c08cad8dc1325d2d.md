@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: L. Münger
 Category: players
 Slug: player-c08cad8dc1325d2d

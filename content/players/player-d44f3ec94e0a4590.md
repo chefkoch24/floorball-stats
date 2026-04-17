@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Marek Pallo
 Category: players
 Slug: player-d44f3ec94e0a4590

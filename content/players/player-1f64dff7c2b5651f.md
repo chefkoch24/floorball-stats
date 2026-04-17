@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Juuso Kekki
 Category: players
 Slug: player-1f64dff7c2b5651f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 10
-rank: 12
+rank: 13
 season: fi-25-26

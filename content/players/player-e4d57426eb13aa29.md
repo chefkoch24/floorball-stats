@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Lauri Eloluoto
 Category: players
 Slug: player-e4d57426eb13aa29
@@ -43,5 +43,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 23
+rank: 24
 season: fi-25-26

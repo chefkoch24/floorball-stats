@@ -311,7 +311,7 @@ home_pregame_points_after_first_period: 10
 home_pregame_points_after_first_period_per_game: 1.67
 home_pregame_points_after_second_period: 16
 home_pregame_points_after_third_period: 16
-home_pregame_points_against_floorball_thurgau: 9
+home_pregame_points_against_floorball_thurgau: 12
 home_pregame_points_against_uhc_uster: 12
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 15

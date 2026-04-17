@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Miro Haanpää
 Category: players
 Slug: player-2967e8eb01f358fb

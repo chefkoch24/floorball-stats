@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: M. Frei
 Category: players
 Slug: player-41a814c00a64e9fe

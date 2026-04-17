@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Julian Kappler
 Category: players
 Slug: player-a2a0ca0d5e06ba11

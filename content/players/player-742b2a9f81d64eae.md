@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Šifra Michal
 Category: players
 Slug: player-742b2a9f81d64eae

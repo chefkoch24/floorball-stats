@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: O. Weissbach
 Category: players
 Slug: player-8a8d190543ef1c8f
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 13
-rank: 8
+rank: 9
 season: ch-25-26

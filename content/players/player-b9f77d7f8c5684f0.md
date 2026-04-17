@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: L. Tringaniello
 Category: players
 Slug: player-b9f77d7f8c5684f0
@@ -43,5 +43,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 58
+rank: 59
 season: ch-25-26

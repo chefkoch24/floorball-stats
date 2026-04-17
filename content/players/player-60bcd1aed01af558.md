@@ -1,4 +1,4 @@
-Date: 2026-04-16
+Date: 2026-04-17
 Title: Alexander Isberg
 Category: players
 Slug: player-60bcd1aed01af558
