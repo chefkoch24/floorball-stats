@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Leevi Auranen
 Category: players
 Slug: player-c978fb6afebd1737
@@ -9,16 +9,17 @@ team: Indians
 league: Finland
 season_count: 1
 current_season: fi-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
-current_goals: 2
-current_assists: 2
-current_points: 4
+current_games: 14
+current_goals: 12
+current_assists: 7
+current_points: 19
 current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 11
+regular_goals: 10
+regular_assists: 5
+regular_points: 15
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 2
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
-career_goals: 2
-career_assists: 2
-career_points: 4
+career_games: 14
+career_goals: 12
+career_assists: 7
+career_points: 19
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Indians|3|2|2|4|0
+history_rows_csv: fi-25-26|playoffs|Finland|Indians|3|2|2|4|0||fi-25-26|regular-season|Finland|Indians|11|10|5|15|0
 assists: 2
 games: 3
 goals: 2
@@ -43,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 56
+rank: 45
 season: fi-25-26

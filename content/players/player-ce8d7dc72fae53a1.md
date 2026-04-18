@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Mārtiņš Urtāns
 Category: players
 Slug: player-ce8d7dc72fae53a1
@@ -9,6 +9,7 @@ team: Ķekava/RB&B
 league: Latvia
 season_count: 1
 current_season: lv-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 1
 current_goals: 0
@@ -43,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 170
+rank: 169
 season: lv-25-26

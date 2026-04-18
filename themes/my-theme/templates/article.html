@@ -4,6 +4,13 @@
 {% set current_category = article.categories[0].shortname if article.categories else '' %}
 {% set category_label = current_category|category2string if current_category else '' %}
 {% set breadcrumb_category_label = current_category|category2breadcrumb if current_category else '' %}
+{% if current_category.startswith('wfc-2024') %}
+    {% set category_label = "IFF WFC 2024" %}
+    {% set breadcrumb_category_label = "IFF WFC 2024" %}
+    {% set category_url_override = 'wfc-2024.html' %}
+{% else %}
+    {% set category_url_override = article.category.url if article.category else '' %}
+{% endif %}
 {% if article.title is string %}
     {% set article_display_title = article.title %}
 {% elif article.title %}
@@ -52,7 +59,7 @@
     <a href="{{ SITEURL }}/">Home</a>
     {% if breadcrumb_category_label %}
     <span class="breadcrumbs-separator">/</span>
-    <a href="{{ SITEURL }}/{{ article.category.url }}">{{ breadcrumb_category_label }}</a>
+    <a href="{{ SITEURL }}/{{ category_url_override }}">{{ breadcrumb_category_label }}</a>
     {% endif %}
     <span class="breadcrumbs-separator">/</span>
     <span aria-current="page">
@@ -88,7 +95,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "{{ breadcrumb_category_label }}",
-      "item": "{{ SITEURL }}/{{ article.category.url }}"
+      "item": "{{ SITEURL }}/{{ category_url_override }}"
     },
     {
       "@type": "ListItem",

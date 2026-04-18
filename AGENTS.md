@@ -12,7 +12,9 @@
 - Do not cache or save the BACKLOG.md statically in your context the content of it can change during your runtime
 - Only refresh all leagues data if it's really required and new datapoints have to be added
 - If a full repository refresh is required, use `make refresh-all-leagues PYTHON=.venv/bin/python PELICAN=.venv/bin/pelican` so league data, player stats, player pages, and the site build stay in sync
+- Prefer the database-driven path for new work. Neon/Postgres is the target runtime source, SQLite is the local mirror, and CSV should only be treated as fallback/testing/export compatibility while the migration is still in progress.
 
 ## Other important docs
 - ARCHITECTURE.md contains the information about the architecture of this project
 - README.md contains all internal information on how to run the pipelines
+- When adding or changing pipelines/backends, also follow the integration invariants in `ARCHITECTURE.md` and the backend checklist in `README.md` so new sources work end-to-end without one-off fixes

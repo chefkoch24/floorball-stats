@@ -13,6 +13,7 @@ from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
 from src.scrape_latvia import scrape_competition as scrape_latvia_competition
 from src.scrape_slovakia import scrape_competition as scrape_slovakia_competition
+from src.scrape_wfc import scrape_league_organizer_games as scrape_wfc_league_organizer_games
 from src.scrape_switzerland import (
     fetch_game_ids_by_rounds,
     fetch_game_ids_from_renderengine,
@@ -45,6 +46,7 @@ def run_pipeline(
     slovakia_regular_season_games_per_team: int | None = None,
     latvia_calendar_urls: list[str] | None = None,
     latvia_season_start_year: int | None = None,
+    wfc_league_organizer_id: int | None = None,
     playoff_teams_count: int = 8,
     data_dir: str = "data",
     content_dir: str = "content",
@@ -155,6 +157,14 @@ def run_pipeline(
                 season_start_year=latvia_season_start_year,
                 phase=phase,
             )
+        elif backend == "wfc":
+            if not wfc_league_organizer_id:
+                raise ValueError("wfc_league_organizer_id is required when backend=wfc")
+            scrape_wfc_league_organizer_games(
+                league_organizer_id=wfc_league_organizer_id,
+                output_path=str(raw_csv),
+                phase=phase,
+            )
         else:
             scrape_events(
                 input_path=f"leagues/{league_id}/schedule.json",
@@ -232,7 +242,7 @@ def parse_args():
     parser.add_argument(
         "--backend",
         default="saisonmanager",
-        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia"],
+        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia", "wfc"],
     )
     parser.add_argument("--league_id", type=int, default=1890)
     parser.add_argument("--competition_id", type=int, default=None)
@@ -255,6 +265,7 @@ def parse_args():
     parser.add_argument("--slovakia_regular_season_games_per_team", type=int, default=None)
     parser.add_argument("--latvia_calendar_url", action="append", default=None)
     parser.add_argument("--latvia_season_start_year", type=int, default=None)
+    parser.add_argument("--wfc_league_organizer_id", type=int, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default="25-26")
     parser.add_argument("--phase", default="regular-season")
@@ -315,6 +326,7 @@ def main():
         slovakia_regular_season_games_per_team=args.slovakia_regular_season_games_per_team,
         latvia_calendar_urls=args.latvia_calendar_url,
         latvia_season_start_year=args.latvia_season_start_year,
+        wfc_league_organizer_id=args.wfc_league_organizer_id,
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
         content_dir=args.content_dir,

@@ -56,3 +56,6 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
     latvia = config.get("latvia", {}) or {}
     args.latvia_calendar_url = latvia.get("calendar_urls", args.latvia_calendar_url)
     args.latvia_season_start_year = latvia.get("season_start_year", args.latvia_season_start_year)
+
+    wfc = config.get("wfc", {}) or {}
+    args.wfc_league_organizer_id = wfc.get("league_organizer_id", getattr(args, "wfc_league_organizer_id", None))

@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Renārs Liepiņš
 Category: players
 Slug: player-f47cccc9ec2e9690
@@ -9,18 +9,19 @@ team: Masters Ulbroka/LU
 league: Latvia
 season_count: 1
 current_season: lv-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 1
-current_assists: 2
-current_points: 3
-current_pim: 6
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
-playoff_games: 10
+current_games: 35
+current_goals: 14
+current_assists: 10
+current_points: 24
+current_pim: 14
+regular_games: 26
+regular_goals: 13
+regular_assists: 8
+regular_points: 21
+regular_pim: 8
+playoff_games: 9
 playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
@@ -30,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
-career_goals: 1
-career_assists: 2
-career_points: 3
-career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|1|2|3|6
+career_games: 35
+career_goals: 14
+career_assists: 10
+career_points: 24
+career_pim: 14
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|9|1|2|3|6||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|26|13|8|21|8
 assists: 2
-games: 10
+games: 9
 goals: 1
 penalties: 3
 phase: playoffs

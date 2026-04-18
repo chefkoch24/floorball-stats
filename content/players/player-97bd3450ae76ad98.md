@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: T. Lindberg
 Category: players
 Slug: player-97bd3450ae76ad98
@@ -9,17 +9,18 @@ team: Floorball Thurgau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 1
-current_goals: 1
-current_assists: 1
-current_points: 2
-current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+current_games: 14
+current_goals: 11
+current_assists: 6
+current_points: 17
+current_pim: 6
+regular_games: 13
+regular_goals: 10
+regular_assists: 5
+regular_points: 15
+regular_pim: 6
 playoff_games: 1
 playoff_goals: 1
 playoff_assists: 1
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
-career_goals: 1
-career_assists: 1
-career_points: 2
-career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|1|1|2|0
+career_games: 14
+career_goals: 11
+career_assists: 6
+career_points: 17
+career_pim: 6
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|1|1|2|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|13|10|5|15|6
 assists: 1
 games: 1
 goals: 1

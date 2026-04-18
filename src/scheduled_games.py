@@ -2,6 +2,7 @@ from typing import Any, Optional
 
 
 EVENT_SCHEDULED = "scheduled"
+EVENT_RESULT = "result"
 SCHEDULED_SORTKEY = "0-00:00"
 
 
@@ -27,6 +28,48 @@ def build_scheduled_game_row(
         "away_team_name": away_team,
         "home_goals": None,
         "guest_goals": None,
+        "goal_type": None,
+        "penalty_type": None,
+        "game_date": game_date,
+        "game_start_time": game_start_time,
+        "attendance": attendance,
+        "game_status": game_status,
+        "ingame_status": ingame_status,
+        "result_string": result_string,
+        "scorer_name": None,
+        "assist_name": None,
+        "scorer_number": None,
+        "assist_number": None,
+        "penalty_player_name": None,
+    }
+
+
+def build_result_game_row(
+    *,
+    game_id: Any,
+    home_team: Optional[str],
+    away_team: Optional[str],
+    game_date: Optional[str],
+    game_start_time: Optional[str],
+    home_goals: Optional[int],
+    away_goals: Optional[int],
+    attendance: Optional[int] = None,
+    game_status: Optional[str] = "Final",
+    ingame_status: Optional[str] = None,
+    result_string: Optional[str] = None,
+    period: int = 3,
+    sortkey: str = "3-20:00",
+) -> dict[str, Any]:
+    return {
+        "event_type": EVENT_RESULT,
+        "event_team": None,
+        "period": period,
+        "sortkey": sortkey,
+        "game_id": game_id,
+        "home_team_name": home_team,
+        "away_team_name": away_team,
+        "home_goals": home_goals,
+        "guest_goals": away_goals,
         "goal_type": None,
         "penalty_type": None,
         "game_date": game_date,

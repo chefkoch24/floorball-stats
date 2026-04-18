@@ -24,17 +24,21 @@
             <li class="stat-guide__item"><strong>Goals / Assists / Points:</strong> Core offensive totals (`Points = Goals + Assists`).</li>
             <li class="stat-guide__item"><strong>PIM:</strong> Penalty minutes taken by the player.</li>
             <li class="stat-guide__item"><strong>Points/Game:</strong> Offensive production rate per appearance.</li>
+            {% if article.current_season_is_tournament != 'yes' %}
             <li class="stat-guide__item"><strong>Regular vs Playoffs:</strong> Same season split by phase to show context changes.</li>
+            {% else %}
+            <li class="stat-guide__item"><strong>Tournament Season:</strong> Tournament appearances are combined into one season total.</li>
+            {% endif %}
             <li class="stat-guide__item"><strong>Season History:</strong> Archive of season-by-season totals across leagues/phases.</li>
         </ul>
     </div>
 </details>
 
-{% set games = article.current_games|default(article.games|default(article.gp|default(0)))|int %}
-{% set points = article.current_points|default(article.points|default(0))|int %}
-{% set goals = article.current_goals|default(article.goals|default(0))|int %}
-{% set assists = article.current_assists|default(article.assists|default(0))|int %}
-{% set pim = article.current_pim|default(article.pim|default(0))|int %}
+{% set games = article.career_games|default(article.current_games|default(article.games|default(article.gp|default(0))))|int %}
+{% set points = article.career_points|default(article.current_points|default(article.points|default(0)))|int %}
+{% set goals = article.career_goals|default(article.current_goals|default(article.goals|default(0)))|int %}
+{% set assists = article.career_assists|default(article.current_assists|default(article.assists|default(0)))|int %}
+{% set pim = article.career_pim|default(article.current_pim|default(article.pim|default(0)))|int %}
 {% if games > 0 %}
     {% set ppg = (points / games)|round(2) %}
     {% set gpg = (goals / games)|round(2) %}
@@ -61,81 +65,7 @@
 </section>
 
 <section class="panel">
-    <h2 class="panel-title">Season Splits</h2>
-    <div class="table-wrapper">
-        <table class="data-table">
-            <thead>
-            <tr>
-                <th>Scope</th>
-                <th>Games</th>
-                <th>Goals</th>
-                <th>Assists</th>
-                <th>Points</th>
-                <th>Penalty Minutes (PIM)</th>
-                <th>Points/Game</th>
-                <th>Penalty Minutes per Game (PIM/Game)</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% set rg = article.regular_games|default(0)|int %}
-            {% set rp = article.regular_points|default(0)|int %}
-            {% set rr = article.regular_pim|default(0)|int %}
-            {% set pg = article.playoff_games|default(0)|int %}
-            {% set pp = article.playoff_points|default(0)|int %}
-            {% set pr = article.playoff_pim|default(0)|int %}
-            {% set vg = article.previous_games|default(0)|int %}
-            {% set vp = article.previous_points|default(0)|int %}
-            {% set vr = article.previous_pim|default(0)|int %}
-            <tr>
-                <td>Current Total ({{ article.current_season|default('–') }})</td>
-                <td>{{ article.current_games|default('–') }}</td>
-                <td>{{ article.current_goals|default('–') }}</td>
-                <td>{{ article.current_assists|default('–') }}</td>
-                <td>{{ article.current_points|default('–') }}</td>
-                <td>{{ article.current_pim|default('–') }}</td>
-                <td>{{ (article.current_points|default(0)|int / article.current_games|default(1)|int)|round(2) if article.current_games|default(0)|int > 0 else '–' }}</td>
-                <td>{{ (article.current_pim|default(0)|int / article.current_games|default(1)|int)|round(2) if article.current_games|default(0)|int > 0 else '–' }}</td>
-            </tr>
-            <tr>
-                <td>Current Regular Season</td>
-                <td>{{ article.regular_games|default('–') }}</td>
-                <td>{{ article.regular_goals|default('–') }}</td>
-                <td>{{ article.regular_assists|default('–') }}</td>
-                <td>{{ article.regular_points|default('–') }}</td>
-                <td>{{ article.regular_pim|default('–') }}</td>
-                <td>{{ (rp / rg)|round(2) if rg > 0 else '–' }}</td>
-                <td>{{ (rr / rg)|round(2) if rg > 0 else '–' }}</td>
-            </tr>
-            <tr>
-                <td>Current Playoffs</td>
-                <td>{{ article.playoff_games|default('–') }}</td>
-                <td>{{ article.playoff_goals|default('–') }}</td>
-                <td>{{ article.playoff_assists|default('–') }}</td>
-                <td>{{ article.playoff_points|default('–') }}</td>
-                <td>{{ article.playoff_pim|default('–') }}</td>
-                <td>{{ (pp / pg)|round(2) if pg > 0 else '–' }}</td>
-                <td>{{ (pr / pg)|round(2) if pg > 0 else '–' }}</td>
-            </tr>
-            {% if article.previous_season and article.previous_season != 'n.a.' %}
-            <tr>
-                <td>Previous Season ({{ article.previous_season }})</td>
-                <td>{{ article.previous_games|default('–') }}</td>
-                <td>{{ article.previous_goals|default('–') }}</td>
-                <td>{{ article.previous_assists|default('–') }}</td>
-                <td>{{ article.previous_points|default('–') }}</td>
-                <td>{{ article.previous_pim|default('–') }}</td>
-                <td>{{ (vp / vg)|round(2) if vg > 0 else '–' }}</td>
-                <td>{{ (vr / vg)|round(2) if vg > 0 else '–' }}</td>
-            </tr>
-            {% endif %}
-            </tbody>
-        </table>
-    </div>
-</section>
-
-{% if article.history_rows_csv %}
-<section class="panel">
-    <h2 class="panel-title">Season History</h2>
+    <h2 class="panel-title">Season Overview</h2>
     <div class="table-wrapper">
         <table class="data-table">
             <thead>
@@ -149,12 +79,18 @@
                 <th>Assists</th>
                 <th>Points</th>
                 <th>Penalty Minutes (PIM)</th>
+                <th>Points/Game</th>
+                <th>Penalty Minutes per Game (PIM/Game)</th>
             </tr>
             </thead>
             <tbody>
+                {% if article.history_rows_csv %}
                 {% for row in article.history_rows_csv.split('||') %}
                     {% set cols = row.split('|') %}
                     {% if cols|length >= 9 %}
+                    {% set row_games = cols[4]|int %}
+                    {% set row_points = cols[7]|int %}
+                    {% set row_pim = cols[8]|int %}
                     <tr>
                         {% set season_parts = cols[0].split('-') %}
                         {% if season_parts|length >= 3 and season_parts[1].isdigit() and season_parts[2].isdigit() %}
@@ -172,14 +108,16 @@
                         <td>{{ cols[6] }}</td>
                         <td>{{ cols[7] }}</td>
                         <td>{{ cols[8] }}</td>
+                        <td>{{ (row_points / row_games)|round(2) if row_games > 0 else '–' }}</td>
+                        <td>{{ (row_pim / row_games)|round(2) if row_games > 0 else '–' }}</td>
                     </tr>
                     {% endif %}
                 {% endfor %}
+                {% endif %}
             </tbody>
         </table>
     </div>
 </section>
-{% endif %}
 
 {% if article.content %}
 <section class="panel">

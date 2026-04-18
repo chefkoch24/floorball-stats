@@ -1,0 +1,48 @@
+Date: 2026-04-18
+Title: Marek Pazsiczký
+Category: players
+Slug: player-db9412eab655518b
+type: player
+player: Marek Pazsiczký
+player_uid: player-db9412eab655518b
+team: FaBK ATU Košice
+league: Slovakia
+season_count: 1
+current_season: sk-25-26
+current_season_is_tournament: no
+previous_season: n.a.
+current_games: 25
+current_goals: 15
+current_assists: 13
+current_points: 28
+current_pim: 2
+regular_games: 21
+regular_goals: 13
+regular_assists: 13
+regular_points: 26
+regular_pim: 2
+playoff_games: 4
+playoff_goals: 2
+playoff_assists: 0
+playoff_points: 2
+playoff_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 25
+career_goals: 15
+career_assists: 13
+career_points: 28
+career_pim: 2
+history_rows_csv: sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|2|0|2|0||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|21|13|13|26|2
+assists: 0
+games: 4
+goals: 2
+penalties: 0
+phase: playoffs
+pim: 0
+points: 2
+rank: 67
+season: sk-25-26

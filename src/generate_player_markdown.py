@@ -28,6 +28,7 @@ CONTROL_FIELDS = {
     "source_person_id",
     "history_rows_csv",
 }
+TOURNAMENT_SEASON_PREFIXES = {"wfc"}
 
 
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
@@ -48,10 +49,14 @@ def _normalize_prefix_tokens(raw: str | None) -> set[str]:
 
 
 def _season_prefix(season: str) -> str:
-    match = re.match(r"^([a-z]{2})-\d{2}-\d{2}$", str(season or "").strip().lower())
+    match = re.match(r"^([a-z]{2,3})-(?:\d{2}-\d{2}|\d{4})$", str(season or "").strip().lower())
     if match:
         return match.group(1)
     return ""
+
+
+def _is_tournament_season(season: str) -> bool:
+    return _season_prefix(season) in TOURNAMENT_SEASON_PREFIXES
 
 
 def _write_if_changed(path: Path, content: str) -> bool:
@@ -91,6 +96,39 @@ def _load_rows_from_csv(csv_path: str) -> list[dict[str, str]]:
     with source_path.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f)
         return [_clean_row(raw_row) for raw_row in reader]
+
+
+def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    best_rows: dict[tuple[str, str, str, str, str], dict[str, str]] = {}
+    ordered_keys: list[tuple[str, str, str, str, str]] = []
+    for row in rows:
+        marker = (
+            row.get("player_uid", "").strip().lower(),
+            row.get("season", "").strip().lower(),
+            row.get("phase", "").strip().lower(),
+            row.get("team", "").strip().lower(),
+            row.get("league", "").strip().lower(),
+        )
+        candidate_score = (
+            1 if row.get("source_person_id", "").strip() else 0,
+            1 if row.get("source_player_id", "").strip() else 0,
+            len(row.get("history_rows_csv", "").strip()),
+            len(row.get("slug", "").strip()),
+        )
+        existing = best_rows.get(marker)
+        if existing is None:
+            ordered_keys.append(marker)
+            best_rows[marker] = row
+            continue
+        existing_score = (
+            1 if existing.get("source_person_id", "").strip() else 0,
+            1 if existing.get("source_player_id", "").strip() else 0,
+            len(existing.get("history_rows_csv", "").strip()),
+            len(existing.get("slug", "").strip()),
+        )
+        if candidate_score > existing_score:
+            best_rows[marker] = row
+    return [best_rows[key] for key in ordered_keys]
 
 
 def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
@@ -195,10 +233,11 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
     seasons_desc = sorted({row.get("season", "").strip() for row in rows if row.get("season", "").strip()}, key=_season_sort_key, reverse=True)
     current_season = seasons_desc[0] if seasons_desc else current_row.get("season", "").strip()
     previous_season = seasons_desc[1] if len(seasons_desc) > 1 else ""
+    current_is_tournament = _is_tournament_season(current_season)
 
     current_rows = [row for row in rows if row.get("season", "").strip() == current_season]
-    regular_rows = [row for row in current_rows if row.get("phase", "").strip() == "regular-season"]
-    playoff_rows = [row for row in current_rows if row.get("phase", "").strip() == "playoffs"]
+    regular_rows = [] if current_is_tournament else [row for row in current_rows if row.get("phase", "").strip() == "regular-season"]
+    playoff_rows = [] if current_is_tournament else [row for row in current_rows if row.get("phase", "").strip() == "playoffs"]
     previous_rows = [row for row in rows if row.get("season", "").strip() == previous_season] if previous_season else []
 
     def _join_unique(rows_subset: list[dict[str, str]], key: str) -> str:
@@ -234,6 +273,7 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
         f"league: {current_league}",
         f"season_count: {len(seasons_desc)}",
         f"current_season: {current_season}",
+        f"current_season_is_tournament: {'yes' if current_is_tournament else 'no'}",
         f"previous_season: {previous_season or 'n.a.'}",
         f"current_games: {_sum(current_rows, 'games')}",
         f"current_goals: {_sum(current_rows, 'goals')}",
@@ -263,7 +303,51 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
     ]
 
     history_rows = []
-    for row in sorted_rows:
+    history_source_rows = sorted_rows
+    if any(_is_tournament_season(row.get("season", "")) for row in sorted_rows):
+        grouped_history: dict[tuple[str, str, str], list[dict[str, str]]] = {}
+        ordered_history_keys: list[tuple[str, str, str]] = []
+        for row in sorted_rows:
+            season = row.get("season", "")
+            if _is_tournament_season(season):
+                key = (
+                    season,
+                    row.get("league", ""),
+                    row.get("team", ""),
+                )
+            else:
+                key = (
+                    season,
+                    row.get("phase", ""),
+                    row.get("team", ""),
+                )
+            if key not in grouped_history:
+                ordered_history_keys.append(key)
+                grouped_history[key] = []
+            grouped_history[key].append(row)
+
+        history_source_rows = []
+        for key in ordered_history_keys:
+            group = grouped_history[key]
+            first_group_row = group[0]
+            if _is_tournament_season(first_group_row.get("season", "")):
+                history_source_rows.append(
+                    {
+                        "season": first_group_row.get("season", ""),
+                        "phase": "tournament",
+                        "league": first_group_row.get("league", ""),
+                        "team": first_group_row.get("team", ""),
+                        "games": str(_sum(group, "games")),
+                        "goals": str(_sum(group, "goals")),
+                        "assists": str(_sum(group, "assists")),
+                        "points": str(_sum(group, "points")),
+                        "pim": str(_sum(group, "pim")),
+                    }
+                )
+            else:
+                history_source_rows.append(first_group_row)
+
+    for row in history_source_rows:
         history_rows.append(
             "|".join(
                 [
@@ -301,6 +385,7 @@ def generate_player_markdown(
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
     database_url: str = "",
+    merge_csv_path: str = "",
 ) -> tuple[int, int]:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -315,6 +400,7 @@ def generate_player_markdown(
     if not source_rows:
         return 0, 0
 
+    target_uids: set[str] = set()
     for row in source_rows:
         if not row:
             continue
@@ -326,7 +412,35 @@ def generate_player_markdown(
         if not player:
             continue
         uid = _canonical_player_uid(row, player)
+        target_uids.add(uid)
         grouped_rows.setdefault(uid, []).append(row)
+
+    if database_url and include_prefixes:
+        for row in source_rows:
+            if not row:
+                continue
+            player = row.get("player") or row.get("name") or row.get("full_name")
+            if not player:
+                continue
+            uid = _canonical_player_uid(row, player)
+            if uid not in target_uids:
+                continue
+            grouped_rows.setdefault(uid, []).append(row)
+    elif merge_csv_path:
+        merge_rows = _load_rows_from_csv(merge_csv_path)
+        if merge_rows:
+            target_uids = set(grouped_rows.keys())
+            for row in merge_rows:
+                player = row.get("player") or row.get("name") or row.get("full_name")
+                if not player:
+                    continue
+                uid = _canonical_player_uid(row, player)
+                if uid not in target_uids:
+                    continue
+                grouped_rows.setdefault(uid, []).append(row)
+
+    for uid in list(grouped_rows.keys()):
+        grouped_rows[uid] = _dedupe_rows(grouped_rows[uid])
 
     for uid, rows in grouped_rows.items():
         markdown, filename = _rows_to_markdown(rows, default_category=default_category, metadata_date=metadata_date)
@@ -349,6 +463,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default="content/players")
     parser.add_argument("--default-category", default="players")
     parser.add_argument(
+        "--merge-csv-path",
+        default="",
+        help="Optional secondary CSV to merge additional season rows for players found in the primary CSV.",
+    )
+    parser.add_argument(
         "--season-prefixes",
         default="",
         help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de).",
@@ -370,6 +489,7 @@ def main() -> None:
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
         prune_stale=not args.no_prune,
+        merge_csv_path=args.merge_csv_path,
     )
     print(f"player-markdown: wrote={written} removed={removed}")
 

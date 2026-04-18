@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: R. Thalmann
 Category: players
 Slug: player-e02a14d6f566c81d
@@ -9,16 +9,17 @@ team: Floorball Thurgau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
+current_games: 5
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 4
+current_points: 7
 current_pim: 0
-regular_games: 0
+regular_games: 2
 regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_assists: 2
+regular_points: 2
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 3
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 5
 career_goals: 3
-career_assists: 2
-career_points: 5
+career_assists: 4
+career_points: 7
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|3|3|2|5|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|3|3|2|5|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|2|0|2|2|0
 assists: 2
 games: 3
 goals: 3

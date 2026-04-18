@@ -66,6 +66,18 @@
             {% endfor %}
         {% endif %}
     {% endfor %}
+    {% if (not player_stats.article) and category.shortname.startswith('wfc-2024-') %}
+        {% for stats_category, stats_articles in categories %}
+            {% if stats_category.shortname == 'wfc-2024-players' %}
+                {% for candidate in stats_articles %}
+                    {% if candidate.type == 'player_stats' %}
+                        {% set player_stats.article = candidate %}
+                        {% set player_stats.player_count = candidate.player_count|default(0)|int %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 {% endif %}
 {% set player_rows = player_stats.article.player_rows_csv.split('||') if player_stats.article and player_stats.article.player_rows_csv else [] %}
 

@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 from src.social_media.tables import write_home_away_split_table
-from src.scheduled_games import EVENT_SCHEDULED
+from src.scheduled_games import EVENT_RESULT, EVENT_SCHEDULED
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
 from src.utils import add_penalties, is_powerplay, is_boxplay, normalize_slug_fragment, safe_div
@@ -488,7 +488,51 @@ def _penalty_type_label(penalty_type: Optional[str]) -> str:
 def _played_events_only(game_df: pd.DataFrame) -> pd.DataFrame:
     if "event_type" not in game_df.columns:
         return game_df.copy()
-    return game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY])].copy()
+    return game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY, EVENT_RESULT])].copy()
+
+
+def _apply_result_summary(
+    stats: dict[str, Any],
+    *,
+    goals_for: int,
+    goals_against: int,
+    points: int,
+    venue: str,
+    ot_ps_decision: bool,
+) -> None:
+    stats["goals"] = goals_for
+    stats["goals_against"] = goals_against
+    stats["goal_difference"] = goals_for - goals_against
+    stats["points"] = points
+    stats["games"] = 1
+
+    stats["wins"] = 0
+    stats["losses"] = 0
+    stats["draws"] = 0
+    stats["over_time_wins"] = 0
+    stats["over_time_losses"] = 0
+    stats["penalty_shootout_wins"] = 0
+    stats["penalty_shootout_losses"] = 0
+
+    if goals_for > goals_against:
+        if ot_ps_decision:
+            stats["over_time_wins"] = 1
+        else:
+            stats["wins"] = 1
+    elif goals_for < goals_against:
+        if ot_ps_decision:
+            stats["over_time_losses"] = 1
+        else:
+            stats["losses"] = 1
+    else:
+        stats["draws"] = 1
+
+    stats["goals_home"] = goals_for if venue == "home" else 0
+    stats["goals_away"] = goals_for if venue == "away" else 0
+    stats["goals_against_home"] = goals_against if venue == "home" else 0
+    stats["goals_against_away"] = goals_against if venue == "away" else 0
+    stats["home_points"] = points if venue == "home" else 0
+    stats["away_points"] = points if venue == "away" else 0
 
 
 def _is_scheduled_game(game_df: pd.DataFrame) -> bool:
@@ -1797,6 +1841,23 @@ def run_stats_pipeline(
         away_points_local = _points_from_final_score(away_goals_local, home_goals_local, period_local, ingame_status_local, result_string_local)
         ot_ps_decision_local = _is_extra_time_decision(period_local, ingame_status_local, result_string_local)
 
+        _apply_result_summary(
+            home_stats_local,
+            goals_for=home_goals_local,
+            goals_against=away_goals_local,
+            points=home_points_local,
+            venue="home",
+            ot_ps_decision=ot_ps_decision_local,
+        )
+        _apply_result_summary(
+            away_stats_local,
+            goals_for=away_goals_local,
+            goals_against=home_goals_local,
+            points=away_points_local,
+            venue="away",
+            ot_ps_decision=ot_ps_decision_local,
+        )
+
         home_entry_local = {
             "opponent": away_team_name,
             "venue": "home",
@@ -1951,6 +2012,32 @@ def run_stats_pipeline(
             stats["boxplay_efficiency"] = _penalty_kill_efficiency(stats["goals_against_in_boxplay"], stats["boxplay"])
             stats["penalties"] = stats["penalty_2"] + stats["penalty_2and2"] + stats["penalty_10"] + stats["penalty_ms"]
 
+        period_local = int(pd.to_numeric(played_game_df.get("period"), errors="coerce").max()) if not played_game_df.empty else 0
+        ingame_status_local = _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None)
+        result_string_local = _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
+        home_goals_local = int(home_stats.get("goals", 0))
+        away_goals_local = int(away_stats.get("goals", 0))
+        home_points_local = _points_from_final_score(home_goals_local, away_goals_local, period_local, ingame_status_local, result_string_local)
+        away_points_local = _points_from_final_score(away_goals_local, home_goals_local, period_local, ingame_status_local, result_string_local)
+        ot_ps_decision_local = _is_extra_time_decision(period_local, ingame_status_local, result_string_local)
+
+        _apply_result_summary(
+            home_stats,
+            goals_for=home_goals_local,
+            goals_against=away_goals_local,
+            points=home_points_local,
+            venue="home",
+            ot_ps_decision=ot_ps_decision_local,
+        )
+        _apply_result_summary(
+            away_stats,
+            goals_for=away_goals_local,
+            goals_against=home_goals_local,
+            points=away_points_local,
+            venue="away",
+            ot_ps_decision=ot_ps_decision_local,
+        )
+
         venue_value = None
         for venue_column in ("venue", "arena", "location", "venue_name"):
             if venue_column in game_df.columns:
@@ -1966,6 +2053,23 @@ def run_stats_pipeline(
                 if raw_value not in (None, "", "None"):
                     venue_address_value = raw_value
                     break
+
+        passthrough_metadata: dict[str, Any] = {}
+        for metadata_column in (
+            "competition_name",
+            "league_name",
+            "tournament_stage_type",
+            "tournament_stage_label",
+            "tournament_group",
+            "tournament_round",
+            "tournament_round_order",
+        ):
+            if metadata_column not in game_df.columns:
+                continue
+            raw_value = _json_scalar(game_df[metadata_column].iloc[0])
+            if raw_value in (None, "", "None"):
+                continue
+            passthrough_metadata[metadata_column] = raw_value
 
         game_stat = {
             "game_id": game_id,
@@ -1987,6 +2091,7 @@ def run_stats_pipeline(
             game_stat["venue"] = venue_value
         if venue_address_value is not None:
             game_stat["venue_address"] = venue_address_value
+        game_stat.update(passthrough_metadata)
         game_stat.update(pregame_h2h_stats)
         game_stat.update(_build_gameflow_timeline(played_game_df, home_team, away_team))
         game_stat.update(

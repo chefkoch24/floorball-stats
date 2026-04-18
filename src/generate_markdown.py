@@ -311,6 +311,31 @@ def _load_markdown_inputs(
     return game_stats, team_stats, league_stats, db_path if db_path.exists() else None, source_key
 
 
+def _annotate_wfc_group_metadata(
+    team_stats: dict[str, dict[str, Any]],
+    game_stats: list[dict[str, Any]],
+    *,
+    season: str,
+    phase: str,
+) -> None:
+    if not season.startswith("wfc-") or phase != "regular-season":
+        return
+
+    team_groups: dict[str, str] = {}
+    for game in game_stats:
+        group_name = str(game.get("tournament_group") or game.get("league_name") or "").strip()
+        if not group_name.startswith("Group"):
+            continue
+        for team_key in ("home_team", "away_team"):
+            team_name = str(game.get(team_key) or "").strip()
+            if team_name and team_name not in team_groups:
+                team_groups[team_name] = group_name
+
+    for team_name, stats in team_stats.items():
+        if team_name in team_groups:
+            stats["tournament_group"] = team_groups[team_name]
+
+
 def generate_markdown_files(
     game_stats_path: str,
     team_stats_path: str,
@@ -342,6 +367,7 @@ def generate_markdown_files(
         sqlite_path=sqlite_path,
         database_url=database_url,
     )
+    _annotate_wfc_group_metadata(team_stats, game_stats, season=season, phase=phase)
     metadata_date = _resolve_metadata_date(game_stats)
 
     games_written = 0

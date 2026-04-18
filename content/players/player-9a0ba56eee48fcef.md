@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Noel Johansson
 Category: players
 Slug: player-9a0ba56eee48fcef
@@ -9,18 +9,19 @@ team: Växjö IBK
 league: Sweden
 season_count: 1
 current_season: se-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 29
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 23
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 9
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 29
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|9|0|0|0|0
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|6|0|0|0|0||se-25-26|regular-season|Sweden|Växjö IBK|23|0|0|0|0
 assists: 0
-games: 9
+games: 6
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 154
+rank: 151
 season: se-25-26

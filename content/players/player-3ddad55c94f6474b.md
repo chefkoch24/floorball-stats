@@ -1,26 +1,27 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Florin Fehr
 Category: players
 Slug: player-3ddad55c94f6474b
 type: player
 player: Florin Fehr
 player_uid: player-3ddad55c94f6474b
-team: Floorball Köniz Bern / Zug United
+team: Floorball Köniz Bern / Zug United / HC Rychenberg Winterthur / Floorball Köniz Bern / Zug United / SV Wiler-Ersigen / UHC Alligator Malans / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
+current_games: 24
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 13
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 12
+playoff_games: 11
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -30,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
+career_games: 24
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|12|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern / Zug United|11|0|0|0|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur / Floorball Köniz Bern / Zug United / SV Wiler-Ersigen / UHC Alligator Malans / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich|13|0|0|0|0
 assists: 0
-games: 12
+games: 11
 goals: 0
 penalties: 0
 phase: playoffs

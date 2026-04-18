@@ -10,6 +10,9 @@ except ImportError:  # pragma: no cover - optional when DB mode isn't used
     psycopg = None
 
 
+TOURNAMENT_SEASON_PREFIXES = {"wfc"}
+
+
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
     if not raw:
         return set()
@@ -28,7 +31,7 @@ def _normalize_prefix_tokens(raw: str | None) -> set[str]:
 
 
 def _season_prefix(season: str) -> str:
-    match = re.match(r"^([a-z]{2})-\d{2}-\d{2}$", str(season or "").strip().lower())
+    match = re.match(r"^([a-z]{2,3})-(?:\d{2}-\d{2}|\d{4})$", str(season or "").strip().lower())
     if match:
         return match.group(1)
     return ""
@@ -107,6 +110,10 @@ def _phase_priority(phase: str) -> int:
     return 0
 
 
+def _is_tournament_season(season: str) -> bool:
+    return _season_prefix(season) in TOURNAMENT_SEASON_PREFIXES
+
+
 def _format_title(league: str, season: str, phase: str) -> str:
     parts = season.split("-")
     season_label = season
@@ -137,6 +144,79 @@ def _rows_to_csv(rows: list[dict[str, str]]) -> str:
     return "||".join(serialized)
 
 
+def _combined_player_rows(rows: list[dict[str, str]], season: str) -> list[dict[str, str]]:
+    grouped: dict[str, dict[str, object]] = {}
+
+    for row in rows:
+        player_uid = row.get("player_uid", "").strip()
+        player_name = row.get("player", "").strip()
+        if not player_uid and not player_name:
+            continue
+        key = player_uid or player_name.lower()
+        entry = grouped.setdefault(
+            key,
+            {
+                "player_uid": player_uid,
+                "player": player_name,
+                "team_values": [],
+                "league": row.get("league", "").strip(),
+                "season": season,
+                "phase": "tournament",
+                "games": 0,
+                "goals": 0,
+                "assists": 0,
+                "points": 0,
+                "pim": 0,
+            },
+        )
+
+        if not entry["player_uid"] and player_uid:
+            entry["player_uid"] = player_uid
+        if not entry["player"] and player_name:
+            entry["player"] = player_name
+        if not entry["league"] and row.get("league", "").strip():
+            entry["league"] = row.get("league", "").strip()
+
+        team_name = row.get("team", "").strip()
+        if team_name and team_name not in entry["team_values"]:
+            entry["team_values"].append(team_name)
+
+        for stat_key in ("games", "goals", "assists", "points", "pim"):
+            try:
+                entry[stat_key] += int(float(row.get(stat_key, "0") or 0))
+            except (ValueError, TypeError):
+                pass
+
+    combined_rows: list[dict[str, str]] = []
+    sorted_rows = sorted(
+        grouped.values(),
+        key=lambda row: (
+            -int(row["points"]),
+            -int(row["goals"]),
+            -int(row["assists"]),
+            str(row["player"]).lower(),
+        ),
+    )
+    for idx, row in enumerate(sorted_rows, start=1):
+        combined_rows.append(
+            {
+                "rank": str(idx),
+                "player_uid": str(row["player_uid"]),
+                "player": str(row["player"]),
+                "team": " / ".join(row["team_values"]),
+                "league": str(row["league"]),
+                "season": str(row["season"]),
+                "phase": str(row["phase"]),
+                "games": str(row["games"]),
+                "goals": str(row["goals"]),
+                "assists": str(row["assists"]),
+                "points": str(row["points"]),
+                "pim": str(row["pim"]),
+            }
+        )
+    return combined_rows
+
+
 def _write_if_changed(path: Path, content: str) -> bool:
     if path.exists():
         existing = path.read_text(encoding="utf-8")
@@ -146,10 +226,34 @@ def _write_if_changed(path: Path, content: str) -> bool:
     return True
 
 
+def _matches_prefix_scope(filename: str, include_prefixes: set[str]) -> bool:
+    stem = Path(filename).stem
+    for prefix in include_prefixes:
+        if prefix:
+            if stem.startswith(f"{prefix}-"):
+                return True
+        else:
+            if re.match(r"^\d{2}-\d{2}(?:-.+)?$", stem):
+                return True
+    return False
+
+
 def _prune_stale_markdown(directory: Path, expected_filenames: set[str]) -> int:
     removed = 0
     for candidate in directory.glob("*.md"):
         if candidate.name in expected_filenames:
+            continue
+        candidate.unlink()
+        removed += 1
+    return removed
+
+
+def _prune_stale_markdown_for_prefixes(directory: Path, expected_filenames: set[str], include_prefixes: set[str]) -> int:
+    removed = 0
+    for candidate in directory.glob("*.md"):
+        if candidate.name in expected_filenames:
+            continue
+        if not _matches_prefix_scope(candidate.name, include_prefixes):
             continue
         candidate.unlink()
         removed += 1
@@ -192,33 +296,53 @@ def generate_player_stats_index_markdown(
         reverse=True,
     )
     for season, phase in ordered_keys:
-        rows = sorted(
-            grouped_rows[(season, phase)],
-            key=lambda row: int(float(row.get("rank", "999999"))),
-        )
-        first = rows[0]
-        category = f"{season}-{phase}-players"
-        slug = category
+        if _is_tournament_season(season):
+            if phase != "regular-season":
+                continue
+            rows = _combined_player_rows(
+                grouped_rows.get((season, "regular-season"), []) + grouped_rows.get((season, "playoffs"), []),
+                season=season,
+            )
+            if not rows:
+                continue
+            first = rows[0]
+            category = f"{season}-players"
+            slug = category
+            page_phase = "tournament"
+        else:
+            rows = sorted(
+                grouped_rows[(season, phase)],
+                key=lambda row: int(float(row.get("rank", "999999"))),
+            )
+            first = rows[0]
+            category = f"{season}-{phase}-players"
+            slug = category
+            page_phase = phase
         filename = f"{slug}.md"
         expected_files.add(filename)
 
         lines = [
             f"Date: {metadata_date}",
-            f"Title: {_format_title(first.get('league', 'Player'), season, phase)}",
+            f"Title: {_format_title(first.get('league', 'Player'), season, page_phase)}",
             f"Category: {category}",
             f"Slug: {slug}",
             "type: player_stats",
-            f"season_phase_key: {season}-{phase}",
+            f"season_phase_key: {season}-{page_phase}",
             f"league: {first.get('league', '')}",
             f"season: {season}",
-            f"phase: {phase}",
+            f"phase: {page_phase}",
             f"player_count: {len(rows)}",
             f"player_rows_csv: {_rows_to_csv(rows)}",
         ]
         if _write_if_changed(output_path / filename, "\n".join(lines)):
             written += 1
 
-    removed = _prune_stale_markdown(output_path, expected_files) if prune_stale else 0
+    if prune_stale:
+        removed = _prune_stale_markdown(output_path, expected_files)
+    elif include_prefixes:
+        removed = _prune_stale_markdown_for_prefixes(output_path, expected_files, include_prefixes)
+    else:
+        removed = 0
     return written, removed
 
 

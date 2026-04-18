@@ -1,21 +1,22 @@
-Date: 2026-04-17
+Date: 2026-04-18
 Title: Merlin Picariello
 Category: players
 Slug: player-4e9729dea9d527b6
 type: player
 player: Merlin Picariello
 player_uid: player-4e9729dea9d527b6
-team: Grasshopper Club Zürich / HC Rychenberg Winterthur
+team: Grasshopper Club Zürich / HC Rychenberg Winterthur / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 31
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 0
+regular_games: 22
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 31
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|9|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|22|0|0|0|0
 assists: 0
 games: 9
 goals: 0
