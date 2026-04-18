@@ -258,6 +258,7 @@ refresh-latvia-playoffs:
 refresh-wfc:
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)"
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)"
+	"$(PYTHON)" -m src.generate_wfc_tournament_page
 
 refresh-switzerland-smart:
 	$(MAKE) refresh-switzerland-playoffs

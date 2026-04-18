@@ -16,13 +16,9 @@
 {% endblock %}
 
 {% block content %}
-{% if page.slug == 'wfc-2024' %}
-    {% include "wfc_tournament.html" %}
-{% else %}
-    <section class="panel">
-        <div class="panel-body">
-            {{ page.content }}
-        </div>
-    </section>
-{% endif %}
+<section class="panel">
+    <div class="panel-body">
+        {{ page.content }}
+    </div>
+</section>
 {% endblock %}
