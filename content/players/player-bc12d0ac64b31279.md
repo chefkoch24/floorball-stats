@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Adam Karel
 Category: players
 Slug: player-bc12d0ac64b31279
@@ -9,6 +9,7 @@ team: ESA logistika Tatran Střešovice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 17
 current_goals: 0

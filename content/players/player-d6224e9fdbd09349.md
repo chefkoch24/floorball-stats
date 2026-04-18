@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Rovin Thalmann
 Category: players
 Slug: player-d6224e9fdbd09349
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern / Zug United / WASA St. Gallen / Unihockey Basel Reg
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 31
 current_goals: 0

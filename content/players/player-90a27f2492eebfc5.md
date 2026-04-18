@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Yves Walliser
 Category: players
 Slug: player-90a27f2492eebfc5
@@ -9,6 +9,7 @@ team: SV Wiler-Ersigen / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / 
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 27
 current_goals: 0

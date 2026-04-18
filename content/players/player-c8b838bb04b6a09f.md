@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Jiří Curney
 Category: players
 Slug: player-c8b838bb04b6a09f
@@ -9,6 +9,7 @@ team: ACEMA Sparta Praha
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 36
 current_goals: 33

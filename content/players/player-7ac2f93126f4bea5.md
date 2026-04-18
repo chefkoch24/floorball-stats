@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Flavio Graf
 Category: players
 Slug: player-7ac2f93126f4bea5
@@ -9,6 +9,7 @@ team: SV Wiler-Ersigen / Floorball Thurgau / UHC Uster / Tigers Langnau / Grassh
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 12
 current_goals: 0

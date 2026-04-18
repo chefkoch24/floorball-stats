@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Yanik Castelberg
 Category: players
 Slug: player-e054b7b8a3ceeeec
@@ -9,6 +9,7 @@ team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WAS
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 0

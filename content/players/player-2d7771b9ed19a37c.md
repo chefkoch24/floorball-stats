@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-18
 Title: Frans Katila
 Category: players
 Slug: player-2d7771b9ed19a37c
@@ -9,6 +9,7 @@ team: Karhut
 league: Finland
 season_count: 1
 current_season: fi-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 2
@@ -43,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 64
+rank: 54
 season: fi-25-26

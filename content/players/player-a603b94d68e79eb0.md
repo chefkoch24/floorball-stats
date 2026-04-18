@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Daniel Štěrba
 Category: players
 Slug: player-a603b94d68e79eb0
@@ -9,6 +9,7 @@ team: FBC 4CLEAN Česká Lípa
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 28
 current_goals: 10

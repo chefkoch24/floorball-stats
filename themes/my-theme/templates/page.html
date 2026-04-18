@@ -1,9 +1,28 @@
 {% extends "base.html" %}
 
+{% if page.slug == 'wfc-2024' %}
+{% set seo_title = "IFF WFC 2024 Tournament Hub | " ~ SITENAME %}
+{% set seo_description = "Group tables, elimination results, teams, and all games for IFF WFC 2024 on " ~ SITENAME ~ "." %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = page.url %}
+{% endif %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endblock %}
+
 {% block content %}
-<section class="panel">
-    <div class="panel-body">
-        {{ page.content }}
-    </div>
-</section>
+{% if page.slug == 'wfc-2024' %}
+    {% include "wfc_tournament.html" %}
+{% else %}
+    <section class="panel">
+        <div class="panel-body">
+            {{ page.content }}
+        </div>
+    </section>
+{% endif %}
 {% endblock %}

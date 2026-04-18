@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Tobias Ledergerber
 Category: players
 Slug: player-7fde9c6e040a8bd2
@@ -9,6 +9,7 @@ team: Zug United / Zug United / Tigers Langnau / WASA St. Gallen / Unihockey Bas
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 0

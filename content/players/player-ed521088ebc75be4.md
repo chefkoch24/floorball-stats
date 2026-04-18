@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Dominik Bürger
 Category: players
 Slug: player-ed521088ebc75be4
@@ -9,6 +9,7 @@ team: HDT.cz Florbal Vary Bohemians
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 30
 current_goals: 9

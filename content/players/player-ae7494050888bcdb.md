@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-18
 Title: Felix Ifwer
 Category: players
 Slug: player-ae7494050888bcdb
@@ -9,16 +9,17 @@ team: FBC Kalmarsund
 league: Sweden
 season_count: 1
 current_season: se-25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 1
+current_games: 25
 current_goals: 0
-current_assists: 0
-current_points: 0
+current_assists: 1
+current_points: 1
 current_pim: 0
-regular_games: 0
+regular_games: 24
 regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_assists: 1
+regular_points: 1
 regular_pim: 0
 playoff_games: 1
 playoff_goals: 0
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 25
 career_goals: 0
-career_assists: 0
-career_points: 0
+career_assists: 1
+career_points: 1
 career_pim: 0
-history_rows_csv: se-25-26|playoffs|Sweden|FBC Kalmarsund|1|0|0|0|0
+history_rows_csv: se-25-26|playoffs|Sweden|FBC Kalmarsund|1|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|24|0|1|1|0
 assists: 0
 games: 1
 goals: 0

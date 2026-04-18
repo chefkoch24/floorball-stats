@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: J. Siegenthaler
 Category: players
 Slug: player-b9f54cc63f6ae89d
@@ -9,6 +9,7 @@ team: SV Wiler-Ersigen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 1

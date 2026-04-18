@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Timo Renner
 Category: players
 Slug: player-8dbc0b7bf40600c2
@@ -9,6 +9,7 @@ team: Zug United / Zug United / Grasshopper Club Zürich / HC Rychenberg Wintert
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 23
 current_goals: 0

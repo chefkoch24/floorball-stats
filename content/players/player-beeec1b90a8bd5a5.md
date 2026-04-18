@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Nico Mutter
 Category: players
 Slug: player-beeec1b90a8bd5a5
@@ -9,6 +9,7 @@ team: Tigers Langnau / SV Wiler-Ersigen / Floorball Thurgau / Floorball Chur Uni
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 28
 current_goals: 0

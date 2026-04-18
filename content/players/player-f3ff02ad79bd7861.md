@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: N. Moser
 Category: players
 Slug: player-f3ff02ad79bd7861
@@ -9,6 +9,7 @@ team: WASA St. Gallen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 6
 current_goals: 4

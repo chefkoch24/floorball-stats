@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Jonáš Kreysa
 Category: players
 Slug: player-5e672e88a67ce1b2
@@ -9,6 +9,7 @@ team: ESA logistika Tatran Střešovice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 33
 current_goals: 16

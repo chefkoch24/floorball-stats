@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Flavio Rust
 Category: players
 Slug: player-6a4bdb8249dd93a9
@@ -9,6 +9,7 @@ team: UHC Uster / Floorball Thurgau / HC Rychenberg Winterthur / WASA St. Gallen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 12
 current_goals: 0

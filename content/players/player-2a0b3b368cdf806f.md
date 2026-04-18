@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Fadri Burkhart
 Category: players
 Slug: player-2a0b3b368cdf806f
@@ -9,6 +9,7 @@ team: Zug United / Zug United / Tigers Langnau / Grasshopper Club Zürich / HC R
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
 current_goals: 0

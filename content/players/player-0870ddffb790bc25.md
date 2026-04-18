@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Ondřej Kawulok C
 Category: players
 Slug: player-0870ddffb790bc25
@@ -9,6 +9,7 @@ team: HDT.cz Florbal Vary Bohemians
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 34
 current_goals: 0

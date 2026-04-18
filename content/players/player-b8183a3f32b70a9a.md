@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-18
 Title: Jakub Kepšta
 Category: players
 Slug: player-b8183a3f32b70a9a
@@ -9,6 +9,7 @@ team: FBK Nižná
 league: Slovakia
 season_count: 1
 current_season: sk-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 1
 current_goals: 0
@@ -43,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 132
+rank: 133
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Enea Raselli
 Category: players
 Slug: player-dcbd63c59121a55a
@@ -9,6 +9,7 @@ team: SV Wiler-Ersigen / Zug United / UHC Uster
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 0

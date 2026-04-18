@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Markus Holenstein
 Category: players
 Slug: player-3ef4b211b0eb20e4
@@ -9,6 +9,7 @@ team: Floorball Thurgau / WASA St. Gallen / UHC Uster / Tigers Langnau / Grassho
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 7
 current_goals: 0

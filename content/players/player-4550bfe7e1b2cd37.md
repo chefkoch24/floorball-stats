@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Till Clavadetscher
 Category: players
 Slug: player-4550bfe7e1b2cd37
@@ -9,6 +9,7 @@ team: Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thu
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 18
 current_goals: 0

@@ -2,20 +2,30 @@ import argparse
 import json
 from pathlib import Path
 import re
+import sys
+import time
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+from src.scrape_wfc import (
+    AUTH_API_ROOT as WFC_AUTH_API_ROOT,
+    _auth_headers as _wfc_auth_headers,
+    _load_auth_from_env as _load_wfc_auth_from_env,
+    _normalize_team_name as _normalize_wfc_team_name,
+    _refresh_access_token as _refresh_wfc_access_token,
+)
 from src.utils import generate_player_uid, normalize_slug_fragment
 
 
-FILE_PATTERN = re.compile(r"^data_((?P<prefix>[a-z]{2})-)?(?P<years>\d{2}-\d{2})_(?P<phase>regular_season|playoffs)\.csv$")
+FILE_PATTERN = re.compile(r"^data_((?P<prefix>[a-z]{2,3})-)?(?P<years>\d{2}-\d{2}|\d{4})_(?P<phase>regular_season|playoffs)\.csv$")
 STARTKIT_URL = "https://api.innebandy.se/StatsAppApi/api/startkit"
 DEFAULT_API_ROOT = "https://api.innebandy.se/v2/api/"
 GERMANY_API_BASE = "https://saisonmanager.de/api/v2/"
 CZECH_BASE_URL = "https://www.ceskyflorbal.cz"
 SWISS_RENDER_URL = "https://www.swissunihockey.ch/renderengine/load_view.php"
+WFC_GAME_LINEUPS_URL = f"{WFC_AUTH_API_ROOT}/magazinegameviewapi/initgamelineups"
 LEAGUE_INFO = {
     "": {"source_system": "germany", "league": "Germany"},
     "ch": {"source_system": "switzerland", "league": "Switzerland"},
@@ -24,6 +34,7 @@ LEAGUE_INFO = {
     "lv": {"source_system": "latvia", "league": "Latvia"},
     "se": {"source_system": "sweden", "league": "Sweden"},
     "sk": {"source_system": "slovakia", "league": "Slovakia"},
+    "wfc": {"source_system": "wfc", "league": "IFF WFC"},
 }
 
 
@@ -971,6 +982,160 @@ def _fetch_match_lineups(match_id: int, api_root: str, headers: dict[str, str]) 
     return response.json()
 
 
+def _safe_int(value: object) -> int | None:
+    text = str(value or "").strip()
+    if not text:
+        return None
+    try:
+        return int(text)
+    except ValueError:
+        try:
+            return int(float(text))
+        except ValueError:
+            return None
+
+
+def _find_first_nested_list(payload: object, candidate_keys: tuple[str, ...]) -> list[dict]:
+    if isinstance(payload, dict):
+        for key in candidate_keys:
+            value = payload.get(key)
+            if isinstance(value, list):
+                return [item for item in value if isinstance(item, dict)]
+        for value in payload.values():
+            result = _find_first_nested_list(value, candidate_keys)
+            if result:
+                return result
+    elif isinstance(payload, list):
+        for item in payload:
+            result = _find_first_nested_list(item, candidate_keys)
+            if result:
+                return result
+    return []
+
+
+def _extract_wfc_player_name(row: dict) -> str:
+    for key in ("Name", "PlayerName", "FullName", "DisplayName"):
+        value = _normalize_player_name_for_identity(row.get(key))
+        if value:
+            return value
+    first_name = str(row.get("FirstName") or "").strip()
+    last_name = str(row.get("LastName") or "").strip()
+    return _normalize_player_name_for_identity(" ".join(part for part in [first_name, last_name] if part))
+
+
+def _fetch_wfc_game_lineups(game_id: int, auth) -> dict:
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            response = requests.get(
+                WFC_GAME_LINEUPS_URL,
+                params={"GameID": game_id},
+                headers=_wfc_auth_headers(auth.access_token),
+                timeout=30,
+            )
+            if response.status_code == 401:
+                last_error = requests.HTTPError(f"WFC lineups returned HTTP 401 for game {game_id}.")
+                if attempt < 2:
+                    _refresh_wfc_access_token(auth)
+                    time.sleep(1 + attempt)
+                    continue
+                break
+            if response.status_code in {429, 500, 502, 503, 504} and attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+            response.raise_for_status()
+            payload = response.json()
+            return payload if isinstance(payload, dict) else {}
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+            break
+    if last_error:
+        raise last_error
+    return {}
+
+
+def _rows_from_wfc_lineups(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    auth = _load_wfc_auth_from_env()
+    if auth is None:
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="IFF WFC", source_system="wfc")
+
+    records: list[dict] = []
+    failed_game_ids: list[int] = []
+    for match in matches.to_dict("records"):
+        game_id = _safe_int(match.get("game_id"))
+        if game_id is None:
+            continue
+        try:
+            payload = _fetch_wfc_game_lineups(game_id, auth)
+        except Exception as exc:
+            failed_game_ids.append(game_id)
+            print(f"warning: failed to fetch WFC lineups for game {game_id}: {exc}", file=sys.stderr)
+            continue
+        home_team_name = _normalize_wfc_team_name(match.get("home_team_name")) or str(match.get("home_team_name") or "").strip()
+        away_team_name = _normalize_wfc_team_name(match.get("away_team_name")) or str(match.get("away_team_name") or "").strip()
+
+        home_roster = payload.get("HomeTeamGameTeamRoster") if isinstance(payload, dict) else {}
+        away_roster = payload.get("AwayTeamGameTeamRoster") if isinstance(payload, dict) else {}
+        home_lineup = payload.get("HomeTeamLineUp") if isinstance(payload, dict) else {}
+        away_lineup = payload.get("AwayTeamLineUp") if isinstance(payload, dict) else {}
+
+        side_lists = [
+            (
+                home_team_name,
+                [
+                    *([item for item in (home_roster.get("Players") or []) if isinstance(item, dict)] if isinstance(home_roster, dict) else []),
+                    *([item for item in (home_roster.get("Substitutes") or []) if isinstance(item, dict)] if isinstance(home_roster, dict) else []),
+                    *([item for item in (home_lineup.get("GameLineUpPlayers") or []) if isinstance(item, dict)] if isinstance(home_lineup, dict) else []),
+                    *_find_first_nested_list(payload, ("HomeTeamPlayers", "HomePlayers")),
+                ],
+            ),
+            (
+                away_team_name,
+                [
+                    *([item for item in (away_roster.get("Players") or []) if isinstance(item, dict)] if isinstance(away_roster, dict) else []),
+                    *([item for item in (away_roster.get("Substitutes") or []) if isinstance(item, dict)] if isinstance(away_roster, dict) else []),
+                    *([item for item in (away_lineup.get("GameLineUpPlayers") or []) if isinstance(item, dict)] if isinstance(away_lineup, dict) else []),
+                    *_find_first_nested_list(payload, ("AwayTeamPlayers", "AwayPlayers")),
+                ],
+            ),
+        ]
+
+        for team_name, player_rows in side_lists:
+            for row in player_rows:
+                player_name = _extract_wfc_player_name(row)
+                if not player_name or not team_name:
+                    continue
+                records.append(
+                    {
+                        "game_id": str(game_id),
+                        "player_uid": _canonical_player_uid(player_name),
+                        "source_player_id": str(row.get("PlayerID") or row.get("MemberID") or "").strip(),
+                        "source_person_id": str(row.get("PersonID") or "").strip(),
+                        "player": player_name,
+                        "team": team_name,
+                        "games": 1,
+                        "goals": 0,
+                        "assists": 0,
+                        "points": 0,
+                        "pim": 0,
+                        "penalties": 0,
+                    }
+                )
+
+    if failed_game_ids:
+        print(
+            f"warning: WFC lineup fetch skipped {len(failed_game_ids)} game(s) for {season} {phase}: {', '.join(str(game_id) for game_id in failed_game_ids)}",
+            file=sys.stderr,
+        )
+    stats = pd.DataFrame.from_records(records).drop_duplicates(
+        subset=["game_id", "player_uid", "team", "source_player_id", "source_person_id"]
+    )
+    return _finalize_rows(stats, season=season, phase=phase, league="IFF WFC", source_system="wfc")
+
+
 def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str) -> pd.DataFrame:
     api_root, headers = _get_api_root_and_headers()
     records: list[dict] = []
@@ -1042,7 +1207,28 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
     include_prefixes = season_prefixes or set()
 
     existing_exports = _load_existing_player_stats_exports(directory, include_prefixes, output_csv)
+    export_target = Path(output_csv).name
+    raw_prefixes_present: set[str] = set()
+    for candidate in sorted(directory.glob("data_*.csv")):
+        match = FILE_PATTERN.match(candidate.name)
+        if not match:
+            continue
+        prefix = (match.group("prefix") or "").lower()
+        if include_prefixes and prefix not in include_prefixes:
+            continue
+        if prefix in LEAGUE_INFO:
+            raw_prefixes_present.add(prefix)
+
+    missing_export_prefixes = {
+        prefix
+        for prefix in raw_prefixes_present
+        if _player_stats_export_name(prefix) != export_target and not (directory / _player_stats_export_name(prefix)).exists()
+    }
+
+    all_rows: list[pd.DataFrame] = []
     if existing_exports:
+        all_rows.extend(existing_exports)
+    if existing_exports and not missing_export_prefixes:
         result = pd.concat(existing_exports, ignore_index=True)
         result = result.sort_values(
             ["season", "phase", "league", "points", "goals", "assists", "player"],
@@ -1051,14 +1237,14 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
         result.to_csv(output_csv, index=False)
         return len(result)
 
-    all_rows: list[pd.DataFrame] = []
-
     for candidate in sorted(directory.glob("data_*.csv")):
         match = FILE_PATTERN.match(candidate.name)
         if not match:
             continue
         prefix = (match.group("prefix") or "").lower()
         if include_prefixes and prefix not in include_prefixes:
+            continue
+        if existing_exports and prefix not in missing_export_prefixes:
             continue
         years = match.group("years")
         phase_token = match.group("phase")
@@ -1218,6 +1404,26 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
+        elif prefix == "wfc":
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
+                lineup_rows = _rows_from_wfc_lineups(matches=matches, season=season, phase=phase)
+                context_rows = _merge_finalized_rows(
+                    [event_rows, lineup_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
         else:
             context_rows = _rows_from_event_csv(
                 candidate,
@@ -1244,7 +1450,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--season-prefixes",
         default="",
-        help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de).",
+        help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de,wfc).",
     )
     return parser.parse_args()
 

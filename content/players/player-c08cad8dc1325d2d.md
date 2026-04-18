@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: L. Münger
 Category: players
 Slug: player-c08cad8dc1325d2d
@@ -9,6 +9,7 @@ team: Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 6
 current_goals: 2

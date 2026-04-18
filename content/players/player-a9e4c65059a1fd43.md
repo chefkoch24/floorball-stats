@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Ondřej Martinec
 Category: players
 Slug: player-a9e4c65059a1fd43
@@ -9,6 +9,7 @@ team: FBC 4CLEAN Česká Lípa
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 1
 current_goals: 0

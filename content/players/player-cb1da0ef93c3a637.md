@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Filip Smutný
 Category: players
 Slug: player-cb1da0ef93c3a637
@@ -9,6 +9,7 @@ team: Předvýběr.CZ Florbal MB / FBC Liberec / Předvýběr.CZ Florbal MB
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 28
 current_goals: 19

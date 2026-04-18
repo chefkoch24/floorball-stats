@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: L. Arnold
 Category: players
 Slug: player-67072a91c4da23ff
@@ -9,6 +9,7 @@ team: Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 17
 current_goals: 15

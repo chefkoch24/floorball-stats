@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Tomáš Vinkler
 Category: players
 Slug: player-1ed67239d9ad0b4a
@@ -9,6 +9,7 @@ team: BA SOKOLI Pardubice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 7
 current_goals: 0

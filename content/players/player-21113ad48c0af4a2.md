@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Jan Racek
 Category: players
 Slug: player-21113ad48c0af4a2
@@ -9,6 +9,7 @@ team: FBC 4CLEAN Česká Lípa
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 4
 current_goals: 0

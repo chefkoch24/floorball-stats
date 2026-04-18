@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Martin Horn
 Category: players
 Slug: player-83ecff42fdeb70f8
@@ -9,6 +9,7 @@ team: FBC Liberec
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 34
 current_goals: 39

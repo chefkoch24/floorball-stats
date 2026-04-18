@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Levin Peter
 Category: players
 Slug: player-561fe639feac6660
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern / Zug United / HC Rychenberg Winterthur / WASA St. G
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 32
 current_goals: 0

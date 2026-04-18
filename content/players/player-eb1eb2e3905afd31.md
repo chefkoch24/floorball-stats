@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Albin Sjögren
 Category: players
 Slug: player-eb1eb2e3905afd31
@@ -7,9 +7,10 @@ player: Albin Sjögren
 player_uid: player-eb1eb2e3905afd31
 team: UHC Uster / Floorball Thurgau / UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / SV Wiler-Ersigen / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio
 league: Switzerland
-season_count: 1
+season_count: 2
 current_season: ch-25-26
-previous_season: n.a.
+current_season_is_tournament: no
+previous_season: wfc-2024
 current_games: 31
 current_goals: 0
 current_assists: 0
@@ -25,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_games: 6
+previous_goals: 4
+previous_assists: 7
+previous_points: 11
 previous_pim: 0
-career_games: 31
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 37
+career_goals: 4
+career_assists: 7
+career_points: 11
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster / Floorball Thurgau|9|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / SV Wiler-Ersigen / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio|22|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster / Floorball Thurgau|9|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / SV Wiler-Ersigen / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Sweden|6|4|7|11|0
 assists: 0
 games: 9
 goals: 0

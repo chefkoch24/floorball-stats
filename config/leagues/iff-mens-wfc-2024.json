@@ -1,0 +1,9 @@
+{
+  "backend": "wfc",
+  "season": "wfc-2024",
+  "phase": "playoffs",
+  "playoff_teams_count": 16,
+  "wfc": {
+    "league_organizer_id": 187
+  }
+}

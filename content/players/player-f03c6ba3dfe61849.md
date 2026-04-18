@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Benjamin Arm
 Category: players
 Slug: player-f03c6ba3dfe61849
@@ -9,6 +9,7 @@ team: UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wile
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 20
 current_goals: 0

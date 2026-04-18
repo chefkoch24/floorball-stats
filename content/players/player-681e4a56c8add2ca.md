@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Martin Hrabánek
 Category: players
 Slug: player-681e4a56c8add2ca
@@ -9,6 +9,7 @@ team: Florbal Ústí
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 23
 current_goals: 2

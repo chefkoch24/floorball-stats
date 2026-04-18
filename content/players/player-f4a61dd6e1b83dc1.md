@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Vojtěch Hubinger
 Category: players
 Slug: player-f4a61dd6e1b83dc1
@@ -9,6 +9,7 @@ team: TJ Sokol Královské Vinohrady
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 16
 current_goals: 0

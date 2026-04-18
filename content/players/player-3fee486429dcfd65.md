@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Nadir Monighetti
 Category: players
 Slug: player-3fee486429dcfd65
@@ -9,6 +9,7 @@ team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WAS
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 19
 current_goals: 0

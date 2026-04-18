@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Adam Filip Hrdlička
 Category: players
 Slug: player-e043cecad7456355
@@ -9,6 +9,7 @@ team: FBC 4CLEAN Česká Lípa
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 15
 current_goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: L. Tringaniello
 Category: players
 Slug: player-b9f77d7f8c5684f0
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 10
 current_goals: 4

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Timon Stäubli
 Category: players
 Slug: player-0b53ddc1904c2c4c
@@ -9,6 +9,7 @@ team: SV Wiler-Ersigen / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / 
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
 current_goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Jaroslav David
 Category: players
 Slug: player-3a9fab3b5739e515
@@ -9,6 +9,7 @@ team: FBŠ Hummel Hattrick Brno
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 0

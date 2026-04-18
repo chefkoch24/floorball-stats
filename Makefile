@@ -68,6 +68,9 @@ LATVIA_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv.json
 LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv-playoffs.json
 LATVIA_PLAYOFFS_SEASON ?= lv-25-26
 LATVIA_PLAYOFFS_CSV ?= data/data_$(LATVIA_PLAYOFFS_SEASON)_playoffs.csv
+# WFC / IFF competitions
+WFC_REGULAR_SEASON_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024-regular-season.json
+WFC_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024.json
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -99,34 +102,38 @@ help:
 	@echo '   make refresh-slovakia-playoffs      playoffs pipeline for Slovak Extraliga'
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
 	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
+	@echo '   make refresh-wfc                    one-off pipeline for WFC/IFF content '
 	@echo '   make refresh-all-leagues            run all league pipelines + player stats + html'
 	@echo '   make refresh-everything             alias for refresh-all-leagues        '
-	@echo '   make refresh-player-stats           build all player stats CSV           '
-	@echo '   make refresh-player-pages           generate player pages from CSV       '
-	@echo '   make refresh-player-stats-pages     generate season player stats pages   '
-	@echo '   make refresh-sqlite                 rebuild derived SQLite from CSV       '
-	@echo '   make refresh-postgres               rebuild derived Postgres tables from CSV'
-	@echo '   make refresh-player-stats-germany   build Germany-only player stats CSV  '
-	@echo '   make refresh-player-pages-germany   update Germany player markdown only  '
+	@echo '   make refresh-player-stats           rebuild player stats artifacts       '
+	@echo '   make refresh-player-pages           generate player pages (DB-first)     '
+	@echo '   make refresh-player-stats-pages     generate player ranking pages (DB-first)'
+	@echo '   make refresh-sqlite                 rebuild derived local SQLite mirror   '
+	@echo '   make refresh-postgres               rebuild derived Postgres runtime tables'
+	@echo '   make refresh-player-stats-germany   rebuild Germany player stats artifacts'
+	@echo '   make refresh-player-pages-germany   update Germany player markdown (DB-first)'
 	@echo '   make refresh-germany-full           4-step Germany pipeline + html       '
-	@echo '   make refresh-player-stats-sweden-only build Sweden-only player stats CSV '
-	@echo '   make refresh-player-pages-sweden    update Sweden player markdown only   '
+	@echo '   make refresh-player-stats-sweden-only rebuild Sweden player stats artifacts'
+	@echo '   make refresh-player-pages-sweden    update Sweden player markdown (DB-first)'
 	@echo '   make refresh-sweden-full            4-step Sweden pipeline + html        '
-	@echo '   make refresh-player-stats-switzerland build Switzerland-only stats CSV   '
-	@echo '   make refresh-player-pages-switzerland update Switzerland markdown only   '
+	@echo '   make refresh-player-stats-switzerland rebuild Switzerland player stats artifacts'
+	@echo '   make refresh-player-pages-switzerland update Switzerland markdown (DB-first)'
 	@echo '   make refresh-switzerland-full       4-step Switzerland pipeline + html   '
-	@echo '   make refresh-player-stats-finland   build Finland-only player stats CSV  '
-	@echo '   make refresh-player-pages-finland   update Finland player markdown only  '
+	@echo '   make refresh-player-stats-finland   rebuild Finland player stats artifacts'
+	@echo '   make refresh-player-pages-finland   update Finland player markdown (DB-first)'
 	@echo '   make refresh-finland-full           4-step Finland pipeline + html       '
-	@echo '   make refresh-player-stats-czech     build Czech-only player stats CSV    '
-	@echo '   make refresh-player-pages-czech     update Czech player markdown only    '
+	@echo '   make refresh-player-stats-czech     rebuild Czech player stats artifacts '
+	@echo '   make refresh-player-pages-czech     update Czech player markdown (DB-first)'
 	@echo '   make refresh-czech-full             4-step Czech pipeline + html         '
-	@echo '   make refresh-player-stats-slovakia  build Slovakia-only player stats CSV '
-	@echo '   make refresh-player-pages-slovakia  update Slovakia player markdown only '
+	@echo '   make refresh-player-stats-slovakia  rebuild Slovakia player stats artifacts'
+	@echo '   make refresh-player-pages-slovakia  update Slovakia player markdown (DB-first)'
 	@echo '   make refresh-slovakia-full          4-step Slovakia pipeline + html      '
-	@echo '   make refresh-player-stats-latvia    build Latvia-only player stats CSV   '
-	@echo '   make refresh-player-pages-latvia    update Latvia player markdown only   '
+	@echo '   make refresh-player-stats-latvia    rebuild Latvia player stats artifacts'
+	@echo '   make refresh-player-pages-latvia    update Latvia player markdown (DB-first)'
 	@echo '   make refresh-latvia-full            4-step Latvia pipeline + html        '
+	@echo '   make refresh-player-stats-wfc       rebuild WFC player stats artifacts   '
+	@echo '   make refresh-player-pages-wfc       update WFC player markdown (DB-first)'
+	@echo '   make refresh-wfc-players-full       WFC pipeline + WFC player pages + html'
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -147,6 +154,7 @@ help:
 	@echo 'Set SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-slovakia-playoffs   '
 	@echo 'Set LATVIA_LEAGUE_CONFIG to override refresh-latvia                         '
 	@echo 'Set LATVIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-latvia-playoffs       '
+	@echo 'Set WFC_REGULAR_SEASON_LEAGUE_CONFIG/WFC_LEAGUE_CONFIG to override refresh-wfc'
 	@echo '                                                                          '
 
 html:
@@ -247,6 +255,10 @@ refresh-latvia:
 refresh-latvia-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_PLAYOFFS_LEAGUE_CONFIG)"
 
+refresh-wfc:
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)"
+
 refresh-switzerland-smart:
 	$(MAKE) refresh-switzerland-playoffs
 	@if [ -f "$(SWISS_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SWISS_PLAYOFFS_CSV)")" -gt 1 ]; then \
@@ -318,8 +330,8 @@ refresh-player-stats-germany:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_de.csv" --season-prefixes "de"
 
 refresh-player-pages-germany:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_de.csv" --output-dir "content/players" --season-prefixes "de" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_de.csv" --output-dir "content/player-stats" --season-prefixes "de" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_de.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "de" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_de.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "de" --no-prune
 
 refresh-germany-full:
 	$(MAKE) refresh-current-season
@@ -332,8 +344,8 @@ refresh-player-stats-sweden-only:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_se.csv" --season-prefixes "se"
 
 refresh-player-pages-sweden:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_se.csv" --output-dir "content/players" --season-prefixes "se" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_se.csv" --output-dir "content/player-stats" --season-prefixes "se" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_se.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "se" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_se.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "se" --no-prune
 
 refresh-sweden-full:
 	$(MAKE) refresh-sweden
@@ -346,8 +358,8 @@ refresh-player-stats-switzerland:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_ch.csv" --season-prefixes "ch"
 
 refresh-player-pages-switzerland:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_ch.csv" --output-dir "content/players" --season-prefixes "ch" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_ch.csv" --output-dir "content/player-stats" --season-prefixes "ch" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_ch.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "ch" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_ch.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "ch" --no-prune
 
 refresh-switzerland-full:
 	$(MAKE) refresh-switzerland
@@ -360,8 +372,8 @@ refresh-player-stats-finland:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_fi.csv" --season-prefixes "fi"
 
 refresh-player-pages-finland:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_fi.csv" --output-dir "content/players" --season-prefixes "fi" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_fi.csv" --output-dir "content/player-stats" --season-prefixes "fi" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_fi.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "fi" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_fi.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "fi" --no-prune
 
 refresh-finland-full:
 	$(MAKE) refresh-finland
@@ -374,8 +386,8 @@ refresh-player-stats-czech:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_cz.csv" --season-prefixes "cz"
 
 refresh-player-pages-czech:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_cz.csv" --output-dir "content/players" --season-prefixes "cz" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_cz.csv" --output-dir "content/player-stats" --season-prefixes "cz" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_cz.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "cz" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_cz.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "cz" --no-prune
 
 refresh-czech-full:
 	$(MAKE) refresh-czech
@@ -388,8 +400,8 @@ refresh-player-stats-slovakia:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_sk.csv" --season-prefixes "sk"
 
 refresh-player-pages-slovakia:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_sk.csv" --output-dir "content/players" --season-prefixes "sk" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_sk.csv" --output-dir "content/player-stats" --season-prefixes "sk" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_sk.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "sk" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_sk.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "sk" --no-prune
 
 refresh-slovakia-full:
 	$(MAKE) refresh-slovakia
@@ -402,8 +414,8 @@ refresh-player-stats-latvia:
 	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_lv.csv" --season-prefixes "lv"
 
 refresh-player-pages-latvia:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_lv.csv" --output-dir "content/players" --season-prefixes "lv" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_lv.csv" --output-dir "content/player-stats" --season-prefixes "lv" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_lv.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "lv" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_lv.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "lv" --no-prune
 
 refresh-latvia-full:
 	$(MAKE) refresh-latvia
@@ -412,4 +424,21 @@ refresh-latvia-full:
 	$(MAKE) refresh-player-pages-latvia
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-all-leagues refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full
+refresh-player-stats-wfc:
+	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_wfc.csv" --season-prefixes "wfc"
+
+refresh-player-pages-wfc:
+	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_wfc.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --merge-csv-path "data/player_stats.csv" --output-dir "content/players" --season-prefixes "wfc" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_wfc.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "wfc" --no-prune
+
+refresh-wfc-full:
+	$(MAKE) refresh-wfc
+	$(MAKE) html
+
+refresh-wfc-players-full:
+	$(MAKE) refresh-wfc
+	$(MAKE) refresh-player-stats-wfc
+	$(MAKE) refresh-player-pages-wfc
+	$(MAKE) html
+
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc

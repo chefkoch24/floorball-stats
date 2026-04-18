@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: P. Krähenbühl
 Category: players
 Slug: player-b0448db2fa5a6834
@@ -9,6 +9,7 @@ team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 8
 current_goals: 3

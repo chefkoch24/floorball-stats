@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Severin Moser
 Category: players
 Slug: player-b15d359fb0cd221f
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball C
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 21
 current_goals: 0

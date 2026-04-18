@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Martin Šulc
 Category: players
 Slug: player-9520c85c0df7d1b2
@@ -9,6 +9,7 @@ team: FBC ČPP Bystroň Group OSTRAVA
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 2

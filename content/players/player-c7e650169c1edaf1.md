@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Simon Steiner
 Category: players
 Slug: player-c7e650169c1edaf1
@@ -9,6 +9,7 @@ team: HC Rychenberg Winterthur / Floorball Chur United / UHC Uster / Zug United 
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
 current_goals: 0

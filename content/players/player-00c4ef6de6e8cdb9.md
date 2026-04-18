@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Lukáš Vlach
 Category: players
 Slug: player-00c4ef6de6e8cdb9
@@ -9,6 +9,7 @@ team: FBŠ Hummel Hattrick Brno
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
 current_goals: 8

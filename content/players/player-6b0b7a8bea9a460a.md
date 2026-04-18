@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Severin Schmid
 Category: players
 Slug: player-6b0b7a8bea9a460a
@@ -9,6 +9,7 @@ team: WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 0

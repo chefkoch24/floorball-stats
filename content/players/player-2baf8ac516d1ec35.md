@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Pascal Michel
 Category: players
 Slug: player-2baf8ac516d1ec35
@@ -9,6 +9,7 @@ team: Floorball Thurgau / WASA St. Gallen / Unihockey Basel Regio / UHC Alligato
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 0

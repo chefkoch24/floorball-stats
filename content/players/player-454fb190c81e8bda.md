@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Matyáš Malkus
 Category: players
 Slug: player-454fb190c81e8bda
@@ -9,6 +9,7 @@ team: ACEMA Sparta Praha
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 20
 current_goals: 8

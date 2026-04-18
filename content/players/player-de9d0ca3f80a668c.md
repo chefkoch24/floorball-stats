@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Noel Hug
 Category: players
 Slug: player-de9d0ca3f80a668c
@@ -9,6 +9,7 @@ team: Zug United / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 13
 current_goals: 0

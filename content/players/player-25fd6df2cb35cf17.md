@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Maurin Biner
 Category: players
 Slug: player-25fd6df2cb35cf17
@@ -9,6 +9,7 @@ team: Floorball Thurgau / WASA St. Gallen / Unihockey Basel Regio / Zug United /
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 24
 current_goals: 0

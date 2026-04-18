@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: M. Arnet
 Category: players
 Slug: player-e16938bc4ae54f2a
@@ -9,6 +9,7 @@ team: UHC Uster
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 5
 current_goals: 2

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: N. Rutz
 Category: players
 Slug: player-512c81aa1e709ff9
@@ -9,6 +9,7 @@ team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 2
 current_goals: 0

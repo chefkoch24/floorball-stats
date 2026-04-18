@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: P. Mendelin
 Category: players
 Slug: player-6ee10b1d7a8de8b7
@@ -9,6 +9,7 @@ team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 17
 current_goals: 9

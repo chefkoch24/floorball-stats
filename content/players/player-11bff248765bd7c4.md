@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Matyáš Krebner C
 Category: players
 Slug: player-11bff248765bd7c4
@@ -9,6 +9,7 @@ team: HDT.cz Florbal Vary Bohemians
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 2
 current_goals: 0

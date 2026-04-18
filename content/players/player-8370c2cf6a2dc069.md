@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Lukáš Kubíček
 Category: players
 Slug: player-8370c2cf6a2dc069
@@ -9,6 +9,7 @@ team: 1. SC NATIOS Vítkovice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 23
 current_goals: 5

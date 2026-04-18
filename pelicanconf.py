@@ -72,6 +72,12 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'ch-25-26-playoffs/teams',
                  'ch-25-26-playoffs/games',
                  'ch-25-26-playoffs/liga',
+                 'wfc-2024-regular-season/teams',
+                 'wfc-2024-regular-season/games',
+                 'wfc-2024-regular-season/liga',
+                 'wfc-2024-playoffs/teams',
+                 'wfc-2024-playoffs/games',
+                 'wfc-2024-playoffs/liga',
                  'players',
                  'player-stats',
                  ] # add season links here for teams and liga
@@ -125,6 +131,7 @@ MENUITEMS = (
     ('Finland Playoffs 25-26', '/category/fi-25-26-playoffs.html'),
     ('Latvia Regular Season 25-26', '/category/lv-25-26-regular-season.html'),
     ('Slovakia Regular Season 25-26', '/category/sk-25-26-regular-season.html'),
+    ('IFF WFC 2024', '/wfc-2024.html'),
     # add season links here
 )
 
@@ -191,6 +198,12 @@ def category2string(slug):
             return f"{base} Player Stats" if is_players else base
         base = f"{label} " + " ".join([s.capitalize() for s in rest])
         return f"{base} Player Stats" if is_players else base
+    if slug[0] in {'wfc', 'iff'}:
+        if len(slug) >= 2 and slug[1].isdigit():
+            base = (f"IFF WFC {slug[1]} " + " ".join([s.capitalize() for s in slug[2:]])).strip()
+            return f"{base} Player Stats" if is_players else base
+        base = ("IFF WFC " + " ".join([s.capitalize() for s in slug[1:]])).strip()
+        return f"{base} Player Stats" if is_players else base
     slug = [s.capitalize() for s in slug]
     base = f'{slug[0]}/' + " ".join(slug[1:])
     return f"{base} Player Stats" if is_players else base
@@ -240,6 +253,8 @@ def category2breadcrumb(slug):
         'latvia': 'Latvia',
         'sk': 'Slovakia',
         'slovakia': 'Slovakia',
+        'wfc': 'IFF WFC',
+        'iff': 'IFF WFC',
     }
 
     country = country_map.get(parts[0], 'Germany')

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: N. Graf
 Category: players
 Slug: player-94d5b48bc7bf0a36
@@ -9,6 +9,7 @@ team: Floorball Thurgau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 15
 current_goals: 9

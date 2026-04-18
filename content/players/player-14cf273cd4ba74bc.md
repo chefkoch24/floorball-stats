@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Kryštof Krbec
 Category: players
 Slug: player-14cf273cd4ba74bc
@@ -9,6 +9,7 @@ team: Kanonýři Kladno
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 32
 current_goals: 6

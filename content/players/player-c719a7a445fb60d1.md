@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: David Kryl
 Category: players
 Slug: player-c719a7a445fb60d1
@@ -9,6 +9,7 @@ team: ESA logistika Tatran Střešovice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 14
 current_goals: 2

@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: O. Weissbach
 Category: players
 Slug: player-8a8d190543ef1c8f
@@ -9,6 +9,7 @@ team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 10

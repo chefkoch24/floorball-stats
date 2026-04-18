@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Petr Majer
 Category: players
 Slug: player-bda1d67da20b966b
@@ -9,6 +9,7 @@ team: ESA logistika Tatran Střešovice
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 35
 current_goals: 31

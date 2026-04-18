@@ -1,4 +1,4 @@
-Date: 2026-04-14
+Date: 2026-04-18
 Title: Maximilian Schröder
 Category: players
 Slug: player-3f9dfa7659a66ccf
@@ -9,16 +9,17 @@ team: Floor Fighters Chemnitz
 league: Germany
 season_count: 1
 current_season: 25-26
+current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 20
+current_goals: 3
+current_assists: 6
+current_points: 9
 current_pim: 0
-regular_games: 0
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 17
+regular_goals: 3
+regular_assists: 6
+regular_points: 9
 regular_pim: 0
 playoff_games: 3
 playoff_goals: 0
@@ -30,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_games: 20
+career_goals: 3
+career_assists: 6
+career_points: 9
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0
+history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|17|3|6|9|0
 assists: 0
 games: 3
 goals: 0

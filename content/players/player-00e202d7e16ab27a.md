@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Linus Felix
 Category: players
 Slug: player-00e202d7e16ab27a
@@ -9,6 +9,7 @@ team: Unihockey Basel Regio / Floorball Chur United / UHC Uster / Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 16
 current_goals: 0

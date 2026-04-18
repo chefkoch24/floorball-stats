@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: M. Hofer
 Category: players
 Slug: player-c2a40c7edd3502ea
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 1
 current_goals: 1

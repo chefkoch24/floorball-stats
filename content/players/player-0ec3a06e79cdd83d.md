@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Mikuláš Krbec C
 Category: players
 Slug: player-0ec3a06e79cdd83d
@@ -9,6 +9,7 @@ team: ACEMA Sparta Praha
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 33
 current_goals: 0

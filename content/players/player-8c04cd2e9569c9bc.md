@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: N. Hug
 Category: players
 Slug: player-8c04cd2e9569c9bc
@@ -9,6 +9,7 @@ team: UHC Uster
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 3
 current_goals: 2

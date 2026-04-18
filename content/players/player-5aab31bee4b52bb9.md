@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: M. Wöcke
 Category: players
 Slug: player-5aab31bee4b52bb9
@@ -9,6 +9,7 @@ team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 13
 current_goals: 7

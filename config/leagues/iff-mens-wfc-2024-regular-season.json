@@ -1,0 +1,8 @@
+{
+  "backend": "wfc",
+  "season": "wfc-2024",
+  "phase": "regular-season",
+  "wfc": {
+    "league_organizer_id": 187
+  }
+}

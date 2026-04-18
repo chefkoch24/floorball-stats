@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: J. Britt
 Category: players
 Slug: player-a658de0b219056ab
@@ -9,6 +9,7 @@ team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 19
 current_goals: 27

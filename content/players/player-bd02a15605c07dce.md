@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: A. Stüdeli
 Category: players
 Slug: player-bd02a15605c07dce
@@ -9,6 +9,7 @@ team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 5
 current_goals: 3

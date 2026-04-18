@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Vít Pavelka
 Category: players
 Slug: player-e4e4c48afe43e21b
@@ -9,6 +9,7 @@ team: Florbal Ústí
 league: Czech Republic
 season_count: 1
 current_season: cz-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 24
 current_goals: 1

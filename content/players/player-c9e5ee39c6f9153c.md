@@ -1,4 +1,4 @@
-Date: 2026-04-15
+Date: 2026-04-18
 Title: Michael Schwizer
 Category: players
 Slug: player-c9e5ee39c6f9153c
@@ -9,6 +9,7 @@ team: Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball C
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
+current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
 current_goals: 0
