@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: C. Karlsson
 Category: players
 Slug: player-de6f7af975fea4cb

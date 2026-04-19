@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Wiktor Åkerstedt
 Category: players
 Slug: player-e8bddf42328f9520
@@ -15,12 +15,12 @@ current_games: 25
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 4
+current_pim: 8
 regular_games: 25
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 4
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -35,14 +35,14 @@ career_games: 25
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|25|0|0|0|4
+career_pim: 8
+history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|25|0|0|0|8
 assists: 0
 games: 25
 goals: 0
-penalties: 2
+penalties: 4
 phase: regular-season
-pim: 4
+pim: 8
 points: 0
-rank: 340
+rank: 341
 season: se-25-26

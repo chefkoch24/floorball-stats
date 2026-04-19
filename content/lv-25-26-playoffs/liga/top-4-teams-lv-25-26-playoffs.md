@@ -30,14 +30,14 @@ goal_difference: 12.75
 goal_difference_per_game: 1.19
 goals: 72.0
 goals_against: 59.25
-goals_against_away: 30.0
-goals_against_home: 27.5
+goals_against_away: 30.75
+goals_against_home: 28.5
 goals_against_in_boxplay: 7.0
 goals_against_in_boxplay_per_game: 0.59
 goals_against_in_powerplay: 2.25
 goals_against_per_game: 4.76
-goals_away: 32.75
-goals_home: 36.25
+goals_away: 34.5
+goals_home: 37.5
 goals_in_boxplay: 1.5
 goals_in_first_period: 19.75
 goals_in_first_period_against: 15.75
@@ -53,9 +53,9 @@ goals_in_third_period_against: 22.0
 goals_per_game: 5.96
 home_points: 10.75
 loss_1: 0.5
-losses: 4.75
-over_time_losses: 0.0
-over_time_wins: 0.5
+losses: 4.0
+over_time_losses: 0.75
+over_time_wins: 1.0
 penalties: 27.25
 penalties_per_game: 2.17
 penalty_10: 2.5
@@ -103,4 +103,4 @@ take_the_lead_goals: 15.5
 take_the_lead_goals_against: 11.75
 title: Top 4 Teams
 win_1: 1.0
-wins: 7.0
+wins: 6.5

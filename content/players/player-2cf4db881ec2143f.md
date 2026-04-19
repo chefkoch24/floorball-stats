@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Filip Forman
 Category: players
 Slug: player-2cf4db881ec2143f
@@ -26,17 +26,17 @@ playoff_goals: 8
 playoff_assists: 10
 playoff_points: 18
 playoff_pim: 6
-previous_games: 6
+previous_games: 3
 previous_goals: 2
 previous_assists: 1
 previous_points: 3
 previous_pim: 2
-career_games: 37
+career_games: 34
 career_goals: 31
 career_assists: 42
 career_points: 73
 career_pim: 14
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|8|10|18|6||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|21|21|31|52|6||wfc-2024|tournament|IFF WFC|Czechia|6|2|1|3|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|8|10|18|6||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|21|21|31|52|6||wfc-2024|tournament|IFF WFC|Czechia|3|2|1|3|2
 assists: 10
 games: 10
 goals: 8

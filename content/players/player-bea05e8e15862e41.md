@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Sebastián Halas
 Category: players
 Slug: player-bea05e8e15862e41
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 241
+rank: 239
 season: sk-25-26

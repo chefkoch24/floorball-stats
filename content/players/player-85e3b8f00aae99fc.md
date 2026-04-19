@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Gustav Ringhagen
 Category: players
 Slug: player-85e3b8f00aae99fc
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 287
+rank: 288
 season: se-25-26

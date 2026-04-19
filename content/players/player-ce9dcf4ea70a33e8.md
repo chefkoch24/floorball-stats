@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Roberts Blumbergs
 Category: players
 Slug: player-ce9dcf4ea70a33e8

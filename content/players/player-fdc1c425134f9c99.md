@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Richard Hodák
 Category: players
 Slug: player-fdc1c425134f9c99
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 328
+rank: 327
 season: sk-25-26

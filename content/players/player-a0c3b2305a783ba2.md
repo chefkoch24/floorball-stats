@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Leo Häfner
 Category: players
 Slug: player-a0c3b2305a783ba2
@@ -26,17 +26,17 @@ playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
 playoff_pim: 2
-previous_games: 7
+previous_games: 1
 previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 2
-career_games: 30
+career_games: 24
 career_goals: 12
 career_assists: 13
 career_points: 25
 career_pim: 6
-history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|2
+history_rows_csv: 25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|2
 assists: 0
 games: 3
 goals: 2
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 38
+rank: 48
 season: 25-26

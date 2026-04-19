@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Leo Sagmander Kjell
 Category: players
 Slug: player-f09aec8255f55db0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 304
+rank: 305
 season: se-25-26

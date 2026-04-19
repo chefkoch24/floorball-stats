@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Lucas Orrmo
 Category: players
 Slug: player-4ccef335c81308e8
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 143
+rank: 148
 season: se-25-26

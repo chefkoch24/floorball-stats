@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jarno Pensikkala
 Category: players
 Slug: player-c9b055e52eff0014
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 16
+rank: 26
 season: 25-26

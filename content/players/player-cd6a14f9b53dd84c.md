@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Mathias Einamann
 Category: players
 Slug: player-cd6a14f9b53dd84c
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 6
+current_games: 4
 current_goals: 2
 current_assists: 3
 current_points: 5
@@ -31,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 4
 career_goals: 2
 career_assists: 3
 career_points: 5
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|6|2|3|5|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|4|2|3|5|0
 assists: 2
 games: 3
 goals: 1

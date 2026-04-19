@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Josef Oreholm
 Category: players
 Slug: player-3864f0948acbd11d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 298
+rank: 299
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jan Bürki
 Category: players
 Slug: player-07cebeb3ad3f932b
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 3
 previous_goals: 1
 previous_assists: 4
 previous_points: 5
 previous_pim: 0
-career_games: 37
+career_games: 34
 career_goals: 1
 career_assists: 4
 career_points: 5
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|10|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|1|4|5|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|10|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|3|1|4|5|0
 assists: 0
 games: 10
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matej Václavík
 Category: players
 Slug: player-8b50d2dda453b4f4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 309
+rank: 307
 season: sk-25-26

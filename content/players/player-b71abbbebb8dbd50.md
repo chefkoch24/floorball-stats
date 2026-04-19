@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Oliver Staiger
 Category: players
 Slug: player-b71abbbebb8dbd50
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 322
+rank: 323
 season: se-25-26

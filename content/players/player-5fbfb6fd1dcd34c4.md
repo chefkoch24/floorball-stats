@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michael Haenle
 Category: players
 Slug: player-5fbfb6fd1dcd34c4

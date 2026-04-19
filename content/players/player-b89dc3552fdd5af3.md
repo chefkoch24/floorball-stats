@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Philip Firsbach
 Category: players
 Slug: player-b89dc3552fdd5af3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 154
+rank: 155
 season: 25-26

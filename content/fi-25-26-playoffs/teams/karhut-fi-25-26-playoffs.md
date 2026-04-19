@@ -1,4 +1,4 @@
-Date: 2026-04-22
+Date: 2026-04-26
 Title: Karhut
 Category: fi-25-26-playoffs, teams
 Slug: karhut-fi-25-26-playoffs-fi-25-26-playoffs

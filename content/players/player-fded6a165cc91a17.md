@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Niko Latvakoski
 Category: players
 Slug: player-fded6a165cc91a17
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 81
+rank: 83
 season: 25-26

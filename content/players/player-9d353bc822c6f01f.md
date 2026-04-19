@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Klavs Jansons
 Category: players
 Slug: player-9d353bc822c6f01f
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 7
+current_games: 1
 current_goals: 1
 current_assists: 1
 current_points: 2
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 1
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Latvia|7|1|1|2|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Latvia|1|1|1|2|0
 assists: 1
-games: 4
+games: 1
 goals: 1
 penalties: 0
 phase: playoffs

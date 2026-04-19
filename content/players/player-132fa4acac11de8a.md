@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Ondrejička Adam Martin
 Category: players
 Slug: player-132fa4acac11de8a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 259
+rank: 252
 season: sk-25-26

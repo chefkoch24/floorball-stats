@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: A. Füllemann
 Category: players
 Slug: player-cf87a9a50749fcb4

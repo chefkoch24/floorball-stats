@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jakub Jirsa
 Category: players
 Slug: player-a7bb0d013b5fd485

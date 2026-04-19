@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Teodor Beriac
 Category: players
 Slug: player-5e5cd351bea162b6

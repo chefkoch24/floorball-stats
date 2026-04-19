@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Manuel Matt
 Category: players
 Slug: player-ff9bc433c1ad452a

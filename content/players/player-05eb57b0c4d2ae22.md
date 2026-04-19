@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Henriks Šķēle
 Category: players
 Slug: player-05eb57b0c4d2ae22
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 148
+rank: 150
 season: lv-25-26

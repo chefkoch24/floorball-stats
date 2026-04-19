@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Santtu Rehu
 Category: players
 Slug: player-b55105fddf68ac10
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 124
+rank: 131
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: S. Nigg
 Category: players
 Slug: player-4fb023633cbdf201
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 29
+rank: 30
 season: ch-25-26

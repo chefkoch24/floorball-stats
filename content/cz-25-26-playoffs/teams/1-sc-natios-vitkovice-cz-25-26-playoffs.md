@@ -56,7 +56,7 @@ home_points: 4
 loss_1: 1
 losses: 3
 over_time_losses: 1
-over_time_wins: 0
+over_time_wins: 1
 penalties: 4
 penalties_per_game: 0.67
 penalty_10: 0
@@ -67,7 +67,7 @@ penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 1
 penalty_shootout_losses: 0
-penalty_shootout_wins: 1
+penalty_shootout_wins: 0
 penalty_shot_goals: 1
 penalty_shot_goals_against: 1
 penalty_third_period: 1

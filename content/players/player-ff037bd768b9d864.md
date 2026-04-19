@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: G. Persici
 Category: players
 Slug: player-ff037bd768b9d864
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 13
-rank: 7
+rank: 8
 season: ch-25-26

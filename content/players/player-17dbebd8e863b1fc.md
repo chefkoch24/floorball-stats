@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Pēteris Džeriņš
 Category: players
 Slug: player-17dbebd8e863b1fc

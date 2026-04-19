@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Hugo Liljeros
 Category: players
 Slug: player-0cc52cfe9e58aacd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 291
+rank: 292
 season: se-25-26

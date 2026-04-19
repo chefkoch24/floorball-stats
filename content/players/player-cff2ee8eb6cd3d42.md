@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matias Kyykoski
 Category: players
 Slug: player-cff2ee8eb6cd3d42
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 29
+rank: 41
 season: 25-26

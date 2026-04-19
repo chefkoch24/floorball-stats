@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: N. Bisig
 Category: players
 Slug: player-e6e29632c0bef974

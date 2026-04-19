@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Gabriels Silins
 Category: players
 Slug: player-4b27f45bc8b6b65d
@@ -7,10 +7,10 @@ player: Gabriels Silins
 player_uid: player-4b27f45bc8b6b65d
 team: FBC Turku
 league: Finland
-season_count: 2
+season_count: 1
 current_season: fi-25-26
 current_season_is_tournament: no
-previous_season: wfc-2024
+previous_season: n.a.
 current_games: 1
 current_goals: 0
 current_assists: 1
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 1
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: fi-25-26|regular-season|Finland|FBC Turku|1|0|1|1|0||wfc-2024|tournament|IFF WFC|Latvia|7|0|0|0|0
+history_rows_csv: fi-25-26|regular-season|Finland|FBC Turku|1|0|1|1|0
 assists: 1
 games: 1
 goals: 0

@@ -104,6 +104,8 @@ def _normalize_player_name_for_identity(value: str | None) -> str:
     cleaned = " ".join(str(value or "").split()).strip()
     if not cleaned:
         return ""
+    if cleaned.lower() in {"nan", "none", "null", "n/a", "na", "-"}:
+        return ""
     cleaned = re.sub(
         r"\s+(?:bez\s+asistence|z\s+trestn[eé]ho\s+stř[íi]len[íi])$",
         "",

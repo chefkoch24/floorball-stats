@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Adam Klusoň
 Category: players
 Slug: player-620896f98bfb1de1

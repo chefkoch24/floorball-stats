@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Magnus-Ernst Scholz
 Category: players
 Slug: player-f81421005d1dfc3d
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 68
+rank: 71
 season: 25-26

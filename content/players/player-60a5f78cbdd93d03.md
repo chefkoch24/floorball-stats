@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: S. Poffet
 Category: players
 Slug: player-60a5f78cbdd93d03

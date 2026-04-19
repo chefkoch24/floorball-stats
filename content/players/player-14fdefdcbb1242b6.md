@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michel Wöcke
 Category: players
 Slug: player-14fdefdcbb1242b6
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
+previous_games: 1
 previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 37
+career_games: 31
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau / SV Wiler-Ersigen|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / UHC Alligator Malans / Floorball Köniz Bern / Unihockey Basel Regio|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau / SV Wiler-Ersigen|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / UHC Alligator Malans / Floorball Köniz Bern / Unihockey Basel Regio|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
 assists: 0
 games: 9
 goals: 0

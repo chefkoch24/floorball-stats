@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Nikolas Sleziak
 Category: players
 Slug: player-1dd96eb2bfaf6818
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 322
+rank: 321
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jan Zaugg
 Category: players
 Slug: player-24ea406b19cff034
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 5
 previous_goals: 6
 previous_assists: 2
 previous_points: 8
 previous_pim: 6
-career_games: 33
+career_games: 32
 career_goals: 6
 career_assists: 2
 career_points: 8
 career_pim: 6
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|6|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|6|2|8|6
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|6|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur|21|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|5|6|2|8|6
 assists: 0
 games: 6
 goals: 0

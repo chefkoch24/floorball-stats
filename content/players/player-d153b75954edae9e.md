@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Janos Bröker
 Category: players
 Slug: player-d153b75954edae9e
@@ -26,17 +26,17 @@ playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
 playoff_pim: 0
-previous_games: 7
+previous_games: 6
 previous_goals: 5
 previous_assists: 2
 previous_points: 7
 previous_pim: 2
-career_games: 13
+career_games: 12
 career_goals: 7
 career_assists: 9
 career_points: 16
 career_pim: 2
-history_rows_csv: 25-26|playoffs|Germany|SSF Dragons Bonn|2|1|2|3|0||25-26|regular-season|Germany|SSF Dragons Bonn|4|1|5|6|0||wfc-2024|tournament|IFF WFC|Germany|7|5|2|7|2
+history_rows_csv: 25-26|playoffs|Germany|SSF Dragons Bonn|2|1|2|3|0||25-26|regular-season|Germany|SSF Dragons Bonn|4|1|5|6|0||wfc-2024|tournament|IFF WFC|Germany|6|5|2|7|2
 assists: 2
 games: 2
 goals: 1
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 27
+rank: 39
 season: 25-26

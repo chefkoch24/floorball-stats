@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Samuel Dávidek
 Category: players
 Slug: player-6cfbcabb3d9efe2c
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 14
-rank: 77
+rank: 76
 season: sk-25-26

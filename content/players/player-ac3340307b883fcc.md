@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Damian Šiša
 Category: players
 Slug: player-ac3340307b883fcc
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 273
+rank: 271
 season: sk-25-26

@@ -1,9 +1,9 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matúš Gajdoš
 Category: players
 Slug: player-91aac7ebf5a038e7
 type: player
-player: Matus Gajdos
+player: Matúš Gajdoš
 player_uid: player-91aac7ebf5a038e7
 team: HDT.cz Florbal Vary Bohemians
 league: Czech Republic
@@ -26,17 +26,17 @@ playoff_goals: 4
 playoff_assists: 4
 playoff_points: 8
 playoff_pim: 2
-previous_games: 7
+previous_games: 6
 previous_goals: 4
 previous_assists: 4
 previous_points: 8
 previous_pim: 4
-career_games: 43
+career_games: 42
 career_goals: 35
 career_assists: 30
 career_points: 65
 career_pim: 10
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|4|4|8|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|27|22|49|4||wfc-2024|tournament|IFF WFC|Slovakia|7|4|4|8|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|4|4|8|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|27|22|49|4||wfc-2024|tournament|IFF WFC|Slovakia|6|4|4|8|4
 assists: 4
 games: 10
 goals: 4

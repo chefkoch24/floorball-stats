@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Oskar Bäckman
 Category: players
 Slug: player-8ed2d4f865189bae
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 324
+rank: 325
 season: se-25-26

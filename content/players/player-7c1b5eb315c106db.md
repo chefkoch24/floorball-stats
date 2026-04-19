@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michal Baláž
 Category: players
 Slug: player-7c1b5eb315c106db
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 237
+rank: 235
 season: sk-25-26

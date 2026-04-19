@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Janis Lauber
 Category: players
 Slug: player-22d3cde5e55e22f0
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 1
 previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 0
-career_games: 32
+career_games: 27
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|1|1|2|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|1|1|1|2|0
 assists: 0
 games: 4
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jakub Fronc
 Category: players
 Slug: player-f5b189a98bc6c6dd
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 131
+rank: 130
 season: sk-25-26

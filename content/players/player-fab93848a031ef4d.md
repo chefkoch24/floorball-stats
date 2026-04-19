@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: A. Strässle
 Category: players
 Slug: player-fab93848a031ef4d

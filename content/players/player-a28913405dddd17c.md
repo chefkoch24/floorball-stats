@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Tomas Nyström
 Category: players
 Slug: player-a28913405dddd17c
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 41
+rank: 51
 season: 25-26

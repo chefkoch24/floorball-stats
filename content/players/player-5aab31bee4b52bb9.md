@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: M. Wöcke
 Category: players
 Slug: player-5aab31bee4b52bb9
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 4
-rank: 55
+rank: 56
 season: ch-25-26

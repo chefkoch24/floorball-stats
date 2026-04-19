@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Victor Jensen
 Category: players
 Slug: player-9af74e76ff13276b
@@ -12,19 +12,19 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 30
-current_goals: 5
-current_assists: 5
-current_points: 10
-current_pim: 4
+current_goals: 9
+current_assists: 10
+current_points: 19
+current_pim: 8
 regular_games: 24
-regular_goals: 5
-regular_assists: 4
-regular_points: 9
-regular_pim: 4
+regular_goals: 9
+regular_assists: 8
+regular_points: 17
+regular_pim: 8
 playoff_games: 6
 playoff_goals: 0
-playoff_assists: 1
-playoff_points: 1
+playoff_assists: 2
+playoff_points: 2
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 30
-career_goals: 5
-career_assists: 5
-career_points: 10
-career_pim: 4
-history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|6|0|1|1|0||se-25-26|regular-season|Sweden|Mullsjö AIS|24|5|4|9|4
-assists: 1
+career_goals: 9
+career_assists: 10
+career_points: 19
+career_pim: 8
+history_rows_csv: se-25-26|playoffs|Sweden|Mullsjö AIS|6|0|2|2|0||se-25-26|regular-season|Sweden|Mullsjö AIS|24|9|8|17|8
+assists: 2
 games: 6
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
-points: 1
-rank: 97
+points: 2
+rank: 100
 season: se-25-26

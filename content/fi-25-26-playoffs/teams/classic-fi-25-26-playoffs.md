@@ -1,4 +1,4 @@
-Date: 2026-04-22
+Date: 2026-04-26
 Title: Classic
 Category: fi-25-26-playoffs, teams
 Slug: classic-fi-25-26-playoffs-fi-25-26-playoffs
@@ -55,7 +55,7 @@ goals_per_game: 6.33
 home_points: 15
 loss_1: 1
 losses: 0
-over_time_losses: 0
+over_time_losses: 1
 over_time_wins: 0
 penalties: 8
 penalties_per_game: 0.89
@@ -66,7 +66,7 @@ penalty_first_period: 3
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 4
-penalty_shootout_losses: 1
+penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0

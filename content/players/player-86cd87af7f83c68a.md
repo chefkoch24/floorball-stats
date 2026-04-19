@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Max Antonsson
 Category: players
 Slug: player-86cd87af7f83c68a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 313
+rank: 314
 season: se-25-26

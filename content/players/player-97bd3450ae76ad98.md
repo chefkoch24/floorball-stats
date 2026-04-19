@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: T. Lindberg
 Category: players
 Slug: player-97bd3450ae76ad98

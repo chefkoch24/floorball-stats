@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matteo Schanz
 Category: players
 Slug: player-3cf6be558a8c4bf2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 133
+rank: 134
 season: 25-26

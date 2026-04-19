@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: N. Knüsel
 Category: players
 Slug: player-a243d1dc6bd26397

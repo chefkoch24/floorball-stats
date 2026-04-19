@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: J. Vähäkangas
 Category: players
 Slug: player-471ebeee12bc28c0

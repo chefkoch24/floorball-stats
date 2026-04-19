@@ -652,66 +652,49 @@
     return;
   }
 
-  const teamSeries = new Map();
+  // Keep the main elimination ladder (typically 4 -> 2 -> 1) and drop earlier play-in rounds.
+  const seriesByStartDate = new Map();
   seriesList.forEach((series) => {
-    [series.teamAKey, series.teamBKey].forEach((teamKey) => {
-      if (!teamSeries.has(teamKey)) teamSeries.set(teamKey, []);
-      teamSeries.get(teamKey).push(series);
-    });
+    if (!seriesByStartDate.has(series.firstDate)) seriesByStartDate.set(series.firstDate, []);
+    seriesByStartDate.get(series.firstDate).push(series);
   });
 
-  teamSeries.forEach((entries) => {
-    entries.sort((a, b) => a.firstDate.localeCompare(b.firstDate));
-  });
+  let bracketSeries = seriesList;
+  if (seriesByStartDate.size > 1) {
+    const sortedStartDates = Array.from(seriesByStartDate.keys()).sort((a, b) => a.localeCompare(b));
+    const selectedDates = new Set();
+    let expectedSeriesCount = 1;
 
-  teamSeries.forEach((entries, teamKey) => {
-    let currentRound = 1;
-    let previousOpponentKey = null;
-
-    entries.forEach((series) => {
-      const opponentKey = series.teamAKey === teamKey ? series.teamBKey : series.teamAKey;
-      if (previousOpponentKey !== null && opponentKey !== previousOpponentKey) {
-        currentRound += 1;
+    for (let i = sortedStartDates.length - 1; i >= 0; i -= 1) {
+      const startDate = sortedStartDates[i];
+      const dateSeriesCount = seriesByStartDate.get(startDate).length;
+      if (dateSeriesCount >= expectedSeriesCount) {
+        selectedDates.add(startDate);
+        expectedSeriesCount *= 2;
       }
-      if (series.round < currentRound) series.round = currentRound;
-      previousOpponentKey = opponentKey;
-    });
-  });
+    }
 
-  let hasConflicts = true;
-  while (hasConflicts) {
-    hasConflicts = false;
-    const teamsSeenByRound = new Map();
-    seriesList
-      .slice()
-      .sort(
-        (a, b) =>
-          (a.round - b.round) ||
-          a.firstDate.localeCompare(b.firstDate) ||
-          (a.sortRank - b.sortRank) ||
-          (a.sortSecondary - b.sortSecondary)
-      )
-      .forEach((series) => {
-        const round = series.round;
-        if (!teamsSeenByRound.has(round)) teamsSeenByRound.set(round, new Set());
-        const seenTeams = teamsSeenByRound.get(round);
-        const conflict = seenTeams.has(series.teamAKey) || seenTeams.has(series.teamBKey);
-        if (conflict) {
-          series.round += 1;
-          hasConflicts = true;
-          return;
-        }
-        seenTeams.add(series.teamAKey);
-        seenTeams.add(series.teamBKey);
-      });
+    const filteredSeries = seriesList.filter((series) => selectedDates.has(series.firstDate));
+    if (filteredSeries.length && filteredSeries.length < seriesList.length) {
+      bracketSeries = filteredSeries;
+    }
   }
 
-  const maxRound = Math.max(...seriesList.map((series) => series.round));
-  const roundNumbers = Array.from(new Set(seriesList.map((series) => series.round))).sort((a, b) => a - b);
+  const stageDates = Array.from(new Set(bracketSeries.map((series) => series.firstDate))).sort((a, b) => a.localeCompare(b));
+  const roundByDate = new Map();
+  stageDates.forEach((date, index) => {
+    roundByDate.set(date, index + 1);
+  });
+  bracketSeries.forEach((series) => {
+    series.round = roundByDate.get(series.firstDate) || 1;
+  });
+
+  const maxRound = Math.max(...bracketSeries.map((series) => series.round));
+  const roundNumbers = Array.from(new Set(bracketSeries.map((series) => series.round))).sort((a, b) => a - b);
 
   const seriesByRound = new Map();
   roundNumbers.forEach((round) => seriesByRound.set(round, []));
-  seriesList.forEach((series) => {
+  bracketSeries.forEach((series) => {
     seriesByRound.get(series.round).push(series);
   });
   roundNumbers.forEach((round) => {
@@ -719,11 +702,18 @@
   });
 
   const teamMaxRound = new Map();
+  const teamSeries = new Map();
+  bracketSeries.forEach((series) => {
+    [series.teamAKey, series.teamBKey].forEach((teamKey) => {
+      if (!teamSeries.has(teamKey)) teamSeries.set(teamKey, []);
+      teamSeries.get(teamKey).push(series);
+    });
+  });
   teamSeries.forEach((entries, teamKey) => {
     teamMaxRound.set(teamKey, Math.max(...entries.map((entry) => entry.round)));
   });
 
-  seriesList.forEach((series) => {
+  bracketSeries.forEach((series) => {
     const aHasNext = (teamMaxRound.get(series.teamAKey) || 0) > series.round;
     const bHasNext = (teamMaxRound.get(series.teamBKey) || 0) > series.round;
     if (aHasNext && !bHasNext) series.advancedTeamKey = series.teamAKey;

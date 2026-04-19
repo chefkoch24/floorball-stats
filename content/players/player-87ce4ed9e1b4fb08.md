@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Lucas Dahlstrom
 Category: players
 Slug: player-87ce4ed9e1b4fb08
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 6
+current_games: 5
 current_goals: 4
 current_assists: 4
 current_points: 8
@@ -31,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 5
 career_goals: 4
 career_assists: 4
 career_points: 8
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Poland|6|4|4|8|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Poland|5|4|4|8|0
 assists: 2
 games: 3
 goals: 2

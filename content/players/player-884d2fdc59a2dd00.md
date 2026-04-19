@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: E. Pasotti
 Category: players
 Slug: player-884d2fdc59a2dd00

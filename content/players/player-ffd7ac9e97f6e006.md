@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Joona Larte
 Category: players
 Slug: player-ffd7ac9e97f6e006

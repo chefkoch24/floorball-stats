@@ -1,5 +1,4 @@
 import argparse
-import csv
 from datetime import datetime
 from pathlib import Path
 import re
@@ -86,16 +85,6 @@ def _clean_row(row: dict[str, str]) -> dict[str, str]:
             continue
         cleaned[normalized_key] = (value or "").strip()
     return cleaned
-
-
-def _load_rows_from_csv(csv_path: str) -> list[dict[str, str]]:
-    source_path = Path(csv_path)
-    if not source_path.exists():
-        print(f"player-markdown: csv not found at {source_path}; skipping.")
-        return []
-    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
-        return [_clean_row(raw_row) for raw_row in reader]
 
 
 def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -379,13 +368,11 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
 
 
 def generate_player_markdown(
-    csv_path: str,
     output_dir: str,
     default_category: str = "players",
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
     database_url: str = "",
-    merge_csv_path: str = "",
 ) -> tuple[int, int]:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -396,7 +383,12 @@ def generate_player_markdown(
     grouped_rows: dict[str, list[dict[str, str]]] = {}
     include_prefixes = season_prefixes or set()
 
-    source_rows = _load_rows_from_postgres(database_url) if database_url else _load_rows_from_csv(csv_path)
+    if not database_url:
+        raise RuntimeError(
+            "Missing --database-url (or NEON_DATABASE_URL / DATABASE_URL env var). "
+            "CSV fallback is disabled for player markdown generation."
+        )
+    source_rows = _load_rows_from_postgres(database_url)
     if not source_rows:
         return 0, 0
 
@@ -426,18 +418,6 @@ def generate_player_markdown(
             if uid not in target_uids:
                 continue
             grouped_rows.setdefault(uid, []).append(row)
-    elif merge_csv_path:
-        merge_rows = _load_rows_from_csv(merge_csv_path)
-        if merge_rows:
-            target_uids = set(grouped_rows.keys())
-            for row in merge_rows:
-                player = row.get("player") or row.get("name") or row.get("full_name")
-                if not player:
-                    continue
-                uid = _canonical_player_uid(row, player)
-                if uid not in target_uids:
-                    continue
-                grouped_rows.setdefault(uid, []).append(row)
 
     for uid in list(grouped_rows.keys()):
         grouped_rows[uid] = _dedupe_rows(grouped_rows[uid])
@@ -457,16 +437,10 @@ def generate_player_markdown(
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate Pelican player markdown pages from CSV.")
-    parser.add_argument("--csv-path", default="data/player_stats.csv")
+    parser = argparse.ArgumentParser(description="Generate Pelican player markdown pages from Postgres.")
     parser.add_argument("--database-url", default="")
     parser.add_argument("--output-dir", default="content/players")
     parser.add_argument("--default-category", default="players")
-    parser.add_argument(
-        "--merge-csv-path",
-        default="",
-        help="Optional secondary CSV to merge additional season rows for players found in the primary CSV.",
-    )
     parser.add_argument(
         "--season-prefixes",
         default="",
@@ -483,13 +457,11 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     written, removed = generate_player_markdown(
-        csv_path=args.csv_path,
         database_url=args.database_url,
         output_dir=args.output_dir,
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
         prune_stale=not args.no_prune,
-        merge_csv_path=args.merge_csv_path,
     )
     print(f"player-markdown: wrote={written} removed={removed}")
 

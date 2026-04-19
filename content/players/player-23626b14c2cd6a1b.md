@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: A. Zukal
 Category: players
 Slug: player-23626b14c2cd6a1b

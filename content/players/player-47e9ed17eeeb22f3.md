@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: D. Jaaranen
 Category: players
 Slug: player-47e9ed17eeeb22f3

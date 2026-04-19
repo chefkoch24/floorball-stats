@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Roberts Romanovs
 Category: players
 Slug: player-2ca7dfcf350dcb97
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 206
+rank: 208
 season: lv-25-26

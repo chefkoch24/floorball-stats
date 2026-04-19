@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Kenne Kemoh
 Category: players
 Slug: player-1b210ad087a4b83d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 299
+rank: 300
 season: se-25-26

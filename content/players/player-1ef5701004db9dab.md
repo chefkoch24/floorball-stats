@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Roberts Zande
 Category: players
 Slug: player-1ef5701004db9dab
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 34
+current_games: 35
 current_goals: 5
 current_assists: 8
 current_points: 13
@@ -21,7 +21,7 @@ regular_goals: 2
 regular_assists: 6
 regular_points: 8
 regular_pim: 0
-playoff_games: 14
+playoff_games: 15
 playoff_goals: 3
 playoff_assists: 2
 playoff_points: 5
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 34
+career_games: 35
 career_goals: 5
 career_assists: 8
 career_points: 13
 career_pim: 4
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|3|2|5|4||lv-25-26|regular-season|Latvia|Lekrings|20|2|6|8|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|15|3|2|5|4||lv-25-26|regular-season|Latvia|Lekrings|20|2|6|8|0
 assists: 2
-games: 14
+games: 15
 goals: 3
 penalties: 2
 phase: playoffs
 pim: 4
 points: 5
-rank: 43
+rank: 46
 season: lv-25-26

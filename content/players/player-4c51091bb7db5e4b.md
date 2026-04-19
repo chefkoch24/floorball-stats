@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: T. Eser
 Category: players
 Slug: player-4c51091bb7db5e4b

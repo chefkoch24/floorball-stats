@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Levin Conrad
 Category: players
 Slug: player-480e731fffd4fceb
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 2
 previous_goals: 0
 previous_assists: 2
 previous_points: 2
 previous_pim: 0
-career_games: 37
+career_games: 33
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau / SV Wiler-Ersigen|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|0|2|2|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau / SV Wiler-Ersigen|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|2|0|2|2|0
 assists: 0
 games: 9
 goals: 0

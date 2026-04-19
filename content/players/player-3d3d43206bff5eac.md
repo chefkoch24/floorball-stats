@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michal Chamilla
 Category: players
 Slug: player-3d3d43206bff5eac
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 317
+rank: 315
 season: sk-25-26

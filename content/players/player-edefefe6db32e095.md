@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: J. Egli
 Category: players
 Slug: player-edefefe6db32e095
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 37
+rank: 38
 season: ch-25-26

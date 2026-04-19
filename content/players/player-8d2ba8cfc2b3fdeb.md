@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Heikki Hirvisuo
 Category: players
 Slug: player-8d2ba8cfc2b3fdeb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 290
 season: se-25-26

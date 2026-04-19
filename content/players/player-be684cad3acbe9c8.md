@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matěj Bednář
 Category: players
 Slug: player-be684cad3acbe9c8

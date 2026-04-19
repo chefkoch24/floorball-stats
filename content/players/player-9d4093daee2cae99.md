@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: D. Hartmann
 Category: players
 Slug: player-9d4093daee2cae99

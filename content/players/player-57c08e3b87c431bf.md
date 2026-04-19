@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Johann Fohrenkamm
 Category: players
 Slug: player-57c08e3b87c431bf
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 15
+current_games: 17
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 1
 regular_points: 1
 regular_pim: 6
-playoff_games: 2
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 17
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 6
-history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|2|0|0|0|0||25-26|regular-season|Germany|SC DHfK Leipzig|13|0|1|1|6
+history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|4|0|0|0|0||25-26|regular-season|Germany|SC DHfK Leipzig|13|0|1|1|6
 assists: 0
-games: 2
+games: 4
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 107
+rank: 109
 season: 25-26

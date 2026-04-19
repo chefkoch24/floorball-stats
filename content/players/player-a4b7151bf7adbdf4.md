@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Nikolass Burbo
 Category: players
 Slug: player-a4b7151bf7adbdf4
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 28
+current_games: 29
 current_goals: 4
 current_assists: 2
 current_points: 6
@@ -21,7 +21,7 @@ regular_goals: 3
 regular_assists: 1
 regular_points: 4
 regular_pim: 2
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 1
 playoff_assists: 1
 playoff_points: 2
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 29
 career_goals: 4
 career_assists: 2
 career_points: 6
 career_pim: 4
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|9|1|1|2|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|19|3|1|4|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|1|1|2|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|19|3|1|4|2
 assists: 1
-games: 9
+games: 10
 goals: 1
 penalties: 1
 phase: playoffs

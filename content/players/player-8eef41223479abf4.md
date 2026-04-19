@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Lukas Blom
 Category: players
 Slug: player-8eef41223479abf4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 309
+rank: 310
 season: se-25-26

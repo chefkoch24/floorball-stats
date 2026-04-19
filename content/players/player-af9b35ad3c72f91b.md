@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: F. Karlsson
 Category: players
 Slug: player-af9b35ad3c72f91b

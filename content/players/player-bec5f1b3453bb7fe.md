@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matúš Strieženec
 Category: players
 Slug: player-bec5f1b3453bb7fe
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 315
+rank: 313
 season: sk-25-26

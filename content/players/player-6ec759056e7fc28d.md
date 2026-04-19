@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Noah de Zwaan
 Category: players
 Slug: player-6ec759056e7fc28d
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 82
+rank: 84
 season: 25-26

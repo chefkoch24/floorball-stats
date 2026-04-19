@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Wille Jäderlund
 Category: players
 Slug: player-cd7675b0a56c44c3
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 24
-current_goals: 3
+current_goals: 6
 current_assists: 0
-current_points: 3
-current_pim: 4
+current_points: 6
+current_pim: 8
 regular_games: 24
-regular_goals: 3
+regular_goals: 6
 regular_assists: 0
-regular_points: 3
-regular_pim: 4
+regular_points: 6
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 24
-career_goals: 3
+career_goals: 6
 career_assists: 0
-career_points: 3
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|AIK IBF|24|3|0|3|4
+career_points: 6
+career_pim: 8
+history_rows_csv: se-25-26|regular-season|Sweden|AIK IBF|24|6|0|6|8
 assists: 0
 games: 24
-goals: 3
-penalties: 2
+goals: 6
+penalties: 4
 phase: regular-season
-pim: 4
-points: 3
-rank: 199
+pim: 8
+points: 6
+rank: 200
 season: se-25-26

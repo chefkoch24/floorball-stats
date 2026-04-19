@@ -1,4 +1,4 @@
-Date: 2026-04-22
+Date: 2026-04-26
 Title: Indians
 Category: fi-25-26-playoffs, teams
 Slug: indians-fi-25-26-playoffs-fi-25-26-playoffs
@@ -56,7 +56,7 @@ home_points: 11
 loss_1: 4
 losses: 4
 over_time_losses: 2
-over_time_wins: 1
+over_time_wins: 2
 penalties: 11
 penalties_per_game: 1.0
 penalty_10: 0
@@ -67,7 +67,7 @@ penalty_ms: 0
 penalty_overtime: 2
 penalty_second_period: 3
 penalty_shootout_losses: 0
-penalty_shootout_wins: 1
+penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
 penalty_third_period: 2
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 0.27
 powerplay_second_period: 0
 powerplay_third_period: 1
-rank: 4
+rank: 3
 scoring_ratio: 1.05
 take_the_lead_goals: 12
 take_the_lead_goals_against: 16

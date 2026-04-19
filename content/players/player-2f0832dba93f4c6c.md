@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Radek Kužel
 Category: players
 Slug: player-2f0832dba93f4c6c

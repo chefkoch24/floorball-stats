@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Nicola Bischofberger
 Category: players
 Slug: player-55b996c6c1ca3d51
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 1
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 4
-career_games: 36
+career_games: 31
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 4
-history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|10|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|20|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|4
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|10|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|20|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|1|0|0|0|4
 assists: 0
 games: 10
 goals: 0
