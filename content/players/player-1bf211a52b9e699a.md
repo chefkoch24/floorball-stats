@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Mikuláš Krbec
 Category: players
 Slug: player-1bf211a52b9e699a
@@ -26,17 +26,17 @@ playoff_goals: 3
 playoff_assists: 12
 playoff_points: 15
 playoff_pim: 2
-previous_games: 6
+previous_games: 2
 previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 0
-career_games: 39
+career_games: 35
 career_goals: 33
 career_assists: 39
 career_points: 72
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|3|12|15|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|23|29|26|55|2||wfc-2024|tournament|IFF WFC|Czechia|6|1|1|2|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|3|12|15|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|23|29|26|55|2||wfc-2024|tournament|IFF WFC|Czechia|2|1|1|2|0
 assists: 12
 games: 10
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Adam Lundgren
 Category: players
 Slug: player-f639c227652edae4
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
+previous_games: 2
 previous_goals: 2
 previous_assists: 2
 previous_points: 4
 previous_pim: 0
-career_games: 29
+career_games: 24
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Germany|7|2|2|4|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United|22|0|0|0|0||wfc-2024|tournament|IFF WFC|Germany|2|2|2|4|0
 assists: 0
 games: 22
 goals: 0

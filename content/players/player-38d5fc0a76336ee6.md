@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Martin Wallberg
 Category: players
 Slug: player-38d5fc0a76336ee6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 311
+rank: 312
 season: se-25-26

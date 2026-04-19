@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Toms Pētersons
 Category: players
 Slug: player-52db1ba8e7baf3ef
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 35
+current_games: 36
 current_goals: 3
 current_assists: 7
 current_points: 10
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 3
 regular_points: 3
 regular_pim: 4
-playoff_games: 11
+playoff_games: 12
 playoff_goals: 3
 playoff_assists: 4
 playoff_points: 7
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 35
+career_games: 36
 career_goals: 3
 career_assists: 7
 career_points: 10
 career_pim: 6
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|3|4|7|2||lv-25-26|regular-season|Latvia|Rubene|24|0|3|3|4
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|3|4|7|2||lv-25-26|regular-season|Latvia|Rubene|24|0|3|3|4
 assists: 4
-games: 11
+games: 12
 goals: 3
 penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 30
+rank: 35
 season: lv-25-26

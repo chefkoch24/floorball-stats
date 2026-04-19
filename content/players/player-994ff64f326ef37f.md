@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michal Majoroš
 Category: players
 Slug: player-994ff64f326ef37f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 256
+rank: 248
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Dmitrii Rogatykh
 Category: players
 Slug: player-a35a8cc6db4227ff
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 279
+rank: 278
 season: sk-25-26

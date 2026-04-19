@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Omar Aldeeb
 Category: players
 Slug: player-d7d67b3eb67910ee
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 23
-current_goals: 16
-current_assists: 39
-current_points: 55
-current_pim: 5
+current_goals: 31
+current_assists: 77
+current_points: 108
+current_pim: 9
 regular_games: 23
-regular_goals: 16
-regular_assists: 39
-regular_points: 55
-regular_pim: 5
+regular_goals: 31
+regular_assists: 77
+regular_points: 108
+regular_pim: 9
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 23
-career_goals: 16
-career_assists: 39
-career_points: 55
-career_pim: 5
-history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|23|16|39|55|5
-assists: 39
+career_goals: 31
+career_assists: 77
+career_points: 108
+career_pim: 9
+history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|23|31|77|108|9
+assists: 77
 games: 23
-goals: 16
-penalties: 2
+goals: 31
+penalties: 4
 phase: regular-season
-pim: 5
-points: 55
+pim: 9
+points: 108
 rank: 6
 season: se-25-26

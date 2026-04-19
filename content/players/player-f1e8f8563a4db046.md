@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michael Pitek
 Category: players
 Slug: player-f1e8f8563a4db046
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 143
+rank: 144
 season: 25-26

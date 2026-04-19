@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Martin Glončák
 Category: players
 Slug: player-cb8441e5e10abd0f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 179
+rank: 177
 season: sk-25-26

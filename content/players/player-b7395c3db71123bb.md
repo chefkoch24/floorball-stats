@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Rudolf Koleda
 Category: players
 Slug: player-b7395c3db71123bb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 332
+rank: 331
 season: sk-25-26

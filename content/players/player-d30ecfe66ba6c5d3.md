@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jānis Goža
 Category: players
 Slug: player-d30ecfe66ba6c5d3

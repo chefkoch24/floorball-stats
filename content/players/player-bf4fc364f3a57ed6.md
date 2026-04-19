@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Petteri Hanski
 Category: players
 Slug: player-bf4fc364f3a57ed6
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 120
+rank: 126
 season: fi-25-26

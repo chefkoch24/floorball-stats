@@ -119,7 +119,7 @@ home_home_points: 2
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
-home_over_time_wins: 0
+home_over_time_wins: 1
 home_penalties: 2
 home_penalty_10: 1
 home_penalty_2: 1
@@ -152,7 +152,7 @@ home_powerplay_third_period: 0
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 2
 home_win_1: 0
-home_wins: 1
+home_wins: 0
 away_away_points: 1
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
@@ -192,8 +192,8 @@ away_goals_in_third_period: 2
 away_goals_in_third_period_against: 0
 away_home_points: 0
 away_loss_1: 0
-away_losses: 1
-away_over_time_losses: 0
+away_losses: 0
+away_over_time_losses: 1
 away_over_time_wins: 0
 away_penalties: 0
 away_penalty_10: 0
@@ -254,14 +254,14 @@ home_pregame_goal_difference: -8
 home_pregame_goal_difference_per_game: -0.89
 home_pregame_goals: 45
 home_pregame_goals_against: 53
-home_pregame_goals_against_away: 32
-home_pregame_goals_against_home: 19
+home_pregame_goals_against_away: 33
+home_pregame_goals_against_home: 20
 home_pregame_goals_against_in_boxplay: 5
 home_pregame_goals_against_in_boxplay_per_game: 0.56
 home_pregame_goals_against_in_powerplay: 1
 home_pregame_goals_against_per_game: 5.89
 home_pregame_goals_away: 22
-home_pregame_goals_home: 21
+home_pregame_goals_home: 23
 home_pregame_goals_in_boxplay: 0
 home_pregame_goals_in_first_period: 16
 home_pregame_goals_in_first_period_against: 13
@@ -277,8 +277,8 @@ home_pregame_goals_in_third_period_against: 22
 home_pregame_goals_per_game: 5.0
 home_pregame_home_points: 7
 home_pregame_loss_1: 0
-home_pregame_losses: 5
-home_pregame_over_time_losses: 0
+home_pregame_losses: 4
+home_pregame_over_time_losses: 1
 home_pregame_over_time_wins: 0
 home_pregame_penalties: 32
 home_pregame_penalties_per_game: 3.56
@@ -360,7 +360,7 @@ away_pregame_goals_against_in_boxplay: 2
 away_pregame_goals_against_in_boxplay_per_game: 0.33
 away_pregame_goals_against_in_powerplay: 0
 away_pregame_goals_against_per_game: 3.5
-away_pregame_goals_away: 14
+away_pregame_goals_away: 15
 away_pregame_goals_home: 40
 away_pregame_goals_in_boxplay: 0
 away_pregame_goals_in_first_period: 14

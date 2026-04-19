@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Lucas Grünewald
 Category: players
 Slug: player-b8b7752e55add606
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 123
+rank: 124
 season: 25-26

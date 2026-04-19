@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Alessio Mura
 Category: players
 Slug: player-38e766bd6bd7a263
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 266
+rank: 267
 season: se-25-26

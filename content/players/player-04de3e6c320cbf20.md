@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Kārlis Dūmiņš
 Category: players
 Slug: player-04de3e6c320cbf20
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 36
+current_games: 37
 current_goals: 14
 current_assists: 9
 current_points: 23
@@ -21,7 +21,7 @@ regular_goals: 12
 regular_assists: 8
 regular_points: 20
 regular_pim: 4
-playoff_games: 11
+playoff_games: 12
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 36
+career_games: 37
 career_goals: 14
 career_assists: 9
 career_points: 23
 career_pim: 10
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|2|1|3|6||lv-25-26|regular-season|Latvia|Rubene|25|12|8|20|4
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|2|1|3|6||lv-25-26|regular-season|Latvia|Rubene|25|12|8|20|4
 assists: 1
-games: 11
+games: 12
 goals: 2
 penalties: 3
 phase: playoffs

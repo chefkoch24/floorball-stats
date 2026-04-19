@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: D. Anis
 Category: players
 Slug: player-1472fc7022c4cbe3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 7
-rank: 27
+rank: 28
 season: ch-25-26

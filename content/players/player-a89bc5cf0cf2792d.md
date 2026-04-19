@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Tore Kvint
 Category: players
 Slug: player-a89bc5cf0cf2792d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 335
+rank: 336
 season: se-25-26

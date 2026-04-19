@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matej Marioth
 Category: players
 Slug: player-98cd7d3371c24a1a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 100
+rank: 101
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matěj Havlas
 Category: players
 Slug: player-fe2f8c48d25daaf8
@@ -26,17 +26,17 @@ playoff_goals: 10
 playoff_assists: 9
 playoff_points: 19
 playoff_pim: 2
-previous_games: 6
+previous_games: 5
 previous_goals: 6
 previous_assists: 4
 previous_points: 10
 previous_pim: 0
-career_games: 40
+career_games: 39
 career_goals: 47
 career_assists: 41
 career_points: 88
 career_pim: 8
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|9|19|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|31|28|59|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|4|10|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|9|19|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|31|28|59|6||wfc-2024|tournament|IFF WFC|Czechia|5|6|4|10|0
 assists: 9
 games: 9
 goals: 10

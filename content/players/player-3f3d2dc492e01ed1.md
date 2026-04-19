@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Vladyslav Bachurin
 Category: players
 Slug: player-3f3d2dc492e01ed1
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 35
+rank: 37
 season: sk-25-26

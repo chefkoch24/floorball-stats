@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Samuel Fatul
 Category: players
 Slug: player-3126b5c8e8b12c8f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 240
+rank: 238
 season: sk-25-26

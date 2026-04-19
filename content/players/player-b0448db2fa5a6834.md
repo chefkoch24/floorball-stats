@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: P. Krähenbühl
 Category: players
 Slug: player-b0448db2fa5a6834

@@ -202,32 +202,6 @@ def sync_pipeline_outputs(
     }
 
 
-def sync_player_stats_csv(*, db_path: str, csv_path: str) -> int:
-    csv_file = Path(csv_path)
-    if not csv_file.exists():
-        return 0
-
-    frame = pd.read_csv(csv_file)
-    if frame.empty:
-        frame = pd.DataFrame(columns=list(frame.columns))
-    frame.insert(0, "source_csv", csv_file.name)
-
-    db_target = Path(db_path)
-    db_target.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(db_target) as conn:
-        conn.execute("PRAGMA journal_mode=WAL")
-        conn.execute("PRAGMA foreign_keys=ON")
-        rows = _replace_table_slice(
-            conn,
-            "player_stats",
-            frame,
-            "source_csv = ?",
-            (csv_file.name,),
-        )
-        conn.commit()
-    return rows
-
-
 def rebuild_from_event_csvs(*, db_path: str, data_dir: str) -> dict[str, int]:
     directory = Path(data_dir)
     totals = {
@@ -275,7 +249,6 @@ def rebuild_from_event_csvs(*, db_path: str, data_dir: str) -> dict[str, int]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Maintain derived SQLite tables for floorball stats.")
     parser.add_argument("--db-path", default="data/stats.db")
-    parser.add_argument("--player-stats-csv", default="")
     parser.add_argument("--data-dir", default="")
     return parser.parse_args()
 
@@ -291,13 +264,10 @@ def main() -> None:
         "top4_team_stats": 0,
         "league_stats": 0,
     }
-    player_rows = 0
     if args.data_dir:
         rebuilt_counts = rebuild_from_event_csvs(db_path=args.db_path, data_dir=args.data_dir)
-    if args.player_stats_csv:
-        player_rows = sync_player_stats_csv(db_path=args.db_path, csv_path=args.player_stats_csv)
     summary = " ".join(f"{key}={value}" for key, value in rebuilt_counts.items())
-    print(f"sqlite-sync: {summary} player_stats={player_rows} db={args.db_path}")
+    print(f"sqlite-sync: {summary} db={args.db_path}")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Tino von Pritzbuer
 Category: players
 Slug: player-e66353b67c2ae9ab
@@ -7,10 +7,10 @@ player: Tino von Pritzbuer
 player_uid: player-e66353b67c2ae9ab
 team: Floorball Thurgau / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / SV Wiler-Ersigen
 league: Switzerland
-season_count: 2
+season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
-previous_season: wfc-2024
+previous_season: n.a.
 current_games: 20
 current_goals: 0
 current_assists: 0
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 7
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 20
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Thurgau / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / SV Wiler-Ersigen|20|0|0|0|0||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Thurgau / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / SV Wiler-Ersigen|20|0|0|0|0
 assists: 0
 games: 20
 goals: 0

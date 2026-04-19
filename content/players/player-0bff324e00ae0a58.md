@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Liam Juhlin
 Category: players
 Slug: player-0bff324e00ae0a58
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 140
+rank: 145
 season: se-25-26

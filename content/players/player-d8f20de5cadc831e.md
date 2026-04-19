@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michal Koller
 Category: players
 Slug: player-d8f20de5cadc831e
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 74
+rank: 73
 season: sk-25-26

@@ -303,28 +303,6 @@ def sync_pipeline_outputs(
     }
 
 
-def sync_player_stats_csv(*, database_url: str, csv_path: str) -> int:
-    csv_file = Path(csv_path)
-    if not csv_file.exists():
-        return 0
-
-    frame = pd.read_csv(csv_file)
-    if frame.empty:
-        frame = pd.DataFrame(columns=list(frame.columns))
-    frame.insert(0, "source_csv", csv_file.name)
-
-    with psycopg.connect(database_url, autocommit=False) as conn:
-        rows = _replace_table_slice(
-            conn,
-            "player_stats",
-            frame,
-            sql.SQL("source_csv = {}").format(sql.Placeholder()),
-            (csv_file.name,),
-        )
-        conn.commit()
-    return rows
-
-
 def rebuild_from_event_csvs(*, database_url: str, data_dir: str) -> dict[str, int]:
     directory = Path(data_dir)
     totals = {
@@ -372,7 +350,6 @@ def rebuild_from_event_csvs(*, database_url: str, data_dir: str) -> dict[str, in
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Maintain derived PostgreSQL tables for floorball stats.")
     parser.add_argument("--database-url", default=os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL") or "")
-    parser.add_argument("--player-stats-csv", default="")
     parser.add_argument("--data-dir", default="")
     parser.add_argument("--reset-existing", action="store_true")
     return parser.parse_args()
@@ -394,13 +371,10 @@ def main() -> None:
         "top4_team_stats": 0,
         "league_stats": 0,
     }
-    player_rows = 0
     if args.data_dir:
         rebuilt_counts = rebuild_from_event_csvs(database_url=args.database_url, data_dir=args.data_dir)
-    if args.player_stats_csv:
-        player_rows = sync_player_stats_csv(database_url=args.database_url, csv_path=args.player_stats_csv)
     summary = " ".join(f"{key}={value}" for key, value in rebuilt_counts.items())
-    print(f"postgres-sync: {summary} player_stats={player_rows}")
+    print(f"postgres-sync: {summary}")
 
 
 if __name__ == "__main__":

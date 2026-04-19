@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Patrik Nessbo
 Category: players
 Slug: player-f39b437fe8cf3531
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 6
+current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Philippines|6|0|0|0|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Philippines|1|0|0|0|2
 assists: 0
-games: 3
+games: 1
 goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
+penalties: 1
+phase: regular-season
+pim: 2
 points: 0
-rank: 307
+rank: 213
 season: wfc-2024

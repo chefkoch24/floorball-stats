@@ -117,8 +117,8 @@ home_goals_in_third_period: 0
 home_goals_in_third_period_against: 2
 home_home_points: 1
 home_loss_1: 0
-home_losses: 1
-home_over_time_losses: 0
+home_losses: 0
+home_over_time_losses: 1
 home_over_time_wins: 0
 home_penalties: 2
 home_penalty_10: 0
@@ -194,7 +194,7 @@ away_home_points: 0
 away_loss_1: 0
 away_losses: 0
 away_over_time_losses: 0
-away_over_time_wins: 0
+away_over_time_wins: 1
 away_penalties: 2
 away_penalty_10: 0
 away_penalty_2: 2
@@ -227,7 +227,7 @@ away_powerplay_third_period: 2
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
 away_win_1: 0
-away_wins: 1
+away_wins: 0
 home_pregame_boxplay: 0
 home_pregame_boxplay_efficiency: n.a.
 home_pregame_boxplay_per_game: 0.0

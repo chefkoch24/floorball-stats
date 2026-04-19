@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Martin Kisugite
 Category: players
 Slug: player-cfe1e7d8faae06fa

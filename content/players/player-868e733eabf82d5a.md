@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: K. Eberle
 Category: players
 Slug: player-868e733eabf82d5a

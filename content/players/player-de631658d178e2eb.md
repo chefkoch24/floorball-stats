@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Victor Schedin-Huisman
 Category: players
 Slug: player-de631658d178e2eb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 338
+rank: 339
 season: se-25-26

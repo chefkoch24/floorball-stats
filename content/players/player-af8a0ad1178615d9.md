@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Andreas Wisén
 Category: players
 Slug: player-af8a0ad1178615d9
@@ -13,14 +13,14 @@ current_season_is_tournament: no
 previous_season: n.a.
 current_games: 20
 current_goals: 0
-current_assists: 2
-current_points: 2
-current_pim: 4
+current_assists: 4
+current_points: 4
+current_pim: 8
 regular_games: 20
 regular_goals: 0
-regular_assists: 2
-regular_points: 2
-regular_pim: 4
+regular_assists: 4
+regular_points: 4
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -33,16 +33,16 @@ previous_points: 0
 previous_pim: 0
 career_games: 20
 career_goals: 0
-career_assists: 2
-career_points: 2
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|20|0|2|2|4
-assists: 2
+career_assists: 4
+career_points: 4
+career_pim: 8
+history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|20|0|4|4|8
+assists: 4
 games: 20
 goals: 0
-penalties: 2
+penalties: 4
 phase: regular-season
-pim: 4
-points: 2
+pim: 8
+points: 4
 rank: 224
 season: se-25-26

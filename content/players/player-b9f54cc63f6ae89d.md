@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: J. Siegenthaler
 Category: players
 Slug: player-b9f54cc63f6ae89d

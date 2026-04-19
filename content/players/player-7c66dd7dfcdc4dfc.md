@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Pārstāvis Rūdolfs Blūms
 Category: players
 Slug: player-7c66dd7dfcdc4dfc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 195
+rank: 198
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Martin Tomaga
 Category: players
 Slug: player-afc8a593c4359db3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 306
+rank: 303
 season: sk-25-26

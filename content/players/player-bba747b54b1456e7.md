@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Kristiāns Kociņš
 Category: players
 Slug: player-bba747b54b1456e7
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 1
-rank: 118
+rank: 120
 season: lv-25-26

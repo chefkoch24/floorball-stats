@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: A. Capatt
 Category: players
 Slug: player-1b7af9c0342555cd

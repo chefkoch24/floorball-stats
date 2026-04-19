@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jakub Hromada
 Category: players
 Slug: player-77dc95773d12fba8

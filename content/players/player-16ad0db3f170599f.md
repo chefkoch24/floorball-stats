@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Mathéo Stohler
 Category: players
 Slug: player-16ad0db3f170599f

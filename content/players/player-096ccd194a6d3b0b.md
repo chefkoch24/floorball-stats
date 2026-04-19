@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Martin Fronc
 Category: players
 Slug: player-096ccd194a6d3b0b
@@ -44,5 +44,5 @@ penalties: 9
 phase: regular-season
 pim: 18
 points: 4
-rank: 186
+rank: 185
 season: sk-25-26

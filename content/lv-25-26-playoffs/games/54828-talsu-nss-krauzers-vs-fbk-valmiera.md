@@ -261,7 +261,7 @@ home_pregame_goals_against_in_boxplay_per_game: 0.0
 home_pregame_goals_against_in_powerplay: 2
 home_pregame_goals_against_per_game: 4.5
 home_pregame_goals_away: 10
-home_pregame_goals_home: 6
+home_pregame_goals_home: 7
 home_pregame_goals_in_boxplay: 0
 home_pregame_goals_in_first_period: 5
 home_pregame_goals_in_first_period_against: 3
@@ -354,7 +354,7 @@ away_pregame_goal_difference: 1
 away_pregame_goal_difference_per_game: 0.25
 away_pregame_goals: 18
 away_pregame_goals_against: 17
-away_pregame_goals_against_away: 6
+away_pregame_goals_against_away: 7
 away_pregame_goals_against_home: 10
 away_pregame_goals_against_in_boxplay: 2
 away_pregame_goals_against_in_boxplay_per_game: 0.5

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: M. Maurer
 Category: players
 Slug: player-8d8ca7c0e814380d
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 9
-rank: 19
+rank: 21
 season: ch-25-26

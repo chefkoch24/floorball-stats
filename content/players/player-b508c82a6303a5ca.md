@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Jozef Frivaldský
 Category: players
 Slug: player-b508c82a6303a5ca
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 250
+rank: 244
 season: sk-25-26

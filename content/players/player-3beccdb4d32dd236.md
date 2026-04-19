@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Noah Zielke
 Category: players
 Slug: player-3beccdb4d32dd236
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 147
+rank: 148
 season: 25-26

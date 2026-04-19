@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Daniel Hajník
 Category: players
 Slug: player-59db21b4b8e0267a
@@ -44,5 +44,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 0
-rank: 275
+rank: 273
 season: sk-25-26

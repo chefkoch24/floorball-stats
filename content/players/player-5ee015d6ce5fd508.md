@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: N. Mutter
 Category: players
 Slug: player-5ee015d6ce5fd508
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 12
-rank: 11
+rank: 12
 season: ch-25-26

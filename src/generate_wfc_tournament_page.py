@@ -6,32 +6,6 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-ROUND_ORDER = [
-    "Play-Off 1",
-    "Play-Off 2",
-    "Play-Off 3",
-    "Play-Off 4",
-    "Quarterfinal 1",
-    "Quarterfinal 2",
-    "Quarterfinal 3",
-    "Quarterfinal 4",
-    "Semifinal 1",
-    "Semifinal 2",
-    "3rd Place",
-    "Final",
-    "5th-8th:1",
-    "5th-8th:2",
-    "5th Place",
-    "7th Place",
-    "9th-12th:1",
-    "9th-12th:2",
-    "9th Place",
-    "11th Place",
-    "13th-16th:1",
-    "13th-16th:2",
-    "13th Place",
-    "15th Place",
-]
 ROUND_LABELS = {
     "Play-Off 1": "Qualification 1",
     "Play-Off 2": "Qualification 2",
@@ -73,6 +47,12 @@ class GameRow:
     start_time: str
     group: str
     round_label: str
+    result_string: str
+    ingame_status: str
+    home_ot_goals: str
+    away_ot_goals: str
+    home_ps_goals: str
+    away_ps_goals: str
 
 
 def _parse_metadata(path: Path) -> dict[str, str]:
@@ -126,15 +106,51 @@ def _load_game_rows(directory: Path, *, group_key: str, round_key: str) -> list[
                 start_time=meta.get("start_time", "–"),
                 group=meta.get(group_key, ""),
                 round_label=meta.get(round_key, ""),
+                result_string=meta.get("result_string", ""),
+                ingame_status=meta.get("ingame_status", ""),
+                home_ot_goals=meta.get("home_ot_goals", "0"),
+                away_ot_goals=meta.get("away_ot_goals", "0"),
+                home_ps_goals=meta.get("home_penalty_shootout_goals", "0"),
+                away_ps_goals=meta.get("away_penalty_shootout_goals", "0"),
             )
         )
     return rows
 
 
-def _team_row_html(team: TeamRow) -> str:
+def _to_int(value: str) -> int:
+    try:
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        return 0
+
+
+def _to_int_optional(value: str) -> int | None:
+    try:
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _result_cell_html(game: GameRow) -> str:
+    result_string = game.result_string or ""
+    status = (game.ingame_status or "").strip().lower()
+    home_ot_goals = _to_int(game.home_ot_goals)
+    away_ot_goals = _to_int(game.away_ot_goals)
+    home_ps_goals = _to_int(game.home_ps_goals)
+    away_ps_goals = _to_int(game.away_ps_goals)
+    ended_ps = (home_ps_goals + away_ps_goals) > 0 or ("n.P." in result_string) or ("penalty" in status)
+    ended_ot = (
+        (not ended_ps)
+        and ((home_ot_goals + away_ot_goals) > 0 or ("n.V." in result_string) or (status in {"extratime", "overtime"}) or ("OT" in result_string))
+    )
+    extra = "<span class=\"result-extra\">PS</span>" if ended_ps else "<span class=\"result-extra\">OT</span>" if ended_ot else ""
+    return f"<td class=\"wfc-result-col\"><span class=\"wfc-scoreline\">{html.escape(game.home_goals)} : {html.escape(game.away_goals)}</span>{extra}</td>"
+
+
+def _team_row_html(team: TeamRow, *, rank: int) -> str:
     return (
         "<tr>"
-        f"<td>{team.rank}</td>"
+        f"<td>{rank}</td>"
         f"<td><a href=\"/{html.escape(team.slug)}.html\">{html.escape(team.team)}</a></td>"
         f"<td>{html.escape(team.games)}</td>"
         f"<td>{html.escape(team.points)}</td>"
@@ -145,18 +161,58 @@ def _team_row_html(team: TeamRow) -> str:
     )
 
 
+def _empty_team_row_html(rank: int) -> str:
+    return (
+        "<tr>"
+        f"<td>{rank}</td>"
+        "<td>–</td>"
+        "<td>–</td>"
+        "<td>–</td>"
+        "<td>–</td>"
+        "<td>–</td>"
+        "<td>–</td>"
+        "</tr>"
+    )
+
+
 def _game_row_html(game: GameRow, *, include_group: bool) -> str:
     group_cell = f"<td>{html.escape(game.group or '–')}</td>" if include_group else ""
+    home_goals = _to_int_optional(game.home_goals)
+    away_goals = _to_int_optional(game.away_goals)
+    is_draw = (home_goals is not None) and (away_goals is not None) and (home_goals == away_goals)
+    home_winner = (home_goals is not None) and (away_goals is not None) and (home_goals > away_goals)
+    away_winner = (home_goals is not None) and (away_goals is not None) and (away_goals > home_goals)
+    home_class = "game-team-winner" if (not is_draw and home_winner) else ""
+    away_class = "game-team-winner" if (not is_draw and away_winner) else ""
+    home_team_html = f"<span class=\"{home_class}\">{html.escape(game.home_team)}</span>" if home_class else html.escape(game.home_team)
+    away_team_html = f"<span class=\"{away_class}\">{html.escape(game.away_team)}</span>" if away_class else html.escape(game.away_team)
     return (
         "<tr>"
         f"<td>{html.escape(game.date)}</td>"
         f"<td>{html.escape(game.start_time)}</td>"
         f"{group_cell}"
-        f"<td class=\"wfc-game-col\">{html.escape(game.home_team)} vs {html.escape(game.away_team)}</td>"
-        f"<td class=\"wfc-result-col\"><span class=\"wfc-scoreline\">{html.escape(game.home_goals)} : {html.escape(game.away_goals)}</span></td>"
+        f"<td class=\"wfc-game-col\">{home_team_html} vs {away_team_html}</td>"
+        f"{_result_cell_html(game)}"
         f"<td><a href=\"/{html.escape(game.slug)}.html\">Details</a></td>"
         "</tr>"
     )
+
+
+def _normalized_time_value(value: str) -> str:
+    raw = (value or "").strip()
+    if not raw or ":" not in raw:
+        return "99:99"
+    hours_raw, minutes_raw = raw.split(":", 1)
+    try:
+        hours = int(hours_raw)
+        minutes = int(minutes_raw)
+    except ValueError:
+        return "99:99"
+    return f"{hours:02d}:{minutes:02d}"
+
+
+def _game_sort_key(game: GameRow) -> tuple[str, str, str]:
+    return ((game.date or "9999-12-31"), _normalized_time_value(game.start_time), game.title)
 
 
 def _build_page_content(teams: list[TeamRow], regular_games: list[GameRow], playoff_games: list[GameRow]) -> str:
@@ -176,7 +232,12 @@ def _build_page_content(teams: list[TeamRow], regular_games: list[GameRow], play
         parts.append('<article class="panel">')
         parts.append(f'  <h2 class="panel-title">{html.escape(group_label)}</h2>')
         parts.append('  <div class="table-wrapper"><table class="data-table"><thead><tr><th>Rank</th><th>Team</th><th>GP</th><th>Pts</th><th>GF</th><th>GA</th><th>GD</th></tr></thead><tbody>')
-        parts.extend(_team_row_html(team) for team in group_teams)
+        for rank in range(1, 5):
+            idx = rank - 1
+            if idx < len(group_teams):
+                parts.append(_team_row_html(group_teams[idx], rank=rank))
+            else:
+                parts.append(_empty_team_row_html(rank))
         parts.append('  </tbody></table></div>')
         parts.append('</article>')
     parts.append('</section>')
@@ -184,25 +245,24 @@ def _build_page_content(teams: list[TeamRow], regular_games: list[GameRow], play
     parts.append('<details class="panel">')
     parts.append('  <summary class="panel-title" style="cursor: pointer;">Group Stage Games</summary>')
     parts.append('  <div class="table-wrapper"><table class="data-table"><thead><tr><th>Date</th><th>Time</th><th>Group</th><th>Game</th><th class="wfc-result-col">Result</th><th>Report</th></tr></thead><tbody>')
-    for game in sorted(regular_games, key=lambda item: (item.date, item.start_time)):
+    for game in sorted(regular_games, key=_game_sort_key):
         parts.append(_game_row_html(game, include_group=True))
     parts.append('  </tbody></table></div>')
     parts.append('</details>')
 
     parts.append('<section class="panel">')
     parts.append('  <h2 class="panel-title">Elimination</h2>')
-    for round_label in ROUND_ORDER:
-        round_games = [game for game in playoff_games if game.round_label == round_label]
-        if not round_games:
-            continue
-        display_label = ROUND_LABELS.get(round_label, round_label)
-        parts.append('  <div class="panel" style="margin-top: 1rem;">')
-        parts.append(f'    <h3 class="panel-title">{html.escape(display_label)}</h3>')
-        parts.append('    <div class="table-wrapper"><table class="data-table"><thead><tr><th>Date</th><th>Time</th><th>Game</th><th class="wfc-result-col">Result</th><th>Report</th></tr></thead><tbody>')
-        for game in sorted(round_games, key=lambda item: (item.date, item.start_time)):
-            parts.append(_game_row_html(game, include_group=False))
-        parts.append('    </tbody></table></div>')
-        parts.append('  </div>')
+    parts.append('  <div class="table-wrapper"><table class="data-table"><thead><tr><th>Date</th><th>Time</th><th>Round</th><th>Game</th><th class="wfc-result-col">Result</th><th>Report</th></tr></thead><tbody>')
+    for game in sorted(playoff_games, key=_game_sort_key):
+        round_name = html.escape(ROUND_LABELS.get(game.round_label, game.round_label or "Elimination"))
+        game_row = _game_row_html(game, include_group=False)
+        game_row = game_row.replace(
+            f'<td class="wfc-game-col">{html.escape(game.home_team)} vs {html.escape(game.away_team)}</td>',
+            f'<td>{round_name}</td><td class="wfc-game-col">{html.escape(game.home_team)} vs {html.escape(game.away_team)}</td>',
+            1,
+        )
+        parts.append(game_row)
+    parts.append('  </tbody></table></div>')
     parts.append('</section>')
     return "\n".join(parts)
 

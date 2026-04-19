@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Sandis Lēvalds
 Category: players
 Slug: player-0ccce6f9b717e186
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 32
+current_games: 33
 current_goals: 9
 current_assists: 8
 current_points: 17
@@ -21,7 +21,7 @@ regular_goals: 7
 regular_assists: 7
 regular_points: 14
 regular_pim: 6
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 9
 career_assists: 8
 career_points: 17
 career_pim: 8
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|9|2|1|3|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|7|7|14|6
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|2|1|3|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|7|7|14|6
 assists: 1
-games: 9
+games: 10
 goals: 2
 penalties: 1
 phase: playoffs

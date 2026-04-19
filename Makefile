@@ -104,6 +104,7 @@ help:
 	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
 	@echo '   make refresh-wfc                    one-off pipeline for WFC/IFF content '
 	@echo '   make refresh-all-leagues            run all league pipelines + player stats + html'
+	@echo '   make refresh-all-leagues-bootstrap  one-time full regular+playoffs bootstrap + html'
 	@echo '   make refresh-everything             alias for refresh-all-leagues        '
 	@echo '   make refresh-player-stats           rebuild player stats artifacts       '
 	@echo '   make refresh-player-pages           generate player pages (DB-first)     '
@@ -284,6 +285,27 @@ refresh-latvia-smart:
 		$(MAKE) refresh-latvia; \
 	fi
 
+refresh-all-leagues-bootstrap:
+	$(MAKE) refresh-current-season
+	$(MAKE) refresh-current-season-playoffs
+	$(MAKE) refresh-sweden
+	$(MAKE) refresh-sweden-playoffs
+	$(MAKE) refresh-switzerland
+	$(MAKE) refresh-switzerland-playoffs
+	$(MAKE) refresh-finland
+	$(MAKE) refresh-finland-playoffs
+	$(MAKE) refresh-czech
+	$(MAKE) refresh-czech-playoffs
+	$(MAKE) refresh-slovakia
+	$(MAKE) refresh-slovakia-playoffs
+	$(MAKE) refresh-latvia
+	$(MAKE) refresh-latvia-playoffs
+	$(MAKE) refresh-player-stats
+	$(MAKE) refresh-postgres
+	$(MAKE) refresh-player-pages
+	$(MAKE) refresh-search-index
+	$(MAKE) html
+
 refresh-all-leagues:
 	$(MAKE) refresh-current-season-smart
 	$(MAKE) refresh-sweden-smart
@@ -301,38 +323,53 @@ refresh-everything:
 	$(MAKE) refresh-all-leagues
 
 refresh-player-pages:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players"
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players"
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
 
 refresh-search-index:
 	"$(PYTHON)" -m src.build_search_index --content-dir "content" --output-path "themes/my-theme/static/search/search-index.json"
 
 refresh-player-stats-pages:
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player stats index generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats"
 
 refresh-player-stats:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats.csv"
-	"$(PYTHON)" -m src.build_sqlite --db-path "data/stats.db" --player-stats-csv "data/player_stats.csv"
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player stats are DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.build_player_stats_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
 
 refresh-sqlite:
-	"$(PYTHON)" -m src.build_sqlite --db-path "data/stats.db" --data-dir "data" --player-stats-csv "data/player_stats.csv"
+	"$(PYTHON)" -m src.build_sqlite --db-path "data/stats.db" --data-dir "data"
 
 refresh-postgres:
 	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
 		echo "Missing NEON_DATABASE_URL (or DATABASE_URL)."; \
 		exit 1; \
 	fi
-	"$(PYTHON)" -m src.build_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --data-dir "data" --player-stats-csv "data/player_stats.csv" $$( [ "$${POSTGRES_RESET:-0}" = "1" ] && echo "--reset-existing" )
+	"$(PYTHON)" -m src.build_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --data-dir "data" $$( [ "$${POSTGRES_RESET:-0}" = "1" ] && echo "--reset-existing" )
 
 refresh-player-stats-sweden:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats.csv"
+	$(MAKE) refresh-player-stats
 
 refresh-player-stats-germany:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_de.csv" --season-prefixes "de"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-germany:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_de.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "de" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_de.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "de" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "de" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "de" --no-prune
 
 refresh-germany-full:
 	$(MAKE) refresh-current-season
@@ -342,11 +379,15 @@ refresh-germany-full:
 	$(MAKE) html
 
 refresh-player-stats-sweden-only:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_se.csv" --season-prefixes "se"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-sweden:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_se.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "se" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_se.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "se" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "se" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "se" --no-prune
 
 refresh-sweden-full:
 	$(MAKE) refresh-sweden
@@ -356,11 +397,15 @@ refresh-sweden-full:
 	$(MAKE) html
 
 refresh-player-stats-switzerland:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_ch.csv" --season-prefixes "ch"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-switzerland:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_ch.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "ch" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_ch.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "ch" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "ch" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "ch" --no-prune
 
 refresh-switzerland-full:
 	$(MAKE) refresh-switzerland
@@ -370,11 +415,15 @@ refresh-switzerland-full:
 	$(MAKE) html
 
 refresh-player-stats-finland:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_fi.csv" --season-prefixes "fi"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-finland:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_fi.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "fi" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_fi.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "fi" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "fi" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "fi" --no-prune
 
 refresh-finland-full:
 	$(MAKE) refresh-finland
@@ -384,11 +433,15 @@ refresh-finland-full:
 	$(MAKE) html
 
 refresh-player-stats-czech:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_cz.csv" --season-prefixes "cz"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-czech:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_cz.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "cz" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_cz.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "cz" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "cz" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "cz" --no-prune
 
 refresh-czech-full:
 	$(MAKE) refresh-czech
@@ -398,11 +451,15 @@ refresh-czech-full:
 	$(MAKE) html
 
 refresh-player-stats-slovakia:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_sk.csv" --season-prefixes "sk"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-slovakia:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_sk.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "sk" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_sk.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "sk" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "sk" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "sk" --no-prune
 
 refresh-slovakia-full:
 	$(MAKE) refresh-slovakia
@@ -412,11 +469,15 @@ refresh-slovakia-full:
 	$(MAKE) html
 
 refresh-player-stats-latvia:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_lv.csv" --season-prefixes "lv"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-latvia:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_lv.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "lv" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_lv.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "lv" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "lv" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "lv" --no-prune
 
 refresh-latvia-full:
 	$(MAKE) refresh-latvia
@@ -426,11 +487,15 @@ refresh-latvia-full:
 	$(MAKE) html
 
 refresh-player-stats-wfc:
-	"$(PYTHON)" -m src.build_player_stats --data-dir "data" --output-csv "data/player_stats_wfc.csv" --season-prefixes "wfc"
+	$(MAKE) refresh-player-stats
 
 refresh-player-pages-wfc:
-	"$(PYTHON)" -m src.generate_player_markdown --csv-path "data/player_stats_wfc.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --merge-csv-path "data/player_stats.csv" --output-dir "content/players" --season-prefixes "wfc" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --csv-path "data/player_stats_wfc.csv" --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "wfc" --no-prune
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "wfc" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "wfc" --no-prune
 
 refresh-wfc-full:
 	$(MAKE) refresh-wfc
@@ -442,4 +507,4 @@ refresh-wfc-players-full:
 	$(MAKE) refresh-player-pages-wfc
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-all-leagues-bootstrap refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc

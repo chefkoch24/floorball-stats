@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Benjamin O'Loghlen
 Category: players
 Slug: player-3c6f3ecd4a260e1b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 275
+rank: 276
 season: se-25-26

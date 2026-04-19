@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Regnārs Kreičmanis
 Category: players
 Slug: player-8fd56f91c40ac36c
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 39
+current_games: 40
 current_goals: 0
 current_assists: 2
 current_points: 2
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 2
 regular_points: 2
 regular_pim: 0
-playoff_games: 13
+playoff_games: 14
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 39
+career_games: 40
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 0
-history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|13|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|26|0|2|2|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|14|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|26|0|2|2|0
 assists: 0
-games: 13
+games: 14
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 199
+rank: 202
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: N. Hug
 Category: players
 Slug: player-8c04cd2e9569c9bc

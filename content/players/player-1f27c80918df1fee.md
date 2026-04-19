@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Viliam Schrojf
 Category: players
 Slug: player-1f27c80918df1fee
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 342
+rank: 344
 season: sk-25-26

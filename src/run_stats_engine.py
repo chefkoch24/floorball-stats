@@ -1,5 +1,6 @@
 import argparse
 import base64
+import os
 import re
 import numpy as np
 import pandas as pd
@@ -387,10 +388,29 @@ def _alternate_player_keys(name: object) -> list[str]:
 def _load_player_uid_lookup(player_stats_csv: Path, season: Optional[str], phase: Optional[str]) -> tuple[dict[tuple[str, str], str], dict[str, str]]:
     exact_lookup: dict[tuple[str, str], str] = {}
     fallback_candidates: dict[str, set[str]] = {}
-    if not player_stats_csv.exists():
-        return exact_lookup, {}
+    player_df: pd.DataFrame | None = None
+    database_url = os.getenv("NEON_DATABASE_URL") or os.getenv("DATABASE_URL")
+    if database_url:
+        try:
+            import psycopg  # type: ignore
 
-    player_df = pd.read_csv(player_stats_csv, dtype=str).fillna("")
+            with psycopg.connect(database_url) as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        """
+                        SELECT player_uid, player, team, season, phase
+                        FROM player_stats
+                        """
+                    )
+                    rows = cur.fetchall()
+            player_df = pd.DataFrame(rows, columns=["player_uid", "player", "team", "season", "phase"]).fillna("")
+        except Exception:
+            player_df = None
+    if player_df is None:
+        if not player_stats_csv.exists():
+            return exact_lookup, {}
+        player_df = pd.read_csv(player_stats_csv, dtype=str).fillna("")
+
     if season:
         player_df = player_df[player_df["season"].astype(str).str.strip() == str(season).strip()]
     if phase:

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: David Hermle
 Category: players
 Slug: player-455a5ccf38d3505a
@@ -7,10 +7,10 @@ player: David Hermle
 player_uid: player-455a5ccf38d3505a
 team: Floorball Thurgau / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / Floorball Thurgau / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / SV Wiler-Ersigen / Floorball Chur United
 league: Switzerland
-season_count: 2
+season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
-previous_season: wfc-2024
+previous_season: n.a.
 current_games: 16
 current_goals: 0
 current_assists: 0
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 6
+previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 16
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|4|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / Floorball Thurgau / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / SV Wiler-Ersigen / Floorball Chur United|12|0|0|0|0||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|4|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Zug United / Floorball Thurgau / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / SV Wiler-Ersigen / Floorball Chur United|12|0|0|0|0
 assists: 0
 games: 4
 goals: 0

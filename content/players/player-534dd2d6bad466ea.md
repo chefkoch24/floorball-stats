@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: N. Brosi
 Category: players
 Slug: player-534dd2d6bad466ea

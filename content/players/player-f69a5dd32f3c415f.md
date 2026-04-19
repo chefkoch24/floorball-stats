@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: J. Bachmann
 Category: players
 Slug: player-f69a5dd32f3c415f

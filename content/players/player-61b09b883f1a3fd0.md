@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Michal Fatrsík
 Category: players
 Slug: player-61b09b883f1a3fd0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 319
+rank: 317
 season: sk-25-26

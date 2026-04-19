@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Valte Karvonen
 Category: players
 Slug: player-225b860c50b5de5a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 96
+rank: 98
 season: fi-25-26

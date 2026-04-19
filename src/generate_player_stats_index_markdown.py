@@ -1,5 +1,4 @@
 import argparse
-import csv
 from datetime import datetime
 from pathlib import Path
 import re
@@ -45,16 +44,6 @@ def _clean_row(row: dict[str, str]) -> dict[str, str]:
             continue
         cleaned[normalized_key] = (value or "").strip()
     return cleaned
-
-
-def _load_rows_from_csv(csv_path: str) -> list[dict[str, str]]:
-    source_path = Path(csv_path)
-    if not source_path.exists():
-        print(f"player-stats-index: csv not found at {source_path}; skipping.")
-        return []
-    with source_path.open("r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
-        return [_clean_row(raw_row) for raw_row in reader]
 
 
 def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
@@ -261,7 +250,6 @@ def _prune_stale_markdown_for_prefixes(directory: Path, expected_filenames: set[
 
 
 def generate_player_stats_index_markdown(
-    csv_path: str,
     output_dir: str,
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
@@ -273,7 +261,12 @@ def generate_player_stats_index_markdown(
 
     grouped_rows: dict[tuple[str, str], list[dict[str, str]]] = {}
     include_prefixes = season_prefixes or set()
-    source_rows = _load_rows_from_postgres(database_url) if database_url else _load_rows_from_csv(csv_path)
+    if not database_url:
+        raise RuntimeError(
+            "Missing --database-url (or NEON_DATABASE_URL / DATABASE_URL env var). "
+            "CSV fallback is disabled for player stats index generation."
+        )
+    source_rows = _load_rows_from_postgres(database_url)
     if not source_rows:
         return 0, 0
     for row in source_rows:
@@ -347,8 +340,7 @@ def generate_player_stats_index_markdown(
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate season player-stats index markdown pages from CSV.")
-    parser.add_argument("--csv-path", default="data/player_stats.csv")
+    parser = argparse.ArgumentParser(description="Generate season player-stats index markdown pages from Postgres.")
     parser.add_argument("--database-url", default="")
     parser.add_argument("--output-dir", default="content/player-stats")
     parser.add_argument(
@@ -367,7 +359,6 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     written, removed = generate_player_stats_index_markdown(
-        csv_path=args.csv_path,
         database_url=args.database_url,
         output_dir=args.output_dir,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),

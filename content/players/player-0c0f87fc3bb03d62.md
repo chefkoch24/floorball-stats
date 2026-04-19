@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Kevin Lieback Asp
 Category: players
 Slug: player-0c0f87fc3bb03d62
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 301
+rank: 302
 season: se-25-26

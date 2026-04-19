@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Hobbe Janefrid
 Category: players
 Slug: player-ac79fb3a81d4b503
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 290
+rank: 291
 season: se-25-26

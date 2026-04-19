@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matej Potoček
 Category: players
 Slug: player-2e7190bc8bca6031
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 308
+rank: 306
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: A. Stüdeli
 Category: players
 Slug: player-bd02a15605c07dce

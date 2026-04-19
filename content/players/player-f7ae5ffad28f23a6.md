@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matúš Turan
 Category: players
 Slug: player-f7ae5ffad28f23a6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 316
+rank: 314
 season: sk-25-26

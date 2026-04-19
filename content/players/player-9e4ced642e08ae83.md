@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Noah Johansson
 Category: players
 Slug: player-9e4ced642e08ae83
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
-current_goals: 14
-current_assists: 23
-current_points: 37
-current_pim: 4
+current_goals: 28
+current_assists: 45
+current_points: 73
+current_pim: 8
 regular_games: 22
-regular_goals: 14
-regular_assists: 23
-regular_points: 37
-regular_pim: 4
+regular_goals: 28
+regular_assists: 45
+regular_points: 73
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 22
-career_goals: 14
-career_assists: 23
-career_points: 37
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|22|14|23|37|4
-assists: 23
+career_goals: 28
+career_assists: 45
+career_points: 73
+career_pim: 8
+history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|22|28|45|73|8
+assists: 45
 games: 22
-goals: 14
-penalties: 2
+goals: 28
+penalties: 4
 phase: regular-season
-pim: 4
-points: 37
+pim: 8
+points: 73
 rank: 23
 season: se-25-26

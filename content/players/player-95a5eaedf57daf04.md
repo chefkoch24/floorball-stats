@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Ondřej Adamec
 Category: players
 Slug: player-95a5eaedf57daf04

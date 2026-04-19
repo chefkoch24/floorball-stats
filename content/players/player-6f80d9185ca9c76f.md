@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Eemil Karetjoki
 Category: players
 Slug: player-6f80d9185ca9c76f

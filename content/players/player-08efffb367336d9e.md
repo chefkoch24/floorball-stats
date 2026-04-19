@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Elias Rensing
 Category: players
 Slug: player-08efffb367336d9e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 56
+rank: 62
 season: 25-26

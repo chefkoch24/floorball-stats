@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Andris Jēkabsons
 Category: players
 Slug: player-e823950ab7fc12ab
@@ -11,7 +11,7 @@ season_count: 1
 current_season: lv-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 33
+current_games: 34
 current_goals: 1
 current_assists: 5
 current_points: 6
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 4
 regular_points: 4
 regular_pim: 8
-playoff_games: 11
+playoff_games: 12
 playoff_goals: 1
 playoff_assists: 1
 playoff_points: 2
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 33
+career_games: 34
 career_goals: 1
 career_assists: 5
 career_points: 6
 career_pim: 8
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|1|1|2|0||lv-25-26|regular-season|Latvia|Rubene|22|0|4|4|8
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|1|1|2|0||lv-25-26|regular-season|Latvia|Rubene|22|0|4|4|8
 assists: 1
-games: 11
+games: 12
 goals: 1
 penalties: 0
 phase: playoffs

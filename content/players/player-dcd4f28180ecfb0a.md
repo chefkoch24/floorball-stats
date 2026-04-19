@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: T. Flütsch
 Category: players
 Slug: player-dcd4f28180ecfb0a

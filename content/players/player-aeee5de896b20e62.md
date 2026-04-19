@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Pontus Bäckman
 Category: players
 Slug: player-aeee5de896b20e62
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 329
+rank: 330
 season: se-25-26

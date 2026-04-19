@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Medard Dutka
 Category: players
 Slug: player-2cdccdc4920a89d6
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 195
+rank: 194
 season: sk-25-26

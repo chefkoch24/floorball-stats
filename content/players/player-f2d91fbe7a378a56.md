@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Daniel Fehér
 Category: players
 Slug: player-f2d91fbe7a378a56
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 274
+rank: 272
 season: sk-25-26

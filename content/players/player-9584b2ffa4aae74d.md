@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Toms Zālmanis
 Category: players
 Slug: player-9584b2ffa4aae74d

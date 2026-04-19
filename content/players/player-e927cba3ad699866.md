@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Matej Záhora
 Category: players
 Slug: player-e927cba3ad699866
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 310
+rank: 308
 season: sk-25-26

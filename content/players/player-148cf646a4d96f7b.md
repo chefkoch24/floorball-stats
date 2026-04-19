@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Marián Macák
 Category: players
 Slug: player-148cf646a4d96f7b
@@ -44,5 +44,5 @@ penalties: 7
 phase: regular-season
 pim: 14
 points: 7
-rank: 135
+rank: 133
 season: sk-25-26

@@ -27,18 +27,12 @@
 {% endfor %}
 
 {% set group_labels = ['Group A', 'Group B', 'Group C', 'Group D'] %}
-{% set elimination_rounds = ['Play-Off 1', 'Play-Off 2', 'Play-Off 3', 'Play-Off 4', 'Quarterfinal 1', 'Quarterfinal 2', 'Quarterfinal 3', 'Quarterfinal 4', 'Semifinal 1', 'Semifinal 2', '3rd Place', 'Final', '5th-8th:1', '5th-8th:2', '5th Place', '7th Place', '9th-12th:1', '9th-12th:2', '9th Place', '11th Place', '13th-16th:1', '13th-16th:2', '13th Place', '15th Place'] %}
-{% set elimination = namespace(rounds=[]) %}
-{% for round_label in elimination_rounds %}
-    {% set current_round = namespace(games=[]) %}
-    {% for game in playoffs.games %}
-        {% if game.tournament_round|default('') == round_label %}
-            {% set current_round.games = current_round.games + [game] %}
-        {% endif %}
-    {% endfor %}
-    {% if current_round.games %}
-        {% set first_game = current_round.games|sort(attribute='start_time')|sort(attribute='date')|first %}
-        {% set elimination.rounds = elimination.rounds + [{'label': round_label, 'games': current_round.games, 'first_game': first_game}] %}
+{% set sorted_playoff_games = playoffs.games|sort(attribute='start_time')|sort(attribute='date') %}
+{% set elimination = namespace(round_labels=[]) %}
+{% for game in sorted_playoff_games %}
+    {% set round_label = game.tournament_round|default('Elimination') %}
+    {% if round_label not in elimination.round_labels %}
+        {% set elimination.round_labels = elimination.round_labels + [round_label] %}
     {% endif %}
 {% endfor %}
 
@@ -95,15 +89,23 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for team in group_teams.items %}
+                {% set ordered_group_teams = group_teams.items|sort_by_rank %}
+                {% for slot in range(4) %}
+                    {% set team = ordered_group_teams[slot] if slot < (ordered_group_teams|length) else None %}
                     <tr>
-                        <td>{{ loop.index }}</td>
-                        <td><a href="{{ SITEURL }}/{{ team.url }}">{{ team.team|default(team.title)|replace(' Men', '') }}</a></td>
-                        <td>{{ team.games|default('–') }}</td>
-                        <td>{{ team.points|default('–') }}</td>
-                        <td>{{ team.goals|default('–') }}</td>
-                        <td>{{ team.goals_against|default('–') }}</td>
-                        <td>{{ team.goal_difference|default('–') }}</td>
+                        <td>{{ slot + 1 }}</td>
+                        <td>
+                            {% if team %}
+                            <a href="{{ SITEURL }}/{{ team.url }}">{{ team.team|default(team.title)|replace(' Men', '') }}</a>
+                            {% else %}
+                            –
+                            {% endif %}
+                        </td>
+                        <td>{{ team.games|default('–') if team else '–' }}</td>
+                        <td>{{ team.points|default('–') if team else '–' }}</td>
+                        <td>{{ team.goals|default('–') if team else '–' }}</td>
+                        <td>{{ team.goals_against|default('–') if team else '–' }}</td>
+                        <td>{{ team.goal_difference|default('–') if team else '–' }}</td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -167,55 +169,52 @@
 
 <section class="panel">
     <h2 class="panel-title">Elimination</h2>
-    {% for round in elimination.rounds|sort(attribute='first_game.start_time')|sort(attribute='first_game.date') %}
-    <div class="panel" style="margin-top: 1rem;">
-        <h3 class="panel-title">{{ render_round_label(round.label) }}</h3>
-        <div class="table-wrapper">
-            <table class="data-table">
-                <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Time</th>
-                    <th>Game</th>
-                    <th class="wfc-result-col">Result</th>
-                    <th>Report</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for game in round.games|sort(attribute='start_time')|sort(attribute='date') %}
-                {% set home_goals = game.home_goals|default(0)|int %}
-                {% set away_goals = game.away_goals|default(0)|int %}
-                {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
-                {% set away_ot_goals = game.away_goals_in_overtime|default(0)|int %}
-                {% set home_ps_goals = game.home_goals_in_penalty_shootout|default(0)|int %}
-                {% set away_ps_goals = game.away_goals_in_penalty_shootout|default(0)|int %}
-                {% set result_string = game.result_string|default('')|string %}
-                {% set status = game.ingame_status|default('')|string %}
-                {% set ended_ps = (home_ps_goals + away_ps_goals) > 0 or 'n.P.' in result_string or 'penalty' in status %}
-                {% set ended_ot = (not ended_ps) and ((home_ot_goals + away_ot_goals) > 0 or 'n.V.' in result_string or status == 'extratime' or status == 'overtime' or 'OT' in result_string) %}
-                {% set is_draw = home_goals == away_goals %}
-                <tr>
-                    <td>{{ game.date.strftime('%Y-%m-%d') if game.date else 'n.a.' }}</td>
-                    <td>{{ game.start_time|default('–') }}</td>
-                    <td class="wfc-game-col">
-                        <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team|replace(' Men', '') }}</span>
-                        vs
-                        <span class="{% if not is_draw and away_goals > home_goals %}game-team-winner{% endif %}">{{ game.away_team|replace(' Men', '') }}</span>
-                    </td>
-                    <td class="wfc-result-col">
-                        <span class="wfc-scoreline">{{ game.home_goals|default('–') }} : {{ game.away_goals|default('–') }}</span>
-                        {% if ended_ps %}
-                        <span class="result-extra">PS</span>
-                        {% elif ended_ot %}
-                        <span class="result-extra">OT</span>
-                        {% endif %}
-                    </td>
-                    <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
-                </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        </div>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Round</th>
+                <th>Game</th>
+                <th class="wfc-result-col">Result</th>
+                <th>Report</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for game in sorted_playoff_games %}
+            {% set home_goals = game.home_goals|default(0)|int %}
+            {% set away_goals = game.away_goals|default(0)|int %}
+            {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
+            {% set away_ot_goals = game.away_goals_in_overtime|default(0)|int %}
+            {% set home_ps_goals = game.home_goals_in_penalty_shootout|default(0)|int %}
+            {% set away_ps_goals = game.away_goals_in_penalty_shootout|default(0)|int %}
+            {% set result_string = game.result_string|default('')|string %}
+            {% set status = game.ingame_status|default('')|string %}
+            {% set ended_ps = (home_ps_goals + away_ps_goals) > 0 or 'n.P.' in result_string or 'penalty' in status %}
+            {% set ended_ot = (not ended_ps) and ((home_ot_goals + away_ot_goals) > 0 or 'n.V.' in result_string or status == 'extratime' or status == 'overtime' or 'OT' in result_string) %}
+            {% set is_draw = home_goals == away_goals %}
+            <tr>
+                <td>{{ game.date.strftime('%Y-%m-%d') if game.date else 'n.a.' }}</td>
+                <td>{{ game.start_time|default('–') }}</td>
+                <td>{{ render_round_label(game.tournament_round|default('Elimination')) }}</td>
+                <td class="wfc-game-col">
+                    <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team|replace(' Men', '') }}</span>
+                    vs
+                    <span class="{% if not is_draw and away_goals > home_goals %}game-team-winner{% endif %}">{{ game.away_team|replace(' Men', '') }}</span>
+                </td>
+                <td class="wfc-result-col">
+                    <span class="wfc-scoreline">{{ game.home_goals|default('–') }} : {{ game.away_goals|default('–') }}</span>
+                    {% if ended_ps %}
+                    <span class="result-extra">PS</span>
+                    {% elif ended_ot %}
+                    <span class="result-extra">OT</span>
+                    {% endif %}
+                </td>
+                <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
     </div>
-    {% endfor %}
 </section>

@@ -1,4 +1,4 @@
-Date: 2026-04-18
+Date: 2026-04-19
 Title: Dominik Pallo
 Category: players
 Slug: player-73bcf2cfd15f8ddb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 281
+rank: 280
 season: sk-25-26
