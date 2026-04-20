@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Markuss Dumpis
 Category: players
 Slug: player-f3c39c5b07c9cf7a
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 4
+current_games: 7
 current_goals: 3
 current_assists: 2
 current_points: 5
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 7
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Latvia|4|3|2|5|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Latvia|7|3|2|5|2
 assists: 1
-games: 2
+games: 4
 goals: 2
 penalties: 0
 phase: playoffs

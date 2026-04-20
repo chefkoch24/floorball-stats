@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Arvis Kārkliņš
 Category: players
 Slug: player-d40ffc259cd4ab71
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 9
-rank: 25
+rank: 23
 season: lv-25-26

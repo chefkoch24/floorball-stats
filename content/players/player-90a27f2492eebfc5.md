@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Yves Walliser
 Category: players
 Slug: player-90a27f2492eebfc5
 type: player
 player: Yves Walliser
 player_uid: player-90a27f2492eebfc5
-team: SV Wiler-Ersigen / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Zug United / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau
+team: Grasshopper Club Zürich
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|5|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Zug United / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau|22|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|0|0|0|0
 assists: 0
 games: 5
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 311
+rank: 189
 season: ch-25-26

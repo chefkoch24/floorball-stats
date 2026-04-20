@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Kristiāns Lauva
 Category: players
 Slug: player-482d23c9ec9fecf4

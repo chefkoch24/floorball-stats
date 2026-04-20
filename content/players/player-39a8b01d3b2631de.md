@@ -1,25 +1,25 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Nico Moser
 Category: players
 Slug: player-39a8b01d3b2631de
 type: player
 player: Nico Moser
 player_uid: player-39a8b01d3b2631de
-team: Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / UHC Alligator Malans / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio
+team: WASA St. Gallen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 18
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_goals: 4
+current_assists: 2
+current_points: 6
 current_pim: 0
 regular_games: 18
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_goals: 4
+regular_assists: 2
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 18
-career_goals: 0
-career_assists: 0
-career_points: 0
+career_goals: 4
+career_assists: 2
+career_points: 6
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / UHC Alligator Malans / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio|18|0|0|0|0
-assists: 0
+history_rows_csv: ch-25-26|regular-season|Switzerland|WASA St. Gallen|18|4|2|6|0
+assists: 2
 games: 18
-goals: 0
+goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 0
-rank: 486
+points: 6
+rank: 134
 season: ch-25-26

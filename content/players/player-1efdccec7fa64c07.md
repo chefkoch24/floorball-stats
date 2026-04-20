@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tim Suter
 Category: players
 Slug: player-1efdccec7fa64c07
 type: player
 player: Tim Suter
 player_uid: player-1efdccec7fa64c07
-team: Zug United
+team: Grasshopper Club Zürich
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Zug United|1|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 563
+rank: 337
 season: ch-25-26

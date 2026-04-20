@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Roman Beck
 Category: players
 Slug: player-ab11fb710c0e9873
 type: player
 player: Roman Beck
 player_uid: player-ab11fb710c0e9873
-team: HC Rychenberg Winterthur / Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen
+team: Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|21|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|21|0|0|0|0
 assists: 0
 games: 4
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 270
+rank: 176
 season: ch-25-26

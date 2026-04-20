@@ -864,8 +864,9 @@ def _rows_from_swiss_rosters(matches: pd.DataFrame, season: str, phase: str) -> 
         away_team = str(getattr(row, "away_team_name", "") or "").strip()
         if not home_team or not away_team:
             continue
-        home_html = _fetch_swiss_players_block(game_id=game_id, is_home=True, session=session)
-        away_html = _fetch_swiss_players_block(game_id=game_id, is_home=False, session=session)
+        # is_home=1 on the Swiss API returns the visiting (away) roster; swap to match home/away labels.
+        home_html = _fetch_swiss_players_block(game_id=game_id, is_home=False, session=session)
+        away_html = _fetch_swiss_players_block(game_id=game_id, is_home=True, session=session)
         for player_name, source_person_id in _extract_swiss_players(home_html):
             records.append(
                 {
@@ -945,9 +946,12 @@ def _merge_finalized_rows(
     for col in ["games", "goals", "assists", "points", "pim", "penalties"]:
         stats[col] = stats[col].fillna(0).astype(int)
 
-    # Merge multiple sources (events + lineups) without double-counting appearances.
+    # Merge multiple sources (events + lineups) without double-counting.
     # Each source is already season-aggregated per player, so merge by player_uid only.
     # Team labels may differ slightly between sources; merging by team can inflate games.
+    # Use max (not sum) for stats: some lineup sources (e.g. Sweden) already carry
+    # cumulative season totals, so summing with event-derived totals would double-count.
+    # When one source has 0 and the other has the real value, max still picks correctly.
     stats = (
         stats.groupby(["player_uid"], as_index=False)
         .agg(
@@ -955,10 +959,10 @@ def _merge_finalized_rows(
                 "player": _aggregate_player_name,
                 "team": _aggregate_team_names,
                 "games": "max",
-                "goals": "sum",
-                "assists": "sum",
-                "pim": "sum",
-                "penalties": "sum",
+                "goals": "max",
+                "assists": "max",
+                "pim": "max",
+                "penalties": "max",
                 "source_player_id": _aggregate_source_ids,
                 "source_person_id": _aggregate_source_ids,
             }

@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Alpo Laitila
 Category: players
 Slug: player-c7641789b0efc1c6
@@ -26,17 +26,17 @@ playoff_goals: 3
 playoff_assists: 7
 playoff_points: 10
 playoff_pim: 0
-previous_games: 1
+previous_games: 6
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 26
+career_games: 31
 career_goals: 18
 career_assists: 27
 career_points: 45
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|6|3|7|10|0||fi-25-26|regular-season|Finland|Classic|19|15|20|35|0||wfc-2024|tournament|IFF WFC|Finland|1|0|0|0|2
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|6|3|7|10|0||fi-25-26|regular-season|Finland|Classic|19|15|20|35|0||wfc-2024|tournament|IFF WFC|Finland|6|0|0|0|2
 assists: 7
 games: 6
 goals: 3

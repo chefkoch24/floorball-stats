@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Timi Kotka
 Category: players
 Slug: player-6fdf08c5b3252af4
@@ -21,10 +21,10 @@ regular_goals: 5
 regular_assists: 1
 regular_points: 6
 regular_pim: 0
-playoff_games: 1
+playoff_games: 0
 playoff_goals: 0
-playoff_assists: 1
-playoff_points: 1
+playoff_assists: 0
+playoff_points: 0
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -38,10 +38,10 @@ career_points: 7
 career_pim: 0
 history_rows_csv: fi-25-26|playoffs|Finland|LASB|1|0|1|1|0||fi-25-26|regular-season|Finland|LASB|5|5|1|6|0
 assists: 1
-games: 1
-goals: 0
+games: 5
+goals: 5
 penalties: 0
-phase: playoffs
+phase: regular-season
 pim: 0
 points: 1
 rank: 132

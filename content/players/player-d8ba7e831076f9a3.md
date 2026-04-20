@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Daniel Gidske
 Category: players
 Slug: player-d8ba7e831076f9a3
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 3
+current_games: 7
 current_goals: 0
 current_assists: 3
 current_points: 3
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 7
 career_goals: 0
 career_assists: 3
 career_points: 3
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Norway|3|0|3|3|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Norway|7|0|3|3|0
 assists: 2
-games: 2
+games: 4
 goals: 0
 penalties: 0
 phase: playoffs

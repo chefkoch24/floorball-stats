@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: RO. Chiplunkar
 Category: players
 Slug: player-919e4bc0c67368bb
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 119
+rank: 117
 season: ch-25-26

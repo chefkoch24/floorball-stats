@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 import re
 from src.utils import generate_player_uid, normalize_slug_fragment
+from src.player_identity import harmonize_player_display_names, is_abbreviated_player_name
 
 try:
     import psycopg
@@ -120,41 +121,126 @@ def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [best_rows[key] for key in ordered_keys]
 
 
+def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    best_rows: dict[tuple[str, str, str, str, str], dict[str, str]] = {}
+    ordered_keys: list[tuple[str, str, str, str, str]] = []
+    for row in rows:
+        marker = (
+            row.get("player_uid", "").strip().lower(),
+            row.get("season", "").strip().lower(),
+            row.get("phase", "").strip().lower(),
+            row.get("team", "").strip().lower(),
+            row.get("league", "").strip().lower(),
+        )
+        candidate_score = (
+            1 if row.get("source_person_id", "").strip() else 0,
+            1 if row.get("source_player_id", "").strip() else 0,
+            len(row.get("history_rows_csv", "").strip()),
+            len(row.get("slug", "").strip()),
+        )
+        existing = best_rows.get(marker)
+        if existing is None:
+            ordered_keys.append(marker)
+            best_rows[marker] = row
+            continue
+        existing_score = (
+            1 if existing.get("source_person_id", "").strip() else 0,
+            1 if existing.get("source_player_id", "").strip() else 0,
+            len(existing.get("history_rows_csv", "").strip()),
+            len(existing.get("slug", "").strip()),
+        )
+        if candidate_score > existing_score:
+            best_rows[marker] = row
+    return [best_rows[key] for key in ordered_keys]
+
+
 def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
     if psycopg is None:
         raise RuntimeError("psycopg is required for --database-url mode. Install dependencies first.")
     rows: list[dict[str, str]] = []
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
-        cur.execute(
-            """
-            SELECT
-                player_uid,
-                source_system,
-                source_player_id,
-                source_person_id,
-                player,
-                title,
-                slug,
-                category,
-                team,
-                league,
-                season,
-                phase,
-                rank,
-                games,
-                goals,
-                assists,
-                points,
-                pim,
-                penalties
-            FROM player_stats
-            """
-        )
+        try:
+            cur.execute(
+                """
+                SELECT
+                    COALESCE(alias.canonical_uid, ps.player_uid) AS player_uid,
+                    ps.source_system,
+                    ps.source_player_id,
+                    ps.source_person_id,
+                    ps.player,
+                    ps.title,
+                    ps.slug,
+                    ps.category,
+                    ps.team,
+                    ps.league,
+                    ps.season,
+                    ps.phase,
+                    ps.rank,
+                    ps.games,
+                    ps.goals,
+                    ps.assists,
+                    ps.points,
+                    ps.pim,
+                    ps.penalties
+                FROM player_stats ps
+                LEFT JOIN player_identity_aliases alias
+                  ON alias.alias_uid = ps.player_uid
+                """
+            )
+        except Exception:
+            cur.execute(
+                """
+                SELECT
+                    player_uid,
+                    source_system,
+                    source_player_id,
+                    source_person_id,
+                    player,
+                    title,
+                    slug,
+                    category,
+                    team,
+                    league,
+                    season,
+                    phase,
+                    rank,
+                    games,
+                    goals,
+                    assists,
+                    points,
+                    pim,
+                    penalties
+                FROM player_stats
+                """
+            )
         columns = [description.name for description in cur.description]
         for record in cur.fetchall():
             row = {columns[idx]: "" if value is None else str(value) for idx, value in enumerate(record)}
             rows.append(_clean_row(row))
     return rows
+
+
+def _load_alias_pairs_from_postgres(database_url: str) -> list[tuple[str, str]]:
+    if psycopg is None:
+        return []
+    pairs: list[tuple[str, str]] = []
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        try:
+            cur.execute(
+                """
+                SELECT alias_uid, canonical_uid
+                FROM player_identity_aliases
+                """
+            )
+        except Exception:
+            return []
+        for alias_uid, canonical_uid in cur.fetchall():
+            alias = str(alias_uid or "").strip().lower()
+            canonical = str(canonical_uid or "").strip().lower()
+            if not alias or not canonical or alias == canonical:
+                continue
+            pairs.append((alias, canonical))
+    return pairs
 
 
 def _to_int(value: str | int | float | None) -> int:
@@ -245,6 +331,8 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
         return sum(_to_int(row.get(key)) for row in rows_subset)
 
     title = current_row.get("title") or player
+    if is_abbreviated_player_name(title) and not is_abbreviated_player_name(player):
+        title = player
     slug = uid
     category = default_category
     content = current_row.get("content") or ""
@@ -373,6 +461,7 @@ def generate_player_markdown(
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
     database_url: str = "",
+    merge_csv_path: str = "",
 ) -> tuple[int, int]:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -388,7 +477,7 @@ def generate_player_markdown(
             "Missing --database-url (or NEON_DATABASE_URL / DATABASE_URL env var). "
             "CSV fallback is disabled for player markdown generation."
         )
-    source_rows = _load_rows_from_postgres(database_url)
+    source_rows = harmonize_player_display_names(_load_rows_from_postgres(database_url))
     if not source_rows:
         return 0, 0
 
@@ -422,6 +511,13 @@ def generate_player_markdown(
     for uid in list(grouped_rows.keys()):
         grouped_rows[uid] = _dedupe_rows(grouped_rows[uid])
 
+    alias_pairs = _load_alias_pairs_from_postgres(database_url)
+    aliases_by_canonical: dict[str, set[str]] = {}
+    for alias_uid, canonical_uid in alias_pairs:
+        if canonical_uid not in grouped_rows:
+            continue
+        aliases_by_canonical.setdefault(canonical_uid, set()).add(alias_uid)
+
     for uid, rows in grouped_rows.items():
         markdown, filename = _rows_to_markdown(rows, default_category=default_category, metadata_date=metadata_date)
         if filename != f"{uid}.md":
@@ -432,6 +528,16 @@ def generate_player_markdown(
         if _write_if_changed(target_path, markdown):
             written += 1
 
+        for alias_uid in sorted(aliases_by_canonical.get(uid, set())):
+            alias_filename = f"{alias_uid}.md"
+            alias_markdown = markdown.replace(f"Slug: {uid}", f"Slug: {alias_uid}", 1)
+            # Keep canonical identity in metadata while exposing alias URL.
+            alias_markdown = alias_markdown.replace(f"player_uid: {uid}", f"player_uid: {uid}", 1)
+            alias_path = output_path / alias_filename
+            expected_files.add(alias_filename)
+            if _write_if_changed(alias_path, alias_markdown):
+                written += 1
+
     removed = _prune_stale_markdown(output_path, expected_files) if prune_stale else 0
     return written, removed
 
@@ -441,6 +547,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--database-url", default="")
     parser.add_argument("--output-dir", default="content/players")
     parser.add_argument("--default-category", default="players")
+    parser.add_argument(
+        "--merge-csv-path",
+        default="",
+        help="Optional secondary CSV to merge additional season rows for players found in the primary CSV.",
+    )
     parser.add_argument(
         "--season-prefixes",
         default="",
@@ -462,6 +573,7 @@ def main() -> None:
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
         prune_stale=not args.no_prune,
+        merge_csv_path=args.merge_csv_path,
     )
     print(f"player-markdown: wrote={written} removed={removed}")
 

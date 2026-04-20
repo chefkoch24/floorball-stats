@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tomáš Kvasnica
 Category: players
 Slug: player-f8daa66686c75c18
@@ -26,23 +26,23 @@ playoff_goals: 16
 playoff_assists: 18
 playoff_points: 34
 playoff_pim: 10
-previous_games: 3
+previous_games: 7
 previous_goals: 5
 previous_assists: 2
 previous_points: 7
 previous_pim: 0
-career_games: 39
+career_games: 43
 career_goals: 68
 career_assists: 49
 career_points: 117
 career_pim: 14
-history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|15|16|18|34|10||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|47|29|76|4||wfc-2024|tournament|IFF WFC|Slovakia|3|5|2|7|0
+history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|15|16|18|34|10||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|47|29|76|4||wfc-2024|tournament|IFF WFC|Slovakia|7|5|2|7|0
 assists: 18
 games: 15
 goals: 16
 penalties: 5
 phase: playoffs
-pim: 10
-points: 34
+pim: 8
+points: 31
 rank: 1
 season: sk-25-26

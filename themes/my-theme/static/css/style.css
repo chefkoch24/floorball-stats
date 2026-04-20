@@ -1153,6 +1153,24 @@ body.feedback-modal-open {
   text-transform: uppercase;
 }
 
+.wfc-game-col {
+  min-width: 15rem;
+}
+
+.wfc-result-col {
+  white-space: nowrap;
+  min-width: 6.5rem;
+  text-align: right !important;
+}
+
+.wfc-scoreline {
+  display: inline-block;
+  min-width: 4.75rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
 .result-pill {
   display: inline-flex;
   align-items: center;

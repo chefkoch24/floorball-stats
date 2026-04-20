@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Michal Antonín Malhocký
 Category: players
 Slug: player-5748fddad07fc58c

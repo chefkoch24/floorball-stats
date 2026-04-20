@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Dilans Kronentāls
 Category: players
 Slug: player-02e803ccdd9f15bd
@@ -38,11 +38,11 @@ career_points: 34
 career_pim: 10
 history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|4|7|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|25|13|14|27|6
 assists: 4
-games: 12
+games: 11
 goals: 3
 penalties: 2
 phase: playoffs
 pim: 4
 points: 7
-rank: 33
+rank: 26
 season: lv-25-26

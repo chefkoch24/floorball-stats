@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Colin Oustad
 Category: players
 Slug: player-ac1bb462f72a6374
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 1
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 6
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Norway|1|0|0|0|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Norway|6|0|0|0|2
 assists: 0
-games: 1
+games: 4
 goals: 0
 penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 211
+rank: 227
 season: wfc-2024

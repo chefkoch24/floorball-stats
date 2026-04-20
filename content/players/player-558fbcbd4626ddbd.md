@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jérôme Gaudin
 Category: players
 Slug: player-558fbcbd4626ddbd
 type: player
 player: Jérôme Gaudin
 player_uid: player-558fbcbd4626ddbd
-team: Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Alligator Malans / Floorball Köniz Bern / Floorball Chur United / Tigers Langnau / Grasshopper Club Zürich
+team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Alligator Malans / Floorball Köniz Bern / Floorball Chur United / Tigers Langnau / Grasshopper Club Zürich|10|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|10|0|0|0|0
 assists: 0
 games: 10
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 379
+rank: 286
 season: ch-25-26

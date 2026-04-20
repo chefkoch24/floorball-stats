@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Julius-Emil Huppunen
 Category: players
 Slug: player-5b035ecd405e44ab

@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Renārs Rēders
 Category: players
 Slug: player-de7826feba4ac562
@@ -25,7 +25,7 @@ playoff_games: 10
 playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
-playoff_pim: 2
+playoff_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -38,11 +38,11 @@ career_points: 10
 career_pim: 8
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|1|2|3|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|24|1|6|7|6
 assists: 2
-games: 10
+games: 9
 goals: 1
-penalties: 1
+penalties: 0
 phase: playoffs
-pim: 2
+pim: 0
 points: 3
 rank: 78
 season: lv-25-26

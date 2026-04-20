@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Fredi Petersson
 Category: players
 Slug: player-acc0cea0e98372d0
 type: player
 player: Fredi Petersson
 player_uid: player-acc0cea0e98372d0
-team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 20
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 6
+current_assists: 5
+current_points: 11
+current_pim: 8
 regular_games: 20
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 6
+regular_assists: 5
+regular_points: 11
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 20
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster|20|0|0|0|0
-assists: 0
+career_goals: 6
+career_assists: 5
+career_points: 11
+career_pim: 8
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|20|6|5|11|8
+assists: 5
 games: 20
-goals: 0
-penalties: 0
+goals: 6
+penalties: 4
 phase: regular-season
-pim: 0
-points: 0
-rank: 327
+pim: 8
+points: 11
+rank: 91
 season: ch-25-26

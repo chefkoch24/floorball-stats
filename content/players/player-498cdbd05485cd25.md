@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Lorén Oliva
 Category: players
 Slug: player-498cdbd05485cd25
 type: player
 player: Lorén Oliva
 player_uid: player-498cdbd05485cd25
-team: UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / Tigers Langnau / HC Rychenberg Winterthur
+team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / Tigers Langnau / HC Rychenberg Winterthur|9|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|9|0|0|0|0
 assists: 0
 games: 9
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 412
+rank: 295
 season: ch-25-26

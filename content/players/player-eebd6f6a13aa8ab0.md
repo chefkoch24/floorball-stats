@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Renārs Kovaļovs
 Category: players
 Slug: player-eebd6f6a13aa8ab0
@@ -38,7 +38,7 @@ career_points: 13
 career_pim: 12
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|15|1|2|3|2||lv-25-26|regular-season|Latvia|Lekrings|25|6|4|10|10
 assists: 2
-games: 15
+games: 14
 goals: 1
 penalties: 1
 phase: playoffs

@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Gustavs Rudzītis
 Category: players
 Slug: player-d62c59a70646afe8
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 148
+rank: 146
 season: lv-25-26

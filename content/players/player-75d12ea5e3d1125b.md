@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Adam Delong
 Category: players
 Slug: player-75d12ea5e3d1125b
@@ -26,17 +26,17 @@ playoff_goals: 9
 playoff_assists: 6
 playoff_points: 15
 playoff_pim: 0
-previous_games: 2
+previous_games: 6
 previous_goals: 0
 previous_assists: 2
 previous_points: 2
 previous_pim: 0
-career_games: 35
+career_games: 39
 career_goals: 67
 career_assists: 46
 career_points: 113
 career_pim: 2
-history_rows_csv: cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|6|15|0||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|58|38|96|2||wfc-2024|tournament|IFF WFC|Czechia|2|0|2|2|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|6|15|0||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|58|38|96|2||wfc-2024|tournament|IFF WFC|Czechia|6|0|2|2|0
 assists: 6
 games: 8
 goals: 9

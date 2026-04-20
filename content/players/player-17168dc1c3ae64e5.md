@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Leo Olsson
 Category: players
 Slug: player-17168dc1c3ae64e5
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
-current_goals: 6
-current_assists: 14
-current_points: 20
-current_pim: 16
+current_goals: 3
+current_assists: 7
+current_points: 10
+current_pim: 8
 regular_games: 26
-regular_goals: 6
-regular_assists: 14
-regular_points: 20
-regular_pim: 16
+regular_goals: 3
+regular_assists: 7
+regular_points: 10
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 26
-career_goals: 6
-career_assists: 14
-career_points: 20
-career_pim: 16
-history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|26|6|14|20|16
-assists: 14
+career_goals: 3
+career_assists: 7
+career_points: 10
+career_pim: 8
+history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|26|3|7|10|8
+assists: 7
 games: 26
-goals: 6
-penalties: 8
+goals: 3
+penalties: 4
 phase: regular-season
-pim: 16
-points: 20
-rank: 129
+pim: 8
+points: 10
+rank: 133
 season: se-25-26

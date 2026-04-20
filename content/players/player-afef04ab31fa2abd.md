@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Ralfs Matīss Balodis
 Category: players
 Slug: player-afef04ab31fa2abd
@@ -26,17 +26,17 @@ playoff_goals: 3
 playoff_assists: 1
 playoff_points: 4
 playoff_pim: 0
-previous_games: 3
+previous_games: 7
 previous_goals: 2
 previous_assists: 0
 previous_points: 2
 previous_pim: 2
-career_games: 36
+career_games: 40
 career_goals: 22
 career_assists: 18
 career_points: 40
 career_pim: 12
-history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|17|17|34|10||wfc-2024|tournament|IFF WFC|Latvia|3|2|0|2|2
+history_rows_csv: lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|17|17|34|10||wfc-2024|tournament|IFF WFC|Latvia|7|2|0|2|2
 assists: 1
 games: 6
 goals: 3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 56
+rank: 55
 season: lv-25-26

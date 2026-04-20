@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Michal Feňo
 Category: players
 Slug: player-ec9d112112df27c6
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 155
+rank: 156
 season: sk-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Samuel Kerekeš
 Category: players
 Slug: player-19ed66ba25dfdaac
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 70
+rank: 68
 season: sk-25-26

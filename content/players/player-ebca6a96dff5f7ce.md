@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Leon Adelmann
 Category: players
 Slug: player-ebca6a96dff5f7ce

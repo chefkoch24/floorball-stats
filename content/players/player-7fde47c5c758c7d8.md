@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Ken Pahn
 Category: players
 Slug: player-7fde47c5c758c7d8
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 8
 current_assists: 4
 current_points: 12
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 8
 career_assists: 4
 career_points: 12
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|5|8|4|12|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|6|8|4|12|2
 assists: 2
-games: 2
+games: 3
 goals: 2
 penalties: 1
 phase: playoffs

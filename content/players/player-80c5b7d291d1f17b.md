@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Emīls Zīverts
 Category: players
 Slug: player-80c5b7d291d1f17b
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 139
+rank: 137
 season: lv-25-26

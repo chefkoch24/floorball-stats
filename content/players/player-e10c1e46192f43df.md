@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Markuss Plūdums
 Category: players
 Slug: player-e10c1e46192f43df
@@ -38,11 +38,11 @@ career_points: 1
 career_pim: 2
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|15|0|1|1|0||lv-25-26|regular-season|Latvia|Lekrings|18|0|0|0|2
 assists: 1
-games: 15
+games: 14
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 121
+rank: 119
 season: lv-25-26

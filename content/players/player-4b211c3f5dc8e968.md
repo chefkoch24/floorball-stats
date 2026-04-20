@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Artis Raitums
 Category: players
 Slug: player-4b211c3f5dc8e968
@@ -26,23 +26,23 @@ playoff_goals: 4
 playoff_assists: 5
 playoff_points: 9
 playoff_pim: 4
-previous_games: 3
+previous_games: 7
 previous_goals: 0
 previous_assists: 3
 previous_points: 3
 previous_pim: 0
-career_games: 42
+career_games: 46
 career_goals: 19
 career_assists: 24
 career_points: 43
 career_pim: 10
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|4|5|9|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|15|16|31|6||wfc-2024|tournament|IFF WFC|Latvia|3|0|3|3|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|4|5|9|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|15|16|31|6||wfc-2024|tournament|IFF WFC|Latvia|7|0|3|3|0
 assists: 5
 games: 12
 goals: 4
 penalties: 2
 phase: playoffs
 pim: 4
-points: 9
-rank: 24
+points: 6
+rank: 37
 season: lv-25-26

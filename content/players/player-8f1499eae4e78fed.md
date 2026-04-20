@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tuukka Korhonen
 Category: players
 Slug: player-8f1499eae4e78fed
@@ -38,11 +38,11 @@ career_points: 20
 career_pim: 12
 history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|1|2|3|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|5|12|17|8
 assists: 2
-games: 11
+games: 10
 goals: 1
 penalties: 2
 phase: playoffs
 pim: 4
 points: 3
-rank: 62
+rank: 61
 season: sk-25-26

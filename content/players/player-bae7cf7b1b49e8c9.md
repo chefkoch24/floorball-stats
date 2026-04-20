@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Noel Nils Haldemann
 Category: players
 Slug: player-bae7cf7b1b49e8c9
 type: player
 player: Noel Nils Haldemann
 player_uid: player-bae7cf7b1b49e8c9
-team: HC Rychenberg Winterthur / Floorball Köniz Bern / SV Wiler-Ersigen
+team: Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern / SV Wiler-Ersigen|2|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|2|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 255
+rank: 172
 season: ch-25-26

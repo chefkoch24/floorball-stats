@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Dāvis Zēmelis
 Category: players
 Slug: player-ed2ef970bc7a821e
@@ -38,11 +38,11 @@ career_points: 30
 career_pim: 14
 history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|2|3|5|4||lv-25-26|regular-season|Latvia|Rubene|27|15|10|25|10
 assists: 3
-games: 12
+games: 11
 goals: 2
 penalties: 2
 phase: playoffs
 pim: 4
 points: 5
-rank: 47
+rank: 44
 season: lv-25-26

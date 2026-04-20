@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Luka Peklaj
 Category: players
 Slug: player-e1bf679d56615df9
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 3
+current_games: 5
 current_goals: 1
 current_assists: 5
 current_points: 6
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 5
 career_goals: 1
 career_assists: 5
 career_points: 6
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Slovenia|3|1|5|6|0
-assists: 5
-games: 3
-goals: 1
+history_rows_csv: wfc-2024|tournament|IFF WFC|Slovenia|5|1|5|6|0
+assists: 0
+games: 2
+goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
-points: 6
-rank: 12
+points: 0
+rank: 271
 season: wfc-2024

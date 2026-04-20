@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tomáš Ondračka
 Category: players
 Slug: player-bcb326821bd38f57
@@ -38,7 +38,7 @@ career_points: 4
 career_pim: 4
 history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|7|0|0|0|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|13|4|0|4|4
 assists: 0
-games: 7
+games: 6
 goals: 0
 penalties: 0
 phase: playoffs

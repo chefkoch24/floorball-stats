@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Simon Hult
 Category: players
 Slug: player-6c217d0e5722aca8
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 26
-current_goals: 20
-current_assists: 14
-current_points: 34
-current_pim: 8
+current_goals: 10
+current_assists: 7
+current_points: 17
+current_pim: 4
 regular_games: 26
-regular_goals: 20
-regular_assists: 14
-regular_points: 34
-regular_pim: 8
+regular_goals: 10
+regular_assists: 7
+regular_points: 17
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 26
-career_goals: 20
-career_assists: 14
-career_points: 34
-career_pim: 8
-history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|26|20|14|34|8
-assists: 14
+career_goals: 10
+career_assists: 7
+career_points: 17
+career_pim: 4
+history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|26|10|7|17|4
+assists: 7
 games: 26
-goals: 20
-penalties: 4
+goals: 10
+penalties: 2
 phase: regular-season
-pim: 8
-points: 34
-rank: 79
+pim: 4
+points: 17
+rank: 82
 season: se-25-26

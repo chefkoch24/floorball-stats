@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jēkabs Keišs
 Category: players
 Slug: player-9ea63e0ba498cc55
@@ -23,26 +23,26 @@ regular_points: 43
 regular_pim: 18
 playoff_games: 12
 playoff_goals: 8
-playoff_assists: 5
-playoff_points: 13
+playoff_assists: 4
+playoff_points: 12
 playoff_pim: 6
-previous_games: 1
+previous_games: 7
 previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 0
-career_games: 40
+career_games: 46
 career_goals: 29
 career_assists: 29
 career_points: 58
 career_pim: 24
-history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|8|5|13|6||lv-25-26|regular-season|Latvia|Rubene|27|20|23|43|18||wfc-2024|tournament|IFF WFC|Latvia|1|1|1|2|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|8|5|13|6||lv-25-26|regular-season|Latvia|Rubene|27|20|23|43|18||wfc-2024|tournament|IFF WFC|Latvia|7|1|1|2|0
 assists: 5
 games: 12
 goals: 8
 penalties: 3
 phase: playoffs
 pim: 6
-points: 13
+points: 12
 rank: 12
 season: lv-25-26

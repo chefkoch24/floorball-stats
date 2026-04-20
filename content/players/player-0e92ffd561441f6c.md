@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Timo Schreppers
 Category: players
 Slug: player-0e92ffd561441f6c
 type: player
 player: Timo Schreppers
 player_uid: player-0e92ffd561441f6c
-team: SV Wiler-Ersigen
+team: Grasshopper Club Zürich
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|5|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|0
 assists: 0
 games: 5
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 294
+rank: 184
 season: ch-25-26

@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Loris Hofmann
 Category: players
 Slug: player-5cb8dc2dd392eb80
 type: player
 player: Loris Hofmann
 player_uid: player-5cb8dc2dd392eb80
-team: Floorball Thurgau / UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / Floorball Chur United / Unihockey Basel Regio
+team: Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|6|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / Floorball Chur United / Unihockey Basel Regio|9|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|9|0|0|0|0
 assists: 0
 games: 6
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 201
+rank: 145
 season: ch-25-26

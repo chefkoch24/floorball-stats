@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Treneris Andris Pīlups
 Category: players
 Slug: player-93ceeb63d3e556cf
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 10
+playoff_games: 9
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -38,11 +38,11 @@ career_points: 0
 career_pim: 0
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|0|0|0|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|24|0|0|0|0
 assists: 0
-games: 10
+games: 9
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 213
+rank: 211
 season: lv-25-26

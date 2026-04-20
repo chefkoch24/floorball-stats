@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Ralfs Celmiņš
 Category: players
 Slug: player-7eacab906b0ca17c
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 52
+rank: 51
 season: lv-25-26

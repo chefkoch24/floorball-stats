@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tomáš Hanák
 Category: players
 Slug: player-6ccb8d3382dddef4
@@ -26,17 +26,17 @@ playoff_goals: 7
 playoff_assists: 9
 playoff_points: 16
 playoff_pim: 6
-previous_games: 4
+previous_games: 6
 previous_goals: 6
 previous_assists: 3
 previous_points: 9
 previous_pim: 0
-career_games: 38
+career_games: 40
 career_goals: 34
 career_assists: 35
 career_points: 69
 career_pim: 12
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|7|9|16|6||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|21|23|44|6||wfc-2024|tournament|IFF WFC|Czechia|4|6|3|9|0
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|7|9|16|6||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|21|23|44|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|3|9|0
 assists: 9
 games: 9
 goals: 7

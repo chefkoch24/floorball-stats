@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tomáš Matula
 Category: players
 Slug: player-b5e43d15ad5c0667
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 57
+rank: 56
 season: sk-25-26

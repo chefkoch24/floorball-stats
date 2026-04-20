@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Toms Akmeņlauks
 Category: players
 Slug: player-8b0d1e62c0f5fedd
@@ -23,26 +23,26 @@ regular_points: 48
 regular_pim: 14
 playoff_games: 12
 playoff_goals: 3
-playoff_assists: 5
-playoff_points: 8
+playoff_assists: 4
+playoff_points: 7
 playoff_pim: 4
-previous_games: 1
+previous_games: 7
 previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 37
+career_games: 43
 career_goals: 24
 career_assists: 33
 career_points: 57
 career_pim: 18
-history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|5|8|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|24|21|27|48|14||wfc-2024|tournament|IFF WFC|Latvia|1|0|1|1|0
+history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|5|8|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|24|21|27|48|14||wfc-2024|tournament|IFF WFC|Latvia|7|0|1|1|0
 assists: 5
 games: 12
 goals: 3
 penalties: 2
 phase: playoffs
 pim: 4
-points: 8
-rank: 31
+points: 7
+rank: 29
 season: lv-25-26

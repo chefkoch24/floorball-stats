@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Mattiece Cortez Myllyperkio
 Category: players
 Slug: player-eda00578b8f42d52
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 218
+rank: 287
 season: wfc-2024

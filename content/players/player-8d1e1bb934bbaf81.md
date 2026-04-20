@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Gints Bērtulis
 Category: players
 Slug: player-8d1e1bb934bbaf81
@@ -38,7 +38,7 @@ career_points: 3
 career_pim: 6
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|13|2|0|2|4||lv-25-26|regular-season|Latvia|Lekrings|18|1|0|1|2
 assists: 0
-games: 13
+games: 12
 goals: 2
 penalties: 2
 phase: playoffs

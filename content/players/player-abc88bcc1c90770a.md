@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Dominic Rak
 Category: players
 Slug: player-abc88bcc1c90770a
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 3
+current_games: 5
 current_goals: 3
 current_assists: 3
 current_points: 6
@@ -31,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 5
 career_goals: 3
 career_assists: 3
 career_points: 6
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Australia|3|3|3|6|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Australia|5|3|3|6|0
 assists: 2
 games: 2
 goals: 3

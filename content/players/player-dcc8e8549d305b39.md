@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Alexander Galante Carlström
 Category: players
 Slug: player-dcc8e8549d305b39
 type: player
 player: Alexander Galante Carlström
-player_uid: player-dcc8e8549d305b39
-team: Grasshopper Club Zürich / HC Rychenberg Winterthur / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau
+player_uid: player-e9509f9a63155888
+team: SV Wiler-Ersigen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur|10|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / Zug United / Floorball Chur United / UHC Uster / Tigers Langnau|22|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|22|0|0|0|0
 assists: 0
 games: 10
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 119
+rank: 113
 season: ch-25-26

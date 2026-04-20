@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jakub Fuchsig
 Category: players
 Slug: player-e1d2d6c81deeb2e0

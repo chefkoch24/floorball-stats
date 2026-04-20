@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Vojtěch Šmatlák
 Category: players
 Slug: player-802551de1fb032bd

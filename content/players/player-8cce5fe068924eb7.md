@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Mario Bardill
 Category: players
 Slug: player-8cce5fe068924eb7
 type: player
 player: Mario Bardill
 player_uid: player-8cce5fe068924eb7
-team: Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster / HC Rychenberg Winterthur
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster / HC Rychenberg Winterthur|21|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|21|0|0|0|0
 assists: 0
 games: 21
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 439
+rank: 305
 season: ch-25-26

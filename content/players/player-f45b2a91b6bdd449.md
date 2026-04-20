@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Emanuele Pasotti
 Category: players
 Slug: player-f45b2a91b6bdd449
 type: player
 player: Emanuele Pasotti
 player_uid: player-f45b2a91b6bdd449
-team: UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United
+team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 8
+current_assists: 9
+current_points: 17
+current_pim: 8
 regular_games: 22
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 8
+regular_assists: 9
+regular_points: 17
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 22
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United|22|0|0|0|0
-assists: 0
+career_goals: 8
+career_assists: 9
+career_points: 17
+career_pim: 8
+history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|22|8|9|17|8
+assists: 9
 games: 22
-goals: 0
-penalties: 0
+goals: 8
+penalties: 4
 phase: regular-season
-pim: 0
-points: 0
-rank: 312
+pim: 8
+points: 17
+rank: 61
 season: ch-25-26

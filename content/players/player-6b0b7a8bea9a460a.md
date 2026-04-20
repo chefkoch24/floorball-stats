@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Severin Schmid
 Category: players
 Slug: player-6b0b7a8bea9a460a
 type: player
 player: Severin Schmid
 player_uid: player-6b0b7a8bea9a460a
-team: WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans
+team: UHC Uster
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans|3|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Uster|3|0|0|0|0
 assists: 0
 games: 3
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 545
+rank: 333
 season: ch-25-26

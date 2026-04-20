@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Martin Kupec
 Category: players
 Slug: player-ba727f70cf1e9fe2
@@ -25,7 +25,7 @@ playoff_games: 9
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
+playoff_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

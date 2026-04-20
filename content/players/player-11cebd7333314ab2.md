@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Måns Parsjö
 Category: players
 Slug: player-11cebd7333314ab2
@@ -15,12 +15,12 @@ current_games: 35
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 4
+current_pim: 2
 regular_games: 26
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 4
+regular_pim: 2
 playoff_games: 9
 playoff_goals: 0
 playoff_assists: 0
@@ -35,8 +35,8 @@ career_games: 35
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 4
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|9|0|0|0|0||se-25-26|regular-season|Sweden|Storvreta IBK|26|0|0|0|4
+career_pim: 2
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|9|0|0|0|0||se-25-26|regular-season|Sweden|Storvreta IBK|26|0|0|0|2
 assists: 0
 games: 9
 goals: 0

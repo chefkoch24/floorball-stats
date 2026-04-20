@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Samuel Virga
 Category: players
 Slug: player-b2c0dfdd6aaa3b01
@@ -26,17 +26,17 @@ playoff_goals: 1
 playoff_assists: 2
 playoff_points: 3
 playoff_pim: 2
-previous_games: 1
+previous_games: 7
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 15
+career_games: 21
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|1|2|3|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|4|1|0|1|0||wfc-2024|tournament|IFF WFC|Slovakia|1|0|0|0|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|1|2|3|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|4|1|0|1|0||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|2
 assists: 2
 games: 10
 goals: 1

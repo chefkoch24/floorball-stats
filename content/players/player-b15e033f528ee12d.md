@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Nils Reese
 Category: players
 Slug: player-b15e033f528ee12d
 type: player
 player: Nils Reese
 player_uid: player-b15e033f528ee12d
-team: Zug United
+team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Zug United|1|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 496
+rank: 322
 season: ch-25-26

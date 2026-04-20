@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Julien Huther
 Category: players
 Slug: player-dd3b0f61dc3f7265
 type: player
 player: Julien Huther
 player_uid: player-dd3b0f61dc3f7265
-team: Tigers Langnau
+team: Floorball Köniz Bern
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau|1|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 377
+rank: 285
 season: ch-25-26

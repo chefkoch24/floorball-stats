@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Anton Breicha
 Category: players
 Slug: player-9d6fc06cb08ce1fc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 112
+rank: 111
 season: sk-25-26

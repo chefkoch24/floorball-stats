@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Enea Raselli
 Category: players
 Slug: player-dcbd63c59121a55a
 type: player
 player: Enea Raselli
 player_uid: player-dcbd63c59121a55a
-team: SV Wiler-Ersigen / Zug United / UHC Uster
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen / Zug United / UHC Uster|3|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|3|0|0|0|0
 assists: 0
 games: 3
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 313
+rank: 264
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Tomáš Bulejčík
 Category: players
 Slug: player-f4f90ad704dd7438
@@ -43,6 +43,6 @@ goals: 12
 penalties: 2
 phase: playoffs
 pim: 4
-points: 21
-rank: 5
+points: 19
+rank: 6
 season: sk-25-26

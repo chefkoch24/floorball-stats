@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Oliver Olekšák
 Category: players
 Slug: player-f862ba50b9219bb7
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 158
+rank: 159
 season: sk-25-26

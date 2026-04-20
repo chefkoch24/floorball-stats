@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Patrik Vykoupil
 Category: players
 Slug: player-dba5ebc5940ac8d7

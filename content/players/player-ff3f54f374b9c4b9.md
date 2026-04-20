@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Rolands Kovaļevskis
 Category: players
 Slug: player-ff3f54f374b9c4b9
@@ -21,28 +21,28 @@ regular_goals: 31
 regular_assists: 12
 regular_points: 43
 regular_pim: 0
-playoff_games: 6
-playoff_goals: 5
+playoff_games: 5
+playoff_goals: 4
 playoff_assists: 6
-playoff_points: 11
+playoff_points: 10
 playoff_pim: 0
-previous_games: 4
+previous_games: 7
 previous_goals: 2
 previous_assists: 5
 previous_points: 7
 previous_pim: 2
-career_games: 29
+career_games: 32
 career_goals: 38
 career_assists: 23
 career_points: 61
 career_pim: 2
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|6|5|6|11|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|19|31|12|43|0||wfc-2024|tournament|IFF WFC|Latvia|4|2|5|7|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|6|5|6|11|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|19|31|12|43|0||wfc-2024|tournament|IFF WFC|Latvia|7|2|5|7|2
 assists: 6
-games: 6
-goals: 5
+games: 5
+goals: 4
 penalties: 0
 phase: playoffs
 pim: 0
-points: 11
-rank: 20
+points: 10
+rank: 22
 season: lv-25-26
