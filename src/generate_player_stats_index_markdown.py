@@ -2,6 +2,7 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 import re
+from src.player_identity import harmonize_player_display_names
 
 try:
     import psycopg
@@ -51,31 +52,60 @@ def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
         raise RuntimeError("psycopg is required for --database-url mode. Install dependencies first.")
     rows: list[dict[str, str]] = []
     with psycopg.connect(database_url) as conn, conn.cursor() as cur:
-        cur.execute(
-            """
-            SELECT
-                player_uid,
-                source_system,
-                source_player_id,
-                source_person_id,
-                player,
-                title,
-                slug,
-                category,
-                team,
-                league,
-                season,
-                phase,
-                rank,
-                games,
-                goals,
-                assists,
-                points,
-                pim,
-                penalties
-            FROM player_stats
-            """
-        )
+        try:
+            cur.execute(
+                """
+                SELECT
+                    COALESCE(alias.canonical_uid, ps.player_uid) AS player_uid,
+                    ps.source_system,
+                    ps.source_player_id,
+                    ps.source_person_id,
+                    ps.player,
+                    ps.title,
+                    ps.slug,
+                    ps.category,
+                    ps.team,
+                    ps.league,
+                    ps.season,
+                    ps.phase,
+                    ps.rank,
+                    ps.games,
+                    ps.goals,
+                    ps.assists,
+                    ps.points,
+                    ps.pim,
+                    ps.penalties
+                FROM player_stats ps
+                LEFT JOIN player_identity_aliases alias
+                  ON alias.alias_uid = ps.player_uid
+                """
+            )
+        except Exception:
+            cur.execute(
+                """
+                SELECT
+                    player_uid,
+                    source_system,
+                    source_player_id,
+                    source_person_id,
+                    player,
+                    title,
+                    slug,
+                    category,
+                    team,
+                    league,
+                    season,
+                    phase,
+                    rank,
+                    games,
+                    goals,
+                    assists,
+                    points,
+                    pim,
+                    penalties
+                FROM player_stats
+                """
+            )
         columns = [description.name for description in cur.description]
         for record in cur.fetchall():
             row = {columns[idx]: "" if value is None else str(value) for idx, value in enumerate(record)}
@@ -266,7 +296,7 @@ def generate_player_stats_index_markdown(
             "Missing --database-url (or NEON_DATABASE_URL / DATABASE_URL env var). "
             "CSV fallback is disabled for player stats index generation."
         )
-    source_rows = _load_rows_from_postgres(database_url)
+    source_rows = harmonize_player_display_names(_load_rows_from_postgres(database_url))
     if not source_rows:
         return 0, 0
     for row in source_rows:

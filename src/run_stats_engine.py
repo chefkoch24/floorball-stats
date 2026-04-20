@@ -376,54 +376,114 @@ def _alternate_player_keys(name: object) -> list[str]:
     primary = _normalize_player_key(raw)
     if not primary:
         return []
-    keys = [primary]
+    keys: list[str] = []
     parts = [part for part in raw.split() if part]
     if len(parts) == 2:
         swapped = _normalize_player_key(f"{parts[1]} {parts[0]}")
+        # Allow full-name events to match abbreviated season entries
+        # (e.g. "Albin Sjogren" -> "a sjogren").
+        if len(parts[0]) > 1:
+            initial_form = _normalize_player_key(f"{parts[0][0]} {parts[1]}")
+            if initial_form and initial_form not in keys:
+                keys.append(initial_form)
         if swapped and swapped not in keys:
             keys.append(swapped)
+    if primary not in keys:
+        keys.append(primary)
     return keys
 
 
-def _load_player_uid_lookup(player_stats_csv: Path, season: Optional[str], phase: Optional[str]) -> tuple[dict[tuple[str, str], str], dict[str, str]]:
+def _load_player_uid_lookup(
+    player_stats_csv: Path,
+    season: Optional[str],
+    phase: Optional[str],
+) -> tuple[
+    dict[tuple[str, str], str],
+    dict[str, str],
+    dict[tuple[str, str, str], str],
+    dict[tuple[str, str], str],
+]:
     exact_lookup: dict[tuple[str, str], str] = {}
     fallback_candidates: dict[str, set[str]] = {}
+    initial_exact_candidates: dict[tuple[str, str, str], dict[str, int]] = {}
+    initial_fallback_candidates: dict[tuple[str, str], dict[str, int]] = {}
     player_df: pd.DataFrame | None = None
     database_url = os.getenv("NEON_DATABASE_URL") or os.getenv("DATABASE_URL")
-    if database_url:
-        try:
-            import psycopg  # type: ignore
+    if not database_url:
+        raise RuntimeError(
+            "Missing NEON_DATABASE_URL (or DATABASE_URL). "
+            "Player UID lookup is DB-only; CSV fallback has been removed."
+        )
+    try:
+        import psycopg  # type: ignore
 
-            with psycopg.connect(database_url) as conn:
-                with conn.cursor() as cur:
+        with psycopg.connect(database_url) as conn:
+            with conn.cursor() as cur:
+                try:
                     cur.execute(
                         """
-                        SELECT player_uid, player, team, season, phase
+                        SELECT
+                            COALESCE(alias.canonical_uid, ps.player_uid) AS player_uid,
+                            ps.player,
+                            ps.team,
+                            ps.season,
+                            ps.phase,
+                            ps.goals,
+                            ps.assists,
+                            ps.points,
+                            ps.penalties
+                        FROM player_stats ps
+                        LEFT JOIN player_identity_aliases alias
+                          ON alias.alias_uid = ps.player_uid
+                        """
+                    )
+                except Exception:
+                    cur.execute(
+                        """
+                        SELECT player_uid, player, team, season, phase, goals, assists, points, penalties
                         FROM player_stats
                         """
                     )
-                    rows = cur.fetchall()
-            player_df = pd.DataFrame(rows, columns=["player_uid", "player", "team", "season", "phase"]).fillna("")
-        except Exception:
-            player_df = None
-    if player_df is None:
-        if not player_stats_csv.exists():
-            return exact_lookup, {}
-        player_df = pd.read_csv(player_stats_csv, dtype=str).fillna("")
+                rows = cur.fetchall()
+        player_df = pd.DataFrame(
+            rows,
+            columns=["player_uid", "player", "team", "season", "phase", "goals", "assists", "points", "penalties"],
+        ).fillna("")
+    except Exception:
+        return exact_lookup, {}, {}, {}
 
     if season:
         player_df = player_df[player_df["season"].astype(str).str.strip() == str(season).strip()]
     if phase:
         player_df = player_df[player_df["phase"].astype(str).str.strip() == str(phase).strip()]
 
+    def _initial_surname_key(player_name: object) -> Optional[tuple[str, str]]:
+        tokens = [token for token in str(player_name or "").strip().split() if token]
+        if len(tokens) < 2:
+            return None
+        first_norm = normalize_slug_fragment(tokens[0]).replace("-", "")
+        surname_norm = normalize_slug_fragment(tokens[-1]).replace("-", "")
+        if not first_norm or not surname_norm:
+            return None
+        return (first_norm[:1], surname_norm)
+
     for _, row in player_df.iterrows():
         uid = str(row.get("player_uid", "")).strip()
         player_key = _normalize_player_key(row.get("player", ""))
         team_key = _team_identity_key(row.get("team", ""))
-        if not uid or not player_key:
+        initial_key = _initial_surname_key(row.get("player", ""))
+        has_stats = any(_to_int_or_zero(row.get(column)) > 0 for column in ("goals", "assists", "points", "penalties"))
+        if not uid or not player_key or not has_stats:
             continue
         if team_key:
             exact_lookup.setdefault((team_key, player_key), uid)
+        points_value = _to_int_or_zero(row.get("points"))
+        if team_key and initial_key:
+            bucket = initial_exact_candidates.setdefault((team_key, initial_key[0], initial_key[1]), {})
+            bucket[uid] = max(points_value, bucket.get(uid, 0))
+        if initial_key:
+            bucket = initial_fallback_candidates.setdefault(initial_key, {})
+            bucket[uid] = max(points_value, bucket.get(uid, 0))
         fallback_candidates.setdefault(player_key, set()).add(uid)
 
     fallback_lookup = {
@@ -431,7 +491,22 @@ def _load_player_uid_lookup(player_stats_csv: Path, season: Optional[str], phase
         for player_key, uids in fallback_candidates.items()
         if len(uids) == 1
     }
-    return exact_lookup, fallback_lookup
+    initial_exact_lookup: dict[tuple[str, str, str], str] = {}
+    for key, uid_points in initial_exact_candidates.items():
+        if not uid_points:
+            continue
+        ranked = sorted(uid_points.items(), key=lambda item: (item[1], item[0]), reverse=True)
+        if len(ranked) == 1 or ranked[0][1] > ranked[1][1]:
+            initial_exact_lookup[key] = ranked[0][0]
+
+    initial_fallback_lookup: dict[tuple[str, str], str] = {}
+    for key, uid_points in initial_fallback_candidates.items():
+        if not uid_points:
+            continue
+        ranked = sorted(uid_points.items(), key=lambda item: (item[1], item[0]), reverse=True)
+        if len(ranked) == 1 or ranked[0][1] > ranked[1][1]:
+            initial_fallback_lookup[key] = ranked[0][0]
+    return exact_lookup, fallback_lookup, initial_exact_lookup, initial_fallback_lookup
 
 
 def _resolve_player_uid(
@@ -439,7 +514,19 @@ def _resolve_player_uid(
     team: object,
     exact_lookup: dict[tuple[str, str], str],
     fallback_lookup: dict[str, str],
+    initial_exact_lookup: dict[tuple[str, str, str], str],
+    initial_fallback_lookup: dict[tuple[str, str], str],
 ) -> Optional[str]:
+    def _initial_surname_key(player_name: object) -> Optional[tuple[str, str]]:
+        tokens = [token for token in str(player_name or "").strip().split() if token]
+        if len(tokens) < 2:
+            return None
+        first_norm = normalize_slug_fragment(tokens[0]).replace("-", "")
+        surname_norm = normalize_slug_fragment(tokens[-1]).replace("-", "")
+        if not first_norm or not surname_norm:
+            return None
+        return (first_norm[:1], surname_norm)
+
     player_keys = _alternate_player_keys(name)
     if not player_keys:
         return None
@@ -449,11 +536,46 @@ def _resolve_player_uid(
             exact = exact_lookup.get((team_key, player_key))
             if exact:
                 return exact
+    initial_key = _initial_surname_key(name)
+    if initial_key and team_key:
+        uid = initial_exact_lookup.get((team_key, initial_key[0], initial_key[1]))
+        if uid:
+            return uid
+    if initial_key:
+        uid = initial_fallback_lookup.get(initial_key)
+        if uid:
+            return uid
     for player_key in player_keys:
         fallback = fallback_lookup.get(player_key)
         if fallback:
             return fallback
     return None
+
+
+def _load_player_alias_map() -> dict[str, str]:
+    alias_map: dict[str, str] = {}
+    database_url = os.getenv("NEON_DATABASE_URL") or os.getenv("DATABASE_URL")
+    if not database_url:
+        return alias_map
+    try:
+        import psycopg  # type: ignore
+
+        with psycopg.connect(database_url) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT alias_uid, canonical_uid
+                    FROM player_identity_aliases
+                    """
+                )
+                for alias_uid, canonical_uid in cur.fetchall():
+                    alias = str(alias_uid or "").strip()
+                    canonical = str(canonical_uid or "").strip()
+                    if alias and canonical:
+                        alias_map[alias] = canonical
+    except Exception:
+        return {}
+    return alias_map
 
 
 def _display_minute_for_event(event: pd.Series) -> str:
@@ -565,6 +687,9 @@ def _build_game_events_payload(
     away_team: str,
     exact_player_lookup: dict[tuple[str, str], str],
     fallback_player_lookup: dict[str, str],
+    initial_exact_player_lookup: dict[tuple[str, str, str], str],
+    initial_fallback_player_lookup: dict[tuple[str, str], str],
+    player_alias_map: dict[str, str],
 ) -> dict[str, object]:
     relevant_events = game_df[game_df["event_type"].isin([EVENT_GOAL, EVENT_PENALTY])].copy()
     if relevant_events.empty:
@@ -572,6 +697,11 @@ def _build_game_events_payload(
 
     relevant_events = _sort_events_chronologically(relevant_events)
     payload: list[dict[str, object]] = []
+
+    def _canonical_player_uid(value: Optional[str]) -> Optional[str]:
+        if not value:
+            return None
+        return player_alias_map.get(value, value)
 
     periods_present = {
         _to_int_or_zero(period)
@@ -606,9 +736,27 @@ def _build_game_events_payload(
                     **base_event,
                     "event_kind": "goal",
                     "title": scorer_label,
-                    "title_uid": None if is_own_goal else _resolve_player_uid(scorer_label, event_team, exact_player_lookup, fallback_player_lookup),
+                    "title_uid": None if is_own_goal else _canonical_player_uid(
+                        _resolve_player_uid(
+                            scorer_label,
+                            event_team,
+                            exact_player_lookup,
+                            fallback_player_lookup,
+                            initial_exact_player_lookup,
+                            initial_fallback_player_lookup,
+                        )
+                    ),
                     "assist": assist_label,
-                    "assist_uid": _resolve_player_uid(assist_label, event_team, exact_player_lookup, fallback_player_lookup),
+                    "assist_uid": _canonical_player_uid(
+                        _resolve_player_uid(
+                            assist_label,
+                            event_team,
+                            exact_player_lookup,
+                            fallback_player_lookup,
+                            initial_exact_player_lookup,
+                            initial_fallback_player_lookup,
+                        )
+                    ),
                     "tag": goal_tag,
                 }
             )
@@ -620,7 +768,16 @@ def _build_game_events_payload(
                     "event_kind": "penalty",
                     "title": _penalty_type_label(event.get("penalty_type")),
                     "assist": penalty_player_name,
-                    "assist_uid": _resolve_player_uid(penalty_player_name, event_team, exact_player_lookup, fallback_player_lookup),
+                    "assist_uid": _canonical_player_uid(
+                        _resolve_player_uid(
+                            penalty_player_name,
+                            event_team,
+                            exact_player_lookup,
+                            fallback_player_lookup,
+                            initial_exact_player_lookup,
+                            initial_fallback_player_lookup,
+                        )
+                    ),
                     "tag": _clean_nullable_text(event.get("penalty_type")) or "penalty",
                 }
             )
@@ -1792,11 +1949,17 @@ def run_stats_pipeline(
         return prepared
 
     df = _prepare_df(pd.read_csv(input_csv_path))
-    exact_player_lookup, fallback_player_lookup = _load_player_uid_lookup(
+    (
+        exact_player_lookup,
+        fallback_player_lookup,
+        initial_exact_player_lookup,
+        initial_fallback_player_lookup,
+    ) = _load_player_uid_lookup(
         Path(input_csv_path).resolve().parent / "player_stats.csv",
-        season=season,
-        phase=phase,
+        season=None,
+        phase=None,
     )
+    player_alias_map = _load_player_alias_map()
     teams = list(df["home_team_name"].unique()) + list(df["away_team_name"].unique())
     teams = np.unique(teams)
     engine = build_engine()
@@ -2121,6 +2284,9 @@ def run_stats_pipeline(
                 away_team,
                 exact_player_lookup,
                 fallback_player_lookup,
+                initial_exact_player_lookup,
+                initial_fallback_player_lookup,
+                player_alias_map,
             )
         )
         game_stats.append(game_stat)
