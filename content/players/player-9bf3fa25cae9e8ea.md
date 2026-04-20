@@ -23,8 +23,8 @@ regular_points: 21
 regular_pim: 10
 playoff_games: 9
 playoff_goals: 1
-playoff_assists: 1
-playoff_points: 2
+playoff_assists: 0
+playoff_points: 1
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0

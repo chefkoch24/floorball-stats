@@ -24,7 +24,7 @@ regular_pim: 4
 playoff_games: 11
 playoff_goals: 3
 playoff_assists: 0
-playoff_points: 3
+playoff_points: 2
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -38,11 +38,11 @@ career_points: 16
 career_pim: 4
 history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|3|0|3|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|17|11|2|13|4
 assists: 0
-games: 11
-goals: 3
+games: 10
+goals: 2
 penalties: 0
 phase: playoffs
 pim: 0
-points: 3
-rank: 52
+points: 2
+rank: 65
 season: sk-25-26

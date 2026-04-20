@@ -21,11 +21,11 @@ regular_goals: 5
 regular_assists: 11
 regular_points: 16
 regular_pim: 0
-playoff_games: 4
+playoff_games: 2
 playoff_goals: 0
-playoff_assists: 3
-playoff_points: 3
-playoff_pim: 2
+playoff_assists: 2
+playoff_points: 2
+playoff_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -40,7 +40,7 @@ history_rows_csv: fi-25-26|playoffs|Finland|Oilers|4|0|3|3|2||fi-25-26|regular-s
 assists: 3
 games: 4
 goals: 0
-penalties: 1
+penalties: 0
 phase: playoffs
 pim: 2
 points: 3

@@ -38,11 +38,11 @@ career_points: 0
 career_pim: 2
 history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|6|0|0|0|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|3|0|0|0|2
 assists: 0
-games: 6
+games: 5
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 212
+rank: 210
 season: lv-25-26

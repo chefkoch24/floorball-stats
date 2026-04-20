@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 1
 regular_points: 1
 regular_pim: 0
-playoff_games: 1
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -41,7 +41,7 @@ assists: 0
 games: 1
 goals: 0
 penalties: 0
-phase: playoffs
+phase: regular-season
 pim: 0
 points: 0
 rank: 137

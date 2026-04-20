@@ -43,6 +43,6 @@ goals: 9
 penalties: 5
 phase: playoffs
 pim: 10
-points: 13
-rank: 11
+points: 11
+rank: 17
 season: lv-25-26

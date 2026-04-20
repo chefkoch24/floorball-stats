@@ -38,11 +38,11 @@ career_points: 37
 career_pim: 10
 history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|7|5|12|2||lv-25-26|regular-season|Latvia|Rubene|24|22|3|25|8
 assists: 5
-games: 12
+games: 11
 goals: 7
 penalties: 1
 phase: playoffs
 pim: 2
 points: 12
-rank: 16
+rank: 13
 season: lv-25-26

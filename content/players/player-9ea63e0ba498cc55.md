@@ -23,8 +23,8 @@ regular_points: 43
 regular_pim: 18
 playoff_games: 12
 playoff_goals: 8
-playoff_assists: 5
-playoff_points: 13
+playoff_assists: 4
+playoff_points: 12
 playoff_pim: 6
 previous_games: 7
 previous_goals: 1
@@ -43,6 +43,6 @@ goals: 8
 penalties: 3
 phase: playoffs
 pim: 6
-points: 13
+points: 12
 rank: 12
 season: lv-25-26

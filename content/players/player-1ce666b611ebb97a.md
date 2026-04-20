@@ -40,9 +40,9 @@ history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|8|1|1|2|10||se-25-26|regu
 assists: 1
 games: 8
 goals: 1
-penalties: 5
+penalties: 4
 phase: playoffs
-pim: 10
+pim: 8
 points: 2
 rank: 67
 season: se-25-26

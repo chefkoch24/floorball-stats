@@ -42,7 +42,7 @@ games: 15
 goals: 16
 penalties: 5
 phase: playoffs
-pim: 10
-points: 34
+pim: 8
+points: 31
 rank: 1
 season: sk-25-26

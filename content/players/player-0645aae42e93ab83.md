@@ -38,11 +38,11 @@ career_points: 21
 career_pim: 8
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|4|1|5|4||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|11|5|16|4
 assists: 1
-games: 10
+games: 9
 goals: 4
 penalties: 2
 phase: playoffs
 pim: 4
 points: 5
-rank: 43
+rank: 40
 season: lv-25-26

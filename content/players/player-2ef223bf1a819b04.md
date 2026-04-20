@@ -21,10 +21,10 @@ regular_goals: 3
 regular_assists: 9
 regular_points: 12
 regular_pim: 0
-playoff_games: 14
+playoff_games: 13
 playoff_goals: 2
-playoff_assists: 6
-playoff_points: 8
+playoff_assists: 5
+playoff_points: 7
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -43,6 +43,6 @@ goals: 2
 penalties: 0
 phase: playoffs
 pim: 0
-points: 8
+points: 7
 rank: 32
 season: lv-25-26

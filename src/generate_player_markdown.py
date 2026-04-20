@@ -121,6 +121,39 @@ def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return [best_rows[key] for key in ordered_keys]
 
 
+def _dedupe_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    best_rows: dict[tuple[str, str, str, str, str], dict[str, str]] = {}
+    ordered_keys: list[tuple[str, str, str, str, str]] = []
+    for row in rows:
+        marker = (
+            row.get("player_uid", "").strip().lower(),
+            row.get("season", "").strip().lower(),
+            row.get("phase", "").strip().lower(),
+            row.get("team", "").strip().lower(),
+            row.get("league", "").strip().lower(),
+        )
+        candidate_score = (
+            1 if row.get("source_person_id", "").strip() else 0,
+            1 if row.get("source_player_id", "").strip() else 0,
+            len(row.get("history_rows_csv", "").strip()),
+            len(row.get("slug", "").strip()),
+        )
+        existing = best_rows.get(marker)
+        if existing is None:
+            ordered_keys.append(marker)
+            best_rows[marker] = row
+            continue
+        existing_score = (
+            1 if existing.get("source_person_id", "").strip() else 0,
+            1 if existing.get("source_player_id", "").strip() else 0,
+            len(existing.get("history_rows_csv", "").strip()),
+            len(existing.get("slug", "").strip()),
+        )
+        if candidate_score > existing_score:
+            best_rows[marker] = row
+    return [best_rows[key] for key in ordered_keys]
+
+
 def _load_rows_from_postgres(database_url: str) -> list[dict[str, str]]:
     if psycopg is None:
         raise RuntimeError("psycopg is required for --database-url mode. Install dependencies first.")
@@ -428,6 +461,7 @@ def generate_player_markdown(
     season_prefixes: set[str] | None = None,
     prune_stale: bool = True,
     database_url: str = "",
+    merge_csv_path: str = "",
 ) -> tuple[int, int]:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -514,6 +548,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default="content/players")
     parser.add_argument("--default-category", default="players")
     parser.add_argument(
+        "--merge-csv-path",
+        default="",
+        help="Optional secondary CSV to merge additional season rows for players found in the primary CSV.",
+    )
+    parser.add_argument(
         "--season-prefixes",
         default="",
         help="Optional comma-separated season prefixes to include (e.g. sk,fi,se,cz,ch,lv,de).",
@@ -534,6 +573,7 @@ def main() -> None:
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),
         prune_stale=not args.no_prune,
+        merge_csv_path=args.merge_csv_path,
     )
     print(f"player-markdown: wrote={written} removed={removed}")
 

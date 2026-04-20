@@ -38,11 +38,11 @@ career_points: 78
 career_pim: 6
 history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|5|5|10|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|41|23|64|4||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|0
 assists: 5
-games: 12
+games: 11
 goals: 5
 penalties: 1
 phase: playoffs
 pim: 2
 points: 10
-rank: 22
+rank: 21
 season: lv-25-26

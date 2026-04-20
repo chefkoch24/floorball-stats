@@ -38,7 +38,7 @@ career_points: 14
 career_pim: 12
 history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|2|5|7|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|3|7|8
 assists: 5
-games: 11
+games: 10
 goals: 2
 penalties: 2
 phase: playoffs

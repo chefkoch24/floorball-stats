@@ -24,7 +24,7 @@ regular_pim: 4
 playoff_games: 10
 playoff_goals: 4
 playoff_assists: 2
-playoff_points: 6
+playoff_points: 5
 playoff_pim: 4
 previous_games: 0
 previous_goals: 0

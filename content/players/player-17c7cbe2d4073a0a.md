@@ -24,7 +24,7 @@ regular_pim: 6
 playoff_games: 15
 playoff_goals: 3
 playoff_assists: 4
-playoff_points: 7
+playoff_points: 6
 playoff_pim: 10
 previous_games: 0
 previous_goals: 0
@@ -38,11 +38,11 @@ career_points: 15
 career_pim: 16
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|15|3|4|7|10||lv-25-26|regular-season|Latvia|Lekrings|25|5|3|8|6
 assists: 4
-games: 15
-goals: 3
+games: 14
+goals: 2
 penalties: 5
 phase: playoffs
 pim: 10
-points: 7
-rank: 34
+points: 6
+rank: 38
 season: lv-25-26
