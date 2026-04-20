@@ -261,6 +261,16 @@ refresh-wfc:
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)"
 	"$(PYTHON)" -m src.generate_wfc_tournament_page
 
+refresh-wfc-from-db:
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL)."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.export_wfc_events_to_csv --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)" --skip_scrape
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)" --skip_scrape
+	"$(PYTHON)" -m src.generate_wfc_tournament_page
+
 refresh-switzerland-smart:
 	$(MAKE) refresh-switzerland-playoffs
 	@if [ -f "$(SWISS_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SWISS_PLAYOFFS_CSV)")" -gt 1 ]; then \
