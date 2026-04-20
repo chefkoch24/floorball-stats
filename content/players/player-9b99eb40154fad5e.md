@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Levin Gügi
 Category: players
 Slug: player-9b99eb40154fad5e
 type: player
 player: Levin Gügi
 player_uid: player-9b99eb40154fad5e
-team: Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern
+team: WASA St. Gallen
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 21
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 5
+current_assists: 1
+current_points: 6
+current_pim: 10
 regular_games: 21
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 5
+regular_assists: 1
+regular_points: 6
+regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 21
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / Zug United / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern|21|0|0|0|0
-assists: 0
+career_goals: 5
+career_assists: 1
+career_points: 6
+career_pim: 10
+history_rows_csv: ch-25-26|regular-season|Switzerland|WASA St. Gallen|21|5|1|6|10
+assists: 1
 games: 21
-goals: 0
-penalties: 0
+goals: 5
+penalties: 5
 phase: regular-season
-pim: 0
-points: 0
-rank: 400
+pim: 10
+points: 6
+rank: 129
 season: ch-25-26

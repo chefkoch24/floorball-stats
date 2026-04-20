@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Oscar Smith
 Category: players
 Slug: player-acb69dd9cfdb55fe
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 2
+current_games: 5
 current_goals: 1
 current_assists: 0
 current_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 5
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Australia|2|1|0|1|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Australia|5|1|0|1|2
 assists: 0
 games: 2
-goals: 1
-penalties: 1
-phase: regular-season
-pim: 2
-points: 1
-rank: 147
+goals: 0
+penalties: 0
+phase: playoffs
+pim: 0
+points: 0
+rank: 300
 season: wfc-2024

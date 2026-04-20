@@ -31,14 +31,14 @@ goal_difference: -59
 goal_difference_per_game: -2.68
 goals: 92
 goals_against: 151
-goals_against_away: 56
-goals_against_home: 92
+goals_against_away: 58
+goals_against_home: 93
 goals_against_in_boxplay: 27
 goals_against_in_boxplay_per_game: 1.23
 goals_against_in_powerplay: 4
 goals_against_per_game: 6.86
 goals_away: 44
-goals_home: 47
+goals_home: 48
 goals_in_boxplay: 2
 goals_in_first_period: 23
 goals_in_first_period_against: 45
@@ -55,7 +55,7 @@ goals_per_game: 4.18
 home_points: 4
 loss_1: 6
 losses: 16
-over_time_losses: 1
+over_time_losses: 2
 over_time_wins: 0
 penalties: 41
 penalties_per_game: 1.86
@@ -66,7 +66,7 @@ penalty_first_period: 13
 penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 13
-penalty_shootout_losses: 1
+penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 1

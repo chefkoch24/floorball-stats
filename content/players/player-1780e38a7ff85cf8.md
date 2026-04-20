@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jonas Stettler
 Category: players
 Slug: player-1780e38a7ff85cf8
 type: player
 player: Jonas Stettler
 player_uid: player-1780e38a7ff85cf8
-team: UHC Uster / Floorball Thurgau / UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / SV Wiler-Ersigen / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio
+team: Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -15,12 +15,12 @@ current_games: 30
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 0
+current_pim: 2
 regular_games: 22
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 0
+regular_pim: 2
 playoff_games: 8
 playoff_goals: 0
 playoff_assists: 0
@@ -35,8 +35,8 @@ career_games: 30
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|UHC Uster / Floorball Thurgau|8|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / SV Wiler-Ersigen / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio|22|0|0|0|0
+career_pim: 2
+history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|8|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|22|0|0|0|2
 assists: 0
 games: 8
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 174
+rank: 136
 season: ch-25-26

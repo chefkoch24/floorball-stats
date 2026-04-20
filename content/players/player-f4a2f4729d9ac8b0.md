@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Hannes Langenstraß
 Category: players
 Slug: player-f4a2f4729d9ac8b0
@@ -26,17 +26,17 @@ playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
 playoff_pim: 0
-previous_games: 1
+previous_games: 7
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 24
+career_games: 30
 career_goals: 17
 career_assists: 12
 career_points: 29
 career_pim: 4
-history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|2|1|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|15|11|26|2||wfc-2024|tournament|IFF WFC|Germany|1|0|0|0|2
+history_rows_csv: 25-26|playoffs|Germany|Floor Fighters Chemnitz|3|2|1|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|15|11|26|2||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|2
 assists: 1
 games: 3
 goals: 2

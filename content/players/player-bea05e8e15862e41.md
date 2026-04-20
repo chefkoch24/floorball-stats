@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Sebastián Halas
 Category: players
 Slug: player-bea05e8e15862e41

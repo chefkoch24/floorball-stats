@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Patrick Mahoney
 Category: players
 Slug: player-a7246eb8e44c273b
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 3
+current_games: 5
 current_goals: 1
 current_assists: 2
 current_points: 3
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 5
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 4
-history_rows_csv: wfc-2024|tournament|IFF WFC|Canada|3|1|2|3|4
-assists: 2
-games: 3
-goals: 1
-penalties: 2
-phase: regular-season
-pim: 4
-points: 3
-rank: 58
+history_rows_csv: wfc-2024|tournament|IFF WFC|Canada|5|1|2|3|4
+assists: 0
+games: 2
+goals: 0
+penalties: 0
+phase: playoffs
+pim: 0
+points: 0
+rank: 306
 season: wfc-2024

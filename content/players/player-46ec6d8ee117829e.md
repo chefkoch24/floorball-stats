@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Max Kiener
 Category: players
 Slug: player-46ec6d8ee117829e
 type: player
 player: Max Kiener
 player_uid: player-46ec6d8ee117829e
-team: UHC Alligator Malans
+team: Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|1|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 461
+rank: 311
 season: ch-25-26

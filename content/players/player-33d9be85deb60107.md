@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Joel Müller
 Category: players
 Slug: player-33d9be85deb60107
 type: player
 player: Joel Müller
 player_uid: player-33d9be85deb60107
-team: Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen
+team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen|21|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|0|0|0|0
 assists: 0
 games: 21
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 361
+rank: 281
 season: ch-25-26

@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Simon Aemmer
 Category: players
 Slug: player-5b0fc43862cf05b8
 type: player
 player: Simon Aemmer
 player_uid: player-5b0fc43862cf05b8
-team: UHC Alligator Malans
+team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|1|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 550
+rank: 336
 season: ch-25-26

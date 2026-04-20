@@ -1,25 +1,25 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Nuno Brosi
 Category: players
 Slug: player-467fb4c2f5f5f29b
 type: player
 player: Nuno Brosi
 player_uid: player-467fb4c2f5f5f29b
-team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 21
-current_goals: 0
+current_goals: 3
 current_assists: 0
-current_points: 0
+current_points: 3
 current_pim: 0
 regular_games: 21
-regular_goals: 0
+regular_goals: 3
 regular_assists: 0
-regular_points: 0
+regular_points: 3
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 21
-career_goals: 0
+career_goals: 3
 career_assists: 0
-career_points: 0
+career_points: 3
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Zug United / UHC Uster|21|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|21|3|0|3|0
 assists: 0
 games: 21
-goals: 0
+goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 0
-rank: 511
+points: 3
+rank: 180
 season: ch-25-26

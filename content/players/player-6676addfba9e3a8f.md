@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jakob Bohls
 Category: players
 Slug: player-6676addfba9e3a8f

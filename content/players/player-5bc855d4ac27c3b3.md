@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Dan Hartmann
 Category: players
 Slug: player-5bc855d4ac27c3b3
 type: player
 player: Dan Hartmann
 player_uid: player-5bc855d4ac27c3b3
-team: Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen
+team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 22
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 11
+current_assists: 12
+current_points: 23
+current_pim: 2
 regular_games: 22
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 11
+regular_assists: 12
+regular_points: 23
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 22
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen|22|0|0|0|0
-assists: 0
+career_goals: 11
+career_assists: 12
+career_points: 23
+career_pim: 2
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|11|12|23|2
+assists: 12
 games: 22
-goals: 0
-penalties: 0
+goals: 11
+penalties: 1
 phase: regular-season
-pim: 0
-points: 0
-rank: 292
+pim: 2
+points: 23
+rank: 37
 season: ch-25-26

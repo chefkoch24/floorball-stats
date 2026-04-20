@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Andrin Jäggi
 Category: players
 Slug: player-c3ef8c2964e7c11f
 type: player
 player: Andrin Jäggi
 player_uid: player-c3ef8c2964e7c11f
-team: UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United
+team: Unihockey Basel Regio
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Zug United|22|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|22|0|0|0|0
 assists: 0
 games: 22
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 267
+rank: 254
 season: ch-25-26

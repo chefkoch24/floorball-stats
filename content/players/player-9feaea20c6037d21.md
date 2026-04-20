@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Steven Friedli
 Category: players
 Slug: player-9feaea20c6037d21
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 2
+current_games: 5
 current_goals: 2
 current_assists: 1
 current_points: 3
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 5
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Canada|2|2|1|3|0
-assists: 1
+history_rows_csv: wfc-2024|tournament|IFF WFC|Canada|5|2|1|3|0
+assists: 0
 games: 2
-goals: 2
+goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
-points: 3
-rank: 52
+points: 0
+rank: 329
 season: wfc-2024

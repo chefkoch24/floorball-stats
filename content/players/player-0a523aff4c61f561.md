@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Záhorský Adam
 Category: players
 Slug: player-0a523aff4c61f561

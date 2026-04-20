@@ -38,7 +38,7 @@ goals_against_in_boxplay_per_game: 0.59
 goals_against_in_powerplay: 1
 goals_against_per_game: 3.68
 goals_away: 62
-goals_home: 80
+goals_home: 81
 goals_in_boxplay: 4
 goals_in_first_period: 37
 goals_in_first_period_against: 26

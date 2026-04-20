@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Olle Jonsson
 Category: players
 Slug: player-7a15fcad31df9b9d
@@ -15,12 +15,12 @@ current_games: 26
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 4
+current_pim: 2
 regular_games: 26
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 4
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -35,14 +35,14 @@ career_games: 26
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|26|0|0|0|4
+career_pim: 2
+history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|26|0|0|0|2
 assists: 0
 games: 26
 goals: 0
-penalties: 2
+penalties: 1
 phase: regular-season
-pim: 4
+pim: 2
 points: 0
 rank: 324
 season: se-25-26

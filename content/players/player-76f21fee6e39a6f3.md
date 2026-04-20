@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Peteris Trekse
 Category: players
 Slug: player-76f21fee6e39a6f3
@@ -26,17 +26,17 @@ playoff_goals: 7
 playoff_assists: 6
 playoff_points: 13
 playoff_pim: 0
-previous_games: 4
+previous_games: 7
 previous_goals: 2
 previous_assists: 2
 previous_points: 4
 previous_pim: 2
-career_games: 32
+career_games: 35
 career_goals: 20
 career_assists: 25
 career_points: 45
 career_pim: 10
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|6|7|6|13|0||fi-25-26|regular-season|Finland|Classic|22|11|17|28|8||wfc-2024|tournament|IFF WFC|Latvia|4|2|2|4|2
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|6|7|6|13|0||fi-25-26|regular-season|Finland|Classic|22|11|17|28|8||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|2
 assists: 6
 games: 6
 goals: 7

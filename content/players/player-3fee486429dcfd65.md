@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Nadir Monighetti
 Category: players
 Slug: player-3fee486429dcfd65
 type: player
 player: Nadir Monighetti
 player_uid: player-3fee486429dcfd65
-team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Floorball Köniz Bern / Zug United
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 19
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 11
+current_assists: 12
+current_points: 23
+current_pim: 4
 regular_games: 19
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 11
+regular_assists: 12
+regular_points: 23
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 19
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Floorball Köniz Bern / Zug United|19|0|0|0|0
-assists: 0
+career_goals: 11
+career_assists: 12
+career_points: 23
+career_pim: 4
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|19|11|12|23|4
+assists: 12
 games: 19
-goals: 0
-penalties: 0
+goals: 11
+penalties: 2
 phase: regular-season
-pim: 0
-points: 0
-rank: 479
+pim: 4
+points: 23
+rank: 39
 season: ch-25-26

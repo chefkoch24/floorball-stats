@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Jannis Röst
 Category: players
 Slug: player-8bb92963dd64b5ce
 type: player
 player: Jannis Röst
 player_uid: player-8bb92963dd64b5ce
-team: Tigers Langnau / Grasshopper Club Zürich
+team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich|2|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|2|0|0|0|0
 assists: 0
 games: 2
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 353
+rank: 279
 season: ch-25-26

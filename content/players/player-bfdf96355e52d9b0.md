@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Michal Sifra
 Category: players
 Slug: player-bfdf96355e52d9b0
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 2
+current_games: 7
 current_goals: 2
 current_assists: 0
 current_points: 2
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 7
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 0
-history_rows_csv: wfc-2024|tournament|IFF WFC|Slovakia|2|2|0|2|0
+history_rows_csv: wfc-2024|tournament|IFF WFC|Slovakia|7|2|0|2|0
 assists: 0
-games: 2
+games: 4
 goals: 2
 penalties: 0
 phase: playoffs

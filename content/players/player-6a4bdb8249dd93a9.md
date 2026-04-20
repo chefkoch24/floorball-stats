@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Flavio Rust
 Category: players
 Slug: player-6a4bdb8249dd93a9
 type: player
 player: Flavio Rust
 player_uid: player-6a4bdb8249dd93a9
-team: UHC Uster / Floorball Thurgau / HC Rychenberg Winterthur / WASA St. Gallen / Floorball Chur United / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / SV Wiler-Ersigen
+team: Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Uster / Floorball Thurgau / HC Rychenberg Winterthur / WASA St. Gallen / Floorball Chur United / UHC Alligator Malans / Tigers Langnau / Floorball Köniz Bern / SV Wiler-Ersigen|12|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Zug United|12|0|0|0|0
 assists: 0
 games: 12
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 322
+rank: 268
 season: ch-25-26

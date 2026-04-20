@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Fabian Berg
 Category: players
 Slug: player-9507b6add068c2ea
@@ -13,14 +13,14 @@ current_season_is_tournament: no
 previous_season: n.a.
 current_games: 10
 current_goals: 0
-current_assists: 2
-current_points: 2
-current_pim: 4
+current_assists: 1
+current_points: 1
+current_pim: 2
 regular_games: 10
 regular_goals: 0
-regular_assists: 2
-regular_points: 2
-regular_pim: 4
+regular_assists: 1
+regular_points: 1
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -33,16 +33,16 @@ previous_points: 0
 previous_pim: 0
 career_games: 10
 career_goals: 0
-career_assists: 2
-career_points: 2
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|10|0|2|2|4
-assists: 2
+career_assists: 1
+career_points: 1
+career_pim: 2
+history_rows_csv: se-25-26|regular-season|Sweden|Strängnäs IBK|10|0|1|1|2
+assists: 1
 games: 10
 goals: 0
-penalties: 2
+penalties: 1
 phase: regular-season
-pim: 4
-points: 2
+pim: 2
+points: 1
 rank: 247
 season: se-25-26

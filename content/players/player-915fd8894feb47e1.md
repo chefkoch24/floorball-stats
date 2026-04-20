@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Mauro Hartmann
 Category: players
 Slug: player-915fd8894feb47e1
 type: player
 player: Mauro Hartmann
 player_uid: player-915fd8894feb47e1
-team: Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen
+team: UHC Alligator Malans
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 21
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 12
+current_assists: 6
+current_points: 18
+current_pim: 16
 regular_games: 21
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 12
+regular_assists: 6
+regular_points: 18
+regular_pim: 16
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 21
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Unihockey Basel Regio / Zug United / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen|21|0|0|0|0
-assists: 0
+career_goals: 12
+career_assists: 6
+career_points: 18
+career_pim: 16
+history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|12|6|18|16
+assists: 6
 games: 21
-goals: 0
-penalties: 0
+goals: 12
+penalties: 8
 phase: regular-season
-pim: 0
-points: 0
-rank: 457
+pim: 16
+points: 18
+rank: 56
 season: ch-25-26

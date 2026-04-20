@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Liam Åström
 Category: players
 Slug: player-ab19e2870bd5119e
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 23
-current_goals: 22
-current_assists: 34
-current_points: 56
-current_pim: 20
+current_goals: 11
+current_assists: 17
+current_points: 28
+current_pim: 10
 regular_games: 23
-regular_goals: 22
-regular_assists: 34
-regular_points: 56
-regular_pim: 20
+regular_goals: 11
+regular_assists: 17
+regular_points: 28
+regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 23
-career_goals: 22
-career_assists: 34
-career_points: 56
-career_pim: 20
-history_rows_csv: se-25-26|regular-season|Sweden|AIK IBF|23|22|34|56|20
-assists: 34
+career_goals: 11
+career_assists: 17
+career_points: 28
+career_pim: 10
+history_rows_csv: se-25-26|regular-season|Sweden|AIK IBF|23|11|17|28|10
+assists: 17
 games: 23
-goals: 22
-penalties: 10
+goals: 11
+penalties: 5
 phase: regular-season
-pim: 20
-points: 56
-rank: 48
+pim: 10
+points: 28
+rank: 49
 season: se-25-26

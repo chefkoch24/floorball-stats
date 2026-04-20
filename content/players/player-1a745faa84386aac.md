@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Saso Bizjak
 Category: players
 Slug: player-1a745faa84386aac
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 223
+rank: 322
 season: wfc-2024

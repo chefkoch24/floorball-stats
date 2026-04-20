@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: David Kryl
 Category: players
 Slug: player-c719a7a445fb60d1

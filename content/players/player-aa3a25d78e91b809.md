@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Martin Bohumský
 Category: players
 Slug: player-aa3a25d78e91b809

@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Massimo Petris
 Category: players
 Slug: player-ab11a8b234149e5f
 type: player
 player: Massimo Petris
 player_uid: player-ab11a8b234149e5f
-team: UHC Alligator Malans / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio / UHC Uster / Tigers Langnau / Floorball Köniz Bern / SV Wiler-Ersigen
+team: Zug United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|UHC Alligator Malans / Grasshopper Club Zürich / Floorball Thurgau / HC Rychenberg Winterthur / WASA St. Gallen / Floorball Chur United / Unihockey Basel Regio / UHC Uster / Tigers Langnau / Floorball Köniz Bern / SV Wiler-Ersigen|15|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Zug United|15|0|0|0|0
 assists: 0
 games: 15
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 447
+rank: 307
 season: ch-25-26

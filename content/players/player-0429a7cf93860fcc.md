@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Ville Hirvisuo
 Category: players
 Slug: player-0429a7cf93860fcc
@@ -12,15 +12,15 @@ current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 24
-current_goals: 18
-current_assists: 12
-current_points: 30
-current_pim: 4
+current_goals: 9
+current_assists: 6
+current_points: 15
+current_pim: 2
 regular_games: 24
-regular_goals: 18
-regular_assists: 12
-regular_points: 30
-regular_pim: 4
+regular_goals: 9
+regular_assists: 6
+regular_points: 15
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -32,17 +32,17 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 24
-career_goals: 18
-career_assists: 12
-career_points: 30
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Visby IBK|24|18|12|30|4
-assists: 12
+career_goals: 9
+career_assists: 6
+career_points: 15
+career_pim: 2
+history_rows_csv: se-25-26|regular-season|Sweden|Visby IBK|24|9|6|15|2
+assists: 6
 games: 24
-goals: 18
-penalties: 2
+goals: 9
+penalties: 1
 phase: regular-season
-pim: 4
-points: 30
-rank: 86
+pim: 2
+points: 15
+rank: 87
 season: se-25-26

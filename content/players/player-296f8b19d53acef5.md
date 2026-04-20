@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Alex Kark
 Category: players
 Slug: player-296f8b19d53acef5
@@ -11,7 +11,7 @@ season_count: 1
 current_season: wfc-2024
 current_season_is_tournament: yes
 previous_season: n.a.
-current_games: 3
+current_games: 6
 current_goals: 2
 current_assists: 0
 current_points: 2
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 6
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 2
-history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|3|2|0|2|2
+history_rows_csv: wfc-2024|tournament|IFF WFC|Estonia|6|2|0|2|2
 assists: 0
-games: 2
+games: 3
 goals: 1
 penalties: 1
 phase: playoffs

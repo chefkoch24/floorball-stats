@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Valtteri Viitakoski
 Category: players
 Slug: player-8bf625c7bb6c66f1
@@ -26,17 +26,17 @@ playoff_goals: 2
 playoff_assists: 0
 playoff_points: 2
 playoff_pim: 0
-previous_games: 3
+previous_games: 5
 previous_goals: 4
 previous_assists: 4
 previous_points: 8
 previous_pim: 0
-career_games: 22
+career_games: 24
 career_goals: 17
 career_assists: 17
 career_points: 34
 career_pim: 0
-history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|2|0|2|0||fi-25-26|regular-season|Finland|Nokian KrP|17|11|13|24|0||wfc-2024|tournament|IFF WFC|Canada|3|4|4|8|0
+history_rows_csv: fi-25-26|playoffs|Finland|Nokian KrP|2|2|0|2|0||fi-25-26|regular-season|Finland|Nokian KrP|17|11|13|24|0||wfc-2024|tournament|IFF WFC|Canada|5|4|4|8|0
 assists: 0
 games: 2
 goals: 2

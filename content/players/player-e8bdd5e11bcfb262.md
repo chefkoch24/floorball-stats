@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Mattias Lövenfors
 Category: players
 Slug: player-e8bdd5e11bcfb262
@@ -15,12 +15,12 @@ current_games: 15
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 4
+current_pim: 2
 regular_games: 15
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 4
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -35,14 +35,14 @@ career_games: 15
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 4
-history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|15|0|0|0|4
+career_pim: 2
+history_rows_csv: se-25-26|regular-season|Sweden|Warberg IC|15|0|0|0|2
 assists: 0
 games: 15
 goals: 0
-penalties: 2
+penalties: 1
 phase: regular-season
-pim: 4
+pim: 2
 points: 0
 rank: 313
 season: se-25-26

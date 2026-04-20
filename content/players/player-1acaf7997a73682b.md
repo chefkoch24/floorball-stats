@@ -1,48 +1,48 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Alexander Hedlund
 Category: players
 Slug: player-1acaf7997a73682b
 type: player
 player: Alexander Hedlund
 player_uid: player-1acaf7997a73682b
-team: HC Rychenberg Winterthur / Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen
+team: Tigers Langnau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 25
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 20
+current_assists: 28
+current_points: 48
+current_pim: 8
 regular_games: 22
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 17
+regular_assists: 25
+regular_points: 42
+regular_pim: 4
 playoff_games: 3
-playoff_goals: 0
-playoff_assists: 0
-playoff_points: 0
-playoff_pim: 0
+playoff_goals: 3
+playoff_assists: 3
+playoff_points: 6
+playoff_pim: 4
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 25
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|3|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United / UHC Uster / Zug United / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen|22|0|0|0|0
-assists: 0
+career_goals: 20
+career_assists: 28
+career_points: 48
+career_pim: 8
+history_rows_csv: ch-25-26|playoffs|Switzerland|Tigers Langnau|3|3|3|6|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|17|25|42|4
+assists: 3
 games: 3
-goals: 0
-penalties: 0
+goals: 3
+penalties: 2
 phase: playoffs
-pim: 0
-points: 0
-rank: 120
+pim: 4
+points: 6
+rank: 36
 season: ch-25-26

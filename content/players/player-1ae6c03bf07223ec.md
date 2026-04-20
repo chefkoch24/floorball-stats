@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Livio Butzerin
 Category: players
 Slug: player-1ae6c03bf07223ec
 type: player
 player: Livio Butzerin
 player_uid: player-1ae6c03bf07223ec
-team: Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United
+team: Floorball Chur United
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / Floorball Thurgau / SV Wiler-Ersigen / UHC Uster / Zug United|20|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|20|0|0|0|0
 assists: 0
 games: 20
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 408
+rank: 292
 season: ch-25-26

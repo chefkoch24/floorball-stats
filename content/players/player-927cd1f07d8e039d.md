@@ -1,4 +1,4 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Krišjānis Tiltiņš
 Category: players
 Slug: player-927cd1f07d8e039d
@@ -26,17 +26,17 @@ playoff_goals: 15
 playoff_assists: 7
 playoff_points: 22
 playoff_pim: 2
-previous_games: 4
+previous_games: 7
 previous_goals: 1
 previous_assists: 3
 previous_points: 4
 previous_pim: 2
-career_games: 36
+career_games: 39
 career_goals: 34
 career_assists: 35
 career_points: 69
 career_pim: 24
-history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|15|7|22|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|18|25|43|20||wfc-2024|tournament|IFF WFC|Latvia|4|1|3|4|2
+history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|15|7|22|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|18|25|43|20||wfc-2024|tournament|IFF WFC|Latvia|7|1|3|4|2
 assists: 7
 games: 10
 goals: 15

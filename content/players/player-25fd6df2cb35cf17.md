@@ -1,26 +1,26 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Maurin Biner
 Category: players
 Slug: player-25fd6df2cb35cf17
 type: player
 player: Maurin Biner
 player_uid: player-25fd6df2cb35cf17
-team: Floorball Thurgau / WASA St. Gallen / Unihockey Basel Regio / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans / Floorball Thurgau
+team: Floorball Köniz Bern
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 24
-current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_goals: 1
+current_assists: 3
+current_points: 4
+current_pim: 6
 regular_games: 18
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
-regular_pim: 0
+regular_goals: 1
+regular_assists: 3
+regular_points: 4
+regular_pim: 6
 playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
@@ -32,11 +32,11 @@ previous_assists: 0
 previous_points: 0
 previous_pim: 0
 career_games: 24
-career_goals: 0
-career_assists: 0
-career_points: 0
-career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|6|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen / Unihockey Basel Regio / Zug United / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / HC Rychenberg Winterthur / UHC Alligator Malans / Floorball Thurgau|18|0|0|0|0
+career_goals: 1
+career_assists: 3
+career_points: 4
+career_pim: 6
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|18|1|3|4|6
 assists: 0
 games: 6
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 226
+rank: 159
 season: ch-25-26

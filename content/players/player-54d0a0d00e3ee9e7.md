@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Severin Ott
 Category: players
 Slug: player-54d0a0d00e3ee9e7
 type: player
 player: Severin Ott
 player_uid: player-54d0a0d00e3ee9e7
-team: Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans
+team: HC Rychenberg Winterthur
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Zug United / WASA St. Gallen / Unihockey Basel Regio / UHC Alligator Malans|4|0|0|0|0
+history_rows_csv: ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|4|0|0|0|0
 assists: 0
 games: 4
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 544
+rank: 332
 season: ch-25-26

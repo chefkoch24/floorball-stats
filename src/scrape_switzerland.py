@@ -259,8 +259,9 @@ def _parse_players_block_names(html: str) -> list[str]:
 def _build_player_name_lookup(game_id: int, details: GameDetails) -> dict[str, dict[str, str]]:
     lookup: dict[str, dict[str, str]] = {details.home_team: {}, details.away_team: {}}
     try:
-        home_html = _fetch_block(game_id, "players", is_home=True)
-        away_html = _fetch_block(game_id, "players", is_home=False)
+        # is_home=1 on the Swiss API returns the visiting (away) roster; swap to match home/away labels.
+        home_html = _fetch_block(game_id, "players", is_home=False)
+        away_html = _fetch_block(game_id, "players", is_home=True)
     except requests.RequestException:
         return lookup
 

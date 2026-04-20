@@ -1,11 +1,11 @@
-Date: 2026-04-19
+Date: 2026-04-20
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b
 type: player
 player: Lian Schefer
 player_uid: player-cfa50690a93e184b
-team: Floorball Köniz Bern / Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen
+team: Floorball Thurgau
 league: Switzerland
 season_count: 1
 current_season: ch-25-26
@@ -36,7 +36,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Unihockey Basel Regio / UHC Alligator Malans / Floorball Köniz Bern / SV Wiler-Ersigen / Floorball Chur United / UHC Uster / Tigers Langnau / Grasshopper Club Zürich / WASA St. Gallen|15|0|0|0|0
+history_rows_csv: ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 197
+rank: 143
 season: ch-25-26
