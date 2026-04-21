@@ -204,12 +204,19 @@ def sync_pipeline_outputs(
     season: str,
     phase: str,
     stats_payload: dict[str, Any],
+    input_df: pd.DataFrame | None = None,
 ) -> dict[str, int]:
     source_key = Path(input_csv_path).stem
-    events_frame = pd.read_csv(input_csv_path)
-    events_frame.insert(0, "source_key", source_key)
-    events_frame.insert(1, "season", season)
-    events_frame.insert(2, "phase", phase)
+    if input_df is not None:
+        events_frame = input_df.copy()
+    else:
+        events_frame = pd.read_csv(input_csv_path)
+    if "source_key" not in events_frame.columns:
+        events_frame.insert(0, "source_key", source_key)
+    if "season" not in events_frame.columns:
+        events_frame.insert(1, "season", season)
+    if "phase" not in events_frame.columns:
+        events_frame.insert(2, "phase", phase)
 
     game_rows = stats_payload.get("game_stats", [])
     team_rows = []

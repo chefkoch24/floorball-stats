@@ -2,6 +2,8 @@ import argparse
 import os
 from pathlib import Path
 
+import pandas as pd
+
 from src.build_postgres import sync_pipeline_outputs as sync_pipeline_outputs_postgres
 from src.build_sqlite import sync_pipeline_outputs
 from src.generate_markdown import generate_markdown_files
@@ -20,6 +22,35 @@ from src.scrape_switzerland import (
     fetch_game_ids_from_url,
     scrape_games,
 )
+
+
+def _load_wfc_events_from_db(database_url: str, season: str, phase: str) -> pd.DataFrame:
+    import psycopg  # type: ignore
+
+    columns = [
+        "event_type", "event_team", "period", "sortkey", "game_id",
+        "home_team_name", "away_team_name", "home_goals", "guest_goals",
+        "goal_type", "penalty_type", "game_date", "game_start_time", "attendance",
+        "game_status", "ingame_status", "result_string", "scorer_name", "assist_name",
+        "scorer_number", "assist_number", "penalty_player_name", "venue", "venue_address",
+        "competition_name", "league_name", "tournament_stage_type", "tournament_stage_label",
+        "tournament_group", "tournament_round", "tournament_round_order",
+    ]
+    numeric_columns = {"period", "home_goals", "guest_goals", "attendance", "tournament_round_order"}
+    col_sql = ", ".join(columns)
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        cur.execute(
+            f"SELECT {col_sql} FROM events WHERE season = %s AND phase = %s",
+            (season, phase),
+        )
+        rows = cur.fetchall()
+    df = pd.DataFrame(rows, columns=columns)
+    for col in columns:
+        if col in numeric_columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+        else:
+            df[col] = df[col].fillna("")
+    return df
 
 
 def run_pipeline(
@@ -158,20 +189,27 @@ def run_pipeline(
                 phase=phase,
             )
         elif backend == "wfc":
-            if not wfc_league_organizer_id:
-                raise ValueError("wfc_league_organizer_id is required when backend=wfc")
-            scrape_wfc_league_organizer_games(
-                league_organizer_id=wfc_league_organizer_id,
-                output_path=str(raw_csv),
-                phase=phase,
-            )
+            if database_url:
+                pass  # DB-first: events loaded below, no scrape needed
+            else:
+                if not wfc_league_organizer_id:
+                    raise ValueError("wfc_league_organizer_id is required when backend=wfc without --database-url")
+                scrape_wfc_league_organizer_games(
+                    league_organizer_id=wfc_league_organizer_id,
+                    output_path=str(raw_csv),
+                    phase=phase,
+                )
         else:
             scrape_events(
                 input_path=f"leagues/{league_id}/schedule.json",
                 output_path=str(raw_csv),
             )
 
-    if not raw_csv.exists():
+    # For WFC with a database URL, load events from DB directly (no CSV needed).
+    wfc_db_frame: pd.DataFrame | None = None
+    if backend == "wfc" and database_url:
+        wfc_db_frame = _load_wfc_events_from_db(database_url, season, phase)
+    elif not raw_csv.exists():
         raise FileNotFoundError(f"Expected input CSV at {raw_csv} but file does not exist.")
 
     pregame_history_csv_paths: list[str] = []
@@ -188,6 +226,7 @@ def run_pipeline(
         phase=phase,
         pregame_history_csv_paths=pregame_history_csv_paths,
         playoff_cut=playoff_teams_count,
+        input_df=wfc_db_frame,
     )
     sqlite_db_path = sqlite_path or str(data_path / "stats.db")
     sqlite_counts = sync_pipeline_outputs(
@@ -205,6 +244,7 @@ def run_pipeline(
             season=season,
             phase=phase,
             stats_payload=stats_payload,
+            input_df=wfc_db_frame,
         )
     team_stats_markdown_path = data_path / "team_stats_enhanced.json"
     if phase == "playoffs":

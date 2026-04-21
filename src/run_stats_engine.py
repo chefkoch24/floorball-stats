@@ -1934,6 +1934,7 @@ def run_stats_pipeline(
     phase: Optional[str] = None,
     pregame_history_csv_paths: Optional[List[str]] = None,
     playoff_cut: int = 8,
+    input_df: Optional[pd.DataFrame] = None,
 ) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -1948,7 +1949,7 @@ def run_stats_pipeline(
             prepared = prepared.loc[~invalid_goals].copy()
         return prepared
 
-    df = _prepare_df(pd.read_csv(input_csv_path))
+    df = _prepare_df(input_df if input_df is not None else pd.read_csv(input_csv_path))
     (
         exact_player_lookup,
         fallback_player_lookup,

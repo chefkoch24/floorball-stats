@@ -257,18 +257,12 @@ refresh-latvia-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-wfc:
-	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)"
-	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)"
-	"$(PYTHON)" -m src.generate_wfc_tournament_page
-
-refresh-wfc-from-db:
 	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
-		echo "Missing NEON_DATABASE_URL (or DATABASE_URL)."; \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). WFC pipeline is DB-first."; \
 		exit 1; \
 	fi
-	"$(PYTHON)" -m src.export_wfc_events_to_csv --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
-	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)" --skip_scrape
-	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)" --skip_scrape
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)" --database_url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
+	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)" --database_url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
 	"$(PYTHON)" -m src.generate_wfc_tournament_page
 
 refresh-switzerland-smart:
