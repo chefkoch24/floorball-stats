@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 57.18
 home_penalty_goals_csv: 5
 home_penalty_minutes_csv: 55.68
-ingame_status: None
+ingame_status: NaN
 league_name: Play-Offs · 13th Place
 pregame_h2h_away_split_goal_diff_per_game: 0.0
 pregame_h2h_away_split_points_per_game: 1.0
@@ -80,11 +80,13 @@ timeline_diffs_csv: 0,1,2,3,2,1,2,3,2,3,2
 timeline_home_goals_csv: 0,1,2,3,3,3,4,5,5,6,6
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.08,5.55,7.12,12.83,17.62,32.73,54.3,57.18,58.47,59.73
+tournament_group: NaN
 tournament_round: 13th Place
 tournament_round_order: 72.0
 tournament_stage_label: 13th Place
 tournament_stage_type: elimination
 venue: Malmö Arena
+venue_address: NaN
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0

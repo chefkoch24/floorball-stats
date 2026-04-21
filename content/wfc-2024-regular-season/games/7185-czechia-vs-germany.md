@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 17.68,61.48
 home_penalty_goals_csv: 4,9
 home_penalty_minutes_csv: 15.68,59.48
-ingame_status: None
+ingame_status: NaN
 league_name: Group A · Group A
 pregame_h2h_away_split_goal_diff_per_game: 5.0
 pregame_h2h_away_split_points_per_game: 3.0
@@ -81,9 +81,11 @@ timeline_home_goals_csv: 0,1,2,3,4,5,6,7,8,9
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,1.62,5.12,6.53,14.5,17.85,30.33,36.2,49.07,50.63
 tournament_group: Group A
+tournament_round: NaN
 tournament_stage_label: Group A
 tournament_stage_type: group-stage
 venue: Baltic Hall
+venue_address: NaN
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 100.0

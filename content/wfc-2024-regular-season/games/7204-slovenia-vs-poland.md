@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 18.98,32.18
 home_penalty_goals_csv: 1,1
 home_penalty_minutes_csv: 14.98,30.18
-ingame_status: None
+ingame_status: NaN
 league_name: Group D · Group D
 pregame_h2h_away_split_goal_diff_per_game: 0.0
 pregame_h2h_away_split_points_per_game: 0.0
@@ -81,9 +81,11 @@ timeline_home_goals_csv: 0,1,1,1,2,3,3,3,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,3.97,23.23,25.67,38.08,47.32,56.42,56.75,58.93
 tournament_group: Group D
+tournament_round: NaN
 tournament_stage_label: Group D
 tournament_stage_type: group-stage
 venue: Malmö Arena
+venue_address: NaN
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 100.0

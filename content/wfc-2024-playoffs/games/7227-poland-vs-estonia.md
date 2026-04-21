@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 14.65,40.28,49.95
 home_penalty_goals_csv: 0,1,2
 home_penalty_minutes_csv: 12.65,38.28,48.82
-ingame_status: None
+ingame_status: NaN
 league_name: Play-Offs · 9th-12th:2
 pregame_h2h_away_split_goal_diff_per_game: -1.5
 pregame_h2h_away_split_points_per_game: 1.5
@@ -80,11 +80,13 @@ timeline_diffs_csv: 0,-1,-2,-1,-2,-3,-4,-3,-4,-3
 timeline_home_goals_csv: 0,0,0,1,1,1,1,2,2,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,4.7,15.77,23.43,26.83,40.68,44.58,44.85,49.95,56.35
+tournament_group: NaN
 tournament_round: 9th-12th:2
 tournament_round_order: 61.0
 tournament_stage_label: 9th-12th:2
 tournament_stage_type: elimination
 venue: Baltic Hall
+venue_address: NaN
 home_away_points: 0
 home_boxplay: 3
 home_boxplay_efficiency: 66.67

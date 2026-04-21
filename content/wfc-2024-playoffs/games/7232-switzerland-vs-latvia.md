@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
-ingame_status: None
+ingame_status: NaN
 league_name: Play-Offs · Quarterfinal 3
 pregame_h2h_away_split_goal_diff_per_game: -5.5
 pregame_h2h_away_split_points_per_game: 0.5
@@ -80,11 +80,13 @@ timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,-1
 timeline_home_goals_csv: 0,0,0,0,1,2,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,2.4,8.32,16.0,16.88,22.82,32.35,52.53
+tournament_group: NaN
 tournament_round: Quarterfinal 3
 tournament_round_order: 22.0
 tournament_stage_label: Quarterfinal 3
 tournament_stage_type: elimination
 venue: Malmö Arena
+venue_address: NaN
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
