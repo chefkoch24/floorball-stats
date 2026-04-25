@@ -78,6 +78,7 @@ def run_pipeline(
     latvia_calendar_urls: list[str] | None = None,
     latvia_season_start_year: int | None = None,
     wfc_league_organizer_id: int | None = None,
+    playoff_rounds: list[dict] | None = None,
     playoff_teams_count: int = 8,
     data_dir: str = "data",
     content_dir: str = "content",
@@ -225,6 +226,7 @@ def run_pipeline(
         season=season,
         phase=phase,
         pregame_history_csv_paths=pregame_history_csv_paths,
+        playoff_rounds=playoff_rounds,
         playoff_cut=playoff_teams_count,
         input_df=wfc_db_frame,
     )
@@ -265,6 +267,7 @@ def run_pipeline(
         season=season,
         phase=phase,
         database_url=database_url,
+        playoff_rounds=playoff_rounds,
     )
     return {
         "raw_csv": str(raw_csv),
@@ -306,6 +309,7 @@ def parse_args():
     parser.add_argument("--latvia_calendar_url", action="append", default=None)
     parser.add_argument("--latvia_season_start_year", type=int, default=None)
     parser.add_argument("--wfc_league_organizer_id", type=int, default=None)
+    parser.add_argument("--playoff_rounds", type=str, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default="25-26")
     parser.add_argument("--phase", default="regular-season")
@@ -367,6 +371,7 @@ def main():
         latvia_calendar_urls=args.latvia_calendar_url,
         latvia_season_start_year=args.latvia_season_start_year,
         wfc_league_organizer_id=args.wfc_league_organizer_id,
+        playoff_rounds=args.playoff_rounds,
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
         content_dir=args.content_dir,

@@ -4,6 +4,7 @@ Category: sk-25-26-playoffs, liga
 Slug: league-average-sk-25-26-playoffs
 type: liga
 team: League Average
+playoff_rounds_json: [{"name":"Quarter-finals","teams":8,"series_type":"best-of-5","wins_to_advance":3},{"name":"Semi-finals","teams":4,"series_type":"best-of-5","wins_to_advance":3},{"name":"Final","teams":2,"series_type":"best-of-5","wins_to_advance":3}]
 away_points: 4.0
 boxplay: 13.62
 boxplay_efficiency: 64.84

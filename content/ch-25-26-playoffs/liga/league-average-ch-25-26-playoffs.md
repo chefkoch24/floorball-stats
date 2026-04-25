@@ -1,9 +1,10 @@
-Date: 2026-04-17
+Date: 2026-04-25
 Title: League Average
 Category: ch-25-26-playoffs, liga
 Slug: league-average-ch-25-26-playoffs
 type: liga
 team: League Average
+playoff_rounds_json: [{"name":"Quarter-finals","teams":8,"series_type":"best-of-7","wins_to_advance":4},{"name":"Semi-finals","teams":4,"series_type":"best-of-7","wins_to_advance":4},{"name":"Final","teams":2,"series_type":"one-game","wins_to_advance":1}]
 away_points: 5.88
 boxplay: 10.12
 boxplay_efficiency: 53.97

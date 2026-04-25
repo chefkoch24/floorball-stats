@@ -1,5 +1,6 @@
 from datetime import datetime
 import hashlib
+import json
 import re
 
 import pandas as pd
@@ -224,6 +225,7 @@ def dict_to_markdown_league_stats(
     season: str,
     phase: str,
     metadata_date: str | None = None,
+    playoff_rounds: list | None = None,
 ):
     result = []
     category = "liga"
@@ -234,6 +236,8 @@ def dict_to_markdown_league_stats(
     result.append(f"Slug: {slug}")
     result.append(f"type: liga")
     result.append(f"team: {title}")
+    if playoff_rounds:
+        result.append(f"playoff_rounds_json: {json.dumps(playoff_rounds, separators=(',', ':'))}")
 
     for key, value in _iter_stable_items(stats):
         result.append(f"{key}: {value}")

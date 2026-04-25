@@ -1,4 +1,5 @@
 import argparse
+import os
 from datetime import datetime
 from pathlib import Path
 import re
@@ -567,8 +568,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    database_url = args.database_url or os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL") or ""
     written, removed = generate_player_markdown(
-        database_url=args.database_url,
+        database_url=database_url,
         output_dir=args.output_dir,
         default_category=args.default_category,
         season_prefixes=_normalize_prefix_tokens(args.season_prefixes),

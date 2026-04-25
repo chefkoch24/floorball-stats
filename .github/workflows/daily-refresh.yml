@@ -53,6 +53,8 @@ jobs:
 
       - name: Run daily refresh
         if: steps.berlin_gate.outputs.run_refresh == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
         run: |
           set -euo pipefail
           make refresh-current-season-smart

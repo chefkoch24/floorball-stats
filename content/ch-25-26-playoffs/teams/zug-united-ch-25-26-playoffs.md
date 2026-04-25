@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-25
 Title: Zug United
 Category: ch-25-26-playoffs, teams
 Slug: zug-united-ch-25-26-playoffs-ch-25-26-playoffs

@@ -2,7 +2,11 @@
   "backend": "finland",
   "season": "fi-25-26",
   "phase": "playoffs",
-  "playoff_teams_count": 8,
+  "playoff_rounds": [
+    { "name": "Quarter-finals", "teams": 8, "series_type": "best-of-7", "wins_to_advance": 4 },
+    { "name": "Semi-finals",    "teams": 4, "series_type": "best-of-7", "wins_to_advance": 4 },
+    { "name": "Final",          "teams": 2, "series_type": "best-of-7", "wins_to_advance": 4 }
+  ],
   "finland": {
     "playoff_start_date": "2026-03-23",
     "schedule_urls": [

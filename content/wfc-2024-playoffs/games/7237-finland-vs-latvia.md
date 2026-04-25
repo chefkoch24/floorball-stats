@@ -26,6 +26,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: NaN
 league_name: Play-Offs · Semifinal 1
+playoff_round: Semi-finals
 pregame_h2h_away_split_goal_diff_per_game: -3.33
 pregame_h2h_away_split_points_per_game: 1.0
 pregame_h2h_common_away_goal_diff_per_game: -5.5
@@ -80,7 +81,6 @@ timeline_diffs_csv: 0,1,2,3,4,5,6,7,6,5
 timeline_home_goals_csv: 0,1,2,3,4,5,6,7,7,7
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,22.88,24.8,25.85,29.1,31.53,33.92,38.5,47.65,59.08
-tournament_group: NaN
 tournament_round: Semifinal 1
 tournament_round_order: 30.0
 tournament_stage_label: Semifinal 1

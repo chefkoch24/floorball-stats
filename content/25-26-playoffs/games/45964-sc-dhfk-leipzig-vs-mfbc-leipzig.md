@@ -16,7 +16,7 @@ away_penalty_minutes_csv:
 game_events_b64: 
 game_events_count: 0
 game_state: scheduled
-game_status: Scheduled
+game_status: pregame
 home_goal_diffs_csv: 
 home_goal_minutes_csv: 
 home_major_penalty_minutes_csv: 
@@ -24,6 +24,7 @@ home_penalty_ends_csv:
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
 ingame_status: None
+playoff_round: Semi-finals
 pregame_h2h_away_split_goal_diff_per_game: 3.0
 pregame_h2h_away_split_points_per_game: 3.0
 pregame_h2h_common_away_goal_diff_per_game: n.a.

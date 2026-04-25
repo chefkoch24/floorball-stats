@@ -1,0 +1,117 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sweden SSL - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/sweden-ssl-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Finland Fliiga - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/finland-fliiga-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Germany 1FBL - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/germany-1fbl-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Czech CZ - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/czech-cez-extraliga-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Slovakia - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/slovakia-extraliga-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Latvia - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/latvia-elvi-vv-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Switzerland LUPL - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/switzerland-lupl-playoffs.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "WFC 2024 - Regular Season",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/iff-mens-wfc-2024-regular-season.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "WFC 2024 - Playoffs",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.pipeline --league_config config/leagues/iff-mens-wfc-2024.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "WFC 2024 - Tournament Page",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.generate_wfc_tournament_page",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Player Stats (All Leagues)",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.build_player_stats_postgres",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "WFC 2024 - Player Pages",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.generate_player_markdown --output-dir content/players --season-prefixes wfc --no-prune",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "WFC 2024 - Player Stats Pages",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.generate_player_stats_index_markdown --output-dir content/player-stats --season-prefixes wfc --no-prune",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Search Index",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && python -m src.build_search_index --content-dir content --output-path themes/my-theme/static/search/search-index.json",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Build HTML",
+      "type": "shell",
+      "command": "make html",
+      "options": { "cwd": "${workspaceFolder}" },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    },
+    {
+      "label": "Refresh Everything",
+      "type": "shell",
+      "command": "set -a && source .env && set +a && make refresh-all-leagues",
+      "options": { "cwd": "${workspaceFolder}", "env": { "PYTHONPATH": "." } },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    }
+  ]
+}

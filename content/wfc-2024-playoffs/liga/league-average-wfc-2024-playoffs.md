@@ -4,6 +4,7 @@ Category: wfc-2024-playoffs, liga
 Slug: league-average-wfc-2024-playoffs
 type: liga
 team: League Average
+playoff_rounds_json: [{"name":"Play-in","teams":8,"series_type":"single-game","wins_to_advance":1},{"name":"Quarter-finals","teams":8,"series_type":"single-game","wins_to_advance":1},{"name":"Semi-finals","teams":4,"series_type":"single-game","wins_to_advance":1},{"name":"Final","teams":2,"series_type":"single-game","wins_to_advance":1}]
 away_points: 1.88
 boxplay: 4.44
 boxplay_efficiency: 65.19
@@ -96,7 +97,7 @@ powerplay_overtime: 0.0
 powerplay_per_game: 1.56
 powerplay_second_period: 1.88
 powerplay_third_period: 1.5
-rank: 8.5
+rank: 4.5
 record_type: league_averages
 scoring_ratio: 1.26
 take_the_lead_goals: 3.06

@@ -1131,6 +1131,17 @@ body.feedback-modal-open {
   letter-spacing: 0.05em;
 }
 
+.round-header-row td {
+  background: var(--surface-muted);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--line);
+  padding-top: 1rem;
+}
+
 .data-table td,
 .data-table th {
   text-align: left;
@@ -1644,6 +1655,11 @@ body.feedback-modal-open {
   color: var(--result-win-text);
   font-weight: 700;
   letter-spacing: 0.02em;
+}
+
+.playoff-series-card.is-upcoming {
+  opacity: 0.75;
+  border-style: dashed;
 }
 
 .playoff-bracket-empty {

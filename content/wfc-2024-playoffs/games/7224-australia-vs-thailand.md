@@ -80,7 +80,6 @@ timeline_diffs_csv: 0,-1,-2,-3,-2,-1,0,1,0,-1
 timeline_home_goals_csv: 0,0,0,0,1,2,3,4,4,4
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,0.57,3.97,4.38,9.43,16.15,30.95,31.95,42.42,55.95
-tournament_group: NaN
 tournament_round: 13th-16th:2
 tournament_round_order: 71.0
 tournament_stage_label: 13th-16th:2

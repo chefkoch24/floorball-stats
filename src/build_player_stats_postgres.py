@@ -1,4 +1,5 @@
 import argparse
+import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -469,13 +470,21 @@ def _replace_player_stats_table(database_url: str, frame: pd.DataFrame) -> int:
 
 
 def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "") -> int:
+    print("Loading events from DB...")
     events = _load_events(database_url)
+    print(f"  {len(events):,} event rows loaded.")
+
+    print("Loading game rosters from DB...")
     game_rosters = _load_all_game_rosters(database_url)
+    print(f"  {len(game_rosters):,} roster rows loaded.")
+
     all_rows: list[pd.DataFrame] = []
 
     if not events.empty:
         grouped = events.groupby(["season", "phase"], dropna=False)
-        for (season, phase), subset in grouped:
+        groups = [(s, p, sub) for (s, p), sub in grouped]
+        total = len(groups)
+        for i, (season, phase, subset) in enumerate(groups, 1):
             season_key = str(season or "").strip()
             phase_key = str(phase or "").strip()
             if not season_key or not phase_key:
@@ -484,6 +493,7 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
             info = LEAGUE_INFO.get(prefix)
             if not info:
                 continue
+            print(f"[{i}/{total}] {season_key} / {phase_key} ({info['league']})...")
             event_rows = _rows_from_event_frame(
                 subset,
                 season=season_key,
@@ -537,6 +547,7 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
             ]
         )
 
+    print(f"Writing {len(result):,} player-stat rows to DB...")
     rows = _replace_player_stats_table(database_url, result)
     if output_csv:
         output_path = Path(output_csv)
@@ -547,14 +558,17 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build player_stats directly from Postgres events table.")
-    parser.add_argument("--database-url", required=True)
+    parser.add_argument("--database-url", default="")
     parser.add_argument("--output-csv", default="")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    rows = build_player_stats_from_postgres(database_url=args.database_url, output_csv=args.output_csv)
+    database_url = args.database_url or os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL") or ""
+    if not database_url:
+        raise SystemExit("Missing --database-url or NEON_DATABASE_URL/DATABASE_URL env var.")
+    rows = build_player_stats_from_postgres(database_url=database_url, output_csv=args.output_csv)
     target = args.output_csv or "database only"
     print(f"player-stats-db: wrote {rows} rows to player_stats ({target})")
 

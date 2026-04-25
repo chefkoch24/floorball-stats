@@ -24,6 +24,7 @@
         </div>
     </div>
     <div class="chip-row">
+        {% if article.playoff_round|default('') %}<span class="chip">{{ article.playoff_round }}</span>{% endif %}
         <span class="chip">Game ID: {{ article.game_id|default('n.a.') }}</span>
         <span class="chip">Date: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
         <span class="chip">Attendance: {{ article.attendance|fmt_int('n.a.') }}</span>

@@ -2,7 +2,12 @@
   "backend": "wfc",
   "season": "wfc-2024",
   "phase": "playoffs",
-  "playoff_teams_count": 16,
+  "playoff_rounds": [
+    { "name": "Play-in",        "teams": 8, "series_type": "single-game", "wins_to_advance": 1 },
+    { "name": "Quarter-finals", "teams": 8, "series_type": "single-game", "wins_to_advance": 1 },
+    { "name": "Semi-finals",    "teams": 4, "series_type": "single-game", "wins_to_advance": 1 },
+    { "name": "Final",          "teams": 2, "series_type": "single-game", "wins_to_advance": 1 }
+  ],
   "wfc": {
     "league_organizer_id": 187
   }

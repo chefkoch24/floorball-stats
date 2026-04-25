@@ -81,7 +81,6 @@ timeline_home_goals_csv: 0,0,0,1,1,1,2,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,10.4,21.3,24.35,47.98,50.43,55.52,58.92
 tournament_group: Group C
-tournament_round: NaN
 tournament_stage_label: Group C
 tournament_stage_type: group-stage
 venue: Baltic Hall

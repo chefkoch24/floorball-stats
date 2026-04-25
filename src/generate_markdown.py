@@ -350,6 +350,7 @@ def generate_markdown_files(
     top4_averages_path: Optional[str] = None,
     sqlite_path: Optional[str] = None,
     database_url: Optional[str] = None,
+    playoff_rounds: Optional[list] = None,
 ) -> Tuple[int, int, int]:
     games_out = Path(output_games_dir)
     teams_out = Path(output_teams_dir)
@@ -398,7 +399,7 @@ def generate_markdown_files(
     league_written = 0
     expected_liga_files: set[str] = set()
     league_title = "League Average"
-    league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase, metadata_date=metadata_date)
+    league_md = dict_to_markdown_league_stats(league_stats, league_title, season, phase, metadata_date=metadata_date, playoff_rounds=playoff_rounds if phase == "playoffs" else None)
     league_slug = normalize_slug_fragment(f"{league_title}-{season}-{phase}")
     league_target_path = liga_out / f"{league_slug}.md"
     expected_liga_files.add(league_target_path.name)

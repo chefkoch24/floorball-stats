@@ -81,7 +81,6 @@ timeline_home_goals_csv: 0,0,0,1,1,2,2,2,2,3,3,3
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,11.47,12.32,18.93,24.08,26.87,34.38,36.28,38.2,45.03,55.93,58.65
 tournament_group: Group A
-tournament_round: NaN
 tournament_stage_label: Group A
 tournament_stage_type: group-stage
 venue: Malmö Arena

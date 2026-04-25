@@ -370,9 +370,17 @@
 {% endif %}
 
 {% if is_playoffs and ns.game_count > 0 %}
+{% set br_cfg = namespace(rounds_json='') %}
+{% for candidate in articles_page.object_list %}
+{% if candidate.type == 'liga' and candidate.playoff_rounds_json is defined and br_cfg.rounds_json == '' %}
+{% set br_cfg.rounds_json = candidate.playoff_rounds_json %}
+{% endif %}
+{% endfor %}
+{% if br_cfg.rounds_json %}
+<script id="playoff-rounds-config" type="application/json">{{ br_cfg.rounds_json }}</script>
+{% endif %}
 <section class="panel">
     <h2 class="panel-title">Playoff Bracket</h2>
-    <p class="timeline-note">Rounds and progression are inferred from playoff game timelines.</p>
     <div id="playoff-bracket-tabs" class="playoff-bracket-tabs">
         <p class="playoff-bracket-empty">Loading rounds...</p>
     </div>
@@ -382,7 +390,7 @@
     <div class="playoff-source" aria-hidden="true">
         {% for game in articles_page.object_list %}
         {% set game_state = game.game_state|default('played')|string|lower %}
-        {% if game.type == 'game' and game_state != 'scheduled' %}
+        {% if game.type == 'game' and game.playoff_round|default('')|string %}
         <span
             class="playoff-game-source"
             data-home-team="{{ game.home_team|default('')|e }}"
@@ -391,6 +399,8 @@
             data-away-goals="{{ game.away_goals|default('') }}"
             data-date="{{ game.date.strftime('%Y-%m-%d') if game.date else '' }}"
             data-url="{{ SITEURL }}/{{ game.url }}"
+            data-playoff-round="{{ game.playoff_round|default('')|e }}"
+            data-game-state="{{ game_state }}"
         ></span>
         {% endif %}
         {% endfor %}
@@ -427,7 +437,7 @@
 
     {% if ns.game_count > 0 %}
     <div class="games-tab-panel is-active" data-games-panel="previous">
-        <h2 class="panel-title">Season Games</h2>
+        <h2 class="panel-title">{% if is_playoffs %}Playoff Games{% else %}Season Games{% endif %}</h2>
         <div class="table-wrapper">
         <table class="data-table">
             <thead>
@@ -439,9 +449,7 @@
             </tr>
             </thead>
             <tbody>
-            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
-            {% set game_state = game.game_state|default('played')|string|lower %}
-            {% if game.type == 'game' and game_state != 'scheduled' %}
+            {% macro render_game_row(game) %}
             {% set home_goals = game.home_goals|default(0)|int %}
             {% set away_goals = game.away_goals|default(0)|int %}
             {% set home_ot_goals = game.home_goals_in_overtime|default(0)|int %}
@@ -470,8 +478,47 @@
                 </td>
                 <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
             </tr>
+            {% endmacro %}
+            {% if is_playoffs %}
+            {# Pass 1: collect distinct round names in chronological order #}
+            {% set rns = namespace(seen=[]) %}
+            {% for game in articles_page.object_list|sort(attribute='date') %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if game.type == 'game' and game_state != 'scheduled' %}
+            {% set rnd = game.playoff_round|default('')|string %}
+            {% if rnd and rnd not in rns.seen %}{% set rns.seen = rns.seen + [rnd] %}{% endif %}
             {% endif %}
             {% endfor %}
+            {# Pass 2: render rounds newest-first #}
+            {% for round_name in rns.seen|reverse %}
+            <tr class="round-header-row"><td colspan="4">{{ round_name }}</td></tr>
+            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if game.type == 'game' and game_state != 'scheduled' and game.playoff_round|default('')|string == round_name %}
+            {{ render_game_row(game) }}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {# Games without a round label (3rd-place, relegation, etc.) #}
+            {% set other_ns = namespace(shown=false) %}
+            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if game.type == 'game' and game_state != 'scheduled' and not game.playoff_round|default('')|string %}
+            {% if not other_ns.shown %}{% set other_ns.shown = true %}
+            <tr class="round-header-row"><td colspan="4">Other</td></tr>
+            {% endif %}
+            {{ render_game_row(game) }}
+            {% endif %}
+            {% endfor %}
+            {% else %}
+            {# Regular season: flat list sorted by date descending #}
+            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+            {% set game_state = game.game_state|default('played')|string|lower %}
+            {% if game.type == 'game' and game_state != 'scheduled' %}
+            {{ render_game_row(game) }}
+            {% endif %}
+            {% endfor %}
+            {% endif %}
             </tbody>
         </table>
     </div>
@@ -526,6 +573,13 @@
   };
   const dateValue = (value) => (value || '').trim();
   const inferRoundLabel = (round) => `Round ${round}`;
+  const roundOrder = ['Play-in', 'Quarter-finals', 'Semi-finals', 'Final'];
+  const roundSortKey = (name) => { const idx = roundOrder.indexOf(name); return idx >= 0 ? idx : roundOrder.length; };
+
+  const configEl = document.getElementById('playoff-rounds-config');
+  const playoffRoundsConfig = configEl ? JSON.parse(configEl.textContent || '[]') : [];
+  const winsToAdvance = new Map();
+  playoffRoundsConfig.forEach((r) => { if (r.name && r.wins_to_advance) winsToAdvance.set(r.name, r.wins_to_advance); });
 
   const rankMap = new Map();
   document.querySelectorAll('.standings-table .standings-row').forEach((row) => {
@@ -557,18 +611,22 @@
       awayGoals: toInt(el.dataset.awayGoals),
       date: dateValue(el.dataset.date),
       url: el.dataset.url || '#',
+      playoffRound: (el.dataset.playoffRound || '').trim(),
+      gameState: (el.dataset.gameState || 'played').trim(),
     });
   });
 
   games.sort((a, b) => a.date.localeCompare(b.date));
+  const hasExplicitRounds = games.some((g) => g.playoffRound);
   games.forEach((game) => {
     const homeTeam = game.homeTeam;
     const awayTeam = game.awayTeam;
     const homeKey = normalize(homeTeam);
     const awayKey = normalize(awayTeam);
-    if (enforceTop8Seeds && (!topSeedTeams.has(homeKey) || !topSeedTeams.has(awayKey))) {
+    if (!hasExplicitRounds && enforceTop8Seeds && (!topSeedTeams.has(homeKey) || !topSeedTeams.has(awayKey))) {
       return;
     }
+    if (hasExplicitRounds && !game.playoffRound) return;
     const pair = [homeKey, awayKey].sort();
     const seriesKey = pair.join('||');
 
@@ -583,29 +641,36 @@
         teams: {},
         wins: {},
         games: 0,
+        scheduledGames: 0,
         firstDate: '',
         latestDate: '',
         latestResult: '',
         latestUrl: '#',
+        playoffRound: '',
       });
     }
     const series = seriesMap.get(seriesKey);
+    const isScheduled = game.gameState === 'scheduled';
     series.teams[homeKey] = homeTeam;
     series.teams[awayKey] = awayTeam;
     series.wins[homeKey] = series.wins[homeKey] || 0;
     series.wins[awayKey] = series.wins[awayKey] || 0;
-    series.games += 1;
+    if (!series.playoffRound && game.playoffRound) series.playoffRound = game.playoffRound;
     if (!series.firstDate || gameDate < series.firstDate) {
       series.firstDate = gameDate;
     }
-
-    if (homeGoals !== null && awayGoals !== null) {
-      if (homeGoals > awayGoals) series.wins[homeKey] += 1;
-      if (awayGoals > homeGoals) series.wins[awayKey] += 1;
-      if (!series.latestDate || gameDate >= series.latestDate) {
-        series.latestDate = gameDate;
-        series.latestResult = `${homeTeam} ${homeGoals}:${awayGoals} ${awayTeam}`;
-        series.latestUrl = gameUrl;
+    if (isScheduled) {
+      series.scheduledGames += 1;
+    } else {
+      series.games += 1;
+      if (homeGoals !== null && awayGoals !== null) {
+        if (homeGoals > awayGoals) series.wins[homeKey] += 1;
+        if (awayGoals > homeGoals) series.wins[awayKey] += 1;
+        if (!series.latestDate || gameDate >= series.latestDate) {
+          series.latestDate = gameDate;
+          series.latestResult = `${homeTeam} ${homeGoals}:${awayGoals} ${awayTeam}`;
+          series.latestUrl = gameUrl;
+        }
       }
     }
   });
@@ -627,12 +692,14 @@
       teamAWins,
       teamBWins,
       games: series.games,
+      scheduledGames: series.scheduledGames,
       latestDate: series.latestDate,
       latestResult: series.latestResult,
       latestUrl: series.latestUrl,
       sortRank: Math.min(rankA, rankB),
       sortSecondary: Math.max(rankA, rankB),
       firstDate: series.firstDate || '9999-12-31',
+      playoffRound: series.playoffRound || '',
       round: 1,
       advancedTeamKey: null,
       id: `${series.key}-${index}`,
@@ -660,7 +727,7 @@
   });
 
   let bracketSeries = seriesList;
-  if (seriesByStartDate.size > 1) {
+  if (!hasExplicitRounds && seriesByStartDate.size > 1) {
     const sortedStartDates = Array.from(seriesByStartDate.keys()).sort((a, b) => a.localeCompare(b));
     const selectedDates = new Set();
     let expectedSeriesCount = 1;
@@ -680,14 +747,23 @@
     }
   }
 
-  const stageDates = Array.from(new Set(bracketSeries.map((series) => series.firstDate))).sort((a, b) => a.localeCompare(b));
-  const roundByDate = new Map();
-  stageDates.forEach((date, index) => {
-    roundByDate.set(date, index + 1);
-  });
-  bracketSeries.forEach((series) => {
-    series.round = roundByDate.get(series.firstDate) || 1;
-  });
+  const roundLabels = new Map();
+  if (hasExplicitRounds) {
+    const roundNames = [...new Set(bracketSeries.map((s) => s.playoffRound))]
+      .filter(Boolean)
+      .sort((a, b) => roundSortKey(a) - roundSortKey(b));
+    const roundIndex = new Map(roundNames.map((name, i) => [name, i + 1]));
+    bracketSeries.forEach((series) => { series.round = roundIndex.get(series.playoffRound) || 1; });
+    roundNames.forEach((name, i) => roundLabels.set(i + 1, name));
+  } else {
+    const stageDates = Array.from(new Set(bracketSeries.map((series) => series.firstDate))).sort((a, b) => a.localeCompare(b));
+    const roundByDate = new Map();
+    stageDates.forEach((date, index) => {
+      roundByDate.set(date, index + 1);
+      roundLabels.set(index + 1, inferRoundLabel(index + 1));
+    });
+    bracketSeries.forEach((series) => { series.round = roundByDate.get(series.firstDate) || 1; });
+  }
 
   const maxRound = Math.max(...bracketSeries.map((series) => series.round));
   const roundNumbers = Array.from(new Set(bracketSeries.map((series) => series.round))).sort((a, b) => a - b);
@@ -720,43 +796,61 @@
     if (bHasNext && !aHasNext) series.advancedTeamKey = series.teamBKey;
   });
 
+  // Detect series winner via wins_to_advance from config (covers champion + any series not yet in next round)
+  bracketSeries.forEach((series) => {
+    if (series.advancedTeamKey) return;
+    const required = winsToAdvance.get(series.playoffRound);
+    if (!required) return;
+    if (series.teamAWins >= required) series.advancedTeamKey = series.teamAKey;
+    else if (series.teamBWins >= required) series.advancedTeamKey = series.teamBKey;
+  });
+
   tabsRoot.innerHTML = roundNumbers.map((round) => {
-    const label = inferRoundLabel(round);
+    const label = roundLabels.get(round) || inferRoundLabel(round);
     const active = round === maxRound ? ' is-active' : '';
     return `<button type="button" class="playoff-tab${active}" data-round="${round}">${label}</button>`;
   }).join('');
 
   roundsRoot.innerHTML = roundNumbers.map((round) => {
-    const label = inferRoundLabel(round);
+    const label = roundLabels.get(round) || inferRoundLabel(round);
     const active = round === maxRound ? ' is-active' : '';
     const cards = seriesByRound.get(round).map((series, index) => {
-      const teamALeading = series.teamAWins > series.teamBWins;
-      const teamBLeading = series.teamBWins > series.teamAWins;
-      const latestLine = series.latestResult
-        ? `<a href="${series.latestUrl}">Latest: ${series.latestResult}</a>`
-        : 'Latest: pending result';
-      const advancedText = series.advancedTeamKey === series.teamAKey
-        ? `${series.teamA} advanced`
-        : series.advancedTeamKey === series.teamBKey
-          ? `${series.teamB} advanced`
-          : '';
+      const isUpcoming = series.games === 0 && series.scheduledGames > 0;
+      const isChampionRound = round === maxRound;
+      const teamALeading = !isUpcoming && series.teamAWins > series.teamBWins;
+      const teamBLeading = !isUpcoming && series.teamBWins > series.teamAWins;
+      const gamesLabel = isUpcoming
+        ? `${series.scheduledGames} scheduled`
+        : series.scheduledGames > 0
+          ? `${series.games} played, ${series.scheduledGames} upcoming`
+          : `${series.games} games`;
+      const latestLine = isUpcoming
+        ? 'Not yet started'
+        : series.latestResult
+          ? `<a href="${series.latestUrl}">Latest: ${series.latestResult}</a>`
+          : 'Latest: pending result';
+      const winnerKey = series.advancedTeamKey;
+      const winnerName = winnerKey === series.teamAKey ? series.teamA : winnerKey === series.teamBKey ? series.teamB : '';
+      const advancedText = winnerName
+        ? isChampionRound ? `${winnerName} Champion!` : `${winnerName} advanced`
+        : '';
       const progressLine = advancedText
         ? `<p class="playoff-series-progress">${advancedText}</p>`
         : '';
 
       return `
-        <article class="playoff-series-card">
+        <article class="playoff-series-card${isUpcoming ? ' is-upcoming' : ''}">
           <header class="playoff-series-head">
             <h3>Series ${index + 1}</h3>
-            <span>${series.games} games</span>
+            <span>${gamesLabel}</span>
           </header>
           <div class="playoff-series-team ${teamALeading ? 'is-leading' : ''}">
             <span>${series.teamA}</span>
-            <strong>${series.teamAWins}</strong>
+            <strong>${isUpcoming ? '–' : series.teamAWins}</strong>
           </div>
           <div class="playoff-series-team ${teamBLeading ? 'is-leading' : ''}">
             <span>${series.teamB}</span>
-            <strong>${series.teamBWins}</strong>
+            <strong>${isUpcoming ? '–' : series.teamBWins}</strong>
           </div>
           ${progressLine}
           <p class="playoff-series-latest">${latestLine}</p>

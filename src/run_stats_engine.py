@@ -1927,17 +1927,239 @@ def _pregame_h2h_metrics(
     }
 
 
+def _identify_championship_teams(df: pd.DataFrame, n_teams: int) -> set:
+    """
+    Identify the n_teams championship bracket teams by finding the first
+    n_teams//2 non-overlapping matchups that collectively involve exactly n_teams teams.
+    Any extra matchups (e.g. relegation) involving teams outside this set are ignored.
+    """
+    games = df.drop_duplicates("game_id").sort_values(["game_date", "game_id"])
+    seen_teams: set = set()
+    seen_matchups: list = []
+
+    for _, row in games.iterrows():
+        home = str(row.get("home_team_name", "") or "")
+        away = str(row.get("away_team_name", "") or "")
+        if not home or not away:
+            continue
+        pair = frozenset({home, away})
+        if pair in seen_matchups:
+            continue
+        # Skip matchups where a team is already assigned to a different series
+        if home in seen_teams or away in seen_teams:
+            continue
+        seen_matchups.append(pair)
+        seen_teams.add(home)
+        seen_teams.add(away)
+        if len(seen_teams) >= n_teams:
+            break
+
+    return seen_teams
+
+
+_WFC_ROUND_NAME_MAP: dict[str, str] = {
+    "Play-Off 1": "Play-in", "Play-Off 2": "Play-in",
+    "Play-Off 3": "Play-in", "Play-Off 4": "Play-in",
+    "Quarterfinal 1": "Quarter-finals", "Quarterfinal 2": "Quarter-finals",
+    "Quarterfinal 3": "Quarter-finals", "Quarterfinal 4": "Quarter-finals",
+    "Semifinal 1": "Semi-finals", "Semifinal 2": "Semi-finals",
+    "Final": "Final",
+}
+
+
+def _assign_wfc_playoff_rounds(df: pd.DataFrame) -> pd.DataFrame:
+    """Map tournament_round → playoff_round for WFC elimination games.
+
+    tournament_round is only set on one event row per game; we scan all rows
+    for each game_id to find the authoritative round label, then apply it to
+    every event belonging to that game.
+    """
+    if "tournament_round" not in df.columns or "game_id" not in df.columns:
+        return df
+    df = df.copy()
+    elim_mask = (df.get("tournament_stage_type", pd.Series("", index=df.index)).fillna("") == "elimination")
+    game_round: dict[str, str] = {}
+    for game_id, group in df[elim_mask].groupby("game_id"):
+        for val in group["tournament_round"]:
+            mapped = _WFC_ROUND_NAME_MAP.get(str(val) if val and str(val) != "NaN" else "", "")
+            if mapped:
+                game_round[str(game_id)] = mapped
+                break
+    df["playoff_round"] = df["game_id"].astype(str).map(game_round).fillna("")
+    return df
+
+
+def _assign_playoff_rounds(df: pd.DataFrame, playoff_rounds: list[dict]) -> pd.DataFrame:
+    """
+    Add a 'playoff_round' column to df using the names from playoff_rounds config.
+    Uses bracket simulation: tracks series wins and advances rounds when all series
+    in the current round are complete.
+
+    Handles leagues with a play-in / pre-QF round where some teams receive a bye
+    to a later round (e.g. Czech CEZ Extraliga).  The playoff team pool is expanded
+    beyond the first-round participants via connected-component traversal so that
+    seeded teams skipping the first round are still recognised.
+
+    Teams not connected to the playoff bracket (e.g. relegation) receive no label.
+    """
+    import re as _re
+
+    if not playoff_rounds or df.empty:
+        return df
+
+    # Step 1: seed playoff teams from the first-round matchups
+    n_first_round = playoff_rounds[0]["teams"]
+    first_round_teams = _identify_championship_teams(df, n_first_round)
+
+    # Step 2: expand the playoff pool via connected components so that seeded
+    # teams who skip the opening round are included.  Relegation teams that only
+    # play each other remain disconnected and are correctly excluded.
+    games_all = df.drop_duplicates("game_id").sort_values(["game_date", "game_id"])
+    playoff_teams: set = set(first_round_teams)
+    changed = True
+    while changed:
+        changed = False
+        for _, row in games_all.iterrows():
+            home = str(row.get("home_team_name", "") or "")
+            away = str(row.get("away_team_name", "") or "")
+            if home in playoff_teams and away not in playoff_teams:
+                playoff_teams.add(away)
+                changed = True
+            elif away in playoff_teams and home not in playoff_teams:
+                playoff_teams.add(home)
+                changed = True
+
+    df = df.copy()
+    df["playoff_round"] = None
+
+    # Work on a deduplicated game-level view; use the LAST event per game
+    # (highest sortkey) so we get the final score snapshot.
+    games = (
+        df.sort_values(["game_date", "game_id", "sortkey"])
+        .drop_duplicates("game_id", keep="last")
+        .sort_values(["game_date", "game_id"])
+    )
+
+    matchup_round: dict = {}        # frozenset -> round name
+    matchup_wins: dict = {}         # frozenset -> {team: wins}
+
+    current_round_idx = 0
+    # eligible_for_round[name] = teams allowed to play in that round.
+    # First round: exactly the first-round participants.
+    eligible_for_round: dict = {playoff_rounds[0]["name"]: set(first_round_teams)}
+
+    def wins_needed(key: frozenset) -> int:
+        rname = matchup_round.get(key, "")
+        for r in playoff_rounds:
+            if r["name"] == rname:
+                return r["wins_to_advance"]
+        return playoff_rounds[current_round_idx]["wins_to_advance"]
+
+    def series_done(key: frozenset) -> bool:
+        return max(matchup_wins.get(key, {}).values(), default=0) >= wins_needed(key)
+
+    def series_in_round(rname: str) -> set:
+        return {k for k, v in matchup_round.items() if v == rname}
+
+    def series_winner(key: frozenset) -> Optional[str]:
+        wins = matchup_wins.get(key, {})
+        if not wins:
+            return None
+        best = max(wins, key=wins.get)
+        return best if wins[best] >= wins_needed(key) else None
+
+    for _, row in games.iterrows():
+        home = str(row.get("home_team_name", "") or "")
+        away = str(row.get("away_team_name", "") or "")
+        if not home or not away:
+            continue
+        # Skip teams outside the playoff bracket (relegation, friendlies, etc.)
+        if home not in playoff_teams or away not in playoff_teams:
+            continue
+
+        key = frozenset({home, away})
+        cr = playoff_rounds[current_round_idx]
+
+        if key not in matchup_round:
+            # Check if current round is fully complete → advance to next round
+            current_series = series_in_round(cr["name"])
+            expected = cr["teams"] // 2
+            if len(current_series) >= expected and all(series_done(s) for s in current_series):
+                next_idx = min(current_round_idx + 1, len(playoff_rounds) - 1)
+                if next_idx != current_round_idx:
+                    # Winners advance; teams not yet seen in any match got a bye.
+                    winners: set = set()
+                    for s in current_series:
+                        w = series_winner(s)
+                        if w:
+                            winners.add(w)
+                    teams_seen = {t for k in matchup_round for t in k}
+                    bye_teams = playoff_teams - teams_seen
+                    eligible_for_round[playoff_rounds[next_idx]["name"]] = winners | bye_teams
+                current_round_idx = next_idx
+                cr = playoff_rounds[current_round_idx]
+            # Only assign if both teams are eligible for this round
+            round_eligible = eligible_for_round.get(cr["name"], set(first_round_teams))
+            if home not in round_eligible or away not in round_eligible:
+                continue  # consolation/3rd-place game or non-bracket game
+            matchup_round[key] = cr["name"]
+            matchup_wins[key] = {}
+
+        # Track wins using result_string (backend-agnostic, handles numeric status
+        # codes).  Extract leading digits to cope with OT/shootout suffixes like
+        # "3:2 n.V." or "6:7 n. PS".
+        try:
+            rs = str(row.get("result_string", "") or "")
+            if not rs or rs.lower() in ("nan", "none", ""):
+                raise ValueError("no result")
+            sep = ":" if ":" in rs else "-"
+            parts = rs.split(sep)
+            if len(parts) >= 2:
+                m1 = _re.match(r"\s*(\d+)", parts[0])
+                m2 = _re.match(r"\s*(\d+)", parts[1])
+                if not m1 or not m2:
+                    raise ValueError("no leading digits")
+                hg, ag = float(m1.group(1)), float(m2.group(1))
+            else:
+                raise ValueError("unparseable")
+            if hg > ag:
+                matchup_wins[key][home] = matchup_wins[key].get(home, 0) + 1
+            elif ag > hg:
+                matchup_wins[key][away] = matchup_wins[key].get(away, 0) + 1
+        except (ValueError, TypeError, IndexError):
+            pass
+
+    # Apply round labels back to every row via game_id
+    game_id_to_round = {}
+    for _, row in df.drop_duplicates("game_id").iterrows():
+        gid = row["game_id"]
+        home = str(row.get("home_team_name", "") or "")
+        away = str(row.get("away_team_name", "") or "")
+        key = frozenset({home, away})
+        if key in matchup_round:
+            game_id_to_round[gid] = matchup_round[key]
+
+    df["playoff_round"] = df["game_id"].map(game_id_to_round)
+    return df
+
+
 def run_stats_pipeline(
     input_csv_path: str,
     output_dir: str,
     season: Optional[str] = None,
     phase: Optional[str] = None,
     pregame_history_csv_paths: Optional[List[str]] = None,
+    playoff_rounds: Optional[list[dict]] = None,
     playoff_cut: int = 8,
     input_df: Optional[pd.DataFrame] = None,
 ) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
+
+    def _first_valid(series: "pd.Series") -> object:
+        """Return the first value that is not NaN/None/empty/'NaN'."""
+        mask = series.notna() & series.astype(str).str.strip().ne("") & series.astype(str).ne("NaN")
+        return _json_scalar(series[mask].iloc[0]) if mask.any() else None
 
     def _prepare_df(raw_df: pd.DataFrame) -> pd.DataFrame:
         prepared = _canonicalize_team_names(raw_df)
@@ -1950,6 +2172,14 @@ def run_stats_pipeline(
         return prepared
 
     df = _prepare_df(input_df if input_df is not None else pd.read_csv(input_csv_path))
+    _has_wfc_tournament_rounds = (
+        "tournament_round" in df.columns
+        and df["tournament_round"].astype(str).ne("").any()
+    )
+    if phase == "playoffs" and _has_wfc_tournament_rounds:
+        df = _assign_wfc_playoff_rounds(df)
+    elif playoff_rounds and phase == "playoffs":
+        df = _assign_playoff_rounds(df, playoff_rounds)
     (
         exact_player_lookup,
         fallback_player_lookup,
@@ -1974,8 +2204,8 @@ def run_stats_pipeline(
             {
                 "game_id": game_id,
                 "game_df": game_df,
-                "date": _json_scalar(game_df["game_date"].iloc[0] if "game_date" in game_df.columns else ""),
-                "start_time": _json_scalar(game_df["game_start_time"].iloc[0] if "game_start_time" in game_df.columns else ""),
+                "date": _first_valid(game_df["game_date"]) if "game_date" in game_df.columns else None,
+                "start_time": _first_valid(game_df["game_start_time"]) if "game_start_time" in game_df.columns else None,
             }
         )
 
@@ -2102,8 +2332,8 @@ def run_stats_pipeline(
                 {
                     "game_id": history_game_id,
                     "game_df": history_game_df,
-                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_df.columns else ""),
-                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_df.columns else ""),
+                    "date": _first_valid(history_game_df["game_date"]) if "game_date" in history_df.columns else None,
+                    "start_time": _first_valid(history_game_df["game_start_time"]) if "game_start_time" in history_df.columns else None,
                 }
             )
         regular_game_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
@@ -2125,7 +2355,7 @@ def run_stats_pipeline(
         if not history_file.exists():
             continue
         history_df = _prepare_df(pd.read_csv(history_file))
-        if phase == "playoffs" and playoff_eligible_teams is None:
+        if phase == "playoffs" and playoff_eligible_teams is None and not _has_wfc_tournament_rounds:
             playoff_eligible_teams = _derive_playoff_eligible_teams_from_history_df(history_df)
         history_groups = []
         for history_game_id, history_game_df in history_df.groupby("game_id"):
@@ -2247,11 +2477,12 @@ def run_stats_pipeline(
             "tournament_group",
             "tournament_round",
             "tournament_round_order",
+            "playoff_round",
         ):
             if metadata_column not in game_df.columns:
                 continue
-            raw_value = _json_scalar(game_df[metadata_column].iloc[0])
-            if raw_value in (None, "", "None"):
+            raw_value = _first_valid(game_df[metadata_column])
+            if raw_value in (None, "", "None", "NaN"):
                 continue
             passthrough_metadata[metadata_column] = raw_value
 

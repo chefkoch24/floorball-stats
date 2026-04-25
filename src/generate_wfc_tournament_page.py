@@ -250,18 +250,26 @@ def _build_page_content(teams: list[TeamRow], regular_games: list[GameRow], play
     parts.append('  </tbody></table></div>')
     parts.append('</details>')
 
+    # Group elimination games by round label, ordered by earliest game date
+    games_by_round: dict[str, list[GameRow]] = {}
+    for game in playoff_games:
+        round_name = ROUND_LABELS.get(game.round_label, game.round_label or "Other")
+        games_by_round.setdefault(round_name, []).append(game)
+    sorted_rounds = sorted(
+        games_by_round,
+        key=lambda r: min(
+            (_game_sort_key(g) for g in games_by_round[r]),
+            default=("9999-12-31", "99:99", ""),
+        ),
+    )
+
     parts.append('<section class="panel">')
     parts.append('  <h2 class="panel-title">Elimination</h2>')
-    parts.append('  <div class="table-wrapper"><table class="data-table"><thead><tr><th>Date</th><th>Time</th><th>Round</th><th>Game</th><th class="wfc-result-col">Result</th><th>Report</th></tr></thead><tbody>')
-    for game in sorted(playoff_games, key=_game_sort_key):
-        round_name = html.escape(ROUND_LABELS.get(game.round_label, game.round_label or "Elimination"))
-        game_row = _game_row_html(game, include_group=False)
-        game_row = game_row.replace(
-            f'<td class="wfc-game-col">{html.escape(game.home_team)} vs {html.escape(game.away_team)}</td>',
-            f'<td>{round_name}</td><td class="wfc-game-col">{html.escape(game.home_team)} vs {html.escape(game.away_team)}</td>',
-            1,
-        )
-        parts.append(game_row)
+    parts.append('  <div class="table-wrapper"><table class="data-table"><thead><tr><th>Date</th><th>Time</th><th>Game</th><th class="wfc-result-col">Result</th><th>Report</th></tr></thead><tbody>')
+    for round_name in sorted_rounds:
+        parts.append(f'<tr class="round-header-row"><td colspan="5">{html.escape(round_name)}</td></tr>')
+        for game in sorted(games_by_round[round_name], key=_game_sort_key):
+            parts.append(_game_row_html(game, include_group=False))
     parts.append('  </tbody></table></div>')
     parts.append('</section>')
     return "\n".join(parts)

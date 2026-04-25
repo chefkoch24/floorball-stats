@@ -24,6 +24,7 @@ home_penalty_ends_csv: 21.17,43.35,45.05,54.8,59.95
 home_penalty_goals_csv: 0,2,2,2,3
 home_penalty_minutes_csv: 20.0,42.97,44.83,52.8,58.33
 ingame_status: period3
+playoff_round: Quarter-finals
 pregame_h2h_away_split_goal_diff_per_game: 0.0
 pregame_h2h_away_split_points_per_game: 0.0
 pregame_h2h_common_away_goal_diff_per_game: n.a.

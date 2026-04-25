@@ -2,7 +2,13 @@
   "backend": "czech",
   "season": "cz-25-26",
   "phase": "playoffs",
-  "playoff_teams_count": 8,
+  "playoff_teams_count": 10,
+  "playoff_rounds": [
+    { "name": "Play-in",        "teams": 4, "series_type": "best-of-3", "wins_to_advance": 2 },
+    { "name": "Quarter-finals", "teams": 8, "series_type": "best-of-7", "wins_to_advance": 4 },
+    { "name": "Semi-finals",    "teams": 4, "series_type": "best-of-7", "wins_to_advance": 4 },
+    { "name": "Final",          "teams": 2, "series_type": "one-game",  "wins_to_advance": 1 }
+  ],
   "czech": {
     "season_start_year": 2025,
     "schedule_urls": [

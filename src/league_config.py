@@ -23,7 +23,16 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
     args.competition_ids = config.get("competition_ids", getattr(args, "competition_ids", None))
     args.season = config.get("season", args.season)
     args.phase = config.get("phase", args.phase)
-    args.playoff_teams_count = config.get("playoff_teams_count", getattr(args, "playoff_teams_count", 8))
+
+    # Handle playoff_rounds (new) and playoff_teams_count (legacy)
+    args.playoff_rounds = config.get("playoff_rounds", getattr(args, "playoff_rounds", None))
+    if args.playoff_rounds and "playoff_teams_count" not in config:
+        # Derive playoff_teams_count from the first round's team count
+        args.playoff_teams_count = args.playoff_rounds[0]["teams"]
+    else:
+        # Use explicit playoff_teams_count from config, or fall back to args default
+        args.playoff_teams_count = config.get("playoff_teams_count", getattr(args, "playoff_teams_count", 8))
+
     args.data_dir = config.get("data_dir", args.data_dir)
     args.content_dir = config.get("content_dir", args.content_dir)
     args.skip_scrape = bool(config.get("skip_scrape", args.skip_scrape))

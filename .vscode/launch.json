@@ -1,0 +1,241 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Sweden SSL - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/sweden-ssl-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Finland Fliiga - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/finland-fliiga-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Germany 1FBL - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/germany-1fbl-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Czech CZ - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/czech-cez-extraliga-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Slovakia - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/slovakia-extraliga-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Latvia - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/latvia-elvi-vv-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Switzerland LUPL - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/switzerland-lupl-playoffs.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "WFC 2024 - Regular Season",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/iff-mens-wfc-2024-regular-season.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "WFC 2024 - Playoffs",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--league_config",
+        "config/leagues/iff-mens-wfc-2024.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "WFC 2024 - Tournament Page",
+      "type": "python",
+      "request": "launch",
+      "module": "src.generate_wfc_tournament_page",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Player Stats (All Leagues)",
+      "type": "python",
+      "request": "launch",
+      "module": "src.build_player_stats_postgres",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "WFC 2024 - Player Pages",
+      "type": "python",
+      "request": "launch",
+      "module": "src.generate_player_markdown",
+      "console": "integratedTerminal",
+      "args": [
+        "--output-dir",
+        "content/players",
+        "--season-prefixes",
+        "wfc",
+        "--no-prune"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "WFC 2024 - Player Stats Pages",
+      "type": "python",
+      "request": "launch",
+      "module": "src.generate_player_stats_index_markdown",
+      "console": "integratedTerminal",
+      "args": [
+        "--output-dir",
+        "content/player-stats",
+        "--season-prefixes",
+        "wfc",
+        "--no-prune"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Search Index",
+      "type": "python",
+      "request": "launch",
+      "module": "src.build_search_index",
+      "console": "integratedTerminal",
+      "args": [
+        "--content-dir",
+        "content",
+        "--output-path",
+        "themes/my-theme/static/search/search-index.json"
+      ],
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    },
+    {
+      "name": "Refresh Everything",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.vscode/refresh_everything.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "PYTHONPATH": "."
+      },
+      "justMyCode": true
+    }
+  ]
+}

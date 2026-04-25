@@ -26,6 +26,7 @@ home_penalty_goals_csv: 0
 home_penalty_minutes_csv: 1.08
 ingame_status: NaN
 league_name: Play-Offs · Quarterfinal 4
+playoff_round: Quarter-finals
 pregame_h2h_away_split_goal_diff_per_game: -2.0
 pregame_h2h_away_split_points_per_game: 1.5
 pregame_h2h_common_away_goal_diff_per_game: n.a.
@@ -80,7 +81,6 @@ timeline_diffs_csv: 0,1,0,1,0,1,2,3
 timeline_home_goals_csv: 0,1,1,2,2,3,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.13,7.42,20.82,45.85,53.13,56.13,57.88
-tournament_group: NaN
 tournament_round: Quarterfinal 4
 tournament_round_order: 23.0
 tournament_stage_label: Quarterfinal 4

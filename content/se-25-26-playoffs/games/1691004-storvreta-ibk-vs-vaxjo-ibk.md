@@ -24,6 +24,7 @@ home_penalty_ends_csv: 6.62,13.8
 home_penalty_goals_csv: 0,0
 home_penalty_minutes_csv: 4.62,11.8
 ingame_status: None
+playoff_round: Semi-finals
 pregame_h2h_away_split_goal_diff_per_game: 2.0
 pregame_h2h_away_split_points_per_game: 3.0
 pregame_h2h_common_away_goal_diff_per_game: n.a.

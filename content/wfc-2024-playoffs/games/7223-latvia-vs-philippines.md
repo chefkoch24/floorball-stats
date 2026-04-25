@@ -26,6 +26,7 @@ home_penalty_goals_csv:
 home_penalty_minutes_csv: 
 ingame_status: NaN
 league_name: Play-Offs · Play-Off 2
+playoff_round: Play-in
 pregame_h2h_away_split_goal_diff_per_game: 2.5
 pregame_h2h_away_split_points_per_game: 3.0
 pregame_h2h_common_away_goal_diff_per_game: n.a.
@@ -80,7 +81,6 @@ timeline_diffs_csv: 0,1,2,3,2,3,4,5,6,7,8,7,8,9,8,9,10,11
 timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7,8,9,9,10,11,11,12,13,14
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,6.72,9.0,10.03,14.42,16.57,26.97,33.8,35.25,37.75,39.02,41.52,43.87,44.23,45.78,46.98,48.95,54.47
-tournament_group: NaN
 tournament_round: Play-Off 2
 tournament_round_order: 11.0
 tournament_stage_label: Play-Off 2

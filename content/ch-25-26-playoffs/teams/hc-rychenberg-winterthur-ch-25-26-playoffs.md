@@ -1,4 +1,4 @@
-Date: 2026-04-17
+Date: 2026-04-25
 Title: HC Rychenberg Winterthur
 Category: ch-25-26-playoffs, teams
 Slug: hc-rychenberg-winterthur-ch-25-26-playoffs-ch-25-26-playoffs
