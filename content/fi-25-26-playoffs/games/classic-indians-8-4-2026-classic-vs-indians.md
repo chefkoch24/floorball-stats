@@ -312,6 +312,7 @@ home_pregame_points_after_first_period_per_game: 2.0
 home_pregame_points_after_second_period: 10
 home_pregame_points_after_third_period: 12
 home_pregame_points_against_indians: 13
+home_pregame_points_against_nokian_krp: 3
 home_pregame_points_against_tps: 12
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 9

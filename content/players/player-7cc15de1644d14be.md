@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 25
+current_games: 26
 current_goals: 9
 current_assists: 2
 current_points: 11
@@ -21,7 +21,7 @@ regular_goals: 9
 regular_assists: 0
 regular_points: 9
 regular_pim: 2
-playoff_games: 6
+playoff_games: 7
 playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 26
 career_goals: 9
 career_assists: 2
 career_points: 11
 career_pim: 2
-history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|6|0|2|2|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
+history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|7|0|2|2|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
 assists: 2
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 67
+rank: 70
 season: 25-26

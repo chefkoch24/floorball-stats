@@ -311,6 +311,7 @@ home_pregame_points_after_first_period: 16
 home_pregame_points_after_first_period_per_game: 2.0
 home_pregame_points_after_second_period: 17
 home_pregame_points_after_third_period: 21
+home_pregame_points_against_classic: 0
 home_pregame_points_against_eraviikingit: 12
 home_pregame_points_against_oilers: 12
 home_pregame_points_max_difference_2: 3
