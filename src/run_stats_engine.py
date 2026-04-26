@@ -2449,6 +2449,10 @@ def run_stats_pipeline(
             ot_ps_decision=ot_ps_decision_local,
         )
 
+        if is_scheduled:
+            home_stats["games"] = 0
+            away_stats["games"] = 0
+
         venue_value = None
         for venue_column in ("venue", "arena", "location", "venue_name"):
             if venue_column in game_df.columns:
