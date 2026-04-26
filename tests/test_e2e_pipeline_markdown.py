@@ -8,8 +8,6 @@ import pandas as pd
 from src.generate_markdown import generate_markdown_files
 from src.pipeline import run_pipeline
 from src.run_stats_engine import run_stats_pipeline
-from src.build_sqlite import sync_pipeline_outputs
-
 
 def _sample_events() -> pd.DataFrame:
     return pd.DataFrame(
@@ -361,51 +359,3 @@ def test_generate_markdown_accepts_playoff_team_stats_list(tmp_path: Path):
     assert teams_written == 2
     team_files = list((content_dir / "25-26-playoffs" / "teams").glob("*.md"))
     assert len(team_files) == 2
-
-
-def test_generate_markdown_prefers_sqlite_and_keeps_json_as_fallback(tmp_path: Path):
-    data_dir = tmp_path / "data"
-    content_dir = tmp_path / "content"
-    data_dir.mkdir(parents=True, exist_ok=True)
-
-    raw_csv = data_dir / "data_25-26_regular_season.csv"
-    _sample_events().to_csv(raw_csv, index=False)
-
-    stats_payload = run_stats_pipeline(
-        input_csv_path=str(raw_csv),
-        output_dir=str(data_dir),
-        season="25-26",
-        phase="regular-season",
-    )
-    sync_pipeline_outputs(
-        db_path=str(data_dir / "stats.db"),
-        input_csv_path=str(raw_csv),
-        season="25-26",
-        phase="regular-season",
-        stats_payload=stats_payload,
-    )
-
-    # Corrupt JSON after SQLite sync; markdown generation should still succeed from SQLite.
-    (data_dir / "game_stats.json").write_text("[]", encoding="utf-8")
-    (data_dir / "team_stats_enhanced.json").write_text("{}", encoding="utf-8")
-    (data_dir / "league_averages.json").write_text("{}", encoding="utf-8")
-
-    games_written, teams_written, league_written = generate_markdown_files(
-        game_stats_path=str(data_dir / "game_stats.json"),
-        team_stats_path=str(data_dir / "team_stats_enhanced.json"),
-        league_stats_path=str(data_dir / "league_averages.json"),
-        sqlite_path=str(data_dir / "stats.db"),
-        output_games_dir=str(content_dir / "25-26-regular-season" / "games"),
-        output_teams_dir=str(content_dir / "25-26-regular-season" / "teams"),
-        output_liga_dir=str(content_dir / "25-26-regular-season" / "liga"),
-        season="25-26",
-        phase="regular-season",
-    )
-
-    assert games_written == 1
-    assert teams_written == 2
-    assert league_written == 3
-
-    game_files = list((content_dir / "25-26-regular-season" / "games").glob("*.md"))
-    assert len(game_files) == 1
-    assert "home_team: Team A" in game_files[0].read_text(encoding="utf-8")

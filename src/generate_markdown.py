@@ -1,6 +1,5 @@
 import argparse
 import json
-import sqlite3
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Optional, Tuple
@@ -92,36 +91,6 @@ def _load_json(path: str) -> Any:
         return json.load(f)
 
 
-def _resolve_db_path(
-    sqlite_path: str | None,
-    game_stats_path: str,
-    team_stats_path: str,
-    league_stats_path: str,
-) -> Path:
-    if sqlite_path:
-        return Path(sqlite_path)
-    parents = [
-        Path(game_stats_path).parent,
-        Path(team_stats_path).parent,
-        Path(league_stats_path).parent,
-    ]
-    for parent in parents:
-        candidate = parent / "stats.db"
-        if candidate.exists():
-            return candidate
-    return parents[0] / "stats.db"
-
-
-def _parse_payload_rows(rows: list[sqlite3.Row]) -> list[dict[str, Any]]:
-    parsed = []
-    for row in rows:
-        payload_json = row["payload_json"]
-        if not payload_json:
-            continue
-        parsed.append(json.loads(payload_json))
-    return parsed
-
-
 def _parse_postgres_payload_rows(rows: list[tuple[Any, ...]]) -> list[dict[str, Any]]:
     parsed = []
     for row in rows:
@@ -130,21 +99,6 @@ def _parse_postgres_payload_rows(rows: list[tuple[Any, ...]]) -> list[dict[str, 
             continue
         parsed.append(json.loads(payload_json))
     return parsed
-
-
-def _load_game_stats_from_sqlite(db_path: Path, source_key: str) -> list[dict[str, Any]]:
-    with sqlite3.connect(db_path) as conn:
-        conn.row_factory = sqlite3.Row
-        rows = conn.execute(
-            """
-            SELECT payload_json
-            FROM game_stats
-            WHERE source_key = ?
-            ORDER BY COALESCE(date, ''), COALESCE(start_time, ''), COALESCE(game_id, 0)
-            """,
-            (source_key,),
-        ).fetchall()
-    return _parse_payload_rows(rows)
 
 
 def _load_game_stats_from_postgres(database_url: str, source_key: str) -> list[dict[str, Any]]:
@@ -168,38 +122,6 @@ def _load_game_stats_from_postgres(database_url: str, source_key: str) -> list[d
         )
     )
     return payloads
-
-
-def _load_team_stats_from_sqlite(db_path: Path, source_key: str, phase: str) -> dict[str, dict[str, Any]] | None:
-    table_name = "playoff_team_stats" if phase == "playoffs" else "team_stats"
-    with sqlite3.connect(db_path) as conn:
-        conn.row_factory = sqlite3.Row
-        rows = conn.execute(
-            f'SELECT payload_json FROM "{table_name}" WHERE source_key = ?',
-            (source_key,),
-        ).fetchall()
-    payloads = _parse_payload_rows(rows)
-    if not payloads:
-        return None
-
-    if table_name == "playoff_team_stats":
-        return {
-            str(entry.get("team", "")): dict(entry.get("stats", {}))
-            for entry in payloads
-            if isinstance(entry, dict) and entry.get("team")
-        }
-
-    result: dict[str, dict[str, Any]] = {}
-    for entry in payloads:
-        if not isinstance(entry, dict):
-            continue
-        team_name = str(entry.get("team", "")).strip()
-        if not team_name:
-            continue
-        stats = dict(entry)
-        stats.pop("team", None)
-        result[team_name] = stats
-    return result
 
 
 def _load_team_stats_from_postgres(database_url: str, source_key: str, phase: str) -> dict[str, dict[str, Any]] | None:
@@ -232,23 +154,6 @@ def _load_team_stats_from_postgres(database_url: str, source_key: str, phase: st
     return result
 
 
-def _load_league_stat_by_record_type(db_path: Path, source_key: str, record_type: str) -> dict[str, Any] | None:
-    with sqlite3.connect(db_path) as conn:
-        conn.row_factory = sqlite3.Row
-        row = conn.execute(
-            """
-            SELECT payload_json
-            FROM league_stats
-            WHERE source_key = ? AND record_type = ?
-            LIMIT 1
-            """,
-            (source_key, record_type),
-        ).fetchone()
-    if not row or not row["payload_json"]:
-        return None
-    return json.loads(row["payload_json"])
-
-
 def _load_league_stat_by_record_type_from_postgres(database_url: str, source_key: str, record_type: str) -> dict[str, Any] | None:
     with psycopg.connect(database_url, autocommit=True) as conn:
         with conn.cursor() as cur:
@@ -274,28 +179,19 @@ def _load_markdown_inputs(
     league_stats_path: str,
     season: str,
     phase: str,
-    sqlite_path: str | None,
     database_url: str | None,
-) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]], dict[str, Any], Path | None, str]:
+) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]], dict[str, Any], str]:
     source_key = Path(game_stats_path).stem.replace("game_stats", f"data_{season}_{phase.replace('-', '_')}")
     if database_url:
         game_stats = _load_game_stats_from_postgres(database_url, source_key)
         team_stats = _load_team_stats_from_postgres(database_url, source_key, phase)
         league_stats = _load_league_stat_by_record_type_from_postgres(database_url, source_key, "league_averages")
         if game_stats and team_stats and league_stats:
-            return game_stats, team_stats, league_stats, None, source_key
+            return game_stats, team_stats, league_stats, source_key
         raise RuntimeError(
             f"Missing required markdown payload in Postgres for source_key={source_key}. "
             "Run pipeline sync to Neon before markdown generation."
         )
-
-    db_path = _resolve_db_path(sqlite_path, game_stats_path, team_stats_path, league_stats_path)
-    if db_path.exists():
-        game_stats = _load_game_stats_from_sqlite(db_path, source_key)
-        team_stats = _load_team_stats_from_sqlite(db_path, source_key, phase)
-        league_stats = _load_league_stat_by_record_type(db_path, source_key, "league_averages")
-        if game_stats and team_stats and league_stats:
-            return game_stats, team_stats, league_stats, db_path, source_key
 
     game_stats = _load_json(game_stats_path)
     team_stats_raw = _load_json(team_stats_path)
@@ -308,7 +204,7 @@ def _load_markdown_inputs(
     else:
         team_stats = team_stats_raw
     league_stats = _load_json(league_stats_path)
-    return game_stats, team_stats, league_stats, db_path if db_path.exists() else None, source_key
+    return game_stats, team_stats, league_stats, source_key
 
 
 def _annotate_wfc_group_metadata(
@@ -348,7 +244,6 @@ def generate_markdown_files(
     playoff_averages_path: Optional[str] = None,
     playdown_averages_path: Optional[str] = None,
     top4_averages_path: Optional[str] = None,
-    sqlite_path: Optional[str] = None,
     database_url: Optional[str] = None,
     playoff_rounds: Optional[list] = None,
 ) -> Tuple[int, int, int]:
@@ -359,13 +254,12 @@ def generate_markdown_files(
     teams_out.mkdir(parents=True, exist_ok=True)
     liga_out.mkdir(parents=True, exist_ok=True)
 
-    game_stats, team_stats, league_stats, db_path, source_key = _load_markdown_inputs(
+    game_stats, team_stats, league_stats, source_key = _load_markdown_inputs(
         game_stats_path=game_stats_path,
         team_stats_path=team_stats_path,
         league_stats_path=league_stats_path,
         season=season,
         phase=phase,
-        sqlite_path=sqlite_path,
         database_url=database_url,
     )
     _annotate_wfc_group_metadata(team_stats, game_stats, season=season, phase=phase)
@@ -412,10 +306,6 @@ def generate_markdown_files(
             payload = _load_league_stat_by_record_type_from_postgres(database_url, source_key, record_type)
             if payload:
                 return payload
-        if db_path is not None:
-            payload = _load_league_stat_by_record_type(db_path, source_key, record_type)
-            if payload:
-                return payload
         if not json_path:
             return None
         extra_path = Path(json_path)
@@ -448,7 +338,6 @@ def parse_args():
     parser.add_argument("--game_stats_path", default="data/game_stats.json")
     parser.add_argument("--team_stats_path", default="data/team_stats_enhanced.json")
     parser.add_argument("--league_stats_path", default="data/league_averages.json")
-    parser.add_argument("--sqlite_path", default=None)
     parser.add_argument("--database_url", default=None)
     parser.add_argument("--output_games_dir", default="content/25-26-regular-season/games")
     parser.add_argument("--output_teams_dir", default="content/25-26-regular-season/teams")
@@ -464,7 +353,6 @@ def main():
         game_stats_path=args.game_stats_path,
         team_stats_path=args.team_stats_path,
         league_stats_path=args.league_stats_path,
-        sqlite_path=args.sqlite_path,
         database_url=args.database_url,
         output_games_dir=args.output_games_dir,
         output_teams_dir=args.output_teams_dir,

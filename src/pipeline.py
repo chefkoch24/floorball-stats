@@ -5,7 +5,6 @@ from pathlib import Path
 import pandas as pd
 
 from src.build_postgres import sync_pipeline_outputs as sync_pipeline_outputs_postgres
-from src.build_sqlite import sync_pipeline_outputs
 from src.generate_markdown import generate_markdown_files
 from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
@@ -82,7 +81,6 @@ def run_pipeline(
     playoff_teams_count: int = 8,
     data_dir: str = "data",
     content_dir: str = "content",
-    sqlite_path: str | None = None,
     database_url: str | None = None,
     skip_scrape: bool = False,
 ) -> dict:
@@ -230,14 +228,6 @@ def run_pipeline(
         playoff_cut=playoff_teams_count,
         input_df=wfc_db_frame,
     )
-    sqlite_db_path = sqlite_path or str(data_path / "stats.db")
-    sqlite_counts = sync_pipeline_outputs(
-        db_path=sqlite_db_path,
-        input_csv_path=str(raw_csv),
-        season=season,
-        phase=phase,
-        stats_payload=stats_payload,
-    )
     postgres_counts = None
     if database_url:
         postgres_counts = sync_pipeline_outputs_postgres(
@@ -271,8 +261,6 @@ def run_pipeline(
     )
     return {
         "raw_csv": str(raw_csv),
-        "sqlite_db": sqlite_db_path,
-        "sqlite_counts": sqlite_counts,
         "postgres_counts": postgres_counts,
         "games_written": games_written,
         "teams_written": teams_written,
@@ -315,7 +303,6 @@ def parse_args():
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
     parser.add_argument("--content_dir", default="content")
-    parser.add_argument("--sqlite_path", default=None)
     parser.add_argument("--database_url", default=None)
     parser.add_argument("--skip_scrape", action="store_true")
     return parser.parse_args()
@@ -375,7 +362,6 @@ def main():
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
         content_dir=args.content_dir,
-        sqlite_path=args.sqlite_path,
         database_url=args.database_url or os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL"),
         skip_scrape=args.skip_scrape,
     )
