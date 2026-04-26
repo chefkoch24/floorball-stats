@@ -410,10 +410,7 @@ def _load_player_uid_lookup(
     player_df: pd.DataFrame | None = None
     database_url = os.getenv("NEON_DATABASE_URL") or os.getenv("DATABASE_URL")
     if not database_url:
-        raise RuntimeError(
-            "Missing NEON_DATABASE_URL (or DATABASE_URL). "
-            "Player UID lookup is DB-only; CSV fallback has been removed."
-        )
+        return {}, {}, {}, {}
     try:
         import psycopg  # type: ignore
 

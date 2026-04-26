@@ -4,17 +4,28 @@ import src.generate_player_markdown as generate_player_markdown_module
 from src.generate_player_markdown import generate_player_markdown
 
 
-def test_generate_player_markdown_writes_expected_file(tmp_path: Path):
-    csv_path = tmp_path / "players.csv"
-    csv_path.write_text(
-        "player,team,league,season,games,goals,assists,points\n"
-        "Max Muster,Test Club,Demo League,25-26,10,8,7,15\n",
-        encoding="utf-8",
-    )
+def test_generate_player_markdown_writes_expected_file(tmp_path: Path, monkeypatch):
+    rows = [
+        {
+            "player_uid": "max-muster",
+            "player": "Max Muster",
+            "team": "Test Club",
+            "league": "Demo League",
+            "season": "25-26",
+            "phase": "regular-season",
+            "games": "10",
+            "goals": "8",
+            "assists": "7",
+            "points": "15",
+            "pim": "0",
+        }
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(csv_path),
+        database_url="postgresql://test",
         output_dir=str(output_dir),
         default_category="players",
     )
@@ -32,19 +43,18 @@ def test_generate_player_markdown_writes_expected_file(tmp_path: Path):
     assert "points: 15" in content
 
 
-def test_generate_player_markdown_groups_seasons_into_single_player_page(tmp_path: Path):
-    csv_path = tmp_path / "players.csv"
-    csv_path.write_text(
-        "player_uid,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "max-muster-sweden,Max Muster,Club A,Sweden SSL,se-24-25,regular-season,20,10,10,20,12\n"
-        "max-muster-sweden,Max Muster,Club A,Sweden SSL,se-25-26,regular-season,22,12,11,23,10\n"
-        "max-muster-sweden,Max Muster,Club A,Sweden SSL,se-25-26,playoffs,6,3,4,7,2\n",
-        encoding="utf-8",
-    )
+def test_generate_player_markdown_groups_seasons_into_single_player_page(tmp_path: Path, monkeypatch):
+    rows = [
+        {"player_uid": "max-muster-sweden", "player": "Max Muster", "team": "Club A", "league": "Sweden SSL", "season": "se-24-25", "phase": "regular-season", "games": "20", "goals": "10", "assists": "10", "points": "20", "pim": "12"},
+        {"player_uid": "max-muster-sweden", "player": "Max Muster", "team": "Club A", "league": "Sweden SSL", "season": "se-25-26", "phase": "regular-season", "games": "22", "goals": "12", "assists": "11", "points": "23", "pim": "10"},
+        {"player_uid": "max-muster-sweden", "player": "Max Muster", "team": "Club A", "league": "Sweden SSL", "season": "se-25-26", "phase": "playoffs", "games": "6", "goals": "3", "assists": "4", "points": "7", "pim": "2"},
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(csv_path),
+        database_url="postgresql://test",
         output_dir=str(output_dir),
         default_category="players",
     )
@@ -63,29 +73,19 @@ def test_generate_player_markdown_groups_seasons_into_single_player_page(tmp_pat
     assert "previous_points: 20" in content
 
 
-def test_generate_player_markdown_merges_full_history_for_partial_source(tmp_path: Path):
-    partial_csv_path = tmp_path / "players_wfc.csv"
-    partial_csv_path.write_text(
-        "player_uid,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,regular-season,2,2,3,5,0\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,playoffs,1,1,0,1,0\n",
-        encoding="utf-8",
-    )
-
-    full_csv_path = tmp_path / "players_full.csv"
-    full_csv_path.write_text(
-        "player_uid,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "player-1,Gabriel Kohonen,Storvreta IBK,Sweden,se-25-26,regular-season,26,22,50,72,16\n"
-        "player-1,Gabriel Kohonen,Storvreta IBK,Sweden,se-25-26,playoffs,5,6,7,13,5\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,regular-season,2,2,3,5,0\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,playoffs,1,1,0,1,0\n",
-        encoding="utf-8",
-    )
+def test_generate_player_markdown_merges_full_history_for_partial_source(tmp_path: Path, monkeypatch):
+    rows = [
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Storvreta IBK", "league": "Sweden", "season": "se-25-26", "phase": "regular-season", "games": "26", "goals": "22", "assists": "50", "points": "72", "pim": "16"},
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Storvreta IBK", "league": "Sweden", "season": "se-25-26", "phase": "playoffs", "games": "5", "goals": "6", "assists": "7", "points": "13", "pim": "5"},
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "regular-season", "games": "2", "goals": "2", "assists": "3", "points": "5", "pim": "0"},
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "playoffs", "games": "1", "goals": "1", "assists": "0", "points": "1", "pim": "0"},
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(partial_csv_path),
-        merge_csv_path=str(full_csv_path),
+        database_url="postgresql://test",
         output_dir=str(output_dir),
         default_category="players",
         season_prefixes={"wfc"},
@@ -106,29 +106,19 @@ def test_generate_player_markdown_merges_full_history_for_partial_source(tmp_pat
     assert "history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|5|6|7|13|5||se-25-26|regular-season|Sweden|Storvreta IBK|26|22|50|72|16||wfc-2024|tournament|IFF WFC|Sweden|3|3|3|6|0" in content
 
 
-def test_generate_player_markdown_dedupes_same_season_rows_with_blank_source_ids(tmp_path: Path):
-    partial_csv_path = tmp_path / "players_wfc.csv"
-    partial_csv_path.write_text(
-        "player_uid,source_system,source_player_id,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "player-1,wfc,1691,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,regular-season,2,2,3,5,0\n"
-        "player-1,wfc,1691,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,playoffs,1,1,0,1,0\n",
-        encoding="utf-8",
-    )
-
-    full_csv_path = tmp_path / "players_full.csv"
-    full_csv_path.write_text(
-        "player_uid,source_system,source_player_id,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "player-1,sweden,409141,Gabriel Kohonen,Storvreta IBK,Sweden,se-25-26,regular-season,26,22,50,72,16\n"
-        "player-1,sweden,409141,Gabriel Kohonen,Storvreta IBK,Sweden,se-25-26,playoffs,5,6,7,13,5\n"
-        "player-1,wfc,,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,regular-season,2,2,3,5,0\n"
-        "player-1,wfc,,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,playoffs,1,1,0,1,0\n",
-        encoding="utf-8",
-    )
+def test_generate_player_markdown_dedupes_same_season_rows_with_blank_source_ids(tmp_path: Path, monkeypatch):
+    rows = [
+        {"player_uid": "player-1", "source_system": "sweden", "source_player_id": "409141", "player": "Gabriel Kohonen", "team": "Storvreta IBK", "league": "Sweden", "season": "se-25-26", "phase": "regular-season", "games": "26", "goals": "22", "assists": "50", "points": "72", "pim": "16"},
+        {"player_uid": "player-1", "source_system": "sweden", "source_player_id": "409141", "player": "Gabriel Kohonen", "team": "Storvreta IBK", "league": "Sweden", "season": "se-25-26", "phase": "playoffs", "games": "5", "goals": "6", "assists": "7", "points": "13", "pim": "5"},
+        {"player_uid": "player-1", "source_system": "wfc", "source_player_id": "", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "regular-season", "games": "2", "goals": "2", "assists": "3", "points": "5", "pim": "0"},
+        {"player_uid": "player-1", "source_system": "wfc", "source_player_id": "", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "playoffs", "games": "1", "goals": "1", "assists": "0", "points": "1", "pim": "0"},
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(partial_csv_path),
-        merge_csv_path=str(full_csv_path),
+        database_url="postgresql://test",
         output_dir=str(output_dir),
         default_category="players",
         season_prefixes={"wfc"},
@@ -143,18 +133,17 @@ def test_generate_player_markdown_dedupes_same_season_rows_with_blank_source_ids
     assert content.count("wfc-2024|tournament|IFF WFC|Sweden|3|3|3|6|0") == 1
 
 
-def test_generate_player_markdown_combines_current_tournament_season(tmp_path: Path):
-    csv_path = tmp_path / "players_wfc.csv"
-    csv_path.write_text(
-        "player_uid,player,team,league,season,phase,games,goals,assists,points,pim\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,regular-season,3,2,3,5,0\n"
-        "player-1,Gabriel Kohonen,Sweden,IFF WFC,wfc-2024,playoffs,3,1,0,1,0\n",
-        encoding="utf-8",
-    )
+def test_generate_player_markdown_combines_current_tournament_season(tmp_path: Path, monkeypatch):
+    rows = [
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "regular-season", "games": "3", "goals": "2", "assists": "3", "points": "5", "pim": "0"},
+        {"player_uid": "player-1", "player": "Gabriel Kohonen", "team": "Sweden", "league": "IFF WFC", "season": "wfc-2024", "phase": "playoffs", "games": "3", "goals": "1", "assists": "0", "points": "1", "pim": "0"},
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(csv_path),
+        database_url="postgresql://test",
         output_dir=str(output_dir),
         default_category="players",
         season_prefixes={"wfc"},
@@ -238,10 +227,10 @@ def test_generate_player_markdown_merges_prefix_scoped_history_from_database(tmp
         },
     ]
     monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
 
     output_dir = tmp_path / "content" / "players"
     written, removed = generate_player_markdown(
-        csv_path=str(tmp_path / "unused.csv"),
         database_url="postgresql://example",
         output_dir=str(output_dir),
         default_category="players",

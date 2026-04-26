@@ -446,6 +446,9 @@ def test_build_game_events_payload_translates_own_goal_labels():
         away_team="Away",
         exact_player_lookup={},
         fallback_player_lookup={},
+        initial_exact_player_lookup={},
+        initial_fallback_player_lookup={},
+        player_alias_map={},
     )
     assert payload_meta["game_events_count"] == 1
     encoded = payload_meta["game_events_b64"]
