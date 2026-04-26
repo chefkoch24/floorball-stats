@@ -6,7 +6,7 @@ type: game
 game_id: 1688219
 home_team: Nykvarns IBF
 away_team: Storvreta IBK
-attendance: 646.0
+attendance: 646
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-6,-6
 away_goal_minutes_csv: 8.03,15.2,15.92,27.15,33.0,46.77,55.33,59.8
 away_major_penalty_minutes_csv: 55.33
@@ -409,6 +409,7 @@ away_pregame_points_after_first_period: 3
 away_pregame_points_after_first_period_per_game: 3.0
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
+away_pregame_points_against_ibf_falun: 3
 away_pregame_points_against_nykvarns_ibf: 12
 away_pregame_points_against_vaxjo_ibk: 11
 away_pregame_points_max_difference_2: 0

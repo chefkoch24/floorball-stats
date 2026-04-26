@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Joel Lundell
 Category: players
 Slug: player-69446457ffd1f7fb
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 1
 regular_points: 1
 regular_pim: 0
-playoff_games: 0
+playoff_games: 1
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -41,7 +41,7 @@ assists: 0
 games: 1
 goals: 0
 penalties: 0
-phase: regular-season
+phase: playoffs
 pim: 0
 points: 0
 rank: 137

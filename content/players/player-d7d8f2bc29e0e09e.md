@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Eero Jalo
 Category: players
 Slug: player-d7d8f2bc29e0e09e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 36
+rank: 38
 season: fi-25-26

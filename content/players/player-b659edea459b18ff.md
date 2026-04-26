@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Konstantin Kahlmann
 Category: players
 Slug: player-b659edea459b18ff
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 117
+rank: 122
 season: 25-26

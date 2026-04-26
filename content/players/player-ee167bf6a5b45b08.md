@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Toms Gredzens
 Category: players
 Slug: player-ee167bf6a5b45b08
@@ -44,5 +44,5 @@ penalties: 6
 phase: playoffs
 pim: 12
 points: 6
-rank: 36
+rank: 39
 season: lv-25-26

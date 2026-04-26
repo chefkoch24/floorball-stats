@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Paul Kretzschmar
 Category: players
 Slug: player-6b44274badb49e05
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 7
-rank: 6
+rank: 7
 season: 25-26

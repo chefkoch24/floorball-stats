@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matīss Jorens Švedenbergs
 Category: players
 Slug: player-aeeaba63bb7f389f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 101
+rank: 102
 season: lv-25-26

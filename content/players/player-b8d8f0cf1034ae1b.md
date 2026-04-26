@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Emīls Šūmanis
 Category: players
 Slug: player-b8d8f0cf1034ae1b
@@ -38,11 +38,11 @@ career_points: 19
 career_pim: 16
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|13|4|2|6|8||lv-25-26|regular-season|Latvia|Lekrings|23|10|3|13|8
 assists: 2
-games: 12
+games: 13
 goals: 4
 penalties: 4
 phase: playoffs
 pim: 8
 points: 6
-rank: 34
+rank: 37
 season: lv-25-26

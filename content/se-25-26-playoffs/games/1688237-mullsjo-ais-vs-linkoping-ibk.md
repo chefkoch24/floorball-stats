@@ -6,7 +6,7 @@ type: game
 game_id: 1688237
 home_team: Mullsjö AIS
 away_team: Linköping IBK
-attendance: 1132.0
+attendance: 1132
 away_goal_diffs_csv: -1,-2,-1,-2,-3,-3
 away_goal_minutes_csv: 1.57,12.57,27.68,35.88,40.35,54.25
 away_major_penalty_minutes_csv: 

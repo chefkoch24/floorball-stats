@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Peteris Trekse
 Category: players
 Slug: player-76f21fee6e39a6f3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 13
-rank: 11
+rank: 12
 season: fi-25-26

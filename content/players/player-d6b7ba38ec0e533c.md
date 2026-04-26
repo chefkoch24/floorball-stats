@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jēkabs Berkolts
 Category: players
 Slug: player-d6b7ba38ec0e533c
@@ -23,8 +23,8 @@ regular_points: 26
 regular_pim: 10
 playoff_games: 15
 playoff_goals: 3
-playoff_assists: 4
-playoff_points: 7
+playoff_assists: 5
+playoff_points: 8
 playoff_pim: 12
 previous_games: 0
 previous_goals: 0
@@ -43,6 +43,6 @@ goals: 3
 penalties: 6
 phase: playoffs
 pim: 12
-points: 7
-rank: 27
+points: 8
+rank: 28
 season: lv-25-26

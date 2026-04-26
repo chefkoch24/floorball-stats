@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Ondrejička Adam Martin
 Category: players
 Slug: player-132fa4acac11de8a

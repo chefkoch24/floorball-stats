@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Marek Zouzal
 Category: players
 Slug: player-b3ecc4fe9089eab0
@@ -11,17 +11,17 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 32
+current_games: 18
 current_goals: 9
 current_assists: 19
 current_points: 28
 current_pim: 4
-regular_games: 22
+regular_games: 14
 regular_goals: 6
 regular_assists: 17
 regular_points: 23
 regular_pim: 4
-playoff_games: 10
+playoff_games: 4
 playoff_goals: 3
 playoff_assists: 2
 playoff_points: 5
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 32
+career_games: 18
 career_goals: 9
 career_assists: 19
 career_points: 28
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|3|2|5|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|22|6|17|23|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|4|3|2|5|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|14|6|17|23|4
 assists: 2
-games: 10
+games: 4
 goals: 3
 penalties: 0
 phase: playoffs

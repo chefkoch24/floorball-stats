@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Damian Hocevar
 Category: players
 Slug: player-3dd80181fe6994fe
@@ -11,7 +11,7 @@ season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 24
+current_games: 25
 current_goals: 1
 current_assists: 2
 current_points: 3
@@ -21,7 +21,7 @@ regular_goals: 1
 regular_assists: 1
 regular_points: 2
 regular_pim: 2
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 25
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 2
-history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|9|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|15|1|1|2|2
+history_rows_csv: ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|15|1|1|2|2
 assists: 1
-games: 9
+games: 10
 goals: 0
 penalties: 0
 phase: playoffs

@@ -410,7 +410,7 @@ away_pregame_points_after_first_period: 2
 away_pregame_points_after_first_period_per_game: 0.5
 away_pregame_points_after_second_period: 7
 away_pregame_points_after_third_period: 4
-away_pregame_points_against_mfbc_leipzig: 0
+away_pregame_points_against_mfbc_leipzig: 3
 away_pregame_points_against_ssf_dragons_bonn: 5
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 3

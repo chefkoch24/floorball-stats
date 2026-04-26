@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Lauri Alkki
 Category: players
 Slug: player-93d53ea4da9cd66e
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 106
+rank: 110
 season: fi-25-26

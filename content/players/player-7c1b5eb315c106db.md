@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Michal Baláž
 Category: players
 Slug: player-7c1b5eb315c106db

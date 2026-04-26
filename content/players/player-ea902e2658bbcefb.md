@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Tomi Mielonen
 Category: players
 Slug: player-ea902e2658bbcefb
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 25
+current_games: 14
 current_goals: 3
 current_assists: 7
 current_points: 10
 current_pim: 8
-regular_games: 25
+regular_games: 14
 regular_goals: 3
 regular_assists: 7
 regular_points: 10
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 14
 career_goals: 3
 career_assists: 7
 career_points: 10
 career_pim: 8
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|25|3|7|10|8
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|14|3|7|10|8
 assists: 7
-games: 25
+games: 14
 goals: 3
 penalties: 4
 phase: regular-season

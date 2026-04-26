@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Joel Bachmann
 Category: players
 Slug: player-15b2ee433e7daa62

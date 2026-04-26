@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Leo Häfner
 Category: players
 Slug: player-a0c3b2305a783ba2
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 48
+rank: 51
 season: 25-26

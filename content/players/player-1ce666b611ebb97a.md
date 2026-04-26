@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jesper Sankell
 Category: players
 Slug: player-1ce666b611ebb97a
@@ -40,9 +40,9 @@ history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|8|1|1|2|10||se-25-26|regu
 assists: 1
 games: 8
 goals: 1
-penalties: 4
+penalties: 5
 phase: playoffs
-pim: 8
+pim: 10
 points: 2
 rank: 67
 season: se-25-26

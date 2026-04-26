@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Ondřej Vítovec
 Category: players
 Slug: player-ec3c95cdb0b62117
@@ -11,17 +11,17 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 25
+current_games: 6
 current_goals: 3
 current_assists: 4
 current_points: 7
 current_pim: 0
-regular_games: 19
+regular_games: 6
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
 regular_pim: 0
-playoff_games: 6
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 6
 career_goals: 3
 career_assists: 4
 career_points: 7
 career_pim: 0
-history_rows_csv: cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|19|3|4|7|0
-assists: 0
+history_rows_csv: cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|6|3|4|7|0
+assists: 4
 games: 6
-goals: 0
+goals: 3
 penalties: 0
-phase: playoffs
+phase: regular-season
 pim: 0
-points: 0
-rank: 213
+points: 7
+rank: 189
 season: cz-25-26

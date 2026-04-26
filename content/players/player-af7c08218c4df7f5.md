@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Peter Banga
 Category: players
 Slug: player-af7c08218c4df7f5
@@ -44,5 +44,5 @@ penalties: 6
 phase: playoffs
 pim: 12
 points: 19
-rank: 5
+rank: 6
 season: sk-25-26

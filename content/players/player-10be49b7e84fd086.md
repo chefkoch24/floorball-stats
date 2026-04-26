@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Kasper Kulmala
 Category: players
 Slug: player-10be49b7e84fd086
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 105
+rank: 109
 season: fi-25-26

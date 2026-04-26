@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Sebastian Palmqvist
 Category: players
 Slug: player-4ca75028258b0ffc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 39
+rank: 40
 season: se-25-26

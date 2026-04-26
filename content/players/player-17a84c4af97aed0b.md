@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Gabriel Bonifacio
 Category: players
 Slug: player-17a84c4af97aed0b
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 64
+rank: 71
 season: 25-26

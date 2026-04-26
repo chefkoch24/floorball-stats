@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matej Jendrisak
 Category: players
 Slug: player-23a654aa81ef253c
@@ -43,6 +43,6 @@ goals: 6
 penalties: 3
 phase: playoffs
 pim: 6
-points: 6
+points: 8
 rank: 17
 season: se-25-26

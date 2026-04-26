@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Otto Kilpi
 Category: players
 Slug: player-0dd7d0c569b5fa12
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 3
-rank: 77
+rank: 80
 season: fi-25-26

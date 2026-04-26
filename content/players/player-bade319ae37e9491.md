@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matteo Nico Steiner
 Category: players
 Slug: player-bade319ae37e9491
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 39
+rank: 40
 season: ch-25-26

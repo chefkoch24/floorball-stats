@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Artis Raitums
 Category: players
 Slug: player-4b211c3f5dc8e968
@@ -43,6 +43,6 @@ goals: 4
 penalties: 2
 phase: playoffs
 pim: 4
-points: 6
-rank: 37
+points: 9
+rank: 24
 season: lv-25-26

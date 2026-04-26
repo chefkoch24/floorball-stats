@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matěj Stránský
 Category: players
 Slug: player-fe3c6df2cd189586
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 34
+current_games: 13
 current_goals: 6
 current_assists: 10
 current_points: 16
 current_pim: 2
-regular_games: 34
+regular_games: 13
 regular_goals: 6
 regular_assists: 10
 regular_points: 16
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 34
+career_games: 13
 career_goals: 6
 career_assists: 10
 career_points: 16
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|34|6|10|16|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBC Liberec|13|6|10|16|2
 assists: 10
-games: 34
+games: 13
 goals: 6
 penalties: 1
 phase: regular-season

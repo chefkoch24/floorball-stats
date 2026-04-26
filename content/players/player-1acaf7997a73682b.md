@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Alexander Hedlund
 Category: players
 Slug: player-1acaf7997a73682b
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 6
-rank: 36
+rank: 37
 season: ch-25-26

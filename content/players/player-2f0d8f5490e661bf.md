@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Ralfs Krutkēvičs
 Category: players
 Slug: player-2f0d8f5490e661bf
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 198
+rank: 201
 season: lv-25-26

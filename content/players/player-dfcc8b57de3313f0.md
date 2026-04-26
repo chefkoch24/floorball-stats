@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Självmål
 Category: players
 Slug: player-dfcc8b57de3313f0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 32
+rank: 33
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jakub Gálet
 Category: players
 Slug: player-9dc76db7d07206e5
@@ -21,7 +21,7 @@ regular_goals: 4
 regular_assists: 5
 regular_points: 9
 regular_pim: 0
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
@@ -38,7 +38,7 @@ career_points: 11
 career_pim: 0
 history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|2|2|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|5|9|0
 assists: 2
-games: 10
+games: 11
 goals: 0
 penalties: 0
 phase: playoffs

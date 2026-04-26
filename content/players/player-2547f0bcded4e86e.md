@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jurģis Patriks Aizupietis
 Category: players
 Slug: player-2547f0bcded4e86e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 115
+rank: 117
 season: lv-25-26

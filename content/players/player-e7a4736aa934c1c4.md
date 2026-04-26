@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Mikuláš Komárek
 Category: players
 Slug: player-e7a4736aa934c1c4
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 33
+current_games: 28
 current_goals: 17
 current_assists: 21
 current_points: 38
 current_pim: 10
-regular_games: 22
+regular_games: 17
 regular_goals: 15
 regular_assists: 13
 regular_points: 28
@@ -31,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 33
+career_games: 28
 career_goals: 17
 career_assists: 21
 career_points: 38
 career_pim: 10
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|11|2|8|10|8||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|22|15|13|28|2
+history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|11|2|8|10|8||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|17|15|13|28|2
 assists: 8
 games: 11
 goals: 2

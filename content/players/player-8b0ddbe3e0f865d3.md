@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jeppsson Escabel
 Category: players
 Slug: player-8b0ddbe3e0f865d3

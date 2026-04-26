@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Rūdolfs Dāvis Maklers
 Category: players
 Slug: player-22cf14fb366de942
@@ -38,11 +38,11 @@ career_points: 31
 career_pim: 10
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|10|2|4|6|2||lv-25-26|regular-season|Latvia|Lekrings|27|18|7|25|8
 assists: 4
-games: 9
+games: 10
 goals: 2
 penalties: 1
 phase: playoffs
 pim: 2
 points: 6
-rank: 39
+rank: 41
 season: lv-25-26

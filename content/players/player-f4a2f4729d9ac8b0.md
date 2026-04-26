@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Hannes Langenstraß
 Category: players
 Slug: player-f4a2f4729d9ac8b0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 34
+rank: 37
 season: 25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Marek Kalivoda
 Category: players
 Slug: player-d07546fe69cb48a9
@@ -25,7 +25,7 @@ playoff_games: 11
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
-playoff_pim: 2
+playoff_pim: 4
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -38,11 +38,11 @@ career_points: 14
 career_pim: 10
 history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|1|1|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|6|13|6
 assists: 1
-games: 10
+games: 11
 goals: 0
-penalties: 1
+penalties: 2
 phase: playoffs
-pim: 2
+pim: 4
 points: 1
-rank: 98
+rank: 99
 season: sk-25-26

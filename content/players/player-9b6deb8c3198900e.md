@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Dominik Dvořák
 Category: players
 Slug: player-9b6deb8c3198900e
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 15
+current_games: 5
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 4
-regular_games: 15
+regular_games: 5
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 15
+career_games: 5
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|15|2|2|4|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|5|2|2|4|4
 assists: 2
-games: 15
+games: 5
 goals: 2
 penalties: 2
 phase: regular-season

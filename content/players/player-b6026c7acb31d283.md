@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Roberts Trofimenko
 Category: players
 Slug: player-b6026c7acb31d283
@@ -38,7 +38,7 @@ career_points: 44
 career_pim: 14
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|8|10|4|14|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|20|10|30|12
 assists: 4
-games: 7
+games: 8
 goals: 10
 penalties: 1
 phase: playoffs

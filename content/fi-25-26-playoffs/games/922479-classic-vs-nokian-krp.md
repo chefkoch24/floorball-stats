@@ -94,7 +94,7 @@ home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
 home_first_goal_of_match_against: 0
-home_games: 1
+home_games: 0
 home_goal_difference: 0
 home_goals: 0
 home_goals_against: 0
@@ -168,7 +168,7 @@ away_equalizer_goals: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
 away_first_goal_of_match_against: 0
-away_games: 1
+away_games: 0
 away_goal_difference: 0
 away_goals: 0
 away_goals_against: 0

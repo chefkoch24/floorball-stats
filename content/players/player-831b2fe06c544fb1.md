@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Kamenský František
 Category: players
 Slug: player-831b2fe06c544fb1

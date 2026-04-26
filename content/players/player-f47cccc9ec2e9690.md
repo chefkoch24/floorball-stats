@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Renārs Liepiņš
 Category: players
 Slug: player-f47cccc9ec2e9690
@@ -38,7 +38,7 @@ career_points: 24
 career_pim: 14
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|1|2|3|6||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|26|13|8|21|8
 assists: 2
-games: 9
+games: 10
 goals: 1
 penalties: 3
 phase: playoffs

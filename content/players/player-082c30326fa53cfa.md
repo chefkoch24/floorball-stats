@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Aaro Astala
 Category: players
 Slug: player-082c30326fa53cfa
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 22
+rank: 24
 season: ch-25-26

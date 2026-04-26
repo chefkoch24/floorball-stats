@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Patrik Neterder
 Category: players
 Slug: player-8eed1cb58dc11d7c
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 27
+current_games: 10
 current_goals: 11
 current_assists: 2
 current_points: 13
 current_pim: 2
-regular_games: 27
+regular_games: 10
 regular_goals: 11
 regular_assists: 2
 regular_points: 13
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 10
 career_goals: 11
 career_assists: 2
 career_points: 13
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|27|11|2|13|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|10|11|2|13|2
 assists: 2
-games: 27
+games: 10
 goals: 11
 penalties: 1
 phase: regular-season

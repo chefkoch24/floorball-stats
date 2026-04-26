@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Renàrs Capars
 Category: players
 Slug: player-4659baba28e885c5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 158
+rank: 159
 season: 25-26

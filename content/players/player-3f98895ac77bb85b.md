@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Vincent Jordan
 Category: players
 Slug: player-3f98895ac77bb85b

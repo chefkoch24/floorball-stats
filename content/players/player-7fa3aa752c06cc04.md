@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Artis Matīss Fogels
 Category: players
 Slug: player-7fa3aa752c06cc04
@@ -38,7 +38,7 @@ career_points: 32
 career_pim: 12
 history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|11|1|1|2|4||lv-25-26|regular-season|Latvia|Rubene|26|20|10|30|8
 assists: 1
-games: 10
+games: 11
 goals: 1
 penalties: 2
 phase: playoffs

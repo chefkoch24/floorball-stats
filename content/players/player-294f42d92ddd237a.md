@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Anton Birgersson
 Category: players
 Slug: player-294f42d92ddd237a

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jan Zaugg
 Category: players
 Slug: player-24ea406b19cff034
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 25
+rank: 27
 season: ch-25-26

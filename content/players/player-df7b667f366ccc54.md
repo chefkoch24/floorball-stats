@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Kirils Namļinskis
 Category: players
 Slug: player-df7b667f366ccc54
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 116
+rank: 118
 season: lv-25-26

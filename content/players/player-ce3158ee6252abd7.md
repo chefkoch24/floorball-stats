@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Michal Franek
 Category: players
 Slug: player-ce3158ee6252abd7
@@ -21,7 +21,7 @@ regular_goals: 2
 regular_assists: 3
 regular_points: 5
 regular_pim: 0
-playoff_games: 4
+playoff_games: 5
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -38,11 +38,11 @@ career_points: 5
 career_pim: 0
 history_rows_csv: sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|5|0|0|0|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|13|2|3|5|0
 assists: 0
-games: 4
+games: 5
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 157
+rank: 156
 season: sk-25-26

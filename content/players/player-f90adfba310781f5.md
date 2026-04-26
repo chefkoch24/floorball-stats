@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Marek Kadlec
 Category: players
 Slug: player-f90adfba310781f5
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 21
+current_games: 6
 current_goals: 5
 current_assists: 0
 current_points: 5
 current_pim: 4
-regular_games: 21
+regular_games: 6
 regular_goals: 5
 regular_assists: 0
 regular_points: 5
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 21
+career_games: 6
 career_goals: 5
 career_assists: 0
 career_points: 5
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|21|5|0|5|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|6|5|0|5|4
 assists: 0
-games: 21
+games: 6
 goals: 5
 penalties: 2
 phase: regular-season

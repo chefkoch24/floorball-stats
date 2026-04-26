@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jakub Boček
 Category: players
 Slug: player-59c2dba6b79dd8f6
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 28
+current_games: 21
 current_goals: 20
 current_assists: 14
 current_points: 34
 current_pim: 4
-regular_games: 22
+regular_games: 15
 regular_goals: 15
 regular_assists: 8
 regular_points: 23
@@ -31,12 +31,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 21
 career_goals: 20
 career_assists: 14
 career_points: 34
 career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|5|6|11|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|22|15|8|23|4
+history_rows_csv: cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|5|6|11|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|15|15|8|23|4
 assists: 6
 games: 6
 goals: 5

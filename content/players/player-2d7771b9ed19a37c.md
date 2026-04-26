@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Frans Katila
 Category: players
 Slug: player-2d7771b9ed19a37c
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 65
+rank: 66
 season: fi-25-26

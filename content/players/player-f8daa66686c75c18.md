@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Tomáš Kvasnica
 Category: players
 Slug: player-f8daa66686c75c18
@@ -42,7 +42,7 @@ games: 15
 goals: 16
 penalties: 5
 phase: playoffs
-pim: 8
-points: 31
+pim: 10
+points: 34
 rank: 1
 season: sk-25-26

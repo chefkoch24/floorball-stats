@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Šimon Hatala
 Category: players
 Slug: player-5b8900aea6b0085e
@@ -23,8 +23,8 @@ regular_points: 37
 regular_pim: 8
 playoff_games: 11
 playoff_goals: 2
-playoff_assists: 13
-playoff_points: 15
+playoff_assists: 14
+playoff_points: 16
 playoff_pim: 0
 previous_games: 7
 previous_goals: 0
@@ -43,6 +43,6 @@ goals: 2
 penalties: 0
 phase: playoffs
 pim: 0
-points: 15
-rank: 9
+points: 16
+rank: 8
 season: sk-25-26

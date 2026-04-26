@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Pārstāvis Ansis Kusiņš
 Category: players
 Slug: player-499b2bbf79a66c0e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 174
+rank: 175
 season: lv-25-26

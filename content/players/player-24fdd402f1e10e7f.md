@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Edvards Hāzners
 Category: players
 Slug: player-24fdd402f1e10e7f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 135
+rank: 137
 season: lv-25-26

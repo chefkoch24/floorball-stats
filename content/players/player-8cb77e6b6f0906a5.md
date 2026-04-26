@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Johannes Jens Voigt
 Category: players
 Slug: player-8cb77e6b6f0906a5
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 22
+current_games: 23
 current_goals: 2
 current_assists: 0
 current_points: 2
@@ -21,7 +21,7 @@ regular_goals: 2
 regular_assists: 0
 regular_points: 2
 regular_pim: 2
-playoff_games: 4
+playoff_games: 5
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 23
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 2
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|4|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|0|2|2
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|5|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|0|2|2
 assists: 0
-games: 4
+games: 5
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 110
+rank: 115
 season: 25-26

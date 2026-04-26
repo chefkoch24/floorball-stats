@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Arian Trützschler
 Category: players
 Slug: player-f9649fa59d6af3d5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 37
+rank: 43
 season: 25-26

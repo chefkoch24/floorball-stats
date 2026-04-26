@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Rolands Gustavs Vaivads
 Category: players
 Slug: player-5f5e8a462c1dde02
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 209
+rank: 211
 season: lv-25-26

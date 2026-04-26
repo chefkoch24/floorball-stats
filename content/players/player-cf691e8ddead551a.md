@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Lasse Vallema
 Category: players
 Slug: player-cf691e8ddead551a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 119
+rank: 124
 season: 25-26

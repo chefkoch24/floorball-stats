@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Michal Strachota
 Category: players
 Slug: player-840a79255a6afbb1
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 60
+rank: 65
 season: 25-26

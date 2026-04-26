@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Kārlis Spilbergs
 Category: players
 Slug: player-588e32d9c68de3f6
@@ -38,7 +38,7 @@ career_points: 14
 career_pim: 2
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|4|2|1|3|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|19|10|1|11|2
 assists: 1
-games: 3
+games: 4
 goals: 2
 penalties: 0
 phase: playoffs

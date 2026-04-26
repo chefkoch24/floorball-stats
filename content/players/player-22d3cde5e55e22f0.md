@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Janis Lauber
 Category: players
 Slug: player-22d3cde5e55e22f0
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 5
-rank: 44
+rank: 45
 season: ch-25-26

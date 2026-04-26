@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Schätzel Marek
 Category: players
 Slug: player-3a49f2c9fcc9cdcc

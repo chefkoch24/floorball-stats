@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Max Beyer
 Category: players
 Slug: player-ec799376cf933f7b
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 137
+rank: 141
 season: 25-26

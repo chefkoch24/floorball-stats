@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Dušan Ďurmek
 Category: players
 Slug: player-70fc9c2e8dcf8bb5
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -38,7 +38,7 @@ career_points: 0
 career_pim: 0
 history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|0|0|0|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|22|0|0|0|0
 assists: 0
-games: 10
+games: 11
 goals: 0
 penalties: 0
 phase: playoffs

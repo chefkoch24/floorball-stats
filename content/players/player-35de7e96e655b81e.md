@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Michal Amrich
 Category: players
 Slug: player-35de7e96e655b81e
@@ -21,7 +21,7 @@ regular_goals: 20
 regular_assists: 18
 regular_points: 38
 regular_pim: 0
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 5
 playoff_assists: 3
 playoff_points: 8
@@ -38,11 +38,11 @@ career_points: 46
 career_pim: 4
 history_rows_csv: sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|5|3|8|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|20|18|38|0
 assists: 3
-games: 9
+games: 10
 goals: 5
 penalties: 2
 phase: playoffs
 pim: 4
 points: 8
-rank: 20
+rank: 19
 season: sk-25-26

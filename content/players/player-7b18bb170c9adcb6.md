@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Anton Hedin
 Category: players
 Slug: player-7b18bb170c9adcb6

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Ingars Matisons
 Category: players
 Slug: player-fdee6623946f4f56
@@ -38,11 +38,11 @@ career_points: 37
 career_pim: 10
 history_rows_csv: lv-25-26|playoffs|Latvia|Rubene|12|7|5|12|2||lv-25-26|regular-season|Latvia|Rubene|24|22|3|25|8
 assists: 5
-games: 11
+games: 12
 goals: 7
 penalties: 1
 phase: playoffs
 pim: 2
 points: 12
-rank: 13
+rank: 16
 season: lv-25-26

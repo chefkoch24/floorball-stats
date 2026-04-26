@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Pascal Reichert
 Category: players
 Slug: player-0caddf2a9c21c61e
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 20
+current_games: 21
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 1
 regular_points: 1
 regular_pim: 0
-playoff_games: 5
+playoff_games: 6
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 20
+career_games: 21
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|5|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|15|0|1|1|0
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|6|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|15|0|1|1|0
 assists: 0
-games: 5
+games: 6
 goals: 0
 penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 150
+rank: 151
 season: 25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Oliver Sandberg
 Category: players
 Slug: player-30001ce148b6ee4d
@@ -11,7 +11,7 @@ season_count: 1
 current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 35
+current_games: 36
 current_goals: 27
 current_assists: 15
 current_points: 42
@@ -21,24 +21,24 @@ regular_goals: 25
 regular_assists: 13
 regular_points: 38
 regular_pim: 0
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 2
 playoff_assists: 2
-playoff_points: 3
-playoff_pim: 0
+playoff_points: 4
+playoff_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 35
+career_games: 36
 career_goals: 27
 career_assists: 15
 career_points: 42
 career_pim: 2
-history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|10|2|2|4|2||se-25-26|regular-season|Sweden|IBF Falun|25|25|13|38|0
+history_rows_csv: se-25-26|playoffs|Sweden|IBF Falun|11|2|2|4|2||se-25-26|regular-season|Sweden|IBF Falun|25|25|13|38|0
 assists: 2
-games: 10
+games: 11
 goals: 2
 penalties: 1
 phase: playoffs

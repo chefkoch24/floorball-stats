@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Olli-Akseli Laine
 Category: players
 Slug: player-0ec10b109f3b75fc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 108
+rank: 112
 season: fi-25-26

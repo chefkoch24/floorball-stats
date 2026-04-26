@@ -57,7 +57,7 @@ losses: 3.0
 over_time_losses: 1.0
 over_time_wins: 0.75
 penalties: 19.75
-penalties_per_game: 1.93
+penalties_per_game: 1.92
 penalty_10: 1.5
 penalty_2: 18.25
 penalty_2and2: 0.0
@@ -70,7 +70,7 @@ penalty_shootout_wins: 0.0
 penalty_shot_goals: 0.0
 penalty_shot_goals_against: 0.0
 penalty_third_period: 8.5
-percent_goals_first_period: 27.02
+percent_goals_first_period: 27.03
 percent_goals_first_period_against: 28.6
 percent_goals_overtime: 1.26
 percent_goals_overtime_against: 2.05

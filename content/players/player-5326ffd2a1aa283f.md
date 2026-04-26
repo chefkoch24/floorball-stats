@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Pit Seifert
 Category: players
 Slug: player-5326ffd2a1aa283f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 156
+rank: 157
 season: 25-26

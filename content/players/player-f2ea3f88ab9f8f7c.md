@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jānis Jāzeps Grizāns
 Category: players
 Slug: player-f2ea3f88ab9f8f7c
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 151
+rank: 153
 season: lv-25-26

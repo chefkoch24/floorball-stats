@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Edijs Šenbergs
 Category: players
 Slug: player-d0c836aec8761db2
@@ -21,7 +21,7 @@ regular_goals: 14
 regular_assists: 13
 regular_points: 27
 regular_pim: 0
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 6
 playoff_assists: 4
 playoff_points: 10
@@ -38,11 +38,11 @@ career_points: 37
 career_pim: 0
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|6|4|10|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|25|14|13|27|0
 assists: 4
-games: 9
+games: 10
 goals: 6
 penalties: 0
 phase: playoffs
 pim: 0
 points: 10
-rank: 20
+rank: 21
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Lukas Thieme
 Category: players
 Slug: player-ca31ff575fb0e1e0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 126
+rank: 130
 season: 25-26

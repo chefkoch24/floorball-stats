@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Isak Dorell
 Category: players
 Slug: player-13b8fd8803a0de30

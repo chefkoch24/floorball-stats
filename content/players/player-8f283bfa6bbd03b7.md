@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Treneris Juris Zilberts
 Category: players
 Slug: player-8f283bfa6bbd03b7
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 215
+rank: 217
 season: lv-25-26

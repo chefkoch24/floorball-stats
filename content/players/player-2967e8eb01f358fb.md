@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Miro Haanpää
 Category: players
 Slug: player-2967e8eb01f358fb
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 107
+rank: 111
 season: fi-25-26

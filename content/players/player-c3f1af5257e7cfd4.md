@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Ben Bötschi
 Category: players
 Slug: player-c3f1af5257e7cfd4
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 6
-rank: 37
+rank: 38
 season: ch-25-26

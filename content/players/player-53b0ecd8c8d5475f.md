@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Dāvis Auziņš
 Category: players
 Slug: player-53b0ecd8c8d5475f
@@ -23,8 +23,8 @@ regular_points: 13
 regular_pim: 6
 playoff_games: 12
 playoff_goals: 0
-playoff_assists: 1
-playoff_points: 1
+playoff_assists: 2
+playoff_points: 2
 playoff_pim: 2
 previous_games: 0
 previous_goals: 0
@@ -43,6 +43,6 @@ goals: 0
 penalties: 1
 phase: playoffs
 pim: 2
-points: 1
-rank: 114
+points: 2
+rank: 97
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Pārstāvis Evelīna Kasjaņenko
 Category: players
 Slug: player-eb1ca744ea2a28e5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 179
+rank: 180
 season: lv-25-26

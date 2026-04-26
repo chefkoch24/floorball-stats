@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Tim Westenberger
 Category: players
 Slug: player-1aa13d91eb6590e3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 163
+rank: 164
 season: 25-26

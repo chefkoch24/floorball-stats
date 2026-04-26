@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matīss Kristiāns Millers
 Category: players
 Slug: player-6c16a1660f0f1aa5
@@ -25,7 +25,7 @@ playoff_games: 9
 playoff_goals: 4
 playoff_assists: 1
 playoff_points: 5
-playoff_pim: 4
+playoff_pim: 6
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -38,11 +38,11 @@ career_points: 31
 career_pim: 14
 history_rows_csv: lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|9|4|1|5|6||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|18|10|16|26|8
 assists: 1
-games: 8
+games: 9
 goals: 4
-penalties: 2
+penalties: 3
 phase: playoffs
-pim: 4
+pim: 6
 points: 5
-rank: 41
+rank: 44
 season: lv-25-26

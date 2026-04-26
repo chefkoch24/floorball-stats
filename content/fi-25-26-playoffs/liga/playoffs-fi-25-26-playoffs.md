@@ -33,7 +33,7 @@ goals_against: 34.25
 goals_against_away: 19.5
 goals_against_home: 14.75
 goals_against_in_boxplay: 3.25
-goals_against_in_boxplay_per_game: 0.35
+goals_against_in_boxplay_per_game: 0.36
 goals_against_in_powerplay: 0.75
 goals_against_per_game: 4.15
 goals_away: 17.5
@@ -70,7 +70,7 @@ penalty_shootout_wins: 0.0
 penalty_shot_goals: 0.0
 penalty_shot_goals_against: 0.0
 penalty_third_period: 4.0
-percent_goals_first_period: 32.1
+percent_goals_first_period: 32.11
 percent_goals_first_period_against: 34.85
 percent_goals_overtime: 2.76
 percent_goals_overtime_against: 2.15

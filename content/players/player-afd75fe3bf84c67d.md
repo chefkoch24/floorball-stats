@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Raphael Neidhart
 Category: players
 Slug: player-afd75fe3bf84c67d
@@ -11,7 +11,7 @@ season_count: 1
 current_season: ch-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 32
+current_games: 33
 current_goals: 1
 current_assists: 7
 current_points: 8
@@ -21,7 +21,7 @@ regular_goals: 1
 regular_assists: 3
 regular_points: 4
 regular_pim: 6
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 0
 playoff_assists: 4
 playoff_points: 4
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 1
 career_assists: 7
 career_points: 8
 career_pim: 6
-history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|10|0|4|4|0||ch-25-26|regular-season|Switzerland|Zug United|22|1|3|4|6
+history_rows_csv: ch-25-26|playoffs|Switzerland|Zug United|11|0|4|4|0||ch-25-26|regular-season|Switzerland|Zug United|22|1|3|4|6
 assists: 4
-games: 10
+games: 11
 goals: 0
 penalties: 0
 phase: playoffs

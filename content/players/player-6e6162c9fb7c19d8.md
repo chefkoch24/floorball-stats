@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Carl Kostov Bredberg
 Category: players
 Slug: player-6e6162c9fb7c19d8
@@ -11,7 +11,7 @@ season_count: 1
 current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 31
+current_games: 32
 current_goals: 12
 current_assists: 7
 current_points: 19
@@ -21,7 +21,7 @@ regular_goals: 6
 regular_assists: 7
 regular_points: 13
 regular_pim: 4
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 6
 playoff_assists: 0
 playoff_points: 6
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 32
 career_goals: 12
 career_assists: 7
 career_points: 19
 career_pim: 12
-history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|9|6|0|6|8||se-25-26|regular-season|Sweden|Storvreta IBK|22|6|7|13|4
+history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|10|6|0|6|8||se-25-26|regular-season|Sweden|Storvreta IBK|22|6|7|13|4
 assists: 0
-games: 9
+games: 10
 goals: 6
 penalties: 4
 phase: playoffs
 pim: 8
 points: 6
-rank: 25
+rank: 26
 season: se-25-26

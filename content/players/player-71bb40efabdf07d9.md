@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jesaja Hummel
 Category: players
 Slug: player-71bb40efabdf07d9
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 52
+rank: 56
 season: 25-26

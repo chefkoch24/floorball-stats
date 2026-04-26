@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Martin Fuchsig
 Category: players
 Slug: player-7defe66bb489633c
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 24
+current_games: 5
 current_goals: 5
 current_assists: 1
 current_points: 6
 current_pim: 0
-regular_games: 24
+regular_games: 5
 regular_goals: 5
 regular_assists: 1
 regular_points: 6
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 5
 career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 0
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|24|5|1|6|0
+history_rows_csv: cz-25-26|regular-season|Czech Republic|Florbal Ústí|5|5|1|6|0
 assists: 1
-games: 24
+games: 5
 goals: 5
 penalties: 0
 phase: regular-season

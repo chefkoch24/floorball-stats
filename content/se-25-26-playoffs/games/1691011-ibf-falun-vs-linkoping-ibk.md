@@ -6,7 +6,7 @@ type: game
 game_id: 1691011
 home_team: IBF Falun
 away_team: Linköping IBK
-attendance: 2133.0
+attendance: 2133
 away_goal_diffs_csv: 0,-1,1
 away_goal_minutes_csv: 13.2,27.98,57.43
 away_major_penalty_minutes_csv: 20.0
@@ -313,6 +313,7 @@ home_pregame_points_after_second_period: 15
 home_pregame_points_after_third_period: 13
 home_pregame_points_against_linkoping_ibk: 12
 home_pregame_points_against_pixbo_ibk: 13
+home_pregame_points_against_storvreta_ibk: 0
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 12
 home_pregame_points_per_game: 2.6

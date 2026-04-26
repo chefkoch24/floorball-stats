@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Oliver Chochol
 Category: players
 Slug: player-ac2ea7137a2cfaf4
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 4
-rank: 49
+rank: 50
 season: sk-25-26

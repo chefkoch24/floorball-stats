@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jonathan Nilsson
 Category: players
 Slug: player-0181cfb5afea59ab
@@ -23,8 +23,8 @@ regular_points: 29
 regular_pim: 5
 playoff_games: 9
 playoff_goals: 1
-playoff_assists: 2
-playoff_points: 3
+playoff_assists: 3
+playoff_points: 4
 playoff_pim: 6
 previous_games: 0
 previous_goals: 0

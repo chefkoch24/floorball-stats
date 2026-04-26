@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Václav Bajko
 Category: players
 Slug: player-855da22176c1bab5
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 31
+current_games: 9
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 10
-regular_games: 31
+regular_games: 9
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 9
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 10
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|31|2|2|4|10
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|9|2|2|4|10
 assists: 2
-games: 31
+games: 9
 goals: 2
 penalties: 5
 phase: regular-season

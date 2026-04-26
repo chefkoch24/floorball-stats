@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Pārstāvis Sandis Kārkliņš
 Category: players
 Slug: player-ebddac0c7748fd05
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 196
+rank: 199
 season: lv-25-26

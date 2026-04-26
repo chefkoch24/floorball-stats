@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Tadeáš Gryc
 Category: players
 Slug: player-b4da01a8873cdd04
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 33
+current_games: 17
 current_goals: 9
 current_assists: 8
 current_points: 17
 current_pim: 4
-regular_games: 33
+regular_games: 17
 regular_goals: 9
 regular_assists: 8
 regular_points: 17
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 33
+career_games: 17
 career_goals: 9
 career_assists: 8
 career_points: 17
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|9|8|17|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|17|9|8|17|4
 assists: 8
-games: 33
+games: 17
 goals: 9
 penalties: 2
 phase: regular-season

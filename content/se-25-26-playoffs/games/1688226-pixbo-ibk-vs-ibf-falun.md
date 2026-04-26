@@ -6,7 +6,7 @@ type: game
 game_id: 1688226
 home_team: Pixbo IBK
 away_team: IBF Falun
-attendance: 923.0
+attendance: 923
 away_goal_diffs_csv: -1,-2,-3
 away_goal_minutes_csv: 20.67,23.42,34.4
 away_major_penalty_minutes_csv: 
@@ -411,6 +411,7 @@ away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 1
 away_pregame_points_against_linkoping_ibk: 12
 away_pregame_points_against_pixbo_ibk: 13
+away_pregame_points_against_storvreta_ibk: 0
 away_pregame_points_max_difference_2: 1
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 1.0

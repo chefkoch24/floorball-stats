@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Victor Hansson
 Category: players
 Slug: player-908a9acc7fc5366a
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 5
-rank: 34
+rank: 36
 season: se-25-26

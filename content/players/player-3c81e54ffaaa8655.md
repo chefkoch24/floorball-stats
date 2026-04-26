@@ -1,9 +1,9 @@
-Date: 2026-04-20
-Title: Samuel Olexa
+Date: 2026-04-26
+Title: Samuel OLEXA
 Category: players
 Slug: player-3c81e54ffaaa8655
 type: player
-player: Samuel Olexa
+player: Samuel OLEXA
 player_uid: player-3c81e54ffaaa8655
 team: Florbal Ústí
 league: Czech Republic
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 419
+rank: 314
 season: cz-25-26

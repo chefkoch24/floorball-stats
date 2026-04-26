@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Anton Klinth
 Category: players
 Slug: player-1bce27faf53856ed

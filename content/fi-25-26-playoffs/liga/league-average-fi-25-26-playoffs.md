@@ -4,6 +4,7 @@ Category: fi-25-26-playoffs, liga
 Slug: league-average-fi-25-26-playoffs
 type: liga
 team: League Average
+playoff_rounds_json: [{"name":"Quarter-finals","teams":8,"series_type":"best-of-7","wins_to_advance":4},{"name":"Semi-finals","teams":4,"series_type":"best-of-7","wins_to_advance":4},{"name":"Final","teams":2,"series_type":"best-of-7","wins_to_advance":4}]
 away_points: 3.1
 boxplay: 8.7
 boxplay_efficiency: 64.99

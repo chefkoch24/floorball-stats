@@ -1,9 +1,9 @@
-Date: 2026-04-20
-Title: Vojtěch Doleček
+Date: 2026-04-26
+Title: Vojtěch DOLEČEK
 Category: players
 Slug: player-99ddfda66624fde6
 type: player
-player: Vojtěch Doleček
+player: Vojtěch DOLEČEK
 player_uid: player-99ddfda66624fde6
 team: TJ Sokol Královské Vinohrady
 league: Czech Republic
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 11
+regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|11|0|0|0|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|1|0|0|0|2
 assists: 0
-games: 11
+games: 1
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 431
+rank: 316
 season: cz-25-26

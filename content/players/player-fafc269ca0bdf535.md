@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Linards Putniņš
 Category: players
 Slug: player-fafc269ca0bdf535
@@ -38,11 +38,11 @@ career_points: 25
 career_pim: 8
 history_rows_csv: lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|2|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|10|10|20|4
 assists: 2
-games: 11
+games: 12
 goals: 3
 penalties: 2
 phase: playoffs
 pim: 4
 points: 5
-rank: 42
+rank: 45
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Toms Akmeņlauks
 Category: players
 Slug: player-8b0d1e62c0f5fedd
@@ -23,8 +23,8 @@ regular_points: 48
 regular_pim: 14
 playoff_games: 12
 playoff_goals: 3
-playoff_assists: 4
-playoff_points: 7
+playoff_assists: 5
+playoff_points: 8
 playoff_pim: 4
 previous_games: 7
 previous_goals: 0
@@ -43,6 +43,6 @@ goals: 3
 penalties: 2
 phase: playoffs
 pim: 4
-points: 7
-rank: 29
+points: 8
+rank: 31
 season: lv-25-26

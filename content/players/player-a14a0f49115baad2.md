@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Paul Neubert
 Category: players
 Slug: player-a14a0f49115baad2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 153
+rank: 154
 season: 25-26

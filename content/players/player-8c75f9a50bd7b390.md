@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Lukas Eldholm
 Category: players
 Slug: player-8c75f9a50bd7b390
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 6
-rank: 26
+rank: 27
 season: se-25-26

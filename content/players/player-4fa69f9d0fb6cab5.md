@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Deny Känzig
 Category: players
 Slug: player-4fa69f9d0fb6cab5
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 24
+rank: 26
 season: ch-25-26

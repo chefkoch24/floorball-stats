@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Mārtiņš Muižnieks
 Category: players
 Slug: player-2c2b6ee035a4648e
@@ -24,7 +24,7 @@ regular_pim: 4
 playoff_games: 15
 playoff_goals: 1
 playoff_assists: 0
-playoff_points: 0
+playoff_points: 1
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -38,11 +38,11 @@ career_points: 7
 career_pim: 4
 history_rows_csv: lv-25-26|playoffs|Latvia|Lekrings|15|1|0|1|0||lv-25-26|regular-season|Latvia|Lekrings|17|4|2|6|4
 assists: 0
-games: 14
-goals: 0
+games: 15
+goals: 1
 penalties: 0
 phase: playoffs
 pim: 0
-points: 0
-rank: 167
+points: 1
+rank: 109
 season: lv-25-26

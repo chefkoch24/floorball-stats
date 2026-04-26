@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jakub Klobučník
 Category: players
 Slug: player-c13bbf129c854ccd
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 134
+rank: 133
 season: sk-25-26

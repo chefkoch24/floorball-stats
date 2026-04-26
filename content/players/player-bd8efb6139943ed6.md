@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matěj Horák
 Category: players
 Slug: player-bd8efb6139943ed6
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 31
+current_games: 8
 current_goals: 4
 current_assists: 4
 current_points: 8
 current_pim: 2
-regular_games: 31
+regular_games: 8
 regular_goals: 4
 regular_assists: 4
 regular_points: 8
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 8
 career_goals: 4
 career_assists: 4
 career_points: 8
 career_pim: 2
-history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|31|4|4|8|2
+history_rows_csv: cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|8|4|4|8|2
 assists: 4
-games: 31
+games: 8
 goals: 4
 penalties: 1
 phase: regular-season

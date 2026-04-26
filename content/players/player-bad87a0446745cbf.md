@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Matěj Klímek
 Category: players
 Slug: player-bad87a0446745cbf
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 31
+current_games: 12
 current_goals: 5
 current_assists: 9
 current_points: 14
 current_pim: 4
-regular_games: 31
+regular_games: 12
 regular_goals: 5
 regular_assists: 9
 regular_points: 14
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 31
+career_games: 12
 career_goals: 5
 career_assists: 9
 career_points: 14
 career_pim: 4
-history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|31|5|9|14|4
+history_rows_csv: cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|12|5|9|14|4
 assists: 9
-games: 31
+games: 12
 goals: 5
 penalties: 2
 phase: regular-season

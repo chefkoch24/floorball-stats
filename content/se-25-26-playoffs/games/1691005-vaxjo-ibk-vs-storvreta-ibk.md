@@ -6,7 +6,7 @@ type: game
 game_id: 1691005
 home_team: Växjö IBK
 away_team: Storvreta IBK
-attendance: 1128.0
+attendance: 1128
 away_goal_diffs_csv: 1,3,2
 away_goal_minutes_csv: 13.77,47.63,50.32
 away_major_penalty_minutes_csv: 
@@ -410,6 +410,7 @@ away_pregame_points_after_first_period: 11
 away_pregame_points_after_first_period_per_game: 2.2
 away_pregame_points_after_second_period: 13
 away_pregame_points_after_third_period: 13
+away_pregame_points_against_ibf_falun: 3
 away_pregame_points_against_nykvarns_ibf: 12
 away_pregame_points_against_vaxjo_ibk: 11
 away_pregame_points_max_difference_2: 2

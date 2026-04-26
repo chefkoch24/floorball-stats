@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Lukáš Laštík
 Category: players
 Slug: player-a85729efa3c2ca8f
@@ -25,7 +25,7 @@ playoff_games: 1
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 0
+playoff_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

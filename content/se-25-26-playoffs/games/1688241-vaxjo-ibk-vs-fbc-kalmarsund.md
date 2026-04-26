@@ -6,7 +6,7 @@ type: game
 game_id: 1688241
 home_team: Växjö IBK
 away_team: FBC Kalmarsund
-attendance: 1102.0
+attendance: 1102
 away_goal_diffs_csv: -1,-1,0,1
 away_goal_minutes_csv: 0.77,16.08,35.42,59.85
 away_major_penalty_minutes_csv: 

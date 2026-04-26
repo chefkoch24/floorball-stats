@@ -1,4 +1,4 @@
-Date: 2026-04-20
+Date: 2026-04-26
 Title: Jakob Caspar Schnaithmann
 Category: players
 Slug: player-93d0beaf2f3f6c99
