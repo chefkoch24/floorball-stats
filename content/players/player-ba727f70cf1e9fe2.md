@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Martin Kupec
 Category: players
 Slug: player-ba727f70cf1e9fe2

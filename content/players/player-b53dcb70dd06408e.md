@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Paul Dall
 Category: players
 Slug: player-b53dcb70dd06408e

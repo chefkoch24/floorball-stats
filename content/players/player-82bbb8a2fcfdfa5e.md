@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Daniel Hulič
 Category: players
 Slug: player-82bbb8a2fcfdfa5e

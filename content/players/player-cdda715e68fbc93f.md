@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Jasper Auvinen
 Category: players
 Slug: player-cdda715e68fbc93f

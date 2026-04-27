@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Lassi Tuhkanen
 Category: players
 Slug: player-f3465bddcb445bfb

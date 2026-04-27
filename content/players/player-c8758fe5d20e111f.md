@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Aron Roselli
 Category: players
 Slug: player-c8758fe5d20e111f

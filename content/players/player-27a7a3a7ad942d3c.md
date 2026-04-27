@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Martin Sindelar
 Category: players
 Slug: player-27a7a3a7ad942d3c

@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Tadeáš Dittrich
 Category: players
 Slug: player-15cff1ddafd6ae79

@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Dario Kälin
 Category: players
 Slug: player-da1660f24a7460aa

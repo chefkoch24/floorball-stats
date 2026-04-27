@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Rasmus Bolander
 Category: players
 Slug: player-65acd2ea3a1e0c92

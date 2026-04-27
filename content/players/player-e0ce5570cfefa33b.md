@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Arvis Kalniņš
 Category: players
 Slug: player-e0ce5570cfefa33b

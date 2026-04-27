@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Lukáš Kubíček
 Category: players
 Slug: player-8370c2cf6a2dc069

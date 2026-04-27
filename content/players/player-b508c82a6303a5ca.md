@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Jozef Frivaldský
 Category: players
 Slug: player-b508c82a6303a5ca

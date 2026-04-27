@@ -1,4 +1,4 @@
-Date: 2026-04-26
+Date: 2026-04-27
 Title: Akseli Pöyhtäri
 Category: players
 Slug: player-35ca28bc89f9ef4e
