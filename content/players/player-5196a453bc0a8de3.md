@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Šimon Jandák
 Category: players
 Slug: player-5196a453bc0a8de3

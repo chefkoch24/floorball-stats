@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Lukáš Fukala
 Category: players
 Slug: player-651d32d73e6af4cc

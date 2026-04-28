@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Markus Sipronen
 Category: players
 Slug: player-e052887aeae5deab

@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Eetu Loponen
 Category: players
 Slug: player-97fe4fe9d562d7c5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 119
+rank: 120
 season: fi-25-26

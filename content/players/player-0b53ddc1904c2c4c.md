@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Timon Stäubli
 Category: players
 Slug: player-0b53ddc1904c2c4c

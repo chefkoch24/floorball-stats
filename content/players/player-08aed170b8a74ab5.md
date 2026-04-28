@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Ralfs Fricsons
 Category: players
 Slug: player-08aed170b8a74ab5

@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Yoram Wolbold
 Category: players
 Slug: player-bda0cea38aac42e0

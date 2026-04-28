@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Morics Krumins
 Category: players
 Slug: player-af2862908b5b7db3

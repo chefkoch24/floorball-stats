@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Adam Delong
 Category: players
 Slug: player-75d12ea5e3d1125b

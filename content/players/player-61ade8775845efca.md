@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Valters Kasjaņenko
 Category: players
 Slug: player-61ade8775845efca

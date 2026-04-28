@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Ondřej Trčka
 Category: players
 Slug: player-2aeb5887e2cae869

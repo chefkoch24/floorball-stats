@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Ivan Janík
 Category: players
 Slug: player-f59a8b6da2af311f

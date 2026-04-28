@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Regnārs Zukuls
 Category: players
 Slug: player-5546e6bb0d63f89f

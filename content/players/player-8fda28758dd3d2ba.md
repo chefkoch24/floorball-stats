@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Alvar Alanne
 Category: players
 Slug: player-8fda28758dd3d2ba
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 103
+rank: 105
 season: fi-25-26

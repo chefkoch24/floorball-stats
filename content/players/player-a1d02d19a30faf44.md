@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: René Slezák
 Category: players
 Slug: player-a1d02d19a30faf44

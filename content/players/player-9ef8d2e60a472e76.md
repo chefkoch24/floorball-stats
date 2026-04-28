@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Michal Sládek
 Category: players
 Slug: player-9ef8d2e60a472e76

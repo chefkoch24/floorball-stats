@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Treneris Normunds Grunckis
 Category: players
 Slug: player-9b8c4050fb25ed19

@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Kim Varga Rosello
 Category: players
 Slug: player-4f55a936b4eef69a

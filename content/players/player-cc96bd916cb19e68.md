@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Elias Haataja
 Category: players
 Slug: player-cc96bd916cb19e68
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 88
+rank: 89
 season: fi-25-26

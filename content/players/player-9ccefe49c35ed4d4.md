@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Daniel Widurski
 Category: players
 Slug: player-9ccefe49c35ed4d4

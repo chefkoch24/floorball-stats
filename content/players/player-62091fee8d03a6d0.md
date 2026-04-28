@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Pārstāvis Ivars Jēkabsons
 Category: players
 Slug: player-62091fee8d03a6d0

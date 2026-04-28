@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Jānis Plāte
 Category: players
 Slug: player-910840bd2eae5d05

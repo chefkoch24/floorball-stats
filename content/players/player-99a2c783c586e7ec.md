@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Kaspars Klamers
 Category: players
 Slug: player-99a2c783c586e7ec

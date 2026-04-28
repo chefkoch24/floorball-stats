@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Filip Karlsson
 Category: players
 Slug: player-2cf8eecdd0b072f4

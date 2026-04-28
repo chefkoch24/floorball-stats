@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Janis Graf
 Category: players
 Slug: player-ae69f068383fc43a

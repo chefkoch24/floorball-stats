@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Andreas Beckius
 Category: players
 Slug: player-f0a75d226b076d7d

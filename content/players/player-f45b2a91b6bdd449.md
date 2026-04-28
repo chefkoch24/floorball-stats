@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Emanuele Pasotti
 Category: players
 Slug: player-f45b2a91b6bdd449

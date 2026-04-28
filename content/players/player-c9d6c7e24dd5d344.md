@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Artūrs Bergs
 Category: players
 Slug: player-c9d6c7e24dd5d344

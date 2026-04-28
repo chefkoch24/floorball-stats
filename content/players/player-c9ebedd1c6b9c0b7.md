@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Iiro Rantaniemi
 Category: players
 Slug: player-c9ebedd1c6b9c0b7
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 121
+rank: 122
 season: fi-25-26

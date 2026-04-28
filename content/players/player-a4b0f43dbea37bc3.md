@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Kristián Ctirad ŠROLL
 Category: players
 Slug: player-a4b0f43dbea37bc3

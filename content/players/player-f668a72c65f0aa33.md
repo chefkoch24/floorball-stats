@@ -1,4 +1,4 @@
-Date: 2026-04-27
+Date: 2026-04-28
 Title: Jere Mattila
 Category: players
 Slug: player-f668a72c65f0aa33
