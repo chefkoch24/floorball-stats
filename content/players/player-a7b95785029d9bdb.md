@@ -1,4 +1,4 @@
-Date: 2026-04-28
+Date: 2026-04-30
 Title: Jonathan Blomqvist
 Category: players
 Slug: player-a7b95785029d9bdb

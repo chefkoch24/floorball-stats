@@ -1,4 +1,4 @@
-Date: 2026-04-28
+Date: 2026-04-30
 Title: Jan Hruška
 Category: players
 Slug: player-b6d9592feddcf480

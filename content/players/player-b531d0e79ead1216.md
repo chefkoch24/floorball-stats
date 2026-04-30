@@ -1,4 +1,4 @@
-Date: 2026-04-28
+Date: 2026-04-30
 Title: Gusts Jurēvics
 Category: players
 Slug: player-b531d0e79ead1216
