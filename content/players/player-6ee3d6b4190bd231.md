@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Stefan Hutzli
 Category: players
 Slug: player-6ee3d6b4190bd231

@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Kārlis Spilbergs
 Category: players
 Slug: player-588e32d9c68de3f6

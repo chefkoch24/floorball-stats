@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Albert Haasz
 Category: players
 Slug: player-6a71ab5be9aff71d

@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Patrick Mahoney
 Category: players
 Slug: player-a7246eb8e44c273b

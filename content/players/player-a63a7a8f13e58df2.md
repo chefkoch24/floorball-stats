@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Teddy Hultberg
 Category: players
 Slug: player-a63a7a8f13e58df2

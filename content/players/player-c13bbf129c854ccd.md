@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Jakub Klobučník
 Category: players
 Slug: player-c13bbf129c854ccd

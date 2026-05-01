@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Finland Player Stats 25/26 Regular Season
 Category: fi-25-26-regular-season-players
 Slug: fi-25-26-regular-season-players

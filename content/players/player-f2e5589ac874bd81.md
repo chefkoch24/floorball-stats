@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Treneris Agris Grandovskis
 Category: players
 Slug: player-f2e5589ac874bd81

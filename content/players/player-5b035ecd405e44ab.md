@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Julius-Emil Huppunen
 Category: players
 Slug: player-5b035ecd405e44ab
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 93
+rank: 95
 season: fi-25-26

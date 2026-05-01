@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Teemu Karppanen
 Category: players
 Slug: player-962aad18b33c7aff
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 10
-rank: 19
+rank: 20
 season: fi-25-26

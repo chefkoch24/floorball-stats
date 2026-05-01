@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Eemeli Salin
 Category: players
 Slug: player-40010fd267fa5b8f
@@ -11,38 +11,38 @@ season_count: 2
 current_season: fi-25-26
 current_season_is_tournament: no
 previous_season: wfc-2024
-current_games: 30
-current_goals: 38
+current_games: 31
+current_goals: 39
 current_assists: 22
-current_points: 60
+current_points: 61
 current_pim: 2
 regular_games: 22
 regular_goals: 30
 regular_assists: 19
 regular_points: 49
 regular_pim: 2
-playoff_games: 8
-playoff_goals: 8
+playoff_games: 9
+playoff_goals: 9
 playoff_assists: 3
-playoff_points: 11
+playoff_points: 12
 playoff_pim: 0
 previous_games: 6
 previous_goals: 2
 previous_assists: 2
 previous_points: 4
 previous_pim: 0
-career_games: 36
-career_goals: 40
+career_games: 37
+career_goals: 41
 career_assists: 24
-career_points: 64
+career_points: 65
 career_pim: 2
-history_rows_csv: fi-25-26|playoffs|Finland|Classic|8|8|3|11|0||fi-25-26|regular-season|Finland|Classic|22|30|19|49|2||wfc-2024|tournament|IFF WFC|Finland|6|2|2|4|0
+history_rows_csv: fi-25-26|playoffs|Finland|Classic|9|9|3|12|0||fi-25-26|regular-season|Finland|Classic|22|30|19|49|2||wfc-2024|tournament|IFF WFC|Finland|6|2|2|4|0
 assists: 3
-games: 8
-goals: 8
+games: 9
+goals: 9
 penalties: 0
 phase: playoffs
 pim: 0
-points: 11
+points: 12
 rank: 14
 season: fi-25-26

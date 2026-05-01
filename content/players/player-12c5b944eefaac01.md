@@ -1,4 +1,4 @@
-Date: 2026-04-30
+Date: 2026-05-01
 Title: Daniel Hoth
 Category: players
 Slug: player-12c5b944eefaac01
