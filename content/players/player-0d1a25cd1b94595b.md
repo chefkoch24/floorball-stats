@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Emīls Reinis Rudzītis
 Category: players
 Slug: player-0d1a25cd1b94595b

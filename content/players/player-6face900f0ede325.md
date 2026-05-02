@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Nils Boman
 Category: players
 Slug: player-6face900f0ede325

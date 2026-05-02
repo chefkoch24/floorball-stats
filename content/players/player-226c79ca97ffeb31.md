@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Richard Lelák
 Category: players
 Slug: player-226c79ca97ffeb31

@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Petri Niemelä
 Category: players
 Slug: player-1e2c225ff81b46ec

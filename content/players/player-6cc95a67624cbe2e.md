@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Kim Eberle
 Category: players
 Slug: player-6cc95a67624cbe2e

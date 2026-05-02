@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Lukas Genhart
 Category: players
 Slug: player-59be8764228f2cab

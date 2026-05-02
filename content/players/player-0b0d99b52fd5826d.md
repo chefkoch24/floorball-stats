@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Daniel Peterson
 Category: players
 Slug: player-0b0d99b52fd5826d
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 103
+rank: 104
 season: 25-26

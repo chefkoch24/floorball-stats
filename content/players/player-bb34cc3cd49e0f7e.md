@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Pārstāvis Ralfs Orste
 Category: players
 Slug: player-bb34cc3cd49e0f7e

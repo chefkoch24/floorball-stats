@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Daniel Kellermann
 Category: players
 Slug: player-e60f2a0e0144dda4
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 102
+rank: 103
 season: 25-26

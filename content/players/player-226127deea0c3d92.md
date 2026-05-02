@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Rūdolfs Dilbergs
 Category: players
 Slug: player-226127deea0c3d92

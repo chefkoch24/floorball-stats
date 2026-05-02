@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Lukáš SLEZÁK
 Category: players
 Slug: player-dd6b3f94cebccf6d

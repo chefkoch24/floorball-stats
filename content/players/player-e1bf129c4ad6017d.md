@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Tomas Novotny
 Category: players
 Slug: player-e1bf129c4ad6017d

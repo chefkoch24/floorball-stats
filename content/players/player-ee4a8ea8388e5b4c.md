@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Conrad Lehwalder
 Category: players
 Slug: player-ee4a8ea8388e5b4c
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 100
+rank: 101
 season: 25-26

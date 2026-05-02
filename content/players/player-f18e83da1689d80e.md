@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Jesper Eliasson
 Category: players
 Slug: player-f18e83da1689d80e

@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Kastler Denis
 Category: players
 Slug: player-6de31ae2a714650d

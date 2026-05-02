@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Gustav Ringhagen
 Category: players
 Slug: player-85e3b8f00aae99fc

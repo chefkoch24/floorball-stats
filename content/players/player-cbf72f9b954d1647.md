@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Daniel Gartner
 Category: players
 Slug: player-cbf72f9b954d1647

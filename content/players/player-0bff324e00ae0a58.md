@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Liam Juhlin
 Category: players
 Slug: player-0bff324e00ae0a58

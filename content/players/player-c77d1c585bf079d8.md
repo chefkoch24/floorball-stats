@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Domenick Rotgang
 Category: players
 Slug: player-c77d1c585bf079d8

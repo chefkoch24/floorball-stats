@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Franz Dietrich
 Category: players
 Slug: player-2a19a8c2e2e2ed8e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 111
+rank: 112
 season: 25-26

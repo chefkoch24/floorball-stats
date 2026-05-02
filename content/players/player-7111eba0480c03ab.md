@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Mikael Kiukkonen
 Category: players
 Slug: player-7111eba0480c03ab
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 54
+rank: 55
 season: 25-26

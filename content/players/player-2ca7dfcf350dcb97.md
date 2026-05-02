@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Roberts Romanovs
 Category: players
 Slug: player-2ca7dfcf350dcb97

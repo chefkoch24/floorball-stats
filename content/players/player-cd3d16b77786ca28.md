@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Lacko Ján
 Category: players
 Slug: player-cd3d16b77786ca28

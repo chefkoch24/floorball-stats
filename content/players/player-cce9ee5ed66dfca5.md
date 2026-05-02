@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Jannik Nitsche
 Category: players
 Slug: player-cce9ee5ed66dfca5
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 25
+current_games: 26
 current_goals: 3
 current_assists: 3
 current_points: 6
@@ -21,7 +21,7 @@ regular_goals: 3
 regular_assists: 2
 regular_points: 5
 regular_pim: 2
-playoff_games: 7
+playoff_games: 8
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 26
 career_goals: 3
 career_assists: 3
 career_points: 6
 career_pim: 4
-history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|7|0|1|1|2||25-26|regular-season|Germany|SC DHfK Leipzig|18|3|2|5|2
+history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|8|0|1|1|2||25-26|regular-season|Germany|SC DHfK Leipzig|18|3|2|5|2
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 88
+rank: 89
 season: 25-26

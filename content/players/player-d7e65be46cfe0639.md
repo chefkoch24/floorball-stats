@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Mats Michel Dose
 Category: players
 Slug: player-d7e65be46cfe0639
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 24
+current_games: 25
 current_goals: 3
 current_assists: 2
 current_points: 5
@@ -21,7 +21,7 @@ regular_goals: 2
 regular_assists: 1
 regular_points: 3
 regular_pim: 4
-playoff_games: 7
+playoff_games: 8
 playoff_goals: 1
 playoff_assists: 1
 playoff_points: 2
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 25
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 4
-history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|7|1|1|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|17|2|1|3|4
+history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|1|1|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|17|2|1|3|4
 assists: 1
-games: 7
+games: 8
 goals: 1
 penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 62
+rank: 64
 season: 25-26

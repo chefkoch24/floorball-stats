@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Everts Janušauskis
 Category: players
 Slug: player-1382fcbb1cff6e29

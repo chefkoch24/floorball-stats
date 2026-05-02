@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Jakob Bohls
 Category: players
 Slug: player-6676addfba9e3a8f
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 25
+current_games: 26
 current_goals: 5
 current_assists: 6
 current_points: 11
@@ -21,7 +21,7 @@ regular_goals: 3
 regular_assists: 5
 regular_points: 8
 regular_pim: 10
-playoff_games: 7
+playoff_games: 8
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 26
 career_goals: 5
 career_assists: 6
 career_points: 11
 career_pim: 14
-history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|7|2|1|3|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|18|3|5|8|10
+history_rows_csv: 25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|2|1|3|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|18|3|5|8|10
 assists: 1
-games: 7
+games: 8
 goals: 2
 penalties: 2
 phase: playoffs
 pim: 4
 points: 3
-rank: 41
+rank: 45
 season: 25-26

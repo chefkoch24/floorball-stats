@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Pavol Masár
 Category: players
 Slug: player-8148bf7f60af22d4

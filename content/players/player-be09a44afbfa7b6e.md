@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Marek Šmíd
 Category: players
 Slug: player-be09a44afbfa7b6e

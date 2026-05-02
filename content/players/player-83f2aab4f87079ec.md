@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Tomáš Jurica
 Category: players
 Slug: player-83f2aab4f87079ec

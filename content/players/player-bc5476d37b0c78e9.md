@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Jussi Hakala
 Category: players
 Slug: player-bc5476d37b0c78e9
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 26
+current_games: 27
 current_goals: 29
 current_assists: 4
 current_points: 33
@@ -21,7 +21,7 @@ regular_goals: 22
 regular_assists: 3
 regular_points: 25
 regular_pim: 4
-playoff_games: 7
+playoff_games: 8
 playoff_goals: 7
 playoff_assists: 1
 playoff_points: 8
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 26
+career_games: 27
 career_goals: 29
 career_assists: 4
 career_points: 33
 career_pim: 8
-history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|7|7|1|8|4||25-26|regular-season|Germany|SC DHfK Leipzig|19|22|3|25|4
+history_rows_csv: 25-26|playoffs|Germany|SC DHfK Leipzig|8|7|1|8|4||25-26|regular-season|Germany|SC DHfK Leipzig|19|22|3|25|4
 assists: 1
-games: 7
+games: 8
 goals: 7
 penalties: 2
 phase: playoffs
 pim: 4
 points: 8
-rank: 8
+rank: 12
 season: 25-26

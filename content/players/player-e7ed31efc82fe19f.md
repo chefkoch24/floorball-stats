@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Markuss Nikolajs Trofimovs )
 Category: players
 Slug: player-e7ed31efc82fe19f

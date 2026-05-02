@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Erik Peter Gavlák
 Category: players
 Slug: player-ef56d268cb69cb4b

@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Olli Vikman
 Category: players
 Slug: player-7603f7dbefc662fc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 38
+rank: 42
 season: 25-26

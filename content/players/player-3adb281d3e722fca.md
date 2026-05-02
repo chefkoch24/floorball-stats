@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Emīls Censonis
 Category: players
 Slug: player-3adb281d3e722fca

@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Filip Lukaszewski
 Category: players
 Slug: player-fe61279409abaccd

@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: John Pettersson
 Category: players
 Slug: player-1422b13f1df6accb

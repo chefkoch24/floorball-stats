@@ -1,4 +1,4 @@
-Date: 2026-05-01
+Date: 2026-05-02
 Title: Lukas Blom
 Category: players
 Slug: player-8eef41223479abf4
