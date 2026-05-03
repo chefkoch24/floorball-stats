@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Anton Svanberg
 Category: players
 Slug: player-c38559c94dcc7eea

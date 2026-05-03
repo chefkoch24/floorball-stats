@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: David Slončík
 Category: players
 Slug: player-29633d67ed94beaa

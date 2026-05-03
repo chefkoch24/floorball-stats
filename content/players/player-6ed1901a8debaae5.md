@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Axel Telkki
 Category: players
 Slug: player-6ed1901a8debaae5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 67
+rank: 68
 season: fi-25-26

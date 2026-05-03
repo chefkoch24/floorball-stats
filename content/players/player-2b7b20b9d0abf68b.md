@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Tobias Studer
 Category: players
 Slug: player-2b7b20b9d0abf68b

@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Tuomas Huhtala
 Category: players
 Slug: player-f3654a5ccef6c78a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 55
+rank: 56
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Jesaja Hummel
 Category: players
 Slug: player-71bb40efabdf07d9

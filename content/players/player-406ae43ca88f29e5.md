@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Matěj Šmerda
 Category: players
 Slug: player-406ae43ca88f29e5

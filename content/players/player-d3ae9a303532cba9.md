@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Aldis Banders
 Category: players
 Slug: player-d3ae9a303532cba9

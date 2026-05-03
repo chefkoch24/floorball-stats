@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Daniel Peterson
 Category: players
 Slug: player-0b0d99b52fd5826d

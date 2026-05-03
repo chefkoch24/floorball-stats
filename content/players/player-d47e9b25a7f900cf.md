@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Viktor Macinský
 Category: players
 Slug: player-d47e9b25a7f900cf

@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Leevi Auranen
 Category: players
 Slug: player-c978fb6afebd1737
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 43
+rank: 45
 season: fi-25-26

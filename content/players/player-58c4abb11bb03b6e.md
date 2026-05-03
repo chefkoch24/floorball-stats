@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Michal Fišera
 Category: players
 Slug: player-58c4abb11bb03b6e

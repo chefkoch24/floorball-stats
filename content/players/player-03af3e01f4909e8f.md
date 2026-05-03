@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Tomáš Púpala
 Category: players
 Slug: player-03af3e01f4909e8f

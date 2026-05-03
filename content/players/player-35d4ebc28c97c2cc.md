@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Aleksi Hono
 Category: players
 Slug: player-35d4ebc28c97c2cc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 85
+rank: 86
 season: fi-25-26

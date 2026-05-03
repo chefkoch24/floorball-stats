@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Toms Akmeņlauks
 Category: players
 Slug: player-8b0d1e62c0f5fedd

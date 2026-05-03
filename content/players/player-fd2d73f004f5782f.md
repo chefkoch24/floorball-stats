@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Adam Draslar
 Category: players
 Slug: player-fd2d73f004f5782f

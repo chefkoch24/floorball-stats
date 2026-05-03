@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Patrik Schoultze
 Category: players
 Slug: player-85c1ead09a35732d

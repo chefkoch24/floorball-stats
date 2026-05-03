@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Martin Svatoň
 Category: players
 Slug: player-ed2f2a9283a807b4

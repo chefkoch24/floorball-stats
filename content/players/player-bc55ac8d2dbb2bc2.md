@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Olli Wikstedt
 Category: players
 Slug: player-bc55ac8d2dbb2bc2
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 4
-rank: 60
+rank: 62
 season: fi-25-26

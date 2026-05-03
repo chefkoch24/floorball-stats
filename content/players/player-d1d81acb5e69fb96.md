@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Vilgot Kronstrand
 Category: players
 Slug: player-d1d81acb5e69fb96

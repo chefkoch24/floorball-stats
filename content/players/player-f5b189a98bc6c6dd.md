@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Jakub Fronc
 Category: players
 Slug: player-f5b189a98bc6c6dd

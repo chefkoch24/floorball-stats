@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Niko Einiö
 Category: players
 Slug: player-fa0d728c64584a3c
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 10
-rank: 18
+rank: 19
 season: fi-25-26

@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Emīls Krūmiņš
 Category: players
 Slug: player-8d30e9d5f0ad3fe1

@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Samuel Suutari
 Category: players
 Slug: player-da57107fd9ae9168
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 64
+rank: 65
 season: fi-25-26

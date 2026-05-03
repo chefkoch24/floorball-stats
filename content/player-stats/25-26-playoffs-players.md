@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Germany Player Stats 25-26 Playoffs
 Category: 25-26-playoffs-players
 Slug: 25-26-playoffs-players

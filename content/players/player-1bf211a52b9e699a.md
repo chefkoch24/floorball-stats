@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Mikuláš Krbec
 Category: players
 Slug: player-1bf211a52b9e699a

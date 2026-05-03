@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Jesperi Lindfors
 Category: players
 Slug: player-3fef114db401c9bc
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 83
+rank: 84
 season: fi-25-26

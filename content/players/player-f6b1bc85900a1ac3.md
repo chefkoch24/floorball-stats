@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Kaššák Adam
 Category: players
 Slug: player-f6b1bc85900a1ac3

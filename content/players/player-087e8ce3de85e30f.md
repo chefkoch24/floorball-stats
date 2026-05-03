@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-03
 Title: Peter Kotilainen
 Category: players
 Slug: player-087e8ce3de85e30f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 41
+rank: 43
 season: fi-25-26
