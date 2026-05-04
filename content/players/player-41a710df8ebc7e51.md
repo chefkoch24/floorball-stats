@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: (FBK Valmiera) bumbiņa savos vārtos
 Category: players
 Slug: player-41a710df8ebc7e51

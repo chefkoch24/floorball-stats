@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-31
 Title: UHC Sparkasse Weißenfels
 Category: 25-26-playoffs, teams
 Slug: uhc-sparkasse-weissenfels-25-26-playoffs-25-26-playoffs

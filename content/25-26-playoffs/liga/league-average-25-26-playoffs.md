@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-31
 Title: League Average
 Category: 25-26-playoffs, liga
 Slug: league-average-25-26-playoffs

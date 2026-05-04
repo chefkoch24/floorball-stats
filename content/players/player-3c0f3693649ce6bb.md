@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Daniel Baránek
 Category: players
 Slug: player-3c0f3693649ce6bb

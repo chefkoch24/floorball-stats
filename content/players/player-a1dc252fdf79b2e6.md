@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: David Dürler
 Category: players
 Slug: player-a1dc252fdf79b2e6

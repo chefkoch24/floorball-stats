@@ -1,4 +1,4 @@
-Date: 2026-05-02
+Date: 2026-05-31
 Title: SSF Dragons Bonn
 Category: 25-26-playoffs, teams
 Slug: ssf-dragons-bonn-25-26-playoffs-25-26-playoffs

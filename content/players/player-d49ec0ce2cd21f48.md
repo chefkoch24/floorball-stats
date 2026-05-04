@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Niclas Schreitz
 Category: players
 Slug: player-d49ec0ce2cd21f48

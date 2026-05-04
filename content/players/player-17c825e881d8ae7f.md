@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Miika Latvala
 Category: players
 Slug: player-17c825e881d8ae7f

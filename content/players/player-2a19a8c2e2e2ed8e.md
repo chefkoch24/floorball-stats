@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Franz Dietrich
 Category: players
 Slug: player-2a19a8c2e2e2ed8e

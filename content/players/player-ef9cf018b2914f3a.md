@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Valters Priede
 Category: players
 Slug: player-ef9cf018b2914f3a

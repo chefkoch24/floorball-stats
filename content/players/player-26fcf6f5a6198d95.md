@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Rihards Mertens
 Category: players
 Slug: player-26fcf6f5a6198d95

@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Adam Zukal
 Category: players
 Slug: player-abe8657005affa5c

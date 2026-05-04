@@ -1,4 +1,4 @@
-Date: 2026-05-03
+Date: 2026-05-04
 Title: Dobrovodský Daniel
 Category: players
 Slug: player-178f1a4eeb939b30
