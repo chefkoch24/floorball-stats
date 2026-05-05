@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: (Rubene) bumbiņa savos vārtos
 Category: players
 Slug: player-76d9ff1e87a6af71

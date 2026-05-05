@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Tuomas Iiskola
 Category: players
 Slug: player-b44e78aea308e97c
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 76
+rank: 77
 season: fi-25-26

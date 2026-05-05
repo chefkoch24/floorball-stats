@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Valtteri Viitakoski
 Category: players
 Slug: player-8bf625c7bb6c66f1
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 66
+rank: 67
 season: fi-25-26

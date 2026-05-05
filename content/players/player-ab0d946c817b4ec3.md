@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 18
-rank: 5
+rank: 6
 season: fi-25-26

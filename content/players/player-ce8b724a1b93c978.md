@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Ernests Ronis
 Category: players
 Slug: player-ce8b724a1b93c978

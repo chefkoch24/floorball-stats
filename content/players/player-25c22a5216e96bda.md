@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Treneris Normunds Jansons
 Category: players
 Slug: player-25c22a5216e96bda

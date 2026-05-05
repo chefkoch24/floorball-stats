@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Jérôme Gaudin
 Category: players
 Slug: player-558fbcbd4626ddbd

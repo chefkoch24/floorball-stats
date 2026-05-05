@@ -1,4 +1,4 @@
-Date: 2026-05-04
+Date: 2026-05-05
 Title: Pārstāvis Kristaps Jakāns
 Category: players
 Slug: player-273a174cb8e06cd1
