@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Bálint Andrej
 Category: players
 Slug: player-6b970eca1f8a9560

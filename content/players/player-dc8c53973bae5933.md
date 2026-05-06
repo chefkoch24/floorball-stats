@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Benedikt Fiedrich
 Category: players
 Slug: player-dc8c53973bae5933

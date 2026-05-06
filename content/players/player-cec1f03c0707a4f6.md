@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Tomáš Sýkora
 Category: players
 Slug: player-cec1f03c0707a4f6

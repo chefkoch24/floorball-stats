@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Pārstāvis Sandris Vītols
 Category: players
 Slug: player-c5a45a22157fe3c3

@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Krišs Jēcis
 Category: players
 Slug: player-13bca5848f53eb58

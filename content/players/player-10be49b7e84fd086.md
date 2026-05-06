@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Kasper Kulmala
 Category: players
 Slug: player-10be49b7e84fd086

@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Kārlis Degins ( 12 Endijs Umberts Barruss) )
 Category: players
 Slug: player-ebe76fc60d403780

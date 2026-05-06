@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Mareks Stančiks
 Category: players
 Slug: player-d78e196c4b277dfa

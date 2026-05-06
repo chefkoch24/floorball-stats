@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Vojtěch Hubinger
 Category: players
 Slug: player-f4a61dd6e1b83dc1

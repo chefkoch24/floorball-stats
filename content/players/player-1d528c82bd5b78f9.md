@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Yves Klöti
 Category: players
 Slug: player-1d528c82bd5b78f9

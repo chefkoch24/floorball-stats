@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Samuel Volkart
 Category: players
 Slug: player-2d9777f05079bcae

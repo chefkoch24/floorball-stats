@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Niks Daniels Bosakovs
 Category: players
 Slug: player-6eea08f23f7d40a4

@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Fredrik Jeppsson Escabel
 Category: players
 Slug: player-f10ba33e0a29a21d

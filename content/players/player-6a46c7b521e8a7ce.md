@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Václav Jurdzin
 Category: players
 Slug: player-6a46c7b521e8a7ce

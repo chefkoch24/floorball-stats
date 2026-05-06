@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Mariss Bergmanis
 Category: players
 Slug: player-9e0bcd21d1660b96

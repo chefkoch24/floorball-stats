@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Fabian Lindbäck
 Category: players
 Slug: player-6b8f47d3d2b8f8c6

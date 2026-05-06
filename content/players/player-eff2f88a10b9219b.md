@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Tomáš Macháček
 Category: players
 Slug: player-eff2f88a10b9219b

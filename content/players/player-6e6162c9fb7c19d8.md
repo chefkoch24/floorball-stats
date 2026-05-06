@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Carl Kostov Bredberg
 Category: players
 Slug: player-6e6162c9fb7c19d8

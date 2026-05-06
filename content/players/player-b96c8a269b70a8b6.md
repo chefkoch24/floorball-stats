@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Måns Andersson
 Category: players
 Slug: player-b96c8a269b70a8b6

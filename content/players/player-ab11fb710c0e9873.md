@@ -1,4 +1,4 @@
-Date: 2026-05-05
+Date: 2026-05-06
 Title: Roman Beck
 Category: players
 Slug: player-ab11fb710c0e9873
