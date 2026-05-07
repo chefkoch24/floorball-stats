@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Lazor Alex
 Category: players
 Slug: player-a5c4e1bf6e98c6f3

@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Antti Suomela
 Category: players
 Slug: player-44fd43ad54ca1fef
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 79
+rank: 80
 season: fi-25-26

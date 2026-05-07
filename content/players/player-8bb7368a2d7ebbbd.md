@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Jan Pinkas
 Category: players
 Slug: player-8bb7368a2d7ebbbd

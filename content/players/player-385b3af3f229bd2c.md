@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Guntars Krukovskis
 Category: players
 Slug: player-385b3af3f229bd2c

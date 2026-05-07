@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-07
 Title: LASB
 Category: fi-25-26-playoffs, teams
 Slug: lasb-fi-25-26-playoffs-fi-25-26-playoffs

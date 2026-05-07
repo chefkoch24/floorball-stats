@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Noel Hug
 Category: players
 Slug: player-de9d0ca3f80a668c

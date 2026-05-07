@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Eric Grunder
 Category: players
 Slug: player-b262feead13da5df

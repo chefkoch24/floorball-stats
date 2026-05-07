@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Simeon Weber
 Category: players
 Slug: player-ff2ed07149d80e6f

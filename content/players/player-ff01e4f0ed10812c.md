@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Kevin Bergman
 Category: players
 Slug: player-ff01e4f0ed10812c

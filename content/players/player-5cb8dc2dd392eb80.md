@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Loris Hofmann
 Category: players
 Slug: player-5cb8dc2dd392eb80

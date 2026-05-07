@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Pascal Reichert
 Category: players
 Slug: player-0caddf2a9c21c61e

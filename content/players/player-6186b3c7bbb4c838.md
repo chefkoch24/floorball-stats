@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Jan Kourek
 Category: players
 Slug: player-6186b3c7bbb4c838

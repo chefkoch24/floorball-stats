@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Raphael Neidhart
 Category: players
 Slug: player-afd75fe3bf84c67d

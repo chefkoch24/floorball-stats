@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Samuel Bagin
 Category: players
 Slug: player-5fa1e0feb71b9085

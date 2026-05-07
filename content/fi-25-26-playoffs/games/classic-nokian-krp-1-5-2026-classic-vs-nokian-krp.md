@@ -411,7 +411,7 @@ away_pregame_points_after_first_period: 20
 away_pregame_points_after_first_period_per_game: 1.82
 away_pregame_points_after_second_period: 24
 away_pregame_points_after_third_period: 25
-away_pregame_points_against_classic: 6
+away_pregame_points_against_classic: 9
 away_pregame_points_against_eraviikingit: 12
 away_pregame_points_against_oilers: 12
 away_pregame_points_max_difference_2: 5

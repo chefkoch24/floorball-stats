@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Veit Bammel
 Category: players
 Slug: player-331aacebaae48b85

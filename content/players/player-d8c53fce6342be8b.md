@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Simon Wedberg
 Category: players
 Slug: player-d8c53fce6342be8b

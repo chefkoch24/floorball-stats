@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Valtteri Molkka
 Category: players
 Slug: player-fd42b9d77687da04
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 119
+rank: 122
 season: fi-25-26

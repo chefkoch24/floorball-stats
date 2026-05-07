@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Jonas-Fynn Wende
 Category: players
 Slug: player-b851e73708e0d0ac

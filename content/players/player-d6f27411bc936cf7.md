@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Samuel Balogh
 Category: players
 Slug: player-d6f27411bc936cf7

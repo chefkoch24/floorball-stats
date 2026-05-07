@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Gustavs Siliņš
 Category: players
 Slug: player-8a3d5c5fbf5e50b8

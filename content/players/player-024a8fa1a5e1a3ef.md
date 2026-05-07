@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Claude Feigenwinter
 Category: players
 Slug: player-024a8fa1a5e1a3ef

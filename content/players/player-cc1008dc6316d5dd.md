@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Samuel Šimurdiak
 Category: players
 Slug: player-cc1008dc6316d5dd

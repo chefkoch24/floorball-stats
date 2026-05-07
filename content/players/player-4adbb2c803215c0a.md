@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Mateusz Sadolewski
 Category: players
 Slug: player-4adbb2c803215c0a

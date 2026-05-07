@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Victor Frejd
 Category: players
 Slug: player-b67ba486c96efb89

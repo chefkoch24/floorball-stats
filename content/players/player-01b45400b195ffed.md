@@ -1,4 +1,4 @@
-Date: 2026-05-06
+Date: 2026-05-07
 Title: Kevin Haglund
 Category: players
 Slug: player-01b45400b195ffed
