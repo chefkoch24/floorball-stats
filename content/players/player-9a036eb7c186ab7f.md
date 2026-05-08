@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Vojtěch Janeček
 Category: players
 Slug: player-9a036eb7c186ab7f

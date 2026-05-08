@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Adam Adamov
 Category: players
 Slug: player-30aa5ca2e305cffb

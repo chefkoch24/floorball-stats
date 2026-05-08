@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Nico Branger
 Category: players
 Slug: player-bad076e0a880bcbc

@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Simon Larano
 Category: players
 Slug: player-fa0963a2c834e08e

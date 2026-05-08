@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Rinalds Smilga
 Category: players
 Slug: player-75650feef0c3596e

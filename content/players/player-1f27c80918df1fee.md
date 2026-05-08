@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Viliam Schrojf
 Category: players
 Slug: player-1f27c80918df1fee

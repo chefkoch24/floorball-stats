@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Tadeáš Gryc
 Category: players
 Slug: player-b4da01a8873cdd04

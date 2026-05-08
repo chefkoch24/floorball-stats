@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Martin Čermák
 Category: players
 Slug: player-dcb710f27e74d4d6

@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Ondřej Štefek
 Category: players
 Slug: player-194bb1025face7a5

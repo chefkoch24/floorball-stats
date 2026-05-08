@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Toms Pētersons
 Category: players
 Slug: player-52db1ba8e7baf3ef

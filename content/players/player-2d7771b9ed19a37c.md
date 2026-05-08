@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Frans Katila
 Category: players
 Slug: player-2d7771b9ed19a37c

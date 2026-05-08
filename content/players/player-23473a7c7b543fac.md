@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Čekan Jakub
 Category: players
 Slug: player-23473a7c7b543fac

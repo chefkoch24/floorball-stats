@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Jakub Renčín
 Category: players
 Slug: player-a6fe9c480192be7c

@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Nyitray Andrej
 Category: players
 Slug: player-8ba5d1c868b3a635

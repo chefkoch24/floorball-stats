@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Simon Janiszewski
 Category: players
 Slug: player-0ae567b4a1cd6784

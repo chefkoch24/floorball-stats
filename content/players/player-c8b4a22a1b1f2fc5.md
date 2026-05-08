@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Raivo Kīsnics
 Category: players
 Slug: player-c8b4a22a1b1f2fc5

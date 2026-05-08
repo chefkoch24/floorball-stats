@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Nadir Monighetti
 Category: players
 Slug: player-3fee486429dcfd65

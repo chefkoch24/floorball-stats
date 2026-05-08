@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Filip Singovszki
 Category: players
 Slug: player-5ce415cc4d29482a

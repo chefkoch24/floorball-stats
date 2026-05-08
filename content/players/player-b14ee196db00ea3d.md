@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Lukáš Trojáček
 Category: players
 Slug: player-b14ee196db00ea3d

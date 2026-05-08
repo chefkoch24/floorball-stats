@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Krišs Jančuks
 Category: players
 Slug: player-cea68d65dd716771

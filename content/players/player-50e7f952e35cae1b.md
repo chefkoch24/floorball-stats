@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Daniel Ludvík
 Category: players
 Slug: player-50e7f952e35cae1b

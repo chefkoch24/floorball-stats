@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Lukasz Chlebda
 Category: players
 Slug: player-ec970f5d0a5187af

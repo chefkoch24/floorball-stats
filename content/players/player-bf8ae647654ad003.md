@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Robert Rüdrich
 Category: players
 Slug: player-bf8ae647654ad003

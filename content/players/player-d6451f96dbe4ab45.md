@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Tomáš Kamarýt
 Category: players
 Slug: player-d6451f96dbe4ab45

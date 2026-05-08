@@ -1,4 +1,4 @@
-Date: 2026-05-07
+Date: 2026-05-08
 Title: Eero Karjanlahti
 Category: players
 Slug: player-5eb2fe85cf2ac978
