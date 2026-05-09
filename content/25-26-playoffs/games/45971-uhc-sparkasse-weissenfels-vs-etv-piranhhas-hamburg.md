@@ -313,6 +313,7 @@ home_pregame_points_after_second_period: 5
 home_pregame_points_after_third_period: 9
 home_pregame_points_against_djk_holzbuttgen: 6
 home_pregame_points_against_etv_piranhhas_hamburg: 7
+home_pregame_points_against_mfbc_leipzig: 3
 home_pregame_points_max_difference_2: 9
 home_pregame_points_more_2_difference: 2
 home_pregame_points_per_game: 1.57

@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Jussi Hakala
 Category: players
 Slug: player-bc5476d37b0c78e9
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 8
-rank: 12
+rank: 13
 season: 25-26

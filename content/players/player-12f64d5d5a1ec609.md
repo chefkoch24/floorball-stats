@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Moritz Neustadt
 Category: players
 Slug: player-12f64d5d5a1ec609
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 65
+rank: 66
 season: 25-26

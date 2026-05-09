@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Eduards Sokolovs
 Category: players
 Slug: player-af82c1a72a8a55b7

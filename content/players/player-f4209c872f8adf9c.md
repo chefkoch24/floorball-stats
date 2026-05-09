@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Dominik Turek
 Category: players
 Slug: player-f4209c872f8adf9c

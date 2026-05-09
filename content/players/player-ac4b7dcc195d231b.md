@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Maj Oman
 Category: players
 Slug: player-ac4b7dcc195d231b

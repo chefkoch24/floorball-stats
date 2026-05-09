@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Lovis Sturm
 Category: players
 Slug: player-239dbe4c7d727efa
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 26
+current_games: 27
 current_goals: 2
 current_assists: 4
 current_points: 6
@@ -21,7 +21,7 @@ regular_goals: 2
 regular_assists: 3
 regular_points: 5
 regular_pim: 0
-playoff_games: 7
+playoff_games: 8
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 26
+career_games: 27
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|7|0|1|1|0||25-26|regular-season|Germany|MFBC Leipzig|19|2|3|5|0
+history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|8|0|1|1|0||25-26|regular-season|Germany|MFBC Leipzig|19|2|3|5|0
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 0
 phase: playoffs

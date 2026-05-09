@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Lukáš Bauer
 Category: players
 Slug: player-b85fd0b063e39fc2

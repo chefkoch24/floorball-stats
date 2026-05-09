@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Emīls Jančevskis
 Category: players
 Slug: player-cab161ec2c56086d

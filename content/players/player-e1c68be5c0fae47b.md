@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Björn Hoppe
 Category: players
 Slug: player-e1c68be5c0fae47b
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 19
+current_games: 20
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 6
+playoff_games: 7
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 19
+career_games: 20
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|6|0|0|0|0||25-26|regular-season|Germany|MFBC Leipzig|13|0|0|0|0
+history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|7|0|0|0|0||25-26|regular-season|Germany|MFBC Leipzig|13|0|0|0|0
 assists: 0
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: playoffs

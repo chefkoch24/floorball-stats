@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Henrijs Gustavs Magons
 Category: players
 Slug: player-3e1b0b0dc4ba0d78

@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Nicola Brütsch
 Category: players
 Slug: player-4f7ba1be469a9ef9

@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Treneris Juris Zilberts
 Category: players
 Slug: player-8f283bfa6bbd03b7

@@ -1,4 +1,4 @@
-Date: 2026-05-08
+Date: 2026-05-09
 Title: Miroslav Fořt
 Category: players
 Slug: player-e5e39398cf8be6cf
