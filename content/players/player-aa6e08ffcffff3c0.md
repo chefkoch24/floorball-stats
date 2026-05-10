@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Dāvids Daniels Kalniņš
 Category: players
 Slug: player-aa6e08ffcffff3c0

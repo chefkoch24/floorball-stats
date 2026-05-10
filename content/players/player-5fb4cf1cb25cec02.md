@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Tuomas Hirn
 Category: players
 Slug: player-5fb4cf1cb25cec02
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 10
-rank: 8
+rank: 9
 season: 25-26

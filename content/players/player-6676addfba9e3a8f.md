@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Jakob Bohls
 Category: players
 Slug: player-6676addfba9e3a8f
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 3
-rank: 45
+rank: 46
 season: 25-26

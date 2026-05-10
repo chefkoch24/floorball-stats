@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Karel Petrák
 Category: players
 Slug: player-9ced8eb0c77fc40b

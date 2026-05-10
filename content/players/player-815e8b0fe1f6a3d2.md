@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Paskal Kammer
 Category: players
 Slug: player-815e8b0fe1f6a3d2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 154
+rank: 155
 season: 25-26

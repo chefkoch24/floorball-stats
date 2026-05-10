@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Severin Schmid
 Category: players
 Slug: player-6b0b7a8bea9a460a

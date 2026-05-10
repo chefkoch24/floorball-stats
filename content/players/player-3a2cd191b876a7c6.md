@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Ričards Orste
 Category: players
 Slug: player-3a2cd191b876a7c6

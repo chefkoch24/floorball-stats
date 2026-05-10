@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Joona Heiskanen
 Category: players
 Slug: player-b51958067fed9c9a
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 3
-rank: 50
+rank: 52
 season: 25-26

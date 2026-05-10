@@ -413,7 +413,7 @@ away_pregame_points_after_second_period: 8
 away_pregame_points_after_third_period: 10
 away_pregame_points_against_djk_holzbuttgen: 6
 away_pregame_points_against_etv_piranhhas_hamburg: 7
-away_pregame_points_against_mfbc_leipzig: 3
+away_pregame_points_against_mfbc_leipzig: 6
 away_pregame_points_max_difference_2: 9
 away_pregame_points_more_2_difference: 4
 away_pregame_points_per_game: 1.62

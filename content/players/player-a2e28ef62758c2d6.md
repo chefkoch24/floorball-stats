@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Topias Ruisla
 Category: players
 Slug: player-a2e28ef62758c2d6
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 172
+rank: 173
 season: 25-26

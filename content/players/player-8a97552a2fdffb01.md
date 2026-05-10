@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Simon Laubscher
 Category: players
 Slug: player-8a97552a2fdffb01

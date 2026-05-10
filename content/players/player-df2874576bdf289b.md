@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Vladimír Trčka
 Category: players
 Slug: player-df2874576bdf289b

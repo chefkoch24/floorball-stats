@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Maximilian Schröder
 Category: players
 Slug: player-3f9dfa7659a66ccf
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 147
+rank: 148
 season: 25-26

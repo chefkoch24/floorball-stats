@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Ludvig Stegius
 Category: players
 Slug: player-8c5bc1e7b68a262d

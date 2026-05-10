@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Florian Böttcher
 Category: players
 Slug: player-f03597bb32bbeaab
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 27
+current_games: 28
 current_goals: 14
 current_assists: 16
 current_points: 30
@@ -21,7 +21,7 @@ regular_goals: 10
 regular_assists: 10
 regular_points: 20
 regular_pim: 14
-playoff_games: 9
+playoff_games: 10
 playoff_goals: 4
 playoff_assists: 6
 playoff_points: 10
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 28
 career_goals: 14
 career_assists: 16
 career_points: 30
 career_pim: 18
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|9|4|6|10|4||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|10|10|20|14
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|10|4|6|10|4||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|10|10|20|14
 assists: 6
-games: 9
+games: 10
 goals: 4
 penalties: 2
 phase: playoffs

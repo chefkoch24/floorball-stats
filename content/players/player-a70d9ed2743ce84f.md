@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Noah Wolbold
 Category: players
 Slug: player-a70d9ed2743ce84f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 150
+rank: 151
 season: 25-26

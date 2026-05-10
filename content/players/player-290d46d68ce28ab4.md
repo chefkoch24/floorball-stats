@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Edgars Taube
 Category: players
 Slug: player-290d46d68ce28ab4

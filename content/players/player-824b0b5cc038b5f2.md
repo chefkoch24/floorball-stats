@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Maximilian Schrick
 Category: players
 Slug: player-824b0b5cc038b5f2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 146
+rank: 147
 season: 25-26

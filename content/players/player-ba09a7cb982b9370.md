@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Dennis Schiffer
 Category: players
 Slug: player-ba09a7cb982b9370
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 105
+rank: 108
 season: 25-26

@@ -1,4 +1,4 @@
-Date: 2026-05-09
+Date: 2026-05-10
 Title: Erik Freund
 Category: players
 Slug: player-28f2562a7f4e3db0
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 106
+rank: 109
 season: 25-26
