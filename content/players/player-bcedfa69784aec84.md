@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Jakub Dufek
 Category: players
 Slug: player-bcedfa69784aec84

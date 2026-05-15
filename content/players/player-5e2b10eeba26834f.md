@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Jiří Hanzal
 Category: players
 Slug: player-5e2b10eeba26834f

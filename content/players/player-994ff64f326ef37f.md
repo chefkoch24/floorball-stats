@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Michal Majoroš
 Category: players
 Slug: player-994ff64f326ef37f

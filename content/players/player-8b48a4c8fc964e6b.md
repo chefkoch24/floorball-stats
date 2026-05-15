@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Andrin Hollenstein
 Category: players
 Slug: player-8b48a4c8fc964e6b

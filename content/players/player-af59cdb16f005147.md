@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Meinert Wardetzki
 Category: players
 Slug: player-af59cdb16f005147
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 86
+rank: 85
 season: 25-26

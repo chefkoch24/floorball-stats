@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Nožina Kristián
 Category: players
 Slug: player-70ba459fbd65aa80

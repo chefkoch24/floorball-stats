@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Niklas Janne Blanke
 Category: players
 Slug: player-9fe481dd06a94e8e
@@ -13,8 +13,8 @@ current_season_is_tournament: no
 previous_season: n.a.
 current_games: 30
 current_goals: 9
-current_assists: 15
-current_points: 24
+current_assists: 16
+current_points: 25
 current_pim: 4
 regular_games: 20
 regular_goals: 8
@@ -23,8 +23,8 @@ regular_points: 19
 regular_pim: 4
 playoff_games: 10
 playoff_goals: 1
-playoff_assists: 4
-playoff_points: 5
+playoff_assists: 5
+playoff_points: 6
 playoff_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -33,16 +33,16 @@ previous_points: 0
 previous_pim: 0
 career_games: 30
 career_goals: 9
-career_assists: 15
-career_points: 24
+career_assists: 16
+career_points: 25
 career_pim: 4
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|10|1|4|5|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|8|11|19|4
-assists: 4
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|10|1|5|6|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|8|11|19|4
+assists: 5
 games: 10
 goals: 1
 penalties: 0
 phase: playoffs
 pim: 0
-points: 5
-rank: 29
+points: 6
+rank: 25
 season: 25-26

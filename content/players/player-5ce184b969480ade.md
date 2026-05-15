@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Jonathan Böhlendorf
 Category: players
 Slug: player-5ce184b969480ade
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 122
+rank: 121
 season: 25-26

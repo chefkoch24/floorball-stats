@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Julian Kappler
 Category: players
 Slug: player-a2a0ca0d5e06ba11
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 124
+rank: 123
 season: 25-26

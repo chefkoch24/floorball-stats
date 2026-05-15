@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Mario Bardill
 Category: players
 Slug: player-8cce5fe068924eb7

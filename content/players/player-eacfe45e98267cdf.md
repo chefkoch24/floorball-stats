@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Luca Winter
 Category: players
 Slug: player-eacfe45e98267cdf
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 83
+rank: 81
 season: 25-26

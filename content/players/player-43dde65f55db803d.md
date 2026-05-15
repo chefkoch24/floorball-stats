@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Hans Richter
 Category: players
 Slug: player-43dde65f55db803d
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 91
+rank: 90
 season: 25-26

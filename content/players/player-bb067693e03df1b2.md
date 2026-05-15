@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Josef Linke
 Category: players
 Slug: player-bb067693e03df1b2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 123
+rank: 122
 season: 25-26

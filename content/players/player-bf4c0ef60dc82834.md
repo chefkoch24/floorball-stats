@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Aaron Niketta
 Category: players
 Slug: player-bf4c0ef60dc82834
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 98
+rank: 97
 season: 25-26

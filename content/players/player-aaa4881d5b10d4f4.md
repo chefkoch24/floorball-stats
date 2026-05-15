@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Luca Vogel
 Category: players
 Slug: player-aaa4881d5b10d4f4
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 10
-rank: 10
+rank: 11
 season: 25-26

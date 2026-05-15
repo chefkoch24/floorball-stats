@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Marek Kadlec
 Category: players
 Slug: player-f90adfba310781f5

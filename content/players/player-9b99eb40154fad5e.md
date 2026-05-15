@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Levin Gügi
 Category: players
 Slug: player-9b99eb40154fad5e

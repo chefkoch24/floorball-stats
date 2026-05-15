@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Pavlikovský Alex
 Category: players
 Slug: player-65b9ea91030dbf3c

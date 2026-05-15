@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Nils Reese
 Category: players
 Slug: player-b15e033f528ee12d

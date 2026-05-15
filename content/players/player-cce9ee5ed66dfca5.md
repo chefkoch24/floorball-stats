@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Jannik Nitsche
 Category: players
 Slug: player-cce9ee5ed66dfca5
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 92
+rank: 91
 season: 25-26

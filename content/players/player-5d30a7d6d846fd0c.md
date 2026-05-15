@@ -1,4 +1,4 @@
-Date: 2026-05-10
+Date: 2026-05-15
 Title: Benno Gohrbandt
 Category: players
 Slug: player-5d30a7d6d846fd0c
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 100
+rank: 99
 season: 25-26
