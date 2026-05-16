@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Pārstāvis Arvis Kārkliņš
 Category: players
 Slug: player-bfe00560ed79bdf2

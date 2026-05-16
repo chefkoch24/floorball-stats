@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Patrik Svoboda
 Category: players
 Slug: player-de028e02c1d7b060
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 156
+rank: 157
 season: 25-26

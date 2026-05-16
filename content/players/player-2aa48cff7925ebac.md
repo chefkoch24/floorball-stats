@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Camill Wagner
 Category: players
 Slug: player-2aa48cff7925ebac
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 88
+rank: 91
 season: 25-26

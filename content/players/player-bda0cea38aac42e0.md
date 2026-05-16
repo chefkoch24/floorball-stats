@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Yoram Wolbold
 Category: players
 Slug: player-bda0cea38aac42e0
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 2
-rank: 60
+rank: 62
 season: 25-26

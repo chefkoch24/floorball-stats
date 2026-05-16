@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Janos Bröker
 Category: players
 Slug: player-d153b75954edae9e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 51
+rank: 52
 season: 25-26

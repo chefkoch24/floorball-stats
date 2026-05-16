@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Filip Kuráň
 Category: players
 Slug: player-974c75f8bdb4a2a6

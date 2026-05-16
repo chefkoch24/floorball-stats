@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Emil Lundmark
 Category: players
 Slug: player-5a7e4106adf2212d

@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Matthias Flatten
 Category: players
 Slug: player-de1f7e19fa404dac
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 143
+rank: 144
 season: 25-26

@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Julius Laurenz Teichert
 Category: players
 Slug: player-adfad6ac837a7c99
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 29
+current_games: 30
 current_goals: 8
 current_assists: 4
 current_points: 12
@@ -21,7 +21,7 @@ regular_goals: 5
 regular_assists: 4
 regular_points: 9
 regular_pim: 2
-playoff_games: 10
+playoff_games: 11
 playoff_goals: 3
 playoff_assists: 0
 playoff_points: 3
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 29
+career_games: 30
 career_goals: 8
 career_assists: 4
 career_points: 12
 career_pim: 4
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|10|3|0|3|2||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|19|5|4|9|2
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|11|3|0|3|2||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|19|5|4|9|2
 assists: 0
-games: 10
+games: 11
 goals: 3
 penalties: 1
 phase: playoffs

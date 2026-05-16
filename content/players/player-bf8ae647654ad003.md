@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Robert Rüdrich
 Category: players
 Slug: player-bf8ae647654ad003
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 163
+rank: 164
 season: 25-26

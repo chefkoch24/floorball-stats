@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Aatu Koivisto
 Category: players
 Slug: player-c37c61370824dbeb

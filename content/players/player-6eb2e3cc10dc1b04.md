@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Levin Leyhe
 Category: players
 Slug: player-6eb2e3cc10dc1b04
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 130
+rank: 133
 season: 25-26

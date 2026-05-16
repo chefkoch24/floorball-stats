@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Pelegrin Patrik
 Category: players
 Slug: player-a387fe15c42fd9fa

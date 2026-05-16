@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Rolands Kovaļevskis
 Category: players
 Slug: player-ff3f54f374b9c4b9

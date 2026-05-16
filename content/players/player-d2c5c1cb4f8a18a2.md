@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Tobias Schroers
 Category: players
 Slug: player-d2c5c1cb4f8a18a2
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 170
+rank: 171
 season: 25-26

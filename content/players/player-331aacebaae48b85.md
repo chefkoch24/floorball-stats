@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Veit Bammel
 Category: players
 Slug: player-331aacebaae48b85
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 175
+rank: 176
 season: 25-26

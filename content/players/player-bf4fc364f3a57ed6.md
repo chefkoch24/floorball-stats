@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Petteri Hanski
 Category: players
 Slug: player-bf4fc364f3a57ed6

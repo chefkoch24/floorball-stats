@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Kevin Kropf
 Category: players
 Slug: player-238eaa3bc807eb32

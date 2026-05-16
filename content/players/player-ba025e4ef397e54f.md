@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Philip Richter
 Category: players
 Slug: player-ba025e4ef397e54f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 48
+rank: 49
 season: 25-26

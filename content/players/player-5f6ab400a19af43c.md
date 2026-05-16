@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Anton Stirkkinen
 Category: players
 Slug: player-5f6ab400a19af43c

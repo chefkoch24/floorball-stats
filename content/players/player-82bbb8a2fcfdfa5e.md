@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Daniel Hulič
 Category: players
 Slug: player-82bbb8a2fcfdfa5e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 54
+rank: 55
 season: 25-26

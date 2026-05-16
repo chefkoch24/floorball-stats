@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Samuel Hurajt
 Category: players
 Slug: player-31bd0b7c57b65e49

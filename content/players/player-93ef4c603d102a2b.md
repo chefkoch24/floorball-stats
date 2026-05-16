@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Pārstāvis Endijs Kleistrovs
 Category: players
 Slug: player-93ef4c603d102a2b

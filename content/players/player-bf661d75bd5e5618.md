@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Pārstāvis Adrija Dārta Siliņa
 Category: players
 Slug: player-bf661d75bd5e5618

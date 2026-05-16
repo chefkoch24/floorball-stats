@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Renārs Eglītis
 Category: players
 Slug: player-f95be4d8baecb6e0

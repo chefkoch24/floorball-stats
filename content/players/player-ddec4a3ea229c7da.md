@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Paul Wurlitzer
 Category: players
 Slug: player-ddec4a3ea229c7da
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 158
+rank: 159
 season: 25-26

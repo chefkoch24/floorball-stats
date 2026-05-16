@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Pārstāvis Egīls Bukšs
 Category: players
 Slug: player-27e54ad0b14e3fe5

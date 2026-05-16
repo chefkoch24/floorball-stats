@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Leon Adelmann
 Category: players
 Slug: player-ebca6a96dff5f7ce
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 66
+rank: 67
 season: 25-26

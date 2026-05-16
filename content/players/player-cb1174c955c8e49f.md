@@ -1,4 +1,4 @@
-Date: 2026-05-15
+Date: 2026-05-16
 Title: Setti Roimela
 Category: players
 Slug: player-cb1174c955c8e49f
