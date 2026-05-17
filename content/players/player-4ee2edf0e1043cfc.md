@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Nils Hofferbert
 Category: players
 Slug: player-4ee2edf0e1043cfc
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 7
-rank: 19
+rank: 21
 season: 25-26

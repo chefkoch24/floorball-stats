@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Juuso Suotula
 Category: players
 Slug: player-a3d815a4c52bef79
@@ -44,5 +44,5 @@ penalties: 4
 phase: playoffs
 pim: 8
 points: 8
-rank: 15
+rank: 17
 season: 25-26

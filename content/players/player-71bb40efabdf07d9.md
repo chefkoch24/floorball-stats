@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Jesaja Hummel
 Category: players
 Slug: player-71bb40efabdf07d9
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 18
+current_games: 19
 current_goals: 7
 current_assists: 3
 current_points: 10
@@ -21,7 +21,7 @@ regular_goals: 5
 regular_assists: 2
 regular_points: 7
 regular_pim: 2
-playoff_games: 3
+playoff_games: 4
 playoff_goals: 2
 playoff_assists: 1
 playoff_points: 3
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 19
 career_goals: 7
 career_assists: 3
 career_points: 10
 career_pim: 2
-history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|3|2|1|3|0||25-26|regular-season|Germany|MFBC Leipzig|15|5|2|7|2
+history_rows_csv: 25-26|playoffs|Germany|MFBC Leipzig|4|2|1|3|0||25-26|regular-season|Germany|MFBC Leipzig|15|5|2|7|2
 assists: 1
-games: 3
+games: 4
 goals: 2
 penalties: 0
 phase: playoffs

@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Fadri Burkhart
 Category: players
 Slug: player-2a0b3b368cdf806f

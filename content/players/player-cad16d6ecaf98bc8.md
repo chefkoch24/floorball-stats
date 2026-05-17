@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Treneris Kaspars Reikmanis
 Category: players
 Slug: player-cad16d6ecaf98bc8

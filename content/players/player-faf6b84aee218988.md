@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Robert Perl
 Category: players
 Slug: player-faf6b84aee218988
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 37
+rank: 38
 season: 25-26

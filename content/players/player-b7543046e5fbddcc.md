@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Maarten Mittmann
 Category: players
 Slug: player-b7543046e5fbddcc
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 4
-rank: 36
+rank: 37
 season: 25-26

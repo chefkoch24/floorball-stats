@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Tomáš Brída
 Category: players
 Slug: player-e7b70a447ceff952

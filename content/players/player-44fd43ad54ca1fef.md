@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Antti Suomela
 Category: players
 Slug: player-44fd43ad54ca1fef

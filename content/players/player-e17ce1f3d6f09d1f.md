@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Dudinský Adam
 Category: players
 Slug: player-e17ce1f3d6f09d1f

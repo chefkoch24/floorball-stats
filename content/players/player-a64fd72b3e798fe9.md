@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Aaron Johannes Riemer
 Category: players
 Slug: player-a64fd72b3e798fe9
@@ -11,7 +11,7 @@ season_count: 1
 current_season: 25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -21,7 +21,7 @@ regular_goals: 0
 regular_assists: 0
 regular_points: 0
 regular_pim: 0
-playoff_games: 1
+playoff_games: 2
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|1|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0
+history_rows_csv: 25-26|playoffs|Germany|UHC Sparkasse Weißenfels|2|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0
 assists: 0
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: playoffs

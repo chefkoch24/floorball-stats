@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Birger Dethlefsen
 Category: players
 Slug: player-febd74b391e09c0e
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 8
-rank: 14
+rank: 16
 season: 25-26

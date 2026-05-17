@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Janne Kuusiluoto
 Category: players
 Slug: player-eff539c04a4c9941

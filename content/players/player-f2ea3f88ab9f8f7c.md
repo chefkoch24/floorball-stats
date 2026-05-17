@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Jānis Jāzeps Grizāns
 Category: players
 Slug: player-f2ea3f88ab9f8f7c

@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Mārcis Brīvulis
 Category: players
 Slug: player-e8416ccee61d6630

@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Niklas Janne Blanke
 Category: players
 Slug: player-9fe481dd06a94e8e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 6
-rank: 25
+rank: 26
 season: 25-26

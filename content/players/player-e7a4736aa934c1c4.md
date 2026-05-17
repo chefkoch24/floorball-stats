@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Mikuláš Komárek
 Category: players
 Slug: player-e7a4736aa934c1c4

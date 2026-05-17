@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Rūdolfs Dāvis Maklers
 Category: players
 Slug: player-22cf14fb366de942

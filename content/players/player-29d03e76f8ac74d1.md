@@ -1,4 +1,4 @@
-Date: 2026-05-16
+Date: 2026-05-17
 Title: Ralfs Edvards Grīnvalds
 Category: players
 Slug: player-29d03e76f8ac74d1
