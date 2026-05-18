@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Joachim Terjesen
 Category: players
 Slug: player-ee9f8e249ad4219a

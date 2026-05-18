@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Colin Oustad
 Category: players
 Slug: player-ac1bb462f72a6374

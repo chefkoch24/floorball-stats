@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Samuel Fatul
 Category: players
 Slug: player-3126b5c8e8b12c8f

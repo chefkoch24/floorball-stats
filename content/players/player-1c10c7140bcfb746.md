@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Yanick Flury
 Category: players
 Slug: player-1c10c7140bcfb746

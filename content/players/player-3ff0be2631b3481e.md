@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Wille Knuthas
 Category: players
 Slug: player-3ff0be2631b3481e

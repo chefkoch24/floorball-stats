@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Sebastian Palmqvist
 Category: players
 Slug: player-4ca75028258b0ffc

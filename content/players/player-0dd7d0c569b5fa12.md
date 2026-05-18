@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Otto Kilpi
 Category: players
 Slug: player-0dd7d0c569b5fa12

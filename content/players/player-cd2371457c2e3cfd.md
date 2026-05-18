@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Nino Bühler
 Category: players
 Slug: player-cd2371457c2e3cfd

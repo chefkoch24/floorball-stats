@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Joel Nyström
 Category: players
 Slug: player-bf4c84671d02ffe7

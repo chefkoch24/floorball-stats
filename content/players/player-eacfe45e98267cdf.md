@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Luca Winter
 Category: players
 Slug: player-eacfe45e98267cdf

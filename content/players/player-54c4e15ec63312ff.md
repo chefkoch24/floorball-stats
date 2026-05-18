@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Leon Lormis
 Category: players
 Slug: player-54c4e15ec63312ff

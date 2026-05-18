@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Julius Laurenz Teichert
 Category: players
 Slug: player-adfad6ac837a7c99

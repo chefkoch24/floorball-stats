@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Luukas Salin
 Category: players
 Slug: player-8ef3d8f6db40687d

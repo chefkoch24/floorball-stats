@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Emil Nyh
 Category: players
 Slug: player-c47235f984f53edb

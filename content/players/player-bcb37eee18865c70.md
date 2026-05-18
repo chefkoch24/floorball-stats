@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Martin Latka
 Category: players
 Slug: player-bcb37eee18865c70

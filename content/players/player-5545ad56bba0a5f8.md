@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Jamie Doyle
 Category: players
 Slug: player-5545ad56bba0a5f8

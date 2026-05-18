@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Samuel Poffet
 Category: players
 Slug: player-711dbf15de03942a

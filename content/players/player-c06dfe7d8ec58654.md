@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Aaro Tammiranta
 Category: players
 Slug: player-c06dfe7d8ec58654

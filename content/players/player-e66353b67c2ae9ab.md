@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Tino von Pritzbuer
 Category: players
 Slug: player-e66353b67c2ae9ab

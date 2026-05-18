@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Valte Karvonen
 Category: players
 Slug: player-225b860c50b5de5a

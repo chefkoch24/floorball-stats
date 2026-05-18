@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Peteris Trekse
 Category: players
 Slug: player-76f21fee6e39a6f3

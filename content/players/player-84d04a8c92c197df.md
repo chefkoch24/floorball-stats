@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Stehlík Erik
 Category: players
 Slug: player-84d04a8c92c197df

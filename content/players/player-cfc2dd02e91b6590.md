@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Alfred Pettersson
 Category: players
 Slug: player-cfc2dd02e91b6590

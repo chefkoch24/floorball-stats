@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Philip Richter
 Category: players
 Slug: player-ba025e4ef397e54f

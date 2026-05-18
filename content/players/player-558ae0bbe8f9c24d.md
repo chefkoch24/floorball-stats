@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Kim Ganevik
 Category: players
 Slug: player-558ae0bbe8f9c24d

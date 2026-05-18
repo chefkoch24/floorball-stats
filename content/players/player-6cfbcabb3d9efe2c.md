@@ -1,4 +1,4 @@
-Date: 2026-05-17
+Date: 2026-05-18
 Title: Samuel Dávidek
 Category: players
 Slug: player-6cfbcabb3d9efe2c
