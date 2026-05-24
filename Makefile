@@ -223,7 +223,14 @@ refresh-finland-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-finland-smart:
-	$(MAKE) refresh-finland-playoffs
+	@if $(MAKE) refresh-finland-playoffs; then \
+		true; \
+	elif [ -f "$(FINLAND_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(FINLAND_PLAYOFFS_CSV)")" -gt 1 ]; then \
+		echo "Playoffs refresh failed; using existing $(FINLAND_PLAYOFFS_CSV)."; \
+	else \
+		echo "Playoffs refresh failed and no usable $(FINLAND_PLAYOFFS_CSV) found."; \
+		exit 1; \
+	fi
 	@if [ -f "$(FINLAND_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(FINLAND_PLAYOFFS_CSV)")" -gt 1 ]; then \
 		echo "Playoffs detected in $(FINLAND_PLAYOFFS_CSV); skipping refresh-finland."; \
 	else \
@@ -290,38 +297,60 @@ refresh-latvia-smart:
 	fi
 
 refresh-all-leagues-bootstrap:
-	$(MAKE) refresh-current-season
-	$(MAKE) refresh-current-season-playoffs
-	$(MAKE) refresh-sweden
-	$(MAKE) refresh-sweden-playoffs
-	$(MAKE) refresh-switzerland
-	$(MAKE) refresh-switzerland-playoffs
-	$(MAKE) refresh-finland
-	$(MAKE) refresh-finland-playoffs
-	$(MAKE) refresh-czech
-	$(MAKE) refresh-czech-playoffs
-	$(MAKE) refresh-slovakia
-	$(MAKE) refresh-slovakia-playoffs
-	$(MAKE) refresh-latvia
-	$(MAKE) refresh-latvia-playoffs
-	$(MAKE) refresh-player-stats
-	$(MAKE) refresh-postgres
-	$(MAKE) refresh-player-pages
-	$(MAKE) refresh-search-index
-	$(MAKE) html
+	@failed=""; \
+	for target in \
+		refresh-current-season \
+		refresh-current-season-playoffs \
+		refresh-sweden \
+		refresh-sweden-playoffs \
+		refresh-switzerland \
+		refresh-switzerland-playoffs \
+		refresh-finland \
+		refresh-finland-playoffs \
+		refresh-czech \
+		refresh-czech-playoffs \
+		refresh-slovakia \
+		refresh-slovakia-playoffs \
+		refresh-latvia \
+		refresh-latvia-playoffs \
+		refresh-player-stats \
+		refresh-postgres \
+		refresh-player-pages \
+		refresh-search-index \
+		html; do \
+		echo "==> $$target"; \
+		if ! $(MAKE) $$target; then \
+			echo "[WARN] step failed: $$target"; \
+			failed="$$failed $$target"; \
+		fi; \
+	done; \
+	if [ -n "$$failed" ]; then \
+		echo "[WARN] refresh-all-leagues-bootstrap completed with failed steps:$$failed"; \
+	fi
 
 refresh-all-leagues:
-	$(MAKE) refresh-current-season-smart
-	$(MAKE) refresh-sweden-smart
-	$(MAKE) refresh-switzerland-smart
-	$(MAKE) refresh-finland-smart
-	$(MAKE) refresh-czech-smart
-	$(MAKE) refresh-slovakia-smart
-	$(MAKE) refresh-latvia-smart
-	$(MAKE) refresh-player-stats
-	$(MAKE) refresh-player-pages
-	$(MAKE) refresh-search-index
-	$(MAKE) html
+	@failed=""; \
+	for target in \
+		refresh-current-season-smart \
+		refresh-sweden-smart \
+		refresh-switzerland-smart \
+		refresh-finland-smart \
+		refresh-czech-smart \
+		refresh-slovakia-smart \
+		refresh-latvia-smart \
+		refresh-player-stats \
+		refresh-player-pages \
+		refresh-search-index \
+		html; do \
+		echo "==> $$target"; \
+		if ! $(MAKE) $$target; then \
+			echo "[WARN] step failed: $$target"; \
+			failed="$$failed $$target"; \
+		fi; \
+	done; \
+	if [ -n "$$failed" ]; then \
+		echo "[WARN] refresh-all-leagues completed with failed steps:$$failed"; \
+	fi
 
 refresh-everything:
 	$(MAKE) refresh-all-leagues

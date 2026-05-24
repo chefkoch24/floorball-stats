@@ -8,6 +8,7 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+from src.http_client import request_with_retries
 from src.scheduled_games import build_scheduled_game_row
 
 
@@ -25,8 +26,7 @@ class ApiConfig:
 
 
 def _get_api_config() -> ApiConfig:
-    response = requests.get(STARTKIT_URL, timeout=30)
-    response.raise_for_status()
+    response = request_with_retries("GET", STARTKIT_URL, timeout=30)
     payload = response.json()
     api_root = payload.get("apiRoot") or DEFAULT_API_ROOT
     token = payload.get("accessToken")
@@ -40,15 +40,18 @@ def _auth_headers(token: str) -> dict[str, str]:
 
 
 def _fetch_federation_competitions(api_root: str, headers: dict[str, str], federation_id: int = 1) -> list[dict[str, Any]]:
-    response = requests.get(f"{api_root}federations/{federation_id}/competitions", headers=headers, timeout=30)
-    response.raise_for_status()
+    response = request_with_retries(
+        "GET",
+        f"{api_root}federations/{federation_id}/competitions",
+        headers=headers,
+        timeout=30,
+    )
     payload = response.json()
     return payload if isinstance(payload, list) else []
 
 
 def _fetch_competition(api_root: str, headers: dict[str, str], competition_id: int) -> dict[str, Any]:
-    response = requests.get(f"{api_root}competitions/{competition_id}", headers=headers, timeout=30)
-    response.raise_for_status()
+    response = request_with_retries("GET", f"{api_root}competitions/{competition_id}", headers=headers, timeout=30)
     payload = response.json()
     return payload if isinstance(payload, dict) else {}
 
@@ -56,8 +59,12 @@ def _fetch_competition(api_root: str, headers: dict[str, str], competition_id: i
 def _fetch_competition_category_competitions(
     api_root: str, headers: dict[str, str], category_id: int
 ) -> list[dict[str, Any]]:
-    response = requests.get(f"{api_root}competitioncategories/{category_id}/competitions", headers=headers, timeout=30)
-    response.raise_for_status()
+    response = request_with_retries(
+        "GET",
+        f"{api_root}competitioncategories/{category_id}/competitions",
+        headers=headers,
+        timeout=30,
+    )
     payload = response.json()
     return payload if isinstance(payload, list) else []
 
@@ -175,8 +182,7 @@ def scrape_competition_events(competition_id: int, output_path: str, include_unp
     headers = _auth_headers(cfg.token)
 
     matches_url = f"{cfg.api_root}competitions/{competition_id}/matches"
-    matches_response = requests.get(matches_url, headers=headers, timeout=30)
-    matches_response.raise_for_status()
+    matches_response = request_with_retries("GET", matches_url, headers=headers, timeout=30)
     matches = matches_response.json()
 
     all_rows: list[dict[str, Any]] = []
@@ -192,9 +198,25 @@ def scrape_competition_events(competition_id: int, output_path: str, include_unp
             continue
 
         match_url = f"{cfg.api_root}matches/{match_id}"
-        match_response = requests.get(match_url, headers=headers, timeout=30)
-        match_response.raise_for_status()
-        match_detail = match_response.json()
+        try:
+            match_response = request_with_retries("GET", match_url, headers=headers, timeout=30)
+            match_detail = match_response.json()
+        except requests.RequestException as exc:
+            tqdm.write(f"[sweden] failed to fetch match {match_id}: {exc}")
+            if include_unplayed:
+                game_date, game_start_time = _safe_split_datetime(match.get("MatchDateTime"))
+                all_rows.append(
+                    build_scheduled_game_row(
+                        game_id=match_id,
+                        home_team=match.get("HomeTeam"),
+                        away_team=match.get("AwayTeam"),
+                        game_date=game_date,
+                        game_start_time=game_start_time,
+                        attendance=match.get("Spectators"),
+                        game_status=match.get("MatchStatus") or "Scheduled",
+                    )
+                )
+            continue
 
         events = match_detail.get("Events") or []
         if not events:
@@ -237,8 +259,7 @@ def scrape_competitions_events(
     seen_match_ids: set[int] = set()
     for competition_id in competition_ids:
         matches_url = f"{cfg.api_root}competitions/{competition_id}/matches"
-        matches_response = requests.get(matches_url, headers=headers, timeout=30)
-        matches_response.raise_for_status()
+        matches_response = request_with_retries("GET", matches_url, headers=headers, timeout=30)
         matches = matches_response.json()
 
         for match in tqdm(matches, desc=f"competition {competition_id}"):
@@ -253,9 +274,26 @@ def scrape_competitions_events(
                     continue
 
             match_url = f"{cfg.api_root}matches/{match_id}"
-            match_response = requests.get(match_url, headers=headers, timeout=30)
-            match_response.raise_for_status()
-            match_detail = match_response.json()
+            try:
+                match_response = request_with_retries("GET", match_url, headers=headers, timeout=30)
+                match_detail = match_response.json()
+            except requests.RequestException as exc:
+                tqdm.write(f"[sweden] failed to fetch match {match_id}: {exc}")
+                if include_unplayed:
+                    game_date, game_start_time = _safe_split_datetime(match.get("MatchDateTime"))
+                    all_rows.append(
+                        build_scheduled_game_row(
+                            game_id=match_id,
+                            home_team=match.get("HomeTeam"),
+                            away_team=match.get("AwayTeam"),
+                            game_date=game_date,
+                            game_start_time=game_start_time,
+                            attendance=match.get("Spectators"),
+                            game_status=match.get("MatchStatus") or "Scheduled",
+                        )
+                    )
+                seen_match_ids.add(match_id)
+                continue
             events = match_detail.get("Events") or []
 
             if not events:

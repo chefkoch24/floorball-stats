@@ -12,6 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.http_client import build_retry_session
 from src.scheduled_games import build_scheduled_game_row
 
 
@@ -26,7 +27,7 @@ class MatchCard:
 
 
 def _new_session() -> requests.Session:
-    session = requests.Session()
+    session = build_retry_session()
     session.headers.update({"User-Agent": USER_AGENT})
     return session
 
@@ -385,10 +386,14 @@ def scrape_competition(
             seen_urls.add(alt_url)
 
     for schedule_url in resolved_urls:
-        response = session.get(schedule_url, timeout=30)
-        response.raise_for_status()
-        for match in _parse_schedule_matches(response.text, schedule_url):
-            all_matches[match.match_id] = match
+        try:
+            response = session.get(schedule_url, timeout=30)
+            response.raise_for_status()
+            for match in _parse_schedule_matches(response.text, schedule_url):
+                all_matches[match.match_id] = match
+        except requests.RequestException as exc:
+            print(f"[WARN] skipping schedule URL after repeated request failures: {schedule_url} ({exc})")
+            continue
 
     rows: list[dict[str, Any]] = []
     for match in tqdm(sorted(all_matches.values(), key=lambda m: m.match_id), desc="slovakia matches"):

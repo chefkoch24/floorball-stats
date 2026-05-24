@@ -1,5 +1,6 @@
 import argparse
 import re
+import time
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
@@ -9,6 +10,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup, NavigableString
+from requests import RequestException
 from tqdm import tqdm
 
 from src.scheduled_games import build_scheduled_game_row
@@ -35,9 +37,30 @@ class MatchCard:
 
 
 def _get(url: str) -> str:
-    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
-    resp.raise_for_status()
-    return resp.text
+    headers_candidates = [
+        {
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9,fi;q=0.7",
+            "Referer": "https://fliiga.com/",
+        },
+        {"User-Agent": USER_AGENT},
+    ]
+    retries = 4
+    backoff_seconds = 2.0
+    last_error: Exception | None = None
+    for attempt in range(1, retries + 1):
+        headers = headers_candidates[(attempt - 1) % len(headers_candidates)]
+        try:
+            resp = requests.get(url, headers=headers, timeout=30)
+            resp.raise_for_status()
+            return resp.text
+        except RequestException as exc:
+            last_error = exc
+            if attempt == retries:
+                break
+            time.sleep(backoff_seconds * attempt)
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts") from last_error
 
 
 def _parse_match_cards(html: str) -> list[MatchCard]:
@@ -322,9 +345,19 @@ def scrape_matches(
     playoff_start_date: str | None = None,
 ) -> pd.DataFrame:
     matches: list[MatchCard] = []
+    schedule_errors: list[str] = []
     for url in schedule_urls:
-        html = _get(url)
-        matches.extend(_parse_match_cards(html))
+        try:
+            html = _get(url)
+            matches.extend(_parse_match_cards(html))
+        except Exception as exc:
+            schedule_errors.append(f"{url}: {exc}")
+
+    if not matches and schedule_errors:
+        raise RuntimeError(
+            "Could not load Finland schedule pages. "
+            + " | ".join(schedule_errors)
+        )
 
     def _as_date(value: str | None) -> date | None:
         if not value:
@@ -365,7 +398,23 @@ def scrape_matches(
     for match in tqdm(matches, desc="fliiga matches"):
         if not include_unplayed and not match.is_played:
             continue
-        match_html = _get(match.url)
+        try:
+            match_html = _get(match.url)
+        except Exception as exc:
+            tqdm.write(f"[finland] failed to fetch match {match.match_id} ({match.url}): {exc}")
+            if include_unplayed:
+                rows.append(
+                    build_scheduled_game_row(
+                        game_id=match.match_id,
+                        home_team=match.home_team,
+                        away_team=match.away_team,
+                        game_date=match.game_date,
+                        game_start_time=match.game_start_time,
+                        attendance=None,
+                        game_status="Played" if match.is_played else "Scheduled",
+                    )
+                )
+            continue
         events = _parse_match_events(match_html, match)
         if events:
             rows.extend(events)

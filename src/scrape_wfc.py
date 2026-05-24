@@ -8,6 +8,7 @@ from typing import Any
 import pandas as pd
 import requests
 
+from src.http_client import build_retry_session, request_with_retries
 from src.scheduled_games import build_result_game_row, build_scheduled_game_row
 
 
@@ -53,8 +54,7 @@ class WfcAuth:
 
 
 def _get(url: str) -> Any:
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
+    response = request_with_retries("GET", url, timeout=30)
     return response.json()
 
 
@@ -106,7 +106,8 @@ def _auth_headers(access_token: str) -> dict[str, str]:
 
 
 def _refresh_access_token(auth: WfcAuth) -> None:
-    response = requests.post(
+    response = request_with_retries(
+        "POST",
         REFRESH_TOKEN_URL,
         json={"AccessToken": auth.access_token, "RefreshToken": auth.refresh_token},
         timeout=30,
@@ -344,20 +345,24 @@ def _overview_event_to_row(
 
 def _fetch_game_overview(game_id: int, auth: WfcAuth) -> dict[str, Any]:
     last_error: Exception | None = None
-    for attempt in range(2):
-        response = requests.get(
-            GAME_OVERVIEW_URL,
-            params={"GameID": game_id},
-            headers=_auth_headers(auth.access_token),
-            timeout=30,
-        )
-        if response.status_code != 401:
-            response.raise_for_status()
-            payload = response.json()
-            return payload if isinstance(payload, dict) else {}
-        last_error = requests.HTTPError(f"WFC overview returned HTTP 401 for game {game_id}.")
-        if attempt == 0:
-            _refresh_access_token(auth)
+    session = build_retry_session()
+    try:
+        for attempt in range(2):
+            response = session.get(
+                GAME_OVERVIEW_URL,
+                params={"GameID": game_id},
+                headers=_auth_headers(auth.access_token),
+                timeout=30,
+            )
+            if response.status_code != 401:
+                response.raise_for_status()
+                payload = response.json()
+                return payload if isinstance(payload, dict) else {}
+            last_error = requests.HTTPError(f"WFC overview returned HTTP 401 for game {game_id}.")
+            if attempt == 0:
+                _refresh_access_token(auth)
+    finally:
+        session.close()
     if last_error:
         raise last_error
     return {}
@@ -374,7 +379,11 @@ def _build_rows_from_game(game: dict[str, Any], auth: WfcAuth | None = None) -> 
     if auth is None or game_id is None or home_goals is None or away_goals is None:
         return rows
 
-    overview = _fetch_game_overview(game_id, auth)
+    try:
+        overview = _fetch_game_overview(game_id, auth)
+    except requests.RequestException as exc:
+        print(f"[WARN] WFC overview failed for game {game_id}: {exc}")
+        return rows
     blurbs = overview.get("Blurbs") or []
     if not isinstance(blurbs, list):
         return rows

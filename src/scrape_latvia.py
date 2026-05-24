@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.http_client import build_retry_session
 from src.scheduled_games import build_scheduled_game_row
 
 
@@ -33,7 +34,7 @@ class LatviaMatch:
 
 
 def _new_session() -> requests.Session:
-    session = requests.Session()
+    session = build_retry_session()
     session.headers.update(
         {
             "User-Agent": USER_AGENT,
@@ -471,7 +472,23 @@ def scrape_competition(
     unique_matches: dict[int, LatviaMatch] = {m.game_id: m for m in all_matches}
     rows: list[dict[str, Any]] = []
     for match in tqdm(sorted(unique_matches.values(), key=lambda m: m.game_id), desc="latvia matches"):
-        rows.extend(_parse_proto_events(session, match))
+        try:
+            rows.extend(_parse_proto_events(session, match))
+        except requests.RequestException as exc:
+            tqdm.write(f"[latvia] failed to fetch match {match.game_id}: {exc}")
+            rows.append(
+                build_scheduled_game_row(
+                    game_id=match.game_id,
+                    home_team=match.home_team,
+                    away_team=match.away_team,
+                    game_date=match.game_date,
+                    game_start_time=match.game_start_time,
+                    attendance=None,
+                    game_status="Scheduled" if not match.result_string else "Played",
+                    ingame_status=match.ingame_status,
+                    result_string=match.result_string,
+                )
+            )
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)
