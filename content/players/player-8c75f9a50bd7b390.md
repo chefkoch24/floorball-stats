@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Lukas Eldholm
 Category: players
 Slug: player-8c75f9a50bd7b390

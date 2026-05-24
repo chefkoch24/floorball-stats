@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Oscar Soderlund
 Category: players
 Slug: player-93a699c2dd63ab03

@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Dominik Pallo
 Category: players
 Slug: player-73bcf2cfd15f8ddb

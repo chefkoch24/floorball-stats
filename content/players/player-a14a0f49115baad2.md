@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Paul Neubert
 Category: players
 Slug: player-a14a0f49115baad2

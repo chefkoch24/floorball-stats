@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Maciej Jastrzebski
 Category: players
 Slug: player-bda2d8728554fe9c

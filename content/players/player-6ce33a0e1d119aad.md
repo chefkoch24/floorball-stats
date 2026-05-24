@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Peter-pavol Nováky
 Category: players
 Slug: player-6ce33a0e1d119aad

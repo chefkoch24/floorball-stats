@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Maurin Biner
 Category: players
 Slug: player-25fd6df2cb35cf17

@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Eddie Rigogiannis Granlöf
 Category: players
 Slug: player-9dc47a474ac1c908

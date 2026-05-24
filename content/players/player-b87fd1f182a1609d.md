@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Joona Kuronen
 Category: players
 Slug: player-b87fd1f182a1609d

@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Simon Berg
 Category: players
 Slug: player-40c6bd0c0f3e869f

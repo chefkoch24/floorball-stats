@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Filip Forman
 Category: players
 Slug: player-2cf4db881ec2143f

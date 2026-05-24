@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Nelson Hegge
 Category: players
 Slug: player-7a0b90c9efe68a4d

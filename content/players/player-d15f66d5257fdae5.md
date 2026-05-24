@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Silas Findeklee
 Category: players
 Slug: player-d15f66d5257fdae5

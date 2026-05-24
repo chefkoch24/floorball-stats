@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Šimon Ruber
 Category: players
 Slug: player-8afaefb7df26653b

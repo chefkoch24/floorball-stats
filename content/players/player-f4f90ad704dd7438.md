@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Tomáš Bulejčík
 Category: players
 Slug: player-f4f90ad704dd7438

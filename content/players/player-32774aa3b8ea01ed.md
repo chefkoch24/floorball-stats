@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Edvards Katkovskis
 Category: players
 Slug: player-32774aa3b8ea01ed

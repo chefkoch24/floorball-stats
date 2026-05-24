@@ -1,4 +1,4 @@
-Date: 2026-05-18
+Date: 2026-05-24
 Title: Eeli Süar
 Category: players
 Slug: player-7153db2e5dedbb35
