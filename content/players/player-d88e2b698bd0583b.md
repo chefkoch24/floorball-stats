@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Vojtěch Novák
 Category: players
 Slug: player-d88e2b698bd0583b

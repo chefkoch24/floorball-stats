@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Petr Vávra
 Category: players
 Slug: player-cafd6c66261afdab

@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Filip Norman
 Category: players
 Slug: player-c41a2ce063ecbb0f

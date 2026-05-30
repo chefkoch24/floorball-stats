@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Jānis Plots
 Category: players
 Slug: player-ef355c819e74ffd8

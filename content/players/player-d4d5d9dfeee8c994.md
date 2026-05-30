@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Richard Cvacho
 Category: players
 Slug: player-d4d5d9dfeee8c994

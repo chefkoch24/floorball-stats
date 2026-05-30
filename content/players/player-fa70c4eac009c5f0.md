@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Samuli Junnila
 Category: players
 Slug: player-fa70c4eac009c5f0

@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Jorens Štāls
 Category: players
 Slug: player-3a50791caf2ee07e

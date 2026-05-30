@@ -1,4 +1,4 @@
-Date: 2026-05-24
+Date: 2026-05-30
 Title: Patrik Šebek
 Category: players
 Slug: player-9f55b1126beb44e8
