@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Santeri Uusi-Laitila
 Category: players
 Slug: player-8cb684d5eda1f4c3

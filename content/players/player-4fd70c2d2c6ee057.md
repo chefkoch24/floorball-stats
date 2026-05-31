@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Noah Püntener
 Category: players
 Slug: player-4fd70c2d2c6ee057

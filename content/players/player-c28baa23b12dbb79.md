@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Bohumil Piskáček
 Category: players
 Slug: player-c28baa23b12dbb79

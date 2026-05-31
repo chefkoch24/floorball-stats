@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Roberts Trofimenko
 Category: players
 Slug: player-b6026c7acb31d283

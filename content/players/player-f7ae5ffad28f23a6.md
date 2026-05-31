@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Matúš Turan
 Category: players
 Slug: player-f7ae5ffad28f23a6

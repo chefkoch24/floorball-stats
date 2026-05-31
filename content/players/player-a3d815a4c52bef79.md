@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Juuso Suotula
 Category: players
 Slug: player-a3d815a4c52bef79

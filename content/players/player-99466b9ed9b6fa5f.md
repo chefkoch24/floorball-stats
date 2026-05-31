@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Jakub Bohuslávek
 Category: players
 Slug: player-99466b9ed9b6fa5f

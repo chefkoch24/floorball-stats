@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: (Masters Ulbroka/LU) bumbiņa savos vārtos
 Category: players
 Slug: player-a33fc5a3b83aa57f

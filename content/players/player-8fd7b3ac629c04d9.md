@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Bartoloměj Smolka
 Category: players
 Slug: player-8fd7b3ac629c04d9

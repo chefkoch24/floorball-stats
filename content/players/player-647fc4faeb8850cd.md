@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Róbert Hamrák
 Category: players
 Slug: player-647fc4faeb8850cd

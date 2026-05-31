@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Marcel JAKUBEC
 Category: players
 Slug: player-e944c6b1c9b8e6d2

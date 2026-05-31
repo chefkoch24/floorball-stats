@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Aaro Haverinen
 Category: players
 Slug: player-dfad0c1c21da522c

@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Turwoń Mateusz
 Category: players
 Slug: player-1b4f6ddb7217a0e1

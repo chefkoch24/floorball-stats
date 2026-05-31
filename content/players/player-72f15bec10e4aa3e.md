@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Jooa Palojoki
 Category: players
 Slug: player-72f15bec10e4aa3e

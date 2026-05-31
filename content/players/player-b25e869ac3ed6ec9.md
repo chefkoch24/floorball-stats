@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Pārstāvis Jānis Trēziņš
 Category: players
 Slug: player-b25e869ac3ed6ec9

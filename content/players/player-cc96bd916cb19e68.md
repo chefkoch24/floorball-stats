@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Elias Haataja
 Category: players
 Slug: player-cc96bd916cb19e68

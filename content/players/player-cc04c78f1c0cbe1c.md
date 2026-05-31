@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Levin Hirsch
 Category: players
 Slug: player-cc04c78f1c0cbe1c

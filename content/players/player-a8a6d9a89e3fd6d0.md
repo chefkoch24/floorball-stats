@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Daniel Vik
 Category: players
 Slug: player-a8a6d9a89e3fd6d0

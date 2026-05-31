@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Rudolf Koleda
 Category: players
 Slug: player-b7395c3db71123bb

@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Tuomas Huhtala
 Category: players
 Slug: player-f3654a5ccef6c78a

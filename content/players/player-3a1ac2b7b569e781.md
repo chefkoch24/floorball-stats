@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Aapo Lokasaari
 Category: players
 Slug: player-3a1ac2b7b569e781

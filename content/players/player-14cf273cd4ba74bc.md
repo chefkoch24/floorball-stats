@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Kryštof Krbec
 Category: players
 Slug: player-14cf273cd4ba74bc

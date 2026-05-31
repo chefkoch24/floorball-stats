@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Pārstāvis Klāvs Ozoliņš
 Category: players
 Slug: player-0abf22d158c447e5

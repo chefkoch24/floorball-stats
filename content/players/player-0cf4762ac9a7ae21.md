@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Lukas Karlsson
 Category: players
 Slug: player-0cf4762ac9a7ae21

@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Adam KOS
 Category: players
 Slug: player-b48ec5ea5dc5059c

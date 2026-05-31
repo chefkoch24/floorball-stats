@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Iiro Rantaniemi
 Category: players
 Slug: player-c9ebedd1c6b9c0b7

@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Matúš Pintér
 Category: players
 Slug: player-3e028d1ef0e7662a

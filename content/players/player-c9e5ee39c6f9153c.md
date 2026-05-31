@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Michael Schwizer
 Category: players
 Slug: player-c9e5ee39c6f9153c

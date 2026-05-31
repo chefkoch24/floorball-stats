@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Henriks Šķēle
 Category: players
 Slug: player-05eb57b0c4d2ae22

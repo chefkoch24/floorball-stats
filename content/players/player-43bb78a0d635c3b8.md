@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Oscar Rohlin
 Category: players
 Slug: player-43bb78a0d635c3b8

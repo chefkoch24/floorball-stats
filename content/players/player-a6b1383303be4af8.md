@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Jannes Wolff
 Category: players
 Slug: player-a6b1383303be4af8

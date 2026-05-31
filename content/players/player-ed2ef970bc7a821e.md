@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Dāvis Zēmelis
 Category: players
 Slug: player-ed2ef970bc7a821e

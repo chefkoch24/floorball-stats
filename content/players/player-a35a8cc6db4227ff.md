@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Dmitrii Rogatykh
 Category: players
 Slug: player-a35a8cc6db4227ff

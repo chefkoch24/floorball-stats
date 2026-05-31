@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Philip Kampe
 Category: players
 Slug: player-9936dfa3d05a74b9

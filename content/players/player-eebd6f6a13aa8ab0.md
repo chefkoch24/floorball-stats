@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Renārs Kovaļovs
 Category: players
 Slug: player-eebd6f6a13aa8ab0

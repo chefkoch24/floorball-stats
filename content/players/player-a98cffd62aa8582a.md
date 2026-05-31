@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Treneris Arvis Kārkliņš
 Category: players
 Slug: player-a98cffd62aa8582a

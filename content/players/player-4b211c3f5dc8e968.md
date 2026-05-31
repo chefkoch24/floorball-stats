@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Artis Raitums
 Category: players
 Slug: player-4b211c3f5dc8e968

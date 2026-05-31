@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Henry Wilhelm Mursch
 Category: players
 Slug: player-8fe3edd1438bf7e4

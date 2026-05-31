@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Fabian Berg
 Category: players
 Slug: player-9507b6add068c2ea

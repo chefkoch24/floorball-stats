@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Kalle Karlsson
 Category: players
 Slug: player-27999c22dbd8ad5f

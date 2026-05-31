@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Hugo Liljeros
 Category: players
 Slug: player-0cc52cfe9e58aacd

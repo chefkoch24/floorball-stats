@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Casper Karlsson
 Category: players
 Slug: player-afa07e9f4ebf38e4

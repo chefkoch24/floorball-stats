@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Sweden Player Stats 25/26 Regular Season
 Category: se-25-26-regular-season-players
 Slug: se-25-26-regular-season-players

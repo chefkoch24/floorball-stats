@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Dan Hartmann
 Category: players
 Slug: player-5bc855d4ac27c3b3

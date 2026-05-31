@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Mediķis Jolanta Tauriņa-Ieveniece
 Category: players
 Slug: player-7c65de6cd37c84da

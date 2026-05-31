@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Kevin Mähler
 Category: players
 Slug: player-f3bdcbf9b518abf3

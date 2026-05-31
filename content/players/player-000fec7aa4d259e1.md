@@ -1,4 +1,4 @@
-Date: 2026-05-30
+Date: 2026-05-31
 Title: Eppu Suhanto
 Category: players
 Slug: player-000fec7aa4d259e1
