@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Georg-Martin Gahnz
 Category: players
 Slug: player-eb95b6200ee80ebe

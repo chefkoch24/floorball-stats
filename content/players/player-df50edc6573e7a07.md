@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Johan Palmqvist
 Category: players
 Slug: player-df50edc6573e7a07

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Gabriel Bonifacio
 Category: players
 Slug: player-17a84c4af97aed0b

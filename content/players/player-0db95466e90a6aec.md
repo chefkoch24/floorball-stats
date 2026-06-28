@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: WG
 Category: players
 Slug: player-0db95466e90a6aec

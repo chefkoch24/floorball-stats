@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Gian-Luca Flisch
 Category: players
 Slug: player-070edadc52c196ea

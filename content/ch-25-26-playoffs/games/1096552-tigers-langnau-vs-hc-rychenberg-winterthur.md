@@ -79,7 +79,7 @@ timeline_diffs_csv: 0,-1,0,-1,-2,-1,-2,-3,-2,-3,-4,-3,-4,-5,-4
 timeline_home_goals_csv: 0,0,1,1,1,2,2,2,3,3,3,4,4,4,5
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0,4.82,13.12,17.12,20.62,24.4,30.38,31.53,36.92,46.42,49.65,52.67,54.28,56.05,57.38
-venue: Espace-Arena Biglen
+venue: Unihoc Arena Biglen
 home_away_points: 0
 home_boxplay: 4
 home_boxplay_efficiency: 0.0

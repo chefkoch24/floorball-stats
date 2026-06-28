@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Georgs Māziņš
 Category: players
 Slug: player-a5dc4ad2c4a386de

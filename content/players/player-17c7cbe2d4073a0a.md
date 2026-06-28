@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Miķelis Koknesis Roops
 Category: players
 Slug: player-17c7cbe2d4073a0a

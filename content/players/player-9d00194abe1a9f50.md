@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Linus Nestorsson
 Category: players
 Slug: player-9d00194abe1a9f50

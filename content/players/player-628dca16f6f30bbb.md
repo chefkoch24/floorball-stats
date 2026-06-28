@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Jakub Šváb
 Category: players
 Slug: player-628dca16f6f30bbb

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Gvido Lauga
 Category: players
 Slug: player-97fb21327dae3fcb

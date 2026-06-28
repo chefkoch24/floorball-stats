@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Emīls Šūmanis
 Category: players
 Slug: player-b8d8f0cf1034ae1b

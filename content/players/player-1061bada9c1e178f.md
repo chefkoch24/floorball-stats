@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Karl-Erik Kruusmaa
 Category: players
 Slug: player-1061bada9c1e178f

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Felix Skand
 Category: players
 Slug: player-e0ec84f583c16b0d

@@ -6,7 +6,7 @@ type: game
 game_id: 1097067
 home_team: Zug United
 away_team: HC Rychenberg Winterthur
-attendance: 8842
+attendance: 498
 away_goal_diffs_csv: -1,-2,-3,-4
 away_goal_minutes_csv: 2.68,23.6,23.68,33.13
 away_major_penalty_minutes_csv: 

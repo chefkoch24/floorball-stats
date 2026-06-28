@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Sebastian Mathis
 Category: players
 Slug: player-4a40ebcc6844a512

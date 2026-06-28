@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Fabian Alex
 Category: players
 Slug: player-d769743ba9cb1e66

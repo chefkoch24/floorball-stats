@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Deniz Jäger
 Category: players
 Slug: player-f1f1ebdd3f2347ce

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Petr Brautferger
 Category: players
 Slug: player-48e0f6b0a7dc4b46

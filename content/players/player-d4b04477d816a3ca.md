@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Adam Forslöv
 Category: players
 Slug: player-d4b04477d816a3ca

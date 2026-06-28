@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Simon Johansson
 Category: players
 Slug: player-dcc9a96d1eb6ab9f

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Martin Horn
 Category: players
 Slug: player-83ecff42fdeb70f8

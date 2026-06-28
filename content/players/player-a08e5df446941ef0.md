@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Adam Zubek
 Category: players
 Slug: player-a08e5df446941ef0

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Julien Huther
 Category: players
 Slug: player-dd3b0f61dc3f7265

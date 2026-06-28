@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Alexander Måhlberg
 Category: players
 Slug: player-9acda2c5904317ab

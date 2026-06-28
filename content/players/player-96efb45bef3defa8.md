@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Arwid Hedlund
 Category: players
 Slug: player-96efb45bef3defa8

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Yannick Lindroos
 Category: players
 Slug: player-f2eed087518b27b5

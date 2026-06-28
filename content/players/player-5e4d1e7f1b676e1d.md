@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Lukas Franck
 Category: players
 Slug: player-5e4d1e7f1b676e1d

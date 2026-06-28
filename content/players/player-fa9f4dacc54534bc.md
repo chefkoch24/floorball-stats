@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Ilmari Aarela
 Category: players
 Slug: player-fa9f4dacc54534bc

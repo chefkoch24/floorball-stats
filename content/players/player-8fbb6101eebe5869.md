@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Marcel Stucki
 Category: players
 Slug: player-8fbb6101eebe5869

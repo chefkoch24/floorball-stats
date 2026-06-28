@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Dawid Kostrzewa
 Category: players
 Slug: player-fac99198d1862b2b

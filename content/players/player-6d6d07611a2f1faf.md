@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Filip Alex Vrábel
 Category: players
 Slug: player-6d6d07611a2f1faf

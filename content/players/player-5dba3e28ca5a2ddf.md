@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Noel Seiler
 Category: players
 Slug: player-5dba3e28ca5a2ddf

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Patrick Hering
 Category: players
 Slug: player-fdb61464108a7db4

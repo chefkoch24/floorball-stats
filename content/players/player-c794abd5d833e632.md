@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Šuška Ján
 Category: players
 Slug: player-c794abd5d833e632

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Mathias Einamann
 Category: players
 Slug: player-cd6a14f9b53dd84c

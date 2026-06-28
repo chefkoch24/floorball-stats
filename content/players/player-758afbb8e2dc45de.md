@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Markus Jelsnes
 Category: players
 Slug: player-758afbb8e2dc45de

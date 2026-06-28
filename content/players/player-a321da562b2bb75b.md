@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Emīls Zaicevs
 Category: players
 Slug: player-a321da562b2bb75b

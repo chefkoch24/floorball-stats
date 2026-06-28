@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Artis Saldatenoks
 Category: players
 Slug: player-885bb039edb53e40

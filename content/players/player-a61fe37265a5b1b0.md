@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Jan Malič
 Category: players
 Slug: player-a61fe37265a5b1b0

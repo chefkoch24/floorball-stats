@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Artūrs Jurševskis
 Category: players
 Slug: player-b2f4c04afceb8283

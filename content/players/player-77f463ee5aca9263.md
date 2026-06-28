@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Jonáš Kůra
 Category: players
 Slug: player-77f463ee5aca9263

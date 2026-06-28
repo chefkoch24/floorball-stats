@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Lucas Orrmo
 Category: players
 Slug: player-4ccef335c81308e8

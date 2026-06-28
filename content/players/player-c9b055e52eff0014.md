@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Jarno Pensikkala
 Category: players
 Slug: player-c9b055e52eff0014

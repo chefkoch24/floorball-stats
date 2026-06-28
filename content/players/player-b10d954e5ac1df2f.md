@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Oskar Petersson
 Category: players
 Slug: player-b10d954e5ac1df2f

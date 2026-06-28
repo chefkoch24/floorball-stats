@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Simon Götz
 Category: players
 Slug: player-4c9ad3c8619d6b30

@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Pārstāvis Laura Viļumsone
 Category: players
 Slug: player-f75b39164b3f8bc5

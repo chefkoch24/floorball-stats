@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Isac Olsson Ferm
 Category: players
 Slug: player-3593069bddcfd366

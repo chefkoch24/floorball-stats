@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Mathis Benndorf
 Category: players
 Slug: player-8f52123cc693bfe6

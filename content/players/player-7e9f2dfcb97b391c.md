@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Oskari Kauppila
 Category: players
 Slug: player-7e9f2dfcb97b391c

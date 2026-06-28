@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Boran Jäger
 Category: players
 Slug: player-4be36a1ee568bdc7

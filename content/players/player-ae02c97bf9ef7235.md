@@ -1,4 +1,4 @@
-Date: 2026-05-31
+Date: 2026-06-28
 Title: Rostislav Gattnar
 Category: players
 Slug: player-ae02c97bf9ef7235
