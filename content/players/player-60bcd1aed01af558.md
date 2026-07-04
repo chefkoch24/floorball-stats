@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Alexander Isberg
 Category: players
 Slug: player-60bcd1aed01af558
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 65
+rank: 55
 season: se-25-26

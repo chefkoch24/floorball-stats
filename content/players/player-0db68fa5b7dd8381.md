@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Tjorven Dethlefsen
 Category: players
 Slug: player-0db68fa5b7dd8381

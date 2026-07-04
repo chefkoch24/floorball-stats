@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Gints Siliņš
 Category: players
 Slug: player-9b90b7b8671fd08b

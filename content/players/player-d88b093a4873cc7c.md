@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Simon Karlsson
 Category: players
 Slug: player-d88b093a4873cc7c

@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Nicola Bischofberger
 Category: players
 Slug: player-55b996c6c1ca3d51

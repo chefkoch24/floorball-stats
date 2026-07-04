@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Karljohan Ahlroth
 Category: players
 Slug: player-14597dbbb58f86c9
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 79
+rank: 71
 season: se-25-26

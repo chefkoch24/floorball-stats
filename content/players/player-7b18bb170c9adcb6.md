@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Anton Hedin
 Category: players
 Slug: player-7b18bb170c9adcb6
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 92
+rank: 79
 season: se-25-26

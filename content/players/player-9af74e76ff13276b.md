@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Victor Jensen
 Category: players
 Slug: player-9af74e76ff13276b
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 101
+rank: 91
 season: se-25-26

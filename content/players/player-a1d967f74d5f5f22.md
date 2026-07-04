@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Victor Regalado
 Category: players
 Slug: player-a1d967f74d5f5f22

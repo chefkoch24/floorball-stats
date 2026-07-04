@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Oskar Liberg
 Category: players
 Slug: player-12000aba40e1b4c9
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 159
+rank: 154
 season: se-25-26

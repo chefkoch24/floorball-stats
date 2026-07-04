@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Alexander Galante Carlström
 Category: players
 Slug: player-dcc8e8549d305b39

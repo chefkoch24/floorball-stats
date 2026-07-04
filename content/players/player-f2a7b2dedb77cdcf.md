@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Sebastian Theorin
 Category: players
 Slug: player-f2a7b2dedb77cdcf
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 164
+rank: 160
 season: se-25-26

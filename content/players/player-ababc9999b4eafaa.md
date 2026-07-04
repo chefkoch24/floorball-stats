@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Anton Willsund
 Category: players
 Slug: player-ababc9999b4eafaa
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 1
-rank: 75
+rank: 64
 season: se-25-26

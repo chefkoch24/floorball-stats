@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Nils Hofferbert
 Category: players
 Slug: player-4ee2edf0e1043cfc

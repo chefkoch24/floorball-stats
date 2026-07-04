@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Erik Freund
 Category: players
 Slug: player-28f2562a7f4e3db0

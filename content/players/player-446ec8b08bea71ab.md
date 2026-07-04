@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Måns Höglin
 Category: players
 Slug: player-446ec8b08bea71ab
@@ -11,7 +11,7 @@ season_count: 1
 current_season: se-25-26
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 35
+current_games: 30
 current_goals: 4
 current_assists: 7
 current_points: 11
@@ -21,7 +21,7 @@ regular_goals: 4
 regular_assists: 6
 regular_points: 10
 regular_pim: 10
-playoff_games: 9
+playoff_games: 4
 playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 35
+career_games: 30
 career_goals: 4
 career_assists: 7
 career_points: 11
 career_pim: 14
-history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|9|0|1|1|4||se-25-26|regular-season|Sweden|Växjö IBK|26|4|6|10|10
+history_rows_csv: se-25-26|playoffs|Sweden|Växjö IBK|4|0|1|1|4||se-25-26|regular-season|Sweden|Växjö IBK|26|4|6|10|10
 assists: 1
-games: 9
+games: 4
 goals: 0
 penalties: 2
 phase: playoffs
 pim: 4
 points: 1
-rank: 96
+rank: 85
 season: se-25-26

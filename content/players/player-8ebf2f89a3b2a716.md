@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Tobias Lindström
 Category: players
 Slug: player-8ebf2f89a3b2a716
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 165
+rank: 163
 season: se-25-26

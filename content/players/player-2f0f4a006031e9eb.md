@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Viljami Virtanen
 Category: players
 Slug: player-2f0f4a006031e9eb

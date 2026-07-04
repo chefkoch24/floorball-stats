@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Benjamin Schill
 Category: players
 Slug: player-a7880cf24ba6c26e
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 93
+rank: 81
 season: se-25-26

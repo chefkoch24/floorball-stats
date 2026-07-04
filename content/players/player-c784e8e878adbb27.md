@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Jakub Faksa
 Category: players
 Slug: player-c784e8e878adbb27
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 5
-rank: 34
+rank: 20
 season: se-25-26

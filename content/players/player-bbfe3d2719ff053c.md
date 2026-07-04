@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Oskars Kuzins
 Category: players
 Slug: player-bbfe3d2719ff053c

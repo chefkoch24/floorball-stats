@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Patrik Gustavsson
 Category: players
 Slug: player-1a95f42b6bceb353
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 0
-rank: 160
+rank: 155
 season: se-25-26

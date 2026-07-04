@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Aphichet Ratanaprathum
 Category: players
 Slug: player-6f4864cadfb757dd

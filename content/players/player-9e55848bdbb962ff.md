@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Mačňák Marián
 Category: players
 Slug: player-9e55848bdbb962ff

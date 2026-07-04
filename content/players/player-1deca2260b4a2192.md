@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Antonín Stárek
 Category: players
 Slug: player-1deca2260b4a2192

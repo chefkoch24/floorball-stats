@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Kevin Haglund
 Category: players
 Slug: player-01b45400b195ffed
@@ -44,5 +44,5 @@ penalties: 4
 phase: playoffs
 pim: 8
 points: 4
-rank: 43
+rank: 30
 season: se-25-26

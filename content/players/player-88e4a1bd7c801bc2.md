@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: (FK Irlava/I.S.A.M.) bumbiņa savos vārtos
 Category: players
 Slug: player-88e4a1bd7c801bc2

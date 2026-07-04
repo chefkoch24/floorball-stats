@@ -1,4 +1,4 @@
-Date: 2026-06-28
+Date: 2026-07-04
 Title: Ričards Riekstiņš
 Category: players
 Slug: player-4bba36dc7083ba2b
