@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Emil Ruud
 Category: players
 Slug: player-e12012fab374a61e

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Mattias Lövenfors
 Category: players
 Slug: player-e8bdd5e11bcfb262
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 313
+rank: 314
 season: se-25-26

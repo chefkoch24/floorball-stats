@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Pawat Thaidit
 Category: players
 Slug: player-e28ad563e5efa56a

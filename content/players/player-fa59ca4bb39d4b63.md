@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Kristiāns Čakāns
 Category: players
 Slug: player-fa59ca4bb39d4b63

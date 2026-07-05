@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Oskar Andersson
 Category: players
 Slug: player-86fe46bfa1129c56
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 215
+rank: 216
 season: se-25-26

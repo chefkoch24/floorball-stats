@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Nando Schmellentin
 Category: players
 Slug: player-4eb57a5a990772dd

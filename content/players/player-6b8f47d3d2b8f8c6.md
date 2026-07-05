@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Fabian Lindbäck
 Category: players
 Slug: player-6b8f47d3d2b8f8c6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 248
+rank: 249
 season: se-25-26

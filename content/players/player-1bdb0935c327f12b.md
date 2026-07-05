@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jānis Škutāns
 Category: players
 Slug: player-1bdb0935c327f12b

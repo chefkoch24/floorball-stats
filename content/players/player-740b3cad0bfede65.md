@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Fabian Sammemyr
 Category: players
 Slug: player-740b3cad0bfede65

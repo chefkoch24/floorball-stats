@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Anders Skoog
 Category: players
 Slug: player-0108855820acfbda
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 17
-rank: 79
+rank: 80
 season: se-25-26

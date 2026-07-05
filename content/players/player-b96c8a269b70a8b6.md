@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Måns Andersson
 Category: players
 Slug: player-b96c8a269b70a8b6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 205
+rank: 206
 season: se-25-26

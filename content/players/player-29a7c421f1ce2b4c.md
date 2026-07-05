@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jakub Blaško
 Category: players
 Slug: player-29a7c421f1ce2b4c

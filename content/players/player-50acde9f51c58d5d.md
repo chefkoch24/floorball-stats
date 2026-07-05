@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Daniel Gabrielsson
 Category: players
 Slug: player-50acde9f51c58d5d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 277
+rank: 278
 season: se-25-26

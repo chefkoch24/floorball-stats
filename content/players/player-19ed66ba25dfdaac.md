@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Samuel Kerekeš
 Category: players
 Slug: player-19ed66ba25dfdaac

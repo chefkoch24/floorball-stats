@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Joel Nyström
 Category: players
 Slug: player-bf4c84671d02ffe7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 198
+rank: 199
 season: se-25-26

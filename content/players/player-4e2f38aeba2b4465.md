@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Filip Larsson
 Category: players
 Slug: player-4e2f38aeba2b4465
@@ -44,5 +44,5 @@ penalties: 7
 phase: regular-season
 pim: 14
 points: 13
-rank: 102
+rank: 103
 season: se-25-26

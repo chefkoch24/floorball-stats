@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Ville Hirvisuo
 Category: players
 Slug: player-0429a7cf93860fcc
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 15
-rank: 87
+rank: 88
 season: se-25-26

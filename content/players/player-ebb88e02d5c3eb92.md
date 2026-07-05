@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Luka Podobnik
 Category: players
 Slug: player-ebb88e02d5c3eb92

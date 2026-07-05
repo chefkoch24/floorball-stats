@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Ludvig Stegius
 Category: players
 Slug: player-8c5bc1e7b68a262d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 235
+rank: 236
 season: se-25-26

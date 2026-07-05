@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Fabian Berg
 Category: players
 Slug: player-9507b6add068c2ea
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 247
+rank: 248
 season: se-25-26

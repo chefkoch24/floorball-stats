@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Olle Jonsson
 Category: players
 Slug: player-7a15fcad31df9b9d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 324
+rank: 325
 season: se-25-26

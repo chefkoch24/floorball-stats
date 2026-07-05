@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jonatan Lie
 Category: players
 Slug: player-cbca72a4e6c77158

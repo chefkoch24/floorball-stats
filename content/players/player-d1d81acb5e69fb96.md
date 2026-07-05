@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Vilgot Kronstrand
 Category: players
 Slug: player-d1d81acb5e69fb96
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 24
-rank: 60
+rank: 61
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Hugo Lindberg
 Category: players
 Slug: player-97a2211ea853fcd8
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 14
-rank: 98
+rank: 99
 season: se-25-26

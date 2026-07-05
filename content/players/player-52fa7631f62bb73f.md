@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Miroslav Řehák
 Category: players
 Slug: player-52fa7631f62bb73f

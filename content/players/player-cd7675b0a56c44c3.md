@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Wille Jäderlund
 Category: players
 Slug: player-cd7675b0a56c44c3
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 200
+rank: 201
 season: se-25-26

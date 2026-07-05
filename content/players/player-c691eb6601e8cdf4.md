@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Tim Böttcher
 Category: players
 Slug: player-c691eb6601e8cdf4

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Noah Johansson
 Category: players
 Slug: player-9e4ced642e08ae83
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 37
-rank: 23
+rank: 24
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Joel Lundell
 Category: players
 Slug: player-69446457ffd1f7fb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 255
+rank: 256
 season: se-25-26

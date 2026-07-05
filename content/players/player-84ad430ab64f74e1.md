@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Axel Veress
 Category: players
 Slug: player-84ad430ab64f74e1
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 195
+rank: 196
 season: se-25-26

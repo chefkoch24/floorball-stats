@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Alexander Lindh
 Category: players
 Slug: player-18f21d8b7fe6d0e9
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 201
+rank: 202
 season: se-25-26

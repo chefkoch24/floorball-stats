@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jan BUZÍK
 Category: players
 Slug: player-27e6e84dbe38ada8

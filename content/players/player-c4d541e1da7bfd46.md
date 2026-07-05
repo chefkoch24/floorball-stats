@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jesper Lagemyr
 Category: players
 Slug: player-c4d541e1da7bfd46
@@ -44,5 +44,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 24
-rank: 58
+rank: 59
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Anton Klinth
 Category: players
 Slug: player-1bce27faf53856ed
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 179
+rank: 180
 season: se-25-26

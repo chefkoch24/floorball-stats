@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Adam Bäck
 Category: players
 Slug: player-f1b2bc0a9c8eaed1
@@ -44,5 +44,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 32
-rank: 32
+rank: 33
 season: se-25-26

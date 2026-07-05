@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Anton Svanberg
 Category: players
 Slug: player-c38559c94dcc7eea
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 40
-rank: 18
+rank: 19
 season: se-25-26

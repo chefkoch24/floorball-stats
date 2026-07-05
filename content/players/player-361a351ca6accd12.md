@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Riku Ruonakangas
 Category: players
 Slug: player-361a351ca6accd12

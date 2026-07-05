@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Anton Birgersson
 Category: players
 Slug: player-294f42d92ddd237a
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 26
-rank: 53
+rank: 54
 season: se-25-26

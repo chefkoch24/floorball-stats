@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Andreas Pernhall
 Category: players
 Slug: player-268eb0aed635874f

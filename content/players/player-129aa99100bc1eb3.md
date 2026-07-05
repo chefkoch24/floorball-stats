@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Emil Nilsen
 Category: players
 Slug: player-129aa99100bc1eb3
@@ -44,5 +44,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 20
-rank: 75
+rank: 76
 season: se-25-26

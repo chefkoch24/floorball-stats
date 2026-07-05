@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Tim Lindgren
 Category: players
 Slug: player-d7f7383a12a0ebe2
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 26
-rank: 52
+rank: 53
 season: se-25-26

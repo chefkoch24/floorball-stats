@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Andreas Wisén
 Category: players
 Slug: player-af8a0ad1178615d9
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 225
+rank: 226
 season: se-25-26

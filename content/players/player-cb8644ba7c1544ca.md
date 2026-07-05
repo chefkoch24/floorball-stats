@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Hugo Jonsson
 Category: players
 Slug: player-cb8644ba7c1544ca
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 11
-rank: 124
+rank: 125
 season: se-25-26

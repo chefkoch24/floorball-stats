@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Pēteris Zeltiņš
 Category: players
 Slug: player-48e593b5eeec4ab1

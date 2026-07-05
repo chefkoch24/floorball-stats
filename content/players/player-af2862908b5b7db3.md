@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Morics Krumins
 Category: players
 Slug: player-af2862908b5b7db3
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 15
-rank: 89
+rank: 90
 season: se-25-26

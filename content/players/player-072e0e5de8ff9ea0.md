@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Albin Lindbladh
 Category: players
 Slug: player-072e0e5de8ff9ea0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 230
+rank: 231
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Oscar Rohlin
 Category: players
 Slug: player-43bb78a0d635c3b8
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 47
-rank: 14
+rank: 15
 season: se-25-26

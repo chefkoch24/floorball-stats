@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Marius Schwartz
 Category: players
 Slug: player-13e9889824fa0daa

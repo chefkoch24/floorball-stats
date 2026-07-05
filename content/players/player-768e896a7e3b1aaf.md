@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Tim Glindemann
 Category: players
 Slug: player-768e896a7e3b1aaf

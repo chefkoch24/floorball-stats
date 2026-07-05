@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Reinis Kalniņš
 Category: players
 Slug: player-3afe97ee1d505a37

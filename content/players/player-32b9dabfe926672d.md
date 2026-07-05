@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Martin Kvisvik
 Category: players
 Slug: player-32b9dabfe926672d

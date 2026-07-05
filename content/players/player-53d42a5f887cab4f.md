@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Michal Bujna
 Category: players
 Slug: player-53d42a5f887cab4f

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Leo Olsson
 Category: players
 Slug: player-17168dc1c3ae64e5
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 10
-rank: 133
+rank: 134
 season: se-25-26

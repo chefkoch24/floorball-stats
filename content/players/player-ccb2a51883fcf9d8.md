@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Noah Sicat Larano
 Category: players
 Slug: player-ccb2a51883fcf9d8

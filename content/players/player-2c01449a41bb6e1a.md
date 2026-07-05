@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Martins Traubergs
 Category: players
 Slug: player-2c01449a41bb6e1a

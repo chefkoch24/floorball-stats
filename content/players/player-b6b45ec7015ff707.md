@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Simon Möller
 Category: players
 Slug: player-b6b45ec7015ff707
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 187
+rank: 188
 season: se-25-26

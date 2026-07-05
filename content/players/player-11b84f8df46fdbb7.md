@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Lucas Lindberg
 Category: players
 Slug: player-11b84f8df46fdbb7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 22
-rank: 66
+rank: 67
 season: se-25-26

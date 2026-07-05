@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Andreas Stefansson
 Category: players
 Slug: player-b5dd5744eef01114

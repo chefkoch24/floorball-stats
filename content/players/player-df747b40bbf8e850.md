@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Pelle Hansson
 Category: players
 Slug: player-df747b40bbf8e850
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 24
-rank: 57
+rank: 58
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Daniel Fehér
 Category: players
 Slug: player-f2d91fbe7a378a56

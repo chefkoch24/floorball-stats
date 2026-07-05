@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Melvin Hildingsson
 Category: players
 Slug: player-8fa7eda70720a59c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 315
+rank: 316
 season: se-25-26

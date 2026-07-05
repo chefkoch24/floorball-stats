@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Filip Norman
 Category: players
 Slug: player-c41a2ce063ecbb0f
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 10
-rank: 127
+rank: 128
 season: se-25-26

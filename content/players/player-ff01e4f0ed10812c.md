@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Kevin Bergman
 Category: players
 Slug: player-ff01e4f0ed10812c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 301
+rank: 302
 season: se-25-26

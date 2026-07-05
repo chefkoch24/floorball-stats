@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jonas Rosén
 Category: players
 Slug: player-b17b8ab8e208e60d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 16
-rank: 83
+rank: 84
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Frederik Hans
 Category: players
 Slug: player-f5fb13b2b823e9b5

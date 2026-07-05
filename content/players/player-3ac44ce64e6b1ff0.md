@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Alvis Dāle
 Category: players
 Slug: player-3ac44ce64e6b1ff0

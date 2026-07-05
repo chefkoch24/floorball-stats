@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Simon Johansson
 Category: players
 Slug: player-dcc9a96d1eb6ab9f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 238
+rank: 239
 season: se-25-26

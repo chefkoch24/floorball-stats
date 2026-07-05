@@ -1,4 +1,4 @@
-Date: 2026-07-04
+Date: 2026-07-05
 Title: Jonathan Blomqvist
 Category: players
 Slug: player-a7b95785029d9bdb
@@ -44,5 +44,5 @@ penalties: 6
 phase: regular-season
 pim: 12
 points: 14
-rank: 93
+rank: 94
 season: se-25-26
