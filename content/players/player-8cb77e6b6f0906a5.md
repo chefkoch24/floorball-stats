@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Johannes Jens Voigt
 Category: players
 Slug: player-8cb77e6b6f0906a5

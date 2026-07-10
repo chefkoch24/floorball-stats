@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Linards Putniņš
 Category: players
 Slug: player-fafc269ca0bdf535

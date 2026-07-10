@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Niklas Kunath
 Category: players
 Slug: player-7cc15de1644d14be

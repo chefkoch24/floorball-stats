@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Lucas Grünewald
 Category: players
 Slug: player-b8b7752e55add606

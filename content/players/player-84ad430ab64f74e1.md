@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Axel Veress
 Category: players
 Slug: player-84ad430ab64f74e1

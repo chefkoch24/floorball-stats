@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Rickard Rydell
 Category: players
 Slug: player-d9f3b3b7ca6c5cf9

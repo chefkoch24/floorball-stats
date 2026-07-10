@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Wille Jäderlund
 Category: players
 Slug: player-cd7675b0a56c44c3

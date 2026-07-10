@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Eetu Ijäs
 Category: players
 Slug: player-bff3d97f25d5257d

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Karlis Stukans
 Category: players
 Slug: player-ac888a6686f804ed

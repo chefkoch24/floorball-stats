@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Måns Höglin
 Category: players
 Slug: player-446ec8b08bea71ab

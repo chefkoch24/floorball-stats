@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Lukáš Rada
 Category: players
 Slug: player-41733fe396f71eff

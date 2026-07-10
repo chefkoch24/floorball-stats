@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Jakub Gruber
 Category: players
 Slug: player-07d82d9e7dc5b1d8

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Oscar Galow
 Category: players
 Slug: player-4568f3b03f2ea47a

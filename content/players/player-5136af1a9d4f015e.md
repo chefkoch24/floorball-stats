@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: David Lichtwer
 Category: players
 Slug: player-5136af1a9d4f015e

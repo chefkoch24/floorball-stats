@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Šimočko Matúš
 Category: players
 Slug: player-7f0cb2685a1b8d52

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Linus Hedlund
 Category: players
 Slug: player-5cdd16fc5952fb43

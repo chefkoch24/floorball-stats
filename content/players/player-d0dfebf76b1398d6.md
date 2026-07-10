@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Niks Nagliņš
 Category: players
 Slug: player-d0dfebf76b1398d6

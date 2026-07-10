@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: IFF WFC Player Stats wfc-2024 Tournament
 Category: wfc-2024-players
 Slug: wfc-2024-players

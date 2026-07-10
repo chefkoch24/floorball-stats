@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Germany Player Stats 25-26 Regular Season
 Category: 25-26-regular-season-players
 Slug: 25-26-regular-season-players

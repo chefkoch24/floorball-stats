@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Pontus Nilsson
 Category: players
 Slug: player-243c26c93ffd18c1

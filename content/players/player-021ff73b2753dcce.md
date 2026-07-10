@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Arthur Lorenz
 Category: players
 Slug: player-021ff73b2753dcce

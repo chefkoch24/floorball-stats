@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Eetu Puntanen
 Category: players
 Slug: player-ca8b64d47c8c6ef7

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Tomáš Ondračka
 Category: players
 Slug: player-bcb326821bd38f57

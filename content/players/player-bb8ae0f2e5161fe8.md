@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Aleksejs Jakovļevs
 Category: players
 Slug: player-bb8ae0f2e5161fe8

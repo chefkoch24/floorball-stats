@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Michal Strachota
 Category: players
 Slug: player-840a79255a6afbb1

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Jaakko Rannanjärvi
 Category: players
 Slug: player-233208bede9aff3b

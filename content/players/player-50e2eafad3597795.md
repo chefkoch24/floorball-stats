@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Jakub Hubálek
 Category: players
 Slug: player-50e2eafad3597795

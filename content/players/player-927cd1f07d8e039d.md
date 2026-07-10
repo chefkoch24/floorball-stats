@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Krišjānis Tiltiņš
 Category: players
 Slug: player-927cd1f07d8e039d

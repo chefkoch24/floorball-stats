@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Treneris Mārtiņš Rūgums
 Category: players
 Slug: player-2c9d3acaca710619

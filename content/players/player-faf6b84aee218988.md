@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Robert Perl
 Category: players
 Slug: player-faf6b84aee218988

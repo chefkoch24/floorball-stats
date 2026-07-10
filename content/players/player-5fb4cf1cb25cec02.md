@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Tuomas Hirn
 Category: players
 Slug: player-5fb4cf1cb25cec02

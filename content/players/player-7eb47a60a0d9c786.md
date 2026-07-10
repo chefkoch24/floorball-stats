@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Marek HOZMAN
 Category: players
 Slug: player-7eb47a60a0d9c786

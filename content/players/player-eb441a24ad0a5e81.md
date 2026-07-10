@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Fynn Roth
 Category: players
 Slug: player-eb441a24ad0a5e81

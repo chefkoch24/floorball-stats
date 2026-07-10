@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Vyšňan Matej
 Category: players
 Slug: player-ed95e8861fbdda3b

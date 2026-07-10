@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Khemmathat Chummak
 Category: players
 Slug: player-d8ae2da0d9327a6a

@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: (Bauska) bumbiņa savos vārtos
 Category: players
 Slug: player-e39af93a2e5b30c7

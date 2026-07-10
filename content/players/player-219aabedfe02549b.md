@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Jere Hiironen
 Category: players
 Slug: player-219aabedfe02549b

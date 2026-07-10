@@ -1,4 +1,4 @@
-Date: 2026-07-05
+Date: 2026-07-10
 Title: Cedric Söderberg
 Category: players
 Slug: player-61e92abde9ed06ff
