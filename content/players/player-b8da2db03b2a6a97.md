@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: (Lielvārde/Unihoc) bumbiņa savos vārtos
 Category: players
 Slug: player-b8da2db03b2a6a97

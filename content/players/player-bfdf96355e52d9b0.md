@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Michal Sifra
 Category: players
 Slug: player-bfdf96355e52d9b0

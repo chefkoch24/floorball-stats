@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Adam Bäck
 Category: players
 Slug: player-f1b2bc0a9c8eaed1

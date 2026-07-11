@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Tim Suter
 Category: players
 Slug: player-1efdccec7fa64c07

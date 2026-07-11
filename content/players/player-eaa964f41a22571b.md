@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Johannes Grimm
 Category: players
 Slug: player-eaa964f41a22571b

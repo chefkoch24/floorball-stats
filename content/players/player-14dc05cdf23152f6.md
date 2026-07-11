@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Jakub Procházka
 Category: players
 Slug: player-14dc05cdf23152f6

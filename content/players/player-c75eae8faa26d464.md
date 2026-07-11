@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Sandris Virsnītis
 Category: players
 Slug: player-c75eae8faa26d464

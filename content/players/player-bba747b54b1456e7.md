@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Kristiāns Kociņš
 Category: players
 Slug: player-bba747b54b1456e7

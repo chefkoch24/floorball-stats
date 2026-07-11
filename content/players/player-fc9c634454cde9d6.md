@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Svens Balodis
 Category: players
 Slug: player-fc9c634454cde9d6

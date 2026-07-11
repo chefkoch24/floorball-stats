@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Joona Heiskanen
 Category: players
 Slug: player-b51958067fed9c9a

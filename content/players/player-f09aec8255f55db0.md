@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Leo Sagmander Kjell
 Category: players
 Slug: player-f09aec8255f55db0

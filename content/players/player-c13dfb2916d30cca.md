@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Jakub Baksay
 Category: players
 Slug: player-c13dfb2916d30cca

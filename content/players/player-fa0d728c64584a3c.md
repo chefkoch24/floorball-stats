@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Niko Einiö
 Category: players
 Slug: player-fa0d728c64584a3c

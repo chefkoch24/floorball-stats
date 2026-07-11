@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Noga Matej
 Category: players
 Slug: player-494f11a9de0d9c27

@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Jānis Ragovskis
 Category: players
 Slug: player-7b5dfac3765e6f32

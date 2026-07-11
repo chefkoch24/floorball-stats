@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Miikka Martikainen
 Category: players
 Slug: player-0e1ccce3263d6a19

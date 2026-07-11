@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Tobias Gustafsson
 Category: players
 Slug: player-e560b0dcfdbbbfb5

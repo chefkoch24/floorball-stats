@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Oliver Sillanpää
 Category: players
 Slug: player-f0f26b83e098d7cd

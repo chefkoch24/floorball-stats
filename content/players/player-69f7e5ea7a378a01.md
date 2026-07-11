@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Lauris Nazarovs
 Category: players
 Slug: player-69f7e5ea7a378a01

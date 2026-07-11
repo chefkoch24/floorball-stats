@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Niklas Janne Blanke
 Category: players
 Slug: player-9fe481dd06a94e8e

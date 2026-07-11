@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Adam Tůma
 Category: players
 Slug: player-ea874c69ee740b78

@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Emil Mattsson
 Category: players
 Slug: player-4f8a2d65936f24fd

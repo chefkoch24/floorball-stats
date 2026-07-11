@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Gabriel Erol
 Category: players
 Slug: player-8019e4cdedcd1d6c

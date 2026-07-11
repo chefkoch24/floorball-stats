@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Maximilian Schrick
 Category: players
 Slug: player-824b0b5cc038b5f2

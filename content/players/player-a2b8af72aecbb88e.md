@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Tim Glücki
 Category: players
 Slug: player-a2b8af72aecbb88e

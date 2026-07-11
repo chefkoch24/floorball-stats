@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Renārs Stančiks
 Category: players
 Slug: player-f90b4b4fa9d98857

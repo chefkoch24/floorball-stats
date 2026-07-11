@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Wilmer Jansson
 Category: players
 Slug: player-0bfac0ea34ed56f3

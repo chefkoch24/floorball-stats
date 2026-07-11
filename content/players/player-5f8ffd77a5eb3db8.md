@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Jan Procházka
 Category: players
 Slug: player-5f8ffd77a5eb3db8

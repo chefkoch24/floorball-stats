@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Teemu Halmela
 Category: players
 Slug: player-ec8db4abaab9a078

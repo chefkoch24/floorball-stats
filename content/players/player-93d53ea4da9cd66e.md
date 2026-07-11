@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Lauri Alkki
 Category: players
 Slug: player-93d53ea4da9cd66e

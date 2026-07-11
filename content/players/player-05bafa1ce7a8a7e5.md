@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Jan Krejča
 Category: players
 Slug: player-05bafa1ce7a8a7e5

@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Ingars Matisons
 Category: players
 Slug: player-fdee6623946f4f56

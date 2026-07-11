@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Matyáš Bachmaier
 Category: players
 Slug: player-ba0b9cc76798e0aa

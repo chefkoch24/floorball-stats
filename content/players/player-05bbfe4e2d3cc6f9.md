@@ -1,4 +1,4 @@
-Date: 2026-07-10
+Date: 2026-07-11
 Title: Daniel Johansson
 Category: players
 Slug: player-05bbfe4e2d3cc6f9
