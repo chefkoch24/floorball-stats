@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Petr Majer
 Category: players
 Slug: player-bda1d67da20b966b

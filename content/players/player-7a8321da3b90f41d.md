@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Milan Kováč
 Category: players
 Slug: player-7a8321da3b90f41d

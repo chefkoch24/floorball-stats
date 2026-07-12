@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Michal Korček
 Category: players
 Slug: player-27e3c0a2cab626df

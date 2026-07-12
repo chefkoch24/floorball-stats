@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Eero Harjula
 Category: players
 Slug: player-fe73bd9b8fa1ceb4

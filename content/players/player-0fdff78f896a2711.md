@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Oscar Weinert
 Category: players
 Slug: player-0fdff78f896a2711

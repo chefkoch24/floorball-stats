@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Gustav Svensson
 Category: players
 Slug: player-fbd8f616cc5fc1ca

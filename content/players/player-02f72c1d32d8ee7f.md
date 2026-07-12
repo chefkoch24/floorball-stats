@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Nathanael Schnell
 Category: players
 Slug: player-02f72c1d32d8ee7f

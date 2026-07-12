@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Jonas Feichtinger
 Category: players
 Slug: player-4630ba075fafffc8

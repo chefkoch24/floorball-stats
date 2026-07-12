@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Erik Brosius
 Category: players
 Slug: player-4b2e4491d1999abf

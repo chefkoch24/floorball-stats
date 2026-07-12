@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Oskars Siliņš
 Category: players
 Slug: player-a63320ba3ce130b0

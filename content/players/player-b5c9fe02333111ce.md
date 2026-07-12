@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Martin Haleš
 Category: players
 Slug: player-b5c9fe02333111ce

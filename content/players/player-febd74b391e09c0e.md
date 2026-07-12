@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Birger Dethlefsen
 Category: players
 Slug: player-febd74b391e09c0e

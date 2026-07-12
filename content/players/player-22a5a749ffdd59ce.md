@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Maciej Bogdanski
 Category: players
 Slug: player-22a5a749ffdd59ce

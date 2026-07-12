@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Lasse Fischer
 Category: players
 Slug: player-b088dc603bea7b6d

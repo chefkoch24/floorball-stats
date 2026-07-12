@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Adam Nilsson
 Category: players
 Slug: player-ad4f62cb0e3ed27a

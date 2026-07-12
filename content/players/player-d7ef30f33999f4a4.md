@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: verneri Tuononen
 Category: players
 Slug: player-d7ef30f33999f4a4

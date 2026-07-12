@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Daniels Janis Anis
 Category: players
 Slug: player-00e93da6ee97d2d3

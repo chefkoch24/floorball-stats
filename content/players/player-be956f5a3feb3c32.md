@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Kristers Tiltiņš
 Category: players
 Slug: player-be956f5a3feb3c32

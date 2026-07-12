@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Adam Lundgren
 Category: players
 Slug: player-f639c227652edae4

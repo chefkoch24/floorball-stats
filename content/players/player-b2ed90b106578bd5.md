@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Pelle Tarenius
 Category: players
 Slug: player-b2ed90b106578bd5

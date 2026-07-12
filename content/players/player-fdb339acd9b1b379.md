@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Filip Kovářík
 Category: players
 Slug: player-fdb339acd9b1b379

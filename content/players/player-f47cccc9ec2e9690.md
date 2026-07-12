@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Renārs Liepiņš
 Category: players
 Slug: player-f47cccc9ec2e9690

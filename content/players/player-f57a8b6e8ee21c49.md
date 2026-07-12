@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Jan Alexander Schweiger
 Category: players
 Slug: player-f57a8b6e8ee21c49

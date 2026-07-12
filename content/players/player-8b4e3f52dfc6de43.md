@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Szombath Oliver
 Category: players
 Slug: player-8b4e3f52dfc6de43

@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Rasmus Vanhala
 Category: players
 Slug: player-2b8f0a885feb2f2d

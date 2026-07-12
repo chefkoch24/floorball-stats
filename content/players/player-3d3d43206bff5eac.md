@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Michal Chamilla
 Category: players
 Slug: player-3d3d43206bff5eac

@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Tuukka Haudanlampi
 Category: players
 Slug: player-d5475c85af4bdc0d

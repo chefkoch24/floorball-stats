@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Pascal Michel
 Category: players
 Slug: player-2baf8ac516d1ec35

@@ -1,4 +1,4 @@
-Date: 2026-07-11
+Date: 2026-07-12
 Title: Michal Amrich
 Category: players
 Slug: player-35de7e96e655b81e
