@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Arttu Salonen
 Category: players
 Slug: player-af11812c27975ecb

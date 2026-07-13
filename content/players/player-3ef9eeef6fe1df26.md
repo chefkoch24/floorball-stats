@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Ville Hietaranta
 Category: players
 Slug: player-3ef9eeef6fe1df26

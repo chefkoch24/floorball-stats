@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: William Törngren
 Category: players
 Slug: player-260fd5e160bc32cb

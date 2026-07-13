@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Adam Karel
 Category: players
 Slug: player-bc12d0ac64b31279

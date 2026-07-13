@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Simon Wahl
 Category: players
 Slug: player-8f9ec24b1fada528

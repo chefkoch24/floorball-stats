@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Andri Bass
 Category: players
 Slug: player-d5e6371cb3c18f82

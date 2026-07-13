@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Jakub Hejzlar
 Category: players
 Slug: player-f323214dc5dba1d9

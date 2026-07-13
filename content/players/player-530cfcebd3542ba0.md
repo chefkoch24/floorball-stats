@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Matěj Pěnička
 Category: players
 Slug: player-530cfcebd3542ba0

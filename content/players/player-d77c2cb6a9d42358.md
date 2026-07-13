@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Gustav Lindberg
 Category: players
 Slug: player-d77c2cb6a9d42358

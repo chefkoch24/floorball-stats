@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Matteo Schanz
 Category: players
 Slug: player-3cf6be558a8c4bf2

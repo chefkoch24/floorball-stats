@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Jakub Šimák
 Category: players
 Slug: player-bb4fe8ab8e7ac0a9

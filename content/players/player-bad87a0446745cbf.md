@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Matěj Klímek
 Category: players
 Slug: player-bad87a0446745cbf

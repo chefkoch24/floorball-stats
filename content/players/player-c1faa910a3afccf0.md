@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Lasse Englund
 Category: players
 Slug: player-c1faa910a3afccf0

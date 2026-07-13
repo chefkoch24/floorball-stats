@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Hugo Hellgren
 Category: players
 Slug: player-e7ea75a668b55b92

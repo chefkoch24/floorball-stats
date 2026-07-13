@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Självmål
 Category: players
 Slug: player-dfcc8b57de3313f0

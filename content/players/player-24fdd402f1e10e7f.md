@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Edvards Hāzners
 Category: players
 Slug: player-24fdd402f1e10e7f

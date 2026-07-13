@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Brčák Adam
 Category: players
 Slug: player-605d40cd1ba2d680

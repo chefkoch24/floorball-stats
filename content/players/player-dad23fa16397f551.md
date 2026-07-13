@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Toms Bitmanis
 Category: players
 Slug: player-dad23fa16397f551

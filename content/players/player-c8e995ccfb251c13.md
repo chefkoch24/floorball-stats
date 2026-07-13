@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Dominik Lehel Németh
 Category: players
 Slug: player-c8e995ccfb251c13

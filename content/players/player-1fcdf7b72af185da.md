@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Christopher Ostwald
 Category: players
 Slug: player-1fcdf7b72af185da

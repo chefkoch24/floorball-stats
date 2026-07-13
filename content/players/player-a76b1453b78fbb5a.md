@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Max Rudolf Schultz
 Category: players
 Slug: player-a76b1453b78fbb5a

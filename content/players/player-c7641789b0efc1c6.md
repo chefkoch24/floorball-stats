@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Alpo Laitila
 Category: players
 Slug: player-c7641789b0efc1c6

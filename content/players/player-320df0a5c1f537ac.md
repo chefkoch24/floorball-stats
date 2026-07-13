@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Severin Nigg
 Category: players
 Slug: player-320df0a5c1f537ac

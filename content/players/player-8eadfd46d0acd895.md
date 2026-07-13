@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Claudio Mutter
 Category: players
 Slug: player-8eadfd46d0acd895

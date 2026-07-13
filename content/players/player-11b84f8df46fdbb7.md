@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Lucas Lindberg
 Category: players
 Slug: player-11b84f8df46fdbb7

@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Gints Bērtulis
 Category: players
 Slug: player-8d1e1bb934bbaf81

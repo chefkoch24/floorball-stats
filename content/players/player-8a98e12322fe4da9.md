@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Pārstāvis Andis Maskalis
 Category: players
 Slug: player-8a98e12322fe4da9

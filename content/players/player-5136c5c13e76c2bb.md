@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Marek Zabral
 Category: players
 Slug: player-5136c5c13e76c2bb

@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Dominik Hofer
 Category: players
 Slug: player-c3b79502b998bafd

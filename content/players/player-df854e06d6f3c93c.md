@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Andrej Bálint
 Category: players
 Slug: player-df854e06d6f3c93c

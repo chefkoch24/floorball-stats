@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Ričards Butans
 Category: players
 Slug: player-3fbf809fe99c3646

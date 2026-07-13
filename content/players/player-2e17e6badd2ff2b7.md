@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Noah Dätwyler
 Category: players
 Slug: player-2e17e6badd2ff2b7

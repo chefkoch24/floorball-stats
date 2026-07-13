@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Gavin Staindl
 Category: players
 Slug: player-c72d0b75fd28ad6d

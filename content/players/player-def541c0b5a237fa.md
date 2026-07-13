@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Filip Bystričan
 Category: players
 Slug: player-def541c0b5a237fa

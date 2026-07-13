@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Meinert Wardetzki
 Category: players
 Slug: player-af59cdb16f005147

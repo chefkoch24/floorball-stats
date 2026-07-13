@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Luca-Leon Beyrich
 Category: players
 Slug: player-b42f544ad6c03bf9

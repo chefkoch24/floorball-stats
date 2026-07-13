@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Dominik Dvořák
 Category: players
 Slug: player-9b6deb8c3198900e

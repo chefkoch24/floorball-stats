@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Aaro Astala
 Category: players
 Slug: player-082c30326fa53cfa

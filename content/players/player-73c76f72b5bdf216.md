@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Valentin König
 Category: players
 Slug: player-73c76f72b5bdf216

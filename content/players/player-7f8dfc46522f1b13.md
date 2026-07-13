@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Pollák Lukáš
 Category: players
 Slug: player-7f8dfc46522f1b13

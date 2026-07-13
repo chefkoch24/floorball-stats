@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Johan Samuelsson
 Category: players
 Slug: player-b1ab2da0948bd876

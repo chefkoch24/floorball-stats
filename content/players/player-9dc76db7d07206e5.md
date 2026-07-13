@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Jakub Gálet
 Category: players
 Slug: player-9dc76db7d07206e5

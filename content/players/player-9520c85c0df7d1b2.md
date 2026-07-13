@@ -1,4 +1,4 @@
-Date: 2026-07-12
+Date: 2026-07-13
 Title: Martin ŠULC
 Category: players
 Slug: player-9520c85c0df7d1b2
