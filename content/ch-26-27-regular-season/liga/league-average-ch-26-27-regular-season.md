@@ -23,7 +23,7 @@ equalizer_goals: 4.42
 equalizer_goals_against: 4.42
 first_goal_of_match: 3.0
 first_goal_of_match_against: 3.0
-first_period_goals_against_per_game: 1.58
+first_period_goals_against_per_game: 1.59
 first_period_goals_per_game: 1.58
 games: 6.0
 goal_difference: 0.0
@@ -71,7 +71,7 @@ penalty_shot_goals: 0.17
 penalty_shot_goals_against: 0.17
 penalty_third_period: 3.92
 percent_goals_first_period: 28.85
-percent_goals_first_period_against: 29.45
+percent_goals_first_period_against: 29.46
 percent_goals_overtime: 1.97
 percent_goals_overtime_against: 2.01
 percent_goals_second_period: 30.4

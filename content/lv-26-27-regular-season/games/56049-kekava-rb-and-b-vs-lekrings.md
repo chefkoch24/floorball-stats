@@ -6,7 +6,7 @@ type: game
 game_id: 56049
 home_team: Ķekava/RB&B
 away_team: Lekrings
-attendance: 268
+attendance: 268.0
 away_goal_diffs_csv: -1,-2,-3
 away_goal_minutes_csv: 12.93,14.73,34.55
 away_major_penalty_minutes_csv: 
@@ -315,6 +315,7 @@ home_pregame_points_against_fbk_valmiera: 3
 home_pregame_points_against_fk_kursi: 0
 home_pregame_points_against_fk_talsi_tnss_krauzers: 0
 home_pregame_points_against_lekrings: 2
+home_pregame_points_against_lielvarde_unihoc: 3
 home_pregame_points_against_masters_ulbroka_lu: 1
 home_pregame_points_against_rubene: 0
 home_pregame_points_max_difference_2: 0
@@ -414,6 +415,7 @@ away_pregame_points_after_first_period: 7
 away_pregame_points_after_first_period_per_game: 1.75
 away_pregame_points_after_second_period: 6
 away_pregame_points_after_third_period: 7
+away_pregame_points_against_fbk_sac: 0
 away_pregame_points_against_fbk_valmiera: 2
 away_pregame_points_against_fk_kursi: 3
 away_pregame_points_against_fk_talsi_tnss_krauzers: 3

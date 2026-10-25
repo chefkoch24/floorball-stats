@@ -1,4 +1,4 @@
-Date: 2026-10-24
+Date: 2026-10-25
 Title: FBK Valmiera
 Category: lv-26-27-regular-season, teams
 Slug: fbk-valmiera-lv-26-27-regular-season-lv-26-27-regular-season
@@ -98,7 +98,7 @@ powerplay_overtime: 1
 powerplay_per_game: 2.25
 powerplay_second_period: 2
 powerplay_third_period: 5
-rank: 6
+rank: 8
 scoring_ratio: 0.95
 take_the_lead_goals: 10
 take_the_lead_goals_against: 17

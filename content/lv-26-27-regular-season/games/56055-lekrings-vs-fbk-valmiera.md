@@ -6,7 +6,7 @@ type: game
 game_id: 56055
 home_team: Lekrings
 away_team: FBK Valmiera
-attendance: 443
+attendance: 443.0
 away_goal_diffs_csv: -1,-2,-3,0
 away_goal_minutes_csv: 3.47,14.5,16.93,59.83
 away_major_penalty_minutes_csv: 
@@ -310,6 +310,7 @@ home_pregame_points_after_first_period: 13
 home_pregame_points_after_first_period_per_game: 2.17
 home_pregame_points_after_second_period: 10
 home_pregame_points_after_third_period: 11
+home_pregame_points_against_fbk_sac: 0
 home_pregame_points_against_fbk_valmiera: 2
 home_pregame_points_against_fk_kursi: 3
 home_pregame_points_against_fk_talsi_tnss_krauzers: 3

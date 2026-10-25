@@ -6,7 +6,7 @@ type: game
 game_id: 56040
 home_team: Rubene
 away_team: Lekrings
-attendance: 311
+attendance: 311.0
 away_goal_diffs_csv: 0,2,1,0,-1
 away_goal_minutes_csv: 11.35,38.87,49.47,51.3,63.18
 away_major_penalty_minutes_csv: 34.08
@@ -312,6 +312,7 @@ home_pregame_points_after_second_period: 2
 home_pregame_points_after_third_period: 6
 home_pregame_points_against_fbk_sac: 3
 home_pregame_points_against_fbk_valmiera: 3
+home_pregame_points_against_fk_kursi: 3
 home_pregame_points_against_fk_talsi_tnss_krauzers: 3
 home_pregame_points_against_kekava_rb_b: 3
 home_pregame_points_against_lekrings: 1
@@ -414,6 +415,7 @@ away_pregame_points_after_first_period: 6
 away_pregame_points_after_first_period_per_game: 3.0
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
+away_pregame_points_against_fbk_sac: 0
 away_pregame_points_against_fbk_valmiera: 2
 away_pregame_points_against_fk_kursi: 3
 away_pregame_points_against_fk_talsi_tnss_krauzers: 3

@@ -6,7 +6,7 @@ type: game
 game_id: 56032
 home_team: Rubene
 away_team: FBK Valmiera
-attendance: 417
+attendance: 417.0
 away_goal_diffs_csv: -1,-1,0,-1,-2,0
 away_goal_minutes_csv: 4.27,10.3,27.93,28.65,32.3,47.12
 away_major_penalty_minutes_csv: 20.0

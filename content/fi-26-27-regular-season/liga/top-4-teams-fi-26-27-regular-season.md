@@ -83,7 +83,7 @@ points_after_55_min: 19.0
 points_after_58_min: 19.0
 points_after_59_min: 18.75
 points_after_first_period: 16.25
-points_after_first_period_per_game: 2.19
+points_after_first_period_per_game: 2.2
 points_after_second_period: 18.25
 points_after_third_period: 18.25
 points_max_difference_2: 2.25

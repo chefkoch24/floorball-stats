@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 6
+current_games: 7
 current_goals: 1
 current_assists: 0
 current_points: 1
-current_pim: 0
-regular_games: 6
+current_pim: 4
+regular_games: 7
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
-regular_pim: 0
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 25
 previous_assists: 5
 previous_points: 30
 previous_pim: 12
-career_games: 36
+career_games: 37
 career_goals: 26
 career_assists: 5
 career_points: 31
-career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|6|1|0|1|0||lv-25-26|playoffs|Latvia|FBK SĀC|4|4|0|4|0||lv-25-26|regular-season|Latvia|FBK SĀC|26|21|5|26|12
+career_pim: 16
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|7|1|0|1|4||lv-25-26|playoffs|Latvia|FBK SĀC|4|4|0|4|0||lv-25-26|regular-season|Latvia|FBK SĀC|26|21|5|26|12
 assists: 0
-games: 6
+games: 7
 goals: 1
-penalties: 0
+penalties: 2
 phase: regular-season
-pim: 0
+pim: 4
 points: 1
-rank: 123
+rank: 127
 season: lv-26-27

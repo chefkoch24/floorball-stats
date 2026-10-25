@@ -44,5 +44,5 @@ penalties: 9
 phase: regular-season
 pim: 18
 points: 9
-rank: 29
+rank: 32
 season: 26-27

@@ -6,7 +6,7 @@ type: liga
 team: Playoffs
 away_points: 5.38
 boxplay: 9.75
-boxplay_efficiency: 61.76
+boxplay_efficiency: 61.75
 boxplay_first_period: 2.62
 boxplay_overtime: 0.25
 boxplay_per_game: 1.62

@@ -1,4 +1,4 @@
-Date: 2026-10-24
+Date: 2026-10-25
 Title: FK Talsi/TNSS/Krauzers
 Category: lv-26-27-regular-season, teams
 Slug: fk-talsi-tnss-krauzers-lv-26-27-regular-season-lv-26-27-regular-season
