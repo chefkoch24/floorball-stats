@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Kevin Mähler
 Category: players
 Slug: player-f3bdcbf9b518abf3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 304
+rank: 303
 season: se-25-26

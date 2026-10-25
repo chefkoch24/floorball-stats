@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Livio Butzerin
 Category: players
 Slug: player-1ae6c03bf07223ec
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 292
+rank: 293
 season: ch-25-26

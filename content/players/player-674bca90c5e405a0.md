@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Egert Unga
 Category: players
 Slug: player-674bca90c5e405a0

@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-25
 Title: Nykvarns IBF
 Category: se-25-26-playoffs, teams
 Slug: nykvarns-ibf-se-25-26-playoffs-se-25-26-playoffs
@@ -50,7 +50,7 @@ goals_in_powerplay: 2
 goals_in_second_period: 2
 goals_in_second_period_against: 14
 goals_in_third_period: 5
-goals_in_third_period_against: 10
+goals_in_third_period_against: 12
 goals_per_game: 2.5
 home_points: 0
 loss_1: 0
@@ -78,7 +78,7 @@ percent_goals_overtime_against: 0.0
 percent_goals_second_period: 20.0
 percent_goals_second_period_against: 41.18
 percent_goals_third_period: 50.0
-percent_goals_third_period_against: 29.409999999999997
+percent_goals_third_period_against: 35.29
 points: 0
 points_after_55_min: 0
 points_after_58_min: 0

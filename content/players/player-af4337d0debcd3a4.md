@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Edwin Körberg
 Category: players
 Slug: player-af4337d0debcd3a4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 138
+rank: 137
 season: se-25-26

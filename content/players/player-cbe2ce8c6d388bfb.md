@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Pavlák Matej
 Category: players
 Slug: player-cbe2ce8c6d388bfb

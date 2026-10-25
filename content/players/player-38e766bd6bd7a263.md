@@ -1,22 +1,22 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Alessio Mura
 Category: players
 Slug: player-38e766bd6bd7a263
 type: player
 player: Alessio Mura
 player_uid: player-38e766bd6bd7a263
-team: Jönköpings IK
-league: Sweden
-season_count: 1
-current_season: se-25-26
+team: UHC Uster
+league: Switzerland
+season_count: 2
+current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 25
+previous_season: se-25-26
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 25
+regular_games: 6
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -26,23 +26,23 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
+previous_games: 25
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
+career_games: 31
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|25|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|6|0|0|0|0||se-25-26|regular-season|Sweden|Jönköpings IK|25|0|0|0|0
 assists: 0
-games: 25
+games: 6
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
-season: se-25-26
+rank: 179
+season: ch-26-27

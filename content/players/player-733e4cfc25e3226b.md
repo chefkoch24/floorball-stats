@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Roman Thommen
 Category: players
 Slug: player-733e4cfc25e3226b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 331
+rank: 332
 season: ch-25-26

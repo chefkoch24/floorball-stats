@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Kalle Karlsson
 Category: players
 Slug: player-27999c22dbd8ad5f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 154
+rank: 153
 season: se-25-26

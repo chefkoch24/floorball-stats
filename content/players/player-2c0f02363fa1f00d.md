@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Valtteri Ryytty
 Category: players
 Slug: player-2c0f02363fa1f00d

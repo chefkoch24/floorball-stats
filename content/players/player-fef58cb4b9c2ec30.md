@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Marcus Burman
 Category: players
 Slug: player-fef58cb4b9c2ec30
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 167
+rank: 166
 season: se-25-26

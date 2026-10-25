@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Kim Eberle
 Category: players
 Slug: player-6cc95a67624cbe2e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 287
+rank: 288
 season: ch-25-26

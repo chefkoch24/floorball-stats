@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Veeti Peltoniemi
 Category: players
 Slug: player-26d5fbae6c50de4a

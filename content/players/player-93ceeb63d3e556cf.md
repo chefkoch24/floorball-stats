@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Treneris Andris Pīlups
 Category: players
 Slug: player-93ceeb63d3e556cf

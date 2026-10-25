@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-25
 Title: Mullsjö AIS
 Category: se-25-26-playoffs, teams
 Slug: mullsjo-ais-se-25-26-playoffs-se-25-26-playoffs
@@ -49,8 +49,8 @@ goals_in_penalty_shootout_against: 1
 goals_in_powerplay: 1
 goals_in_second_period: 6
 goals_in_second_period_against: 8
-goals_in_third_period: 7
-goals_in_third_period_against: 7
+goals_in_third_period: 8
+goals_in_third_period_against: 11
 goals_per_game: 3.33
 home_points: 3
 loss_1: 1
@@ -77,8 +77,8 @@ percent_goals_overtime: 0.0
 percent_goals_overtime_against: 0.0
 percent_goals_second_period: 30.0
 percent_goals_second_period_against: 28.57
-percent_goals_third_period: 35.0
-percent_goals_third_period_against: 25.0
+percent_goals_third_period: 40.0
+percent_goals_third_period_against: 39.290000000000006
 points: 7
 points_after_55_min: 9
 points_after_58_min: 7
@@ -102,5 +102,5 @@ rank: 5
 scoring_ratio: 0.71
 take_the_lead_goals: 3
 take_the_lead_goals_against: 7
-win_1: 1
+win_1: 0
 wins: 2

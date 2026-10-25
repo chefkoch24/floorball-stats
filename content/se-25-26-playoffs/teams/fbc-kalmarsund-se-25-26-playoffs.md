@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-25
 Title: FBC Kalmarsund
 Category: se-25-26-playoffs, teams
 Slug: fbc-kalmarsund-se-25-26-playoffs-se-25-26-playoffs
@@ -13,12 +13,12 @@ boxplay_overtime: 0
 boxplay_per_game: 1.0
 boxplay_second_period: 1
 boxplay_third_period: 2
-close_game_loss: 2
+close_game_loss: 1
 close_game_overtime: 0
 close_game_points_per_game: 0.0
 close_game_points_share: 0.0
 close_game_win: 0
-close_games: 2
+close_games: 1
 draws: 0
 equalizer_goals: 2
 equalizer_goals_against: 3
@@ -50,7 +50,7 @@ goals_in_powerplay: 2
 goals_in_second_period: 3
 goals_in_second_period_against: 5
 goals_in_third_period: 6
-goals_in_third_period_against: 8
+goals_in_third_period_against: 9
 goals_per_game: 3.0
 home_points: 0
 loss_1: 1
@@ -78,7 +78,7 @@ percent_goals_overtime_against: 0.0
 percent_goals_second_period: 25.0
 percent_goals_second_period_against: 25.0
 percent_goals_third_period: 50.0
-percent_goals_third_period_against: 40.0
+percent_goals_third_period_against: 45.0
 points: 0
 points_after_55_min: 1
 points_after_58_min: 0

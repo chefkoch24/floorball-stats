@@ -1,4 +1,4 @@
-Date: 2026-04-01
+Date: 2026-04-25
 Title: Pixbo IBK
 Category: se-25-26-playoffs, teams
 Slug: pixbo-ibk-se-25-26-playoffs-se-25-26-playoffs
@@ -35,7 +35,7 @@ goals_against_away: 20
 goals_against_home: 11
 goals_against_in_boxplay: 2
 goals_against_in_boxplay_per_game: 0.4
-goals_against_in_powerplay: 2
+goals_against_in_powerplay: 3
 goals_against_per_game: 6.2
 goals_away: 12
 goals_home: 6
@@ -50,7 +50,7 @@ goals_in_powerplay: 2
 goals_in_second_period: 2
 goals_in_second_period_against: 13
 goals_in_third_period: 11
-goals_in_third_period_against: 7
+goals_in_third_period_against: 11
 goals_per_game: 3.6
 home_points: 0
 loss_1: 1
@@ -78,7 +78,7 @@ percent_goals_overtime_against: 0.0
 percent_goals_second_period: 11.110000000000001
 percent_goals_second_period_against: 41.94
 percent_goals_third_period: 61.11
-percent_goals_third_period_against: 22.58
+percent_goals_third_period_against: 35.480000000000004
 points: 2
 points_after_55_min: 0
 points_after_58_min: 1

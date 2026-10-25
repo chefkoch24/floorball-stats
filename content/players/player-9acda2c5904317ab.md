@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Alexander Måhlberg
 Category: players
 Slug: player-9acda2c5904317ab
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 233
+rank: 232
 season: se-25-26

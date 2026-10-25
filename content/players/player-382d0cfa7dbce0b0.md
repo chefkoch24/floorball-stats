@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Lauritz Brunborg
 Category: players
 Slug: player-382d0cfa7dbce0b0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 305
+rank: 304
 season: se-25-26

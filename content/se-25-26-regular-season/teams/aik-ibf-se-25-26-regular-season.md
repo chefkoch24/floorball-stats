@@ -7,7 +7,7 @@ team:AIK IBF
 platzierungsverlauf:se-25-26-regular-season/teams/aik-ibf-se-25-26-regular-season_platzierungsverlauf.png
 away_points: 13
 boxplay: 28
-boxplay_efficiency: 64.29
+boxplay_efficiency: 60.709999999999994
 boxplay_first_period: 10
 boxplay_overtime: 2
 boxplay_per_game: 1.08
@@ -31,13 +31,13 @@ goal_difference: -35
 goal_difference_per_game: -1.35
 goals: 120
 goals_against: 155
-goals_against_away: 76
+goals_against_away: 79
 goals_against_home: 76
-goals_against_in_boxplay: 10
-goals_against_in_boxplay_per_game: 0.38
+goals_against_in_boxplay: 11
+goals_against_in_boxplay_per_game: 0.42
 goals_against_in_powerplay: 0
 goals_against_per_game: 5.96
-goals_away: 50
+goals_away: 51
 goals_home: 69
 goals_in_boxplay: 2
 goals_in_first_period: 42
@@ -49,14 +49,14 @@ goals_in_penalty_shootout_against: 3
 goals_in_powerplay: 13
 goals_in_second_period: 31
 goals_in_second_period_against: 54
-goals_in_third_period: 41
-goals_in_third_period_against: 49
+goals_in_third_period: 42
+goals_in_third_period_against: 52
 goals_per_game: 4.62
 home_points: 16
 loss_1: 8
 losses: 10
-over_time_losses: 4
-over_time_wins: 2
+over_time_losses: 7
+over_time_wins: 5
 penalties: 30
 penalties_per_game: 1.15
 penalty_10: 0
@@ -66,8 +66,8 @@ penalty_first_period: 11
 penalty_ms: 1
 penalty_overtime: 2
 penalty_second_period: 6
-penalty_shootout_losses: 3
-penalty_shootout_wins: 3
+penalty_shootout_losses: 0
+penalty_shootout_wins: 0
 penalty_shot_goals: 6
 penalty_shot_goals_against: 4
 penalty_third_period: 11
@@ -77,8 +77,8 @@ percent_goals_overtime: 1.67
 percent_goals_overtime_against: 2.58
 percent_goals_second_period: 25.83
 percent_goals_second_period_against: 34.839999999999996
-percent_goals_third_period: 34.17
-percent_goals_third_period_against: 31.61
+percent_goals_third_period: 35.0
+percent_goals_third_period_against: 33.550000000000004
 points: 29
 points_after_55_min: 21
 points_after_58_min: 26
@@ -102,5 +102,5 @@ rank: 12
 scoring_ratio: 0.77
 take_the_lead_goals: 37
 take_the_lead_goals_against: 37
-win_1: 9
+win_1: 8
 wins: 4

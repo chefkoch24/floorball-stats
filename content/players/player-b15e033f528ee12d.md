@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Nils Reese
 Category: players
 Slug: player-b15e033f528ee12d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 322
+rank: 323
 season: ch-25-26

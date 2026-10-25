@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Max Kiener
 Category: players
 Slug: player-46ec6d8ee117829e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 311
+rank: 312
 season: ch-25-26

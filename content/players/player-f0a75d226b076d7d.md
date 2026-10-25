@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Andreas Beckius
 Category: players
 Slug: player-f0a75d226b076d7d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 270
+rank: 269
 season: se-25-26

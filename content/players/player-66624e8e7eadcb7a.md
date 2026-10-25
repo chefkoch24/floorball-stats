@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Jesper Ahrén
 Category: players
 Slug: player-66624e8e7eadcb7a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 128
+rank: 135
 season: se-25-26

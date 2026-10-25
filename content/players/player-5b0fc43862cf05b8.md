@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Simon Aemmer
 Category: players
 Slug: player-5b0fc43862cf05b8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 336
+rank: 337
 season: ch-25-26

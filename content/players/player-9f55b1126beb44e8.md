@@ -1,48 +1,48 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Patrik Šebek
 Category: players
 Slug: player-9f55b1126beb44e8
 type: player
 player: Patrik Šebek
 player_uid: player-9f55b1126beb44e8
-team: ESA logistika Tatran Střešovice
+team: Tatran Střešovice
 league: Czech Republic
-season_count: 1
-current_season: cz-25-26
+season_count: 2
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 23
-current_goals: 24
-current_assists: 14
-current_points: 38
-current_pim: 4
-regular_games: 17
-regular_goals: 18
-regular_assists: 10
-regular_points: 28
+previous_season: cz-25-26
+current_games: 8
+current_goals: 4
+current_assists: 1
+current_points: 5
+current_pim: 2
+regular_games: 8
+regular_goals: 4
+regular_assists: 1
+regular_points: 5
 regular_pim: 2
-playoff_games: 6
-playoff_goals: 6
-playoff_assists: 4
-playoff_points: 10
-playoff_pim: 2
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
-previous_pim: 0
-career_games: 23
-career_goals: 24
-career_assists: 14
-career_points: 38
-career_pim: 4
-history_rows_csv: cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|6|6|4|10|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|17|18|10|28|2
-assists: 4
-games: 6
-goals: 6
+playoff_games: 0
+playoff_goals: 0
+playoff_assists: 0
+playoff_points: 0
+playoff_pim: 0
+previous_games: 35
+previous_goals: 24
+previous_assists: 14
+previous_points: 38
+previous_pim: 4
+career_games: 43
+career_goals: 28
+career_assists: 15
+career_points: 43
+career_pim: 6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|4|1|5|2||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|6|4|10|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|18|10|28|2
+assists: 1
+games: 8
+goals: 4
 penalties: 1
-phase: playoffs
+phase: regular-season
 pim: 2
-points: 10
-rank: 22
-season: cz-25-26
+points: 5
+rank: 83
+season: cz-26-27

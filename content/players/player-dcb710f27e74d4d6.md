@@ -1,48 +1,48 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Martin Čermák
 Category: players
 Slug: player-dcb710f27e74d4d6
 type: player
 player: Martin Čermák
 player_uid: player-dcb710f27e74d4d6
-team: Jönköpings IK
-league: Sweden
-season_count: 2
-current_season: se-25-26
+team: Kanonýři Kladno
+league: Czech Republic
+season_count: 4
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: cz-25-26
-current_games: 26
-current_goals: 5
-current_assists: 10
-current_points: 15
-current_pim: 6
-regular_games: 26
-regular_goals: 5
-regular_assists: 10
-regular_points: 15
-regular_pim: 6
+previous_season: se-26-27
+current_games: 6
+current_goals: 0
+current_assists: 0
+current_points: 0
+current_pim: 0
+regular_games: 6
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 11
-previous_goals: 8
-previous_assists: 6
-previous_points: 14
+previous_games: 6
+previous_goals: 2
+previous_assists: 2
+previous_points: 4
 previous_pim: 2
-career_games: 37
-career_goals: 13
-career_assists: 16
-career_points: 29
-career_pim: 8
-history_rows_csv: cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|11|8|6|14|2||se-25-26|regular-season|Sweden|Jönköpings IK|26|5|10|15|6
-assists: 6
-games: 11
-goals: 8
-penalties: 1
+career_games: 71
+career_goals: 15
+career_assists: 18
+career_points: 33
+career_pim: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|6|0|0|0|0||se-26-27|regular-season|Sweden|Jönköpings IK|6|2|2|4|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|0|0|0|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|8|6|14|2||se-25-26|regular-season|Sweden|Jönköpings IK|26|5|10|15|6
+assists: 0
+games: 6
+goals: 0
+penalties: 0
 phase: regular-season
-pim: 2
-points: 14
-rank: 117
-season: cz-25-26
+pim: 0
+points: 0
+rank: 291
+season: cz-26-27

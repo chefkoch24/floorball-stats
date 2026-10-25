@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Jesper Eliasson
 Category: players
 Slug: player-f18e83da1689d80e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 229
+rank: 228
 season: se-25-26

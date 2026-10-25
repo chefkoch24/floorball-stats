@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Max Johansson
 Category: players
 Slug: player-df843df83a1325a7
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 215
+rank: 214
 season: se-25-26

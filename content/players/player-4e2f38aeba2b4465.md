@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Filip Larsson
 Category: players
 Slug: player-4e2f38aeba2b4465
@@ -15,12 +15,12 @@ current_games: 23
 current_goals: 10
 current_assists: 3
 current_points: 13
-current_pim: 14
+current_pim: 12
 regular_games: 23
 regular_goals: 10
 regular_assists: 3
 regular_points: 13
-regular_pim: 14
+regular_pim: 12
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -35,14 +35,14 @@ career_games: 23
 career_goals: 10
 career_assists: 3
 career_points: 13
-career_pim: 14
-history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|23|10|3|13|14
+career_pim: 12
+history_rows_csv: se-25-26|regular-season|Sweden|Hovslätts IK|23|10|3|13|12
 assists: 3
 games: 23
 goals: 10
-penalties: 7
+penalties: 6
 phase: regular-season
-pim: 14
+pim: 12
 points: 13
-rank: 103
+rank: 102
 season: se-25-26

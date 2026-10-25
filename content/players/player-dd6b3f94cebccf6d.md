@@ -1,9 +1,9 @@
-Date: 2026-07-13
-Title: Lukáš SLEZÁK
+Date: 2026-10-25
+Title: Lukáš Slezák
 Category: players
 Slug: player-dd6b3f94cebccf6d
 type: player
-player: Lukáš SLEZÁK
+player: Lukáš Slezák
 player_uid: player-dd6b3f94cebccf6d
 team: FBŠ Hummel Hattrick Brno
 league: Czech Republic
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 310
+rank: 357
 season: cz-25-26

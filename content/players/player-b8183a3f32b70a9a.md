@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Jakub Kepšta
 Category: players
 Slug: player-b8183a3f32b70a9a

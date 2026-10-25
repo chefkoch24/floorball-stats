@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Simon Hult
 Category: players
 Slug: player-6c217d0e5722aca8
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 17
-rank: 83
+rank: 82
 season: se-25-26

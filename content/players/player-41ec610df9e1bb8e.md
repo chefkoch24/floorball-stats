@@ -1,48 +1,48 @@
-Date: 2026-07-13
-Title: Vojtěch MURÍN
+Date: 2026-10-25
+Title: Vojtěch Murín
 Category: players
 Slug: player-41ec610df9e1bb8e
 type: player
-player: Vojtěch MURÍN
+player: Vojtěch Murín
 player_uid: player-41ec610df9e1bb8e
-team: FBC ČPP Bystroň Group OSTRAVA
+team: FBC ČPP MPL STAVEBNINY OSTRAVA
 league: Czech Republic
-season_count: 1
-current_season: cz-25-26
+season_count: 2
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 12
-current_goals: 5
-current_assists: 4
-current_points: 9
-current_pim: 8
-regular_games: 11
-regular_goals: 5
-regular_assists: 4
-regular_points: 9
-regular_pim: 6
-playoff_games: 1
+previous_season: cz-25-26
+current_games: 6
+current_goals: 3
+current_assists: 1
+current_points: 4
+current_pim: 2
+regular_games: 6
+regular_goals: 3
+regular_assists: 1
+regular_points: 4
+regular_pim: 2
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
-previous_pim: 0
-career_games: 12
-career_goals: 5
-career_assists: 4
-career_points: 9
-career_pim: 8
-history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|1|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|11|5|4|9|6
-assists: 0
-games: 1
-goals: 0
+playoff_pim: 0
+previous_games: 25
+previous_goals: 5
+previous_assists: 4
+previous_points: 9
+previous_pim: 8
+career_games: 31
+career_goals: 8
+career_assists: 5
+career_points: 13
+career_pim: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|6|3|1|4|2||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|23|5|4|9|6
+assists: 1
+games: 6
+goals: 3
 penalties: 1
-phase: playoffs
+phase: regular-season
 pim: 2
-points: 0
-rank: 157
-season: cz-25-26
+points: 4
+rank: 100
+season: cz-26-27

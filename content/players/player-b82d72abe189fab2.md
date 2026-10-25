@@ -1,48 +1,48 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Tomáš Veselý
 Category: players
 Slug: player-b82d72abe189fab2
 type: player
 player: Tomáš Veselý
 player_uid: player-b82d72abe189fab2
-team: Unihockey Igels Dresden
-league: Germany
-season_count: 1
-current_season: 25-26
+team: FBC ČLT Česká Lípa
+league: Czech Republic
+season_count: 2
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 17
-current_goals: 6
-current_assists: 9
-current_points: 15
-current_pim: 12
-regular_games: 16
-regular_goals: 6
-regular_assists: 9
-regular_points: 15
-regular_pim: 10
-playoff_games: 1
+previous_season: 25-26
+current_games: 4
+current_goals: 0
+current_assists: 0
+current_points: 0
+current_pim: 2
+regular_games: 4
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 2
+playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
-playoff_pim: 2
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
-previous_pim: 0
-career_games: 17
+playoff_pim: 0
+previous_games: 17
+previous_goals: 6
+previous_assists: 9
+previous_points: 15
+previous_pim: 12
+career_games: 21
 career_goals: 6
 career_assists: 9
 career_points: 15
-career_pim: 12
-history_rows_csv: 25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|2||25-26|regular-season|Germany|Unihockey Igels Dresden|16|6|9|15|10
+career_pim: 14
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|4|0|0|0|2||25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|2||25-26|regular-season|Germany|Unihockey Igels Dresden|16|6|9|15|10
 assists: 0
-games: 1
+games: 4
 goals: 0
 penalties: 1
-phase: playoffs
+phase: regular-season
 pim: 2
 points: 0
-rank: 173
-season: 25-26
+rank: 344
+season: cz-26-27

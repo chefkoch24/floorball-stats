@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Albin Jakobsson
 Category: players
 Slug: player-dacbed8e72a6fe75
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 3
-rank: 209
+rank: 208
 season: se-25-26

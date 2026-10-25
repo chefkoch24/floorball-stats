@@ -278,7 +278,7 @@ home_pregame_goals_per_game: 5.44
 home_pregame_home_points: 6
 home_pregame_loss_1: 3
 home_pregame_losses: 1
-home_pregame_over_time_losses: 2
+home_pregame_over_time_losses: 3
 home_pregame_over_time_wins: 2
 home_pregame_penalties: 9
 home_pregame_penalties_per_game: 1.0
@@ -289,7 +289,7 @@ home_pregame_penalty_first_period: 2
 home_pregame_penalty_ms: 0
 home_pregame_penalty_overtime: 0
 home_pregame_penalty_second_period: 2
-home_pregame_penalty_shootout_losses: 1
+home_pregame_penalty_shootout_losses: 0
 home_pregame_penalty_shootout_wins: 0
 home_pregame_penalty_shot_goals: 2
 home_pregame_penalty_shot_goals_against: 1

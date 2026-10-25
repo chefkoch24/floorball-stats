@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Matīss Kristiāns Kirmuška
 Category: players
 Slug: player-b219b76f36be53df
@@ -7,42 +7,42 @@ player: Matīss Kristiāns Kirmuška
 player_uid: player-b219b76f36be53df
 team: FBK SĀC
 league: Latvia
-season_count: 1
-current_season: lv-25-26
+season_count: 2
+current_season: lv-26-27
 current_season_is_tournament: no
-previous_season: n.a.
+previous_season: lv-25-26
 current_games: 7
 current_goals: 0
-current_assists: 2
-current_points: 2
+current_assists: 1
+current_points: 1
 current_pim: 0
 regular_games: 7
 regular_goals: 0
-regular_assists: 2
-regular_points: 2
+regular_assists: 1
+regular_points: 1
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
+previous_games: 7
 previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_assists: 2
+previous_points: 2
 previous_pim: 0
-career_games: 7
+career_games: 14
 career_goals: 0
-career_assists: 2
-career_points: 2
+career_assists: 3
+career_points: 3
 career_pim: 0
-history_rows_csv: lv-25-26|regular-season|Latvia|FBK SĀC|7|0|2|2|0
-assists: 2
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|7|0|1|1|0||lv-25-26|regular-season|Latvia|FBK SĀC|7|0|2|2|0
+assists: 1
 games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
-points: 2
-rank: 192
-season: lv-25-26
+points: 1
+rank: 142
+season: lv-26-27

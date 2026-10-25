@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Oliver Söderman
 Category: players
 Slug: player-4d6adbe0954c8724
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 183
+rank: 182
 season: se-25-26

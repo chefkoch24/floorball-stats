@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Arwid Per Makinen
 Category: players
 Slug: player-6d0be00ff5da3eaf

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Adam Forslöv
 Category: players
 Slug: player-d4b04477d816a3ca
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 169
+rank: 168
 season: se-25-26

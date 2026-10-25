@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Andrin Jäggi
 Category: players
 Slug: player-c3ef8c2964e7c11f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 254
+rank: 255
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Oliver Staiger
 Category: players
 Slug: player-b71abbbebb8dbd50
@@ -7,10 +7,10 @@ player: Oliver Staiger
 player_uid: player-b71abbbebb8dbd50
 team: Jönköpings IK
 league: Sweden
-season_count: 1
-current_season: se-25-26
+season_count: 2
+current_season: se-26-27
 current_season_is_tournament: no
-previous_season: n.a.
+previous_season: se-25-26
 current_games: 4
 current_goals: 0
 current_assists: 0
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
+previous_games: 4
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 8
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: se-25-26|regular-season|Sweden|Jönköpings IK|4|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|4|0|0|0|0||se-25-26|regular-season|Sweden|Jönköpings IK|4|0|0|0|0
 assists: 0
 games: 4
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 324
-season: se-25-26
+rank: 280
+season: se-26-27

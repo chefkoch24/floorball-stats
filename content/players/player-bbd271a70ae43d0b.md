@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Anton Kidell
 Category: players
 Slug: player-bbd271a70ae43d0b
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 101
+rank: 109
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Jakub Šuška
 Category: players
 Slug: player-bc4e92fc0bd04c64

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Noah Alex
 Category: players
 Slug: player-f5f5e13a10f0886d
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 15
-rank: 92
+rank: 91
 season: se-25-26

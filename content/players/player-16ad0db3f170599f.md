@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Mathéo Stohler
 Category: players
 Slug: player-16ad0db3f170599f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 308
+rank: 309
 season: ch-25-26

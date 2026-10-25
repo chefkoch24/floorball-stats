@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Marcus Hamrin
 Category: players
 Slug: player-26d0abd334fde8ba
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 122
+rank: 121
 season: se-25-26

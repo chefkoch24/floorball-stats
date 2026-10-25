@@ -37,8 +37,8 @@ goals_against_in_boxplay: 10
 goals_against_in_boxplay_per_game: 0.38
 goals_against_in_powerplay: 1
 goals_against_per_game: 2.92
-goals_away: 85
-goals_home: 97
+goals_away: 89
+goals_home: 98
 goals_in_boxplay: 1
 goals_in_first_period: 46
 goals_in_first_period_against: 30
@@ -49,14 +49,14 @@ goals_in_penalty_shootout_against: 0
 goals_in_powerplay: 16
 goals_in_second_period: 68
 goals_in_second_period_against: 17
-goals_in_third_period: 65
+goals_in_third_period: 70
 goals_in_third_period_against: 27
 goals_per_game: 7.19
 home_points: 36
 loss_1: 3
 losses: 1
 over_time_losses: 2
-over_time_wins: 2
+over_time_wins: 3
 penalties: 35
 penalties_per_game: 1.35
 penalty_10: 0
@@ -67,7 +67,7 @@ penalty_ms: 3
 penalty_overtime: 2
 penalty_second_period: 12
 penalty_shootout_losses: 0
-penalty_shootout_wins: 1
+penalty_shootout_wins: 0
 penalty_shot_goals: 3
 penalty_shot_goals_against: 2
 penalty_third_period: 12
@@ -77,7 +77,7 @@ percent_goals_overtime: 1.0699999999999998
 percent_goals_overtime_against: 2.63
 percent_goals_second_period: 36.36
 percent_goals_second_period_against: 22.37
-percent_goals_third_period: 34.760000000000005
+percent_goals_third_period: 37.43
 percent_goals_third_period_against: 35.53
 points: 68
 points_after_55_min: 68

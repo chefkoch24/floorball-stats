@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Simeon Weber
 Category: players
 Slug: player-ff2ed07149d80e6f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 335
+rank: 336
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Walter Dahlström
 Category: players
 Slug: player-c5734b2fdc2ba7a8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 218
+rank: 217
 season: se-25-26

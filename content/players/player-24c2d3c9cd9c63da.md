@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Luca Holenstein
 Category: players
 Slug: player-24c2d3c9cd9c63da

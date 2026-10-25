@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Fynn Roth
 Category: players
 Slug: player-eb441a24ad0a5e81
@@ -7,10 +7,10 @@ player: Fynn Roth
 player_uid: player-eb441a24ad0a5e81
 team: SV Wiler-Ersigen
 league: Switzerland
-season_count: 1
-current_season: ch-25-26
+season_count: 2
+current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: n.a.
+previous_season: ch-25-26
 current_games: 2
 current_goals: 0
 current_assists: 0
@@ -26,17 +26,17 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
+previous_games: 2
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 4
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|2|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|2|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|2|0|0|0|0
 assists: 0
 games: 2
 goals: 0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 270
-season: ch-25-26
+rank: 205
+season: ch-26-27

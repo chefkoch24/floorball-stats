@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Benjamin Arm
 Category: players
 Slug: player-f03c6ba3dfe61849
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 256
+rank: 257
 season: ch-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Alexander Koštial
 Category: players
 Slug: player-4afd873fd3622fa6

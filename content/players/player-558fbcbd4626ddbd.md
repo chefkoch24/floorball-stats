@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Jérôme Gaudin
 Category: players
 Slug: player-558fbcbd4626ddbd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 286
+rank: 287
 season: ch-25-26

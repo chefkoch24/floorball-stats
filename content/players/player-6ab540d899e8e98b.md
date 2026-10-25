@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Dominik Hutka
 Category: players
 Slug: player-6ab540d899e8e98b

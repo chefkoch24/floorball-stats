@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Emīls Eglītis
 Category: players
 Slug: player-cba5d9edcd8a355f

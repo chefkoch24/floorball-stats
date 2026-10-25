@@ -1,48 +1,48 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Martin Tomek
 Category: players
 Slug: player-ad76b96ca3dba236
 type: player
 player: Martin Tomek
 player_uid: player-ad76b96ca3dba236
-team: FBC ČPP Bystroň Group OSTRAVA
+team: FBC ČPP MPL STAVEBNINY OSTRAVA
 league: Czech Republic
-season_count: 1
-current_season: cz-25-26
+season_count: 2
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 5
-current_goals: 2
-current_assists: 3
-current_points: 5
-current_pim: 0
-regular_games: 4
-regular_goals: 2
-regular_assists: 2
-regular_points: 4
-regular_pim: 0
-playoff_games: 1
+previous_season: cz-25-26
+current_games: 7
+current_goals: 0
+current_assists: 0
+current_points: 0
+current_pim: 8
+regular_games: 7
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 8
+playoff_games: 0
 playoff_goals: 0
-playoff_assists: 1
-playoff_points: 1
+playoff_assists: 0
+playoff_points: 0
 playoff_pim: 0
-previous_games: 0
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
+previous_games: 19
+previous_goals: 2
+previous_assists: 3
+previous_points: 5
 previous_pim: 0
-career_games: 5
+career_games: 26
 career_goals: 2
 career_assists: 3
 career_points: 5
-career_pim: 0
-history_rows_csv: cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|1|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|4|2|2|4|0
-assists: 1
-games: 1
+career_pim: 8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|7|0|0|0|8||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|17|2|2|4|0
+assists: 0
+games: 7
 goals: 0
-penalties: 0
-phase: playoffs
-pim: 0
-points: 1
-rank: 144
-season: cz-25-26
+penalties: 4
+phase: regular-season
+pim: 8
+points: 0
+rank: 290
+season: cz-26-27

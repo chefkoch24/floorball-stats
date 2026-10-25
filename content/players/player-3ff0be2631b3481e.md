@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Wille Knuthas
 Category: players
 Slug: player-3ff0be2631b3481e
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 28
-rank: 49
+rank: 48
 season: se-25-26

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Máťuš Martin
 Category: players
 Slug: player-96c1ffc79a4b0f46

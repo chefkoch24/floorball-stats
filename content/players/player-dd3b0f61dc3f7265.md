@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Julien Huther
 Category: players
 Slug: player-dd3b0f61dc3f7265
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 285
+rank: 286
 season: ch-25-26

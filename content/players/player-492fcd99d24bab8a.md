@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Filip Åkerblom
 Category: players
 Slug: player-492fcd99d24bab8a
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 122
+rank: 130
 season: se-25-26

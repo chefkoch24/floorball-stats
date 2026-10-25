@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Lukáš Täuber
 Category: players
 Slug: player-4a836dd0e1ccc117

@@ -1,4 +1,4 @@
-Date: 2026-07-13
+Date: 2026-10-25
 Title: Wiktor Åkerstedt
 Category: players
 Slug: player-e8bddf42328f9520
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 342
+rank: 341
 season: se-25-26
