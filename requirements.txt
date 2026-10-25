@@ -28,3 +28,4 @@ pelican-more-categories~=0.1.0
 pelican-sitemap~=1.2.2
 dash-bootstrap-components~=1.5.0
 pytest~=9.0
+playwright~=1.64

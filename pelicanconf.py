@@ -27,51 +27,35 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Club seasons shown on the site, newest first. CURRENT_SEASON drives the
+# navigation and "Today's Games"; older seasons stay reachable from the home
+# page. Season rollover: prepend the new season here and bump CURRENT_SEASON
+# in the Makefile (plus the new config/leagues/*-<season>*.json files).
+SEASONS = ['26-27', '25-26']
+CURRENT_SEASON = SEASONS[0]
+SEASON_PHASES = ['regular-season', 'playoffs']
+
+# Category prefix per league (Germany has none), in navigation order.
+LEAGUES = [
+    {'prefix': 'se-', 'name': 'Sweden', 'title': 'Sweden · SSL'},
+    {'prefix': 'fi-', 'name': 'Finland', 'title': 'Finland · F-Liiga'},
+    {'prefix': 'cz-', 'name': 'Czech Republic', 'title': 'Czech Republic · ČEZ Extraliga'},
+    {'prefix': 'ch-', 'name': 'Switzerland', 'title': 'Switzerland · L-UPL'},
+    {'prefix': 'sk-', 'name': 'Slovakia', 'title': 'Slovakia · Extraliga mužov'},
+    {'prefix': 'lv-', 'name': 'Latvia', 'title': 'Latvia · ELVI līga vīriešiem'},
+    {'prefix': '', 'name': 'Germany', 'title': 'Germany · 1. FBL Herren'},
+]
+
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
                  '23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/teams', '23-24-playoffs/liga',
                  '24-25-regular-season/teams', '24-25-regular-season/liga', '24-25-playoffs/teams', '24-25-playoffs/liga',
-                 '25-26-regular-season/teams',
-                 '25-26-regular-season/liga',
-                 '25-26-regular-season/games',
-                 '25-26-playoffs/teams',
-                 '25-26-playoffs/liga',
-                 '25-26-playoffs/games',
-                 'se-25-26-regular-season/teams',
-                 'se-25-26-regular-season/liga',
-                 'se-25-26-regular-season/games',
-                 'se-25-26-playoffs/teams',
-                 'se-25-26-playoffs/liga',
-                 'se-25-26-playoffs/games',
-                 'fi-25-26-regular-season/teams',
-                 'fi-25-26-regular-season/liga',
-                 'fi-25-26-regular-season/games',
-                 'fi-25-26-playoffs/teams',
-                 'fi-25-26-playoffs/liga',
-                 'fi-25-26-playoffs/games',
-                 'lv-25-26-regular-season/teams',
-                 'lv-25-26-regular-season/liga',
-                 'lv-25-26-regular-season/games',
-                 'lv-25-26-playoffs/teams',
-                 'lv-25-26-playoffs/liga',
-                 'lv-25-26-playoffs/games',
-                 'sk-25-26-regular-season/teams',
-                 'sk-25-26-regular-season/liga',
-                 'sk-25-26-regular-season/games',
-                 'sk-25-26-playoffs/teams',
-                 'sk-25-26-playoffs/liga',
-                 'sk-25-26-playoffs/games',
-                 'cz-25-26-regular-season/teams',
-                 'cz-25-26-regular-season/liga',
-                 'cz-25-26-regular-season/games',
-                 'cz-25-26-playoffs/teams',
-                 'cz-25-26-playoffs/liga',
-                 'cz-25-26-playoffs/games',
-                 'ch-25-26-regular-season/teams',
-                 'ch-25-26-regular-season/games',
-                 'ch-25-26-regular-season/liga',
-                 'ch-25-26-playoffs/teams',
-                 'ch-25-26-playoffs/games',
-                 'ch-25-26-playoffs/liga',
+                 ] + [
+                 f"{league['prefix']}{season}-{phase}/{kind}"
+                 for season in SEASONS
+                 for league in LEAGUES
+                 for phase in SEASON_PHASES
+                 for kind in ('teams', 'liga', 'games')
+                 ] + [
                  'wfc-2024-regular-season/teams',
                  'wfc-2024-regular-season/games',
                  'wfc-2024-regular-season/liga',
@@ -80,7 +64,7 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  'wfc-2024-playoffs/liga',
                  'players',
                  'player-stats',
-                 ] # add season links here for teams and liga
+                 ]
 STATIC_PATHS = ARTICLE_PATHS
 
 # Blogroll
@@ -112,27 +96,23 @@ SITEMAP = {
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-MENUITEMS = (
-    ('Regular Season 22-23', '/category/22-23-regular-season.html'),
-    ('Playoffs 22-23', '/category/22-23-playoffs.html'),
-    ('Regular Season 23-24', '/category/23-24-regular-season.html'),
-    ('Playoffs 23-24', '/category/23-24-playoffs.html'),
-    ('Regular Season 24-25', '/category/24-25-regular-season.html'),
-    ('Playoffs 24-25', '/category/24-25-playoffs.html'),
-    ('Regular Season 25-26', '/category/25-26-regular-season.html'),
-    ('Playoffs 25-26', '/category/25-26-playoffs.html'),
-    ('Sweden Regular Season 25-26', '/category/se-25-26-regular-season.html'),
-    ('Sweden Playoffs 25-26', '/category/se-25-26-playoffs.html'),
-    ('Czech Republic Regular Season 25-26', '/category/cz-25-26-regular-season.html'),
-    ('Czech Republic Playoffs 25-26', '/category/cz-25-26-playoffs.html'),
-    ('Switzerland Regular Season 25-26', '/category/ch-25-26-regular-season.html'),
-    ('Switzerland Playoffs 25-26', '/category/ch-25-26-playoffs.html'),
-    ('Finland Regular Season 25-26', '/category/fi-25-26-regular-season.html'),
-    ('Finland Playoffs 25-26', '/category/fi-25-26-playoffs.html'),
-    ('Latvia Regular Season 25-26', '/category/lv-25-26-regular-season.html'),
-    ('Slovakia Regular Season 25-26', '/category/sk-25-26-regular-season.html'),
-    ('IFF WFC 2024', '/wfc-2024.html'),
-    # add season links here
+MENUITEMS = tuple(
+    [
+        ('Regular Season 22-23', '/category/22-23-regular-season.html'),
+        ('Playoffs 22-23', '/category/22-23-playoffs.html'),
+        ('Regular Season 23-24', '/category/23-24-regular-season.html'),
+        ('Playoffs 23-24', '/category/23-24-playoffs.html'),
+        ('Regular Season 24-25', '/category/24-25-regular-season.html'),
+        ('Playoffs 24-25', '/category/24-25-playoffs.html'),
+    ]
+    + [
+        (f"{league['name']} {phase.replace('-', ' ').title()} {season}",
+         f"/category/{league['prefix']}{season}-{phase}.html")
+        for season in reversed(SEASONS)
+        for league in LEAGUES
+        for phase in SEASON_PHASES
+    ]
+    + [('IFF WFC 2024', '/wfc-2024.html')]
 )
 
 def string_in_category_path(article, string_to_check):
@@ -271,6 +251,16 @@ def category2breadcrumb(slug):
     return f"{country} Player Stats" if is_players else country
 
 
+def category_slugs(categories):
+    """Slugs of all generated category pages (Pelican's `categories` context)."""
+    slugs = set()
+    for entry in categories or []:
+        category = entry[0] if isinstance(entry, (list, tuple)) else entry
+        slug = getattr(category, 'slug', None)
+        if slug:
+            slugs.add(slug)
+    return slugs
+
 def sort_by_rank(articles):
     # Artikel mit rank Attribut
     ranked_articles = [a for a in articles if hasattr(a, 'rank') and a.rank is not None]
@@ -348,6 +338,7 @@ def finalize_rendered_value(value):
 
 JINJA_FILTERS = {
     'sort_by_rank': sort_by_rank,
+    'category_slugs': category_slugs,
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
     'category2title': category2title,

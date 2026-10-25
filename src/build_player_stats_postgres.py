@@ -394,6 +394,24 @@ def _lineup_rows_for_prefix(
     return pd.DataFrame()
 
 
+def _load_stored_player_stats(database_url: str) -> pd.DataFrame:
+    try:
+        with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+            cur.execute("SELECT * FROM player_stats")
+            columns = [desc.name for desc in cur.description]
+            rows = cur.fetchall()
+    except psycopg.Error:
+        return pd.DataFrame()
+    return pd.DataFrame(rows, columns=columns)
+
+
+def _stored_rows_for(stored: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+    if stored.empty or "season" not in stored.columns or "phase" not in stored.columns:
+        return pd.DataFrame()
+    mask = (stored["season"].astype(str).str.strip() == season) & (stored["phase"].astype(str).str.strip() == phase)
+    return stored[mask].copy()
+
+
 def _replace_player_stats_table(database_url: str, frame: pd.DataFrame) -> int:
     with psycopg.connect(database_url, autocommit=False) as conn, conn.cursor() as cur:
         cur.execute("DROP TABLE IF EXISTS player_stats")
@@ -478,6 +496,8 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
     game_rosters = _load_all_game_rosters(database_url)
     print(f"  {len(game_rosters):,} roster rows loaded.")
 
+    previous_stats = _load_stored_player_stats(database_url)
+
     all_rows: list[pd.DataFrame] = []
 
     if not events.empty:
@@ -501,11 +521,24 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
                 league=info["league"],
                 source_system=info["source_system"],
             )
+            lineup_error = ""
             try:
                 matches = _played_matches_from_events(subset)
                 lineup_rows = _lineup_rows_for_prefix(prefix, matches, season=season_key, phase=phase_key, game_rosters=game_rosters)
-            except Exception:
+                if lineup_rows.empty and not matches.empty:
+                    lineup_error = "no lineup rows returned"
+            except Exception as exc:
                 lineup_rows = pd.DataFrame()
+                lineup_error = str(exc) or exc.__class__.__name__
+            if lineup_error:
+                # Degrade narrowly: an upstream that no longer serves a past season
+                # (or rejects us) must not wipe the stored lineup-based games counts.
+                stored = _stored_rows_for(previous_stats, season_key, phase_key)
+                if not stored.empty:
+                    print(f"  [WARN] lineups unavailable ({lineup_error}); keeping {len(stored):,} stored rows.")
+                    all_rows.append(stored)
+                    continue
+                print(f"  [WARN] lineups unavailable ({lineup_error}); using event-only games counts.")
             all_rows.append(
                     _merge_finalized_rows(
                         [event_rows, lineup_rows],

@@ -1,14 +1,32 @@
 import json
 
-from src.scrape import scrape_events
+import pytest
+
+from src.scrape import fetch_saisonmanager_json, saisonmanager_headers, scrape_events
 
 
 class _FakeResponse:
-    def __init__(self, payload):
+    def __init__(self, payload, status_code=200):
         self.content = json.dumps(payload).encode("utf-8")
+        self.status_code = status_code
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise AssertionError(f"HTTP {self.status_code}")
+
+
+class _FakeSession:
+    def __init__(self, handler):
+        self.handler = handler
+        self.calls = []
+
+    def get(self, url, headers=None, timeout=None):
+        self.calls.append((url, headers))
+        return self.handler(url)
 
 
 def test_scrape_events_uses_event_team_player_roster(monkeypatch, tmp_path):
+    monkeypatch.setenv("SAISONMANAGER_API_KEY", "test-key")
     game_payload = {
         "game_id": 123,
         "home_team_name": "Home Team",
@@ -58,14 +76,14 @@ def test_scrape_events_uses_event_team_player_roster(monkeypatch, tmp_path):
         ],
     }
 
-    def _fake_request(method, url):
+    def _fake_get(url):
         if url.endswith("leagues/test/schedule.json"):
             return _FakeResponse([{"game_id": 123}])
         if url.endswith("games/123"):
             return _FakeResponse(game_payload)
         raise AssertionError(f"Unexpected URL: {url}")
 
-    monkeypatch.setattr("src.scrape.requests.request", _fake_request)
+    monkeypatch.setattr("src.scrape.requests.Session", lambda: _FakeSession(_fake_get))
 
     output_path = tmp_path / "events.csv"
     df = scrape_events(
@@ -84,3 +102,22 @@ def test_scrape_events_uses_event_team_player_roster(monkeypatch, tmp_path):
     assert away_penalty["event_team"] == "Away Team"
     assert away_penalty["scorer_name"] == "Away Seven"
     assert away_penalty["penalty_player_name"] == "Away Seven"
+
+
+def test_saisonmanager_requests_send_api_key_header(monkeypatch):
+    monkeypatch.setenv("SAISONMANAGER_API_KEY", "secret-key")
+    session = _FakeSession(lambda url: _FakeResponse([{"game_id": 1}]))
+
+    payload = fetch_saisonmanager_json("leagues/1/schedule.json", api_base="https://example.test/", session=session)
+
+    assert payload == [{"game_id": 1}]
+    assert session.calls == [("https://example.test/leagues/1/schedule.json", {"X-Api-Key": "secret-key"})]
+
+
+def test_saisonmanager_401_names_missing_api_key(monkeypatch):
+    monkeypatch.delenv("SAISONMANAGER_API_KEY", raising=False)
+    assert saisonmanager_headers() == {}
+    session = _FakeSession(lambda url: _FakeResponse({"success": False, "message": "API key required"}, status_code=401))
+
+    with pytest.raises(RuntimeError, match="SAISONMANAGER_API_KEY is missing"):
+        fetch_saisonmanager_json("leagues/1/schedule.json", api_base="https://example.test/", session=session)

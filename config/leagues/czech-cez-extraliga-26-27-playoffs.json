@@ -1,6 +1,6 @@
 {
   "backend": "czech",
-  "season": "cz-25-26",
+  "season": "cz-26-27",
   "phase": "playoffs",
   "playoff_teams_count": 10,
   "playoff_rounds": [
@@ -10,9 +10,9 @@
     { "name": "Final",          "teams": 2, "series_type": "one-game",  "wins_to_advance": 1 }
   ],
   "czech": {
-    "season_start_year": 2025,
+    "season_start_year": 2026,
     "schedule_urls": [
-      "https://www.ceskyflorbal.cz/competition/detail/matches/8XM1?locale=en"
+      "https://www.ceskyflorbal.cz/competition/detail/matches/8XM1?locale=en&competitionFisId=4819"
     ]
   }
 }

@@ -131,6 +131,10 @@ Single entrypoint that executes:
 
 Supports `--skip_scrape` for local/e2e runs from existing CSV.
 
+Season-specific source IDs/URLs live in `config/leagues/<league>-<season>[-playoffs].json`.
+The Makefile selects them via `CURRENT_SEASON`; `pelicanconf.py::SEASONS` drives navigation,
+home page and article paths. A season rollover touches only those three places (see README).
+
 
 ### 4.6 Player Stats Pipeline
 

@@ -39,125 +39,37 @@
             <span class="brand-title">{{ SITENAME }}</span>
         </a>
         <nav class="main-nav" id="mainNav">
+            {% set available_categories = categories|default([])|category_slugs %}
+            {% macro nav_phase_link(slug, label, link_class, disabled_class, available) -%}
+                {% if slug in available %}<a class="{{ link_class }}" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="{{ disabled_class }}">{{ label }}</span>{% endif %}
+            {%- endmacro %}
+            {% for league in LEAGUES %}
+            {# Newest season that already has data; falls back to CURRENT_SEASON. #}
+            {% set nav_ns = namespace(season=None) %}
+            {% for season in SEASONS %}
+                {% if nav_ns.season is none and (league.prefix ~ season ~ '-regular-season') in available_categories %}{% set nav_ns.season = season %}{% endif %}
+            {% endfor %}
+            {% set nav_season = nav_ns.season or CURRENT_SEASON %}
+            {% set regular_slug = league.prefix ~ nav_season ~ '-regular-season' %}
+            {% set playoffs_slug = league.prefix ~ nav_season ~ '-playoffs' %}
             <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Sweden</a>
+                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/{{ regular_slug }}.html">{{ league.name }}</a>
                 <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/se-25-26-playoffs.html">Playoffs</a>
+                    {{ nav_phase_link(regular_slug, 'Regular', 'nav-mobile-phase-link', 'nav-mobile-phase-link is-disabled', available_categories) }}
+                    {{ nav_phase_link(playoffs_slug, 'Playoffs', 'nav-mobile-phase-link', 'nav-mobile-phase-link is-disabled', available_categories) }}
                 </div>
                 <div class="nav-section-groups">
                     <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
+                        <span class="nav-group-title">{{ nav_season }}</span>
                         <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/se-25-26-playoffs.html">Playoffs</a>
+                            {{ nav_phase_link(regular_slug, 'Regular', 'nav-group-link', 'nav-link-disabled', available_categories) }}
+                            {{ nav_phase_link(playoffs_slug, 'Playoffs', 'nav-group-link', 'nav-link-disabled', available_categories) }}
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">Finland</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/fi-25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/fi-25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">Czech Republic</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/cz-25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/cz-25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">Switzerland</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/ch-25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/ch-25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Slovakia</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/sk-25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/sk-25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Latvia</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/lv-25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/lv-25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/25-26-regular-season.html">Germany</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/25-26-regular-season.html">Regular</a>
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/category/25-26-playoffs.html">Playoffs</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">25-26</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/25-26-regular-season.html">Regular</a>
-                            <a class="nav-group-link" href="{{ SITEURL }}/category/25-26-playoffs.html">Playoffs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            {% endfor %}
             <div class="nav-section">
                 <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/wfc-2024.html">WFC</a>
                 <div class="nav-mobile-phase-links">

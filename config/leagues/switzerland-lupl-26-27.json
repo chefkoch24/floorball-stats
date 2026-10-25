@@ -1,0 +1,12 @@
+{
+  "backend": "switzerland",
+  "season": "ch-26-27",
+  "phase": "regular-season",
+  "swiss": {
+    "league": 24,
+    "season": 2026,
+    "game_class": 11,
+    "group": "Gruppe 1",
+    "mode": "list"
+  }
+}

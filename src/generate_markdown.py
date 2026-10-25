@@ -339,12 +339,17 @@ def parse_args():
     parser.add_argument("--team_stats_path", default="data/team_stats_enhanced.json")
     parser.add_argument("--league_stats_path", default="data/league_averages.json")
     parser.add_argument("--database_url", default=None)
-    parser.add_argument("--output_games_dir", default="content/25-26-regular-season/games")
-    parser.add_argument("--output_teams_dir", default="content/25-26-regular-season/teams")
-    parser.add_argument("--output_liga_dir", default="content/25-26-regular-season/liga")
-    parser.add_argument("--season", default="25-26")
+    parser.add_argument("--output_games_dir", default=None, help="default: content/<season>-<phase>/games")
+    parser.add_argument("--output_teams_dir", default=None, help="default: content/<season>-<phase>/teams")
+    parser.add_argument("--output_liga_dir", default=None, help="default: content/<season>-<phase>/liga")
+    parser.add_argument("--season", required=True)
     parser.add_argument("--phase", default="regular-season")
-    return parser.parse_args()
+    args = parser.parse_args()
+    for kind in ("games", "teams", "liga"):
+        attr = f"output_{kind}_dir"
+        if getattr(args, attr) is None:
+            setattr(args, attr, f"content/{args.season}-{args.phase}/{kind}")
+    return args
 
 
 def main():

@@ -80,3 +80,12 @@ def test_normalize_player_name_reorders_and_normalizes_casing():
 def test_parse_penalty_player_strips_dot_separator_and_team_penalty():
     assert _parse_penalty_player("12:31 Tomáš . Tvrdý 2 Min.") == "Tomáš Tvrdý"
     assert _parse_penalty_player("2:00 Team Penalty 2 Min.") is None
+
+
+def test_placeholder_team_names_cover_bracket_letters_and_table_positions():
+    from src.scrape_slovakia import _is_placeholder_team_name
+
+    for name in ["AAA", "DDD", "AAAA", "HHHH", "10.", "11."]:
+        assert _is_placeholder_team_name(name), name
+    for name in ["1. FBC Trenčín", "FBK Nižná", "ABC", "", None]:
+        assert not _is_placeholder_team_name(name), name

@@ -16,6 +16,8 @@ from src.scrape_wfc import (
     _normalize_team_name as _normalize_wfc_team_name,
     _refresh_access_token as _refresh_wfc_access_token,
 )
+from src.scrape import fetch_saisonmanager_json, saisonmanager_headers
+from src.scrape_saisonmanager_web import SaisonmanagerWebClient
 from src.utils import generate_player_uid, normalize_slug_fragment
 
 
@@ -416,10 +418,16 @@ def _load_league_configs_for(backend: str, season: str, phase: str) -> list[dict
 def _rows_from_germany_lineups(match_ids: list[int], season: str, phase: str) -> pd.DataFrame:
     records: list[dict] = []
     session = requests.Session()
+    web = None
+    if not saisonmanager_headers():
+        # Without an API key only the web-page cache filled by the pipeline
+        # scrape is used; a missing game raises and the caller keeps stored rows.
+        web = SaisonmanagerWebClient(cache_only=True)
     for match_id in sorted(set(match_ids)):
-        response = session.get(f"{GERMANY_API_BASE}games/{match_id}", timeout=30)
-        response.raise_for_status()
-        game = response.json()
+        if web is not None:
+            game = web.get_game(int(match_id))
+        else:
+            game = fetch_saisonmanager_json(f"games/{match_id}", api_base=GERMANY_API_BASE, session=session)
         home_team = str(game.get("home_team_name") or "").strip()
         away_team = str(game.get("guest_team_name") or "").strip()
         if not home_team or not away_team:
@@ -626,8 +634,12 @@ def _extract_roster_players(container) -> list[tuple[str, str]]:
 
 
 def _rows_from_czech_rosters(matches: pd.DataFrame, season: str, phase: str, league: str, source_system: str) -> pd.DataFrame:
+    from src.scrape_czech import DEFAULT_HEADERS as CZECH_HEADERS
+
     records: list[dict] = []
     session = requests.Session()
+    # ceskyflorbal.cz (Cloudflare) answers 403 to requests without browser headers.
+    session.headers.update(CZECH_HEADERS)
     for row in matches.itertuples(index=False):
         match_id = int(row.game_id)
         home_team = str(getattr(row, "home_team_name", "") or "").strip()
@@ -1151,13 +1163,20 @@ def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str) -> 
             int(lineups.get("HomeTeamID") or 0): str(lineups.get("HomeTeam") or "").strip(),
             int(lineups.get("AwayTeamID") or 0): str(lineups.get("AwayTeam") or "").strip(),
         }
-        for side in ["HomeTeamPlayers", "AwayTeamPlayers"]:
+        team_name_by_id.pop(0, None)
+        for side, side_team_key in [("HomeTeamPlayers", "HomeTeam"), ("AwayTeamPlayers", "AwayTeam")]:
+            # Since 2026 lineup rows carry no TeamID; the list itself names the side.
+            side_team = str(lineups.get(side_team_key) or "").strip()
             for row in lineups.get(side, []) or []:
                 player = str(row.get("Name") or "").strip()
                 if not player:
                     continue
                 team_id = int(row.get("TeamID") or 0)
-                team_name = team_name_by_id.get(team_id) or str(row.get("LicensedAssociationName") or "").strip()
+                team_name = (
+                    team_name_by_id.get(team_id)
+                    or side_team
+                    or str(row.get("LicensedAssociationName") or "").strip()
+                )
                 goals = int(row.get("Goals") or 0)
                 assists = int(row.get("Assists") or 0)
                 points = int(row.get("Points") or goals + assists)

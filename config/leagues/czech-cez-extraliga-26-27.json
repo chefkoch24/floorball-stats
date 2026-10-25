@@ -1,0 +1,11 @@
+{
+  "backend": "czech",
+  "season": "cz-26-27",
+  "phase": "regular-season",
+  "czech": {
+    "season_start_year": 2026,
+    "schedule_urls": [
+      "https://www.ceskyflorbal.cz/competition/detail/matches/8XM1?locale=en&competitionFisId=4819"
+    ]
+  }
+}

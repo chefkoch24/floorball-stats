@@ -76,8 +76,9 @@ def _extract_game_types(page_html: str, phase: str = "regular-season") -> list[s
     phase_lower = (phase or "regular-season").lower()
     if phase_lower == "playoffs":
         playoff_values = [value for value, label in options if ("play" in label or "izsl" in label)]
-        if playoff_values:
-            return [playoff_values[0]]
+        # No playoff option yet (regular season still running): falling back to
+        # "all" would file regular-season games under playoffs.
+        return [playoff_values[0]] if playoff_values else []
     else:
         regular_values = [value for value, label in options if "regul" in label]
         if regular_values:

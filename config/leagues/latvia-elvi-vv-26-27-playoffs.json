@@ -1,11 +1,16 @@
 {
-  "backend": "sweden",
-  "season": "se-25-26",
+  "backend": "latvia",
+  "season": "lv-26-27",
   "phase": "playoffs",
   "playoff_rounds": [
     { "name": "Quarter-finals", "teams": 8, "series_type": "best-of-7", "wins_to_advance": 4 },
     { "name": "Semi-finals",    "teams": 4, "series_type": "best-of-7", "wins_to_advance": 4 },
     { "name": "Final",          "teams": 2, "series_type": "one-game", "wins_to_advance": 1 }
   ],
-  "competition_ids": [43813, 43814, 43815, 43816]
+  "latvia": {
+    "season_start_year": 2026,
+    "calendar_urls": [
+      "https://www.floorball.lv/lv/2026/chempionats/vv/kalendars"
+    ]
+  }
 }

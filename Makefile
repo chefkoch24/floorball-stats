@@ -27,47 +27,43 @@ ifneq ($(PORT), 0)
 	PELICANOPTS += -p $(PORT)
 endif
 
-# Data pipeline defaults for current 1. FBL Herren season
-LEAGUE_ID ?= 1890
-SEASON ?= 25-26
-PHASE ?= regular-season
-GERMANY_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/germany-1fbl-playoffs.json
-GERMANY_PLAYOFFS_CSV ?= data/data_$(SEASON)_playoffs.csv
-# Sweden pipeline defaults (SSL StatsApp)
-SWEDEN_COMPETITION_ID ?= 40693
-SWEDEN_SEASON ?= se-25-26
-SWEDEN_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/sweden-ssl-playoffs.json
-SWEDEN_PLAYOFFS_SEASON ?= $(SWEDEN_SEASON)
-SWEDEN_PLAYOFFS_CSV ?= data/data_$(SWEDEN_PLAYOFFS_SEASON)_playoffs.csv
-# Switzerland pipeline defaults (Swiss Unihockey renderengine)
-SWISS_LEAGUE ?= 24
-SWISS_SEASON ?= 2025
-SWISS_GAME_CLASS ?= 11
-SWISS_SEASON_SLUG ?= ch-25-26
-SWISS_PLAYOFFS_SLUG ?= ch-25-26
-SWISS_GROUP ?= Gruppe 1
-SWISS_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/switzerland-lupl-playoffs.json
-SWISS_PLAYOFFS_CSV ?= data/data_$(SWISS_PLAYOFFS_SLUG)_playoffs.csv
-# Finland pipeline defaults (F-Liiga)
-FINLAND_SEASON ?= fi-25-26
-FINLAND_SCHEDULE_URL ?= https://fliiga.com/en/matches/men/
-FINLAND_LEAGUE_CONFIG ?= config/leagues/finland-fliiga.json
-FINLAND_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/finland-fliiga-playoffs.json
-FINLAND_PLAYOFFS_SEASON ?= $(FINLAND_SEASON)
-FINLAND_PLAYOFFS_CSV ?= data/data_$(FINLAND_PLAYOFFS_SEASON)_playoffs.csv
-# Czech pipeline defaults (Czech Extraliga config)
-CZECH_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga.json
-CZECH_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/czech-cez-extraliga-playoffs.json
-# Slovakia pipeline defaults (SZFB Extraliga)
-SLOVAKIA_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga.json
-SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/slovakia-extraliga-playoffs.json
-SLOVAKIA_PLAYOFFS_SEASON ?= sk-25-26
-SLOVAKIA_PLAYOFFS_CSV ?= data/data_$(SLOVAKIA_PLAYOFFS_SEASON)_playoffs.csv
-# Latvia pipeline defaults (ELVI men)
-LATVIA_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv.json
-LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= config/leagues/latvia-elvi-vv-playoffs.json
-LATVIA_PLAYOFFS_SEASON ?= lv-25-26
-LATVIA_PLAYOFFS_CSV ?= data/data_$(LATVIA_PLAYOFFS_SEASON)_playoffs.csv
+# Current club season. Every league reads its IDs/URLs from
+#   config/leagues/<league>-$(CURRENT_SEASON).json           (regular season)
+#   config/leagues/<league>-$(CURRENT_SEASON)-playoffs.json  (playoffs)
+# Season rollover: add the new config files, bump CURRENT_SEASON and add the
+# season to SEASONS in pelicanconf.py. Re-run an old season with
+# `make refresh-sweden CURRENT_SEASON=25-26`.
+CURRENT_SEASON ?= 26-27
+CONFIG_DIR ?= config/leagues
+
+# Germany (1. FBL Herren, Saisonmanager API; needs SAISONMANAGER_API_KEY)
+GERMANY_LEAGUE_CONFIG ?= $(CONFIG_DIR)/germany-1fbl-$(CURRENT_SEASON).json
+GERMANY_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/germany-1fbl-$(CURRENT_SEASON)-playoffs.json
+GERMANY_PLAYOFFS_CSV ?= data/data_$(CURRENT_SEASON)_playoffs.csv
+# Sweden (SSL, StatsApp API)
+SWEDEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-$(CURRENT_SEASON).json
+SWEDEN_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-$(CURRENT_SEASON)-playoffs.json
+SWEDEN_PLAYOFFS_CSV ?= data/data_se-$(CURRENT_SEASON)_playoffs.csv
+# Switzerland (L-UPL, Swiss Unihockey renderengine)
+SWISS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/switzerland-lupl-$(CURRENT_SEASON).json
+SWISS_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/switzerland-lupl-$(CURRENT_SEASON)-playoffs.json
+SWISS_PLAYOFFS_CSV ?= data/data_ch-$(CURRENT_SEASON)_playoffs.csv
+# Finland (F-Liiga)
+FINLAND_LEAGUE_CONFIG ?= $(CONFIG_DIR)/finland-fliiga-$(CURRENT_SEASON).json
+FINLAND_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/finland-fliiga-$(CURRENT_SEASON)-playoffs.json
+FINLAND_PLAYOFFS_CSV ?= data/data_fi-$(CURRENT_SEASON)_playoffs.csv
+# Czech Republic (Livesport Superliga, ceskyflorbal.cz)
+CZECH_LEAGUE_CONFIG ?= $(CONFIG_DIR)/czech-cez-extraliga-$(CURRENT_SEASON).json
+CZECH_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/czech-cez-extraliga-$(CURRENT_SEASON)-playoffs.json
+CZECH_PLAYOFFS_CSV ?= data/data_cz-$(CURRENT_SEASON)_playoffs.csv
+# Slovakia (Extraliga mužov, SZFB)
+SLOVAKIA_LEAGUE_CONFIG ?= $(CONFIG_DIR)/slovakia-extraliga-$(CURRENT_SEASON).json
+SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/slovakia-extraliga-$(CURRENT_SEASON)-playoffs.json
+SLOVAKIA_PLAYOFFS_CSV ?= data/data_sk-$(CURRENT_SEASON)_playoffs.csv
+# Latvia (ELVI men, floorball.lv)
+LATVIA_LEAGUE_CONFIG ?= $(CONFIG_DIR)/latvia-elvi-vv-$(CURRENT_SEASON).json
+LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/latvia-elvi-vv-$(CURRENT_SEASON)-playoffs.json
+LATVIA_PLAYOFFS_CSV ?= data/data_lv-$(CURRENT_SEASON)_playoffs.csv
 # WFC / IFF competitions
 WFC_REGULAR_SEASON_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024-regular-season.json
 WFC_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024.json
@@ -138,23 +134,9 @@ help:
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo 'Set LEAGUE_ID/SEASON/PHASE to override refresh-current-season             '
-	@echo 'Set GERMANY_PLAYOFFS_LEAGUE_CONFIG to override refresh-current-season-playoffs'
-	@echo 'Set GERMANY_PLAYOFFS_CSV to override refresh-current-season-smart           '
-	@echo 'Set SWEDEN_COMPETITION_ID/SWEDEN_SEASON to override refresh-sweden         '
-	@echo 'Set SWEDEN_PLAYOFFS_LEAGUE_CONFIG to override refresh-sweden-playoffs      '
-	@echo 'Set SWEDEN_PLAYOFFS_* to override refresh-sweden-smart                     '
-	@echo 'Set SWISS_* to override refresh-switzerland                                '
-	@echo 'Set SWISS_PLAYOFFS_LEAGUE_CONFIG to override refresh-switzerland-playoffs  '
-	@echo 'Set FINLAND_LEAGUE_CONFIG to override refresh-finland                       '
-	@echo 'Set FINLAND_PLAYOFFS_LEAGUE_CONFIG to override refresh-finland-playoffs     '
-	@echo 'Set FINLAND_PLAYOFFS_* to override refresh-finland-smart                    '
-	@echo 'Set CZECH_LEAGUE_CONFIG to override refresh-czech                           '
-	@echo 'Set CZECH_PLAYOFFS_LEAGUE_CONFIG to override refresh-czech-playoffs         '
-	@echo 'Set SLOVAKIA_LEAGUE_CONFIG to override refresh-slovakia                     '
-	@echo 'Set SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-slovakia-playoffs   '
-	@echo 'Set LATVIA_LEAGUE_CONFIG to override refresh-latvia                         '
-	@echo 'Set LATVIA_PLAYOFFS_LEAGUE_CONFIG to override refresh-latvia-playoffs       '
+	@echo 'Set CURRENT_SEASON=25-26 to run any league target for another season      '
+	@echo 'Set <LEAGUE>_LEAGUE_CONFIG / <LEAGUE>_PLAYOFFS_LEAGUE_CONFIG to use other configs'
+	@echo 'Germany needs SAISONMANAGER_API_KEY (X-Api-Key, request on saisonmanager.de)'
 	@echo 'Set WFC_REGULAR_SEASON_LEAGUE_CONFIG/WFC_LEAGUE_CONFIG to override refresh-wfc'
 	@echo '                                                                          '
 
@@ -182,39 +164,45 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
+# $(call smart_refresh,<playoffs target>,<regular target>,<playoffs csv>)
+# Playoffs first; once they have rows the regular season is final and skipped.
+# A failing playoffs step (not published yet, upstream hiccup) never blocks the
+# regular-season refresh.
+define smart_refresh
+	@if ! $(MAKE) $(1); then echo "[INFO] $(1) failed or not published yet; continuing."; fi
+	@if [ -f "$(3)" ] && [ "$$(wc -l < "$(3)")" -gt 1 ]; then \
+		echo "Playoffs detected in $(3); skipping $(2)."; \
+	else \
+		$(MAKE) $(2); \
+	fi
+endef
+
 refresh-current-season:
-	"$(PYTHON)" -m src.pipeline --league_id "$(LEAGUE_ID)" --season "$(SEASON)" --phase "$(PHASE)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(GERMANY_LEAGUE_CONFIG)"
 
 refresh-current-season-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(GERMANY_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-current-season-smart:
-	$(MAKE) refresh-current-season-playoffs
-	@if [ -f "$(GERMANY_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(GERMANY_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(GERMANY_PLAYOFFS_CSV); skipping refresh-current-season."; \
-	else \
-		$(MAKE) refresh-current-season; \
-	fi
+	$(call smart_refresh,refresh-current-season-playoffs,refresh-current-season,$(GERMANY_PLAYOFFS_CSV))
 
 refresh-sweden:
-	"$(PYTHON)" -m src.pipeline --backend sweden --competition_id "$(SWEDEN_COMPETITION_ID)" --season "$(SWEDEN_SEASON)" --phase "$(PHASE)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWEDEN_LEAGUE_CONFIG)"
 
 refresh-sweden-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SWEDEN_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-sweden-smart:
-	$(MAKE) refresh-sweden-playoffs
-	@if [ -f "$(SWEDEN_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SWEDEN_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(SWEDEN_PLAYOFFS_CSV); skipping refresh-sweden."; \
-	else \
-		$(MAKE) refresh-sweden; \
-	fi
+	$(call smart_refresh,refresh-sweden-playoffs,refresh-sweden,$(SWEDEN_PLAYOFFS_CSV))
 
 refresh-switzerland:
-	"$(PYTHON)" -m src.pipeline --backend switzerland --swiss_league "$(SWISS_LEAGUE)" --swiss_season "$(SWISS_SEASON)" --swiss_game_class "$(SWISS_GAME_CLASS)" --swiss_group "$(SWISS_GROUP)" --season "$(SWISS_SEASON_SLUG)" --phase "$(PHASE)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_LEAGUE_CONFIG)"
 
 refresh-switzerland-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_PLAYOFFS_LEAGUE_CONFIG)"
+
+refresh-switzerland-smart:
+	$(call smart_refresh,refresh-switzerland-playoffs,refresh-switzerland,$(SWISS_PLAYOFFS_CSV))
 
 refresh-finland:
 	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_LEAGUE_CONFIG)"
@@ -223,19 +211,7 @@ refresh-finland-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-finland-smart:
-	@if $(MAKE) refresh-finland-playoffs; then \
-		true; \
-	elif [ -f "$(FINLAND_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(FINLAND_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs refresh failed; using existing $(FINLAND_PLAYOFFS_CSV)."; \
-	else \
-		echo "Playoffs refresh failed and no usable $(FINLAND_PLAYOFFS_CSV) found."; \
-		exit 1; \
-	fi
-	@if [ -f "$(FINLAND_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(FINLAND_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(FINLAND_PLAYOFFS_CSV); skipping refresh-finland."; \
-	else \
-		$(MAKE) refresh-finland; \
-	fi
+	$(call smart_refresh,refresh-finland-playoffs,refresh-finland,$(FINLAND_PLAYOFFS_CSV))
 
 refresh-czech:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)"
@@ -244,12 +220,7 @@ refresh-czech-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)"
 
 refresh-czech-smart:
-	$(MAKE) refresh-czech-playoffs
-	@if [ -f "data/data_cz-25-26_playoffs.csv" ] && [ "$$(wc -l < "data/data_cz-25-26_playoffs.csv")" -gt 1 ]; then \
-		echo "Playoffs detected in data/data_cz-25-26_playoffs.csv; skipping refresh-czech."; \
-	else \
-		$(MAKE) refresh-czech; \
-	fi
+	$(call smart_refresh,refresh-czech-playoffs,refresh-czech,$(CZECH_PLAYOFFS_CSV))
 
 refresh-slovakia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_LEAGUE_CONFIG)"
@@ -257,11 +228,17 @@ refresh-slovakia:
 refresh-slovakia-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG)"
 
+refresh-slovakia-smart:
+	$(call smart_refresh,refresh-slovakia-playoffs,refresh-slovakia,$(SLOVAKIA_PLAYOFFS_CSV))
+
 refresh-latvia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_LEAGUE_CONFIG)"
 
 refresh-latvia-playoffs:
 	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_PLAYOFFS_LEAGUE_CONFIG)"
+
+refresh-latvia-smart:
+	$(call smart_refresh,refresh-latvia-playoffs,refresh-latvia,$(LATVIA_PLAYOFFS_CSV))
 
 refresh-wfc:
 	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
@@ -271,30 +248,6 @@ refresh-wfc:
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_REGULAR_SEASON_LEAGUE_CONFIG)" --database_url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)" --database_url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
 	"$(PYTHON)" -m src.generate_wfc_tournament_page
-
-refresh-switzerland-smart:
-	$(MAKE) refresh-switzerland-playoffs
-	@if [ -f "$(SWISS_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SWISS_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(SWISS_PLAYOFFS_CSV); skipping refresh-switzerland."; \
-	else \
-		$(MAKE) refresh-switzerland; \
-	fi
-
-refresh-slovakia-smart:
-	$(MAKE) refresh-slovakia-playoffs
-	@if [ -f "$(SLOVAKIA_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(SLOVAKIA_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(SLOVAKIA_PLAYOFFS_CSV); skipping refresh-slovakia."; \
-	else \
-		$(MAKE) refresh-slovakia; \
-	fi
-
-refresh-latvia-smart:
-	$(MAKE) refresh-latvia-playoffs
-	@if [ -f "$(LATVIA_PLAYOFFS_CSV)" ] && [ "$$(wc -l < "$(LATVIA_PLAYOFFS_CSV)")" -gt 1 ]; then \
-		echo "Playoffs detected in $(LATVIA_PLAYOFFS_CSV); skipping refresh-latvia."; \
-	else \
-		$(MAKE) refresh-latvia; \
-	fi
 
 refresh-all-leagues-bootstrap:
 	@failed=""; \

@@ -8,6 +8,48 @@ python3 -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Seasons and league configs
+
+Every league reads its season-specific IDs and URLs from one config file per phase:
+
+```text
+config/leagues/<league>-<season>.json           # regular season
+config/leagues/<league>-<season>-playoffs.json  # playoffs
+```
+
+The Makefile only knows `CURRENT_SEASON` (currently `26-27`) and derives all config paths from it.
+Any league target can be re-run for an older season, e.g. `make refresh-sweden CURRENT_SEASON=25-26`.
+
+### Season rollover checklist
+
+1. Copy the previous season's configs to `config/leagues/<league>-<new season>[-playoffs].json` and update IDs/URLs/years:
+   - Germany: Saisonmanager league id (link "1. FBL Herren" on saisonmanager.de, e.g. `/fd/2447-1-fbl-herren`); the playoffs league id is published later, keep `"league_id": null` until then.
+   - Sweden: SSL Herrar `competition_id` of the new season (the playoffs config points at the same id, playoff series are resolved automatically).
+   - Switzerland: `swiss.season` (start year).
+   - Finland: `playoff_start_date` (day after the last regular-season round).
+   - Czech Republic: `competitionFisId` of the season in the schedule URL plus `season_start_year`.
+   - Slovakia: tournament id in the schedule URL plus `regular_season_end_date`.
+   - Latvia: year in the calendar URL plus `season_start_year`.
+2. Bump `CURRENT_SEASON` in the `Makefile`.
+3. Prepend the season to `SEASONS` in `pelicanconf.py` (navigation, home page and article paths follow automatically).
+4. Run `make refresh-all-leagues`.
+
+Keep the old configs: player-stat roster lookups for past seasons still read them.
+Before rolling over, pin Sweden's finished playoffs config to the explicit series ids
+(`competition_ids`, see `sweden-ssl-25-26-playoffs.json`): the API only lists current-season competitions.
+
+## Germany: Saisonmanager API key
+
+Since summer 2026 the Saisonmanager API requires a personal key (request it on saisonmanager.de, "API-Zugang").
+Export it as `SAISONMANAGER_API_KEY` (sent as `X-Api-Key`); the GitHub workflow reads the repository secret of the same name.
+
+Without the key, `src/scrape_saisonmanager_web.py` reads the public saisonmanager.de pages instead
+(headless Chrome via Playwright; locally `pip install -r requirements.txt` plus an installed Google Chrome,
+or `playwright install chromium`). It returns the same JSON shape as the API, so the pipeline is unchanged.
+To keep the load low it renders one page per finished game, waits between renders, skips images/fonts,
+takes unplayed games from the schedule page and caches finished games in `.cache/saisonmanager/`
+(re-read only within 3 days after the game). Player-stat lineups use that cache only.
+
 ## Canonical pipeline (single league)
 
 ```bash
@@ -17,10 +59,10 @@ make refresh-current-season
 This runs the new unified module entrypoint:
 
 ```bash
-python -m src.pipeline --league_id 1890 --season 25-26 --phase regular-season
+python -m src.pipeline --league_config config/leagues/germany-1fbl-26-27.json
 ```
 
-German playoffs (Saisonmanager league id `1963`) via config:
+German playoffs via config:
 
 ```bash
 make refresh-current-season-playoffs
@@ -38,7 +80,12 @@ This runs:
 - all smart league refresh targets
 - `make refresh-player-stats`
 - `make refresh-player-pages`
+- `make refresh-search-index`
 - `make html`
+
+A failing step is reported as `[WARN] step failed: <target>` and never blocks the remaining leagues.
+Smart targets try the playoffs first; until a league's playoffs are published that step fails with
+"No playoffs games found" (or similar) and the regular season is refreshed instead.
 
 Target architecture:
 - Neon/Postgres is the canonical runtime data layer.
@@ -54,13 +101,13 @@ During refreshes, the pipeline also maintains a derived local SQLite database at
 Pipeline entrypoint with Sweden backend:
 
 ```bash
-python -m src.pipeline --backend sweden --competition_id 40693 --season se-25-26 --phase regular-season
+python -m src.pipeline --backend sweden --competition_id 44033 --season se-26-27 --phase regular-season
 ```
 
 Make target:
 
 ```bash
-make refresh-sweden SWEDEN_COMPETITION_ID=40693 SWEDEN_SEASON=se-25-26 PHASE=regular-season
+make refresh-sweden
 ```
 
 Playoffs / smart refresh:
@@ -75,13 +122,13 @@ make refresh-sweden-smart
 Pipeline entrypoint with Slovakia backend:
 
 ```bash
-python -m src.pipeline --backend slovakia --slovakia_schedule_url "https://www.szfb.sk/sk/stats/results-date/1164/florbalova-extraliga-muzov" --season sk-25-26 --phase regular-season
+python -m src.pipeline --league_config config/leagues/slovakia-extraliga-26-27.json
 ```
 
 Make target:
 
 ```bash
-make refresh-slovakia SLOVAKIA_LEAGUE_CONFIG=config/leagues/slovakia-extraliga.json
+make refresh-slovakia
 ```
 
 ## Latvia (floorball.lv backend)
@@ -89,13 +136,13 @@ make refresh-slovakia SLOVAKIA_LEAGUE_CONFIG=config/leagues/slovakia-extraliga.j
 Pipeline entrypoint with Latvia backend:
 
 ```bash
-python -m src.pipeline --backend latvia --latvia_calendar_url "https://www.floorball.lv/lv/2025/chempionats/vv/kalendars" --latvia_season_start_year 2025 --season lv-25-26 --phase regular-season
+python -m src.pipeline --league_config config/leagues/latvia-elvi-vv-26-27.json
 ```
 
 Make target:
 
 ```bash
-make refresh-latvia LATVIA_LEAGUE_CONFIG=config/leagues/latvia-elvi-vv.json
+make refresh-latvia
 ```
 
 ## Finland playoffs
@@ -207,7 +254,7 @@ python -m src.pipeline --backend switzerland --swiss_game_ids "1073873,1073807" 
 Use renderengine schedule parameters with round traversal (recommended for L-UPL/NLB pages):
 
 ```bash
-python -m src.pipeline --backend switzerland --swiss_league 24 --swiss_season 2025 --swiss_game_class 11 --swiss_group "Gruppe 1" --season ch-25-26 --phase regular-season
+python -m src.pipeline --backend switzerland --swiss_league 24 --swiss_season 2026 --swiss_game_class 11 --swiss_group "Gruppe 1" --season ch-26-27 --phase regular-season
 ```
 
 ## WFC / IFF competitions
@@ -335,21 +382,17 @@ If any of those require one-off local edits, the backend is not integrated yet.
 
 ## Refresh current 1. FBL Herren season data
 
-Defaults:
-- `LEAGUE_ID=1890`
-- `SEASON=25-26`
-- `PHASE=regular-season`
-
-Override:
+Uses `config/leagues/germany-1fbl-$(CURRENT_SEASON).json` (needs `SAISONMANAGER_API_KEY`):
 
 ```bash
-make refresh-current-season LEAGUE_ID=1890 SEASON=25-26 PHASE=regular-season
+make refresh-current-season
+make refresh-current-season CURRENT_SEASON=25-26
 ```
 
 Playoffs:
 
 ```bash
-make refresh-current-season-playoffs GERMANY_PLAYOFFS_LEAGUE_CONFIG=config/leagues/germany-1fbl-playoffs.json
+make refresh-current-season-playoffs
 ```
 
 ## Run tests

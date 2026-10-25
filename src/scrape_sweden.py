@@ -15,7 +15,7 @@ from src.scheduled_games import build_scheduled_game_row
 STARTKIT_URL = "https://api.innebandy.se/StatsAppApi/api/startkit"
 DEFAULT_API_ROOT = "https://api.innebandy.se/v2/api/"
 
-EVENT_GOAL_TYPES = {"M\u00e5l", "Straffm\u00e5l"}
+EVENT_GOAL_TYPES = {"M\u00e5l", "Straffm\u00e5l", "M\u00e5l i tom bur"}
 EVENT_PENALTY_TYPES = {"Utvisning"}
 
 
@@ -69,29 +69,64 @@ def _fetch_competition_category_competitions(
     return payload if isinstance(payload, list) else []
 
 
+def _list_category_competitions(
+    api_root: str,
+    headers: dict[str, str],
+    category_id: int,
+    federation_competitions: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    try:
+        return _fetch_competition_category_competitions(api_root, headers, category_id)
+    except requests.HTTPError:
+        # The public API dropped the category endpoint in 2026; the federation
+        # list only holds current-season competitions but carries CategoryID.
+        return [item for item in federation_competitions if item.get("CategoryID") == category_id]
+
+
 def expand_competition_ids_by_category(competition_ids: list[int], federation_id: int = 1) -> list[int]:
+    """Resolve the playoff competitions (one per series) for the given competitions.
+
+    A regular-season competition (non-zero PlayOffCategoryID) maps to its playoff
+    category, so a config can point at the regular season before the playoff
+    series exist. A playoff competition expands to all series of its category.
+    Only competitions of the same season are returned.
+    """
     cfg = _get_api_config()
     headers = _auth_headers(cfg.token)
-    competitions = _fetch_federation_competitions(cfg.api_root, headers, federation_id=federation_id)
-    by_id = {int(item.get("CompetitionID")): item for item in competitions if item.get("CompetitionID")}
-    category_ids = {
-        int(item.get("CategoryID"))
-        for competition_id in competition_ids
-        for item in [by_id.get(int(competition_id)) or _fetch_competition(cfg.api_root, headers, int(competition_id))]
-        if item and item.get("CategoryID") is not None
-    }
-    if not category_ids:
+    federation_competitions = _fetch_federation_competitions(cfg.api_root, headers, federation_id=federation_id)
+    season_by_id: dict[int, Any] = {}
+
+    def _season_of(competition_id: int) -> Any:
+        if competition_id not in season_by_id:
+            season_by_id[competition_id] = _fetch_competition(cfg.api_root, headers, competition_id).get("SeasonID")
+        return season_by_id[competition_id]
+
+    targets: set[tuple[int, Any]] = set()
+    playoff_ids: set[int] = set()
+    for competition_id in {int(value) for value in competition_ids}:
+        detail = _fetch_competition(cfg.api_root, headers, competition_id)
+        season_by_id[competition_id] = detail.get("SeasonID")
+        playoff_category_id = int(detail.get("PlayOffCategoryID") or 0)
+        if playoff_category_id:
+            targets.add((playoff_category_id, detail.get("SeasonID")))
+        elif detail.get("CategoryID") is not None:
+            targets.add((int(detail["CategoryID"]), detail.get("SeasonID")))
+            playoff_ids.add(competition_id)
+    if not targets:
         return sorted({int(value) for value in competition_ids})
 
     expanded: set[int] = set()
-    for category_id in category_ids:
-        category_competitions = _fetch_competition_category_competitions(cfg.api_root, headers, int(category_id))
-        expanded.update(
-            int(item.get("CompetitionID"))
-            for item in category_competitions
-            if item.get("CompetitionID") is not None
-        )
-    return sorted(expanded or {int(value) for value in competition_ids})
+    for category_id, season_id in targets:
+        for item in _list_category_competitions(cfg.api_root, headers, category_id, federation_competitions):
+            if item.get("CompetitionID") is None:
+                continue
+            candidate_id = int(item["CompetitionID"])
+            if season_id is not None and (item.get("SeasonID") or _season_of(candidate_id)) != season_id:
+                continue
+            expanded.add(candidate_id)
+    # Never fall back to a regular-season competition: before the playoff series
+    # are published this returns an empty list.
+    return sorted(expanded or playoff_ids)
 
 
 def _safe_split_datetime(dt: str | None) -> tuple[str | None, str | None]:
@@ -131,7 +166,14 @@ def _event_to_row(event: dict[str, Any], match: dict[str, Any]) -> dict[str, Any
     away_team = match.get("AwayTeam")
     is_home = event.get("IsHomeTeam")
     if is_home is None:
-        return None
+        # Since 2026 events name their side via MatchTeamID instead of IsHomeTeam.
+        team_id = event.get("MatchTeamID")
+        if team_id and team_id == match.get("HomeMatchTeamID"):
+            is_home = True
+        elif team_id and team_id == match.get("AwayMatchTeamID"):
+            is_home = False
+        else:
+            return None
     event_team = home_team if is_home else away_team
 
     period = int(event.get("Period") or 0)

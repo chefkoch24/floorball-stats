@@ -52,8 +52,14 @@ def _load_wfc_events_from_db(database_url: str, season: str, phase: str) -> pd.D
     return df
 
 
+def _has_data_rows(csv_path: Path) -> bool:
+    with csv_path.open("r", encoding="utf-8") as handle:
+        handle.readline()
+        return bool(handle.readline().strip())
+
+
 def run_pipeline(
-    league_id: int,
+    league_id: int | None,
     season: str,
     phase: str,
     backend: str = "saisonmanager",
@@ -100,6 +106,8 @@ def run_pipeline(
                 raise ValueError("competition_id or competition_ids is required when backend=sweden")
             if phase == "playoffs":
                 sweden_competition_ids = expand_competition_ids_by_category(sweden_competition_ids)
+                if not sweden_competition_ids:
+                    raise ValueError("No Sweden playoff competitions published yet for the configured season.")
             if len(sweden_competition_ids) == 1:
                 scrape_competition_events(
                     competition_id=sweden_competition_ids[0],
@@ -199,6 +207,11 @@ def run_pipeline(
                     phase=phase,
                 )
         else:
+            if not league_id:
+                raise ValueError(
+                    "league_id is required when backend=saisonmanager "
+                    "(for playoffs: set it once the playoff league is published)"
+                )
             scrape_events(
                 input_path=f"leagues/{league_id}/schedule.json",
                 output_path=str(raw_csv),
@@ -210,6 +223,8 @@ def run_pipeline(
         wfc_db_frame = _load_wfc_events_from_db(database_url, season, phase)
     elif not raw_csv.exists():
         raise FileNotFoundError(f"Expected input CSV at {raw_csv} but file does not exist.")
+    elif not _has_data_rows(raw_csv):
+        raise ValueError(f"No {phase} games found for season {season} ({raw_csv}); nothing to build yet.")
 
     pregame_history_csv_paths: list[str] = []
     if phase == "playoffs":
@@ -275,7 +290,7 @@ def parse_args():
         default="saisonmanager",
         choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia", "wfc"],
     )
-    parser.add_argument("--league_id", type=int, default=1890)
+    parser.add_argument("--league_id", type=int, default=None)
     parser.add_argument("--competition_id", type=int, default=None)
     parser.add_argument("--competition_ids", type=str, default=None)
     parser.add_argument("--league_config", type=str, default=None)
@@ -299,7 +314,7 @@ def parse_args():
     parser.add_argument("--wfc_league_organizer_id", type=int, default=None)
     parser.add_argument("--playoff_rounds", type=str, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
-    parser.add_argument("--season", default="25-26")
+    parser.add_argument("--season", default=None)
     parser.add_argument("--phase", default="regular-season")
     parser.add_argument("--data_dir", default="data")
     parser.add_argument("--content_dir", default="content")
@@ -313,6 +328,8 @@ def main():
     if args.league_config:
         cfg = load_league_config(args.league_config)
         apply_league_config(args, cfg)
+    if not args.season:
+        raise SystemExit("--season is required (or pass a --league_config that sets it)")
     swiss_game_ids = None
     if args.swiss_game_ids:
         swiss_game_ids = []

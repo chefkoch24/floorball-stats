@@ -36,7 +36,7 @@
         {% for article in articles %}
             {% set article_type = article.type|default('') %}
             {% set category_short = article.category.shortname if article.category else '' %}
-            {% if (article_type == "game" or article|string_in_category_path('game')) and '25-26' in category_short and article.date %}
+            {% if (article_type == "game" or article|string_in_category_path('game')) and CURRENT_SEASON in category_short and article.date %}
                 <article
                     data-date="{{ article.date.strftime('%Y-%m-%d') }}"
                     data-time="{{ article.start_time|fmt_time('TBD') }}"
@@ -52,138 +52,40 @@
     </div>
 </section>
 
+{% set available_categories = categories|default([])|category_slugs %}
+{% macro season_phase_link(slug, label, season, available) -%}
+    {% if slug in available %}
+    <a class="season-phase-link" href="{{ SITEURL }}/category/{{ slug }}.html">
+        <span>{{ label }}</span>
+        <span>{{ season }}</span>
+    </a>
+    {% else %}
+    <span class="season-phase-link is-disabled">
+        <span>{{ label }}</span>
+        <span>{{ season }}</span>
+    </span>
+    {% endif %}
+{%- endmacro %}
+{% for league in LEAGUES %}
 <section class="panel">
-    <h2 class="panel-title">Sweden · SSL</h2>
+    <h2 class="panel-title">{{ league.title }}</h2>
     <div class="season-group-grid">
+        {% for season in SEASONS %}
+        {% set regular_slug = league.prefix ~ season ~ '-regular-season' %}
+        {% set playoffs_slug = league.prefix ~ season ~ '-playoffs' %}
+        {% if season == CURRENT_SEASON or regular_slug in available_categories or playoffs_slug in available_categories %}
         <article class="season-group-card">
-            <h3>Season 25-26</h3>
+            <h3>Season {{ season }}</h3>
             <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/se-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/se-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
+                {{ season_phase_link(regular_slug, 'Regular Season', season, available_categories) }}
+                {{ season_phase_link(playoffs_slug, 'Playoffs', season, available_categories) }}
             </div>
         </article>
+        {% endif %}
+        {% endfor %}
     </div>
 </section>
-
-<section class="panel">
-    <h2 class="panel-title">Finland · F-Liiga</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/fi-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/fi-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Czech Republic · ČEZ Extraliga</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/cz-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/cz-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Switzerland · L-UPL</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/ch-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/ch-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Slovakia · Extraliga mužov</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/sk-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/sk-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Latvia · ELVI līga vīriešiem</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/lv-25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/lv-25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Germany · 1. FBL Herren</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Season 25-26</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/category/25-26-regular-season.html">
-                    <span>Regular Season</span>
-                    <span>25-26</span>
-                </a>
-                <a class="season-phase-link" href="{{ SITEURL }}/category/25-26-playoffs.html">
-                    <span>Playoffs</span>
-                    <span>25-26</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
+{% endfor %}
 
 <section class="panel">
     <h2 class="panel-title">International · IFF WFC</h2>

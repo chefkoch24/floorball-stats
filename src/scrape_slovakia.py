@@ -189,7 +189,9 @@ def _extract_attendance(soup: BeautifulSoup) -> int | None:
 
 def _is_placeholder_team_name(name: Any) -> bool:
     text = str(name or "").strip().upper()
-    return bool(re.fullmatch(r"[A-D]{3}", text))
+    # Bracket slots before pairings are known: repeated letters ("AAA", "HHHH")
+    # or table positions ("10.").
+    return bool(re.fullmatch(r"([A-Z])\1{2,}|\d{1,2}\.", text))
 
 
 def _parse_match_events(session: requests.Session, match: MatchCard) -> list[dict[str, Any]]:
