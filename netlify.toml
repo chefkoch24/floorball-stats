@@ -1,2 +1,4 @@
 [build.environment]
-PYTHON_VERSION = "3.11.9"
+# Netlify's noble build image installs Python via mise, which rejects releases
+# without GitHub artifact attestations (e.g. 3.11.9). 3.13 builds cleanly.
+PYTHON_VERSION = "3.13"
