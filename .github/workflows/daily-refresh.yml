@@ -71,7 +71,9 @@ jobs:
           set -uo pipefail
           # One failing league must not block the others; failed steps are
           # surfaced as workflow warnings instead.
-          make refresh-all-leagues 2>&1 | tee refresh.log
+          # ceskyflorbal.cz blocks GitHub runners: Czech pages are built from the
+          # events `make refresh-czech-local` syncs to Neon from a regular connection.
+          make refresh-all-leagues CZECH_PIPELINE_ARGS="--events_source db" 2>&1 | tee refresh.log
           grep -E "\[WARN\] step failed" refresh.log | sed 's/^/::warning::/' || true
           rm -f refresh.log
 

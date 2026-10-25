@@ -55,3 +55,51 @@ def test_empty_scrape_result_raises_instead_of_building_empty_pages(tmp_path):
             content_dir=str(tmp_path / "content"),
             skip_scrape=True,
         )
+
+
+def test_events_source_db_requires_a_database_url(tmp_path):
+    with pytest.raises(ValueError, match="events_source=db needs a database URL"):
+        pipeline.run_pipeline(
+            league_id=None,
+            season="cz-26-27",
+            phase="regular-season",
+            backend="czech",
+            data_dir=str(tmp_path / "data"),
+            content_dir=str(tmp_path / "content"),
+            database_url=None,
+            events_source="db",
+        )
+
+
+def test_events_source_db_rejects_empty_slices(monkeypatch, tmp_path):
+    class _Cursor:
+        description = [type("Col", (), {"name": name})() for name in ("source_key", "season", "phase", "game_id")]
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return None
+
+        def execute(self, *args):
+            return None
+
+        def fetchall(self):
+            return []
+
+    class _Conn:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return None
+
+        def cursor(self):
+            return _Cursor()
+
+    import psycopg
+
+    monkeypatch.setattr(psycopg, "connect", lambda url: _Conn())
+
+    with pytest.raises(ValueError, match="No playoffs events stored in Postgres for season cz-26-27"):
+        pipeline._write_events_from_db("postgresql://test", "cz-26-27", "playoffs", tmp_path / "events.csv")

@@ -50,6 +50,21 @@ To keep the load low it renders one page per finished game, waits between render
 takes unplayed games from the schedule page and caches finished games in `.cache/saisonmanager/`
 (re-read only within 3 days after the game). Player-stat lineups use that cache only.
 
+## Czech Republic: local job instead of CI scraping
+
+ceskyflorbal.cz (Cloudflare) answers datacenter IPs such as GitHub runners with 403, while a regular
+connection works (its robots.txt only disallows `/admin`). So the work is split:
+
+- `make refresh-czech-local` (needs `NEON_DATABASE_URL`) scrapes the Czech league into Neon using a temp dir
+  (the working copy stays untouched) and rebuilds only the Czech player stats (`--prefixes cz`).
+- The nightly workflow runs `make refresh-all-leagues CZECH_PIPELINE_ARGS="--events_source db"`, i.e. it builds
+  the Czech pages from the events in Neon instead of scraping.
+- `make install-czech-job` installs a macOS launchd agent that runs `scripts/czech_refresh_job.sh` daily at 22:00
+  (a missed run starts when the Mac wakes up). Log: `~/Library/Logs/floorball-czech-refresh.log`.
+  Remove it with `make uninstall-czech-job`.
+
+If the Mac does not run, the site keeps the last synced Czech data.
+
 ## Canonical pipeline (single league)
 
 ```bash

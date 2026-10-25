@@ -52,6 +52,24 @@ def _load_wfc_events_from_db(database_url: str, season: str, phase: str) -> pd.D
     return df
 
 
+def _write_events_from_db(database_url: str, season: str, phase: str, output_path: Path) -> int:
+    """Materialize the events stored in Postgres as the raw CSV the scrapers would write."""
+    import psycopg  # type: ignore
+
+    with psycopg.connect(database_url) as conn, conn.cursor() as cur:
+        cur.execute("SELECT * FROM events WHERE season = %s AND phase = %s", (season, phase))
+        columns = [desc.name for desc in cur.description]
+        rows = cur.fetchall()
+    frame = pd.DataFrame(rows, columns=columns).drop(columns=["source_key", "season", "phase"], errors="ignore")
+    # The events table holds the union of all backends' columns; keep this backend's.
+    frame = frame.dropna(axis=1, how="all")
+    if frame.empty:
+        raise ValueError(f"No {phase} events stored in Postgres for season {season}; nothing to build yet.")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    frame.to_csv(output_path, index=False)
+    return len(frame)
+
+
 def _has_data_rows(csv_path: Path) -> bool:
     with csv_path.open("r", encoding="utf-8") as handle:
         handle.readline()
@@ -89,6 +107,7 @@ def run_pipeline(
     content_dir: str = "content",
     database_url: str | None = None,
     skip_scrape: bool = False,
+    events_source: str = "scrape",
 ) -> dict:
     data_path = Path(data_dir)
     content_path = Path(content_dir)
@@ -98,6 +117,15 @@ def run_pipeline(
     (content_path / f"{season}-{phase}" / "liga").mkdir(parents=True, exist_ok=True)
 
     raw_csv = data_path / f"data_{season}_{phase.replace('-', '_')}.csv"
+
+    if events_source == "db" and not skip_scrape:
+        # Build from events another machine already synced (e.g. ceskyflorbal.cz
+        # blocks GitHub runners, see `make refresh-czech-local`).
+        if not database_url:
+            raise ValueError("events_source=db needs a database URL (NEON_DATABASE_URL or --database_url)")
+        rows = _write_events_from_db(database_url, season, phase, raw_csv)
+        print(f"[pipeline] built {season} {phase} from {rows} events stored in Postgres (no scrape).")
+        skip_scrape = True
 
     if not skip_scrape:
         if backend == "sweden":
@@ -320,6 +348,12 @@ def parse_args():
     parser.add_argument("--content_dir", default="content")
     parser.add_argument("--database_url", default=None)
     parser.add_argument("--skip_scrape", action="store_true")
+    parser.add_argument(
+        "--events_source",
+        choices=["scrape", "db"],
+        default="scrape",
+        help="db: read this season/phase from the Postgres events table instead of scraping",
+    )
     return parser.parse_args()
 
 
@@ -381,6 +415,7 @@ def main():
         content_dir=args.content_dir,
         database_url=args.database_url or os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL"),
         skip_scrape=args.skip_scrape,
+        events_source=args.events_source,
     )
 
 

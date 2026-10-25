@@ -13,6 +13,7 @@ from src.build_player_stats import (
     _finalize_rows,
     _merge_finalized_rows,
     _normalize_player_name_for_identity,
+    _normalize_prefix_tokens,
     _rows_from_czech_rosters,
     _rows_from_finland_rosters,
     _rows_from_germany_lineups,
@@ -487,7 +488,9 @@ def _replace_player_stats_table(database_url: str, frame: pd.DataFrame) -> int:
         return len(rows)
 
 
-def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "") -> int:
+def build_player_stats_from_postgres(
+    *, database_url: str, output_csv: str = "", only_prefixes: set[str] | None = None
+) -> int:
     print("Loading events from DB...")
     events = _load_events(database_url)
     print(f"  {len(events):,} event rows loaded.")
@@ -513,6 +516,12 @@ def build_player_stats_from_postgres(*, database_url: str, output_csv: str = "")
             info = LEAGUE_INFO.get(prefix)
             if not info:
                 continue
+            if only_prefixes is not None and prefix not in only_prefixes:
+                # Partial rebuild (e.g. the local Czech job): keep the other leagues as stored.
+                stored = _stored_rows_for(previous_stats, season_key, phase_key)
+                if not stored.empty:
+                    all_rows.append(stored)
+                    continue
             print(f"[{i}/{total}] {season_key} / {phase_key} ({info['league']})...")
             event_rows = _rows_from_event_frame(
                 subset,
@@ -593,6 +602,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build player_stats directly from Postgres events table.")
     parser.add_argument("--database-url", default="")
     parser.add_argument("--output-csv", default="")
+    parser.add_argument(
+        "--prefixes",
+        default="",
+        help="comma-separated season prefixes to rebuild (e.g. cz); all others keep their stored rows",
+    )
     return parser.parse_args()
 
 
@@ -601,7 +615,10 @@ def main() -> None:
     database_url = args.database_url or os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL") or ""
     if not database_url:
         raise SystemExit("Missing --database-url or NEON_DATABASE_URL/DATABASE_URL env var.")
-    rows = build_player_stats_from_postgres(database_url=database_url, output_csv=args.output_csv)
+    only_prefixes = _normalize_prefix_tokens(args.prefixes) or None
+    rows = build_player_stats_from_postgres(
+        database_url=database_url, output_csv=args.output_csv, only_prefixes=only_prefixes
+    )
     target = args.output_csv or "database only"
     print(f"player-stats-db: wrote {rows} rows to player_stats ({target})")
 

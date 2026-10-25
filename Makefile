@@ -56,6 +56,13 @@ FINLAND_PLAYOFFS_CSV ?= data/data_fi-$(CURRENT_SEASON)_playoffs.csv
 CZECH_LEAGUE_CONFIG ?= $(CONFIG_DIR)/czech-cez-extraliga-$(CURRENT_SEASON).json
 CZECH_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/czech-cez-extraliga-$(CURRENT_SEASON)-playoffs.json
 CZECH_PLAYOFFS_CSV ?= data/data_cz-$(CURRENT_SEASON)_playoffs.csv
+# ceskyflorbal.cz (Cloudflare) blocks datacenter IPs such as GitHub runners.
+# CI therefore builds Czech pages from Neon (CZECH_PIPELINE_ARGS=--events_source db)
+# and `make refresh-czech-local` keeps Neon current from a regular connection.
+CZECH_PIPELINE_ARGS ?=
+CZECH_JOB_LABEL ?= com.floorballconnect.czech-refresh
+CZECH_JOB_PLIST ?= $(HOME)/Library/LaunchAgents/$(CZECH_JOB_LABEL).plist
+CZECH_JOB_LOG ?= $(HOME)/Library/Logs/floorball-czech-refresh.log
 # Slovakia (Extraliga mužov, SZFB)
 SLOVAKIA_LEAGUE_CONFIG ?= $(CONFIG_DIR)/slovakia-extraliga-$(CURRENT_SEASON).json
 SLOVAKIA_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/slovakia-extraliga-$(CURRENT_SEASON)-playoffs.json
@@ -94,6 +101,8 @@ help:
 	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
 	@echo '   make refresh-czech-playoffs         playoffs pipeline for Czech Extraliga'
 	@echo '   make refresh-czech-smart            Czech smart regular/playoffs refresh'
+	@echo '   make refresh-czech-local            Czech scrape -> Neon (run off GitHub, see README)'
+	@echo '   make install-czech-job              install the daily macOS job for refresh-czech-local'
 	@echo '   make refresh-slovakia               full pipeline for Slovak Extraliga  '
 	@echo '   make refresh-slovakia-playoffs      playoffs pipeline for Slovak Extraliga'
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
@@ -214,13 +223,44 @@ refresh-finland-smart:
 	$(call smart_refresh,refresh-finland-playoffs,refresh-finland,$(FINLAND_PLAYOFFS_CSV))
 
 refresh-czech:
-	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)" $(CZECH_PIPELINE_ARGS)
 
 refresh-czech-playoffs:
-	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)" $(CZECH_PIPELINE_ARGS)
 
 refresh-czech-smart:
 	$(call smart_refresh,refresh-czech-playoffs,refresh-czech,$(CZECH_PLAYOFFS_CSV))
+
+# Scrape the Czech league into Neon from a machine ceskyflorbal.cz does not
+# block, plus the Czech player stats. Uses a temp dir, so the working copy stays
+# untouched; the nightly CI run builds the pages from Neon.
+refresh-czech-local:
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL)."; \
+		exit 1; \
+	fi
+	@tmp="$$(mktemp -d)"; trap 'rm -rf "$$tmp"' EXIT; \
+	if "$(PYTHON)" -m src.pipeline --league_config "$(CZECH_PLAYOFFS_LEAGUE_CONFIG)" --data_dir "$$tmp/data" --content_dir "$$tmp/content"; then \
+		echo "Czech playoffs synced to Neon."; \
+	else \
+		echo "[INFO] Czech playoffs not available; syncing the regular season."; \
+		"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)" --data_dir "$$tmp/data" --content_dir "$$tmp/content"; \
+	fi
+	"$(PYTHON)" -m src.build_player_stats_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --prefixes cz
+
+# macOS launchd agent running scripts/czech_refresh_job.sh daily at 22:00
+# (a missed run is started when the Mac wakes up).
+install-czech-job:
+	@mkdir -p "$(dir $(CZECH_JOB_PLIST))" "$(dir $(CZECH_JOB_LOG))"
+	@sed -e 's#__LABEL__#$(CZECH_JOB_LABEL)#g' -e 's#__REPO__#$(CURDIR)#g' -e 's#__LOG__#$(CZECH_JOB_LOG)#g' \
+		scripts/czech-refresh.plist.template > "$(CZECH_JOB_PLIST)"
+	@launchctl bootout "gui/$$(id -u)/$(CZECH_JOB_LABEL)" 2>/dev/null || true
+	launchctl bootstrap "gui/$$(id -u)" "$(CZECH_JOB_PLIST)"
+	@echo "Installed $(CZECH_JOB_PLIST); log: $(CZECH_JOB_LOG)"
+
+uninstall-czech-job:
+	@launchctl bootout "gui/$$(id -u)/$(CZECH_JOB_LABEL)" 2>/dev/null || true
+	rm -f "$(CZECH_JOB_PLIST)"
 
 refresh-slovakia:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_LEAGUE_CONFIG)"
@@ -493,4 +533,4 @@ refresh-wfc-players-full:
 	$(MAKE) refresh-player-pages-wfc
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-all-leagues-bootstrap refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-czech-local install-czech-job uninstall-czech-job refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-all-leagues-bootstrap refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc
