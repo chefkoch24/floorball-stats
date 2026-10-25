@@ -6,10 +6,11 @@ Saisonmanager API returns (``leagues/<id>/schedule.json`` and
 ``games/<id>``), so ``src.scrape.scrape_events`` and the lineup-based player
 stats work unchanged.
 
-Load is kept low on purpose: one page render per finished game (cached on
-disk and never fetched again once it is older than a few days), a pause
-between renders, images/fonts are not downloaded, and unplayed games come
-straight from the schedule page.
+saisonmanager.de/robots.txt explicitly allows schedule, game and team pages
+(not /spieler) and asks for a 10 s crawl delay. Load is kept low on purpose:
+one page render per finished game (cached on disk and never fetched again once
+it is older than a few days), the crawl delay between renders, images/fonts are
+not downloaded, and unplayed games come straight from the schedule page.
 """
 from __future__ import annotations
 
@@ -29,6 +30,8 @@ DEFAULT_CACHE_DIR = Path(os.environ.get("SAISONMANAGER_WEB_CACHE", ".cache/saiso
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 # Results may still be corrected shortly after a game; re-read recent games.
 REFRESH_WINDOW_DAYS = 3
+# "Crawl-delay: 10" in https://saisonmanager.de/robots.txt
+CRAWL_DELAY_SECONDS = 10.0
 
 SECTION_PERIODS = {
     "1. drittel": 1,
@@ -338,7 +341,7 @@ class SaisonmanagerWebClient:
         self,
         league_id: int | None = None,
         cache_dir: Path | str = DEFAULT_CACHE_DIR,
-        delay_seconds: float = 2.0,
+        delay_seconds: float = CRAWL_DELAY_SECONDS,
         cache_only: bool = False,
         today: date | None = None,
     ) -> None:

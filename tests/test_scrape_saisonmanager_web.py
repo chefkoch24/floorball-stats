@@ -131,3 +131,13 @@ def test_trimmed_cache_html_parses_like_the_full_page():
     trimmed = parse_game_html(trim_game_html(_fixture("game-45906.html")), 45906)
 
     assert trimmed == full
+
+
+def test_validator_accepts_a_consistent_game_and_flags_missing_goals():
+    from src.validate_saisonmanager_web import check_game
+
+    game = parse_game_html(_fixture("game-45906.html"), 45906)
+    assert check_game(game) == []
+
+    game["events"] = [event for event in game["events"] if event["sortkey"] != "5-10:00"]
+    assert check_game(game) == ["12 goal events for result 6:7 n. PS"]
