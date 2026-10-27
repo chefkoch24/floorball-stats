@@ -1,0 +1,271 @@
+{# League page (regular season) on the design system. Included by category.html with
+   category, league (league_context), ns, player_stats and player_rows in scope. #}
+{% set competition = league.title.split(' · ')[-1] %}
+{% set available = categories|default([])|category_slugs %}
+{% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
+{% set teams = articles_page.object_list | sort_by_rank | selectattr('type', 'equalto', 'team') | list %}
+{% set games = articles_page.object_list | selectattr('type', 'equalto', 'game') | list %}
+{% set played_desc = games | rejectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date', reverse=true) | list %}
+{% set upcoming = games | selectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date') | list %}
+{% set liga_reports = articles_page.object_list | selectattr('type', 'equalto', 'liga') | list %}
+{% set has_draws = teams | map(attribute='draws') | map('int') | sum > 0 %}
+
+{% macro decision(game) -%}
+{%- set ps = (game.home_goals_in_penalty_shootout|default(0)|int) + (game.away_goals_in_penalty_shootout|default(0)|int) -%}
+{%- set ot = (game.home_goals_in_overtime|default(0)|int) + (game.away_goals_in_overtime|default(0)|int) -%}
+{%- if ps > 0 or 'n.P.' in game.result_string|default('')|string %}PS{% elif ot > 0 or 'n.V.' in game.result_string|default('')|string %}OT{% endif -%}
+{%- endmacro %}
+
+{% macro team_label(name, size='') -%}
+<span class="fs-team"><span class="fs-crest{% if size %} fs-crest--{{ size }}{% endif %}" data-crest="{{ name|crest_index }}" aria-hidden="true">{{ name|team_initials }}</span><span>{{ name }}</span></span>
+{%- endmacro %}
+
+{% macro match_card(game) -%}
+{%- set scheduled = game.game_state|default('played') == 'scheduled' -%}
+{%- set hg = game.home_goals|default(0)|int -%}
+{%- set ag = game.away_goals|default(0)|int -%}
+{%- set extra = decision(game) -%}
+<a class="fs-match" href="{{ SITEURL }}/{{ game.url }}">
+    <div class="fs-match__meta">
+        <span>{{ game.date.strftime('%a %d %b') }}</span>
+        {% if scheduled %}
+        <span class="fs-status">{{ game.start_time|fmt_time('TBD') }}</span>
+        {% else %}
+        <span class="fs-status fs-status--final">Final{% if extra %} · {{ extra }}{% endif %}</span>
+        {% endif %}
+    </div>
+    <div class="fs-match__teams">
+        <span class="{% if not scheduled and hg < ag %}fs-match__loser{% endif %}">{{ team_label(game.home_team) }}</span>
+        <span class="{% if not scheduled and ag < hg %}fs-match__loser{% endif %}">{{ team_label(game.away_team) }}</span>
+    </div>
+    <div class="fs-match__scores">
+        {% if scheduled %}<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>
+        {% else %}<span class="{% if hg < ag %}fs-match__loser{% endif %}">{{ hg }}</span><span class="{% if ag < hg %}fs-match__loser{% endif %}">{{ ag }}</span>{% endif %}
+    </div>
+</a>
+{%- endmacro %}
+
+{% macro form_guide(team_name) -%}
+{%- set fm = namespace(items=[]) -%}
+{%- for game in played_desc -%}
+    {%- if fm.items|length < 5 and (game.home_team == team_name or game.away_team == team_name) -%}
+        {%- set own = (game.home_goals if game.home_team == team_name else game.away_goals)|default(0)|int -%}
+        {%- set other = (game.away_goals if game.home_team == team_name else game.home_goals)|default(0)|int -%}
+        {%- set extra = decision(game) -%}
+        {%- if own > other -%}{%- set letter = 'OTW' if extra else 'W' -%}{%- elif own < other -%}{%- set letter = 'OTL' if extra else 'L' -%}{%- else -%}{%- set letter = 'D' -%}{%- endif -%}
+        {%- set fm.items = [letter] + fm.items -%}
+    {%- endif -%}
+{%- endfor -%}
+<span class="fs-form" aria-label="Last {{ fm.items|length }} games: {{ fm.items|join(', ') }}">
+    {%- for letter in fm.items -%}
+    <span class="fs-form__game fs-form__game--{{ 'w' if letter == 'W' else ('l' if letter == 'L' else 'ot') }}">{{ letter }}</span>
+    {%- endfor -%}
+</span>
+{%- endmacro %}
+
+<header class="mb-8 grid gap-5">
+    <div class="flex flex-wrap items-center gap-2">
+        <span class="fs-chip">{{ 'Women' if league.division == 'women' else 'Men' }}</span>
+        <span class="fs-chip">Season <strong>{{ league.season_label }}</strong></span>
+    </div>
+    <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
+        <div class="grid gap-1">
+            <p class="fs-label m-0">{{ league.name }}</p>
+            <h1 class="m-0 font-display text-[44px] leading-none font-extrabold text-ink [font-stretch:75%] text-balance sm:text-[56px]">{{ competition }}</h1>
+        </div>
+        <nav class="fs-segmented" aria-label="Season phase">
+            <a class="fs-segment" aria-current="page" href="{{ SITEURL }}/{{ category.url }}">Regular season</a>
+            {% if playoffs_slug in available %}
+            <a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>
+            {% else %}
+            <span class="fs-segment cursor-default opacity-60" title="Playoffs have not started yet">Playoffs</span>
+            {% endif %}
+        </nav>
+    </div>
+    <dl class="m-0 flex flex-wrap gap-x-8 gap-y-2">
+        <div class="grid"><dt class="fs-label">Teams</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ teams|length }}</dd></div>
+        <div class="grid"><dt class="fs-label">Games played</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ played_desc|length }} <span class="text-base font-medium text-ink-muted">of {{ games|length }}</span></dd></div>
+        {% if player_stats.article %}
+        <div class="grid"><dt class="fs-label">Players</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ player_stats.player_count|default(player_rows|length) }}</dd></div>
+        {% endif %}
+    </dl>
+</header>
+
+{% if played_desc or upcoming %}
+<section class="mb-10 grid gap-3" aria-labelledby="matchday-title">
+    <div class="flex items-baseline justify-between gap-4">
+        <h2 id="matchday-title" class="fs-panel-title">Latest results and next games</h2>
+        <a class="text-sm font-semibold" href="#games">All games</a>
+    </div>
+    <div class="fs-strip">
+        {% for game in (played_desc[:4] | reverse | list) + upcoming[:4] %}
+        {{ match_card(game) }}
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
+    <section class="grid min-w-0 gap-3" aria-labelledby="standings-title">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 id="standings-title" class="fs-section-title">Standings</h2>
+            <div class="fs-segmented" role="group" aria-label="Table columns" data-table-views>
+                <button type="button" class="fs-segment" aria-pressed="true" data-view="table">Table</button>
+                <button type="button" class="fs-segment" aria-pressed="false" data-view="rates">Per game</button>
+                <button type="button" class="fs-segment" aria-pressed="false" data-view="special">Special teams</button>
+            </div>
+        </div>
+        <div class="fs-table-wrap">
+            <table class="fs-table standings-table" data-standings>
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" class="fs-table__team">Team</th>
+                    <th scope="col" title="Games played">GP</th>
+                    <th scope="col" class="max-sm:hidden" data-col="table" title="Wins in regulation">W</th>
+                    <th scope="col" class="max-sm:hidden" data-col="table" title="Wins in overtime or penalty shots">OTW</th>
+                    {% if has_draws %}<th scope="col" class="max-sm:hidden" data-col="table" title="Draws">D</th>{% endif %}
+                    <th scope="col" class="max-sm:hidden" data-col="table" title="Losses in overtime or penalty shots">OTL</th>
+                    <th scope="col" class="max-sm:hidden" data-col="table" title="Losses in regulation">L</th>
+                    <th scope="col" class="max-sm:hidden" data-col="table" title="Goals for and against">Goals</th>
+                    <th scope="col" data-col="table" title="Goal difference">GD</th>
+                    <th scope="col" data-col="rates" title="Points per game" hidden>PPG</th>
+                    <th scope="col" data-col="rates" title="Goals per game" hidden>GF/G</th>
+                    <th scope="col" data-col="rates" title="Goals against per game" hidden>GA/G</th>
+                    <th scope="col" data-col="rates" title="Goal difference per game" hidden>GD/G</th>
+                    <th scope="col" data-col="special" title="Power play goals" hidden>PP goals</th>
+                    <th scope="col" data-col="special" title="Power play efficiency" hidden>PP%</th>
+                    <th scope="col" data-col="special" title="Box play (penalty kill) efficiency" hidden>BP%</th>
+                    <th scope="col" data-col="special" title="Penalties per game" hidden>PIM/G</th>
+                    <th scope="col">Pts</th>
+                    <th scope="col" data-col="table">Form</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for team in teams %}
+                {% set gd = team.goal_difference|default(0)|int %}
+                <tr class="standings-row">
+                    <td>{{ team.rank|default('–') }}</td>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ team.url }}"><span class="fs-crest" data-crest="{{ team.team|crest_index }}" aria-hidden="true">{{ team.team|team_initials }}</span><span>{{ team.team }}</span></a></td>
+                    <td>{{ team.games|default('–') }}</td>
+                    <td class="max-sm:hidden" data-col="table">{{ team.wins|default(0) }}</td>
+                    <td class="max-sm:hidden" data-col="table">{{ (team.over_time_wins|default(0)|int) + (team.penalty_shootout_wins|default(0)|int) }}</td>
+                    {% if has_draws %}<td class="max-sm:hidden" data-col="table">{{ team.draws|default(0) }}</td>{% endif %}
+                    <td class="max-sm:hidden" data-col="table">{{ (team.over_time_losses|default(0)|int) + (team.penalty_shootout_losses|default(0)|int) }}</td>
+                    <td class="max-sm:hidden" data-col="table">{{ team.losses|default(0) }}</td>
+                    <td class="max-sm:hidden" data-col="table">{{ team.goals|default(0) }}:{{ team.goals_against|default(0) }}</td>
+                    <td data-col="table">{% if gd > 0 %}+{{ gd }}{% elif gd < 0 %}−{{ -gd }}{% else %}0{% endif %}</td>
+                    <td data-col="rates" hidden>{{ team.points_per_game|fmt2 }}</td>
+                    <td data-col="rates" hidden>{{ team.goals_per_game|fmt2 }}</td>
+                    <td data-col="rates" hidden>{{ team.goals_against_per_game|fmt2 }}</td>
+                    <td data-col="rates" hidden>{{ team.goal_difference_per_game|fmt2 }}</td>
+                    <td data-col="special" hidden>{{ team.goals_in_powerplay|default('–') }}</td>
+                    <td data-col="special" hidden>{{ team.powerplay_efficiency|fmt2 }}</td>
+                    <td data-col="special" hidden>{{ team.boxplay_efficiency|fmt2 }}</td>
+                    <td data-col="special" hidden>{{ team.penalties_per_game|fmt2 }}</td>
+                    <td class="fs-table__pts">{{ team.points|default('–') }}</td>
+                    <td data-col="table">{{ form_guide(team.team) }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <details class="rounded-md border border-line bg-surface-raised px-4 py-3 text-sm text-ink-muted">
+            <summary class="cursor-pointer font-semibold text-ink">How to read the table</summary>
+            <ul class="mt-2 grid gap-1 pl-4">
+                <li><strong class="text-ink">W / L</strong> wins and losses in regulation time, <strong class="text-ink">OTW / OTL</strong> after overtime or penalty shots.</li>
+                <li><strong class="text-ink">Form</strong> shows the last five games, newest on the right.</li>
+                <li><strong class="text-ink">PP%</strong> is the share of power plays that produced a goal, <strong class="text-ink">BP%</strong> the share of penalty kills without a goal against.</li>
+            </ul>
+        </details>
+    </section>
+
+    <aside class="grid gap-6">
+        {% if player_stats.article and player_rows %}
+        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="scorers-title">
+            <div class="flex items-baseline justify-between gap-3">
+                <h2 id="scorers-title" class="fs-panel-title">Top scorers</h2>
+                <span class="fs-label">G + A</span>
+            </div>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for row in player_rows[:10] %}
+                {% set cols = row.split('|') %}
+                {% if cols|length >= 9 %}
+                <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="font-display text-sm text-ink-muted tabular-nums">{{ cols[0] }}</span>
+                    <span class="grid min-w-0">
+                        <a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a>
+                        <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ cols[3] }}</span>
+                    </span>
+                    <span class="text-right font-display tabular-nums"><span class="text-lg font-extrabold text-ink">{{ cols[7] }}</span> <span class="text-xs text-ink-muted">{{ cols[5] }}+{{ cols[6] }}</span></span>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+            <a class="fs-btn justify-center" href="{{ SITEURL }}/{{ player_stats.article.category.url }}">All player stats</a>
+        </section>
+        {% endif %}
+
+        {% if liga_reports %}
+        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="reports-title">
+            <h2 id="reports-title" class="fs-panel-title">League reports</h2>
+            <p class="m-0 text-sm text-ink-muted">Scoring, efficiency and period trends for groups of teams.</p>
+            <div class="flex flex-wrap gap-2">
+                {% for report in liga_reports %}
+                <a class="fs-chip" href="{{ SITEURL }}/{{ report.url }}">{{ report.title|category2title }}</a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+    </aside>
+</div>
+
+{% if games %}
+<section id="games" class="mt-12 grid gap-4 scroll-mt-24" aria-labelledby="games-title">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+        <h2 id="games-title" class="fs-section-title">Games</h2>
+        <div class="fs-segmented" role="group" aria-label="Games" data-games-views>
+            {% if played_desc %}<button type="button" class="fs-segment" aria-pressed="true" data-view="results">Results</button>{% endif %}
+            {% if upcoming %}<button type="button" class="fs-segment" aria-pressed="{{ 'false' if played_desc else 'true' }}" data-view="upcoming">Upcoming</button>{% endif %}
+        </div>
+    </div>
+    {% for group_name, group_games in [('results', played_desc), ('upcoming', upcoming)] %}
+    {% if group_games %}
+    <div class="grid gap-6" data-games-panel="{{ group_name }}" {% if group_name == 'upcoming' and played_desc %}hidden{% endif %}>
+        {% for day in group_games | groupby('date') | sort(attribute='grouper', reverse=(group_name == 'results')) %}
+        <div class="grid gap-2">
+            <h3 class="fs-label m-0">{{ day.grouper.strftime('%A %d %B %Y') }}</h3>
+            <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                {% for game in day.list|sort(attribute='start_time') %}{{ match_card(game) }}{% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</section>
+{% endif %}
+
+<script>
+(() => {
+  // Segmented controls on this page: table column sets and results / upcoming games.
+  const bind = (group, apply) => {
+    if (!group) return;
+    const buttons = Array.from(group.querySelectorAll('[data-view]'));
+    buttons.forEach((button) => button.addEventListener('click', () => {
+      buttons.forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+      apply(button.dataset.view);
+    }));
+  };
+  bind(document.querySelector('[data-table-views]'), (view) => {
+    document.querySelectorAll('[data-standings] [data-col]').forEach((cell) => {
+      cell.hidden = cell.dataset.col !== view;
+    });
+  });
+  bind(document.querySelector('[data-games-views]'), (view) => {
+    document.querySelectorAll('[data-games-panel]').forEach((panel) => {
+      panel.hidden = panel.dataset.gamesPanel !== view;
+    });
+  });
+})();
+</script>

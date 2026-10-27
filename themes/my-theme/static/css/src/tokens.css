@@ -1,0 +1,107 @@
+/* Floorball Stats — generated from tokens.json by scripts/build_design_tokens.py */
+
+:root,
+[data-theme="light"] {
+  --surface: #f3f5f8;
+  --surface-raised: #ffffff;
+  --surface-sunken: #e9edf2;
+  --line: #d5dbe3;
+  --line-strong: #76818f;
+  --ink: #121a26;
+  --ink-muted: #566174;
+  --rink: #1d5bd6;
+  --on-rink: #ffffff;
+  --rink-soft: #e3ecfd;
+  --ball: #f08a2c;
+  --ball-ink: #a64a07;
+  --win: #167a47;
+  --win-soft: #ddf3e6;
+  --loss: #c0322b;
+  --loss-soft: #fbe5e3;
+  --otl: #8f6200;
+  --otl-soft: #f9eed0;
+  --crest-1: #1d5bd6;
+  --crest-2: #0f766e;
+  --crest-3: #6d28d9;
+  --crest-4: #b91c1c;
+  --crest-5: #b45309;
+  --crest-6: #15803d;
+  --crest-7: #be185d;
+  --crest-8: #334155;
+  --on-crest: #ffffff;
+  --shadow-menu: 0 12px 32px rgba(18, 26, 38, 0.14);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --surface: #0d131d;
+  --surface-raised: #151d2a;
+  --surface-sunken: #1b2534;
+  --line: #2b3647;
+  --line-strong: #6a768a;
+  --ink: #eef2f7;
+  --ink-muted: #a2acbc;
+  --rink: #6ea6ff;
+  --on-rink: #0d131d;
+  --rink-soft: #1a2c4b;
+  --ball: #ff9a4a;
+  --ball-ink: #ffab6b;
+  --win: #4fc48c;
+  --win-soft: #13301f;
+  --loss: #ff7b72;
+  --loss-soft: #3b1a19;
+  --otl: #f0c14f;
+  --otl-soft: #33290f;
+  --shadow-menu: 0 12px 32px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rink: var(--rink);
+  --color-on-rink: var(--on-rink);
+  --color-rink-soft: var(--rink-soft);
+  --color-ball: var(--ball);
+  --color-ball-ink: var(--ball-ink);
+  --color-win: var(--win);
+  --color-win-soft: var(--win-soft);
+  --color-loss: var(--loss);
+  --color-loss-soft: var(--loss-soft);
+  --color-otl: var(--otl);
+  --color-otl-soft: var(--otl-soft);
+  --color-crest-1: var(--crest-1);
+  --color-crest-2: var(--crest-2);
+  --color-crest-3: var(--crest-3);
+  --color-crest-4: var(--crest-4);
+  --color-crest-5: var(--crest-5);
+  --color-crest-6: var(--crest-6);
+  --color-crest-7: var(--crest-7);
+  --color-crest-8: var(--crest-8);
+  --color-on-crest: var(--on-crest);
+}
+
+@theme {
+  --font-display: Archivo, "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+}

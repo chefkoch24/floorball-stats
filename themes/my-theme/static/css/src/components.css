@@ -1,0 +1,321 @@
+/* Floorball Stats components: the design system's components/bundle.css without its font import
+   (base.html loads the fonts). Keep both files identical below this comment. Class prefix: fs-. */
+@layer components {
+.fs-root,
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+.fs-num {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+}
+
+:where(.fs-btn, .fs-segment, .fs-chip, .fs-league-card a, .fs-match):focus-visible {
+  outline: 2px solid var(--rink);
+  outline-offset: 2px;
+}
+
+/* Button */
+.fs-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 9px var(--space-4);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  color: var(--ink);
+  font: 600 14px/1.2 var(--font-body);
+  text-decoration: none;
+  cursor: pointer;
+}
+.fs-btn:hover { background: var(--surface-sunken); }
+.fs-btn--primary { border-color: var(--rink); background: var(--rink); color: var(--on-rink); }
+.fs-btn--primary:hover { background: var(--rink); filter: brightness(1.08); }
+.fs-btn--ghost { border-color: transparent; background: transparent; color: var(--rink); padding-inline: var(--space-2); }
+.fs-btn--ghost:hover { background: var(--rink-soft); }
+
+/* Chip: league, season and filter labels */
+.fs-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px var(--space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  color: var(--ink-muted);
+  font: 600 12px/1.3 var(--font-body);
+  max-width: 100%;
+  text-decoration: none;
+}
+.fs-chip strong { color: var(--ink); font-weight: 600; }
+a.fs-chip:hover { border-color: var(--rink); color: var(--rink); }
+
+/* Status badge: game state */
+.fs-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-pill);
+  font: 700 11px/1.4 var(--font-body);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  background: var(--surface-sunken);
+}
+.fs-status--live { color: var(--ball-ink); background: var(--surface-sunken); }
+.fs-status--live::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ball);
+  animation: fs-pulse 1.6s ease-in-out infinite;
+}
+.fs-status--final { color: var(--ink); }
+@keyframes fs-pulse { 50% { opacity: 0.35; } }
+@media (prefers-reduced-motion: reduce) { .fs-status--live::before { animation: none; } }
+
+/* Segmented control: Men / Women, Regular season / Playoffs, tabs */
+.fs-segmented {
+  display: inline-flex;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+}
+.fs-segment {
+  padding: 6px 14px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--ink-muted);
+  font: 600 13px/1.2 var(--font-body);
+  cursor: pointer;
+  text-decoration: none;
+}
+.fs-segment:hover { color: var(--ink); }
+.fs-segment[aria-pressed="true"],
+.fs-segment[aria-current="page"] { background: var(--rink); color: var(--on-rink); }
+
+/* Team crest: monogram in a stable per-team colour (no club logos) */
+.fs-crest {
+  --crest: var(--crest-8);
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+  background: var(--crest);
+  color: var(--on-crest);
+  font: 800 11px/1 var(--font-display);
+  font-stretch: 90%;
+  letter-spacing: 0.02em;
+}
+.fs-crest--lg { width: 64px; height: 64px; font-size: 22px; }
+.fs-crest--sm { width: 20px; height: 20px; font-size: 8px; }
+.fs-crest[data-crest="1"] { --crest: var(--crest-1); }
+.fs-crest[data-crest="2"] { --crest: var(--crest-2); }
+.fs-crest[data-crest="3"] { --crest: var(--crest-3); }
+.fs-crest[data-crest="4"] { --crest: var(--crest-4); }
+.fs-crest[data-crest="5"] { --crest: var(--crest-5); }
+.fs-crest[data-crest="6"] { --crest: var(--crest-6); }
+.fs-crest[data-crest="7"] { --crest: var(--crest-7); }
+.fs-crest[data-crest="8"] { --crest: var(--crest-8); }
+.fs-team {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+  color: var(--ink);
+  font: 500 14px/1.3 var(--font-body);
+  text-decoration: none;
+}
+.fs-team span:last-child { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
+a.fs-team:hover span:last-child { color: var(--rink); }
+
+/* Form guide: last games, newest on the right */
+.fs-form { display: inline-flex; gap: 3px; }
+.fs-form__game {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding-inline: 3px;
+  border-radius: var(--radius-sm);
+  font: 700 11px/1 var(--font-display);
+}
+.fs-form__game--w { color: var(--win); background: var(--win-soft); }
+.fs-form__game--l { color: var(--loss); background: var(--loss-soft); }
+.fs-form__game--ot { color: var(--otl); background: var(--otl-soft); }
+
+/* Stat tile */
+.fs-stat {
+  display: grid;
+  gap: 6px;
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+}
+.fs-stat__label { color: var(--ink-muted); font: 600 12px/1.3 var(--font-body); letter-spacing: 0.07em; text-transform: uppercase; }
+.fs-stat__value { color: var(--ink); font: 700 30px/1.05 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-stat__context { color: var(--ink-muted); font: 400 13px/1.4 var(--font-body); }
+.fs-stat__context b { color: var(--ink); font-weight: 600; }
+
+/* Match card: one game in lists and the score strip */
+.fs-match {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-2) var(--space-3);
+  align-items: center;
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--ink);
+  text-decoration: none;
+}
+a.fs-match:hover { border-color: var(--rink); }
+.fs-match__meta {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+  font: 500 12px/1.3 var(--font-body);
+}
+/* Teams and scores share grid rows (display: contents), so a team name that wraps
+   onto two lines keeps its score beside it. */
+.fs-match__teams,
+.fs-match__scores { display: contents; }
+.fs-match__teams > :nth-child(1),
+.fs-match__scores > :nth-child(1) { grid-row: 2; }
+.fs-match__teams > :nth-child(2),
+.fs-match__scores > :nth-child(2) { grid-row: 3; }
+.fs-match__teams > * { grid-column: 1; display: block; min-width: 0; }
+.fs-match__scores > * { grid-column: 2; align-self: center; text-align: right; font: 700 15px/1.2 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-match .fs-team { display: flex; }
+.fs-match__loser { color: var(--ink-muted); }
+.fs-match__loser .fs-team { color: var(--ink-muted); }
+
+/* Score strip: horizontal row of match cards */
+.fs-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 260px);
+  gap: var(--space-3);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+.fs-strip > * { scroll-snap-align: start; }
+
+/* Scoreboard: the hero of a game page */
+.fs-scoreboard {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  text-align: center;
+}
+.fs-scoreboard__head { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--space-2); }
+.fs-scoreboard__main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-4);
+}
+.fs-scoreboard__side { display: grid; justify-items: center; gap: var(--space-2); min-width: 0; }
+.fs-scoreboard__name {
+  font: 800 22px/1.1 var(--font-display);
+  font-stretch: 80%;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.fs-scoreboard__score {
+  font: 800 72px/1 var(--font-display);
+  font-stretch: 112%;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+.fs-scoreboard__score .fs-scoreboard__sep { color: var(--ink-muted); padding-inline: 0.05em; }
+.fs-scoreboard__periods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+  font: 500 13px/1.3 var(--font-display);
+  font-variant-numeric: tabular-nums;
+}
+.fs-scoreboard__periods span { padding: 3px var(--space-2); border-radius: var(--radius-sm); background: var(--surface-sunken); }
+@media (max-width: 560px) {
+  .fs-scoreboard { padding: var(--space-4); }
+  .fs-scoreboard__score { font-size: 48px; }
+  .fs-scoreboard__name { font-size: 16px; }
+  .fs-scoreboard .fs-crest--lg { width: 44px; height: 44px; font-size: 15px; }
+}
+
+/* Standings table */
+.fs-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+}
+.fs-table { width: 100%; border-collapse: collapse; font: 500 14px/1.4 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-table th {
+  padding: 10px var(--space-3);
+  background: var(--surface-sunken);
+  color: var(--ink-muted);
+  font: 600 11px/1.3 var(--font-body);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-align: right;
+  white-space: nowrap;
+}
+.fs-table td { padding: 10px var(--space-3); border-top: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.fs-table th:nth-child(-n + 2), .fs-table td:nth-child(-n + 2) { text-align: left; }
+.fs-table td:first-child { width: 2.5em; color: var(--ink-muted); }
+.fs-table__team { position: sticky; left: 0; min-width: 150px; max-width: 240px; background: var(--surface-raised); }
+.fs-table td.fs-table__team { white-space: normal; }
+.fs-table th.fs-table__team { background: var(--surface-sunken); }
+.fs-table__pts { color: var(--ink); font-weight: 800; }
+.fs-table tr.is-followed td { background: var(--rink-soft); }
+.fs-table tr.is-cut td { border-bottom: 2px solid var(--ball); }
+.fs-table tbody tr:hover td { background: var(--surface-sunken); }
+
+/* League card: one league in the league menu */
+.fs-league-card {
+  display: grid;
+  gap: 6px;
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+}
+.fs-league-card:hover { border-color: var(--rink); background: var(--rink-soft); }
+.fs-league-card__head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-2); }
+.fs-league-card__name { color: var(--ink); font: 800 18px/1.15 var(--font-display); font-stretch: 85%; text-decoration: none; }
+.fs-league-card__season { color: var(--ink-muted); font: 600 12px/1.3 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-league-card__comp { color: var(--ink-muted); font: 400 13px/1.3 var(--font-body); }
+.fs-league-card__links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.fs-league-card__links .is-disabled { color: var(--ink-muted); border-style: dashed; }
+
+/* Shared section heading */
+.fs-section-title { margin: 0; color: var(--ink); font: 700 30px/1.1 var(--font-display); font-stretch: 80%; text-wrap: balance; }
+.fs-panel-title { margin: 0; color: var(--ink); font: 700 21px/1.2 var(--font-display); font-stretch: 85%; }
+.fs-label { color: var(--ink-muted); font: 600 12px/1.3 var(--font-body); letter-spacing: 0.07em; text-transform: uppercase; }
+}

@@ -162,6 +162,14 @@ Integration invariants for new backends:
   - merge behavior into canonical player pages,
   - tournament aggregation rules if applicable.
 
+### 4.6a Share Assets: `plugins/share_assets.py`
+
+Pelican plugin (build time, no pipeline step). For game and team articles of `CURRENT_SEASON` it renders a 1200x630 `og:image` card into `output/og/` and writes one iCalendar feed per team (regular season and playoffs) into `output/calendar/`. Other pages use `og/default.png`. Cards are cached in `.cache/og` by content hash; bump `RENDER_VERSION` after changing the drawing code.
+
+### 4.6b Design System and Tailwind
+
+The visual design lives in `themes/my-theme/design-system/` (`tokens.json` and the brand book `README.md`, mirrored in the published design system artifact). `make css` turns `tokens.json` into `static/css/src/tokens.css` (`scripts/build_design_tokens.py`) and compiles `static/css/src/app.css` (Tailwind v4: tokens as the only colours, `fs-` component classes in `components.css`) into `static/css/app.css`. The compiled file is committed, so the Netlify build stays Python-only. Every page loads only `app.css` (no Bootstrap). New markup uses the `fs-` components and Tailwind utilities; `compat.css` restyles the older content classes (`panel`, `tile`, `data-table`, event timeline, playoff bracket) with the tokens and should not grow. `chrome.css` holds header, league menu, dialogs and footer. Charts read their colours from `window.fsColors()` (base.html).
+
 ### 4.7 Markdown Generation: `src/generate_markdown.py`
 
 Reads:

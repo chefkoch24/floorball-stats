@@ -13,6 +13,12 @@
     <meta property="og:type" content="{{ seo_type|default('website') }}">
     <meta property="og:title" content="{{ seo_title|default(SITENAME) }}">
     <meta property="og:description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European floorball leagues.') }}">
+    {% set og_image_url = SITEURL ~ '/' ~ (og_image|default('og/default.png')) %}
+    <meta property="og:image" content="{{ og_image_url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ og_image_url }}">
     <script>
     (function () {
         try {
@@ -49,10 +55,31 @@
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap" rel="stylesheet">
+    {# Design system build (themes/my-theme/design-system, `make css`). #}
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/app.css">
+    <script>
+    // Chart colours from the design tokens, read at draw time so they follow the theme.
+    window.fsColors = function () {
+        var style = getComputedStyle(document.documentElement);
+        var read = function (name) { return style.getPropertyValue('--' + name).trim(); };
+        return {
+            home: read('rink'), away: read('ink-muted'), ink: read('ink'), muted: read('ink-muted'),
+            line: read('line'), surface: read('surface-raised'), ball: read('ball'), win: read('win'),
+            loss: read('loss'), otl: read('otl'), rinkSoft: read('rink-soft'),
+            series: [read('rink'), read('ball'), read('crest-2'), read('crest-7'), read('crest-5'), read('crest-3')]
+        };
+    };
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+if (window.Chart) {
+    var fsChartColors = window.fsColors();
+    Chart.defaults.font.family = '"Instrument Sans", system-ui, sans-serif';
+    Chart.defaults.color = fsChartColors.muted;
+    Chart.defaults.borderColor = fsChartColors.line;
+}
+</script>
 </head>
 <body>
 <header class="site-header">
@@ -101,6 +128,27 @@
                         {{ nav_phase_link(playoffs_slug, 'Playoffs', available_categories) }}
                     </div>
                 </div>
+                {% endfor %}
+                {% for competition in COMPETITIONS %}
+                {% set comp_ns = namespace(season=None) %}
+                {% for season in SEASONS %}
+                    {% if comp_ns.season is none and (competition.prefix ~ season ~ '-' ~ competition.phase) in available_categories %}{% set comp_ns.season = season %}{% endif %}
+                {% endfor %}
+                {% if comp_ns.season %}
+                {% set comp_slug = competition.prefix ~ comp_ns.season ~ '-' ~ competition.phase %}
+                <div class="nav-league" data-division="{{ competition.division }}">
+                    <div class="nav-league__label">
+                        <div class="nav-league__head">
+                            <a class="nav-league__name" href="{{ SITEURL }}/category/{{ comp_slug }}.html">{{ competition.name }}</a>
+                            <span class="nav-league__season">{{ comp_ns.season }}</span>
+                        </div>
+                        <span class="nav-league__title">{{ competition.title }}</span>
+                    </div>
+                    <div class="nav-league__links">
+                        {{ nav_phase_link(comp_slug, 'Knockout', available_categories) }}
+                    </div>
+                </div>
+                {% endif %}
                 {% endfor %}
                 <div class="nav-league" data-division="men">
                     <div class="nav-league__label">
@@ -401,6 +449,15 @@ document.querySelectorAll('[data-division-option]').forEach((option) => {
   });
 });
 syncDivisionSwitch();
+
+document.querySelectorAll('[data-calendar-cta]').forEach((link) => {
+  link.addEventListener('click', () => {
+    trackGlobalSearchEvent('calendar_subscribe_clicked', {
+      kind: link.getAttribute('data-calendar-cta'),
+      path: window.location.pathname
+    });
+  });
+});
 
 document.querySelectorAll('[data-support-cta]').forEach((link) => {
   link.addEventListener('click', () => {

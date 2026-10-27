@@ -1,16 +1,38 @@
-<section class="hero">
-    <div class="hero-top">
-        <div>
-            <h1 class="hero-title">{{ article.team|default(article.title) }}</h1>
-            <p class="hero-subtitle">Team profile with season performance, special teams, and game history.</p>
-        </div>
+{% set team_name = article.team|default(article.title) %}
+{% set gd = article.goal_difference|default(0)|int %}
+<header class="mb-8 grid gap-5">
+    <div class="flex flex-wrap items-center gap-2">
+        <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
     </div>
-    <div class="chip-row">
-        <span class="chip">Rank: {{ article.rank|default('–') }}</span>
-        <span class="chip">Games: {{ article.games|default('–') }}</span>
-        <span class="chip">Points: {{ article.points|default('–') }}</span>
+    <div class="flex flex-wrap items-center gap-4">
+        <span class="fs-crest fs-crest--lg" data-crest="{{ team_name|crest_index }}" aria-hidden="true">{{ team_name|team_initials }}</span>
+        <h1 class="m-0 min-w-0 font-display text-[40px] leading-none font-extrabold text-ink [font-stretch:75%] text-balance sm:text-[56px]">{{ team_name }}</h1>
     </div>
-</section>
+    <dl class="m-0 flex flex-wrap gap-x-8 gap-y-2">
+        <div class="grid"><dt class="fs-label">Rank</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.rank|default('–') }}</dd></div>
+        <div class="grid"><dt class="fs-label">Points</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.points|default('–') }}</dd></div>
+        <div class="grid"><dt class="fs-label">Games</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.games|default('–') }}</dd></div>
+        <div class="grid"><dt class="fs-label">Goals</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.goals|default(0) }}:{{ article.goals_against|default(0) }} <span class="text-base font-medium text-ink-muted">{% if gd > 0 %}+{{ gd }}{% elif gd < 0 %}−{{ -gd }}{% else %}0{% endif %}</span></dd></div>
+    </dl>
+    {% if article.calendar_path %}
+    {% set calendar_url = (SITEURL or '') ~ '/' ~ article.calendar_path %}
+    {% set webcal_url = calendar_url|replace('https://', 'webcal://') %}
+    <p class="m-0 flex flex-wrap items-center gap-2 text-sm text-ink-muted">
+        <span>Game calendar:</span>
+        <a href="{{ webcal_url }}" data-calendar-cta="apple">Apple / Outlook</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://calendar.google.com/calendar/render?cid={{ webcal_url|urlencode }}" target="_blank" rel="noopener" data-calendar-cta="google">Google</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ calendar_url }}" data-calendar-cta="download">.ics</a>
+    </p>
+    {% endif %}
+    {% set national_page = team_name|national_team_page(article.category.slug) %}
+    {% if national_page %}
+    <p class="m-0 text-sm text-ink-muted">
+        League season: <a href="{{ SITEURL }}/{{ national_page.url }}">{{ national_page.title }} {{ national_page.season }}</a>
+    </p>
+    {% endif %}
+</header>
 
 <details class="stat-guide">
     <summary>Stat Guide</summary>
@@ -125,6 +147,7 @@
 </section>
 
 <script>
+  const fsc = window.fsColors();
 (() => {
   const num = (v) => {
     const n = Number(v);
@@ -150,8 +173,8 @@
       data: {
         labels: ["P1", "P2", "P3", "OT"],
         datasets: [
-          { label: "Goals For", data: gf, backgroundColor: "#1f77b4" },
-          { label: "Goals Against", data: ga, backgroundColor: "#d62728" }
+          { label: "Goals For", data: gf, backgroundColor: fsc.home },
+          { label: "Goals Against", data: ga, backgroundColor: fsc.away }
         ]
       },
       options: {
@@ -173,7 +196,7 @@
         datasets: [{
           label: "Efficiency %",
           data: [pp, bp],
-          backgroundColor: ["#2ca02c", "#9467bd"]
+          backgroundColor: [fsc.home, fsc.away]
         }]
       },
       options: {
@@ -201,7 +224,7 @@
           labels: ["2 min", "2+2 min", "10 min", "Match penalty"],
           datasets: [{
             data: [p2, p22, p10, pms],
-            backgroundColor: ["#2563eb", "#f59e0b", "#14b8a6", "#dc2626"]
+            backgroundColor: fsc.series.slice(0, 4)
           }]
         },
         options: {

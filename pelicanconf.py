@@ -1,16 +1,21 @@
 from pelican.plugins import more_categories, jinja_filters
 from datetime import datetime, time
 import os
+import re
+import zlib
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 FEEDBACK_EMAIL = 'hello@floorballconnect.com'
 # Payment link for the support banner (Ko-fi, Stripe Payment Link, ...); banner stays hidden while empty
 SUPPORT_URL = os.environ.get('SUPPORT_URL', '')
+PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     jinja_filters,
     more_categories,
     'sitemap',
+    # og:image share cards and team .ics calendars for the current season
+    'share_assets',
 ]
 
 PATH = 'content'
@@ -57,7 +62,15 @@ LEAGUES = [
     {'prefix': 'lvw-', 'name': 'Latvia', 'title': 'Latvia · ELVI līga sievietēm', 'division': 'women'},
     {'prefix': 'dew-', 'name': 'Germany', 'title': 'Germany · 1. FBL Damen', 'division': 'women'},
 ]
-WOMEN_LEAGUE_PREFIXES = [league['prefix'] for league in LEAGUES if league['division'] == 'women']
+# International club competitions: one knockout phase per season, category
+# "<prefix><season>-playoffs" (configs in config/leagues/iff-champions-cup-*-playoffs.json).
+COMPETITIONS = [
+    {'prefix': 'cc-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup', 'division': 'men', 'phase': 'playoffs'},
+    {'prefix': 'ccw-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup Women', 'division': 'women', 'phase': 'playoffs'},
+]
+WOMEN_LEAGUE_PREFIXES = [
+    league['prefix'] for league in LEAGUES + COMPETITIONS if league['division'] == 'women'
+]
 
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
                  '23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/teams', '23-24-playoffs/liga',
@@ -67,6 +80,11 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  for season in SEASONS
                  for league in LEAGUES
                  for phase in SEASON_PHASES
+                 for kind in ('teams', 'liga', 'games')
+                 ] + [
+                 f"{competition['prefix']}{season}-{competition['phase']}/{kind}"
+                 for season in SEASONS
+                 for competition in COMPETITIONS
                  for kind in ('teams', 'liga', 'games')
                  ] + [
                  'wfc-2024-regular-season/teams',
@@ -157,6 +175,8 @@ COUNTRY_LABELS = {
     'latvia': 'Latvia',
     'sk': 'Slovakia',
     'slovakia': 'Slovakia',
+    'cc': 'IFF Champions Cup',
+    'ccw': 'IFF Champions Cup Women',
 }
 
 def category2string(slug):
@@ -241,6 +261,93 @@ def category_slugs(categories):
         if slug:
             slugs.add(slug)
     return slugs
+
+# Words that name the club type rather than the club; skipped for monogram initials.
+CREST_SKIP_WORDS = {
+    'ibk', 'ibf', 'fbc', 'fc', 'if', 'uhc', 'sk', 'fbk', 'ik', 'ib', 'fbs', 'sv', 'tsv', 'ssf', 'etv', 'mfbc',
+    'fk', 'sc', 'uhv', 'fb', 'nts', 'mkšs', 'šk', 'ftc', 'gms', 'florbal', 'floorball', 'unihockey', 'innebandy',
+    'salibandy', 'team', 'club',
+}
+
+
+def team_initials(name):
+    """Two or three letters for a team's monogram crest ("Thorengruppen IBK" -> "THO")."""
+    words = re.findall(r"[^\W\d_]+", str(name or ''))
+    core = [word for word in words if word.lower() not in CREST_SKIP_WORDS] or words
+    if not core:
+        return '?'
+    if len(core) == 1:
+        return core[0][:3].upper()
+    return ''.join(word[0] for word in core[:3]).upper()
+
+
+def crest_index(name):
+    """Stable crest colour 1-8 for a team name, the same on every page and build."""
+    return zlib.crc32(str(name or '').strip().lower().encode('utf-8')) % 8 + 1
+
+
+def team_url(team, category):
+    """URL of a team's page in a season phase, the slug generate_markdown.py writes."""
+    from unidecode import unidecode
+
+    fragment = unidecode(str(team or '')).lower().replace('&', ' and ')
+    fragment = re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', fragment)).strip('-')
+    return f"{fragment}-{category}-{category}.html"
+
+
+def league_context(slug):
+    """League entry, season and phase for a category slug such as "sew-26-27-regular-season"."""
+    slug = str(slug or '')
+    for league in sorted(LEAGUES + COMPETITIONS, key=lambda item: -len(item['prefix'])):
+        for season in SEASONS:
+            head = f"{league['prefix']}{season}-"
+            if slug.startswith(head):
+                return {**league, 'season': season, 'season_label': season.replace('-', '/'), 'phase': slug[len(head):]}
+    return None
+
+
+_NATIONAL_TEAM_PAGES = None
+
+
+def _load_national_team_pages():
+    """(division, season, team title) -> (slug, league) for every regular-season team page."""
+    pages = {}
+    content_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), PATH)
+    for league in LEAGUES:
+        for season in SEASONS:
+            folder = os.path.join(content_root, f"{league['prefix']}{season}-regular-season", 'teams')
+            if not os.path.isdir(folder):
+                continue
+            for filename in os.listdir(folder):
+                if not filename.endswith('.md'):
+                    continue
+                meta = {}
+                with open(os.path.join(folder, filename), encoding='utf-8') as handle:
+                    for line in handle:
+                        key, _, value = line.partition(':')
+                        if key in ('Title', 'Slug'):
+                            meta[key] = value.strip()
+                        if len(meta) == 2:
+                            break
+                if 'Title' in meta and 'Slug' in meta:
+                    pages[(league['division'], season, meta['Title'].lower())] = (meta['Slug'], league)
+    return pages
+
+
+def national_team_page(team, category_slug):
+    """The club's national league team page for a Champions Cup team, or None."""
+    global _NATIONAL_TEAM_PAGES
+    context = league_context(category_slug)
+    if not context or context['prefix'] not in {competition['prefix'] for competition in COMPETITIONS}:
+        return None
+    if _NATIONAL_TEAM_PAGES is None:
+        _NATIONAL_TEAM_PAGES = _load_national_team_pages()
+    found = _NATIONAL_TEAM_PAGES.get((context['division'], context['season'], str(team or '').strip().lower()))
+    if not found:
+        return None
+    slug, league = found
+    return {'url': f"{slug}.html", 'title': league['title'], 'season': context['season_label']}
+
 
 def sort_by_rank(articles):
     # Artikel mit rank Attribut
@@ -327,6 +434,11 @@ JINJA_FILTERS = {
     'fmt2': fmt2,
     'fmt_int': fmt_int,
     'fmt_time': fmt_time,
+    'team_initials': team_initials,
+    'crest_index': crest_index,
+    'league_context': league_context,
+    'national_team_page': national_team_page,
+    'team_url': team_url,
 } # reversed for descending order
 
 JINJA_ENVIRONMENT = {

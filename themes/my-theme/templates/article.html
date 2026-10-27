@@ -24,6 +24,10 @@
 {% endif %}
 {% set event_location_address = article.venue_address|default(article.address|default('')) %}
 
+{% if article.og_image %}
+    {% set og_image = article.og_image %}
+{% endif %}
+
 {% if article_type == "game" or article|string_in_category_path('game') %}
     {% set scoreline = (article.home_goals|default('–') ~ ':' ~ article.away_goals|default('–')) %}
     {% set seo_title = article.home_team ~ ' vs ' ~ article.away_team ~ ' ' ~ scoreline ~ ' | ' ~ category_label ~ ' | ' ~ SITENAME %}

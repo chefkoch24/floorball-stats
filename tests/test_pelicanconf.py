@@ -52,5 +52,26 @@ def test_every_league_belongs_to_a_navigation_division():
     import pelicanconf
 
     divisions = {key for key, _ in pelicanconf.DIVISIONS}
-    assert all(league["division"] in divisions for league in pelicanconf.LEAGUES)
-    assert pelicanconf.WOMEN_LEAGUE_PREFIXES == ["sew-", "fiw-", "czw-", "chw-", "skw-", "lvw-", "dew-"]
+    assert all(league["division"] in divisions for league in pelicanconf.LEAGUES + pelicanconf.COMPETITIONS)
+    assert pelicanconf.WOMEN_LEAGUE_PREFIXES == ["sew-", "fiw-", "czw-", "chw-", "skw-", "lvw-", "dew-", "ccw-"]
+
+
+def test_team_crest_helpers_are_stable():
+    from pelicanconf import crest_index, team_initials
+
+    assert team_initials("Thorengruppen IBK") == "THO"
+    assert team_initials("IBK Lund Elit") == "LE"
+    assert team_initials("FBC ČPP MPL STAVEBNINY OSTRAVA") == "ČMS"
+    assert team_initials("") == "?"
+    assert crest_index("Pixbo IBK") == crest_index("pixbo ibk ")
+    assert 1 <= crest_index("Pixbo IBK") <= 8
+
+
+def test_league_context_resolves_prefix_season_and_phase():
+    from pelicanconf import league_context
+
+    women = league_context("sew-26-27-regular-season")
+    assert (women["prefix"], women["season_label"], women["phase"], women["division"]) == ("sew-", "26/27", "regular-season", "women")
+    assert league_context("26-27-playoffs")["name"] == "Germany"
+    assert league_context("se-26-27-players")["phase"] == "players"
+    assert league_context("wfc-2024-regular-season") is None

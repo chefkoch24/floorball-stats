@@ -19,33 +19,50 @@
 {% endblock %}
 
 {% block content %}
-<section class="hero">
-    <div class="hero-top">
-        <div>
-            <h1 class="hero-title">Floorball Stats</h1>
-            <p class="hero-subtitle">Data, stats, and insights for top floorball leagues in one place.</p>
+<header class="mb-8 grid gap-3">
+    <h1 class="m-0 font-display text-[48px] leading-none font-extrabold text-ink [font-stretch:75%] sm:text-[64px]">Floorball Stats</h1>
+    <p class="m-0 max-w-[60ch] text-ink-muted">Standings, results and numbers from {{ LEAGUES|length }} top leagues in Europe, men and women.</p>
+</header>
+
+<section class="mb-10 grid gap-3" aria-labelledby="home-games-title">
+    <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
+        <div class="grid gap-1">
+            <h2 id="home-games-title" class="fs-panel-title">Today's games</h2>
+            <p id="today-games-label" class="m-0 text-sm text-ink-muted">Loading games…</p>
+        </div>
+        {# Same data-division-option buttons as the league menu, so both stay in sync. #}
+        <div class="fs-segmented" role="group" aria-label="Show men's or women's games" data-games-division>
+            {% for division, division_label in DIVISIONS %}
+            <button type="button" class="fs-segment" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
+            {% endfor %}
         </div>
     </div>
-</section>
-
-<section class="panel">
-    <h2 class="panel-title">Today's Games</h2>
-    <p id="today-games-label" class="hero-subtitle">Loading games for today…</p>
-    <div id="today-games-list" class="season-group-grid"></div>
+    <div id="today-games-list" class="fs-strip"></div>
     <div id="today-games-source" hidden>
         {% for article in articles %}
             {% set article_type = article.type|default('') %}
             {% set category_short = article.category.shortname if article.category else '' %}
             {% if (article_type == "game" or article|string_in_category_path('game')) and CURRENT_SEASON in category_short and article.date %}
+                {% set game_league = category_short|league_context %}
+                {% set ps_goals = (article.home_goals_in_penalty_shootout|default(0)|int) + (article.away_goals_in_penalty_shootout|default(0)|int) %}
+                {% set ot_goals = (article.home_goals_in_overtime|default(0)|int) + (article.away_goals_in_overtime|default(0)|int) %}
                 <article
                     data-date="{{ article.date.strftime('%Y-%m-%d') }}"
+                    data-day="{{ article.date.strftime('%a %d %b') }}"
                     data-time="{{ article.start_time|fmt_time('TBD') }}"
                     data-home="{{ article.home_team|default('n.a.')|e }}"
                     data-away="{{ article.away_team|default('n.a.')|e }}"
+                    data-home-crest="{{ article.home_team|crest_index }}"
+                    data-away-crest="{{ article.away_team|crest_index }}"
+                    data-home-initials="{{ article.home_team|team_initials|e }}"
+                    data-away-initials="{{ article.away_team|team_initials|e }}"
+                    data-home-goals="{{ article.home_goals|default('') }}"
+                    data-away-goals="{{ article.away_goals|default('') }}"
+                    data-decision="{{ 'PS' if ps_goals > 0 else ('OT' if ot_goals > 0 else '') }}"
                     data-league="{{ category_short|category2string|e }}"
+                    data-division="{{ game_league.division if game_league else 'men' }}"
                     data-url="{{ SITEURL }}/{{ article.url }}"
-                    data-state="{{ article.game_state|default('scheduled')|e }}"
-                    data-result="{{ article.result_string|default('')|e }}">
+                    data-state="{{ article.game_state|default('scheduled')|e }}">
                 </article>
             {% endif %}
         {% endfor %}
@@ -53,65 +70,53 @@
 </section>
 
 {% set available_categories = categories|default([])|category_slugs %}
-{% macro season_phase_link(slug, label, season, available) -%}
-    {% if slug in available %}
-    <a class="season-phase-link" href="{{ SITEURL }}/category/{{ slug }}.html">
-        <span>{{ label }}</span>
-        <span>{{ season }}</span>
-    </a>
-    {% else %}
-    <span class="season-phase-link is-disabled">
-        <span>{{ label }}</span>
-        <span>{{ season }}</span>
-    </span>
-    {% endif %}
+{% macro phase_chip(slug, label, available) -%}
+    {% if slug in available %}<a class="fs-chip" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="fs-chip border-dashed opacity-60" title="No data yet">{{ label }}</span>{% endif %}
 {%- endmacro %}
+{% macro league_card(name, competition_name, season_label, links, earlier) -%}
+<div class="fs-league-card">
+    <div class="fs-league-card__head">
+        <span class="fs-league-card__name">{{ name }}</span>
+        <span class="fs-league-card__season">{{ season_label }}</span>
+    </div>
+    <span class="fs-league-card__comp">{{ competition_name }}</span>
+    <div class="fs-league-card__links">{{ links }}</div>
+    {% if earlier %}<p class="m-0 text-xs text-ink-muted">Earlier: {{ earlier }}</p>{% endif %}
+</div>
+{%- endmacro %}
+
 {% for division, division_label in DIVISIONS %}
 {% set division_leagues = LEAGUES|selectattr('division', 'equalto', division)|list %}
 {% if division_leagues %}
-<h2 class="division-heading">{{ division_label }}</h2>
-{% endif %}
-{% for league in division_leagues %}
-<section class="panel">
-    <h2 class="panel-title">{{ league.title }}</h2>
-    <div class="season-group-grid">
-        {% for season in SEASONS %}
-        {% set regular_slug = league.prefix ~ season ~ '-regular-season' %}
-        {% set playoffs_slug = league.prefix ~ season ~ '-playoffs' %}
-        {% if season == CURRENT_SEASON or regular_slug in available_categories or playoffs_slug in available_categories %}
-        <article class="season-group-card">
-            <h3>Season {{ season }}</h3>
-            <div class="season-phase-links">
-                {{ season_phase_link(regular_slug, 'Regular Season', season, available_categories) }}
-                {{ season_phase_link(playoffs_slug, 'Playoffs', season, available_categories) }}
-            </div>
-        </article>
+<section class="mb-10 grid gap-3" aria-labelledby="division-{{ division }}">
+    <h2 id="division-{{ division }}" class="fs-section-title">{{ division_label }}</h2>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {% for league in division_leagues %}
+        {% set links %}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-regular-season', 'Regular season', available_categories) }}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-playoffs', 'Playoffs', available_categories) }}{% endset %}
+        {% set earlier %}{% for season in SEASONS if season != CURRENT_SEASON %}{% set r = league.prefix ~ season ~ '-regular-season' %}{% set p = league.prefix ~ season ~ '-playoffs' %}{% if r in available_categories or p in available_categories %}{{ season|replace('-', '/') }}{% if r in available_categories %} <a href="{{ SITEURL }}/category/{{ r }}.html">regular</a>{% endif %}{% if p in available_categories %} · <a href="{{ SITEURL }}/category/{{ p }}.html">playoffs</a>{% endif %}{% endif %}{% endfor %}{% endset %}
+        {{ league_card(league.name, league.title.split(' · ')[-1], CURRENT_SEASON|replace('-', '/'), links, earlier|trim) }}
+        {% endfor %}
+        {# International competitions sit with their division, after the national leagues. #}
+        {% for competition in COMPETITIONS|selectattr('division', 'equalto', division) %}
+        {% set comp_seasons = [] %}
+        {% for season in SEASONS if (competition.prefix ~ season ~ '-' ~ competition.phase) in available_categories %}{% set _ = comp_seasons.append(season) %}{% endfor %}
+        {% if comp_seasons %}
+        {% set links %}{% for season in comp_seasons %}{{ phase_chip(competition.prefix ~ season ~ '-' ~ competition.phase, 'Knockout ' ~ season|replace('-', '/'), available_categories) }}{% endfor %}{% endset %}
+        {{ league_card(competition.name, competition.title, comp_seasons[0]|replace('-', '/'), links, '') }}
         {% endif %}
         {% endfor %}
+        {% if division == 'men' %}
+        {% set links %}<a class="fs-chip" href="{{ SITEURL }}/wfc-2024.html">Tournament hub</a>{% endset %}
+        {{ league_card('World Championship', 'IFF WFC', '2024', links, '') }}
+        {% endif %}
     </div>
 </section>
+{% endif %}
 {% endfor %}
-{% endfor %}
-
-<h2 class="division-heading">International</h2>
-<section class="panel">
-    <h2 class="panel-title">International · IFF WFC</h2>
-    <div class="season-group-grid">
-        <article class="season-group-card">
-            <h3>Tournament 2024</h3>
-            <div class="season-phase-links">
-                <a class="season-phase-link" href="{{ SITEURL }}/wfc-2024.html">
-                    <span>Tournament Hub</span>
-                    <span>2024</span>
-                </a>
-            </div>
-        </article>
-    </div>
-</section>
 
 <section class="panel">
     <h2 class="panel-title">Glossary</h2>
-    <div class="tile-grid">
+    <div class="tile-grid glossary-grid">
         <div class="tile">
             <p class="tile-title">1st/2nd/3rd period (%)</p>
             <p class="tile-value">Share of goals scored in each period.</p>
@@ -229,73 +234,53 @@
 
 <script>
 (function () {
+    // Today's games as match cards; on days without games, the next matchday instead.
     const source = document.getElementById('today-games-source');
     const list = document.getElementById('today-games-list');
     const label = document.getElementById('today-games-label');
+    const title = document.getElementById('home-games-title');
     if (!source || !list || !label) return;
 
-    const items = Array.from(source.querySelectorAll('article')).map((node) => ({
-        date: node.dataset.date || '',
-        time: node.dataset.time || 'TBD',
-        home: node.dataset.home || 'n.a.',
-        away: node.dataset.away || 'n.a.',
-        league: node.dataset.league || 'League',
-        url: node.dataset.url || '#',
-        state: node.dataset.state || 'scheduled',
-        result: node.dataset.result || '',
-    }));
-
-    const normalizeResult = (raw) => {
-        const text = String(raw || '').trim();
-        if (!text) return '';
-        const score = text.match(/(\d+)\s*[:\-]\s*(\d+)/);
-        if (!score) return '';
-        return `${score[1]} : ${score[2]}`;
-    };
+    const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+    const allGames = Array.from(source.querySelectorAll('article')).map((node) => ({ ...node.dataset }));
 
     const today = new Date();
     const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-    const todayGames = items
-        .filter((game) => game.date === todayKey)
-        .sort((a, b) => String(a.time).localeCompare(String(b.time)));
-
-    if (!todayGames.length) {
-        label.textContent = `No games scheduled for ${todayKey}.`;
-        list.innerHTML = '';
-        return;
-    }
-
-    label.textContent = `${todayGames.length} game${todayGames.length === 1 ? '' : 's'} on ${todayKey}`;
-
-    const gamesByLeague = todayGames.reduce((acc, game) => {
-        if (!acc[game.league]) {
-            acc[game.league] = [];
+    const side = (name, crest, initials, loser) => `
+        <span class="${loser ? 'fs-match__loser' : ''}"><span class="fs-team"><span class="fs-crest" data-crest="${crest}" aria-hidden="true">${escapeHtml(initials)}</span><span>${escapeHtml(name)}</span></span></span>`;
+    const render = (division) => {
+        const games = allGames.filter((game) => game.division === division);
+        const who = division === 'women' ? "women's" : "men's";
+        let shown = games.filter((game) => game.date === todayKey);
+        if (title) title.textContent = "Today's games";
+        if (shown.length) {
+            label.textContent = `${shown.length} ${who} game${shown.length === 1 ? '' : 's'} today`;
+        } else {
+            const nextDate = games.map((game) => game.date).filter((date) => date > todayKey).sort()[0];
+            shown = nextDate ? games.filter((game) => game.date === nextDate) : [];
+            if (title && shown.length) title.textContent = 'Next games';
+            label.textContent = shown.length ? `No ${who} games today. Next matchday: ${shown[0].day}` : `No ${who} games scheduled.`;
         }
-        acc[game.league].push(game);
-        return acc;
-    }, {});
-
-    list.innerHTML = Object.keys(gamesByLeague).sort().map((league) => {
-        const gamesHtml = gamesByLeague[league].map((game) => {
-            const normalizedResult = normalizeResult(game.result);
-            const detail = game.state === 'played' && normalizedResult ? normalizedResult : game.time;
+        shown.sort((a, b) => (a.state === 'played') - (b.state === 'played') || String(a.time).localeCompare(String(b.time)));
+        list.innerHTML = shown.map((game) => {
+            const played = game.state === 'played' && game.homeGoals !== '' && game.awayGoals !== '';
+            const hg = Number(game.homeGoals);
+            const ag = Number(game.awayGoals);
+            const status = played
+                ? `<span class="fs-status fs-status--final">Final${game.decision ? ' · ' + game.decision : ''}</span>`
+                : `<span class="fs-status">${escapeHtml(game.time)}</span>`;
             return `
-                <a class="season-phase-link today-game-link" href="${game.url}">
-                    <span class="today-game-home">${game.home}</span>
-                    <span class="today-game-detail">${detail}</span>
-                    <span class="today-game-away">${game.away}</span>
-                </a>
-            `;
+                <a class="fs-match" href="${game.url}">
+                    <div class="fs-match__meta"><span>${escapeHtml(game.league)}</span>${status}</div>
+                    <div class="fs-match__teams">${side(game.home, game.homeCrest, game.homeInitials, played && hg < ag)}${side(game.away, game.awayCrest, game.awayInitials, played && ag < hg)}</div>
+                    <div class="fs-match__scores">${played ? `<span class="${hg < ag ? 'fs-match__loser' : ''}">${hg}</span><span class="${ag < hg ? 'fs-match__loser' : ''}">${ag}</span>` : '<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>'}</div>
+                </a>`;
         }).join('');
-        return `
-            <article class="season-group-card">
-                <h3>${league}</h3>
-                <div class="season-phase-links">
-                    ${gamesHtml}
-                </div>
-            </article>
-        `;
-    }).join('');
+    };
+
+    const buttons = Array.from(document.querySelectorAll('[data-games-division] [data-division-option]'));
+    buttons.forEach((button) => button.addEventListener('click', () => render(button.dataset.divisionOption)));
+    render(document.documentElement.getAttribute('data-division') === 'women' ? 'women' : 'men');
 })();
 </script>
 

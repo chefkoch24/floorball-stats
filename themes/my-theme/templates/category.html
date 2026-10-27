@@ -9,6 +9,9 @@
 {% set seo_title = category_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
 {% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% endif %}
+{% set league = category.shortname | league_context %}
+{# Regular-season league pages have their own layout (league_v2.html); playoffs and player tables keep this one. #}
+{% set use_v2 = (not is_player_stats) and league and league.phase == 'regular-season' %}
 {% set seo_type = 'website' %}
 {% set seo_canonical_path = category.url %}
 
@@ -100,6 +103,9 @@
     {% endif %}
 {% endfor %}
 
+{% if use_v2 %}
+{% include "league_v2.html" %}
+{% else %}
 <section class="hero">
     <div class="hero-top">
         <div>
@@ -580,6 +586,11 @@
   const playoffRoundsConfig = configEl ? JSON.parse(configEl.textContent || '[]') : [];
   const winsToAdvance = new Map();
   playoffRoundsConfig.forEach((r) => { if (r.name && r.wins_to_advance) winsToAdvance.set(r.name, r.wins_to_advance); });
+  // Two-legged ties (IFF Champions Cup): 2 points per win, 1 per draw over both legs;
+  // a level tie goes to a separate overtime that the feed does not report, so the
+  // config names those winners in tiebreak_winners.
+  const twoLeggedRounds = new Set(playoffRoundsConfig.filter((r) => r.series_type === 'two-legged').map((r) => r.name));
+  const tiebreakWinners = new Map(playoffRoundsConfig.map((r) => [r.name, new Set((r.tiebreak_winners || []).map((t) => (t || '').trim().toLowerCase()))]));
 
   const rankMap = new Map();
   document.querySelectorAll('.standings-table .standings-row').forEach((row) => {
@@ -640,6 +651,8 @@
         key: seriesKey,
         teams: {},
         wins: {},
+        points: {},
+        goals: {},
         games: 0,
         scheduledGames: 0,
         firstDate: '',
@@ -655,6 +668,10 @@
     series.teams[awayKey] = awayTeam;
     series.wins[homeKey] = series.wins[homeKey] || 0;
     series.wins[awayKey] = series.wins[awayKey] || 0;
+    series.points[homeKey] = series.points[homeKey] || 0;
+    series.points[awayKey] = series.points[awayKey] || 0;
+    series.goals[homeKey] = series.goals[homeKey] || 0;
+    series.goals[awayKey] = series.goals[awayKey] || 0;
     if (!series.playoffRound && game.playoffRound) series.playoffRound = game.playoffRound;
     if (!series.firstDate || gameDate < series.firstDate) {
       series.firstDate = gameDate;
@@ -666,6 +683,10 @@
       if (homeGoals !== null && awayGoals !== null) {
         if (homeGoals > awayGoals) series.wins[homeKey] += 1;
         if (awayGoals > homeGoals) series.wins[awayKey] += 1;
+        series.points[homeKey] += homeGoals > awayGoals ? 2 : homeGoals === awayGoals ? 1 : 0;
+        series.points[awayKey] += awayGoals > homeGoals ? 2 : homeGoals === awayGoals ? 1 : 0;
+        series.goals[homeKey] += homeGoals;
+        series.goals[awayKey] += awayGoals;
         if (!series.latestDate || gameDate >= series.latestDate) {
           series.latestDate = gameDate;
           series.latestResult = `${homeTeam} ${homeGoals}:${awayGoals} ${awayTeam}`;
@@ -684,6 +705,7 @@
     const teamBWins = series.wins[teamBKey] || 0;
     const rankA = rankMap.get(teamAKey) || 999;
     const rankB = rankMap.get(teamBKey) || 999;
+    const twoLegged = twoLeggedRounds.has(series.playoffRound);
     return {
       teamAKey,
       teamBKey,
@@ -691,6 +713,11 @@
       teamB,
       teamAWins,
       teamBWins,
+      twoLegged,
+      teamAScore: twoLegged ? (series.points[teamAKey] || 0) : teamAWins,
+      teamBScore: twoLegged ? (series.points[teamBKey] || 0) : teamBWins,
+      teamAGoals: series.goals[teamAKey] || 0,
+      teamBGoals: series.goals[teamBKey] || 0,
       games: series.games,
       scheduledGames: series.scheduledGames,
       latestDate: series.latestDate,
@@ -798,6 +825,20 @@
 
   // Detect series winner via wins_to_advance from config (covers champion + any series not yet in next round)
   bracketSeries.forEach((series) => {
+    if (!series.twoLegged || series.games < 2 || series.scheduledGames > 0) return;
+    if (series.teamAScore === series.teamBScore && series.advancedTeamKey) series.decidedInOvertime = true;
+    if (series.advancedTeamKey) return;
+    if (series.teamAScore !== series.teamBScore) {
+      series.advancedTeamKey = series.teamAScore > series.teamBScore ? series.teamAKey : series.teamBKey;
+      return;
+    }
+    const tiebreak = tiebreakWinners.get(series.playoffRound) || new Set();
+    if (tiebreak.has(series.teamAKey)) series.advancedTeamKey = series.teamAKey;
+    else if (tiebreak.has(series.teamBKey)) series.advancedTeamKey = series.teamBKey;
+    if (series.advancedTeamKey) series.decidedInOvertime = true;
+  });
+
+  bracketSeries.forEach((series) => {
     if (series.advancedTeamKey) return;
     const required = winsToAdvance.get(series.playoffRound);
     if (!required) return;
@@ -817,8 +858,8 @@
     const cards = seriesByRound.get(round).map((series, index) => {
       const isUpcoming = series.games === 0 && series.scheduledGames > 0;
       const isChampionRound = round === maxRound;
-      const teamALeading = !isUpcoming && series.teamAWins > series.teamBWins;
-      const teamBLeading = !isUpcoming && series.teamBWins > series.teamAWins;
+      const teamALeading = !isUpcoming && series.teamAScore > series.teamBScore;
+      const teamBLeading = !isUpcoming && series.teamBScore > series.teamAScore;
       const gamesLabel = isUpcoming
         ? `${series.scheduledGames} scheduled`
         : series.scheduledGames > 0
@@ -832,27 +873,31 @@
       const winnerKey = series.advancedTeamKey;
       const winnerName = winnerKey === series.teamAKey ? series.teamA : winnerKey === series.teamBKey ? series.teamB : '';
       const advancedText = winnerName
-        ? isChampionRound ? `${winnerName} Champion!` : `${winnerName} advanced`
+        ? isChampionRound ? `${winnerName} Champion!` : `${winnerName} advanced${series.decidedInOvertime ? ' after tie-break overtime' : ''}`
         : '';
       const progressLine = advancedText
         ? `<p class="playoff-series-progress">${advancedText}</p>`
+        : '';
+      const aggregateLine = series.twoLegged && !isUpcoming
+        ? `<p class="playoff-series-latest">Points ${series.teamAScore}:${series.teamBScore} · Goals ${series.teamAGoals}:${series.teamBGoals}</p>`
         : '';
 
       return `
         <article class="playoff-series-card${isUpcoming ? ' is-upcoming' : ''}">
           <header class="playoff-series-head">
-            <h3>Series ${index + 1}</h3>
+            <h3>${series.twoLegged ? 'Tie' : 'Series'} ${index + 1}</h3>
             <span>${gamesLabel}</span>
           </header>
           <div class="playoff-series-team ${teamALeading ? 'is-leading' : ''}">
             <span>${series.teamA}</span>
-            <strong>${isUpcoming ? '–' : series.teamAWins}</strong>
+            <strong>${isUpcoming ? '–' : series.teamAScore}</strong>
           </div>
           <div class="playoff-series-team ${teamBLeading ? 'is-leading' : ''}">
             <span>${series.teamB}</span>
-            <strong>${isUpcoming ? '–' : series.teamBWins}</strong>
+            <strong>${isUpcoming ? '–' : series.teamBScore}</strong>
           </div>
           ${progressLine}
+          ${aggregateLine}
           <p class="playoff-series-latest">${latestLine}</p>
         </article>
       `;
@@ -910,5 +955,6 @@
   });
 })();
 </script>
+{% endif %}
 {% endif %}
 {% endblock content %}

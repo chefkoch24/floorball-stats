@@ -108,6 +108,7 @@ help:
 	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
 	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
 	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
+	@echo '   make css                            rebuild the Tailwind theme stylesheet (needs npm install)'
 	@echo '   make refresh-finland-playoffs       playoffs pipeline for Finland (F-Liiga)'
 	@echo '   make refresh-finland-smart          Finland smart regular/playoffs refresh'
 	@echo '   make refresh-czech                  full pipeline for Czech Extraliga   '
@@ -165,6 +166,12 @@ html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 
 clean:
+# Theme stylesheet (Tailwind v4): tokens from themes/my-theme/design-system/tokens.json,
+# compiled to themes/my-theme/static/css/app.css, which is committed so Netlify needs no Node step.
+css:
+	"$(PYTHON)" scripts/build_design_tokens.py
+	npm run --silent css
+
 	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
 
 regenerate:

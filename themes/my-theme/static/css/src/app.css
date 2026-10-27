@@ -1,0 +1,11 @@
+/* Tailwind entry for the Floorball Stats theme. Build with `make css`. */
+@import "tailwindcss" source(none);
+@source "../../../templates";
+
+/* dark: utilities follow the site's theme toggle (data-theme on <html>), not only the OS setting. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@import "./tokens.css";
+@import "./components.css";
+@import "./chrome.css";
+@import "./compat.css";

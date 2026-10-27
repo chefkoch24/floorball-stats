@@ -1,0 +1,13 @@
+{
+  "name": "floorball-stats-theme",
+  "private": true,
+  "description": "Builds the Tailwind stylesheet of the Pelican theme (themes/my-theme/static/css/app.css).",
+  "scripts": {
+    "css": "tailwindcss -i themes/my-theme/static/css/src/app.css -o themes/my-theme/static/css/app.css --minify",
+    "css:watch": "tailwindcss -i themes/my-theme/static/css/src/app.css -o themes/my-theme/static/css/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.1.11",
+    "tailwindcss": "4.1.11"
+  }
+}

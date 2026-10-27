@@ -1,34 +1,43 @@
-<section class="hero">
-    <div class="team-sides">
-        <div class="side-team home">
-            <p class="side-name">{{ article.home_team }}</p>
-            <p class="side-meta">Points: {{ article.home_points|default('–') }}</p>
-        </div>
-        <div class="score-stack" id="heroScoreStack">
-            <div class="hero-score">{{ article.home_goals|default('–') }} : {{ article.away_goals|default('–') }}</div>
-            <div class="period-line">
-                {{ article.home_goals_in_first_period|default('–') }}:{{ article.away_goals_in_first_period|default('–') }} |
-                {{ article.home_goals_in_second_period|default('–') }}:{{ article.away_goals_in_second_period|default('–') }} |
-                {{ article.home_goals_in_third_period|default('–') }}:{{ article.away_goals_in_third_period|default('–') }}
-                {% if article.home_goals_in_overtime or article.away_goals_in_overtime %}
-                | OT {{ article.home_goals_in_overtime|default('0') }}:{{ article.away_goals_in_overtime|default('0') }}
-                {% endif %}
-                {% if article.home_goals_in_penalty_shootout or article.away_goals_in_penalty_shootout %}
-                | PS {{ article.home_goals_in_penalty_shootout|default('0') }}:{{ article.away_goals_in_penalty_shootout|default('0') }}
-                {% endif %}
-            </div>
-        </div>
-        <div class="side-team away">
-            <p class="side-name">{{ article.away_team }}</p>
-            <p class="side-meta">Points: {{ article.away_points|default('–') }}</p>
-        </div>
+{% set game_scheduled = article.game_state|default('played') == 'scheduled' %}
+{% set hg = article.home_goals|default(0)|int %}
+{% set ag = article.away_goals|default(0)|int %}
+{% set ps_goals = (article.home_goals_in_penalty_shootout|default(0)|int) + (article.away_goals_in_penalty_shootout|default(0)|int) %}
+{% set ot_goals = (article.home_goals_in_overtime|default(0)|int) + (article.away_goals_in_overtime|default(0)|int) %}
+{% set decision = 'PS' if ps_goals > 0 else ('OT' if ot_goals > 0 else '') %}
+{% set attendance_text = article.attendance|fmt_int('') %}
+<section class="fs-scoreboard mb-8">
+    <div class="fs-scoreboard__head">
+        <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
+        {% if article.playoff_round|default('') %}<span class="fs-chip">{{ article.playoff_round }}</span>{% endif %}
+        {% if game_scheduled %}
+        <span class="fs-status">Scheduled</span>
+        {% else %}
+        <span class="fs-status fs-status--final">Final{% if decision %} · {{ decision }}{% endif %}</span>
+        {% endif %}
+        <span class="fs-chip">{{ article.date.strftime('%a %d %b %Y') if article.date else 'Date tbd' }}{% if game_scheduled %} · {{ article.start_time|fmt_time('TBD') }}{% endif %}</span>
+        {% if attendance_text and attendance_text != 'n.a.' %}<span class="fs-chip">{{ attendance_text }} spectators</span>{% endif %}
     </div>
-    <div class="chip-row">
-        {% if article.playoff_round|default('') %}<span class="chip">{{ article.playoff_round }}</span>{% endif %}
-        <span class="chip">Game ID: {{ article.game_id|default('n.a.') }}</span>
-        <span class="chip">Date: {{ article.date.strftime('%Y-%m-%d') if article.date else 'n.a.' }}</span>
-        <span class="chip">Attendance: {{ article.attendance|fmt_int('n.a.') }}</span>
+    <div class="fs-scoreboard__main">
+        {% for side, name, own, other in [('Home', article.home_team, hg, ag), ('Away', article.away_team, ag, hg)] %}
+        {% if loop.index == 2 %}
+        <div class="fs-scoreboard__score">{% if game_scheduled %}<span class="text-ink-muted">vs</span>{% else %}{{ hg }}<span class="fs-scoreboard__sep">:</span>{{ ag }}{% endif %}</div>
+        {% endif %}
+        <a class="fs-scoreboard__side text-ink hover:no-underline {% if not game_scheduled and own < other %}fs-match__loser{% endif %}" href="{{ SITEURL }}/{{ name|team_url(current_category) }}">
+            <span class="fs-crest fs-crest--lg" data-crest="{{ name|crest_index }}" aria-hidden="true">{{ name|team_initials }}</span>
+            <span class="fs-scoreboard__name">{{ name }}</span>
+            <span class="fs-label">{{ side }}</span>
+        </a>
+        {% endfor %}
     </div>
+    {% if not game_scheduled %}
+    <div class="fs-scoreboard__periods">
+        <span>P1 {{ article.home_goals_in_first_period|default(0) }}:{{ article.away_goals_in_first_period|default(0) }}</span>
+        <span>P2 {{ article.home_goals_in_second_period|default(0) }}:{{ article.away_goals_in_second_period|default(0) }}</span>
+        <span>P3 {{ article.home_goals_in_third_period|default(0) }}:{{ article.away_goals_in_third_period|default(0) }}</span>
+        {% if ot_goals > 0 or ps_goals > 0 %}<span>OT {{ article.home_goals_in_overtime|default(0) }}:{{ article.away_goals_in_overtime|default(0) }}</span>{% endif %}
+        {% if ps_goals > 0 %}<span>PS {{ article.home_goals_in_penalty_shootout|default(0) }}:{{ article.away_goals_in_penalty_shootout|default(0) }}</span>{% endif %}
+    </div>
+    {% endif %}
 </section>
 
 <details class="stat-guide">
@@ -47,14 +56,14 @@
     </div>
 </details>
 
-{% set normalized_game_state = (game_state|default('', true)|string|lower) %}
+{% set normalized_game_state = (article.game_state|default('', true)|string|lower) %}
 {% set normalized_game_status = (article.game_status|default('', true)|string|lower) %}
 {% set normalized_result_string = (article.result_string|default('', true)|string|lower) %}
-{% set has_result_string_score = ':' in normalized_result_string %}
+{% set has_result_string_score = ':' in normalized_result_string or '-' in normalized_result_string %}
 {% set has_final_score = article.home_goals is not none and article.away_goals is not none and has_result_string_score %}
 {% set is_upcoming_by_state = normalized_game_state in ['scheduled', 'upcoming', 'not_played', 'not played', 'not-played'] %}
 {% set is_upcoming_by_status = normalized_game_status in ['scheduled', 'upcoming', 'not played', 'not_played'] %}
-{% set default_pregame_tab = is_upcoming_by_state or is_upcoming_by_status or (not has_final_score) %}
+{% set default_pregame_tab = is_upcoming_by_state or (normalized_game_state != 'played' and (is_upcoming_by_status or not has_final_score)) %}
 {% set home_form_codes = (article.pregame_h2h_form5_home_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_home_tag_codes_csv else [] %}
 {% set away_form_codes = (article.pregame_h2h_form5_away_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_away_tag_codes_csv else [] %}
 {% set home_form_opponents = (article.pregame_h2h_form5_home_opponents_csv|default('', true)).split('||') if article.pregame_h2h_form5_home_opponents_csv else [] %}
@@ -81,7 +90,7 @@
                 <p class="kpi-value">{{ article.home_penalties|default('–') }} / {{ article.away_penalties|default('–') }}</p>
             </article>
             <article class="kpi">
-                <p class="kpi-label">Points in Games <=2 Goal Diff</p>
+                <p class="kpi-label">Points in close games (≤2 goals)</p>
                 <p class="kpi-value">{{ article.home_points_max_difference_2|default('–') }} / {{ article.away_points_max_difference_2|default('–') }}</p>
             </article>
             <article class="kpi">
@@ -252,6 +261,7 @@
 </section>
 
 <script>
+  const fsc = window.fsColors();
 (() => {
   const tabsRoot = document.getElementById('game-view-tabs');
   if (!tabsRoot) return;
@@ -295,7 +305,7 @@ if (goalsPerPeriodChart) {
             {{ article.home_goals_in_third_period | default(0) }},
             {{ article.home_goals_in_overtime | default(0) }}
           ],
-          backgroundColor: '#0f4c81'
+          backgroundColor: fsc.home
         },
         {
           label: '{{ article.away_team }}',
@@ -305,7 +315,7 @@ if (goalsPerPeriodChart) {
             {{ article.away_goals_in_third_period | default(0) }},
             {{ article.away_goals_in_overtime | default(0) }}
           ],
-          backgroundColor: '#c62828'
+          backgroundColor: fsc.away
         }
       ]
     },
@@ -476,9 +486,9 @@ if (timelineChart && penaltyChart) {
     beforeDatasetsDraw(chart) {
       const { ctx, scales: { x, y } } = chart;
       const bands = [
-        [0, 20, 'rgba(15, 76, 129, 0.03)'],
-        [20, 40, 'rgba(15, 76, 129, 0.06)'],
-        [40, 60, 'rgba(15, 76, 129, 0.03)'],
+        [0, 20, 'transparent'],
+        [20, 40, fsc.rinkSoft],
+        [40, 60, 'transparent'],
       ];
       ctx.save();
       bands.forEach(([start, end, color]) => {
@@ -500,7 +510,7 @@ if (timelineChart && penaltyChart) {
         if (xp < x.left || xp > x.right) return;
         ctx.save();
         ctx.setLineDash([4, 4]);
-        ctx.strokeStyle = 'rgba(100, 116, 139, 0.45)';
+        ctx.strokeStyle = fsc.line;
         ctx.beginPath();
         ctx.moveTo(xp, y.top);
         ctx.lineTo(xp, y.bottom);
@@ -532,8 +542,8 @@ if (timelineChart && penaltyChart) {
         });
       };
 
-      drawWindows(homePenaltyMinutes, homePenaltyEnds, 1, 'rgba(15, 76, 129, 0.75)');
-      drawWindows(awayPenaltyMinutes, awayPenaltyEnds, 0, 'rgba(198, 40, 40, 0.75)');
+      drawWindows(homePenaltyMinutes, homePenaltyEnds, 1, fsc.home);
+      drawWindows(awayPenaltyMinutes, awayPenaltyEnds, 0, fsc.away);
     }
   };
 
@@ -544,8 +554,8 @@ if (timelineChart && penaltyChart) {
         {
           label: '{{ article.home_team }}',
           data: homeSeries,
-          borderColor: '#0f4c81',
-          backgroundColor: '#0f4c81',
+          borderColor: fsc.home,
+          backgroundColor: fsc.home,
           stepped: true,
           pointRadius: 0,
           borderWidth: 3,
@@ -554,8 +564,8 @@ if (timelineChart && penaltyChart) {
         {
           label: '{{ article.away_team }}',
           data: awaySeries,
-          borderColor: '#c62828',
-          backgroundColor: '#c62828',
+          borderColor: fsc.away,
+          backgroundColor: fsc.away,
           stepped: true,
           pointRadius: 0,
           borderWidth: 3,
@@ -574,7 +584,7 @@ if (timelineChart && penaltyChart) {
           title: { display: true, text: 'Minute' },
           min: 0,
           max: maxMinute,
-          grid: { color: 'rgba(148, 163, 184, 0.2)' }
+          grid: { color: fsc.line }
         },
         y: {
           title: { display: !isMobile, text: 'Cumulative goals' },
@@ -593,8 +603,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.home_team }} penalties start',
       data: homePenaltyStartSeries,
-      borderColor: '#0f4c81',
-      backgroundColor: '#0f4c81',
+      borderColor: fsc.home,
+      backgroundColor: fsc.home,
       pointRadius: 4,
       pointStyle: 'circle'
     });
@@ -603,8 +613,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.away_team }} penalties start',
       data: awayPenaltyStartSeries,
-      borderColor: '#c62828',
-      backgroundColor: '#c62828',
+      borderColor: fsc.away,
+      backgroundColor: fsc.away,
       pointRadius: 4,
       pointStyle: 'circle'
     });
@@ -613,8 +623,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.home_team }} penalties end',
       data: homePenaltyEndSeries,
-      borderColor: '#0f4c81',
-      backgroundColor: '#0f4c81',
+      borderColor: fsc.home,
+      backgroundColor: fsc.home,
       pointRadius: 4,
       pointStyle: 'circle'
     });
@@ -623,8 +633,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.away_team }} penalties end',
       data: awayPenaltyEndSeries,
-      borderColor: '#c62828',
-      backgroundColor: '#c62828',
+      borderColor: fsc.away,
+      backgroundColor: fsc.away,
       pointRadius: 4,
       pointStyle: 'circle'
     });
@@ -633,8 +643,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.home_team }} 10/MS',
       data: homeMajorPenaltySeries,
-      borderColor: '#0f4c81',
-      backgroundColor: '#0f4c81',
+      borderColor: fsc.home,
+      backgroundColor: fsc.home,
       pointRadius: 6,
       pointStyle: 'crossRot'
     });
@@ -643,8 +653,8 @@ if (timelineChart && penaltyChart) {
     penaltyDatasets.push({
       label: '{{ article.away_team }} 10/MS',
       data: awayMajorPenaltySeries,
-      borderColor: '#c62828',
-      backgroundColor: '#c62828',
+      borderColor: fsc.away,
+      backgroundColor: fsc.away,
       pointRadius: 6,
       pointStyle: 'crossRot'
     });
@@ -666,7 +676,7 @@ if (timelineChart && penaltyChart) {
           min: 0,
           max: maxMinute,
           title: { display: true, text: 'Penalty timeline' },
-          grid: { color: 'rgba(148, 163, 184, 0.2)' }
+          grid: { color: fsc.line }
         },
         y: {
           min: -0.5,
