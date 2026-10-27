@@ -15,6 +15,7 @@
 - [ ] Scalable process across leagues
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
+- [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
 
 
 ## Ideas & User Feedback

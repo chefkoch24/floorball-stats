@@ -364,13 +364,13 @@ def _lineup_rows_for_prefix(
 ) -> pd.DataFrame:
     if matches.empty:
         return pd.DataFrame()
-    if prefix == "se":
+    if prefix in {"se", "sew"}:
         match_ids = matches["game_id"].dropna().astype(int).drop_duplicates().tolist()
-        return _rows_from_sweden_lineups(match_ids, season=season, phase=phase)
-    if prefix == "":
+        return _rows_from_sweden_lineups(match_ids, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
+    if prefix in {"", "dew"}:
         match_ids = matches["game_id"].dropna().astype(int).drop_duplicates().tolist()
-        return _rows_from_germany_lineups(match_ids=match_ids, season=season, phase=phase)
-    if prefix == "cz":
+        return _rows_from_germany_lineups(match_ids=match_ids, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
+    if prefix in {"cz", "czw"}:
         return _rows_from_czech_rosters(
             matches=matches,
             season=season,
@@ -378,14 +378,14 @@ def _lineup_rows_for_prefix(
             league=LEAGUE_INFO[prefix]["league"],
             source_system=LEAGUE_INFO[prefix]["source_system"],
         )
-    if prefix == "ch":
-        return _rows_from_swiss_rosters(matches=matches, season=season, phase=phase)
-    if prefix == "fi":
-        return _rows_from_finland_rosters(matches=matches, season=season, phase=phase)
-    if prefix == "sk":
-        return _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase)
-    if prefix == "lv":
-        return _rows_from_latvia_rosters(matches=matches, season=season, phase=phase)
+    if prefix in {"ch", "chw"}:
+        return _rows_from_swiss_rosters(matches=matches, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
+    if prefix in {"fi", "fiw"}:
+        return _rows_from_finland_rosters(matches=matches, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
+    if prefix in {"sk", "skw"}:
+        return _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
+    if prefix in {"lv", "lvw"}:
+        return _rows_from_latvia_rosters(matches=matches, season=season, phase=phase, league=LEAGUE_INFO[prefix]["league"])
     if prefix == "wfc":
         if game_rosters is not None and not game_rosters.empty:
             db_rows = _wfc_roster_rows_from_frame(game_rosters, season=season, phase=phase)

@@ -44,6 +44,17 @@ GERMANY_PLAYOFFS_CSV ?= data/data_$(CURRENT_SEASON)_playoffs.csv
 SWEDEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-$(CURRENT_SEASON).json
 SWEDEN_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-$(CURRENT_SEASON)-playoffs.json
 SWEDEN_PLAYOFFS_CSV ?= data/data_se-$(CURRENT_SEASON)_playoffs.csv
+SWEDEN_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-women-$(CURRENT_SEASON).json
+SWEDEN_WOMEN_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/sweden-ssl-women-$(CURRENT_SEASON)-playoffs.json
+SWEDEN_WOMEN_PLAYOFFS_CSV ?= data/data_sew-$(CURRENT_SEASON)_playoffs.csv
+# Women's top leagues reuse their country's backend (prefix = country + "w").
+# Playoff configs (except Sweden) still need each league's series format before March.
+SWISS_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/switzerland-lupl-women-$(CURRENT_SEASON).json
+FINLAND_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/finland-fliiga-women-$(CURRENT_SEASON).json
+CZECH_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/czech-cez-extraliga-women-$(CURRENT_SEASON).json
+SLOVAKIA_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/slovakia-extraliga-women-$(CURRENT_SEASON).json
+LATVIA_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/latvia-elvi-sv-$(CURRENT_SEASON).json
+GERMANY_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/germany-1fbl-women-$(CURRENT_SEASON).json
 # Switzerland (L-UPL, Swiss Unihockey renderengine)
 SWISS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/switzerland-lupl-$(CURRENT_SEASON).json
 SWISS_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/switzerland-lupl-$(CURRENT_SEASON)-playoffs.json
@@ -93,6 +104,7 @@ help:
 	@echo '   make refresh-sweden                 full pipeline for Sweden (StatsApp) '
 	@echo '   make refresh-sweden-playoffs        playoffs pipeline for Sweden SSL     '
 	@echo '   make refresh-sweden-smart           Sweden smart regular/playoffs refresh'
+	@echo '   make refresh-women-leagues          all women top leagues (SE, CH, FI, CZ, SK, LV, DE)'
 	@echo '   make refresh-switzerland            full pipeline for Switzerland       '
 	@echo '   make refresh-switzerland-playoffs   Switzerland playoffs pipeline       '
 	@echo '   make refresh-finland                full pipeline for Finland (F-Liiga)  '
@@ -204,6 +216,53 @@ refresh-sweden-playoffs:
 refresh-sweden-smart:
 	$(call smart_refresh,refresh-sweden-playoffs,refresh-sweden,$(SWEDEN_PLAYOFFS_CSV))
 
+refresh-sweden-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWEDEN_WOMEN_LEAGUE_CONFIG)"
+
+refresh-sweden-women-playoffs:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWEDEN_WOMEN_PLAYOFFS_LEAGUE_CONFIG)"
+
+refresh-sweden-women-smart:
+	$(call smart_refresh,refresh-sweden-women-playoffs,refresh-sweden-women,$(SWEDEN_WOMEN_PLAYOFFS_CSV))
+
+refresh-switzerland-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_WOMEN_LEAGUE_CONFIG)"
+
+refresh-finland-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(FINLAND_WOMEN_LEAGUE_CONFIG)"
+
+refresh-czech-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_WOMEN_LEAGUE_CONFIG)" $(CZECH_PIPELINE_ARGS)
+
+refresh-slovakia-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(SLOVAKIA_WOMEN_LEAGUE_CONFIG)"
+
+refresh-latvia-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(LATVIA_WOMEN_LEAGUE_CONFIG)"
+
+refresh-germany-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(GERMANY_WOMEN_LEAGUE_CONFIG)"
+
+refresh-women-leagues:
+	@failed=""; \
+	for target in \
+		refresh-sweden-women-smart \
+		refresh-switzerland-women \
+		refresh-finland-women \
+		refresh-czech-women \
+		refresh-slovakia-women \
+		refresh-latvia-women \
+		refresh-germany-women; do \
+		echo "==> $$target"; \
+		if ! $(MAKE) $$target; then \
+			echo "[WARN] step failed: $$target"; \
+			failed="$$failed $$target"; \
+		fi; \
+	done; \
+	if [ -n "$$failed" ]; then \
+		echo "[WARN] refresh-women-leagues completed with failed steps:$$failed"; \
+	fi
+
 refresh-switzerland:
 	"$(PYTHON)" -m src.pipeline --league_config "$(SWISS_LEAGUE_CONFIG)"
 
@@ -246,7 +305,10 @@ refresh-czech-local:
 		echo "[INFO] Czech playoffs not available; syncing the regular season."; \
 		"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_LEAGUE_CONFIG)" --data_dir "$$tmp/data" --content_dir "$$tmp/content"; \
 	fi
-	"$(PYTHON)" -m src.build_player_stats_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --prefixes cz
+	@tmp="$$(mktemp -d)"; trap 'rm -rf "$$tmp"' EXIT; \
+	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_WOMEN_LEAGUE_CONFIG)" --data_dir "$$tmp/data" --content_dir "$$tmp/content" \
+		|| echo "[WARN] Czech women's league sync failed."
+	"$(PYTHON)" -m src.build_player_stats_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --prefixes cz,czw
 
 # macOS launchd agent running scripts/czech_refresh_job.sh daily at 22:00
 # (a missed run is started when the Mac wakes up).
@@ -296,6 +358,8 @@ refresh-all-leagues-bootstrap:
 		refresh-current-season-playoffs \
 		refresh-sweden \
 		refresh-sweden-playoffs \
+		refresh-sweden-women \
+		refresh-sweden-women-playoffs \
 		refresh-switzerland \
 		refresh-switzerland-playoffs \
 		refresh-finland \
@@ -331,6 +395,7 @@ refresh-all-leagues:
 		refresh-czech-smart \
 		refresh-slovakia-smart \
 		refresh-latvia-smart \
+		refresh-women-leagues \
 		refresh-player-stats \
 		refresh-player-pages \
 		refresh-search-index \
@@ -412,8 +477,8 @@ refresh-player-pages-sweden:
 		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
 		exit 1; \
 	fi
-	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "se" --no-prune
-	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "se" --no-prune
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "se,sew" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "se,sew" --no-prune
 
 refresh-sweden-full:
 	$(MAKE) refresh-sweden

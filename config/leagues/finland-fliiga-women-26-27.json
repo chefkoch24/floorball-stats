@@ -1,0 +1,11 @@
+{
+  "backend": "finland",
+  "season": "fiw-26-27",
+  "phase": "regular-season",
+  "finland": {
+    "playoff_start_date": "2027-03-18",
+    "schedule_urls": [
+      "https://fliiga.com/en/matches/women/"
+    ]
+  }
+}

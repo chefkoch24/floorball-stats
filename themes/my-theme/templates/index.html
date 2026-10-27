@@ -66,7 +66,12 @@
     </span>
     {% endif %}
 {%- endmacro %}
-{% for league in LEAGUES %}
+{% for division, division_label in DIVISIONS %}
+{% set division_leagues = LEAGUES|selectattr('division', 'equalto', division)|list %}
+{% if division_leagues %}
+<h2 class="division-heading">{{ division_label }}</h2>
+{% endif %}
+{% for league in division_leagues %}
 <section class="panel">
     <h2 class="panel-title">{{ league.title }}</h2>
     <div class="season-group-grid">
@@ -86,7 +91,9 @@
     </div>
 </section>
 {% endfor %}
+{% endfor %}
 
+<h2 class="division-heading">International</h2>
 <section class="panel">
     <h2 class="panel-title">International · IFF WFC</h2>
     <div class="season-group-grid">

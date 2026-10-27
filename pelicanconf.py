@@ -1,9 +1,12 @@
 from pelican.plugins import more_categories, jinja_filters
 from datetime import datetime, time
+import os
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 FEEDBACK_EMAIL = 'hello@floorballconnect.com'
+# Payment link for the support banner (Ko-fi, Stripe Payment Link, ...); banner stays hidden while empty
+SUPPORT_URL = os.environ.get('SUPPORT_URL', '')
 PLUGINS = [
     jinja_filters,
     more_categories,
@@ -36,15 +39,25 @@ CURRENT_SEASON = SEASONS[0]
 SEASON_PHASES = ['regular-season', 'playoffs']
 
 # Category prefix per league (Germany has none), in navigation order.
+# `division` drives the men/women switch in the navigation and the home page groups.
+DIVISIONS = [('men', 'Men'), ('women', 'Women')]
 LEAGUES = [
-    {'prefix': 'se-', 'name': 'Sweden', 'title': 'Sweden · SSL'},
-    {'prefix': 'fi-', 'name': 'Finland', 'title': 'Finland · F-Liiga'},
-    {'prefix': 'cz-', 'name': 'Czech Republic', 'title': 'Czech Republic · ČEZ Extraliga'},
-    {'prefix': 'ch-', 'name': 'Switzerland', 'title': 'Switzerland · L-UPL'},
-    {'prefix': 'sk-', 'name': 'Slovakia', 'title': 'Slovakia · Extraliga mužov'},
-    {'prefix': 'lv-', 'name': 'Latvia', 'title': 'Latvia · ELVI līga vīriešiem'},
-    {'prefix': '', 'name': 'Germany', 'title': 'Germany · 1. FBL Herren'},
+    {'prefix': 'se-', 'name': 'Sweden', 'title': 'Sweden · SSL', 'division': 'men'},
+    {'prefix': 'fi-', 'name': 'Finland', 'title': 'Finland · F-Liiga', 'division': 'men'},
+    {'prefix': 'cz-', 'name': 'Czech Republic', 'title': 'Czech Republic · ČEZ Extraliga', 'division': 'men'},
+    {'prefix': 'ch-', 'name': 'Switzerland', 'title': 'Switzerland · L-UPL', 'division': 'men'},
+    {'prefix': 'sk-', 'name': 'Slovakia', 'title': 'Slovakia · Extraliga mužov', 'division': 'men'},
+    {'prefix': 'lv-', 'name': 'Latvia', 'title': 'Latvia · ELVI līga vīriešiem', 'division': 'men'},
+    {'prefix': '', 'name': 'Germany', 'title': 'Germany · 1. FBL Herren', 'division': 'men'},
+    {'prefix': 'sew-', 'name': 'Sweden', 'title': 'Sweden · SSL Damer', 'division': 'women'},
+    {'prefix': 'fiw-', 'name': 'Finland', 'title': 'Finland · F-Liiga Naiset', 'division': 'women'},
+    {'prefix': 'czw-', 'name': 'Czech Republic', 'title': 'Czech Republic · ČEZ Extraliga žen', 'division': 'women'},
+    {'prefix': 'chw-', 'name': 'Switzerland', 'title': 'Switzerland · L-UPL Damen', 'division': 'women'},
+    {'prefix': 'skw-', 'name': 'Slovakia', 'title': 'Slovakia · Extraliga žien', 'division': 'women'},
+    {'prefix': 'lvw-', 'name': 'Latvia', 'title': 'Latvia · ELVI līga sievietēm', 'division': 'women'},
+    {'prefix': 'dew-', 'name': 'Germany', 'title': 'Germany · 1. FBL Damen', 'division': 'women'},
 ]
+WOMEN_LEAGUE_PREFIXES = [league['prefix'] for league in LEAGUES if league['division'] == 'women']
 
 ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-23-playoffs/teams', '22-23-playoffs/liga',
                  '23-24-regular-season/teams', '23-24-regular-season/liga', '23-24-playoffs/teams', '23-24-playoffs/liga',
@@ -106,7 +119,7 @@ MENUITEMS = tuple(
         ('Playoffs 24-25', '/category/24-25-playoffs.html'),
     ]
     + [
-        (f"{league['name']} {phase.replace('-', ' ').title()} {season}",
+        (f"{league['title']} {phase.replace('-', ' ').title()} {season}",
          f"/category/{league['prefix']}{season}-{phase}.html")
         for season in reversed(SEASONS)
         for league in LEAGUES
@@ -123,6 +136,29 @@ def string_in_category_path(article, string_to_check):
     # Check if the string is in the category path
     return string_to_check in categories
 
+# Category slug prefix -> display label (Germany has no prefix).
+COUNTRY_LABELS = {
+    'se': 'Sweden',
+    'sweden': 'Sweden',
+    'sew': 'Sweden Women',
+    'chw': 'Switzerland Women',
+    'czw': 'Czech Republic Women',
+    'fiw': 'Finland Women',
+    'lvw': 'Latvia Women',
+    'skw': 'Slovakia Women',
+    'dew': 'Germany Women',
+    'ch': 'Switzerland',
+    'switzerland': 'Switzerland',
+    'cz': 'Czech Republic',
+    'czech': 'Czech Republic',
+    'fi': 'Finland',
+    'finland': 'Finland',
+    'lv': 'Latvia',
+    'latvia': 'Latvia',
+    'sk': 'Slovakia',
+    'slovakia': 'Slovakia',
+}
+
 def category2string(slug):
     slug = slug.split('-')
     is_players = bool(slug) and slug[-1] == 'players'
@@ -130,48 +166,8 @@ def category2string(slug):
         slug = slug[:-1]
     if not slug:
         return 'Players'
-    if slug[0] in {'se', 'sweden'}:
-        label = 'Sweden'
-        rest = slug[1:]
-        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-            return f"{base} Player Stats" if is_players else base
-        base = f"{label} " + " ".join([s.capitalize() for s in rest])
-        return f"{base} Player Stats" if is_players else base
-    if slug[0] in {'ch', 'switzerland'}:
-        label = 'Switzerland'
-        rest = slug[1:]
-        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-            return f"{base} Player Stats" if is_players else base
-        base = f"{label} " + " ".join([s.capitalize() for s in rest])
-        return f"{base} Player Stats" if is_players else base
-    if slug[0] in {'cz', 'czech'}:
-        label = 'Czech Republic'
-        rest = slug[1:]
-        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-            return f"{base} Player Stats" if is_players else base
-        base = f"{label} " + " ".join([s.capitalize() for s in rest])
-        return f"{base} Player Stats" if is_players else base
-    if slug[0] in {'fi', 'finland'}:
-        label = 'Finland'
-        rest = slug[1:]
-        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-            return f"{base} Player Stats" if is_players else base
-        base = f"{label} " + " ".join([s.capitalize() for s in rest])
-        return f"{base} Player Stats" if is_players else base
-    if slug[0] in {'lv', 'latvia'}:
-        label = 'Latvia'
-        rest = slug[1:]
-        if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
-            base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
-            return f"{base} Player Stats" if is_players else base
-        base = f"{label} " + " ".join([s.capitalize() for s in rest])
-        return f"{base} Player Stats" if is_players else base
-    if slug[0] in {'sk', 'slovakia'}:
-        label = 'Slovakia'
+    label = COUNTRY_LABELS.get(slug[0])
+    if label:
         rest = slug[1:]
         if len(rest) >= 2 and rest[0].isdigit() and rest[1].isdigit():
             base = f"{label} {rest[0]}/{rest[1]} " + " ".join([s.capitalize() for s in rest[2:]])
@@ -220,22 +216,7 @@ def category2breadcrumb(slug):
         parts = parts[:-1]
     if not parts:
         return 'Players'
-    country_map = {
-        'se': 'Sweden',
-        'sweden': 'Sweden',
-        'ch': 'Switzerland',
-        'switzerland': 'Switzerland',
-        'cz': 'Czech Republic',
-        'czech': 'Czech Republic',
-        'fi': 'Finland',
-        'finland': 'Finland',
-        'lv': 'Latvia',
-        'latvia': 'Latvia',
-        'sk': 'Slovakia',
-        'slovakia': 'Slovakia',
-        'wfc': 'IFF WFC',
-        'iff': 'IFF WFC',
-    }
+    country_map = {**COUNTRY_LABELS, 'wfc': 'IFF WFC', 'iff': 'IFF WFC'}
 
     country = country_map.get(parts[0], 'Germany')
     is_prefixed_country = parts[0] in country_map

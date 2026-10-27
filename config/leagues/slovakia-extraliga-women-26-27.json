@@ -1,0 +1,11 @@
+{
+  "backend": "slovakia",
+  "season": "skw-26-27",
+  "phase": "regular-season",
+  "slovakia": {
+    "regular_season_end_date": "2027-03-06",
+    "schedule_urls": [
+      "https://www.szfb.sk/sk/stats/results-date/1242/hyundai-extraliga-zien"
+    ]
+  }
+}

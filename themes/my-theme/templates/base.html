@@ -25,6 +25,28 @@
         } catch (error) {}
     })();
     </script>
+    <script>
+    (function () {
+        // Men/women navigation: league pages pick their own division, other pages keep the last choice.
+        var womenPrefixes = {{ WOMEN_LEAGUE_PREFIXES|tojson }};
+        var path = window.location.pathname;
+        var phasePattern = '\\d{2}-\\d{2}-(?:regular-season|playoffs)';
+        var division = null;
+        if (womenPrefixes.some(function (prefix) { return new RegExp('[/-]' + prefix + phasePattern).test(path); })) {
+            division = 'women';
+        } else if (new RegExp(phasePattern).test(path)) {
+            division = 'men';
+        }
+        try {
+            if (division) {
+                localStorage.setItem('fs_division', division);
+            } else {
+                division = localStorage.getItem('fs_division');
+            }
+        } catch (error) {}
+        document.documentElement.setAttribute('data-division', division === 'women' ? 'women' : 'men');
+    })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -38,66 +60,78 @@
         <a class="brand" href="{{ SITEURL }}/">
             <span class="brand-title">{{ SITENAME }}</span>
         </a>
-        <nav class="main-nav" id="mainNav">
-            {% set available_categories = categories|default([])|category_slugs %}
-            {% macro nav_phase_link(slug, label, link_class, disabled_class, available) -%}
-                {% if slug in available %}<a class="{{ link_class }}" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="{{ disabled_class }}">{{ label }}</span>{% endif %}
-            {%- endmacro %}
-            {% for league in LEAGUES %}
-            {# Newest season that already has data; falls back to CURRENT_SEASON. #}
-            {% set nav_ns = namespace(season=None) %}
-            {% for season in SEASONS %}
-                {% if nav_ns.season is none and (league.prefix ~ season ~ '-regular-season') in available_categories %}{% set nav_ns.season = season %}{% endif %}
-            {% endfor %}
-            {% set nav_season = nav_ns.season or CURRENT_SEASON %}
-            {% set regular_slug = league.prefix ~ nav_season ~ '-regular-season' %}
-            {% set playoffs_slug = league.prefix ~ nav_season ~ '-playoffs' %}
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/category/{{ regular_slug }}.html">{{ league.name }}</a>
-                <div class="nav-mobile-phase-links">
-                    {{ nav_phase_link(regular_slug, 'Regular', 'nav-mobile-phase-link', 'nav-mobile-phase-link is-disabled', available_categories) }}
-                    {{ nav_phase_link(playoffs_slug, 'Playoffs', 'nav-mobile-phase-link', 'nav-mobile-phase-link is-disabled', available_categories) }}
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">{{ nav_season }}</span>
-                        <div class="nav-group-links">
-                            {{ nav_phase_link(regular_slug, 'Regular', 'nav-group-link', 'nav-link-disabled', available_categories) }}
-                            {{ nav_phase_link(playoffs_slug, 'Playoffs', 'nav-group-link', 'nav-link-disabled', available_categories) }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {% endfor %}
-            <div class="nav-section">
-                <a class="nav-section-title nav-section-title-link" href="{{ SITEURL }}/wfc-2024.html">WFC</a>
-                <div class="nav-mobile-phase-links">
-                    <a class="nav-mobile-phase-link" href="{{ SITEURL }}/wfc-2024.html">Tournament</a>
-                </div>
-                <div class="nav-section-groups">
-                    <div class="nav-group">
-                        <span class="nav-group-title">2024</span>
-                        <div class="nav-group-links">
-                            <a class="nav-group-link" href="{{ SITEURL }}/wfc-2024.html">Tournament</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
         <div class="header-actions">
             <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
             <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
             <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation">Menu</button>
         </div>
     </div>
+    <nav class="main-nav" id="mainNav" aria-label="Leagues">
+        {% set available_categories = categories|default([])|category_slugs %}
+        {% macro nav_phase_link(slug, label, available) -%}
+            {% if slug in available %}<a class="nav-league__link" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="nav-league__link is-disabled">{{ label }}</span>{% endif %}
+        {%- endmacro %}
+        <div class="main-nav__inner">
+            <div class="nav-division-switch" role="group" aria-label="Show men's or women's leagues">
+                {% for division, division_label in DIVISIONS %}
+                <button class="nav-division-option" type="button" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
+                {% endfor %}
+            </div>
+            <div class="nav-league-grid">
+                {% for league in LEAGUES %}
+                {# Newest season that already has data; falls back to CURRENT_SEASON. #}
+                {% set nav_ns = namespace(season=None) %}
+                {% for season in SEASONS %}
+                    {% if nav_ns.season is none and (league.prefix ~ season ~ '-regular-season') in available_categories %}{% set nav_ns.season = season %}{% endif %}
+                {% endfor %}
+                {% set nav_season = nav_ns.season or CURRENT_SEASON %}
+                {% set regular_slug = league.prefix ~ nav_season ~ '-regular-season' %}
+                {% set playoffs_slug = league.prefix ~ nav_season ~ '-playoffs' %}
+                <div class="nav-league" data-division="{{ league.division }}">
+                    <div class="nav-league__label">
+                        <div class="nav-league__head">
+                            <a class="nav-league__name" href="{{ SITEURL }}/category/{{ regular_slug }}.html">{{ league.name }}</a>
+                            <span class="nav-league__season">{{ nav_season }}</span>
+                        </div>
+                        <span class="nav-league__title">{{ league.title.split(' · ')[-1] }}</span>
+                    </div>
+                    <div class="nav-league__links">
+                        {{ nav_phase_link(regular_slug, 'Regular Season', available_categories) }}
+                        {{ nav_phase_link(playoffs_slug, 'Playoffs', available_categories) }}
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="nav-league" data-division="men">
+                    <div class="nav-league__label">
+                        <div class="nav-league__head">
+                            <a class="nav-league__name" href="{{ SITEURL }}/wfc-2024.html">World Championship</a>
+                            <span class="nav-league__season">2024</span>
+                        </div>
+                        <span class="nav-league__title">IFF WFC</span>
+                    </div>
+                    <div class="nav-league__links">
+                        <a class="nav-league__link" href="{{ SITEURL }}/wfc-2024.html">Tournament</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>
 
 <main class="main-content">
     <div class="app-container">
         {% block breadcrumbs %}{% endblock %}
         {% block content %}{% endblock %}
+        {% if SUPPORT_URL %}
+        <aside class="support-card" data-support-card>
+            <div class="support-card__text">
+                <strong class="support-card__title">Floorball Stats is free and built by one fan.</strong>
+                <span class="support-card__copy">If it helps you follow the season, chip in to keep it free and growing.</span>
+            </div>
+            <a class="support-card__button" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="card">Support Floorball Stats</a>
+        </aside>
+        {% endif %}
     </div>
 </main>
 
@@ -107,6 +141,10 @@
         <span class="footer-divider">·</span>
         <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
         <span class="footer-divider">·</span>
+        {% if SUPPORT_URL %}
+        <a class="footer-link" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="footer">Support</a>
+        <span class="footer-divider">·</span>
+        {% endif %}
         <span>© 2026 Floorball Stats</span>
     </div>
 </footer>
@@ -261,6 +299,26 @@ if (menuToggle && mainNav) {
   });
 }
 
+function closeMainNav() {
+  if (!menuToggle || !mainNav || !mainNav.classList.contains('is-open')) {
+    return;
+  }
+  mainNav.classList.remove('is-open');
+  menuToggle.setAttribute('aria-expanded', 'false');
+}
+
+document.addEventListener('click', (event) => {
+  if (mainNav && menuToggle && !mainNav.contains(event.target) && !menuToggle.contains(event.target)) {
+    closeMainNav();
+  }
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    closeMainNav();
+  }
+});
+
 const feedbackEmail = "{{ FEEDBACK_EMAIL|default('hello@floorballconnect.com') }}";
 const feedbackModal = document.querySelector('#feedbackModal');
 const feedbackForm = document.querySelector('#feedbackForm');
@@ -322,6 +380,46 @@ function trackGlobalSearchEvent(eventName, payload) {
     return;
   }
   window.posthog.capture(eventName, payload);
+}
+
+function syncDivisionSwitch() {
+  const activeDivision = document.documentElement.getAttribute('data-division');
+  document.querySelectorAll('[data-division-option]').forEach((option) => {
+    option.setAttribute('aria-pressed', option.getAttribute('data-division-option') === activeDivision ? 'true' : 'false');
+  });
+}
+
+document.querySelectorAll('[data-division-option]').forEach((option) => {
+  option.addEventListener('click', () => {
+    const division = option.getAttribute('data-division-option');
+    document.documentElement.setAttribute('data-division', division);
+    try {
+      localStorage.setItem('fs_division', division);
+    } catch (error) {}
+    syncDivisionSwitch();
+    trackGlobalSearchEvent('nav_division_switched', { division, path: window.location.pathname });
+  });
+});
+syncDivisionSwitch();
+
+document.querySelectorAll('[data-support-cta]').forEach((link) => {
+  link.addEventListener('click', () => {
+    trackGlobalSearchEvent('support_cta_clicked', {
+      placement: link.getAttribute('data-support-cta'),
+      path: window.location.pathname
+    });
+  });
+});
+
+const supportCard = document.querySelector('[data-support-card]');
+if (supportCard && 'IntersectionObserver' in window) {
+  const supportObserver = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      trackGlobalSearchEvent('support_cta_viewed', { path: window.location.pathname });
+      supportObserver.disconnect();
+    }
+  }, { threshold: 0.5 });
+  supportObserver.observe(supportCard);
 }
 
 async function loadSearchIndex() {

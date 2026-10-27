@@ -147,6 +147,7 @@ home page and article paths. A season rollover touches only those three places (
 
 Integration invariants for new backends:
 - Every backend must emit a stable season prefix (`de`, `se`, `ch`, `fi`, `cz`, `sk`, `lv`, `wfc`, etc.) because downstream player-stat exports, markdown generation, and cleanup logic key off that prefix.
+- Women's leagues reuse their country's backend with the country prefix plus `w` (`sew` = SSL Damer). Add the prefix to `LEAGUES` (with `'division': 'women'`, which drives the men/women navigation switch and home page groups) and `COUNTRY_LABELS` in `pelicanconf.py` and to `LEAGUE_INFO`; prefixes may be at most 3 letters (`FILE_PATTERN`, `_season_prefix`).
 - Every backend must register a `source_system` and league label in `src/build_player_stats.py::LEAGUE_INFO`; otherwise player stat export and player page generation will silently ignore the new backend.
 - Event-only feeds are not enough for canonical player `games` counts. If the source exposes rosters or lineups, the backend must provide a second participation source and merge it with event rows.
 - Participation rows must dedupe per match appearance, not just per player. For tournament/roster imports this means keeping `game_id` in the intermediate identity so multi-game appearances do not collapse into one phase row.

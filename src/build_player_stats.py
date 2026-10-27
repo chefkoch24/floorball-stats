@@ -30,11 +30,18 @@ SWISS_RENDER_URL = "https://www.swissunihockey.ch/renderengine/load_view.php"
 WFC_GAME_LINEUPS_URL = f"{WFC_AUTH_API_ROOT}/magazinegameviewapi/initgamelineups"
 LEAGUE_INFO = {
     "": {"source_system": "germany", "league": "Germany"},
+    "dew": {"source_system": "germany", "league": "Germany Women"},
     "ch": {"source_system": "switzerland", "league": "Switzerland"},
     "cz": {"source_system": "czech-republic", "league": "Czech Republic"},
     "fi": {"source_system": "finland", "league": "Finland"},
     "lv": {"source_system": "latvia", "league": "Latvia"},
     "se": {"source_system": "sweden", "league": "Sweden"},
+    "sew": {"source_system": "sweden", "league": "Sweden Women"},
+    "chw": {"source_system": "switzerland", "league": "Switzerland Women"},
+    "czw": {"source_system": "czech-republic", "league": "Czech Republic Women"},
+    "fiw": {"source_system": "finland", "league": "Finland Women"},
+    "lvw": {"source_system": "latvia", "league": "Latvia Women"},
+    "skw": {"source_system": "slovakia", "league": "Slovakia Women"},
     "sk": {"source_system": "slovakia", "league": "Slovakia"},
     "wfc": {"source_system": "wfc", "league": "IFF WFC"},
 }
@@ -415,7 +422,7 @@ def _load_league_configs_for(backend: str, season: str, phase: str) -> list[dict
     return configs
 
 
-def _rows_from_germany_lineups(match_ids: list[int], season: str, phase: str) -> pd.DataFrame:
+def _rows_from_germany_lineups(match_ids: list[int], season: str, phase: str, league: str = "Germany") -> pd.DataFrame:
     records: list[dict] = []
     session = requests.Session()
     web = None
@@ -456,7 +463,7 @@ def _rows_from_germany_lineups(match_ids: list[int], season: str, phase: str) ->
                     }
                 )
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Germany", source_system="germany")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="germany")
 
 
 def _normalize_finland_player_name(text: str) -> str:
@@ -499,7 +506,7 @@ def _extract_finland_match_players_data(html: str) -> list[str]:
     return names
 
 
-def _rows_from_finland_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+def _rows_from_finland_rosters(matches: pd.DataFrame, season: str, phase: str, league: str = "Finland") -> pd.DataFrame:
     from src.scrape_finland import _get as _fin_get, _parse_match_cards
 
     configs = _load_league_configs_for("finland", season, phase)
@@ -508,7 +515,7 @@ def _rows_from_finland_rosters(matches: pd.DataFrame, season: str, phase: str) -
         schedule_urls.extend((cfg.get("finland") or {}).get("schedule_urls") or [])
     schedule_urls = list(dict.fromkeys(schedule_urls))
     if not schedule_urls:
-        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Finland", source_system="finland")
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system="finland")
 
     match_url_by_id: dict[str, str] = {}
     for url in schedule_urls:
@@ -602,7 +609,7 @@ def _rows_from_finland_rosters(matches: pd.DataFrame, season: str, phase: str) -
                 )
 
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Finland", source_system="finland")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="finland")
 
 
 def _fetch_czech_roster_html(match_id: int, session: requests.Session) -> str:
@@ -688,7 +695,7 @@ def _rows_from_czech_rosters(matches: pd.DataFrame, season: str, phase: str, lea
     return _finalize_rows(stats, season=season, phase=phase, league=league, source_system=source_system)
 
 
-def _rows_from_slovakia_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+def _rows_from_slovakia_rosters(matches: pd.DataFrame, season: str, phase: str, league: str = "Slovakia") -> pd.DataFrame:
     from src.scrape_slovakia import _new_session, _parse_schedule_matches, _results_url_from_date_url
 
     configs = _load_league_configs_for("slovakia", season, phase)
@@ -697,7 +704,7 @@ def _rows_from_slovakia_rosters(matches: pd.DataFrame, season: str, phase: str) 
         schedule_urls.extend((cfg.get("slovakia") or {}).get("schedule_urls") or [])
     schedule_urls = list(dict.fromkeys(schedule_urls))
     if not schedule_urls:
-        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Slovakia", source_system="slovakia")
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system="slovakia")
 
     session = _new_session()
     lineup_url_by_id: dict[int, str] = {}
@@ -752,10 +759,10 @@ def _rows_from_slovakia_rosters(matches: pd.DataFrame, season: str, phase: str) 
                     }
                 )
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Slovakia", source_system="slovakia")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="slovakia")
 
 
-def _rows_from_latvia_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+def _rows_from_latvia_rosters(matches: pd.DataFrame, season: str, phase: str, league: str = "Latvia") -> pd.DataFrame:
     from src.scrape_latvia import _fetch_calendar_matches, _new_session
 
     configs = _load_league_configs_for("latvia", season, phase)
@@ -767,7 +774,7 @@ def _rows_from_latvia_rosters(matches: pd.DataFrame, season: str, phase: str) ->
         calendar_url = calendar_url or lat.get("calendar_url")
         season_start_year = season_start_year or lat.get("season_start_year")
     if not calendar_url or not season_start_year:
-        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="Latvia", source_system="latvia")
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system="latvia")
 
     session = _new_session()
     calendar_matches = _fetch_calendar_matches(
@@ -826,7 +833,7 @@ def _rows_from_latvia_rosters(matches: pd.DataFrame, season: str, phase: str) ->
                     }
                 )
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Latvia", source_system="latvia")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="latvia")
 
 
 def _fetch_swiss_players_block(game_id: int, is_home: bool, session: requests.Session) -> str:
@@ -867,7 +874,7 @@ def _extract_swiss_players(html: str) -> list[tuple[str, str]]:
     return players
 
 
-def _rows_from_swiss_rosters(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+def _rows_from_swiss_rosters(matches: pd.DataFrame, season: str, phase: str, league: str = "Switzerland") -> pd.DataFrame:
     records: list[dict] = []
     session = requests.Session()
     for row in matches.itertuples(index=False):
@@ -912,7 +919,7 @@ def _rows_from_swiss_rosters(matches: pd.DataFrame, season: str, phase: str) -> 
                 }
             )
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Switzerland", source_system="switzerland")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="switzerland")
 
 
 def _merge_finalized_rows(
@@ -1154,7 +1161,7 @@ def _rows_from_wfc_lineups(matches: pd.DataFrame, season: str, phase: str) -> pd
     return _finalize_rows(stats, season=season, phase=phase, league="IFF WFC", source_system="wfc")
 
 
-def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str) -> pd.DataFrame:
+def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str, league: str = "Sweden") -> pd.DataFrame:
     api_root, headers = _get_api_root_and_headers()
     records: list[dict] = []
     for match_id in sorted(set(match_ids)):
@@ -1198,7 +1205,7 @@ def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str) -> 
                 )
 
     stats = pd.DataFrame.from_records(records)
-    return _finalize_rows(stats, season=season, phase=phase, league="Sweden", source_system="sweden")
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="sweden")
 
 
 def _load_played_matches(path: Path, required_columns: list[str]) -> pd.DataFrame:
@@ -1279,25 +1286,9 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
         season = _season_token(prefix, years)
         phase = _phase_from_file_token(phase_token)
 
-        if prefix == "se":
-            try:
-                match_ids = (
-                    pd.read_csv(candidate, usecols=["game_id"])["game_id"]
-                    .dropna()
-                    .astype(int)
-                    .drop_duplicates()
-                    .tolist()
-                )
-                context_rows = _rows_from_sweden_lineups(match_ids, season=season, phase=phase)
-            except Exception:
-                context_rows = _rows_from_event_csv(
-                    candidate,
-                    season=season,
-                    phase=phase,
-                    league=info["league"],
-                    source_system=info["source_system"],
-                )
-        elif prefix == "":
+        if prefix in {"se", "sew"}:
+            # Since 2026 the lineups carry no goals/assists, so merge them with the
+            # event rows (same as the Postgres path) instead of using them alone.
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1313,7 +1304,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                     .drop_duplicates()
                     .tolist()
                 )
-                lineup_rows = _rows_from_germany_lineups(match_ids=match_ids, season=season, phase=phase)
+                lineup_rows = _rows_from_sweden_lineups(match_ids, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, lineup_rows],
                     season=season,
@@ -1323,7 +1314,33 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "cz":
+        elif prefix in {"", "dew"}:
+            event_rows = _rows_from_event_csv(
+                candidate,
+                season=season,
+                phase=phase,
+                league=info["league"],
+                source_system=info["source_system"],
+            )
+            try:
+                match_ids = (
+                    pd.read_csv(candidate, usecols=["game_id"])["game_id"]
+                    .dropna()
+                    .astype(int)
+                    .drop_duplicates()
+                    .tolist()
+                )
+                lineup_rows = _rows_from_germany_lineups(match_ids=match_ids, season=season, phase=phase, league=info["league"])
+                context_rows = _merge_finalized_rows(
+                    [event_rows, lineup_rows],
+                    season=season,
+                    phase=phase,
+                    league=info["league"],
+                    source_system=info["source_system"],
+                )
+            except Exception:
+                context_rows = event_rows
+        elif prefix in {"cz", "czw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1349,7 +1366,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "ch":
+        elif prefix in {"ch", "chw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1359,7 +1376,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
             )
             try:
                 matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
-                roster_rows = _rows_from_swiss_rosters(matches=matches, season=season, phase=phase)
+                roster_rows = _rows_from_swiss_rosters(matches=matches, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
                     season=season,
@@ -1369,7 +1386,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "fi":
+        elif prefix in {"fi", "fiw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1379,7 +1396,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
             )
             try:
                 matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
-                roster_rows = _rows_from_finland_rosters(matches=matches, season=season, phase=phase)
+                roster_rows = _rows_from_finland_rosters(matches=matches, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
                     season=season,
@@ -1389,7 +1406,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "sk":
+        elif prefix in {"sk", "skw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1399,7 +1416,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
             )
             try:
                 matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
-                roster_rows = _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase)
+                roster_rows = _rows_from_slovakia_rosters(matches=matches, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
                     season=season,
@@ -1409,7 +1426,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "lv":
+        elif prefix in {"lv", "lvw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1419,7 +1436,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
             )
             try:
                 matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
-                roster_rows = _rows_from_latvia_rosters(matches=matches, season=season, phase=phase)
+                roster_rows = _rows_from_latvia_rosters(matches=matches, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, roster_rows],
                     season=season,
