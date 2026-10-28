@@ -16,7 +16,10 @@ PLUGINS = [
     'sitemap',
     # og:image share cards and team .ics calendars for the current season
     'share_assets',
+    # cross-league leaderboards for the leaders page
+    'leaders',
 ]
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 
 PATH = 'content'
 PAGE_PATHS = ['pages']
