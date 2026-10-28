@@ -43,10 +43,13 @@
     {% if ot_goals > 0 or ps_goals > 0 %}{% set share_periods = share_periods + ['OT ' ~ article.home_goals_in_overtime|default(0) ~ ':' ~ article.away_goals_in_overtime|default(0)] %}{% endif %}
     {% if ps_goals > 0 %}{% set share_periods = share_periods + ['PS ' ~ article.home_goals_in_penalty_shootout|default(0) ~ ':' ~ article.away_goals_in_penalty_shootout|default(0)] %}{% endif %}
     <script type="application/json" id="share-card-data">{{ {
+        'kind': 'game',
         'slug': article.slug,
         'league': share_league.title.split(' · ')[-1] if share_league else category_label,
         'status': 'Final' ~ (' · ' ~ decision if decision else ''),
         'date': article.date.strftime('%A %d %B %Y') if article.date else '',
+        'dateShort': article.date.strftime('%a %-d %b') if article.date else '',
+        'attendance': attendance_text if attendance_text and attendance_text != 'n.a.' else '',
         'home': article.home_team, 'away': article.away_team,
         'homeGoals': hg, 'awayGoals': ag,
         'homeCrest': article.home_team|crest_index, 'awayCrest': article.away_team|crest_index,
@@ -56,7 +59,7 @@
         'awayMinutes': (article.away_goal_minutes_csv|default('')|string).split(',')|reject('equalto', '')|map('float')|list
     }|tojson }}</script>
     <div class="flex justify-center">
-        <button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share as story</button>
+        <button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button>
     </div>
     {% endif %}
     {% endif %}

@@ -53,6 +53,7 @@ class _Game:
     state: str
     result: str
     url: str
+    decision: str = ""
 
 
 @dataclass
@@ -109,12 +110,62 @@ def _decision_label(article) -> str:
     return "Final"
 
 
+def _decision_short(article) -> str:
+    label = _decision_label(article)
+    return {"After penalty shots": "PS", "After overtime": "OT"}.get(label, "")
+
+
+def _form_letter(game: _Game, team: str) -> str:
+    home_goals, away_goals = (int(part) for part in game.result.split(":"))
+    own, other = (home_goals, away_goals) if game.home == team else (away_goals, home_goals)
+    if own == other:
+        return "D"
+    return ("OTW" if game.decision else "W") if own > other else ("OTL" if game.decision else "L")
+
+
+def _share_team_data(team_entries: list, settings: dict) -> None:
+    """Form, next game and table size for the team share card (share-card.js)."""
+    crest_index = settings["JINJA_FILTERS"]["crest_index"]
+    initials = settings["JINJA_FILTERS"]["team_initials"]
+    team_counts: dict[str, int] = {}
+    rounds: dict[str, int] = {}
+    for article, _team, category in team_entries:
+        team_counts[category] = team_counts.get(category, 0) + 1
+        try:
+            rounds[category] = max(rounds.get(category, 0), int(float(_meta(article, "games", "0") or 0)))
+        except ValueError:
+            pass
+    for article, team, category in team_entries:
+        games = list(_state.calendars.get(article.calendar_path, {}).get("games", {}).values())
+        played = sorted((g for g in games if g.result), key=lambda g: (g.date, g.game_id))
+        upcoming = sorted((g for g in games if not g.result and g.state == "scheduled"), key=lambda g: (g.date, g.start_time))
+        next_game = None
+        if upcoming:
+            game = upcoming[0]
+            opponent = game.away if game.home == team else game.home
+            next_game = {
+                "date": game.date.strftime("%a %-d %b"),
+                "time": game.start_time[:5] if ":" in game.start_time else "",
+                "home": game.home == team,
+                "opponent": opponent,
+                "crest": crest_index(opponent),
+                "initials": initials(opponent),
+            }
+        article.share_team = {
+            "teams": team_counts.get(category, 0),
+            "round": rounds.get(category, 0),
+            "form": [_form_letter(game, team) for game in played[-5:]],
+            "next": next_game,
+        }
+
+
 def collect(generator) -> None:
     # Autoreload runs several builds in one process.
     _state.images.clear()
     _state.calendars.clear()
     settings = generator.settings
     label_for = settings["JINJA_FILTERS"]["category2string"]
+    team_entries = []
     for article in generator.articles:
         category = article.category.shortname if article.category else ""
         league = _league_for(category, settings)
@@ -145,6 +196,8 @@ def collect(generator) -> None:
             team = _meta(article, "team") or _meta(article, "title")
             _register_image(article, ("team", league_label, team, facts))
             article.calendar_path = _calendar_path(league, settings, team)
+            team_entries.append((article, team, category))
+    _share_team_data(team_entries, settings)
 
 
 def _register_image(article, spec: tuple) -> None:
@@ -168,6 +221,7 @@ def _register_game(article, league: dict, settings: dict) -> None:
         state=_meta(article, "game_state"),
         result=_score_label(article),
         url=f"{settings.get('SITEURL', '')}/{article.url}",
+        decision=_decision_short(article),
     )
     for team in (game.home, game.away):
         if not team:

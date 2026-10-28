@@ -32,6 +32,28 @@
         League season: <a href="{{ SITEURL }}/{{ national_page.url }}">{{ national_page.title }} {{ national_page.season }}</a>
     </p>
     {% endif %}
+    {% if article.share_team %}
+    {% set share_league = article.category.slug|league_context %}
+    <script type="application/json" id="share-card-data">{{ {
+        'kind': 'team',
+        'slug': article.slug,
+        'name': team_name,
+        'crest': team_name|crest_index,
+        'initials': team_name|team_initials,
+        'league': share_league.title.split(' · ')[-1] if share_league else category_label,
+        'season': share_league.season_label if share_league else '',
+        'rank': article.rank|default('')|string,
+        'points': article.points|default(0)|int,
+        'games': article.games|default(0)|int,
+        'goals': article.goals|default(0)|int,
+        'goalsAgainst': article.goals_against|default(0)|int,
+        'teams': article.share_team.teams,
+        'round': article.share_team.round,
+        'form': article.share_team.form,
+        'next': article.share_team.next
+    }|tojson }}</script>
+    <div><button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button></div>
+    {% endif %}
 </header>
 
 <details class="stat-guide">

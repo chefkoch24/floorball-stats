@@ -108,7 +108,19 @@
 <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
     <section class="grid min-w-0 gap-3" aria-labelledby="standings-title">
         <div class="flex flex-wrap items-center justify-between gap-3">
-            <h2 id="standings-title" class="fs-section-title">Standings</h2>
+            <div class="flex flex-wrap items-center gap-3">
+                <h2 id="standings-title" class="fs-section-title">Standings</h2>
+                <script type="application/json" id="share-table-data">{{ {
+                    'kind': 'table',
+                    'slug': category.slug,
+                    'league': competition,
+                    'country': league.name,
+                    'season': league.season_label,
+                    'round': teams|map(attribute='games')|map('int')|max if teams else 0
+                }|tojson }}</script>
+                <script type="application/json" id="share-table-rows">[{% for team in teams %}{{ {'rank': team.rank|default('')|string, 'team': team.team, 'crest': team.team|crest_index, 'initials': team.team|team_initials, 'games': team.games|default(0)|int, 'gd': team.goal_difference|default(0)|int, 'points': team.points|default(0)|int}|tojson }}{% if not loop.last %},{% endif %}{% endfor %}]</script>
+                <button type="button" class="fs-btn" data-share-card data-share-source="share-table-data" data-share-rows="share-table-rows">Share table</button>
+            </div>
             <div class="fs-segmented" role="group" aria-label="Table columns" data-table-views>
                 <button type="button" class="fs-segment" aria-pressed="true" data-view="table">Table</button>
                 <button type="button" class="fs-segment" aria-pressed="false" data-view="rates">Per game</button>

@@ -13,6 +13,27 @@
         {% if article.position %}<span class="chip">Position: {{ article.position }}</span>{% endif %}
         {% if article.jersey_number %}<span class="chip">#{{ article.jersey_number }}</span>{% endif %}
     </div>
+    {% if article.current_season and article.current_games|default(0)|int > 0 %}
+    {% set share_league = (article.current_season ~ '-regular-season')|league_context %}
+    {% set share_team = article.team|default('') %}
+    <script type="application/json" id="share-card-data">{{ {
+        'kind': 'player',
+        'slug': article.slug,
+        'name': article.player|default(article.title),
+        'team': share_team,
+        'crest': share_team|crest_index,
+        'initials': share_team|team_initials,
+        'league': share_league.title.split(' · ')[-1] if share_league else article.league|default(''),
+        'season': share_league.season_label if share_league else '',
+        'games': article.current_games|default(0)|int,
+        'goals': article.current_goals|default(0)|int,
+        'assists': article.current_assists|default(0)|int,
+        'points': article.current_points|default(0)|int,
+        'previousPoints': article.previous_points|default(0)|int,
+        'previousGames': article.previous_games|default(0)|int
+    }|tojson }}</script>
+    <div><button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button></div>
+    {% endif %}
 </section>
 
 <details class="stat-guide">
