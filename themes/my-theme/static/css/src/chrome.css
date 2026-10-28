@@ -253,3 +253,24 @@
   }
   .feedback-form__submit { border-color: var(--rink); background: var(--rink); color: var(--on-rink); }
 }
+
+/* Share card preview (themes/my-theme/static/js/share-card.js) */
+@layer components {
+  .share-dialog { position: fixed; inset: 0; z-index: 130; display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) 16px; }
+  .share-dialog__backdrop { position: absolute; inset: 0; background: rgb(8 12 20 / 0.72); }
+  .share-dialog__panel {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    gap: var(--space-4);
+    max-height: 100%;
+    padding: var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--surface-raised);
+    box-shadow: var(--shadow-menu);
+  }
+  .share-dialog__image { display: block; width: auto; height: min(66vh, 640px); max-width: 100%; border-radius: var(--radius-md); }
+  .share-dialog__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
+  .share-dialog__hint { max-width: 32ch; margin: 0; color: var(--ink-muted); font-size: 13px; text-align: center; }
+}
