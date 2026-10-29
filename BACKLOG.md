@@ -14,6 +14,7 @@
 - [x] Search for Players in the player list
 - [x] Clutch stats (game winners, go-ahead goals, equalizers, clutch points) and scoring duos on player, team and league pages
 - [x] Power ranking: Elo ratings, win probabilities on game pages, biggest upsets, season and playoff projections per league
+- [x] Table history: every team's place after each round, as a chart on league and team pages
 - [ ] Scalable process across leagues
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))

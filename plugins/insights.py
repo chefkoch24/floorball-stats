@@ -9,11 +9,12 @@ and ``src/power_rankings.py`` so a pipeline step can reuse them later.
 Attaches to articles:
 - player: ``clutch`` (this season and all tracked games) and ``partners``
 - team (current season): ``power`` (rating, rank, trend, projection, sparkline),
-  ``duos`` and ``clutch_players``
+  ``duos`` and ``clutch_players``; every regular-season team: ``table_history``
 - game: ``win_probability`` (pre-game, from the ratings before that game) and
   moment labels (game winner, clutch, overtime) inside ``game_events_b64``
 
-and ``LEAGUE_INSIGHTS[category slug]`` to the template context for league pages.
+and ``LEAGUE_INSIGHTS[category slug]`` (with ``table_history`` for every regular
+season) to the template context for league pages.
 """
 
 from __future__ import annotations
@@ -33,6 +34,7 @@ if str(ROOT) not in sys.path:
 
 from src import player_insights as pi  # noqa: E402
 from src import power_rankings as pr  # noqa: E402
+from src import standings_history as sh  # noqa: E402
 
 CONFIG_DIR = ROOT / "config" / "leagues"
 CATEGORY_PATTERN = re.compile(r"^(?P<prefix>[a-z]*-?)(?P<season>\d{2}-\d{2})-(?P<phase>regular-season|playoffs)$")
@@ -42,6 +44,9 @@ UPSET_THRESHOLD = 0.35
 TREND_DAYS = 7
 SIMULATIONS = 4000
 SPARK_WIDTH, SPARK_HEIGHT = 240, 48
+# Table history chart: rows in CSS pixels (one per table place), rounds spread over a
+# 0..BUMP_WIDTH viewBox that the page stretches to the column width.
+BUMP_ROW, BUMP_PAD, BUMP_WIDTH = 24, 10, 1000
 
 
 def _meta(article, key: str, default: str = "") -> str:
@@ -152,6 +157,7 @@ def collect(generator) -> None:
     league_context: dict[str, dict] = defaultdict(dict)
     _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context)
     _attach_power(games_by_category, teams_by_category, current_season, league_context)
+    _attach_table_history(games_by_category, teams_by_category, settings["JINJA_FILTERS"]["crest_index"], league_context)
     generator.context["LEAGUE_INSIGHTS"] = dict(league_context)
 
 
@@ -270,6 +276,97 @@ def _attach_power(games_by_category, teams_by_category, current_season, league_c
         if not team_articles or not any(result.played for result in season_results):
             continue
         _league_power(prefix, category, current_season, run, results, season_results, team_articles, entries, league_context)
+
+
+def _attach_table_history(games_by_category, teams_by_category, crest_index, league_context) -> None:
+    for category, team_articles in teams_by_category.items():
+        match = CATEGORY_PATTERN.match(category)
+        if not match or match["phase"] != "regular-season":
+            continue
+        teams = {(_meta(article, "team") or _meta(article, "title")): article for article in team_articles}
+        played = []
+        for article in games_by_category.get(category, []):
+            result = _game_result(article, match["season"], match["phase"])
+            if not result.played or result.home not in teams or result.away not in teams:
+                continue
+            home_points, away_points = result.home_points, result.away_points
+            if home_points is None or away_points is None:
+                home_points, away_points = _default_points(result)
+            played.append(
+                sh.PlayedGame(result.day, result.home, result.away, result.home_goals, result.away_goals, home_points, away_points)
+            )
+        official = {team: _int(article, "rank") for team, article in teams.items()}
+        history = sh.standings_history(played, teams, {team: rank for team, rank in official.items() if rank is not None})
+        if len(history.rounds) < 2:
+            continue
+        league_context[category]["table_history"] = _bump_chart(history, teams, crest_index)
+        for team, article in teams.items():
+            positions = history.positions.get(team, [])
+            article.table_history = {
+                "chart": _bump_chart(history, teams, crest_index, highlight=team),
+                "best": history.best(team),
+                "worst": history.worst(team),
+                "now": positions[-1] if positions else None,
+                "rounds": len(history.rounds),
+            }
+
+
+def _default_points(result: pr.GameResult) -> tuple[int, int]:
+    points = pr.DEFAULT_POINTS
+    if result.home_goals == result.away_goals:
+        return points["draw"], points["draw"]
+    win, loss = ("win", "loss") if result.decision == pr.REGULATION else ("extra_win", "extra_loss")
+    return (points[win], points[loss]) if result.home_goals > result.away_goals else (points[loss], points[win])
+
+
+def _bump_chart(history: sh.StandingsHistory, teams: dict, crest_index, highlight: str | None = None) -> dict:
+    """Geometry for the table history: one polyline per team, place 1 at the top."""
+    count = len(history.positions)
+    rounds = len(history.rounds)
+    height = BUMP_PAD * 2 + BUMP_ROW * (count - 1)
+
+    def x(index: int) -> float:
+        return round(index * BUMP_WIDTH / (rounds - 1), 1)
+
+    def y(position: int) -> int:
+        return BUMP_PAD + (position - 1) * BUMP_ROW
+
+    tick_every = 1 if rounds <= 12 else (2 if rounds <= 24 else 5)
+    ticks = [
+        {"label": round_.number, "left": round(index * 100 / (rounds - 1), 2)}
+        for index, round_ in enumerate(history.rounds)
+        if round_.number == 1 or round_.number % tick_every == 0 or index == rounds - 1
+    ]
+    lines = []
+    # The followed team is drawn last, so it lies on top.
+    ordered = sorted(history.positions.items(), key=lambda item: (item[0] == highlight, -(item[1][-1] if item[1] else 0)))
+    for team, positions in ordered:
+        if not positions:
+            continue
+        article = teams.get(team)
+        lines.append(
+            {
+                "team": team,
+                "url": article.url if article is not None else "",
+                "crest": crest_index(team),
+                "active": team == highlight,
+                "points": " ".join(f"{x(index)},{y(position)}" for index, position in enumerate(positions)),
+                "dots": [{"x": x(index), "y": y(position)} for index, position in enumerate(positions)],
+                "end_y": y(positions[-1]),
+                "now": positions[-1],
+                "summary": f"{team}: " + ", ".join(str(position) for position in positions),
+            }
+        )
+    return {
+        "width": BUMP_WIDTH,
+        "height": height,
+        "rows": [{"position": position, "y": y(position)} for position in range(1, count + 1)],
+        "ticks": ticks,
+        "lines": lines,
+        "labels": sorted(lines, key=lambda line: line["now"]),
+        "rounds": rounds,
+        "last_day": history.rounds[-1].last_day,
+    }
 
 
 def _league_power(prefix, category, current_season, run, results, season_results, team_articles, entries, league_context):

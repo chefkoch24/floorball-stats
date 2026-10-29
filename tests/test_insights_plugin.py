@@ -1,4 +1,5 @@
 import sys
+from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "plugins"))
@@ -34,3 +35,20 @@ def test_sparkline_scales_points_into_the_box():
     points = insights._sparkline([1500, 1550, 1450]).split()
     assert points[0].startswith("0.0,") and points[-1].startswith("240.0,")
     assert insights._sparkline([1500]) == ""
+
+
+def test_bump_chart_puts_first_place_on_top_and_draws_each_team():
+    history = insights.sh.StandingsHistory(
+        rounds=[insights.sh.Round(1, date(2026, 9, 5), date(2026, 9, 6)), insights.sh.Round(2, date(2026, 9, 12), date(2026, 9, 12))],
+        positions={"A": [2, 1], "B": [1, 2]},
+    )
+    chart = insights._bump_chart(history, {}, lambda team: 1)
+    assert [row["position"] for row in chart["rows"]] == [1, 2]
+    assert chart["rows"][0]["y"] < chart["rows"][1]["y"]
+    lines = {line["team"]: line for line in chart["lines"]}
+    assert lines["A"]["now"] == 1 and lines["A"]["end_y"] == chart["rows"][0]["y"]
+    assert [line["team"] for line in chart["labels"]] == ["A", "B"]
+    assert [tick["left"] for tick in chart["ticks"]] == [0, 100]
+    focused = insights._bump_chart(history, {}, lambda team: 1, highlight="B")
+    # The followed team is drawn last, on top of the others.
+    assert focused["lines"][-1]["team"] == "B" and focused["lines"][-1]["active"]

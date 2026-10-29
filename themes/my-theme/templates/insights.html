@@ -224,3 +224,90 @@
 </section>
 {% endif %}
 {% endmacro %}
+
+{% macro bump_chart(chart, focus=false) %}
+{% if chart %}
+<div class="fs-bump{% if focus %} fs-bump--focus{% endif %}" data-bump>
+    <div class="fs-bump__yaxis" style="height: {{ chart.height }}px" aria-hidden="true">
+        {% for row in chart.rows %}<span style="top: {{ row.y }}px">{{ row.position }}</span>{% endfor %}
+    </div>
+    <svg class="fs-bump__plot" viewBox="0 0 {{ chart.width }} {{ chart.height }}" preserveAspectRatio="none" height="{{ chart.height }}" role="img" aria-label="Table place after each of {{ chart.rounds }} rounds">
+        {% for row in chart.rows %}<line class="fs-bump__grid" x1="0" x2="{{ chart.width }}" y1="{{ row.y }}" y2="{{ row.y }}"></line>{% endfor %}
+        {% for line in chart.lines %}
+        <g class="fs-bump__team{% if line.active %} is-active{% endif %}" style="--bump: var(--crest-{{ line.crest }})" data-team="{{ line.team }}">
+            <title>{{ line.summary }}</title>
+            <polyline points="{{ line.points }}"></polyline>
+            {% if not focus %}<polyline class="fs-bump__hit" points="{{ line.points }}"></polyline>{% endif %}
+            {% if line.active %}{% for dot in line.dots %}<line class="fs-bump__dot" x1="{{ dot.x }}" x2="{{ dot.x }}" y1="{{ dot.y }}" y2="{{ dot.y }}"></line>{% endfor %}{% endif %}
+        </g>
+        {% endfor %}
+    </svg>
+    {% if not focus %}
+    <ol class="fs-bump__labels" style="height: {{ chart.height }}px">
+        {% for line in chart.labels %}
+        <li style="top: {{ line.end_y }}px; --bump: var(--crest-{{ line.crest }})" data-team="{{ line.team }}"><a href="{{ SITEURL }}/{{ line.url }}" title="{{ line.team }}"><span class="fs-bump__now">{{ line.now }}</span> {{ line.team }}</a></li>
+        {% endfor %}
+    </ol>
+    {% endif %}
+    <div class="fs-bump__xaxis" aria-hidden="true">
+        {% for tick in chart.ticks %}<span style="left: {{ tick.left }}%">{{ tick.label }}</span>{% endfor %}
+    </div>
+</div>
+<p class="m-0 text-xs text-ink-muted">Place in the table after each round (game weekend, latest {{ chart.last_day.strftime('%a %-d %b') }}). Ties during the season are broken by goal difference, then goals; the latest round shows the official table.</p>
+{% endif %}
+{% endmacro %}
+
+{% macro league_table_history(chart) %}
+{% if chart %}
+<section id="table-history" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="table-history-title">
+    <div class="grid gap-1">
+        <h2 id="table-history-title" class="fs-section-title">Table history</h2>
+        <p class="m-0 text-sm text-ink-muted">Every team's place round by round. Point at or tap a line or a team to follow it.</p>
+    </div>
+    <div class="grid gap-2 rounded-lg border border-line bg-surface-raised p-4">
+        {{ bump_chart(chart) }}
+    </div>
+</section>
+<script>
+(() => {
+  // Highlight one team on hover or focus; a tap or click on a line keeps it highlighted.
+  document.querySelectorAll('[data-bump]:not(.fs-bump--focus)').forEach((chart) => {
+    const items = Array.from(chart.querySelectorAll('[data-team]'));
+    let pinned = '';
+    const show = (team) => {
+      items.forEach((item) => item.classList.toggle('is-active', item.dataset.team === team));
+      chart.classList.toggle('has-active', Boolean(team));
+    };
+    items.forEach((item) => {
+      item.addEventListener('mouseenter', () => show(item.dataset.team));
+      item.addEventListener('mouseleave', () => show(pinned));
+      item.addEventListener('focusin', () => show(item.dataset.team));
+      item.addEventListener('focusout', () => show(pinned));
+      if (item.tagName.toLowerCase() === 'g') {
+        item.addEventListener('click', () => {
+          pinned = pinned === item.dataset.team ? '' : item.dataset.team;
+          show(pinned);
+        });
+      }
+    });
+  });
+})();
+</script>
+{% endif %}
+{% endmacro %}
+
+{% macro team_table_history(history) %}
+{% if history %}
+<section class="mb-8 grid min-w-0 gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-history-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-3">
+        <h2 id="team-history-title" class="fs-panel-title">Table history</h2>
+        <dl class="m-0 flex flex-wrap gap-x-6 gap-y-1">
+            <div class="flex items-baseline gap-2"><dt class="fs-label">Now</dt><dd class="m-0 font-display text-lg font-bold tabular-nums">{{ history.now }}</dd></div>
+            <div class="flex items-baseline gap-2"><dt class="fs-label">Best</dt><dd class="m-0 font-display text-lg font-bold tabular-nums">{{ history.best }}</dd></div>
+            <div class="flex items-baseline gap-2"><dt class="fs-label">Worst</dt><dd class="m-0 font-display text-lg font-bold tabular-nums">{{ history.worst }}</dd></div>
+        </dl>
+    </div>
+    {{ bump_chart(history.chart, focus=true) }}
+</section>
+{% endif %}
+{% endmacro %}
