@@ -9,6 +9,8 @@
 {% set upcoming = games | selectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date') | list %}
 {% set liga_reports = articles_page.object_list | selectattr('type', 'equalto', 'liga') | list %}
 {% set has_draws = teams | map(attribute='draws') | map('int') | sum > 0 %}
+{% set league_insights = (LEAGUE_INSIGHTS|default({})).get(category.slug, {}) %}
+{% import "insights.html" as insights with context %}
 
 {% macro decision(game) -%}
 {%- set ps = (game.home_goals_in_penalty_shootout|default(0)|int) + (game.away_goals_in_penalty_shootout|default(0)|int) -%}
@@ -218,6 +220,9 @@
         </section>
         {% endif %}
 
+        {{ insights.clutch_leaders(league_insights.clutch_leaders) }}
+        {{ insights.duo_list(league_insights.duos) }}
+
         {% if liga_reports %}
         <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="reports-title">
             <h2 id="reports-title" class="fs-panel-title">League reports</h2>
@@ -231,6 +236,8 @@
         {% endif %}
     </aside>
 </div>
+
+{{ insights.power_ranking(league_insights.power, category.slug) }}
 
 {% if games %}
 <section id="games" class="mt-12 grid gap-4 scroll-mt-24" aria-labelledby="games-title">

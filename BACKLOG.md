@@ -12,6 +12,8 @@
 - [x] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
 - [x] Improve SEO
 - [x] Search for Players in the player list
+- [x] Clutch stats (game winners, go-ahead goals, equalizers, clutch points) and scoring duos on player, team and league pages
+- [x] Power ranking: Elo ratings, win probabilities on game pages, biggest upsets, season and playoff projections per league
 - [ ] Scalable process across leagues
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))

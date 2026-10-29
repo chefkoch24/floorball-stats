@@ -5,6 +5,7 @@
 {% set ot_goals = (article.home_goals_in_overtime|default(0)|int) + (article.away_goals_in_overtime|default(0)|int) %}
 {% set decision = 'PS' if ps_goals > 0 else ('OT' if ot_goals > 0 else '') %}
 {% set attendance_text = article.attendance|fmt_int('') %}
+{% import "insights.html" as insights with context %}
 <section class="fs-scoreboard mb-8">
     <div class="fs-scoreboard__head">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
@@ -65,6 +66,8 @@
     {% endif %}
 </section>
 
+{{ insights.win_probability(article.win_probability, article.home_team, article.away_team) }}
+
 <details class="stat-guide">
     <summary>Stat Guide</summary>
     <div class="stat-guide__content">
@@ -77,6 +80,8 @@
             <li class="stat-guide__item"><strong>GD/G:</strong> Goal difference per game (scored minus conceded).</li>
             <li class="stat-guide__item"><strong>OT/PS Wins/Losses:</strong> Overtime or shootout outcomes (close-game execution).</li>
             <li class="stat-guide__item"><strong>Last 5 Form:</strong> Most recent five games (`W`, `L`, `D`, including OT variants).</li>
+            <li class="stat-guide__item"><strong>Win probability:</strong> Chance to win from the Elo power ratings of both teams before the game, home advantage, overtime and penalty shots included.</li>
+            <li class="stat-guide__item"><strong>Game winner / Clutch / Overtime:</strong> Labels in the game events. The game winner gave the winner one more goal than the loser's final total; a clutch goal tied the game or gave the lead in the last ten minutes.</li>
         </ul>
     </div>
 </details>
@@ -422,6 +427,9 @@ if (gameEventsTimeline) {
       const tag = event.tag && !['goal', 'penalty', 'penalty_2'].includes(event.tag)
         ? `<span class="event-timeline__tag">${escapeHtml(event.tag.replaceAll('_', ' '))}</span>`
         : '';
+      const moment = event.moment
+        ? `<span class="fs-status fs-status--final">${escapeHtml(event.moment)}</span>`
+        : '';
       const score = event.score
         ? `<span class="event-timeline__score">${escapeHtml(event.score)}</span>`
         : '';
@@ -440,6 +448,7 @@ if (gameEventsTimeline) {
             <p class="event-timeline__headline">${headline}</p>
             ${assistLine}
             ${tag}
+            ${moment}
           </div>
         </article>
       `;

@@ -16,6 +16,8 @@ PLUGINS = [
     'sitemap',
     # og:image share cards and team .ics calendars for the current season
     'share_assets',
+    # clutch stats, scoring duos, Elo power ratings and season projections
+    'insights',
 ]
 
 PATH = 'content'

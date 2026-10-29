@@ -1,5 +1,6 @@
 {% set team_name = article.team|default(article.title) %}
 {% set gd = article.goal_difference|default(0)|int %}
+{% import "insights.html" as insights with context %}
 <header class="mb-8 grid gap-5">
     <div class="flex flex-wrap items-center gap-2">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
@@ -55,6 +56,14 @@
     <div><button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button></div>
     {% endif %}
 </header>
+
+{% if article.power or article.duos or article.clutch_players %}
+<div class="mb-8 grid gap-4 lg:grid-cols-3 lg:items-start">
+    {{ insights.team_power(article.power, category_url_override) }}
+    {{ insights.duo_list(article.duos, title='Top duos', show_team=false) }}
+    {{ insights.clutch_leaders(article.clutch_players) }}
+</div>
+{% endif %}
 
 <details class="stat-guide">
     <summary>Stat Guide</summary>
