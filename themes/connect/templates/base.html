@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% set page_title = (seo_title ~ ' · ' ~ SITENAME) if seo_title is defined and seo_title else SITENAME ~ ' · The home of floorball' %}
+    {% set page_description = seo_description if seo_description is defined and seo_description else 'Floorball Connect brings the floorball world together: stick and blade reviews, drills, guides, where to watch, documentaries, podcasts and stats for the top leagues.' %}
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page_description|striptags|truncate(300) }}">
+    {% if SITEURL and page_name is defined %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ page_name if page_name != 'index' else '' }}">
+    <meta property="og:url" content="{{ SITEURL }}/{{ page_name if page_name != 'index' else '' }}">
+    {% endif %}
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page_description|striptags|truncate(300) }}">
+    {% if og_image is defined and og_image %}<meta property="og:image" content="{{ SITEURL }}/{{ og_image }}">{% endif %}
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="{{ SITEURL }}/theme/favicon.svg" type="image/svg+xml">
+    <script>
+    (function () {
+        try {
+            var savedTheme = localStorage.getItem('fs_theme');
+            var resolvedTheme = (savedTheme === 'light' || savedTheme === 'dark')
+                ? savedTheme
+                : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', resolvedTheme);
+            document.documentElement.style.colorScheme = resolvedTheme;
+        } catch (error) {}
+    })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap" rel="stylesheet">
+    {# Shared design system (themes/my-theme), built for this site with `make connect-css`. #}
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/app.css">
+    {% block head %}{% endblock %}
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand fc-brand" href="{{ SITEURL }}/">
+            <span class="fc-brand__mark" aria-hidden="true"></span>
+            <span class="brand-title">Floorball Connect</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Explore <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+        <a class="header-link" href="{{ STATS_URL }}/">Stats</a>
+        <a class="header-link header-link--wide" href="{{ SITEURL }}/floorball-sticks/">Reviews</a>
+        <a class="header-link header-link--wide" href="{{ SITEURL }}/watch-floorball/">Watch</a>
+        <div class="header-actions">
+            <a class="fc-cta" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="header">Newsletter</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
+        </div>
+    </div>
+    <nav class="main-nav fc-nav" id="mainNav" aria-label="Main">
+        <div class="main-nav__inner fc-nav__inner">
+            <a class="fc-nav__stats" href="{{ STATS_URL }}/">
+                <span class="fs-label">Stats</span>
+                <strong>Standings, results and player stats from 14 top leagues</strong>
+                <span class="fc-nav__more">Open Floorball Stats →</span>
+            </a>
+            {% for group in CONNECT_NAV_GROUPS %}
+            <div class="fc-nav__group">
+                <span class="fs-label">{{ group }}</span>
+                <ul>
+                    {% for collection in CONNECT_COLLECTIONS if collection.nav == group %}
+                    <li><a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+            <div class="fc-nav__group">
+                <span class="fs-label">Floorball Connect</span>
+                <ul>
+                    <li><a href="{{ SITEURL }}/about-us/">About us</a></li>
+                    <li><a href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener">Newsletter</a></li>
+                    <li><a href="mailto:{{ CONTACT_EMAIL }}">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main-content">
+    <div class="app-container">
+        {% block breadcrumbs %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block newsletter %}
+        <aside class="fc-newsletter" aria-labelledby="newsletterTitle">
+            <div>
+                <h2 class="fs-panel-title" id="newsletterTitle">Get Floorball Connect in your inbox</h2>
+                <p>New reviews, drills and guides, plus a free 10-minute stickhandling routine when you sign up.</p>
+            </div>
+            <a class="fs-btn fs-btn--primary" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="newsletter-card">Subscribe for free</a>
+        </aside>
+        {% endblock %}
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner fc-footer">
+        <a class="footer-link" href="{{ SITEURL }}/about-us/">About us</a>
+        <span class="footer-divider">·</span>
+        <a class="footer-link" href="{{ STATS_URL }}/">Stats</a>
+        <span class="footer-divider">·</span>
+        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener">Newsletter</a>
+        <span class="footer-divider">·</span>
+        {% for name, url in SOCIAL_LINKS %}
+        <a class="footer-link" href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>
+        <span class="footer-divider">·</span>
+        {% endfor %}
+        <a class="footer-link" href="mailto:{{ CONTACT_EMAIL }}">Email us</a>
+        <span class="footer-divider">·</span>
+        <span>© 2026 Floorball Connect</span>
+    </div>
+</footer>
+
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=(s.ui_host||s.api_host)+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister unregister_once alias identify set_config reset opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing startSessionRecording stopSessionRecording".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+(function () {
+    var host = window.location.hostname;
+    if (host === 'localhost' || host === '127.0.0.1' || host === '::1') return;
+    posthog.init('phc_aH9HEcHF3KJyGFem9EtvjGtvZK9Agz37ZiVkOHwd8F3', {
+        api_host: 'https://e.floorballconnect.com',
+        ui_host: 'https://e.floorballconnect.com',
+        defaults: '2026-01-30',
+        autocapture: false,
+        capture_pageview: true,
+        capture_pageleave: false,
+        disable_session_recording: true,
+        persistence: 'localStorage+cookie',
+        person_profiles: 'always'
+    });
+    posthog.register({ site: 'connect' });
+    document.addEventListener('click', function (event) {
+        var link = event.target.closest && event.target.closest('[data-cta]');
+        if (link) posthog.capture('cta_clicked', { cta: link.getAttribute('data-cta'), href: link.href });
+    });
+})();
+</script>
+<script src="{{ SITEURL }}/theme/js/site.js" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

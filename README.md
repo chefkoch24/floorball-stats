@@ -410,6 +410,27 @@ Playoffs:
 make refresh-current-season-playoffs
 ```
 
+## Main site: floorballconnect.com (`connect/`)
+
+The main site is its own Pelican site in `connect/` on the stats design system
+(see ARCHITECTURE.md, 4.8a).
+
+```bash
+make connect-css PYTHON=.venv/bin/python        # after changing themes/connect or the shared CSS
+make connect-html PELICAN=.venv/bin/pelican     # builds connect/output
+cd connect/output && python -m http.server 8001
+```
+
+Content comes from Notion. To refresh it locally or on Netlify:
+
+1. Create a Notion internal integration, share the content and review databases with it,
+   and set `NOTION_TOKEN`.
+2. Fill `connect/notion.json` (copy `connect/notion.example.json`) with the database ids.
+3. `make connect-sync-notion PYTHON=.venv/bin/python`, then rebuild.
+
+On Netlify the Connect site runs the sync before every build, so a rebuild (for example
+from a daily build hook) picks up new reviews.
+
 ## Run tests
 
 ```bash

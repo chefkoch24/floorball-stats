@@ -218,6 +218,31 @@ Responsibilities:
 - Build static output via Pelican CLI / Make targets.
 
 
+### 4.8a Main site: floorballconnect.com (`connect/`, `themes/connect`)
+
+The main site (www.floorballconnect.com) is a second, small Pelican site in the same
+repository. It replaced the Softr site and shares the design system with the stats site:
+`themes/connect/static/css/src/app.css` imports the tokens, components and chrome of
+`themes/my-theme`, so colours, type, dark mode and header look the same on both domains.
+
+- Content lives in Notion (edited there; stick and blade reviews arrive from the Tally
+  forms). `scripts/sync_connect_notion.py` reads the databases listed in
+  `connect/notion.json` with `NOTION_TOKEN` and writes `connect/data/<collection>.json`;
+  without the token the committed data is used. `scripts/import_connect_softr.py` did the
+  one-time import from the Softr site in the same format.
+- Notion file links expire after an hour, so both scripts download images into
+  `connect/content/images` (WebP, max 1400 px).
+- Reviewers who chose to stay anonymous lose name and Instagram handle at import; only the
+  fields a review page shows are kept.
+- `connect/connect_content.py` defines the collections (URL, menu group, facet, card style)
+  and turns a record into a template item. `connect/plugins/connect_pages.py` writes one
+  list page per collection and one page per record, the Softr redirects
+  (`/floorball-stick-details?recordId=<id>` → new page, 301) and `sitemap.xml`.
+- URLs keep the Softr list paths (`/floorball-sticks/`), records get
+  `/floorball-sticks/<brand>-<name>/`.
+- Netlify: a second site with base directory `connect` (`connect/netlify.toml`); it only
+  rebuilds when `connect/`, `themes/connect` or the shared CSS sources change.
+
 ### 4.9 Visualization + DB
 
 - `dashboard/app.py`

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% set seo_title = item.title ~ ' · ' ~ collection.title %}
+{% set seo_description = item.summary or (item.body|striptags|truncate(200)) or collection.intro %}
+{% set og_image = item.image if item.image and not item.image.startswith('http') else '' %}
+
+{% block breadcrumbs %}{{ m.breadcrumbs(collection, item) }}{% endblock %}
+
+{% block content %}
+<article class="fc-article">
+    <header class="fc-article__head">
+        <span class="fs-label">{{ collection.title }}</span>
+        <h1 class="fc-title">{{ item.title }}</h1>
+        {% if item.subtitle %}<p class="fc-lead">{{ item.subtitle }}</p>{% endif %}
+        {% if item.tags or item.date %}
+        <div class="fc-card__tags">
+            {% for tag in item.tags %}<span class="fs-chip">{{ tag }}</span>{% endfor %}
+            {% if item.date %}<span class="fs-chip">{{ item.date }}</span>{% endif %}
+        </div>
+        {% endif %}
+    </header>
+    {% if item.video %}
+    <div class="fc-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ item.video }}" title="{{ item.title }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    {% elif item.image %}
+    <figure class="fc-article__media{% if collection.key == 'equipment' %} fc-article__media--product{% endif %}">{{ m.image(item.image, item.title) }}</figure>
+    {% endif %}
+    {% if item.facts %}
+    <dl class="fc-facts">
+        {% for label, value in item.facts %}<div><dt class="fs-label">{{ label }}</dt><dd>{{ value }}</dd></div>{% endfor %}
+    </dl>
+    {% endif %}
+    {% if item.summary %}<p class="fc-lead">{{ item.summary }}</p>{% endif %}
+    {% if item.body %}<div class="fc-prose">{{ item.body }}</div>{% endif %}
+    {% if item.link %}
+    <p class="fc-actions"><a class="fs-btn fs-btn--primary" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="outbound-{{ collection.key }}">{{ collection.link_label or 'Open' }} ↗</a></p>
+    {% endif %}
+</article>
+
+{% if related %}
+<section class="fc-section">
+    <h2 class="fs-section-title">More {{ collection.title|lower }}</h2>
+    <div class="fc-grid fc-grid--{{ collection.card }}">{% for row in related %}{{ m.card(collection, row) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

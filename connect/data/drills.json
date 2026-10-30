@@ -1,0 +1,456 @@
+{
+ "items": [
+  {
+   "id": "2621e0bb-8812-8034-b145-feb321dcc476",
+   "fields": {
+    "Categories": [
+     "1vs1"
+    ],
+    "Page Content": "<h2>Drill: <strong>1vs1 After Pass</strong></h2><h3>Setup</h3><ul><li>2 players + goalie</li><li>Balls start with <strong>Player 1</strong></li></ul><hr/><h3>Sequence</h3><ol><li><strong>Player 1</strong> passes to <strong>Player 2</strong>.</li><li><strong>Player 2</strong> passes back into the run of <strong>Player 1</strong>.</li><li>Right after the pass, <strong>Player 2</strong> takes defensive position.</li><li><strong>Player 1</strong> attacks the goal in a <strong>1vs1 situation</strong>.</li></ol><hr/><h3>Player Roles</h3><ul><li><strong>Player 1</strong>: attack with speed after receiving the return pass.</li><li><strong>Player 2</strong>: must react quickly and defend directly after the pass.</li></ul><hr/><h3>Coaching Points</h3><ul><li>Attack with <strong>speed and control</strong>.</li><li>Defending player must <strong>close space fast</strong>.</li><li>Focus on <strong>1vs1 duels</strong>: attacker creativity vs. defender positioning.</li></ul><hr/><h3>Variations</h3><ul><li>Start drill from both sides.</li><li>Limit attacker to max. 5 seconds or staying on it’s horizontal half of the field</li><li>Defender has to reach a certain point to simulate more offensive defending</li></ul>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-6425285d.webp"
+    ],
+    "Name": "1 vs 1 from Middleline"
+   }
+  },
+  {
+   "id": "2621e0bb-8812-803b-a8c7-d81e652f8166",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting",
+     "Slot",
+     "Decision Making",
+     "Rebound"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players + goalie</li><li>Balls start with <strong>Player 1</strong> in the corner</li></ul><h3>Sequence</h3><ol><li><strong>Player 1</strong> passes to <strong>Player 2</strong> (on the side).</li><li><strong>Player 2</strong> passes down to <strong>Player 3</strong> (low corner).</li><li><strong>Player 3</strong> passes into the middle, where <strong>Player 1</strong> has moved after the first pass.</li><li><strong>Player 1</strong> gives the ball back to <strong>Player 3</strong>.</li><li><strong>Player 3</strong> now has 3 choices:<ul><li><strong>Option 1:</strong> Shoot directly.</li><li><strong>Option 2:</strong> Pass to the long post, where <strong>Player 2</strong> is moving.</li><li><strong>Option 3:</strong> Pass up to the high slot.</li></ul></li></ol><h3>Player Roles</h3><ul><li><strong>Player 2</strong> always goes to the net for rebound.</li><li><strong>Player 1</strong> must move into the high slot after the first pass.</li><li><strong>Player 3</strong> is the decision maker: shoot or pass.</li></ul><h3>Coaching Points</h3><ul><li>Passquality is key</li><li>Timing is important: players must move right after their pass.</li><li>Rebounds: Player 2 must be ready.</li><li>Encourage quick and direct passes</li></ul><h3>Variations</h3><ul><li>Mirror the drill after several executions or minutes</li><li>Play only one-touch passes for speed.</li></ul>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-568179b0.webp"
+    ],
+    "Name": "Quick Passes with Shot from Slot"
+   }
+  },
+  {
+   "id": "2621e0bb-8812-8080-8486-f4c8776bd670",
+   "fields": {
+    "Categories": [
+     "1vs1",
+     "2vs1"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players + goalie</li><li>Balls start with <strong>Player 1</strong></li></ul><h3>Sequence</h3><ol><li><strong>Player 1</strong> passes to <strong>Player 2</strong>.</li><li><strong>Player 2</strong> passes back to <strong>Player 1</strong> → and then becomes the <strong>defender</strong>.</li><li><strong>Player 1</strong> attacks in a <strong>1vs1 situation</strong>.</li><li>After the 1vs1 is finished, <strong>Player 3</strong> joins as a second attacker with the ball.</li><li>Now <strong>Player 1 + Player 3</strong> play a <strong>2vs1 against Player 2</strong>.</li><li>The 2vs1 should be played fast — <strong>max. 2 passes</strong> before the shot.</li></ol><hr/><h3>Player Roles</h3><ul><li><strong>Player 1</strong>: attacker in both situations. First solo in 1vs1, then combine with Player 3.</li><li><strong>Player 2</strong>: defender, must switch quickly from pass into defense.</li><li><strong>Player 3</strong>: new attacker, starts with dribbling into the 2vs1.</li></ul><hr/><h3>Coaching Points</h3><ul><li><strong>1v1:</strong> Player 1 should attack with speed and try to create space for a shot.</li><li><strong>Defender:</strong> must react fast after passing, close the gap early to find positioning.</li><li><strong>2vs1:</strong> play quick, simple — one or two passes, then finish.</li><li>Attackers should keep good spacing (not too close together).</li></ul><hr/><h3>Variations</h3><ul><li>Limit attackers to only <strong>one pass</strong> or <strong>a shot </strong>in 2vs1.</li><li>Defender can start with a small delay for more pressure on attackers.</li></ul>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-560a0105.webp"
+    ],
+    "Name": "1vs1 into 2vs1"
+   }
+  },
+  {
+   "id": "2621e0bb-8812-80a6-8701-ef34484ecaaf",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting",
+     "Slot",
+     "Decision Making",
+     "Rebound"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players + goalie</li><li>Balls start with <strong>Player 1</strong> in the corner</li></ul><h3>Sequence</h3><ol><li><strong>Player 1</strong> dribbles a few meters with the ball.</li><li><strong>Player 1</strong> passes to <strong>Player 2</strong> (middle).</li><li><strong>Player 2</strong> passes back to <strong>Player 1</strong>, who has moved to a new position.</li><li><strong>Player 1</strong> passes across to <strong>Player 3</strong> on the weak side.</li><li><strong>Player 3</strong> takes a <strong>direct shot</strong>.</li><li><strong>Player 2</strong> goes for the rebound.</li></ol><h3>Player Roles</h3><ul><li><strong>Player 1</strong> must move directly after the first pass.</li><li><strong>Player 2</strong> gives the ball back quickly and then crashes the net.</li><li><strong>Player 3</strong> should be ready for a one-touch shot.</li></ul><h3>Coaching Points</h3><ul><li>Focus on <strong>direct passes and shots</strong>.</li><li><strong>Move immediately after passing</strong>.</li><li>Rebounds: <strong>Player 2</strong> must be ready.</li><li>Encourage quick execution (1–2 touches).</li></ul><hr/><h3>Variations</h3><ul><li>Mirror the drill after several executions or minutes</li><li>Require all passes and shots to be one-touch.</li></ul>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-1d2c9e95.webp"
+    ],
+    "Name": "Move after Pass from Corner"
+   }
+  },
+  {
+   "id": "2621e0bb-8812-80ab-9fcc-ca2134bb76e6",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Distance",
+     "Rebound"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players + goalie</li><li>Balls start with <strong>Player 1</strong></li></ul><h3>Sequence</h3><ol><li><strong>Player 1</strong> dribbles 2–3 meters.</li><li><strong>Player 1</strong> passes while moving to <strong>Player 2</strong>.</li><li><strong>Player 2</strong> dribbles behind the goal and passes out to <strong>Player 3</strong>.</li><li><strong>Player 3</strong> comes in full movement and shoots.</li></ol><h3>Player Roles</h3><ul><li><strong>Player 1</strong>: quick pass and then move forward for possible rebound.</li><li><strong>Player 2</strong>: keep speed behind the net, pass at the right moment.</li><li><strong>Player 3</strong>: time the run well, shoot directly in movement.</li></ul><h3>Coaching Points</h3><ul><li>Focus on <strong>timing</strong>: Player 3 should arrive in full speed for the shot.</li><li>Encourage <strong>different shot types</strong> (sweeper, slapshot).</li><li>Passes must be direct and easy to control.</li><li>Good movement after each pass.</li></ul><h3>Variations</h3><ul><li>Add <strong>Player 1 and/or Player 2</strong> as rebounders in front of the goal.</li><li>Mirror the drill after several executions or minutes</li><li>Make Player 2 a defender and Player 1 the attacker for a additional 1vs1 in front of the goal</li></ul>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-2324f54f.webp"
+    ],
+    "Name": "Distance Shot from Movement"
+   }
+  },
+  {
+   "id": "2621e0bb-8812-80c8-b5b4-e05fdb95668e",
+   "fields": {
+    "Categories": [
+     "1vs1",
+     "Backcheck",
+     "Ballcontrol"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>2 field players (Red 1 and Red 2) + 1 chasing player (Blue 1) + goalie</li><li>Cones placed at the middle to guide movement</li><li>Balls start with Red <strong>2</strong> at center</li></ul><hr/><h3>Sequence</h3><ol><li><strong>Red 1</strong> starts near the goal and moves forward.</li><li><strong>Blue 1</strong> follows Red 1 to chase.</li><li>Red 1 makes <strong>two scans</strong> to see where Blue<strong> 2</strong> is.</li><li><strong>Blue 2</strong> passes to <strong>Red 1</strong> between the cones.</li><li><strong>Red 1</strong> controls the ball directly and dribbles around the cone.</li><li><strong>Blue 2</strong> runs around the other cone and then backchecks to defend.</li><li>Drill finishes with a <strong>1v0 situation</strong> for Red 1 and Blue 1.</li></ol><hr/><h3>Roatation</h3><p>Red 1 → Blue 1\nRed 2 → Red 1\nBlue 1 → Red 2</p><hr/><h3>Player Roles</h3><ul><li><strong>Red 1</strong>: must scan before receiving, quick control, attack fast.</li><li><strong>Blue 1</strong>: follows and adds backcheck pressure.</li><li><strong>Red 2</strong>: quality pass with right timing.</li><li><strong>Goalie</strong>: positioning give the attacker a bad angle, go out in the right moments</li></ul><hr/><h3>Coaching Points</h3><ul><li>Red 1 must <strong>scan twice</strong> before the pass.</li><li>First touch is important: take it forward into open space.</li><li>Attack with speed before the backchecker catches up.</li><li>Blue 2 must sprint hard to apply real pressure.</li></ul><hr/><h3>Variations</h3><p>-</p>",
+    "Thumbnail": [
+     "images/drills/2621e0bb-ab509eba.webp"
+    ],
+    "Name": "Scan and Breakaway with Backcheck"
+   }
+  },
+  {
+   "id": "2631e0bb-8812-80db-a641-f711345b7174",
+   "fields": {
+    "Categories": [
+     "Decision Making",
+     "Small Game",
+     "3vs3"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>min 6 players &amp; 1–2 goalies</li><li>Every shift starts with a 3 vs 3</li></ul><h3>Sequence</h3><ol><li>The game is played as normal 3 vs 3 on one, two, or more goals. Both teams can score on all goals</li><li>As soon as a player scores, that player must leave the field immediately.</li><li>The scoring team continues playing with one player less.</li></ol><h3>Player Roles</h3><ul><li><strong>Players:</strong> focus on decision making and scanning for the next best action and free teammates.</li><li><strong>Goalie:</strong> control rebounds and protect the goal area.</li></ul><h3>Rotation</h3><ul><li>Play for <strong>30 seconds</strong>, then the next 3 players from each team enter the field directly.</li><li>The game ends if a team has <strong>no players left on the field</strong> during one shift.</li><li>This means the team scored at least <strong>3 goals</strong> in that shift (very unlikely, but possible).</li></ul><h3>Coaching Points</h3><ul><li>Decision making: find free scoring chances quickly.</li><li>Focus on <strong>physical duels</strong> rather than stick duels.</li></ul><h3>Variations</h3><ul><li>Place goals on both ends of the field to widen the space</li><li>Move the goals very close together to create one large scoring area.</li><li>Add more than two goals</li></ul><p></p><ul><li>Every shift starts with a 3 vs 3</li><li>min 6 players + 1–2 goalies</li></ul>",
+    "Thumbnail": [
+     "images/drills/2631e0bb-4323e839.webp"
+    ],
+    "Name": "Championship Ball (Score & Leave)"
+   }
+  },
+  {
+   "id": "2631e0bb-8812-80f5-92e8-ef74a3041e71",
+   "fields": {
+    "Categories": [
+     "1vs1",
+     "2vs2",
+     "3vs2"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>Goalie starts with the ball (throw into corner)</li><li>4 players active (2 red, 2 black)</li><li>2 more players waiting (Player 3 red &amp; black)</li><li>Play in one half of the filed</li></ul><h3>Sequence</h3><ol><li>Goalie throws the ball into one corner.</li><li><strong>Player 2 (red)</strong> and <strong>Player 1 (black)</strong> have a <strong>1vs1 in the corner</strong></li><li>As soon as the ball leaves the corner or one player wins control → the drill continues as a <strong>2vs2</strong> with both pairs (Red 1 + Red 2 vs. Black 1 + Black 2).</li><li>In the 2 vs 2 they are allowed to pass to the joker of their color to make it a 3 vs 2 advantage</li><li>3 vs 2 situation should be played quick with a shot on the goal to </li></ol><h3>Player Roles</h3><ul><li><strong>Corner players (Red 2 &amp; Black 1):</strong> must win the corner 1 vs 1.</li><li><strong>Support players (Red 1 &amp; Black 2):</strong> must be ready to join as soon as ball comes out.</li><li><strong>Extra players (Red 3 &amp; Black 3):</strong> come as Jokers in the game. They should lead to quick chance</li></ul><h3>Coaching Points</h3><ul><li>Intensity in the <strong>corner </strong>is key.</li><li>Quick <strong>decisions after winning the ball</strong> (pass, dribble,).</li><li>Support players must move into good positions, not stand still.</li><li>Communication between teammates to handle transition from 1vs1 → 2vs2 → 3vs2.</li></ul><h3>Variations</h3><ul><li>Allow goalie to throw into <strong>both corners</strong> to change start point.</li><li>Add time limit: must shoot within 10 seconds.</li><li>Play to goals or set a point system (winning the corner duel = 1 point, scoring = 2 points).</li></ul><p></p>",
+    "Thumbnail": [
+     "images/drills/2631e0bb-76ddbb83.webp"
+    ],
+    "Name": "1 vs 1, 2vs2, 3 vs 2"
+   }
+  },
+  {
+   "id": "2b11e0bb-8812-80cc-9fc2-c958a2059c98",
+   "fields": {
+    "Categories": [
+     "Passing"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players</li><li>2 cones placed in a line about 5–6 meters apart</li><li>No Goalies</li></ul><h3>Sequence</h3><ol><li>Player 1 passes to Player 2, who receives the ball while moving.</li><li>Player 2 makes a 180 degree sweep pass around the cone to the other side to Player 3.</li><li>After the pass, Player 2 runs to the diagnollay mirrored same position as before, receives the ball and  continuous the infinite cycle of passing.</li></ol><h3>Coaching Points</h3><ul><li>Keep movement smooth, close to the cone, with high speed and pass timing</li><li>Use this drill as a <strong>warmup</strong> before shot practice with sweeper shots</li><li>Run for about <strong>1 minute per round</strong>, then switch the player in the middle.<ul><li>We recommend 2 rounds per player with 1 min as the second round usually has higher quality</li></ul></li></ul><h3>Variations</h3><ul><li>Players should keep <strong>eye contact</strong> and avoid looking down at the ball.</li></ul>",
+    "Thumbnail": [
+     "images/drills/2b11e0bb-fc304225.webp"
+    ],
+    "Name": "Pass like Gabriel Kohonen"
+   }
+  },
+  {
+   "id": "2bc1e0bb-8812-8093-9660-dd374a2af365",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Slot",
+     "Rebound",
+     "Decision Making"
+    ],
+    "Page Content": "<p><strong>Setup</strong></p><ul><li>3 players + goalie</li><li>Balls start with Player 1 (corner position)</li></ul><p><strong>Sequence</strong></p><ol><li>Player 1 passes to Player 2 and immediately runs toward Player 3.</li><li>Player 2 makes a direct pass to Player 3.</li><li>Player 3 plays a short one-two pass (give and go) with the moving Player 1.</li><li>After the one-two, Player 3 has three options:<ol><li><strong>Option 1:</strong> Shoot on goal. Player 2 goes for the rebound.</li><li><strong>Option 2:</strong> Pass into the high slot to Player 1. Player 1 shoots and Player 2 goes for the rebound.</li><li><strong>Option 3:</strong> Cross pass to Player 2 for a direct shot.</li></ol></li></ol><p><strong>Rotation</strong></p><ul><li>After each round:<ul><li>Player 1 moves to Player 3’s position.</li><li>Player 2 moves to Player 1’s position.</li><li>Player 3 moves to Player 2’s position.</li></ul></li></ul><p><strong>Goalies</strong></p><ul><li>Read Player 3 and try to predict the next action based on body, blade, … .</li></ul><p><strong>Coaching Points</strong></p><ul><li>Focus on timing of passes and player movement.</li><li>Quick and clean passes.</li><li>Players and goalies should take the blade side and field position into account when making decisions.</li><li>Force the goalie to actively anticipate the player’s decision.</li></ul><p><strong>Variations</strong></p><ul><li>After the one-two, Player 1 becomes a defender against Player 2 and Player 3 (2vs1 situation).</li><li>Run the drill from both sides.</li></ul>",
+    "Thumbnail": [
+     "images/drills/2bc1e0bb-87b3b7a0.webp"
+    ],
+    "Name": "Options in the Slot"
+   }
+  },
+  {
+   "id": "2c51e0bb-8812-8047-b4ad-f3a369e3bce9",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting",
+     "Slot"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>4 players + goalie</li><li>Balls start with <strong>Player 1</strong> in the corner</li></ul><h3>Sequence</h3><ol><li><strong>Player 1</strong> and <strong>Player 2</strong> play a double pass.</li><li><strong>Player 2</strong> passes cross to <strong>Player 3</strong>.</li><li><strong>Player 3</strong> passes directly down to <strong>Player 4</strong>.</li><li><strong>Player 1</strong> moves into the slot to get into a shooting position.</li><li><strong>Player 4</strong> passes to Player 1, who finishes with a direct shot from the slot.</li></ol><h3>Player Roles</h3><ul><li><strong>Player 1</strong> moves into a good scoring position.</li><li><strong>Goalie</strong> read the ball and player movement early and adjust position proactively to focus on correct angle on the final pass.</li></ul><h3>Rotation</h3><p>Player 1 → Player 4</p><p>Player 4 → Player 3</p><p>Player 3 → Player 2</p><p>Player 2 → Player 1</p><h3>Coaching Points</h3><ul><li>Focus on timing of passes and player movement</li><li>Pass quality is key.</li></ul><h3>Variations</h3><ul><li>Mirror the drill after several rounds and start from the opposite corner.</li><li>Remove the double pass for a version with more ball speed</li><li>Add rules (e.g., direct passes, mandatory direct shot).</li><li>Add running game e.g. for Player 1 and Player 4.</li><li>Make it a 2 vs 0 with Player 1 and Player 4.</li><li>Use Player 2 as a defender to pressure Player 1 from behind.</li><li>Use Player 2 as a second scoring option on the second post.</li></ul><p></p>",
+    "Thumbnail": [
+     "images/drills/2c51e0bb-c775d448.webp"
+    ],
+    "Name": "Move the Ball into Scoring Position"
+   }
+  },
+  {
+   "id": "2ee1e0bb-8812-8059-a819-dd180d15b086",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting"
+    ],
+    "Page Content": "<h3>Setup</h3><ul><li>3 players with 2 balls</li><li>1 goalie</li></ul><h3>Sequence</h3><ol><li>Player 1 plays a cross pass to Player 2.</li><li>Player 2 holds the ball while Player 1 starts moving.</li><li>After 3–5 meters, Player 1 turns and plays a double pass with Player 3.</li><li>Player 1 turns again, receives a pass from Player 2, and takes the first shot.</li><li>Player 1 continues the movement and receives a pass from Player 3 in the slot for a second shot.</li></ol><h3>Player Roles</h3><ul><li>Focus on technique and skill, especially good pass quality.</li><li>Player 3 must always be ready to pass and react.</li></ul><h3>Rotation</h3><ul><li>Change the side after the shots.</li><li>The drill always starts from the opposite side.</li></ul><h3>Coaching Points</h3><ul><li>Continuous movement after each shot by Player 1.</li><li>All players must stay ready, especially Player 3.</li><li>To make it harder increase passing speed</li></ul><h3>Variations</h3><ul><li>Only a direct shots allowed</li><li>2nd pass with speed to the slot so that Player 1 only has to tip it</li></ul><p></p>",
+    "Thumbnail": [
+     "images/drills/2ee1e0bb-19bb3740.webp"
+    ],
+    "Name": "Double Shot"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-800e-b812-c5cfc2db41b8",
+   "fields": {
+    "Categories": [
+     "1vs0",
+     "1vs1",
+     "2vs1",
+     "2vs2",
+     "3vs2"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-830f1467.webp"
+    ],
+    "Name": "1vs0 - 1vs1 - 2vs1 - 2vs2 - 3vs2"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-801b-8f95-e24d1bd0ba67",
+   "fields": {
+    "Categories": [
+     "Passing"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-18cc03fb.webp"
+    ],
+    "Name": "Passing-Queue"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-801d-8a3f-e96472a62751",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Passing",
+     "1vs1"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-a8d70a77.webp"
+    ],
+    "Name": "Build up behind the goal with shot"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-8042-ac6d-e59613e1d374",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Warmup"
+    ],
+    "Page Content": "<p>You can play this drill in many different variations and also with more players, for example 5vs2 or 6vs2.</p><p>A good rule of thumb: in a 4vs1 situation, players should use one touch, and in a 4vs2 situation, players are allowed two touches to receive and play the ball.</p><p>As soon as a defender wins the ball, the positions change.</p><p>With two defenders, you can also rotate so that the player who has been in the middle the longest goes out.</p>",
+    "Thumbnail": [
+     "images/drills/2f41e0bb-ce4c788d.webp"
+    ],
+    "Name": "Rondo"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-8052-b9f5-e58afcd24a00",
+   "fields": {
+    "Categories": [
+     "1vs1",
+     "2vs1",
+     "3vs2"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-48059018.webp"
+    ],
+    "Name": "1vs1-2vs1-3vs2"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-8075-bd6e-e2f611475f1b",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Passing",
+     "Warmup"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-2b1946df.webp"
+    ],
+    "Name": "Double Carousel"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-807b-bf96-d80160ec7c36",
+   "fields": {
+    "Categories": [
+     "Warmup"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-bae14cd6.webp"
+    ],
+    "Name": "Diagonal one-two with finish in slot"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-808e-9a62-f9d9db346376",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Passing",
+     "Warmup"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-97be5ffd.webp"
+    ],
+    "Name": "Carousel"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-80b6-954d-d0bdb3cb3fb7",
+   "fields": {
+    "Categories": [
+     "Shooting"
+    ],
+    "Page Content": "<p>Drill for multiple shots in one round. Mirror the drill after a time so that you develop lefties and righties the same and they stay happy</p>",
+    "Thumbnail": [
+     "images/drills/2f41e0bb-f3971fe7.webp"
+    ],
+    "Name": "Shooting Positions"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-80e0-baa4-fe77f2975cee",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-e84d94e7.webp"
+    ],
+    "Name": "Passingsquare with shot"
+   }
+  },
+  {
+   "id": "2f41e0bb-8812-80f9-8489-c4575c73a688",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2f41e0bb-b0950eab.webp"
+    ],
+    "Name": "Shot from the slot"
+   }
+  },
+  {
+   "id": "2fd1e0bb-8812-804b-bc78-ec9a8c4a349b",
+   "fields": {
+    "Categories": [
+     "Shooting",
+     "Passing"
+    ],
+    "Page Content": "<p>Move the goals to a distance of around 20 meters.</p><p>This is a passing and shooting drill with a high cadence, ideal for the last training before a game to keep intensity and scoring confidence high.</p><p>Easy to introduce competitive challenges between both groups.</p>",
+    "Thumbnail": [
+     "images/drills/2fd1e0bb-29422905.webp"
+    ],
+    "Name": "Crosspass"
+   }
+  },
+  {
+   "id": "2fd1e0bb-8812-807d-abd7-c8e374093f3a",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Shooting",
+     "Warmup"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2fd1e0bb-734d5ca0.webp"
+    ],
+    "Name": "Crossing"
+   }
+  },
+  {
+   "id": "2fe1e0bb-8812-8001-9ee5-ef8e84f65fd7",
+   "fields": {
+    "Categories": [
+     "Opening",
+     "Passing"
+    ],
+    "Page Content": "<p>Drill to practice the opening via a middle player can be used to practice timing on the different movements of the players</p>",
+    "Thumbnail": [
+     "images/drills/2fe1e0bb-8bf90681.webp"
+    ],
+    "Name": "Opening over the Middle"
+   }
+  },
+  {
+   "id": "2fe1e0bb-8812-80d7-b6c9-cb6c6d2e62ca",
+   "fields": {
+    "Categories": [
+     "3vs2",
+     "Transition",
+     "Throwin"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/2fe1e0bb-37285c7c.webp"
+    ],
+    "Name": "3 vs 2 Transitions"
+   }
+  },
+  {
+   "id": "2fe1e0bb-8812-80f0-a3af-d795c816b2ec",
+   "fields": {
+    "Categories": [
+     "Passing"
+    ],
+    "Page Content": "<p>One player stands in the middle of a square marked with different colored or numbered cones (distance 3–4 meters).</p><p>The coach or another player calls out a color or number.</p><p>The player in the middle moves toward the called cone without losing eye contact, receives the pass, and plays it directly back with one touch.</p><p>Run the drill for 45 seconds per round.</p><p>We recommend using flat cones to make passing easier.</p>",
+    "Thumbnail": [
+     "images/drills/2fe1e0bb-b38c7156.webp"
+    ],
+    "Name": "Color Passing"
+   }
+  },
+  {
+   "id": "3001e0bb-8812-804c-b448-e5782200160f",
+   "fields": {
+    "Categories": [
+     "2vs1",
+     "Decision Making",
+     "Backcheck"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/3001e0bb-215ad89b.webp"
+    ],
+    "Name": "Bresil"
+   }
+  },
+  {
+   "id": "3001e0bb-8812-807e-9077-db04e5401d8c",
+   "fields": {
+    "Categories": [
+     "Passing",
+     "Rondo"
+    ],
+    "Page Content": null,
+    "Thumbnail": [
+     "images/drills/3001e0bb-5d75c016.webp"
+    ],
+    "Name": "Double Ronodo 5 vs 3"
+   }
+  },
+  {
+   "id": "3001e0bb-8812-80c5-8da8-e9a92ad107fd",
+   "fields": {
+    "Categories": [
+     "2vs1",
+     "Backcheck",
+     "Decision Making"
+    ],
+    "Page Content": "<p>Move the goals to a distance of around 20 meters and run the drill with high intensity in backcheck</p>",
+    "Thumbnail": [
+     "images/drills/3001e0bb-0b07adf9.webp"
+    ],
+    "Name": "Transition with Backcheck"
+   }
+  }
+ ]
+}

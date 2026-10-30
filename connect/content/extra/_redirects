@@ -1,0 +1,7 @@
+# Old Softr pages. Detail pages (?recordId=) are appended by plugins/connect_pages.py.
+/subscribe        https://floorballconnect.substack.com/   302
+/coming-soon      /                                         301
+/sign-in          /                                         301
+/sign-up          https://floorballconnect.substack.com/   302
+/data-stats-analytics  https://stats.floorballconnect.com/  301
+/stats            https://stats.floorballconnect.com/       301

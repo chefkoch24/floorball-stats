@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% set kind = 'stick' if collection.key == 'sticks' else 'blade' %}
+{% set seo_title = item.subtitle ~ ' ' ~ item.title ~ ' review' %}
+{% set seo_description = 'Community ratings and ' ~ item.reviews|length ~ ' player review' ~ ('' if item.reviews|length == 1 else 's') ~ ' of the ' ~ item.subtitle ~ ' ' ~ item.title ~ ' floorball ' ~ kind ~ ': shooting, passing and dribbling.' %}
+{% set og_image = item.image if item.image and not item.image.startswith('http') else '' %}
+{% set average = review_average(item) %}
+
+{% block breadcrumbs %}{{ m.breadcrumbs(collection, item) }}{% endblock %}
+
+{% block content %}
+<section class="fc-product">
+    <figure class="fc-product__media">
+        {% if item.image %}{{ m.image(item.image, item.subtitle ~ ' ' ~ item.title) }}{% endif %}
+        <figcaption>Image is an example. Colours may vary.</figcaption>
+    </figure>
+    <div class="fc-product__info">
+        <span class="fs-label">{{ item.subtitle }}</span>
+        <h1 class="fc-title">{{ item.title }}</h1>
+        <p class="fc-product__count">{{ item.reviews|length }} community review{{ '' if item.reviews|length == 1 else 's' }}</p>
+        {{ m.ratings(average) }}
+        {% if item.facts %}
+        <dl class="fc-facts">{% for label, value in item.facts %}<div><dt class="fs-label">{{ label }}</dt><dd>{{ value }}</dd></div>{% endfor %}</dl>
+        {% endif %}
+        {% if item.body %}<div class="fc-prose">{{ item.body }}</div>{% endif %}
+        <p class="fc-actions"><a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="review-{{ collection.key }}">Review this {{ kind }}</a></p>
+    </div>
+</section>
+
+<section class="fc-section" aria-labelledby="reviewsTitle">
+    <h2 class="fs-section-title" id="reviewsTitle">Reviews</h2>
+    {% if item.reviews %}
+    <div class="fc-reviews">
+        {% for review in item.reviews %}
+        <article class="fc-review">
+            <header class="fc-review__head">
+                <div>
+                    {% if review.headline %}<h3 class="fc-review__title">{{ review.headline }}</h3>{% endif %}
+                    <p class="fc-review__by">by {{ review.name }}{% if review.instagram %} · <a href="https://www.instagram.com/{{ review.instagram }}/" target="_blank" rel="noopener nofollow">@{{ review.instagram }}</a>{% endif %}</p>
+                </div>
+                {% if 'Overall' in review.ratings %}<span class="fc-review__score fs-num">{{ m.rating_value(review.ratings['Overall']) }}<span class="fc-rating__max">/5</span></span>{% endif %}
+            </header>
+            {% if review.text %}<p class="fc-review__text">{{ review.text }}</p>{% endif %}
+            {{ m.ratings(review.ratings, compact=True) }}
+            {% if review.facts %}<p class="fc-card__meta">{% for label, value in review.facts %}{{ label }}: {{ value }}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+            {% if review.images %}<div class="fc-review__images">{% for src in review.images %}{{ m.image(src, 'Photo from ' ~ review.name) }}{% endfor %}</div>{% endif %}
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="fc-empty">No reviews yet. Played with this {{ kind }}? <a href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener">Write the first review</a>.</p>
+    {% endif %}
+</section>
+
+{% if related %}
+<section class="fc-section">
+    <h2 class="fs-section-title">More from {{ item.subtitle }}</h2>
+    <div class="fc-grid fc-grid--media">{% for row in related %}{{ m.card(collection, row) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

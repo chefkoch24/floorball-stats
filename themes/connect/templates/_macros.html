@@ -1,0 +1,66 @@
+{# Shared building blocks for the Floorball Connect pages. #}
+
+{% macro image(src, alt, class='') -%}
+{% if src %}<img class="{{ class }}" src="{{ src if src.startswith('http') else SITEURL ~ '/' ~ src }}" alt="{{ alt }}" loading="lazy" decoding="async">{% endif %}
+{%- endmacro %}
+
+{% macro rating_value(value) -%}
+{{ ('%.1f'|format(value)).rstrip('0').rstrip('.') }}
+{%- endmacro %}
+
+{# Overall plus the three skills as small bars; out of 5. #}
+{% macro ratings(values, compact=False) %}
+{% if values %}
+<dl class="fc-ratings{% if compact %} fc-ratings--compact{% endif %}">
+    {% for name in CONNECT_RATINGS if name in values %}
+    <div class="fc-rating{% if name == 'Overall' %} fc-rating--overall{% endif %}">
+        <dt>{{ name }}</dt>
+        <dd>
+            <span class="fc-rating__bar" aria-hidden="true"><span style="width: {{ (values[name] / 5 * 100)|round(0) }}%"></span></span>
+            <span class="fc-rating__value fs-num">{{ rating_value(values[name]) }}<span class="fc-rating__max">/5</span></span>
+        </dd>
+    </div>
+    {% endfor %}
+</dl>
+{% endif %}
+{% endmacro %}
+
+{# One card in a collection list. #}
+{% macro card(collection, item) %}
+{% set href = SITEURL ~ '/' ~ item.url if collection.detail else (item.link or '') %}
+{% set external = not collection.detail %}
+<article class="fc-card fc-card--{{ collection.card }}" id="{{ item.slug }}" data-filter-item data-facets="{{ item.facet|join('|') }}" data-search="{{ (item.title ~ ' ' ~ item.subtitle ~ ' ' ~ item.summary ~ ' ' ~ item.facet|join(' ') ~ ' ' ~ item.tags|join(' '))|lower|e }}">
+    {% if href %}<a class="fc-card__link" href="{{ href }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{% endif %}
+    {% if collection.card == 'media' %}
+    <div class="fc-card__media{% if collection.key in ('sticks', 'blades', 'equipment') %} fc-card__media--product{% endif %}">
+        {% if item.image %}{{ image(item.image, '') }}{% else %}<span class="fc-card__placeholder" aria-hidden="true">{{ item.title[:1] }}</span>{% endif %}
+    </div>
+    {% endif %}
+    <div class="fc-card__body">
+        {% if item.subtitle and collection.key in ('sticks', 'blades') %}<span class="fs-label">{{ item.subtitle }}</span>{% endif %}
+        <h3 class="fc-card__title">{{ item.title }}</h3>
+        {% if item.subtitle and collection.key not in ('sticks', 'blades') %}<p class="fc-card__subtitle">{{ item.subtitle }}</p>{% endif %}
+        {% if item.summary %}<p class="fc-card__summary">{{ item.summary }}</p>{% endif %}
+        {% if collection.key in ('sticks', 'blades') %}
+        {{ ratings(review_average(item), compact=True) }}
+        <p class="fc-card__meta">{{ item.reviews|length }} review{{ '' if item.reviews|length == 1 else 's' }}</p>
+        {% elif item.facts %}
+        <p class="fc-card__meta">{% for label, value in item.facts if label not in ('Hosts',) %}{{ value }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+        {% endif %}
+        {% if item.tags %}<div class="fc-card__tags">{% for tag in item.tags %}<span class="fs-chip">{{ tag }}</span>{% endfor %}</div>{% endif %}
+        {% if external and collection.link_label and item.link %}<span class="fc-card__more">{{ collection.link_label }} ↗</span>{% endif %}
+    </div>
+    {% if href %}</a>{% endif %}
+</article>
+{% endmacro %}
+
+{% macro breadcrumbs(collection=None, item=None) %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    {% if collection %}
+    <span class="breadcrumbs-separator">/</span>
+    {% if item %}<a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a>{% else %}<span>{{ collection.title }}</span>{% endif %}
+    {% endif %}
+    {% if item %}<span class="breadcrumbs-separator">/</span><span>{{ item.title }}</span>{% endif %}
+</nav>
+{% endmacro %}

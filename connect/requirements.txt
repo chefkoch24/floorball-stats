@@ -1,0 +1,6 @@
+# Netlify installs this for the Connect site (base directory `connect`).
+pelican~=4.8.0
+Markdown~=3.4.3
+Jinja2~=3.1.2
+requests>=2.31
+Pillow>=10.0
