@@ -280,7 +280,10 @@ def simulate_season(
     seed: str = "",
     home_advantage: float = HOME_ADVANTAGE,
     rating_uncertainty: float = RATING_UNCERTAINTY,
+    stakes: dict | None = None,
 ) -> list[TeamProjection]:
+    """Season projections; pass a dict as ``stakes`` to also get, per remaining game, each team's
+    chances after a win and after a loss (see ``_game_stakes``)."""
     teams = sorted(points_now)
     index = {team: position for position, team in enumerate(teams)}
     size = len(teams)
@@ -294,6 +297,7 @@ def simulate_season(
     pts = model.points
     home_awards = np.array([pts["win"], pts["extra_win"], pts["extra_loss"], pts["loss"], pts["draw"]], dtype=float)
     away_awards = np.array([pts["loss"], pts["extra_loss"], pts["extra_win"], pts["win"], pts["draw"]], dtype=float)
+    outcomes: dict[str, tuple[int, int, np.ndarray]] = {}
     for game in remaining:
         if game.home not in index or game.away not in index:
             continue
@@ -304,6 +308,8 @@ def simulate_season(
         outcome = np.minimum((draws[:, None] > cumulative).sum(axis=1), 4)
         totals[:, home] += home_awards[outcome]
         totals[:, away] += away_awards[outcome]
+        if stakes is not None:
+            outcomes[game.game_id] = (home, away, outcome)
 
     tiebreak = np.array([goal_diff_now.get(team, 0) for team in teams], dtype=float) * 1e-4
     keys = totals + tiebreak + rng.random((simulations, size)) * 1e-6
@@ -313,11 +319,16 @@ def simulate_season(
 
     cut = min(playoff_teams, size)
     titles = np.zeros(size)
+    champions = np.full(simulations, -1)
     run_playoffs = bool(rounds) and cut >= 2
     if run_playoffs:
         for sim in range(simulations):
             champion = _play_bracket(list(order[sim, :cut]), strength[sim], rounds, rng, home_advantage)
             titles[champion] += 1
+            champions[sim] = champion
+    if stakes is not None:
+        for game_id, (home, away, outcome) in outcomes.items():
+            stakes[game_id] = _game_stakes(home, away, outcome, ranks, champions if run_playoffs else None, cut)
 
     projections = []
     for team in teams:
@@ -338,6 +349,28 @@ def simulate_season(
         )
     projections.sort(key=lambda item: (-item.rating, item.team))
     return projections
+
+
+def _game_stakes(home: int, away: int, outcome: np.ndarray, ranks: np.ndarray, champions: np.ndarray | None, cut: int) -> dict:
+    """Each team's chance now, after a win and after a loss (overtime included) for one remaining game."""
+    home_won = outcome <= 1
+    away_won = (outcome == 2) | (outcome == 3)
+    result = {}
+    for side, column, won, lost in (("home", home, home_won, away_won), ("away", away, away_won, home_won)):
+        metrics = {"first": ranks[:, column] == 0}
+        if cut:
+            metrics["playoffs"] = ranks[:, column] < cut
+        if champions is not None:
+            metrics["title"] = champions == column
+        result[side] = {
+            name: (
+                float(hit.mean()),
+                float(hit[won].mean()) if won.any() else None,
+                float(hit[lost].mean()) if lost.any() else None,
+            )
+            for name, hit in metrics.items()
+        }
+    return result
 
 
 def _play_bracket(seeds: list[int], strength: np.ndarray, rounds: Sequence[PlayoffRound], rng, home_advantage: float) -> int:

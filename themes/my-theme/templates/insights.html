@@ -124,6 +124,7 @@
                 <th scope="col" data-col="proj" class="{{ phone_top4 }}" title="Chance to finish in the top four">Top 4</th>
                 {% if power.places %}<th scope="col" data-col="proj" title="Chance to finish in the top {{ power.places }}">Playoffs</th>{% endif %}
                 {% if power.has_title %}<th scope="col" data-col="proj" title="Chance to win the playoffs">Title</th>{% endif %}
+                <th scope="col" data-col="proj" class="max-sm:hidden" title="Average rating of the opponents still to play; 1 is the hardest schedule">Schedule</th>
                 {% endif %}
             </tr>
             </thead>
@@ -141,6 +142,7 @@
                 <td data-col="proj" class="{{ phone_top4 }}">{{ row.top4 }}</td>
                 {% if power.places %}<td data-col="proj">{{ row.playoffs }}</td>{% endif %}
                 {% if power.has_title %}<td data-col="proj">{{ row.title }}</td>{% endif %}
+                <td data-col="proj" class="max-sm:hidden">{% if row.schedule %}{{ row.schedule }} <span class="text-xs text-ink-muted">#{{ row.schedule_rank }}</span>{% else %}–{% endif %}</td>
                 {% endif %}
             </tr>
             {% endfor %}
@@ -211,6 +213,7 @@
         <figcaption class="flex justify-between text-xs text-ink-muted"><span>Season start {{ power.season_start }}</span><span>Now {{ power.rating }}</span></figcaption>
     </figure>
     {% endif %}
+    {% if power.schedule %}<p class="m-0 text-sm text-ink-muted">Remaining schedule: <strong class="text-ink">{% if power.schedule_rank == 1 %}the hardest{% elif power.schedule_rank == power.teams %}the easiest{% else %}{{ power.schedule_rank }}. hardest{% endif %}</strong> of {{ power.teams }}, opponents average {{ power.schedule }}.</p>{% endif %}
     {% if power.title != '–' %}<p class="m-0 text-sm text-ink-muted">Chance to finish first <strong class="text-ink">{{ power.first }}</strong>, to win the title <strong class="text-ink">{{ power.title }}</strong>.</p>{% endif %}
 </section>
 {% endif %}
@@ -499,5 +502,51 @@
   }
 })();
 </script>
+{% endif %}
+{% endmacro %}
+
+{% macro stake_card(stake, home, away) %}
+{% if stake %}
+<section class="mb-8 grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="stake-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="stake-title" class="fs-panel-title">What's at stake</h2>
+        {% if stake.game_of_week %}<span class="fs-status fs-status--live">Game of the week</span>{% endif %}
+    </div>
+    <p class="m-0 font-display text-xl leading-snug font-semibold text-ink text-balance">{{ stake.sentence }}</p>
+    {% if stake.metrics %}
+    <div class="grid grid-cols-[minmax(0,1fr)_3.25rem_3.25rem_3.25rem] items-baseline gap-x-2 text-sm tabular-nums" role="table" aria-label="Chances today, after a win and after a loss">
+        <span role="row" class="contents"><span role="columnheader" class="fs-label">Team</span><span role="columnheader" class="fs-label text-right">Today</span><span role="columnheader" class="fs-label text-right">Win</span><span role="columnheader" class="fs-label text-right">Loss</span></span>
+        {% for metric in stake.metrics %}
+        <span role="row" class="contents"><span role="rowheader" class="col-span-4 mt-2 border-t border-line pt-2 font-semibold text-ink">{{ metric.label }}</span></span>
+        {% for row in metric.teams %}
+        <span role="row" class="contents">
+            <span role="cell" class="min-w-0 truncate text-ink-muted">{{ row.team }}</span>
+            <span role="cell" class="text-right">{{ row.chances[0] }}</span>
+            <span role="cell" class="text-right font-bold text-ink">{{ row.chances[1] }}</span>
+            <span role="cell" class="text-right">{{ row.chances[2] }}</span>
+        </span>
+        {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    <p class="m-0 text-xs text-ink-muted">From the season simulations: each team's chance today, in the seasons where it wins this game (overtime included) and in those where it loses. {{ explain('stakes') }}</p>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro game_of_week(game) %}
+{% if game %}
+<a class="mb-8 grid gap-2 rounded-lg border border-line bg-surface-raised p-4 text-ink hover:border-rink hover:no-underline" href="{{ SITEURL }}/{{ game.url }}">
+    <span class="flex flex-wrap items-center justify-between gap-2">
+        <span class="fs-status fs-status--live">{{ game.headline }}</span>
+        <span class="text-sm text-ink-muted">{{ game.date.strftime('%a %-d %b') }}{% if game.start_time %} · {{ game.start_time|fmt_time('') }}{% endif %}</span>
+    </span>
+    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-xl font-bold">
+        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.home|crest_index }}" aria-hidden="true">{{ game.home|team_initials }}</span><span>{{ game.home }}</span></span>
+        <span class="text-ink-muted">vs</span>
+        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.away|crest_index }}" aria-hidden="true">{{ game.away|team_initials }}</span><span>{{ game.away }}</span></span>
+    </span>
+    <span class="text-sm text-ink-muted">{{ game.sentence }}</span>
+</a>
 {% endif %}
 {% endmacro %}

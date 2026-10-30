@@ -37,9 +37,12 @@ from src import player_insights as pi  # noqa: E402
 from src import power_rankings as pr  # noqa: E402
 from src import standings_history as sh  # noqa: E402
 from src import game_flow as gf  # noqa: E402
+from src import stakes as st  # noqa: E402
 
 CONFIG_DIR = ROOT / "config" / "leagues"
 CATEGORY_PATTERN = re.compile(r"^(?P<prefix>[a-z]*-?)(?P<season>\d{2}-\d{2})-(?P<phase>regular-season|playoffs)$")
+# "Game of the week" is picked among the games of the next round (days from the first upcoming game).
+NEXT_ROUND_DAYS = 6
 # A probability is only shown once both teams have this many rated games behind them.
 MIN_RATED_GAMES = 3
 UPSET_THRESHOLD = 0.35
@@ -591,6 +594,50 @@ def _bump_chart(history: sh.StandingsHistory, teams: dict, crest_index, highligh
     }
 
 
+def _attach_stakes(category: str, entries, game_stakes: dict, league_context) -> None:
+    """One sentence on what an upcoming game decides, and the game of the week."""
+    upcoming = []
+    for article, result in entries:
+        if result.played or _category(article) != category or result.game_id not in game_stakes:
+            continue
+        stakes = game_stakes[result.game_id]
+        stake = st.describe(result.game_id, result.home, result.away, stakes)
+        if stake is None:
+            continue
+
+        # Only chances that are still open for at least one team (not all 0% or 100%).
+        metrics = []
+        for name, label in (("playoffs", "Playoffs"), ("title", "Title"), ("first", "1st place")):
+            values = [value for side in ("home", "away") for value in stakes[side].get(name, ()) if value is not None]
+            if values and any(0.005 <= value <= 0.995 for value in values):
+                metrics.append(
+                    {
+                        "label": label,
+                        "teams": [
+                            {"team": team, "chances": [_percent(value) if value is not None else "–" for value in stakes[side][name]]}
+                            for side, team in (("home", result.home), ("away", result.away))
+                        ],
+                    }
+                )
+        article.stake = {"sentence": stake.sentence, "situation": stake.situation, "metrics": metrics}
+        upcoming.append((article, result, stake))
+    if not upcoming:
+        return
+    first_day = min(result.day for _, result, _ in upcoming)
+    next_round = [item for item in upcoming if (item[1].day - first_day).days <= NEXT_ROUND_DAYS]
+    article, result, stake = max(next_round, key=lambda item: (item[2].weight, item[1].game_id))
+    article.stake["game_of_week"] = True
+    league_context[category]["game_of_week"] = {
+        "url": article.url,
+        "home": result.home,
+        "away": result.away,
+        "date": article.date,
+        "start_time": _meta(article, "start_time"),
+        "headline": st.headline(result.game_id),
+        "sentence": stake.sentence,
+    }
+
+
 def _league_power(prefix, category, current_season, run, results, season_results, team_articles, entries, league_context):
     teams = {(_meta(article, "team") or _meta(article, "title")): article for article in team_articles}
     ratings = {team: run.ratings.get(team, pr.BASE_RATING) for team in teams}
@@ -612,6 +659,7 @@ def _league_power(prefix, category, current_season, run, results, season_results
     playoffs_started = any(result.played and result.phase == "playoffs" and result.season == current_season for result in results)
     places, rounds = _playoff_format(prefix, current_season)
     projections = {}
+    game_stakes: dict = {}
     if not playoffs_started:
         model = pr.league_model([result for result in results if result.phase == "regular-season"])
         points_now = {team: _int(article, "points") or 0 for team, article in teams.items()}
@@ -626,8 +674,18 @@ def _league_power(prefix, category, current_season, run, results, season_results
             rounds=rounds if places else (),
             simulations=SIMULATIONS,
             seed=category,
+            stakes=game_stakes,
         )
         projections = {item.team: item for item in simulated}
+    _attach_stakes(category, entries, game_stakes, league_context)
+
+    # Remaining schedule: average rating of the opponents still to play, 1 = hardest.
+    schedule = {}
+    for team in teams:
+        opponents = [ratings.get(r.away if r.home == team else r.home, pr.BASE_RATING) for r in remaining if team in (r.home, r.away)]
+        if opponents:
+            schedule[team] = sum(opponents) / len(opponents)
+    schedule_rank = {team: position + 1 for position, team in enumerate(sorted(schedule, key=lambda team: -schedule[team]))}
 
     season_ids = {result.game_id for result in season_results}
     played_in_order = sorted((result for result in season_results if result.played), key=lambda result: result.sort_key)
@@ -661,6 +719,8 @@ def _league_power(prefix, category, current_season, run, results, season_results
             "top4": _percent(projection.top4) if projection else "–",
             "playoffs": _percent(projection.playoffs) if projection and places else "–",
             "title": _percent(projection.title) if projection and projection.title is not None else "–",
+            "schedule": round(schedule[team]) if team in schedule else None,
+            "schedule_rank": schedule_rank.get(team),
             "spark": _sparkline(histories.get(team, [])),
             "season_start": round(histories[team][0]) if histories.get(team) else None,
         }
