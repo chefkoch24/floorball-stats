@@ -6,13 +6,13 @@ type: team
 team:Ķekava/RB&B
 platzierungsverlauf:lv-25-26-playoffs/teams/kekava-rb-and-b-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 5
-boxplay: 26
-boxplay_efficiency: 84.62
-boxplay_first_period: 10
+boxplay: 17
+boxplay_efficiency: 76.47
+boxplay_first_period: 7
 boxplay_overtime: 0
-boxplay_per_game: 3.71
-boxplay_second_period: 12
-boxplay_third_period: 4
+boxplay_per_game: 2.43
+boxplay_second_period: 8
+boxplay_third_period: 2
 close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: n.a.
@@ -46,7 +46,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 3
+goals_in_powerplay: 4
 goals_in_second_period: 13
 goals_in_second_period_against: 13
 goals_in_third_period: 15
@@ -59,11 +59,11 @@ over_time_losses: 0
 over_time_wins: 1
 penalties: 24
 penalties_per_game: 3.43
-penalty_10: 0
-penalty_2: 15
+penalty_10: 2
+penalty_2: 22
 penalty_2and2: 0
 penalty_first_period: 8
-penalty_ms: 9
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 9
 penalty_shootout_losses: 0
@@ -91,13 +91,13 @@ Tags:  Lekrings: 8,
 points_max_difference_2: 0
 points_more_2_difference: 8
 points_per_game: 1.14
-powerplay: 22
-powerplay_efficiency: 13.639999999999999
+powerplay: 26
+powerplay_efficiency: 15.379999999999999
 powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 3.14
-powerplay_second_period: 9
-powerplay_third_period: 11
+powerplay_per_game: 3.71
+powerplay_second_period: 11
+powerplay_third_period: 13
 rank: 5
 scoring_ratio: 1.03
 take_the_lead_goals: 5
