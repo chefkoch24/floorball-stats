@@ -12,7 +12,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SITENAME = 'Floorball Connect'
 SITEURL = ''
 STATS_URL = 'https://stats.floorballconnect.com'
-NEWSLETTER_URL = 'https://floorballconnect.substack.com/'
+# Newsletter: MailerLite form with double opt-in (the form the Softr site used).
+MAILERLITE_FORM = 'https://assets.mailerlite.com/jsonp/1555021/forms/163099056744171464/subscribe'
+SUBSTACK_URL = 'https://floorballconnect.substack.com/'
 CONTACT_EMAIL = 'hello@floorballconnect.com'
 SOCIAL_LINKS = [
     ('Instagram', 'https://www.instagram.com/floorballconnect/'),

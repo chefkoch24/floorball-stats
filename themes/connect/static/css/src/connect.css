@@ -143,6 +143,57 @@
   .fc-faq__item summary { padding: var(--space-4); color: var(--ink); font-weight: 600; cursor: pointer; }
   .fc-faq__item p { margin: 0; padding: 0 var(--space-4) var(--space-4); color: var(--ink-muted); }
 
+  /* Live stats block on the home page */
+  .fc-live { margin-top: var(--space-8); padding: var(--space-6); border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface-raised); }
+  .fc-live[hidden] { display: none; }
+  .fc-live .fc-section__head { align-items: center; flex-wrap: wrap; }
+  .fc-live__games { display: grid; gap: var(--space-2); margin-bottom: var(--space-6); }
+  .fc-live__label, .fc-live__hint { margin: 0; color: var(--ink-muted); font-size: 14px; }
+  .fc-live__hint { margin: 4px 0 var(--space-3); }
+  .fc-live__grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: var(--space-8); }
+  .fc-live__leagues { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr)); gap: var(--space-3); }
+  .fc-league { display: grid; gap: 4px; padding: var(--space-3) var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); color: var(--ink); }
+  .fc-league:hover { border-color: var(--rink); text-decoration: none; }
+  .fc-league strong { font: 700 17px/1.2 var(--font-display); font-stretch: 85%; }
+  .fc-league ol { display: grid; gap: 6px; margin: var(--space-2) 0 0; padding: 0; list-style: none; }
+  .fc-league li, .fc-live__leaders li { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; }
+  .fc-league { min-width: 0; overflow: hidden; }
+  .fc-league li { min-width: 0; }
+  .fc-league .fs-team { display: flex; flex: 1 1 auto; min-width: 0; }
+  .fc-league .fs-team > span:last-child { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .fc-league__rating { flex: none; }
+  .fc-league__rank { width: 1.2rem; color: var(--ink-muted); font-weight: 700; text-align: right; }
+  .fc-league__rating { color: var(--ink-muted); font-size: 13px; }
+  .fc-live__leaders { display: grid; gap: var(--space-3); margin: 0 0 var(--space-3); padding: 0; list-style: none; }
+  .fc-leader__who { display: grid; flex: 1; min-width: 0; color: var(--ink); font-weight: 600; }
+  .fc-leader__who a { color: inherit; }
+  .fc-leader__who small, .fc-leader__value small { color: var(--ink-muted); font-weight: 500; font-size: 12px; }
+  .fc-leader__value { display: grid; justify-items: end; color: var(--ink); font: 800 20px/1 var(--font-display); }
+  .fc-chance { color: var(--ink-muted); font-size: 14px; font-weight: 600; }
+  @media (max-width: 800px) {
+    .fc-live { padding: var(--space-4); }
+    .fc-live__grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+    .fc-live__leagues { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
+    .fc-live__leagues > * { flex: 0 0 80%; scroll-snap-align: start; }
+  }
+
+  /* Newsletter sign-up */
+  .fc-signup { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); max-width: 520px; }
+  .fc-signup input[type="email"] {
+    flex: 1 1 220px;
+    min-width: 0;
+    padding: 10px var(--space-3);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-sm);
+    background: var(--surface-raised);
+    color: var(--ink);
+    font: 400 16px/1.3 var(--font-body);
+  }
+  .fc-signup__note { flex-basis: 100%; margin: 0; color: var(--ink-muted); font-size: 13px; }
+  .fc-subscribe { display: grid; gap: var(--space-3); max-width: 640px; padding: var(--space-8) 0; }
+  .fc-subscribe .fc-lead p { margin: 0; }
+  .fc-subscribe__perks { display: grid; gap: 6px; margin: var(--space-2) 0 0; padding-left: 1.2em; list-style: disc; color: var(--ink); }
+
   /* Newsletter card */
   .fc-newsletter {
     display: flex;
@@ -225,21 +276,40 @@
   .fc-card__tags { display: flex; flex-wrap: wrap; gap: 4px; }
   .fc-card__more { color: var(--rink); font-weight: 600; font-size: 14px; }
 
-  /* Ratings out of 5 */
-  .fc-ratings { display: grid; gap: 6px; margin: var(--space-2) 0; }
-  .fc-rating { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); align-items: center; gap: var(--space-2); }
-  .fc-rating dt { color: var(--ink-muted); font-size: 13px; }
-  .fc-rating dd { display: flex; align-items: center; gap: var(--space-2); margin: 0; }
-  .fc-rating__bar { flex: 1; height: 6px; border-radius: var(--radius-pill); background: var(--surface-sunken); overflow: hidden; }
-  .fc-rating__bar span { display: block; height: 100%; border-radius: inherit; background: var(--rink); }
-  .fc-rating--overall .fc-rating__bar span { background: var(--ball); }
-  .fc-rating__value { min-width: 2.6rem; color: var(--ink); font: 700 15px/1 var(--font-display); text-align: right; }
-  .fc-rating__max { color: var(--ink-muted); font-weight: 500; font-size: 0.8em; }
-  .fc-rating--overall .fc-rating__value { font-size: 18px; }
-  .fc-ratings--compact { margin: 2px 0; gap: 3px; }
-  .fc-ratings--compact .fc-rating { grid-template-columns: 4.6rem minmax(0, 1fr); }
-  .fc-ratings--compact .fc-rating dt { font-size: 12px; }
-  .fc-ratings--compact .fc-rating__value { font-size: 13px; }
+  /* Ratings out of 5: stars filled to the value, in the ball colour. */
+  .fc-stars {
+    --size: 18px;
+    position: relative;
+    display: inline-block;
+    flex: none;
+    width: calc(var(--size) * 5);
+    height: var(--size);
+    background: var(--line);
+    -webkit-mask: var(--star-mask) 0 0 / var(--size) var(--size) repeat-x;
+    mask: var(--star-mask) 0 0 / var(--size) var(--size) repeat-x;
+    --star-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 1.8l3.1 6.4 7 1-5.1 4.9 1.2 7L12 17.8l-6.2 3.3 1.2-7L1.9 9.2l7-1z'/%3E%3C/svg%3E");
+  }
+  .fc-stars::before { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--fill); background: var(--ball); }
+  .fc-stars--lg { --size: 26px; }
+  .fc-stars--sm { --size: 14px; }
+  .fc-ratings { display: grid; gap: var(--space-2); margin: var(--space-2) 0; }
+  .fc-rating-overall { display: flex; align-items: center; gap: var(--space-2); margin: 0; }
+  .fc-rating__value { color: var(--ink); font: 800 22px/1 var(--font-display); }
+  .fc-stars--lg + .fc-rating__value { font-size: 30px; }
+  .fc-skills { display: grid; grid-template-columns: repeat(3, minmax(0, max-content)); gap: var(--space-1) var(--space-4); margin: 0; }
+  .fc-skill dt { color: var(--ink-muted); font: 600 12px/1.3 var(--font-body); }
+  .fc-skill dd { display: flex; align-items: center; gap: 6px; margin: 2px 0 0; color: var(--ink); font: 700 14px/1 var(--font-display); }
+  .fc-ratings--compact { gap: 6px; margin: 2px 0; }
+  .fc-ratings--compact .fc-rating__value { font-size: 18px; }
+  .fc-ratings--compact .fc-skills { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .fc-ratings--compact .fc-skill { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); }
+  .fc-ratings--compact .fc-skill dd { margin: 0; }
+  @media (max-width: 480px) {
+    .fc-skills { grid-template-columns: minmax(0, 1fr); }
+    .fc-skill { display: flex; align-items: center; justify-content: space-between; }
+    .fc-skill dd { margin: 0; }
+  }
+  .fc-soon { margin-left: 4px; padding: 1px 6px; border-radius: var(--radius-pill); background: var(--surface-sunken); color: var(--ink-muted); font-size: 11px; font-weight: 600; vertical-align: middle; }
 
   /* Stick and blade pages */
   .fc-product { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: var(--space-8); align-items: start; }
@@ -257,7 +327,7 @@
   .fc-review__head { display: flex; justify-content: space-between; gap: var(--space-3); }
   .fc-review__title { margin: 0; color: var(--ink); font: 700 18px/1.2 var(--font-display); font-stretch: 85%; }
   .fc-review__by { margin: 2px 0 0; color: var(--ink-muted); font-size: 13px; }
-  .fc-review__score { color: var(--ink); font: 800 26px/1 var(--font-display); }
+  .fc-review__score { flex: none; }
   .fc-review__text { margin: 0; color: var(--ink); white-space: pre-line; }
   .fc-review__images { display: flex; gap: var(--space-2); overflow-x: auto; }
   .fc-review__images img { height: 120px; width: auto; border-radius: var(--radius-sm); border: 1px solid var(--line); }

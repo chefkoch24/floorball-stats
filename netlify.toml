@@ -2,3 +2,10 @@
 # Netlify's noble build image installs Python via mise, which rejects releases
 # without GitHub artifact attestations (e.g. 3.11.9). 3.13 builds cleanly.
 PYTHON_VERSION = "3.13"
+
+# The main site (www.floorballconnect.com) loads its live stats block from here.
+[[headers]]
+  for = "/connect-feed.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=600"

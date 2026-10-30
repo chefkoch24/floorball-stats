@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set seo_title = page.title %}
+{% set seo_description = page.summary %}
+{% set page_name = page.url %}
+
+{% block content %}
+<section class="fc-subscribe">
+    <span class="fs-label">Newsletter</span>
+    <h1 class="fc-title">{{ page.title }}</h1>
+    <div class="fc-lead">{{ page.content }}</div>
+    {{ m.signup('signup-page', 'Join now') }}
+    <ul class="fc-subscribe__perks">
+        <li>Our 10-minute stickhandling routine, free when you sign up</li>
+        <li>New stick and blade reviews from players</li>
+        <li>Drills, guides and where to watch the big games</li>
+    </ul>
+</section>
+{% endblock %}
+
+{% block newsletter %}{% endblock %}

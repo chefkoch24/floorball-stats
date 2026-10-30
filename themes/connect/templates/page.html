@@ -7,6 +7,8 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{ SITEURL }}/">Home</a><span class="breadcrumbs-separator">/</span><span>{{ page.title }}</span></nav>
 {% endblock %}
 
+{% block newsletter %}{% if not page.hide_newsletter %}{{ super() }}{% endif %}{% endblock %}
+
 {% block content %}
 <article class="fc-article">
     <header class="fc-article__head">

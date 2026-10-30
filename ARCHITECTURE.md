@@ -242,6 +242,14 @@ repository. It replaced the Softr site and shares the design system with the sta
   `/floorball-sticks/<brand>-<name>/`.
 - Netlify: a second site with base directory `connect` (`connect/netlify.toml`); it only
   rebuilds when `connect/`, `themes/connect` or the shared CSS sources change.
+- Live stats on the home page: the stats build writes `connect-feed.json`
+  (`plugins/connect_feed.py`: games around today with win chances, the top five of every
+  current league's power ranking, the points and goals leaders per division). The home page
+  loads it in the browser (CORS header in the root `netlify.toml`), so it is as fresh as the
+  stats site without rebuilding the main site; without the feed the block stays hidden.
+- Newsletter: the MailerLite form the Softr site used (double opt-in; `/confirmation-missing/`
+  after signing up, `/confirmation/` after confirming). `MAILERLITE_FORM` in
+  `connect/pelicanconf.py`; the form posts directly to MailerLite from the browser.
 - Deploy previews of the stats site also contain the main site under `/connect-preview/`
   (`plugins/connect_preview.py`, switched on by `CONNECT_PREVIEW` in `publishconf.py`), so a
   pull request shows both sites; production builds skip it.

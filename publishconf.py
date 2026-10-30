@@ -14,6 +14,7 @@ if os.environ.get('CONTEXT') in ('deploy-preview', 'branch-deploy') and os.envir
     # The main site (connect/) is built into the preview as well, see plugins/connect_preview.py.
     CONNECT_PREVIEW = True
     CONNECT_URL = SITEURL + '/connect-preview'
+    NEWSLETTER_URL = CONNECT_URL + '/subscribe/'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

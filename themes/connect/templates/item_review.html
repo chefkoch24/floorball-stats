@@ -38,10 +38,11 @@
                     {% if review.headline %}<h3 class="fc-review__title">{{ review.headline }}</h3>{% endif %}
                     <p class="fc-review__by">by {{ review.name }}{% if review.instagram %} · <a href="https://www.instagram.com/{{ review.instagram }}/" target="_blank" rel="noopener nofollow">@{{ review.instagram }}</a>{% endif %}</p>
                 </div>
-                {% if 'Overall' in review.ratings %}<span class="fc-review__score fs-num">{{ m.rating_value(review.ratings['Overall']) }}<span class="fc-rating__max">/5</span></span>{% endif %}
+                {% if 'Overall' in review.ratings %}<span class="fc-review__score">{{ m.stars(review.ratings['Overall']) }}</span>{% endif %}
             </header>
             {% if review.text %}<p class="fc-review__text">{{ review.text }}</p>{% endif %}
-            {{ m.ratings(review.ratings, compact=True) }}
+            {% set skills = {} %}{% for name, value in review.ratings.items() if name != 'Overall' %}{% set _ = skills.update({name: value}) %}{% endfor %}
+            {{ m.ratings(skills, compact=True) }}
             {% if review.facts %}<p class="fc-card__meta">{% for label, value in review.facts %}{{ label }}: {{ value }}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
             {% if review.images %}<div class="fc-review__images">{% for src in review.images %}{{ m.image(src, 'Photo from ' ~ review.name) }}{% endfor %}</div>{% endif %}
         </article>

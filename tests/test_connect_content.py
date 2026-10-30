@@ -97,3 +97,10 @@ def test_committed_data_loads_for_every_collection() -> None:
             for path in [item.image, *(src for review in item.reviews for src in review["images"])]:
                 if path and not path.startswith("http"):
                     assert (ROOT / "connect" / "content" / path).exists(), path
+
+
+def test_deals_link_to_the_shop_even_without_a_scheme() -> None:
+    item = cc.normalize(cc.BY_KEY["deals"], {"id": "d", "fields": {"Name": "Floorball Planet", "Description": "20% off", "Discount": "up to 20%", "URL": " www.floorball-planet.de"}})
+    assert item.link == "https://www.floorball-planet.de"
+    assert item.tags == ["up to 20%"]
+    assert cc.web_url("https://shop.example/x") == "https://shop.example/x"

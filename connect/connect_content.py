@@ -53,6 +53,11 @@ COLLECTIONS = [
         facet="Categories", link_label="View product",
     ),
     Collection(
+        "deals", "black-friday-deals", "Black Friday deals", "Gear",
+        "The best floorball Black Friday deals in one place, collected by the community.",
+        detail=False, card="text", link_label="Go to the deal",
+    ),
+    Collection(
         "drills", "floorball-drills", "Drills", "Learn",
         "Floorball drills with setup, sequence and coaching points.",
         legacy_detail="floorball-drill", facet="Categories",
@@ -127,6 +132,14 @@ def _rating(fields: dict, name: str) -> float | None:
     return _number(fields.get(f"{name} Rating", fields.get(f"{name} Rating ")))
 
 
+def web_url(text: str) -> str:
+    """A link as people type it ("www.shop.com", " https://…") as a full https URL."""
+    text = (text or "").strip()
+    if not text:
+        return ""
+    return text if re.match(r"^https?://", text) else f"https://{text.lstrip('/')}"
+
+
 def youtube_id(url: str) -> str:
     """The video id in a YouTube watch, share or thumbnail link."""
     match = re.search(r"(?:youtu\.be/|[?&]v=|ytimg\.com/vi/|youtube\.com/(?:embed|shorts)/)([A-Za-z0-9_-]{11})", url or "")
@@ -197,6 +210,11 @@ def normalize(collection: Collection, record: dict) -> Item:
         item.summary = _text(fields.get("Short Description"))
         item.tags = item.facet = _list(fields.get("Categories"))
         item.link = _text(fields.get("URL"))
+    elif key == "deals":
+        item.title = _text(fields.get("Name"))
+        item.summary = _text(fields.get("Description"))
+        item.tags = _list(fields.get("Discount"))
+        item.link = web_url(_text(fields.get("URL") or fields.get("Website")))
     elif key == "drills":
         item.title = _text(fields.get("Name"))
         item.tags = item.facet = _list(fields.get("Categories"))

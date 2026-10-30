@@ -1,12 +1,43 @@
 {
-  "sticks": {"database": "<notion database id>", "reviews": {"database": "<review database id>", "relation": "<relation property on the review>"}},
-  "blades": {"database": "<notion database id>", "reviews": {"database": "<review database id>", "relation": "<relation property on the review>"}},
-  "equipment": {"database": "<notion database id>"},
-  "drills": {"database": "<notion database id>"},
-  "guides": {"database": "<notion database id>"},
-  "lexicon": {"database": "<notion database id>"},
-  "books": {"database": "<notion database id>"},
-  "watch": {"database": "<notion database id>"},
-  "documentaries": {"database": "<notion database id>"},
-  "podcasts": {"database": "<notion database id>"}
+  "sticks": {
+    "database": "<notion database id>",
+    "reviews": {
+      "database": "<review database id>",
+      "relation": "<relation property on the review>"
+    }
+  },
+  "blades": {
+    "database": "<notion database id>",
+    "reviews": {
+      "database": "<review database id>",
+      "relation": "<relation property on the review>"
+    }
+  },
+  "equipment": {
+    "database": "<notion database id>"
+  },
+  "drills": {
+    "database": "<notion database id>"
+  },
+  "guides": {
+    "database": "<notion database id>"
+  },
+  "lexicon": {
+    "database": "<notion database id>"
+  },
+  "books": {
+    "database": "<notion database id>"
+  },
+  "watch": {
+    "database": "<notion database id>"
+  },
+  "documentaries": {
+    "database": "<notion database id>"
+  },
+  "podcasts": {
+    "database": "<notion database id>"
+  },
+  "deals": {
+    "database": "<notion database id: Black Friday Deals>"
+  }
 }

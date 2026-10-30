@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/app.css">
     {% block head %}{% endblock %}
 </head>
+{% import "_macros.html" as m with context %}
 <body>
 <header class="site-header">
     <div class="header-inner">
@@ -49,7 +50,7 @@
         <a class="header-link header-link--wide" href="{{ SITEURL }}/floorball-sticks/">Reviews</a>
         <a class="header-link header-link--wide" href="{{ SITEURL }}/watch-floorball/">Watch</a>
         <div class="header-actions">
-            <a class="fc-cta" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="header">Newsletter</a>
+            <a class="fc-cta" href="{{ SITEURL }}/subscribe/" data-cta="header">Join for free</a>
             <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
         </div>
     </div>
@@ -67,6 +68,10 @@
                     {% for collection in CONNECT_COLLECTIONS if collection.nav == group %}
                     <li><a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a></li>
                     {% endfor %}
+                    {% if group == 'Learn' %}
+                    <li><a href="{{ SITEURL }}/coming-soon/">Courses <span class="fc-soon">Soon</span></a></li>
+                    <li><a href="{{ SITEURL }}/coming-soon/">Camps <span class="fc-soon">Soon</span></a></li>
+                    {% endif %}
                 </ul>
             </div>
             {% endfor %}
@@ -74,7 +79,8 @@
                 <span class="fs-label">Floorball Connect</span>
                 <ul>
                     <li><a href="{{ SITEURL }}/about-us/">About us</a></li>
-                    <li><a href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener">Newsletter</a></li>
+                    <li><a href="{{ SITEURL }}/subscribe/">Newsletter</a></li>
+                    <li><a href="{{ SUBSTACK_URL }}" target="_blank" rel="noopener">Substack</a></li>
                     <li><a href="mailto:{{ CONTACT_EMAIL }}">Contact</a></li>
                 </ul>
             </div>
@@ -89,10 +95,10 @@
         {% block newsletter %}
         <aside class="fc-newsletter" aria-labelledby="newsletterTitle">
             <div>
-                <h2 class="fs-panel-title" id="newsletterTitle">Get Floorball Connect in your inbox</h2>
-                <p>New reviews, drills and guides, plus a free 10-minute stickhandling routine when you sign up.</p>
+                <h2 class="fs-panel-title" id="newsletterTitle">Become a part of Floorball Connect</h2>
+                <p>New reviews, drills and guides in your inbox, plus our 10-minute stickhandling routine for free.</p>
             </div>
-            <a class="fs-btn fs-btn--primary" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="newsletter-card">Subscribe for free</a>
+            {{ m.signup('signup-footer') }}
         </aside>
         {% endblock %}
     </div>
@@ -104,7 +110,9 @@
         <span class="footer-divider">·</span>
         <a class="footer-link" href="{{ STATS_URL }}/">Stats</a>
         <span class="footer-divider">·</span>
-        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener">Newsletter</a>
+        <a class="footer-link" href="{{ SITEURL }}/subscribe/">Newsletter</a>
+        <span class="footer-divider">·</span>
+        <a class="footer-link" href="{{ SUBSTACK_URL }}" target="_blank" rel="noopener">Substack</a>
         <span class="footer-divider">·</span>
         {% for name, url in SOCIAL_LINKS %}
         <a class="footer-link" href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>
