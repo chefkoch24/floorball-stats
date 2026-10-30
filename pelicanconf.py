@@ -7,6 +7,9 @@ import zlib
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 FEEDBACK_EMAIL = 'hello@floorballconnect.com'
+# The main site (connect/) and its newsletter, linked from the menu and the footer.
+CONNECT_URL = 'https://www.floorballconnect.com'
+NEWSLETTER_URL = 'https://floorballconnect.substack.com/'
 # Payment link for the support banner (Ko-fi, Stripe Payment Link, ...); banner stays hidden while empty
 SUPPORT_URL = os.environ.get('SUPPORT_URL', '')
 PLUGIN_PATHS = ['plugins']
