@@ -10,7 +10,8 @@ Attaches to articles:
 - player: ``clutch`` (this season and all tracked games) and ``partners``
 - team (current season): ``power`` (rating, rank, trend, projection, sparkline),
   ``duos`` and ``clutch_players``; every regular-season team: ``table_history``
-- game: ``win_probability`` (pre-game, from the ratings before that game) and
+- game: ``win_probability`` (pre-game, from the ratings before that game),
+  ``game_story`` (live win chance line, lead changes, key moments, excitement) and
   moment labels (game winner, clutch, overtime) inside ``game_events_b64``
 
 and ``LEAGUE_INSIGHTS[category slug]`` (with ``table_history`` for every regular
@@ -35,6 +36,7 @@ if str(ROOT) not in sys.path:
 from src import player_insights as pi  # noqa: E402
 from src import power_rankings as pr  # noqa: E402
 from src import standings_history as sh  # noqa: E402
+from src import game_flow as gf  # noqa: E402
 
 CONFIG_DIR = ROOT / "config" / "leagues"
 CATEGORY_PATTERN = re.compile(r"^(?P<prefix>[a-z]*-?)(?P<season>\d{2}-\d{2})-(?P<phase>regular-season|playoffs)$")
@@ -47,6 +49,8 @@ SPARK_WIDTH, SPARK_HEIGHT = 240, 48
 # Table history chart: rows in CSS pixels (one per table place), rounds spread over a
 # 0..BUMP_WIDTH viewBox that the page stretches to the column width.
 BUMP_ROW, BUMP_PAD, BUMP_WIDTH = 24, 10, 1000
+# Game story chart: win chance from top (home 100%) to bottom (away 100%).
+STORY_WIDTH, STORY_HEIGHT = 1000, 180
 
 
 def _meta(article, key: str, default: str = "") -> str:
@@ -280,12 +284,140 @@ def _attach_power(games_by_category, teams_by_category, current_season, league_c
                 "winner_label": _percent(winner_p) if winner_p is not None else "",
             }
 
+        _attach_game_stories(entries, run, league_context)
+
         category = f"{prefix}{current_season}-regular-season"
         team_articles = teams_by_category.get(category, [])
         season_results = [result for result in results if result.season == current_season and result.phase == "regular-season"]
         if not team_articles or not any(result.played for result in season_results):
             continue
         _league_power(prefix, category, current_season, run, results, season_results, team_articles, entries, league_context)
+
+
+def _clock(minute: float) -> str:
+    if minute > gf.REGULATION_MINUTES:
+        rest = minute - gf.REGULATION_MINUTES
+        return f"OT {int(rest):02d}:{round((rest % 1) * 60):02d}"
+    seconds = round(minute * 60)
+    return f"{seconds // 60:02d}:{seconds % 60:02d}"
+
+
+def _story_goals(article) -> list[gf.FlowGoal]:
+    """Goals in play order from the event payload, or from the timeline fields when a game has no events."""
+    goals = []
+    for index, event in enumerate(pi.decode_events(_meta(article, "game_events_b64"))):
+        if event.get("event_kind") != "goal" or event.get("side") not in ("home", "away"):
+            continue
+        try:
+            period = int(event.get("period") or 0)
+        except (TypeError, ValueError):
+            continue
+        if period < 1 or period >= pi.SHOOTOUT_PERIOD or str(event.get("minute") or "").upper().startswith("PS"):
+            continue
+        in_period = pi.minute_in_period(event.get("minute"), period)
+        if in_period is None:
+            continue
+        scorer = "Own goal" if event.get("tag") == pi.OWN_GOAL_TAG else str(event.get("title") or "")
+        goals.append(gf.FlowGoal(minute=gf.goal_minute(period, in_period), side=event["side"], scorer=scorer, index=index))
+    if goals:
+        return goals
+    minutes = [float(value) for value in _meta(article, "timeline_minutes_csv").split(",") if value.strip()]
+    diffs = [int(float(value)) for value in _meta(article, "timeline_diffs_csv").split(",") if value.strip()]
+    for position in range(1, min(len(minutes), len(diffs))):
+        side = "home" if diffs[position] > diffs[position - 1] else "away"
+        goals.append(gf.FlowGoal(minute=minutes[position], side=side))
+    return goals
+
+
+def _penalty_bands(article, side: str, end: float) -> list[dict]:
+    starts = [float(value) for value in _meta(article, f"{side}_penalty_minutes_csv").split(",") if value.strip()]
+    ends = [float(value) for value in _meta(article, f"{side}_penalty_ends_csv").split(",") if value.strip()]
+    bands = []
+    for position, start in enumerate(starts):
+        stop = ends[position] if position < len(ends) else start + 2
+        stop = max(stop, start + 0.3)
+        bands.append({"x": round(start / end * STORY_WIDTH, 1), "w": round((stop - start) / end * STORY_WIDTH, 1)})
+    return bands
+
+
+def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
+    by_category: dict[str, list] = defaultdict(list)
+    for article, result in entries:
+        if not result.played:
+            continue
+        goals = _story_goals(article)
+        if not goals:
+            continue
+        pregame = run.pregame[result.game_id][2]
+        timeline_end = float(_meta(article, "timeline_max_minute") or gf.REGULATION_MINUTES)
+        story = gf.game_story(pregame, goals, result.home_goals, result.away_goals, timeline_end)
+        end = story.end_minute
+
+        def x(minute: float) -> float:
+            return round(minute / end * STORY_WIDTH, 1)
+
+        def y(chance: float) -> float:
+            return round((1 - chance) * STORY_HEIGHT, 1)
+
+        teams = {"home": result.home, "away": result.away}
+        line = " ".join(f"{x(minute)},{y(chance)}" for minute, chance in story.points)
+        mid = STORY_HEIGHT / 2
+        article.game_story = {
+            "width": STORY_WIDTH,
+            "height": STORY_HEIGHT,
+            "line": line,
+            "area": f"0,{mid} {line} {STORY_WIDTH},{mid}",
+            "periods": [x(minute) for minute in (20.0, 40.0, 60.0) if minute < end],
+            "period_labels": [
+                {"label": label, "left": round((start + stop) / 2 / end * 100, 2)}
+                for label, start, stop in (("P1", 0, 20), ("P2", 20, 40), ("P3", 40, 60), ("OT", 60, end))
+                if start < end
+            ],
+            "goals": [
+                {"x": x(goal.minute), "y": y(chance), "side": goal.side, "title": f"{_clock(goal.minute)} {score} {goal.scorer or teams[goal.side]}"}
+                for goal, score, chance in story.goals
+            ],
+            "penalties": {side: _penalty_bands(article, side, end) for side in ("home", "away")},
+            "lead_changes": story.lead_changes,
+            "ties": story.ties,
+            "largest_lead": story.largest_lead,
+            "comeback": story.comeback,
+            "winner": teams.get(story.winner, ""),
+            "excitement": story.excitement,
+            "key_moments": [
+                {
+                    "clock": _clock(moment.goal.minute),
+                    "team": teams[moment.goal.side],
+                    "scorer": moment.goal.scorer,
+                    "score": moment.score,
+                    "before": _percent(moment.before if moment.goal.side == "home" else 1 - moment.before),
+                    "after": _percent(moment.after if moment.goal.side == "home" else 1 - moment.after),
+                }
+                for moment in story.key_moments
+                if moment.swing >= 0.05
+            ],
+        }
+        by_category[_category(article)].append(article)
+
+    # Excitement is read against the other games of the same season phase.
+    for category, articles in by_category.items():
+        values = sorted(article.game_story["excitement"] for article in articles)
+        for article in articles:
+            below = sum(1 for value in values if value < article.game_story["excitement"])
+            article.game_story["percentile"] = round(100 * below / max(1, len(values) - 1)) if len(values) > 1 else None
+        dramatic = sorted(articles, key=lambda article: -article.game_story["excitement"])[:3]
+        league_context[category]["most_exciting"] = [
+            {
+                "url": article.url,
+                "home": _meta(article, "home_team"),
+                "away": _meta(article, "away_team"),
+                "score": f"{_int(article, 'home_goals')}:{_int(article, 'away_goals')}",
+                "date": article.date,
+                "lead_changes": article.game_story["lead_changes"],
+                "comeback": article.game_story["comeback"],
+            }
+            for article in dramatic
+        ]
 
 
 def _attach_table_history(games_by_category, teams_by_category, crest_index, league_context) -> None:

@@ -354,3 +354,22 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-bump--focus .fs-bump__team.is-active polyline { stroke: var(--rink); stroke-width: 3; }
 .fs-bump__dot { stroke: var(--rink); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 @media (prefers-reduced-motion: reduce) { .fs-bump__team, .fs-bump__labels li { transition: none; } }
+
+/* Game story: live win chance through a game (insights.html). Home on top, away at the bottom. */
+.fs-story { position: relative; display: grid; gap: var(--space-1); padding-top: 22px; padding-bottom: 4px; }
+.fs-story__team { position: absolute; left: 0; max-width: 70%; overflow: hidden; color: var(--ink-muted); font: 600 12px/1.2 var(--font-body); white-space: nowrap; text-overflow: ellipsis; }
+.fs-story__team--home { top: 0; }
+.fs-story__team--away { position: static; order: 2; }
+.fs-story__plot { display: block; width: 100%; overflow: visible; }
+.fs-story__area { stroke: none; }
+.fs-story__area--home { fill: var(--rink); opacity: 0.14; }
+.fs-story__area--away { fill: var(--ink-muted); opacity: 0.16; }
+.fs-story__mid { stroke: var(--line-strong); stroke-width: 1; stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; }
+.fs-story__period { stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.fs-story__line { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.fs-story__goal { stroke: var(--ball); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.fs-story__penalties { display: block; width: 100%; order: 3; }
+.fs-story__penalty--home { fill: var(--rink); opacity: 0.55; }
+.fs-story__penalty--away { fill: var(--ink-muted); opacity: 0.55; }
+.fs-story__axis { position: relative; order: 4; height: 14px; color: var(--ink-muted); font: 600 11px/1 var(--font-body); }
+.fs-story__axis span { position: absolute; transform: translateX(-50%); }

@@ -340,3 +340,60 @@
 </section>
 {% endif %}
 {% endmacro %}
+
+{% macro game_story(story, home, away) %}
+{% if story %}
+<section class="mb-8 grid gap-4 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="game-story-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="game-story-title" class="fs-panel-title">Game story</h2>
+        {% if story.percentile is not none %}<span class="fs-status fs-status--final">More dramatic than {{ story.percentile }}% of this season's games</span>{% endif %}
+    </div>
+    <div class="fs-story">
+        <span class="fs-story__team fs-story__team--home">{{ home }}</span>
+        <svg class="fs-story__plot" viewBox="0 0 {{ story.width }} {{ story.height }}" preserveAspectRatio="none" height="{{ story.height }}" role="img" aria-label="Win chance during the game, {{ home }} at the top, {{ away }} at the bottom">
+            <defs>
+                <clipPath id="story-top"><rect x="0" y="0" width="{{ story.width }}" height="{{ story.height / 2 }}"></rect></clipPath>
+                <clipPath id="story-bottom"><rect x="0" y="{{ story.height / 2 }}" width="{{ story.width }}" height="{{ story.height / 2 }}"></rect></clipPath>
+            </defs>
+            <polygon class="fs-story__area fs-story__area--home" points="{{ story.area }}" clip-path="url(#story-top)"></polygon>
+            <polygon class="fs-story__area fs-story__area--away" points="{{ story.area }}" clip-path="url(#story-bottom)"></polygon>
+            {% for x in story.periods %}<line class="fs-story__period" x1="{{ x }}" x2="{{ x }}" y1="0" y2="{{ story.height }}"></line>{% endfor %}
+            <line class="fs-story__mid" x1="0" x2="{{ story.width }}" y1="{{ story.height / 2 }}" y2="{{ story.height / 2 }}"></line>
+            <polyline class="fs-story__line" points="{{ story.line }}"></polyline>
+            {% for goal in story.goals %}<line class="fs-story__goal fs-story__goal--{{ goal.side }}" x1="{{ goal.x }}" x2="{{ goal.x }}" y1="{{ goal.y }}" y2="{{ goal.y }}"><title>{{ goal.title }}</title></line>{% endfor %}
+        </svg>
+        <span class="fs-story__team fs-story__team--away">{{ away }}</span>
+        {% if story.penalties.home or story.penalties.away %}
+        <svg class="fs-story__penalties" viewBox="0 0 {{ story.width }} 14" preserveAspectRatio="none" height="14" role="img" aria-label="Penalties: {{ home }} on the upper row, {{ away }} on the lower row">
+            {% for band in story.penalties.home %}<rect class="fs-story__penalty fs-story__penalty--home" x="{{ band.x }}" y="0" width="{{ band.w }}" height="6"></rect>{% endfor %}
+            {% for band in story.penalties.away %}<rect class="fs-story__penalty fs-story__penalty--away" x="{{ band.x }}" y="8" width="{{ band.w }}" height="6"></rect>{% endfor %}
+        </svg>
+        {% endif %}
+        <div class="fs-story__axis" aria-hidden="true">{% for period in story.period_labels %}<span style="left: {{ period.left }}%">{{ period.label }}</span>{% endfor %}</div>
+    </div>
+    <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
+        <div class="grid"><dt class="fs-label">Lead changes</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ story.lead_changes }}</dd></div>
+        <div class="grid"><dt class="fs-label">Ties</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ story.ties }}</dd></div>
+        <div class="grid"><dt class="fs-label">Largest lead</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{% if story.largest_lead.home >= story.largest_lead.away %}{{ story.largest_lead.home }}{% else %}{{ story.largest_lead.away }}{% endif %} <span class="text-sm font-medium text-ink-muted [overflow-wrap:anywhere]">{% if story.largest_lead.home >= story.largest_lead.away %}{{ home }}{% else %}{{ away }}{% endif %}</span></dd></div>
+        <div class="grid"><dt class="fs-label">Comeback</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{% if story.comeback %}{{ story.comeback }} <span class="text-sm font-medium text-ink-muted">goals down</span>{% else %}–{% endif %}</dd></div>
+    </dl>
+    {% if story.key_moments %}
+    <div class="grid gap-2">
+        <h3 class="fs-label m-0">Key moments</h3>
+        <ol class="m-0 grid list-none gap-0 p-0">
+            {% for moment in story.key_moments %}
+            <li class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3 border-t border-line py-2 first:border-t-0">
+                <span class="font-display text-sm font-semibold text-ink-muted tabular-nums">{{ moment.clock }}</span>
+                <span class="grid min-w-0">
+                    <span class="[overflow-wrap:anywhere]"><strong class="text-ink">{{ moment.score }}</strong> {{ moment.scorer or moment.team }}{% if moment.scorer and moment.scorer != 'Own goal' %} <span class="text-ink-muted">({{ moment.team }})</span>{% endif %}</span>
+                    <span class="text-sm text-ink-muted">{{ moment.team }}'s win chance {{ moment.before }} → <strong class="text-ink">{{ moment.after }}</strong></span>
+                </span>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+    {% endif %}
+    <p class="m-0 text-xs text-ink-muted">The line shows {{ home }}'s chance to win (top) against {{ away }}'s (bottom) through the game, from the pre-game ratings, the score and the time left. Dots are goals, bars under the chart penalties. {{ explain('game-story') }}</p>
+</section>
+{% endif %}
+{% endmacro %}
