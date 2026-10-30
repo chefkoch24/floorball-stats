@@ -5,13 +5,13 @@ Slug: league-average-lvw-26-27-regular-season
 type: liga
 team: League Average
 away_points: 1.5
-boxplay: 4.5
-boxplay_efficiency: 64.58
-boxplay_first_period: 1.25
+boxplay: 3.75
+boxplay_efficiency: 56.25
+boxplay_first_period: 1.0
 boxplay_overtime: 0.0
-boxplay_per_game: 1.26
-boxplay_second_period: 0.75
-boxplay_third_period: 2.5
+boxplay_per_game: 1.07
+boxplay_second_period: 0.5
+boxplay_third_period: 2.25
 close_game_loss: 0.0
 close_game_overtime: 0.0
 close_game_win: 0.0
@@ -57,10 +57,10 @@ over_time_wins: 0.0
 penalties: 4.25
 penalties_per_game: 1.19
 penalty_10: 0.0
-penalty_2: 3.5
+penalty_2: 4.25
 penalty_2and2: 0.0
 penalty_first_period: 1.0
-penalty_ms: 0.75
+penalty_ms: 0.0
 penalty_overtime: 0.0
 penalty_second_period: 1.0
 penalty_shootout_losses: 0.0
@@ -87,18 +87,16 @@ points_after_third_period: 5.25
 points_max_difference_2: 0.0
 points_more_2_difference: 5.25
 points_per_game: 1.54
-powerplay: 4.5
-powerplay_efficiency: 42.08
-powerplay_first_period: 1.25
+powerplay: 3.75
+powerplay_efficiency: 45.83
+powerplay_first_period: 1.0
 powerplay_overtime: 0.0
-powerplay_per_game: 1.29
-powerplay_second_period: 0.75
-powerplay_third_period: 2.5
+powerplay_per_game: 1.1
+powerplay_second_period: 0.5
+powerplay_third_period: 2.25
 rank: 2.5
-record_type: league_averages
 scoring_ratio: 1.54
 take_the_lead_goals: 2.5
 take_the_lead_goals_against: 2.5
-title: League Average
 win_1: 0.0
 wins: 1.75

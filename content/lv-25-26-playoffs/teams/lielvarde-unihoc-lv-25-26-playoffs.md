@@ -6,13 +6,13 @@ type: team
 team:Lielvārde/Unihoc
 platzierungsverlauf:lv-25-26-playoffs/teams/lielvarde-unihoc-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 0
-boxplay: 6
-boxplay_efficiency: 50.0
-boxplay_first_period: 1
+boxplay: 7
+boxplay_efficiency: 28.569999999999993
+boxplay_first_period: 2
 boxplay_overtime: 0
-boxplay_per_game: 1.5
-boxplay_second_period: 2
-boxplay_third_period: 3
+boxplay_per_game: 1.75
+boxplay_second_period: 3
+boxplay_third_period: 2
 close_game_loss: 2
 close_game_overtime: 1
 close_game_points_per_game: 0.33
@@ -33,8 +33,8 @@ goals: 11
 goals_against: 27
 goals_against_away: 14
 goals_against_home: 13
-goals_against_in_boxplay: 3
-goals_against_in_boxplay_per_game: 0.75
+goals_against_in_boxplay: 5
+goals_against_in_boxplay_per_game: 1.25
 goals_against_in_powerplay: 2
 goals_against_per_game: 6.75
 goals_away: 4
@@ -57,13 +57,13 @@ loss_1: 1
 losses: 3
 over_time_losses: 1
 over_time_wins: 0
-penalties: 6
-penalties_per_game: 1.5
+penalties: 8
+penalties_per_game: 2.0
 penalty_10: 0
-penalty_2: 5
+penalty_2: 8
 penalty_2and2: 0
 penalty_first_period: 2
-penalty_ms: 1
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 4
 penalty_shootout_losses: 0
@@ -91,13 +91,13 @@ Tags:  Masters Ulbroka/LU: 1,
 points_max_difference_2: 1
 points_more_2_difference: 0
 points_per_game: 0.25
-powerplay: 12
-powerplay_efficiency: 25.0
-powerplay_first_period: 5
+powerplay: 14
+powerplay_efficiency: 21.43
+powerplay_first_period: 6
 powerplay_overtime: 0
-powerplay_per_game: 3.0
+powerplay_per_game: 3.5
 powerplay_second_period: 0
-powerplay_third_period: 7
+powerplay_third_period: 8
 rank: 7
 scoring_ratio: 0.41
 take_the_lead_goals: 2

@@ -7,6 +7,9 @@ import zlib
 SITENAME = 'Floorball Stats'
 SITEURL = ''
 FEEDBACK_EMAIL = 'hello@floorballconnect.com'
+# The main site (connect/) and its newsletter, linked from the menu and the footer.
+CONNECT_URL = 'https://www.floorballconnect.com'
+NEWSLETTER_URL = CONNECT_URL + '/subscribe/'
 # Payment link for the support banner (Ko-fi, Stripe Payment Link, ...); banner stays hidden while empty
 SUPPORT_URL = os.environ.get('SUPPORT_URL', '')
 PLUGIN_PATHS = ['plugins']
@@ -22,6 +25,10 @@ PLUGINS = [
     'leaders',
     # clutch stats, scoring duos, Elo power ratings and season projections
     'insights',
+    # deploy previews only: builds the main site (connect/) into /connect-preview/
+    'connect_preview',
+    # connect-feed.json: games, power rankings and top scorers for the main site's home page
+    'connect_feed',
 ]
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 

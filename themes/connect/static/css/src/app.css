@@ -1,0 +1,13 @@
+/* Tailwind entry for the Floorball Connect theme. Build with `make connect-css`.
+   Tokens, components and site chrome come from the stats theme, so both sites share one
+   design system; connect.css only adds what the content pages need. */
+@import "tailwindcss" source(none);
+@source "../../../templates";
+
+/* dark: utilities follow the site's theme toggle (data-theme on <html>), not only the OS setting. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@import "../../../../my-theme/static/css/src/tokens.css";
+@import "../../../../my-theme/static/css/src/components.css";
+@import "../../../../my-theme/static/css/src/chrome.css";
+@import "./connect.css";

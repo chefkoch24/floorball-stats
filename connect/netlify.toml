@@ -1,0 +1,20 @@
+# Netlify site for www.floorballconnect.com. In the Netlify UI set the base directory to
+# `connect`; this file then replaces the repository's root netlify.toml for that site.
+[build]
+  command = "python ../scripts/sync_connect_notion.py && pelican content -o output -s publishconf.py"
+  publish = "output"
+  # Only rebuild when the Connect site, its theme or the shared design system changed.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ../themes/connect ../themes/my-theme/static/css/src ../scripts/sync_connect_notion.py ../scripts/import_connect_softr.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/theme/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

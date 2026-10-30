@@ -68,7 +68,7 @@ pregame_h2h_resilience_home_blown_leads: 0
 pregame_h2h_resilience_home_close_game_points_per_game: n.a.
 pregame_h2h_resilience_home_comeback_wins: 0
 pregame_h2h_special_away_pk_eff: 40.0
-pregame_h2h_special_away_pp_eff: 40.0
+pregame_h2h_special_away_pp_eff: 66.67
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 50.0
 result_string: 7:2
@@ -415,13 +415,13 @@ away_pregame_points_against_sparta: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 1.5
-away_pregame_powerplay: 5
-away_pregame_powerplay_efficiency: 40.0
-away_pregame_powerplay_first_period: 3
+away_pregame_powerplay: 3
+away_pregame_powerplay_efficiency: 66.67
+away_pregame_powerplay_first_period: 2
 away_pregame_powerplay_overtime: 0
-away_pregame_powerplay_per_game: 2.5
+away_pregame_powerplay_per_game: 1.5
 away_pregame_powerplay_second_period: 0
-away_pregame_powerplay_third_period: 2
+away_pregame_powerplay_third_period: 1
 away_pregame_scoring_ratio: 0.65
 away_pregame_take_the_lead_goals: 1
 away_pregame_take_the_lead_goals_against: 2

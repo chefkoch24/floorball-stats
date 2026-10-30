@@ -1,0 +1,83 @@
+{# Shared building blocks for the Floorball Connect pages. #}
+
+{% macro image(src, alt, class='') -%}
+{% if src %}<img class="{{ class }}" src="{{ src if src.startswith('http') else SITEURL ~ '/' ~ src }}" alt="{{ alt }}" loading="lazy" decoding="async">{% endif %}
+{%- endmacro %}
+
+{% macro rating_value(value) -%}
+{{ ('%.1f'|format(value)).rstrip('0').rstrip('.') }}
+{%- endmacro %}
+
+{# Five stars filled to the rating (half stars and in between), with the number next to it. #}
+{% macro stars(value, size='') -%}
+<span class="fc-stars{% if size %} fc-stars--{{ size }}{% endif %}" style="--fill: {{ (value / 5 * 100)|round(1) }}%" role="img" aria-label="{{ rating_value(value) }} out of 5"></span>
+{%- endmacro %}
+
+{# Overall large, then the three skills; out of 5. #}
+{% macro ratings(values, compact=False) %}
+{% if values %}
+<div class="fc-ratings{% if compact %} fc-ratings--compact{% endif %}">
+    {% if 'Overall' in values %}
+    <p class="fc-rating-overall">{{ stars(values['Overall'], 'lg' if not compact else '') }}<span class="fc-rating__value fs-num">{{ rating_value(values['Overall']) }}</span></p>
+    {% endif %}
+    <dl class="fc-skills">
+        {% for name in CONNECT_RATINGS if name in values and name != 'Overall' %}
+        <div class="fc-skill"><dt>{{ name }}</dt><dd>{{ stars(values[name], 'sm') }}<span class="fs-num">{{ rating_value(values[name]) }}</span></dd></div>
+        {% endfor %}
+    </dl>
+</div>
+{% endif %}
+{% endmacro %}
+
+{# One card in a collection list. #}
+{% macro card(collection, item) %}
+{% set href = SITEURL ~ '/' ~ item.url if collection.detail else (item.link or '') %}
+{% set external = not collection.detail %}
+<article class="fc-card fc-card--{{ collection.card }}" id="{{ item.slug }}" data-filter-item data-facets="{{ item.facet|join('|') }}" data-search="{{ (item.title ~ ' ' ~ item.subtitle ~ ' ' ~ item.summary ~ ' ' ~ item.facet|join(' ') ~ ' ' ~ item.tags|join(' '))|lower|e }}">
+    {% if href %}<a class="fc-card__link" href="{{ href }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{% endif %}
+    {% if collection.card == 'media' %}
+    <div class="fc-card__media{% if collection.key in ('sticks', 'blades', 'equipment') %} fc-card__media--product{% endif %}">
+        {% if item.image %}{{ image(item.image, '') }}{% else %}<span class="fc-card__placeholder" aria-hidden="true">{{ item.title[:1] }}</span>{% endif %}
+    </div>
+    {% endif %}
+    <div class="fc-card__body">
+        {% if item.subtitle and collection.key in ('sticks', 'blades') %}<span class="fs-label">{{ item.subtitle }}</span>{% endif %}
+        <h3 class="fc-card__title">{{ item.title }}</h3>
+        {% if item.subtitle and collection.key not in ('sticks', 'blades') %}<p class="fc-card__subtitle">{{ item.subtitle }}</p>{% endif %}
+        {% if item.summary %}<p class="fc-card__summary">{{ item.summary }}</p>{% endif %}
+        {% if collection.key in ('sticks', 'blades') %}
+        {{ ratings(review_average(item), compact=True) }}
+        <p class="fc-card__meta">{{ item.reviews|length }} review{{ '' if item.reviews|length == 1 else 's' }}</p>
+        {% elif item.facts %}
+        <p class="fc-card__meta">{% for label, value in item.facts if label not in ('Hosts',) %}{{ value }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+        {% endif %}
+        {% if item.tags %}<div class="fc-card__tags">{% for tag in item.tags %}<span class="fs-chip">{{ tag }}</span>{% endfor %}</div>{% endif %}
+        {% if external and collection.link_label and item.link %}<span class="fc-card__more">{{ collection.link_label }} ↗</span>{% endif %}
+    </div>
+    {% if href %}</a>{% endif %}
+</article>
+{% endmacro %}
+
+{% macro breadcrumbs(collection=None, item=None) %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    {% if collection %}
+    <span class="breadcrumbs-separator">/</span>
+    {% if item %}<a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a>{% else %}<span>{{ collection.title }}</span>{% endif %}
+    {% endif %}
+    {% if item %}<span class="breadcrumbs-separator">/</span><span>{{ item.title }}</span>{% endif %}
+</nav>
+{% endmacro %}
+
+{# Newsletter sign-up: MailerLite with double opt-in, as on the old site. On success the reader
+   lands on /confirmation-missing/ ("check your inbox"); the confirmation link leads to /confirmation/. #}
+{% macro signup(id='signup', cta='Join now') %}
+<form class="fc-signup" id="{{ id }}" action="{{ MAILERLITE_FORM }}" method="post" data-signup data-success="{{ SITEURL }}/confirmation-missing/">
+    <label class="sr-only" for="{{ id }}-email">Email address</label>
+    <input id="{{ id }}-email" type="email" name="fields[email]" required placeholder="Your email" autocomplete="email" inputmode="email">
+    <input type="hidden" name="ml-submit" value="1">
+    <input type="hidden" name="anticsrf" value="true">
+    <button class="fs-btn fs-btn--primary" type="submit" data-cta="signup-{{ id }}">{{ cta }}</button>
+    <p class="fc-signup__note" data-signup-message role="status">Free. Only your email, unsubscribe any time.</p>
+</form>
+{% endmacro %}

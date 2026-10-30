@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% set seo_title = collection.title %}
+{% set seo_description = collection.intro %}
+
+{% block breadcrumbs %}{{ m.breadcrumbs(collection) }}{% endblock %}
+
+{% block content %}
+<section class="fc-page-head">
+    <span class="fs-label">{{ collection.nav }}</span>
+    <h1 class="fc-title">{{ collection.title }}</h1>
+    <p class="fc-lead">{{ collection.intro }}</p>
+    {% if collection.key in ('sticks', 'blades') %}
+    <div class="fc-actions">
+        <a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="review-{{ collection.key }}">Write a review</a>
+        <a class="fs-btn" href="{{ SITEURL }}/{{ 'floorball-blades' if collection.key == 'sticks' else 'floorball-sticks' }}/">{{ 'Blade reviews' if collection.key == 'sticks' else 'Stick reviews' }}</a>
+    </div>
+    {% endif %}
+</section>
+
+{% if collection.key == 'lexicon' %}
+<nav class="fc-az" aria-label="Terms">
+    {% for item in items %}<a class="fs-chip" href="#{{ item.slug }}">{{ item.title }}</a>{% endfor %}
+</nav>
+<div class="fc-lexicon">
+    {% for item in items %}
+    <article class="fc-term" id="{{ item.slug }}">
+        <h2 class="fs-panel-title">{{ item.title }}</h2>
+        {% if item.subtitle %}<p class="fc-term__question">{{ item.subtitle }}</p>{% endif %}
+        <div class="fc-prose">{{ item.body }}</div>
+    </article>
+    {% endfor %}
+</div>
+{% else %}
+<div class="fc-filters">
+    <label class="fc-search">
+        <span class="sr-only">Search {{ collection.title|lower }}</span>
+        <input type="search" placeholder="Search {{ collection.title|lower }}" data-filter-search autocomplete="off">
+    </label>
+    {% if facets|length > 1 %}
+    <div class="fc-facets" role="group" aria-label="Filter by {{ collection.facet|lower }}">
+        <button class="fc-facet" type="button" data-filter-facet="" aria-pressed="true">All</button>
+        {% for facet in facets %}<button class="fc-facet" type="button" data-filter-facet="{{ facet }}" aria-pressed="false">{{ facet }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <p class="fc-count"><span data-filter-count>{{ items|length }}</span> of {{ items|length }}</p>
+</div>
+<div class="fc-grid fc-grid--{{ collection.card }}" data-filter-list>
+    {% for item in items %}{{ m.card(collection, item) }}{% endfor %}
+</div>
+<p class="fc-empty" data-filter-empty hidden>Nothing matches. Try another search or filter.</p>
+{% endif %}
+{% endblock %}

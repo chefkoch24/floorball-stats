@@ -46,7 +46,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 1
+goals_in_powerplay: 2
 goals_in_second_period: 2
 goals_in_second_period_against: 16
 goals_in_third_period: 5
@@ -91,13 +91,13 @@ Tags:  Rubene: 0,
 points_max_difference_2: 0
 points_more_2_difference: 0
 points_per_game: 0.0
-powerplay: 5
-powerplay_efficiency: 20.0
+powerplay: 8
+powerplay_efficiency: 25.0
 powerplay_first_period: 2
 powerplay_overtime: 0
-powerplay_per_game: 1.25
-powerplay_second_period: 1
-powerplay_third_period: 2
+powerplay_per_game: 2.0
+powerplay_second_period: 2
+powerplay_third_period: 4
 rank: 8
 scoring_ratio: 0.34
 take_the_lead_goals: 1

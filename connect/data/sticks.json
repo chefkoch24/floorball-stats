@@ -1,0 +1,2200 @@
+{
+ "items": [
+  {
+   "id": "2df1e0bb-8812-8051-9667-fd93005d056c",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-e8ee2f05.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "4.5",
+    "Name": "AIRLIGHT",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-8181-9737-cc3c8d9a9db0",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Zuper",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I am super happy with my Airlight stick as I think they are the perfect balance between robustness and weight and are also very good for the men‘s leagues. What I do not like is that this stick is always coming with the Hyper blade and not the Zuper",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Playing since years this stick",
+      "Flex": 27,
+      "Color/ Edition": "All White",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e71e0bb-8812-81a2-bb00-fdceadce607f",
+     "fields": {
+      "Display Name": "Viktor j",
+      "Blade Text": "Hyper",
+      "Images": [
+       "images/reviews/2e71e0bb-19010300.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "It’s really nice stick what can I say",
+      "Passing Rating": 3,
+      "Shooting Rating": 5,
+      "Instagram Handle": "Vjakobsson0",
+      "Headline": "Good",
+      "Flex": 27,
+      "Color/ Edition": "Blue",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8071-b629-f77f1b16e1d2",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-5559e985.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "4.5",
+    "Name": "AIR SUPERLIGHT",
+    "Dribbling Rating": "3"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-8153-88b9-e9a1edefe3d7",
+     "fields": {
+      "Display Name": "Yu",
+      "Blade Text": "Air2",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "Super light is not light compared to other sticks(recently released) . But this is enough to play with and lower price.\nAir 2 is the best for drag shots and pass. Although Hyper is good for shoot and pass, too heavy for me. While the Air 1 offers superior precision for subtle ball touches , I'm a forward and shooter, so I prioritize shooting performance and choose the Air 2.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "50.29yu",
+      "Headline": "This is better choice for shooters",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 3
+     }
+    },
+    {
+     "id": "2e01e0bb-8812-816b-a6cd-e5b61317e4bc",
+     "fields": {
+      "Display Name": "Huvan",
+      "Blade Text": "air2",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I would really recommend this blade in my opinion but if i could switch something it would be a lighter stick so i can hit faster shots.",
+      "Passing Rating": 3,
+      "Shooting Rating": 4,
+      "Instagram Handle": "huvanhuva",
+      "Headline": "Air1 and Air2",
+      "Flex": 27,
+      "Color/ Edition": "salmon/pink",
+      "Dribbling Rating": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-808f-be3f-c57d1eea5983",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-fd21b0c8.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "26",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "4",
+    "Name": "EVOLAB FL",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-81a5-a1ff-ca5b1aa2e4f9",
+     "fields": {
+      "Display Name": "tim_osch13",
+      "Blade Text": "Unilite",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "The Evolab Stick is for Players who love to Control the Game with fast moves and dribbling. And have a solid Shot and Pass.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "tim_osch13",
+      "Headline": "Evolab the Perfect dribbling Stick",
+      "Flex": 26,
+      "Color/ Edition": "Grey       Blue/Black",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-809d-a259-cf2d8f8eeba4",
+   "fields": {
+    "Brand": "Salming",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-e7d4c190.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4.5",
+    "Shooting Rating": "4",
+    "Name": "P-Series Carbon Impact",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-8163-9365-f91920fed33d",
+     "fields": {
+      "Display Name": "alkanisko_",
+      "Blade Text": "Trident Touch X",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I choose the right one for me because I play string florball And Im defender",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "alkanisko_",
+      "Headline": "Stick for stronger players",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2f51e0bb-8812-81aa-8387-ed7ab2b515cd",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Trident",
+      "Images": [
+       "images/reviews/2f51e0bb-5a4983d1.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "Good shaft weight (Not too light)\nBall fits very nice in the blade, but difficult to play backhand.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "mael.schoch",
+      "Headline": "Salming Trident",
+      "Flex": 27,
+      "Color/ Edition": "Black",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80b8-8d7d-d60aae778733",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-da4e4bc3.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "3",
+    "Shooting Rating": "5",
+    "Name": "CARBSKIN SLIM",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2eb1e0bb-8812-8124-912f-c73ede03e68f",
+     "fields": {
+      "Display Name": "Darren",
+      "Blade Text": "Epic",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I rated it a 4 star as the dribbling is goid since i use PE, but the passing isnt the best. The shooting is a 5 star since it's a heavy blade on a light shaft. I recommend it to middle aged kids when they are playing",
+      "Passing Rating": 3,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": null,
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80ce-9e3c-d502fd062c93",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-76cb007a.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "3.5",
+    "Shooting Rating": "3.5",
+    "Name": "POWER SUPERLIGHT",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e11e0bb-8812-8134-9bfa-c9e57d8c1d20",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Air Two",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I think Zone did a great job with this stick it feels amazing it's pretty light but in my opinion the blade is a big problem and hinders me an and other people which tried it to shot accurately so with another blade like hyper this would be a very good stick to choose",
+      "Passing Rating": 4,
+      "Shooting Rating": 3,
+      "Instagram Handle": null,
+      "Headline": "Good stick, bad blade",
+      "Flex": 27,
+      "Color/ Edition": "Metallic purple",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-81a9-995b-e6ab89a49f5e",
+     "fields": {
+      "Display Name": "Fabio",
+      "Blade Text": "Hyper",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I rated this stick so high because I love the Hyper blade. I had this blade also on my old stick and wanted it again because the stickhandling and the shooting is great. Because of the strong curve of the blade, it's a matter of getting used to the passes and shots. The passes have a higher difficulty with this blade and thats why there are just 3 stars for passing. My shots have a bigger accuracy with this blade. The first one or two weeks I had a lot of shots which wear to high but afterwards the shots are faster and more precisely. I recommend this stick for every player who likes to have a great stick handling and great shots.",
+      "Passing Rating": 3,
+      "Shooting Rating": 4,
+      "Instagram Handle": "fabio.utzinger",
+      "Headline": "Great Stick for 3v3 and for 5v5",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e01e0bb-8812-80dd-ac85-c1785d874365",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e01e0bb-c3696fad.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "4",
+    "Name": "AIR ONE",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-81c1-92a6-ed66cc0e0768",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Air one",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "i really like to play with the stick. its good on floorball floor.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Very nice stick",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e11e0bb-8812-802a-97dd-ed77c33a07f9",
+   "fields": {
+    "Brand": "Salming",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e11e0bb-513d88eb.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "27"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "3.5",
+    "Name": "Q-Series Carbon Pro",
+    "Dribbling Rating": "4.5"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-81a5-a2a8-f23bdd1e2bd9",
+     "fields": {
+      "Display Name": "Niklas",
+      "Blade Text": "Q1",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I love the stickfeeling, but i needed to fix the blade a little, because it was very bad at first. For passing its beautiful, but for shooting you need to get used to it first.",
+      "Passing Rating": 5,
+      "Shooting Rating": 3,
+      "Instagram Handle": null,
+      "Headline": "Salming Stick Review",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-810d-9fe5-f9079df48ea7",
+     "fields": {
+      "Display Name": "Theo Hedin",
+      "Blade Text": "Trident",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I’ve been using the Salming Q1 Icon for a while now, and honestly it fits my game really well as a back. I’m mostly defensive, but when I get the chance to step up and shoot, this stick really delivers.\n\nThe first thing I noticed was how solid and reliable it feels. As a defender, I need good control when receiving passes under pressure and clearing the ball, and the Q1 blade gives me that. It doesn’t feel too soft or too jumpy, so passes are easy to control and I don’t lose the ball in tight situations.\n\nWhen it comes to shooting, this stick is a weapon. I like to take hard slap shots and quick wrist shots from distance, and the shaft gives a nice snap when you load it. Shots feel powerful and accurate, especially when stepping into space at the top of the zone. It’s not just a shooting stick though — I can still keep the ball close when moving forward and joining the offense.\n\nDefensively, the stick feels strong in duels. It doesn’t twist much when battling for the ball, and poke checks feel precise. I also like that the Q1 blade isn’t extreme — it’s predictable, which is important when you’re the last man back and can’t afford mistakes.\n\nOne thing to keep in mind is that it’s not a super flashy stick. If you’re all about tricks or crazy blade curves, this probably isn’t for you. But if you want something that works everywhere on the court, it’s perfect.\n\nOverall, I’d say the Salming Q1 Icon is a great stick for a defender who shoots hard and isn’t afraid to push forward. It gives you confidence at the back and power when you decide to attack. Solid, dependable, and made for serious play.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "The best stick out there.",
+      "Flex": 27,
+      "Color/ Edition": "Magenta",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e31e0bb-8812-8004-abe1-de6c987b819e",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e31e0bb-fb0e1703.webp"
+    ],
+    "Overall Rating": "4",
+    "Flex": [
+     "30"
+    ],
+    "Shaft": [
+     "Round",
+     "Oval"
+    ],
+    "Blade": [],
+    "Passing Rating": "4.5",
+    "Shooting Rating": "5",
+    "Name": "Sense",
+    "Dribbling Rating": "3.5"
+   },
+   "reviews": [
+    {
+     "id": "2e21e0bb-8812-81ea-ae36-d0e9060aff53",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Optilight",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I'd recommend the stick for players who like to make technical plays and can go multiple roles at once in 3v3's",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Balanced Weight",
+      "Flex": 29,
+      "Color/ Edition": "Pink",
+      "Dribbling Rating": 3
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-8188-b1c5-c1980ab992de",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Highlight",
+      "Images": [
+       "images/reviews/2e41e0bb-98c78557.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "I am a left back and its good for them whi wants to shoot but also wants to make a good pass. It shoots high also",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Good stick to both shoot and pass",
+      "Flex": 27,
+      "Color/ Edition": "Bleached red",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-802e-8761-e73cc12ca63a",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-0f32a4c8.webp"
+    ],
+    "Overall Rating": "4.2",
+    "Flex": [
+     "27",
+     "29",
+     "31"
+    ],
+    "Shaft": [
+     "Round",
+     "Sweoval",
+     "Oval"
+    ],
+    "Blade": [],
+    "Passing Rating": "4.2",
+    "Shooting Rating": "3.8",
+    "Name": "Ultralight HES",
+    "Dribbling Rating": "4.3"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8143-85e0-f3d5fcc085b3",
+     "fields": {
+      "Display Name": "Elīna",
+      "Blade Text": "Avox",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "The stick is pretty good, but I think it's a little too heavy, making it harder to pass, shoot, and dribble, so I'll buy a lighter one next time.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "elina.dice",
+      "Headline": "This stick is pretty good",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2df1e0bb-8812-81f3-ab11-e813db8a9b99",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Highlight Carbon-links-frozen purple/silver (normal PE)",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "Der Stock liegt insgesamt sehr gut in der Hand und fühlt sich stabil an. Die Schussleistung ist richtig gut, man bekommt viel Power und der Ball löst sich sauber von der Kelle. Beim Dribbling überzeugt die Kelle mit guter Ballkontrolle, auch bei höherem Tempo bleibt der Ball nah am Schläger. Das Passspiel ist solide, kurze und schnelle Pässe funktionieren gut, bei längeren Pässen fehlt manchmal etwas Feingefühl in der Kelle. Insgesamt ein sehr guter Allround-Stock, den ich besonders Spielern empfehlen würde, die gerne abschließen und viel mit der Kelle arbeiten.",
+      "Passing Rating": 3,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Solider Stock mit starker Kelle",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e21e0bb-8812-8177-9091-fd9689cda034",
+     "fields": {
+      "Display Name": "Chris",
+      "Blade Text": "Highlight",
+      "Images": [
+       "images/reviews/2e21e0bb-32db4b8c.webp",
+       "images/reviews/2e21e0bb-0f86cf54.webp",
+       "images/reviews/2e21e0bb-f122f6b1.webp",
+       "images/reviews/2e21e0bb-cb85d85d.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "Its a good stick for me as an defender. Its has great control and passing. You do need to get used to the blade. For shooting its good but not the best I had. But if you want to be a playmake its good for you.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "Chris.Huiting",
+      "Headline": "Great for passing and defending.",
+      "Flex": 27,
+      "Color/ Edition": "Blue and black",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e51e0bb-8812-814c-a3a7-c830b199ccb5",
+     "fields": {
+      "Display Name": "Franco Uy",
+      "Blade Text": "Highlight MBC",
+      "Images": [
+       "images/reviews/2e51e0bb-caee41c5.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Ultralight is one of the most reliable sticks that oxdog has released as it is light and durable.\nI would recommend it to mens players, but wouldn’t recommend highlight to them, as it is a very fragile blade, they could go for optilight or gate instead",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Ultralight is one of the most reliable sticks that oxdog has released as it is light and durable",
+      "Flex": 29,
+      "Color/ Edition": "Pink",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e51e0bb-8812-81bc-94f3-f371f8510d7a",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "FSL",
+      "Images": [],
+      "Overall Rating": 3,
+      "Review": "This stick is for strong players (because of the flex 27) who shoot primarily with slapshots or quick wrist shots. Dribling with this blade is good if you prefer hockey style dribling and if you don't care about the weight.",
+      "Passing Rating": 4,
+      "Shooting Rating": 3,
+      "Instagram Handle": null,
+      "Headline": "Overall stick review",
+      "Flex": 27,
+      "Color/ Edition": "2026 season",
+      "Dribbling Rating": 3
+     }
+    },
+    {
+     "id": "2f61e0bb-8812-8175-b8a1-c824bed4fedc",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "FSL",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Good",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Ok",
+      "Flex": 29,
+      "Color/ Edition": "Blue/black",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e11e0bb-8812-80f3-8f1d-fc8065dc49bd",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e11e0bb-64d7ea0b.webp"
+    ],
+    "Overall Rating": "4.3",
+    "Flex": [
+     "26",
+     "27",
+     "29"
+    ],
+    "Shaft": [
+     "Round",
+     "Oval"
+    ],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "5",
+    "Name": "PRO",
+    "Dribbling Rating": "4.7"
+   },
+   "reviews": [
+    {
+     "id": "2e11e0bb-8812-81ab-938b-e931ce236cab",
+     "fields": {
+      "Display Name": "Alec",
+      "Blade Text": "Evolite",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I think this is a very good Stick for playing. It‘S a good Stick for lerning",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "alec_privat_1",
+      "Headline": "10/10",
+      "Flex": 29,
+      "Color/ Edition": "Turquoise",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-81c6-9063-d4bd614b48e0",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Evolite",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "Top floorbal stick",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "For player who want be the best",
+      "Flex": 27,
+      "Color/ Edition": "Purple/Black/Gray",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "30c1e0bb-8812-81f6-959c-fafb07fe88eb",
+     "fields": {
+      "Display Name": "@mejtty",
+      "Blade Text": "Unilite",
+      "Images": [
+       "images/reviews/30c1e0bb-5992aa12.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "It's light, durable, and really well-balanced stick. I would recommend it for everyone whose budget is under 150eur, it's really worth it",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "@mejtty",
+      "Headline": "Best stick under 150eur",
+      "Flex": 27,
+      "Color/ Edition": "White/Silver",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e31e0bb-8812-800d-8365-fbaea0fb4f6d",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e31e0bb-4bd6e1d6.webp"
+    ],
+    "Overall Rating": "4.3",
+    "Flex": [
+     "26"
+    ],
+    "Shaft": [
+     "Round"
+    ],
+    "Blade": [],
+    "Passing Rating": "4.3",
+    "Shooting Rating": "4.7",
+    "Name": "SUPERSKIN",
+    "Dribbling Rating": "4.3"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8195-ae16-d854e6466325",
+     "fields": {
+      "Display Name": "Claudio",
+      "Blade Text": null,
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I think its a great stick. I'm not a professional myself, but i wuld describe me myself as talented. I ma very satisfied with the stick, perfect for long shots and precise passes.",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "claudio_troxler",
+      "Headline": "Review of Unihoc SBT Super",
+      "Flex": null,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-8108-be72-f7360bc6be2e",
+     "fields": {
+      "Display Name": "Michal",
+      "Blade Text": "Evolite",
+      "Images": [
+       "images/reviews/2e41e0bb-fd9ae96c.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "I like this stick very much",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "psafa.16",
+      "Headline": "Unihoc stick",
+      "Flex": 26,
+      "Color/ Edition": "Chrome and white",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2f51e0bb-8812-8124-b61a-d74420c1d051",
+     "fields": {
+      "Display Name": "m.trub4c",
+      "Blade Text": "unilite",
+      "Images": [
+       "images/reviews/2f51e0bb-a3018b17.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "This stick is super lightweight and feels great in the hands, especially for its price. It’s easy to control and very playful, making dribbling smooth and effortless. The balance helps with quick moves and confident ball handling.\nPassing is a strong point – the stick allows for fast, accurate, and powerful passes without much effort. It also feels quiet on the ball, giving you good touch and control in every situation.\nOverall, it’s a great value stick for players who want something light, easy to handle, and fun to play with. Perfect for fast-paced, technical play.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "m.trub4c",
+      "Headline": "Unihoc superskin",
+      "Flex": 29,
+      "Color/ Edition": "24/25 super skin",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8045-9543-de7908f36394",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-2d88d3fd.webp"
+    ],
+    "Overall Rating": "4.5",
+    "Flex": [
+     "27",
+     "29",
+     "31"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4.5",
+    "Shooting Rating": "4",
+    "Name": "NEXT-G CTRL SLICKS FH2",
+    "Dribbling Rating": "4.5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8130-9b46-dc27dd9d93f3",
+     "fields": {
+      "Display Name": "Theo Svensson",
+      "Blade Text": "CTRL SLICKS FH2 PPB LE PINK-PE LEMON YELLOW",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Nice to play with, good balance, the factory-angled blades are good and are generally good in all parts. Good for people who want to be able to make quick moves and quick shots.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "Theosvon11",
+      "Headline": "Good for fast forwards and have good shots feeling",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e71e0bb-8812-81f3-83c3-d707a25d3bfd",
+     "fields": {
+      "Display Name": "Linus",
+      "Blade Text": "CTRL SLICKS FH2 PPB",
+      "Images": [
+       "images/reviews/2e71e0bb-52e7f5be.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "The perfect stick for all-round players. Despite its relatively moderate weight, the stick feels light thanks to its mid-balance shaft. The blade is well-suited for passing and quick shots.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "lxnus_lpz",
+      "Headline": "FatPipe Next G",
+      "Flex": 27,
+      "Color/ Edition": "fresh mint/almost red",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80a3-b128-c7b4dfeac9d5",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-c53ca092.webp"
+    ],
+    "Overall Rating": "4.5",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "4.5",
+    "Name": "DLX",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-81ea-abf4-e619b58bcc65",
+     "fields": {
+      "Display Name": "Spencer",
+      "Blade Text": "Unilite",
+      "Images": [
+       "images/reviews/2df1e0bb-92a6d1a9.webp",
+       "images/reviews/2df1e0bb-a75ee808.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "Very good to play with if you like a stick that dont weight that much. You have great shooting and passing with this stick. Its from Unihoc and very good quality. Its also very cool and unique with its rainbow like color.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "spencer.arogen_2012",
+      "Headline": "Very good stick.",
+      "Flex": 29,
+      "Color/ Edition": "Galante Carlström limited edition",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "35e1e0bb-8812-81be-a45c-fdb9d8fcec36",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Unilight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "The stick is really good for both dribbling and passing but especially for shooting, the balance is amazing and the way i can generate power from the flex is amazing, it is also really easy to play with since it is quite forgiving, the only thing is that sometimes it tends to feel a bit heavy when dribbling compared to other sticks like carbskin and evolab, but the shooting and passing makes up for it. It is also really strong so it dosn't break easily.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Amazing shooting",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80ab-817b-c65a9f722755",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-1faf17d6.webp"
+    ],
+    "Overall Rating": "4.5",
+    "Flex": [
+     "27",
+     "29",
+     "25"
+    ],
+    "Shaft": [
+     "Round",
+     "Sweoval",
+     "Oval"
+    ],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "4.5",
+    "Name": "Quick Power HES",
+    "Dribbling Rating": "3.5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-81be-8c2b-f9df96ae598d",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Oxdog Avox",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "For a 5-star rating, it would need to break less easily. Generally, Oxdog products tend to break rather easily. But in the junior sector, it's a great stick.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "It's a great stick for junior players.",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 3
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-8177-b687-dab2afe226e9",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Gate carbon mbc",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I would recommend it to snipers and all kinds of defensemans.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "veetumatilainen_",
+      "Headline": "Good",
+      "Flex": 29,
+      "Color/ Edition": "Pink",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80c7-ade7-ee7f3e8c9677",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-8bb54e9e.webp"
+    ],
+    "Overall Rating": "4.5",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "3.5",
+    "Shooting Rating": "4",
+    "Name": "MAX",
+    "Dribbling Rating": "4.5"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-81ad-b55f-ddf5b92eff47",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Unilite",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "A great stick for anyone who wants their stick to be on the lighter side. Beautifully balanced, and very easy to just pick up and play, even with the factory setup. \nEven though I opted to play with a slightly bigger (and heavier) blade, the stock blade is very easy to control and to shoot with.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Well balanced work of art",
+      "Flex": 26,
+      "Color/ Edition": "White",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2f21e0bb-8812-816f-8175-d81d53949fc9",
+     "fields": {
+      "Display Name": "Charlie",
+      "Blade Text": "Teal/blue",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "It’s very light.",
+      "Passing Rating": 3,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Love it.",
+      "Flex": 26,
+      "Color/ Edition": "White",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e01e0bb-8812-80d3-8cc0-e5d7fd8f0681",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e01e0bb-64eb9f21.webp"
+    ],
+    "Overall Rating": "4.5",
+    "Flex": [
+     "32"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "5",
+    "Name": "THIN RAW (T-RAW)",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-816a-b8e7-ff9ccdacd8a0",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "CTRL Slicks",
+      "Images": [
+       "images/reviews/2e01e0bb-835804de.webp",
+       "images/reviews/2e01e0bb-c0935359.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "Its a very light stick with the biggest flex. Hes good for young or not physically strongest players. I have a very good feeling while playing with my stick.",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Very light and good for the game!",
+      "Flex": 32,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-81e2-893b-e36f7dd0aa2a",
+     "fields": {
+      "Display Name": "otso",
+      "Blade Text": "ctrl fh2",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "i really enjoy playing with this stick. its light and the blade suits really well with it. its my number 1 combination/stick.",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "otsoo_3",
+      "Headline": "very good",
+      "Flex": 32,
+      "Color/ Edition": "stick: white/blade: light green",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80d9-b08b-e6a99ca45406",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-c49be979.webp"
+    ],
+    "Overall Rating": "4.7",
+    "Flex": [
+     "29",
+     "26"
+    ],
+    "Shaft": [
+     "Oval",
+     "Round"
+    ],
+    "Blade": [],
+    "Passing Rating": "4.3",
+    "Shooting Rating": "4",
+    "Name": "CARBSKIN FL",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-81ce-8a8d-dec424760404",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Unilite PP feather light",
+      "Images": [
+       "images/reviews/2df1e0bb-fd9ae96c.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "This is a great stick for players that like having control of the ball. \nYou get really soft touches and for me as a playmaker it’s really important to be able to make sure the ball sticks to the blade well. The shooting is great. Sweepershots are the best shooting technique for this stick as it’s really light weight. The direct shots are good but maybe not the greatest shots.\nThe passing feels really good. And although it depends on your skills and hook it can still get great passes. Both in the air and on the ground. \nThe dribbling is probably the best part. \nBecause of the slim shaft it’s really easy to feel the ball, you get to have the ball stick to your blade. And quick direction changes are really easy, since the overall stick is lightweight.",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Amazingly Well balanced stick!",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e11e0bb-8812-8144-a20b-ee4c8d2d8c02",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Unilite featherlight",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "Good Allrounder with nice dribbling skills.\nIts a Bit soft, wich makes it harder to shoot Hard and percize shots.",
+      "Passing Rating": 4,
+      "Shooting Rating": 3,
+      "Instagram Handle": null,
+      "Headline": "Really Good Stick espacially for Offense",
+      "Flex": 26,
+      "Color/ Edition": "Red",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-81aa-8532-d6d04d303d83",
+     "fields": {
+      "Display Name": "Noe Zimmerli",
+      "Blade Text": "Unilite PE",
+      "Images": [
+       "images/reviews/2e41e0bb-a3794a49.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Leichter Stock und man hat sehr gutes Ballgefühl. Mit dem richtigen Bogen in der Schaufel sitzt der Schuss perfekt",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "_noe.eezimi_",
+      "Headline": "Bester Stock",
+      "Flex": 29,
+      "Color/ Edition": "Black Edition",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8015-855f-ec804c86227a",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-92c70a7d.webp"
+    ],
+    "Overall Rating": "4.8",
+    "Flex": [
+     "27",
+     "29",
+     "31"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4.5",
+    "Shooting Rating": "4.3",
+    "Name": "RAW CONCEPT",
+    "Dribbling Rating": "4.8"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-81c1-bfd1-d10ccd40c04b",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "silk",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Playmaker style, versatile, either you like that it is thin or you don’t",
+      "Passing Rating": 4,
+      "Shooting Rating": 3,
+      "Instagram Handle": null,
+      "Headline": "Fatpipe raw 28 thin",
+      "Flex": 28,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e11e0bb-8812-81cb-92dc-f297505ddca3",
+     "fields": {
+      "Display Name": "Agnes",
+      "Blade Text": "CTRL slicks",
+      "Images": [
+       "images/reviews/2e11e0bb-c4733174.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "I think it’s a good stick for almost everybody no matter position. Its pretty light but not too light I like when the stick is light because it feels much more easier to handle the ball",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "agnesh12.0",
+      "Headline": "I think its a really good stick and it really suits my play style.",
+      "Flex": 29,
+      "Color/ Edition": "Shrimp pink/gold",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-81e4-8a1a-ed1a56b81ca5",
+     "fields": {
+      "Display Name": "Gian Leuenberger",
+      "Blade Text": "Jab FH2",
+      "Images": [
+       "images/reviews/2e41e0bb-55eceee6.webp"
+      ],
+      "Overall Rating": 4,
+      "Review": "I would recommend this combo to every player that loves to shoot and loves good ball control. Because of the blade choice it lack a bit of passing some passes may have some spin to it but else it is truly an amazing Stick and blade combo",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "gianleuenberger_",
+      "Headline": "The stick for shooters",
+      "Flex": 29,
+      "Color/ Edition": "Mint",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e61e0bb-8812-81d6-8d15-f122add47c99",
+     "fields": {
+      "Display Name": "Adam Sedlák",
+      "Blade Text": "Jab",
+      "Images": [
+       "images/reviews/2e61e0bb-52b4c3e2.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Its a great stick for attackers, because its light and flexibile for dribling. Shooting is also great, but sometime it slips of the blade.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "adam.ko_21",
+      "Headline": "Review",
+      "Flex": 29,
+      "Color/ Edition": "White and purple",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8064-b49c-e75d08d5ed25",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-83acb2b0.webp"
+    ],
+    "Overall Rating": "4.8",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4.3",
+    "Shooting Rating": "4.8",
+    "Name": "Ultimatelight HES",
+    "Dribbling Rating": "4.3"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8103-8fbb-c8b24df06752",
+     "fields": {
+      "Display Name": "Markuss",
+      "Blade Text": "Highlight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "One of the best stick and blade",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "m_valdmanis21",
+      "Headline": "Very good",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2df1e0bb-8812-8154-86d1-f1f5b25e1f6e",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "FSL",
+      "Images": [],
+      "Overall Rating": 4,
+      "Review": "I really Like This Stick because as a winger it feels very light and also easy to dribble because of This. I have choosen SWEOVAL, because It is easy to hold the Stick with only one Hand and dont neede to worry about how you are Holding your Blade, because It will Always be in your front.",
+      "Passing Rating": 3,
+      "Shooting Rating": 5,
+      "Instagram Handle": "D",
+      "Headline": "Ultimate Light oxdog SWEOVAL FLEX 27",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2df1e0bb-8812-8162-812c-ea940caa91e2",
+     "fields": {
+      "Display Name": "Nova Westerhaag",
+      "Blade Text": "FSL pp carbon x2",
+      "Images": [
+       "images/reviews/2df1e0bb-fa93795c.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "I would recomend it to all kind of players. You can use it in every position. You get a really Nice touch with The blade when youre about to shoot and pass. This combo is really Nice cause you really feel when The blade touch The ball",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "novawesterhaag",
+      "Headline": "All Around stick",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2ec1e0bb-8812-8155-a3ff-e8be70ac78a5",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "FSL",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "It's a great stick for shooting and strong passes. I have a good ball feeling, and back feeling (reaction) in game.\nI can only recommend these Stick, for this price, is good one:)",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Good stick for shooting",
+      "Flex": 27,
+      "Color/ Edition": "Ultralight 25/26",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-800a-b2c0-f86f52618409",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-ed014afa.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "26"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "5",
+    "Name": "EVOLAB TITAN",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2e01e0bb-8812-8108-9e40-cd2a88596bf0",
+     "fields": {
+      "Display Name": "Jonas",
+      "Blade Text": "Unilite",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "It is very light and has super handling.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "jonas_haldimann",
+      "Headline": "Evolab",
+      "Flex": 26,
+      "Color/ Edition": "Titan",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8012-9dc1-c9199b27da31",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-4e09c1ac.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27",
+     "29",
+     "31"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "5",
+    "Name": "RAW CONCEPT LOW KICK",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8139-ba78-e789a2f0adca",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Jab pearl white",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I think its the best Stick I have ever playd with. The shooting is perfect and its an amizing Blade. I love the stick and can recommend this Stick.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Switzerland",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8017-bb1d-e84e3f13b0b2",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-87e7bfb0.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "5",
+    "Name": "Extremefast HST",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "3031e0bb-8812-810e-91bf-e8ddf41b4c07",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Oxdog",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Good players hard to get use to",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "Jed.gs",
+      "Headline": "Oxdog",
+      "Flex": 27,
+      "Color/ Edition": "Grey",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8038-b8ca-fa75cc9ababa",
+   "fields": {
+    "Brand": "Salming",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-a65233a9.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [
+     "Round",
+     "Oval"
+    ],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "5",
+    "Name": "Q-Series Carbon Pro 2.0",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2e11e0bb-8812-810c-900a-cbcec6a2e99e",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "XT trident",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "most consistent stick , best feeling stick in my opinion",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "best stick , but the highlight is Trident",
+      "Flex": 27,
+      "Color/ Edition": "hot magenta",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "3941e0bb-8812-81c3-81fd-fe61256f3e1e",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Trident",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I prefer this stick over my unihoc slim max 29 and my oxdog hyperlight 2.0 29",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "Ive tried to get the right stick for me and this was it",
+      "Flex": 29,
+      "Color/ Edition": "Icon 2.0 black and blue",
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-8077-b1ef-e73d573133b9",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-c82179f6.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "26",
+     "28",
+     "30"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "4",
+    "Name": "K.O. JAB FH2",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2eb1e0bb-8812-81b4-9f26-f66708da492d",
+     "fields": {
+      "Display Name": "Luka Heinonen",
+      "Blade Text": "Slicks",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Pretty good stick for 12-17 y olds",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "Luk4_heinonen46013",
+      "Headline": "Pretty good stick for 12-17 y olds",
+      "Flex": 31,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-808d-b04c-ee131e192643",
+   "fields": {
+    "Brand": "Salming",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-6d950194.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "5",
+    "Shooting Rating": "4",
+    "Name": "Q-Series Carbon Swift",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8192-8991-d8399f9c120d",
+     "fields": {
+      "Display Name": "Rekma",
+      "Blade Text": "Trident",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Very good for technical players. Lightweight, quick. Amazing stickhanding and passes. Shoots also very well.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": "richard.pozemka",
+      "Headline": "Salming trident",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80d1-a23b-c157e92cd0f6",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-fa14ab30.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "4",
+    "Name": "AIRLIGHT THIN",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-815f-aa91-fc45d4003420",
+     "fields": {
+      "Display Name": "Miko",
+      "Blade Text": "Hyper",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "perfect weight for fast and precise dribbles",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "m.i.k.i44",
+      "Headline": "great stick",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80e2-ac1b-e9bf4214ad00",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-a7d1cb10.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "26",
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4.5",
+    "Shooting Rating": "4.5",
+    "Name": "Hyperlight 2.0 HST",
+    "Dribbling Rating": "4"
+   },
+   "reviews": [
+    {
+     "id": "2e41e0bb-8812-8151-ad74-c49d5c414486",
+     "fields": {
+      "Display Name": "Dmitry Kurtz",
+      "Blade Text": "Highlight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I rated this stick the way I did because it’s honestly truly amazing. I’ve always used the Hyperlight series and have always found success.",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "dmitry_kurtz",
+      "Headline": "Review of Oxdog Hyperlight 2",
+      "Flex": 27,
+      "Color/ Edition": "Turquoise teal color",
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "35c1e0bb-8812-81df-8c9e-ee0ebf7893fb",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Optilight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Very reliable stick. Nice ball control, good weight balance, not to light but not to heavy. I would recommend it more to attacking players due to the durability, u can pretty much so everything well with it: shooting, passing, dribbling.",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Very universal stick",
+      "Flex": 29,
+      "Color/ Edition": "Black/pink",
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-80f8-b6aa-ff22653370ed",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-b6a1475b.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "4",
+    "Shooting Rating": "5",
+    "Name": "Extremepower HST",
+    "Dribbling Rating": "5"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-8131-b7c8-d1c580fd9a47",
+     "fields": {
+      "Display Name": "Davian",
+      "Blade Text": "Oxdog FSL MBC2",
+      "Images": [
+       "images/reviews/2df1e0bb-d25dbdf8.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Previously using Oxdog Ultralight flex 27, would say that this is a upgraded version of the ultralight. The shaft of the extremepower gives more power allowing harder and faster shots while maintaining accuracy",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "Daviiiiii___",
+      "Headline": "Oxdog Extremepower",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "2e11e0bb-8812-8079-84d3-c47033df41fc",
+   "fields": {
+    "Brand": "Oxdog",
+    "Description": null,
+    "Images": [
+     "images/sticks/2e11e0bb-bf4ddf03.webp"
+    ],
+    "Overall Rating": "5",
+    "Flex": [
+     "27"
+    ],
+    "Shaft": [
+     "Round"
+    ],
+    "Blade": [],
+    "Passing Rating": "4.6",
+    "Shooting Rating": "4.8",
+    "Name": "Hyperlight HES",
+    "Dribbling Rating": "4.6"
+   },
+   "reviews": [
+    {
+     "id": "2df1e0bb-8812-815a-8cf3-f474f603e39e",
+     "fields": {
+      "Display Name": "Rok",
+      "Blade Text": "Optilight",
+      "Images": [
+       "images/reviews/2df1e0bb-679a96d2.webp",
+       "images/reviews/2df1e0bb-fbb875b1.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Really good stick for shooting",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "rok_kopavnik",
+      "Headline": "Very good",
+      "Flex": 26,
+      "Color/ Edition": null,
+      "Dribbling Rating": 3
+     }
+    },
+    {
+     "id": "2df1e0bb-8812-8184-80aa-d0e0b0e96f90",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Highlight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I think it s a very good Stick for playmakers with a good Finishing for the Long Shot it gave also better shovels but also here ist solid",
+      "Passing Rating": 5,
+      "Shooting Rating": 4,
+      "Instagram Handle": null,
+      "Headline": "Perfect Stick from oxdog",
+      "Flex": 28,
+      "Color/ Edition": null,
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e01e0bb-8812-81cf-ae0e-e74be6172005",
+     "fields": {
+      "Display Name": "Oscar A",
+      "Blade Text": "Oxdog Highlight",
+      "Images": [
+       "images/reviews/2e01e0bb-fffbebef.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "A perfect stick for somone och likes a stick thats weights like a feather!",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "ogge_andersson12",
+      "Headline": "My favourie stick of all time!",
+      "Flex": 29,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    },
+    {
+     "id": "2e01e0bb-8812-81da-bcc7-f4a2b96a073c",
+     "fields": {
+      "Display Name": "Pavel P",
+      "Blade Text": "Highlight",
+      "Images": [
+       "images/reviews/2e01e0bb-8ce4a680.webp"
+      ],
+      "Overall Rating": 5,
+      "Review": "Very Nice Stick, Super Light and has some crazy power for shooting.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "pav.purnama",
+      "Headline": "Oxdog Stick",
+      "Flex": 27,
+      "Color/ Edition": "Turquoise",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-8110-8def-f453a377613c",
+     "fields": {
+      "Display Name": "teo",
+      "Blade Text": "optilight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "its very light so its very good overall",
+      "Passing Rating": 4,
+      "Shooting Rating": 4,
+      "Instagram Handle": "11_Tejc0",
+      "Headline": "its good",
+      "Flex": 29,
+      "Color/ Edition": "green",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e41e0bb-8812-8191-b01e-f9acfb43f602",
+     "fields": {
+      "Display Name": "Anonymous",
+      "Blade Text": "Fsl",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "I would reccomend this for wings and centers",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": null,
+      "Headline": "For oval players or switching",
+      "Flex": 25,
+      "Color/ Edition": "Frosted pink",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e61e0bb-8812-8140-b19e-f01d0da180bf",
+     "fields": {
+      "Display Name": "Zoé Moberg",
+      "Blade Text": "Highlight Mbc",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Oxdog Hyperlight with the Highlight blade fits my playing style perfectly. It’s extremely lightweight, which helps me play faster and shoot with a lot of power. The Highlight blade feels light and responsive, making passes easy and giving me great ball control. The stick really matches my technique and gives me confidence every time I step onto the court.",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "Zoemoberg",
+      "Headline": "My choice of stick",
+      "Flex": 29,
+      "Color/ Edition": "Artic Frost/Silver",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2e61e0bb-8812-81fc-943d-fe6dd3e62907",
+     "fields": {
+      "Display Name": "Nuno sotamsa",
+      "Blade Text": "Highlight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "Its very light and easy to control the ball",
+      "Passing Rating": 5,
+      "Shooting Rating": 5,
+      "Instagram Handle": "Nuno_floorball",
+      "Headline": "Good stick",
+      "Flex": 29,
+      "Color/ Edition": "Dark red",
+      "Dribbling Rating": 5
+     }
+    },
+    {
+     "id": "2f91e0bb-8812-81e3-b9d5-e3c86264d0e5",
+     "fields": {
+      "Display Name": "timoo.zh",
+      "Blade Text": "Higlight",
+      "Images": [],
+      "Overall Rating": 5,
+      "Review": "oxdog=fire",
+      "Passing Rating": 4,
+      "Shooting Rating": 5,
+      "Instagram Handle": "timoo.zh",
+      "Headline": "Nice Stick",
+      "Flex": 27,
+      "Color/ Edition": null,
+      "Dribbling Rating": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "2df1e0bb-8812-802e-8e9a-f58676c0731a",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-9d1f1e0e.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27",
+     "28",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "AIR SUPERLIGHT CURVE 2.0°",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-803d-a1e0-efe87f269282",
+   "fields": {
+    "Brand": "Fatpipe",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-be10dd4d.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "28"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "RAW CONCEPT BOW",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-8050-8d22-ffb2b8875dff",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-8b21d780.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "POWER PROLIGHT 3K",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-8067-bd83-e11d003cab2d",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-313e54ce.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "AIR ULTRALIGHT THIN",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-806b-a661-d6ea1f099b63",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-79dbbb1b.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "HYBRID AIRLIGHT",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-806e-947e-e0de61890761",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-c824bbc8.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "AIR SUPERLIGHT THIN",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-8074-a096-c4ebe577c44a",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-cb8924a4.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "UD CONCEPT THIN",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-8086-9640-d003e2413fce",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-d8a0dad2.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "29",
+     "27"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "PROLIGHT 3K",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-8090-858e-d2b0761049ee",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-7e6782f4.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "CARBSKIN CURVE 1.0º TITAN",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-80b5-8ade-cd3a51bc1bd2",
+   "fields": {
+    "Brand": "Unihoc",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-e8a3114f.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "26"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "COMPOSITE",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-80b5-bfd9-eda4d6373e9f",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-a9f407ac.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "POWER AIRLIGHT",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-80c2-9125-f4f4e0c72d28",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-541a7aba.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "AIR ULTRALIGHT",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-80c4-9fa9-e034762d185e",
+   "fields": {
+    "Brand": "Salming",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-be7891cb.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "P-Series Carbon Pro 2.0",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  },
+  {
+   "id": "2df1e0bb-8812-80e8-b4f7-c30102e9b29a",
+   "fields": {
+    "Brand": "ZONE",
+    "Description": null,
+    "Images": [
+     "images/sticks/2df1e0bb-f3985914.webp"
+    ],
+    "Overall Rating": "No reviews yet",
+    "Flex": [
+     "27",
+     "29"
+    ],
+    "Shaft": [],
+    "Blade": [],
+    "Passing Rating": "-",
+    "Shooting Rating": "-",
+    "Name": "SPEED PROLIGHT 3K",
+    "Dribbling Rating": "-"
+   },
+   "reviews": []
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% set seo_title = item.title ~ ' · ' ~ collection.title %}
+{% set seo_description = item.summary or (item.body|striptags|truncate(200)) or collection.intro %}
+{% set og_image = item.image if item.image and not item.image.startswith('http') else '' %}
+{% set words = (item.body|striptags).split()|length %}
+
+{% block breadcrumbs %}{{ m.breadcrumbs(collection, item) }}{% endblock %}
+
+{% block content %}
+<header class="fc-detail-head">
+    <a class="fc-detail-head__back" href="{{ SITEURL }}/{{ collection.slug }}/">← {{ collection.title }}</a>
+    <h1 class="fc-title">{{ item.title }}</h1>
+    {% if item.subtitle %}<p class="fc-lead">{{ item.subtitle }}</p>{% endif %}
+    <div class="fc-detail-head__meta">
+        {% for tag in item.tags %}<span class="fc-tag{% if 'Free' in tag %} fc-tag--free{% endif %}">{{ tag }}</span>{% endfor %}
+        {% if item.date %}<span class="fc-meta">{{ item.date }}</span>{% endif %}
+        {% if words > 150 %}<span class="fc-meta">{{ (words / 200)|round(0, 'ceil')|int }} min read</span>{% endif %}
+    </div>
+</header>
+
+<div class="fc-detail">
+    <article class="fc-detail__main">
+        {% if item.video %}
+        <div class="fc-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ item.video }}" title="{{ item.title }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        {% elif item.image %}
+        <figure class="fc-detail__media{% if collection.key == 'equipment' %} fc-detail__media--product{% endif %}">{{ m.image(item.image, item.title) }}</figure>
+        {% endif %}
+        {% if item.summary %}<p class="fc-lead">{{ item.summary }}</p>{% endif %}
+        {% if item.body %}<div class="fc-prose fc-prose--detail">{{ item.body }}</div>{% endif %}
+    </article>
+
+    <aside class="fc-detail__aside" aria-label="At a glance">
+        <div class="fc-panel">
+            {% if item.facts or item.tags %}
+            <h2 class="fs-label">At a glance</h2>
+            <dl class="fc-glance">
+                {% for label, value in item.facts %}<div><dt>{{ label }}</dt><dd>{{ value }}</dd></div>{% endfor %}
+                {% if item.tags and not item.facts %}<div><dt>{{ 'Category' if item.tags|length == 1 else 'Categories' }}</dt><dd>{{ item.tags|join(', ') }}</dd></div>{% endif %}
+            </dl>
+            {% endif %}
+            {% if item.link %}
+            <a class="fs-btn fs-btn--primary fc-panel__cta" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="outbound-{{ collection.key }}">{{ collection.link_label or 'Open' }} ↗</a>
+            {% endif %}
+            <button class="fs-btn fc-panel__cta" type="button" data-share data-share-title="{{ item.title }}">Share</button>
+            <a class="fc-panel__all" href="{{ SITEURL }}/{{ collection.slug }}/">All {{ collection.title|lower }} →</a>
+        </div>
+        {% if previous or next %}
+        <nav class="fc-pager" aria-label="More {{ collection.title|lower }}">
+            {% if previous %}<a href="{{ SITEURL }}/{{ previous.url }}"><span class="fs-label">Previous</span><strong>{{ previous.title }}</strong></a>{% endif %}
+            {% if next %}<a href="{{ SITEURL }}/{{ next.url }}"><span class="fs-label">Next</span><strong>{{ next.title }}</strong></a>{% endif %}
+        </nav>
+        {% endif %}
+    </aside>
+</div>
+
+{% if related %}
+<section class="fc-section">
+    <div class="fc-section__head">
+        <h2 class="fs-section-title">More {{ collection.title|lower }}</h2>
+        <a class="fc-section__more" href="{{ SITEURL }}/{{ collection.slug }}/">See all →</a>
+    </div>
+    <div class="fc-grid fc-grid--{{ collection.card }}">{% for row in related %}{{ m.card(collection, row) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

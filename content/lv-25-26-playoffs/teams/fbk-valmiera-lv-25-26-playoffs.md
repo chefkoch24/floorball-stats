@@ -39,7 +39,7 @@ goals_against_in_powerplay: 0
 goals_against_per_game: 5.5
 goals_away: 6
 goals_home: 18
-goals_in_boxplay: 3
+goals_in_boxplay: 2
 goals_in_first_period: 4
 goals_in_first_period_against: 7
 goals_in_overtime: 0
@@ -60,8 +60,8 @@ over_time_wins: 0
 penalties: 11
 penalties_per_game: 1.83
 penalty_10: 0
-penalty_2: 11
-penalty_2and2: 0
+penalty_2: 10
+penalty_2and2: 1
 penalty_first_period: 0
 penalty_ms: 0
 penalty_overtime: 0
@@ -96,8 +96,8 @@ powerplay_efficiency: 14.29
 powerplay_first_period: 3
 powerplay_overtime: 0
 powerplay_per_game: 1.17
-powerplay_second_period: 1
-powerplay_third_period: 3
+powerplay_second_period: 2
+powerplay_third_period: 2
 rank: 6
 scoring_ratio: 0.73
 take_the_lead_goals: 4
