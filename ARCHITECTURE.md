@@ -242,6 +242,9 @@ repository. It replaced the Softr site and shares the design system with the sta
   `/floorball-sticks/<brand>-<name>/`.
 - Netlify: a second site with base directory `connect` (`connect/netlify.toml`); it only
   rebuilds when `connect/`, `themes/connect` or the shared CSS sources change.
+- Deploy previews of the stats site also contain the main site under `/connect-preview/`
+  (`plugins/connect_preview.py`, switched on by `CONNECT_PREVIEW` in `publishconf.py`), so a
+  pull request shows both sites; production builds skip it.
 
 ### 4.9 Visualization + DB
 

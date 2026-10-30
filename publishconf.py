@@ -11,6 +11,9 @@ SITEURL = 'https://stats.floorballconnect.com'
 # Netlify deploy previews and branch deploys link to themselves, not to the live site.
 if os.environ.get('CONTEXT') in ('deploy-preview', 'branch-deploy') and os.environ.get('DEPLOY_PRIME_URL'):
     SITEURL = os.environ['DEPLOY_PRIME_URL'].rstrip('/')
+    # The main site (connect/) is built into the preview as well, see plugins/connect_preview.py.
+    CONNECT_PREVIEW = True
+    CONNECT_URL = SITEURL + '/connect-preview'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

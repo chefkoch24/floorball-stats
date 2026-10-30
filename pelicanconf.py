@@ -25,6 +25,8 @@ PLUGINS = [
     'leaders',
     # clutch stats, scoring duos, Elo power ratings and season projections
     'insights',
+    # deploy previews only: builds the main site (connect/) into /connect-preview/
+    'connect_preview',
 ]
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 
