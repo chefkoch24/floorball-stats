@@ -89,6 +89,7 @@ if (window.Chart) {
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
         <a class="header-link" href="{{ SITEURL }}/leaders.html">Leaders</a>
+        <a class="header-link header-link--wide" href="{{ SITEURL }}/stats-explained.html">How it works</a>
         <div class="header-actions">
             <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
             <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
@@ -107,7 +108,10 @@ if (window.Chart) {
                     <button class="nav-division-option" type="button" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
                     {% endfor %}
                 </div>
-                <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
+                <span class="nav-menu-links">
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/stats-explained.html">How our stats work →</a>
+                </span>
             </div>
             <div class="nav-league-grid">
                 {% for league in LEAGUES %}
@@ -190,6 +194,8 @@ if (window.Chart) {
 <footer class="site-footer">
     <div class="footer-inner">
         <a class="footer-link" href="{{ SITEURL }}/archive.html">Archive</a>
+        <span class="footer-divider">·</span>
+        <a class="footer-link" href="{{ SITEURL }}/stats-explained.html">How our stats work</a>
         <span class="footer-divider">·</span>
         <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
         <span class="footer-divider">·</span>

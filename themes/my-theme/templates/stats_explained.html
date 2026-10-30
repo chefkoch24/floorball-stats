@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{# "How our stats work": definitions for everything plugins/insights.py adds. Numbers come from
+   INSIGHTS_MODEL, so the page always shows the settings the site is built with. #}
+{% set seo_title = page.title ~ " | " ~ SITENAME %}
+{% set seo_description = page.summary|striptags %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = page.url %}
+{% set m = INSIGHTS_MODEL|default({}) %}
+{% set ex = m.example|default({}) %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endblock %}
+
+{% macro pct(value) -%}{{ (value * 100)|round|int }}%{%- endmacro %}
+
+{% macro term(name, anchor='') -%}
+<dt class="font-display text-lg font-bold text-ink"{% if anchor %} id="{{ anchor }}"{% endif %}>{{ name }}</dt>
+{%- endmacro %}
+
+{% block content %}
+<article class="mx-auto grid max-w-3xl gap-10 text-ink [&_p]:m-0 [&_p]:leading-relaxed">
+    <header class="grid gap-3">
+        <h1 class="m-0 font-display text-[40px] leading-none font-extrabold [font-stretch:75%] text-balance sm:text-[56px]">{{ page.title }}</h1>
+        <p class="text-ink-muted">Every number on this site starts with the official game reports of each league. This page explains the ones we calculate on top: what they mean, how they are worked out, and where their limits are. The settings shown are the ones the site is built with today.</p>
+        <nav class="flex flex-wrap gap-2" aria-label="On this page">
+            <a class="fs-chip" href="#power-ranking">Power ranking</a>
+            <a class="fs-chip" href="#win-probability">Win probability</a>
+            <a class="fs-chip" href="#projections">Projections</a>
+            <a class="fs-chip" href="#clutch">Clutch stats</a>
+            <a class="fs-chip" href="#duos">Scoring duos</a>
+            <a class="fs-chip" href="#table-history">Table history</a>
+            <a class="fs-chip" href="#data">Data</a>
+        </nav>
+    </header>
+
+    <section id="power-ranking" class="grid gap-4 scroll-mt-24" aria-labelledby="power-ranking-title">
+        <h2 id="power-ranking-title" class="fs-section-title">Power ranking and Elo rating</h2>
+        <p>The table ranks teams by points. The power ranking ranks them by strength: an Elo rating, the system chess uses, that looks at who a team beat, by how much and where.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Rating', 'elo') }}
+            <dd class="m-0 grid gap-2">
+                <p>An average team is at {{ m.base }}. The gap between two ratings says how likely one team beats the other: a team rated 100 points higher wins about {{ pct(m.neutral_100) }} of games on neutral ground. The home team gets {{ m.home_advantage }} points on top.</p>
+                <p>After every game, points move from the loser to the winner. How many depends on three things:</p>
+                <ul class="m-0 grid gap-1 pl-5">
+                    <li><strong>Surprise.</strong> A favourite that wins gains little, an underdog that wins gains a lot.</li>
+                    <li><strong>Margin.</strong> A 9:2 counts more than a 3:2, but with diminishing steps: the margin factor grows with the logarithm of the goal difference.</li>
+                    <li><strong>How the game was won.</strong> A win in regulation counts as a full win. A win after overtime or penalty shots counts as {{ m.extra_time_score }} of a win, closer to a draw.</li>
+                </ul>
+                <p class="rounded-md border border-line bg-surface-sunken px-4 py-3 font-display tabular-nums">Change = {{ m.k_factor }} × margin factor × (result − expected result)</p>
+            </dd>
+            {{ term('Example') }}
+            <dd class="m-0 grid gap-2">
+                <p>A home team rated {{ ex.home_rating }} meets a visitor rated {{ ex.away_rating }}. With home advantage its expected result is {{ pct(ex.expected) }}.</p>
+                <ul class="m-0 grid gap-1 pl-5">
+                    <li>It wins {{ ex.home_goals }}:{{ ex.away_goals }} in regulation: <strong>+{{ ex.change|round|int }}</strong> for the home team, −{{ ex.change|round|int }} for the visitor.</li>
+                    <li>It wins only after overtime: <strong>{{ ex.extra_time_change|round|int }}</strong>. A {{ m.extra_time_score }} win is less than the {{ pct(ex.expected) }} it was expected to reach, so even a win can cost a favourite a few points.</li>
+                </ul>
+            </dd>
+            {{ term('Between seasons') }}
+            <dd class="m-0"><p>Ratings carry over, but in summer every rating moves {{ (m.regression * 100)|round|int }}% of the way back to {{ m.base }}, because squads change. A team new to the league starts at {{ m.newcomer }}.</p></dd>
+            {{ term('Power rank, 7 days') }}
+            <dd class="m-0"><p>The power rank is the order of the ratings. "7 days" is the rating change over the last {{ m.trend_days }} days of games, and the small number next to the place shows how many places a team gained or lost in that time.</p></dd>
+            {{ term('How good is it?') }}
+            <dd class="m-0"><p>We chose the settings on all 25/26 and 26/27 games of every league (October 2026). Teams the ratings gave a 70 to 80% chance won 74% of those games. Measured as log loss, the ratings score 0.545 where a coin flip scores 0.693; lower is better. Ratings know nothing about injuries, transfers or a goalkeeper's day.</p></dd>
+        </dl>
+    </section>
+
+    <section id="win-probability" class="grid gap-4 scroll-mt-24" aria-labelledby="win-probability-title">
+        <h2 id="win-probability-title" class="fs-section-title">Win probability</h2>
+        <p>Each game page shows how likely each team is to win, overtime and penalty shots included, from both ratings plus home advantage. For finished games it shows the chance before the game, which is how we find upsets.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Upset') }}
+            <dd class="m-0"><p>The winner had less than a {{ (m.upset_threshold * 100)|round|int }}% chance before the game. The league page lists the three biggest upsets of the season.</p></dd>
+            {{ term('When it is shown') }}
+            <dd class="m-0"><p>Once both teams have played at least {{ m.min_rated_games }} rated games. Before that a rating is mostly a guess.</p></dd>
+        </dl>
+    </section>
+
+    <section id="projections" class="grid gap-4 scroll-mt-24" aria-labelledby="projections-title">
+        <h2 id="projections-title" class="fs-section-title">Season projections</h2>
+        <p>We play the rest of the regular season {{ '{:,}'.format(m.simulations|default(0)) }} times. In each simulated season every team gets a "true strength" drawn around its rating (about ±{{ m.uncertainty }} points, because a rating is never exact), every remaining game is played out with the win probabilities above, and the points are awarded the way the league awards them, read from its own results (for example 3 for a win, 2 for a win after overtime, 1 for a loss after overtime). How often games go to overtime also comes from the league's results.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Proj. pts') }}
+            <dd class="m-0"><p>Average final points over all simulated seasons.</p></dd>
+            {{ term('1st, Top 4, Playoffs') }}
+            <dd class="m-0"><p>Share of simulated seasons in which the team finished first, in the top four or on a playoff place. Playoff places follow the league's format, play-in places included (in the Czech Extraliga the top 10). Ties on points are broken by today's goal difference.</p></dd>
+            {{ term('Title') }}
+            <dd class="m-0"><p>Each simulated season continues into the playoffs with the league's series lengths: the best seed meets the worst remaining one in every round, home ice alternates within a series, and a one-game final is played on neutral ground. Formats where teams pick their opponent are only approximated. Title odds are shown until the playoffs start and only for leagues whose playoff format we have.</p></dd>
+            {{ term('What 0% and 100% mean') }}
+            <dd class="m-0"><p>"&gt;99%" and "&lt;1%" mean it happened in almost every or almost no simulated season. 0% and 100% mean never or always in {{ '{:,}'.format(m.simulations|default(0)) }} seasons, not that it is mathematically decided.</p></dd>
+        </dl>
+    </section>
+
+    <section id="clutch" class="grid gap-4 scroll-mt-24" aria-labelledby="clutch-title">
+        <h2 id="clutch-title" class="fs-section-title">Clutch stats</h2>
+        <p>Not every goal weighs the same. These stats count the goals that changed a game, from each game's event list.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Game-changing goals', 'game-changing') }}
+            <dd class="m-0 grid gap-2">
+                <p>Goals that changed who leads, at any time of the game. There are two kinds:</p>
+                <ul class="m-0 grid gap-1 pl-5">
+                    <li><strong>Equalizer:</strong> ties the game, for example 1:2 to 2:2.</li>
+                    <li><strong>Go-ahead goal:</strong> breaks a tie, for example 2:2 to 3:2.</li>
+                </ul>
+                <p>The player page also shows which share of a player's goals were game-changing.</p>
+            </dd>
+            {{ term('Clutch goal, clutch points', 'clutch-goal') }}
+            <dd class="m-0"><p>A game-changing goal late in the game: in the last ten minutes of regulation (from {{ m.late_minute }}:00) or in overtime. Every overtime goal is a clutch goal, because overtime starts tied and its goal decides the game. Clutch points are clutch goals plus assists on them.</p></dd>
+            {{ term('Game winner (GWG)', 'game-winner') }}
+            <dd class="m-0"><p>The goal that put the winner one goal above the loser's final total. In a 5:3 that is the winner's fourth goal, even if it came early. Games decided by penalty shots have no game winner. On game pages these goals are labelled "Game winner".</p></dd>
+            {{ term('Overtime goals') }}
+            <dd class="m-0"><p>Goals in overtime. Penalty-shootout goals are not goals in these stats.</p></dd>
+            {{ term('What does not count') }}
+            <dd class="m-0"><p>Penalty-shootout goals never count. Own goals change the score but are credited to no player. Penalty shots during the game count like any other goal.</p></dd>
+        </dl>
+    </section>
+
+    <section id="duos" class="grid gap-4 scroll-mt-24" aria-labelledby="duos-title">
+        <h2 id="duos-title" class="fs-section-title">Scoring duos and partners</h2>
+        <p>A duo is two teammates who scored from each other's passes. We count every goal where one assisted the other, in both directions, so "Berg → Lind 5 · Lind → Berg 10" means 15 goals together. Arrows read passer → scorer. Most sources list one assist per goal, so only the last pass counts. On player pages the same data shows the teammates a player scored from (scored from) and set up (set up) most often.</p>
+    </section>
+
+    <section id="table-history" class="grid gap-4 scroll-mt-24" aria-labelledby="table-history-title">
+        <h2 id="table-history-title" class="fs-section-title">Table history</h2>
+        <p>The chart shows each team's place in the table after every round. The leagues publish no round numbers, so a round is a block of game days: a new one starts when a game day is more than {{ m.round_gap_days }} days after the first day of the current round. Friday to Sunday is one round, Wednesday and Saturday are two. A team with a postponed game has one game less in between, as on any table.</p>
+        <p>The table after each round is rebuilt from the results with points, then goal difference, then goals scored. Some leagues rank ties by head-to-head results, so a place in between can differ from the official table on a tie. The latest round always shows the official table.</p>
+    </section>
+
+    <section id="data" class="grid gap-4 scroll-mt-24" aria-labelledby="data-title">
+        <h2 id="data-title" class="fs-section-title">Data</h2>
+        <p>Results and game events come from the official league and federation sites and are refreshed daily. These stats are worked out on every refresh from the games we have tracked since the 25/26 season. When a source misses an event, for example the last goal of a game, we do not fill it in: that game then has no game winner. Found something that looks wrong? Use the feedback button, we read every message.</p>
+    </section>
+</article>
+{% endblock %}

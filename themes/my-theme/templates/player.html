@@ -1,3 +1,4 @@
+{% import "insights.html" as insights with context %}
 <section class="hero">
     <div class="hero-top">
         <div>
@@ -51,6 +52,10 @@
             <li class="stat-guide__item"><strong>Tournament Season:</strong> Tournament appearances are combined into one season total.</li>
             {% endif %}
             <li class="stat-guide__item"><strong>Season History:</strong> Archive of season-by-season totals across leagues/phases.</li>
+            <li class="stat-guide__item"><strong>Game-changing goals:</strong> Goals that tied the game (equalizers) or gave the lead (go-ahead goals), at any time.</li>
+            <li class="stat-guide__item"><strong>Clutch points:</strong> Game-changing goals in the last ten minutes of regulation or in overtime, plus assists on them. Every overtime goal counts.</li>
+            <li class="stat-guide__item"><strong>Game winners (GWG):</strong> The goal that gave the winner one more goal than the loser's final total (none after penalty shots).</li>
+            <li class="stat-guide__item"><strong>Scoring partners:</strong> Teammates this player scored from or set up most often this season.</li>
         </ul>
     </div>
 </details>
@@ -84,6 +89,8 @@
     <article class="kpi"><p class="kpi-label">Penalty Minutes per Game (PIM/Game)</p><p class="kpi-value">{{ pimg }}</p></article>
     {% if article.shots %}<article class="kpi"><p class="kpi-label">Shots</p><p class="kpi-value">{{ article.shots }}</p></article>{% endif %}
 </section>
+
+{{ insights.player_clutch(article.clutch, article.partners) }}
 
 <section class="panel">
     <h2 class="panel-title">Season Overview</h2>

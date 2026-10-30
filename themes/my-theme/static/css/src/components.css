@@ -296,6 +296,11 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-table tr.is-followed td { background: var(--rink-soft); }
 .fs-table tr.is-cut td { border-bottom: 2px solid var(--ball); }
 .fs-table tbody tr:hover td { background: var(--surface-sunken); }
+/* Power ranking on phones: one column set at a time (data-power-view on the table wrap). */
+@media (width < 40rem) {
+  [data-power-view="ratings"] [data-col="proj"],
+  [data-power-view="projections"] [data-col="rating"] { display: none; }
+}
 
 /* League card: one league in the league menu */
 .fs-league-card {
@@ -319,3 +324,33 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-panel-title { margin: 0; color: var(--ink); font: 700 21px/1.2 var(--font-display); font-stretch: 85%; }
 .fs-label { color: var(--ink-muted); font: 600 12px/1.3 var(--font-body); letter-spacing: 0.07em; text-transform: uppercase; }
 }
+
+/* Bump chart: table place per round (insights.html). The plot stretches to the column,
+   axes and team labels are HTML at a fixed size; lines take the team's crest colour. */
+.fs-bump {
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr) min(13rem, 40%);
+  column-gap: var(--space-3);
+  row-gap: var(--space-2);
+  font: 500 12px/1 var(--font-body);
+}
+.fs-bump--focus { grid-template-columns: 1.5rem minmax(0, 1fr); }
+.fs-bump__yaxis, .fs-bump__labels { position: relative; margin: 0; padding: 0; list-style: none; }
+.fs-bump__yaxis span { position: absolute; right: 0; transform: translateY(-50%); color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.fs-bump__labels li { position: absolute; left: 0; right: 0; overflow: hidden; transform: translateY(-50%); white-space: nowrap; text-overflow: ellipsis; transition: opacity 0.15s; }
+.fs-bump__labels a { color: var(--ink); font-weight: 600; }
+.fs-bump__now { display: inline-block; min-width: 1.4em; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.fs-bump__plot { display: block; width: 100%; overflow: visible; }
+.fs-bump__grid { stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.fs-bump__team { --bump: var(--ink-muted); cursor: pointer; transition: opacity 0.15s; }
+.fs-bump__team polyline { fill: none; stroke: var(--bump); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.fs-bump__team polyline.fs-bump__hit { stroke: transparent; stroke-width: 14; pointer-events: stroke; }
+.fs-bump__team.is-active polyline:not(.fs-bump__hit) { stroke-width: 4; }
+.fs-bump.has-active .fs-bump__team:not(.is-active), .fs-bump.has-active .fs-bump__labels li:not(.is-active) { opacity: 0.2; }
+.fs-bump__xaxis { position: relative; grid-column: 2; height: 12px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.fs-bump__xaxis span { position: absolute; transform: translateX(-50%); }
+.fs-bump--focus .fs-bump__team { cursor: default; }
+.fs-bump--focus .fs-bump__team:not(.is-active) polyline { stroke: var(--line-strong); stroke-width: 1.5; opacity: 0.45; }
+.fs-bump--focus .fs-bump__team.is-active polyline { stroke: var(--rink); stroke-width: 3; }
+.fs-bump__dot { stroke: var(--rink); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+@media (prefers-reduced-motion: reduce) { .fs-bump__team, .fs-bump__labels li { transition: none; } }

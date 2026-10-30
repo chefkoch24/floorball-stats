@@ -8,6 +8,9 @@ from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = 'https://stats.floorballconnect.com'
+# Netlify deploy previews and branch deploys link to themselves, not to the live site.
+if os.environ.get('CONTEXT') in ('deploy-preview', 'branch-deploy') and os.environ.get('DEPLOY_PRIME_URL'):
+    SITEURL = os.environ['DEPLOY_PRIME_URL'].rstrip('/')
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

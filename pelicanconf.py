@@ -20,6 +20,8 @@ PLUGINS = [
     'rosters',
     # cross-league leaderboards for the leaders page
     'leaders',
+    # clutch stats, scoring duos, Elo power ratings and season projections
+    'insights',
 ]
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 

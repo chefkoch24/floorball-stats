@@ -12,9 +12,14 @@
 - [x] Prepare the playoffs for all other leagues as well. In CZ and SWE they are starting very soon as the regular seasons are over
 - [x] Improve SEO
 - [x] Search for Players in the player list
+- [x] Clutch stats (game winners, go-ahead goals, equalizers, clutch points) and scoring duos on player, team and league pages
+- [x] Power ranking: Elo ratings, win probabilities on game pages, biggest upsets, season and playoff projections per league
+- [x] Table history: every team's place after each round, as a chart on league and team pages
+- [x] "How our stats work" page with all definitions (Elo, projections, clutch, game-changing goals, duos, table history), linked from every new section
 - [ ] Scalable process across leagues
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
+- [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)); first decide the rights option in the plan
 - [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
 
 
