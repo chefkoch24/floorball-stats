@@ -92,7 +92,7 @@
 {# Phones show two numbers per view: the odds that matter most for this league. #}
 {% set phone_proj = 'max-sm:hidden' if power.has_title else '' %}
 {% set phone_top4 = '' if not power.places and not power.has_title else 'max-sm:hidden' %}
-<section id="power-ranking" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="power-title">
+<section id="power-ranking" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="power-title">
     <div class="flex flex-wrap items-end justify-between gap-3">
         <div class="grid gap-1">
             <h2 id="power-title" class="fs-section-title">Power ranking</h2>
@@ -297,7 +297,7 @@
 
 {% macro league_table_history(chart) %}
 {% if chart %}
-<section id="table-history" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="table-history-title">
+<section id="table-history" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="table-history-title">
     <div class="grid gap-1">
         <h2 id="table-history-title" class="fs-section-title">Table history</h2>
         <p class="m-0 text-sm text-ink-muted">Every team's place round by round. Point at or tap a line or a team to follow it.</p>
@@ -419,7 +419,7 @@
 
 {% macro head_to_head(matrix) %}
 {% if matrix and matrix.rows %}
-<section id="head-to-head" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="h2h-title">
+<section id="head-to-head" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="h2h-title">
     <div class="flex flex-wrap items-end justify-between gap-3">
         <div class="grid gap-1">
             <h2 id="h2h-title" class="fs-section-title">Head to head</h2>
@@ -608,22 +608,26 @@
 
 {% macro league_records(records, hot) %}
 {% if records %}
-<section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="records-title">
-    <h2 id="records-title" class="fs-panel-title">Season records</h2>
-    <ul class="m-0 grid list-none gap-0 p-0">
-        {% for record in records %}
-        <li class="grid gap-0.5 border-t border-line py-2 first:border-t-0">
-            <span class="flex items-baseline justify-between gap-3"><span class="fs-label">{{ record.label }}</span><span class="font-display text-lg font-extrabold text-ink tabular-nums">{{ record.value }}</span></span>
-            {% if record.url %}<a class="text-xs [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ record.url }}">{{ record.detail }}</a>{% else %}<span class="text-xs text-ink-muted">{{ record.detail }}</span>{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-    {% if hot and (hot.teams or hot.players) %}
-    <div class="grid gap-1 border-t border-line pt-2">
-        <span class="fs-label">On a run</span>
-        {% for row in hot.teams %}<span class="text-sm"><a class="font-semibold text-ink" href="{{ SITEURL }}/{{ row.url }}">{{ row.team }}</a> <span class="text-ink-muted">· {{ row.wins }} wins in a row</span></span>{% endfor %}
-        {% for row in hot.players %}<span class="text-sm">{{ player_name(row) }} <span class="text-ink-muted">· points in {{ row.streak }} straight games</span></span>{% endfor %}
+<section id="records" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="records-title">
+    <div class="grid gap-1">
+        <h2 id="records-title" class="fs-section-title">Season records</h2>
+        <p class="m-0 text-sm text-ink-muted">The standout moments of the season so far. {{ explain('records') }}</p>
     </div>
+    <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
+        {% for record in records %}
+        <a class="fs-stat text-ink hover:border-rink hover:no-underline" href="{{ SITEURL }}/{{ record.url }}">
+            <span class="fs-stat__label">{{ record.label }}</span>
+            <span class="fs-stat__value">{{ record.value }}</span>
+            <span class="fs-stat__context [overflow-wrap:anywhere]">{{ record.detail }}</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% if hot and (hot.teams or hot.players) %}
+    <p class="m-0 flex flex-wrap gap-x-5 gap-y-1 text-sm text-ink-muted">
+        <span class="fs-label self-center">On a run</span>
+        {% for row in hot.teams %}<span><a class="font-semibold text-ink" href="{{ SITEURL }}/{{ row.url }}">{{ row.team }}</a> · {{ row.wins }} wins in a row</span>{% endfor %}
+        {% for row in hot.players %}<span>{{ player_name(row) }} · points in {{ row.streak }} straight games</span>{% endfor %}
+    </p>
     {% endif %}
 </section>
 {% endif %}
@@ -652,7 +656,7 @@
 
 {% macro league_leads(rows) %}
 {% if rows %}
-<section id="comebacks" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="leads-title">
+<section id="comebacks" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="leads-title">
     <div class="grid gap-1">
         <h2 id="leads-title" class="fs-section-title">Comebacks and leads</h2>
         <p class="m-0 text-sm text-ink-muted">Who turns games around and who lets them slip. {{ explain('comebacks') }}</p>
