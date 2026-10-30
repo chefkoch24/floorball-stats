@@ -45,7 +45,7 @@
 <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="clutch-title">
     <div class="flex items-baseline justify-between gap-3">
         <h2 id="clutch-title" class="fs-panel-title">Clutch leaders</h2>
-        <span class="fs-label" title="Clutch goals + assists on them">Clutch pts</span>
+        <span class="fs-label">Clutch pts</span>
     </div>
     <ol class="m-0 grid list-none gap-0 p-0">
         {% for row in rows %}
@@ -53,7 +53,7 @@
             <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
             <span class="grid min-w-0">
                 {{ player_name(row) }}
-                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · GWG {{ row.gwg }}</span>
+                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · <abbr>GWG</abbr> {{ row.gwg }}</span>
             </span>
             <span class="text-right font-display tabular-nums"><span class="text-lg font-extrabold text-ink">{{ row.clutch_points }}</span> <span class="text-xs text-ink-muted">{{ row.clutch_goals }}+{{ row.clutch_assists }}</span></span>
         </li>
@@ -69,7 +69,7 @@
 <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="duos-title-{{ title|lower|replace(' ', '-') }}">
     <div class="flex items-baseline justify-between gap-3">
         <h2 id="duos-title-{{ title|lower|replace(' ', '-') }}" class="fs-panel-title">{{ title }}</h2>
-        <span class="fs-label" title="Goals one of them scored from the other's pass">Goals</span>
+        <span class="fs-label" data-tip="Goals one of them scored from the other's pass">Goals</span>
     </div>
     <ol class="m-0 grid list-none gap-0 p-0">
         {% for duo in rows %}
@@ -410,7 +410,7 @@
 {% macro h2h_games(cell, show_side=false) -%}
 {%- for game in cell.games -%}
 {%- if game.score -%}
-{% if show_side %}<span class="inline-flex items-center gap-1"><span class="text-xs text-ink-muted">{{ 'H' if game.home else 'A' }}</span>{% endif %}<a class="fs-form__game fs-form__game--{{ game.tone }} hover:no-underline" href="{{ SITEURL }}/{{ game.url }}" title="{{ game.letter }} {{ game.score }} · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }}">{{ game.score }}</a>{% if show_side %}</span>{% endif %}
+{% if show_side %}<span class="inline-flex items-center gap-1"><span class="text-xs text-ink-muted" data-tip="{{ 'Home game' if game.home else 'Away game' }}">{{ 'H' if game.home else 'A' }}</span>{% endif %}<a class="fs-form__game fs-form__game--{{ game.tone }} hover:no-underline" href="{{ SITEURL }}/{{ game.url }}" title="{{ game.letter }} {{ game.score }} · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }}">{{ game.score }}</a>{% if show_side %}</span>{% endif %}
 {%- else -%}
 <a class="fs-h2h__chance" href="{{ SITEURL }}/{{ game.url }}" title="Upcoming · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }} · win chance {{ game.chance }}">{% if show_side %}{{ 'H' if game.home else 'A' }} {{ game.date.strftime('%-d %b') }} · {% endif %}{{ game.chance }}</a>
 {%- endif -%}
@@ -597,8 +597,8 @@
         <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3">
             <div class="grid"><dt class="fs-label">Comeback wins</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.comeback_wins }} <span class="text-sm font-medium text-ink-muted">of {{ leads.trailed }} trailed</span></dd></div>
             <div class="grid"><dt class="fs-label">Blown leads</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.blown_leads }} <span class="text-sm font-medium text-ink-muted">of {{ leads.led }} led</span></dd></div>
-            <div class="grid"><dt class="fs-label">Ahead after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_leading_two }}–{{ leads.led_after_two - leads.won_after_leading_two }} <span class="text-sm font-medium text-ink-muted">W–L</span></dd></div>
-            <div class="grid"><dt class="fs-label">Behind after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_trailing_two }}–{{ leads.trailed_after_two - leads.won_after_trailing_two }} <span class="text-sm font-medium text-ink-muted">W–L</span></dd></div>
+            <div class="grid"><dt class="fs-label" data-tip="Wins and losses when the team led after two periods (at 40:00)">Ahead after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_leading_two }}–{{ leads.led_after_two - leads.won_after_leading_two }} <abbr class="text-sm font-medium text-ink-muted">W–L</abbr></dd></div>
+            <div class="grid"><dt class="fs-label" data-tip="Wins and losses when the team trailed after two periods (at 40:00)">Behind after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_trailing_two }}–{{ leads.trailed_after_two - leads.won_after_trailing_two }} <abbr class="text-sm font-medium text-ink-muted">W–L</abbr></dd></div>
         </dl>
     </section>
     {% endif %}

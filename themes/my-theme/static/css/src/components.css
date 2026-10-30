@@ -389,3 +389,22 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-timing__block { display: grid; grid-template-rows: 1fr 1fr; align-items: end; border-bottom: 0; }
 .fs-timing__for { align-self: end; min-height: 1px; border-radius: 2px 2px 0 0; background: var(--rink); }
 .fs-timing__against { align-self: start; min-height: 1px; border-radius: 0 0 2px 2px; background: var(--ink-muted); opacity: 0.6; }
+
+/* Info boxes for abbreviations (static/js/tips.js): [data-tip] and titled labels get a dotted
+   underline; the explanation floats in one box on hover, focus or tap. */
+.fs-abbr { cursor: help; text-decoration: underline dotted; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+th.fs-abbr { text-decoration-thickness: 1px; }
+.fs-tip {
+  position: absolute;
+  z-index: 60;
+  max-width: min(260px, calc(100vw - 16px));
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--ink);
+  color: var(--surface);
+  box-shadow: var(--shadow-menu);
+  font: 500 13px/1.4 var(--font-body);
+  letter-spacing: 0;
+  text-transform: none;
+  pointer-events: none;
+}
