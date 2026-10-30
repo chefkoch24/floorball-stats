@@ -39,12 +39,12 @@ class Collection:
 COLLECTIONS = [
     Collection(
         "sticks", "floorball-sticks", "Stick reviews", "Gear",
-        "Real stick reviews from the floorball community for the floorball community.",
+        "Real stick reviews from the Floorball community for the Floorball community.",
         legacy_detail="floorball-stick-details", facet="Brand",
     ),
     Collection(
         "blades", "floorball-blades", "Blade reviews", "Gear",
-        "Real blade reviews from the floorball community for the floorball community.",
+        "Real blade reviews from the Floorball community for the Floorball community.",
         legacy_detail="floorball-blade-details", facet="Brand",
     ),
     Collection(
@@ -54,7 +54,7 @@ COLLECTIONS = [
     ),
     Collection(
         "deals", "black-friday-deals", "Black Friday deals", "Gear",
-        "The best floorball Black Friday deals in one place, collected by the community.",
+        "The best Floorball Black Friday deals in one place, collected by the community.",
         detail=False, card="text", link_label="Go to the deal",
     ),
     Collection(
@@ -69,12 +69,12 @@ COLLECTIONS = [
     ),
     Collection(
         "lexicon", "floorball-lexicon", "Floorball lexicon", "Learn",
-        "The most common floorball terms explained in plain language, so anyone can understand the game faster.",
+        "The most common Floorball terms explained in plain language, so anyone can understand the game faster.",
         card="row",
     ),
     Collection(
         "books", "floorball-books", "Books", "Learn",
-        "Books about floorball: tactics, training and the history of the game.",
+        "Books about Floorball: tactics, training and the history of the game.",
         detail=False, facet="Language", card="text", link_label="Get the book",
         sort=("Year",),
     ),
@@ -132,6 +132,15 @@ def _rating(fields: dict, name: str) -> float | None:
     return _number(fields.get(f"{name} Rating", fields.get(f"{name} Rating ")))
 
 
+# "Floorball" is always capitalised in the copy. Words inside URLs, handles and file names
+# (floorball-planet.de, @floorballshow, watch-floorball) are left alone.
+_FLOORBALL = re.compile(r"(?<![/\-.@\w])floorball(?![\-\w/@]|\.\w)")
+
+
+def brand_case(text: str) -> str:
+    return _FLOORBALL.sub("Floorball", text) if text else text
+
+
 def web_url(text: str) -> str:
     """A link as people type it ("www.shop.com", " https://…") as a full https URL."""
     text = (text or "").strip()
@@ -179,8 +188,8 @@ def review(fields: dict) -> dict:
     handle = "" if anonymous else _text(fields.get("Instagram Handle")).lstrip("@")
     facts = [(label, _text(fields.get(key))) for label, key in (("Color / edition", "Color/ Edition"), ("Blade", "Blade"), ("Blade", "Blade Text"), ("Flex", "Flex"), ("Shaft", "Shaft"), ("Playing since", "Playing Since"), ("Using it for", "Years This Stick"))]
     return {
-        "headline": _text(fields.get("Headline")),
-        "text": _text(fields.get("Review")),
+        "headline": brand_case(_text(fields.get("Headline"))),
+        "text": brand_case(_text(fields.get("Review"))),
         "ratings": _ratings(fields),
         "name": name or "Anonymous",
         "instagram": handle,
@@ -256,6 +265,8 @@ def normalize(collection: Collection, record: dict) -> Item:
         item.link = _text(fields.get("Spotify Link") or fields.get("Link"))
 
     item.facts = [(label, value) for label, value in item.facts if value]
+    for name in ("title", "subtitle", "summary", "body"):
+        setattr(item, name, brand_case(getattr(item, name)))
     item.slug = slugify(" ".join(part for part in (item.subtitle if key in ("sticks", "blades") else "", item.title) if part))
     return item
 

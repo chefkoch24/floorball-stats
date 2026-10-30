@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% set page_title = (seo_title ~ ' · ' ~ SITENAME) if seo_title is defined and seo_title else SITENAME ~ ' · The home of floorball' %}
-    {% set page_description = seo_description if seo_description is defined and seo_description else 'Floorball Connect brings the floorball world together: stick and blade reviews, drills, guides, where to watch, documentaries, podcasts and stats for the top leagues.' %}
+    {% set page_title = (seo_title ~ ' · ' ~ SITENAME) if seo_title is defined and seo_title else SITENAME ~ ' · The home of Floorball' %}
+    {% set page_description = seo_description if seo_description is defined and seo_description else 'Floorball Connect brings the Floorball world together: stick and blade reviews, drills, guides, where to watch, documentaries, podcasts and stats for the top leagues.' %}
     <title>{{ page_title }}</title>
     <meta name="description" content="{{ page_description|striptags|truncate(300) }}">
     {% if SITEURL and page_name is defined %}

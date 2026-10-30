@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ seo_title|default(SITENAME) }}</title>
-    <meta name="description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European floorball leagues.') }}">
+    <meta name="description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European Floorball leagues.') }}">
     {% if SITEURL and seo_canonical_path is defined %}
     <link rel="canonical" href="{{ SITEURL }}/{{ seo_canonical_path }}">
     <meta property="og:url" content="{{ SITEURL }}/{{ seo_canonical_path }}">
@@ -12,7 +12,7 @@
     <meta property="og:site_name" content="{{ SITENAME }}">
     <meta property="og:type" content="{{ seo_type|default('website') }}">
     <meta property="og:title" content="{{ seo_title|default(SITENAME) }}">
-    <meta property="og:description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European floorball leagues.') }}">
+    <meta property="og:description" content="{{ seo_description|default('Floorball Stats provides standings, results, team stats, league trends, and game reports for top European Floorball leagues.') }}">
     {% set og_image_url = SITEURL ~ '/' ~ (og_image|default('og/default.png')) %}
     <meta property="og:image" content="{{ og_image_url }}">
     <meta property="og:image:width" content="1200">

@@ -56,12 +56,16 @@ def write_pages(generator, writer) -> None:
         if not collection.detail:
             continue
         detail_template = generator.get_template("item_review" if collection.key in ("sticks", "blades") else "item")
-        for item in rows:
-            related = [row for row in rows if row is not item and set(row.facet) & set(item.facet)][:3]
+        for index, item in enumerate(rows):
+            # Same brand or category first, then the neighbours in the list, so every page has some.
+            others = [row for row in rows if row is not item]
+            related = [row for row in others if set(row.facet) & set(item.facet)]
+            related += [row for row in others if row not in related]
             writer.write_file(
                 f"{collection.slug}/{item.slug}/index.html", detail_template, context,
                 relative_urls=generator.settings["RELATIVE_URLS"], url=item.url,
-                collection=collection, item=item, related=related, page_name=item.url,
+                collection=collection, item=item, related=related[:3], page_name=item.url,
+                previous=rows[index - 1] if index else None, next=rows[index + 1] if index + 1 < len(rows) else None,
             )
 
 

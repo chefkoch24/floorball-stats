@@ -104,3 +104,9 @@ def test_deals_link_to_the_shop_even_without_a_scheme() -> None:
     assert item.link == "https://www.floorball-planet.de"
     assert item.tags == ["up to 20%"]
     assert cc.web_url("https://shop.example/x") == "https://shop.example/x"
+
+
+def test_floorball_is_capitalised_in_text_but_not_in_links() -> None:
+    assert cc.brand_case("the floorball world. floorball, a sport") == "the Floorball world. Floorball, a sport"
+    html = "<a href='https://www.floorball-planet.de/'>shop</a> watch-floorball @floorballshow floorball.lv ends with floorball."
+    assert cc.brand_case(html) == "<a href='https://www.floorball-planet.de/'>shop</a> watch-floorball @floorballshow floorball.lv ends with Floorball."

@@ -1,7 +1,7 @@
 Title: About us
 Slug: about-us
 Template: page
-Summary: Floorball Connect brings together what the floorball community already knows: reviews, drills, guides, where to watch and stats, in one place.
+Summary: Floorball Connect brings together what the Floorball community already knows: reviews, drills, guides, where to watch and stats, in one place.
 
 Floorball is a fast-growing sport that still doesn't get the attention it deserves.
 
@@ -9,11 +9,11 @@ In our view, the main challenge is not a lack of passion or content, but fragmen
 
 This project starts from that observation. Our goal is to connect what already exists and make it easier to discover, understand and build upon.
 
-We are active ourselves as players, coaches and fans, and this project is built on hands-on experience. By combining different sources and perspectives, we want to create more clarity, structure and accessibility for the floorball community.
+We are active ourselves as players, coaches and fans, and this project is built on hands-on experience. By combining different sources and perspectives, we want to create more clarity, structure and accessibility for the Floorball community.
 
 ## What we're building
 
-### A connected floorball world
+### A connected Floorball world
 
 At its core, Floorball Connect aims to bring people closer together. Players, coaches, clubs, fans and creators should be able to find each other's knowledge more easily and learn across borders, leagues and levels.
 
@@ -23,7 +23,7 @@ Equipment choices matter, but honest and comparable information is often missing
 
 ### Content and insights
 
-There is already a lot of great floorball content out there. We focus on curating, organising and highlighting it, from training drills and player development tips to podcasts, interviews and long-form insights. The aim is to make learning easier and more accessible.
+There is already a lot of great Floorball content out there. We focus on curating, organising and highlighting it, from training drills and player development tips to podcasts, interviews and long-form insights. The aim is to make learning easier and more accessible.
 
 ### Data, stats and analytics
 

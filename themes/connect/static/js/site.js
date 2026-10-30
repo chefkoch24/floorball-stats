@@ -151,6 +151,18 @@
     });
   });
 
+  // Share buttons: the phone's share sheet where there is one, else copy the link.
+  document.querySelectorAll('[data-share]').forEach((button) => button.addEventListener('click', async () => {
+    const data = { title: button.dataset.shareTitle || document.title, url: window.location.href };
+    try {
+      if (navigator.share) { await navigator.share(data); return; }
+      await navigator.clipboard.writeText(data.url);
+      const label = button.textContent;
+      button.textContent = 'Link copied';
+      setTimeout(() => { button.textContent = label; }, 1800);
+    } catch (error) {}
+  }));
+
   // Collection pages: a search box and facet chips filter the cards in place.
   const list = document.querySelector('[data-filter-list]');
   if (!list) return;
