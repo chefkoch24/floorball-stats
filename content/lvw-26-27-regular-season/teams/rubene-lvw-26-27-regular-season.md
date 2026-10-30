@@ -6,13 +6,13 @@ type: team
 team:Rubene
 platzierungsverlauf:lvw-26-27-regular-season/teams/rubene-lvw-26-27-regular-season_platzierungsverlauf.png
 away_points: 3
-boxplay: 6
-boxplay_efficiency: 83.33
+boxplay: 4
+boxplay_efficiency: 75.0
 boxplay_first_period: 0
 boxplay_overtime: 0
-boxplay_per_game: 1.2
-boxplay_second_period: 2
-boxplay_third_period: 4
+boxplay_per_game: 0.8
+boxplay_second_period: 1
+boxplay_third_period: 3
 close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: n.a.
@@ -60,10 +60,10 @@ over_time_wins: 0
 penalties: 5
 penalties_per_game: 1.0
 penalty_10: 0
-penalty_2: 3
+penalty_2: 5
 penalty_2and2: 0
 penalty_first_period: 0
-penalty_ms: 2
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 2
 penalty_shootout_losses: 0

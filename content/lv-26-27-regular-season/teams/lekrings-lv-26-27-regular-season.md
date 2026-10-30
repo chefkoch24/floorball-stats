@@ -6,12 +6,12 @@ type: team
 team:Lekrings
 platzierungsverlauf:lv-26-27-regular-season/teams/lekrings-lv-26-27-regular-season_platzierungsverlauf.png
 away_points: 6
-boxplay: 13
-boxplay_efficiency: 61.54
+boxplay: 12
+boxplay_efficiency: 58.33
 boxplay_first_period: 2
 boxplay_overtime: 0
-boxplay_per_game: 1.62
-boxplay_second_period: 8
+boxplay_per_game: 1.5
+boxplay_second_period: 7
 boxplay_third_period: 3
 close_game_loss: 0
 close_game_overtime: 0
@@ -46,7 +46,7 @@ goals_in_overtime: 2
 goals_in_overtime_against: 1
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 3
+goals_in_powerplay: 5
 goals_in_second_period: 12
 goals_in_second_period_against: 11
 goals_in_third_period: 18
@@ -57,13 +57,13 @@ loss_1: 2
 losses: 2
 over_time_losses: 1
 over_time_wins: 2
-penalties: 13
-penalties_per_game: 1.62
-penalty_10: 1
-penalty_2: 10
+penalties: 14
+penalties_per_game: 1.75
+penalty_10: 0
+penalty_2: 14
 penalty_2and2: 0
 penalty_first_period: 3
-penalty_ms: 2
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 7
 penalty_shootout_losses: 0
@@ -91,13 +91,13 @@ Tags:  FBK SĀC: 0,  FBK Valmiera: 2,  FK Kurši: 3,  FK Talsi/TNSS/Krauzers: 3,
 points_max_difference_2: 3
 points_more_2_difference: 11
 points_per_game: 1.75
-powerplay: 15
-powerplay_efficiency: 20.0
+powerplay: 16
+powerplay_efficiency: 31.25
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 1.88
-powerplay_second_period: 7
-powerplay_third_period: 3
+powerplay_per_game: 2.0
+powerplay_second_period: 5
+powerplay_third_period: 6
 rank: 4
 scoring_ratio: 1.24
 take_the_lead_goals: 10

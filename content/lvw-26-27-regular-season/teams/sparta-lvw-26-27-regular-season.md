@@ -6,11 +6,11 @@ type: team
 team:Sparta
 platzierungsverlauf:lvw-26-27-regular-season/teams/sparta-lvw-26-27-regular-season_platzierungsverlauf.png
 away_points: 0
-boxplay: 4
-boxplay_efficiency: 25.0
-boxplay_first_period: 4
+boxplay: 3
+boxplay_efficiency: 0.0
+boxplay_first_period: 3
 boxplay_overtime: 0
-boxplay_per_game: 1.33
+boxplay_per_game: 1.0
 boxplay_second_period: 0
 boxplay_third_period: 0
 close_game_loss: 0
@@ -60,10 +60,10 @@ over_time_wins: 0
 penalties: 3
 penalties_per_game: 1.0
 penalty_10: 0
-penalty_2: 2
+penalty_2: 3
 penalty_2and2: 0
 penalty_first_period: 3
-penalty_ms: 1
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 0
 penalty_shootout_losses: 0

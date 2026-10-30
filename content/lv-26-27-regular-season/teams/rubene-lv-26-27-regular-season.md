@@ -6,13 +6,13 @@ type: team
 team:Rubene
 platzierungsverlauf:lv-26-27-regular-season/teams/rubene-lv-26-27-regular-season_platzierungsverlauf.png
 away_points: 12
-boxplay: 23
-boxplay_efficiency: 78.25999999999999
-boxplay_first_period: 8
+boxplay: 25
+boxplay_efficiency: 76.0
+boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 2.88
-boxplay_second_period: 9
-boxplay_third_period: 6
+boxplay_per_game: 3.12
+boxplay_second_period: 8
+boxplay_third_period: 8
 close_game_loss: 0
 close_game_overtime: 1
 close_game_points_per_game: 2.2
@@ -33,8 +33,8 @@ goals: 56
 goals_against: 31
 goals_against_away: 14
 goals_against_home: 17
-goals_against_in_boxplay: 5
-goals_against_in_boxplay_per_game: 0.62
+goals_against_in_boxplay: 6
+goals_against_in_boxplay_per_game: 0.75
 goals_against_in_powerplay: 1
 goals_against_per_game: 3.88
 goals_away: 30
@@ -57,13 +57,13 @@ loss_1: 1
 losses: 0
 over_time_losses: 1
 over_time_wins: 1
-penalties: 23
-penalties_per_game: 2.88
+penalties: 25
+penalties_per_game: 3.12
 penalty_10: 0
-penalty_2: 21
-penalty_2and2: 0
+penalty_2: 23
+penalty_2and2: 1
 penalty_first_period: 9
-penalty_ms: 2
+penalty_ms: 1
 penalty_overtime: 0
 penalty_second_period: 9
 penalty_shootout_losses: 0
@@ -93,11 +93,11 @@ points_more_2_difference: 10
 points_per_game: 2.62
 powerplay: 22
 powerplay_efficiency: 18.18
-powerplay_first_period: 7
-powerplay_overtime: 1
+powerplay_first_period: 6
+powerplay_overtime: 2
 powerplay_per_game: 2.75
-powerplay_second_period: 7
-powerplay_third_period: 7
+powerplay_second_period: 5
+powerplay_third_period: 9
 rank: 1
 scoring_ratio: 1.81
 take_the_lead_goals: 13
