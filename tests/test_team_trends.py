@@ -65,3 +65,23 @@ def test_records_timing_comebacks_and_crowds():
 
     assert tt.crowds(games) == {"A": (900.0, 1), "B": (1200.0, 1)}
     assert tt.team_goals(games) == {"A": 4, "B": 9}
+
+
+def test_penalties_count_per_team_and_player_by_kind():
+    assert tt.penalty_kind("penalty_2") == "2 min"
+    assert tt.penalty_kind("penalty_2and2") == "2+2"
+    assert tt.penalty_kind("penalty_ms_full") == tt.penalty_kind("penalty_ms_tech") == "Match"
+    assert tt.penalty_kind("something_new") == "Other"
+    games = [
+        tt.Game("1", "g1.html", date(2026, 10, 1), "A", "B", 3, 2, False, penalties=(
+            tt.Penalty(5, "home", "2 min", ANNA), tt.Penalty(25, "home", "10 min", ANNA), tt.Penalty(30, "away", "2 min"),
+        )),
+        tt.Game("2", "g2.html", date(2026, 10, 8), "B", "A", 1, 4, False, penalties=(tt.Penalty(12, "away", "2 min", CARA),)),
+    ]
+    teams, players = tt.penalty_totals(games)
+    assert (teams["A"].total, teams["A"].games, teams["A"].per_game) == (3, 2, 1.5)
+    assert teams["A"].kinds == {"2 min": 2, "10 min": 1}
+    assert teams["B"].total == 1
+    anna, team, line = players["p-anna"]
+    assert (anna.name, team, line.total, dict(line.kinds)) == ("Anna", "A", 2, {"2 min": 1, "10 min": 1})
+    assert players["p-cara"][1] == "A"

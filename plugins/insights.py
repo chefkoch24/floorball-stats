@@ -516,7 +516,24 @@ def _head_to_head(category, entries, run: pr.EloRun, team_articles, league_conte
 
 def _trend_game(article) -> tt.Game:
     goals = []
+    penalties = []
     for event in pi.decode_events(_meta(article, "game_events_b64")):
+        if event.get("event_kind") == "penalty" and event.get("side") in ("home", "away"):
+            # Penalty events name the penalised player in the assist fields.
+            try:
+                period = int(event.get("period") or 0)
+            except (TypeError, ValueError):
+                period = 0
+            in_period = pi.minute_in_period(event.get("minute"), period) if period else None
+            penalties.append(
+                tt.Penalty(
+                    minute=gf.goal_minute(period, in_period) if in_period is not None else 0.0,
+                    side=event["side"],
+                    kind=tt.penalty_kind(event.get("tag")),
+                    player=pi.player_ref(event.get("assist"), event.get("assist_uid"), str(event.get("team") or "")),
+                )
+            )
+            continue
         if event.get("event_kind") != "goal" or event.get("side") not in ("home", "away"):
             continue
         try:
@@ -551,7 +568,17 @@ def _trend_game(article) -> tt.Game:
         attendance=_int(article, "attendance") or None,
         home_points=_int(article, "home_points"),
         away_points=_int(article, "away_points"),
+        penalties=tuple(penalties),
     )
+
+
+def _penalty_row(line: tt.PenaltyLine) -> dict:
+    return {
+        "total": line.total,
+        "per_game": f"{line.per_game:.2f}" if line.per_game is not None else "–",
+        "kinds": [line.kinds.get(kind, 0) for kind in tt.PENALTY_KINDS],
+        "summary": ", ".join(f"{line.kinds[kind]}× {kind}" for kind in tt.PENALTY_KINDS if line.kinds.get(kind)),
+    }
 
 
 def _ordinal(value: int) -> str:
@@ -629,6 +656,24 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
         crowd_order = sorted(crowd_table, key=lambda team: -crowd_table[team][0])
         goals_by_team = tt.team_goals(games)
 
+        team_penalties, player_penalties = tt.penalty_totals(games)
+        context["penalty_kinds"] = list(tt.PENALTY_KINDS)
+        context["penalties"] = {
+            "teams": sorted(
+                ({"team": team, "url": article.url, **_penalty_row(team_penalties.get(team, tt.PenaltyLine()))} for team, article in teams.items()),
+                key=lambda row: (-row["total"], row["team"]),
+            ),
+            "players": [
+                {**_player_link(player, player_slugs), "team": team, **_penalty_row(line)}
+                for player, team, line in sorted(player_penalties.values(), key=lambda item: (-item[2].total, item[0].name))[:10]
+            ],
+        }
+        for key, (player, team, line) in player_penalties.items():
+            if player.uid in players_by_uid:
+                player_facts[player.uid].setdefault(category, {"team": team, "points": 0, "team_goals": 0, "share": None, "point_streak": 0, "goal_streak": 0})
+                player_facts[player.uid][category]["penalties"] = _penalty_row(line)
+        team_penalty_rank = {row["team"]: index for index, row in enumerate(context["penalties"]["teams"], start=1)}
+
         lead_rows, hot_teams, hot_players = [], [], []
         for team, article in teams.items():
             streaks = tt.team_streaks(games, team)
@@ -636,7 +681,17 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             crowd = None
             if team in crowd_table:
                 crowd = {"average": round(crowd_table[team][0]), "games": crowd_table[team][1], "rank": crowd_order.index(team) + 1, "teams": len(crowd_order)}
+            team_players = sorted(
+                ((player, line) for player, owner, line in player_penalties.values() if owner == team),
+                key=lambda item: (-item[1].total, item[0].name),
+            )[:3]
             article.trends = {
+                "penalties": {
+                    **_penalty_row(team_penalties.get(team, tt.PenaltyLine())),
+                    "rank": team_penalty_rank.get(team),
+                    "teams": len(teams),
+                    "players": [{**_player_link(player, player_slugs), "total": line.total} for player, line in team_players],
+                },
                 "facts": _team_facts(streaks, leads, crowd),
                 "timing": _timing_bars(tt.goal_timing(games, team)),
                 "leads": leads.__dict__,
@@ -667,10 +722,10 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 if point_streak >= 3:
                     hot_players.append((point_streak, player, team))
                 if player.uid in players_by_uid:
-                    player_facts[player.uid][category] = {
+                    player_facts[player.uid].setdefault(category, {}).update({
                         "team": team, "points": goals + assists, "team_goals": team_total, "share": share,
                         "point_streak": point_streak, "goal_streak": goal_streak,
-                    }
+                    })
                 if (share is not None and match["season"] == current_season and match["phase"] == "regular-season"
                         and team_total >= SHARE_MIN_TEAM_GOALS and goals + assists >= SHARE_MIN_POINTS and info.get("division") in share_rows):
                     share_rows[info["division"]].append({"player": player, "team": team, "points": goals + assists, "team_goals": team_total, "share": share, "info": info, "category": category})

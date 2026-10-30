@@ -14,11 +14,13 @@ follow the definitions on the "How our stats work" page:
 - Comeback win: won after being behind at some point. Blown lead: lost after
   being ahead at some point. "After two periods" is the score at 40:00.
 - Crowd: average attendance of a team's home games with a published number.
+- Penalties: every penalty in the game events, by kind (2 min, 2+2, 5 min,
+  10 min, match penalty), per team and per penalised player.
 """
 
 from __future__ import annotations
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import date
 
@@ -36,6 +38,25 @@ class Goal:
     assist: PlayerRef | None = None
 
 
+PENALTY_KINDS = ("2 min", "2+2", "5 min", "10 min", "Match")
+_PENALTY_TAGS = {"penalty_2": "2 min", "penalty_2and2": "2+2", "penalty_5": "5 min", "penalty_10": "10 min"}
+
+
+def penalty_kind(tag: object) -> str:
+    text = str(tag or "")
+    if text.startswith("penalty_ms"):
+        return "Match"
+    return _PENALTY_TAGS.get(text, "Other")
+
+
+@dataclass(frozen=True)
+class Penalty:
+    minute: float
+    side: str
+    kind: str
+    player: PlayerRef | None = None
+
+
 @dataclass(frozen=True)
 class Game:
     game_id: str
@@ -50,6 +71,7 @@ class Game:
     attendance: int | None = None
     home_points: int | None = None
     away_points: int | None = None
+    penalties: tuple[Penalty, ...] = ()
 
     def side_of(self, team: str) -> str:
         return "home" if team == self.home else "away"
@@ -351,3 +373,32 @@ def team_goals(games: list[Game]) -> dict[str, int]:
             totals[game.home] += game.home_goals
             totals[game.away] += game.away_goals
     return dict(totals)
+
+
+@dataclass
+class PenaltyLine:
+    total: int = 0
+    games: int = 0
+    kinds: Counter = field(default_factory=Counter)
+
+    @property
+    def per_game(self) -> float | None:
+        return self.total / self.games if self.games else None
+
+
+def penalty_totals(games: list[Game]) -> tuple[dict[str, PenaltyLine], dict[str, tuple[PlayerRef, str, PenaltyLine]]]:
+    """Penalties per team (with games played) and per penalised player (with the player's team)."""
+    teams: dict[str, PenaltyLine] = defaultdict(PenaltyLine)
+    players: dict[str, tuple[PlayerRef, str, PenaltyLine]] = {}
+    for game in games:
+        teams[game.home].games += 1
+        teams[game.away].games += 1
+        for penalty in game.penalties:
+            team = game.home if penalty.side == "home" else game.away
+            teams[team].total += 1
+            teams[team].kinds[penalty.kind] += 1
+            if penalty.player:
+                entry = players.setdefault(penalty.player.key, (penalty.player, team, PenaltyLine()))
+                entry[2].total += 1
+                entry[2].kinds[penalty.kind] += 1
+    return dict(teams), players

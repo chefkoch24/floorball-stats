@@ -121,6 +121,7 @@
                 ('clutch', 'Clutch and duos', league_insights.clutch_leaders or league_insights.duos),
                 ('records', 'Records', league_insights.records is defined and league_insights.records),
                 ('comebacks', 'Comebacks', league_insights.leads is defined and league_insights.leads),
+                ('penalties', 'Penalties', league_insights.penalties is defined and league_insights.penalties.teams),
                 ('games', 'Games', games|length > 0)] %}
 <nav class="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="On this page">
     {% for anchor, label, shown in jumps if shown %}<a class="fs-chip shrink-0" href="#{{ anchor }}">{{ label }}</a>{% endfor %}
@@ -272,6 +273,8 @@
 {{ insights.league_records(league_insights.records, league_insights.hot) }}
 
 {{ insights.league_leads(league_insights.leads) }}
+
+{{ insights.league_penalties(league_insights.penalties, league_insights.penalty_kinds) }}
 
 {% if liga_reports %}
 <section class="mt-10 grid gap-3" aria-labelledby="reports-title">

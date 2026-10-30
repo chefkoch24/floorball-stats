@@ -42,6 +42,7 @@
             <a class="fs-chip" href="#records">Streaks and records</a>
             <a class="fs-chip" href="#goal-share">Share of team goals</a>
             <a class="fs-chip" href="#crowds">Crowds</a>
+            <a class="fs-chip" href="#penalties">Penalties</a>
             <a class="fs-chip" href="#data">Data</a>
         </nav>
     </header>
@@ -217,6 +218,19 @@
     <section id="crowds" class="grid gap-4 scroll-mt-24" aria-labelledby="crowds-title">
         <h2 id="crowds-title" class="fs-section-title">Crowds</h2>
         <p>Average attendance of a team's home games that have a published number, as the leagues report it. The leaders page compares all leagues, with at least {{ m.crowd_min_games }} home games per team.</p>
+    </section>
+
+    <section id="penalties" class="grid gap-4 scroll-mt-24" aria-labelledby="penalties-title">
+        <h2 id="penalties-title" class="fs-section-title">Penalties</h2>
+        <p>Every penalty in the game reports, counted per team and per penalised player and split by kind:</p>
+        <ul class="m-0 grid gap-1 pl-5">
+            <li><strong>2 min:</strong> minor penalty, the team plays short-handed for two minutes.</li>
+            <li><strong>2+2:</strong> double minor, four minutes short-handed.</li>
+            <li><strong>5 min:</strong> major penalty, five minutes short-handed.</li>
+            <li><strong>10 min:</strong> personal penalty, the player sits out ten minutes but the team stays at full strength.</li>
+            <li><strong>Match:</strong> match penalty, the player is sent off and the team plays five minutes short-handed.</li>
+        </ul>
+        <p>Penalty minutes (PIM) on player pages come from the leagues' own player statistics; the counts here come from the game events, so a game without an event list adds no penalties.</p>
     </section>
 
     <section id="data" class="grid gap-4 scroll-mt-24" aria-labelledby="data-title">

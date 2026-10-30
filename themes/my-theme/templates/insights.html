@@ -233,10 +233,11 @@
         <div class="fs-stat"><span class="fs-stat__label">Game winners</span><span class="fs-stat__value">{{ line.gwg }}</span><span class="fs-stat__context">decided the game</span></div>
         <div class="fs-stat"><span class="fs-stat__label">Overtime goals</span><span class="fs-stat__value">{{ line.overtime_goals }}</span><span class="fs-stat__context">all count as clutch</span></div>
     </div>
-    {% if trends and (trends.share is not none or trends.point_streak >= 2) %}
+    {% if trends and (trends.share is not none or trends.point_streak|default(0) >= 2 or trends.penalties) %}
     <p class="m-0 flex flex-wrap gap-x-4 gap-y-1 text-sm text-ink-muted">
         {% if trends.share is not none %}<span>Involved in <b class="text-ink">{{ trends.share }}%</b> of {{ trends.team }}'s goals ({{ trends.points }} of {{ trends.team_goals }})</span>{% endif %}
-        {% if trends.point_streak >= 2 %}<span>Points in <b class="text-ink">{{ trends.point_streak }}</b> straight games{% if trends.goal_streak >= 2 %}, goals in {{ trends.goal_streak }}{% endif %}</span>{% endif %}
+        {% if trends.point_streak|default(0) >= 2 %}<span>Points in <b class="text-ink">{{ trends.point_streak }}</b> straight games{% if trends.goal_streak >= 2 %}, goals in {{ trends.goal_streak }}{% endif %}</span>{% endif %}
+        {% if trends.penalties %}<span><b class="text-ink">{{ trends.penalties.total }}</b> {{ 'penalty' if trends.penalties.total == 1 else 'penalties' }} ({{ trends.penalties.summary }})</span>{% endif %}
     </p>
     {% endif %}
     {% if clutch.season_line and clutch.all.goals != line.goals %}
@@ -557,9 +558,13 @@
 {% endif %}
 {% endmacro %}
 
+{% macro _ordinal_rank(value) -%}
+{%- if value is none %}–{% elif value % 100 in [11, 12, 13] %}{{ value }}th{% elif value % 10 == 1 %}{{ value }}st{% elif value % 10 == 2 %}{{ value }}nd{% elif value % 10 == 3 %}{{ value }}rd{% else %}{{ value }}th{% endif -%}
+{%- endmacro %}
+
 {% macro team_trends(trends) %}
 {% if trends %}
-<div class="mb-8 grid gap-4 lg:grid-cols-3 lg:items-start">
+<div class="mb-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4 md:items-start">
     {% if trends.facts %}
     <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-facts-title">
         <h2 id="team-facts-title" class="fs-panel-title">Streaks and form</h2>
@@ -585,6 +590,25 @@
         </div>
         <div class="flex justify-between text-xs text-ink-muted tabular-nums" aria-hidden="true"><span>0</span><span>20</span><span>40</span><span>60</span></div>
         <p class="m-0 text-sm text-ink-muted"><span class="font-semibold text-rink">Goals for</span> above, <span class="font-semibold text-ink">against</span> below. Best period <strong class="text-ink">{{ timing.best.label }} ({{ signed(timing.best.diff) }})</strong>, weakest <strong class="text-ink">{{ timing.worst.label }} ({{ signed(timing.worst.diff) }})</strong>, strongest ten minutes <strong class="text-ink">{{ timing.strongest.label }} ({{ signed(timing.strongest.diff) }})</strong>.</p>
+    </section>
+    {% endif %}
+    {% set penalties = trends.penalties %}
+    {% if penalties and penalties.total %}
+    <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-penalties-title">
+        <div class="flex items-baseline justify-between gap-3">
+            <h2 id="team-penalties-title" class="fs-panel-title">Penalties</h2>
+            {{ explain('penalties') }}
+        </div>
+        <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3">
+            <div class="grid"><dt class="fs-label" title="Penalties in total">Total</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ penalties.total }}</dd></div>
+            <div class="grid"><dt class="fs-label" title="Penalties per game">Per game</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ penalties.per_game }}</dd></div>
+        </dl>
+        <p class="m-0 text-sm text-ink-muted">{{ penalties.summary }} · {{ _ordinal_rank(penalties.rank) }} most of {{ penalties.teams }} teams</p>
+        {% if penalties.players %}
+        <ol class="m-0 grid list-none gap-0 p-0">
+            {% for row in penalties.players %}<li class="flex items-baseline justify-between gap-3 border-t border-line py-1.5 text-sm first:border-t-0">{{ player_name(row) }}<span class="font-display font-bold tabular-nums">{{ row.total }}</span></li>{% endfor %}
+        </ol>
+        {% endif %}
     </section>
     {% endif %}
     {% set leads = trends.leads %}
@@ -688,6 +712,60 @@
             {% endfor %}
             </tbody>
         </table>
+    </div>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro league_penalties(data, kinds) %}
+{% if data and data.teams %}
+<section id="penalties" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="penalties-title">
+    <div class="grid gap-1">
+        <h2 id="penalties-title" class="fs-section-title">Penalties</h2>
+        <p class="m-0 text-sm text-ink-muted">Every penalty from the game reports, per team and per player. {{ explain('penalties') }}</p>
+    </div>
+    <div class="grid gap-4 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-start">
+        <div class="fs-table-wrap">
+            <table class="fs-table">
+                <thead>
+                <tr>
+                    <th scope="col" class="max-sm:hidden">#</th>
+                    <th scope="col" class="fs-table__team">Team</th>
+                    <th scope="col" title="Penalties in total">Total</th>
+                    <th scope="col" title="Penalties per game">Per game</th>
+                    {% for kind in kinds %}<th scope="col" class="max-sm:hidden">{{ kind }}</th>{% endfor %}
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in data.teams %}
+                <tr>
+                    <td class="max-sm:hidden">{{ loop.index }}</td>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                    <td class="fs-table__pts">{{ row.total }}</td>
+                    <td>{{ row.per_game }}</td>
+                    {% for count in row.kinds %}<td class="max-sm:hidden">{{ count or '–' }}</td>{% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if data.players %}
+        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="penalised-title">
+            <div class="flex items-baseline justify-between gap-3">
+                <h3 id="penalised-title" class="fs-panel-title">Most penalties</h3>
+                <span class="fs-label" title="Number of penalties">Penalties</span>
+            </div>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for row in data.players %}
+                <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
+                    <span class="grid min-w-0">{{ player_name(row) }}<span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · {{ row.summary }}</span></span>
+                    <span class="text-right font-display text-lg font-extrabold text-ink tabular-nums">{{ row.total }}</span>
+                </li>
+                {% endfor %}
+            </ol>
+        </section>
+        {% endif %}
     </div>
 </section>
 {% endif %}
