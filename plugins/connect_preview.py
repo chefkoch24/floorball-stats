@@ -34,11 +34,19 @@ def build(pelican) -> None:
         sys.executable, "-m", "pelican", os.path.join(ROOT, "connect", "content"),
         "-o", output, "-s", os.path.join(ROOT, "connect", "publishconf.py"),
     ]
-    result = subprocess.run(command, env=env, cwd=os.path.join(ROOT, "connect"), capture_output=True, text=True)
-    if result.returncode:
-        log.error("connect preview build failed:\n%s%s", result.stdout, result.stderr)
+    try:
+        result = subprocess.run(command, env=env, cwd=os.path.join(ROOT, "connect"), capture_output=True, text=True)
+        report = f"exit {result.returncode}\n{result.stdout}\n{result.stderr}"
+    except OSError as error:
+        result, report = None, f"could not start the build: {error!r}"
+    if result is None or result.returncode:
+        log.error("connect preview build failed:\n%s", report)
     else:
         log.info("connect preview built into %s", output)
+    # The build log sits next to the preview, so a failed build can be read without Netlify access.
+    os.makedirs(output, exist_ok=True)
+    with open(os.path.join(output, "build-log.txt"), "w", encoding="utf-8") as handle:
+        handle.write(f"{' '.join(command)}\n{report}")
 
 
 def register():
