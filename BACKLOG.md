@@ -15,6 +15,8 @@
 - [x] Clutch stats (game winners, go-ahead goals, equalizers, clutch points) and scoring duos on player, team and league pages
 - [x] Power ranking: Elo ratings, win probabilities on game pages, biggest upsets, season and playoff projections per league
 - [x] Table history: every team's place after each round, as a chart on league and team pages
+- [x] Game story on game pages: live win chance through the game, key moments, lead changes, excitement (replaces the cumulative goals chart)
+- [x] Head-to-head matrix, "What's at stake" with game of the week, remaining schedule, streaks and records, goal timing, comebacks and leads, share of team goals, crowds
 - [x] "How our stats work" page with all definitions (Elo, projections, clutch, game-changing goals, duos, table history), linked from every new section
 - [ ] Scalable process across leagues
 - [ ] Search across leagues

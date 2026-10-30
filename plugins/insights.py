@@ -180,6 +180,12 @@ def collect(generator) -> None:
         "trend_days": TREND_DAYS,
         "late_minute": pi.PERIOD_MINUTES * pi.REGULATION_PERIODS - pi.LATE_MINUTE_IN_PERIOD,
         "round_gap_days": sh.ROUND_GAP_DAYS,
+        "flow": {"early": gf.W_PRIOR_EARLY, "late": gf.W_PRIOR_LATE, "lead": gf.W_LEAD},
+        "stakes": {"swing": st.PLAYOFF_SWING, "duel_low": st.DUEL_LOW, "duel_high": st.DUEL_HIGH, "title": st.TITLE_SWING, "first": st.FIRST_SWING, "next_round_days": NEXT_ROUND_DAYS + 1},
+        "block_minutes": tt.BLOCK_MINUTES,
+        "share_min_team_goals": SHARE_MIN_TEAM_GOALS,
+        "share_min_points": SHARE_MIN_POINTS,
+        "crowd_min_games": CROWD_MIN_GAMES,
     }
 
 

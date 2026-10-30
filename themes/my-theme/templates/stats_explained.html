@@ -30,10 +30,18 @@
         <nav class="flex flex-wrap gap-2" aria-label="On this page">
             <a class="fs-chip" href="#power-ranking">Power ranking</a>
             <a class="fs-chip" href="#win-probability">Win probability</a>
+            <a class="fs-chip" href="#game-story">Game story</a>
             <a class="fs-chip" href="#projections">Projections</a>
+            <a class="fs-chip" href="#stakes">What's at stake</a>
             <a class="fs-chip" href="#clutch">Clutch stats</a>
             <a class="fs-chip" href="#duos">Scoring duos</a>
             <a class="fs-chip" href="#table-history">Table history</a>
+            <a class="fs-chip" href="#head-to-head">Head to head</a>
+            <a class="fs-chip" href="#comebacks">Comebacks</a>
+            <a class="fs-chip" href="#goal-timing">Goal timing</a>
+            <a class="fs-chip" href="#records">Streaks and records</a>
+            <a class="fs-chip" href="#goal-share">Share of team goals</a>
+            <a class="fs-chip" href="#crowds">Crowds</a>
             <a class="fs-chip" href="#data">Data</a>
         </nav>
     </header>
@@ -81,6 +89,24 @@
         </dl>
     </section>
 
+    <section id="game-story" class="grid gap-4 scroll-mt-24" aria-labelledby="game-story-title">
+        <h2 id="game-story-title" class="fs-section-title">Game story</h2>
+        <p>The line on a game page shows the home team's chance to win at every moment of the game: at the top the home team is sure to win, at the bottom the visitors, in the middle it is even. It starts at the pre-game chance and moves with every goal and with the clock, because a lead is worth more the less time is left.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('How the chance is worked out') }}
+            <dd class="m-0 grid gap-2">
+                <p>Three things go in: the pre-game chance from the ratings, the goal difference and the share of regulation time left. We fitted their weights on every minute of 1,814 decided games of the 25/26 and 26/27 seasons (October 2026). On those games the live chance scores a log loss of 0.410, against 0.558 for the pre-game chance alone, and a team given 85% won 85% of the time.</p>
+                <p>When regulation ends, a lead has won. A tie goes to overtime, where only a little of the pre-game edge remains.</p>
+            </dd>
+            {{ term('Key moments') }}
+            <dd class="m-0"><p>The three goals that moved the chance most, in the order they fell, with the scoring team's chance before and after.</p></dd>
+            {{ term('Lead changes, ties, largest lead, comeback') }}
+            <dd class="m-0"><p>A lead change is a team going ahead after the other team had led, with or without a tie in between. Ties count every equalizer. The comeback is how many goals the winner was behind at worst.</p></dd>
+            {{ term('More dramatic than') }}
+            <dd class="m-0"><p>We add up how far the line moved during the game, up and down. A blowout barely moves it, a game with late swings moves it a lot. The percentage compares that with all other games of the same season phase.</p></dd>
+        </dl>
+    </section>
+
     <section id="projections" class="grid gap-4 scroll-mt-24" aria-labelledby="projections-title">
         <h2 id="projections-title" class="fs-section-title">Season projections</h2>
         <p>We play the rest of the regular season {{ '{:,}'.format(m.simulations|default(0)) }} times. In each simulated season every team gets a "true strength" drawn around its rating (about ±{{ m.uncertainty }} points, because a rating is never exact), every remaining game is played out with the win probabilities above, and the points are awarded the way the league awards them, read from its own results (for example 3 for a win, 2 for a win after overtime, 1 for a loss after overtime). How often games go to overtime also comes from the league's results.</p>
@@ -93,6 +119,26 @@
             <dd class="m-0"><p>Each simulated season continues into the playoffs with the league's series lengths: the best seed meets the worst remaining one in every round, home ice alternates within a series, and a one-game final is played on neutral ground. Formats where teams pick their opponent are only approximated. Title odds are shown until the playoffs start and only for leagues whose playoff format we have.</p></dd>
             {{ term('What 0% and 100% mean') }}
             <dd class="m-0"><p>"&gt;99%" and "&lt;1%" mean it happened in almost every or almost no simulated season. 0% and 100% mean never or always in {{ '{:,}'.format(m.simulations|default(0)) }} seasons, not that it is mathematically decided.</p></dd>
+        </dl>
+    </section>
+
+    <section id="stakes" class="grid gap-4 scroll-mt-24" aria-labelledby="stakes-title">
+        <h2 id="stakes-title" class="fs-section-title">What's at stake</h2>
+        <p>The season simulations also tell us what a single game decides. For every remaining game we split the simulated seasons into those where a team wins it (overtime included) and those where it loses, and compare its chances in both. One sentence sums it up; the first case that applies is used:</p>
+        <ol class="m-0 grid gap-1 pl-5">
+            <li><strong>Securing a place:</strong> a win takes a team that is not yet safe to a playoff place in practically every simulated season.</li>
+            <li><strong>Hopes all but over:</strong> after a loss a team reaches the playoffs in almost no simulated season.</li>
+            <li><strong>Duel at the playoff line:</strong> both teams have between {{ (m.stakes.duel_low * 100)|round|int }}% and {{ (m.stakes.duel_high * 100)|round|int }}% today.</li>
+            <li><strong>Big swing:</strong> a win and a loss lie {{ (m.stakes.swing * 100)|round|int }} percentage points or more apart for the playoffs.</li>
+            <li><strong>Title race:</strong> {{ (m.stakes.title * 100)|round|int }} points or more for the title.</li>
+            <li><strong>First place:</strong> {{ (m.stakes.first * 100)|round|int }} points or more for first place.</li>
+        </ol>
+        <p>Otherwise not much changes and there is no sentence. The wording comes from fixed templates, never from a language model, so every number in it is a simulation result.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Game of the week') }}
+            <dd class="m-0"><p>Among the games of the next {{ m.stakes.next_round_days }} days, the one where the chances of both teams move most.</p></dd>
+            {{ term('Schedule', 'schedule') }}
+            <dd class="m-0"><p>The average rating of the opponents a team still has to play, and its rank: #1 has the hardest remaining schedule. It explains why a projection can differ from today's table.</p></dd>
         </dl>
     </section>
 
@@ -129,6 +175,48 @@
         <h2 id="table-history-title" class="fs-section-title">Table history</h2>
         <p>The chart shows each team's place in the table after every round. The leagues publish no round numbers, so a round is a block of game days: a new one starts when a game day is more than {{ m.round_gap_days }} days after the first day of the current round. Friday to Sunday is one round, Wednesday and Saturday are two. A team with a postponed game has one game less in between, as on any table.</p>
         <p>The table after each round is rebuilt from the results with points, then goal difference, then goals scored. Some leagues rank ties by head-to-head results, so a place in between can differ from the official table on a tie. The latest round always shows the official table.</p>
+    </section>
+
+    <section id="head-to-head" class="grid gap-4 scroll-mt-24" aria-labelledby="head-to-head-title">
+        <h2 id="head-to-head-title" class="fs-section-title">Head to head</h2>
+        <p>The league page crosses every team with every other team. A row reads from that team's side: 5:3 means the row team scored 5. Colours follow the form guide: green for a win, red for a loss, amber for a game decided in overtime or by penalty shots. Games still to come show the row team's win chance. The last two columns give points per game against the current top four and against the rest, which shows who beats the strong teams and who collects points against the weaker ones.</p>
+    </section>
+
+    <section id="comebacks" class="grid gap-4 scroll-mt-24" aria-labelledby="comebacks-title">
+        <h2 id="comebacks-title" class="fs-section-title">Comebacks and leads</h2>
+        <dl class="m-0 grid gap-3">
+            {{ term('Comeback wins') }}
+            <dd class="m-0"><p>Games a team won after being behind at some point, out of all games it trailed. "Pts trailing" are the points it still took from those games.</p></dd>
+            {{ term('Blown leads') }}
+            <dd class="m-0"><p>Games a team lost, overtime included, after being ahead at some point, out of all games it led.</p></dd>
+            {{ term('Ahead or behind after P2') }}
+            <dd class="m-0"><p>Wins and losses when the team led, or trailed, at 40:00.</p></dd>
+        </dl>
+    </section>
+
+    <section id="goal-timing" class="grid gap-4 scroll-mt-24" aria-labelledby="goal-timing-title">
+        <h2 id="goal-timing-title" class="fs-section-title">When goals fall</h2>
+        <p>Team pages split all goals for (up) and against (down) into {{ m.block_minutes }}-minute blocks of regulation time. The best and weakest period compare goals for and against per period; the strongest ten minutes are the two neighbouring blocks with the best goal difference. Overtime goals are left out of the bars.</p>
+    </section>
+
+    <section id="records" class="grid gap-4 scroll-mt-24" aria-labelledby="records-title">
+        <h2 id="records-title" class="fs-section-title">Streaks and records</h2>
+        <dl class="m-0 grid gap-3">
+            {{ term('Streaks') }}
+            <dd class="m-0"><p>Wins in a row count wins after overtime or penalty shots too. "Unbeaten" means no loss. A player's point streak counts the team's games in a row in which the player scored or assisted. A game the player missed ends it, because the sources do not tell us who played.</p></dd>
+            {{ term('Season records') }}
+            <dd class="m-0"><p>The standout moments of the season phase: fastest goal from the start, the two goals of one team closest together, the longest run of goals without reply, most goals by one player in a game, the biggest comeback (from two goals down or more), the biggest win, the most goals in a game and the biggest crowd.</p></dd>
+        </dl>
+    </section>
+
+    <section id="goal-share" class="grid gap-4 scroll-mt-24" aria-labelledby="goal-share-title">
+        <h2 id="goal-share-title" class="fs-section-title">Share of team goals</h2>
+        <p>How many of a team's goals a player scored or assisted, for example 18 of 38. It shows who a team depends on and compares players across leagues, whatever the scoring level. Lists need at least {{ m.share_min_team_goals }} team goals and {{ m.share_min_points }} points from the player.</p>
+    </section>
+
+    <section id="crowds" class="grid gap-4 scroll-mt-24" aria-labelledby="crowds-title">
+        <h2 id="crowds-title" class="fs-section-title">Crowds</h2>
+        <p>Average attendance of a team's home games that have a published number, as the leagues report it. The leaders page compares all leagues, with at least {{ m.crowd_min_games }} home games per team.</p>
     </section>
 
     <section id="data" class="grid gap-4 scroll-mt-24" aria-labelledby="data-title">
