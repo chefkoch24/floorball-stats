@@ -45,7 +45,7 @@
 <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="clutch-title">
     <div class="flex items-baseline justify-between gap-3">
         <h2 id="clutch-title" class="fs-panel-title">Clutch leaders</h2>
-        <span class="fs-label" title="Clutch goals + assists on them">Clutch pts</span>
+        <span class="fs-label">Clutch pts</span>
     </div>
     <ol class="m-0 grid list-none gap-0 p-0">
         {% for row in rows %}
@@ -53,7 +53,7 @@
             <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
             <span class="grid min-w-0">
                 {{ player_name(row) }}
-                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · GWG {{ row.gwg }}</span>
+                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · <abbr>GWG</abbr> {{ row.gwg }}</span>
             </span>
             <span class="text-right font-display tabular-nums"><span class="text-lg font-extrabold text-ink">{{ row.clutch_points }}</span> <span class="text-xs text-ink-muted">{{ row.clutch_goals }}+{{ row.clutch_assists }}</span></span>
         </li>
@@ -69,7 +69,7 @@
 <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="duos-title-{{ title|lower|replace(' ', '-') }}">
     <div class="flex items-baseline justify-between gap-3">
         <h2 id="duos-title-{{ title|lower|replace(' ', '-') }}" class="fs-panel-title">{{ title }}</h2>
-        <span class="fs-label" title="Goals one of them scored from the other's pass">Goals</span>
+        <span class="fs-label" data-tip="Goals one of them scored from the other's pass">Goals</span>
     </div>
     <ol class="m-0 grid list-none gap-0 p-0">
         {% for duo in rows %}
@@ -92,7 +92,7 @@
 {# Phones show two numbers per view: the odds that matter most for this league. #}
 {% set phone_proj = 'max-sm:hidden' if power.has_title else '' %}
 {% set phone_top4 = '' if not power.places and not power.has_title else 'max-sm:hidden' %}
-<section id="power-ranking" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="power-title">
+<section id="power-ranking" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="power-title">
     <div class="flex flex-wrap items-end justify-between gap-3">
         <div class="grid gap-1">
             <h2 id="power-title" class="fs-section-title">Power ranking</h2>
@@ -124,6 +124,7 @@
                 <th scope="col" data-col="proj" class="{{ phone_top4 }}" title="Chance to finish in the top four">Top 4</th>
                 {% if power.places %}<th scope="col" data-col="proj" title="Chance to finish in the top {{ power.places }}">Playoffs</th>{% endif %}
                 {% if power.has_title %}<th scope="col" data-col="proj" title="Chance to win the playoffs">Title</th>{% endif %}
+                <th scope="col" data-col="proj" class="max-sm:hidden" title="Average rating of the opponents still to play; 1 is the hardest schedule">Schedule</th>
                 {% endif %}
             </tr>
             </thead>
@@ -141,6 +142,7 @@
                 <td data-col="proj" class="{{ phone_top4 }}">{{ row.top4 }}</td>
                 {% if power.places %}<td data-col="proj">{{ row.playoffs }}</td>{% endif %}
                 {% if power.has_title %}<td data-col="proj">{{ row.title }}</td>{% endif %}
+                <td data-col="proj" class="max-sm:hidden">{% if row.schedule %}{{ row.schedule }} <span class="text-xs text-ink-muted">#{{ row.schedule_rank }}</span>{% else %}–{% endif %}</td>
                 {% endif %}
             </tr>
             {% endfor %}
@@ -211,12 +213,13 @@
         <figcaption class="flex justify-between text-xs text-ink-muted"><span>Season start {{ power.season_start }}</span><span>Now {{ power.rating }}</span></figcaption>
     </figure>
     {% endif %}
+    {% if power.schedule %}<p class="m-0 text-sm text-ink-muted">Remaining schedule: <strong class="text-ink">{% if power.schedule_rank == 1 %}the hardest{% elif power.schedule_rank == power.teams %}the easiest{% else %}{{ power.schedule_rank }}. hardest{% endif %}</strong> of {{ power.teams }}, opponents average {{ power.schedule }}.</p>{% endif %}
     {% if power.title != '–' %}<p class="m-0 text-sm text-ink-muted">Chance to finish first <strong class="text-ink">{{ power.first }}</strong>, to win the title <strong class="text-ink">{{ power.title }}</strong>.</p>{% endif %}
 </section>
 {% endif %}
 {% endmacro %}
 
-{% macro player_clutch(clutch, partners) %}
+{% macro player_clutch(clutch, partners, trends=none) %}
 {% if clutch %}
 {% set line = clutch.season_line or clutch.all %}
 <section class="mt-8 grid gap-4" aria-labelledby="player-clutch-title">
@@ -230,6 +233,13 @@
         <div class="fs-stat"><span class="fs-stat__label">Game winners</span><span class="fs-stat__value">{{ line.gwg }}</span><span class="fs-stat__context">decided the game</span></div>
         <div class="fs-stat"><span class="fs-stat__label">Overtime goals</span><span class="fs-stat__value">{{ line.overtime_goals }}</span><span class="fs-stat__context">all count as clutch</span></div>
     </div>
+    {% if trends and (trends.share is not none or trends.point_streak|default(0) >= 2 or trends.penalties) %}
+    <p class="m-0 flex flex-wrap gap-x-4 gap-y-1 text-sm text-ink-muted">
+        {% if trends.share is not none %}<span>Involved in <b class="text-ink">{{ trends.share }}%</b> of {{ trends.team }}'s goals ({{ trends.points }} of {{ trends.team_goals }})</span>{% endif %}
+        {% if trends.point_streak|default(0) >= 2 %}<span>Points in <b class="text-ink">{{ trends.point_streak }}</b> straight games{% if trends.goal_streak >= 2 %}, goals in {{ trends.goal_streak }}{% endif %}</span>{% endif %}
+        {% if trends.penalties %}<span><b class="text-ink">{{ trends.penalties.total }}</b> {{ 'penalty' if trends.penalties.total == 1 else 'penalties' }} ({{ trends.penalties.summary }})</span>{% endif %}
+    </p>
+    {% endif %}
     {% if clutch.season_line and clutch.all.goals != line.goals %}
     <p class="m-0 text-sm text-ink-muted">All tracked games since 25/26: <b class="text-ink">{{ clutch.all.game_changing }}</b> game-changing goals, <b class="text-ink">{{ clutch.all.clutch_points }}</b> clutch points, <b class="text-ink">{{ clutch.all.gwg }}</b> game winners.</p>
     {% endif %}
@@ -288,7 +298,7 @@
 
 {% macro league_table_history(chart) %}
 {% if chart %}
-<section id="table-history" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="table-history-title">
+<section id="table-history" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="table-history-title">
     <div class="grid gap-1">
         <h2 id="table-history-title" class="fs-section-title">Table history</h2>
         <p class="m-0 text-sm text-ink-muted">Every team's place round by round. Point at or tap a line or a team to follow it.</p>
@@ -337,6 +347,426 @@
         </dl>
     </div>
     {{ bump_chart(history.chart, focus=true) }}
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro game_story(story, home, away) %}
+{% if story %}
+<section class="mb-8 grid gap-4 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="game-story-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="game-story-title" class="fs-panel-title">Game story</h2>
+        {% if story.percentile is not none %}<span class="fs-status fs-status--final">More dramatic than {{ story.percentile }}% of this season's games</span>{% endif %}
+    </div>
+    <div class="fs-story">
+        <span class="fs-story__team fs-story__team--home">{{ home }}</span>
+        <svg class="fs-story__plot" viewBox="0 0 {{ story.width }} {{ story.height }}" preserveAspectRatio="none" height="{{ story.height }}" role="img" aria-label="Win chance during the game, {{ home }} at the top, {{ away }} at the bottom">
+            <defs>
+                <clipPath id="story-top"><rect x="0" y="0" width="{{ story.width }}" height="{{ story.height / 2 }}"></rect></clipPath>
+                <clipPath id="story-bottom"><rect x="0" y="{{ story.height / 2 }}" width="{{ story.width }}" height="{{ story.height / 2 }}"></rect></clipPath>
+            </defs>
+            <polygon class="fs-story__area fs-story__area--home" points="{{ story.area }}" clip-path="url(#story-top)"></polygon>
+            <polygon class="fs-story__area fs-story__area--away" points="{{ story.area }}" clip-path="url(#story-bottom)"></polygon>
+            {% for x in story.periods %}<line class="fs-story__period" x1="{{ x }}" x2="{{ x }}" y1="0" y2="{{ story.height }}"></line>{% endfor %}
+            <line class="fs-story__mid" x1="0" x2="{{ story.width }}" y1="{{ story.height / 2 }}" y2="{{ story.height / 2 }}"></line>
+            <polyline class="fs-story__line" points="{{ story.line }}"></polyline>
+            {% for goal in story.goals %}<line class="fs-story__goal fs-story__goal--{{ goal.side }}" x1="{{ goal.x }}" x2="{{ goal.x }}" y1="{{ goal.y }}" y2="{{ goal.y }}"><title>{{ goal.title }}</title></line>{% endfor %}
+        </svg>
+        <span class="fs-story__team fs-story__team--away">{{ away }}</span>
+        {% if story.penalties.home or story.penalties.away %}
+        <svg class="fs-story__penalties" viewBox="0 0 {{ story.width }} 14" preserveAspectRatio="none" height="14" role="img" aria-label="Penalties: {{ home }} on the upper row, {{ away }} on the lower row">
+            {% for band in story.penalties.home %}<rect class="fs-story__penalty fs-story__penalty--home" x="{{ band.x }}" y="0" width="{{ band.w }}" height="6"></rect>{% endfor %}
+            {% for band in story.penalties.away %}<rect class="fs-story__penalty fs-story__penalty--away" x="{{ band.x }}" y="8" width="{{ band.w }}" height="6"></rect>{% endfor %}
+        </svg>
+        {% endif %}
+        <div class="fs-story__axis" aria-hidden="true">{% for period in story.period_labels %}<span style="left: {{ period.left }}%">{{ period.label }}</span>{% endfor %}</div>
+    </div>
+    <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
+        <div class="grid"><dt class="fs-label">Lead changes</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ story.lead_changes }}</dd></div>
+        <div class="grid"><dt class="fs-label">Ties</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ story.ties }}</dd></div>
+        <div class="grid"><dt class="fs-label">Largest lead</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{% if story.largest_lead.home >= story.largest_lead.away %}{{ story.largest_lead.home }}{% else %}{{ story.largest_lead.away }}{% endif %} <span class="text-sm font-medium text-ink-muted [overflow-wrap:anywhere]">{% if story.largest_lead.home >= story.largest_lead.away %}{{ home }}{% else %}{{ away }}{% endif %}</span></dd></div>
+        <div class="grid"><dt class="fs-label">Comeback</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{% if story.comeback %}{{ story.comeback }} <span class="text-sm font-medium text-ink-muted">goals down</span>{% else %}–{% endif %}</dd></div>
+    </dl>
+    {% if story.key_moments %}
+    <div class="grid gap-2">
+        <h3 class="fs-label m-0">Key moments</h3>
+        <ol class="m-0 grid list-none gap-0 p-0">
+            {% for moment in story.key_moments %}
+            <li class="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-3 border-t border-line py-2 first:border-t-0">
+                <span class="font-display text-sm font-semibold text-ink-muted tabular-nums">{{ moment.clock }}</span>
+                <span class="grid min-w-0">
+                    <span class="[overflow-wrap:anywhere]"><strong class="text-ink">{{ moment.score }}</strong> {{ moment.scorer or moment.team }}{% if moment.scorer and moment.scorer != 'Own goal' %} <span class="text-ink-muted">({{ moment.team }})</span>{% endif %}</span>
+                    <span class="text-sm text-ink-muted">{{ moment.team }}'s win chance {{ moment.before }} → <strong class="text-ink">{{ moment.after }}</strong></span>
+                </span>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+    {% endif %}
+    <p class="m-0 text-xs text-ink-muted">The line shows {{ home }}'s chance to win (top) against {{ away }}'s (bottom) through the game, from the pre-game ratings, the score and the time left. Dots are goals, bars under the chart penalties. {{ explain('game-story') }}</p>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro h2h_games(cell, show_side=false) -%}
+{%- for game in cell.games -%}
+{%- if game.score -%}
+{% if show_side %}<span class="inline-flex items-center gap-1"><span class="text-xs text-ink-muted" data-tip="{{ 'Home game' if game.home else 'Away game' }}">{{ 'H' if game.home else 'A' }}</span>{% endif %}<a class="fs-form__game fs-form__game--{{ game.tone }} hover:no-underline" href="{{ SITEURL }}/{{ game.url }}" title="{{ game.letter }} {{ game.score }} · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }}">{{ game.score }}</a>{% if show_side %}</span>{% endif %}
+{%- else -%}
+<a class="fs-h2h__chance" href="{{ SITEURL }}/{{ game.url }}" title="Upcoming · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }} · win chance {{ game.chance }}">{% if show_side %}{{ 'H' if game.home else 'A' }} {{ game.date.strftime('%-d %b') }} · {% endif %}{{ game.chance }}</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro %}
+
+{% macro head_to_head(matrix) %}
+{% if matrix and matrix.rows %}
+<section id="head-to-head" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="h2h-title">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+        <div class="grid gap-1">
+            <h2 id="h2h-title" class="fs-section-title">Head to head</h2>
+            <p class="m-0 text-sm text-ink-muted">Every team against every other team. Rows read from the team's side: 5:3 means the row team scored 5. Games still to come show the row team's win chance. {{ explain('head-to-head') }}</p>
+        </div>
+        <div class="fs-segmented max-sm:hidden" role="group" aria-label="Head to head values" data-h2h-views>
+            <button type="button" class="fs-segment" aria-pressed="true" data-view="results">Results</button>
+            <button type="button" class="fs-segment" aria-pressed="false" data-view="ppg">Points/game</button>
+            <button type="button" class="fs-segment" aria-pressed="false" data-view="gd">Goal diff</button>
+        </div>
+    </div>
+    <div class="fs-table-wrap max-sm:hidden">
+        <table class="fs-table fs-h2h" data-h2h-table data-h2h-view="results">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="fs-table__team">Team</th>
+                {% for opponent in matrix.teams %}<th scope="col" class="fs-h2h__head" title="{{ opponent }}"><span class="fs-crest fs-crest--sm" data-crest="{{ opponent|crest_index }}" aria-label="{{ opponent }}">{{ opponent|team_initials }}</span></th>{% endfor %}
+                <th scope="col" title="Points per game against the top {{ matrix.top }}">vs top {{ matrix.top }}</th>
+                <th scope="col" title="Points per game against the other teams">vs rest</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in matrix.rows %}
+            <tr>
+                <td>{{ row.rank or loop.index }}</td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                {% for cell in row.cells %}
+                {% if cell is none %}
+                <td class="fs-h2h__self" aria-label="{{ row.team }}"></td>
+                {% else %}
+                <td class="fs-h2h__cell">
+                    <span class="fs-h2h__games" data-h2h="results">{{ h2h_games(cell) }}</span>
+                    <span data-h2h="ppg">{{ cell.ppg or '–' }}</span>
+                    <span data-h2h="gd">{{ signed(cell.gd) }}</span>
+                </td>
+                {% endif %}
+                {% endfor %}
+                <td class="fs-table__pts">{{ row.vs_top }}</td>
+                <td class="fs-table__pts">{{ row.vs_rest }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="grid gap-3 sm:hidden">
+        <label class="grid gap-1">
+            <span class="fs-label">Team</span>
+            <select class="rounded-md border border-line-strong bg-surface-raised px-3 py-2 text-ink" data-h2h-select>
+                {% for row in matrix.rows %}<option value="{{ loop.index0 }}">{{ row.rank or loop.index }}. {{ row.team }}</option>{% endfor %}
+            </select>
+        </label>
+        {% for row in matrix.rows %}
+        <div class="grid gap-2 rounded-lg border border-line bg-surface-raised p-4" data-h2h-panel="{{ loop.index0 }}"{% if not loop.first %} hidden{% endif %}>
+            <p class="m-0 text-sm text-ink-muted">Points per game: <b class="text-ink">{{ row.vs_top }}</b> against the top {{ matrix.top }}, <b class="text-ink">{{ row.vs_rest }}</b> against the rest.</p>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for cell in row.cells if cell is not none %}
+                <li class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="fs-team min-w-0"><span class="fs-crest fs-crest--sm" data-crest="{{ cell.opponent|crest_index }}" aria-hidden="true">{{ cell.opponent|team_initials }}</span><span class="[overflow-wrap:anywhere]">{{ cell.opponent }}</span></span>
+                    <span class="flex flex-wrap justify-end gap-1">{{ h2h_games(cell, show_side=true) }}</span>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<script>
+(() => {
+  const views = document.querySelector('[data-h2h-views]');
+  const table = document.querySelector('[data-h2h-table]');
+  if (views && table) {
+    const buttons = Array.from(views.querySelectorAll('[data-view]'));
+    buttons.forEach((button) => button.addEventListener('click', () => {
+      buttons.forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+      table.dataset.h2hView = button.dataset.view;
+    }));
+  }
+  const select = document.querySelector('[data-h2h-select]');
+  if (select) {
+    select.addEventListener('change', () => {
+      document.querySelectorAll('[data-h2h-panel]').forEach((panel) => {
+        panel.hidden = panel.dataset.h2hPanel !== select.value;
+      });
+    });
+  }
+})();
+</script>
+{% endif %}
+{% endmacro %}
+
+{% macro stake_card(stake, home, away) %}
+{% if stake %}
+<section class="mb-8 grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="stake-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="stake-title" class="fs-panel-title">What's at stake</h2>
+        {% if stake.game_of_week %}<span class="fs-status fs-status--live">Game of the week</span>{% endif %}
+    </div>
+    <p class="m-0 font-display text-xl leading-snug font-semibold text-ink text-balance">{{ stake.sentence }}</p>
+    {% if stake.metrics %}
+    <div class="grid grid-cols-[minmax(0,1fr)_3.25rem_3.25rem_3.25rem] items-baseline gap-x-2 text-sm tabular-nums" role="table" aria-label="Chances today, after a win and after a loss">
+        <span role="row" class="contents"><span role="columnheader" class="fs-label">Team</span><span role="columnheader" class="fs-label text-right">Today</span><span role="columnheader" class="fs-label text-right">Win</span><span role="columnheader" class="fs-label text-right">Loss</span></span>
+        {% for metric in stake.metrics %}
+        <span role="row" class="contents"><span role="rowheader" class="col-span-4 mt-2 border-t border-line pt-2 font-semibold text-ink">{{ metric.label }}</span></span>
+        {% for row in metric.teams %}
+        <span role="row" class="contents">
+            <span role="cell" class="min-w-0 truncate text-ink-muted">{{ row.team }}</span>
+            <span role="cell" class="text-right">{{ row.chances[0] }}</span>
+            <span role="cell" class="text-right font-bold text-ink">{{ row.chances[1] }}</span>
+            <span role="cell" class="text-right">{{ row.chances[2] }}</span>
+        </span>
+        {% endfor %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    <p class="m-0 text-xs text-ink-muted">From the season simulations: each team's chance today, in the seasons where it wins this game (overtime included) and in those where it loses. {{ explain('stakes') }}</p>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro game_of_week(game) %}
+{% if game %}
+<a class="mb-8 grid gap-2 rounded-lg border border-line bg-surface-raised p-4 text-ink hover:border-rink hover:no-underline" href="{{ SITEURL }}/{{ game.url }}">
+    <span class="flex flex-wrap items-center justify-between gap-2">
+        <span class="fs-status fs-status--live">{{ game.headline }}</span>
+        <span class="text-sm text-ink-muted">{{ game.date.strftime('%a %-d %b') }}{% if game.start_time %} · {{ game.start_time|fmt_time('') }}{% endif %}</span>
+    </span>
+    <span class="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-xl font-bold">
+        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.home|crest_index }}" aria-hidden="true">{{ game.home|team_initials }}</span><span>{{ game.home }}</span></span>
+        <span class="text-ink-muted">vs</span>
+        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.away|crest_index }}" aria-hidden="true">{{ game.away|team_initials }}</span><span>{{ game.away }}</span></span>
+    </span>
+    <span class="text-sm text-ink-muted">{{ game.sentence }}</span>
+</a>
+{% endif %}
+{% endmacro %}
+
+{% macro _ordinal_rank(value) -%}
+{%- if value is none %}–{% elif value % 100 in [11, 12, 13] %}{{ value }}th{% elif value % 10 == 1 %}{{ value }}st{% elif value % 10 == 2 %}{{ value }}nd{% elif value % 10 == 3 %}{{ value }}rd{% else %}{{ value }}th{% endif -%}
+{%- endmacro %}
+
+{% macro team_trends(trends) %}
+{% if trends %}
+<div class="mb-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4 md:items-start">
+    {% if trends.facts %}
+    <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-facts-title">
+        <h2 id="team-facts-title" class="fs-panel-title">Streaks and form</h2>
+        <ul class="m-0 grid list-none gap-0 p-0">
+            {% for fact in trends.facts %}<li class="border-t border-line py-2 text-sm text-ink first:border-t-0">{{ fact }}</li>{% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+    {% set timing = trends.timing %}
+    {% if timing.total_for + timing.total_against > 0 %}
+    <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-timing-title">
+        <div class="flex items-baseline justify-between gap-3">
+            <h2 id="team-timing-title" class="fs-panel-title">When goals fall</h2>
+            {{ explain('goal-timing') }}
+        </div>
+        <div class="fs-timing" role="img" aria-label="Goals for and against in 5-minute blocks of regulation">
+            {% for block in timing.blocks %}
+            <span class="fs-timing__block" title="{{ block.label }}: {{ block.for }} for, {{ block.against }} against">
+                <span class="fs-timing__for" style="height: {{ block.for_pct }}%"></span>
+                <span class="fs-timing__against" style="height: {{ block.against_pct }}%"></span>
+            </span>
+            {% endfor %}
+        </div>
+        <div class="flex justify-between text-xs text-ink-muted tabular-nums" aria-hidden="true"><span>0</span><span>20</span><span>40</span><span>60</span></div>
+        <p class="m-0 text-sm text-ink-muted"><span class="font-semibold text-rink">Goals for</span> above, <span class="font-semibold text-ink">against</span> below. Best period <strong class="text-ink">{{ timing.best.label }} ({{ signed(timing.best.diff) }})</strong>, weakest <strong class="text-ink">{{ timing.worst.label }} ({{ signed(timing.worst.diff) }})</strong>, strongest ten minutes <strong class="text-ink">{{ timing.strongest.label }} ({{ signed(timing.strongest.diff) }})</strong>.</p>
+    </section>
+    {% endif %}
+    {% set penalties = trends.penalties %}
+    {% if penalties and penalties.total %}
+    <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-penalties-title">
+        <div class="flex items-baseline justify-between gap-3">
+            <h2 id="team-penalties-title" class="fs-panel-title">Penalties</h2>
+            {{ explain('penalties') }}
+        </div>
+        <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3">
+            <div class="grid"><dt class="fs-label" title="Penalties in total">Total</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ penalties.total }}</dd></div>
+            <div class="grid"><dt class="fs-label" title="Penalties per game">Per game</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ penalties.per_game }}</dd></div>
+        </dl>
+        <p class="m-0 text-sm text-ink-muted">{{ penalties.summary }} · {{ _ordinal_rank(penalties.rank) }} most of {{ penalties.teams }} teams</p>
+        {% if penalties.players %}
+        <ol class="m-0 grid list-none gap-0 p-0">
+            {% for row in penalties.players %}<li class="flex items-baseline justify-between gap-3 border-t border-line py-1.5 text-sm first:border-t-0">{{ player_name(row) }}<span class="font-display font-bold tabular-nums">{{ row.total }}</span></li>{% endfor %}
+        </ol>
+        {% endif %}
+    </section>
+    {% endif %}
+    {% set leads = trends.leads %}
+    {% if leads.games %}
+    <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-leads-title">
+        <div class="flex items-baseline justify-between gap-3">
+            <h2 id="team-leads-title" class="fs-panel-title">Comebacks and leads</h2>
+            {{ explain('comebacks') }}
+        </div>
+        <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3">
+            <div class="grid"><dt class="fs-label">Comeback wins</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.comeback_wins }} <span class="text-sm font-medium text-ink-muted">of {{ leads.trailed }} trailed</span></dd></div>
+            <div class="grid"><dt class="fs-label">Blown leads</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.blown_leads }} <span class="text-sm font-medium text-ink-muted">of {{ leads.led }} led</span></dd></div>
+            <div class="grid"><dt class="fs-label" data-tip="Wins and losses when the team led after two periods (at 40:00)">Ahead after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_leading_two }}–{{ leads.led_after_two - leads.won_after_leading_two }} <abbr class="text-sm font-medium text-ink-muted">W–L</abbr></dd></div>
+            <div class="grid"><dt class="fs-label" data-tip="Wins and losses when the team trailed after two periods (at 40:00)">Behind after P2</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ leads.won_after_trailing_two }}–{{ leads.trailed_after_two - leads.won_after_trailing_two }} <abbr class="text-sm font-medium text-ink-muted">W–L</abbr></dd></div>
+        </dl>
+    </section>
+    {% endif %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{% macro league_records(records, hot) %}
+{% if records %}
+<section id="records" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="records-title">
+    <div class="grid gap-1">
+        <h2 id="records-title" class="fs-section-title">Season records</h2>
+        <p class="m-0 text-sm text-ink-muted">The standout moments of the season so far. {{ explain('records') }}</p>
+    </div>
+    <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
+        {% for record in records %}
+        <a class="fs-stat text-ink hover:border-rink hover:no-underline" href="{{ SITEURL }}/{{ record.url }}">
+            <span class="fs-stat__label">{{ record.label }}</span>
+            <span class="fs-stat__value">{{ record.value }}</span>
+            <span class="fs-stat__context [overflow-wrap:anywhere]">{{ record.detail }}</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% if hot and (hot.teams or hot.players) %}
+    <p class="m-0 flex flex-wrap gap-x-5 gap-y-1 text-sm text-ink-muted">
+        <span class="fs-label self-center">On a run</span>
+        {% for row in hot.teams %}<span><a class="font-semibold text-ink" href="{{ SITEURL }}/{{ row.url }}">{{ row.team }}</a> · {{ row.wins }} wins in a row</span>{% endfor %}
+        {% for row in hot.players %}<span>{{ player_name(row) }} · points in {{ row.streak }} straight games</span>{% endfor %}
+    </p>
+    {% endif %}
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro goal_share(rows) %}
+{% if rows %}
+<section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="goal-share-title">
+    <div class="flex items-baseline justify-between gap-3">
+        <h2 id="goal-share-title" class="fs-panel-title">Share of team goals</h2>
+        <span class="fs-label">G or A</span>
+    </div>
+    <ol class="m-0 grid list-none gap-0 p-0">
+        {% for row in rows %}
+        <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+            <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
+            <span class="grid min-w-0">{{ player_name(row) }}<span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · {{ row.points }} of {{ row.team_goals }}</span></span>
+            <span class="text-right font-display text-lg font-extrabold text-ink tabular-nums">{{ row.share }}%</span>
+        </li>
+        {% endfor %}
+    </ol>
+    <p class="m-0 text-xs text-ink-muted">Share of the team's goals the player scored or assisted. {{ explain('goal-share') }}</p>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro league_leads(rows) %}
+{% if rows %}
+<section id="comebacks" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="leads-title">
+    <div class="grid gap-1">
+        <h2 id="leads-title" class="fs-section-title">Comebacks and leads</h2>
+        <p class="m-0 text-sm text-ink-muted">Who turns games around and who lets them slip. {{ explain('comebacks') }}</p>
+    </div>
+    <div class="fs-table-wrap">
+        <table class="fs-table">
+            <thead>
+            <tr>
+                <th scope="col" class="max-sm:hidden">#</th>
+                <th scope="col" class="fs-table__team">Team</th>
+                <th scope="col" title="Won after being behind at some point">Comebacks</th>
+                <th scope="col" class="max-sm:hidden" title="Points won in games the team trailed at some point">Pts trailing</th>
+                <th scope="col" title="Lost after being ahead at some point">Blown</th>
+                <th scope="col" class="max-sm:hidden" title="Record when ahead after two periods">Ahead P2</th>
+                <th scope="col" class="max-sm:hidden" title="Record when behind after two periods">Behind P2</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in rows %}
+            <tr>
+                <td class="max-sm:hidden">{{ loop.index }}</td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                <td class="fs-table__pts">{{ row.comeback_wins }} <span class="text-xs font-medium text-ink-muted max-sm:hidden">/ {{ row.trailed }}</span></td>
+                <td class="max-sm:hidden">{{ row.trailed_points }}</td>
+                <td>{{ row.blown_leads }} <span class="text-xs text-ink-muted max-sm:hidden">/ {{ row.led }}</span></td>
+                <td class="max-sm:hidden">{{ row.won_after_leading_two }}–{{ row.led_after_two - row.won_after_leading_two }}</td>
+                <td class="max-sm:hidden">{{ row.won_after_trailing_two }}–{{ row.trailed_after_two - row.won_after_trailing_two }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
+{% endmacro %}
+
+{% macro league_penalties(data, kinds) %}
+{% if data and data.teams %}
+<section id="penalties" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="penalties-title">
+    <div class="grid gap-1">
+        <h2 id="penalties-title" class="fs-section-title">Penalties</h2>
+        <p class="m-0 text-sm text-ink-muted">Every penalty from the game reports, per team and per player. {{ explain('penalties') }}</p>
+    </div>
+    <div class="grid gap-4 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] lg:items-start">
+        <div class="fs-table-wrap">
+            <table class="fs-table">
+                <thead>
+                <tr>
+                    <th scope="col" class="max-sm:hidden">#</th>
+                    <th scope="col" class="fs-table__team">Team</th>
+                    <th scope="col" title="Penalties in total">Total</th>
+                    <th scope="col" title="Penalties per game">Per game</th>
+                    {% for kind in kinds %}<th scope="col" class="max-sm:hidden">{{ kind }}</th>{% endfor %}
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in data.teams %}
+                <tr>
+                    <td class="max-sm:hidden">{{ loop.index }}</td>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                    <td class="fs-table__pts">{{ row.total }}</td>
+                    <td>{{ row.per_game }}</td>
+                    {% for count in row.kinds %}<td class="max-sm:hidden">{{ count or '–' }}</td>{% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if data.players %}
+        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="penalised-title">
+            <div class="flex items-baseline justify-between gap-3">
+                <h3 id="penalised-title" class="fs-panel-title">Most penalties</h3>
+                <span class="fs-label" title="Number of penalties">Penalties</span>
+            </div>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for row in data.players %}
+                <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
+                    <span class="grid min-w-0">{{ player_name(row) }}<span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }} · {{ row.summary }}</span></span>
+                    <span class="text-right font-display text-lg font-extrabold text-ink tabular-nums">{{ row.total }}</span>
+                </li>
+                {% endfor %}
+            </ol>
+        </section>
+        {% endif %}
+    </div>
 </section>
 {% endif %}
 {% endmacro %}

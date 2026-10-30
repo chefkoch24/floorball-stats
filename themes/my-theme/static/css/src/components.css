@@ -354,3 +354,57 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-bump--focus .fs-bump__team.is-active polyline { stroke: var(--rink); stroke-width: 3; }
 .fs-bump__dot { stroke: var(--rink); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 @media (prefers-reduced-motion: reduce) { .fs-bump__team, .fs-bump__labels li { transition: none; } }
+
+/* Game story: live win chance through a game (insights.html). Home on top, away at the bottom. */
+.fs-story { position: relative; display: grid; gap: var(--space-1); padding-top: 22px; padding-bottom: 4px; }
+.fs-story__team { position: absolute; left: 0; max-width: 70%; overflow: hidden; color: var(--ink-muted); font: 600 12px/1.2 var(--font-body); white-space: nowrap; text-overflow: ellipsis; }
+.fs-story__team--home { top: 0; }
+.fs-story__team--away { position: static; order: 2; }
+.fs-story__plot { display: block; width: 100%; overflow: visible; }
+.fs-story__area { stroke: none; }
+.fs-story__area--home { fill: var(--rink); opacity: 0.14; }
+.fs-story__area--away { fill: var(--ink-muted); opacity: 0.16; }
+.fs-story__mid { stroke: var(--line-strong); stroke-width: 1; stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; }
+.fs-story__period { stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.fs-story__line { fill: none; stroke: var(--ink); stroke-width: 2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.fs-story__goal { stroke: var(--ball); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.fs-story__penalties { display: block; width: 100%; order: 3; }
+.fs-story__penalty--home { fill: var(--rink); opacity: 0.55; }
+.fs-story__penalty--away { fill: var(--ink-muted); opacity: 0.55; }
+.fs-story__axis { position: relative; order: 4; height: 14px; color: var(--ink-muted); font: 600 11px/1 var(--font-body); }
+.fs-story__axis span { position: absolute; transform: translateX(-50%); }
+
+/* Head-to-head matrix (insights.html): one column per opponent, values switch with data-h2h-view. */
+.fs-h2h th.fs-h2h__head, .fs-h2h td.fs-h2h__cell, .fs-h2h td.fs-h2h__self { text-align: center; padding-inline: 6px; }
+.fs-h2h td.fs-h2h__self { background: var(--surface-sunken); }
+.fs-h2h__games { display: inline-grid; gap: 3px; justify-items: center; }
+.fs-h2h__chance { color: var(--ink-muted); font: 600 11px/1.6 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-h2h [data-h2h] { display: none; }
+.fs-h2h[data-h2h-view="results"] [data-h2h="results"] { display: inline-grid; }
+.fs-h2h[data-h2h-view="ppg"] [data-h2h="ppg"],
+.fs-h2h[data-h2h-view="gd"] [data-h2h="gd"] { display: inline; }
+
+/* Goal timing: goals for (up) and against (down) per 5-minute block (insights.html). */
+.fs-timing { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; height: 96px; }
+.fs-timing__block { display: grid; grid-template-rows: 1fr 1fr; align-items: end; border-bottom: 0; }
+.fs-timing__for { align-self: end; min-height: 1px; border-radius: 2px 2px 0 0; background: var(--rink); }
+.fs-timing__against { align-self: start; min-height: 1px; border-radius: 0 0 2px 2px; background: var(--ink-muted); opacity: 0.6; }
+
+/* Info boxes for abbreviations (static/js/tips.js): [data-tip] and titled labels get a dotted
+   underline; the explanation floats in one box on hover, focus or tap. */
+.fs-abbr { cursor: help; text-decoration: underline dotted; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+th.fs-abbr { text-decoration-thickness: 1px; }
+.fs-tip {
+  position: absolute;
+  z-index: 60;
+  max-width: min(260px, calc(100vw - 16px));
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--ink);
+  color: var(--surface);
+  box-shadow: var(--shadow-menu);
+  font: 500 13px/1.4 var(--font-body);
+  letter-spacing: 0;
+  text-transform: none;
+  pointer-events: none;
+}

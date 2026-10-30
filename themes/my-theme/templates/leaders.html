@@ -118,7 +118,7 @@
     {% endif %}
     {% for group, group_label, per_game in [('player', 'Players', false), ('player', 'Players per game', true), ('team', 'Teams', none)] %}
     {% set boards = [] %}
-    {% for board in data.boards if board.kind == group and (per_game is none or board.key.endswith('-per-game') == per_game) %}{% set _ = boards.append(board) %}{% endfor %}
+    {% for board in data.boards + (INSIGHTS_BOARDS|default({})).get(division, []) if board.kind == group and (per_game is none or board.key.endswith('-per-game') == per_game) %}{% set _ = boards.append(board) %}{% endfor %}
     <section class="grid gap-4" aria-labelledby="{{ division }}-{{ loop.index }}-title">
         <div class="grid gap-1">
             <h2 id="{{ division }}-{{ loop.index }}-title" class="fs-section-title">{{ group_label }}</h2>

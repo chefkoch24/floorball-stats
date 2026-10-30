@@ -90,6 +90,9 @@
         {% if player_stats.article %}
         <div class="grid"><dt class="fs-label">Players</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ player_stats.player_count|default(player_rows|length) }}</dd></div>
         {% endif %}
+        {% if league_insights.crowd_average %}
+        <div class="grid"><dt class="fs-label">Avg. crowd</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ '{:,}'.format(league_insights.crowd_average) }}</dd></div>
+        {% endif %}
     </dl>
 </header>
 
@@ -107,8 +110,24 @@
 </section>
 {% endif %}
 
-<div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
-    <section class="grid min-w-0 gap-3" aria-labelledby="standings-title">
+{{ insights.game_of_week(league_insights.game_of_week) }}
+
+{# Jump links: the page is long on phones. Only sections this league has. #}
+{% set jumps = [('standings-title', 'Standings', true),
+                ('players', 'Players', player_stats.article and player_rows),
+                ('power-ranking', 'Power ranking', league_insights.power is defined and league_insights.power.rows),
+                ('table-history', 'Table history', league_insights.table_history is defined),
+                ('head-to-head', 'Head to head', league_insights.matrix is defined),
+                ('clutch', 'Clutch and duos', league_insights.clutch_leaders or league_insights.duos),
+                ('records', 'Records', league_insights.records is defined and league_insights.records),
+                ('comebacks', 'Comebacks', league_insights.leads is defined and league_insights.leads),
+                ('penalties', 'Penalties', league_insights.penalties is defined and league_insights.penalties.teams),
+                ('games', 'Games', games|length > 0)] %}
+<nav class="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="On this page">
+    {% for anchor, label, shown in jumps if shown %}<a class="fs-chip shrink-0" href="#{{ anchor }}">{{ label }}</a>{% endfor %}
+</nav>
+
+<section class="grid min-w-0 gap-3" aria-labelledby="standings-title">
         <div class="flex flex-wrap items-center justify-between gap-3">
             <div class="flex flex-wrap items-center gap-3">
                 <h2 id="standings-title" class="fs-section-title">Standings</h2>
@@ -194,55 +213,83 @@
         </details>
     </section>
 
-    <aside class="grid gap-6">
-        {% if player_stats.article and player_rows %}
-        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="scorers-title">
-            <div class="flex items-baseline justify-between gap-3">
-                <h2 id="scorers-title" class="fs-panel-title">Top scorers</h2>
-                <span class="fs-label">G + A</span>
-            </div>
-            <ol class="m-0 grid list-none gap-0 p-0">
-                {% for row in player_rows[:10] %}
-                {% set cols = row.split('|') %}
-                {% if cols|length >= 9 %}
-                <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
-                    <span class="font-display text-sm text-ink-muted tabular-nums">{{ cols[0] }}</span>
-                    <span class="grid min-w-0">
-                        <a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ cols[1] }}.html">{{ cols[2] }}</a>
-                        <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ cols[3] }}</span>
-                    </span>
-                    <span class="text-right font-display tabular-nums"><span class="text-lg font-extrabold text-ink">{{ cols[7] }}</span> <span class="text-xs text-ink-muted">{{ cols[5] }}+{{ cols[6] }}</span></span>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ol>
-            <a class="fs-btn justify-center" href="{{ SITEURL }}/{{ player_stats.article.category.url }}">All player stats</a>
-        </section>
-        {% endif %}
-
-        {{ insights.clutch_leaders(league_insights.clutch_leaders) }}
-        {{ insights.duo_list(league_insights.duos) }}
-
-        {% if liga_reports %}
-        <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="reports-title">
-            <h2 id="reports-title" class="fs-panel-title">League reports</h2>
-            <p class="m-0 text-sm text-ink-muted">Scoring, efficiency and period trends for groups of teams.</p>
-            <div class="flex flex-wrap gap-2">
-                {% for report in liga_reports %}
-                <a class="fs-chip" href="{{ SITEURL }}/{{ report.url }}">{{ report.title|category2title }}</a>
-                {% endfor %}
-            </div>
-        </section>
-        {% endif %}
-    </aside>
-</div>
+{# Player boards side by side: points, goals, assists, share of team goals. Phones swipe through them. #}
+{% if player_stats.article and player_rows %}
+{% set board_rows = [] %}
+{% for row in player_rows %}
+{% set cols = row.split('|') %}
+{% if cols|length >= 9 %}{% set _ = board_rows.append({'url': cols[1] ~ '.html', 'name': cols[2], 'team': cols[3], 'goals': cols[5]|int, 'assists': cols[6]|int, 'points': cols[7]|int}) %}{% endif %}
+{% endfor %}
+{% macro player_board(key, title, rows, value_key, detail) %}
+<section class="grid content-start gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="board-{{ key }}-title">
+    <div class="flex items-baseline justify-between gap-3">
+        <h3 id="board-{{ key }}-title" class="fs-panel-title">{{ title }}</h3>
+        <span class="fs-label">{{ detail }}</span>
+    </div>
+    <ol class="m-0 grid list-none gap-0 p-0">
+        {% for row in rows[:5] %}
+        <li class="grid grid-cols-[1.5em_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+            <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
+            <span class="grid min-w-0">
+                <a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ row.url }}">{{ row.name }}</a>
+                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.team }}</span>
+            </span>
+            <span class="text-right font-display tabular-nums"><span class="text-lg font-extrabold text-ink">{{ row[value_key] }}</span>{% if value_key == 'points' %} <span class="text-xs text-ink-muted">{{ row.goals }}+{{ row.assists }}</span>{% endif %}</span>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+{% endmacro %}
+<section id="players" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="players-title">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+        <h2 id="players-title" class="fs-section-title">Players</h2>
+        <a class="fs-btn" href="{{ SITEURL }}/{{ player_stats.article.category.url }}">All player stats</a>
+    </div>
+    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4 max-sm:-mx-4 max-sm:flex max-sm:snap-x max-sm:snap-mandatory max-sm:overflow-x-auto max-sm:px-4 max-sm:pb-2 max-sm:[&>*]:w-[85%] max-sm:[&>*]:shrink-0 max-sm:[&>*]:snap-start">
+        {{ player_board('points', 'Points', board_rows, 'points', 'G + A') }}
+        {{ player_board('goals', 'Goals', board_rows|sort(attribute='points', reverse=true)|sort(attribute='goals', reverse=true), 'goals', 'Goals') }}
+        {{ player_board('assists', 'Assists', board_rows|sort(attribute='points', reverse=true)|sort(attribute='assists', reverse=true), 'assists', 'Assists') }}
+        {{ insights.goal_share(league_insights.goal_share) }}
+    </div>
+</section>
+{% endif %}
 
 {{ insights.power_ranking(league_insights.power, category.slug) }}
 
 {{ insights.league_table_history(league_insights.table_history) }}
 
+{{ insights.head_to_head(league_insights.matrix) }}
+
+{% if league_insights.clutch_leaders or league_insights.duos %}
+<section id="clutch" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="clutch-section-title">
+    <h2 id="clutch-section-title" class="fs-section-title">Clutch and duos</h2>
+    <div class="grid gap-4 md:grid-cols-2 max-sm:-mx-4 max-sm:flex max-sm:snap-x max-sm:snap-mandatory max-sm:overflow-x-auto max-sm:px-4 max-sm:pb-2 max-sm:[&>*]:w-[85%] max-sm:[&>*]:shrink-0 max-sm:[&>*]:snap-start">
+        {{ insights.clutch_leaders(league_insights.clutch_leaders) }}
+        {{ insights.duo_list(league_insights.duos) }}
+    </div>
+</section>
+{% endif %}
+
+{{ insights.league_records(league_insights.records, league_insights.hot) }}
+
+{{ insights.league_leads(league_insights.leads) }}
+
+{{ insights.league_penalties(league_insights.penalties, league_insights.penalty_kinds) }}
+
+{% if liga_reports %}
+<section class="mt-10 grid gap-3" aria-labelledby="reports-title">
+    <h2 id="reports-title" class="fs-section-title">League reports</h2>
+    <p class="m-0 text-sm text-ink-muted">Scoring, efficiency and period trends for groups of teams.</p>
+    <div class="flex flex-wrap gap-2">
+        {% for report in liga_reports %}
+        <a class="fs-chip" href="{{ SITEURL }}/{{ report.url }}">{{ report.title|category2title }}</a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
 {% if games %}
-<section id="games" class="mt-12 grid gap-4 scroll-mt-24" aria-labelledby="games-title">
+<section id="games" class="mt-10 grid gap-4 scroll-mt-24" aria-labelledby="games-title">
     <div class="flex flex-wrap items-center justify-between gap-3">
         <h2 id="games-title" class="fs-section-title">Games</h2>
         <div class="fs-segmented" role="group" aria-label="Games" data-games-views>

@@ -68,6 +68,10 @@
 
 {{ insights.win_probability(article.win_probability, article.home_team, article.away_team) }}
 
+{{ insights.game_story(article.game_story, article.home_team, article.away_team) }}
+
+{{ insights.stake_card(article.stake, article.home_team, article.away_team) }}
+
 <details class="stat-guide">
     <summary>Stat Guide</summary>
     <div class="stat-guide__content">
@@ -173,18 +177,6 @@
                 <div id="gameEventsTimeline" class="event-timeline" data-events-b64="{{ article.game_events_b64|default('') }}"></div>
             </article>
 
-            <article class="panel panel-wide panel-timeline">
-                <h2 class="panel-title">Gameflow Graph</h2>
-                <div class="timeline-chart-wrap">
-                    <canvas id="scoreTimelineChart"></canvas>
-                </div>
-                <div class="penalty-strip-wrap">
-                    <canvas id="penaltyTimelineChart"></canvas>
-                </div>
-                <p class="timeline-note">
-                    Note: 10-minute and match penalties are displayed as X markers (Home: {{ article.home_penalty_10|default(0) }} + {{ article.home_penalty_ms|default(0) }}, Away: {{ article.away_penalty_10|default(0) }} + {{ article.away_penalty_ms|default(0) }}).
-                </p>
-            </article>
         </section>
     </div>
 
@@ -365,15 +357,6 @@ if (goalsPerPeriodChart) {
   });
 }
 
-const parseCsvNumbers = (raw) => {
-  return String(raw || '')
-    .split(',')
-    .map((x) => x.trim())
-    .filter((x) => x.length > 0)
-    .map((x) => Number(x))
-    .filter((x) => Number.isFinite(x));
-};
-
 const decodeGoalEvents = (raw) => {
   if (!raw) return [];
   try {
@@ -490,246 +473,4 @@ if (gameEventsTimeline) {
   }
 }
 
-const timelineChart = document.getElementById('scoreTimelineChart');
-const penaltyChart = document.getElementById('penaltyTimelineChart');
-if (timelineChart && penaltyChart) {
-  const isMobile = isMobileViewport;
-  const syncedAxisWidth = isMobile ? 38 : 90;
-  const maxMinute = Number("{{ article.timeline_max_minute|default(60) }}") || 60;
-  const minutes = parseCsvNumbers("{{ article.timeline_minutes_csv|default('0') }}");
-  const homeGoals = parseCsvNumbers("{{ article.timeline_home_goals_csv|default('0') }}");
-  const awayGoals = parseCsvNumbers("{{ article.timeline_away_goals_csv|default('0') }}");
-  const homePenaltyMinutes = parseCsvNumbers("{{ article.home_penalty_minutes_csv|default('') }}");
-  const homePenaltyEnds = parseCsvNumbers("{{ article.home_penalty_ends_csv|default('') }}");
-  const awayPenaltyMinutes = parseCsvNumbers("{{ article.away_penalty_minutes_csv|default('') }}");
-  const awayPenaltyEnds = parseCsvNumbers("{{ article.away_penalty_ends_csv|default('') }}");
-  const homeMajorPenaltyMinutes = parseCsvNumbers("{{ article.home_major_penalty_minutes_csv|default('') }}");
-  const awayMajorPenaltyMinutes = parseCsvNumbers("{{ article.away_major_penalty_minutes_csv|default('') }}");
-
-  const homeSeries = minutes.map((x, i) => ({ x, y: homeGoals[i] ?? 0 }));
-  const awaySeries = minutes.map((x, i) => ({ x, y: awayGoals[i] ?? 0 }));
-  const homePenaltyStartSeries = homePenaltyMinutes.map((x) => ({ x, y: 1 }));
-  const awayPenaltyStartSeries = awayPenaltyMinutes.map((x) => ({ x, y: 0 }));
-  const homePenaltyEndSeries = homePenaltyEnds.map((x) => ({ x, y: 1 }));
-  const awayPenaltyEndSeries = awayPenaltyEnds.map((x) => ({ x, y: 0 }));
-  const homeMajorPenaltySeries = homeMajorPenaltyMinutes.map((x) => ({ x, y: 1 }));
-  const awayMajorPenaltySeries = awayMajorPenaltyMinutes.map((x) => ({ x, y: 0 }));
-
-  const periodBandsPlugin = {
-    id: 'periodBands',
-    beforeDatasetsDraw(chart) {
-      const { ctx, scales: { x, y } } = chart;
-      const bands = [
-        [0, 20, 'transparent'],
-        [20, 40, fsc.rinkSoft],
-        [40, 60, 'transparent'],
-      ];
-      ctx.save();
-      bands.forEach(([start, end, color]) => {
-        const xStart = x.getPixelForValue(start);
-        const xEnd = x.getPixelForValue(end);
-        ctx.fillStyle = color;
-        ctx.fillRect(xStart, y.top, xEnd - xStart, y.bottom - y.top);
-      });
-      ctx.restore();
-    }
-  };
-
-  const periodLinesPlugin = {
-    id: 'periodLines',
-    afterDraw(chart) {
-      const { ctx, scales: { x, y } } = chart;
-      [20, 40, 60].forEach((m) => {
-        const xp = x.getPixelForValue(m);
-        if (xp < x.left || xp > x.right) return;
-        ctx.save();
-        ctx.setLineDash([4, 4]);
-        ctx.strokeStyle = fsc.line;
-        ctx.beginPath();
-        ctx.moveTo(xp, y.top);
-        ctx.lineTo(xp, y.bottom);
-        ctx.stroke();
-        ctx.restore();
-      });
-    }
-  };
-
-  const penaltyWindowsPlugin = {
-    id: 'penaltyWindows',
-    afterDatasetsDraw(chart) {
-      const { ctx, scales: { x, y } } = chart;
-      const drawWindows = (starts, ends, row, color) => {
-        starts.forEach((start, idx) => {
-          const end = Number.isFinite(ends[idx]) ? ends[idx] : (start + 2);
-          const xStart = x.getPixelForValue(start);
-          const xEnd = x.getPixelForValue(end);
-          const yRow = y.getPixelForValue(row);
-          ctx.save();
-          ctx.strokeStyle = color;
-          ctx.lineWidth = 4;
-          ctx.lineCap = 'round';
-          ctx.beginPath();
-          ctx.moveTo(xStart, yRow);
-          ctx.lineTo(xEnd, yRow);
-          ctx.stroke();
-          ctx.restore();
-        });
-      };
-
-      drawWindows(homePenaltyMinutes, homePenaltyEnds, 1, fsc.home);
-      drawWindows(awayPenaltyMinutes, awayPenaltyEnds, 0, fsc.away);
-    }
-  };
-
-  new Chart(timelineChart.getContext('2d'), {
-    type: 'line',
-    data: {
-      datasets: [
-        {
-          label: '{{ article.home_team }}',
-          data: homeSeries,
-          borderColor: fsc.home,
-          backgroundColor: fsc.home,
-          stepped: true,
-          pointRadius: 0,
-          borderWidth: 3,
-          tension: 0
-        },
-        {
-          label: '{{ article.away_team }}',
-          data: awaySeries,
-          borderColor: fsc.away,
-          backgroundColor: fsc.away,
-          stepped: true,
-          pointRadius: 0,
-          borderWidth: 3,
-          tension: 0
-        }
-      ]
-    },
-    plugins: [periodBandsPlugin, periodLinesPlugin],
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { position: 'bottom' } },
-      scales: {
-        x: {
-          type: 'linear',
-          title: { display: true, text: 'Minute' },
-          min: 0,
-          max: maxMinute,
-          grid: { color: fsc.line }
-        },
-        y: {
-          title: { display: !isMobile, text: 'Cumulative goals' },
-          beginAtZero: true,
-          ticks: { precision: 0 },
-          afterFit: (scale) => {
-            scale.width = syncedAxisWidth;
-          }
-        }
-      }
-    }
-  });
-
-  const penaltyDatasets = [];
-  if (homePenaltyStartSeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.home_team }} penalties start',
-      data: homePenaltyStartSeries,
-      borderColor: fsc.home,
-      backgroundColor: fsc.home,
-      pointRadius: 4,
-      pointStyle: 'circle'
-    });
-  }
-  if (awayPenaltyStartSeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.away_team }} penalties start',
-      data: awayPenaltyStartSeries,
-      borderColor: fsc.away,
-      backgroundColor: fsc.away,
-      pointRadius: 4,
-      pointStyle: 'circle'
-    });
-  }
-  if (homePenaltyEndSeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.home_team }} penalties end',
-      data: homePenaltyEndSeries,
-      borderColor: fsc.home,
-      backgroundColor: fsc.home,
-      pointRadius: 4,
-      pointStyle: 'circle'
-    });
-  }
-  if (awayPenaltyEndSeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.away_team }} penalties end',
-      data: awayPenaltyEndSeries,
-      borderColor: fsc.away,
-      backgroundColor: fsc.away,
-      pointRadius: 4,
-      pointStyle: 'circle'
-    });
-  }
-  if (homeMajorPenaltySeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.home_team }} 10/MS',
-      data: homeMajorPenaltySeries,
-      borderColor: fsc.home,
-      backgroundColor: fsc.home,
-      pointRadius: 6,
-      pointStyle: 'crossRot'
-    });
-  }
-  if (awayMajorPenaltySeries.length) {
-    penaltyDatasets.push({
-      label: '{{ article.away_team }} 10/MS',
-      data: awayMajorPenaltySeries,
-      borderColor: fsc.away,
-      backgroundColor: fsc.away,
-      pointRadius: 6,
-      pointStyle: 'crossRot'
-    });
-  }
-
-  new Chart(penaltyChart.getContext('2d'), {
-    type: 'scatter',
-    data: {
-      datasets: penaltyDatasets
-    },
-    plugins: [periodBandsPlugin, periodLinesPlugin, penaltyWindowsPlugin],
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: {
-          type: 'linear',
-          min: 0,
-          max: maxMinute,
-          title: { display: true, text: 'Penalty timeline' },
-          grid: { color: fsc.line }
-        },
-        y: {
-          min: -0.5,
-          max: 1.5,
-          ticks: {
-            stepSize: 1,
-            callback: (value) => {
-              if (value === 1) return isMobile ? 'H' : 'Home';
-              if (value === 0) return isMobile ? 'A' : 'Away';
-              return '';
-            }
-          },
-          afterFit: (scale) => {
-            scale.width = syncedAxisWidth;
-          },
-          grid: { display: false }
-        }
-      }
-    }
-  });
-}
 </script>
