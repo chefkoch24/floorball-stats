@@ -701,18 +701,19 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 article.player_trends = facts
                 break
 
-    boards = generator.context.get("LEADERBOARDS")
-    if not boards:
-        return
-    import leaders  # noqa: PLC0415 - plugin module, loaded by Pelican before this one
+    # Extra boards for the leaders page. Kept apart from LEADERBOARDS because Pelican calls the
+    # plugins' handlers in no fixed order; templates/leaders.html shows both.
+    import leaders  # noqa: PLC0415 - plugin module, imported when Pelican loads the plugins
 
     def origin(info: dict) -> dict:
         country = info.get("name", "")
         return {"league": info.get("title", "").split(" · ")[-1], "country": country, "code": leaders.COUNTRY_CODES.get(country, country[:3].upper())}
 
-    for division, data in boards.items():
+    extra_boards: dict[str, list] = {}
+    for division in ("men", "women"):
+        boards = extra_boards[division] = []
         rows = sorted(crowd_rows.get(division, []), key=lambda row: -row["average"])[: leaders.TOP]
-        data["boards"].append({
+        boards.append({
             "key": "crowds", "title": "Biggest crowds", "unit": "Average home attendance", "kind": "team",
             "entries": [
                 {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
@@ -721,7 +722,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             ],
         })
         rows = sorted(share_rows.get(division, []), key=lambda row: (-row["share"], -row["points"]))[: leaders.TOP]
-        data["boards"].append({
+        boards.append({
             "key": "goal-share", "title": "Share of team goals", "unit": "Goals with a goal or assist", "kind": "player",
             "entries": [
                 {"rank": index, "name": row["player"].name, "url": f"{row['player'].uid}.html" if row["player"].uid in player_slugs else "",
@@ -730,6 +731,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 for index, row in enumerate(rows, start=1)
             ],
         })
+    generator.context["INSIGHTS_BOARDS"] = extra_boards
 
 
 def _attach_table_history(games_by_category, teams_by_category, crest_index, league_context) -> None:
