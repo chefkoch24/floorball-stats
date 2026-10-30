@@ -397,3 +397,107 @@
 </section>
 {% endif %}
 {% endmacro %}
+
+{% macro h2h_games(cell, show_side=false) -%}
+{%- for game in cell.games -%}
+{%- if game.score -%}
+{% if show_side %}<span class="inline-flex items-center gap-1"><span class="text-xs text-ink-muted">{{ 'H' if game.home else 'A' }}</span>{% endif %}<a class="fs-form__game fs-form__game--{{ game.tone }} hover:no-underline" href="{{ SITEURL }}/{{ game.url }}" title="{{ game.letter }} {{ game.score }} · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }}">{{ game.score }}</a>{% if show_side %}</span>{% endif %}
+{%- else -%}
+<a class="fs-h2h__chance" href="{{ SITEURL }}/{{ game.url }}" title="Upcoming · {{ 'home' if game.home else 'away' }} · {{ game.date.strftime('%a %-d %b') }} · win chance {{ game.chance }}">{% if show_side %}{{ 'H' if game.home else 'A' }} {{ game.date.strftime('%-d %b') }} · {% endif %}{{ game.chance }}</a>
+{%- endif -%}
+{%- endfor -%}
+{%- endmacro %}
+
+{% macro head_to_head(matrix) %}
+{% if matrix and matrix.rows %}
+<section id="head-to-head" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="h2h-title">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+        <div class="grid gap-1">
+            <h2 id="h2h-title" class="fs-section-title">Head to head</h2>
+            <p class="m-0 text-sm text-ink-muted">Every team against every other team. Rows read from the team's side: 5:3 means the row team scored 5. Games still to come show the row team's win chance. {{ explain('head-to-head') }}</p>
+        </div>
+        <div class="fs-segmented max-sm:hidden" role="group" aria-label="Head to head values" data-h2h-views>
+            <button type="button" class="fs-segment" aria-pressed="true" data-view="results">Results</button>
+            <button type="button" class="fs-segment" aria-pressed="false" data-view="ppg">Points/game</button>
+            <button type="button" class="fs-segment" aria-pressed="false" data-view="gd">Goal diff</button>
+        </div>
+    </div>
+    <div class="fs-table-wrap max-sm:hidden">
+        <table class="fs-table fs-h2h" data-h2h-table data-h2h-view="results">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col" class="fs-table__team">Team</th>
+                {% for opponent in matrix.teams %}<th scope="col" class="fs-h2h__head" title="{{ opponent }}"><span class="fs-crest fs-crest--sm" data-crest="{{ opponent|crest_index }}" aria-label="{{ opponent }}">{{ opponent|team_initials }}</span></th>{% endfor %}
+                <th scope="col" title="Points per game against the top {{ matrix.top }}">vs top {{ matrix.top }}</th>
+                <th scope="col" title="Points per game against the other teams">vs rest</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in matrix.rows %}
+            <tr>
+                <td>{{ row.rank or loop.index }}</td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                {% for cell in row.cells %}
+                {% if cell is none %}
+                <td class="fs-h2h__self" aria-label="{{ row.team }}"></td>
+                {% else %}
+                <td class="fs-h2h__cell">
+                    <span class="fs-h2h__games" data-h2h="results">{{ h2h_games(cell) }}</span>
+                    <span data-h2h="ppg">{{ cell.ppg or '–' }}</span>
+                    <span data-h2h="gd">{{ signed(cell.gd) }}</span>
+                </td>
+                {% endif %}
+                {% endfor %}
+                <td class="fs-table__pts">{{ row.vs_top }}</td>
+                <td class="fs-table__pts">{{ row.vs_rest }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="grid gap-3 sm:hidden">
+        <label class="grid gap-1">
+            <span class="fs-label">Team</span>
+            <select class="rounded-md border border-line-strong bg-surface-raised px-3 py-2 text-ink" data-h2h-select>
+                {% for row in matrix.rows %}<option value="{{ loop.index0 }}">{{ row.rank or loop.index }}. {{ row.team }}</option>{% endfor %}
+            </select>
+        </label>
+        {% for row in matrix.rows %}
+        <div class="grid gap-2 rounded-lg border border-line bg-surface-raised p-4" data-h2h-panel="{{ loop.index0 }}"{% if not loop.first %} hidden{% endif %}>
+            <p class="m-0 text-sm text-ink-muted">Points per game: <b class="text-ink">{{ row.vs_top }}</b> against the top {{ matrix.top }}, <b class="text-ink">{{ row.vs_rest }}</b> against the rest.</p>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for cell in row.cells if cell is not none %}
+                <li class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="fs-team min-w-0"><span class="fs-crest fs-crest--sm" data-crest="{{ cell.opponent|crest_index }}" aria-hidden="true">{{ cell.opponent|team_initials }}</span><span class="[overflow-wrap:anywhere]">{{ cell.opponent }}</span></span>
+                    <span class="flex flex-wrap justify-end gap-1">{{ h2h_games(cell, show_side=true) }}</span>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<script>
+(() => {
+  const views = document.querySelector('[data-h2h-views]');
+  const table = document.querySelector('[data-h2h-table]');
+  if (views && table) {
+    const buttons = Array.from(views.querySelectorAll('[data-view]'));
+    buttons.forEach((button) => button.addEventListener('click', () => {
+      buttons.forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+      table.dataset.h2hView = button.dataset.view;
+    }));
+  }
+  const select = document.querySelector('[data-h2h-select]');
+  if (select) {
+    select.addEventListener('change', () => {
+      document.querySelectorAll('[data-h2h-panel]').forEach((panel) => {
+        panel.hidden = panel.dataset.h2hPanel !== select.value;
+      });
+    });
+  }
+})();
+</script>
+{% endif %}
+{% endmacro %}

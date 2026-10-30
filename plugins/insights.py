@@ -285,6 +285,9 @@ def _attach_power(games_by_category, teams_by_category, current_season, league_c
             }
 
         _attach_game_stories(entries, run, league_context)
+        for category in {_category(article) for article, result in entries if result.phase == "regular-season"}:
+            if teams_by_category.get(category):
+                _head_to_head(category, entries, run, teams_by_category[category], league_context)
 
         category = f"{prefix}{current_season}-regular-season"
         team_articles = teams_by_category.get(category, [])
@@ -418,6 +421,83 @@ def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
             }
             for article in dramatic
         ]
+
+
+def _outcome(own: int, other: int, decision: str) -> tuple[str, str]:
+    """Result letter and form-guide colour from one team's side."""
+    if own == other:
+        return "D", "ot"
+    if decision != pr.REGULATION:
+        return ("OTW", "ot") if own > other else ("OTL", "ot")
+    return ("W", "w") if own > other else ("L", "l")
+
+
+def _head_to_head(category, entries, run: pr.EloRun, team_articles, league_context) -> None:
+    """Every team against every other team of a regular season: results, upcoming chances, points per game."""
+    teams = sorted(
+        ((_meta(article, "team") or _meta(article, "title")), article) for article in team_articles
+    )
+    teams.sort(key=lambda item: (_int(item[1], "rank") or 99, item[0]))
+    names = [team for team, _ in teams]
+    if len(names) < 3:
+        return
+    index = {team: position for position, team in enumerate(names)}
+    top = set(names[:4])
+    cells = {(row, col): {"games": [], "points": 0, "played": 0, "gd": 0} for row in names for col in names if row != col}
+    for article, result in sorted(entries, key=lambda item: item[1].sort_key):
+        if _category(article) != category or result.home not in index or result.away not in index:
+            continue
+        p_home = run.pregame[result.game_id][2]
+        for row, col, is_home in ((result.home, result.away, True), (result.away, result.home, False)):
+            cell = cells[(row, col)]
+            entry = {"url": article.url, "home": is_home, "date": article.date}
+            if result.played:
+                own, other = (result.home_goals, result.away_goals) if is_home else (result.away_goals, result.home_goals)
+                letter, tone = _outcome(own, other, result.decision)
+                points = result.home_points if is_home else result.away_points
+                if points is None:
+                    home_points, away_points = _default_points(result)
+                    points = home_points if is_home else away_points
+                entry.update({"score": f"{own}:{other}", "letter": letter, "tone": tone})
+                cell["points"] += points
+                cell["played"] += 1
+                cell["gd"] += own - other
+            else:
+                entry.update({"chance": _percent(p_home if is_home else 1 - p_home)})
+            cell["games"].append(entry)
+
+    def split(row: str, group: set[str]) -> str:
+        played = [cells[(row, col)] for col in names if col != row and col in group]
+        games = sum(cell["played"] for cell in played)
+        return f"{sum(cell['points'] for cell in played) / games:.2f}" if games else "–"
+
+    rows = []
+    for team, article in teams:
+        row_cells = []
+        for col in names:
+            if col == team:
+                row_cells.append(None)
+                continue
+            cell = cells[(team, col)]
+            row_cells.append(
+                {
+                    "opponent": col,
+                    "games": cell["games"],
+                    "ppg": f"{cell['points'] / cell['played']:.1f}" if cell["played"] else "",
+                    "gd": cell["gd"] if cell["played"] else None,
+                }
+            )
+        rows.append(
+            {
+                "team": team,
+                "url": article.url,
+                "rank": _int(article, "rank"),
+                "cells": row_cells,
+                "vs_top": split(team, top - {team}),
+                "vs_rest": split(team, set(names) - top - {team}),
+            }
+        )
+    league_context[category]["matrix"] = {"teams": names, "rows": rows, "top": len(top)}
 
 
 def _attach_table_history(games_by_category, teams_by_category, crest_index, league_context) -> None:

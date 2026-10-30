@@ -373,3 +373,13 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-story__penalty--away { fill: var(--ink-muted); opacity: 0.55; }
 .fs-story__axis { position: relative; order: 4; height: 14px; color: var(--ink-muted); font: 600 11px/1 var(--font-body); }
 .fs-story__axis span { position: absolute; transform: translateX(-50%); }
+
+/* Head-to-head matrix (insights.html): one column per opponent, values switch with data-h2h-view. */
+.fs-h2h th.fs-h2h__head, .fs-h2h td.fs-h2h__cell, .fs-h2h td.fs-h2h__self { text-align: center; padding-inline: 6px; }
+.fs-h2h td.fs-h2h__self { background: var(--surface-sunken); }
+.fs-h2h__games { display: inline-grid; gap: 3px; justify-items: center; }
+.fs-h2h__chance { color: var(--ink-muted); font: 600 11px/1.6 var(--font-display); font-variant-numeric: tabular-nums; }
+.fs-h2h [data-h2h] { display: none; }
+.fs-h2h[data-h2h-view="results"] [data-h2h="results"] { display: inline-grid; }
+.fs-h2h[data-h2h-view="ppg"] [data-h2h="ppg"],
+.fs-h2h[data-h2h-view="gd"] [data-h2h="gd"] { display: inline; }
