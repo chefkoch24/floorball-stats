@@ -638,6 +638,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
     player_facts: dict[str, dict[str, dict]] = defaultdict(dict)  # uid -> category -> facts
     share_rows = {"men": [], "women": []}
     crowd_rows = {"men": [], "women": []}
+    penalty_rows = {"men": [], "women": []}
 
     for category, team_articles in teams_by_category.items():
         match = CATEGORY_PATTERN.match(category)
@@ -673,6 +674,11 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 player_facts[player.uid].setdefault(category, {"team": team, "points": 0, "team_goals": 0, "share": None, "point_streak": 0, "goal_streak": 0})
                 player_facts[player.uid][category]["penalties"] = _penalty_row(line)
         team_penalty_rank = {row["team"]: index for index, row in enumerate(context["penalties"]["teams"], start=1)}
+        if match["season"] == current_season and match["phase"] == "regular-season" and info.get("division") in penalty_rows:
+            for team, article in teams.items():
+                line = team_penalties.get(team)
+                if line and line.games:
+                    penalty_rows[info["division"]].append({"team": team, "url": article.url, "line": line, "info": info})
 
         lead_rows, hot_teams, hot_players = [], [], []
         for team, article in teams.items():
@@ -773,6 +779,16 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             "entries": [
                 {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
                  "initials": initials(row["team"]), **origin(row["info"]), "value": f"{row['average']:,}", "detail": f"{row['games']} home games"}
+                for index, row in enumerate(rows, start=1)
+            ],
+        })
+        rows = sorted(penalty_rows.get(division, []), key=lambda row: (-row["line"].total, row["line"].games, row["team"]))[: leaders.TOP]
+        boards.append({
+            "key": "team-penalties", "title": "Most penalties", "unit": "Penalties in total", "kind": "team",
+            "entries": [
+                {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
+                 "initials": initials(row["team"]), **origin(row["info"]), "value": str(row["line"].total),
+                 "detail": f"{row['line'].per_game:.2f} per game · {row['line'].games} GP"}
                 for index, row in enumerate(rows, start=1)
             ],
         })
