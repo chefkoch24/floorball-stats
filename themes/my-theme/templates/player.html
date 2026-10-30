@@ -90,7 +90,7 @@
     {% if article.shots %}<article class="kpi"><p class="kpi-label">Shots</p><p class="kpi-value">{{ article.shots }}</p></article>{% endif %}
 </section>
 
-{{ insights.player_clutch(article.clutch, article.partners) }}
+{{ insights.player_clutch(article.clutch, article.partners, article.player_trends) }}
 
 <section class="panel">
     <h2 class="panel-title">Season Overview</h2>

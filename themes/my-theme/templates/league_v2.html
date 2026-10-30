@@ -90,6 +90,9 @@
         {% if player_stats.article %}
         <div class="grid"><dt class="fs-label">Players</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ player_stats.player_count|default(player_rows|length) }}</dd></div>
         {% endif %}
+        {% if league_insights.crowd_average %}
+        <div class="grid"><dt class="fs-label">Avg. crowd</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ '{:,}'.format(league_insights.crowd_average) }}</dd></div>
+        {% endif %}
     </dl>
 </header>
 
@@ -108,6 +111,18 @@
 {% endif %}
 
 {{ insights.game_of_week(league_insights.game_of_week) }}
+
+{# Jump links: the page is long on phones. Only sections this league has. #}
+{% set jumps = [('standings-title', 'Standings', true),
+                ('power-ranking', 'Power ranking', league_insights.power is defined and league_insights.power.rows),
+                ('table-history', 'Table history', league_insights.table_history is defined),
+                ('head-to-head', 'Head to head', league_insights.matrix is defined),
+                ('comebacks', 'Comebacks', league_insights.leads is defined and league_insights.leads),
+                ('records-title', 'Records', league_insights.records is defined and league_insights.records),
+                ('games', 'Games', games|length > 0)] %}
+<nav class="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1" aria-label="On this page">
+    {% for anchor, label, shown in jumps if shown %}<a class="fs-chip shrink-0" href="#{{ anchor }}">{{ label }}</a>{% endfor %}
+</nav>
 
 <div class="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
     <section class="grid min-w-0 gap-3" aria-labelledby="standings-title">
@@ -224,6 +239,8 @@
 
         {{ insights.clutch_leaders(league_insights.clutch_leaders) }}
         {{ insights.duo_list(league_insights.duos) }}
+        {{ insights.goal_share(league_insights.goal_share) }}
+        {{ insights.league_records(league_insights.records, league_insights.hot) }}
 
         {% if liga_reports %}
         <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="reports-title">
@@ -244,6 +261,8 @@
 {{ insights.league_table_history(league_insights.table_history) }}
 
 {{ insights.head_to_head(league_insights.matrix) }}
+
+{{ insights.league_leads(league_insights.leads) }}
 
 {% if games %}
 <section id="games" class="mt-12 grid gap-4 scroll-mt-24" aria-labelledby="games-title">

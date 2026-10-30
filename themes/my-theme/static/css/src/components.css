@@ -383,3 +383,9 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-h2h[data-h2h-view="results"] [data-h2h="results"] { display: inline-grid; }
 .fs-h2h[data-h2h-view="ppg"] [data-h2h="ppg"],
 .fs-h2h[data-h2h-view="gd"] [data-h2h="gd"] { display: inline; }
+
+/* Goal timing: goals for (up) and against (down) per 5-minute block (insights.html). */
+.fs-timing { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; height: 96px; }
+.fs-timing__block { display: grid; grid-template-rows: 1fr 1fr; align-items: end; border-bottom: 0; }
+.fs-timing__for { align-self: end; min-height: 1px; border-radius: 2px 2px 0 0; background: var(--rink); }
+.fs-timing__against { align-self: start; min-height: 1px; border-radius: 0 0 2px 2px; background: var(--ink-muted); opacity: 0.6; }

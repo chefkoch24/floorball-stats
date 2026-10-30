@@ -38,11 +38,15 @@ from src import power_rankings as pr  # noqa: E402
 from src import standings_history as sh  # noqa: E402
 from src import game_flow as gf  # noqa: E402
 from src import stakes as st  # noqa: E402
+from src import team_trends as tt  # noqa: E402
 
 CONFIG_DIR = ROOT / "config" / "leagues"
 CATEGORY_PATTERN = re.compile(r"^(?P<prefix>[a-z]*-?)(?P<season>\d{2}-\d{2})-(?P<phase>regular-season|playoffs)$")
 # "Game of the week" is picked among the games of the next round (days from the first upcoming game).
 NEXT_ROUND_DAYS = 6
+# Leaders boards need a sample: team goals for the goal share, home games for the crowds.
+SHARE_MIN_TEAM_GOALS, SHARE_MIN_POINTS = 15, 5
+CROWD_MIN_GAMES = 2
 # A probability is only shown once both teams have this many rated games behind them.
 MIN_RATED_GAMES = 3
 UPSET_THRESHOLD = 0.35
@@ -165,6 +169,7 @@ def collect(generator) -> None:
     _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context)
     _attach_power(games_by_category, teams_by_category, current_season, league_context)
     _attach_table_history(games_by_category, teams_by_category, settings["JINJA_FILTERS"]["crest_index"], league_context)
+    _attach_trends(generator, articles, games_by_category, teams_by_category, player_slugs, league_context)
     generator.context["LEAGUE_INSIGHTS"] = dict(league_context)
     # Parameters and limits for the "How our stats work" page, so it always matches the code.
     generator.context["INSIGHTS_MODEL"] = {
@@ -501,6 +506,224 @@ def _head_to_head(category, entries, run: pr.EloRun, team_articles, league_conte
             }
         )
     league_context[category]["matrix"] = {"teams": names, "rows": rows, "top": len(top)}
+
+
+def _trend_game(article) -> tt.Game:
+    goals = []
+    for event in pi.decode_events(_meta(article, "game_events_b64")):
+        if event.get("event_kind") != "goal" or event.get("side") not in ("home", "away"):
+            continue
+        try:
+            period = int(event.get("period") or 0)
+        except (TypeError, ValueError):
+            continue
+        if period < 1 or period >= pi.SHOOTOUT_PERIOD or str(event.get("minute") or "").upper().startswith("PS"):
+            continue
+        in_period = pi.minute_in_period(event.get("minute"), period)
+        if in_period is None:
+            continue
+        team = str(event.get("team") or "")
+        own_goal = event.get("tag") == pi.OWN_GOAL_TAG
+        goals.append(
+            tt.Goal(
+                minute=gf.goal_minute(period, in_period),
+                side=event["side"],
+                scorer=None if own_goal else pi.player_ref(event.get("title"), event.get("title_uid"), team),
+                assist=None if own_goal else pi.player_ref(event.get("assist"), event.get("assist_uid"), team),
+            )
+        )
+    return tt.Game(
+        game_id=_meta(article, "game_id") or article.slug,
+        url=article.url,
+        day=pr.to_date(article.date),
+        home=_meta(article, "home_team"),
+        away=_meta(article, "away_team"),
+        home_goals=_int(article, "home_goals") or 0,
+        away_goals=_int(article, "away_goals") or 0,
+        extra_time=_decision(article) != pr.REGULATION,
+        goals=tuple(sorted(goals, key=lambda goal: goal.minute)),
+        attendance=_int(article, "attendance") or None,
+        home_points=_int(article, "home_points"),
+        away_points=_int(article, "away_points"),
+    )
+
+
+def _ordinal(value: int) -> str:
+    suffix = "th" if 10 <= value % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(value % 10, "th")
+    return f"{value}{suffix}"
+
+
+def _team_facts(streaks: tt.TeamStreaks, leads: tt.LeadRecord, crowd: dict | None) -> list[str]:
+    facts = []
+    if streaks.wins >= 3:
+        facts.append(f"{streaks.wins} wins in a row")
+    elif streaks.losses >= 3:
+        facts.append(f"{streaks.losses} losses in a row")
+    elif streaks.unbeaten >= 3:
+        facts.append(f"Unbeaten in {streaks.unbeaten} games")
+    if streaks.home_unbeaten >= 4:
+        facts.append(f"Unbeaten in {streaks.home_unbeaten} home games")
+    if streaks.longest_wins >= 4 and streaks.longest_wins != streaks.wins:
+        facts.append(f"Longest winning run this season: {streaks.longest_wins}")
+    if leads.led_after_two >= 3:
+        facts.append(f"Won {leads.won_after_leading_two} of {leads.led_after_two} games when leading after two periods")
+    if leads.comeback_wins:
+        facts.append(f"{leads.comeback_wins} comeback {'win' if leads.comeback_wins == 1 else 'wins'} after trailing")
+    if crowd:
+        facts.append(f"Home crowd {crowd['average']:,} on average, {_ordinal(crowd['rank'])} of {crowd['teams']} in the league")
+    return facts
+
+
+def _timing_bars(timing: tt.Timing) -> dict:
+    peak = max([value for block in timing.blocks for value in block] + [1])
+    blocks = [
+        {"label": f"{index * tt.BLOCK_MINUTES}–{(index + 1) * tt.BLOCK_MINUTES}", "for": goals_for, "against": goals_against,
+         "for_pct": round(100 * goals_for / peak), "against_pct": round(100 * goals_against / peak)}
+        for index, (goals_for, goals_against) in enumerate(timing.blocks)
+    ]
+    periods = [{"label": f"P{index + 1}", "for": gf_, "against": ga, "diff": gf_ - ga} for index, (gf_, ga) in enumerate(timing.periods)]
+    best = max(periods, key=lambda period: period["diff"])
+    worst = min(periods, key=lambda period: period["diff"])
+    # Best ten minutes: two neighbouring blocks with the best goal difference.
+    windows = [
+        (blocks[start]["for"] + blocks[start + 1]["for"] - blocks[start]["against"] - blocks[start + 1]["against"], start)
+        for start in range(len(blocks) - 1)
+    ]
+    diff, start = max(windows, key=lambda item: (item[0], -item[1]))
+    strongest = {"label": f"{start * tt.BLOCK_MINUTES}–{(start + 2) * tt.BLOCK_MINUTES}", "diff": diff}
+    return {"blocks": blocks, "periods": periods, "best": best, "worst": worst, "strongest": strongest, "overtime": timing.overtime,
+            "total_for": sum(block["for"] for block in blocks), "total_against": sum(block["against"] for block in blocks)}
+
+
+def _attach_trends(generator, articles, games_by_category, teams_by_category, player_slugs, league_context) -> None:
+    settings = generator.settings
+    crest_index = settings["JINJA_FILTERS"]["crest_index"]
+    initials = settings["JINJA_FILTERS"]["team_initials"]
+    league_info = settings["JINJA_FILTERS"]["league_context"]
+    current_season = settings.get("CURRENT_SEASON", "")
+    players_by_uid = {(_meta(article, "player_uid") or article.slug): article for article in articles if _meta(article, "type") == "player"}
+    player_facts: dict[str, dict[str, dict]] = defaultdict(dict)  # uid -> category -> facts
+    share_rows = {"men": [], "women": []}
+    crowd_rows = {"men": [], "women": []}
+
+    for category, team_articles in teams_by_category.items():
+        match = CATEGORY_PATTERN.match(category)
+        if not match:
+            continue
+        games = sorted(
+            (_trend_game(article) for article in games_by_category.get(category, []) if _meta(article, "game_state") == "played"),
+            key=lambda game: (game.day, game.game_id),
+        )
+        if not games:
+            continue
+        teams = {(_meta(article, "team") or _meta(article, "title")): article for article in team_articles}
+        context = league_context[category]
+        info = league_info(category) or {}
+        crowd_table = tt.crowds(games)
+        crowd_order = sorted(crowd_table, key=lambda team: -crowd_table[team][0])
+        goals_by_team = tt.team_goals(games)
+
+        lead_rows, hot_teams, hot_players = [], [], []
+        for team, article in teams.items():
+            streaks = tt.team_streaks(games, team)
+            leads = tt.lead_record(games, team)
+            crowd = None
+            if team in crowd_table:
+                crowd = {"average": round(crowd_table[team][0]), "games": crowd_table[team][1], "rank": crowd_order.index(team) + 1, "teams": len(crowd_order)}
+            article.trends = {
+                "facts": _team_facts(streaks, leads, crowd),
+                "timing": _timing_bars(tt.goal_timing(games, team)),
+                "leads": leads.__dict__,
+                "crowd": crowd,
+            }
+            if streaks.wins >= 2:
+                hot_teams.append((streaks.wins, team, article.url))
+            lead_rows.append({"team": team, "url": article.url, **leads.__dict__})
+            if crowd and match["season"] == current_season and match["phase"] == "regular-season" and crowd["games"] >= CROWD_MIN_GAMES and info.get("division") in crowd_rows:
+                crowd_rows[info["division"]].append({"team": team, "url": article.url, "average": crowd["average"], "games": crowd["games"], "info": info})
+
+            points: dict[str, list] = {}
+            for game in games:
+                if team not in (game.home, game.away):
+                    continue
+                side = game.side_of(team)
+                for goal in game.goals:
+                    if goal.side != side:
+                        continue
+                    for player, slot in ((goal.scorer, 0), (goal.assist, 1)):
+                        if player:
+                            points.setdefault(player.key, [player, 0, 0])[1 + slot] += 1
+            team_total = goals_by_team.get(team, 0)
+            streak_map = tt.point_streaks(games, team)
+            for key, (player, goals, assists) in points.items():
+                share = round(100 * (goals + assists) / team_total) if team_total else None
+                point_streak, goal_streak = streak_map.get(key, (player, 0, 0))[1:]
+                if point_streak >= 3:
+                    hot_players.append((point_streak, player, team))
+                if player.uid in players_by_uid:
+                    player_facts[player.uid][category] = {
+                        "team": team, "points": goals + assists, "team_goals": team_total, "share": share,
+                        "point_streak": point_streak, "goal_streak": goal_streak,
+                    }
+                if (share is not None and match["season"] == current_season and match["phase"] == "regular-season"
+                        and team_total >= SHARE_MIN_TEAM_GOALS and goals + assists >= SHARE_MIN_POINTS and info.get("division") in share_rows):
+                    share_rows[info["division"]].append({"player": player, "team": team, "points": goals + assists, "team_goals": team_total, "share": share, "info": info, "category": category})
+
+        context["records"] = [record.__dict__ for record in tt.season_records(games)]
+        context["hot"] = {
+            "teams": [{"team": team, "url": url, "wins": wins} for wins, team, url in sorted(hot_teams, key=lambda item: (-item[0], item[1]))[:3]],
+            "players": [
+                {**_player_link(player, player_slugs), "team": team, "streak": streak}
+                for streak, player, team in sorted(hot_players, key=lambda item: (-item[0], item[1].name))[:3]
+            ],
+        }
+        context["leads"] = sorted(lead_rows, key=lambda row: (-row["comeback_wins"], row["blown_leads"], row["team"]))
+        if crowd_table:
+            context["crowd_average"] = round(sum(value for value, _ in crowd_table.values()) / len(crowd_table))
+        context["goal_share"] = [
+            {**_player_link(row["player"], player_slugs), "team": row["team"], "share": row["share"], "points": row["points"], "team_goals": row["team_goals"]}
+            for row in sorted((row for row in share_rows.get(info.get("division"), []) if row["category"] == category), key=lambda row: (-row["share"], -row["points"]))[:5]
+        ]
+
+    # Player pages: the latest phase of the player's current season.
+    for uid, by_category in player_facts.items():
+        article = players_by_uid[uid]
+        season = _meta(article, "current_season")
+        for phase in ("playoffs", "regular-season"):
+            facts = by_category.get(f"{season}-{phase}")
+            if facts:
+                article.player_trends = facts
+                break
+
+    boards = generator.context.get("LEADERBOARDS")
+    if not boards:
+        return
+    import leaders  # noqa: PLC0415 - plugin module, loaded by Pelican before this one
+
+    def origin(info: dict) -> dict:
+        country = info.get("name", "")
+        return {"league": info.get("title", "").split(" · ")[-1], "country": country, "code": leaders.COUNTRY_CODES.get(country, country[:3].upper())}
+
+    for division, data in boards.items():
+        rows = sorted(crowd_rows.get(division, []), key=lambda row: -row["average"])[: leaders.TOP]
+        data["boards"].append({
+            "key": "crowds", "title": "Biggest crowds", "unit": "Average home attendance", "kind": "team",
+            "entries": [
+                {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
+                 "initials": initials(row["team"]), **origin(row["info"]), "value": f"{row['average']:,}", "detail": f"{row['games']} home games"}
+                for index, row in enumerate(rows, start=1)
+            ],
+        })
+        rows = sorted(share_rows.get(division, []), key=lambda row: (-row["share"], -row["points"]))[: leaders.TOP]
+        data["boards"].append({
+            "key": "goal-share", "title": "Share of team goals", "unit": "Goals with a goal or assist", "kind": "player",
+            "entries": [
+                {"rank": index, "name": row["player"].name, "url": f"{row['player'].uid}.html" if row["player"].uid in player_slugs else "",
+                 "team": row["team"], "crest": crest_index(row["team"]), "initials": initials(row["team"]), **origin(row["info"]),
+                 "value": f"{row['share']}%", "detail": f"{row['points']} of {row['team_goals']} goals"}
+                for index, row in enumerate(rows, start=1)
+            ],
+        })
 
 
 def _attach_table_history(games_by_category, teams_by_category, crest_index, league_context) -> None:
