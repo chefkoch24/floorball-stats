@@ -313,6 +313,7 @@ home_pregame_points_after_third_period: 0
 home_pregame_points_against_classic: 0
 home_pregame_points_against_eraviikingit: 0
 home_pregame_points_against_fbc_loisto: 0
+home_pregame_points_against_koovee: 3
 home_pregame_points_against_northern_stars: 0
 home_pregame_points_against_ssra: 0
 home_pregame_points_max_difference_2: 0

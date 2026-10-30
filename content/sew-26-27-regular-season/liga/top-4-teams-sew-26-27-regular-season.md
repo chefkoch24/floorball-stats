@@ -97,8 +97,10 @@ powerplay_per_game: 1.21
 powerplay_second_period: 2.25
 powerplay_third_period: 3.0
 rank: 2.5
+record_type: top4_averages
 scoring_ratio: 2.82
 take_the_lead_goals: 7.5
 take_the_lead_goals_against: 4.0
+title: Top 4 Teams
 win_1: 1.0
 wins: 5.0
