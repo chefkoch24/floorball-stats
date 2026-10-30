@@ -10,6 +10,7 @@ Definitions (shown in the stat guides on the site):
 - Game-winning goal (GWG): the goal that gave the winner one more goal than the
   loser's final total. Games decided by penalty shots have none.
 - Go-ahead goal: a goal that broke a tie. Equalizer: a goal that tied the game.
+  Together they are game-changing goals: goals that changed who leads.
 - Clutch goal: a go-ahead goal or an equalizer in the last ten minutes of the
   third period or in overtime. Clutch points are clutch goals plus assists on them.
 - Duo: two players of one team who assisted each other's goals, counted in both
@@ -176,6 +177,10 @@ class ClutchLine:
     def clutch_points(self) -> int:
         return self.clutch_goals + self.clutch_assists
 
+    @property
+    def game_changing(self) -> int:
+        return self.go_ahead + self.equalizers
+
     def as_dict(self) -> dict:
         return {
             "goals": self.goals,
@@ -187,6 +192,8 @@ class ClutchLine:
             "clutch_goals": self.clutch_goals,
             "clutch_assists": self.clutch_assists,
             "clutch_points": self.clutch_points,
+            "game_changing": self.game_changing,
+            "game_changing_share": round(100 * self.game_changing / self.goals) if self.goals else None,
         }
 
 

@@ -159,6 +159,16 @@ def collect(generator) -> None:
     _attach_power(games_by_category, teams_by_category, current_season, league_context)
     _attach_table_history(games_by_category, teams_by_category, settings["JINJA_FILTERS"]["crest_index"], league_context)
     generator.context["LEAGUE_INSIGHTS"] = dict(league_context)
+    # Parameters and limits for the "How our stats work" page, so it always matches the code.
+    generator.context["INSIGHTS_MODEL"] = {
+        **pr.model_parameters(),
+        "simulations": SIMULATIONS,
+        "upset_threshold": UPSET_THRESHOLD,
+        "min_rated_games": MIN_RATED_GAMES,
+        "trend_days": TREND_DAYS,
+        "late_minute": pi.PERIOD_MINUTES * pi.REGULATION_PERIODS - pi.LATE_MINUTE_IN_PERIOD,
+        "round_gap_days": sh.ROUND_GAP_DAYS,
+    }
 
 
 def _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context) -> None:

@@ -296,6 +296,11 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-table tr.is-followed td { background: var(--rink-soft); }
 .fs-table tr.is-cut td { border-bottom: 2px solid var(--ball); }
 .fs-table tbody tr:hover td { background: var(--surface-sunken); }
+/* Power ranking on phones: one column set at a time (data-power-view on the table wrap). */
+@media (width < 40rem) {
+  [data-power-view="ratings"] [data-col="proj"],
+  [data-power-view="projections"] [data-col="rating"] { display: none; }
+}
 
 /* League card: one league in the league menu */
 .fs-league-card {

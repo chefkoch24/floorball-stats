@@ -91,6 +91,9 @@ def test_build_insights_aggregates_scopes_duos_and_partners():
     )
     anna = insights.clutch["se-26-27"]["player-anna"]
     assert (anna.goals, anna.assists, anna.gwg) == (2, 1, 0)
+    # Anna's first goal broke the 0:0 tie, her second was a third goal: one of two goals changed the game.
+    assert anna.as_dict()["game_changing"] == 1
+    assert anna.as_dict()["game_changing_share"] == 50
     assert insights.clutch["all"]["player-anna"].goals == 4
     assert insights.clutch["se-26-27"]["player-cara"].gwg == 1
 

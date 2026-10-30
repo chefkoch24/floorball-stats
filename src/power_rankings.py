@@ -88,6 +88,40 @@ def _margin_multiplier(goal_diff: int, winner_rating_diff: float) -> float:
     return math.log(abs(goal_diff) + 1) * (2.2 / (winner_rating_diff * 0.001 + 2.2))
 
 
+def elo_example(home_rating: float = 1600.0, away_rating: float = 1500.0, home_goals: int = 5, away_goals: int = 3) -> dict:
+    """One rating update with the live parameters, for the explanation page."""
+    expected = win_probability(home_rating, away_rating)
+    multiplier = _margin_multiplier(home_goals - away_goals, home_rating + HOME_ADVANTAGE - away_rating)
+    change = K_FACTOR * multiplier * (1.0 - expected)
+    return {
+        "home_rating": round(home_rating),
+        "away_rating": round(away_rating),
+        "home_goals": home_goals,
+        "away_goals": away_goals,
+        "expected": expected,
+        "multiplier": multiplier,
+        "change": change,
+        # The same favourite winning only after overtime, by one goal.
+        "extra_time_change": K_FACTOR
+        * _margin_multiplier(1, home_rating + HOME_ADVANTAGE - away_rating)
+        * (EXTRA_TIME_SCORE - expected),
+    }
+
+
+def model_parameters() -> dict:
+    return {
+        "base": round(BASE_RATING),
+        "newcomer": round(NEWCOMER_RATING),
+        "regression": SEASON_REGRESSION,
+        "home_advantage": round(HOME_ADVANTAGE),
+        "k_factor": round(K_FACTOR),
+        "extra_time_score": EXTRA_TIME_SCORE,
+        "uncertainty": round(RATING_UNCERTAINTY),
+        "neutral_100": win_probability(BASE_RATING + 100, BASE_RATING, 0.0),
+        "example": elo_example(),
+    }
+
+
 @dataclass
 class EloRun:
     ratings: dict[str, float] = field(default_factory=dict)

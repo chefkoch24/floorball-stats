@@ -5,6 +5,10 @@
 {%- if player.url %}<a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ player.url }}">{{ player.name }}</a>{% else %}<span class="font-semibold text-ink [overflow-wrap:anywhere]">{{ player.name }}</span>{% endif -%}
 {%- endmacro %}
 
+{% macro explain(anchor, label='How it works') -%}
+<a class="whitespace-nowrap" href="{{ SITEURL }}/stats-explained.html#{{ anchor }}">{{ label }}</a>
+{%- endmacro %}
+
 {% macro signed(value) -%}
 {%- if value is none %}–{% elif value > 0 %}+{{ value }}{% elif value < 0 %}−{{ -value }}{% else %}0{% endif -%}
 {%- endmacro %}
@@ -31,7 +35,7 @@
         <span class="h-full bg-rink" style="width: {{ (wp.home * 100)|round(1) }}%"></span>
         <span class="h-full bg-line-strong" style="width: {{ (wp.away * 100)|round(1) }}%"></span>
     </div>
-    <p class="m-0 text-xs text-ink-muted">Chance to win the game, overtime and penalty shots included, from the Elo power ratings {% if wp.played %}before the game{% else %}today{% endif %} ({{ home }} {{ wp.home_rating }}, {{ away }} {{ wp.away_rating }}) with home advantage.</p>
+    <p class="m-0 text-xs text-ink-muted">Chance to win the game, overtime and penalty shots included, from the Elo power ratings {% if wp.played %}before the game{% else %}today{% endif %} ({{ home }} {{ wp.home_rating }}, {{ away }} {{ wp.away_rating }}) with home advantage. {{ explain('win-probability') }}</p>
 </section>
 {% endif %}
 {% endmacro %}
@@ -55,7 +59,7 @@
         </li>
         {% endfor %}
     </ol>
-    <p class="m-0 text-xs text-ink-muted">Goals that tied the game or gave the lead in the last ten minutes or overtime, plus assists on them. GWG: game-winning goals.</p>
+    <p class="m-0 text-xs text-ink-muted">Goals that tied the game or gave the lead in the last ten minutes of regulation or in overtime, plus assists on them. GWG: game-winning goals. {{ explain('clutch', "How it's counted") }}</p>
 </section>
 {% endif %}
 {% endmacro %}
@@ -78,36 +82,48 @@
         </li>
         {% endfor %}
     </ol>
-    <p class="m-0 text-xs text-ink-muted">Goals one player scored from the other's pass, both directions. Arrows read passer → scorer.</p>
+    <p class="m-0 text-xs text-ink-muted">Goals one player scored from the other's pass, both directions. Arrows read passer → scorer. {{ explain('duos') }}</p>
 </section>
 {% endif %}
 {% endmacro %}
 
 {% macro power_ranking(power, category_slug) %}
 {% if power and power.rows %}
+{# Phones show two numbers per view: the odds that matter most for this league. #}
+{% set phone_proj = 'max-sm:hidden' if power.has_title else '' %}
+{% set phone_top4 = '' if not power.places and not power.has_title else 'max-sm:hidden' %}
 <section id="power-ranking" class="mt-12 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="power-title">
-    <div class="grid gap-1">
-        <h2 id="power-title" class="fs-section-title">Power ranking</h2>
-        <p class="m-0 text-sm text-ink-muted">
-            Teams ordered by Elo rating, the strength behind the results.
-            {% if power.simulated %}Projections come from {{ '{:,}'.format(power.simulations) }} simulations of the {{ power.remaining }} remaining games{% if power.has_title %} and the playoffs{% endif %}.{% elif power.playoffs_started %}The playoffs are on, so the season projection is closed.{% endif %}
-        </p>
+    <div class="flex flex-wrap items-end justify-between gap-3">
+        <div class="grid gap-1">
+            <h2 id="power-title" class="fs-section-title">Power ranking</h2>
+            <p class="m-0 text-sm text-ink-muted">
+                Teams ordered by Elo rating, the strength behind the results.
+                {% if power.simulated %}Projections come from {{ '{:,}'.format(power.simulations) }} simulations of the {{ power.remaining }} remaining games{% if power.has_title %} and the playoffs{% endif %}.{% elif power.playoffs_started %}The playoffs are on, so the season projection is closed.{% endif %}
+                {{ explain('power-ranking') }}
+            </p>
+        </div>
+        {% if power.simulated %}
+        <div class="fs-segmented sm:hidden" role="group" aria-label="Power ranking columns" data-power-views>
+            <button type="button" class="fs-segment" aria-pressed="true" data-view="ratings">Ratings</button>
+            <button type="button" class="fs-segment" aria-pressed="false" data-view="projections">Projections</button>
+        </div>
+        {% endif %}
     </div>
-    <div class="fs-table-wrap">
+    <div class="fs-table-wrap" data-power-table data-power-view="ratings">
         <table class="fs-table">
             <thead>
             <tr>
                 <th scope="col">#</th>
                 <th scope="col" class="fs-table__team">Team</th>
-                <th scope="col" title="Elo rating; 1500 is an average team">Rating</th>
-                <th scope="col" class="max-sm:hidden" title="Rating change over the last seven days">7 days</th>
-                <th scope="col" class="max-sm:hidden" title="Place in the standings">Table</th>
+                <th scope="col" data-col="rating" title="Elo rating; 1500 is an average team">Rating</th>
+                <th scope="col" data-col="rating" title="Rating change over the last seven days">7 days</th>
+                <th scope="col" data-col="rating" class="max-sm:hidden" title="Place in the standings">Table</th>
                 {% if power.simulated %}
-                <th scope="col" class="max-sm:hidden" title="Average final points in the simulations">Proj. pts</th>
-                <th scope="col" class="max-sm:hidden" title="Chance to finish first">1st</th>
-                <th scope="col" class="max-sm:hidden" title="Chance to finish in the top four">Top 4</th>
-                {% if power.places %}<th scope="col" title="Chance to finish in the top {{ power.places }}">Playoffs</th>{% endif %}
-                {% if power.has_title %}<th scope="col" title="Chance to win the playoffs">Title</th>{% endif %}
+                <th scope="col" data-col="proj" class="{{ phone_proj }}" title="Average final points in the simulations">Proj. pts</th>
+                <th scope="col" data-col="proj" class="max-sm:hidden" title="Chance to finish first">1st</th>
+                <th scope="col" data-col="proj" class="{{ phone_top4 }}" title="Chance to finish in the top four">Top 4</th>
+                {% if power.places %}<th scope="col" data-col="proj" title="Chance to finish in the top {{ power.places }}">Playoffs</th>{% endif %}
+                {% if power.has_title %}<th scope="col" data-col="proj" title="Chance to win the playoffs">Title</th>{% endif %}
                 {% endif %}
             </tr>
             </thead>
@@ -116,15 +132,15 @@
             <tr>
                 <td>{{ row.power_rank }}{% if row.rank_change %} <span class="text-xs {{ 'text-win' if row.rank_change > 0 else 'text-loss' }}" title="Places since seven days ago">{{ signed(row.rank_change) }}</span>{% endif %}</td>
                 <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
-                <td class="fs-table__pts">{{ row.rating }}</td>
-                <td class="max-sm:hidden">{{ signed(row.trend) }}</td>
-                <td class="max-sm:hidden">{{ row.table_rank or '–' }}</td>
+                <td class="fs-table__pts" data-col="rating">{{ row.rating }}</td>
+                <td data-col="rating">{{ signed(row.trend) }}</td>
+                <td data-col="rating" class="max-sm:hidden">{{ row.table_rank or '–' }}</td>
                 {% if power.simulated %}
-                <td class="max-sm:hidden">{{ row.projected_points if row.projected_points is not none else '–' }}</td>
-                <td class="max-sm:hidden">{{ row.first }}</td>
-                <td class="max-sm:hidden">{{ row.top4 }}</td>
-                {% if power.places %}<td>{{ row.playoffs }}</td>{% endif %}
-                {% if power.has_title %}<td>{{ row.title }}</td>{% endif %}
+                <td data-col="proj" class="{{ phone_proj }}">{{ row.projected_points if row.projected_points is not none else '–' }}</td>
+                <td data-col="proj" class="max-sm:hidden">{{ row.first }}</td>
+                <td data-col="proj" class="{{ phone_top4 }}">{{ row.top4 }}</td>
+                {% if power.places %}<td data-col="proj">{{ row.playoffs }}</td>{% endif %}
+                {% if power.has_title %}<td data-col="proj">{{ row.title }}</td>{% endif %}
                 {% endif %}
             </tr>
             {% endfor %}
@@ -147,16 +163,28 @@
     <details class="rounded-md border border-line bg-surface-raised px-4 py-3 text-sm text-ink-muted">
         <summary class="cursor-pointer font-semibold text-ink">How the power ranking works</summary>
         <ul class="mt-2 grid gap-1 pl-4">
-            <li><strong class="text-ink">Rating</strong> is an Elo rating: every game moves points from the loser to the winner, more for a surprise and for a big margin, less for a win after overtime or penalty shots. 1500 is an average team, the home team gets a bonus of 45 points.</li>
-            <li>Ratings carry over between seasons and move a quarter of the way back to 1500 in summer. Newly promoted teams start at 1450.</li>
+            <li><strong class="text-ink">Rating</strong> is an Elo rating: every game moves points from the loser to the winner, more for a surprise and for a big margin, less for a win after overtime or penalty shots. 1500 is an average team.</li>
             <li><strong class="text-ink">7 days</strong> is the rating change over the last week of games, the small number next to the place the change in the ranking.</li>
             {% if power.simulated %}
-            <li><strong class="text-ink">Proj. pts, 1st, Top 4{% if power.places %}, Playoffs{% endif %}{% if power.has_title %}, Title{% endif %}</strong> come from playing the rest of the season {{ '{:,}'.format(power.simulations) }} times with these ratings plus some uncertainty about each team's true strength{% if power.has_title %}, then the playoff bracket with the best seed against the worst remaining one in every round{% endif %}.</li>
+            <li><strong class="text-ink">Proj. pts, 1st, Top 4{% if power.places %}, Playoffs{% endif %}{% if power.has_title %}, Title{% endif %}</strong> come from playing the rest of the season {{ '{:,}'.format(power.simulations) }} times{% if power.has_title %}, then the playoffs{% endif %}.</li>
             {% endif %}
-            <li>Tested on the 25-26 and 26-27 games of all leagues: teams given a 70 to 80% chance won 74% of those games.</li>
         </ul>
+        <p class="m-0 mt-2">{{ explain('power-ranking', 'Full explanation with an example') }}</p>
     </details>
 </section>
+<script>
+(() => {
+  // Phones show one column set at a time: ratings or projections.
+  const views = document.querySelector('[data-power-views]');
+  const table = document.querySelector('[data-power-table]');
+  if (!views || !table) return;
+  const buttons = Array.from(views.querySelectorAll('[data-view]'));
+  buttons.forEach((button) => button.addEventListener('click', () => {
+    buttons.forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+    table.dataset.powerView = button.dataset.view;
+  }));
+})();
+</script>
 {% endif %}
 {% endmacro %}
 
@@ -165,7 +193,7 @@
 <section class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="team-power-title">
     <div class="flex items-baseline justify-between gap-3">
         <h2 id="team-power-title" class="fs-panel-title">Power rating</h2>
-        <a class="text-sm" href="{{ SITEURL }}/{{ league_url }}#power-ranking">Power ranking</a>
+        <span class="flex gap-3 text-sm"><a href="{{ SITEURL }}/{{ league_url }}#power-ranking">Ranking</a>{{ explain('power-ranking') }}</span>
     </div>
     <dl class="m-0 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
         <div class="grid"><dt class="fs-label">Rating</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ power.rating }} <span class="text-sm font-medium text-ink-muted">{{ signed(power.trend) }}</span></dd></div>
@@ -194,16 +222,17 @@
 <section class="mt-8 grid gap-4" aria-labelledby="player-clutch-title">
     <div class="grid gap-1">
         <h2 id="player-clutch-title" class="fs-section-title">Clutch and partners</h2>
-        <p class="m-0 text-sm text-ink-muted">{% if clutch.season_line %}This season{% else %}All tracked games{% endif %}. A clutch goal ties the game or gives the lead in the last ten minutes or in overtime.</p>
+        <p class="m-0 text-sm text-ink-muted">{% if clutch.season_line %}This season{% else %}All tracked games{% endif %}. Game-changing goals tied the game or gave the lead; clutch means they came in the last ten minutes or in overtime. {{ explain('clutch', "How it's counted") }}</p>
     </div>
-    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-        <div class="fs-stat"><span class="fs-stat__label">Clutch points</span><span class="fs-stat__value">{{ line.clutch_points }}</span><span class="fs-stat__context"><b>{{ line.clutch_goals }}</b> goals, <b>{{ line.clutch_assists }}</b> assists</span></div>
-        <div class="fs-stat"><span class="fs-stat__label">Game winners</span><span class="fs-stat__value">{{ line.gwg }}</span><span class="fs-stat__context">GWG</span></div>
-        <div class="fs-stat"><span class="fs-stat__label">Go-ahead goals</span><span class="fs-stat__value">{{ line.go_ahead }}</span><span class="fs-stat__context">broke a tie</span></div>
-        <div class="fs-stat"><span class="fs-stat__label">Equalizers</span><span class="fs-stat__value">{{ line.equalizers }}</span><span class="fs-stat__context">tied the game</span></div>
-        <div class="fs-stat"><span class="fs-stat__label">Overtime goals</span><span class="fs-stat__value">{{ line.overtime_goals }}</span><span class="fs-stat__context">OT</span></div>
-        {% if clutch.season_line %}<div class="fs-stat"><span class="fs-stat__label">All tracked games</span><span class="fs-stat__value">{{ clutch.all.clutch_points }}</span><span class="fs-stat__context">clutch pts, <b>{{ clutch.all.gwg }}</b> GWG</span></div>{% endif %}
+    <div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <div class="fs-stat"><span class="fs-stat__label">Game-changing goals</span><span class="fs-stat__value">{{ line.game_changing }}</span><span class="fs-stat__context"><b>{{ line.equalizers }}</b> tying · <b>{{ line.go_ahead }}</b> go-ahead{% if line.game_changing_share is not none %} · {{ line.game_changing_share }}% of goals{% endif %}</span></div>
+        <div class="fs-stat"><span class="fs-stat__label">Clutch points</span><span class="fs-stat__value">{{ line.clutch_points }}</span><span class="fs-stat__context"><b>{{ line.clutch_goals }}</b> goals · <b>{{ line.clutch_assists }}</b> assists</span></div>
+        <div class="fs-stat"><span class="fs-stat__label">Game winners</span><span class="fs-stat__value">{{ line.gwg }}</span><span class="fs-stat__context">decided the game</span></div>
+        <div class="fs-stat"><span class="fs-stat__label">Overtime goals</span><span class="fs-stat__value">{{ line.overtime_goals }}</span><span class="fs-stat__context">all count as clutch</span></div>
     </div>
+    {% if clutch.season_line and clutch.all.goals != line.goals %}
+    <p class="m-0 text-sm text-ink-muted">All tracked games since 25/26: <b class="text-ink">{{ clutch.all.game_changing }}</b> game-changing goals, <b class="text-ink">{{ clutch.all.clutch_points }}</b> clutch points, <b class="text-ink">{{ clutch.all.gwg }}</b> game winners.</p>
+    {% endif %}
     {% if partners %}
     <div class="grid gap-3 rounded-lg border border-line bg-surface-raised p-4">
         <div class="flex items-baseline justify-between gap-3">
@@ -253,7 +282,7 @@
         {% for tick in chart.ticks %}<span style="left: {{ tick.left }}%">{{ tick.label }}</span>{% endfor %}
     </div>
 </div>
-<p class="m-0 text-xs text-ink-muted">Place in the table after each round (game weekend, latest {{ chart.last_day.strftime('%a %-d %b') }}). Ties during the season are broken by goal difference, then goals; the latest round shows the official table.</p>
+<p class="m-0 text-xs text-ink-muted">Place in the table after each round (game weekend, latest {{ chart.last_day.strftime('%a %-d %b') }}). Ties during the season are broken by goal difference, then goals; the latest round shows the official table. {{ explain('table-history') }}</p>
 {% endif %}
 {% endmacro %}
 
