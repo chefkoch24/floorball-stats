@@ -24,7 +24,8 @@ def build(pelican) -> None:
     settings = pelican.settings
     if not settings.get("CONNECT_PREVIEW"):
         return
-    output = os.path.join(settings["OUTPUT_PATH"], PREVIEW_DIR)
+    # Absolute: the build below runs in connect/, and Netlify passes a relative output path.
+    output = os.path.abspath(os.path.join(settings["OUTPUT_PATH"], PREVIEW_DIR))
     env = {
         **os.environ,
         "CONNECT_SITEURL": f"{settings['SITEURL'].rstrip('/')}/{PREVIEW_DIR}",
