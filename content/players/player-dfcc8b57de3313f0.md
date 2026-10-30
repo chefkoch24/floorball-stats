@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-30
 Title: Självmål
 Category: players
 Slug: player-dfcc8b57de3313f0
@@ -7,10 +7,10 @@ player: Självmål
 player_uid: player-dfcc8b57de3313f0
 team: Jönköpings IK / Pixbo IBK
 league: Sweden
-season_count: 2
+season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
-previous_season: se-25-26
+previous_season: sew-26-27
 current_games: 3
 current_goals: 3
 current_assists: 0
@@ -26,23 +26,23 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 17
-previous_goals: 17
+previous_games: 2
+previous_goals: 2
 previous_assists: 0
-previous_points: 17
+previous_points: 2
 previous_pim: 0
-career_games: 20
-career_goals: 20
+career_games: 22
+career_goals: 22
 career_assists: 0
-career_points: 20
+career_points: 22
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK / Pixbo IBK|3|3|0|3|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|IBK Lund Elit / KAIS Mora IF|2|2|0|2|0||se-26-27|regular-season|Sweden|Jönköpings IK / Pixbo IBK|3|3|0|3|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
 assists: 0
-games: 3
-goals: 3
+games: 2
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 115
-season: se-26-27
+points: 2
+rank: 109
+season: sew-26-27

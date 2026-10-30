@@ -88,6 +88,7 @@ if (window.Chart) {
             <span class="brand-title">{{ SITENAME }}</span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+        <a class="header-link" href="{{ SITEURL }}/leaders.html">Leaders</a>
         <div class="header-actions">
             <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
             <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
@@ -100,10 +101,13 @@ if (window.Chart) {
             {% if slug in available %}<a class="nav-league__link" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="nav-league__link is-disabled">{{ label }}</span>{% endif %}
         {%- endmacro %}
         <div class="main-nav__inner">
-            <div class="nav-division-switch" role="group" aria-label="Show men's or women's leagues">
-                {% for division, division_label in DIVISIONS %}
-                <button class="nav-division-option" type="button" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
-                {% endfor %}
+            <div class="nav-menu-top">
+                <div class="nav-division-switch" role="group" aria-label="Show men's or women's leagues">
+                    {% for division, division_label in DIVISIONS %}
+                    <button class="nav-division-option" type="button" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
+                    {% endfor %}
+                </div>
+                <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
             </div>
             <div class="nav-league-grid">
                 {% for league in LEAGUES %}

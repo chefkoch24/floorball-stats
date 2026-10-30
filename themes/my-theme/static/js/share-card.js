@@ -486,7 +486,50 @@
     return { header: { chip: `${data.country} · ${data.season}` }, blocks, footer: 'Full table and form' };
   }
 
-  const CARDS = { game: gameCard, team: teamCard, player: playerCard, table: tableCard };
+  function leaderboardCard(p, data, format) {
+    const { c, f } = p;
+    const story = format === 'story';
+    const titleSize = story ? 112 : 88;
+    const rows = data.rows;
+    const titleH = 34 + 12 + Math.round(titleSize * 0.92);
+    const headerH = 30 + 12;
+    const available = (f.h - f.bottom - 40 - f.gap) - (f.top + 50 + f.gap) - titleH - f.gap - headerH;
+    const rowH = Math.max(56, Math.min(story ? 104 : 80, Math.floor(available / Math.max(rows.length, 1))));
+    const crestD = Math.round(Math.min(64, rowH * 0.62));
+    const valueW = 200;
+    const nameX = p.left + 64 + crestD + 20;
+    const nameW = p.right - valueW - 24 - nameX;
+    const blocks = [];
+    blocks.push({ h: titleH, draw: (y) => {
+      p.label(`All leagues \u00b7 Regular season ${data.season}`, p.left, y);
+      const title = p.fit(data.title, p.width, titleSize, 56, 800, DISPLAY, 'condensed', 1);
+      p.text(title.lines[0], p.left, y + 46, { weight: 800, size: title.size, family: DISPLAY, stretch: 'condensed', baseline: 'top' });
+    } });
+    blocks.push({ h: headerH + rows.length * rowH, draw: (y) => {
+      const head = { weight: 600, size: 22, color: c.muted, baseline: 'top' };
+      p.text('#', p.left, y, head);
+      p.text(data.audience === 'player' ? 'PLAYER' : 'TEAM', nameX, y, head);
+      p.text(String(data.unit).toUpperCase(), p.right, y, { ...head, align: 'right' });
+      let rowY = y + headerH;
+      rows.forEach((row) => {
+        p.hline(rowY);
+        const mid = rowY + rowH / 2 + 1;
+        p.text(row.rank, p.left, mid, { weight: 700, size: story ? 32 : 28, family: DISPLAY, color: c.muted });
+        p.crest(p.left + 64 + crestD / 2, mid, crestD, row.crest, row.initials);
+        const nameSize = story ? 36 : 30;
+        const name = p.fit(row.name, nameW, nameSize, 22, 600, BODY, 'normal', 1);
+        const sub = `${data.audience === 'player' ? row.team + ' \u00b7 ' : ''}${row.league}${row.code ? ' \u00b7 ' + row.code : ''}`;
+        const subFit = p.fit(sub, nameW, story ? 24 : 20, 16, 500, BODY, 'normal', 1);
+        p.text(name.lines[0], nameX, mid - subFit.size * 0.62, { weight: 600, size: name.size });
+        p.text(subFit.lines[0], nameX, mid + name.size * 0.55, { weight: 500, size: subFit.size, color: c.muted });
+        p.text(row.value, p.right, mid, { weight: 800, size: story ? 48 : 40, family: DISPLAY, align: 'right' });
+        rowY += rowH;
+      });
+    } });
+    return { header: { chip: `${data.division} \u00b7 ${data.season}` }, blocks, footer: 'Leaders across all leagues' };
+  }
+
+  const CARDS = { game: gameCard, team: teamCard, player: playerCard, table: tableCard, leaderboard: leaderboardCard };
 
   function render(data, format, theme) {
     const canvas = document.createElement('canvas');

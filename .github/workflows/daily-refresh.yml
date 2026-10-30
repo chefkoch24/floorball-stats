@@ -20,17 +20,22 @@ jobs:
     timeout-minutes: 90
 
     steps:
+      # Scheduled runs often start hours late, so the gate must not look at the clock.
+      # It keeps the one cron that means 23:00 in Berlin under the current offset:
+      # "0 21" in summer time (+0200), "0 22" in winter time (+0100).
       - name: Check Berlin time gate (23:00)
         id: berlin_gate
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
-          BERLIN_HOUR="$(TZ=Europe/Berlin date +%H)"
-          BERLIN_DATE="$(TZ=Europe/Berlin date +%Y-%m-%d)"
-          echo "Berlin date: ${BERLIN_DATE}, hour: ${BERLIN_HOUR}"
-          if [ "${BERLIN_HOUR}" = "23" ]; then
+          BERLIN_OFFSET="$(TZ=Europe/Berlin date +%z)"
+          echo "Schedule: ${SCHEDULE:-manual}, Berlin offset: ${BERLIN_OFFSET}, Berlin time: $(TZ=Europe/Berlin date '+%Y-%m-%d %H:%M')"
+          if { [ "${SCHEDULE}" = "0 21 * * *" ] && [ "${BERLIN_OFFSET}" = "+0200" ]; } || \
+             { [ "${SCHEDULE}" = "0 22 * * *" ] && [ "${BERLIN_OFFSET}" = "+0100" ]; }; then
             echo "run_refresh=true" >> "$GITHUB_OUTPUT"
           else
             echo "run_refresh=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: not 23:00 in Europe/Berlin."
+            echo "Skipping: this cron is the 23:00 Berlin run only in the other half of the year."
           fi
 
       - name: Checkout

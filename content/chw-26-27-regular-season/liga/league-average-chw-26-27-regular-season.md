@@ -97,8 +97,10 @@ powerplay_per_game: 1.28
 powerplay_second_period: 2.0
 powerplay_third_period: 2.9
 rank: 5.5
+record_type: league_averages
 scoring_ratio: 1.47
 take_the_lead_goals: 5.0
 take_the_lead_goals_against: 5.0
+title: League Average
 win_1: 0.9
 wins: 2.2

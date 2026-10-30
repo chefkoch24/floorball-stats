@@ -97,8 +97,10 @@ powerplay_per_game: 1.35
 powerplay_second_period: 2.25
 powerplay_third_period: 3.12
 rank: 4.5
+record_type: playoff_averages
 scoring_ratio: 1.75
 take_the_lead_goals: 5.62
 take_the_lead_goals_against: 4.75
+title: Playoffs
 win_1: 1.12
 wins: 2.62

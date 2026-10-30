@@ -1,4 +1,4 @@
-Date: 2026-10-11
+Date: 2026-10-29
 Title: NND/RJTC
 Category: lvw-26-27-regular-season, teams
 Slug: nnd-rjtc-lvw-26-27-regular-season-lvw-26-27-regular-season

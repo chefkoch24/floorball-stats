@@ -310,7 +310,7 @@ home_pregame_points_after_first_period: 3
 home_pregame_points_after_first_period_per_game: 1.5
 home_pregame_points_after_second_period: 3
 home_pregame_points_after_third_period: 3
-home_pregame_points_against_lekrings_cpss: 3
+home_pregame_points_against_lekrings_cpss: 6
 home_pregame_points_against_nnd_rjtc: 0
 home_pregame_points_against_sparta: 6
 home_pregame_points_max_difference_2: 0

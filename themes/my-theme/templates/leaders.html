@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% set season_label = CURRENT_SEASON|replace('-', '/') %}
+{% set seo_title = 'Floorball Leaders ' ~ season_label ~ ': Points, Goals and Penalty Minutes Across Leagues | ' ~ SITENAME %}
+{% set seo_description = 'Top scorers, assist leaders, penalty minutes, power play and box play rankings across all European floorball leagues, plus a per-game league comparison on ' ~ SITENAME ~ ', men and women.' %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = 'leaders.html' %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">Leaders</span>
+</nav>
+{% endblock %}
+
+{% block content %}
+{% macro country(code, name) %}<abbr class="rounded-sm border border-line px-1 text-[10px] font-semibold tracking-wide text-ink-muted no-underline" title="{{ name }}">{{ code }}</abbr>{% endmacro %}
+
+{% macro board_card(board, division, division_label) %}
+{% set source_id = 'board-' ~ division ~ '-' ~ board.key %}
+<section class="grid content-start gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="{{ source_id }}-title">
+    <div class="flex items-start justify-between gap-3">
+        <div class="grid gap-1">
+            <h3 id="{{ source_id }}-title" class="fs-panel-title">{{ board.title }}</h3>
+            <span class="fs-label">{{ board.unit }} · {{ 'Players' if board.kind == 'player' else 'Teams' }}</span>
+        </div>
+        {% if board.entries %}
+        <script type="application/json" id="{{ source_id }}">{{ {
+            'kind': 'leaderboard',
+            'slug': 'leaders-' ~ division ~ '-' ~ board.key,
+            'title': board.title,
+            'unit': board.unit,
+            'audience': board.kind,
+            'division': division_label,
+            'season': season_label,
+            'rows': board.entries
+        }|tojson }}</script>
+        <button type="button" class="fs-btn" data-share-card data-share-source="{{ source_id }}">Share</button>
+        {% endif %}
+    </div>
+    {% if board.entries %}
+    <ol class="m-0 grid list-none p-0">
+        {% for entry in board.entries %}
+        <li class="grid grid-cols-[1.75em_28px_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+            <span class="font-display text-sm text-ink-muted tabular-nums">{{ entry.rank }}</span>
+            <span class="fs-crest" data-crest="{{ entry.crest }}" aria-hidden="true">{{ entry.initials }}</span>
+            <span class="grid min-w-0">
+                <a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ entry.url }}">{{ entry.name }}</a>
+                <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{% if board.kind == 'player' %}{% set team_page = TEAM_PAGES.get((entry.team_page[0], entry.team_page[1])) if TEAM_PAGES and entry.team_page else '' %}{% if team_page %}<a class="text-ink-muted hover:text-rink" href="{{ SITEURL }}/{{ team_page }}">{{ entry.team }}</a>{% else %}{{ entry.team }}{% endif %} · {% endif %}{{ entry.league }} {{ country(entry.code, entry.country) }} · {{ entry.detail }}</span>
+            </span>
+            <span class="text-right font-display text-lg font-extrabold text-ink tabular-nums">{{ entry.value }}</span>
+        </li>
+        {% endfor %}
+    </ol>
+    {% else %}
+    <p class="m-0 text-sm text-ink-muted">No data for this season yet.</p>
+    {% endif %}
+</section>
+{% endmacro %}
+
+<header class="mb-8 grid gap-5">
+    <div class="flex flex-wrap items-center gap-2">
+        <span class="fs-chip">All leagues</span>
+        <span class="fs-chip">Regular season <strong>{{ season_label }}</strong></span>
+    </div>
+    <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
+        <div class="grid gap-2">
+            <h1 class="m-0 font-display text-[48px] leading-none font-extrabold text-ink [font-stretch:75%] sm:text-[64px]">Leaders</h1>
+            <p class="m-0 max-w-[60ch] text-ink-muted">Who leads Europe's top floorball leagues: scoring, discipline and special teams, compared across every league we cover.</p>
+        </div>
+        {# Same data-division-option buttons as the league menu, so both stay in sync. #}
+        <div class="fs-segmented" role="group" aria-label="Show men's or women's leaders">
+            {% for division, division_label in DIVISIONS %}
+            <button type="button" class="fs-segment" data-division-option="{{ division }}" aria-pressed="false">{{ division_label }}</button>
+            {% endfor %}
+        </div>
+    </div>
+</header>
+
+{% for division, division_label in DIVISIONS %}
+{% set data = LEADERBOARDS[division] %}
+<div class="grid gap-10" data-division="{{ division }}">
+    {% set comparison = data.comparison %}
+    {% if comparison.leagues %}
+    <section class="grid gap-4" aria-labelledby="{{ division }}-leagues-title">
+        <div class="grid gap-1">
+            <h2 id="{{ division }}-leagues-title" class="fs-section-title">Leagues compared</h2>
+            <p class="m-0 text-sm text-ink-muted">Per game of the league, both teams together. Highest value per column in blue.</p>
+        </div>
+        <div class="fs-table-wrap">
+            <table class="fs-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Country</th>
+                        <th scope="col" class="fs-table__team">League</th>
+                        <th scope="col"><abbr class="no-underline" title="Games played">GP</abbr></th>
+                        {% for column in comparison.columns %}
+                        <th scope="col"><abbr class="no-underline" title="{{ column.title }}">{{ column.unit }}</abbr></th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in comparison.leagues %}
+                    <tr>
+                        <td>{{ country(item.code, item.country) }}</td>
+                        <td class="fs-table__team font-semibold text-ink">{{ item.league }}</td>
+                        <td>{{ item.games }}</td>
+                        {% for column in comparison.columns %}
+                        {% set value = item['values'][column.key] %}
+                        <td{% if value is not none and value == column.max and comparison.leagues|length > 1 %} class="font-extrabold text-rink"{% endif %}>{{ item.display[column.key] }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+    {% for group, group_label, per_game in [('player', 'Players', false), ('player', 'Players per game', true), ('team', 'Teams', none)] %}
+    {% set boards = [] %}
+    {% for board in data.boards if board.kind == group and (per_game is none or board.key.endswith('-per-game') == per_game) %}{% set _ = boards.append(board) %}{% endfor %}
+    <section class="grid gap-4" aria-labelledby="{{ division }}-{{ loop.index }}-title">
+        <div class="grid gap-1">
+            <h2 id="{{ division }}-{{ loop.index }}-title" class="fs-section-title">{{ group_label }}</h2>
+            {% if per_game %}<p class="m-0 text-sm text-ink-muted">Normalised per game, so leagues with fewer rounds compete fairly. At least 3 games played.</p>{% endif %}
+            {% if group == 'team' %}<p class="m-0 text-sm text-ink-muted">Power play and box play need at least 5 chances.</p>{% endif %}
+        </div>
+        <div class="grid gap-4 md:grid-cols-2 {{ 'xl:grid-cols-4' if boards|length == 4 else 'xl:grid-cols-3' }}">
+            {% for board in boards %}
+            {{ board_card(board, division, division_label) }}
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+{% endfor %}
+{% endblock content %}
