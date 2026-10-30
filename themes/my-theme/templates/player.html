@@ -7,7 +7,7 @@
     </div>
     <div class="chip-row">
         {% if article.current_season %}<span class="chip">Current Season: {{ article.current_season }}</span>{% endif %}
-        {% if article.team %}<span class="chip">Team: {{ article.team }}</span>{% endif %}
+        {% if article.team %}{% if article.team_page_url %}<a class="chip" href="{{ SITEURL }}/{{ article.team_page_url }}">Team: {{ article.team }} →</a>{% else %}<span class="chip">Team: {{ article.team }}</span>{% endif %}{% endif %}
         {% if article.league %}<span class="chip">League: {{ article.league }}</span>{% endif %}
         {% if article.season_count %}<span class="chip">Seasons: {{ article.season_count }}</span>{% endif %}
         {% if article.position %}<span class="chip">Position: {{ article.position }}</span>{% endif %}
@@ -123,7 +123,8 @@
                         {% endif %}
                         <td>{{ cols[1]|replace('-', ' ')|title }}</td>
                         <td>{{ cols[2] }}</td>
-                        <td>{{ cols[3] }}</td>
+                        {% set history_team_url = article.history_team_urls[loop.index0] if article.history_team_urls and loop.index0 < article.history_team_urls|length else '' %}
+                        <td>{% if history_team_url %}<a href="{{ SITEURL }}/{{ history_team_url }}">{{ cols[3] }}</a>{% else %}{{ cols[3] }}{% endif %}</td>
                         <td>{{ cols[4] }}</td>
                         <td>{{ cols[5] }}</td>
                         <td>{{ cols[6] }}</td>

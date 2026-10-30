@@ -82,6 +82,43 @@
     <article class="kpi"><p class="kpi-label">Boxplay %</p><p class="kpi-value">{{ article.boxplay_efficiency|default('–') }}</p></article>
 </section>
 
+{% if article.roster %}
+<section class="panel" id="roster">
+    <h2 class="panel-title">Players</h2>
+    <p class="m-0 mb-3 text-sm text-ink-muted">{{ article.roster|length }} players with stats this {{ 'playoff run' if 'playoff' in article.category.shortname else 'season' }}, sorted by points.</p>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th><abbr title="Games played">GP</abbr></th>
+                <th><abbr title="Goals">G</abbr></th>
+                <th><abbr title="Assists">A</abbr></th>
+                <th><abbr title="Points">P</abbr></th>
+                <th><abbr title="Penalty minutes">PIM</abbr></th>
+                <th><abbr title="Points per game">P/GP</abbr></th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for player in article.roster %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{% if player.url %}<a href="{{ SITEURL }}/{{ player.url }}">{{ player.name }}</a>{% else %}{{ player.name }}{% endif %}</td>
+                <td>{{ player.games }}</td>
+                <td>{{ player.goals }}</td>
+                <td>{{ player.assists }}</td>
+                <td><strong>{{ player.points }}</strong></td>
+                <td>{{ player.pim }}</td>
+                <td>{{ '%.2f'|format(player.points / player.games) if player.games else '–' }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
+
 <section class="section-grid">
     <article class="panel">
         <h2 class="panel-title">Results</h2>

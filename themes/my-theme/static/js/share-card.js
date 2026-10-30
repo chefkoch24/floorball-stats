@@ -518,7 +518,7 @@
         p.crest(p.left + 64 + crestD / 2, mid, crestD, row.crest, row.initials);
         const nameSize = story ? 36 : 30;
         const name = p.fit(row.name, nameW, nameSize, 22, 600, BODY, 'normal', 1);
-        const sub = `${data.audience === 'player' ? row.team + ' \u00b7 ' : ''}${row.league}`;
+        const sub = `${data.audience === 'player' ? row.team + ' \u00b7 ' : ''}${row.league}${row.code ? ' \u00b7 ' + row.code : ''}`;
         const subFit = p.fit(sub, nameW, story ? 24 : 20, 16, 500, BODY, 'normal', 1);
         p.text(name.lines[0], nameX, mid - subFit.size * 0.62, { weight: 600, size: name.size });
         p.text(subFit.lines[0], nameX, mid + name.size * 0.55, { weight: 500, size: subFit.size, color: c.muted });

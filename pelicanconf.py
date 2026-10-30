@@ -16,6 +16,8 @@ PLUGINS = [
     'sitemap',
     # og:image share cards and team .ics calendars for the current season
     'share_assets',
+    # team rosters on team pages, team links on player pages
+    'rosters',
     # cross-league leaderboards for the leaders page
     'leaders',
 ]

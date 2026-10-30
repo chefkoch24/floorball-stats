@@ -44,11 +44,32 @@ def _name_initial_surname_key(name: str) -> tuple[str, str] | None:
     return (first[:1], surname)
 
 
+def _season_division(season: str) -> str:
+    """'women' for women's prefixes (sew, chw, ccw, ...), else 'men'."""
+    prefix = _season_prefix(season)
+    return "women" if len(prefix) == 3 and prefix.endswith("w") else "men"
+
+
+def _identity_key(name: str, season: str) -> tuple[str, str, str] | None:
+    """Initial + surname within one division: men and women never share a player."""
+    key = _name_initial_surname_key(name)
+    return (_season_division(season), *key) if key else None
+
+
 def _is_abbreviated_name(name: str) -> bool:
     parts = [token for token in str(name or "").strip().split() if token]
     if len(parts) < 2:
         return False
     return bool(re.match(r"^[A-Za-z]\.?$", parts[0]))
+
+
+def _same_person_name(a: str, b: str) -> bool:
+    """Same initial + surname is not enough: 'Jeanine Bieri' is not 'Jasmin Bieri'.
+    Names match when one is abbreviated ('L. Von Arx') or the first names are equal."""
+    if _is_abbreviated_name(a) or _is_abbreviated_name(b):
+        return True
+    first = lambda name: normalize_slug_fragment(str(name).split()[0])
+    return first(a) == first(b)
 
 
 def _refresh_player_identity_aliases(conn: psycopg.Connection) -> int:
@@ -65,7 +86,7 @@ def _refresh_player_identity_aliases(conn: psycopg.Connection) -> int:
         )
         cur.execute(
             """
-            SELECT player_uid, player, source_system, goals, assists, points, penalties
+            SELECT player_uid, player, source_system, goals, assists, points, penalties, season
             FROM player_stats
             WHERE source_system = 'switzerland'
             """
@@ -77,13 +98,13 @@ def _refresh_player_identity_aliases(conn: psycopg.Connection) -> int:
             cur.execute("DELETE FROM player_identity_aliases WHERE reason = 'auto_swiss_zero_stat_merge'")
         return 0
 
-    by_key: dict[tuple[str, str], dict[str, dict[str, object]]] = defaultdict(dict)
-    for player_uid, player, source_system, goals, assists, points, penalties in rows:
+    by_key: dict[tuple[str, str, str], dict[str, dict[str, object]]] = defaultdict(dict)
+    for player_uid, player, source_system, goals, assists, points, penalties, season in rows:
         uid = str(player_uid or "").strip()
         player_name = str(player or "").strip()
         if not uid or not player_name:
             continue
-        key = _name_initial_surname_key(player_name)
+        key = _identity_key(player_name, season)
         if not key:
             continue
         stat_total = int(goals or 0) + int(assists or 0) + int(points or 0) + int(penalties or 0)
@@ -115,6 +136,8 @@ def _refresh_player_identity_aliases(conn: psycopg.Connection) -> int:
                 continue
             if int(candidate["stats"]) > 0:
                 continue
+            if not _same_person_name(str(candidate["player"]), str(scored[0]["player"])):
+                continue
             alias_pairs.append((alias_uid, canonical_uid))
 
     with conn.cursor() as cur:
@@ -144,7 +167,7 @@ def _refresh_cross_league_abbreviated_aliases(conn: psycopg.Connection) -> int:
     with conn.cursor() as cur:
         cur.execute(
             """
-            SELECT player_uid, player, goals, assists, points, penalties
+            SELECT player_uid, player, goals, assists, points, penalties, season
             FROM player_stats
             """
         )
@@ -155,13 +178,13 @@ def _refresh_cross_league_abbreviated_aliases(conn: psycopg.Connection) -> int:
             cur.execute("DELETE FROM player_identity_aliases WHERE reason = 'auto_cross_league_abbrev_merge'")
         return 0
 
-    by_key: dict[tuple[str, str], dict[str, dict]] = defaultdict(dict)
-    for player_uid, player, goals, assists, points, penalties in rows:
+    by_key: dict[tuple[str, str, str], dict[str, dict]] = defaultdict(dict)
+    for player_uid, player, goals, assists, points, penalties, season in rows:
         uid = str(player_uid or "").strip()
         player_name = str(player or "").strip()
         if not uid or not player_name:
             continue
-        key = _name_initial_surname_key(player_name)
+        key = _identity_key(player_name, season)
         if not key:
             continue
         stat_total = int(goals or 0) + int(assists or 0) + int(points or 0) + int(penalties or 0)

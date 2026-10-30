@@ -36,3 +36,20 @@ def test_partial_rebuild_keeps_other_leagues_and_recomputes_selected(monkeypatch
     assert lineup_calls == ["cz"]
     assert frame[frame["season"] == "se-26-27"]["player_uid"].tolist() == ["stored-se"]
     assert frame[frame["season"] == "cz-26-27"]["player"].tolist() == ["Jan Novák"]
+
+
+def test_identity_key_keeps_men_and_women_apart():
+    from src.build_player_stats_postgres import _identity_key
+
+    assert _identity_key("Noah Siegenthaler", "ch-26-27") != _identity_key("Nicole Siegenthaler", "chw-26-27")
+    assert _identity_key("L. Von Arx", "chw-26-27") == _identity_key("Lisa Von Arx", "chw-26-27")
+    assert _identity_key("Max Muster", "26-27")[0] == "men"
+
+
+def test_same_person_name_needs_abbreviation_or_equal_first_name():
+    from src.build_player_stats_postgres import _same_person_name
+
+    assert _same_person_name("L. Von Arx", "Lisa Von Arx")
+    assert _same_person_name("Andri Füllemann", "Andri Jann Füllemann")
+    assert not _same_person_name("Jeanine Bieri", "Jasmin Bieri")
+    assert not _same_person_name("Mateo Viturin Christen", "Maurus Christen")

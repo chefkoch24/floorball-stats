@@ -1,6 +1,11 @@
 /* Site chrome for pages on the new design (page_design = 'v2'): header, league menu,
    search and feedback dialogs, breadcrumbs, footer, support card. Same markup as the
    old theme; only the styling comes from the design system tokens. */
+/* Outside the layer on purpose: hiding the other division must win over display
+   utilities (grid, flex) on the same element. */
+html[data-division="men"] [data-division="women"],
+html[data-division="women"] [data-division="men"] { display: none; }
+
 @layer components {
   html { background: var(--surface); }
   body { min-height: 100vh; line-height: 1.5; }
@@ -8,9 +13,6 @@
   a { color: var(--rink); text-decoration: none; }
   a:hover { text-decoration: underline; text-underline-offset: 2px; }
   :focus-visible { outline: 2px solid var(--rink); outline-offset: 2px; }
-
-  html[data-division="men"] [data-division="women"],
-  html[data-division="women"] [data-division="men"] { display: none; }
 
   /* Header */
   .site-header {
