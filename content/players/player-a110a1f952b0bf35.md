@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Hugo Norlund
 Category: players
 Slug: player-a110a1f952b0bf35
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 51
+rank: 61
 season: se-26-27

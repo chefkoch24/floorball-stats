@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Markus Jonsson
 Category: players
 Slug: player-2df1242e2c7a9c89
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 268
+rank: 270
 season: se-26-27

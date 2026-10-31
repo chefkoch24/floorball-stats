@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Aemmer
 Category: players
 Slug: player-5b0fc43862cf05b8

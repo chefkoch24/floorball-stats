@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Jonna Westerholm
 Category: players
 Slug: player-d5cbef1c383be0e7

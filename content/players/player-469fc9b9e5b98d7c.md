@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Michal Šajbidor
 Category: players
 Slug: player-469fc9b9e5b98d7c

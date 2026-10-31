@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Denisa Kotzurová
 Category: players
 Slug: player-e33c9aa8a3f798e3

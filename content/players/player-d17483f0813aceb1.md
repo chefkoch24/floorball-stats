@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Viktória Vargová
 Category: players
 Slug: player-d17483f0813aceb1

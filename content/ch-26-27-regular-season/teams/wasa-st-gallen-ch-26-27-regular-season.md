@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: WASA St. Gallen
 Category: ch-26-27-regular-season, teams
 Slug: wasa-st-gallen-ch-26-27-regular-season-ch-26-27-regular-season

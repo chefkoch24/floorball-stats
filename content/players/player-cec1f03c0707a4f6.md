@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Tomáš Sýkora
 Category: players
 Slug: player-cec1f03c0707a4f6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 343
+rank: 353
 season: cz-26-27

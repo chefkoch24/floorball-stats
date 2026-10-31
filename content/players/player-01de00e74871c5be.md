@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Romy Siv Kränkel
 Category: players
 Slug: player-01de00e74871c5be

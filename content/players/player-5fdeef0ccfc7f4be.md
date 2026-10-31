@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Tuomas Markkula
 Category: players
 Slug: player-5fdeef0ccfc7f4be
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 345
+rank: 355
 season: cz-26-27

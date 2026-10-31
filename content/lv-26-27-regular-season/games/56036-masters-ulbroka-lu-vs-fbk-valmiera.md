@@ -6,7 +6,7 @@ type: game
 game_id: 56036
 home_team: Masters Ulbroka/LU
 away_team: FBK Valmiera
-attendance: 189.0
+attendance: 189
 away_goal_diffs_csv: 0,1,2,3,2
 away_goal_minutes_csv: 10.85,25.42,36.23,51.08,51.73
 away_major_penalty_minutes_csv: 

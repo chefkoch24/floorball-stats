@@ -6,7 +6,7 @@ type: game
 game_id: 56061
 home_team: FBK Valmiera
 away_team: Ķekava/RB&B
-attendance: 338.0
+attendance: 338
 away_goal_diffs_csv: 0,-1,-1,-2,-3,-3,-4,-4,-4,-4
 away_goal_minutes_csv: 5.22,5.6,19.87,25.65,30.52,34.67,41.62,46.75,55.43,58.75
 away_major_penalty_minutes_csv: 

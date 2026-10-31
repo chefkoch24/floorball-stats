@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: (Lielvārde/Unihoc) bumbiņa savos vārtos
 Category: players
 Slug: player-b8da2db03b2a6a97
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 115
+rank: 116
 season: lv-26-27

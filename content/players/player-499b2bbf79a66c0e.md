@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Pārstāvis Ansis Kusiņš
 Category: players
 Slug: player-499b2bbf79a66c0e

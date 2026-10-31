@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ludvig Stegius
 Category: players
 Slug: player-8c5bc1e7b68a262d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 4
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 17
+career_games: 18
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|6|0|2|2|4||se-25-26|regular-season|Sweden|Visby IBK|11|1|0|1|0
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|7|0|2|2|4||se-25-26|regular-season|Sweden|Visby IBK|11|1|0|1|0
 assists: 2
-games: 6
+games: 7
 goals: 0
 penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 167
+rank: 170
 season: se-26-27

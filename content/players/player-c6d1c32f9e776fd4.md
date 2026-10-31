@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Wilhelm Vihtari Hansson
 Category: players
 Slug: player-c6d1c32f9e776fd4
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 127
+rank: 130
 season: se-26-27

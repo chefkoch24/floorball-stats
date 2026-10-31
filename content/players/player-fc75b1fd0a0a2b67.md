@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Pavlína Bačová
 Category: players
 Slug: player-fc75b1fd0a0a2b67

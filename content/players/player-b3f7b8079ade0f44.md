@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Maximilian Karl
 Category: players
 Slug: player-b3f7b8079ade0f44

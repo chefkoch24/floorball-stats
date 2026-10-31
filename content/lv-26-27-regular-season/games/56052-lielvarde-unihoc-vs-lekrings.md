@@ -6,7 +6,7 @@ type: game
 game_id: 56052
 home_team: Lielvārde/Unihoc
 away_team: Lekrings
-attendance: 198.0
+attendance: 198
 away_goal_diffs_csv: -1,-2,-2,-1,-2,-3,-4
 away_goal_minutes_csv: 11.92,24.93,32.0,48.93,53.15,56.52,56.72
 away_major_penalty_minutes_csv: 14.6,27.97

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Helmer Hernegran
 Category: players
 Slug: player-0dfae4f9730c5b88
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 58
+rank: 69
 season: se-26-27

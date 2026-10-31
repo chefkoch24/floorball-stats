@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Paul Kretzschmar
 Category: players
 Slug: player-6b44274badb49e05

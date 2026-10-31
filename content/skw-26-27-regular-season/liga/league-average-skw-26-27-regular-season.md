@@ -6,7 +6,7 @@ type: liga
 team: League Average
 away_points: 5.88
 boxplay: 9.75
-boxplay_efficiency: 73.58
+boxplay_efficiency: 73.59
 boxplay_first_period: 2.62
 boxplay_overtime: 0.0
 boxplay_per_game: 1.39
@@ -27,7 +27,7 @@ first_period_goals_against_per_game: 1.54
 first_period_goals_per_game: 1.54
 games: 7.0
 goal_difference: 0.0
-goal_difference_per_game: -0.0
+goal_difference_per_game: 0.0
 goals: 35.5
 goals_against: 35.5
 goals_against_away: 18.25
@@ -77,7 +77,7 @@ percent_goals_overtime_against: 1.02
 percent_goals_second_period: 33.79
 percent_goals_second_period_against: 32.95
 percent_goals_third_period: 33.7
-percent_goals_third_period_against: 35.66
+percent_goals_third_period_against: 35.67
 points: 10.5
 points_after_55_min: 10.38
 points_after_58_min: 10.38

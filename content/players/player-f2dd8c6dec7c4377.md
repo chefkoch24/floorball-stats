@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Marcus Peil
 Category: players
 Slug: player-f2dd8c6dec7c4377
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 267
+rank: 269
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ellen Nyman
 Category: players
 Slug: player-d4b0f73f32f1cde3

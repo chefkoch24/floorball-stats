@@ -6,7 +6,7 @@ type: game
 game_id: 56048
 home_team: Rubene
 away_team: Lielvārde/Unihoc
-attendance: 292.0
+attendance: 292
 away_goal_diffs_csv: -1,-2,-2,-1,-2
 away_goal_minutes_csv: 21.47,22.67,34.6,49.03,54.23
 away_major_penalty_minutes_csv: 20.0

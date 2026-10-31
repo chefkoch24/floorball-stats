@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Michal Bačišin
 Category: players
 Slug: player-e62fda7d53532a16

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Adriana Hýsková
 Category: players
 Slug: player-5e8d43a457bae27e

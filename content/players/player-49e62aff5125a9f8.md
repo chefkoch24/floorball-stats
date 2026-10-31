@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Maxmilián Munduch
 Category: players
 Slug: player-49e62aff5125a9f8

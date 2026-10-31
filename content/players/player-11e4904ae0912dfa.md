@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Elias Rutz
 Category: players
 Slug: player-11e4904ae0912dfa

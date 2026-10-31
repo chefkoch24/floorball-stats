@@ -6,7 +6,7 @@ type: game
 game_id: 56038
 home_team: FK Kurši
 away_team: Masters Ulbroka/LU
-attendance: 304.0
+attendance: 304
 away_goal_diffs_csv: -1,-2,-3,-3,-3,-4,-5,-6,-7,-7,-6
 away_goal_minutes_csv: 3.15,10.77,17.4,27.07,35.08,36.8,40.15,43.37,43.72,48.25,54.15
 away_major_penalty_minutes_csv: 31.15,52.38

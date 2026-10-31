@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Hannah Herrmann
 Category: players
 Slug: player-cc34f1007da5bc92

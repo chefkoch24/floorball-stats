@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Martin Rönnklint
 Category: players
 Slug: player-6bac47b03b5f4a85
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 48
+rank: 58
 season: se-26-27

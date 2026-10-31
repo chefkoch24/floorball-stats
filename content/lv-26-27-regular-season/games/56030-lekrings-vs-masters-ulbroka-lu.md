@@ -6,7 +6,7 @@ type: game
 game_id: 56030
 home_team: Lekrings
 away_team: Masters Ulbroka/LU
-attendance: 336.0
+attendance: 336
 away_goal_diffs_csv: 1,0,-1,-2,-3,-4
 away_goal_minutes_csv: 40.7,42.65,43.87,44.9,52.28,57.22
 away_major_penalty_minutes_csv: 

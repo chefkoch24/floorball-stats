@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Valerie Skalická
 Category: players
 Slug: player-6c769bca9d66025d

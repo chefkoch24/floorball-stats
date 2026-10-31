@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Tova Pettersson
 Category: players
 Slug: player-f84e353e12bc38c3

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Zaga Lövdahl
 Category: players
 Slug: player-c3238d31c73d9eda

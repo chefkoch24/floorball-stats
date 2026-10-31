@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
@@ -36,13 +36,13 @@ career_goals: 8
 career_assists: 0
 career_points: 8
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|FBC Loisto / Pirkat / TPS|3|3|0|3|0||fi-26-27|regular-season|Finland|Classic / Indians / Jymy / SPV|4|4|0|4|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
+history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / SPV|4|4|0|4|0||fiw-26-27|regular-season|Finland Women|FBC Loisto / Pirkat / TPS|3|3|0|3|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
 assists: 0
-games: 3
-goals: 3
+games: 4
+goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 83
-season: fiw-26-27
+points: 4
+rank: 91
+season: fi-26-27

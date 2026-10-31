@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: League Average
 Category: ch-26-27-regular-season, liga
 Slug: league-average-ch-26-27-regular-season

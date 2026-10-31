@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Malte Lundmark
 Category: players
 Slug: player-aff11baae40d781e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 7
+rank: 11
 season: se-26-27

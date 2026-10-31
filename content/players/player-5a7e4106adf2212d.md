@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Emil Lundmark
 Category: players
 Slug: player-5a7e4106adf2212d
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 100
+rank: 107
 season: se-26-27

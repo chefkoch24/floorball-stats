@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Veera Vilenius
 Category: players
 Slug: player-2ffe188b1afb5aaa

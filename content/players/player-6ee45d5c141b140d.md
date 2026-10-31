@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Janella Järvinen
 Category: players
 Slug: player-6ee45d5c141b140d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 40
+rank: 41
 season: fiw-26-27

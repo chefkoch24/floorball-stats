@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Vanessa Hrubčinová
 Category: players
 Slug: player-6d1ec58bc029b8f9

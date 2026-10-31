@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Markéta Antalová
 Category: players
 Slug: player-557caca8a27564ff

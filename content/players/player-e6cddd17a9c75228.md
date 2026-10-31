@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Pinja Koivumäki
 Category: players
 Slug: player-e6cddd17a9c75228
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 147
+rank: 149
 season: fiw-26-27

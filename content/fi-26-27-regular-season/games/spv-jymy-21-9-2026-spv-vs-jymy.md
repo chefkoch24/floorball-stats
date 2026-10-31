@@ -315,7 +315,7 @@ home_pregame_points_against_hawks: 3
 home_pregame_points_against_indians: 2
 home_pregame_points_against_jymy: 6
 home_pregame_points_against_lasb: 6
-home_pregame_points_against_ols: 3
+home_pregame_points_against_ols: 6
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 3.0

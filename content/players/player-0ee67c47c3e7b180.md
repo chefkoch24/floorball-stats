@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Zara Gauffin-kauste
 Category: players
 Slug: player-0ee67c47c3e7b180
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 60
+rank: 61
 season: fiw-26-27

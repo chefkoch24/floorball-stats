@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Filip Björk
 Category: players
 Slug: player-4055d4e3d8df474e
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 72
+rank: 81
 season: se-26-27

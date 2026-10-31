@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ričards Eglītis
 Category: players
 Slug: player-3983df8d1acc6724
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 11
+rank: 12
 season: lv-26-27

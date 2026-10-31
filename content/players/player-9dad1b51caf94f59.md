@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ludvig Kalldin
 Category: players
 Slug: player-9dad1b51caf94f59
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 261
+rank: 264
 season: se-26-27

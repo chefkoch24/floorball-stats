@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: Top 4 Teams
 Category: ch-26-27-regular-season, liga
 Slug: top-4-teams-ch-26-27-regular-season

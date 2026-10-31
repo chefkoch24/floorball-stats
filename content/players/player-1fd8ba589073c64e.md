@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Barbora Bartoňová
 Category: players
 Slug: player-1fd8ba589073c64e

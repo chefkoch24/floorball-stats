@@ -6,7 +6,7 @@ type: game
 game_id: 56063
 home_team: Rubene
 away_team: FK Kurši
-attendance: 294.0
+attendance: 294
 away_goal_diffs_csv: -1
 away_goal_minutes_csv: 6.1
 away_major_penalty_minutes_csv: 

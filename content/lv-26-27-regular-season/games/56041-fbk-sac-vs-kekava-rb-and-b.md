@@ -6,7 +6,7 @@ type: game
 game_id: 56041
 home_team: FBK SĀC
 away_team: Ķekava/RB&B
-attendance: 99.0
+attendance: 99
 away_goal_diffs_csv: -1,1,1,1,0
 away_goal_minutes_csv: 8.97,40.32,45.0,52.05,57.48
 away_major_penalty_minutes_csv: 

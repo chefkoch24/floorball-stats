@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Emīls Dzalbs
 Category: players
 Slug: player-ea86466e4dae5ecb

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ondřej Kawulok C
 Category: players
 Slug: player-0870ddffb790bc25
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 314
+rank: 322
 season: cz-26-27

@@ -6,7 +6,7 @@ type: game
 game_id: 56056
 home_team: Masters Ulbroka/LU
 away_team: Rubene
-attendance: 192.0
+attendance: 192
 away_goal_diffs_csv: -1,-2,0,-1
 away_goal_minutes_csv: 6.2,13.98,42.52,53.05
 away_major_penalty_minutes_csv: 

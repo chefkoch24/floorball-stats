@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Aapo Kilpeläinen
 Category: players
 Slug: player-2ddf987b7058ced2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 20
+rank: 22
 season: fi-26-27

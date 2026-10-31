@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Vega Thor
 Category: players
 Slug: player-36d3e935f8542fbc

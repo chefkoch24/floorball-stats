@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Viljami Virtanen
 Category: players
 Slug: player-2f0f4a006031e9eb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 50
+rank: 57
 season: fi-26-27

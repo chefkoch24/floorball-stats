@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jesper Persson
 Category: players
 Slug: player-ae20cee5537242b3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 82
+rank: 92
 season: se-26-27

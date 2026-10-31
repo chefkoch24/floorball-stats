@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Livia-Alia Abegg
 Category: players
 Slug: player-2cf534c4e08c43e4

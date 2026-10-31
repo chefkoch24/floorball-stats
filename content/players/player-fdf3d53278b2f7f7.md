@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Edvards Gustavs Rašmanis
 Category: players
 Slug: player-fdf3d53278b2f7f7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 49
+rank: 50
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Zuzana Cihelková
 Category: players
 Slug: player-4bb2f9aa912b4dd1

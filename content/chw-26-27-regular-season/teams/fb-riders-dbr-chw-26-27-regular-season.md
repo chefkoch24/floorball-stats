@@ -7,7 +7,7 @@ team:FB Riders DBR
 platzierungsverlauf:chw-26-27-regular-season/teams/fb-riders-dbr-chw-26-27-regular-season_platzierungsverlauf.png
 away_points: 0
 boxplay: 6
-boxplay_efficiency: 66.67
+boxplay_efficiency: 50.0
 boxplay_first_period: 0
 boxplay_overtime: 0
 boxplay_per_game: 1.2
@@ -33,8 +33,8 @@ goals: 9
 goals_against: 43
 goals_against_away: 19
 goals_against_home: 24
-goals_against_in_boxplay: 2
-goals_against_in_boxplay_per_game: 0.4
+goals_against_in_boxplay: 3
+goals_against_in_boxplay_per_game: 0.6
 goals_against_in_powerplay: 1
 goals_against_per_game: 8.6
 goals_away: 7

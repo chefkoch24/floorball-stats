@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Juvenal Dikacz
 Category: players
 Slug: player-a59c5e8b71f771b5

@@ -6,7 +6,7 @@ type: game
 game_id: 56057
 home_team: FK Kurši
 away_team: FBK SĀC
-attendance: 334.0
+attendance: 334
 away_goal_diffs_csv: -1,-1,0
 away_goal_minutes_csv: 4.75,26.15,32.32
 away_major_penalty_minutes_csv: 

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jan Bürki
 Category: players
 Slug: player-07cebeb3ad3f932b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 102
+rank: 109
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Luise Matthes
 Category: players
 Slug: player-ef99bda0d15073c1

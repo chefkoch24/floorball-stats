@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ondřej Kroužek
 Category: players
 Slug: player-26e7b46395ee7fe7

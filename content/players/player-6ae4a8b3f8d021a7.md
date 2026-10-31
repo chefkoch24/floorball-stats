@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Clara Dagobert
 Category: players
 Slug: player-6ae4a8b3f8d021a7

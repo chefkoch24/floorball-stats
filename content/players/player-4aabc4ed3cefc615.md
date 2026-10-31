@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jesper Schmidt
 Category: players
 Slug: player-4aabc4ed3cefc615

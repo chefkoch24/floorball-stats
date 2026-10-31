@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Veltsmid
 Category: players
 Slug: player-aae3f254f511e322

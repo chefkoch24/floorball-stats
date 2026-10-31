@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Switzerland Player Stats 26/27 Regular Season
 Category: ch-26-27-regular-season-players
 Slug: ch-26-27-regular-season-players

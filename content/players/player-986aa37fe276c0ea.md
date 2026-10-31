@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lara Meisel
 Category: players
 Slug: player-986aa37fe276c0ea

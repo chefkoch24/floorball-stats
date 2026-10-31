@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Maurice Aebersold
 Category: players
 Slug: player-e88febe3badc9267

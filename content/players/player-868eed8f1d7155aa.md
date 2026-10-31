@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Otto Weidman
 Category: players
 Slug: player-868eed8f1d7155aa
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 33
+rank: 37
 season: se-26-27

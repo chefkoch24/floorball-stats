@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Måns Parsjö
 Category: players
 Slug: player-11cebd7333314ab2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 205
+rank: 210
 season: se-26-27

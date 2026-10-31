@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kamila Verčimáková
 Category: players
 Slug: player-4f2d164e5c4ebc9e

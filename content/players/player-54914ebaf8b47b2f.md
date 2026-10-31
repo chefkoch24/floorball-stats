@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Anna Švecová
 Category: players
 Slug: player-54914ebaf8b47b2f

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eduards Meisters
 Category: players
 Slug: player-027ac615b3a0aef1
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 89
+rank: 90
 season: lv-26-27

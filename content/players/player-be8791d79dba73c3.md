@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Aliyah Hiltunen
 Category: players
 Slug: player-be8791d79dba73c3
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 177
+rank: 178
 season: fiw-26-27

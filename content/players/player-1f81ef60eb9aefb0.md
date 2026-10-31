@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jan Kratochvil
 Category: players
 Slug: player-1f81ef60eb9aefb0
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 1
+current_games: 2
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 1
+regular_games: 2
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 2
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|1|1|1|2|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|2|1|1|2|0
 assists: 1
-games: 1
+games: 2
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 156
+rank: 174
 season: cz-26-27

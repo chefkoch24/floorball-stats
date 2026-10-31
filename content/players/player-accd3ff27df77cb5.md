@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Nikola Hermannová
 Category: players
 Slug: player-accd3ff27df77cb5

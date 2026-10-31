@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rahul Chiplunkar
 Category: players
 Slug: player-d7034addef44df03

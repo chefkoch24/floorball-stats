@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Sami Salminen
 Category: players
 Slug: player-ec6f4024aafa6503

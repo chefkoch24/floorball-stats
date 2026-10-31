@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Garcia
 Category: players
 Slug: player-2581be9cbd4aa71b
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 157
+rank: 158
 season: se-26-27

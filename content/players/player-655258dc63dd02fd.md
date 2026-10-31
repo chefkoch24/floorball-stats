@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Jenna Kangas
 Category: players
 Slug: player-655258dc63dd02fd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 128
+rank: 130
 season: fiw-26-27

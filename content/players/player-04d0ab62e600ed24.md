@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Marius Suominen
 Category: players
 Slug: player-04d0ab62e600ed24
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 133
+rank: 135
 season: fi-26-27

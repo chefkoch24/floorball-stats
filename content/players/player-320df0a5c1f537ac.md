@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Severin Nigg
 Category: players
 Slug: player-320df0a5c1f537ac
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 49
+rank: 59
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ponomarenko Bohdan
 Category: players
 Slug: player-cb3bfbd08e14719a

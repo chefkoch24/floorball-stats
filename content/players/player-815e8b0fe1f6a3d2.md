@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Paskal Kammer
 Category: players
 Slug: player-815e8b0fe1f6a3d2

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eemil Karetjoki
 Category: players
 Slug: player-6f80d9185ca9c76f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 183
+rank: 186
 season: fi-26-27

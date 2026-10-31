@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Alex Indriana Kjellbris
 Category: players
 Slug: player-544b4943dabafd81
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 116
+rank: 118
 season: se-26-27

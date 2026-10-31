@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Yannic Hüppi
 Category: players
 Slug: player-d88a4bdda6dd470d

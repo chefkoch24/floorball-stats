@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-30
 Title: Masters Ulbroka/LU
 Category: lv-26-27-regular-season, teams
 Slug: masters-ulbroka-lu-lv-26-27-regular-season-lv-26-27-regular-season
@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 2.62
 powerplay_second_period: 11
 powerplay_third_period: 5
-rank: 2
+rank: 3
 scoring_ratio: 1.5
 take_the_lead_goals: 10
 take_the_lead_goals_against: 8

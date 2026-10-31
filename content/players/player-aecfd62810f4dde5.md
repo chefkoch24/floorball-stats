@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eric Gren
 Category: players
 Slug: player-aecfd62810f4dde5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 237
+rank: 240
 season: se-26-27

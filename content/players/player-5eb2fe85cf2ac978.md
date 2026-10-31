@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eero Karjanlahti
 Category: players
 Slug: player-5eb2fe85cf2ac978
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 62
+rank: 67
 season: fi-26-27

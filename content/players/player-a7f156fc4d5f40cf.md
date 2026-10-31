@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Miroslav Slávik
 Category: players
 Slug: player-a7f156fc4d5f40cf

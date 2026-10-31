@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rome Andro Moora
 Category: players
 Slug: player-d754daa158f110b4

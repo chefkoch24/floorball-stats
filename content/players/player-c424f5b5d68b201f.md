@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Anna Gluzová
 Category: players
 Slug: player-c424f5b5d68b201f

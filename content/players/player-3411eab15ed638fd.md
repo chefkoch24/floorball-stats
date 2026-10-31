@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Wilma Selin
 Category: players
 Slug: player-3411eab15ed638fd

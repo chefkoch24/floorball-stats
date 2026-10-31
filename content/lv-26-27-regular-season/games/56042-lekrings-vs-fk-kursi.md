@@ -6,7 +6,7 @@ type: game
 game_id: 56042
 home_team: Lekrings
 away_team: FK Kurši
-attendance: 321.0
+attendance: 321
 away_goal_diffs_csv: -1,6
 away_goal_minutes_csv: 3.63,58.65
 away_major_penalty_minutes_csv: 

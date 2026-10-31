@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Martha Nylund
 Category: players
 Slug: player-80cf5c0b5bd92cb1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 48
+rank: 49
 season: fiw-26-27

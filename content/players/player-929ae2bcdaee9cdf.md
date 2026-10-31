@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Marek Koščo
 Category: players
 Slug: player-929ae2bcdaee9cdf

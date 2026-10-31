@@ -6,7 +6,7 @@ type: game
 game_id: 56046
 home_team: FBK Valmiera
 away_team: FK Kurši
-attendance: 111.0
+attendance: 111
 away_goal_diffs_csv: 0,-1,-1,-1,-1,0
 away_goal_minutes_csv: 19.73,20.38,31.6,36.25,48.47,56.73
 away_major_penalty_minutes_csv: 38.5

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Isa-Marie Carsbo
 Category: players
 Slug: player-348bc5d80751a4cd

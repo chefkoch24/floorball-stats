@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ruben Schaaf
 Category: players
 Slug: player-b247d26f47fe77ca

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Martin Hriško
 Category: players
 Slug: player-4cbea637a60a67f1
@@ -11,15 +11,15 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 2
+current_games: 8
+current_goals: 4
 current_assists: 3
-current_points: 5
+current_points: 7
 current_pim: 2
-regular_games: 6
-regular_goals: 2
+regular_games: 8
+regular_goals: 4
 regular_assists: 3
-regular_points: 5
+regular_points: 7
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 2
+career_games: 8
+career_goals: 4
 career_assists: 3
-career_points: 5
+career_points: 7
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|6|2|3|5|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|8|4|3|7|2
 assists: 3
-games: 6
-goals: 2
+games: 8
+goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
-points: 5
-rank: 92
+points: 7
+rank: 72
 season: cz-26-27

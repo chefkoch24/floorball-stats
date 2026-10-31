@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Trošková Jana
 Category: players
 Slug: player-71d018e2cfdba87f

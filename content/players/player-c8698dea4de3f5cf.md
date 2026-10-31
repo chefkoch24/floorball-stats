@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Nora Kökeritz
 Category: players
 Slug: player-c8698dea4de3f5cf

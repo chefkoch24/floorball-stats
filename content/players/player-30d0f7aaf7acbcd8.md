@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Zadňančin Tomáš
 Category: players
 Slug: player-30d0f7aaf7acbcd8

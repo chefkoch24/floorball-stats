@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Matěj Hőpp
 Category: players
 Slug: player-1ce13f188d4db623

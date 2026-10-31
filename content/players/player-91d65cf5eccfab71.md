@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Bára Lysková
 Category: players
 Slug: player-91d65cf5eccfab71

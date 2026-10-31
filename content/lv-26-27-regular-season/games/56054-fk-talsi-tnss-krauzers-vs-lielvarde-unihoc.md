@@ -6,7 +6,7 @@ type: game
 game_id: 56054
 home_team: FK Talsi/TNSS/Krauzers
 away_team: Lielvārde/Unihoc
-attendance: 143.0
+attendance: 143
 away_goal_diffs_csv: 8,8
 away_goal_minutes_csv: 55.6,58.3
 away_major_penalty_minutes_csv: 
@@ -313,7 +313,7 @@ home_pregame_points_after_third_period: 7
 home_pregame_points_against_fbk_sac: 3
 home_pregame_points_against_fbk_valmiera: 1
 home_pregame_points_against_fk_kursi: 3
-home_pregame_points_against_kekava_rb_b: 3
+home_pregame_points_against_kekava_rb_b: 6
 home_pregame_points_against_lekrings: 0
 home_pregame_points_against_lielvarde_unihoc: 3
 home_pregame_points_against_masters_ulbroka_lu: 3

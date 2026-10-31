@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Māris Parts
 Category: players
 Slug: player-5a0aaeea399db386
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 47
+rank: 48
 season: lv-26-27

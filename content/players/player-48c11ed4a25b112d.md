@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ivana Hrehušová
 Category: players
 Slug: player-48c11ed4a25b112d

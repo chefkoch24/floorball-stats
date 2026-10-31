@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Alissa Hartmeier
 Category: players
 Slug: player-52299b9b21b56cfc

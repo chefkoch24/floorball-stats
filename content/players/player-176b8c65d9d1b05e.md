@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Jana Pleisch
 Category: players
 Slug: player-176b8c65d9d1b05e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 127
+rank: 129
 season: fiw-26-27

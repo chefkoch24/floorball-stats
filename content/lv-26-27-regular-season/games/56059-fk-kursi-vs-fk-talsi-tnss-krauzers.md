@@ -6,7 +6,7 @@ type: game
 game_id: 56059
 home_team: FK Kurši
 away_team: FK Talsi/TNSS/Krauzers
-attendance: 234.0
+attendance: 234
 away_goal_diffs_csv: 1,2,1,0,-1,-2,-3
 away_goal_minutes_csv: 21.12,42.7,48.97,51.92,53.38,54.72,56.28
 away_major_penalty_minutes_csv: 
@@ -418,7 +418,7 @@ away_pregame_points_after_third_period: 10
 away_pregame_points_against_fbk_sac: 3
 away_pregame_points_against_fbk_valmiera: 1
 away_pregame_points_against_fk_kursi: 3
-away_pregame_points_against_kekava_rb_b: 3
+away_pregame_points_against_kekava_rb_b: 6
 away_pregame_points_against_lekrings: 0
 away_pregame_points_against_lielvarde_unihoc: 3
 away_pregame_points_against_masters_ulbroka_lu: 3

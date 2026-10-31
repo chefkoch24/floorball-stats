@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Thierry Horal
 Category: players
 Slug: player-176ff1880fcefa08

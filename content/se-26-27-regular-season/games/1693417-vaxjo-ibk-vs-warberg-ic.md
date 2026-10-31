@@ -314,6 +314,7 @@ home_pregame_points_against_fbc_kalmarsund: 0
 home_pregame_points_against_ibf_falun: 0
 home_pregame_points_against_ibk_lund_elit: 3
 home_pregame_points_against_jonkopings_ik: 3
+home_pregame_points_against_mullsjo_ais: 1
 home_pregame_points_against_visby_ibk: 3
 home_pregame_points_against_warberg_ic: 3
 home_pregame_points_max_difference_2: 3

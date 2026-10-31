@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kiia Verronen
 Category: players
 Slug: player-139bcc47e7a9a7ef
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 74
+rank: 75
 season: fiw-26-27

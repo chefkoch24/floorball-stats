@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rūdolfs Dāvis Maklers
 Category: players
 Slug: player-22cf14fb366de942
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 50
+rank: 51
 season: lv-26-27

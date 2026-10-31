@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Tobias Vant Hoff
 Category: players
 Slug: player-4eb46063d4d8bcc8

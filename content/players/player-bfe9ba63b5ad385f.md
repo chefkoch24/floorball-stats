@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jonas Knofe
 Category: players
 Slug: player-bfe9ba63b5ad385f

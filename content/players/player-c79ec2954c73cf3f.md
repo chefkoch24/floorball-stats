@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Hampus Nelson
 Category: players
 Slug: player-c79ec2954c73cf3f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 81
+rank: 91
 season: se-26-27

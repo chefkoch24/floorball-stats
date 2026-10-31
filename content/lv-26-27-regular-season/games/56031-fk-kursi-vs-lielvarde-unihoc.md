@@ -6,7 +6,7 @@ type: game
 game_id: 56031
 home_team: FK Kurši
 away_team: Lielvārde/Unihoc
-attendance: 428.0
+attendance: 428
 away_goal_diffs_csv: 0,4,4
 away_goal_minutes_csv: 21.12,49.2,59.33
 away_major_penalty_minutes_csv: 

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elisa Virtanen
 Category: players
 Slug: player-60ef821b2ca36b61
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 72
+rank: 73
 season: fiw-26-27

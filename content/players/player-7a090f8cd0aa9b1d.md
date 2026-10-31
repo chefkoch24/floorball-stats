@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Erik Åkerblom
 Category: players
 Slug: player-7a090f8cd0aa9b1d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 238
+rank: 241
 season: se-26-27

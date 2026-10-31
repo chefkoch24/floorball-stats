@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: 1097200-kloten-dietlikon-jets-vs-grasshopper-club-zurich
 Category: ch-26-27-regular-season, game
 Slug: 1097200-kloten-dietlikon-jets-vs-grasshopper-club-zurich-ch-26-27-regular-season

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Josefiina Nissilä
 Category: players
 Slug: player-8bf79d0de3e9f456

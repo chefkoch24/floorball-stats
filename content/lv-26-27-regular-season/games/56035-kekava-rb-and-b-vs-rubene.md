@@ -6,7 +6,7 @@ type: game
 game_id: 56035
 home_team: Ķekava/RB&B
 away_team: Rubene
-attendance: 182.0
+attendance: 182
 away_goal_diffs_csv: 0,1,0,-1,0,-1
 away_goal_minutes_csv: 24.78,28.07,35.27,51.98,58.53,58.88
 away_major_penalty_minutes_csv: 30.63

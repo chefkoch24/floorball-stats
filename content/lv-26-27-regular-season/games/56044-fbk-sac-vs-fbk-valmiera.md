@@ -6,7 +6,7 @@ type: game
 game_id: 56044
 home_team: FBK SĀC
 away_team: FBK Valmiera
-attendance: 103.0
+attendance: 103
 away_goal_diffs_csv: -1,-2,-2,-3,-4,-4,-5,-5
 away_goal_minutes_csv: 26.35,28.78,30.17,44.68,44.93,51.77,52.75,59.68
 away_major_penalty_minutes_csv: 54.52

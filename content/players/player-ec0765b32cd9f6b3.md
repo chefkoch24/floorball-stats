@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oliver Lehocký
 Category: players
 Slug: player-ec0765b32cd9f6b3

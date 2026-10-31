@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Arvid Lundholm
 Category: players
 Slug: player-6da86751a1c2a92b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 15
+rank: 22
 season: se-26-27

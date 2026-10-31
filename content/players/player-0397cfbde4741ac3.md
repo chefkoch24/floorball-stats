@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Yann Ruh
 Category: players
 Slug: player-0397cfbde4741ac3

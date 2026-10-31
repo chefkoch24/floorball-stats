@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Marta Lība Zameca
 Category: players
 Slug: player-9ff973ce4334d6d1

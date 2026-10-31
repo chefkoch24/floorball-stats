@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Sophie Reber
 Category: players
 Slug: player-2af8da468ea6bce0

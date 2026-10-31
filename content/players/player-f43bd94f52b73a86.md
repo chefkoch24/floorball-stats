@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Noah Norlander
 Category: players
 Slug: player-f43bd94f52b73a86
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 188
+rank: 194
 season: se-26-27

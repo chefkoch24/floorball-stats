@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Noah de Zwaan
 Category: players
 Slug: player-6ec759056e7fc28d

@@ -6,7 +6,7 @@ type: game
 game_id: 56064
 home_team: FBK SĀC
 away_team: Lekrings
-attendance: 68.0
+attendance: 68
 away_goal_diffs_csv: 0,2,1,0,0
 away_goal_minutes_csv: 11.87,29.9,38.17,41.7,43.92
 away_major_penalty_minutes_csv: 

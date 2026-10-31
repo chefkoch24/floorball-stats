@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Noah Wiederkehr
 Category: players
 Slug: player-3b7bddadb20ac808

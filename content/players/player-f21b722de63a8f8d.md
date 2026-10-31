@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Nooa Lehtonen
 Category: players
 Slug: player-f21b722de63a8f8d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 88
+rank: 90
 season: fi-26-27

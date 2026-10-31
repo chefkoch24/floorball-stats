@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Petra Müllerová
 Category: players
 Slug: player-7f4765ce3ac079ac

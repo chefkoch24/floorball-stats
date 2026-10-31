@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Tadeáš Weber
 Category: players
 Slug: player-da040eb1f1025c2b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 338
+rank: 348
 season: cz-26-27

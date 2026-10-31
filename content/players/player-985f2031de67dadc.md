@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Livia Werz
 Category: players
 Slug: player-985f2031de67dadc

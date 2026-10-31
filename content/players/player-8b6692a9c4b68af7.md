@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Mirka Schatz
 Category: players
 Slug: player-8b6692a9c4b68af7

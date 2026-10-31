@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Sakarias Ulriksson
 Category: players
 Slug: player-8d3ffcb8ff8b14b7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 8
+rank: 12
 season: se-26-27

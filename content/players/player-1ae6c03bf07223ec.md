@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Livio Butzerin
 Category: players
 Slug: player-1ae6c03bf07223ec

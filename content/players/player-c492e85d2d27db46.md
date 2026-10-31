@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Mikael Hiekka
 Category: players
 Slug: player-c492e85d2d27db46
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 144
+rank: 145
 season: fi-26-27

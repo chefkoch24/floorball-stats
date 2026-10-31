@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Everts Miezis
 Category: players
 Slug: player-552d5f1aca5c3510

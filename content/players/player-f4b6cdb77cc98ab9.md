@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Hugo Prahl
 Category: players
 Slug: player-f4b6cdb77cc98ab9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 247
+rank: 250
 season: se-26-27

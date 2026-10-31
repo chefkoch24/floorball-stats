@@ -6,7 +6,7 @@ type: game
 game_id: 56037
 home_team: Lielvārde/Unihoc
 away_team: FBK SĀC
-attendance: 208.0
+attendance: 208
 away_goal_diffs_csv: 0,-1,-2
 away_goal_minutes_csv: 29.37,30.25,50.52
 away_major_penalty_minutes_csv: 

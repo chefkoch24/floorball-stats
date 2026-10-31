@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lina Großer
 Category: players
 Slug: player-1486cd2c717cdd98

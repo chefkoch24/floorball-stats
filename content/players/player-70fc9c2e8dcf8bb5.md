@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Dušan Ďurmek
 Category: players
 Slug: player-70fc9c2e8dcf8bb5

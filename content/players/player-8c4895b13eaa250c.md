@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Anja Wyss
 Category: players
 Slug: player-8c4895b13eaa250c

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Janne Lamminen
 Category: players
 Slug: player-68cd69c3259cdf5d

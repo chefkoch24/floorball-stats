@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ryan Ulrich
 Category: players
 Slug: player-0f19ffcd7f71a171

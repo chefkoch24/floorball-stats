@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Adam Švehlák
 Category: players
 Slug: player-e4e4fccd003faae1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 233
+rank: 241
 season: cz-26-27

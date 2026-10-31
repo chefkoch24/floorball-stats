@@ -6,7 +6,7 @@ type: game
 game_id: 56047
 home_team: FBK SĀC
 away_team: FK Talsi/TNSS/Krauzers
-attendance: 64.0
+attendance: 64
 away_goal_diffs_csv: 0,1,0,-1,-2,-3,-4
 away_goal_minutes_csv: 23.3,34.43,43.87,51.0,56.98,57.43,59.25
 away_major_penalty_minutes_csv: 54.22
@@ -418,7 +418,7 @@ away_pregame_points_after_third_period: 4
 away_pregame_points_against_fbk_sac: 3
 away_pregame_points_against_fbk_valmiera: 1
 away_pregame_points_against_fk_kursi: 3
-away_pregame_points_against_kekava_rb_b: 3
+away_pregame_points_against_kekava_rb_b: 6
 away_pregame_points_against_lekrings: 0
 away_pregame_points_against_lielvarde_unihoc: 3
 away_pregame_points_against_masters_ulbroka_lu: 3

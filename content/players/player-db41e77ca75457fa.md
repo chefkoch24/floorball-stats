@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Samuel Soska
 Category: players
 Slug: player-db41e77ca75457fa

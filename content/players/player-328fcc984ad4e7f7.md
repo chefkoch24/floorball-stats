@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Vanesa Soroková
 Category: players
 Slug: player-328fcc984ad4e7f7

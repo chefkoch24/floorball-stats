@@ -418,6 +418,7 @@ away_pregame_points_against_ibf_falun: 1
 away_pregame_points_against_ibk_dalen: 0
 away_pregame_points_against_jonkopings_ik: 0
 away_pregame_points_against_nykvarns_ibf: 1
+away_pregame_points_against_vaxjo_ibk: 2
 away_pregame_points_against_visby_ibk: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3

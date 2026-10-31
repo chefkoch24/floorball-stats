@@ -6,7 +6,7 @@ type: game
 game_id: 56043
 home_team: FK Talsi/TNSS/Krauzers
 away_team: Rubene
-attendance: 206.0
+attendance: 206
 away_goal_diffs_csv: -1,0,-1,-2,-3,-3,-2
 away_goal_minutes_csv: 6.25,28.5,32.83,37.47,49.9,54.35,59.03
 away_major_penalty_minutes_csv: 
@@ -313,7 +313,7 @@ home_pregame_points_after_third_period: 3
 home_pregame_points_against_fbk_sac: 3
 home_pregame_points_against_fbk_valmiera: 1
 home_pregame_points_against_fk_kursi: 3
-home_pregame_points_against_kekava_rb_b: 3
+home_pregame_points_against_kekava_rb_b: 6
 home_pregame_points_against_lekrings: 0
 home_pregame_points_against_lielvarde_unihoc: 3
 home_pregame_points_against_masters_ulbroka_lu: 3

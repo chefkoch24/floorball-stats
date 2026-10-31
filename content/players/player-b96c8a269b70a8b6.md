@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Måns Andersson
 Category: players
 Slug: player-b96c8a269b70a8b6
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
+current_games: 6
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 8
-regular_games: 5
+regular_games: 6
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -31,18 +31,18 @@ previous_goals: 2
 previous_assists: 1
 previous_points: 3
 previous_pim: 2
-career_games: 30
+career_games: 31
 career_goals: 3
 career_assists: 1
 career_points: 4
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|5|1|0|1|8||se-25-26|regular-season|Sweden|Jönköpings IK|25|2|1|3|2
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|6|1|0|1|8||se-25-26|regular-season|Sweden|Jönköpings IK|25|2|1|3|2
 assists: 0
-games: 5
+games: 6
 goals: 1
 penalties: 4
 phase: regular-season
 pim: 8
 points: 1
-rank: 187
+rank: 193
 season: se-26-27

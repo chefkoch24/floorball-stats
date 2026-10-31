@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Karolina Klubalova
 Category: players
 Slug: player-11d4cdda8a08e208

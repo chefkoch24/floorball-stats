@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Saimi Koivisto
 Category: players
 Slug: player-349e94deaa6259a1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 132
+rank: 134
 season: fiw-26-27

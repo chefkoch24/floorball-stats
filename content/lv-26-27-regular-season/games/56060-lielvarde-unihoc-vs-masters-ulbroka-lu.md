@@ -6,7 +6,7 @@ type: game
 game_id: 56060
 home_team: Lielvārde/Unihoc
 away_team: Masters Ulbroka/LU
-attendance: 237.0
+attendance: 237
 away_goal_diffs_csv: -1,-2,-2,-3,-3,-3
 away_goal_minutes_csv: 9.25,12.4,25.38,36.28,44.58,59.55
 away_major_penalty_minutes_csv: 

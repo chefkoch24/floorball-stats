@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Miko Vaarimo
 Category: players
 Slug: player-745afdb145daebe4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 98
+rank: 100
 season: fi-26-27

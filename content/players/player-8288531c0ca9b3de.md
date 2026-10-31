@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Sebastian Arnlund
 Category: players
 Slug: player-8288531c0ca9b3de

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: David Karlsson
 Category: players
 Slug: player-9d208eb3bc0b6bae
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 142
+rank: 144
 season: se-26-27

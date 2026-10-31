@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Sofia Pykäläinen
 Category: players
 Slug: player-bcfe9ab94944420a

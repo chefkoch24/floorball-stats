@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rasmus Kainulainen
 Category: players
 Slug: player-24eef1cd722ff0b5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
-current_goals: 1
+current_games: 6
+current_goals: 2
 current_assists: 10
-current_points: 11
+current_points: 12
 current_pim: 4
-regular_games: 5
-regular_goals: 1
+regular_games: 6
+regular_goals: 2
 regular_assists: 10
-regular_points: 11
+regular_points: 12
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 12
 previous_assists: 13
 previous_points: 25
 previous_pim: 10
-career_games: 27
-career_goals: 13
+career_games: 28
+career_goals: 14
 career_assists: 23
-career_points: 36
+career_points: 37
 career_pim: 14
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|5|1|10|11|4||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|4|6|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|10|9|19|6
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|6|2|10|12|4||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|4|6|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|10|9|19|6
 assists: 10
-games: 5
-goals: 1
+games: 6
+goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
-points: 11
-rank: 23
+points: 12
+rank: 21
 season: fi-26-27

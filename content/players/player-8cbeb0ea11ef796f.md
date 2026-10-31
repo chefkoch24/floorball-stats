@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Barbora Fáčková
 Category: players
 Slug: player-8cbeb0ea11ef796f

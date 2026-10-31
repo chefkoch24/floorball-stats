@@ -6,7 +6,7 @@ type: game
 game_id: 56051
 home_team: Ķekava/RB&B
 away_team: FK Kurši
-attendance: 243.0
+attendance: 243
 away_goal_diffs_csv: 0,-1,-2,-2
 away_goal_minutes_csv: 31.9,32.42,35.68,58.55
 away_major_penalty_minutes_csv: 

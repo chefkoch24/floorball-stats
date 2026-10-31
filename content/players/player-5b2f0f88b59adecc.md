@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Emilia Mukkala
 Category: players
 Slug: player-5b2f0f88b59adecc
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 137
+rank: 139
 season: fiw-26-27

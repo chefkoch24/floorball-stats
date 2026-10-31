@@ -6,7 +6,7 @@ type: game
 game_id: 56050
 home_team: FBK Valmiera
 away_team: FK Talsi/TNSS/Krauzers
-attendance: 296.0
+attendance: 296
 away_goal_diffs_csv: -1,-1
 away_goal_minutes_csv: 12.32,50.28
 away_major_penalty_minutes_csv: 18.78
@@ -418,7 +418,7 @@ away_pregame_points_after_third_period: 3
 away_pregame_points_against_fbk_sac: 3
 away_pregame_points_against_fbk_valmiera: 1
 away_pregame_points_against_fk_kursi: 3
-away_pregame_points_against_kekava_rb_b: 3
+away_pregame_points_against_kekava_rb_b: 6
 away_pregame_points_against_lekrings: 0
 away_pregame_points_against_lielvarde_unihoc: 3
 away_pregame_points_against_masters_ulbroka_lu: 3

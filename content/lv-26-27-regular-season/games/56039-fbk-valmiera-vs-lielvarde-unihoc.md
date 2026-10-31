@@ -6,7 +6,7 @@ type: game
 game_id: 56039
 home_team: FBK Valmiera
 away_team: Lielvārde/Unihoc
-attendance: 150.0
+attendance: 150
 away_goal_diffs_csv: -1,-1
 away_goal_minutes_csv: 33.8,54.73
 away_major_penalty_minutes_csv: 

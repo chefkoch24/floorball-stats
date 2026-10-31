@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Matias Salmela
 Category: players
 Slug: player-c83c8ae01556a33f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 134
+rank: 136
 season: fi-26-27

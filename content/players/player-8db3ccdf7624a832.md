@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Anežka Műllerová
 Category: players
 Slug: player-8db3ccdf7624a832

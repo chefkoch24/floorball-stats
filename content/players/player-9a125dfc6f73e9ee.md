@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Vojtěch Kucharčík
 Category: players
 Slug: player-9a125dfc6f73e9ee
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 198
+rank: 208
 season: cz-26-27

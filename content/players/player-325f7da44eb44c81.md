@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Vršková Michaela
 Category: players
 Slug: player-325f7da44eb44c81

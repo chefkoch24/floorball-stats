@@ -417,6 +417,7 @@ away_pregame_points_against_fbc_kalmarsund: 0
 away_pregame_points_against_ibf_falun: 0
 away_pregame_points_against_ibk_lund_elit: 3
 away_pregame_points_against_jonkopings_ik: 3
+away_pregame_points_against_mullsjo_ais: 1
 away_pregame_points_against_visby_ibk: 3
 away_pregame_points_against_warberg_ic: 3
 away_pregame_points_max_difference_2: 3

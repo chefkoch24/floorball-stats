@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Treneris Mārtiņš Neilands
 Category: players
 Slug: player-1dc9cf1e19197a2b

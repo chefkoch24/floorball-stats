@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Saara Puurunen
 Category: players
 Slug: player-4d21c3bd8c9af146
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 171
+rank: 172
 season: fiw-26-27

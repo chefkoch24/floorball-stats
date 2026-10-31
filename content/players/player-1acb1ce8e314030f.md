@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oskar Blaha
 Category: players
 Slug: player-1acb1ce8e314030f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 317
+rank: 325
 season: cz-26-27

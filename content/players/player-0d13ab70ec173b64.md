@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Patáková Nikol
 Category: players
 Slug: player-0d13ab70ec173b64

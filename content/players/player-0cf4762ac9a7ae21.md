@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Karlsson
 Category: players
 Slug: player-0cf4762ac9a7ae21
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 263
+rank: 266
 season: se-26-27

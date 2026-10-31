@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Moa Andersson
 Category: players
 Slug: player-c1ca9bba1cf3f0e6

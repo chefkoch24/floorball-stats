@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jan Procházka
 Category: players
 Slug: player-5f8ffd77a5eb3db8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 96
+rank: 104
 season: cz-26-27

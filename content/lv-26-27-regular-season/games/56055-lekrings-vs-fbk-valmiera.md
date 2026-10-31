@@ -6,7 +6,7 @@ type: game
 game_id: 56055
 home_team: Lekrings
 away_team: FBK Valmiera
-attendance: 443.0
+attendance: 443
 away_goal_diffs_csv: -1,-2,-3,0
 away_goal_minutes_csv: 3.47,14.5,16.93,59.83
 away_major_penalty_minutes_csv: 

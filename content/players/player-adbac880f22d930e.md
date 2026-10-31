@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Milan Tichy
 Category: players
 Slug: player-adbac880f22d930e

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Eliška Eckerová
 Category: players
 Slug: player-8878eca0bdbc40fa

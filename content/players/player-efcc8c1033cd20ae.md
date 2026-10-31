@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Liv-Emma Lotz
 Category: players
 Slug: player-efcc8c1033cd20ae

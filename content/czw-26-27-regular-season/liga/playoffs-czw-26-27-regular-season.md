@@ -71,11 +71,11 @@ penalty_shot_goals: 0.25
 penalty_shot_goals_against: 0.25
 penalty_third_period: 2.38
 percent_goals_first_period: 32.03
-percent_goals_first_period_against: 25.66
+percent_goals_first_period_against: 25.67
 percent_goals_overtime: 0.34
 percent_goals_overtime_against: 0.42
 percent_goals_second_period: 31.21
-percent_goals_second_period_against: 33.08
+percent_goals_second_period_against: 33.07
 percent_goals_third_period: 35.42
 percent_goals_third_period_against: 40.05
 points: 15.0
@@ -98,7 +98,7 @@ powerplay_second_period: 3.38
 powerplay_third_period: 3.0
 rank: 4.5
 record_type: playoff_averages
-scoring_ratio: 2.12
+scoring_ratio: 2.11
 take_the_lead_goals: 9.38
 take_the_lead_goals_against: 5.88
 title: Playoffs

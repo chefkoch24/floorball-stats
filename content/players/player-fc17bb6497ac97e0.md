@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Emma Šlopková
 Category: players
 Slug: player-fc17bb6497ac97e0

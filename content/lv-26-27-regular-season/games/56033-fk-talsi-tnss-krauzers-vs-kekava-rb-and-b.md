@@ -6,7 +6,7 @@ type: game
 game_id: 56033
 home_team: FK Talsi/TNSS/Krauzers
 away_team: Ķekava/RB&B
-attendance: 214.0
+attendance: 214
 away_goal_diffs_csv: -1,-1,-2,-2,2
 away_goal_minutes_csv: 7.85,19.27,19.55,21.75,55.55
 away_major_penalty_minutes_csv: 14.58

@@ -419,6 +419,7 @@ away_pregame_points_against_ibk_dalen: 3
 away_pregame_points_against_ibk_lund_elit: 3
 away_pregame_points_against_jonkopings_ik: 3
 away_pregame_points_against_storvreta_ibk: 0
+away_pregame_points_against_visby_ibk: 3
 away_pregame_points_max_difference_2: 6
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 1.5

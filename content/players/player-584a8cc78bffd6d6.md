@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elin Rosén
 Category: players
 Slug: player-584a8cc78bffd6d6

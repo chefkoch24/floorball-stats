@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Martina Repková
 Category: players
 Slug: player-defe4423e56c211d

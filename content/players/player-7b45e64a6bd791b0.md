@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Oona Kauppi
 Category: players
 Slug: player-7b45e64a6bd791b0

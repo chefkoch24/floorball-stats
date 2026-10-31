@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lorenčíková Bianka
 Category: players
 Slug: player-a1c87b619edc359f

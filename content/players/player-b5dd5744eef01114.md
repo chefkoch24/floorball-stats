@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Andreas Stefansson
 Category: players
 Slug: player-b5dd5744eef01114
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 42
+rank: 50
 season: se-26-27

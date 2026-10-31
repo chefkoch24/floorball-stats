@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kristína Mlíchová
 Category: players
 Slug: player-daa2bf54eda434d6

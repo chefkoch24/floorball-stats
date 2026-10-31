@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jēkabs Skrīveris
 Category: players
 Slug: player-1df104cca42e480d

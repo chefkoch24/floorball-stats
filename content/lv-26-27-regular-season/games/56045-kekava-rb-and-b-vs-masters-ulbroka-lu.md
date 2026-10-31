@@ -6,7 +6,7 @@ type: game
 game_id: 56045
 home_team: Ķekava/RB&B
 away_team: Masters Ulbroka/LU
-attendance: 303.0
+attendance: 303
 away_goal_diffs_csv: 0,0,0,-1,-2,-3,-1
 away_goal_minutes_csv: 6.9,16.25,39.58,39.98,40.98,56.88,62.83
 away_major_penalty_minutes_csv: 

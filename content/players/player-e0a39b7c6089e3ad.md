@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Sjöblom
 Category: players
 Slug: player-e0a39b7c6089e3ad
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 265
+rank: 267
 season: se-26-27

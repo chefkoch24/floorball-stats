@@ -6,7 +6,7 @@ type: game
 game_id: 56053
 home_team: FBK SĀC
 away_team: Masters Ulbroka/LU
-attendance: 100.0
+attendance: 100
 away_goal_diffs_csv: -1,-1,-2,-3,-2,-3,-4,-5,-6,-7,-8
 away_goal_minutes_csv: 4.47,9.67,12.93,14.33,19.2,21.48,32.2,33.52,38.4,39.33,49.17
 away_major_penalty_minutes_csv: 12.77
