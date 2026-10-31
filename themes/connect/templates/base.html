@@ -15,9 +15,10 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page_title }}">
     <meta property="og:description" content="{{ page_description|striptags|truncate(300) }}">
-    {% if og_image is defined and og_image %}<meta property="og:image" content="{{ SITEURL }}/{{ og_image }}">{% endif %}
+    <meta property="og:image" content="{{ SITEURL }}/{{ og_image if og_image is defined and og_image else 'theme/img/og-default.png' }}">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="{{ SITEURL }}/theme/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="{{ SITEURL }}/theme/img/icon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/img/apple-touch-icon.png">
     <script>
     (function () {
         try {
@@ -42,8 +43,7 @@
 <header class="site-header">
     <div class="header-inner">
         <a class="brand fc-brand" href="{{ SITEURL }}/">
-            <span class="fc-brand__mark" aria-hidden="true"></span>
-            <span class="brand-title">Floorball Connect</span>
+            <img class="fc-brand__logo" src="{{ SITEURL }}/theme/img/logo.png" alt="Floorball Connect" width="88" height="40">
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Explore <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
         <a class="header-link" href="{{ STATS_URL }}/">Stats</a>

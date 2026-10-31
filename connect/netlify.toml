@@ -15,6 +15,11 @@
     Cache-Control = "public, max-age=604800"
 
 [[headers]]
+  for = "/videos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
   for = "/theme/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"

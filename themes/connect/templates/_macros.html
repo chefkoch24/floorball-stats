@@ -38,6 +38,7 @@
     {% if collection.card == 'media' %}
     <div class="fc-card__media{% if collection.key in ('sticks', 'blades', 'equipment') %} fc-card__media--product{% endif %}">
         {% if item.image %}{{ image(item.image, '') }}{% else %}<span class="fc-card__placeholder" aria-hidden="true">{{ item.title[:1] }}</span>{% endif %}
+        {% if item.videos or item.video %}<span class="fc-card__badge">▶ Video</span>{% endif %}
     </div>
     {% endif %}
     <div class="fc-card__body">

@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.append(str(ROOT / "connect"))
 sys.path.append(str(ROOT / "scripts"))
 import connect_content as cc  # noqa: E402
-from import_connect_softr import DATA_DIR, review_fields, save_image  # noqa: E402
+from import_connect_softr import DATA_DIR, media_name, review_fields, save_image, save_video  # noqa: E402
 
 API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
@@ -184,7 +184,9 @@ def record_fields(page: dict, notion: Notion, session: requests.Session, prefix:
     fields = {name: property_value(prop) for name, prop in page["properties"].items()}
     for key in ("Images", "Thumbnail"):
         if isinstance(fields.get(key), list):
-            fields[key] = [save_image(url, f"{prefix}-{index}", session) for index, url in enumerate(fields[key]) if url]
+            fields[key] = [save_image(url, media_name(prefix, url), session) for url in fields[key] if url]
+    if isinstance(fields.get("Videos"), list):
+        fields["Videos"] = [save_video(url, media_name(prefix, url), session) for url in fields["Videos"] if url]
     if with_body:
         fields["Page Content"] = blocks_html(notion, page["id"], session, prefix) or None
     return fields

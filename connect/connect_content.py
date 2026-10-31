@@ -178,6 +178,7 @@ class Item:
     date: str = ""
     reviews: list[dict] = field(default_factory=list)
     video: str = ""  # YouTube id, embedded on the page
+    videos: list[str] = field(default_factory=list)  # video files (drill clips), relative to content/
     url: str = ""
 
 
@@ -227,6 +228,12 @@ def normalize(collection: Collection, record: dict) -> Item:
     elif key == "drills":
         item.title = _text(fields.get("Name"))
         item.tags = item.facet = _list(fields.get("Categories"))
+        item.videos = _list(fields.get("Videos"))
+        # The list shows the thumbnail; the page shows the drill's own pictures when it has them.
+        thumbnails = _list(fields.get("Thumbnail"))
+        pictures = _list(fields.get("Images"))
+        item.image = (thumbnails or pictures or [""])[0]
+        item.images = pictures or thumbnails
     elif key == "guides":
         item.title = _text(fields.get("Headline") or fields.get("Name"))
         item.tags = item.facet = _list(fields.get("Category"))

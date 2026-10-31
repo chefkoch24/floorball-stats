@@ -50,7 +50,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'videos', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/_redirects': {'path': '_redirects'},
     'extra/robots.txt': {'path': 'robots.txt'},

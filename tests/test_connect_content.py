@@ -94,7 +94,7 @@ def test_committed_data_loads_for_every_collection() -> None:
         assert items[collection.key], collection.key
         for item in items[collection.key]:
             assert item.title and item.slug
-            for path in [item.image, *(src for review in item.reviews for src in review["images"])]:
+            for path in [item.image, *item.images, *item.videos, *(src for review in item.reviews for src in review["images"])]:
                 if path and not path.startswith("http"):
                     assert (ROOT / "connect" / "content" / path).exists(), path
 

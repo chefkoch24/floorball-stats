@@ -10,7 +10,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-6425285d.webp"
     ],
-    "Name": "1 vs 1 from Middleline"
+    "Name": "1 vs 1 from Middleline",
+    "Images": [
+     "images/drills/2621e0bb-6e7cb84e.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -27,7 +31,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-568179b0.webp"
     ],
-    "Name": "Quick Passes with Shot from Slot"
+    "Name": "Quick Passes with Shot from Slot",
+    "Images": [
+     "images/drills/2621e0bb-763dd92f.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -41,7 +49,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-560a0105.webp"
     ],
-    "Name": "1vs1 into 2vs1"
+    "Name": "1vs1 into 2vs1",
+    "Images": [
+     "images/drills/2621e0bb-c9e5a5c8.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -58,7 +70,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-1d2c9e95.webp"
     ],
-    "Name": "Move after Pass from Corner"
+    "Name": "Move after Pass from Corner",
+    "Images": [
+     "images/drills/2621e0bb-da299b22.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -73,7 +89,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-2324f54f.webp"
     ],
-    "Name": "Distance Shot from Movement"
+    "Name": "Distance Shot from Movement",
+    "Images": [
+     "images/drills/2621e0bb-f55cac87.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -88,7 +108,11 @@
     "Thumbnail": [
      "images/drills/2621e0bb-ab509eba.webp"
     ],
-    "Name": "Scan and Breakaway with Backcheck"
+    "Name": "Scan and Breakaway with Backcheck",
+    "Images": [
+     "images/drills/2621e0bb-ff9251f8.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -103,7 +127,11 @@
     "Thumbnail": [
      "images/drills/2631e0bb-4323e839.webp"
     ],
-    "Name": "Championship Ball (Score & Leave)"
+    "Name": "Championship Ball (Score & Leave)",
+    "Images": [
+     "images/drills/2631e0bb-d9919c0a.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -118,7 +146,11 @@
     "Thumbnail": [
      "images/drills/2631e0bb-76ddbb83.webp"
     ],
-    "Name": "1 vs 1, 2vs2, 3 vs 2"
+    "Name": "1 vs 1, 2vs2, 3 vs 2",
+    "Images": [
+     "images/drills/2631e0bb-e97c07b8.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -131,7 +163,12 @@
     "Thumbnail": [
      "images/drills/2b11e0bb-fc304225.webp"
     ],
-    "Name": "Pass like Gabriel Kohonen"
+    "Name": "Pass like Gabriel Kohonen",
+    "Images": [
+     "images/drills/2b11e0bb-5815418c.webp",
+     "images/drills/2b11e0bb-617732b4.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -147,7 +184,12 @@
     "Thumbnail": [
      "images/drills/2bc1e0bb-87b3b7a0.webp"
     ],
-    "Name": "Options in the Slot"
+    "Name": "Options in the Slot",
+    "Images": [
+     "images/drills/2bc1e0bb-76163e57.webp",
+     "images/drills/2bc1e0bb-788f40c0.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -162,7 +204,11 @@
     "Thumbnail": [
      "images/drills/2c51e0bb-c775d448.webp"
     ],
-    "Name": "Move the Ball into Scoring Position"
+    "Name": "Move the Ball into Scoring Position",
+    "Images": [
+     "images/drills/2c51e0bb-7ec6eae4.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -176,7 +222,11 @@
     "Thumbnail": [
      "images/drills/2ee1e0bb-19bb3740.webp"
     ],
-    "Name": "Double Shot"
+    "Name": "Double Shot",
+    "Images": [
+     "images/drills/2ee1e0bb-39563f35.webp"
+    ],
+    "Videos": []
    }
   },
   {
@@ -193,7 +243,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-830f1467.webp"
     ],
-    "Name": "1vs0 - 1vs1 - 2vs1 - 2vs2 - 3vs2"
+    "Name": "1vs0 - 1vs1 - 2vs1 - 2vs2 - 3vs2",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-cf167f5d.mp4"
+    ]
    }
   },
   {
@@ -206,7 +260,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-18cc03fb.webp"
     ],
-    "Name": "Passing-Queue"
+    "Name": "Passing-Queue",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-b9d27001.mp4"
+    ]
    }
   },
   {
@@ -221,7 +279,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-a8d70a77.webp"
     ],
-    "Name": "Build up behind the goal with shot"
+    "Name": "Build up behind the goal with shot",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-c440ef46.mp4"
+    ]
    }
   },
   {
@@ -235,7 +297,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-ce4c788d.webp"
     ],
-    "Name": "Rondo"
+    "Name": "Rondo",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-d494b14f.mp4"
+    ]
    }
   },
   {
@@ -250,7 +316,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-48059018.webp"
     ],
-    "Name": "1vs1-2vs1-3vs2"
+    "Name": "1vs1-2vs1-3vs2",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-23c3f3d7.mp4"
+    ]
    }
   },
   {
@@ -265,7 +335,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-2b1946df.webp"
     ],
-    "Name": "Double Carousel"
+    "Name": "Double Carousel",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-77772e7f.mp4"
+    ]
    }
   },
   {
@@ -278,7 +352,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-bae14cd6.webp"
     ],
-    "Name": "Diagonal one-two with finish in slot"
+    "Name": "Diagonal one-two with finish in slot",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-a42f2213.mp4"
+    ]
    }
   },
   {
@@ -293,7 +371,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-97be5ffd.webp"
     ],
-    "Name": "Carousel"
+    "Name": "Carousel",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-3128382d.mp4"
+    ]
    }
   },
   {
@@ -306,7 +388,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-f3971fe7.webp"
     ],
-    "Name": "Shooting Positions"
+    "Name": "Shooting Positions",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-7e436462.mp4"
+    ]
    }
   },
   {
@@ -320,7 +406,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-e84d94e7.webp"
     ],
-    "Name": "Passingsquare with shot"
+    "Name": "Passingsquare with shot",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-000bdc6c.mp4"
+    ]
    }
   },
   {
@@ -334,7 +424,11 @@
     "Thumbnail": [
      "images/drills/2f41e0bb-b0950eab.webp"
     ],
-    "Name": "Shot from the slot"
+    "Name": "Shot from the slot",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2f41e0bb-bed552cb.mp4"
+    ]
    }
   },
   {
@@ -348,7 +442,11 @@
     "Thumbnail": [
      "images/drills/2fd1e0bb-29422905.webp"
     ],
-    "Name": "Crosspass"
+    "Name": "Crosspass",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2fd1e0bb-d062b156.mp4"
+    ]
    }
   },
   {
@@ -363,7 +461,11 @@
     "Thumbnail": [
      "images/drills/2fd1e0bb-734d5ca0.webp"
     ],
-    "Name": "Crossing"
+    "Name": "Crossing",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2fd1e0bb-b14cdd99.mp4"
+    ]
    }
   },
   {
@@ -377,7 +479,11 @@
     "Thumbnail": [
      "images/drills/2fe1e0bb-8bf90681.webp"
     ],
-    "Name": "Opening over the Middle"
+    "Name": "Opening over the Middle",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2fe1e0bb-57c71e04.mp4"
+    ]
    }
   },
   {
@@ -392,7 +498,11 @@
     "Thumbnail": [
      "images/drills/2fe1e0bb-37285c7c.webp"
     ],
-    "Name": "3 vs 2 Transitions"
+    "Name": "3 vs 2 Transitions",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2fe1e0bb-bf7dd6ff.mp4"
+    ]
    }
   },
   {
@@ -405,7 +515,11 @@
     "Thumbnail": [
      "images/drills/2fe1e0bb-b38c7156.webp"
     ],
-    "Name": "Color Passing"
+    "Name": "Color Passing",
+    "Images": [],
+    "Videos": [
+     "videos/drills/2fe1e0bb-58d994a8.mp4"
+    ]
    }
   },
   {
@@ -420,7 +534,11 @@
     "Thumbnail": [
      "images/drills/3001e0bb-215ad89b.webp"
     ],
-    "Name": "Bresil"
+    "Name": "Bresil",
+    "Images": [],
+    "Videos": [
+     "videos/drills/3001e0bb-111936fe.mp4"
+    ]
    }
   },
   {
@@ -434,7 +552,11 @@
     "Thumbnail": [
      "images/drills/3001e0bb-5d75c016.webp"
     ],
-    "Name": "Double Ronodo 5 vs 3"
+    "Name": "Double Ronodo 5 vs 3",
+    "Images": [],
+    "Videos": [
+     "videos/drills/3001e0bb-d227b46e.mp4"
+    ]
    }
   },
   {
@@ -449,7 +571,11 @@
     "Thumbnail": [
      "images/drills/3001e0bb-0b07adf9.webp"
     ],
-    "Name": "Transition with Backcheck"
+    "Name": "Transition with Backcheck",
+    "Images": [],
+    "Videos": [
+     "videos/drills/3001e0bb-fccbb7f7.mp4"
+    ]
    }
   }
  ]

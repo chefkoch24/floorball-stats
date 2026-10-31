@@ -30,6 +30,7 @@ import connect_content as cc  # noqa: E402
 
 DATA_DIR = ROOT / "connect" / "data"
 IMAGE_DIR = ROOT / "connect" / "content" / "images"
+VIDEO_DIR = ROOT / "connect" / "content" / "videos"
 EXPIRING_HOSTS = ("amazonaws.com", "storage.tally.so", "notion-static.com", "notion.so")
 MAX_SIDE = 1400
 # Only what a review page shows. Reviewers who chose to stay anonymous lose name and handle
@@ -95,15 +96,32 @@ def save_image(url: str, name: str, session: requests.Session) -> str:
     return target.relative_to(ROOT / "connect" / "content").as_posix()
 
 
+def save_video(url: str, name: str, session: requests.Session) -> str:
+    """Store an expiring video file as it is (the drill clips are short H.264 MP4s)."""
+    if not any(host in urlparse(url).netloc for host in EXPIRING_HOSTS):
+        return url
+    suffix = Path(urlparse(url).path).suffix.lower() or ".mp4"
+    target = VIDEO_DIR / f"{name}{suffix}"
+    if not target.exists():
+        response = session.get(url, timeout=120)
+        response.raise_for_status()
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(response.content)
+    return target.relative_to(ROOT / "connect" / "content").as_posix()
+
+
+def media_name(prefix: str, url: str) -> str:
+    return f"{prefix}-{hashlib.sha1(url.split('?')[0].encode()).hexdigest()[:8]}"
+
+
 def localize(fields: dict, prefix: str, session: requests.Session) -> dict:
     out = {}
     for key, value in fields.items():
         value = simplify(value)
         if key in ("Images", "Thumbnail") and isinstance(value, list):
-            value = [
-                save_image(url, f"{prefix}-{hashlib.sha1(url.split('?')[0].encode()).hexdigest()[:8]}", session)
-                for url in value if isinstance(url, str)
-            ]
+            value = [save_image(url, media_name(prefix, url), session) for url in value if isinstance(url, str)]
+        elif key == "Videos" and isinstance(value, list):
+            value = [save_video(url, media_name(prefix, url), session) for url in value if isinstance(url, str)]
         out[key] = value
     return out
 

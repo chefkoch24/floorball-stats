@@ -2,22 +2,10 @@
    Only tokens from the shared design system; no colour or size of its own. */
 @layer components {
   /* Brand and header extras */
-  .fc-brand { display: inline-flex; align-items: center; gap: 8px; }
-  .fc-brand__mark {
-    position: relative;
-    width: 22px;
-    height: 22px;
-    flex: none;
-    border: 3px solid var(--rink);
-    border-radius: var(--radius-pill);
-  }
-  .fc-brand__mark::after {
-    content: "";
-    position: absolute;
-    inset: 4px;
-    border-radius: var(--radius-pill);
-    background: var(--ball);
-  }
+  .fc-brand { display: inline-flex; align-items: center; }
+  .fc-brand__logo { display: block; width: auto; height: 40px; }
+  /* The logo is blue on transparent; a little lift keeps it readable on the dark header. */
+  [data-theme="dark"] .fc-brand__logo { filter: brightness(1.35) saturate(1.1); }
   .fc-cta {
     display: inline-flex;
     align-items: center;
@@ -31,7 +19,7 @@
   .fc-cta:hover { text-decoration: none; filter: brightness(1.08); }
   @media (max-width: 640px) {
     .fc-cta { padding: 6px 10px; font-size: 12px; }
-    .fc-brand .brand-title { font-size: 18px; }
+    .fc-brand__logo { height: 34px; }
   }
   /* Phones: the newsletter sits in the menu and at the end of every page. */
   @media (max-width: 480px) {
@@ -261,6 +249,7 @@
   .fc-card__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
   .fc-card__media--product { aspect-ratio: 4 / 3; background: #ffffff; }
   .fc-card__media--product img { object-fit: contain; padding: var(--space-3); }
+  .fc-card__badge { position: absolute; left: var(--space-2); bottom: var(--space-2); padding: 3px 8px; border-radius: var(--radius-pill); background: rgba(13, 19, 29, 0.78); color: #ffffff; font: 600 12px/1.2 var(--font-body); }
   .fc-card__placeholder {
     display: grid;
     place-items: center;
@@ -384,6 +373,10 @@
   .fc-detail__media { margin: 0; }
   .fc-detail__media img { width: 100%; max-height: 560px; object-fit: contain; border-radius: var(--radius-lg); background: var(--surface-sunken); }
   .fc-detail__media--product img { padding: var(--space-6); background: #ffffff; }
+  .fc-detail__media--video video { display: block; width: 100%; max-height: 620px; border-radius: var(--radius-lg); background: var(--surface-sunken); }
+  .fc-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: var(--space-3); }
+  .fc-gallery figure { margin: 0; }
+  .fc-gallery img { display: block; width: 100%; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface-sunken); }
   .fc-detail__aside { position: sticky; top: calc(var(--site-header-height, 60px) + var(--space-4)); display: grid; gap: var(--space-4); }
   .fc-panel { display: grid; gap: var(--space-3); padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface-raised); }
   .fc-panel h2 { margin: 0; }

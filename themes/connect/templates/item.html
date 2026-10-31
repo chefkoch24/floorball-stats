@@ -21,10 +21,21 @@
 
 <div class="fc-detail">
     <article class="fc-detail__main">
-        {% if item.video %}
+        {% if item.videos %}
+        {# Drill clips: short animations, so they play muted on a loop like a moving diagram. #}
+        {% for src in item.videos %}
+        <figure class="fc-detail__media fc-detail__media--video">
+            <video src="{{ SITEURL }}/{{ src }}" {% if item.image %}poster="{{ SITEURL }}/{{ item.image }}"{% endif %} controls muted loop playsinline preload="metadata" {% if loop.first %}autoplay{% endif %}></video>
+        </figure>
+        {% endfor %}
+        {% elif item.video %}
         <div class="fc-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ item.video }}" title="{{ item.title }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         {% elif item.image %}
         <figure class="fc-detail__media{% if collection.key == 'equipment' %} fc-detail__media--product{% endif %}">{{ m.image(item.image, item.title) }}</figure>
+        {% endif %}
+        {% set extra = item.images if item.videos else item.images[1:] %}
+        {% if collection.key == 'drills' and extra %}
+        <div class="fc-gallery">{% for src in extra %}<figure>{{ m.image(src, item.title) }}</figure>{% endfor %}</div>
         {% endif %}
         {% if item.summary %}<p class="fc-lead">{{ item.summary }}</p>{% endif %}
         {% if item.body %}<div class="fc-prose fc-prose--detail">{{ item.body }}</div>{% endif %}
