@@ -421,15 +421,21 @@ make connect-html PELICAN=.venv/bin/pelican     # builds connect/output
 cd connect/output && python -m http.server 8001
 ```
 
+`make publish` builds it as part of the stats site into `output/connect-site/` and writes
+the Netlify rules that serve it on www.floorballconnect.com (`plugins/connect_site.py`).
+To put it live, add `www.floorballconnect.com` and `floorballconnect.com` as domains of the
+stats site in Netlify (Domain management) and point their DNS there. Deploy previews show it
+under `/connect-preview/`.
+
 Content comes from Notion. To refresh it locally or on Netlify:
 
 1. Create a Notion internal integration, share the content and review databases with it,
-   and set `NOTION_TOKEN`.
+   and set `NOTION_TOKEN` (on Netlify: Site configuration → Environment variables).
 2. Fill `connect/notion.json` (copy `connect/notion.example.json`) with the database ids.
 3. `make connect-sync-notion PYTHON=.venv/bin/python`, then rebuild.
 
-On Netlify the Connect site runs the sync before every build, so a rebuild (for example
-from a daily build hook) picks up new reviews.
+With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild (for example from
+a daily build hook) picks up new reviews.
 
 ## Run tests
 
