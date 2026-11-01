@@ -85,21 +85,10 @@ if (window.Chart) {
 </head>
 <body>
 <header class="site-header">
+    {% set header_is_stats = true %}
     {% set header_home = CONNECT_URL %}
     {% set header_stats = SITEURL %}
     {% include 'site_header.html' %}
-    <div class="stats-navigation">
-        <nav class="stats-navigation__inner" aria-label="Stats tools">
-            <a class="stats-navigation__home" href="{{ SITEURL }}/">Stats home</a>
-            <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
-            <a class="stats-navigation__link" href="{{ SITEURL }}/leaders.html">Leaders</a>
-            <a class="stats-navigation__link stats-navigation__link--wide" href="{{ SITEURL }}/stats-explained.html">How it works</a>
-            <div class="header-actions">
-                <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
-                <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
-            </div>
-        </nav>
-    </div>
     <nav class="main-nav" id="leagueNav" aria-label="Leagues">
         {% set available_categories = categories|default([])|category_slugs %}
         {% macro nav_phase_link(slug, label, available) -%}
@@ -113,6 +102,7 @@ if (window.Chart) {
                     {% endfor %}
                 </div>
                 <span class="nav-menu-links">
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/">Stats overview →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/stats-explained.html">How our stats work →</a>
                     <a class="nav-leaders-link" href="{{ CONNECT_URL }}/">Reviews, drills and where to watch on Floorball Connect →</a>

@@ -1,29 +1,33 @@
 // Both sites share the Explore menu; Stats also has an independent league menu.
 (() => {
-  const menus = Array.from(document.querySelectorAll('[data-nav-toggle]')).map((toggle) => ({
-    toggle,
-    panel: document.getElementById(toggle.getAttribute('aria-controls')),
-  })).filter(({ panel }) => panel);
+  const menus = [];
+  document.querySelectorAll('[data-nav-toggle]').forEach((toggle) => {
+    const panel = document.getElementById(toggle.getAttribute('aria-controls'));
+    if (!panel) return;
+    let menu = menus.find((entry) => entry.panel === panel);
+    if (!menu) { menu = { panel, toggles: [] }; menus.push(menu); }
+    menu.toggles.push(toggle);
+  });
 
-  const close = ({ toggle, panel }) => {
+  const close = ({ toggles, panel }) => {
     panel.classList.remove('is-open');
-    toggle.setAttribute('aria-expanded', 'false');
+    toggles.forEach((toggle) => toggle.setAttribute('aria-expanded', 'false'));
   };
 
-  menus.forEach((menu) => {
-    menu.toggle.addEventListener('click', () => {
-      const open = menu.toggle.getAttribute('aria-expanded') !== 'true';
+  menus.forEach((menu) => menu.toggles.forEach((toggle) => {
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') !== 'true';
       menus.forEach(close);
       if (open) {
         menu.panel.classList.add('is-open');
-        menu.toggle.setAttribute('aria-expanded', 'true');
+        menu.toggles.forEach((trigger) => trigger.setAttribute('aria-expanded', 'true'));
       }
     });
-  });
+  }));
 
   document.addEventListener('click', (event) => {
     menus.forEach((menu) => {
-      if (!menu.panel.contains(event.target) && !menu.toggle.contains(event.target)) close(menu);
+      if (!menu.panel.contains(event.target) && !menu.toggles.some((toggle) => toggle.contains(event.target))) close(menu);
     });
   });
 
@@ -32,7 +36,9 @@
     menus.forEach((menu) => {
       if (menu.panel.classList.contains('is-open')) {
         close(menu);
-        menu.toggle.focus();
+        const trigger = menu.toggles.find((toggle) => toggle.offsetParent !== null)
+          || document.querySelector('[aria-controls="mainNav"]');
+        if (trigger) trigger.focus();
       }
     });
   });

@@ -59,6 +59,7 @@ html[data-division="women"] [data-division="men"] { display: none; }
     background: var(--rink-soft);
     color: var(--ink);
   }
+  .fc-nav__stats > a:first-child { display: grid; gap: 6px; color: var(--ink); }
   .fc-nav__stats:hover { border-color: var(--rink); text-decoration: none; }
   .fc-nav__stats strong { font: 700 18px/1.2 var(--font-display); font-stretch: 85%; }
   .fc-nav__more { color: var(--rink); font-weight: 600; font-size: 14px; }
@@ -67,15 +68,8 @@ html[data-division="women"] [data-division="men"] { display: none; }
     .fc-nav__stats { grid-column: 1 / -1; }
   }
 
-  /* Stats-specific tools sit below the shared Floorball Connect navigation. */
-  .stats-navigation { border-top: 1px solid var(--line); }
-  .stats-navigation__inner { display: flex; align-items: center; gap: var(--space-3); max-width: 1200px; margin: 0 auto; padding: 7px 16px; }
-  .stats-navigation__home { color: var(--ink); font: 800 16px/1 var(--font-display); white-space: nowrap; }
-  .stats-navigation__link { color: var(--ink-muted); font: 600 13px/1.2 var(--font-body); white-space: nowrap; }
-  @media (max-width: 640px) {
-    .stats-navigation__inner { gap: var(--space-2); }
-    .stats-navigation__link--wide { display: none; }
-  }
+  /* The Stats menu lives in the single global header; phones reach it via Explore. */
+  @media (max-width: 480px) { .header-inner .header-stats-toggle { display: none; } }
 
   /* Header */
   .site-header {
