@@ -639,6 +639,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
     share_rows = {"men": [], "women": []}
     crowd_rows = {"men": [], "women": []}
     penalty_rows = {"men": [], "women": []}
+    player_penalty_rows = {"men": [], "women": []}
 
     for category, team_articles in teams_by_category.items():
         match = CATEGORY_PATTERN.match(category)
@@ -679,6 +680,8 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 line = team_penalties.get(team)
                 if line and line.games:
                     penalty_rows[info["division"]].append({"team": team, "url": article.url, "line": line, "info": info})
+            for player, team, line in player_penalties.values():
+                player_penalty_rows[info["division"]].append({"player": player, "team": team, "line": line, "info": info})
 
         lead_rows, hot_teams, hot_players = [], [], []
         for team, article in teams.items():
@@ -789,6 +792,16 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
                 {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
                  "initials": initials(row["team"]), **origin(row["info"]), "value": str(row["line"].total),
                  "detail": f"{row['line'].per_game:.2f} per game · {row['line'].games} GP"}
+                for index, row in enumerate(rows, start=1)
+            ],
+        })
+        rows = sorted(player_penalty_rows.get(division, []), key=lambda row: (-row["line"].total, row["player"].name))[: leaders.TOP]
+        boards.append({
+            "key": "player-penalties", "title": "Most penalised players", "unit": "Penalties in total", "kind": "player",
+            "entries": [
+                {"rank": index, **_player_link(row["player"], player_slugs), "team": row["team"], "crest": crest_index(row["team"]),
+                 "initials": initials(row["team"]), **origin(row["info"]), "value": str(row["line"].total),
+                 "detail": _penalty_row(row["line"])["summary"]}
                 for index, row in enumerate(rows, start=1)
             ],
         })

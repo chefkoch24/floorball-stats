@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m with context %}
+{% set by_key = {} %}
+{% for collection in CONNECT_COLLECTIONS %}{% set _ = by_key.update({collection.key: collection}) %}{% endfor %}
+
+{% block content %}
+<section class="fc-hero">
+    <div class="fc-hero__text">
+        <span class="fs-label">The home of Floorball</span>
+        <h1 class="fc-hero__title">Everything for Floorball, on and off the court.</h1>
+        <p class="fc-lead">Honest stick and blade reviews from players, drills and guides, where to watch every league, and stats for the top leagues in Europe. Made by the Floorball community for the Floorball community.</p>
+        <div class="fc-actions">
+            <a class="fs-btn fs-btn--primary" href="{{ STATS_URL }}/" data-cta="hero-stats">Explore league stats</a>
+            <a class="fs-btn" href="{{ SITEURL }}/floorball-sticks/" data-cta="hero-reviews">Read stick reviews</a>
+        </div>
+    </div>
+    <dl class="fc-hero__numbers">
+        <div><dt>Stick and blade reviews</dt><dd class="fs-num">{{ CONNECT_REVIEW_COUNT }}</dd></div>
+        <div><dt>Drills and guides</dt><dd class="fs-num">{{ CONNECT_ITEMS.drills|length + CONNECT_ITEMS.guides|length }}</dd></div>
+        <div><dt>Leagues with stats</dt><dd class="fs-num">14</dd></div>
+        <div><dt>Followers</dt><dd class="fs-num">{{ FOLLOWERS }}</dd></div>
+    </dl>
+</section>
+
+{# Live block from the stats site: connect-feed.json, rendered by site.js. Without it the
+   teaser below stays as the way in. #}
+<section class="fc-live" aria-labelledby="liveTitle" data-live-stats="{{ STATS_URL }}/connect-feed.json" hidden>
+    <div class="fc-section__head">
+        <div>
+            <span class="fs-label">Live from the leagues</span>
+            <h2 class="fs-section-title" id="liveTitle">Floorball Stats</h2>
+        </div>
+        <div class="fs-segmented" role="group" aria-label="Show men's or women's leagues">
+            <button type="button" class="fs-segment" data-live-division="men" aria-pressed="true">Men</button>
+            <button type="button" class="fs-segment" data-live-division="women" aria-pressed="false">Women</button>
+        </div>
+    </div>
+    <div class="fc-live__games">
+        <p class="fc-live__label" data-live-games-label></p>
+        <div class="fs-strip" data-live-games></div>
+    </div>
+    <div class="fc-live__grid">
+        <div>
+            <h3 class="fs-panel-title">Power ranking</h3>
+            <p class="fc-live__hint">Top of every league by Elo rating. <a href="{{ STATS_URL }}/stats-explained.html#power-ranking">How it works</a></p>
+            <div class="fc-live__leagues" data-live-power></div>
+        </div>
+        <div>
+            <h3 class="fs-panel-title">Top scorers</h3>
+            <p class="fc-live__hint">Points across all leagues this season.</p>
+            <ol class="fc-live__leaders" data-live-leaders></ol>
+            <a class="fc-section__more" href="{{ STATS_URL }}/leaders.html">All leaders →</a>
+        </div>
+    </div>
+</section>
+
+<section class="fc-stats-teaser" aria-labelledby="statsTitle">
+    <div>
+        <span class="fs-label">Floorball Stats</span>
+        <h2 class="fs-section-title" id="statsTitle">Standings, results and the story of every game</h2>
+        <p>Sweden, Finland, Czech Republic, Switzerland, Slovakia, Latvia and Germany, men and women: power rankings, win chances, player stats, head to head and what is at stake in every game.</p>
+    </div>
+    <div class="fc-stats-teaser__links">
+        <a class="fs-btn fs-btn--primary" href="{{ STATS_URL }}/" data-cta="teaser-stats">Open Floorball Stats</a>
+        <a class="fs-btn" href="{{ STATS_URL }}/leaders.html" data-cta="teaser-leaders">Leaders across all leagues</a>
+    </div>
+</section>
+
+{% macro shelf(key, title, limit=4, more='See all') %}
+{% set collection = by_key[key] %}
+{% set rows = CONNECT_ITEMS[key] %}
+{% if rows %}
+<section class="fc-section" aria-labelledby="shelf-{{ key }}">
+    <div class="fc-section__head">
+        <h2 class="fs-section-title" id="shelf-{{ key }}">{{ title }}</h2>
+        <a class="fc-section__more" href="{{ SITEURL }}/{{ collection.slug }}/">{{ more }} {{ rows|length }} →</a>
+    </div>
+    <div class="fc-grid fc-grid--{{ collection.card }} fc-grid--shelf">
+        {% for item in rows[:limit] %}{{ m.card(collection, item) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endmacro %}
+
+{{ shelf('sticks', 'Stick reviews') }}
+{{ shelf('drills', 'Drills') }}
+
+<section class="fc-section" aria-labelledby="watchTitle">
+    <div class="fc-section__head">
+        <h2 class="fs-section-title" id="watchTitle">Where to watch</h2>
+        <a class="fc-section__more" href="{{ SITEURL }}/watch-floorball/">All leagues →</a>
+    </div>
+    <div class="fc-watch">
+        {% for item in CONNECT_ITEMS.watch %}
+        <a class="fc-watch__item" href="{{ SITEURL }}/{{ item.url }}">
+            {% set place = item.title|replace('How to watch ', '')|replace('?', '') %}<strong>{{ place[:1]|upper ~ place[1:] }}</strong>
+            {% for tag in item.tags %}<span class="fc-watch__tag{% if 'Free' in tag %} fc-watch__tag--free{% endif %}">{{ tag }}</span>{% endfor %}
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+{{ shelf('blades', 'Blade reviews') }}
+{{ shelf('documentaries', 'Documentaries') }}
+{{ shelf('podcasts', 'Podcasts') }}
+
+<section class="fc-section" aria-labelledby="exploreTitle">
+    <h2 class="fs-section-title" id="exploreTitle">Explore Floorball Connect</h2>
+    <div class="fc-explore">
+        {% for collection in CONNECT_COLLECTIONS %}
+        <a class="fc-explore__item" href="{{ SITEURL }}/{{ collection.slug }}/">
+            <span class="fs-label">{{ collection.nav }}</span>
+            <strong>{{ collection.title }}</strong>
+            <span>{{ CONNECT_ITEMS[collection.key]|length }} {{ 'entries' if CONNECT_ITEMS[collection.key]|length != 1 else 'entry' }}</span>
+        </a>
+        {% endfor %}
+        {% for title in ('Courses', 'Camps') %}
+        <a class="fc-explore__item" href="{{ SITEURL }}/coming-soon/">
+            <span class="fs-label">Learn</span>
+            <strong>{{ title }}</strong>
+            <span>Coming soon</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="fc-section" aria-labelledby="faqTitle">
+    <h2 class="fs-section-title" id="faqTitle">Frequently asked questions</h2>
+    <div class="fc-faq">
+        {% for question, answer in FAQ %}
+        <details class="fc-faq__item">
+            <summary>{{ question }}</summary>
+            <p>{{ answer }}</p>
+        </details>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

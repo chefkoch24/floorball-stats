@@ -267,16 +267,20 @@ def _period_and_sortkey(total_time: str, period_hint: int | None) -> tuple[int, 
     return period, f"{period}-{minute_in_period:02d}:{sec:02d}"
 
 
+# floorball.lv writes the penalty after the player, e.g. "#10 Name (12 min; nesportiska uzvedība)".
+# The minutes include the bench minor: 4 = 2+2, 12 = 2+10 and 24 = match penalty ("spēles sods").
+# Only the bracket is read, so jersey numbers and names never decide the type.
+_PENALTY_MINUTES = {2: "penalty_2", 4: "penalty_2and2", 5: "penalty_5", 10: "penalty_10", 12: "penalty_10", 24: "penalty_ms_full"}
+
+
 def _map_penalty_type(text: str) -> str:
-    lowered = text.lower()
-    if "10" in lowered:
-        return "penalty_10"
-    if "2+2" in lowered:
-        return "penalty_2and2"
-    if "5" in lowered:
-        return "penalty_5"
-    if "ms" in lowered:
+    bracket = re.search(r"\(([^)]*)\)", text or "")
+    inner = bracket.group(1).lower() if bracket else ""
+    if "spēles sods" in inner:
         return "penalty_ms_full"
+    minutes = re.match(r"\s*(\d+)\s*min", inner)
+    if minutes:
+        return _PENALTY_MINUTES.get(int(minutes.group(1)), "penalty_2")
     return "penalty_2"
 
 

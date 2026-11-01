@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: FK Talsi/TNSS/Krauzers
 Category: lv-26-27-regular-season, teams
 Slug: fk-talsi-tnss-krauzers-lv-26-27-regular-season-lv-26-27-regular-season
@@ -6,12 +6,12 @@ type: team
 team:FK Talsi/TNSS/Krauzers
 platzierungsverlauf:lv-26-27-regular-season/teams/fk-talsi-tnss-krauzers-lv-26-27-regular-season_platzierungsverlauf.png
 away_points: 10
-boxplay: 25
-boxplay_efficiency: 88.0
-boxplay_first_period: 5
+boxplay: 23
+boxplay_efficiency: 82.61
+boxplay_first_period: 4
 boxplay_overtime: 1
-boxplay_per_game: 2.78
-boxplay_second_period: 8
+boxplay_per_game: 2.56
+boxplay_second_period: 7
 boxplay_third_period: 11
 close_game_loss: 2
 close_game_overtime: 1
@@ -33,8 +33,8 @@ goals: 52
 goals_against: 34
 goals_against_away: 18
 goals_against_home: 16
-goals_against_in_boxplay: 3
-goals_against_in_boxplay_per_game: 0.33
+goals_against_in_boxplay: 4
+goals_against_in_boxplay_per_game: 0.44
 goals_against_in_powerplay: 0
 goals_against_per_game: 3.78
 goals_away: 25
@@ -57,13 +57,13 @@ loss_1: 2
 losses: 2
 over_time_losses: 1
 over_time_wins: 0
-penalties: 21
-penalties_per_game: 2.33
+penalties: 22
+penalties_per_game: 2.44
 penalty_10: 0
-penalty_2: 17
-penalty_2and2: 0
+penalty_2: 21
+penalty_2and2: 1
 penalty_first_period: 4
-penalty_ms: 4
+penalty_ms: 0
 penalty_overtime: 1
 penalty_second_period: 7
 penalty_shootout_losses: 0
@@ -93,12 +93,12 @@ points_more_2_difference: 12
 points_per_game: 2.11
 powerplay: 13
 powerplay_efficiency: 30.769999999999996
-powerplay_first_period: 5
+powerplay_first_period: 4
 powerplay_overtime: 0
 powerplay_per_game: 1.44
 powerplay_second_period: 2
-powerplay_third_period: 6
-rank: 2
+powerplay_third_period: 7
+rank: 3
 scoring_ratio: 1.53
 take_the_lead_goals: 14
 take_the_lead_goals_against: 12

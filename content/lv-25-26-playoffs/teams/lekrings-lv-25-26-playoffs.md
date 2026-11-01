@@ -6,13 +6,13 @@ type: team
 team:Lekrings
 platzierungsverlauf:lv-25-26-playoffs/teams/lekrings-lv-25-26-playoffs_platzierungsverlauf.png
 away_points: 15
-boxplay: 42
-boxplay_efficiency: 83.33
+boxplay: 47
+boxplay_efficiency: 82.98
 boxplay_first_period: 9
 boxplay_overtime: 0
-boxplay_per_game: 2.8
-boxplay_second_period: 13
-boxplay_third_period: 20
+boxplay_per_game: 3.13
+boxplay_second_period: 16
+boxplay_third_period: 22
 close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: 5.0
@@ -33,9 +33,9 @@ goals: 76
 goals_against: 79
 goals_against_away: 40
 goals_against_home: 39
-goals_against_in_boxplay: 7
-goals_against_in_boxplay_per_game: 0.47
-goals_against_in_powerplay: 3
+goals_against_in_boxplay: 8
+goals_against_in_boxplay_per_game: 0.53
+goals_against_in_powerplay: 4
 goals_against_per_game: 5.27
 goals_away: 35
 goals_home: 41
@@ -46,7 +46,7 @@ goals_in_overtime: 0
 goals_in_overtime_against: 0
 goals_in_penalty_shootout: 0
 goals_in_penalty_shootout_against: 0
-goals_in_powerplay: 10
+goals_in_powerplay: 14
 goals_in_second_period: 30
 goals_in_second_period_against: 21
 goals_in_third_period: 20
@@ -57,13 +57,13 @@ loss_1: 0
 losses: 5
 over_time_losses: 1
 over_time_wins: 1
-penalties: 48
-penalties_per_game: 3.2
-penalty_10: 9
-penalty_2: 37
-penalty_2and2: 0
+penalties: 50
+penalties_per_game: 3.33
+penalty_10: 1
+penalty_2: 43
+penalty_2and2: 5
 penalty_first_period: 10
-penalty_ms: 2
+penalty_ms: 1
 penalty_overtime: 0
 penalty_second_period: 15
 penalty_shootout_losses: 0
@@ -92,12 +92,12 @@ points_max_difference_2: 5
 points_more_2_difference: 22
 points_per_game: 1.8
 powerplay: 43
-powerplay_efficiency: 23.26
+powerplay_efficiency: 32.56
 powerplay_first_period: 16
 powerplay_overtime: 0
 powerplay_per_game: 2.87
-powerplay_second_period: 18
-powerplay_third_period: 9
+powerplay_second_period: 21
+powerplay_third_period: 6
 rank: 1
 scoring_ratio: 0.96
 take_the_lead_goals: 16

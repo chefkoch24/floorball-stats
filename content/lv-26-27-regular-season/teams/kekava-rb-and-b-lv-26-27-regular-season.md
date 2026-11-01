@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ķekava/RB&B
 Category: lv-26-27-regular-season, teams
 Slug: kekava-rb-and-b-lv-26-27-regular-season-lv-26-27-regular-season
@@ -6,13 +6,13 @@ type: team
 team:Ķekava/RB&B
 platzierungsverlauf:lv-26-27-regular-season/teams/kekava-rb-and-b-lv-26-27-regular-season_platzierungsverlauf.png
 away_points: 3
-boxplay: 31
-boxplay_efficiency: 74.19
-boxplay_first_period: 11
+boxplay: 29
+boxplay_efficiency: 72.41
+boxplay_first_period: 8
 boxplay_overtime: 0
-boxplay_per_game: 3.44
-boxplay_second_period: 12
-boxplay_third_period: 8
+boxplay_per_game: 3.22
+boxplay_second_period: 11
+boxplay_third_period: 10
 close_game_loss: 4
 close_game_overtime: 0
 close_game_points_per_game: 0.0
@@ -60,10 +60,10 @@ over_time_wins: 1
 penalties: 30
 penalties_per_game: 3.33
 penalty_10: 0
-penalty_2: 26
-penalty_2and2: 0
+penalty_2: 28
+penalty_2and2: 2
 penalty_first_period: 10
-penalty_ms: 4
+penalty_ms: 0
 penalty_overtime: 0
 penalty_second_period: 11
 penalty_shootout_losses: 0
@@ -91,13 +91,13 @@ Tags:  FBK SĀC: 0,  FBK Valmiera: 3,  FK Kurši: 0,  FK Talsi/TNSS/Krauzers: 0,
 points_max_difference_2: 0
 points_more_2_difference: 9
 points_per_game: 1.0
-powerplay: 28
-powerplay_efficiency: 17.86
+powerplay: 29
+powerplay_efficiency: 17.24
 powerplay_first_period: 5
 powerplay_overtime: 0
-powerplay_per_game: 3.11
-powerplay_second_period: 11
-powerplay_third_period: 12
+powerplay_per_game: 3.22
+powerplay_second_period: 13
+powerplay_third_period: 11
 rank: 6
 scoring_ratio: 0.94
 take_the_lead_goals: 18

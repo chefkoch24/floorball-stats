@@ -405,7 +405,7 @@ def build_calendar(team: str, league: dict, games: list[_Game], site_host: str) 
 def write_outputs(pelican) -> None:
     output = Path(pelican.settings["OUTPUT_PATH"])
     site_host = (pelican.settings.get("SITEURL") or "https://stats.floorballconnect.com").split("://")[-1]
-    _write_image(("default", "Standings, results and stats for top floorball leagues"), output / "og" / "default.png")
+    _write_image(("default", "Standings, results and stats for top Floorball leagues"), output / "og" / "default.png")
     for path, spec in _state.images.items():
         _write_image(spec, output / path)
     for path, calendar in _state.calendars.items():
