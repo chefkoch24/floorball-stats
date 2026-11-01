@@ -55,8 +55,10 @@ League backends (Germany, Sweden, Switzerland, Finland, Czech Republic, Slovakia
   - Derived local SQLite store (`stats.db`) for local query-heavy workflows.
 - `themes/my-theme/`
   - Custom Pelican theme and templates.
+- `themes/shared/`
+  - Header, fonts and scripts used by both sites; `static/js/tracking.js` is the single PostHog event helper (`fbTrack`). Event names and properties: `docs/analytics-events.md`. Pages must not call `posthog.capture` directly.
 - `tests/`
-  - Pytest unit tests for calculation primitives and engine behavior.
+  - Pytest unit tests for calculation primitives and engine behavior; `tests/js/` holds the node tests for `tracking.js`, run from `tests/test_tracking_js.py`.
 - `dashboard/`
   - Dash app for interactive exploration (`dashboard/app.py`).
 - `database/`
