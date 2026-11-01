@@ -82,6 +82,9 @@
             <li class="stat-guide__item"><strong>Goal Diff/Game:</strong> Average scoring margin per match (goals for minus goals against).</li>
             <li class="stat-guide__item"><strong>Powerplay %:</strong> Share of power plays converted into goals.</li>
             <li class="stat-guide__item"><strong>Boxplay %:</strong> Share of penalty kills without conceding.</li>
+            <li class="stat-guide__item"><strong>Time a man up / down:</strong> Time with more players on the ice than the opponent (man up) or fewer (man down). Penalties on both sides at once cancel out. A goal for the team with the man up ends a penalty early, so a full two minutes only count if nothing is scored.</li>
+            <li class="stat-guide__item"><strong>Power play time per goal:</strong> Time a man up divided by power play goals.</li>
+            <li class="stat-guide__item"><strong>Goal diff by period:</strong> Goals for minus goals against in each period of regulation and in overtime.</li>
             <li class="stat-guide__item"><strong>Scoring Ratio:</strong> Goals for divided by goals against.</li>
             <li class="stat-guide__item"><strong>Close Game:</strong> Games decided by a small margin (typically 1-2 goals or OT/PS).</li>
         </ul>
@@ -159,6 +162,12 @@
             <div class="tile"><p class="tile-title">Goals</p><p class="tile-value">{{ article.goals|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Goals Against</p><p class="tile-value">{{ article.goals_against|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Goal Difference</p><p class="tile-value">{{ article.goal_difference|default('–') }}</p></div>
+            {% for label, key in [('1st period', 'goal_difference_first_period'), ('2nd period', 'goal_difference_second_period'), ('3rd period', 'goal_difference_third_period'), ('Overtime', 'goal_difference_overtime')] %}
+            {% set period_diff = article[key] %}
+            {% if period_diff is defined and period_diff != '' %}
+            <div class="tile"><p class="tile-title">Goal diff, {{ label }}</p><p class="tile-value">{{ '%+d'|format(period_diff|int) }}</p></div>
+            {% endif %}
+            {% endfor %}
             <div class="tile"><p class="tile-title">Take the lead goals</p><p class="tile-value">{{ article.take_the_lead_goals|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Take the lead goals against</p><p class="tile-value">{{ article.take_the_lead_goals_against|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Equalizer goals</p><p class="tile-value">{{ article.equalizer_goals|default('–') }}</p></div>
@@ -185,6 +194,11 @@
             <div class="tile"><p class="tile-title">Box plays/game</p><p class="tile-value">{{ article.boxplay_per_game|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">PP goals against</p><p class="tile-value">{{ article.goals_against_in_powerplay|default('–') }}</p></div>
             <div class="tile"><p class="tile-title">Shorthanded goals</p><p class="tile-value">{{ article.goals_in_boxplay|default('–') }}</p></div>
+            {% if article.powerplay_time|default('n.a.') != 'n.a.' %}
+            <div class="tile"><p class="tile-title">Time a man up</p><p class="tile-value">{{ article.powerplay_time }}</p></div>
+            <div class="tile"><p class="tile-title">Time a man down</p><p class="tile-value">{{ article.boxplay_time|default('–') }}</p></div>
+            <div class="tile"><p class="tile-title">Power play time per goal</p><p class="tile-value">{{ article.powerplay_time_per_goal|default('–') }}</p></div>
+            {% endif %}
         </div>
         <div class="chart-card">
             <p class="chart-card-title">Special Teams Efficiency</p>

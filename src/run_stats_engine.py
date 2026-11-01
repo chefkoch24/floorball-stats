@@ -1230,6 +1230,92 @@ def stat_boxplay_third_period(events: pd.DataFrame, team: str):
 def stat_boxplay_overtime(events: pd.DataFrame, team: str):
     return stat_boxplay(_events_for_period(events, 4), team)
 
+_MINOR_SECONDS = 120
+_MAX_PLAYERS_OFF = 2
+
+
+def _man_advantage_seconds(events: pd.DataFrame, team: str) -> tuple[int, int]:
+    """Seconds the team played with a man up and a man down in one game.
+
+    Mirrors the powerplay and boxplay counts: a penalty is one two-minute segment per
+    `_penalty_opportunity_segments` (a 2+2 is two, served one after the other) and only the
+    net difference counts, so coincidental penalties cancel. A goal for the side with the man
+    up ends the oldest running segment of the other team early. At most two players per team
+    are off the ice at once. The game ends at 60:00 or at the last goal of overtime.
+    """
+    penalties = events[events['event_type'] == EVENT_PENALTY]
+    goals = events[(events['event_type'] == EVENT_GOAL) & (events['period'] <= 4)]
+    timeline: list[tuple[int, int, str, int]] = []
+    for (penalized, time_in_s), bucket in penalties.groupby(['event_team', 'time_in_s'], sort=True):
+        segments = _penalty_opportunity_segments(bucket)
+        if segments:
+            timeline.append((int(time_in_s), 0, str(penalized), segments))
+    for _, goal in goals.iterrows():
+        timeline.append((int(goal['time_in_s']), 1, str(goal['event_team']), 0))
+    if not timeline:
+        return 0, 0
+    timeline.sort()
+    game_end = max(3600, max((int(t) for t in goals['time_in_s']), default=0))
+
+    # A running penalty is [start, end, segments still to serve after this one].
+    running: dict[str, list[list[int]]] = {}
+    served: dict[str, list[tuple[int, int]]] = {}
+
+    def _advance(side: str, now: int) -> None:
+        keep = []
+        for window in running.get(side, []):
+            while window[1] <= now:
+                served.setdefault(side, []).append((window[0], window[1]))
+                if window[2] <= 0:
+                    break
+                window[0], window[1], window[2] = window[1], window[1] + _MINOR_SECONDS, window[2] - 1
+            else:
+                keep.append(window)
+        running[side] = keep
+
+    def _count(side: str) -> int:
+        return min(len(running.get(side, [])), _MAX_PLAYERS_OFF)
+
+    for time_in_s, kind, side, segments in timeline:
+        for known in list(running) + list(served):
+            _advance(known, time_in_s)
+        if kind == 0:
+            running.setdefault(side, []).append([time_in_s, time_in_s + _MINOR_SECONDS, segments - 1])
+            continue
+        other = next((name for name in running if name != side and running[name]), None)
+        if other is None or _count(other) <= _count(side):
+            continue
+        oldest = min(running[other], key=lambda window: window[0])
+        served.setdefault(other, []).append((oldest[0], time_in_s))
+        if oldest[2] > 0:
+            oldest[0], oldest[1], oldest[2] = time_in_s, time_in_s + _MINOR_SECONDS, oldest[2] - 1
+        else:
+            running[other].remove(oldest)
+
+    for side in list(running):
+        _advance(side, game_end)
+        for window in running[side]:
+            served.setdefault(side, []).append((window[0], game_end))
+    intervals = {side: [(start, min(end, game_end)) for start, end in spans if start < game_end] for side, spans in served.items()}
+
+    opponents = [side for side in intervals if side != team]
+    marks = sorted({point for spans in intervals.values() for span in spans for point in span})
+    power_play = box_play = 0
+    for start, end in zip(marks, marks[1:]):
+        own_off = min(sum(1 for a, b in intervals.get(team, []) if a <= start and end <= b), _MAX_PLAYERS_OFF)
+        other_off = min(sum(1 for side in opponents for a, b in intervals[side] if a <= start and end <= b), _MAX_PLAYERS_OFF)
+        if other_off > own_off:
+            power_play += end - start
+        elif own_off > other_off:
+            box_play += end - start
+    return power_play, box_play
+
+def stat_powerplay_seconds(events: pd.DataFrame, team: str):
+    return _man_advantage_seconds(events, team)[0]
+
+def stat_boxplay_seconds(events: pd.DataFrame, team: str):
+    return _man_advantage_seconds(events, team)[1]
+
 def _stat_points_after_period(events: pd.DataFrame, team: str, period: int):
     points = 0
     period_events = events[((events['event_type'] == EVENT_GOAL) | (events['event_type'] == EVENT_PENALTY)) & (events['period'] <= period)]
@@ -1580,6 +1666,8 @@ def build_engine() -> StatsEngine:
     engine.register_stat('goals_against_in_boxplay', stat_goals_against_in_boxplay)
     engine.register_stat('powerplay', stat_powerplay)
     engine.register_stat('boxplay', stat_boxplay)
+    engine.register_stat('powerplay_seconds', stat_powerplay_seconds)
+    engine.register_stat('boxplay_seconds', stat_boxplay_seconds)
     engine.register_stat('powerplay_first_period', stat_powerplay_first_period)
     engine.register_stat('powerplay_second_period', stat_powerplay_second_period)
     engine.register_stat('powerplay_third_period', stat_powerplay_third_period)
@@ -1650,6 +1738,15 @@ def _update_team_stats(current_totals: dict, increment: dict):
     return current_totals
 
 
+def _format_minutes_seconds(seconds: object) -> str:
+    """Whole seconds as m:ss ("13:00"), or "n.a." when the stat is missing."""
+    try:
+        total = int(round(float(seconds)))
+    except (TypeError, ValueError):
+        return "n.a."
+    return f"{total // 60}:{total % 60:02d}"
+
+
 def _enhance_team_stats(stats: dict):
     enhanced = stats.copy()
     
@@ -1691,6 +1788,14 @@ def _enhance_team_stats(stats: dict):
     enhanced["goals_against_per_game"] = safe_div(goals_against, games, 2)
     enhanced["boxplay_per_game"] = safe_div(enhanced.get("boxplay", 0), games, 2)
     enhanced["powerplay_per_game"] = safe_div(enhanced.get("powerplay", 0), games, 2)
+    enhanced["powerplay_time"] = _format_minutes_seconds(enhanced.get("powerplay_seconds"))
+    enhanced["boxplay_time"] = _format_minutes_seconds(enhanced.get("boxplay_seconds"))
+    powerplay_goals = enhanced.get("goals_in_powerplay", 0)
+    enhanced["powerplay_time_per_goal"] = (
+        _format_minutes_seconds(enhanced.get("powerplay_seconds", 0) / powerplay_goals) if powerplay_goals else "n.a."
+    )
+    for period in ("first_period", "second_period", "third_period", "overtime"):
+        enhanced[f"goal_difference_{period}"] = enhanced.get(f"goals_in_{period}", 0) - enhanced.get(f"goals_in_{period}_against", 0)
     enhanced["first_period_goals_per_game"] = safe_div(enhanced.get("goals_in_first_period", 0), games, 2)
     enhanced["first_period_goals_against_per_game"] = safe_div(enhanced.get("goals_in_first_period_against", 0), games, 2)
     enhanced["points_after_first_period_per_game"] = safe_div(enhanced.get("points_after_first_period", 0), games, 2)
