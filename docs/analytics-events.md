@@ -45,6 +45,7 @@ Plus the automatic `$pageview` (`capture_pageview: true`, unchanged).
 | `hero-stats`, `hero-reviews`, `teaser-stats`, `teaser-leaders`, `review-<collection>`, `outbound-<collection>`, `youtube-<collection>` | Connect home, collection and item pages | yes | external or on-page, not measurable |
 | `support-card`, `support-footer` | Support banner and footer link on Stats | yes (`cta_viewed` for the banner) | external, not measurable |
 | `calendar-apple`, `calendar-google`, `calendar-download` | Team calendar links | yes | calendar app or download, not measurable |
+| `compare-players-player` | "Compare with another player" button on player pages | yes | `filter_changed` (`compare_player`) on the comparison page |
 | `feedback` | Feedback dialog on Stats | opening the dialog | submitting the form (see below) |
 | `share-page` | Share button on Connect items | yes | share sheet resolved or link copied |
 | `share-card` | Share studio (Instagram cards) on Stats | opening the studio | download or share sheet resolved |
@@ -63,12 +64,13 @@ Plus the automatic `$pageview` (`capture_pageview: true`, unchanged).
 | `games_tab`, `game_view`, `playoff_round` | Tabs on team, league and game pages | tab key, round number |
 | `facet` | Facet chips on Connect collection pages | slug of the facet, `all` |
 | `h2h_team` | Team selects in the head-to-head view | no value (a team name) |
+| `compare_player` | Choosing a player in the player comparison (`/compare-players.html`), including a different player for a side that was already filled | `a` or `b` (the side), `filter_scope: compare_players`; never the player |
 
 The player list's own filter is a text search, so it is a search event (`search_scope: category_players`, `player_stats_page`).
 
 ### Search scopes
 
-`site` (header dialog for teams and players), `category_players`, `player_stats_page` (player tables), `connect_collection` (search box on Connect collection pages).
+`site` (header dialog for teams and players), `category_players`, `player_stats_page` (player tables), `compare_players` (the two player search boxes of the player comparison; its `search_result_clicked` carries `result_type: player` and the suggestion's position), `connect_collection` (search box on Connect collection pages).
 
 ## What changed from the previous events
 

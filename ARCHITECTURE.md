@@ -185,6 +185,10 @@ Pelican plugin (build time, no pipeline step), fed by the published game article
 
 The plugin attaches `clutch`/`partners`/`player_trends` to player articles, `power`/`duos`/`clutch_players` to current-season team articles, `table_history` and `trends` to team articles, `game_story` (played) or `stake` (upcoming) to game articles, the head-to-head `matrix`, `records`, `leads` and `game_of_week` to `LEAGUE_INSIGHTS`, `win_probability` to game articles (once both teams have three rated games) and labels decisive goals inside `game_events_b64`; league pages read `LEAGUE_INSIGHTS[category slug]` from the template context. Templates use the macros in `themes/my-theme/templates/insights.html`. Every definition lives on the "How our stats work" page (`content/pages/stats-explained.md` with `templates/stats_explained.html`), which reads its numbers from `INSIGHTS_MODEL` in the template context; keep it in step when a definition changes. The functions in `src/` are pure, so a pipeline step can later persist ratings and projections to Neon.
 
+### 4.6d Player Comparison: `plugins/player_compare.py`
+
+Pelican plugin (build time, no pipeline step) behind `/compare-players.html` (`content/pages/compare-players.md`, template `player_compare.html`). It writes `output/compare-players/index.json` (one short row per player, for the search) and `output/compare-players/<player uid>.json` (latest season and career totals, clutch and share of team goals) from the published player pages, after the `insights` handlers ran. The page holds no players: `static/js/player-compare.js` loads the index when a search box gets focus and one small file per chosen player, so the page and a comparison stay small although there are more than 4,600 player pages. Selection lives in the URL (`?a=<uid>&b=<uid>`); the player page links to it with itself as player A. The data shapes are in `src/player_compare.py`, the search and the comparison rows in the script (tested in `tests/js/player-compare.test.js`). Events: `docs/analytics-events.md`.
+
 ### 4.7 Markdown Generation: `src/generate_markdown.py`
 
 Reads:

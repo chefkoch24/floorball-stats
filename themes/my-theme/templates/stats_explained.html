@@ -41,6 +41,7 @@
             <a class="fs-chip" href="#goal-timing">Goal timing</a>
             <a class="fs-chip" href="#records">Streaks and records</a>
             <a class="fs-chip" href="#goal-share">Share of team goals</a>
+            <a class="fs-chip" href="#compare-players">Compare two players</a>
             <a class="fs-chip" href="#crowds">Crowds</a>
             <a class="fs-chip" href="#penalties">Penalties</a>
             <a class="fs-chip" href="#data">Data</a>
@@ -213,6 +214,23 @@
     <section id="goal-share" class="grid gap-4 scroll-mt-24" aria-labelledby="goal-share-title">
         <h2 id="goal-share-title" class="fs-section-title">Share of team goals</h2>
         <p>How many of a team's goals a player scored or assisted, for example 18 of 38. It shows who a team depends on and compares players across leagues, whatever the scoring level. Lists need at least {{ m.share_min_team_goals }} team goals and {{ m.share_min_points }} points from the player.</p>
+    </section>
+
+    <section id="compare-players" class="grid gap-4 scroll-mt-24" aria-labelledby="compare-players-title">
+        <h2 id="compare-players-title" class="fs-section-title">Compare two players</h2>
+        <p>The <a href="{{ SITEURL }}/compare-players.html">player comparison</a> puts any two players next to each other, also from different leagues. Search by name in any order ("Gavlák Erik" finds "Erik Gavlák"); the page link keeps both players, so you can share it. The player page has a button that opens the comparison with that player already chosen.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Latest season and career') }}
+            <dd class="m-0"><p>The latest season is the newest season the site has for that player, regular season and playoffs together. The two players can end up with different seasons, for example when one has retired; the page says so. Career adds up every season on the site, so it only goes back as far as our data does.</p></dd>
+            {{ term('Better value') }}
+            <dd class="m-0"><p>The better value of each row is highlighted: more games, goals, assists, points, game winners, clutch points and share of team goals, and fewer penalty minutes. A tie or a missing value highlights nothing. Seasons are not rated. Games and the totals mostly show who played more, so the per-game rows (in bold) are the fair comparison, especially for a player with few games, where one good night moves the rate a lot.</p></dd>
+            {{ term('Different leagues') }}
+            <dd class="m-0"><p>Leagues score different numbers of goals per game and play different numbers of games, so totals are not comparable between them. Points per game and share of team goals say more. The page adds a note when the two players' leagues differ.</p></dd>
+            {{ term('Game winners and clutch points') }}
+            <dd class="m-0"><p>Defined as in <a href="#clutch">Clutch stats</a>. They are counted from the games with an event list, which the site has tracked since the 25/26 season, so a career value can be lower than the career goals. The row is left out when neither player has the data.</p></dd>
+            {{ term('Share of team goals') }}
+            <dd class="m-0"><p>As in <a href="#goal-share">Share of team goals</a>, for the latest phase of the player's latest season (the playoffs if the player has played them, otherwise the regular season). The comparison shows it for every player with a number, without the minimum team goals the leaders list needs, so a small sample can look large.</p></dd>
+        </dl>
     </section>
 
     <section id="crowds" class="grid gap-4 scroll-mt-24" aria-labelledby="crowds-title">

@@ -27,6 +27,8 @@ PLUGINS = [
     'leaders',
     # clutch stats, scoring duos, Elo power ratings and season projections
     'insights',
+    # compare-players/*.json: search index and one file per player for the player comparison page
+    'player_compare',
     # publish builds: the main site (connect/) into the output, served on www.floorballconnect.com
     'connect_site',
     # connect-feed.json: games, power rankings and top scorers for the main site's home page
