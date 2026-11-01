@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Dominique Fuchs
 Category: players
 Slug: player-5fd107ab67b20f9a

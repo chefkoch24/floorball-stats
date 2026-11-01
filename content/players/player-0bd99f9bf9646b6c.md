@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Laura Hietamäki
 Category: players
 Slug: player-0bd99f9bf9646b6c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 27
+rank: 29
 season: fiw-26-27

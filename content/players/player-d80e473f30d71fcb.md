@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Nicole Capatt
 Category: players
 Slug: player-d80e473f30d71fcb

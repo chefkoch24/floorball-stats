@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lívia Jurkovičová
 Category: players
 Slug: player-c9ecd1b3f3841c25

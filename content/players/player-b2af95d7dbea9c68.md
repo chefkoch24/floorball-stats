@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Zuzana Žampachová
 Category: players
 Slug: player-b2af95d7dbea9c68

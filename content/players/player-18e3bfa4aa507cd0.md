@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Karolína Lískovcová
 Category: players
 Slug: player-18e3bfa4aa507cd0

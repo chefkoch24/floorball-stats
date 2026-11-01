@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Max Beyer
 Category: players
 Slug: player-ec799376cf933f7b

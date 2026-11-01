@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Olivers Dvarons
 Category: players
 Slug: player-8ff0f22346b509ab

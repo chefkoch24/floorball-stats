@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ralfs Orste
 Category: players
 Slug: player-958e2f3d9fcc9914
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 5
+regular_games: 6
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -31,14 +31,14 @@ previous_goals: 2
 previous_assists: 1
 previous_points: 3
 previous_pim: 4
-career_games: 27
+career_games: 28
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 6
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|5|0|1|1|2||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|2|0|2|2||lv-25-26|regular-season|Latvia|Ķekava/RB&B|15|0|1|1|2
+history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|6|0|1|1|2||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|2|0|2|2||lv-25-26|regular-season|Latvia|Ķekava/RB&B|15|0|1|1|2
 assists: 1
-games: 5
+games: 6
 goals: 0
 penalties: 1
 phase: regular-season

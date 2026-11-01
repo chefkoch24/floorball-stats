@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Moa Kareståhl
 Category: players
 Slug: player-d5ded08720a6effa

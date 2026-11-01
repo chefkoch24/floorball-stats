@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Niclas Lösel
 Category: players
 Slug: player-ce044bf6486ff3f8

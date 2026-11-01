@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Peetu Rantala
 Category: players
 Slug: player-7d49c6ba193ab291

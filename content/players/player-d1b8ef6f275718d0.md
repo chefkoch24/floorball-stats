@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Timo Rother
 Category: players
 Slug: player-d1b8ef6f275718d0

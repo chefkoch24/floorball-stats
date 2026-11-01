@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Berg
 Category: players
 Slug: player-40c6bd0c0f3e869f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 169
+rank: 173
 season: se-26-27

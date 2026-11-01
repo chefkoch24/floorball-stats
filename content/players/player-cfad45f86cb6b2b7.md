@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Lippold
 Category: players
 Slug: player-cfad45f86cb6b2b7

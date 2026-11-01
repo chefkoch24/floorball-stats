@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Leon Riedel
 Category: players
 Slug: player-99130dbc99e6b8a0

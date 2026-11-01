@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Klinta Rovīte
 Category: players
 Slug: player-0bde3b28e2a1d52d

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Gabriel Erol
 Category: players
 Slug: player-8019e4cdedcd1d6c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 90
+rank: 98
 season: se-26-27

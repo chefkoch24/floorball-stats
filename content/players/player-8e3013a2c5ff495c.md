@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Markéta Kajzarová
 Category: players
 Slug: player-8e3013a2c5ff495c

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oliver Sandberg
 Category: players
 Slug: player-30001ce148b6ee4d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 68
+rank: 78
 season: se-26-27

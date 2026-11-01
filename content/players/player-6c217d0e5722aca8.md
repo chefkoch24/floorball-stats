@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Hult
 Category: players
 Slug: player-6c217d0e5722aca8

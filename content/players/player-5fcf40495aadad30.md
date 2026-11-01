@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Amelie Kürschner
 Category: players
 Slug: player-5fcf40495aadad30

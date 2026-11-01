@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Tilde Hållstam
 Category: players
 Slug: player-1c3ee4df32a8c263

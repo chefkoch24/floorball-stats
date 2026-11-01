@@ -6,19 +6,19 @@ type: game
 game_id: 1307564
 home_team: FBC ČLT Česká Lípa
 away_team: BA SOKOLI Pardubice
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 359.0
+away_goal_diffs_csv: -1,-2,-1,-1
+away_goal_minutes_csv: 14.88,23.48,33.75,38.47
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMTQ6NTMiLCJwZXJpb2QiOjEsInRlYW0iOiJCQSBTT0tPTEkgUGFyZHViaWNlIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJNYXRvdcWhIEJ1cmlhbiIsInRpdGxlX3VpZCI6InBsYXllci04MzMzMWUwODJiMTRkYjVhIiwiYXNzaXN0IjoiVm9qdMSbY2ggTWFqZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLTkwMDJiZTBkODc5ZGY1OTAiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiI0MDowMCIsInBlcmlvZCI6MiwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDJuZCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIyMzoyOSIsInBlcmlvZCI6MiwidGVhbSI6IkJBIFNPS09MSSBQYXJkdWJpY2UiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1hdMSbaiDFoG3DqXRrYSIsInRpdGxlX3VpZCI6InBsYXllci1iN2Q5YWJjYThlYzQ1MDM3IiwiYXNzaXN0IjoiSmFrdWIgQm/EjWVrIiwiYXNzaXN0X3VpZCI6InBsYXllci01OWMyZGJhNmI3OWRkOGY2IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMzA6NDYiLCJwZXJpb2QiOjIsInRlYW0iOiJGQkMgxIxMVCDEjGVza8OhIEzDrXBhIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJBZGFtIERvxYhhciIsInRpdGxlX3VpZCI6InBsYXllci00OTI1YTYwNGE5NTkyOTI1IiwiYXNzaXN0IjoiTGFkaXNsYXYgUGVrw6FyZWsiLCJhc3Npc3RfdWlkIjoicGxheWVyLTYxZTQwNGNkMzliOTk3MDUiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIzMzowNSIsInBlcmlvZCI6MiwidGVhbSI6IkZCQyDEjExUIMSMZXNrw6EgTMOtcGEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMjoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFkYW0gRmlsaXAgSHJkbGnEjWthIiwidGl0bGVfdWlkIjoicGxheWVyLWUwNDNjZWNhZDc0NTYzNTUiLCJhc3Npc3QiOiJBbnRvbsOtbiBTdMOhcmVrIiwiYXNzaXN0X3VpZCI6InBsYXllci0xZGVjYTIyNjBiNGEyMTkyIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMzM6NDUiLCJwZXJpb2QiOjIsInRlYW0iOiJCQSBTT0tPTEkgUGFyZHViaWNlIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJNYXRvdcWhIEJ1cmlhbiIsInRpdGxlX3VpZCI6InBsYXllci04MzMzMWUwODJiMTRkYjVhIiwiYXNzaXN0IjoiQWRhbSDFoHR5bGVyIiwiYXNzaXN0X3VpZCI6InBsYXllci0zY2M5OTViMjA5MzM2NDhjIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMzU6NDEiLCJwZXJpb2QiOjIsInRlYW0iOiJGQkMgxIxMVCDEjGVza8OhIEzDrXBhIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJMYWRpc2xhdiBQZWvDoXJlayIsInRpdGxlX3VpZCI6InBsYXllci02MWU0MDRjZDM5Yjk5NzA1IiwiYXNzaXN0IjoiUmFkZWsgS3JhamNpZ3IiLCJhc3Npc3RfdWlkIjoicGxheWVyLTU4ZTc2OTdiMDY4NGE2ODEiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIzODoyOCIsInBlcmlvZCI6MiwidGVhbSI6IkJBIFNPS09MSSBQYXJkdWJpY2UiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1hdMSbaiDFoG3DqXRrYSIsInRpdGxlX3VpZCI6InBsYXllci1iN2Q5YWJjYThlYzQ1MDM3IiwiYXNzaXN0IjoiUGV0ciBWw6F2cmEiLCJhc3Npc3RfdWlkIjoicGxheWVyLWNhZmQ2YzY2MjYxYWZkYWIiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI2MDowMCIsInBlcmlvZCI6MywidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIG9mIHJlZ3VsYXRpb24iLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiI0NDowOSIsInBlcmlvZCI6MywidGVhbSI6IkZCQyDEjExUIMSMZXNrw6EgTMOtcGEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiNDo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikpha3ViIELDrW5hIHogdHJlc3Ruw6lobyBzdMWZw61sZW7DrSIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjpudWxsLCJhc3Npc3RfdWlkIjpudWxsLCJ0YWciOiJwZW5hbHR5X3Nob3QifSx7Im1pbnV0ZSI6Ik9UIDYyOjQzIiwicGVyaW9kIjo0LCJ0ZWFtIjoiRkJDIMSMTFQgxIxlc2vDoSBMw61wYSIsInNpZGUiOiJob21lIiwic2NvcmUiOiI1OjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiVG9tw6HFoSBQxaFlbmnEjWthIiwidGl0bGVfdWlkIjoicGxheWVyLTJmNGE4MTE5NzU3MmMwNWMiLCJhc3Npc3QiOiJWw6FjbGF2IFZhdnJ1xaFrYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItMGU3MTAwYWZhNjY0YWVlYiIsInRhZyI6ImdvYWwifV0=
+game_events_count: 12
+game_state: played
+game_status: None
+home_goal_diffs_csv: -1,0,0,0,1
+home_goal_minutes_csv: 30.77,33.08,35.68,44.15,62.72
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 70.0
 pregame_h2h_special_away_pp_eff: 37.5
 pregame_h2h_special_home_pk_eff: 55.559999999999995
 pregame_h2h_special_home_pp_eff: 37.5
-result_string: None
-start_time: 18:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
-timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+result_string: 5:4
+start_time: 14:53
+timeline_away_goals_csv: 0,1,2,2,2,3,3,4,4,4
+timeline_diffs_csv: 0,-1,-2,-1,0,-1,0,-1,0,1
+timeline_home_goals_csv: 0,0,0,1,2,2,3,3,4,5
+timeline_max_minute: 70.0
+timeline_minutes_csv: 0.0,14.88,23.48,30.77,33.08,33.75,35.68,38.47,44.15,62.72
 venue: Kategorie II SH Česká Lípa
 venue_address: Wedrichova 3305 Česká Lípa
 home_away_points: 0
@@ -88,40 +88,40 @@ home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
-home_close_game_overtime: 0
-home_close_game_win: 0
-home_draws: 1
-home_equalizer_goals: 0
+home_close_game_overtime: 1
+home_close_game_win: 1
+home_draws: 0
+home_equalizer_goals: 3
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: 1
+home_goals: 5
+home_goals_against: 4
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 5
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
-home_goals_in_overtime: 0
+home_goals_in_first_period_against: 1
+home_goals_in_overtime: 1
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_second_period: 3
+home_goals_in_second_period_against: 3
+home_goals_in_third_period: 1
 home_goals_in_third_period_against: 0
-home_home_points: 1
+home_home_points: 2
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
-home_over_time_wins: 0
+home_over_time_wins: 1
 home_penalties: 0
 home_penalty_10: 0
 home_penalty_2: 0
@@ -132,17 +132,18 @@ home_penalty_overtime: 0
 home_penalty_second_period: 0
 home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
-home_penalty_shot_goals: 0
+home_penalty_shot_goals: 1
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
+home_points: 2
 home_points_after_55_min: 0
-home_points_after_58_min: 0
+home_points_after_58_min: 1
 home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
-home_points_after_third_period: 0
-home_points_max_difference_2: 0
+home_points_after_third_period: 1
+home_points_against_ba_sokoli_pardubice: 2
+home_points_max_difference_2: 2
 home_points_more_2_difference: 0
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
@@ -150,9 +151,9 @@ home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
-home_win_1: 0
+home_take_the_lead_goals: 1
+home_take_the_lead_goals_against: 3
+home_win_1: 1
 home_wins: 0
 away_away_points: 1
 away_boxplay: 0
@@ -161,40 +162,40 @@ away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_third_period: 0
-away_close_game_loss: 0
-away_close_game_overtime: 0
+away_close_game_loss: 1
+away_close_game_overtime: 1
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
-away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_equalizer_goals_against: 3
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: -1
+away_goals: 4
+away_goals_against: 5
+away_goals_against_away: 5
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
+away_goals_in_first_period: 1
 away_goals_in_first_period_against: 0
 away_goals_in_overtime: 0
-away_goals_in_overtime_against: 0
+away_goals_in_overtime_against: 1
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
+away_goals_in_second_period: 3
+away_goals_in_second_period_against: 3
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 1
 away_home_points: 0
-away_loss_1: 0
+away_loss_1: 1
 away_losses: 0
-away_over_time_losses: 0
+away_over_time_losses: 1
 away_over_time_wins: 0
 away_penalties: 0
 away_penalty_10: 0
@@ -207,16 +208,17 @@ away_penalty_second_period: 0
 away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
-away_penalty_shot_goals_against: 0
+away_penalty_shot_goals_against: 1
 away_penalty_third_period: 0
 away_points: 1
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
-away_points_max_difference_2: 0
+away_points_after_55_min: 3
+away_points_after_58_min: 1
+away_points_after_59_min: 3
+away_points_after_first_period: 3
+away_points_after_second_period: 3
+away_points_after_third_period: 1
+away_points_against_fbc_clt_ceska_lipa: 1
+away_points_max_difference_2: 1
 away_points_more_2_difference: 0
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
@@ -224,8 +226,8 @@ away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals: 3
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 1
@@ -313,6 +315,7 @@ home_pregame_points_after_third_period: 4
 home_pregame_points_against_1_sc_tempish_vitkovice: 1
 home_pregame_points_against_acema_sparta_praha: 0
 home_pregame_points_against_amix_florbal_mb: 0
+home_pregame_points_against_ba_sokoli_pardubice: 2
 home_pregame_points_against_fat_pipe_florbal_chodov: 0
 home_pregame_points_against_fbc_liberec: 0
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3
@@ -417,6 +420,7 @@ away_pregame_points_after_second_period: 12
 away_pregame_points_after_third_period: 12
 away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_bulldogs_brno: 0
+away_pregame_points_against_fbc_clt_ceska_lipa: 1
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbs_hummel_hattrick_brno: 3
 away_pregame_points_against_florbal_usti: 3

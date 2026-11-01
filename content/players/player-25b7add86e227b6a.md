@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Liinu Koivisto
 Category: players
 Slug: player-25b7add86e227b6a

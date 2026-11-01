@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Yevheniya Tsaiber
 Category: players
 Slug: player-389ad7e2e4bcb4a9

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Matěj Havlas
 Category: players
 Slug: player-fe2f8c48d25daaf8
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 17
-rank: 7
+rank: 10
 season: cz-26-27

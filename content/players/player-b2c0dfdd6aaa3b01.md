@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Samuel Virga
 Category: players
 Slug: player-b2c0dfdd6aaa3b01

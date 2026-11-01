@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oscar Johansson
 Category: players
 Slug: player-737a8c548ba1bf87
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
+current_games: 6
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 5
+regular_games: 6
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 0
-career_games: 38
+career_games: 39
 career_goals: 4
 career_assists: 3
 career_points: 7
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|5|1|1|2|0||se-25-26|playoffs|Sweden|Växjö IBK|9|1|1|2|0||se-25-26|regular-season|Sweden|Växjö IBK|24|2|1|3|0
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|6|1|1|2|0||se-25-26|playoffs|Sweden|Växjö IBK|9|1|1|2|0||se-25-26|regular-season|Sweden|Växjö IBK|24|2|1|3|0
 assists: 1
-games: 5
+games: 6
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 158
+rank: 160
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Blaz Kavcic
 Category: players
 Slug: player-689eb03f84c6dad6

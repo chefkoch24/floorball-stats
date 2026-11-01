@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Patrik Pacek
 Category: players
 Slug: player-8ab11aad6733c339

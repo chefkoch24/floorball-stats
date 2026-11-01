@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ludwig Blomberg
 Category: players
 Slug: player-e7b3f2db09ff058d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 123
+rank: 126
 season: se-26-27

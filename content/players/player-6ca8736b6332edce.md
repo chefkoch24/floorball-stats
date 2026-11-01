@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ronja Niemi
 Category: players
 Slug: player-6ca8736b6332edce
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 59
+rank: 60
 season: fiw-26-27

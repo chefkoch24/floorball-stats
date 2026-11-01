@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Adam Pettersson
 Category: players
 Slug: player-ebbc7ae57c2497cb
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|6|1|0|1|0||se-25-26|regular-season|Sweden|Pixbo IBK|1|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|1|0|1|0||se-25-26|regular-season|Sweden|Pixbo IBK|1|0|0|0|0
 assists: 0
-games: 6
+games: 7
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 174
+rank: 178
 season: se-26-27

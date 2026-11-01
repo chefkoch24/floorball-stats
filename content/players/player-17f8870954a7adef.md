@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Emil Nedin
 Category: players
 Slug: player-17f8870954a7adef
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 235
+rank: 238
 season: se-26-27

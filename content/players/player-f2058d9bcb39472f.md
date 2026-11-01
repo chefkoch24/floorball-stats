@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Denisa Výborná
 Category: players
 Slug: player-f2058d9bcb39472f

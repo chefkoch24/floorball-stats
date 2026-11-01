@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Hilda Lundh
 Category: players
 Slug: player-d5a079d68a3cb561

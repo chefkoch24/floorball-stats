@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Anina Arnold
 Category: players
 Slug: player-3da3d31321ac0c21

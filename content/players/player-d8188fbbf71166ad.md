@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oravec Lukáš
 Category: players
 Slug: player-d8188fbbf71166ad

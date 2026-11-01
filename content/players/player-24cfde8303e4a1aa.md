@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Leonie Schubert
 Category: players
 Slug: player-24cfde8303e4a1aa

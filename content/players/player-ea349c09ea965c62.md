@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Barbora Soušková
 Category: players
 Slug: player-ea349c09ea965c62

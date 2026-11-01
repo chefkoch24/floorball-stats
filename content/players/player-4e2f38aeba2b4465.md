@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Filip Larsson
 Category: players
 Slug: player-4e2f38aeba2b4465

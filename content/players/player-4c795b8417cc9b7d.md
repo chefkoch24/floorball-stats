@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Emy Westergren
 Category: players
 Slug: player-4c795b8417cc9b7d

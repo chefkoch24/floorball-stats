@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eemeli Naava
 Category: players
 Slug: player-fb171e9388c9fd99

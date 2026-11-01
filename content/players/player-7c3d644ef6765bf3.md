@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ričards Čudnovs
 Category: players
 Slug: player-7c3d644ef6765bf3

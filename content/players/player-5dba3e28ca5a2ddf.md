@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Noel Seiler
 Category: players
 Slug: player-5dba3e28ca5a2ddf
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 80
+rank: 89
 season: se-26-27

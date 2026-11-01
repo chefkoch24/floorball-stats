@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Laura Chúpeková
 Category: players
 Slug: player-9b0cf7d2dd430d5f

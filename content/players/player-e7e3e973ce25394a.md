@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Papierniková Denisa
 Category: players
 Slug: player-e7e3e973ce25394a

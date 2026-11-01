@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Timotej Kollár
 Category: players
 Slug: player-7e2684fa0c51fb4e

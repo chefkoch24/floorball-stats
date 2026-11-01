@@ -314,6 +314,7 @@ home_pregame_points_against_ibk_dalen: 0
 home_pregame_points_against_linkoping_ibk: 0
 home_pregame_points_against_mullsjo_ais: 3
 home_pregame_points_against_nykvarns_ibf: 3
+home_pregame_points_against_pixbo_ibk: 3
 home_pregame_points_against_vaxjo_ibk: 0
 home_pregame_points_against_warberg_ic: 3
 home_pregame_points_max_difference_2: 0

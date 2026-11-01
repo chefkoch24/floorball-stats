@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Kevin Rigogiannis
 Category: players
 Slug: player-edf57103af1eb73d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 121
+rank: 124
 season: se-26-27

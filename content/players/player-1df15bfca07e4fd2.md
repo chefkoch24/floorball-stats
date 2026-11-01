@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Joëlle Laura Schaad
 Category: players
 Slug: player-1df15bfca07e4fd2

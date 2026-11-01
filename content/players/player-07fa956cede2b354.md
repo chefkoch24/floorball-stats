@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lisa Gottmo
 Category: players
 Slug: player-07fa956cede2b354

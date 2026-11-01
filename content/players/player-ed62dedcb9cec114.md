@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Aria Steinert
 Category: players
 Slug: player-ed62dedcb9cec114

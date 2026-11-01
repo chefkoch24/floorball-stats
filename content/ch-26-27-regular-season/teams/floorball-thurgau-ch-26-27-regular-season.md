@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: Floorball Thurgau
 Category: ch-26-27-regular-season, teams
 Slug: floorball-thurgau-ch-26-27-regular-season-ch-26-27-regular-season

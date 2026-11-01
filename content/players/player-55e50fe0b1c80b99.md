@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ronja Niederberger
 Category: players
 Slug: player-55e50fe0b1c80b99

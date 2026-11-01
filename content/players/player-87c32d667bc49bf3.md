@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Rina Rautala
 Category: players
 Slug: player-87c32d667bc49bf3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 170
+rank: 171
 season: fiw-26-27

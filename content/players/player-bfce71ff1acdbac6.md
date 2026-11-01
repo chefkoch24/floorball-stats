@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elīna Ludriksone
 Category: players
 Slug: player-bfce71ff1acdbac6

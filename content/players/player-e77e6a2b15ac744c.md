@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Denisa Ratajova
 Category: players
 Slug: player-e77e6a2b15ac744c

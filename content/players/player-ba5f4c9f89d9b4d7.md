@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oskar Enquist
 Category: players
 Slug: player-ba5f4c9f89d9b4d7
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 208
+rank: 213
 season: se-26-27

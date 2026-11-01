@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Edijs Šenbergs
 Category: players
 Slug: player-d0c836aec8761db2
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 106
+rank: 107
 season: lv-26-27

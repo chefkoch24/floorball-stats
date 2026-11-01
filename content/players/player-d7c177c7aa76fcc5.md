@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: (FK Talsi/TNSS/Krauzers) bumbiņa savos vārtos
 Category: players
 Slug: player-d7c177c7aa76fcc5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 114
+rank: 115
 season: lv-26-27

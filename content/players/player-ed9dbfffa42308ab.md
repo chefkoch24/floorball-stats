@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elsa Holopainen
 Category: players
 Slug: player-ed9dbfffa42308ab

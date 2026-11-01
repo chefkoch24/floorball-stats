@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Filip Holmer
 Category: players
 Slug: player-1cb536aa53bc4138

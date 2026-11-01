@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Annika Huter
 Category: players
 Slug: player-c583cf6b86ca0668

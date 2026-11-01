@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Daniel Sesulka
 Category: players
 Slug: player-d4e4f5f5dc021442

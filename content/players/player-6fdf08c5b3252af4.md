@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Timi Kotka
 Category: players
 Slug: player-6fdf08c5b3252af4

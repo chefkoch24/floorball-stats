@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Samuel Belovič
 Category: players
 Slug: player-2ffb7b4114aa8479

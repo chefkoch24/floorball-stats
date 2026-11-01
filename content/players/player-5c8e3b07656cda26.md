@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Leonie Christen
 Category: players
 Slug: player-5c8e3b07656cda26

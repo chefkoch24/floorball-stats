@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: UHC Alligator Malans
 Category: ch-26-27-regular-season, teams
 Slug: uhc-alligator-malans-ch-26-27-regular-season-ch-26-27-regular-season

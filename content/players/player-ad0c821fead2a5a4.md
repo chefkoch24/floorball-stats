@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Artūrs Jansons
 Category: players
 Slug: player-ad0c821fead2a5a4

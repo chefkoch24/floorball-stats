@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Oliver Söderman
 Category: players
 Slug: player-4d6adbe0954c8724

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ella Sundström
 Category: players
 Slug: player-f61b3c71e0ea0a04
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 3
+current_games: 7
+current_goals: 4
 current_assists: 4
-current_points: 7
+current_points: 8
 current_pim: 2
-regular_games: 6
-regular_goals: 3
+regular_games: 7
+regular_goals: 4
 regular_assists: 4
-regular_points: 7
+regular_points: 8
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 3
+career_games: 7
+career_goals: 4
 career_assists: 4
-career_points: 7
+career_points: 8
 career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|6|3|4|7|2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|4|4|8|2
 assists: 4
-games: 6
-goals: 3
+games: 7
+goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
-points: 7
-rank: 39
+points: 8
+rank: 28
 season: fiw-26-27

@@ -45,7 +45,7 @@ goals_in_overtime: 0.5
 goals_in_overtime_against: 0.5
 goals_in_penalty_shootout: 0.12
 goals_in_penalty_shootout_against: 0.12
-goals_in_powerplay: 2.38
+goals_in_powerplay: 2.5
 goals_in_second_period: 8.5
 goals_in_second_period_against: 6.12
 goals_in_third_period: 8.75
@@ -90,7 +90,7 @@ points_max_difference_2: 2.62
 points_more_2_difference: 6.75
 points_per_game: 1.83
 powerplay: 7.0
-powerplay_efficiency: 36.27
+powerplay_efficiency: 38.06
 powerplay_first_period: 1.62
 powerplay_overtime: 0.0
 powerplay_per_game: 1.35

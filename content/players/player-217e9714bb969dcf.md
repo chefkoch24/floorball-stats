@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jakub Mádlo
 Category: players
 Slug: player-217e9714bb969dcf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 9
 current_goals: 10
 current_assists: 0
 current_points: 10
 current_pim: 0
-regular_games: 7
+regular_games: 9
 regular_goals: 10
 regular_assists: 0
 regular_points: 10
@@ -31,18 +31,18 @@ previous_goals: 4
 previous_assists: 1
 previous_points: 5
 previous_pim: 0
-career_games: 27
+career_games: 29
 career_goals: 14
 career_assists: 1
 career_points: 15
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|7|10|0|10|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|2|0|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|10|2|1|3|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|9|10|0|10|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|2|0|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|10|2|1|3|0
 assists: 0
-games: 7
+games: 9
 goals: 10
 penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 22
+rank: 34
 season: cz-26-27

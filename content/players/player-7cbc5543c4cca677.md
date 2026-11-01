@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Peter Bednár
 Category: players
 Slug: player-7cbc5543c4cca677

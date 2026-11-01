@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Conrad Lehwalder
 Category: players
 Slug: player-ee4a8ea8388e5b4c

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Alice Jirásková
 Category: players
 Slug: player-cede8024f7bbabb1

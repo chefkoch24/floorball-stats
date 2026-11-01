@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kadre Lahtmets
 Category: players
 Slug: player-6db66bc699a07d7c

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Adam Kuchař
 Category: players
 Slug: player-0fb38c275bbf1b3c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 229
+rank: 238
 season: cz-26-27

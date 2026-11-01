@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lucie Waloszková
 Category: players
 Slug: player-2c42c99da3b60ff9

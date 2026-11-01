@@ -419,6 +419,7 @@ away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_bulldogs_brno: 0
+away_pregame_points_against_fbc_clt_ceska_lipa: 1
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbs_hummel_hattrick_brno: 3
 away_pregame_points_against_florbal_usti: 3

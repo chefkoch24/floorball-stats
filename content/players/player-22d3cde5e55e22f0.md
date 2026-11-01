@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Janis Lauber
 Category: players
 Slug: player-22d3cde5e55e22f0

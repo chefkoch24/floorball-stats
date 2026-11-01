@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Alma Hedman
 Category: players
 Slug: player-db63568dbd1de076
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 75
+rank: 76
 season: fiw-26-27

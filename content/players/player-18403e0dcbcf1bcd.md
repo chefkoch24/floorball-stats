@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Isak Ålenius
 Category: players
 Slug: player-18403e0dcbcf1bcd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 147
+rank: 149
 season: se-26-27

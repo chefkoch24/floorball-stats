@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Janos Bröker
 Category: players
 Slug: player-d153b75954edae9e

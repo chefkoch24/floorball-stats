@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Teemu Turigin
 Category: players
 Slug: player-1d2d9908eacc0025
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 158
+rank: 159
 season: fi-26-27

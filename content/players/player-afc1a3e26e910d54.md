@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Lea Suter
 Category: players
 Slug: player-afc1a3e26e910d54

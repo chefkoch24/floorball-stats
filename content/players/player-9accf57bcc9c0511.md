@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rosič Matej
 Category: players
 Slug: player-9accf57bcc9c0511

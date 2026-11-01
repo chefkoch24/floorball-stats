@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ben-Nicklas Löser
 Category: players
 Slug: player-bab2ba72e1349316

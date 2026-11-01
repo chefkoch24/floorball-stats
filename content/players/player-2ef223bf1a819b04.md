@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Toms Rīsmanis
 Category: players
 Slug: player-2ef223bf1a819b04

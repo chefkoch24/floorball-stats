@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Kaapo Siekkinen
 Category: players
 Slug: player-b3c993668b8d0c7f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 70
+rank: 78
 season: fi-26-27

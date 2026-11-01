@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Max Antonsson
 Category: players
 Slug: player-86cd87af7f83c68a

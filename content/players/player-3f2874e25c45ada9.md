@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: (Sparta) bumbiņa savos vārtos
 Category: players
 Slug: player-3f2874e25c45ada9

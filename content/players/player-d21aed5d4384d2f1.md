@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Venla Nousiainen
 Category: players
 Slug: player-d21aed5d4384d2f1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 47
+rank: 48
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kristína Kujanová
 Category: players
 Slug: player-bf1fe4571ec2881b

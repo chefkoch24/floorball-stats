@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Nikolas Sleziak
 Category: players
 Slug: player-1dd96eb2bfaf6818

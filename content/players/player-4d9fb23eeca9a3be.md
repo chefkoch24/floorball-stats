@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kristína Toporová
 Category: players
 Slug: player-4d9fb23eeca9a3be

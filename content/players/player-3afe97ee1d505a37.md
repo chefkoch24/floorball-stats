@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Reinis Kalniņš
 Category: players
 Slug: player-3afe97ee1d505a37
@@ -15,12 +15,12 @@ current_games: 7
 current_goals: 1
 current_assists: 1
 current_points: 2
-current_pim: 0
+current_pim: 2
 regular_games: 7
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -35,14 +35,14 @@ career_games: 16
 career_goals: 4
 career_assists: 6
 career_points: 10
-career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|7|1|1|2|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|9|3|5|8|2
+career_pim: 4
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|7|1|1|2|2||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|9|3|5|8|2
 assists: 1
 games: 7
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 2
-rank: 102
+rank: 103
 season: lv-26-27

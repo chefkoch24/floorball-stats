@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: Kloten-Dietlikon Jets
 Category: ch-26-27-regular-season, teams
 Slug: kloten-dietlikon-jets-ch-26-27-regular-season-ch-26-27-regular-season

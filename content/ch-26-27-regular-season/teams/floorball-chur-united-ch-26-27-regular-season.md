@@ -1,4 +1,4 @@
-Date: 2027-02-28
+Date: 2027-02-27
 Title: Floorball Chur United
 Category: ch-26-27-regular-season, teams
 Slug: floorball-chur-united-ch-26-27-regular-season-ch-26-27-regular-season

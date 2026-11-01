@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Lukas Wahl
 Category: players
 Slug: player-af6decd677ddb180
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 131
+rank: 133
 season: se-26-27

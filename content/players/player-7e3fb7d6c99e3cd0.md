@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Malin Hansson
 Category: players
 Slug: player-7e3fb7d6c99e3cd0

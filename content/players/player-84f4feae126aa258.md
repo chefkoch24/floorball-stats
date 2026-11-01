@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Nils Bohlin
 Category: players
 Slug: player-84f4feae126aa258
@@ -11,12 +11,12 @@ season_count: 1
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|6|0|0|0|2
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|0|0|0|2
 assists: 0
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season

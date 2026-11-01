@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Linda Hrnčířová
 Category: players
 Slug: player-1a13bcf9af37c4eb

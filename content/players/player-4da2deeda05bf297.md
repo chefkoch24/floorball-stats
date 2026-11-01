@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Salome Müller
 Category: players
 Slug: player-4da2deeda05bf297

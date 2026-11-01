@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: DP
 Category: players
 Slug: player-43e407d2ddb59dea

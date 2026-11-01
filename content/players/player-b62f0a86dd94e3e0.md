@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Wilma Grudd Trogen
 Category: players
 Slug: player-b62f0a86dd94e3e0

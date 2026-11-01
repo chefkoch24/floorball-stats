@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Shirin Hartmann
 Category: players
 Slug: player-de190cf0785c4de0

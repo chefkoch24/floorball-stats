@@ -24,7 +24,7 @@ equalizer_goals_against: 2.0
 first_goal_of_match: 3.25
 first_goal_of_match_against: 2.0
 first_period_goals_against_per_game: 0.75
-first_period_goals_per_game: 1.83
+first_period_goals_per_game: 1.82
 games: 5.25
 goal_difference: 15.75
 goal_difference_per_game: 3.12
@@ -45,7 +45,7 @@ goals_in_overtime: 0.75
 goals_in_overtime_against: 0.5
 goals_in_penalty_shootout: 0.0
 goals_in_penalty_shootout_against: 0.25
-goals_in_powerplay: 3.0
+goals_in_powerplay: 3.25
 goals_in_second_period: 10.5
 goals_in_second_period_against: 6.25
 goals_in_third_period: 9.5
@@ -90,7 +90,7 @@ points_max_difference_2: 2.75
 points_more_2_difference: 9.75
 points_per_game: 2.41
 powerplay: 8.75
-powerplay_efficiency: 34.62
+powerplay_efficiency: 38.2
 powerplay_first_period: 2.5
 powerplay_overtime: 0.0
 powerplay_per_game: 1.65

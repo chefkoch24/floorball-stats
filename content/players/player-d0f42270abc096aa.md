@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Šustek Oliver
 Category: players
 Slug: player-d0f42270abc096aa

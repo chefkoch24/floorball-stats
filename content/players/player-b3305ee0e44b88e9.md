@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Tereza Adamišová
 Category: players
 Slug: player-b3305ee0e44b88e9

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Kalle Nilsson
 Category: players
 Slug: player-654bf032fc1c7ba3
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 91
+rank: 99
 season: se-26-27

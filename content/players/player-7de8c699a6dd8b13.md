@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Pontus Sölve
 Category: players
 Slug: player-7de8c699a6dd8b13
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 209
+rank: 214
 season: se-26-27

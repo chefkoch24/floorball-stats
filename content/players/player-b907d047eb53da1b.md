@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Alexander Rinefalk
 Category: players
 Slug: player-b907d047eb53da1b

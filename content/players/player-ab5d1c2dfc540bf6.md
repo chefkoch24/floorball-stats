@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Christian Freij
 Category: players
 Slug: player-ab5d1c2dfc540bf6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 118
+rank: 120
 season: se-26-27

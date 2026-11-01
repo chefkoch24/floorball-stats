@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Kryštof Milichovský
 Category: players
 Slug: player-3c068609fa8f8dd5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 148
+rank: 161
 season: cz-26-27

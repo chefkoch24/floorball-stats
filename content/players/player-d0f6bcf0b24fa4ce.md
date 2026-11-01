@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Kristýna Milfaitová
 Category: players
 Slug: player-d0f6bcf0b24fa4ce

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Rūdolfs Jānis Gremze
 Category: players
 Slug: player-4d1f32cdc6cbe0b1
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 46
+rank: 47
 season: lv-26-27

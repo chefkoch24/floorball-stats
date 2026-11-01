@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Anton Gröön
 Category: players
 Slug: player-1bdb2c64f32a1221
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 226
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Filip Silverhall
 Category: players
 Slug: player-be39276c2be875f8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 240
+rank: 243
 season: se-26-27

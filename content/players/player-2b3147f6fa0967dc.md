@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Veera Kurikkala
 Category: players
 Slug: player-2b3147f6fa0967dc
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 173
+rank: 174
 season: fiw-26-27

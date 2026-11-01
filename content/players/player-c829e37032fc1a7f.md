@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Anton Wikner
 Category: players
 Slug: player-c829e37032fc1a7f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 225
+rank: 229
 season: se-26-27

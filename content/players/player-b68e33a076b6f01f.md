@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ivo Sikora
 Category: players
 Slug: player-b68e33a076b6f01f

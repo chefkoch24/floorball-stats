@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Ilmari Saarinen
 Category: players
 Slug: player-38ca4d42ef74eb75
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 165
+rank: 167
 season: fi-26-27

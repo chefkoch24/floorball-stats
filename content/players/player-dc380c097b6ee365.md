@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eetu Tolonen
 Category: players
 Slug: player-dc380c097b6ee365

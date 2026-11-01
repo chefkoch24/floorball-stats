@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Anton Åkerlund
 Category: players
 Slug: player-dc74e08db76b0105
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 54
+rank: 65
 season: se-26-27

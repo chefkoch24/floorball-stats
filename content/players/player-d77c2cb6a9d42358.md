@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Gustav Lindberg
 Category: players
 Slug: player-d77c2cb6a9d42358
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 4
 current_assists: 2
 current_points: 6
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 4
 regular_assists: 2
 regular_points: 6
@@ -31,18 +31,18 @@ previous_goals: 7
 previous_assists: 7
 previous_points: 14
 previous_pim: 2
-career_games: 25
+career_games: 26
 career_goals: 11
 career_assists: 9
 career_points: 20
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|6|4|2|6|0||se-25-26|playoffs|Sweden|Pixbo IBK|4|0|0|0|0||se-25-26|regular-season|Sweden|Pixbo IBK|15|7|7|14|2
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|4|2|6|0||se-25-26|playoffs|Sweden|Pixbo IBK|4|0|0|0|0||se-25-26|regular-season|Sweden|Pixbo IBK|15|7|7|14|2
 assists: 2
-games: 6
+games: 7
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 46
+rank: 56
 season: se-26-27

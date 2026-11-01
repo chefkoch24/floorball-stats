@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Simona Chinotti
 Category: players
 Slug: player-8a54b5335e2d5de0

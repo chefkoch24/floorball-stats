@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Eppu Suhanto
 Category: players
 Slug: player-000fec7aa4d259e1
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 124
+rank: 126
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Wedberg
 Category: players
 Slug: player-d8c53fce6342be8b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 210
+rank: 215
 season: se-26-27

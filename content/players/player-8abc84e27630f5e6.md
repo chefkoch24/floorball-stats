@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elena Paananen
 Category: players
 Slug: player-8abc84e27630f5e6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 180
+rank: 181
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Laraño
 Category: players
 Slug: player-fa0963a2c834e08e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 75
+rank: 84
 season: se-26-27

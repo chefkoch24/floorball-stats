@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Timon Bührer
 Category: players
 Slug: player-5ec15130c64d2caa

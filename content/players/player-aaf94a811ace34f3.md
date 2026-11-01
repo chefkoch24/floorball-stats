@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Linda Schanz
 Category: players
 Slug: player-aaf94a811ace34f3

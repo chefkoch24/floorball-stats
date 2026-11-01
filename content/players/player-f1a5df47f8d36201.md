@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Simon Svensson
 Category: players
 Slug: player-f1a5df47f8d36201
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 93
+rank: 101
 season: se-26-27

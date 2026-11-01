@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Isac Olsson Ferm
 Category: players
 Slug: player-3593069bddcfd366
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 113
+rank: 115
 season: se-26-27

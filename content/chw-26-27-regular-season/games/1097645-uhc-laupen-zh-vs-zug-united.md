@@ -68,7 +68,7 @@ pregame_h2h_resilience_home_blown_leads: 2
 pregame_h2h_resilience_home_close_game_points_per_game: 0.0
 pregame_h2h_resilience_home_comeback_wins: 1
 pregame_h2h_special_away_pk_eff: 66.67
-pregame_h2h_special_away_pp_eff: 42.86
+pregame_h2h_special_away_pp_eff: 57.14
 pregame_h2h_special_home_pk_eff: 14.290000000000006
 pregame_h2h_special_home_pp_eff: 0.0
 result_string: None
@@ -370,7 +370,7 @@ away_pregame_goals_in_overtime: 1
 away_pregame_goals_in_overtime_against: 0
 away_pregame_goals_in_penalty_shootout: 0
 away_pregame_goals_in_penalty_shootout_against: 0
-away_pregame_goals_in_powerplay: 3
+away_pregame_goals_in_powerplay: 4
 away_pregame_goals_in_second_period: 12
 away_pregame_goals_in_second_period_against: 6
 away_pregame_goals_in_third_period: 16
@@ -420,7 +420,7 @@ away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 12
 away_pregame_points_per_game: 2.8
 away_pregame_powerplay: 7
-away_pregame_powerplay_efficiency: 42.86
+away_pregame_powerplay_efficiency: 57.14
 away_pregame_powerplay_first_period: 1
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 1.4

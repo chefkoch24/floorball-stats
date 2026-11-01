@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Linards Putniņš
 Category: players
 Slug: player-fafc269ca0bdf535
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 40
+rank: 42
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Jesper Lindström
 Category: players
 Slug: player-8edc588c2f0aa142
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 67
+rank: 77
 season: se-26-27

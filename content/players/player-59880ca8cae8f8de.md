@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Petrašovič Daniel
 Category: players
 Slug: player-59880ca8cae8f8de

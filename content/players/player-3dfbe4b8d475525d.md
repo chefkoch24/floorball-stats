@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Anrijs Strazdiņš
 Category: players
 Slug: player-3dfbe4b8d475525d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 5
+regular_games: 6
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,14 +31,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 27
+career_games: 28
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|5|0|0|0|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|15|0|0|0|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|6|0|0|0|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|15|0|0|0|0
 assists: 0
-games: 5
+games: 6
 goals: 0
 penalties: 0
 phase: regular-season

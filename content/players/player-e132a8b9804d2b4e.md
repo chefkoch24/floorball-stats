@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Vanessa Schmuki
 Category: players
 Slug: player-e132a8b9804d2b4e

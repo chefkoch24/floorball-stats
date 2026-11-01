@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Ida Wallerman
 Category: players
 Slug: player-5d38f80f62f0a30a

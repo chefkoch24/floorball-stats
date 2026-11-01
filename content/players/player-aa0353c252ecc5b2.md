@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Elvira Nässén
 Category: players
 Slug: player-aa0353c252ecc5b2

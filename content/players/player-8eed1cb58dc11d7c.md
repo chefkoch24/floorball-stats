@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Patrik Neterder
 Category: players
 Slug: player-8eed1cb58dc11d7c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 318
+rank: 326
 season: cz-26-27

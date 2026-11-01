@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Maija Taitto
 Category: players
 Slug: player-7cb8b98bc8847b93
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 115
+rank: 116
 season: fiw-26-27

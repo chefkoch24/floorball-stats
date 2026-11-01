@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Marcel Jakubec C
 Category: players
 Slug: player-aa77ca4121be9d70

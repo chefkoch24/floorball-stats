@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Hampus Öhgren
 Category: players
 Slug: player-7c6e14b45b5c8df9
@@ -11,15 +11,15 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
-current_goals: 3
+current_games: 7
+current_goals: 4
 current_assists: 2
-current_points: 5
+current_points: 6
 current_pim: 0
-regular_games: 6
-regular_goals: 3
+regular_games: 7
+regular_goals: 4
 regular_assists: 2
-regular_points: 5
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 20
 previous_assists: 14
 previous_points: 34
 previous_pim: 10
-career_games: 41
-career_goals: 23
+career_games: 42
+career_goals: 24
 career_assists: 16
-career_points: 39
+career_points: 40
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|3|2|5|0||se-25-26|playoffs|Sweden|Växjö IBK|9|2|4|6|2||se-25-26|regular-season|Sweden|Växjö IBK|26|18|10|28|8
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|4|2|6|0||se-25-26|playoffs|Sweden|Växjö IBK|9|2|4|6|2||se-25-26|regular-season|Sweden|Växjö IBK|26|18|10|28|8
 assists: 2
-games: 6
-goals: 3
+games: 7
+goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 66
+points: 6
+rank: 57
 season: se-26-27

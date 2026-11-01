@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Iida Kuoppala
 Category: players
 Slug: player-c23e9eb2fecd8f72
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 160
+rank: 161
 season: fiw-26-27

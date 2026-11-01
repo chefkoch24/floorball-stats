@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Michaela Kubečková
 Category: players
 Slug: player-df69a66b187bd27c

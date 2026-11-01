@@ -1,4 +1,4 @@
-Date: 2026-10-25
+Date: 2026-10-31
 Title: Fredrik Lindholm
 Category: players
 Slug: player-1e6f9a20a5d81c3f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 182
+rank: 188
 season: se-26-27

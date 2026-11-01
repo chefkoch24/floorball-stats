@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Emmi Pölönen
 Category: players
 Slug: player-aa0759df41b74d81
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 182
+rank: 183
 season: fiw-26-27

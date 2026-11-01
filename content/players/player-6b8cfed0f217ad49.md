@@ -1,4 +1,4 @@
-Date: 2026-10-30
+Date: 2026-10-31
 Title: Amálie Balíková
 Category: players
 Slug: player-6b8cfed0f217ad49
