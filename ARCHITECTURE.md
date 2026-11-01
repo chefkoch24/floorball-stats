@@ -189,6 +189,7 @@ Pelican plugin (build time, no pipeline step) behind `/head-to-head.html` (`cont
 
 - The pure calculation is `src/team_versus.py` (results, record, scorers, penalties, goals by minute, special teams of a pair). Goals, penalties and players come from `game_events_b64` (a copy of the `events` rows, so the Netlify build needs no database), powerplay/boxplay counts from the per-game fields of the game markdown.
 - Time with a man up or down uses `powerplay_seconds`/`boxplay_seconds` from the game markdown when the pipeline has written them; otherwise `man_advantage_seconds` rebuilds the events frame and calls `run_stats_engine.stat_powerplay_seconds` when that stat exists. Without either the page hides the two rows.
+- Entry points: team pages get `article.versus` (record against every other team of the same season phase, computed from the league payload by `team_versus.team_rows`, one row per opponent the team has met, so the page grows by about 12 table rows) rendered by `insights.team_versus`; league pages show a "Compare two teams" chip via `HEAD_TO_HEAD_LEAGUES`. Both link to `head-to-head.html?league=<key>&a=<team>&b=<team>`, which the page reads on load.
 - Teams are matched by name; a game carries `phase` (`regular-season` or `playoffs`) so a cup phase can be added or filtered later.
 
 ### 4.7 Markdown Generation: `src/generate_markdown.py`

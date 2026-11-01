@@ -203,3 +203,36 @@ def test_plugin_prefers_stored_seconds_and_falls_back_to_the_engine(monkeypatch)
 @pytest.mark.parametrize("prefix,key", [("se-", "se"), ("", "de"), ("sew-", "sew")])
 def test_league_key(prefix, key):
     assert plugin.league_key(prefix) == key
+
+
+def _payload():
+    duels = [_duel(1, "Zed", "Ann", 2, 1, 1), _duel(2, "Ann", "Zed", 1, 1 + 1, 2, decision="n.V."), _duel(3, "Bob", "Zed", 3, 0, 3)]
+    return tv.league_payload(duels)
+
+
+def test_team_rows_give_the_record_against_each_opponent_in_table_order():
+    rows = tv.team_rows(_payload(), "Zed", ["Bob", "Ann", "Cid"])
+    assert [row["team"] for row in rows] == ["Bob", "Ann"]  # Cid never met Zed
+    assert (rows[0]["games"], rows[0]["W"], rows[0]["L"], rows[0]["goals_for"], rows[0]["goals_against"]) == (1, 0, 1, 0, 3)
+    assert (rows[1]["games"], rows[1]["W"], rows[1]["OTW"], rows[1]["goals_for"], rows[1]["goals_against"]) == (2, 1, 1, 4, 2)
+    assert [row["team"] for row in tv.team_rows(_payload(), "Zed")] == ["Ann", "Bob"]
+    assert tv.team_rows(_payload(), "Nobody") == []
+
+
+def test_plugin_links_every_row_to_the_page_with_both_teams_selected():
+    assert plugin.page_link("ch") == "head-to-head.html?league=ch"
+    assert plugin.page_link("sew", "IK Sirius", "Pixbo & Co") == "head-to-head.html?league=sew&a=IK+Sirius&b=Pixbo+%26+Co"
+
+
+def test_team_articles_get_their_record_against_the_rest_of_their_season_phase():
+    def team(name, rank):
+        return SimpleNamespace(team=name, title=name, rank=str(rank), category=SimpleNamespace(slug="se-26-27-regular-season"))
+
+    teams = {"se-26-27-regular-season": [team("Zed", 1), team("Ann", 2), team("Bob", 3)], "xx-26-27-regular-season": [team("Q", 1)]}
+    context = lambda slug: {"prefix": "se-", "season": "26-27", "phase": "regular-season"} if slug.startswith("se-") else None  # noqa: E731
+    plugin.attach_team_records({"se": _payload()}, teams, context, {"se-"})
+    zed, ann = teams["se-26-27-regular-season"][0], teams["se-26-27-regular-season"][1]
+    assert [row["team"] for row in zed.versus["rows"]] == ["Ann", "Bob"]
+    assert zed.versus["rows"][0]["href"] == "head-to-head.html?league=se&a=Zed&b=Ann"
+    assert [row["team"] for row in ann.versus["rows"]] == ["Zed"] and ann.versus["league_href"] == "head-to-head.html?league=se"
+    assert not hasattr(teams["xx-26-27-regular-season"][0], "versus")

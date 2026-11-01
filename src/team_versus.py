@@ -219,6 +219,27 @@ def league_payload(duels: list[Duel], team_urls: dict[str, str] | None = None, p
 
 
 
+def team_rows(payload: dict, team: str, opponents: list[str] | None = None) -> list[dict]:
+    """One team's record against every opponent of a ``league_payload`` that it has played.
+
+    Rows follow the order of ``opponents`` (the league table), or the payload's team order
+    when none is given; opponents the team has not met are left out.
+    """
+    names = [item["name"] for item in payload["teams"]]
+    if team not in names:
+        return []
+    own = names.index(team)
+    met = {names[index]: index for index in payload["opponents"].get(str(own), [])}
+    rows = []
+    for name in opponents if opponents is not None else names:
+        index = met.get(name)
+        if index is None:
+            continue
+        record = payload["pairs"][f"{min(own, index)}-{max(own, index)}"]["record"][team]
+        rows.append({"team": name, **{key: record[key] for key in ("games", "W", "OTW", "OTL", "L", "goals_for", "goals_against")}})
+    return rows
+
+
 def man_advantage_seconds(events: list[dict], home: str, away: str) -> tuple[int, int] | None:
     """(home, away) seconds with a man up from the game's event payload, or None.
 

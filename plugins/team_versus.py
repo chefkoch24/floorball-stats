@@ -16,6 +16,7 @@ import os
 import sys
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import urlencode
 
 from pelican import signals
 
@@ -29,6 +30,7 @@ from src import power_rankings as pr  # noqa: E402
 from src import team_versus as tv  # noqa: E402
 
 OUTPUT_DIR = "head-to-head"
+PAGE = "head-to-head.html"
 SECONDS_FIELDS = ("powerplay_seconds", "boxplay_seconds")
 DECISIONS = {pr.OVERTIME: "n.V.", pr.SHOOTOUT: "n.P."}
 
@@ -82,6 +84,12 @@ def _team_urls(teams_by_category: dict[str, list], categories: list[str]) -> dic
     return urls
 
 
+def page_link(key: str, team: str | None = None, opponent: str | None = None) -> str:
+    """Path of the comparison page with a league, and optionally two teams, preselected."""
+    query = {"league": key, **({"a": team, "b": opponent} if team and opponent else {})}
+    return f"{PAGE}?{urlencode(query)}"
+
+
 def build(generator) -> dict:
     settings = generator.settings
     league_context = settings["JINJA_FILTERS"]["league_context"]
@@ -118,11 +126,29 @@ def build(generator) -> dict:
         key = league_key(prefix)
         payloads[key] = tv.league_payload(duels[prefix], _team_urls(teams_by_category, newest), player_url)
         index.append({"key": key, "title": league["title"], "division": league["division"], "teams": len(payloads[key]["teams"])})
-    return {"payloads": payloads, "index": index}
+    return {"payloads": payloads, "index": index, "teams": teams_by_category}
+
+
+def attach_team_records(payloads: dict[str, dict], teams_by_category: dict[str, list], league_context, leagues: set[str]) -> None:
+    """``article.versus`` on every team page: its record against each team of the same season phase."""
+    for category, articles in teams_by_category.items():
+        context = league_context(category)
+        if not context or context["prefix"] not in leagues or league_key(context["prefix"]) not in payloads:
+            continue
+        key = league_key(context["prefix"])
+        ranked = sorted(articles, key=lambda article: (insights._int(article, "rank") or 99, insights._meta(article, "team") or insights._meta(article, "title")))
+        names = [insights._meta(article, "team") or insights._meta(article, "title") for article in ranked]
+        for article in articles:
+            team = insights._meta(article, "team") or insights._meta(article, "title")
+            rows = tv.team_rows(payloads[key], team, [name for name in names if name != team])
+            if rows:
+                article.versus = {"rows": [{**row, "href": page_link(key, team, row["team"])} for row in rows], "league_href": page_link(key)}
 
 
 def collect(generator) -> None:
     result = build(generator)
+    settings = generator.settings
+    attach_team_records(result["payloads"], result["teams"], settings["JINJA_FILTERS"]["league_context"], {league["prefix"] for league in settings["LEAGUES"]})
     generator.context["HEAD_TO_HEAD_LEAGUES"] = result["index"]
     generator.context["_HEAD_TO_HEAD_PAYLOADS"] = result["payloads"]
 
