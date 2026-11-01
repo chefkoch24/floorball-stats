@@ -14,3 +14,5 @@ if os.environ.get('CONNECT_SITEURL'):
     SITEURL = os.environ['CONNECT_SITEURL'].rstrip('/')
 if os.environ.get('CONNECT_STATS_URL'):
     STATS_URL = os.environ['CONNECT_STATS_URL'].rstrip('/')
+
+SEO_PREVIEW = os.environ.get('CONTEXT') in ('deploy-preview', 'branch-deploy')

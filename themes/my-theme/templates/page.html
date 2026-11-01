@@ -1,4 +1,7 @@
 {% extends "base.html" %}
+{% set seo_title = page.title ~ ' | ' ~ SITENAME %}
+{% set seo_description = page.summary|default('Historical floorball seasons, standings and results.')|striptags %}
+{% set seo_canonical_path = page.url %}
 
 {% if page.slug == 'wfc-2024' %}
 {% set seo_title = "IFF WFC 2024 Tournament Hub | " ~ SITENAME %}

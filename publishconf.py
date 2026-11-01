@@ -35,3 +35,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+SEO_PREVIEW = os.environ.get('CONTEXT') in ('deploy-preview', 'branch-deploy')

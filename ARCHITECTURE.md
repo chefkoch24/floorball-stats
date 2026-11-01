@@ -359,3 +359,27 @@ Current status:
 ## 8. Remaining Debt
 
 1. Some refresh paths still rely on upstream third-party sites and APIs with inconsistent latency/blocking behavior, which is operational risk rather than architectural complexity.
+
+### SEO publishing contract
+
+`plugins/seo.py` prepares SEO metadata after all article/page generators have
+finished enrichment, then writes Stats `sitemap.xml`, `robots.txt` and
+`seo-report.json`. Player aliases retain their readable pages for compatibility,
+but use the canonical identity in metadata and receive host-specific permanent
+redirects. Alias and technical URLs are excluded from the sitemap. Only explicit
+`Modified` metadata can become `lastmod`; fixture dates are not update timestamps.
+A missing trustworthy modification time is represented by omitting that optional
+field. Future runtime timestamps should come from actual publication/payload
+changes in Neon, not a scrape or build heartbeat.
+
+`connect/plugins/connect_pages.py` owns the main-site sitemap. Collection canonical
+URLs end with `/`; Stats retains `.html`. Netlify Pretty URLs rewriting is disabled
+so HTML links agree with both policies. Existing Softr redirects and domain rewrites
+remain active. Product ratings in JSON-LD use the same visible submitted reviews as
+the page; absent ratings or venue data must never be fabricated.
+
+`scripts/check_seo.py` validates the two-domain production output without fetching
+league data: sitemap/canonical/indexing agreement, JSON-LD syntax, page metadata,
+internal targets and lexicon reachability. `.github/workflows/seo-check.yml` runs it
+for PRs. Search Console submission remains a post-deployment action documented in
+`docs/GOOGLE_REINDEXING.md`.

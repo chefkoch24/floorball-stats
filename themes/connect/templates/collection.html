@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% import "_macros.html" as m with context %}
-{% set seo_title = collection.title %}
+{% set seo_title = collection_seo_title(collection) %}
 {% set seo_description = collection.intro %}
 
 {% block breadcrumbs %}{{ m.breadcrumbs(collection) }}{% endblock %}
@@ -25,9 +25,9 @@
 <div class="fc-lexicon">
     {% for item in items %}
     <article class="fc-term" id="{{ item.slug }}">
-        <h2 class="fs-panel-title">{{ item.title }}</h2>
+        <h2 class="fs-panel-title"><a href="{{ SITEURL }}/{{ item.url }}">{{ item.title|e }}</a></h2>
         {% if item.subtitle %}<p class="fc-term__question">{{ item.subtitle }}</p>{% endif %}
-        <div class="fc-prose">{{ item.body }}</div>
+        <p>{{ item_description(item, collection)|e }} <a href="{{ SITEURL }}/{{ item.url }}">Read the full explanation →</a></p>
     </article>
     {% endfor %}
 </div>

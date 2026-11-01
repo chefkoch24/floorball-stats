@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "_macros.html" as m with context %}
 {% set seo_title = item.title ~ ' · ' ~ collection.title %}
-{% set seo_description = item.summary or (item.body|striptags|truncate(200)) or collection.intro %}
+{% set seo_description = item_description(item, collection) %}
 {% set og_image = item.image if item.image and not item.image.startswith('http') else '' %}
 {% set words = (item.body|striptags).split()|length %}
 
@@ -47,6 +47,8 @@
         {% endif %}
         {% if item.summary %}<p class="fc-lead">{{ item.summary }}</p>{% endif %}
         {% if item.body %}<div class="fc-prose fc-prose--detail">{{ item.body }}</div>{% endif %}
+        {% set stat_links = related_stats(item, STATS_CURRENT_SEASON) %}
+        {% if stat_links %}<section class="fc-panel"><h2 class="fs-panel-title">Explore the numbers</h2><ul>{% for path, label in stat_links %}<li><a href="{{ STATS_URL }}/{{ path }}">{{ label|e }}</a></li>{% endfor %}</ul></section>{% endif %}
     </article>
 
     <aside class="fc-detail__aside" aria-label="At a glance">

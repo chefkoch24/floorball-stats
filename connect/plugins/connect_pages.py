@@ -35,10 +35,16 @@ def add_context(generator) -> None:
     generator.context["CONNECT_RATINGS"] = cc.RATINGS
     generator.context["CONNECT_REVIEW_COUNT"] = sum(len(item.reviews) for key in ("sticks", "blades") for item in items.get(key, []))
     generator.env.globals["review_average"] = cc.review_average
+    generator.env.globals["connect_schema"] = cc.structured_data
+    generator.env.globals["collection_seo_title"] = lambda collection: cc.SEO_TITLES.get(collection.key, collection.title)
+    generator.env.globals["item_description"] = cc.item_description
+    generator.env.globals["related_stats"] = cc.related_stats
+    generator.env.filters["plain_text"] = cc.plain_text
 
 
 def remember_pages(generator) -> None:
-    _cache["pages"] = sorted(page.url for page in generator.pages)
+    _cache["pages"] = sorted(page.url for page in generator.pages
+                             if page.slug not in {'confirmation', 'confirmation-missing', 'coming-soon'})
 
 
 def write_pages(generator, writer) -> None:
@@ -51,7 +57,7 @@ def write_pages(generator, writer) -> None:
         writer.write_file(
             f"{collection.slug}/index.html", list_template, context,
             relative_urls=generator.settings["RELATIVE_URLS"], url=f"{collection.slug}/",
-            collection=collection, items=rows, facets=facets, page_name=collection.slug,
+            collection=collection, items=rows, facets=facets, page_name=collection.slug + "/",
         )
         if not collection.detail:
             continue

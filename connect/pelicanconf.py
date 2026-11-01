@@ -81,3 +81,7 @@ FAQ = [
     ('I did not receive an email?',
      'Please check your inbox for a confirmation email; it may take a few minutes. If it is not there, check your spam or promotions folder. Still nothing? Send a quick message to hello@floorballconnect.com and we will make sure you are subscribed.'),
 ]
+
+# Passed by the parent build; standalone builds read the same root season config.
+import runpy
+STATS_CURRENT_SEASON = os.environ.get('CONNECT_STATS_SEASON') or runpy.run_path(os.path.join(HERE, '..', 'pelicanconf.py'))['CURRENT_SEASON']

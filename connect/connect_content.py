@@ -15,6 +15,8 @@ body HTML, tags, facts, ratings, an outbound link and, for sticks and blades, re
 from __future__ import annotations
 
 import json
+from urllib.parse import urlsplit, urljoin
+from bs4 import BeautifulSoup
 import re
 import unicodedata
 from dataclasses import dataclass, field
@@ -271,6 +273,7 @@ def normalize(collection: Collection, record: dict) -> Item:
         item.facts = [("Language", _text(fields.get("Language"))), ("Hosts", item.subtitle), ("Status", "Active" if active == "yes" else ("Inactive" if active == "no" else ""))]
         item.link = _text(fields.get("Spotify Link") or fields.get("Link"))
 
+    item.link = safe_link(item.link)
     item.facts = [(label, value) for label, value in item.facts if value]
     for name in ("title", "subtitle", "summary", "body"):
         setattr(item, name, brand_case(getattr(item, name)))
@@ -303,12 +306,99 @@ def load(data_dir: Path | str) -> dict[str, list[Item]]:
 
 
 def review_average(item: Item) -> dict[str, float]:
-    """The record's ratings (kept up to date in Notion), else the average of its reviews."""
-    if item.ratings or not item.reviews:
+    """Average visible submitted ratings; legacy product ratings only as fallback."""
+    if not item.reviews:
         return item.ratings
     out = {}
     for name in RATINGS:
-        values = [entry["ratings"][name] for entry in item.reviews if name in entry["ratings"]]
+        values = [entry["ratings"][name] for entry in item.reviews if 1 <= entry["ratings"].get(name, 0) <= 5]
         if values:
             out[name] = round(sum(values) / len(values), 1)
     return out or item.ratings
+
+
+SEO_TITLES = {
+    'sticks': 'Floorball Stick Reviews', 'blades': 'Floorball Blade Reviews',
+    'equipment': 'Floorball Training Equipment', 'drills': 'Floorball Drills',
+    'guides': 'Floorball Training and Equipment Guides', 'watch': 'Where to Watch Floorball',
+    'books': 'Floorball Books', 'documentaries': 'Floorball Documentaries',
+    'podcasts': 'Floorball Podcasts', 'lexicon': 'Floorball Terms and Tactics Explained',
+    'deals': 'Floorball Black Friday Deals',
+}
+
+
+def plain_text(value):
+    text = str(value or '')
+    if '<' in text:
+        text = BeautifulSoup(text, 'html.parser').get_text(' ', strip=True)
+    return ' '.join(text.split())
+
+
+def safe_link(value):
+    value = str(value or '').strip()
+    try:
+        parsed = urlsplit(value)
+    except ValueError:
+        return ''
+    return value if parsed.scheme in ('https', 'http') and parsed.netloc else ''
+
+
+def item_description(item, collection):
+    text = plain_text(item.summary or item.body)
+    if text:
+        return text[:197].rsplit(' ', 1)[0] + '…' if len(text) > 200 else text
+    tags = ', '.join(item.tags or item.facet)
+    return f"{item.title}: {collection.title.lower()} for Floorball players and coaches." + (f" Focus: {tags}." if tags else '')
+
+
+def structured_data(site, path, collection=None, item=None, description=''):
+    site = site.rstrip('/')
+    url = f"{site}/{path.strip('/')}/" if path.strip('/') not in ('', 'index') else f"{site}/"
+    org = {'@type': 'Organization', '@id': f'{site}/#organization', 'name': 'Floorball Connect', 'url': f'{site}/'}
+    if url == f'{site}/':
+        return {'@context': 'https://schema.org', '@graph': [org, {
+            '@type': 'WebSite', '@id': f'{site}/#website', 'name': 'Floorball Connect',
+            'url': url, 'publisher': {'@id': org['@id']}}]}
+    crumbs = [{'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': f'{site}/'}]
+    if collection:
+        crumbs.append({'@type': 'ListItem', 'position': 2, 'name': SEO_TITLES.get(collection.key, collection.title), 'item': f'{site}/{collection.slug}/'})
+    if item:
+        crumbs.append({'@type': 'ListItem', 'position': len(crumbs) + 1, 'name': item.title, 'item': url})
+    graph = [org, {'@type': 'BreadcrumbList', 'itemListElement': crumbs}] if collection else [org]
+    rated = [r for r in item.reviews if 1 <= r['ratings'].get('Overall', 0) <= 5] if item else []
+    # Google Product snippets require a real review, rating or offer. Do not
+    # create invalid enhancement candidates for empty product placeholders.
+    if item and collection.key in ('sticks', 'blades') and rated:
+        product = {'@type': 'Product', '@id': url + '#product', 'name': f'{item.subtitle} {item.title}'.strip(),
+                   'url': url, 'description': plain_text(description),
+                   'brand': {'@type': 'Brand', 'name': item.subtitle}}
+        if item.image:
+            product['image'] = urljoin(site + '/', item.image)
+        if rated:
+            product['aggregateRating'] = {'@type': 'AggregateRating',
+                'ratingValue': review_average(item)['Overall'], 'ratingCount': len(rated),
+                'bestRating': 5, 'worstRating': 1}
+        reviews = []
+        for r in rated:
+            if not r['text'] or not r['name'] or r['name'] == 'Anonymous':
+                continue
+            reviews.append({'@type': 'Review', 'author': {'@type': 'Person', 'name': r['name']},
+                'reviewBody': plain_text(r['text']), 'reviewRating': {'@type': 'Rating',
+                'ratingValue': r['ratings']['Overall'], 'bestRating': 5, 'worstRating': 1}})
+        if reviews:
+            product['review'] = reviews
+        graph.append(product)
+    return {'@context': 'https://schema.org', '@graph': graph}
+
+
+def related_stats(item, season):
+    watch = {'how-to-watch-swedish-floorball': 'se-', 'how-to-watch-finnish-floorball': 'fi-',
+             'how-to-watch-czech-floorball': 'cz-', 'how-to-watch-swiss-floorball': 'ch-',
+             'how-to-watch-latvian-floorball': 'lv-', 'how-to-watch-german-floorball': ''}
+    if item.collection == 'watch' and item.slug in watch:
+        prefix = watch[item.slug]
+        return [(f'category/{prefix}{season}-regular-season.html', 'Current standings, results and player stats')]
+    if item.collection == 'lexicon' and item.slug in ('powerplay', 'boxplay'):
+        return [('leaders.html', 'Compare powerplay and boxplay across leagues'),
+                ('stats-explained.html', 'How our Floorball stats are calculated')]
+    return []

@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 {% set category_label = category.shortname | category2string %}
+{% set search_label = category.shortname | category_seo_label %}
+{% set seo_noindex = category.slug in ['game', 'teams', 'liga', 'players'] %}
 {% set breadcrumb_category_label = category.shortname | category2breadcrumb %}
 {% set is_player_stats = category.shortname.split('-')[-1] == 'players' %}
 {% if is_player_stats %}
-{% set seo_title = category_label ~ ' | ' ~ SITENAME %}
-{% set seo_description = 'Season-wide player rankings, scoring totals, and full stat tables for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% set seo_title = search_label ~ ' | ' ~ SITENAME %}
+{% set seo_description = 'Season-wide player rankings, scoring totals, and full stat tables for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% else %}
-{% set seo_title = category_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
-{% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ category_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% set seo_title = search_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
+{% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% endif %}
 {% set league = category.shortname | league_context %}
 {# Regular-season league pages have their own layout (league_v2.html); playoffs and player tables keep this one. #}
