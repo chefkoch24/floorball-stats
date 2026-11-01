@@ -45,51 +45,9 @@
 {% import "_macros.html" as m with context %}
 <body>
 <header class="site-header">
-    <div class="header-inner">
-        <a class="brand fc-brand" href="{{ SITEURL }}/">
-            <img class="fc-brand__logo" src="{{ SITEURL }}/theme/img/logo.png" alt="Floorball Connect" width="88" height="40">
-        </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Explore <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
-        <a class="header-link" href="{{ STATS_URL }}/">Stats</a>
-        <a class="header-link header-link--wide" href="{{ SITEURL }}/floorball-sticks/">Reviews</a>
-        <a class="header-link header-link--wide" href="{{ SITEURL }}/watch-floorball/">Watch</a>
-        <div class="header-actions">
-            <a class="fc-cta" href="{{ SITEURL }}/subscribe/" data-cta="header">Join for free</a>
-            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
-        </div>
-    </div>
-    <nav class="main-nav fc-nav" id="mainNav" aria-label="Main">
-        <div class="main-nav__inner fc-nav__inner">
-            <a class="fc-nav__stats" href="{{ STATS_URL }}/">
-                <span class="fs-label">Stats</span>
-                <strong>Standings, results and player stats from 14 top leagues</strong>
-                <span class="fc-nav__more">Open Floorball Stats →</span>
-            </a>
-            {% for group in CONNECT_NAV_GROUPS %}
-            <div class="fc-nav__group">
-                <span class="fs-label">{{ group }}</span>
-                <ul>
-                    {% for collection in CONNECT_COLLECTIONS if collection.nav == group %}
-                    <li><a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a></li>
-                    {% endfor %}
-                    {% if group == 'Learn' %}
-                    <li><a href="{{ SITEURL }}/coming-soon/">Courses <span class="fc-soon">Soon</span></a></li>
-                    <li><a href="{{ SITEURL }}/coming-soon/">Camps <span class="fc-soon">Soon</span></a></li>
-                    {% endif %}
-                </ul>
-            </div>
-            {% endfor %}
-            <div class="fc-nav__group">
-                <span class="fs-label">Floorball Connect</span>
-                <ul>
-                    <li><a href="{{ SITEURL }}/about-us/">About us</a></li>
-                    <li><a href="{{ SITEURL }}/subscribe/">Newsletter</a></li>
-                    <li><a href="{{ SUBSTACK_URL }}" target="_blank" rel="noopener">Substack</a></li>
-                    <li><a href="mailto:{{ CONTACT_EMAIL }}">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {% set header_home = SITEURL %}
+    {% set header_stats = STATS_URL %}
+    {% include 'site_header.html' %}
 </header>
 
 <main class="main-content">
@@ -156,5 +114,6 @@
 </script>
 <script src="{{ SITEURL }}/theme/js/site.js" defer></script>
 {% block scripts %}{% endblock %}
+<script src="{{ SITEURL }}/theme/js/navigation.js" defer></script>
 </body>
 </html>

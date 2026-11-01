@@ -26,6 +26,9 @@ FOLLOWERS = '7,500+'
 PATH = os.path.join(HERE, 'content')
 OUTPUT_PATH = os.path.join(HERE, 'output')
 THEME = os.path.join(HERE, '..', 'themes', 'connect')
+SHARED_THEME = os.path.join(HERE, '..', 'themes', 'shared')
+THEME_TEMPLATES_OVERRIDES = [os.path.join(SHARED_THEME, 'templates')]
+THEME_STATIC_PATHS = ['static', os.path.join(SHARED_THEME, 'static')]
 PLUGIN_PATHS = [os.path.join(HERE, 'plugins')]
 # connect_pages: list and detail pages from connect/data/*.json
 PLUGINS = ['connect_pages']

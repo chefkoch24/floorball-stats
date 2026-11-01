@@ -85,20 +85,22 @@ if (window.Chart) {
 </head>
 <body>
 <header class="site-header">
-    <div class="header-inner">
-        <a class="brand" href="{{ SITEURL }}/">
-            <span class="brand-title">{{ SITENAME }}</span>
-        </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
-        <a class="header-link" href="{{ SITEURL }}/leaders.html">Leaders</a>
-        <a class="header-link header-link--wide" href="{{ SITEURL }}/stats-explained.html">How it works</a>
-        <div class="header-actions">
-            <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
-            <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
-            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
-        </div>
+    {% set header_home = CONNECT_URL %}
+    {% set header_stats = SITEURL %}
+    {% include 'site_header.html' %}
+    <div class="stats-navigation">
+        <nav class="stats-navigation__inner" aria-label="Stats tools">
+            <a class="stats-navigation__home" href="{{ SITEURL }}/">Stats home</a>
+            <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+            <a class="stats-navigation__link" href="{{ SITEURL }}/leaders.html">Leaders</a>
+            <a class="stats-navigation__link stats-navigation__link--wide" href="{{ SITEURL }}/stats-explained.html">How it works</a>
+            <div class="header-actions">
+                <button class="search-trigger" type="button" aria-haspopup="dialog" aria-controls="globalSearchModal">Search</button>
+                <button class="feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
+            </div>
+        </nav>
     </div>
-    <nav class="main-nav" id="mainNav" aria-label="Leagues">
+    <nav class="main-nav" id="leagueNav" aria-label="Leagues">
         {% set available_categories = categories|default([])|category_slugs %}
         {% macro nav_phase_link(slug, label, available) -%}
             {% if slug in available %}<a class="nav-league__link" href="{{ SITEURL }}/category/{{ slug }}.html">{{ label }}</a>{% else %}<span class="nav-league__link is-disabled">{{ label }}</span>{% endif %}
@@ -355,37 +357,6 @@ if (themeMedia && themeMedia.addEventListener) {
 }
 
 window.addEventListener('resize', updateHeaderOffset);
-
-const menuToggle = document.querySelector('.menu-toggle');
-const mainNav = document.querySelector('#mainNav');
-if (menuToggle && mainNav) {
-  menuToggle.addEventListener('click', () => {
-    const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-    menuToggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    mainNav.classList.toggle('is-open');
-    updateHeaderOffset();
-  });
-}
-
-function closeMainNav() {
-  if (!menuToggle || !mainNav || !mainNav.classList.contains('is-open')) {
-    return;
-  }
-  mainNav.classList.remove('is-open');
-  menuToggle.setAttribute('aria-expanded', 'false');
-}
-
-document.addEventListener('click', (event) => {
-  if (mainNav && menuToggle && !mainNav.contains(event.target) && !menuToggle.contains(event.target)) {
-    closeMainNav();
-  }
-});
-
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    closeMainNav();
-  }
-});
 
 const feedbackEmail = "{{ FEEDBACK_EMAIL|default('hello@floorballconnect.com') }}";
 const feedbackModal = document.querySelector('#feedbackModal');
@@ -726,5 +697,6 @@ if (feedbackForm) {
 </script>
 <script src="{{ SITEURL }}/theme/js/share-card.js" defer></script>
 <script src="{{ SITEURL }}/theme/js/tips.js" defer></script>
+<script src="{{ SITEURL }}/theme/js/navigation.js" defer></script>
 </body>
 </html>

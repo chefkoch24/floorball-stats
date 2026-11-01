@@ -383,3 +383,10 @@ league data: sitemap/canonical/indexing agreement, JSON-LD syntax, page metadata
 internal targets and lexicon reachability. `.github/workflows/seo-check.yml` runs it
 for PRs. Search Console submission remains a post-deployment action documented in
 `docs/GOOGLE_REINDEXING.md`.
+
+Both websites render `themes/shared/templates/site_header.html` and copy the logo
+and menu behavior from `themes/shared/static/`. Shared header CSS lives in
+`themes/my-theme/static/css/src/chrome.css`, imported by both theme builds. Stats
+keeps its league selector, leaders, search and feedback in a separate tools row.
+Main-site collection definitions also populate the Stats Explore menu. Run both
+`npm run css` and `npm run css:connect` after changing shared chrome styles.

@@ -45,6 +45,13 @@ TIMEZONE = 'Europe/Berlin'
 USE_FOLDER_AS_CATEGORY = False
 DEFAULT_LANG = 'en'
 THEME = 'themes/my-theme/'
+SHARED_THEME = Path(__file__).resolve().parent / 'themes' / 'shared'
+THEME_TEMPLATES_OVERRIDES = [str(SHARED_THEME / 'templates')]
+THEME_STATIC_PATHS = ['static', str(SHARED_THEME / 'static')]
+# The Explore menu uses the same collection definitions as the main site.
+import sys
+sys.path.append(str(Path(__file__).resolve().parent))
+from connect.connect_content import COLLECTIONS as CONNECT_COLLECTIONS, NAV_GROUPS as CONNECT_NAV_GROUPS
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
