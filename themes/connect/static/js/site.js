@@ -48,7 +48,7 @@
   const live = document.querySelector('[data-live-stats]');
   if (live) {
     const escape = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const crest = (n, initials) => `<span class="fs-crest fs-crest--sm" data-crest="${escape(n)}" aria-hidden="true">${escape(initials)}</span>`;
+    const crest = (n, initials, logo) => `<span class="fs-crest fs-crest--sm" data-crest="${escape(n)}" aria-hidden="true">${logo ? `<img class="fs-crest__logo" src="${escape(logo)}" alt="" onerror="this.remove()">` : ''}<span class="fs-crest__initials">${escape(initials)}</span></span>`;
     const pad = (n) => String(n).padStart(2, '0');
     const now = new Date();
     const todayKey = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
@@ -78,8 +78,8 @@
         return `<a class="fs-match" href="${escape(game.url)}">
           <div class="fs-match__meta"><span>${escape(game.league)}</span>${status}</div>
           <div class="fs-match__teams">
-            <span class="${homeLost ? 'fs-match__loser' : ''}"><span class="fs-team">${crest(game.homeCrest, game.homeInitials)}<span>${escape(game.home)}</span></span></span>
-            <span class="${awayLost ? 'fs-match__loser' : ''}"><span class="fs-team">${crest(game.awayCrest, game.awayInitials)}<span>${escape(game.away)}</span></span></span>
+            <span class="${homeLost ? 'fs-match__loser' : ''}"><span class="fs-team">${crest(game.homeCrest, game.homeInitials, game.homeLogo)}<span>${escape(game.home)}</span></span></span>
+            <span class="${awayLost ? 'fs-match__loser' : ''}"><span class="fs-team">${crest(game.awayCrest, game.awayInitials, game.awayLogo)}<span>${escape(game.away)}</span></span></span>
           </div>
           <div class="fs-match__scores">${scores}</div>
         </a>`;
@@ -92,7 +92,7 @@
           <span class="fs-label">${escape(league.country)}</span>
           <strong>${escape(league.league)}</strong>
           <ol>${league.teams.slice(0, 3).map((team) => `
-            <li><span class="fc-league__rank fs-num">${team.rank}</span><span class="fs-team">${crest(team.crest, team.initials)}<span>${escape(team.team)}</span></span><span class="fc-league__rating fs-num">${team.rating}</span></li>`).join('')}
+            <li><span class="fc-league__rank fs-num">${team.rank}</span><span class="fs-team">${crest(team.crest, team.initials, team.logo)}<span>${escape(team.team)}</span></span><span class="fc-league__rating fs-num">${team.rating}</span></li>`).join('')}
           </ol>
         </a>`).join('');
     };
@@ -102,7 +102,7 @@
       live.querySelector('[data-live-leaders]').innerHTML = board ? board.entries.map((entry) => `
         <li>
           <span class="fc-league__rank fs-num">${entry.rank}</span>
-          ${crest(entry.crest, entry.initials)}
+          ${crest(entry.crest, entry.initials, entry.logo)}
           <span class="fc-leader__who">${entry.url ? `<a href="${escape(entry.url)}">${escape(entry.name)}</a>` : escape(entry.name)}<small>${escape(entry.team)} · ${escape(entry.code)}</small></span>
           <span class="fc-leader__value fs-num">${escape(entry.value)}<small>${escape(board.unit)}</small></span>
         </li>`).join('') : '';
