@@ -1,0 +1,28 @@
+{
+  "sticks": {
+    "database": "2ad1e0bb-8812-808f-9187-d15aa55c33f0",
+    "filter": {"Status": "Done"},
+    "reviews": {
+      "database": "2df1e0bb-8812-80fd-9d95-d92ad0732274",
+      "relation": "Sticks",
+      "filter": {"Published": "Published"}
+    }
+  },
+  "blades": {
+    "database": "2df1e0bb-8812-80e1-9760-f9f3cd372a7b",
+    "reviews": {
+      "database": "2df1e0bb-8812-8054-8c08-dee5c530efd7",
+      "relation": "Blades",
+      "filter": {"Published": "Published"}
+    }
+  },
+  "equipment": {"database": "2601e0bb-8812-80e4-95f0-df89f206220d"},
+  "deals": {"database": "2b51e0bb-8812-80db-89e1-e552c21b87a3"},
+  "drills": {"database": "2621e0bb-8812-80d3-8d05-d2ea17cf4f28", "filter": {"_Status": "Done"}},
+  "guides": {"database": "30a1e0bb-8812-8021-9e64-f2b9d713d348", "filter": {"Status": "Erledigt"}},
+  "lexicon": {"database": "2ad1e0bb-8812-80d4-a41f-f712da429f88", "filter": {"Publishing": "Done"}},
+  "books": {"database": "2561e0bb-8812-802f-a019-c87822a9cbf6"},
+  "watch": {"database": "2a81e0bb-8812-800e-b922-ffd24fc94d42"},
+  "documentaries": {"database": "2541e0bb-8812-80d5-8a1e-d77f13c55916"},
+  "podcasts": {"database": "25b1e0bb-8812-8079-a6e0-edc79a1f9e80"}
+}
