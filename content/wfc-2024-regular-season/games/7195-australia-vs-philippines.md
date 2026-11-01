@@ -1,4 +1,4 @@
-Date: NaN
+Date: 2024-12-08
 Title: 7195-australia-vs-philippines
 Category: wfc-2024-regular-season, game
 Slug: 7195-australia-vs-philippines-wfc-2024-regular-season
@@ -6,7 +6,7 @@ type: game
 game_id: 7195
 home_team: Australia
 away_team: Philippines
-attendance: None
+attendance: 317
 away_goal_diffs_csv: 1,0,-1,-2,-3,-4
 away_goal_minutes_csv: 21.1,29.75,36.98,41.92,42.82,46.28
 away_major_penalty_minutes_csv: 
@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 21.1
 home_penalty_goals_csv: 2
 home_penalty_minutes_csv: 20.0
-ingame_status: NaN
+ingame_status: None
 league_name: IFF WFC 2024 · regular-season
 pregame_h2h_away_split_goal_diff_per_game: 0.0
 pregame_h2h_away_split_points_per_game: 0.0
@@ -73,8 +73,8 @@ pregame_h2h_special_away_pk_eff: n.a.
 pregame_h2h_special_away_pp_eff: n.a.
 pregame_h2h_special_home_pk_eff: 50.0
 pregame_h2h_special_home_pp_eff: 100.0
-result_string: NaN
-start_time: NaN
+result_string: 2-6
+start_time: 13:00
 timeline_away_goals_csv: 0,0,0,1,2,3,4,5,6
 timeline_diffs_csv: 0,1,2,1,0,-1,-2,-3,-4
 timeline_home_goals_csv: 0,1,2,2,2,2,2,2,2
@@ -83,8 +83,7 @@ timeline_minutes_csv: 0.0,9.02,14.15,21.1,29.75,36.98,41.92,42.82,46.28
 tournament_group: Group C
 tournament_stage_label: regular-season
 tournament_stage_type: group-stage
-venue: NaN
-venue_address: NaN
+venue: Baltic Hall
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 0.0
