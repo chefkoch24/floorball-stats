@@ -72,7 +72,7 @@
         <span class="footer-divider">·</span>
         <a class="footer-link" href="{{ STATS_URL }}/">Stats</a>
         <span class="footer-divider">·</span>
-        <a class="footer-link" href="{{ SITEURL }}/subscribe/">Newsletter</a>
+        <a class="footer-link" href="{{ SITEURL }}/subscribe/" data-cta="footer-newsletter">Newsletter</a>
         <span class="footer-divider">·</span>
         <a class="footer-link" href="{{ SUBSTACK_URL }}" target="_blank" rel="noopener">Substack</a>
         <span class="footer-divider">·</span>
@@ -105,13 +105,9 @@
         cookieless_mode: 'always',
         person_profiles: 'identified_only'
     });
-    posthog.register({ site: 'connect' });
-    document.addEventListener('click', function (event) {
-        var link = event.target.closest && event.target.closest('[data-cta]');
-        if (link) posthog.capture('cta_clicked', { cta: link.getAttribute('data-cta'), href: link.href });
-    });
 })();
 </script>
+<script src="{{ SITEURL }}/theme/js/tracking.js" data-site="connect"></script>
 <script src="{{ SITEURL }}/theme/js/site.js" defer></script>
 {% block scripts %}{% endblock %}
 <script src="{{ SITEURL }}/theme/js/navigation.js" defer></script>
