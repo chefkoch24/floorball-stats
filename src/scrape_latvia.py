@@ -314,6 +314,15 @@ def _normalize_player_name(text: str | None) -> str | None:
     return cleaned or None
 
 
+# floorball.lv lists an own goal as "(Bauska) bumbiņa savos vārtos" ("ball into its own goal")
+# instead of a scorer; the bracket is the team of the player who scored it.
+_OWN_GOAL_PATTERN = re.compile(r"bumbiņa\s+savos\s+vārtos", re.I)
+
+
+def _is_own_goal(details: str | None) -> bool:
+    return bool(details and _OWN_GOAL_PATTERN.search(details))
+
+
 def _parse_goal_people(details: str | None) -> tuple[str | None, str | None]:
     if not details:
         return None, None
@@ -412,7 +421,12 @@ def _parse_proto_events(session: requests.Session, match: LatviaMatch) -> list[d
         if "Vārti" in event_label:
             event_type = "goal"
             goal_type = "goal"
-            scorer_name, assist_name = _parse_goal_people(details)
+            if _is_own_goal(details):
+                # No player gets the goal; the stats engine counts it for the score only.
+                goal_type = "own_goal"
+                scorer_name, assist_name = None, None
+            else:
+                scorer_name, assist_name = _parse_goal_people(details)
             score_match = re.search(r"(\d+)\s*-\s*(\d+)", score_text)
             if score_match:
                 current_home = int(score_match.group(1))
