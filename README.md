@@ -441,8 +441,11 @@ Content comes from Notion. To refresh it locally or on Netlify:
    committed order; new ones are appended. Images and drill videos are downloaded into
    `connect/content/`, so commit those together with `connect/data`.
 
-With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild (for example from
-a daily build hook) picks up new reviews.
+With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild picks up new
+reviews. `.github/workflows/connect-daily-build.yml` triggers one every day at 04:17 UTC:
+create a build hook in Netlify (Site configuration → Build & deploy → Build hooks, branch
+`master`) and store its URL as the repository secret `NETLIFY_BUILD_HOOK`. Without the
+secret the workflow only logs a warning; it can also be run by hand (workflow_dispatch).
 
 ## Run tests
 
