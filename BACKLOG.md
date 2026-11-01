@@ -24,7 +24,8 @@
 - [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)); first decide the rights option in the plan
 - [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
 - [x] Main site floorballconnect.com off Softr: own Pelican site in `connect/` on the stats design system, content imported, Softr URLs redirected (ARCHITECTURE.md 4.8a)
-- [ ] Go live with the new main site: add www.floorballconnect.com and floorballconnect.com as domains of the stats Netlify site and point DNS there; add `NOTION_TOKEN` and `connect/notion.json`, daily build hook for new reviews
+- [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)
+- [ ] Notion sync for the main site: `NOTION_TOKEN` on Netlify and the database ids in `connect/notion.json`, then a daily build hook for new reviews
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
 
