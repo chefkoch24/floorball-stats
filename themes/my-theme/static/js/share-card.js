@@ -56,7 +56,7 @@
 
   /* ---------- Painter: drawing primitives bound to one canvas, format and palette ---------- */
 
-  function painter(canvas, format, colors) {
+  function painter(canvas, format, colors, logos) {
     const ctx = canvas.getContext('2d');
     canvas.width = format.w;
     canvas.height = format.h;
@@ -99,7 +99,16 @@
       p.text(text, left + o.padX, y + h / 2, { weight: o.weight, size: o.size, family: o.family, stretch: o.stretch, color: o.color });
       return { w, h };
     };
-    p.crest = (cx, cy, d, index, initials) => {
+    p.crest = (cx, cy, d, index, initials, logoPath) => {
+      const logo = logos.get(logoPath);
+      if (logo) {
+        p.rect(cx - d / 2, cy - d / 2, d, d, Math.max(4, d / 10), '#fff');
+        const scale = Math.min((d - d * 0.12) / logo.naturalWidth, (d - d * 0.12) / logo.naturalHeight);
+        const width = logo.naturalWidth * scale;
+        const height = logo.naturalHeight * scale;
+        ctx.drawImage(logo, cx - width / 2, cy - height / 2, width, height);
+        return;
+      }
       ctx.beginPath();
       ctx.arc(cx, cy, d / 2, 0, Math.PI * 2);
       ctx.fillStyle = colors.crest[(Number(index) || 8) - 1];
@@ -218,8 +227,8 @@
     const events = gameEvents();
     const scorers = topScorers(events).slice(0, 3);
     const sides = [
-      { name: data.home, goals: data.homeGoals, crest: data.homeCrest, initials: data.homeInitials, lost: data.homeGoals < data.awayGoals },
-      { name: data.away, goals: data.awayGoals, crest: data.awayCrest, initials: data.awayInitials, lost: data.awayGoals < data.homeGoals },
+      { name: data.home, goals: data.homeGoals, crest: data.homeCrest, initials: data.homeInitials, logo: data.homeLogo, lost: data.homeGoals < data.awayGoals },
+      { name: data.away, goals: data.awayGoals, crest: data.awayCrest, initials: data.awayInitials, logo: data.awayLogo, lost: data.awayGoals < data.homeGoals },
     ];
     const blocks = [];
     const chips = (x, y, fill) => {
@@ -238,7 +247,7 @@
         const nameW = p.right - 240 - 32 - nameX;
         sides.forEach((side, i) => {
           const mid = rowY + 88;
-          p.crest(p.left + 72, mid, 144, side.crest, side.initials);
+          p.crest(p.left + 72, mid, 144, side.crest, side.initials, side.logo);
           const fitted = p.fit(side.name, nameW, 64, 40, 800, DISPLAY, 'condensed', 2);
           p.lines(fitted, nameX, mid - (fitted.lines.length * fitted.size * 1.04) / 2, { weight: 800, family: DISPLAY, stretch: 'condensed', color: side.lost ? c.muted : c.ink, lineHeight: 1.04 });
           p.text(side.goals, p.right, mid + 72, { weight: 800, size: 200, family: DISPLAY, stretch: 'semi-expanded', color: side.lost ? c.muted : c.ink, align: 'right', baseline: 'alphabetic' });
@@ -296,7 +305,7 @@
       const colW = (p.width - 96 - 360) / 2;
       sides.forEach((side, i) => {
         const colX = i === 0 ? p.left + 48 + colW / 2 : p.right - 48 - colW / 2;
-        p.crest(colX, rowY + 68, 136, side.crest, side.initials);
+        p.crest(colX, rowY + 68, 136, side.crest, side.initials, side.logo);
         const fitted = p.fit(side.name, colW, 40, 28, 800, DISPLAY, 'condensed', 2);
         const lh = Math.round(fitted.size * 1.05);
         fitted.lines.forEach((line, k) => p.text(line, colX, rowY + 136 + 20 + k * lh, { weight: 800, size: fitted.size, family: DISPLAY, stretch: 'condensed', color: side.lost ? c.muted : c.ink, align: 'center', baseline: 'top' }));
@@ -365,7 +374,7 @@
     const nameH = fitted.lines.length * Math.round(fitted.size * 0.95);
     const blocks = [];
     blocks.push({ h: crestD + 32 + nameH, draw: (y) => {
-      p.crest(p.left + crestD / 2, y + crestD / 2, crestD, data.crest, data.initials);
+      p.crest(p.left + crestD / 2, y + crestD / 2, crestD, data.crest, data.initials, data.logo);
       if (data.rank) {
         p.text(`#${data.rank}`, p.right, y + crestD / 2 + rankSize * 0.32, { weight: 800, size: rankSize, family: DISPLAY, stretch: 'semi-expanded', color: c.rink, align: 'right', baseline: 'alphabetic' });
         p.text(`of ${data.teams} after round ${data.round}`, p.right, y + crestD / 2 + rankSize * 0.32 + 16, { weight: 500, size: 28, color: c.muted, align: 'right', baseline: 'top' });
@@ -394,7 +403,7 @@
         p.text(`${data.next.date}${data.next.time ? ' · ' + data.next.time : ''}`, p.right - 32, y + 32, { weight: 600, size: 28, family: DISPLAY, color: c.muted, align: 'right', baseline: 'top' });
         const d = story ? 80 : 64;
         const rowMid = y + panelH - 32 - d / 2;
-        p.crest(p.left + 32 + d / 2, rowMid, d, data.next.crest, data.next.initials);
+        p.crest(p.left + 32 + d / 2, rowMid, d, data.next.crest, data.next.initials, data.next.logo);
         p.text(data.next.home ? 'Home against' : 'Away at', p.left + 32 + d + 20, rowMid - 22, { weight: 500, size: 26, color: c.muted });
         const opponent = p.fit(data.next.opponent, p.width - 64 - d - 20, story ? 44 : 38, 28, 700, DISPLAY, 'semi-condensed', 1);
         p.text(opponent.lines[0], p.left + 32 + d + 20, rowMid + 20, { weight: 700, size: opponent.size, family: DISPLAY, stretch: 'semi-condensed' });
@@ -410,7 +419,7 @@
     const nameH = fitted.lines.length * Math.round(fitted.size * 0.92);
     const blocks = [];
     blocks.push({ h: 56 + 24 + nameH, draw: (y) => {
-      p.crest(p.left + 28, y + 28, 56, data.crest, data.initials);
+      p.crest(p.left + 28, y + 28, 56, data.crest, data.initials, data.logo);
       p.text(`${data.team} · Season ${data.season}`, p.left + 56 + 16, y + 28, { weight: 600, size: 30, color: c.muted });
       p.lines(fitted, p.left, y + 56 + 24, { weight: 800, family: DISPLAY, stretch: 'condensed', lineHeight: 0.92 });
     } });
@@ -474,7 +483,7 @@
         p.hline(rowY);
         const mid = rowY + rowH / 2 + 1;
         p.text(row.rank, cols.rank, mid, { weight: 700, size: numSize, family: DISPLAY, color: c.muted });
-        p.crest(cols.crest + Math.round(26 * scale), mid, Math.round(52 * scale), row.crest, row.initials);
+        p.crest(cols.crest + Math.round(26 * scale), mid, Math.round(52 * scale), row.crest, row.initials, row.logo);
         const name = p.fit(row.team, cols.gp - 72 - cols.team, Math.round(32 * Math.min(scale, 1.05)), 20, 600, BODY, 'normal', 1);
         p.text(name.lines[0], cols.team, mid, { weight: 600, size: name.size });
         p.text(row.games, cols.gp, mid, { weight: 600, size: numSize, family: DISPLAY, color: c.muted, align: 'right' });
@@ -515,7 +524,7 @@
         p.hline(rowY);
         const mid = rowY + rowH / 2 + 1;
         p.text(row.rank, p.left, mid, { weight: 700, size: story ? 32 : 28, family: DISPLAY, color: c.muted });
-        p.crest(p.left + 64 + crestD / 2, mid, crestD, row.crest, row.initials);
+        p.crest(p.left + 64 + crestD / 2, mid, crestD, row.crest, row.initials, row.logo);
         const nameSize = story ? 36 : 30;
         const name = p.fit(row.name, nameW, nameSize, 22, 600, BODY, 'normal', 1);
         const sub = `${data.audience === 'player' ? row.team + ' \u00b7 ' : ''}${row.league}${row.code ? ' \u00b7 ' + row.code : ''}`;
@@ -531,9 +540,31 @@
 
   const CARDS = { game: gameCard, team: teamCard, player: playerCard, table: tableCard, leaderboard: leaderboardCard };
 
-  function render(data, format, theme) {
+  async function loadLogos(data) {
+    const paths = new Set();
+    function visit(value) {
+      if (!value || typeof value !== 'object') return;
+      for (const [key, item] of Object.entries(value)) {
+        if ((key === 'logo' || key === 'homeLogo' || key === 'awayLogo') && typeof item === 'string'
+            && /^theme\/team-logos\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.(png|webp|jpe?g)$/i.test(item)) paths.add(item);
+        else if (item && typeof item === 'object') visit(item);
+      }
+    }
+    visit(data);
+    const logos = new Map();
+    await Promise.all(Array.from(paths, (path) => new Promise((resolve) => {
+      const image = new Image();
+      image.onload = () => { logos.set(path, image); resolve(); };
+      image.onerror = () => resolve();
+      image.src = '/' + path;
+    })));
+    return logos;
+  }
+
+  async function render(data, format, theme) {
+    const logos = await loadLogos(data);
     const canvas = document.createElement('canvas');
-    const p = painter(canvas, FORMATS[format], palette(theme));
+    const p = painter(canvas, FORMATS[format], palette(theme), logos);
     const card = CARDS[data.kind](p, data, format);
     compose(p, card.header, card.blocks, card.footer);
     return new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));

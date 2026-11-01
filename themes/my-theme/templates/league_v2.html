@@ -1,3 +1,4 @@
+{% from 'team_crest.html' import crest with context %}
 {# League page (regular season) on the design system. Included by category.html with
    category, league (league_context), ns, player_stats and player_rows in scope. #}
 {% set competition = league.title.split(' · ')[-1] %}
@@ -19,7 +20,7 @@
 {%- endmacro %}
 
 {% macro team_label(name, size='') -%}
-<span class="fs-team"><span class="fs-crest{% if size %} fs-crest--{{ size }}{% endif %}" data-crest="{{ name|crest_index }}" aria-hidden="true">{{ name|team_initials }}</span><span>{{ name }}</span></span>
+<span class="fs-team">{{ crest(name, category.shortname, size) }}<span>{{ name }}</span></span>
 {%- endmacro %}
 
 {% macro match_card(game) -%}
@@ -139,7 +140,7 @@
                     'season': league.season_label,
                     'round': teams|map(attribute='games')|map('int')|max if teams else 0
                 }|tojson }}</script>
-                <script type="application/json" id="share-table-rows">[{% for team in teams %}{{ {'rank': team.rank|default('')|string, 'team': team.team, 'crest': team.team|crest_index, 'initials': team.team|team_initials, 'games': team.games|default(0)|int, 'gd': team.goal_difference|default(0)|int, 'points': team.points|default(0)|int}|tojson }}{% if not loop.last %},{% endif %}{% endfor %}]</script>
+                <script type="application/json" id="share-table-rows">[{% for team in teams %}{{ {'rank': team.rank|default('')|string, 'team': team.team, 'crest': team.team|crest_index, 'logo': team.team|team_logo(category.shortname, 'share'), 'initials': team.team|team_initials, 'games': team.games|default(0)|int, 'gd': team.goal_difference|default(0)|int, 'points': team.points|default(0)|int}|tojson }}{% if not loop.last %},{% endif %}{% endfor %}]</script>
                 <button type="button" class="fs-btn" data-share-card data-share-source="share-table-data" data-share-rows="share-table-rows">Share table</button>
             </div>
             <div class="fs-segmented" role="group" aria-label="Table columns" data-table-views>
@@ -179,7 +180,7 @@
                 {% set gd = team.goal_difference|default(0)|int %}
                 <tr class="standings-row">
                     <td>{{ team.rank|default('–') }}</td>
-                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ team.url }}"><span class="fs-crest" data-crest="{{ team.team|crest_index }}" aria-hidden="true">{{ team.team|team_initials }}</span><span>{{ team.team }}</span></a></td>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ team.url }}">{{ crest(team.team, category.shortname) }}<span>{{ team.team }}</span></a></td>
                     <td>{{ team.games|default('–') }}</td>
                     <td class="max-sm:hidden" data-col="table">{{ team.wins|default(0) }}</td>
                     <td class="max-sm:hidden" data-col="table">{{ (team.over_time_wins|default(0)|int) + (team.penalty_shootout_wins|default(0)|int) }}</td>

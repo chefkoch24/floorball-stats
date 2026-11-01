@@ -23,6 +23,7 @@
         'name': article.player|default(article.title),
         'team': share_team,
         'crest': share_team|crest_index,
+        'logo': share_team|team_logo(article.current_season ~ '-regular-season', 'share'),
         'initials': share_team|team_initials,
         'league': share_league.title.split(' · ')[-1] if share_league else article.league|default(''),
         'season': share_league.season_label if share_league else '',

@@ -43,7 +43,7 @@
         {% for entry in board.entries %}
         <li class="grid grid-cols-[1.75em_28px_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
             <span class="font-display text-sm text-ink-muted tabular-nums">{{ entry.rank }}</span>
-            <span class="fs-crest" data-crest="{{ entry.crest }}" aria-hidden="true">{{ entry.initials }}</span>
+            <span class="fs-crest" data-crest="{{ entry.crest }}" aria-hidden="true">{% if entry.website_logo %}<img class="fs-crest__logo" src="{{ SITEURL }}/{{ entry.website_logo }}" alt="" onerror="this.remove()">{% endif %}<span class="fs-crest__initials">{{ entry.initials }}</span></span>
             <span class="grid min-w-0">
                 <a class="font-semibold text-ink [overflow-wrap:anywhere]" href="{{ SITEURL }}/{{ entry.url }}">{{ entry.name }}</a>
                 <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{% if board.kind == 'player' %}{% set team_page = TEAM_PAGES.get((entry.team_page[0], entry.team_page[1])) if TEAM_PAGES and entry.team_page else '' %}{% if team_page %}<a class="text-ink-muted hover:text-rink" href="{{ SITEURL }}/{{ team_page }}">{{ entry.team }}</a>{% else %}{{ entry.team }}{% endif %} · {% endif %}{{ entry.league }} {{ country(entry.code, entry.country) }} · {{ entry.detail }}</span>

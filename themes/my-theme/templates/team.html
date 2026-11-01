@@ -1,3 +1,4 @@
+{% from 'team_crest.html' import crest with context %}
 {% set team_name = article.team|default(article.title) %}
 {% set gd = article.goal_difference|default(0)|int %}
 {% import "insights.html" as insights with context %}
@@ -6,7 +7,7 @@
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
     </div>
     <div class="flex flex-wrap items-center gap-4">
-        <span class="fs-crest fs-crest--lg" data-crest="{{ team_name|crest_index }}" aria-hidden="true">{{ team_name|team_initials }}</span>
+        {{ crest(team_name, article.category.slug, 'lg') }}
         <h1 class="m-0 min-w-0 font-display text-[40px] leading-none font-extrabold text-ink [font-stretch:75%] text-balance sm:text-[56px]">{{ team_name }}</h1>
     </div>
     <dl class="m-0 flex flex-wrap gap-x-8 gap-y-2">
@@ -40,6 +41,7 @@
         'slug': article.slug,
         'name': team_name,
         'crest': team_name|crest_index,
+        'logo': team_name|team_logo(article.category.slug, 'share'),
         'initials': team_name|team_initials,
         'league': share_league.title.split(' · ')[-1] if share_league else category_label,
         'season': share_league.season_label if share_league else '',

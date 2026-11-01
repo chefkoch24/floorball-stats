@@ -1,3 +1,4 @@
+{% from 'team_crest.html' import crest with context %}
 {% set game_scheduled = article.game_state|default('played') == 'scheduled' %}
 {% set hg = article.home_goals|default(0)|int %}
 {% set ag = article.away_goals|default(0)|int %}
@@ -24,7 +25,7 @@
         <div class="fs-scoreboard__score">{% if game_scheduled %}<span class="text-ink-muted">vs</span>{% else %}{{ hg }}<span class="fs-scoreboard__sep">:</span>{{ ag }}{% endif %}</div>
         {% endif %}
         <a class="fs-scoreboard__side text-ink hover:no-underline {% if not game_scheduled and own < other %}fs-match__loser{% endif %}" href="{{ SITEURL }}/{{ name|team_url(current_category) }}">
-            <span class="fs-crest fs-crest--lg" data-crest="{{ name|crest_index }}" aria-hidden="true">{{ name|team_initials }}</span>
+            {{ crest(name, current_category, 'lg') }}
             <span class="fs-scoreboard__name">{{ name }}</span>
             <span class="fs-label">{{ side }}</span>
         </a>
@@ -54,6 +55,7 @@
         'home': article.home_team, 'away': article.away_team,
         'homeGoals': hg, 'awayGoals': ag,
         'homeCrest': article.home_team|crest_index, 'awayCrest': article.away_team|crest_index,
+        'homeLogo': article.home_team|team_logo(current_category, 'share'), 'awayLogo': article.away_team|team_logo(current_category, 'share'),
         'homeInitials': article.home_team|team_initials, 'awayInitials': article.away_team|team_initials,
         'periods': share_periods,
         'homeMinutes': (article.home_goal_minutes_csv|default('')|string).split(',')|reject('equalto', '')|map('float')|list,

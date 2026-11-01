@@ -52,7 +52,9 @@
                     data-time="{{ article.start_time|fmt_time('TBD') }}"
                     data-home="{{ article.home_team|default('n.a.')|e }}"
                     data-away="{{ article.away_team|default('n.a.')|e }}"
+                    data-home-logo="{{ (SITEURL ~ '/' ~ (article.home_team|team_logo(category_short))) if article.home_team|team_logo(category_short) else '' }}"
                     data-home-crest="{{ article.home_team|crest_index }}"
+                    data-away-logo="{{ (SITEURL ~ '/' ~ (article.away_team|team_logo(category_short))) if article.away_team|team_logo(category_short) else '' }}"
                     data-away-crest="{{ article.away_team|crest_index }}"
                     data-home-initials="{{ article.home_team|team_initials|e }}"
                     data-away-initials="{{ article.away_team|team_initials|e }}"
@@ -246,8 +248,8 @@
 
     const today = new Date();
     const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-    const side = (name, crest, initials, loser) => `
-        <span class="${loser ? 'fs-match__loser' : ''}"><span class="fs-team"><span class="fs-crest" data-crest="${crest}" aria-hidden="true">${escapeHtml(initials)}</span><span>${escapeHtml(name)}</span></span></span>`;
+    const side = (name, crest, initials, loser, logo) => `
+        <span class="${loser ? 'fs-match__loser' : ''}"><span class="fs-team"><span class="fs-crest" data-crest="${crest}" aria-hidden="true">${logo ? `<img class="fs-crest__logo" src="${escapeHtml(logo)}" alt="" onerror="this.remove()">` : ''}<span class="fs-crest__initials">${escapeHtml(initials)}</span></span><span>${escapeHtml(name)}</span></span></span>`;
     const render = (division) => {
         const games = allGames.filter((game) => game.division === division);
         const who = division === 'women' ? "women's" : "men's";
@@ -272,7 +274,7 @@
             return `
                 <a class="fs-match" href="${game.url}">
                     <div class="fs-match__meta"><span>${escapeHtml(game.league)}</span>${status}</div>
-                    <div class="fs-match__teams">${side(game.home, game.homeCrest, game.homeInitials, played && hg < ag)}${side(game.away, game.awayCrest, game.awayInitials, played && ag < hg)}</div>
+                    <div class="fs-match__teams">${side(game.home, game.homeCrest, game.homeInitials, played && hg < ag, game.homeLogo)}${side(game.away, game.awayCrest, game.awayInitials, played && ag < hg, game.awayLogo)}</div>
                     <div class="fs-match__scores">${played ? `<span class="${hg < ag ? 'fs-match__loser' : ''}">${hg}</span><span class="${ag < hg ? 'fs-match__loser' : ''}">${ag}</span>` : '<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>'}</div>
                 </a>`;
         }).join('');

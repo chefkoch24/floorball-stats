@@ -28,7 +28,7 @@ Floorball Stats shows standings, results and numbers from Europe's top floorball
 
 ## Iconography and imagery
 
-There is no icon set and no logo yet: the name is set in Archivo. Labels are words ("Playoffs", "Download .ics"), not icons. Teams appear as monogram crests (`TeamCrest`), never as club logos, because those are the clubs' trademarks. No photos.
+There is no icon set and no logo yet: the name is set in Archivo. Labels are words ("Playoffs", "Download .ics"), not icons. Teams use reviewed club logos where available, with monogram crests as fallback. See `TEAM_LOGOS_RESEARCH.md` for the rights workflow. No photos.
 
 ## Building with this system
 
