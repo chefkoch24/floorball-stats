@@ -18,7 +18,7 @@
 
     <div class="fc-product__info">
         <a class="fc-product__brand" href="{{ SITEURL }}/{{ collection.slug }}/">{{ item.subtitle }}</a>
-        <h1 class="fc-title">{{ item.title }}</h1>
+        <h1 class="fc-title">{{ item.subtitle|e }} {{ item.title|e }} {{ kind }} review</h1>
 
         {% if 'Overall' in average %}
         <a class="fc-score" href="#reviews">

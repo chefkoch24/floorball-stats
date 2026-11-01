@@ -27,22 +27,6 @@
   if (toggle) toggle.addEventListener('click', () => setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true));
   media.addEventListener('change', (event) => { if (!stored()) setTheme(event.matches ? 'dark' : 'light', false); });
 
-  // Explore menu.
-  const menuToggle = document.querySelector('.menu-toggle');
-  const nav = document.getElementById('mainNav');
-  if (menuToggle && nav) {
-    const close = () => { nav.classList.remove('is-open'); menuToggle.setAttribute('aria-expanded', 'false'); };
-    menuToggle.addEventListener('click', () => {
-      const open = menuToggle.getAttribute('aria-expanded') !== 'true';
-      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      nav.classList.toggle('is-open', open);
-    });
-    document.addEventListener('click', (event) => {
-      if (nav.classList.contains('is-open') && !nav.contains(event.target) && !menuToggle.contains(event.target)) close();
-    });
-    document.addEventListener('keydown', (event) => { if (event.key === 'Escape') close(); });
-  }
-
   // Live stats on the home page, from the stats site's connect-feed.json. The block stays
   // hidden when the feed cannot be loaded; the stats teaser below it is the fallback.
   const live = document.querySelector('[data-live-stats]');

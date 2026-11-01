@@ -454,3 +454,24 @@ python -m src.pipeline --season 25-26 --phase regular-season --skip_scrape
 ```bash
 pelican --autoreload --listen
 ```
+
+## SEO release and Google Search Console
+
+`plugins/seo.py` owns the Stats sitemap and robots file. It runs after roster and
+insight enrichment, consolidates player aliases, and includes only canonical,
+useful page URLs. Match `Date` is never sitemap `lastmod`; only explicit, non-future
+`Modified` metadata is used. The main-site generator applies the same indexing
+policy to newsletter confirmations and canonical collection URLs.
+
+Before requesting recrawling, build both sites and validate the published output:
+
+```bash
+make publish
+python scripts/check_seo.py output --report /tmp/floorball-seo-check.json
+```
+
+This uses existing content; it does not require a full league refresh. PRs run the
+same check in `.github/workflows/seo-check.yml`. See
+[Google reindexing checklist](docs/GOOGLE_REINDEXING.md) and
+[prioritized submission URLs](docs/google-reindex-urls.txt) for the exact post-deploy
+steps. Submit production URLs only, after merging and deploying the PR.

@@ -66,6 +66,7 @@ def build(pelican) -> None:
         **os.environ,
         "CONNECT_SITEURL": settings["CONNECT_BUILD_URL"].rstrip("/"),
         "CONNECT_STATS_URL": settings["SITEURL"].rstrip("/"),
+        "CONNECT_STATS_SEASON": settings["CURRENT_SEASON"],
     }
     reports = []
     if os.environ.get("NOTION_TOKEN"):

@@ -14,6 +14,63 @@ html[data-division="women"] [data-division="men"] { display: none; }
   a:hover { text-decoration: underline; text-underline-offset: 2px; }
   :focus-visible { outline: 2px solid var(--rink); outline-offset: 2px; }
 
+  /* Brand and header extras */
+  .fc-brand { display: inline-flex; align-items: center; }
+  .fc-brand__logo { display: block; width: auto; height: 40px; }
+  /* The logo is blue on transparent; a little lift keeps it readable on the dark header. */
+  [data-theme="dark"] .fc-brand__logo { filter: brightness(1.35) saturate(1.1); }
+  .fc-cta {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 12px;
+    border: 1px solid var(--rink);
+    border-radius: var(--radius-pill);
+    background: var(--rink);
+    color: var(--on-rink);
+    font: 600 13px/1.1 var(--font-body);
+  }
+  .fc-cta:hover { text-decoration: none; filter: brightness(1.08); }
+  @media (max-width: 640px) {
+    .fc-cta { padding: 6px 10px; font-size: 12px; }
+    .fc-brand__logo { height: 34px; }
+  }
+  /* Phones: the newsletter sits in the menu and at the end of every page. */
+  @media (max-width: 480px) {
+    .fc-cta { display: none; }
+  }
+
+  .fc-soon { margin-left: 4px; padding: 1px 6px; border-radius: var(--radius-pill); background: var(--surface-sunken); color: var(--ink-muted); font-size: 11px; font-weight: 600; vertical-align: middle; }
+
+  /* Explore menu */
+  .fc-nav__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) repeat(4, minmax(0, 1fr));
+    gap: var(--space-6);
+  }
+  .fc-nav__group ul { margin: var(--space-2) 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+  .fc-nav__group a { color: var(--ink); font-weight: 600; }
+  .fc-nav__group a:hover { color: var(--rink); }
+  .fc-nav__stats {
+    display: grid;
+    gap: 6px;
+    padding: var(--space-4);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--rink-soft);
+    color: var(--ink);
+  }
+  .fc-nav__stats > a:first-child { display: grid; gap: 6px; color: var(--ink); }
+  .fc-nav__stats:hover { border-color: var(--rink); text-decoration: none; }
+  .fc-nav__stats strong { font: 700 18px/1.2 var(--font-display); font-stretch: 85%; }
+  .fc-nav__more { color: var(--rink); font-weight: 600; font-size: 14px; }
+  @media (max-width: 900px) {
+    .fc-nav__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+    .fc-nav__stats { grid-column: 1 / -1; }
+  }
+
+  /* The Stats menu lives in the single global header; phones reach it via Explore. */
+  @media (max-width: 480px) { .header-inner .header-stats-toggle { display: none; } }
+
   /* Header */
   .site-header {
     position: fixed;

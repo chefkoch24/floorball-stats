@@ -1,0 +1,60 @@
+    <div class="header-inner">
+        <a class="brand fc-brand" href="{{ header_home }}/">
+            <img class="fc-brand__logo" src="{{ SITEURL }}/theme/img/logo.png" alt="Floorball Connect" width="88" height="40">
+        </a>
+        <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mainNav">Explore <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+        {% if header_is_stats|default(false) %}
+        <button class="menu-toggle header-stats-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Stats <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+        {% else %}<a class="header-link" href="{{ header_stats }}/">Stats</a>{% endif %}
+        <a class="header-link header-link--wide" href="{{ header_home }}/floorball-sticks/">Reviews</a>
+        <a class="header-link header-link--wide" href="{{ header_home }}/watch-floorball/">Watch</a>
+        <div class="header-actions">
+            {% if header_is_stats|default(false) %}
+            <button class="search-trigger" type="button" aria-label="Search" title="Search teams and players" aria-haspopup="dialog" aria-controls="globalSearchModal"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+            {% endif %}
+            <a class="fc-cta" href="{{ header_home }}/subscribe/" data-cta="header">Join for free</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
+        </div>
+    </div>
+    <nav class="main-nav fc-nav" id="mainNav" aria-label="Main">
+        <div class="main-nav__inner fc-nav__inner">
+            {% if header_is_stats|default(false) %}
+            <div class="fc-nav__stats">
+                <a href="{{ header_stats }}/"><span class="fs-label">Stats</span><strong>Floorball Stats</strong></a>
+                <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
+                <a class="fc-nav__more" href="{{ header_stats }}/leaders.html">Leaders</a>
+                <a class="fc-nav__more" href="{{ header_stats }}/stats-explained.html">How it works</a>
+                <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
+            </div>
+            {% else %}
+            <a class="fc-nav__stats" href="{{ header_stats }}/">
+                <span class="fs-label">Stats</span>
+                <strong>Standings, results and player stats from 14 top leagues</strong>
+                <span class="fc-nav__more">Open Floorball Stats →</span>
+            </a>
+            {% endif %}
+            {% for group in CONNECT_NAV_GROUPS %}
+            <div class="fc-nav__group">
+                <span class="fs-label">{{ group }}</span>
+                <ul>
+                    {% for collection in CONNECT_COLLECTIONS if collection.nav == group %}
+                    <li><a href="{{ header_home }}/{{ collection.slug }}/">{{ collection.title }}</a></li>
+                    {% endfor %}
+                    {% if group == 'Learn' %}
+                    <li><a href="{{ header_home }}/coming-soon/">Courses <span class="fc-soon">Soon</span></a></li>
+                    <li><a href="{{ header_home }}/coming-soon/">Camps <span class="fc-soon">Soon</span></a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            {% endfor %}
+            <div class="fc-nav__group">
+                <span class="fs-label">Floorball Connect</span>
+                <ul>
+                    <li><a href="{{ header_home }}/about-us/">About us</a></li>
+                    <li><a href="{{ header_home }}/subscribe/">Newsletter</a></li>
+                    <li><a href="https://floorballconnect.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+                    <li><a href="mailto:hello@floorballconnect.com">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

@@ -36,3 +36,18 @@
 - Integrate Player Stats
 - Integrate Offense and Defense Ratings for all teams
 - More advanced H2H in particular for upcoming games
+
+## SEO review follow-up (1 November 2026)
+
+- [x] Technical reindexing preparation: canonical sitemaps, player alias redirects,
+  lexicon links, competition titles, factual game HTML, product markup, build checks
+  and a Google Search Console submission guide (`docs/GOOGLE_REINDEXING.md`).
+- [ ] After merge/deployment: verify production redirects and submit both sitemaps
+  in Search Console; inspect the priority URLs in `docs/google-reindex-urls.txt`.
+- [ ] Collect missing product reviews and improve priority product comparisons.
+- [ ] Recheck streaming prices and deal validity against original sources; show
+  verified update/expiry dates.
+- [ ] Persist meaningful publication-change timestamps for sitemap freshness in
+  the database-driven publishing path; do not substitute fixture or heartbeat dates.
+- [ ] Evaluate evergreen league/team hubs and targeted training/language pages
+  using Search Console demand.

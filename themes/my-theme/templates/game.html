@@ -7,6 +7,10 @@
 {% set decision = 'PS' if ps_goals > 0 else ('OT' if ot_goals > 0 else '') %}
 {% set attendance_text = article.attendance|fmt_int('') %}
 {% import "insights.html" as insights with context %}
+<header class="mb-4">
+    <h1 class="fs-panel-title">{{ article.home_team|e }} vs {{ article.away_team|e }}</h1>
+    <p>{{ article.home_team|e }} {% if game_scheduled %}play {{ article.away_team|e }}{% else %}{{ hg }}:{{ ag }} {{ article.away_team|e }}{% if decision %} ({{ decision }}){% endif %}{% endif %} · {{ article.date.strftime('%d %B %Y') }} · {{ category_label|e }}.</p>
+</header>
 <section class="fs-scoreboard mb-8">
     <div class="fs-scoreboard__head">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
@@ -24,11 +28,12 @@
         {% if loop.index == 2 %}
         <div class="fs-scoreboard__score">{% if game_scheduled %}<span class="text-ink-muted">vs</span>{% else %}{{ hg }}<span class="fs-scoreboard__sep">:</span>{{ ag }}{% endif %}</div>
         {% endif %}
-        <a class="fs-scoreboard__side text-ink hover:no-underline {% if not game_scheduled and own < other %}fs-match__loser{% endif %}" href="{{ SITEURL }}/{{ name|team_url(current_category) }}">
+        {% set side_url = article.seo_home_url if side == 'Home' else article.seo_away_url %}
+        <{{ 'a' if side_url else 'div' }} class="fs-scoreboard__side text-ink hover:no-underline {% if not game_scheduled and own < other %}fs-match__loser{% endif %}"{% if side_url %} href="{{ SITEURL }}/{{ side_url }}"{% endif %}>
             {{ crest(name, current_category, 'lg') }}
             <span class="fs-scoreboard__name">{{ name }}</span>
             <span class="fs-label">{{ side }}</span>
-        </a>
+        </{{ 'a' if side_url else 'div' }}>
         {% endfor %}
     </div>
     {% if not game_scheduled %}
@@ -476,3 +481,10 @@ if (gameEventsTimeline) {
 }
 
 </script>
+
+{% if article.seo_goals %}
+<section class="panel">
+    <h2 class="panel-title">Goals and scorers</h2>
+    <ol>{% for event in article.seo_goals %}<li>{{ event.minute|e }} · {{ event.score|e }} · {% if event.title_url %}<a href="{{ SITEURL }}/{{ event.title_url|e }}">{{ event.title|e }}</a>{% else %}{{ event.title|e }}{% endif %}{% if event.assist %} (assist: {% if event.assist_url %}<a href="{{ SITEURL }}/{{ event.assist_url|e }}">{{ event.assist|e }}</a>{% else %}{{ event.assist|e }}{% endif %}){% endif %}</li>{% endfor %}</ol>
+</section>
+{% endif %}

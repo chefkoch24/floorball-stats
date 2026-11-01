@@ -9,3 +9,7 @@ PYTHON_VERSION = "3.13"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=600"
+
+# Keep Stats .html links aligned with their existing canonical URLs and sitemaps.
+[build.processing.html]
+  pretty_urls = false

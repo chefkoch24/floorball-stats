@@ -19,7 +19,6 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     jinja_filters,
     more_categories,
-    'sitemap',
     # og:image share cards and team .ics calendars for the current season
     'share_assets',
     # team rosters on team pages, team links on player pages
@@ -32,6 +31,8 @@ PLUGINS = [
     'connect_site',
     # connect-feed.json: games, power rankings and top scorers for the main site's home page
     'connect_feed',
+    # canonical identities, robots and indexable sitemap entries
+    'seo',
 ]
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 
@@ -42,8 +43,15 @@ PAGE_SAVE_AS = '{slug}.html'
 
 TIMEZONE = 'Europe/Berlin'
 USE_FOLDER_AS_CATEGORY = False
-DEFAULT_LANG = 'de'
+DEFAULT_LANG = 'en'
 THEME = 'themes/my-theme/'
+SHARED_THEME = Path(__file__).resolve().parent / 'themes' / 'shared'
+THEME_TEMPLATES_OVERRIDES = [str(SHARED_THEME / 'templates')]
+THEME_STATIC_PATHS = ['static', str(SHARED_THEME / 'static')]
+# The Explore menu uses the same collection definitions as the main site.
+import sys
+sys.path.append(str(Path(__file__).resolve().parent))
+from connect.connect_content import COLLECTIONS as CONNECT_COLLECTIONS, NAV_GROUPS as CONNECT_NAV_GROUPS
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -127,19 +135,8 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = False
 
-SITEMAP = {
-    "format": "xml",
-    "priorities": {
-        "articles": 1.0,
-        "indexes": 0.8,
-        "pages": 0.4,
-    },
-    "changefreqs": {
-        "articles": "daily",
-        "indexes": "weekly",
-        "pages": "monthly",
-    },
-}
+# plugins/seo.py writes the canonical sitemap. Only explicit Modified metadata
+# is used as lastmod; match Date is not an update timestamp.
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -240,6 +237,46 @@ def _slug_parts(slug):
     if not text:
         return []
     return [part for part in text.split('-') if part]
+
+
+def homepage_games(articles):
+    """Small timezone-tolerant window, plus the next matchday per division."""
+    games = []
+    divisions = {}
+    for article in articles:
+        category = getattr(getattr(article, 'category', None), 'slug', '')
+        if getattr(article, 'type', '') != 'game' or not getattr(article, 'date', None) or CURRENT_SEASON not in category:
+            continue
+        context = league_context(category)
+        division = context['division'] if context else 'men'
+        games.append(article)
+        if article.date.date() > BUILD_DATE:
+            divisions[division] = min(divisions.get(division, article.date.date()), article.date.date())
+    return [article for article in games if abs((article.date.date() - BUILD_DATE).days) <= 2
+            or article.date.date() in divisions.values()]
+
+
+def category_seo_label(slug):
+    """Competition, division and full season for search-facing metadata."""
+    slug = str(slug or '')
+    context = league_context(slug)
+    if not context:
+        return category2string(slug)
+    season = '/'.join(str(2000 + int(part)) for part in context['season'].split('-'))
+    phase = context['phase'].removesuffix('-players').replace('-', ' ').title()
+    division = 'Women' if context['division'] == 'women' else 'Men'
+    return f"{context['title']} {division} {season} {phase}"
+
+
+def league_watch_path(slug):
+    context = league_context(slug)
+    if not context:
+        return ''
+    if context['prefix'] in ('cc-', 'ccw-'):
+        return 'watch-floorball/how-to-watch-the-champions-cup/'
+    country = {'Sweden': 'swedish', 'Finland': 'finnish', 'Czech Republic': 'czech',
+               'Switzerland': 'swiss', 'Latvia': 'latvian', 'Germany': 'german'}.get(context['name'])
+    return f'watch-floorball/how-to-watch-{country}-floorball/' if country else ''
 
 
 def category2title(slug):
@@ -493,6 +530,9 @@ JINJA_FILTERS = {
     'category_slugs': category_slugs,
     'string_in_category_path': string_in_category_path,
     'category2string': category2string,
+    'category_seo_label': category_seo_label,
+    'homepage_games': homepage_games,
+    'league_watch_path': league_watch_path,
     'category2title': category2title,
     'category2breadcrumb': category2breadcrumb,
     'fmt2': fmt2,

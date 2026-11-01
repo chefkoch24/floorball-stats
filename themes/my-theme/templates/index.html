@@ -38,8 +38,9 @@
         </div>
     </div>
     <div id="today-games-list" class="fs-strip"></div>
+    <noscript><ul>{% for game in articles if game.type|default('') == 'game' and game.date and game.date.date() == BUILD_DATE %}<li><a href="{{ SITEURL }}/{{ game.url }}">{{ game.home_team|e }} vs {{ game.away_team|e }}</a></li>{% endfor %}</ul></noscript>
     <div id="today-games-source" hidden>
-        {% for article in articles %}
+        {% for article in articles|homepage_games %}
             {% set article_type = article.type|default('') %}
             {% set category_short = article.category.shortname if article.category else '' %}
             {% if (article_type == "game" or article|string_in_category_path('game')) and CURRENT_SEASON in category_short and article.date %}

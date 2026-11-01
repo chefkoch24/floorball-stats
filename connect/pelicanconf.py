@@ -26,6 +26,9 @@ FOLLOWERS = '7,500+'
 PATH = os.path.join(HERE, 'content')
 OUTPUT_PATH = os.path.join(HERE, 'output')
 THEME = os.path.join(HERE, '..', 'themes', 'connect')
+SHARED_THEME = os.path.join(HERE, '..', 'themes', 'shared')
+THEME_TEMPLATES_OVERRIDES = [os.path.join(SHARED_THEME, 'templates')]
+THEME_STATIC_PATHS = ['static', os.path.join(SHARED_THEME, 'static')]
 PLUGIN_PATHS = [os.path.join(HERE, 'plugins')]
 # connect_pages: list and detail pages from connect/data/*.json
 PLUGINS = ['connect_pages']
@@ -81,3 +84,7 @@ FAQ = [
     ('I did not receive an email?',
      'Please check your inbox for a confirmation email; it may take a few minutes. If it is not there, check your spam or promotions folder. Still nothing? Send a quick message to hello@floorballconnect.com and we will make sure you are subscribed.'),
 ]
+
+# Passed by the parent build; standalone builds read the same root season config.
+import runpy
+STATS_CURRENT_SEASON = os.environ.get('CONNECT_STATS_SEASON') or runpy.run_path(os.path.join(HERE, '..', 'pelicanconf.py'))['CURRENT_SEASON']

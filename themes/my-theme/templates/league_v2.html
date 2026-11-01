@@ -97,6 +97,10 @@
     </dl>
 </header>
 
+{% set watch_path = category.slug|league_watch_path %}
+{% if watch_path %}<p><a href="{{ CONNECT_URL }}/{{ watch_path }}">Where to watch {{ competition|e }} →</a></p>{% endif %}
+<p><a href="{{ CONNECT_URL }}/floorball-lexicon/powerplay/">Powerplay explained</a> · <a href="{{ CONNECT_URL }}/floorball-lexicon/boxplay/">Boxplay explained</a></p>
+
 {% if played_desc or upcoming %}
 <section class="mb-10 grid gap-3" aria-labelledby="matchday-title">
     <div class="flex items-baseline justify-between gap-4">

@@ -3,18 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% set canonical_path = page_name|default('index') %}
+    {% if (page is defined and page.slug in ['confirmation', 'confirmation-missing', 'coming-soon']) or SEO_PREVIEW|default(false) %}<meta name="robots" content="noindex,follow">{% endif %}
     {% set page_title = (seo_title ~ ' · ' ~ SITENAME) if seo_title is defined and seo_title else SITENAME ~ ' · The home of Floorball' %}
     {% set page_description = seo_description if seo_description is defined and seo_description else 'Floorball Connect brings the Floorball world together: stick and blade reviews, drills, guides, where to watch, documentaries, podcasts and stats for the top leagues.' %}
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ page_description|striptags|truncate(300) }}">
+    <title>{{ page_title|e }}</title>
+    <meta name="description" content="{{ page_description|plain_text|truncate(200)|e }}">
     {% if SITEURL and page_name is defined %}
-    <link rel="canonical" href="{{ SITEURL }}/{{ page_name if page_name != 'index' else '' }}">
-    <meta property="og:url" content="{{ SITEURL }}/{{ page_name if page_name != 'index' else '' }}">
+    <link rel="canonical" href="{{ SITEURL }}/{{ (canonical_path.strip('/') ~ '/') if canonical_path.strip('/') not in ['', 'index'] else '' }}">
+    <meta property="og:url" content="{{ SITEURL }}/{{ (canonical_path.strip('/') ~ '/') if canonical_path.strip('/') not in ['', 'index'] else '' }}">
     {% endif %}
     <meta property="og:site_name" content="{{ SITENAME }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ page_title }}">
-    <meta property="og:description" content="{{ page_description|striptags|truncate(300) }}">
+    <meta property="og:title" content="{{ page_title|e }}">
+    <meta property="og:description" content="{{ page_description|plain_text|truncate(200)|e }}">
     <meta property="og:image" content="{{ SITEURL }}/{{ og_image if og_image is defined and og_image else 'theme/img/og-default.png' }}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="{{ SITEURL }}/theme/img/icon-32.png" type="image/png" sizes="32x32">
@@ -37,56 +39,15 @@
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/fonts.css">
     {# Shared design system (themes/my-theme), built for this site with `make connect-css`. #}
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/app.css">
+    {% if SITEURL %}<script type="application/ld+json">{{ connect_schema(SITEURL, canonical_path, collection|default(none), item|default(none), page_description)|tojson }}</script>{% endif %}
     {% block head %}{% endblock %}
 </head>
 {% import "_macros.html" as m with context %}
 <body>
 <header class="site-header">
-    <div class="header-inner">
-        <a class="brand fc-brand" href="{{ SITEURL }}/">
-            <img class="fc-brand__logo" src="{{ SITEURL }}/theme/img/logo.png" alt="Floorball Connect" width="88" height="40">
-        </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav">Explore <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
-        <a class="header-link" href="{{ STATS_URL }}/">Stats</a>
-        <a class="header-link header-link--wide" href="{{ SITEURL }}/floorball-sticks/">Reviews</a>
-        <a class="header-link header-link--wide" href="{{ SITEURL }}/watch-floorball/">Watch</a>
-        <div class="header-actions">
-            <a class="fc-cta" href="{{ SITEURL }}/subscribe/" data-cta="header">Join for free</a>
-            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
-        </div>
-    </div>
-    <nav class="main-nav fc-nav" id="mainNav" aria-label="Main">
-        <div class="main-nav__inner fc-nav__inner">
-            <a class="fc-nav__stats" href="{{ STATS_URL }}/">
-                <span class="fs-label">Stats</span>
-                <strong>Standings, results and player stats from 14 top leagues</strong>
-                <span class="fc-nav__more">Open Floorball Stats →</span>
-            </a>
-            {% for group in CONNECT_NAV_GROUPS %}
-            <div class="fc-nav__group">
-                <span class="fs-label">{{ group }}</span>
-                <ul>
-                    {% for collection in CONNECT_COLLECTIONS if collection.nav == group %}
-                    <li><a href="{{ SITEURL }}/{{ collection.slug }}/">{{ collection.title }}</a></li>
-                    {% endfor %}
-                    {% if group == 'Learn' %}
-                    <li><a href="{{ SITEURL }}/coming-soon/">Courses <span class="fc-soon">Soon</span></a></li>
-                    <li><a href="{{ SITEURL }}/coming-soon/">Camps <span class="fc-soon">Soon</span></a></li>
-                    {% endif %}
-                </ul>
-            </div>
-            {% endfor %}
-            <div class="fc-nav__group">
-                <span class="fs-label">Floorball Connect</span>
-                <ul>
-                    <li><a href="{{ SITEURL }}/about-us/">About us</a></li>
-                    <li><a href="{{ SITEURL }}/subscribe/">Newsletter</a></li>
-                    <li><a href="{{ SUBSTACK_URL }}" target="_blank" rel="noopener">Substack</a></li>
-                    <li><a href="mailto:{{ CONTACT_EMAIL }}">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    {% set header_home = SITEURL %}
+    {% set header_stats = STATS_URL %}
+    {% include 'site_header.html' %}
 </header>
 
 <main class="main-content">
@@ -153,5 +114,6 @@
 </script>
 <script src="{{ SITEURL }}/theme/js/site.js" defer></script>
 {% block scripts %}{% endblock %}
+<script src="{{ SITEURL }}/theme/js/navigation.js" defer></script>
 </body>
 </html>
