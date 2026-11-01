@@ -1,4 +1,4 @@
-Date: NaN
+Date: 2024-12-08
 Title: 7194-estonia-vs-canada
 Category: wfc-2024-regular-season, game
 Slug: 7194-estonia-vs-canada-wfc-2024-regular-season
@@ -6,7 +6,7 @@ type: game
 game_id: 7194
 home_team: Estonia
 away_team: Canada
-attendance: None
+attendance: 193
 away_goal_diffs_csv: 2,7,6
 away_goal_minutes_csv: 18.43,47.52,56.93
 away_major_penalty_minutes_csv: 
@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 10.58,47.52
 home_penalty_goals_csv: 2,9
 home_penalty_minutes_csv: 8.58,47.2
-ingame_status: NaN
+ingame_status: None
 league_name: IFF WFC 2024 · regular-season
 pregame_h2h_away_split_goal_diff_per_game: 0.0
 pregame_h2h_away_split_points_per_game: 0.0
@@ -73,8 +73,8 @@ pregame_h2h_special_away_pk_eff: n.a.
 pregame_h2h_special_away_pp_eff: n.a.
 pregame_h2h_special_home_pk_eff: 0.0
 pregame_h2h_special_home_pp_eff: 50.0
-result_string: NaN
-start_time: NaN
+result_string: 9-3
+start_time: 10:00
 timeline_away_goals_csv: 0,0,0,0,1,1,1,1,1,1,1,2,3
 timeline_diffs_csv: 0,1,2,3,2,3,4,5,6,7,8,7,6
 timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7,8,9,9,9
@@ -83,8 +83,7 @@ timeline_minutes_csv: 0.0,1.28,2.87,11.18,18.43,25.78,32.37,37.25,40.98,43.18,46
 tournament_group: Group C
 tournament_stage_label: regular-season
 tournament_stage_type: group-stage
-venue: NaN
-venue_address: NaN
+venue: Baltic Hall
 home_away_points: 0
 home_boxplay: 2
 home_boxplay_efficiency: 100.0

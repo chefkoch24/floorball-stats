@@ -2155,7 +2155,8 @@ def run_stats_pipeline(
 
     def _first_valid(series: "pd.Series") -> object:
         """Return the first value that is not NaN/None/empty/'NaN'."""
-        mask = series.notna() & series.astype(str).str.strip().ne("") & series.astype(str).ne("NaN")
+        normalized = series.astype(str).str.strip().str.lower()
+        mask = series.notna() & ~normalized.isin({"", "nan", "none", "null", "nat"})
         return _json_scalar(series[mask].iloc[0]) if mask.any() else None
 
     def _prepare_df(raw_df: pd.DataFrame) -> pd.DataFrame:
@@ -2244,8 +2245,8 @@ def run_stats_pipeline(
             stats_local["penalties"] = stats_local["penalty_2"] + stats_local["penalty_2and2"] + stats_local["penalty_10"] + stats_local["penalty_ms"]
 
         period_local = int(pd.to_numeric(played_df.get("period"), errors="coerce").max()) if not played_df.empty else 0
-        ingame_status_local = _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None)
-        result_string_local = _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
+        ingame_status_local = _first_valid(game_df["ingame_status"]) if "ingame_status" in game_df.columns else None
+        result_string_local = _first_valid(game_df["result_string"]) if "result_string" in game_df.columns else None
         home_goals_local = int(home_stats_local.get("goals", 0))
         away_goals_local = int(away_stats_local.get("goals", 0))
         home_points_local = _points_from_final_score(home_goals_local, away_goals_local, period_local, ingame_status_local, result_string_local)
@@ -2360,8 +2361,8 @@ def run_stats_pipeline(
                 {
                     "game_id": history_game_id,
                     "game_df": history_game_df,
-                    "date": _json_scalar(history_game_df["game_date"].iloc[0] if "game_date" in history_game_df.columns else ""),
-                    "start_time": _json_scalar(history_game_df["game_start_time"].iloc[0] if "game_start_time" in history_game_df.columns else ""),
+                    "date": _first_valid(history_game_df["game_date"]) if "game_date" in history_game_df.columns else None,
+                    "start_time": _first_valid(history_game_df["game_start_time"]) if "game_start_time" in history_game_df.columns else None,
                 }
             )
         history_groups.sort(key=lambda x: (x["date"] or "", x["start_time"] or ""))
@@ -2424,8 +2425,8 @@ def run_stats_pipeline(
             stats["penalties"] = stats["penalty_2"] + stats["penalty_2and2"] + stats["penalty_10"] + stats["penalty_ms"]
 
         period_local = int(pd.to_numeric(played_game_df.get("period"), errors="coerce").max()) if not played_game_df.empty else 0
-        ingame_status_local = _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None)
-        result_string_local = _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None)
+        ingame_status_local = _first_valid(game_df["ingame_status"]) if "ingame_status" in game_df.columns else None
+        result_string_local = _first_valid(game_df["result_string"]) if "result_string" in game_df.columns else None
         home_goals_local = int(home_stats.get("goals", 0))
         away_goals_local = int(away_stats.get("goals", 0))
         home_points_local = _points_from_final_score(home_goals_local, away_goals_local, period_local, ingame_status_local, result_string_local)
@@ -2456,7 +2457,7 @@ def run_stats_pipeline(
         venue_value = None
         for venue_column in ("venue", "arena", "location", "venue_name"):
             if venue_column in game_df.columns:
-                raw_value = _json_scalar(game_df[venue_column].iloc[0])
+                raw_value = _first_valid(game_df[venue_column])
                 if raw_value not in (None, "", "None"):
                     venue_value = raw_value
                     break
@@ -2464,7 +2465,7 @@ def run_stats_pipeline(
         venue_address_value = None
         for address_column in ("venue_address", "address"):
             if address_column in game_df.columns:
-                raw_value = _json_scalar(game_df[address_column].iloc[0])
+                raw_value = _first_valid(game_df[address_column])
                 if raw_value not in (None, "", "None"):
                     venue_address_value = raw_value
                     break
@@ -2489,12 +2490,12 @@ def run_stats_pipeline(
 
         game_stat = {
             "game_id": game_id,
-            "date": _json_scalar(game_df["game_date"].iloc[0] if "game_date" in game_df.columns else None),
-            "start_time": _json_scalar(game_df["game_start_time"].iloc[0] if "game_start_time" in game_df.columns else None),
-            "attendance": _json_scalar(game_df["attendance"].iloc[0] if "attendance" in game_df.columns else None),
-            "game_status": _json_scalar(game_df["game_status"].iloc[0] if "game_status" in game_df.columns else None),
-            "result_string": _json_scalar(game_df["result_string"].iloc[0] if "result_string" in game_df.columns else None),
-            "ingame_status": _json_scalar(game_df["ingame_status"].iloc[0] if "ingame_status" in game_df.columns else None),
+            "date": _first_valid(game_df["game_date"]) if "game_date" in game_df.columns else None,
+            "start_time": _first_valid(game_df["game_start_time"]) if "game_start_time" in game_df.columns else None,
+            "attendance": _first_valid(game_df["attendance"]) if "attendance" in game_df.columns else None,
+            "game_status": _first_valid(game_df["game_status"]) if "game_status" in game_df.columns else None,
+            "result_string": _first_valid(game_df["result_string"]) if "result_string" in game_df.columns else None,
+            "ingame_status": _first_valid(game_df["ingame_status"]) if "ingame_status" in game_df.columns else None,
             "game_state": "scheduled" if is_scheduled else "played",
             "home_team": home_team,
             "home_stats": home_stats,

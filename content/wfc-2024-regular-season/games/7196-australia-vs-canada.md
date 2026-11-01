@@ -1,4 +1,4 @@
-Date: NaN
+Date: 2024-12-09
 Title: 7196-australia-vs-canada
 Category: wfc-2024-regular-season, game
 Slug: 7196-australia-vs-canada-wfc-2024-regular-season
@@ -6,7 +6,7 @@ type: game
 game_id: 7196
 home_team: Australia
 away_team: Canada
-attendance: None
+attendance: 1449
 away_goal_diffs_csv: -1,-2,-2,0,-1,-2,-2
 away_goal_minutes_csv: 13.33,15.48,18.2,29.48,32.98,33.37,41.9
 away_major_penalty_minutes_csv: 
@@ -24,7 +24,7 @@ home_major_penalty_minutes_csv:
 home_penalty_ends_csv: 36.22
 home_penalty_goals_csv: 4
 home_penalty_minutes_csv: 34.22
-ingame_status: NaN
+ingame_status: None
 league_name: IFF WFC 2024 · regular-season
 pregame_h2h_away_split_goal_diff_per_game: -6.0
 pregame_h2h_away_split_points_per_game: 0.0
@@ -73,8 +73,8 @@ pregame_h2h_special_away_pk_eff: 25.0
 pregame_h2h_special_away_pp_eff: 0.0
 pregame_h2h_special_home_pk_eff: 40.0
 pregame_h2h_special_home_pp_eff: 66.67
-result_string: NaN
-start_time: NaN
+result_string: 7-7
+start_time: 08:30
 timeline_away_goals_csv: 0,1,2,2,3,3,3,3,4,5,6,6,7,7,7
 timeline_diffs_csv: 0,-1,-2,-1,-2,-1,0,1,0,-1,-2,-1,-2,-1,0
 timeline_home_goals_csv: 0,0,0,1,1,2,3,4,4,4,4,5,5,6,7
@@ -83,8 +83,7 @@ timeline_minutes_csv: 0.0,13.33,15.48,17.28,18.2,18.63,27.08,28.52,29.48,32.98,3
 tournament_group: Group C
 tournament_stage_label: regular-season
 tournament_stage_type: group-stage
-venue: NaN
-venue_address: NaN
+venue: Malmö Arena
 home_away_points: 0
 home_boxplay: 1
 home_boxplay_efficiency: 100.0
