@@ -93,6 +93,10 @@ COMPETITIONS = [
     {'prefix': 'cc-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup', 'division': 'men', 'phase': 'playoffs'},
     {'prefix': 'ccw-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup Women', 'division': 'women', 'phase': 'playoffs'},
 ]
+# National cups (src/competitions.py): one "<prefix><season>-cup" category per league prefix
+# with game pages only. They stay outside SEASON_PHASES, so tables, leaders and the
+# regular-season/playoff navigation never see them.
+CUP_PREFIXES = ['se-', 'sew-', 'ch-', 'chw-', 'cz-', 'czw-', '', 'dew-']
 WOMEN_LEAGUE_PREFIXES = [
     league['prefix'] for league in LEAGUES + COMPETITIONS if league['division'] == 'women'
 ]
@@ -111,6 +115,10 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  for season in SEASONS
                  for competition in COMPETITIONS
                  for kind in ('teams', 'liga', 'games')
+                 ] + [
+                 f"{prefix}{season}-cup/games"
+                 for season in SEASONS
+                 for prefix in CUP_PREFIXES
                  ] + [
                  'wfc-2024-regular-season/teams',
                  'wfc-2024-regular-season/games',
@@ -265,7 +273,9 @@ def category_seo_label(slug):
     season = '/'.join(str(2000 + int(part)) for part in context['season'].split('-'))
     phase = context['phase'].removesuffix('-players').replace('-', ' ').title()
     division = 'Women' if context['division'] == 'women' else 'Men'
-    return f"{context['title']} {division} {season} {phase}"
+    # A national cup is not part of the league ("Sweden · SSL" would mislabel Svenska Cupen).
+    title = context['name'] if context['phase'] == 'cup' else context['title']
+    return f"{title} {division} {season} {phase}"
 
 
 def league_watch_path(slug):

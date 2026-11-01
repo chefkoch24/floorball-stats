@@ -1,0 +1,68 @@
+{# National cup: results by round. No table, league report or team pages (src/competitions.py). #}
+{% set cup = namespace(games=0, upcoming=0, rounds=[], competition='') %}
+{% for game in articles_page.object_list|sort(attribute='date') %}
+    {% if game.type == 'game' %}
+        {% if game.game_state|default('played')|string|lower == 'scheduled' %}{% set cup.upcoming = cup.upcoming + 1 %}{% else %}{% set cup.games = cup.games + 1 %}{% endif %}
+        {% set round_name = game.tournament_stage_label|default('Games')|string %}
+        {% if round_name not in cup.rounds %}{% set cup.rounds = cup.rounds + [round_name] %}{% endif %}
+        {% if not cup.competition and game.competition_name|default('') %}{% set cup.competition = game.competition_name|string %}{% endif %}
+    {% endif %}
+{% endfor %}
+<section class="hero">
+    <div class="hero-top">
+        <div>
+            <h1 class="hero-title">{{ cup.competition or category_label }}</h1>
+            <p class="hero-subtitle">{{ category_label }} · results by round. Cup games are kept apart from the league table, league averages, leaders and player rankings.</p>
+        </div>
+    </div>
+    <div class="chip-row">
+        <span class="chip">Played: {{ cup.games }}</span>
+        {% if cup.upcoming %}<span class="chip">Upcoming: {{ cup.upcoming }}</span>{% endif %}
+        <span class="chip">Rounds: {{ cup.rounds|length }}</span>
+    </div>
+</section>
+
+{% for round_name in cup.rounds|reverse %}
+<section class="panel">
+    <h2 class="panel-title">{{ round_name }}</h2>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Game</th>
+                <th>Result</th>
+                <th>Report</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+            {% if game.type == 'game' and game.tournament_stage_label|default('Games')|string == round_name %}
+            {% set scheduled = game.game_state|default('played')|string|lower == 'scheduled' %}
+            {% set home_goals = game.home_goals|default(0)|int %}
+            {% set away_goals = game.away_goals|default(0)|int %}
+            {% set ps_goals = game.home_goals_in_penalty_shootout|default(0)|int + game.away_goals_in_penalty_shootout|default(0)|int %}
+            {% set ot_goals = game.home_goals_in_overtime|default(0)|int + game.away_goals_in_overtime|default(0)|int %}
+            <tr>
+                <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
+                <td>
+                    <span class="{% if not scheduled and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team }}</span>
+                    vs
+                    <span class="{% if not scheduled and away_goals > home_goals %}game-team-winner{% endif %}">{{ game.away_team }}</span>
+                    {% if game.tournament_group|default('') %}<span class="result-extra">{{ game.tournament_group }}</span>{% endif %}
+                </td>
+                <td>
+                    {% if scheduled %}{{ game.start_time|fmt_time('TBD') }}{% else %}
+                    {{ home_goals }} : {{ away_goals }}
+                    {% if ps_goals > 0 %}<span class="result-extra">PS</span>{% elif ot_goals > 0 %}<span class="result-extra">OT</span>{% endif %}
+                    {% endif %}
+                </td>
+                <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endfor %}

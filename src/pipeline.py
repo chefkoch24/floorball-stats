@@ -5,17 +5,24 @@ from pathlib import Path
 import pandas as pd
 
 from src.build_postgres import sync_pipeline_outputs as sync_pipeline_outputs_postgres
+from src.competitions import is_cup_phase, tag_cup_csv
 from src.generate_markdown import generate_markdown_files
 from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
 from src.scrape import scrape_events
-from src.scrape_sweden import expand_competition_ids_by_category, scrape_competition_events, scrape_competitions_events
+from src.scrape_sweden import (
+    expand_competition_ids_by_category,
+    fetch_cup_competition_ids,
+    scrape_competition_events,
+    scrape_competitions_events,
+)
 from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
 from src.scrape_latvia import scrape_competition as scrape_latvia_competition
 from src.scrape_slovakia import scrape_competition as scrape_slovakia_competition
 from src.scrape_wfc import scrape_league_organizer_games as scrape_wfc_league_organizer_games
 from src.scrape_switzerland import (
+    fetch_cup_game_ids,
     fetch_game_ids_by_rounds,
     fetch_game_ids_from_renderengine,
     fetch_game_ids_from_url,
@@ -76,6 +83,60 @@ def _has_data_rows(csv_path: Path) -> bool:
         return bool(handle.readline().strip())
 
 
+def _scrape_cup(
+    *,
+    backend: str,
+    league_id: int | None,
+    raw_csv: Path,
+    cup_name: str | None,
+    cup_sweden_category_id: int | None,
+    cup_swiss_tournament_ids: list[int] | None,
+    czech_schedule_urls: list[str] | None,
+    czech_season_start_year: int | None,
+) -> None:
+    """Scrape one national cup into ``raw_csv``. Backends without a cup source raise."""
+    if backend == "sweden":
+        if not cup_sweden_category_id:
+            raise ValueError("cup.sweden_category_id is required for the Sweden cup (Svenska Cupen Herrar 7012, Damer 7013)")
+        cup_competition_ids = fetch_cup_competition_ids(cup_sweden_category_id)
+        if not cup_competition_ids:
+            raise ValueError("No Svenska Cupen competitions published yet for the current season.")
+        scrape_competitions_events(
+            competition_ids=cup_competition_ids,
+            output_path=str(raw_csv),
+            include_unplayed=True,
+            cup_name=cup_name,
+            cup=True,
+        )
+    elif backend == "switzerland":
+        if not cup_swiss_tournament_ids:
+            raise ValueError("cup.swiss_tournament_ids is required for the Swiss cup (for example 406200)")
+        game_ids = sorted({game_id for tid in cup_swiss_tournament_ids for game_id in fetch_cup_game_ids(int(tid))})
+        scrape_games(game_ids=game_ids, output_path=str(raw_csv), phase_filter="cup", cup=True, cup_name=cup_name)
+    elif backend == "czech":
+        if not czech_schedule_urls or not czech_season_start_year:
+            raise ValueError("czech.schedule_urls and czech.season_start_year are required for the Czech cup")
+        scrape_czech_competition(
+            schedule_urls=czech_schedule_urls,
+            output_path=str(raw_csv),
+            season_start_year=czech_season_start_year,
+            include_unplayed=True,
+            phase="cup",
+            cup_name=cup_name,
+        )
+    elif backend == "saisonmanager":
+        if not league_id:
+            raise ValueError("league_id is required for the FD-Pokal (Saisonmanager league 2451 Herren, 2452 Damen)")
+        scrape_events(
+            input_path=f"leagues/{league_id}/schedule.json",
+            output_path=str(raw_csv),
+            cup=True,
+            cup_name=cup_name,
+        )
+    else:
+        raise ValueError(f"No cup source for backend {backend!r} (see README, section Cups)")
+
+
 def run_pipeline(
     league_id: int | None,
     season: str,
@@ -101,6 +162,9 @@ def run_pipeline(
     latvia_calendar_urls: list[str] | None = None,
     latvia_season_start_year: int | None = None,
     wfc_league_organizer_id: int | None = None,
+    cup_name: str | None = None,
+    cup_sweden_category_id: int | None = None,
+    cup_swiss_tournament_ids: list[int] | None = None,
     playoff_rounds: list[dict] | None = None,
     playoff_teams_count: int = 8,
     data_dir: str = "data",
@@ -111,10 +175,13 @@ def run_pipeline(
 ) -> dict:
     data_path = Path(data_dir)
     content_path = Path(content_dir)
+    cup = is_cup_phase(phase)
     data_path.mkdir(parents=True, exist_ok=True)
     (content_path / f"{season}-{phase}" / "games").mkdir(parents=True, exist_ok=True)
-    (content_path / f"{season}-{phase}" / "teams").mkdir(parents=True, exist_ok=True)
-    (content_path / f"{season}-{phase}" / "liga").mkdir(parents=True, exist_ok=True)
+    if not cup:
+        # A cup only publishes its game pages: no table, league report or team pages.
+        (content_path / f"{season}-{phase}" / "teams").mkdir(parents=True, exist_ok=True)
+        (content_path / f"{season}-{phase}" / "liga").mkdir(parents=True, exist_ok=True)
 
     raw_csv = data_path / f"data_{season}_{phase.replace('-', '_')}.csv"
 
@@ -128,7 +195,19 @@ def run_pipeline(
         skip_scrape = True
 
     if not skip_scrape:
-        if backend == "sweden":
+        if cup:
+            _scrape_cup(
+                backend=backend,
+                league_id=league_id,
+                raw_csv=raw_csv,
+                cup_name=cup_name,
+                cup_sweden_category_id=cup_sweden_category_id,
+                cup_swiss_tournament_ids=cup_swiss_tournament_ids,
+                czech_schedule_urls=czech_schedule_urls,
+                czech_season_start_year=czech_season_start_year,
+            )
+            tag_cup_csv(raw_csv, cup_name)
+        elif backend == "sweden":
             sweden_competition_ids = competition_ids or ([competition_id] if competition_id is not None else [])
             if not sweden_competition_ids:
                 raise ValueError("competition_id or competition_ids is required when backend=sweden")
@@ -340,6 +419,9 @@ def parse_args():
     parser.add_argument("--latvia_calendar_url", action="append", default=None)
     parser.add_argument("--latvia_season_start_year", type=int, default=None)
     parser.add_argument("--wfc_league_organizer_id", type=int, default=None)
+    parser.add_argument("--cup_name", type=str, default=None)
+    parser.add_argument("--cup_sweden_category_id", type=int, default=None)
+    parser.add_argument("--cup_swiss_tournament_ids", type=str, default=None)
     parser.add_argument("--playoff_rounds", type=str, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default=None)
@@ -384,6 +466,11 @@ def main():
                 part = part.strip()
                 if part.isdigit():
                     sweden_competition_ids.append(int(part))
+    cup_swiss_tournament_ids = None
+    if args.cup_swiss_tournament_ids:
+        raw_ids = args.cup_swiss_tournament_ids
+        parts = raw_ids if isinstance(raw_ids, list) else str(raw_ids).split(",")
+        cup_swiss_tournament_ids = [int(part) for part in parts if str(part).strip().isdigit()]
     run_pipeline(
         league_id=args.league_id,
         season=args.season,
@@ -409,6 +496,9 @@ def main():
         latvia_calendar_urls=args.latvia_calendar_url,
         latvia_season_start_year=args.latvia_season_start_year,
         wfc_league_organizer_id=args.wfc_league_organizer_id,
+        cup_name=args.cup_name,
+        cup_sweden_category_id=args.cup_sweden_category_id,
+        cup_swiss_tournament_ids=cup_swiss_tournament_ids,
         playoff_rounds=args.playoff_rounds,
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,

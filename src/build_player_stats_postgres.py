@@ -7,6 +7,7 @@ from collections import defaultdict
 import pandas as pd
 import psycopg
 
+from src.competitions import is_cup_phase
 from src.build_player_stats import (
     LEAGUE_INFO,
     _canonical_player_uid,
@@ -534,6 +535,9 @@ def build_player_stats_from_postgres(
             season_key = str(season or "").strip()
             phase_key = str(phase or "").strip()
             if not season_key or not phase_key:
+                continue
+            if is_cup_phase(phase_key):
+                # Cup games never count toward league player rankings or player pages.
                 continue
             prefix = _season_prefix(season_key)
             info = LEAGUE_INFO.get(prefix)

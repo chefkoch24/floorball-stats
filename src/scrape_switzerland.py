@@ -11,11 +11,19 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.competitions import STAGE_ELIMINATION, cup_columns
 from src.scheduled_games import build_scheduled_game_row
 
 
 BASE_URL = "https://www.swissunihockey.ch"
 RENDER_URL = f"{BASE_URL}/renderengine/load_view.php"
+# The cup pages (swissunihockey.ch/de/cups/...) read their brackets from this API.
+CUP_API_URL = "https://wc.swissunihockey.ch"
+# Opponent shown for byes and for rounds that are not drawn yet.
+CUP_PLACEHOLDER_TEAMS = {"", "???", "freilos"}
+CUP_HEADER_PATTERN = re.compile(
+    r"^(?P<competition>.+?)\s+(?P<stage>1/\d+-Final|Achtelfinal|Viertelfinal|Halbfinal|Final)\s+\d{4}/\d{2}$"
+)
 
 
 def _get_with_retries(url: str, *, params: dict[str, str] | None = None, timeout: int = 30, attempts: int = 3) -> requests.Response:
@@ -309,6 +317,58 @@ def _classify_phase(header_text: str | None) -> str:
     if any(keyword in text for keyword in playoff_keywords):
         return "playoffs"
     return "regular-season"
+
+
+def _walk_game_rows(node: Any, rows: list[dict[str, Any]]) -> None:
+    if isinstance(node, dict):
+        if "id" in node and "cells" in node:
+            rows.append(node)
+        for value in node.values():
+            _walk_game_rows(value, rows)
+    elif isinstance(node, list):
+        for value in node:
+            _walk_game_rows(value, rows)
+
+
+def fetch_cup_game_ids(tournament_id: int, timeout: int = 45) -> list[int]:
+    """Game ids of every round of a swissunihockey cup (for example 406200: Mobiliar Unihockey Cup Männer).
+
+    Byes are listed with a game id too; ``scrape_games`` drops them as placeholder games.
+    """
+    rounds_response = _get_with_retries(f"{CUP_API_URL}/cups/{tournament_id}", timeout=timeout, attempts=4)
+    round_ids = [
+        int(cell["link"]["set_in_context"]["round"])
+        for region in rounds_response.json()["data"].get("regions") or []
+        for row in region.get("rows") or []
+        for cell in row.get("cells") or []
+        if cell.get("link", {}).get("set_in_context", {}).get("round")
+    ]
+    game_ids: set[int] = set()
+    for round_id in round_ids:
+        response = _get_with_retries(
+            f"{CUP_API_URL}/games",
+            params={"mode": "cup", "tournament_id": str(tournament_id), "round": str(round_id), "side": "left"},
+            timeout=timeout,
+            attempts=4,
+        )
+        rows: list[dict[str, Any]] = []
+        _walk_game_rows(response.json()["data"].get("regions") or [], rows)
+        game_ids.update(int(row["id"]) for row in rows)
+    return sorted(game_ids)
+
+
+def _cup_fields(details: "GameDetails", cup_name: str | None) -> dict[str, Any]:
+    """Competition and round from the game header ("A - B - Mobiliar Unihockey Cup Männer 1/16-Final 2026/27")."""
+    header = (details.header_text or "").strip()
+    prefix = f"{details.home_team} - {details.away_team} - "
+    if header.startswith(prefix):
+        header = header[len(prefix):]
+    match = CUP_HEADER_PATTERN.match(header)
+    return cup_columns(
+        cup_name or (match.group("competition") if match else None),
+        stage_type=STAGE_ELIMINATION,
+        stage_label=match.group("stage") if match else None,
+    )
 
 
 def _needs_penalty_shootout_marker(result_string: str | None) -> bool:
@@ -634,14 +694,26 @@ def _load_game_ids_from_file(path: str) -> list[int]:
     return sorted(ids)
 
 
-def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None = None) -> pd.DataFrame:
+def scrape_games(
+    game_ids: list[int],
+    output_path: str,
+    phase_filter: str | None = None,
+    cup: bool = False,
+    cup_name: str | None = None,
+) -> pd.DataFrame:
+    """Events of the given games; ``cup=True`` keeps every round and marks rows with competition and round."""
     all_events: list[dict[str, Any]] = []
     for game_id in tqdm(game_ids, desc="swiss games"):
         details_html = _fetch_block(game_id, "game_details")
         events_html = _fetch_block(game_id, "game_events")
         details = _parse_game_details(details_html)
+        if cup and (
+            str(details.home_team or "").strip().lower() in CUP_PLACEHOLDER_TEAMS
+            or str(details.away_team or "").strip().lower() in CUP_PLACEHOLDER_TEAMS
+        ):
+            continue
         player_name_lookup = _build_player_name_lookup(game_id, details)
-        if phase_filter:
+        if phase_filter and not cup:
             game_phase = _classify_phase(details.header_text)
             if phase_filter == "playoffs":
                 # For Swiss post-season fetches, include only true playoffs and
@@ -651,6 +723,9 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
             elif game_phase != phase_filter:
                 continue
         events = _parse_game_events(events_html, game_id, details, player_name_lookup=player_name_lookup)
+        marker = _cup_fields(details, cup_name) if cup else {}
+        for event in events:
+            event.update(marker)
         if events:
             all_events.extend(events)
         else:
@@ -668,6 +743,7 @@ def scrape_games(game_ids: list[int], output_path: str, phase_filter: str | None
             )
             all_events[-1]["venue"] = details.venue
             all_events[-1]["venue_address"] = details.venue_address
+            all_events[-1].update(marker)
 
     if not all_events:
         raise ValueError("No Swiss games matched the requested phase filter.")

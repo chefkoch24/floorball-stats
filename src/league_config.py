@@ -37,6 +37,12 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
     args.content_dir = config.get("content_dir", args.content_dir)
     args.skip_scrape = bool(config.get("skip_scrape", args.skip_scrape))
 
+    # Cup phase (phase "cup", see src/competitions.py): marker name and the per-backend cup selectors.
+    cup = config.get("cup", {}) or {}
+    args.cup_name = cup.get("competition_name", getattr(args, "cup_name", None))
+    args.cup_sweden_category_id = cup.get("sweden_category_id", getattr(args, "cup_sweden_category_id", None))
+    args.cup_swiss_tournament_ids = cup.get("swiss_tournament_ids", getattr(args, "cup_swiss_tournament_ids", None))
+
     swiss = config.get("swiss", {}) or {}
     args.swiss_game_ids = swiss.get("game_ids", args.swiss_game_ids)
     args.swiss_schedule_url = swiss.get("schedule_urls", args.swiss_schedule_url)

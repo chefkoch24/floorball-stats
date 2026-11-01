@@ -4,9 +4,13 @@
 {% set seo_noindex = category.slug in ['game', 'teams', 'liga', 'players'] %}
 {% set breadcrumb_category_label = category.shortname | category2breadcrumb %}
 {% set is_player_stats = category.shortname.split('-')[-1] == 'players' %}
+{% set is_cup = category.shortname.endswith('-cup') %}
 {% if is_player_stats %}
 {% set seo_title = search_label ~ ' | ' ~ SITENAME %}
 {% set seo_description = 'Season-wide player rankings, scoring totals, and full stat tables for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
+{% elif is_cup %}
+{% set seo_title = search_label ~ ' Results by Round | ' ~ SITENAME %}
+{% set seo_description = 'Cup results and game reports by round for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% else %}
 {% set seo_title = search_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
 {% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
@@ -105,7 +109,9 @@
     {% endif %}
 {% endfor %}
 
-{% if use_v2 %}
+{% if is_cup %}
+{% include "cup.html" %}
+{% elif use_v2 %}
 {% include "league_v2.html" %}
 {% else %}
 <section class="hero">

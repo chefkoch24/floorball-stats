@@ -82,6 +82,16 @@ SLOVAKIA_PLAYOFFS_CSV ?= data/data_sk-$(CURRENT_SEASON)_playoffs.csv
 LATVIA_LEAGUE_CONFIG ?= $(CONFIG_DIR)/latvia-elvi-vv-$(CURRENT_SEASON).json
 LATVIA_PLAYOFFS_LEAGUE_CONFIG ?= $(CONFIG_DIR)/latvia-elvi-vv-$(CURRENT_SEASON)-playoffs.json
 LATVIA_PLAYOFFS_CSV ?= data/data_lv-$(CURRENT_SEASON)_playoffs.csv
+# National cups (phase "cup", see README "Cups"): own season phase per league prefix,
+# kept out of tables, league stats, leaders and player stats. Not part of refresh-all-leagues.
+CUP_SWEDEN_CONFIG ?= $(CONFIG_DIR)/sweden-cup-$(CURRENT_SEASON).json
+CUP_SWEDEN_WOMEN_CONFIG ?= $(CONFIG_DIR)/sweden-cup-women-$(CURRENT_SEASON).json
+CUP_SWITZERLAND_CONFIG ?= $(CONFIG_DIR)/switzerland-cup-$(CURRENT_SEASON).json
+CUP_SWITZERLAND_WOMEN_CONFIG ?= $(CONFIG_DIR)/switzerland-cup-women-$(CURRENT_SEASON).json
+CUP_CZECH_CONFIG ?= $(CONFIG_DIR)/czech-cup-$(CURRENT_SEASON).json
+CUP_CZECH_WOMEN_CONFIG ?= $(CONFIG_DIR)/czech-cup-women-$(CURRENT_SEASON).json
+CUP_GERMANY_CONFIG ?= $(CONFIG_DIR)/germany-cup-$(CURRENT_SEASON).json
+CUP_GERMANY_WOMEN_CONFIG ?= $(CONFIG_DIR)/germany-cup-women-$(CURRENT_SEASON).json
 # WFC / IFF competitions
 WFC_REGULAR_SEASON_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024-regular-season.json
 WFC_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024.json
@@ -123,6 +133,7 @@ help:
 	@echo '   make refresh-wfc                    one-off pipeline for WFC/IFF content '
 	@echo '   make refresh-all-leagues            run all league pipelines + player stats + html'
 	@echo '   make refresh-all-leagues-bootstrap  one-time full regular+playoffs bootstrap + html'
+	@echo '   make refresh-cups                   import the national cups (own phase, not in refresh-all-leagues)'
 	@echo '   make refresh-everything             alias for refresh-all-leagues        '
 	@echo '   make refresh-player-stats           rebuild player stats artifacts       '
 	@echo '   make refresh-player-pages           generate player pages (DB-first)     '
@@ -348,6 +359,52 @@ refresh-latvia-playoffs:
 
 refresh-latvia-smart:
 	$(call smart_refresh,refresh-latvia-playoffs,refresh-latvia,$(LATVIA_PLAYOFFS_CSV))
+
+refresh-cup-sweden:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_SWEDEN_CONFIG)"
+
+refresh-cup-sweden-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_SWEDEN_WOMEN_CONFIG)"
+
+refresh-cup-switzerland:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_SWITZERLAND_CONFIG)"
+
+refresh-cup-switzerland-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_SWITZERLAND_WOMEN_CONFIG)"
+
+refresh-cup-czech:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_CZECH_CONFIG)" $(CZECH_PIPELINE_ARGS)
+
+refresh-cup-czech-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_CZECH_WOMEN_CONFIG)" $(CZECH_PIPELINE_ARGS)
+
+refresh-cup-germany:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_GERMANY_CONFIG)"
+
+refresh-cup-germany-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_GERMANY_WOMEN_CONFIG)"
+
+# All cups with a source (Finland, Slovakia and Latvia have none, see README). A failing cup never blocks the others.
+refresh-cups:
+	@failed=""; \
+	for target in \
+		refresh-cup-sweden \
+		refresh-cup-sweden-women \
+		refresh-cup-switzerland \
+		refresh-cup-switzerland-women \
+		refresh-cup-czech \
+		refresh-cup-czech-women \
+		refresh-cup-germany \
+		refresh-cup-germany-women; do \
+		echo "==> $$target"; \
+		if ! $(MAKE) $$target; then \
+			echo "[WARN] step failed: $$target"; \
+			failed="$$failed $$target"; \
+		fi; \
+	done; \
+	if [ -n "$$failed" ]; then \
+		echo "[WARN] refresh-cups completed with failed steps:$$failed"; \
+	fi
 
 refresh-wfc:
 	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \

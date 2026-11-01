@@ -95,7 +95,7 @@
     <h2 id="division-{{ division }}" class="fs-section-title">{{ division_label }}</h2>
     <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {% for league in division_leagues %}
-        {% set links %}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-regular-season', 'Regular season', available_categories) }}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-playoffs', 'Playoffs', available_categories) }}{% endset %}
+        {% set links %}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-regular-season', 'Regular season', available_categories) }}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-playoffs', 'Playoffs', available_categories) }}{% if league.prefix ~ CURRENT_SEASON ~ '-cup' in available_categories %}{{ phase_chip(league.prefix ~ CURRENT_SEASON ~ '-cup', 'Cup', available_categories) }}{% endif %}{% endset %}
         {% set earlier %}{% for season in SEASONS if season != CURRENT_SEASON %}{% set r = league.prefix ~ season ~ '-regular-season' %}{% set p = league.prefix ~ season ~ '-playoffs' %}{% if r in available_categories or p in available_categories %}{{ season|replace('-', '/') }}{% if r in available_categories %} <a href="{{ SITEURL }}/category/{{ r }}.html">regular</a>{% endif %}{% if p in available_categories %} · <a href="{{ SITEURL }}/category/{{ p }}.html">playoffs</a>{% endif %}{% endif %}{% endfor %}{% endset %}
         {{ league_card(league.name, league.title.split(' · ')[-1], CURRENT_SEASON|replace('-', '/'), links, earlier|trim) }}
         {% endfor %}

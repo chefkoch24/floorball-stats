@@ -151,6 +151,7 @@ Integration invariants for new backends:
 - Every backend must register a `source_system` and league label in `src/build_player_stats.py::LEAGUE_INFO`; otherwise player stat export and player page generation will silently ignore the new backend.
 - Event-only feeds are not enough for canonical player `games` counts. If the source exposes rosters or lineups, the backend must provide a second participation source and merge it with event rows.
 - Participation rows must dedupe per match appearance, not just per player. For tournament/roster imports this means keeping `game_id` in the intermediate identity so multi-game appearances do not collapse into one phase row.
+- Cups (domestic cup competitions) are not a backend but a phase of an existing league prefix: model them as `phase = 'cup'` (4.6d), never as extra games in `regular-season` or `playoffs`.
 - Tournament seasons must be modeled explicitly. If a backend represents one tournament with multiple internal stages, the player page layer must be told whether to show season-phase splits or one combined tournament season.
 - Merge behavior must preserve canonical player pages. Partial exports for one backend must merge into the global player history instead of overwriting club seasons from other leagues.
 - Fallbacks must degrade narrowly. A single failed lineup/roster request must not discard an entire season-phase worth of player participation data.
@@ -182,6 +183,15 @@ Pelican plugin (build time, no pipeline step), fed by the published game article
 - `src/standings_history.py` rebuilds the table after every round of each regular season (a round is a block of game days at most two days after its first day, since the sources publish no round numbers; ties by points, goal difference, goals; the last round takes the official ranks) for the table history charts on league and team pages.
 
 The plugin attaches `clutch`/`partners`/`player_trends` to player articles, `power`/`duos`/`clutch_players` to current-season team articles, `table_history` and `trends` to team articles, `game_story` (played) or `stake` (upcoming) to game articles, the head-to-head `matrix`, `records`, `leads` and `game_of_week` to `LEAGUE_INSIGHTS`, `win_probability` to game articles (once both teams have three rated games) and labels decisive goals inside `game_events_b64`; league pages read `LEAGUE_INSIGHTS[category slug]` from the template context. Templates use the macros in `themes/my-theme/templates/insights.html`. Every definition lives on the "How our stats work" page (`content/pages/stats-explained.md` with `templates/stats_explained.html`), which reads its numbers from `INSIGHTS_MODEL` in the template context; keep it in step when a definition changes. The functions in `src/` are pure, so a pipeline step can later persist ratings and projections to Neon.
+
+### 4.6d Cups: `src/competitions.py`
+
+National cups are a third season phase, `cup`, per league prefix (`ch-26-27` + `cup`). The contract:
+- Event rows carry `competition_name`, `tournament_stage_type` (`elimination`, `group-stage`) and `tournament_stage_label` (round name); `phase = 'cup'` in `events`, source key `data_<prefix>-<season>_cup`, category `<prefix><season>-cup` (`is_cup_phase`, `is_cup_category`).
+- Cups never feed league data. Standings, league averages, leaders, power rankings, table history, player stats and player pages only read `regular-season` and `playoffs`; `build_player_stats_postgres` skips `cup` explicitly because it groups every phase it finds in `events`. A new consumer that groups by phase has to do the same.
+- A cup publishes game pages only (`generate_markdown_files` returns no team or league pages for it); `plugins/seo.py` links the teams of a cup game to the league's team pages; `templates/cup.html` lists a cup by round.
+- Sources and the countries without one are in the README ("Cups"). Per-backend cup scraping lives in the backend's scraper (`cup=True` / `phase='cup'`) and `pipeline._scrape_cup`; configs set `cup.competition_name` and the backend selector.
+- Open: the team-page switch "include cup" for the team statistics. It needs per-team cup aggregates next to the league aggregates (see BACKLOG).
 
 ### 4.7 Markdown Generation: `src/generate_markdown.py`
 

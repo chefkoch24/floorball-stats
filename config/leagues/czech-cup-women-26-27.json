@@ -1,0 +1,14 @@
+{
+  "backend": "czech",
+  "season": "czw-26-27",
+  "phase": "cup",
+  "cup": {
+    "competition_name": "Pohár ČF žen"
+  },
+  "czech": {
+    "season_start_year": 2026,
+    "schedule_urls": [
+      "https://www.ceskyflorbal.cz/competition/detail/matches/8XWP?competitionFisId=4829&locale=cs"
+    ]
+  }
+}

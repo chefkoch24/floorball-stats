@@ -22,6 +22,9 @@
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
 - [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)): current-season logos and share graphics implemented under Felix’s confirmed permission; historical seasons and new-team maintenance remain.
+- [x] National cups imported as their own phase `cup` (SE, CH, CZ, DE, men and women), kept out of tables, leaders and player stats; sources per country in the README ("Cups")
+- [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off
+- [ ] Cups with no source yet: Finland (Torneopal API is behind Cloudflare), Slovakia (no 2026/27 cup in the SZFB stats), Latvia (no senior cup); first approved run of `make refresh-cups`, then hook it into the nightly refresh
 - [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
 - [x] Main site floorballconnect.com off Softr: own Pelican site in `connect/` on the stats design system, content imported, Softr URLs redirected (ARCHITECTURE.md 4.8a)
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)

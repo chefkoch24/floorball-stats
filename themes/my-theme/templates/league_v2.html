@@ -4,6 +4,7 @@
 {% set competition = league.title.split(' · ')[-1] %}
 {% set available = categories|default([])|category_slugs %}
 {% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
+{% set cup_slug = league.prefix ~ league.season ~ '-cup' %}
 {% set teams = articles_page.object_list | sort_by_rank | selectattr('type', 'equalto', 'team') | list %}
 {% set games = articles_page.object_list | selectattr('type', 'equalto', 'game') | list %}
 {% set played_desc = games | rejectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date', reverse=true) | list %}
@@ -82,6 +83,9 @@
             <a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>
             {% else %}
             <span class="fs-segment cursor-default opacity-60" title="Playoffs have not started yet">Playoffs</span>
+            {% endif %}
+            {% if cup_slug in available %}
+            <a class="fs-segment" href="{{ SITEURL }}/category/{{ cup_slug }}.html">Cup</a>
             {% endif %}
         </nav>
     </div>

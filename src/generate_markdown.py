@@ -6,6 +6,7 @@ from typing import Any, Optional, Tuple
 
 import psycopg
 
+from src.competitions import is_cup_phase
 from src.utils import dict_to_markdown_game_stats, dict_to_markdown_league_stats, dict_to_markdown_team_stats, normalize_slug_fragment
 
 
@@ -247,12 +248,14 @@ def generate_markdown_files(
     database_url: Optional[str] = None,
     playoff_rounds: Optional[list] = None,
 ) -> Tuple[int, int, int]:
+    cup = is_cup_phase(phase)
     games_out = Path(output_games_dir)
     teams_out = Path(output_teams_dir)
     liga_out = Path(output_liga_dir)
     games_out.mkdir(parents=True, exist_ok=True)
-    teams_out.mkdir(parents=True, exist_ok=True)
-    liga_out.mkdir(parents=True, exist_ok=True)
+    if not cup:
+        teams_out.mkdir(parents=True, exist_ok=True)
+        liga_out.mkdir(parents=True, exist_ok=True)
 
     game_stats, team_stats, league_stats, source_key = _load_markdown_inputs(
         game_stats_path=game_stats_path,
@@ -277,6 +280,10 @@ def generate_markdown_files(
         if _write_if_changed(target_path, md):
             games_written += 1
     _prune_stale_markdown(games_out, expected_game_files)
+
+    if cup:
+        # Cup games stay separate from league tables and reports: game pages only.
+        return games_written, 0, 0
 
     teams_written = 0
     expected_team_files: set[str] = set()

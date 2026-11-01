@@ -15,6 +15,10 @@
     <div class="fs-scoreboard__head">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
         {% if article.playoff_round|default('') %}<span class="fs-chip">{{ article.playoff_round }}</span>{% endif %}
+        {% if current_category.endswith('-cup') %}
+        {% if article.competition_name|default('') %}<span class="fs-chip">{{ article.competition_name }}</span>{% endif %}
+        {% if article.tournament_stage_label|default('') %}<span class="fs-chip">{{ article.tournament_stage_label }}{% if article.tournament_group|default('') %} · {{ article.tournament_group }}{% endif %}</span>{% endif %}
+        {% endif %}
         {% if game_scheduled %}
         <span class="fs-status">Scheduled</span>
         {% else %}
