@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Valérie Veverková
 Category: players
 Slug: player-aef371130fe5a1fb
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 120
+rank: 122
 season: czw-26-27

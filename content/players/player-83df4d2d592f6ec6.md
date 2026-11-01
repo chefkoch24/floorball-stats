@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lukáš Holásek
 Category: players
 Slug: player-83df4d2d592f6ec6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 35
+rank: 39
 season: cz-26-27

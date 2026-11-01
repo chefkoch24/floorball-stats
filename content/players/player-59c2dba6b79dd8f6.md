@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Boček
 Category: players
 Slug: player-59c2dba6b79dd8f6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 30
+rank: 32
 season: cz-26-27

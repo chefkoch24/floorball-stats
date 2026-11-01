@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Šimák
 Category: players
 Slug: player-bb4fe8ab8e7ac0a9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 266
+rank: 268
 season: cz-26-27

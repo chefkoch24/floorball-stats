@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Artis Upītis
 Category: players
 Slug: player-7f0bf76b6758fd74
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 119
+rank: 122
 season: lv-26-27

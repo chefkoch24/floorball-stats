@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Linn Larsson
 Category: players
 Slug: player-a076a21a4c4003ec
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 169
+rank: 175
 season: sew-26-27

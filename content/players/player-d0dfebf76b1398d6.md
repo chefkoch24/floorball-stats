@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Niks Nagliņš
 Category: players
 Slug: player-d0dfebf76b1398d6
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 8
-regular_games: 8
+regular_games: 9
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -31,18 +31,18 @@ previous_goals: 12
 previous_assists: 17
 previous_points: 29
 previous_pim: 18
-career_games: 39
+career_games: 40
 career_goals: 14
 career_assists: 18
 career_points: 32
 career_pim: 26
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|8|2|1|3|8||lv-25-26|playoffs|Latvia|FBK SĀC|4|1|4|5|2||lv-25-26|regular-season|Latvia|FBK SĀC|27|11|13|24|16
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|9|2|1|3|8||lv-25-26|playoffs|Latvia|FBK SĀC|4|1|4|5|2||lv-25-26|regular-season|Latvia|FBK SĀC|27|11|13|24|16
 assists: 1
-games: 8
+games: 9
 goals: 2
 penalties: 4
 phase: regular-season
 pim: 8
 points: 3
-rank: 78
+rank: 85
 season: lv-26-27

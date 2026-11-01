@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Elias Miladinov
 Category: players
 Slug: player-16eb4fc80e61105c

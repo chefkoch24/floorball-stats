@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nikola Liberdová C
 Category: players
 Slug: player-e6f95da62be6f4d9
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|8|0|0|0|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|9|0|0|0|0
 assists: 0
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 279
+rank: 280
 season: czw-26-27

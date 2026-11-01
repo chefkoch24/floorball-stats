@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lauritz Brunborg
 Category: players
 Slug: player-382d0cfa7dbce0b0

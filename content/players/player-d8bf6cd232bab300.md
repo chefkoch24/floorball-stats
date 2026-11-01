@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Philippa Blom
 Category: players
 Slug: player-d8bf6cd232bab300
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 32
+rank: 33
 season: sew-26-27

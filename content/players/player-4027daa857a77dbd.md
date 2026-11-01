@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Virve Bjerkefeldt
 Category: players
 Slug: player-4027daa857a77dbd
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 152
+rank: 158
 season: sew-26-27

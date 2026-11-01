@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: (Rubene) bumbiņa savos vārtos
 Category: players
 Slug: player-76d9ff1e87a6af71
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 117
+rank: 120
 season: lv-26-27

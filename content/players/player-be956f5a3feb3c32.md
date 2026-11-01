@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristers Tiltiņš
 Category: players
 Slug: player-be956f5a3feb3c32
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 60
+rank: 62
 season: lv-26-27

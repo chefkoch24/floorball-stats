@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Linus Nestorsson
 Category: players
 Slug: player-9d00194abe1a9f50
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 20
-rank: 2
+rank: 4
 season: se-26-27

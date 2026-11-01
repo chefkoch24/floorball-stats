@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emil Jacobsson
 Category: players
 Slug: player-15ba1f1527c880ed
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 121
+rank: 128
 season: se-26-27

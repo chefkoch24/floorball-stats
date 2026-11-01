@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Moa Dybner
 Category: players
 Slug: player-3e1af0cff481798d
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 10
-rank: 14
+rank: 16
 season: sew-26-27

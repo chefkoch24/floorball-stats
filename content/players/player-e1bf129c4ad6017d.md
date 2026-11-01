@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tomas Novotny
 Category: players
 Slug: player-e1bf129c4ad6017d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 145
+rank: 148
 season: cz-26-27

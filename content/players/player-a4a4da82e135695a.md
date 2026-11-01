@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Elisabeth Harding
 Category: players
 Slug: player-a4a4da82e135695a

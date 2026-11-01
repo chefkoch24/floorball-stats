@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daniela Křížová
 Category: players
 Slug: player-f584d3009bbce6da
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 111
+rank: 113
 season: czw-26-27

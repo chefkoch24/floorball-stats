@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Andri Brägger
 Category: players
 Slug: player-740edabffa4b899d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 180
+rank: 191
 season: ch-26-27

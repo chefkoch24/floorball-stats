@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alex Carlstedt
 Category: players
 Slug: player-29040f1c92cac4ad
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 219
+rank: 221
 season: se-26-27

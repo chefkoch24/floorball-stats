@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nela Blažková
 Category: players
 Slug: player-c6be9d1acc60c982
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 87
+rank: 89
 season: czw-26-27

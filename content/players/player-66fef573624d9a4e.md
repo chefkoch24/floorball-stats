@@ -1,26 +1,26 @@
-Date: 2026-10-31
-Title: Martin Sivák
+Date: 2026-11-01
+Title: Xavi Enrique Muñoz
 Category: players
-Slug: player-0723043881bc780c
+Slug: player-66fef573624d9a4e
 type: player
-player: Martin Sivák
-player_uid: player-0723043881bc780c
-team: Tsunami Záhorská Bystrica
-league: Slovakia
+player: Xavi Enrique Muñoz
+player_uid: player-66fef573624d9a4e
+team: WASA St. Gallen
+league: Switzerland
 season_count: 1
-current_season: sk-26-27
+current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 4
-regular_games: 5
+current_pim: 0
+regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 4
+regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|5|0|0|0|4
+career_pim: 0
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|1|0|0|0|0
 assists: 0
-games: 5
+games: 1
 goals: 0
-penalties: 2
+penalties: 0
 phase: regular-season
-pim: 4
+pim: 0
 points: 0
-rank: 246
-season: sk-26-27
+rank: 304
+season: ch-26-27

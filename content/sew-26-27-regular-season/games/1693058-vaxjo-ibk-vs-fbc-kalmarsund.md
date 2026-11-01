@@ -416,6 +416,7 @@ away_pregame_points_after_third_period: 7
 away_pregame_points_against_endre_if: 3
 away_pregame_points_against_karlstad_ibf: 3
 away_pregame_points_against_malmo_fbc: 3
+away_pregame_points_against_pixbo_ibk: 3
 away_pregame_points_against_storvreta_ibk: 3
 away_pregame_points_against_thorengruppen_ibk: 1
 away_pregame_points_against_vaxjo_ibk: 3

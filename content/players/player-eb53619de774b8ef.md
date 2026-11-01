@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nicolas Fedorčák
 Category: players
 Slug: player-eb53619de774b8ef
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 6
-current_goals: 9
-current_assists: 6
-current_points: 15
+current_games: 7
+current_goals: 11
+current_assists: 7
+current_points: 18
 current_pim: 0
-regular_games: 6
-regular_goals: 9
-regular_assists: 6
-regular_points: 15
+regular_games: 7
+regular_goals: 11
+regular_assists: 7
+regular_points: 18
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 12
 previous_assists: 18
 previous_points: 30
 previous_pim: 2
-career_games: 27
-career_goals: 21
-career_assists: 24
-career_points: 45
+career_games: 28
+career_goals: 23
+career_assists: 25
+career_points: 48
 career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|6|9|6|15|0||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|3|3|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|17|12|15|27|0
-assists: 6
-games: 6
-goals: 9
+history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|7|11|7|18|0||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|3|3|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|17|12|15|27|0
+assists: 7
+games: 7
+goals: 11
 penalties: 0
 phase: regular-season
 pim: 0
-points: 15
-rank: 5
+points: 18
+rank: 3
 season: sk-26-27

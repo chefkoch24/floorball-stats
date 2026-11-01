@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Dessie Johansson/Karlsson
 Category: players
 Slug: player-04ac03d0fb3aa81e
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 51
+rank: 56
 season: sew-26-27

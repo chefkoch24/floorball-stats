@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Thea Ernberg
 Category: players
 Slug: player-9b42d83de4d99f92
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 77
+rank: 83
 season: sew-26-27

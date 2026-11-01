@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kerttu Rusanen
 Category: players
 Slug: player-fe1f8118feaa5497
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 53
+rank: 58
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alex Kark
 Category: players
 Slug: player-296f8b19d53acef5

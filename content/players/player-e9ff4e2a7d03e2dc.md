@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Clara Lindblom
 Category: players
 Slug: player-e9ff4e2a7d03e2dc
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 99
+rank: 106
 season: sew-26-27

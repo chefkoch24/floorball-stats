@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sandra Boric Svärd
 Category: players
 Slug: player-f93ae88dc6537dc6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 65
+rank: 70
 season: sew-26-27

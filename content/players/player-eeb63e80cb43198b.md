@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alexander Dahlberg
 Category: players
 Slug: player-eeb63e80cb43198b

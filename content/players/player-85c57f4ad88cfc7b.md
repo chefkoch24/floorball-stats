@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Livia Svartvadet
 Category: players
 Slug: player-85c57f4ad88cfc7b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 45
+rank: 51
 season: sew-26-27

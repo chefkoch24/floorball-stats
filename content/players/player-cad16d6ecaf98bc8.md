@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Treneris Kaspars Reikmanis
 Category: players
 Slug: player-cad16d6ecaf98bc8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 240
+rank: 241
 season: lv-26-27

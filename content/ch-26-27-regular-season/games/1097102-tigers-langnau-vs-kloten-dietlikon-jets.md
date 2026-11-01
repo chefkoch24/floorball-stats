@@ -417,6 +417,7 @@ away_pregame_points_after_third_period: 2
 away_pregame_points_against_floorball_koniz_bern: 1
 away_pregame_points_against_floorball_thurgau: 0
 away_pregame_points_against_grasshopper_club_zurich: 1
+away_pregame_points_against_sv_wiler_ersigen: 0
 away_pregame_points_against_tigers_langnau: 0
 away_pregame_points_against_uhc_uster: 0
 away_pregame_points_against_wasa_st_gallen: 0

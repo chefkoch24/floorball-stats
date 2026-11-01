@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jonna Westerholm
 Category: players
 Slug: player-d5cbef1c383be0e7
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 236
+rank: 238
 season: sew-26-27

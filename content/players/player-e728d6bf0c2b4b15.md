@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Charlotte Reenskaug Johnsrud
 Category: players
 Slug: player-e728d6bf0c2b4b15
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 150
+rank: 156
 season: chw-26-27

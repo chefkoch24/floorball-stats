@@ -311,6 +311,7 @@ home_pregame_points_after_first_period_per_game: 1.33
 home_pregame_points_after_second_period: 13
 home_pregame_points_after_third_period: 13
 home_pregame_points_against_dtf_team_detva_joxers: 3
+home_pregame_points_against_fabk_atu_kosice: 3
 home_pregame_points_against_fbc_grasshoppers_ac_uniza_zilina: 3
 home_pregame_points_against_fbc_predator_sabinov: 3
 home_pregame_points_against_fbk_nizna: 2
@@ -419,6 +420,7 @@ away_pregame_points_against_dtf_team_detva_joxers: 3
 away_pregame_points_against_fbc_grasshoppers_ac_uniza_zilina: 0
 away_pregame_points_against_fbc_predator_sabinov: 2
 away_pregame_points_against_fbk_nizna: 3
+away_pregame_points_against_fk_florko_kosice: 3
 away_pregame_points_against_sk_lido_prirodovedec_ruzinov: 3
 away_pregame_points_against_tsunami_zahorska_bystrica: 1
 away_pregame_points_max_difference_2: 1

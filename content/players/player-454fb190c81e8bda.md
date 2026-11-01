@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matyáš Malkus
 Category: players
 Slug: player-454fb190c81e8bda
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 143
+rank: 146
 season: cz-26-27

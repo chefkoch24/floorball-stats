@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jesper Lindström
 Category: players
 Slug: player-8edc588c2f0aa142
@@ -11,15 +11,15 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 4
+current_points: 7
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 3
-regular_assists: 2
-regular_points: 5
+regular_assists: 4
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 4
 previous_assists: 8
 previous_points: 12
 previous_pim: 2
-career_games: 29
+career_games: 30
 career_goals: 7
-career_assists: 10
-career_points: 17
+career_assists: 12
+career_points: 19
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|6|3|2|5|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|1|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|19|4|7|11|2
-assists: 2
-games: 6
+history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|3|4|7|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|1|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|19|4|7|11|2
+assists: 4
+games: 7
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 77
+points: 7
+rank: 56
 season: se-26-27

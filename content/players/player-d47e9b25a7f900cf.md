@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Viktor Macinský
 Category: players
 Slug: player-d47e9b25a7f900cf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
+current_games: 8
 current_goals: 5
 current_assists: 2
 current_points: 7
 current_pim: 12
-regular_games: 7
+regular_games: 8
 regular_goals: 5
 regular_assists: 2
 regular_points: 7
@@ -31,18 +31,18 @@ previous_goals: 3
 previous_assists: 5
 previous_points: 8
 previous_pim: 6
-career_games: 32
+career_games: 33
 career_goals: 8
 career_assists: 7
 career_points: 15
 career_pim: 18
-history_rows_csv: sk-26-27|regular-season|Slovakia|FK Florko Košice|7|5|2|7|12||sk-25-26|playoffs|Slovakia|FK Florko Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FK Florko Košice|21|3|5|8|6
+history_rows_csv: sk-26-27|regular-season|Slovakia|FK Florko Košice|8|5|2|7|12||sk-25-26|playoffs|Slovakia|FK Florko Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FK Florko Košice|21|3|5|8|6
 assists: 2
-games: 7
+games: 8
 goals: 5
 penalties: 6
 phase: regular-season
 pim: 12
 points: 7
-rank: 47
+rank: 57
 season: sk-26-27

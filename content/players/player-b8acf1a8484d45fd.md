@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ulla Valtola
 Category: players
 Slug: player-b8acf1a8484d45fd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 72
+rank: 78
 season: sew-26-27

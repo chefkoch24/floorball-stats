@@ -1,25 +1,25 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: (Lielvārde/Unihoc) bumbiņa savos vārtos
 Category: players
 Slug: player-b8da2db03b2a6a97
 type: player
 player: (Lielvārde/Unihoc) bumbiņa savos vārtos
 player_uid: player-b8da2db03b2a6a97
-team: Ķekava/RB&B
+team: FK Kurši / Ķekava/RB&B
 league: Latvia
 season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 1
-current_goals: 1
+current_games: 2
+current_goals: 2
 current_assists: 0
-current_points: 1
+current_points: 2
 current_pim: 0
-regular_games: 1
-regular_goals: 1
+regular_games: 2
+regular_goals: 2
 regular_assists: 0
-regular_points: 1
+regular_points: 2
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 2
 previous_assists: 0
 previous_points: 2
 previous_pim: 0
-career_games: 2
-career_goals: 3
+career_games: 3
+career_goals: 4
 career_assists: 0
-career_points: 3
+career_points: 4
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|1|1|0|1|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|1|2|0|2|0
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši / Ķekava/RB&B|2|2|0|2|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|1|2|0|2|0
 assists: 0
-games: 1
-goals: 1
+games: 2
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 1
-rank: 116
+points: 2
+rank: 97
 season: lv-26-27

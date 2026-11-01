@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Oona Kauppi
 Category: players
 Slug: player-7b45e64a6bd791b0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 15
-rank: 4
+rank: 6
 season: sew-26-27

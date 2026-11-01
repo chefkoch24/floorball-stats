@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Šimon Stránský
 Category: players
 Slug: player-45d68cdac39a9bbb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 15
+rank: 16
 season: cz-26-27

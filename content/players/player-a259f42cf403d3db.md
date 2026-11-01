@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tobias Klamt
 Category: players
 Slug: player-a259f42cf403d3db

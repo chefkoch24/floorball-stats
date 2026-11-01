@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Arvis Kārkliņš
 Category: players
 Slug: player-d40ffc259cd4ab71

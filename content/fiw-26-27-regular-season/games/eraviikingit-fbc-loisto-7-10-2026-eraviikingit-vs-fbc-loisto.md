@@ -418,6 +418,7 @@ away_pregame_points_after_third_period: 7
 away_pregame_points_against_eraviikingit: 3
 away_pregame_points_against_koovee: 2
 away_pregame_points_against_pirkat: 3
+away_pregame_points_against_pss: 3
 away_pregame_points_against_sb_pro: 0
 away_pregame_points_against_sbs_wirmo: 3
 away_pregame_points_against_spv: 3

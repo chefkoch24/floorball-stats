@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hilda Lundh
 Category: players
 Slug: player-d5a079d68a3cb561
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 103
+rank: 110
 season: sew-26-27

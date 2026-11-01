@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alva Claesson
 Category: players
 Slug: player-0fb3da93dd013570
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 188
+rank: 191
 season: sew-26-27

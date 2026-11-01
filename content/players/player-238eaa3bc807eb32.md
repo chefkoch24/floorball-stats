@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kevin Kropf
 Category: players
 Slug: player-238eaa3bc807eb32
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 16
+rank: 26
 season: ch-26-27

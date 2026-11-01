@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Peter Hrabčák
 Category: players
 Slug: player-06a8bcabcf0924ba
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 8
-rank: 36
+rank: 52
 season: sk-26-27

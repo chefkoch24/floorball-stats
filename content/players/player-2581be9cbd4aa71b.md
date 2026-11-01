@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lukas Garcia
 Category: players
 Slug: player-2581be9cbd4aa71b
@@ -11,15 +11,15 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
-current_goals: 1
-current_assists: 1
-current_points: 2
+current_games: 6
+current_goals: 3
+current_assists: 2
+current_points: 5
 current_pim: 4
-regular_games: 5
-regular_goals: 1
-regular_assists: 1
-regular_points: 2
+regular_games: 6
+regular_goals: 3
+regular_assists: 2
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 25
-career_goals: 2
-career_assists: 1
-career_points: 3
+career_games: 26
+career_goals: 4
+career_assists: 2
+career_points: 6
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Lund Elit|5|1|1|2|4||se-25-26|regular-season|Sweden|Strängnäs IBK|14|1|0|1|0||wfc-2024|tournament|IFF WFC|Norway|6|0|0|0|0
-assists: 1
-games: 5
-goals: 1
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Lund Elit|6|3|2|5|4||se-25-26|regular-season|Sweden|Strängnäs IBK|14|1|0|1|0||wfc-2024|tournament|IFF WFC|Norway|6|0|0|0|0
+assists: 2
+games: 6
+goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
-points: 2
-rank: 158
+points: 5
+rank: 89
 season: se-26-27

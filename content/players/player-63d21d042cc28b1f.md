@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ludvig Öberg
 Category: players
 Slug: player-63d21d042cc28b1f
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 1
-rank: 191
+rank: 196
 season: se-26-27

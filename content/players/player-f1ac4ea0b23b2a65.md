@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Siljan Ritz
 Category: players
 Slug: player-f1ac4ea0b23b2a65
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 286
+rank: 296
 season: ch-26-27

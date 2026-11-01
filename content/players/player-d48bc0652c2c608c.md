@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sandijs Gabriels Siliņš
 Category: players
 Slug: player-d48bc0652c2c608c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 231
+rank: 233
 season: lv-26-27

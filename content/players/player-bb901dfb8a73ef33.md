@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alisha Niggli
 Category: players
 Slug: player-bb901dfb8a73ef33
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 116
+rank: 120
 season: chw-26-27

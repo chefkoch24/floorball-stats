@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tomáš Hanák
 Category: players
 Slug: player-6ccb8d3382dddef4
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 15
-rank: 13
+rank: 14
 season: cz-26-27

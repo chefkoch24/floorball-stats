@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sofia Vestergaard Frederiksen
 Category: players
 Slug: player-904bfcd7341bad20
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 110
+rank: 115
 season: sew-26-27

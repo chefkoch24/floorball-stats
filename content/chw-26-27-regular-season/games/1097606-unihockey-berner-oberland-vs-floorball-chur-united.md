@@ -317,6 +317,7 @@ home_pregame_points_against_red_ants_winterthur: 2
 home_pregame_points_against_uhc_laupen_zh: 3
 home_pregame_points_against_uhv_skorpion_emmental: 0
 home_pregame_points_against_wizards_bern_burgdorf: 0
+home_pregame_points_against_zug_united: 3
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 6
 home_pregame_points_per_game: 3.0

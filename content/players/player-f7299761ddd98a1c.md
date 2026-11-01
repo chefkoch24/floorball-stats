@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Klára Hodulíková
 Category: players
 Slug: player-f7299761ddd98a1c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 243
+rank: 244
 season: czw-26-27

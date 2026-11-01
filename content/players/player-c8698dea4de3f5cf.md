@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nora Kökeritz
 Category: players
 Slug: player-c8698dea4de3f5cf
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 90
+rank: 98
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Leonie Christen
 Category: players
 Slug: player-5c8e3b07656cda26
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 38
+rank: 46
 season: chw-26-27

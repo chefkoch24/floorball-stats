@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Wilmer Viinamäki
 Category: players
 Slug: player-ffb2bdb329903478
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 164
+rank: 169
 season: se-26-27

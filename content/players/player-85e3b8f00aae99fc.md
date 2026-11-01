@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Gustav Ringhagen
 Category: players
 Slug: player-85e3b8f00aae99fc
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 28
+career_games: 29
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|6|0|0|0|2||se-25-26|regular-season|Sweden|Hovslätts IK|22|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|7|0|0|0|2||se-25-26|regular-season|Sweden|Hovslätts IK|22|0|0|0|0
 assists: 0
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 246
+rank: 247
 season: se-26-27

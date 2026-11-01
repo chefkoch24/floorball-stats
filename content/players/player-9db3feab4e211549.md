@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tim Lindberg
 Category: players
 Slug: player-9db3feab4e211549
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 54
+rank: 66
 season: se-26-27

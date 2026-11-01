@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daniela Westerlund
 Category: players
 Slug: player-5c0a9b603fdf6bb9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 47
+rank: 53
 season: sew-26-27

@@ -415,6 +415,7 @@ away_pregame_points_after_first_period_per_game: 0.8
 away_pregame_points_after_second_period: 6
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_fbc_kalmarsund: 0
+away_pregame_points_against_ibk_lund_elit: 0
 away_pregame_points_against_mullsjo_ais: 0
 away_pregame_points_against_nykvarns_ibf: 0
 away_pregame_points_against_pixbo_ibk: 0

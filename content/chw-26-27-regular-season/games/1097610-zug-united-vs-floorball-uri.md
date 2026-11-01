@@ -316,6 +316,7 @@ home_pregame_points_against_floorball_uri: 3
 home_pregame_points_against_kloten_dietlikon_jets: 3
 home_pregame_points_against_uhc_laupen_zh: 3
 home_pregame_points_against_uhv_skorpion_emmental: 2
+home_pregame_points_against_unihockey_berner_oberland: 0
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 2.5

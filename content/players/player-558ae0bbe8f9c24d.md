@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kim Ganevik
 Category: players
 Slug: player-558ae0bbe8f9c24d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 27
+rank: 29
 season: se-26-27

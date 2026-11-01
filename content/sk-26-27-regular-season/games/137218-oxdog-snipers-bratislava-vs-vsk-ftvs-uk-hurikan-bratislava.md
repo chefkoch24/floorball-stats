@@ -316,6 +316,7 @@ home_pregame_points_against_fbc_grasshoppers_ac_uniza_zilina: 3
 home_pregame_points_against_fbc_predator_sabinov: 3
 home_pregame_points_against_fbk_nizna: 3
 home_pregame_points_against_fk_florko_kosice: 3
+home_pregame_points_against_sk_lido_prirodovedec_ruzinov: 0
 home_pregame_points_against_vsk_ftvs_uk_hurikan_bratislava: 3
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 15
@@ -421,6 +422,7 @@ away_pregame_points_against_fbc_predator_sabinov: 0
 away_pregame_points_against_fbk_nizna: 3
 away_pregame_points_against_fk_florko_kosice: 1
 away_pregame_points_against_oxdog_snipers_bratislava: 0
+away_pregame_points_against_tsunami_zahorska_bystrica: 0
 away_pregame_points_max_difference_2: 4
 away_pregame_points_more_2_difference: 8
 away_pregame_points_per_game: 2.0

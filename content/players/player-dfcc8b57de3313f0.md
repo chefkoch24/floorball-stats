@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Självmål
 Category: players
 Slug: player-dfcc8b57de3313f0
@@ -26,23 +26,23 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 3
-previous_goals: 3
+previous_games: 4
+previous_goals: 4
 previous_assists: 0
-previous_points: 3
+previous_points: 4
 previous_pim: 0
-career_games: 22
-career_goals: 22
+career_games: 23
+career_goals: 23
 career_assists: 0
-career_points: 22
+career_points: 23
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK / Pixbo IBK|3|3|0|3|0||sew-26-27|regular-season|Sweden Women|IBK Lund Elit / KAIS Mora IF|2|2|0|2|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Lund Elit / Jönköpings IK / Pixbo IBK|4|4|0|4|0||sew-26-27|regular-season|Sweden Women|IBK Lund Elit / KAIS Mora IF|2|2|0|2|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
 assists: 0
-games: 3
-goals: 3
+games: 4
+goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 117
+points: 4
+rank: 105
 season: se-26-27

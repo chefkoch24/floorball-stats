@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Buršík
 Category: players
 Slug: player-5b65ed5be9c42bd7

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lisa Andersson
 Category: players
 Slug: player-e5ca4b0aff5bc86d
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 6
-rank: 35
+rank: 38
 season: sew-26-27

@@ -310,6 +310,7 @@ home_pregame_points_after_first_period: 9
 home_pregame_points_after_first_period_per_game: 1.5
 home_pregame_points_after_second_period: 6
 home_pregame_points_after_third_period: 5
+home_pregame_points_against_eraviikingit: 3
 home_pregame_points_against_indians: 0
 home_pregame_points_against_jymy: 3
 home_pregame_points_against_nokian_krp: 1

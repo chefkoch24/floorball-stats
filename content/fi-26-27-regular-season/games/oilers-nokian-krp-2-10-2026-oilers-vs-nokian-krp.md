@@ -417,7 +417,7 @@ away_pregame_points_against_hawks: 3
 away_pregame_points_against_lasb: 3
 away_pregame_points_against_o2_jyvaskyla: 5
 away_pregame_points_against_oilers: 0
-away_pregame_points_against_tps: 3
+away_pregame_points_against_tps: 6
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 12
 away_pregame_points_per_game: 3.0

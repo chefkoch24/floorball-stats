@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Eva Nečasová
 Category: players
 Slug: player-115e7ce7fd23a796
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 126
+rank: 128
 season: czw-26-27

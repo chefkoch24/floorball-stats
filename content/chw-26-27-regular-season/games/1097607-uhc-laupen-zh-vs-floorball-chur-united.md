@@ -311,6 +311,7 @@ home_pregame_points_after_first_period: 4
 home_pregame_points_after_first_period_per_game: 2.0
 home_pregame_points_after_second_period: 4
 home_pregame_points_after_third_period: 0
+home_pregame_points_against_fb_riders_dbr: 3
 home_pregame_points_against_floorball_chur_united: 0
 home_pregame_points_against_floorball_uri: 3
 home_pregame_points_against_red_ants_winterthur: 0

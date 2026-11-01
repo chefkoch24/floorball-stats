@@ -419,6 +419,7 @@ away_pregame_points_against_jonkopings_ik: 3
 away_pregame_points_against_linkoping_ibk: 0
 away_pregame_points_against_mullsjo_ais: 3
 away_pregame_points_against_nykvarns_ibf: 2
+away_pregame_points_against_storvreta_ibk: 1
 away_pregame_points_against_warberg_ic: 1
 away_pregame_points_max_difference_2: 5
 away_pregame_points_more_2_difference: 4

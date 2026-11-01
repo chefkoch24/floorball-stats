@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ľubomír Drga
 Category: players
 Slug: player-17c4b0abf8aa5768

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristers Sīlis
 Category: players
 Slug: player-469f0e6ebae618b2

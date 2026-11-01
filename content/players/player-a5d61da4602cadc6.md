@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Mediķis Normunds Vaivads
 Category: players
 Slug: player-a5d61da4602cadc6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 193
+rank: 196
 season: lv-26-27

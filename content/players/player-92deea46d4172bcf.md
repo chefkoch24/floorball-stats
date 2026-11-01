@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Filip Schönbeck
 Category: players
 Slug: player-92deea46d4172bcf
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 203
+rank: 208
 season: se-26-27

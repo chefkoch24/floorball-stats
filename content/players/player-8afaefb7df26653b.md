@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Šimon Ruber
 Category: players
 Slug: player-8afaefb7df26653b
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 4
-rank: 124
+rank: 127
 season: cz-26-27

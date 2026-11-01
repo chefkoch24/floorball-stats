@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Saga Ragnvaldsson
 Category: players
 Slug: player-a69a5ad77e8d39a3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 146
+rank: 153
 season: sew-26-27

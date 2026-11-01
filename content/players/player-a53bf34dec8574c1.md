@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Joonatan Lindholm
 Category: players
 Slug: player-a53bf34dec8574c1
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 88
+rank: 100
 season: ch-26-27

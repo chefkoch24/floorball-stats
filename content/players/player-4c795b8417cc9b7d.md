@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emy Westergren
 Category: players
 Slug: player-4c795b8417cc9b7d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 215
+rank: 217
 season: sew-26-27

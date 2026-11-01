@@ -417,6 +417,7 @@ away_pregame_points_after_first_period: 7
 away_pregame_points_after_first_period_per_game: 1.17
 away_pregame_points_after_second_period: 5
 away_pregame_points_after_third_period: 8
+away_pregame_points_against_1_sc_tempish_vitkovice: 2
 away_pregame_points_against_crazy_girls_fbc_liberec: 0
 away_pregame_points_against_fbc_intevo_trinec: 3
 away_pregame_points_against_fbs_bohemians: 1

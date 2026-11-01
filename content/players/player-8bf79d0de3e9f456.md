@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Josefiina Nissilä
 Category: players
 Slug: player-8bf79d0de3e9f456
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 16
-rank: 5
+rank: 7
 season: fiw-26-27

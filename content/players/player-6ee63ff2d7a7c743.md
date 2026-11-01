@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Johanna Spetz
 Category: players
 Slug: player-6ee63ff2d7a7c743
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 44
+rank: 50
 season: sew-26-27

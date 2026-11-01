@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Wilmer Jansson
 Category: players
 Slug: player-0bfac0ea34ed56f3
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 137
+rank: 142
 season: se-26-27

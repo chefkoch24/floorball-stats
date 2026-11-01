@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daniel Ludvík
 Category: players
 Slug: player-50e7f952e35cae1b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 138
+rank: 141
 season: cz-26-27

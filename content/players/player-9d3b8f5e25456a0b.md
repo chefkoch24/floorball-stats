@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matěj Vrátný
 Category: players
 Slug: player-9d3b8f5e25456a0b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 204
+rank: 205
 season: cz-26-27

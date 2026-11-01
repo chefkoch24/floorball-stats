@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Felix Sunell
 Category: players
 Slug: player-1f27d4824f2eab48
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 183
+rank: 188
 season: se-26-27

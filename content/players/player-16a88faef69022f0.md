@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Aneta Neterderová
 Category: players
 Slug: player-16a88faef69022f0

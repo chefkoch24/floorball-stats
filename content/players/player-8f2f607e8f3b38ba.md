@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Petr Koláčný C
 Category: players
 Slug: player-8f2f607e8f3b38ba
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 331
+rank: 332
 season: cz-26-27

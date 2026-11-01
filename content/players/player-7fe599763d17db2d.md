@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Heikki Iiskola
 Category: players
 Slug: player-7fe599763d17db2d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 13
+rank: 15
 season: se-26-27

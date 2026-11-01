@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sara Laaksonen
 Category: players
 Slug: player-04671b81ef18ebb4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 55
+rank: 60
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Aylin Meryem
 Category: players
 Slug: player-bc7d2596d89c49b3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 65
+rank: 71
 season: chw-26-27

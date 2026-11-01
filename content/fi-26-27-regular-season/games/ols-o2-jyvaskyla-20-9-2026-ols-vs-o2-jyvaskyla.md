@@ -413,6 +413,7 @@ away_pregame_points_after_first_period: 3
 away_pregame_points_after_first_period_per_game: 1.5
 away_pregame_points_after_second_period: 4
 away_pregame_points_after_third_period: 3
+away_pregame_points_against_eraviikingit: 3
 away_pregame_points_against_indians: 0
 away_pregame_points_against_jymy: 3
 away_pregame_points_against_nokian_krp: 1

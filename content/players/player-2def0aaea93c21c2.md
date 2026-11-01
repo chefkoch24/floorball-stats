@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lucas Hägglund
 Category: players
 Slug: player-2def0aaea93c21c2
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 31
+rank: 33
 season: se-26-27

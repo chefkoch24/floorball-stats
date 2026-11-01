@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tova Pettersson
 Category: players
 Slug: player-f84e353e12bc38c3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 81
+rank: 88
 season: sew-26-27

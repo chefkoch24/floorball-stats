@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Martin Tormásy
 Category: players
 Slug: player-eef11d766b4624fd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 247
+rank: 255
 season: sk-26-27

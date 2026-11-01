@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Adéla Částečková
 Category: players
 Slug: player-c2304c6c22b0fd34
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 45
+rank: 50
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: David Johannesson
 Category: players
 Slug: player-a5f9f87e5f1f1fb0
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 55
+rank: 68
 season: se-26-27

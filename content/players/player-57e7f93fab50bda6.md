@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nikol Kovárníková
 Category: players
 Slug: player-57e7f93fab50bda6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 103
+rank: 105
 season: czw-26-27

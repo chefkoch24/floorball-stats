@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jonathan Böhlendorf
 Category: players
 Slug: player-5ce184b969480ade

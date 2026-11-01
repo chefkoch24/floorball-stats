@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marcel Stucki
 Category: players
 Slug: player-8fbb6101eebe5869
@@ -7,16 +7,16 @@ player: Marcel Stucki
 player_uid: player-8fbb6101eebe5869
 team: Floorball Chur United
 league: Switzerland
-season_count: 1
-current_season: ch-25-26
+season_count: 2
+current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: n.a.
-current_games: 9
+previous_season: ch-25-26
+current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 9
+regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -26,23 +26,23 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 0
+previous_games: 9
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-25-26|regular-season|Switzerland|Floorball Chur United|9|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|9|0|0|0|0
 assists: 0
-games: 9
+games: 1
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 304
-season: ch-25-26
+rank: 256
+season: ch-26-27

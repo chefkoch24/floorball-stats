@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ondřej Sidunov
 Category: players
 Slug: player-07df3cc476bdcd95
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 77
+rank: 83
 season: cz-26-27

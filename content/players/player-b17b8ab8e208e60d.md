@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jonas Rosén
 Category: players
 Slug: player-b17b8ab8e208e60d

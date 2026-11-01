@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Chantal Renz
 Category: players
 Slug: player-268bca48d0c1e768
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 66
+rank: 72
 season: chw-26-27

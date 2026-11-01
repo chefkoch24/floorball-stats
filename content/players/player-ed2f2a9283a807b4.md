@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Martin Svatoň
 Category: players
 Slug: player-ed2f2a9283a807b4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 57
+rank: 60
 season: cz-26-27

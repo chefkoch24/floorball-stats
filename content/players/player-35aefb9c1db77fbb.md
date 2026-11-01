@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hanna Lööw
 Category: players
 Slug: player-35aefb9c1db77fbb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 127
+rank: 133
 season: sew-26-27

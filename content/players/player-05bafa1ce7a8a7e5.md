@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jan Krejča
 Category: players
 Slug: player-05bafa1ce7a8a7e5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 274
+rank: 276
 season: cz-26-27

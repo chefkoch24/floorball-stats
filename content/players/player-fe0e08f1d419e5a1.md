@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Selma Bergmann
 Category: players
 Slug: player-fe0e08f1d419e5a1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 113
+rank: 118
 season: chw-26-27

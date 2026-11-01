@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Richard Cvacho
 Category: players
 Slug: player-d4d5d9dfeee8c994
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
-current_goals: 4
-current_assists: 6
-current_points: 10
+current_games: 8
+current_goals: 5
+current_assists: 9
+current_points: 14
 current_pim: 0
-regular_games: 7
-regular_goals: 4
-regular_assists: 6
-regular_points: 10
+regular_games: 8
+regular_goals: 5
+regular_assists: 9
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 19
 previous_assists: 21
 previous_points: 40
 previous_pim: 4
-career_games: 30
-career_goals: 23
-career_assists: 27
-career_points: 50
+career_games: 31
+career_goals: 24
+career_assists: 30
+career_points: 54
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|7|4|6|10|0||sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|4|10|14|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|15|15|11|26|4
-assists: 6
-games: 7
-goals: 4
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|5|9|14|0||sk-25-26|playoffs|Slovakia|FBC Grasshoppers AC UNIZA Žilina|8|4|10|14|0||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|15|15|11|26|4
+assists: 9
+games: 8
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 10
-rank: 29
+points: 14
+rank: 16
 season: sk-26-27

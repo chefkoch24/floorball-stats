@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Frīdrihs Feldmanis
 Category: players
 Slug: player-783dd90cf925feb0
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -31,18 +31,18 @@ previous_goals: 6
 previous_assists: 3
 previous_points: 9
 previous_pim: 0
-career_games: 38
+career_games: 39
 career_goals: 9
 career_assists: 5
 career_points: 14
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|8|3|2|5|2||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|1|2|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|26|5|2|7|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|9|3|2|5|2||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|1|2|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|26|5|2|7|0
 assists: 2
-games: 8
+games: 9
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 53
+rank: 56
 season: lv-26-27

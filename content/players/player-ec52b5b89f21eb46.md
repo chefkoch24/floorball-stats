@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matyáš Šindler
 Category: players
 Slug: player-ec52b5b89f21eb46
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 19
+rank: 22
 season: cz-26-27

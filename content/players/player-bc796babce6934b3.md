@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pārstāvis Aivis Barkovskis
 Category: players
 Slug: player-bc796babce6934b3

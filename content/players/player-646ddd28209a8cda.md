@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Leon Tringaniello
 Category: players
 Slug: player-646ddd28209a8cda
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
-current_goals: 0
+current_games: 7
+current_goals: 1
 current_assists: 5
-current_points: 5
+current_points: 6
 current_pim: 0
-regular_games: 6
-regular_goals: 0
+regular_games: 7
+regular_goals: 1
 regular_assists: 5
-regular_points: 5
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 4
 previous_assists: 9
 previous_points: 13
 previous_pim: 2
-career_games: 34
-career_goals: 4
+career_games: 35
+career_goals: 5
 career_assists: 14
-career_points: 18
+career_points: 19
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|6|0|5|5|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|1|3|4|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|3|6|9|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|1|5|6|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|1|3|4|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|3|6|9|2
 assists: 5
-games: 6
-goals: 0
+games: 7
+goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 63
+points: 6
+rank: 56
 season: ch-26-27

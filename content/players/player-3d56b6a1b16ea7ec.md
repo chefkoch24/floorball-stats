@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Elvis Kaķis
 Category: players
 Slug: player-3d56b6a1b16ea7ec
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 97
+rank: 104
 season: lv-26-27

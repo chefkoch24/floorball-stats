@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tim Luznar
 Category: players
 Slug: player-568c48cdb6cbfe1f

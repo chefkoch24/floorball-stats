@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kevin Hoeglenius
 Category: players
 Slug: player-8fb5fcabf139b84f

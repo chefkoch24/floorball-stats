@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Oskar Malmgren
 Category: players
 Slug: player-89184a5f9cbbaaeb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 283
+rank: 284
 season: se-26-27

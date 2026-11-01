@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Maja Viström
 Category: players
 Slug: player-2f6e21fa877ca03c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 6
+rank: 10
 season: sew-26-27

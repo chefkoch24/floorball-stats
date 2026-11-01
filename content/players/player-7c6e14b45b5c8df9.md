@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hampus Öhgren
 Category: players
 Slug: player-7c6e14b45b5c8df9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 57
+rank: 71
 season: se-26-27

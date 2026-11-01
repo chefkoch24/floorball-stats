@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ellen Lundin
 Category: players
 Slug: player-505fedee4fe1709b
@@ -11,16 +11,16 @@ season_count: 1
 current_season: sew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
-current_goals: 4
-current_assists: 12
-current_points: 16
-current_pim: 0
-regular_games: 5
-regular_goals: 4
-regular_assists: 12
-regular_points: 16
-regular_pim: 0
+current_games: 6
+current_goals: 5
+current_assists: 13
+current_points: 18
+current_pim: 2
+regular_games: 6
+regular_goals: 5
+regular_assists: 13
+regular_points: 18
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
-career_goals: 4
-career_assists: 12
-career_points: 16
-career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Pixbo IBK|5|4|12|16|0
-assists: 12
-games: 5
-goals: 4
-penalties: 0
+career_games: 6
+career_goals: 5
+career_assists: 13
+career_points: 18
+career_pim: 2
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Pixbo IBK|6|5|13|18|2
+assists: 13
+games: 6
+goals: 5
+penalties: 1
 phase: regular-season
-pim: 0
-points: 16
-rank: 3
+pim: 2
+points: 18
+rank: 1
 season: sew-26-27

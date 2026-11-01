@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Philip Firsbach
 Category: players
 Slug: player-b89dc3552fdd5af3

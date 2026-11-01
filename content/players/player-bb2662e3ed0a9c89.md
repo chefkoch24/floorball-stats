@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Peter Solár
 Category: players
 Slug: player-bb2662e3ed0a9c89
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 272
+rank: 280
 season: sk-26-27

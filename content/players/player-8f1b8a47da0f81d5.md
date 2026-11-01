@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ida Vinberg
 Category: players
 Slug: player-8f1b8a47da0f81d5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 141
+rank: 147
 season: sew-26-27

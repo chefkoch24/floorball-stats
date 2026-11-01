@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Paľo Lukáš
 Category: players
 Slug: player-09cd3761cdc0c5c4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 145
+rank: 158
 season: sk-26-27

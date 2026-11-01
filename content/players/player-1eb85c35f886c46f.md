@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Veera Kauppi
 Category: players
 Slug: player-1eb85c35f886c46f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 1
+rank: 2
 season: sew-26-27

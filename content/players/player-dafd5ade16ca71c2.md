@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pavlina Soukupova
 Category: players
 Slug: player-dafd5ade16ca71c2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 31
+rank: 38
 season: chw-26-27

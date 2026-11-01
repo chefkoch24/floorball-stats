@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Gustav Lindberg
 Category: players
 Slug: player-d77c2cb6a9d42358
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 56
+rank: 70
 season: se-26-27

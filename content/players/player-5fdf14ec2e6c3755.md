@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Klara Roos
 Category: players
 Slug: player-5fdf14ec2e6c3755
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 116
+rank: 121
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Anrijs Strazdiņš
 Category: players
 Slug: player-3dfbe4b8d475525d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 152
+rank: 155
 season: lv-26-27

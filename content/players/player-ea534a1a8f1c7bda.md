@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Vanessa Koch
 Category: players
 Slug: player-ea534a1a8f1c7bda
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 43
+rank: 51
 season: chw-26-27

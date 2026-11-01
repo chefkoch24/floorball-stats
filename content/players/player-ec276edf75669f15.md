@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Rebeka Laure
 Category: players
 Slug: player-ec276edf75669f15

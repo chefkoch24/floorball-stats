@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Martin Latka
 Category: players
 Slug: player-bcb37eee18865c70
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 6
-current_goals: 3
+current_games: 7
+current_goals: 5
 current_assists: 4
-current_points: 7
+current_points: 9
 current_pim: 0
-regular_games: 6
-regular_goals: 3
+regular_games: 7
+regular_goals: 5
 regular_assists: 4
-regular_points: 7
+regular_points: 9
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 18
 previous_assists: 31
 previous_points: 49
 previous_pim: 10
-career_games: 33
-career_goals: 21
+career_games: 34
+career_goals: 23
 career_assists: 35
-career_points: 56
+career_points: 58
 career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|6|3|4|7|0||sk-25-26|playoffs|Slovakia|FBK Nižná|5|2|2|4|4||sk-25-26|regular-season|Slovakia|FBK Nižná|22|16|29|45|6
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|7|5|4|9|0||sk-25-26|playoffs|Slovakia|FBK Nižná|5|2|2|4|4||sk-25-26|regular-season|Slovakia|FBK Nižná|22|16|29|45|6
 assists: 4
-games: 6
-goals: 3
+games: 7
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 7
-rank: 53
+points: 9
+rank: 41
 season: sk-26-27

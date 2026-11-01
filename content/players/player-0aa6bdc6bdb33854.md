@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Michelle Stieger
 Category: players
 Slug: player-0aa6bdc6bdb33854
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 201
+rank: 205
 season: chw-26-27

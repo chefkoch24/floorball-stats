@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Essi Ronkainen
 Category: players
 Slug: player-03b2f48062cfe1d6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 141
+rank: 144
 season: fiw-26-27

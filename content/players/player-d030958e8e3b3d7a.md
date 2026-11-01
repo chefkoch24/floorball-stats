@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Uhrinová Rebeka
 Category: players
 Slug: player-d030958e8e3b3d7a

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Karolina Klubalova
 Category: players
 Slug: player-11d4cdda8a08e208
@@ -11,15 +11,15 @@ season_count: 1
 current_season: sew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 7
+current_games: 7
+current_goals: 11
 current_assists: 4
-current_points: 11
+current_points: 15
 current_pim: 0
-regular_games: 6
-regular_goals: 7
+regular_games: 7
+regular_goals: 11
 regular_assists: 4
-regular_points: 11
+regular_points: 15
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 7
+career_games: 7
+career_goals: 11
 career_assists: 4
-career_points: 11
+career_points: 15
 career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|6|7|4|11|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|11|4|15|0
 assists: 4
-games: 6
-goals: 7
+games: 7
+goals: 11
 penalties: 0
 phase: regular-season
 pim: 0
-points: 11
-rank: 10
+points: 15
+rank: 5
 season: sew-26-27

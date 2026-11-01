@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Livia-Alia Abegg
 Category: players
 Slug: player-2cf534c4e08c43e4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 192
+rank: 196
 season: chw-26-27

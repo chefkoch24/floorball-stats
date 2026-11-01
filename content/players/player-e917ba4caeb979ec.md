@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tereza Havlová
 Category: players
 Slug: player-e917ba4caeb979ec
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 133
+rank: 135
 season: czw-26-27

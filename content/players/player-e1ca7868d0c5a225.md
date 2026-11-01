@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emily Alm
 Category: players
 Slug: player-e1ca7868d0c5a225
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 212
+rank: 214
 season: sew-26-27

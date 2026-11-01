@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Denisa Výborná
 Category: players
 Slug: player-f2058d9bcb39472f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 143
+rank: 145
 season: czw-26-27

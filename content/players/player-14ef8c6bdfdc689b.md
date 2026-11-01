@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kevins Šmits
 Category: players
 Slug: player-14ef8c6bdfdc689b
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
-current_goals: 8
-current_assists: 6
-current_points: 14
-current_pim: 0
-regular_games: 8
-regular_goals: 8
-regular_assists: 6
-regular_points: 14
-regular_pim: 0
+current_games: 9
+current_goals: 9
+current_assists: 7
+current_points: 16
+current_pim: 2
+regular_games: 9
+regular_goals: 9
+regular_assists: 7
+regular_points: 16
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 45
 previous_assists: 22
 previous_points: 67
 previous_pim: 26
-career_games: 38
-career_goals: 53
-career_assists: 28
-career_points: 81
-career_pim: 26
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|8|8|6|14|0||lv-25-26|playoffs|Latvia|FBK SĀC|4|1|1|2|8||lv-25-26|regular-season|Latvia|FBK SĀC|26|44|21|65|18
-assists: 6
-games: 8
-goals: 8
-penalties: 0
+career_games: 39
+career_goals: 54
+career_assists: 29
+career_points: 83
+career_pim: 28
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|9|9|7|16|2||lv-25-26|playoffs|Latvia|FBK SĀC|4|1|1|2|8||lv-25-26|regular-season|Latvia|FBK SĀC|26|44|21|65|18
+assists: 7
+games: 9
+goals: 9
+penalties: 1
 phase: regular-season
-pim: 0
-points: 14
-rank: 7
+pim: 2
+points: 16
+rank: 5
 season: lv-26-27

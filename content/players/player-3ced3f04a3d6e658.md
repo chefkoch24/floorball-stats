@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Stina Johansson
 Category: players
 Slug: player-3ced3f04a3d6e658
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 277
+rank: 279
 season: sew-26-27

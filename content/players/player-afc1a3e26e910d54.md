@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lea Suter
 Category: players
 Slug: player-afc1a3e26e910d54
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 3
 current_assists: 6
 current_points: 9
 current_pim: 0
-regular_games: 5
+regular_games: 6
 regular_goals: 3
 regular_assists: 6
 regular_points: 9
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|5|3|6|9|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|6|3|6|9|0
 assists: 6
-games: 5
+games: 6
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 8
+rank: 10
 season: chw-26-27

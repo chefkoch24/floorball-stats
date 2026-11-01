@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Noemi Anderegg
 Category: players
 Slug: player-44bd4d1a6597f1e2
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 211
+rank: 214
 season: chw-26-27

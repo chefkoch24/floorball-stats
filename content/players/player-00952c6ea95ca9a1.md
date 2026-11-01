@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Patriks Zvejnieks
 Category: players
 Slug: player-00952c6ea95ca9a1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 125
+rank: 128
 season: lv-26-27

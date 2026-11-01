@@ -319,6 +319,7 @@ home_pregame_points_against_bulldogs_brno: 0
 home_pregame_points_against_fat_pipe_florbal_chodov: 1
 home_pregame_points_against_florbal_usti: 3
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
+home_pregame_points_against_kanonyri_kladno: 0
 home_pregame_points_against_tatran_stresovice: 0
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 0

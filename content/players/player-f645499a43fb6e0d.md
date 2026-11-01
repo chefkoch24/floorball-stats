@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Armands Gulbis
 Category: players
 Slug: player-f645499a43fb6e0d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 153
+rank: 156
 season: lv-26-27

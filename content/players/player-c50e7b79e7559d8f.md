@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tilde Adman
 Category: players
 Slug: player-c50e7b79e7559d8f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 281
+rank: 283
 season: sew-26-27

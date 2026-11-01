@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: William Mathias Kuray
 Category: players
 Slug: player-03c8ab9f71b16d60
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 233
+rank: 235
 season: cz-26-27

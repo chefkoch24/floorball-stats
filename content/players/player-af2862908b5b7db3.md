@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Morics Krumins
 Category: players
 Slug: player-af2862908b5b7db3
@@ -11,12 +11,12 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 5
+regular_games: 6
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -31,18 +31,18 @@ previous_goals: 6
 previous_assists: 9
 previous_points: 15
 previous_pim: 8
-career_games: 38
+career_games: 39
 career_goals: 10
 career_assists: 12
 career_points: 22
 career_pim: 14
-history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|5|0|1|1|2||se-25-26|regular-season|Sweden|Warberg IC|26|6|9|15|8||wfc-2024|tournament|IFF WFC|Latvia|7|4|2|6|4
+history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|6|0|1|1|2||se-25-26|regular-season|Sweden|Warberg IC|26|6|9|15|8||wfc-2024|tournament|IFF WFC|Latvia|7|4|2|6|4
 assists: 1
-games: 5
+games: 6
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 209
+rank: 213
 season: se-26-27

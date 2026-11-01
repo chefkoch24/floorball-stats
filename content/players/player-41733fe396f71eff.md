@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lukáš Rada
 Category: players
 Slug: player-41733fe396f71eff
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 122
+rank: 125
 season: cz-26-27

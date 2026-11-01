@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Albin Lundell
 Category: players
 Slug: player-e72b4dcaa8ee0081
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 198
+rank: 201
 season: se-26-27

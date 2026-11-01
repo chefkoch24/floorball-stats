@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ralfs Celmiņš
 Category: players
 Slug: player-7eacab906b0ca17c
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 0
 current_points: 1
-current_pim: 4
-regular_games: 7
+current_pim: 6
+regular_games: 8
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
-regular_pim: 4
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 25
 previous_assists: 5
 previous_points: 30
 previous_pim: 12
-career_games: 37
+career_games: 38
 career_goals: 26
 career_assists: 5
 career_points: 31
-career_pim: 16
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|7|1|0|1|4||lv-25-26|playoffs|Latvia|FBK SĀC|4|4|0|4|0||lv-25-26|regular-season|Latvia|FBK SĀC|26|21|5|26|12
+career_pim: 18
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|8|1|0|1|6||lv-25-26|playoffs|Latvia|FBK SĀC|4|4|0|4|0||lv-25-26|regular-season|Latvia|FBK SĀC|26|21|5|26|12
 assists: 0
-games: 7
+games: 8
 goals: 1
-penalties: 2
+penalties: 3
 phase: regular-season
-pim: 4
+pim: 6
 points: 1
-rank: 127
+rank: 129
 season: lv-26-27

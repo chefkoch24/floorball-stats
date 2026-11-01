@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ivan Čekan
 Category: players
 Slug: player-f3f613faf543575a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 214
+rank: 223
 season: sk-26-27

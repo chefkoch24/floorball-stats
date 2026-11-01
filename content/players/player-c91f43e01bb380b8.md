@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Lynn Eggli
 Category: players
 Slug: player-c91f43e01bb380b8
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 196
+rank: 200
 season: chw-26-27

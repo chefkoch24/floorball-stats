@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sebastian Arnlund
 Category: players
 Slug: player-8288531c0ca9b3de
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 290
+rank: 292
 season: se-26-27

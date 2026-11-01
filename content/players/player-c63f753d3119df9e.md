@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marek Matoušek
 Category: players
 Slug: player-c63f753d3119df9e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 66
+rank: 72
 season: cz-26-27

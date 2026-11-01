@@ -311,6 +311,7 @@ home_pregame_points_after_first_period_per_game: 1.5
 home_pregame_points_after_second_period: 4
 home_pregame_points_after_third_period: 6
 home_pregame_points_against_fbc_kalmarsund: 0
+home_pregame_points_against_ibk_lockerud_mariestad: 3
 home_pregame_points_against_kais_mora_if: 3
 home_pregame_points_against_pixbo_ibk: 3
 home_pregame_points_against_storvreta_ibk: 0

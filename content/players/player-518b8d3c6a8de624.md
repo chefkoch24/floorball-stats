@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Adéla Žampachová
 Category: players
 Slug: player-518b8d3c6a8de624
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 36
+rank: 39
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: David Hermle
 Category: players
 Slug: player-455a5ccf38d3505a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 143
+rank: 149
 season: se-26-27

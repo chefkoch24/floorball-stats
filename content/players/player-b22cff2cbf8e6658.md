@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristína Hudáková
 Category: players
 Slug: player-b22cff2cbf8e6658
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 247
+rank: 248
 season: czw-26-27

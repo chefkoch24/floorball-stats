@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Rūdolfs Dāvis Maklers
 Category: players
 Slug: player-22cf14fb366de942
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 4
 current_assists: 1
 current_points: 5
 current_pim: 6
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 1
 regular_points: 5
@@ -31,18 +31,18 @@ previous_goals: 20
 previous_assists: 11
 previous_points: 31
 previous_pim: 10
-career_games: 45
+career_games: 46
 career_goals: 24
 career_assists: 12
 career_points: 36
 career_pim: 16
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|8|4|1|5|6||lv-25-26|playoffs|Latvia|Lekrings|10|2|4|6|2||lv-25-26|regular-season|Latvia|Lekrings|27|18|7|25|8
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|9|4|1|5|6||lv-25-26|playoffs|Latvia|Lekrings|10|2|4|6|2||lv-25-26|regular-season|Latvia|Lekrings|27|18|7|25|8
 assists: 1
-games: 8
+games: 9
 goals: 4
 penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 51
+rank: 55
 season: lv-26-27

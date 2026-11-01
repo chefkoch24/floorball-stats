@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Naomi Keel
 Category: players
 Slug: player-e2c2938d46a9ba32
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 206
+rank: 210
 season: chw-26-27

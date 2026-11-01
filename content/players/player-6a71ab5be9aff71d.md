@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Albert Haasz
 Category: players
 Slug: player-6a71ab5be9aff71d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 210
+rank: 211
 season: cz-26-27

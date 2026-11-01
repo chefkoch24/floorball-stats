@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tilde Sandlund
 Category: players
 Slug: player-9145c5bce3e2e030
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 29
+rank: 30
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marek Korych
 Category: players
 Slug: player-7753fa97e6558edf
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 8
-rank: 65
+rank: 71
 season: cz-26-27

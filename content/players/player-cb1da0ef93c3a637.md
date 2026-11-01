@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Filip Smutný
 Category: players
 Slug: player-cb1da0ef93c3a637
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 20
+rank: 23
 season: cz-26-27

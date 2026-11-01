@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Paul Wurlitzer
 Category: players
 Slug: player-ddec4a3ea229c7da

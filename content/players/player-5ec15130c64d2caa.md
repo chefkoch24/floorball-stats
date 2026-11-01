@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Timon Bührer
 Category: players
 Slug: player-5ec15130c64d2caa
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 132
+rank: 143
 season: ch-26-27

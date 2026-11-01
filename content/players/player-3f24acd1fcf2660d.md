@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Barbora Jašková
 Category: players
 Slug: player-3f24acd1fcf2660d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 14
+rank: 15
 season: czw-26-27

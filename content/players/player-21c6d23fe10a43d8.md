@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jimi Mäntyniemi
 Category: players
 Slug: player-21c6d23fe10a43d8

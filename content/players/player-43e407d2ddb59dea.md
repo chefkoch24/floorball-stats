@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: DP
 Category: players
 Slug: player-43e407d2ddb59dea
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 135
+rank: 136
 season: lv-26-27

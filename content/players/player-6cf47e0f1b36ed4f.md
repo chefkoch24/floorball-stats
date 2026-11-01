@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matkuliak Branislav
 Category: players
 Slug: player-6cf47e0f1b36ed4f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 162
+rank: 170
 season: sk-26-27

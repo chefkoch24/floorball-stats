@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Samuel Jančo
 Category: players
 Slug: player-ddc6d68df803c354
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 34
+rank: 42
 season: sk-26-27

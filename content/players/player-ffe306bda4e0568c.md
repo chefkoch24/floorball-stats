@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Johanna Zoberbier
 Category: players
 Slug: player-ffe306bda4e0568c

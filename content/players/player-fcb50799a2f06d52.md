@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Tim Andersson Carlsson
 Category: players
 Slug: player-fcb50799a2f06d52
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 8
+rank: 11
 season: se-26-27

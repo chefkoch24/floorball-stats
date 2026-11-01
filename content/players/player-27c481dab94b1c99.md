@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daniel Kalentun
 Category: players
 Slug: player-27c481dab94b1c99
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 9
-rank: 26
+rank: 28
 season: se-26-27

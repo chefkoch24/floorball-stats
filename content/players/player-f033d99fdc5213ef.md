@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sheryl Kiener
 Category: players
 Slug: player-f033d99fdc5213ef
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 133
+rank: 138
 season: chw-26-27

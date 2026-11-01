@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Bartoloměj Smolka
 Category: players
 Slug: player-8fd7b3ac629c04d9
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 137
+rank: 140
 season: cz-26-27

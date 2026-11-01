@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Valters Priede
 Category: players
 Slug: player-ef9cf018b2914f3a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 82
+rank: 89
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marta Reke
 Category: players
 Slug: player-fccbe5435fb958a0

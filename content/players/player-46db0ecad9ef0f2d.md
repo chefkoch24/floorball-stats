@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Smutný
 Category: players
 Slug: player-46db0ecad9ef0f2d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 149
+rank: 152
 season: cz-26-27

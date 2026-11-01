@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pārstāvis Klinta Mārtiņjēkaba
 Category: players
 Slug: player-fbaf6e45376fc66f

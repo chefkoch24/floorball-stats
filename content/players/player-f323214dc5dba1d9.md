@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Hejzlar
 Category: players
 Slug: player-f323214dc5dba1d9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 171
+rank: 174
 season: cz-26-27

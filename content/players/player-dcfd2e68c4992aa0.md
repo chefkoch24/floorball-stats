@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Til Robert Franke
 Category: players
 Slug: player-dcfd2e68c4992aa0

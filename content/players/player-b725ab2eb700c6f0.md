@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Andreas Egegård
 Category: players
 Slug: player-b725ab2eb700c6f0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 223
+rank: 225
 season: se-26-27

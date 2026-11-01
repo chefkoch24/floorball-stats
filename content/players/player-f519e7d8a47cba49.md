@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Bajtošová Anna
 Category: players
 Slug: player-f519e7d8a47cba49

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sakari Kataja-Rahko
 Category: players
 Slug: player-d9acaa7a53369e75
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 81
+rank: 82
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Evelina Petersson
 Category: players
 Slug: player-78d7a8f58529f1ed
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 164
+rank: 170
 season: sew-26-27

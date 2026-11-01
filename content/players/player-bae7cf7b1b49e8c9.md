@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Noel Nils Haldemann
 Category: players
 Slug: player-bae7cf7b1b49e8c9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 176
+rank: 186
 season: ch-26-27

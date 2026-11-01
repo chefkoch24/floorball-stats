@@ -315,6 +315,7 @@ home_pregame_points_after_third_period: 1
 home_pregame_points_against_amix_florbal_mb: 0
 home_pregame_points_against_ba_sokoli_pardubice: 0
 home_pregame_points_against_bulldogs_brno: 1
+home_pregame_points_against_fbc_clt_ceska_lipa: 0
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 0
 home_pregame_points_against_fbc_liberec: 0
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3

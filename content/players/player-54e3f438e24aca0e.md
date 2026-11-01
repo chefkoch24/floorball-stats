@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristýna Bartošová
 Category: players
 Slug: player-54e3f438e24aca0e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 248
+rank: 249
 season: czw-26-27

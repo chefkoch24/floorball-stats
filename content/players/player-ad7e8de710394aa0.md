@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Zuzana Štípková
 Category: players
 Slug: player-ad7e8de710394aa0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 69
+rank: 71
 season: czw-26-27

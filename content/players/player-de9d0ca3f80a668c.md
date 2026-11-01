@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Noel Hug
 Category: players
 Slug: player-de9d0ca3f80a668c
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 271
+rank: 282
 season: ch-26-27

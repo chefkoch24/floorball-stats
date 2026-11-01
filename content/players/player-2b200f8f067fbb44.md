@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Vanessa Keprtová
 Category: players
 Slug: player-2b200f8f067fbb44
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 16
+rank: 18
 season: sew-26-27

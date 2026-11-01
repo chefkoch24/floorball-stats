@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Juuli Aspbäck
 Category: players
 Slug: player-60c6eea4356d3a35
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 93
+rank: 95
 season: fiw-26-27

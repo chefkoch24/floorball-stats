@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Isa Böcker
 Category: players
 Slug: player-b58eaeb093611f95
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 227
+rank: 229
 season: sew-26-27

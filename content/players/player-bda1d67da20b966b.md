@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Petr Majer
 Category: players
 Slug: player-bda1d67da20b966b
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 13
-rank: 18
+rank: 21
 season: cz-26-27

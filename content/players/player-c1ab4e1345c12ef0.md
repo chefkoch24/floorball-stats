@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alice Åberg
 Category: players
 Slug: player-c1ab4e1345c12ef0
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 155
+rank: 161
 season: sew-26-27

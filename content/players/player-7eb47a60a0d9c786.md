@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marek Hozman
 Category: players
 Slug: player-7eb47a60a0d9c786
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 200
+rank: 201
 season: cz-26-27

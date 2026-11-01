@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Krupica
 Category: players
 Slug: player-1199d0ee6a1e858e

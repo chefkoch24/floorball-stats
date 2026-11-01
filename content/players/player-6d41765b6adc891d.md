@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Veronika Bezoušková
 Category: players
 Slug: player-6d41765b6adc891d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 290
 season: czw-26-27

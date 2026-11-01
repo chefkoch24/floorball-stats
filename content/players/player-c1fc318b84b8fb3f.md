@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Rudolfs Vilmanis C
 Category: players
 Slug: player-c1fc318b84b8fb3f

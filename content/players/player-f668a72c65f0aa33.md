@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jere Mattila
 Category: players
 Slug: player-f668a72c65f0aa33
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 4
 current_points: 4
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 4
 regular_points: 4
@@ -31,18 +31,18 @@ previous_goals: 6
 previous_assists: 4
 previous_points: 10
 previous_pim: 0
-career_games: 14
+career_games: 15
 career_goals: 6
 career_assists: 8
 career_points: 14
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|0|4|4|2||fi-25-26|regular-season|Finland|Nokian KrP|8|6|4|10|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|7|0|4|4|2||fi-25-26|regular-season|Finland|Nokian KrP|8|6|4|10|0
 assists: 4
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 79
+rank: 88
 season: ch-26-27

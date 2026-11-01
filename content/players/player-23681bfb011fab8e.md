@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Kolstrunk C
 Category: players
 Slug: player-23681bfb011fab8e

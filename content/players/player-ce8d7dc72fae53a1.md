@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Mārtiņš Urtāns
 Category: players
 Slug: player-ce8d7dc72fae53a1
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 101
+rank: 107
 season: lv-26-27

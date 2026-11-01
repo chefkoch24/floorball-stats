@@ -314,6 +314,7 @@ home_pregame_points_against_aik_ibf: 0
 home_pregame_points_against_ibk_dalen: 2
 home_pregame_points_against_ibk_lund_elit: 2
 home_pregame_points_against_jonkopings_ik: 0
+home_pregame_points_against_nykvarns_ibf: 3
 home_pregame_points_against_storvreta_ibk: 0
 home_pregame_points_against_vaxjo_ibk: 0
 home_pregame_points_max_difference_2: 0
@@ -418,6 +419,7 @@ away_pregame_points_against_jonkopings_ik: 3
 away_pregame_points_against_linkoping_ibk: 0
 away_pregame_points_against_mullsjo_ais: 3
 away_pregame_points_against_nykvarns_ibf: 2
+away_pregame_points_against_storvreta_ibk: 1
 away_pregame_points_against_warberg_ic: 1
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 3

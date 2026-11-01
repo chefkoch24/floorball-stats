@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Meja Bergerfalk
 Category: players
 Slug: player-d5b983e7c9e9fc14
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 171
+rank: 176
 season: sew-26-27

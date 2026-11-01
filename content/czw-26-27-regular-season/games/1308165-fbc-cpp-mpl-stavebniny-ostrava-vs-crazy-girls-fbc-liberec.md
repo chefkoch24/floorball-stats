@@ -312,6 +312,7 @@ home_pregame_points_after_first_period: 4
 home_pregame_points_after_first_period_per_game: 1.0
 home_pregame_points_after_second_period: 4
 home_pregame_points_after_third_period: 5
+home_pregame_points_against_1_sc_tempish_vitkovice: 2
 home_pregame_points_against_crazy_girls_fbc_liberec: 0
 home_pregame_points_against_fbc_intevo_trinec: 3
 home_pregame_points_against_fbs_bohemians: 1

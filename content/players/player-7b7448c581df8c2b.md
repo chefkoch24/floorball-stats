@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kateřina Seemannová
 Category: players
 Slug: player-7b7448c581df8c2b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 73
+rank: 75
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Gabriela Vaculová
 Category: players
 Slug: player-8567dcac7ff93273
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 5
+regular_games: 6
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|5|2|2|4|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|6|2|2|4|0
 assists: 2
-games: 5
+games: 6
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 71
+rank: 73
 season: czw-26-27

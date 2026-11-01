@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Mike Zahner
 Category: players
 Slug: player-cfcff351abf46c32
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 92
+rank: 104
 season: ch-26-27

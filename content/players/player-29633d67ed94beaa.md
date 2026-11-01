@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: David Slončík
 Category: players
 Slug: player-29633d67ed94beaa
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 22
+rank: 25
 season: cz-26-27

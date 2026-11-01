@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jasmin Bieri
 Category: players
 Slug: player-5aa3fac69146cd41
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 122
+rank: 127
 season: chw-26-27

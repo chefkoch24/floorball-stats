@@ -319,6 +319,7 @@ home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 0
 home_pregame_points_against_fbs_bohemians: 0
 home_pregame_points_against_fbs_olomouc: 3
 home_pregame_points_against_gc_system_bulldogs_brno: 0
+home_pregame_points_against_gms_florbal_chomutov: 3
 home_pregame_points_against_prague_tigers_nehvizdy: 2
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 0
@@ -418,6 +419,7 @@ away_pregame_points_after_first_period_per_game: 2.4
 away_pregame_points_after_second_period: 12
 away_pregame_points_after_third_period: 15
 away_pregame_points_against_crazy_girls_fbc_liberec: 3
+away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 1
 away_pregame_points_against_fbc_intevo_trinec: 3
 away_pregame_points_against_fbs_bohemians: 3
 away_pregame_points_against_fbs_olomouc: 3

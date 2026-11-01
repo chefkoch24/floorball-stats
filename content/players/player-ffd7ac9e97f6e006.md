@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Joona Larte
 Category: players
 Slug: player-ffd7ac9e97f6e006
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 49
+rank: 59
 season: ch-26-27

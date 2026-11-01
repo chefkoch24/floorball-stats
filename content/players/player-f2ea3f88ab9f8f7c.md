@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jānis Jāzeps Grizāns
 Category: players
 Slug: player-f2ea3f88ab9f8f7c
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 15
+career_games: 16
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|8|3|0|3|0||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|3|0|0|0|2||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|4|0|0|0|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|9|3|0|3|0||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|3|0|0|0|2||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|4|0|0|0|0
 assists: 0
-games: 8
+games: 9
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 74
+rank: 78
 season: lv-26-27

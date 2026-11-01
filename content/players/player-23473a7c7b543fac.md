@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Čekan Jakub
 Category: players
 Slug: player-23473a7c7b543fac
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 4
+current_games: 5
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 6
 previous_assists: 0
 previous_points: 6
 previous_pim: 6
-career_games: 19
+career_games: 20
 career_goals: 7
 career_assists: 1
 career_points: 8
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|4|1|1|2|0||sk-25-26|playoffs|Slovakia|FK Florko Košice|4|1|0|1|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|11|5|0|5|4
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|5|1|1|2|0||sk-25-26|playoffs|Slovakia|FK Florko Košice|4|1|0|1|2||sk-25-26|regular-season|Slovakia|FK Florko Košice|11|5|0|5|4
 assists: 1
-games: 4
+games: 5
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 133
+rank: 142
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Eddie Nissen-Sandberg
 Category: players
 Slug: player-f7a5cf9bbc4e48e6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 201
+rank: 204
 season: se-26-27

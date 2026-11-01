@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Michal Valachovič
 Category: players
 Slug: player-74d37c3d3cc54fba
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 94
+rank: 96
 season: cz-26-27

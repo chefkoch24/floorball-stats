@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ahmad Aldeeb
 Category: players
 Slug: player-90772a6e6bca0a7d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 28
+rank: 30
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristýna Milfaitová
 Category: players
 Slug: player-d0f6bcf0b24fa4ce
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 252
+rank: 253
 season: czw-26-27

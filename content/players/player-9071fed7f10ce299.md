@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Meliš Marek
 Category: players
 Slug: player-9071fed7f10ce299
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 143
+rank: 155
 season: sk-26-27

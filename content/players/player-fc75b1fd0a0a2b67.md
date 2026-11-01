@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pavlína Bačová
 Category: players
 Slug: player-fc75b1fd0a0a2b67
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 28
+rank: 31
 season: czw-26-27

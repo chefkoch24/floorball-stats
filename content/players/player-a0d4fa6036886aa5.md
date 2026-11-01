@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hugo Bertilsson
 Category: players
 Slug: player-a0d4fa6036886aa5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 44
+rank: 55
 season: se-26-27

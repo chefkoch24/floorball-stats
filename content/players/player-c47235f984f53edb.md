@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emil Nyh
 Category: players
 Slug: player-c47235f984f53edb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 114
+rank: 123
 season: se-26-27

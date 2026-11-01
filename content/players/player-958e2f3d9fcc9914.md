@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ralfs Orste
 Category: players
 Slug: player-958e2f3d9fcc9914
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 147
+rank: 149
 season: lv-26-27

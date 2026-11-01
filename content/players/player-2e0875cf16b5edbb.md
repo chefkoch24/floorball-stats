@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Filip Lingmerth
 Category: players
 Slug: player-2e0875cf16b5edbb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 185
+rank: 190
 season: se-26-27

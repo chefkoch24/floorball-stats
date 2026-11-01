@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Liam Åström
 Category: players
 Slug: player-ab19e2870bd5119e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 20
+rank: 23
 season: se-26-27

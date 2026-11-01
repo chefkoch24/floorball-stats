@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Eemil Laube
 Category: players
 Slug: player-f9f32ab65d4a38c3

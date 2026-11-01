@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jana Spiess
 Category: players
 Slug: player-5905c64fdc87cc4d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 62
+rank: 68
 season: chw-26-27

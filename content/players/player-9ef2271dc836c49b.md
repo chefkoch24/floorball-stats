@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pápay Alex
 Category: players
 Slug: player-9ef2271dc836c49b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 4
 current_points: 4
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 4
 regular_points: 4
@@ -31,18 +31,18 @@ previous_goals: 15
 previous_assists: 13
 previous_points: 28
 previous_pim: 8
-career_games: 32
+career_games: 33
 career_goals: 15
 career_assists: 17
 career_points: 32
 career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|7|0|4|4|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|3|0|3|4||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|15|12|13|25|4
+history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|8|0|4|4|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|3|0|3|4||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|15|12|13|25|4
 assists: 4
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 91
+rank: 106
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Moa Gustafsson
 Category: players
 Slug: player-354eafc8e733cabd
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 7
+rank: 11
 season: sew-26-27

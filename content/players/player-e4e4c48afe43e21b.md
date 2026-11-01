@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Vít Pavelka
 Category: players
 Slug: player-e4e4c48afe43e21b

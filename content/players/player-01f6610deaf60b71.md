@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Elisa Vilhunen
 Category: players
 Slug: player-01f6610deaf60b71
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 156
+rank: 159
 season: fiw-26-27

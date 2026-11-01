@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ralfs Fricsons
 Category: players
 Slug: player-08aed170b8a74ab5
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 6
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 5
 previous_assists: 6
 previous_points: 11
 previous_pim: 28
-career_games: 38
+career_games: 39
 career_goals: 5
 career_assists: 8
 career_points: 13
 career_pim: 34
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|7|0|2|2|6||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|0|1|4||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|4|6|10|24
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|8|0|2|2|6||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|0|1|4||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|4|6|10|24
 assists: 2
-games: 7
+games: 8
 goals: 0
 penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 110
+rank: 116
 season: lv-26-27

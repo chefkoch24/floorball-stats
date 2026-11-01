@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Bára Matějková
 Category: players
 Slug: player-cb309ad2fe087523
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 125
+rank: 127
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Stanislav Belko
 Category: players
 Slug: player-812bc6cc2cd15b74
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 289
+rank: 295
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: John Pettersson
 Category: players
 Slug: player-1422b13f1df6accb
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 72
+rank: 81
 season: se-26-27

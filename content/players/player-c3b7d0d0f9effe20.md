@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Marylin Thomi
 Category: players
 Slug: player-c3b7d0d0f9effe20
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 42
+rank: 50
 season: chw-26-27

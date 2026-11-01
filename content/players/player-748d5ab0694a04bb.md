@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Monika Krmelová
 Category: players
 Slug: player-748d5ab0694a04bb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 273
+rank: 274
 season: czw-26-27

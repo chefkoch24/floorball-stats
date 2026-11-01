@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Måns Höglin
 Category: players
 Slug: player-446ec8b08bea71ab
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 11
-rank: 21
+rank: 24
 season: se-26-27

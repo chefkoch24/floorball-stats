@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Elin Lindberg
 Category: players
 Slug: player-caf9a47155703cde
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 78
+rank: 84
 season: sew-26-27

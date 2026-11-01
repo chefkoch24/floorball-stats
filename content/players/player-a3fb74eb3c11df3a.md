@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jonna Stenvall
 Category: players
 Slug: player-a3fb74eb3c11df3a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 142
+rank: 148
 season: sew-26-27

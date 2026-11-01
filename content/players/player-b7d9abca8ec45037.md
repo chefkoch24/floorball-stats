@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matěj Šmétka
 Category: players
 Slug: player-b7d9abca8ec45037
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 16
+rank: 19
 season: cz-26-27

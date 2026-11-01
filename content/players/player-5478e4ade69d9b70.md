@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jessica Kenber
 Category: players
 Slug: player-5478e4ade69d9b70
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 102
+rank: 105
 season: chw-26-27

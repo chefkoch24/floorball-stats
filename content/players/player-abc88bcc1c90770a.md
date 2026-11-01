@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Dominic Rak
 Category: players
 Slug: player-abc88bcc1c90770a

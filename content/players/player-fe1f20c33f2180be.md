@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ferdinand Reichenberger
 Category: players
 Slug: player-fe1f20c33f2180be

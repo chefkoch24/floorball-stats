@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Linnea Hammar
 Category: players
 Slug: player-fb2af2908a01a9f4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 54
+rank: 61
 season: sew-26-27

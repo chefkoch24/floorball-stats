@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Treneris Mārtiņš Neilands
 Category: players
 Slug: player-1dc9cf1e19197a2b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 244
+rank: 245
 season: lv-26-27

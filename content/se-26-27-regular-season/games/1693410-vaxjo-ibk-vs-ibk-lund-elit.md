@@ -414,6 +414,7 @@ away_pregame_points_after_first_period: 0
 away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 0
 away_pregame_points_after_third_period: 0
+away_pregame_points_against_aik_ibf: 3
 away_pregame_points_against_linkoping_ibk: 0
 away_pregame_points_against_nykvarns_ibf: 2
 away_pregame_points_against_pixbo_ibk: 0

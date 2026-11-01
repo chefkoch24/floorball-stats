@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jana Reusser
 Category: players
 Slug: player-a85d17ca04a13d43
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 164
+rank: 170
 season: chw-26-27

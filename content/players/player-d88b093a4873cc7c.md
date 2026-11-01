@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Simon Karlsson
 Category: players
 Slug: player-d88b093a4873cc7c
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 291
+rank: 293
 season: se-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Simona Pilíková
 Category: players
 Slug: player-ec8422bb2a27adca
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 3
 current_points: 3
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 3
 regular_points: 3
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 3
 career_points: 3
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|8|0|3|3|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|9|0|3|3|2
 assists: 3
-games: 8
+games: 9
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 109
+rank: 111
 season: czw-26-27

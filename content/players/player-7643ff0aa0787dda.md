@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Luca Kneubühler
 Category: players
 Slug: player-7643ff0aa0787dda
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 150
+rank: 161
 season: ch-26-27

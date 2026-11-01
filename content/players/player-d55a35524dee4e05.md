@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daria Horošina
 Category: players
 Slug: player-d55a35524dee4e05

@@ -424,6 +424,7 @@ away_pregame_points_against_ba_sokoli_pardubice: 2
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_liberec: 0
 away_pregame_points_against_fbs_hummel_hattrick_brno: 3
+away_pregame_points_against_florbal_usti: 3
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_max_difference_2: 3

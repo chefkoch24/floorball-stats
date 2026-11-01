@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Julia Diesener
 Category: players
 Slug: player-10df3aed4790b505

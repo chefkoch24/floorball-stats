@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Severin Moser
 Category: players
 Slug: player-b15d359fb0cd221f

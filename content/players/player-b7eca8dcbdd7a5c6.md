@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Joel Lindberg
 Category: players
 Slug: player-b7eca8dcbdd7a5c6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 253
+rank: 254
 season: se-26-27

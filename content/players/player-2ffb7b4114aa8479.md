@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Samuel Belovič
 Category: players
 Slug: player-2ffb7b4114aa8479
@@ -11,12 +11,12 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 7
 current_points: 8
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 1
 regular_assists: 7
 regular_points: 8
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 1
 career_assists: 7
 career_points: 8
 career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|7|1|7|8|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|8|1|7|8|2
 assists: 7
-games: 7
+games: 8
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 40
+rank: 55
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Luca Steiner
 Category: players
 Slug: player-e4f8db25bc0c3d37
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 151
+rank: 162
 season: ch-26-27

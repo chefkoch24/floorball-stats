@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ebba Törngren
 Category: players
 Slug: player-25a17aba2391e1e6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 101
+rank: 108
 season: sew-26-27

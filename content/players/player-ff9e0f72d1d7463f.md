@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ondřej Němeček
 Category: players
 Slug: player-ff9e0f72d1d7463f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 15
-rank: 14
+rank: 15
 season: cz-26-27

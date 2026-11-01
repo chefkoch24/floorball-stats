@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sofie Gocova
 Category: players
 Slug: player-9c89ea542ec2d158
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 76
+rank: 82
 season: sew-26-27

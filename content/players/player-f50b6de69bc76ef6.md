@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sabrina Rüttimann-Bösch
 Category: players
 Slug: player-f50b6de69bc76ef6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 57
+rank: 61
 season: chw-26-27

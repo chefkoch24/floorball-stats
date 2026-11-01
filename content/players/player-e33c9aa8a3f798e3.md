@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Denisa Kotzurová
 Category: players
 Slug: player-e33c9aa8a3f798e3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 29
+rank: 32
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ida Åkesson
 Category: players
 Slug: player-c6c68f39ab12d1ea
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 225
+rank: 227
 season: sew-26-27

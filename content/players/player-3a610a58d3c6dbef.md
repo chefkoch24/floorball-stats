@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Joline Briston
 Category: players
 Slug: player-3a610a58d3c6dbef
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 234
+rank: 236
 season: sew-26-27

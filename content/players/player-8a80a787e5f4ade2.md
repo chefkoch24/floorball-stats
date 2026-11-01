@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emīls Kašs
 Category: players
 Slug: player-8a80a787e5f4ade2
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 136
+rank: 137
 season: lv-26-27

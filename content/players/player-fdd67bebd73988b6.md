@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Karolína Nováková
 Category: players
 Slug: player-fdd67bebd73988b6

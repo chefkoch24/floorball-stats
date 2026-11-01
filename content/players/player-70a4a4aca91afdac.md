@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Oliver Järvinen
 Category: players
 Slug: player-70a4a4aca91afdac
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 66
+rank: 71
 season: fi-26-27

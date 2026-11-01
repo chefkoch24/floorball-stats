@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Daniel Grézl
 Category: players
 Slug: player-67b10cef5797b3aa
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 110
+rank: 111
 season: cz-26-27

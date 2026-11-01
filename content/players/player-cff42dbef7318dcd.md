@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Juni Söderqvist
 Category: players
 Slug: player-cff42dbef7318dcd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 240
+rank: 242
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matěj Klímek
 Category: players
 Slug: player-bad87a0446745cbf
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 307
+rank: 308
 season: cz-26-27

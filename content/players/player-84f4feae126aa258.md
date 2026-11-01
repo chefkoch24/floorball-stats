@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nils Bohlin
 Category: players
 Slug: player-84f4feae126aa258
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 279
+rank: 280
 season: se-26-27

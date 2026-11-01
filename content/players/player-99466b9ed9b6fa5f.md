@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jakub Bohuslávek
 Category: players
 Slug: player-99466b9ed9b6fa5f
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 8
+current_games: 9
 current_goals: 4
-current_assists: 0
-current_points: 4
+current_assists: 1
+current_points: 5
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 4
-regular_assists: 0
-regular_points: 4
+regular_assists: 1
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 7
 previous_assists: 1
 previous_points: 8
 previous_pim: 4
-career_games: 22
+career_games: 23
 career_goals: 11
-career_assists: 1
-career_points: 12
+career_assists: 2
+career_points: 13
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|8|4|0|4|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|6|3|1|4|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|8|4|0|4|4
-assists: 0
-games: 8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|4|1|5|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|6|3|1|4|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|8|4|0|4|4
+assists: 1
+games: 9
 goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
-points: 4
-rank: 108
+points: 5
+rank: 98
 season: cz-26-27

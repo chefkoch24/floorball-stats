@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emil Thorberg
 Category: players
 Slug: player-7e24265aeec6a567
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 155
+rank: 160
 season: se-26-27

@@ -310,6 +310,7 @@ home_pregame_points_after_first_period: 10
 home_pregame_points_after_first_period_per_game: 2.5
 home_pregame_points_after_second_period: 8
 home_pregame_points_after_third_period: 10
+home_pregame_points_against_fbc_kalmarsund: 2
 home_pregame_points_against_linkoping_ibk: 1
 home_pregame_points_against_mullsjo_ais: 2
 home_pregame_points_against_pixbo_ibk: 3
@@ -415,6 +416,7 @@ away_pregame_points_after_second_period: 8
 away_pregame_points_after_third_period: 10
 away_pregame_points_against_fbc_kalmarsund: 3
 away_pregame_points_against_ibf_falun: 2
+away_pregame_points_against_ibk_dalen: 2
 away_pregame_points_against_ibk_lund_elit: 3
 away_pregame_points_against_linkoping_ibk: 3
 away_pregame_points_against_pixbo_ibk: 2

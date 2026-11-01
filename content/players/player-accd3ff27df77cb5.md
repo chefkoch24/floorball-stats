@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nikola Hermannová
 Category: players
 Slug: player-accd3ff27df77cb5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 98
+rank: 100
 season: czw-26-27

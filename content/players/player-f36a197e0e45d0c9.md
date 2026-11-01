@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Linnea Hedman
 Category: players
 Slug: player-f36a197e0e45d0c9
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 117
+rank: 122
 season: sew-26-27

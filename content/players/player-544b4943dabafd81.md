@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alex Indriana Kjellbris
 Category: players
 Slug: player-544b4943dabafd81
@@ -11,12 +11,12 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 7
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 4
-regular_games: 6
+regular_games: 7
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -31,18 +31,18 @@ previous_goals: 4
 previous_assists: 20
 previous_points: 24
 previous_pim: 8
-career_games: 31
+career_games: 32
 career_goals: 6
 career_assists: 21
 career_points: 27
 career_pim: 12
-history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|6|2|1|3|4||se-25-26|regular-season|Sweden|AIK IBF|25|4|20|24|8
+history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|7|2|1|3|4||se-25-26|regular-season|Sweden|AIK IBF|25|4|20|24|8
 assists: 1
-games: 6
+games: 7
 goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 118
+rank: 125
 season: se-26-27

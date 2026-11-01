@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Alex Kubala
 Category: players
 Slug: player-33ac3a6342f8dc8b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 154
+rank: 157
 season: cz-26-27

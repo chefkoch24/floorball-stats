@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Noel Johansson
 Category: players
 Slug: player-9a0ba56eee48fcef
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 280
+rank: 281
 season: se-26-27

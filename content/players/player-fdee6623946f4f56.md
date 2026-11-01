@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Ingars Matisons
 Category: players
 Slug: player-fdee6623946f4f56
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 173
+rank: 176
 season: lv-26-27

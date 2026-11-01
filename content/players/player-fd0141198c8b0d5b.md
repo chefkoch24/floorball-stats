@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Melisa Aydemir
 Category: players
 Slug: player-fd0141198c8b0d5b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 58
+rank: 63
 season: fiw-26-27

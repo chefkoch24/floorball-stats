@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Emmi Palonen
 Category: players
 Slug: player-9da7968ca8c3bba6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 182
+rank: 186
 season: fiw-26-27

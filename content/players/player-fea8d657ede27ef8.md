@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Sandra Stark Jönsson
 Category: players
 Slug: player-fea8d657ede27ef8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 272
+rank: 273
 season: sew-26-27

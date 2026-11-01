@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Jesper Sankell
 Category: players
 Slug: player-1ce666b611ebb97a
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 10
-rank: 23
+rank: 25
 season: se-26-27

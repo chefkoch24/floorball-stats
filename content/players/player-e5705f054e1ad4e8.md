@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Thomas Meyer
 Category: players
 Slug: player-e5705f054e1ad4e8

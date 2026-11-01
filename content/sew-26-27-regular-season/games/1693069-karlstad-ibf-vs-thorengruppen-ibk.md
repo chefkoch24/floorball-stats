@@ -313,6 +313,7 @@ home_pregame_points_after_third_period: 6
 home_pregame_points_against_fbc_kalmarsund: 0
 home_pregame_points_against_ibk_lockerud_mariestad: 3
 home_pregame_points_against_ibk_lund_elit: 0
+home_pregame_points_against_malmo_fbc: 3
 home_pregame_points_against_pixbo_ibk: 0
 home_pregame_points_against_thorengruppen_ibk: 0
 home_pregame_points_against_vaxjo_ibk: 3

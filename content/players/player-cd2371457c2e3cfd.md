@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Nino Bühler
 Category: players
 Slug: player-cd2371457c2e3cfd
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
+current_games: 7
 current_goals: 0
-current_assists: 9
-current_points: 9
+current_assists: 11
+current_points: 11
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 0
-regular_assists: 9
-regular_points: 9
+regular_assists: 11
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 8
 previous_assists: 6
 previous_points: 14
 previous_pim: 8
-career_games: 34
+career_games: 35
 career_goals: 8
-career_assists: 15
-career_points: 23
+career_assists: 17
+career_points: 25
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|6|0|9|9|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|1|3|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|6|5|11|4
-assists: 9
-games: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|0|11|11|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|1|3|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|6|5|11|4
+assists: 11
+games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
-points: 9
-rank: 20
+points: 11
+rank: 16
 season: ch-26-27

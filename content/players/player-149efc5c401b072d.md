@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Valeria Jenny
 Category: players
 Slug: player-149efc5c401b072d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 236
+rank: 240
 season: chw-26-27

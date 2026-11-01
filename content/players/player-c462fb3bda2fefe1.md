@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Thomas Gfeller
 Category: players
 Slug: player-c462fb3bda2fefe1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 33
+rank: 42
 season: ch-26-27

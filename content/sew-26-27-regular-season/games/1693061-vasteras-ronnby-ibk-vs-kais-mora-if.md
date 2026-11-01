@@ -414,6 +414,7 @@ away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 1
 away_pregame_points_after_third_period: 0
 away_pregame_points_against_endre_if: 0
+away_pregame_points_against_storvreta_ibk: 0
 away_pregame_points_against_taby_fc_ibk: 0
 away_pregame_points_against_thorengruppen_ibk: 0
 away_pregame_points_against_vasteras_ronnby_ibk: 0

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matěj Pěnička
 Category: players
 Slug: player-530cfcebd3542ba0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 42
+rank: 46
 season: cz-26-27

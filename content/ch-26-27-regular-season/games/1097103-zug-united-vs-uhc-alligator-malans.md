@@ -313,6 +313,7 @@ home_pregame_points_after_second_period: 9
 home_pregame_points_after_third_period: 10
 home_pregame_points_against_floorball_chur_united: 3
 home_pregame_points_against_floorball_thurgau: 3
+home_pregame_points_against_grasshopper_club_zurich: 0
 home_pregame_points_against_sv_wiler_ersigen: 0
 home_pregame_points_against_tigers_langnau: 1
 home_pregame_points_against_uhc_alligator_malans: 3

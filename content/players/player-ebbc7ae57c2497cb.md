@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Adam Pettersson
 Category: players
 Slug: player-ebbc7ae57c2497cb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 178
+rank: 183
 season: se-26-27

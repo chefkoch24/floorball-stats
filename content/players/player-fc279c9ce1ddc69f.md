@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Venla Kumpumäki
 Category: players
 Slug: player-fc279c9ce1ddc69f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 177
+rank: 180
 season: fiw-26-27

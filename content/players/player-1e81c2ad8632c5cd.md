@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Filippa Öberg
 Category: players
 Slug: player-1e81c2ad8632c5cd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 219
+rank: 221
 season: sew-26-27

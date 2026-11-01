@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Saša Lindušková
 Category: players
 Slug: player-c4358bcb41d5c27e

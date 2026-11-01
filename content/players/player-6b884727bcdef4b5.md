@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Linda Pudisova
 Category: players
 Slug: player-6b884727bcdef4b5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 42
+rank: 46
 season: sew-26-27

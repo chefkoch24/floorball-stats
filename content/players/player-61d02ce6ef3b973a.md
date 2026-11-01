@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Juraj Matejka
 Category: players
 Slug: player-61d02ce6ef3b973a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 228
+rank: 237
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Zuzana Mrázová
 Category: players
 Slug: player-f5192162aeb297ca

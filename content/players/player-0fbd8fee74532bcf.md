@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Vendula Řeřichová
 Category: players
 Slug: player-0fbd8fee74532bcf
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 10
+rank: 11
 season: czw-26-27

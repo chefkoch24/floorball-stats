@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: My Kippilä
 Category: players
 Slug: player-75b227f2a1ce3f86
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 28
+rank: 29
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Isabel Balzano
 Category: players
 Slug: player-330c7dbad3d7c952
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 26
+rank: 27
 season: sew-26-27

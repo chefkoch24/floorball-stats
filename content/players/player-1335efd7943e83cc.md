@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Karolína Janatková
 Category: players
 Slug: player-1335efd7943e83cc
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 54
+rank: 55
 season: czw-26-27

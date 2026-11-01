@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Vilja Kuutniemi
 Category: players
 Slug: player-ceb599037ffaf00c
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
-current_goals: 6
-current_assists: 1
-current_points: 7
+current_games: 5
+current_goals: 8
+current_assists: 3
+current_points: 11
 current_pim: 0
-regular_games: 4
-regular_goals: 6
-regular_assists: 1
-regular_points: 7
+regular_games: 5
+regular_goals: 8
+regular_assists: 3
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 6
-career_assists: 1
-career_points: 7
+career_games: 5
+career_goals: 8
+career_assists: 3
+career_points: 11
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|4|6|1|7|0
-assists: 1
-games: 4
-goals: 6
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|5|8|3|11|0
+assists: 3
+games: 5
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 7
-rank: 33
+points: 11
+rank: 17
 season: fiw-26-27

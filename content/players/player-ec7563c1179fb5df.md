@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hayley-Jane Tropschug
 Category: players
 Slug: player-ec7563c1179fb5df

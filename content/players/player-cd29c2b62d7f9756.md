@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Veronika Rybičková C
 Category: players
 Slug: player-cd29c2b62d7f9756
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 291
+rank: 292
 season: czw-26-27

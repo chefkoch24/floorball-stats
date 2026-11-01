@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Renārs Rēders
 Category: players
 Slug: player-de7826feba4ac562

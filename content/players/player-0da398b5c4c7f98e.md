@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Martin Bujaki
 Category: players
 Slug: player-0da398b5c4c7f98e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
+current_games: 8
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 14
 previous_assists: 10
 previous_points: 24
 previous_pim: 24
-career_games: 31
+career_games: 32
 career_goals: 16
 career_assists: 10
 career_points: 26
 career_pim: 28
-history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|7|2|0|2|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|24|14|10|24|24
+history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|8|2|0|2|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|24|14|10|24|24
 assists: 0
-games: 7
+games: 8
 goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 117
+rank: 124
 season: sk-26-27

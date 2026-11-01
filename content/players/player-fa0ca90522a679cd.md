@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Krišs Treimanis
 Category: players
 Slug: player-fa0ca90522a679cd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 142
+rank: 143
 season: lv-26-27

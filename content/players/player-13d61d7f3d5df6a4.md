@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Dominik Hrabě
 Category: players
 Slug: player-13d61d7f3d5df6a4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 251
+rank: 253
 season: cz-26-27

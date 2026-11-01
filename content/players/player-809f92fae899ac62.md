@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Pavel Zbořil
 Category: players
 Slug: player-809f92fae899ac62
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 134
+rank: 138
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Kristiāns Kociņš
 Category: players
 Slug: player-bba747b54b1456e7
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 178
+rank: 181
 season: lv-26-27

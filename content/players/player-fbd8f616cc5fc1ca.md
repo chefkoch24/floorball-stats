@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Gustav Svensson
 Category: players
 Slug: player-fbd8f616cc5fc1ca
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 85
+rank: 97
 season: ch-26-27

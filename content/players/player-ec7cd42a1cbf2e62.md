@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Isa Mattsson
 Category: players
 Slug: player-ec7cd42a1cbf2e62
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 68
+rank: 74
 season: sew-26-27

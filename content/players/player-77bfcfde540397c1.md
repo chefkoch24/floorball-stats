@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Malte Wåhlin
 Category: players
 Slug: player-77bfcfde540397c1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 269
 season: se-26-27

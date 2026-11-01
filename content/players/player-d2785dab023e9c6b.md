@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Anton Lundquist
 Category: players
 Slug: player-d2785dab023e9c6b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 227
+rank: 229
 season: se-26-27

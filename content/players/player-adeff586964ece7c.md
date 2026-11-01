@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Matyáš Bláha
 Category: players
 Slug: player-adeff586964ece7c
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 101
+rank: 102
 season: cz-26-27

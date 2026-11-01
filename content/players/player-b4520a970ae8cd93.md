@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Hanna Nordstrand
 Category: players
 Slug: player-b4520a970ae8cd93
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 10
-rank: 12
+rank: 14
 season: sew-26-27

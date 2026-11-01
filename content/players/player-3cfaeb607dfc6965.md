@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Milan Tomašík
 Category: players
 Slug: player-3cfaeb607dfc6965
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 40
+rank: 44
 season: cz-26-27

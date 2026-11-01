@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-01
 Title: Leo Saarinen
 Category: players
 Slug: player-f453321ff04abfcb

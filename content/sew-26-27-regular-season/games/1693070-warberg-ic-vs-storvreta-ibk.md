@@ -416,6 +416,7 @@ away_pregame_points_after_third_period: 6
 away_pregame_points_against_endre_if: 3
 away_pregame_points_against_fbc_kalmarsund: 0
 away_pregame_points_against_ibk_lund_elit: 0
+away_pregame_points_against_kais_mora_if: 3
 away_pregame_points_against_taby_fc_ibk: 0
 away_pregame_points_against_vasteras_ronnby_ibk: 3
 away_pregame_points_against_warberg_ic: 1
