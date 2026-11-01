@@ -224,7 +224,7 @@
 {% macro player_clutch(clutch, partners, trends=none) %}
 {% if clutch %}
 {% set line = clutch.season_line or clutch.all %}
-<section class="mt-8 grid gap-4" aria-labelledby="player-clutch-title">
+<section class="mt-10 mb-10 grid gap-6" aria-labelledby="player-clutch-title">
     <div class="grid gap-1">
         <h2 id="player-clutch-title" class="fs-section-title">Clutch and partners</h2>
         <p class="m-0 text-sm text-ink-muted">{% if clutch.season_line %}This season{% else %}All tracked games{% endif %}. Game-changing goals tied the game or gave the lead; clutch means they came in the last ten minutes or in overtime. {{ explain('clutch', "How it's counted") }}</p>

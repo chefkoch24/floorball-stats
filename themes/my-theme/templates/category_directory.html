@@ -1,0 +1,107 @@
+{# Directory pages for the "players" and "teams" categories: every player page / every team page, searchable. #}
+{% from 'team_crest.html' import crest %}
+{% set directory = namespace(rows=[]) %}
+{% if category.slug == 'players' %}
+    {# Latvian own goals are scraped as "(Team) bumbiņa savos vārtos" pseudo-players; they are not people. #}
+    {% for candidate in articles_page.object_list if candidate.type == 'player' and not (candidate.title|string).startswith('(') %}
+        {% set season_slug = (candidate.current_season|default('')|string) ~ '-regular-season' %}
+        {% set context = season_slug|league_context %}
+        {% set _ = directory.rows.append({
+            'name': candidate.player|default(candidate.title),
+            'url': candidate.url,
+            'team': candidate.team|default(''),
+            'league': candidate.league|default(''),
+            'season': context.season_label if context else '',
+            'key': (candidate.player|default(candidate.title))|lower,
+        }) %}
+    {% endfor %}
+{% else %}
+    {% for candidate in articles_page.object_list if candidate.type == 'team' %}
+        {% set season_category = candidate.categories|rejectattr('shortname', 'equalto', 'teams')|list|first %}
+        {% set context = season_category.shortname|league_context if season_category else none %}
+        {% set _ = directory.rows.append({
+            'name': candidate.team|default(candidate.title),
+            'url': candidate.url,
+            'category': season_category.shortname if season_category else '',
+            'league': context.title.split(' · ')[-1] if context else (season_category.shortname|category2string if season_category else ''),
+            'season': context.season_label if context else '',
+            'phase': (context.phase|replace('-', ' ')|title) if context else '',
+            'key': (candidate.team|default(candidate.title))|lower ~ '|' ~ (context.season if context else '') ~ '|' ~ (context.phase if context else ''),
+        }) %}
+    {% endfor %}
+{% endif %}
+{% set rows = directory.rows|sort(attribute='key') %}
+{% set noun = 'player' if category.slug == 'players' else 'team' %}
+
+<section class="hero">
+    <div class="hero-top">
+        <div>
+            <h1 class="hero-title">{{ 'Players' if category.slug == 'players' else 'Teams' }}</h1>
+            <p class="hero-subtitle">Every {{ noun }} page on {{ SITENAME }}, across all leagues and seasons. Search by name{% if category.slug == 'players' %}, team or league{% else %} or league{% endif %}.</p>
+        </div>
+    </div>
+</section>
+
+<section class="panel">
+    <div class="table-search" data-directory-search>
+        <label class="table-search-label" for="directory-search">Search {{ noun }}</label>
+        <input id="directory-search" class="table-search-input" type="search" placeholder="Filter by {{ noun }} or league" autocomplete="off" data-directory-search-input>
+        <p class="table-search-status"><span data-directory-search-count>{{ rows|length }}</span> {{ noun }}s shown</p>
+        <p class="table-search-empty" data-directory-search-empty hidden>No {{ noun }}s match your search.</p>
+    </div>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>{{ 'Player' if category.slug == 'players' else 'Team' }}</th>
+                {% if category.slug == 'players' %}<th>Team</th>{% endif %}
+                <th>League</th>
+                <th>Season</th>
+                {% if category.slug != 'players' %}<th>Phase</th>{% endif %}
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in rows %}
+            <tr class="directory-row" data-search="{{ (row.name ~ ' ' ~ row.team|default('') ~ ' ' ~ row.league ~ ' ' ~ row.season)|lower|e }}">
+                {% if category.slug == 'players' %}
+                <td><a href="{{ SITEURL }}/{{ row.url }}">{{ row.name }}</a></td>
+                <td>{{ row.team }}</td>
+                {% else %}
+                <td><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.name, row.category) }}<span>{{ row.name }}</span></a></td>
+                {% endif %}
+                <td>{{ row.league }}</td>
+                <td>{{ row.season }}</td>
+                {% if category.slug != 'players' %}<td>{{ row.phase }}</td>{% endif %}
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+<script>
+(function () {
+    const root = document.querySelector('[data-directory-search]');
+    if (!root) {
+        return;
+    }
+    const input = root.querySelector('[data-directory-search-input]');
+    const count = root.querySelector('[data-directory-search-count]');
+    const empty = root.querySelector('[data-directory-search-empty]');
+    const marks = /[̀-ͯ]/g;
+    const normalize = (value) => String(value || '').toLowerCase().normalize('NFD').replace(marks, '');
+    const rows = Array.from(document.querySelectorAll('tr.directory-row')).map((row) => ({ row: row, text: normalize(row.dataset.search) }));
+    input.addEventListener('input', function () {
+        const tokens = normalize(input.value).split(/\s+/).filter(Boolean);
+        let visible = 0;
+        for (const item of rows) {
+            const match = tokens.every((token) => item.text.includes(token));
+            item.row.hidden = !match;
+            if (match) {
+                visible += 1;
+            }
+        }
+        count.textContent = String(visible);
+        empty.hidden = visible !== 0;
+    });
+})();
+</script>
