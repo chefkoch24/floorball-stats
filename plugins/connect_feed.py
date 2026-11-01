@@ -40,6 +40,10 @@ def _goals(article, key):
         return None
 
 
+def logo_url(path, site):
+    return f"{site.rstrip('/')}/{path.lstrip('/')}" if path else None
+
+
 def games(articles, settings, filters, today: date) -> list[dict]:
     season = settings.get("CURRENT_SEASON", "")
     site = settings.get("SITEURL", "")
@@ -66,6 +70,8 @@ def games(articles, settings, filters, today: date) -> list[dict]:
             "home": home, "away": away,
             "homeCrest": filters["crest_index"](home), "awayCrest": filters["crest_index"](away),
             "homeInitials": filters["team_initials"](home), "awayInitials": filters["team_initials"](away),
+            "homeLogo": logo_url(filters["team_logo"](home, category), site),
+            "awayLogo": logo_url(filters["team_logo"](away, category), site),
             "homeGoals": _goals(article, "home_goals"), "awayGoals": _goals(article, "away_goals"),
             "decision": "PS" if ps else ("OT" if ot else ""),
             "state": "played" if played else "scheduled",
@@ -93,6 +99,7 @@ def power(league_insights, settings, filters) -> dict[str, list[dict]]:
             "teams": [
                 {"rank": row["power_rank"], "team": row["team"], "rating": row["rating"], "trend": row["trend"],
                  "crest": filters["crest_index"](row["team"]), "initials": filters["team_initials"](row["team"]),
+                 "logo": logo_url(filters["team_logo"](row["team"], category), site),
                  "url": f"{site}/{row['url']}"}
                 for row in block["rows"][:POWER_TOP]
             ],
@@ -113,6 +120,7 @@ def leaders(leaderboards, settings) -> dict[str, list[dict]]:
                 "entries": [
                     {"rank": entry["rank"], "name": entry["name"], "team": entry["team"], "value": entry["value"],
                      "code": entry.get("code", ""), "crest": entry.get("crest"), "initials": entry.get("initials", ""),
+                     "logo": logo_url(entry.get("website_logo"), site),
                      "url": f"{site}/{entry['url']}" if entry.get("url") else ""}
                     for entry in board["entries"][:LEADERS_TOP]
                 ],
