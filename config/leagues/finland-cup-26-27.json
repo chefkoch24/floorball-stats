@@ -1,0 +1,10 @@
+{
+  "backend": "finland",
+  "season": "fi-26-27",
+  "phase": "cup",
+  "cup": {
+    "competition_name": "Suomen Cup miehet",
+    "torneopal_category_id": 366,
+    "torneopal_competition_id": "sb2026"
+  }
+}

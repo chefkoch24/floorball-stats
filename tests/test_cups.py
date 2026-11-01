@@ -5,7 +5,7 @@ import pandas as pd
 import pytest
 
 from src import build_player_stats, build_player_stats_postgres as player_builder
-from src import pipeline, scrape, scrape_czech, scrape_sweden, scrape_switzerland
+from src import pipeline, scrape, scrape_czech, scrape_sweden, scrape_switzerland, scrape_torneopal
 from src.competitions import (
     CUP_PHASE,
     STAGE_ELIMINATION,
@@ -292,7 +292,7 @@ def test_german_cup_rounds_come_from_the_spieltag(tmp_path):
 
 
 def test_cup_import_rejects_backends_without_a_cup_source(tmp_path):
-    for backend in ("finland", "slovakia", "latvia"):
+    for backend in ("slovakia", "latvia"):
         with pytest.raises(ValueError, match="No cup source"):
             pipeline._scrape_cup(
                 backend=backend, league_id=None, raw_csv=tmp_path / "x.csv", cup_name=None, cup_sweden_category_id=None,
@@ -306,6 +306,7 @@ def test_cup_import_rejects_backends_without_a_cup_source(tmp_path):
 def test_cup_configs_cover_the_sources_we_have():
     assert [path.name for path in CUP_CONFIGS] == [
         "czech-cup-26-27.json", "czech-cup-women-26-27.json",
+        "finland-cup-26-27.json", "finland-cup-women-26-27.json",
         "germany-cup-26-27.json", "germany-cup-women-26-27.json",
         "sweden-cup-26-27.json", "sweden-cup-women-26-27.json",
         "switzerland-cup-26-27.json", "switzerland-cup-women-26-27.json",
@@ -506,3 +507,120 @@ def test_cup_games_stay_out_of_team_calendars_and_form():
     games = {game_id for calendar in share_assets._state.calendars.values() for game_id in calendar["games"]}
     assert games == {"1"}
     assert articles[2].share_team["form"] == ["W"]
+
+
+# --- Finland: Suomen Cup from the Torneopal result service --------------------------------------
+
+
+def _torneopal_listed(match_id="1", status="Played", **overrides):
+    return {
+        "match_id": match_id, "status": status, "team_A_name": "SBS Masku", "team_B_name": "TPS",
+        "date": "2026-10-18", "time": "16:00:00", "fs_A": "4", "fs_B": "6", "attendance": "255",
+        "venue_name": "Hemmingin Liikuntahalli", "category_name": "Suomen Cup miehet", "group_name": "Suomen Cup miehet",
+        "group_type": "knockout_final", "round_name": "Kahdeksasvälierä", **overrides,
+    }
+
+
+def _torneopal_event(code, side, event_id, period=1, seconds=257, score=(0, 1), name="Loponen Eetu", player_id="1", **extra):
+    return {"code": code, "team": side, "event_id": event_id, "connected_event_id": "0", "period": str(period),
+            "time_sec": seconds, "s_A": score[0], "s_B": score[1], "player_name": name, "player_id": player_id,
+            "shirt_number": "9", **extra}
+
+
+def _torneopal_detail(events):
+    return {"events": events, "lineups": [
+        {"player_id": "1", "first_name": "Eetu", "last_name": "Loponen"},
+        {"player_id": "2", "first_name": "Kasper", "last_name": "Kulmala"},
+        {"player_id": "3", "first_name": "Alex", "last_name": "Eklund"},
+    ]}
+
+
+def test_torneopal_game_rows_cover_goals_assists_penalties_and_shootout_winner():
+    events = [
+        _torneopal_event("vaihto", "B", "10"),
+        _torneopal_event("maali", "B", "11", score=(0, 1)),
+        _torneopal_event("syotto", "B", "12", name="Kulmala Kasper", player_id="2", connected_event_id="11"),
+        _torneopal_event("2min", "A", "13", seconds=1089, name="Eklund Alex", player_id="3", description="ETA"),
+        _torneopal_event("rpkmaali", "A", "14", period=5, seconds=2),
+        _torneopal_event("maali", "A", "15", period=5, seconds=0, score=(4, 4), name="", player_id=""),
+    ]
+
+    rows = scrape_torneopal.match_rows(_torneopal_listed(), _torneopal_detail(events))
+
+    assert [(row["event_type"], row["event_team"], row["sortkey"]) for row in rows] == [
+        ("goal", "TPS", "1-04:17"), ("penalty", "SBS Masku", "1-18:09"), ("goal", "SBS Masku", "5-00:00"),
+    ]
+    goal, penalty, shootout = rows
+    assert (goal["scorer_name"], goal["assist_name"], goal["home_goals"], goal["guest_goals"]) == ("Eetu Loponen", "Kasper Kulmala", 0, 1)
+    assert (penalty["penalty_type"], penalty["penalty_player_name"]) == ("penalty_2", "Alex Eklund")
+    assert shootout["period"] == 5 and shootout["scorer_name"] is None
+    assert {row["competition_name"] for row in rows} == {"Suomen Cup miehet"}
+    assert {row["tournament_stage_label"] for row in rows} == {"Kahdeksasvälierä"}
+    assert rows[0]["result_string"] == "4:6" and rows[0]["attendance"] == 255
+
+
+def test_torneopal_regional_groups_keep_their_group_and_games_without_scorers_keep_the_score():
+    listed = _torneopal_listed(group_name="ES1", group_type="group_stage", round_name="SBS Graniitti", fs_A="3", fs_B="11")
+
+    rows = scrape_torneopal.match_rows(listed, _torneopal_detail([_torneopal_event("vaihto", "B", "10")]))
+
+    assert len(rows) == 1 and rows[0]["event_type"] == "result"
+    assert (rows[0]["home_goals"], rows[0]["guest_goals"]) == (3, 11)
+    assert (rows[0]["tournament_stage_type"], rows[0]["tournament_stage_label"], rows[0]["tournament_group"]) == ("group-stage", "ES1", "ES1")
+
+
+def test_torneopal_planned_games_are_scheduled_and_forfeits_and_open_slots_are_dropped():
+    planned = scrape_torneopal.match_rows(_torneopal_listed(status="Planned", fs_A="", fs_B=""), None)
+
+    assert [row["event_type"] for row in planned] == ["scheduled"]
+    assert planned[0]["tournament_stage_label"] == "Kahdeksasvälierä"
+    assert scrape_torneopal.match_rows(_torneopal_listed(status="Forfeited"), None) == []
+    assert scrape_torneopal.match_rows(_torneopal_listed(status="Planned", date="", fs_A="", fs_B=""), None) == []
+    assert scrape_torneopal.is_placeholder_team("Voittaja ottelusta SB Naantali - TPS (3204)")
+    assert scrape_torneopal.is_placeholder_team("")
+    assert not scrape_torneopal.is_placeholder_team("Voima")
+
+
+def test_torneopal_cup_scrape_skips_undrawn_slots_and_only_loads_played_games(tmp_path):
+    loaded = []
+
+    class FakeClient:
+        def fetch_matches(self, category_id, competition_id):
+            return [
+                _torneopal_listed("1"),
+                _torneopal_listed("2", status="Planned", fs_A="", fs_B=""),
+                _torneopal_listed("3", status="Planned", team_A_name="Voittaja ottelusta X (3204)"),
+            ]
+
+        def fetch_match(self, match_id, game_date):
+            loaded.append(match_id)
+            return _torneopal_detail([_torneopal_event("maali", "B", "11")])
+
+        def close(self):
+            raise AssertionError("a client passed in stays open")
+
+    frame = scrape_torneopal.scrape_cup(366, str(tmp_path / "fi.csv"), client=FakeClient())
+
+    assert loaded == ["1"]
+    assert sorted(frame["game_id"].unique()) == [1, 2]
+
+
+def test_torneopal_client_caches_settled_games_and_rereads_recent_ones(tmp_path):
+    from datetime import date
+
+    captured = []
+
+    class Client(scrape_torneopal.TorneopalWebClient):
+        def _capture(self, url, call, **params):
+            captured.append((url, call, params))
+            return {"match": {"status": "Played", "events": [], "match_id": params["match_id"]}}
+
+    client = Client(cache_dir=tmp_path, delay_seconds=0, today=date(2026, 11, 2))
+
+    client.fetch_match("7", "2026-10-18")
+    client.fetch_match("7", "2026-10-18")
+    assert len(captured) == 1 and captured[0][1] == "getMatch"
+
+    client.fetch_match("8", "2026-10-31")
+    client.fetch_match("8", "2026-10-31")
+    assert len(captured) == 3

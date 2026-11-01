@@ -90,6 +90,8 @@ CUP_SWITZERLAND_CONFIG ?= $(CONFIG_DIR)/switzerland-cup-$(CURRENT_SEASON).json
 CUP_SWITZERLAND_WOMEN_CONFIG ?= $(CONFIG_DIR)/switzerland-cup-women-$(CURRENT_SEASON).json
 CUP_CZECH_CONFIG ?= $(CONFIG_DIR)/czech-cup-$(CURRENT_SEASON).json
 CUP_CZECH_WOMEN_CONFIG ?= $(CONFIG_DIR)/czech-cup-women-$(CURRENT_SEASON).json
+CUP_FINLAND_CONFIG ?= $(CONFIG_DIR)/finland-cup-$(CURRENT_SEASON).json
+CUP_FINLAND_WOMEN_CONFIG ?= $(CONFIG_DIR)/finland-cup-women-$(CURRENT_SEASON).json
 CUP_GERMANY_CONFIG ?= $(CONFIG_DIR)/germany-cup-$(CURRENT_SEASON).json
 CUP_GERMANY_WOMEN_CONFIG ?= $(CONFIG_DIR)/germany-cup-women-$(CURRENT_SEASON).json
 # WFC / IFF competitions
@@ -378,13 +380,20 @@ refresh-cup-czech:
 refresh-cup-czech-women:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_CZECH_WOMEN_CONFIG)" $(CZECH_PIPELINE_ARGS)
 
+# Suomen Cup: Torneopal result service via headless Chrome (needs Playwright and Google Chrome, like the Saisonmanager web fallback)
+refresh-cup-finland:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_FINLAND_CONFIG)"
+
+refresh-cup-finland-women:
+	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_FINLAND_WOMEN_CONFIG)"
+
 refresh-cup-germany:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_GERMANY_CONFIG)"
 
 refresh-cup-germany-women:
 	"$(PYTHON)" -m src.pipeline --league_config "$(CUP_GERMANY_WOMEN_CONFIG)"
 
-# All cups with a source (Finland, Slovakia and Latvia have none, see README). A failing cup never blocks the others.
+# All cups with a source (Slovakia and Latvia have none, see README). A failing cup never blocks the others.
 refresh-cups:
 	@failed=""; \
 	for target in \
@@ -394,6 +403,8 @@ refresh-cups:
 		refresh-cup-switzerland-women \
 		refresh-cup-czech \
 		refresh-cup-czech-women \
+		refresh-cup-finland \
+		refresh-cup-finland-women \
 		refresh-cup-germany \
 		refresh-cup-germany-women; do \
 		echo "==> $$target"; \

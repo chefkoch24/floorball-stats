@@ -190,7 +190,7 @@ National cups are a third season phase, `cup`, per league prefix (`ch-26-27` + `
 - Event rows carry `competition_name`, `tournament_stage_type` (`elimination`, `group-stage`) and `tournament_stage_label` (round name); `phase = 'cup'` in `events`, source key `data_<prefix>-<season>_cup`, category `<prefix><season>-cup` (`is_cup_phase`, `is_cup_category`).
 - Cups never feed league data. Standings, league averages, leaders, power rankings, table history, player stats and player pages only read `regular-season` and `playoffs`; `build_player_stats_postgres` skips `cup` explicitly because it groups every phase it finds in `events`. A new consumer that groups by phase has to do the same.
 - A cup publishes game pages only (`generate_markdown_files` returns no team or league pages for it); `plugins/seo.py` links the teams of a cup game to the league's team pages; `templates/cup.html` lists a cup by round.
-- Sources and the countries without one are in the README ("Cups"). Per-backend cup scraping lives in the backend's scraper (`cup=True` / `phase='cup'`) and `pipeline._scrape_cup`; configs set `cup.competition_name` and the backend selector.
+- Sources and the countries without one are in the README ("Cups"). Per-backend cup scraping lives in the backend's scraper (`cup=True` / `phase='cup'`, Finland: `scrape_torneopal.py`, which reads the result service's own JSON through headless Chrome) and `pipeline._scrape_cup`; configs set `cup.competition_name` and the backend selector.
 - Open: the team-page switch "include cup" for the team statistics. It needs per-team cup aggregates next to the league aggregates (see BACKLOG).
 
 ### 4.7 Markdown Generation: `src/generate_markdown.py`

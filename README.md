@@ -338,11 +338,11 @@ only: no table, league report or team pages; game pages link to the league's tea
 
 ```bash
 make refresh-cups                 # all cups with a source, a failing cup never blocks the others
-make refresh-cup-switzerland      # one cup, also -women; sweden, switzerland, czech, germany
+make refresh-cup-switzerland      # one cup, also -women; sweden, switzerland, czech, finland, germany
 python -m src.pipeline --league_config config/leagues/sweden-cup-26-27.json --skip_scrape   # local, no scrape, no Neon
 ```
 
-`refresh-cups` is deliberately not part of `refresh-all-leagues`. Czech cups need the same local job as the
+`refresh-cups` is deliberately not part of `refresh-all-leagues`. The Finnish cup renders pages in Chrome (about 3 s per game, so a full men's refresh takes several minutes). Czech cups need the same local job as the
 league (ceskyflorbal.cz blocks CI): pass `CZECH_PIPELINE_ARGS="--events_source db"` once they are in Neon.
 
 Sources per country (checked 1 November 2026):
@@ -353,7 +353,7 @@ Sources per country (checked 1 November 2026):
 | Switzerland | Mobiliar Unihockey Cup Männer (tournament 406200), Frauen (406199) | swissunihockey.ch game pages (same parser as the league) and the cup bracket API `wc.swissunihockey.ch/cups`, `/games?mode=cup`. Byes ("Freilos") are dropped | imported, live-checked (252 men's, 60 women's game ids; all rounds from 1/128). Mobiliar Ligacup (406201, 406203, lower leagues) and Supercup (406249, 406250) are not imported |
 | Czech Republic | Pohár ČF mužů (competition 4828), žen (4829) | ceskyflorbal.cz, same site and parser as the league (`/competition/detail/matches/8XMP?competitionFisId=4828`) | imported, live-checked (272 men's, 59 women's matches). Needs a non-datacenter IP like the league |
 | Germany | FD-Pokal Herren (Saisonmanager league 2451), Damen (2452) | Saisonmanager like the 1. FBL (API key, or the public-page fallback). The "Spieltag" is the round | imported, covered by unit tests only: not run against Saisonmanager (no API key here; the web fallback needs Chrome and waits 10 s per game) |
-| Finland | Suomen Cup (Kouvolan Lakritsi Suomen Cup, men and women) | Torneopal (`tulospalvelu.salibandy.fi`, API `salibandy-api.torneopal.net`), not fliiga.com | not imported: the API answers scripts with Cloudflare 403. Needs a permission or key from Salibandyliitto, or a browser-based scraper |
+| Finland | Suomen Cup miehet (Torneopal category 366), naiset (365) | The Torneopal result service `tulospalvelu.salibandy.fi`, not fliiga.com. Its REST API answers scripts with a Cloudflare 403, so `src/scrape_torneopal.py` goes through the website like the Saisonmanager fallback: headless Chrome opens `/category/366!sb2026/tables` and `/match/<id>` and reads the JSON the page requests itself (robots.txt only blocks `/person/`; 3 s pause, finished games cached in `.cache/torneopal`). Goals, assists, 2-minute penalties; shootout winner as period 5 goal | imported, live-checked on five games (PS game, round of 16, planned quarter-final); needs Playwright and Google Chrome. Regional group games are included (95 listed games in the men's cup), forfeits are dropped |
 | Slovakia | Pohár SZFB | szfb.sk has an article page, but its stats system lists no 2026/27 cup (the linked entry is "Pohár SZFB 2021 muži") | no usable source yet; look again when the cup is created |
 | Latvia | none for seniors | floorball.lv "Latvijas kauss" lists only youth age groups (U12 to U16) in 2026/27 | no senior cup source |
 

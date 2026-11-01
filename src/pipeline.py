@@ -20,6 +20,7 @@ from src.scrape_finland import scrape_matches as scrape_finland_matches
 from src.scrape_czech import scrape_competition as scrape_czech_competition
 from src.scrape_latvia import scrape_competition as scrape_latvia_competition
 from src.scrape_slovakia import scrape_competition as scrape_slovakia_competition
+from src.scrape_torneopal import scrape_cup as scrape_torneopal_cup
 from src.scrape_wfc import scrape_league_organizer_games as scrape_wfc_league_organizer_games
 from src.scrape_switzerland import (
     fetch_cup_game_ids,
@@ -93,6 +94,8 @@ def _scrape_cup(
     cup_swiss_tournament_ids: list[int] | None,
     czech_schedule_urls: list[str] | None,
     czech_season_start_year: int | None,
+    cup_torneopal_category_id: int | None = None,
+    cup_torneopal_competition_id: str | None = None,
 ) -> None:
     """Scrape one national cup into ``raw_csv``. Backends without a cup source raise."""
     if backend == "sweden":
@@ -123,6 +126,14 @@ def _scrape_cup(
             include_unplayed=True,
             phase="cup",
             cup_name=cup_name,
+        )
+    elif backend == "finland":
+        if not cup_torneopal_category_id:
+            raise ValueError("cup.torneopal_category_id is required for the Suomen Cup (miehet 366, naiset 365)")
+        scrape_torneopal_cup(
+            category_id=int(cup_torneopal_category_id),
+            competition_id=cup_torneopal_competition_id or "sb2026",
+            output_path=str(raw_csv),
         )
     elif backend == "saisonmanager":
         if not league_id:
@@ -165,6 +176,8 @@ def run_pipeline(
     cup_name: str | None = None,
     cup_sweden_category_id: int | None = None,
     cup_swiss_tournament_ids: list[int] | None = None,
+    cup_torneopal_category_id: int | None = None,
+    cup_torneopal_competition_id: str | None = None,
     playoff_rounds: list[dict] | None = None,
     playoff_teams_count: int = 8,
     data_dir: str = "data",
@@ -205,6 +218,8 @@ def run_pipeline(
                 cup_swiss_tournament_ids=cup_swiss_tournament_ids,
                 czech_schedule_urls=czech_schedule_urls,
                 czech_season_start_year=czech_season_start_year,
+                cup_torneopal_category_id=cup_torneopal_category_id,
+                cup_torneopal_competition_id=cup_torneopal_competition_id,
             )
             tag_cup_csv(raw_csv, cup_name)
         elif backend == "sweden":
@@ -422,6 +437,8 @@ def parse_args():
     parser.add_argument("--cup_name", type=str, default=None)
     parser.add_argument("--cup_sweden_category_id", type=int, default=None)
     parser.add_argument("--cup_swiss_tournament_ids", type=str, default=None)
+    parser.add_argument("--cup_torneopal_category_id", type=int, default=None)
+    parser.add_argument("--cup_torneopal_competition_id", type=str, default=None)
     parser.add_argument("--playoff_rounds", type=str, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default=None)
@@ -499,6 +516,8 @@ def main():
         cup_name=args.cup_name,
         cup_sweden_category_id=args.cup_sweden_category_id,
         cup_swiss_tournament_ids=cup_swiss_tournament_ids,
+        cup_torneopal_category_id=args.cup_torneopal_category_id,
+        cup_torneopal_competition_id=args.cup_torneopal_competition_id,
         playoff_rounds=args.playoff_rounds,
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,

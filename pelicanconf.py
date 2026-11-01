@@ -96,7 +96,7 @@ COMPETITIONS = [
 # National cups (src/competitions.py): one "<prefix><season>-cup" category per league prefix
 # with game pages only. They stay outside SEASON_PHASES, so tables, leaders and the
 # regular-season/playoff navigation never see them.
-CUP_PREFIXES = ['se-', 'sew-', 'ch-', 'chw-', 'cz-', 'czw-', '', 'dew-']
+CUP_PREFIXES = ['se-', 'sew-', 'ch-', 'chw-', 'cz-', 'czw-', 'fi-', 'fiw-', '', 'dew-']
 WOMEN_LEAGUE_PREFIXES = [
     league['prefix'] for league in LEAGUES + COMPETITIONS if league['division'] == 'women'
 ]

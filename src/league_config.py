@@ -42,6 +42,8 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
     args.cup_name = cup.get("competition_name", getattr(args, "cup_name", None))
     args.cup_sweden_category_id = cup.get("sweden_category_id", getattr(args, "cup_sweden_category_id", None))
     args.cup_swiss_tournament_ids = cup.get("swiss_tournament_ids", getattr(args, "cup_swiss_tournament_ids", None))
+    args.cup_torneopal_category_id = cup.get("torneopal_category_id", getattr(args, "cup_torneopal_category_id", None))
+    args.cup_torneopal_competition_id = cup.get("torneopal_competition_id", getattr(args, "cup_torneopal_competition_id", None))
 
     swiss = config.get("swiss", {}) or {}
     args.swiss_game_ids = swiss.get("game_ids", args.swiss_game_ids)
