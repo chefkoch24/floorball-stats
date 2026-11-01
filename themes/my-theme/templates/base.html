@@ -53,9 +53,10 @@
         document.documentElement.setAttribute('data-division', division === 'women' ? 'women' : 'men');
     })();
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap" rel="stylesheet">
+    {# Fonts are served from this site, not Google Fonts, so no visitor IP reaches Google. #}
+    <link rel="preload" href="{{ SITEURL }}/theme/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ SITEURL }}/theme/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/fonts.css">
     {# Design system build (themes/my-theme/design-system, `make css`). #}
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/app.css">
     <script>
@@ -71,7 +72,7 @@
         };
     };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ SITEURL }}/theme/js/chart.umd.min.js"></script>
 <script>
 if (window.Chart) {
     var fsChartColors = window.fsColors();
@@ -279,8 +280,11 @@ if (__phEnabled) {
         capture_pageview: true,
         capture_pageleave: false,
         disable_session_recording: true,
-        persistence: 'localStorage+cookie',
-        person_profiles: 'always'
+        // Cookieless: nothing is stored in the browser (no cookie, no localStorage), visitors
+        // are counted with a daily rotating server-side hash, so no consent banner is needed.
+        // Needs "Enable cookieless tracking" in the PostHog project settings.
+        cookieless_mode: 'always',
+        person_profiles: 'identified_only'
     });
 } else {
     console.info('[Analytics] PostHog disabled on localhost:', __phHost);

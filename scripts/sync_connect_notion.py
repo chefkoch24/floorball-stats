@@ -184,7 +184,7 @@ def record_fields(page: dict, notion: Notion, session: requests.Session, prefix:
     fields = {name: property_value(prop) for name, prop in page["properties"].items()}
     for key in ("Images", "Thumbnail"):
         if isinstance(fields.get(key), list):
-            fields[key] = [save_image(url, media_name(prefix, url), session) for url in fields[key] if url]
+            fields[key] = [path for path in (save_image(url, media_name(prefix, url), session) for url in fields[key] if url) if path]
     if isinstance(fields.get("Videos"), list):
         fields["Videos"] = [save_video(url, media_name(prefix, url), session) for url in fields["Videos"] if url]
     if with_body:

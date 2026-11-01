@@ -73,21 +73,30 @@ def simplify(value):
 
 
 def save_image(url: str, name: str, session: requests.Session) -> str:
-    """Store an expiring (or inline data:) image as a shrunk WebP; return its path under content/."""
+    """Store an image as a shrunk WebP and return its path under content/.
+
+    Every image is served from the site itself: Notion and Tally links expire, and a picture
+    loaded from YouTube or a shop would send each visitor's IP address there.
+    """
     inline = url.startswith("data:")
-    if not inline and not any(host in urlparse(url).netloc for host in EXPIRING_HOSTS):
+    if not inline and not url.startswith(("http://", "https://")):
         return url
     from PIL import Image, ImageOps  # noqa: PLC0415 - only needed when importing
 
     target = IMAGE_DIR / f"{name}.webp"
     if not target.exists():
-        if inline:
-            content = base64.b64decode(url.split(",", 1)[1])
-        else:
-            response = session.get(url, timeout=60)
-            response.raise_for_status()
-            content = response.content
-        image = ImageOps.exif_transpose(Image.open(io.BytesIO(content)))
+        try:
+            if inline:
+                content = base64.b64decode(url.split(",", 1)[1])
+            else:
+                response = session.get(url, timeout=60)
+                response.raise_for_status()
+                content = response.content
+            image = ImageOps.exif_transpose(Image.open(io.BytesIO(content)))
+        except (requests.RequestException, OSError, ValueError) as error:
+            # Expiring links must be stored; anything else stays out rather than load from elsewhere.
+            print(f"  image skipped ({error.__class__.__name__}): {url[:80]}")
+            return ""
         image.thumbnail((MAX_SIDE, MAX_SIDE))
         if image.mode not in ("RGB", "RGBA"):
             image = image.convert("RGBA" if "transparency" in image.info else "RGB")
@@ -119,7 +128,7 @@ def localize(fields: dict, prefix: str, session: requests.Session) -> dict:
     for key, value in fields.items():
         value = simplify(value)
         if key in ("Images", "Thumbnail") and isinstance(value, list):
-            value = [save_image(url, media_name(prefix, url), session) for url in value if isinstance(url, str)]
+            value = [path for path in (save_image(url, media_name(prefix, url), session) for url in value if isinstance(url, str)) if path]
         elif key == "Videos" and isinstance(value, list):
             value = [save_video(url, media_name(prefix, url), session) for url in value if isinstance(url, str)]
         out[key] = value

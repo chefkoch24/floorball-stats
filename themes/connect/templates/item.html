@@ -29,7 +29,15 @@
         </figure>
         {% endfor %}
         {% elif item.video %}
-        <div class="fc-video"><iframe src="https://www.youtube-nocookie.com/embed/{{ item.video }}" title="{{ item.title }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        {# Two clicks: YouTube only loads (and learns the visitor's IP) after the play button. #}
+        <div class="fc-video" data-youtube="{{ item.video }}" data-title="{{ item.title }}">
+            {% if item.image %}{{ m.image(item.image, '') }}{% endif %}
+            <button class="fc-video__play" type="button" data-cta="youtube-{{ collection.key }}">
+                <span class="fc-video__icon" aria-hidden="true">▶</span>
+                <span>Play video</span>
+                <small>Loads the video from YouTube; YouTube receives your IP address.</small>
+            </button>
+        </div>
         {% elif item.image %}
         <figure class="fc-detail__media{% if collection.key == 'equipment' %} fc-detail__media--product{% endif %}">{{ m.image(item.image, item.title) }}</figure>
         {% endif %}

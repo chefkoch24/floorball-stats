@@ -151,6 +151,21 @@
     });
   });
 
+  // YouTube on request: the embed (youtube-nocookie) replaces the local preview on click.
+  document.querySelectorAll('[data-youtube]').forEach((box) => {
+    const button = box.querySelector('.fc-video__play');
+    if (!button) return;
+    button.addEventListener('click', () => {
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(box.dataset.youtube)}?autoplay=1`;
+      frame.title = box.dataset.title || 'Video';
+      frame.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      frame.allowFullscreen = true;
+      box.replaceChildren(frame);
+    });
+  });
+
   // Share buttons: the phone's share sheet where there is one, else copy the link.
   document.querySelectorAll('[data-share]').forEach((button) => button.addEventListener('click', async () => {
     const data = { title: button.dataset.shareTitle || document.title, url: window.location.href };
