@@ -199,7 +199,8 @@
       renderResults(pair),
       el('div', 'grid gap-4 md:grid-cols-2', renderScorers(names, pair)),
       el('div', 'grid gap-4 md:grid-cols-2', renderPenalties(names, pair)),
-      el('div', 'grid items-start gap-4 lg:grid-cols-2', [renderTiming(names, pair), renderSpecial(names, pair)]),
+      renderTiming(names, pair),
+      renderSpecial(names, pair),
     );
   };
 
