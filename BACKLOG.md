@@ -21,7 +21,7 @@
 - [ ] Scalable process across leagues
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
-- [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)); first decide the rights option in the plan
+- [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)): current-season logos and share graphics implemented under Felix’s confirmed permission; historical seasons and new-team maintenance remain.
 - [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
 
 

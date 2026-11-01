@@ -61,3 +61,28 @@ def test_long_team_names_are_wrapped_to_fit(tmp_path):
     target = tmp_path / "card.png"
     share_assets.render(("game", "Czech Republic Women 26/27", "FBC ČPP MPL STAVEBNINY OSTRAVA", "GMS", "4:3", "Final"), target)
     assert Image.open(target).size == (1200, 630)
+
+
+def test_logo_appears_in_share_preview(tmp_path):
+    from PIL import Image
+    import pelicanconf
+    logo = pelicanconf.team_logo('Nokian KrP', 'fi-26-27-regular-season', 'share')
+    target = tmp_path / 'team.png'
+    share_assets.render(('team', 'Finland', 'Nokian KrP', '17 pts', logo), target)
+    with Image.open(target).convert('RGB') as image:
+        assert image.getpixel((550, 100)) == (255, 255, 255)
+
+
+def test_logo_change_invalidates_preview_cache(tmp_path, monkeypatch):
+    from PIL import Image
+    logo = tmp_path / 'logo.png'
+    Image.new('RGBA', (20, 20), 'red').save(logo)
+    monkeypatch.setattr(share_assets, '_local_logo', lambda path: logo)
+    monkeypatch.setattr(share_assets, 'CACHE_DIR', tmp_path / 'cache')
+    spec = ('team', 'Finland', 'Example', '', 'theme/team-logos/logo.png')
+    output = tmp_path / 'out.png'
+    share_assets._write_image(spec, output)
+    first = output.read_bytes()
+    Image.new('RGBA', (20, 20), 'blue').save(logo)
+    share_assets._write_image(spec, output)
+    assert output.read_bytes() != first

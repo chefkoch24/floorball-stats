@@ -766,6 +766,11 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
     # plugins' handlers in no fixed order; templates/leaders.html shows both.
     import leaders  # noqa: PLC0415 - plugin module, imported when Pelican loads the plugins
 
+    def board_logos(team: str, info: dict) -> dict:
+        lookup = settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)
+        category = f"{info.get('prefix', '')}{current_season}-regular-season"
+        return {"logo": lookup(team, category, "share"), "website_logo": lookup(team, category)}
+
     def origin(info: dict) -> dict:
         country = info.get("name", "")
         return {"league": info.get("title", "").split(" · ")[-1], "country": country, "code": leaders.COUNTRY_CODES.get(country, country[:3].upper())}
@@ -778,7 +783,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             "key": "crowds", "title": "Biggest crowds", "unit": "Average home attendance", "kind": "team",
             "entries": [
                 {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
-                 "initials": initials(row["team"]), **origin(row["info"]), "value": f"{row['average']:,}", "detail": f"{row['games']} home games"}
+                 "initials": initials(row["team"]), **board_logos(row["team"], row["info"]), **origin(row["info"]), "value": f"{row['average']:,}", "detail": f"{row['games']} home games"}
                 for index, row in enumerate(rows, start=1)
             ],
         })
@@ -787,7 +792,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             "key": "team-penalties", "title": "Most penalties", "unit": "Penalties in total", "kind": "team",
             "entries": [
                 {"rank": index, "name": row["team"], "url": row["url"], "team": row["team"], "crest": crest_index(row["team"]),
-                 "initials": initials(row["team"]), **origin(row["info"]), "value": str(row["line"].total),
+                 "initials": initials(row["team"]), **board_logos(row["team"], row["info"]), **origin(row["info"]), "value": str(row["line"].total),
                  "detail": f"{row['line'].per_game:.2f} per game · {row['line'].games} GP"}
                 for index, row in enumerate(rows, start=1)
             ],
@@ -797,7 +802,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             "key": "goal-share", "title": "Share of team goals", "unit": "Goals with a goal or assist", "kind": "player",
             "entries": [
                 {"rank": index, "name": row["player"].name, "url": f"{row['player'].uid}.html" if row["player"].uid in player_slugs else "",
-                 "team": row["team"], "crest": crest_index(row["team"]), "initials": initials(row["team"]), **origin(row["info"]),
+                 "team": row["team"], "crest": crest_index(row["team"]), "initials": initials(row["team"]), **board_logos(row["team"], row["info"]), **origin(row["info"]),
                  "value": f"{row['share']}%", "detail": f"{row['points']} of {row['team_goals']} goals"}
                 for index, row in enumerate(rows, start=1)
             ],

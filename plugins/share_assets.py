@@ -10,6 +10,7 @@ Other pages fall back to ``og/default.png``. Rendered images are cached in
 from __future__ import annotations
 
 import hashlib
+import re
 import shutil
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
@@ -21,7 +22,7 @@ from pelican import signals
 from pelican.utils import slugify
 
 # Bump when the drawing code changes so cached images are re-rendered.
-RENDER_VERSION = "5"
+RENDER_VERSION = "6"
 CACHE_DIR = Path(".cache/og")
 WIDTH, HEIGHT = 1200, 630
 GAME_DURATION = timedelta(hours=2)
@@ -150,6 +151,7 @@ def _share_team_data(team_entries: list, settings: dict) -> None:
                 "opponent": opponent,
                 "crest": crest_index(opponent),
                 "initials": initials(opponent),
+                "logo": settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(opponent, category, "share"),
             }
         article.share_team = {
             "teams": team_counts.get(category, 0),
@@ -169,9 +171,17 @@ def collect(generator) -> None:
     for article in generator.articles:
         category = article.category.shortname if article.category else ""
         league = _league_for(category, settings)
+        article_type = _meta(article, "type")
+        if article_type == "player":
+            player_category = _meta(article, "current_season") + "-regular-season"
+            team = _meta(article, "team")
+            logo = settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, player_category, "share")
+            if logo:
+                player = _meta(article, "player") or _meta(article, "title")
+                facts = " · ".join(f"{_meta(article, 'current_' + key)} {key}" for key in ("goals", "assists", "points") if _meta(article, 'current_' + key))
+                _register_image(article, ("team", _meta(article, "league"), player, facts, logo))
         if league is None:
             continue
-        article_type = _meta(article, "type")
         league_label = label_for(category)
         if article_type == "game":
             date_text = article.date.strftime("%d %b %Y")
@@ -181,7 +191,9 @@ def collect(generator) -> None:
             else:
                 start = _meta(article, "start_time")[:5]
                 status = f"{date_text} · {start}" if start else date_text
-            spec = ("game", league_label, _meta(article, "home_team"), _meta(article, "away_team"), score, status)
+            logo = settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)
+            spec = ("game", league_label, _meta(article, "home_team"), _meta(article, "away_team"), score, status,
+                    logo(_meta(article, "home_team"), category, "share") or "", logo(_meta(article, "away_team"), category, "share") or "")
             _register_image(article, spec)
             _register_game(article, league, settings)
         elif article_type == "team":
@@ -194,7 +206,7 @@ def collect(generator) -> None:
                 if part
             )
             team = _meta(article, "team") or _meta(article, "title")
-            _register_image(article, ("team", league_label, team, facts))
+            _register_image(article, ("team", league_label, team, facts, settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, category, "share") or ""))
             article.calendar_path = _calendar_path(league, settings, team)
             team_entries.append((article, team, category))
     _share_team_data(team_entries, settings)
@@ -288,6 +300,29 @@ def _save(image, target: Path) -> None:
     image.quantize(colors=64).save(target, "PNG")
 
 
+def _local_logo(path: str) -> Path | None:
+    if not re.fullmatch(r"theme/team-logos/[a-zA-Z0-9][a-zA-Z0-9._-]*\.(?:png|webp|jpg|jpeg)", path or "", re.I):
+        return None
+    return Path(__file__).resolve().parents[1] / "themes/my-theme/static/team-logos" / Path(path).name
+
+
+def _draw_logo(image, path: str, center_x: int, center_y: int, size: int = 110) -> None:
+    from PIL import Image, ImageDraw
+
+    source = _local_logo(path)
+    if not source:
+        return
+    try:
+        with Image.open(source) as original:
+            logo = original.convert("RGBA")
+            logo.thumbnail((size - 16, size - 16), Image.Resampling.LANCZOS)
+        left, top = center_x - size // 2, center_y - size // 2
+        ImageDraw.Draw(image).rounded_rectangle((left, top, left + size, top + size), radius=10, fill="white")
+        image.paste(logo, (center_x - logo.width // 2, center_y - logo.height // 2), logo)
+    except (OSError, ValueError):
+        return
+
+
 def render(spec: tuple, target: Path) -> None:
     from PIL import Image, ImageDraw
 
@@ -308,20 +343,24 @@ def render(spec: tuple, target: Path) -> None:
     league_font = _font(30, bold=False)
     draw.text((WIDTH - 64 - draw.textlength(spec[1], font=league_font), 54), spec[1], font=league_font, fill=MUTED)
     if spec[0] == "game":
-        _, _, home, away, score, status = spec
+        _, _, home, away, score, status = spec[:6]
+        home_logo, away_logo = (spec[6:8] if len(spec) >= 8 else ("", ""))
+        _draw_logo(image, home_logo, 240, 165)
+        _draw_logo(image, away_logo, WIDTH - 240, 165)
         side_width = 380
         for name, center_x in ((home, 240), (away, WIDTH - 240)):
             font, lines = _fit_lines(draw, name, side_width, 52, max_lines=3)
-            _draw_centered(draw, lines, font, center_x, 300, TEXT)
+            _draw_centered(draw, lines, font, center_x, 330 if home_logo or away_logo else 300, TEXT)
         if score:
             _draw_centered(draw, [score], _font(110), WIDTH // 2, 290, TEXT)
         else:
             _draw_centered(draw, ["vs"], _font(60, bold=False), WIDTH // 2, 300, MUTED)
         _draw_centered(draw, [status], _font(30, bold=False), WIDTH // 2, 450, MUTED)
     else:
-        _, _, team, facts = spec
+        _, _, team, facts = spec[:4]
+        _draw_logo(image, spec[4] if len(spec) > 4 else "", WIDTH // 2, 145)
         font, lines = _fit_lines(draw, team, WIDTH - 160, 88, max_lines=2)
-        _draw_centered(draw, lines, font, WIDTH // 2, 280, TEXT)
+        _draw_centered(draw, lines, font, WIDTH // 2, 315 if len(spec) > 4 and spec[4] else 280, TEXT)
         if facts:
             _draw_centered(draw, [facts], _font(38, bold=False), WIDTH // 2, 450, MUTED)
 
@@ -329,7 +368,15 @@ def render(spec: tuple, target: Path) -> None:
 
 
 def _write_image(spec: tuple, target: Path) -> None:
-    digest = hashlib.sha1(repr((RENDER_VERSION, spec)).encode("utf-8")).hexdigest()
+    logo_paths = spec[6:8] if spec[0] == "game" else (spec[4:5] if spec[0] == "team" else ())
+    logo_hashes = []
+    for path in logo_paths:
+        source = _local_logo(path)
+        try:
+            logo_hashes.append(hashlib.sha256(source.read_bytes()).hexdigest() if source else "")
+        except OSError:
+            logo_hashes.append("")
+    digest = hashlib.sha1(repr((RENDER_VERSION, spec, logo_hashes)).encode("utf-8")).hexdigest()
     cached = CACHE_DIR / f"{digest}.png"
     if not cached.exists():
         render(spec, cached)

@@ -1,0 +1,4 @@
+{% macro crest(name, category, size='') -%}
+{%- set logo = name|team_logo(category) -%}
+<span class="fs-crest{% if size %} fs-crest--{{ size }}{% endif %}" data-crest="{{ name|crest_index }}" aria-hidden="true">{% if logo %}<img class="fs-crest__logo" src="{{ SITEURL }}/{{ logo }}" alt="" onerror="this.remove()">{% endif %}<span class="fs-crest__initials">{{ name|team_initials }}</span></span>
+{%- endmacro %}

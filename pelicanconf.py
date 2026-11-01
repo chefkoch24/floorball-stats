@@ -1,8 +1,11 @@
 from pelican.plugins import more_categories, jinja_filters
 from datetime import datetime, time
 import os
+import json
+from pathlib import Path
 import re
 import zlib
+from zoneinfo import ZoneInfo
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
@@ -293,6 +296,53 @@ def crest_index(name):
     return zlib.crc32(str(name or '').strip().lower().encode('utf-8')) % 8 + 1
 
 
+# Only curated, explicitly reviewed records may be displayed.
+BUILD_DATE = datetime.now(ZoneInfo('Europe/Berlin')).date()
+TEAM_LOGOS_PATH = Path(__file__).resolve().parent / 'config' / 'team_logos.json'
+TEAM_LOGOS_ASSET_DIR = Path(__file__).resolve().parent / 'themes' / 'my-theme' / 'static' / 'team-logos'
+
+
+def team_logo(name, category, purpose="website"):
+    """Return a local approved logo path, or None for the monogram fallback."""
+    context = league_context(category)
+    if not context:
+        return None
+    try:
+        records = json.loads(TEAM_LOGOS_PATH.read_text(encoding='utf-8'))['logos']
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+    if not isinstance(records, list):
+        return None
+    matches = []
+    for record in records:
+        if not isinstance(record, dict) or record.get('status') != 'approved':
+            continue
+        if not all(record.get(key) for key in ('rights_holder', 'permission_evidence', 'source_url', 'reviewed_on', 'scope')):
+            continue
+        if not all(isinstance(record.get(key), list) for key in ('scope', 'league_prefixes', 'seasons')):
+            continue
+        if purpose not in ('website', 'share') or purpose not in record['scope']:
+            continue
+        if (str(name or '').strip().casefold() != str(record.get('team', '')).strip().casefold()
+                or context['prefix'] not in record.get('league_prefixes', [])
+                or context['season'] not in record.get('seasons', [])):
+            continue
+        try:
+            reviewed = datetime.strptime(record['reviewed_on'], '%Y-%m-%d').date()
+            expires = datetime.strptime(record['expires_on'], '%Y-%m-%d').date() if record.get('expires_on') else None
+        except (ValueError, TypeError):
+            continue
+        if reviewed > BUILD_DATE or (expires and expires < BUILD_DATE):
+            continue
+        filename = record.get('file', '')
+        if not isinstance(filename, str) or not re.fullmatch(r'[a-zA-Z0-9][a-zA-Z0-9._-]*\.(?:png|webp|jpg|jpeg)', filename, re.I):
+            continue
+        if not (TEAM_LOGOS_ASSET_DIR / filename).is_file():
+            continue
+        matches.append('theme/team-logos/' + filename)
+    return matches[0] if len(matches) == 1 else None
+
+
 def team_url(team, category):
     """URL of a team's page in a season phase, the slug generate_markdown.py writes."""
     from unidecode import unidecode
@@ -443,6 +493,7 @@ JINJA_FILTERS = {
     'fmt_time': fmt_time,
     'team_initials': team_initials,
     'crest_index': crest_index,
+    'team_logo': team_logo,
     'league_context': league_context,
     'national_team_page': national_team_page,
     'team_url': team_url,

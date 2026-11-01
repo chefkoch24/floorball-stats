@@ -1,3 +1,5 @@
+{% from 'team_crest.html' import crest with context %}
+{% set crest_category = category.shortname if category is defined and category else (article.category.shortname if article is defined and article.category else '') %}
 {# Clutch stats, scoring duos, power ratings and win probabilities (plugins/insights.py).
    Import with context: {% import "insights.html" as insights with context %} #}
 
@@ -132,7 +134,7 @@
             {% for row in power.rows %}
             <tr>
                 <td>{{ row.power_rank }}{% if row.rank_change %} <span class="text-xs {{ 'text-win' if row.rank_change > 0 else 'text-loss' }}" title="Places since seven days ago">{{ signed(row.rank_change) }}</span>{% endif %}</td>
-                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
                 <td class="fs-table__pts" data-col="rating">{{ row.rating }}</td>
                 <td data-col="rating">{{ signed(row.trend) }}</td>
                 <td data-col="rating" class="max-sm:hidden">{{ row.table_rank or '–' }}</td>
@@ -438,7 +440,7 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col" class="fs-table__team">Team</th>
-                {% for opponent in matrix.teams %}<th scope="col" class="fs-h2h__head" title="{{ opponent }}"><span class="fs-crest fs-crest--sm" data-crest="{{ opponent|crest_index }}" aria-label="{{ opponent }}">{{ opponent|team_initials }}</span></th>{% endfor %}
+                {% for opponent in matrix.teams %}<th scope="col" class="fs-h2h__head" title="{{ opponent }}" aria-label="{{ opponent }}">{{ crest(opponent, crest_category, 'sm') }}</th>{% endfor %}
                 <th scope="col" title="Points per game against the top {{ matrix.top }}">vs top {{ matrix.top }}</th>
                 <th scope="col" title="Points per game against the other teams">vs rest</th>
             </tr>
@@ -447,7 +449,7 @@
             {% for row in matrix.rows %}
             <tr>
                 <td>{{ row.rank or loop.index }}</td>
-                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
                 {% for cell in row.cells %}
                 {% if cell is none %}
                 <td class="fs-h2h__self" aria-label="{{ row.team }}"></td>
@@ -479,7 +481,7 @@
             <ol class="m-0 grid list-none gap-0 p-0">
                 {% for cell in row.cells if cell is not none %}
                 <li class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
-                    <span class="fs-team min-w-0"><span class="fs-crest fs-crest--sm" data-crest="{{ cell.opponent|crest_index }}" aria-hidden="true">{{ cell.opponent|team_initials }}</span><span class="[overflow-wrap:anywhere]">{{ cell.opponent }}</span></span>
+                    <span class="fs-team min-w-0">{{ crest(cell.opponent, crest_category, 'sm') }}<span class="[overflow-wrap:anywhere]">{{ cell.opponent }}</span></span>
                     <span class="flex flex-wrap justify-end gap-1">{{ h2h_games(cell, show_side=true) }}</span>
                 </li>
                 {% endfor %}
@@ -549,9 +551,9 @@
         <span class="text-sm text-ink-muted">{{ game.date.strftime('%a %-d %b') }}{% if game.start_time %} · {{ game.start_time|fmt_time('') }}{% endif %}</span>
     </span>
     <span class="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-xl font-bold">
-        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.home|crest_index }}" aria-hidden="true">{{ game.home|team_initials }}</span><span>{{ game.home }}</span></span>
+        <span class="fs-team">{{ crest(game.home, crest_category) }}<span>{{ game.home }}</span></span>
         <span class="text-ink-muted">vs</span>
-        <span class="fs-team"><span class="fs-crest" data-crest="{{ game.away|crest_index }}" aria-hidden="true">{{ game.away|team_initials }}</span><span>{{ game.away }}</span></span>
+        <span class="fs-team">{{ crest(game.away, crest_category) }}<span>{{ game.away }}</span></span>
     </span>
     <span class="text-sm text-ink-muted">{{ game.sentence }}</span>
 </a>
@@ -702,7 +704,7 @@
             {% for row in rows %}
             <tr>
                 <td class="max-sm:hidden">{{ loop.index }}</td>
-                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
                 <td class="fs-table__pts">{{ row.comeback_wins }} <span class="text-xs font-medium text-ink-muted max-sm:hidden">/ {{ row.trailed }}</span></td>
                 <td class="max-sm:hidden">{{ row.trailed_points }}</td>
                 <td>{{ row.blown_leads }} <span class="text-xs text-ink-muted max-sm:hidden">/ {{ row.led }}</span></td>
@@ -740,7 +742,7 @@
                 {% for row in data.teams %}
                 <tr>
                     <td class="max-sm:hidden">{{ loop.index }}</td>
-                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}"><span class="fs-crest" data-crest="{{ row.team|crest_index }}" aria-hidden="true">{{ row.team|team_initials }}</span><span>{{ row.team }}</span></a></td>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
                     <td class="fs-table__pts">{{ row.total }}</td>
                     <td>{{ row.per_game }}</td>
                     {% for count in row.kinds %}<td class="max-sm:hidden">{{ count or '–' }}</td>{% endfor %}

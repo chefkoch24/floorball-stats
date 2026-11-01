@@ -69,6 +69,8 @@ def _player_rows(article, league, settings, phase):
             "team": team,
             "crest": crest_index(team),
             "initials": initials(team),
+            "logo": settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, phase, "share"),
+            "website_logo": settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, phase),
             # Looked up in TEAM_PAGES (plugins/rosters.py) to link the team.
             "team_page": [phase, team_key(team)],
             **_origin(league),
@@ -94,6 +96,8 @@ def _team_row(article, league, settings):
         "team": team,
         "crest": settings["JINJA_FILTERS"]["crest_index"](team),
         "initials": settings["JINJA_FILTERS"]["team_initials"](team),
+        "logo": settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, article.category.shortname, "share"),
+        "website_logo": settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)(team, article.category.shortname),
         **_origin(league),
         "games": int(_number(_value(article, "games"))),
         "pp": _number(_value(article, "powerplay_efficiency"), None),
