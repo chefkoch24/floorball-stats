@@ -141,7 +141,8 @@ a.fs-chip:hover { border-color: var(--rink); color: var(--rink); }
   font: 500 14px/1.3 var(--font-body);
   text-decoration: none;
 }
-.fs-team span:last-child { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
+.fs-team span:last-child,
+.fs-team span:has(+ .fs-match__place) { min-width: 0; overflow-wrap: anywhere; line-height: 1.25; }
 a.fs-team:hover span:last-child { color: var(--rink); }
 
 /* Form guide: last games, newest on the right */
@@ -208,6 +209,9 @@ a.fs-match:hover { border-color: var(--rink); }
 .fs-match .fs-team { display: flex; }
 .fs-match__loser { color: var(--ink-muted); }
 .fs-match__loser .fs-team { color: var(--ink-muted); }
+.fs-match__place { margin-left: auto; padding-left: var(--space-2); color: var(--ink-muted); font: 600 12px/1.4 var(--font-body); font-variant-numeric: tabular-nums; }
+.fs-match__venue { grid-row: 4; grid-column: 1 / -1; color: var(--ink-muted); font: 400 12px/1.3 var(--font-body); }
+.fs-status--top { background: var(--rink-soft); color: var(--rink); }
 
 /* Score strip: horizontal row of match cards */
 .fs-strip {
@@ -411,4 +415,16 @@ th.fs-abbr { text-decoration-thickness: 1px; }
   letter-spacing: 0;
   text-transform: none;
   pointer-events: none;
+}
+
+/* Compact select for table filters */
+.fs-select {
+  display: block;
+  margin-top: 2px;
+  padding: 4px var(--space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--ink);
+  font: 500 13px/1.4 var(--font-body);
 }

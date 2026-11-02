@@ -6,6 +6,10 @@
 {% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
 {% set teams = articles_page.object_list | sort_by_rank | selectattr('type', 'equalto', 'team') | list %}
 {% set games = articles_page.object_list | selectattr('type', 'equalto', 'game') | list %}
+{# Current table place per team, for the upcoming games ("#6 – #5", top games). #}
+{% set place_of = {} %}
+{% for team_row in teams %}{% if place_of.update({team_row.team: loop.index}) %}{% endif %}{% endfor %}
+{% set top_game_places = 4 %}
 {% set played_desc = games | rejectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date', reverse=true) | list %}
 {% set upcoming = games | selectattr('game_state', 'equalto', 'scheduled') | sort(attribute='date') | list %}
 {% set liga_reports = articles_page.object_list | selectattr('type', 'equalto', 'liga') | list %}
@@ -20,8 +24,8 @@
 {%- if ps > 0 or 'n.P.' in game.result_string|default('')|string %}PS{% elif ot > 0 or 'n.V.' in game.result_string|default('')|string %}OT{% endif -%}
 {%- endmacro %}
 
-{% macro team_label(name, size='') -%}
-<span class="fs-team">{{ crest(name, category.shortname, size) }}<span>{{ name }}</span></span>
+{% macro team_label(name, size='', place=none) -%}
+<span class="fs-team">{{ crest(name, category.shortname, size) }}<span>{{ name }}</span>{% if place %}<span class="fs-match__place" title="Place in the table">#{{ place }}</span>{% endif %}</span>
 {%- endmacro %}
 
 {% macro match_card(game) -%}
@@ -29,18 +33,22 @@
 {%- set hg = game.home_goals|default(0)|int -%}
 {%- set ag = game.away_goals|default(0)|int -%}
 {%- set extra = decision(game) -%}
+{%- set home_place = place_of.get(game.home_team) if scheduled else none -%}
+{%- set away_place = place_of.get(game.away_team) if scheduled else none -%}
 <a class="fs-match" href="{{ SITEURL }}/{{ game.url }}">
     <div class="fs-match__meta">
         <span>{{ game.date.strftime('%a %d %b') }}</span>
         {% if scheduled %}
         <span class="fs-status">{{ game.start_time|fmt_time('TBD') }}</span>
+        {% if home_place and away_place and home_place <= top_game_places and away_place <= top_game_places %}<span class="fs-status fs-status--top" title="Both teams are in the top {{ top_game_places }} of the table">Top game</span>{% endif %}
         {% else %}
         <span class="fs-status fs-status--final">Final{% if extra %} · {{ extra }}{% endif %}</span>
         {% endif %}
     </div>
     <div class="fs-match__teams">
-        <span class="{% if not scheduled and hg < ag %}fs-match__loser{% endif %}">{{ team_label(game.home_team) }}</span>
-        <span class="{% if not scheduled and ag < hg %}fs-match__loser{% endif %}">{{ team_label(game.away_team) }}</span>
+        <span class="{% if not scheduled and hg < ag %}fs-match__loser{% endif %}">{{ team_label(game.home_team, place=home_place) }}</span>
+        <span class="{% if not scheduled and ag < hg %}fs-match__loser{% endif %}">{{ team_label(game.away_team, place=away_place) }}</span>
+        {% if scheduled and game.venue|default('') %}<span class="fs-match__venue">{{ game.venue }}</span>{% endif %}
     </div>
     <div class="fs-match__scores">
         {% if scheduled %}<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>
@@ -123,6 +131,7 @@
 {# Jump links: the page is long on phones. Only sections this league has. #}
 {% set jumps = [('standings-title', 'Standings', true),
                 ('players', 'Players', player_stats.article and player_rows),
+                ('special-teams', 'Special teams', league_insights.special_teams is defined),
                 ('power-ranking', 'Power ranking', league_insights.power is defined and league_insights.power.rows),
                 ('table-history', 'Table history', league_insights.table_history is defined),
                 ('head-to-head', 'Head to head', league_insights.matrix is defined),
@@ -261,6 +270,8 @@
     </div>
 </section>
 {% endif %}
+
+{{ insights.league_special_teams(league_insights.special_teams) }}
 
 {{ insights.power_ranking(league_insights.power, category.slug) }}
 

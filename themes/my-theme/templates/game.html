@@ -22,6 +22,7 @@
         <span class="fs-status fs-status--final">Final{% if decision %} · {{ decision }}{% endif %}</span>
         {% endif %}
         <span class="fs-chip">{{ article.date.strftime('%a %d %b %Y') if article.date else 'Date tbd' }}{% if game_scheduled %} · {{ article.start_time|fmt_time('TBD') }}{% endif %}</span>
+        {% if article.venue|default('') %}<span class="fs-chip">{{ article.venue|e }}</span>{% endif %}
         {% if attendance_text and attendance_text != 'n.a.' %}<span class="fs-chip">{{ attendance_text }} spectators</span>{% endif %}
     </div>
     <div class="fs-scoreboard__main">
@@ -424,6 +425,9 @@ if (gameEventsTimeline) {
       const tag = event.tag && !['goal', 'penalty', 'penalty_2'].includes(event.tag)
         ? `<span class="event-timeline__tag">${escapeHtml(event.tag.replaceAll('_', ' '))}</span>`
         : '';
+      const situation = event.situation === 'pp' || event.situation === 'sh'
+        ? `<span class="event-timeline__tag event-timeline__tag--${event.situation}" title="${event.situation === 'pp' ? 'Powerplay goal' : 'Shorthanded goal'}">${event.situation === 'pp' ? 'PP' : 'SH'}</span>`
+        : '';
       const moment = event.moment
         ? `<span class="fs-status fs-status--final">${escapeHtml(event.moment)}</span>`
         : '';
@@ -445,6 +449,7 @@ if (gameEventsTimeline) {
             <p class="event-timeline__headline">${headline}</p>
             ${assistLine}
             ${tag}
+            ${situation}
             ${moment}
           </div>
         </article>

@@ -60,6 +60,7 @@
             <li class="stat-guide__item"><strong>Clutch points:</strong> Game-changing goals in the last ten minutes of regulation or in overtime, plus assists on them. Every overtime goal counts.</li>
             <li class="stat-guide__item"><strong>Game winners (GWG):</strong> The goal that gave the winner one more goal than the loser's final total (none after penalty shots).</li>
             <li class="stat-guide__item"><strong>Compare with another player:</strong> Opens the <a href="{{ SITEURL }}/compare-players.html?a={{ article.slug }}">player comparison</a> with this player chosen. Pick a second player to see both side by side for the latest season and the career; per-game values are the fair comparison across leagues (<a href="{{ SITEURL }}/stats-explained.html#compare-players">how it is counted</a>).</li>
+            <li class="stat-guide__item"><strong>PP / SH goals:</strong> Goals scored with a man up (powerplay) or a man down (shorthanded) in the games we track. A powerplay goal ends the opponent's minor penalty.</li>
             <li class="stat-guide__item"><strong>Scoring partners:</strong> Teammates this player scored from or set up most often this season.</li>
         </ul>
     </div>
@@ -93,9 +94,70 @@
     <article class="kpi"><p class="kpi-label">Penalty Minutes (PIM)</p><p class="kpi-value">{{ pim }}</p></article>
     <article class="kpi"><p class="kpi-label">Penalty Minutes per Game (PIM/Game)</p><p class="kpi-value">{{ pimg }}</p></article>
     {% if article.shots %}<article class="kpi"><p class="kpi-label">Shots</p><p class="kpi-value">{{ article.shots }}</p></article>{% endif %}
+    {% if article.special_goals %}
+    <article class="kpi"><p class="kpi-label">Powerplay goals (PP)</p><p class="kpi-value">{{ article.special_goals.pp }}</p></article>
+    <article class="kpi"><p class="kpi-label">Shorthanded goals (SH)</p><p class="kpi-value">{{ article.special_goals.sh }}</p></article>
+    {% endif %}
 </section>
 
 {{ insights.player_clutch(article.clutch, article.partners, article.player_trends) }}
+
+{% if article.game_log %}
+{% set log_seasons = article.game_log|map(attribute='season')|unique|list %}
+{% set log_competitions = article.game_log|map(attribute='competition')|unique|list %}
+<section class="panel" id="game-log" data-game-log>
+    <div class="flex flex-wrap items-center justify-between gap-3">
+        <h2 class="panel-title">Game log</h2>
+        <div class="flex flex-wrap gap-2">
+            {% if log_seasons|length > 1 %}
+            <label class="fs-label">Season
+                <select class="fs-select" data-log-filter="season"><option value="">All</option>{% for item in log_seasons %}<option value="{{ item }}">{{ item }}</option>{% endfor %}</select>
+            </label>
+            {% endif %}
+            {% if log_competitions|length > 1 %}
+            <label class="fs-label">Competition
+                <select class="fs-select" data-log-filter="competition"><option value="">All</option>{% for item in log_competitions %}<option value="{{ item }}">{{ item }}</option>{% endfor %}</select>
+            </label>
+            {% endif %}
+        </div>
+    </div>
+    <p class="fs-label m-0">Games with a goal or an assist, from the game events. PP and SH mark goals scored with a man up or down.</p>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr><th>Date</th><th>Game</th><th>Result</th><th>Competition</th><th>G</th><th>A</th><th>P</th><th>PP</th><th>SH</th></tr>
+            </thead>
+            <tbody>
+            {% for row in article.game_log %}
+            <tr data-season="{{ row.season }}" data-competition="{{ row.competition }}">
+                <td>{{ row.date }}</td>
+                <td><a href="{{ SITEURL }}/{{ row.url }}">{{ row.team }} {{ 'vs' if row.home else '@' }} {{ row.opponent }}</a></td>
+                <td><span class="result-pill result-pill--{{ {'W': 'win', 'L': 'loss', 'D': 'draw', 'OTW': 'ot-win', 'OTL': 'ot-loss'}[row.result] }}">{{ row.result }}</span> {{ row.score }}</td>
+                <td>{{ row.competition }}{% if row.phase == 'playoffs' %} · Playoffs{% endif %} {{ row.season }}</td>
+                <td>{{ row.goals }}</td>
+                <td>{{ row.assists }}</td>
+                <td>{{ row.goals + row.assists }}</td>
+                <td>{{ row.pp or '' }}</td>
+                <td>{{ row.sh or '' }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script>
+    (() => {
+      const root = document.querySelector('[data-game-log]');
+      if (!root) return;
+      const filters = Array.from(root.querySelectorAll('[data-log-filter]'));
+      const rows = Array.from(root.querySelectorAll('tbody tr'));
+      const apply = () => rows.forEach((row) => {
+        row.hidden = filters.some((select) => select.value && row.dataset[select.dataset.logFilter] !== select.value);
+      });
+      filters.forEach((select) => select.addEventListener('change', apply));
+    })();
+    </script>
+</section>
+{% endif %}
 
 <section class="panel">
     <h2 class="panel-title">Season Overview</h2>

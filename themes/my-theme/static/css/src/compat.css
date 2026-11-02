@@ -262,6 +262,8 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
+  .event-timeline__tag--pp { background: var(--win-soft); color: var(--win); }
+  .event-timeline__tag--sh { background: color-mix(in srgb, var(--ball-ink) 16%, transparent); color: var(--ball-ink); }
 
   /* Playoff bracket */
   .playoff-source { display: none; }

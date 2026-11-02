@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{# Crowds across all leagues (plugins/insights.py -> CROWD_ANALYSIS, src/crowd_stats.py). #}
+{% set seo_title = page.title ~ " | " ~ SITENAME %}
+{% set seo_description = page.summary|striptags %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = page.url %}
+{% set analysis = CROWD_ANALYSIS|default({}) %}
+{% set divisions = [('men', 'Men'), ('women', 'Women')] %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endblock %}
+
+{% macro number(value) -%}{{ '{:,.0f}'.format(value).replace(',', '’') }}{%- endmacro %}
+
+{% macro change(value) -%}
+{%- if value is none %}–{% elif value > 0 %}<span class="text-win">▲ +{{ (value * 100)|round|int }}%</span>{% elif value < 0 %}<span class="text-loss">▼ −{{ (-value * 100)|round|int }}%</span>{% else %}0%{% endif -%}
+{%- endmacro %}
+
+{# Horizontal bars for weekday / kick-off / phase averages. #}
+{% macro bars(rows, title) %}
+{% if rows|length > 1 %}
+{% set top = rows|map(attribute='average')|max %}
+<div class="grid gap-1">
+    <h4 class="fs-label m-0">{{ title }}</h4>
+    <ul class="m-0 grid list-none gap-1 p-0">
+        {% for row in rows %}
+        <li class="grid grid-cols-[7.5rem_minmax(0,1fr)_auto] items-center gap-2 text-sm {% if not row.enough %}opacity-60{% endif %}" {% if not row.enough %}title="Only {{ row.games }} game{{ 's' if row.games != 1 else '' }}"{% endif %}>
+            <span class="text-ink-muted">{{ row.label }}</span>
+            <span class="h-2 overflow-hidden rounded-pill bg-surface-sunken"><span class="block h-full rounded-pill bg-rink" style="width: {{ (row.average / top * 100)|round(1) }}%"></span></span>
+            <span class="font-display font-bold tabular-nums text-ink">{{ number(row.average) }} <span class="text-xs font-normal text-ink-muted">({{ row.games }})</span></span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endmacro %}
+
+{% block content %}
+<article class="mx-auto grid max-w-5xl gap-10 text-ink">
+    <header class="grid gap-3">
+        <h1 class="m-0 font-display text-[40px] leading-none font-extrabold [font-stretch:75%] text-balance sm:text-[56px]">{{ page.title }}</h1>
+        <p class="m-0 max-w-3xl text-ink-muted">Attendance as the leagues publish it in their game reports. Only games with a published number count, so figures are averages over those games. <a href="{{ SITEURL }}/stats-explained.html#crowds">How it works</a></p>
+        <nav class="flex flex-wrap gap-2" aria-label="On this page">
+            {% for key, label in divisions if analysis.get(key) %}<a class="fs-chip" href="#compare-{{ key }}">{{ label }} leagues compared</a>{% endfor %}
+            <a class="fs-chip" href="#details">League details</a>
+        </nav>
+    </header>
+
+    {% for key, label in divisions if analysis.get(key) %}
+    <section id="compare-{{ key }}" class="grid gap-3 scroll-mt-24" aria-labelledby="compare-{{ key }}-title">
+        <h2 id="compare-{{ key }}-title" class="fs-section-title">{{ label }} leagues compared</h2>
+        <div class="fs-table-wrap">
+            <table class="fs-table">
+                <thead>
+                <tr>
+                    <th scope="col" class="fs-table__team">League</th>
+                    <th scope="col" title="Season">Season</th>
+                    <th scope="col" title="Average crowd per game">Avg</th>
+                    <th scope="col" class="max-sm:hidden" title="Median crowd per game">Median</th>
+                    <th scope="col" title="Change of the average against the previous season we have">Δ prev.</th>
+                    <th scope="col" class="max-sm:hidden" title="Games with a published crowd">Games</th>
+                    <th scope="col" class="max-sm:hidden" title="All spectators at those games">Total</th>
+                    <th scope="col" title="Biggest crowd of the season">Highest</th>
+                    <th scope="col" class="max-sm:hidden" title="Largest home average divided by the smallest: how uneven the crowds are">Gap</th>
+                    <th scope="col" class="max-sm:hidden" title="Share of all home averages held by the three best-attended teams">Top 3</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for league in analysis[key] %}
+                {% set c = league.current %}
+                <tr>
+                    <td class="fs-table__team"><a href="#league-{{ league.prefix|default('de', true)|replace('-', '') }}">{{ league.name }}</a> <span class="text-xs text-ink-muted">{{ league.country }}</span></td>
+                    <td>{{ league.season|replace('-', '/') }}</td>
+                    <td class="fs-table__pts">{{ number(c.average) }}</td>
+                    <td class="max-sm:hidden">{{ number(c.median) }}</td>
+                    <td>{{ change(c.change) }}</td>
+                    <td class="max-sm:hidden">{{ c.games }}</td>
+                    <td class="max-sm:hidden">{{ number(c.total) }}</td>
+                    <td><a href="{{ SITEURL }}/{{ c.highest_game.url }}" title="{{ c.highest_game.home }} – {{ c.highest_game.away }}">{{ number(c.highest) }}</a></td>
+                    <td class="max-sm:hidden">{% if c.gradient %}{{ '%.1f'|format(c.gradient) }}×{% else %}–{% endif %}</td>
+                    <td class="max-sm:hidden">{% if c.top_share %}{{ (c.top_share * 100)|round|int }}%{% else %}–{% endif %}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endfor %}
+
+    <section id="details" class="grid gap-4 scroll-mt-24" aria-labelledby="details-title">
+        <h2 id="details-title" class="fs-section-title">League details</h2>
+        {% for key, label in divisions if analysis.get(key) %}
+        {% for league in analysis[key] %}
+        <section id="league-{{ league.prefix|default('de', true)|replace('-', '') }}" class="grid gap-4 rounded-lg border border-line bg-surface-raised p-4 scroll-mt-24" aria-labelledby="league-{{ loop.index }}-{{ key }}-title">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 id="league-{{ loop.index }}-{{ key }}-title" class="fs-panel-title">{{ league.name }} <span class="text-sm font-normal text-ink-muted">{{ league.country }} · {{ label }}</span></h3>
+                <a class="text-sm" href="{{ SITEURL }}/{{ league.slug }}.html">League page</a>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="grid content-start gap-1">
+                    <h4 class="fs-label m-0">Development over seasons</h4>
+                    <div class="fs-table-wrap">
+                        <table class="fs-table">
+                            <thead><tr><th scope="col">Season</th><th scope="col">Avg</th><th scope="col" class="max-sm:hidden">Median</th><th scope="col">Total</th><th scope="col">Highest</th></tr></thead>
+                            <tbody>
+                            {% for row in league.seasons %}
+                            <tr><td>{{ row.season|replace('-', '/') }}</td><td class="fs-table__pts">{{ number(row.average) }}</td><td class="max-sm:hidden">{{ number(row.median) }}</td><td>{{ number(row.total) }}</td><td>{{ number(row.highest) }}</td></tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="m-0 text-xs text-ink-muted">Averages are over games with a published crowd; a running season only has its first rounds.</p>
+                </div>
+                <div class="grid content-start gap-4">
+                    {{ bars(league.weekdays, 'Average by weekday, ' ~ league.season|replace('-', '/')) }}
+                    {{ bars(league.kickoffs, 'Average by kick-off time, ' ~ league.season|replace('-', '/')) }}
+                    {{ bars(league.phases, 'Regular season and playoffs, ' ~ league.season|replace('-', '/')) }}
+                </div>
+            </div>
+        </section>
+        {% endfor %}
+        {% endfor %}
+    </section>
+</article>
+{% endblock %}

@@ -45,6 +45,8 @@
             <a class="fs-chip" href="#compare-players">Compare two players</a>
             <a class="fs-chip" href="#crowds">Crowds</a>
             <a class="fs-chip" href="#penalties">Penalties</a>
+            <a class="fs-chip" href="#special-teams">Special teams</a>
+            <a class="fs-chip" href="#game-log">Game log</a>
             <a class="fs-chip" href="#data">Data</a>
         </nav>
     </header>
@@ -254,6 +256,7 @@
     <section id="crowds" class="grid gap-4 scroll-mt-24" aria-labelledby="crowds-title">
         <h2 id="crowds-title" class="fs-section-title">Crowds</h2>
         <p>Average attendance of a team's home games that have a published number, as the leagues report it. The leaders page compares all leagues, with at least {{ m.crowd_min_games }} home games per team.</p>
+        <p>The <a href="{{ SITEURL }}/crowds.html">crowds page</a> compares the leagues for the newest season we have: average, median, the change of the average against the previous season, all spectators, the biggest crowd and two measures of how uneven a league is. <strong>Gap</strong> is the best home average divided by the smallest; <strong>Top 3</strong> is the share of all home averages that the three best-attended teams hold. Weekday, kick-off time and the split into regular season and playoffs use single games, so a bar built from fewer than {{ m.crowd_bucket_min_games }} games is shown faded.</p>
     </section>
 
     <section id="penalties" class="grid gap-4 scroll-mt-24" aria-labelledby="penalties-title">
@@ -267,6 +270,22 @@
             <li><strong>Match:</strong> match penalty, the player is sent off and the team plays five minutes short-handed.</li>
         </ul>
         <p>Penalty minutes (PIM) on player pages come from the leagues' own player statistics; the counts here come from the game events, so a game without an event list adds no penalties.</p>
+    </section>
+
+    <section id="special-teams" class="grid gap-4 scroll-mt-24" aria-labelledby="special-teams-title">
+        <h2 id="special-teams-title" class="fs-section-title">Special teams</h2>
+        <p>The league pages compare how teams play with a man up or down. Both rates come from the game reports:</p>
+        <ul class="m-0 grid gap-1 pl-5">
+            <li><strong>PP / PP%:</strong> goals scored in a powerplay, per powerplay. A powerplay starts with a penalty against the opponent.</li>
+            <li><strong>BP / PK%:</strong> goals conceded while a team was a man down, per penalty taken. The penalty kill rate is the share of penalties that did not cost a goal.</li>
+            <li><strong>SH:</strong> goals scored by a team while it was a man down.</li>
+        </ul>
+        <p>In the chart, teams further right have the better powerplay and teams higher up the better penalty kill; the cross marks the league average. A powerplay goal ends the opponent's minor penalty, so only one goal counts per minor penalty. Player pages and game timelines use the same rules to mark powerplay (PP) and shorthanded (SH) goals from the penalties and goals in the game events.</p>
+    </section>
+
+    <section id="game-log" class="grid gap-4 scroll-mt-24" aria-labelledby="game-log-title">
+        <h2 id="game-log-title" class="fs-section-title">Game log</h2>
+        <p>Player pages list every tracked game in which the player scored or set up a goal, with the result from the player's team view. The sources publish no line-ups, so games without a point are not listed; the totals in the table above the log come from the leagues' own player statistics.</p>
     </section>
 
     <section id="data" class="grid gap-4 scroll-mt-24" aria-labelledby="data-title">
