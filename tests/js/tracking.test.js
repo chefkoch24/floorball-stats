@@ -149,7 +149,7 @@ test('clicking an already selected filter option sends nothing, a new one sends 
   listeners.click({ target: other });
   listeners.click({ target: other });
   assert.equal(calls.length, 1);
-  assert.equal(calls[0][0], 'filter_changed');
+  assert.equal(calls[0][0], 'division_changed');
   assert.equal(calls[0][1].filter_name, 'division');
   assert.equal(calls[0][1].filter_value, 'women');
 });
@@ -180,6 +180,7 @@ test('league links report the target league, season and phase; selects report on
   listeners.click({ target: target({ [sel]: true, '.fs-league-card': card }, { href: '/category/czw-25-26-playoffs.html' }, { tag: 'A' }) });
   // closest('.fs-league-card') is looked up on the link itself, so the home-page scope needs the card match.
   assert.equal(calls.length, 1);
+  assert.equal(calls[0][0], 'league_selected');
   assert.deepEqual([calls[0][1].filter_name, calls[0][1].filter_value, calls[0][1].target_season, calls[0][1].target_phase, calls[0][1].filter_scope],
     ['league', 'czw', '25-26', 'playoffs', 'home']);
 
@@ -190,7 +191,7 @@ test('league links report the target league, season and phase; selects report on
   select.value = '25-26';
   listeners.change({ target: select });
   assert.equal(calls.length, 2);
-  assert.deepEqual([calls[1][1].filter_name, calls[1][1].filter_value], ['season', '25-26']);
+  assert.deepEqual([calls[1][0], calls[1][1].filter_name, calls[1][1].filter_value], ['season_changed', 'season', '25-26']);
 });
 
 test('on localhost events are logged instead of sent', () => {
@@ -225,4 +226,22 @@ test('a banner marked data-track-view reports <name>_viewed once when it is in v
   assert.equal(calls[0][0], 'support_floorball_stats_viewed');
   assert.equal(calls[0][1].cta_step, 'viewed');
   assert.deepEqual(unobserved, [banner]);
+});
+
+test('segment buttons are named after their group label and searches after the search box', () => {
+  const { win, calls, listeners } = fakeWindow('/category/se-26-27-regular-season.html');
+  fbTrack.init(win);
+  const group = { getAttribute: (name) => (name === 'aria-label' ? 'Table columns' : null) };
+  const rates = target({ '.fs-segment[data-view]': true, '[data-track-group], [role="group"][aria-label]': group }, { 'data-view': 'rates', 'aria-pressed': 'false' });
+  listeners.click({ target: rates });
+  assert.equal(calls[0][0], 'table_columns_changed');
+  assert.equal(calls[0][1].filter_value, 'rates');
+  const tracker = fbTrack.searchTracker('player_search', { search_scope: 'category_players' });
+  tracker.update('matt', 3);
+  tracker.flush();
+  assert.equal(calls[1][0], 'player_search_used');
+  assert.equal(calls[1][1].search_scope, 'category_players');
+  fbTrack.searchOpened('site_search');
+  fbTrack.searchResultClicked('site_search', 'team', 1);
+  assert.deepEqual(calls.slice(2).map((c) => c[0]), ['site_search_opened', 'site_search_result_clicked']);
 });

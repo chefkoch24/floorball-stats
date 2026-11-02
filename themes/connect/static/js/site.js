@@ -204,7 +204,7 @@
     apply();
   }));
   if (search) {
-    const searchTracker = track.searchTracker('connect_collection');
+    const searchTracker = track.searchTracker('collection_search');
     search.addEventListener('input', () => {
       apply();
       searchTracker.update(search.value, count ? Number(count.textContent) : 0);

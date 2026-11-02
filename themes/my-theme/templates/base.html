@@ -369,7 +369,7 @@ const fbTrack = window.fbTrack || {
   searchTracker: () => ({ update() {}, flush() {} }),
   searchOpened() {}, searchResultClicked() {}, ctaClicked() {}, ctaCompleted() {}, ctaFailed() {}, slugify: (value) => String(value || '')
 };
-const globalSearchTracker = fbTrack.searchTracker('site');
+const globalSearchTracker = fbTrack.searchTracker('site_search');
 let lastSearchQuery = '';
 
 function detectDeviceType() {
@@ -480,7 +480,7 @@ function renderSearchResults(query, matches) {
     link.querySelector('.search-result-type').textContent = item.type;
     link.addEventListener('click', function () {
       globalSearchTracker.flush();
-      fbTrack.searchResultClicked('site', normalizeForSearch(item.type), position + 1);
+      fbTrack.searchResultClicked('site_search', normalizeForSearch(item.type), position + 1);
       closeSearchModal();
     });
     li.appendChild(link);
@@ -516,7 +516,7 @@ function openSearchModal() {
   }
   searchModal.hidden = false;
   document.body.classList.add('feedback-modal-open');
-  fbTrack.searchOpened('site');
+  fbTrack.searchOpened('site_search');
   loadSearchIndex()
     .then(function (items) {
       if (!lastSearchQuery) {
