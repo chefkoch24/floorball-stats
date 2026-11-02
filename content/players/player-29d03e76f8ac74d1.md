@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ralfs Edvards Grīnvalds
 Category: players
 Slug: player-29d03e76f8ac74d1
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 2
-rank: 95
+rank: 93
 season: lv-25-26

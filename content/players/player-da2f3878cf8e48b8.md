@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ellen Gunnarsson
 Category: players
 Slug: player-da2f3878cf8e48b8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 118
+rank: 121
 season: sew-26-27

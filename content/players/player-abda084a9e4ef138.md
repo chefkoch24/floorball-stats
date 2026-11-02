@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tobias Schaffner
 Category: players
 Slug: player-abda084a9e4ef138
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 303
+rank: 305
 season: ch-26-27

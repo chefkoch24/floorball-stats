@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sebastian Daniško
 Category: players
 Slug: player-92b4c521bbd84c8e

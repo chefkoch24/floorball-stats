@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Raivo Kīsnics
 Category: players
 Slug: player-c8b4a22a1b1f2fc5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 3
-rank: 66
+rank: 65
 season: lv-25-26

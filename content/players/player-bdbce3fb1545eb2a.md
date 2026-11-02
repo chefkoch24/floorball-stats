@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Taimi Mikkola
 Category: players
 Slug: player-bdbce3fb1545eb2a

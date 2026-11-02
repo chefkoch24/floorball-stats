@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kaja Anderegg
 Category: players
 Slug: player-f078d2efda611ce2
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 107
+rank: 110
 season: chw-26-27

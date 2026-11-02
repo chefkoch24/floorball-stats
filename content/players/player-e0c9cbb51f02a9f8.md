@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Robin Savi
 Category: players
 Slug: player-e0c9cbb51f02a9f8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 73
+rank: 76
 season: lvw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ella Carlén
 Category: players
 Slug: player-66b0f6ba562e7eb2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 206
+rank: 207
 season: sew-26-27

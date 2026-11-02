@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Andrejs Šķerbergs
 Category: players
 Slug: player-0a2ec65de8602b71

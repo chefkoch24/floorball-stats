@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Eliška Šebestová
 Category: players
 Slug: player-98d8eccab35462d2

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Vera Meer
 Category: players
 Slug: player-ea1cff19bcceea6c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 241
+rank: 242
 season: chw-26-27

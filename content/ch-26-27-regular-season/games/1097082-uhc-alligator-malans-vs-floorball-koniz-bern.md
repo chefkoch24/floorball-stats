@@ -315,6 +315,7 @@ home_pregame_points_against_floorball_chur_united: 3
 home_pregame_points_against_floorball_koniz_bern: 2
 home_pregame_points_against_floorball_thurgau: 0
 home_pregame_points_against_sv_wiler_ersigen: 0
+home_pregame_points_against_tigers_langnau: 0
 home_pregame_points_against_wasa_st_gallen: 3
 home_pregame_points_against_zug_united: 0
 home_pregame_points_max_difference_2: 6

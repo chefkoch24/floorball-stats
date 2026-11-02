@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Vendula Štolbová
 Category: players
 Slug: player-4c847aeb3edd0e1e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 102
+rank: 110
 season: czw-26-27

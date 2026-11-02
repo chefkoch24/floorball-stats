@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa-Marie Möbius
 Category: players
 Slug: player-a43025abfd4c8275

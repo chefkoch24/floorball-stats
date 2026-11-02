@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emelie Lindberg
 Category: players
 Slug: player-0aa69211d8eebd0f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 211
+rank: 212
 season: sew-26-27

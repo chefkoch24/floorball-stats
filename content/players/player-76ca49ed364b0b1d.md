@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Fanny Lilja
 Category: players
 Slug: player-76ca49ed364b0b1d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 73
+rank: 80
 season: sew-26-27

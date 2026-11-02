@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Treneris Morten Talviste
 Category: players
 Slug: player-16cac39df02d68a3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 79
+rank: 83
 season: lvw-26-27

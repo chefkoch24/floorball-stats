@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kateřina Vrlová
 Category: players
 Slug: player-146b47c1fcde9c57
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 242
+rank: 247
 season: czw-26-27

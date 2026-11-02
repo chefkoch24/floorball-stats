@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tuomas Mattila
 Category: players
 Slug: player-f4365748edc5bf54
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 111
+rank: 115
 season: fi-26-27

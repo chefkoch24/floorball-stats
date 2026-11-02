@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tomáš Vinkler
 Category: players
 Slug: player-1ed67239d9ad0b4a
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 208
+rank: 211
 season: cz-26-27

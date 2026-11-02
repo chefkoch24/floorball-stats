@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pascal Reichert
 Category: players
 Slug: player-0caddf2a9c21c61e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 288
+rank: 290
 season: ch-26-27

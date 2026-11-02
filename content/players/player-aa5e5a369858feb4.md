@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Viggo Wallin
 Category: players
 Slug: player-aa5e5a369858feb4

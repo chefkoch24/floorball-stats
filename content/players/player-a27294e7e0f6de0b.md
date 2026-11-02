@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Livia Ankli
 Category: players
 Slug: player-a27294e7e0f6de0b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 195
+rank: 199
 season: chw-26-27

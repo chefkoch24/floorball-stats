@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Annika Hautojärvi
 Category: players
 Slug: player-3971b76d7c33dce6

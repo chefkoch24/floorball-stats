@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Laura Hietamäki
 Category: players
 Slug: player-0bd99f9bf9646b6c

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marek Kadlec
 Category: players
 Slug: player-f90adfba310781f5
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 8
-rank: 67
+rank: 74
 season: cz-26-27

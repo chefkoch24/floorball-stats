@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Samuel Marko Bieleš
 Category: players
 Slug: player-bbfa66ad3ab6999a

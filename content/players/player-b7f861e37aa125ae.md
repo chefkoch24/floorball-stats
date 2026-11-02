@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Benjamin Kiddie
 Category: players
 Slug: player-b7f861e37aa125ae

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Gustavs Silins
 Category: players
 Slug: player-8a3d5c5fbf5e50b8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 219
+rank: 223
 season: ch-26-27

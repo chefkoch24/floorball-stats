@@ -6,19 +6,19 @@ type: game
 game_id: 1097625
 home_team: Floorball Chur United
 away_team: UHV Skorpion Emmental
-attendance: 0
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 267
+away_goal_diffs_csv: 0
+away_goal_minutes_csv: 27.9
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMTA6MzkiLCJwZXJpb2QiOjEsInRlYW0iOiJGbG9vcmJhbGwgQ2h1ciBVbml0ZWQiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlJhaGVsIFd5c3MiLCJ0aXRsZV91aWQiOiJwbGF5ZXItZjFmOWFhOWZmNGI5NDlmOCIsImFzc2lzdCI6bnVsbCwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDc6NTQiLCJwZXJpb2QiOjIsInRlYW0iOiJVSFYgU2tvcnBpb24gRW1tZW50YWwiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMToxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkthdGXFmWluYSBTdHJuYWRvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLWQzMWM1NmQyNjhjZjk3ZjYiLCJhc3Npc3QiOiJBbGluZSBNYXJ0aSIsImFzc2lzdF91aWQiOiJwbGF5ZXItOGY3ZTQ1MTNmNWE5NDVhNiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEwOjAxIiwicGVyaW9kIjoyLCJ0ZWFtIjoiRmxvb3JiYWxsIENodXIgVW5pdGVkIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJDw6lsaW5lIFZhZXJpbmkiLCJ0aXRsZV91aWQiOm51bGwsImFzc2lzdCI6IlJvbmphIEZsb3JpbiIsImFzc2lzdF91aWQiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjQwOjAwIiwicGVyaW9kIjoyLCJ0ZWFtIjpudWxsLCJzaWRlIjoiYnJlYWsiLCJzY29yZSI6bnVsbCwiZXZlbnRfa2luZCI6ImJyZWFrIiwidGl0bGUiOiJFbmQgMm5kIHBlcmlvZCIsImFzc2lzdCI6bnVsbCwidGFnIjpudWxsfSx7Im1pbnV0ZSI6IjAyOjIzIiwicGVyaW9kIjozLCJ0ZWFtIjoiRmxvb3JiYWxsIENodXIgVW5pdGVkIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJSYWhlbCBXeXNzIiwidGl0bGVfdWlkIjoicGxheWVyLWYxZjlhYTlmZjRiOTQ5ZjgiLCJhc3Npc3QiOiJOb2VtaSBBbmRlcmVnZyIsImFzc2lzdF91aWQiOiJwbGF5ZXItNDRiZDRkMWE2NTk3ZjFlMiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEwOjAzIiwicGVyaW9kIjozLCJ0ZWFtIjoiRmxvb3JiYWxsIENodXIgVW5pdGVkIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjQ6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJLaWlhIEtva2tvIiwidGl0bGVfdWlkIjoicGxheWVyLWI5ODk1NmYzOTEzMmNhNzEiLCJhc3Npc3QiOiJDw6lsaW5lIFZhZXJpbmkiLCJhc3Npc3RfdWlkIjpudWxsLCJ0YWciOiJnb2FsIn1d
+game_events_count: 7
+game_state: played
+game_status: None
+home_goal_diffs_csv: 1,1,2,3
+home_goal_minutes_csv: 10.65,30.02,42.38,50.05
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 50.0
 pregame_h2h_special_away_pp_eff: 42.86
 pregame_h2h_special_home_pk_eff: 80.0
 pregame_h2h_special_home_pp_eff: 60.0
-result_string: None
+result_string: 4:1 (1:0, 1:1, 2:0)
 start_time: 17:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,0,1,1,1,1
+timeline_diffs_csv: 0,1,0,1,2,3
+timeline_home_goals_csv: 0,1,1,2,3,4
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,10.65,27.9,30.02,42.38,50.05
 venue: Sporthalle Fortuna Chur
 home_away_points: 0
 home_boxplay: 0
@@ -89,34 +89,34 @@ home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
+home_draws: 0
 home_equalizer_goals: 0
-home_equalizer_goals_against: 0
-home_first_goal_of_match: 0
+home_equalizer_goals_against: 1
+home_first_goal_of_match: 1
 home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_games: 1
+home_goal_difference: 3
+home_goals: 4
+home_goals_against: 1
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 1
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 4
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
+home_goals_in_first_period: 1
 home_goals_in_first_period_against: 0
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_second_period: 1
+home_goals_in_second_period_against: 1
+home_goals_in_third_period: 2
 home_goals_in_third_period_against: 0
-home_home_points: 1
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -134,26 +134,27 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
-home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
+home_points_after_first_period: 3
+home_points_after_second_period: 3
+home_points_after_third_period: 3
+home_points_against_uhv_skorpion_emmental: 3
 home_points_max_difference_2: 0
-home_points_more_2_difference: 0
+home_points_more_2_difference: 3
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
+home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 0
 home_win_1: 0
-home_wins: 0
-away_away_points: 1
+home_wins: 1
+away_away_points: 0
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -163,36 +164,36 @@ away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
-away_equalizer_goals: 0
+away_draws: 0
+away_equalizer_goals: 1
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
-away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_first_goal_of_match_against: 1
+away_games: 1
+away_goal_difference: -3
+away_goals: 1
+away_goals_against: 4
+away_goals_against_away: 4
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 1
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period_against: 1
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
+away_goals_in_second_period: 1
+away_goals_in_second_period_against: 1
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 2
 away_home_points: 0
 away_loss_1: 0
-away_losses: 0
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
 away_penalties: 0
@@ -208,13 +209,14 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 0
+away_points_against_floorball_chur_united: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -224,7 +226,7 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals_against: 2
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 4
@@ -312,6 +314,7 @@ home_pregame_points_after_third_period: 10
 home_pregame_points_against_kloten_dietlikon_jets: 3
 home_pregame_points_against_red_ants_winterthur: 3
 home_pregame_points_against_uhc_laupen_zh: 3
+home_pregame_points_against_uhv_skorpion_emmental: 3
 home_pregame_points_against_unihockey_berner_oberland: 0
 home_pregame_points_against_wizards_bern_burgdorf: 1
 home_pregame_points_max_difference_2: 4
@@ -412,6 +415,7 @@ away_pregame_points_after_first_period_per_game: 2.4
 away_pregame_points_after_second_period: 15
 away_pregame_points_after_third_period: 11
 away_pregame_points_against_fb_riders_dbr: 3
+away_pregame_points_against_floorball_chur_united: 0
 away_pregame_points_against_floorball_uri: 3
 away_pregame_points_against_kloten_dietlikon_jets: 1
 away_pregame_points_against_unihockey_berner_oberland: 3

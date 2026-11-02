@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Olivia Pehrson
 Category: players
 Slug: player-1a26f4dd3ab27b0b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 269
+rank: 270
 season: sew-26-27

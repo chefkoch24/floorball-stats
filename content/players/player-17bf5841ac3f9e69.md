@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Václav Oubrecht
 Category: players
 Slug: player-17bf5841ac3f9e69

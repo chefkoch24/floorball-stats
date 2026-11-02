@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Matias Vaajala
 Category: players
 Slug: player-e7ca444888b3de23
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 60
+rank: 64
 season: fi-26-27

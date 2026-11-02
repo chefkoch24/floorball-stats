@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Janis Graf
 Category: players
 Slug: player-ae69f068383fc43a
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 18
+rank: 20
 season: ch-26-27

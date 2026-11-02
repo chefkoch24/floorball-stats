@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Maël Rychener
 Category: players
 Slug: player-02d8b0daa6b41ff4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 266
+rank: 268
 season: ch-26-27

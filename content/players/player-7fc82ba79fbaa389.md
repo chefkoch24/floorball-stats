@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Thea Ekholt
 Category: players
 Slug: player-7fc82ba79fbaa389
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 280
+rank: 281
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jiří Hanzal
 Category: players
 Slug: player-5e2b10eeba26834f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 128
+rank: 131
 season: cz-26-27

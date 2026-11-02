@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Heidi Eklund
 Category: players
 Slug: player-796901db775a9bfe
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 60
+rank: 64
 season: sew-26-27

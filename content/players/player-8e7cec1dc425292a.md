@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Julius Tuominen
 Category: players
 Slug: player-8e7cec1dc425292a
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 175
+rank: 179
 season: fi-26-27

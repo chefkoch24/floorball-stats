@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Isa Grängsjö
 Category: players
 Slug: player-34dff463ddb94598
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 57
+rank: 60
 season: sew-26-27

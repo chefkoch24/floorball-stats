@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Hampus Morelius
 Category: players
 Slug: player-3263eedb3d6971dd

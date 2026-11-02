@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nelia Ahlholm
 Category: players
 Slug: player-1b36f320a5a5a5ce
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 181
+rank: 182
 season: sew-26-27

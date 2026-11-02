@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alice Hägglund
 Category: players
 Slug: player-9c1fa162be37f5c8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 189
+rank: 190
 season: sew-26-27

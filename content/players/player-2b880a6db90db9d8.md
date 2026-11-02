@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sanna Olsson
 Category: players
 Slug: player-2b880a6db90db9d8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 86
+rank: 88
 season: sew-26-27

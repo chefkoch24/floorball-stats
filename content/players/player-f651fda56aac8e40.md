@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Matteo Gervasoni
 Category: players
 Slug: player-f651fda56aac8e40
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 51
+rank: 52
 season: ch-26-27

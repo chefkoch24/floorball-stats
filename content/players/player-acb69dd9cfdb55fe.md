@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Oscar Smith
 Category: players
 Slug: player-acb69dd9cfdb55fe

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Heikki Iiskola
 Category: players
 Slug: player-7fe599763d17db2d

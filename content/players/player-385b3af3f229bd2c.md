@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Guntars Krukovskis
 Category: players
 Slug: player-385b3af3f229bd2c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 204
+rank: 196
 season: lv-25-26

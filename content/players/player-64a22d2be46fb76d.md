@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emilia Masuhr
 Category: players
 Slug: player-64a22d2be46fb76d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 168
+rank: 170
 season: sew-26-27

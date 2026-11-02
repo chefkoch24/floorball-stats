@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nicole Siegenthaler
 Category: players
 Slug: player-3a621b16a1cd98aa
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 113
+rank: 116
 season: chw-26-27

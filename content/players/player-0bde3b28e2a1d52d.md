@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Klinta Rovīte
 Category: players
 Slug: player-0bde3b28e2a1d52d
@@ -11,12 +11,12 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 3
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|2|0|1|1|0
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|3|0|1|1|0
 assists: 1
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 39
+rank: 41
 season: lvw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pavel Zeman
 Category: players
 Slug: player-f0dea78e3a2c53d0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 329
+rank: 332
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Juris Butans
 Category: players
 Slug: player-b49f25b2d3cf2ba2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 287
+rank: 279
 season: lv-25-26

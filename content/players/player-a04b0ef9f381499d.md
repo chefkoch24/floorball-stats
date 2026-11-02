@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Joona Mattila
 Category: players
 Slug: player-a04b0ef9f381499d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 192
+rank: 194
 season: fi-26-27

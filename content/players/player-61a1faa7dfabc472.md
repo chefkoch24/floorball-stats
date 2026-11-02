@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ratúzky Andrej
 Category: players
 Slug: player-61a1faa7dfabc472

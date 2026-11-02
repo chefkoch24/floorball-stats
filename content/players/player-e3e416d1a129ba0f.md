@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sindy Rüegger
 Category: players
 Slug: player-e3e416d1a129ba0f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 62
+rank: 70
 season: chw-26-27

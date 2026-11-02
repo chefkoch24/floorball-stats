@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Viktor Pyszko
 Category: players
 Slug: player-c2909c3afd6c4a11
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 357
+rank: 359
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kārlis Degins ( 12 Endijs Umberts Barruss) )
 Category: players
 Slug: player-ebe76fc60d403780
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 206
+rank: 198
 season: lv-25-26

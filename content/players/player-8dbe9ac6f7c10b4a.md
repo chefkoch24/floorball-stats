@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Klára Jiříková
 Category: players
 Slug: player-8dbe9ac6f7c10b4a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 12
+rank: 14
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jesper Sankell
 Category: players
 Slug: player-1ce666b611ebb97a

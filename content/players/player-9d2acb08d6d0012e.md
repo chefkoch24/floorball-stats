@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kristýna Gajdečková
 Category: players
 Slug: player-9d2acb08d6d0012e
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 25
+rank: 31
 season: czw-26-27

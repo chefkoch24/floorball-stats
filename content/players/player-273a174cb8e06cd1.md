@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Kristaps Jakāns
 Category: players
 Slug: player-273a174cb8e06cd1
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 191
+rank: 189
 season: lv-25-26

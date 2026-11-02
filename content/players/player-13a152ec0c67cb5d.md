@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sami Tuominen
 Category: players
 Slug: player-13a152ec0c67cb5d

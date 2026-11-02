@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Keita Balode
 Category: players
 Slug: player-bb440d24a2cbd136
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 58
+rank: 61
 season: lvw-26-27

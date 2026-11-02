@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Gabriela Vaculová
 Category: players
 Slug: player-8567dcac7ff93273
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 73
+rank: 80
 season: czw-26-27

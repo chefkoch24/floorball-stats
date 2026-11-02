@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Fannie Granath
 Category: players
 Slug: player-db60f7f2bccde316
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 219
+rank: 220
 season: sew-26-27

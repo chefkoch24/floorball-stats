@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alens Briņķis
 Category: players
 Slug: player-941f5c011c00ee2f
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 129
+rank: 127
 season: lv-25-26

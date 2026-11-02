@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3

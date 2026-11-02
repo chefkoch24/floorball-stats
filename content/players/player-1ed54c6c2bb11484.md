@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Annija Dārta Dankfelde
 Category: players
 Slug: player-1ed54c6c2bb11484
@@ -11,15 +11,15 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
-current_goals: 2
-current_assists: 3
-current_points: 5
+current_games: 5
+current_goals: 3
+current_assists: 4
+current_points: 7
 current_pim: 2
-regular_games: 4
-regular_goals: 2
-regular_assists: 3
-regular_points: 5
+regular_games: 5
+regular_goals: 3
+regular_assists: 4
+regular_points: 7
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 2
-career_assists: 3
-career_points: 5
+career_games: 5
+career_goals: 3
+career_assists: 4
+career_points: 7
 career_pim: 2
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|4|2|3|5|2
-assists: 3
-games: 4
-goals: 2
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|5|3|4|7|2
+assists: 4
+games: 5
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 5
-rank: 9
+points: 7
+rank: 8
 season: lvw-26-27

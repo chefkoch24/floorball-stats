@@ -315,6 +315,7 @@ home_pregame_points_after_third_period: 0
 home_pregame_points_against_1_sc_tempish_vitkovice: 0
 home_pregame_points_against_acema_sparta_praha: 0
 home_pregame_points_against_ba_sokoli_pardubice: 0
+home_pregame_points_against_bulldogs_brno: 0
 home_pregame_points_against_fat_pipe_florbal_chodov: 0
 home_pregame_points_against_fbc_clt_ceska_lipa: 0
 home_pregame_points_against_florbal_usti: 0

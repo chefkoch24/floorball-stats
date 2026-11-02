@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Milja Tuomisalo
 Category: players
 Slug: player-1e9f3e3bce2f378c

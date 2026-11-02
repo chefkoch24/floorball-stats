@@ -6,7 +6,7 @@ type: game
 game_id: 1308189
 home_team: GMS Florbal Chomutov
 away_team: FBC Intevo Třinec
-attendance: None
+attendance: 196.0
 away_goal_diffs_csv: -1,0,-1
 away_goal_minutes_csv: 14.3,51.05,53.48
 away_major_penalty_minutes_csv: 

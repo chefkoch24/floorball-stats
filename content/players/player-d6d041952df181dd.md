@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anna Sládková
 Category: players
 Slug: player-d6d041952df181dd
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 4
-rank: 68
+rank: 71
 season: czw-26-27

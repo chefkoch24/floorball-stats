@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Eerika Koski
 Category: players
 Slug: player-89fbf80db0bb2867

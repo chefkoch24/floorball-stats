@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Stina Kampe
 Category: players
 Slug: player-321240aae82ad0a8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 125
+rank: 127
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Elīna Ulme
 Category: players
 Slug: player-ab1ca197f2629f66
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 37
+rank: 39
 season: lvw-26-27

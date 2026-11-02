@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Martin Bujaki
 Category: players
 Slug: player-0da398b5c4c7f98e

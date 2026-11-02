@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sintija Bāliņa
 Category: players
 Slug: player-d7ffa0ced3462001
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 77
+rank: 80
 season: lvw-26-27

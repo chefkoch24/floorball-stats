@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Šimon Masár
 Category: players
 Slug: player-de734d228dbe68a5

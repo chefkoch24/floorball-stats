@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ian Meyer
 Category: players
 Slug: player-fcd6e348eef6971c

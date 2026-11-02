@@ -421,6 +421,7 @@ away_pregame_points_after_third_period: 12
 away_pregame_points_against_crazy_girls_fbc_liberec: 3
 away_pregame_points_against_fbc_intevo_trinec: 3
 away_pregame_points_against_fbs_bohemians: 3
+away_pregame_points_against_fbs_olomouc: 3
 away_pregame_points_against_gc_system_bulldogs_brno: 0
 away_pregame_points_against_gms_florbal_chomutov: 3
 away_pregame_points_against_k1_florbal_brno_zidenice: 3

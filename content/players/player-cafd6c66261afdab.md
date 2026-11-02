@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Petr Vávra
 Category: players
 Slug: player-cafd6c66261afdab
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 119
+rank: 123
 season: cz-26-27

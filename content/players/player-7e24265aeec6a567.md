@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emil Thorberg
 Category: players
 Slug: player-7e24265aeec6a567

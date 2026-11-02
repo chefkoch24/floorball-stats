@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Treneris Ivars Jēkabsons
 Category: players
 Slug: player-128b5a10dccf1a63
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 78
+rank: 82
 season: lvw-26-27

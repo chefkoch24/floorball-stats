@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Engla Blomberg
 Category: players
 Slug: player-9e97252bcd5a420f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 142
+rank: 145
 season: sew-26-27

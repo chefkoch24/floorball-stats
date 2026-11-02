@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa Gottmo
 Category: players
 Slug: player-07fa956cede2b354
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 252
+rank: 253
 season: sew-26-27

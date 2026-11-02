@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Laura Vytrhlíková
 Category: players
 Slug: player-637ddc63ab9213db
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 47
+rank: 50
 season: czw-26-27

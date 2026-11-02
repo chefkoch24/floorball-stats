@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Martin Sindelar
 Category: players
 Slug: player-27a7a3a7ad942d3c
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 13
+rank: 16
 season: ch-26-27

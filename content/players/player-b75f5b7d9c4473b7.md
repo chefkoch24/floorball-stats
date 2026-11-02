@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Agnes Plogner
 Category: players
 Slug: player-b75f5b7d9c4473b7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 79
+rank: 84
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Joel Bachmann
 Category: players
 Slug: player-15b2ee433e7daa62
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 181
+rank: 184
 season: ch-26-27

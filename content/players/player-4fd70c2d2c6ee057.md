@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Noah Püntener
 Category: players
 Slug: player-4fd70c2d2c6ee057
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 7
-rank: 37
+rank: 38
 season: ch-26-27

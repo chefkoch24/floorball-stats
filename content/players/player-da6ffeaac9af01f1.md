@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kristi Rickberg
 Category: players
 Slug: player-da6ffeaac9af01f1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 16
+rank: 19
 season: lvw-26-27

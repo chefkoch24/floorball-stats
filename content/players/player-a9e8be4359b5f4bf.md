@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Livia Kurz
 Category: players
 Slug: player-a9e8be4359b5f4bf
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 111
+rank: 114
 season: chw-26-27

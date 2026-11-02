@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa Lindvall
 Category: players
 Slug: player-eb145983e1e43c4b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 62
+rank: 66
 season: sew-26-27

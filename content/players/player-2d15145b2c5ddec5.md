@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Laura Katajisto
 Category: players
 Slug: player-2d15145b2c5ddec5

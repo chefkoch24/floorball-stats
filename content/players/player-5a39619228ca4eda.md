@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ondřej Kolajta
 Category: players
 Slug: player-5a39619228ca4eda

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Řezáč Tomáš
 Category: players
 Slug: player-cf2dcd09069c217e

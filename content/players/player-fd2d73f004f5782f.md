@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Adam Draslar
 Category: players
 Slug: player-fd2d73f004f5782f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 237
+rank: 241
 season: cz-26-27

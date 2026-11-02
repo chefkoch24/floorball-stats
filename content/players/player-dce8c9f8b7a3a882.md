@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sophia Sabolová
 Category: players
 Slug: player-dce8c9f8b7a3a882
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 36
+rank: 40
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Treneris Andris Pīlups
 Category: players
 Slug: player-93ceeb63d3e556cf
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 213
+rank: 211
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emma Zimmermann
 Category: players
 Slug: player-e71e8ab2b8d357e8

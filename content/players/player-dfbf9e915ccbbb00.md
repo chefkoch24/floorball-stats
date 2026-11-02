@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kalle Lintala
 Category: players
 Slug: player-dfbf9e915ccbbb00
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 42
+rank: 43
 season: fi-26-27

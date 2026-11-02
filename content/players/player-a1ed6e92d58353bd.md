@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nathalie Gustafsson
 Category: players
 Slug: player-a1ed6e92d58353bd
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 36
+rank: 40
 season: sew-26-27

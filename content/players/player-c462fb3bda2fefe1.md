@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Thomas Gfeller
 Category: players
 Slug: player-c462fb3bda2fefe1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
+current_games: 7
 current_goals: 2
-current_assists: 5
-current_points: 7
+current_assists: 6
+current_points: 8
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 2
-regular_assists: 5
-regular_points: 7
+regular_assists: 6
+regular_points: 8
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 17
 previous_assists: 11
 previous_points: 28
 previous_pim: 4
-career_games: 31
+career_games: 32
 career_goals: 19
-career_assists: 16
-career_points: 35
+career_assists: 17
+career_points: 36
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|6|2|5|7|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|1|2|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|21|16|10|26|4
-assists: 5
-games: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|2|6|8|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|1|2|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|21|16|10|26|4
+assists: 6
+games: 7
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 7
-rank: 42
+points: 8
+rank: 36
 season: ch-26-27

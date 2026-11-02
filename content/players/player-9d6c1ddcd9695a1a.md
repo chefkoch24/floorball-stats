@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jamie Martinjas
 Category: players
 Slug: player-9d6c1ddcd9695a1a

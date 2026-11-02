@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Fynn Roth
 Category: players
 Slug: player-eb441a24ad0a5e81
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 213
+rank: 217
 season: ch-26-27

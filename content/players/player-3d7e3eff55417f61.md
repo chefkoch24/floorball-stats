@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Cédric Buri
 Category: players
 Slug: player-3d7e3eff55417f61
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 57
+rank: 58
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Malin Hansson
 Category: players
 Slug: player-7e3fb7d6c99e3cd0
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 150
+rank: 152
 season: sew-26-27

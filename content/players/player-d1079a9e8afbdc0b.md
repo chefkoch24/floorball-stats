@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mias Wellauer
 Category: players
 Slug: player-d1079a9e8afbdc0b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 148
+rank: 152
 season: ch-26-27

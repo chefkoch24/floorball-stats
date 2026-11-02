@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Markuss Plūdums
 Category: players
 Slug: player-e10c1e46192f43df
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 121
+rank: 119
 season: lv-25-26

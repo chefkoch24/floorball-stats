@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Raivo Gudrais
 Category: players
 Slug: player-29a740c9ee00fd1a
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 1
-rank: 208
+rank: 200
 season: lv-25-26

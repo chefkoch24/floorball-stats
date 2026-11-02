@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ralfs Ķepītis
 Category: players
 Slug: player-666354e9a3d2a8ee

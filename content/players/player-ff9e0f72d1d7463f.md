@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ondřej Němeček
 Category: players
 Slug: player-ff9e0f72d1d7463f

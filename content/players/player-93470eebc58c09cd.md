@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Christina Schröder
 Category: players
 Slug: player-93470eebc58c09cd

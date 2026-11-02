@@ -315,6 +315,7 @@ home_pregame_points_against_ibk_lockerud_mariestad: 3
 home_pregame_points_against_ibk_lund_elit: 3
 home_pregame_points_against_kais_mora_if: 2
 home_pregame_points_against_karlstad_ibf: 0
+home_pregame_points_against_taby_fc_ibk: 0
 home_pregame_points_against_thorengruppen_ibk: 0
 home_pregame_points_max_difference_2: 6
 home_pregame_points_more_2_difference: 0
