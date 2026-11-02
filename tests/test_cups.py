@@ -509,6 +509,40 @@ def test_cup_games_stay_out_of_team_calendars_and_form():
     assert articles[2].share_team["form"] == ["W"]
 
 
+def test_cup_games_stay_out_of_the_head_to_head():
+    import sys
+    from datetime import date
+    from types import SimpleNamespace
+
+    sys.path.insert(0, str(ROOT / "plugins"))
+    import pelicanconf as conf
+    import team_versus
+    from src import player_insights as pi
+
+    def game(slug, category, home, away, home_goals, away_goals):
+        return SimpleNamespace(
+            slug=slug, url=f"{slug}.html", date=date(2026, 10, 7), type="game", game_state="played", game_id=slug,
+            home_team=home, away_team=away, home_goals=str(home_goals), away_goals=str(away_goals), result_string="",
+            game_events_b64=pi.encode_events([]), category=SimpleNamespace(slug=category),
+        )
+
+    articles = [
+        game("league", "se-26-27-regular-season", "A", "B", 3, 2),
+        game("cup", "se-26-27-cup", "A", "B", 0, 9),
+        game("cup-only", "se-26-27-cup", "C", "D", 1, 0),
+    ]
+    settings = {
+        "LEAGUES": [{"prefix": "se-", "name": "Sweden", "title": "Sweden · SSL", "division": "men"}],
+        "JINJA_FILTERS": {"league_context": conf.league_context},
+    }
+
+    result = team_versus.build(SimpleNamespace(settings=settings, articles=articles))
+
+    payload = result["payloads"]["se"]
+    assert [team["name"] for team in payload["teams"]] == ["A", "B"]
+    assert [row["score"] for row in payload["pairs"]["0-1"]["results"]] == ["3:2"]
+
+
 # --- Finland: Suomen Cup from the Torneopal result service --------------------------------------
 
 
