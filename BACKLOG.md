@@ -30,10 +30,10 @@
 - [ ] Notion sync in production: set `NOTION_TOKEN` (Florball Connect integration) on Netlify, create the build hook and store it as GitHub secret `NETLIFY_BUILD_HOOK`
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
-- [ ] Crowd analysis (idea from liveticker.floorba11.stream): leagues compared (average, median, change vs last season, total, highest, gradient biggest/smallest average, share of top 3), development over seasons, finals per season, weekday and kick-off time, average per phase
-- [ ] Special teams view per league: scatter (powerplay goals per opportunity vs. penalty kills without a goal against) plus table with PP, PP %, BP, BP %, shorthanded goals, SH goals against, PP minutes
-- [ ] Player page: powerplay and shorthanded goals as KPIs, game log (result, own goals/assists/points per game) with filter by league/cup and season
-- [ ] Game page: mark powerplay/shorthanded goals in the event timeline, "Topspiel" label in the schedule, opponents' table places next to the fixture (#6 – #5), venue name
+- [x] Crowd analysis (idea from liveticker.floorba11.stream): leagues compared (average, median, change vs last season, total, highest, gradient biggest/smallest average, share of top 3), development over seasons, finals per season, weekday and kick-off time, average per phase
+- [x] Special teams view per league: scatter (powerplay goals per opportunity vs. penalty kills without a goal against) plus table with PP, PP %, BP, BP %, shorthanded goals, SH goals against, PP minutes
+- [x] Player page: powerplay and shorthanded goals as KPIs, game log (result, own goals/assists/points per game) with filter by league/cup and season
+- [x] Game page: mark powerplay/shorthanded goals in the event timeline, "Topspiel" label in the schedule, opponents' table places next to the fixture (#6 – #5), venue name
 
 
 ## Ideas & User Feedback
