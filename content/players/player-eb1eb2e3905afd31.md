@@ -11,10 +11,10 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 6
-current_assists: 18
-current_points: 24
+current_games: 9
+current_goals: 8
+current_assists: 26
+current_points: 34
 current_pim: 0
 regular_games: 7
 regular_goals: 6
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 8
+cup_points: 10
+cup_pim: 0
 previous_games: 33
 previous_goals: 28
 previous_assists: 66
@@ -36,7 +41,7 @@ career_goals: 38
 career_assists: 91
 career_points: 129
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|6|18|24|0||ch-25-26|playoffs|Switzerland|Zug United|11|10|20|30|0||ch-25-26|regular-season|Switzerland|Zug United|22|18|46|64|2||wfc-2024|tournament|IFF WFC|Sweden|6|4|7|11|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|6|18|24|0||ch-26-27|cup|Switzerland|Zug United|2|2|8|10|0||ch-25-26|playoffs|Switzerland|Zug United|11|10|20|30|0||ch-25-26|regular-season|Switzerland|Zug United|22|18|46|64|2||wfc-2024|tournament|IFF WFC|Sweden|6|4|7|11|0
 assists: 18
 games: 7
 goals: 6

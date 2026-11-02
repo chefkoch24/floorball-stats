@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 6
-current_assists: 3
-current_points: 9
+current_games: 9
+current_goals: 7
+current_assists: 5
+current_points: 12
 current_pim: 0
 regular_games: 7
 regular_goals: 6
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 24
 previous_goals: 8
 previous_assists: 8
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 11
 career_points: 25
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|6|3|9|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|20|8|8|16|8
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|6|3|9|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|20|8|8|16|8
 assists: 3
 games: 7
 goals: 6

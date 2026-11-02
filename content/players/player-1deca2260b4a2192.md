@@ -5,16 +5,16 @@ Slug: player-1deca2260b4a2192
 type: player
 player: Antonín Stárek
 player_uid: player-1deca2260b4a2192
-team: FBC ČLT Česká Lípa
+team: FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa
 league: Czech Republic
 season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 5
+current_games: 8
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 2
+current_points: 2
 current_pim: 2
 regular_games: 5
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 26
 previous_goals: 3
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 11
 career_points: 14
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|5|0|1|1|2||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|1|2|3|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|23|2|8|10|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|5|0|1|1|2||cz-26-27|cup|Czech Republic|FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|0|1|1|0||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|1|2|3|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|23|2|8|10|4
 assists: 1
 games: 5
 goals: 0

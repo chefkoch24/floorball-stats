@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 9
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 2
+current_points: 2
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 26
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|20|0|0|0|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|0|1|1|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|20|0|0|0|2
 assists: 1
 games: 7
 goals: 0

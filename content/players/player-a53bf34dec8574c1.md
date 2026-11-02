@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
+current_games: 9
 current_goals: 2
-current_assists: 1
-current_points: 3
+current_assists: 3
+current_points: 5
 current_pim: 2
 regular_games: 7
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 0
 previous_games: 15
 previous_goals: 11
 previous_assists: 6
@@ -36,7 +41,7 @@ career_goals: 13
 career_assists: 7
 career_points: 20
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|2|1|3|2||fi-25-26|regular-season|Finland|Indians|15|11|6|17|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|2|1|3|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|2|2|0||fi-25-26|regular-season|Finland|Indians|15|11|6|17|6
 assists: 1
 games: 7
 goals: 2

@@ -11,11 +11,11 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 11
-current_goals: 9
-current_assists: 9
-current_points: 18
-current_pim: 4
+current_games: 15
+current_goals: 13
+current_assists: 14
+current_points: 27
+current_pim: 6
 regular_games: 11
 regular_goals: 9
 regular_assists: 9
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 4
+cup_assists: 5
+cup_points: 9
+cup_pim: 2
 previous_games: 28
 previous_goals: 19
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 28
 career_assists: 16
 career_points: 44
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|11|9|9|18|4||se-25-26|playoffs|Sweden|Pixbo IBK|5|4|1|5|0||se-25-26|regular-season|Sweden|Pixbo IBK|23|15|6|21|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|11|9|9|18|4||cz-26-27|cup|Czech Republic|FBC Liberec|4|4|5|9|2||se-25-26|playoffs|Sweden|Pixbo IBK|5|4|1|5|0||se-25-26|regular-season|Sweden|Pixbo IBK|23|15|6|21|4
 assists: 9
 games: 11
 goals: 9

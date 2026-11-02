@@ -11,11 +11,11 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 2
-current_assists: 2
-current_points: 4
-current_pim: 0
+current_games: 10
+current_goals: 6
+current_assists: 5
+current_points: 11
+current_pim: 2
 regular_games: 7
 regular_goals: 2
 regular_assists: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 4
+cup_assists: 3
+cup_points: 7
+cup_pim: 2
 previous_games: 29
 previous_goals: 17
 previous_assists: 14
@@ -36,7 +41,7 @@ career_goals: 19
 career_assists: 16
 career_points: 35
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|7|2|2|4|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|8|4|12|4||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|19|9|10|19|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|7|2|2|4|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|3|4|3|7|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|8|4|12|4||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|19|9|10|19|2
 assists: 2
 games: 7
 goals: 2

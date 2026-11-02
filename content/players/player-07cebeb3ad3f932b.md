@@ -11,11 +11,11 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 9
 current_goals: 2
 current_assists: 3
 current_points: 5
-current_pim: 0
+current_pim: 2
 regular_games: 7
 regular_goals: 2
 regular_assists: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 2
 previous_games: 31
 previous_goals: 11
 previous_assists: 19
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 26
 career_points: 40
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|2|3|5|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|3|4|7|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|8|15|23|8||wfc-2024|tournament|IFF WFC|Switzerland|6|1|4|5|0
+history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|2|3|5|0||se-26-27|cup|Sweden|FBC Kalmarsund|2|0|0|0|2||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|3|4|7|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|8|15|23|8||wfc-2024|tournament|IFF WFC|Switzerland|6|1|4|5|0
 assists: 3
 games: 7
 goals: 2

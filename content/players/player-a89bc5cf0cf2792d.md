@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
-current_goals: 0
+current_games: 7
+current_goals: 1
 current_assists: 0
-current_points: 0
+current_points: 1
 current_pim: 0
 regular_games: 5
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 4
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|5|0|0|0|0||se-25-26|regular-season|Sweden|Visby IBK|4|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|5|0|0|0|0||se-26-27|cup|Sweden|Visby IBK|2|1|0|1|0||se-25-26|regular-season|Sweden|Visby IBK|4|0|0|0|0
 assists: 0
 games: 5
 goals: 0

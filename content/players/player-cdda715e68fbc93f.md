@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
-current_goals: 8
+current_games: 8
+current_goals: 10
 current_assists: 7
-current_points: 15
+current_points: 17
 current_pim: 0
 regular_games: 7
 regular_goals: 8
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 24
 previous_goals: 29
 previous_assists: 23
@@ -36,7 +41,7 @@ career_goals: 37
 career_assists: 30
 career_points: 67
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|Oilers|7|8|7|15|0||fi-25-26|regular-season|Finland|Oilers|24|29|23|52|2
+history_rows_csv: fi-26-27|regular-season|Finland|Oilers|7|8|7|15|0||fi-26-27|cup|Finland|Oilers|1|2|0|2|0||fi-25-26|regular-season|Finland|Oilers|24|29|23|52|2
 assists: 7
 games: 7
 goals: 8

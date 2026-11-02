@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 8
-current_assists: 6
-current_points: 14
+current_games: 9
+current_goals: 11
+current_assists: 10
+current_points: 21
 current_pim: 0
 regular_games: 7
 regular_goals: 8
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 3
+cup_assists: 4
+cup_points: 7
+cup_pim: 0
 previous_games: 26
 previous_goals: 27
 previous_assists: 20
@@ -36,7 +41,7 @@ career_goals: 35
 career_assists: 26
 career_points: 61
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|8|6|14|0||se-25-26|regular-season|Sweden|Jönköpings IK|26|27|20|47|6
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|8|6|14|0||se-26-27|cup|Sweden|Jönköpings IK|2|3|4|7|0||se-25-26|regular-season|Sweden|Jönköpings IK|26|27|20|47|6
 assists: 6
 games: 7
 goals: 8

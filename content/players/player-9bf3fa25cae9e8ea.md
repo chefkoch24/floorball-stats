@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 14
-current_goals: 4
-current_assists: 3
-current_points: 7
+current_games: 18
+current_goals: 6
+current_assists: 4
+current_points: 10
 current_pim: 0
 regular_games: 14
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
+cup_pim: 0
 previous_games: 62
 previous_goals: 13
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 17
 career_assists: 13
 career_points: 30
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK / Visby IBK / Visby IBK / Storvreta IBK|14|4|3|7|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|1|1|2|0||se-25-26|regular-season|Sweden|Storvreta IBK / Visby IBK|52|12|9|21|10
+history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK / Visby IBK / Visby IBK / Storvreta IBK|14|4|3|7|0||se-26-27|cup|Sweden|Storvreta IBK / Visby IBK / Visby IBK / Storvreta IBK|4|2|1|3|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|1|1|2|0||se-25-26|regular-season|Sweden|Storvreta IBK / Visby IBK|52|12|9|21|10
 assists: 3
 games: 14
 goals: 4

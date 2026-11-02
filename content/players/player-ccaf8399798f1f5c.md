@@ -5,17 +5,17 @@ Slug: player-ccaf8399798f1f5c
 type: player
 player: Paul Denk
 player_uid: player-ccaf8399798f1f5c
-team: VfL Red Hocks Kaufering
+team: VfL Red Hocks Kaufering / VfL Red Hocks Kaufering / VfL Red Hocks Kaufering II / VfL Red Hocks Kaufering II / VfL Red Hocks Kaufering
 league: Germany
 season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
-current_goals: 0
+current_games: 4
+current_goals: 1
 current_assists: 0
-current_points: 0
-current_pim: 0
+current_points: 1
+current_pim: 2
 regular_games: 2
 regular_goals: 0
 regular_assists: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|2|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|2|0|0|0|0||26-27|cup|Germany|VfL Red Hocks Kaufering / VfL Red Hocks Kaufering II / VfL Red Hocks Kaufering II / VfL Red Hocks Kaufering|2|1|0|1|2
 assists: 0
 games: 2
 goals: 0

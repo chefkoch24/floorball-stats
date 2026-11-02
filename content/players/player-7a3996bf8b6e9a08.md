@@ -11,10 +11,10 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 3
+current_games: 8
+current_goals: 4
 current_assists: 11
-current_points: 14
+current_points: 15
 current_pim: 0
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 11
 career_points: 14
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|3|11|14|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|3|11|14|0||fiw-26-27|cup|Finland Women|EräViikingit|1|1|0|1|0
 assists: 11
 games: 7
 goals: 3

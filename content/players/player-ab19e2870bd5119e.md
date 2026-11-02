@@ -5,16 +5,16 @@ Slug: player-ab19e2870bd5119e
 type: player
 player: Liam Åström
 player_uid: player-ab19e2870bd5119e
-team: Linköping IBK
+team: Linköping IBK / Linköping IBK / Vetlanda IBF / Linköping IBK
 league: Sweden
 season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 5
-current_assists: 6
-current_points: 11
+current_games: 12
+current_goals: 8
+current_assists: 7
+current_points: 15
 current_pim: 2
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 5
+cup_goals: 3
+cup_assists: 1
+cup_points: 4
+cup_pim: 0
 previous_games: 23
 previous_goals: 11
 previous_assists: 17
@@ -36,7 +41,7 @@ career_goals: 16
 career_assists: 23
 career_points: 39
 career_pim: 12
-history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|7|5|6|11|2||se-25-26|regular-season|Sweden|AIK IBF|23|11|17|28|10
+history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|7|5|6|11|2||se-26-27|cup|Sweden|Linköping IBK / Vetlanda IBF / Linköping IBK|5|3|1|4|0||se-25-26|regular-season|Sweden|AIK IBF|23|11|17|28|10
 assists: 6
 games: 7
 goals: 5

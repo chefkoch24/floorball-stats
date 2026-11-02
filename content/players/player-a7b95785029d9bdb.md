@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
-current_goals: 2
+current_games: 8
+current_goals: 5
 current_assists: 0
-current_points: 2
-current_pim: 4
+current_points: 5
+current_pim: 6
 regular_games: 5
 regular_goals: 2
 regular_assists: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 3
+cup_assists: 0
+cup_points: 3
+cup_pim: 2
 previous_games: 21
 previous_goals: 9
 previous_assists: 5
@@ -36,7 +41,7 @@ career_goals: 11
 career_assists: 5
 career_points: 16
 career_pim: 12
-history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|5|2|0|2|4||se-25-26|regular-season|Sweden|AIK IBF|21|9|5|14|8
+history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|5|2|0|2|4||se-26-27|cup|Sweden|AIK IBF|3|3|0|3|2||se-25-26|regular-season|Sweden|AIK IBF|21|9|5|14|8
 assists: 0
 games: 5
 goals: 2

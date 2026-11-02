@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 5
-current_assists: 6
-current_points: 11
-current_pim: 8
+current_assists: 8
+current_points: 13
+current_pim: 12
 regular_games: 7
 regular_goals: 5
 regular_assists: 6
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 4
 previous_games: 35
 previous_goals: 4
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 9
 career_assists: 13
 career_points: 22
 career_pim: 20
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|5|6|11|8||se-25-26|playoffs|Sweden|Växjö IBK|9|0|1|1|2||se-25-26|regular-season|Sweden|Växjö IBK|26|4|6|10|10
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|5|6|11|8||se-26-27|cup|Sweden|Växjö IBK|2|0|2|2|4||se-25-26|playoffs|Sweden|Växjö IBK|9|0|1|1|2||se-25-26|regular-season|Sweden|Växjö IBK|26|4|6|10|10
 assists: 6
 games: 7
 goals: 5

@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 3
-current_assists: 10
-current_points: 13
+current_games: 9
+current_goals: 5
+current_assists: 12
+current_points: 17
 current_pim: 0
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 2
+cup_points: 4
+cup_pim: 0
 previous_games: 31
 previous_goals: 8
 previous_assists: 34
@@ -36,7 +41,7 @@ career_goals: 11
 career_assists: 44
 career_points: 55
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Mullsjö AIS|7|3|10|13|0||se-25-26|playoffs|Sweden|Mullsjö AIS|6|1|4|5|0||se-25-26|regular-season|Sweden|Mullsjö AIS|25|7|30|37|4
+history_rows_csv: se-26-27|regular-season|Sweden|Mullsjö AIS|7|3|10|13|0||se-26-27|cup|Sweden|Mullsjö AIS|2|2|2|4|0||se-25-26|playoffs|Sweden|Mullsjö AIS|6|1|4|5|0||se-25-26|regular-season|Sweden|Mullsjö AIS|25|7|30|37|4
 assists: 10
 games: 7
 goals: 3

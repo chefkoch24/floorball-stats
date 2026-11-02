@@ -11,10 +11,10 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
-current_goals: 9
-current_assists: 11
-current_points: 20
+current_games: 11
+current_goals: 11
+current_assists: 17
+current_points: 28
 current_pim: 2
 regular_games: 9
 regular_goals: 9
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 6
+cup_points: 8
+cup_pim: 0
 previous_games: 36
 previous_goals: 33
 previous_assists: 24
@@ -36,7 +41,7 @@ career_goals: 42
 career_assists: 35
 career_points: 77
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|9|9|11|20|2||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|4|13|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|24|20|44|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|9|9|11|20|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|2|6|8|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|4|13|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|24|20|44|4
 assists: 11
 games: 9
 goals: 9

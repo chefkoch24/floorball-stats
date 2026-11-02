@@ -11,10 +11,10 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
-current_goals: 7
-current_assists: 5
-current_points: 12
+current_games: 12
+current_goals: 11
+current_assists: 8
+current_points: 19
 current_pim: 0
 regular_games: 9
 regular_goals: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 4
+cup_assists: 3
+cup_points: 7
+cup_pim: 0
 previous_games: 32
 previous_goals: 16
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 23
 career_assists: 15
 career_points: 38
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|9|7|5|12|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|32|16|10|26|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|9|7|5|12|0||cz-26-27|cup|Czech Republic|FBC Liberec|3|4|3|7|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|32|16|10|26|4
 assists: 5
 games: 9
 goals: 7

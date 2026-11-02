@@ -11,10 +11,10 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 3
+current_games: 4
 current_goals: 1
-current_assists: 2
-current_points: 3
+current_assists: 5
+current_points: 6
 current_pim: 0
 regular_games: 3
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 3
+cup_points: 3
+cup_pim: 0
 previous_games: 6
 previous_goals: 2
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 8
 career_assists: 11
 career_points: 19
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|3|1|2|3|0||25-26|playoffs|Germany|SSF Dragons Bonn|2|1|2|3|0||25-26|regular-season|Germany|SSF Dragons Bonn|4|1|5|6|0||wfc-2024|tournament|IFF WFC|Germany|7|5|2|7|2
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|3|1|2|3|0||26-27|cup|Germany|SSF Dragons Bonn|1|0|3|3|0||25-26|playoffs|Germany|SSF Dragons Bonn|2|1|2|3|0||25-26|regular-season|Germany|SSF Dragons Bonn|4|1|5|6|0||wfc-2024|tournament|IFF WFC|Germany|7|5|2|7|2
 assists: 2
 games: 3
 goals: 1

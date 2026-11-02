@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 10
 current_goals: 5
-current_assists: 2
-current_points: 7
+current_assists: 5
+current_points: 10
 current_pim: 4
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 3
+cup_points: 3
+cup_pim: 0
 previous_games: 31
 previous_goals: 18
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 23
 career_assists: 2
 career_points: 25
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|5|2|7|4||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|9|0|9|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|5|2|7|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|0|3|3|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|9|0|9|0
 assists: 2
 games: 7
 goals: 5

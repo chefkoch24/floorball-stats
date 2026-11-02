@@ -11,10 +11,10 @@ season_count: 1
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 4
-current_assists: 1
-current_points: 5
+current_games: 10
+current_goals: 8
+current_assists: 3
+current_points: 11
 current_pim: 2
 regular_games: 7
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 4
+cup_assists: 2
+cup_points: 6
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 4
 career_assists: 1
 career_points: 5
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|4|1|5|2
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|4|1|5|2||se-26-27|cup|Sweden|IBK Dalen|3|4|2|6|0
 assists: 1
 games: 7
 goals: 4

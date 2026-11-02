@@ -11,7 +11,7 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 4
 current_assists: 3
 current_points: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 4
 career_assists: 3
 career_points: 7
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|8|4|3|7|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|8|4|3|7|2||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|0|0|0
 assists: 3
 games: 8
 goals: 4

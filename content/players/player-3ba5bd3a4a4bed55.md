@@ -11,11 +11,11 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 0
-current_assists: 1
-current_points: 1
-current_pim: 2
+current_games: 10
+current_goals: 2
+current_assists: 3
+current_points: 5
+current_pim: 4
 regular_games: 6
 regular_goals: 0
 regular_assists: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 2
+cup_assists: 2
+cup_points: 4
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|0|1|1|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|0|1|1|2||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|2|2|4|2
 assists: 1
 games: 6
 goals: 0

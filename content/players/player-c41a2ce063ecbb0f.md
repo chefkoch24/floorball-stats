@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 0
-current_assists: 7
-current_points: 7
-current_pim: 2
+current_games: 10
+current_goals: 2
+current_assists: 12
+current_points: 14
+current_pim: 4
 regular_games: 7
 regular_goals: 0
 regular_assists: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 2
+cup_assists: 5
+cup_points: 7
+cup_pim: 2
 previous_games: 24
 previous_goals: 6
 previous_assists: 4
@@ -36,7 +41,7 @@ career_goals: 6
 career_assists: 11
 career_points: 17
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|7|0|7|7|2||se-25-26|regular-season|Sweden|Warberg IC|24|6|4|10|8
+history_rows_csv: se-26-27|regular-season|Sweden|Warberg IC|7|0|7|7|2||se-26-27|cup|Sweden|Warberg IC|3|2|5|7|2||se-25-26|regular-season|Sweden|Warberg IC|24|6|4|10|8
 assists: 7
 games: 7
 goals: 0

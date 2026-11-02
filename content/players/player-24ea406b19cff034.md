@@ -11,11 +11,11 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 14
-current_assists: 3
-current_points: 17
-current_pim: 2
+current_games: 9
+current_goals: 15
+current_assists: 6
+current_points: 21
+current_pim: 4
 regular_games: 7
 regular_goals: 14
 regular_assists: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 3
+cup_points: 4
+cup_pim: 2
 previous_games: 27
 previous_goals: 31
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 51
 career_assists: 15
 career_points: 66
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|14|3|17|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|4|4|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|27|6|33|2||wfc-2024|tournament|IFF WFC|Switzerland|6|6|2|8|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|14|3|17|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|3|4|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|4|4|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|27|6|33|2||wfc-2024|tournament|IFF WFC|Switzerland|6|6|2|8|6
 assists: 3
 games: 7
 goals: 14

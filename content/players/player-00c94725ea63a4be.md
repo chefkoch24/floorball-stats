@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 1
+current_games: 2
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 4
+current_points: 4
 current_pim: 0
 regular_games: 1
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 3
+cup_points: 3
+cup_pim: 0
 previous_games: 22
 previous_goals: 4
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 4
 career_assists: 3
 career_points: 7
 career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|1|0|1|1|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|4|2|6|4
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|1|0|1|1|0||fi-26-27|cup|Finland|Indians|1|0|3|3|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|4|2|6|4
 assists: 1
 games: 1
 goals: 0

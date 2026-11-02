@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
-current_goals: 7
-current_assists: 9
-current_points: 16
+current_games: 8
+current_goals: 9
+current_assists: 10
+current_points: 19
 current_pim: 0
 regular_games: 7
 regular_goals: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
+cup_pim: 0
 previous_games: 24
 previous_goals: 25
 previous_assists: 19
@@ -36,7 +41,7 @@ career_goals: 32
 career_assists: 28
 career_points: 60
 career_pim: 8
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|7|9|16|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|7|9|16|0||fi-26-27|cup|Finland|SPV|1|2|1|3|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
 assists: 9
 games: 7
 goals: 7

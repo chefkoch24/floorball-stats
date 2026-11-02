@@ -11,10 +11,10 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
-current_goals: 0
+current_games: 8
+current_goals: 1
 current_assists: 1
-current_points: 1
+current_points: 2
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 27
 previous_goals: 10
 previous_assists: 4
@@ -36,7 +41,7 @@ career_goals: 10
 career_assists: 5
 career_points: 15
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|7|0|1|1|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|1|4|5|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|7|0|1|1|0||26-27|cup|Germany|SC DHfK Leipzig|1|1|0|1|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|1|4|5|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
 assists: 1
 games: 7
 goals: 0

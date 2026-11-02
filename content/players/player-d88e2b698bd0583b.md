@@ -11,11 +11,11 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
-current_goals: 3
-current_assists: 5
-current_points: 8
-current_pim: 4
+current_games: 12
+current_goals: 7
+current_assists: 6
+current_points: 13
+current_pim: 6
 regular_games: 9
 regular_goals: 3
 regular_assists: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 4
+cup_assists: 1
+cup_points: 5
+cup_pim: 2
 previous_games: 33
 previous_goals: 11
 previous_assists: 15
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 20
 career_points: 34
 career_pim: 24
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|3|5|8|4||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|2|0|2|4||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|9|15|24|16
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|3|5|8|4||cz-26-27|cup|Czech Republic|Kanonýři Kladno|3|4|1|5|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|2|0|2|4||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|9|15|24|16
 assists: 5
 games: 9
 goals: 3

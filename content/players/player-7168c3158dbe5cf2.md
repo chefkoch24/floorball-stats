@@ -11,10 +11,10 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 3
-current_assists: 6
-current_points: 9
+current_assists: 7
+current_points: 10
 current_pim: 2
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|3|6|9|2
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|3|6|9|2||26-27|cup|Germany|Berlin Rockets|1|0|1|1|0
 assists: 6
 games: 7
 goals: 3

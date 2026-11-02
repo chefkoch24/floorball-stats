@@ -11,10 +11,10 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 9
 current_goals: 0
-current_assists: 2
-current_points: 2
+current_assists: 6
+current_points: 6
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 4
+cup_points: 4
+cup_pim: 0
 previous_games: 6
 previous_goals: 0
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 5
 career_points: 5
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|7|0|2|2|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|6|0|3|3|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|7|0|2|2|0||cz-26-27|cup|Czech Republic|Kanonýři Kladno|2|0|4|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|6|0|3|3|2
 assists: 2
 games: 7
 goals: 0

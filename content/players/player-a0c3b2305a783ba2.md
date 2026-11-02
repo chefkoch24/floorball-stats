@@ -11,7 +11,7 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 5
 current_points: 6
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 23
 previous_goals: 11
 previous_assists: 13
@@ -36,7 +41,7 @@ career_goals: 13
 career_assists: 18
 career_points: 31
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|1|5|6|2||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|2
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|1|5|6|2||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|2
 assists: 5
 games: 7
 goals: 1

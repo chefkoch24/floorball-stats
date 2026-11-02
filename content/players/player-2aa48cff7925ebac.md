@@ -11,10 +11,10 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
-current_goals: 0
-current_assists: 2
-current_points: 2
+current_games: 9
+current_goals: 1
+current_assists: 4
+current_points: 5
 current_pim: 0
 regular_games: 8
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 23
 previous_goals: 1
 previous_assists: 14
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 16
 career_points: 17
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|8|0|2|2|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|1|1|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|1|13|14|8
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|8|0|2|2|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|1|2|3|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|1|1|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|1|13|14|8
 assists: 2
 games: 8
 goals: 0

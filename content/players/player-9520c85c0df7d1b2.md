@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 2
 current_points: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 22
 previous_goals: 2
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 4
 career_points: 9
 career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|3|2|5|4||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|3|2|5|4||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
 assists: 2
 games: 8
 goals: 3

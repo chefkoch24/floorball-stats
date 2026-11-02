@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 4
+current_games: 6
 current_goals: 2
-current_assists: 3
-current_points: 5
+current_assists: 5
+current_points: 7
 current_pim: 0
 regular_games: 4
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 0
 previous_games: 33
 previous_goals: 4
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 6
 career_assists: 5
 career_points: 11
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|4|2|3|5|0||se-25-26|playoffs|Sweden|IBF Falun|11|1|1|2|2||se-25-26|regular-season|Sweden|IBF Falun|22|3|1|4|2
+history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|4|2|3|5|0||se-26-27|cup|Sweden|AIK IBF|2|0|2|2|0||se-25-26|playoffs|Sweden|IBF Falun|11|1|1|2|2||se-25-26|regular-season|Sweden|IBF Falun|22|3|1|4|2
 assists: 3
 games: 4
 goals: 2

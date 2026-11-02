@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 7
+current_goals: 6
+current_assists: 6
+current_points: 12
 current_pim: 2
 regular_games: 5
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
+cup_pim: 0
 previous_games: 22
 previous_goals: 7
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 11
 career_assists: 8
 career_points: 19
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|5|4|5|9|2||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|8|1|2|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|14|6|1|7|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|5|4|5|9|2||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|2|1|3|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|8|1|2|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|14|6|1|7|4
 assists: 5
 games: 5
 goals: 4

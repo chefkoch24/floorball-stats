@@ -11,11 +11,11 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
+current_games: 8
 current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_assists: 1
+current_points: 1
+current_pim: 2
 regular_games: 6
 regular_goals: 0
 regular_assists: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 2
 previous_games: 21
 previous_goals: 5
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|6|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|21|5|1|6|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|6|0|0|0|0||ch-26-27|cup|Switzerland|WASA St. Gallen|2|0|1|1|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|21|5|1|6|10
 assists: 0
 games: 6
 goals: 0

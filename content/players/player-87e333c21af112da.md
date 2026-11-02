@@ -11,11 +11,11 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
+current_games: 8
 current_goals: 10
 current_assists: 7
 current_points: 17
-current_pim: 0
+current_pim: 2
 regular_games: 7
 regular_goals: 10
 regular_assists: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 2
 previous_games: 15
 previous_goals: 25
 previous_assists: 9
@@ -36,7 +41,7 @@ career_goals: 35
 career_assists: 16
 career_points: 51
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|TPS|7|10|7|17|0||fi-25-26|regular-season|Finland|TPS|15|25|9|34|2
+history_rows_csv: fi-26-27|regular-season|Finland|TPS|7|10|7|17|0||fi-26-27|cup|Finland|TPS|1|0|0|0|2||fi-25-26|regular-season|Finland|TPS|15|25|9|34|2
 assists: 7
 games: 7
 goals: 10

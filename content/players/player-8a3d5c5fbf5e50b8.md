@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 1
+current_games: 2
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 39
 previous_goals: 20
 previous_assists: 23
@@ -36,7 +41,7 @@ career_goals: 20
 career_assists: 23
 career_points: 43
 career_pim: 16
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|1|0|0|0|0||lv-25-26|playoffs|Latvia|Rubene|12|6|3|9|6||lv-25-26|regular-season|Latvia|Rubene|27|14|20|34|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|1|0|0|0|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|1|0|0|0|0||lv-25-26|playoffs|Latvia|Rubene|12|6|3|9|6||lv-25-26|regular-season|Latvia|Rubene|27|14|20|34|10
 assists: 0
 games: 1
 goals: 0

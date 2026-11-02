@@ -11,7 +11,7 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 2
 current_points: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|FBC München|7|1|2|3|2
+history_rows_csv: 26-27|regular-season|Germany|FBC München|7|1|2|3|2||26-27|cup|Germany|FBC München|1|0|0|0|0
 assists: 2
 games: 7
 goals: 1

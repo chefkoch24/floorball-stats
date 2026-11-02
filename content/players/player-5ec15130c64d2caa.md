@@ -5,17 +5,17 @@ Slug: player-5ec15130c64d2caa
 type: player
 player: Timon Bührer
 player_uid: player-5ec15130c64d2caa
-team: Kloten-Dietlikon Jets
+team: Kloten-Dietlikon Jets / Zürisee Unihockey ZKH / Zürisee Unihockey ZKH / Kloten-Dietlikon Jets
 league: Switzerland
 season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
-current_goals: 1
+current_games: 4
+current_goals: 3
 current_assists: 1
-current_points: 2
-current_pim: 0
+current_points: 4
+current_pim: 2
 regular_games: 2
 regular_goals: 1
 regular_assists: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|2|1|1|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|2|1|1|2|0||ch-26-27|cup|Switzerland|Zürisee Unihockey ZKH / Zürisee Unihockey ZKH / Kloten-Dietlikon Jets|2|2|0|2|2
 assists: 1
 games: 2
 goals: 1

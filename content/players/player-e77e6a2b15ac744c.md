@@ -11,11 +11,11 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 7
 current_goals: 5
 current_assists: 5
 current_points: 10
-current_pim: 0
+current_pim: 2
 regular_games: 6
 regular_goals: 5
 regular_assists: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 5
 career_points: 10
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|5|5|10|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|5|5|10|0||chw-26-27|cup|Switzerland Women|Zug United|1|0|0|0|2
 assists: 5
 games: 6
 goals: 5

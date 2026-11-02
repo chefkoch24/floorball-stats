@@ -11,7 +11,7 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 4
 current_assists: 5
 current_points: 9
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 30
 previous_goals: 10
 previous_assists: 9
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 14
 career_points: 28
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Nykvarns IBF|7|4|5|9|0||se-25-26|playoffs|Sweden|Nykvarns IBF|4|1|0|1|0||se-25-26|regular-season|Sweden|Nykvarns IBF|26|9|9|18|4
+history_rows_csv: se-26-27|regular-season|Sweden|Nykvarns IBF|7|4|5|9|0||se-26-27|cup|Sweden|Nykvarns IBF|2|0|0|0|0||se-25-26|playoffs|Sweden|Nykvarns IBF|4|1|0|1|0||se-25-26|regular-season|Sweden|Nykvarns IBF|26|9|9|18|4
 assists: 5
 games: 7
 goals: 4

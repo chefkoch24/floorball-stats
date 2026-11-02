@@ -11,10 +11,10 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
-current_goals: 2
-current_assists: 0
-current_points: 2
+current_games: 3
+current_goals: 3
+current_assists: 2
+current_points: 5
 current_pim: 0
 regular_games: 2
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|SB-Pro|2|2|0|2|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|SB-Pro|2|2|0|2|0||fiw-26-27|cup|Finland Women|SB-Pro|1|1|2|3|0
 assists: 0
 games: 2
 goals: 2
