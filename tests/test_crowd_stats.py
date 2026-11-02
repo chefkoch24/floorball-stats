@@ -51,3 +51,20 @@ def test_weekday_kickoff_and_phase_buckets():
 
 def test_kickoff_band_ignores_unparsable_times():
     assert cs.kickoff_band("TBD") is None and cs.kickoff_band("") is None and cs.kickoff_band("09:30") == "Before 14:00"
+
+
+def test_change_compares_the_same_number_of_first_regular_season_games():
+    current = [_game(300, day=date(2026, 10, 3)), _game(300, day=date(2026, 10, 10))]
+    previous = [
+        _game(100, day=date(2025, 10, 4), season="25-26"),
+        _game(200, day=date(2025, 10, 11), season="25-26"),
+        _game(900, day=date(2025, 12, 6), season="25-26"),  # later in the season: not compared
+        _game(5000, day=date(2026, 4, 1), season="25-26", phase="playoffs"),
+    ]
+    change, games = cs.like_for_like_change(current, previous)
+    assert games == 2 and change == 1.0  # 300 against 150
+
+
+def test_change_is_none_without_regular_season_games_on_either_side():
+    assert cs.like_for_like_change([_game(100)], []) == (None, 0)
+    assert cs.like_for_like_change([_game(100, phase="playoffs")], [_game(100, season="25-26")]) == (None, 0)

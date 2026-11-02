@@ -84,6 +84,21 @@ def _change(current: float, previous: float | None) -> float | None:
     return (current - previous) / previous if previous else None
 
 
+def like_for_like_change(current: list[CrowdGame], previous: list[CrowdGame]) -> tuple[float | None, int]:
+    """Change of the average crowd against the previous season, and the games it compares.
+
+    A running season is only compared with the same number of first regular-season games of
+    the previous one, so a long season with playoffs and finals does not skew the change.
+    """
+    def regular(games: list[CrowdGame]) -> list[CrowdGame]:
+        return sorted((game for game in games if game.phase == REGULAR), key=lambda game: (game.day, game.start_time))
+
+    now, before = regular(current), regular(previous)[: len(regular(current))]
+    if not now or not before:
+        return None, 0
+    return _change(_average([g.attendance for g in now]), _average([g.attendance for g in before])), len(before)
+
+
 def _bucket_rows(games: list[CrowdGame], key, labels: tuple[str, ...]) -> list[dict]:
     buckets: dict[str, list[int]] = defaultdict(list)
     for game in games:
@@ -124,7 +139,7 @@ def league_analysis(games: list[CrowdGame], seasons: list[str]) -> dict | None:
     latest = next(season for season in seasons if season in lines)
     previous = next((season for season in seasons[seasons.index(latest) + 1:] if season in lines), None)
     current = lines[latest]
-    current["change"] = _change(current["average"], lines[previous]["average"] if previous else None)
+    current["change"], current["change_games"] = like_for_like_change(by_season[latest], by_season[previous] if previous else [])
     current["previous_season"] = previous
     latest_games = by_season[latest]
     return {
