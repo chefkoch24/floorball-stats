@@ -129,6 +129,8 @@ def _normalize_player_name(text: str | None) -> str | None:
     if not cleaned:
         return None
     cleaned = re.sub(r"\(\d+\)$", "", cleaned).strip(" -")
+    # Penalty text can leave a lone bracket behind (")" or "Denis ) Melega"); names have none.
+    cleaned = " ".join(re.sub(r"[()]", " ", cleaned).split())
     # Slovak penalty feed often inserts a separator dot between first/last names.
     cleaned = re.sub(r"\s+\.\s+", " ", cleaned)
     if "," in cleaned:

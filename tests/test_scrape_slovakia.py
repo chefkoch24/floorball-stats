@@ -89,3 +89,11 @@ def test_placeholder_team_names_cover_bracket_letters_and_table_positions():
         assert _is_placeholder_team_name(name), name
     for name in ["1. FBC Trenčín", "FBK Nižná", "ABC", "", None]:
         assert not _is_placeholder_team_name(name), name
+
+
+def test_player_name_drops_stray_brackets() -> None:
+    from src.scrape_slovakia import _normalize_player_name
+
+    # A lone ")" from the penalty text became a player; "Denis ) Melega" a duplicate of "Denis Melega".
+    assert _normalize_player_name(")") is None
+    assert _normalize_player_name("Denis ) Melega") == "Denis Melega"
