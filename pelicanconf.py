@@ -23,6 +23,8 @@ PLUGINS = [
     'share_assets',
     # team rosters on team pages, team links on player pages
     'rosters',
+    # cup games on the team pages of the league season
+    'cup_games',
     # cross-league leaderboards for the leaders page
     'leaders',
     # clutch stats, scoring duos, Elo power ratings and season projections

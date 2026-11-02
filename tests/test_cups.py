@@ -413,7 +413,7 @@ def test_cup_markdown_generation_skips_team_and_league_pages(tmp_path):
     assert not (tmp_path / "content" / "ch-26-27-cup" / "liga").exists()
 
 
-def test_player_stats_ignore_cup_event_files_and_cup_events_in_postgres(monkeypatch):
+def test_player_stats_ignore_cup_event_files_and_leave_out_cup_players_without_a_league_row(monkeypatch):
     for league_file in ("data_se-26-27_regular_season.csv", "data_26-27_playoffs.csv"):
         assert build_player_stats.FILE_PATTERN.match(league_file)
     for cup_file in ("data_se-26-27_cup.csv", "data_26-27_cup.csv", "data_chw-26-27_cup.csv"):
@@ -689,3 +689,189 @@ def test_torneopal_client_caches_settled_games_and_rereads_recent_ones(tmp_path)
     client.fetch_match("8", "2026-10-31")
     client.fetch_match("8", "2026-10-31")
     assert len(captured) == 3
+
+
+def _stats_event(season, phase, scorer, team="A", game_id=1):
+    return {"season": season, "phase": phase, "event_type": "goal", "event_team": team, "game_id": game_id,
+            "home_team_name": team, "away_team_name": "B", "scorer_name": scorer, "assist_name": "", "penalty_player_name": ""}
+
+
+def test_cup_stats_go_to_players_with_a_league_row_for_the_same_club(monkeypatch, capsys):
+    events = pd.DataFrame(
+        [
+            _stats_event("se-26-27", "regular-season", "Sven Svensson", "A", 1),
+            _stats_event("se-26-27", "cup", "Sven Svensson", "A", 2),
+            _stats_event("se-26-27", "cup", "Sven Svensson", "A", 3),
+            _stats_event("se-26-27", "cup", "Lower Leaguer", "Lower League FBC", 5),  # no league row at all
+        ]
+    )
+    written = {}
+    monkeypatch.setattr(player_builder, "_load_events", lambda url: events)
+    monkeypatch.setattr(player_builder, "_load_all_game_rosters", lambda url: pd.DataFrame())
+    monkeypatch.setattr(player_builder, "_load_stored_player_stats", lambda url: pd.DataFrame())
+    monkeypatch.setattr(player_builder, "_lineup_rows_for_prefix", lambda *args, **kwargs: pd.DataFrame())
+    monkeypatch.setattr(player_builder, "_replace_player_stats_table", lambda url, frame: written.setdefault("frame", frame) is not None and len(frame))
+
+    player_builder.build_player_stats_from_postgres(database_url="postgresql://test")
+
+    frame = written["frame"]
+    cup = frame[frame["phase"] == "cup"]
+    assert cup["player"].tolist() == ["Sven Svensson"]
+    assert cup.iloc[0]["goals"] == 2 and cup.iloc[0]["team"] == "A"
+    assert cup.iloc[0]["player_uid"] == frame[frame["phase"] == "regular-season"].iloc[0]["player_uid"]
+    assert "left out 1 players" in capsys.readouterr().out
+
+
+def test_match_cup_rows_compares_club_and_season_and_counts_the_players_left_out():
+    league = pd.DataFrame([
+        {"player_uid": "p1", "season": "ch-26-27", "team": "Club A"},
+        {"player_uid": "p2", "season": "ch-25-26", "team": "Club B"},
+        {"player_uid": "p3", "season": "ch-26-27", "team": "Club C / Club D"},
+    ])
+    cup = pd.DataFrame([
+        {"player_uid": "p1", "season": "ch-26-27", "team": "Club A"},
+        {"player_uid": "p2", "season": "ch-26-27", "team": "Club B"},  # league row is from an earlier season
+        {"player_uid": "p3", "season": "ch-26-27", "team": "Club D"},  # joined clubs count
+        {"player_uid": "p9", "season": "ch-26-27", "team": "Club A"},
+    ])
+
+    kept, dropped = player_builder.match_cup_rows(cup, league)
+
+    assert kept["player_uid"].tolist() == ["p1", "p3"]
+    assert dropped == 2
+
+
+def _player_rows(**cup):
+    base = {"player_uid": "player-x", "player": "Pia Player", "team": "Club A", "league": "Switzerland"}
+    rows = [
+        {**base, "season": "ch-25-26", "phase": "regular-season", "games": "20", "goals": "9", "assists": "9", "points": "18", "pim": "4"},
+        {**base, "season": "ch-26-27", "phase": "regular-season", "games": "10", "goals": "5", "assists": "3", "points": "8", "pim": "2"},
+        {**base, "season": "ch-26-27", "phase": "playoffs", "games": "2", "goals": "1", "assists": "1", "points": "2", "pim": "0"},
+    ]
+    if cup:
+        rows.append({**base, "season": "ch-26-27", "phase": "cup", **cup})
+    return rows
+
+
+def test_player_page_adds_up_the_current_season_over_all_competitions_and_keeps_the_cup_in_the_history():
+    from src.generate_player_markdown import _rows_to_markdown
+
+    cup = {"games": "3", "goals": "4", "assists": "1", "points": "5", "pim": "2"}
+    markdown, _ = _rows_to_markdown(_player_rows(**cup), "players", "2026-11-02")
+    fields = dict(line.split(": ", 1) for line in markdown.splitlines() if ": " in line)
+
+    assert (fields["current_games"], fields["current_goals"], fields["current_points"], fields["current_pim"]) == ("15", "10", "15", "4")
+    assert (fields["cup_games"], fields["cup_goals"], fields["cup_assists"], fields["cup_points"], fields["cup_pim"]) == ("3", "4", "1", "5", "2")
+    assert (fields["regular_games"], fields["playoff_games"]) == ("10", "2")
+    assert "ch-26-27|cup|Switzerland|Club A|3|4|1|5|2" in fields["history_rows_csv"].split("||")
+    # career_* stays league only, so the player comparison and the search index do not change
+    assert (fields["career_games"], fields["career_goals"]) == ("32", "15")
+    # without cup games the page is as before
+    plain, _ = _rows_to_markdown(_player_rows(), "players", "2026-11-02")
+    assert "cup_games: 0" in plain and "|cup|" not in plain
+
+
+def test_player_page_shows_the_current_season_in_the_boxes_not_the_career():
+    template = (ROOT / "themes" / "my-theme" / "templates" / "player.html").read_text(encoding="utf-8")
+    boxes = template.split('<section class="kpi-grid">')[0]
+
+    assert "article.current_games" in boxes and "article.current_points" in boxes
+    assert "career_" not in boxes
+    assert "all competitions" in boxes
+
+
+def test_cup_only_players_get_no_page_and_cup_games_stay_out_of_the_player_rankings(tmp_path, monkeypatch):
+    import src.generate_player_markdown as page_module
+    import src.generate_player_stats_index_markdown as index_module
+
+    cup_only = {"player_uid": "player-cup", "player": "Cup Only", "team": "Low FBC", "league": "Switzerland",
+                "season": "ch-26-27", "phase": "cup", "rank": "1", "games": "2", "goals": "3", "assists": "0", "points": "3", "pim": "0"}
+    rows = [
+        {**cup_only, "player_uid": "player-x", "player": "Pia Player", "team": "Club A", "phase": "regular-season", "rank": "1"},
+        {**cup_only, "player_uid": "player-x", "player": "Pia Player", "team": "Club A", "rank": "1"},
+        cup_only,
+    ]
+    monkeypatch.setattr(page_module, "_load_rows_from_postgres", lambda url: rows)
+    monkeypatch.setattr(page_module, "_load_alias_pairs_from_postgres", lambda url: [])
+    monkeypatch.setattr(index_module, "_load_rows_from_postgres", lambda url: rows)
+
+    pages = tmp_path / "players"
+    page_module.generate_player_markdown(database_url="x", output_dir=str(pages))
+    assert [path.name for path in pages.glob("*.md")] == ["player-x.md"]
+
+    rankings = tmp_path / "player-stats"
+    index_module.generate_player_stats_index_markdown(database_url="x", output_dir=str(rankings))
+    assert [path.name for path in rankings.glob("*.md")] == ["ch-26-27-regular-season-players.md"]
+
+
+def test_player_comparison_stays_with_the_league_when_the_page_counts_the_cup():
+    from src import player_compare
+
+    meta = {"slug": "player-x", "player": "Pia Player", "current_season": "ch-26-27", "current_games": "15", "current_goals": "10",
+            "current_assists": "5", "current_points": "15", "current_pim": "4", "cup_games": "3", "cup_goals": "4",
+            "cup_assists": "1", "cup_points": "5", "cup_pim": "2", "career_games": "32", "career_goals": "15"}
+
+    payload = player_compare.player_payload(meta)
+
+    assert payload["current"] == {"games": 12, "goals": 6, "assists": 4, "points": 10, "pim": 2}
+    assert payload["career"]["games"] == 32
+
+
+def test_cup_game_pages_link_their_teams_to_the_league_team_pages():
+    import sys
+    from datetime import datetime
+    from types import SimpleNamespace as Obj
+
+    sys.path.insert(0, str(ROOT / "plugins"))
+    import seo
+    from pelicanconf import category_seo_label, league_context
+
+    game = Obj(type="game", slug="g", url="g.html", category=Obj(slug="ch-26-27-cup"), home_team="SV Wiler-Ersigen",
+               away_team="Lower League FBC", date=datetime(2026, 11, 22), start_time="19:30")
+    settings = {"SITEURL": "https://stats.example.com", "JINJA_FILTERS": {
+        "league_context": league_context, "category_seo_label": category_seo_label}}
+    pages = {("ch-26-27-regular-season", "svwilerersigen"): "wiler.html"}
+
+    seo.collect(Obj(articles=[game], settings=settings, context={"TEAM_PAGES": pages}))
+
+    assert game.seo_home_url == "wiler.html"
+    assert game.seo_away_url == ""  # lower league: no team page, so no link
+
+
+def _cup_game(round_name, home, away, home_goals, away_goals, day, **extra):
+    from datetime import datetime
+    from types import SimpleNamespace as Obj
+
+    return Obj(type="game", url=f"{home}-{away}.html", category=Obj(shortname="ch-26-27-cup"), date=datetime(2026, 11, day),
+               home_team=home, away_team=away, home_goals=str(home_goals), away_goals=str(away_goals), game_state="played",
+               tournament_stage_label=round_name, competition_name="Mobiliar Unihockey Cup Männer", **extra)
+
+
+def test_team_pages_list_the_cup_games_of_their_team_and_only_those():
+    import sys
+    from types import SimpleNamespace as Obj
+
+    sys.path.insert(0, str(ROOT / "plugins"))
+    import cup_games
+
+    games = [
+        _cup_game("1/16-Final", "Club A", "Low FBC", 7, 2, 1),
+        _cup_game("1/8-Final", "Club B", "Club A", 4, 3, 8, home_goals_in_overtime="1"),
+        _cup_game("1/8-Final", "Club C", "Club D", 1, 0, 8),
+    ]
+    team_a = Obj(type="team", team="Club A", category=Obj(shortname="ch-26-27-regular-season"))
+    team_a_other_season = Obj(type="team", team="Club A", category=Obj(shortname="ch-25-26-regular-season"))
+    team_e = Obj(type="team", team="Club E", category=Obj(shortname="ch-26-27-regular-season"))
+
+    cup_games.collect(Obj(articles=[*games, team_a, team_a_other_season, team_e]))
+
+    rows = team_a.cup_games
+    assert [(row["round"], row["opponent"], row["outcome"], row["decision"], row["home"]) for row in rows] == [
+        ("1/16-Final", "Low FBC", "W", "", True),
+        ("1/8-Final", "Club B", "L", "OT", False),
+    ]
+    assert (rows[1]["goals_for"], rows[1]["goals_against"]) == (3, 4)
+    assert not hasattr(team_a_other_season, "cup_games") and not hasattr(team_e, "cup_games")
+
+    template = (ROOT / "themes" / "my-theme" / "templates" / "team.html").read_text(encoding="utf-8")
+    assert "{% if article.cup_games %}" in template

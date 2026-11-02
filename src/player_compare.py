@@ -93,7 +93,9 @@ def player_payload(
     """
     uid = _page_id(meta)
     season = _text(meta.get("current_season"))
-    current = _counts(meta, "current")
+    # The page counts the latest season over all competitions; the comparison stays with the league.
+    cup = _counts(meta, "cup")
+    current = {key: max(0, value - cup[key]) for key, value in _counts(meta, "current").items()}
     career = _counts(meta, "career")
     # Pages of players with a single season may lack the career_ keys.
     if not career["games"] and current["games"]:

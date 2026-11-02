@@ -512,6 +512,32 @@ def _replace_player_stats_table(database_url: str, frame: pd.DataFrame) -> int:
         return len(rows)
 
 
+def _team_parts(team: object) -> set[str]:
+    return {part.strip().lower() for part in str(team or "").split(" / ") if part.strip()}
+
+
+def match_cup_rows(cup_rows: pd.DataFrame, league_rows: pd.DataFrame) -> tuple[pd.DataFrame, int]:
+    """Keep the cup rows of players who also have a league row for the same club and season.
+
+    A cup player belongs to the page of that league player (same ``player_uid`` and club in the
+    same season). Cup players from lower leagues have no league row, so no player page exists;
+    they are left out and counted instead of getting a page of their own.
+    Returns the kept rows and the number of dropped players.
+    """
+    if cup_rows.empty:
+        return cup_rows, 0
+    clubs: dict[tuple[str, str], set[str]] = defaultdict(set)
+    for uid, season, team in league_rows[["player_uid", "season", "team"]].itertuples(index=False, name=None):
+        clubs[(str(uid), str(season))] |= _team_parts(team)
+    keep = [
+        bool(_team_parts(team) & clubs.get((str(uid), str(season)), set()))
+        for uid, season, team in cup_rows[["player_uid", "season", "team"]].itertuples(index=False, name=None)
+    ]
+    kept = cup_rows[keep].copy()
+    dropped = int(cup_rows.loc[[not flag for flag in keep], "player_uid"].nunique())
+    return kept, dropped
+
+
 def build_player_stats_from_postgres(
     *, database_url: str, output_csv: str = "", only_prefixes: set[str] | None = None
 ) -> int:
@@ -526,6 +552,7 @@ def build_player_stats_from_postgres(
     previous_stats = _load_stored_player_stats(database_url)
 
     all_rows: list[pd.DataFrame] = []
+    cup_rows: list[pd.DataFrame] = []
 
     if not events.empty:
         grouped = events.groupby(["season", "phase"], dropna=False)
@@ -536,18 +563,18 @@ def build_player_stats_from_postgres(
             phase_key = str(phase or "").strip()
             if not season_key or not phase_key:
                 continue
-            if is_cup_phase(phase_key):
-                # Cup games never count toward league player rankings or player pages.
-                continue
             prefix = _season_prefix(season_key)
             info = LEAGUE_INFO.get(prefix)
             if not info:
                 continue
+            # Cup rows are collected apart and only kept for players who have a league row
+            # (match_cup_rows); they never enter the rankings (generate_player_stats_index_markdown).
+            target_rows = cup_rows if is_cup_phase(phase_key) else all_rows
             if only_prefixes is not None and prefix not in only_prefixes:
                 # Partial rebuild (e.g. the local Czech job): keep the other leagues as stored.
                 stored = _stored_rows_for(previous_stats, season_key, phase_key)
                 if not stored.empty:
-                    all_rows.append(stored)
+                    target_rows.append(stored)
                     continue
             print(f"[{i}/{total}] {season_key} / {phase_key} ({info['league']})...")
             event_rows = _rows_from_event_frame(
@@ -572,10 +599,10 @@ def build_player_stats_from_postgres(
                 stored = _stored_rows_for(previous_stats, season_key, phase_key)
                 if not stored.empty:
                     print(f"  [WARN] lineups unavailable ({lineup_error}); keeping {len(stored):,} stored rows.")
-                    all_rows.append(stored)
+                    target_rows.append(stored)
                     continue
                 print(f"  [WARN] lineups unavailable ({lineup_error}); using event-only games counts.")
-            all_rows.append(
+            target_rows.append(
                     _merge_finalized_rows(
                         [event_rows, lineup_rows],
                         season=season_key,
@@ -584,6 +611,14 @@ def build_player_stats_from_postgres(
                         source_system=info["source_system"],
                     )
                 )
+
+    if cup_rows and all_rows:
+        matched, dropped = match_cup_rows(
+            pd.concat(cup_rows, ignore_index=True), pd.concat(all_rows, ignore_index=True)
+        )
+        print(f"cup player stats: kept {len(matched):,} rows, left out {dropped:,} players without a league row.")
+        if not matched.empty:
+            all_rows.append(matched)
 
     if all_rows:
         result = pd.concat(all_rows, ignore_index=True)
