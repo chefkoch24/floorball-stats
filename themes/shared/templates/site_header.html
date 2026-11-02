@@ -21,10 +21,12 @@
             {% if header_is_stats|default(false) %}
             <div class="fc-nav__stats">
                 <a href="{{ header_stats }}/"><span class="fs-label">Stats</span><strong>Floorball Stats</strong></a>
-                <button class="menu-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button>
-                <a class="fc-nav__more" href="{{ header_stats }}/leaders.html">Leaders</a>
-                <a class="fc-nav__more" href="{{ header_stats }}/stats-explained.html">How it works</a>
-                <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
+                <ul class="fc-nav__list">
+                    <li><button class="fc-nav__item" type="button" data-nav-toggle aria-expanded="false" aria-controls="leagueNav">Leagues <span class="menu-toggle__icon" aria-hidden="true">▾</span></button></li>
+                    <li><a class="fc-nav__item" href="{{ header_stats }}/leaders.html">Leaders</a></li>
+                    <li><a class="fc-nav__item" href="{{ header_stats }}/stats-explained.html">How it works</a></li>
+                    <li><button class="fc-nav__item footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button></li>
+                </ul>
             </div>
             {% else %}
             <a class="fc-nav__stats" href="{{ header_stats }}/">
