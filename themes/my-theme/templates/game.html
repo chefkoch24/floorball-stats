@@ -77,7 +77,7 @@
     {% endif %}
     {% endif %}
     {% set versus_href = versus.href(current_category|league_context, article.home_team, article.away_team)|trim %}
-    {% if versus_href %}
+    {% if versus_href and not current_category.endswith('-cup') %}
     <div class="flex justify-center">
         <a class="fs-btn fs-btn--ghost" href="{{ versus_href }}">All meetings: {{ article.home_team|e }} vs {{ article.away_team|e }} →</a>
     </div>
@@ -115,17 +115,21 @@
 {% set has_final_score = article.home_goals is not none and article.away_goals is not none and has_result_string_score %}
 {% set is_upcoming_by_state = normalized_game_state in ['scheduled', 'upcoming', 'not_played', 'not played', 'not-played'] %}
 {% set is_upcoming_by_status = normalized_game_status in ['scheduled', 'upcoming', 'not played', 'not_played'] %}
-{% set default_pregame_tab = is_upcoming_by_state or (normalized_game_state != 'played' and (is_upcoming_by_status or not has_final_score)) %}
+{# Cup games have no league form to compare (the pre-game tab would show zeros), so they get the match view only. #}
+{% set is_cup_game = current_category.endswith('-cup') %}
+{% set default_pregame_tab = not is_cup_game and (is_upcoming_by_state or (normalized_game_state != 'played' and (is_upcoming_by_status or not has_final_score))) %}
 {% set home_form_codes = (article.pregame_h2h_form5_home_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_home_tag_codes_csv else [] %}
 {% set away_form_codes = (article.pregame_h2h_form5_away_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_away_tag_codes_csv else [] %}
 {% set home_form_opponents = (article.pregame_h2h_form5_home_opponents_csv|default('', true)).split('||') if article.pregame_h2h_form5_home_opponents_csv else [] %}
 {% set away_form_opponents = (article.pregame_h2h_form5_away_opponents_csv|default('', true)).split('||') if article.pregame_h2h_form5_away_opponents_csv else [] %}
 
 <section>
+    {% if not is_cup_game %}
     <div class="games-tabs" id="game-view-tabs">
         <button type="button" class="games-tab{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-tab="match">Game Stats</button>
         <button type="button" class="games-tab{% if default_pregame_tab %} is-active{% endif %}" data-game-view-tab="pregame">Pre-Game H2H</button>
     </div>
+    {% endif %}
 
     <div class="games-tab-panel{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-panel="match">
         <section class="kpi-grid">
@@ -198,7 +202,8 @@
         </section>
     </div>
 
-    <div class="games-tab-panel{% if default_pregame_tab %} is-active{% endif %}" data-game-view-panel="pregame">
+    {% if not is_cup_game %}
+<div class="games-tab-panel{% if default_pregame_tab %} is-active{% endif %}" data-game-view-panel="pregame">
         <section class="section-grid">
             <article class="panel">
                 <h2 class="panel-title">General Season Performance</h2>
@@ -298,6 +303,7 @@
 
         </section>
     </div>
+    {% endif %}
 </section>
 
 <script>

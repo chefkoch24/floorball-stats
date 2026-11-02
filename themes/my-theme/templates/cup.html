@@ -62,7 +62,8 @@
         {% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
         <nav class="fs-segmented" aria-label="Season phase">
             {% if regular_slug in available %}<a class="fs-segment" href="{{ SITEURL }}/category/{{ regular_slug }}.html">Regular season</a>{% endif %}
-            {% if playoffs_slug in available %}<a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>{% endif %}
+            {% if playoffs_slug in available %}<a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>
+            {% else %}<span class="fs-segment cursor-default opacity-60" title="Playoffs have not started yet">Playoffs</span>{% endif %}
             <a class="fs-segment" aria-current="page" href="{{ SITEURL }}/{{ category.url }}">Cup</a>
         </nav>
         {% endif %}
