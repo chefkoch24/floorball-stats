@@ -254,7 +254,7 @@ def _slug_parts(slug):
 
 
 def homepage_games(articles):
-    """Small timezone-tolerant window, plus the next matchday per division."""
+    """Games inside the date strip's window, plus the next matchday per division."""
     games = []
     divisions = {}
     for article in articles:
@@ -266,7 +266,7 @@ def homepage_games(articles):
         games.append(article)
         if article.date.date() > BUILD_DATE:
             divisions[division] = min(divisions.get(division, article.date.date()), article.date.date())
-    return [article for article in games if abs((article.date.date() - BUILD_DATE).days) <= 2
+    return [article for article in games if abs((article.date.date() - BUILD_DATE).days) <= HOME_GAMES_WINDOW_DAYS
             or article.date.date() in divisions.values()]
 
 
@@ -358,6 +358,8 @@ def crest_index(name):
 
 # Only curated, explicitly reviewed records may be displayed.
 BUILD_DATE = datetime.now(ZoneInfo('Europe/Berlin')).date()
+# Days either side of BUILD_DATE whose games the home page inlines for its date strip.
+HOME_GAMES_WINDOW_DAYS = 10
 TEAM_LOGOS_PATH = Path(__file__).resolve().parent / 'config' / 'team_logos.json'
 TEAM_LOGOS_ASSET_DIR = Path(__file__).resolve().parent / 'themes' / 'my-theme' / 'static' / 'team-logos'
 
