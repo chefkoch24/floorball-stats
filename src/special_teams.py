@@ -131,6 +131,8 @@ def league_table(teams: list[TeamSpecials]) -> dict | None:
                 "sh_goals": team.sh_goals,
             }
         )
+    # Best powerplay first; teams without a powerplay yet go last.
+    rows.sort(key=lambda row: (row["pp_percent"] is None, -(row["pp_percent"] or 0), row["team"]))
     plotted = [row for row in rows if row["pp_percent"] is not None and row["bp_percent"] is not None]
     league_pp = _percent(sum(t.pp_goals for t in teams), sum(t.pp_opportunities for t in teams))
     league_bp = _percent(

@@ -69,3 +69,8 @@ def test_league_table_keeps_teams_without_opportunities_out_of_the_scatter():
 def test_league_table_is_none_before_any_powerplay():
     assert sp.league_table([_specials("A", 0, 0, 0, 0)]) is None
     assert sp.league_table([]) is None
+
+
+def test_league_table_rows_are_best_powerplay_first_and_teams_without_one_last():
+    table = sp.league_table([_specials("B", 0, 0, 0, 0), _specials("C", 2, 10, 1, 5), _specials("A", 5, 10, 1, 5)])
+    assert [row["team"] for row in table["rows"]] == ["A", "C", "B"]

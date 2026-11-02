@@ -854,7 +854,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                {% for row in data.rows|sort(attribute='pp_percent', reverse=true) %}
+                {% for row in data.rows %}
                 <tr>
                     <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
                     <td>{{ row.pp_goals }}/{{ row.pp_opportunities }}</td>
