@@ -123,16 +123,20 @@ test('capture adds site and page context and removes anything free-form', () => 
   });
 });
 
-test('the connect script tag switches the site property', () => {
+test('the connect script tag switches the site property and completion events are named after the button', () => {
   const { win, calls } = fakeWindow('/subscribe/', 'connect');
   fbTrack.init(win);
-  fbTrack.ctaCompleted('signup-subscribe', { cta_kind: 'newsletter' });
+  fbTrack.ctaCompleted('newsletter_signup', { cta_kind: 'newsletter', cta_placement: 'signup-page' });
   const [name, props, options] = calls[0];
-  assert.equal(name, 'cta_completed');
+  assert.equal(name, 'newsletter_signup_completed');
   assert.equal(props.site, 'connect');
-  assert.equal(props.cta_id, 'signup-subscribe');
+  assert.equal(props.cta, 'newsletter_signup');
+  assert.equal(props.cta_step, 'completed');
   assert.equal(props.page_type, 'subscribe');
   assert.deepEqual(options, { send_instantly: true });
+  fbTrack.ctaFailed('newsletter_signup', 'rejected');
+  assert.equal(calls[1][0], 'newsletter_signup_failed');
+  assert.equal(calls[1][1].reason, 'rejected');
 });
 
 test('clicking an already selected filter option sends nothing, a new one sends once', () => {
@@ -150,18 +154,22 @@ test('clicking an already selected filter option sends nothing, a new one sends 
   assert.equal(calls[0][1].filter_value, 'women');
 });
 
-test('CTA clicks use data-cta and the older support and calendar attributes', () => {
+test('CTA clicks are named after the button and carry placement and detail', () => {
   const { win, calls, listeners } = fakeWindow('/');
   fbTrack.init(win);
-  const sel = '[data-cta], [data-support-cta], [data-calendar-cta], [data-share]';
-  listeners.click({ target: target({ [sel]: true }, { 'data-cta': 'header', href: 'https://www.floorballconnect.com/subscribe/' }, { tag: 'A' }) });
-  listeners.click({ target: target({ [sel]: true }, { 'data-support-cta': 'card', href: 'https://ko-fi.com/x?ref=1' }, { tag: 'A' }) });
+  const sel = '[data-cta], [data-calendar-cta], [data-share]';
+  listeners.click({ target: target({ [sel]: true }, { 'data-cta': 'join_for_free', 'data-cta-placement': 'header', href: 'https://www.floorballconnect.com/subscribe/' }, { tag: 'A' }) });
+  listeners.click({ target: target({ [sel]: true }, { 'data-cta': 'write_a_review', 'data-cta-detail': 'sticks', href: 'https://tally.so/r/x?y=1' }, { tag: 'A' }) });
   listeners.click({ target: target({ [sel]: true }, { 'data-calendar-cta': 'google', href: 'webcal://x/y.ics' }, { tag: 'A' }) });
-  assert.deepEqual(calls.map((c) => [c[0], c[1].cta_id, c[1].destination]), [
-    ['cta_clicked', 'header', 'www.floorballconnect.com/subscribe/'],
-    ['cta_clicked', 'support-card', 'ko-fi.com/x'],
-    ['cta_clicked', 'calendar-google', 'webcal'],
+  listeners.click({ target: target({ [sel]: true }, { 'data-share': '' }) });
+  assert.deepEqual(calls.map((c) => [c[0], c[1].cta_placement, c[1].cta_detail, c[1].destination]), [
+    ['join_for_free_clicked', 'header', undefined, 'www.floorballconnect.com/subscribe/'],
+    ['write_a_review_clicked', undefined, 'sticks', 'tally.so/r/x'],
+    ['calendar_google_clicked', undefined, undefined, 'webcal'],
+    ['share_page_clicked', undefined, undefined, undefined],
   ]);
+  assert.equal(calls[0][1].cta, 'join_for_free');
+  assert.equal(calls[0][1].cta_step, 'clicked');
 });
 
 test('league links report the target league, season and phase; selects report on change only', () => {
@@ -196,4 +204,25 @@ test('on localhost events are logged instead of sent', () => {
   assert.equal(calls.length, 0);
   assert.equal(fbTrack.localLog().length, before + 1);
   assert.equal(logged[0][1], 'search_opened');
+});
+
+test('a banner marked data-track-view reports <name>_viewed once when it is in view', () => {
+  const { win, calls } = fakeWindow('/');
+  let callback = null;
+  const unobserved = [];
+  const banner = { getAttribute: () => 'support_floorball_stats' };
+  win.IntersectionObserver = function (fn) {
+    callback = fn;
+    this.observe = () => {};
+    this.unobserve = (el) => unobserved.push(el);
+  };
+  win.document.querySelectorAll = (selector) => (selector === '[data-track-view]' ? [banner] : []);
+  fbTrack.init(win);
+  callback([{ isIntersecting: false, target: banner }]);
+  assert.equal(calls.length, 0);
+  callback([{ isIntersecting: true, target: banner }]);
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0][0], 'support_floorball_stats_viewed');
+  assert.equal(calls[0][1].cta_step, 'viewed');
+  assert.deepEqual(unobserved, [banner]);
 });

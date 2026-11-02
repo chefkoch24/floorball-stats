@@ -78,7 +78,7 @@
     <input id="{{ id }}-email" type="email" name="fields[email]" required placeholder="Your email" autocomplete="email" inputmode="email">
     <input type="hidden" name="ml-submit" value="1">
     <input type="hidden" name="anticsrf" value="true">
-    <button class="fs-btn fs-btn--primary" type="submit" data-cta="signup-{{ id }}">{{ cta }}</button>
+    <button class="fs-btn fs-btn--primary" type="submit" data-cta="newsletter_signup" data-cta-placement="{{ id }}">{{ cta }}</button>
     <p class="fc-signup__note" data-signup-message role="status">Free. Only your email, unsubscribe any time.</p>
 </form>
 {% endmacro %}

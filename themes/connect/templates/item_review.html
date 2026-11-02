@@ -48,7 +48,7 @@
         {% if item.body %}<div class="fc-prose">{{ item.body }}</div>{% endif %}
 
         <div class="fc-actions">
-            <a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="review-{{ collection.key }}">Review this {{ kind }}</a>
+            <a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="write_a_review" data-cta-detail="{{ collection.key }}">Review this {{ kind }}</a>
             {% if count %}<a class="fs-btn" href="#reviews">Read {{ count }} review{{ '' if count == 1 else 's' }}</a>{% endif %}
         </div>
     </div>

@@ -3,6 +3,8 @@
    name style (snake_case) and the same base properties, and nothing free-form leaves
    the browser. Event list and property schema: docs/analytics-events.md.
 
+   - Event names: CTAs are named after the button (join_for_free_clicked,
+     newsletter_signup_completed); filters and searches are filter_changed, search_used, ...
    - Base properties on every event: site (stats|connect), page_path, page_type and,
      where the URL tells, league, season, phase, division.
    - Strings are only sent when they look like an identifier (no spaces, no "@"), so
@@ -175,12 +177,20 @@
     } catch (error) { /* analytics must never break the page */ }
   }
 
-  // Convenience wrappers so call sites read like the event list.
-  function ctaClicked(ctaId, extra) { capture('cta_clicked', Object.assign({ cta_id: ctaId }, extra)); }
+  // CTA events are named after the button: "Join for free" -> join_for_free_clicked,
+  // newsletter sign-up -> newsletter_signup_clicked / _completed / _failed. `cta` holds the
+  // button name, `cta_step` the step, so all CTAs can still be grouped by property.
+  function ctaEvent(button, step, props, options) {
+    var base = slugify(button);
+    if (!base) return;
+    capture(base + '_' + step, Object.assign({ cta: base, cta_step: step }, props), options);
+  }
+  function ctaClicked(button, extra) { ctaEvent(button, 'clicked', extra); }
+  function ctaViewed(button, extra) { ctaEvent(button, 'viewed', extra); }
   // Completed = the sign-up or share really went through. Sent immediately because the
   // page often navigates right after.
-  function ctaCompleted(ctaId, extra) { capture('cta_completed', Object.assign({ cta_id: ctaId }, extra), { send_instantly: true }); }
-  function ctaFailed(ctaId, reason, extra) { capture('cta_failed', Object.assign({ cta_id: ctaId, reason: reason }, extra)); }
+  function ctaCompleted(button, extra) { ctaEvent(button, 'completed', extra, { send_instantly: true }); }
+  function ctaFailed(button, reason, extra) { ctaEvent(button, 'failed', Object.assign({ reason: reason }, extra)); }
 
   function filterChanged(name, value, extra) {
     var key = name + ':' + (extra && extra.filter_scope || '');
@@ -216,6 +226,9 @@
     ['[data-filter-facet]', 'facet', function (el) { return slugify(el.getAttribute('data-filter-facet')) || 'all'; }],
     ['[data-track-filter]', null, function (el) { return el.getAttribute('data-track-value'); }]
   ];
+
+  // Button names for the team calendar links (labels: Apple / Outlook, Google, .ics).
+  var CALENDAR_BUTTONS = { apple: 'calendar_apple_outlook', google: 'calendar_google', download: 'calendar_ics_download' };
 
   function alreadySelected(el) {
     return el.getAttribute('aria-pressed') === 'true' || el.classList.contains('is-active');
@@ -260,20 +273,27 @@
       }
     }
 
-    // CTAs. data-cta is the id; data-support-cta and data-calendar-cta are older
-    // attributes that map onto the same event.
-    var cta = target.closest('[data-cta], [data-support-cta], [data-calendar-cta], [data-share]');
+    // CTAs. data-cta names the button (snake_case of its label); data-cta-placement and
+    // data-cta-detail add where it sits and which collection it belongs to. The older
+    // data-calendar-cta and data-share attributes map onto button names too.
+    var cta = target.closest('[data-cta], [data-calendar-cta], [data-share]');
     if (cta) {
-      var id = cta.getAttribute('data-cta');
+      var button = cta.getAttribute('data-cta');
       var kind = cta.tagName === 'A' ? 'link' : 'button';
-      if (!id && cta.hasAttribute('data-support-cta')) { id = 'support-' + cta.getAttribute('data-support-cta'); kind = 'support'; }
-      if (!id && cta.hasAttribute('data-calendar-cta')) { id = 'calendar-' + cta.getAttribute('data-calendar-cta'); kind = 'calendar'; }
-      if (!id && cta.hasAttribute('data-share')) { id = 'share-' + (slugify(cta.getAttribute('data-share')) || 'page'); kind = 'share'; }
-      if (id) {
+      if (!button && cta.hasAttribute('data-calendar-cta')) {
+        button = CALENDAR_BUTTONS[cta.getAttribute('data-calendar-cta')] || 'calendar';
+        kind = 'calendar';
+      }
+      if (!button && cta.hasAttribute('data-share')) { button = 'share_page'; kind = 'share'; }
+      if (button) {
         var props = { cta_kind: kind };
+        var placement = cta.getAttribute('data-cta-placement');
+        var detail = cta.getAttribute('data-cta-detail');
+        if (placement) props.cta_placement = placement;
+        if (detail) props.cta_detail = detail;
         var href = cta.getAttribute('href');
         if (href) props.destination = destination(href, state.win.location.host);
-        ctaClicked(id, props);
+        ctaClicked(button, props);
       }
     }
   }
@@ -291,15 +311,14 @@
 
   function observeViews(win) {
     if (!('IntersectionObserver' in win)) return;
-    var targets = win.document.querySelectorAll('[data-support-card], [data-track-view]');
+    var targets = win.document.querySelectorAll('[data-track-view]');
     if (!targets.length) return;
     var observer = new win.IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         var el = entry.target;
         observer.unobserve(el);
-        var id = el.getAttribute('data-track-view') || (el.hasAttribute('data-support-card') ? 'support-banner' : '');
-        if (id) capture('cta_viewed', { cta_id: id });
+        ctaViewed(el.getAttribute('data-track-view'));
       });
     }, { threshold: 0.5 });
     targets.forEach(function (el) { observer.observe(el); });
@@ -340,6 +359,7 @@
     init: init,
     capture: capture,
     ctaClicked: ctaClicked,
+    ctaViewed: ctaViewed,
     ctaCompleted: ctaCompleted,
     ctaFailed: ctaFailed,
     filterChanged: filterChanged,
