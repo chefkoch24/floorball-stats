@@ -63,6 +63,13 @@ html[data-division="women"] [data-division="men"] { display: none; }
   .fc-nav__stats:hover { border-color: var(--rink); text-decoration: none; }
   .fc-nav__stats strong { font: 700 18px/1.2 var(--font-display); font-stretch: 85%; }
   .fc-nav__more { color: var(--rink); font-weight: 600; font-size: 14px; }
+  /* The Stats card: four links of one style, like the columns next to it. */
+  .fc-nav__list { margin: var(--space-2) 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+  .fc-nav__stats .fc-nav__item { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; color: var(--ink); font: inherit; font-weight: 600; text-align: left; cursor: pointer; }
+  .fc-nav__stats .fc-nav__item:hover { color: var(--rink); text-decoration: none; }
+  .fc-nav__stats .fc-nav__item[aria-expanded="true"] { color: var(--rink); }
+  .fc-nav__item .menu-toggle__icon { font-size: 10px; transition: transform 0.15s ease; }
+  .fc-nav__item[aria-expanded="true"] .menu-toggle__icon { transform: rotate(180deg); }
   @media (max-width: 900px) {
     .fc-nav__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
     .fc-nav__stats { grid-column: 1 / -1; }
@@ -172,6 +179,7 @@ html[data-division="women"] [data-division="men"] { display: none; }
   .nav-division-option[aria-pressed="true"] { background: var(--rink); color: var(--on-rink); }
   .nav-league-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
   .nav-league {
+    align-content: start;
     display: grid;
     gap: 6px;
     padding: var(--space-3);
@@ -185,7 +193,7 @@ html[data-division="women"] [data-division="men"] { display: none; }
   .nav-league__name { color: var(--ink); font: 800 18px/1.15 var(--font-display); font-stretch: 85%; }
   .nav-league__season { color: var(--ink-muted); font: 600 12px/1.3 var(--font-display); font-variant-numeric: tabular-nums; }
   .nav-league__title { color: var(--ink-muted); font-size: 13px; }
-  .nav-league__links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .nav-league__links { display: flex; flex-wrap: wrap; align-content: flex-start; align-items: flex-start; gap: 6px; }
   .nav-league__link {
     padding: 3px var(--space-2);
     border: 1px solid var(--line);
