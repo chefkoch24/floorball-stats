@@ -309,6 +309,9 @@ def generate_player_stats_index_markdown(
             continue
         if include_prefixes and _season_prefix(season) not in include_prefixes:
             continue
+        if phase == "cup":
+            # Cup games stay out of the player rankings; they only show on the player pages.
+            continue
         grouped_rows.setdefault((season, phase), []).append(row)
 
     written = 0

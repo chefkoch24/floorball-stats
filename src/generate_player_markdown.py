@@ -30,6 +30,7 @@ CONTROL_FIELDS = {
     "history_rows_csv",
 }
 TOURNAMENT_SEASON_PREFIXES = {"wfc"}
+CUP_PHASE = "cup"
 
 
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
@@ -314,6 +315,10 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
     current_rows = [row for row in rows if row.get("season", "").strip() == current_season]
     regular_rows = [] if current_is_tournament else [row for row in current_rows if row.get("phase", "").strip() == "regular-season"]
     playoff_rows = [] if current_is_tournament else [row for row in current_rows if row.get("phase", "").strip() == "playoffs"]
+    cup_rows = [row for row in current_rows if row.get("phase", "").strip() == CUP_PHASE]
+    # current_* adds up every competition of the season (regular season, playoffs and cup);
+    # career_* stays league only (player comparison and search index read it).
+    league_rows = [row for row in rows if row.get("phase", "").strip() != CUP_PHASE]
     previous_rows = [row for row in rows if row.get("season", "").strip() == previous_season] if previous_season else []
 
     def _join_unique(rows_subset: list[dict[str, str]], key: str) -> str:
@@ -368,16 +373,21 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
         f"playoff_assists: {_sum(playoff_rows, 'assists')}",
         f"playoff_points: {_sum(playoff_rows, 'points')}",
         f"playoff_pim: {_sum(playoff_rows, 'pim')}",
+        f"cup_games: {_sum(cup_rows, 'games')}",
+        f"cup_goals: {_sum(cup_rows, 'goals')}",
+        f"cup_assists: {_sum(cup_rows, 'assists')}",
+        f"cup_points: {_sum(cup_rows, 'points')}",
+        f"cup_pim: {_sum(cup_rows, 'pim')}",
         f"previous_games: {_sum(previous_rows, 'games')}",
         f"previous_goals: {_sum(previous_rows, 'goals')}",
         f"previous_assists: {_sum(previous_rows, 'assists')}",
         f"previous_points: {_sum(previous_rows, 'points')}",
         f"previous_pim: {_sum(previous_rows, 'pim')}",
-        f"career_games: {_sum(rows, 'games')}",
-        f"career_goals: {_sum(rows, 'goals')}",
-        f"career_assists: {_sum(rows, 'assists')}",
-        f"career_points: {_sum(rows, 'points')}",
-        f"career_pim: {_sum(rows, 'pim')}",
+        f"career_games: {_sum(league_rows, 'games')}",
+        f"career_goals: {_sum(league_rows, 'goals')}",
+        f"career_assists: {_sum(league_rows, 'assists')}",
+        f"career_points: {_sum(league_rows, 'points')}",
+        f"career_pim: {_sum(league_rows, 'pim')}",
     ]
 
     history_rows = []
@@ -520,6 +530,9 @@ def generate_player_markdown(
         aliases_by_canonical.setdefault(canonical_uid, set()).add(alias_uid)
 
     for uid, rows in grouped_rows.items():
+        if all(row.get("phase", "").strip() == CUP_PHASE for row in rows):
+            # Cup players without a league row get no player page (see match_cup_rows).
+            continue
         markdown, filename = _rows_to_markdown(rows, default_category=default_category, metadata_date=metadata_date)
         if filename != f"{uid}.md":
             filename = f"{uid}.md"

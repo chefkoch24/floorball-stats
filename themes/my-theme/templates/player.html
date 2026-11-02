@@ -65,11 +65,16 @@
     </div>
 </details>
 
-{% set games = article.career_games|default(article.current_games|default(article.games|default(article.gp|default(0))))|int %}
-{% set points = article.career_points|default(article.current_points|default(article.points|default(0)))|int %}
-{% set goals = article.career_goals|default(article.current_goals|default(article.goals|default(0)))|int %}
-{% set assists = article.career_assists|default(article.current_assists|default(article.assists|default(0)))|int %}
-{% set pim = article.career_pim|default(article.current_pim|default(article.pim|default(0)))|int %}
+{# The boxes show the current season over all competitions (regular season, playoffs and cup); earlier seasons are in the Season Overview below. #}
+{% set games = article.current_games|default(article.games|default(article.gp|default(0)))|int %}
+{% set points = article.current_points|default(article.points|default(0))|int %}
+{% set goals = article.current_goals|default(article.goals|default(0))|int %}
+{% set assists = article.current_assists|default(article.assists|default(0))|int %}
+{% set pim = article.current_pim|default(article.pim|default(0))|int %}
+{% set season_parts = (article.current_season|default('')|string).split('-') %}
+{% if season_parts|length >= 3 and season_parts[1].isdigit() and season_parts[2].isdigit() %}{% set season_name = '20' ~ season_parts[1] ~ '/' ~ season_parts[2] %}
+{% elif season_parts|length >= 2 and season_parts[0].isdigit() and season_parts[1].isdigit() %}{% set season_name = '20' ~ season_parts[0] ~ '/' ~ season_parts[1] %}
+{% else %}{% set season_name = article.current_season|default('') %}{% endif %}
 {% if games > 0 %}
     {% set ppg = (points / games)|round(2) %}
     {% set gpg = (goals / games)|round(2) %}
@@ -82,6 +87,7 @@
     {% set pimg = '–' %}
 {% endif %}
 
+{% if season_name %}<p class="fs-label mb-2">Season {{ season_name }}, all competitions{% if article.cup_games|default(0)|int > 0 %} (regular season, playoffs and cup){% endif %}</p>{% endif %}
 <section class="kpi-grid">
     <article class="kpi"><p class="kpi-label">Games</p><p class="kpi-value">{{ games if games > 0 else '–' }}</p></article>
     <article class="kpi"><p class="kpi-label">Points</p><p class="kpi-value">{{ points }}</p></article>
