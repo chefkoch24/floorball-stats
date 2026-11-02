@@ -13,6 +13,7 @@
 {% set has_draws = teams | map(attribute='draws') | map('int') | sum > 0 %}
 {% set league_insights = (LEAGUE_INSIGHTS|default({})).get(category.slug, {}) %}
 {% import "insights.html" as insights with context %}
+{% import "versus_link.html" as versus with context %}
 
 {% macro decision(game) -%}
 {%- set ps = (game.home_goals_in_penalty_shootout|default(0)|int) + (game.away_goals_in_penalty_shootout|default(0)|int) -%}
@@ -71,6 +72,8 @@
     <div class="flex flex-wrap items-center gap-2">
         <span class="fs-chip">{{ 'Women' if league.division == 'women' else 'Men' }}</span>
         <span class="fs-chip">Season <strong>{{ league.season_label }}</strong></span>
+        {% set versus_href = versus.href(league)|trim %}
+        {% if versus_href %}<a class="fs-chip" href="{{ versus_href }}">Compare two teams →</a>{% endif %}
     </div>
     <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
         <div class="grid gap-1">

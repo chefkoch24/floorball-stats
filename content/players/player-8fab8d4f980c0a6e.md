@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Klara Molin
 Category: players
 Slug: player-8fab8d4f980c0a6e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 35
+rank: 39
 season: sew-26-27

@@ -34,8 +34,11 @@
         'previousPoints': article.previous_points|default(0)|int,
         'previousGames': article.previous_games|default(0)|int
     }|tojson }}</script>
-    <div><button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button></div>
     {% endif %}
+    <div class="flex flex-wrap gap-2">
+        {% if article.current_season and article.current_games|default(0)|int > 0 %}<button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button>{% endif %}
+        <a class="fs-btn fs-btn--ghost" href="{{ SITEURL }}/compare-players.html?a={{ article.slug }}" data-cta="compare_with_another_player">Compare with another player</a>
+    </div>
 </section>
 
 <details class="stat-guide">
@@ -56,6 +59,7 @@
             <li class="stat-guide__item"><strong>Game-changing goals:</strong> Goals that tied the game (equalizers) or gave the lead (go-ahead goals), at any time.</li>
             <li class="stat-guide__item"><strong>Clutch points:</strong> Game-changing goals in the last ten minutes of regulation or in overtime, plus assists on them. Every overtime goal counts.</li>
             <li class="stat-guide__item"><strong>Game winners (GWG):</strong> The goal that gave the winner one more goal than the loser's final total (none after penalty shots).</li>
+            <li class="stat-guide__item"><strong>Compare with another player:</strong> Opens the <a href="{{ SITEURL }}/compare-players.html?a={{ article.slug }}">player comparison</a> with this player chosen. Pick a second player to see both side by side for the latest season and the career; per-game values are the fair comparison across leagues (<a href="{{ SITEURL }}/stats-explained.html#compare-players">how it is counted</a>).</li>
             <li class="stat-guide__item"><strong>Scoring partners:</strong> Teammates this player scored from or set up most often this season.</li>
         </ul>
     </div>

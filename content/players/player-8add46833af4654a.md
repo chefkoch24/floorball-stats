@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kerttu Eko
 Category: players
 Slug: player-8add46833af4654a

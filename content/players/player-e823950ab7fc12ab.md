@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Andris Jēkabsons
 Category: players
 Slug: player-e823950ab7fc12ab
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 87
+rank: 85
 season: lv-25-26

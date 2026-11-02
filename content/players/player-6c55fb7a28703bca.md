@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ella Zetterstedt
 Category: players
 Slug: player-6c55fb7a28703bca
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 8
+rank: 10
 season: sew-26-27

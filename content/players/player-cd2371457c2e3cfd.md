@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nino Bühler
 Category: players
 Slug: player-cd2371457c2e3cfd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 16
+rank: 19
 season: ch-26-27

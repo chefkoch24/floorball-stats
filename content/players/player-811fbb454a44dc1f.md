@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lennox Düben
 Category: players
 Slug: player-811fbb454a44dc1f

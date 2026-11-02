@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Wilma Lundin
 Category: players
 Slug: player-4525c5edd8c4af5d
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 55
+rank: 57
 season: sew-26-27

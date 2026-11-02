@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{# Two players side by side. plugins/player_compare.py writes compare-players/index.json (search) and
+   compare-players/<uid>.json (one player); static/js/player-compare.js searches, loads and renders. #}
+{% set seo_title = "Compare two floorball players | " ~ SITENAME %}
+{% set seo_description = page.summary|striptags %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = page.url %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endblock %}
+
+{% macro slot(side, label) %}
+<div class="relative grid min-w-0 content-start gap-1" data-compare-slot="{{ side }}">
+    <label class="fs-label" for="compare-{{ side }}">{{ label }}</label>
+    <div class="relative">
+        <input id="compare-{{ side }}" type="search" role="combobox" aria-expanded="false" aria-controls="compare-{{ side }}-list" aria-autocomplete="list" autocomplete="off" spellcheck="false"
+               placeholder="Search a player…" data-compare-input
+               class="w-full rounded-md border border-line-strong bg-surface-raised py-2 pr-10 pl-3 text-ink placeholder:text-ink-muted">
+        <button type="button" hidden data-compare-clear aria-label="Remove {{ label }}"
+                class="absolute inset-y-0 right-0 px-3 text-ink-muted hover:text-ink">×</button>
+        <ul id="compare-{{ side }}-list" role="listbox" hidden data-compare-list aria-label="{{ label }} suggestions"
+            class="absolute inset-x-0 top-full z-30 m-0 mt-1 max-h-80 list-none overflow-auto rounded-md border border-line-strong bg-surface-raised p-0 shadow-[var(--shadow-menu)]"></ul>
+    </div>
+    <p class="m-0 min-h-5 text-sm text-ink-muted" data-compare-picked></p>
+</div>
+{% endmacro %}
+
+{% block content %}
+<article class="mx-auto grid max-w-4xl gap-6 text-ink" data-compare data-site="{{ SITEURL }}">
+    <header class="grid gap-3">
+        <h1 class="m-0 font-display text-[40px] leading-none font-extrabold [font-stretch:75%] text-balance sm:text-[56px]">{{ page.title }}</h1>
+        <p class="m-0 max-w-3xl leading-relaxed text-ink-muted">Search two players, from the same league or from different ones, and see their stats side by side for the latest season and the whole career. The address keeps both players, so you can share the comparison. <a href="{{ SITEURL }}/stats-explained.html#compare-players">How it is counted</a></p>
+    </header>
+
+    <form class="grid items-start gap-3 sm:grid-cols-[1fr_auto_1fr]" role="search" aria-label="Choose two players" onsubmit="return false">
+        {{ slot('a', 'Player A') }}
+        <button type="button" class="fs-btn fs-btn--ghost sm:mt-6" data-compare-swap aria-label="Swap players">⇄</button>
+        {{ slot('b', 'Player B') }}
+    </form>
+
+    <div class="grid gap-4" data-compare-output aria-live="polite">
+        <noscript><p class="m-0 text-ink-muted">The comparison needs JavaScript.</p></noscript>
+    </div>
+</article>
+<script src="{{ SITEURL }}/theme/js/player-compare.js"></script>
+{% endblock %}

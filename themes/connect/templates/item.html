@@ -32,7 +32,7 @@
         {# Two clicks: YouTube only loads (and learns the visitor's IP) after the play button. #}
         <div class="fc-video" data-youtube="{{ item.video }}" data-title="{{ item.title }}">
             {% if item.image %}{{ m.image(item.image, '') }}{% endif %}
-            <button class="fc-video__play" type="button" data-cta="youtube-{{ collection.key }}">
+            <button class="fc-video__play" type="button" data-cta="play_video" data-cta-detail="{{ collection.key }}">
                 <span class="fc-video__icon" aria-hidden="true">▶</span>
                 <span>Play video</span>
                 <small>Loads the video from YouTube; YouTube receives your IP address.</small>
@@ -61,7 +61,7 @@
             </dl>
             {% endif %}
             {% if item.link %}
-            <a class="fs-btn fs-btn--primary fc-panel__cta" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="outbound-{{ collection.key }}">{{ collection.link_label or 'Open' }} ↗</a>
+            <a class="fs-btn fs-btn--primary fc-panel__cta" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="{{ (collection.link_label or 'Open')|lower|replace(' ', '_') }}" data-cta-detail="{{ collection.key }}">{{ collection.link_label or 'Open' }} ↗</a>
             {% endif %}
             <button class="fs-btn fc-panel__cta" type="button" data-share data-share-title="{{ item.title }}">Share</button>
             <a class="fc-panel__all" href="{{ SITEURL }}/{{ collection.slug }}/">All {{ collection.title|lower }} →</a>

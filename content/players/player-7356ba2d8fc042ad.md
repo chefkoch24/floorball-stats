@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ella Henningsson
 Category: players
 Slug: player-7356ba2d8fc042ad
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 164
+rank: 166
 season: sew-26-27

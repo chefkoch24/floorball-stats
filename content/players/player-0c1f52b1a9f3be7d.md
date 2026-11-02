@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Linnea Stenqvist
 Category: players
 Slug: player-0c1f52b1a9f3be7d
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 28
+rank: 33
 season: sew-26-27

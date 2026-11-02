@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Egīls Bukšs
 Category: players
 Slug: player-27e54ad0b14e3fe5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 177
+rank: 175
 season: lv-25-26

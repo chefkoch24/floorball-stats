@@ -109,9 +109,14 @@
       .catch(() => {});
   }
 
+  // Analytics events (docs/analytics-events.md); the fallback keeps the page working without tracking.js.
+  const track = window.fbTrack || { ctaCompleted() {}, ctaFailed() {}, searchTracker: () => ({ update() {} }) };
+
   // Newsletter sign-up: MailerLite answers with JSON, so errors show next to the field and
   // a successful sign-up goes on to the "check your inbox" page (double opt-in).
   document.querySelectorAll('[data-signup]').forEach((form) => {
+    const ctaId = 'newsletter_signup';
+    const where = { cta_placement: form.id, cta_kind: 'newsletter' };
     const message = form.querySelector('[data-signup-message]');
     const button = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', async (event) => {
@@ -122,13 +127,15 @@
         const response = await fetch(form.action, { method: 'POST', body: new FormData(form) });
         const result = await response.json();
         if (result.success) {
-          if (window.posthog && posthog.capture) posthog.capture('newsletter_signup', { form: form.id });
+          track.ctaCompleted(ctaId, where);
           window.location.href = form.dataset.success;
           return;
         }
         const errors = result.errors && result.errors.fields ? Object.values(result.errors.fields).flat() : [];
+        track.ctaFailed(ctaId, 'rejected', where);
         if (message) message.textContent = errors[0] || 'That did not work. Please check your email address.';
       } catch (error) {
+        track.ctaFailed(ctaId, 'network', where);
         if (message) message.textContent = 'We could not reach the sign-up service. Please try again in a moment.';
       }
       if (button) button.disabled = false;
@@ -153,13 +160,21 @@
   // Share buttons: the phone's share sheet where there is one, else copy the link.
   document.querySelectorAll('[data-share]').forEach((button) => button.addEventListener('click', async () => {
     const data = { title: button.dataset.shareTitle || document.title, url: window.location.href };
+    const shareId = 'share_page';
     try {
-      if (navigator.share) { await navigator.share(data); return; }
+      if (navigator.share) {
+        await navigator.share(data);
+        track.ctaCompleted(shareId, { share_method: 'share_sheet' });
+        return;
+      }
       await navigator.clipboard.writeText(data.url);
+      track.ctaCompleted(shareId, { share_method: 'copy_link' });
       const label = button.textContent;
       button.textContent = 'Link copied';
       setTimeout(() => { button.textContent = label; }, 1800);
-    } catch (error) {}
+    } catch (error) {
+      if (!error || error.name !== 'AbortError') track.ctaFailed(shareId, 'share_error');
+    }
   }));
 
   // Collection pages: a search box and facet chips filter the cards in place.
@@ -188,5 +203,11 @@
     chips.forEach((other) => other.setAttribute('aria-pressed', other === chip ? 'true' : 'false'));
     apply();
   }));
-  if (search) search.addEventListener('input', apply);
+  if (search) {
+    const searchTracker = track.searchTracker('collection_search');
+    search.addEventListener('input', () => {
+      apply();
+      searchTracker.update(search.value, count ? Number(count.textContent) : 0);
+    });
+  }
 })();

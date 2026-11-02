@@ -315,6 +315,7 @@ home_pregame_points_against_fbc_kalmarsund: 2
 home_pregame_points_against_kais_mora_if: 3
 home_pregame_points_against_karlstad_ibf: 3
 home_pregame_points_against_taby_fc_ibk: 3
+home_pregame_points_against_vasteras_ronnby_ibk: 2
 home_pregame_points_against_vaxjo_ibk: 3
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 8
@@ -419,6 +420,7 @@ away_pregame_points_against_malmo_fbc: 3
 away_pregame_points_against_pixbo_ibk: 0
 away_pregame_points_against_storvreta_ibk: 3
 away_pregame_points_against_thorengruppen_ibk: 0
+away_pregame_points_against_vaxjo_ibk: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 9
 away_pregame_points_per_game: 2.25

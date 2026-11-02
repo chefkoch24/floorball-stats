@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sedliak Matej
 Category: players
 Slug: player-f221c257cccb32cc

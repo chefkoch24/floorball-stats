@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lina Hägg
 Category: players
 Slug: player-b74ecc8b3d6f572b
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 95
+rank: 99
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Miranda Kristensson
 Category: players
 Slug: player-da0527f7fae04199
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 123
+rank: 125
 season: sew-26-27

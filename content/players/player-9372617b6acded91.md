@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Maja Smidner
 Category: players
 Slug: player-9372617b6acded91
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 81
+rank: 86
 season: sew-26-27

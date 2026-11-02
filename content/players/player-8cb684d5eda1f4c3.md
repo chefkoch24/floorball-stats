@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Santeri Uusi-Laitila
 Category: players
 Slug: player-8cb684d5eda1f4c3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 20
+rank: 23
 season: fi-26-27

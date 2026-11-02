@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Klāvs Ozoliņš
 Category: players
 Slug: player-0abf22d158c447e5
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 190
+rank: 188
 season: lv-25-26

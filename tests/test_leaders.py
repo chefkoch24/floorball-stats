@@ -41,6 +41,18 @@ def test_points_rank_across_leagues_with_goals_as_tiebreak():
     assert boards["points"]["entries"][0]["detail"] == "7 G · 3 A · 8 GP"
 
 
+def test_games_played_ranks_by_games_then_points():
+    boards = _boards([
+        _player("Few", 4, 5, 5, 0),
+        _player("Busy", 9, 1, 1, 0),
+        _player("BusyScorer", 9, 3, 2, 0),
+        _player("Absent", 0, 0, 0, 0),
+    ])
+    assert [e["name"] for e in boards["games"]["entries"]] == ["BusyScorer", "Busy", "Few"]
+    assert boards["games"]["entries"][0]["value"] == "9"
+    assert boards["games"]["entries"][0]["detail"] == "3 G · 2 A · 5 P"
+
+
 def test_penalty_minutes_skip_players_without_penalties():
     boards = _boards([_player("Clean", 5, 1, 1, 0), _player("Rough", 5, 0, 0, 12)])
     assert [e["name"] for e in boards["penalty-minutes"]["entries"]] == ["Rough"]

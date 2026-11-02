@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Isa-Marie Carsbo
 Category: players
 Slug: player-348bc5d80751a4cd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 230
+rank: 231
 season: sew-26-27

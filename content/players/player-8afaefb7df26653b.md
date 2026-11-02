@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Šimon Ruber
 Category: players
 Slug: player-8afaefb7df26653b
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 1
+current_games: 8
+current_goals: 2
 current_assists: 3
-current_points: 4
+current_points: 5
 current_pim: 6
-regular_games: 7
-regular_goals: 1
+regular_games: 8
+regular_goals: 2
 regular_assists: 3
-regular_points: 4
+regular_points: 5
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 11
 previous_assists: 14
 previous_points: 25
 previous_pim: 8
-career_games: 40
-career_goals: 12
+career_games: 41
+career_goals: 13
 career_assists: 17
-career_points: 29
+career_points: 30
 career_pim: 14
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|7|1|3|4|6||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|11|14|25|8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|8|2|3|5|6||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|11|14|25|8
 assists: 3
-games: 7
-goals: 1
+games: 8
+goals: 2
 penalties: 3
 phase: regular-season
 pim: 6
-points: 4
-rank: 127
+points: 5
+rank: 106
 season: cz-26-27

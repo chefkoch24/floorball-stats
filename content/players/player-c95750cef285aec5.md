@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jēkabs Jānis Balodis
 Category: players
 Slug: player-c95750cef285aec5

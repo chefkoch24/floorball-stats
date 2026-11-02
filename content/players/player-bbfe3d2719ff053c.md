@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Oskars Kuzins
 Category: players
 Slug: player-bbfe3d2719ff053c
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 270
+rank: 262
 season: lv-25-26

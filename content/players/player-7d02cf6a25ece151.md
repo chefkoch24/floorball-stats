@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nikola Štekerová
 Category: players
 Slug: player-7d02cf6a25ece151
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 5
-current_assists: 4
-current_points: 9
+current_games: 9
+current_goals: 6
+current_assists: 5
+current_points: 11
 current_pim: 4
-regular_games: 8
-regular_goals: 5
-regular_assists: 4
-regular_points: 9
+regular_games: 9
+regular_goals: 6
+regular_assists: 5
+regular_points: 11
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 5
-career_assists: 4
-career_points: 9
+career_games: 9
+career_goals: 6
+career_assists: 5
+career_points: 11
 career_pim: 4
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FAT PIPE FLORBAL CHODOV|8|5|4|9|4
-assists: 4
-games: 8
-goals: 5
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FAT PIPE FLORBAL CHODOV|9|6|5|11|4
+assists: 5
+games: 9
+goals: 6
 penalties: 2
 phase: regular-season
 pim: 4
-points: 9
-rank: 21
+points: 11
+rank: 16
 season: czw-26-27

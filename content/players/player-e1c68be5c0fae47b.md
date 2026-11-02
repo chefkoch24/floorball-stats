@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Björn Hoppe
 Category: players
 Slug: player-e1c68be5c0fae47b

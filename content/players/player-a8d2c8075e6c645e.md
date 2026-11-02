@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tomass Šelengovs
 Category: players
 Slug: player-a8d2c8075e6c645e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 320
+rank: 312
 season: lv-25-26

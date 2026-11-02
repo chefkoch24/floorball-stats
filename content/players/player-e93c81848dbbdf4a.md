@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: David Černý
 Category: players
 Slug: player-e93c81848dbbdf4a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 251
+rank: 255
 season: cz-26-27

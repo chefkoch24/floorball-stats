@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Erika Nilsson
 Category: players
 Slug: player-9baedfa7e534c1a0
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 144
+rank: 147
 season: sew-26-27

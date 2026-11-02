@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lara Erdmann
 Category: players
 Slug: player-6abe1ee1df26a9b2

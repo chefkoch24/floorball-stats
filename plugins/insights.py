@@ -805,7 +805,7 @@ def _attach_trends(generator, articles, games_by_category, teams_by_category, pl
             "key": "player-penalties", "title": "Most penalised players", "unit": "Penalties in total", "kind": "player",
             "entries": [
                 {"rank": index, **_player_link(row["player"], player_slugs), "team": row["team"], "crest": crest_index(row["team"]),
-                 "initials": initials(row["team"]), **origin(row["info"]), "value": str(row["line"].total),
+                 "initials": initials(row["team"]), **board_logos(row["team"], row["info"]), **origin(row["info"]), "value": str(row["line"].total),
                  "detail": _penalty_row(row["line"])["summary"]}
                 for index, row in enumerate(rows, start=1)
             ],

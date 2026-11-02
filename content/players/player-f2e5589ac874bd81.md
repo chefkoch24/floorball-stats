@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Treneris Agris Grandovskis
 Category: players
 Slug: player-f2e5589ac874bd81
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 321
+rank: 313
 season: lv-25-26

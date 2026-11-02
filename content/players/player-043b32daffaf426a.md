@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Karolína Sovadinová
 Category: players
 Slug: player-043b32daffaf426a
@@ -44,5 +44,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 3
-rank: 95
+rank: 103
 season: czw-26-27

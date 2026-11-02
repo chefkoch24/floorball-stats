@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emma Cederklev
 Category: players
 Slug: player-1caadafb605905cb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 215
+rank: 216
 season: sew-26-27

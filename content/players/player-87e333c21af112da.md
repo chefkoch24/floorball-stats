@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alex Eklund
 Category: players
 Slug: player-87e333c21af112da
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 4
+rank: 5
 season: fi-26-27

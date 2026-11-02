@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anna Vodhánělová
 Category: players
 Slug: player-bad4980de7b15b46
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 161
+rank: 166
 season: czw-26-27

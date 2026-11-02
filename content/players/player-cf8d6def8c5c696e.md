@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Laura Pakarinen
 Category: players
 Slug: player-cf8d6def8c5c696e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 112
+rank: 116
 season: sew-26-27

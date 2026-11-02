@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Levin Peter
 Category: players
 Slug: player-561fe639feac6660
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 92
+rank: 93
 season: ch-26-27

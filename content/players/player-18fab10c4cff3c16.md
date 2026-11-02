@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ella Kittke
 Category: players
 Slug: player-18fab10c4cff3c16

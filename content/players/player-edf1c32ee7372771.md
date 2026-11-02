@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lia Edwertz
 Category: players
 Slug: player-edf1c32ee7372771
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 249
+rank: 250
 season: sew-26-27

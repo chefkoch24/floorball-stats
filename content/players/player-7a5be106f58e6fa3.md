@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marco Näf
 Category: players
 Slug: player-7a5be106f58e6fa3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 257
+rank: 259
 season: ch-26-27

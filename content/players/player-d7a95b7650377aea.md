@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Maliar Dávid
 Category: players
 Slug: player-d7a95b7650377aea

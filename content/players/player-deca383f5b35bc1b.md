@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Josef Juha
 Category: players
 Slug: player-deca383f5b35bc1b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 189
+rank: 192
 season: cz-26-27

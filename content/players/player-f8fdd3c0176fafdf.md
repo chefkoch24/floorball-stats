@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marek Zouzal C
 Category: players
 Slug: player-f8fdd3c0176fafdf

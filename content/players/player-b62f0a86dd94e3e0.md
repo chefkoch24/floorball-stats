@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Wilma Grudd Trogen
 Category: players
 Slug: player-b62f0a86dd94e3e0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 185
+rank: 186
 season: sew-26-27

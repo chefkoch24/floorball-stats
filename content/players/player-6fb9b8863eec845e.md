@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mia Scherler
 Category: players
 Slug: player-6fb9b8863eec845e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 204
+rank: 208
 season: chw-26-27

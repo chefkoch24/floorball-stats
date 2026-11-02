@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marcus Burman
 Category: players
 Slug: player-fef58cb4b9c2ec30

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pokorný Matej
 Category: players
 Slug: player-1795e2f2cda93e87

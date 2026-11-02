@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Oskari Kauppila
 Category: players
 Slug: player-7e9f2dfcb97b391c
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 151
+rank: 154
 season: fi-26-27

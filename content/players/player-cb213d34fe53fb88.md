@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ebba Selin
 Category: players
 Slug: player-cb213d34fe53fb88
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 107
+rank: 113
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Martina Mörch
 Category: players
 Slug: player-a383683c7da010ed
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 261
+rank: 262
 season: sew-26-27

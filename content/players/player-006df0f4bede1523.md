@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Dominika Tomaszczenik
 Category: players
 Slug: player-006df0f4bede1523

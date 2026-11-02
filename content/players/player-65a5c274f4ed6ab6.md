@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Milja Alanko
 Category: players
 Slug: player-65a5c274f4ed6ab6

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kaspar Kallion
 Category: players
 Slug: player-c2198a0ae3e162f3

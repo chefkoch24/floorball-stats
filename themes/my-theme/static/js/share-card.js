@@ -13,11 +13,9 @@
   const BODY = '"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif';
   const LABEL_SIZE = 26;
 
-  function track(eventName, payload) {
-    if (window.posthog && typeof window.posthog.capture === 'function') {
-      window.posthog.capture(eventName, payload);
-    }
-  }
+  // Analytics go through the shared helper (themes/shared/static/js/tracking.js).
+  const SHARE_CTA = 'share_card';
+  const analytics = window.fbTrack || { ctaClicked() {}, ctaCompleted() {}, ctaFailed() {} };
 
   function escapeHtml(value) {
     return String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -640,15 +638,15 @@
         ? (state.format === 'story' ? 'Pick Instagram, then add a link sticker to this page.' : 'Pick Instagram and post it to your feed.')
         : 'Save the image and post it on Instagram.';
       actions.querySelector('[data-share-close]').addEventListener('click', close);
-      actions.querySelector('[data-share-download]').addEventListener('click', () => track('share_card_downloaded', { kind: data.kind, format: state.format, theme: state.theme }));
+      actions.querySelector('[data-share-download]').addEventListener('click', () => analytics.ctaCompleted(SHARE_CTA, { share_kind: data.kind, share_method: 'download', share_format: state.format, share_theme: state.theme }));
       const send = actions.querySelector('[data-share-send]');
       if (send) {
         send.addEventListener('click', async () => {
           try {
             await navigator.share({ files: [file] });
-            track('share_card_shared', { kind: data.kind, format: state.format, theme: state.theme });
+            analytics.ctaCompleted(SHARE_CTA, { share_kind: data.kind, share_method: 'share_sheet', share_format: state.format, share_theme: state.theme });
           } catch (error) {
-            if (error && error.name !== 'AbortError') track('share_card_failed', { kind: data.kind, reason: error.name || 'error' });
+            if (error && error.name !== 'AbortError') analytics.ctaFailed(SHARE_CTA, 'share_error', { share_kind: data.kind, error_name: error.name || 'error' });
           }
         });
       }
@@ -682,7 +680,7 @@
         const data = readData(trigger);
         await loadFonts();
         await openStudio(data);
-        track('share_card_opened', { kind: data.kind, path: location.pathname });
+        analytics.ctaClicked(SHARE_CTA, { share_kind: data.kind });
       } finally {
         trigger.disabled = false;
         trigger.textContent = label;

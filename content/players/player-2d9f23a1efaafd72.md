@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa Svarfvar
 Category: players
 Slug: player-2d9f23a1efaafd72
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 66
+rank: 70
 season: sew-26-27

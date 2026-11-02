@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tim Andersson Carlsson
 Category: players
 Slug: player-fcb50799a2f06d52

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Blanka Gajdošová
 Category: players
 Slug: player-76767eea02060bfb
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 206
+rank: 211
 season: czw-26-27

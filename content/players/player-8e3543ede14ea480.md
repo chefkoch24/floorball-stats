@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Eva Krtenova
 Category: players
 Slug: player-8e3543ede14ea480
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 76
+rank: 84
 season: chw-26-27

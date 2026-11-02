@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pit Seifert
 Category: players
 Slug: player-5326ffd2a1aa283f

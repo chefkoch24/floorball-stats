@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Greta Hentschel
 Category: players
 Slug: player-a7eeb7033c18d3f6

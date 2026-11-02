@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Maja Viström
 Category: players
 Slug: player-2f6e21fa877ca03c
@@ -11,16 +11,16 @@ season_count: 1
 current_season: sew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 6
+current_games: 7
+current_goals: 8
 current_assists: 7
-current_points: 13
-current_pim: 0
-regular_games: 6
-regular_goals: 6
+current_points: 15
+current_pim: 2
+regular_games: 7
+regular_goals: 8
 regular_assists: 7
-regular_points: 13
-regular_pim: 0
+regular_points: 15
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 6
+career_games: 7
+career_goals: 8
 career_assists: 7
-career_points: 13
-career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|6|6|7|13|0
+career_points: 15
+career_pim: 2
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|8|7|15|2
 assists: 7
-games: 6
-goals: 6
-penalties: 0
+games: 7
+goals: 8
+penalties: 1
 phase: regular-season
-pim: 0
-points: 13
-rank: 10
+pim: 2
+points: 15
+rank: 7
 season: sew-26-27

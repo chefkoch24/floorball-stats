@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kristiāns Čakāns
 Category: players
 Slug: player-fa59ca4bb39d4b63
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 189
+rank: 186
 season: lv-25-26

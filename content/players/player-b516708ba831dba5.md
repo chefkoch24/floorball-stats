@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Larinja Speck
 Category: players
 Slug: player-b516708ba831dba5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 182
+rank: 186
 season: chw-26-27

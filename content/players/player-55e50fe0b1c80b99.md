@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ronja Niederberger
 Category: players
 Slug: player-55e50fe0b1c80b99
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 54
+rank: 56
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marek Matoušek
 Category: players
 Slug: player-c63f753d3119df9e
@@ -13,14 +13,14 @@ current_season_is_tournament: no
 previous_season: cz-25-26
 current_games: 7
 current_goals: 2
-current_assists: 6
-current_points: 8
-current_pim: 2
+current_assists: 7
+current_points: 9
+current_pim: 4
 regular_games: 7
 regular_goals: 2
-regular_assists: 6
-regular_points: 8
-regular_pim: 2
+regular_assists: 7
+regular_points: 9
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -33,16 +33,16 @@ previous_points: 6
 previous_pim: 2
 career_games: 19
 career_goals: 3
-career_assists: 11
-career_points: 14
-career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|7|2|6|8|2||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|1|1|2|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|7|0|4|4|2
-assists: 6
+career_assists: 12
+career_points: 15
+career_pim: 6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|7|2|7|9|4||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|1|1|2|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|7|0|4|4|2
+assists: 7
 games: 7
 goals: 2
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
-points: 8
-rank: 72
+pim: 4
+points: 9
+rank: 65
 season: cz-26-27

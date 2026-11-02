@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Thea Hedström
 Category: players
 Slug: player-b8d942fb50e376ed
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 77
+rank: 83
 season: sew-26-27

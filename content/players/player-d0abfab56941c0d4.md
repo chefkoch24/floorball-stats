@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Karolína Raszková
 Category: players
 Slug: player-d0abfab56941c0d4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 236
+rank: 241
 season: czw-26-27

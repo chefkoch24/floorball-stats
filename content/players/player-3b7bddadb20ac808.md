@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Noah Wiederkehr
 Category: players
 Slug: player-3b7bddadb20ac808
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 281
+rank: 283
 season: ch-26-27

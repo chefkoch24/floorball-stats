@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tomáš Sýkora
 Category: players
 Slug: player-cec1f03c0707a4f6
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -31,18 +31,18 @@ previous_goals: 5
 previous_assists: 19
 previous_points: 24
 previous_pim: 6
-career_games: 30
+career_games: 31
 career_goals: 5
 career_assists: 19
 career_points: 24
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|2|0|0|0|0||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|3|2|2|4|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|25|3|17|20|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|3|0|0|0|0||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|3|2|2|4|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|25|3|17|20|6
 assists: 0
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 353
+rank: 355
 season: cz-26-27

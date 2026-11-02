@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ellen Nyman
 Category: players
 Slug: player-d4b0f73f32f1cde3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 109
+rank: 115
 season: sew-26-27

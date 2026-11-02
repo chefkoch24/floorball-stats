@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Larisa Müller
 Category: players
 Slug: player-0bfa50b4672fbc7f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 78
+rank: 87
 season: chw-26-27

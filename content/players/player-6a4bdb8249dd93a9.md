@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Flavio Rust
 Category: players
 Slug: player-6a4bdb8249dd93a9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 178
+rank: 182
 season: ch-26-27

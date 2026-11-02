@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Benedikt Richardon
 Category: players
 Slug: player-e5460e23dadc83e0

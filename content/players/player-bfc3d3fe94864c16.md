@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Andrejs Kristens Saļkovs
 Category: players
 Slug: player-bfc3d3fe94864c16

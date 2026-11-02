@@ -15,6 +15,11 @@
 {% set seo_title = search_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
 {% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% endif %}
+{% if category.slug in ['players', 'teams'] %}
+{% set breadcrumb_category_label = category.slug | capitalize %}
+{% set seo_title = breadcrumb_category_label ~ ' | ' ~ SITENAME %}
+{% set seo_description = 'Every ' ~ category.slug[:-1] ~ ' page on ' ~ SITENAME ~ ', searchable by name and league.' %}
+{% endif %}
 {% set league = category.shortname | league_context %}
 {# Regular-season league pages have their own layout (league_v2.html); playoffs and player tables keep this one. #}
 {% set use_v2 = (not is_player_stats) and league and league.phase == 'regular-season' %}
@@ -55,6 +60,9 @@
 {% endblock %}
 
 {% block content %}
+{% if category.slug in ['players', 'teams'] %}
+{% include "category_directory.html" %}
+{% else %}
 {% set player_stats = namespace(article=None, player_count=0) %}
 {% if is_player_stats %}
     {% for candidate in articles_page.object_list %}
@@ -227,8 +235,7 @@
     const rows = Array.from(document.querySelectorAll('tr.player-search-row'));
     const totalRows = rows.length;
     const removeCombiningMarks = /[\u0300-\u036f]/g;
-    let searchTrackTimer = null;
-    let lastTrackedQuery = '';
+    const searchTracker = window.fbTrack ? window.fbTrack.searchTracker('player_search', { search_scope: 'category_players' }) : null;
 
     function normalizeForSearch(value) {
         return String(value || '')
@@ -266,39 +273,14 @@
         return { query: query, visible: visible };
     }
 
-    function trackSearch(query, visible) {
-        if (!window.posthog || typeof window.posthog.capture !== 'function') {
-            return;
-        }
-        if (!query || query === lastTrackedQuery) {
-            return;
-        }
-        lastTrackedQuery = query;
-        window.posthog.capture('player_search_used', {
-            query_length: query.length,
-            token_count: query.split(/\s+/).filter(Boolean).length,
-            results_count: visible,
-            total_rows: totalRows,
-            page_path: window.location.pathname,
-            search_context: 'category_player_stats',
-        });
-    }
-
     if (countNode) {
         countNode.textContent = String(totalRows);
     }
     searchInput.addEventListener('input', function () {
         const state = updateFilter();
-        if (searchTrackTimer) {
-            window.clearTimeout(searchTrackTimer);
+        if (searchTracker) {
+            searchTracker.update(state.query, state.visible);
         }
-        if (!state.query) {
-            lastTrackedQuery = '';
-            return;
-        }
-        searchTrackTimer = window.setTimeout(function () {
-            trackSearch(state.query, state.visible);
-        }, 500);
     });
 })();
 </script>
@@ -963,6 +945,7 @@
   });
 })();
 </script>
+{% endif %}
 {% endif %}
 {% endif %}
 {% endblock content %}

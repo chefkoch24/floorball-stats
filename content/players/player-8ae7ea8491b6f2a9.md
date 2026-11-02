@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Michaela Stankušová
 Category: players
 Slug: player-8ae7ea8491b6f2a9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 272
+rank: 276
 season: czw-26-27

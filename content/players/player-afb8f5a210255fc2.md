@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Stella Starkopf
 Category: players
 Slug: player-afb8f5a210255fc2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 13
+rank: 15
 season: lvw-26-27

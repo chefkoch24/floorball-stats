@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Patriks Bliska
 Category: players
 Slug: player-487e5baf0bdc6b9b

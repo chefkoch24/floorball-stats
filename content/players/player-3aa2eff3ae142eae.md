@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Eileen Winter
 Category: players
 Slug: player-3aa2eff3ae142eae

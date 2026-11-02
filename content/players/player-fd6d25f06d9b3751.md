@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Elin Gladh-Pettersson
 Category: players
 Slug: player-fd6d25f06d9b3751
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 90
+rank: 92
 season: sew-26-27

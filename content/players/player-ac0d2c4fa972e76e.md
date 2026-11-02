@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anni Puumalainen
 Category: players
 Slug: player-ac0d2c4fa972e76e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 45
+rank: 47
 season: lvw-26-27

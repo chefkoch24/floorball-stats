@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lars Schneider
 Category: players
 Slug: player-d281f8162bd0e4fc
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 238
+rank: 240
 season: ch-26-27

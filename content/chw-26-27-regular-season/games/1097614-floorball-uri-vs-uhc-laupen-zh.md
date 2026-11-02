@@ -312,6 +312,7 @@ home_pregame_points_after_first_period_per_game: 0.25
 home_pregame_points_after_second_period: 1
 home_pregame_points_after_third_period: 0
 home_pregame_points_against_fb_riders_dbr: 1
+home_pregame_points_against_kloten_dietlikon_jets: 0
 home_pregame_points_against_uhc_laupen_zh: 0
 home_pregame_points_against_uhv_skorpion_emmental: 0
 home_pregame_points_against_unihockey_berner_oberland: 0

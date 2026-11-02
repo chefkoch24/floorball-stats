@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nathalie Berger
 Category: players
 Slug: player-c6ac0e360e2a036f

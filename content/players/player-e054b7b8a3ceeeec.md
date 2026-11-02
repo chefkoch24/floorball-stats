@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Yanik Castelberg
 Category: players
 Slug: player-e054b7b8a3ceeeec
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 72
+rank: 73
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jasmin Rautanen
 Category: players
 Slug: player-f6a2c29098b7bfcf

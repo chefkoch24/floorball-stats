@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Niilo Blättler
 Category: players
 Slug: player-e0bf744b420b366f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 276
+rank: 279
 season: ch-26-27

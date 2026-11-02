@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Simona Pilíková
 Category: players
 Slug: player-ec8422bb2a27adca
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 111
+rank: 117
 season: czw-26-27

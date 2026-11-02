@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Hanna Liisa Sulg
 Category: players
 Slug: player-4e91dc1ca4ddf2a3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 50
+rank: 52
 season: lvw-26-27

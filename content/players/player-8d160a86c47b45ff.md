@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa Mumenthaler
 Category: players
 Slug: player-8d160a86c47b45ff
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 193
+rank: 197
 season: chw-26-27

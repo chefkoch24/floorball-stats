@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sanija Ramona Ābeltiņa
 Category: players
 Slug: player-076dcaa6a3d25d35
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 22
+rank: 24
 season: lvw-26-27

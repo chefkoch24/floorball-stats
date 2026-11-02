@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Artūrs Jansons
 Category: players
 Slug: player-ad0c821fead2a5a4
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 116
+rank: 114
 season: lv-25-26

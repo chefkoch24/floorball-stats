@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Radim Křenek
 Category: players
 Slug: player-a42e15a6e1ee6bb1
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 94
+rank: 95
 season: cz-26-27

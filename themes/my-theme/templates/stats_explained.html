@@ -37,10 +37,12 @@
             <a class="fs-chip" href="#duos">Scoring duos</a>
             <a class="fs-chip" href="#table-history">Table history</a>
             <a class="fs-chip" href="#head-to-head">Head to head</a>
+            <a class="fs-chip" href="#team-versus">Compare two teams</a>
             <a class="fs-chip" href="#comebacks">Comebacks</a>
             <a class="fs-chip" href="#goal-timing">Goal timing</a>
             <a class="fs-chip" href="#records">Streaks and records</a>
             <a class="fs-chip" href="#goal-share">Share of team goals</a>
+            <a class="fs-chip" href="#compare-players">Compare two players</a>
             <a class="fs-chip" href="#crowds">Crowds</a>
             <a class="fs-chip" href="#penalties">Penalties</a>
             <a class="fs-chip" href="#data">Data</a>
@@ -183,6 +185,23 @@
         <p>The league page crosses every team with every other team. A row reads from that team's side: 5:3 means the row team scored 5. Colours follow the form guide: green for a win, red for a loss, amber for a game decided in overtime or by penalty shots. Games still to come show the row team's win chance. The last two columns give points per game against the current top four and against the rest, which shows who beats the strong teams and who collects points against the weaker ones.</p>
     </section>
 
+    <section id="team-versus" class="grid gap-4 scroll-mt-24" aria-labelledby="team-versus-title">
+        <h2 id="team-versus-title" class="fs-section-title">Compare two teams</h2>
+        <p>The <a href="{{ SITEURL }}/head-to-head.html">head-to-head page</a> counts only the games two teams of one league played against each other, over every season, regular season and playoffs, that the site has. Teams are matched by name, so a club that changed its name starts again under the new one. You can open it from the menu, from a league card on the home page, from a league page (also from any cell of its head-to-head table), from the top of a team page, and from a game page, where it shows both teams of that game. Team pages also list the record of that team against every other team of its league, and every row opens the comparison with both teams selected.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Results and record') }}
+            <dd class="m-0"><p>Newest game first. A game decided in overtime or by penalty shots shows "n.V." or "n.P." and counts as an overtime win or overtime loss, like the form guide. Goals include the winning goal of a penalty shootout.</p></dd>
+            {{ term('Top scorers') }}
+            <dd class="m-0"><p>Goals, assists and points of each team's players in these games only. Own goals count for the team but not for a player.</p></dd>
+            {{ term('Penalties') }}
+            <dd class="m-0"><p>Every penalty in these games, by kind and by penalised player, as in <a href="#penalties">Penalties</a>.</p></dd>
+            {{ term('Goals by minute') }}
+            <dd class="m-0"><p>Goals of both teams in {{ m.block_minutes }}-minute blocks of regulation time; overtime goals are counted apart.</p></dd>
+            {{ term('Powerplay and boxplay') }}
+            <dd class="m-0"><p>Powerplay % is powerplay goals per powerplay, boxplay % is the share of boxplays without a goal against. The time with a man up or down adds up the seconds of every game and is only shown when it is known for all of them.</p></dd>
+        </dl>
+    </section>
+
     <section id="comebacks" class="grid gap-4 scroll-mt-24" aria-labelledby="comebacks-title">
         <h2 id="comebacks-title" class="fs-section-title">Comebacks and leads</h2>
         <dl class="m-0 grid gap-3">
@@ -213,6 +232,23 @@
     <section id="goal-share" class="grid gap-4 scroll-mt-24" aria-labelledby="goal-share-title">
         <h2 id="goal-share-title" class="fs-section-title">Share of team goals</h2>
         <p>How many of a team's goals a player scored or assisted, for example 18 of 38. It shows who a team depends on and compares players across leagues, whatever the scoring level. Lists need at least {{ m.share_min_team_goals }} team goals and {{ m.share_min_points }} points from the player.</p>
+    </section>
+
+    <section id="compare-players" class="grid gap-4 scroll-mt-24" aria-labelledby="compare-players-title">
+        <h2 id="compare-players-title" class="fs-section-title">Compare two players</h2>
+        <p>The <a href="{{ SITEURL }}/compare-players.html">player comparison</a> puts any two players next to each other, also from different leagues. Search by name in any order ("Gavlák Erik" finds "Erik Gavlák"); the page link keeps both players, so you can share it. The player page has a button that opens the comparison with that player already chosen.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Latest season and career') }}
+            <dd class="m-0"><p>The latest season is the newest season the site has for that player, regular season and playoffs together. The two players can end up with different seasons, for example when one has retired; the page says so. Career adds up every season on the site, so it only goes back as far as our data does.</p></dd>
+            {{ term('Better value') }}
+            <dd class="m-0"><p>The better value of each row is highlighted: more games, goals, assists, points, game winners, clutch points and share of team goals, and fewer penalty minutes. A tie or a missing value highlights nothing. Seasons are not rated. Games and the totals mostly show who played more, so the per-game rows (in bold) are the fair comparison, especially for a player with few games, where one good night moves the rate a lot.</p></dd>
+            {{ term('Different leagues') }}
+            <dd class="m-0"><p>Leagues score different numbers of goals per game and play different numbers of games, so totals are not comparable between them. Points per game and share of team goals say more. The page adds a note when the two players' leagues differ.</p></dd>
+            {{ term('Game winners and clutch points') }}
+            <dd class="m-0"><p>Defined as in <a href="#clutch">Clutch stats</a>. They are counted from the games with an event list, which the site has tracked since the 25/26 season, so a career value can be lower than the career goals. The row is left out when neither player has the data.</p></dd>
+            {{ term('Share of team goals') }}
+            <dd class="m-0"><p>As in <a href="#goal-share">Share of team goals</a>, for the latest phase of the player's latest season (the playoffs if the player has played them, otherwise the regular season). The comparison shows it for every player with a number, without the minimum team goals the leaders list needs, so a small sample can look large.</p></dd>
+        </dl>
     </section>
 
     <section id="crowds" class="grid gap-4 scroll-mt-24" aria-labelledby="crowds-title">

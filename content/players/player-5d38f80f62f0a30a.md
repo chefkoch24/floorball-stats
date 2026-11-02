@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ida Wallerman
 Category: players
 Slug: player-5d38f80f62f0a30a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 173
+rank: 174
 season: sew-26-27

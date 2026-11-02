@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Olivia Sörensen
 Category: players
 Slug: player-9f1f88a0e5a64cd9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 270
+rank: 271
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ellen Rasmussen
 Category: players
 Slug: player-0b38628a0ea15b3f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 9
+rank: 11
 season: sew-26-27

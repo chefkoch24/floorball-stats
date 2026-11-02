@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Šárka Zhébalová
 Category: players
 Slug: player-473422a8dbdb753b
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 4
-current_assists: 2
-current_points: 6
+current_games: 9
+current_goals: 5
+current_assists: 3
+current_points: 8
 current_pim: 0
-regular_games: 8
-regular_goals: 4
-regular_assists: 2
-regular_points: 6
+regular_games: 9
+regular_goals: 5
+regular_assists: 3
+regular_points: 8
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 4
-career_assists: 2
-career_points: 6
+career_games: 9
+career_goals: 5
+career_assists: 3
+career_points: 8
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBS Olomouc|8|4|2|6|0
-assists: 2
-games: 8
-goals: 4
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBS Olomouc|9|5|3|8|0
+assists: 3
+games: 9
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 49
+points: 8
+rank: 32
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Hilma Liebgott
 Category: players
 Slug: player-64745bcd80c92fba
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 92
+rank: 94
 season: sew-26-27

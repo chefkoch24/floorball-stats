@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Vanessa Schmuki
 Category: players
 Slug: player-e132a8b9804d2b4e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 285
+rank: 287
 season: sew-26-27

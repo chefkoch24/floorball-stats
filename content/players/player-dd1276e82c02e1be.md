@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jael Ulrich
 Category: players
 Slug: player-dd1276e82c02e1be
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 233
+rank: 234
 season: sew-26-27

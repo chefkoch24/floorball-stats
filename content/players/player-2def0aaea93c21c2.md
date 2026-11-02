@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lucas Hägglund
 Category: players
 Slug: player-2def0aaea93c21c2

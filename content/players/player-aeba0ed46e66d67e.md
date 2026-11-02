@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anna-Lena Best
 Category: players
 Slug: player-aeba0ed46e66d67e

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jannis Feldmann
 Category: players
 Slug: player-b314c3c90d0f16c9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 155
+rank: 159
 season: ch-26-27

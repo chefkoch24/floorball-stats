@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nathalie Spichiger
 Category: players
 Slug: player-8d872f4e6bc574e8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 22
+rank: 23
 season: chw-26-27

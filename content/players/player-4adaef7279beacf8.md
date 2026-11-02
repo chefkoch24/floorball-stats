@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Minna Lantz
 Category: players
 Slug: player-4adaef7279beacf8
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 264
+rank: 265
 season: sew-26-27

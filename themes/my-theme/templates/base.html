@@ -82,6 +82,8 @@ if (window.Chart) {
     Chart.defaults.borderColor = fsChartColors.line;
 }
 </script>
+{# Shared analytics helper (events: docs/analytics-events.md). Loaded in the head because inline scripts in the page content use fbTrack; the PostHog snippet further down is only read when an event is sent. #}
+<script src="{{ SITEURL }}/theme/js/tracking.js" data-site="stats"></script>
 </head>
 <body>
 <header class="site-header">
@@ -104,6 +106,8 @@ if (window.Chart) {
                 <span class="nav-menu-links">
                     <a class="nav-leaders-link" href="{{ SITEURL }}/">Stats overview →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/head-to-head.html">Compare two teams →</a>
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/compare-players.html">Compare two players →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/stats-explained.html">How our stats work →</a>
                     <a class="nav-leaders-link" href="{{ CONNECT_URL }}/">Reviews, drills and where to watch on Floorball Connect →</a>
                 </span>
@@ -175,12 +179,12 @@ if (window.Chart) {
         {% block breadcrumbs %}{% endblock %}
         {% block content %}{% endblock %}
         {% if SUPPORT_URL %}
-        <aside class="support-card" data-support-card>
+        <aside class="support-card" data-support-card data-track-view="support_floorball_stats">
             <div class="support-card__text">
                 <strong class="support-card__title">Floorball Stats is free and built by one fan.</strong>
                 <span class="support-card__copy">If it helps you follow the season, chip in to keep it free and growing.</span>
             </div>
-            <a class="support-card__button" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="card">Support Floorball Stats</a>
+            <a class="support-card__button" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-cta="support_floorball_stats" data-cta-placement="card">Support Floorball Stats</a>
         </aside>
         {% endif %}
     </div>
@@ -195,12 +199,12 @@ if (window.Chart) {
         <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
         <span class="footer-divider">·</span>
         {% if SUPPORT_URL %}
-        <a class="footer-link" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="footer">Support</a>
+        <a class="footer-link" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-cta="support" data-cta-placement="footer">Support</a>
         <span class="footer-divider">·</span>
         {% endif %}
         <a class="footer-link" href="{{ CONNECT_URL }}/">Floorball Connect</a>
         <span class="footer-divider">·</span>
-        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener">Newsletter</a>
+        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="newsletter" data-cta-placement="footer">Newsletter</a>
         <span class="footer-divider">·</span>
         <span>© 2026 Floorball Stats by Floorball Connect</span>
     </div>
@@ -362,7 +366,12 @@ const searchEmpty = document.querySelector('[data-search-empty]');
 const searchResultCount = document.querySelector('[data-search-result-count]');
 const searchIndexUrl = "{{ SITEURL }}/theme/search/search-index.json";
 let searchIndexItems = null;
-let searchTrackTimer = null;
+// tracking.js (shared with Floorball Connect) sends the analytics events; the fallback keeps the page working without it.
+const fbTrack = window.fbTrack || {
+  searchTracker: () => ({ update() {}, flush() {} }),
+  searchOpened() {}, searchResultClicked() {}, ctaClicked() {}, ctaCompleted() {}, ctaFailed() {}, slugify: (value) => String(value || '')
+};
+const globalSearchTracker = fbTrack.searchTracker('site_search');
 let lastSearchQuery = '';
 
 function detectDeviceType() {
@@ -383,6 +392,7 @@ function openFeedbackModal() {
   }
   feedbackModal.hidden = false;
   document.body.classList.add('feedback-modal-open');
+  fbTrack.ctaClicked('feedback');
   const messageField = feedbackForm ? feedbackForm.querySelector('#feedbackMessage') : null;
   if (messageField) {
     messageField.focus();
@@ -404,13 +414,6 @@ function normalizeForSearch(value) {
     .replace(/[\u0300-\u036f]/g, '');
 }
 
-function trackGlobalSearchEvent(eventName, payload) {
-  if (!window.posthog || typeof window.posthog.capture !== 'function') {
-    return;
-  }
-  window.posthog.capture(eventName, payload);
-}
-
 function syncDivisionSwitch() {
   const activeDivision = document.documentElement.getAttribute('data-division');
   document.querySelectorAll('[data-division-option]').forEach((option) => {
@@ -426,39 +429,12 @@ document.querySelectorAll('[data-division-option]').forEach((option) => {
       localStorage.setItem('fs_division', division);
     } catch (error) {}
     syncDivisionSwitch();
-    trackGlobalSearchEvent('nav_division_switched', { division, path: window.location.pathname });
   });
 });
 syncDivisionSwitch();
 
-document.querySelectorAll('[data-calendar-cta]').forEach((link) => {
-  link.addEventListener('click', () => {
-    trackGlobalSearchEvent('calendar_subscribe_clicked', {
-      kind: link.getAttribute('data-calendar-cta'),
-      path: window.location.pathname
-    });
-  });
-});
-
-document.querySelectorAll('[data-support-cta]').forEach((link) => {
-  link.addEventListener('click', () => {
-    trackGlobalSearchEvent('support_cta_clicked', {
-      placement: link.getAttribute('data-support-cta'),
-      path: window.location.pathname
-    });
-  });
-});
-
-const supportCard = document.querySelector('[data-support-card]');
-if (supportCard && 'IntersectionObserver' in window) {
-  const supportObserver = new IntersectionObserver((entries) => {
-    if (entries.some((entry) => entry.isIntersecting)) {
-      trackGlobalSearchEvent('support_cta_viewed', { path: window.location.pathname });
-      supportObserver.disconnect();
-    }
-  }, { threshold: 0.5 });
-  supportObserver.observe(supportCard);
-}
+// Filter, CTA click and CTA view events come from the delegated bindings in tracking.js
+// (data-division-option, data-cta, data-calendar-cta, data-track-view).
 
 async function loadSearchIndex() {
   if (Array.isArray(searchIndexItems)) {
@@ -491,7 +467,7 @@ function renderSearchResults(query, matches) {
   searchResults.innerHTML = '';
   searchResultCount.textContent = String(matches.length);
   searchEmpty.hidden = matches.length > 0;
-  for (const item of matches.slice(0, 25)) {
+  for (const [position, item] of matches.slice(0, 25).entries()) {
     const li = document.createElement('li');
     li.className = 'search-result-item';
     const link = document.createElement('a');
@@ -505,12 +481,8 @@ function renderSearchResults(query, matches) {
     link.querySelector('.search-result-meta').textContent = item.subtitle;
     link.querySelector('.search-result-type').textContent = item.type;
     link.addEventListener('click', function () {
-      trackGlobalSearchEvent('global_search_result_clicked', {
-        query: query,
-        result_name: item.name,
-        result_type: item.type,
-        result_url: item.url,
-      });
+      globalSearchTracker.flush();
+      fbTrack.searchResultClicked('site_search', normalizeForSearch(item.type), position + 1);
       closeSearchModal();
     });
     li.appendChild(link);
@@ -537,17 +509,7 @@ async function runGlobalSearch() {
     }
   }
   renderSearchResults(query, matches);
-  if (searchTrackTimer) {
-    window.clearTimeout(searchTrackTimer);
-  }
-  searchTrackTimer = window.setTimeout(function () {
-    trackGlobalSearchEvent('global_search_used', {
-      query: query,
-      query_length: query.length,
-      result_count: matches.length,
-      search_scope: 'teams_players',
-    });
-  }, 450);
+  globalSearchTracker.update(query, matches.length);
 }
 
 function openSearchModal() {
@@ -556,10 +518,7 @@ function openSearchModal() {
   }
   searchModal.hidden = false;
   document.body.classList.add('feedback-modal-open');
-  trackGlobalSearchEvent('global_search_opened', {
-    page_path: window.location.pathname,
-    page_title: document.title,
-  });
+  fbTrack.searchOpened('site_search');
   loadSearchIndex()
     .then(function (items) {
       if (!lastSearchQuery) {
@@ -583,6 +542,7 @@ function closeSearchModal() {
     return;
   }
   searchModal.hidden = true;
+  globalSearchTracker.flush();
   if (feedbackModal && !feedbackModal.hidden) {
     return;
   }
@@ -680,6 +640,8 @@ if (feedbackForm) {
       '?subject=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
 
+    // The browser only opens the mail draft; whether it is sent is up to the visitor.
+    fbTrack.ctaCompleted('feedback', { feedback_type: fbTrack.slugify(type), completion: 'mail_draft_opened' });
     feedbackForm.reset();
     closeFeedbackModal();
   });

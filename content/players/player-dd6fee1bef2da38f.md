@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tobias Pauhof
 Category: players
 Slug: player-dd6fee1bef2da38f

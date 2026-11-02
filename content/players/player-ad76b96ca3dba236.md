@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Martin Tomek
 Category: players
 Slug: player-ad76b96ca3dba236
@@ -44,5 +44,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 1
-rank: 223
+rank: 226
 season: cz-26-27

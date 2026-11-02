@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Pārstāvis Zane Liepiņa
 Category: players
 Slug: player-6c1b0cdf52073dff
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 0
-rank: 200
+rank: 198
 season: lv-25-26

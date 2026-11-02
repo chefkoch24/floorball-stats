@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kristýna Halousková
 Category: players
 Slug: player-ee94c4d9f8032d8f
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 24
+rank: 29
 season: czw-26-27

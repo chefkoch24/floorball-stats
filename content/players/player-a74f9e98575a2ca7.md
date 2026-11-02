@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Saana Kurvinen
 Category: players
 Slug: player-a74f9e98575a2ca7
