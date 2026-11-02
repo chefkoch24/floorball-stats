@@ -494,8 +494,10 @@ if (gameEventsTimeline) {
 </script>
 
 {% if article.seo_goals %}
-<section class="panel">
-    <h2 class="panel-title">Goals and scorers</h2>
-    <ol>{% for event in article.seo_goals %}<li>{{ event.minute|e }} · {{ event.score|e }} · {% if event.title_url %}<a href="{{ SITEURL }}/{{ event.title_url|e }}">{{ event.title|e }}</a>{% else %}{{ event.title|e }}{% endif %}{% if event.assist %} (assist: {% if event.assist_url %}<a href="{{ SITEURL }}/{{ event.assist_url|e }}">{{ event.assist|e }}</a>{% else %}{{ event.assist|e }}{% endif %}){% endif %}</li>{% endfor %}</ol>
-</section>
+<details class="stat-guide stat-guide--text">
+    <summary>Goals and scorers</summary>
+    <div class="stat-guide__content">
+        <ol>{% for event in article.seo_goals %}<li>{{ event.minute|e }} · {{ event.score|e }} · {% if event.title_url %}<a href="{{ SITEURL }}/{{ event.title_url|e }}">{{ event.title|e }}</a>{% else %}{{ event.title|e }}{% endif %}{% if event.assist %} (assist: {% if event.assist_url %}<a href="{{ SITEURL }}/{{ event.assist_url|e }}">{{ event.assist|e }}</a>{% else %}{{ event.assist|e }}{% endif %}){% endif %}</li>{% endfor %}</ol>
+    </div>
+</details>
 {% endif %}
