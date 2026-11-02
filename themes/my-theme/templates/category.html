@@ -11,6 +11,11 @@
 {% set seo_title = search_label ~ ' Standings, Teams and Results | ' ~ SITENAME %}
 {% set seo_description = 'Standings, team stats, league reports, results, and upcoming games for ' ~ search_label ~ ' on ' ~ SITENAME ~ '.' %}
 {% endif %}
+{% if category.slug in ['players', 'teams'] %}
+{% set breadcrumb_category_label = category.slug | capitalize %}
+{% set seo_title = breadcrumb_category_label ~ ' | ' ~ SITENAME %}
+{% set seo_description = 'Every ' ~ category.slug[:-1] ~ ' page on ' ~ SITENAME ~ ', searchable by name and league.' %}
+{% endif %}
 {% set league = category.shortname | league_context %}
 {# Regular-season league pages have their own layout (league_v2.html); playoffs and player tables keep this one. #}
 {% set use_v2 = (not is_player_stats) and league and league.phase == 'regular-season' %}
@@ -51,6 +56,9 @@
 {% endblock %}
 
 {% block content %}
+{% if category.slug in ['players', 'teams'] %}
+{% include "category_directory.html" %}
+{% else %}
 {% set player_stats = namespace(article=None, player_count=0) %}
 {% if is_player_stats %}
     {% for candidate in articles_page.object_list %}
@@ -221,7 +229,7 @@
     const rows = Array.from(document.querySelectorAll('tr.player-search-row'));
     const totalRows = rows.length;
     const removeCombiningMarks = /[\u0300-\u036f]/g;
-    const searchTracker = window.fbTrack ? window.fbTrack.searchTracker('category_players') : null;
+    const searchTracker = window.fbTrack ? window.fbTrack.searchTracker('player_search', { search_scope: 'category_players' }) : null;
 
     function normalizeForSearch(value) {
         return String(value || '')
@@ -931,6 +939,7 @@
   });
 })();
 </script>
+{% endif %}
 {% endif %}
 {% endif %}
 {% endblock content %}

@@ -3,6 +3,8 @@
    name style (snake_case) and the same base properties, and nothing free-form leaves
    the browser. Event list and property schema: docs/analytics-events.md.
 
+   - Event names: CTAs are named after the button (join_for_free_clicked,
+     newsletter_signup_completed); filters and searches are filter_changed, search_used, ...
    - Base properties on every event: site (stats|connect), page_path, page_type and,
      where the URL tells, league, season, phase, division.
    - Strings are only sent when they look like an identifier (no spaces, no "@"), so
@@ -175,32 +177,46 @@
     } catch (error) { /* analytics must never break the page */ }
   }
 
-  // Convenience wrappers so call sites read like the event list.
-  function ctaClicked(ctaId, extra) { capture('cta_clicked', Object.assign({ cta_id: ctaId }, extra)); }
+  // CTA events are named after the button: "Join for free" -> join_for_free_clicked,
+  // newsletter sign-up -> newsletter_signup_clicked / _completed / _failed. `cta` holds the
+  // button name, `cta_step` the step, so all CTAs can still be grouped by property.
+  function ctaEvent(button, step, props, options) {
+    var base = slugify(button);
+    if (!base) return;
+    capture(base + '_' + step, Object.assign({ cta: base, cta_step: step }, props), options);
+  }
+  function ctaClicked(button, extra) { ctaEvent(button, 'clicked', extra); }
+  function ctaViewed(button, extra) { ctaEvent(button, 'viewed', extra); }
   // Completed = the sign-up or share really went through. Sent immediately because the
   // page often navigates right after.
-  function ctaCompleted(ctaId, extra) { capture('cta_completed', Object.assign({ cta_id: ctaId }, extra), { send_instantly: true }); }
-  function ctaFailed(ctaId, reason, extra) { capture('cta_failed', Object.assign({ cta_id: ctaId, reason: reason }, extra)); }
+  function ctaCompleted(button, extra) { ctaEvent(button, 'completed', extra, { send_instantly: true }); }
+  function ctaFailed(button, reason, extra) { ctaEvent(button, 'failed', Object.assign({ reason: reason }, extra)); }
 
-  function filterChanged(name, value, extra) {
-    var key = name + ':' + (extra && extra.filter_scope || '');
+  // Filters are named after the control: division_changed, table_columns_changed,
+  // league_selected, ... `filter_name` repeats the control, `filter_value` is the new choice.
+  function filterChanged(control, value, extra) {
+    var base = slugify(control);
+    if (!base) return;
+    var key = base + ':' + (extra && extra.filter_scope || '');
     var next = value == null ? '' : String(value);
     if (state.filterValues[key] === next) return;
     state.filterValues[key] = next;
-    capture('filter_changed', Object.assign({ filter_name: name, filter_value: value }, extra));
+    capture(base + '_changed', Object.assign({ filter_name: base, filter_value: value }, extra));
   }
 
-  function searchTracker(scope, extra) {
+  // Searches are named after the search box: site_search_used, player_search_used,
+  // collection_search_used (and site_search_opened / site_search_result_clicked).
+  function searchTracker(searchName, extra) {
     var tracker = createSearchTracker(function (stats) {
-      capture('search_used', Object.assign({ search_scope: scope }, stats, extra));
+      capture(searchName + '_used', Object.assign({ search_scope: searchName }, stats, extra));
     });
     state.trackers.push(tracker);
     return tracker;
   }
 
-  function searchOpened(scope) { capture('search_opened', { search_scope: scope }); }
-  function searchResultClicked(scope, resultType, position) {
-    capture('search_result_clicked', { search_scope: scope, result_type: resultType, result_position: position });
+  function searchOpened(searchName) { capture(searchName + '_opened', { search_scope: searchName }); }
+  function searchResultClicked(searchName, resultType, position) {
+    capture(searchName + '_result_clicked', { search_scope: searchName, result_type: resultType, result_position: position });
   }
 
   // ---- Declarative bindings: existing markup, no per-template listeners ----
@@ -209,13 +225,17 @@
     // [selector, filter name, how to read the value, "already selected" test]
     ['[data-division-option]', 'division', function (el) { return el.getAttribute('data-division-option'); }],
     ['[data-live-division]', 'division', function (el) { return el.getAttribute('data-live-division'); }],
+    // "view" segments are named after their button group's label (Table columns -> table_columns).
     ['.fs-segment[data-view]', 'view', function (el) { return el.getAttribute('data-view'); }],
     ['[data-games-tab]', 'games_tab', function (el) { return el.getAttribute('data-games-tab'); }],
     ['[data-game-view-tab]', 'game_view', function (el) { return el.getAttribute('data-game-view-tab'); }],
     ['.playoff-tab[data-round]', 'playoff_round', function (el) { return el.getAttribute('data-round'); }],
-    ['[data-filter-facet]', 'facet', function (el) { return slugify(el.getAttribute('data-filter-facet')) || 'all'; }],
+    ['[data-filter-facet]', 'collection_filter', function (el) { return slugify(el.getAttribute('data-filter-facet')) || 'all'; }],
     ['[data-track-filter]', null, function (el) { return el.getAttribute('data-track-value'); }]
   ];
+
+  // Button names for the team calendar links (labels: Apple / Outlook, Google, .ics).
+  var CALENDAR_BUTTONS = { apple: 'calendar_apple_outlook', google: 'calendar_google', download: 'calendar_ics_download' };
 
   function alreadySelected(el) {
     return el.getAttribute('aria-pressed') === 'true' || el.classList.contains('is-active');
@@ -240,7 +260,12 @@
       var el = target.closest(rule[0]);
       if (!el || el.tagName === 'SELECT' || alreadySelected(el)) continue;
       var name = rule[1] || slugify(el.getAttribute('data-track-filter'));
-      var scope = el.closest('.main-nav, .nav-menu-top') ? 'nav' : groupOf(el);
+      var scope = '';
+      if (name === 'view') {
+        name = groupOf(el) || 'view';
+      } else {
+        scope = el.closest('.main-nav, .nav-menu-top') ? 'nav' : groupOf(el);
+      }
       filterChanged(name, rule[2](el), scope ? { filter_scope: scope } : undefined);
       break;
     }
@@ -252,7 +277,7 @@
     if (leagueLink && leagueLink.tagName === 'A') {
       var picked = parseCategory(leagueLink.getAttribute('href'));
       if (picked.league) {
-        capture('filter_changed', {
+        capture('league_selected', {
           filter_name: 'league', filter_value: picked.league,
           filter_scope: leagueLink.closest('.fs-league-card') ? 'home' : 'nav',
           target_season: picked.season, target_phase: picked.phase
@@ -260,20 +285,27 @@
       }
     }
 
-    // CTAs. data-cta is the id; data-support-cta and data-calendar-cta are older
-    // attributes that map onto the same event.
-    var cta = target.closest('[data-cta], [data-support-cta], [data-calendar-cta], [data-share]');
+    // CTAs. data-cta names the button (snake_case of its label); data-cta-placement and
+    // data-cta-detail add where it sits and which collection it belongs to. The older
+    // data-calendar-cta and data-share attributes map onto button names too.
+    var cta = target.closest('[data-cta], [data-calendar-cta], [data-share]');
     if (cta) {
-      var id = cta.getAttribute('data-cta');
+      var button = cta.getAttribute('data-cta');
       var kind = cta.tagName === 'A' ? 'link' : 'button';
-      if (!id && cta.hasAttribute('data-support-cta')) { id = 'support-' + cta.getAttribute('data-support-cta'); kind = 'support'; }
-      if (!id && cta.hasAttribute('data-calendar-cta')) { id = 'calendar-' + cta.getAttribute('data-calendar-cta'); kind = 'calendar'; }
-      if (!id && cta.hasAttribute('data-share')) { id = 'share-' + (slugify(cta.getAttribute('data-share')) || 'page'); kind = 'share'; }
-      if (id) {
+      if (!button && cta.hasAttribute('data-calendar-cta')) {
+        button = CALENDAR_BUTTONS[cta.getAttribute('data-calendar-cta')] || 'calendar';
+        kind = 'calendar';
+      }
+      if (!button && cta.hasAttribute('data-share')) { button = 'share_page'; kind = 'share'; }
+      if (button) {
         var props = { cta_kind: kind };
+        var placement = cta.getAttribute('data-cta-placement');
+        var detail = cta.getAttribute('data-cta-detail');
+        if (placement) props.cta_placement = placement;
+        if (detail) props.cta_detail = detail;
         var href = cta.getAttribute('href');
         if (href) props.destination = destination(href, state.win.location.host);
-        ctaClicked(id, props);
+        ctaClicked(button, props);
       }
     }
   }
@@ -283,7 +315,7 @@
     if (!el || !el.matches) return;
     if (el.matches('[data-h2h-select]')) {
       // Team choice: the choice itself is a name, so only the fact that it changed is sent.
-      capture('filter_changed', { filter_name: 'h2h_team', filter_scope: groupOf(el) || undefined });
+      capture('head_to_head_team_changed', { filter_name: 'head_to_head_team', filter_scope: groupOf(el) || undefined });
     } else if (el.matches('select[data-track-filter]')) {
       filterChanged(slugify(el.getAttribute('data-track-filter')), el.value, groupOf(el) ? { filter_scope: groupOf(el) } : undefined);
     }
@@ -291,15 +323,14 @@
 
   function observeViews(win) {
     if (!('IntersectionObserver' in win)) return;
-    var targets = win.document.querySelectorAll('[data-support-card], [data-track-view]');
+    var targets = win.document.querySelectorAll('[data-track-view]');
     if (!targets.length) return;
     var observer = new win.IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
         var el = entry.target;
         observer.unobserve(el);
-        var id = el.getAttribute('data-track-view') || (el.hasAttribute('data-support-card') ? 'support-banner' : '');
-        if (id) capture('cta_viewed', { cta_id: id });
+        ctaViewed(el.getAttribute('data-track-view'));
       });
     }, { threshold: 0.5 });
     targets.forEach(function (el) { observer.observe(el); });
@@ -340,6 +371,7 @@
     init: init,
     capture: capture,
     ctaClicked: ctaClicked,
+    ctaViewed: ctaViewed,
     ctaCompleted: ctaCompleted,
     ctaFailed: ctaFailed,
     filterChanged: filterChanged,

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Edvards Gustavs Rašmanis
 Category: players
 Slug: player-fdf3d53278b2f7f7

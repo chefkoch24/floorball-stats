@@ -106,6 +106,7 @@ if (window.Chart) {
                 <span class="nav-menu-links">
                     <a class="nav-leaders-link" href="{{ SITEURL }}/">Stats overview →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/leaders.html">Leaders across all leagues →</a>
+                    <a class="nav-leaders-link" href="{{ SITEURL }}/head-to-head.html">Compare two teams →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/compare-players.html">Compare two players →</a>
                     <a class="nav-leaders-link" href="{{ SITEURL }}/stats-explained.html">How our stats work →</a>
                     <a class="nav-leaders-link" href="{{ CONNECT_URL }}/">Reviews, drills and where to watch on Floorball Connect →</a>
@@ -178,12 +179,12 @@ if (window.Chart) {
         {% block breadcrumbs %}{% endblock %}
         {% block content %}{% endblock %}
         {% if SUPPORT_URL %}
-        <aside class="support-card" data-support-card>
+        <aside class="support-card" data-support-card data-track-view="support_floorball_stats">
             <div class="support-card__text">
                 <strong class="support-card__title">Floorball Stats is free and built by one fan.</strong>
                 <span class="support-card__copy">If it helps you follow the season, chip in to keep it free and growing.</span>
             </div>
-            <a class="support-card__button" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="card">Support Floorball Stats</a>
+            <a class="support-card__button" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-cta="support_floorball_stats" data-cta-placement="card">Support Floorball Stats</a>
         </aside>
         {% endif %}
     </div>
@@ -198,12 +199,12 @@ if (window.Chart) {
         <button class="footer-link footer-feedback-trigger" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">Feedback</button>
         <span class="footer-divider">·</span>
         {% if SUPPORT_URL %}
-        <a class="footer-link" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-support-cta="footer">Support</a>
+        <a class="footer-link" href="{{ SUPPORT_URL }}" target="_blank" rel="noopener" data-cta="support" data-cta-placement="footer">Support</a>
         <span class="footer-divider">·</span>
         {% endif %}
         <a class="footer-link" href="{{ CONNECT_URL }}/">Floorball Connect</a>
         <span class="footer-divider">·</span>
-        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="footer-newsletter">Newsletter</a>
+        <a class="footer-link" href="{{ NEWSLETTER_URL }}" target="_blank" rel="noopener" data-cta="newsletter" data-cta-placement="footer">Newsletter</a>
         <span class="footer-divider">·</span>
         <span>© 2026 Floorball Stats by Floorball Connect</span>
     </div>
@@ -370,7 +371,7 @@ const fbTrack = window.fbTrack || {
   searchTracker: () => ({ update() {}, flush() {} }),
   searchOpened() {}, searchResultClicked() {}, ctaClicked() {}, ctaCompleted() {}, ctaFailed() {}, slugify: (value) => String(value || '')
 };
-const globalSearchTracker = fbTrack.searchTracker('site');
+const globalSearchTracker = fbTrack.searchTracker('site_search');
 let lastSearchQuery = '';
 
 function detectDeviceType() {
@@ -433,7 +434,7 @@ document.querySelectorAll('[data-division-option]').forEach((option) => {
 syncDivisionSwitch();
 
 // Filter, CTA click and CTA view events come from the delegated bindings in tracking.js
-// (data-division-option, data-cta, data-support-cta, data-calendar-cta, data-support-card).
+// (data-division-option, data-cta, data-calendar-cta, data-track-view).
 
 async function loadSearchIndex() {
   if (Array.isArray(searchIndexItems)) {
@@ -481,7 +482,7 @@ function renderSearchResults(query, matches) {
     link.querySelector('.search-result-type').textContent = item.type;
     link.addEventListener('click', function () {
       globalSearchTracker.flush();
-      fbTrack.searchResultClicked('site', normalizeForSearch(item.type), position + 1);
+      fbTrack.searchResultClicked('site_search', normalizeForSearch(item.type), position + 1);
       closeSearchModal();
     });
     li.appendChild(link);
@@ -517,7 +518,7 @@ function openSearchModal() {
   }
   searchModal.hidden = false;
   document.body.classList.add('feedback-modal-open');
-  fbTrack.searchOpened('site');
+  fbTrack.searchOpened('site_search');
   loadSearchIndex()
     .then(function (items) {
       if (!lastSearchQuery) {

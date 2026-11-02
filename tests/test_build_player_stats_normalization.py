@@ -299,3 +299,11 @@ def test_wfc_lineups_merge_preserves_event_totals_and_updates_games(tmp_path: Pa
     assert int(scorer_row["points"]) == 1
     assert int(bench_row["games"]) == 1
     assert int(bench_row["points"]) == 0
+
+
+def test_identity_name_without_letters_is_not_a_player() -> None:
+    from src.build_player_stats import _normalize_player_name_for_identity
+
+    assert _normalize_player_name_for_identity(")") == ""
+    assert _normalize_player_name_for_identity("12") == ""
+    assert _normalize_player_name_for_identity(" Jakub Šuška ") == "Jakub Šuška"

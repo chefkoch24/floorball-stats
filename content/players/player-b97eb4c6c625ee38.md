@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jason Tsiakas
 Category: players
 Slug: player-b97eb4c6c625ee38

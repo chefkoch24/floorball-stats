@@ -12,7 +12,7 @@
     <p class="fc-lead">{{ collection.intro }}</p>
     {% if collection.key in ('sticks', 'blades') %}
     <div class="fc-actions">
-        <a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="review-{{ collection.key }}">Write a review</a>
+        <a class="fs-btn fs-btn--primary" href="{{ REVIEW_FORMS[collection.key] }}" target="_blank" rel="noopener" data-cta="write_a_review" data-cta-detail="{{ collection.key }}">Write a review</a>
         <a class="fs-btn" href="{{ SITEURL }}/{{ 'floorball-blades' if collection.key == 'sticks' else 'floorball-sticks' }}/">{{ 'Blade reviews' if collection.key == 'sticks' else 'Stick reviews' }}</a>
     </div>
     {% endif %}

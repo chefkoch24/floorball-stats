@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lina Meier
 Category: players
 Slug: player-e286aa4f634f852f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 192
+rank: 196
 season: chw-26-27

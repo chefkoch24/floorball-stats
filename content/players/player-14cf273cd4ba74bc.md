@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kryštof Krbec
 Category: players
 Slug: player-14cf273cd4ba74bc
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 219
+rank: 222
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ida Eliasson
 Category: players
 Slug: player-adfcdf8f52f6fe7a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 102
+rank: 106
 season: sew-26-27

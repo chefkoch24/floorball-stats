@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Laura Korth
 Category: players
 Slug: player-f4bd6f6920ec4bcd

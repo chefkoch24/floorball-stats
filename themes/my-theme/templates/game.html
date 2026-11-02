@@ -7,6 +7,7 @@
 {% set decision = 'PS' if ps_goals > 0 else ('OT' if ot_goals > 0 else '') %}
 {% set attendance_text = article.attendance|fmt_int('') %}
 {% import "insights.html" as insights with context %}
+{% import "versus_link.html" as versus with context %}
 <header class="mb-4">
     <h1 class="fs-panel-title">{{ article.home_team|e }} vs {{ article.away_team|e }}</h1>
     <p>{{ article.home_team|e }} {% if game_scheduled %}play {{ article.away_team|e }}{% else %}{{ hg }}:{{ ag }} {{ article.away_team|e }}{% if decision %} ({{ decision }}){% endif %}{% endif %} · {{ article.date.strftime('%d %B %Y') }} · {{ category_label|e }}.</p>
@@ -70,6 +71,12 @@
         <button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button>
     </div>
     {% endif %}
+    {% endif %}
+    {% set versus_href = versus.href(current_category|league_context, article.home_team, article.away_team)|trim %}
+    {% if versus_href %}
+    <div class="flex justify-center">
+        <a class="fs-btn fs-btn--ghost" href="{{ versus_href }}">All meetings: {{ article.home_team|e }} vs {{ article.away_team|e }} →</a>
+    </div>
     {% endif %}
 </section>
 

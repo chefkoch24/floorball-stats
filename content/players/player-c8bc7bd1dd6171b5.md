@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nela Kubalčíková
 Category: players
 Slug: player-c8bc7bd1dd6171b5
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 35
+rank: 39
 season: czw-26-27

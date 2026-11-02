@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Sarah Kritzler
 Category: players
 Slug: player-517c32aa3bd4234a

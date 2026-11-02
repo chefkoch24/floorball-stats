@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Damaris Hangartner
 Category: players
 Slug: player-42d062181ca1c1bf
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 101
+rank: 103
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Chantal Renz
 Category: players
 Slug: player-268bca48d0c1e768
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 4
-regular_games: 5
+regular_games: 6
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 4
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|5|1|1|2|4
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|6|1|1|2|4
 assists: 1
-games: 5
+games: 6
 goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 72
+rank: 81
 season: chw-26-27

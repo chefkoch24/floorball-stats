@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tadeáš Dittrich
 Category: players
 Slug: player-15cff1ddafd6ae79
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 38
+career_games: 39
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|8|0|1|1|0||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|0|0|0|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|25|0|1|1|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|9|0|1|1|0||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|0|0|0|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|25|0|1|1|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 231
+rank: 234
 season: cz-26-27

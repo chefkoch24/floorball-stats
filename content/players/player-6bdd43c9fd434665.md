@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lars Wombacher
 Category: players
 Slug: player-6bdd43c9fd434665

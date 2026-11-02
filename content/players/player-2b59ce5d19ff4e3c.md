@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Frida Meijer
 Category: players
 Slug: player-2b59ce5d19ff4e3c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 223
 season: sew-26-27

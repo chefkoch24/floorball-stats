@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ebba André
 Category: players
 Slug: player-34ae2aeb2db9610c

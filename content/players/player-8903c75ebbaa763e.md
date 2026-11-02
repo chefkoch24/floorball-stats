@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lisa Schroeder
 Category: players
 Slug: player-8903c75ebbaa763e

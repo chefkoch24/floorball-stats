@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Aapo Haavisto
 Category: players
 Slug: player-a0f07b3f7489c1d3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 112
+rank: 116
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nelio Rottaris
 Category: players
 Slug: player-8457e226ccf11f6f

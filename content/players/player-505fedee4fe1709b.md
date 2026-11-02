@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ellen Lundin
 Category: players
 Slug: player-505fedee4fe1709b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 18
-rank: 1
+rank: 2
 season: sew-26-27

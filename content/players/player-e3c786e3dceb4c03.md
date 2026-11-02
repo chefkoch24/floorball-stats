@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jasmine Van der Veen
 Category: players
 Slug: player-e3c786e3dceb4c03
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 234
+rank: 235
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Borovská Alexandra
 Category: players
 Slug: player-c47ab610f731b5a0

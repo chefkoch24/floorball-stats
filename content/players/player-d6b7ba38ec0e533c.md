@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jēkabs Berkolts
 Category: players
 Slug: player-d6b7ba38ec0e533c
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 218
+rank: 221
 season: cz-26-27

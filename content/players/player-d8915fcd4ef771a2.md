@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Judith Andersson
 Category: players
 Slug: player-d8915fcd4ef771a2
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 76
+rank: 82
 season: sew-26-27

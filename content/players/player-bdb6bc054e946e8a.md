@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mia-Maria Mõttus
 Category: players
 Slug: player-bdb6bc054e946e8a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 67
+rank: 70
 season: lvw-26-27

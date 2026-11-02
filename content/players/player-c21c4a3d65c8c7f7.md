@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alva Degerstedt
 Category: players
 Slug: player-c21c4a3d65c8c7f7
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 192
+rank: 193
 season: sew-26-27

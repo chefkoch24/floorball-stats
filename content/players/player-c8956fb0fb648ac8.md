@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Merliin Arusalu
 Category: players
 Slug: player-c8956fb0fb648ac8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 66
+rank: 69
 season: lvw-26-27

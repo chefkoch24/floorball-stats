@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Linus Möckli
 Category: players
 Slug: player-66cd3f01b51c237f

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mattia Schmied
 Category: players
 Slug: player-e17642836eb8eed8
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 265
 season: ch-26-27

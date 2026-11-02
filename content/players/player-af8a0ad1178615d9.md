@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Andreas Wisén
 Category: players
 Slug: player-af8a0ad1178615d9

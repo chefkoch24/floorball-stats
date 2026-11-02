@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Maija Justīne Jēkabsone
 Category: players
 Slug: player-52ec55dc426e41f6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 24
+rank: 26
 season: lvw-26-27

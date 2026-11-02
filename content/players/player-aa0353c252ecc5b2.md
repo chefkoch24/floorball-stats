@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Elvira Nässén
 Category: players
 Slug: player-aa0353c252ecc5b2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 210
+rank: 211
 season: sew-26-27

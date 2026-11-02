@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Michal Antonín Malhocký
 Category: players
 Slug: player-5748fddad07fc58c
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 312
+rank: 316
 season: cz-26-27

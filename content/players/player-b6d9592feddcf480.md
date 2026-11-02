@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jan Hruška
 Category: players
 Slug: player-b6d9592feddcf480
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 176
+rank: 178
 season: cz-26-27

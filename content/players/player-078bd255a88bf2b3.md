@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Isabella Weiss
 Category: players
 Slug: player-078bd255a88bf2b3
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 231
+rank: 232
 season: sew-26-27

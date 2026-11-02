@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Simona Pleisch
 Category: players
 Slug: player-f12a55f3bda151b0
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 140
+rank: 144
 season: chw-26-27

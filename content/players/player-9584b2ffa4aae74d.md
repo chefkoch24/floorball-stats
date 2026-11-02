@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Toms Zālmanis
 Category: players
 Slug: player-9584b2ffa4aae74d
@@ -44,5 +44,5 @@ penalties: 7
 phase: regular-season
 pim: 14
 points: 2
-rank: 195
+rank: 192
 season: lv-25-26

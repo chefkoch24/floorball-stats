@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anna Gluzová
 Category: players
 Slug: player-c424f5b5d68b201f
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 195
+rank: 200
 season: czw-26-27

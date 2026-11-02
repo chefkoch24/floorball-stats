@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tuomas Iiskola
 Category: players
 Slug: player-b44e78aea308e97c

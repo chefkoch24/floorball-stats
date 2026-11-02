@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Andrea Wildermuth
 Category: players
 Slug: player-15f68565cafa6a0d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 11
+rank: 13
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kristiāns Lauva
 Category: players
 Slug: player-482d23c9ec9fecf4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 260
+rank: 252
 season: lv-25-26

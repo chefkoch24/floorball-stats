@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Marcia Wick
 Category: players
 Slug: player-7e99ff64508de29e
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 36
+rank: 40
 season: chw-26-27

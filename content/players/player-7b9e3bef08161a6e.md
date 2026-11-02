@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Annika Toivanen
 Category: players
 Slug: player-7b9e3bef08161a6e

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Bára Lysková
 Category: players
 Slug: player-91d65cf5eccfab71
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 208
+rank: 213
 season: czw-26-27

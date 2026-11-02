@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Martin Sulc
 Category: players
 Slug: player-9520c85c0df7d1b2

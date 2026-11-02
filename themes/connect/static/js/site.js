@@ -115,7 +115,8 @@
   // Newsletter sign-up: MailerLite answers with JSON, so errors show next to the field and
   // a successful sign-up goes on to the "check your inbox" page (double opt-in).
   document.querySelectorAll('[data-signup]').forEach((form) => {
-    const ctaId = `signup-${form.id}`;
+    const ctaId = 'newsletter_signup';
+    const where = { cta_placement: form.id, cta_kind: 'newsletter' };
     const message = form.querySelector('[data-signup-message]');
     const button = form.querySelector('button[type="submit"]');
     form.addEventListener('submit', async (event) => {
@@ -126,15 +127,15 @@
         const response = await fetch(form.action, { method: 'POST', body: new FormData(form) });
         const result = await response.json();
         if (result.success) {
-          track.ctaCompleted(ctaId, { cta_kind: 'newsletter' });
+          track.ctaCompleted(ctaId, where);
           window.location.href = form.dataset.success;
           return;
         }
         const errors = result.errors && result.errors.fields ? Object.values(result.errors.fields).flat() : [];
-        track.ctaFailed(ctaId, 'rejected', { cta_kind: 'newsletter' });
+        track.ctaFailed(ctaId, 'rejected', where);
         if (message) message.textContent = errors[0] || 'That did not work. Please check your email address.';
       } catch (error) {
-        track.ctaFailed(ctaId, 'network', { cta_kind: 'newsletter' });
+        track.ctaFailed(ctaId, 'network', where);
         if (message) message.textContent = 'We could not reach the sign-up service. Please try again in a moment.';
       }
       if (button) button.disabled = false;
@@ -159,7 +160,7 @@
   // Share buttons: the phone's share sheet where there is one, else copy the link.
   document.querySelectorAll('[data-share]').forEach((button) => button.addEventListener('click', async () => {
     const data = { title: button.dataset.shareTitle || document.title, url: window.location.href };
-    const shareId = `share-${button.dataset.share || 'page'}`;
+    const shareId = 'share_page';
     try {
       if (navigator.share) {
         await navigator.share(data);
@@ -203,7 +204,7 @@
     apply();
   }));
   if (search) {
-    const searchTracker = track.searchTracker('connect_collection');
+    const searchTracker = track.searchTracker('collection_search');
     search.addEventListener('input', () => {
       apply();
       searchTracker.update(search.value, count ? Number(count.textContent) : 0);

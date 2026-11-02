@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Casper Karlsson
 Category: players
 Slug: player-afa07e9f4ebf38e4
@@ -10,7 +10,7 @@ league: Switzerland
 season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: ch-25-26
+previous_season: se-25-26
 current_games: 6
 current_goals: 2
 current_assists: 4
@@ -26,11 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 11
-previous_goals: 11
-previous_assists: 10
-previous_points: 21
-previous_pim: 2
+previous_games: 8
+previous_goals: 0
+previous_assists: 1
+previous_points: 1
+previous_pim: 0
 career_games: 25
 career_goals: 13
 career_assists: 15
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 53
+rank: 54
 season: ch-26-27

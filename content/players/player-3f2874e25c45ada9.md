@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: (Sparta) bumbiņa savos vārtos
 Category: players
 Slug: player-3f2874e25c45ada9
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 27
+rank: 29
 season: lvw-26-27

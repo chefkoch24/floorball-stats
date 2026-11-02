@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Meliš Marek
 Category: players
 Slug: player-9071fed7f10ce299

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Julia Croneld
 Category: players
 Slug: player-fd782a09a81ecb98
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 14
-rank: 2
+rank: 3
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tuomas Ojala
 Category: players
 Slug: player-b9c0b87a3e98e128
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 98
+rank: 103
 season: fi-26-27

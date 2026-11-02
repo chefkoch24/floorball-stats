@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Agnes Engberg
 Category: players
 Slug: player-8c319aabc08aa35d
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 71
+rank: 75
 season: sew-26-27

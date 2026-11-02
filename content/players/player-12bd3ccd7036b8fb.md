@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Valērija Kauliņa
 Category: players
 Slug: player-12bd3ccd7036b8fb
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 82
+rank: 86
 season: lvw-26-27

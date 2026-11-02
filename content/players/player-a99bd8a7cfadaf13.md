@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Elena Bröker
 Category: players
 Slug: player-a99bd8a7cfadaf13

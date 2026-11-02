@@ -37,7 +37,7 @@
     {% endif %}
     <div class="flex flex-wrap gap-2">
         {% if article.current_season and article.current_games|default(0)|int > 0 %}<button type="button" class="fs-btn fs-btn--primary" data-share-card data-share-source="share-card-data">Share</button>{% endif %}
-        <a class="fs-btn fs-btn--ghost" href="{{ SITEURL }}/compare-players.html?a={{ article.slug }}" data-cta="compare-players-player">Compare with another player</a>
+        <a class="fs-btn fs-btn--ghost" href="{{ SITEURL }}/compare-players.html?a={{ article.slug }}" data-cta="compare_with_another_player">Compare with another player</a>
     </div>
 </section>
 

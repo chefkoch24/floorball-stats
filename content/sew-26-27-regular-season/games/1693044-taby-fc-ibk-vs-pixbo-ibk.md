@@ -316,6 +316,7 @@ home_pregame_points_against_malmo_fbc: 3
 home_pregame_points_against_pixbo_ibk: 0
 home_pregame_points_against_storvreta_ibk: 3
 home_pregame_points_against_thorengruppen_ibk: 0
+home_pregame_points_against_vaxjo_ibk: 3
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 3.0

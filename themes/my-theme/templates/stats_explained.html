@@ -37,6 +37,7 @@
             <a class="fs-chip" href="#duos">Scoring duos</a>
             <a class="fs-chip" href="#table-history">Table history</a>
             <a class="fs-chip" href="#head-to-head">Head to head</a>
+            <a class="fs-chip" href="#team-versus">Compare two teams</a>
             <a class="fs-chip" href="#comebacks">Comebacks</a>
             <a class="fs-chip" href="#goal-timing">Goal timing</a>
             <a class="fs-chip" href="#records">Streaks and records</a>
@@ -182,6 +183,23 @@
     <section id="head-to-head" class="grid gap-4 scroll-mt-24" aria-labelledby="head-to-head-title">
         <h2 id="head-to-head-title" class="fs-section-title">Head to head</h2>
         <p>The league page crosses every team with every other team. A row reads from that team's side: 5:3 means the row team scored 5. Colours follow the form guide: green for a win, red for a loss, amber for a game decided in overtime or by penalty shots. Games still to come show the row team's win chance. The last two columns give points per game against the current top four and against the rest, which shows who beats the strong teams and who collects points against the weaker ones.</p>
+    </section>
+
+    <section id="team-versus" class="grid gap-4 scroll-mt-24" aria-labelledby="team-versus-title">
+        <h2 id="team-versus-title" class="fs-section-title">Compare two teams</h2>
+        <p>The <a href="{{ SITEURL }}/head-to-head.html">head-to-head page</a> counts only the games two teams of one league played against each other, over every season, regular season and playoffs, that the site has. Teams are matched by name, so a club that changed its name starts again under the new one. You can open it from the menu, from a league card on the home page, from a league page (also from any cell of its head-to-head table), from the top of a team page, and from a game page, where it shows both teams of that game. Team pages also list the record of that team against every other team of its league, and every row opens the comparison with both teams selected.</p>
+        <dl class="m-0 grid gap-3">
+            {{ term('Results and record') }}
+            <dd class="m-0"><p>Newest game first. A game decided in overtime or by penalty shots shows "n.V." or "n.P." and counts as an overtime win or overtime loss, like the form guide. Goals include the winning goal of a penalty shootout.</p></dd>
+            {{ term('Top scorers') }}
+            <dd class="m-0"><p>Goals, assists and points of each team's players in these games only. Own goals count for the team but not for a player.</p></dd>
+            {{ term('Penalties') }}
+            <dd class="m-0"><p>Every penalty in these games, by kind and by penalised player, as in <a href="#penalties">Penalties</a>.</p></dd>
+            {{ term('Goals by minute') }}
+            <dd class="m-0"><p>Goals of both teams in {{ m.block_minutes }}-minute blocks of regulation time; overtime goals are counted apart.</p></dd>
+            {{ term('Powerplay and boxplay') }}
+            <dd class="m-0"><p>Powerplay % is powerplay goals per powerplay, boxplay % is the share of boxplays without a goal against. The time with a man up or down adds up the seconds of every game and is only shown when it is known for all of them.</p></dd>
+        </dl>
     </section>
 
     <section id="comebacks" class="grid gap-4 scroll-mt-24" aria-labelledby="comebacks-title">

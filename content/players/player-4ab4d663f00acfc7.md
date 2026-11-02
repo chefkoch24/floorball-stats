@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ramon Fontana
 Category: players
 Slug: player-4ab4d663f00acfc7
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 130
+rank: 133
 season: ch-26-27

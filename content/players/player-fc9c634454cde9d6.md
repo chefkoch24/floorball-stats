@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Svens Balodis
 Category: players
 Slug: player-fc9c634454cde9d6
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 2
-rank: 86
+rank: 84
 season: lv-25-26

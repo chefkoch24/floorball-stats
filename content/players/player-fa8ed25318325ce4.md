@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mona Lisa Lusti
 Category: players
 Slug: player-fa8ed25318325ce4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 68
+rank: 71
 season: lvw-26-27

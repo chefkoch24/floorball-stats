@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Hanna-Loore Nõges
 Category: players
 Slug: player-ca29c2741dd1da98
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 51
+rank: 53
 season: lvw-26-27

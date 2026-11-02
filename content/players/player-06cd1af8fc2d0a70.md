@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Barbora Panesova
 Category: players
 Slug: player-06cd1af8fc2d0a70
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 198
+rank: 199
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: von Pritzbuer
 Category: players
 Slug: player-de3213ba86de7174

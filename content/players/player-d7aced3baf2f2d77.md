@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Rozálie Janošová
 Category: players
 Slug: player-d7aced3baf2f2d77
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 118
+rank: 122
 season: czw-26-27

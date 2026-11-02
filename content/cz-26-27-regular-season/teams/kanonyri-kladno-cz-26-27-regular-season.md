@@ -98,7 +98,7 @@ powerplay_overtime: 0
 powerplay_per_game: 1.9
 powerplay_second_period: 5
 powerplay_third_period: 9
-rank: 8
+rank: 9
 scoring_ratio: 0.94
 take_the_lead_goals: 8
 take_the_lead_goals_against: 15

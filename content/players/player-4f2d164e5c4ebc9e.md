@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kamila Verčimáková
 Category: players
 Slug: player-4f2d164e5c4ebc9e
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 94
+rank: 102
 season: czw-26-27

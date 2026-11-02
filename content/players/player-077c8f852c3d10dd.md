@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Anežka Blechová
 Category: players
 Slug: player-077c8f852c3d10dd
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 143
+rank: 148
 season: czw-26-27

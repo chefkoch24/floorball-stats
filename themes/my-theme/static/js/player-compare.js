@@ -460,9 +460,9 @@
       slots[slot].pending = player;
       setPicked(slot, player);
       if (track) {
-        track.searchResultClicked('compare_players', 'player', position);
-        // Not filterChanged: choosing another player for the same side is a change too.
-        track.capture('filter_changed', { filter_name: 'compare_player', filter_value: slot, filter_scope: 'compare_players' });
+        track.searchResultClicked('compare_players_search', 'player', position);
+        // Not filterChanged: it skips a repeated value, and choosing another player for the same side is a change too.
+        track.capture('compare_player_changed', { filter_name: 'compare_player', filter_value: slot, filter_scope: 'compare_players' });
       }
       loadPlayer(slot, player.uid);
     }
@@ -530,7 +530,7 @@
         active: -1,
         pending: null
       };
-      trackers[slot] = track ? track.searchTracker('compare_players') : null;
+      trackers[slot] = track ? track.searchTracker('compare_players_search') : null;
       ui.input.addEventListener('focus', function () { loadIndex().catch(function () {}); });
       ui.input.addEventListener('input', function () { onInput(slot); });
       ui.input.addEventListener('keydown', function (event) { onKey(slot, event); });

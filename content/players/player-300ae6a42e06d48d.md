@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Silja Collin
 Category: players
 Slug: player-300ae6a42e06d48d

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Adam Bureš
 Category: players
 Slug: player-3e88af175b0aadb4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 74
+rank: 78
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Levin Conrad
 Category: players
 Slug: player-480e731fffd4fceb
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 40
+rank: 42
 season: ch-26-27

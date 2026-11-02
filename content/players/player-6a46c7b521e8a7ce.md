@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Václav Jurdzin
 Category: players
 Slug: player-6a46c7b521e8a7ce
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 234
+rank: 237
 season: cz-26-27

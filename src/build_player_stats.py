@@ -121,7 +121,9 @@ def _normalize_player_name_for_identity(value: str | None) -> str:
         cleaned,
         flags=re.IGNORECASE,
     )
-    return cleaned.strip(" ,-")
+    cleaned = cleaned.strip(" ,-")
+    # Parsing leftovers such as ")" are not people.
+    return cleaned if any(char.isalpha() for char in cleaned) else ""
 
 
 def _phase_from_file_token(token: str) -> str:

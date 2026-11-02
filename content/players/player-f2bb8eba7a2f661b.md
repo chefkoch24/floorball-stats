@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Lucie Řezáčová
 Category: players
 Slug: player-f2bb8eba7a2f661b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 198
+rank: 202
 season: chw-26-27

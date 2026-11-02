@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Malwina Zagórska
 Category: players
 Slug: player-c397bb31e92a3f03
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 3
 regular_assists: 1
 regular_points: 4
@@ -31,18 +31,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 3
 career_assists: 1
 career_points: 4
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|7|3|1|4|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|8|3|1|4|2
 assists: 1
-games: 7
+games: 8
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 70
+rank: 76
 season: czw-26-27

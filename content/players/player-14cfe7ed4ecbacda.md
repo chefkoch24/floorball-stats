@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Patrick Furrer
 Category: players
 Slug: player-14cfe7ed4ecbacda
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 291
 season: ch-26-27

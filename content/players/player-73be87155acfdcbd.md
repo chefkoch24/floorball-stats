@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jooa Höglund
 Category: players
 Slug: player-73be87155acfdcbd

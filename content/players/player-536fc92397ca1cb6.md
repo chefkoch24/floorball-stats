@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ben Mittler
 Category: players
 Slug: player-536fc92397ca1cb6

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Nico Niemack
 Category: players
 Slug: player-37ff6a1487f6dd97
@@ -44,5 +44,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 43
+rank: 44
 season: ch-26-27

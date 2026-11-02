@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alexandra Terner
 Category: players
 Slug: player-b18933aaed7be45a
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 31
+rank: 35
 season: sew-26-27

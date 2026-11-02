@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Armands Gulbis
 Category: players
 Slug: player-f645499a43fb6e0d

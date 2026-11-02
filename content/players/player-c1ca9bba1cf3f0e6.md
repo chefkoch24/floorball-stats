@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Moa Andersson
 Category: players
 Slug: player-c1ca9bba1cf3f0e6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 37
+rank: 42
 season: sew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Rahul Chiplunkar
 Category: players
 Slug: player-d7034addef44df03
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 165
+rank: 169
 season: ch-26-27

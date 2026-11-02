@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Reinis Kirilko
 Category: players
 Slug: player-363cf4d61eda5b76

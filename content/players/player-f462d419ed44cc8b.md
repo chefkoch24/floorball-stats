@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Mattiece Myllyperkio
 Category: players
 Slug: player-f462d419ed44cc8b

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emeli Falkman
 Category: players
 Slug: player-a8c64a88604bbd5c

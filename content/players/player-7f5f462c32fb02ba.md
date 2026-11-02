@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Stina Jonsson
 Category: players
 Slug: player-7f5f462c32fb02ba
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 99
+rank: 103
 season: sew-26-27

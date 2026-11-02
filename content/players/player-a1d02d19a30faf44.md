@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: René Slezák
 Category: players
 Slug: player-a1d02d19a30faf44
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 6
+current_games: 7
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -31,18 +31,18 @@ previous_goals: 3
 previous_assists: 1
 previous_points: 4
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|6|2|0|2|2||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|26|3|1|4|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|7|2|0|2|2||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|26|3|1|4|0
 assists: 0
-games: 6
+games: 7
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 167
+rank: 169
 season: cz-26-27

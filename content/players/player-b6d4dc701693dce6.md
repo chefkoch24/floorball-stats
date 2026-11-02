@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tuomas Aho
 Category: players
 Slug: player-b6d4dc701693dce6
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 140
+rank: 141
 season: fi-26-27

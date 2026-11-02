@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Markus Sipronen
 Category: players
 Slug: player-e052887aeae5deab
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 55
+rank: 56
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Justus Savolainen
 Category: players
 Slug: player-837bafe5afac341e
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 134
+rank: 136
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Gints Bērtulis
 Category: players
 Slug: player-8d1e1bb934bbaf81
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 2
-rank: 83
+rank: 81
 season: lv-25-26

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Petr Špaček
 Category: players
 Slug: player-bf9a664f131d9f2b
@@ -44,5 +44,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 335
+rank: 338
 season: cz-26-27

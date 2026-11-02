@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Emīls Eglītis
 Category: players
 Slug: player-cba5d9edcd8a355f
@@ -44,5 +44,5 @@ penalties: 2
 phase: playoffs
 pim: 4
 points: 2
-rank: 98
+rank: 96
 season: lv-25-26

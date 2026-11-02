@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jiří Jogl
 Category: players
 Slug: player-2282f652b6b0cee4
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 93
+rank: 94
 season: cz-26-27

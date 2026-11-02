@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Klāvs Kaspars
 Category: players
 Slug: player-098f7325b25fab3d
@@ -44,5 +44,5 @@ penalties: 0
 phase: playoffs
 pim: 0
 points: 1
-rank: 119
+rank: 117
 season: lv-25-26

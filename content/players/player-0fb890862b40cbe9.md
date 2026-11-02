@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jim Johansson
 Category: players
 Slug: player-0fb890862b40cbe9

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Alina Hofmann
 Category: players
 Slug: player-ead32d75e146b077
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 97
+rank: 101
 season: chw-26-27

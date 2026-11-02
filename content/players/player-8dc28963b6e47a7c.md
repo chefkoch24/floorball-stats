@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tomáš Bém
 Category: players
 Slug: player-8dc28963b6e47a7c

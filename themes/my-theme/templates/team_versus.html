@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+{# Direct comparison of two teams. plugins/team_versus.py writes head-to-head/<league>.json at build time;
+   this page loads the file of the chosen league and renders the pair in the browser. #}
+{% set seo_title = "Head to head: compare two floorball teams | " ~ SITENAME %}
+{% set seo_description = page.summary|striptags %}
+{% set seo_type = 'website' %}
+{% set seo_canonical_path = page.url %}
+
+{% block breadcrumbs %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ SITEURL }}/">Home</a>
+    <span class="breadcrumbs-separator">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endblock %}
+
+{% block content %}
+<article class="mx-auto grid max-w-5xl gap-6 text-ink" data-versus data-site="{{ SITEURL }}" data-leagues='{{ HEAD_TO_HEAD_LEAGUES|default([])|tojson|forceescape }}'>
+    <header class="grid gap-3">
+        <h1 class="m-0 font-display text-[40px] leading-none font-extrabold [font-stretch:75%] text-balance sm:text-[56px]">{{ page.title }}</h1>
+        <p class="m-0 max-w-3xl leading-relaxed text-ink-muted">Pick a league and two teams. Everything below counts only the games these two played against each other, across all seasons on the site. <a href="{{ SITEURL }}/stats-explained.html#team-versus">How it is counted</a></p>
+    </header>
+
+    <form class="grid gap-3 sm:grid-cols-[1fr_1fr_auto_1fr]" data-versus-form aria-label="Choose league and teams">
+        <label class="grid gap-1"><span class="fs-label">League</span>
+            <select class="rounded-md border border-line-strong bg-surface-raised px-3 py-2 text-ink" data-versus-league></select></label>
+        <label class="grid gap-1"><span class="fs-label">Team</span>
+            <select class="rounded-md border border-line-strong bg-surface-raised px-3 py-2 text-ink" data-versus-team="a"></select></label>
+        <button type="button" class="fs-btn fs-btn--ghost self-end" data-versus-swap aria-label="Swap teams">⇄</button>
+        <label class="grid gap-1"><span class="fs-label">Against</span>
+            <select class="rounded-md border border-line-strong bg-surface-raised px-3 py-2 text-ink" data-versus-team="b"></select></label>
+    </form>
+
+    <div class="grid gap-6" data-versus-output aria-live="polite">
+        <noscript><p class="m-0 text-ink-muted">The comparison needs JavaScript.</p></noscript>
+    </div>
+</article>
+<script>
+(() => {
+  const root = document.querySelector('[data-versus]');
+  if (!root) return;
+  const site = root.dataset.site || '';
+  const leagues = JSON.parse(root.dataset.leagues || '[]');
+  const form = root.querySelector('[data-versus-form]');
+  const leagueSelect = form.querySelector('[data-versus-league]');
+  const selectA = form.querySelector('[data-versus-team="a"]');
+  const selectB = form.querySelector('[data-versus-team="b"]');
+  const output = root.querySelector('[data-versus-output]');
+  const cache = {};
+  let data = null;
+  let loadId = 0;
+
+  const el = (tag, className, children) => {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    [].concat(children == null ? [] : children).forEach((child) => node.append(child));
+    return node;
+  };
+  const link = (text, url) => {
+    if (!url) return document.createTextNode(text);
+    const anchor = el('a', 'text-ink underline decoration-line-strong underline-offset-2 hover:text-rink', text);
+    anchor.href = `${site}/${url}`;
+    return anchor;
+  };
+  const panel = (title, children) => el('section', 'grid min-w-0 content-start gap-3 rounded-lg border border-line bg-surface-raised p-4', [el('h2', 'fs-panel-title', title)].concat(children));
+  const num = (value, className) => el('span', `tabular-nums ${className || ''}`, String(value));
+  const pct = (value) => (value == null ? '–' : `${value.toFixed(1)}%`);
+  const day = (iso) => new Date(`${iso}T12:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  const table = (head, rows, aligns) => {
+    const align = (index) => (aligns ? aligns[index] : index ? 'text-right' : 'text-left');
+    const thead = el('thead', '', el('tr', '', head.map((label, index) => el('th', align(index), label))));
+    return el('div', 'fs-table-wrap', el('table', 'fs-table', [thead, el('tbody', '', rows)]));
+  };
+  const row = (cells) => el('tr', '', cells.map((cell, index) => el('td', index ? 'text-right tabular-nums' : '', cell)));
+
+  const fill = (select, items, selected) => {
+    select.replaceChildren(...items.map(([value, label]) => {
+      const option = el('option', '', label);
+      option.value = value;
+      option.selected = value === selected;
+      return option;
+    }));
+  };
+
+  const pairOf = (a, b) => {
+    const [i, j] = [a, b].sort((x, y) => x - y);
+    return data.pairs[`${i}-${j}`];
+  };
+
+  const renderHeader = (names, pair) => {
+    const record = pair.record;
+    const side = (name, own) => {
+      const line = record[name];
+      return el('div', 'grid min-w-0 gap-1', [
+        el('div', 'font-display text-xl font-bold text-balance', name),
+        el('div', 'text-sm text-ink-muted', `${line.W} W · ${line.OTW} OTW · ${line.OTL} OTL · ${line.L} L`),
+        el('div', 'text-sm text-ink-muted', `Goals ${line.goals_for}:${line.goals_against}`),
+      ]);
+    };
+    const wins = (name) => record[name].W + record[name].OTW;
+    return el('section', 'grid grid-cols-[1fr_auto_1fr] items-center gap-4 rounded-lg border border-line bg-surface-raised p-4', [
+      side(names[0]),
+      el('div', 'text-center', [
+        num(`${wins(names[0])} : ${wins(names[1])}`, 'font-display text-4xl font-extrabold'),
+        el('div', 'fs-label', `${record[names[0]].games} games`),
+      ]),
+      el('div', 'grid min-w-0 gap-1 text-right', [
+        el('div', 'font-display text-xl font-bold text-balance', names[1]),
+        el('div', 'text-sm text-ink-muted', `${record[names[1]].W} W · ${record[names[1]].OTW} OTW · ${record[names[1]].OTL} OTL · ${record[names[1]].L} L`),
+        el('div', 'text-sm text-ink-muted', `Goals ${record[names[1]].goals_for}:${record[names[1]].goals_against}`),
+      ]),
+    ]);
+  };
+
+  const renderResults = (pair) => panel('Results', [table(
+    ['Date', 'Home', 'Result', 'Away'],
+    pair.results.map((game) => {
+      const result = el('td', 'text-center tabular-nums font-semibold', [link(game.score, game.url)]);
+      if (game.decision) result.append(' ', el('span', 'text-xs font-medium text-ink-muted', game.decision));
+      const when = el('td', 'text-left', [day(game.date)]);
+      if (game.phase === 'playoffs') when.append(' ', el('span', 'fs-chip', 'Playoffs'));
+      return el('tr', '', [when, el('td', 'text-right', game.home), result, el('td', 'text-left', game.away)]);
+    }),
+    ['text-left', 'text-right', 'text-center', 'text-left'],
+  )]);
+
+  const renderScorers = (names, pair) => names.map((name) => panel(`Top scorers · ${name}`, pair.scorers[name].length ? [table(
+    ['Player', 'G', 'A', 'P'],
+    pair.scorers[name].map((player) => row([link(player.name, player.url), player.goals, player.assists, el('strong', '', String(player.points))])),
+  )] : [el('p', 'm-0 text-sm text-ink-muted', 'No goals with a named scorer in these games.')]));
+
+  const renderPenalties = (names, pair) => names.map((name) => {
+    const info = pair.penalties[name];
+    const kinds = Object.entries(info.kinds).map(([kind, count]) => `${count}× ${kind}`).join(', ');
+    const body = [el('p', 'm-0 text-sm text-ink-muted', info.total ? `${info.total} in total, ${info.per_game} per game${kinds ? ` · ${kinds}` : ''}` : 'No penalties in these games.')];
+    if (info.players.length) body.push(table(['Most penalised', 'Penalties'], info.players.map((player) => row([link(player.name, player.url), player.count]))));
+    return panel(`Penalties · ${name}`, body);
+  });
+
+  const renderTiming = (names, pair) => {
+    const timing = pair.timing;
+    const peak = Math.max(1, ...names.flatMap((name) => timing.goals[name]));
+    const chart = el('div', 'fs-timing', timing.labels.map((label, index) => {
+      const block = el('span', 'fs-timing__block');
+      block.title = `${label}: ${names[0]} ${timing.goals[names[0]][index]}, ${names[1]} ${timing.goals[names[1]][index]}`;
+      const top = el('span', 'fs-timing__for');
+      top.style.height = `${(100 * timing.goals[names[0]][index]) / peak}%`;
+      const bottom = el('span', 'fs-timing__against');
+      bottom.style.height = `${(100 * timing.goals[names[1]][index]) / peak}%`;
+      block.append(top, bottom);
+      return block;
+    }));
+    chart.setAttribute('role', 'img');
+    chart.setAttribute('aria-label', 'Goals of both teams in 5-minute blocks of regulation');
+    const totals = (name) => timing.goals[name].reduce((sum, value) => sum + value, 0);
+    const shootoutGoals = names.some((name) => totals(name) + timing.overtime[name] !== pair.record[name].goals_for);
+    return panel('Goals by minute', [
+      chart,
+      el('div', 'flex justify-between text-xs text-ink-muted tabular-nums', ['0', '20', '40', '60'].map((label) => el('span', '', label))),
+      el('p', 'm-0 text-sm text-ink-muted', [
+        el('span', 'font-semibold text-rink', names[0]), ` above (${totals(names[0])}), `,
+        el('strong', 'text-ink', names[1]), ` below (${totals(names[1])}). 5-minute blocks of regulation time`,
+        timing.overtime[names[0]] + timing.overtime[names[1]] ? `; overtime goals: ${timing.overtime[names[0]]}–${timing.overtime[names[1]]}.` : '.',
+        shootoutGoals ? ' The goal that decides a penalty shootout has no minute and is left out.' : '',
+      ]),
+    ]);
+  };
+
+  const renderSpecial = (names, pair) => {
+    const [a, b] = names.map((name) => ({ ...pair.special[name], penalties: pair.penalties[name].total }));
+    const lines = [
+      ['Penalties', a.penalties, b.penalties],
+      ['Powerplays', a.powerplay, b.powerplay],
+      ['Powerplay goals', a.powerplay_goals, b.powerplay_goals],
+      ['Powerplay %', pct(a.powerplay_pct), pct(b.powerplay_pct)],
+      ['Boxplays', a.boxplay, b.boxplay],
+      ['Goals against in boxplay', a.boxplay_goals_against, b.boxplay_goals_against],
+      ['Boxplay %', pct(a.boxplay_pct), pct(b.boxplay_pct)],
+    ];
+    if (a.powerplay_time != null && b.powerplay_time != null) {
+      lines.push(['Time with a man up', a.powerplay_time, b.powerplay_time], ['Time with a man down', a.boxplay_time, b.boxplay_time]);
+    }
+    return panel('Penalties and special teams', [table(['', ...names], lines.map((line) => row(line)))]);
+  };
+
+  const render = () => {
+    const a = Number(selectA.value);
+    const b = Number(selectB.value);
+    const names = [data.teams[a].name, data.teams[b].name];
+    const params = new URLSearchParams({ league: leagueSelect.value, a: names[0], b: names[1] });
+    try { history.replaceState(null, '', `?${params}`); } catch (error) { /* file:// previews */ }
+    const pair = a !== b ? pairOf(a, b) : null;
+    if (!pair) {
+      output.replaceChildren(el('p', 'm-0 rounded-lg border border-line bg-surface-raised p-4 text-ink-muted', a === b ? 'Choose two different teams.' : `${names[0]} and ${names[1]} have not played each other in the games on this site.`));
+      return;
+    }
+    output.replaceChildren(
+      renderHeader(names, pair),
+      renderResults(pair),
+      el('div', 'grid gap-4 md:grid-cols-2', renderScorers(names, pair)),
+      el('div', 'grid gap-4 md:grid-cols-2', renderPenalties(names, pair)),
+      renderTiming(names, pair),
+      renderSpecial(names, pair),
+    );
+  };
+
+  const fillOpponents = (preferred) => {
+    const a = Number(selectA.value);
+    const options = (data.opponents[a] || []).map((index) => [String(index), data.teams[index].name]);
+    fill(selectB, options.length ? options : [[String(a), '–']], preferred);
+    if (!options.some(([value]) => value === selectB.value) && options.length) selectB.value = options[0][0];
+  };
+
+  const open = async (key, wanted) => {
+    const current = ++loadId;
+    output.replaceChildren(el('p', 'm-0 text-ink-muted', 'Loading…'));
+    try {
+      cache[key] = cache[key] || await fetch(`${site}/head-to-head/${key}.json`).then((response) => {
+        if (!response.ok) throw new Error(response.status);
+        return response.json();
+      });
+    } catch (error) {
+      if (current === loadId) output.replaceChildren(el('p', 'm-0 text-ink-muted', 'The comparison data could not be loaded.'));
+      return;
+    }
+    if (current !== loadId) return;
+    data = cache[key];
+    const indexOf = (name) => data.teams.findIndex((team) => team.name === name);
+    const withGames = data.teams.map((team, index) => [String(index), team.name]).filter(([index]) => (data.opponents[index] || []).length);
+    const first = indexOf(wanted.a);
+    const start = first >= 0 && (data.opponents[first] || []).length ? first : Number(withGames[0] ? withGames[0][0] : 0);
+    fill(selectA, withGames, String(start));
+    fillOpponents(String(indexOf(wanted.b)));
+    render();
+  };
+
+  const params = new URLSearchParams(location.search);
+  const startLeague = leagues.some((league) => league.key === params.get('league')) ? params.get('league') : (leagues[0] || {}).key;
+  fill(leagueSelect, leagues.map((league) => [league.key, league.title]), startLeague);
+  leagueSelect.addEventListener('change', () => open(leagueSelect.value, {}));
+  selectA.addEventListener('change', () => { fillOpponents(selectB.value); render(); });
+  selectB.addEventListener('change', render);
+  form.querySelector('[data-versus-swap]').addEventListener('click', () => {
+    const [a, b] = [selectA.value, selectB.value];
+    selectA.value = b;
+    fillOpponents(a);
+    render();
+  });
+  if (startLeague) open(startLeague, { a: params.get('a'), b: params.get('b') });
+  else output.replaceChildren(el('p', 'm-0 text-ink-muted', 'No games to compare yet.'));
+})();
+</script>
+{% endblock %}

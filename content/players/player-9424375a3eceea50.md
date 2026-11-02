@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tvrdoň Matúš
 Category: players
 Slug: player-9424375a3eceea50

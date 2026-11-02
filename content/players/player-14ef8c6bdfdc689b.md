@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Kevins Šmits
 Category: players
 Slug: player-14ef8c6bdfdc689b

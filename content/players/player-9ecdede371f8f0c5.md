@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Ellen Westberg
 Category: players
 Slug: player-9ecdede371f8f0c5
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 208
+rank: 209
 season: sew-26-27

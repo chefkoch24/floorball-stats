@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Tim Lindgren
 Category: players
 Slug: player-d7f7383a12a0ebe2

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Adam Tůma
 Category: players
 Slug: player-ea874c69ee740b78
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 1
+current_games: 8
+current_goals: 2
 current_assists: 0
-current_points: 1
-current_pim: 6
-regular_games: 7
-regular_goals: 1
+current_points: 2
+current_pim: 8
+regular_games: 8
+regular_goals: 2
 regular_assists: 0
-regular_points: 1
-regular_pim: 6
+regular_points: 2
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,18 +31,18 @@ previous_goals: 4
 previous_assists: 4
 previous_points: 8
 previous_pim: 4
-career_games: 23
-career_goals: 5
+career_games: 24
+career_goals: 6
 career_assists: 4
-career_points: 9
-career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|7|1|0|1|6||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|16|4|4|8|4
+career_points: 10
+career_pim: 12
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|8|2|0|2|8||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|16|4|4|8|4
 assists: 0
-games: 7
-goals: 1
-penalties: 3
+games: 8
+goals: 2
+penalties: 4
 phase: regular-season
-pim: 6
-points: 1
-rank: 194
+pim: 8
+points: 2
+rank: 160
 season: cz-26-27

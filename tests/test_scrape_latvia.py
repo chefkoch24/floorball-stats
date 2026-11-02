@@ -34,3 +34,13 @@ def test_penalty_type_is_read_from_the_bracket_only() -> None:
     assert _map_penalty_type("#15 Krišjānis Tiltiņš (12 min;  nesportiska uzvedība) (2min sodu izcieš #27)") == "penalty_10"
     assert _map_penalty_type("#14 Oskars Siliņš (24 min;  spēles sods) (Sodu izcieš #27)") == "penalty_ms_full"
     assert _parse_penalty_player("#14 Oskars Siliņš (24 min;  spēles sods) (Sodu izcieš #27)") == "Oskars Siliņš"
+
+
+def test_own_goal_text_is_not_a_scorer() -> None:
+    from src.scrape_latvia import _is_own_goal
+
+    # floorball.lv prints own goals as a pseudo scorer, which used to become a player page per team.
+    assert _is_own_goal("(Bauska) bumbiņa savos vārtos")
+    assert _is_own_goal("(FBK SĀC)  Bumbiņa  savos  vārtos")
+    assert not _is_own_goal("#7 Kārlis Viļums (#10 Jānis Bērziņš)")
+    assert not _is_own_goal(None)

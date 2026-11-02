@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Joëlle Laura Schaad
 Category: players
 Slug: player-1df15bfca07e4fd2
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 174
+rank: 178
 season: chw-26-27

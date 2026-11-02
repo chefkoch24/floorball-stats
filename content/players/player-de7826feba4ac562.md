@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Renārs Rēders
 Category: players
 Slug: player-de7826feba4ac562
@@ -44,5 +44,5 @@ penalties: 1
 phase: playoffs
 pim: 2
 points: 3
-rank: 78
+rank: 77
 season: lv-25-26

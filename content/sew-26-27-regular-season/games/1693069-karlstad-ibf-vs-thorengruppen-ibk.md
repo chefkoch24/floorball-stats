@@ -419,6 +419,7 @@ away_pregame_points_against_fbc_kalmarsund: 2
 away_pregame_points_against_kais_mora_if: 3
 away_pregame_points_against_karlstad_ibf: 3
 away_pregame_points_against_taby_fc_ibk: 3
+away_pregame_points_against_vasteras_ronnby_ibk: 2
 away_pregame_points_against_vaxjo_ibk: 3
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 11

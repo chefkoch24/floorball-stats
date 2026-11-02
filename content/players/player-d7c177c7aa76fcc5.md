@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: (FK Talsi/TNSS/Krauzers) bumbiņa savos vārtos
 Category: players
 Slug: player-d7c177c7aa76fcc5

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Michaela Kubečková
 Category: players
 Slug: player-df69a66b187bd27c
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 47
+rank: 50
 season: sew-26-27

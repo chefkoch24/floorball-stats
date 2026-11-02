@@ -7,6 +7,7 @@ from src.run_stats_engine import (
     _powerplay_efficiency,
     stat_away_points,
     stat_boxplay,
+    stat_boxplay_seconds,
     stat_close_game_loss,
     stat_close_game_overtime,
     stat_close_game_win,
@@ -32,6 +33,7 @@ from src.run_stats_engine import (
     stat_points_max_difference,
     stat_points_more_2_difference,
     stat_powerplay,
+    stat_powerplay_seconds,
     stat_wins,
 )
 
@@ -462,3 +464,70 @@ def test_build_game_events_payload_translates_own_goal_labels():
     assert decoded[0]["title"] == "Own goal"
     assert decoded[0]["tag"] == "own_goal"
     assert decoded[0]["title_uid"] is None
+
+
+def test_man_advantage_seconds_for_a_full_minor_penalty():
+    events = pd.DataFrame(
+        [
+            _event(1, "1-10:00", 1, "A", "B", "penalty", "B", penalty_type="penalty_2"),
+        ]
+    )
+    assert stat_powerplay_seconds(events, "A") == 120
+    assert stat_boxplay_seconds(events, "B") == 120
+    assert stat_powerplay_seconds(events, "B") == 0
+    assert stat_boxplay_seconds(events, "A") == 0
+
+
+def test_power_play_goal_ends_the_minor_penalty_early():
+    events = pd.DataFrame(
+        [
+            _event(1, "1-10:00", 1, "A", "B", "penalty", "B", penalty_type="penalty_2"),
+            _goal_event(1, "1-10:45", 1, "A", "B", 1, 0, "A"),
+        ]
+    )
+    assert stat_powerplay_seconds(events, "A") == 45
+    assert stat_boxplay_seconds(events, "B") == 45
+
+
+def test_goal_at_even_strength_does_not_end_a_penalty():
+    events = pd.DataFrame(
+        [
+            _event(1, "1-10:00", 1, "A", "B", "penalty", "B", penalty_type="penalty_2"),
+            _event(1, "1-10:10", 1, "A", "B", "penalty", "A", penalty_type="penalty_2"),
+            _goal_event(1, "1-10:30", 1, "A", "B", 1, 0, "A"),
+        ]
+    )
+    # A is a man up for the first ten seconds and B for the last ten; in between both sides are
+    # a man down, so the goal at 10:30 ends nothing and both penalties run out.
+    assert stat_powerplay_seconds(events, "A") == 10
+    assert stat_boxplay_seconds(events, "B") == 10
+    assert stat_powerplay_seconds(events, "B") == 10
+    assert stat_boxplay_seconds(events, "A") == 10
+
+
+def test_two_plus_two_is_served_in_two_halves_and_a_goal_ends_only_the_current_one():
+    events = pd.DataFrame(
+        [
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "B", penalty_type="penalty_2and2"),
+        ]
+    )
+    assert stat_powerplay_seconds(events, "A") == 240
+
+    with_goal = pd.DataFrame(
+        [
+            _event(1, "2-05:00", 2, "A", "B", "penalty", "B", penalty_type="penalty_2and2"),
+            _goal_event(1, "2-06:00", 2, "A", "B", 1, 0, "A"),
+        ]
+    )
+    # The goal at 1:00 ends the first two minutes; the second half still runs for two minutes.
+    assert stat_powerplay_seconds(with_goal, "A") == 60 + 120
+
+
+def test_penalty_at_the_end_of_the_game_is_cut_at_the_final_whistle():
+    events = pd.DataFrame(
+        [
+            _event(1, "3-19:00", 3, "A", "B", "penalty", "B", penalty_type="penalty_2"),
+            _goal_event(1, "3-19:30", 3, "A", "B", 1, 0, "A"),
+        ]
+    )
+    assert stat_powerplay_seconds(events, "A") == 30

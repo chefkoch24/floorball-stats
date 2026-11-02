@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Hanna Åkerberg
 Category: players
 Slug: player-d82ca6b5ef215f73
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 145
+rank: 148
 season: sew-26-27

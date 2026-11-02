@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Jorina Rutschi
 Category: players
 Slug: player-e3eff0f1045ce7e6
@@ -44,5 +44,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 106
+rank: 109
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-01
+Date: 2026-11-02
 Title: Oliver Sandberg
 Category: players
 Slug: player-30001ce148b6ee4d
