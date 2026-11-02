@@ -47,6 +47,7 @@ A CTA event is `<button name>_<step>`, where the button name is the snake_case o
 | Share (page) | `share_page_clicked`, `_completed`, `_failed` | Connect item pages | share sheet resolved or link copied (`share_method`) |
 | Share (card) | `share_card_clicked`, `_completed`, `_failed` | Stats share studio | download or share sheet resolved (`share_method: download` / `share_sheet`) |
 | Apple / Outlook, Google, .ics | `calendar_apple_outlook_clicked`, `calendar_google_clicked`, `calendar_ics_download_clicked` | team calendar | calendar app or download, not measurable |
+| Compare with another player | `compare_with_another_player_clicked` | button on player pages | the choice of a player on the comparison page: `compare_player_changed` |
 | Explore league stats, Read stick reviews | `explore_league_stats_clicked`, `read_stick_reviews_clicked` | Connect home hero | on-site navigation |
 | Open Floorball Stats, Leaders across all leagues | `open_floorball_stats_clicked`, `leaders_across_all_leagues_clicked` | Connect home teaser | on-site navigation |
 | Write a review / Review this ... | `write_a_review_clicked` (`cta_detail` = collection) | Connect collection and review pages | external form, not measurable |
@@ -69,6 +70,8 @@ Same idea: `<control>_changed` for filters and tabs, `<search box>_used` for sea
 | `games_tab_changed`, `game_view_changed`, `playoff_round_changed` | Tabs on team, league and game pages | tab key, round number |
 | `collection_filter_changed` | Facet chips (brand, category) on Connect collection pages | slug of the facet, `all` |
 | `head_to_head_team_changed` | Team selects in the head-to-head view | no value (it would be a team name) |
+| `compare_player_changed` | Choosing a player in the player comparison (`/compare-players.html`), also another player for a side that is already filled (so it is sent with `capture`, not `filterChanged`, which skips a repeated value) | `filter_value`: `a` or `b` (the side), `filter_scope: compare_players`; never the player |
+| `compare_players_search_used`, `compare_players_search_result_clicked` | The two player search boxes of the player comparison | `search_scope: compare_players_search`; the click carries `result_type: player` and the suggestion's position |
 | `site_search_opened`, `site_search_used`, `site_search_result_clicked` | Header search dialog for teams and players | see below |
 | `player_search_used` | Player tables (`search_scope`: `category_players` or `player_stats_page`) | |
 | `collection_search_used` | Search box on Connect collection pages | |

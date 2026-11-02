@@ -29,6 +29,8 @@ PLUGINS = [
     'insights',
     # direct comparison of two teams: head-to-head/<league>.json for the head-to-head page
     'team_versus',
+    # compare-players/*.json: search index and one file per player for the player comparison page
+    'player_compare',
     # publish builds: the main site (connect/) into the output, served on www.floorballconnect.com
     'connect_site',
     # connect-feed.json: games, power rankings and top scorers for the main site's home page

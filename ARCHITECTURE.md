@@ -194,6 +194,10 @@ Pelican plugin (build time, no pipeline step) behind `/head-to-head.html` (`cont
 - Entry points: team pages get `article.versus` (record against every other team of the same season phase, computed from the league payload by `team_versus.team_rows`, one row per opponent the team has met, so the page grows by about 12 table rows) rendered by `insights.team_versus`; league pages show a "Compare two teams" chip via `HEAD_TO_HEAD_LEAGUES`, and every cell of the league head-to-head matrix links to its pair. The league cards on the home page, the header of team pages (one team preselected) and game pages (both teams of the game) link there too. All of them build the URL with the `versus_link.html` macro, which returns an empty string for leagues without comparison data, and link to `head-to-head.html?league=<key>&a=<team>&b=<team>`, which the page reads on load.
 - Teams are matched by name; a game carries `phase` (`regular-season` or `playoffs`) so a cup phase can be added or filtered later.
 
+### 4.6e Player Comparison: `plugins/player_compare.py`
+
+Pelican plugin (build time, no pipeline step) behind `/compare-players.html` (`content/pages/compare-players.md`, template `player_compare.html`). It writes `output/compare-players/index.json` (one short row per player, for the search) and `output/compare-players/<player uid>.json` (latest season and career totals, clutch and share of team goals) from the published player pages, after the `insights` handlers ran. The page holds no players: `static/js/player-compare.js` loads the index when a search box gets focus and one small file per chosen player, so the page and a comparison stay small although there are more than 4,600 player pages. Selection lives in the URL (`?a=<uid>&b=<uid>`); the player page links to it with itself as player A. The data shapes are in `src/player_compare.py`, the search and the comparison rows in the script (tested in `tests/js/player-compare.test.js`). Events: `docs/analytics-events.md`.
+
 ### 4.7 Markdown Generation: `src/generate_markdown.py`
 
 Reads:
