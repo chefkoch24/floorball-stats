@@ -348,6 +348,44 @@
 {% endif %}
 {% endif %}
 {% endfor %}
+{% if article.cup_games %}
+<section class="panel" id="cup">
+    <h2 class="panel-title">{{ article.cup_games[0].competition or 'Cup' }}</h2>
+    <p class="text-ink-muted">Cup games are not part of the table, the team figures, the calendar or the form on this page.</p>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Round</th>
+                <th>Opponent</th>
+                <th>Result</th>
+                <th>Report</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for game in article.cup_games %}
+            <tr>
+                <td>{{ game.date.strftime('%Y-%m-%d') if game.date else '–' }}</td>
+                <td>{{ game.round or '–' }}{% if game.group %} · {{ game.group }}{% endif %}</td>
+                <td>{{ 'vs' if game.home else '@' }} {{ game.opponent }}</td>
+                <td>
+                    {% if game.scheduled %}
+                    {{ game.start_time|fmt_time('TBD') }}
+                    {% else %}
+                    <span class="result-pill result-pill--{{ 'win' if game.outcome == 'W' else ('loss' if game.outcome == 'L' else 'draw') }}">{{ game.outcome }}</span>
+                    {{ game.goals_for }} : {{ game.goals_against }}{% if game.decision %} <span class="result-extra">{{ game.decision }}</span>{% endif %}
+                    {% endif %}
+                </td>
+                <td><a href="{{ SITEURL }}/{{ game.url }}">Details</a></td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endif %}
+
 {% if ns.game_count > 0 or ns.upcoming_count > 0 %}
 <section class="panel">
     <div class="games-tabs">

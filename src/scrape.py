@@ -6,6 +6,7 @@ import requests
 from tqdm import tqdm
 import argparse
 
+from src.competitions import STAGE_ELIMINATION, cup_columns
 from src.scheduled_games import build_scheduled_game_row
 
 DEFAULT_API_BASE = "https://saisonmanager.de/api/v2/"
@@ -77,7 +78,14 @@ def fetch_saisonmanager_json(path: str, api_base: str = DEFAULT_API_BASE, sessio
     return json.loads(response.content)
 
 
-def scrape_events(input_path: str, output_path: str, api_base: str = DEFAULT_API_BASE) -> pd.DataFrame:
+def scrape_events(
+    input_path: str,
+    output_path: str,
+    api_base: str = DEFAULT_API_BASE,
+    cup: bool = False,
+    cup_name: str | None = None,
+) -> pd.DataFrame:
+    """Events of a Saisonmanager league; ``cup=True`` (FD-Pokal) marks rows with the cup and its round."""
     if not saisonmanager_headers():
         # Without an API key read the public saisonmanager.de pages instead;
         # the web client answers with the same JSON shape as the API.
@@ -85,19 +93,39 @@ def scrape_events(input_path: str, output_path: str, api_base: str = DEFAULT_API
 
         print(f"[saisonmanager] {API_KEY_ENV} not set; reading the public web pages instead of the API.")
         with SaisonmanagerWebClient() as web:
-            return _scrape_events_with(web.get_json, input_path, output_path)
+            return _scrape_events_with(web.get_json, input_path, output_path, cup=cup, cup_name=cup_name)
     session = requests.Session()
     return _scrape_events_with(
         lambda path: fetch_saisonmanager_json(path, api_base=api_base, session=session),
         input_path,
         output_path,
+        cup=cup,
+        cup_name=cup_name,
     )
 
 
-def _scrape_events_with(fetch, input_path: str, output_path: str) -> pd.DataFrame:
+def _cup_round_label(game_day: object) -> str | None:
+    """The FD-Pokal schedules one round per "Spieltag"."""
+    try:
+        return f"Round {int(game_day)}"
+    except (TypeError, ValueError):
+        return None
+
+
+def _scrape_events_with(
+    fetch,
+    input_path: str,
+    output_path: str,
+    cup: bool = False,
+    cup_name: str | None = None,
+) -> pd.DataFrame:
     games_endpoint = "games/"
     all_games = fetch(input_path)
     game_ids = [x["game_id"] for x in all_games]
+    cup_markers = {
+        x["game_id"]: cup_columns(cup_name, stage_type=STAGE_ELIMINATION, stage_label=_cup_round_label(x.get("game_day")))
+        for x in all_games
+    } if cup else {}
     all_events = []
 
     for game_id in tqdm(game_ids):
@@ -115,17 +143,20 @@ def _scrape_events_with(fetch, input_path: str, output_path: str) -> pd.DataFram
         events = game["events"]
         if not events:
             all_events.append(
-                build_scheduled_game_row(
-                    game_id=game_id,
-                    home_team=home_team_name,
-                    away_team=away_team_name,
-                    game_date=game_date,
-                    game_start_time=game_start_time,
-                    attendance=attendance,
-                    game_status=game_status or "Scheduled",
-                    ingame_status=ingame_status,
-                    result_string=result_string,
-                )
+                {
+                    **build_scheduled_game_row(
+                        game_id=game_id,
+                        home_team=home_team_name,
+                        away_team=away_team_name,
+                        game_date=game_date,
+                        game_start_time=game_start_time,
+                        attendance=attendance,
+                        game_status=game_status or "Scheduled",
+                        ingame_status=ingame_status,
+                        result_string=result_string,
+                    ),
+                    **cup_markers.get(game_id, {}),
+                }
             )
             continue
         for event in events:
@@ -169,6 +200,7 @@ def _scrape_events_with(fetch, input_path: str, output_path: str) -> pd.DataFram
             event["game_status"] = game_status
             event["ingame_status"] = ingame_status
             event["result_string"] = result_string
+            event.update(cup_markers.get(game_id, {}))
             all_events.append(event)
 
     out = Path(output_path)

@@ -35,6 +35,8 @@ def test_germany_playoffs_config_without_league_id_does_not_fall_back(monkeypatc
 def test_current_season_configs_match_their_file_name(path):
     cfg = json.loads(path.read_text(encoding="utf-8"))
     expected_phase = "playoffs" if path.stem.endswith("-playoffs") else "regular-season"
+    if "-cup-" in path.stem:
+        expected_phase = "cup"
 
     assert cfg["season"].endswith("26-27")
     assert cfg["phase"] == expected_phase

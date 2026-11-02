@@ -81,10 +81,13 @@ def collect(generator):
         label = settings["JINJA_FILTERS"]["category_seo_label"](category)
         article.seo_event = game_schema(article, site, label, league)
         regular = category.replace("-playoffs", "-regular-season")
+        if category.endswith("-cup"):
+            # Cups publish game pages only; their teams link to the league's team pages.
+            regular = f"{category[:-len('-cup')]}-regular-season"
         for side in ("home", "away"):
             name = meta(article, f"{side}_team")
             # Link only to an actual generated article, falling back to its
-            # regular-season page for classification/playout games.
+            # regular-season page for classification/playout/cup games.
             url = teams.get((category, team_key(name))) or teams.get((regular, team_key(name)), "")
             setattr(article, f"seo_{side}_url", url)
         article.seo_goals = [event for event in decode_events(meta(article, "game_events_b64"))

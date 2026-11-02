@@ -1,0 +1,14 @@
+{
+  "backend": "czech",
+  "season": "cz-26-27",
+  "phase": "cup",
+  "cup": {
+    "competition_name": "Pohár ČF mužů"
+  },
+  "czech": {
+    "season_start_year": 2026,
+    "schedule_urls": [
+      "https://www.ceskyflorbal.cz/competition/detail/matches/8XMP?competitionFisId=4828&locale=cs"
+    ]
+  }
+}

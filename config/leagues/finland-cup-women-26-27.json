@@ -1,0 +1,10 @@
+{
+  "backend": "finland",
+  "season": "fiw-26-27",
+  "phase": "cup",
+  "cup": {
+    "competition_name": "Suomen Cup naiset",
+    "torneopal_category_id": 365,
+    "torneopal_competition_id": "sb2026"
+  }
+}

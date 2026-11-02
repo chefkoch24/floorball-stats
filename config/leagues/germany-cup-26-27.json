@@ -1,0 +1,9 @@
+{
+  "backend": "saisonmanager",
+  "league_id": 2451,
+  "season": "26-27",
+  "phase": "cup",
+  "cup": {
+    "competition_name": "FD-Pokal Herren"
+  }
+}
