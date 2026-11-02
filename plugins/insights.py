@@ -38,9 +38,12 @@ from src import power_rankings as pr  # noqa: E402
 from src import standings_history as sh  # noqa: E402
 from src import game_flow as gf  # noqa: E402
 from src import stakes as st  # noqa: E402
+from src.competitions import is_cup_phase  # noqa: E402
 from src import team_trends as tt  # noqa: E402
 
 CONFIG_DIR = ROOT / "config" / "leagues"
+# Cup games have no ratings (a cup brings teams from outside the league), so their story starts level.
+EVEN_CHANCE = 0.5
 CATEGORY_PATTERN = re.compile(r"^(?P<prefix>[a-z]*-?)(?P<season>\d{2}-\d{2})-(?P<phase>regular-season|playoffs)$")
 # "Game of the week" is picked among the games of the next round (days from the first upcoming game).
 NEXT_ROUND_DAYS = 6
@@ -168,6 +171,7 @@ def collect(generator) -> None:
     league_context: dict[str, dict] = defaultdict(dict)
     _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context)
     _attach_power(games_by_category, teams_by_category, current_season, league_context)
+    _attach_cup_stories(games_by_category, settings["JINJA_FILTERS"]["league_context"])
     _attach_table_history(games_by_category, teams_by_category, settings["JINJA_FILTERS"]["crest_index"], league_context)
     _attach_trends(generator, articles, games_by_category, teams_by_category, player_slugs, league_context)
     generator.context["LEAGUE_INSIGHTS"] = dict(league_context)
@@ -357,7 +361,7 @@ def _penalty_bands(article, side: str, end: float) -> list[dict]:
     return bands
 
 
-def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
+def _attach_game_stories(entries, run: pr.EloRun | None, league_context) -> None:
     by_category: dict[str, list] = defaultdict(list)
     for article, result in entries:
         if not result.played:
@@ -365,7 +369,7 @@ def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
         goals = _story_goals(article)
         if not goals:
             continue
-        pregame = run.pregame[result.game_id][2]
+        pregame = run.pregame[result.game_id][2] if run is not None else EVEN_CHANCE
         timeline_end = float(_meta(article, "timeline_max_minute") or gf.REGULATION_MINUTES)
         story = gf.game_story(pregame, goals, result.home_goals, result.away_goals, timeline_end)
         end = story.end_minute
@@ -401,6 +405,7 @@ def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
             "comeback": story.comeback,
             "winner": teams.get(story.winner, ""),
             "excitement": story.excitement,
+            "even_start": run is None,
             "key_moments": [
                 {
                     "clock": _clock(moment.goal.minute),
@@ -435,6 +440,21 @@ def _attach_game_stories(entries, run: pr.EloRun, league_context) -> None:
             }
             for article in dramatic
         ]
+
+
+def _attach_cup_stories(games_by_category, context_of) -> None:
+    """Game story of every played cup game. Cups get no league table, power ranking or win probability
+    (src/competitions.py), so the story is drawn from the goals alone, starting at an even chance."""
+    for category, items in games_by_category.items():
+        context = context_of(category)
+        if not context or not is_cup_phase(context["phase"]):
+            continue
+        entries = [
+            (article, _game_result(article, context["season"], context["phase"]))
+            for article in items
+            if _meta(article, "home_team") and _meta(article, "away_team")
+        ]
+        _attach_game_stories(entries, None, defaultdict(dict))
 
 
 def _outcome(own: int, other: int, decision: str) -> tuple[str, str]:

@@ -543,6 +543,37 @@ def test_cup_games_stay_out_of_the_head_to_head():
     assert [row["score"] for row in payload["pairs"]["0-1"]["results"]] == ["3:2"]
 
 
+def test_cup_games_get_a_game_story_that_starts_level_and_league_games_are_left_alone():
+    import sys
+    from datetime import date
+    from types import SimpleNamespace
+
+    sys.path.insert(0, str(ROOT / "plugins"))
+    import insights
+    import pelicanconf as conf
+    from src import player_insights as pi
+
+    def goal(minute, side, team):
+        return {"minute": minute, "period": 1, "team": team, "side": side, "score": "", "event_kind": "goal", "title": "Scorer", "tag": "regular"}
+
+    def game(slug, category):
+        return SimpleNamespace(
+            slug=slug, url=f"{slug}.html", date=date(2026, 10, 7), game_state="played", game_id=slug, type="game",
+            home_team="A", away_team="B", home_goals="2", away_goals="1", start_time="19:00",
+            game_events_b64=pi.encode_events([goal("03:00", "home", "A"), goal("08:00", "away", "B"), goal("15:00", "home", "A")]),
+            timeline_max_minute="60.0", category=SimpleNamespace(slug=category),
+        )
+
+    cup, league = game("cup", "se-26-27-cup"), game("league", "se-26-27-regular-season")
+
+    insights._attach_cup_stories({"se-26-27-cup": [cup], "se-26-27-regular-season": [league]}, conf.league_context)
+
+    assert cup.game_story["even_start"] is True
+    assert cup.game_story["winner"] == "A"
+    assert [moment["team"] for moment in cup.game_story["key_moments"]]
+    assert not hasattr(league, "game_story")
+
+
 # --- Finland: Suomen Cup from the Torneopal result service --------------------------------------
 
 

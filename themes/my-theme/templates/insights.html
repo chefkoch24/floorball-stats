@@ -359,7 +359,7 @@
 <section class="mb-8 grid gap-4 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="game-story-title">
     <div class="flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="game-story-title" class="fs-panel-title">Game story</h2>
-        {% if story.percentile is not none %}<span class="fs-status fs-status--final">More dramatic than {{ story.percentile }}% of this season's games</span>{% endif %}
+        {% if story.percentile is not none %}<span class="fs-status fs-status--final">More dramatic than {{ story.percentile }}% of this {{ 'cup' if story.even_start else 'season' }}'s games</span>{% endif %}
     </div>
     <div class="fs-story">
         <span class="fs-story__team fs-story__team--home">{{ home }}</span>
@@ -406,7 +406,7 @@
         </ol>
     </div>
     {% endif %}
-    <p class="m-0 text-xs text-ink-muted">The line shows {{ home }}'s chance to win (top) against {{ away }}'s (bottom) through the game, from the pre-game ratings, the score and the time left. Dots are goals, bars under the chart penalties. {{ explain('game-story') }}</p>
+    <p class="m-0 text-xs text-ink-muted">The line shows {{ home }}'s chance to win (top) against {{ away }}'s (bottom) through the game, {% if story.even_start %}from an even start (cup games have no ratings), the score and the time left.{% else %}from the pre-game ratings, the score and the time left.{% endif %} Dots are goals, bars under the chart penalties. {{ explain('game-story') }}</p>
 </section>
 {% endif %}
 {% endmacro %}
