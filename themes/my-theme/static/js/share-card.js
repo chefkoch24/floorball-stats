@@ -14,7 +14,7 @@
   const LABEL_SIZE = 26;
 
   // Analytics go through the shared helper (themes/shared/static/js/tracking.js).
-  const SHARE_CTA = 'share-card';
+  const SHARE_CTA = 'share_card';
   const analytics = window.fbTrack || { ctaClicked() {}, ctaCompleted() {}, ctaFailed() {} };
 
   function escapeHtml(value) {

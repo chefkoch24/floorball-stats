@@ -229,7 +229,7 @@
     const rows = Array.from(document.querySelectorAll('tr.player-search-row'));
     const totalRows = rows.length;
     const removeCombiningMarks = /[\u0300-\u036f]/g;
-    const searchTracker = window.fbTrack ? window.fbTrack.searchTracker('category_players') : null;
+    const searchTracker = window.fbTrack ? window.fbTrack.searchTracker('player_search', { search_scope: 'category_players' }) : null;
 
     function normalizeForSearch(value) {
         return String(value || '')
