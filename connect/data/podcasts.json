@@ -3,407 +3,436 @@
   {
    "id": "2691e0bb-8812-8082-96d5-c2ed91c69dbc",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Pēteris Trekše & Gustavs Griezītis",
-    "Language": "Latvian",
-    "Page Content": null,
-    "Title": "The Floorball Show",
-    "Spotify Link": "https://www.youtube.com/@thefloorballshow",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/2691e0bb-6791c455.webp"
-    ]
+    ],
+    "Host(s)": "Pēteris Trekše & Gustavs Griezītis",
+    "Spotify Link": "https://www.youtube.com/@thefloorballshow",
+    "Active": "yes",
+    "Starting year": "2025",
+    "Language": "Latvian",
+    "Title": "The Floorball Show"
    }
   },
   {
    "id": "2691e0bb-8812-800e-8f25-f3272fe82386",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Pēteris Trekše & Gustavs Griezītis",
-    "Language": "English",
-    "Page Content": null,
-    "Title": "The Floorball Show",
-    "Spotify Link": "https://www.youtube.com/@thefloorballshow",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/2691e0bb-6791c455.webp"
-    ]
+    ],
+    "Host(s)": "Pēteris Trekše & Gustavs Griezītis",
+    "Spotify Link": "https://www.youtube.com/@thefloorballshow",
+    "Active": "yes",
+    "Starting year": "2025",
+    "Language": "English",
+    "Title": "The Floorball Show"
    }
   },
   {
    "id": "2621e0bb-8812-80a2-8b66-ed486ecfc0e3",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Nico Salo, Jussi Piha, Joona Rantala",
-    "Language": "Finnish",
-    "Page Content": null,
-    "Title": "Sentterit Show",
-    "Spotify Link": "https://open.spotify.com/show/2aP6XTsv5UWMXDRIZi59q",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/2621e0bb-f3df3517.webp"
-    ]
+    ],
+    "Host(s)": "Nico Salo, Jussi Piha, Joona Rantala",
+    "Spotify Link": "https://open.spotify.com/show/2aP6XTsv5UWMXDRIZi59q",
+    "Active": "yes",
+    "Starting year": "2025",
+    "Language": "Finnish",
+    "Title": "Sentterit Show"
    }
   },
   {
    "id": "25e1e0bb-8812-804f-8fa6-ea5afde6ba5e",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Lina Wieland",
-    "Language": "German (CH)",
-    "Page Content": null,
-    "Title": "Unihockey InsideOut - zwischen Sport und Alltag",
-    "Spotify Link": "https://open.spotify.com/show/34BuoCgy5FIYHLgWdN10z1",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25e1e0bb-c552552d.webp"
-    ]
+    ],
+    "Host(s)": "Lina Wieland",
+    "Spotify Link": "https://open.spotify.com/show/34BuoCgy5FIYHLgWdN10z1",
+    "Active": "yes",
+    "Starting year": "2025",
+    "Language": "German (CH)",
+    "Title": "Unihockey InsideOut - zwischen Sport und Alltag"
    }
   },
   {
    "id": "25b1e0bb-8812-81cd-8a9b-f32794168a32",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Paolo Caroprese",
-    "Language": "Norwegian",
-    "Page Content": null,
-    "Title": "VMG-Podden (Veien Mot Guld)",
-    "Spotify Link": "https://open.spotify.com/show/3U8iSbdLtFZijkYg0PIh8s",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-b8596f51.webp"
-    ]
+    ],
+    "Host(s)": "Paolo Caroprese",
+    "Spotify Link": "https://open.spotify.com/show/3U8iSbdLtFZijkYg0PIh8s",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "Norwegian",
+    "Title": "VMG-Podden (Veien Mot Guld)"
    }
   },
   {
    "id": "25b1e0bb-8812-81c0-bd7c-e057f1e2abd6",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "International Floorball Federation (rotating hosts)",
-    "Language": "English",
-    "Page Content": null,
-    "Title": "Talking Floorball Podcast",
-    "Spotify Link": "https://open.spotify.com/show/4sxTeHkLmqYfSTR1471cVS",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-ae517493.webp"
-    ]
+    ],
+    "Host(s)": "International Floorball Federation (rotating hosts)",
+    "Spotify Link": "https://open.spotify.com/show/4sxTeHkLmqYfSTR1471cVS",
+    "Active": "yes",
+    "Starting year": "2023",
+    "Language": "English",
+    "Title": "Talking Floorball Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-81bb-80bc-fcdc33b3a348",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Dom & Flo",
-    "Language": "German (CH)",
-    "Page Content": null,
-    "Title": "Wechselfehler Podcast",
-    "Spotify Link": "https://open.spotify.com/show/43A7uxX7OBCCpb4Fathqfr",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-2cd8711d.webp"
-    ]
+    ],
+    "Host(s)": "Dom & Flo",
+    "Spotify Link": "https://open.spotify.com/show/43A7uxX7OBCCpb4Fathqfr",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "German (CH)",
+    "Title": "Wechselfehler Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-8192-a007-eb0555d46b4e",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "-",
-    "Language": "Swedish",
-    "Page Content": null,
-    "Title": "Innebandysurr (Västmanland/Örebro)",
-    "Spotify Link": "https://open.spotify.com/show/16lZm3299DAtunPdXdhJIY",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-f8787d14.webp"
-    ]
+    ],
+    "Host(s)": "-",
+    "Spotify Link": "https://open.spotify.com/show/16lZm3299DAtunPdXdhJIY",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "Swedish",
+    "Title": "Innebandysurr (Västmanland/Örebro)"
    }
   },
   {
    "id": "25b1e0bb-8812-818b-ac35-db13668d4f67",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "-",
-    "Language": "Finnish",
-    "Page Content": null,
-    "Title": "Salibandyprofeetat",
-    "Spotify Link": "https://open.spotify.com/show/3NIKf0KC2hGpxK3DB03Hic",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-3f3d1cc0.webp"
-    ]
+    ],
+    "Host(s)": "-",
+    "Spotify Link": "https://open.spotify.com/show/3NIKf0KC2hGpxK3DB03Hic",
+    "Active": "yes",
+    "Starting year": "2023",
+    "Language": "Finnish",
+    "Title": "Salibandyprofeetat"
    }
   },
   {
    "id": "25b1e0bb-8812-8171-af20-fa31ffa15d04",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Pääkallo.fi",
-    "Language": "Finnish",
-    "Page Content": null,
-    "Title": "Pääkallon podcastit",
-    "Spotify Link": "https://open.spotify.com/show/20fzeRHm8FFZizezKmhPZa",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-bf2178f7.webp"
-    ]
+    ],
+    "Host(s)": "Pääkallo.fi",
+    "Spotify Link": "https://open.spotify.com/show/20fzeRHm8FFZizezKmhPZa",
+    "Active": "yes",
+    "Starting year": "2021",
+    "Language": "Finnish",
+    "Title": "Pääkallon podcastit"
    }
   },
   {
    "id": "25b1e0bb-8812-816b-b620-ce0e52e593f0",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "FWA league",
-    "Language": "English",
-    "Page Content": null,
-    "Title": "The Face Off Podcast (Australia)",
-    "Spotify Link": "https://open.spotify.com/show/3lEK576SWSDh54aKLNwieY",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-d274ce72.webp"
-    ]
+    ],
+    "Host(s)": "FWA league",
+    "Spotify Link": "https://open.spotify.com/show/3lEK576SWSDh54aKLNwieY",
+    "Active": "yes",
+    "Starting year": "2023",
+    "Language": "English",
+    "Title": "The Face Off Podcast (Australia)"
    }
   },
   {
    "id": "25b1e0bb-8812-815a-aa13-c4f76501522d",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Snipers Bratislava",
-    "Language": "Slovak",
-    "Page Content": null,
-    "Title": "Snipers Florbal (SK)",
-    "Spotify Link": "https://open.spotify.com/show/1dABYN1cJlfoujo1Xhgve7",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-6bb2ffbb.webp"
-    ]
+    ],
+    "Host(s)": "Snipers Bratislava",
+    "Spotify Link": "https://open.spotify.com/show/1dABYN1cJlfoujo1Xhgve7",
+    "Active": "yes",
+    "Starting year": "2023",
+    "Language": "Slovak",
+    "Title": "Snipers Florbal (SK)"
    }
   },
   {
    "id": "25b1e0bb-8812-8157-afb1-ffd6f303f008",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Florbal.cz editorial",
-    "Language": "Czech",
-    "Page Content": null,
-    "Title": "Florbal.cz podcast",
-    "Spotify Link": "https://open.spotify.com/show/6hl7GzA8SxkTQNyMfeugBS",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-83b99b38.webp"
-    ]
+    ],
+    "Host(s)": "Florbal.cz editorial",
+    "Spotify Link": "https://open.spotify.com/show/6hl7GzA8SxkTQNyMfeugBS",
+    "Active": "yes",
+    "Starting year": "2019",
+    "Language": "Czech",
+    "Title": "Florbal.cz podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-8155-af56-fbda9b189a11",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "InnebandySTHLM team",
-    "Language": "Swedish",
-    "Page Content": null,
-    "Title": "InnebandySTHLM – Podcasten",
-    "Spotify Link": "https://open.spotify.com/show/3OzsQfJbIGtvIYHekaN4Ta",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-c9766f64.webp"
-    ]
+    ],
+    "Host(s)": "InnebandySTHLM team",
+    "Spotify Link": "https://open.spotify.com/show/3OzsQfJbIGtvIYHekaN4Ta",
+    "Active": "yes",
+    "Starting year": "2022",
+    "Language": "Swedish",
+    "Title": "InnebandySTHLM – Podcasten"
    }
   },
   {
    "id": "25b1e0bb-8812-8154-a91e-d0bc6a4558d0",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Jørgen & Espen",
-    "Language": "Norwegian",
-    "Page Content": null,
-    "Title": "Rundvantet",
-    "Spotify Link": "https://open.spotify.com/show/0vibU9Ey7uOQS5klQsTloe",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-0398c937.webp"
-    ]
+    ],
+    "Host(s)": "Jørgen & Espen",
+    "Spotify Link": "https://open.spotify.com/show/0vibU9Ey7uOQS5klQsTloe",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "Norwegian",
+    "Title": "Rundvantet"
    }
   },
   {
    "id": "25b1e0bb-8812-8104-9f4d-c232abdb7ba9",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Atte Ronkanen, Jonas Henschler, Christian Linke, Lukas Müller",
-    "Language": "German",
-    "Page Content": null,
-    "Title": "wide and deep – Floorball",
-    "Spotify Link": "https://open.spotify.com/show/19eu2LQcgFDXayIS5huGA5",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-bbfb0463.webp"
-    ]
+    ],
+    "Host(s)": "Atte Ronkanen, Jonas Henschler, Christian Linke, Lukas Müller",
+    "Spotify Link": "https://open.spotify.com/show/19eu2LQcgFDXayIS5huGA5",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "German",
+    "Title": "wide and deep – Floorball"
    }
   },
   {
    "id": "25b1e0bb-8812-8104-873d-e0b4937656f1",
    "fields": {
-    "Active": "yes",
-    "Host(s)": "Tilmann Gebhardt & Jan Kratochvil",
-    "Language": "German",
-    "Page Content": null,
-    "Title": "Konterpass – Der Floorball-Podcast",
-    "Spotify Link": "https://open.spotify.com/show/7adZw7Y9kMBaYzlK1DHwz1",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-d53d17fe.webp"
-    ]
+    ],
+    "Host(s)": "Tilmann Gebhardt & Jan Kratochvil",
+    "Spotify Link": "https://open.spotify.com/show/7adZw7Y9kMBaYzlK1DHwz1",
+    "Active": "yes",
+    "Starting year": "2020",
+    "Language": "German",
+    "Title": "Konterpass – Der Floorball-Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-8103-9247-ef48a918239f",
    "fields": {
-    "Active": "yes",
-    "Host(s)": null,
-    "Language": "German (CH)",
-    "Page Content": null,
-    "Title": "Unihockey Uncut",
-    "Spotify Link": "https://open.spotify.com/show/5PQx6ZqeHU1fLipTNTb2DR",
+    "End year": null,
     "Thumbnail": [
      "images/podcasts/25b1e0bb-ea507591.webp"
-    ]
+    ],
+    "Host(s)": "",
+    "Spotify Link": "https://open.spotify.com/show/5PQx6ZqeHU1fLipTNTb2DR",
+    "Active": "yes",
+    "Starting year": "2024",
+    "Language": "German (CH)",
+    "Title": "Unihockey Uncut"
    }
   },
   {
    "id": "25b1e0bb-8812-81f3-b9f5-d11a533fd7a4",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Magnus Skulstad; Christian Andersen; Ruben Kristiansen",
-    "Language": "Norwegian",
-    "Page Content": null,
-    "Title": "Kretslaget",
-    "Spotify Link": "https://open.spotify.com/show/7pBBAOi2gkP10x6SiJEjl5",
+    "End year": "2023",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-53faf4c1.webp"
-    ]
+    ],
+    "Host(s)": "Magnus Skulstad; Christian Andersen; Ruben Kristiansen",
+    "Spotify Link": "https://open.spotify.com/show/7pBBAOi2gkP10x6SiJEjl5",
+    "Active": "no",
+    "Starting year": "2021",
+    "Language": "Norwegian",
+    "Title": "Kretslaget"
    }
   },
   {
    "id": "25b1e0bb-8812-81c8-b497-c606c8dc5685",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Svensk Innebandy",
-    "Language": "Swedish",
-    "Page Content": null,
-    "Title": "Från Ribbstolar till Globen (Svensk Innebandy)",
-    "Spotify Link": "https://open.spotify.com/show/5qk2QdDPIX3WtvmuQaUMDH",
+    "End year": "2021",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-222377ec.webp"
-    ]
+    ],
+    "Host(s)": "Svensk Innebandy",
+    "Spotify Link": "https://open.spotify.com/show/5qk2QdDPIX3WtvmuQaUMDH",
+    "Active": "no",
+    "Starting year": "2021",
+    "Language": "Swedish",
+    "Title": "Från Ribbstolar till Globen (Svensk Innebandy)"
    }
   },
   {
    "id": "25b1e0bb-8812-81b1-b21b-ef5461e4fad3",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Jesper Gribe & Albin Skur",
-    "Language": "Swedish",
-    "Page Content": null,
-    "Title": "Innebandysurr (SSL-focused)",
-    "Spotify Link": "https://open.spotify.com/show/1RQkK95dR49131LdfgdPL8",
+    "End year": "2019",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-e2a9349c.webp"
-    ]
+    ],
+    "Host(s)": "Jesper Gribe & Albin Skur",
+    "Spotify Link": "https://open.spotify.com/show/1RQkK95dR49131LdfgdPL8",
+    "Active": "no",
+    "Starting year": "2019",
+    "Language": "Swedish",
+    "Title": "Innebandysurr (SSL-focused)"
    }
   },
   {
    "id": "25b1e0bb-8812-81b1-9958-ee2d78f53f69",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Micha Kneubühl, Manu Haslebacher",
-    "Language": "German (CH)",
-    "Page Content": null,
-    "Title": "Starting Six (CH)",
-    "Spotify Link": "https://open.spotify.com/show/4IIBdLS9WtKHlFFT13EdSw",
+    "End year": "2023",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-d9752a72.webp"
-    ]
+    ],
+    "Host(s)": "Micha Kneubühl, Manu Haslebacher",
+    "Spotify Link": "https://open.spotify.com/show/4IIBdLS9WtKHlFFT13EdSw",
+    "Active": "no",
+    "Starting year": "2021",
+    "Language": "German (CH)",
+    "Title": "Starting Six (CH)"
    }
   },
   {
    "id": "25b1e0bb-8812-81ab-a7ed-d90bf317de08",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Daniël Nicolai & AJ",
-    "Language": "English",
-    "Page Content": null,
-    "Title": "FloorballToday Podcast",
-    "Spotify Link": "https://open.spotify.com/show/7hJDA7UQpPmAyIkOcRaA38",
+    "End year": "2020",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-a3dd94a8.webp"
-    ]
+    ],
+    "Host(s)": "Daniël Nicolai & AJ",
+    "Spotify Link": "https://open.spotify.com/show/7hJDA7UQpPmAyIkOcRaA38",
+    "Active": "no",
+    "Starting year": "2020",
+    "Language": "English",
+    "Title": "FloorballToday Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-818d-9764-e5d0ddc65d3e",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Janek Wöbke & Martin Kemper",
-    "Language": "German",
-    "Page Content": null,
-    "Title": "Chaos im Slot – Der Floorball Podcast",
-    "Spotify Link": "https://open.spotify.com/show/4RCxLpWR8Zmor1REBVJZSU",
+    "End year": "2020",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-effb548e.webp"
-    ]
+    ],
+    "Host(s)": "Janek Wöbke & Martin Kemper",
+    "Spotify Link": "https://open.spotify.com/show/4RCxLpWR8Zmor1REBVJZSU",
+    "Active": "no",
+    "Starting year": "2019",
+    "Language": "German",
+    "Title": "Chaos im Slot – Der Floorball Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-818a-923e-f9eefa6e0965",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Janek Wöbke",
-    "Language": "German",
-    "Page Content": null,
-    "Title": "Floorballmag Podcast",
-    "Spotify Link": "https://open.spotify.com/show/5hxtzt5lERdMi9pYefxLuR",
+    "End year": "2021",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-30c2ebcc.webp"
-    ]
+    ],
+    "Host(s)": "Janek Wöbke",
+    "Spotify Link": "https://open.spotify.com/show/5hxtzt5lERdMi9pYefxLuR",
+    "Active": "no",
+    "Starting year": "2020",
+    "Language": "German",
+    "Title": "Floorballmag Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-814a-9da1-e3cf62b906d1",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Jeremias Degen",
-    "Language": "German (CH)",
-    "Page Content": null,
-    "Title": "Unihockeycoach.ch Podcast",
-    "Spotify Link": "https://open.spotify.com/show/0e8eaL2w6uyZqx6qJxtcwX",
+    "End year": "2023",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-d83b0f26.webp"
-    ]
+    ],
+    "Host(s)": "Jeremias Degen",
+    "Spotify Link": "https://open.spotify.com/show/0e8eaL2w6uyZqx6qJxtcwX",
+    "Active": "no",
+    "Starting year": "2021",
+    "Language": "German (CH)",
+    "Title": "Unihockeycoach.ch Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-8126-9f02-f4c619d9adaf",
    "fields": {
-    "Active": "no",
-    "Host(s)": null,
-    "Language": "English",
-    "Page Content": null,
-    "Title": "Player Chats Podcast",
-    "Spotify Link": "https://open.spotify.com/show/6sSGVroyBvsmS5GFJrJEJE",
+    "End year": "2022",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-4259076d.webp"
-    ]
+    ],
+    "Host(s)": "",
+    "Spotify Link": "https://open.spotify.com/show/6sSGVroyBvsmS5GFJrJEJE",
+    "Active": "no",
+    "Starting year": "2021",
+    "Language": "English",
+    "Title": "Player Chats Podcast"
    }
   },
   {
    "id": "25b1e0bb-8812-811d-8bcc-d5ed41f72afb",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Charlie Greenberg",
-    "Language": "Czech",
-    "Page Content": null,
-    "Title": "FLOORBALL PODCAST by Charlie Greenberg",
-    "Spotify Link": "https://open.spotify.com/show/3yFpZQp1kJ8EhHJuGfFkvB",
+    "End year": "2024",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-8ecdbeb1.webp"
-    ]
+    ],
+    "Host(s)": "Charlie Greenberg",
+    "Spotify Link": "https://open.spotify.com/show/3yFpZQp1kJ8EhHJuGfFkvB",
+    "Active": "no",
+    "Starting year": "2023",
+    "Language": "Czech",
+    "Title": "FLOORBALL PODCAST by Charlie Greenberg"
    }
   },
   {
    "id": "25b1e0bb-8812-8118-b1fc-d415f9e5f6a2",
    "fields": {
-    "Active": "no",
-    "Host(s)": "Finnish Floorball Federation",
-    "Language": "Finnish",
-    "Page Content": null,
-    "Title": "Salibandy.fi Podcast",
-    "Spotify Link": "https://open.spotify.com/show/6iqk8URMtIUUoD8ULSQJhk",
+    "End year": "2024",
     "Thumbnail": [
      "images/podcasts/25b1e0bb-e4453501.webp"
-    ]
+    ],
+    "Host(s)": "Finnish Floorball Federation",
+    "Spotify Link": "https://open.spotify.com/show/6iqk8URMtIUUoD8ULSQJhk",
+    "Active": "no",
+    "Starting year": "2024",
+    "Language": "Finnish",
+    "Title": "Salibandy.fi Podcast"
    }
   }
  ]

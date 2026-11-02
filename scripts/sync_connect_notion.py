@@ -11,6 +11,13 @@ Configuration:
 - connect/notion.json: the database id per collection, and for sticks and blades the
   review database and the relation property that links a review to its stick or blade:
   {"sticks": {"database": "<id>", "reviews": {"database": "<id>", "relation": "Stick"}}, ...}
+  An optional "filter" ({"<property>": "<value>"}) on a collection or its reviews keeps only
+  the pages whose select/status property has that value, e.g. drills that are "Done" or
+  reviews that are "Published"; drafts and rejected reviews stay out.
+
+Records already in connect/data keep their position (the list order of the Softr site);
+new records are appended in the order they were created. Page bodies are read only for the
+collections that show one (BODY_COLLECTIONS).
 
 Collections missing from notion.json keep their current data file. Without NOTION_TOKEN
 the script exits without changes, so builds without the secret use the committed data.
@@ -39,6 +46,12 @@ from import_connect_softr import DATA_DIR, media_name, review_fields, save_image
 API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
 CONFIG = ROOT / "connect" / "notion.json"
+# Collections whose Notion page body is the "Page Content" of a record. The others show
+# their properties only (sticks and blades show "Description").
+BODY_COLLECTIONS = {"drills", "guides", "lexicon", "watch", "documentaries"}
+# Property types that only organise the databases (publishing state, ids, links between
+# databases); they are not content and stay out of connect/data.
+SKIPPED_TYPES = {"status", "unique_id", "relation", "created_by", "last_edited_by", "created_time", "last_edited_time"}
 
 
 class Notion:
@@ -155,7 +168,7 @@ def blocks_html(notion: Notion, block_id: str, session: requests.Session, image_
         elif kind == "paragraph":
             out.append(f"<p>{text}</p>" if text else "")
         elif kind in ("heading_1", "heading_2", "heading_3"):
-            level = min(int(kind[-1]) + 1, 4)  # the page title is the h1
+            level = max(int(kind[-1]), 2)  # the page title is the h1; Notion H2/H3 stay h2/h3 like on Softr
             out.append(f"<h{level}>{text}</h{level}>")
         elif kind == "quote":
             out.append(f"<blockquote>{text}{nested}</blockquote>")
@@ -180,8 +193,21 @@ def blocks_html(notion: Notion, block_id: str, session: requests.Session, image_
     return "".join(out)
 
 
-def record_fields(page: dict, notion: Notion, session: requests.Session, prefix: str, with_body: bool) -> dict:
-    fields = {name: property_value(prop) for name, prop in page["properties"].items()}
+def matches(page: dict, wanted: dict | None) -> bool:
+    """Whether a page passes a {"property": "value"} filter from notion.json."""
+    if page.get("archived") or page.get("in_trash"):
+        return False
+    return all(property_value(page["properties"].get(name, {})) == value for name, value in (wanted or {}).items())
+
+
+def keep_order(records: list[dict], previous: list[str]) -> list[dict]:
+    """Known records in their committed order, new ones after them by creation time."""
+    position = {record_id: index for index, record_id in enumerate(previous)}
+    return sorted(records, key=lambda record: (position.get(record["id"], len(position)), record.pop("_created", "")))
+
+
+def record_fields(page: dict, notion: Notion, session: requests.Session, prefix: str, with_body: bool, keep: str = "") -> dict:
+    fields = {name: property_value(prop) for name, prop in page["properties"].items() if prop.get("type") not in SKIPPED_TYPES or name == keep}
     for key in ("Images", "Thumbnail"):
         if isinstance(fields.get(key), list):
             fields[key] = [path for path in (save_image(url, media_name(prefix, url), session) for url in fields[key] if url) if path]
@@ -212,25 +238,29 @@ def main() -> None:
         settings = config.get(collection.key)
         if not settings or (only and collection.key not in only):
             continue
-        pages = [page for page in notion.query(settings["database"]) if not page.get("archived") and not page.get("in_trash")]
-        with_body = collection.key not in ("books", "podcasts", "equipment")
+        path = DATA_DIR / f"{collection.key}.json"
+        previous = json.loads(path.read_text(encoding="utf-8"))["items"] if path.exists() else []
+        previous_reviews = [review["id"] for record in previous for review in record.get("reviews", [])]
+        pages = [page for page in notion.query(settings["database"]) if matches(page, settings.get("filter"))]
+        with_body = collection.key in BODY_COLLECTIONS
         reviews_by_parent: dict[str, list[dict]] = {}
         review_settings = settings.get("reviews")
         if review_settings:
+            relation = review_settings["relation"]
             for page in notion.query(review_settings["database"]):
-                if page.get("archived") or page.get("in_trash"):
+                if not matches(page, review_settings.get("filter")):
                     continue
-                fields = record_fields(page, notion, session, f"reviews/{page['id'][:8]}", with_body=False)
-                for parent in fields.get(review_settings["relation"]) or []:
-                    reviews_by_parent.setdefault(parent, []).append({"id": page["id"], "fields": review_fields(fields)})
+                fields = record_fields(page, notion, session, f"reviews/{page['id'][:8]}", with_body=False, keep=relation)
+                for parent in fields.get(relation) or []:
+                    reviews_by_parent.setdefault(parent, []).append({"id": page["id"], "fields": review_fields(fields), "_created": page.get("created_time", "")})
         records = []
-        for page in sorted(pages, key=lambda page: page.get("created_time", "")):
+        for page in pages:
             prefix = f"{collection.key}/{page['id'][:8]}"
-            record = {"id": page["id"], "fields": record_fields(page, notion, session, prefix, with_body)}
+            record = {"id": page["id"], "fields": record_fields(page, notion, session, prefix, with_body), "_created": page.get("created_time", "")}
             if review_settings:
-                record["reviews"] = reviews_by_parent.get(page["id"], [])
+                record["reviews"] = keep_order(reviews_by_parent.get(page["id"], []), previous_reviews)
             records.append(record)
-        path = DATA_DIR / f"{collection.key}.json"
+        records = keep_order(records, [record["id"] for record in previous])
         path.write_text(json.dumps({"items": records}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"{collection.key}: {len(records)} records" + (f", {sum(len(r.get('reviews', [])) for r in records)} reviews" if review_settings else ""))
 

@@ -243,7 +243,10 @@ repository. It replaced the Softr site and shares the design system with the sta
 - Content lives in Notion (edited there; stick and blade reviews arrive from the Tally
   forms). `scripts/sync_connect_notion.py` reads the databases listed in
   `connect/notion.json` with `NOTION_TOKEN` and writes `connect/data/<collection>.json`;
-  without the token the committed data is used. `scripts/import_connect_softr.py` did the
+  without the token the committed data is used. Per collection an optional `filter` keeps
+  only finished pages (status "Done", reviews "Published"); known records keep their
+  committed order and new ones are appended. Page bodies are read only for the collections
+  that show one (drills, guides, lexicon, watch, documentaries). `scripts/import_connect_softr.py` did the
   one-time import from the Softr site in the same format.
 - Notion file links expire after an hour, so both scripts download images into
   `connect/content/images` (WebP, max 1400 px).

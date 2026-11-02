@@ -431,11 +431,21 @@ Content comes from Notion. To refresh it locally or on Netlify:
 
 1. Create a Notion internal integration, share the content and review databases with it,
    and set `NOTION_TOKEN` (on Netlify: Site configuration → Environment variables).
-2. Fill `connect/notion.json` (copy `connect/notion.example.json`) with the database ids.
-3. `make connect-sync-notion PYTHON=.venv/bin/python`, then rebuild.
+2. `connect/notion.json` holds the database ids (workspace "Florball Connect"; template:
+   `connect/notion.example.json`). A `"filter": {"<property>": "<value>"}` keeps only
+   finished pages: sticks `Status` = Done, drills `_Status` = Done, lexicon `Publishing` =
+   Done, guides (the "Blog" database) `Status` = Erledigt, reviews `Published` = Published
+   (rejected and unchecked Tally reviews stay off the site). Reviews link to their stick or
+   blade through the `Sticks` / `Blades` relation.
+3. `make connect-sync-notion PYTHON=.venv/bin/python`, then rebuild. Records keep their
+   committed order; new ones are appended. Images and drill videos are downloaded into
+   `connect/content/`, so commit those together with `connect/data`.
 
-With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild (for example from
-a daily build hook) picks up new reviews.
+With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild picks up new
+reviews. `.github/workflows/connect-daily-build.yml` triggers one every day at 04:17 UTC:
+create a build hook in Netlify (Site configuration → Build & deploy → Build hooks, branch
+`master`) and store its URL as the repository secret `NETLIFY_BUILD_HOOK`. Without the
+secret the workflow only logs a warning; it can also be run by hand (workflow_dispatch).
 
 ## Run tests
 
