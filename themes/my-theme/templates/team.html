@@ -2,6 +2,7 @@
 {% set team_name = article.team|default(article.title) %}
 {% set gd = article.goal_difference|default(0)|int %}
 {% import "insights.html" as insights with context %}
+{% import "versus_link.html" as versus with context %}
 <header class="mb-8 grid gap-5">
     <div class="flex flex-wrap items-center gap-2">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
@@ -16,6 +17,10 @@
         <div class="grid"><dt class="fs-label">Games</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.games|default('–') }}</dd></div>
         <div class="grid"><dt class="fs-label">Goals</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ article.goals|default(0) }}:{{ article.goals_against|default(0) }} <span class="text-base font-medium text-ink-muted">{% if gd > 0 %}+{{ gd }}{% elif gd < 0 %}−{{ -gd }}{% else %}0{% endif %}</span></dd></div>
     </dl>
+    {% set versus_href = versus.href(article.category.slug|league_context, team_name)|trim %}
+    {% if versus_href %}
+    <div><a class="fs-btn fs-btn--ghost" href="{{ versus_href }}">Compare {{ team_name }} with another team →</a></div>
+    {% endif %}
     {% if article.calendar_path %}
     {% set calendar_url = (SITEURL or '') ~ '/' ~ article.calendar_path %}
     {% set webcal_url = calendar_url|replace('https://', 'webcal://') %}

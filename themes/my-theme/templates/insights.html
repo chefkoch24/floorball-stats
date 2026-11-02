@@ -1,4 +1,5 @@
 {% from 'team_crest.html' import crest with context %}
+{% import "versus_link.html" as versus with context %}
 {% set crest_category = category.shortname if category is defined and category else (article.category.shortname if article is defined and article.category else '') %}
 {# Clutch stats, scoring duos, power ratings and win probabilities (plugins/insights.py).
    Import with context: {% import "insights.html" as insights with context %} #}
@@ -426,7 +427,7 @@
     <div class="flex flex-wrap items-end justify-between gap-3">
         <div class="grid gap-1">
             <h2 id="h2h-title" class="fs-section-title">Head to head</h2>
-            <p class="m-0 text-sm text-ink-muted">Every team against every other team. Rows read from the team's side: 5:3 means the row team scored 5. Games still to come show the row team's win chance. {{ explain('head-to-head') }}</p>
+            <p class="m-0 text-sm text-ink-muted">Every team against every other team. Rows read from the team's side: 5:3 means the row team scored 5. Games still to come show the row team's win chance. Click a cell for all meetings of the two teams. {{ explain('head-to-head') }}</p>
         </div>
         <div class="fs-segmented max-sm:hidden" role="group" aria-label="Head to head values" data-h2h-views>
             <button type="button" class="fs-segment" aria-pressed="true" data-view="results">Results</button>
@@ -454,10 +455,13 @@
                 {% if cell is none %}
                 <td class="fs-h2h__self" aria-label="{{ row.team }}"></td>
                 {% else %}
+                {% set pair_href = versus.href(league, row.team, matrix.teams[loop.index0])|trim %}
                 <td class="fs-h2h__cell">
+                    {% if pair_href %}<a class="fs-h2h__link" href="{{ pair_href }}" title="{{ row.team }} vs {{ matrix.teams[loop.index0] }}: all meetings">{% endif %}
                     <span class="fs-h2h__games" data-h2h="results">{{ h2h_games(cell) }}</span>
                     <span data-h2h="ppg">{{ cell.ppg or '–' }}</span>
                     <span data-h2h="gd">{{ signed(cell.gd) }}</span>
+                    {% if pair_href %}</a>{% endif %}
                 </td>
                 {% endif %}
                 {% endfor %}
