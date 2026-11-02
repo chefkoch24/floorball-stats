@@ -342,7 +342,7 @@ make refresh-cup-switzerland      # one cup, also -women; sweden, switzerland, c
 python -m src.pipeline --league_config config/leagues/sweden-cup-26-27.json --skip_scrape   # local, no scrape, no Neon
 ```
 
-`refresh-cups` is deliberately not part of `refresh-all-leagues`. The Finnish cup renders pages in Chrome (about 3 s per game, so a full men's refresh takes several minutes). Czech cups need the same local job as the
+`refresh-cups` is not part of `refresh-all-leagues`; the nightly workflow (`.github/workflows/daily-refresh.yml`) runs it just before, so the cup events are in Neon when the player stats are built. The Finnish cup renders pages in Chrome (about 3 s per game, so a full men's refresh takes several minutes). Czech cups need the same local job as the
 league (ceskyflorbal.cz blocks CI): pass `CZECH_PIPELINE_ARGS="--events_source db"` once they are in Neon.
 
 Sources per country (checked 1 November 2026):
