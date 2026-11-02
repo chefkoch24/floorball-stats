@@ -1,0 +1,8 @@
+{# Link to the direct comparison page, with the league and optionally two teams preselected.
+   Empty when the league has no comparison data, so callers can skip the link. `league` is a league_context entry. #}
+{% macro href(league, team=none, opponent=none) -%}
+{%- set key = (league.prefix.rstrip('-') or 'de') if league else '' -%}
+{%- if key and key in (HEAD_TO_HEAD_LEAGUES|default([]))|map(attribute='key') -%}
+{{ SITEURL }}/head-to-head.html?{{ ({'league': key, 'a': team, 'b': opponent} if team and opponent else {'league': key, 'a': team} if team else {'league': key})|urlencode }}
+{%- endif -%}
+{%- endmacro %}
