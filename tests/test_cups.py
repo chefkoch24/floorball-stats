@@ -875,3 +875,19 @@ def test_team_pages_list_the_cup_games_of_their_team_and_only_those():
 
     template = (ROOT / "themes" / "my-theme" / "templates" / "team.html").read_text(encoding="utf-8")
     assert "{% if article.cup_games %}" in template
+
+
+def test_cup_game_stats_carry_no_per_opponent_columns(tmp_path):
+    # points_against has one entry per team; for a cup of 100+ teams that added hundreds of
+    # game_stats columns per season and hit Postgres' 1600 column limit (nightly run, 2 Nov 2026).
+    cup = _game_rows(1, "Team A", "Team B", 3, 1) + _game_rows(2, "Team C", "Team D", 2, 0) + _game_rows(3, "Team A", "Team C", 1, 0)
+    csv = _write_csv(tmp_path / "data_ch-26-27_cup.csv", cup)
+    league_csv = _write_csv(tmp_path / "data_ch-26-27_regular_season.csv", cup)
+
+    cup_stats = run_stats_pipeline(input_csv_path=str(csv), output_dir=str(tmp_path / "cup"), season="ch-26-27", phase="cup")
+    league_stats = run_stats_pipeline(input_csv_path=str(league_csv), output_dir=str(tmp_path / "league"), season="ch-26-27", phase="regular-season")
+
+    for game in cup_stats["game_stats"]:
+        for key in ("home_stats", "away_stats", "home_pregame_stats", "away_pregame_stats"):
+            assert "points_against" not in game[key]
+    assert any("points_against" in game["home_stats"] for game in league_stats["game_stats"])
