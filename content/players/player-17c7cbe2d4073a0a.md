@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Miķelis Koknesis Roops
 Category: players
 Slug: player-17c7cbe2d4073a0a
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 40
 previous_goals: 8
 previous_assists: 7

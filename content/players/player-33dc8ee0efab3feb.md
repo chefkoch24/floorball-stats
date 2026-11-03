@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Siro Laurino
 Category: players
 Slug: player-33dc8ee0efab3feb
@@ -11,10 +11,10 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
-current_goals: 1
-current_assists: 0
-current_points: 1
+current_games: 8
+current_goals: 4
+current_assists: 3
+current_points: 7
 current_pim: 0
 regular_games: 4
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 3
+cup_assists: 3
+cup_points: 6
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|4|1|0|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|4|1|0|1|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|3|3|6|0
 assists: 0
 games: 4
 goals: 1

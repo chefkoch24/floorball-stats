@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Milan Meliš
 Category: players
 Slug: player-922fcfa4458d468a
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 13
 previous_goals: 3
 previous_assists: 11
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 105
+rank: 106
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Noga Matej
 Category: players
 Slug: player-494f11a9de0d9c27
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

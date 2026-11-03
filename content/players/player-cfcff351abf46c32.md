@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Mike Zahner
 Category: players
 Slug: player-cfcff351abf46c32
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 7
 current_goals: 2
 current_assists: 1
 current_points: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 17
 previous_goals: 4
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 6
 career_assists: 2
 career_points: 8
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|5|2|1|3|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|17|4|1|5|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|5|2|1|3|2||ch-26-27|cup|Switzerland|WASA St. Gallen|2|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|17|4|1|5|6
 assists: 1
 games: 5
 goals: 2

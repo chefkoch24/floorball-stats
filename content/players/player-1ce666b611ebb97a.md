@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jesper Sankell
 Category: players
 Slug: player-1ce666b611ebb97a
@@ -11,10 +11,10 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 4
-current_assists: 6
-current_points: 10
+current_assists: 9
+current_points: 13
 current_pim: 8
 regular_games: 7
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 3
+cup_points: 3
+cup_pim: 0
 previous_games: 31
 previous_goals: 13
 previous_assists: 19
@@ -36,7 +41,7 @@ career_goals: 20
 career_assists: 27
 career_points: 47
 career_pim: 30
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|4|6|10|8||se-25-26|playoffs|Sweden|Växjö IBK|8|1|1|2|10||se-25-26|regular-season|Sweden|Växjö IBK|23|12|18|30|8||wfc-2024|tournament|IFF WFC|Sweden|6|3|2|5|4
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|4|6|10|8||se-26-27|cup|Sweden|Växjö IBK|2|0|3|3|0||se-25-26|playoffs|Sweden|Växjö IBK|8|1|1|2|10||se-25-26|regular-season|Sweden|Växjö IBK|23|12|18|30|8||wfc-2024|tournament|IFF WFC|Sweden|6|3|2|5|4
 assists: 6
 games: 7
 goals: 4

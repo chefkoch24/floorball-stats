@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Domenick Rotgang
 Category: players
 Slug: player-c77d1c585bf079d8
@@ -11,10 +11,10 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
+current_games: 7
 current_goals: 0
-current_assists: 2
-current_points: 2
+current_assists: 4
+current_points: 4
 current_pim: 0
 regular_games: 6
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 0
 previous_games: 16
 previous_goals: 1
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 4
 career_points: 5
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|6|0|2|2|0||25-26|regular-season|Germany|Berlin Rockets|16|1|2|3|2
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|6|0|2|2|0||26-27|cup|Germany|Berlin Rockets|1|0|2|2|0||25-26|regular-season|Germany|Berlin Rockets|16|1|2|3|2
 assists: 2
 games: 6
 goals: 0

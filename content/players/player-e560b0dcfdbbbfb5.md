@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Tobias Gustafsson
 Category: players
 Slug: player-e560b0dcfdbbbfb5
@@ -11,10 +11,10 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 2
-current_assists: 3
-current_points: 5
+current_games: 9
+current_goals: 4
+current_assists: 4
+current_points: 8
 current_pim: 0
 regular_games: 7
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
+cup_pim: 0
 previous_games: 31
 previous_goals: 16
 previous_assists: 21
@@ -36,7 +41,7 @@ career_goals: 20
 career_assists: 27
 career_points: 47
 career_pim: 16
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|2|3|5|0||ch-25-26|playoffs|Switzerland|Zug United|11|4|8|12|8||ch-25-26|regular-season|Switzerland|Zug United|20|12|13|25|8||wfc-2024|tournament|IFF WFC|Sweden|6|2|3|5|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|2|3|5|0||ch-26-27|cup|Switzerland|Zug United|2|2|1|3|0||ch-25-26|playoffs|Switzerland|Zug United|11|4|8|12|8||ch-25-26|regular-season|Switzerland|Zug United|20|12|13|25|8||wfc-2024|tournament|IFF WFC|Sweden|6|2|3|5|0
 assists: 3
 games: 7
 goals: 2

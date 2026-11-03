@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Andreas Stefansson
 Category: players
 Slug: player-b5dd5744eef01114
@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
-current_goals: 5
+current_games: 8
+current_goals: 13
 current_assists: 1
-current_points: 6
-current_pim: 2
+current_points: 14
+current_pim: 4
 regular_games: 6
 regular_goals: 5
 regular_assists: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 8
+cup_assists: 0
+cup_points: 8
+cup_pim: 2
 previous_games: 24
 previous_goals: 49
 previous_assists: 8
@@ -36,7 +41,7 @@ career_goals: 54
 career_assists: 9
 career_points: 63
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|6|5|1|6|2||se-25-26|regular-season|Sweden|AIK IBF|24|49|8|57|4
+history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|6|5|1|6|2||se-26-27|cup|Sweden|AIK IBF|2|8|0|8|2||se-25-26|regular-season|Sweden|AIK IBF|24|49|8|57|4
 assists: 1
 games: 6
 goals: 5

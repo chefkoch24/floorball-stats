@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Albin Lundell
 Category: players
 Slug: player-e72b4dcaa8ee0081
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 3
+current_games: 5
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 2
+current_points: 2
 current_pim: 2
 regular_games: 3
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 26
 previous_goals: 1
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 8
 career_points: 9
 career_pim: 8
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|3|0|1|1|2||se-25-26|regular-season|Sweden|Visby IBK|26|1|7|8|6
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|3|0|1|1|2||se-26-27|cup|Sweden|Visby IBK|2|0|1|1|0||se-25-26|regular-season|Sweden|Visby IBK|26|1|7|8|6
 assists: 1
 games: 3
 goals: 0

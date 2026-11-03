@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Anton Åkerlund
 Category: players
 Slug: player-dc74e08db76b0105
@@ -11,10 +11,10 @@ season_count: 1
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 3
-current_assists: 4
-current_points: 7
+current_games: 10
+current_goals: 6
+current_assists: 10
+current_points: 16
 current_pim: 0
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 3
+cup_assists: 6
+cup_points: 9
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 4
 career_points: 7
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|3|4|7|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|3|4|7|0||se-26-27|cup|Sweden|IBK Dalen|3|3|6|9|0
 assists: 4
 games: 7
 goals: 3

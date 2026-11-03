@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Joona Larte
 Category: players
 Slug: player-ffd7ac9e97f6e006
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 4
-current_assists: 2
-current_points: 6
+current_games: 10
+current_goals: 6
+current_assists: 4
+current_points: 10
 current_pim: 0
 regular_games: 7
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 2
+cup_assists: 2
+cup_points: 4
+cup_pim: 0
 previous_games: 22
 previous_goals: 8
 previous_assists: 12
@@ -36,7 +41,7 @@ career_goals: 12
 career_assists: 14
 career_points: 26
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|4|2|6|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|8|12|20|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|4|2|6|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|2|2|4|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|8|12|20|2
 assists: 2
 games: 7
 goals: 4

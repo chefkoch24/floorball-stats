@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jussi Hakala
 Category: players
 Slug: player-bc5476d37b0c78e9
@@ -26,6 +26,11 @@ playoff_goals: 7
 playoff_assists: 1
 playoff_points: 8
 playoff_pim: 4
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

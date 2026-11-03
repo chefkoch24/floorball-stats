@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Mikuláš Komárek
 Category: players
 Slug: player-e7a4736aa934c1c4
@@ -26,6 +26,11 @@ playoff_goals: 2
 playoff_assists: 8
 playoff_points: 10
 playoff_pim: 8
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

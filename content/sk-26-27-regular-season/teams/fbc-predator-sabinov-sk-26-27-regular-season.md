@@ -6,13 +6,15 @@ type: team
 team:FBC Predator Sabinov
 platzierungsverlauf:sk-26-27-regular-season/teams/fbc-predator-sabinov-sk-26-27-regular-season_platzierungsverlauf.png
 away_points: 7
-boxplay: 24
-boxplay_efficiency: 70.83
+boxplay: 23
+boxplay_efficiency: 69.57
 boxplay_first_period: 4
 boxplay_overtime: 0
-boxplay_per_game: 3.0
+boxplay_per_game: 2.88
 boxplay_second_period: 8
-boxplay_third_period: 12
+boxplay_seconds: 2114
+boxplay_third_period: 11
+boxplay_time: 35:14
 close_game_loss: 2
 close_game_overtime: 0
 close_game_points_per_game: 1.33
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.75
 first_period_goals_per_game: 1.5
 games: 8
 goal_difference: -3
+goal_difference_first_period: -2
+goal_difference_overtime: -1
 goal_difference_per_game: -0.38
+goal_difference_second_period: -3
+goal_difference_third_period: 4
 goals: 43
 goals_against: 46
 goals_against_away: 25
@@ -57,10 +63,10 @@ loss_1: 3
 losses: 3
 over_time_losses: 2
 over_time_wins: 0
-penalties: 26
-penalties_per_game: 3.25
+penalties: 25
+penalties_per_game: 3.12
 penalty_10: 1
-penalty_2: 25
+penalty_2: 24
 penalty_2and2: 0
 penalty_first_period: 4
 penalty_ms: 0
@@ -70,7 +76,7 @@ penalty_shootout_losses: 0
 penalty_shootout_wins: 0
 penalty_shot_goals: 0
 penalty_shot_goals_against: 0
-penalty_third_period: 12
+penalty_third_period: 11
 percent_goals_first_period: 27.91
 percent_goals_first_period_against: 30.43
 percent_goals_overtime: 0.0
@@ -97,7 +103,10 @@ powerplay_first_period: 6
 powerplay_overtime: 1
 powerplay_per_game: 1.88
 powerplay_second_period: 3
+powerplay_seconds: 1392
 powerplay_third_period: 5
+powerplay_time: 23:12
+powerplay_time_per_goal: 3:52
 rank: 8
 scoring_ratio: 0.93
 take_the_lead_goals: 8

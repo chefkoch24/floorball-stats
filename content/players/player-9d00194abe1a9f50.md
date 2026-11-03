@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Linus Nestorsson
 Category: players
 Slug: player-9d00194abe1a9f50
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 7
-current_assists: 13
-current_points: 20
+current_games: 8
+current_goals: 8
+current_assists: 15
+current_points: 23
 current_pim: 0
 regular_games: 7
 regular_goals: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 27
 previous_goals: 7
 previous_assists: 28
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 41
 career_points: 55
 career_pim: 14
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|7|13|20|0||se-25-26|playoffs|Sweden|Pixbo IBK|4|1|2|3|2||se-25-26|regular-season|Sweden|Pixbo IBK|23|6|26|32|12
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|7|13|20|0||se-26-27|cup|Sweden|Pixbo IBK|1|1|2|3|0||se-25-26|playoffs|Sweden|Pixbo IBK|4|1|2|3|2||se-25-26|regular-season|Sweden|Pixbo IBK|23|6|26|32|12
 assists: 13
 games: 7
 goals: 7

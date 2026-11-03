@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Axel Telkki
 Category: players
 Slug: player-6ed1901a8debaae5
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
-current_goals: 5
+current_games: 8
+current_goals: 6
 current_assists: 5
-current_points: 10
+current_points: 11
 current_pim: 6
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 12
 previous_goals: 9
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 14
 career_assists: 15
 career_points: 29
 career_pim: 10
-history_rows_csv: fi-26-27|regular-season|Finland|EräViikingit|7|5|5|10|6||fi-25-26|regular-season|Finland|EräViikingit|12|9|10|19|4
+history_rows_csv: fi-26-27|regular-season|Finland|EräViikingit|7|5|5|10|6||fi-26-27|cup|Finland|EräViikingit|1|1|0|1|0||fi-25-26|regular-season|Finland|EräViikingit|12|9|10|19|4
 assists: 5
 games: 7
 goals: 5

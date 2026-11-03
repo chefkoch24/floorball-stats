@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Lukas Schellenberg
 Category: players
 Slug: player-5bcefd3ca4f0e897
@@ -11,10 +11,10 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 10
 current_goals: 0
-current_assists: 0
-current_points: 0
+current_assists: 1
+current_points: 1
 current_pim: 2
 regular_games: 6
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|0|0|0|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|0|0|0|2||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|0|1|1|0
 assists: 0
 games: 6
 goals: 0

@@ -6,19 +6,19 @@ type: game
 game_id: 1307569
 home_team: ACEMA Sparta Praha
 away_team: BA SOKOLI Pardubice
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 392.0
+away_goal_diffs_csv: 1,0,0
+away_goal_minutes_csv: 28.5,38.85,56.63
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMjE6MjYiLCJwZXJpb2QiOjIsInRlYW0iOiJBQ0VNQSBTcGFydGEgUHJhaGEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkRhdmlkIEhvcmvDvSIsInRpdGxlX3VpZCI6InBsYXllci1lYTYzZjUxY2YyZGI5NzY4IiwiYXNzaXN0IjoiUmFkZWsgRHJiYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItMWIwNzMyMTFmYWFmYmU0ZiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjI3OjUwIiwicGVyaW9kIjoyLCJ0ZWFtIjoiQUNFTUEgU3BhcnRhIFByYWhhIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJKYW4gVm9uZHJ1xaFrYSIsInRpdGxlX3VpZCI6InBsYXllci1kMDA0NmYyNzViMTczMWNjIiwiYXNzaXN0IjoiRGF2aWQgSG9ya8O9IiwiYXNzaXN0X3VpZCI6InBsYXllci1lYTYzZjUxY2YyZGI5NzY4IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjg6MzAiLCJwZXJpb2QiOjIsInRlYW0iOiJCQSBTT0tPTEkgUGFyZHViaWNlIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJNYXTEm2ogxaBtw6l0a2EiLCJ0aXRsZV91aWQiOiJwbGF5ZXItYjdkOWFiY2E4ZWM0NTAzNyIsImFzc2lzdCI6Ikpha3ViIEJvxI1layIsImFzc2lzdF91aWQiOiJwbGF5ZXItNTljMmRiYTZiNzlkZDhmNiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjM4OjUxIiwicGVyaW9kIjoyLCJ0ZWFtIjoiQkEgU09LT0xJIFBhcmR1YmljZSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIyOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiSmFrdWIgSHJvbWFkYSIsInRpdGxlX3VpZCI6InBsYXllci03N2RjOTU3NzNkMTJmYmE4IiwiYXNzaXN0IjoiRmlsaXAgTmVrbGFuIiwiYXNzaXN0X3VpZCI6InBsYXllci0wMzI2MGFhYjVlZmFhMGYyIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNTM6NDIiLCJwZXJpb2QiOjMsInRlYW0iOiJBQ0VNQSBTcGFydGEgUHJhaGEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMzoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1pa3Vsw6HFoSBLcmJlYyIsInRpdGxlX3VpZCI6InBsYXllci0xYmYyMTFhNTJiOWU2OTlhIiwiYXNzaXN0IjoiTWF0ecOhxaEgxaBpbmRsZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLWVjNTJiNWI4OWYyMWViNDYiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI1NjozOCIsInBlcmlvZCI6MywidGVhbSI6IkJBIFNPS09MSSBQYXJkdWJpY2UiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikpha3ViIEJvxI1layIsInRpdGxlX3VpZCI6InBsYXllci01OWMyZGJhNmI3OWRkOGY2IiwiYXNzaXN0IjoiTWF0xJtqIEJvxI1layIsImFzc2lzdF91aWQiOiJwbGF5ZXItOTkzYjMzN2ZkNzYzMjEzNiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjU4OjAxIiwicGVyaW9kIjozLCJ0ZWFtIjoiQUNFTUEgU3BhcnRhIFByYWhhIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjQ6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJKacWZw60gQ3VybmV5IiwidGl0bGVfdWlkIjoicGxheWVyLWM4YjgzOGJiMDRiNmEwOWYiLCJhc3Npc3QiOiJNaWt1bMOhxaEgS3JiZWMiLCJhc3Npc3RfdWlkIjoicGxheWVyLTFiZjIxMWE1MmI5ZTY5OWEiLCJ0YWciOiJnb2FsIn1d
+game_events_count: 8
+game_state: played
+game_status: None
+home_goal_diffs_csv: 1,2,1,1
+home_goal_minutes_csv: 21.43,27.83,53.7,58.02
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 57.14
 pregame_h2h_special_away_pp_eff: 50.0
 pregame_h2h_special_home_pk_eff: 42.86
 pregame_h2h_special_home_pp_eff: 33.33
-result_string: None
-start_time: 10:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+result_string: 4:3
+start_time: 21:26
+timeline_away_goals_csv: 0,0,0,1,2,2,3,3
+timeline_diffs_csv: 0,1,2,1,0,1,0,1
+timeline_home_goals_csv: 0,1,2,2,2,3,3,4
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,21.43,27.83,28.5,38.85,53.7,56.63,58.02
 venue: Kategorie I UNYP ARENA
 venue_address: Kovanecká 2405/27 Praha
 home_away_points: 0
@@ -86,25 +86,26 @@ home_boxplay_efficiency: n.a.
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
+home_boxplay_seconds: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
-home_close_game_win: 0
-home_draws: 1
+home_close_game_win: 1
+home_draws: 0
 home_equalizer_goals: 0
-home_equalizer_goals_against: 0
-home_first_goal_of_match: 0
+home_equalizer_goals_against: 2
+home_first_goal_of_match: 1
 home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_games: 1
+home_goal_difference: 1
+home_goals: 4
+home_goals_against: 3
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 3
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 4
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
 home_goals_in_first_period_against: 0
@@ -113,11 +114,11 @@ home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
-home_home_points: 1
+home_goals_in_second_period: 2
+home_goals_in_second_period_against: 2
+home_goals_in_third_period: 2
+home_goals_in_third_period_against: 1
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -135,49 +136,52 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 1
 home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
-home_points_max_difference_2: 0
+home_points_after_second_period: 1
+home_points_after_third_period: 3
+home_points_against_ba_sokoli_pardubice: 3
+home_points_max_difference_2: 3
 home_points_more_2_difference: 0
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
+home_powerplay_seconds: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
+home_take_the_lead_goals: 3
 home_take_the_lead_goals_against: 0
-home_win_1: 0
-home_wins: 0
-away_away_points: 1
+home_win_1: 1
+home_wins: 1
+away_away_points: 0
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
+away_boxplay_seconds: 0
 away_boxplay_third_period: 0
-away_close_game_loss: 0
+away_close_game_loss: 1
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
-away_equalizer_goals: 0
+away_draws: 0
+away_equalizer_goals: 2
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
-away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_first_goal_of_match_against: 1
+away_games: 1
+away_goal_difference: -1
+away_goals: 3
+away_goals_against: 4
+away_goals_against_away: 4
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 3
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
@@ -187,13 +191,13 @@ away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_second_period: 2
+away_goals_in_second_period_against: 2
+away_goals_in_third_period: 1
+away_goals_in_third_period_against: 2
 away_home_points: 0
-away_loss_1: 0
-away_losses: 0
+away_loss_1: 1
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
 away_penalties: 0
@@ -209,13 +213,14 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
-away_points_after_59_min: 0
+away_points_after_59_min: 1
 away_points_after_first_period: 0
-away_points_after_second_period: 0
+away_points_after_second_period: 1
 away_points_after_third_period: 0
+away_points_against_acema_sparta_praha: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -223,9 +228,10 @@ away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
+away_powerplay_seconds: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals_against: 3
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 9
@@ -235,7 +241,9 @@ home_pregame_boxplay_first_period: 6
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.67
 home_pregame_boxplay_second_period: 4
+home_pregame_boxplay_seconds: 1384
 home_pregame_boxplay_third_period: 5
+home_pregame_boxplay_time: 23:04
 home_pregame_close_game_loss: 2
 home_pregame_close_game_overtime: 1
 home_pregame_close_game_points_per_game: 1.0
@@ -251,7 +259,11 @@ home_pregame_first_period_goals_against_per_game: 1.89
 home_pregame_first_period_goals_per_game: 1.44
 home_pregame_games: 9
 home_pregame_goal_difference: 8
+home_pregame_goal_difference_first_period: -4
+home_pregame_goal_difference_overtime: -1
 home_pregame_goal_difference_per_game: 0.89
+home_pregame_goal_difference_second_period: 12
+home_pregame_goal_difference_third_period: 2
 home_pregame_goals: 60
 home_pregame_goals_against: 52
 home_pregame_goals_against_away: 25
@@ -312,6 +324,7 @@ home_pregame_points_after_second_period: 8
 home_pregame_points_after_third_period: 12
 home_pregame_points_against_1_sc_tempish_vitkovice: 1
 home_pregame_points_against_amix_florbal_mb: 0
+home_pregame_points_against_ba_sokoli_pardubice: 3
 home_pregame_points_against_fat_pipe_florbal_chodov: 2
 home_pregame_points_against_fbc_clt_ceska_lipa: 3
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
@@ -328,7 +341,10 @@ home_pregame_powerplay_first_period: 4
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 1.67
 home_pregame_powerplay_second_period: 5
+home_pregame_powerplay_seconds: 1023
 home_pregame_powerplay_third_period: 6
+home_pregame_powerplay_time: 17:03
+home_pregame_powerplay_time_per_goal: 1:54
 home_pregame_scoring_ratio: 1.15
 home_pregame_take_the_lead_goals: 6
 home_pregame_take_the_lead_goals_against: 14
@@ -341,7 +357,9 @@ away_pregame_boxplay_first_period: 4
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 1.38
 away_pregame_boxplay_second_period: 3
+away_pregame_boxplay_seconds: 997
 away_pregame_boxplay_third_period: 4
+away_pregame_boxplay_time: 16:37
 away_pregame_close_game_loss: 1
 away_pregame_close_game_overtime: 1
 away_pregame_close_game_points_per_game: 1.33
@@ -357,7 +375,11 @@ away_pregame_first_period_goals_against_per_game: 1.0
 away_pregame_first_period_goals_per_game: 1.0
 away_pregame_games: 8
 away_pregame_goal_difference: -5
+away_pregame_goal_difference_first_period: 0
+away_pregame_goal_difference_overtime: -1
 away_pregame_goal_difference_per_game: -0.62
+away_pregame_goal_difference_second_period: 4
+away_pregame_goal_difference_third_period: -8
 away_pregame_goals: 40
 away_pregame_goals_against: 45
 away_pregame_goals_against_away: 20
@@ -416,6 +438,7 @@ away_pregame_points_after_first_period: 9
 away_pregame_points_after_first_period_per_game: 1.12
 away_pregame_points_after_second_period: 15
 away_pregame_points_after_third_period: 13
+away_pregame_points_against_acema_sparta_praha: 0
 away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_bulldogs_brno: 0
 away_pregame_points_against_fbc_clt_ceska_lipa: 1
@@ -433,7 +456,10 @@ away_pregame_powerplay_first_period: 3
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 1.12
 away_pregame_powerplay_second_period: 3
+away_pregame_powerplay_seconds: 758
 away_pregame_powerplay_third_period: 3
+away_pregame_powerplay_time: 12:38
+away_pregame_powerplay_time_per_goal: 4:13
 away_pregame_scoring_ratio: 0.89
 away_pregame_take_the_lead_goals: 10
 away_pregame_take_the_lead_goals_against: 7

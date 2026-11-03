@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Simon Götz
 Category: players
 Slug: player-4c9ad3c8619d6b30
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 2
 current_assists: 1
 current_points: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 36
 previous_goals: 6
 previous_assists: 12
@@ -36,7 +41,7 @@ career_goals: 8
 career_assists: 13
 career_points: 21
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|2|1|3|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|2|2|4|0||se-25-26|regular-season|Sweden|Storvreta IBK|26|4|10|14|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|7|2|1|3|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|0|0|0|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|2|2|4|0||se-25-26|regular-season|Sweden|Storvreta IBK|26|4|10|14|0
 assists: 1
 games: 7
 goals: 2

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Victor Hansson
 Category: players
 Slug: player-908a9acc7fc5366a
@@ -11,7 +11,7 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 8
 current_goals: 1
 current_assists: 4
 current_points: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 33
 previous_goals: 6
 previous_assists: 4
@@ -36,7 +41,7 @@ career_goals: 7
 career_assists: 8
 career_points: 15
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|1|4|5|2||se-25-26|playoffs|Sweden|Växjö IBK|9|4|1|5|2||se-25-26|regular-season|Sweden|Växjö IBK|24|2|3|5|2
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|1|4|5|2||se-26-27|cup|Sweden|Växjö IBK|2|0|0|0|0||se-25-26|playoffs|Sweden|Växjö IBK|9|4|1|5|2||se-25-26|regular-season|Sweden|Växjö IBK|24|2|3|5|2
 assists: 4
 games: 6
 goals: 1

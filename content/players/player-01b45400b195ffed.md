@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Kevin Haglund
 Category: players
 Slug: player-01b45400b195ffed
@@ -11,11 +11,11 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 6
-current_assists: 2
-current_points: 8
-current_pim: 6
+current_games: 9
+current_goals: 10
+current_assists: 3
+current_points: 13
+current_pim: 12
 regular_games: 7
 regular_goals: 6
 regular_assists: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 4
+cup_assists: 1
+cup_points: 5
+cup_pim: 6
 previous_games: 27
 previous_goals: 19
 previous_assists: 14
@@ -36,7 +41,7 @@ career_goals: 26
 career_assists: 17
 career_points: 43
 career_pim: 32
-history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|6|2|8|6||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|2|2|4|8||se-25-26|regular-season|Sweden|FBC Kalmarsund|23|17|12|29|14||wfc-2024|tournament|IFF WFC|Sweden|6|1|1|2|4
+history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|6|2|8|6||se-26-27|cup|Sweden|FBC Kalmarsund|2|4|1|5|6||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|2|2|4|8||se-25-26|regular-season|Sweden|FBC Kalmarsund|23|17|12|29|14||wfc-2024|tournament|IFF WFC|Sweden|6|1|1|2|4
 assists: 2
 games: 7
 goals: 6

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Severin Nigg
 Category: players
 Slug: player-320df0a5c1f537ac
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 5
+current_games: 9
+current_goals: 7
 current_assists: 2
-current_points: 7
+current_points: 9
 current_pim: 0
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 33
 previous_goals: 21
 previous_assists: 13
@@ -36,7 +41,7 @@ career_goals: 26
 career_assists: 15
 career_points: 41
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|Nykvarns IBF|7|5|2|7|0||ch-25-26|playoffs|Switzerland|Zug United|11|4|3|7|2||ch-25-26|regular-season|Switzerland|Zug United|22|17|10|27|0
+history_rows_csv: se-26-27|regular-season|Sweden|Nykvarns IBF|7|5|2|7|0||se-26-27|cup|Sweden|Nykvarns IBF|2|2|0|2|0||ch-25-26|playoffs|Switzerland|Zug United|11|4|3|7|2||ch-25-26|regular-season|Switzerland|Zug United|22|17|10|27|0
 assists: 2
 games: 7
 goals: 5

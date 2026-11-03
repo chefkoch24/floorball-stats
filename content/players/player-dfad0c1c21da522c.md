@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Aaro Haverinen
 Category: players
 Slug: player-dfad0c1c21da522c
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 2
-current_goals: 1
+current_games: 3
+current_goals: 2
 current_assists: 2
-current_points: 3
+current_points: 4
 current_pim: 0
 regular_games: 2
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 20
 previous_goals: 11
 previous_assists: 19
@@ -36,7 +41,7 @@ career_goals: 12
 career_assists: 21
 career_points: 33
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|OLS|2|1|2|3|0||fi-25-26|regular-season|Finland|OLS|20|11|19|30|0
+history_rows_csv: fi-26-27|regular-season|Finland|OLS|2|1|2|3|0||fi-26-27|cup|Finland|OLS|1|1|0|1|0||fi-25-26|regular-season|Finland|OLS|20|11|19|30|0
 assists: 2
 games: 2
 goals: 1

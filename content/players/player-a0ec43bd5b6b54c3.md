@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Niki Lemberg
 Category: players
 Slug: player-a0ec43bd5b6b54c3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 2
 playoff_points: 2
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

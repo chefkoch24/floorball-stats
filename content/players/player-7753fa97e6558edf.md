@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Marek Korych
 Category: players
 Slug: player-7753fa97e6558edf
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 30
 previous_goals: 22
 previous_assists: 31
@@ -44,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 11
-rank: 42
+rank: 43
 season: cz-26-27

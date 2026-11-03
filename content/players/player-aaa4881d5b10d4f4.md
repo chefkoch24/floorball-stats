@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Luca Vogel
 Category: players
 Slug: player-aaa4881d5b10d4f4
@@ -11,11 +11,11 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
-current_goals: 9
-current_assists: 4
-current_points: 13
-current_pim: 0
+current_games: 8
+current_goals: 10
+current_assists: 6
+current_points: 16
+current_pim: 2
 regular_games: 7
 regular_goals: 9
 regular_assists: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 2
 previous_games: 22
 previous_goals: 23
 previous_assists: 14
@@ -36,7 +41,7 @@ career_goals: 32
 career_assists: 18
 career_points: 50
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|7|9|4|13|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|6|5|5|10|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|16|18|9|27|4
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|7|9|4|13|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|2|3|2||25-26|playoffs|Germany|ETV Piranhhas Hamburg|6|5|5|10|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|16|18|9|27|4
 assists: 4
 games: 7
 goals: 9

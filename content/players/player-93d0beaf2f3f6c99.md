@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jakob Caspar Schnaithmann
 Category: players
 Slug: player-93d0beaf2f3f6c99
@@ -11,10 +11,10 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
-current_goals: 0
+current_games: 8
+current_goals: 1
 current_assists: 0
-current_points: 0
+current_points: 1
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 18
 previous_goals: 0
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|0|0|0|0||25-26|regular-season|Germany|Berlin Rockets|18|0|1|1|4
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|0|0|0|0||26-27|cup|Germany|Berlin Rockets|1|1|0|1|0||25-26|regular-season|Germany|Berlin Rockets|18|0|1|1|4
 assists: 0
 games: 7
 goals: 0

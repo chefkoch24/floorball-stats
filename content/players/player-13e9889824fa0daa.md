@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Marius Schwartz
 Category: players
 Slug: player-13e9889824fa0daa
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 4
 current_assists: 3
 current_points: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 20
 previous_goals: 15
 previous_assists: 10
@@ -36,7 +41,7 @@ career_goals: 19
 career_assists: 13
 career_points: 32
 career_pim: 22
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|4|3|7|10||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|20|15|10|25|12
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|4|3|7|10||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|20|15|10|25|12
 assists: 3
 games: 8
 goals: 4

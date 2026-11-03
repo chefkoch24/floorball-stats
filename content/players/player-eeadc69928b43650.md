@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Veeti Koivisto
 Category: players
 Slug: player-eeadc69928b43650
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 3
-current_goals: 2
-current_assists: 1
-current_points: 3
+current_games: 4
+current_goals: 4
+current_assists: 3
+current_points: 7
 current_pim: 0
 regular_games: 3
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 2
+cup_assists: 2
+cup_points: 4
+cup_pim: 0
 previous_games: 12
 previous_goals: 10
 previous_assists: 5
@@ -36,7 +41,7 @@ career_goals: 12
 career_assists: 6
 career_points: 18
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|OLS|3|2|1|3|0||fi-25-26|regular-season|Finland|OLS|12|10|5|15|0
+history_rows_csv: fi-26-27|regular-season|Finland|OLS|3|2|1|3|0||fi-26-27|cup|Finland|OLS|1|2|2|4|0||fi-25-26|regular-season|Finland|OLS|12|10|5|15|0
 assists: 1
 games: 3
 goals: 2

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Tobias Lindström
 Category: players
 Slug: player-8ebf2f89a3b2a716
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 0
-current_assists: 3
-current_points: 3
+current_games: 9
+current_goals: 1
+current_assists: 4
+current_points: 5
 current_pim: 2
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 0
 previous_games: 26
 previous_goals: 3
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 4
 career_points: 7
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|0|3|3|2||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|22|3|1|4|4
+history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|0|3|3|2||se-26-27|cup|Sweden|FBC Kalmarsund|2|1|1|2|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|22|3|1|4|4
 assists: 3
 games: 7
 goals: 0

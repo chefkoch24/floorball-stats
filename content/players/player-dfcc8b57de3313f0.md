@@ -1,42 +1,47 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Självmål
 Category: players
 Slug: player-dfcc8b57de3313f0
 type: player
 player: Självmål
 player_uid: player-dfcc8b57de3313f0
-team: IBK Lund Elit / Jönköpings IK / Pixbo IBK
-league: Sweden
+team: IBK Lund Elit / KAIS Mora IF
+league: Sweden Women
 season_count: 3
-current_season: se-26-27
+current_season: sew-26-27
 current_season_is_tournament: no
-previous_season: sew-26-27
-current_games: 4
-current_goals: 4
+previous_season: se-26-27
+current_games: 2
+current_goals: 2
 current_assists: 0
-current_points: 4
+current_points: 2
 current_pim: 0
-regular_games: 4
-regular_goals: 4
+regular_games: 2
+regular_goals: 2
 regular_assists: 0
-regular_points: 4
+regular_points: 2
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 2
-previous_goals: 2
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
+previous_games: 9
+previous_goals: 10
 previous_assists: 0
-previous_points: 2
+previous_points: 10
 previous_pim: 0
 career_games: 23
 career_goals: 23
 career_assists: 0
 career_points: 23
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Lund Elit / Jönköpings IK / Pixbo IBK|4|4|0|4|0||sew-26-27|regular-season|Sweden Women|IBK Lund Elit / KAIS Mora IF|2|2|0|2|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Lund Elit / Jönköpings IK / Pixbo IBK|4|4|0|4|0||sew-26-27|regular-season|Sweden Women|IBK Lund Elit / KAIS Mora IF|2|2|0|2|0||se-26-27|cup|Sweden|Mullsjö AIS / Pixbo IBK / Skoghalls IBK / Visby IBK / Warberg IC|5|6|0|6|0||se-25-26|playoffs|Sweden|IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK|5|5|0|5|0||se-25-26|regular-season|Sweden|AIK IBF / Hovslätts IK / IBF Falun / Linköping IBK / Nykvarns IBF / Storvreta IBK / Visby IBK / Warberg IC|12|12|0|12|0
 assists: 0
 games: 4
 goals: 4

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Ralfs Fricsons
 Category: players
 Slug: player-08aed170b8a74ab5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 31
 previous_goals: 5
 previous_assists: 6
@@ -44,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 116
+rank: 115
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Martin Čermák
 Category: players
 Slug: player-dcb710f27e74d4d6
@@ -11,10 +11,10 @@ season_count: 4
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: cz-26-27
-current_games: 7
-current_goals: 3
-current_assists: 3
-current_points: 6
+current_games: 10
+current_goals: 4
+current_assists: 4
+current_points: 8
 current_pim: 2
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 0
 previous_games: 9
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 16
 career_assists: 19
 career_points: 35
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|0|0|0|0||se-26-27|regular-season|Sweden|Jönköpings IK|7|3|3|6|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|0|0|0|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|8|6|14|2||se-25-26|regular-season|Sweden|Jönköpings IK|26|5|10|15|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|0|0|0|0||se-26-27|regular-season|Sweden|Jönköpings IK|7|3|3|6|2||se-26-27|cup|Sweden|Jönköpings IK|3|1|1|2|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|0|0|0|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|8|6|14|2||se-25-26|regular-season|Sweden|Jönköpings IK|26|5|10|15|6
 assists: 0
 games: 9
 goals: 0

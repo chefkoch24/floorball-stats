@@ -86,6 +86,7 @@ home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
+home_boxplay_seconds: 131
 home_boxplay_third_period: 2
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -150,6 +151,7 @@ home_powerplay_efficiency: 66.67
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
+home_powerplay_seconds: 161
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
@@ -161,6 +163,7 @@ away_boxplay_efficiency: 33.33
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
+away_boxplay_seconds: 161
 away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -225,6 +228,7 @@ away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
+away_powerplay_seconds: 131
 away_powerplay_third_period: 2
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
@@ -237,7 +241,9 @@ home_pregame_boxplay_first_period: 1
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.5
 home_pregame_boxplay_second_period: 1
+home_pregame_boxplay_seconds: 158
 home_pregame_boxplay_third_period: 1
+home_pregame_boxplay_time: 2:38
 home_pregame_close_game_loss: 0
 home_pregame_close_game_overtime: 0
 home_pregame_close_game_points_per_game: n.a.
@@ -253,7 +259,11 @@ home_pregame_first_period_goals_against_per_game: 1.0
 home_pregame_first_period_goals_per_game: 2.5
 home_pregame_games: 2
 home_pregame_goal_difference: 1
+home_pregame_goal_difference_first_period: 3
+home_pregame_goal_difference_overtime: 0
 home_pregame_goal_difference_per_game: 0.5
+home_pregame_goal_difference_second_period: 2
+home_pregame_goal_difference_third_period: -4
 home_pregame_goals: 13
 home_pregame_goals_against: 12
 home_pregame_goals_against_away: 7
@@ -312,6 +322,7 @@ home_pregame_points_after_first_period: 1
 home_pregame_points_after_first_period_per_game: 0.5
 home_pregame_points_after_second_period: 3
 home_pregame_points_after_third_period: 3
+home_pregame_points_against_1_sc_tempish_vitkovice: 3
 home_pregame_points_against_acema_sparta_praha: 2
 home_pregame_points_against_amix_florbal_mb: 0
 home_pregame_points_against_bulldogs_brno: 3
@@ -329,7 +340,10 @@ home_pregame_powerplay_first_period: 4
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 4.0
 home_pregame_powerplay_second_period: 3
+home_pregame_powerplay_seconds: 777
 home_pregame_powerplay_third_period: 1
+home_pregame_powerplay_time: 12:57
+home_pregame_powerplay_time_per_goal: 6:28
 home_pregame_scoring_ratio: 1.08
 home_pregame_take_the_lead_goals: 1
 home_pregame_take_the_lead_goals_against: 3
@@ -342,7 +356,9 @@ away_pregame_boxplay_first_period: 1
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 1.0
 away_pregame_boxplay_second_period: 1
+away_pregame_boxplay_seconds: 137
 away_pregame_boxplay_third_period: 0
+away_pregame_boxplay_time: 2:17
 away_pregame_close_game_loss: 1
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 1.0
@@ -358,7 +374,11 @@ away_pregame_first_period_goals_against_per_game: 3.5
 away_pregame_first_period_goals_per_game: 0.5
 away_pregame_games: 2
 away_pregame_goal_difference: -7
+away_pregame_goal_difference_first_period: -6
+away_pregame_goal_difference_overtime: 0
 away_pregame_goal_difference_per_game: -3.5
+away_pregame_goal_difference_second_period: 2
+away_pregame_goal_difference_third_period: -2
 away_pregame_goals: 10
 away_pregame_goals_against: 17
 away_pregame_goals_against_away: 6
@@ -436,7 +456,10 @@ away_pregame_powerplay_first_period: 0
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 1.5
 away_pregame_powerplay_second_period: 2
+away_pregame_powerplay_seconds: 282
 away_pregame_powerplay_third_period: 1
+away_pregame_powerplay_time: 4:42
+away_pregame_powerplay_time_per_goal: 2:21
 away_pregame_scoring_ratio: 0.59
 away_pregame_take_the_lead_goals: 1
 away_pregame_take_the_lead_goals_against: 4

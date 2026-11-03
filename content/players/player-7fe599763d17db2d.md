@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Heikki Iiskola
 Category: players
 Slug: player-7fe599763d17db2d
@@ -11,11 +11,11 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 8
+current_games: 9
+current_goals: 11
 current_assists: 5
-current_points: 13
-current_pim: 0
+current_points: 16
+current_pim: 2
 regular_games: 7
 regular_goals: 8
 regular_assists: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 3
+cup_assists: 0
+cup_points: 3
+cup_pim: 2
 previous_games: 35
 previous_goals: 20
 previous_assists: 25
@@ -36,7 +41,7 @@ career_goals: 31
 career_assists: 32
 career_points: 63
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|8|5|13|0||se-25-26|playoffs|Sweden|Växjö IBK|9|7|4|11|0||se-25-26|regular-season|Sweden|Växjö IBK|26|13|21|34|10||wfc-2024|tournament|IFF WFC|Finland|6|3|2|5|0
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|7|8|5|13|0||se-26-27|cup|Sweden|Växjö IBK|2|3|0|3|2||se-25-26|playoffs|Sweden|Växjö IBK|9|7|4|11|0||se-25-26|regular-season|Sweden|Växjö IBK|26|13|21|34|10||wfc-2024|tournament|IFF WFC|Finland|6|3|2|5|0
 assists: 5
 games: 7
 goals: 8

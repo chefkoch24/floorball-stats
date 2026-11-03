@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Markus Sipronen
 Category: players
 Slug: player-e052887aeae5deab
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
-current_goals: 2
-current_assists: 4
-current_points: 6
+current_games: 8
+current_goals: 9
+current_assists: 8
+current_points: 17
 current_pim: 2
 regular_games: 6
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 7
+cup_assists: 4
+cup_points: 11
+cup_pim: 0
 previous_games: 30
 previous_goals: 23
 previous_assists: 16
@@ -36,7 +41,7 @@ career_goals: 25
 career_assists: 20
 career_points: 45
 career_pim: 26
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|6|2|4|6|2||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|8|4|12|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|18|15|12|27|18
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|6|2|4|6|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|7|4|11|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|8|4|12|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|18|15|12|27|18
 assists: 4
 games: 6
 goals: 2

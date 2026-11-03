@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Martina Repková
 Category: players
 Slug: player-defe4423e56c211d
@@ -11,10 +11,10 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 7
+current_games: 8
+current_goals: 10
 current_assists: 3
-current_points: 10
+current_points: 13
 current_pim: 2
 regular_games: 6
 regular_goals: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 3
+cup_assists: 0
+cup_points: 3
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 7
 career_assists: 3
 career_points: 10
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|7|3|10|2
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|7|3|10|2||chw-26-27|cup|Switzerland Women|Zug United|2|3|0|3|0
 assists: 3
 games: 6
 goals: 7

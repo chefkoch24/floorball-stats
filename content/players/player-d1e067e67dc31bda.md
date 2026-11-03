@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Yannis Wyss
 Category: players
 Slug: player-d1e067e67dc31bda
@@ -10,11 +10,11 @@ league: Switzerland
 season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: se-25-26
-current_games: 7
-current_goals: 5
-current_assists: 6
-current_points: 11
+previous_season: ch-25-26
+current_games: 9
+current_goals: 6
+current_assists: 7
+current_points: 13
 current_pim: 0
 regular_games: 7
 regular_goals: 5
@@ -26,17 +26,22 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-previous_games: 9
-previous_goals: 4
-previous_assists: 6
-previous_points: 10
-previous_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 0
+previous_games: 23
+previous_goals: 9
+previous_assists: 5
+previous_points: 14
+previous_pim: 2
 career_games: 39
 career_goals: 18
 career_assists: 17
 career_points: 35
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|5|6|11|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|4|0|4|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|13|5|5|10|0||se-25-26|regular-season|Sweden|Visby IBK|9|4|6|10|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|5|6|11|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|1|2|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|4|0|4|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|13|5|5|10|0||se-25-26|regular-season|Sweden|Visby IBK|9|4|6|10|0
 assists: 6
 games: 7
 goals: 5

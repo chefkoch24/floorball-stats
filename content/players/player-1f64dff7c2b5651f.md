@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Juuso Kekki
 Category: players
 Slug: player-1f64dff7c2b5651f
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 3
-current_goals: 4
+current_games: 4
+current_goals: 5
 current_assists: 2
-current_points: 6
+current_points: 7
 current_pim: 0
 regular_games: 3
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 16
 previous_goals: 16
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 20
 career_assists: 9
 career_points: 29
 career_pim: 6
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|3|4|2|6|0||fi-25-26|regular-season|Finland|Indians|16|16|7|23|6
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|3|4|2|6|0||fi-26-27|cup|Finland|Indians|1|1|0|1|0||fi-25-26|regular-season|Finland|Indians|16|16|7|23|6
 assists: 2
 games: 3
 goals: 4

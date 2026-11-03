@@ -84,6 +84,7 @@ home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
+home_boxplay_seconds: 74
 home_boxplay_third_period: 0
 home_close_game_loss: 1
 home_close_game_overtime: 1
@@ -148,6 +149,7 @@ home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
+home_powerplay_seconds: 120
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 2
 home_take_the_lead_goals_against: 4
@@ -159,6 +161,7 @@ away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
+away_boxplay_seconds: 120
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 1
@@ -223,6 +226,7 @@ away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
+away_powerplay_seconds: 74
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 4
 away_take_the_lead_goals_against: 2
@@ -235,7 +239,9 @@ home_pregame_boxplay_first_period: 2
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.4
 home_pregame_boxplay_second_period: 4
+home_pregame_boxplay_seconds: 726
 home_pregame_boxplay_third_period: 1
+home_pregame_boxplay_time: 12:06
 home_pregame_close_game_loss: 2
 home_pregame_close_game_overtime: 2
 home_pregame_close_game_points_per_game: 0.5
@@ -251,7 +257,11 @@ home_pregame_first_period_goals_against_per_game: 1.0
 home_pregame_first_period_goals_per_game: 2.2
 home_pregame_games: 5
 home_pregame_goal_difference: 4
+home_pregame_goal_difference_first_period: 6
+home_pregame_goal_difference_overtime: -1
 home_pregame_goal_difference_per_game: 0.8
+home_pregame_goal_difference_second_period: -3
+home_pregame_goal_difference_third_period: 2
 home_pregame_goals: 30
 home_pregame_goals_against: 26
 home_pregame_goals_against_away: 14
@@ -326,7 +336,10 @@ home_pregame_powerplay_first_period: 1
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 0.6
 home_pregame_powerplay_second_period: 2
+home_pregame_powerplay_seconds: 273
 home_pregame_powerplay_third_period: 0
+home_pregame_powerplay_time: 4:33
+home_pregame_powerplay_time_per_goal: 4:33
 home_pregame_scoring_ratio: 1.15
 home_pregame_take_the_lead_goals: 7
 home_pregame_take_the_lead_goals_against: 6
@@ -339,7 +352,9 @@ away_pregame_boxplay_first_period: 5
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 2.2
 away_pregame_boxplay_second_period: 2
+away_pregame_boxplay_seconds: 734
 away_pregame_boxplay_third_period: 4
+away_pregame_boxplay_time: 12:14
 away_pregame_close_game_loss: 0
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 3.0
@@ -355,7 +370,11 @@ away_pregame_first_period_goals_against_per_game: 1.2
 away_pregame_first_period_goals_per_game: 1.4
 away_pregame_games: 5
 away_pregame_goal_difference: -15
+away_pregame_goal_difference_first_period: 1
+away_pregame_goal_difference_overtime: 0
 away_pregame_goal_difference_per_game: -3.0
+away_pregame_goal_difference_second_period: 3
+away_pregame_goal_difference_third_period: -19
 away_pregame_goals: 26
 away_pregame_goals_against: 41
 away_pregame_goals_against_away: 21
@@ -430,7 +449,10 @@ away_pregame_powerplay_first_period: 0
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 1.2
 away_pregame_powerplay_second_period: 4
+away_pregame_powerplay_seconds: 481
 away_pregame_powerplay_third_period: 2
+away_pregame_powerplay_time: 8:01
+away_pregame_powerplay_time_per_goal: 2:40
 away_pregame_scoring_ratio: 0.63
 away_pregame_take_the_lead_goals: 8
 away_pregame_take_the_lead_goals_against: 7

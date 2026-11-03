@@ -86,6 +86,7 @@ home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 1
 home_boxplay_overtime: 0
 home_boxplay_second_period: 1
+home_boxplay_seconds: 138
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -150,6 +151,7 @@ home_powerplay_efficiency: 50.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
+home_powerplay_seconds: 42
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 3
 home_take_the_lead_goals_against: 1
@@ -161,6 +163,7 @@ away_boxplay_efficiency: 50.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
+away_boxplay_seconds: 42
 away_boxplay_third_period: 1
 away_close_game_loss: 1
 away_close_game_overtime: 0
@@ -225,6 +228,7 @@ away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 1
 away_powerplay_overtime: 0
 away_powerplay_second_period: 1
+away_powerplay_seconds: 138
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 3
@@ -237,7 +241,9 @@ home_pregame_boxplay_first_period: 2
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.5
 home_pregame_boxplay_second_period: 1
+home_pregame_boxplay_seconds: 638
 home_pregame_boxplay_third_period: 3
+home_pregame_boxplay_time: 10:38
 home_pregame_close_game_loss: 0
 home_pregame_close_game_overtime: 0
 home_pregame_close_game_points_per_game: n.a.
@@ -253,7 +259,11 @@ home_pregame_first_period_goals_against_per_game: 1.0
 home_pregame_first_period_goals_per_game: 1.0
 home_pregame_games: 4
 home_pregame_goal_difference: -3
+home_pregame_goal_difference_first_period: 0
+home_pregame_goal_difference_overtime: 0
 home_pregame_goal_difference_per_game: -0.75
+home_pregame_goal_difference_second_period: 3
+home_pregame_goal_difference_third_period: -6
 home_pregame_goals: 22
 home_pregame_goals_against: 25
 home_pregame_goals_against_away: 14
@@ -312,6 +322,7 @@ home_pregame_points_after_first_period: 6
 home_pregame_points_after_first_period_per_game: 1.5
 home_pregame_points_after_second_period: 6
 home_pregame_points_after_third_period: 6
+home_pregame_points_against_acema_sparta_praha: 0
 home_pregame_points_against_amix_florbal_mb: 0
 home_pregame_points_against_bulldogs_brno: 0
 home_pregame_points_against_fbc_clt_ceska_lipa: 1
@@ -329,7 +340,10 @@ home_pregame_powerplay_first_period: 1
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 1.25
 home_pregame_powerplay_second_period: 2
+home_pregame_powerplay_seconds: 539
 home_pregame_powerplay_third_period: 2
+home_pregame_powerplay_time: 8:59
+home_pregame_powerplay_time_per_goal: 8:59
 home_pregame_scoring_ratio: 0.88
 home_pregame_take_the_lead_goals: 3
 home_pregame_take_the_lead_goals_against: 3
@@ -342,7 +356,9 @@ away_pregame_boxplay_first_period: 2
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 2.5
 away_pregame_boxplay_second_period: 5
+away_pregame_boxplay_seconds: 685
 away_pregame_boxplay_third_period: 3
+away_pregame_boxplay_time: 11:25
 away_pregame_close_game_loss: 1
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 0.0
@@ -358,7 +374,11 @@ away_pregame_first_period_goals_against_per_game: 2.5
 away_pregame_first_period_goals_per_game: 1.25
 away_pregame_games: 4
 away_pregame_goal_difference: -23
+away_pregame_goal_difference_first_period: -5
+away_pregame_goal_difference_overtime: -1
 away_pregame_goal_difference_per_game: -5.75
+away_pregame_goal_difference_second_period: -11
+away_pregame_goal_difference_third_period: -6
 away_pregame_goals: 18
 away_pregame_goals_against: 41
 away_pregame_goals_against_away: 20
@@ -435,7 +455,10 @@ away_pregame_powerplay_first_period: 1
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 0.75
 away_pregame_powerplay_second_period: 1
+away_pregame_powerplay_seconds: 232
 away_pregame_powerplay_third_period: 1
+away_pregame_powerplay_time: 3:52
+away_pregame_powerplay_time_per_goal: 1:56
 away_pregame_scoring_ratio: 0.44
 away_pregame_take_the_lead_goals: 5
 away_pregame_take_the_lead_goals_against: 8

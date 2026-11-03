@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Martin Rönnklint
 Category: players
 Slug: player-6bac47b03b5f4a85
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 4
-current_assists: 4
-current_points: 8
+current_games: 9
+current_goals: 6
+current_assists: 5
+current_points: 11
 current_pim: 4
 regular_games: 7
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
+cup_pim: 0
 previous_games: 28
 previous_goals: 32
 previous_assists: 17
@@ -36,7 +41,7 @@ career_goals: 36
 career_assists: 21
 career_points: 57
 career_pim: 20
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|4|4|8|4||se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2||se-25-26|regular-season|Sweden|Mullsjö AIS|23|30|14|44|14
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|4|4|8|4||se-26-27|cup|Sweden|IBF Falun|2|2|1|3|0||se-25-26|playoffs|Sweden|Mullsjö AIS|5|2|3|5|2||se-25-26|regular-season|Sweden|Mullsjö AIS|23|30|14|44|14
 assists: 4
 games: 7
 goals: 4

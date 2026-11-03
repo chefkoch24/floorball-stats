@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jonas Jens
 Category: players
 Slug: player-a1f92ee78519a13f
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 18
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|6|0|0|0|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|18|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|6|0|0|0|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|0|0|0|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|18|0|0|0|0
 assists: 0
 games: 6
 goals: 0

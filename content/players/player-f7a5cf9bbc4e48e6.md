@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Eddie Nissen-Sandberg
 Category: players
 Slug: player-f7a5cf9bbc4e48e6
@@ -11,10 +11,10 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
+current_games: 7
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 2
+current_points: 2
 current_pim: 0
 regular_games: 5
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 5
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 7
 career_assists: 1
 career_points: 8
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|5|0|1|1|0||se-25-26|regular-season|Sweden|Visby IBK|5|0|0|0|0||wfc-2024|tournament|IFF WFC|Denmark|4|7|0|7|0
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|5|0|1|1|0||se-26-27|cup|Sweden|Visby IBK|2|0|1|1|0||se-25-26|regular-season|Sweden|Visby IBK|5|0|0|0|0||wfc-2024|tournament|IFF WFC|Denmark|4|7|0|7|0
 assists: 1
 games: 5
 goals: 0

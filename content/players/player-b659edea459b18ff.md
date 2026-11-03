@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Konstantin Kahlmann
 Category: players
 Slug: player-b659edea459b18ff
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 18
 previous_goals: 0
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|11|0|1|1|0
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|0|0|0|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|7|0|0|0|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|11|0|1|1|0
 assists: 0
 games: 7
 goals: 0

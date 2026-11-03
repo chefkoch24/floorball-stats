@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jan Peška
 Category: players
 Slug: player-5727cdef6cb55fae
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -26,19 +26,24 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 36
 previous_goals: 22
 previous_assists: 8
 previous_points: 30
 previous_pim: 0
-career_games: 45
+career_games: 46
 career_goals: 22
 career_assists: 10
 career_points: 32
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|9|0|2|2|4||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|2|0|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|20|8|28|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|10|0|2|2|4||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|2|0|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|20|8|28|0
 assists: 2
-games: 9
+games: 10
 goals: 0
 penalties: 2
 phase: regular-season

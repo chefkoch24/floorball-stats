@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Max Beyer
 Category: players
 Slug: player-ec799376cf933f7b
@@ -11,10 +11,10 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
-current_goals: 0
+current_games: 7
+current_goals: 2
 current_assists: 0
-current_points: 0
+current_points: 2
 current_pim: 0
 regular_games: 6
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 15
 previous_goals: 0
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|6|0|0|0|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|2|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|13|0|1|1|0
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|6|0|0|0|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|2|0|2|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|2|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|13|0|1|1|0
 assists: 0
 games: 6
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Veera Kurikkala
 Category: players
 Slug: player-2b3147f6fa0967dc
@@ -11,10 +11,10 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
-current_goals: 0
-current_assists: 1
-current_points: 1
+current_games: 3
+current_goals: 1
+current_assists: 2
+current_points: 3
 current_pim: 2
 regular_games: 2
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|SB-Pro|2|0|1|1|2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|SB-Pro|2|0|1|1|2||fiw-26-27|cup|Finland Women|SB-Pro|1|1|1|2|0
 assists: 1
 games: 2
 goals: 0

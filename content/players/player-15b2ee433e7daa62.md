@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Joel Bachmann
 Category: players
 Slug: player-15b2ee433e7daa62
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 0
-current_assists: 1
-current_points: 1
+current_games: 10
+current_goals: 1
+current_assists: 3
+current_points: 4
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 22
 previous_goals: 5
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 4
 career_points: 9
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|7|0|1|1|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|5|3|8|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|7|0|1|1|0||ch-26-27|cup|Switzerland|WASA St. Gallen|3|1|2|3|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|5|3|8|4
 assists: 1
 games: 7
 goals: 0

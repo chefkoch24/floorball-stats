@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Douglas Wetterstrand
 Category: players
 Slug: player-7cc9b8fc8b6c0c3b
@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 10
 current_goals: 2
-current_assists: 0
-current_points: 2
-current_pim: 2
+current_assists: 2
+current_points: 4
+current_pim: 4
 regular_games: 7
 regular_goals: 2
 regular_assists: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 2
 previous_games: 24
 previous_goals: 0
 previous_assists: 6
@@ -36,7 +41,7 @@ career_goals: 2
 career_assists: 6
 career_points: 8
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|7|2|0|2|2||se-25-26|regular-season|Sweden|AIK IBF|24|0|6|6|2
+history_rows_csv: se-26-27|regular-season|Sweden|AIK IBF|7|2|0|2|2||se-26-27|cup|Sweden|AIK IBF|3|0|2|2|2||se-25-26|regular-season|Sweden|AIK IBF|24|0|6|6|2
 assists: 0
 games: 7
 goals: 2

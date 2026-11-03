@@ -12,7 +12,9 @@ boxplay_first_period: 3
 boxplay_overtime: 0
 boxplay_per_game: 1.5
 boxplay_second_period: 3
+boxplay_seconds: 1071
 boxplay_third_period: 3
+boxplay_time: 17:51
 close_game_loss: 0
 close_game_overtime: 0
 close_game_points_per_game: 2.5
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.67
 first_period_goals_per_game: 0.67
 games: 6
 goal_difference: -5
+goal_difference_first_period: -6
+goal_difference_overtime: 1
 goal_difference_per_game: -0.83
+goal_difference_second_period: -4
+goal_difference_third_period: 5
 goals: 19
 goals_against: 24
 goals_against_away: 15
@@ -97,7 +103,10 @@ powerplay_first_period: 1
 powerplay_overtime: 0
 powerplay_per_game: 1.83
 powerplay_second_period: 3
+powerplay_seconds: 1123
 powerplay_third_period: 7
+powerplay_time: 18:43
+powerplay_time_per_goal: 6:14
 rank: 7
 scoring_ratio: 0.79
 take_the_lead_goals: 3

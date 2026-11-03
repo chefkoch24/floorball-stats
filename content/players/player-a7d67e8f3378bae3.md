@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Jesse-Samuli Huppunen
 Category: players
 Slug: player-a7d67e8f3378bae3
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 3
+current_games: 4
 current_goals: 4
-current_assists: 2
-current_points: 6
+current_assists: 3
+current_points: 7
 current_pim: 0
 regular_games: 3
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 16
 previous_goals: 7
 previous_assists: 15
@@ -36,7 +41,7 @@ career_goals: 11
 career_assists: 17
 career_points: 28
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|3|4|2|6|0||fi-25-26|regular-season|Finland|Indians|16|7|15|22|0
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|3|4|2|6|0||fi-26-27|cup|Finland|Indians|1|0|1|1|0||fi-25-26|regular-season|Finland|Indians|16|7|15|22|0
 assists: 2
 games: 3
 goals: 4

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Sofia Mittentag
 Category: players
 Slug: player-257fcda403e8ee95
@@ -11,11 +11,11 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 9
+current_games: 8
+current_goals: 10
 current_assists: 5
-current_points: 14
-current_pim: 0
+current_points: 15
+current_pim: 2
 regular_games: 7
 regular_goals: 9
 regular_assists: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 9
 career_assists: 5
 career_points: 14
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|7|9|5|14|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|7|9|5|14|0||fiw-26-27|cup|Finland Women|Classic|1|1|0|1|2
 assists: 5
 games: 7
 goals: 9

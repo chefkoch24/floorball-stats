@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-03
 Title: Sebastian Theorin
 Category: players
 Slug: player-f2a7b2dedb77cdcf
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 0
-current_assists: 4
-current_points: 4
+current_assists: 5
+current_points: 5
 current_pim: 0
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 30
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 4
 career_points: 4
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|0|4|4|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|0|0|0|2
+history_rows_csv: se-26-27|regular-season|Sweden|FBC Kalmarsund|7|0|4|4|0||se-26-27|cup|Sweden|FBC Kalmarsund|2|0|1|1|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|0|0|0|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|0|0|0|2
 assists: 4
 games: 7
 goals: 0
