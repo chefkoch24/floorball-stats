@@ -328,6 +328,12 @@ refresh-czech-local:
 	@tmp="$$(mktemp -d)"; trap 'rm -rf "$$tmp"' EXIT; \
 	"$(PYTHON)" -m src.pipeline --league_config "$(CZECH_WOMEN_LEAGUE_CONFIG)" --data_dir "$$tmp/data" --content_dir "$$tmp/content" \
 		|| echo "[WARN] Czech women's league sync failed."
+	@for config in "$(CUP_CZECH_CONFIG)" "$(CUP_CZECH_WOMEN_CONFIG)"; do \
+		tmp="$$(mktemp -d)"; \
+		"$(PYTHON)" -m src.pipeline --league_config "$$config" --data_dir "$$tmp/data" --content_dir "$$tmp/content" \
+			|| echo "[WARN] Czech cup sync failed: $$config"; \
+		rm -rf "$$tmp"; \
+	done
 	"$(PYTHON)" -m src.build_player_stats_postgres --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --prefixes cz,czw
 
 # macOS launchd agent running scripts/czech_refresh_job.sh daily at 22:00

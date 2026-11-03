@@ -17,7 +17,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # The cups add about 50 minutes (Finland and Germany render pages in Chrome); the first run with them hit 90.
+    timeout-minutes: 180
 
     steps:
       # Scheduled runs often start hours late, so the gate must not look at the clock.

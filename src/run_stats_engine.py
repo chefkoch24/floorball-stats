@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 from src.social_media.tables import write_home_away_split_table
+from src.competitions import is_cup_phase
 from src.scheduled_games import EVENT_RESULT, EVENT_SCHEDULED
 from src.stats_engine import StatsEngine
 from src.team_stats import TeamStats
@@ -2609,6 +2610,12 @@ def run_stats_pipeline(
             "away_stats": away_stats,
             "away_pregame_stats": away_pregame_stats,
         }
+        if is_cup_phase(phase):
+            # A cup has no table, and points_against holds one value per opponent: its game_stats
+            # columns grow with every team of the cup and ran the table over Postgres' 1600 columns.
+            for stats_key in ("home_stats", "home_pregame_stats", "away_stats", "away_pregame_stats"):
+                if isinstance(game_stat[stats_key], dict):
+                    game_stat[stats_key] = {k: v for k, v in game_stat[stats_key].items() if k != "points_against"}
         if venue_value is not None:
             game_stat["venue"] = venue_value
         if venue_address_value is not None:
