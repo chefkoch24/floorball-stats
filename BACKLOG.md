@@ -30,7 +30,7 @@
 - [ ] Notion sync in production: set `NOTION_TOKEN` (Florball Connect integration) on Netlify, create the build hook and store it as GitHub secret `NETLIFY_BUILD_HOOK`
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
-- [x] Crowd analysis (idea from liveticker.floorba11.stream): leagues compared (average, median, change vs last season, total, highest, gradient biggest/smallest average, share of top 3), development over seasons, finals per season, weekday and kick-off time, average per phase
+- [x] Crowd analysis (idea from liveticker.floorba11.stream): `/crowds.html` compares the leagues for the newest season (average, median, total, highest, gap between best and smallest home average, share of the top 3 teams) and shows weekday, face-off time and regular season vs. playoffs per league. No comparison with previous seasons (women's leagues have no 25/26 games)
 - [x] Special teams view per league: scatter (powerplay goals per opportunity vs. penalty kills without a goal against) plus table with PP, PP %, BP, BP %, shorthanded goals, SH goals against, PP minutes
 - [x] Player page: powerplay and shorthanded goals as KPIs, game log (result, own goals/assists/points per game) with filter by league/cup and season
 - [x] Game page: mark powerplay/shorthanded goals in the event timeline, "Topspiel" label in the schedule, opponents' table places next to the fixture (#6 – #5), venue name
