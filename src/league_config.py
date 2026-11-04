@@ -76,3 +76,12 @@ def apply_league_config(args: Any, config: dict[str, Any]) -> None:
 
     wfc = config.get("wfc", {}) or {}
     args.wfc_league_organizer_id = wfc.get("league_organizer_id", getattr(args, "wfc_league_organizer_id", None))
+
+    champions_cup = config.get("champions_cup", {}) or {}
+    args.champions_cup_league_organizer_id = champions_cup.get(
+        "league_organizer_id", getattr(args, "champions_cup_league_organizer_id", None)
+    )
+    args.champions_cup_division = champions_cup.get("division", getattr(args, "champions_cup_division", None))
+    args.champions_cup_team_aliases = champions_cup.get(
+        "team_aliases", getattr(args, "champions_cup_team_aliases", None)
+    )

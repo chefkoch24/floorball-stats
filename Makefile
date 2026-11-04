@@ -97,6 +97,9 @@ CUP_GERMANY_WOMEN_CONFIG ?= $(CONFIG_DIR)/germany-cup-women-$(CURRENT_SEASON).js
 # WFC / IFF competitions
 WFC_REGULAR_SEASON_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024-regular-season.json
 WFC_LEAGUE_CONFIG ?= config/leagues/iff-mens-wfc-2024.json
+# IFF Champions Cup (IFF app, needs IFF_API_ACCESS_TOKEN/IFF_API_REFRESH_TOKEN)
+CHAMPIONS_CUP_LEAGUE_CONFIG ?= $(CONFIG_DIR)/iff-champions-cup-$(CURRENT_SEASON)-playoffs.json
+CHAMPIONS_CUP_WOMEN_LEAGUE_CONFIG ?= $(CONFIG_DIR)/iff-champions-cup-women-$(CURRENT_SEASON)-playoffs.json
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -133,6 +136,7 @@ help:
 	@echo '   make refresh-latvia                 full pipeline for Latvian ELVI men   '
 	@echo '   make refresh-latvia-playoffs        playoffs pipeline for Latvian ELVI men'
 	@echo '   make refresh-wfc                    one-off pipeline for WFC/IFF content '
+	@echo '   make refresh-champions-cup          IFF Champions Cup men + women        '
 	@echo '   make refresh-all-leagues            run all league pipelines + player stats + html'
 	@echo '   make refresh-all-leagues-bootstrap  one-time full regular+playoffs bootstrap + html'
 	@echo '   make refresh-cups                   import the national cups (own phase, not in refresh-all-leagues)'
@@ -432,6 +436,14 @@ refresh-wfc:
 	"$(PYTHON)" -m src.pipeline --league_config "$(WFC_LEAGUE_CONFIG)" --database_url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}"
 	"$(PYTHON)" -m src.generate_wfc_tournament_page
 
+refresh-champions-cup:
+	@if [ -z "$${IFF_API_ACCESS_TOKEN:-}" ] || [ -z "$${IFF_API_REFRESH_TOKEN:-}" ]; then \
+		echo "Missing IFF_API_ACCESS_TOKEN/IFF_API_REFRESH_TOKEN. The Champions Cup feed needs an IFF app login."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.pipeline --league_config "$(CHAMPIONS_CUP_LEAGUE_CONFIG)"
+	"$(PYTHON)" -m src.pipeline --league_config "$(CHAMPIONS_CUP_WOMEN_LEAGUE_CONFIG)"
+
 refresh-all-leagues-bootstrap:
 	@failed=""; \
 	for target in \
@@ -477,6 +489,7 @@ refresh-all-leagues:
 		refresh-slovakia-smart \
 		refresh-latvia-smart \
 		refresh-women-leagues \
+		refresh-champions-cup \
 		refresh-player-stats \
 		refresh-player-pages \
 		refresh-search-index \
@@ -669,6 +682,23 @@ refresh-player-pages-wfc:
 	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "wfc" --no-prune
 	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "wfc" --no-prune
 
+refresh-player-stats-champions-cup:
+	$(MAKE) refresh-player-stats
+
+refresh-player-pages-champions-cup:
+	@if [ -z "$${NEON_DATABASE_URL:-$${DATABASE_URL:-}}" ]; then \
+		echo "Missing NEON_DATABASE_URL (or DATABASE_URL). Player markdown generation is DB-only."; \
+		exit 1; \
+	fi
+	"$(PYTHON)" -m src.generate_player_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/players" --season-prefixes "cc,ccw" --no-prune
+	"$(PYTHON)" -m src.generate_player_stats_index_markdown --database-url "$${NEON_DATABASE_URL:-$${DATABASE_URL}}" --output-dir "content/player-stats" --season-prefixes "cc,ccw" --no-prune
+
+refresh-champions-cup-full:
+	$(MAKE) refresh-champions-cup
+	$(MAKE) refresh-player-stats-champions-cup
+	$(MAKE) refresh-player-pages-champions-cup
+	$(MAKE) html
+
 refresh-wfc-full:
 	$(MAKE) refresh-wfc
 	$(MAKE) html
@@ -679,7 +709,7 @@ refresh-wfc-players-full:
 	$(MAKE) refresh-player-pages-wfc
 	$(MAKE) html
 
-.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-czech-local install-czech-job uninstall-czech-job refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-all-leagues-bootstrap refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc connect-css connect-html connect-publish connect-import-softr connect-sync-notion
+.PHONY: html help clean regenerate serve serve-global devserver publish refresh-current-season refresh-current-season-playoffs refresh-current-season-smart refresh-sweden refresh-sweden-playoffs refresh-sweden-smart refresh-switzerland refresh-switzerland-playoffs refresh-switzerland-smart refresh-finland refresh-finland-playoffs refresh-finland-smart refresh-czech refresh-czech-playoffs refresh-czech-smart refresh-czech-local install-czech-job uninstall-czech-job refresh-slovakia refresh-slovakia-playoffs refresh-slovakia-smart refresh-latvia refresh-latvia-playoffs refresh-latvia-smart refresh-wfc refresh-wfc-full refresh-wfc-players-full refresh-all-leagues refresh-all-leagues-bootstrap refresh-everything refresh-player-pages refresh-search-index refresh-player-stats refresh-player-stats-pages refresh-sqlite refresh-postgres refresh-player-stats-sweden refresh-player-stats-germany refresh-player-pages-germany refresh-germany-full refresh-player-stats-sweden-only refresh-player-pages-sweden refresh-sweden-full refresh-player-stats-switzerland refresh-player-pages-switzerland refresh-switzerland-full refresh-player-stats-finland refresh-player-pages-finland refresh-finland-full refresh-player-stats-czech refresh-player-pages-czech refresh-czech-full refresh-player-stats-slovakia refresh-player-pages-slovakia refresh-slovakia-full refresh-player-stats-latvia refresh-player-pages-latvia refresh-latvia-full refresh-player-stats-wfc refresh-player-pages-wfc refresh-champions-cup refresh-player-stats-champions-cup refresh-player-pages-champions-cup refresh-champions-cup-full connect-css connect-html connect-publish connect-import-softr connect-sync-notion
 
 # floorballconnect.com (connect/): its own small Pelican site on the stats design system.
 # The stylesheet is committed like the stats one, so Netlify needs no Node step.

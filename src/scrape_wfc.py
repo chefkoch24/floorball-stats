@@ -3,7 +3,7 @@ import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import pandas as pd
 import requests
@@ -250,7 +250,11 @@ def _resolve_player_name(name: str | None, number: str | None, player_lookup: di
     return resolved or name
 
 
-def _period_and_sortkey(game_minute: object, game_clock_second: object) -> tuple[int | None, str | None]:
+def _period_and_sortkey(
+    game_minute: object,
+    game_clock_second: object,
+    period_seconds: int = 20 * 60,
+) -> tuple[int | None, str | None]:
     minute_text = str(game_minute or "").strip()
     if ":" not in minute_text:
         return None, None
@@ -261,12 +265,12 @@ def _period_and_sortkey(game_minute: object, game_clock_second: object) -> tuple
     except ValueError:
         return None, None
     total_seconds = absolute_minute * 60 + absolute_second
-    period = max(1, (total_seconds // (20 * 60)) + 1)
+    period = max(1, (total_seconds // period_seconds) + 1)
     clock_second = _parse_int(game_clock_second)
     if clock_second is None:
-        relative_seconds = total_seconds % (20 * 60)
+        relative_seconds = total_seconds % period_seconds
     else:
-        relative_seconds = max(0, min(clock_second, 20 * 60))
+        relative_seconds = max(0, min(clock_second, period_seconds))
     return period, f"{period}-{relative_seconds // 60:02d}:{relative_seconds % 60:02d}"
 
 
@@ -294,20 +298,24 @@ def _overview_event_to_row(
     game: dict[str, Any],
     stage_metadata: dict[str, Any],
     player_lookup: dict[tuple[str, str], str],
+    *,
+    normalize_team: Callable[[object], str | None] = _normalize_team_name,
+    parse_game_time: Callable[[object], tuple[str | None, str | None]] = _parse_dotnet_datetime,
+    period_seconds: int = 20 * 60,
 ) -> dict[str, Any] | None:
     is_goal = bool(blurb.get("IsGoal"))
     description = _clean_text(blurb.get("Description"))
     if not is_goal and not description:
         return None
 
-    period, sortkey = _period_and_sortkey(blurb.get("GameMinute"), blurb.get("GameClockSecond"))
+    period, sortkey = _period_and_sortkey(blurb.get("GameMinute"), blurb.get("GameClockSecond"), period_seconds)
     if not period or not sortkey:
         return None
 
     game_id = game.get("GameID")
-    home_team = _normalize_team_name(game.get("HomeTeamDisplayName"))
-    away_team = _normalize_team_name(game.get("AwayTeamDisplayName"))
-    game_date, game_start_time = _parse_dotnet_datetime(game.get("GameTime"))
+    home_team = normalize_team(game.get("HomeTeamDisplayName"))
+    away_team = normalize_team(game.get("AwayTeamDisplayName"))
+    game_date, game_start_time = parse_game_time(game.get("GameTime"))
     attendance = _parse_int(game.get("Spectators"))
     event_team = away_team if bool(blurb.get("IsAwayTeamAction")) else home_team
     home_goals, away_goals = _parse_score(blurb.get("Score"))
@@ -463,12 +471,26 @@ def _matches_stage(game: dict[str, Any], phase: str | None) -> bool:
     return True
 
 
+def _get_with_auth(url: str, params: dict[str, Any], auth: WfcAuth) -> Any:
+    """GET an authenticated IFF endpoint, refreshing the access token once on HTTP 401."""
+    for attempt in range(2):
+        response = requests.get(url, params=params, headers=_auth_headers(auth.access_token), timeout=30)
+        if response.status_code == 401 and attempt == 0:
+            _refresh_access_token(auth)
+            continue
+        response.raise_for_status()
+        return response.json()
+    return None
+
+
 def fetch_previous_league_organizer_games(
     league_organizer_id: int,
     *,
     phase: str | None = None,
     start_last_game_id: int = 0,
     max_pages: int | None = None,
+    auth: WfcAuth | None = None,
+    endpoint: str = "getpreviousleagueorganizergames",
 ) -> list[dict[str, Any]]:
     games: list[dict[str, Any]] = []
     seen_game_ids: set[int] = set()
@@ -476,9 +498,16 @@ def fetch_previous_league_organizer_games(
     page_count = 0
 
     while True:
-        payload = _get(
-            f"{PUBLIC_API_ROOT}/getpreviousleagueorganizergames?LeagueOrganizerID={league_organizer_id}&LastGameID={cursor}"
-        )
+        # The public app.floorball.sport API was retired in 2026; the same
+        # leagueorganizerapi now only answers with a bearer token.
+        if auth is not None:
+            payload = _get_with_auth(
+                f"{AUTH_API_ROOT}/leagueorganizerapi/{endpoint}",
+                {"LeagueOrganizerID": league_organizer_id, "LastGameID": cursor},
+                auth,
+            )
+        else:
+            payload = _get(f"{PUBLIC_API_ROOT}/{endpoint}?LeagueOrganizerID={league_organizer_id}&LastGameID={cursor}")
         if not isinstance(payload, list) or not payload:
             break
 
@@ -508,8 +537,8 @@ def fetch_previous_league_organizer_games(
 
 
 def scrape_league_organizer_games(league_organizer_id: int, output_path: str, *, phase: str | None = None) -> pd.DataFrame:
-    raw_games = fetch_previous_league_organizer_games(league_organizer_id, phase=phase)
     auth = _load_auth_from_env()
+    raw_games = fetch_previous_league_organizer_games(league_organizer_id, phase=phase, auth=auth)
     rows = [row for game in raw_games for row in _build_rows_from_game(game, auth)]
     rows.sort(
         key=lambda row: (

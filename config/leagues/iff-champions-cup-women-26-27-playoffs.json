@@ -1,0 +1,18 @@
+{
+  "backend": "champions_cup",
+  "season": "ccw-26-27",
+  "phase": "playoffs",
+  "playoff_rounds": [
+    { "name": "Quarter-finals", "teams": 8, "series_type": "two-legged", "tiebreak_winners": ["Zug United"] },
+    { "name": "Semi-finals",    "teams": 4, "series_type": "two-legged" },
+    { "name": "Final",          "teams": 2, "series_type": "single-game", "wins_to_advance": 1 }
+  ],
+  "champions_cup": {
+    "league_organizer_id": 853,
+    "division": "women",
+    "team_aliases": {
+      "Bulldogs Brno": "GC System Bulldogs Brno",
+      "Tatran Stresovice": "Tatran Střešovice"
+    }
+  }
+}

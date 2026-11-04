@@ -21,7 +21,10 @@ from src.league_config import apply_league_config, load_league_config
 from src.run_stats_engine import run_stats_pipeline
 
 ROOT = Path(__file__).resolve().parents[1]
-CUP_CONFIGS = sorted((ROOT / "config" / "leagues").glob("*-cup-*.json"))
+# National cups only: the IFF Champions Cup configs (iff-champions-cup-*) are a playoffs competition.
+CUP_CONFIGS = sorted(
+    path for path in (ROOT / "config" / "leagues").glob("*-cup-*.json") if not path.name.startswith("iff-")
+)
 
 
 def _game_rows(game_id: int, home: str, away: str, home_goals: int = 1, away_goals: int = 0, **extra) -> list[dict]:

@@ -2067,6 +2067,8 @@ _WFC_ROUND_NAME_MAP: dict[str, str] = {
     "Quarterfinal 3": "Quarter-finals", "Quarterfinal 4": "Quarter-finals",
     "Semifinal 1": "Semi-finals", "Semifinal 2": "Semi-finals",
     "Final": "Final",
+    # Backends that already emit the canonical round names (IFF Champions Cup).
+    "Play-in": "Play-in", "Quarter-finals": "Quarter-finals", "Semi-finals": "Semi-finals",
 }
 
 

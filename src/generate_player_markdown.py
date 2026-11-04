@@ -29,7 +29,7 @@ CONTROL_FIELDS = {
     "source_person_id",
     "history_rows_csv",
 }
-TOURNAMENT_SEASON_PREFIXES = {"wfc"}
+TOURNAMENT_SEASON_PREFIXES = {"wfc", "cc", "ccw"}
 CUP_PHASE = "cup"
 
 
@@ -297,17 +297,32 @@ def _rows_to_markdown(rows: list[dict[str, str]], default_category: str, metadat
         raise ValueError("CSV row is missing a player/name/full_name field.")
 
     uid = _canonical_player_uid(first, player)
+    # A club competition filed under the club season (cc-26-27) sorts like that season;
+    # list the league season first.
     sorted_rows = sorted(
         rows,
         key=lambda item: (
             _season_sort_key(item.get("season", "")),
+            not _is_tournament_season(item.get("season", "")),
             _phase_priority(item.get("phase", "")),
         ),
         reverse=True,
     )
     current_row = sorted_rows[0]
 
-    seasons_desc = sorted({row.get("season", "").strip() for row in rows if row.get("season", "").strip()}, key=_season_sort_key, reverse=True)
+    all_seasons = {row.get("season", "").strip() for row in rows if row.get("season", "").strip()}
+    # The current/previous season summary describes the league season; a tournament filed
+    # under the same club season (cc-26-27 next to ch-26-27) is not a season of its own.
+    league_keys = {_season_sort_key(season) for season in all_seasons if not _is_tournament_season(season)}
+    seasons_desc = sorted(
+        (
+            season
+            for season in all_seasons
+            if not (_is_tournament_season(season) and _season_sort_key(season) in league_keys)
+        ),
+        key=_season_sort_key,
+        reverse=True,
+    )
     current_season = seasons_desc[0] if seasons_desc else current_row.get("season", "").strip()
     previous_season = seasons_desc[1] if len(seasons_desc) > 1 else ""
     current_is_tournament = _is_tournament_season(current_season)

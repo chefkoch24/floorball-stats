@@ -1,0 +1,18 @@
+{
+  "backend": "champions_cup",
+  "season": "cc-26-27",
+  "phase": "playoffs",
+  "playoff_rounds": [
+    { "name": "Quarter-finals", "teams": 8, "series_type": "two-legged", "tiebreak_winners": ["Floorball Thurgau"] },
+    { "name": "Semi-finals",    "teams": 4, "series_type": "two-legged" },
+    { "name": "Final",          "teams": 2, "series_type": "single-game", "wins_to_advance": 1 }
+  ],
+  "champions_cup": {
+    "league_organizer_id": 853,
+    "division": "men",
+    "team_aliases": {
+      "Florbal MB": "AMIX Florbal MB",
+      "Tatran Stresovice": "Tatran Střešovice"
+    }
+  }
+}

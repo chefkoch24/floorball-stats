@@ -316,6 +316,9 @@ export IFF_API_REFRESH_TOKEN='...'
 make refresh-wfc-full
 ```
 
+Since 2026 the public `app.floorball.sport/api/leagueorganizerapi` feed answers 404; with the tokens set,
+the scraper reads the same endpoints from `iff-api.azurewebsites.net` instead.
+
 ## Cups (national cup competitions)
 
 Cups are their own season phase `cup`, next to `regular-season` and `playoffs`:
@@ -359,6 +362,29 @@ Sources per country (checked 1 November 2026):
 
 Early cup rounds contain clubs from lower divisions. Their games are imported (the league team's path through the
 cup), their names are plain text without a team page. A full Swiss refresh reads about 750 game pages.
+
+## IFF Champions Cup
+
+The Champions Cup runs in the IFF app as well (one LeagueOrganizerID per edition, 853 = 2027) and needs the
+same `IFF_API_ACCESS_TOKEN` / `IFF_API_REFRESH_TOKEN` (an IFF app login; the refresh token stays valid when
+the access token is renewed). The GitHub workflow reads both from repository secrets of the same name.
+
+```bash
+make refresh-champions-cup            # men (cc-) and women (ccw-), part of refresh-all-leagues
+make refresh-champions-cup-full       # + player stats, player pages and html
+```
+
+- Configs: `config/leagues/iff-champions-cup[-women]-<season>-playoffs.json`. The edition is filed under the
+  club season it is played in (`cc-26-27` = Champions Cup 2027), so player pages sort it next to the leagues.
+- `team_aliases` maps the IFF club name (country code and "Men"/"Women" stripped) to the name the national
+  backend uses (e.g. `Florbal MB` -> `AMIX Florbal MB`); team pages then link to the national team page.
+- Quarter- and semi-finals are two-legged ties: 2 points per win, 1 per draw. A level tie is decided in a
+  separate overtime that the feed does not report; list the winner in the round's `tiebreak_winners` until the
+  next round shows who advanced (the bracket infers it from there as well).
+- Periods last 15 minutes; minute-based team stats (e.g. points after 55 minutes) assume 20-minute periods
+  and are not meaningful for Champions Cup games.
+- Rollover: copy both configs to the new season, set the new `league_organizer_id` (IFF app URL
+  `#/leagueorganizersite/<id>/schedule`), clear `tiebreak_winners` and check `team_aliases` for new clubs.
 
 ## Adding a new backend or pipeline
 
@@ -412,7 +438,7 @@ For a backend to work outside the box with player pages, these rules must hold:
   - the season should be combined as one `tournament` row.
 
 Current rule:
-- `wfc-*` seasons are treated as one tournament season on player pages.
+- `wfc-*`, `cc-*` and `ccw-*` seasons are treated as one tournament season on player pages.
 
 - Partial backend exports must merge into canonical player history instead of overwriting club seasons from other leagues.
 
