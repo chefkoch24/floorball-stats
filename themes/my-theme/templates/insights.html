@@ -811,3 +811,63 @@
 </section>
 {% endif %}
 {% endmacro %}
+
+{% macro pct(value) -%}{%- if value is none %}–{% else %}{{ '%.1f'|format(value) }}%{% endif -%}{%- endmacro %}
+
+{% macro league_special_teams(data) %}
+{% if data and data.rows %}
+<section id="special-teams" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="special-teams-title">
+    <div class="grid gap-1">
+        <h2 id="special-teams-title" class="fs-section-title">Special teams</h2>
+        <p class="m-0 text-sm text-ink-muted">Powerplay and penalty kill of every team. League average: powerplay {{ pct(data.league_pp) }}, penalty kill {{ pct(data.league_bp) }}. {{ explain('special-teams') }}</p>
+    </div>
+    <div class="grid gap-4 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:items-start">
+        {% if data.scatter %}
+        {% set sc = data.scatter %}
+        <figure class="m-0 grid gap-2 rounded-lg border border-line bg-surface-raised p-4">
+            <div class="grid grid-cols-[auto_minmax(0,1fr)] gap-2">
+                <span class="fs-label [writing-mode:vertical-rl] rotate-180 text-center">Penalty kill % ({{ sc.y_range[0] }}–{{ sc.y_range[1] }})</span>
+                <div class="relative aspect-[4/3] w-full overflow-hidden rounded-md border border-line bg-surface-sunken" role="img" aria-label="Powerplay percentage against penalty kill percentage per team">
+                    <span class="absolute inset-y-0 w-px bg-line-strong" style="left: {{ sc.mid_x }}%"></span>
+                    <span class="absolute inset-x-0 h-px bg-line-strong" style="bottom: {{ sc.mid_y }}%"></span>
+                    <span class="absolute right-2 top-1 text-[11px] font-semibold uppercase tracking-wide text-ink-muted">Strong in both</span>
+                    {% for row in data.rows if row.x is defined %}
+                    <a class="absolute grid -translate-x-1/2 translate-y-1/2 place-items-center rounded-pill border border-line-strong bg-surface-raised px-1.5 py-0.5 font-display text-[11px] font-bold leading-none text-ink hover:border-rink hover:no-underline"
+                       style="left: {{ row.x }}%; bottom: {{ row.y }}%" href="{{ SITEURL }}/{{ row.url }}"
+                       title="{{ row.team }}: powerplay {{ pct(row.pp_percent) }} ({{ row.pp_goals }}/{{ row.pp_opportunities }}), penalty kill {{ pct(row.bp_percent) }}">{{ row.team|team_initials }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <figcaption class="text-center text-xs text-ink-muted"><span class="fs-label">Powerplay % ({{ sc.x_range[0] }}–{{ sc.x_range[1] }})</span> · the cross marks the league average</figcaption>
+        </figure>
+        {% endif %}
+        <div class="fs-table-wrap">
+            <table class="fs-table">
+                <thead>
+                <tr>
+                    <th scope="col" class="fs-table__team">Team</th>
+                    <th scope="col" title="Powerplay goals / powerplays">PP</th>
+                    <th scope="col" title="Share of powerplays that ended in a goal">PP%</th>
+                    <th scope="col" title="Goals against / penalties taken">BP</th>
+                    <th scope="col" title="Share of penalties killed without a goal against">PK%</th>
+                    <th scope="col" title="Shorthanded goals scored">SH</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in data.rows %}
+                <tr>
+                    <td class="fs-table__team"><a class="fs-team" href="{{ SITEURL }}/{{ row.url }}">{{ crest(row.team, crest_category) }}<span>{{ row.team }}</span></a></td>
+                    <td>{{ row.pp_goals }}/{{ row.pp_opportunities }}</td>
+                    <td class="fs-table__pts">{{ pct(row.pp_percent) }}</td>
+                    <td>{{ row.bp_goals_against }}/{{ row.bp_opportunities }}</td>
+                    <td class="fs-table__pts">{{ pct(row.bp_percent) }}</td>
+                    <td>{{ row.sh_goals or '–' }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endmacro %}

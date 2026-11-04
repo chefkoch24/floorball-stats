@@ -7,12 +7,14 @@ stay in sync with their pages. The calculations live in ``src/player_insights.py
 and ``src/power_rankings.py`` so a pipeline step can reuse them later.
 
 Attaches to articles:
-- player: ``clutch`` (this season and all tracked games) and ``partners``
+- player: ``clutch`` (this season and all tracked games), ``partners``, ``game_log`` (games with a
+  goal or assist) and ``special_goals`` (powerplay / shorthanded goals)
 - team (current season): ``power`` (rating, rank, trend, projection, sparkline),
   ``duos`` and ``clutch_players``; every regular-season team: ``table_history``
 - game: ``win_probability`` (pre-game, from the ratings before that game),
   ``game_story`` (live win chance line, lead changes, key moments, excitement) and
-  moment labels (game winner, clutch, overtime) inside ``game_events_b64``
+  moment labels (game winner, clutch, overtime) and ``situation`` (``pp`` / ``sh``) on
+  powerplay and shorthanded goals inside ``game_events_b64``
 
 and ``LEAGUE_INSIGHTS[category slug]`` (with ``table_history`` for every regular
 season) to the template context for league pages.
@@ -34,6 +36,9 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from src import player_insights as pi  # noqa: E402
+from src import player_log as plog  # noqa: E402
+from src import special_teams as sp  # noqa: E402
+from src import crowd_stats as cs  # noqa: E402
 from src import power_rankings as pr  # noqa: E402
 from src import standings_history as sh  # noqa: E402
 from src import game_flow as gf  # noqa: E402
@@ -169,11 +174,13 @@ def collect(generator) -> None:
             teams_by_category[_category(article)].append(article)
 
     league_context: dict[str, dict] = defaultdict(dict)
-    _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context)
+    _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context, settings["JINJA_FILTERS"]["league_context"])
     _attach_power(games_by_category, teams_by_category, current_season, league_context)
     _attach_cup_stories(games_by_category, settings["JINJA_FILTERS"]["league_context"])
     _attach_table_history(games_by_category, teams_by_category, settings["JINJA_FILTERS"]["crest_index"], league_context)
     _attach_trends(generator, articles, games_by_category, teams_by_category, player_slugs, league_context)
+    _attach_special_teams(teams_by_category, league_context)
+    generator.context["CROWD_ANALYSIS"] = _crowd_analysis(games_by_category, settings)
     generator.context["LEAGUE_INSIGHTS"] = dict(league_context)
     # Parameters and limits for the "How our stats work" page, so it always matches the code.
     generator.context["INSIGHTS_MODEL"] = {
@@ -190,10 +197,11 @@ def collect(generator) -> None:
         "share_min_team_goals": SHARE_MIN_TEAM_GOALS,
         "share_min_points": SHARE_MIN_POINTS,
         "crowd_min_games": CROWD_MIN_GAMES,
+        "crowd_bucket_min_games": cs.MIN_GAMES_PER_BUCKET,
     }
 
 
-def _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context) -> None:
+def _attach_player_insights(articles, games_by_category, teams_by_category, player_slugs, league_context, league_of=lambda category: None) -> None:
     games = []
     game_articles = {}
     for category, items in games_by_category.items():
@@ -210,15 +218,24 @@ def _attach_player_insights(articles, games_by_category, teams_by_category, play
 
     insights = pi.build_insights(games)
 
-    for key, flagged in insights.moments.items():
-        article, events = game_articles[key]
-        article.game_events_b64 = pi.encode_events(pi.label_moments(events, flagged))
+    # Moment labels (game winner, clutch, overtime) and powerplay/shorthanded goals, inside the payload.
+    labelled_events: dict[tuple[str, str], list[dict]] = {}
+    for key, (article, events) in game_articles.items():
+        labelled = sp.label_situations(pi.label_moments(events, insights.moments.get(key, {})))
+        labelled_events[key] = labelled
+        article.game_events_b64 = pi.encode_events(labelled)
+
+    game_logs = plog.build_game_logs(_log_games(game_articles, labelled_events, league_of))
 
     for article in articles:
         kind = _meta(article, "type")
         if kind == "player":
             uid = _meta(article, "player_uid") or article.slug
             season = _meta(article, "current_season")
+            rows = game_logs.get(uid)
+            if rows:
+                article.game_log = rows
+                article.special_goals = plog.special_totals(rows)
             season_line = insights.clutch.get(season, {}).get(uid)
             total_line = insights.clutch.get("all", {}).get(uid)
             if total_line is None:
@@ -243,6 +260,100 @@ def _attach_player_insights(articles, games_by_category, teams_by_category, play
     for category in teams_by_category:
         league_context[category]["clutch_leaders"] = _clutch_rows(insights.clutch_leaders(category, limit=5), player_slugs)
         league_context[category]["duos"] = _duo_rows(insights.top_duos(category, limit=5), player_slugs)
+
+
+def _attach_special_teams(teams_by_category, league_context) -> None:
+    """``LEAGUE_INSIGHTS[category]["special_teams"]``: powerplay / penalty kill table and scatter."""
+    for category, team_articles in teams_by_category.items():
+        specials = [
+            sp.TeamSpecials(
+                team=_meta(article, "team") or _meta(article, "title"),
+                url=article.url,
+                games=_int(article, "games") or 0,
+                pp_goals=_int(article, "goals_in_powerplay") or 0,
+                pp_opportunities=_int(article, "powerplay") or 0,
+                bp_goals_against=_int(article, "goals_against_in_boxplay") or 0,
+                bp_opportunities=_int(article, "boxplay") or 0,
+                sh_goals=_int(article, "goals_in_boxplay") or 0,
+            )
+            for article in team_articles
+        ]
+        table = sp.league_table(specials)
+        if table:
+            league_context[category]["special_teams"] = table
+
+
+def _crowd_analysis(games_by_category, settings) -> dict[str, list[dict]]:
+    """``CROWD_ANALYSIS``: per division, every league's crowd figures (see ``src/crowd_stats.py``)."""
+    league_of = settings["JINJA_FILTERS"]["league_context"]
+    seasons = [season for season in settings.get("SEASONS", [])]
+    per_league: dict[str, dict] = {}
+    for category, items in games_by_category.items():
+        league = league_of(category)
+        if not league or league.get("season") not in seasons or league.get("phase") not in (cs.REGULAR, cs.PLAYOFFS):
+            continue
+        entry = per_league.setdefault(league["prefix"], {"league": league, "games": []})
+        for article in items:
+            attendance = _int(article, "attendance")
+            if _meta(article, "game_state") != "played" or not attendance or attendance <= 0:
+                continue
+            entry["games"].append(
+                cs.CrowdGame(
+                    league=league["prefix"],
+                    season=league["season"],
+                    phase=league["phase"],
+                    day=pr.to_date(article.date),
+                    start_time=_meta(article, "start_time"),
+                    home=_meta(article, "home_team"),
+                    away=_meta(article, "away_team"),
+                    attendance=attendance,
+                    url=article.url,
+                )
+            )
+    divisions: dict[str, list[dict]] = {}
+    for prefix, entry in per_league.items():
+        analysis = cs.league_analysis(entry["games"], seasons)
+        if not analysis:
+            continue
+        league = entry["league"]
+        divisions.setdefault(league.get("division", "men"), []).append(
+            {
+                "prefix": prefix,
+                "name": str(league.get("title", prefix)).split(" · ")[-1],
+                "country": league.get("name", ""),
+                "slug": f"{prefix}{analysis['season']}-regular-season",
+                **analysis,
+            }
+        )
+    for rows in divisions.values():
+        rows.sort(key=lambda row: -row["current"]["average"])
+    return divisions
+
+
+def _log_games(game_articles, labelled_events, league_of) -> list[plog.LogGame]:
+    """Played games with their labelled events, for the players' game logs."""
+    games = []
+    for key, (article, _events) in game_articles.items():
+        category = key[0]
+        league = league_of(category) or {}
+        match = CATEGORY_PATTERN.match(category)
+        games.append(
+            plog.LogGame(
+                category=category,
+                season=str(league.get("season_label") or (match.group("season").replace("-", "/") if match else "")),
+                phase=str(league.get("phase") or (match.group("phase") if match else "")),
+                competition=str(league.get("title") or category).split(" · ")[-1],
+                day=pr.to_date(article.date),
+                url=article.url,
+                home=_meta(article, "home_team"),
+                away=_meta(article, "away_team"),
+                home_goals=_int(article, "home_goals") or 0,
+                away_goals=_int(article, "away_goals") or 0,
+                extra_time=_decision(article) != pr.REGULATION,
+                events=tuple(labelled_events[key]),
+            )
+        )
+    return games
 
 
 def _game_result(article, season: str, phase: str) -> pr.GameResult:
