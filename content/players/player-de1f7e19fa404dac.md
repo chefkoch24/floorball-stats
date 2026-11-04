@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Matthias Flatten
 Category: players
 Slug: player-de1f7e19fa404dac

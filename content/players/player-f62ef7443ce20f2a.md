@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Kārlis Pupils
 Category: players
 Slug: player-f62ef7443ce20f2a

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jooa Palojoki
 Category: players
 Slug: player-72f15bec10e4aa3e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 175
+rank: 177
 season: fi-26-27

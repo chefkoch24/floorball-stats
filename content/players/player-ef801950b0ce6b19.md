@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Záteková Sára
 Category: players
 Slug: player-ef801950b0ce6b19

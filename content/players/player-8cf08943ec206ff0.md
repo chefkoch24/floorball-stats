@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Andris Briedis
 Category: players
 Slug: player-8cf08943ec206ff0

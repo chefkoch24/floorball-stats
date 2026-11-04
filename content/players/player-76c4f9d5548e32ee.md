@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Anni Huovinen
 Category: players
 Slug: player-76c4f9d5548e32ee

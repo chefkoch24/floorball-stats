@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Oskars Siliņš
 Category: players
 Slug: player-a63320ba3ce130b0
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 30
+rank: 31
 season: lv-26-27

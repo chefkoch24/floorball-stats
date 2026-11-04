@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Marek Korych C
 Category: players
 Slug: player-49d97e6caa2bce23

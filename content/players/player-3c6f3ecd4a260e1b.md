@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Benjamin O'Loghlen
 Category: players
 Slug: player-3c6f3ecd4a260e1b

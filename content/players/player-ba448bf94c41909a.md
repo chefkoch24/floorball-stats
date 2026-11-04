@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Selina Lüthi
 Category: players
 Slug: player-ba448bf94c41909a

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jana Arnold
 Category: players
 Slug: player-87dae61feb6067e4

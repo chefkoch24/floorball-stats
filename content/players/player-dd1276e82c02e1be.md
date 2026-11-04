@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jael Ulrich
 Category: players
 Slug: player-dd1276e82c02e1be

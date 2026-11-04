@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Oscar Snell
 Category: players
 Slug: player-9809bf3cb474fb30

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jan Chmelař
 Category: players
 Slug: player-1c4ac7768bd86d34

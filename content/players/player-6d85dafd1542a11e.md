@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jana Pokorná
 Category: players
 Slug: player-6d85dafd1542a11e

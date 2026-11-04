@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Flavio Rust
 Category: players
 Slug: player-6a4bdb8249dd93a9

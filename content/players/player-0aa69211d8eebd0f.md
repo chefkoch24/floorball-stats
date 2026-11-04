@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Emelie Lindberg
 Category: players
 Slug: player-0aa69211d8eebd0f

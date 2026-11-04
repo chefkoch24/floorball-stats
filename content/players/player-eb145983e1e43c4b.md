@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Lisa Lindvall
 Category: players
 Slug: player-eb145983e1e43c4b

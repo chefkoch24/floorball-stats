@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Hanna Salminen
 Category: players
 Slug: player-4148b0bf148e9a4d

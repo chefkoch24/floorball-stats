@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Ebba Törngren
 Category: players
 Slug: player-25a17aba2391e1e6

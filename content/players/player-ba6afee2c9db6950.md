@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Kim Lundelin
 Category: players
 Slug: player-ba6afee2c9db6950

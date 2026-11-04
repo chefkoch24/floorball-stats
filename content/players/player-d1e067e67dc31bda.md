@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Yannis Wyss
 Category: players
 Slug: player-d1e067e67dc31bda

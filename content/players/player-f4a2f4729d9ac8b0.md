@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Hannes Langenstraß
 Category: players
 Slug: player-f4a2f4729d9ac8b0

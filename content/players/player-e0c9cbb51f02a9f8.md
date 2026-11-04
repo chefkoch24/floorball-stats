@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Pārstāvis Robin Savi
 Category: players
 Slug: player-e0c9cbb51f02a9f8

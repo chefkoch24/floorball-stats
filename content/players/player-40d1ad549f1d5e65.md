@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Emīlija Salaciete
 Category: players
 Slug: player-40d1ad549f1d5e65

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jēkabs Keišs
 Category: players
 Slug: player-9ea63e0ba498cc55

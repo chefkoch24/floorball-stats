@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Charlotte Reenskaug Johnsrud
 Category: players
 Slug: player-e728d6bf0c2b4b15

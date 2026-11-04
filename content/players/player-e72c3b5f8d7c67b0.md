@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Almiro Stüdeli
 Category: players
 Slug: player-e72c3b5f8d7c67b0

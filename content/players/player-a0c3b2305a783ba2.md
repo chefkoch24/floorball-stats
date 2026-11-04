@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Leo Häfner
 Category: players
 Slug: player-a0c3b2305a783ba2

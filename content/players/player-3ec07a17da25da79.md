@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Daniēls Venšavs
 Category: players
 Slug: player-3ec07a17da25da79

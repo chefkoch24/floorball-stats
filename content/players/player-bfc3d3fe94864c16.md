@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Andrejs Kristens Saļkovs
 Category: players
 Slug: player-bfc3d3fe94864c16
@@ -11,12 +11,12 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|9|1|0|1|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|10|1|0|1|4
 assists: 0
-games: 9
+games: 10
 goals: 1
 penalties: 2
 phase: regular-season

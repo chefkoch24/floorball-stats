@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jakub Kopecký
 Category: players
 Slug: player-3441ab2d70cbac9b

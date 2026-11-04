@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jakub Boško
 Category: players
 Slug: player-3035cf1b5b4dbbfd

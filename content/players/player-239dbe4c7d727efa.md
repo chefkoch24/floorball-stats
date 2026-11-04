@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Lovis Sturm
 Category: players
 Slug: player-239dbe4c7d727efa

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Julia Turunen
 Category: players
 Slug: player-c6c628920ba420df

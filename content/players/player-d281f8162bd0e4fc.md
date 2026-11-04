@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Lars Schneider
 Category: players
 Slug: player-d281f8162bd0e4fc

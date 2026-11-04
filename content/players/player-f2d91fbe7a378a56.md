@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Daniel Feher
 Category: players
 Slug: player-f2d91fbe7a378a56
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 23
+career_games: 24
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|8|0|0|0|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|15|0|0|0|0
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|9|0|0|0|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|15|0|0|0|0
 assists: 0
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season

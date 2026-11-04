@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Dominik Kútik
 Category: players
 Slug: player-19328e59dde1ca22

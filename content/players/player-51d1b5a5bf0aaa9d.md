@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Josef Loučka
 Category: players
 Slug: player-51d1b5a5bf0aaa9d

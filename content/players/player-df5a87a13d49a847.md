@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Max Kottke
 Category: players
 Slug: player-df5a87a13d49a847

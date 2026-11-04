@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Ben Grote
 Category: players
 Slug: player-1a463dcc6845ca55

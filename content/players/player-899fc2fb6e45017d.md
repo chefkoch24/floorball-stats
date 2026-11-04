@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Adam Balatka
 Category: players
 Slug: player-899fc2fb6e45017d

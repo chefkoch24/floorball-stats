@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Adéla Částečková
 Category: players
 Slug: player-c2304c6c22b0fd34

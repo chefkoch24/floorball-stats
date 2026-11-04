@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Karla Weser
 Category: players
 Slug: player-c1c35c318dfa5b40

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-19
 Title: 1307581-hdt-cz-florbal-vary-bohemians-vs-fbc-liberec
 Category: cz-26-27-regular-season, game
 Slug: 1307581-hdt-cz-florbal-vary-bohemians-vs-fbc-liberec-cz-26-27-regular-season
@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 10.0
 pregame_h2h_special_home_pk_eff: 11.11
 pregame_h2h_special_home_pp_eff: 53.849999999999994
 result_string: None
-start_time: 17:00
+start_time: 19:30
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

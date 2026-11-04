@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Olle Jonsson
 Category: players
 Slug: player-7a15fcad31df9b9d

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Fabrice Göldi
 Category: players
 Slug: player-e17237f7c99aeddc

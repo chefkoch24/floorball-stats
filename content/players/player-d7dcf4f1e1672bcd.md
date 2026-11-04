@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Corina Maurer
 Category: players
 Slug: player-d7dcf4f1e1672bcd

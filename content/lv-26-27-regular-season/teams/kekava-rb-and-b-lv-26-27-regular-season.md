@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: Ķekava/RB&B
 Category: lv-26-27-regular-season, teams
 Slug: kekava-rb-and-b-lv-26-27-regular-season-lv-26-27-regular-season
@@ -107,7 +107,7 @@ powerplay_seconds: 2382
 powerplay_third_period: 11
 powerplay_time: 39:42
 powerplay_time_per_goal: 7:56
-rank: 6
+rank: 7
 scoring_ratio: 0.94
 take_the_lead_goals: 18
 take_the_lead_goals_against: 12

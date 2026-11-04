@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Malwina Zagórska
 Category: players
 Slug: player-c397bb31e92a3f03

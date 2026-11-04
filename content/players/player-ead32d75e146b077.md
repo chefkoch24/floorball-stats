@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Alina Hofmann
 Category: players
 Slug: player-ead32d75e146b077

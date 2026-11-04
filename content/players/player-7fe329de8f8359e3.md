@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Ričards Riba
 Category: players
 Slug: player-7fe329de8f8359e3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 86
+rank: 90
 season: lv-26-27

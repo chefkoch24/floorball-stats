@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Kateřina Seemannová
 Category: players
 Slug: player-7b7448c581df8c2b

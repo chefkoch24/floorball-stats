@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Eva Faltová
 Category: players
 Slug: player-5f4fabe13931adc7

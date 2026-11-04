@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Lukas Garcia
 Category: players
 Slug: player-2581be9cbd4aa71b

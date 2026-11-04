@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Pintérová Monika
 Category: players
 Slug: player-8a5cd27fac96dcdf

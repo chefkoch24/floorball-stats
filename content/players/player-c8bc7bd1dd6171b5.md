@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Nela Kubalčíková
 Category: players
 Slug: player-c8bc7bd1dd6171b5

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Rūdolfs Sproģis
 Category: players
 Slug: player-bb7acfeaf9b1c2e7

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Mattia Schmied
 Category: players
 Slug: player-e17642836eb8eed8

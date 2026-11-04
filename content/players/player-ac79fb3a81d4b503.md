@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Hobbe Janefrid
 Category: players
 Slug: player-ac79fb3a81d4b503

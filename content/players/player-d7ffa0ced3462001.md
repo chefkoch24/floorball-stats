@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Sintija Bāliņa
 Category: players
 Slug: player-d7ffa0ced3462001

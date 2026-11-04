@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Edvards Egliens
 Category: players
 Slug: player-6b8b5f8d7d5f90f7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 36
+rank: 38
 season: lv-26-27

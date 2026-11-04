@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Onni Ihala
 Category: players
 Slug: player-278f15c0f1bfaa22
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 184
+rank: 185
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Fannie Granath
 Category: players
 Slug: player-db60f7f2bccde316

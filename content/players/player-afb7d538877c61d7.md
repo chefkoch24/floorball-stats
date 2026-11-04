@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Karel Frýba
 Category: players
 Slug: player-afb7d538877c61d7

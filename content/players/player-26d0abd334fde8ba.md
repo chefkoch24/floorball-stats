@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Marcus Hamrin
 Category: players
 Slug: player-26d0abd334fde8ba

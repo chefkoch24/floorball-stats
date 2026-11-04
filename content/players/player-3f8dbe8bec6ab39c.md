@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Vlášek Marek
 Category: players
 Slug: player-3f8dbe8bec6ab39c

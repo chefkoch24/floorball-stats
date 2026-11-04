@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Anton Grönlund
 Category: players
 Slug: player-0cb5f9f363c8ff9f

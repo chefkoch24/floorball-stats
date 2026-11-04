@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Oskar Weissbach
 Category: players
 Slug: player-b5763fe2fba5c1c0

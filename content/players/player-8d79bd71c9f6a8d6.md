@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Michaela Cendelínová
 Category: players
 Slug: player-8d79bd71c9f6a8d6

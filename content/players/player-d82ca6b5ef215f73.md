@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Hanna Åkerberg
 Category: players
 Slug: player-d82ca6b5ef215f73

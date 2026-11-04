@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jonas Stettler
 Category: players
 Slug: player-1780e38a7ff85cf8

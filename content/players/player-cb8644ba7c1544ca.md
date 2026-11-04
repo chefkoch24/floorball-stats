@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Hugo Jonsson
 Category: players
 Slug: player-cb8644ba7c1544ca

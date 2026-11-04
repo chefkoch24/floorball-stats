@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Ella Sundström
 Category: players
 Slug: player-f61b3c71e0ea0a04

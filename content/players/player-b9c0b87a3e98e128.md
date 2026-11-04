@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Tuomas Ojala
 Category: players
 Slug: player-b9c0b87a3e98e128

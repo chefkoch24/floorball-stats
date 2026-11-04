@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Judith Andersson
 Category: players
 Slug: player-d8915fcd4ef771a2

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Lassi Toriseva
 Category: players
 Slug: player-b08cb48e8650bd73

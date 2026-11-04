@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Dominik Thiel
 Category: players
 Slug: player-3b21f56d836d2ddb

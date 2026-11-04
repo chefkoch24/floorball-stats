@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Olli-Akseli Laine
 Category: players
 Slug: player-0ec10b109f3b75fc

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jozsef David Pirik
 Category: players
 Slug: player-8b7f1fd62fb2ada4

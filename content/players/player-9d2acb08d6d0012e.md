@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Kristýna Gajdečková
 Category: players
 Slug: player-9d2acb08d6d0012e

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Michel Wöcke
 Category: players
 Slug: player-14fdefdcbb1242b6

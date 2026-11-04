@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Rahel Wyss
 Category: players
 Slug: player-f1f9aa9ff4b949f8

@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Maja Smidner
 Category: players
 Slug: player-9372617b6acded91

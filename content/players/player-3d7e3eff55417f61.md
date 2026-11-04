@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Cédric Buri
 Category: players
 Slug: player-3d7e3eff55417f61

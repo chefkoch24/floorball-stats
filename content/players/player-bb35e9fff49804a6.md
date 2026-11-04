@@ -1,4 +1,4 @@
-Date: 2026-11-03
+Date: 2026-11-04
 Title: Jesse van Oosten
 Category: players
 Slug: player-bb35e9fff49804a6
