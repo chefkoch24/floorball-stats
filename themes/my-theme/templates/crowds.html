@@ -17,7 +17,7 @@
 
 {% macro number(value) -%}{{ '{:,.0f}'.format(value).replace(',', '’') }}{%- endmacro %}
 
-{# Horizontal bars for weekday / kick-off / phase averages. #}
+{# Horizontal bars for weekday / face-off time / phase averages. #}
 {% macro bars(rows, title) %}
 {% if rows|length > 1 %}
 {% set top = rows|map(attribute='average')|max %}
@@ -97,7 +97,7 @@
             </div>
             <div class="grid gap-6 md:grid-cols-3">
                 {{ bars(league.weekdays, 'Average by weekday') }}
-                {{ bars(league.kickoffs, 'Average by kick-off time') }}
+                {{ bars(league.kickoffs, 'Average by face-off time') }}
                 {{ bars(league.phases, 'Regular season and playoffs') }}
             </div>
             <p class="m-0 text-xs text-ink-muted">Season {{ league.season|replace('-', '/') }}. Averages are over games with a published crowd, the number of games is in brackets; faded bars rest on very few games.</p>

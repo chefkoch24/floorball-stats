@@ -1,8 +1,8 @@
 """Attendance analysis across leagues and seasons.
 
 Pure functions on the played games of the published game articles (attendance as the
-leagues report it). Behind the "Crowds" page: leagues compared for one season, the
-development over seasons, weekday and kick-off time, and regular season against playoffs.
+leagues report it). Behind the "Crowds" page: leagues compared for one season,
+weekday and face-off time, and regular season against playoffs.
 """
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from datetime import date
 from statistics import median
 
 WEEKDAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
-# Kick-off bands by start hour; the label is what the page shows.
+# Face-off bands by start hour; the label is what the page shows.
 KICKOFF_BANDS = (("Before 14:00", 0, 14), ("14:00–16:59", 14, 17), ("17:00–18:59", 17, 19), ("19:00 or later", 19, 25))
 REGULAR, PLAYOFFS = "regular-season", "playoffs"
 TOP_TEAMS = 3
