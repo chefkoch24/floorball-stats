@@ -17,10 +17,6 @@
 
 {% macro number(value) -%}{{ '{:,.0f}'.format(value).replace(',', '’') }}{%- endmacro %}
 
-{% macro change(value) -%}
-{%- if value is none %}–{% elif value > 0 %}<span class="text-win">▲ +{{ (value * 100)|round|int }}%</span>{% elif value < 0 %}<span class="text-loss">▼ −{{ (-value * 100)|round|int }}%</span>{% else %}0%{% endif -%}
-{%- endmacro %}
-
 {# Horizontal bars for weekday / kick-off / phase averages. #}
 {% macro bars(rows, title) %}
 {% if rows|length > 1 %}
@@ -54,8 +50,6 @@
     {% for key, label in divisions if analysis.get(key) %}
     <section id="compare-{{ key }}" class="grid gap-3 scroll-mt-24" aria-labelledby="compare-{{ key }}-title">
         <h2 id="compare-{{ key }}-title" class="fs-section-title">{{ label }} leagues compared</h2>
-        {# The change column only shows when at least one league of the division has a previous season to compare with. #}
-        {% set has_change = analysis[key]|selectattr('current.change', 'ne', none)|list|length > 0 %}
         <div class="fs-table-wrap">
             <table class="fs-table">
                 <thead>
@@ -64,7 +58,6 @@
                     <th scope="col" title="Season">Season</th>
                     <th scope="col" title="Average crowd per game">Avg</th>
                     <th scope="col" class="max-sm:hidden" title="Median crowd per game">Median</th>
-                    {% if has_change %}<th scope="col" title="Change of the average against the same number of first regular-season games of the previous season we have">Δ prev.</th>{% endif %}
                     <th scope="col" class="max-sm:hidden" title="Games with a published crowd">Games</th>
                     <th scope="col" class="max-sm:hidden" title="All spectators at those games">Total</th>
                     <th scope="col" title="Biggest crowd of the season">Highest</th>
@@ -80,7 +73,6 @@
                     <td>{{ league.season|replace('-', '/') }}</td>
                     <td class="fs-table__pts">{{ number(c.average) }}</td>
                     <td class="max-sm:hidden">{{ number(c.median) }}</td>
-                    {% if has_change %}<td>{{ change(c.change) }}</td>{% endif %}
                     <td class="max-sm:hidden">{{ c.games }}</td>
                     <td class="max-sm:hidden">{{ number(c.total) }}</td>
                     <td><a href="{{ SITEURL }}/{{ c.highest_game.url }}" title="{{ c.highest_game.home }} – {{ c.highest_game.away }}">{{ number(c.highest) }}</a></td>
