@@ -95,27 +95,12 @@
                 <h3 id="league-{{ loop.index }}-{{ key }}-title" class="fs-panel-title">{{ league.name }} <span class="text-sm font-normal text-ink-muted">{{ league.country }} · {{ label }}</span></h3>
                 <a class="text-sm" href="{{ SITEURL }}/{{ league.slug }}.html">League page</a>
             </div>
-            <div class="grid gap-6 md:grid-cols-2">
-                <div class="grid content-start gap-1">
-                    <h4 class="fs-label m-0">Development over seasons</h4>
-                    <div class="fs-table-wrap">
-                        <table class="fs-table">
-                            <thead><tr><th scope="col">Season</th><th scope="col">Avg</th><th scope="col" class="max-sm:hidden">Median</th><th scope="col">Total</th><th scope="col">Highest</th></tr></thead>
-                            <tbody>
-                            {% for row in league.seasons %}
-                            <tr><td>{{ row.season|replace('-', '/') }}</td><td class="fs-table__pts">{{ number(row.average) }}</td><td class="max-sm:hidden">{{ number(row.median) }}</td><td>{{ number(row.total) }}</td><td>{{ number(row.highest) }}</td></tr>
-                            {% endfor %}
-                            </tbody>
-                        </table>
-                    </div>
-                    <p class="m-0 text-xs text-ink-muted">Averages are over games with a published crowd; a running season only has its first rounds.</p>
-                </div>
-                <div class="grid content-start gap-4">
-                    {{ bars(league.weekdays, 'Average by weekday, ' ~ league.season|replace('-', '/')) }}
-                    {{ bars(league.kickoffs, 'Average by kick-off time, ' ~ league.season|replace('-', '/')) }}
-                    {{ bars(league.phases, 'Regular season and playoffs, ' ~ league.season|replace('-', '/')) }}
-                </div>
+            <div class="grid gap-6 md:grid-cols-3">
+                {{ bars(league.weekdays, 'Average by weekday') }}
+                {{ bars(league.kickoffs, 'Average by kick-off time') }}
+                {{ bars(league.phases, 'Regular season and playoffs') }}
             </div>
+            <p class="m-0 text-xs text-ink-muted">Season {{ league.season|replace('-', '/') }}. Averages are over games with a published crowd, the number of games is in brackets; faded bars rest on very few games.</p>
         </section>
         {% endfor %}
         {% endfor %}

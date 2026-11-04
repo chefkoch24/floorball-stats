@@ -21,11 +21,12 @@ def test_top_share_needs_more_teams_than_the_top_group():
     assert many["top_share"] == 0.9
 
 
-def test_league_analysis_uses_the_newest_season_with_games_and_lists_all_seasons():
+def test_league_analysis_uses_the_newest_season_with_games():
     games = [_game(200, season="26-27"), _game(300, season="26-27"), _game(200, season="24-25")]
     analysis = cs.league_analysis(games, ["26-27", "25-26", "24-25"])
     assert analysis["season"] == "26-27" and analysis["current"]["average"] == 250
-    assert [row["season"] for row in analysis["seasons"]] == ["26-27", "24-25"]
+    analysis = cs.league_analysis([_game(200, season="24-25")], ["26-27", "25-26", "24-25"])
+    assert analysis["season"] == "24-25" and analysis["current"]["average"] == 200
 
 
 def test_league_analysis_without_games_is_none():

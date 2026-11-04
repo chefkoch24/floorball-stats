@@ -107,7 +107,7 @@ def phase_rows(games: list[CrowdGame]) -> list[dict]:
 
 
 def league_analysis(games: list[CrowdGame], seasons: list[str]) -> dict | None:
-    """Everything the page shows for one league. ``seasons`` is newest first.
+    """Everything the page shows for one league, for its newest season in ``seasons`` (newest first).
 
     Games whose attendance is missing or zero must be left out by the caller.
     """
@@ -122,7 +122,6 @@ def league_analysis(games: list[CrowdGame], seasons: list[str]) -> dict | None:
     return {
         "season": latest,
         "current": lines[latest],
-        "seasons": [{"season": season, **lines[season]} for season in seasons if season in lines],
         "weekdays": weekday_rows(latest_games),
         "kickoffs": kickoff_rows(latest_games),
         "phases": phase_rows(latest_games),
