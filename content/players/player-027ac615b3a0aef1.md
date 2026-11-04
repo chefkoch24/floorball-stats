@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Eduards Meisters
 Category: players
 Slug: player-027ac615b3a0aef1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -44,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 80
+rank: 83
 season: lv-26-27

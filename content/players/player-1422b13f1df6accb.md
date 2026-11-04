@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: John Pettersson
 Category: players
 Slug: player-1422b13f1df6accb
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 5
+current_games: 9
+current_goals: 8
 current_assists: 0
-current_points: 5
+current_points: 8
 current_pim: 2
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 3
+cup_assists: 0
+cup_points: 3
+cup_pim: 0
 previous_games: 26
 previous_goals: 5
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 10
 career_assists: 3
 career_points: 13
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|7|5|0|5|2||se-25-26|regular-season|Sweden|Visby IBK|26|5|3|8|2
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|7|5|0|5|2||se-26-27|cup|Sweden|Visby IBK|2|3|0|3|0||se-25-26|regular-season|Sweden|Visby IBK|26|5|3|8|2
 assists: 0
 games: 7
 goals: 5

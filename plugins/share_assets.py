@@ -195,7 +195,9 @@ def collect(generator) -> None:
             spec = ("game", league_label, _meta(article, "home_team"), _meta(article, "away_team"), score, status,
                     logo(_meta(article, "home_team"), category, "share") or "", logo(_meta(article, "away_team"), category, "share") or "")
             _register_image(article, spec)
-            _register_game(article, league, settings)
+            if not category.endswith("-cup"):
+                # Team calendars and the form strip are league data; a cup game only gets its card.
+                _register_game(article, league, settings)
         elif article_type == "team":
             rank = _meta(article, "rank")
             points = _meta(article, "points")

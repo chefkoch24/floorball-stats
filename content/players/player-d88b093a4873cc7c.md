@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Simon Karlsson
 Category: players
 Slug: player-d88b093a4873cc7c
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
-current_goals: 0
+current_games: 9
+current_goals: 2
 current_assists: 0
-current_points: 0
+current_points: 2
 current_pim: 2
 regular_games: 6
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 12
 previous_goals: 3
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 3
 career_points: 6
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|6|0|0|0|2||se-25-26|regular-season|Sweden|Jönköpings IK|12|3|3|6|4
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|6|0|0|0|2||se-26-27|cup|Sweden|Jönköpings IK|3|2|0|2|0||se-25-26|regular-season|Sweden|Jönköpings IK|12|3|3|6|4
 assists: 0
 games: 6
 goals: 0

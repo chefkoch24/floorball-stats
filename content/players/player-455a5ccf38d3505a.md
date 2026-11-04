@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: David Hermle
 Category: players
 Slug: player-455a5ccf38d3505a
@@ -11,7 +11,7 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
+current_games: 7
 current_goals: 2
 current_assists: 0
 current_points: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 16
 previous_goals: 3
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 2
 career_points: 7
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|2|0|2|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|12|3|2|5|6||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|2|0|2|0||se-26-27|cup|Sweden|Växjö IBK|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|12|3|2|5|6||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|0
 assists: 0
 games: 6
 goals: 2

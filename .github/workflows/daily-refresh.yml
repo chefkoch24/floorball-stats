@@ -17,7 +17,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # The cups add about 50 minutes (Finland and Germany render pages in Chrome); the first run with them hit 90.
+    timeout-minutes: 180
 
     steps:
       # Scheduled runs often start hours late, so the gate must not look at the clock.
@@ -78,7 +79,10 @@ jobs:
           # surfaced as workflow warnings instead.
           # ceskyflorbal.cz blocks GitHub runners: Czech pages are built from the
           # events `make refresh-czech-local` syncs to Neon from a regular connection.
-          make refresh-all-leagues CZECH_PIPELINE_ARGS="--events_source db" 2>&1 | tee refresh.log
+          # The national cups come first, so their events are in Neon when the player stats are
+          # built (cup stats on the player pages). A Czech cup needs its events from the local job.
+          make refresh-cups CZECH_PIPELINE_ARGS="--events_source db" 2>&1 | tee refresh.log
+          make refresh-all-leagues CZECH_PIPELINE_ARGS="--events_source db" 2>&1 | tee -a refresh.log
           grep -E "\[WARN\] step failed" refresh.log | sed 's/^/::warning::/' || true
           rm -f refresh.log
 

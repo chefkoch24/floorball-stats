@@ -37,7 +37,7 @@
         // Men/women navigation: league pages pick their own division, other pages keep the last choice.
         var womenPrefixes = {{ WOMEN_LEAGUE_PREFIXES|tojson }};
         var path = window.location.pathname;
-        var phasePattern = '\\d{2}-\\d{2}-(?:regular-season|playoffs)';
+        var phasePattern = '\\d{2}-\\d{2}-(?:regular-season|playoffs|cup)';
         var division = null;
         if (womenPrefixes.some(function (prefix) { return new RegExp('[/-]' + prefix + phasePattern).test(path); })) {
             division = 'women';
@@ -134,6 +134,7 @@ if (window.Chart) {
                     <div class="nav-league__links">
                         {{ nav_phase_link(regular_slug, 'Regular Season', available_categories) }}
                         {{ nav_phase_link(playoffs_slug, 'Playoffs', available_categories) }}
+                        {% set cup_slug = league.prefix ~ nav_season ~ '-cup' %}{% if cup_slug in available_categories %}{{ nav_phase_link(cup_slug, 'Cup', available_categories) }}{% endif %}
                     </div>
                 </div>
                 {% endfor %}

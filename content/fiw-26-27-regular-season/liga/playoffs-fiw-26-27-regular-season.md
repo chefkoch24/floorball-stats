@@ -11,6 +11,7 @@ boxplay_first_period: 2.75
 boxplay_overtime: 0.0
 boxplay_per_game: 0.9
 boxplay_second_period: 2.12
+boxplay_seconds: 721.88
 boxplay_third_period: 2.5
 close_game_loss: 0.88
 close_game_overtime: 0.62
@@ -27,7 +28,11 @@ first_period_goals_against_per_game: 1.23
 first_period_goals_per_game: 1.64
 games: 8.25
 goal_difference: 15.38
+goal_difference_first_period: 3.5
+goal_difference_overtime: 0.25
 goal_difference_per_game: 1.8
+goal_difference_second_period: 5.62
+goal_difference_third_period: 6.0
 goals: 46.62
 goals_against: 31.25
 goals_against_away: 15.62
@@ -95,6 +100,7 @@ powerplay_first_period: 2.5
 powerplay_overtime: 0.0
 powerplay_per_game: 1.02
 powerplay_second_period: 2.62
+powerplay_seconds: 744.88
 powerplay_third_period: 3.25
 rank: 4.5
 record_type: playoff_averages

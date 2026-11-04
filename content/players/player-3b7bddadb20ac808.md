@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Noah Wiederkehr
 Category: players
 Slug: player-3b7bddadb20ac808
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 3
+current_games: 4
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 8
 previous_goals: 0
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|3|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|3|0|0|0|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|3|0|1|1|0
 assists: 0
 games: 3
 goals: 0

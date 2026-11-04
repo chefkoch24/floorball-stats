@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Max Bandrock
 Category: players
 Slug: player-3e2d53b34fb2f853
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 30
 previous_goals: 3
 previous_assists: 5
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|6|0|1|1|2||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|1|0|1|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|5|7|0
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|6|0|1|1|2||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|0|0|0|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|1|0|1|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|5|7|0
 assists: 1
 games: 6
 goals: 0

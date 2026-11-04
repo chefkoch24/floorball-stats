@@ -26,6 +26,7 @@ if str(ROOT) not in sys.path:
 
 import insights  # noqa: E402
 from src import player_insights as pi  # noqa: E402
+from src.competitions import is_cup_phase  # noqa: E402
 from src import power_rankings as pr  # noqa: E402
 from src import team_versus as tv  # noqa: E402
 
@@ -112,6 +113,8 @@ def build(generator) -> dict:
         context = league_context(category)
         if kind != "game" or not context or context["prefix"] not in leagues or insights._meta(article, "game_state") != "played":
             continue
+        if is_cup_phase(context["phase"]):
+            continue  # a cup game is not part of the league head to head (src/competitions.py)
         if not insights._meta(article, "home_team") or not insights._meta(article, "away_team"):
             continue
         duels[context["prefix"]].append(duel_of(article, context["season"], context["phase"]))

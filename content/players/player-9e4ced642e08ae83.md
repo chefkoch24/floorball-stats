@@ -1,21 +1,21 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Noah Johansson
 Category: players
 Slug: player-9e4ced642e08ae83
 type: player
 player: Noah Johansson
 player_uid: player-9e4ced642e08ae83
-team: Jönköpings IK
+team: Jönköpings IK / Vetlanda IBF / Jönköpings IK / Jönköpings IK
 league: Sweden
 season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 2
-current_assists: 5
-current_points: 7
-current_pim: 0
+current_games: 13
+current_goals: 6
+current_assists: 6
+current_points: 12
+current_pim: 2
 regular_games: 7
 regular_goals: 2
 regular_assists: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 6
+cup_goals: 4
+cup_assists: 1
+cup_points: 5
+cup_pim: 2
 previous_games: 22
 previous_goals: 14
 previous_assists: 23
@@ -36,7 +41,7 @@ career_goals: 16
 career_assists: 28
 career_points: 44
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|2|5|7|0||se-25-26|regular-season|Sweden|Jönköpings IK|22|14|23|37|4
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|2|5|7|0||se-26-27|cup|Sweden|Jönköpings IK / Vetlanda IBF / Jönköpings IK|6|4|1|5|2||se-25-26|regular-season|Sweden|Jönköpings IK|22|14|23|37|4
 assists: 5
 games: 7
 goals: 2

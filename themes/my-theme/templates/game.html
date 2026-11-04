@@ -16,6 +16,10 @@
     <div class="fs-scoreboard__head">
         <a class="fs-chip" href="{{ SITEURL }}/{{ category_url_override }}">{{ category_label }}</a>
         {% if article.playoff_round|default('') %}<span class="fs-chip">{{ article.playoff_round }}</span>{% endif %}
+        {% if current_category.endswith('-cup') %}
+        {% if article.competition_name|default('') %}<span class="fs-chip">{{ article.competition_name }}</span>{% endif %}
+        {% if article.tournament_stage_label|default('') %}<span class="fs-chip">{{ article.tournament_stage_label }}{% if article.tournament_group|default('') %} · {{ article.tournament_group }}{% endif %}</span>{% endif %}
+        {% endif %}
         {% if game_scheduled %}
         <span class="fs-status">Scheduled</span>
         {% else %}
@@ -74,7 +78,7 @@
     {% endif %}
     {% endif %}
     {% set versus_href = versus.href(current_category|league_context, article.home_team, article.away_team)|trim %}
-    {% if versus_href %}
+    {% if versus_href and not current_category.endswith('-cup') %}
     <div class="flex justify-center">
         <a class="fs-btn fs-btn--ghost" href="{{ versus_href }}">All meetings: {{ article.home_team|e }} vs {{ article.away_team|e }} →</a>
     </div>
@@ -112,17 +116,21 @@
 {% set has_final_score = article.home_goals is not none and article.away_goals is not none and has_result_string_score %}
 {% set is_upcoming_by_state = normalized_game_state in ['scheduled', 'upcoming', 'not_played', 'not played', 'not-played'] %}
 {% set is_upcoming_by_status = normalized_game_status in ['scheduled', 'upcoming', 'not played', 'not_played'] %}
-{% set default_pregame_tab = is_upcoming_by_state or (normalized_game_state != 'played' and (is_upcoming_by_status or not has_final_score)) %}
+{# Cup games have no league form to compare (the pre-game tab would show zeros), so they get the match view only. #}
+{% set is_cup_game = current_category.endswith('-cup') %}
+{% set default_pregame_tab = not is_cup_game and (is_upcoming_by_state or (normalized_game_state != 'played' and (is_upcoming_by_status or not has_final_score))) %}
 {% set home_form_codes = (article.pregame_h2h_form5_home_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_home_tag_codes_csv else [] %}
 {% set away_form_codes = (article.pregame_h2h_form5_away_tag_codes_csv|default('', true)).split(',') if article.pregame_h2h_form5_away_tag_codes_csv else [] %}
 {% set home_form_opponents = (article.pregame_h2h_form5_home_opponents_csv|default('', true)).split('||') if article.pregame_h2h_form5_home_opponents_csv else [] %}
 {% set away_form_opponents = (article.pregame_h2h_form5_away_opponents_csv|default('', true)).split('||') if article.pregame_h2h_form5_away_opponents_csv else [] %}
 
 <section>
+    {% if not is_cup_game %}
     <div class="games-tabs" id="game-view-tabs">
         <button type="button" class="games-tab{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-tab="match">Game Stats</button>
         <button type="button" class="games-tab{% if default_pregame_tab %} is-active{% endif %}" data-game-view-tab="pregame">Pre-Game H2H</button>
     </div>
+    {% endif %}
 
     <div class="games-tab-panel{% if not default_pregame_tab %} is-active{% endif %}" data-game-view-panel="match">
         <section class="kpi-grid">
@@ -195,7 +203,8 @@
         </section>
     </div>
 
-    <div class="games-tab-panel{% if default_pregame_tab %} is-active{% endif %}" data-game-view-panel="pregame">
+    {% if not is_cup_game %}
+<div class="games-tab-panel{% if default_pregame_tab %} is-active{% endif %}" data-game-view-panel="pregame">
         <section class="section-grid">
             <article class="panel">
                 <h2 class="panel-title">General Season Performance</h2>
@@ -295,6 +304,7 @@
 
         </section>
     </div>
+    {% endif %}
 </section>
 
 <script>
@@ -495,8 +505,10 @@ if (gameEventsTimeline) {
 </script>
 
 {% if article.seo_goals %}
-<section class="panel">
-    <h2 class="panel-title">Goals and scorers</h2>
-    <ol>{% for event in article.seo_goals %}<li>{{ event.minute|e }} · {{ event.score|e }} · {% if event.title_url %}<a href="{{ SITEURL }}/{{ event.title_url|e }}">{{ event.title|e }}</a>{% else %}{{ event.title|e }}{% endif %}{% if event.assist %} (assist: {% if event.assist_url %}<a href="{{ SITEURL }}/{{ event.assist_url|e }}">{{ event.assist|e }}</a>{% else %}{{ event.assist|e }}{% endif %}){% endif %}</li>{% endfor %}</ol>
-</section>
+<details class="stat-guide stat-guide--text">
+    <summary>Goals and scorers</summary>
+    <div class="stat-guide__content">
+        <ol>{% for event in article.seo_goals %}<li>{{ event.minute|e }} · {{ event.score|e }} · {% if event.title_url %}<a href="{{ SITEURL }}/{{ event.title_url|e }}">{{ event.title|e }}</a>{% else %}{{ event.title|e }}{% endif %}{% if event.assist %} (assist: {% if event.assist_url %}<a href="{{ SITEURL }}/{{ event.assist_url|e }}">{{ event.assist|e }}</a>{% else %}{{ event.assist|e }}{% endif %}){% endif %}</li>{% endfor %}</ol>
+    </div>
+</details>
 {% endif %}

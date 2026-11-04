@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Kimmo Reich
 Category: players
 Slug: player-cfd8f4600077e73b
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 0
+current_games: 10
+current_goals: 1
 current_assists: 2
-current_points: 2
+current_points: 3
 current_pim: 2
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 27
 previous_goals: 1
 previous_assists: 4
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 6
 career_points: 7
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|0|2|2|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|7|1|0|1|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|20|0|4|4|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|0|2|2|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|0|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|7|1|0|1|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|20|0|4|4|4
 assists: 2
 games: 7
 goals: 0

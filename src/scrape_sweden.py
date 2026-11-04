@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -8,6 +9,7 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+from src.competitions import STAGE_ELIMINATION, STAGE_GROUP, cup_columns
 from src.http_client import request_with_retries
 from src.scheduled_games import build_scheduled_game_row
 
@@ -127,6 +129,56 @@ def expand_competition_ids_by_category(competition_ids: list[int], federation_id
     # Never fall back to a regular-season competition: before the playoff series
     # are published this returns an empty list.
     return sorted(expanded or playoff_ids)
+
+
+def _current_season_id(api_root: str, headers: dict[str, str]) -> int:
+    response = request_with_retries("GET", f"{api_root}seasons", headers=headers, timeout=30)
+    for season in response.json():
+        if season.get("IsCurrentSeason"):
+            return int(season["SeasonID"])
+    raise RuntimeError("StatsApp API lists no current season")
+
+
+def fetch_cup_competition_ids(category_id: int, season_id: int | None = None) -> list[int]:
+    """All competitions (rounds, groups, semifinals) of a cup category in one season.
+
+    The cups ("Svenska Cupen Herrar" 7012, "Svenska Cupen Damer" 7013) are not part of
+    the federation competition list, only of the tournament (category) listing.
+    """
+    cfg = _get_api_config()
+    headers = _auth_headers(cfg.token)
+    season = season_id or _current_season_id(cfg.api_root, headers)
+    response = request_with_retries(
+        "GET",
+        f"{cfg.api_root}seasons/{season}/competitioncategories/{category_id}/competitionswithmatchesandstandings",
+        headers=headers,
+        timeout=60,
+    )
+    payload = response.json()
+    competitions = payload if isinstance(payload, list) else []
+    return sorted({int(item["CompetitionID"]) for item in competitions if item.get("CompetitionID") is not None})
+
+
+def _cup_fields(match: dict[str, Any], cup_name: str | None) -> dict[str, Any]:
+    """Cup marker columns of a match.
+
+    Every round is its own competition ("Svenska Cupen Herrar Omg 2 Grupp A",
+    "... Kvartsfinaler", "... Semifinal 1"); the stage label is the name without the
+    cup name and group. ``RoundName`` of a match is the matchday inside that competition.
+    """
+    competition = str(match.get("CompetitionName") or "").strip()
+    group = re.search(r"\bGrupp\s+(\w+)\s*$", competition)
+    label = competition
+    if cup_name and label.lower().startswith(cup_name.lower()):
+        label = label[len(cup_name):]
+    label = re.sub(r"\bGrupp\s+\w+\s*$", "", label).strip()
+    label = re.sub(r"^Omg\b\.?", "Omgång", label)
+    return cup_columns(
+        cup_name or competition or None,
+        stage_type=STAGE_GROUP if group else STAGE_ELIMINATION,
+        stage_label=label or None,
+        group=f"Grupp {group.group(1)}" if group else None,
+    )
 
 
 def _safe_split_datetime(dt: str | None) -> tuple[str | None, str | None]:
@@ -293,21 +345,27 @@ def scrape_competitions_events(
     competition_ids: list[int],
     output_path: str,
     include_unplayed: bool = False,
+    cup_name: str | None = None,
+    cup: bool = False,
 ) -> pd.DataFrame:
+    """Events of several competitions; ``cup=True`` marks every row with its cup round/group."""
     cfg = _get_api_config()
     headers = _auth_headers(cfg.token)
 
     all_rows: list[dict[str, Any]] = []
     seen_match_ids: set[int] = set()
+    listed_matches: dict[Any, dict[str, Any]] = {}
     for competition_id in competition_ids:
         matches_url = f"{cfg.api_root}competitions/{competition_id}/matches"
         matches_response = request_with_retries("GET", matches_url, headers=headers, timeout=30)
         matches = matches_response.json()
+        competition_detail_name = _fetch_competition(cfg.api_root, headers, competition_id).get("Name") if cup else None
 
         for match in tqdm(matches, desc=f"competition {competition_id}"):
             match_id = match.get("MatchID")
             if not match_id or match_id in seen_match_ids:
                 continue
+            listed_matches[match_id] = {**match, "CompetitionName": match.get("CompetitionName") or competition_detail_name}
 
             if not include_unplayed:
                 results = match.get("Results") or []
@@ -358,8 +416,15 @@ def scrape_competitions_events(
             for event in events:
                 row = _event_to_row(event, match_detail)
                 if row:
+                    if cup:
+                        row.update(_cup_fields(match_detail, cup_name))
                     all_rows.append(row)
             seen_match_ids.add(match_id)
+
+    if cup:
+        for row in all_rows:
+            if not row.get("competition_name"):
+                row.update(_cup_fields(listed_matches.get(row["game_id"]) or {}, cup_name))
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Anton Gröön
 Category: players
 Slug: player-1bdb2c64f32a1221
@@ -11,7 +11,7 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 37
 previous_goals: 0
 previous_assists: 6
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 6
 career_points: 6
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|5|0|0|0|0||se-25-26|playoffs|Sweden|Linköping IBK|11|0|1|1|0||se-25-26|regular-season|Sweden|Linköping IBK|26|0|5|5|0
+history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|5|0|0|0|0||se-26-27|cup|Sweden|Linköping IBK|1|0|0|0|0||se-25-26|playoffs|Sweden|Linköping IBK|11|0|1|1|0||se-25-26|regular-season|Sweden|Linköping IBK|26|0|5|5|0
 assists: 0
 games: 5
 goals: 0

@@ -86,6 +86,7 @@ home_boxplay_efficiency: n.a.
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
+home_boxplay_seconds: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -150,6 +151,7 @@ home_powerplay_efficiency: 25.0
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
+home_powerplay_seconds: 474
 home_powerplay_third_period: 2
 home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
@@ -161,6 +163,7 @@ away_boxplay_efficiency: 75.0
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
+away_boxplay_seconds: 474
 away_boxplay_third_period: 2
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -225,6 +228,7 @@ away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
+away_powerplay_seconds: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 1
@@ -237,7 +241,9 @@ home_pregame_boxplay_first_period: 0
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.0
 home_pregame_boxplay_second_period: 2
+home_pregame_boxplay_seconds: 172
 home_pregame_boxplay_third_period: 0
+home_pregame_boxplay_time: 2:52
 home_pregame_close_game_loss: 0
 home_pregame_close_game_overtime: 0
 home_pregame_close_game_points_per_game: 2.5
@@ -253,7 +259,11 @@ home_pregame_first_period_goals_against_per_game: 1.0
 home_pregame_first_period_goals_per_game: 1.5
 home_pregame_games: 2
 home_pregame_goal_difference: 2
+home_pregame_goal_difference_first_period: 1
+home_pregame_goal_difference_overtime: 0
 home_pregame_goal_difference_per_game: 1.0
+home_pregame_goal_difference_second_period: 2
+home_pregame_goal_difference_third_period: -2
 home_pregame_goals: 14
 home_pregame_goals_against: 12
 home_pregame_goals_against_away: 7
@@ -319,6 +329,7 @@ home_pregame_points_against_fbc_clt_ceska_lipa: 2
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 home_pregame_points_against_fbc_liberec: 3
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3
+home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 home_pregame_points_against_kanonyri_kladno: 2
 home_pregame_points_max_difference_2: 5
 home_pregame_points_more_2_difference: 0
@@ -329,7 +340,10 @@ home_pregame_powerplay_first_period: 0
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 0.5
 home_pregame_powerplay_second_period: 1
+home_pregame_powerplay_seconds: 99
 home_pregame_powerplay_third_period: 0
+home_pregame_powerplay_time: 1:39
+home_pregame_powerplay_time_per_goal: 1:39
 home_pregame_scoring_ratio: 1.17
 home_pregame_take_the_lead_goals: 5
 home_pregame_take_the_lead_goals_against: 5
@@ -342,7 +356,9 @@ away_pregame_boxplay_first_period: 0
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 2.0
 away_pregame_boxplay_second_period: 2
+away_pregame_boxplay_seconds: 218
 away_pregame_boxplay_third_period: 2
+away_pregame_boxplay_time: 3:38
 away_pregame_close_game_loss: 1
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 0.0
@@ -358,7 +374,11 @@ away_pregame_first_period_goals_against_per_game: 1.5
 away_pregame_first_period_goals_per_game: 0.5
 away_pregame_games: 2
 away_pregame_goal_difference: -4
+away_pregame_goal_difference_first_period: -2
+away_pregame_goal_difference_overtime: 0
 away_pregame_goal_difference_per_game: -2.0
+away_pregame_goal_difference_second_period: -2
+away_pregame_goal_difference_third_period: 0
 away_pregame_goals: 7
 away_pregame_goals_against: 11
 away_pregame_goals_against_away: 4
@@ -434,7 +454,10 @@ away_pregame_powerplay_first_period: 1
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 1.5
 away_pregame_powerplay_second_period: 1
+away_pregame_powerplay_seconds: 286
 away_pregame_powerplay_third_period: 1
+away_pregame_powerplay_time: 4:46
+away_pregame_powerplay_time_per_goal: 4:46
 away_pregame_scoring_ratio: 0.64
 away_pregame_take_the_lead_goals: 1
 away_pregame_take_the_lead_goals_against: 4

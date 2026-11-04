@@ -23,6 +23,8 @@ PLUGINS = [
     'share_assets',
     # team rosters on team pages, team links on player pages
     'rosters',
+    # cup games on the team pages of the league season
+    'cup_games',
     # cross-league leaderboards for the leaders page
     'leaders',
     # clutch stats, scoring duos, Elo power ratings and season projections
@@ -97,6 +99,10 @@ COMPETITIONS = [
     {'prefix': 'cc-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup', 'division': 'men', 'phase': 'playoffs'},
     {'prefix': 'ccw-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup Women', 'division': 'women', 'phase': 'playoffs'},
 ]
+# National cups (src/competitions.py): one "<prefix><season>-cup" category per league prefix
+# with game pages only. They stay outside SEASON_PHASES, so tables, leaders and the
+# regular-season/playoff navigation never see them.
+CUP_PREFIXES = ['se-', 'sew-', 'ch-', 'chw-', 'cz-', 'czw-', 'fi-', 'fiw-', '', 'dew-']
 WOMEN_LEAGUE_PREFIXES = [
     league['prefix'] for league in LEAGUES + COMPETITIONS if league['division'] == 'women'
 ]
@@ -115,6 +121,10 @@ ARTICLE_PATHS = ['22-23-regular-season/teams', '22-23-regular-season/liga', '22-
                  for season in SEASONS
                  for competition in COMPETITIONS
                  for kind in ('teams', 'liga', 'games')
+                 ] + [
+                 f"{prefix}{season}-cup/games"
+                 for season in SEASONS
+                 for prefix in CUP_PREFIXES
                  ] + [
                  'wfc-2024-regular-season/teams',
                  'wfc-2024-regular-season/games',
@@ -244,7 +254,7 @@ def _slug_parts(slug):
 
 
 def homepage_games(articles):
-    """Small timezone-tolerant window, plus the next matchday per division."""
+    """Games inside the date strip's window, plus the next matchday per division."""
     games = []
     divisions = {}
     for article in articles:
@@ -256,7 +266,7 @@ def homepage_games(articles):
         games.append(article)
         if article.date.date() > BUILD_DATE:
             divisions[division] = min(divisions.get(division, article.date.date()), article.date.date())
-    return [article for article in games if abs((article.date.date() - BUILD_DATE).days) <= 2
+    return [article for article in games if abs((article.date.date() - BUILD_DATE).days) <= HOME_GAMES_WINDOW_DAYS
             or article.date.date() in divisions.values()]
 
 
@@ -269,7 +279,9 @@ def category_seo_label(slug):
     season = '/'.join(str(2000 + int(part)) for part in context['season'].split('-'))
     phase = context['phase'].removesuffix('-players').replace('-', ' ').title()
     division = 'Women' if context['division'] == 'women' else 'Men'
-    return f"{context['title']} {division} {season} {phase}"
+    # A national cup is not part of the league ("Sweden · SSL" would mislabel Svenska Cupen).
+    title = context['name'] if context['phase'] == 'cup' else context['title']
+    return f"{title} {division} {season} {phase}"
 
 
 def league_watch_path(slug):
@@ -346,6 +358,8 @@ def crest_index(name):
 
 # Only curated, explicitly reviewed records may be displayed.
 BUILD_DATE = datetime.now(ZoneInfo('Europe/Berlin')).date()
+# Days either side of BUILD_DATE whose games the home page inlines for its date strip.
+HOME_GAMES_WINDOW_DAYS = 10
 TEAM_LOGOS_PATH = Path(__file__).resolve().parent / 'config' / 'team_logos.json'
 TEAM_LOGOS_ASSET_DIR = Path(__file__).resolve().parent / 'themes' / 'my-theme' / 'static' / 'team-logos'
 

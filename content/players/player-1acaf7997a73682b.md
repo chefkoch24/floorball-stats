@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Alexander Hedlund
 Category: players
 Slug: player-1acaf7997a73682b
@@ -11,11 +11,11 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 3
+current_games: 8
+current_goals: 4
 current_assists: 7
-current_points: 10
-current_pim: 2
+current_points: 11
+current_pim: 4
 regular_games: 7
 regular_goals: 3
 regular_assists: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 2
 previous_games: 25
 previous_goals: 20
 previous_assists: 28
@@ -36,7 +41,7 @@ career_goals: 23
 career_assists: 35
 career_points: 58
 career_pim: 10
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|3|7|10|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|3|3|3|6|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|17|25|42|4
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|7|3|7|10|2||se-26-27|cup|Sweden|IBK Dalen|1|1|0|1|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|3|3|3|6|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|17|25|42|4
 assists: 7
 games: 7
 goals: 3

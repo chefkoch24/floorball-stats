@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Matthias Flatten
 Category: players
 Slug: player-de1f7e19fa404dac
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 3
+current_games: 4
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 16
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|3|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|0|0|0|0||25-26|regular-season|Germany|DJK Holzbüttgen|13|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|3|0|0|0|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|0|0|0|0||25-26|regular-season|Germany|DJK Holzbüttgen|13|0|0|0|0
 assists: 0
 games: 3
 goals: 0

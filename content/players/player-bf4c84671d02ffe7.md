@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Joel Nyström
 Category: players
 Slug: player-bf4c84671d02ffe7
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 10
 current_goals: 0
-current_assists: 6
-current_points: 6
+current_assists: 8
+current_points: 8
 current_pim: 2
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 2
+cup_points: 2
+cup_pim: 0
 previous_games: 26
 previous_goals: 0
 previous_assists: 4
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 10
 career_points: 10
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|0|6|6|2||se-25-26|regular-season|Sweden|Jönköpings IK|26|0|4|4|2
+history_rows_csv: se-26-27|regular-season|Sweden|Jönköpings IK|7|0|6|6|2||se-26-27|cup|Sweden|Jönköpings IK|3|0|2|2|0||se-25-26|regular-season|Sweden|Jönköpings IK|26|0|4|4|2
 assists: 6
 games: 7
 goals: 0

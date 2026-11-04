@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Wilmer Jansson
 Category: players
 Slug: player-0bfac0ea34ed56f3
@@ -11,7 +11,7 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 6
+current_games: 8
 current_goals: 1
 current_assists: 2
 current_points: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 6
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|1|2|3|4||se-25-26|playoffs|Sweden|Växjö IBK|1|0|0|0|0||se-25-26|regular-season|Sweden|Växjö IBK|5|0|0|0|0
+history_rows_csv: se-26-27|regular-season|Sweden|Växjö IBK|6|1|2|3|4||se-26-27|cup|Sweden|Växjö IBK|2|0|0|0|0||se-25-26|playoffs|Sweden|Växjö IBK|1|0|0|0|0||se-25-26|regular-season|Sweden|Växjö IBK|5|0|0|0|0
 assists: 2
 games: 6
 goals: 1

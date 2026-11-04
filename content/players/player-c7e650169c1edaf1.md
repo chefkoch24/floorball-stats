@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Simon Steiner
 Category: players
 Slug: player-c7e650169c1edaf1
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 7
-current_assists: 4
-current_points: 11
+current_games: 9
+current_goals: 9
+current_assists: 6
+current_points: 15
 current_pim: 0
 regular_games: 7
 regular_goals: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 2
+cup_points: 4
+cup_pim: 0
 previous_games: 26
 previous_goals: 21
 previous_assists: 8
@@ -36,7 +41,7 @@ career_goals: 28
 career_assists: 12
 career_points: 40
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|7|4|11|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|4|2|6|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|17|6|23|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|7|4|11|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|2|2|4|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|4|2|6|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|17|6|23|4
 assists: 4
 games: 7
 goals: 7

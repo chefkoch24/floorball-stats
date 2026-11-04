@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Tim Nyander
 Category: players
 Slug: player-f7d11fddc0c49e8c
@@ -26,6 +26,11 @@ playoff_goals: 3
 playoff_assists: 0
 playoff_points: 3
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

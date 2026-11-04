@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Nico Moser
 Category: players
 Slug: player-39a8b01d3b2631de
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 10
 current_goals: 1
-current_assists: 2
-current_points: 3
+current_assists: 3
+current_points: 4
 current_pim: 2
 regular_games: 7
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 18
 previous_goals: 4
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 4
 career_points: 9
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|7|1|2|3|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|18|4|2|6|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|7|1|2|3|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|0|1|1|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|18|4|2|6|0
 assists: 2
 games: 7
 goals: 1

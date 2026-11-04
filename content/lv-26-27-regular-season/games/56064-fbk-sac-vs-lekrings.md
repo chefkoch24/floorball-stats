@@ -84,6 +84,7 @@ home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
+home_boxplay_seconds: 120
 home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
@@ -148,6 +149,7 @@ home_powerplay_efficiency: 66.67
 home_powerplay_first_period: 1
 home_powerplay_overtime: 0
 home_powerplay_second_period: 1
+home_powerplay_seconds: 237
 home_powerplay_third_period: 1
 home_take_the_lead_goals: 4
 home_take_the_lead_goals_against: 0
@@ -159,6 +161,7 @@ away_boxplay_efficiency: 33.33
 away_boxplay_first_period: 1
 away_boxplay_overtime: 0
 away_boxplay_second_period: 1
+away_boxplay_seconds: 237
 away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
@@ -223,6 +226,7 @@ away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
+away_powerplay_seconds: 120
 away_powerplay_third_period: 1
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 4
@@ -235,7 +239,9 @@ home_pregame_boxplay_first_period: 2
 home_pregame_boxplay_overtime: 0
 home_pregame_boxplay_per_game: 1.14
 home_pregame_boxplay_second_period: 1
+home_pregame_boxplay_seconds: 649
 home_pregame_boxplay_third_period: 5
+home_pregame_boxplay_time: 10:49
 home_pregame_close_game_loss: 0
 home_pregame_close_game_overtime: 0
 home_pregame_close_game_points_per_game: 3.0
@@ -251,7 +257,11 @@ home_pregame_first_period_goals_against_per_game: 1.57
 home_pregame_first_period_goals_per_game: 1.14
 home_pregame_games: 7
 home_pregame_goal_difference: -26
+home_pregame_goal_difference_first_period: -3
+home_pregame_goal_difference_overtime: 0
 home_pregame_goal_difference_per_game: -3.71
+home_pregame_goal_difference_second_period: -9
+home_pregame_goal_difference_third_period: -14
 home_pregame_goals: 24
 home_pregame_goals_against: 50
 home_pregame_goals_against_away: 7
@@ -315,7 +325,7 @@ home_pregame_points_against_fk_kursi: 0
 home_pregame_points_against_fk_talsi_tnss_krauzers: 0
 home_pregame_points_against_kekava_rb_b: 3
 home_pregame_points_against_lekrings: 3
-home_pregame_points_against_lielvarde_unihoc: 3
+home_pregame_points_against_lielvarde_unihoc: 6
 home_pregame_points_against_masters_ulbroka_lu: 0
 home_pregame_points_against_rubene: 0
 home_pregame_points_max_difference_2: 6
@@ -327,7 +337,10 @@ home_pregame_powerplay_first_period: 4
 home_pregame_powerplay_overtime: 0
 home_pregame_powerplay_per_game: 2.71
 home_pregame_powerplay_second_period: 6
+home_pregame_powerplay_seconds: 1690
 home_pregame_powerplay_third_period: 9
+home_pregame_powerplay_time: 28:10
+home_pregame_powerplay_time_per_goal: 3:31
 home_pregame_scoring_ratio: 0.48
 home_pregame_take_the_lead_goals: 8
 home_pregame_take_the_lead_goals_against: 9
@@ -340,7 +353,9 @@ away_pregame_boxplay_first_period: 1
 away_pregame_boxplay_overtime: 0
 away_pregame_boxplay_per_game: 1.29
 away_pregame_boxplay_second_period: 6
+away_pregame_boxplay_seconds: 804
 away_pregame_boxplay_third_period: 2
+away_pregame_boxplay_time: 13:24
 away_pregame_close_game_loss: 0
 away_pregame_close_game_overtime: 0
 away_pregame_close_game_points_per_game: 3.0
@@ -356,7 +371,11 @@ away_pregame_first_period_goals_against_per_game: 0.86
 away_pregame_first_period_goals_per_game: 1.29
 away_pregame_games: 7
 away_pregame_goal_difference: 9
+away_pregame_goal_difference_first_period: 3
+away_pregame_goal_difference_overtime: 1
 away_pregame_goal_difference_per_game: 1.29
+away_pregame_goal_difference_second_period: 0
+away_pregame_goal_difference_third_period: 5
 away_pregame_goals: 37
 away_pregame_goals_against: 28
 away_pregame_goals_against_away: 11
@@ -432,7 +451,10 @@ away_pregame_powerplay_first_period: 5
 away_pregame_powerplay_overtime: 0
 away_pregame_powerplay_per_game: 2.14
 away_pregame_powerplay_second_period: 5
+away_pregame_powerplay_seconds: 1248
 away_pregame_powerplay_third_period: 5
+away_pregame_powerplay_time: 20:48
+away_pregame_powerplay_time_per_goal: 4:10
 away_pregame_scoring_ratio: 1.32
 away_pregame_take_the_lead_goals: 10
 away_pregame_take_the_lead_goals_against: 9

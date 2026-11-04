@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Setti Roimela
 Category: players
 Slug: player-cb1174c955c8e49f
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 4
-current_goals: 4
-current_assists: 3
-current_points: 7
+current_games: 5
+current_goals: 7
+current_assists: 4
+current_points: 11
 current_pim: 0
 regular_games: 4
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 3
+cup_assists: 1
+cup_points: 4
+cup_pim: 0
 previous_games: 6
 previous_goals: 4
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 8
 career_assists: 6
 career_points: 14
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|4|4|3|7|0||fi-25-26|regular-season|Finland|Indians|6|4|3|7|0
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|4|4|3|7|0||fi-26-27|cup|Finland|Indians|1|3|1|4|0||fi-25-26|regular-season|Finland|Indians|6|4|3|7|0
 assists: 3
 games: 4
 goals: 4
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 61
+rank: 63
 season: fi-26-27

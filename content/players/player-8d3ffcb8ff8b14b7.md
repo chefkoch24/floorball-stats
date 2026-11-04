@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Sakarias Ulriksson
 Category: players
 Slug: player-8d3ffcb8ff8b14b7
@@ -11,10 +11,10 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 11
-current_assists: 6
-current_points: 17
+current_games: 9
+current_goals: 17
+current_assists: 7
+current_points: 24
 current_pim: 4
 regular_games: 7
 regular_goals: 11
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 6
+cup_assists: 1
+cup_points: 7
+cup_pim: 0
 previous_games: 36
 previous_goals: 55
 previous_assists: 32
@@ -36,7 +41,7 @@ career_goals: 68
 career_assists: 40
 career_points: 108
 career_pim: 26
-history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK|7|11|6|17|4||se-25-26|playoffs|Sweden|Storvreta IBK|10|10|6|16|4||se-25-26|regular-season|Sweden|Storvreta IBK|26|45|26|71|14||wfc-2024|tournament|IFF WFC|Sweden|6|2|2|4|4
+history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK|7|11|6|17|4||se-26-27|cup|Sweden|Storvreta IBK|2|6|1|7|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|10|6|16|4||se-25-26|regular-season|Sweden|Storvreta IBK|26|45|26|71|14||wfc-2024|tournament|IFF WFC|Sweden|6|2|2|4|4
 assists: 6
 games: 7
 goals: 11

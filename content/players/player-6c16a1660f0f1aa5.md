@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Matīss Kristiāns Millers
 Category: players
 Slug: player-6c16a1660f0f1aa5
@@ -26,6 +26,11 @@ playoff_goals: 4
 playoff_assists: 1
 playoff_points: 5
 playoff_pim: 6
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

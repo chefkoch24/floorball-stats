@@ -1,20 +1,20 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Oliver Sandberg
 Category: players
 Slug: player-30001ce148b6ee4d
 type: player
 player: Oliver Sandberg
 player_uid: player-30001ce148b6ee4d
-team: IBF Falun
+team: IBF Falun / KAIS Mora UIF / IBF Falun / IBF Falun
 league: Sweden
 season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 3
-current_assists: 2
-current_points: 5
+current_games: 10
+current_goals: 4
+current_assists: 4
+current_points: 8
 current_pim: 0
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 1
+cup_assists: 2
+cup_points: 3
+cup_pim: 0
 previous_games: 36
 previous_goals: 27
 previous_assists: 15
@@ -36,7 +41,7 @@ career_goals: 30
 career_assists: 17
 career_points: 47
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|3|2|5|0||se-25-26|playoffs|Sweden|IBF Falun|11|2|2|4|2||se-25-26|regular-season|Sweden|IBF Falun|25|25|13|38|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|3|2|5|0||se-26-27|cup|Sweden|IBF Falun / KAIS Mora UIF / IBF Falun|3|1|2|3|0||se-25-26|playoffs|Sweden|IBF Falun|11|2|2|4|2||se-25-26|regular-season|Sweden|IBF Falun|25|25|13|38|0
 assists: 2
 games: 7
 goals: 3

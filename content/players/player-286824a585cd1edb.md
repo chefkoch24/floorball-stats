@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Marcel Schulze
 Category: players
 Slug: player-286824a585cd1edb
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 0
 current_points: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 8
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|7|1|0|1|2||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|6|0|0|0|2
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|7|1|0|1|2||26-27|cup|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|6|0|0|0|2
 assists: 0
 games: 7
 goals: 1

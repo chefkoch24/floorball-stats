@@ -182,6 +182,9 @@
     color: var(--rink);
     font: 800 11px/1 var(--font-display);
   }
+  /* Plain-text list kept in the HTML for crawlers: closed by default, no "i" badge. */
+  .stat-guide--text summary::before { display: none; }
+  .stat-guide--text ol { margin: 0; padding-left: var(--space-6); }
   .stat-guide[open] summary { border-bottom: 1px solid var(--line); }
   .stat-guide__content { padding: var(--space-3) var(--space-4) var(--space-4); }
   .stat-guide__intro { margin: 0 0 var(--space-2); color: var(--ink-muted); font-size: 14px; }

@@ -1,0 +1,88 @@
+{# National cup: results by round, on the same design system as the league page (league_v2.html).
+   No table, league report or team pages (src/competitions.py). #}
+{% from 'team_crest.html' import crest with context %}
+{% set cup = namespace(games=0, upcoming=0, rounds=[], competition='') %}
+{% for game in articles_page.object_list|sort(attribute='date') %}
+    {% if game.type == 'game' %}
+        {% if game.game_state|default('played')|string|lower == 'scheduled' %}{% set cup.upcoming = cup.upcoming + 1 %}{% else %}{% set cup.games = cup.games + 1 %}{% endif %}
+        {% set round_name = game.tournament_stage_label|default('Games')|string %}
+        {% if round_name not in cup.rounds %}{% set cup.rounds = cup.rounds + [round_name] %}{% endif %}
+        {% if not cup.competition and game.competition_name|default('') %}{% set cup.competition = game.competition_name|string %}{% endif %}
+    {% endif %}
+{% endfor %}
+
+{% macro decision(game) -%}
+{%- set ps = (game.home_goals_in_penalty_shootout|default(0)|int) + (game.away_goals_in_penalty_shootout|default(0)|int) -%}
+{%- set ot = (game.home_goals_in_overtime|default(0)|int) + (game.away_goals_in_overtime|default(0)|int) -%}
+{%- if ps > 0 or 'n.P.' in game.result_string|default('')|string %}PS{% elif ot > 0 or 'n.V.' in game.result_string|default('')|string %}OT{% endif -%}
+{%- endmacro %}
+
+{% macro team_label(name) -%}
+<span class="fs-team">{{ crest(name, category.shortname, '') }}<span>{{ name }}</span></span>
+{%- endmacro %}
+
+{% macro match_card(game) -%}
+{%- set scheduled = game.game_state|default('played')|string|lower == 'scheduled' -%}
+{%- set hg = game.home_goals|default(0)|int -%}
+{%- set ag = game.away_goals|default(0)|int -%}
+{%- set extra = decision(game) -%}
+<a class="fs-match" href="{{ SITEURL }}/{{ game.url }}">
+    <div class="fs-match__meta">
+        <span>{{ game.date.strftime('%a %d %b') if game.date else '–' }}{% if game.tournament_group|default('') %} · {{ game.tournament_group }}{% endif %}</span>
+        {% if scheduled %}
+        <span class="fs-status">{{ game.start_time|fmt_time('TBD') }}</span>
+        {% else %}
+        <span class="fs-status fs-status--final">Final{% if extra %} · {{ extra }}{% endif %}</span>
+        {% endif %}
+    </div>
+    <div class="fs-match__teams">
+        <span class="{% if not scheduled and hg < ag %}fs-match__loser{% endif %}">{{ team_label(game.home_team) }}</span>
+        <span class="{% if not scheduled and ag < hg %}fs-match__loser{% endif %}">{{ team_label(game.away_team) }}</span>
+    </div>
+    <div class="fs-match__scores">
+        {% if scheduled %}<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>
+        {% else %}<span class="{% if hg < ag %}fs-match__loser{% endif %}">{{ hg }}</span><span class="{% if ag < hg %}fs-match__loser{% endif %}">{{ ag }}</span>{% endif %}
+    </div>
+</a>
+{%- endmacro %}
+
+<header class="mb-8 grid gap-5">
+    <div class="flex flex-wrap items-center gap-2">
+        {% if league %}<span class="fs-chip">{{ 'Women' if league.division == 'women' else 'Men' }}</span>
+        <span class="fs-chip">Season <strong>{{ league.season_label }}</strong></span>{% endif %}
+    </div>
+    <div class="flex flex-wrap items-end justify-between gap-x-6 gap-y-4">
+        <div class="grid gap-1">
+            <p class="fs-label m-0">{{ league.name if league else category_label }}</p>
+            <h1 class="m-0 font-display text-[44px] leading-none font-extrabold text-ink [font-stretch:75%] text-balance sm:text-[56px]">{{ cup.competition or category_label }}</h1>
+        </div>
+        {% if league %}
+        {% set available = categories|default([])|category_slugs %}
+        {% set regular_slug = league.prefix ~ league.season ~ '-regular-season' %}
+        {% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
+        <nav class="fs-segmented" aria-label="Season phase">
+            {% if regular_slug in available %}<a class="fs-segment" href="{{ SITEURL }}/category/{{ regular_slug }}.html">Regular season</a>{% endif %}
+            {% if playoffs_slug in available %}<a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>
+            {% else %}<span class="fs-segment cursor-default opacity-60" title="Playoffs have not started yet">Playoffs</span>{% endif %}
+            <a class="fs-segment" aria-current="page" href="{{ SITEURL }}/{{ category.url }}">Cup</a>
+        </nav>
+        {% endif %}
+    </div>
+    <dl class="m-0 flex flex-wrap gap-x-8 gap-y-2">
+        <div class="grid"><dt class="fs-label">Games played</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ cup.games }}{% if cup.upcoming %} <span class="text-base font-medium text-ink-muted">of {{ cup.games + cup.upcoming }}</span>{% endif %}</dd></div>
+        <div class="grid"><dt class="fs-label">Rounds</dt><dd class="m-0 font-display text-2xl font-bold tabular-nums">{{ cup.rounds|length }}</dd></div>
+    </dl>
+</header>
+
+<p class="text-ink-muted">Cup games are kept apart from the league table, league averages, leaders and player rankings.</p>
+
+{% for round_name in cup.rounds|reverse %}
+<section class="mt-10 grid gap-4" aria-labelledby="round-{{ loop.index }}">
+    <h2 id="round-{{ loop.index }}" class="fs-section-title">{{ round_name }}</h2>
+    <div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        {% for game in articles_page.object_list|sort(attribute='date', reverse=true) %}
+        {% if game.type == 'game' and game.tournament_stage_label|default('Games')|string == round_name %}{{ match_card(game) }}{% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}

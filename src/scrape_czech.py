@@ -12,6 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from src.competitions import STAGE_ELIMINATION, cup_columns, is_cup_phase
 from src.scheduled_games import build_scheduled_game_row
 
 
@@ -573,7 +574,10 @@ def scrape_competition(
     season_start_year: int,
     include_unplayed: bool = False,
     phase: str = "regular-season",
+    cup_name: str | None = None,
 ) -> pd.DataFrame:
+    """Events of the listed matches. ``phase='cup'`` keeps every round (Pohár ČF) and marks rows with its name."""
+    cup = is_cup_phase(phase)
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
     all_matches: list[MatchSummary] = []
@@ -590,15 +594,18 @@ def scrape_competition(
             continue
         if not include_unplayed and match.status and match.status.lower() != "played":
             continue
-        rows.extend(
-            fetch_match_events(
-                match.match_id,
-                match.game_date,
-                match.game_start_time,
-                match.status,
-                session=session,
-            )
+        match_rows = fetch_match_events(
+            match.match_id,
+            match.game_date,
+            match.game_start_time,
+            match.status,
+            session=session,
         )
+        if cup:
+            marker = cup_columns(cup_name, stage_type=STAGE_ELIMINATION, stage_label=match.round_name)
+            for row in match_rows:
+                row.update(marker)
+        rows.extend(match_rows)
 
     out = Path(output_path)
     out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Nils Hofferbert
 Category: players
 Slug: player-4ee2edf0e1043cfc
@@ -11,11 +11,11 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 9
-current_assists: 7
-current_points: 16
-current_pim: 4
+current_assists: 8
+current_points: 17
+current_pim: 6
 regular_games: 7
 regular_goals: 9
 regular_assists: 7
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 2
 previous_games: 23
 previous_goals: 28
 previous_assists: 28
@@ -36,7 +41,7 @@ career_goals: 39
 career_assists: 38
 career_points: 77
 career_pim: 14
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|9|7|16|4||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|5|7|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|26|23|49|8||wfc-2024|tournament|IFF WFC|Germany|7|2|3|5|0
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|9|7|16|4||26-27|cup|Germany|DJK Holzbüttgen|1|0|1|1|2||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|5|7|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|26|23|49|8||wfc-2024|tournament|IFF WFC|Germany|7|2|3|5|0
 assists: 7
 games: 7
 goals: 9

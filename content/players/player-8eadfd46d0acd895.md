@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Claudio Mutter
 Category: players
 Slug: player-8eadfd46d0acd895
@@ -26,6 +26,11 @@ playoff_goals: 4
 playoff_assists: 5
 playoff_points: 9
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 6
 previous_goals: 1
 previous_assists: 3

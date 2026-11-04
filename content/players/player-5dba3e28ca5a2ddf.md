@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Noel Seiler
 Category: players
 Slug: player-5dba3e28ca5a2ddf
@@ -11,10 +11,10 @@ season_count: 3
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
-current_goals: 0
+current_games: 9
+current_goals: 1
 current_assists: 5
-current_points: 5
+current_points: 6
 current_pim: 4
 regular_games: 7
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 37
 previous_goals: 4
 previous_assists: 5
@@ -36,7 +41,7 @@ career_goals: 6
 career_assists: 12
 career_points: 18
 career_pim: 18
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|0|5|5|4||se-25-26|playoffs|Sweden|IBF Falun|11|1|5|6|6||se-25-26|regular-season|Sweden|IBF Falun|26|3|0|3|8||wfc-2024|tournament|IFF WFC|Switzerland|6|2|2|4|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|0|5|5|4||se-26-27|cup|Sweden|IBF Falun|2|1|0|1|0||se-25-26|playoffs|Sweden|IBF Falun|11|1|5|6|6||se-25-26|regular-season|Sweden|IBF Falun|26|3|0|3|8||wfc-2024|tournament|IFF WFC|Switzerland|6|2|2|4|0
 assists: 5
 games: 7
 goals: 0

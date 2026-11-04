@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Jarno Pensikkala
 Category: players
 Slug: player-c9b055e52eff0014
@@ -11,7 +11,7 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 6
 current_assists: 11
 current_points: 17
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 23
 previous_goals: 36
 previous_assists: 17
@@ -36,7 +41,7 @@ career_goals: 42
 career_assists: 28
 career_points: 70
 career_pim: 18
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|6|11|17|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|3|0|3|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|33|17|50|16
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|6|11|17|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|3|0|3|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|33|17|50|16
 assists: 11
 games: 7
 goals: 6

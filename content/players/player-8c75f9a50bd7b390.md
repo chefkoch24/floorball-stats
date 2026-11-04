@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Lukas Eldholm
 Category: players
 Slug: player-8c75f9a50bd7b390
@@ -26,6 +26,11 @@ playoff_goals: 5
 playoff_assists: 1
 playoff_points: 6
 playoff_pim: 2
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 6
 previous_goals: 8
 previous_assists: 3

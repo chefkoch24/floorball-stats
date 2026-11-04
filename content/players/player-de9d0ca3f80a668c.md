@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Noel Hug
 Category: players
 Slug: player-de9d0ca3f80a668c
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 7
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 13
 previous_goals: 2
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|5|0|0|0|2||ch-25-26|playoffs|Switzerland|UHC Uster|1|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster|12|2|0|2|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|5|0|0|0|2||ch-26-27|cup|Switzerland|UHC Uster|2|0|0|0|0||ch-25-26|playoffs|Switzerland|UHC Uster|1|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Uster|12|2|0|2|2
 assists: 0
 games: 5
 goals: 0

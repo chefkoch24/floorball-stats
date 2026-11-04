@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Nico Branger
 Category: players
 Slug: player-bad076e0a880bcbc
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 10
 current_goals: 1
-current_assists: 1
-current_points: 2
+current_assists: 2
+current_points: 3
 current_pim: 0
 regular_games: 7
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 21
 previous_goals: 3
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 4
 career_assists: 2
 career_points: 6
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|1|1|2|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|21|3|1|4|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|1|1|2|0||ch-26-27|cup|Switzerland|Floorball Chur United|3|0|1|1|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|21|3|1|4|6
 assists: 1
 games: 7
 goals: 1

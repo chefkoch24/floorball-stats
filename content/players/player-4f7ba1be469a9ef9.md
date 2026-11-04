@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Nicola Brütsch
 Category: players
 Slug: player-4f7ba1be469a9ef9
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 1
 playoff_points: 1
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

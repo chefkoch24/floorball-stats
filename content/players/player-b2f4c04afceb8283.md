@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Artūrs Jurševskis
 Category: players
 Slug: player-b2f4c04afceb8283
@@ -26,6 +26,11 @@ playoff_goals: 7
 playoff_assists: 7
 playoff_points: 14
 playoff_pim: 4
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Lari Kujansivu
 Category: players
 Slug: player-62e65cca720a32df
@@ -11,10 +11,10 @@ season_count: 1
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 1
-current_goals: 1
-current_assists: 0
-current_points: 1
+current_games: 2
+current_goals: 2
+current_assists: 1
+current_points: 3
 current_pim: 0
 regular_games: 1
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|TPS|1|1|0|1|0
+history_rows_csv: fi-26-27|regular-season|Finland|TPS|1|1|0|1|0||fi-26-27|cup|Finland|TPS|1|1|1|2|0
 assists: 0
 games: 1
 goals: 1
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 180
+rank: 181
 season: fi-26-27

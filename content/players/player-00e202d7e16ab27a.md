@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Linus Felix
 Category: players
 Slug: player-00e202d7e16ab27a
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 2
+current_games: 10
+current_goals: 4
 current_assists: 0
-current_points: 2
+current_points: 4
 current_pim: 2
 regular_games: 7
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 16
 previous_goals: 3
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 3
 career_points: 8
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|2|0|2|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|16|3|3|6|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|2|0|2|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|2|0|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|16|3|3|6|2
 assists: 0
 games: 7
 goals: 2

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Adam Tůma
 Category: players
 Slug: player-ea874c69ee740b78
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 16
 previous_goals: 4
 previous_assists: 4
@@ -44,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 2
-rank: 160
+rank: 163
 season: cz-26-27

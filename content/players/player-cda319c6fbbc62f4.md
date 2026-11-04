@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Roni Tammi
 Category: players
 Slug: player-cda319c6fbbc62f4
@@ -11,10 +11,10 @@ season_count: 1
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
+current_games: 5
 current_goals: 3
-current_assists: 6
-current_points: 9
+current_assists: 7
+current_points: 10
 current_pim: 0
 regular_games: 4
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|EräViikingit|4|3|6|9|0
+history_rows_csv: fi-26-27|regular-season|Finland|EräViikingit|4|3|6|9|0||fi-26-27|cup|Finland|EräViikingit|1|0|1|1|0
 assists: 6
 games: 4
 goals: 3
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 41
+rank: 44
 season: fi-26-27

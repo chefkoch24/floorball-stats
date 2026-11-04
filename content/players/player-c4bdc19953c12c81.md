@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Jakub Vařecha
 Category: players
 Slug: player-c4bdc19953c12c81
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 29
 previous_goals: 23
 previous_assists: 16
@@ -44,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 21
-rank: 4
+rank: 5
 season: cz-26-27

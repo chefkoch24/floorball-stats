@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Wilmer Viinamäki
 Category: players
 Slug: player-ffb2bdb329903478
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 1
-current_assists: 1
-current_points: 2
+current_assists: 2
+current_points: 3
 current_pim: 2
 regular_games: 7
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 26
 previous_goals: 5
 previous_assists: 3
@@ -36,7 +41,7 @@ career_goals: 6
 career_assists: 4
 career_points: 10
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|7|1|1|2|2||se-25-26|regular-season|Sweden|Visby IBK|26|5|3|8|2
+history_rows_csv: se-26-27|regular-season|Sweden|Visby IBK|7|1|1|2|2||se-26-27|cup|Sweden|Visby IBK|2|0|1|1|0||se-25-26|regular-season|Sweden|Visby IBK|26|5|3|8|2
 assists: 1
 games: 7
 goals: 1

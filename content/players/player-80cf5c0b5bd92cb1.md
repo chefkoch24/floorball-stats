@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Martha Nylund
 Category: players
 Slug: player-80cf5c0b5bd92cb1
@@ -11,10 +11,10 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
-current_goals: 5
+current_games: 6
+current_goals: 6
 current_assists: 3
-current_points: 8
+current_points: 9
 current_pim: 0
 regular_games: 5
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 3
 career_points: 8
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Northern Stars|5|5|3|8|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Northern Stars|5|5|3|8|0||fiw-26-27|cup|Finland Women|Northern Stars|1|1|0|1|0
 assists: 3
 games: 5
 goals: 5

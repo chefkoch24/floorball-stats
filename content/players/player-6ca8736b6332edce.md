@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Ronja Niemi
 Category: players
 Slug: player-6ca8736b6332edce
@@ -11,10 +11,10 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 2
+current_games: 7
+current_goals: 4
 current_assists: 4
-current_points: 6
+current_points: 8
 current_pim: 0
 regular_games: 6
 regular_goals: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 2
+cup_assists: 0
+cup_points: 2
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|2|4|6|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|2|4|6|0||fiw-26-27|cup|Finland Women|TPS|1|2|0|2|0
 assists: 4
 games: 6
 goals: 2

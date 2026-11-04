@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Mauro Hartmann
 Category: players
 Slug: player-915fd8894feb47e1
@@ -11,11 +11,11 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 10
 current_goals: 3
-current_assists: 4
-current_points: 7
-current_pim: 4
+current_assists: 8
+current_points: 11
+current_pim: 6
 regular_games: 7
 regular_goals: 3
 regular_assists: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 0
+cup_assists: 4
+cup_points: 4
+cup_pim: 2
 previous_games: 21
 previous_goals: 12
 previous_assists: 6
@@ -36,7 +41,7 @@ career_goals: 15
 career_assists: 10
 career_points: 25
 career_pim: 20
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|3|4|7|4||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|12|6|18|16
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|3|4|7|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|4|4|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|12|6|18|16
 assists: 4
 games: 7
 goals: 3

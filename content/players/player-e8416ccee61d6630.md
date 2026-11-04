@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Mārcis Brīvulis
 Category: players
 Slug: player-e8416ccee61d6630
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 34
 previous_goals: 3
 previous_assists: 13
@@ -44,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 4
-rank: 73
+rank: 76
 season: lv-26-27

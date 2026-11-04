@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: Masters Ulbroka/LU
 Category: lv-26-27-regular-season, teams
 Slug: masters-ulbroka-lu-lv-26-27-regular-season-lv-26-27-regular-season
@@ -12,7 +12,9 @@ boxplay_first_period: 7
 boxplay_overtime: 0
 boxplay_per_game: 3.44
 boxplay_second_period: 7
+boxplay_seconds: 2705
 boxplay_third_period: 17
+boxplay_time: 45:05
 close_game_loss: 2
 close_game_overtime: 0
 close_game_points_per_game: 1.0
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.44
 first_period_goals_per_game: 1.78
 games: 9
 goal_difference: 19
+goal_difference_first_period: 3
+goal_difference_overtime: 1
 goal_difference_per_game: 2.11
+goal_difference_second_period: 11
+goal_difference_third_period: 3
 goals: 57
 goals_against: 38
 goals_against_away: 26
@@ -97,7 +103,10 @@ powerplay_first_period: 7
 powerplay_overtime: 0
 powerplay_per_game: 2.89
 powerplay_second_period: 12
+powerplay_seconds: 2570
 powerplay_third_period: 7
+powerplay_time: 42:50
+powerplay_time_per_goal: 8:34
 rank: 2
 scoring_ratio: 1.5
 take_the_lead_goals: 11

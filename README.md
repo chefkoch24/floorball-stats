@@ -17,6 +17,8 @@ config/leagues/<league>-<season>.json           # regular season
 config/leagues/<league>-<season>-playoffs.json  # playoffs
 ```
 
+Cups use `config/leagues/<country>-cup[-women]-<season>.json` (see "Cups").
+
 The Makefile only knows `CURRENT_SEASON` (currently `26-27`) and derives all config paths from it.
 Any league target can be re-run for an older season, e.g. `make refresh-sweden CURRENT_SEASON=25-26`.
 
@@ -313,6 +315,50 @@ export IFF_API_ACCESS_TOKEN='...'
 export IFF_API_REFRESH_TOKEN='...'
 make refresh-wfc-full
 ```
+
+## Cups (national cup competitions)
+
+Cups are their own season phase `cup`, next to `regular-season` and `playoffs`:
+
+```text
+config/leagues/<country>-cup[-women]-<season>.json    # phase "cup", season prefix as for the league
+data/data_<prefix>-<season>_cup.csv                   # compatibility export, source key of the events slice
+events.phase = 'cup'                                  # Postgres/Neon
+content/<prefix><season>-cup/games/                   # game pages only, category "<prefix><season>-cup"
+```
+
+Why a phase and not a flag on the game: every consumer of league data (standings, league averages, leaders,
+power rankings, table history, player rankings and player pages) reads the phases `regular-season` and `playoffs`
+by name, so a cup game cannot change them, and a cup refresh only replaces its own `data_<prefix>-<season>_cup`
+slice in Neon. A flag would have needed a filter in every one of those places. The cup is told apart by
+`phase = 'cup'` (events, `game_stats`), a content category ending in `-cup` (`src.competitions.is_cup_category`),
+`competition_name` (for example "Svenska Cupen Herrar"), `tournament_stage_type` (`elimination` or `group-stage`)
+and `tournament_stage_label` (the source's round name, for example "Kvartsfinaler"). A cup publishes game pages
+only: no table, league report or team pages; game pages link to the league's team pages.
+
+```bash
+make refresh-cups                 # all cups with a source, a failing cup never blocks the others
+make refresh-cup-switzerland      # one cup, also -women; sweden, switzerland, czech, finland, germany
+python -m src.pipeline --league_config config/leagues/sweden-cup-26-27.json --skip_scrape   # local, no scrape, no Neon
+```
+
+`refresh-cups` is not part of `refresh-all-leagues`; the nightly workflow (`.github/workflows/daily-refresh.yml`) runs it just before, so the cup events are in Neon when the player stats are built. The Finnish cup renders pages in Chrome (about 3 s per game, so a full men's refresh takes several minutes). Czech cups need the same local job as the
+league (ceskyflorbal.cz blocks CI): pass `CZECH_PIPELINE_ARGS="--events_source db"` once they are in Neon.
+
+Sources per country (checked 1 November 2026):
+
+| Country | Cup | Source | Status |
+| --- | --- | --- | --- |
+| Sweden | Svenska Cupen Herrar (category 7012), Damer (7013) | StatsApp API of the SSL (`seasons/<id>/competitioncategories/<id>/competitionswithmatchesandstandings`; the cups are not in the federation competition list). Every round and group is its own competition. Full goal and penalty events | imported, live-checked (46 men's games in 13 competitions) |
+| Switzerland | Mobiliar Unihockey Cup Männer (tournament 406200), Frauen (406199) | swissunihockey.ch game pages (same parser as the league) and the cup bracket API `wc.swissunihockey.ch/cups`, `/games?mode=cup`. Byes ("Freilos") are dropped | imported, live-checked (252 men's, 60 women's game ids; all rounds from 1/128). Mobiliar Ligacup (406201, 406203, lower leagues) and Supercup (406249, 406250) are not imported |
+| Czech Republic | Pohár ČF mužů (competition 4828), žen (4829) | ceskyflorbal.cz, same site and parser as the league (`/competition/detail/matches/8XMP?competitionFisId=4828`) | imported, live-checked (272 men's, 59 women's matches). Needs a non-datacenter IP like the league |
+| Germany | FD-Pokal Herren (Saisonmanager league 2451), Damen (2452) | Saisonmanager like the 1. FBL (API key, or the public-page fallback). The "Spieltag" is the round | imported, covered by unit tests only: not run against Saisonmanager (no API key here; the web fallback needs Chrome and waits 10 s per game) |
+| Finland | Suomen Cup miehet (Torneopal category 366), naiset (365) | The Torneopal result service `tulospalvelu.salibandy.fi`, not fliiga.com. Its REST API answers scripts with a Cloudflare 403, so `src/scrape_torneopal.py` goes through the website like the Saisonmanager fallback: headless Chrome opens `/category/366!sb2026/tables` and `/match/<id>` and reads the JSON the page requests itself (robots.txt only blocks `/person/`; 3 s pause, finished games cached in `.cache/torneopal`). Goals, assists, 2-minute penalties; shootout winner as period 5 goal | imported, live-checked on five games (PS game, round of 16, planned quarter-final); needs Playwright and Google Chrome. Regional group games are included (95 listed games in the men's cup), forfeits are dropped |
+| Slovakia | Pohár SZFB | szfb.sk has an article page, but its stats system lists no 2026/27 cup (the linked entry is "Pohár SZFB 2021 muži") | no usable source yet; look again when the cup is created |
+| Latvia | none for seniors | floorball.lv "Latvijas kauss" lists only youth age groups (U12 to U16) in 2026/27 | no senior cup source |
+
+Early cup rounds contain clubs from lower divisions. Their games are imported (the league team's path through the
+cup), their names are plain text without a team page. A full Swiss refresh reads about 750 game pages.
 
 ## Adding a new backend or pipeline
 

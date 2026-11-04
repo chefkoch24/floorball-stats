@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Hannah Herrmann
 Category: players
 Slug: player-cc34f1007da5bc92
@@ -11,7 +11,7 @@ season_count: 1
 current_season: dew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 1
 current_assists: 0
 current_points: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 2
-history_rows_csv: dew-26-27|regular-season|Germany Women|UHC Sparkasse Weißenfels|5|1|0|1|2
+history_rows_csv: dew-26-27|regular-season|Germany Women|UHC Sparkasse Weißenfels|5|1|0|1|2||dew-26-27|cup|Germany Women|UHC Sparkasse Weißenfels|1|0|0|0|0
 assists: 0
 games: 5
 goals: 1

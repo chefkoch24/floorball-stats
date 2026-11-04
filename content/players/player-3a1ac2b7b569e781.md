@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Aapo Lokasaari
 Category: players
 Slug: player-3a1ac2b7b569e781
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
-current_goals: 5
+current_games: 8
+current_goals: 6
 current_assists: 5
-current_points: 10
+current_points: 11
 current_pim: 0
 regular_games: 7
 regular_goals: 5
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 0
+cup_points: 1
+cup_pim: 0
 previous_games: 8
 previous_goals: 3
 previous_assists: 7
@@ -36,7 +41,7 @@ career_goals: 8
 career_assists: 12
 career_points: 20
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|5|5|10|0||fi-25-26|regular-season|Finland|SPV|8|3|7|10|0
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|5|5|10|0||fi-26-27|cup|Finland|SPV|1|1|0|1|0||fi-25-26|regular-season|Finland|SPV|8|3|7|10|0
 assists: 5
 games: 7
 goals: 5
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 32
+rank: 34
 season: fi-26-27

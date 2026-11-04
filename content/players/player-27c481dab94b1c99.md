@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Daniel Kalentun
 Category: players
 Slug: player-27c481dab94b1c99
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 3
-current_assists: 6
-current_points: 9
+current_assists: 7
+current_points: 10
 current_pim: 4
 regular_games: 7
 regular_goals: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 36
 previous_goals: 18
 previous_assists: 17
@@ -36,7 +41,7 @@ career_goals: 21
 career_assists: 23
 career_points: 44
 career_pim: 12
-history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|3|6|9|4||se-25-26|playoffs|Sweden|IBF Falun|11|3|0|3|0||se-25-26|regular-season|Sweden|IBF Falun|25|15|17|32|8
+history_rows_csv: se-26-27|regular-season|Sweden|Pixbo IBK|7|3|6|9|4||se-26-27|cup|Sweden|Pixbo IBK|2|0|1|1|0||se-25-26|playoffs|Sweden|IBF Falun|11|3|0|3|0||se-25-26|regular-season|Sweden|IBF Falun|25|15|17|32|8
 assists: 6
 games: 7
 goals: 3

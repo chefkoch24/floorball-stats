@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: Top 4 Teams
 Category: lv-26-27-regular-season, liga
 Slug: top-4-teams-lv-26-27-regular-season
@@ -11,6 +11,7 @@ boxplay_first_period: 6.0
 boxplay_overtime: 0.25
 boxplay_per_game: 2.69
 boxplay_second_period: 7.75
+boxplay_seconds: 2230.25
 boxplay_third_period: 10.25
 close_game_loss: 1.25
 close_game_overtime: 0.5
@@ -27,7 +28,11 @@ first_period_goals_against_per_game: 1.14
 first_period_goals_per_game: 1.25
 games: 9.0
 goal_difference: 17.5
+goal_difference_first_period: 1.0
+goal_difference_overtime: 0.25
 goal_difference_per_game: 1.95
+goal_difference_second_period: 6.0
+goal_difference_third_period: 9.75
 goals: 53.25
 goals_against: 35.75
 goals_against_away: 20.25
@@ -95,6 +100,7 @@ powerplay_first_period: 6.0
 powerplay_overtime: 0.5
 powerplay_per_game: 2.33
 powerplay_second_period: 6.5
+powerplay_seconds: 1825.25
 powerplay_third_period: 8.0
 rank: 2.5
 record_type: top4_averages

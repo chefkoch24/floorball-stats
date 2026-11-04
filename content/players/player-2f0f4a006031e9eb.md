@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Viljami Virtanen
 Category: players
 Slug: player-2f0f4a006031e9eb
@@ -11,10 +11,10 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 6
-current_goals: 4
-current_assists: 4
-current_points: 8
+current_games: 7
+current_goals: 7
+current_assists: 6
+current_points: 13
 current_pim: 0
 regular_games: 6
 regular_goals: 4
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 3
+cup_assists: 2
+cup_points: 5
+cup_pim: 0
 previous_games: 22
 previous_goals: 18
 previous_assists: 20
@@ -36,7 +41,7 @@ career_goals: 22
 career_assists: 24
 career_points: 46
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|Classic|6|4|4|8|0||fi-25-26|regular-season|Finland|Classic|22|18|20|38|2
+history_rows_csv: fi-26-27|regular-season|Finland|Classic|6|4|4|8|0||fi-26-27|cup|Finland|Classic|1|3|2|5|0||fi-25-26|regular-season|Finland|Classic|22|18|20|38|2
 assists: 4
 games: 6
 goals: 4
@@ -44,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 49
+rank: 52
 season: fi-26-27

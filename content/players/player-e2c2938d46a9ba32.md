@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Naomi Keel
 Category: players
 Slug: player-e2c2938d46a9ba32
@@ -11,10 +11,10 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
-current_goals: 0
+current_games: 7
+current_goals: 3
 current_assists: 0
-current_points: 0
+current_points: 3
 current_pim: 0
 regular_games: 5
 regular_goals: 0
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 3
+cup_assists: 0
+cup_points: 3
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Chur United|5|0|0|0|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Chur United|5|0|0|0|0||chw-26-27|cup|Switzerland Women|Floorball Chur United|2|3|0|3|0
 assists: 0
 games: 5
 goals: 0

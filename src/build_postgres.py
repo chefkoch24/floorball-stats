@@ -11,11 +11,12 @@ import psycopg
 from psycopg import sql
 from unidecode import unidecode
 
+from src.competitions import CUP_PHASE
 from src.run_stats_engine import run_stats_pipeline
 
 
 EVENT_FILE_PREFIX = "data_"
-EVENT_FILE_SUFFIXES = ("_regular_season.csv", "_playoffs.csv")
+EVENT_FILE_SUFFIXES = ("_regular_season.csv", "_playoffs.csv", "_cup.csv")
 POSTGRES_IDENTIFIER_MAX_LEN = 63
 MANAGED_TABLES = [
     "events",
@@ -333,6 +334,9 @@ def rebuild_from_event_csvs(*, database_url: str, data_dir: str) -> dict[str, in
         elif stem.endswith("_playoffs"):
             season = stem[: -len("_playoffs")]
             phase = "playoffs"
+        elif stem.endswith(f"_{CUP_PHASE}"):
+            season = stem[: -len(f"_{CUP_PHASE}")]
+            phase = CUP_PHASE
         else:
             continue
         with tempfile.TemporaryDirectory(prefix="floorball-stats-postgres-") as temp_dir:

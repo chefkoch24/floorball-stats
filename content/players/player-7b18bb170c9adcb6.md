@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Anton Hedin
 Category: players
 Slug: player-7b18bb170c9adcb6
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 1
-current_assists: 3
-current_points: 4
+current_assists: 4
+current_points: 5
 current_pim: 0
 regular_games: 7
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 32
 previous_goals: 3
 previous_assists: 11
@@ -36,7 +41,7 @@ career_goals: 4
 career_assists: 14
 career_points: 18
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|Mullsjö AIS|7|1|3|4|0||se-25-26|playoffs|Sweden|Mullsjö AIS|6|0|1|1|0||se-25-26|regular-season|Sweden|Mullsjö AIS|26|3|10|13|4
+history_rows_csv: se-26-27|regular-season|Sweden|Mullsjö AIS|7|1|3|4|0||se-26-27|cup|Sweden|Mullsjö AIS|2|0|1|1|0||se-25-26|playoffs|Sweden|Mullsjö AIS|6|0|1|1|0||se-25-26|regular-season|Sweden|Mullsjö AIS|26|3|10|13|4
 assists: 3
 games: 7
 goals: 1

@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: FBK Valmiera
 Category: lv-26-27-regular-season, teams
 Slug: fbk-valmiera-lv-26-27-regular-season-lv-26-27-regular-season
@@ -12,7 +12,9 @@ boxplay_first_period: 7
 boxplay_overtime: 0
 boxplay_per_game: 2.44
 boxplay_second_period: 7
+boxplay_seconds: 1970
 boxplay_third_period: 8
+boxplay_time: 32:50
 close_game_loss: 3
 close_game_overtime: 2
 close_game_points_per_game: 0.57
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.33
 first_period_goals_per_game: 1.11
 games: 9
 goal_difference: -3
+goal_difference_first_period: -2
+goal_difference_overtime: 1
 goal_difference_per_game: -0.33
+goal_difference_second_period: -1
+goal_difference_third_period: 0
 goals: 44
 goals_against: 47
 goals_against_away: 23
@@ -97,7 +103,10 @@ powerplay_first_period: 9
 powerplay_overtime: 1
 powerplay_per_game: 2.67
 powerplay_second_period: 4
+powerplay_seconds: 2060
 powerplay_third_period: 10
+powerplay_time: 34:20
+powerplay_time_per_goal: 4:54
 rank: 8
 scoring_ratio: 0.94
 take_the_lead_goals: 11

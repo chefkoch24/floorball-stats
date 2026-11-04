@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: Lekrings
 Category: lv-26-27-regular-season, teams
 Slug: lekrings-lv-26-27-regular-season-lv-26-27-regular-season
@@ -12,7 +12,9 @@ boxplay_first_period: 4
 boxplay_overtime: 0
 boxplay_per_game: 1.78
 boxplay_second_period: 8
+boxplay_seconds: 1430
 boxplay_third_period: 4
+boxplay_time: 23:50
 close_game_loss: 1
 close_game_overtime: 0
 close_game_points_per_game: 1.5
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.0
 first_period_goals_per_game: 1.11
 games: 9
 goal_difference: 7
+goal_difference_first_period: 1
+goal_difference_overtime: 1
 goal_difference_per_game: 0.78
+goal_difference_second_period: 2
+goal_difference_third_period: 4
 goals: 44
 goals_against: 37
 goals_against_away: 20
@@ -97,7 +103,10 @@ powerplay_first_period: 5
 powerplay_overtime: 0
 powerplay_per_game: 2.22
 powerplay_second_period: 6
+powerplay_seconds: 1819
 powerplay_third_period: 9
+powerplay_time: 30:19
+powerplay_time_per_goal: 5:03
 rank: 4
 scoring_ratio: 1.19
 take_the_lead_goals: 11

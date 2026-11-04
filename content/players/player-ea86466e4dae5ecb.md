@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Emīls Dzalbs
 Category: players
 Slug: player-ea86466e4dae5ecb
@@ -26,6 +26,11 @@ playoff_goals: 9
 playoff_assists: 7
 playoff_points: 16
 playoff_pim: 2
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Ludvig Öberg
 Category: players
 Slug: player-63d21d042cc28b1f
@@ -11,10 +11,10 @@ season_count: 2
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 7
+current_games: 9
 current_goals: 1
-current_assists: 0
-current_points: 1
+current_assists: 1
+current_points: 2
 current_pim: 6
 regular_games: 7
 regular_goals: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 0
 previous_games: 37
 previous_goals: 6
 previous_assists: 2
@@ -36,7 +41,7 @@ career_goals: 7
 career_assists: 2
 career_points: 9
 career_pim: 8
-history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|7|1|0|1|6||se-25-26|playoffs|Sweden|Linköping IBK|11|1|0|1|0||se-25-26|regular-season|Sweden|Linköping IBK|26|5|2|7|2
+history_rows_csv: se-26-27|regular-season|Sweden|Linköping IBK|7|1|0|1|6||se-26-27|cup|Sweden|Linköping IBK|2|0|1|1|0||se-25-26|playoffs|Sweden|Linköping IBK|11|1|0|1|0||se-25-26|regular-season|Sweden|Linköping IBK|26|5|2|7|2
 assists: 0
 games: 7
 goals: 1

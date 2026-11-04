@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Levin Peter
 Category: players
 Slug: player-561fe639feac6660
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 8
 current_goals: 3
 current_assists: 0
 current_points: 3
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 1
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 33
 previous_goals: 9
 previous_assists: 9
@@ -36,7 +41,7 @@ career_goals: 12
 career_assists: 9
 career_points: 21
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|3|0|3|2||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|5|6|11|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|4|3|7|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|3|0|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|5|6|11|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|4|3|7|0
 assists: 0
 games: 7
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Ida Vinberg
 Category: players
 Slug: player-8f1b8a47da0f81d5
@@ -11,7 +11,7 @@ season_count: 1
 current_season: sew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 11
 current_goals: 1
 current_assists: 0
 current_points: 1
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 4
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Warberg IC|7|1|0|1|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Warberg IC|7|1|0|1|0||sew-26-27|cup|Sweden Women|Warberg IC|4|0|0|0|0
 assists: 0
 games: 7
 goals: 1

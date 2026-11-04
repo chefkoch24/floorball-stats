@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Šimon Ruber
 Category: players
 Slug: player-8afaefb7df26653b
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 33
 previous_goals: 11
 previous_assists: 14
@@ -44,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 106
+rank: 107
 season: cz-26-27

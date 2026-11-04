@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Maurin Klesse
 Category: players
 Slug: player-daf4d7e5934f2cf4
@@ -11,11 +11,11 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 0
-current_assists: 2
-current_points: 2
-current_pim: 0
+current_games: 10
+current_goals: 1
+current_assists: 3
+current_points: 4
+current_pim: 2
 regular_games: 7
 regular_goals: 0
 regular_assists: 2
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 3
+cup_goals: 1
+cup_assists: 1
+cup_points: 2
+cup_pim: 2
 previous_games: 22
 previous_goals: 0
 previous_assists: 1
@@ -36,7 +41,7 @@ career_goals: 0
 career_assists: 3
 career_points: 3
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|0|2|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|0|2|2|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|1|1|2|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|0|1|1|0
 assists: 2
 games: 7
 goals: 0

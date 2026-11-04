@@ -1,4 +1,4 @@
-Date: 2026-11-02
+Date: 2026-11-04
 Title: Jim Johansson
 Category: players
 Slug: player-0fb890862b40cbe9
@@ -11,7 +11,7 @@ season_count: 1
 current_season: se-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 8
 current_goals: 5
 current_assists: 1
 current_points: 6
@@ -26,6 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
+cup_games: 2
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -36,7 +41,7 @@ career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 0
-history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|6|5|1|6|0
+history_rows_csv: se-26-27|regular-season|Sweden|IBK Dalen|6|5|1|6|0||se-26-27|cup|Sweden|IBK Dalen|2|0|0|0|0
 assists: 1
 games: 6
 goals: 5

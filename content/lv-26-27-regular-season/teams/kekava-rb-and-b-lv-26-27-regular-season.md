@@ -1,4 +1,4 @@
-Date: 2026-10-31
+Date: 2026-11-03
 Title: Ķekava/RB&B
 Category: lv-26-27-regular-season, teams
 Slug: kekava-rb-and-b-lv-26-27-regular-season-lv-26-27-regular-season
@@ -12,7 +12,9 @@ boxplay_first_period: 8
 boxplay_overtime: 0
 boxplay_per_game: 3.22
 boxplay_second_period: 11
+boxplay_seconds: 2116
 boxplay_third_period: 10
+boxplay_time: 35:16
 close_game_loss: 4
 close_game_overtime: 0
 close_game_points_per_game: 0.0
@@ -28,7 +30,11 @@ first_period_goals_against_per_game: 1.11
 first_period_goals_per_game: 1.67
 games: 9
 goal_difference: -3
+goal_difference_first_period: 5
+goal_difference_overtime: 0
 goal_difference_per_game: -0.33
+goal_difference_second_period: -8
+goal_difference_third_period: 0
 goals: 47
 goals_against: 50
 goals_against_away: 23
@@ -97,8 +103,11 @@ powerplay_first_period: 5
 powerplay_overtime: 0
 powerplay_per_game: 3.22
 powerplay_second_period: 13
+powerplay_seconds: 2382
 powerplay_third_period: 11
-rank: 6
+powerplay_time: 39:42
+powerplay_time_per_goal: 7:56
+rank: 7
 scoring_ratio: 0.94
 take_the_lead_goals: 18
 take_the_lead_goals_against: 12
