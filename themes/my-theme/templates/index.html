@@ -38,6 +38,12 @@
             {% endfor %}
         </div>
     </div>
+    {# Rendered by the script below; days without games are greyed out. The inlined games cover BUILD_DATE ± HOME_GAMES_WINDOW_DAYS, so the arrows stop there. #}
+    <div class="fs-dates" role="group" aria-label="Choose a day" data-build-date="{{ BUILD_DATE.isoformat() }}" data-window-days="{{ HOME_GAMES_WINDOW_DAYS }}">
+        <button type="button" class="fs-dates__nav" data-dates-shift="-7" aria-label="Previous week">‹</button>
+        <div class="fs-dates__days" id="games-date-days"></div>
+        <button type="button" class="fs-dates__nav" data-dates-shift="7" aria-label="Next week">›</button>
+    </div>
     <div id="today-games-list" class="fs-strip"></div>
     <noscript><ul>{% for game in articles if game.type|default('') == 'game' and game.date and game.date.date() == BUILD_DATE %}<li><a href="{{ SITEURL }}/{{ game.url }}">{{ game.home_team|e }} vs {{ game.away_team|e }}</a></li>{% endfor %}</ul></noscript>
     <div id="today-games-source" hidden>
@@ -238,33 +244,73 @@
 
 <script>
 (function () {
-    // Today's games as match cards; on days without games, the next matchday instead.
+    // Games of the selected day as match cards, picked from a week-wide date strip (today preselected).
     const source = document.getElementById('today-games-source');
     const list = document.getElementById('today-games-list');
     const label = document.getElementById('today-games-label');
     const title = document.getElementById('home-games-title');
-    if (!source || !list || !label) return;
+    const daysEl = document.getElementById('games-date-days');
+    const strip = daysEl && daysEl.closest('.fs-dates');
+    if (!source || !list || !label || !strip) return;
 
     const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
     const allGames = Array.from(source.querySelectorAll('article')).map((node) => ({ ...node.dataset }));
 
-    const today = new Date();
-    const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+    const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const pad = (value) => String(value).padStart(2, '0');
+    const toKey = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+    const fromKey = (key) => { const [y, m, d] = key.split('-').map(Number); return new Date(y, m - 1, d); };
+    const addDays = (key, days) => { const date = fromKey(key); date.setDate(date.getDate() + days); return toKey(date); };
+    const longDay = (key) => { const date = fromKey(key); return `${WEEKDAYS[date.getDay()]} ${pad(date.getDate())} ${MONTHS[date.getMonth()]}`; };
+
+    const todayKey = toKey(new Date());
+    // Only days inside the build's game window are known; the visible week never leaves it.
+    const windowStart = addDays(strip.dataset.buildDate, -Number(strip.dataset.windowDays));
+    const windowEnd = addDays(strip.dataset.buildDate, Number(strip.dataset.windowDays));
+    const clampWeek = (start) => (start < windowStart ? windowStart : start > addDays(windowEnd, -6) ? addDays(windowEnd, -6) : start);
+    let selected = todayKey;
+    let weekStart = clampWeek(addDays(todayKey, -3));
+    let division = document.documentElement.getAttribute('data-division') === 'women' ? 'women' : 'men';
     const side = (name, crest, initials, loser, logo) => `
         <span class="${loser ? 'fs-match__loser' : ''}"><span class="fs-team"><span class="fs-crest" data-crest="${crest}" aria-hidden="true">${logo ? `<img class="fs-crest__logo" src="${escapeHtml(logo)}" alt="" onerror="this.remove()">` : ''}<span class="fs-crest__initials">${escapeHtml(initials)}</span></span><span>${escapeHtml(name)}</span></span></span>`;
-    const render = (division) => {
+    const renderDays = (gameDates) => {
+        daysEl.innerHTML = Array.from({ length: 7 }, (_, i) => {
+            const key = addDays(weekStart, i);
+            const date = fromKey(key);
+            const classes = ['fs-day'];
+            if (!gameDates.has(key)) classes.push('fs-day--empty');
+            if (key === todayKey) classes.push('fs-day--today');
+            return `<button type="button" class="${classes.join(' ')}" data-date="${key}"${key === selected ? ' aria-current="date"' : ''} aria-label="${longDay(key)}${gameDates.has(key) ? '' : ', no games'}">
+                <span class="fs-day__week">${key === todayKey ? 'Today' : WEEKDAYS[date.getDay()]}</span><span>${pad(date.getDate())}.${pad(date.getMonth() + 1)}.</span></button>`;
+        }).join('');
+        strip.querySelector('[data-dates-shift="-7"]').disabled = weekStart <= windowStart;
+        strip.querySelector('[data-dates-shift="7"]').disabled = addDays(weekStart, 6) >= windowEnd;
+    };
+    const addJump = (key, text) => {
+        const jump = document.createElement('button');
+        jump.type = 'button';
+        jump.className = 'fs-chip ml-2';
+        jump.dataset.date = key;
+        jump.textContent = text;
+        label.append(' ', jump);
+    };
+    const render = () => {
         const games = allGames.filter((game) => game.division === division);
+        const gameDates = new Set(games.map((game) => game.date));
         const who = division === 'women' ? "women's" : "men's";
-        let shown = games.filter((game) => game.date === todayKey);
-        if (title) title.textContent = "Today's games";
+        const shown = games.filter((game) => game.date === selected);
+        const isToday = selected === todayKey;
+        renderDays(gameDates);
+        if (title) title.textContent = isToday ? "Today's games" : `Games on ${longDay(selected)}`;
         if (shown.length) {
-            label.textContent = `${shown.length} ${who} game${shown.length === 1 ? '' : 's'} today`;
+            label.textContent = `${shown.length} ${who} game${shown.length === 1 ? '' : 's'} ${isToday ? 'today' : 'on this day'}`;
         } else {
-            const nextDate = games.map((game) => game.date).filter((date) => date > todayKey).sort()[0];
-            shown = nextDate ? games.filter((game) => game.date === nextDate) : [];
-            if (title && shown.length) title.textContent = 'Next games';
-            label.textContent = shown.length ? `No ${who} games today. Next matchday: ${shown[0].day}` : `No ${who} games scheduled.`;
+            const nextDate = Array.from(gameDates).filter((date) => date > selected).sort()[0];
+            label.textContent = `No ${who} games ${isToday ? 'today' : 'on this day'}.`;
+            if (nextDate) addJump(nextDate, `Next matchday: ${longDay(nextDate)} →`);
         }
+        if (!isToday) addJump(todayKey, 'Back to today');
         shown.sort((a, b) => (a.state === 'played') - (b.state === 'played') || String(a.time).localeCompare(String(b.time)));
         list.innerHTML = shown.map((game) => {
             const played = game.state === 'played' && game.homeGoals !== '' && game.awayGoals !== '';
@@ -283,8 +329,26 @@
     };
 
     const buttons = Array.from(document.querySelectorAll('[data-games-division] [data-division-option]'));
-    buttons.forEach((button) => button.addEventListener('click', () => render(button.dataset.divisionOption)));
-    render(document.documentElement.getAttribute('data-division') === 'women' ? 'women' : 'men');
+    buttons.forEach((button) => button.addEventListener('click', () => {
+        division = button.dataset.divisionOption;
+        render();
+    }));
+    // Day buttons (strip, "Next matchday", "Back to today") carry data-date; arrows move the visible week.
+    const select = (key) => {
+        selected = key;
+        if (key < weekStart || key > addDays(weekStart, 6)) weekStart = clampWeek(addDays(key, -3));
+        render();
+    };
+    document.addEventListener('click', (event) => {
+        const day = event.target.closest('[data-date]');
+        if (day && (daysEl.contains(day) || label.contains(day))) return select(day.dataset.date);
+        const shift = event.target.closest('[data-dates-shift]');
+        if (shift && strip.contains(shift)) {
+            weekStart = clampWeek(addDays(weekStart, Number(shift.dataset.datesShift)));
+            render();
+        }
+    });
+    render();
 })();
 </script>
 
