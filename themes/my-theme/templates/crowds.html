@@ -93,7 +93,7 @@
         <section id="league-{{ league.prefix|default('de', true)|replace('-', '') }}" class="grid gap-4 rounded-lg border border-line bg-surface-raised p-4 scroll-mt-24" aria-labelledby="league-{{ loop.index }}-{{ key }}-title">
             <div class="flex flex-wrap items-baseline justify-between gap-2">
                 <h3 id="league-{{ loop.index }}-{{ key }}-title" class="fs-panel-title">{{ league.name }} <span class="text-sm font-normal text-ink-muted">{{ league.country }} · {{ label }}</span></h3>
-                <a class="text-sm" href="{{ SITEURL }}/{{ league.slug }}.html">League page</a>
+                <a class="text-sm" href="{{ SITEURL }}/category/{{ league.slug }}.html">League page</a>
             </div>
             <div class="grid gap-6 md:grid-cols-3">
                 {{ bars(league.weekdays, 'Average by weekday') }}
