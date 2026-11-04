@@ -11,7 +11,7 @@ except ImportError:  # pragma: no cover - optional when DB mode isn't used
     psycopg = None
 
 
-TOURNAMENT_SEASON_PREFIXES = {"wfc"}
+TOURNAMENT_SEASON_PREFIXES = {"wfc", "cc", "ccw"}
 
 
 def _normalize_prefix_tokens(raw: str | None) -> set[str]:
@@ -324,7 +324,8 @@ def generate_player_stats_index_markdown(
     )
     for season, phase in ordered_keys:
         if _is_tournament_season(season):
-            if phase != "regular-season":
+            # One combined page per tournament; knockout-only competitions (Champions Cup) have no regular season.
+            if phase != "regular-season" and (season, "regular-season") in grouped_rows:
                 continue
             rows = _combined_player_rows(
                 grouped_rows.get((season, "regular-season"), []) + grouped_rows.get((season, "playoffs"), []),

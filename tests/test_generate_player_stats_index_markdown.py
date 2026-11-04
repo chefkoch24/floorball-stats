@@ -43,3 +43,24 @@ def test_generate_player_stats_index_markdown_combines_wfc_tournament_rows(tmp_p
     assert not (output_dir / "wfc-2024-regular-season-players.md").exists()
     assert not (output_dir / "wfc-2024-playoffs-players.md").exists()
     assert (output_dir / "se-25-26-regular-season-players.md").exists()
+
+
+def test_generate_player_stats_index_markdown_writes_knockout_only_tournaments(tmp_path: Path, monkeypatch) -> None:
+    rows = [
+        {"player_uid": "player-a", "player": "Pablo Mariotti", "team": "Floorball Thurgau", "league": "IFF Champions Cup", "season": "cc-26-27", "phase": "playoffs", "rank": "1", "games": "3", "goals": "2", "assists": "1", "points": "3", "pim": "0"},
+        {"player_uid": "player-b", "player": "Simon Stransky", "team": "AMIX Florbal MB", "league": "IFF Champions Cup", "season": "cc-26-27", "phase": "playoffs", "rank": "2", "games": "2", "goals": "2", "assists": "0", "points": "2", "pim": "0"},
+    ]
+    monkeypatch.setattr(generate_player_stats_index_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+
+    output_dir = tmp_path / "content" / "player-stats"
+    written, _removed = generate_player_stats_index_markdown(
+        database_url="postgresql://test",
+        output_dir=str(output_dir),
+        season_prefixes={"cc", "ccw"},
+        prune_stale=False,
+    )
+
+    assert written == 1
+    content = (output_dir / "cc-26-27-players.md").read_text(encoding="utf-8")
+    assert "phase: tournament" in content
+    assert "player_count: 2" in content

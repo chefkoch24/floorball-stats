@@ -73,6 +73,9 @@ jobs:
         env:
           NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
           SAISONMANAGER_API_KEY: ${{ secrets.SAISONMANAGER_API_KEY }}
+          # IFF app login for the Champions Cup feed (refresh-champions-cup).
+          IFF_API_ACCESS_TOKEN: ${{ secrets.IFF_API_ACCESS_TOKEN }}
+          IFF_API_REFRESH_TOKEN: ${{ secrets.IFF_API_REFRESH_TOKEN }}
         run: |
           set -uo pipefail
           # One failing league must not block the others; failed steps are

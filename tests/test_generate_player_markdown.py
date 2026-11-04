@@ -246,3 +246,31 @@ def test_generate_player_markdown_merges_prefix_scoped_history_from_database(tmp
     assert "previous_season: wfc-2024" in content
     assert "career_points: 91" in content
     assert "history_rows_csv: se-25-26|playoffs|Sweden|Storvreta IBK|5|6|7|13|5||se-25-26|regular-season|Sweden|Storvreta IBK|26|22|50|72|16||wfc-2024|tournament|IFF WFC|Sweden|6|3|3|6|0" in content
+
+
+def test_generate_player_markdown_keeps_league_season_current_next_to_champions_cup(tmp_path: Path, monkeypatch):
+    rows = [
+        {"player_uid": "player-1", "player": "Pablo Mariotti", "team": "Floorball Thurgau", "league": "IFF Champions Cup", "season": "cc-26-27", "phase": "playoffs", "games": "2", "goals": "2", "assists": "1", "points": "3", "pim": "0"},
+        {"player_uid": "player-1", "player": "Pablo Mariotti", "team": "Floorball Thurgau", "league": "Switzerland", "season": "ch-26-27", "phase": "regular-season", "games": "6", "goals": "5", "assists": "5", "points": "10", "pim": "4"},
+        {"player_uid": "player-1", "player": "Pablo Mariotti", "team": "Floorball Thurgau", "league": "Switzerland", "season": "ch-25-26", "phase": "regular-season", "games": "19", "goals": "17", "assists": "16", "points": "33", "pim": "6"},
+    ]
+    monkeypatch.setattr(generate_player_markdown_module, "_load_rows_from_postgres", lambda database_url: rows)
+    monkeypatch.setattr(generate_player_markdown_module, "_load_alias_pairs_from_postgres", lambda database_url: [])
+
+    output_dir = tmp_path / "content" / "players"
+    generate_player_markdown(
+        database_url="postgresql://test",
+        output_dir=str(output_dir),
+        default_category="players",
+        season_prefixes={"cc"},
+        prune_stale=False,
+    )
+
+    content = (output_dir / "player-1.md").read_text(encoding="utf-8")
+    assert "current_season: ch-26-27" in content
+    assert "current_season_is_tournament: no" in content
+    assert "previous_season: ch-25-26" in content
+    assert (
+        "history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|6|5|5|10|4"
+        "||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|2|2|1|3|0"
+    ) in content

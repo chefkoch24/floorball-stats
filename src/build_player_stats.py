@@ -44,6 +44,10 @@ LEAGUE_INFO = {
     "skw": {"source_system": "slovakia", "league": "Slovakia Women"},
     "sk": {"source_system": "slovakia", "league": "Slovakia"},
     "wfc": {"source_system": "wfc", "league": "IFF WFC"},
+    # Champions Cup players come from the same IFF app as the WFC; team names are
+    # mapped to the national league names by src/scrape_champions_cup.py.
+    "cc": {"source_system": "wfc", "league": "IFF Champions Cup"},
+    "ccw": {"source_system": "wfc", "league": "IFF Champions Cup Women"},
 }
 
 
@@ -1084,10 +1088,10 @@ def _fetch_wfc_game_lineups(game_id: int, auth) -> dict:
     return {}
 
 
-def _rows_from_wfc_lineups(matches: pd.DataFrame, season: str, phase: str) -> pd.DataFrame:
+def _rows_from_wfc_lineups(matches: pd.DataFrame, season: str, phase: str, league: str = "IFF WFC") -> pd.DataFrame:
     auth = _load_wfc_auth_from_env()
     if auth is None:
-        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league="IFF WFC", source_system="wfc")
+        return _finalize_rows(pd.DataFrame(), season=season, phase=phase, league=league, source_system="wfc")
 
     records: list[dict] = []
     failed_game_ids: list[int] = []
@@ -1157,10 +1161,17 @@ def _rows_from_wfc_lineups(matches: pd.DataFrame, season: str, phase: str) -> pd
             f"warning: WFC lineup fetch skipped {len(failed_game_ids)} game(s) for {season} {phase}: {', '.join(str(game_id) for game_id in failed_game_ids)}",
             file=sys.stderr,
         )
-    stats = pd.DataFrame.from_records(records).drop_duplicates(
-        subset=["game_id", "player_uid", "team", "source_player_id", "source_person_id"]
-    )
-    return _finalize_rows(stats, season=season, phase=phase, league="IFF WFC", source_system="wfc")
+    # Roster and line-up list the same player with different id fields (PlayerID vs.
+    # MemberID), so dedupe per match appearance and keep the entry that carries ids.
+    stats = pd.DataFrame.from_records(records)
+    if not stats.empty:
+        stats = (
+            stats.assign(_has_id=(stats["source_player_id"] != "") | (stats["source_person_id"] != ""))
+            .sort_values("_has_id", ascending=False, kind="stable")
+            .drop_duplicates(subset=["game_id", "player_uid", "team"])
+            .drop(columns="_has_id")
+        )
+    return _finalize_rows(stats, season=season, phase=phase, league=league, source_system="wfc")
 
 
 def _rows_from_sweden_lineups(match_ids: list[int], season: str, phase: str, league: str = "Sweden") -> pd.DataFrame:
@@ -1448,7 +1459,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
                 )
             except Exception:
                 context_rows = event_rows
-        elif prefix == "wfc":
+        elif prefix in {"wfc", "cc", "ccw"}:
             event_rows = _rows_from_event_csv(
                 candidate,
                 season=season,
@@ -1458,7 +1469,7 @@ def build_player_stats(data_dir: str, output_csv: str, season_prefixes: set[str]
             )
             try:
                 matches = _load_played_matches(candidate, ["game_id", "home_team_name", "away_team_name"])
-                lineup_rows = _rows_from_wfc_lineups(matches=matches, season=season, phase=phase)
+                lineup_rows = _rows_from_wfc_lineups(matches=matches, season=season, phase=phase, league=info["league"])
                 context_rows = _merge_finalized_rows(
                     [event_rows, lineup_rows],
                     season=season,

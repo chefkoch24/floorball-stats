@@ -22,6 +22,7 @@ from src.scrape_latvia import scrape_competition as scrape_latvia_competition
 from src.scrape_slovakia import scrape_competition as scrape_slovakia_competition
 from src.scrape_torneopal import scrape_cup as scrape_torneopal_cup
 from src.scrape_wfc import scrape_league_organizer_games as scrape_wfc_league_organizer_games
+from src.scrape_champions_cup import scrape_competition as scrape_champions_cup_competition
 from src.scrape_switzerland import (
     fetch_cup_game_ids,
     fetch_game_ids_by_rounds,
@@ -178,6 +179,9 @@ def run_pipeline(
     cup_swiss_tournament_ids: list[int] | None = None,
     cup_torneopal_category_id: int | None = None,
     cup_torneopal_competition_id: str | None = None,
+    champions_cup_league_organizer_id: int | None = None,
+    champions_cup_division: str | None = None,
+    champions_cup_team_aliases: dict[str, str] | None = None,
     playoff_rounds: list[dict] | None = None,
     playoff_teams_count: int = 8,
     data_dir: str = "data",
@@ -328,6 +332,15 @@ def run_pipeline(
                     output_path=str(raw_csv),
                     phase=phase,
                 )
+        elif backend == "champions_cup":
+            if not champions_cup_league_organizer_id:
+                raise ValueError("champions_cup_league_organizer_id is required when backend=champions_cup")
+            scrape_champions_cup_competition(
+                league_organizer_id=champions_cup_league_organizer_id,
+                output_path=str(raw_csv),
+                division=champions_cup_division,
+                team_aliases=champions_cup_team_aliases,
+            )
         else:
             if not league_id:
                 raise ValueError(
@@ -410,7 +423,7 @@ def parse_args():
     parser.add_argument(
         "--backend",
         default="saisonmanager",
-        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia", "wfc"],
+        choices=["saisonmanager", "sweden", "switzerland", "czech", "finland", "slovakia", "latvia", "wfc", "champions_cup"],
     )
     parser.add_argument("--league_id", type=int, default=None)
     parser.add_argument("--competition_id", type=int, default=None)
@@ -439,6 +452,8 @@ def parse_args():
     parser.add_argument("--cup_swiss_tournament_ids", type=str, default=None)
     parser.add_argument("--cup_torneopal_category_id", type=int, default=None)
     parser.add_argument("--cup_torneopal_competition_id", type=str, default=None)
+    parser.add_argument("--champions_cup_league_organizer_id", type=int, default=None)
+    parser.add_argument("--champions_cup_division", choices=["men", "women"], default=None)
     parser.add_argument("--playoff_rounds", type=str, default=None)
     parser.add_argument("--playoff_teams_count", type=int, default=8)
     parser.add_argument("--season", default=None)
@@ -518,6 +533,9 @@ def main():
         cup_swiss_tournament_ids=cup_swiss_tournament_ids,
         cup_torneopal_category_id=args.cup_torneopal_category_id,
         cup_torneopal_competition_id=args.cup_torneopal_competition_id,
+        champions_cup_league_organizer_id=args.champions_cup_league_organizer_id,
+        champions_cup_division=args.champions_cup_division,
+        champions_cup_team_aliases=getattr(args, "champions_cup_team_aliases", None),
         playoff_rounds=args.playoff_rounds,
         playoff_teams_count=args.playoff_teams_count,
         data_dir=args.data_dir,
