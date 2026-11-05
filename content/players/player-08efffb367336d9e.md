@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Elias Rensing
 Category: players
 Slug: player-08efffb367336d9e

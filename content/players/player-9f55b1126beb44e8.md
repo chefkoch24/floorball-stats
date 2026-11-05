@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Patrik Šebek
+Date: 2026-11-05
+Title: Patrik Sebek
 Category: players
 Slug: player-9f55b1126beb44e8
 type: player
-player: Patrik Šebek
+player: Patrik Sebek
 player_uid: player-9f55b1126beb44e8
 team: Tatran Střešovice
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 24
 previous_assists: 14
 previous_points: 38
 previous_pim: 4
-career_games: 43
-career_goals: 28
-career_assists: 15
-career_points: 43
+career_games: 45
+career_goals: 30
+career_assists: 16
+career_points: 46
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|4|1|5|2||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|6|4|10|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|18|10|28|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|4|1|5|2||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|2|2|1|3|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|6|4|10|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|18|10|28|2
 assists: 1
 games: 8
 goals: 4

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Laurin Überschlag
 Category: players
 Slug: player-f8f65cdc961f1d38

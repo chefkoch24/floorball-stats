@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Krister Savonen
 Category: players
 Slug: player-58120e2afba8f996

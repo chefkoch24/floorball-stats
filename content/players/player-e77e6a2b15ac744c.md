@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Denisa Ratajova
 Category: players
 Slug: player-e77e6a2b15ac744c
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 5
-career_assists: 5
-career_points: 10
+career_assists: 6
+career_points: 11
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|5|5|10|0||chw-26-27|cup|Switzerland Women|Zug United|1|0|0|0|2
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|5|5|10|0||chw-26-27|cup|Switzerland Women|Zug United|1|0|0|0|2||ccw-26-27|tournament|IFF Champions Cup Women|Zug United|1|0|1|1|0
 assists: 5
 games: 6
 goals: 5

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Eetu Roponen
 Category: players
 Slug: player-786caf51fb0f4019

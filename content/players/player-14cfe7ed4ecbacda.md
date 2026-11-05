@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Patrick Furrer
 Category: players
 Slug: player-14cfe7ed4ecbacda

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Semanová Kristína
 Category: players
 Slug: player-ccafec5483583c4d

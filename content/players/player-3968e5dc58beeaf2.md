@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matyáš Pawlas
 Category: players
 Slug: player-3968e5dc58beeaf2

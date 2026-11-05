@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Veera Vilenius
 Category: players
 Slug: player-2ffe188b1afb5aaa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 4
+rank: 5
 season: fiw-26-27

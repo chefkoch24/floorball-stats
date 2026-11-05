@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Slovakia Women Player Stats 26/27 Regular Season
 Category: skw-26-27-regular-season-players
 Slug: skw-26-27-regular-season-players

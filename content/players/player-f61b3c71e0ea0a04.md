@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Ella Sundström
+Date: 2026-11-05
+Title: Ella Sundstrom
 Category: players
 Slug: player-f61b3c71e0ea0a04
 type: player
-player: Ella Sundström
+player: Ella Sundstrom
 player_uid: player-f61b3c71e0ea0a04
 team: EräViikingit
 league: Finland Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 4
+career_games: 8
+career_goals: 5
 career_assists: 4
-career_points: 8
+career_points: 9
 career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|4|4|8|2||fiw-26-27|cup|Finland Women|EräViikingit|1|2|1|3|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|4|4|8|2||fiw-26-27|cup|Finland Women|EräViikingit|1|2|1|3|0||ccw-26-27|tournament|IFF Champions Cup Women|EräViikingit|1|1|0|1|0
 assists: 4
 games: 7
 goals: 4

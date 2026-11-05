@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Céline Stettler
+Date: 2026-11-05
+Title: Celine Stettler
 Category: players
 Slug: player-ba0219430bc427ae
 type: player
-player: Céline Stettler
+player: Celine Stettler
 player_uid: player-ba0219430bc427ae
 team: Zug United
 league: Switzerland Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 0
 career_assists: 3
 career_points: 3
-career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|0|3|3|2||chw-26-27|cup|Switzerland Women|Zug United|1|0|0|0|0
+career_pim: 4
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|0|3|3|2||chw-26-27|cup|Switzerland Women|Zug United|1|0|0|0|0||ccw-26-27|tournament|IFF Champions Cup Women|Zug United|1|0|0|0|2
 assists: 3
 games: 6
 goals: 0

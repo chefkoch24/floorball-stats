@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matej Záhora
 Category: players
 Slug: player-e927cba3ad699866

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jiří Curney
 Category: players
 Slug: player-c8b838bb04b6a09f
@@ -11,10 +11,10 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
-current_goals: 10
-current_assists: 11
-current_points: 21
+current_games: 12
+current_goals: 12
+current_assists: 17
+current_points: 29
 current_pim: 2
 regular_games: 10
 regular_goals: 10
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
-cup_assists: 0
-cup_points: 0
+cup_games: 2
+cup_goals: 2
+cup_assists: 6
+cup_points: 8
 cup_pim: 0
 previous_games: 36
 previous_goals: 33
@@ -41,7 +41,7 @@ career_goals: 43
 career_assists: 35
 career_points: 78
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|10|10|11|21|2||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|4|13|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|24|20|44|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|10|10|11|21|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|2|6|8|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|4|13|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|24|20|44|4
 assists: 11
 games: 10
 goals: 10

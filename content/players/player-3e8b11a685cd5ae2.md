@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Michálek Andrej
 Category: players
 Slug: player-3e8b11a685cd5ae2

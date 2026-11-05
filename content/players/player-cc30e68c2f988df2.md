@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Barbora Suková
 Category: players
 Slug: player-cc30e68c2f988df2
@@ -11,10 +11,10 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
+current_games: 6
 current_goals: 0
-current_assists: 1
-current_points: 1
+current_assists: 2
+current_points: 2
 current_pim: 2
 regular_games: 2
 regular_goals: 0
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 4
 cup_goals: 0
-cup_assists: 0
-cup_points: 0
+cup_assists: 1
+cup_points: 1
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|2|0|1|1|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|2|0|1|1|2||czw-26-27|cup|Czech Republic Women|GMS Florbal Chomutov|4|0|1|1|0
 assists: 1
 games: 2
 goals: 0

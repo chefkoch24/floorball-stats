@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jonna-Liina Varis
 Category: players
 Slug: player-0a889ba51e05f7de
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 93
+rank: 94
 season: fiw-26-27

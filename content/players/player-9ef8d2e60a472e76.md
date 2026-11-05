@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Michal Sládek
+Date: 2026-11-05
+Title: Michal Sladek
 Category: players
 Slug: player-9ef8d2e60a472e76
 type: player
-player: Michal Sládek
+player: Michal Sladek
 player_uid: player-9ef8d2e60a472e76
 team: AMIX Florbal MB
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 40
 previous_assists: 19
 previous_points: 59
 previous_pim: 8
-career_games: 42
+career_games: 43
 career_goals: 45
-career_assists: 23
-career_points: 68
+career_assists: 24
+career_points: 69
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|8|5|4|9|2||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|3|12|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|26|31|16|47|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|8|5|4|9|2||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|3|12|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|26|31|16|47|6
 assists: 4
 games: 8
 goals: 5

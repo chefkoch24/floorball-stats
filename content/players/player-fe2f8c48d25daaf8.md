@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Matěj Havlas
+Date: 2026-11-05
+Title: Matej Havlas
 Category: players
 Slug: player-fe2f8c48d25daaf8
 type: player
-player: Matěj Havlas
+player: Matej Havlas
 player_uid: player-fe2f8c48d25daaf8
 team: Tatran Střešovice
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 41
 previous_assists: 37
 previous_points: 78
 previous_pim: 8
-career_games: 51
+career_games: 52
 career_goals: 54
-career_assists: 51
-career_points: 105
+career_assists: 52
+career_points: 106
 career_pim: 14
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|7|10|17|6||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|9|19|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|31|28|59|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|4|10|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|7|10|17|6||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|9|19|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|31|28|59|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|4|10|0
 assists: 10
 games: 11
 goals: 7

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Lasse Vallema
 Category: players
 Slug: player-cf691e8ddead551a

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Clara Lindblom
 Category: players
 Slug: player-e9ff4e2a7d03e2dc
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 2
-career_assists: 0
-career_points: 2
+career_assists: 1
+career_points: 3
 career_pim: 2
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|2|0|2|2||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|2|0|2|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|2|0|2|2||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|2|0|2|0||ccw-26-27|tournament|IFF Champions Cup Women|Thorengruppen IBK|1|0|1|1|0
 assists: 0
 games: 7
 goals: 2

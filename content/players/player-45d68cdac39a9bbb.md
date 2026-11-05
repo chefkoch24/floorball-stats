@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Šimon Stránský
+Date: 2026-11-05
+Title: Simon Stransky
 Category: players
 Slug: player-45d68cdac39a9bbb
 type: player
-player: Šimon Stránský
+player: Simon Stransky
 player_uid: player-45d68cdac39a9bbb
 team: AMIX Florbal MB
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 32
 previous_assists: 38
 previous_points: 70
 previous_pim: 6
-career_games: 41
-career_goals: 41
+career_games: 42
+career_goals: 43
 career_assists: 43
-career_points: 84
+career_points: 86
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|8|9|5|14|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|6|7|13|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|26|31|57|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|8|9|5|14|0||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|2|0|2|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|6|7|13|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|26|31|57|4
 assists: 5
 games: 8
 goals: 9

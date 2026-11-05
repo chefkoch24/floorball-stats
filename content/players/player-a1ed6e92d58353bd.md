@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Nathalie Gustafsson
 Category: players
 Slug: player-a1ed6e92d58353bd
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
+career_games: 8
+career_goals: 4
 career_assists: 4
-career_points: 7
+career_points: 8
 career_pim: 2
-history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|3|4|7|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|1|2|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|3|4|7|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|1|2|0||ccw-26-27|tournament|IFF Champions Cup Women|FBC Kalmarsund|1|1|0|1|0
 assists: 4
 games: 7
 goals: 3

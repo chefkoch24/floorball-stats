@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Lauri Lahti
 Category: players
 Slug: player-84d831b5d926bdc7

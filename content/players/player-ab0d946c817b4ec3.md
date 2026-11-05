@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3
@@ -36,12 +36,12 @@ previous_goals: 31
 previous_assists: 22
 previous_points: 53
 previous_pim: 0
-career_games: 32
-career_goals: 45
-career_assists: 30
-career_points: 75
-career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|8|14|8|22|4||fi-25-26|regular-season|Finland|Nokian KrP|24|31|22|53|0
+career_games: 35
+career_goals: 46
+career_assists: 31
+career_points: 77
+career_pim: 6
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|8|14|8|22|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|3|1|1|2|2||fi-25-26|regular-season|Finland|Nokian KrP|24|31|22|53|0
 assists: 8
 games: 8
 goals: 14

@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Jakub Vařecha
+Date: 2026-11-05
+Title: Jakub Varecha
 Category: players
 Slug: player-c4bdc19953c12c81
 type: player
-player: Jakub Vařecha
+player: Jakub Varecha
 player_uid: player-c4bdc19953c12c81
 team: AMIX Florbal MB
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 23
 previous_assists: 16
 previous_points: 39
 previous_pim: 6
-career_games: 38
-career_goals: 32
+career_games: 39
+career_goals: 34
 career_assists: 28
-career_points: 60
+career_points: 62
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|9|9|12|21|4||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|5|2|7|6||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|21|18|14|32|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|9|9|12|21|4||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|2|0|2|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|5|2|7|6||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|21|18|14|32|0
 assists: 12
 games: 9
 goals: 9

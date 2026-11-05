@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Paľo Lukáš
 Category: players
 Slug: player-09cd3761cdc0c5c4

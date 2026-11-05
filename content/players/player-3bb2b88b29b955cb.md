@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Gian Thöni
 Category: players
 Slug: player-3bb2b88b29b955cb

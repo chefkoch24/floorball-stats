@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Effi Johanna Bauer
 Category: players
 Slug: player-26f07b7daebe3b72

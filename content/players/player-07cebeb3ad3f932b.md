@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jan Bürki
 Category: players
 Slug: player-07cebeb3ad3f932b

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Annika Sormunen
 Category: players
 Slug: player-9e94eaccbf10aa13

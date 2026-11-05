@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Alex Eklund
 Category: players
 Slug: player-87e333c21af112da

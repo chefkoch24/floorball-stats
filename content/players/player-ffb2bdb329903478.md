@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Wilmer Viinamäki
 Category: players
 Slug: player-ffb2bdb329903478

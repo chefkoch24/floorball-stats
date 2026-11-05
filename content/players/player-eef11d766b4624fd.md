@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Martin Tormásy
 Category: players
 Slug: player-eef11d766b4624fd

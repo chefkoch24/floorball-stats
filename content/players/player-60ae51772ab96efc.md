@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Karri Vaarala
 Category: players
 Slug: player-60ae51772ab96efc
@@ -36,12 +36,12 @@ previous_goals: 25
 previous_assists: 19
 previous_points: 44
 previous_pim: 8
-career_games: 31
+career_games: 32
 career_goals: 32
-career_assists: 28
-career_points: 60
+career_assists: 29
+career_points: 61
 career_pim: 8
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|7|9|16|0||fi-26-27|cup|Finland|SPV|1|2|1|3|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|7|9|16|0||fi-26-27|cup|Finland|SPV|1|2|1|3|0||cc-26-27|tournament|IFF Champions Cup|SPV|1|0|1|1|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
 assists: 9
 games: 7
 goals: 7

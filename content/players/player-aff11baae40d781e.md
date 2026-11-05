@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Malte Lundmark
 Category: players
 Slug: player-aff11baae40d781e
@@ -36,12 +36,12 @@ previous_goals: 56
 previous_assists: 38
 previous_points: 94
 previous_pim: 2
-career_games: 50
-career_goals: 76
-career_assists: 46
-career_points: 122
+career_games: 52
+career_goals: 77
+career_assists: 49
+career_points: 126
 career_pim: 6
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|11|5|16|2||se-26-27|cup|Sweden|IBF Falun|2|2|4|6|2||se-25-26|playoffs|Sweden|IBF Falun|11|18|14|32|2||se-25-26|regular-season|Sweden|IBF Falun|26|38|24|62|0||wfc-2024|tournament|IFF WFC|Sweden|6|9|3|12|2
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|11|5|16|2||se-26-27|cup|Sweden|IBF Falun|2|2|4|6|2||cc-26-27|tournament|IFF Champions Cup|IBF Falun|2|1|3|4|0||se-25-26|playoffs|Sweden|IBF Falun|11|18|14|32|2||se-25-26|regular-season|Sweden|IBF Falun|26|38|24|62|0||wfc-2024|tournament|IFF WFC|Sweden|6|9|3|12|2
 assists: 5
 games: 7
 goals: 11

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Šablica Matúš
 Category: players
 Slug: player-72d6d32a7e3ce9a0

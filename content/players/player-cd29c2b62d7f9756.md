@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Veronika Rybičková C
 Category: players
 Slug: player-cd29c2b62d7f9756

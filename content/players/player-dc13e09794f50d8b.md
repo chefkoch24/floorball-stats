@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Magda Jansová
 Category: players
 Slug: player-dc13e09794f50d8b
@@ -11,7 +11,7 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
+current_games: 7
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 4
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|K1 Florbal Brno Židenice|3|0|1|1|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|K1 Florbal Brno Židenice|3|0|1|1|0||czw-26-27|cup|Czech Republic Women|K1 Florbal Brno Židenice|4|0|0|0|0
 assists: 1
 games: 3
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jan Blažek
 Category: players
 Slug: player-de29a321cbfff189
@@ -11,7 +11,7 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 1
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 2
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|1|0|0|0|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|3|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|1|0|0|0|0||cz-26-27|cup|Czech Republic|Kanonýři Kladno|2|0|0|0|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|1|0|0|0|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|3|0|0|0|0
 assists: 0
 games: 1
 goals: 0

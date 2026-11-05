@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Sini-Tuulia Liljavirta
 Category: players
 Slug: player-9b35ea2af5a88f6a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 113
+rank: 115
 season: fiw-26-27

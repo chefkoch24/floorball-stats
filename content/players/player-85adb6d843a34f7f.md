@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Joona Hokkanen
 Category: players
 Slug: player-85adb6d843a34f7f

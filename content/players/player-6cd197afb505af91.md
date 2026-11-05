@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Kristers Tīsiņš
 Category: players
 Slug: player-6cd197afb505af91

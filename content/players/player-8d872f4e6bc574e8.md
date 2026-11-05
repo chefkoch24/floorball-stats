@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Nathalie Spichiger
 Category: players
 Slug: player-8d872f4e6bc574e8
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 3
-career_assists: 4
-career_points: 7
+career_assists: 5
+career_points: 8
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|3|4|7|0||chw-26-27|cup|Switzerland Women|Zug United|2|3|0|3|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|3|4|7|0||chw-26-27|cup|Switzerland Women|Zug United|2|3|0|3|0||ccw-26-27|tournament|IFF Champions Cup Women|Zug United|1|0|1|1|0
 assists: 4
 games: 6
 goals: 3

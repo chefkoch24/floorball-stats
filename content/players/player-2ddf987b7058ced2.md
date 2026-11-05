@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Aapo Kilpeläinen
+Date: 2026-11-05
+Title: Aapo Kilpelainen
 Category: players
 Slug: player-2ddf987b7058ced2
 type: player
-player: Aapo Kilpeläinen
+player: Aapo Kilpelainen
 player_uid: player-2ddf987b7058ced2
 team: Nokian KrP
 league: Finland
@@ -36,12 +36,12 @@ previous_goals: 9
 previous_assists: 7
 previous_points: 16
 previous_pim: 2
-career_games: 20
-career_goals: 19
-career_assists: 10
-career_points: 29
+career_games: 21
+career_goals: 20
+career_assists: 11
+career_points: 31
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|7|10|3|13|0||fi-25-26|regular-season|Finland|Nokian KrP|13|9|7|16|2
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|7|10|3|13|0||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|1|1|1|2|0||fi-25-26|regular-season|Finland|Nokian KrP|13|9|7|16|2
 assists: 3
 games: 7
 goals: 10

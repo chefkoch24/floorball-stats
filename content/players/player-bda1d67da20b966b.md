@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Petr Majer
 Category: players
 Slug: player-bda1d67da20b966b
@@ -36,12 +36,12 @@ previous_goals: 31
 previous_assists: 19
 previous_points: 50
 previous_pim: 4
-career_games: 43
-career_goals: 35
-career_assists: 28
-career_points: 63
+career_games: 46
+career_goals: 36
+career_assists: 31
+career_points: 67
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|4|9|13|4||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|5|2|7|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|26|17|43|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|4|9|13|4||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|3|1|3|4|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|5|2|7|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|26|17|43|2
 assists: 9
 games: 8
 goals: 4

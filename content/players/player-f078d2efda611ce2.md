@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Kaja Anderegg
 Category: players
 Slug: player-f078d2efda611ce2

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Oskar Andersson
 Category: players
 Slug: player-86fe46bfa1129c56

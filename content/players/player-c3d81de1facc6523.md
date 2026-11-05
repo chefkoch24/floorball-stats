@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jael Fassler
 Category: players
 Slug: player-c3d81de1facc6523

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Jonathan Berglund
 Category: players
 Slug: player-0ac6b7e4ce4915c1
@@ -36,12 +36,12 @@ previous_goals: 6
 previous_assists: 12
 previous_points: 18
 previous_pim: 4
-career_games: 39
-career_goals: 7
+career_games: 40
+career_goals: 8
 career_assists: 14
-career_points: 21
+career_points: 22
 career_pim: 4
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|5|1|2|3|0||se-26-27|cup|Sweden|IBF Falun|2|1|0|1|0||se-25-26|playoffs|Sweden|IBF Falun|10|2|4|6|0||se-25-26|regular-season|Sweden|IBF Falun|24|4|8|12|4
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|5|1|2|3|0||se-26-27|cup|Sweden|IBF Falun|2|1|0|1|0||cc-26-27|tournament|IFF Champions Cup|IBF Falun|1|1|0|1|0||se-25-26|playoffs|Sweden|IBF Falun|10|2|4|6|0||se-25-26|regular-season|Sweden|IBF Falun|24|4|8|12|4
 assists: 2
 games: 5
 goals: 1

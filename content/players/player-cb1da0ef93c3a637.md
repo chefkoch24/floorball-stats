@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Filip Smutný
 Category: players
 Slug: player-cb1da0ef93c3a637

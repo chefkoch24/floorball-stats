@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Ema Plevková
 Category: players
 Slug: player-c3f4c1e978fad704

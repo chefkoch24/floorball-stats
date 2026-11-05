@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Martin Hempfling
 Category: players
 Slug: player-5ff2bfbd49927f12

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Noora Lapinkoski
 Category: players
 Slug: player-6c2c7fbbaeec5f5f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 98
+rank: 99
 season: fiw-26-27

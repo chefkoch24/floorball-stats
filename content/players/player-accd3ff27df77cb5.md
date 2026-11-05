@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Nikola Hermannová
+Date: 2026-11-05
+Title: Nikola Hermannova
 Category: players
 Slug: player-accd3ff27df77cb5
 type: player
-player: Nikola Hermannová
+player: Nikola Hermannova
 player_uid: player-accd3ff27df77cb5
 team: Tatran Střešovice
 league: Czech Republic Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 3
+career_games: 4
 career_goals: 2
-career_assists: 1
-career_points: 3
-career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|3|2|1|3|0
+career_assists: 2
+career_points: 4
+career_pim: 2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|3|2|1|3|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|0|1|1|2
 assists: 1
 games: 3
 goals: 2

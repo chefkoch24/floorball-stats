@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Ellen Rasmussen
 Category: players
 Slug: player-0b38628a0ea15b3f
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 6
-career_assists: 7
-career_points: 13
+career_games: 9
+career_goals: 9
+career_assists: 9
+career_points: 18
 career_pim: 2
-history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|6|7|13|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|0|1|1|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|6|7|13|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|0|1|1|0||ccw-26-27|tournament|IFF Champions Cup Women|FBC Kalmarsund|2|3|2|5|0
 assists: 7
 games: 7
 goals: 6

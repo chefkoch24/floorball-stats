@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Josef Juha
 Category: players
 Slug: player-deca383f5b35bc1b
@@ -11,10 +11,10 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 5
-current_goals: 0
+current_games: 6
+current_goals: 2
 current_assists: 2
-current_points: 2
+current_points: 4
 current_pim: 2
 regular_games: 5
 regular_goals: 0
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
+cup_games: 1
+cup_goals: 2
 cup_assists: 0
-cup_points: 0
+cup_points: 2
 cup_pim: 0
 previous_games: 3
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 5
 career_points: 5
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|5|0|2|2|2||fi-25-26|regular-season|Finland|EräViikingit|3|0|3|3|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|5|0|2|2|2||cz-26-27|cup|Czech Republic|Kanonýři Kladno|1|2|0|2|0||fi-25-26|regular-season|Finland|EräViikingit|3|0|3|3|0
 assists: 2
 games: 5
 goals: 0

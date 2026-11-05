@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Abigail Mojová
 Category: players
 Slug: player-ff99438f68c261fb
@@ -11,10 +11,10 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 3
+current_games: 14
+current_goals: 7
 current_assists: 0
-current_points: 3
+current_points: 7
 current_pim: 0
 regular_games: 9
 regular_goals: 3
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
+cup_games: 5
+cup_goals: 4
 cup_assists: 0
-cup_points: 0
+cup_points: 4
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|9|3|0|3|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|9|3|0|3|0||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|4|0|4|0
 assists: 0
 games: 9
 goals: 3

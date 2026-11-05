@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Mira Neele Horvath
 Category: players
 Slug: player-846d9de3cc3dca80

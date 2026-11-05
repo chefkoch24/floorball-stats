@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Agnes Plogner
 Category: players
 Slug: player-b75f5b7d9c4473b7
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 1
+career_games: 8
+career_goals: 2
 career_assists: 3
-career_points: 4
+career_points: 5
 career_pim: 2
-history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|1|3|4|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|0|1|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|1|3|4|2||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|0|1|0||ccw-26-27|tournament|IFF Champions Cup Women|FBC Kalmarsund|1|1|0|1|0
 assists: 3
 games: 7
 goals: 1

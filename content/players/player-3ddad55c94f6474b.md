@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Florin Fehr
 Category: players
 Slug: player-3ddad55c94f6474b
@@ -36,12 +36,12 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 3
-career_assists: 5
-career_points: 8
+career_assists: 6
+career_points: 9
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|0|3|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|4|2|6|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|13|2|2|4|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|0|3|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|4|2|6|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|13|2|2|4|0
 assists: 3
 games: 7
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Ayla Naide Aydin
 Category: players
 Slug: player-02bb03b54031ede5

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matěj Čelakovský
 Category: players
 Slug: player-d0da590d27c15cc0

@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Mika Hänni
+Date: 2026-11-05
+Title: Mika Hanni
 Category: players
 Slug: player-309d4eb8bcdefda1
 type: player
-player: Mika Hänni
+player: Mika Hanni
 player_uid: player-309d4eb8bcdefda1
 team: Floorball Thurgau
 league: Switzerland
@@ -36,12 +36,12 @@ previous_goals: 3
 previous_assists: 7
 previous_points: 10
 previous_pim: 12
-career_games: 41
+career_games: 43
 career_goals: 3
-career_assists: 7
-career_points: 10
+career_assists: 9
+career_points: 12
 career_pim: 16
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|0|0|0|4||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|4|5|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|2|3|5|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|0|0|0|4||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|2|0|2|2|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|4|5|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|2|3|5|10
 assists: 0
 games: 7
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Moa Gustafsson
 Category: players
 Slug: player-354eafc8e733cabd

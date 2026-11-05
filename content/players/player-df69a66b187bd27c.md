@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Michaela Kubečková
+Date: 2026-11-05
+Title: Michaela Kubeckova
 Category: players
 Slug: player-df69a66b187bd27c
 type: player
-player: Michaela Kubečková
+player: Michaela Kubeckova
 player_uid: player-df69a66b187bd27c
 team: FBC Kalmarsund
 league: Sweden Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
-career_assists: 3
-career_points: 6
+career_games: 8
+career_goals: 7
+career_assists: 4
+career_points: 11
 career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|3|3|6|0||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|2|3|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|FBC Kalmarsund|7|3|3|6|0||sew-26-27|cup|Sweden Women|FBC Kalmarsund|2|1|2|3|0||ccw-26-27|tournament|IFF Champions Cup Women|FBC Kalmarsund|1|4|1|5|0
 assists: 3
 games: 7
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Mats Michel Dose
 Category: players
 Slug: player-d7e65be46cfe0639

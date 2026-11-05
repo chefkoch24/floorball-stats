@@ -320,6 +320,7 @@ home_pregame_points_after_first_period: 13
 home_pregame_points_after_first_period_per_game: 2.17
 home_pregame_points_after_second_period: 18
 home_pregame_points_after_third_period: 13
+home_pregame_points_against_classic: 0
 home_pregame_points_against_eraviikingit: 3
 home_pregame_points_against_koovee: 2
 home_pregame_points_against_pirkat: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Niklas Äijälä
 Category: players
 Slug: player-ab663c2478fe201b

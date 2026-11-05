@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Nela Kubalčíková
 Category: players
 Slug: player-c8bc7bd1dd6171b5
@@ -11,7 +11,7 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 4
 current_assists: 3
 current_points: 7
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 1
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 4
 career_assists: 3
 career_points: 7
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|9|4|3|7|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|9|4|3|7|2||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|0|0|0|0
 assists: 3
 games: 9
 goals: 4

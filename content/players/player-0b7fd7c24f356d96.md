@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Miisa Turunen
 Category: players
 Slug: player-0b7fd7c24f356d96
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 15
+rank: 16
 season: fiw-26-27

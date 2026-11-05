@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Maija Taitto
 Category: players
 Slug: player-7cb8b98bc8847b93
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 3
 career_goals: 1
 career_assists: 1
 career_points: 2
-career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Koovee|2|1|1|2|0||fiw-26-27|cup|Finland Women|Koovee|1|1|0|1|0
+career_pim: 2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Koovee|2|1|1|2|0||fiw-26-27|cup|Finland Women|Koovee|1|1|0|1|0||ccw-26-27|tournament|IFF Champions Cup Women|Koovee|1|0|0|0|2
 assists: 1
 games: 2
 goals: 1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 120
+rank: 121
 season: fiw-26-27

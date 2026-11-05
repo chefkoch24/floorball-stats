@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Kateřina Seemannová
+Date: 2026-11-05
+Title: Katerina Seemannova
 Category: players
 Slug: player-7b7448c581df8c2b
 type: player
-player: Kateřina Seemannová
+player: Katerina Seemannova
 player_uid: player-7b7448c581df8c2b
 team: Tatran Střešovice
 league: Czech Republic Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 2
-career_assists: 2
-career_points: 4
+career_assists: 3
+career_points: 5
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|6|2|2|4|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|6|2|2|4|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|0|1|1|0
 assists: 2
 games: 6
 goals: 2

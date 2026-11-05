@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Martin Wallberg
 Category: players
 Slug: player-38d5fc0a76336ee6

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Oskar Bäckman
 Category: players
 Slug: player-8ed2d4f865189bae

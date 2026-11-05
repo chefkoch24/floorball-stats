@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Lukáš Kubíček
 Category: players
 Slug: player-8370c2cf6a2dc069
@@ -11,7 +11,7 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 1
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 5
 career_assists: 4
 career_points: 9
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|7|0|0|0|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|2|0|2|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|17|3|4|7|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|7|0|0|0|0||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|2|0|2|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|17|3|4|7|0
 assists: 0
 games: 7
 goals: 0

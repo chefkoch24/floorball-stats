@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Samuel Suutari
 Category: players
 Slug: player-da57107fd9ae9168

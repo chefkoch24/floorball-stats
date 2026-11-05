@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Arttu Äijälä
 Category: players
 Slug: player-7168c3158dbe5cf2

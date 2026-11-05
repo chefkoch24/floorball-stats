@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Lene Haas
 Category: players
 Slug: player-1aecf9cbba393727

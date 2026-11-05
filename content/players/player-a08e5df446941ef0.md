@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Adam Zubek
 Category: players
 Slug: player-a08e5df446941ef0
@@ -36,12 +36,12 @@ previous_goals: 24
 previous_assists: 26
 previous_points: 50
 previous_pim: 8
-career_games: 39
-career_goals: 30
-career_assists: 35
-career_points: 65
-career_pim: 12
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|8|6|8|14|4||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|3|7|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|24|20|23|43|8||wfc-2024|tournament|IFF WFC|Czechia|1|0|1|1|0
+career_games: 41
+career_goals: 33
+career_assists: 36
+career_points: 69
+career_pim: 14
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|8|6|8|14|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|2|3|1|4|2||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|3|7|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|24|20|23|43|8||wfc-2024|tournament|IFF WFC|Czechia|1|0|1|1|0
 assists: 8
 games: 8
 goals: 6

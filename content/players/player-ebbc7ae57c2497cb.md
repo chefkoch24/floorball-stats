@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Adam Pettersson
 Category: players
 Slug: player-ebbc7ae57c2497cb

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Michaela Voráčková
 Category: players
 Slug: player-ae46dccbf5c111d1

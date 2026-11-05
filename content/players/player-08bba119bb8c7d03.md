@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Pavel Vítek
 Category: players
 Slug: player-08bba119bb8c7d03

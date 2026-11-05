@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Ramon Fontana
 Category: players
 Slug: player-4ab4d663f00acfc7

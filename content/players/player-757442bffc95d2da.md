@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Klinta Mārtiņjēkaba
 Category: players
 Slug: player-757442bffc95d2da

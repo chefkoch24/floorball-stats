@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Rasmus Hedberg
 Category: players
 Slug: player-170c8df1bcab4524

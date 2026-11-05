@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Michal Franek
 Category: players
 Slug: player-ce3158ee6252abd7

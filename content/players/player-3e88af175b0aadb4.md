@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Adam Bureš
+Date: 2026-11-05
+Title: Adam Bures
 Category: players
 Slug: player-3e88af175b0aadb4
 type: player
-player: Adam Bureš
+player: Adam Bures
 player_uid: player-3e88af175b0aadb4
 team: Tatran Střešovice
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 19
 previous_assists: 8
 previous_points: 27
 previous_pim: 6
-career_games: 43
-career_goals: 24
+career_games: 44
+career_goals: 25
 career_assists: 10
-career_points: 34
+career_points: 35
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|5|2|7|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|2|12|4||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|9|6|15|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|5|2|7|0||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|1|1|0|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|2|12|4||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|9|6|15|2
 assists: 2
 games: 8
 goals: 5

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matěj Šmétka
 Category: players
 Slug: player-b7d9abca8ec45037
@@ -11,10 +11,10 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 9
-current_assists: 5
-current_points: 14
+current_games: 9
+current_goals: 10
+current_assists: 8
+current_points: 18
 current_pim: 2
 regular_games: 8
 regular_goals: 9
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
-cup_assists: 0
-cup_points: 0
+cup_games: 1
+cup_goals: 1
+cup_assists: 3
+cup_points: 4
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 9
 career_assists: 5
 career_points: 14
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|8|9|5|14|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|8|9|5|14|2||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|1|3|4|0
 assists: 5
 games: 8
 goals: 9

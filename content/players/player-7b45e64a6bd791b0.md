@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Oona Kauppi
 Category: players
 Slug: player-7b45e64a6bd791b0
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 5
-career_assists: 11
-career_points: 16
+career_games: 8
+career_goals: 6
+career_assists: 12
+career_points: 18
 career_pim: 0
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|5|11|16|0||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|2|2|4|0
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|5|11|16|0||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|2|2|4|0||ccw-26-27|tournament|IFF Champions Cup Women|Thorengruppen IBK|1|1|1|2|0
 assists: 11
 games: 7
 goals: 5

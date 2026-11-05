@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Stina Kampe
 Category: players
 Slug: player-321240aae82ad0a8

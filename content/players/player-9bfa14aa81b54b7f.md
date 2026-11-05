@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Ellen Eos
 Category: players
 Slug: player-9bfa14aa81b54b7f

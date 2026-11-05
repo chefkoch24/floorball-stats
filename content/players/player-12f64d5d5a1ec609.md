@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Moritz Neustadt
 Category: players
 Slug: player-12f64d5d5a1ec609

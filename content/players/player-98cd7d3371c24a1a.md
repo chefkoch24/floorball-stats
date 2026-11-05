@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matej Marioth
 Category: players
 Slug: player-98cd7d3371c24a1a

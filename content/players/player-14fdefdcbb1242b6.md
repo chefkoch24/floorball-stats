@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Michel Wöcke
+Date: 2026-11-05
+Title: Michel Wocke
 Category: players
 Slug: player-14fdefdcbb1242b6
 type: player
-player: Michel Wöcke
+player: Michel Wocke
 player_uid: player-14fdefdcbb1242b6
 team: HC Rychenberg Winterthur
 league: Switzerland
@@ -36,12 +36,12 @@ previous_goals: 7
 previous_assists: 10
 previous_points: 17
 previous_pim: 4
-career_games: 45
+career_games: 46
 career_goals: 10
-career_assists: 11
-career_points: 21
+career_assists: 12
+career_points: 22
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|2|1|3|0||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|1|2|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|2|2|4|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|5|8|13|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|2|1|3|0||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|1|2|2||cc-26-27|tournament|IFF Champions Cup|HC Rychenberg Winterthur|1|0|1|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|2|2|4|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|5|8|13|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|0
 assists: 1
 games: 7
 goals: 2

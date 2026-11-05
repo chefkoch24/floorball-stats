@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Kiia Verronen
 Category: players
 Slug: player-139bcc47e7a9a7ef

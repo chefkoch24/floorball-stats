@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Theresa Beppler-Alt
 Category: players
 Slug: player-1e6a8f9de7dac21b

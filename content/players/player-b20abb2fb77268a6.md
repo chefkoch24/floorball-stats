@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Anna Brucháčková
+Date: 2026-11-05
+Title: Anna Bruchackova
 Category: players
 Slug: player-b20abb2fb77268a6
 type: player
-player: Anna Brucháčková
+player: Anna Bruchackova
 player_uid: player-b20abb2fb77268a6
 team: GC System Bulldogs Brno
 league: Czech Republic Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 8
-career_assists: 7
-career_points: 15
+career_assists: 8
+career_points: 16
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|7|8|7|15|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|7|8|7|15|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|0|1|1|0
 assists: 7
 games: 7
 goals: 8

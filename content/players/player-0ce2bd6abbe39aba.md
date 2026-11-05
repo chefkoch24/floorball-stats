@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Theo Genesener
 Category: players
 Slug: player-0ce2bd6abbe39aba

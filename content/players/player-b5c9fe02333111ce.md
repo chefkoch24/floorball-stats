@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Martin Haleš
 Category: players
 Slug: player-b5c9fe02333111ce
@@ -11,7 +11,7 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 1
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 4
 career_points: 4
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|0|1|1|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|0|1|1|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|0|2|2|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|0|1|1|0||cz-26-27|cup|Czech Republic|Kanonýři Kladno|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|0|1|1|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|26|0|2|2|2
 assists: 1
 games: 10
 goals: 0

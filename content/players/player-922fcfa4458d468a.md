@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Milan Meliš
+Date: 2026-11-05
+Title: Milan Melis
 Category: players
 Slug: player-922fcfa4458d468a
 type: player
-player: Milan Meliš
+player: Milan Melis
 player_uid: player-922fcfa4458d468a
 team: Tatran Střešovice
 league: Czech Republic
@@ -36,12 +36,12 @@ previous_goals: 3
 previous_assists: 11
 previous_points: 14
 previous_pim: 2
-career_games: 22
-career_goals: 6
+career_games: 24
+career_goals: 8
 career_assists: 15
-career_points: 21
+career_points: 23
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|3|2|3|5|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|4|1|3|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|9|2|8|10|2||wfc-2024|tournament|IFF WFC|Czechia|6|1|1|2|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|3|2|3|5|0||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|2|2|0|2|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|4|1|3|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|9|2|8|10|2||wfc-2024|tournament|IFF WFC|Czechia|6|1|1|2|2
 assists: 3
 games: 3
 goals: 2

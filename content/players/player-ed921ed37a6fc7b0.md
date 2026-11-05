@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Adam Vágner
 Category: players
 Slug: player-ed921ed37a6fc7b0

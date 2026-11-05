@@ -434,6 +434,7 @@ away_pregame_points_after_first_period: 9
 away_pregame_points_after_first_period_per_game: 3.0
 away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 6
+away_pregame_points_against_classic: 0
 away_pregame_points_against_eraviikingit: 3
 away_pregame_points_against_koovee: 2
 away_pregame_points_against_pirkat: 3

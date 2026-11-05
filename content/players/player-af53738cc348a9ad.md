@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Elia Seiler
 Category: players
 Slug: player-af53738cc348a9ad
@@ -36,12 +36,12 @@ previous_goals: 4
 previous_assists: 8
 previous_points: 12
 previous_pim: 12
-career_games: 29
-career_goals: 6
+career_games: 30
+career_goals: 9
 career_assists: 9
-career_points: 15
+career_points: 18
 career_pim: 14
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|6|2|1|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|8|3|0|3|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|1|8|9|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|6|2|1|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|1|1|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|3|0|3|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|8|3|0|3|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|1|8|9|10
 assists: 1
 games: 6
 goals: 2

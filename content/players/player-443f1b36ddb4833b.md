@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Matias Knuuti
 Category: players
 Slug: player-443f1b36ddb4833b

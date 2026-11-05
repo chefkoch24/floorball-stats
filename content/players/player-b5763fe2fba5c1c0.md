@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Oskar Weissbach
 Category: players
 Slug: player-b5763fe2fba5c1c0
@@ -36,12 +36,12 @@ previous_goals: 10
 previous_assists: 39
 previous_points: 49
 previous_pim: 4
-career_games: 43
-career_goals: 12
-career_assists: 47
-career_points: 59
+career_games: 44
+career_goals: 13
+career_assists: 48
+career_points: 61
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|2|8|10|0||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|8|9|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|3|10|13|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|20|7|29|36|4||wfc-2024|tournament|IFF WFC|Sweden|6|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|2|8|10|0||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|8|9|2||cc-26-27|tournament|IFF Champions Cup|HC Rychenberg Winterthur|1|1|1|2|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|3|10|13|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|20|7|29|36|4||wfc-2024|tournament|IFF WFC|Sweden|6|0|0|0|0
 assists: 8
 games: 7
 goals: 2

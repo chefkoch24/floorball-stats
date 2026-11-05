@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-05
 Title: Marek Vávra C
 Category: players
 Slug: player-ca85adc983f5d55e
