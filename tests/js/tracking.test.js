@@ -207,6 +207,17 @@ test('on localhost events are logged instead of sent', () => {
   assert.equal(logged[0][1], 'search_opened');
 });
 
+test('every loopback host name counts as localhost', () => {
+  for (const host of ['localhost', '127.0.0.1', '0.0.0.0', '::1', '[::1]', 'Dev.LOCALHOST']) {
+    const { win, calls } = fakeWindow('/leaders.html');
+    win.location.hostname = host;
+    win.console = { info: () => {} };
+    fbTrack.init(win);
+    fbTrack.capture('search_opened', { search_scope: 'site' });
+    assert.equal(calls.length, 0, host);
+  }
+});
+
 test('a banner marked data-track-view reports <name>_viewed once when it is in view', () => {
   const { win, calls } = fakeWindow('/');
   let callback = null;

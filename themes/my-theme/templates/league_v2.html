@@ -1,7 +1,10 @@
 {% from 'team_crest.html' import crest with context %}
-{# League page (regular season) on the design system. Included by category.html with
+{# League page (regular season, or the knockout phase of an international competition such as the
+   Champions Cup) on the design system. Included by category.html with
    category, league (league_context), ns, player_stats and player_rows in scope. #}
 {% set competition = league.title.split(' · ')[-1] %}
+{% set is_competition = league.competition|default(false) %}
+{% import "playoff_bracket.html" as bracket with context %}
 {% set available = categories|default([])|category_slugs %}
 {% set playoffs_slug = league.prefix ~ league.season ~ '-playoffs' %}
 {% set cup_slug = league.prefix ~ league.season ~ '-cup' %}
@@ -89,6 +92,9 @@
             <h1 class="m-0 font-display text-[44px] leading-none font-extrabold text-ink [font-stretch:75%] text-balance sm:text-[56px]">{{ competition }}</h1>
         </div>
         <nav class="fs-segmented" aria-label="Season phase">
+            {% if is_competition %}
+            <a class="fs-segment" aria-current="page" href="{{ SITEURL }}/{{ category.url }}">Knockout</a>
+            {% else %}
             <a class="fs-segment" aria-current="page" href="{{ SITEURL }}/{{ category.url }}">Regular season</a>
             {% if playoffs_slug in available %}
             <a class="fs-segment" href="{{ SITEURL }}/category/{{ playoffs_slug }}.html">Playoffs</a>
@@ -97,6 +103,7 @@
             {% endif %}
             {% if cup_slug in available %}
             <a class="fs-segment" href="{{ SITEURL }}/category/{{ cup_slug }}.html">Cup</a>
+            {% endif %}
             {% endif %}
         </nav>
     </div>
@@ -234,6 +241,10 @@
         </details>
     </section>
 
+{% if is_competition %}
+{{ bracket.markup(played_desc|length) }}
+{% endif %}
+
 {# Player boards side by side: points, goals, assists, share of team goals. Phones swipe through them. #}
 {% if player_stats.article and player_rows %}
 {% set board_rows = [] %}
@@ -337,6 +348,7 @@
 </section>
 {% endif %}
 
+{% if is_competition %}{{ bracket.script(played_desc|length) }}{% endif %}
 <script>
 (() => {
   // Segmented controls on this page: table column sets and results / upcoming games.
