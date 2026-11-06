@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Fredrik Lindholm
 Category: players
 Slug: player-1e6f9a20a5d81c3f

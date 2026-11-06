@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kriš Jozef
 Category: players
 Slug: player-d84c784fc2c73a04

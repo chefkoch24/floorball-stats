@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matyáš Devátý
 Category: players
 Slug: player-a968d9c2d1a4ea80
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 306
+rank: 305
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matěj Šmétka
 Category: players
 Slug: player-b7d9abca8ec45037

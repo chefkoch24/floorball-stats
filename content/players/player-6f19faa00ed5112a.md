@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Púčeková Ema
 Category: players
 Slug: player-6f19faa00ed5112a

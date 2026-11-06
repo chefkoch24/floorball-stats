@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kryštof Krbec
 Category: players
 Slug: player-14cf273cd4ba74bc
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,14 +36,14 @@ previous_goals: 6
 previous_assists: 5
 previous_points: 11
 previous_pim: 4
-career_games: 41
+career_games: 42
 career_goals: 6
 career_assists: 6
 career_points: 12
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|0|1|1|2||cz-26-27|cup|Czech Republic|Kanonýři Kladno|3|0|1|1|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|1|2|3|4||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|25|5|3|8|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|0|1|1|2||cz-26-27|cup|Czech Republic|Kanonýři Kladno|3|0|1|1|0||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|7|1|2|3|4||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|25|5|3|8|0
 assists: 1
-games: 9
+games: 10
 goals: 0
 penalties: 1
 phase: regular-season

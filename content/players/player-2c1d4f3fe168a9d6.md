@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Nikola Liberdová
 Category: players
 Slug: player-2c1d4f3fe168a9d6

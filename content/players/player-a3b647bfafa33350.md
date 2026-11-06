@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jan Sitora
 Category: players
 Slug: player-a3b647bfafa33350
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 100
+rank: 101
 season: cz-26-27

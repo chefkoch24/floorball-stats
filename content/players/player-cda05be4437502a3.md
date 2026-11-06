@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Dominik Vinárek
 Category: players
 Slug: player-cda05be4437502a3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 175
+rank: 177
 season: cz-26-27

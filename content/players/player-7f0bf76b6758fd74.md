@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Artis Upītis
 Category: players
 Slug: player-7f0bf76b6758fd74

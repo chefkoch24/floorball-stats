@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vítek Engel
 Category: players
 Slug: player-b1dd3dbdad5eb875
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 214
+rank: 215
 season: cz-26-27

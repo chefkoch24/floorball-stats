@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Anežka Macháčková
 Category: players
 Slug: player-fdd50d8ee681ba21

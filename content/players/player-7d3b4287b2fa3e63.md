@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Filip Šimek
 Category: players
 Slug: player-7d3b4287b2fa3e63
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 98
+rank: 100
 season: cz-26-27

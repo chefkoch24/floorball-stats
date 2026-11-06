@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ivo Lüthi
 Category: players
 Slug: player-4baf1abde3051a56

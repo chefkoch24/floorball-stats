@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ričards Riba
 Category: players
 Slug: player-7fe329de8f8359e3

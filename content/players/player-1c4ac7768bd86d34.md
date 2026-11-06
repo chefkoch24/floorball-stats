@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jan Chmelař
 Category: players
 Slug: player-1c4ac7768bd86d34
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 168
+rank: 171
 season: cz-26-27

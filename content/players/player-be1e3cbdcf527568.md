@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jeanine Bieri
 Category: players
 Slug: player-be1e3cbdcf527568

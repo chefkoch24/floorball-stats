@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ville Hirvisuo
 Category: players
 Slug: player-0429a7cf93860fcc

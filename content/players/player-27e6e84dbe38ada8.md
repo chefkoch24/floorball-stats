@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jan Buzík
 Category: players
 Slug: player-27e6e84dbe38ada8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 275
+rank: 274
 season: cz-26-27

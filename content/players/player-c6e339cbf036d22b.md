@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Štěpán Dvořák
 Category: players
 Slug: player-c6e339cbf036d22b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 370
+rank: 372
 season: cz-26-27

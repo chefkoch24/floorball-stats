@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Nikola Laure
 Category: players
 Slug: player-c9e18968b3de37ae

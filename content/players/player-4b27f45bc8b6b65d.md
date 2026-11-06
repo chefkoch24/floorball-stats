@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Gabriels Silins
 Category: players
 Slug: player-4b27f45bc8b6b65d

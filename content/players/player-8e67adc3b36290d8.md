@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Hendrik Saß
 Category: players
 Slug: player-8e67adc3b36290d8

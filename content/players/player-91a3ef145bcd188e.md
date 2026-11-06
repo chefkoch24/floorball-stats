@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ondřej Vítovec C
 Category: players
 Slug: player-91a3ef145bcd188e

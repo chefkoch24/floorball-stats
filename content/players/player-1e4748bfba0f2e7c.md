@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Natálie Königová
 Category: players
 Slug: player-1e4748bfba0f2e7c

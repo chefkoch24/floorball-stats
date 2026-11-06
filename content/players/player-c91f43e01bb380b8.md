@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Lynn Eggli
 Category: players
 Slug: player-c91f43e01bb380b8

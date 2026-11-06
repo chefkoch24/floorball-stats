@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matúš Gajdoš
 Category: players
 Slug: player-91aac7ebf5a038e7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 79
+rank: 80
 season: cz-26-27

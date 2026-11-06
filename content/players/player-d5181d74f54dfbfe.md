@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Fabio Flütsch
 Category: players
 Slug: player-d5181d74f54dfbfe

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Livia Svartvadet
 Category: players
 Slug: player-85c57f4ad88cfc7b

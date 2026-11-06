@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Santipong Sukkasem
 Category: players
 Slug: player-125f4b38be2e291e

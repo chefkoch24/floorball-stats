@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kimmi O'Grady
 Category: players
 Slug: player-f2df3a96643ef995

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vivian Jung
 Category: players
 Slug: player-96117aa40bcfcb20

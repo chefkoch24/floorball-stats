@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vladimír Trčka
 Category: players
 Slug: player-df2874576bdf289b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 85
+rank: 86
 season: cz-26-27

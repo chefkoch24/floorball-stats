@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vojtěch Murín
 Category: players
 Slug: player-41ec610df9e1bb8e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 120
+rank: 122
 season: cz-26-27

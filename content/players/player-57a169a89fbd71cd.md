@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Alia Lisa Horvath
 Category: players
 Slug: player-57a169a89fbd71cd

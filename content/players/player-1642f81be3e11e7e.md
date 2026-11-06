@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kajsa Rysjö-Edman
 Category: players
 Slug: player-1642f81be3e11e7e

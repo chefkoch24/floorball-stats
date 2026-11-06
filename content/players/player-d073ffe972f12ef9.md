@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Zdenka Mária Bosá
 Category: players
 Slug: player-d073ffe972f12ef9

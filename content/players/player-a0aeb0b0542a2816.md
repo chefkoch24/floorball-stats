@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Taylor Walsh
 Category: players
 Slug: player-a0aeb0b0542a2816

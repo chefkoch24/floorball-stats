@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Daniel Hajník
 Category: players
 Slug: player-59db21b4b8e0267a

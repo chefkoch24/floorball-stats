@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Rihards Meisters
 Category: players
 Slug: player-adfa148103c9db20

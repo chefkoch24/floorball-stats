@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ellen Westberg
 Category: players
 Slug: player-9ecdede371f8f0c5

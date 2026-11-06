@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Antonín Stárek
 Category: players
 Slug: player-1deca2260b4a2192
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 217
+rank: 218
 season: cz-26-27

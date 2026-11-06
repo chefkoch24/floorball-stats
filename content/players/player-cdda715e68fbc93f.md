@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jasper Auvinen
 Category: players
 Slug: player-cdda715e68fbc93f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 15
-rank: 12
+rank: 16
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Anne Härtsch
 Category: players
 Slug: player-31ec4eb3847319fd

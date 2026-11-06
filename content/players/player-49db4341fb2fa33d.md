@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Adéla Nicklasová
 Category: players
 Slug: player-49db4341fb2fa33d

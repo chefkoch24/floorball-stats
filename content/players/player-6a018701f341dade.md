@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Eline Dagestad
 Category: players
 Slug: player-6a018701f341dade

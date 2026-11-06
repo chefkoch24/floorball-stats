@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Tadeáš Tokarčík
 Category: players
 Slug: player-6dc25a11de842d1e

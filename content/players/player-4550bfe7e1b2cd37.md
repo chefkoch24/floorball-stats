@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Till Clavadetscher
 Category: players
 Slug: player-4550bfe7e1b2cd37

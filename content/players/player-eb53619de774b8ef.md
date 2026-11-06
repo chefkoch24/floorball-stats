@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Nicolas Fedorčák
 Category: players
 Slug: player-eb53619de774b8ef

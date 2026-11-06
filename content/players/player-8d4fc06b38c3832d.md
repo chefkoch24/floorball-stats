@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Branislav Matkuliak
 Category: players
 Slug: player-8d4fc06b38c3832d

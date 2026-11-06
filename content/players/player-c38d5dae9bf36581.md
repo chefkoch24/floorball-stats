@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Bruno Skuban
 Category: players
 Slug: player-c38d5dae9bf36581

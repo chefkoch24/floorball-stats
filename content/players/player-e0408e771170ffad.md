@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Pepe Wurlitzer
 Category: players
 Slug: player-e0408e771170ffad

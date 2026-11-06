@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Lara Feuerstacke
 Category: players
 Slug: player-35bd27b36c052ae8

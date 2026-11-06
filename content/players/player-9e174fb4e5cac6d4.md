@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Hanna Niemelä
 Category: players
 Slug: player-9e174fb4e5cac6d4

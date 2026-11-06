@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Gian Luca Schiessl
 Category: players
 Slug: player-b86162bc5c9e39f2

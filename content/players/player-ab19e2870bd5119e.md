@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Liam Åström
 Category: players
 Slug: player-ab19e2870bd5119e

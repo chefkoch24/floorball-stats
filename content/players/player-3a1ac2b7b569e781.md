@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Aapo Lokasaari
 Category: players
 Slug: player-3a1ac2b7b569e781
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 34
+rank: 36
 season: fi-26-27

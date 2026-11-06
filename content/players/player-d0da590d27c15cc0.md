@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matěj Čelakovský
 Category: players
 Slug: player-d0da590d27c15cc0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 101
+rank: 102
 season: cz-26-27

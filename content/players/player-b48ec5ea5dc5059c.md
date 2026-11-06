@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Adam Kos
 Category: players
 Slug: player-b48ec5ea5dc5059c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 243
+rank: 242
 season: cz-26-27

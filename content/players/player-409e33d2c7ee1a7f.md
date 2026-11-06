@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Lassi Koivisto
 Category: players
 Slug: player-409e33d2c7ee1a7f

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Barbora Chudobová
 Category: players
 Slug: player-5a7c9b679e088fbc

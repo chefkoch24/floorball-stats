@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Milla Nordlund
 Category: players
 Slug: player-bd1ebc19afde8469

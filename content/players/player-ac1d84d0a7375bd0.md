@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Smilla Tomberger
 Category: players
 Slug: player-ac1d84d0a7375bd0

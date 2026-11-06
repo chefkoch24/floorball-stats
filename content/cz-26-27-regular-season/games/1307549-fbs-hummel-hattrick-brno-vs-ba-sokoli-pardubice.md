@@ -330,6 +330,7 @@ home_pregame_points_against_fat_pipe_florbal_chodov: 0
 home_pregame_points_against_fbc_clt_ceska_lipa: 0
 home_pregame_points_against_florbal_usti: 0
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
+home_pregame_points_against_kanonyri_kladno: 0
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 0
 home_pregame_points_per_game: 0.0

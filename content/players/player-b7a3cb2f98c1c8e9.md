@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Noemi Stoll
 Category: players
 Slug: player-b7a3cb2f98c1c8e9

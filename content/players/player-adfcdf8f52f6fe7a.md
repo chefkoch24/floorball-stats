@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ida Eliasson
 Category: players
 Slug: player-adfcdf8f52f6fe7a

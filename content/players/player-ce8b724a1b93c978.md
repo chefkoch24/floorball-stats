@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ernests Ronis
 Category: players
 Slug: player-ce8b724a1b93c978
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 260
+rank: 259
 season: cz-26-27

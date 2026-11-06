@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Adam Filip Hrdlička
 Category: players
 Slug: player-e043cecad7456355
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 162
+rank: 166
 season: cz-26-27

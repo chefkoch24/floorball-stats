@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Artis Černovskis
 Category: players
 Slug: player-7cffb70936ac63fb

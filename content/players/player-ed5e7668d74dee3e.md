@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Marek Gajdošík
 Category: players
 Slug: player-ed5e7668d74dee3e

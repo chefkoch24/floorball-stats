@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Radim Ottel
 Category: players
 Slug: player-c8b86a566c310ecc

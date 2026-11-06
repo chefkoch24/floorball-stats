@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Natália Lauková
 Category: players
 Slug: player-bfdaa98a567ff79e

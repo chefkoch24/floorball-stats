@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Michal Malec
 Category: players
 Slug: player-9e4912b7ef2ff412
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 161
+rank: 165
 season: cz-26-27

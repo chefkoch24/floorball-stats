@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Samuel Meyer
 Category: players
 Slug: player-94e8ddbc65bbdbaa

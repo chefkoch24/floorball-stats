@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Rūdolfs Jānis Gremze
 Category: players
 Slug: player-4d1f32cdc6cbe0b1

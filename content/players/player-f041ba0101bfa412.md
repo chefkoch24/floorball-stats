@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kerstin Domeij
 Category: players
 Slug: player-f041ba0101bfa412

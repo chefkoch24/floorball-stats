@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Laura Sommer
 Category: players
 Slug: player-cb91e288c778d75e

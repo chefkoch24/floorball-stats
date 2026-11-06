@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Annika Ebeling
 Category: players
 Slug: player-f58c726b1ca041d7

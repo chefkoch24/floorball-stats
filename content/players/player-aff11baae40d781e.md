@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Malte Lundmark
 Category: players
 Slug: player-aff11baae40d781e

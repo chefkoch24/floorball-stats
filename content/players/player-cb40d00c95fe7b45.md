@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vrúbelová Ela
 Category: players
 Slug: player-cb40d00c95fe7b45

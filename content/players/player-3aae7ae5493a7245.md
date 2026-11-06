@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Slezáková Bronislava
 Category: players
 Slug: player-3aae7ae5493a7245

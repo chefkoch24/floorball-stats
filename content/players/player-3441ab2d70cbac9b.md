@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jakub Kopecký
 Category: players
 Slug: player-3441ab2d70cbac9b
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 13
-current_goals: 11
+current_games: 14
+current_goals: 12
 current_assists: 7
-current_points: 18
+current_points: 19
 current_pim: 2
-regular_games: 10
-regular_goals: 7
+regular_games: 11
+regular_goals: 8
 regular_assists: 6
-regular_points: 13
+regular_points: 14
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 23
-career_goals: 8
+career_games: 24
+career_goals: 9
 career_assists: 6
-career_points: 14
+career_points: 15
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|7|6|13|2||cz-26-27|cup|Czech Republic|Kanonýři Kladno|3|4|1|5|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno / Kanonýři Kladno / FBC Liberec|13|1|0|1|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|11|8|6|14|2||cz-26-27|cup|Czech Republic|Kanonýři Kladno|3|4|1|5|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno / Kanonýři Kladno / FBC Liberec|13|1|0|1|0
 assists: 6
-games: 10
-goals: 7
+games: 11
+goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
-points: 13
-rank: 23
+points: 14
+rank: 19
 season: cz-26-27

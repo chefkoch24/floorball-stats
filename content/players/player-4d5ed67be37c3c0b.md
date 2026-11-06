@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Louise Jansson
 Category: players
 Slug: player-4d5ed67be37c3c0b

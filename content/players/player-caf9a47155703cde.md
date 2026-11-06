@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Elin Lindberg
 Category: players
 Slug: player-caf9a47155703cde

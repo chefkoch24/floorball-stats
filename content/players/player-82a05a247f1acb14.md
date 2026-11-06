@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Milan Meliš C
 Category: players
 Slug: player-82a05a247f1acb14
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 320
+rank: 319
 season: cz-26-27

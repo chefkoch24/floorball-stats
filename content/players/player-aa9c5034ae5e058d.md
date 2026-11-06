@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Pavel Semenov
 Category: players
 Slug: player-aa9c5034ae5e058d

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Arvis Kreicbergs
 Category: players
 Slug: player-f3325fdca1c5d715

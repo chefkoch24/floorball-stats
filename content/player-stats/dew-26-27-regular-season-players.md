@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Germany Women Player Stats 26/27 Regular Season
 Category: dew-26-27-regular-season-players
 Slug: dew-26-27-regular-season-players

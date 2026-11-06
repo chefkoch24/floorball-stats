@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Sandijs Gabriels Siliņš
 Category: players
 Slug: player-d48bc0652c2c608c

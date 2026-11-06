@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Nikola Štekerová
 Category: players
 Slug: player-7d02cf6a25ece151

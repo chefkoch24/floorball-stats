@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Martina Mörch
 Category: players
 Slug: player-a383683c7da010ed

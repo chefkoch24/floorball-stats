@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Asko Heinaro
 Category: players
 Slug: player-bc55014af5b1964a

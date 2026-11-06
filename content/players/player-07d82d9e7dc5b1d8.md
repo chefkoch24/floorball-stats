@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jakub Gruber
 Category: players
 Slug: player-07d82d9e7dc5b1d8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 114
+rank: 116
 season: cz-26-27

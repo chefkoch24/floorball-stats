@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jakub Renčín
 Category: players
 Slug: player-a6fe9c480192be7c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 74
+rank: 75
 season: cz-26-27

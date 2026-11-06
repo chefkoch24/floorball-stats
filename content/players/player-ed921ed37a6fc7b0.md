@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Adam Vágner
 Category: players
 Slug: player-ed921ed37a6fc7b0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 160
+rank: 162
 season: cz-26-27

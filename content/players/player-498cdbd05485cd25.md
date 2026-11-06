@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Lorén Oliva
 Category: players
 Slug: player-498cdbd05485cd25

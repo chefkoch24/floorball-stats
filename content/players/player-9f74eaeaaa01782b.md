@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Tomáš Čáslava
 Category: players
 Slug: player-9f74eaeaaa01782b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 158
+rank: 160
 season: cz-26-27

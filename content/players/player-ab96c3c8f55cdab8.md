@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Barbora Vávrová
 Category: players
 Slug: player-ab96c3c8f55cdab8

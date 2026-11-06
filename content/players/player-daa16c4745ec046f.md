@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Mediķis Evelīna Kasjaņenko
 Category: players
 Slug: player-daa16c4745ec046f

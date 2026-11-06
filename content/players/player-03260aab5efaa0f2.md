@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Filip Neklan
 Category: players
 Slug: player-03260aab5efaa0f2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 96
+rank: 97
 season: cz-26-27

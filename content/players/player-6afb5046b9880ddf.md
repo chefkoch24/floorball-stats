@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Linus Pettersson
 Category: players
 Slug: player-6afb5046b9880ddf

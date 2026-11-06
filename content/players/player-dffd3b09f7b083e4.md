@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Luka Kuusela
 Category: players
 Slug: player-dffd3b09f7b083e4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 78
+rank: 81
 season: fi-26-27

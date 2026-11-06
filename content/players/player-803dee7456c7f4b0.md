@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matěj Kulhavý
 Category: players
 Slug: player-803dee7456c7f4b0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 57
+rank: 56
 season: cz-26-27

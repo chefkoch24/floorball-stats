@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Michaela Stankušová
 Category: players
 Slug: player-8ae7ea8491b6f2a9

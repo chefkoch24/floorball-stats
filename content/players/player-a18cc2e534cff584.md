@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Johanne Busse
 Category: players
 Slug: player-a18cc2e534cff584

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Rovin Thalmann
 Category: players
 Slug: player-d6224e9fdbd09349

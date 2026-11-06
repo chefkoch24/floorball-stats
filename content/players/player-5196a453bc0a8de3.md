@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Šimon Jandák
 Category: players
 Slug: player-5196a453bc0a8de3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 369
+rank: 371
 season: cz-26-27

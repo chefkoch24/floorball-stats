@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Sarina Knechtle
 Category: players
 Slug: player-3c15aec3b7c13ee5

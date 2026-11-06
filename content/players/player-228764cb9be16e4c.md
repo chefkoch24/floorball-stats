@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Mikus Edvards Ķikuts
 Category: players
 Slug: player-228764cb9be16e4c

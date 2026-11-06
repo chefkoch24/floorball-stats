@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Winona Jürgens
 Category: players
 Slug: player-31fa1b19f77bcc85

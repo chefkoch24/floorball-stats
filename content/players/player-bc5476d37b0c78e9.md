@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jussi Hakala
 Category: players
 Slug: player-bc5476d37b0c78e9

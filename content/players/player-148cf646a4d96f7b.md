@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Marián Macák
 Category: players
 Slug: player-148cf646a4d96f7b

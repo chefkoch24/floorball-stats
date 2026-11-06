@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Martin Fuchsig
 Category: players
 Slug: player-7defe66bb489633c

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Noah Mühlebach
 Category: players
 Slug: player-3b3726caf2c0c171

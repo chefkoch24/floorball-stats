@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Jakub Hromada
 Category: players
 Slug: player-77dc95773d12fba8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 65
+rank: 66
 season: cz-26-27

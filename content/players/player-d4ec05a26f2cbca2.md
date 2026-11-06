@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Adam Kohút
 Category: players
 Slug: player-d4ec05a26f2cbca2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 242
+rank: 241
 season: cz-26-27

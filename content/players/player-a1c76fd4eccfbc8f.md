@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Josefin Hellström
 Category: players
 Slug: player-a1c76fd4eccfbc8f

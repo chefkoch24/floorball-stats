@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matúš Fiam
 Category: players
 Slug: player-b73907eea3eca76f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 92
+rank: 93
 season: cz-26-27

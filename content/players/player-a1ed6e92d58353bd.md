@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Nathalie Gustafsson
 Category: players
 Slug: player-a1ed6e92d58353bd

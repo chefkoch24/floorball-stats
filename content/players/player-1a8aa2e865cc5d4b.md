@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Kandráč Kamil
 Category: players
 Slug: player-1a8aa2e865cc5d4b

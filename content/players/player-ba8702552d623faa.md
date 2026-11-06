@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Rohit Chiplunkar
 Category: players
 Slug: player-ba8702552d623faa

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matias Knuuti
 Category: players
 Slug: player-443f1b36ddb4833b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 108
+rank: 109
 season: fi-26-27

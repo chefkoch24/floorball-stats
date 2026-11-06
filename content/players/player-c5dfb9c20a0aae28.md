@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vojtěch Kún
 Category: players
 Slug: player-c5dfb9c20a0aae28
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 94
+rank: 95
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Isa Grängsjö
 Category: players
 Slug: player-34dff463ddb94598

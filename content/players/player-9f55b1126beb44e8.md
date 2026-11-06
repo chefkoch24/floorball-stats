@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Patrik Sebek
 Category: players
 Slug: player-9f55b1126beb44e8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 102
+rank: 103
 season: cz-26-27

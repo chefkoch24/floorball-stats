@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ema Mutňanová
 Category: players
 Slug: player-a48e2888f5f362cd

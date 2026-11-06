@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Vojtěch Ott
 Category: players
 Slug: player-ee4ee0c73af92ed7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 365
+rank: 366
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Matěj Habart
 Category: players
 Slug: player-59b3b1d282e063cb

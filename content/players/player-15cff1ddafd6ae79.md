@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Tadeáš Dittrich
 Category: players
 Slug: player-15cff1ddafd6ae79
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 234
+rank: 233
 season: cz-26-27

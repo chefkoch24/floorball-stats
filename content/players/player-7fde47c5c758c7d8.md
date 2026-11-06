@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Ken Pahn
 Category: players
 Slug: player-7fde47c5c758c7d8

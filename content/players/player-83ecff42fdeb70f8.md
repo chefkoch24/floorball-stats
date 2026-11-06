@@ -1,4 +1,4 @@
-Date: 2026-11-05
+Date: 2026-11-06
 Title: Martin Horn
 Category: players
 Slug: player-83ecff42fdeb70f8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 69
+rank: 71
 season: cz-26-27
