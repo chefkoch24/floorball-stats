@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: My Kippilä
 Category: players
 Slug: player-75b227f2a1ce3f86

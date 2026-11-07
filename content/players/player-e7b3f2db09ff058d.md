@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Ludwig Blomberg
 Category: players
 Slug: player-e7b3f2db09ff058d

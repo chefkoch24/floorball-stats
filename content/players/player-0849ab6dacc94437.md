@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Ralfs Redjko
 Category: players
 Slug: player-0849ab6dacc94437
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 215
+rank: 218
 season: lv-26-27

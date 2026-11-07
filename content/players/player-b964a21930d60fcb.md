@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Anna Včelná
 Category: players
 Slug: player-b964a21930d60fcb

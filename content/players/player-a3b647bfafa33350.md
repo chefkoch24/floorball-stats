@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jan Sitora
 Category: players
 Slug: player-a3b647bfafa33350

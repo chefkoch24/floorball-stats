@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Veronika Šmídková
 Category: players
 Slug: player-ae0cfd21c795b366

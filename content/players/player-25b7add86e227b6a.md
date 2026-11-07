@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Liinu Koivisto
 Category: players
 Slug: player-25b7add86e227b6a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 3
+rank: 4
 season: fiw-26-27

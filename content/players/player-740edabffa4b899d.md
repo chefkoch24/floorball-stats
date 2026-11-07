@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Andri Brägger
 Category: players
 Slug: player-740edabffa4b899d

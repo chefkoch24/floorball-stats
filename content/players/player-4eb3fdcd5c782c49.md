@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Virginia Kunkel
 Category: players
 Slug: player-4eb3fdcd5c782c49

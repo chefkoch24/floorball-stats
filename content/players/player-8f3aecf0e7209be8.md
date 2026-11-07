@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Noé Siegfried
 Category: players
 Slug: player-8f3aecf0e7209be8

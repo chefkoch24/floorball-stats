@@ -1,40 +1,40 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Martin Čermák
 Category: players
 Slug: player-dcb710f27e74d4d6
 type: player
 player: Martin Čermák
 player_uid: player-dcb710f27e74d4d6
-team: Jönköpings IK
-league: Sweden
+team: Kanonýři Kladno
+league: Czech Republic
 season_count: 4
-current_season: se-26-27
+current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: cz-26-27
-current_games: 10
-current_goals: 4
-current_assists: 4
-current_points: 8
+previous_season: se-26-27
+current_games: 12
+current_goals: 0
+current_assists: 1
+current_points: 1
 current_pim: 2
-regular_games: 7
-regular_goals: 3
-regular_assists: 3
-regular_points: 6
-regular_pim: 2
+regular_games: 9
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
 cup_games: 3
-cup_goals: 1
+cup_goals: 0
 cup_assists: 1
-cup_points: 2
-cup_pim: 0
-previous_games: 12
-previous_goals: 0
-previous_assists: 1
-previous_points: 1
+cup_points: 1
+cup_pim: 2
+previous_games: 10
+previous_goals: 4
+previous_assists: 4
+previous_points: 8
 previous_pim: 2
 career_games: 75
 career_goals: 16

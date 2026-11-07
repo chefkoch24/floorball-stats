@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Aapo Rantaniemi
 Category: players
 Slug: player-0e877ffdfeab41c4

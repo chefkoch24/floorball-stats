@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Pelle Hansson
 Category: players
 Slug: player-df747b40bbf8e850

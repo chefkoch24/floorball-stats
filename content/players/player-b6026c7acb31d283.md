@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Roberts Trofimenko
 Category: players
 Slug: player-b6026c7acb31d283
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 3
-current_goals: 0
-current_assists: 0
-current_points: 0
+current_games: 4
+current_goals: 1
+current_assists: 1
+current_points: 2
 current_pim: 0
-regular_games: 3
-regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_games: 4
+regular_goals: 1
+regular_assists: 1
+regular_points: 2
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 30
 previous_assists: 14
 previous_points: 44
 previous_pim: 14
-career_games: 34
-career_goals: 30
-career_assists: 14
-career_points: 44
+career_games: 35
+career_goals: 31
+career_assists: 15
+career_points: 46
 career_pim: 14
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|3|0|0|0|0||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|8|10|4|14|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|20|10|30|12
-assists: 0
-games: 3
-goals: 0
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|4|1|1|2|0||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|8|10|4|14|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|20|10|30|12
+assists: 1
+games: 4
+goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 0
-rank: 225
+points: 2
+rank: 115
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Emily Zoé Tóthová
 Category: players
 Slug: player-ade48faa545b3d0d

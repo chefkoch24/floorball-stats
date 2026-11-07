@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Matěj Bendlmajer
 Category: players
 Slug: player-6d59fd76a4b249dc

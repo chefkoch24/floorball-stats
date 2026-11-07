@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jakub Srogoň
 Category: players
 Slug: player-40adc2ddb15e196f

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Eetu Loponen
 Category: players
 Slug: player-97fe4fe9d562d7c5

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Filip Vrana
 Category: players
 Slug: player-2c710200480fddda

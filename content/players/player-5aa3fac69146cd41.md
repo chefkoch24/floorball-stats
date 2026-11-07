@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jasmin Bieri
 Category: players
 Slug: player-5aa3fac69146cd41

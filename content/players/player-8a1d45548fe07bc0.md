@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Monika Flajzarová
 Category: players
 Slug: player-8a1d45548fe07bc0

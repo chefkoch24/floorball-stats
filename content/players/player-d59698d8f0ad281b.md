@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tim Kramer
 Category: players
 Slug: player-d59698d8f0ad281b

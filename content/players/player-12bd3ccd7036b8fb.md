@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Valērija Kauliņa
 Category: players
 Slug: player-12bd3ccd7036b8fb

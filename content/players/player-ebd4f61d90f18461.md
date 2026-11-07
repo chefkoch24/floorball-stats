@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Helmi Järvi
 Category: players
 Slug: player-ebd4f61d90f18461
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 75
+rank: 77
 season: fiw-26-27

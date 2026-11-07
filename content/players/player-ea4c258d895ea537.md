@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Annalena Josi
 Category: players
 Slug: player-ea4c258d895ea537

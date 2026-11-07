@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Eerika Koski
 Category: players
 Slug: player-89fbf80db0bb2867
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 19
+rank: 20
 season: fiw-26-27

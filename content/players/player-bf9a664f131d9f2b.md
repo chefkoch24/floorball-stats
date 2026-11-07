@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Petr Špaček
 Category: players
 Slug: player-bf9a664f131d9f2b

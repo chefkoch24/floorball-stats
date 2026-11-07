@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kateřina Radostová
 Category: players
 Slug: player-53cefefd1fa8fdb6

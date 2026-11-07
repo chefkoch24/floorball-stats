@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Lina Deutsch
 Category: players
 Slug: player-1c606d4b4a9e35e1

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Senni Mustakoski
 Category: players
 Slug: player-02d9c5b2c646b1c6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 12
+rank: 14
 season: fiw-26-27

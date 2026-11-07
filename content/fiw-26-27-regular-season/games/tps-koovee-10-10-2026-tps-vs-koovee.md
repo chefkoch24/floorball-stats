@@ -324,6 +324,7 @@ home_pregame_points_against_classic: 0
 home_pregame_points_against_eraviikingit: 0
 home_pregame_points_against_koovee: 3
 home_pregame_points_against_pirkat: 3
+home_pregame_points_against_pss: 3
 home_pregame_points_against_sb_pro: 3
 home_pregame_points_against_sbs_wirmo: 3
 home_pregame_points_against_spv: 3

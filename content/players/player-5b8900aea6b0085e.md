@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Šimon Hatala
 Category: players
 Slug: player-5b8900aea6b0085e

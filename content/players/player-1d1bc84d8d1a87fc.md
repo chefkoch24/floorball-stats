@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Yannick Oberli
 Category: players
 Slug: player-1d1bc84d8d1a87fc

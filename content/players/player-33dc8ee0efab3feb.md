@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Siro Laurino
 Category: players
 Slug: player-33dc8ee0efab3feb

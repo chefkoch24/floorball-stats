@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Karolína Mezerová
 Category: players
 Slug: player-371b4ba43b52a08a

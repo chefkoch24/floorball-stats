@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: David Hermle
 Category: players
 Slug: player-455a5ccf38d3505a

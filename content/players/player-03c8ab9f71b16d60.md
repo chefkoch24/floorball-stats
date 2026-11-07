@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: William Mathias Kuray
 Category: players
 Slug: player-03c8ab9f71b16d60

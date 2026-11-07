@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jana Birová
 Category: players
 Slug: player-275d6f101b787dff

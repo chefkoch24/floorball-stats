@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Vargová Barbora
 Category: players
 Slug: player-bcea0e64f29e573f

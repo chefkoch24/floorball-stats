@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Franka Bindernagel
 Category: players
 Slug: player-a4dd3f7c12425aa0

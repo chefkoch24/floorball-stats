@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Mikuláš Nebrensky
 Category: players
 Slug: player-d34809c9e1d46ece

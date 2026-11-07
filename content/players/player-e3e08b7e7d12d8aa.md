@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Noora Koskinen
 Category: players
 Slug: player-e3e08b7e7d12d8aa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 48
+rank: 50
 season: fiw-26-27

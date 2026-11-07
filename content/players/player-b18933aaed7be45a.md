@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Alexandra Terner
 Category: players
 Slug: player-b18933aaed7be45a

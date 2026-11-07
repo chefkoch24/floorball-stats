@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Iida Heikkilä
 Category: players
 Slug: player-74ec037d1ceb6c85
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 78
+rank: 80
 season: fiw-26-27

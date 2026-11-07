@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Olli Jokela
 Category: players
 Slug: player-7077dd3c5feda5d6

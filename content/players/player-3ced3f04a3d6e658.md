@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Stina Johansson
 Category: players
 Slug: player-3ced3f04a3d6e658

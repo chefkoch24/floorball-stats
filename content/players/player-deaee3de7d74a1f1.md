@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Škvareninová Emma
 Category: players
 Slug: player-deaee3de7d74a1f1

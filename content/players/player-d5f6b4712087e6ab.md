@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Róbert Florián Hamrák
 Category: players
 Slug: player-d5f6b4712087e6ab

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Emīls Krūmiņš
 Category: players
 Slug: player-8d30e9d5f0ad3fe1
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 25
 previous_assists: 18
 previous_points: 43
 previous_pim: 16
-career_games: 34
+career_games: 35
 career_goals: 25
 career_assists: 18
 career_points: 43
 career_pim: 18
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|7|0|0|0|2||lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|27|25|18|43|16
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|8|0|0|0|2||lv-25-26|regular-season|Latvia|FK Irlava/I.S.A.M.|27|25|18|43|16
 assists: 0
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 161
+rank: 162
 season: lv-26-27

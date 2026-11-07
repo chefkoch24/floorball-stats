@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kai Finkenwirth
 Category: players
 Slug: player-77ccc4d426eea3e3

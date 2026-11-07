@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Markus Jonsson
 Category: players
 Slug: player-2df1242e2c7a9c89

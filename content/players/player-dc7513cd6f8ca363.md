@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jakub Krajňák
 Category: players
 Slug: player-dc7513cd6f8ca363

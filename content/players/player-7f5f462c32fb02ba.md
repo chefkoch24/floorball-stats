@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Stina Jonsson
 Category: players
 Slug: player-7f5f462c32fb02ba

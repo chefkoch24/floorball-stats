@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Emeli Falkman
 Category: players
 Slug: player-a8c64a88604bbd5c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 21
+rank: 25
 season: fiw-26-27

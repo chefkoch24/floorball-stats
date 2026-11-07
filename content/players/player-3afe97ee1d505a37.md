@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Reinis Kalniņš
 Category: players
 Slug: player-3afe97ee1d505a37
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 89
+rank: 91
 season: lv-26-27

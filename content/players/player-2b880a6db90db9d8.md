@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Sanna Olsson
 Category: players
 Slug: player-2b880a6db90db9d8

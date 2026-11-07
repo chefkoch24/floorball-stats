@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Virdzeková Michaela
 Category: players
 Slug: player-9db9ef8c5cd125c5

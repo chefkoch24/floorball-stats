@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Ludvig Öberg
 Category: players
 Slug: player-63d21d042cc28b1f

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Veeti Nieminen
 Category: players
 Slug: player-e465bf9988ec71ab

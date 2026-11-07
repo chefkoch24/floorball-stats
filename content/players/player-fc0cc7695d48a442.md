@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tuulia Lahti
 Category: players
 Slug: player-fc0cc7695d48a442
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 17
+rank: 19
 season: fiw-26-27

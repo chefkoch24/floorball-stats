@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Petr Koláčný
 Category: players
 Slug: player-fd850a6a82be3a98

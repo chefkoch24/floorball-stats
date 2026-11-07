@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Edla Similä
 Category: players
 Slug: player-bd5eea093fc249dd

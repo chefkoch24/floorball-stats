@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Paul Stempfle
 Category: players
 Slug: player-51bff55ee15fedfa

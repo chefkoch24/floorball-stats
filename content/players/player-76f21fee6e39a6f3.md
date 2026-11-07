@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Pēteris Trekše
 Category: players
 Slug: player-76f21fee6e39a6f3

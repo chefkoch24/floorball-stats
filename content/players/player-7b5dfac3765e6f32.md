@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jānis Ragovskis
 Category: players
 Slug: player-7b5dfac3765e6f32
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 14
-rank: 8
+rank: 9
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Hanna Nordstrand
 Category: players
 Slug: player-b4520a970ae8cd93

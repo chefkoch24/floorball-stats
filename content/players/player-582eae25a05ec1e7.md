@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Oliver Klčo
 Category: players
 Slug: player-582eae25a05ec1e7

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Daniel Feher
 Category: players
 Slug: player-f2d91fbe7a378a56
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 156
+rank: 157
 season: lv-26-27

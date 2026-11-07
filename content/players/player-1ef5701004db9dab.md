@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Roberts Zande
 Category: players
 Slug: player-1ef5701004db9dab
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 0
-rank: 226
+rank: 228
 season: lv-26-27

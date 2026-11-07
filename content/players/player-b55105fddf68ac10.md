@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Santtu Rehu
 Category: players
 Slug: player-b55105fddf68ac10

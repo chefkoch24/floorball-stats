@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tomas Novotny
 Category: players
 Slug: player-e1bf129c4ad6017d
@@ -10,7 +10,7 @@ league: Czech Republic
 season_count: 3
 current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: cz-25-26
+previous_season: 25-26
 current_games: 17
 current_goals: 3
 current_assists: 7
@@ -31,11 +31,11 @@ cup_goals: 2
 cup_assists: 5
 cup_points: 7
 cup_pim: 2
-previous_games: 27
-previous_goals: 11
-previous_assists: 8
-previous_points: 19
-previous_pim: 2
+previous_games: 23
+previous_goals: 5
+previous_assists: 6
+previous_points: 11
+previous_pim: 8
 career_games: 59
 career_goals: 17
 career_assists: 16

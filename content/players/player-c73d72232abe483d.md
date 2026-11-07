@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Čapistrák Martin
 Category: players
 Slug: player-c73d72232abe483d

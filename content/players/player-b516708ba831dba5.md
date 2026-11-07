@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Larinja Speck
 Category: players
 Slug: player-b516708ba831dba5

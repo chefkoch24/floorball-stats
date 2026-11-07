@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Iisakki Kuoppala
 Category: players
 Slug: player-1db04afdd0ea6aa0

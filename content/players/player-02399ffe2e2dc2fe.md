@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Matúš Kakačka
 Category: players
 Slug: player-02399ffe2e2dc2fe

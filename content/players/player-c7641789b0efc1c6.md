@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Alpo Laitila
 Category: players
 Slug: player-c7641789b0efc1c6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 30
+rank: 31
 season: fi-26-27

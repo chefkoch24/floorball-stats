@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Lea Maria Deterding
 Category: players
 Slug: player-0b7e70bcd72d65fc

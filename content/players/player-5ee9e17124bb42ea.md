@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Norina Reichlin
 Category: players
 Slug: player-5ee9e17124bb42ea

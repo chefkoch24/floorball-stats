@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Adela Casteckova
 Category: players
 Slug: player-c2304c6c22b0fd34

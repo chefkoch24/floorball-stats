@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Filip Öijer
 Category: players
 Slug: player-89d3e1c1f0cc8aec

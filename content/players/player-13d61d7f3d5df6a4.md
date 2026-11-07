@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Dominik Hrabě
 Category: players
 Slug: player-13d61d7f3d5df6a4

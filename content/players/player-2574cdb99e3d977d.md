@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Luukas Jokiaho
 Category: players
 Slug: player-2574cdb99e3d977d

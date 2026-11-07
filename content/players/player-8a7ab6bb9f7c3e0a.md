@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jaka Rous
 Category: players
 Slug: player-8a7ab6bb9f7c3e0a

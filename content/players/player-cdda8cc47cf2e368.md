@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Sebastian Thorberg
 Category: players
 Slug: player-cdda8cc47cf2e368

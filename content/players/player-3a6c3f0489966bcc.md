@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Matej Stančík
 Category: players
 Slug: player-3a6c3f0489966bcc

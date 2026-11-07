@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Maila Hilfiker
 Category: players
 Slug: player-032f2f1ba0ae2c1e

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kovaliková Frederika
 Category: players
 Slug: player-fc8f13c67fe802d4

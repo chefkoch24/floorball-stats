@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Dominik Vinárek
 Category: players
 Slug: player-cda05be4437502a3

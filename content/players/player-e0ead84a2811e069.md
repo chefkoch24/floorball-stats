@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Mediķis Rolands Gustavs Vaivads
 Category: players
 Slug: player-e0ead84a2811e069
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 193
+rank: 195
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Sarah Kleinschmidt
 Category: players
 Slug: player-179464fb642ccaca

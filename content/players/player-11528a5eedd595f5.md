@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Adéla Keberlová
 Category: players
 Slug: player-11528a5eedd595f5

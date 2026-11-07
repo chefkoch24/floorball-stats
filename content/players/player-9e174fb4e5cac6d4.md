@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Hanna Niemelä
 Category: players
 Slug: player-9e174fb4e5cac6d4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 49
+rank: 51
 season: fiw-26-27

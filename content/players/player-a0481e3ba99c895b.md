@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Martin Kátlovský
 Category: players
 Slug: player-a0481e3ba99c895b

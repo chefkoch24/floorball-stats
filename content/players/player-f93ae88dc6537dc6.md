@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Sandra Boric Svärd
 Category: players
 Slug: player-f93ae88dc6537dc6

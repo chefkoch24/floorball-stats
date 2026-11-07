@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Nákačka Marcel
 Category: players
 Slug: player-9ad50b53a7da67a0

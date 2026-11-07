@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Marius Pedersen
 Category: players
 Slug: player-c4a5d15a9dd1d405

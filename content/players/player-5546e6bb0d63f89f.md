@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Regnārs Zukuls
 Category: players
 Slug: player-5546e6bb0d63f89f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 217
+rank: 220
 season: lv-26-27

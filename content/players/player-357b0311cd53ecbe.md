@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Engla Helmersson
 Category: players
 Slug: player-357b0311cd53ecbe

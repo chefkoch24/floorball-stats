@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tim Trebal
 Category: players
 Slug: player-3a6f51f1e0d0d2f9

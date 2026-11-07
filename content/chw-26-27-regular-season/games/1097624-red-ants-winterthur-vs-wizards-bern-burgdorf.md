@@ -6,7 +6,7 @@ type: game
 game_id: 1097624
 home_team: Red Ants Winterthur
 away_team: Wizards Bern Burgdorf
-attendance: 0
+attendance: 262
 away_goal_diffs_csv: -1,-2,-2,0
 away_goal_minutes_csv: 6.35,17.88,26.55,37.22
 away_major_penalty_minutes_csv: 

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Enea Raselli
 Category: players
 Slug: player-dcbd63c59121a55a

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Denisa Ulčová
 Category: players
 Slug: player-debc44c41e7c14bf

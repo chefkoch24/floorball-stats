@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Ole Mossin Olesen
 Category: players
 Slug: player-61d6ecc408e9f993

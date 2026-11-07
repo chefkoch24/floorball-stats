@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Viktor Dvořák
 Category: players
 Slug: player-83454ecf733d8efa

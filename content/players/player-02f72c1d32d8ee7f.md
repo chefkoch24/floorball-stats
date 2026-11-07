@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: NO. Schnell
 Category: players
 Slug: player-02f72c1d32d8ee7f

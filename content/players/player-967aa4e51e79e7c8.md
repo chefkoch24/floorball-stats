@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kate Meldere
 Category: players
 Slug: player-967aa4e51e79e7c8

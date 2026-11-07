@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Škarvada Jakub
 Category: players
 Slug: player-f977701007face8c

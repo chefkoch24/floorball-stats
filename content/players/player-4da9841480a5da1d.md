@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Uldis Dūniņš
 Category: players
 Slug: player-4da9841480a5da1d

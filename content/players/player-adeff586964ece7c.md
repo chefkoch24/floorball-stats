@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Matyáš Bláha
 Category: players
 Slug: player-adeff586964ece7c

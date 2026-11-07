@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kosťantyn Šlosar
 Category: players
 Slug: player-ba08a5bc251503a9

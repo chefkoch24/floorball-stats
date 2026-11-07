@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Alisha Niggli
 Category: players
 Slug: player-bb901dfb8a73ef33

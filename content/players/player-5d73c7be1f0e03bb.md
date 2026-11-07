@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Markéta Prontekerová
 Category: players
 Slug: player-5d73c7be1f0e03bb

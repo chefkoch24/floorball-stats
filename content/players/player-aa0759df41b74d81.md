@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Emmi Pölönen
 Category: players
 Slug: player-aa0759df41b74d81

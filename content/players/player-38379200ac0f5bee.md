@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Sofija Mališeva
 Category: players
 Slug: player-38379200ac0f5bee

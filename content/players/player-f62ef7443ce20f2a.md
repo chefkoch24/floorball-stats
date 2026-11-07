@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Kārlis Pupils
 Category: players
 Slug: player-f62ef7443ce20f2a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 178
+rank: 180
 season: lv-26-27

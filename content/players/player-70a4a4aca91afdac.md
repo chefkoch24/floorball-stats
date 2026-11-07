@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Oliver Järvinen
 Category: players
 Slug: player-70a4a4aca91afdac

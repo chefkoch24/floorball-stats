@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Linus Villaume
 Category: players
 Slug: player-88cef9cc3110f0b3

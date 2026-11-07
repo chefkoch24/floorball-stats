@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Olivia Sörensen
 Category: players
 Slug: player-9f1f88a0e5a64cd9

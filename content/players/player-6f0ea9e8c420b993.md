@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Matěj Dobosz
 Category: players
 Slug: player-6f0ea9e8c420b993

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Maria Ålund
 Category: players
 Slug: player-d43cea8daa6ad218

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Oliver Staiger
 Category: players
 Slug: player-b71abbbebb8dbd50

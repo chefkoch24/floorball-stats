@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jana Reusser
 Category: players
 Slug: player-a85d17ca04a13d43

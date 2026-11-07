@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tuomas Mattila
 Category: players
 Slug: player-f4365748edc5bf54

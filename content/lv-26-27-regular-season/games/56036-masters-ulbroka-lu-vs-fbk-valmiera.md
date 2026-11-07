@@ -321,7 +321,7 @@ home_pregame_points_after_first_period_per_game: 0.0
 home_pregame_points_after_second_period: 0
 home_pregame_points_after_third_period: 3
 home_pregame_points_against_fbk_sac: 3
-home_pregame_points_against_fbk_valmiera: 3
+home_pregame_points_against_fbk_valmiera: 6
 home_pregame_points_against_fk_kursi: 3
 home_pregame_points_against_fk_talsi_tnss_krauzers: 0
 home_pregame_points_against_kekava_rb_b: 2

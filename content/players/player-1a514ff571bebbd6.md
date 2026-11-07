@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Markéta Baťková
 Category: players
 Slug: player-1a514ff571bebbd6

@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Tilde Sandlund
 Category: players
 Slug: player-9145c5bce3e2e030

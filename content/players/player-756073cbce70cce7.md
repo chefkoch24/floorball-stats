@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Elias Amstutz
 Category: players
 Slug: player-756073cbce70cce7

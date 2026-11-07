@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Peter Hrabčák
 Category: players
 Slug: player-06a8bcabcf0924ba

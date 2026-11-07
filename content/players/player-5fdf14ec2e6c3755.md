@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Klara Roos
 Category: players
 Slug: player-5fdf14ec2e6c3755

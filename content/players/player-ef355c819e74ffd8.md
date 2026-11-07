@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Jānis Plots
 Category: players
 Slug: player-ef355c819e74ffd8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 61
+rank: 63
 season: lv-26-27

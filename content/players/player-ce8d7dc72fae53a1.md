@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Mārtiņš Urtāns
 Category: players
 Slug: player-ce8d7dc72fae53a1
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 6
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 6
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|9|1|1|2|6||lv-25-26|playoffs|Latvia|Ķekava/RB&B|1|0|0|0|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|10|1|1|2|6||lv-25-26|playoffs|Latvia|Ķekava/RB&B|1|0|0|0|0
 assists: 1
-games: 9
+games: 10
 goals: 1
 penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 110
+rank: 113
 season: lv-26-27

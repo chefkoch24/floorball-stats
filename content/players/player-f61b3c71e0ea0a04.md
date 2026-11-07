@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Ella Sundstrom
 Category: players
 Slug: player-f61b3c71e0ea0a04
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 35
+rank: 38
 season: fiw-26-27

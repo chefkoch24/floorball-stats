@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Čonka-skyba Filip
 Category: players
 Slug: player-7c8fda7959580aa5
