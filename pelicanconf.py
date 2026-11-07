@@ -96,8 +96,8 @@ LEAGUES = [
 # International club competitions: one knockout phase per season, category
 # "<prefix><season>-playoffs" (configs in config/leagues/iff-champions-cup-*-playoffs.json).
 COMPETITIONS = [
-    {'prefix': 'cc-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup', 'division': 'men', 'phase': 'playoffs'},
-    {'prefix': 'ccw-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup Women', 'division': 'women', 'phase': 'playoffs'},
+    {'prefix': 'cc-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup', 'division': 'men', 'phase': 'playoffs', 'competition': True},
+    {'prefix': 'ccw-', 'name': 'Champions Cup', 'title': 'IFF Champions Cup Women', 'division': 'women', 'phase': 'playoffs', 'competition': True},
 ]
 # National cups (src/competitions.py): one "<prefix><season>-cup" category per league prefix
 # with game pages only. They stay outside SEASON_PHASES, so tables, leaders and the
@@ -281,7 +281,9 @@ def category_seo_label(slug):
     division = 'Women' if context['division'] == 'women' else 'Men'
     # A national cup is not part of the league ("Sweden · SSL" would mislabel Svenska Cupen).
     title = context['name'] if context['phase'] == 'cup' else context['title']
-    return f"{title} {division} {season} {phase}"
+    if title.endswith(division):  # "IFF Champions Cup Women" already names the division
+        division = ''
+    return ' '.join(part for part in (title, division, season, phase) if part)
 
 
 def league_watch_path(slug):
