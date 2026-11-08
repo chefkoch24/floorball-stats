@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Greta Hentschel
 Category: players
 Slug: player-a7eeb7033c18d3f6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 82
+rank: 86
 season: dew-26-27

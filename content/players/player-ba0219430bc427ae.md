@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Celine Stettler
 Category: players
 Slug: player-ba0219430bc427ae
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 71
+rank: 75
 season: chw-26-27

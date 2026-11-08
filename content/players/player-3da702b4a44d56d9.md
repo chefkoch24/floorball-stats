@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matyáš Velc
 Category: players
 Slug: player-3da702b4a44d56d9

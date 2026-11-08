@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lina Deutsch
 Category: players
 Slug: player-1c606d4b4a9e35e1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 141
+rank: 145
 season: dew-26-27

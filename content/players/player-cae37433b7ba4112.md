@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Vera Törnkvist
 Category: players
 Slug: player-cae37433b7ba4112

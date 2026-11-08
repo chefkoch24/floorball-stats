@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nadir Monighetti
 Category: players
 Slug: player-3fee486429dcfd65
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 188
+rank: 191
 season: ch-26-27

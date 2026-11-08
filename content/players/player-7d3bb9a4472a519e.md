@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Veronika Straková
 Category: players
 Slug: player-7d3bb9a4472a519e

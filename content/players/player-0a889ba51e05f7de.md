@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jonna-Liina Varis
 Category: players
 Slug: player-0a889ba51e05f7de
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
+current_games: 3
 current_goals: 1
-current_assists: 2
-current_points: 3
+current_assists: 3
+current_points: 4
 current_pim: 2
-regular_games: 2
+regular_games: 3
 regular_goals: 1
-regular_assists: 2
-regular_points: 3
+regular_assists: 3
+regular_points: 4
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 3
 career_goals: 1
-career_assists: 2
-career_points: 3
+career_assists: 3
+career_points: 4
 career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|2|1|2|3|2
-assists: 2
-games: 2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|3|1|3|4|2
+assists: 3
+games: 3
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
-points: 3
-rank: 94
+points: 4
+rank: 87
 season: fiw-26-27

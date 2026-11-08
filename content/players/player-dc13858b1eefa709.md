@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Phelina Hug
 Category: players
 Slug: player-dc13858b1eefa709
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 225
+rank: 227
 season: chw-26-27

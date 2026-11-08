@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jael Fassler
 Category: players
 Slug: player-c3d81de1facc6523
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 105
+rank: 108
 season: chw-26-27

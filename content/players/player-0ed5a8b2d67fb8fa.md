@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Adrians Bukšs
 Category: players
 Slug: player-0ed5a8b2d67fb8fa
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 132
+rank: 134
 season: lv-26-27

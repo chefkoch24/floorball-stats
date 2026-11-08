@@ -436,6 +436,7 @@ away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 8
 away_pregame_points_against_1_fbc_trencin: 0
 away_pregame_points_against_dtf_team_detva_joxers: 3
+away_pregame_points_against_fabk_atu_kosice: 0
 away_pregame_points_against_fbc_grasshoppers_ac_uniza_zilina: 0
 away_pregame_points_against_fbc_predator_sabinov: 2
 away_pregame_points_against_fbk_nizna: 3

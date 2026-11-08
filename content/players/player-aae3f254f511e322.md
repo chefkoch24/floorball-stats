@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lukas Veltsmid
 Category: players
 Slug: player-aae3f254f511e322
@@ -11,15 +11,15 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 2
+current_games: 10
+current_goals: 4
 current_assists: 1
-current_points: 3
+current_points: 5
 current_pim: 4
-regular_games: 7
-regular_goals: 2
+regular_games: 8
+regular_goals: 4
 regular_assists: 1
-regular_points: 3
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 2
+career_games: 8
+career_goals: 4
 career_assists: 1
-career_points: 3
+career_points: 5
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|2|1|3|4||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|8|4|1|5|4||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0
 assists: 1
-games: 7
-goals: 2
+games: 8
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 3
-rank: 102
+points: 5
+rank: 70
 season: ch-26-27

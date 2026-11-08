@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tobias Klamt
 Category: players
 Slug: player-a259f42cf403d3db
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 148
+rank: 151
 season: 26-27

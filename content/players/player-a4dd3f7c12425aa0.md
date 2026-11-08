@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Franka Bindernagel
 Category: players
 Slug: player-a4dd3f7c12425aa0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 110
+rank: 114
 season: dew-26-27

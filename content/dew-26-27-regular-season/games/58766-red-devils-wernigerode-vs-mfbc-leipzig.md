@@ -325,6 +325,7 @@ home_pregame_points_against_etv_lady_piranhhas_hamburg: 1
 home_pregame_points_against_floor_fighters_chemnitz: 3
 home_pregame_points_against_floorball_bb_united: 0
 home_pregame_points_against_mfbc_leipzig: 0
+home_pregame_points_against_ssf_dragons_bonn: 0
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 1.0
@@ -436,6 +437,7 @@ away_pregame_points_against_etv_lady_piranhhas_hamburg: 3
 away_pregame_points_against_floor_fighters_chemnitz: 3
 away_pregame_points_against_red_devils_wernigerode: 3
 away_pregame_points_against_ssf_dragons_bonn: 3
+away_pregame_points_against_uhc_sparkasse_weissenfels: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 12
 away_pregame_points_per_game: 3.0

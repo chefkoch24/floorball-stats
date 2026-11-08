@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Marion Steiger
 Category: players
 Slug: player-f6258b1b8e4608df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 135
+rank: 139
 season: chw-26-27

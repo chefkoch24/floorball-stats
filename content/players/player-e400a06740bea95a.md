@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Rak Dominic
 Category: players
 Slug: player-e400a06740bea95a
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 7
-rank: 63
+rank: 72
 season: sk-26-27

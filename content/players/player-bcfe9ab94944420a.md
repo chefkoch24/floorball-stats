@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sofia Pykäläinen
 Category: players
 Slug: player-bcfe9ab94944420a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 34
+rank: 38
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Insa Fahrenholz
 Category: players
 Slug: player-c7722b5cc14535cd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 119
+rank: 123
 season: dew-26-27

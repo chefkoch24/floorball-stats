@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Markuss Strazdiņš-Stradiņš
 Category: players
 Slug: player-e8abfe3dc3a4bd85
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 89
+rank: 90
 season: lv-26-27

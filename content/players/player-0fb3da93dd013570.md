@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Alva Claesson
 Category: players
 Slug: player-0fb3da93dd013570

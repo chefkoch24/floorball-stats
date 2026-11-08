@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Liliana Šindelářová
 Category: players
 Slug: player-f7581ef2f755f4d9

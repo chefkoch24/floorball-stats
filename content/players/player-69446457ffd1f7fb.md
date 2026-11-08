@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Joel Lundell
 Category: players
 Slug: player-69446457ffd1f7fb

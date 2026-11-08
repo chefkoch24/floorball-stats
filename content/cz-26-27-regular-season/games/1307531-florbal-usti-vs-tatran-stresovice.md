@@ -440,6 +440,7 @@ away_pregame_points_after_third_period: 6
 away_pregame_points_against_acema_sparta_praha: 3
 away_pregame_points_against_ba_sokoli_pardubice: 3
 away_pregame_points_against_bulldogs_brno: 3
+away_pregame_points_against_fbc_clt_ceska_lipa: 3
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbc_liberec: 3
 away_pregame_points_against_florbal_usti: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Pirik Jozsef David
 Category: players
 Slug: player-15ba61f22cce10e6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 127
+rank: 137
 season: sk-26-27

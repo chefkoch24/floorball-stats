@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mira Neele Horvath
 Category: players
 Slug: player-846d9de3cc3dca80
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 137
+rank: 141
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mārtiņš Muižnieks
 Category: players
 Slug: player-2c2b6ee035a4648e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,14 +36,14 @@ previous_goals: 5
 previous_assists: 2
 previous_points: 7
 previous_pim: 4
-career_games: 40
+career_games: 41
 career_goals: 5
 career_assists: 3
 career_points: 8
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|8|0|1|1|0||lv-25-26|playoffs|Latvia|Lekrings|15|1|0|1|0||lv-25-26|regular-season|Latvia|Lekrings|17|4|2|6|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|9|0|1|1|0||lv-25-26|playoffs|Latvia|Lekrings|15|1|0|1|0||lv-25-26|regular-season|Latvia|Lekrings|17|4|2|6|4
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season

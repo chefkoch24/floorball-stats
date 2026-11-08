@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Salome Müller
 Category: players
 Slug: player-4da2deeda05bf297
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 56
+rank: 60
 season: chw-26-27

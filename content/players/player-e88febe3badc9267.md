@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Maurice Aebersold
 Category: players
 Slug: player-e88febe3badc9267
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 3
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 2
 previous_points: 7
 previous_pim: 0
-career_games: 33
+career_games: 34
 career_goals: 7
 career_assists: 5
 career_points: 12
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|2|3|5|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|0|1|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|0|1|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|4|2|6|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|8|2|3|5|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|0|1|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|0|1|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|4|2|6|0
 assists: 3
-games: 7
+games: 8
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 67
+rank: 77
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Johanna Zoberbier
 Category: players
 Slug: player-ffe306bda4e0568c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 18
+rank: 23
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Robota Maroš
 Category: players
 Slug: player-9facb0ebe0c46be9
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 5
-current_goals: 1
+current_games: 6
+current_goals: 2
 current_assists: 1
-current_points: 2
+current_points: 3
 current_pim: 0
-regular_games: 5
-regular_goals: 1
+regular_games: 6
+regular_goals: 2
 regular_assists: 1
-regular_points: 2
+regular_points: 3
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 5
 previous_points: 11
 previous_pim: 4
-career_games: 36
-career_goals: 7
+career_games: 37
+career_goals: 8
 career_assists: 6
-career_points: 13
+career_points: 14
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|5|1|1|2|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|5|3|8|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|1|2|3|4
+history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|6|2|1|3|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|5|3|8|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|1|2|3|4
 assists: 1
-games: 5
-goals: 1
+games: 6
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 2
-rank: 138
+points: 3
+rank: 118
 season: sk-26-27

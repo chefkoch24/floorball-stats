@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matejička Jakub
 Category: players
 Slug: player-26667bcbd3c26ed8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 39
+rank: 48
 season: sk-26-27

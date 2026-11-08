@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lorenčíková Bianka
 Category: players
 Slug: player-a1c87b619edc359f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 99
+rank: 101
 season: skw-26-27

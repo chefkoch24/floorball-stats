@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nuppu-Maria Saksa
 Category: players
 Slug: player-2c51babec74a6940
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 64
+rank: 66
 season: fiw-26-27

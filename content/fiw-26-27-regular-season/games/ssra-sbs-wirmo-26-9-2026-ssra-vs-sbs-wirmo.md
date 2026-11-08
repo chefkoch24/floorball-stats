@@ -323,6 +323,7 @@ home_pregame_points_after_third_period: 3
 home_pregame_points_against_classic: 0
 home_pregame_points_against_eraviikingit: 3
 home_pregame_points_against_fbc_loisto: 0
+home_pregame_points_against_koovee: 3
 home_pregame_points_against_northern_stars: 3
 home_pregame_points_against_pss: 3
 home_pregame_points_against_sbs_wirmo: 6
@@ -438,6 +439,7 @@ away_pregame_points_against_eraviikingit: 0
 away_pregame_points_against_fbc_loisto: 0
 away_pregame_points_against_koovee: 3
 away_pregame_points_against_northern_stars: 0
+away_pregame_points_against_spv: 3
 away_pregame_points_against_ssra: 0
 away_pregame_points_against_tps: 0
 away_pregame_points_max_difference_2: 0

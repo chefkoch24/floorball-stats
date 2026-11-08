@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Treneris Mārtiņš Krūms
 Category: players
 Slug: player-390bf453d082ecd5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 242
+rank: 243
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Anni Huovinen
 Category: players
 Slug: player-76c4f9d5548e32ee
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 108
+rank: 111
 season: fiw-26-27

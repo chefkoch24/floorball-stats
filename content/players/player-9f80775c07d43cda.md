@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ondrej Martanovič
 Category: players
 Slug: player-9f80775c07d43cda
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 276
+rank: 278
 season: sk-26-27

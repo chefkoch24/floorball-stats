@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Pārstāvis Evelīna Kasjaņenko
 Category: players
 Slug: player-eb1ca744ea2a28e5

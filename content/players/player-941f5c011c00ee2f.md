@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Alens Briņķis
 Category: players
 Slug: player-941f5c011c00ee2f

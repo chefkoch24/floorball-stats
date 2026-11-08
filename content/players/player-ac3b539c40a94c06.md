@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Pārstāvis Juris Paegle
 Category: players
 Slug: player-ac3b539c40a94c06

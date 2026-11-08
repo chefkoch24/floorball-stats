@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Aria Steinert
 Category: players
 Slug: player-ed62dedcb9cec114
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 56
+rank: 60
 season: dew-26-27

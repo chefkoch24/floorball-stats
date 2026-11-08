@@ -328,6 +328,7 @@ home_pregame_points_against_fbc_munchen: 3
 home_pregame_points_against_floor_fighters_chemnitz: 3
 home_pregame_points_against_mfbc_leipzig: 0
 home_pregame_points_against_unihockey_igels_dresden: 1
+home_pregame_points_against_vfl_red_hocks_kaufering: 0
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 9
 home_pregame_points_per_game: 1.43

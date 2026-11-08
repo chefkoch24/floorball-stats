@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Henna Kuukasjärvi
 Category: players
 Slug: player-dfb81818e01e356f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 132
+rank: 139
 season: fiw-26-27

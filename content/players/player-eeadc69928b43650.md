@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Veeti Koivisto
 Category: players
 Slug: player-eeadc69928b43650
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 124
+rank: 131
 season: fi-26-27

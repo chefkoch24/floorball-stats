@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Adam Lundgren
 Category: players
 Slug: player-f639c227652edae4
@@ -11,15 +11,15 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
-current_goals: 2
-current_assists: 2
-current_points: 4
+current_games: 10
+current_goals: 3
+current_assists: 3
+current_points: 6
 current_pim: 0
-regular_games: 7
-regular_goals: 1
-regular_assists: 2
-regular_points: 3
+regular_games: 8
+regular_goals: 2
+regular_assists: 3
+regular_points: 5
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 22
 previous_assists: 8
 previous_points: 30
 previous_pim: 4
-career_games: 36
-career_goals: 25
-career_assists: 12
-career_points: 37
+career_games: 37
+career_goals: 26
+career_assists: 13
+career_points: 39
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|7|1|2|3|0||ch-26-27|cup|Switzerland|UHC Uster|2|1|0|1|0||ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|22|22|8|30|4||wfc-2024|tournament|IFF WFC|Germany|7|2|2|4|0
-assists: 2
-games: 7
-goals: 1
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|8|2|3|5|0||ch-26-27|cup|Switzerland|UHC Uster|2|1|0|1|0||ch-25-26|regular-season|Switzerland|Unihockey Basel Regio|22|22|8|30|4||wfc-2024|tournament|IFF WFC|Germany|7|2|2|4|0
+assists: 3
+games: 8
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 112
+points: 5
+rank: 74
 season: ch-26-27

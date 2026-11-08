@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Giulia Gattiker
 Category: players
 Slug: player-f91cdf12c814005b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 128
+rank: 132
 season: chw-26-27

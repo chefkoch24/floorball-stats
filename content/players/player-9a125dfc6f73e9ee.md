@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Vojtěch Kucharčík
 Category: players
 Slug: player-9a125dfc6f73e9ee

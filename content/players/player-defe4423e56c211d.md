@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Martina Repkova
 Category: players
 Slug: player-defe4423e56c211d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 7
+rank: 10
 season: chw-26-27

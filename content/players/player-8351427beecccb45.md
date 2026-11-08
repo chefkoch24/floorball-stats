@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Moritz Krebs
 Category: players
 Slug: player-8351427beecccb45
@@ -11,12 +11,12 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|6|2|1|3|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|1|0|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|7|2|1|3|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|1|0|1|0
 assists: 1
-games: 6
+games: 7
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 105
+rank: 109
 season: ch-26-27

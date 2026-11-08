@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ellen Rasmussen
 Category: players
 Slug: player-0b38628a0ea15b3f

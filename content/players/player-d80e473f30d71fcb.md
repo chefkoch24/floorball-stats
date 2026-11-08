@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nicole Capatt
 Category: players
 Slug: player-d80e473f30d71fcb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 91
+rank: 93
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tomáš Tvrdý
 Category: players
 Slug: player-de87df6b60777d87
@@ -11,12 +11,12 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 3
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|2|0|0|0|0
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|3|0|0|0|0
 assists: 0
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 306
+rank: 308
 season: sk-26-27

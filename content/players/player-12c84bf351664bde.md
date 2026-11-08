@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Valentová Ela
 Category: players
 Slug: player-12c84bf351664bde
@@ -11,15 +11,15 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 8
+current_games: 8
+current_goals: 10
 current_assists: 3
-current_points: 11
+current_points: 13
 current_pim: 0
-regular_games: 7
-regular_goals: 8
+regular_games: 8
+regular_goals: 10
 regular_assists: 3
-regular_points: 11
+regular_points: 13
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 8
+career_games: 8
+career_goals: 10
 career_assists: 3
-career_points: 11
+career_points: 13
 career_pim: 0
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|7|8|3|11|0
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|8|10|3|13|0
 assists: 3
-games: 7
-goals: 8
+games: 8
+goals: 10
 penalties: 0
 phase: regular-season
 pim: 0
-points: 11
-rank: 10
+points: 13
+rank: 7
 season: skw-26-27

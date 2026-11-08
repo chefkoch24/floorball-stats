@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kateřina Strnadová
 Category: players
 Slug: player-d31c56d268cf97f6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 63
+rank: 67
 season: chw-26-27

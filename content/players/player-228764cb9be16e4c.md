@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mikus Edvards Ķikuts
 Category: players
 Slug: player-228764cb9be16e4c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 19
+rank: 21
 season: lv-26-27

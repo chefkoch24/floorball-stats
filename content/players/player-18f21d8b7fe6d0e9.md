@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Alexander Lindh
 Category: players
 Slug: player-18f21d8b7fe6d0e9

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sara-sofia Rapo
 Category: players
 Slug: player-2854cd36939fd5bd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 176
+rank: 181
 season: fiw-26-27

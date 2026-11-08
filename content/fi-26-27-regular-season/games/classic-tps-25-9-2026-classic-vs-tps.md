@@ -432,6 +432,7 @@ away_pregame_points_after_first_period_per_game: 0.33
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_classic: 0
+away_pregame_points_against_eraviikingit: 2
 away_pregame_points_against_hawks: 3
 away_pregame_points_against_indians: 0
 away_pregame_points_against_lasb: 3

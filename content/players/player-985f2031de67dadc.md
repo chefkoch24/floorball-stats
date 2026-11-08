@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Livia Werz
 Category: players
 Slug: player-985f2031de67dadc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 133
+rank: 137
 season: chw-26-27

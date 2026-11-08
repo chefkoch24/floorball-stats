@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Vilma Lehtola
 Category: players
 Slug: player-e5d0ec7db58215d7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 84
+rank: 89
 season: fiw-26-27

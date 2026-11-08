@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Luca Kneubühler
 Category: players
 Slug: player-7643ff0aa0787dda
@@ -11,16 +11,16 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
-current_goals: 1
+current_games: 11
+current_goals: 2
 current_assists: 0
-current_points: 1
-current_pim: 4
-regular_games: 7
-regular_goals: 1
+current_points: 2
+current_pim: 6
+regular_games: 8
+regular_goals: 2
 regular_assists: 0
-regular_points: 1
-regular_pim: 2
+regular_points: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 0
-career_games: 22
-career_goals: 2
+career_games: 23
+career_goals: 3
 career_assists: 1
-career_points: 3
-career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|1|0|1|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|0|0|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|15|1|1|2|0
+career_points: 4
+career_pim: 4
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|8|2|0|2|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|0|0|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|15|1|1|2|0
 assists: 0
-games: 7
-goals: 1
-penalties: 1
+games: 8
+goals: 2
+penalties: 2
 phase: regular-season
-pim: 2
-points: 1
-rank: 165
+pim: 4
+points: 2
+rank: 138
 season: ch-26-27

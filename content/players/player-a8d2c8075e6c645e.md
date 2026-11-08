@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tomass Šelengovs
 Category: players
 Slug: player-a8d2c8075e6c645e

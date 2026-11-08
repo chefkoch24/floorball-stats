@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tim Böttcher
 Category: players
 Slug: player-c691eb6601e8cdf4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 41
+rank: 44
 season: 26-27

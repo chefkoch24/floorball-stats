@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Emil Nedin
 Category: players
 Slug: player-17f8870954a7adef

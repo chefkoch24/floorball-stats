@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ladina Töndury
 Category: players
 Slug: player-bfa8df3453ebbdaf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 184
+rank: 186
 season: chw-26-27

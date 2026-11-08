@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: David Karlsson
 Category: players
 Slug: player-9d208eb3bc0b6bae

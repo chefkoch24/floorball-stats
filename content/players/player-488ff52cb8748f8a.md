@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Michal Minarovský
 Category: players
 Slug: player-488ff52cb8748f8a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 267
+rank: 269
 season: sk-26-27

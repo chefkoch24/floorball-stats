@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Marlena Paloaho
 Category: players
 Slug: player-c18f56c0784e36ea
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 63
+rank: 65
 season: fiw-26-27

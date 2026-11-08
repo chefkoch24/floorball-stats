@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Laura Hambálková
 Category: players
 Slug: player-781d5d5faa8146c5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 133
+rank: 135
 season: skw-26-27

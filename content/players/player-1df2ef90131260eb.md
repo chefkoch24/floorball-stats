@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Vojtěch Novotný
 Category: players
 Slug: player-1df2ef90131260eb

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Emilia Tiihonen
 Category: players
 Slug: player-08e28e1189a9cc0c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 128
+rank: 136
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Markuss Jansons
 Category: players
 Slug: player-bedc5932858d87bc

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mieke Flathmann
 Category: players
 Slug: player-ff06eb542bcee024
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 153
+rank: 156
 season: dew-26-27

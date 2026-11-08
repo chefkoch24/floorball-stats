@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kilian Franzen
 Category: players
 Slug: player-dc703f25dc52e179
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 1
 previous_points: 3
 previous_pim: 0
-career_games: 28
+career_games: 29
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|7|0|0|0|0||ch-26-27|cup|Switzerland|UHC Uster|2|0|0|0|2||ch-25-26|playoffs|Switzerland|UHC Uster|4|0|1|1|0||ch-25-26|regular-season|Switzerland|UHC Uster|17|2|0|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|8|0|0|0|0||ch-26-27|cup|Switzerland|UHC Uster|2|0|0|0|2||ch-25-26|playoffs|Switzerland|UHC Uster|4|0|1|1|0||ch-25-26|regular-season|Switzerland|UHC Uster|17|2|0|2|0
 assists: 0
-games: 7
+games: 8
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 237
+rank: 240
 season: ch-26-27

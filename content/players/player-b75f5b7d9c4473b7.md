@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Agnes Plogner
 Category: players
 Slug: player-b75f5b7d9c4473b7

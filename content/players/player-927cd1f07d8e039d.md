@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Krišjānis Tiltiņš
 Category: players
 Slug: player-927cd1f07d8e039d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 20
-rank: 1
+rank: 2
 season: lv-26-27

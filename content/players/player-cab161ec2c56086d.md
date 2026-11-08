@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Emīls Jančevskis
 Category: players
 Slug: player-cab161ec2c56086d
@@ -49,5 +49,5 @@ penalties: 7
 phase: regular-season
 pim: 14
 points: 6
-rank: 53
+rank: 55
 season: lv-26-27

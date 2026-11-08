@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Benedikt Richardon
 Category: players
 Slug: player-e5460e23dadc83e0
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 5
 previous_points: 14
 previous_pim: 6
-career_games: 39
+career_games: 40
 career_goals: 12
 career_assists: 5
 career_points: 17
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|8|3|0|3|2||26-27|cup|Germany|MFBC Leipzig|1|0|1|1|0||25-26|playoffs|Germany|MFBC Leipzig|11|4|2|6|4||25-26|regular-season|Germany|MFBC Leipzig|20|5|3|8|2
+history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|9|3|0|3|2||26-27|cup|Germany|MFBC Leipzig|1|0|1|1|0||25-26|playoffs|Germany|MFBC Leipzig|11|4|2|6|4||25-26|regular-season|Germany|MFBC Leipzig|20|5|3|8|2
 assists: 0
-games: 8
+games: 9
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 92
+rank: 98
 season: 26-27

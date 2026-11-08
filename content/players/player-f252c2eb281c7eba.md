@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Leon Schweiger
 Category: players
 Slug: player-f252c2eb281c7eba
@@ -11,15 +11,15 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
-current_goals: 9
-current_assists: 2
-current_points: 11
+current_games: 7
+current_goals: 11
+current_assists: 3
+current_points: 14
 current_pim: 4
-regular_games: 5
-regular_goals: 6
-regular_assists: 2
-regular_points: 8
+regular_games: 6
+regular_goals: 8
+regular_assists: 3
+regular_points: 11
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 6
 previous_points: 14
 previous_pim: 6
-career_games: 20
-career_goals: 15
-career_assists: 9
-career_points: 24
+career_games: 21
+career_goals: 17
+career_assists: 10
+career_points: 27
 career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|5|6|2|8|4||26-27|cup|Germany|Berlin Rockets|1|3|0|3|0||25-26|regular-season|Germany|Berlin Rockets|9|8|6|14|6||wfc-2024|tournament|IFF WFC|Estonia|6|1|1|2|0
-assists: 2
-games: 5
-goals: 6
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|6|8|3|11|4||26-27|cup|Germany|Berlin Rockets|1|3|0|3|0||25-26|regular-season|Germany|Berlin Rockets|9|8|6|14|6||wfc-2024|tournament|IFF WFC|Estonia|6|1|1|2|0
+assists: 3
+games: 6
+goals: 8
 penalties: 2
 phase: regular-season
 pim: 4
-points: 8
-rank: 38
+points: 11
+rank: 25
 season: 26-27

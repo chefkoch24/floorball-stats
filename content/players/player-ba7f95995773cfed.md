@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mediķis Iveta Bērziņa
 Category: players
 Slug: player-ba7f95995773cfed

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nico Niemack
 Category: players
 Slug: player-37ff6a1487f6dd97
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 6
 current_goals: 8
 current_assists: 1
 current_points: 9
 current_pim: 4
-regular_games: 4
+regular_games: 5
 regular_goals: 6
 regular_assists: 0
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 6
 career_assists: 0
 career_points: 6
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|4|6|0|6|4||ch-26-27|cup|Switzerland|Zug United|1|2|1|3|0||ch-25-26|regular-season|Switzerland|Zug United|1|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|5|6|0|6|4||ch-26-27|cup|Switzerland|Zug United|1|2|1|3|0||ch-25-26|regular-season|Switzerland|Zug United|1|0|0|0|0
 assists: 0
-games: 4
+games: 5
 goals: 6
 penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 44
+rank: 52
 season: ch-26-27

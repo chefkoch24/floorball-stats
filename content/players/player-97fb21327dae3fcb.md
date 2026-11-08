@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Gvido Lauga
 Category: players
 Slug: player-97fb21327dae3fcb
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 10
-rank: 16
+rank: 18
 season: lv-26-27

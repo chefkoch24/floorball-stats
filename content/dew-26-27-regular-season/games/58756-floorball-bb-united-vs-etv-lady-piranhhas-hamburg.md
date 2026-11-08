@@ -431,6 +431,7 @@ away_pregame_points_after_first_period: 0
 away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 0
 away_pregame_points_after_third_period: 0
+away_pregame_points_against_dumptener_fuchse: 0
 away_pregame_points_against_floorball_bb_united: 3
 away_pregame_points_against_mfbc_leipzig: 0
 away_pregame_points_against_red_devils_wernigerode: 2

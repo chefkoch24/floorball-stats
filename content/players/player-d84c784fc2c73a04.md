@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kriš Jozef
 Category: players
 Slug: player-d84c784fc2c73a04
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 9
-rank: 38
+rank: 47
 season: sk-26-27

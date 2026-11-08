@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nikola Pieczonková
 Category: players
 Slug: player-a7f38c36f84175df

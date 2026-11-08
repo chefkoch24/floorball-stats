@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Charlotte Michler
 Category: players
 Slug: player-511cbf67381a7d9d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 104
+rank: 107
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Josefiina Nissilä
 Category: players
 Slug: player-8bf79d0de3e9f456
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 7
-current_assists: 9
-current_points: 16
+current_games: 9
+current_goals: 8
+current_assists: 11
+current_points: 19
 current_pim: 0
-regular_games: 8
-regular_goals: 7
-regular_assists: 9
-regular_points: 16
+regular_games: 9
+regular_goals: 8
+regular_assists: 11
+regular_points: 19
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 7
-career_assists: 9
-career_points: 16
+career_games: 9
+career_goals: 8
+career_assists: 11
+career_points: 19
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|8|7|9|16|0
-assists: 9
-games: 8
-goals: 7
+history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|9|8|11|19|0
+assists: 11
+games: 9
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 16
-rank: 9
+points: 19
+rank: 4
 season: fiw-26-27

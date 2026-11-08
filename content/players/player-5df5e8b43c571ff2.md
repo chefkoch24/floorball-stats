@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nuria Egger
 Category: players
 Slug: player-5df5e8b43c571ff2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 223
+rank: 225
 season: chw-26-27

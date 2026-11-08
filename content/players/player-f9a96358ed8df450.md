@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Justus Lerchl
 Category: players
 Slug: player-f9a96358ed8df450
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 179
+rank: 182
 season: 26-27

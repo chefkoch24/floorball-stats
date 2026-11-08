@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jáchym Frontz
 Category: players
 Slug: player-ad06fad3fa7c8955

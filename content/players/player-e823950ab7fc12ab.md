@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Andris Jēkabsons
 Category: players
 Slug: player-e823950ab7fc12ab

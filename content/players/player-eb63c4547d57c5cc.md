@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Atte Raappana
 Category: players
 Slug: player-eb63c4547d57c5cc

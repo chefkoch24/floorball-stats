@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jakub Mádlo
 Category: players
 Slug: player-217e9714bb969dcf

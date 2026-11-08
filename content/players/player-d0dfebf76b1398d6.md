@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Niks Nagliņš
 Category: players
 Slug: player-d0dfebf76b1398d6
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 4
-rank: 75
+rank: 76
 season: lv-26-27

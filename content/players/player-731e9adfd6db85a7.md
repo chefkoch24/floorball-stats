@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Annika Weyrauch
 Category: players
 Slug: player-731e9adfd6db85a7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 74
+rank: 80
 season: dew-26-27

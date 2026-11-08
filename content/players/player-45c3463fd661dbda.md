@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mária Pánová
 Category: players
 Slug: player-45c3463fd661dbda
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 146
+rank: 148
 season: skw-26-27

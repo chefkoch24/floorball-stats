@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Joana Rietdorf
 Category: players
 Slug: player-7f5cebf6f86df9d8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 121
+rank: 125
 season: dew-26-27

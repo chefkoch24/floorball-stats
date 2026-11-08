@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sara Piispa
 Category: players
 Slug: player-6c1ce6757e5b17bd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 11
+rank: 14
 season: chw-26-27

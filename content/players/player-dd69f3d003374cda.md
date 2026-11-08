@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tabea Pantzier
 Category: players
 Slug: player-dd69f3d003374cda
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 163
+rank: 166
 season: dew-26-27

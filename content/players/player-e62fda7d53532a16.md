@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Michal Bačišin
 Category: players
 Slug: player-e62fda7d53532a16
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 17
+rank: 25
 season: sk-26-27

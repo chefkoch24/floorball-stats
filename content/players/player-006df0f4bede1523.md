@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Dominika Tomaszczenik
 Category: players
 Slug: player-006df0f4bede1523
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 51
+rank: 53
 season: dew-26-27

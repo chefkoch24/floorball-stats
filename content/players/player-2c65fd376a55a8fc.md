@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tomáš Máte
 Category: players
 Slug: player-2c65fd376a55a8fc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 303
+rank: 305
 season: sk-26-27

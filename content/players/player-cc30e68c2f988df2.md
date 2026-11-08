@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Barbora Suková
 Category: players
 Slug: player-cc30e68c2f988df2

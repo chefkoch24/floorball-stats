@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Johann Fohrenkamm
 Category: players
 Slug: player-57c08e3b87c431bf
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 144
+rank: 147
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Pallo Marek
 Category: players
 Slug: player-1bbfd9df3b304b49
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 135
+rank: 143
 season: sk-26-27

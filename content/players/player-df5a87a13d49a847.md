@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Max Kottke
 Category: players
 Slug: player-df5a87a13d49a847
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 260
+rank: 262
 season: 26-27

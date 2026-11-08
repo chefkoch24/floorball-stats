@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Selina Dominguez
 Category: players
 Slug: player-3df5df6455f8f6fe
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 57
+rank: 61
 season: chw-26-27

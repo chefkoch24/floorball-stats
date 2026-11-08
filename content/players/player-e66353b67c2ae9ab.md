@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tino von Pritzbuer
 Category: players
 Slug: player-e66353b67c2ae9ab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 303
+rank: 309
 season: ch-26-27

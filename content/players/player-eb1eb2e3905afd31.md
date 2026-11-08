@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Albin Sjögren
 Category: players
 Slug: player-eb1eb2e3905afd31
@@ -11,15 +11,15 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 8
-current_assists: 26
-current_points: 34
+current_assists: 28
+current_points: 36
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 6
-regular_assists: 18
-regular_points: 24
+regular_assists: 20
+regular_points: 26
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 28
 previous_assists: 66
 previous_points: 94
 previous_pim: 2
-career_games: 46
+career_games: 47
 career_goals: 38
-career_assists: 91
-career_points: 129
+career_assists: 93
+career_points: 131
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|6|18|24|0||ch-26-27|cup|Switzerland|Zug United|2|2|8|10|0||ch-25-26|playoffs|Switzerland|Zug United|11|10|20|30|0||ch-25-26|regular-season|Switzerland|Zug United|22|18|46|64|2||wfc-2024|tournament|IFF WFC|Sweden|6|4|7|11|0
-assists: 18
-games: 7
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|8|6|20|26|0||ch-26-27|cup|Switzerland|Zug United|2|2|8|10|0||ch-25-26|playoffs|Switzerland|Zug United|11|10|20|30|0||ch-25-26|regular-season|Switzerland|Zug United|22|18|46|64|2||wfc-2024|tournament|IFF WFC|Sweden|6|4|7|11|0
+assists: 20
+games: 8
 goals: 6
 penalties: 0
 phase: regular-season
 pim: 0
-points: 24
+points: 26
 rank: 1
 season: ch-26-27

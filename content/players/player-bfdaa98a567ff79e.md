@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Natália Lauková
 Category: players
 Slug: player-bfdaa98a567ff79e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 68
+rank: 72
 season: skw-26-27

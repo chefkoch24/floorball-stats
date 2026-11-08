@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tim Glindemann
 Category: players
 Slug: player-768e896a7e3b1aaf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 3
 current_points: 3
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 3
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 3
 previous_points: 3
 previous_pim: 2
-career_games: 24
+career_games: 25
 career_goals: 0
 career_assists: 6
 career_points: 6
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|7|0|3|3|2||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|17|0|3|3|2
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|0|3|3|2||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|17|0|3|3|2
 assists: 3
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 117
+rank: 119
 season: 26-27

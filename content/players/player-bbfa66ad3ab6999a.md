@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Samuel Marko Bieleš
 Category: players
 Slug: player-bbfa66ad3ab6999a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 290
+rank: 292
 season: sk-26-27

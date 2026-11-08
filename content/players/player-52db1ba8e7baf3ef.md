@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Toms Pētersons
 Category: players
 Slug: player-52db1ba8e7baf3ef
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 54
+rank: 56
 season: lv-26-27

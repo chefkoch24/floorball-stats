@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Filip Wramdemark
 Category: players
 Slug: player-cf33b240b273a0d1

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lovisa Andersson
 Category: players
 Slug: player-b81c30d627b3dbfa

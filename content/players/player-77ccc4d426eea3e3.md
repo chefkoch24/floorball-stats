@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kai Finkenwirth
 Category: players
 Slug: player-77ccc4d426eea3e3
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 180
+rank: 183
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Hannah Duscha
 Category: players
 Slug: player-aa59eb4d7997bc8e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 116
+rank: 120
 season: dew-26-27

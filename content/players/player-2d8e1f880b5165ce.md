@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Damián Imrich
 Category: players
 Slug: player-2d8e1f880b5165ce
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 205
+rank: 209
 season: sk-26-27

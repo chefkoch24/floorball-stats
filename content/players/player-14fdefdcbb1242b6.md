@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Michel Wocke
 Category: players
 Slug: player-14fdefdcbb1242b6
@@ -11,16 +11,16 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 2
 current_points: 5
-current_pim: 2
-regular_games: 7
+current_pim: 6
+regular_games: 8
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
-regular_pim: 0
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 10
 previous_points: 17
 previous_pim: 4
-career_games: 46
+career_games: 47
 career_goals: 10
 career_assists: 12
 career_points: 22
-career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|2|1|3|0||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|1|2|2||cc-26-27|tournament|IFF Champions Cup|HC Rychenberg Winterthur|1|0|1|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|2|2|4|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|5|8|13|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|0
+career_pim: 8
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|8|2|1|3|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|1|2|2||cc-26-27|tournament|IFF Champions Cup|HC Rychenberg Winterthur|1|0|1|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|2|2|4|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|5|8|13|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|0
 assists: 1
-games: 7
+games: 8
 goals: 2
-penalties: 0
+penalties: 2
 phase: regular-season
-pim: 0
+pim: 4
 points: 3
-rank: 103
+rank: 107
 season: ch-26-27

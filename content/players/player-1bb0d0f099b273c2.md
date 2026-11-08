@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Eetu Lehtonen
 Category: players
 Slug: player-1bb0d0f099b273c2
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 107
+rank: 112
 season: fi-26-27

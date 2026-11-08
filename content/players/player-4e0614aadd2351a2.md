@@ -1,14 +1,14 @@
-Date: 2026-11-07
-Title: Andrej Rendl
+Date: 2026-11-08
+Title: Luana Arnold
 Category: players
-Slug: player-dcfa6a8ac894f23e
+Slug: player-4e0614aadd2351a2
 type: player
-player: Andrej Rendl
-player_uid: player-dcfa6a8ac894f23e
-team: 1. FBC Trenčín
-league: Slovakia
+player: Luana Arnold
+player_uid: player-4e0614aadd2351a2
+team: Floorball Uri
+league: Switzerland Women
 season_count: 1
-current_season: sk-26-27
+current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
 current_games: 1
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|1|0|0|0|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Uri|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 201
-season: sk-26-27
+rank: 202
+season: chw-26-27

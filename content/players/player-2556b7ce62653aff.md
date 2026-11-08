@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Noora Holle
 Category: players
 Slug: player-2556b7ce62653aff
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 139
+rank: 143
 season: chw-26-27

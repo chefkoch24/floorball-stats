@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Florian Böttcher
 Category: players
 Slug: player-f03597bb32bbeaab
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 11
-rank: 27
+rank: 29
 season: 26-27

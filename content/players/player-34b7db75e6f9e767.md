@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Emelie-Sophie Loos
 Category: players
 Slug: player-34b7db75e6f9e767
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 106
+rank: 109
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mikuláš Nebrensky
 Category: players
 Slug: player-d34809c9e1d46ece
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 146
+rank: 149
 season: 26-27

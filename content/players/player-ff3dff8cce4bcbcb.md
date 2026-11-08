@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Leopold Neugebauer
 Category: players
 Slug: player-ff3dff8cce4bcbcb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 237
+rank: 239
 season: 26-27

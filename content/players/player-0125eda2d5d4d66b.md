@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matěj Kučera
 Category: players
 Slug: player-0125eda2d5d4d66b

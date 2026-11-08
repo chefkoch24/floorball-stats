@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jakub Habrún
 Category: players
 Slug: player-ae24e5d3ad357384
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 94
+rank: 105
 season: sk-26-27

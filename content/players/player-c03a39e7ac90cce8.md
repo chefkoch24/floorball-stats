@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jakub Trojan
 Category: players
 Slug: player-c03a39e7ac90cce8

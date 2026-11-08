@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Milja Alanko
 Category: players
 Slug: player-65a5c274f4ed6ab6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 167
+rank: 174
 season: fiw-26-27

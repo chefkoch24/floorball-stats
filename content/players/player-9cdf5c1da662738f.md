@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Natálie Janečková
 Category: players
 Slug: player-9cdf5c1da662738f

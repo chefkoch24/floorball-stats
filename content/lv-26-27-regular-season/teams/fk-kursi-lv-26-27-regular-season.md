@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: FK Kurši
 Category: lv-26-27-regular-season, teams
 Slug: fk-kursi-lv-26-27-regular-season-lv-26-27-regular-season
@@ -107,7 +107,7 @@ powerplay_seconds: 1941
 powerplay_third_period: 11
 powerplay_time: 32:21
 powerplay_time_per_goal: 4:37
-rank: 5
+rank: 6
 scoring_ratio: 0.76
 take_the_lead_goals: 15
 take_the_lead_goals_against: 12

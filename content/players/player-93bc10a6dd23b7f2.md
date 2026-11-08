@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Šuška Jakub
 Category: players
 Slug: player-93bc10a6dd23b7f2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 149
+rank: 155
 season: sk-26-27

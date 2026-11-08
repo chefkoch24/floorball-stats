@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Filip Šubert C
 Category: players
 Slug: player-3b701a19adbb3bc5

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Juho Riihimäki
 Category: players
 Slug: player-c5f7ca73683497cb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 167
+rank: 172
 season: fi-26-27

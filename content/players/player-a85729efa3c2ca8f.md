@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lukáš Laštík
 Category: players
 Slug: player-a85729efa3c2ca8f
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 2
-current_goals: 0
+current_games: 3
+current_goals: 1
 current_assists: 2
-current_points: 2
+current_points: 3
 current_pim: 0
-regular_games: 2
-regular_goals: 0
+regular_games: 3
+regular_goals: 1
 regular_assists: 2
-regular_points: 2
+regular_points: 3
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 9
 previous_points: 19
 previous_pim: 8
-career_games: 21
-career_goals: 10
+career_games: 22
+career_goals: 11
 career_assists: 11
-career_points: 21
+career_points: 22
 career_pim: 8
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|2|0|2|2|0||sk-25-26|playoffs|Slovakia|FBK Nižná|1|0|0|0|2||sk-25-26|regular-season|Slovakia|FBK Nižná|18|10|9|19|6
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|3|1|2|3|0||sk-25-26|playoffs|Slovakia|FBK Nižná|1|0|0|0|2||sk-25-26|regular-season|Slovakia|FBK Nižná|18|10|9|19|6
 assists: 2
-games: 2
-goals: 0
+games: 3
+goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 2
-rank: 146
+points: 3
+rank: 125
 season: sk-26-27

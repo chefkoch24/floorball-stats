@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mika Hanni
 Category: players
 Slug: player-309d4eb8bcdefda1
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 273
+rank: 276
 season: ch-26-27

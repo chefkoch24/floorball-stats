@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sándor Varga
 Category: players
 Slug: player-4ad098b58feb60e4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 295
+rank: 297
 season: sk-26-27

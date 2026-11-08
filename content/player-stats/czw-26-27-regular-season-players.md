@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Czech Republic Women Player Stats 26/27 Regular Season
 Category: czw-26-27-regular-season-players
 Slug: czw-26-27-regular-season-players

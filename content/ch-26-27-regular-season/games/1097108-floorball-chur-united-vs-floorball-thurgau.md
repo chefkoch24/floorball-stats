@@ -327,6 +327,7 @@ home_pregame_points_against_grasshopper_club_zurich: 0
 home_pregame_points_against_hc_rychenberg_winterthur: 0
 home_pregame_points_against_sv_wiler_ersigen: 0
 home_pregame_points_against_uhc_alligator_malans: 0
+home_pregame_points_against_uhc_uster: 0
 home_pregame_points_against_zug_united: 0
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 0

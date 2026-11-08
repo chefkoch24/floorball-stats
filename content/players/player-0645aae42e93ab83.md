@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kristers Leksis
 Category: players
 Slug: player-0645aae42e93ab83
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 10
-rank: 17
+rank: 20
 season: lv-26-27

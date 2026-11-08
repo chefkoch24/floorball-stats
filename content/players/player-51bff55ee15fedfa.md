@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Paul Stempfle
 Category: players
 Slug: player-51bff55ee15fedfa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 269
+rank: 271
 season: 26-27

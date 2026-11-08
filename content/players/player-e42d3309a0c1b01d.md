@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Elli Bewer
 Category: players
 Slug: player-e42d3309a0c1b01d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 105
+rank: 108
 season: dew-26-27

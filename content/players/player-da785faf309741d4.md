@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Katarína Klapitová
 Category: players
 Slug: player-da785faf309741d4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 183
+rank: 185
 season: chw-26-27

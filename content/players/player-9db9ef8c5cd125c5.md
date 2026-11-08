@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Virdzeková Michaela
 Category: players
 Slug: player-9db9ef8c5cd125c5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 47
+rank: 51
 season: skw-26-27

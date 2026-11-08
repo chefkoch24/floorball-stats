@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ingars Jansons
 Category: players
 Slug: player-e0258e8aa74f3a00
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 22
+rank: 25
 season: lv-26-27

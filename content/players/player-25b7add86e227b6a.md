@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Liinu Koivisto
 Category: players
 Slug: player-25b7add86e227b6a
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 10
+current_games: 10
+current_goals: 13
 current_assists: 7
-current_points: 17
+current_points: 20
 current_pim: 0
-regular_games: 9
-regular_goals: 10
+regular_games: 10
+regular_goals: 13
 regular_assists: 7
-regular_points: 17
+regular_points: 20
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 10
+career_games: 10
+career_goals: 13
 career_assists: 7
-career_points: 17
+career_points: 20
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|9|10|7|17|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|SSRA|10|13|7|20|0
 assists: 7
-games: 9
-goals: 10
+games: 10
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 17
-rank: 4
+points: 20
+rank: 3
 season: fiw-26-27

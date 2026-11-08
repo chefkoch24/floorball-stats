@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Alia Lisa Horvath
 Category: players
 Slug: player-57a169a89fbd71cd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 146
+rank: 150
 season: chw-26-27

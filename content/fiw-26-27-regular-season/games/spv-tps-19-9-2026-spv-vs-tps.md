@@ -326,6 +326,7 @@ home_pregame_points_against_fbc_loisto: 0
 home_pregame_points_against_koovee: 0
 home_pregame_points_against_pirkat: 1
 home_pregame_points_against_sb_pro: 0
+home_pregame_points_against_sbs_wirmo: 0
 home_pregame_points_against_tps: 0
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 0

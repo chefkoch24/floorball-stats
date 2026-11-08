@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Luca-Leon Beyrich
 Category: players
 Slug: player-b42f544ad6c03bf9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 134
+rank: 137
 season: 26-27

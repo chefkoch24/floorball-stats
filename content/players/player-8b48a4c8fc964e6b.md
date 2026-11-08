@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Andrin Hollenstein
 Category: players
 Slug: player-8b48a4c8fc964e6b
@@ -11,12 +11,12 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 4
 previous_points: 9
 previous_pim: 6
-career_games: 43
+career_games: 44
 career_goals: 7
 career_assists: 7
 career_points: 14
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|1|2|3|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|0|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|2|1|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|20|3|3|6|6||wfc-2024|tournament|IFF WFC|Switzerland|6|1|1|2|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|1|2|3|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|0|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|2|1|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|20|3|3|6|6||wfc-2024|tournament|IFF WFC|Switzerland|6|1|1|2|2
 assists: 2
-games: 7
+games: 8
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 113
+rank: 115
 season: ch-26-27

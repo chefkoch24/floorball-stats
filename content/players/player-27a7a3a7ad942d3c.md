@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Martin Sindelar
 Category: players
 Slug: player-27a7a3a7ad942d3c
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 8
 current_goals: 7
-current_assists: 6
-current_points: 13
+current_assists: 7
+current_points: 14
 current_pim: 4
-regular_games: 6
+regular_games: 7
 regular_goals: 5
-regular_assists: 6
-regular_points: 11
+regular_assists: 7
+regular_points: 12
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 15
 previous_points: 23
 previous_pim: 8
-career_games: 28
+career_games: 29
 career_goals: 13
-career_assists: 21
-career_points: 34
+career_assists: 22
+career_points: 35
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|6|5|6|11|4||ch-26-27|cup|Switzerland|Floorball Chur United|1|2|0|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|8|15|23|8
-assists: 6
-games: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|5|7|12|4||ch-26-27|cup|Switzerland|Floorball Chur United|1|2|0|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|8|15|23|8
+assists: 7
+games: 7
 goals: 5
 penalties: 2
 phase: regular-season
 pim: 4
-points: 11
-rank: 16
+points: 12
+rank: 15
 season: ch-26-27

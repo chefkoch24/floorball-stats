@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Daria Horošina
 Category: players
 Slug: player-d55a35524dee4e05
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 30
+rank: 39
 season: dew-26-27

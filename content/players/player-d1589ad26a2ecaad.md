@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Marie Suske
 Category: players
 Slug: player-d1589ad26a2ecaad
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 48
+rank: 50
 season: dew-26-27

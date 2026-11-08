@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kiira Purontaka
 Category: players
 Slug: player-75b2b9cbdeae266d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 48
+rank: 49
 season: fiw-26-27

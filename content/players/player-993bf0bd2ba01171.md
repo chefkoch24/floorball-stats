@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Erik Schnecke
 Category: players
 Slug: player-993bf0bd2ba01171
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 207
+rank: 210
 season: 26-27

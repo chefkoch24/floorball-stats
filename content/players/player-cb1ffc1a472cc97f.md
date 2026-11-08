@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jakub Grich
 Category: players
 Slug: player-cb1ffc1a472cc97f
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 12
-rank: 25
+rank: 29
 season: sk-26-27

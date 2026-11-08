@@ -441,6 +441,7 @@ away_pregame_points_against_sv_wiler_ersigen: 0
 away_pregame_points_against_tigers_langnau: 0
 away_pregame_points_against_uhc_uster: 3
 away_pregame_points_against_wasa_st_gallen: 2
+away_pregame_points_against_zug_united: 3
 away_pregame_points_max_difference_2: 4
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 1.4

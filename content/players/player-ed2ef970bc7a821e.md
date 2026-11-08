@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Dāvis Zēmelis
 Category: players
 Slug: player-ed2ef970bc7a821e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 60
+rank: 62
 season: lv-26-27

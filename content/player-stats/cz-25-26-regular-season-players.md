@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Czech Republic Player Stats 25/26 Regular Season
 Category: cz-25-26-regular-season-players
 Slug: cz-25-26-regular-season-players

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Siiri Kainulainen
 Category: players
 Slug: player-7d526f8e70f25e9c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 138
+rank: 147
 season: fiw-26-27

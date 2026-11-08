@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Elia Seiler
 Category: players
 Slug: player-af53738cc348a9ad
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 96
+rank: 102
 season: ch-26-27

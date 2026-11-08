@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sophie Carbogno
 Category: players
 Slug: player-8e9b2c42c6afbd92
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 235
+rank: 236
 season: chw-26-27

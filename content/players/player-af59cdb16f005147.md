@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Meinert Wardetzki
 Category: players
 Slug: player-af59cdb16f005147
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 6
-current_assists: 1
-current_points: 7
+current_games: 10
+current_goals: 8
+current_assists: 2
+current_points: 10
 current_pim: 0
-regular_games: 8
-regular_goals: 3
-regular_assists: 0
-regular_points: 3
+regular_games: 9
+regular_goals: 5
+regular_assists: 1
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 5
 previous_points: 13
 previous_pim: 6
-career_games: 27
-career_goals: 11
-career_assists: 5
-career_points: 16
+career_games: 28
+career_goals: 13
+career_assists: 6
+career_points: 19
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|8|3|0|3|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|3|1|4|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|7|1|0|1|2||25-26|regular-season|Germany|ETV Piranhhas Hamburg|12|7|5|12|4
-assists: 0
-games: 8
-goals: 3
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|9|5|1|6|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|3|1|4|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|7|1|0|1|2||25-26|regular-season|Germany|ETV Piranhhas Hamburg|12|7|5|12|4
+assists: 1
+games: 9
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 94
+points: 6
+rank: 55
 season: 26-27

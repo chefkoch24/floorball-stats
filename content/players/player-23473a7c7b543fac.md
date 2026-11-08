@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Čekan Jakub
 Category: players
 Slug: player-23473a7c7b543fac
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 142
+rank: 148
 season: sk-26-27

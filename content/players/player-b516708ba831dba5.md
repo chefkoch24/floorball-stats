@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Larinja Speck
 Category: players
 Slug: player-b516708ba831dba5
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
+current_games: 4
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
+career_games: 3
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHC Laupen ZH|2|0|0|0|0||chw-26-27|cup|Switzerland Women|UHC Laupen ZH|1|1|1|2|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHC Laupen ZH|3|0|0|0|0||chw-26-27|cup|Switzerland Women|UHC Laupen ZH|1|1|1|2|0
 assists: 0
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 186
+rank: 187
 season: chw-26-27

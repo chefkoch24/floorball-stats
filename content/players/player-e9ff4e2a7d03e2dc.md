@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Clara Lindblom
 Category: players
 Slug: player-e9ff4e2a7d03e2dc

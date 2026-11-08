@@ -327,6 +327,7 @@ home_pregame_points_against_fbc_predator_sabinov: 0
 home_pregame_points_against_fbk_nizna: 3
 home_pregame_points_against_fk_florko_kosice: 1
 home_pregame_points_against_oxdog_snipers_bratislava: 0
+home_pregame_points_against_sk_lido_prirodovedec_ruzinov: 0
 home_pregame_points_against_tsunami_zahorska_bystrica: 0
 home_pregame_points_max_difference_2: 4
 home_pregame_points_more_2_difference: 5

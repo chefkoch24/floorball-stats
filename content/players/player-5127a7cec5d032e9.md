@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jussi-Pekka Raitanen
 Category: players
 Slug: player-5127a7cec5d032e9
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 47
+rank: 49
 season: 26-27

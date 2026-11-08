@@ -323,7 +323,7 @@ home_pregame_points_after_third_period: 19
 home_pregame_points_against_eraviikingit: 3
 home_pregame_points_against_hawks: 3
 home_pregame_points_against_indians: 2
-home_pregame_points_against_jymy: 6
+home_pregame_points_against_jymy: 9
 home_pregame_points_against_lasb: 6
 home_pregame_points_against_ols: 6
 home_pregame_points_max_difference_2: 5

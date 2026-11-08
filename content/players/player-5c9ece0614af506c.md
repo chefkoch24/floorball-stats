@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Vanessa Riemann
 Category: players
 Slug: player-5c9ece0614af506c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 167
+rank: 169
 season: dew-26-27

@@ -365,7 +365,7 @@ away_pregame_points_after_third_period: 0
 away_pregame_points_against_classic: 1
 away_pregame_points_against_hawks: 0
 away_pregame_points_against_jymy: 3
-away_pregame_points_against_o2_jyvaskyla: 1
+away_pregame_points_against_o2_jyvaskyla: 4
 away_pregame_points_against_oilers: 0
 away_pregame_points_against_spv: 0
 away_pregame_points_max_difference_2: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: David Horký
 Category: players
 Slug: player-ea63f51cf2db9768

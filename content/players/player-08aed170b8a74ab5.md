@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ralfs Fricsons
 Category: players
 Slug: player-08aed170b8a74ab5
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 3
-rank: 95
+rank: 96
 season: lv-26-27

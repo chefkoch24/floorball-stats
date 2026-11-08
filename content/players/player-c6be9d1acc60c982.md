@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nela Blažková
 Category: players
 Slug: player-c6be9d1acc60c982

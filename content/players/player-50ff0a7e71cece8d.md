@@ -1,25 +1,25 @@
-Date: 2026-11-07
-Title: Kristína Mlíchová
+Date: 2026-11-08
+Title: Sára Adamcová
 Category: players
-Slug: player-daa2bf54eda434d6
+Slug: player-50ff0a7e71cece8d
 type: player
-player: Kristína Mlíchová
-player_uid: player-daa2bf54eda434d6
-team: MKŠS FBK Kysucké Nové Mesto
+player: Sára Adamcová
+player_uid: player-50ff0a7e71cece8d
+team: ŠK Fbk Kométa Spišská Nová Ves
 league: Slovakia Women
 season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 0
+current_games: 1
+current_goals: 2
 current_assists: 0
-current_points: 0
+current_points: 2
 current_pim: 0
-regular_games: 6
-regular_goals: 0
+regular_games: 1
+regular_goals: 2
 regular_assists: 0
-regular_points: 0
+regular_points: 2
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 0
+career_games: 1
+career_goals: 2
 career_assists: 0
-career_points: 0
+career_points: 2
 career_pim: 0
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|MKŠS FBK Kysucké Nové Mesto|6|0|0|0|0
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|ŠK Fbk Kométa Spišská Nová Ves|1|2|0|2|0
 assists: 0
-games: 6
-goals: 0
+games: 1
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 0
-rank: 131
+points: 2
+rank: 74
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Joonatan Lindholm
 Category: players
 Slug: player-a53bf34dec8574c1
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 6
 previous_points: 17
 previous_pim: 6
-career_games: 22
+career_games: 23
 career_goals: 13
 career_assists: 7
 career_points: 20
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|2|1|3|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|2|2|0||fi-25-26|regular-season|Finland|Indians|15|11|6|17|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|8|2|1|3|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|2|2|0||fi-25-26|regular-season|Finland|Indians|15|11|6|17|6
 assists: 1
-games: 7
+games: 8
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 100
+rank: 105
 season: ch-26-27

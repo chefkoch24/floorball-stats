@@ -1,4 +1,4 @@
-Date: 2026-11-06
+Date: 2026-11-07
 Title: Masters Ulbroka/LU
 Category: lv-26-27-regular-season, teams
 Slug: masters-ulbroka-lu-lv-26-27-regular-season-lv-26-27-regular-season

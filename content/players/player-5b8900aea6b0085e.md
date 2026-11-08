@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Šimon Hatala
 Category: players
 Slug: player-5b8900aea6b0085e
@@ -11,15 +11,15 @@ season_count: 3
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 6
-current_assists: 7
-current_points: 13
+current_assists: 10
+current_points: 16
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 6
-regular_assists: 7
-regular_points: 13
+regular_assists: 10
+regular_points: 16
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 36
 previous_points: 53
 previous_pim: 8
-career_games: 47
+career_games: 48
 career_goals: 23
-career_assists: 43
-career_points: 66
+career_assists: 46
+career_points: 69
 career_pim: 12
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|8|6|7|13|4||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|2|14|16|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|15|22|37|8||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
-assists: 7
-games: 8
+history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|9|6|10|16|4||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|2|14|16|0||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|21|15|22|37|8||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
+assists: 10
+games: 9
 goals: 6
 penalties: 2
 phase: regular-season
 pim: 4
-points: 13
-rank: 20
+points: 16
+rank: 15
 season: sk-26-27

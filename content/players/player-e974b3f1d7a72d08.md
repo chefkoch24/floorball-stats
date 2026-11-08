@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Henna Piironen
 Category: players
 Slug: player-e974b3f1d7a72d08
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 47
+rank: 48
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Elizabete Bērziņa
 Category: players
 Slug: player-91bd9b11a36f8ee7

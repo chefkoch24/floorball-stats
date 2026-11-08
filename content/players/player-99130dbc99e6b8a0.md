@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Leon Riedel
 Category: players
 Slug: player-99130dbc99e6b8a0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 236
+rank: 238
 season: 26-27

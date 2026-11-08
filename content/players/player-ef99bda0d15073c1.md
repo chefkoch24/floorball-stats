@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Luise Matthes
 Category: players
 Slug: player-ef99bda0d15073c1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 146
+rank: 150
 season: dew-26-27

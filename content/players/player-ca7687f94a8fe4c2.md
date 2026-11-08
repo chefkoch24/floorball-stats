@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Florian Knüsel
 Category: players
 Slug: player-ca7687f94a8fe4c2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 157
+rank: 166
 season: ch-26-27

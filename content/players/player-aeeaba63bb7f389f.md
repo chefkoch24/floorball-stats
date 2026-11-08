@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matīss Jorens Švedenbergs
 Category: players
 Slug: player-aeeaba63bb7f389f
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 3
+current_games: 4
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 3
+regular_games: 4
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,14 +36,14 @@ previous_goals: 3
 previous_assists: 3
 previous_points: 6
 previous_pim: 10
-career_games: 34
+career_games: 35
 career_goals: 3
 career_assists: 3
 career_points: 6
 career_pim: 10
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|3|0|0|0|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|8|0|2|2|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|3|1|4|10
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|4|0|0|0|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|8|0|2|2|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|3|1|4|10
 assists: 0
-games: 3
+games: 4
 goals: 0
 penalties: 0
 phase: regular-season

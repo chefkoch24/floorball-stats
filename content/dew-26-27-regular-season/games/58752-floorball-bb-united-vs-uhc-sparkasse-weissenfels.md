@@ -435,6 +435,7 @@ away_pregame_points_against_dumptener_fuchse: 3
 away_pregame_points_against_etv_lady_piranhhas_hamburg: 3
 away_pregame_points_against_floor_fighters_chemnitz: 3
 away_pregame_points_against_floorball_bb_united: 0
+away_pregame_points_against_mfbc_leipzig: 0
 away_pregame_points_against_ssf_dragons_bonn: 0
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Patrik Kutlák
 Category: players
 Slug: player-fa5fcf0edc6fe78c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 176
+rank: 183
 season: sk-26-27

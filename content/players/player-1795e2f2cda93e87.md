@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Pokorný Matej
 Category: players
 Slug: player-1795e2f2cda93e87
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 159
+rank: 163
 season: sk-26-27

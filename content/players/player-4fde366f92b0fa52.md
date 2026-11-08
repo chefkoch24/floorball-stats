@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Samuli Markus Kolho
 Category: players
 Slug: player-4fde366f92b0fa52

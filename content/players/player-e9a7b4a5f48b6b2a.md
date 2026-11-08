@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Selma Busse
 Category: players
 Slug: player-e9a7b4a5f48b6b2a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 72
+rank: 78
 season: dew-26-27

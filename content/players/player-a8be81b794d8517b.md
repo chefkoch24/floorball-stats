@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mikulčíková Martina
 Category: players
 Slug: player-a8be81b794d8517b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 89
+rank: 91
 season: skw-26-27

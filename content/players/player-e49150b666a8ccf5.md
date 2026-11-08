@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Aleksi Elmeranta
 Category: players
 Slug: player-e49150b666a8ccf5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 193
+rank: 196
 season: fi-26-27

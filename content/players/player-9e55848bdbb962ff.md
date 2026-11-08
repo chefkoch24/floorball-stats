@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Mačňák Marián
 Category: players
 Slug: player-9e55848bdbb962ff
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 102
+rank: 112
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Anna Sládková
 Category: players
 Slug: player-d6d041952df181dd

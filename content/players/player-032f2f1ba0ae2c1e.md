@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Maila Hilfiker
 Category: players
 Slug: player-032f2f1ba0ae2c1e
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 1
-rank: 134
+rank: 138
 season: chw-26-27

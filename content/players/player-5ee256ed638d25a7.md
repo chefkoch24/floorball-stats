@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matyáš Hartmann
 Category: players
 Slug: player-5ee256ed638d25a7

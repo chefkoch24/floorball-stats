@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Nicolas Ciurea
 Category: players
 Slug: player-e23f3088449bccd6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 278
+rank: 283
 season: ch-26-27

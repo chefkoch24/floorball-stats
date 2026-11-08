@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Rolands Kovaļevskis
 Category: players
 Slug: player-ff3f54f374b9c4b9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 16
-rank: 4
+rank: 5
 season: lv-26-27

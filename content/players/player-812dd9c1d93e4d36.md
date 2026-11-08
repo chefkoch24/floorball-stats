@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Melea Brunner
 Category: players
 Slug: player-812dd9c1d93e4d36
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 34
+rank: 40
 season: chw-26-27

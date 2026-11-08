@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Elsa Holopainen
 Category: players
 Slug: player-ed9dbfffa42308ab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 21
+rank: 22
 season: fiw-26-27

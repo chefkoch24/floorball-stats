@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ralfs Ķepītis
 Category: players
 Slug: player-666354e9a3d2a8ee
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 219
+rank: 220
 season: lv-26-27

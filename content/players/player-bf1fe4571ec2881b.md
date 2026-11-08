@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kristína Kujanová
 Category: players
 Slug: player-bf1fe4571ec2881b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 130
+rank: 133
 season: skw-26-27

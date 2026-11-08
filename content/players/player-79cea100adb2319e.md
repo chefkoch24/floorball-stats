@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Petra Aallonen
 Category: players
 Slug: player-79cea100adb2319e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 46
+rank: 47
 season: fiw-26-27

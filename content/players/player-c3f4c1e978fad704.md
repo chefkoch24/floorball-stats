@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ema Plevková
 Category: players
 Slug: player-c3f4c1e978fad704
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 121
+rank: 124
 season: skw-26-27

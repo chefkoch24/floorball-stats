@@ -323,7 +323,7 @@ home_pregame_points_after_third_period: 5
 home_pregame_points_against_classic: 1
 home_pregame_points_against_hawks: 0
 home_pregame_points_against_jymy: 3
-home_pregame_points_against_o2_jyvaskyla: 1
+home_pregame_points_against_o2_jyvaskyla: 4
 home_pregame_points_against_oilers: 0
 home_pregame_points_against_spv: 0
 home_pregame_points_max_difference_2: 1

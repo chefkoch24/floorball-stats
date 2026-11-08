@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Yannik Zölzer
 Category: players
 Slug: player-45c7fef7049750fc
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 79
+rank: 80
 season: 26-27

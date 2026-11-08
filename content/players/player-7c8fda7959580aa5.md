@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Čonka-skyba Filip
 Category: players
 Slug: player-7c8fda7959580aa5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 192
+rank: 198
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matúš Fiam
 Category: players
 Slug: player-b73907eea3eca76f

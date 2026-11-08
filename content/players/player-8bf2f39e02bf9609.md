@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Marek Mandler
 Category: players
 Slug: player-8bf2f39e02bf9609
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 76
+rank: 78
 season: 26-27

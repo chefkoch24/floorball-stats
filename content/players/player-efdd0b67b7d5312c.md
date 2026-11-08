@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Daofu Jin
 Category: players
 Slug: player-efdd0b67b7d5312c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 202
+rank: 204
 season: 26-27

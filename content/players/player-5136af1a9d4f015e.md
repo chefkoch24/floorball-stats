@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: David Lichtwer
 Category: players
 Slug: player-5136af1a9d4f015e
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 1
 current_points: 1
-current_pim: 2
-regular_games: 5
+current_pim: 4
+regular_games: 6
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 5
 previous_points: 6
 previous_pim: 6
-career_games: 22
+career_games: 23
 career_goals: 1
 career_assists: 6
 career_points: 7
-career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|5|0|1|1|2||26-27|cup|Germany|Berlin Rockets|1|0|0|0|0||25-26|regular-season|Germany|Berlin Rockets|17|1|5|6|6
+career_pim: 10
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|6|0|1|1|4||26-27|cup|Germany|Berlin Rockets|1|0|0|0|0||25-26|regular-season|Germany|Berlin Rockets|17|1|5|6|6
 assists: 1
-games: 5
+games: 6
 goals: 0
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 1
-rank: 167
+rank: 169
 season: 26-27

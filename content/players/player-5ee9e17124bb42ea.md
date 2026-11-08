@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Norina Reichlin
 Category: players
 Slug: player-5ee9e17124bb42ea
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 221
+rank: 223
 season: chw-26-27

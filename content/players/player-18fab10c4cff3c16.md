@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ella Kittke
 Category: players
 Slug: player-18fab10c4cff3c16
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 47
+rank: 49
 season: dew-26-27

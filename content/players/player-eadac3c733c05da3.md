@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matej Martoňák
 Category: players
 Slug: player-eadac3c733c05da3
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 117
+rank: 126
 season: sk-26-27

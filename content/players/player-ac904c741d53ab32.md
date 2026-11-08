@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Oskari Knaapi
 Category: players
 Slug: player-ac904c741d53ab32

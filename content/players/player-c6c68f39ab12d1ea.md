@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ida Åkesson
 Category: players
 Slug: player-c6c68f39ab12d1ea

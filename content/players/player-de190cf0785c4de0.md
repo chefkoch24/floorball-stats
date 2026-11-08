@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Shirin Hartmann
 Category: players
 Slug: player-de190cf0785c4de0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 122
+rank: 124
 season: chw-26-27

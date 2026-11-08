@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jēkabs Keišs
 Category: players
 Slug: player-9ea63e0ba498cc55
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 15
-rank: 7
+rank: 10
 season: lv-26-27

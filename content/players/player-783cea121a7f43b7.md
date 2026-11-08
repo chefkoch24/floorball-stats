@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sira Raimann
 Category: players
 Slug: player-783cea121a7f43b7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 145
+rank: 149
 season: chw-26-27

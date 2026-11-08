@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matyáš Krebner C
 Category: players
 Slug: player-11bff248765bd7c4

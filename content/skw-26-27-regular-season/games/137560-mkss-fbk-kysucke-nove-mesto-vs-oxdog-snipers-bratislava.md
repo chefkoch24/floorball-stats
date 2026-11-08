@@ -320,7 +320,7 @@ home_pregame_points_after_first_period: 8
 home_pregame_points_after_first_period_per_game: 1.6
 home_pregame_points_after_second_period: 7
 home_pregame_points_after_third_period: 8
-home_pregame_points_against_fbk_harvard_partizanske: 1
+home_pregame_points_against_fbk_harvard_partizanske: 2
 home_pregame_points_against_ftc_bojkun_trucks_filakovo: 3
 home_pregame_points_against_nts_fk_zs_nemsova: 2
 home_pregame_points_against_oxdog_snipers_bratislava: 3
@@ -439,7 +439,7 @@ away_pregame_points_against_mkss_fbk_kysucke_nove_mesto: 0
 away_pregame_points_against_nts_fk_zs_nemsova: 0
 away_pregame_points_against_sk_98_pruske: 0
 away_pregame_points_against_sk_fbk_kometa_spisska_nova_ves: 0
-away_pregame_points_against_sk_florbal_modra: 0
+away_pregame_points_against_sk_florbal_modra: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 0.0

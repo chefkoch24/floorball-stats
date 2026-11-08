@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Julian Langfeldt
 Category: players
 Slug: player-d3b34c638cc827d2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 17
+career_games: 18
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|4|0|0|0|0||26-27|cup|Germany|BW96 Schenefeld II / Blau-Weiß 96 Schenefeld|3|2|1|3|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|13|0|1|1|0
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|5|0|0|0|0||26-27|cup|Germany|BW96 Schenefeld II / Blau-Weiß 96 Schenefeld|3|2|1|3|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|13|0|1|1|0
 assists: 0
-games: 4
+games: 5
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 226
+rank: 228
 season: 26-27

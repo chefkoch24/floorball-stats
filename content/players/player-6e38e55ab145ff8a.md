@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Laura Doloksaribu
 Category: players
 Slug: player-6e38e55ab145ff8a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 129
+rank: 133
 season: dew-26-27

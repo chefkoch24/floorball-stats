@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Klára Makyčová
 Category: players
 Slug: player-b3d91c5a6864abac

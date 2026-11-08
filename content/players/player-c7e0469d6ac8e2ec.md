@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ruiming Wang
 Category: players
 Slug: player-c7e0469d6ac8e2ec
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 279
+rank: 281
 season: 26-27

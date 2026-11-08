@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Matej Záhora
 Category: players
 Slug: player-e927cba3ad699866
@@ -7,20 +7,20 @@ player: Matej Záhora
 player_uid: player-e927cba3ad699866
 team: FBK Nižná
 league: Slovakia
-season_count: 1
-current_season: sk-25-26
+season_count: 2
+current_season: sk-26-27
 current_season_is_tournament: no
-previous_season: n.a.
+previous_season: sk-25-26
 current_games: 1
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 0
+current_pim: 4
 regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 0
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,23 +31,23 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 0
+previous_games: 1
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 2
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 0
-history_rows_csv: sk-25-26|regular-season|Slovakia|FBK Nižná|1|0|0|0|0
+career_pim: 4
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|1|0|0|0|4||sk-25-26|regular-season|Slovakia|FBK Nižná|1|0|0|0|0
 assists: 0
 games: 1
 goals: 0
-penalties: 0
+penalties: 2
 phase: regular-season
-pim: 0
+pim: 4
 points: 0
-rank: 307
-season: sk-25-26
+rank: 259
+season: sk-26-27

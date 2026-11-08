@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Markuss Dumpis
 Category: players
 Slug: player-f3c39c5b07c9cf7a

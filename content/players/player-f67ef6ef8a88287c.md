@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tim Döbeli
 Category: players
 Slug: player-f67ef6ef8a88287c
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 4
-current_assists: 7
-current_points: 11
+current_assists: 8
+current_points: 12
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 3
-regular_assists: 6
-regular_points: 9
+regular_assists: 7
+regular_points: 10
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 5
 previous_points: 17
 previous_pim: 2
-career_games: 38
+career_games: 39
 career_goals: 15
-career_assists: 11
-career_points: 26
+career_assists: 12
+career_points: 27
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|3|6|9|2||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|1|2|2||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|3|1|4|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|9|4|13|2
-assists: 6
-games: 7
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|3|7|10|2||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|1|2|2||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|3|1|4|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|9|4|13|2
+assists: 7
+games: 8
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 9
+points: 10
 rank: 29
 season: ch-26-27

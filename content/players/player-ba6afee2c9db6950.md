@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Kim Lundelin
 Category: players
 Slug: player-ba6afee2c9db6950
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 5
 current_points: 8
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 5
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 3
 career_assists: 5
 career_points: 8
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|8|3|5|8|0||26-27|cup|Germany|MFBC Leipzig|1|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|9|3|5|8|0||26-27|cup|Germany|MFBC Leipzig|1|0|0|0|0
 assists: 5
-games: 8
+games: 9
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 42
+rank: 45
 season: 26-27

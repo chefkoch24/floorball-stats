@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Tadeáš Tokarčík
 Category: players
 Slug: player-6dc25a11de842d1e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 296
+rank: 298
 season: sk-26-27

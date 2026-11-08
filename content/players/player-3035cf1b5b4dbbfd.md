@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jakub Boško
 Category: players
 Slug: player-3035cf1b5b4dbbfd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 224
+rank: 228
 season: sk-26-27

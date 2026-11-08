@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Treneris Arvis Kārkliņš
 Category: players
 Slug: player-a98cffd62aa8582a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 234
+rank: 235
 season: lv-26-27

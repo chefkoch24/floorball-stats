@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Henriks Šķēle
 Category: players
 Slug: player-05eb57b0c4d2ae22
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 13
+career_games: 14
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|8|1|0|1|2||lv-25-26|playoffs|Latvia|Lekrings|2|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|3|0|1|1|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|9|1|0|1|2||lv-25-26|playoffs|Latvia|Lekrings|2|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|3|0|1|1|0
 assists: 0
-games: 8
+games: 9
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 123
+rank: 125
 season: lv-26-27

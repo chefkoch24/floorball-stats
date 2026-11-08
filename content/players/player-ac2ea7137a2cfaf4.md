@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Oliver Chochol
 Category: players
 Slug: player-ac2ea7137a2cfaf4
@@ -11,15 +11,15 @@ season_count: 3
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
-current_goals: 2
-current_assists: 5
-current_points: 7
+current_games: 9
+current_goals: 3
+current_assists: 7
+current_points: 10
 current_pim: 4
-regular_games: 8
-regular_goals: 2
-regular_assists: 5
-regular_points: 7
+regular_games: 9
+regular_goals: 3
+regular_assists: 7
+regular_points: 10
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 8
 previous_points: 16
 previous_pim: 6
-career_games: 46
-career_goals: 10
-career_assists: 13
-career_points: 23
+career_games: 47
+career_goals: 11
+career_assists: 15
+career_points: 26
 career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|8|2|5|7|4||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|1|3|4|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|7|5|12|4||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
-assists: 5
-games: 8
-goals: 2
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|9|3|7|10|4||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|1|3|4|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|7|5|12|4||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
+assists: 7
+games: 9
+goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
-points: 7
-rank: 64
+points: 10
+rank: 44
 season: sk-26-27

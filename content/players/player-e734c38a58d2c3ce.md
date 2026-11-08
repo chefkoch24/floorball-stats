@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Ella Johannesson
 Category: players
 Slug: player-e734c38a58d2c3ce

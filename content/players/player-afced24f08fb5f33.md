@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Sabina Šnajberková
 Category: players
 Slug: player-afced24f08fb5f33

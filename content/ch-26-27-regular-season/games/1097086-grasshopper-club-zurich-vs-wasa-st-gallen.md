@@ -325,6 +325,7 @@ home_pregame_points_against_floorball_chur_united: 3
 home_pregame_points_against_floorball_koniz_bern: 0
 home_pregame_points_against_hc_rychenberg_winterthur: 1
 home_pregame_points_against_kloten_dietlikon_jets: 2
+home_pregame_points_against_tigers_langnau: 3
 home_pregame_points_against_uhc_uster: 1
 home_pregame_points_against_wasa_st_gallen: 3
 home_pregame_points_against_zug_united: 3

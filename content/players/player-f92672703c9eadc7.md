@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Senni Luukkonen
 Category: players
 Slug: player-f92672703c9eadc7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 35
+rank: 39
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Slezáková Bronislava
 Category: players
 Slug: player-3aae7ae5493a7245
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 1
-rank: 92
+rank: 94
 season: skw-26-27

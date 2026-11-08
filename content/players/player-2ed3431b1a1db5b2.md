@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Petra Škodová
 Category: players
 Slug: player-2ed3431b1a1db5b2

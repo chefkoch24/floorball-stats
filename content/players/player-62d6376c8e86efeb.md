@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Treneris Normunds Kīsnics
 Category: players
 Slug: player-62d6376c8e86efeb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 244
+rank: 245
 season: lv-26-27

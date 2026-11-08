@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Klāvs Vītols
 Category: players
 Slug: player-e04fa098d1fc81c2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 11
 previous_points: 17
 previous_pim: 14
-career_games: 43
+career_games: 44
 career_goals: 8
 career_assists: 12
 career_points: 20
 career_pim: 16
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|8|2|1|3|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|1|1|2|6||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|5|10|15|8
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|9|2|1|3|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|1|1|2|6||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|5|10|15|8
 assists: 1
-games: 8
+games: 9
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 87
+rank: 88
 season: lv-26-27

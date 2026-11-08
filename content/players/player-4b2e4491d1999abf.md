@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Erik Brosius
 Category: players
 Slug: player-4b2e4491d1999abf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 6
-career_games: 26
+career_games: 27
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|0|1|1|0||26-27|cup|Germany|Berlin Rockets|1|1|0|1|2||25-26|regular-season|Germany|Berlin Rockets / SC Potsdam / SC Potsdam / Berlin Rockets|19|1|1|2|6
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|8|0|1|1|0||26-27|cup|Germany|Berlin Rockets|1|1|0|1|2||25-26|regular-season|Germany|Berlin Rockets / SC Potsdam / SC Potsdam / Berlin Rockets|19|1|1|2|6
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 170
+rank: 172
 season: 26-27

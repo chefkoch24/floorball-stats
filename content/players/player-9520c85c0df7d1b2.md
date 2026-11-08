@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Martin Sulc
 Category: players
 Slug: player-9520c85c0df7d1b2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 2
 previous_points: 4
 previous_pim: 6
-career_games: 30
+career_games: 31
 career_goals: 5
 career_assists: 4
 career_points: 9
 career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|3|2|5|4||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|3|2|5|4||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
 assists: 2
-games: 8
+games: 9
 goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 72
+rank: 75
 season: 26-27

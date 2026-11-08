@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Filip Prokop
 Category: players
 Slug: player-e0d014ab874ee543
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 218
+rank: 222
 season: sk-26-27

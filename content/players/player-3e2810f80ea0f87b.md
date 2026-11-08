@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Rihards Avots
 Category: players
 Slug: player-3e2810f80ea0f87b
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 35
+rank: 37
 season: lv-26-27

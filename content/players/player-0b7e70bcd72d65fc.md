@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Lea Maria Deterding
 Category: players
 Slug: player-0b7e70bcd72d65fc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 133
+rank: 137
 season: dew-26-27

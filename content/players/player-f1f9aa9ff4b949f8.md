@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Rahel Wyss
 Category: players
 Slug: player-f1f9aa9ff4b949f8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 26
+rank: 27
 season: chw-26-27

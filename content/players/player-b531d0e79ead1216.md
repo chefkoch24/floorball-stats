@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Gusts Jurēvics
 Category: players
 Slug: player-b531d0e79ead1216
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 19
+career_games: 20
 career_goals: 2
 career_assists: 3
 career_points: 5
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|9|2|2|4|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|7|0|1|1|0
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|10|2|2|4|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|7|0|1|1|0
 assists: 2
-games: 9
+games: 10
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 73
+rank: 75
 season: lv-26-27

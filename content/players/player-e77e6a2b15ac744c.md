@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Denisa Ratajova
 Category: players
 Slug: player-e77e6a2b15ac744c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 8
+rank: 11
 season: chw-26-27

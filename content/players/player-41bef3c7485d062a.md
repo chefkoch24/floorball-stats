@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Niks Blumfelds
 Category: players
 Slug: player-41bef3c7485d062a
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 6
-rank: 50
+rank: 52
 season: lv-26-27

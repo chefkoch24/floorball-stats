@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Jānis Miķelis Bitmanis
 Category: players
 Slug: player-b50e38abcbe6e748
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 110
+rank: 112
 season: lv-26-27

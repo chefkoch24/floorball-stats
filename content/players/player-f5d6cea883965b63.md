@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Endijs Ezeriņš
 Category: players
 Slug: player-f5d6cea883965b63
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 82
+rank: 83
 season: lv-26-27

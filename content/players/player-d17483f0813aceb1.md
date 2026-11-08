@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Viktória Vargová
 Category: players
 Slug: player-d17483f0813aceb1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 166
+rank: 168
 season: skw-26-27

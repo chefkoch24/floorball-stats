@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: Hugo Buhrots
 Category: players
 Slug: player-6bd7848e4cd98c5f
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 62
+rank: 64
 season: lv-26-27
