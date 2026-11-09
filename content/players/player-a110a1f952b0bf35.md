@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Hugo Norlund
 Category: players
 Slug: player-a110a1f952b0bf35

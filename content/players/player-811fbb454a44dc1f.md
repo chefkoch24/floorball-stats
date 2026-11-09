@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lennox Düben
 Category: players
 Slug: player-811fbb454a44dc1f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 237
+rank: 242
 season: 26-27

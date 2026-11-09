@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Laura Sommer
 Category: players
 Slug: player-cb91e288c778d75e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 135
+rank: 140
 season: dew-26-27

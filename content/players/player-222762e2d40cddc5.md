@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Julius Koitto
 Category: players
 Slug: player-222762e2d40cddc5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 43
+rank: 45
 season: fi-26-27

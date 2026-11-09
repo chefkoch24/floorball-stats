@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kucej Jaroslav
 Category: players
 Slug: player-4aabc0cf56f68b4d
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 1
-rank: 156
+rank: 159
 season: sk-26-27

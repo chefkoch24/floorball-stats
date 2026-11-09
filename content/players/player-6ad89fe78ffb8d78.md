@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sina Bothe
 Category: players
 Slug: player-6ad89fe78ffb8d78
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 29
+rank: 31
 season: dew-26-27

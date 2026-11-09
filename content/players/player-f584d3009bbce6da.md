@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daniela Křížová
 Category: players
 Slug: player-f584d3009bbce6da

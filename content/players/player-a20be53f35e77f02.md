@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kráčmar Boris
 Category: players
 Slug: player-a20be53f35e77f02
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 151
+rank: 152
 season: sk-26-27

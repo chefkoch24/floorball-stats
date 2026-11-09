@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Hannah Herrmann
 Category: players
 Slug: player-cc34f1007da5bc92
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 74
+rank: 79
 season: dew-26-27

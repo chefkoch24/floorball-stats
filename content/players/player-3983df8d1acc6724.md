@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ričards Eglītis
 Category: players
 Slug: player-3983df8d1acc6724
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
-current_goals: 6
+current_games: 11
+current_goals: 8
 current_assists: 7
-current_points: 13
+current_points: 15
 current_pim: 2
-regular_games: 10
-regular_goals: 6
+regular_games: 11
+regular_goals: 8
 regular_assists: 7
-regular_points: 13
+regular_points: 15
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 34
 previous_assists: 21
 previous_points: 55
 previous_pim: 6
-career_games: 43
-career_goals: 40
+career_games: 44
+career_goals: 42
 career_assists: 28
-career_points: 68
+career_points: 70
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|10|6|7|13|2||lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|31|20|51|6
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|11|8|7|15|2||lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|31|20|51|6
 assists: 7
-games: 10
-goals: 6
+games: 11
+goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
-points: 13
+points: 15
 rank: 12
 season: lv-26-27

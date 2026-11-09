@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Viktória Podmajerská
 Category: players
 Slug: player-6d70b4db94e9196a

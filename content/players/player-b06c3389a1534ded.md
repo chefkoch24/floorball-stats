@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Talissa Sarah Sommer
 Category: players
 Slug: player-b06c3389a1534ded
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 99
+rank: 105
 season: dew-26-27

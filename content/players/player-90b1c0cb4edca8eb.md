@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ondruška Matúš
 Category: players
 Slug: player-90b1c0cb4edca8eb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 60
+rank: 61
 season: sk-26-27

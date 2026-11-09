@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Eva Nečasová
 Category: players
 Slug: player-115e7ce7fd23a796

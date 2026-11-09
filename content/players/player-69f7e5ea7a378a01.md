@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lauris Nazarovs
 Category: players
 Slug: player-69f7e5ea7a378a01
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 0
-current_assists: 5
-current_points: 5
-current_pim: 14
-regular_games: 10
+current_assists: 6
+current_points: 6
+current_pim: 16
+regular_games: 11
 regular_goals: 0
-regular_assists: 5
-regular_points: 5
-regular_pim: 14
+regular_assists: 6
+regular_points: 6
+regular_pim: 16
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 3
 previous_points: 5
 previous_pim: 10
-career_games: 33
+career_games: 34
 career_goals: 2
-career_assists: 8
-career_points: 10
-career_pim: 24
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|10|0|5|5|14||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|3|0|0|0|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|20|2|3|5|10
-assists: 5
-games: 10
+career_assists: 9
+career_points: 11
+career_pim: 26
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|11|0|6|6|16||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|3|0|0|0|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|20|2|3|5|10
+assists: 6
+games: 11
 goals: 0
-penalties: 7
+penalties: 8
 phase: regular-season
-pim: 14
-points: 5
-rank: 68
+pim: 16
+points: 6
+rank: 61
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Keno Volkmann
 Category: players
 Slug: player-5314b9fe015e8ef3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 158
+rank: 163
 season: 26-27

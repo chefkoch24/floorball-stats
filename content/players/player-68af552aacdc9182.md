@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Vojtek Erik
 Category: players
 Slug: player-68af552aacdc9182
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 36
+rank: 37
 season: sk-26-27

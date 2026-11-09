@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Simon Kráčmar
 Category: players
 Slug: player-6a1ba2cf603da079
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 190
+rank: 194
 season: sk-26-27

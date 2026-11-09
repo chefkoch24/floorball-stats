@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Max Bandrock
 Category: players
 Slug: player-3e2d53b34fb2f853
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 5
 previous_points: 8
 previous_pim: 0
-career_games: 36
+career_games: 37
 career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|6|0|1|1|2||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|0|0|0|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|1|0|1|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|5|7|0
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|7|0|1|1|2||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|0|0|0|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|1|0|1|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|18|2|5|7|0
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 189
+rank: 194
 season: 26-27

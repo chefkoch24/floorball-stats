@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Šimočko Matúš
 Category: players
 Slug: player-7f0cb2685a1b8d52
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 169
+rank: 173
 season: sk-26-27

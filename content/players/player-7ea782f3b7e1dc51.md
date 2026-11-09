@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daniel Pravec
 Category: players
 Slug: player-7ea782f3b7e1dc51

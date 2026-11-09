@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ľubomír Ďurik
 Category: players
 Slug: player-c309ab2956bafbf8

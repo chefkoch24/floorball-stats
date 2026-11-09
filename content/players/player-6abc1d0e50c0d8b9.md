@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Joris Werner
 Category: players
 Slug: player-6abc1d0e50c0d8b9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 225
+rank: 230
 season: 26-27

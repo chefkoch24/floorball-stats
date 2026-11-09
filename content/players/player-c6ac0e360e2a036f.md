@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nathalie Berger
 Category: players
 Slug: player-c6ac0e360e2a036f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 36
+rank: 38
 season: dew-26-27

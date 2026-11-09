@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lea Marie Blumenstiel
 Category: players
 Slug: player-d02d71ff1c868c42
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 138
+rank: 143
 season: dew-26-27

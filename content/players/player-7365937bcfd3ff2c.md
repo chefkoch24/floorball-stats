@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Niklas Fiemel
 Category: players
 Slug: player-7365937bcfd3ff2c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 265
+rank: 271
 season: 26-27

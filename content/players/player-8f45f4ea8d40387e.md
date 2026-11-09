@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Anna Marttala
 Category: players
 Slug: player-8f45f4ea8d40387e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 16
-rank: 11
+rank: 12
 season: fiw-26-27

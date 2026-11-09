@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matúš Machara
 Category: players
 Slug: player-17ae4a70bfc6e73f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 94
+rank: 95
 season: sk-26-27

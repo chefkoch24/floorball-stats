@@ -1,4 +1,4 @@
-Date: 2026-11-07
+Date: 2026-11-08
 Title: FBK SĀC
 Category: lv-26-27-regular-season, teams
 Slug: fbk-sac-lv-26-27-regular-season-lv-26-27-regular-season

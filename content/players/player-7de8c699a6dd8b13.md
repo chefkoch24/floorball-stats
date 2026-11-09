@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pontus Sölve
 Category: players
 Slug: player-7de8c699a6dd8b13

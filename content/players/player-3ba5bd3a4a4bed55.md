@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: David Foelix
 Category: players
 Slug: player-3ba5bd3a4a4bed55
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 183
+rank: 187
 season: ch-26-27

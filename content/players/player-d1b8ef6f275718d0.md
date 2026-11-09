@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Timo Rother
 Category: players
 Slug: player-d1b8ef6f275718d0
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 108
+rank: 112
 season: 26-27

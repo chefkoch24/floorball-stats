@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jette Fallei
 Category: players
 Slug: player-d3f2b731f2dbf7e7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 18
+rank: 19
 season: dew-26-27

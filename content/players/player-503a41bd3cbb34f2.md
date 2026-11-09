@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Virginia Melzian
 Category: players
 Slug: player-503a41bd3cbb34f2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 170
+rank: 173
 season: dew-26-27

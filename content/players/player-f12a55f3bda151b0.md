@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Simona Pleisch
 Category: players
 Slug: player-f12a55f3bda151b0
@@ -11,15 +11,15 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 3
+current_games: 8
+current_goals: 4
 current_assists: 3
-current_points: 6
+current_points: 7
 current_pim: 0
-regular_games: 5
-regular_goals: 0
+regular_games: 6
+regular_goals: 1
 regular_assists: 1
-regular_points: 1
+regular_points: 2
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
-career_goals: 0
+career_games: 6
+career_goals: 1
 career_assists: 1
-career_points: 1
+career_points: 2
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|5|0|1|1|0||chw-26-27|cup|Switzerland Women|Zug United|2|3|2|5|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|6|1|1|2|0||chw-26-27|cup|Switzerland Women|Zug United|2|3|2|5|0
 assists: 1
-games: 5
-goals: 0
+games: 6
+goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 1
-rank: 148
+points: 2
+rank: 101
 season: chw-26-27

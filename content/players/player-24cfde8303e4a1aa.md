@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Leonie Schubert
 Category: players
 Slug: player-24cfde8303e4a1aa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 40
+rank: 41
 season: dew-26-27

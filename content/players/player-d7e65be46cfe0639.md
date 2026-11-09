@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mats Michel Dose
 Category: players
 Slug: player-d7e65be46cfe0639
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 1
-rank: 188
+rank: 193
 season: 26-27

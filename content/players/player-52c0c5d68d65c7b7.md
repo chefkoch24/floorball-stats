@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Andrin Caviezel
 Category: players
 Slug: player-52c0c5d68d65c7b7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 202
+rank: 207
 season: ch-26-27

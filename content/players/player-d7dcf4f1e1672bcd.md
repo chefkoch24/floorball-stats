@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Corina Maurer
 Category: players
 Slug: player-d7dcf4f1e1672bcd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 65
+rank: 74
 season: chw-26-27

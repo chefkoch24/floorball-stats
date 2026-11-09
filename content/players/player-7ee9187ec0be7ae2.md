@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tomáš Týc
 Category: players
 Slug: player-7ee9187ec0be7ae2

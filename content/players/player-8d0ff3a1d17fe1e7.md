@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Michal Fusi
 Category: players
 Slug: player-8d0ff3a1d17fe1e7

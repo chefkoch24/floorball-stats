@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Elin Gladh-Pettersson
 Category: players
 Slug: player-fd6d25f06d9b3751

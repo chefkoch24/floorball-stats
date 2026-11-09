@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ludvig Hemmingberg
 Category: players
 Slug: player-e61fcb671b2a1014

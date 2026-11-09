@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Liv-Emma Lotz
 Category: players
 Slug: player-efcc8c1033cd20ae
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 115
+rank: 124
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Filip Lingmerth
 Category: players
 Slug: player-2e0875cf16b5edbb

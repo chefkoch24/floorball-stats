@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Julia Diesener
 Category: players
 Slug: player-10df3aed4790b505
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 89
+rank: 96
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sofia Mittentag
 Category: players
 Slug: player-257fcda403e8ee95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 15
-rank: 13
+rank: 14
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Miķelis Koknesis Roops
 Category: players
 Slug: player-17c7cbe2d4073a0a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 3
 current_points: 3
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 3
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 7
 previous_points: 15
 previous_pim: 16
-career_games: 47
+career_games: 48
 career_goals: 8
 career_assists: 10
 career_points: 18
 career_pim: 20
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|7|0|3|3|4||lv-25-26|playoffs|Latvia|Lekrings|15|3|4|7|10||lv-25-26|regular-season|Latvia|Lekrings|25|5|3|8|6
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|8|0|3|3|4||lv-25-26|playoffs|Latvia|Lekrings|15|3|4|7|10||lv-25-26|regular-season|Latvia|Lekrings|25|5|3|8|6
 assists: 3
-games: 7
+games: 8
 goals: 0
 penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 100
+rank: 106
 season: lv-26-27

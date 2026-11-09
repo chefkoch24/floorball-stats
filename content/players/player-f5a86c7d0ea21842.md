@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Vanessa Basler
 Category: players
 Slug: player-f5a86c7d0ea21842
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 81
+rank: 89
 season: chw-26-27

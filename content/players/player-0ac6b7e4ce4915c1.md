@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jonathan Berglund
 Category: players
 Slug: player-0ac6b7e4ce4915c1

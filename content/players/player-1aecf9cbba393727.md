@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lene Haas
 Category: players
 Slug: player-1aecf9cbba393727
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 57
+rank: 60
 season: dew-26-27

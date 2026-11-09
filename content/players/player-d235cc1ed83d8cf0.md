@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Adam Fliegner
 Category: players
 Slug: player-d235cc1ed83d8cf0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 89
+rank: 91
 season: 26-27

@@ -327,6 +327,7 @@ home_pregame_points_against_hc_rychenberg_winterthur: 0
 home_pregame_points_against_kloten_dietlikon_jets: 3
 home_pregame_points_against_tigers_langnau: 1
 home_pregame_points_against_uhc_alligator_malans: 3
+home_pregame_points_against_wasa_st_gallen: 1
 home_pregame_points_against_zug_united: 0
 home_pregame_points_max_difference_2: 1
 home_pregame_points_more_2_difference: 7

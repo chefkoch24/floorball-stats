@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pārstāvis Andris Pīlups
 Category: players
 Slug: player-6c18f15badfad087
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 202
+rank: 205
 season: lv-26-27

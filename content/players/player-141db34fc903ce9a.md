@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Oona Hirsimäki
 Category: players
 Slug: player-141db34fc903ce9a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 31
+rank: 34
 season: fiw-26-27

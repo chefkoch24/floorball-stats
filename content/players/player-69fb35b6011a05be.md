@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rieger Andreas
 Category: players
 Slug: player-69fb35b6011a05be
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 188
+rank: 192
 season: sk-26-27

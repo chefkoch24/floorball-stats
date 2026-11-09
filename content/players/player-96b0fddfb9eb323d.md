@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matevz Kohne
 Category: players
 Slug: player-96b0fddfb9eb323d

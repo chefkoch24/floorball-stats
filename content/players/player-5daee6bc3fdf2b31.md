@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rastislav Jopek
 Category: players
 Slug: player-5daee6bc3fdf2b31
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 283
+rank: 284
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daniel Baránek
 Category: players
 Slug: player-3c0f3693649ce6bb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 122
+rank: 123
 season: sk-26-27

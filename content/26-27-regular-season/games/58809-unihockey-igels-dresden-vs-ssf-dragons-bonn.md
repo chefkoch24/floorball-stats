@@ -323,6 +323,7 @@ home_pregame_points_after_third_period: 3
 home_pregame_points_against_blau_weiss_96_schenefeld: 3
 home_pregame_points_against_djk_holzbuttgen: 0
 home_pregame_points_against_fbc_munchen: 3
+home_pregame_points_against_floor_fighters_chemnitz: 0
 home_pregame_points_against_mfbc_leipzig: 3
 home_pregame_points_against_sc_dhfk_leipzig: 3
 home_pregame_points_against_ssf_dragons_bonn: 2

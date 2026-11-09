@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jasmine Van der Veen
 Category: players
 Slug: player-e3c786e3dceb4c03

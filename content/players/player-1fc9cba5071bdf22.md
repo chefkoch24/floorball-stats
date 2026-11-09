@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nina Gerber
 Category: players
 Slug: player-1fc9cba5071bdf22
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 217
+rank: 220
 season: chw-26-27

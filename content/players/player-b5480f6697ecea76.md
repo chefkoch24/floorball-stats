@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jakub Pokorný
 Category: players
 Slug: player-b5480f6697ecea76

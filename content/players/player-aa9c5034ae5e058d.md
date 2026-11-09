@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pavel Semenov
 Category: players
 Slug: player-aa9c5034ae5e058d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 4
 current_assists: 2
 current_points: 6
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 2
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 32
 previous_points: 49
 previous_pim: 4
-career_games: 43
+career_games: 44
 career_goals: 21
 career_assists: 34
 career_points: 55
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|8|4|2|6|0||lv-25-26|playoffs|Latvia|Rubene|11|4|9|13|0||lv-25-26|regular-season|Latvia|Rubene|24|13|23|36|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|9|4|2|6|0||lv-25-26|playoffs|Latvia|Rubene|11|4|9|13|0||lv-25-26|regular-season|Latvia|Rubene|24|13|23|36|4
 assists: 2
-games: 8
+games: 9
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 53
+rank: 55
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Adam Zubek
 Category: players
 Slug: player-a08e5df446941ef0
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 15
-rank: 19
+rank: 20
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lucia Smolková
 Category: players
 Slug: player-89b04e03f6defa0e

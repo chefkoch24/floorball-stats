@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tim Kramer
 Category: players
 Slug: player-d59698d8f0ad281b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 307
+rank: 310
 season: ch-26-27

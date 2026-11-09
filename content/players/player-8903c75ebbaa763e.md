@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lisa Schroeder
 Category: players
 Slug: player-8903c75ebbaa763e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 149
+rank: 155
 season: dew-26-27

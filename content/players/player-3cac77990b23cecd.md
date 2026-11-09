@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pinja Pesonen
 Category: players
 Slug: player-3cac77990b23cecd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 132
+rank: 137
 season: fiw-26-27

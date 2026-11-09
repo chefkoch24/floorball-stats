@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sofia Vestergaard Frederiksen
 Category: players
 Slug: player-904bfcd7341bad20

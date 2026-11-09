@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Martin Latka
 Category: players
 Slug: player-bcb37eee18865c70
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 35
+rank: 36
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mikuláš Nebrensky
 Category: players
 Slug: player-d34809c9e1d46ece
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 6
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 2
 career_points: 2
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|FBC München|8|0|2|2|6||26-27|cup|Germany|FBC München|1|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|FBC München|9|0|2|2|6||26-27|cup|Germany|FBC München|1|0|0|0|0
 assists: 2
-games: 8
+games: 9
 goals: 0
 penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 149
+rank: 152
 season: 26-27

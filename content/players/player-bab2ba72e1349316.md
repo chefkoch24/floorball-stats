@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ben-Nicklas Löser
 Category: players
 Slug: player-bab2ba72e1349316
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 204
+rank: 209
 season: ch-26-27

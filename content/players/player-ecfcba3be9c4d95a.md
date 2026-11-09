@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lea Kern
 Category: players
 Slug: player-ecfcba3be9c4d95a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 136
+rank: 141
 season: dew-26-27

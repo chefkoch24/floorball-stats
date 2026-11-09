@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Svenja Klingner
 Category: players
 Slug: player-dcee3c06cd280a6e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 22
+rank: 24
 season: dew-26-27

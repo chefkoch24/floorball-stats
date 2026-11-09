@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Adam Švehlák
 Category: players
 Slug: player-e4e4fccd003faae1

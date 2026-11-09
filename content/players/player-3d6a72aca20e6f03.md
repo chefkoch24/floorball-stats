@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Adam Brčák
 Category: players
 Slug: player-3d6a72aca20e6f03
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 200
+rank: 202
 season: sk-26-27

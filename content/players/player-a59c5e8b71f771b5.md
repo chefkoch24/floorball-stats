@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Juvenal Dikacz
 Category: players
 Slug: player-a59c5e8b71f771b5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 68
+rank: 69
 season: sk-26-27

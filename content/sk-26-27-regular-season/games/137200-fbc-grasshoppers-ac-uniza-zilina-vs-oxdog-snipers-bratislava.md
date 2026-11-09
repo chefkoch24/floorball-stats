@@ -322,6 +322,7 @@ home_pregame_points_after_second_period: 1
 home_pregame_points_after_third_period: 3
 home_pregame_points_against_1_fbc_trencin: 0
 home_pregame_points_against_dtf_team_detva_joxers: 3
+home_pregame_points_against_fbc_predator_sabinov: 3
 home_pregame_points_against_fbk_nizna: 3
 home_pregame_points_against_florbalovy_klub_as_trencin: 3
 home_pregame_points_against_oxdog_snipers_bratislava: 0

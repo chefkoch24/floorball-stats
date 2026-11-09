@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Neal Rychener
 Category: players
 Slug: player-aa568e548ee31d72
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 279
+rank: 283
 season: ch-26-27

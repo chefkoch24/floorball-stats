@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Eduards Sokolovs
 Category: players
 Slug: player-af82c1a72a8a55b7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 119
+rank: 128
 season: lv-26-27

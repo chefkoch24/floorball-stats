@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sophie Puttnins
 Category: players
 Slug: player-c02f506b0ef84ccc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 164
+rank: 169
 season: dew-26-27

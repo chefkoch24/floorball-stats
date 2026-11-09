@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Karolína Vlachová
 Category: players
 Slug: player-fb6be5273d23a2ec

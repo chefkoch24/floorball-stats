@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Samuel Savka
 Category: players
 Slug: player-b908850d047bade5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 293
+rank: 294
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nils Baillif
 Category: players
 Slug: player-c06a4a48dee8cb95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 87
+rank: 90
 season: ch-26-27

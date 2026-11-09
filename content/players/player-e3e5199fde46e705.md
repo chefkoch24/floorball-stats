@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tomáš Daněk
 Category: players
 Slug: player-e3e5199fde46e705

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daniel Hoth
 Category: players
 Slug: player-12c5b944eefaac01
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 203
+rank: 208
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Hanna Salminen
 Category: players
 Slug: player-4148b0bf148e9a4d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 170
+rank: 174
 season: fiw-26-27

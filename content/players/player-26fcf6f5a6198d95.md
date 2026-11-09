@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rihards Mertens
 Category: players
 Slug: player-26fcf6f5a6198d95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 131
+rank: 141
 season: lv-26-27

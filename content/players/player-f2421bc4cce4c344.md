@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Isabella Holdt
 Category: players
 Slug: player-f2421bc4cce4c344

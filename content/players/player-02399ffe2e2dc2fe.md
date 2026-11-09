@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matúš Kakačka
 Category: players
 Slug: player-02399ffe2e2dc2fe
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 64
+rank: 65
 season: sk-26-27

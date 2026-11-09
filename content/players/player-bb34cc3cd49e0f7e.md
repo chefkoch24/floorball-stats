@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pārstāvis Ralfs Orste
 Category: players
 Slug: player-bb34cc3cd49e0f7e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 215
+rank: 218
 season: lv-26-27

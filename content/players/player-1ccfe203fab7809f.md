@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Levi Walser
 Category: players
 Slug: player-1ccfe203fab7809f
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 63
+rank: 66
 season: ch-26-27

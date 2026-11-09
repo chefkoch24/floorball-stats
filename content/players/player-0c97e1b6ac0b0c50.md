@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jonáš Bagín
 Category: players
 Slug: player-0c97e1b6ac0b0c50
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 78
+rank: 80
 season: sk-26-27

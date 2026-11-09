@@ -441,6 +441,7 @@ away_pregame_points_against_hc_rychenberg_winterthur: 0
 away_pregame_points_against_kloten_dietlikon_jets: 3
 away_pregame_points_against_tigers_langnau: 1
 away_pregame_points_against_uhc_alligator_malans: 3
+away_pregame_points_against_wasa_st_gallen: 1
 away_pregame_points_against_zug_united: 0
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mirjam Wyss
 Category: players
 Slug: player-0e2bbc2f33f644d4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 5
+rank: 6
 season: chw-26-27

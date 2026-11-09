@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Anja Gross
 Category: players
 Slug: player-0a18ed9034cfdf70
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 97
+rank: 103
 season: chw-26-27

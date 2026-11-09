@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ville Pesonen
 Category: players
 Slug: player-1827ae1d4e48e1d2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 294
+rank: 297
 season: 26-27

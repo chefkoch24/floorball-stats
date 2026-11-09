@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Hugo Buhrots
 Category: players
 Slug: player-6bd7848e4cd98c5f
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 4
-regular_games: 10
+regular_games: 11
 regular_goals: 2
 regular_assists: 3
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 21
+career_games: 22
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|10|2|3|5|4||lv-25-26|playoffs|Latvia|Rubene|3|0|0|0|0||lv-25-26|regular-season|Latvia|Rubene|8|0|1|1|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|11|2|3|5|4||lv-25-26|playoffs|Latvia|Rubene|3|0|0|0|0||lv-25-26|regular-season|Latvia|Rubene|8|0|1|1|0
 assists: 3
-games: 10
+games: 11
 goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 64
+rank: 70
 season: lv-26-27

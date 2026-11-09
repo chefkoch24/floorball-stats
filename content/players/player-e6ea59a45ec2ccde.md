@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sophie Baruth
 Category: players
 Slug: player-e6ea59a45ec2ccde
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 97
+rank: 103
 season: dew-26-27

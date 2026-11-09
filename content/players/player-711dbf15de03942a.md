@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Samuel Poffet
 Category: players
 Slug: player-711dbf15de03942a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 69
+rank: 71
 season: ch-26-27

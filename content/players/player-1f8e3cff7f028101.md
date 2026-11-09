@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Christian Stucki
 Category: players
 Slug: player-1f8e3cff7f028101
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 128
+rank: 130
 season: ch-26-27

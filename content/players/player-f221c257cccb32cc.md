@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sedliak Matej
 Category: players
 Slug: player-f221c257cccb32cc
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 11
-rank: 39
+rank: 40
 season: sk-26-27

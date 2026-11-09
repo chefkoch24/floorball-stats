@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Luana Arnold
 Category: players
 Slug: player-4e0614aadd2351a2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 202
+rank: 205
 season: chw-26-27

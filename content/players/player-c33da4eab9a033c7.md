@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Teppo Salo
 Category: players
 Slug: player-c33da4eab9a033c7

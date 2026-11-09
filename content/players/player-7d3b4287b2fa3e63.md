@@ -1,26 +1,26 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Filip Šimek
 Category: players
 Slug: player-7d3b4287b2fa3e63
 type: player
 player: Filip Šimek
 player_uid: player-7d3b4287b2fa3e63
-team: FAT PIPE FLORBAL CHODOV
-league: Czech Republic
+team: FaBK ATU Košice
+league: Slovakia
 season_count: 3
-current_season: cz-26-27
+current_season: sk-26-27
 current_season_is_tournament: no
-previous_season: sk-26-27
-current_games: 9
-current_goals: 4
-current_assists: 1
-current_points: 5
-current_pim: 4
-regular_games: 9
-regular_goals: 4
-regular_assists: 1
-regular_points: 5
-regular_pim: 4
+previous_season: cz-26-27
+current_games: 6
+current_goals: 0
+current_assists: 0
+current_points: 0
+current_pim: 0
+regular_games: 6
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -31,11 +31,11 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 6
-previous_goals: 0
-previous_assists: 0
-previous_points: 0
-previous_pim: 0
+previous_games: 9
+previous_goals: 4
+previous_assists: 1
+previous_points: 5
+previous_pim: 4
 career_games: 27
 career_goals: 4
 career_assists: 4

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ayla Naide Aydin
 Category: players
 Slug: player-02bb03b54031ede5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 44
+rank: 45
 season: dew-26-27

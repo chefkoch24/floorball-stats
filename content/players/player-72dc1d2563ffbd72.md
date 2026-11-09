@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ina Leminen
 Category: players
 Slug: player-72dc1d2563ffbd72
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 107
+rank: 111
 season: fiw-26-27

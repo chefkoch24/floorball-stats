@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Hallqvist Johansson
 Category: players
 Slug: player-c56e5e015f44aa4d

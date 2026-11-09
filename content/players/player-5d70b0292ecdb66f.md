@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jan Ziehli
 Category: players
 Slug: player-5d70b0292ecdb66f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 148
+rank: 149
 season: ch-26-27

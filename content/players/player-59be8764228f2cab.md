@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lukas Genhart
 Category: players
 Slug: player-59be8764228f2cab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 253
+rank: 258
 season: ch-26-27

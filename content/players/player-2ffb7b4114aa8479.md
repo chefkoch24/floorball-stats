@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Samuel Belovič
 Category: players
 Slug: player-2ffb7b4114aa8479
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 45
+rank: 47
 season: sk-26-27

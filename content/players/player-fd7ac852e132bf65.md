@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Aleksis Šērs
 Category: players
 Slug: player-fd7ac852e132bf65
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 135
+rank: 145
 season: lv-26-27

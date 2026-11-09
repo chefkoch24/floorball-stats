@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Norina Reusser
 Category: players
 Slug: player-241ce788dd8b2d26
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 17
-rank: 1
+rank: 2
 season: chw-26-27

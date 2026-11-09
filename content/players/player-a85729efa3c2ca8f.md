@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lukáš Laštík
 Category: players
 Slug: player-a85729efa3c2ca8f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 125
+rank: 127
 season: sk-26-27

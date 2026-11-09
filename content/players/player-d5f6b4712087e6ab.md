@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Róbert Florián Hamrák
 Category: players
 Slug: player-d5f6b4712087e6ab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 288
+rank: 289
 season: sk-26-27

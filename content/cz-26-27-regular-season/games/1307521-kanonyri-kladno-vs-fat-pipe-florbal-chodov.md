@@ -447,6 +447,7 @@ away_pregame_points_against_fbc_clt_ceska_lipa: 3
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 2
 away_pregame_points_against_fbc_liberec: 0
 away_pregame_points_against_fbs_hummel_hattrick_brno: 3
+away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 0

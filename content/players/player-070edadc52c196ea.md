@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Gian-Luca Flisch
 Category: players
 Slug: player-070edadc52c196ea
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 224
+rank: 229
 season: ch-26-27

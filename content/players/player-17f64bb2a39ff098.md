@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Stefanie Schwendener
 Category: players
 Slug: player-17f64bb2a39ff098
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 240
+rank: 242
 season: chw-26-27

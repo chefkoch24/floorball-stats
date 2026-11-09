@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nils Boman
 Category: players
 Slug: player-6face900f0ede325
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 100
+rank: 103
 season: ch-26-27

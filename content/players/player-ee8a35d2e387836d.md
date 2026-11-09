@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Vendula Beránková
 Category: players
 Slug: player-ee8a35d2e387836d

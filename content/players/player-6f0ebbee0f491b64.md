@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Laura Göbel
 Category: players
 Slug: player-6f0ebbee0f491b64
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 19
+rank: 20
 season: dew-26-27

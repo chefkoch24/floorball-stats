@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Gwen Bleckmann
 Category: players
 Slug: player-20cc9ccaccdf27b2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 62
+rank: 67
 season: dew-26-27

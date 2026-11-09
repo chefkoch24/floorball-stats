@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Engla Blomberg
 Category: players
 Slug: player-9e97252bcd5a420f

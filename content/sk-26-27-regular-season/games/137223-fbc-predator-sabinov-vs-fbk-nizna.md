@@ -323,6 +323,7 @@ home_pregame_points_after_third_period: 10
 home_pregame_points_against_1_fbc_trencin: 0
 home_pregame_points_against_dtf_team_detva_joxers: 3
 home_pregame_points_against_fabk_atu_kosice: 0
+home_pregame_points_against_fbc_grasshoppers_ac_uniza_zilina: 0
 home_pregame_points_against_fbk_nizna: 1
 home_pregame_points_against_fk_florko_kosice: 3
 home_pregame_points_against_florbalovy_klub_as_trencin: 1

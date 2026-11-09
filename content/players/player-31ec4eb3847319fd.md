@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Anne Härtsch
 Category: players
 Slug: player-31ec4eb3847319fd
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 49
+rank: 53
 season: chw-26-27

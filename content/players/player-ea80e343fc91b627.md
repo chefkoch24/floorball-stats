@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Katharina Meyer
 Category: players
 Slug: player-ea80e343fc91b627
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 24
+rank: 25
 season: dew-26-27

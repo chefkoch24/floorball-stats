@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Moa Dybner
 Category: players
 Slug: player-3e1af0cff481798d

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kristers Leksis
 Category: players
 Slug: player-0645aae42e93ab83
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 7
 current_assists: 3
 current_points: 10
 current_pim: 6
-regular_games: 10
+regular_games: 11
 regular_goals: 7
 regular_assists: 3
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 15
 previous_assists: 6
 previous_points: 21
 previous_pim: 8
-career_games: 42
+career_games: 43
 career_goals: 22
 career_assists: 9
 career_points: 31
 career_pim: 14
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|10|7|3|10|6||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|4|1|5|4||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|11|5|16|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|11|7|3|10|6||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|4|1|5|4||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|11|5|16|4
 assists: 3
-games: 10
+games: 11
 goals: 7
 penalties: 3
 phase: regular-season
 pim: 6
 points: 10
-rank: 20
+rank: 24
 season: lv-26-27

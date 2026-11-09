@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Arttu Äijälä
 Category: players
 Slug: player-7168c3158dbe5cf2
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 9
-rank: 38
+rank: 39
 season: 26-27

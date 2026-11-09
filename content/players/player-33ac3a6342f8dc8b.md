@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Alex Kubala
 Category: players
 Slug: player-33ac3a6342f8dc8b

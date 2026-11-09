@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lina Svarfvar
 Category: players
 Slug: player-184d38efc2b6c54e
@@ -49,5 +49,5 @@ penalties: 9
 phase: regular-season
 pim: 18
 points: 10
-rank: 12
+rank: 15
 season: chw-26-27

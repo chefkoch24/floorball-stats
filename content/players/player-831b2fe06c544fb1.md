@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kamenský František
 Category: players
 Slug: player-831b2fe06c544fb1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 73
+rank: 74
 season: sk-26-27

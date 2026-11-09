@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Simona Chinotti
 Category: players
 Slug: player-8a54b5335e2d5de0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 233
+rank: 235
 season: chw-26-27

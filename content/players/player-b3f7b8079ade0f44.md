@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Maximilian Karl
 Category: players
 Slug: player-b3f7b8079ade0f44
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 268
 season: 26-27

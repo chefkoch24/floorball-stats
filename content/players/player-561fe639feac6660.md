@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Levin Peter
 Category: players
 Slug: player-561fe639feac6660
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 9
 previous_points: 18
 previous_pim: 6
-career_games: 40
+career_games: 41
 career_goals: 12
 career_assists: 9
 career_points: 21
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|3|0|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|5|6|11|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|4|3|7|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|3|0|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|5|6|11|6||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|4|3|7|0
 assists: 0
-games: 7
+games: 8
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 99
+rank: 102
 season: ch-26-27

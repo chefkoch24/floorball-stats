@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jakub Krkoš
 Category: players
 Slug: player-261b1ed2ec68a435
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 230
+rank: 231
 season: sk-26-27

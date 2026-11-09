@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tamara Dubacher
 Category: players
 Slug: player-19cf7ac29868ff92
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 101
+rank: 107
 season: chw-26-27

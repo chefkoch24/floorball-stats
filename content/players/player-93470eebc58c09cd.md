@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Christina Schröder
 Category: players
 Slug: player-93470eebc58c09cd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 48
+rank: 50
 season: dew-26-27

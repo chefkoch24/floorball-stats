@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jūlija Eglīte
 Category: players
 Slug: player-5d0b7c363afad357

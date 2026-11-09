@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Oliver Lehocký
 Category: players
 Slug: player-ec0765b32cd9f6b3
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 127
+rank: 129
 season: sk-26-27

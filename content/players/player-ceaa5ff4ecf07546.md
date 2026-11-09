@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Šiša Damian
 Category: players
 Slug: player-ceaa5ff4ecf07546
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 41
+rank: 42
 season: sk-26-27

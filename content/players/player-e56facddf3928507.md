@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Justine Werner
 Category: players
 Slug: player-e56facddf3928507
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 128
+rank: 133
 season: dew-26-27

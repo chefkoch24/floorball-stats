@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Martin Sulc
 Category: players
 Slug: player-9520c85c0df7d1b2
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 75
+rank: 81
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Viktor Krížik
 Category: players
 Slug: player-be41563e60c5c91d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 194
+rank: 197
 season: sk-26-27

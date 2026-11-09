@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tuukka Korhonen
 Category: players
 Slug: player-8f1499eae4e78fed
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 59
+rank: 60
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Atte Ronkanen
 Category: players
 Slug: player-64f1eebb4e5267e0

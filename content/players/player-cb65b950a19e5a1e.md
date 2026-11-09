@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Julia Bärthel
 Category: players
 Slug: player-cb65b950a19e5a1e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 88
+rank: 95
 season: dew-26-27

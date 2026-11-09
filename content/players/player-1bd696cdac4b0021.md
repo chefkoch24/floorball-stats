@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ella-Fée Greber
 Category: players
 Slug: player-1bd696cdac4b0021
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 167
+rank: 171
 season: chw-26-27

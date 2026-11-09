@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Karla Weser
 Category: players
 Slug: player-c1c35c318dfa5b40
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 129
+rank: 134
 season: dew-26-27

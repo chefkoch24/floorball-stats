@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Senni Mustakoski
 Category: players
 Slug: player-02d9c5b2c646b1c6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 11
+current_games: 7
+current_goals: 12
 current_assists: 6
-current_points: 17
+current_points: 18
 current_pim: 0
-regular_games: 5
-regular_goals: 8
+regular_games: 6
+regular_goals: 9
 regular_assists: 6
-regular_points: 14
+regular_points: 15
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
-career_goals: 8
+career_games: 6
+career_goals: 9
 career_assists: 6
-career_points: 14
+career_points: 15
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Koovee|5|8|6|14|0||fiw-26-27|cup|Finland Women|Koovee|1|3|0|3|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Koovee|6|9|6|15|0||fiw-26-27|cup|Finland Women|Koovee|1|3|0|3|0
 assists: 6
-games: 5
-goals: 8
+games: 6
+goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 14
-rank: 14
+points: 15
+rank: 13
 season: fiw-26-27

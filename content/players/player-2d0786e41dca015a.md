@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Chantal Grundbacher
 Category: players
 Slug: player-2d0786e41dca015a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 162
+rank: 166
 season: chw-26-27

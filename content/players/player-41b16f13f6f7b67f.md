@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Henrika Maikola
 Category: players
 Slug: player-41b16f13f6f7b67f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 37
+rank: 40
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kim Luisa Adam
 Category: players
 Slug: player-372289dda8343eae
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 46
+rank: 48
 season: dew-26-27

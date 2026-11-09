@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Patrik Pacek
 Category: players
 Slug: player-8ab11aad6733c339
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 43
+rank: 45
 season: sk-26-27

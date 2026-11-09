@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sophie Reber
 Category: players
 Slug: player-2af8da468ea6bce0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 165
+rank: 170
 season: dew-26-27

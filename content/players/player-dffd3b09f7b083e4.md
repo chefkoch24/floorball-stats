@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Luka Kuusela
 Category: players
 Slug: player-dffd3b09f7b083e4

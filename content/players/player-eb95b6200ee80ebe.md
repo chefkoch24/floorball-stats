@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Georg-Martin Gahnz
 Category: players
 Slug: player-eb95b6200ee80ebe
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 74
+rank: 80
 season: 26-27

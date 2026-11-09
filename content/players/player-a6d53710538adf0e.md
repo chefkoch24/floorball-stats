@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ondřej Jankovský C
 Category: players
 Slug: player-a6d53710538adf0e

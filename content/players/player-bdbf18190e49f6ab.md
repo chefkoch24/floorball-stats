@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Barbora Levová
 Category: players
 Slug: player-bdbf18190e49f6ab

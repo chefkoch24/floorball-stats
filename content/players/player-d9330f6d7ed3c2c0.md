@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mathias Mortensen
 Category: players
 Slug: player-d9330f6d7ed3c2c0

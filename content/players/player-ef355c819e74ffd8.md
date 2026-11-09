@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jānis Plots
 Category: players
 Slug: player-ef355c819e74ffd8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
+current_games: 8
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 3
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 1
 previous_points: 7
 previous_pim: 12
-career_games: 38
+career_games: 39
 career_goals: 8
 career_assists: 4
 career_points: 12
 career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|7|2|3|5|0||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|0|0|0|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|6|1|7|12
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|8|2|3|5|0||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|0|0|0|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|6|1|7|12
 assists: 3
-games: 7
+games: 8
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 66
+rank: 72
 season: lv-26-27

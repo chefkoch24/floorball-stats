@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Johannes Ventz
 Category: players
 Slug: player-2bdcb55a4cd3fc45
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 180
+rank: 187
 season: 26-27

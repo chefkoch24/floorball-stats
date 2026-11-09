@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Michaela Zmrzlá
 Category: players
 Slug: player-652ad83be89eff7b

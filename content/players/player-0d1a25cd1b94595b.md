@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Emīls Reinis Rudzītis
 Category: players
 Slug: player-0d1a25cd1b94595b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 11
+career_games: 12
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|10|0|0|0|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|1|0|1|1|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Lielvārde/Unihoc|11|0|0|0|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|1|0|1|1|0
 assists: 0
-games: 10
+games: 11
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 163
+rank: 170
 season: lv-26-27

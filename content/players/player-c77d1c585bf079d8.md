@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Domenick Rotgang
 Category: players
 Slug: player-c77d1c585bf079d8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 145
+rank: 148
 season: 26-27

@@ -438,6 +438,7 @@ away_pregame_points_against_fb_riders_dbr: 3
 away_pregame_points_against_floorball_chur_united: 0
 away_pregame_points_against_kloten_dietlikon_jets: 0
 away_pregame_points_against_uhc_laupen_zh: 3
+away_pregame_points_against_uhv_skorpion_emmental: 3
 away_pregame_points_against_unihockey_berner_oberland: 1
 away_pregame_points_against_wizards_bern_burgdorf: 3
 away_pregame_points_max_difference_2: 1

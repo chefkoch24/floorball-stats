@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lukas Schellenberg
 Category: players
 Slug: player-5bcefd3ca4f0e897
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 255
+rank: 260
 season: ch-26-27

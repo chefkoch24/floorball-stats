@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Josef Linke
 Category: players
 Slug: player-bb067693e03df1b2

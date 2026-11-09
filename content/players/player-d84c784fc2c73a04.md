@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kriš Jozef
 Category: players
 Slug: player-d84c784fc2c73a04
@@ -11,16 +11,16 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 11
 current_goals: 6
-current_assists: 3
-current_points: 9
-current_pim: 8
-regular_games: 9
+current_assists: 4
+current_points: 10
+current_pim: 10
+regular_games: 11
 regular_goals: 6
-regular_assists: 3
-regular_points: 9
-regular_pim: 8
+regular_assists: 4
+regular_points: 10
+regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 11
 career_goals: 6
-career_assists: 3
-career_points: 9
-career_pim: 8
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|9|6|3|9|8
-assists: 3
-games: 9
+career_assists: 4
+career_points: 10
+career_pim: 10
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|11|6|4|10|10
+assists: 4
+games: 11
 goals: 6
-penalties: 4
+penalties: 5
 phase: regular-season
-pim: 8
-points: 9
-rank: 47
+pim: 10
+points: 10
+rank: 43
 season: sk-26-27

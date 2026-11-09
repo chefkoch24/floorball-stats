@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Elena Bröker
 Category: players
 Slug: player-a99bd8a7cfadaf13
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 34
+rank: 36
 season: dew-26-27

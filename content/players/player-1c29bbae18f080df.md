@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Linnea Könnecke
 Category: players
 Slug: player-1c29bbae18f080df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 148
+rank: 154
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daniel Hulič
 Category: players
 Slug: player-82bbb8a2fcfdfa5e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 6
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 4
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 12
 previous_points: 21
 previous_pim: 2
-career_games: 30
+career_games: 31
 career_goals: 13
 career_assists: 16
 career_points: 29
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|8|4|4|8|6||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|3|3|0||25-26|regular-season|Germany|Unihockey Igels Dresden|20|9|9|18|2
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|9|4|4|8|6||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|3|3|0||25-26|regular-season|Germany|Unihockey Igels Dresden|20|9|9|18|2
 assists: 4
-games: 8
+games: 9
 goals: 4
 penalties: 3
 phase: regular-season
 pim: 6
 points: 8
-rank: 42
+rank: 43
 season: 26-27

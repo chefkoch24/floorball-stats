@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Michaela Strnadová
 Category: players
 Slug: player-d66ad7027b4c2e93
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 155
+rank: 160
 season: dew-26-27

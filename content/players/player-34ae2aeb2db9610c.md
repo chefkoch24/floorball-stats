@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ebba André
 Category: players
 Slug: player-34ae2aeb2db9610c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 33
+rank: 35
 season: dew-26-27

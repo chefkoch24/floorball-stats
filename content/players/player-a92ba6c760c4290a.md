@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matúš Gajdošík
 Category: players
 Slug: player-a92ba6c760c4290a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 152
+rank: 153
 season: sk-26-27

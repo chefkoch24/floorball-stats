@@ -440,6 +440,7 @@ away_pregame_points_against_uhc_laupen_zh: 3
 away_pregame_points_against_uhv_skorpion_emmental: 3
 away_pregame_points_against_unihockey_berner_oberland: 0
 away_pregame_points_against_wizards_bern_burgdorf: 1
+away_pregame_points_against_zug_united: 0
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 6
 away_pregame_points_per_game: 2.25

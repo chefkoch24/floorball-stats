@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mike Jäger
 Category: players
 Slug: player-bbddf44782ab46ce
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 5
-rank: 68
+rank: 70
 season: ch-26-27

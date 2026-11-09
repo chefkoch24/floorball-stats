@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Auratai Märgel
 Category: players
 Slug: player-c81f24ebadcc8283
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 106
+rank: 113
 season: dew-26-27

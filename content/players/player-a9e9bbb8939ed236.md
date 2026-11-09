@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kamil Navrátil
 Category: players
 Slug: player-a9e9bbb8939ed236

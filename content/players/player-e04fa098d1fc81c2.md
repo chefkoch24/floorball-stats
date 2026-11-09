@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Klāvs Vītols
 Category: players
 Slug: player-e04fa098d1fc81c2
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 88
+rank: 91
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Svea André
 Category: players
 Slug: player-8a657e36ee2dd9ff
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 51
+rank: 52
 season: dew-26-27

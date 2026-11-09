@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Marlene Jäschke
 Category: players
 Slug: player-c6417eb23a5a2efb
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 94
+rank: 100
 season: dew-26-27

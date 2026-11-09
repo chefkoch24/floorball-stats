@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Košinár Filip
 Category: players
 Slug: player-a72de803bd0301b3
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 2
-rank: 132
+rank: 134
 season: sk-26-27

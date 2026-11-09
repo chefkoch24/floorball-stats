@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nico Branger
 Category: players
 Slug: player-bad076e0a880bcbc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 151
+rank: 152
 season: ch-26-27

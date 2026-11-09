@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Vanessa Weikum
 Category: players
 Slug: player-7a89917db0c39db6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 30
+rank: 32
 season: dew-26-27

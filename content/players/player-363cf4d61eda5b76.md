@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Reinis Kirilko
 Category: players
 Slug: player-363cf4d61eda5b76
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 226
 season: lv-26-27

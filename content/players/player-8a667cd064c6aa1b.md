@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Raphael Hosennen
 Category: players
 Slug: player-8a667cd064c6aa1b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 299
+rank: 303
 season: ch-26-27

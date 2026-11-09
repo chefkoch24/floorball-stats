@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Maroš Kovaľ
 Category: players
 Slug: player-3bb18c85f2cd3ce5

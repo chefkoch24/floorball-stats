@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Santer Martin
 Category: players
 Slug: player-b17ec6fd8616a261
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 49
+rank: 50
 season: sk-26-27

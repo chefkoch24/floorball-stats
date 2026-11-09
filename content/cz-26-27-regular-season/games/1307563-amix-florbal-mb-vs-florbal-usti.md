@@ -437,6 +437,7 @@ away_pregame_points_after_first_period: 4
 away_pregame_points_after_first_period_per_game: 0.57
 away_pregame_points_after_second_period: 0
 away_pregame_points_after_third_period: 4
+away_pregame_points_against_acema_sparta_praha: 0
 away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_ba_sokoli_pardubice: 0
 away_pregame_points_against_bulldogs_brno: 1

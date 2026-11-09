@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Emma Hedlund
 Category: players
 Slug: player-42c2c218d60cedd9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 37
+rank: 39
 season: chw-26-27

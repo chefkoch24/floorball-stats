@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matěj Horák
 Category: players
 Slug: player-bd8efb6139943ed6

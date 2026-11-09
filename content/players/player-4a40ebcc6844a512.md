@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sebastian Mathis
 Category: players
 Slug: player-4a40ebcc6844a512
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 127
+rank: 129
 season: ch-26-27

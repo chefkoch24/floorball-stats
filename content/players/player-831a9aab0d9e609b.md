@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Alexander Benko
 Category: players
 Slug: player-831a9aab0d9e609b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 203
+rank: 205
 season: sk-26-27

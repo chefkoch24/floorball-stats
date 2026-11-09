@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mikus Edvards Ķikuts
 Category: players
 Slug: player-228764cb9be16e4c
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
+current_games: 9
 current_goals: 6
 current_assists: 4
 current_points: 10
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 6
 regular_assists: 4
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 35
 previous_assists: 12
 previous_points: 47
 previous_pim: 6
-career_games: 35
+career_games: 36
 career_goals: 41
 career_assists: 16
 career_points: 57
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|8|6|4|10|2||lv-25-26|playoffs|Latvia|Rubene|12|12|5|17|6||lv-25-26|regular-season|Latvia|Rubene|15|23|7|30|0
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|9|6|4|10|2||lv-25-26|playoffs|Latvia|Rubene|12|12|5|17|6||lv-25-26|regular-season|Latvia|Rubene|15|23|7|30|0
 assists: 4
-games: 8
+games: 9
 goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 21
+rank: 25
 season: lv-26-27

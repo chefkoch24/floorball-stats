@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Emīls Jančevskis
 Category: players
 Slug: player-cab161ec2c56086d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 4
 current_points: 6
 current_pim: 14
-regular_games: 10
+regular_games: 11
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 21
 previous_points: 31
 previous_pim: 12
-career_games: 47
+career_games: 48
 career_goals: 12
 career_assists: 25
 career_points: 37
 career_pim: 26
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|10|2|4|6|14||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|2|2|4|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|27|8|19|27|10
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|11|2|4|6|14||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|2|2|4|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|27|8|19|27|10
 assists: 4
-games: 10
+games: 11
 goals: 2
 penalties: 7
 phase: regular-season
 pim: 14
 points: 6
-rank: 55
+rank: 59
 season: lv-26-27

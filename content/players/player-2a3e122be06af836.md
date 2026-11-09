@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lena Baccus
 Category: players
 Slug: player-2a3e122be06af836
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 139
+rank: 144
 season: dew-26-27

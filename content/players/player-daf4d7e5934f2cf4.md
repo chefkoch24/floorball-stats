@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Maurin Klesse
 Category: players
 Slug: player-daf4d7e5934f2cf4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 160
+rank: 162
 season: ch-26-27

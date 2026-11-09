@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Laura Korth
 Category: players
 Slug: player-f4bd6f6920ec4bcd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 134
+rank: 139
 season: dew-26-27

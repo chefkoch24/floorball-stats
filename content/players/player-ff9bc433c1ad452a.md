@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Manuel Matt
 Category: players
 Slug: player-ff9bc433c1ad452a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 139
+rank: 141
 season: ch-26-27

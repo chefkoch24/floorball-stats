@@ -439,6 +439,7 @@ away_pregame_points_against_berlin_rockets: 3
 away_pregame_points_against_blau_weiss_96_schenefeld: 3
 away_pregame_points_against_djk_holzbuttgen: 2
 away_pregame_points_against_etv_piranhhas_hamburg: 3
+away_pregame_points_against_fbc_munchen: 0
 away_pregame_points_against_floor_fighters_chemnitz: 1
 away_pregame_points_against_mfbc_leipzig: 0
 away_pregame_points_against_sc_dhfk_leipzig: 3

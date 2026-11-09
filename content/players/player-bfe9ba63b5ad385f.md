@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jonas Knofe
 Category: players
 Slug: player-bfe9ba63b5ad385f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 127
+rank: 129
 season: 26-27

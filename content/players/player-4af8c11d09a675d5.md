@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Friederike Schlotmann
 Category: players
 Slug: player-4af8c11d09a675d5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 61
+rank: 65
 season: dew-26-27

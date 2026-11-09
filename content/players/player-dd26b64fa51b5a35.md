@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matias Koski
 Category: players
 Slug: player-dd26b64fa51b5a35
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 40
+rank: 42
 season: fi-26-27

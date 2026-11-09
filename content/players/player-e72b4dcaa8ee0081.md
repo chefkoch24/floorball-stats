@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Albin Lundell
 Category: players
 Slug: player-e72b4dcaa8ee0081

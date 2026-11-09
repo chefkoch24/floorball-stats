@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rendl Andrej
 Category: players
 Slug: player-de8a13d29eb91d57
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 187
+rank: 191
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Šimon Hatala
 Category: players
 Slug: player-5b8900aea6b0085e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 16
-rank: 15
+rank: 16
 season: sk-26-27

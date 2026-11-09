@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lara Feuerstacke
 Category: players
 Slug: player-35bd27b36c052ae8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 132
+rank: 137
 season: dew-26-27

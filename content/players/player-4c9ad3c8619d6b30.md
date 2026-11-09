@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Simon Götz
 Category: players
 Slug: player-4c9ad3c8619d6b30
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 112
+rank: 115
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Daria Horošina
 Category: players
 Slug: player-d55a35524dee4e05
@@ -11,15 +11,15 @@ season_count: 1
 current_season: dew-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
-current_goals: 4
+current_games: 6
+current_goals: 6
 current_assists: 0
-current_points: 4
+current_points: 6
 current_pim: 0
-regular_games: 5
-regular_goals: 4
+regular_games: 6
+regular_goals: 6
 regular_assists: 0
-regular_points: 4
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
-career_goals: 4
+career_games: 6
+career_goals: 6
 career_assists: 0
-career_points: 4
+career_points: 6
 career_pim: 0
-history_rows_csv: dew-26-27|regular-season|Germany Women|Floorball BB United|5|4|0|4|0
+history_rows_csv: dew-26-27|regular-season|Germany Women|Floorball BB United|6|6|0|6|0
 assists: 0
-games: 5
-goals: 4
+games: 6
+goals: 6
 penalties: 0
 phase: regular-season
 pim: 0
-points: 4
-rank: 39
+points: 6
+rank: 22
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Virga Samuel
 Category: players
 Slug: player-6b1d87870b35cc3e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 90
+rank: 91
 season: sk-26-27

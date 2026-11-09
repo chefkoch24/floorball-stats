@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: David Lichtwer
 Category: players
 Slug: player-5136af1a9d4f015e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 169
+rank: 175
 season: 26-27

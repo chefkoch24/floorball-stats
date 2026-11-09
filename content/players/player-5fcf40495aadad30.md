@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Amelie Kürschner
 Category: players
 Slug: player-5fcf40495aadad30
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 32
+rank: 34
 season: dew-26-27

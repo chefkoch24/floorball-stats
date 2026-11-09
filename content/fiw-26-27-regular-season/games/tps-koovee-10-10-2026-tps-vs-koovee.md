@@ -435,6 +435,7 @@ away_pregame_points_after_first_period: 7
 away_pregame_points_after_first_period_per_game: 1.75
 away_pregame_points_after_second_period: 7
 away_pregame_points_after_third_period: 7
+away_pregame_points_against_classic: 0
 away_pregame_points_against_fbc_loisto: 1
 away_pregame_points_against_northern_stars: 3
 away_pregame_points_against_pirkat: 0

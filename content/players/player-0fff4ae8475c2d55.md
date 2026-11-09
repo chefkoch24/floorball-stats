@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Naništa Jakub
 Category: players
 Slug: player-0fff4ae8475c2d55
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 180
+rank: 184
 season: sk-26-27

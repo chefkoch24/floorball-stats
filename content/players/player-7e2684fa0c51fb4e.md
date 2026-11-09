@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Timotej Kollár
 Category: players
 Slug: player-7e2684fa0c51fb4e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 26
+rank: 28
 season: sk-26-27

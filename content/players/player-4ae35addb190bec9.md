@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Marta Drille
 Category: players
 Slug: player-4ae35addb190bec9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 4
+rank: 6
 season: lvw-26-27

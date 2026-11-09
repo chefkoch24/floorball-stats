@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Luukas Jokiaho
 Category: players
 Slug: player-2574cdb99e3d977d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 152
+rank: 153
 season: fi-26-27

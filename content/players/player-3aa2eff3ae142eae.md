@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Eileen Winter
 Category: players
 Slug: player-3aa2eff3ae142eae
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 55
+rank: 58
 season: dew-26-27

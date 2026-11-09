@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Kay Bier
 Category: players
 Slug: player-8d0ccedf0453dcec
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 57
+rank: 59
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Mark-Oliver Bothe
 Category: players
 Slug: player-7f7ec2af2ddc35a5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 18
-rank: 5
+rank: 6
 season: 26-27

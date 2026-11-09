@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matyáš Vašíček
 Category: players
 Slug: player-da365ecdfb19927b

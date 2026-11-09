@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rovin Thalmann
 Category: players
 Slug: player-d6224e9fdbd09349
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 5
 current_points: 8
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 4
 previous_points: 7
 previous_pim: 0
-career_games: 38
+career_games: 39
 career_goals: 4
 career_assists: 6
 career_points: 10
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|1|2|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|2|3|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|2|5|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|19|0|2|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|1|2|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|2|3|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|2|5|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|19|0|2|2|0
 assists: 2
-games: 7
+games: 8
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 120
+rank: 122
 season: ch-26-27

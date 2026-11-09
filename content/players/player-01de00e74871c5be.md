@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Romy Siv Kränkel
 Category: players
 Slug: player-01de00e74871c5be
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 160
+rank: 165
 season: dew-26-27

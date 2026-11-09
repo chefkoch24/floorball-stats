@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Sarina Knechtle
 Category: players
 Slug: player-3c15aec3b7c13ee5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 230
+rank: 232
 season: chw-26-27

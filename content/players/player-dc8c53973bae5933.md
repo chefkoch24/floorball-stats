@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Benedikt Fiedrich
 Category: players
 Slug: player-dc8c53973bae5933
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 90
+rank: 92
 season: 26-27

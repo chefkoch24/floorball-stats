@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Vojta Čapek
 Category: players
 Slug: player-f39dac5c9c8b42e7

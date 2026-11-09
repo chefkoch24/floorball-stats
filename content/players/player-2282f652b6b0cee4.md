@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jiří Jogl
 Category: players
 Slug: player-2282f652b6b0cee4

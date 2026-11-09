@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Pavol Masár
 Category: players
 Slug: player-8148bf7f60af22d4
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 14
-rank: 18
+rank: 20
 season: sk-26-27

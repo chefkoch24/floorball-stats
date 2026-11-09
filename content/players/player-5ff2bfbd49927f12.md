@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Martin Hempfling
 Category: players
 Slug: player-5ff2bfbd49927f12
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 255
+rank: 260
 season: 26-27

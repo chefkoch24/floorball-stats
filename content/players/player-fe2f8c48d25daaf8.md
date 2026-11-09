@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Matej Havlas
 Category: players
 Slug: player-fe2f8c48d25daaf8

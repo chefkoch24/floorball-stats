@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ludwig Persson
 Category: players
 Slug: player-ab2c57c0bca69eb6
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 31
+rank: 32
 season: ch-26-27

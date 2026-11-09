@@ -322,6 +322,7 @@ home_pregame_points_after_first_period_per_game: 0.17
 home_pregame_points_after_second_period: 0
 home_pregame_points_after_third_period: 1
 home_pregame_points_against_floorball_uri: 1
+home_pregame_points_against_kloten_dietlikon_jets: 0
 home_pregame_points_against_red_ants_winterthur: 0
 home_pregame_points_against_uhc_laupen_zh: 0
 home_pregame_points_against_uhv_skorpion_emmental: 0

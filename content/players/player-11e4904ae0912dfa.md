@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Elias Rutz
 Category: players
 Slug: player-11e4904ae0912dfa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 214
+rank: 219
 season: ch-26-27

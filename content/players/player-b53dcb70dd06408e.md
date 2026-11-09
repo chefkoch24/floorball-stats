@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Paul Dall
 Category: players
 Slug: player-b53dcb70dd06408e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 53
+rank: 55
 season: 26-27

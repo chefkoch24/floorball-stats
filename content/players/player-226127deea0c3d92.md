@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Rūdolfs Dilbergs
 Category: players
 Slug: player-226127deea0c3d92
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 38
+rank: 41
 season: lv-26-27

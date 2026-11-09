@@ -437,6 +437,7 @@ away_pregame_points_after_second_period: 5
 away_pregame_points_after_third_period: 6
 away_pregame_points_against_1_fbc_trencin: 0
 away_pregame_points_against_dtf_team_detva_joxers: 3
+away_pregame_points_against_fbc_predator_sabinov: 3
 away_pregame_points_against_fbk_nizna: 3
 away_pregame_points_against_florbalovy_klub_as_trencin: 3
 away_pregame_points_against_oxdog_snipers_bratislava: 0

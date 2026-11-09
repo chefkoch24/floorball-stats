@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Linn Larsson
 Category: players
 Slug: player-a076a21a4c4003ec

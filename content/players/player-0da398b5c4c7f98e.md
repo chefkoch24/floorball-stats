@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Martin Bujaki
 Category: players
 Slug: player-0da398b5c4c7f98e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 133
+rank: 135
 season: sk-26-27

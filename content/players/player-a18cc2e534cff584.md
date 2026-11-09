@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Johanne Busse
 Category: players
 Slug: player-a18cc2e534cff584
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 63
+rank: 68
 season: dew-26-27

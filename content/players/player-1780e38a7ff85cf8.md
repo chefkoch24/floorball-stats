@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jonas Stettler
 Category: players
 Slug: player-1780e38a7ff85cf8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 97
+rank: 100
 season: ch-26-27

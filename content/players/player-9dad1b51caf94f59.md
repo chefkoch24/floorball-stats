@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ludvig Kalldin
 Category: players
 Slug: player-9dad1b51caf94f59

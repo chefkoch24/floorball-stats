@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lenya-Marie Pester
 Category: players
 Slug: player-37438e3b690ed5dc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 26
+rank: 27
 season: dew-26-27

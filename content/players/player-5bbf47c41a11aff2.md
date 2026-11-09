@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Klara Bachmann
 Category: players
 Slug: player-5bbf47c41a11aff2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 131
+rank: 136
 season: dew-26-27

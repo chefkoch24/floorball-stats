@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Katariina Väre
 Category: players
 Slug: player-2cd429d4e9edae78
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 16
+rank: 17
 season: dew-26-27

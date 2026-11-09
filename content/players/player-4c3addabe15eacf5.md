@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Lara Wüthrich
 Category: players
 Slug: player-4c3addabe15eacf5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 80
+rank: 86
 season: chw-26-27

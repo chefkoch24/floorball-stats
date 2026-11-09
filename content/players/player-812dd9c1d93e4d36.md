@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Melea Brunner
 Category: players
 Slug: player-812dd9c1d93e4d36
@@ -11,15 +11,15 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 6
+current_games: 9
+current_goals: 7
 current_assists: 3
-current_points: 9
+current_points: 10
 current_pim: 0
-regular_games: 6
-regular_goals: 3
+regular_games: 7
+regular_goals: 4
 regular_assists: 2
-regular_points: 5
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 3
+career_games: 7
+career_goals: 4
 career_assists: 2
-career_points: 5
+career_points: 6
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|6|3|2|5|0||chw-26-27|cup|Switzerland Women|Red Ants Winterthur|2|3|1|4|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|7|4|2|6|0||chw-26-27|cup|Switzerland Women|Red Ants Winterthur|2|3|1|4|0
 assists: 2
-games: 6
-goals: 3
+games: 7
+goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 40
+points: 6
+rank: 33
 season: chw-26-27

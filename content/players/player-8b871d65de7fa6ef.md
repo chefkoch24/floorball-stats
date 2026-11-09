@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Noa Raths
 Category: players
 Slug: player-8b871d65de7fa6ef
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 119
+rank: 127
 season: chw-26-27

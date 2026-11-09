@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Řezáč Tomáš
 Category: players
 Slug: player-cf2dcd09069c217e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 149
+rank: 150
 season: sk-26-27

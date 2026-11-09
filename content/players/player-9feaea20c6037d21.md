@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Steven Friedli
 Category: players
 Slug: player-9feaea20c6037d21
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 196
+rank: 200
 season: ch-26-27

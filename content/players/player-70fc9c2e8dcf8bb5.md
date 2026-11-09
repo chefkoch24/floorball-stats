@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Dušan Ďurmek
 Category: players
 Slug: player-70fc9c2e8dcf8bb5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 216
+rank: 217
 season: sk-26-27

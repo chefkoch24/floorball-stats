@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Gian Boner
 Category: players
 Slug: player-ade95704c7ce04e5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 221
+rank: 226
 season: ch-26-27

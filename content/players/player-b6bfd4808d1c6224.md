@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Thyra Harald
 Category: players
 Slug: player-b6bfd4808d1c6224

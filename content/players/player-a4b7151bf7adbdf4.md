@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Nikolass Burbo
 Category: players
 Slug: player-a4b7151bf7adbdf4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 144
+rank: 155
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Tomáš Jurica
 Category: players
 Slug: player-83f2aab4f87079ec
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 19
+rank: 21
 season: sk-26-27

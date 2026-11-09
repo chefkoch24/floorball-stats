@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Ilvis Pētersons
 Category: players
 Slug: player-aacb53b755ac5869
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 173
+rank: 179
 season: lv-26-27

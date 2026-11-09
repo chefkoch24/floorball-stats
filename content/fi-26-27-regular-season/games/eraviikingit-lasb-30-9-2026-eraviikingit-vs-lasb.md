@@ -439,6 +439,7 @@ away_pregame_points_against_eraviikingit: 0
 away_pregame_points_against_hawks: 0
 away_pregame_points_against_jymy: 1
 away_pregame_points_against_nokian_krp: 0
+away_pregame_points_against_o2_jyvaskyla: 0
 away_pregame_points_against_spv: 0
 away_pregame_points_against_tps: 0
 away_pregame_points_max_difference_2: 0

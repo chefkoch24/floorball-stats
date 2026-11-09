@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Maliar Dávid
 Category: players
 Slug: player-d7a95b7650377aea
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 172
+rank: 176
 season: sk-26-27

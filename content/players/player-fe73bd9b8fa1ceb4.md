@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Eero Harjula
 Category: players
 Slug: player-fe73bd9b8fa1ceb4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 135
+rank: 136
 season: fi-26-27

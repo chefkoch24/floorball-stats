@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Marek Kalivoda
 Category: players
 Slug: player-d07546fe69cb48a9
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 7
-rank: 62
+rank: 63
 season: sk-26-27

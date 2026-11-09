@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Fabian Alex
 Category: players
 Slug: player-d769743ba9cb1e66
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 5
-rank: 93
+rank: 94
 season: sk-26-27

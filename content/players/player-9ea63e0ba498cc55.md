@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jēkabs Keišs
 Category: players
 Slug: player-9ea63e0ba498cc55
@@ -11,15 +11,15 @@ season_count: 3
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
-current_goals: 7
-current_assists: 8
-current_points: 15
+current_games: 10
+current_goals: 8
+current_assists: 9
+current_points: 17
 current_pim: 2
-regular_games: 9
-regular_goals: 7
-regular_assists: 8
-regular_points: 15
+regular_games: 10
+regular_goals: 8
+regular_assists: 9
+regular_points: 17
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 28
 previous_assists: 28
 previous_points: 56
 previous_pim: 24
-career_games: 55
-career_goals: 36
-career_assists: 37
-career_points: 73
+career_games: 56
+career_goals: 37
+career_assists: 38
+career_points: 75
 career_pim: 26
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|9|7|8|15|2||lv-25-26|playoffs|Latvia|Rubene|12|8|5|13|6||lv-25-26|regular-season|Latvia|Rubene|27|20|23|43|18||wfc-2024|tournament|IFF WFC|Latvia|7|1|1|2|0
-assists: 8
-games: 9
-goals: 7
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|10|8|9|17|2||lv-25-26|playoffs|Latvia|Rubene|12|8|5|13|6||lv-25-26|regular-season|Latvia|Rubene|27|20|23|43|18||wfc-2024|tournament|IFF WFC|Latvia|7|1|1|2|0
+assists: 9
+games: 10
+goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
-points: 15
-rank: 10
+points: 17
+rank: 5
 season: lv-26-27

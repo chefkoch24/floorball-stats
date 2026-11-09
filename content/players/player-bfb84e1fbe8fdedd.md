@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Jakub Talarovič
 Category: players
 Slug: player-bfb84e1fbe8fdedd

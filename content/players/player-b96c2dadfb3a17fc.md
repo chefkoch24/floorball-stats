@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Marco Eyer
 Category: players
 Slug: player-b96c2dadfb3a17fc
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 159
+rank: 161
 season: ch-26-27

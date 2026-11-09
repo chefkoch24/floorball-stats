@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Samuel Soska
 Category: players
 Slug: player-db41e77ca75457fa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 294
+rank: 295
 season: sk-26-27

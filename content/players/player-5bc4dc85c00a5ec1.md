@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-09
 Title: Maleeq Abudu
 Category: players
 Slug: player-5bc4dc85c00a5ec1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 142
+rank: 144
 season: fi-26-27
