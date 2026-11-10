@@ -310,6 +310,7 @@ def _crowd_analysis(games_by_category, settings) -> dict[str, list[dict]]:
                     url=article.url,
                 )
             )
+    competitions = {item["prefix"] for item in settings.get("COMPETITIONS", [])}
     divisions: dict[str, list[dict]] = {}
     for prefix, entry in per_league.items():
         analysis = cs.league_analysis(entry["games"], seasons)
@@ -321,7 +322,8 @@ def _crowd_analysis(games_by_category, settings) -> dict[str, list[dict]]:
                 "prefix": prefix,
                 "name": str(league.get("title", prefix)).split(" · ")[-1],
                 "country": league.get("name", ""),
-                "slug": f"{prefix}{analysis['season']}-regular-season",
+                # Competitions (Champions Cup) have one knockout phase and no regular-season page.
+                "slug": f"{prefix}{analysis['season']}-{'playoffs' if prefix in competitions else 'regular-season'}",
                 **analysis,
             }
         )
