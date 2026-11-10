@@ -51,6 +51,8 @@
 - [x] Technical reindexing preparation: canonical sitemaps, player alias redirects,
   lexicon links, competition titles, factual game HTML, product markup, build checks
   and a Google Search Console submission guide (`docs/GOOGLE_REINDEXING.md`).
+- [x] `llms.txt` at the site root (`plugins/llms_txt.py`): link map for AI assistants
+  and AI search, current-season leagues first, teams and older seasons as optional; pages only, no data export.
 - [ ] After merge/deployment: verify production redirects and submit both sitemaps
   in Search Console; inspect the priority URLs in `docs/google-reindex-urls.txt`.
 - [ ] Collect missing product reviews and improve priority product comparisons.
