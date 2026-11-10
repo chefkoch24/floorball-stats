@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Tobias Pauhof
 Category: players
 Slug: player-dd6fee1bef2da38f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 111
+rank: 120
 season: sk-26-27

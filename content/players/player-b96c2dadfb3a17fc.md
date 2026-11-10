@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marco Eyer
 Category: players
 Slug: player-b96c2dadfb3a17fc
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 2
 current_points: 3
 current_pim: 6
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 2
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 3
 previous_points: 3
 previous_pim: 0
-career_games: 23
-career_goals: 0
+career_games: 25
+career_goals: 1
 career_assists: 5
-career_points: 5
+career_points: 6
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|0|2|2|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|2|1|0|1|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|6|0|2|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|8|0|2|2|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|2|1|0|1|2||cc-26-27|tournament|IFF Champions Cup|HC Rychenberg Winterthur|1|1|0|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|6|0|2|2|0
 assists: 2
-games: 7
+games: 8
 goals: 0
 penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 150
+rank: 161
 season: ch-26-27

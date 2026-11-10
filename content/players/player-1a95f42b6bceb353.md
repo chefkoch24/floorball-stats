@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Patrik Gustavsson
 Category: players
 Slug: player-1a95f42b6bceb353

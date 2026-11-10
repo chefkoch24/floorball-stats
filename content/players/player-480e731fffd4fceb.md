@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Levin Conrad
 Category: players
 Slug: player-480e731fffd4fceb
@@ -11,12 +11,12 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 6
 current_assists: 4
 current_points: 10
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 12
 previous_points: 32
 previous_pim: 10
-career_games: 44
+career_games: 45
 career_goals: 23
 career_assists: 18
 career_points: 41
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|7|3|4|7|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|2|3|0|3|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|4||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|11|12|23|6||wfc-2024|tournament|IFF WFC|Switzerland|6|0|2|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|8|3|4|7|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|2|3|0|3|2||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|4||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|11|12|23|6||wfc-2024|tournament|IFF WFC|Switzerland|6|0|2|2|0
 assists: 4
-games: 7
+games: 8
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 42
+rank: 51
 season: ch-26-27

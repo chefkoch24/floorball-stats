@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Agnes Engberg
 Category: players
 Slug: player-8c319aabc08aa35d

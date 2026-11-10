@@ -1,0 +1,53 @@
+Date: 2026-11-10
+Title: Sára Adamcová
+Category: players
+Slug: player-50ff0a7e71cece8d
+type: player
+player: Sára Adamcová
+player_uid: player-50ff0a7e71cece8d
+team: ŠK Fbk Kométa Spišská Nová Ves
+league: Slovakia Women
+season_count: 1
+current_season: skw-26-27
+current_season_is_tournament: no
+previous_season: n.a.
+current_games: 1
+current_goals: 2
+current_assists: 0
+current_points: 2
+current_pim: 0
+regular_games: 1
+regular_goals: 2
+regular_assists: 0
+regular_points: 2
+regular_pim: 0
+playoff_games: 0
+playoff_goals: 0
+playoff_assists: 0
+playoff_points: 0
+playoff_pim: 0
+cup_games: 0
+cup_goals: 0
+cup_assists: 0
+cup_points: 0
+cup_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 1
+career_goals: 2
+career_assists: 0
+career_points: 2
+career_pim: 0
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|ŠK Fbk Kométa Spišská Nová Ves|1|2|0|2|0
+assists: 0
+games: 1
+goals: 2
+penalties: 0
+phase: regular-season
+pim: 0
+points: 2
+rank: 74
+season: skw-26-27

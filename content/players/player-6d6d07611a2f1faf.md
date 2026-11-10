@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Filip Alex Vrábel
 Category: players
 Slug: player-6d6d07611a2f1faf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 214
+rank: 219
 season: sk-26-27

@@ -325,6 +325,7 @@ home_pregame_points_against_floorball_chur_united: 3
 home_pregame_points_against_floorball_thurgau: 2
 home_pregame_points_against_grasshopper_club_zurich: 3
 home_pregame_points_against_kloten_dietlikon_jets: 2
+home_pregame_points_against_sv_wiler_ersigen: 2
 home_pregame_points_against_tigers_langnau: 0
 home_pregame_points_against_uhc_alligator_malans: 1
 home_pregame_points_against_wasa_st_gallen: 3
@@ -440,6 +441,7 @@ away_pregame_points_against_grasshopper_club_zurich: 0
 away_pregame_points_against_hc_rychenberg_winterthur: 0
 away_pregame_points_against_sv_wiler_ersigen: 0
 away_pregame_points_against_uhc_alligator_malans: 0
+away_pregame_points_against_uhc_uster: 0
 away_pregame_points_against_zug_united: 0
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0

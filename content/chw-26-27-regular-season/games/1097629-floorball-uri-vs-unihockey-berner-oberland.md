@@ -6,19 +6,19 @@ type: game
 game_id: 1097629
 home_team: Floorball Uri
 away_team: Unihockey Berner Oberland
-attendance: 0
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 130
+away_goal_diffs_csv: -1,-2,-3,-4
+away_goal_minutes_csv: 16.6,20.83,23.87,26.75
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMTY6MzYiLCJwZXJpb2QiOjEsInRlYW0iOiJVbmlob2NrZXkgQmVybmVyIE9iZXJsYW5kIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJMYXJhIFLDtmxsaW4iLCJ0aXRsZV91aWQiOiJwbGF5ZXItYTk3ZWUyMDY1MTI3YmM1MyIsImFzc2lzdCI6IkFubmFsZW5hIEpvc2kiLCJhc3Npc3RfdWlkIjoicGxheWVyLWVhNGMyNThkODk1ZWE1MzciLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMDo1MCIsInBlcmlvZCI6MiwidGVhbSI6IlVuaWhvY2tleSBCZXJuZXIgT2JlcmxhbmQiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkthcmluIEJpZXJpIiwidGl0bGVfdWlkIjoicGxheWVyLTU5N2Q4OTNhODQ4MmM3ZWQiLCJhc3Npc3QiOiJLYXJpbiBXZW5nZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLThmY2U1ODU0MmU2NTZlNzAiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIwMzo1MiIsInBlcmlvZCI6MiwidGVhbSI6IlVuaWhvY2tleSBCZXJuZXIgT2JlcmxhbmQiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik5vcmluYSBSZXVzc2VyIiwidGl0bGVfdWlkIjoicGxheWVyLTI0MWNlNzg4ZGQ4YjJkMjYiLCJhc3Npc3QiOiJKYXNtaWluYSBKw6RydmluZW4iLCJhc3Npc3RfdWlkIjoicGxheWVyLWM2YmE5MTI2N2M3Nzg2MjMiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIwNjo0NSIsInBlcmlvZCI6MiwidGVhbSI6IlVuaWhvY2tleSBCZXJuZXIgT2JlcmxhbmQiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFsaXlhIELDvGhsZXIiLCJ0aXRsZV91aWQiOiJwbGF5ZXItYzEzNWYwODJlNGEyZjViNCIsImFzc2lzdCI6Ikhhbm5haCBTb2x0ZXJtYW5uIiwiYXNzaXN0X3VpZCI6InBsYXllci00NWFkMTAzN2QzOWM0OGEzIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMTM6MjEiLCJwZXJpb2QiOjMsInRlYW0iOiJGbG9vcmJhbGwgVXJpIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6NCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJMZW9uaWUgQ2hyaXN0ZW4iLCJ0aXRsZV91aWQiOiJwbGF5ZXItNWM4ZTNiMDc2NTZjZGEyNiIsImFzc2lzdCI6IkVtbWEgSGVkbHVuZCIsImFzc2lzdF91aWQiOiJwbGF5ZXItNDJjMmMyMThkNjBjZWRkOSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE0OjIyIiwicGVyaW9kIjozLCJ0ZWFtIjoiRmxvb3JiYWxsIFVyaSIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTW9hIFN2YW5zdHLDtm0iLCJ0aXRsZV91aWQiOiJwbGF5ZXItNWRmOWE0NzhhMGI0MjQ5MyIsImFzc2lzdCI6Ikhhbm5hIFNpbW9uc3NvbiIsImFzc2lzdF91aWQiOiJwbGF5ZXItZTNlMGI4NDU1YWY4Yjg0OSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 8
+game_state: played
+game_status: None
+home_goal_diffs_csv: -3,-2
+home_goal_minutes_csv: 53.35,54.37
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 66.67
 pregame_h2h_special_away_pp_eff: 40.0
 pregame_h2h_special_home_pk_eff: 72.73
 pregame_h2h_special_home_pp_eff: 40.0
-result_string: None
+result_string: 2:4 (0:1, 0:3, 2:0)
 start_time: 18:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,3,4,4,4
+timeline_diffs_csv: 0,-1,-2,-3,-4,-3,-2
+timeline_home_goals_csv: 0,0,0,0,0,1,2
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,16.6,20.83,23.87,26.75,53.35,54.37
 venue: energieUri Arena Amsteg
 home_away_points: 0
 home_boxplay: 0
@@ -90,36 +90,36 @@ home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
+home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -2
+home_goals: 2
+home_goals_against: 4
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 2
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period_against: 1
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_second_period_against: 3
+home_goals_in_third_period: 2
 home_goals_in_third_period_against: 0
-home_home_points: 1
+home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
 home_penalties: 0
@@ -135,13 +135,14 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
+home_points: 0
 home_points_after_55_min: 0
 home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 0
+home_points_against_unihockey_berner_oberland: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 0
@@ -152,10 +153,10 @@ home_powerplay_second_period: 0
 home_powerplay_seconds: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 1
+away_away_points: 3
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -166,33 +167,33 @@ away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: 2
+away_goals: 4
+away_goals_against: 2
+away_goals_against_away: 2
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
+away_goals_in_first_period: 1
 away_goals_in_first_period_against: 0
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
+away_goals_in_second_period: 3
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 2
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
@@ -211,15 +212,16 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
+away_points_after_first_period: 3
+away_points_after_second_period: 3
+away_points_after_third_period: 3
+away_points_against_floorball_uri: 3
 away_points_max_difference_2: 0
-away_points_more_2_difference: 0
+away_points_more_2_difference: 3
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
 away_powerplay_first_period: 0
@@ -227,10 +229,10 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
+away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0
-away_wins: 0
+away_wins: 1
 home_pregame_away_points: 0
 home_pregame_boxplay: 17
 home_pregame_boxplay_efficiency: 76.47
@@ -434,7 +436,7 @@ away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 16
 away_pregame_points_against_fb_riders_dbr: 3
 away_pregame_points_against_floorball_chur_united: 3
-away_pregame_points_against_floorball_uri: 3
+away_pregame_points_against_floorball_uri: 6
 away_pregame_points_against_red_ants_winterthur: 2
 away_pregame_points_against_uhc_laupen_zh: 3
 away_pregame_points_against_uhv_skorpion_emmental: 0

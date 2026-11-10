@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marek Oriešek
 Category: players
 Slug: player-e6cf2823853e5b6a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 244
+rank: 247
 season: sk-26-27

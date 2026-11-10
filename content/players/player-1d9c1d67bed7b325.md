@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ramon Zeller
 Category: players
 Slug: player-1d9c1d67bed7b325
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 1
+regular_games: 2
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 2
-career_games: 18
+career_games: 19
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|1|0|0|0|0||ch-26-27|cup|Switzerland|WASA St. Gallen|1|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|17|0|1|1|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|2|0|0|0|0||ch-26-27|cup|Switzerland|WASA St. Gallen|1|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|17|0|1|1|2
 assists: 0
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 293
+rank: 302
 season: ch-26-27

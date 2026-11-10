@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Samuel Meyer
 Category: players
 Slug: player-94e8ddbc65bbdbaa
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 2
-career_games: 16
+career_games: 17
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|6|0|0|0|0||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|10|1|0|1|2
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|7|0|0|0|0||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|10|1|0|1|2
 assists: 0
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 280
+rank: 288
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Roberts Blumbergs
 Category: players
 Slug: player-ce9dcf4ea70a33e8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 11
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 9
+regular_games: 11
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 22
+career_games: 24
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|9|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|13|0|0|0|2
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|13|0|0|0|2
 assists: 0
-games: 9
+games: 11
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 230
 season: lv-26-27

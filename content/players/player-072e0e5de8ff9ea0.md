@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Albin Lindbladh
 Category: players
 Slug: player-072e0e5de8ff9ea0

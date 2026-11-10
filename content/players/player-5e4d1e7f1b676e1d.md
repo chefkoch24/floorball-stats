@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Lukas Franck
 Category: players
 Slug: player-5e4d1e7f1b676e1d
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 1
 current_assists: 1
 current_points: 2
-current_pim: 0
-regular_games: 8
+current_pim: 2
+regular_games: 9
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 0
 previous_points: 4
 previous_pim: 0
-career_games: 23
+career_games: 24
 career_goals: 5
 career_assists: 1
 career_points: 6
-career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|1|1|2|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|15|4|0|4|0
+career_pim: 2
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|9|1|1|2|2||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|15|4|0|4|0
 assists: 1
-games: 8
+games: 9
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 2
-rank: 135
+rank: 141
 season: 26-27

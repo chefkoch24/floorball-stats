@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Alissa Hartmeier
 Category: players
 Slug: player-52299b9b21b56cfc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 149
+rank: 158
 season: chw-26-27

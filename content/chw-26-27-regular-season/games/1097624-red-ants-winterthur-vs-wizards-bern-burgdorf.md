@@ -6,7 +6,7 @@ type: game
 game_id: 1097624
 home_team: Red Ants Winterthur
 away_team: Wizards Bern Burgdorf
-attendance: 0
+attendance: 262
 away_goal_diffs_csv: -1,-2,-2,0
 away_goal_minutes_csv: 6.35,17.88,26.55,37.22
 away_major_penalty_minutes_csv: 
@@ -325,6 +325,7 @@ home_pregame_points_against_fb_riders_dbr: 3
 home_pregame_points_against_floorball_chur_united: 0
 home_pregame_points_against_kloten_dietlikon_jets: 0
 home_pregame_points_against_uhc_laupen_zh: 3
+home_pregame_points_against_uhv_skorpion_emmental: 3
 home_pregame_points_against_unihockey_berner_oberland: 1
 home_pregame_points_against_wizards_bern_burgdorf: 3
 home_pregame_points_max_difference_2: 1
@@ -438,6 +439,7 @@ away_pregame_points_against_floorball_chur_united: 2
 away_pregame_points_against_floorball_uri: 3
 away_pregame_points_against_kloten_dietlikon_jets: 3
 away_pregame_points_against_red_ants_winterthur: 0
+away_pregame_points_against_uhc_laupen_zh: 3
 away_pregame_points_against_unihockey_berner_oberland: 3
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 12

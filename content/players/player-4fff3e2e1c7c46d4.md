@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Finja Helbling
 Category: players
 Slug: player-4fff3e2e1c7c46d4
@@ -11,15 +11,15 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 4
-current_assists: 8
-current_points: 12
+current_games: 9
+current_goals: 6
+current_assists: 10
+current_points: 16
 current_pim: 2
-regular_games: 6
-regular_goals: 3
-regular_assists: 5
-regular_points: 8
+regular_games: 7
+regular_goals: 5
+regular_assists: 7
+regular_points: 12
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 3
-career_assists: 5
-career_points: 8
+career_games: 7
+career_goals: 5
+career_assists: 7
+career_points: 12
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|6|3|5|8|2||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|2|1|3|4|0
-assists: 5
-games: 6
-goals: 3
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|7|5|7|12|2||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|2|1|3|4|0
+assists: 7
+games: 7
+goals: 5
 penalties: 1
 phase: regular-season
 pim: 2
-points: 8
-rank: 17
+points: 12
+rank: 9
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Veeti Nieminen
 Category: players
 Slug: player-e465bf9988ec71ab
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 7
 current_goals: 10
 current_assists: 1
 current_points: 11
 current_pim: 4
-regular_games: 5
+regular_games: 6
 regular_goals: 8
 regular_assists: 0
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 8
 career_assists: 0
 career_points: 8
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|5|8|0|8|2||26-27|cup|Germany|MFBC Leipzig|1|2|1|3|2
+history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|6|8|0|8|2||26-27|cup|Germany|MFBC Leipzig|1|2|1|3|2
 assists: 0
-games: 5
+games: 6
 goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 36
+rank: 40
 season: 26-27

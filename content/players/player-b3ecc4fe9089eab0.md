@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marek Zouzal
 Category: players
 Slug: player-b3ecc4fe9089eab0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 299
+rank: 302
 season: cz-26-27

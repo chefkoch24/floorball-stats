@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Samu Dillström
 Category: players
 Slug: player-46a0bc960ad8e549
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 209
+rank: 214
 season: fi-26-27

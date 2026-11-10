@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Michal Záň
 Category: players
 Slug: player-fdb1a7a9d1955390
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 271
+rank: 274
 season: sk-26-27

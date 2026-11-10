@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Anton Willsund
 Category: players
 Slug: player-ababc9999b4eafaa

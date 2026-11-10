@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Púčeková Ema
 Category: players
 Slug: player-6f19faa00ed5112a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 84
+rank: 87
 season: skw-26-27

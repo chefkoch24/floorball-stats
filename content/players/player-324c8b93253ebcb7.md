@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Elena Böttrich
 Category: players
 Slug: player-324c8b93253ebcb7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 78
+rank: 89
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ondruška Matúš
 Category: players
 Slug: player-90b1c0cb4edca8eb
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 5
-current_assists: 1
-current_points: 6
+current_assists: 2
+current_points: 7
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 5
-regular_assists: 1
-regular_points: 6
+regular_assists: 2
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 11
 previous_points: 21
 previous_pim: 4
-career_games: 34
+career_games: 35
 career_goals: 15
-career_assists: 12
-career_points: 27
+career_assists: 13
+career_points: 28
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|8|5|1|6|0||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|4|1|5|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|21|6|10|16|4
-assists: 1
-games: 8
+history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|9|5|2|7|0||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|4|1|5|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|21|6|10|16|4
+assists: 2
+games: 9
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 66
+points: 7
+rank: 61
 season: sk-26-27

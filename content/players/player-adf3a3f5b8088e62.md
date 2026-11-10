@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Peter Žofaj
 Category: players
 Slug: player-adf3a3f5b8088e62
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 280
+rank: 283
 season: sk-26-27

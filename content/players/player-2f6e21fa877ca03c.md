@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Maja Viström
+Date: 2026-11-10
+Title: Maja Vistrom
 Category: players
 Slug: player-2f6e21fa877ca03c
 type: player
-player: Maja Viström
+player: Maja Vistrom
 player_uid: player-2f6e21fa877ca03c
 team: Thorengruppen IBK
 league: Sweden Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 8
-career_assists: 7
-career_points: 15
-career_pim: 2
-history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|8|7|15|2||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|1|4|5|0
+career_games: 9
+career_goals: 9
+career_assists: 8
+career_points: 17
+career_pim: 4
+history_rows_csv: sew-26-27|regular-season|Sweden Women|Thorengruppen IBK|7|8|7|15|2||sew-26-27|cup|Sweden Women|Thorengruppen IBK|2|1|4|5|0||ccw-26-27|tournament|IFF Champions Cup Women|Thorengruppen IBK|2|1|1|2|2
 assists: 7
 games: 7
 goals: 8

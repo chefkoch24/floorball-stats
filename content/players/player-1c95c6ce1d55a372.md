@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Matias Mäenpää
 Category: players
 Slug: player-1c95c6ce1d55a372
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 5
-current_goals: 6
+current_games: 6
+current_goals: 7
 current_assists: 2
-current_points: 8
+current_points: 9
 current_pim: 0
-regular_games: 4
-regular_goals: 4
+regular_games: 5
+regular_goals: 5
 regular_assists: 2
-regular_points: 6
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 4
 previous_points: 13
 previous_pim: 0
-career_games: 16
-career_goals: 13
+career_games: 17
+career_goals: 14
 career_assists: 6
-career_points: 19
+career_points: 20
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|4|4|2|6|0||fi-26-27|cup|Finland|Nokian KrP|1|2|0|2|0||fi-25-26|regular-season|Finland|Jymy|12|9|4|13|0
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|5|5|2|7|0||fi-26-27|cup|Finland|Nokian KrP|1|2|0|2|0||fi-25-26|regular-season|Finland|Jymy|12|9|4|13|0
 assists: 2
-games: 4
-goals: 4
+games: 5
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 75
+points: 7
+rank: 66
 season: fi-26-27

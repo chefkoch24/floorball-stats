@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Micha Strohl
 Category: players
 Slug: player-d3dc29e69cec4fe8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 271
+rank: 279
 season: ch-26-27

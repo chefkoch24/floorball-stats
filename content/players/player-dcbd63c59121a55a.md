@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Enea Raselli
 Category: players
 Slug: player-dcbd63c59121a55a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 3
+regular_games: 4
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|3|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|3|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|4|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|3|0|0|0|0
 assists: 0
-games: 3
+games: 4
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 214
+rank: 222
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Lukas Stempfle
 Category: players
 Slug: player-adbc399c18cef8a3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 245
+rank: 252
 season: 26-27

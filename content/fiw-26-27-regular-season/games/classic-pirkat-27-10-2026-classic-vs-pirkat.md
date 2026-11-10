@@ -320,6 +320,8 @@ home_pregame_points_after_first_period: 18
 home_pregame_points_after_first_period_per_game: 3.0
 home_pregame_points_after_second_period: 14
 home_pregame_points_after_third_period: 16
+home_pregame_points_against_fbc_loisto: 3
+home_pregame_points_against_koovee: 3
 home_pregame_points_against_northern_stars: 3
 home_pregame_points_against_pirkat: 3
 home_pregame_points_against_pss: 3
@@ -435,6 +437,7 @@ away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 7
 away_pregame_points_against_classic: 0
+away_pregame_points_against_eraviikingit: 0
 away_pregame_points_against_fbc_loisto: 0
 away_pregame_points_against_koovee: 3
 away_pregame_points_against_northern_stars: 3

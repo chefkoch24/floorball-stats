@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Johannes Probst
 Category: players
 Slug: player-e78dda11616c03b8
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 13
-rank: 19
+rank: 24
 season: 26-27

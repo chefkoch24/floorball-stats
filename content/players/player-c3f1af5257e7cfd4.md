@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ben Bötschi
 Category: players
 Slug: player-c3f1af5257e7cfd4
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
-current_goals: 1
+current_games: 9
+current_goals: 2
 current_assists: 1
-current_points: 2
+current_points: 3
 current_pim: 0
-regular_games: 7
-regular_goals: 1
+regular_games: 8
+regular_goals: 2
 regular_assists: 1
-regular_points: 2
+regular_points: 3
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 5
 previous_points: 11
 previous_pim: 4
-career_games: 34
-career_goals: 7
+career_games: 35
+career_goals: 8
 career_assists: 6
-career_points: 13
+career_points: 14
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|7|1|1|2|0||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|3|6|4||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|3|2|5|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|2|1|3|0||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|3|6|4||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|3|2|5|0
 assists: 1
-games: 7
-goals: 1
+games: 8
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 2
-rank: 137
+points: 3
+rank: 105
 season: ch-26-27

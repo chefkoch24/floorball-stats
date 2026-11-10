@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Tomáš Brída
 Category: players
 Slug: player-e7b70a447ceff952
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 161
+rank: 169
 season: sk-26-27

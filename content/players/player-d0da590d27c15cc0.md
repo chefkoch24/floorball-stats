@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Matěj Čelakovský
 Category: players
 Slug: player-d0da590d27c15cc0
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 9
 current_goals: 4
 current_assists: 1
 current_points: 5
 current_pim: 2
-regular_games: 7
+regular_games: 9
 regular_goals: 4
 regular_assists: 1
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 4
 previous_points: 8
 previous_pim: 0
-career_games: 26
+career_games: 28
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|7|4|1|5|2||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|5|0|1|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|14|4|3|7|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|9|4|1|5|2||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|5|0|1|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|14|4|3|7|0
 assists: 1
-games: 7
+games: 9
 goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 101
+rank: 110
 season: cz-26-27

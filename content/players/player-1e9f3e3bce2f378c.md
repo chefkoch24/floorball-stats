@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Milja Tuomisalo
 Category: players
 Slug: player-1e9f3e3bce2f378c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 97
+rank: 105
 season: fiw-26-27

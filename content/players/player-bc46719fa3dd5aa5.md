@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Joël Nadler
 Category: players
 Slug: player-bc46719fa3dd5aa5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 235
+rank: 244
 season: ch-26-27

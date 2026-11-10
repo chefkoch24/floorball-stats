@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Jenna Jolkkonen
 Category: players
 Slug: player-db95e36c4a3396cb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 108
+rank: 118
 season: fiw-26-27

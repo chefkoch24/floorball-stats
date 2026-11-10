@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Tomáš Pavlík
 Category: players
 Slug: player-81ea3def6b0f859a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 305
+rank: 308
 season: sk-26-27

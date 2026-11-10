@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Dominika Kubaliaková
 Category: players
 Slug: player-85ee8a86d04ede84
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 115
+rank: 118
 season: skw-26-27

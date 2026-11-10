@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Nubya Schir
 Category: players
 Slug: player-edb261d9bf264abc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 226
 season: chw-26-27

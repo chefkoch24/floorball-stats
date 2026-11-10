@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Samuel Hurajt
 Category: players
 Slug: player-31bd0b7c57b65e49
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 46
+rank: 53
 season: sk-26-27

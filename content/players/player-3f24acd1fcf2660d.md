@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Barbora Jašková
+Date: 2026-11-10
+Title: Barbora Jaskova
 Category: players
 Slug: player-3f24acd1fcf2660d
 type: player
-player: Barbora Jašková
+player: Barbora Jaskova
 player_uid: player-3f24acd1fcf2660d
 team: GC System Bulldogs Brno
 league: Czech Republic Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 8
+career_games: 9
+career_goals: 9
 career_assists: 4
-career_points: 12
+career_points: 13
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|8|8|4|12|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|8|8|4|12|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|1|0|1|0
 assists: 4
 games: 8
 goals: 8

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Daniels Janis Anis
 Category: players
 Slug: player-00e93da6ee97d2d3
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
-current_goals: 16
+current_games: 10
+current_goals: 18
 current_assists: 1
-current_points: 17
+current_points: 19
 current_pim: 10
-regular_games: 7
-regular_goals: 11
+regular_games: 8
+regular_goals: 13
 regular_assists: 1
-regular_points: 12
+regular_points: 14
 regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 28
 previous_assists: 9
 previous_points: 37
 previous_pim: 12
-career_games: 31
-career_goals: 39
+career_games: 32
+career_goals: 41
 career_assists: 10
-career_points: 49
+career_points: 51
 career_pim: 22
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|7|11|1|12|10||ch-26-27|cup|Switzerland|UHC Uster|2|5|0|5|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|5|2|7|0||ch-25-26|regular-season|Switzerland|UHC Uster|20|23|7|30|12
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|8|13|1|14|10||ch-26-27|cup|Switzerland|UHC Uster|2|5|0|5|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|5|2|7|0||ch-25-26|regular-season|Switzerland|UHC Uster|20|23|7|30|12
 assists: 1
-games: 7
-goals: 11
+games: 8
+goals: 13
 penalties: 5
 phase: regular-season
 pim: 10
-points: 12
-rank: 9
+points: 14
+rank: 8
 season: ch-26-27

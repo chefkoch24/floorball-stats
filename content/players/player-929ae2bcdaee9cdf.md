@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marek Koščo
 Category: players
 Slug: player-929ae2bcdaee9cdf
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 92
+rank: 99
 season: sk-26-27

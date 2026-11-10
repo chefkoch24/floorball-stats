@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Lara Erdmann
 Category: players
 Slug: player-6abe1ee1df26a9b2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 53
+rank: 59
 season: dew-26-27

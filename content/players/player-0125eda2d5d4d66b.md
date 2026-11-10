@@ -1,21 +1,21 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Matěj Kučera
 Category: players
 Slug: player-0125eda2d5d4d66b
 type: player
 player: Matěj Kučera
 player_uid: player-0125eda2d5d4d66b
-team: Kanonýři Kladno
+team: FBC SION - HRADEČTÍ LVI / Kanonýři Kladno / Kanonýři Kladno
 league: Czech Republic
 season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 3
+current_games: 6
 current_goals: 0
-current_assists: 0
-current_points: 0
-current_pim: 0
+current_assists: 1
+current_points: 1
+current_pim: 2
 regular_games: 3
 regular_goals: 0
 regular_assists: 0
@@ -26,11 +26,11 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 3
 cup_goals: 0
-cup_assists: 0
-cup_points: 0
-cup_pim: 0
+cup_assists: 1
+cup_points: 1
+cup_pim: 2
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|3|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|3|0|0|0|0||cz-26-27|cup|Czech Republic|FBC SION - HRADEČTÍ LVI / Kanonýři Kladno|3|0|1|1|2
 assists: 0
 games: 3
 goals: 0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 313
+rank: 316
 season: cz-26-27

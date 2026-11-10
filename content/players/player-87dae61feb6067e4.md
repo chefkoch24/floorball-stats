@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Jana Arnold
 Category: players
 Slug: player-87dae61feb6067e4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 173
+rank: 178
 season: chw-26-27

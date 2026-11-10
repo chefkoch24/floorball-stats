@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Florian Niederberger
 Category: players
 Slug: player-a6ae45b1d9d44ebf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 7
 current_points: 10
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 1
 regular_assists: 3
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 4
 previous_points: 5
 previous_pim: 2
-career_games: 34
+career_games: 35
 career_goals: 2
 career_assists: 7
 career_points: 9
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|7|1|3|4|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|2|4|6|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|1|2|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|0|3|3|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|8|1|3|4|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|2|4|6|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|1|2|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|0|3|3|0
 assists: 3
-games: 7
+games: 8
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 86
+rank: 99
 season: ch-26-27

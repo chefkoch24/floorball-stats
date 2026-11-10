@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Martin Kupec
 Category: players
 Slug: player-ba727f70cf1e9fe2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 96
+rank: 107
 season: sk-26-27

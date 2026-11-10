@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Selina Hodel
 Category: players
 Slug: player-6497dfd9a40f3b0d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 229
+rank: 233
 season: chw-26-27

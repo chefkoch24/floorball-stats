@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Luca Steiner
 Category: players
 Slug: player-e4f8db25bc0c3d37
@@ -11,16 +11,16 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 1
 current_points: 2
-current_pim: 0
-regular_games: 7
+current_pim: 2
+regular_games: 8
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 5
 previous_points: 10
 previous_pim: 6
-career_games: 33
+career_games: 34
 career_goals: 6
 career_assists: 6
 career_points: 12
-career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|1|1|2|0||ch-26-27|cup|Switzerland|Gladiators Münsingen / Tigers Langnau|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|5|5|10|2
+career_pim: 8
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|8|1|1|2|2||ch-26-27|cup|Switzerland|Gladiators Münsingen / Tigers Langnau|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|4||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|5|5|10|2
 assists: 1
-games: 7
+games: 8
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 2
-rank: 141
+rank: 150
 season: ch-26-27

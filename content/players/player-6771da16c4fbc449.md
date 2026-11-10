@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Markuss Januševskis
 Category: players
 Slug: player-6771da16c4fbc449
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 9
+current_games: 10
+current_goals: 10
 current_assists: 11
-current_points: 20
+current_points: 21
 current_pim: 8
-regular_games: 8
-regular_goals: 7
+regular_games: 9
+regular_goals: 8
 regular_assists: 8
-regular_points: 15
+regular_points: 16
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 33
 previous_assists: 34
 previous_points: 67
 previous_pim: 10
-career_games: 40
-career_goals: 40
+career_games: 41
+career_goals: 41
 career_assists: 42
-career_points: 82
+career_points: 83
 career_pim: 16
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|8|7|8|15|6||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|2|3|5|2||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|11|12|23|8||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|22|22|44|2
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|9|8|8|16|6||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|2|3|5|2||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|11|12|23|8||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|22|22|44|2
 assists: 8
-games: 8
-goals: 7
+games: 9
+goals: 8
 penalties: 3
 phase: regular-season
 pim: 6
-points: 15
+points: 16
 rank: 13
 season: 26-27

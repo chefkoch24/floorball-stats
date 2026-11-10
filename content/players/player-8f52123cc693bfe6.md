@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Mathis Benndorf
 Category: players
 Slug: player-8f52123cc693bfe6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 254
+rank: 261
 season: 26-27

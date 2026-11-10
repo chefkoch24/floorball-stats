@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Tim Böttcher
 Category: players
 Slug: player-c691eb6601e8cdf4
@@ -11,12 +11,12 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 5
 current_assists: 4
 current_points: 9
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 4
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 12
 previous_points: 18
 previous_pim: 2
-career_games: 46
+career_games: 47
 career_goals: 10
 career_assists: 16
 career_points: 26
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|8|4|4|8|0||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|1|0|1|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|4|3|7|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|19|2|9|11|2||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|9|4|4|8|0||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|1|0|1|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|4|3|7|0||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|19|2|9|11|2||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|0
 assists: 4
-games: 8
+games: 9
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 41
+rank: 45
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Birger Dethlefsen
 Category: players
 Slug: player-febd74b391e09c0e
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 2
-current_assists: 2
-current_points: 4
-current_pim: 0
-regular_games: 8
+current_assists: 3
+current_points: 5
+current_pim: 2
+regular_games: 9
 regular_goals: 1
-regular_assists: 2
-regular_points: 3
-regular_pim: 0
+regular_assists: 3
+regular_points: 4
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 12
 previous_points: 32
 previous_pim: 10
-career_games: 36
+career_games: 37
 career_goals: 21
-career_assists: 14
-career_points: 35
-career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|8|1|2|3|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|6|2|8|2||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|14|10|24|8
-assists: 2
-games: 8
+career_assists: 15
+career_points: 36
+career_pim: 12
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|9|1|3|4|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|6|2|8|2||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|14|10|24|8
+assists: 3
+games: 9
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
-points: 3
-rank: 107
+pim: 2
+points: 4
+rank: 98
 season: 26-27

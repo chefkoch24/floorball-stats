@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Endijs Ezeriņš
 Category: players
 Slug: player-f5d6cea883965b63
@@ -11,15 +11,15 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 0
-current_assists: 4
-current_points: 4
+current_assists: 5
+current_points: 5
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 0
-regular_assists: 4
-regular_points: 4
+regular_assists: 5
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 0
-career_assists: 4
-career_points: 4
+career_assists: 5
+career_points: 5
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|9|0|4|4|2
-assists: 4
-games: 9
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|10|0|5|5|2
+assists: 5
+games: 10
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
-points: 4
-rank: 78
+points: 5
+rank: 74
 season: lv-26-27

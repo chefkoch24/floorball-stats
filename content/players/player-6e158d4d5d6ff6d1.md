@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Markus Schäfer
 Category: players
 Slug: player-6e158d4d5d6ff6d1

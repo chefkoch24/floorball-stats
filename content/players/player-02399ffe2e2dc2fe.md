@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Matúš Kakačka
 Category: players
 Slug: player-02399ffe2e2dc2fe
@@ -11,15 +11,15 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 4
-current_assists: 1
-current_points: 5
+current_assists: 3
+current_points: 7
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 4
-regular_assists: 1
-regular_points: 5
+regular_assists: 3
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 4
-career_assists: 1
-career_points: 5
+career_assists: 3
+career_points: 7
 career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|8|4|1|5|0
-assists: 1
-games: 8
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|9|4|3|7|0
+assists: 3
+games: 9
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 78
+points: 7
+rank: 65
 season: sk-26-27

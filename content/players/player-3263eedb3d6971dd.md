@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Hampus Morelius
 Category: players
 Slug: player-3263eedb3d6971dd
@@ -36,12 +36,12 @@ previous_goals: 20
 previous_assists: 13
 previous_points: 33
 previous_pim: 10
-career_games: 39
-career_goals: 23
+career_games: 40
+career_goals: 24
 career_assists: 17
-career_points: 40
-career_pim: 12
-history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|3|4|7|2||se-26-27|cup|Sweden|IBF Falun|2|1|2|3|2||se-25-26|playoffs|Sweden|Mullsjö AIS|6|1|2|3|0||se-25-26|regular-season|Sweden|Mullsjö AIS|26|19|11|30|10
+career_points: 41
+career_pim: 14
+history_rows_csv: se-26-27|regular-season|Sweden|IBF Falun|7|3|4|7|2||se-26-27|cup|Sweden|IBF Falun|2|1|2|3|2||cc-26-27|tournament|IFF Champions Cup|IBF Falun|1|1|0|1|2||se-25-26|playoffs|Sweden|Mullsjö AIS|6|1|2|3|0||se-25-26|regular-season|Sweden|Mullsjö AIS|26|19|11|30|10
 assists: 4
 games: 7
 goals: 3

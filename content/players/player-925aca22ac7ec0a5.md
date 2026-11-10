@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Konrad Paul
 Category: players
 Slug: player-925aca22ac7ec0a5
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 3
 regular_assists: 1
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 15
 previous_assists: 10
 previous_points: 25
 previous_pim: 6
-career_games: 29
+career_games: 30
 career_goals: 18
 career_assists: 11
 career_points: 29
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|6|3|1|4|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|3|1|4|0||25-26|regular-season|Germany|DJK Holzbüttgen|20|12|9|21|6
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|3|1|4|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|3|1|4|0||25-26|regular-season|Germany|DJK Holzbüttgen|20|12|9|21|6
 assists: 1
-games: 6
+games: 7
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 85
+rank: 90
 season: 26-27

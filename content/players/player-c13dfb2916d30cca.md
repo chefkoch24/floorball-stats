@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Jakub Baksay
 Category: players
 Slug: player-c13dfb2916d30cca
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 12
-current_assists: 9
-current_points: 21
+current_assists: 10
+current_points: 22
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 12
-regular_assists: 9
-regular_points: 21
+regular_assists: 10
+regular_points: 22
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 14
 previous_points: 34
 previous_pim: 2
-career_games: 23
+career_games: 24
 career_goals: 32
-career_assists: 23
-career_points: 55
+career_assists: 24
+career_points: 56
 career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|8|12|9|21|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|15|20|14|34|2
-assists: 9
-games: 8
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|12|10|22|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|15|20|14|34|2
+assists: 10
+games: 9
 goals: 12
 penalties: 0
 phase: regular-season
 pim: 0
-points: 21
+points: 22
 rank: 2
 season: sk-26-27

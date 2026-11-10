@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Mila Strüngmann
 Category: players
 Slug: player-7f866338aabcee69
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 60
+rank: 70
 season: dew-26-27

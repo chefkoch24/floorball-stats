@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Stanislav Belko
 Category: players
 Slug: player-812bc6cc2cd15b74
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 2
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 7
 previous_points: 13
 previous_pim: 2
-career_games: 16
+career_games: 17
 career_goals: 6
 career_assists: 7
 career_points: 13
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|2|0|0|0|2||sk-25-26|playoffs|Slovakia|FBK Nižná|3|0|0|0|0||sk-25-26|regular-season|Slovakia|FBK Nižná|11|6|7|13|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBK Nižná|3|0|0|0|2||sk-25-26|playoffs|Slovakia|FBK Nižná|3|0|0|0|0||sk-25-26|regular-season|Slovakia|FBK Nižná|11|6|7|13|2
 assists: 0
-games: 2
+games: 3
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 294
+rank: 297
 season: sk-26-27

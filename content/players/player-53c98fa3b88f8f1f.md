@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Lauris Šterns
 Category: players
 Slug: player-53c98fa3b88f8f1f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 182
+rank: 188
 season: lv-26-27

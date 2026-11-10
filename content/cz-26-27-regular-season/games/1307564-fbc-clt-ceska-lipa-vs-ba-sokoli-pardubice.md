@@ -332,6 +332,7 @@ home_pregame_points_against_fbs_hummel_hattrick_brno: 3
 home_pregame_points_against_florbal_usti: 3
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 home_pregame_points_against_kanonyri_kladno: 3
+home_pregame_points_against_tatran_stresovice: 0
 home_pregame_points_max_difference_2: 7
 home_pregame_points_more_2_difference: 0
 home_pregame_points_per_game: 0.88
@@ -438,6 +439,7 @@ away_pregame_points_after_first_period: 6
 away_pregame_points_after_first_period_per_game: 0.86
 away_pregame_points_after_second_period: 12
 away_pregame_points_after_third_period: 12
+away_pregame_points_against_1_sc_tempish_vitkovice: 2
 away_pregame_points_against_acema_sparta_praha: 0
 away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_bulldogs_brno: 0

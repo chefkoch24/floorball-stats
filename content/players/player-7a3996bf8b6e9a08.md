@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Natalie Sandström
+Date: 2026-11-10
+Title: Natalie Sandstrom
 Category: players
 Slug: player-7a3996bf8b6e9a08
 type: player
-player: Natalie Sandström
+player: Natalie Sandstrom
 player_uid: player-7a3996bf8b6e9a08
 team: EräViikingit
 league: Finland Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
-career_assists: 11
-career_points: 14
-career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|3|11|14|0||fiw-26-27|cup|Finland Women|EräViikingit|1|1|0|1|0
+career_games: 9
+career_goals: 4
+career_assists: 12
+career_points: 16
+career_pim: 2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|EräViikingit|7|3|11|14|0||fiw-26-27|cup|Finland Women|EräViikingit|1|1|0|1|0||ccw-26-27|tournament|IFF Champions Cup Women|EräViikingit|2|1|1|2|2
 assists: 11
 games: 7
 goals: 3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 13
+rank: 16
 season: fiw-26-27

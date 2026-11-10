@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Mattias Lövenfors
 Category: players
 Slug: player-e8bdd5e11bcfb262

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Janis Lauber
 Category: players
 Slug: player-22d3cde5e55e22f0
@@ -11,15 +11,15 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
+current_games: 9
 current_goals: 6
-current_assists: 8
-current_points: 14
+current_assists: 9
+current_points: 15
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 5
-regular_assists: 7
-regular_points: 12
+regular_assists: 8
+regular_points: 13
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 21
 previous_points: 38
 previous_pim: 6
-career_games: 38
+career_games: 39
 career_goals: 23
-career_assists: 29
-career_points: 52
+career_assists: 30
+career_points: 53
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|6|5|7|12|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|1|2|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|3|2|5|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|14|19|33|4||wfc-2024|tournament|IFF WFC|Switzerland|6|1|1|2|0
-assists: 7
-games: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|7|5|8|13|2||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|1|2|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|3|2|5|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|14|19|33|4||wfc-2024|tournament|IFF WFC|Switzerland|6|1|1|2|0
+assists: 8
+games: 7
 goals: 5
 penalties: 1
 phase: regular-season
 pim: 2
-points: 12
+points: 13
 rank: 12
 season: ch-26-27

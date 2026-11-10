@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Martin Bohumský
 Category: players
 Slug: player-aa3a25d78e91b809
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 0
 current_points: 0
-current_pim: 2
-regular_games: 8
+current_pim: 4
+regular_games: 9
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 12
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|8|0|0|0|2||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|2|0|0|0|0
+career_pim: 4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|9|0|0|0|4||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|2|0|0|0|0
 assists: 0
-games: 8
+games: 9
 goals: 0
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 0
-rank: 302
+rank: 305
 season: cz-26-27

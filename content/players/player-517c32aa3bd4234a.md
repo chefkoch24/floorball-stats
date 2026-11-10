@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Sarah Kritzler
 Category: players
 Slug: player-517c32aa3bd4234a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 159
+rank: 167
 season: dew-26-27

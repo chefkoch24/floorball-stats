@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Olekšák Marco
 Category: players
 Slug: player-e937eb77e2c887e7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 157
+rank: 165
 season: sk-26-27

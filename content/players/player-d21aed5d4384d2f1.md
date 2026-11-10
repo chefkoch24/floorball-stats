@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Venla Nousiainen
 Category: players
 Slug: player-d21aed5d4384d2f1
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 6
-current_assists: 1
-current_points: 7
+current_assists: 4
+current_points: 10
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 5
-regular_assists: 1
-regular_points: 6
+regular_assists: 4
+regular_points: 9
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 5
-career_assists: 1
-career_points: 6
+career_assists: 4
+career_points: 9
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|5|1|6|0||fiw-26-27|cup|Finland Women|TPS|1|1|0|1|0
-assists: 1
-games: 6
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|7|5|4|9|0||fiw-26-27|cup|Finland Women|TPS|1|1|0|1|0
+assists: 4
+games: 7
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 51
+points: 9
+rank: 36
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marek Kalivoda
 Category: players
 Slug: player-d07546fe69cb48a9
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
+current_games: 8
 current_goals: 4
-current_assists: 2
-current_points: 6
+current_assists: 3
+current_points: 7
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 4
-regular_assists: 2
-regular_points: 6
+regular_assists: 3
+regular_points: 7
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 7
 previous_points: 14
 previous_pim: 10
-career_games: 38
+career_games: 39
 career_goals: 11
-career_assists: 9
-career_points: 20
+career_assists: 10
+career_points: 21
 career_pim: 14
-history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|7|4|2|6|4||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|1|1|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|6|13|6
-assists: 2
-games: 7
+history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|8|4|3|7|4||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|0|1|1|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|20|7|6|13|6
+assists: 3
+games: 8
 goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 6
-rank: 68
+points: 7
+rank: 63
 season: sk-26-27

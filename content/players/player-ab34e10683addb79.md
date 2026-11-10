@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Marie-Laure Chapon
 Category: players
 Slug: player-ab34e10683addb79
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 149
+rank: 159
 season: dew-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Šustek Oliver
 Category: players
 Slug: player-d0f42270abc096aa
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 143
+rank: 151
 season: sk-26-27

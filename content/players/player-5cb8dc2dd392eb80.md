@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Loris Hofmann
 Category: players
 Slug: player-5cb8dc2dd392eb80
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 248
+rank: 256
 season: ch-26-27

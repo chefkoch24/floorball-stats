@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Effi Johanna Bauer
 Category: players
 Slug: player-26f07b7daebe3b72
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 39
+rank: 47
 season: dew-26-27

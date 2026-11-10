@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Albert Kouba
 Category: players
 Slug: player-868d4ae5a38a19b1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 248
+rank: 255
 season: cz-26-27

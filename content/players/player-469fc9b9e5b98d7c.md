@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Michal Šajbidor
 Category: players
 Slug: player-469fc9b9e5b98d7c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 272
+rank: 275
 season: sk-26-27

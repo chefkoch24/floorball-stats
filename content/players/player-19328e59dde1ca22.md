@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Dominik Kútik
 Category: players
 Slug: player-19328e59dde1ca22
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 210
+rank: 215
 season: sk-26-27

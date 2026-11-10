@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Vojtěch Gut
 Category: players
 Slug: player-7702fb38ef7bf139
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 363
+rank: 368
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Pollák Lukáš
 Category: players
 Slug: player-7f8dfc46522f1b13
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 1
 current_assists: 5
 current_points: 6
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 5
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 10
 previous_points: 16
 previous_pim: 0
-career_games: 26
+career_games: 27
 career_goals: 7
 career_assists: 15
 career_points: 22
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|8|1|5|6|4||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|18|6|10|16|0
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|1|5|6|4||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|18|6|10|16|0
 assists: 5
-games: 8
+games: 9
 goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 75
+rank: 84
 season: sk-26-27

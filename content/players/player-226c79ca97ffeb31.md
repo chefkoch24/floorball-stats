@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Richard Lelák
 Category: players
 Slug: player-226c79ca97ffeb31
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 6
-current_goals: 2
+current_games: 7
+current_goals: 3
 current_assists: 1
-current_points: 3
+current_points: 4
 current_pim: 0
-regular_games: 6
-regular_goals: 2
+regular_games: 7
+regular_goals: 3
 regular_assists: 1
-regular_points: 3
+regular_points: 4
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 8
 previous_points: 14
 previous_pim: 12
-career_games: 31
-career_goals: 8
+career_games: 32
+career_goals: 9
 career_assists: 9
-career_points: 17
+career_points: 18
 career_pim: 12
-history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|6|2|1|3|0||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|2|5|7|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|3|7|8
+history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|7|3|1|4|0||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|11|2|5|7|4||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|14|4|3|7|8
 assists: 1
-games: 6
-goals: 2
+games: 7
+goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 110
+points: 4
+rank: 101
 season: sk-26-27

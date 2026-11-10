@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Arttu Äijälä
 Category: players
 Slug: player-7168c3158dbe5cf2
@@ -11,16 +11,16 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 7
 current_points: 10
-current_pim: 2
-regular_games: 7
+current_pim: 4
+regular_games: 8
 regular_goals: 3
 regular_assists: 6
 regular_points: 9
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 3
 career_assists: 6
 career_points: 9
-career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|3|6|9|2||26-27|cup|Germany|Berlin Rockets|1|0|1|1|0
+career_pim: 4
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|8|3|6|9|4||26-27|cup|Germany|Berlin Rockets|1|0|1|1|0
 assists: 6
-games: 7
+games: 8
 goals: 3
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 9
-rank: 34
+rank: 39
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Annika Sormunen
 Category: players
 Slug: player-9e94eaccbf10aa13
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 184
+rank: 192
 season: fiw-26-27

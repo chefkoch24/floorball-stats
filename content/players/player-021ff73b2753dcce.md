@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Arthur Lorenz
 Category: players
 Slug: player-021ff73b2753dcce
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 193
+rank: 200
 season: 26-27

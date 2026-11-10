@@ -1,9 +1,9 @@
-Date: 2026-11-04
-Title: Pavlína Bačová
+Date: 2026-11-10
+Title: Pavlina Bacova
 Category: players
 Slug: player-fc75b1fd0a0a2b67
 type: player
-player: Pavlína Bačová
+player: Pavlina Bacova
 player_uid: player-fc75b1fd0a0a2b67
 team: GC System Bulldogs Brno
 league: Czech Republic Women
@@ -36,12 +36,12 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 7
+career_games: 6
+career_goals: 10
 career_assists: 3
-career_points: 10
+career_points: 13
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|4|7|3|10|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|4|7|3|10|2||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|2|3|0|3|0
 assists: 3
 games: 4
 goals: 7

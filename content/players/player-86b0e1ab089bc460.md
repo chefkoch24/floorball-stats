@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Nela Fojtíková
 Category: players
 Slug: player-86b0e1ab089bc460
@@ -11,10 +11,10 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 1
-current_assists: 1
-current_points: 2
+current_games: 14
+current_goals: 3
+current_assists: 2
+current_points: 5
 current_pim: 4
 regular_games: 9
 regular_goals: 1
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
-cup_assists: 0
-cup_points: 0
+cup_games: 5
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 4
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|9|1|1|2|4
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GMS Florbal Chomutov|9|1|1|2|4||czw-26-27|cup|Czech Republic Women|GMS Florbal Chomutov|5|2|1|3|0
 assists: 1
 games: 9
 goals: 1

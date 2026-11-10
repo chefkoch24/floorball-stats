@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Niklas Kunath
 Category: players
 Slug: player-7cc15de1644d14be
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 189
+rank: 196
 season: 26-27

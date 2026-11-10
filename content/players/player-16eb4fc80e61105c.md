@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Elias Miladinov
 Category: players
 Slug: player-16eb4fc80e61105c
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|FBC München|6|0|1|1|0||26-27|cup|Germany|FBC München|1|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|FBC München|7|0|1|1|0||26-27|cup|Germany|FBC München|1|0|0|0|0
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 169
+rank: 177
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Mikael Kiukkonen
 Category: players
 Slug: player-7111eba0480c03ab
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 9
+current_games: 10
+current_goals: 11
 current_assists: 7
-current_points: 16
+current_points: 18
 current_pim: 0
-regular_games: 8
-regular_goals: 7
+regular_games: 9
+regular_goals: 9
 regular_assists: 6
-regular_points: 13
+regular_points: 15
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 23
 previous_assists: 8
 previous_points: 31
 previous_pim: 0
-career_games: 31
-career_goals: 30
+career_games: 32
+career_goals: 32
 career_assists: 14
-career_points: 44
+career_points: 46
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|7|6|13|0||26-27|cup|Germany|SSF Dragons Bonn|1|2|1|3|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|2|0|2|0||25-26|regular-season|Germany|SSF Dragons Bonn|20|21|8|29|0
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|9|6|15|0||26-27|cup|Germany|SSF Dragons Bonn|1|2|1|3|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|2|0|2|0||25-26|regular-season|Germany|SSF Dragons Bonn|20|21|8|29|0
 assists: 6
-games: 8
-goals: 7
+games: 9
+goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 13
-rank: 18
+points: 15
+rank: 16
 season: 26-27

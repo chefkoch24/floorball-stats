@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ludwig Persson
 Category: players
 Slug: player-ab2c57c0bca69eb6
@@ -11,15 +11,15 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
-current_goals: 7
+current_games: 10
+current_goals: 8
 current_assists: 5
-current_points: 12
+current_points: 13
 current_pim: 2
-regular_games: 7
-regular_goals: 5
+regular_games: 8
+regular_goals: 6
 regular_assists: 3
-regular_points: 8
+regular_points: 9
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 32
 previous_points: 48
 previous_pim: 0
-career_games: 44
-career_goals: 23
+career_games: 45
+career_goals: 24
 career_assists: 37
-career_points: 60
+career_points: 61
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|5|3|8|2||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|2|2|4|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|4|13|17|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|12|19|31|0||wfc-2024|tournament|IFF WFC|Sweden|6|2|2|4|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|6|3|9|2||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|2|2|4|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|4|13|17|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|12|19|31|0||wfc-2024|tournament|IFF WFC|Sweden|6|2|2|4|6
 assists: 3
-games: 7
-goals: 5
+games: 8
+goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
-points: 8
+points: 9
 rank: 32
 season: ch-26-27

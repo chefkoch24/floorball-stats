@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Adam Kos
 Category: players
 Slug: player-b48ec5ea5dc5059c
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 1
+current_games: 2
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 1
+regular_games: 2
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 11
+career_games: 12
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|6|0|0|0|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|4|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|2|0|0|0|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|6|0|0|0|2||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|4|0|0|0|0
 assists: 0
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 243
+rank: 250
 season: cz-26-27

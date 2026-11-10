@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Kristína Hajasová
 Category: players
 Slug: player-3a37166ac0e5e5b0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 129
+rank: 132
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Alena Holst
 Category: players
 Slug: player-97a4220f1c7c0ee1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 100
+rank: 109
 season: chw-26-27

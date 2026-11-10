@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Tizian Nikles
 Category: players
 Slug: player-22aee7c937d30e84

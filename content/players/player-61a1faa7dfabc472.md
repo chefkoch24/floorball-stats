@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ratúzky Andrej
 Category: players
 Slug: player-61a1faa7dfabc472
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 160
+rank: 168
 season: sk-26-27

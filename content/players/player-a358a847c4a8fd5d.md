@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Nela Gugová
 Category: players
 Slug: player-a358a847c4a8fd5d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 148
+rank: 150
 season: skw-26-27

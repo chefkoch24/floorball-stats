@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Eric Gren
 Category: players
 Slug: player-aecfd62810f4dde5

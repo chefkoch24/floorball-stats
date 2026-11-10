@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Annalena Tietz
 Category: players
 Slug: player-4e8ff8e40d856cca
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 98
+rank: 109
 season: dew-26-27

@@ -325,7 +325,7 @@ home_pregame_points_against_fk_kursi: 2
 home_pregame_points_against_fk_talsi_tnss_krauzers: 2
 home_pregame_points_against_kekava_rb_b: 0
 home_pregame_points_against_lekrings: 1
-home_pregame_points_against_lielvarde_unihoc: 0
+home_pregame_points_against_lielvarde_unihoc: 3
 home_pregame_points_against_masters_ulbroka_lu: 0
 home_pregame_points_against_rubene: 0
 home_pregame_points_max_difference_2: 0

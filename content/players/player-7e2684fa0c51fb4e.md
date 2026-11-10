@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Timotej Kollár
 Category: players
 Slug: player-7e2684fa0c51fb4e
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
-current_goals: 8
+current_games: 9
+current_goals: 9
 current_assists: 4
-current_points: 12
+current_points: 13
 current_pim: 2
-regular_games: 8
-regular_goals: 8
+regular_games: 9
+regular_goals: 9
 regular_assists: 4
-regular_points: 12
+regular_points: 13
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 8
 previous_points: 24
 previous_pim: 2
-career_games: 27
-career_goals: 24
+career_games: 28
+career_goals: 25
 career_assists: 12
-career_points: 36
+career_points: 37
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|8|8|4|12|2||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|19|16|8|24|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|9|9|4|13|2||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|19|16|8|24|2
 assists: 4
-games: 8
-goals: 8
+games: 9
+goals: 9
 penalties: 1
 phase: regular-season
 pim: 2
-points: 12
-rank: 23
+points: 13
+rank: 28
 season: sk-26-27

@@ -322,6 +322,7 @@ home_pregame_points_after_second_period: 13
 home_pregame_points_after_third_period: 13
 home_pregame_points_against_eraviikingit: 3
 home_pregame_points_against_o2_jyvaskyla: 6
+home_pregame_points_against_oilers: 0
 home_pregame_points_against_spv: 1
 home_pregame_points_against_tps: 3
 home_pregame_points_max_difference_2: 1
@@ -437,6 +438,7 @@ away_pregame_points_against_jymy: 3
 away_pregame_points_against_lasb: 3
 away_pregame_points_against_o2_jyvaskyla: 0
 away_pregame_points_against_spv: 0
+away_pregame_points_against_tps: 1
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 6
 away_pregame_points_per_game: 1.12

@@ -439,6 +439,7 @@ away_pregame_points_against_floorball_chur_united: 0
 away_pregame_points_against_floorball_uri: 3
 away_pregame_points_against_red_ants_winterthur: 0
 away_pregame_points_against_unihockey_berner_oberland: 0
+away_pregame_points_against_wizards_bern_burgdorf: 0
 away_pregame_points_against_zug_united: 0
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Vanesa Soroková
 Category: players
 Slug: player-328fcc984ad4e7f7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 59
+rank: 63
 season: skw-26-27

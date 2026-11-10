@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Ruben Schaaf
 Category: players
 Slug: player-b247d26f47fe77ca
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 278
+rank: 286
 season: 26-27

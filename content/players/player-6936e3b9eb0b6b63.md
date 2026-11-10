@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Albert Švindrych
 Category: players
 Slug: player-6936e3b9eb0b6b63
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 216
+rank: 226
 season: cz-26-27

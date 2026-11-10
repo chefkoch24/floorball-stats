@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Richard Dluhoš
 Category: players
 Slug: player-44cad3ac694ef200
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 6
+current_games: 10
+current_goals: 8
 current_assists: 4
-current_points: 10
+current_points: 12
 current_pim: 4
-regular_games: 9
-regular_goals: 6
+regular_games: 10
+regular_goals: 8
 regular_assists: 4
-regular_points: 10
+regular_points: 12
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 30
 previous_assists: 34
 previous_points: 64
 previous_pim: 0
-career_games: 31
-career_goals: 36
+career_games: 32
+career_goals: 38
 career_assists: 38
-career_points: 74
+career_points: 76
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|9|6|4|10|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|30|34|64|0
+history_rows_csv: sk-26-27|regular-season|Slovakia|ŠK LIDO Prírodovedec Ružinov|10|8|4|12|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|30|34|64|0
 assists: 4
-games: 9
-goals: 6
+games: 10
+goals: 8
 penalties: 2
 phase: regular-season
 pim: 4
-points: 10
-rank: 33
+points: 12
+rank: 31
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Matej Jusko
 Category: players
 Slug: player-fa6d44ebc8295165
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 256
+rank: 257
 season: sk-26-27

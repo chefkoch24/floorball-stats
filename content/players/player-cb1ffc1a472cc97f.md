@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Jakub Grich
 Category: players
 Slug: player-cb1ffc1a472cc97f
@@ -11,15 +11,15 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 7
-current_assists: 5
-current_points: 12
+current_assists: 6
+current_points: 13
 current_pim: 6
-regular_games: 9
+regular_games: 10
 regular_goals: 7
-regular_assists: 5
-regular_points: 12
+regular_assists: 6
+regular_points: 13
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 7
-career_assists: 5
-career_points: 12
+career_assists: 6
+career_points: 13
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|9|7|5|12|6
-assists: 5
-games: 9
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|10|7|6|13|6
+assists: 6
+games: 10
 goals: 7
 penalties: 3
 phase: regular-season
 pim: 6
-points: 12
-rank: 25
+points: 13
+rank: 29
 season: sk-26-27

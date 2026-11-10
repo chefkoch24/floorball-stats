@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Adam Ögren
 Category: players
 Slug: player-584c2289b9da0b3d

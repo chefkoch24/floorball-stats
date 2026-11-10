@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Elias Rensing
 Category: players
 Slug: player-08efffb367336d9e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 3
 previous_points: 8
 previous_pim: 0
-career_games: 30
+career_games: 31
 career_goals: 7
 career_assists: 3
 career_points: 10
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|2|0|2|0||26-27|cup|Germany|SSF Dragons Bonn|1|1|0|1|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|1|0|1|0||25-26|regular-season|Germany|SSF Dragons Bonn|19|4|3|7|0
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|2|0|2|0||26-27|cup|Germany|SSF Dragons Bonn|1|1|0|1|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|1|0|1|0||25-26|regular-season|Germany|SSF Dragons Bonn|19|4|3|7|0
 assists: 0
-games: 8
+games: 9
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 121
+rank: 126
 season: 26-27

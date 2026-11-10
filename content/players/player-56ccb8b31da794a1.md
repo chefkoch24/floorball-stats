@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Benedikt Föhr
 Category: players
 Slug: player-56ccb8b31da794a1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 118
+rank: 124
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Olivers Dvarons
 Category: players
 Slug: player-8ff0f22346b509ab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 195
+rank: 200
 season: lv-26-27

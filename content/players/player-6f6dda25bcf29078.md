@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Zúberová Mária
 Category: players
 Slug: player-6f6dda25bcf29078
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 79
+rank: 83
 season: skw-26-27

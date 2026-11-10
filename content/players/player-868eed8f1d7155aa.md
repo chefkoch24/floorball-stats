@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Otto Weidman
 Category: players
 Slug: player-868eed8f1d7155aa
@@ -36,12 +36,12 @@ previous_goals: 26
 previous_assists: 13
 previous_points: 39
 previous_pim: 2
-career_games: 41
-career_goals: 31
-career_assists: 15
-career_points: 46
+career_games: 43
+career_goals: 32
+career_assists: 16
+career_points: 48
 career_pim: 2
-history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK|7|5|2|7|0||se-26-27|cup|Sweden|Storvreta IBK|2|3|1|4|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|14|4|18|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|12|9|21|2
+history_rows_csv: se-26-27|regular-season|Sweden|Storvreta IBK|7|5|2|7|0||se-26-27|cup|Sweden|Storvreta IBK|2|3|1|4|0||cc-26-27|tournament|IFF Champions Cup|Storvreta IBK|2|1|1|2|0||se-25-26|playoffs|Sweden|Storvreta IBK|10|14|4|18|0||se-25-26|regular-season|Sweden|Storvreta IBK|24|12|9|21|2
 assists: 2
 games: 7
 goals: 5

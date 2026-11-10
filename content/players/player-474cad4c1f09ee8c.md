@@ -1,4 +1,4 @@
-Date: 2026-11-04
+Date: 2026-11-10
 Title: Mateo Viturin Christen
 Category: players
 Slug: player-474cad4c1f09ee8c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 262
+rank: 270
 season: ch-26-27

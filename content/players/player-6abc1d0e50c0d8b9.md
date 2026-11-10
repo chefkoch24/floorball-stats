@@ -1,0 +1,53 @@
+Date: 2026-11-10
+Title: Joris Werner
+Category: players
+Slug: player-6abc1d0e50c0d8b9
+type: player
+player: Joris Werner
+player_uid: player-6abc1d0e50c0d8b9
+team: BW96 Schenefeld II / Blau-Weiß 96 Schenefeld / Blau-Weiß 96 Schenefeld
+league: Germany
+season_count: 1
+current_season: 26-27
+current_season_is_tournament: no
+previous_season: n.a.
+current_games: 4
+current_goals: 3
+current_assists: 1
+current_points: 4
+current_pim: 0
+regular_games: 1
+regular_goals: 0
+regular_assists: 0
+regular_points: 0
+regular_pim: 0
+playoff_games: 0
+playoff_goals: 0
+playoff_assists: 0
+playoff_points: 0
+playoff_pim: 0
+cup_games: 3
+cup_goals: 3
+cup_assists: 1
+cup_points: 4
+cup_pim: 0
+previous_games: 0
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 1
+career_goals: 0
+career_assists: 0
+career_points: 0
+career_pim: 0
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||26-27|cup|Germany|BW96 Schenefeld II / Blau-Weiß 96 Schenefeld|3|3|1|4|0
+assists: 0
+games: 1
+goals: 0
+penalties: 0
+phase: regular-season
+pim: 0
+points: 0
+rank: 230
+season: 26-27
