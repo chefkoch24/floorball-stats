@@ -6,15 +6,15 @@
 #    commit message. Every PR is still built and link-checked by the GitHub
 #    workflow "SEO build checks" (.github/workflows/seo-check.yml), which costs
 #    no Netlify minutes.
-#  - Production and previews skip commits that change nothing the site is built
-#    from (docs, tests, workflows, notebooks, social graphics, the dashboard).
+#  - Production is built and deployed by GitHub Actions (.github/workflows/deploy.yml),
+#    so Netlify skips every production and branch build, build hooks included.
+#  - Requested previews skip commits that change nothing the site is built from
+#    (docs, tests, workflows, notebooks, social graphics, the dashboard).
 set -u
 
-# Build hooks always build: the daily main-site build (connect-daily-build.yml) has no
-# new commit, it rebuilds to pick up new Notion content.
-if [ -n "${INCOMING_HOOK_URL:-}${INCOMING_HOOK_TITLE:-}" ]; then
-  echo "Build hook (${INCOMING_HOOK_TITLE:-unnamed}): building."
-  exit 1
+if [ "${CONTEXT:-}" = "production" ] || [ "${CONTEXT:-}" = "branch-deploy" ]; then
+  echo "Skipping Netlify build: production is deployed by GitHub Actions (deploy.yml)."
+  exit 0
 fi
 
 if [ "${CONTEXT:-}" = "deploy-preview" ]; then

@@ -513,25 +513,34 @@ Content comes from Notion. To refresh it locally or on Netlify:
    committed order; new ones are appended. Images and drill videos are downloaded into
    `connect/content/`, so commit those together with `connect/data`.
 
-With `NOTION_TOKEN` set on Netlify, every build syncs first, so a rebuild picks up new
-reviews. `.github/workflows/connect-daily-build.yml` triggers one every day at 04:17 UTC:
-create a build hook in Netlify (Site configuration → Build & deploy → Build hooks, branch
-`master`) and store its URL as the repository secret `NETLIFY_BUILD_HOOK`. Without the
-secret the workflow only logs a warning; it can also be run by hand (workflow_dispatch).
+With `NOTION_TOKEN` set as a GitHub secret, every production build syncs first, so a rebuild
+picks up new reviews. The deploy workflow rebuilds every day at 04:17 UTC for that.
 
-### Netlify build minutes
+### Production deploys (GitHub Actions)
 
-Netlify build minutes are limited and a full build takes several minutes, so
-`netlify.toml` runs `scripts/netlify_ignore.sh` before every build:
+Production is built on GitHub Actions and uploaded with the Netlify CLI
+(`.github/workflows/deploy.yml`), so it costs no Netlify build minutes. It runs on every push
+to `master` that touches site files, after every successful "Daily Data Refresh", daily at
+04:17 UTC (Notion content) and by hand (workflow_dispatch). Repository secrets:
 
+- `NETLIFY_AUTH_TOKEN`: Netlify → User settings → Applications → Personal access tokens
+- `NETLIFY_SITE_ID`: Netlify → site floorball-stats → Site configuration → Site ID
+- `NOTION_TOKEN` (optional): the main site's Notion integration
+
+`netlify.toml` runs `scripts/netlify_ignore.sh` before every Netlify build:
+
+- **Production and branch builds** are always skipped; GitHub Actions deploys production.
 - **Deploy previews** build only when the PR's latest commit message contains `[preview]`.
   Every PR is still built and link-checked by the GitHub workflow "SEO build checks".
-- **Production and previews** skip commits that change no site files (root `*.md`, `docs/`,
+- **Requested previews** skip commits that change no site files (root `*.md`, `docs/`,
   `tests/`, `scripts/`, `notebooks/`, `social/`, `dashboard/`, `.github/`, `Makefile`).
-- **Build hooks** (the daily main-site build) always build.
 
-The rendered share images in `.cache/og` are kept between Netlify builds
-(`netlify-plugin-cache`), so a build only draws images that changed.
+The rendered share images in `.cache/og` are kept between builds (GitHub Actions cache,
+`netlify-plugin-cache` for previews), so a build only draws images that changed.
+
+Without build minutes, a local build can go live the same way:
+`pelican content -o <dir> -s publishconf.py`, then
+`netlify deploy --prod --no-build --dir <dir>`.
 
 ## Run tests
 
