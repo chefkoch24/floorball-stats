@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Nooa Lehtonen
 Category: players
 Slug: player-f21b722de63a8f8d

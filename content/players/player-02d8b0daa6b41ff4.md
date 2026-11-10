@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Maël Rychener
 Category: players
 Slug: player-02d8b0daa6b41ff4

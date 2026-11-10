@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Daniela Westerlund
 Category: players
 Slug: player-5c0a9b603fdf6bb9

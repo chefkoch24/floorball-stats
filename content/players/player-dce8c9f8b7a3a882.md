@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Sophia Sabolová
 Category: players
 Slug: player-dce8c9f8b7a3a882

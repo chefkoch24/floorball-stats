@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Venla Nousiainen
 Category: players
 Slug: player-d21aed5d4384d2f1

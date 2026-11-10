@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Noel Knüsel
 Category: players
 Slug: player-1fa8689fe89ba9f1

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Josef Loučka
 Category: players
 Slug: player-51d1b5a5bf0aaa9d
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 5
-rank: 104
+rank: 112
 season: cz-26-27

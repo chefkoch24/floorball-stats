@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Luana Arnold
 Category: players
 Slug: player-4e0614aadd2351a2

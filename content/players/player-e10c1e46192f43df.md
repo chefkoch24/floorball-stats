@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Markuss Plūdums
 Category: players
 Slug: player-e10c1e46192f43df

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Alice Åberg
 Category: players
 Slug: player-c1ab4e1345c12ef0

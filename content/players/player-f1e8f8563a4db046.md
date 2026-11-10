@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Michael Pitek
 Category: players
 Slug: player-f1e8f8563a4db046

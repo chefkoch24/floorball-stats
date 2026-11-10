@@ -72,13 +72,13 @@ pregame_h2h_special_away_pp_eff: 28.57
 pregame_h2h_special_home_pk_eff: 66.67
 pregame_h2h_special_home_pp_eff: 37.5
 result_string: None
-start_time: 00:00
+start_time: 18:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
-venue: Kategorie I STAREZ ARÉNA VODOVA Hala 2
+venue: Kategorie I STAREZ ARÉNA VODOVA Hala 1
 venue_address: Vodova 336/108 Brno
 home_away_points: 0
 home_boxplay: 0

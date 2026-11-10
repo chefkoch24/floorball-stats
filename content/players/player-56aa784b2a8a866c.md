@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Milan Koubek
 Category: players
 Slug: player-56aa784b2a8a866c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 318
+rank: 321
 season: cz-26-27

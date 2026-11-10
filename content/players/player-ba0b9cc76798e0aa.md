@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Matyáš Bachmaier
 Category: players
 Slug: player-ba0b9cc76798e0aa
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 43
+rank: 55
 season: cz-26-27

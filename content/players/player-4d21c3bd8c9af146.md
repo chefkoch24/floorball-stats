@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Saara Puurunen
 Category: players
 Slug: player-4d21c3bd8c9af146

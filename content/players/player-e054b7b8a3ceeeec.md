@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Yanik Castelberg
 Category: players
 Slug: player-e054b7b8a3ceeeec

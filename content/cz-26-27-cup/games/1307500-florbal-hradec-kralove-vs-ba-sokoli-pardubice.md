@@ -1,4 +1,4 @@
-Date: 2026-12-16
+Date: 2026-12-10
 Title: 1307500-florbal-hradec-kralove-vs-ba-sokoli-pardubice
 Category: cz-26-27-cup, game
 Slug: 1307500-florbal-hradec-kralove-vs-ba-sokoli-pardubice-cz-26-27-cup
@@ -81,6 +81,8 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
 tournament_stage_label: osmifinále
 tournament_stage_type: elimination
+venue: Kategorie I GAPA arena (SH Třebeš HK)
+venue_address: Na Potoce 691/30 Hradec Králové
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

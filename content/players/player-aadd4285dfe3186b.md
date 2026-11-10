@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Eemil Ukkonen
 Category: players
 Slug: player-aadd4285dfe3186b

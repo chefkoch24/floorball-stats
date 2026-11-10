@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Oscar Magnusson Lindholm
 Category: players
 Slug: player-b587dfa074cb36d6

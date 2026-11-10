@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Tanja Parviainen
 Category: players
 Slug: player-2aa7218b8bafe027

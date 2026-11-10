@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Ralfs Kliests
 Category: players
 Slug: player-5d4e8d59d5e65e8e

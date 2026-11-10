@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Anrijs Strazdiņš
 Category: players
 Slug: player-3dfbe4b8d475525d

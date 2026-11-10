@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Radim Ottel
 Category: players
 Slug: player-c8b86a566c310ecc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 341
+rank: 345
 season: cz-26-27

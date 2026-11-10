@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Oliver Wiedmer
 Category: players
 Slug: player-3c9558af45df8b7d

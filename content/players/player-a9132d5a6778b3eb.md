@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Sebastián Hachlica
 Category: players
 Slug: player-a9132d5a6778b3eb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 347
+rank: 350
 season: cz-26-27

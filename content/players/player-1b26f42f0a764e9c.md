@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Zgierska Nel Anna
 Category: players
 Slug: player-1b26f42f0a764e9c

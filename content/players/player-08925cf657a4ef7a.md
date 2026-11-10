@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Jana Kulhavá
 Category: players
 Slug: player-08925cf657a4ef7a

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Adam Klusoň
 Category: players
 Slug: player-620896f98bfb1de1
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 40
+rank: 52
 season: cz-26-27

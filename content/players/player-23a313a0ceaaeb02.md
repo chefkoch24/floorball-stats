@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Sarina Bandschapp
 Category: players
 Slug: player-23a313a0ceaaeb02

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Marion Steiger
 Category: players
 Slug: player-f6258b1b8e4608df

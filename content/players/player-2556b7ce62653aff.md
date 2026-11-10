@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Noora Holle
 Category: players
 Slug: player-2556b7ce62653aff

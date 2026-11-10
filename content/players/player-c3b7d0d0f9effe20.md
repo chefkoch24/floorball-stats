@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Marylin Thomi
 Category: players
 Slug: player-c3b7d0d0f9effe20

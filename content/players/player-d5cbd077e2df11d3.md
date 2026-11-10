@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Loic Ammann
 Category: players
 Slug: player-d5cbd077e2df11d3

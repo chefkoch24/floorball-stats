@@ -447,6 +447,7 @@ away_pregame_points_against_fbc_clt_ceska_lipa: 3
 away_pregame_points_against_fbc_liberec: 3
 away_pregame_points_against_florbal_usti: 3
 away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 3
+away_pregame_points_against_tatran_stresovice: 0
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 21
 away_pregame_points_per_game: 2.88

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Pinja Pesonen
 Category: players
 Slug: player-3cac77990b23cecd

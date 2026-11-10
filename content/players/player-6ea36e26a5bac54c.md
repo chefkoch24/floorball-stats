@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Lukáš Kučera C
 Category: players
 Slug: player-6ea36e26a5bac54c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 291
+rank: 295
 season: cz-26-27

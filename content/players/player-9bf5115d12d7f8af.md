@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Noël Enzler
 Category: players
 Slug: player-9bf5115d12d7f8af

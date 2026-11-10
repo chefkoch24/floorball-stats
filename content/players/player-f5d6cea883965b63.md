@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Endijs Ezeriņš
 Category: players
 Slug: player-f5d6cea883965b63

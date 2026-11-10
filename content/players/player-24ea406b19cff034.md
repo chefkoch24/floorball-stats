@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Jan Zaugg
 Category: players
 Slug: player-24ea406b19cff034

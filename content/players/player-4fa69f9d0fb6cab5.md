@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Deny Känzig
 Category: players
 Slug: player-4fa69f9d0fb6cab5

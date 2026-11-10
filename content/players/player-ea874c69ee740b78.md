@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Adam Tůma
 Category: players
 Slug: player-ea874c69ee740b78
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 3
-rank: 135
+rank: 147
 season: cz-26-27

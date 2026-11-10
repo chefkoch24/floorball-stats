@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Tomáš Veselý
 Category: players
 Slug: player-b82d72abe189fab2
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 357
+rank: 361
 season: cz-26-27

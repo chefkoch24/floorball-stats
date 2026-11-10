@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: 1307600-fbc-cpp-mpl-stavebniny-ostrava-vs-fbc-clt-ceska-lipa
 Category: cz-26-27-regular-season, game
 Slug: 1307600-fbc-cpp-mpl-stavebniny-ostrava-vs-fbc-clt-ceska-lipa-cz-26-27-regular-season
@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 75.0
 pregame_h2h_special_home_pk_eff: 71.43
 pregame_h2h_special_home_pp_eff: 0.0
 result_string: None
-start_time: 16:00
+start_time: 17:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

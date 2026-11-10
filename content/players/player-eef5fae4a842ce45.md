@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Elli Kylmäluoma
 Category: players
 Slug: player-eef5fae4a842ce45

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Patrizia Eikhorst
 Category: players
 Slug: player-74840cb9abb94fe2

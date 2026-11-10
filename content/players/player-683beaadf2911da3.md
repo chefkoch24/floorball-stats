@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Filip Rathouský
 Category: players
 Slug: player-683beaadf2911da3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 270
 season: cz-26-27

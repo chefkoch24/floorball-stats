@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Marian Thomas
 Category: players
 Slug: player-354f2cfab24c3b41

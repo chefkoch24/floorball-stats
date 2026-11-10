@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Hans Richter
 Category: players
 Slug: player-43dde65f55db803d

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Dennis Andersson
 Category: players
 Slug: player-25b92bf4c88cb34e

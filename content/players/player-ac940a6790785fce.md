@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Molly Wickström
 Category: players
 Slug: player-ac940a6790785fce

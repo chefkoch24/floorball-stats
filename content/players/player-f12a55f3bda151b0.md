@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Simona Pleisch
 Category: players
 Slug: player-f12a55f3bda151b0

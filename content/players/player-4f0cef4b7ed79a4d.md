@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Thea Löfborg
 Category: players
 Slug: player-4f0cef4b7ed79a4d

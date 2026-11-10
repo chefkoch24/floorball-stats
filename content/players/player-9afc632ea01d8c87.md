@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Sereina Zwissler
 Category: players
 Slug: player-9afc632ea01d8c87

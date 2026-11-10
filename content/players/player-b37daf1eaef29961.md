@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: David Henningsson
 Category: players
 Slug: player-b37daf1eaef29961

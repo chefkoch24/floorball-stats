@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Filip Mazáč
 Category: players
 Slug: player-aa830b5ba8a24132
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 262
+rank: 269
 season: cz-26-27

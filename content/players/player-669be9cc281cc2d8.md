@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Tomáš Lalik
 Category: players
 Slug: player-669be9cc281cc2d8

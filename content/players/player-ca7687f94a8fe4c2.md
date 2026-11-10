@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Florian Knüsel
 Category: players
 Slug: player-ca7687f94a8fe4c2

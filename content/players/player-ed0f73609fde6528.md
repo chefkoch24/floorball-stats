@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Anna Stará
 Category: players
 Slug: player-ed0f73609fde6528

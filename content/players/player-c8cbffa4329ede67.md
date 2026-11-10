@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Grēta Berga
 Category: players
 Slug: player-c8cbffa4329ede67

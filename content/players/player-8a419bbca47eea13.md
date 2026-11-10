@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Josia Pfister
 Category: players
 Slug: player-8a419bbca47eea13

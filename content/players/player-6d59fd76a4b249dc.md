@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Matěj Bendlmajer
 Category: players
 Slug: player-6d59fd76a4b249dc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 309
+rank: 313
 season: cz-26-27

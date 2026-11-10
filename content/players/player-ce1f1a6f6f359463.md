@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Antonín Votava
 Category: players
 Slug: player-ce1f1a6f6f359463
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 37
+rank: 50
 season: cz-26-27

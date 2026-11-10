@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Oskar Enquist
 Category: players
 Slug: player-ba5f4c9f89d9b4d7

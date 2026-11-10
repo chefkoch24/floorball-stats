@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Jonáš Kůra
 Category: players
 Slug: player-77f463ee5aca9263
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 163
+rank: 175
 season: cz-26-27

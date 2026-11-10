@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Ferdinand Ondruschka
 Category: players
 Slug: player-5bd5f7d52b3a22bb

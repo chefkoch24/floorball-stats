@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Florin Fehr
 Category: players
 Slug: player-3ddad55c94f6474b

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Magda Jansová
 Category: players
 Slug: player-dc13e09794f50d8b

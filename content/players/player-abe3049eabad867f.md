@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Jan Ždímal
 Category: players
 Slug: player-abe3049eabad867f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 172
+rank: 182
 season: cz-26-27

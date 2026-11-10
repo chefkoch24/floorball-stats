@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Tomass Kristofers Birstiņš
 Category: players
 Slug: player-4cdca85b0ef895fd

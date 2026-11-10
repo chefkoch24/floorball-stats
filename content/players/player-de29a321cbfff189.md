@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Jan Blažek
 Category: players
 Slug: player-de29a321cbfff189
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 273
+rank: 279
 season: cz-26-27

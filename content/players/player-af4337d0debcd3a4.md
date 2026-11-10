@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Edwin Körberg
 Category: players
 Slug: player-af4337d0debcd3a4

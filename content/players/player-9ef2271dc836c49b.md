@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Pápay Alex
 Category: players
 Slug: player-9ef2271dc836c49b

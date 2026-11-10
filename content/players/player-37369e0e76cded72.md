@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Kjell Borg
 Category: players
 Slug: player-37369e0e76cded72

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Košinár Filip
 Category: players
 Slug: player-a72de803bd0301b3

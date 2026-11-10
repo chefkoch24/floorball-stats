@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Kristers Leksis
 Category: players
 Slug: player-0645aae42e93ab83

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Thea Hedström
 Category: players
 Slug: player-b8d942fb50e376ed

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Kráčmar Boris
 Category: players
 Slug: player-a20be53f35e77f02

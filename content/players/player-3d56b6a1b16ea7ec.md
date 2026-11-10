@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Elvis Kaķis
 Category: players
 Slug: player-3d56b6a1b16ea7ec

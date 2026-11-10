@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Thomas Gfeller
 Category: players
 Slug: player-c462fb3bda2fefe1

@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Matyáš Velc
 Category: players
 Slug: player-3da702b4a44d56d9
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 207
+rank: 213
 season: cz-26-27

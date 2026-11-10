@@ -1,4 +1,4 @@
-Date: 2026-11-09
+Date: 2026-11-10
 Title: Kilian Franzen
 Category: players
 Slug: player-dc703f25dc52e179

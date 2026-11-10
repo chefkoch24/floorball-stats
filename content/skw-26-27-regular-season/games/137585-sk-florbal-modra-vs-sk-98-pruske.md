@@ -1,9 +1,9 @@
-Date: 2027-02-13
-Title: 137613-sk-florbal-modra-vs-sk-98-pruske
+Date: 2026-12-12
+Title: 137585-sk-florbal-modra-vs-sk-98-pruske
 Category: skw-26-27-regular-season, game
-Slug: 137613-sk-florbal-modra-vs-sk-98-pruske-skw-26-27-regular-season
+Slug: 137585-sk-florbal-modra-vs-sk-98-pruske-skw-26-27-regular-season
 type: game
-game_id: 137613
+game_id: 137585
 home_team: ŠK Florbal Modra
 away_team: ŠK 98 Pruské
 attendance: None
