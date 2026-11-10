@@ -156,7 +156,9 @@
   }
 
   function isLocalHost(hostname) {
-    return hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '::1';
+    // Browsers report an IPv6 host with brackets ("[::1]"); *.localhost resolves to loopback too.
+    var host = String(hostname || '').toLowerCase();
+    return host === 'localhost' || host === '127.0.0.1' || host === '0.0.0.0' || host === '::1' || host === '[::1]' || /\.localhost$/.test(host);
   }
 
   function capture(eventName, props, options) {
