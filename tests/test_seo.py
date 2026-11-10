@@ -145,3 +145,39 @@ def test_homepage_keeps_next_matchday_without_dumping_the_whole_season():
 def test_metadata_reader_does_not_mistake_svg_tooltips_for_page_title():
     page = Page('<html><head><title>SSL standings</title></head><body><svg><title>Chart tooltip</title></svg></body></html>')
     assert page.title == 'SSL standings'
+
+
+def test_standings_list_teams_in_table_order_with_their_numbers():
+    def team(name, rank, **extra):
+        values = dict(type="team", team=name, rank=str(rank), games=7, wins=4, over_time_wins=1,
+                      penalty_shootout_wins=1, over_time_losses=0, penalty_shootout_losses=1, losses=0,
+                      draws=0, goals=30, goals_against=20, goal_difference=10, points=18)
+        values.update(extra)
+        return Obj(title=name, url=f"{name.lower()}.html", **values)
+
+    schema = seo.standings_schema([team("Beta", 2, goal_difference=-3), team("Alpha", 1)],
+                                  "https://s.example", "SSL", "category/se.html")
+    assert schema["@type"] == "ItemList" and schema["numberOfItems"] == 2
+    first, second = schema["itemListElement"]
+    assert (first["position"], first["name"], second["name"]) == (1, "Alpha", "Beta")
+    assert first["item"] == {"@type": "SportsTeam", "name": "Alpha", "sport": "Floorball",
+                             "url": "https://s.example/alpha.html"}
+    assert "2 wins after overtime or penalty shots" in first["description"]
+    assert "goals 30:20" in first["description"] and "18 points" in first["description"]
+    assert "goal difference -3" in second["description"] and "draws" not in second["description"]
+
+
+def test_player_schema_states_club_season_and_tracked_career():
+    player = Obj(title="A", player="Ann Example", team="IBF Falun", league="Sweden",
+                 current_games=10, regular_games=7, regular_goals=3, regular_assists=2, regular_points=5,
+                 regular_pim=2, playoff_games=0, cup_games=3, cup_goals=4, cup_assists=1,
+                 career_games=24, career_goals=6, career_assists=5, career_points=11)
+    schema = seo.player_schema(player, "https://s.example", "player-1.html", "falun.html", "26/27")
+    assert schema["@type"] == "Person" and schema["url"] == "https://s.example/player-1.html"
+    assert schema["memberOf"]["url"] == "https://s.example/falun.html"
+    text = schema["description"]
+    assert text.startswith("Ann Example, floorball player for IBF Falun (Sweden).")
+    assert "Season 26/27: 7 regular-season games, 3 goals, 2 assists, 5 points" in text
+    assert "cup: 3 games, 4 goals, 1 assists" in text and "playoffs" not in text
+    assert "24 games, 6 goals, 5 assists, 11 points" in text
+    assert seo.season_label("ch-26-27") == "26/27" and seo.season_label("wfc-2024") == ""
