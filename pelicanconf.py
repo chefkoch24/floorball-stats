@@ -39,6 +39,8 @@ PLUGINS = [
     'connect_feed',
     # canonical identities, robots and indexable sitemap entries
     'seo',
+    # llms.txt: link map of the site for AI assistants and AI search (pages only, no data export)
+    'llms_txt',
 ]
 DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'leaders']
 

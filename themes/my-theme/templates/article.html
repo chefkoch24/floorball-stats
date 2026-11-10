@@ -86,6 +86,8 @@
 <script type="application/ld+json">{{ article.seo_event|tojson }}</script>
 {% elif article_type == 'team' %}
 <script type="application/ld+json">{{ {'@context': 'https://schema.org', '@type': 'SportsTeam', 'name': article.team|default(article_display_title), 'sport': 'Floorball', 'url': SITEURL ~ '/' ~ seo_canonical_path, 'memberOf': {'@type': 'SportsOrganization', 'name': category_label}}|tojson }}</script>
+{% elif article_type == 'player' and article.seo_person %}
+<script type="application/ld+json">{{ article.seo_person|tojson }}</script>
 {% elif article_type == 'player' %}
 <script type="application/ld+json">{{ {'@context': 'https://schema.org', '@type': 'Person', 'name': article.player|default(article_display_title), 'url': SITEURL ~ '/' ~ seo_canonical_path, 'description': seo_description}|tojson }}</script>
 {% elif article_type == 'player_stats' %}

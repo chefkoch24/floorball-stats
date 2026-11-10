@@ -57,6 +57,10 @@
   ]
 }
 </script>
+{% set standings = (SEO_STANDINGS|default({})).get(category.slug) %}
+{% if standings and not is_player_stats %}
+<script type="application/ld+json">{{ standings|tojson }}</script>
+{% endif %}
 {% endif %}
 {% endblock %}
 
