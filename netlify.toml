@@ -1,3 +1,15 @@
+[build]
+  # Saves build minutes: previews only on "[preview]" in the commit message, and no
+  # build for commits that touch no site files (docs, tests, workflows, ...).
+  ignore = "bash scripts/netlify_ignore.sh"
+
+# Keep the rendered share images (plugins/share_assets.py) between builds. Without
+# them every build draws all ~13,000 og images again (about 2 extra minutes).
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = [".cache/og"]
+
 [build.environment]
 # Netlify's noble build image installs Python via mise, which rejects releases
 # without GitHub artifact attestations (e.g. 3.11.9). 3.13 builds cleanly.

@@ -519,6 +519,20 @@ create a build hook in Netlify (Site configuration → Build & deploy → Build 
 `master`) and store its URL as the repository secret `NETLIFY_BUILD_HOOK`. Without the
 secret the workflow only logs a warning; it can also be run by hand (workflow_dispatch).
 
+### Netlify build minutes
+
+Netlify build minutes are limited and a full build takes several minutes, so
+`netlify.toml` runs `scripts/netlify_ignore.sh` before every build:
+
+- **Deploy previews** build only when the PR's latest commit message contains `[preview]`.
+  Every PR is still built and link-checked by the GitHub workflow "SEO build checks".
+- **Production and previews** skip commits that change no site files (root `*.md`, `docs/`,
+  `tests/`, `scripts/`, `notebooks/`, `social/`, `dashboard/`, `.github/`, `Makefile`).
+- **Build hooks** (the daily main-site build) always build.
+
+The rendered share images in `.cache/og` are kept between Netlify builds
+(`netlify-plugin-cache`), so a build only draws images that changed.
+
 ## Run tests
 
 ```bash
