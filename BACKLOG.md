@@ -29,8 +29,8 @@
 - [x] Main site floorballconnect.com off Softr: own Pelican site in `connect/` on the stats design system, content imported, Softr URLs redirected (ARCHITECTURE.md 4.8a)
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)
 - [x] Notion sync for the main site: database ids, publish filters and review relations in `connect/notion.json`; first sync run against Notion
-- [x] Daily build for new reviews: `.github/workflows/connect-daily-build.yml` calls a Netlify build hook (04:17 UTC)
-- [ ] Notion sync in production: set `NOTION_TOKEN` (Florball Connect integration) on Netlify, create the build hook and store it as GitHub secret `NETLIFY_BUILD_HOOK`
+- [x] Daily build for new reviews: `.github/workflows/deploy.yml` rebuilds and deploys at 04:17 UTC
+- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
 - [x] Crowd analysis (idea from liveticker.floorba11.stream): `/crowds.html` compares the leagues for the newest season (average, median, total, highest, gap between best and smallest home average, share of the top 3 teams) and shows weekday, face-off time and regular season vs. playoffs per league. No comparison with previous seasons (women's leagues have no 25/26 games)
@@ -38,6 +38,8 @@
 - [x] Player page: powerplay and shorthanded goals as KPIs, game log (result, own goals/assists/points per game) with filter by league/cup and season
 - [x] Game page: mark powerplay/shorthanded goals in the event timeline, "Topspiel" label in the schedule, opponents' table places next to the fixture (#6 – #5), venue name
 
+
+- [ ] Production deploys from GitHub Actions (`deploy.yml`): set the GitHub secrets `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID`, then merge
 
 ## Ideas & User Feedback
 - Add short summaries via LLMs to each game

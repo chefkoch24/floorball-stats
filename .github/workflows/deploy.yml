@@ -1,0 +1,93 @@
+name: Deploy to Netlify
+
+# Builds the site on GitHub Actions and uploads it with the Netlify CLI, so production
+# deploys cost no Netlify build minutes (the repository is public, Actions are free).
+# Netlify itself no longer builds production (scripts/netlify_ignore.sh skips it).
+#
+# Setup (once), GitHub → Settings → Secrets and variables → Actions:
+#   NETLIFY_AUTH_TOKEN  Netlify → User settings → Applications → Personal access tokens
+#   NETLIFY_SITE_ID     Netlify → site floorball-stats → Site configuration → Site ID
+#   NOTION_TOKEN        optional: syncs the main site's Notion content before the build
+
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "*.md"
+      - "docs/**"
+      - "tests/**"
+      - "notebooks/**"
+      - "scripts/**"
+      - "social/**"
+      - "dashboard/**"
+      - ".claude/**"
+      - "Makefile"
+  # The daily refresh pushes with GITHUB_TOKEN, which starts no push workflow.
+  workflow_run:
+    workflows: ["Daily Data Refresh"]
+    types: [completed]
+  # Daily rebuild of the main site, so Notion edits and new reviews go live without a commit.
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check secrets
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::Set the repository secrets NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID (see the top of deploy.yml)."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      # Rendered share images (plugins/share_assets.py), keyed by content hash:
+      # with the cache a build only draws the images that changed.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/og
+          key: deploy-og-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: deploy-og-${{ runner.os }}-
+
+      - name: Build
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python -m pelican content -o output -s publishconf.py
+
+      # Reported, not blocking: a broken link must not hold back the daily data.
+      - name: Check sitemap, metadata and internal links
+        continue-on-error: true
+        run: python scripts/check_seo.py output --report seo-validation.json
+
+      - name: Deploy
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npx --yes netlify-cli@27.14.2 deploy --prod --no-build --dir output \
+            --message "GitHub Actions ${GITHUB_EVENT_NAME}: ${GITHUB_SHA::9}"
