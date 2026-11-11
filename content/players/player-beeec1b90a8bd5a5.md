@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nico Mutter
 Category: players
 Slug: player-beeec1b90a8bd5a5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 96
+rank: 101
 season: ch-26-27

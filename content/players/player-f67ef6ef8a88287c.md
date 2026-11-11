@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Tim Döbeli
 Category: players
 Slug: player-f67ef6ef8a88287c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 29
+rank: 31
 season: ch-26-27

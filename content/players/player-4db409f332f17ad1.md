@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Vanesa Goldčiterová
 Category: players
 Slug: player-4db409f332f17ad1

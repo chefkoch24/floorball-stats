@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Noé Siegfried
 Category: players
 Slug: player-8f3aecf0e7209be8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 198
+rank: 199
 season: ch-26-27

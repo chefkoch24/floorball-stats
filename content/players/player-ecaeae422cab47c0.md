@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Ruben Arheit
 Category: players
 Slug: player-ecaeae422cab47c0
@@ -11,12 +11,12 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|8|1|2|3|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|1|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|9|1|2|3|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|1|2|0
 assists: 2
-games: 8
+games: 9
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 123
+rank: 127
 season: ch-26-27

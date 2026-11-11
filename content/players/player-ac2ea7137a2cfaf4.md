@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Oliver Chochol
 Category: players
 Slug: player-ac2ea7137a2cfaf4

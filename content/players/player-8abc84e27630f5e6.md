@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Elena Paananen
 Category: players
 Slug: player-8abc84e27630f5e6

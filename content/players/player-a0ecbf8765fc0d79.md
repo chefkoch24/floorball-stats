@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jiří Procházka
 Category: players
 Slug: player-a0ecbf8765fc0d79

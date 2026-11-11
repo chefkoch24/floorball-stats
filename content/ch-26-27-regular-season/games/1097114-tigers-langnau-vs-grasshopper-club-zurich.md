@@ -437,6 +437,7 @@ away_pregame_points_after_second_period: 14
 away_pregame_points_after_third_period: 12
 away_pregame_points_against_floorball_chur_united: 3
 away_pregame_points_against_floorball_koniz_bern: 0
+away_pregame_points_against_floorball_thurgau: 0
 away_pregame_points_against_hc_rychenberg_winterthur: 1
 away_pregame_points_against_kloten_dietlikon_jets: 2
 away_pregame_points_against_tigers_langnau: 3

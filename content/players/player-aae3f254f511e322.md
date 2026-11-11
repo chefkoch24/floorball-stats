@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Lukas Veltsmid
 Category: players
 Slug: player-aae3f254f511e322
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 72
+rank: 74
 season: ch-26-27

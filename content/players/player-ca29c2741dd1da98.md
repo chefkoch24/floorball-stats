@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Hanna-Loore Nõges
 Category: players
 Slug: player-ca29c2741dd1da98

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Gustavs Rudzītis
 Category: players
 Slug: player-d62c59a70646afe8

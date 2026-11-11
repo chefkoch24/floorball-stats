@@ -57,6 +57,110 @@ def game_schema(article, site, label, league):
     return result
 
 
+def _int(article, key):
+    try:
+        return int(float(meta(article, key, "0") or 0))
+    except ValueError:
+        return 0
+
+
+def _signed(value):
+    return f"+{value}" if value > 0 else str(value)
+
+
+def standings_schema(teams, site, label, url):
+    """The league table as an ItemList: one entry per team, in table order.
+
+    schema.org has no standings type, so each row's numbers go into its
+    description, the same figures the table on the page shows."""
+    def rank(article):
+        try:
+            return float(meta(article, "rank"))
+        except ValueError:
+            return float("inf")
+
+    items = []
+    for position, team in enumerate(sorted(teams, key=rank), start=1):
+        name = meta(team, "team") or getattr(team, "title", "")
+        wins_ot = _int(team, "over_time_wins") + _int(team, "penalty_shootout_wins")
+        losses_ot = _int(team, "over_time_losses") + _int(team, "penalty_shootout_losses")
+        row = (f"{_int(team, 'games')} games, {_int(team, 'wins')} wins, {wins_ot} wins after overtime "
+               f"or penalty shots, ")
+        if _int(team, "draws"):
+            row += f"{_int(team, 'draws')} draws, "
+        row += (f"{losses_ot} losses after overtime or penalty shots, {_int(team, 'losses')} losses, "
+                f"goals {_int(team, 'goals')}:{_int(team, 'goals_against')}, "
+                f"goal difference {_signed(_int(team, 'goal_difference'))}, {_int(team, 'points')} points")
+        items.append({"@type": "ListItem", "position": position, "name": name,
+                      "description": f"Place {position}: {row}.",
+                      "item": {"@type": "SportsTeam", "name": name, "sport": "Floorball",
+                               "url": f"{site}/{team.url}"}})
+    return {"@context": "https://schema.org", "@type": "ItemList",
+            "name": f"{label} standings", "url": f"{site}/{url}",
+            "numberOfItems": len(items), "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "itemListElement": items}
+
+
+def player_schema(article, site, path, team_url="", season_label=""):
+    """Person with the club and the figures of the player page in plain words."""
+    name = meta(article, "player") or getattr(article, "title", "")
+    team, league = meta(article, "team"), meta(article, "league")
+    parts = []
+    if season_label and _int(article, "current_games"):
+        line = (f"Season {season_label}: {_int(article, 'regular_games')} regular-season games, "
+                f"{_int(article, 'regular_goals')} goals, {_int(article, 'regular_assists')} assists, "
+                f"{_int(article, 'regular_points')} points, {_int(article, 'regular_pim')} penalty minutes")
+        for phase, label in (("playoff", "playoffs"), ("cup", "cup")):
+            if _int(article, f"{phase}_games"):
+                line += (f"; {label}: {_int(article, f'{phase}_games')} games, "
+                         f"{_int(article, f'{phase}_goals')} goals, {_int(article, f'{phase}_assists')} assists")
+        parts.append(line + ".")
+    if _int(article, "career_games"):
+        parts.append(f"League games tracked on Floorball Stats: {_int(article, 'career_games')} games, "
+                     f"{_int(article, 'career_goals')} goals, {_int(article, 'career_assists')} assists, "
+                     f"{_int(article, 'career_points')} points.")
+    intro = f"{name}, floorball player" + (f" for {team}" if team else "") + (f" ({league})" if league else "") + "."
+    result = {"@context": "https://schema.org", "@type": "Person", "name": name,
+              "url": f"{site}/{path}", "description": " ".join([intro, *parts])}
+    if team:
+        result["memberOf"] = {"@type": "SportsTeam", "name": team, "sport": "Floorball"}
+        if team_url:
+            result["memberOf"]["url"] = f"{site}/{team_url}"
+    return result
+
+
+def season_label(slug):
+    """'ch-26-27' -> '26/27'; tournament slugs stay as they are."""
+    match = re.search(r"(\d{2})-(\d{2})$", slug or "")
+    return f"{match.group(1)}/{match.group(2)}" if match else ""
+
+
+def collect_structured(generator, site):
+    """Standings per regular-season league page and Person data per player page."""
+    filters = generator.settings["JINJA_FILTERS"]
+    teams_by_category = {}
+    team_pages = generator.context.get("TEAM_PAGES", {})
+    for article in generator.articles:
+        kind = meta(article, "type")
+        if kind == "team" and getattr(article, "category", None):
+            league = filters["league_context"](article.category.slug)
+            if league and league.get("phase") == "regular-season":
+                teams_by_category.setdefault(article.category.slug, []).append(article)
+        elif kind == "player":
+            current = meta(article, "current_season")
+            team_url = team_pages.get((f"{current}-regular-season" if current else "",
+                                       team_key(meta(article, "team"))), "")
+            if meta(article, "current_season_is_tournament") == "yes":
+                team_url = ""
+            article.seo_person = player_schema(article, site, article.seo_canonical_path,
+                                               team_url, season_label(current))
+    standings = {}
+    for category, teams in teams_by_category.items():
+        label = filters["category_seo_label"](category)
+        standings[category] = standings_schema(teams, site, label, f"category/{category}.html")
+    generator.context["SEO_STANDINGS"] = standings
+
+
 def collect(generator):
     settings = generator.settings
     site = settings.get("SITEURL", "").rstrip("/")
@@ -98,6 +202,7 @@ def collect(generator):
                 event[f"{field}_url"] = f"{uid}.html" if uid in player_slugs else ""
     generator.context["SEO_ALIASES"] = aliases
     settings["SEO_ALIASES"] = aliases
+    collect_structured(generator, site)
 
 
 def clean_sitemap(path, site, aliases, modified=None):

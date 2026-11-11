@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Damian Hocevar
 Category: players
 Slug: player-3dd80181fe6994fe
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 148
+rank: 150
 season: ch-26-27

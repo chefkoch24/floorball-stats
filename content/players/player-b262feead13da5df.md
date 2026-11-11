@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Eric Grunder
 Category: players
 Slug: player-b262feead13da5df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 189
+rank: 190
 season: ch-26-27

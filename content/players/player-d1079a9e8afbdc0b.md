@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Mias Wellauer
 Category: players
 Slug: player-d1079a9e8afbdc0b
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
-current_goals: 3
+current_games: 11
+current_goals: 4
 current_assists: 4
-current_points: 7
+current_points: 8
 current_pim: 0
-regular_games: 8
-regular_goals: 0
+regular_games: 9
+regular_goals: 1
 regular_assists: 2
-regular_points: 2
+regular_points: 3
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 2
 previous_points: 6
 previous_pim: 0
-career_games: 40
-career_goals: 4
+career_games: 41
+career_goals: 5
 career_assists: 4
-career_points: 8
+career_points: 9
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|0|2|2|0||ch-26-27|cup|Switzerland|Floorball Thurgau|2|3|2|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|11|2|1|3|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|2|1|3|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|1|2|3|0||ch-26-27|cup|Switzerland|Floorball Thurgau|2|3|2|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|11|2|1|3|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|2|1|3|0
 assists: 2
-games: 8
-goals: 0
+games: 9
+goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 2
-rank: 163
+points: 3
+rank: 123
 season: ch-26-27

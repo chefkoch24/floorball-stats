@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Xavi Enrique Muñoz
 Category: players
 Slug: player-66fef573624d9a4e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 202
+rank: 203
 season: ch-26-27

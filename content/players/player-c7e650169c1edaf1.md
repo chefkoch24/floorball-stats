@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Simon Steiner
 Category: players
 Slug: player-c7e650169c1edaf1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 18
+rank: 21
 season: ch-26-27

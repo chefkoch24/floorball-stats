@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Niilo Blättler
 Category: players
 Slug: player-e0bf744b420b366f

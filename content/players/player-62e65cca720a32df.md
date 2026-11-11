@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Lari Kujansivu
 Category: players
 Slug: player-62e65cca720a32df

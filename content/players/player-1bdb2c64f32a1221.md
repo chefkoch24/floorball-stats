@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Anton Gröön
 Category: players
 Slug: player-1bdb2c64f32a1221

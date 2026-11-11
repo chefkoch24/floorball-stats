@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Michael Schwizer
 Category: players
 Slug: player-c9e5ee39c6f9153c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 177
+rank: 178
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nico Moser
 Category: players
 Slug: player-39a8b01d3b2631de
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 95
+rank: 100
 season: ch-26-27

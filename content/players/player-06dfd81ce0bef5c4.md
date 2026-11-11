@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Ida-Maaria Tervala
 Category: players
 Slug: player-06dfd81ce0bef5c4

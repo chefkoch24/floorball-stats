@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Ilja Brunner
 Category: players
 Slug: player-0ce33e58a2a7c33c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 232
+rank: 233
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Latvia Player Stats 26/27 Regular Season
 Category: lv-26-27-regular-season-players
 Slug: lv-26-27-regular-season-players

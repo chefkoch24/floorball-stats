@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Finn Ribler
 Category: players
 Slug: player-b62cb05b29f132a0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 223
+rank: 224
 season: ch-26-27

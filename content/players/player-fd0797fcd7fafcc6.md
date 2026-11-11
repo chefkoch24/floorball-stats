@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Malika Agouzoul
 Category: players
 Slug: player-fd0797fcd7fafcc6

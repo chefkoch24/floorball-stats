@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Beatrise Pavāre
 Category: players
 Slug: player-927e7e61a53abc22

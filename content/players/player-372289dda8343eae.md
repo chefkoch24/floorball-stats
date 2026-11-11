@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Kim Luisa Adam
 Category: players
 Slug: player-372289dda8343eae

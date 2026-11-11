@@ -1,4 +1,4 @@
-Date: 2027-02-07
+Date: 2027-02-12
 Title: 58910-vfl-red-hocks-kaufering-vs-fbc-munchen
 Category: 26-27-regular-season, game
 Slug: 58910-vfl-red-hocks-kaufering-vs-fbc-munchen-26-27-regular-season
@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 62.5
 pregame_h2h_special_home_pk_eff: 64.71000000000001
 pregame_h2h_special_home_pp_eff: 8.33
 result_string: None
-start_time: 16:00
+start_time: 20:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

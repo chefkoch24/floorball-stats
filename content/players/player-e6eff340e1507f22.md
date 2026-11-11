@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Josef Šedivý
 Category: players
 Slug: player-e6eff340e1507f22

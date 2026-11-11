@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Hugo Prahl
 Category: players
 Slug: player-f4b6cdb77cc98ab9

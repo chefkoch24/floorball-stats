@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nooa Laurila
 Category: players
 Slug: player-43beeb3e593464df

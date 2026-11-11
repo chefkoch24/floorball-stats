@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Terezie Gálová
 Category: players
 Slug: player-db6cefd6a0c2bcbb

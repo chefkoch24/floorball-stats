@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Pavel Zbořil
 Category: players
 Slug: player-809f92fae899ac62

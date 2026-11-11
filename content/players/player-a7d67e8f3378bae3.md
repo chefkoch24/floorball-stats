@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jesse-Samuli Huppunen
 Category: players
 Slug: player-a7d67e8f3378bae3

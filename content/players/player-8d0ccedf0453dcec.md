@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Kay Bier
 Category: players
 Slug: player-8d0ccedf0453dcec
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 5
 current_assists: 3
 current_points: 8
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 2
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 10
 previous_points: 14
 previous_pim: 16
-career_games: 35
+career_games: 36
 career_goals: 8
 career_assists: 12
 career_points: 20
 career_pim: 18
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|8|4|2|6|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|2|1|1|2|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|2|3|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|3|8|11|16
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|9|4|2|6|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|2|1|1|2|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|2|3|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|3|8|11|16
 assists: 2
-games: 8
+games: 9
 goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 59
+rank: 60
 season: ch-26-27

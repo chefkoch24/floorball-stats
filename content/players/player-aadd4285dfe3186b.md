@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Eemil Ukkonen
 Category: players
 Slug: player-aadd4285dfe3186b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 46
+rank: 48
 season: ch-26-27

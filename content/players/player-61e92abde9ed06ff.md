@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Cédric Söderberg
 Category: players
 Slug: player-61e92abde9ed06ff
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 185
+rank: 186
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Noah Bisig
 Category: players
 Slug: player-6f5e0acbc514772e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 91
+rank: 96
 season: ch-26-27

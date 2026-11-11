@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Josia Pfister
 Category: players
 Slug: player-8a419bbca47eea13
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 74
+rank: 76
 season: ch-26-27
