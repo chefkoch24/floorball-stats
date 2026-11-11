@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Daniels Janis Anis
 Category: players
 Slug: player-00e93da6ee97d2d3
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 14
-rank: 8
+rank: 9
 season: ch-26-27

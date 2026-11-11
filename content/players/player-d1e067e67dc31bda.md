@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Yannis Wyss
 Category: players
 Slug: player-d1e067e67dc31bda
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 21
+rank: 22
 season: ch-26-27

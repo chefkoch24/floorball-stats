@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Noël Enzler
 Category: players
 Slug: player-9bf5115d12d7f8af
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 179
+rank: 180
 season: ch-26-27

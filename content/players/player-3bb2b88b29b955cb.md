@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Gian Thöni
 Category: players
 Slug: player-3bb2b88b29b955cb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 228
+rank: 229
 season: ch-26-27

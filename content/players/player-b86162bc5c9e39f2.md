@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Gian Luca Schiessl
 Category: players
 Slug: player-b86162bc5c9e39f2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 227
+rank: 228
 season: ch-26-27

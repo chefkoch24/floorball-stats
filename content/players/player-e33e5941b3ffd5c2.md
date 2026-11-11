@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Emmy Sjögren
 Category: players
 Slug: player-e33e5941b3ffd5c2

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Adam Lundgren
 Category: players
 Slug: player-f639c227652edae4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 77
+rank: 79
 season: ch-26-27

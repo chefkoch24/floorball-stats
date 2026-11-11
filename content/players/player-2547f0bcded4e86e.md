@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jurģis Patriks Aizupietis
 Category: players
 Slug: player-2547f0bcded4e86e

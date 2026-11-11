@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: David Noney
 Category: players
 Slug: player-35ddbd300df8f690

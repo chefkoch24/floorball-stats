@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Sina Rüdisühli
 Category: players
 Slug: player-77ecca5924c4f03a

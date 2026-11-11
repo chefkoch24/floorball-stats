@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 40
+rank: 41
 season: ch-26-27

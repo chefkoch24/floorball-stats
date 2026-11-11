@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Markus Holenstein
 Category: players
 Slug: player-3ef4b211b0eb20e4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 269
 season: ch-26-27

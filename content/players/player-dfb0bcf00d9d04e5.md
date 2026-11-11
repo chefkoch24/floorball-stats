@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jarábková Barbora
 Category: players
 Slug: player-dfb0bcf00d9d04e5

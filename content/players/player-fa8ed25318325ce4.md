@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Mona Lisa Lusti
 Category: players
 Slug: player-fa8ed25318325ce4

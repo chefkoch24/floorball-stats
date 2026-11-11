@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Maurice Aebersold
 Category: players
 Slug: player-e88febe3badc9267
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 80
+rank: 84
 season: ch-26-27

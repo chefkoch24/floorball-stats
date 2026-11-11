@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Dominik Hofer
 Category: players
 Slug: player-c3b79502b998bafd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 218
+rank: 219
 season: ch-26-27

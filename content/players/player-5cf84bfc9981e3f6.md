@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Anja Krüger
 Category: players
 Slug: player-5cf84bfc9981e3f6

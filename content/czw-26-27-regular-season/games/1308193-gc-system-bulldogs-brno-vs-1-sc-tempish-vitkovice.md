@@ -78,6 +78,8 @@ timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
 timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
+venue: Kategorie II SH SportPoint Brno
+venue_address: Střední 595/26 Brno
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

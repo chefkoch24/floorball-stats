@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nikol Kovárníková
 Category: players
 Slug: player-57e7f93fab50bda6

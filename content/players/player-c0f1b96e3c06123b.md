@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nikola Kašparová
 Category: players
 Slug: player-c0f1b96e3c06123b

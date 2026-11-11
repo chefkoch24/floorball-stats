@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Siro Laurino
 Category: players
 Slug: player-33dc8ee0efab3feb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 153
+rank: 155
 season: ch-26-27

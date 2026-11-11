@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nicola Hocevar
 Category: players
 Slug: player-86baf5adad3c0111

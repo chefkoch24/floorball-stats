@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Valtteri Koskinen
 Category: players
 Slug: player-03de360f4ac1296f

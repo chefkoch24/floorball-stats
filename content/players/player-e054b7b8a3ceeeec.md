@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Yanik Castelberg
 Category: players
 Slug: player-e054b7b8a3ceeeec
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
-current_assists: 3
-current_points: 6
+current_assists: 4
+current_points: 7
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 2
-regular_assists: 3
-regular_points: 5
+regular_assists: 4
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 10
 previous_points: 27
 previous_pim: 4
-career_games: 30
+career_games: 31
 career_goals: 19
-career_assists: 13
-career_points: 32
+career_assists: 14
+career_points: 33
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|8|2|3|5|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|17|10|27|4
-assists: 3
-games: 8
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|9|2|4|6|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|17|10|27|4
+assists: 4
+games: 9
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 83
+points: 6
+rank: 69
 season: ch-26-27

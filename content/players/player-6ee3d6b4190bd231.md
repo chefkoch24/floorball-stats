@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Stefan Hutzli
 Category: players
 Slug: player-6ee3d6b4190bd231
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 41
+rank: 42
 season: ch-26-27

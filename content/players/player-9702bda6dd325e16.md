@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Kristaps Jakāns
 Category: players
 Slug: player-9702bda6dd325e16

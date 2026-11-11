@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jolana Konečná
 Category: players
 Slug: player-9337d009fde2fb33

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Siiri Kainulainen
 Category: players
 Slug: player-7d526f8e70f25e9c

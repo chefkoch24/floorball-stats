@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Anna Bruchackova
 Category: players
 Slug: player-b20abb2fb77268a6

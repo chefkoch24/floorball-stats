@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Yves Klöti
 Category: players
 Slug: player-1d528c82bd5b78f9
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 11
+rank: 13
 season: ch-26-27

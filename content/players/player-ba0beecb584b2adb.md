@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Anna Nilsson
 Category: players
 Slug: player-ba0beecb584b2adb

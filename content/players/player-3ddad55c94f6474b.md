@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Florin Fehr
 Category: players
 Slug: player-3ddad55c94f6474b
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 11
+current_goals: 5
+current_assists: 6
+current_points: 11
 current_pim: 2
-regular_games: 8
-regular_goals: 0
-regular_assists: 3
-regular_points: 3
+regular_games: 9
+regular_goals: 1
+regular_assists: 4
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 0
-career_games: 34
-career_goals: 3
-career_assists: 6
-career_points: 9
+career_games: 35
+career_goals: 4
+career_assists: 7
+career_points: 11
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|0|3|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|4|2|6|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|13|2|2|4|0
-assists: 3
-games: 8
-goals: 0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|1|4|5|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|4|2|6|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|13|2|2|4|0
+assists: 4
+games: 9
+goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
-points: 3
-rank: 125
+points: 5
+rank: 87
 season: ch-26-27

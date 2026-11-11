@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jere Mattila
 Category: players
 Slug: player-f668a72c65f0aa33
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 101
+rank: 105
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Katharina Meyer
 Category: players
 Slug: player-ea80e343fc91b627

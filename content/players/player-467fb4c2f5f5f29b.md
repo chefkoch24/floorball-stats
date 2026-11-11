@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Nuno Brosi
 Category: players
 Slug: player-467fb4c2f5f5f29b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 121
+rank: 125
 season: ch-26-27

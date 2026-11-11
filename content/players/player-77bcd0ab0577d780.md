@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Jakub Veselka
 Category: players
 Slug: player-77bcd0ab0577d780

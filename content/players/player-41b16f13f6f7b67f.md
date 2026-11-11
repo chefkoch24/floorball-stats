@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Henrika Maikola
 Category: players
 Slug: player-41b16f13f6f7b67f

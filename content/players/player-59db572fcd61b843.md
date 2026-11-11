@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Noah Siegenthaler
 Category: players
 Slug: player-59db572fcd61b843
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 84
+rank: 88
 season: ch-26-27

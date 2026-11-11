@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Massimo Petris
 Category: players
 Slug: player-ab11a8b234149e5f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 269
+rank: 270
 season: ch-26-27

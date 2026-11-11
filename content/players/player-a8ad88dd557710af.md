@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Valérie Žižková
 Category: players
 Slug: player-a8ad88dd557710af

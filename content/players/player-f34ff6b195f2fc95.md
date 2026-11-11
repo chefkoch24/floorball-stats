@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Noël Greber
 Category: players
 Slug: player-f34ff6b195f2fc95
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 4
 previous_points: 4
 previous_pim: 4
-career_games: 34
+career_games: 35
 career_goals: 0
 career_assists: 4
 career_points: 4
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|8|0|0|0|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|0|4|4|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|9|0|0|0|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|0|4|4|4
 assists: 0
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season

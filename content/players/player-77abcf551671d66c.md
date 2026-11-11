@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Vojtěch Kún C
 Category: players
 Slug: player-77abcf551671d66c

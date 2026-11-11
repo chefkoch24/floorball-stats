@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Krystof Manour
 Category: players
 Slug: player-3e7713cc8ab86d4a

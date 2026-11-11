@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Adam Zukal
 Category: players
 Slug: player-abe8657005affa5c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 60
+rank: 61
 season: ch-26-27

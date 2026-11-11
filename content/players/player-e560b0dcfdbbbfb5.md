@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Tobias Gustafsson
 Category: players
 Slug: player-e560b0dcfdbbbfb5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 63
+rank: 64
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Katariina Väre
 Category: players
 Slug: player-2cd429d4e9edae78

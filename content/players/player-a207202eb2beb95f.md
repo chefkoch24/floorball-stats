@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Markus Wellauer
 Category: players
 Slug: player-a207202eb2beb95f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 193
+rank: 194
 season: ch-26-27

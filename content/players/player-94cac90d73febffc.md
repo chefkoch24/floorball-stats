@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Aaro Helin
 Category: players
 Slug: player-94cac90d73febffc
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 10
-current_assists: 7
-current_points: 17
+current_assists: 9
+current_points: 19
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 7
-regular_assists: 2
-regular_points: 9
+regular_assists: 4
+regular_points: 11
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 29
 previous_assists: 17
 previous_points: 46
 previous_pim: 8
-career_games: 44
+career_games: 45
 career_goals: 38
-career_assists: 22
-career_points: 60
+career_assists: 24
+career_points: 62
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|8|7|2|9|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|3|5|8|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|2|2|3|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|7|3|10|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|22|14|36|6
-assists: 2
-games: 8
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|7|4|11|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|3|5|8|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|2|2|3|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|7|3|10|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|22|14|36|6
+assists: 4
+games: 9
 goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
-points: 9
-rank: 31
+points: 11
+rank: 19
 season: ch-26-27

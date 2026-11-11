@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Markuss Strazdiņš-Stradiņš
 Category: players
 Slug: player-e8abfe3dc3a4bd85

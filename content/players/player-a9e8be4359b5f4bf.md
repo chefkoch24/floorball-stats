@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Livia Kurz
 Category: players
 Slug: player-a9e8be4359b5f4bf

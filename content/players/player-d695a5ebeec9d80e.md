@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Yvonne Rädler
 Category: players
 Slug: player-d695a5ebeec9d80e

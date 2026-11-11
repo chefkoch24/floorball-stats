@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Tomáš Pavlík
 Category: players
 Slug: player-81ea3def6b0f859a

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Alina Rieder
 Category: players
 Slug: player-1f4d3faa7593aece

@@ -1,4 +1,4 @@
-Date: 2026-11-10
+Date: 2026-11-11
 Title: Miisa Turunen
 Category: players
 Slug: player-0b7fd7c24f356d96
