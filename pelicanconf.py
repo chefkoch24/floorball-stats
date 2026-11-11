@@ -409,6 +409,25 @@ def team_logo(name, category, purpose="website"):
     return matches[0] if len(matches) == 1 else None
 
 
+def team_map(teams, category):
+    """Map of a league's teams at their home towns, or None when the country has no outline."""
+    import logging
+    from src.team_map import build_team_map
+
+    data = build_team_map(teams, league_context(category), logo_for=lambda team: team_logo(team, category))
+    if data and data['missing']:
+        logging.getLogger(__name__).warning(
+            'Team map %s: no location in config/team_locations.json for %s', category, ', '.join(data['missing']))
+    return data
+
+
+def travel(teams, games, category):
+    """Away travel per team and the league's derbies (src/travel.py), or None."""
+    from src.travel import build_travel
+
+    return build_travel(teams, games, league_context(category))
+
+
 def team_url(team, category):
     """URL of a team's page in a season phase, the slug generate_markdown.py writes."""
     from unidecode import unidecode
@@ -566,6 +585,8 @@ JINJA_FILTERS = {
     'league_context': league_context,
     'national_team_page': national_team_page,
     'team_url': team_url,
+    'team_map': team_map,
+    'travel': travel,
 } # reversed for descending order
 
 JINJA_ENVIRONMENT = {

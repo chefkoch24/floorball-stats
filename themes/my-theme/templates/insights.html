@@ -832,9 +832,10 @@
                     <span class="absolute inset-x-0 h-px bg-line-strong" style="bottom: {{ sc.mid_y }}%"></span>
                     <span class="absolute right-2 top-1 text-[11px] font-semibold uppercase tracking-wide text-ink-muted">Strong in both</span>
                     {% for row in data.rows if row.x is defined %}
-                    <a class="absolute grid -translate-x-1/2 translate-y-1/2 place-items-center rounded-pill border border-line-strong bg-surface-raised px-1.5 py-0.5 font-display text-[11px] font-bold leading-none text-ink hover:border-rink hover:no-underline"
+                    <a class="fs-scatter-crest absolute grid -translate-x-1/2 translate-y-1/2 place-items-center rounded-pill hover:z-10 hover:no-underline focus-visible:z-10"
                        style="left: {{ row.x }}%; bottom: {{ row.y }}%" href="{{ SITEURL }}/{{ row.url }}"
-                       title="{{ row.team }}: powerplay {{ pct(row.pp_percent) }} ({{ row.pp_goals }}/{{ row.pp_opportunities }}), penalty kill {{ pct(row.bp_percent) }}">{{ row.team|team_initials }}</a>
+                       aria-label="{{ row.team }}"
+                       title="{{ row.team }}: powerplay {{ pct(row.pp_percent) }} ({{ row.pp_goals }}/{{ row.pp_opportunities }}), penalty kill {{ pct(row.bp_percent) }}">{{ crest(row.team, crest_category) }}</a>
                     {% endfor %}
                 </div>
             </div>

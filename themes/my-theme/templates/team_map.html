@@ -1,0 +1,27 @@
+{# Team map: country outline with every club's logo at its home town (src/team_map.py).
+   Hover or focus shows name, place and points (tips.js); a click opens the team page. #}
+{% macro markup(map, competition) -%}
+{%- set r = map.radius -%}
+<section class="grid min-w-0 gap-3" aria-labelledby="team-map-title">
+    <div class="flex flex-wrap items-baseline justify-between gap-3">
+        <h2 id="team-map-title" class="fs-section-title">Teams on the map</h2>
+        <span class="fs-label">Home towns · {{ map.markers|length }} teams</span>
+    </div>
+    <div class="fs-team-map">
+        <svg class="fs-team-map__svg" style="max-width: {{ map.display_width }}px" viewBox="0 0 {{ map.width }} {{ map.height }}" role="group" aria-label="Map of the {{ competition }} teams by home town">
+            <path class="fs-team-map__country" d="{{ map.country }}"/>
+            {% if map.regions %}<path class="fs-team-map__regions" d="{{ map.regions|join('') }}"/>{% endif %}
+            <path class="fs-team-map__country-line" d="{{ map.country }}"/>
+            {% for m in map.markers %}{% if m.moved %}<line class="fs-team-map__leader" x1="{{ m.ax }}" y1="{{ m.ay }}" x2="{{ m.x }}" y2="{{ m.y }}"/>{% endif %}<circle class="fs-team-map__dot" cx="{{ m.ax }}" cy="{{ m.ay }}" r="2.5"/>{% endfor %}
+            {% for m in map.markers %}
+            <a class="fs-team-map__marker" href="{{ SITEURL }}/{{ m.url }}" data-tip="#{{ m.place }} {{ m.team }} · {{ m.points }} pts · {{ m.town }}" aria-label="{{ m.team }}, place {{ m.place }}, {{ m.town }}">
+                <circle class="fs-team-map__badge" cx="{{ m.x }}" cy="{{ m.y }}" r="{{ r }}" data-crest="{{ m.team|crest_index }}"/>
+                {% if m.logo %}<image href="{{ SITEURL }}/{{ m.logo }}" x="{{ m.x - r * 0.72 }}" y="{{ m.y - r * 0.72 }}" width="{{ r * 1.44 }}" height="{{ r * 1.44 }}" preserveAspectRatio="xMidYMid meet"/>
+                {% else %}<text class="fs-team-map__initials" x="{{ m.x }}" y="{{ m.y }}" dy="0.35em" text-anchor="middle" font-size="{{ r * 0.7 }}">{{ m.team|team_initials }}</text>{% endif %}
+            </a>
+            {% endfor %}
+        </svg>
+    </div>
+    <p class="text-xs text-ink-muted">Logos sit at each club's home town; nearby clubs are spread apart with a line to their town. Outline: Natural Earth.</p>
+</section>
+{%- endmacro %}
