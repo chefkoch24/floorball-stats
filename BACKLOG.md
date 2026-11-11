@@ -22,6 +22,8 @@
 - [ ] Search across leagues
 - [ ] Improve game report sharing ([plan](GAME_REPORT_SHARING_PLAN.md))
 - [ ] Club logos instead of monogram crests ([plan](CLUB_LOGOS_PLAN.md)): current-season logos and share graphics implemented under Felix’s confirmed permission; historical seasons and new-team maintenance remain.
+- [x] Team map on league pages: country outline with club logos at their home towns, hover tooltip and link to the team page ([plan](TEAM_MAP_PLAN.md))
+- [x] Travel on league pages: away kilometres per team, straight line between home towns (`src/travel.py`). Derbies left out for now: what counts as a derby differs per country
 - [x] National cups imported as their own phase `cup` (SE, CH, CZ, FI, DE, men and women), kept out of tables, leaders and player stats; sources per country in the README ("Cups")
 - [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off
 - [ ] Cups with no source yet: Slovakia (no 2026/27 cup in the SZFB stats), Latvia (no senior cup); first approved run of `make refresh-cups`, then hook it into the nightly refresh

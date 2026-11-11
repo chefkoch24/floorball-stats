@@ -132,6 +132,44 @@ a.fs-chip:hover { border-color: var(--rink); color: var(--rink); }
 .fs-crest[data-crest="6"] { --crest: var(--crest-6); }
 .fs-crest[data-crest="7"] { --crest: var(--crest-7); }
 .fs-crest[data-crest="8"] { --crest: var(--crest-8); }
+/* Special teams scatter: club crests as points */
+.fs-scatter-crest .fs-crest { width: 26px; height: 26px; box-shadow: 0 0 0 1.5px var(--surface-raised), 0 1px 3px rgb(0 0 0 / 0.25); }
+.fs-scatter-crest .fs-crest__logo { border-radius: var(--radius-pill); padding: 2px; }
+.fs-scatter-crest:hover .fs-crest,
+.fs-scatter-crest:focus-visible .fs-crest { box-shadow: 0 0 0 2px var(--rink); }
+
+/* Team map on league pages (team_map.html) */
+.fs-team-map {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg, 12px);
+  background: var(--surface-raised);
+  padding: var(--space-3, 12px);
+}
+.fs-team-map__svg { display: block; width: 100%; height: auto; margin-inline: auto; overflow: visible; }
+.fs-team-map__svg path, .fs-team-map__svg line, .fs-team-map__badge { vector-effect: non-scaling-stroke; }
+.fs-team-map__country { fill: var(--surface-sunken); }
+.fs-team-map__regions { fill: none; stroke: var(--line); stroke-width: 0.8; stroke-linejoin: round; }
+.fs-team-map__country-line { fill: none; stroke: var(--line-strong); stroke-width: 1.4; stroke-linejoin: round; }
+.fs-team-map__leader { stroke: var(--ink-muted); stroke-width: 1; opacity: 0.7; }
+.fs-team-map__dot { fill: var(--ink); }
+.fs-team-map__badge { fill: white; stroke: var(--line-strong); stroke-width: 1.2; }
+.fs-team-map__marker:not(:has(image)) .fs-team-map__badge { fill: var(--crest, var(--crest-8)); stroke: none; }
+.fs-team-map__initials { fill: var(--on-crest); font-family: var(--font-display); font-weight: 800; pointer-events: none; }
+.fs-team-map__marker { cursor: pointer; outline: none; }
+.fs-team-map__marker:hover .fs-team-map__badge,
+.fs-team-map__marker:focus-visible .fs-team-map__badge { stroke: var(--rink); stroke-width: 2.5; }
+.fs-team-map__badge[data-crest="1"] { --crest: var(--crest-1); }
+.fs-team-map__badge[data-crest="2"] { --crest: var(--crest-2); }
+.fs-team-map__badge[data-crest="3"] { --crest: var(--crest-3); }
+.fs-team-map__badge[data-crest="4"] { --crest: var(--crest-4); }
+.fs-team-map__badge[data-crest="5"] { --crest: var(--crest-5); }
+.fs-team-map__badge[data-crest="6"] { --crest: var(--crest-6); }
+.fs-team-map__badge[data-crest="7"] { --crest: var(--crest-7); }
+.fs-team-map__badge[data-crest="8"] { --crest: var(--crest-8); }
+
+/* Travel ranking on league pages (travel.html): share of the longest season trip. */
+.fs-travel__bar { display: block; height: 4px; overflow: hidden; border-radius: 2px; background: var(--line); }
+.fs-travel__bar > span { display: block; height: 100%; border-radius: inherit; background: var(--rink); }
 .fs-team {
   display: inline-flex;
   align-items: center;

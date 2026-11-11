@@ -21,6 +21,10 @@
 {% set league_insights = (LEAGUE_INSIGHTS|default({})).get(category.slug, {}) %}
 {% import "insights.html" as insights with context %}
 {% import "versus_link.html" as versus with context %}
+{% import "team_map.html" as team_map_view with context %}
+{% set team_map = none if is_competition else teams|team_map(category.shortname) %}
+{% import "travel.html" as travel_view with context %}
+{% set travel = none if is_competition else teams|travel(games, category.shortname) %}
 
 {% macro decision(game) -%}
 {%- set ps = (game.home_goals_in_penalty_shootout|default(0)|int) + (game.away_goals_in_penalty_shootout|default(0)|int) -%}
@@ -141,6 +145,8 @@
 
 {# Jump links: the page is long on phones. Only sections this league has. #}
 {% set jumps = [('standings-title', 'Standings', true),
+                ('team-map-title', 'Map', team_map),
+                ('travel', 'Travel', travel and travel.rows),
                 ('players', 'Players', player_stats.article and player_rows),
                 ('special-teams', 'Special teams', league_insights.special_teams is defined),
                 ('power-ranking', 'Power ranking', league_insights.power is defined and league_insights.power.rows),
@@ -243,6 +249,14 @@
 
 {% if is_competition %}
 {{ bracket.markup(played_desc|length) }}
+{% endif %}
+
+{% if team_map %}
+{{ team_map_view.markup(team_map, competition) }}
+{% endif %}
+
+{% if travel and travel.rows %}
+{{ travel_view.markup(travel, category.shortname) }}
 {% endif %}
 
 {# Player boards side by side: points, goals, assists, share of team goals. Phones swipe through them. #}

@@ -1,0 +1,38 @@
+{# Travel on league pages (src/travel.py): away kilometres per team, as straight lines between home towns. #}
+{% from 'team_crest.html' import crest with context %}
+
+{% macro km(value) -%}{{ '{:,}'.format(value|int) }} km{%- endmacro %}
+
+{% macro markup(travel, category_slug) %}
+<section id="travel" class="mt-10 grid min-w-0 gap-3 scroll-mt-24" aria-labelledby="travel-title">
+    <div class="grid gap-1">
+        <h2 id="travel-title" class="fs-section-title">Travel</h2>
+        <p class="m-0 text-sm text-ink-muted">Away kilometres this season, as the crow flies between home towns. The league travels {{ km(travel.total_km) }} in all.</p>
+    </div>
+    <div class="grid gap-4 lg:max-w-3xl">
+        <section class="grid content-start gap-3 rounded-lg border border-line bg-surface-raised p-4" aria-labelledby="travel-ranking-title">
+            <div class="flex items-baseline justify-between gap-3">
+                <h3 id="travel-ranking-title" class="fs-panel-title">Who travels most</h3>
+                <span class="fs-label">Season · so far</span>
+            </div>
+            <ol class="m-0 grid list-none gap-0 p-0">
+                {% for row in travel.rows %}
+                <li class="grid grid-cols-[1.5em_auto_minmax(0,1fr)_auto] items-center gap-x-3 border-t border-line py-2 first:border-t-0">
+                    <span class="font-display text-sm text-ink-muted tabular-nums">{{ loop.index }}</span>
+                    {{ crest(row.team, category_slug) }}
+                    <span class="grid min-w-0 gap-1">
+                        <a class="truncate font-semibold text-ink" href="{{ SITEURL }}/{{ row.url }}">{{ row.team }}</a>
+                        <span class="fs-travel__bar" aria-hidden="true"><span style="width: {{ row.share }}%"></span></span>
+                        <span class="text-xs text-ink-muted [overflow-wrap:anywhere]">{{ row.town }} · Ø {{ km(row.average_km) }}{% if row.longest %} · longest {{ row.longest.town }} {{ km(row.longest.km) }}{% endif %}</span>
+                    </span>
+                    <span class="grid text-right">
+                        <span class="font-display text-lg font-extrabold text-ink tabular-nums">{{ km(row.season_km) }}</span>
+                        <span class="text-xs text-ink-muted tabular-nums" title="{{ row.trips_played }} of {{ row.trips }} away games played">{{ km(row.played_km) }} so far</span>
+                    </span>
+                </li>
+                {% endfor %}
+            </ol>
+        </section>
+    </div>
+</section>
+{% endmacro %}
