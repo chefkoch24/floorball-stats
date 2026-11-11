@@ -181,3 +181,13 @@ def test_player_schema_states_club_season_and_tracked_career():
     assert "cup: 3 games, 4 goals, 1 assists" in text and "playoffs" not in text
     assert "24 games, 6 goals, 5 assists, 11 points" in text
     assert seo.season_label("ch-26-27") == "26/27" and seo.season_label("wfc-2024") == ""
+
+
+def test_previews_keep_crawlers_out_and_production_allows_them(tmp_path):
+    def robots(**settings):
+        seo.finalize(Obj(settings={"OUTPUT_PATH": str(tmp_path), "SITEURL": "https://s.example", **settings}))
+        return (tmp_path / "robots.txt").read_text(encoding="utf-8")
+
+    assert "Disallow: /" in robots(CONNECT_BUILD_DIR="connect-preview")
+    production = robots(CONNECT_BUILD_DIR="connect-site")
+    assert "Allow: /" in production and "Sitemap: https://s.example/sitemap.xml" in production

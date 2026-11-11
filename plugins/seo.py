@@ -277,7 +277,11 @@ def finalize(pelican):
             "player_aliases": aliases,
             "lastmod_policy": "Explicit Modified metadata only; fixture dates are not modification dates.",
         }, indent=2) + "\n", encoding="utf-8")
-    (output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site}/sitemap.xml\n", encoding="utf-8")
+    if settings.get("CONNECT_BUILD_DIR") == "connect-preview":
+        # Previews (make preview) live on their own netlify.app URL: keep crawlers out.
+        (output / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
+    else:
+        (output / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site}/sitemap.xml\n", encoding="utf-8")
     if aliases:
         with (output / "_redirects").open("a", encoding="utf-8") as handle:
             handle.write("\n# Canonical player identities (SEO)\n")

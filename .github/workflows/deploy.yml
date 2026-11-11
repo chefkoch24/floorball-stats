@@ -2,7 +2,7 @@ name: Deploy to Netlify
 
 # Builds the site on GitHub Actions and uploads it with the Netlify CLI, so production
 # deploys cost no Netlify build minutes (the repository is public, Actions are free).
-# Netlify itself no longer builds production (scripts/netlify_ignore.sh skips it).
+# Netlify's own builds are stopped (Site configuration → Build & deploy → Stop builds).
 #
 # Setup (once), GitHub → Settings → Secrets and variables → Actions:
 #   NETLIFY_AUTH_TOKEN  Netlify → User settings → Applications → Personal access tokens
