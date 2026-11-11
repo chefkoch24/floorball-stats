@@ -527,20 +527,21 @@ to `master` that touches site files, after every successful "Daily Data Refresh"
 - `NETLIFY_SITE_ID`: Netlify → site floorball-stats → Site configuration → Site ID
 - `NOTION_TOKEN` (optional): the main site's Notion integration
 
-`netlify.toml` runs `scripts/netlify_ignore.sh` before every Netlify build:
+Netlify's own builds are stopped (Site configuration → Build & deploy → Stop builds), so
+Netlify builds nothing by itself: no deploy previews, no failed-build mails. The rendered share
+images in `.cache/og` are kept between Actions runs (actions/cache), so a build only draws images
+that changed. Every PR is built and link-checked by the GitHub workflow "SEO build checks".
 
-- **Production and branch builds** are always skipped; GitHub Actions deploys production.
-- **Deploy previews** build only when the PR's latest commit message contains `[preview]`.
-  Every PR is still built and link-checked by the GitHub workflow "SEO build checks".
-- **Requested previews** skip commits that change no site files (root `*.md`, `docs/`,
-  `tests/`, `scripts/`, `notebooks/`, `social/`, `dashboard/`, `.github/`, `Makefile`).
+**Previews on request** are built locally and uploaded under an alias, without build minutes:
 
-The rendered share images in `.cache/og` are kept between builds (GitHub Actions cache,
-`netlify-plugin-cache` for previews), so a build only draws images that changed.
+```bash
+make preview PELICAN=.venv/bin/pelican                   # alias preview-<branch>
+make preview PELICAN=.venv/bin/pelican ALIAS=my-feature  # https://my-feature--floorball-stats.netlify.app
+```
 
-Without build minutes, a local build can go live the same way:
-`pelican content -o <dir> -s publishconf.py`, then
-`netlify deploy --prod --no-build --dir <dir>`.
+The preview links to its own URL and shows the main site under `/connect-preview/`.
+Production can go live the same way by hand: `pelican content -o <dir> -s publishconf.py`,
+then `netlify deploy --prod --no-build --dir <dir>`.
 
 ## Run tests
 

@@ -275,7 +275,7 @@ repository. It replaced the Softr site and shares the design system with the sta
   when `NOTION_TOKEN` is set) and writes domain rules into `output/_redirects`:
   `https://www.floorballconnect.com/*` is rewritten (200) to `/connect-site/`, the Softr URLs
   redirect on that domain and `floorballconnect.com` redirects to www. The domains only need
-  to be added to the Netlify site. Deploy previews build it into `/connect-preview/` with
+  to be added to the Netlify site. Previews (`make preview`) build it into `/connect-preview/` with
   preview links and no domain rules.
 
 ### 4.9 Visualization + DB
