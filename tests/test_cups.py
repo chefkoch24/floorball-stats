@@ -504,9 +504,15 @@ def test_cup_games_stay_out_of_team_calendars_and_form():
         "SITEURL": "",
     }
 
-    share_assets.collect(SimpleNamespace(settings=settings, articles=articles))
+    generator = SimpleNamespace(settings=settings, articles=articles, context={})
+    share_assets.collect(generator)
 
     assert "og/cup-game.png" in share_assets._state.images
+    # League, cup and playoff pages get their own share image by category slug.
+    assert generator.context["OG_CATEGORY_IMAGES"] == {
+        "se-26-27-regular-season": "og/category-se-26-27-regular-season.png",
+        "se-26-27-cup": "og/category-se-26-27-cup.png",
+    }
     games = {game_id for calendar in share_assets._state.calendars.values() for game_id in calendar["games"]}
     assert games == {"1"}
     assert articles[2].share_team["form"] == ["W"]

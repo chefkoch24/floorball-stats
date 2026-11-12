@@ -340,6 +340,7 @@ html[data-division="women"] [data-division="men"] { display: none; }
     justify-items: center;
     gap: var(--space-4);
     max-height: 100%;
+    overflow-y: auto;
     padding: var(--space-4);
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
@@ -347,8 +348,14 @@ html[data-division="women"] [data-division="men"] { display: none; }
     box-shadow: var(--shadow-menu);
   }
   .share-dialog__controls { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
-  .share-dialog__image { display: block; width: auto; height: min(58vh, 600px); max-width: 100%; border: 1px solid var(--line); border-radius: var(--radius-md); transition: opacity 0.15s ease; }
+  .share-dialog__image { display: block; width: auto; height: min(46vh, 520px); max-width: 100%; border: 1px solid var(--line); border-radius: var(--radius-md); transition: opacity 0.15s ease; }
   .share-dialog.is-busy .share-dialog__image { opacity: 0.5; }
   .share-dialog__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
+  .share-dialog__links { display: grid; justify-items: center; gap: var(--space-2); width: 100%; max-width: 420px; padding-top: var(--space-3); border-top: 1px solid var(--line); }
+  .share-dialog__links[hidden] { display: none; }
+  .share-dialog__label { margin: 0; color: var(--ink-muted); font-size: 13px; }
+  .share-dialog__chips { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-2); }
+  .share-dialog__chips .fs-chip { min-height: 36px; padding: 6px var(--space-3); font-size: 13px; cursor: pointer; }
+  .share-dialog__chips button.fs-chip:hover { border-color: var(--rink); color: var(--rink); }
   .share-dialog__hint { max-width: 32ch; margin: 0; color: var(--ink-muted); font-size: 13px; text-align: center; }
 }
