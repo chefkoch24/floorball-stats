@@ -1,6 +1,6 @@
 # Game Report Sharing Plan
 
-> **Status:** partly shipped, checklist below is outdated · Shipped differently from this plan: share images (`plugins/share_assets.py`), Open Graph and Twitter tags in `base.html`, and a share studio with Story/Post cards (`themes/my-theme/static/js/share-card.js`). Still open: share a link (copy link, native share with URL), `og:image` for players, leagues and past seasons · Backlog: [P1](../../BACKLOG.md#open)
+> **Status:** mostly shipped (2026-11-12), the checklist below is outdated · Shipped differently from this plan: share images and Open Graph/Twitter tags (`plugins/share_assets.py`, `base.html`), a share studio with Story/Post cards (`share-card.js`), and link sharing with copy link, copy text, share sheet, WhatsApp, Telegram, X, Facebook, LinkedIn, Reddit, Bluesky and e-mail (`share-links.js`, tagged with `utm_source=share`, events in [analytics-events](../operations/analytics-events.md)). Open: share images for past seasons · Backlog: [P2](../../BACKLOG.md#open)
 
 Backlog reference:
 

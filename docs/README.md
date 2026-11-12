@@ -27,7 +27,7 @@ Also at the repo root: [`README.md`](../README.md) (how to run the pipelines, se
 |---|---|---|
 | [Team map](features/team-map.md) | shipped | Done |
 | [Club logos](features/club-logos/plan.md) ([rights research](features/club-logos/rights-research.md), [inventory](features/club-logos/inventory.md)) | partly shipped | Open |
-| [Game report sharing](features/game-report-sharing.md) | partly shipped | Open (P1) |
+| [Game report sharing](features/game-report-sharing.md) | mostly shipped | Open (P2) |
 | [SEO](features/seo.md) | mostly shipped | Open (P1) |
 | [Home/away social](features/home-away-social.md) | partly shipped, unverified | Ideas |
 | [Auth and premium access](features/auth-premium-access.md) | idea | none |

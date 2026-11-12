@@ -14,16 +14,16 @@ How it is ranked (as of 2026-11-12): reach first (stats.floorballconnect.com has
 
 ### P1: do next
 
-All three are reach work that Claude can do alone. Details of what exists and what is missing: [SEO plan](docs/features/seo.md), [game report sharing](docs/features/game-report-sharing.md).
+Reach work that Claude can do alone. Details: [SEO plan](docs/features/seo.md). Share links and the search scopes shipped on 2026-11-12, see Done.
 
 - [ ] SEO, visible text on league pages: `league_v2.html` shows an H1 and tables only, no overview paragraph. Add a short factual text per league (teams, season, champion or leader, number of games) so league queries have something to match · M
 - [ ] SEO, related links between entities: no "related" blocks exist on team, league, game or player pages. Link league ↔ cup ↔ women's/men's league, team ↔ rivals/head-to-head, player ↔ team · M
-- [ ] SEO, homepage: today's games are drawn by JavaScript ("Loading games…"), so crawlers see an empty list. Render the games of the build date into the HTML, keep the script for the date strip · S
-- [ ] Game report sharing, what is left (details in the concept doc): share a link, not only an image (copy link and `navigator.share` with title and URL on game, team, player pages); `og:image` for player and league pages and for past seasons (today only current-season games and teams, everything else gets `og/default.png`) · S to M
-- [ ] Search, what is left: the global search finds teams and players of all leagues, but not leagues, competitions, cups or games. Add leagues/cups (and optionally games) to `search-index.json` · S to M
 
 ### P2: next
 
+- [ ] Search for games: players, teams and leagues/cups are searchable in scopes; games are not (search by team pair or date). Decide first whether people look for games by name · S to M
+- [ ] Share images for past seasons and for players without a club logo: today only current-season games, teams, leagues and players with a logo have their own `og:image`, the rest gets `og/default.png` · S, low reach
+- [ ] SEO, homepage: today's games are drawn by JavaScript ("Loading games…"), so crawlers see an empty list. Render the games of the build date into the HTML, keep the script for the date strip · S, not urgent
 - [ ] Women's leagues: playoff configs (series formats) for CH, FI, CZ, SK, LV, DE. Not needed before the playoffs start in March 2027; they are added once the regular fetches show the playoff phase (SSL Damer is done) · trigger: March 2027
 - [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`; until then new reviews on the main site do not sync · Felix, 5 min, parked on purpose
 - [ ] Collect missing product reviews and improve priority product comparisons (main site) · closest to the first euro, needs real review data
@@ -55,9 +55,10 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 
 ### Games and results
 
+- [x] Share links in the share studio: copy link, copy text, device share sheet, WhatsApp, Telegram, X, Facebook, LinkedIn, Reddit, Bluesky, e-mail; links tagged `utm_source=share`; PostHog events `share_link_clicked/_completed/_failed` ([`share-links.js`](themes/my-theme/static/js/share-links.js), [analytics events](docs/operations/analytics-events.md))
 - [x] Share studio: Instagram cards (Story and Post, dark or light) for game, team, player and table, drawn in the browser (`themes/my-theme/static/js/share-card.js`), with download and native share of the image
-- [x] Share images (`og:image`, 1200×630) for current-season games and teams, team calendar feeds (.ics) for Apple/Outlook/Google (`plugins/share_assets.py`, `tests/test_share_assets.py`)
-- [x] Global search for teams and players of all leagues, men and women (about 4,700 players, 400 teams; `src/build_search_index.py`)
+- [x] Share images (`og:image`, 1200×630) for current-season games, teams, players with a club logo, and league, playoff, cup and player-table pages, team calendar feeds (.ics) for Apple/Outlook/Google (`plugins/share_assets.py`, `tests/test_share_assets.py`)
+- [x] Global search with scopes (All, Players, Teams, Leagues & cups): all 4,703 players with team and season, one row per club and league, 78 league/cup pages, ranked by name match, newest season and points (`src/build_search_index.py`, `search-rank.js`)
 
 - [x] Show if a game was won in OT or PS from the games overview templates
 - [x] Show in the game lists the winning (including ot or ps wins) team in bold. If it was a draw make both teams not bold
