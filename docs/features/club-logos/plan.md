@@ -1,5 +1,7 @@
 # Club Logos Plan
 
+> **Status:** partly shipped · current-season logos and share graphics done; historical seasons and new-team maintenance open · Backlog: [Club logos](../../../BACKLOG.md#open) · Related: [rights research](rights-research.md), [inventory](inventory.md)
+
 Date: 2026-10-30
 
 ## Goal
@@ -12,7 +14,7 @@ Mostly yes. The bulk work is once: map every team to its logo, download it, norm
 
 Maintenance remains in four places, all small:
 
-1. **Promoted teams**, once per season at rollover (`README.md` season rollover checklist gets one step).
+1. **Promoted teams**, once per season at rollover ([`README.md`](../../../README.md) season rollover checklist gets one step).
 2. **Rebrands**: a club changes its logo, roughly a handful per season across all leagues. A monthly check of the source URLs catches them.
 3. **Sponsor renames**: names like "UHC Sparkasse Weißenfels" or "FBC ČPP MPL Stavebniny Ostrava" change with sponsors. Mapping by the source's team id instead of the name keeps the logo attached (see Mapping).
 4. **New leagues**: each new backend needs its logo source once.
@@ -39,8 +41,8 @@ Nothing has to be scraped from sites we don't already read, and most logos come 
 Club logos are the clubs' trademarks, and the logo artwork is protected by copyright. Our own brand book says so today ("Teams appear as monogram crests, never as club logos, because those are the clubs' trademarks"), so this plan changes a deliberate decision.
 
 - **Common practice:** Result sites (Flashscore, Sofascore, the league sites themselves) show club logos to identify teams. That use, a logo next to the name in a table, is the least risky.
-- **Higher risk:** Logos on share images and social posts can look like official club or league material. The same goes for any paid or premium feature (the SaaS direction in `VISION.md`).
-- **Data terms:** The Swedish iBIS API terms restrict access (see `LEAGUE_PORTALS_RESEARCH.md`). We use the public StatsApp API, so its terms should be read once before we store its images.
+- **Higher risk:** Logos on share images and social posts can look like official club or league material. The same goes for any paid or premium feature (the SaaS direction in [`VISION.md`](../../architecture/VISION.md)).
+- **Data terms:** The Swedish iBIS API terms restrict access (see [`league-portals.md`](../../research/league-portals.md)). We use the public StatsApp API, so its terms should be read once before we store its images.
 
 Options:
 

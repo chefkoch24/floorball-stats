@@ -485,7 +485,7 @@ make refresh-current-season-playoffs
 ## Main site: floorballconnect.com (`connect/`)
 
 The main site is its own Pelican site in `connect/` on the stats design system
-(see ARCHITECTURE.md, 4.8a).
+(see docs/architecture/ARCHITECTURE.md, 4.8a).
 
 ```bash
 make connect-css PYTHON=.venv/bin/python        # after changing themes/connect or the shared CSS
@@ -578,6 +578,6 @@ python scripts/check_seo.py output --report /tmp/floorball-seo-check.json
 
 This uses existing content; it does not require a full league refresh. PRs run the
 same check in `.github/workflows/seo-check.yml`. See
-[Google reindexing checklist](docs/GOOGLE_REINDEXING.md) and
-[prioritized submission URLs](docs/google-reindex-urls.txt) for the exact post-deploy
+[Google reindexing checklist](docs/operations/google-reindexing.md) and
+[prioritized submission URLs](docs/operations/google-reindex-urls.txt) for the exact post-deploy
 steps. Submit production URLs only, after merging and deploying the PR.

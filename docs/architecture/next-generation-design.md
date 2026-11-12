@@ -1,5 +1,7 @@
 # Next Generation Design: Multi-Country Floorball Analytics Platform
 
+> **Status:** target picture from March 2026. Multi-country operation is live (7 countries), details differ from this design. [ARCHITECTURE.md](ARCHITECTURE.md) is authoritative.
+
 ## 1. Objective
 Build the next generation of the platform from a single-league (Germany-focused) system to a multi-country, multi-league analytics product that supports:
 

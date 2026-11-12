@@ -1,5 +1,7 @@
 # Scorer Names Feasibility Analysis
 
+> **Status:** research of 2026-03-16; scorer events are integrated since (see [Backlog](../../BACKLOG.md#done))
+
 Date: 2026-03-16
 
 ## Executive Summary

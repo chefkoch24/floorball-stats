@@ -1,5 +1,7 @@
 # SEO Improvement Plan
 
+> **Status:** mostly shipped · open items in the tracking list below and in the backlog under [SEO follow-up](../../BACKLOG.md#seo-follow-up-1-november-2026) · Operations: [Google reindexing](../operations/google-reindexing.md)
+
 ## Scope
 
 This plan is based on the current Pelican templates and config in this repository, with a focus on:
@@ -13,15 +15,15 @@ This plan is based on the current Pelican templates and config in this repositor
 
 Main files reviewed:
 
-- [themes/my-theme/templates/base.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html)
-- [themes/my-theme/templates/index.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/index.html)
-- [themes/my-theme/templates/category.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/category.html)
-- [themes/my-theme/templates/article.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/article.html)
-- [themes/my-theme/templates/team.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/team.html)
-- [themes/my-theme/templates/game.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/game.html)
-- [themes/my-theme/templates/liga.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/liga.html)
-- [pelicanconf.py](/Users/felixkuennecke/Projects/floorball-stats/pelicanconf.py)
-- [publishconf.py](/Users/felixkuennecke/Projects/floorball-stats/publishconf.py)
+- [themes/my-theme/templates/base.html](../../themes/my-theme/templates/base.html)
+- [themes/my-theme/templates/index.html](../../themes/my-theme/templates/index.html)
+- [themes/my-theme/templates/category.html](../../themes/my-theme/templates/category.html)
+- [themes/my-theme/templates/article.html](../../themes/my-theme/templates/article.html)
+- [themes/my-theme/templates/team.html](../../themes/my-theme/templates/team.html)
+- [themes/my-theme/templates/game.html](../../themes/my-theme/templates/game.html)
+- [themes/my-theme/templates/liga.html](../../themes/my-theme/templates/liga.html)
+- [pelicanconf.py](../../pelicanconf.py)
+- [publishconf.py](../../publishconf.py)
 
 ## Current Findings
 
@@ -34,7 +36,7 @@ Impact: High
 
 Issues:
 
-- all pages currently use the same `<title>` in [themes/my-theme/templates/base.html:6](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html#L6)
+- all pages currently use the same `<title>` in [themes/my-theme/templates/base.html:6](../../themes/my-theme/templates/base.html#L6)
 - no page-specific meta descriptions
 - no canonical tags
 - no Open Graph tags
@@ -56,8 +58,8 @@ Impact: High
 
 Issues:
 
-- `SITEURL = ''` in [pelicanconf.py:4](/Users/felixkuennecke/Projects/floorball-stats/pelicanconf.py#L4)
-- `SITEURL = ''` in [publishconf.py:10](/Users/felixkuennecke/Projects/floorball-stats/publishconf.py#L10)
+- `SITEURL = ''` in [pelicanconf.py:4](../../pelicanconf.py#L4)
+- `SITEURL = ''` in [publishconf.py:10](../../publishconf.py#L10)
 
 Why this matters:
 
@@ -96,7 +98,7 @@ Impact: High
 
 Files:
 
-- [themes/my-theme/templates/game.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/game.html)
+- [themes/my-theme/templates/game.html](../../themes/my-theme/templates/game.html)
 
 Issues:
 
@@ -122,11 +124,11 @@ Impact: High
 
 Files:
 
-- [themes/my-theme/templates/team.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/team.html)
+- [themes/my-theme/templates/team.html](../../themes/my-theme/templates/team.html)
 
 Issues:
 
-- only the team name is used as the main heading in [themes/my-theme/templates/team.html:4](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/team.html#L4)
+- only the team name is used as the main heading in [themes/my-theme/templates/team.html:4](../../themes/my-theme/templates/team.html#L4)
 - subtitle text is generic
 - no structured data for the team entity
 - no explicit league / season / country keyword framing in metadata
@@ -148,12 +150,12 @@ Impact: Medium
 
 Files:
 
-- [themes/my-theme/templates/liga.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/liga.html)
+- [themes/my-theme/templates/liga.html](../../themes/my-theme/templates/liga.html)
 
 Issues:
 
 - page content is dominated by KPI and table output
-- subtitle copy is generic in [themes/my-theme/templates/liga.html:5](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/liga.html#L5)
+- subtitle copy is generic in [themes/my-theme/templates/liga.html:5](../../themes/my-theme/templates/liga.html#L5)
 - no league overview paragraph exists
 
 Why this matters:
@@ -170,11 +172,11 @@ Impact: Medium to High
 
 Files:
 
-- [themes/my-theme/templates/category.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/category.html)
+- [themes/my-theme/templates/category.html](../../themes/my-theme/templates/category.html)
 
 Issues:
 
-- heading is good, but intro copy is generic in [themes/my-theme/templates/category.html:26](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/category.html#L26)
+- heading is good, but intro copy is generic in [themes/my-theme/templates/category.html:26](../../themes/my-theme/templates/category.html#L26)
 - standings and game lists have little explanatory text
 - there are no breadcrumbs
 
@@ -198,7 +200,7 @@ Impact: Medium
 
 Files:
 
-- [themes/my-theme/templates/index.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/index.html)
+- [themes/my-theme/templates/index.html](../../themes/my-theme/templates/index.html)
 
 Issues:
 
@@ -250,8 +252,8 @@ Impact: Medium
 
 Files:
 
-- [pelicanconf.py:17](/Users/felixkuennecke/Projects/floorball-stats/pelicanconf.py#L17)
-- [themes/my-theme/templates/base.html:2](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html#L2)
+- [pelicanconf.py:17](../../pelicanconf.py#L17)
+- [themes/my-theme/templates/base.html:2](../../themes/my-theme/templates/base.html#L2)
 
 Issues:
 
@@ -315,8 +317,8 @@ These are the changes with the best speed-to-value ratio.
 
 More specifically:
 
-1. Add titles, descriptions, canonicals, and OG tags in [themes/my-theme/templates/base.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html)
-2. Set production `SITEURL` in [publishconf.py](/Users/felixkuennecke/Projects/floorball-stats/publishconf.py)
+1. Add titles, descriptions, canonicals, and OG tags in [themes/my-theme/templates/base.html](../../themes/my-theme/templates/base.html)
+2. Set production `SITEURL` in [publishconf.py](../../publishconf.py)
 3. Add sitemap and `robots.txt`
 4. Add category intro copy and breadcrumbs
 5. Add game summary text and `SportsEvent` schema
@@ -367,16 +369,16 @@ League pages:
 
 If work starts now, these should be the first practical tasks:
 
-1. Update [themes/my-theme/templates/base.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html) so page types can inject:
+1. Update [themes/my-theme/templates/base.html](../../themes/my-theme/templates/base.html) so page types can inject:
    - title
    - meta description
    - canonical URL
    - Open Graph values
-2. Update [publishconf.py](/Users/felixkuennecke/Projects/floorball-stats/publishconf.py) to use the production URL
+2. Update [publishconf.py](../../publishconf.py) to use the production URL
 3. Add server-rendered descriptive copy to:
-   - [themes/my-theme/templates/category.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/category.html)
-   - [themes/my-theme/templates/team.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/team.html)
-   - [themes/my-theme/templates/game.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/game.html)
+   - [themes/my-theme/templates/category.html](../../themes/my-theme/templates/category.html)
+   - [themes/my-theme/templates/team.html](../../themes/my-theme/templates/team.html)
+   - [themes/my-theme/templates/game.html](../../themes/my-theme/templates/game.html)
 4. Add breadcrumbs across category, team, game, and league pages
 5. Add sitemap and `robots.txt`
 

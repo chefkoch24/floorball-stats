@@ -82,7 +82,7 @@ if (window.Chart) {
     Chart.defaults.borderColor = fsChartColors.line;
 }
 </script>
-{# Shared analytics helper (events: docs/analytics-events.md). Loaded in the head because inline scripts in the page content use fbTrack; the PostHog snippet further down is only read when an event is sent. #}
+{# Shared analytics helper (events: docs/operations/analytics-events.md). Loaded in the head because inline scripts in the page content use fbTrack; the PostHog snippet further down is only read when an event is sent. #}
 <script src="{{ SITEURL }}/theme/js/tracking.js" data-site="stats"></script>
 </head>
 <body>

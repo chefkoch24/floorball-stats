@@ -1,5 +1,7 @@
 # Vision
 
+> **Status:** current vision · priorities and ideas: [Backlog](../../BACKLOG.md)
+
 ## Why This Project Exists
 
 `floorball-stats` should become the best structured and most trusted public source for floorball statistics across leagues and international competitions.

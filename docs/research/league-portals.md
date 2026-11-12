@@ -1,5 +1,7 @@
 # League Portals Deep Scan (Portals + JSON Backends)
 
+> **Status:** research of 2026-03-04; basis for the country scrapers in `src/scrape_*.py`
+
 Date: 2026-03-04
 
 Scope: Sweden (SSL), Finland (F‑liiga), Switzerland (L‑UPL), Czech Republic (Livesport Superliga).

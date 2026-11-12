@@ -1,5 +1,7 @@
 # Home/Away Split Social Plan
 
+> **Status:** partly shipped · social renderer exists in `src/social_media/` (`render_home_away.py`, `pipelines/home_away.py`); the phases below were never ticked off and are not verified against the code
+
 ## Objective
 
 Build a first "beyond the standings" feature that turns the existing regular-season team stats into:
