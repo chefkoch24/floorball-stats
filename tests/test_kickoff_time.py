@@ -10,8 +10,12 @@ from kickoff_time import kickoff_label, kickoff_parts, timezone_for_prefix, tour
 from pelicanconf import fmt_kickoff  # noqa: E402
 
 
+def plain(text):
+    return text.replace("\u00a0", " ")
+
+
 def label(prefix, start="18:30", day=date(2026, 11, 12), **kwargs):
-    return kickoff_label(kickoff_parts(day, start, prefix, **kwargs))
+    return plain(kickoff_label(kickoff_parts(day, start, prefix, **kwargs)))
 
 
 def test_finnish_and_latvian_games_show_local_time_and_german_time():
@@ -59,15 +63,15 @@ def game(category, start="18:30"):
 
 
 def test_fmt_kickoff_reads_the_league_from_the_game_category():
-    assert fmt_kickoff(game("fi-26-27-regular-season")) == "18:30 EET (17:30 CET)"
+    assert plain(fmt_kickoff(game("fi-26-27-regular-season"))) == "18:30 EET (17:30 CET)"
     assert fmt_kickoff(game("26-27-regular-season")) == "18:30"
-    assert fmt_kickoff(game("cc-26-27-playoffs")) == "18:30 CET"
-    assert fmt_kickoff(game("fi-26-27-cup")) == "18:30 EET (17:30 CET)"
+    assert plain(fmt_kickoff(game("cc-26-27-playoffs"))) == "18:30 CET"
+    assert plain(fmt_kickoff(game("fi-26-27-cup"))) == "18:30 EET (17:30 CET)"
 
 
 def test_fmt_kickoff_reads_cup_rows_and_falls_back_for_missing_times():
     row = {"date": datetime(2026, 11, 12), "category": "fi-26-27-cup", "start_time": "18:30"}
-    assert fmt_kickoff(row) == "18:30 EET (17:30 CET)"
+    assert plain(fmt_kickoff(row)) == "18:30 EET (17:30 CET)"
     assert fmt_kickoff(game("fi-26-27-regular-season", start="")) == "TBD"
     assert fmt_kickoff(game("fi-26-27-regular-season", start="TBD")) == "TBD"
     assert fmt_kickoff(game("fi-26-27-regular-season", start=None), "") == ""
@@ -75,13 +79,18 @@ def test_fmt_kickoff_reads_cup_rows_and_falls_back_for_missing_times():
 
 def test_wfc_times_are_stored_in_utc_and_shown_in_the_host_city():
     parts = tournament_kickoff_parts(date(2024, 12, 11), "08:30", "wfc-2024-playoffs")
-    assert kickoff_label(parts) == "09:30 CET"
-    assert fmt_kickoff(game("wfc-2024-regular-season", start="08:30")) == "09:30 CET"
+    assert plain(kickoff_label(parts)) == "09:30 CET"
+    assert plain(fmt_kickoff(game("wfc-2024-regular-season", start="08:30"))) == "09:30 CET"
 
 
 def test_unlisted_tournament_is_labelled_utc_with_the_german_time():
-    assert kickoff_label(tournament_kickoff_parts(date(2026, 12, 11), "08:30", "wfc-2026-playoffs")) == "08:30 UTC (09:30 CET)"
+    assert plain(kickoff_label(tournament_kickoff_parts(date(2026, 12, 11), "08:30", "wfc-2026-playoffs"))) == "08:30 UTC (09:30 CET)"
 
 
 def test_tournament_helper_ignores_league_categories():
     assert tournament_kickoff_parts(date(2026, 11, 12), "18:30", "fi-26-27-regular-season") is None
+
+
+def test_labels_only_wrap_between_local_and_german_time():
+    text = kickoff_label(kickoff_parts(date(2026, 11, 12), "18:30", "fi-"))
+    assert text.split(" ") == ["18:30\u00a0EET", "(17:30\u00a0CET)"]

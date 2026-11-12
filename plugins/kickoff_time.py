@@ -14,6 +14,7 @@ from zoneinfo import ZoneInfo
 
 HOME_ZONE = ZoneInfo("Europe/Berlin")
 UTC_ZONE = ZoneInfo("UTC")
+NBSP = "\u00a0"
 
 # Country part of the league prefix (women's leagues append "w") -> local time zone.
 COUNTRY_TIMEZONES = {
@@ -88,12 +89,15 @@ def _parts(day, start_time, local_zone: ZoneInfo, stored_zone: ZoneInfo | None, 
 
 
 def kickoff_label(parts: dict | None) -> str:
-    """"18:30", "18:30 CET" or "18:30 EET (17:30 CET)" for :func:`kickoff_parts`."""
+    """"18:30", "18:30 CET" or "18:30 EET (17:30 CET)" for :func:`kickoff_parts`.
+
+    Words inside one time are joined by no-break spaces, so a narrow card wraps between
+    the local time and the German one, never inside either.
+    """
     if not parts:
         return ""
-    label = parts["local"] + (f" {parts['zone']}" if parts["zone"] else "")
+    label = parts["local"] + (f"{NBSP}{parts['zone']}" if parts["zone"] else "")
     if parts["home"]:
-        note = f", {parts['home_note']}" if parts["home_note"] else ""
-        label += f" ({parts['home']} {parts['home_zone']}{note})"
+        note = f",{NBSP}{parts['home_note'].replace(' ', NBSP)}" if parts["home_note"] else ""
+        label += f" ({parts['home']}{NBSP}{parts['home_zone']}{note})"
     return label
-

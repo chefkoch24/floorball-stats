@@ -1086,6 +1086,7 @@ def _attach_stakes(category: str, entries, game_stakes: dict, league_context) ->
         "away": result.away,
         "date": article.date,
         "start_time": _meta(article, "start_time"),
+        "category": category,
         "headline": st.headline(result.game_id),
         "sentence": stake.sentence,
     }
