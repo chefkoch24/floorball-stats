@@ -65,6 +65,7 @@ def games(articles, settings, filters, today: date) -> list[dict]:
             "date": day.isoformat(),
             "day": day.strftime("%a %d %b"),
             "time": filters["fmt_time"](_value(article, "start_time", ""), "TBD"),
+            "timeLabel": filters["fmt_kickoff"](article, "TBD"),
             "league": filters["category2string"](category),
             "division": league.get("division", "men"),
             "home": home, "away": away,

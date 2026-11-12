@@ -144,7 +144,7 @@
             {% set is_draw = home_goals == away_goals %}
             <tr>
                 <td>{{ game.date.strftime('%Y-%m-%d') if game.date else 'n.a.' }}</td>
-                <td>{{ game.start_time|default('–') }}</td>
+                <td>{{ game|fmt_kickoff('–') }}</td>
                 <td>{{ game.tournament_group|default(game.league_name|default('–')) }}</td>
                 <td class="wfc-game-col">
                     <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team|replace(' Men', '') }}</span>
@@ -196,7 +196,7 @@
             {% set is_draw = home_goals == away_goals %}
             <tr>
                 <td>{{ game.date.strftime('%Y-%m-%d') if game.date else 'n.a.' }}</td>
-                <td>{{ game.start_time|default('–') }}</td>
+                <td>{{ game|fmt_kickoff('–') }}</td>
                 <td>{{ render_round_label(game.tournament_round|default('Elimination')) }}</td>
                 <td class="wfc-game-col">
                     <span class="{% if not is_draw and home_goals > away_goals %}game-team-winner{% endif %}">{{ game.home_team|replace(' Men', '') }}</span>

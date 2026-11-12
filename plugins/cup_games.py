@@ -45,6 +45,7 @@ def cup_row(game, team):
         "home": home,
         "scheduled": scheduled,
         "start_time": _value(game, "start_time"),
+        "category": game.category.shortname if getattr(game, "category", None) else "",
         "goals_for": goals_for,
         "goals_against": goals_against,
         "outcome": "" if scheduled else ("W" if goals_for > goals_against else "L" if goals_for < goals_against else "D"),

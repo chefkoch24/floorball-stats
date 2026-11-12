@@ -3,7 +3,10 @@ from __future__ import annotations
 import argparse
 import html
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
+
+from plugins.kickoff_time import kickoff_label, tournament_kickoff_parts
 
 
 ROUND_LABELS = {
@@ -189,7 +192,7 @@ def _game_row_html(game: GameRow, *, include_group: bool) -> str:
     return (
         "<tr>"
         f"<td>{html.escape(game.date)}</td>"
-        f"<td>{html.escape(game.start_time)}</td>"
+        f"<td>{html.escape(_kickoff_text(game))}</td>"
         f"{group_cell}"
         f"<td class=\"wfc-game-col\">{home_team_html} vs {away_team_html}</td>"
         f"{_result_cell_html(game)}"
@@ -209,6 +212,15 @@ def _normalized_time_value(value: str) -> str:
     except ValueError:
         return "99:99"
     return f"{hours:02d}:{minutes:02d}"
+
+
+def _kickoff_text(game: GameRow) -> str:
+    """Start time in the host city's time with its zone; the feed stores UTC (plugins/kickoff_time.py)."""
+    try:
+        day = date.fromisoformat(game.date[:10])
+    except ValueError:
+        return game.start_time
+    return kickoff_label(tournament_kickoff_parts(day, game.start_time, "wfc-2024")) or game.start_time
 
 
 def _game_sort_key(game: GameRow) -> tuple[str, str, str]:

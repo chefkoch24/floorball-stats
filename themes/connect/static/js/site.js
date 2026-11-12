@@ -55,7 +55,7 @@
         const awayLost = played && game.awayGoals < game.homeGoals;
         const status = played
           ? `<span class="fs-status fs-status--final">Final${game.decision ? ' · ' + escape(game.decision) : ''}</span>`
-          : `<span class="fs-status">${escape(game.time)}</span>`;
+          : `<span class="fs-status">${escape(game.timeLabel || game.time)}</span>`;
         const scores = played
           ? `<span class="${homeLost ? 'fs-match__loser' : ''}">${game.homeGoals}</span><span class="${awayLost ? 'fs-match__loser' : ''}">${game.awayGoals}</span>`
           : (game.homeChance ? `<span class="fc-chance">${escape(game.homeChance)}</span><span class="fc-chance">${escape(game.awayChance)}</span>` : '<span class="fs-match__loser">–</span><span class="fs-match__loser">–</span>');

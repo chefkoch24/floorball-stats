@@ -25,7 +25,7 @@
         {% else %}
         <span class="fs-status fs-status--final">Final{% if decision %} · {{ decision }}{% endif %}</span>
         {% endif %}
-        <span class="fs-chip">{{ article.date.strftime('%a %d %b %Y') if article.date else 'Date tbd' }}{% if game_scheduled %} · {{ article.start_time|fmt_time('TBD') }}{% endif %}</span>
+        <span class="fs-chip">{{ article.date.strftime('%a %d %b %Y') if article.date else 'Date tbd' }}{% if game_scheduled %} · {{ article|fmt_kickoff('TBD') }}{% endif %}</span>
         {% if article.venue|default('') %}<span class="fs-chip">{{ article.venue|e }}</span>{% endif %}
         {% if attendance_text and attendance_text != 'n.a.' %}<span class="fs-chip">{{ attendance_text }} spectators</span>{% endif %}
     </div>

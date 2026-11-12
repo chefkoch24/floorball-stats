@@ -58,6 +58,7 @@
                     data-date="{{ article.date.strftime('%Y-%m-%d') }}"
                     data-day="{{ article.date.strftime('%a %d %b') }}"
                     data-time="{{ article.start_time|fmt_time('TBD') }}"
+                    data-time-label="{{ article|fmt_kickoff('TBD') }}"
                     data-home="{{ article.home_team|default('n.a.')|e }}"
                     data-away="{{ article.away_team|default('n.a.')|e }}"
                     data-home-logo="{{ (SITEURL ~ '/' ~ (article.home_team|team_logo(category_short))) if article.home_team|team_logo(category_short) else '' }}"
@@ -318,7 +319,7 @@
             const ag = Number(game.awayGoals);
             const status = played
                 ? `<span class="fs-status fs-status--final">Final${game.decision ? ' · ' + game.decision : ''}</span>`
-                : `<span class="fs-status">${escapeHtml(game.time)}</span>`;
+                : `<span class="fs-status">${escapeHtml(game.timeLabel || game.time)}</span>`;
             return `
                 <a class="fs-match" href="${game.url}">
                     <div class="fs-match__meta"><span>${escapeHtml(game.league)}</span>${status}</div>

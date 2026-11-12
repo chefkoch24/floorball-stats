@@ -552,7 +552,7 @@
 <a class="mb-8 grid gap-2 rounded-lg border border-line bg-surface-raised p-4 text-ink hover:border-rink hover:no-underline" href="{{ SITEURL }}/{{ game.url }}">
     <span class="flex flex-wrap items-center justify-between gap-2">
         <span class="fs-status fs-status--live">{{ game.headline }}</span>
-        <span class="text-sm text-ink-muted">{{ game.date.strftime('%a %-d %b') }}{% if game.start_time %} · {{ game.start_time|fmt_time('') }}{% endif %}</span>
+        <span class="text-sm text-ink-muted">{{ game.date.strftime('%a %-d %b') }}{% if game.start_time %} · {{ game|fmt_kickoff('') }}{% endif %}</span>
     </span>
     <span class="flex flex-wrap items-center gap-x-3 gap-y-1 font-display text-xl font-bold">
         <span class="fs-team">{{ crest(game.home, crest_category) }}<span>{{ game.home }}</span></span>

@@ -15,6 +15,7 @@ FILTERS = {
     "category2string": lambda slug: f"League {slug}",
     "league_context": lambda slug: {"division": "women" if slug.startswith("sew") else "men"},
     "fmt_time": lambda value, default="TBD": value or default,
+    "fmt_kickoff": lambda game, default="TBD": f"{game.metadata['start_time']} EET",
 }
 SETTINGS = {
     "CURRENT_SEASON": "26-27",

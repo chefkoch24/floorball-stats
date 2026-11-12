@@ -47,7 +47,7 @@
     <div class="fs-match__meta">
         <span>{{ game.date.strftime('%a %d %b') }}</span>
         {% if scheduled %}
-        <span class="fs-status">{{ game.start_time|fmt_time('TBD') }}</span>
+        <span class="fs-status">{{ game|fmt_kickoff('TBD') }}</span>
         {% if home_place and away_place and home_place <= top_game_places and away_place <= top_game_places %}<span class="fs-status fs-status--top" title="Both teams are in the top {{ top_game_places }} of the table">Top game</span>{% endif %}
         {% else %}
         <span class="fs-status fs-status--final">Final{% if extra %} · {{ extra }}{% endif %}</span>
