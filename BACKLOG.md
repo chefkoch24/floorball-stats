@@ -14,20 +14,18 @@ How it is ranked (as of 2026-11-12): reach first (stats.floorballconnect.com has
 
 ### P1: do next
 
-Quick wins for Felix (each under 30 minutes, no code):
+All three are reach work that Claude can do alone. Details of what exists and what is missing: [SEO plan](docs/features/seo.md), [game report sharing](docs/features/game-report-sharing.md).
 
-- [ ] Search Console: submit both sitemaps, inspect the priority URLs in [`google-reindex-urls.txt`](docs/operations/google-reindex-urls.txt), check the production redirects (production deploys now run from GitHub Actions) · reach · [runbook](docs/operations/google-reindexing.md)
-- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`; the secret is still missing, so new reviews on the main site do not sync
-
-Features, in this order:
-
-- [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done) · deadline, data only · S
-- [ ] SEO foundation from the plan's tracking list: `robots.txt`, league descriptive text, related entity links · reach, Claude can do it alone · M · [SEO plan](docs/features/seo.md)
-- [ ] Improve game report sharing: share toolbar, OG/Twitter metadata, generated share images · discovery loop, every shared game brings new visitors · M · [concept](docs/features/game-report-sharing.md)
-- [ ] Search across leagues · utility, keeps visitors on the site · M
+- [ ] SEO, visible text on league pages: `league_v2.html` shows an H1 and tables only, no overview paragraph. Add a short factual text per league (teams, season, champion or leader, number of games) so league queries have something to match · M
+- [ ] SEO, related links between entities: no "related" blocks exist on team, league, game or player pages. Link league ↔ cup ↔ women's/men's league, team ↔ rivals/head-to-head, player ↔ team · M
+- [ ] SEO, homepage: today's games are drawn by JavaScript ("Loading games…"), so crawlers see an empty list. Render the games of the build date into the HTML, keep the script for the date strip · S
+- [ ] Game report sharing, what is left (details in the concept doc): share a link, not only an image (copy link and `navigator.share` with title and URL on game, team, player pages); `og:image` for player and league pages and for past seasons (today only current-season games and teams, everything else gets `og/default.png`) · S to M
+- [ ] Search, what is left: the global search finds teams and players of all leagues, but not leagues, competitions, cups or games. Add leagues/cups (and optionally games) to `search-index.json` · S to M
 
 ### P2: next
 
+- [ ] Women's leagues: playoff configs (series formats) for CH, FI, CZ, SK, LV, DE. Not needed before the playoffs start in March 2027; they are added once the regular fetches show the playoff phase (SSL Damer is done) · trigger: March 2027
+- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`; until then new reviews on the main site do not sync · Felix, 5 min, parked on purpose
 - [ ] Collect missing product reviews and improve priority product comparisons (main site) · closest to the first euro, needs real review data
 - [ ] Recheck streaming prices and deal validity against original sources; show verified update/expiry dates · trust, and affiliate-relevant · S
 - [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off · M
@@ -38,8 +36,8 @@ Features, in this order:
 ### P3: later
 
 - [ ] Scalable process across leagues · pays off when league number 8 comes, no visible effect for users now · L · [next-generation design](docs/architecture/next-generation-design.md), [ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md)
-- [ ] Evaluate evergreen league/team hubs and targeted training/language pages using Search Console demand · wait for Search Console data from the quick win above
-- [ ] SEO plan, rest of the tracking list: language alignment, server-rendered homepage featured content, archive hubs
+- [ ] Evaluate evergreen league/team hubs and targeted training/language pages using Search Console demand · wait for a few weeks of Search Console data
+- [ ] SEO plan leftovers to re-check first: language alignment, archive hubs (not verified whether they are still missing)
 
 ## Ideas and user feedback
 
@@ -56,6 +54,10 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 ## Done
 
 ### Games and results
+
+- [x] Share studio: Instagram cards (Story and Post, dark or light) for game, team, player and table, drawn in the browser (`themes/my-theme/static/js/share-card.js`), with download and native share of the image
+- [x] Share images (`og:image`, 1200×630) for current-season games and teams, team calendar feeds (.ics) for Apple/Outlook/Google (`plugins/share_assets.py`, `tests/test_share_assets.py`)
+- [x] Global search for teams and players of all leagues, men and women (about 4,700 players, 400 teams; `src/build_search_index.py`)
 
 - [x] Show if a game was won in OT or PS from the games overview templates
 - [x] Show in the game lists the winning (including ot or ps wins) team in bold. If it was a draw make both teams not bold
@@ -105,6 +107,10 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
 
 ### SEO and AI readiness
+
+- [x] Google Search Console is set up (Felix); sitemaps submitted
+- [x] `robots.txt` (written by `plugins/seo.py`, points to the sitemap; closes the site on preview builds) and a cleaned `sitemap.xml` with canonical URLs, no fake `lastmod`
+- [x] Canonical URLs, Open Graph and Twitter card tags, JSON-LD for games, standings tables and players, covered by `tests/test_seo.py`
 
 - [x] Improve SEO ([concept](docs/features/seo.md))
 - [x] Technical reindexing preparation: canonical sitemaps, player alias redirects, lexicon links, competition titles, factual game HTML, product markup, build checks and a Google Search Console submission guide ([`docs/operations/google-reindexing.md`](docs/operations/google-reindexing.md))

@@ -1,6 +1,6 @@
 # Game Report Sharing Plan
 
-> **Status:** open (concept ready, checklist below not started) · Backlog: [Game report sharing](../../BACKLOG.md#open)
+> **Status:** partly shipped, checklist below is outdated · Shipped differently from this plan: share images (`plugins/share_assets.py`), Open Graph and Twitter tags in `base.html`, and a share studio with Story/Post cards (`themes/my-theme/static/js/share-card.js`). Still open: share a link (copy link, native share with URL), `og:image` for players, leagues and past seasons · Backlog: [P1](../../BACKLOG.md#open)
 
 Backlog reference:
 
