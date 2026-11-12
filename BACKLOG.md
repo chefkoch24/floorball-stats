@@ -25,7 +25,6 @@ Reach work that Claude can do alone. Details: [SEO plan](docs/features/seo.md). 
 - [ ] Share images for past seasons and for players without a club logo: today only current-season games, teams, leagues and players with a logo have their own `og:image`, the rest gets `og/default.png` · S, low reach
 - [ ] SEO, homepage: today's games are drawn by JavaScript ("Loading games…"), so crawlers see an empty list. Render the games of the build date into the HTML, keep the script for the date strip · S, not urgent
 - [ ] Women's leagues: playoff configs (series formats) for CH, FI, CZ, SK, LV, DE. Not needed before the playoffs start in March 2027; they are added once the regular fetches show the playoff phase (SSL Damer is done) · trigger: March 2027
-- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`; until then new reviews on the main site do not sync · Felix, 5 min, parked on purpose
 - [ ] Collect missing product reviews and improve priority product comparisons (main site) · closest to the first euro, needs real review data
 - [ ] Recheck streaming prices and deal validity against original sources; show verified update/expiry dates · trust, and affiliate-relevant · S
 - [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off · M
@@ -103,6 +102,7 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)
 - [x] Notion sync for the main site: database ids, publish filters and review relations in `connect/notion.json`; first sync run against Notion
 - [x] Daily build for new reviews: `.github/workflows/deploy.yml` rebuilds and deploys at 04:17 UTC
+- [x] Notion sync in production: `NOTION_TOKEN` (Florball Connect integration, read access) is stored as GitHub secret since 2026-11-12; `deploy.yml` syncs before every build
 - [x] Production deploys from GitHub Actions (`deploy.yml`): `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID` are set, deploys run
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
