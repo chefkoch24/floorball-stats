@@ -584,6 +584,90 @@
       `<button type="button" class="fs-segment" data-option="${key}" aria-pressed="${key === value}">${label}</button>`).join('')}</div>`;
   }
 
+  /* ---------- Link sharing ---------- */
+
+  // Events: share_link_clicked for every way, share_link_completed / _failed where the result is known
+  // (copy and the share sheet). The platform pages open in a new tab; whether the person posts is not measurable.
+  const LINK_CTA = 'share_link';
+
+  async function copyToClipboard(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch (error) { /* permission policy or an embedded view: try the older way below */ }
+    }
+    const field = document.createElement('textarea');
+    field.value = text;
+    field.setAttribute('readonly', '');
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.appendChild(field);
+    field.select();
+    const ok = document.execCommand && document.execCommand('copy');
+    field.remove();
+    if (!ok) throw new Error('copy_failed');
+  }
+
+  function mountLinkSharing(box, data) {
+    const links = window.fsShareLinks;
+    if (!box || !links) return;
+    const chips = box.querySelector('.share-dialog__chips');
+    const base = links.canonicalUrl(document, window.location);
+    const text = links.shareText(data);
+    const props = (method) => ({ share_kind: data.kind, share_method: method, cta_kind: 'share' });
+
+    const button = (method, label, onClick) => {
+      const el = document.createElement('button');
+      el.type = 'button';
+      el.className = 'fs-chip';
+      el.textContent = label;
+      el.addEventListener('click', async () => {
+        analytics.ctaClicked(LINK_CTA, props(method));
+        try {
+          await onClick(el);
+        } catch (error) {
+          if (error && error.name === 'AbortError') return;
+          analytics.ctaFailed(LINK_CTA, 'share_error', { share_kind: data.kind, share_method: method });
+        }
+      });
+      chips.appendChild(el);
+      return el;
+    };
+    const copied = (el, label) => {
+      el.textContent = 'Copied';
+      setTimeout(() => { el.textContent = label; }, 1800);
+    };
+
+    if (navigator.share) {
+      button('share_sheet_link', 'Share…', async () => {
+        await navigator.share({ title: text, text, url: links.taggedUrl(base, 'share_sheet_link', data.kind) });
+        analytics.ctaCompleted(LINK_CTA, props('share_sheet_link'));
+      });
+    }
+    button('copy_link', 'Copy link', async (el) => {
+      await copyToClipboard(links.taggedUrl(base, 'copy_link', data.kind));
+      analytics.ctaCompleted(LINK_CTA, props('copy_link'));
+      copied(el, 'Copy link');
+    });
+    button('copy_text', 'Copy text', async (el) => {
+      await copyToClipboard(`${text}\n${links.taggedUrl(base, 'copy_text', data.kind)}`);
+      analytics.ctaCompleted(LINK_CTA, props('copy_text'));
+      copied(el, 'Copy text');
+    });
+    links.platformLinks(data, base).forEach((platform) => {
+      const anchor = document.createElement('a');
+      anchor.className = 'fs-chip';
+      anchor.href = platform.href;
+      anchor.textContent = platform.label;
+      anchor.target = '_blank';
+      anchor.rel = 'noopener noreferrer';
+      anchor.addEventListener('click', () => analytics.ctaClicked(LINK_CTA, props(platform.method)));
+      chips.appendChild(anchor);
+    });
+    box.hidden = false;
+  }
+
   function openStudio(data) {
     const state = {
       format: 'story',
@@ -603,6 +687,10 @@
         <img class="share-dialog__image" alt="">
         <div class="share-dialog__actions"></div>
         <p class="share-dialog__hint"></p>
+        <div class="share-dialog__links" data-share-links hidden>
+          <p class="share-dialog__label">Or share the link</p>
+          <div class="share-dialog__chips"></div>
+        </div>
       </div>`;
     const img = dialog.querySelector('img');
     const actions = dialog.querySelector('.share-dialog__actions');
@@ -652,6 +740,8 @@
       }
       dialog.classList.remove('is-busy');
     };
+
+    mountLinkSharing(dialog.querySelector('[data-share-links]'), data);
 
     const bindGroup = (selector, key) => {
       dialog.querySelectorAll(`${selector} [data-option]`).forEach((button) => {

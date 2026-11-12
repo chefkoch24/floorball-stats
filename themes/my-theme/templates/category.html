@@ -26,6 +26,7 @@
 {% import "playoff_bracket.html" as bracket with context %}
 {% set seo_type = 'website' %}
 {% set seo_canonical_path = category.url %}
+{% set og_image = (OG_CATEGORY_IMAGES|default({})).get(category.slug) or 'og/default.png' %}
 
 {% block breadcrumbs %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -57,7 +58,7 @@
   ]
 }
 </script>
-{% set standings = (SEO_STANDINGS|default({})).get(category.slug) %}
+{% set standings = (SEO_STANDINGS|default({})).get(category.slug) or 'og/default.png' %}
 {% if standings and not is_player_stats %}
 <script type="application/ld+json">{{ standings|tojson }}</script>
 {% endif %}

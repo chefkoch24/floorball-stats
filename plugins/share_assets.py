@@ -165,6 +165,7 @@ def collect(generator) -> None:
     # Autoreload runs several builds in one process.
     _state.images.clear()
     _state.calendars.clear()
+    category_images: dict[str, str] = {}
     settings = generator.settings
     label_for = settings["JINJA_FILTERS"]["category2string"]
     team_entries = []
@@ -183,6 +184,11 @@ def collect(generator) -> None:
         if league is None:
             continue
         league_label = label_for(category)
+        if category not in category_images:
+            # League, playoff, cup and player-table pages are not articles; the template looks the image up by slug.
+            path = f"og/category-{category}.png"
+            category_images[category] = path
+            _state.images[path] = ("league", league_label, league_label, _category_facts(category))
         if article_type == "game":
             date_text = article.date.strftime("%d %b %Y")
             score = _score_label(article)
@@ -212,6 +218,17 @@ def collect(generator) -> None:
             article.calendar_path = _calendar_path(league, settings, team)
             team_entries.append((article, team, category))
     _share_team_data(team_entries, settings)
+    generator.context["OG_CATEGORY_IMAGES"] = category_images
+
+
+def _category_facts(category: str) -> str:
+    if category.endswith("-players"):
+        return "Player rankings and stats"
+    if category.endswith("-playoffs"):
+        return "Playoff bracket and results"
+    if category.endswith("-cup"):
+        return "Cup results by round"
+    return "Standings, results and stats"
 
 
 def _register_image(article, spec: tuple) -> None:
