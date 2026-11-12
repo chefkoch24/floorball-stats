@@ -1,6 +1,6 @@
 # SEO Improvement Plan
 
-> **Status:** mostly shipped · open items in the tracking list below and in the backlog under [SEO follow-up](../../BACKLOG.md#seo-follow-up-1-november-2026) · Operations: [Google reindexing](../operations/google-reindexing.md)
+> **Status:** mostly shipped · open items in the tracking list below and in the backlog under [P1 and P3](../../BACKLOG.md#open) · Operations: [Google reindexing](../operations/google-reindexing.md)
 
 ## Scope
 

@@ -4,40 +4,42 @@ Single list of work. Concepts, plans and research live in [`docs/`](docs/README.
 
 How to keep it:
 
-- New task: add it under **Open** in the matching group. If it needs a concept, write it in `docs/features/<name>.md` (template in [`docs/README.md`](docs/README.md)) and link it here.
+- New task: add it under **Open** in the right priority group. If it needs a concept, write it in `docs/features/<name>.md` (template in [`docs/README.md`](docs/README.md)) and link it here.
 - Finished: tick the box, move the line to **Done** under its topic, and set the concept doc's `Status` line to `shipped`.
 - Half done: keep it under **Open** and say in the line what remains.
 
+How it is ranked (as of 2026-11-12): reach first (stats.floorballconnect.com has about 3,500 unique visitors per 30 days), then the first euro, then a hard deadline. A task that Claude can do alone from data and research beats one that needs sales or outreach. Effort: S = under a day, M = a few days, L = a week or more.
+
 ## Open
 
-### Sharing and branding
+### P1: do next
 
-- [ ] Improve game report sharing ([concept](docs/features/game-report-sharing.md))
-- [ ] Club logos instead of monogram crests ([concept](docs/features/club-logos/plan.md)): current-season logos and share graphics implemented under Felix’s confirmed permission; historical seasons and new-team maintenance remain
+Quick wins for Felix (each under 30 minutes, no code):
 
-### Leagues and cups
+- [ ] Search Console: submit both sitemaps, inspect the priority URLs in [`google-reindex-urls.txt`](docs/operations/google-reindex-urls.txt), check the production redirects (production deploys now run from GitHub Actions) · reach · [runbook](docs/operations/google-reindexing.md)
+- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`; the secret is still missing, so new reviews on the main site do not sync
 
-- [ ] Scalable process across leagues (see [next-generation design](docs/architecture/next-generation-design.md), [ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md))
-- [ ] Search across leagues
-- [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done)
-- [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off
-- [ ] Cups with no source yet: Slovakia (no 2026/27 cup in the SZFB stats), Latvia (no senior cup); first approved run of `make refresh-cups`, then hook it into the nightly refresh
+Features, in this order:
 
-### Main site and deployment
+- [ ] Women's leagues: add playoff configs (series formats) for CH, FI, CZ, SK, LV, DE before the playoffs start in March 2027 (SSL Damer is done) · deadline, data only · S
+- [ ] SEO foundation from the plan's tracking list: `robots.txt`, league descriptive text, related entity links · reach, Claude can do it alone · M · [SEO plan](docs/features/seo.md)
+- [ ] Improve game report sharing: share toolbar, OG/Twitter metadata, generated share images · discovery loop, every shared game brings new visitors · M · [concept](docs/features/game-report-sharing.md)
+- [ ] Search across leagues · utility, keeps visitors on the site · M
 
-- [ ] Notion sync in production: store `NOTION_TOKEN` (Florball Connect integration) as GitHub secret for `deploy.yml`
-- [ ] Production deploys from GitHub Actions (`deploy.yml`): set the GitHub secrets `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID`, then merge
+### P2: next
 
-### SEO follow-up (1 November 2026)
+- [ ] Collect missing product reviews and improve priority product comparisons (main site) · closest to the first euro, needs real review data
+- [ ] Recheck streaming prices and deal validity against original sources; show verified update/expiry dates · trust, and affiliate-relevant · S
+- [ ] Cup switch on team pages ("include cup" for goals by minute, penalties, power play, goal difference): needs per-team cup aggregates built from the `cup` phase games next to the league aggregates; filter default off · M
+- [ ] Cups with no source yet: Slovakia (no 2026/27 cup in the SZFB stats), Latvia (no senior cup); first approved run of `make refresh-cups`, then hook it into the nightly refresh · S
+- [ ] Club logos instead of monogram crests: current-season logos and share graphics are done under Felix’s confirmed permission; historical seasons and new-team maintenance remain · M · [concept](docs/features/club-logos/plan.md)
+- [ ] Persist meaningful publication-change timestamps for sitemap freshness in the database-driven publishing path; do not substitute fixture or heartbeat dates · S
 
-Concept: [SEO plan](docs/features/seo.md). Runbook: [Google reindexing](docs/operations/google-reindexing.md).
+### P3: later
 
-- [ ] After merge/deployment: verify production redirects and submit both sitemaps in Search Console; inspect the priority URLs in [`google-reindex-urls.txt`](docs/operations/google-reindex-urls.txt)
-- [ ] Collect missing product reviews and improve priority product comparisons
-- [ ] Recheck streaming prices and deal validity against original sources; show verified update/expiry dates
-- [ ] Persist meaningful publication-change timestamps for sitemap freshness in the database-driven publishing path; do not substitute fixture or heartbeat dates
-- [ ] Evaluate evergreen league/team hubs and targeted training/language pages using Search Console demand
-- [ ] From the SEO plan's tracking list, still unticked: language alignment, `robots.txt`, league descriptive text, server-rendered homepage featured content, archive hubs, related entity links
+- [ ] Scalable process across leagues · pays off when league number 8 comes, no visible effect for users now · L · [next-generation design](docs/architecture/next-generation-design.md), [ARCHITECTURE.md](docs/architecture/ARCHITECTURE.md)
+- [ ] Evaluate evergreen league/team hubs and targeted training/language pages using Search Console demand · wait for Search Console data from the quick win above
+- [ ] SEO plan, rest of the tracking list: language alignment, server-rendered homepage featured content, archive hubs
 
 ## Ideas and user feedback
 
@@ -98,6 +100,7 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)
 - [x] Notion sync for the main site: database ids, publish filters and review relations in `connect/notion.json`; first sync run against Notion
 - [x] Daily build for new reviews: `.github/workflows/deploy.yml` rebuilds and deploys at 04:17 UTC
+- [x] Production deploys from GitHub Actions (`deploy.yml`): `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID` are set, deploys run
 - [x] Newsletter sign-up on the new main site: the MailerLite form (double opt-in) the Softr site used
 - [x] Live stats block on the main site's home page (`connect-feed.json` from the stats build)
 
