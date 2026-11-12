@@ -30,7 +30,7 @@
     <div class="fs-match__meta">
         <span>{{ game.date.strftime('%a %d %b') if game.date else '–' }}{% if game.tournament_group|default('') %} · {{ game.tournament_group }}{% endif %}</span>
         {% if scheduled %}
-        <span class="fs-status">{{ game.start_time|fmt_time('TBD') }}</span>
+        <span class="fs-status">{{ game|fmt_kickoff('TBD') }}</span>
         {% else %}
         <span class="fs-status fs-status--final">Final{% if extra %} · {{ extra }}{% endif %}</span>
         {% endif %}

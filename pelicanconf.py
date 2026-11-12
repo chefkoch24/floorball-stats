@@ -4,8 +4,13 @@ import os
 import json
 from pathlib import Path
 import re
+import sys
 import zlib
 from zoneinfo import ZoneInfo
+
+# Pelican adds PLUGIN_PATHS to sys.path only after this file is read.
+sys.path.append(str(Path(__file__).resolve().parent / 'plugins'))
+from kickoff_time import kickoff_label, kickoff_parts, tournament_kickoff_parts
 
 SITENAME = 'Floorball Stats'
 SITEURL = ''
@@ -551,6 +556,28 @@ def fmt_time(value, default='TBD'):
         return cleaned
     return value
 
+def _game_field(game, key):
+    value = game.get(key) if isinstance(game, dict) else getattr(game, key, None)
+    if isinstance(value, list):
+        value = value[0] if value else None
+    return value
+
+def fmt_kickoff(game, default='TBD'):
+    """Kick-off in the league's local time, plus the German time when it differs.
+
+    "18:30" (German time), "18:30 EET (17:30 CET)" (Finland, Latvia) or "18:30 CET" (Champions
+    Cup, always labelled). The WFC feed stores UTC, so it is converted to the host city's time.
+    Takes a game article or a cup row (plugins/cup_games.py).
+    """
+    start = _game_field(game, 'start_time')
+    category = _game_field(game, 'category')
+    slug = getattr(category, 'shortname', category)
+    day = _game_field(game, 'date')
+    league = league_context(slug) or {}
+    parts = (tournament_kickoff_parts(day, start, slug)
+             or kickoff_parts(day, start, league.get('prefix', ''), always_label=bool(league.get('competition'))))
+    return kickoff_label(parts) if parts else fmt_time(start, default)
+
 def finalize_rendered_value(value):
     if isinstance(value, bool):
         return value
@@ -579,6 +606,7 @@ JINJA_FILTERS = {
     'fmt2': fmt2,
     'fmt_int': fmt_int,
     'fmt_time': fmt_time,
+    'fmt_kickoff': fmt_kickoff,
     'team_initials': team_initials,
     'crest_index': crest_index,
     'team_logo': team_logo,

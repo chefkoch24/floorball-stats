@@ -21,22 +21,13 @@ from zoneinfo import ZoneInfo
 from pelican import signals
 from pelican.utils import slugify
 
+from kickoff_time import timezone_for_prefix
+
 # Bump when the drawing code changes so cached images are re-rendered.
 RENDER_VERSION = "6"
 CACHE_DIR = Path(".cache/og")
 WIDTH, HEIGHT = 1200, 630
 GAME_DURATION = timedelta(hours=2)
-
-# Country part of the league prefix (women's leagues append "w") -> local time zone.
-COUNTRY_TIMEZONES = {
-    "se": "Europe/Stockholm",
-    "fi": "Europe/Helsinki",
-    "cz": "Europe/Prague",
-    "ch": "Europe/Zurich",
-    "sk": "Europe/Bratislava",
-    "lv": "Europe/Riga",
-    "": "Europe/Berlin",
-}
 
 BACKGROUND = (21, 31, 48)
 BRAND = (77, 163, 255)
@@ -55,6 +46,7 @@ class _Game:
     result: str
     url: str
     decision: str = ""
+    kickoff: str = ""  # start time with zone label, e.g. "18:30 EET (17:30 CET)"
 
 
 @dataclass
@@ -84,9 +76,13 @@ def _league_for(category: str, settings: dict) -> dict | None:
 
 
 def _timezone_for(league: dict) -> ZoneInfo:
-    prefix = league["prefix"].rstrip("-")
-    country = prefix[:-1] if len(prefix) == 3 and prefix.endswith("w") else prefix
-    return ZoneInfo(COUNTRY_TIMEZONES.get(country, "Europe/Berlin"))
+    return timezone_for_prefix(league["prefix"])
+
+
+def _kickoff(article, settings: dict) -> str:
+    """Start time in the league's local time with its zone (pelicanconf.fmt_kickoff)."""
+    fmt_kickoff = settings.get("JINJA_FILTERS", {}).get("fmt_kickoff")
+    return fmt_kickoff(article, "") if fmt_kickoff else _meta(article, "start_time")[:5]
 
 
 def _score_label(article) -> str:
@@ -146,7 +142,7 @@ def _share_team_data(team_entries: list, settings: dict) -> None:
             opponent = game.away if game.home == team else game.home
             next_game = {
                 "date": game.date.strftime("%a %-d %b"),
-                "time": game.start_time[:5] if ":" in game.start_time else "",
+                "time": game.kickoff,
                 "home": game.home == team,
                 "opponent": opponent,
                 "crest": crest_index(opponent),
@@ -195,7 +191,7 @@ def collect(generator) -> None:
             if score:
                 status = f"{_decision_label(article)} · {date_text}"
             else:
-                start = _meta(article, "start_time")[:5]
+                start = _kickoff(article, settings)
                 status = f"{date_text} · {start}" if start else date_text
             logo = settings["JINJA_FILTERS"].get("team_logo", lambda *args: None)
             spec = ("game", league_label, _meta(article, "home_team"), _meta(article, "away_team"), score, status,
@@ -253,6 +249,7 @@ def _register_game(article, league: dict, settings: dict) -> None:
         result=_score_label(article),
         url=f"{settings.get('SITEURL', '')}/{article.url}",
         decision=_decision_short(article),
+        kickoff=_kickoff(article, settings),
     )
     for team in (game.home, game.away):
         if not team:

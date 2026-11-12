@@ -54,6 +54,7 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 
 ### Games and results
 
+- [x] Kick-off times in the league's local time with the German equivalent, e.g. `18:30 EET (17:30 CET)` for Finland and Latvia, plain `18:30` where the zone matches Berlin, `18:30 CET` for the Champions Cup; the WFC feed (UTC) is converted to the host city's time (`UTC_TOURNAMENT_ZONES`). On game, league, cup, team, WFC and home pages, in the connect feed, share images and the WFC page generator (`plugins/kickoff_time.py`, `fmt_kickoff` in `pelicanconf.py`, `tests/test_kickoff_time.py`)
 - [x] Share links in the share studio: copy link, copy text, device share sheet, WhatsApp, Telegram, X, Facebook, LinkedIn, Reddit, Bluesky, e-mail; links tagged `utm_source=share`; PostHog events `share_link_clicked/_completed/_failed` ([`share-links.js`](themes/my-theme/static/js/share-links.js), [analytics events](docs/operations/analytics-events.md))
 - [x] Share studio: Instagram cards (Story and Post, dark or light) for game, team, player and table, drawn in the browser (`themes/my-theme/static/js/share-card.js`), with download and native share of the image
 - [x] Share images (`og:image`, 1200×630) for current-season games, teams, players with a club logo, and league, playoff, cup and player-table pages, team calendar feeds (.ics) for Apple/Outlook/Google (`plugins/share_assets.py`, `tests/test_share_assets.py`)
