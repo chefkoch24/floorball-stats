@@ -72,13 +72,14 @@ Same idea: `<control>_changed` for filters and tabs, `<search box>_used` for sea
 | `head_to_head_team_changed` | Team selects in the head-to-head view | no value (it would be a team name) |
 | `compare_player_changed` | Choosing a player in the player comparison (`/compare-players.html`), also another player for a side that is already filled (so it is sent with `capture`, not `filterChanged`, which skips a repeated value) | `filter_value`: `a` or `b` (the side), `filter_scope: compare_players`; never the player |
 | `compare_players_search_used`, `compare_players_search_result_clicked` | The two player search boxes of the player comparison | `search_scope: compare_players_search`; the click carries `result_type: player` and the suggestion's position |
-| `site_search_opened`, `site_search_used`, `site_search_result_clicked` | Header search dialog for teams and players | see below |
+| `site_search_opened`, `site_search_used`, `site_search_result_clicked` | Header search dialog for players, teams and leagues/cups | see below |
+| `search_scope_changed` | The scope buttons of the search dialog (All, Players, Teams, Leagues & cups) | `filter_value`: `all`, `players`, `teams` or `leagues`, `filter_scope: search_scope` |
 | `player_search_used` | Player tables (`search_scope`: `category_players` or `player_stats_page`) | |
 | `collection_search_used` | Search box on Connect collection pages | |
 
 Clicking the option that is already selected does not count. A control without a labelled button group falls back to `view_changed`.
 
-`*_search_used` fires when typing paused for 800 ms with at least 2 characters and the query differs from the last reported one. Properties: `search_scope`, `query_length`, `token_count`, `results_count`, `has_results`; never the text. `site_search_result_clicked` carries `result_type` (`team`, `player`) and `result_position` (1 = first).
+`*_search_used` fires when typing paused for 800 ms with at least 2 characters and the query differs from the last reported one. Properties: `search_scope`, `query_length`, `token_count`, `results_count`, `has_results`; never the text. `site_search_used` of the header search also carries `result_scope` (`all`, `players`, `teams`, `leagues`), the scope the person searched in. `site_search_result_clicked` carries `result_type` (`player`, `team`, `league`) and `result_position` (1 = first).
 
 Plus the automatic `$pageview` (`capture_pageview: true`, unchanged).
 

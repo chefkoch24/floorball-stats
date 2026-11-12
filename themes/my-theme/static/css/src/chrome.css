@@ -298,6 +298,7 @@ html[data-division="women"] [data-division="men"] { display: none; }
     font: 400 15px/1.4 var(--font-body);
   }
   .feedback-form__textarea { min-height: 130px; resize: vertical; }
+  .search-modal__scopes { margin-bottom: var(--space-3); }
   .search-modal__hint,
   .search-modal__empty,
   .feedback-modal__copy { margin: 0 0 var(--space-3); color: var(--ink-muted); font-size: 14px; }
