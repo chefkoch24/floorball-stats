@@ -46,6 +46,7 @@ A CTA event is `<button name>_<step>`, where the button name is the snake_case o
 | Feedback | `feedback_clicked`, `feedback_completed` | Stats footer and menu | the form was submitted; `completion: mail_draft_opened` (the form builds a `mailto:` link, so only the draft opening is known, not that the mail was sent) |
 | Share (page) | `share_page_clicked`, `_completed`, `_failed` | Connect item pages | share sheet resolved or link copied (`share_method`) |
 | Share (card) | `share_card_clicked`, `_completed`, `_failed` | Stats share studio | download or share sheet resolved (`share_method: download` / `share_sheet`) |
+| Share (link) | `share_link_clicked`, `share_link_completed`, `share_link_failed` | Stats share studio, section "Or share the link" | `_clicked` for every way. `_completed` only where the result is known: `share_method` = `copy_link`, `copy_text` (clipboard written) or `share_sheet_link` (share sheet resolved). Platform pages open in a new tab (`share_method` = `whatsapp`, `telegram`, `x`, `facebook`, `linkedin`, `reddit`, `bluesky`, `email`); whether the person posts is not measurable. `share_kind` = `game`, `team`, `player`, `table`, `leaderboard` |
 | Apple / Outlook, Google, .ics | `calendar_apple_outlook_clicked`, `calendar_google_clicked`, `calendar_ics_download_clicked` | team calendar | calendar app or download, not measurable |
 | Compare with another player | `compare_with_another_player_clicked` | button on player pages | the choice of a player on the comparison page: `compare_player_changed` |
 | Explore league stats, Read stick reviews | `explore_league_stats_clicked`, `read_stick_reviews_clicked` | Connect home hero | on-site navigation |
@@ -55,6 +56,10 @@ A CTA event is `<button name>_<step>`, where the button name is the snake_case o
 | View product / Go to the deal | `view_product_clicked`, `go_to_the_deal_clicked` (the collection's link label) | Connect item pages | external, not measurable |
 
 A new button gets its event by adding `data-cta="<snake_case label>"` to it.
+
+### Where shared links lead
+
+Every link that leaves the share studio is tagged `utm_source=share`, `utm_medium=<share_method>`, `utm_campaign=<share_kind>` (`themes/my-theme/static/js/share-links.js`). The pageview of the person who opens it carries these, so in PostHog: filter `$pageview` by `utm_source = share` and break down by `utm_medium` to see which way of sharing brings visitors. The canonical URL of the page itself is never tagged.
 
 ### Filters and search: named after the control
 
