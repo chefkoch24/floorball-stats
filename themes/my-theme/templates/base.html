@@ -244,22 +244,28 @@ if (window.Chart) {
     <div class="search-modal__backdrop" data-search-close></div>
     <div class="search-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="globalSearchTitle">
         <div class="search-modal__head">
-            <h2 class="search-modal__title" id="globalSearchTitle">Search Teams & Players</h2>
+            <h2 class="search-modal__title" id="globalSearchTitle">Search</h2>
             <button class="search-modal__close" type="button" aria-label="Close search dialog" data-search-close>×</button>
         </div>
-        <label class="search-modal__label" for="globalSearchInput">Type a team or player name</label>
+        <label class="search-modal__label" for="globalSearchInput">Players, teams, leagues and cups</label>
         <input
             id="globalSearchInput"
             class="search-modal__input"
             type="search"
-            placeholder="e.g. Storvreta, Gabriel Kohonen"
+            placeholder="e.g. Gabriel Kohonen, Storvreta, SSL"
             autocomplete="off"
             spellcheck="false"
         >
+        <div class="fs-segmented search-modal__scopes" role="group" aria-label="Search scope">
+            <button type="button" class="fs-segment" data-view="all" aria-pressed="true">All</button>
+            <button type="button" class="fs-segment" data-view="players" aria-pressed="false">Players</button>
+            <button type="button" class="fs-segment" data-view="teams" aria-pressed="false">Teams</button>
+            <button type="button" class="fs-segment" data-view="leagues" aria-pressed="false">Leagues &amp; cups</button>
+        </div>
         <p class="search-modal__hint">
             <span data-search-result-count>0</span> results · Enter to open first result
         </p>
-        <div class="search-modal__empty" data-search-empty hidden>No matching teams or players found.</div>
+        <div class="search-modal__empty" data-search-empty hidden>Nothing found. Try another spelling or a different scope.</div>
         <ul class="search-modal__results" data-search-results></ul>
     </div>
 </div>
@@ -373,7 +379,11 @@ const fbTrack = window.fbTrack || {
   searchTracker: () => ({ update() {}, flush() {} }),
   searchOpened() {}, searchResultClicked() {}, ctaClicked() {}, ctaCompleted() {}, ctaFailed() {}, slugify: (value) => String(value || '')
 };
-const globalSearchTracker = fbTrack.searchTracker('site_search');
+// result_scope travels with every site_search_used event; it is read when the event is sent.
+const searchEvents = { result_scope: 'all' };
+const globalSearchTracker = fbTrack.searchTracker('site_search', searchEvents);
+const searchScopeButtons = document.querySelectorAll('.search-modal__scopes [data-view]');
+let searchScope = 'all';
 let lastSearchQuery = '';
 
 function detectDeviceType() {
@@ -448,17 +458,7 @@ async function loadSearchIndex() {
   }
   const payload = await response.json();
   const items = Array.isArray(payload && payload.items) ? payload.items : [];
-  searchIndexItems = items.map((item) => {
-    const name = String(item.name || '');
-    const subtitle = String(item.subtitle || '');
-    return {
-      type: String(item.type || ''),
-      name: name,
-      subtitle: subtitle,
-      url: String(item.url || ''),
-      key: normalizeForSearch(name + ' ' + subtitle),
-    };
-  });
+  searchIndexItems = window.fsSearchRank.prepare(items);
   return searchIndexItems;
 }
 
@@ -469,7 +469,7 @@ function renderSearchResults(query, matches) {
   searchResults.innerHTML = '';
   searchResultCount.textContent = String(matches.length);
   searchEmpty.hidden = matches.length > 0;
-  for (const [position, item] of matches.slice(0, 25).entries()) {
+  for (const [position, item] of matches.slice(0, 30).entries()) {
     const li = document.createElement('li');
     li.className = 'search-result-item';
     const link = document.createElement('a');
@@ -500,19 +500,27 @@ async function runGlobalSearch() {
   lastSearchQuery = query;
   const items = await loadSearchIndex();
   if (!query) {
-    renderSearchResults('', items.slice(0, 20));
+    renderSearchResults('', window.fsSearchRank.featured(items, searchScope));
     return;
   }
-  const tokens = query.split(/\s+/).filter(Boolean);
-  const matches = [];
-  for (const item of items) {
-    if (tokens.every((token) => item.key.includes(token))) {
-      matches.push(item);
-    }
-  }
+  const matches = window.fsSearchRank.search(items, query, searchScope);
   renderSearchResults(query, matches);
   globalSearchTracker.update(query, matches.length);
 }
+
+searchScopeButtons.forEach(function (button) {
+  button.addEventListener('click', function () {
+    searchScope = button.getAttribute('data-view') || 'all';
+    searchEvents.result_scope = searchScope;
+    searchScopeButtons.forEach(function (other) {
+      other.setAttribute('aria-pressed', String(other === button));
+    });
+    runGlobalSearch();
+    if (searchInput) {
+      searchInput.focus();
+    }
+  });
+});
 
 function openSearchModal() {
   if (!searchModal) {
@@ -524,7 +532,7 @@ function openSearchModal() {
   loadSearchIndex()
     .then(function (items) {
       if (!lastSearchQuery) {
-        renderSearchResults('', items.slice(0, 20));
+        renderSearchResults('', window.fsSearchRank.featured(items, searchScope));
       }
       if (searchInput) {
         searchInput.focus();
@@ -649,6 +657,7 @@ if (feedbackForm) {
   });
 }
 </script>
+<script src="{{ SITEURL }}/theme/js/search-rank.js"></script>
 <script src="{{ SITEURL }}/theme/js/share-links.js" defer></script>
 <script src="{{ SITEURL }}/theme/js/share-card.js" defer></script>
 <script src="{{ SITEURL }}/theme/js/tips.js" defer></script>
