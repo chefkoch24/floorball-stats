@@ -56,7 +56,7 @@ League backends (Germany, Sweden, Switzerland, Finland, Czech Republic, Slovakia
 - `themes/my-theme/`
   - Custom Pelican theme and templates.
 - `themes/shared/`
-  - Header, fonts and scripts used by both sites; `static/js/tracking.js` is the single PostHog event helper (`fbTrack`). Event names and properties: `docs/analytics-events.md`. Pages must not call `posthog.capture` directly.
+  - Header, fonts and scripts used by both sites; `static/js/tracking.js` is the single PostHog event helper (`fbTrack`). Event names and properties: `docs/operations/analytics-events.md`. Pages must not call `posthog.capture` directly.
 - `tests/`
   - Pytest unit tests for calculation primitives and engine behavior; `tests/js/` holds the node tests for `tracking.js`, run from `tests/test_tracking_js.py`.
 - `dashboard/`
@@ -197,7 +197,7 @@ Pelican plugin (build time, no pipeline step) behind `/head-to-head.html` (`cont
 
 ### 4.6e Player Comparison: `plugins/player_compare.py`
 
-Pelican plugin (build time, no pipeline step) behind `/compare-players.html` (`content/pages/compare-players.md`, template `player_compare.html`). It writes `output/compare-players/index.json` (one short row per player, for the search) and `output/compare-players/<player uid>.json` (latest season and career totals, clutch and share of team goals) from the published player pages, after the `insights` handlers ran. The page holds no players: `static/js/player-compare.js` loads the index when a search box gets focus and one small file per chosen player, so the page and a comparison stay small although there are more than 4,600 player pages. Selection lives in the URL (`?a=<uid>&b=<uid>`); the player page links to it with itself as player A. The data shapes are in `src/player_compare.py`, the search and the comparison rows in the script (tested in `tests/js/player-compare.test.js`). Events: `docs/analytics-events.md`.
+Pelican plugin (build time, no pipeline step) behind `/compare-players.html` (`content/pages/compare-players.md`, template `player_compare.html`). It writes `output/compare-players/index.json` (one short row per player, for the search) and `output/compare-players/<player uid>.json` (latest season and career totals, clutch and share of team goals) from the published player pages, after the `insights` handlers ran. The page holds no players: `static/js/player-compare.js` loads the index when a search box gets focus and one small file per chosen player, so the page and a comparison stay small although there are more than 4,600 player pages. Selection lives in the URL (`?a=<uid>&b=<uid>`); the player page links to it with itself as player A. The data shapes are in `src/player_compare.py`, the search and the comparison rows in the script (tested in `tests/js/player-compare.test.js`). Events: `docs/operations/analytics-events.md`.
 
 ### 4.6f Cups: `src/competitions.py`
 
@@ -412,7 +412,7 @@ the page; absent ratings or venue data must never be fabricated.
 league data: sitemap/canonical/indexing agreement, JSON-LD syntax, page metadata,
 internal targets and lexicon reachability. `.github/workflows/seo-check.yml` runs it
 for PRs. Search Console submission remains a post-deployment action documented in
-`docs/GOOGLE_REINDEXING.md`.
+`docs/operations/google-reindexing.md`.
 
 Both websites render `themes/shared/templates/site_header.html` and copy the logo
 and menu behavior from `themes/shared/static/`. Shared header CSS lives in

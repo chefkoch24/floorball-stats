@@ -1,5 +1,7 @@
 # Team Map Plan
 
+> **Status:** shipped (2026-11-11) · Backlog: [Team map](../../BACKLOG.md#done) · Code: `src/team_map.py`, `src/travel.py`
+
 Date: 2026-11-11
 
 ## Goal

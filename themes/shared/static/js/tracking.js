@@ -1,7 +1,7 @@
 /* Shared PostHog event helper for Floorball Stats and Floorball Connect.
    Templates call fbTrack.* instead of posthog.capture so every event has the same
    name style (snake_case) and the same base properties, and nothing free-form leaves
-   the browser. Event list and property schema: docs/analytics-events.md.
+   the browser. Event list and property schema: docs/operations/analytics-events.md.
 
    - Event names: CTAs are named after the button (join_for_free_clicked,
      newsletter_signup_completed); filters and searches are filter_changed, search_used, ...

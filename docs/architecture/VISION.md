@@ -1,5 +1,24 @@
 # Vision
 
+> **Status:** current vision · priorities and ideas: [Backlog](../../BACKLOG.md)
+
+## Mission
+
+> **Draft, to be confirmed by Felix.** Condensed from the public [About us](../../connect/content/pages/about-us.md) page and the sections below.
+
+Make floorball easier to follow and understand: every league, team, player and game in one trustworthy place, with numbers that explain themselves.
+
+## Who it is for
+
+| Audience | What they come for |
+|---|---|
+| Fans and players | Results, tables, player and game pages on matchdays |
+| Coaches and club staff | Team trends, special teams, head-to-head and opponent preparation |
+| Media and creators | Citable numbers, shareable game and player pages |
+| Search and AI assistants | Clean, factual pages ([`llms.txt`](../../plugins/llms_txt.py), structured data) |
+
+Not yet validated with user research. The split between these groups is unknown; analytics (PostHog) is the first place to look.
+
 ## Why This Project Exists
 
 `floorball-stats` should become the best structured and most trusted public source for floorball statistics across leagues and international competitions.

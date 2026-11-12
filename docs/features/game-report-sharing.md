@@ -1,8 +1,10 @@
 # Game Report Sharing Plan
 
+> **Status:** mostly shipped (2026-11-12), the checklist below is outdated · Shipped differently from this plan: share images and Open Graph/Twitter tags (`plugins/share_assets.py`, `base.html`), a share studio with Story/Post cards (`share-card.js`), and link sharing with copy link, copy text, share sheet, WhatsApp, Telegram, X, Facebook, LinkedIn, Reddit, Bluesky and e-mail (`share-links.js`, tagged with `utm_source=share`, events in [analytics-events](../operations/analytics-events.md)). Open: share images for past seasons · Backlog: [P2](../../BACKLOG.md#open)
+
 Backlog reference:
 
-- [BACKLOG.md](/Users/felixkuennecke/Projects/floorball-stats/BACKLOG.md)
+- [BACKLOG.md](../../BACKLOG.md)
 
 ## Goal
 
@@ -159,7 +161,7 @@ Suggested helpers:
 
 Best initial location:
 
-- [pelicanconf.py](/Users/felixkuennecke/Projects/floorball-stats/pelicanconf.py)
+- [pelicanconf.py](../../pelicanconf.py)
 
 Longer-term option:
 
@@ -178,8 +180,8 @@ Extend the existing SEO metadata support so game pages can set:
 
 Files:
 
-- [themes/my-theme/templates/base.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html)
-- [themes/my-theme/templates/article.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/article.html)
+- [themes/my-theme/templates/base.html](../../themes/my-theme/templates/base.html)
+- [themes/my-theme/templates/article.html](../../themes/my-theme/templates/article.html)
 
 Fallback behavior:
 
@@ -190,7 +192,7 @@ Fallback behavior:
 
 Add a compact share toolbar near the top of:
 
-- [themes/my-theme/templates/game.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/game.html)
+- [themes/my-theme/templates/game.html](../../themes/my-theme/templates/game.html)
 
 Recommended actions:
 
@@ -338,25 +340,25 @@ That means:
 
 ### Phase 1
 
-1. [pelicanconf.py](/Users/felixkuennecke/Projects/floorball-stats/pelicanconf.py)
+1. [pelicanconf.py](../../pelicanconf.py)
    - add share helper functions
    - register them in `JINJA_FILTERS`
 
-2. [themes/my-theme/templates/base.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/base.html)
+2. [themes/my-theme/templates/base.html](../../themes/my-theme/templates/base.html)
    - add support for `og:image`
    - add support for `og:image:alt`
    - add support for `twitter:*` share tags
 
-3. [themes/my-theme/templates/article.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/article.html)
+3. [themes/my-theme/templates/article.html](../../themes/my-theme/templates/article.html)
    - inject game-specific share metadata
    - populate fallback image values when necessary
 
-4. [themes/my-theme/templates/game.html](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/templates/game.html)
+4. [themes/my-theme/templates/game.html](../../themes/my-theme/templates/game.html)
    - add share toolbar
    - add `data-*` payload fields
    - add minimal share/copy JS
 
-5. [themes/my-theme/static/css/style.css](/Users/felixkuennecke/Projects/floorball-stats/themes/my-theme/static/css/style.css)
+5. [themes/my-theme/static/css/app.css](../../themes/my-theme/static/css/app.css)
    - style the share toolbar
 
 ### Phase 2

@@ -109,7 +109,7 @@
       .catch(() => {});
   }
 
-  // Analytics events (docs/analytics-events.md); the fallback keeps the page working without tracking.js.
+  // Analytics events (docs/operations/analytics-events.md); the fallback keeps the page working without tracking.js.
   const track = window.fbTrack || { ctaCompleted() {}, ctaFailed() {}, searchTracker: () => ({ update() {} }) };
 
   // Newsletter sign-up: MailerLite answers with JSON, so errors show next to the field and

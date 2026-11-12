@@ -1,5 +1,7 @@
 # Club logo inventory: 2026/27
 
+> **Status:** snapshot of 2026-11-01, not maintained automatically · part of [plan.md](plan.md)
+
 Snapshot from the local generated team pages, 1 November 2026. These are team entries, not necessarily unique clubs. Felix confirmed permission on 1 November 2026 for all club logos on the website, including local storage. “Available” means a logo was matched and added; “Not yet sourced” means the monogram remains. Sixteen Champions Cup mappings are prepared separately; historical seasons are outside this snapshot.
 
 ## 26-27-regular-season (12)

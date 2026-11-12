@@ -1,10 +1,12 @@
 # Team logos: research and implementation
 
+> **Status:** research done, decision made (Felix, 2026-11-01) · part of [plan.md](plan.md)
+
 Research date: 1 November 2026. The backlog asks for club logos with league/club rights checks and monogram fallback. This is an initial source survey, not an individual clearance of every club or legal advice.
 
 ## Findings
 
-The [inventory](TEAM_LOGO_INVENTORY.md) lists 153 team entries across 14 current domestic league datasets. It is a local snapshot; teams may appear in more than one competition or under multiple names. On 1 November 2026 Felix confirmed that he has permission for all club logos for this website, including local storage, and subsequently for share images and link previews. This is a user assertion, not independently verified documentation. All 153 current domestic team entries and 16 Champions Cup mappings are prepared for the corresponding competition data. Historical seasons still need their own identity and season mapping.
+The [inventory](inventory.md) lists 153 team entries across 14 current domestic league datasets. It is a local snapshot; teams may appear in more than one competition or under multiple names. On 1 November 2026 Felix confirmed that he has permission for all club logos for this website, including local storage, and subsequently for share images and link previews. This is a user assertion, not independently verified documentation. All 153 current domestic team entries and 16 Champions Cup mappings are prepared for the corresponding competition data. Historical seasons still need their own identity and season mapping.
 
 - Germany: [Floorball Deutschland](https://floorball.de/) says clubs maintain team logos in Saisonmanager. Its [Bundesliga page](https://floorball.de/bundesliga/) lists team contacts, a potential route to permissions. Neither is a demonstrated grant for Floorball Stats. The [imprint](https://floorball.de/impressum/) restricts copies of the site's own content, so a public image must not be presumed reusable.
 - Switzerland: [GC Unihockey offers its logo for download](https://www.gc-unihockey.ch/sektion/verein/downloads/). [Wikimedia Commons lists floorball logos](https://commons.wikimedia.org/wiki/Category:Floorball_logos), including [Floorball Köniz](https://commons.wikimedia.org/wiki/File:Logo_FloorballKoeniz.svg) and [Kloten-Dietlikon Jets](https://commons.wikimedia.org/wiki/File:Logo-kloten-dietlikon-jets.svg). These are leads, not clearance for our specific use; verify each source, license, uploader's authority and trademark position.

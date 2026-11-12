@@ -1,5 +1,7 @@
 # Auth + Premium Access Outline (Netlify + Pelican)
 
+> **Status:** idea, not built (`netlify.toml` has no Identity or role rules) · no backlog entry
+
 Date: 2026-03-16
 
 ## Goal
@@ -173,7 +175,7 @@ Phase 3 (Hardening):
 - `themes/my-theme/templates/base.html`: auth-aware nav links.
 - `netlify/functions/premium-data.js`: protected API endpoint.
 - `netlify/functions/stripe-webhook.js`: payment entitlement sync.
-- `docs/` or root notes for env vars:
+- `docs/operations/` notes for env vars:
   - `STRIPE_SECRET_KEY`
   - `STRIPE_WEBHOOK_SECRET`
   - Netlify Identity admin credentials (if required by chosen role assignment path).

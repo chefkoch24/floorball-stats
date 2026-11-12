@@ -5,7 +5,7 @@
 
    The first half is pure logic (search, URL selection, comparison rows) and is tested in
    tests/js/player-compare.test.js. The second half builds the page. Events go through
-   fbTrack (docs/analytics-events.md) and never carry names or search text. */
+   fbTrack (docs/operations/analytics-events.md) and never carry names or search text. */
 (function (root, factory) {
   var api = factory(root);
   if (typeof module === 'object' && module.exports) module.exports = api;

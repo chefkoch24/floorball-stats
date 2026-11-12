@@ -27,7 +27,7 @@ def test_helper_loads_before_the_share_studio() -> None:
 
 def test_studio_events_use_the_documented_names() -> None:
     studio = (THEME / "static" / "js" / "share-card.js").read_text()
-    docs = (ROOT / "docs" / "analytics-events.md").read_text()
+    docs = (ROOT / "docs" / "operations" / "analytics-events.md").read_text()
     assert "const LINK_CTA = 'share_link'" in studio
     for event in ("share_link_clicked", "share_link_completed", "share_link_failed"):
         assert event in docs
