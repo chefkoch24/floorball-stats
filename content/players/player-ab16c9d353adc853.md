@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Nevio Principe
 Category: players
 Slug: player-ab16c9d353adc853
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 284
+rank: 288
 season: ch-26-27

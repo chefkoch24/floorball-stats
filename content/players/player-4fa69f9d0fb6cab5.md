@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Deny Känzig
 Category: players
 Slug: player-4fa69f9d0fb6cab5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
-current_goals: 12
+current_games: 11
+current_goals: 13
 current_assists: 4
-current_points: 16
+current_points: 17
 current_pim: 0
-regular_games: 8
-regular_goals: 12
+regular_games: 9
+regular_goals: 13
 regular_assists: 3
-regular_points: 15
+regular_points: 16
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 4
 previous_points: 9
 previous_pim: 2
-career_games: 36
-career_goals: 17
+career_games: 37
+career_goals: 18
 career_assists: 7
-career_points: 24
+career_points: 25
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|12|3|15|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|0|1|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|5|3|8|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|18|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|9|13|3|16|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|0|1|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|5|3|8|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|18|0|1|1|0
 assists: 3
-games: 8
-goals: 12
+games: 9
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 15
+points: 16
 rank: 8
 season: ch-26-27

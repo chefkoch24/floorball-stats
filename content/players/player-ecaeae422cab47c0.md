@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Ruben Arheit
 Category: players
 Slug: player-ecaeae422cab47c0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 127
+rank: 138
 season: ch-26-27

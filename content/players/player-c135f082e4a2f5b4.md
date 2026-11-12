@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Aliya Bühler
 Category: players
 Slug: player-c135f082e4a2f5b4

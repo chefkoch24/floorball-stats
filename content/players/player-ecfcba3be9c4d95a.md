@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Lea Kern
 Category: players
 Slug: player-ecfcba3be9c4d95a

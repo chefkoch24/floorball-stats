@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Kallai Fanni Anna
 Category: players
 Slug: player-5d8b281fd9bec289

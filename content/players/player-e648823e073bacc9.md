@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Erlend Vestby Softing
 Category: players
 Slug: player-e648823e073bacc9

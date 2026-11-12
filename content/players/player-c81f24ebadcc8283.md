@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Auratai Märgel
 Category: players
 Slug: player-c81f24ebadcc8283

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Felix Skand
 Category: players
 Slug: player-e0ec84f583c16b0d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 147
+rank: 148
 season: fi-26-27

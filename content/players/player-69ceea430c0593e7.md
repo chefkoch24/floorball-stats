@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Jan Fleisch
 Category: players
 Slug: player-69ceea430c0593e7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 234
+rank: 239
 season: ch-26-27

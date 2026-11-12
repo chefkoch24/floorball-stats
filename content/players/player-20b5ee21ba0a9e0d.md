@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Mira Lindbäck
 Category: players
 Slug: player-20b5ee21ba0a9e0d

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Iida Sinkko
 Category: players
 Slug: player-6bce3ffadcab5a95

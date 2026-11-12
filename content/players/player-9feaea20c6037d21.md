@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Steven Friedli
 Category: players
 Slug: player-9feaea20c6037d21
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: wfc-2024
-current_games: 12
+current_games: 13
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 1
 previous_points: 3
 previous_pim: 0
-career_games: 13
+career_games: 14
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|8|0|1|1|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|3|0|3|0||wfc-2024|tournament|IFF WFC|Canada|5|2|1|3|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|9|0|1|1|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|3|0|3|0||wfc-2024|tournament|IFF WFC|Canada|5|2|1|3|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 201
+rank: 207
 season: ch-26-27

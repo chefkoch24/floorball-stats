@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Riku Ruonakangas
 Category: players
 Slug: player-361a351ca6accd12
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 55
+rank: 56
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Maja Vistrom
 Category: players
 Slug: player-2f6e21fa877ca03c

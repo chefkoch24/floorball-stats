@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Nathalie Spichiger
 Category: players
 Slug: player-8d872f4e6bc574e8

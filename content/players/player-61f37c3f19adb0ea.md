@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Sander Fauskanger
 Category: players
 Slug: player-61f37c3f19adb0ea

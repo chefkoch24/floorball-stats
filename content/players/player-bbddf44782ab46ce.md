@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Mike Jäger
 Category: players
 Slug: player-bbddf44782ab46ce
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
-current_goals: 10
+current_games: 12
+current_goals: 11
 current_assists: 1
-current_points: 11
+current_points: 12
 current_pim: 8
-regular_games: 8
-regular_goals: 5
+regular_games: 9
+regular_goals: 6
 regular_assists: 0
-regular_points: 5
+regular_points: 6
 regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 8
 previous_points: 13
 previous_pim: 14
-career_games: 30
-career_goals: 10
+career_games: 31
+career_goals: 11
 career_assists: 8
-career_points: 18
+career_points: 19
 career_pim: 22
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|8|5|0|5|8||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|5|8|13|14
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|9|6|0|6|8||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|5|8|13|14
 assists: 0
-games: 8
-goals: 5
+games: 9
+goals: 6
 penalties: 4
 phase: regular-season
 pim: 8
-points: 5
-rank: 72
+points: 6
+rank: 62
 season: ch-26-27

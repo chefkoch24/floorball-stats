@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Giulia Gattiker
 Category: players
 Slug: player-f91cdf12c814005b

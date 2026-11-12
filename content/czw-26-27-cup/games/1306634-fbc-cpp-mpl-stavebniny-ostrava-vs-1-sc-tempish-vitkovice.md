@@ -73,7 +73,7 @@ pregame_h2h_special_away_pp_eff: n.a.
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 66.67
 result_string: None
-start_time: 00:00
+start_time: 19:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
@@ -81,6 +81,8 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
 tournament_stage_label: čtvrtfinále
 tournament_stage_type: elimination
+venue: Kategorie I ČPP Aréna Ostrava
+venue_address: Hladnovská 259/128 Ostrava
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

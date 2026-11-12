@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Lukas Joaquin Garcia Haugen
 Category: players
 Slug: player-7955a92cfbe033fb

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Sabrina Rüttimann-Bösch
 Category: players
 Slug: player-f50b6de69bc76ef6

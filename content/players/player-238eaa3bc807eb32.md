@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Kevin Kropf
 Category: players
 Slug: player-238eaa3bc807eb32
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
-current_goals: 7
+current_games: 11
+current_goals: 8
 current_assists: 6
-current_points: 13
+current_points: 14
 current_pim: 0
-regular_games: 8
-regular_goals: 6
+regular_games: 9
+regular_goals: 7
 regular_assists: 4
-regular_points: 10
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 8
 previous_points: 16
 previous_pim: 10
-career_games: 32
-career_goals: 14
+career_games: 33
+career_goals: 15
 career_assists: 12
-career_points: 26
+career_points: 27
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|8|6|4|10|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|20|8|8|16|8
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|9|7|4|11|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|20|8|8|16|8
 assists: 4
-games: 8
-goals: 6
+games: 9
+goals: 7
 penalties: 0
 phase: regular-season
 pim: 0
-points: 10
-rank: 27
+points: 11
+rank: 22
 season: ch-26-27

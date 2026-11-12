@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Frīdrihs Feldmanis
 Category: players
 Slug: player-783dd90cf925feb0

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Rasmus Kainulainen
 Category: players
 Slug: player-24eef1cd722ff0b5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
-current_goals: 4
-current_assists: 11
-current_points: 15
+current_games: 8
+current_goals: 6
+current_assists: 12
+current_points: 18
 current_pim: 4
-regular_games: 6
-regular_goals: 2
-regular_assists: 10
-regular_points: 12
+regular_games: 7
+regular_goals: 4
+regular_assists: 11
+regular_points: 15
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 13
 previous_points: 25
 previous_pim: 10
-career_games: 28
-career_goals: 14
-career_assists: 23
-career_points: 37
+career_games: 29
+career_goals: 16
+career_assists: 24
+career_points: 40
 career_pim: 14
-history_rows_csv: fi-26-27|regular-season|Finland|Indians|6|2|10|12|4||fi-26-27|cup|Finland|Indians|1|2|1|3|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|4|6|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|10|9|19|6
-assists: 10
-games: 6
-goals: 2
+history_rows_csv: fi-26-27|regular-season|Finland|Indians|7|4|11|15|4||fi-26-27|cup|Finland|Indians|1|2|1|3|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|2|4|6|4||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|10|9|19|6
+assists: 11
+games: 7
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 12
-rank: 34
+points: 15
+rank: 21
 season: fi-26-27

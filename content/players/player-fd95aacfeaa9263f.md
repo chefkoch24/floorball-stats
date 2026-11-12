@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Tommy Bolin
 Category: players
 Slug: player-fd95aacfeaa9263f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 16
-rank: 7
+rank: 9
 season: ch-26-27

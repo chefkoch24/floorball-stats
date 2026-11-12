@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Hugo Buhrots
 Category: players
 Slug: player-6bd7848e4cd98c5f

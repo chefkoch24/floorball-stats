@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Matteo Gervasoni
 Category: players
 Slug: player-f651fda56aac8e40
@@ -11,12 +11,12 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 4
 regular_assists: 4
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 4
 career_assists: 4
 career_points: 8
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|8|4|4|8|0||ch-26-27|cup|Switzerland|UHC Uster|2|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|9|4|4|8|0||ch-26-27|cup|Switzerland|UHC Uster|2|0|1|1|0
 assists: 4
-games: 8
+games: 9
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 40
+rank: 47
 season: ch-26-27

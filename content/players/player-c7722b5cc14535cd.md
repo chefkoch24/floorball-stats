@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Insa Fahrenholz
 Category: players
 Slug: player-c7722b5cc14535cd

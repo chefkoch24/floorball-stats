@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Nico Rehn
 Category: players
 Slug: player-0dafae953d537296

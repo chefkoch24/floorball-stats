@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Samuel Volkart
 Category: players
 Slug: player-2d9777f05079bcae
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 305
+rank: 309
 season: ch-26-27

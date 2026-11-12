@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Filip Rathouský
 Category: players
 Slug: player-683beaadf2911da3

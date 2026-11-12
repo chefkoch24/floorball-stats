@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: David Černý
 Category: players
 Slug: player-e93c81848dbbdf4a

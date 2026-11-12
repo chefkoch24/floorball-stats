@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Lina Svarfvar
 Category: players
 Slug: player-184d38efc2b6c54e

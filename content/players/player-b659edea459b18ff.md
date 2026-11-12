@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Konstantin Kahlmann
 Category: players
 Slug: player-b659edea459b18ff

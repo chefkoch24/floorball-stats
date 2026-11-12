@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Mille Kny Westerlund
 Category: players
 Slug: player-a7934b76027cb7fe

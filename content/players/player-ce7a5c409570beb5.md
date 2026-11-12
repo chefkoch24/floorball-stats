@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Jasse Tuunanen
 Category: players
 Slug: player-ce7a5c409570beb5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 197
+rank: 201
 season: fi-26-27

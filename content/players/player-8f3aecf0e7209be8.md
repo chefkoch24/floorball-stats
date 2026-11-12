@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Noé Siegfried
 Category: players
 Slug: player-8f3aecf0e7209be8
@@ -11,12 +11,12 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
+current_games: 13
 current_goals: 2
 current_assists: 4
 current_points: 6
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|8|0|1|1|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|2|3|5|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|9|0|1|1|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|2|3|5|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 199
+rank: 205
 season: ch-26-27

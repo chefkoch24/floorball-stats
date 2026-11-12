@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Jānis Miķelis Bitmanis
 Category: players
 Slug: player-b50e38abcbe6e748

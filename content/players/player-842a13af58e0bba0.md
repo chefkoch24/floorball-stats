@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Sofia Hambálková
 Category: players
 Slug: player-842a13af58e0bba0

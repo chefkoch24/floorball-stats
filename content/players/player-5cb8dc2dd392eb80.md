@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Loris Hofmann
 Category: players
 Slug: player-5cb8dc2dd392eb80
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 6
+current_games: 7
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 5
+regular_games: 6
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 21
+career_games: 22
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|5|0|0|0|0||ch-26-27|cup|Switzerland|Zug United|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|7|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|9|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|6|0|0|0|0||ch-26-27|cup|Switzerland|Zug United|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|7|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|9|0|0|0|0
 assists: 0
-games: 5
+games: 6
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 257
+rank: 262
 season: ch-26-27

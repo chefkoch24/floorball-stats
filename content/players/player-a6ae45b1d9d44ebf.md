@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Florian Niederberger
 Category: players
 Slug: player-a6ae45b1d9d44ebf
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 82
+rank: 86
 season: ch-26-27

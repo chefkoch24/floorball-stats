@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Bára Matějková
 Category: players
 Slug: player-cb309ad2fe087523

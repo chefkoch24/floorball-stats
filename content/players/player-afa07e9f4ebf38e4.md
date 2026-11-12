@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Casper Karlsson
 Category: players
 Slug: player-afa07e9f4ebf38e4
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 65
+rank: 72
 season: ch-26-27

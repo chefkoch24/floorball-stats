@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Rovin Thalmann
 Category: players
 Slug: player-d6224e9fdbd09349
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 126
+rank: 137
 season: ch-26-27

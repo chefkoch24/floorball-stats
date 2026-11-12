@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Aino Haapaniemi
 Category: players
 Slug: player-04cd9bee13c4e5f2

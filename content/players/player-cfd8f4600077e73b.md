@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Kimmo Reich
 Category: players
 Slug: player-cfd8f4600077e73b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 162
+rank: 164
 season: ch-26-27

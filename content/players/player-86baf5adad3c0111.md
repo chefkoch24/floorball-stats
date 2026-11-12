@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Nicola Hocevar
 Category: players
 Slug: player-86baf5adad3c0111
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 285
+rank: 289
 season: ch-26-27

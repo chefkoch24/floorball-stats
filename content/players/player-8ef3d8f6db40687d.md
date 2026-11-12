@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Luukas Salin
 Category: players
 Slug: player-8ef3d8f6db40687d
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 3
+current_games: 4
 current_goals: 2
-current_assists: 1
-current_points: 3
+current_assists: 2
+current_points: 4
 current_pim: 0
-regular_games: 3
+regular_games: 4
 regular_goals: 2
-regular_assists: 1
-regular_points: 3
+regular_assists: 2
+regular_points: 4
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 2
 previous_points: 9
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 9
-career_assists: 3
-career_points: 12
+career_assists: 4
+career_points: 13
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP / SPV|3|2|1|3|0||fi-25-26|regular-season|Finland|SPV|7|7|2|9|0
-assists: 1
-games: 3
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP / SPV|4|2|2|4|0||fi-25-26|regular-season|Finland|SPV|7|7|2|9|0
+assists: 2
+games: 4
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 128
+points: 4
+rank: 118
 season: fi-26-27

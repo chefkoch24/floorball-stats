@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Kateřina Kovaříková
 Category: players
 Slug: player-bf5e2a74fb4596f3

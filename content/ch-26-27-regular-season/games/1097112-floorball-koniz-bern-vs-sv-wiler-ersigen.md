@@ -439,6 +439,7 @@ away_pregame_points_against_floorball_chur_united: 3
 away_pregame_points_against_floorball_koniz_bern: 1
 away_pregame_points_against_hc_rychenberg_winterthur: 3
 away_pregame_points_against_kloten_dietlikon_jets: 3
+away_pregame_points_against_tigers_langnau: 3
 away_pregame_points_against_uhc_alligator_malans: 3
 away_pregame_points_against_uhc_uster: 1
 away_pregame_points_against_wasa_st_gallen: 3

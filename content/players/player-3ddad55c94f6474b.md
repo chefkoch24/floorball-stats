@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Florin Fehr
 Category: players
 Slug: player-3ddad55c94f6474b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 87
+rank: 91
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Ryan Ulrich
 Category: players
 Slug: player-0f19ffcd7f71a171
@@ -11,16 +11,16 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
+current_games: 13
 current_goals: 3
 current_assists: 2
 current_points: 5
-current_pim: 0
-regular_games: 8
+current_pim: 2
+regular_games: 9
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 2
 career_assists: 1
 career_points: 3
-career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|8|2|1|3|0||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|1|1|2|0
+career_pim: 2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|9|2|1|3|2||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|1|1|2|0
 assists: 1
-games: 8
+games: 9
 goals: 2
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 3
-rank: 116
+rank: 125
 season: ch-26-27

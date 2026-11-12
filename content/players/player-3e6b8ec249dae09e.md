@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Dani Jaaranen
 Category: players
 Slug: player-3e6b8ec249dae09e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 214
+rank: 220
 season: ch-26-27

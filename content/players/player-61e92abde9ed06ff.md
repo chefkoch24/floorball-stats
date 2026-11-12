@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Cédric Söderberg
 Category: players
 Slug: player-61e92abde9ed06ff
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 4
-career_games: 28
+career_games: 29
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|6|0|1|1|0||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|1|0|1|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|0|1|1|0||ch-26-27|cup|Switzerland|Floorball Chur United|2|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|1|0|1|4
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 186
+rank: 188
 season: ch-26-27

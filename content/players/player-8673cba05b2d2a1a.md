@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Veikko Paajanen
 Category: players
 Slug: player-8673cba05b2d2a1a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 14
-rank: 23
+rank: 24
 season: fi-26-27

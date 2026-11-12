@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Karl Friedrich Istel
 Category: players
 Slug: player-6e8a436e54b6fed1

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Eva Krtenova
 Category: players
 Slug: player-8e3543ede14ea480

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Flavio Rust
 Category: players
 Slug: player-6a4bdb8249dd93a9
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 18
+career_games: 19
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|6|0|1|1|0||ch-26-27|cup|Switzerland|Zug United|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|12|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|7|0|1|1|0||ch-26-27|cup|Switzerland|Zug United|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|12|0|0|0|0
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 192
+rank: 196
 season: ch-26-27

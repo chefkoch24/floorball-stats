@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Matthias Störi
 Category: players
 Slug: player-6fc7f915dc5efe2c
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 2
-career_games: 37
+career_games: 38
 career_goals: 3
 career_assists: 1
 career_points: 4
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|2|0|2|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|0|2|2|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|20|1|1|2|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|2|0|2|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|0|2|2|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|0|0|0|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|20|1|1|2|2
 assists: 0
-games: 7
+games: 8
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 145
+rank: 150
 season: ch-26-27

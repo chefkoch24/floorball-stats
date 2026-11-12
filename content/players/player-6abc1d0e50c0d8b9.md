@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Joris Werner
 Category: players
 Slug: player-6abc1d0e50c0d8b9

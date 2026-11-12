@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Lari Kujansivu
 Category: players
 Slug: player-62e65cca720a32df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 184
+rank: 188
 season: fi-26-27

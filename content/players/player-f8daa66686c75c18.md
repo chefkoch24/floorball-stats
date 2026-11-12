@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Tomáš Kvasnica
 Category: players
 Slug: player-f8daa66686c75c18

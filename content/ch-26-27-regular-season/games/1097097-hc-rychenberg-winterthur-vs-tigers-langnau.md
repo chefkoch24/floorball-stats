@@ -440,6 +440,7 @@ away_pregame_points_against_floorball_thurgau: 2
 away_pregame_points_against_grasshopper_club_zurich: 0
 away_pregame_points_against_hc_rychenberg_winterthur: 3
 away_pregame_points_against_kloten_dietlikon_jets: 3
+away_pregame_points_against_sv_wiler_ersigen: 0
 away_pregame_points_against_uhc_alligator_malans: 3
 away_pregame_points_against_uhc_uster: 3
 away_pregame_points_against_zug_united: 2

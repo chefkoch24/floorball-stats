@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Štěpán Doubek
 Category: players
 Slug: player-e00f384a8df3ee1a

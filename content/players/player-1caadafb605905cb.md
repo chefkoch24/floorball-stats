@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Emma Cederklev
 Category: players
 Slug: player-1caadafb605905cb

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Jamie Martinjas
 Category: players
 Slug: player-9d6c1ddcd9695a1a
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
-current_goals: 6
-current_assists: 6
-current_points: 12
+current_games: 9
+current_goals: 7
+current_assists: 7
+current_points: 14
 current_pim: 4
-regular_games: 6
-regular_goals: 4
-regular_assists: 5
-regular_points: 9
+regular_games: 7
+regular_goals: 5
+regular_assists: 6
+regular_points: 11
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 3
 previous_points: 10
 previous_pim: 4
-career_games: 28
-career_goals: 11
-career_assists: 8
-career_points: 19
+career_games: 29
+career_goals: 12
+career_assists: 9
+career_points: 21
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|6|4|5|9|4||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|2|1|3|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|8|1|2|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|14|6|1|7|4
-assists: 5
-games: 6
-goals: 4
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|5|6|11|4||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|2|1|3|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|8|1|2|3|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|14|6|1|7|4
+assists: 6
+games: 7
+goals: 5
 penalties: 2
 phase: regular-season
 pim: 4
-points: 9
-rank: 34
+points: 11
+rank: 25
 season: ch-26-27

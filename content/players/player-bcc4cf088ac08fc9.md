@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Barbora Mutňanová
 Category: players
 Slug: player-bcc4cf088ac08fc9

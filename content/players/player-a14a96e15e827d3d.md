@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Naja Ritter
 Category: players
 Slug: player-a14a96e15e827d3d

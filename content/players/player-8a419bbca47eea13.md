@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Josia Pfister
 Category: players
 Slug: player-8a419bbca47eea13
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 7
 previous_points: 14
 previous_pim: 6
-career_games: 34
+career_games: 35
 career_goals: 10
 career_assists: 9
 career_points: 19
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|8|3|2|5|2||ch-26-27|cup|Switzerland|UHC Uster|1|0|1|1|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|4|5|2||ch-25-26|regular-season|Switzerland|UHC Uster|22|6|3|9|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|9|3|2|5|2||ch-26-27|cup|Switzerland|UHC Uster|1|0|1|1|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|4|5|2||ch-25-26|regular-season|Switzerland|UHC Uster|22|6|3|9|4
 assists: 2
-games: 8
+games: 9
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 76
+rank: 80
 season: ch-26-27

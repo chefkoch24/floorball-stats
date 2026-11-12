@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: David Foelix
 Category: players
 Slug: player-3ba5bd3a4a4bed55
@@ -11,12 +11,12 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|7|0|1|1|2||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|2|2|4|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Kloten-Dietlikon Jets|8|0|1|1|2||ch-26-27|cup|Switzerland|Kloten-Dietlikon Jets|4|2|2|4|2
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 188
+rank: 190
 season: ch-26-27

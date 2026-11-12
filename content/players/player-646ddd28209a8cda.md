@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Leon Tringaniello
 Category: players
 Slug: player-646ddd28209a8cda
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 70
+rank: 75
 season: ch-26-27

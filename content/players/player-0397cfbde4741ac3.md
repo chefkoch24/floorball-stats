@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Yann Ruh
 Category: players
 Slug: player-0397cfbde4741ac3
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 18
+rank: 20
 season: ch-26-27

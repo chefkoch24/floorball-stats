@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Noël Greber
 Category: players
 Slug: player-f34ff6b195f2fc95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 295
+rank: 299
 season: ch-26-27

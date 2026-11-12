@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Levin Gügi
 Category: players
 Slug: player-9b99eb40154fad5e
@@ -11,16 +11,16 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 1
 current_points: 2
-current_pim: 2
-regular_games: 7
+current_pim: 4
+regular_games: 8
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 1
 previous_points: 6
 previous_pim: 10
-career_games: 28
+career_games: 29
 career_goals: 6
 career_assists: 1
 career_points: 7
-career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|7|1|0|1|0||ch-26-27|cup|Switzerland|WASA St. Gallen|2|0|1|1|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|21|5|1|6|10
+career_pim: 12
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|8|1|0|1|2||ch-26-27|cup|Switzerland|WASA St. Gallen|2|0|1|1|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|21|5|1|6|10
 assists: 0
-games: 7
+games: 8
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 1
 rank: 176
 season: ch-26-27

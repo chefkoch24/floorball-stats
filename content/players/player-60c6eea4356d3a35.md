@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Juuli Aspbäck
 Category: players
 Slug: player-60c6eea4356d3a35

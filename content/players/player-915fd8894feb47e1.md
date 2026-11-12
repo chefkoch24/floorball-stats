@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Mauro Hartmann
 Category: players
 Slug: player-915fd8894feb47e1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
-current_goals: 4
+current_games: 12
+current_goals: 5
 current_assists: 9
-current_points: 13
+current_points: 14
 current_pim: 6
-regular_games: 8
-regular_goals: 4
+regular_games: 9
+regular_goals: 5
 regular_assists: 5
-regular_points: 9
+regular_points: 10
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 6
 previous_points: 18
 previous_pim: 16
-career_games: 29
-career_goals: 16
+career_games: 30
+career_goals: 17
 career_assists: 11
-career_points: 27
+career_points: 28
 career_pim: 20
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|8|4|5|9|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|4|4|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|12|6|18|16
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|9|5|5|10|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|4|4|2||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|21|12|6|18|16
 assists: 5
-games: 8
-goals: 4
+games: 9
+goals: 5
 penalties: 2
 phase: regular-season
 pim: 4
-points: 9
-rank: 35
+points: 10
+rank: 33
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Nina Káčeríkova
 Category: players
 Slug: player-af6e5ccb4a2d0283

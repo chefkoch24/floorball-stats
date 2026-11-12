@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Blanka Gajdošová
 Category: players
 Slug: player-76767eea02060bfb

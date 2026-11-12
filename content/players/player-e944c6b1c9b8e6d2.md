@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Marcel Jakubec
 Category: players
 Slug: player-e944c6b1c9b8e6d2

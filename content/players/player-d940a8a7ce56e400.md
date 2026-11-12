@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Teemu Lakso
 Category: players
 Slug: player-d940a8a7ce56e400
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 121
+rank: 124
 season: fi-26-27

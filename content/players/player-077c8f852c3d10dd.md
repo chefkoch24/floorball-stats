@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Anežka Blechová
 Category: players
 Slug: player-077c8f852c3d10dd

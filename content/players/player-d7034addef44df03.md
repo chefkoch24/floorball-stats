@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Rahul Chiplunkar
 Category: players
 Slug: player-d7034addef44df03
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 0
-career_games: 30
+career_games: 31
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|8|1|0|1|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|9|1|0|1|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|0|0|0|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|0|1|1|0
 assists: 0
-games: 8
+games: 9
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 181
+rank: 182
 season: ch-26-27

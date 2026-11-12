@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Elīza Eikena
 Category: players
 Slug: player-2c0903bd8a56eed0

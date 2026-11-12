@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 5
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 24
+career_games: 25
 career_goals: 3
 career_assists: 5
 career_points: 8
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|8|3|5|8|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|1|0|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|9|3|5|8|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|1|0|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|0|0|0|0
 assists: 5
-games: 8
+games: 9
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 41
+rank: 48
 season: ch-26-27

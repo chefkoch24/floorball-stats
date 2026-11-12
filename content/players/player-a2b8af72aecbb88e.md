@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Tim Glücki
 Category: players
 Slug: player-a2b8af72aecbb88e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 0
-career_games: 34
+career_games: 35
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|8|0|1|1|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|1|1|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|1|1|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|9|0|1|1|0||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|1|1|2||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|0|0|0|0||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|1|1|2|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 202
+rank: 208
 season: ch-26-27

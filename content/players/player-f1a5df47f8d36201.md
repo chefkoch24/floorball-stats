@@ -1,4 +1,4 @@
-Date: 2026-11-11
+Date: 2026-11-12
 Title: Simon Svensson
 Category: players
 Slug: player-f1a5df47f8d36201
