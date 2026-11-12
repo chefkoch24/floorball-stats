@@ -86,3 +86,20 @@ def test_logo_change_invalidates_preview_cache(tmp_path, monkeypatch):
     Image.new('RGBA', (20, 20), 'blue').save(logo)
     share_assets._write_image(spec, output)
     assert output.read_bytes() != first
+
+
+def test_category_facts_describe_the_page_type():
+    assert share_assets._category_facts("se-26-27-regular-season") == "Standings, results and stats"
+    assert share_assets._category_facts("se-26-27-playoffs") == "Playoff bracket and results"
+    assert share_assets._category_facts("ch-26-27-cup") == "Cup results by round"
+    assert share_assets._category_facts("se-26-27-players") == "Player rankings and stats"
+
+
+def test_league_image_is_rendered(tmp_path):
+    target = tmp_path / "og" / "category-se-26-27-regular-season.png"
+    spec = ("league", "Sweden · SSL", "Sweden · SSL", "Standings, results and stats")
+    share_assets._write_image(spec, target)
+    from PIL import Image
+
+    with Image.open(target) as image:
+        assert image.size == (share_assets.WIDTH, share_assets.HEIGHT)
