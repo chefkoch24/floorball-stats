@@ -14,6 +14,7 @@ Version 2 added ``weight``, the ``league`` type and one team row per club.
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Callable
 
@@ -82,7 +83,8 @@ def _default_labels() -> tuple[Callable[[str], str], Callable[[str], str]]:
             return str(title or "")
 
         return seo_label, league_title
-    except Exception:  # the index must still build without the site config
+    except Exception as error:  # the index must still build without the site config
+        print(f"search-index: warning, league labels fall back to slugs ({error})", file=sys.stderr)
         return (lambda slug: slug), (lambda slug: "")
 
 
