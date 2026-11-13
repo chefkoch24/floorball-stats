@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Sil Munnikhuizen
 Category: players
 Slug: player-707fb4e2b89a59c6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 184
+rank: 185
 season: ch-26-27

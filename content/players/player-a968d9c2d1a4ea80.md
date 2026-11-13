@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Matyáš Devátý
 Category: players
 Slug: player-a968d9c2d1a4ea80

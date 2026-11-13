@@ -6,7 +6,7 @@ type: game
 game_id: 1097117
 home_team: SV Wiler-Ersigen
 away_team: Tigers Langnau
-attendance: 0
+attendance: 837
 away_goal_diffs_csv: 2,1,0,1,1
 away_goal_minutes_csv: 33.63,47.32,49.55,58.87,59.85
 away_major_penalty_minutes_csv: 

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Stefan Hutzli
 Category: players
 Slug: player-6ee3d6b4190bd231
@@ -11,12 +11,12 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 10
+current_games: 11
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 5
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 19
 previous_assists: 6
 previous_points: 25
 previous_pim: 6
-career_games: 44
+career_games: 45
 career_goals: 25
 career_assists: 11
 career_points: 36
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|8|3|5|8|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|0|1|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|1|0|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|18|6|24|6||wfc-2024|tournament|IFF WFC|Switzerland|6|3|0|3|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|9|3|5|8|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|0|1|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|1|0|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|18|6|24|6||wfc-2024|tournament|IFF WFC|Switzerland|6|3|0|3|2
 assists: 5
-games: 8
+games: 9
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 49
+rank: 51
 season: ch-26-27

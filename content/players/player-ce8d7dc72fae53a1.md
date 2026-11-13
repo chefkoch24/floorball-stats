@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Mārtiņš Urtāns
 Category: players
 Slug: player-ce8d7dc72fae53a1

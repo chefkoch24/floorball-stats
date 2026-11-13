@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Mediķis Rolands Gustavs Vaivads
 Category: players
 Slug: player-e0ead84a2811e069

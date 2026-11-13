@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Tomáš Čáslava
 Category: players
 Slug: player-9f74eaeaaa01782b

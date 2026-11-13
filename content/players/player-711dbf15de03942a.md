@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Samuel Poffet
 Category: players
 Slug: player-711dbf15de03942a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 6
 current_assists: 2
 current_points: 8
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 5
 regular_assists: 0
 regular_points: 5
@@ -36,14 +36,14 @@ previous_goals: 13
 previous_assists: 6
 previous_points: 19
 previous_pim: 10
-career_games: 36
+career_games: 37
 career_goals: 18
 career_assists: 6
 career_points: 24
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|8|5|0|5|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|1|1|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|13|5|18|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|9|5|0|5|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|1|1|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|13|5|18|10
 assists: 0
-games: 8
+games: 9
 goals: 5
 penalties: 1
 phase: regular-season

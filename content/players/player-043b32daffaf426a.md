@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Karolína Sovadinová
 Category: players
 Slug: player-043b32daffaf426a

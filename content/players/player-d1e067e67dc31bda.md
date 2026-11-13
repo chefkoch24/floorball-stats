@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Yannis Wyss
 Category: players
 Slug: player-d1e067e67dc31bda
@@ -10,7 +10,7 @@ league: Switzerland
 season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: ch-25-26
+previous_season: se-25-26
 current_games: 11
 current_goals: 8
 current_assists: 7
@@ -31,11 +31,11 @@ cup_goals: 1
 cup_assists: 1
 cup_points: 2
 cup_pim: 0
-previous_games: 23
-previous_goals: 9
-previous_assists: 5
-previous_points: 14
-previous_pim: 2
+previous_games: 9
+previous_goals: 4
+previous_assists: 6
+previous_points: 10
+previous_pim: 0
 career_games: 41
 career_goals: 20
 career_assists: 17

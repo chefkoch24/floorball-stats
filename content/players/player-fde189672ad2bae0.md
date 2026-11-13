@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Rianna Palmroth
 Category: players
 Slug: player-fde189672ad2bae0

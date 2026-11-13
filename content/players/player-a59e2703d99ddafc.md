@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Sofianna Tuominen
 Category: players
 Slug: player-a59e2703d99ddafc

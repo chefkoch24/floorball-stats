@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Klára Pabiánová
 Category: players
 Slug: player-ec50ba6ed56bca37

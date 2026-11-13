@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Niklas Ohlström
 Category: players
 Slug: player-56e76ba9e1a595a3

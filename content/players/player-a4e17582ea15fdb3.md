@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Yotsaphong Chaiphring
 Category: players
 Slug: player-a4e17582ea15fdb3

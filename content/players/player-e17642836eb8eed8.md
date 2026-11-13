@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Mattia Schmied
 Category: players
 Slug: player-e17642836eb8eed8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 5
 previous_points: 7
 previous_pim: 0
-career_games: 29
+career_games: 30
 career_goals: 2
 career_assists: 5
 career_points: 7
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|2|5|7|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|5|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|2|5|7|0
 assists: 0
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 277
+rank: 279
 season: ch-26-27

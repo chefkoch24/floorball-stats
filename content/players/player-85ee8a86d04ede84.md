@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Dominika Kubaliaková
 Category: players
 Slug: player-85ee8a86d04ede84

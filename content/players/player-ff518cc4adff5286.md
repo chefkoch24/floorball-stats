@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Török Gréti
 Category: players
 Slug: player-ff518cc4adff5286

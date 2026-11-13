@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Jussi-Pekka Raitanen
 Category: players
 Slug: player-5127a7cec5d032e9

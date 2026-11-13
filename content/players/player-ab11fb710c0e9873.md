@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Roman Beck
 Category: players
 Slug: player-ab11fb710c0e9873
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 308
+rank: 310
 season: ch-26-27

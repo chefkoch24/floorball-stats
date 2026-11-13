@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Jesse-Samuli Huppunen
 Category: players
 Slug: player-a7d67e8f3378bae3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 74
+rank: 75
 season: fi-26-27

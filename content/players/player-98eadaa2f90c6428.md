@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Pavel Hájek C
 Category: players
 Slug: player-98eadaa2f90c6428

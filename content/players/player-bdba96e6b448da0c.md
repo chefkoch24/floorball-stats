@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Šimon Stano
 Category: players
 Slug: player-bdba96e6b448da0c

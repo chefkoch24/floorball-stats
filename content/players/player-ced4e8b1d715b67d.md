@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Jakub Mikula
 Category: players
 Slug: player-ced4e8b1d715b67d

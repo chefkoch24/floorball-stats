@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Linda Pudisova
 Category: players
 Slug: player-6b884727bcdef4b5

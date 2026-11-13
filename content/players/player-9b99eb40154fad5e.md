@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Levin Gügi
 Category: players
 Slug: player-9b99eb40154fad5e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 176
+rank: 177
 season: ch-26-27

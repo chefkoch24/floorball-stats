@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 0.0
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 75.0
 result_string: None
-start_time: 00:00
+start_time: 16:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

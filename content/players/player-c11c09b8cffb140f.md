@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Frederic Thiele
 Category: players
 Slug: player-c11c09b8cffb140f

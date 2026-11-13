@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Sakari Kataja-Rahko
 Category: players
 Slug: player-d9acaa7a53369e75
@@ -13,13 +13,13 @@ current_season_is_tournament: no
 previous_season: fi-25-26
 current_games: 4
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 1
+current_points: 4
 current_pim: 2
 regular_games: 4
 regular_goals: 3
-regular_assists: 2
-regular_points: 5
+regular_assists: 1
+regular_points: 4
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -38,16 +38,16 @@ previous_points: 15
 previous_pim: 4
 career_games: 17
 career_goals: 15
-career_assists: 5
-career_points: 20
+career_assists: 4
+career_points: 19
 career_pim: 6
-history_rows_csv: fi-26-27|regular-season|Finland|Hawks|4|3|2|5|2||fi-25-26|regular-season|Finland|Hawks|13|12|3|15|4
-assists: 2
+history_rows_csv: fi-26-27|regular-season|Finland|Hawks|4|3|1|4|2||fi-25-26|regular-season|Finland|Hawks|13|12|3|15|4
+assists: 1
 games: 4
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 5
-rank: 102
+points: 4
+rank: 113
 season: fi-26-27

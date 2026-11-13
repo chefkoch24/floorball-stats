@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Merlin Picariello
 Category: players
 Slug: player-4e9729dea9d527b6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 282
+rank: 284
 season: ch-26-27

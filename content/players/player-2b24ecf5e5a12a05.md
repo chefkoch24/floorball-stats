@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Stanislav Minář
 Category: players
 Slug: player-2b24ecf5e5a12a05

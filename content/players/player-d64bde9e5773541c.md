@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Manuel Hardegger
 Category: players
 Slug: player-d64bde9e5773541c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 269
 season: ch-26-27

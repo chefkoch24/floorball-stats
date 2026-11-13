@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Nuria Egger
 Category: players
 Slug: player-5df5e8b43c571ff2

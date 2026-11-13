@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Marek Stodola
 Category: players
 Slug: player-846f7be0e6f68a24

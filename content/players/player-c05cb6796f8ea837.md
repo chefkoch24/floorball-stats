@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Alexandra Vítková
 Category: players
 Slug: player-c05cb6796f8ea837

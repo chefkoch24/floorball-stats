@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Yves Walliser
 Category: players
 Slug: player-90a27f2492eebfc5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 323
+rank: 326
 season: ch-26-27

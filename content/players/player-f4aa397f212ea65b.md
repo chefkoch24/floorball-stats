@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Philipp Kopp
 Category: players
 Slug: player-f4aa397f212ea65b

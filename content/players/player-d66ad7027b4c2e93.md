@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Michaela Strnadová
 Category: players
 Slug: player-d66ad7027b4c2e93

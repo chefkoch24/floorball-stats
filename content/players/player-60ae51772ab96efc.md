@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Karri Vaarala
 Category: players
 Slug: player-60ae51772ab96efc

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Livia Ankli
 Category: players
 Slug: player-a27294e7e0f6de0b

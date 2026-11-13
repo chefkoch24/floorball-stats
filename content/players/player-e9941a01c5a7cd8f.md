@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Petrík Marko
 Category: players
 Slug: player-e9941a01c5a7cd8f

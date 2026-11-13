@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Ilmari Aarela
 Category: players
 Slug: player-fa9f4dacc54534bc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 182
+rank: 183
 season: fi-26-27

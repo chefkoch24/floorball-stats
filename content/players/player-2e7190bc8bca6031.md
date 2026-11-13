@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Matej Potoček
 Category: players
 Slug: player-2e7190bc8bca6031

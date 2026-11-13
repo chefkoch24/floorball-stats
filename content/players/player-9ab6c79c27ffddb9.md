@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Fizioterapeits Elīna Beinare-Tjutjunova
 Category: players
 Slug: player-9ab6c79c27ffddb9

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Fredrik Bäckman
 Category: players
 Slug: player-adce8c7ac1331388
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 35
+rank: 37
 season: ch-26-27

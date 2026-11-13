@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Aapo Haavisto
 Category: players
 Slug: player-a0f07b3f7489c1d3

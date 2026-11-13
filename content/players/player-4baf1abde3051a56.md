@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Ivo Lüthi
 Category: players
 Slug: player-4baf1abde3051a56
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 56
+rank: 57
 season: ch-26-27

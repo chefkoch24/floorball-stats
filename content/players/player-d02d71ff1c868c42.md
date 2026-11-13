@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Lea Marie Blumenstiel
 Category: players
 Slug: player-d02d71ff1c868c42

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Niklas Nussbaumer
 Category: players
 Slug: player-065cbf5878b5a5a9
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 42
+rank: 43
 season: ch-26-27

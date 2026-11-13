@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Adam Fliegner
 Category: players
 Slug: player-d235cc1ed83d8cf0

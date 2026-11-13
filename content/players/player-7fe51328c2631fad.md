@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Fizioterapeits Elīza Astra Vectirāne
 Category: players
 Slug: player-7fe51328c2631fad

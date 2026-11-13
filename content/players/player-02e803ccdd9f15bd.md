@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Dilans Kronentāls
 Category: players
 Slug: player-02e803ccdd9f15bd

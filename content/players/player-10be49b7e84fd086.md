@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Kasper Kulmala
 Category: players
 Slug: player-10be49b7e84fd086
@@ -12,13 +12,13 @@ current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
 current_games: 8
-current_goals: 7
-current_assists: 9
+current_goals: 6
+current_assists: 10
 current_points: 16
 current_pim: 2
 regular_games: 7
-regular_goals: 5
-regular_assists: 6
+regular_goals: 4
+regular_assists: 7
 regular_points: 11
 regular_pim: 2
 playoff_games: 0
@@ -37,17 +37,17 @@ previous_assists: 10
 previous_points: 28
 previous_pim: 0
 career_games: 24
-career_goals: 23
-career_assists: 16
+career_goals: 22
+career_assists: 17
 career_points: 39
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|TPS|7|5|6|11|2||fi-26-27|cup|Finland|TPS|1|2|3|5|0||fi-25-26|regular-season|Finland|TPS|17|18|10|28|0
-assists: 6
+history_rows_csv: fi-26-27|regular-season|Finland|TPS|7|4|7|11|2||fi-26-27|cup|Finland|TPS|1|2|3|5|0||fi-25-26|regular-season|Finland|TPS|17|18|10|28|0
+assists: 7
 games: 7
-goals: 5
+goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 38
+rank: 37
 season: fi-26-27

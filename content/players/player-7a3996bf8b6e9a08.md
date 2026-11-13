@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Natalie Sandstrom
 Category: players
 Slug: player-7a3996bf8b6e9a08

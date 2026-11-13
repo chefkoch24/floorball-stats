@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Rohit Chiplunkar
 Category: players
 Slug: player-ba8702552d623faa
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 10
-rank: 31
+rank: 33
 season: ch-26-27

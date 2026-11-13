@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Alex Eklund
 Category: players
 Slug: player-87e333c21af112da
@@ -12,14 +12,14 @@ current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
 current_games: 10
-current_goals: 12
+current_goals: 13
 current_assists: 8
-current_points: 20
+current_points: 21
 current_pim: 2
 regular_games: 9
-regular_goals: 12
+regular_goals: 13
 regular_assists: 8
-regular_points: 20
+regular_points: 21
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -37,17 +37,17 @@ previous_assists: 9
 previous_points: 34
 previous_pim: 2
 career_games: 24
-career_goals: 37
+career_goals: 38
 career_assists: 17
-career_points: 54
+career_points: 55
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|TPS|9|12|8|20|0||fi-26-27|cup|Finland|TPS|1|0|0|0|2||fi-25-26|regular-season|Finland|TPS|15|25|9|34|2
+history_rows_csv: fi-26-27|regular-season|Finland|TPS|9|13|8|21|0||fi-26-27|cup|Finland|TPS|1|0|0|0|2||fi-25-26|regular-season|Finland|TPS|15|25|9|34|2
 assists: 8
 games: 9
-goals: 12
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 20
+points: 21
 rank: 5
 season: fi-26-27

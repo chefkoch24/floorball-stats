@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Simon Stransky
 Category: players
 Slug: player-45d68cdac39a9bbb

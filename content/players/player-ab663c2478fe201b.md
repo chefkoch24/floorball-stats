@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Niklas Äijälä
 Category: players
 Slug: player-ab663c2478fe201b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 71
+rank: 72
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Daniel Kalentun
 Category: players
 Slug: player-27c481dab94b1c99

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Aatu Koivisto
 Category: players
 Slug: player-c37c61370824dbeb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 176
+rank: 177
 season: fi-26-27

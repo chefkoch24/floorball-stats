@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Aaro Astala
 Category: players
 Slug: player-082c30326fa53cfa
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 6
 current_goals: 9
-current_assists: 4
-current_points: 13
+current_assists: 5
+current_points: 14
 current_pim: 2
-regular_games: 5
+regular_games: 6
 regular_goals: 9
-regular_assists: 4
-regular_points: 13
+regular_assists: 5
+regular_points: 14
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 20
 previous_points: 37
 previous_pim: 2
-career_games: 33
+career_games: 34
 career_goals: 32
-career_assists: 26
-career_points: 58
+career_assists: 27
+career_points: 59
 career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|Oilers|5|9|4|13|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|6|2|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|11|18|29|0||wfc-2024|tournament|IFF WFC|Finland|6|6|2|8|0
-assists: 4
-games: 5
+history_rows_csv: fi-26-27|regular-season|Finland|Oilers|6|9|5|14|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|6|2|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|16|11|18|29|0||wfc-2024|tournament|IFF WFC|Finland|6|6|2|8|0
+assists: 5
+games: 6
 goals: 9
 penalties: 1
 phase: regular-season
 pim: 2
-points: 13
-rank: 26
+points: 14
+rank: 23
 season: fi-26-27

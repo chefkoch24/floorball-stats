@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Adam Bures
 Category: players
 Slug: player-3e88af175b0aadb4

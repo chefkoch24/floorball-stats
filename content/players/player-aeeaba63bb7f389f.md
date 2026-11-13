@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Matīss Jorens Švedenbergs
 Category: players
 Slug: player-aeeaba63bb7f389f

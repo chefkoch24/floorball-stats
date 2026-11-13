@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Enea Raselli
 Category: players
 Slug: player-dcbd63c59121a55a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 193
+rank: 194
 season: ch-26-27

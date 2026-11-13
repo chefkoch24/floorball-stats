@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Lowe Jellnor
 Category: players
 Slug: player-a55f7b094869fc8e

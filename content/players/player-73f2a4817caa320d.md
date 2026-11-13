@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Ted Nivestam
 Category: players
 Slug: player-73f2a4817caa320d
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 27
+rank: 30
 season: ch-26-27

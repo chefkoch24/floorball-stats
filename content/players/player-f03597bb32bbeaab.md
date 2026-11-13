@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Florian Böttcher
 Category: players
 Slug: player-f03597bb32bbeaab

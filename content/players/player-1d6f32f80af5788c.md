@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Miro Mertanen
 Category: players
 Slug: player-1d6f32f80af5788c

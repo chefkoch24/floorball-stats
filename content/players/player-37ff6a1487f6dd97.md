@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Nico Niemack
 Category: players
 Slug: player-37ff6a1487f6dd97

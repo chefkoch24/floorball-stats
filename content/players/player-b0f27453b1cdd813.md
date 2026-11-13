@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Veerasak Pimpa
 Category: players
 Slug: player-b0f27453b1cdd813

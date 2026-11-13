@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Mauro Hartmann
 Category: players
 Slug: player-915fd8894feb47e1
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 10
-rank: 33
+rank: 35
 season: ch-26-27

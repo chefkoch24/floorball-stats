@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Matej Jendrisak
 Category: players
 Slug: player-23a654aa81ef253c

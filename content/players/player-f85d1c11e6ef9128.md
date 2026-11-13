@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Niko Halme
 Category: players
 Slug: player-f85d1c11e6ef9128
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 192
+rank: 193
 season: fi-26-27

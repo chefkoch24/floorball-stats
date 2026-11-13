@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Jamie Martinjas
 Category: players
 Slug: player-9d6c1ddcd9695a1a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 25
+rank: 27
 season: ch-26-27

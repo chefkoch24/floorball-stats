@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Valtteri Koskinen
 Category: players
 Slug: player-03de360f4ac1296f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 213
+rank: 214
 season: fi-26-27

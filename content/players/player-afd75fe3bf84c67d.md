@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Raphael Neidhart
 Category: players
 Slug: player-afd75fe3bf84c67d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 183
+rank: 184
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Anna Rentzsch
 Category: players
 Slug: player-91410d3ce0b5c92b

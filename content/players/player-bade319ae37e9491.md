@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Matteo Nico Steiner
 Category: players
 Slug: player-bade319ae37e9491

@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Niko Tervo
 Category: players
 Slug: player-6ca3ea017f794fc0

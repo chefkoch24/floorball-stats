@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Ilvis Pētersons
 Category: players
 Slug: player-aacb53b755ac5869

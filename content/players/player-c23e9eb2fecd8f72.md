@@ -1,4 +1,4 @@
-Date: 2026-11-12
+Date: 2026-11-13
 Title: Iida Kuoppala
 Category: players
 Slug: player-c23e9eb2fecd8f72
