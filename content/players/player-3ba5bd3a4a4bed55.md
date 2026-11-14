@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: David Foelix
 Category: players
 Slug: player-3ba5bd3a4a4bed55

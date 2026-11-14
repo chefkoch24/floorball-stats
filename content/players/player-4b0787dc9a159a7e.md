@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Daria Drzymała
 Category: players
 Slug: player-4b0787dc9a159a7e

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jenni Rautanen
 Category: players
 Slug: player-a510666fe4b205df

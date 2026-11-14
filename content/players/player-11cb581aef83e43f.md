@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Frederik Kobberup
 Category: players
 Slug: player-11cb581aef83e43f

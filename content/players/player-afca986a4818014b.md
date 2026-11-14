@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Stefanie Brändle
 Category: players
 Slug: player-afca986a4818014b

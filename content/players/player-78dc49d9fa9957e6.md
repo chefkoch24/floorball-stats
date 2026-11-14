@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Inez Wallskog
 Category: players
 Slug: player-78dc49d9fa9957e6

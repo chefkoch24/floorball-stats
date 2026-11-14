@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jaroslav David
 Category: players
 Slug: player-3a9fab3b5739e515

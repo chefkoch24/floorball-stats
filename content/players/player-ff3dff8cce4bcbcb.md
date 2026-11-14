@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Leopold Neugebauer
 Category: players
 Slug: player-ff3dff8cce4bcbcb

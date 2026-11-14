@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Ulla Valtola
 Category: players
 Slug: player-b8acf1a8484d45fd

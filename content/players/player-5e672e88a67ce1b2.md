@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jonáš Kreysa
 Category: players
 Slug: player-5e672e88a67ce1b2

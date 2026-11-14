@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Rolands Gustavs Vaivads
 Category: players
 Slug: player-5f5e8a462c1dde02

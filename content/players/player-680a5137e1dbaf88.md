@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Marko Krištof
 Category: players
 Slug: player-680a5137e1dbaf88

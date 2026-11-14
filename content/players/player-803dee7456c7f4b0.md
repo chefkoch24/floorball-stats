@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Matěj Kulhavý
 Category: players
 Slug: player-803dee7456c7f4b0

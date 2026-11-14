@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Switzerland Women Player Stats 26/27 Regular Season
 Category: chw-26-27-regular-season-players
 Slug: chw-26-27-regular-season-players

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Justýna Šigutová
 Category: players
 Slug: player-9aa0bb27a21f1b69

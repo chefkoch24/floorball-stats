@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Tereza Zvěřinová
 Category: players
 Slug: player-ef89288fb7a3aadb

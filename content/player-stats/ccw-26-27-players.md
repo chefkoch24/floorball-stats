@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: IFF Champions Cup Women Player Stats 26/27 Tournament
 Category: ccw-26-27-players
 Slug: ccw-26-27-players

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Alice Hägglund
 Category: players
 Slug: player-9c1fa162be37f5c8

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Marcel Petrík
 Category: players
 Slug: player-bbc287d45589bb89

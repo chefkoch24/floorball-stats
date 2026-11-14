@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Karri Vaarala
 Category: players
 Slug: player-60ae51772ab96efc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 19
-rank: 8
+rank: 12
 season: fi-26-27

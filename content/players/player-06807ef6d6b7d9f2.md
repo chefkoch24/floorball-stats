@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Tess Nilsson
 Category: players
 Slug: player-06807ef6d6b7d9f2

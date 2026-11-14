@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Lisa Andersson
 Category: players
 Slug: player-e5ca4b0aff5bc86d

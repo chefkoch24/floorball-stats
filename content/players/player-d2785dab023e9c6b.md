@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Anton Lundquist
 Category: players
 Slug: player-d2785dab023e9c6b

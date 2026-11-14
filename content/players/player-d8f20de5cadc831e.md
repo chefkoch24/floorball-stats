@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Michal Koller
 Category: players
 Slug: player-d8f20de5cadc831e

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Vendula Štolbová
 Category: players
 Slug: player-4c847aeb3edd0e1e

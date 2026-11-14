@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Daniel Chatrný C
 Category: players
 Slug: player-2c9fa0e70c59f976

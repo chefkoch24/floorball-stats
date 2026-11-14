@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Saga Ragnvaldsson
 Category: players
 Slug: player-a69a5ad77e8d39a3

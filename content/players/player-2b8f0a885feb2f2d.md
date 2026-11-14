@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Rasmus Vanhala
 Category: players
 Slug: player-2b8f0a885feb2f2d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 165
+rank: 166
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Tomáš Chroust
 Category: players
 Slug: player-d8ee4c8afce1568a

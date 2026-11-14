@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Raphael Heinzelmann
 Category: players
 Slug: player-8c86e97687ccfb49

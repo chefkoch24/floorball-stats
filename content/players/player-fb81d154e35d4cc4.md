@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Elias Nyman
 Category: players
 Slug: player-fb81d154e35d4cc4

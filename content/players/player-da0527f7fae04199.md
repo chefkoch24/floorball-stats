@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Miranda Kristensson
 Category: players
 Slug: player-da0527f7fae04199

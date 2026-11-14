@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Veronika Kopecka
 Category: players
 Slug: player-6c26a836f6fe228c

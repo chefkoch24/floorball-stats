@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Tim Döbeli
 Category: players
 Slug: player-f67ef6ef8a88287c

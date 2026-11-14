@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Laura Pakarinen
 Category: players
 Slug: player-cf8d6def8c5c696e

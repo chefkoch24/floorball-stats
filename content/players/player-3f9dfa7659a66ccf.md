@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Maximilian Schröder
 Category: players
 Slug: player-3f9dfa7659a66ccf

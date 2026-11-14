@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Julians Aizupietis
 Category: players
 Slug: player-26bd3cec13187ce4

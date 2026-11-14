@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Joana Rietdorf
 Category: players
 Slug: player-7f5cebf6f86df9d8

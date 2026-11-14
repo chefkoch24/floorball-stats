@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Emmi Palonen
 Category: players
 Slug: player-9da7968ca8c3bba6

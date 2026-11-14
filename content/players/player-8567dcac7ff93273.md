@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Gabriela Vaculová
 Category: players
 Slug: player-8567dcac7ff93273

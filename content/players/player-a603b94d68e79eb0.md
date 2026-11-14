@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Daniel Štěrba
 Category: players
 Slug: player-a603b94d68e79eb0

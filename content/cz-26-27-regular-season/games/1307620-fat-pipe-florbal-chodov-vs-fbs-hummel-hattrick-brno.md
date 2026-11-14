@@ -1,4 +1,4 @@
-Date: 2026-12-30
+Date: 2026-12-22
 Title: 1307620-fat-pipe-florbal-chodov-vs-fbs-hummel-hattrick-brno
 Category: cz-26-27-regular-season, game
 Slug: 1307620-fat-pipe-florbal-chodov-vs-fbs-hummel-hattrick-brno-cz-26-27-regular-season

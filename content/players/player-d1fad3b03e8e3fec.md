@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Cira Virta
 Category: players
 Slug: player-d1fad3b03e8e3fec

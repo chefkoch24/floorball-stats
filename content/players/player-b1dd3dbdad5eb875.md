@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Vítek Engel
 Category: players
 Slug: player-b1dd3dbdad5eb875

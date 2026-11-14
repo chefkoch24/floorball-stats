@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Sinja Kahilampi
 Category: players
 Slug: player-aa52cb73bdad28f3

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Lisa Devenoge
 Category: players
 Slug: player-26561aabd3fc3c0e

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Dessie Johansson/Karlsson
 Category: players
 Slug: player-04ac03d0fb3aa81e

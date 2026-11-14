@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Selma Bergmann
 Category: players
 Slug: player-fe0e08f1d419e5a1

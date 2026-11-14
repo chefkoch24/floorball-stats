@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jakub Varecha
 Category: players
 Slug: player-c4bdc19953c12c81

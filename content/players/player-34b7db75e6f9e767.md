@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Emelie-Sophie Loos
 Category: players
 Slug: player-34b7db75e6f9e767

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Christian Freij
 Category: players
 Slug: player-ab5d1c2dfc540bf6

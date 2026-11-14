@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jakub Grich
 Category: players
 Slug: player-cb1ffc1a472cc97f

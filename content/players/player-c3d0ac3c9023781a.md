@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Alexander Rönnlund
 Category: players
 Slug: player-c3d0ac3c9023781a

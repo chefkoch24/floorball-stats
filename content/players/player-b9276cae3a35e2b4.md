@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Oskar Nieskorski
 Category: players
 Slug: player-b9276cae3a35e2b4

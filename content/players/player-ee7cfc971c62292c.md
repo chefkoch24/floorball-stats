@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Vanessa Grönblom
 Category: players
 Slug: player-ee7cfc971c62292c

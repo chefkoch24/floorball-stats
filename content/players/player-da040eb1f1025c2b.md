@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Tadeáš Weber
 Category: players
 Slug: player-da040eb1f1025c2b

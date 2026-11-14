@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Lea Králiková
 Category: players
 Slug: player-d99ab2f154ae174e

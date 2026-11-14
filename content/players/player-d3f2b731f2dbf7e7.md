@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jette Fallei
 Category: players
 Slug: player-d3f2b731f2dbf7e7

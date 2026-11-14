@@ -6,7 +6,7 @@ type: game
 game_id: 1097120
 home_team: Floorball Chur United
 away_team: WASA St. Gallen
-attendance: 0
+attendance: 364
 away_goal_diffs_csv: 1,1,0,-1,-2
 away_goal_minutes_csv: 34.63,36.62,39.7,43.1,49.53
 away_major_penalty_minutes_csv: 

@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jan Bajtek
 Category: players
 Slug: player-4b1fd4f97b45fd36

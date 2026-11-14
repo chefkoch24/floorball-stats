@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Arttu Pylväläinen
 Category: players
 Slug: player-97b30daea1cd8df6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 169
+rank: 170
 season: fi-26-27

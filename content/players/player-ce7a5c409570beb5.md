@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jasse Tuunanen
 Category: players
 Slug: player-ce7a5c409570beb5

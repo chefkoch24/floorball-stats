@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Eero Jalo
 Category: players
 Slug: player-d7d8f2bc29e0e09e

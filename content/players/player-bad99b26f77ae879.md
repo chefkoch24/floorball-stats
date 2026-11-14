@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Sami Johansson
 Category: players
 Slug: player-bad99b26f77ae879
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 3
-current_goals: 6
+current_games: 4
+current_goals: 8
 current_assists: 3
-current_points: 9
+current_points: 11
 current_pim: 0
-regular_games: 3
-regular_goals: 6
+regular_games: 4
+regular_goals: 8
 regular_assists: 3
-regular_points: 9
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 25
 previous_assists: 13
 previous_points: 38
 previous_pim: 2
-career_games: 27
-career_goals: 33
+career_games: 28
+career_goals: 35
 career_assists: 16
-career_points: 49
+career_points: 51
 career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|Classic|3|6|3|9|0||ch-25-26|playoffs|Switzerland|Zug United|11|18|8|26|2||ch-25-26|regular-season|Switzerland|Zug United|7|7|5|12|0||wfc-2024|tournament|IFF WFC|Finland|6|2|0|2|2
+history_rows_csv: fi-26-27|regular-season|Finland|Classic|4|8|3|11|0||ch-25-26|playoffs|Switzerland|Zug United|11|18|8|26|2||ch-25-26|regular-season|Switzerland|Zug United|7|7|5|12|0||wfc-2024|tournament|IFF WFC|Finland|6|2|0|2|2
 assists: 3
-games: 3
-goals: 6
+games: 4
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 9
-rank: 50
+points: 11
+rank: 36
 season: fi-26-27

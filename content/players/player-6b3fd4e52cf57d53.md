@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Jeri Heikkilä
 Category: players
 Slug: player-6b3fd4e52cf57d53
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 139
+rank: 140
 season: fi-26-27

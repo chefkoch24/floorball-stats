@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Nicolas Ciurea
 Category: players
 Slug: player-e23f3088449bccd6

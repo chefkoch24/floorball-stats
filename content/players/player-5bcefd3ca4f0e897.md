@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Lukas Schellenberg
 Category: players
 Slug: player-5bcefd3ca4f0e897

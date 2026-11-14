@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: David Frolík
 Category: players
 Slug: player-44b8db6dec60f91c

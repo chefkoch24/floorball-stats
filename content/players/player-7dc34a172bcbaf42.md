@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Nowa Veteläinen Lindgren
 Category: players
 Slug: player-7dc34a172bcbaf42

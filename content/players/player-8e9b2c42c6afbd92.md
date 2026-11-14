@@ -1,4 +1,4 @@
-Date: 2026-11-13
+Date: 2026-11-14
 Title: Sophie Carbogno
 Category: players
 Slug: player-8e9b2c42c6afbd92
