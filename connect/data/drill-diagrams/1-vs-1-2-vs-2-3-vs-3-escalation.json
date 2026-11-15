@@ -1,0 +1,168 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        26.0,
+        8.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        28.6,
+        9.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        21.0,
+        2.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        23.2,
+        2.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        21.0,
+        18.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        23.2,
+        18.0
+      ],
+      "label": "3"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "20 seconds 1 vs 1: Red 1 tries to beat Blue 1.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            29.4,
+            12.2
+          ],
+          "via": [
+            [
+              26.6,
+              11.4
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            30.4,
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Whistle: Red 2 and Blue 2 join, 2 vs 2.",
+      "actions": [
+        {
+          "run": "r2",
+          "to": [
+            30.6,
+            6.0
+          ],
+          "via": [
+            [
+              26,
+              3.4
+            ]
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            31.6,
+            7.4
+          ],
+          "via": [
+            [
+              27,
+              3.6
+            ]
+          ]
+        },
+        {
+          "pass": "r1",
+          "to": "r2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Whistle: Red 3 and Blue 3 join, 3 vs 3. Red 2 finds Red 3, who shoots.",
+      "actions": [
+        {
+          "run": "r3",
+          "to": [
+            31.0,
+            13.6
+          ],
+          "via": [
+            [
+              26,
+              16.6
+            ]
+          ]
+        },
+        {
+          "run": "b3",
+          "to": [
+            32.4,
+            12.4
+          ],
+          "via": [
+            [
+              27,
+              16.4
+            ]
+          ]
+        },
+        {
+          "pass": "r2",
+          "to": "r3",
+          "stage": 1
+        },
+        {
+          "shot": "r3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        21.6,
+        3.8
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        34.7,
+        3.7
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        35.3,
+        15.4
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        21.6,
+        15.2
+      ]
+    },
+    {
+      "id": "5",
+      "team": "red",
+      "at": [
+        23.2,
+        5.2
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 5 comes into the middle and Player 3 passes into the run.",
+      "actions": [
+        {
+          "run": "5",
+          "to": [
+            27.6,
+            9.0
+          ],
+          "via": [
+            [
+              24.4,
+              6.6
+            ]
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "5",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 5 passes to Player 4 and takes the free corner; Player 1 comes into the middle and gets the next pass.",
+      "actions": [
+        {
+          "pass": "5",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "run": "5",
+          "to": [
+            22.8,
+            5.0
+          ],
+          "stage": 1
+        },
+        {
+          "run": "1",
+          "to": [
+            26.0,
+            10.8
+          ],
+          "via": [
+            [
+              23.6,
+              7.4
+            ]
+          ],
+          "stage": 1
+        },
+        {
+          "pass": "4",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 1 plays a one-two with Player 2 and shoots from the slot; Player 3 goes to the net.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            27.8,
+            10.0
+          ],
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            35.6,
+            12.6
+          ],
+          "stage": 0
+        },
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 1
+        },
+        {
+          "shot": "1",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

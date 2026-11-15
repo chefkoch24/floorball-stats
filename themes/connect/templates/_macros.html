@@ -37,8 +37,8 @@
     {% if href %}<a class="fc-card__link" href="{{ href }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{% endif %}
     {% if collection.card == 'media' %}
     <div class="fc-card__media{% if collection.key in ('sticks', 'blades', 'equipment') %} fc-card__media--product{% endif %}">
-        {% if item.image %}{{ image(item.image, '') }}{% else %}<span class="fc-card__placeholder" aria-hidden="true">{{ item.title[:1] }}</span>{% endif %}
-        {% if item.videos or item.video %}<span class="fc-card__badge">▶ Video</span>{% endif %}
+        {% if item.diagram %}<div class="dd-thumb" aria-hidden="true">{{ item.diagram.thumb }}</div>{% elif item.image %}{{ image(item.image, '') }}{% else %}<span class="fc-card__placeholder" aria-hidden="true">{{ item.title[:1] }}</span>{% endif %}
+        {% if item.diagram %}<span class="fc-card__badge">▶ Animated</span>{% elif item.videos or item.video %}<span class="fc-card__badge">▶ Video</span>{% endif %}
     </div>
     {% endif %}
     <div class="fc-card__body">

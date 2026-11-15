@@ -22,6 +22,16 @@ import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 
+try:  # the stats site imports this module as connect.connect_content
+    from . import drill_diagram
+except ImportError:
+    import drill_diagram
+
+# Drills that live in the repo instead of Notion (written from public coaching material in our
+# own words, with the source credited), and the diagrams drawn as data, by drill slug.
+LOCAL_DRILLS = "drills_local.json"
+DRILL_DIAGRAMS = "drill-diagrams"
+
 
 @dataclass(frozen=True)
 class Collection:
@@ -182,6 +192,7 @@ class Item:
     video: str = ""  # YouTube id, embedded on the page
     videos: list[str] = field(default_factory=list)  # video files (drill clips), relative to content/
     url: str = ""
+    diagram: dict | None = None  # drill_diagram.render() output: svg, playback data, step texts
 
 
 def review(fields: dict) -> dict:
@@ -236,6 +247,10 @@ def normalize(collection: Collection, record: dict) -> Item:
         pictures = _list(fields.get("Images"))
         item.image = (thumbnails or pictures or [""])[0]
         item.images = pictures or thumbnails
+        source = _text(fields.get("Source"))
+        if source:
+            item.facts = [("Based on", source)]
+            item.link = _text(fields.get("Source URL"))
     elif key == "guides":
         item.title = _text(fields.get("Headline") or fields.get("Name"))
         item.tags = item.facet = _list(fields.get("Category"))
@@ -287,6 +302,9 @@ def load(data_dir: Path | str) -> dict[str, list[Item]]:
     for collection in COLLECTIONS:
         path = Path(data_dir) / f"{collection.key}.json"
         records = json.loads(path.read_text(encoding="utf-8"))["items"] if path.exists() else []
+        if collection.key == "drills":
+            local = Path(data_dir) / LOCAL_DRILLS
+            records = records + (json.loads(local.read_text(encoding="utf-8"))["items"] if local.exists() else [])
         seen: dict[str, int] = {}
         rows = []
         for record in records:
@@ -299,10 +317,31 @@ def load(data_dir: Path | str) -> dict[str, list[Item]]:
                 item.slug = f"{item.slug}-{count + 1}"
             item.url = f"{collection.slug}/{item.slug}/" if collection.detail else f"{collection.slug}/#{item.slug}"
             rows.append(item)
+        if collection.key == "drills":
+            attach_diagrams(rows, Path(data_dir) / DRILL_DIAGRAMS)
         if collection.sort:
             rows.sort(key=lambda row: [-(_number(dict(row.facts).get(name)) or 0) for name in collection.sort])
         items[collection.key] = rows
     return items
+
+
+def attach_diagrams(drills: list[Item], directory: Path) -> None:
+    """Render the diagram of every drill that has one. A diagram whose drill is gone (renamed in
+    Notion) is skipped with a warning, so the nightly sync-and-deploy still runs;
+    tests/test_drill_diagram.py fails on it in a PR."""
+    diagrams = drill_diagram.load_all(directory) if directory.exists() else {}
+    by_slug = {item.slug: item for item in drills}
+    for slug in sorted(set(diagrams) - set(by_slug)):
+        print(f"[connect] warning: drill diagram {slug}.json has no drill with that slug; skipped")
+        diagrams.pop(slug)
+    for slug, diagram in diagrams.items():
+        try:
+            item = by_slug[slug]
+            item.diagram = drill_diagram.render(diagram, uid="dd", title=f"Diagram: {item.title}")
+            # The list cards show the same drawing; own ids, since many cards share one page.
+            item.diagram["thumb"] = drill_diagram.render(diagram, uid=f"t-{slug}", title=item.title)["svg"]
+        except drill_diagram.DiagramError as error:
+            raise drill_diagram.DiagramError(f"{slug}.json: {error}") from error
 
 
 def review_average(item: Item) -> dict[str, float]:

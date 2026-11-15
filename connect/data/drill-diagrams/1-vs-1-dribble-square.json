@@ -1,0 +1,123 @@
+{
+  "view": [
+    3.5,
+    16.5,
+    4.5,
+    15.5
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        10,
+        12
+      ]
+    },
+    {
+      "id": "2",
+      "team": "blue",
+      "at": [
+        10,
+        8.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "cones": [
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      14,
+      11
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      14
+    ]
+  ],
+  "steps": [
+    {
+      "text": "Player 1 (attacker) shows the right gate and Player 2 (defender) follows.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            12.4,
+            11.6
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            12.6,
+            9.7
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A sudden change of direction: Player 1 turns away and dribbles through the left gate.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            5.0,
+            10.2
+          ],
+          "via": [
+            [
+              10,
+              12.4
+            ],
+            [
+              7.4,
+              10.8
+            ]
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            8.6,
+            9.0
+          ],
+          "via": [
+            [
+              11.2,
+              9.0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

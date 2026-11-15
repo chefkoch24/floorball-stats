@@ -1,0 +1,120 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        20.9,
+        10.3
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        20.0,
+        17.5
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        36.3,
+        17.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes diagonally to Player 3 in the corner and runs after the ball.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            27.6,
+            13.4
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 3 plays it straight back (one-two); Player 1 lays it off to Player 2, who comes along the board.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "2",
+          "to": [
+            26.4,
+            17.6
+          ],
+          "stage": 0
+        },
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 plays the next one-two with Player 3 while Player 1 moves into the slot.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            29.6,
+            15.6
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            29.2,
+            9.8
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 passes into the slot and Player 1 finishes.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "1"
+        },
+        {
+          "shot": "1",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "view": [
+    20,
+    34,
+    0,
+    20
+  ],
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        26.8,
+        18.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        28.4,
+        7.3
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        26.6,
+        2.7
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "cones": [
+    [
+      27.0,
+      7.2
+    ],
+    [
+      27.1,
+      13.2
+    ]
+  ],
+  "steps": [
+    {
+      "text": "Player 2 moves down to the lower cone and Player 1 passes into the run.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            28.3,
+            12.2
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 2 takes the ball round the cone in a 180° sweep and passes to Player 3.",
+      "actions": [
+        {
+          "dribble": "2",
+          "to": [
+            25.9,
+            13.0
+          ],
+          "via": [
+            [
+              27.8,
+              14.3
+            ],
+            [
+              26.4,
+              14.2
+            ]
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 runs to the mirrored spot at the upper cone and gets the ball from Player 3: the cycle starts again.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            25.8,
+            8.4
+          ],
+          "via": [
+            [
+              25.4,
+              11.0
+            ]
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "2",
+          "stage": 0
+        }
+      ]
+    }
+  ]
+}

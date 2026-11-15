@@ -1,0 +1,123 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        27.0,
+        8.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        30.4,
+        13.6
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        29.0,
+        9.8
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        31.8,
+        12.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        21.6,
+        3.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        21.6,
+        17.0
+      ],
+      "label": "3"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 is pressed and uses Red 3, the red station at the centre line.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r3",
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            26.0,
+            6.6
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Red 3 plays straight back into the run of Red 2.",
+      "actions": [
+        {
+          "run": "r2",
+          "to": [
+            29.4,
+            8.8
+          ],
+          "via": [
+            [
+              28.6,
+              11.6
+            ]
+          ]
+        },
+        {
+          "pass": "r3",
+          "to": "r2",
+          "stage": 0
+        },
+        {
+          "run": "b2",
+          "to": [
+            31.6,
+            10.2
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 shoots.",
+      "actions": [
+        {
+          "shot": "r2"
+        }
+      ]
+    }
+  ]
+}

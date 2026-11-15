@@ -1,0 +1,141 @@
+{
+  "view": "full",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        8.6,
+        2.6
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        8.4,
+        17.4
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        24.1,
+        10.1
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        33.4,
+        11.8
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes across to Player 2 while Player 3 drops into the middle.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            17.4,
+            10.4
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 2 opens over the middle: the pass to Player 3.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "3"
+        }
+      ]
+    },
+    {
+      "text": "Player 3 plays the ball into the run of Player 1 along the top board.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            16.4,
+            2.6
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "1",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 1 switches to Player 2, who carries the ball along the bottom board; Player 3 moves up.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            23.4,
+            17.0
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "dribble": "2",
+          "to": [
+            28.0,
+            16.4
+          ],
+          "stage": 1
+        },
+        {
+          "run": "3",
+          "to": [
+            29.6,
+            8.6
+          ],
+          "via": [
+            [
+              22,
+              9.0
+            ]
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 passes to Player 3, who shoots; Player 4 screens the goalie.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "3"
+        },
+        {
+          "shot": "3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

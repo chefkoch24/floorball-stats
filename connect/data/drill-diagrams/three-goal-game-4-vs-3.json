@@ -1,0 +1,170 @@
+{
+  "view": "right",
+  "goals": [
+    {
+      "at": [
+        20.8,
+        0.8
+      ],
+      "facing": "down",
+      "size": "small"
+    },
+    {
+      "at": [
+        20.8,
+        19.2
+      ],
+      "facing": "up",
+      "size": "small"
+    }
+  ],
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        27.0,
+        5.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        26.0,
+        14.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        31.6,
+        4.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "r4",
+      "team": "red",
+      "at": [
+        33.0,
+        15.4
+      ],
+      "label": "4"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        30.0,
+        8.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        30.6,
+        12.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        27.6,
+        10.0
+      ],
+      "label": "3"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "4 vs 3 on the big goal: Red 1 finds Red 3.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r3",
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            32.2,
+            6.2
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Blue 1 intercepts the next pass.",
+      "actions": [
+        {
+          "pass": "r3",
+          "to": [
+            31.2,
+            8.6
+          ],
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            31.4,
+            8.4
+          ],
+          "stage": 0
+        },
+        {
+          "pickup": "b1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Blue counters at once on one of the small goals at the boards.",
+      "actions": [
+        {
+          "dribble": "b1",
+          "to": [
+            23.8,
+            3.6
+          ],
+          "via": [
+            [
+              28.0,
+              6.0
+            ]
+          ]
+        },
+        {
+          "run": "b3",
+          "to": [
+            24.6,
+            7.4
+          ]
+        },
+        {
+          "shot": "b1",
+          "to": [
+            20.8,
+            1.0
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

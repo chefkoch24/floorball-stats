@@ -1,0 +1,98 @@
+{
+  "view": "right",
+  "cones": [
+    [
+      29.0,
+      10.0
+    ]
+  ],
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        22.0,
+        10.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        21.0,
+        11.8
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        20.0,
+        13.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "a",
+      "with": "1"
+    },
+    {
+      "id": "b",
+      "with": "2"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 dribbles round the cone.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            30.4,
+            11.6
+          ],
+          "via": [
+            [
+              27.6,
+              8.8
+            ],
+            [
+              30.0,
+              8.6
+            ],
+            [
+              30.6,
+              10.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 shoots; Player 2 starts.",
+      "actions": [
+        {
+          "shot": "1",
+          "stage": 0
+        },
+        {
+          "dribble": "2",
+          "to": [
+            27.4,
+            8.6
+          ],
+          "stage": 1
+        },
+        {
+          "run": "3",
+          "to": [
+            21.0,
+            11.8
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

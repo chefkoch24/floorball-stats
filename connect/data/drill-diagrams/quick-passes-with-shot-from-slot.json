@@ -1,0 +1,22 @@
+{
+  "view": "right",
+  "players": [
+    {"id": "1", "team": "red", "at": [36.5, 2.3]},
+    {"id": "2", "team": "red", "at": [21.1, 2.6]},
+    {"id": "3", "team": "red", "at": [21.3, 18.0]},
+    {"id": "G", "team": "goalie", "at": [35.7, 10]}
+  ],
+  "balls": [{"id": "b", "with": "1"}],
+  "steps": [
+    {"text": "Player 1 passes to Player 2 on the side and moves into the middle.",
+     "actions": [{"pass": "1", "to": "2", "stage": 0}, {"run": "1", "to": [28.2, 9.9], "stage": 1}]},
+    {"text": "Player 2 passes down to Player 3 and heads for the net.",
+     "actions": [{"pass": "2", "to": "3", "stage": 0}, {"run": "2", "to": [33.8, 8.0], "stage": 1}]},
+    {"text": "Player 3 finds Player 1 in the middle, then moves up along the board.",
+     "actions": [{"pass": "3", "to": "1", "stage": 0}, {"run": "3", "to": [28.4, 17.4], "stage": 1}]},
+    {"text": "Player 1 lays the ball back into the path of Player 3.",
+     "actions": [{"pass": "1", "to": "3"}]},
+    {"text": "Player 3 decides: shoot, pass to Player 2 at the far post, or play the high slot. Here: the direct shot, Player 2 waits for the rebound.",
+     "actions": [{"shot": "3"}]}
+  ]
+}

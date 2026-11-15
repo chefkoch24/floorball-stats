@@ -1,0 +1,208 @@
+{
+  "view": "full",
+  "overview": 2,
+  "players": [
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        20.0,
+        2.4
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        20.0,
+        17.6
+      ]
+    },
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        3.6,
+        17.6
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        36.4,
+        2.4
+      ]
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "label": "3",
+      "at": [
+        36.4,
+        17.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    },
+    {
+      "id": "b2",
+      "with": "r3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 passes to Blue 1 at the centre line and steps up to defend.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "b1",
+          "stage": 0
+        },
+        {
+          "run": "r1",
+          "to": [
+            9.4,
+            13.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "1 vs 1 towards the left goal, then Blue 2 joins: 2 vs 1.",
+      "actions": [
+        {
+          "dribble": "b1",
+          "to": [
+            12.6,
+            7.0
+          ],
+          "via": [
+            [
+              16.2,
+              4.4
+            ]
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            13.0,
+            12.6
+          ],
+          "via": [
+            [
+              16.4,
+              15.4
+            ]
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            8.2,
+            10.4
+          ]
+        },
+        {
+          "pass": "b1",
+          "to": "b2",
+          "stage": 1
+        },
+        {
+          "shot": "b2",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Red 2 and Red 3 come from the right corners with a new ball and join Red 1: 3 vs 2 against the two blues.",
+      "actions": [
+        {
+          "dribble": "r3",
+          "to": [
+            22.0,
+            14.4
+          ],
+          "via": [
+            [
+              30,
+              16.6
+            ]
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            23.4,
+            4.8
+          ],
+          "via": [
+            [
+              31,
+              3.6
+            ]
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            13.0,
+            12.8
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            17.4,
+            6.6
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            16.6,
+            11.4
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Finish the 3 vs 2 quickly.",
+      "actions": [
+        {
+          "dribble": "r3",
+          "to": [
+            16.4,
+            14.6
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            11.6,
+            6.4
+          ]
+        },
+        {
+          "pass": "r3",
+          "to": "r2",
+          "stage": 1
+        },
+        {
+          "shot": "r2",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

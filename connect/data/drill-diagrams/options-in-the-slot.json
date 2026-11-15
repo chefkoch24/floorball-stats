@@ -1,0 +1,118 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        37.9,
+        2.7
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        21.9,
+        2.8
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        21.8,
+        17.9
+      ]
+    },
+    {
+      "id": "G",
+      "team": "goalie",
+      "at": [
+        35.7,
+        10
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes to Player 2 and runs towards Player 3.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            26.5,
+            14.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 plays directly down to Player 3 and goes to the net.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "2",
+          "to": [
+            32.8,
+            7.4
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Give and go: Player 3 passes to Player 1, runs, and gets the ball straight back.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            26.8,
+            17.7
+          ],
+          "stage": 1
+        },
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Player 3 has three options. Shown here is option 3: the cross pass to Player 2, who shoots directly.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "shot": "2",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

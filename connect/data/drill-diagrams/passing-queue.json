@@ -1,0 +1,115 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        29.2,
+        2.9
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        29.2,
+        1.4
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        29.2,
+        10.0
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        29.2,
+        18.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes to Player 3 in the middle and follows the pass.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            29.2,
+            7.8
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 3 passes on to Player 4 and follows the pass; Player 1 takes the middle.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            29.2,
+            17.0
+          ],
+          "stage": 1
+        },
+        {
+          "run": "1",
+          "to": [
+            29.2,
+            10.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 4 plays back to the middle and the queue keeps turning; Player 2 steps up.",
+      "actions": [
+        {
+          "pass": "4",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "4",
+          "to": [
+            29.2,
+            12.4
+          ],
+          "stage": 1
+        },
+        {
+          "run": "2",
+          "to": [
+            29.2,
+            2.9
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

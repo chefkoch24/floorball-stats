@@ -1,0 +1,132 @@
+{
+  "view": [
+    3.5,
+    16.5,
+    3.5,
+    16.5
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        10.0,
+        5.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        14.8,
+        8.5
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        13.0,
+        14.2
+      ]
+    },
+    {
+      "id": "5",
+      "team": "red",
+      "at": [
+        7.0,
+        14.2
+      ]
+    },
+    {
+      "id": "6",
+      "team": "red",
+      "at": [
+        5.2,
+        8.5
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 in the middle passes to Player 2 and gets the ball straight back.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Next one: to Player 3 and back.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "pass": "3",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "And round the circle: Players 4, 5 and 6.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "pass": "4",
+          "to": "1",
+          "stage": 1
+        },
+        {
+          "pass": "1",
+          "to": "5",
+          "stage": 2
+        },
+        {
+          "pass": "5",
+          "to": "1",
+          "stage": 3
+        },
+        {
+          "pass": "1",
+          "to": "6",
+          "stage": 4
+        },
+        {
+          "pass": "6",
+          "to": "1",
+          "stage": 5
+        }
+      ]
+    }
+  ]
+}

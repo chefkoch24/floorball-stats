@@ -1,0 +1,80 @@
+{
+  "view": [
+    14.5,
+    25.5,
+    -0.6,
+    8.6
+  ],
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        19.0,
+        6.4
+      ]
+    },
+    {
+      "id": "2",
+      "team": "blue",
+      "at": [
+        21.0,
+        6.4
+      ]
+    },
+    {
+      "id": "C",
+      "team": "coach",
+      "at": [
+        20.0,
+        8.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "at": [
+        20.0,
+        0.6
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "On the whistle both players sprint to the ball at the board.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            19.6,
+            1.4
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            20.8,
+            1.8
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 is first, puts a foot on the ball and holds it with the body against Player 2.",
+      "actions": [
+        {
+          "pickup": "1"
+        },
+        {
+          "run": "2",
+          "to": [
+            20.7,
+            1.4
+          ],
+          "stage": 0
+        }
+      ]
+    }
+  ]
+}

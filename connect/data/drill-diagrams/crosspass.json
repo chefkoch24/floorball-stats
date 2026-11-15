@@ -1,0 +1,148 @@
+{
+  "view": "full",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        9.0,
+        16.0
+      ]
+    },
+    {
+      "id": "5",
+      "team": "red",
+      "at": [
+        9.0,
+        17.6
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        9.2,
+        3.2
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        30.0,
+        4.4
+      ]
+    },
+    {
+      "id": "6",
+      "team": "red",
+      "at": [
+        30.0,
+        2.8
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        29.9,
+        17.1
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b1",
+      "with": "1"
+    },
+    {
+      "id": "b2",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "On both sides the front player of the queue passes across to the passer and sets off.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "pass": "3",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            17.6,
+            7.2
+          ],
+          "stage": 1
+        },
+        {
+          "run": "3",
+          "to": [
+            22.0,
+            13.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Both runners cross the centre line and get the ball from the passer of the other half.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            28.6,
+            8.4
+          ],
+          "via": [
+            [
+              23.6,
+              7.6
+            ]
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            11.2,
+            11.4
+          ],
+          "via": [
+            [
+              16.0,
+              12.6
+            ]
+          ]
+        },
+        {
+          "pass": "4",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Both shoot directly; the next pair starts at once.",
+      "actions": [
+        {
+          "shot": "1"
+        },
+        {
+          "shot": "3"
+        }
+      ]
+    }
+  ]
+}

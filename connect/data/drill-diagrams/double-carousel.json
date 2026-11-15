@@ -1,0 +1,106 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        37.1,
+        2.6
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        34.9,
+        2.8
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        37.1,
+        17.6
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        33.5,
+        17.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b1",
+      "with": "1"
+    },
+    {
+      "id": "b2",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "The two front players curl out of the corners into the slot.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            29.3,
+            6.6
+          ],
+          "via": [
+            [
+              33.0,
+              3.6
+            ]
+          ]
+        },
+        {
+          "run": "4",
+          "to": [
+            29.3,
+            11.0
+          ],
+          "via": [
+            [
+              31.2,
+              13.8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes to Player 4, who shoots directly.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "4"
+        },
+        {
+          "shot": "4",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Player 3 passes to Player 2, who shoots directly.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "2"
+        },
+        {
+          "shot": "2",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        20.0,
+        2.3
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        36.5,
+        2.3
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        20.0,
+        17.6
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        36.6,
+        17.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b1",
+      "with": "1"
+    },
+    {
+      "id": "b2",
+      "with": "2"
+    },
+    {
+      "id": "b3",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 4 comes out of the corner, gets the pass from Player 3 and shoots.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            30.4,
+            15.4
+          ],
+          "via": [
+            [
+              33.4,
+              17.2
+            ]
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "shot": "4",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 4 moves on into the middle, gets the pass from Player 1 and shoots again.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            26.0,
+            10.2
+          ],
+          "via": [
+            [
+              28.4,
+              13.2
+            ]
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "shot": "4",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 4 keeps moving up, gets the pass from Player 2 and takes the third shot.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            27.0,
+            5.0
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "shot": "4",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

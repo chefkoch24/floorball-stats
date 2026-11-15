@@ -1,0 +1,108 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        36.4,
+        2.3
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        20.4,
+        10.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        30.3,
+        18.2
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 dribbles a few metres.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            31.7,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes to Player 2 in the middle and moves to a new position.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            26.2,
+            2.7
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 plays the ball back to Player 1.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "1"
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes across to Player 3 on the weak side; Player 2 goes to the net.",
+      "actions": [
+        {
+          "run": "3",
+          "to": [
+            29.5,
+            14.8
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "2",
+          "to": [
+            33.4,
+            9.4
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 3 takes a direct shot; Player 2 is ready for the rebound.",
+      "actions": [
+        {
+          "shot": "3"
+        }
+      ]
+    }
+  ]
+}

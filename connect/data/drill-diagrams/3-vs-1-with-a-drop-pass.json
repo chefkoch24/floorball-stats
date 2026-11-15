@@ -1,0 +1,119 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "4",
+      "team": "blue",
+      "at": [
+        29.0,
+        10.0
+      ]
+    },
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        22.0,
+        4.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        22.4,
+        10.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        22.0,
+        16.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "4"
+    }
+  ],
+  "steps": [
+    {
+      "text": "The defender starts with a pass to Player 1.",
+      "actions": [
+        {
+          "pass": "4",
+          "to": "1"
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes to Player 2, who carries the ball backwards; the defender drops back.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "dribble": "2",
+          "to": [
+            19.4,
+            10.4
+          ],
+          "stage": 1
+        },
+        {
+          "run": "4",
+          "to": [
+            31.8,
+            10.0
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "3 vs 1: the attackers fill the lanes.",
+      "actions": [
+        {
+          "dribble": "2",
+          "to": [
+            27.0,
+            10.0
+          ]
+        },
+        {
+          "run": "1",
+          "to": [
+            29.4,
+            5.0
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            29.4,
+            15.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pass and finish.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "3"
+        },
+        {
+          "shot": "3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

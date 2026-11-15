@@ -405,4 +405,68 @@
     .fc-term { padding: var(--space-4); }
     .fc-newsletter { padding: var(--space-4); }
   }
+
+  /* Drill diagrams (connect/drill_diagram.py, js/drill-diagram.js) */
+  .dd { margin: 0; display: grid; gap: var(--space-3); }
+  .dd__stage { border-radius: var(--radius-lg); background: var(--surface-sunken); padding: var(--space-2); }
+  .dd-svg { display: block; width: 100%; height: auto; max-height: min(64vh, 620px); margin: 0 auto; }
+  .dd-floor { fill: var(--rink-soft); }
+  .dd-board { fill: none; stroke: var(--rink); stroke-width: 2.2; }
+  .dd-line { fill: none; stroke: var(--rink); stroke-width: 1; opacity: 0.55; }
+  .dd-spot { fill: var(--rink); opacity: 0.55; }
+  .dd-goal { fill: var(--surface-raised); stroke: var(--ink); stroke-width: 1.2; }
+  .dd-motion { fill: none; stroke: none; }
+  .dd-arrow { fill: none; stroke: var(--ink); stroke-width: calc(1.6px * var(--dd-k, 1)); stroke-linecap: round; stroke-linejoin: round; transition: opacity 0.3s; }
+  .dd-arrow--run { stroke-dasharray: calc(4px * var(--dd-k, 1)) calc(3.2px * var(--dd-k, 1)); }
+  .dd-arrow--shot { stroke: var(--ball-ink); stroke-width: calc(2.6px * var(--dd-k, 1)); }
+  .dd-head path { fill: var(--ink); }
+  .dd-head--shot path { fill: var(--ball-ink); }
+  .dd-player circle { stroke: var(--surface-raised); stroke-width: 1.2; }
+  .dd-player text { font: 700 8.4px/1 var(--font-body); text-anchor: middle; fill: #fff; pointer-events: none; }
+  .dd-player--red circle { fill: #d93a32; }
+  .dd-player--blue circle { fill: #2f5fd0; }
+  .dd-player--goalie circle { fill: #f2b705; }
+  .dd-player--goalie text { fill: #1d1d1d; }
+  .dd-player--coach circle { fill: var(--ink); }
+  .dd-player--joker circle { fill: #1f9d55; }
+  .dd-player--coach text { fill: var(--surface-raised); }
+  .dd-ball circle { fill: #ffffff; stroke: #1d1d1d; stroke-width: calc(0.8px * var(--dd-k, 1)); }
+  .dd-cone { fill: var(--ball); stroke: var(--ball-ink); stroke-width: 0.6; }
+  .dd-step-label circle { fill: var(--surface-raised); stroke: var(--ink); stroke-width: 0.7; }
+  .dd-step-label text { font: 700 6.4px/1 var(--font-body); text-anchor: middle; fill: var(--ink); }
+  .dd-labels, .dd-arrows { transition: opacity 0.3s; }
+  .dd:not(.dd--playing) .is-later, .dd-thumb .is-later { opacity: 0; }
+  .dd--playing .is-future { opacity: 0; }
+  .dd--playing .is-past { opacity: 0.22; }
+  .dd--playing .dd-step-label.is-past { opacity: 0; }
+  .dd-thumb { width: 100%; height: 100%; display: grid; place-items: center; padding: var(--space-2); background: var(--surface-sunken); }
+  .dd-thumb .dd-svg { width: 100%; height: 100%; }
+  .dd__bar { display: grid; gap: var(--space-2); }
+  .dd__controls { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+  .dd__controls[hidden] { display: none; }
+  .dd__btn { min-width: 44px; justify-content: center; }
+  .dd__btn--play { min-width: 92px; }
+  .dd__count { margin-left: auto; color: var(--ink-muted); }
+  .dd__caption { margin: 0; min-height: 3em; color: var(--ink); font-size: 16px; line-height: 1.5; }
+  .dd__legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: 0; padding: 0; list-style: none; color: var(--ink-muted); font-size: 14px; }
+  .dd__legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .dd-share { display: grid; gap: var(--space-3); padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface-raised); }
+  .dd-share[hidden] { display: none; }
+  .dd-share h2 { margin: 0; color: var(--ink-muted); }
+  .dd-share__options, .dd-share__make, .dd-share__actions { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+  .dd-share__group { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: var(--radius-pill); background: var(--surface-sunken); }
+  .dd-share__opt { padding: 7px 14px; border-radius: var(--radius-pill); color: var(--ink-muted); font: 600 14px/1.2 var(--font-body); cursor: pointer; }
+  .dd-share__opt small { font-weight: 500; opacity: 0.75; }
+  .dd-share__opt[aria-pressed="true"] { background: var(--surface-raised); color: var(--ink); box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); }
+  .dd-share__make .fs-btn:disabled { opacity: 0.6; cursor: progress; }
+  .dd-share__result[hidden] { display: none; }
+  .dd-share__result { display: grid; gap: var(--space-3); justify-items: start; }
+  .dd-share__preview img, .dd-share__preview video { display: block; max-height: 460px; max-width: 100%; border-radius: var(--radius-md); border: 1px solid var(--line); background: var(--surface-sunken); }
+  .dd-share__hint { margin: 0; color: var(--ink-muted); font-size: 14px; }
+  .dd__legend svg { width: 40px; height: 10px; }
+  .dd-key { fill: none; stroke: var(--ink); stroke-width: 1.6; }
+  .dd-key--run { stroke-dasharray: 4 3; }
+  .dd-key--shot { stroke: var(--ball-ink); stroke-width: 2.6; }
+  .dd-key-head { fill: var(--ink); }
+  .dd-key-head--shot { fill: var(--ball-ink); }
 }

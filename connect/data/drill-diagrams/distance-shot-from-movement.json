@@ -1,0 +1,101 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        22.3,
+        17.6
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        38.0,
+        14.6
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        21.8,
+        3.1
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 dribbles 2–3 metres.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            27.3,
+            17.3
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes on the move to Player 2.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2"
+        }
+      ]
+    },
+    {
+      "text": "Player 2 dribbles behind the goal.",
+      "actions": [
+        {
+          "dribble": "2",
+          "to": [
+            38.3,
+            7.4
+          ],
+          "via": [
+            [
+              38.6,
+              11.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 2 passes out to Player 3, who arrives at full speed.",
+      "actions": [
+        {
+          "run": "3",
+          "to": [
+            26.4,
+            3.6
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 3 shoots directly from the movement.",
+      "actions": [
+        {
+          "shot": "3"
+        }
+      ]
+    }
+  ]
+}

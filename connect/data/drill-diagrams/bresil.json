@@ -1,0 +1,223 @@
+{
+  "view": "full",
+  "overview": 2,
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        6.8,
+        5.4
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        6.8,
+        13.9
+      ]
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "label": "3",
+      "at": [
+        1.8,
+        13.8
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        21.4,
+        9.4
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        38.2,
+        5.6
+      ]
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "label": "3",
+      "at": [
+        37.9,
+        14.5
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "rb",
+      "with": "r1"
+    },
+    {
+      "id": "bb",
+      "with": "b2"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 and Red 2 attack 2 vs 1 against Blue 1.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            22.0,
+            6.6
+          ],
+          "via": [
+            [
+              14,
+              5.8
+            ]
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            22.6,
+            14.0
+          ],
+          "via": [
+            [
+              14,
+              14.4
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            25.0,
+            10.2
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Keep it simple: Red 1 passes into the run of Red 2, who shoots.",
+      "actions": [
+        {
+          "run": "r2",
+          "to": [
+            30.8,
+            12.2
+          ]
+        },
+        {
+          "pass": "r1",
+          "to": "r2",
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            30.0,
+            10.4
+          ]
+        },
+        {
+          "shot": "r2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "The shooter becomes the next defender, Red 1 leaves. Blue 2 and Blue 3 start from the other end: 2 vs 1 against Red 2.",
+      "actions": [
+        {
+          "run": "r1",
+          "to": [
+            16.0,
+            0.4
+          ],
+          "via": [
+            [
+              25,
+              2.6
+            ]
+          ]
+        },
+        {
+          "dribble": "b2",
+          "to": [
+            24.0,
+            6.0
+          ],
+          "via": [
+            [
+              32,
+              5.4
+            ]
+          ]
+        },
+        {
+          "run": "b3",
+          "to": [
+            24.0,
+            13.6
+          ],
+          "via": [
+            [
+              32,
+              14.4
+            ]
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            19.0,
+            10.4
+          ],
+          "via": [
+            [
+              26,
+              11.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Blue 2 passes into the run of Blue 3, who shoots. The next pair is ready.",
+      "actions": [
+        {
+          "run": "b3",
+          "to": [
+            10.6,
+            12.0
+          ]
+        },
+        {
+          "pass": "b2",
+          "to": "b3",
+          "stage": 0
+        },
+        {
+          "run": "r2",
+          "to": [
+            11.6,
+            10.2
+          ]
+        },
+        {
+          "shot": "b3",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

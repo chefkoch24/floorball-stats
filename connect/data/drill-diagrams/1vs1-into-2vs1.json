@@ -1,0 +1,151 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        20.9,
+        2.4
+      ]
+    },
+    {
+      "id": "2",
+      "team": "blue",
+      "at": [
+        36.6,
+        2.3
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        21.0,
+        17.4
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    },
+    {
+      "id": "b2",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes to Player 2.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2"
+        }
+      ]
+    },
+    {
+      "text": "Player 1 sets off; Player 2 plays the ball back into the run and becomes the defender.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            26.5,
+            3.2
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "1 vs 1: Player 1 attacks the goal, Player 2 defends.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            30.6,
+            7.4
+          ],
+          "via": [
+            [
+              29.2,
+              4.6
+            ]
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            32.8,
+            6.6
+          ],
+          "via": [
+            [
+              35.2,
+              4.2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 1 finishes the 1 vs 1.",
+      "actions": [
+        {
+          "shot": "1"
+        }
+      ]
+    },
+    {
+      "text": "Player 3 joins with a new ball: now Players 1 and 3 play 2 vs 1 against Player 2.",
+      "actions": [
+        {
+          "dribble": "3",
+          "to": [
+            28.4,
+            13.6
+          ],
+          "via": [
+            [
+              24.4,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "1",
+          "to": [
+            31.4,
+            8.0
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            32.0,
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Fast, at most two passes: Player 3 draws the defender and passes, Player 1 shoots directly.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "1"
+        },
+        {
+          "shot": "1",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}
