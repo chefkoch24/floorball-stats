@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Matteo Schanz
 Category: players
 Slug: player-3cf6be558a8c4bf2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 4
+current_games: 5
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 13
+career_games: 14
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|4|0|0|0|0||25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|8|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|5|0|0|0|0||25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|8|0|0|0|0
 assists: 0
-games: 4
+games: 5
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 266
 season: 26-27

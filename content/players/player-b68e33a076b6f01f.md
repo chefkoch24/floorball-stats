@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ivo Sikora
 Category: players
 Slug: player-b68e33a076b6f01f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 220
+rank: 224
 season: 26-27

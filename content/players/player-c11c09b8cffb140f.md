@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Frederic Thiele
 Category: players
 Slug: player-c11c09b8cffb140f
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 28
+rank: 34
 season: 26-27

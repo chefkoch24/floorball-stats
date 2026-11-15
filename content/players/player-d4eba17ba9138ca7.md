@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lukáš Herblich
 Category: players
 Slug: player-d4eba17ba9138ca7

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Michal Sladek
 Category: players
 Slug: player-9ef8d2e60a472e76

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ferdinand Reichenberger
 Category: players
 Slug: player-fe1f20c33f2180be
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 93
+rank: 100
 season: 26-27

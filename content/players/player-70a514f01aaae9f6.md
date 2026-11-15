@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tomas Nushart
 Category: players
 Slug: player-70a514f01aaae9f6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 11
-current_assists: 5
-current_points: 16
+current_games: 11
+current_goals: 12
+current_assists: 6
+current_points: 18
 current_pim: 0
-regular_games: 9
-regular_goals: 11
-regular_assists: 5
-regular_points: 16
+regular_games: 10
+regular_goals: 12
+regular_assists: 6
+regular_points: 18
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 11
-career_assists: 5
-career_points: 16
+career_games: 10
+career_goals: 12
+career_assists: 6
+career_points: 18
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|9|11|5|16|0||26-27|cup|Germany|Unihockey Igels Dresden|1|0|0|0|0
-assists: 5
-games: 9
-goals: 11
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|10|12|6|18|0||26-27|cup|Germany|Unihockey Igels Dresden|1|0|0|0|0
+assists: 6
+games: 10
+goals: 12
 penalties: 0
 phase: regular-season
 pim: 0
-points: 16
-rank: 12
+points: 18
+rank: 8
 season: 26-27

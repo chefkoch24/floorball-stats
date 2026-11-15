@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tamara Eszter Kovács
 Category: players
 Slug: player-a82b58cea1dbef02

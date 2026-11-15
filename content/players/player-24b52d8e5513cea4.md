@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Pražan
 Category: players
 Slug: player-24b52d8e5513cea4

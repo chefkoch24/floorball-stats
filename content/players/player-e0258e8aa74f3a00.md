@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ingars Jansons
 Category: players
 Slug: player-e0258e8aa74f3a00

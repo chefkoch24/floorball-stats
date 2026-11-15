@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Alpo Laitila
 Category: players
 Slug: player-c7641789b0efc1c6
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 10
-current_goals: 11
-current_assists: 4
-current_points: 15
+current_games: 11
+current_goals: 14
+current_assists: 5
+current_points: 19
 current_pim: 0
-regular_games: 9
-regular_goals: 10
-regular_assists: 4
-regular_points: 14
+regular_games: 10
+regular_goals: 13
+regular_assists: 5
+regular_points: 18
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 15
 previous_assists: 20
 previous_points: 35
 previous_pim: 0
-career_games: 34
-career_goals: 25
-career_assists: 24
-career_points: 49
+career_games: 35
+career_goals: 28
+career_assists: 25
+career_points: 53
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|9|10|4|14|0||fi-26-27|cup|Finland|SPV|1|1|0|1|0||fi-25-26|regular-season|Finland|Classic|19|15|20|35|0||wfc-2024|tournament|IFF WFC|Finland|6|0|0|0|2
-assists: 4
-games: 9
-goals: 10
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|10|13|5|18|0||fi-26-27|cup|Finland|SPV|1|1|0|1|0||fi-25-26|regular-season|Finland|Classic|19|15|20|35|0||wfc-2024|tournament|IFF WFC|Finland|6|0|0|0|2
+assists: 5
+games: 10
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 14
-rank: 22
+points: 18
+rank: 16
 season: fi-26-27

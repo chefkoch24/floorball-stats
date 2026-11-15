@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tilde Adman
 Category: players
 Slug: player-c50e7b79e7559d8f

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Sára Kuciaková
 Category: players
 Slug: player-d722adfbe1d951c4

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Leo Saarinen
 Category: players
 Slug: player-f453321ff04abfcb
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 14
 current_assists: 7
 current_points: 21
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 13
 regular_assists: 6
 regular_points: 19
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 13
 career_assists: 6
 career_points: 19
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|8|13|6|19|2||26-27|cup|Germany|SC DHfK Leipzig|1|1|1|2|2
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|9|13|6|19|2||26-27|cup|Germany|SC DHfK Leipzig|1|1|1|2|2
 assists: 6
-games: 8
+games: 9
 goals: 13
 penalties: 1
 phase: regular-season
 pim: 2
 points: 19
-rank: 4
+rank: 6
 season: 26-27

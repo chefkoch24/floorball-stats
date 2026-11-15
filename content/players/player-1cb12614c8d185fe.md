@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Gregor Denk
 Category: players
 Slug: player-1cb12614c8d185fe
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 59
+rank: 64
 season: 26-27

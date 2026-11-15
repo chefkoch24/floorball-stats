@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Hilda Hammer
 Category: players
 Slug: player-63c942a8dab70c17

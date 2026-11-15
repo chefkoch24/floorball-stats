@@ -368,6 +368,7 @@ away_pregame_points_against_jymy: 3
 away_pregame_points_against_o2_jyvaskyla: 4
 away_pregame_points_against_oilers: 0
 away_pregame_points_against_spv: 0
+away_pregame_points_against_tps: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0
 away_pregame_points_per_game: 0.0

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ella Henningsson
 Category: players
 Slug: player-7356ba2d8fc042ad

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Konrad Paul
 Category: players
 Slug: player-925aca22ac7ec0a5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 90
+rank: 97
 season: 26-27

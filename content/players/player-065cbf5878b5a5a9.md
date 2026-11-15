@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Niklas Nussbaumer
 Category: players
 Slug: player-065cbf5878b5a5a9

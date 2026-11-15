@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Pavol Jonek
 Category: players
 Slug: player-0a6c15a9d1bcc406

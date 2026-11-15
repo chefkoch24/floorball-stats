@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Vilma De Gysser
 Category: players
 Slug: player-7329ef62c8deed9c

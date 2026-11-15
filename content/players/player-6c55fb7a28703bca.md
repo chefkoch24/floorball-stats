@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ella Zetterstedt
 Category: players
 Slug: player-6c55fb7a28703bca

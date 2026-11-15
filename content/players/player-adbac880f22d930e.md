@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Milan Tichy
 Category: players
 Slug: player-adbac880f22d930e
@@ -11,16 +11,16 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 2
 current_assists: 5
 current_points: 7
-current_pim: 10
-regular_games: 7
+current_pim: 12
+regular_games: 8
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
-regular_pim: 10
+regular_pim: 12
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 2
 career_assists: 4
 career_points: 6
-career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|7|2|4|6|10||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0
+career_pim: 12
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|8|2|4|6|12||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0
 assists: 4
-games: 7
+games: 8
 goals: 2
-penalties: 5
+penalties: 6
 phase: regular-season
-pim: 10
+pim: 12
 points: 6
-rank: 70
+rank: 73
 season: 26-27

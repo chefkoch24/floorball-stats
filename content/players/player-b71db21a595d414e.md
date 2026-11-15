@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lilly-Frances Tropschug
 Category: players
 Slug: player-b71db21a595d414e

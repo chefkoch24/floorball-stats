@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Milan Tomasik
 Category: players
 Slug: player-3cfaeb607dfc6965

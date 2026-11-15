@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Asko Heinaro
 Category: players
 Slug: player-bc55014af5b1964a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 114
+rank: 123
 season: 26-27

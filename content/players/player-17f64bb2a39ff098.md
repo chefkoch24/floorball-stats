@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Stefanie Schwendener
 Category: players
 Slug: player-17f64bb2a39ff098

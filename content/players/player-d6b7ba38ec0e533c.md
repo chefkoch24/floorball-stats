@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jēkabs Berkolts
 Category: players
 Slug: player-d6b7ba38ec0e533c

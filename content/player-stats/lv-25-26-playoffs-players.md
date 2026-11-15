@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Latvia Player Stats 25/26 Playoffs
 Category: lv-25-26-playoffs-players
 Slug: lv-25-26-playoffs-players

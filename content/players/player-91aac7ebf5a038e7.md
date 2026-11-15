@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Matúš Gajdoš
 Category: players
 Slug: player-91aac7ebf5a038e7

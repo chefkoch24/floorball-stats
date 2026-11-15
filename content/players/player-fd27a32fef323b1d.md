@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Gustav Hansen
 Category: players
 Slug: player-fd27a32fef323b1d

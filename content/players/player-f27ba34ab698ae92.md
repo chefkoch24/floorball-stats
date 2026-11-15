@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Santtu Ek
 Category: players
 Slug: player-f27ba34ab698ae92
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 213
+rank: 216
 season: fi-26-27

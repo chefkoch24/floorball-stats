@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Daniel Feher
 Category: players
 Slug: player-f2d91fbe7a378a56

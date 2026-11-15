@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Filípek Dominik
 Category: players
 Slug: player-9859e9eeaa2f343e

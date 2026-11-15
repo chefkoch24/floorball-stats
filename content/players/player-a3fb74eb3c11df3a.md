@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jonna Stenvall
 Category: players
 Slug: player-a3fb74eb3c11df3a

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Isak Ålenius
 Category: players
 Slug: player-18403e0dcbcf1bcd

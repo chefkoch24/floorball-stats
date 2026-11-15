@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Xavi Enrique Muñoz
 Category: players
 Slug: player-66fef573624d9a4e

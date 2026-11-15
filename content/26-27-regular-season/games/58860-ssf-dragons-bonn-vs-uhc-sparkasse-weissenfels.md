@@ -6,24 +6,24 @@ type: game
 game_id: 58860
 home_team: SSF Dragons Bonn
 away_team: UHC Sparkasse Weißenfels
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 147.0
+away_goal_diffs_csv: -1,-2,1
+away_goal_minutes_csv: 13.03,18.52,55.35
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMTM6MDIiLCJwZXJpb2QiOjEsInRlYW0iOiJVSEMgU3Bhcmthc3NlIFdlacOfZW5mZWxzIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJNYXggR8OkYmxlciIsInRpdGxlX3VpZCI6InBsYXllci0yYjc5N2Q4MWIwNzQxZDViIiwiYXNzaXN0IjoiRmxvcmlhbiBCw7Z0dGNoZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLWYwMzU5N2JiMzJiYmVhYWIiLCJ0YWciOiJyZWd1bGFyIn0seyJtaW51dGUiOiIxODozMSIsInBlcmlvZCI6MSwidGVhbSI6IlVIQyBTcGFya2Fzc2UgV2Vpw59lbmZlbHMiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ikx1Y2EtTGVvbiBCZXlyaWNoIiwidGl0bGVfdWlkIjoicGxheWVyLWI0MmY1NDRhZDZjMDNiZjkiLCJhc3Npc3QiOiJMaW51cyBXw6RjaHRlciIsImFzc2lzdF91aWQiOiJwbGF5ZXItYzgxMmM5NmE0MTk5YjkwNSIsInRhZyI6InJlZ3VsYXIifSx7Im1pbnV0ZSI6IjIwOjAwIiwicGVyaW9kIjoxLCJ0ZWFtIjpudWxsLCJzaWRlIjoiYnJlYWsiLCJzY29yZSI6bnVsbCwiZXZlbnRfa2luZCI6ImJyZWFrIiwidGl0bGUiOiJFbmQgMXN0IHBlcmlvZCIsImFzc2lzdCI6bnVsbCwidGFnIjpudWxsfSx7Im1pbnV0ZSI6IjEzOjAxIiwicGVyaW9kIjoyLCJ0ZWFtIjoiU1NGIERyYWdvbnMgQm9ubiIsInNpZGUiOiJob21lIiwic2NvcmUiOiIxOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTHVrYXMgS3VjZXJhIiwidGl0bGVfdWlkIjoicGxheWVyLTc2ZTkzNGY3NTg5YzE2ZjMiLCJhc3Npc3QiOiJGbG9yaWFuIFdlacOfa2lyY2hlbiIsImFzc2lzdF91aWQiOiJwbGF5ZXItMzQyMDQyOTJmNjU3YzFmYiIsInRhZyI6InJlZ3VsYXIifSx7Im1pbnV0ZSI6IjE0OjQ4IiwicGVyaW9kIjoyLCJ0ZWFtIjoiU1NGIERyYWdvbnMgQm9ubiIsInNpZGUiOiJob21lIiwic2NvcmUiOiIyOjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRmxvcmlhbiBXZWnDn2tpcmNoZW4iLCJ0aXRsZV91aWQiOiJwbGF5ZXItMzQyMDQyOTJmNjU3YzFmYiIsImFzc2lzdCI6Ikphbm9zIEJyw7ZrZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLWQxNTNiNzU5NTRlZGFlOWUiLCJ0YWciOiJyZWd1bGFyIn0seyJtaW51dGUiOiI0MDowMCIsInBlcmlvZCI6MiwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDJuZCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwNDozMiIsInBlcmlvZCI6MywidGVhbSI6IlNTRiBEcmFnb25zIEJvbm4iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMzoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkZsb3JpYW4gV2Vpw59raXJjaGVuIiwidGl0bGVfdWlkIjoicGxheWVyLTM0MjA0MjkyZjY1N2MxZmIiLCJhc3Npc3QiOm51bGwsImFzc2lzdF91aWQiOm51bGwsInRhZyI6InJlZ3VsYXIifSx7Im1pbnV0ZSI6IjEzOjQyIiwicGVyaW9kIjozLCJ0ZWFtIjoiU1NGIERyYWdvbnMgQm9ubiIsInNpZGUiOiJob21lIiwic2NvcmUiOiI0OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiSmFuIFp3YWsiLCJ0aXRsZV91aWQiOiJwbGF5ZXItMzk2N2U4MzUwZmRiZDQyMCIsImFzc2lzdCI6IkJvcmFuIErDpGdlciIsImFzc2lzdF91aWQiOiJwbGF5ZXItNGJlMzZhMWVlNTY4YmRjNyIsInRhZyI6InJlZ3VsYXIifSx7Im1pbnV0ZSI6IjE1OjIxIiwicGVyaW9kIjozLCJ0ZWFtIjoiVUhDIFNwYXJrYXNzZSBXZWnDn2VuZmVscyIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiI0OjMiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiTGludXMgV8OkY2h0ZXIiLCJ0aXRsZV91aWQiOiJwbGF5ZXItYzgxMmM5NmE0MTk5YjkwNSIsImFzc2lzdCI6Ikx1Y2EtTGVvbiBCZXlyaWNoIiwiYXNzaXN0X3VpZCI6InBsYXllci1iNDJmNTQ0YWQ2YzAzYmY5IiwidGFnIjoicmVndWxhciJ9XQ==
+game_events_count: 9
+game_state: played
+game_status: match_record_closed
+home_goal_diffs_csv: -1,0,1,2
+home_goal_minutes_csv: 33.02,34.8,44.53,53.7
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
 home_penalty_minutes_csv: 
-ingame_status: None
+ingame_status: period3
 pregame_h2h_away_split_goal_diff_per_game: -1.0
 pregame_h2h_away_split_points_per_game: 1.0
 pregame_h2h_common_away_goal_diff_per_game: 1.0
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 80.0
 pregame_h2h_special_away_pp_eff: 16.669999999999998
 pregame_h2h_special_home_pk_eff: 28.569999999999993
 pregame_h2h_special_home_pp_eff: 31.25
-result_string: None
+result_string: 4:3
 start_time: 14:30
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,2,2,2,2,3
+timeline_diffs_csv: 0,-1,-2,-1,0,1,2,1
+timeline_home_goals_csv: 0,0,0,1,2,3,4,4
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,13.03,18.52,33.02,34.8,44.53,53.7,55.35
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -88,35 +88,35 @@ home_boxplay_seconds: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
-home_close_game_win: 0
-home_draws: 1
-home_equalizer_goals: 0
+home_close_game_win: 1
+home_draws: 0
+home_equalizer_goals: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: 1
+home_goals: 4
+home_goals_against: 3
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 3
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 4
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period_against: 2
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
+home_goals_in_second_period: 2
 home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
-home_home_points: 1
+home_goals_in_third_period: 2
+home_goals_in_third_period_against: 1
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -134,14 +134,15 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
 home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
-home_points_max_difference_2: 0
+home_points_after_second_period: 1
+home_points_after_third_period: 3
+home_points_against_uhc_sparkasse_weissenfels: 3
+home_points_max_difference_2: 3
 home_points_more_2_difference: 0
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
@@ -150,11 +151,11 @@ home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_seconds: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
-home_win_1: 0
-home_wins: 0
-away_away_points: 1
+home_take_the_lead_goals: 1
+home_take_the_lead_goals_against: 1
+home_win_1: 1
+home_wins: 1
+away_away_points: 0
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -162,26 +163,26 @@ away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_seconds: 0
 away_boxplay_third_period: 0
-away_close_game_loss: 0
+away_close_game_loss: 1
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
-away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_equalizer_goals_against: 1
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: -1
+away_goals: 3
+away_goals_against: 4
+away_goals_against_away: 4
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 3
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
+away_goals_in_first_period: 2
 away_goals_in_first_period_against: 0
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
@@ -189,12 +190,12 @@ away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
 away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_second_period_against: 2
+away_goals_in_third_period: 1
+away_goals_in_third_period_against: 2
 away_home_points: 0
-away_loss_1: 0
-away_losses: 0
+away_loss_1: 1
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
 away_penalties: 0
@@ -210,13 +211,14 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
+away_points_after_first_period: 3
+away_points_after_second_period: 1
 away_points_after_third_period: 0
+away_points_against_ssf_dragons_bonn: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -226,8 +228,8 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals: 1
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 4
@@ -325,6 +327,7 @@ home_pregame_points_against_etv_piranhhas_hamburg: 0
 home_pregame_points_against_fbc_munchen: 3
 home_pregame_points_against_floor_fighters_chemnitz: 3
 home_pregame_points_against_mfbc_leipzig: 0
+home_pregame_points_against_uhc_sparkasse_weissenfels: 3
 home_pregame_points_against_unihockey_igels_dresden: 1
 home_pregame_points_against_vfl_red_hocks_kaufering: 0
 home_pregame_points_max_difference_2: 2
@@ -441,6 +444,7 @@ away_pregame_points_against_fbc_munchen: 0
 away_pregame_points_against_floor_fighters_chemnitz: 1
 away_pregame_points_against_mfbc_leipzig: 0
 away_pregame_points_against_sc_dhfk_leipzig: 3
+away_pregame_points_against_ssf_dragons_bonn: 0
 away_pregame_points_against_unihockey_igels_dresden: 3
 away_pregame_points_max_difference_2: 3
 away_pregame_points_more_2_difference: 15

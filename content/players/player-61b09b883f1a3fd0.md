@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Michal Fatrsík
 Category: players
 Slug: player-61b09b883f1a3fd0

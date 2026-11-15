@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Robert Rüdrich
 Category: players
 Slug: player-bf8ae647654ad003
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 18
+career_games: 19
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|7|0|0|0|0||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|9|1|0|1|0
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|8|0|0|0|0||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|9|1|0|1|0
 assists: 0
-games: 7
+games: 8
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 285
+rank: 287
 season: 26-27

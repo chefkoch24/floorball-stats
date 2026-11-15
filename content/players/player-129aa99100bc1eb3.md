@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Emil Nilsen
 Category: players
 Slug: player-129aa99100bc1eb3

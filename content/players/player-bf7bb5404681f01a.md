@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Peško Adam
 Category: players
 Slug: player-bf7bb5404681f01a

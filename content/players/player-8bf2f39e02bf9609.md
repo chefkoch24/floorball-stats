@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Marek Mandler
 Category: players
 Slug: player-8bf2f39e02bf9609
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 2
-current_assists: 3
-current_points: 5
+current_assists: 4
+current_points: 6
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 2
-regular_assists: 3
-regular_points: 5
+regular_assists: 4
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 7
 previous_points: 21
 previous_pim: 2
-career_games: 25
+career_games: 26
 career_goals: 16
-career_assists: 10
-career_points: 26
+career_assists: 11
+career_points: 27
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|8|2|3|5|0||25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|16|14|7|21|2
-assists: 3
-games: 8
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|9|2|4|6|0||25-26|playoffs|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|16|14|7|21|2
+assists: 4
+games: 9
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 83
+points: 6
+rank: 72
 season: 26-27

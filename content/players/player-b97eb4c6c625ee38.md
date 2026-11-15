@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jason Tsiakas
 Category: players
 Slug: player-b97eb4c6c625ee38
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|8|0|1|1|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|9|0|1|1|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 185
+rank: 189
 season: 26-27

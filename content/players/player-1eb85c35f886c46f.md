@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Veera Kauppi
 Category: players
 Slug: player-1eb85c35f886c46f

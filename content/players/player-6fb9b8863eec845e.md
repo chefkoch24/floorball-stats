@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Mia Scherler
 Category: players
 Slug: player-6fb9b8863eec845e

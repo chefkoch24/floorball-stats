@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Benedikt Fiedrich
 Category: players
 Slug: player-dc8c53973bae5933
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
-current_goals: 3
+current_games: 9
+current_goals: 4
 current_assists: 3
-current_points: 6
+current_points: 7
 current_pim: 0
-regular_games: 7
-regular_goals: 2
+regular_games: 8
+regular_goals: 3
 regular_assists: 2
-regular_points: 4
+regular_points: 5
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 3
 previous_points: 3
 previous_pim: 0
-career_games: 13
-career_goals: 2
+career_games: 14
+career_goals: 3
 career_assists: 5
-career_points: 7
+career_points: 8
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|7|2|2|4|0||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|1|1|2|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|6|0|3|3|0
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|3|2|5|0||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|1|1|2|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|6|0|3|3|0
 assists: 2
-games: 7
-goals: 2
+games: 8
+goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 4
-rank: 92
+points: 5
+rank: 82
 season: 26-27

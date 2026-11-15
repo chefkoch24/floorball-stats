@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jan Ždímal
 Category: players
 Slug: player-abe3049eabad867f

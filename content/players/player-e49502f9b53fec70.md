@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Pascal Rieß
 Category: players
 Slug: player-e49502f9b53fec70
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 7
-rank: 54
+rank: 61
 season: 26-27

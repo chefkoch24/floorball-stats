@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Viktória Jelenčiaková
 Category: players
 Slug: player-414ec805ef1eb7ea

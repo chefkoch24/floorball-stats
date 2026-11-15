@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Juuso Suotula
 Category: players
 Slug: player-a3d815a4c52bef79
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 12
+current_games: 10
+current_goals: 13
 current_assists: 11
-current_points: 23
+current_points: 24
 current_pim: 6
-regular_games: 8
-regular_goals: 9
+regular_games: 9
+regular_goals: 10
 regular_assists: 11
-regular_points: 20
+regular_points: 21
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 21
 previous_points: 41
 previous_pim: 16
-career_games: 36
-career_goals: 29
+career_games: 37
+career_goals: 30
 career_assists: 32
-career_points: 61
+career_points: 62
 career_pim: 22
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|8|9|11|20|6||26-27|cup|Germany|SC DHfK Leipzig|1|3|0|3|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|6|2|8|8||25-26|regular-season|Germany|SC DHfK Leipzig|20|14|19|33|8
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|9|10|11|21|6||26-27|cup|Germany|SC DHfK Leipzig|1|3|0|3|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|6|2|8|8||25-26|regular-season|Germany|SC DHfK Leipzig|20|14|19|33|8
 assists: 11
-games: 8
-goals: 9
+games: 9
+goals: 10
 penalties: 3
 phase: regular-season
 pim: 6
-points: 20
+points: 21
 rank: 3
 season: 26-27

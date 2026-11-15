@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Orsolya Gálfi
 Category: players
 Slug: player-e12da3da21a54625

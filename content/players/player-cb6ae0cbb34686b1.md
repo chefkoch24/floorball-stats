@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Hoffmann
 Category: players
 Slug: player-cb6ae0cbb34686b1

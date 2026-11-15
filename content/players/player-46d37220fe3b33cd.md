@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Michaela Moravcová
 Category: players
 Slug: player-46d37220fe3b33cd

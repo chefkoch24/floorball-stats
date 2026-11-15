@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Justus Lerchl
 Category: players
 Slug: player-f9a96358ed8df450
@@ -11,16 +11,16 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 0
-current_assists: 1
-current_points: 1
-current_pim: 6
-regular_games: 9
-regular_goals: 0
-regular_assists: 1
-regular_points: 1
-regular_pim: 6
+current_games: 10
+current_goals: 1
+current_assists: 3
+current_points: 4
+current_pim: 8
+regular_games: 10
+regular_goals: 1
+regular_assists: 3
+regular_points: 4
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 0
-career_assists: 1
-career_points: 1
-career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|FBC München|9|0|1|1|6
-assists: 1
-games: 9
-goals: 0
-penalties: 3
+career_games: 10
+career_goals: 1
+career_assists: 3
+career_points: 4
+career_pim: 8
+history_rows_csv: 26-27|regular-season|Germany|FBC München|10|1|3|4|8
+assists: 3
+games: 10
+goals: 1
+penalties: 4
 phase: regular-season
-pim: 6
-points: 1
-rank: 189
+pim: 8
+points: 4
+rank: 109
 season: 26-27

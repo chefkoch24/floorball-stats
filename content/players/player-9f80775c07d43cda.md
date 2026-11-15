@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ondrej Martanovič
 Category: players
 Slug: player-9f80775c07d43cda

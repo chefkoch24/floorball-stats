@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Marek Owczarzy
 Category: players
 Slug: player-61d6285be93d90ad

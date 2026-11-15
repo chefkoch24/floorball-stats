@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Krystof Manour
 Category: players
 Slug: player-3e7713cc8ab86d4a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 138
+rank: 144
 season: 26-27

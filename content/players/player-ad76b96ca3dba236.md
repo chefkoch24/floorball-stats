@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Tomek
 Category: players
 Slug: player-ad76b96ca3dba236

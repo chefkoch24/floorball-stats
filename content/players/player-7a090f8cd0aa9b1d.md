@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Erik Åkerblom
 Category: players
 Slug: player-7a090f8cd0aa9b1d

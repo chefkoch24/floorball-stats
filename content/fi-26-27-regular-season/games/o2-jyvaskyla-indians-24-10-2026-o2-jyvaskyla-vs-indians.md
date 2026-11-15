@@ -434,6 +434,7 @@ away_pregame_points_after_first_period_per_game: 3.0
 away_pregame_points_after_second_period: 10
 away_pregame_points_after_third_period: 10
 away_pregame_points_against_eraviikingit: 3
+away_pregame_points_against_nokian_krp: 1
 away_pregame_points_against_o2_jyvaskyla: 6
 away_pregame_points_against_oilers: 0
 away_pregame_points_against_spv: 1

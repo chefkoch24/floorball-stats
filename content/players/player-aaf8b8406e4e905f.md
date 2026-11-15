@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Christopher Rustemeier
 Category: players
 Slug: player-aaf8b8406e4e905f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 104
+rank: 116
 season: 26-27

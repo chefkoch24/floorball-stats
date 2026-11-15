@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Patrik Neterder
 Category: players
 Slug: player-8eed1cb58dc11d7c

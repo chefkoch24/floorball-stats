@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Zamazal Huskova
 Category: players
 Slug: player-0ad37be015bf2578

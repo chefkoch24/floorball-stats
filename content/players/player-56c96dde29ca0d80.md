@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Miroslav Steiger
 Category: players
 Slug: player-56c96dde29ca0d80

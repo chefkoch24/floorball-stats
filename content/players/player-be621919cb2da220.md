@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Alice Abrahamsson
 Category: players
 Slug: player-be621919cb2da220

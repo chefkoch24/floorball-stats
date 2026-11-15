@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Oona Hirsimäki
 Category: players
 Slug: player-141db34fc903ce9a

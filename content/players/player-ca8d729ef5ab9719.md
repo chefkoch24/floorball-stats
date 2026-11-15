@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Karolína Fořtová
 Category: players
 Slug: player-ca8d729ef5ab9719

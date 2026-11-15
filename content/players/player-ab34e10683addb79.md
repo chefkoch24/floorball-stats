@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Marie-Laure Chapon
 Category: players
 Slug: player-ab34e10683addb79

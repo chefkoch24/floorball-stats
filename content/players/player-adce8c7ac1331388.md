@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Fredrik Bäckman
 Category: players
 Slug: player-adce8c7ac1331388

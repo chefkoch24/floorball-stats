@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Levčíková Anna
 Category: players
 Slug: player-8a06b33f309af8a1

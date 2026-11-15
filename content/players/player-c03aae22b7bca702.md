@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Eva Stará
 Category: players
 Slug: player-c03aae22b7bca702

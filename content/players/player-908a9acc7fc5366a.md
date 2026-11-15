@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Victor Hansson
 Category: players
 Slug: player-908a9acc7fc5366a

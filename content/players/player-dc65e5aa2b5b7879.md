@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Milan Bína C
 Category: players
 Slug: player-dc65e5aa2b5b7879

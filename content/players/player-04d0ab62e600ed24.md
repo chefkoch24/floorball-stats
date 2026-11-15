@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Marius Suominen
 Category: players
 Slug: player-04d0ab62e600ed24
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 4
-current_goals: 2
+current_games: 5
+current_goals: 3
 current_assists: 1
-current_points: 3
+current_points: 4
 current_pim: 2
-regular_games: 4
-regular_goals: 2
+regular_games: 5
+regular_goals: 3
 regular_assists: 1
-regular_points: 3
+regular_points: 4
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 1
 previous_points: 17
 previous_pim: 2
-career_games: 14
-career_goals: 18
+career_games: 15
+career_goals: 19
 career_assists: 2
-career_points: 20
+career_points: 21
 career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|TPS|4|2|1|3|2||fi-25-26|regular-season|Finland|FBC Turku|10|16|1|17|2
+history_rows_csv: fi-26-27|regular-season|Finland|TPS|5|3|1|4|2||fi-25-26|regular-season|Finland|FBC Turku|10|16|1|17|2
 assists: 1
-games: 4
-goals: 2
+games: 5
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 3
-rank: 133
+points: 4
+rank: 111
 season: fi-26-27

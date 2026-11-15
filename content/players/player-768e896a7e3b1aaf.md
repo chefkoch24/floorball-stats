@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tim Glindemann
 Category: players
 Slug: player-768e896a7e3b1aaf
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 123
+rank: 128
 season: 26-27

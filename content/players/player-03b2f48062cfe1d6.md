@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Essi Ronkainen
 Category: players
 Slug: player-03b2f48062cfe1d6

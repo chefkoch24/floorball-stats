@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jan Niklas Buckermann
 Category: players
 Slug: player-fe43dfbacbc63bdf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 2
 current_points: 2
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 8
 previous_points: 15
 previous_pim: 0
-career_games: 34
+career_games: 35
 career_goals: 7
 career_assists: 9
 career_points: 16
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|6|0|1|1|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|0|1|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|0|2|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|7|6|13|0
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|7|0|1|1|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|0|1|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|0|2|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|7|6|13|0
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 180
+rank: 184
 season: 26-27

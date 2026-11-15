@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Östholm
 Category: players
 Slug: player-f3abf10e394de550

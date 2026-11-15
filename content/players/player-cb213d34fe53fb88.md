@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ebba Selin
 Category: players
 Slug: player-cb213d34fe53fb88

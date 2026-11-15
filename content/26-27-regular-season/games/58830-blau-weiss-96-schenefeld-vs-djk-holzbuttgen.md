@@ -324,6 +324,7 @@ home_pregame_points_against_berlin_rockets: 3
 home_pregame_points_against_djk_holzbuttgen: 0
 home_pregame_points_against_etv_piranhhas_hamburg: 0
 home_pregame_points_against_fbc_munchen: 0
+home_pregame_points_against_mfbc_leipzig: 0
 home_pregame_points_against_sc_dhfk_leipzig: 0
 home_pregame_points_against_ssf_dragons_bonn: 0
 home_pregame_points_against_uhc_sparkasse_weissenfels: 0

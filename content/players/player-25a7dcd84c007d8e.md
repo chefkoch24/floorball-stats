@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lev Kliment
 Category: players
 Slug: player-25a7dcd84c007d8e

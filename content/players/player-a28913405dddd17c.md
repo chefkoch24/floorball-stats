@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tomas Nyström
 Category: players
 Slug: player-a28913405dddd17c

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Alexandra Kürth
 Category: players
 Slug: player-e1a3c80ecb41bc20

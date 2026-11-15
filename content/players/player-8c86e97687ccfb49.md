@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Raphael Heinzelmann
 Category: players
 Slug: player-8c86e97687ccfb49
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 111
+rank: 121
 season: 26-27

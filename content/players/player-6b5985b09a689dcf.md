@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Michal Vico
 Category: players
 Slug: player-6b5985b09a689dcf

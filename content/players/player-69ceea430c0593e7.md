@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jan Fleisch
 Category: players
 Slug: player-69ceea430c0593e7

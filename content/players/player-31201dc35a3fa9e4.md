@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Kristiāns Melkus
 Category: players
 Slug: player-31201dc35a3fa9e4

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Markus Wellauer
 Category: players
 Slug: player-a207202eb2beb95f

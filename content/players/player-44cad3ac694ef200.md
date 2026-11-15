@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Richard Dluhoš
 Category: players
 Slug: player-44cad3ac694ef200

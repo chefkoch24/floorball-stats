@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Pinja Koivumäki
 Category: players
 Slug: player-e6cddd17a9c75228

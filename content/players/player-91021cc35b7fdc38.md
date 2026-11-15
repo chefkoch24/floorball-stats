@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Andrin Christen
 Category: players
 Slug: player-91021cc35b7fdc38

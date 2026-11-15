@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Hrabánek
 Category: players
 Slug: player-681e4a56c8add2ca

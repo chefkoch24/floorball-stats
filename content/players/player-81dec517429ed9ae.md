@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Štěpán Novák
 Category: players
 Slug: player-81dec517429ed9ae

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Evelīna Drozdova
 Category: players
 Slug: player-ce8fed42f71ce222

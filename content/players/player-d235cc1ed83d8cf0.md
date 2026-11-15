@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Adam Fliegner
 Category: players
 Slug: player-d235cc1ed83d8cf0
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 3
 current_assists: 4
 current_points: 7
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|2|2|4|2||26-27|cup|Germany|Berlin Rockets|1|1|2|3|0
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|8|2|2|4|2||26-27|cup|Germany|Berlin Rockets|1|1|2|3|0
 assists: 2
-games: 7
+games: 8
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 91
+rank: 99
 season: 26-27

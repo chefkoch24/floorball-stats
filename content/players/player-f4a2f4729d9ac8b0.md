@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Hannes Langenstraß
 Category: players
 Slug: player-f4a2f4729d9ac8b0
@@ -11,15 +11,15 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 9
+current_games: 10
+current_goals: 12
 current_assists: 4
-current_points: 13
+current_points: 16
 current_pim: 6
-regular_games: 9
-regular_goals: 9
+regular_games: 10
+regular_goals: 12
 regular_assists: 4
-regular_points: 13
+regular_points: 16
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 12
 previous_points: 29
 previous_pim: 2
-career_games: 39
-career_goals: 26
+career_games: 40
+career_goals: 29
 career_assists: 16
-career_points: 42
+career_points: 45
 career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|9|9|4|13|6||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|2|1|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|15|11|26|2||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|2
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|12|4|16|6||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|2|1|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|20|15|11|26|2||wfc-2024|tournament|IFF WFC|Germany|7|0|0|0|2
 assists: 4
-games: 9
-goals: 9
+games: 10
+goals: 12
 penalties: 3
 phase: regular-season
 pim: 6
-points: 13
-rank: 22
+points: 16
+rank: 14
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Elina Koskinen
 Category: players
 Slug: player-1c5edb5af93bf9ef

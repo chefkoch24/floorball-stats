@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Martin Gladigau
 Category: players
 Slug: player-c8fbbb215f4e24e2

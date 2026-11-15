@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Leon Tringaniello
 Category: players
 Slug: player-646ddd28209a8cda

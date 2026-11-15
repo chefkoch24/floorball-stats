@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Henri Kukkonen
 Category: players
 Slug: player-5abddc7b4313e602

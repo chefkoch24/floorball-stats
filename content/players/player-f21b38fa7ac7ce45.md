@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Flora Riis
 Category: players
 Slug: player-f21b38fa7ac7ce45

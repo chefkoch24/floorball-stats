@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Roberts Zande
 Category: players
 Slug: player-1ef5701004db9dab

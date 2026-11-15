@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tobias Lindström
 Category: players
 Slug: player-8ebf2f89a3b2a716

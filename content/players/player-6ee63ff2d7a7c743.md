@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Johanna Spetz
 Category: players
 Slug: player-6ee63ff2d7a7c743

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Luca Steiner
 Category: players
 Slug: player-e4f8db25bc0c3d37

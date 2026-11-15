@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Anton Weyrauch
 Category: players
 Slug: player-2cba1ffc5e141fba
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 9
 current_assists: 10
 current_points: 19
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 9
 regular_assists: 9
 regular_points: 18
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 9
 previous_points: 23
 previous_pim: 8
-career_games: 28
+career_games: 29
 career_goals: 23
 career_assists: 18
 career_points: 41
 career_pim: 12
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|8|9|9|18|4||26-27|cup|Germany|Berlin Rockets|1|0|1|1|0||25-26|regular-season|Germany|Berlin Rockets|20|14|9|23|8
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|9|9|9|18|4||26-27|cup|Germany|Berlin Rockets|1|0|1|1|0||25-26|regular-season|Germany|Berlin Rockets|20|14|9|23|8
 assists: 9
-games: 8
+games: 9
 goals: 9
 penalties: 2
 phase: regular-season
 pim: 4
 points: 18
-rank: 7
+rank: 9
 season: 26-27

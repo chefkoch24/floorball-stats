@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Victorie Moravcová
 Category: players
 Slug: player-f5c4ffd16bc36b33

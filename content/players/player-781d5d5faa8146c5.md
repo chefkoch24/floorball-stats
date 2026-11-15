@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Laura Hambálková
 Category: players
 Slug: player-781d5d5faa8146c5

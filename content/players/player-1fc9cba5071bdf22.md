@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Nina Gerber
 Category: players
 Slug: player-1fc9cba5071bdf22

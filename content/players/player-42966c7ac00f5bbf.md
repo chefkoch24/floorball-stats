@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tomáš Trnka
 Category: players
 Slug: player-42966c7ac00f5bbf

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Juulia Kataja
 Category: players
 Slug: player-5b08afe2932ba95d

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lovis Sturm
 Category: players
 Slug: player-239dbe4c7d727efa
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 139
+rank: 146
 season: 26-27

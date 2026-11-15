@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lara Wüthrich
 Category: players
 Slug: player-4c3addabe15eacf5

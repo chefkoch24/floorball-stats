@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Loreta Nemiro
 Category: players
 Slug: player-9142ffac6bcec5c0

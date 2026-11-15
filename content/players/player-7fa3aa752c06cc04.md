@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Artis Matīss Fogels
 Category: players
 Slug: player-7fa3aa752c06cc04

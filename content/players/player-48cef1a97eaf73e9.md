@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Daniel Vaigur
 Category: players
 Slug: player-48cef1a97eaf73e9

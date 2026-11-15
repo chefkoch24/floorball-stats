@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Sami Johansson
 Category: players
 Slug: player-bad99b26f77ae879
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 36
+rank: 37
 season: fi-26-27

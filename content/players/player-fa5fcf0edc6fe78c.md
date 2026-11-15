@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Patrik Kutlák
 Category: players
 Slug: player-fa5fcf0edc6fe78c

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ted Nivestam
 Category: players
 Slug: player-73f2a4817caa320d

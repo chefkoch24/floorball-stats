@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Gabriel Bonifacio
 Category: players
 Slug: player-17a84c4af97aed0b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 5
 previous_points: 8
 previous_pim: 0
-career_games: 20
+career_games: 21
 career_goals: 5
 career_assists: 5
 career_points: 10
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|6|2|0|2|0||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|1|0|1|0||25-26|regular-season|Germany|Unihockey Igels Dresden|12|2|5|7|0
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|7|2|0|2|0||26-27|cup|Germany|Unihockey Igels Dresden|1|0|1|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|1|0|1|0||25-26|regular-season|Germany|Unihockey Igels Dresden|12|2|5|7|0
 assists: 0
-games: 6
+games: 7
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 127
+rank: 132
 season: 26-27

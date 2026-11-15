@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Nela Severová
 Category: players
 Slug: player-fa6bbcd757fee825

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Levin Peter
 Category: players
 Slug: player-561fe639feac6660

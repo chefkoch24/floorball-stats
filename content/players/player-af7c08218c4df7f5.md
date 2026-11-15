@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Peter Banga
 Category: players
 Slug: player-af7c08218c4df7f5

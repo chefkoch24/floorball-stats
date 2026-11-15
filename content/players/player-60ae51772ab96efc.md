@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Karri Vaarala
 Category: players
 Slug: player-60ae51772ab96efc
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 9
-current_goals: 10
+current_games: 10
+current_goals: 11
 current_assists: 12
-current_points: 22
+current_points: 23
 current_pim: 0
-regular_games: 8
-regular_goals: 8
+regular_games: 9
+regular_goals: 9
 regular_assists: 11
-regular_points: 19
+regular_points: 20
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 25
 previous_assists: 19
 previous_points: 44
 previous_pim: 8
-career_games: 33
-career_goals: 33
+career_games: 34
+career_goals: 34
 career_assists: 31
-career_points: 64
+career_points: 65
 career_pim: 8
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|8|8|11|19|0||fi-26-27|cup|Finland|SPV|1|2|1|3|0||cc-26-27|tournament|IFF Champions Cup|SPV|1|0|1|1|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|9|9|11|20|0||fi-26-27|cup|Finland|SPV|1|2|1|3|0||cc-26-27|tournament|IFF Champions Cup|SPV|1|0|1|1|0||fi-25-26|regular-season|Finland|Jymy|24|25|19|44|8
 assists: 11
-games: 8
-goals: 8
+games: 9
+goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 19
+points: 20
 rank: 12
 season: fi-26-27

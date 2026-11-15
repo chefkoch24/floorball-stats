@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Philippa Blom
 Category: players
 Slug: player-d8bf6cd232bab300

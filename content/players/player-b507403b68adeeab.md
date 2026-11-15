@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Kateřina Stoklásková
 Category: players
 Slug: player-b507403b68adeeab

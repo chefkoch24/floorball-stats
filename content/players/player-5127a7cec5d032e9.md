@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jussi-Pekka Raitanen
 Category: players
 Slug: player-5127a7cec5d032e9
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 11
+current_goals: 5
+current_assists: 6
+current_points: 11
 current_pim: 2
-regular_games: 9
-regular_goals: 4
-regular_assists: 3
-regular_points: 7
+regular_games: 10
+regular_goals: 5
+regular_assists: 4
+regular_points: 9
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 4
-career_assists: 3
-career_points: 7
+career_games: 10
+career_goals: 5
+career_assists: 4
+career_points: 9
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|9|4|3|7|2||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|2|2|0
-assists: 3
-games: 9
-goals: 4
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|5|4|9|2||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|2|2|0
+assists: 4
+games: 10
+goals: 5
 penalties: 1
 phase: regular-season
 pim: 2
-points: 7
-rank: 50
+points: 9
+rank: 42
 season: 26-27

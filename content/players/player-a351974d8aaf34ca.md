@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Rainers Miķelsons
 Category: players
 Slug: player-a351974d8aaf34ca

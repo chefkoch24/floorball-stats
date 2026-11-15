@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tuomas Hirn
 Category: players
 Slug: player-5fb4cf1cb25cec02
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 5
-current_assists: 10
-current_points: 15
+current_assists: 11
+current_points: 16
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 5
-regular_assists: 7
-regular_points: 12
+regular_assists: 8
+regular_points: 13
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 22
 previous_assists: 11
 previous_points: 33
 previous_pim: 12
-career_games: 36
+career_games: 37
 career_goals: 27
-career_assists: 18
-career_points: 45
+career_assists: 19
+career_points: 46
 career_pim: 14
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|8|5|7|12|2||26-27|cup|Germany|SC DHfK Leipzig|1|0|3|3|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|6|4|10|0||25-26|regular-season|Germany|SC DHfK Leipzig|20|16|7|23|12
-assists: 7
-games: 8
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|9|5|8|13|2||26-27|cup|Germany|SC DHfK Leipzig|1|0|3|3|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|6|4|10|0||25-26|regular-season|Germany|SC DHfK Leipzig|20|16|7|23|12
+assists: 8
+games: 9
 goals: 5
 penalties: 1
 phase: regular-season
 pim: 2
-points: 12
+points: 13
 rank: 27
 season: 26-27

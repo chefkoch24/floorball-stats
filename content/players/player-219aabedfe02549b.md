@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jere Hiironen
 Category: players
 Slug: player-219aabedfe02549b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 17
 previous_points: 28
 previous_pim: 12
-career_games: 29
+career_games: 30
 career_goals: 11
 career_assists: 18
 career_points: 29
 career_pim: 12
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|0|1|1|0||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||25-26|regular-season|Germany|SC Potsdam|20|11|17|28|12
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|10|0|1|1|0||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||25-26|regular-season|Germany|SC Potsdam|20|11|17|28|12
 assists: 1
-games: 9
+games: 10
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 186
+rank: 190
 season: 26-27

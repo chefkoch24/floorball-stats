@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Maja Helman
 Category: players
 Slug: player-636599e443eecad0

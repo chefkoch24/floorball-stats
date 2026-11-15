@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Finland Women Player Stats 26/27 Regular Season
 Category: fiw-26-27-regular-season-players
 Slug: fiw-26-27-regular-season-players

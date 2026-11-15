@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jesper Persson
 Category: players
 Slug: player-ae20cee5537242b3

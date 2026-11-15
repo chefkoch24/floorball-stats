@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Ruben Arheit
 Category: players
 Slug: player-ecaeae422cab47c0

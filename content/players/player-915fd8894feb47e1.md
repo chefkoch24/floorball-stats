@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Mauro Hartmann
 Category: players
 Slug: player-915fd8894feb47e1

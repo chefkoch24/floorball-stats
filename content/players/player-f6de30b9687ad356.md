@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Veeti Hiltunen
 Category: players
 Slug: player-f6de30b9687ad356

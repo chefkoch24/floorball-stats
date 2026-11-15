@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Niklas Kunath
 Category: players
 Slug: player-7cc15de1644d14be
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
-current_goals: 1
-current_assists: 1
-current_points: 2
+current_games: 9
+current_goals: 3
+current_assists: 2
+current_points: 5
 current_pim: 0
-regular_games: 7
-regular_goals: 0
-regular_assists: 1
-regular_points: 1
+regular_games: 8
+regular_goals: 2
+regular_assists: 2
+regular_points: 4
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 4
 previous_points: 14
 previous_pim: 2
-career_games: 34
-career_goals: 10
-career_assists: 5
-career_points: 15
+career_games: 35
+career_goals: 12
+career_assists: 6
+career_points: 18
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|7|0|1|1|0||26-27|cup|Germany|SC DHfK Leipzig|1|1|0|1|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|1|4|5|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
-assists: 1
-games: 7
-goals: 0
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|8|2|2|4|0||26-27|cup|Germany|SC DHfK Leipzig|1|1|0|1|0||25-26|playoffs|Germany|SC DHfK Leipzig|8|1|4|5|0||25-26|regular-season|Germany|SC DHfK Leipzig|19|9|0|9|2
+assists: 2
+games: 8
+goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 1
-rank: 196
+points: 4
+rank: 104
 season: 26-27

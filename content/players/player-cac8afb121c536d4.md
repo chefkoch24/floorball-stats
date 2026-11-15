@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Tobias Honkanen
 Category: players
 Slug: player-cac8afb121c536d4

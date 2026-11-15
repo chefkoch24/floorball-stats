@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Jannis Feldmann
 Category: players
 Slug: player-b314c3c90d0f16c9

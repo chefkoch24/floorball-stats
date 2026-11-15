@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Stanislav Belko
 Category: players
 Slug: player-812bc6cc2cd15b74

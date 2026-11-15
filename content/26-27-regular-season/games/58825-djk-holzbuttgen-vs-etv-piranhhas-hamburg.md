@@ -442,6 +442,7 @@ away_pregame_points_against_floor_fighters_chemnitz: 0
 away_pregame_points_against_sc_dhfk_leipzig: 0
 away_pregame_points_against_ssf_dragons_bonn: 3
 away_pregame_points_against_uhc_sparkasse_weissenfels: 0
+away_pregame_points_against_unihockey_igels_dresden: 3
 away_pregame_points_against_vfl_red_hocks_kaufering: 3
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 5

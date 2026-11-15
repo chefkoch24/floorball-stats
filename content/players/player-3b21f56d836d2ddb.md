@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Dominik Thiel
 Category: players
 Slug: player-3b21f56d836d2ddb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 211
+rank: 215
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Noemi Anderegg
 Category: players
 Slug: player-44bd4d1a6597f1e2

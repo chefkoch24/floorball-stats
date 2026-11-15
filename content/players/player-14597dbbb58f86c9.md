@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Karljohan Ahlroth
 Category: players
 Slug: player-14597dbbb58f86c9

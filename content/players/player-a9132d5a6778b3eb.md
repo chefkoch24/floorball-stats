@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Sebastián Hachlica
 Category: players
 Slug: player-a9132d5a6778b3eb

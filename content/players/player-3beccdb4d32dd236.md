@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Noah Zielke
 Category: players
 Slug: player-3beccdb4d32dd236
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 5
 previous_points: 11
 previous_pim: 8
-career_games: 30
+career_games: 31
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|9|2|0|2|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|1|0|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|6|5|11|8
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|2|0|2|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|1|0|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|6|5|11|8
 assists: 0
-games: 9
+games: 10
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 130
+rank: 135
 season: 26-27

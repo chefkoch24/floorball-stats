@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Lukas Thieme
 Category: players
 Slug: player-ca31ff575fb0e1e0
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 30
+career_games: 31
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|9|0|1|1|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|0|0|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|0|1|1|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|0|0|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|0|0|0|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|0|0|0|0
 assists: 1
-games: 9
+games: 10
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 192
+rank: 196
 season: 26-27

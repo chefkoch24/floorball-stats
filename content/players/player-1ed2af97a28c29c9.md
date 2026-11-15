@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Viktor Roľko
 Category: players
 Slug: player-1ed2af97a28c29c9

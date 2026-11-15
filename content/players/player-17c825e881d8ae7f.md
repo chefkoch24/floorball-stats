@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Miika Latvala
 Category: players
 Slug: player-17c825e881d8ae7f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 123
+rank: 124
 season: fi-26-27

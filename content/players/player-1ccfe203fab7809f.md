@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Levi Walser
 Category: players
 Slug: player-1ccfe203fab7809f

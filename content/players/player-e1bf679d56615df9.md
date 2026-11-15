@@ -1,4 +1,4 @@
-Date: 2026-11-14
+Date: 2026-11-15
 Title: Luka Peklaj
 Category: players
 Slug: player-e1bf679d56615df9
