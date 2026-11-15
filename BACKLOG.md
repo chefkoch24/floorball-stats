@@ -17,6 +17,8 @@ How it is ranked (as of 2026-11-12): reach first (stats.floorballconnect.com has
 Reach work that Claude can do alone. Details: [SEO plan](docs/features/seo.md). Share links and the search scopes shipped on 2026-11-12, see Done.
 
 - [ ] SEO, visible text on league pages: `league_v2.html` shows an H1 and tables only, no overview paragraph. Add a short factual text per league (teams, season, champion or leader, number of games) so league queries have something to match · M
+- [ ] Drill database to about 100 drills (main site, top search queries: "floorball drills/exercises/training"): more drills rewritten from public coaching material (mobilesport.ch first), kids drills, category pages with intro text (passing, shooting, warm-up, kids, 1 vs 1). 63 drills drawn so far (35, then 28 more from mobilesport.ch, a Czech thesis and Floorball Deutschland on 2026-11-14), see Done; next sources: the IFF manuals (Felix downloads them by hand, the archive blocks bots), innebandy.se, the remaining mobilesport.ch single exercises; Felix reviews the ones drawn from videos · M per batch of 10 · [concept](docs/features/drill-diagrams.md)
+- [ ] Notion clean-up: "Double Shot", "1vs1 into 2vs1", "Championship Ball" and "1 vs 1, 2vs2, 3 vs 2" carry the picture of "1 vs 1 from Middleline". The site shows the diagrams instead; fix or remove the pictures in Notion · S
 - [ ] SEO, related links between entities: no "related" blocks exist on team, league, game or player pages. Link league ↔ cup ↔ women's/men's league, team ↔ rivals/head-to-head, player ↔ team · M
 
 ### P2: next
@@ -98,6 +100,8 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 - [x] Bug: in darkmode you can not read the leagues on the home page due to the contrast. Check all contrasts
 
 ### Main site (floorballconnect.com)
+
+- [x] Drill diagrams: drills drawn as data (`connect/data/drill-diagrams/<slug>.json`), rendered to SVG at build time, played step by step on the drill page (`connect/drill_diagram.py`, `drill-diagram.js`), "▶ Animated" thumbnails in the list, share on Instagram as Story/Reel or Post, image or MP4 video, dark or light, via the share sheet on phones. Diagrams for all 31 Notion drills plus 4 new drills from mobilesport.ch in `connect/data/drills_local.json`, with the source credited ([concept](docs/features/drill-diagrams.md)) Players are always numbered, goalies are added to every goal in view, list cards show the diagram, video drills without text get the steps as their sequence
 
 - [x] Main site floorballconnect.com off Softr: own Pelican site in `connect/` on the stats design system, content imported, Softr URLs redirected ([ARCHITECTURE.md 4.8a](docs/architecture/ARCHITECTURE.md))
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)

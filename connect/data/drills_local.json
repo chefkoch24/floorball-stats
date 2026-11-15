@@ -1,0 +1,468 @@
+{
+  "_comment": "Drills kept in the repo instead of Notion. Written in our own words from public coaching material, with the source credited. Same record shape as drills.json; the diagram of each drill is in drill-diagrams/<slug>.json.",
+  "items": [
+    {
+      "id": "local-centre-line-2-vs-1-with-backcheck",
+      "fields": {
+        "Name": "Centre-line 2 vs 1 with Backcheck",
+        "Categories": [
+          "2vs1",
+          "Transition",
+          "Backcheck",
+          "Decision Making"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>2 forwards (Players 1 and 2) facing each other on the centre line, one at each board</li><li>1 defender in each half (Player 3 left, Player 4 right)</li><li>2 goalies</li><li>Balls start with Player 1</li></ul><hr/><h3>Sequence</h3><ol><li>Player 1 plays a cross pass to Player 2.</li><li>Player 2 picks a direction and both forwards attack the defender in that half: a 2 vs 1.</li><li>The defender in the other half chases straight away and tries to turn the 2 vs 1 into a 2 vs 2.</li><li>Player 2 draws the defender and passes across; Player 1 finishes directly.</li></ol><h3>Coaching Points</h3><ul><li>Attack fast: every extra pass gives the backchecking defender time to arrive.</li><li>The backchecking defender starts at the moment of the cross pass, not when the attack is already on.</li><li>The defender in front stays between ball and goal and delays the attack.</li></ul><h3>Variations</h3><ul><li>Forwards and defenders pass the ball around freely until the coach calls the start.</li><li>Let the attack start from both sides, so the forwards cannot plan the direction.</li></ul>"
+      }
+    },
+    {
+      "id": "local-attack-from-the-goalie-throw",
+      "fields": {
+        "Name": "Attack from the Goalie Throw",
+        "Categories": [
+          "Passing",
+          "Shooting",
+          "Opening",
+          "Decision Making"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>3 players + 2 goalies, full rink</li><li>Balls start with the goalie of the defending end</li><li>Player 1 near the own goal, Player 2 high on the same side, Player 3 at the far board in the attacking half</li></ul><hr/><h3>Sequence</h3><ol><li>Player 1 comes towards the goalie and receives the throw.</li><li>Player 1 passes Player 2 into the run along the board.</li><li>Player 2 carries the ball and plays a long diagonal pass to Player 3, who runs along the far board towards the centre.</li><li>Players 1 and 2 move into shooting positions in the meantime: Player 1 into the slot, Player 2 to the far post.</li><li>Player 3 passes to one of them, who shoots directly.</li></ol><h3>Coaching Points</h3><ul><li>Every pass has to be precise, otherwise the timing breaks.</li><li>Players 1 and 2 stand offset to Player 3, so Player 3 always has two passing lanes.</li><li>Pass early enough that the shooter can arrive at speed.</li></ul><h3>Variations</h3><ul><li>Fix the finishing spots: Player 1 to the far post, Player 2 to the middle.</li><li>Allow Player 3 to finish alone if the lanes are closed.</li></ul>"
+      }
+    },
+    {
+      "id": "local-1-vs-1-dribble-square",
+      "fields": {
+        "Name": "1 vs 1 Dribble Square",
+        "Categories": [
+          "1vs1",
+          "Ballcontrol",
+          "Small Game",
+          "Kids"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>A square of about 8 × 8 m with a cone gate in the middle of each side</li><li>2 players per square: Player 1 attacks, Player 2 defends; 1 ball</li><li>Set up several squares so the whole team plays at once</li></ul><hr/><h3>Sequence</h3><ol><li>The attacker tries to dribble through one of two opposite gates (here: left or right).</li><li>The defender tries to win the ball.</li><li>If the defender wins it, the roles flip: the new attacker goes for the other two gates.</li><li>Play 5 rounds: who wins more duels?</li></ol><h3>Coaching Points</h3><ul><li>Fake a dribble towards one gate, then change direction suddenly.</li><li>Keep the ball close to the blade and away from the defender's stick.</li><li>Defenders stay on their feet and steer the attacker away from the gates.</li></ul><h3>Variations</h3><ul><li>Play for 45, 60 or 90 seconds instead of rounds.</li><li>Move the gates or make them narrower.</li></ul>"
+      }
+    },
+    {
+      "id": "local-follow-the-pass-square",
+      "fields": {
+        "Name": "Follow-the-Pass Square",
+        "Categories": [
+          "Passing",
+          "Warmup",
+          "Kids"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Passen: Positionspassen",
+        "Source URL": "https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/1687767088/mobilesport-unihockey--passen-positionspassen.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>4 groups standing at the corners of a square (5–8 m per side)</li><li>1 ball, starting with the first player of one group</li></ul><hr/><h3>Sequence</h3><ol><li>The first player passes clockwise to the first player of the next group.</li><li>Right after the pass, the passer runs after the ball and joins the back of that group.</li><li>The next player in the passer's group steps up, ready for the ball to come round.</li><li>The receiver passes on to the next corner and follows the pass in the same way.</li></ol><h3>Coaching Points</h3><ul><li>Flat, firm passes to the receiver's stick.</li><li>Move straight after the pass, so there is never a gap at a corner.</li><li>Receivers show their blade early so the passer has a target.</li></ul><h3>Variations</h3><ul><li>Make the square bigger or smaller.</li><li>Forehand only, then backhand only.</li><li>Change direction, or add a second ball once the group is in rhythm.</li><li>Finish each round with a shot on goal.</li></ul>"
+      }
+    },
+    {
+      "id": "local-shot-breakout-and-2-vs-1",
+      "fields": {
+        "Name": "Shot, Breakout and 2 vs 1",
+        "Categories": [
+          "Shooting",
+          "Transition",
+          "2vs1",
+          "Opening"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>3 attackers (Players 1, 2, 3) + 1 defender (Player 4) + 2 goalies, full rink</li><li>Player 1 at the top board with a ball, Player 3 in the low corner with a second ball</li><li>Player 2 starts in the middle, Player 4 waits in the other half</li></ul><hr/><h3>Sequence</h3><ol><li>Player 1 passes to Player 2, who comes through the middle and shoots.</li><li>Player 2 keeps moving and turns; Player 3 plays the breakout pass into the run.</li><li>Players 1 and 2 attack the other goal 2 vs 1 against Player 4.</li><li>Player 2 draws the defender and passes; Player 1 finishes.</li></ol><h3>Coaching Points</h3><ul><li>Shoot directly, then move on at once: the shot is the start of the counter.</li><li>Do not stand in the passing shadow of the defender.</li><li>Lots of speed towards the goal in the 2 vs 1.</li></ul><h3>Variations</h3><ul><li>Player 3 joins the attack: 3 vs 1.</li><li>A second defender: 3 vs 2.</li></ul>"
+      }
+    },
+    {
+      "id": "local-2-vs-2-with-outside-passers",
+      "fields": {
+        "Name": "2 vs 2 with Outside Passers",
+        "Categories": [
+          "Small Game",
+          "2vs2",
+          "Passing",
+          "Decision Making"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Two goals moved closer together for a small field, 2 goalies</li><li>2 vs 2 on the field</li><li>The other players line up outside in two columns per team; the first of each column is a passing station</li></ul><hr/><h3>Sequence</h3><ol><li>2 vs 2 on the small field.</li><li>The team on the ball may use its two outside players: 4 vs 2.</li><li>An outside player passes straight back into the field.</li><li>Only the players on the field can score.</li><li>After 45 seconds the coach whistles; the players leave the ball and the next ones play on without a break.</li></ol><h3>Coaching Points</h3><ul><li>Outside players always know their next option before the ball arrives.</li><li>Play fast and direct while you have the extra players.</li><li>A small field means more duels; a bigger one more running and longer passes.</li></ul><h3>Variations</h3><ul><li>Direct passes only.</li><li>All outside players may be used: 6 vs 2.</li><li>Outside players may also shoot.</li></ul>"
+      }
+    },
+    {
+      "id": "local-streetball-2-vs-2-on-one-goal",
+      "fields": {
+        "Name": "Streetball 2 vs 2 on One Goal",
+        "Categories": [
+          "Small Game",
+          "2vs2",
+          "Shooting",
+          "Passing"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One goal with goalie, one half of the rink</li><li>2 vs 2 on the field</li><li>One column per team at the centre line; the first player of each column is a passing station</li></ul><hr/><h3>Sequence</h3><ol><li>Both teams play 2 vs 2 on the same goal.</li><li>The first player of a column can be used as a station and plays the ball straight back to the team that passed.</li><li>When the ball leaves the field, the coach plays in a new one.</li><li>After 45 seconds the coach calls the change; the next players take over.</li></ol><h3>Coaching Points</h3><ul><li>The aim of every attack is a goal: look for the shot early.</li><li>Use the station to escape pressure, then move into space for the return.</li></ul><h3>Variations</h3><ul><li>Without stations.</li><li>With an extra joker.</li><li>The stations may also shoot.</li></ul>"
+      }
+    },
+    {
+      "id": "local-goals-in-the-middle",
+      "fields": {
+        "Name": "Goals in the Middle",
+        "Categories": [
+          "Small Game",
+          "Shooting",
+          "Decision Making",
+          "Slot"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Both goals near the centre line, about 2 m away from it, open towards the ends</li><li>2 goalies</li><li>4 vs 4 (or 5 vs 5) on the whole rink</li></ul><hr/><h3>Sequence</h3><ol><li>Both teams may score on both goals.</li><li>The play keeps changing direction: attack the goal that is free.</li><li>Lots of chances from the slot on both sides.</li></ol><h3>Coaching Points</h3><ul><li>Switch the side quickly; do not crowd one side.</li><li>The goalies have no defenders behind them: no wild slashing at the goalie.</li></ul><h3>Variations</h3><ul><li>Change the team size.</li><li>A joker who always plays with the team on the ball.</li><li>Goals only from one-timers.</li><li>Goals only after three passes.</li><li>Two-second rule: the ball may not be held longer.</li></ul>"
+      }
+    },
+    {
+      "id": "local-three-goal-game-4-vs-3",
+      "fields": {
+        "Name": "Three-Goal Game 4 vs 3",
+        "Categories": [
+          "Small Game",
+          "Transition",
+          "Decision Making"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half of the rink: the goal with goalie and two small goals (e.g. vaulting boxes) at the boards near the centre line</li><li>4 attackers (red) vs 3 defenders (blue)</li></ul><hr/><h3>Sequence</h3><ol><li>The four reds attack the goal with the goalie.</li><li>When the three blues win the ball, they counter on one of the two small goals at once.</li><li>Short shifts, then the next group.</li></ol><h3>Coaching Points</h3><ul><li>Very fast transition: the first pass after winning the ball decides.</li><li>Attackers: take the shot before the defence is in place, and be ready to defend the small goals.</li></ul><h3>Variations</h3><ul><li>Other numbers: 3 vs 2, 3 vs 3, 5 vs 4.</li><li>Short shifts.</li></ul>"
+      }
+    },
+    {
+      "id": "local-goal-fight-3-vs-3",
+      "fields": {
+        "Name": "Goal Fight 3 vs 3",
+        "Categories": [
+          "Small Game",
+          "Shooting",
+          "Rebound",
+          "3vs3"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One goal with goalie</li><li>3 vs 3 (or 2 vs 2) right in front of the goal</li><li>The coach with up to 7 balls; the other players mark the field and keep the balls in</li></ul><hr/><h3>Sequence</h3><ol><li>The coach plays in a ball: both teams fight for it and try to score on the same goal.</li><li>After a goal or a lost ball the coach plays in the next one at once.</li><li>One round lasts 20 seconds. Which team scores more?</li></ol><h3>Coaching Points</h3><ul><li>Look for the shot as fast as possible.</li><li>Win the duel with the body, then finish.</li><li>Rebounds: always follow the shot.</li></ul><h3>Variations</h3><ul><li>Change the size of the field.</li><li>Uneven numbers.</li><li>Extra rules, e.g. only direct shots count.</li></ul>"
+      }
+    },
+    {
+      "id": "local-2-vs-1-in-both-halves",
+      "fields": {
+        "Name": "2 vs 1 in Both Halves",
+        "Categories": [
+          "2vs1",
+          "Passing",
+          "Decision Making",
+          "Small Game"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Full rink, 2 goalies</li><li>Left half: 2 red attackers and 1 blue defender</li><li>Right half: 2 blue attackers and 1 red defender</li><li>Nobody may cross the centre line</li></ul><hr/><h3>Sequence</h3><ol><li>The two reds attack the left goal 2 vs 1.</li><li>Whoever wins the ball (defender or goalie) plays it over the centre line to the own attackers.</li><li>Now the two blues attack the right goal 2 vs 1, and so on.</li></ol><h3>Coaching Points</h3><ul><li>Use the extra player: draw the defender, then pass.</li><li>Know when to hold the ball and when to play fast.</li><li>Very intense: plan enough breaks.</li></ul><h3>Variations</h3><ul><li>3 vs 2</li><li>3 vs 1</li><li>2 vs 2</li><li>3 vs 3</li></ul>"
+      }
+    },
+    {
+      "id": "local-joker-game-3-vs-3",
+      "fields": {
+        "Name": "Joker Game 3 vs 3",
+        "Categories": [
+          "Small Game",
+          "3vs3",
+          "Passing",
+          "Decision Making"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Full rink, 2 goalies</li><li>3 vs 3 plus a joker (in a different colour) who plays with the team on the ball</li><li>The other players wait in two columns per team outside the field</li></ul><hr/><h3>Sequence</h3><ol><li>3 vs 3; the joker always joins the team that has the ball: 4 vs 3.</li><li>Players and joker may score.</li><li>When the ball leaves the field, the coach plays in a new one.</li><li>After 45 seconds the coach calls the change; the next three of each column play on without a break.</li></ol><h3>Coaching Points</h3><ul><li>Use the extra player for fast, direct passing.</li><li>Every attack aims for a goal: direct, quick, decisive.</li></ul><h3>Variations</h3><ul><li>2 vs 2 with goals at both ends.</li><li>Only direct shots count.</li><li>Include the outside players.</li></ul>"
+      }
+    },
+    {
+      "id": "local-keep-away",
+      "fields": {
+        "Name": "Keep-Away",
+        "Categories": [
+          "Warmup",
+          "Passing",
+          "Small Game"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half of the rink, no goals</li><li>Two teams of 2 to 5 players, 1 ball</li></ul><hr/><h3>Sequence</h3><ol><li>The team on the ball tries to string together as many passes as possible.</li><li>The other team tries to touch or intercept the ball.</li><li>When the ball is lost, the tasks change.</li></ol><h3>Coaching Points</h3><ul><li>Little space means pressure: look up before the ball arrives.</li><li>Defenders aim to intercept passes, not to win the ball in a 1 vs 1.</li></ul><h3>Variations</h3><ul><li>Teams of 2, 3, 4 or 5.</li><li>Make the field smaller or bigger.</li><li>Direct passes only.</li></ul>"
+      }
+    },
+    {
+      "id": "local-race-to-the-ball-at-the-board",
+      "fields": {
+        "Name": "Race to the Ball at the Board",
+        "Categories": [
+          "1vs1",
+          "Duel",
+          "Warmup"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Pairs side by side, facing the board</li><li>One ball about 50 cm in front of the board</li><li>Only after a good warm-up</li></ul><hr/><h3>Sequence</h3><ol><li>On the whistle both players sprint to the ball.</li><li>The first one puts a foot on the ball and holds it for a few seconds without losing balance.</li><li>Only the body may be used, with the shoulder charges allowed in the game.</li></ol><h3>Coaching Points</h3><ul><li>Correct body contact: no arms, no legs.</li><li>Quick first steps, low centre of gravity.</li></ul><h3>Variations</h3><ul><li>With or without sticks.</li><li>Start with the back to the ball; the coach may move the ball before the whistle.</li></ul>"
+      }
+    },
+    {
+      "id": "local-number-passing",
+      "fields": {
+        "Name": "Number Passing",
+        "Categories": [
+          "Warmup",
+          "Passing",
+          "Ballcontrol"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Groups of 3 to 5 players, one ball per group</li><li>The players get numbers and move freely in their area</li></ul><hr/><h3>Sequence</h3><ol><li>Number 1 passes to number 2, 2 to 3, and so on; the last one plays back to 1.</li><li>Everybody keeps moving the whole time.</li></ol><h3>Coaching Points</h3><ul><li>Know where the next receiver is before the ball arrives.</li><li>Flat, accurate passes.</li></ul><h3>Variations</h3><ul><li>Change the group size.</li><li>Make the area smaller.</li><li>Carry the ball for at most 3 seconds.</li><li>Direct passes only.</li><li>Several balls per group.</li></ul>"
+      }
+    },
+    {
+      "id": "local-ego-game",
+      "fields": {
+        "Name": "Ego Game",
+        "Categories": [
+          "Ballcontrol",
+          "Small Game",
+          "1vs1"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>A normal game on one or two goals, e.g. 3 vs 3</li><li>Passing is not allowed</li></ul><hr/><h3>Sequence</h3><ol><li>The player on the ball may never pass.</li><li>The only way to hand over the ball: leave it standing for a team-mate who crosses behind.</li><li>The defenders put the ball carrier under pressure with two or even three players.</li></ol><h3>Coaching Points</h3><ul><li>Protect the ball with the body; keep it close to the blade.</li><li>Team-mates cross close behind to take over the ball.</li><li>Coaches: encourage players who lose the ball.</li></ul><h3>Variations</h3><ul><li>The ball may not be handed over at all.</li></ul>"
+      }
+    },
+    {
+      "id": "local-pass-and-duel",
+      "fields": {
+        "Name": "Pass and Duel",
+        "Categories": [
+          "Passing",
+          "1vs1",
+          "Duel",
+          "Warmup"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey Grossfeld 07/2016",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/2016/07/Unihockey_Grossfeld_d.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Pairs with one ball, moving freely in the hall</li></ul><hr/><h3>Sequence</h3><ol><li>The two players move and pass to each other.</li><li>On the whistle they play a 1 vs 1 in a small space.</li><li>30–40 seconds of passing, then 10 seconds of duel, alternating, for 6–10 minutes in all.</li></ol><h3>Coaching Points</h3><ul><li>Very intense interval training.</li><li>Switch from partner to opponent in a split second.</li></ul><h3>Variations</h3><ul><li>Change the rhythm (passing vs. duel).</li><li>Define the space for the duel.</li></ul>"
+      }
+    },
+    {
+      "id": "local-fruit-salad",
+      "fields": {
+        "Name": "Fruit Salad",
+        "Categories": [
+          "Kids",
+          "Ballcontrol",
+          "Warmup"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Four groups in the four corners of the hall</li><li>Every child dribbles a ball</li><li>Each group picks a fruit name</li></ul><hr/><h3>Sequence</h3><ol><li>The coach calls two fruits: those two groups swap corners as fast as possible, ball on the stick.</li><li>On \"Fruit salad!\" all groups swap corners diagonally.</li></ol><h3>Coaching Points</h3><ul><li>Keep the ball close to the blade.</li><li>Look up when crossing the other groups.</li></ul><h3>Variations</h3><ul><li>Animal names instead of fruits; the children imitate the animal.</li><li>Walk instead of run: on tiptoes, crouched, on one leg.</li><li>Obstacles in the hall.</li><li>Swap the ball with another child when crossing.</li></ul>"
+      }
+    },
+    {
+      "id": "local-newspaper-reader",
+      "fields": {
+        "Name": "Newspaper Reader",
+        "Categories": [
+          "Kids",
+          "Ballcontrol",
+          "Warmup"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One child (the \"reader\") stands with the back to the group, facing a wall</li><li>All other children with a ball at the start line</li></ul><hr/><h3>Sequence</h3><ol><li>All children dribble towards the reader.</li><li>The reader calls \"one, two, stop!\" and turns round.</li><li>Everybody has to stop the ball at once. Whoever still moves goes back to the start.</li><li>Who gets closest to the reader?</li></ol><h3>Coaching Points</h3><ul><li>Control the ball with the stick, eyes up.</li><li>Fast and slow: change the speed all the time.</li></ul><h3>Variations</h3><ul><li>Without the call.</li><li>The ball may be stopped with the hand or the foot.</li></ul>"
+      }
+    },
+    {
+      "id": "local-passing-stations",
+      "fields": {
+        "Name": "Passing Stations",
+        "Categories": [
+          "Kids",
+          "Passing",
+          "Ballcontrol"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Two groups</li><li>Group 1: each child stands in a hoop somewhere on the field (the stations)</li><li>Group 2: each child dribbles a ball across the hall</li></ul><hr/><h3>Sequence</h3><ol><li>The dribblers move freely through the hall.</li><li>At any station they play a one-two and dribble on with the ball.</li><li>Swap the groups after a while.</li></ol><h3>Coaching Points</h3><ul><li>Pass to the blade of the station, move on straight away.</li><li>Stations: ready all the time, play the ball straight back.</li></ul><h3>Variations</h3><ul><li>Forehand and backhand passes.</li><li>Competition: who plays the most one-twos in a given time?</li></ul>"
+      }
+    },
+    {
+      "id": "local-star-passing",
+      "fields": {
+        "Name": "Star Passing",
+        "Categories": [
+          "Kids",
+          "Passing",
+          "Warmup"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Small groups of 4–6 children in a circle</li><li>One child in the middle with a ball</li></ul><hr/><h3>Sequence</h3><ol><li>The child in the middle passes to the outside players in turn.</li><li>Each outside player plays the ball straight back.</li><li>Change the player in the middle after a round.</li></ol><h3>Coaching Points</h3><ul><li>Flat passes to the blade.</li><li>The middle player turns the body towards each receiver.</li></ul><h3>Variations</h3><ul><li>The middle player chooses the order.</li><li>Competition between groups.</li><li>Direct passes only, no control.</li><li>Change direction on the whistle.</li></ul>"
+      }
+    },
+    {
+      "id": "local-dribble-round-the-cone-and-shoot",
+      "fields": {
+        "Name": "Dribble Round the Cone and Shoot",
+        "Categories": [
+          "Kids",
+          "Shooting",
+          "Ballcontrol"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One goal with goalie</li><li>A cone in front of the goal</li><li>The children in a line, each with a ball</li></ul><hr/><h3>Sequence</h3><ol><li>The first child dribbles round the cone.</li><li>Then it shoots on goal.</li><li>The next child starts as soon as the first has shot.</li></ol><h3>Coaching Points</h3><ul><li>Keep the ball close in the turn round the cone.</li><li>Look at the goal before the shot.</li></ul><h3>Variations</h3><ul><li>A slalom instead of one cone.</li><li>Touch the cone with the hand.</li><li>Cones in different colours: the coach calls which one.</li><li>A child without stick stands at the cone instead (passive defender).</li></ul>"
+      }
+    },
+    {
+      "id": "local-knock-down-the-cones",
+      "fields": {
+        "Name": "Knock Down the Cones",
+        "Categories": [
+          "Kids",
+          "Shooting",
+          "Small Game"
+        ],
+        "Source": "mobilesport.ch (BASPO / swiss unihockey), Unihockey spielend entdecken 12/2013",
+        "Source URL": "https://www.mobilesport.ch/assets/lbwp-cdn/mobilesport/files/1629984621/12_13_unihockey_d_kor-202108.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Every child puts up a cone (or club) somewhere in the hall</li><li>3–4 balls for the whole group</li></ul><hr/><h3>Sequence</h3><ol><li>Everybody protects their own cone and tries to knock down the others with a shot.</li><li>Only hits with the ball count.</li><li>Whose cone is hit does an extra task, puts the cone up again and plays on.</li></ol><h3>Coaching Points</h3><ul><li>Short, accurate shots beat hard ones.</li><li>Keep an eye on your own cone while you attack.</li></ul><h3>Variations</h3><ul><li>Play in teams.</li></ul>"
+      }
+    },
+    {
+      "id": "local-pass-behind-the-goal-into-2-vs-1",
+      "fields": {
+        "Name": "Pass Behind the Goal into 2 vs 1",
+        "Categories": [
+          "2vs1",
+          "Passing",
+          "Shooting",
+          "Slot"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Players in both corners behind the goal and at the board on the centre line, the same number at each station</li><li>Goalie</li><li>Balls start in one corner</li></ul><hr/><h3>Sequence</h3><ol><li>The player in the corner passes behind the goal to the other corner and runs in front of the goal.</li><li>The receiver plays the ball up the board to the centre line and becomes the defender.</li><li>The third player starts a 2 vs 1 with the player in front of the goal.</li><li>The player in front of the goal times the move into free space for the pass and finishes fast.</li></ol><h3>Coaching Points</h3><ul><li>A basic combination for every session: pass and go.</li><li>Time the move away from the defender, do not wait standing.</li></ul><h3>Variations</h3><ul><li>Rotate the stations after every round.</li><li>Allow the defender to start earlier.</li></ul>"
+      }
+    },
+    {
+      "id": "local-2-vs-1-after-a-wall-pass",
+      "fields": {
+        "Name": "2 vs 1 after a Wall Pass",
+        "Categories": [
+          "2vs1",
+          "Passing",
+          "Decision Making"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>3 attackers + 1 defender + goalie</li><li>Player 2 in the middle with the ball, Players 1 and 3 at the boards</li></ul><hr/><h3>Sequence</h3><ol><li>Player 2 plays the ball to the defender and gets it straight back.</li><li>Player 2 passes to one of the two others.</li><li>Players 1 and 3 attack the goal 2 vs 1.</li></ol><h3>Coaching Points</h3><ul><li>The ball carrier reads the defender: pass or shoot yourself?</li><li>Attack with speed, keep the width.</li></ul><h3>Variations</h3><ul><li>Player 2 joins as a third attacker: 3 vs 1.</li></ul>"
+      }
+    },
+    {
+      "id": "local-3-vs-2-into-2-vs-1",
+      "fields": {
+        "Name": "3 vs 2 into 2 vs 1",
+        "Categories": [
+          "3vs2",
+          "2vs1",
+          "Transition"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Full rink, 2 goalies</li><li>3 blue attackers, 2 red defenders</li></ul><hr/><h3>Sequence</h3><ol><li>The blues attack 3 vs 2 and finish with a shot.</li><li>The goalie throws the ball to the two reds, who now attack.</li><li>The blue closest to the own goal becomes the defender: 2 vs 1 towards the other goal.</li></ol><h3>Coaching Points</h3><ul><li>Typical for overtime: fast counters after every shot.</li><li>Switch from attack to defence the moment the shot is taken.</li></ul><h3>Variations</h3><ul><li>The second blue may backcheck: 2 vs 2.</li></ul>"
+      }
+    },
+    {
+      "id": "local-round-the-goal-2-vs-1-then-3-vs-2",
+      "fields": {
+        "Name": "Round the Goal: 2 vs 1, then 3 vs 2",
+        "Categories": [
+          "2vs1",
+          "3vs2",
+          "Transition",
+          "Opening"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Full rink, 2 goalies</li><li>2 attackers at their own goal, 1 defender at the other end</li><li>2 more defenders wait behind the boards</li></ul><hr/><h3>Sequence</h3><ol><li>The attackers run round their own goal; the goalie throws in the ball.</li><li>2 vs 1 towards the other goal.</li><li>After the finish everybody runs round that goal, and the defender joins the attackers.</li><li>Now 3 vs 2 against the two defenders who waited behind the boards.</li></ol><h3>Coaching Points</h3><ul><li>Play at top speed.</li><li>Room for creativity: crossing, screens, give and go.</li></ul>"
+      }
+    },
+    {
+      "id": "local-2-vs-2-after-a-lost-ball",
+      "fields": {
+        "Name": "2 vs 2 after a Lost Ball",
+        "Categories": [
+          "2vs2",
+          "Transition",
+          "Decision Making"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half, goalie</li><li>2 defenders (blue), 2 attackers (red); one attacker waits in the corner of the defenders' end</li></ul><hr/><h3>Sequence</h3><ol><li>A defender at the centre line passes into his own corner.</li><li>The attacker there wins the ball.</li><li>He plays behind the goal to his team-mate.</li><li>2 vs 2: the defenders must reorganise at once.</li></ol><h3>Coaching Points</h3><ul><li>Simulates a turnover in the own half: react immediately.</li><li>Attacker without the ball: get free and finish fast.</li></ul>"
+      }
+    },
+    {
+      "id": "local-point-shot-then-overload",
+      "fields": {
+        "Name": "Point Shot, then Overload",
+        "Categories": [
+          "Shooting",
+          "2vs1",
+          "Transition"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half (can run on both halves at the same time), goalie</li><li>Queues at every position: corner, point, centre line, diagonal corner</li></ul><hr/><h3>Sequence</h3><ol><li>The corner player passes to the defender at the point, who shoots at once.</li><li>At the same moment a player with a ball starts from the centre line together with the player in the diagonal corner.</li><li>They attack 2 vs 1 against the shooter, who switches to defence.</li></ol><h3>Coaching Points</h3><ul><li>Good with many players: queues give a quick follow-up.</li><li>Point shot low and hard, for tips and rebounds.</li></ul>"
+      }
+    },
+    {
+      "id": "local-3-vs-1-with-a-drop-pass",
+      "fields": {
+        "Name": "3 vs 1 with a Drop Pass",
+        "Categories": [
+          "Passing",
+          "Decision Making",
+          "3vs2"
+        ],
+        "Source": "David Malkus, bachelor thesis on attacking combinations for juniors, University of West Bohemia (Plzeň), 2021",
+        "Source URL": "https://dspace5.zcu.cz/bitstream/11025/48024/1/BC%20MALKUS.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half, goalie</li><li>3 attackers at the centre line, 1 defender with the ball</li></ul><hr/><h3>Sequence</h3><ol><li>The defender starts with a pass to one of the attackers.</li><li>The attacker passes to a team-mate, who carries the ball backwards.</li><li>This gives the defender time to drop back, but the attackers can fill the lanes.</li><li>3 vs 1 to a finish.</li></ol><h3>Coaching Points</h3><ul><li>Hold the ball until the support arrives: more options, better chance.</li><li>The attackers fill the width and the slot.</li></ul>"
+      }
+    },
+    {
+      "id": "local-1-vs-1-2-vs-2-3-vs-3-escalation",
+      "fields": {
+        "Name": "1 vs 1, 2 vs 2, 3 vs 3 Escalation",
+        "Categories": [
+          "1vs1",
+          "2vs2",
+          "3vs3",
+          "Small Game"
+        ],
+        "Source": "Floorball Deutschland, Rahmentrainingskonzeption 04/2026",
+        "Source URL": "https://floorball.de/wp-content/uploads/2026/04/RTK-Floorball-Deutschland-26-04.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>One half, goalie</li><li>Two teams of three, numbered 1 to 3</li></ul><hr/><h3>Sequence</h3><ol><li>20 seconds 1 vs 1.</li><li>Whistle: the second pair joins, 2 vs 2 for 20 seconds.</li><li>Whistle: the third pair joins, 3 vs 3.</li><li>Next round, players number 2 start with the 1 vs 1, and so on.</li></ol><h3>Coaching Points</h3><ul><li>Ball carrier: solve the 1 vs 1 with fakes.</li><li>Without the ball: win your duel and get free; always active.</li></ul>"
+      }
+    },
+    {
+      "id": "local-top-scorer",
+      "fields": {
+        "Name": "Top Scorer",
+        "Categories": [
+          "Kids",
+          "1vs1",
+          "Shooting",
+          "Small Game"
+        ],
+        "Source": "Floorball Deutschland, Rahmentrainingskonzeption 04/2026",
+        "Source URL": "https://floorball.de/wp-content/uploads/2026/04/RTK-Floorball-Deutschland-26-04.pdf",
+        "Page Content": "<h3>Setup</h3><ul><li>Small goals spread over the field</li><li>Half as many balls as children</li></ul><hr/><h3>Sequence</h3><ol><li>Every child may score on every goal.</li><li>Who has no ball tries to win one.</li><li>Who scores the most goals?</li></ol><h3>Coaching Points</h3><ul><li>Look for the 1 vs 1 bravely.</li><li>Shortest way to the goal.</li></ul>"
+      }
+    }
+  ]
+}

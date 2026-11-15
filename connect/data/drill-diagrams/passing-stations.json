@@ -1,0 +1,147 @@
+{
+  "view": [
+    -0.5,
+    20.5,
+    -0.5,
+    20.5
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        5.0,
+        6.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        15.0,
+        5.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        10.0,
+        14.6
+      ],
+      "label": "3"
+    },
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        2.4,
+        12.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        17.4,
+        16.4
+      ],
+      "label": "2"
+    }
+  ],
+  "balls": [
+    {
+      "id": "a",
+      "with": "r1"
+    },
+    {
+      "id": "b",
+      "with": "r2"
+    }
+  ],
+  "steps": [
+    {
+      "text": "The red children dribble through the hall.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            3.4,
+            8.6
+          ]
+        },
+        {
+          "dribble": "r2",
+          "to": [
+            14.6,
+            16.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One-two with a station: pass, run past, get the ball back.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "b1",
+          "stage": 0
+        },
+        {
+          "pass": "r2",
+          "to": "b3",
+          "stage": 0
+        },
+        {
+          "run": "r1",
+          "to": [
+            7.4,
+            4.6
+          ],
+          "stage": 1
+        },
+        {
+          "run": "r2",
+          "to": [
+            8.4,
+            17.6
+          ],
+          "stage": 1
+        },
+        {
+          "pass": "b1",
+          "to": "r1",
+          "stage": 1
+        },
+        {
+          "pass": "b3",
+          "to": "r2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Dribble on to the next station.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            12.4,
+            3.4
+          ]
+        },
+        {
+          "dribble": "r2",
+          "to": [
+            5.0,
+            15.0
+          ]
+        }
+      ]
+    }
+  ]
+}

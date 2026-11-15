@@ -1,0 +1,172 @@
+{
+  "view": "full",
+  "standard_goals": false,
+  "goals": [
+    {
+      "at": [
+        18.0,
+        10.0
+      ],
+      "facing": "left"
+    },
+    {
+      "at": [
+        22.0,
+        10.0
+      ],
+      "facing": "right"
+    }
+  ],
+  "players": [
+    {
+      "id": "GL",
+      "team": "goalie",
+      "at": [
+        17.2,
+        10.0
+      ]
+    },
+    {
+      "id": "GR",
+      "team": "goalie",
+      "at": [
+        22.8,
+        10.0
+      ]
+    },
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        30.0,
+        4.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        33.4,
+        14.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        26.6,
+        16.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "r4",
+      "team": "red",
+      "at": [
+        12.0,
+        6.0
+      ],
+      "label": "4"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        27.4,
+        7.2
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        29.2,
+        12.6
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        14.0,
+        9.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b4",
+      "team": "blue",
+      "at": [
+        10.0,
+        14.0
+      ],
+      "label": "4"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "4 vs 4 with both goals in the middle, open towards the ends. Red plays the ball deep.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r2",
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            30.6,
+            10.0
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Quick pass to Red 3, who comes into the slot of the goal facing the right end.",
+      "actions": [
+        {
+          "run": "r3",
+          "to": [
+            26.6,
+            12.2
+          ]
+        },
+        {
+          "pass": "r2",
+          "to": "r3",
+          "stage": 0
+        },
+        {
+          "run": "b2",
+          "to": [
+            27.2,
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 3 shoots.",
+      "actions": [
+        {
+          "shot": "r3",
+          "to": [
+            22.1,
+            10.4
+          ]
+        }
+      ]
+    }
+  ]
+}

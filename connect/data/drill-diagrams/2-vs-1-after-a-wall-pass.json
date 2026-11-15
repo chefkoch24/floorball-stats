@@ -1,0 +1,127 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        21.0,
+        10.0
+      ]
+    },
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        21.6,
+        3.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        21.6,
+        17.0
+      ]
+    },
+    {
+      "id": "4",
+      "team": "blue",
+      "at": [
+        27.6,
+        10.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "2"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 2 plays the ball to the defender and gets it straight back.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "pass": "4",
+          "to": "2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 passes to Player 1; Players 1 and 3 set off.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            26.0,
+            15.4
+          ],
+          "stage": 1
+        },
+        {
+          "run": "4",
+          "to": [
+            30.4,
+            10.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "2 vs 1: Player 1 draws the defender and passes, Player 3 finishes.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            29.2,
+            6.6
+          ],
+          "via": [
+            [
+              25.4,
+              3.8
+            ]
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            30.6,
+            13.2
+          ]
+        },
+        {
+          "run": "4",
+          "to": [
+            31.8,
+            9.0
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 1
+        },
+        {
+          "shot": "3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        21.5,
+        15.8
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        21.5,
+        18.6
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        21.5,
+        2.4
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        21.5,
+        0.9
+      ]
+    },
+    {
+      "id": "5",
+      "team": "red",
+      "at": [
+        34.8,
+        2.3
+      ]
+    },
+    {
+      "id": "6",
+      "team": "red",
+      "at": [
+        34.8,
+        17.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes up to Player 3, moves up the middle and gets the ball straight back.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "3",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            22.0,
+            10.0
+          ],
+          "stage": 1
+        },
+        {
+          "pass": "3",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 1 plays the next one-two with Player 5 and moves into the slot.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "5",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            27.6,
+            7.2
+          ],
+          "via": [
+            [
+              25.0,
+              8.6
+            ]
+          ],
+          "stage": 1
+        },
+        {
+          "pass": "5",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 1 shoots from the slot.",
+      "actions": [
+        {
+          "shot": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "view": [
+    -0.5,
+    20.5,
+    -0.5,
+    20.5
+  ],
+  "markings": false,
+  "goals": [
+    {
+      "at": [
+        2.0,
+        10.0
+      ],
+      "facing": "right",
+      "size": "small"
+    },
+    {
+      "at": [
+        18.0,
+        10.0
+      ],
+      "facing": "left",
+      "size": "small"
+    },
+    {
+      "at": [
+        10.0,
+        2.0
+      ],
+      "facing": "down",
+      "size": "small"
+    },
+    {
+      "at": [
+        10.0,
+        18.0
+      ],
+      "facing": "up",
+      "size": "small"
+    }
+  ],
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "blue",
+      "at": [
+        7.4,
+        7.6
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        14.0,
+        13.6
+      ]
+    },
+    {
+      "id": "4",
+      "team": "blue",
+      "at": [
+        12.6,
+        12.4
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "a",
+      "with": "1"
+    },
+    {
+      "id": "b",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 and Player 3 have a ball; Players 2 and 4 chase them.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            5.6,
+            11.4
+          ],
+          "via": [
+            [
+              4.6,
+              8.4
+            ]
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            6.6,
+            9.6
+          ]
+        },
+        {
+          "dribble": "3",
+          "to": [
+            14.6,
+            8.4
+          ],
+          "via": [
+            [
+              15.6,
+              11.0
+            ]
+          ]
+        },
+        {
+          "run": "4",
+          "to": [
+            13.4,
+            10.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Both score on the nearest goal.",
+      "actions": [
+        {
+          "shot": "1",
+          "to": [
+            2.2,
+            10.2
+          ]
+        },
+        {
+          "shot": "3",
+          "to": [
+            17.8,
+            9.8
+          ]
+        }
+      ]
+    }
+  ]
+}

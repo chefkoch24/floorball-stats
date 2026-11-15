@@ -1,0 +1,110 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        26,
+        6
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        24,
+        14.5
+      ]
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "label": "3",
+      "at": [
+        31,
+        13.6
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        28.5,
+        8.2
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        27.6,
+        12.6
+      ]
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "label": "3",
+      "at": [
+        32.6,
+        10.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "3 vs 3, both teams can score on every goal. Red 1 passes to Red 3.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r3"
+        }
+      ]
+    },
+    {
+      "text": "Red 3 shoots and scores.",
+      "actions": [
+        {
+          "shot": "r3"
+        }
+      ]
+    },
+    {
+      "text": "The scorer leaves the field at once: Red plays on with two players until the shift ends.",
+      "actions": [
+        {
+          "run": "r3",
+          "to": [
+            30.5,
+            19.4
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            28.5,
+            5.0
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            25.6,
+            12.0
+          ]
+        }
+      ]
+    }
+  ]
+}

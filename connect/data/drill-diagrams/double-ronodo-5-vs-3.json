@@ -1,0 +1,258 @@
+{
+  "view": "full",
+  "markings": false,
+  "overview": 2,
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        7.8,
+        6.8
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        12.7,
+        5.4
+      ]
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "label": "3",
+      "at": [
+        16.0,
+        8.4
+      ]
+    },
+    {
+      "id": "r4",
+      "team": "red",
+      "label": "4",
+      "at": [
+        14.2,
+        12.7
+      ]
+    },
+    {
+      "id": "r5",
+      "team": "red",
+      "label": "5",
+      "at": [
+        8.0,
+        12.7
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        11.0,
+        8.3
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        13.9,
+        9.1
+      ]
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "label": "3",
+      "at": [
+        11.6,
+        11.2
+      ]
+    },
+    {
+      "id": "b4",
+      "team": "blue",
+      "label": "4",
+      "at": [
+        25.7,
+        7.5
+      ]
+    },
+    {
+      "id": "b5",
+      "team": "blue",
+      "label": "5",
+      "at": [
+        26.9,
+        11.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "5 vs 3 in the left half: the reds keep the ball, the three blues chase it.",
+      "actions": [
+        {
+          "pass": "r3",
+          "to": "r2",
+          "stage": 0
+        },
+        {
+          "run": "b2",
+          "to": [
+            13.4,
+            7.2
+          ],
+          "stage": 0
+        },
+        {
+          "pass": "r2",
+          "to": "r1",
+          "stage": 1
+        },
+        {
+          "run": "b1",
+          "to": [
+            9.8,
+            7.6
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "A loose pass: Blue 3 wins the ball and plays it into the other half to Blue 4.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": [
+            10.6,
+            10.4
+          ],
+          "stage": 0
+        },
+        {
+          "run": "b3",
+          "to": [
+            11.0,
+            10.8
+          ],
+          "stage": 0
+        },
+        {
+          "pickup": "b3",
+          "stage": 1
+        },
+        {
+          "pass": "b3",
+          "to": "b4",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Switch: the three blues join Blue 4 and Blue 5 for a new square in the right half; three reds follow as defenders, two reds wait.",
+      "actions": [
+        {
+          "run": "b1",
+          "to": [
+            21.8,
+            9.1
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            25.6,
+            4.8
+          ]
+        },
+        {
+          "run": "b3",
+          "to": [
+            22.9,
+            12.3
+          ]
+        },
+        {
+          "run": "b4",
+          "to": [
+            29.1,
+            8.3
+          ]
+        },
+        {
+          "run": "b5",
+          "to": [
+            27.7,
+            12.0
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            25.0,
+            8.6
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            26.6,
+            7.8
+          ]
+        },
+        {
+          "run": "r3",
+          "to": [
+            26.0,
+            10.6
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5 vs 3 again, now in the right half.",
+      "actions": [
+        {
+          "pass": "b4",
+          "to": "b2",
+          "stage": 0
+        },
+        {
+          "run": "r2",
+          "to": [
+            26.0,
+            6.4
+          ],
+          "stage": 0
+        },
+        {
+          "pass": "b2",
+          "to": "b1",
+          "stage": 1
+        },
+        {
+          "run": "r1",
+          "to": [
+            23.6,
+            8.6
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

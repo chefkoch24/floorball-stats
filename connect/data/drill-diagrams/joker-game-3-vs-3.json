@@ -1,0 +1,125 @@
+{
+  "view": "full",
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        14.0,
+        6.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        17.6,
+        14.4
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        24.0,
+        8.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        17.4,
+        8.4
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        22.0,
+        12.6
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        27.4,
+        6.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "J",
+      "team": "joker",
+      "at": [
+        25.4,
+        15.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 passes to the joker: with the joker, red plays 4 vs 3.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "J",
+          "stage": 0
+        },
+        {
+          "run": "b2",
+          "to": [
+            24.0,
+            13.6
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "The joker plays on to Red 3, who moves in front of the goal.",
+      "actions": [
+        {
+          "run": "r3",
+          "to": [
+            30.0,
+            9.0
+          ]
+        },
+        {
+          "pass": "J",
+          "to": "r3",
+          "stage": 0
+        },
+        {
+          "run": "b3",
+          "to": [
+            30.6,
+            7.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 3 shoots.",
+      "actions": [
+        {
+          "shot": "r3"
+        }
+      ]
+    }
+  ]
+}

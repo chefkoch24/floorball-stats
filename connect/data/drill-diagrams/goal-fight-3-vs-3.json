@@ -1,0 +1,142 @@
+{
+  "view": [
+    24.5,
+    40.5,
+    2.5,
+    17.5
+  ],
+  "players": [
+    {
+      "id": "C",
+      "team": "coach",
+      "at": [
+        26.0,
+        10.0
+      ]
+    },
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        29.6,
+        7.2
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        31.0,
+        13.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        34.0,
+        8.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        30.8,
+        8.6
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        32.2,
+        11.4
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        34.6,
+        12.4
+      ],
+      "label": "3"
+    }
+  ],
+  "balls": [
+    {
+      "id": "a",
+      "with": "C"
+    },
+    {
+      "id": "b",
+      "with": "C"
+    }
+  ],
+  "steps": [
+    {
+      "text": "The coach plays in a ball; 3 vs 3 in front of the goal.",
+      "actions": [
+        {
+          "run": "r1",
+          "to": [
+            29.4,
+            8.6
+          ]
+        },
+        {
+          "pass": "C",
+          "to": "r1",
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            30.6,
+            9.6
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 1 finds Red 3 next to the goal, who shoots at once.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r3"
+        },
+        {
+          "shot": "r3",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "The next ball comes straight away: Blue 2 takes it and shoots.",
+      "actions": [
+        {
+          "run": "b2",
+          "to": [
+            31.4,
+            12.2
+          ]
+        },
+        {
+          "pass": "C",
+          "to": "b2",
+          "stage": 0
+        },
+        {
+          "shot": "b2",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

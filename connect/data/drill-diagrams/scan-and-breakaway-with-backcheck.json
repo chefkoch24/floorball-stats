@@ -1,0 +1,157 @@
+{
+  "view": [
+    13.5,
+    41,
+    -1,
+    21
+  ],
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        31.0,
+        9.2
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        32.6,
+        11.6
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        16.2,
+        10.2
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r2"
+    }
+  ],
+  "cones": [
+    [
+      22.9,
+      8.6
+    ],
+    [
+      22.9,
+      11.9
+    ]
+  ],
+  "steps": [
+    {
+      "text": "Red 1 starts near the goal and moves towards the centre, scanning twice; Blue 1 follows.",
+      "actions": [
+        {
+          "run": "r1",
+          "to": [
+            23.8,
+            10.2
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            26.6,
+            11.0
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 passes between the cones to Red 1.",
+      "actions": [
+        {
+          "pass": "r2",
+          "to": "r1"
+        }
+      ]
+    },
+    {
+      "text": "Red 1 controls the ball directly and dribbles around the upper cone; Blue 1 runs around the lower cone.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            24.4,
+            7.2
+          ],
+          "via": [
+            [
+              22.2,
+              9.6
+            ],
+            [
+              22.0,
+              7.8
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            22.2,
+            13.0
+          ],
+          "via": [
+            [
+              24.2,
+              12.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 1 attacks the goal while Blue 1 backchecks.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            31.4,
+            8.2
+          ],
+          "via": [
+            [
+              27.6,
+              7.2
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            29.6,
+            10.6
+          ],
+          "via": [
+            [
+              24.6,
+              11.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 1 finishes the breakaway.",
+      "actions": [
+        {
+          "shot": "r1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        21.6,
+        8.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        22.0,
+        14.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        26.4,
+        7.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        26.0,
+        11.0
+      ],
+      "label": "2"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 carries the ball under pressure from two blues; passing is not allowed.",
+      "actions": [
+        {
+          "dribble": "r1",
+          "to": [
+            24.2,
+            9.2
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            25.4,
+            8.0
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            25.4,
+            10.6
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 crosses close behind; Red 1 leaves the ball standing and Red 2 takes it over.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": [
+            23.6,
+            9.8
+          ],
+          "stage": 0
+        },
+        {
+          "run": "r2",
+          "to": [
+            23.4,
+            10.2
+          ],
+          "via": [
+            [
+              22.4,
+              12.0
+            ]
+          ],
+          "stage": 0
+        },
+        {
+          "pickup": "r2",
+          "stage": 1
+        },
+        {
+          "run": "r1",
+          "to": [
+            26.2,
+            7.0
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Red 2 goes past the defenders and shoots.",
+      "actions": [
+        {
+          "dribble": "r2",
+          "to": [
+            30.6,
+            12.2
+          ],
+          "via": [
+            [
+              26.6,
+              12.6
+            ]
+          ]
+        },
+        {
+          "shot": "r2",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

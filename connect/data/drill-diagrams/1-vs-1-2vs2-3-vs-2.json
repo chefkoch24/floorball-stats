@@ -1,0 +1,179 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "G",
+      "team": "goalie",
+      "at": [
+        35.7,
+        10
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        31.2,
+        15.2
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        32.6,
+        16.6
+      ]
+    },
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        27.6,
+        8.6
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        29.6,
+        10.6
+      ]
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "label": "3",
+      "at": [
+        21.2,
+        3.0
+      ]
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "label": "3",
+      "at": [
+        21.2,
+        17.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "G"
+    }
+  ],
+  "steps": [
+    {
+      "text": "The goalie throws the ball into the corner.",
+      "actions": [
+        {
+          "pass": "G",
+          "to": [
+            37.4,
+            17.4
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 and Blue 1 battle for the ball 1 vs 1 in the corner.",
+      "actions": [
+        {
+          "run": "r2",
+          "to": [
+            36.4,
+            16.8
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            37.2,
+            15.6
+          ]
+        },
+        {
+          "pickup": "r2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Red 2 wins it and comes out of the corner: now 2 vs 2 with Red 1 and Blue 2.",
+      "actions": [
+        {
+          "dribble": "r2",
+          "to": [
+            32.8,
+            14.4
+          ],
+          "via": [
+            [
+              35.2,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            34.0,
+            13.4
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            30.4,
+            7.6
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            32.0,
+            10.2
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 uses the red joker: 3 vs 2.",
+      "actions": [
+        {
+          "run": "r3",
+          "to": [
+            27.0,
+            5.2
+          ]
+        },
+        {
+          "pass": "r2",
+          "to": "r3",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Play it quick: Red 3 finds Red 1, who shoots.",
+      "actions": [
+        {
+          "pass": "r3",
+          "to": "r1"
+        },
+        {
+          "shot": "r1",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

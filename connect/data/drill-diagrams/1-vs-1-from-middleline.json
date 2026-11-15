@@ -1,0 +1,19 @@
+{
+  "view": "right",
+  "players": [
+    {"id": "1", "team": "red", "at": [20.9, 2.4]},
+    {"id": "2", "team": "blue", "at": [36.6, 2.3]},
+    {"id": "G", "team": "goalie", "at": [35.7, 10]}
+  ],
+  "balls": [{"id": "b", "with": "1"}],
+  "steps": [
+    {"text": "Player 1 passes along the board to Player 2.",
+     "actions": [{"pass": "1", "to": "2"}]},
+    {"text": "Player 1 sets off and Player 2 plays the ball back into the run.",
+     "actions": [{"run": "1", "to": [26.5, 3.2]}, {"pass": "2", "to": "1", "stage": 0}]},
+    {"text": "Player 2 turns into the defender and closes the space; Player 1 attacks the goal at speed.",
+     "actions": [{"dribble": "1", "to": [31.5, 8.2], "via": [[29.6, 4.9]]}, {"run": "2", "to": [33.4, 6.3], "via": [[35.4, 4.1]]}]},
+    {"text": "Player 1 finishes the 1 vs 1.",
+     "actions": [{"shot": "1"}]}
+  ]
+}

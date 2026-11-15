@@ -1,0 +1,124 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        27.3,
+        5.8
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        27.5,
+        14.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        37.0,
+        5.8
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        37.0,
+        13.8
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b1",
+      "with": "3"
+    },
+    {
+      "id": "b2",
+      "with": "4"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 2 runs diagonally towards the goal and Player 3 passes into the run.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            32.2,
+            9.6
+          ],
+          "via": [
+            [
+              29.8,
+              12.0
+            ]
+          ]
+        },
+        {
+          "pass": "3",
+          "to": "2",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 2 shoots directly.",
+      "actions": [
+        {
+          "shot": "2"
+        }
+      ]
+    },
+    {
+      "text": "The paths cross: Player 2 goes to the top, Player 1 runs down towards the goal and gets the pass from Player 4.",
+      "actions": [
+        {
+          "run": "2",
+          "to": [
+            27.4,
+            4.4
+          ],
+          "via": [
+            [
+              30.0,
+              7.2
+            ]
+          ]
+        },
+        {
+          "run": "1",
+          "to": [
+            31.8,
+            10.8
+          ],
+          "via": [
+            [
+              29.2,
+              8.2
+            ]
+          ]
+        },
+        {
+          "pass": "4",
+          "to": "1",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 1 shoots directly.",
+      "actions": [
+        {
+          "shot": "1"
+        }
+      ]
+    }
+  ]
+}

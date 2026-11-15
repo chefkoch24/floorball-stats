@@ -1,0 +1,234 @@
+{
+  "view": "full",
+  "overview": 2,
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "label": "1",
+      "at": [
+        20.0,
+        2.3
+      ]
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "label": "2",
+      "at": [
+        20.0,
+        17.6
+      ]
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "label": "1",
+      "at": [
+        11.7,
+        10.1
+      ]
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "label": "2",
+      "at": [
+        28.3,
+        10.1
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "rb",
+      "with": "r2"
+    },
+    {
+      "id": "bb",
+      "at": [
+        20.4,
+        18.2
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red 1 and Red 2 attack the right goal against Blue 2; Blue 1 backchecks from the other half.",
+      "actions": [
+        {
+          "dribble": "r2",
+          "to": [
+            27.6,
+            15.0
+          ],
+          "via": [
+            [
+              23,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            29.0,
+            4.8
+          ],
+          "via": [
+            [
+              24.6,
+              3.0
+            ]
+          ]
+        },
+        {
+          "run": "b2",
+          "to": [
+            30.6,
+            10.6
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            26.2,
+            9.6
+          ],
+          "via": [
+            [
+              18,
+              10.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Red 2 passes across and Red 1 shoots.",
+      "actions": [
+        {
+          "pass": "r2",
+          "to": "r1"
+        },
+        {
+          "shot": "r1",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "text": "Roles change: the blues take a new ball at the centre line, the reds take the defending spots.",
+      "actions": [
+        {
+          "run": "b2",
+          "to": [
+            20.4,
+            17.4
+          ],
+          "via": [
+            [
+              25,
+              14
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            20.3,
+            2.6
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            28.5,
+            10.1
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            12.0,
+            10.1
+          ],
+          "via": [
+            [
+              20,
+              13
+            ]
+          ]
+        },
+        {
+          "pickup": "b2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Blue 2 and Blue 1 attack the left goal; Red 2 defends and Red 1 backchecks.",
+      "actions": [
+        {
+          "dribble": "b2",
+          "to": [
+            12.6,
+            14.4
+          ],
+          "via": [
+            [
+              17,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "b1",
+          "to": [
+            11.4,
+            5.2
+          ],
+          "via": [
+            [
+              16,
+              3.2
+            ]
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            8.6,
+            10.4
+          ]
+        },
+        {
+          "run": "r1",
+          "to": [
+            14.0,
+            9.6
+          ],
+          "via": [
+            [
+              22,
+              10
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Blue 2 passes and Blue 1 shoots.",
+      "actions": [
+        {
+          "pass": "b2",
+          "to": "b1"
+        },
+        {
+          "shot": "b1",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

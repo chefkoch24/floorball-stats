@@ -1,0 +1,101 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        36.4,
+        2.4
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        37.9,
+        2.4
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        37.4,
+        17.6
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        35.0,
+        17.6
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 4 curls out of the corner into the slot and Player 1 passes into the run.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            28.2,
+            10.4
+          ],
+          "via": [
+            [
+              30.8,
+              15.8
+            ]
+          ]
+        },
+        {
+          "pass": "1",
+          "to": "4",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 4 shoots directly.",
+      "actions": [
+        {
+          "shot": "4"
+        }
+      ]
+    },
+    {
+      "text": "The shooter joins the queue on the other side; the next player steps up and the carousel goes on.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            38.6,
+            3.8
+          ],
+          "via": [
+            [
+              33,
+              6
+            ]
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            35.0,
+            17.6
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "view": [
+    -0.5,
+    21,
+    -0.5,
+    20.5
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "r1",
+      "team": "red",
+      "at": [
+        5.0,
+        5.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "r2",
+      "team": "red",
+      "at": [
+        15.0,
+        4.0
+      ],
+      "label": "2"
+    },
+    {
+      "id": "r3",
+      "team": "red",
+      "at": [
+        16.0,
+        15.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "r4",
+      "team": "red",
+      "at": [
+        5.0,
+        15.0
+      ],
+      "label": "4"
+    },
+    {
+      "id": "b1",
+      "team": "blue",
+      "at": [
+        8.0,
+        7.0
+      ],
+      "label": "1"
+    },
+    {
+      "id": "b2",
+      "team": "blue",
+      "at": [
+        12.0,
+        8.6
+      ],
+      "label": "2"
+    },
+    {
+      "id": "b3",
+      "team": "blue",
+      "at": [
+        12.0,
+        13.0
+      ],
+      "label": "3"
+    },
+    {
+      "id": "b4",
+      "team": "blue",
+      "at": [
+        7.4,
+        12.0
+      ],
+      "label": "4"
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "r1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Red keeps the ball: Red 1 passes to Red 2, the blues shift towards the ball.",
+      "actions": [
+        {
+          "pass": "r1",
+          "to": "r2",
+          "stage": 0
+        },
+        {
+          "run": "b2",
+          "to": [
+            13.4,
+            6.2
+          ],
+          "stage": 0
+        },
+        {
+          "run": "b1",
+          "to": [
+            10.6,
+            5.4
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Red 2 switches to Red 3; Red 4 gets free.",
+      "actions": [
+        {
+          "pass": "r2",
+          "to": "r3",
+          "stage": 0
+        },
+        {
+          "run": "b3",
+          "to": [
+            14.0,
+            13.6
+          ],
+          "stage": 0
+        },
+        {
+          "run": "r4",
+          "to": [
+            6.0,
+            10.4
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Red 3 finds Red 4. If a blue touches the ball, the tasks change.",
+      "actions": [
+        {
+          "pass": "r3",
+          "to": "r4",
+          "stage": 0
+        },
+        {
+          "run": "b4",
+          "to": [
+            8.0,
+            10.6
+          ],
+          "stage": 0
+        }
+      ]
+    }
+  ]
+}

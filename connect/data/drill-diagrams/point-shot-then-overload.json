@@ -1,0 +1,120 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        37.4,
+        17.0
+      ]
+    },
+    {
+      "id": "4",
+      "team": "blue",
+      "at": [
+        27.0,
+        10.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        21.0,
+        3.0
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        37.4,
+        3.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "a",
+      "with": "1"
+    },
+    {
+      "id": "b",
+      "with": "2"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 passes to Player 4 at the point, who shoots at once; Players 2 and 3 set off.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "4",
+          "stage": 0
+        },
+        {
+          "shot": "4",
+          "stage": 1
+        },
+        {
+          "dribble": "2",
+          "to": [
+            25.0,
+            6.0
+          ],
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            33.0,
+            6.6
+          ],
+          "via": [
+            [
+              36.0,
+              4.4
+            ]
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "2 vs 1 against Player 4.",
+      "actions": [
+        {
+          "run": "4",
+          "to": [
+            30.6,
+            8.6
+          ]
+        },
+        {
+          "dribble": "2",
+          "to": [
+            28.6,
+            7.4
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            32.4,
+            11.6
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "3",
+          "stage": 1
+        },
+        {
+          "shot": "3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

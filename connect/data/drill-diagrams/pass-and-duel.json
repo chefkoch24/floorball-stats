@@ -1,0 +1,104 @@
+{
+  "view": [
+    3.0,
+    17.0,
+    3.0,
+    17.0
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "id": "2",
+      "team": "blue",
+      "at": [
+        13.0,
+        9.0
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Both players move and pass to each other.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            7.6,
+            11.6
+          ],
+          "stage": 1
+        },
+        {
+          "run": "2",
+          "to": [
+            12.0,
+            12.6
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Back and forth, always on the move.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "2",
+          "to": [
+            10.4,
+            10.6
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Whistle: 10 seconds of 1 vs 1 in a small space.",
+      "actions": [
+        {
+          "dribble": "1",
+          "to": [
+            11.6,
+            13.4
+          ],
+          "via": [
+            [
+              9.0,
+              13.0
+            ]
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            11.0,
+            12.2
+          ]
+        }
+      ]
+    }
+  ]
+}

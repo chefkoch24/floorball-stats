@@ -1,0 +1,129 @@
+{
+  "view": "right",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        20.2,
+        2.4
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        33.6,
+        2.4
+      ]
+    },
+    {
+      "id": "3",
+      "team": "red",
+      "at": [
+        20.4,
+        17.5
+      ]
+    },
+    {
+      "id": "4",
+      "team": "red",
+      "at": [
+        33.6,
+        17.4
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "3"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 3 passes to Player 4 in the corner.",
+      "actions": [
+        {
+          "pass": "3",
+          "to": "4"
+        }
+      ]
+    },
+    {
+      "text": "Player 4 carries the ball behind the goal and passes to Player 2 in the other corner.",
+      "actions": [
+        {
+          "dribble": "4",
+          "to": [
+            38.2,
+            12.8
+          ],
+          "via": [
+            [
+              37.2,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "2",
+          "to": [
+            36.4,
+            2.0
+          ]
+        },
+        {
+          "pass": "4",
+          "to": "2",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 2 plays the ball up to Player 1 at the centre line; Players 3 and 4 move to the net.",
+      "actions": [
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "run": "3",
+          "to": [
+            31.2,
+            9.0
+          ],
+          "via": [
+            [
+              25.6,
+              13.0
+            ]
+          ],
+          "stage": 0
+        },
+        {
+          "run": "4",
+          "to": [
+            34.4,
+            12.0
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 1 passes into the slot and Player 3 shoots directly; Player 4 waits for the rebound.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "3"
+        },
+        {
+          "shot": "3",
+          "stage": 2
+        }
+      ]
+    }
+  ]
+}

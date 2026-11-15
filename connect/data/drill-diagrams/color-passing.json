@@ -1,0 +1,110 @@
+{
+  "view": [
+    20.5,
+    34.5,
+    3.0,
+    16.5
+  ],
+  "markings": false,
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        29.4,
+        9.8
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        22.9,
+        9.9
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "2"
+    }
+  ],
+  "cones": [
+    [
+      30.9,
+      7.6
+    ],
+    [
+      31.0,
+      12.2
+    ],
+    [
+      27.1,
+      7.5
+    ],
+    [
+      27.1,
+      12.4
+    ]
+  ],
+  "steps": [
+    {
+      "text": "The coach calls a colour, here the cone at the top left. Player 1 moves towards it without losing eye contact and gets the pass.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            30.0,
+            8.3
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Player 1 plays the ball straight back with one touch and returns to the middle.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 0
+        },
+        {
+          "run": "1",
+          "to": [
+            29.2,
+            9.9
+          ],
+          "stage": 0
+        }
+      ]
+    },
+    {
+      "text": "Next call, the cone at the bottom right: the same again, 45 seconds per round.",
+      "actions": [
+        {
+          "run": "1",
+          "to": [
+            27.8,
+            11.6
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 0
+        },
+        {
+          "pass": "1",
+          "to": "2",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

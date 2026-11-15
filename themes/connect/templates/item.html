@@ -21,7 +21,52 @@
 
 <div class="fc-detail">
     <article class="fc-detail__main">
-        {% if item.videos %}
+        {% if item.diagram %}
+        {# Drawn from data (connect/data/drill-diagrams): the SVG shows the whole drill with numbered
+           arrows; drill-diagram.js plays it step by step. #}
+        <figure class="dd" data-drill-diagram>
+            <div class="dd__stage">{{ item.diagram.svg }}</div>
+            <figcaption class="dd__bar">
+                <div class="dd__controls" hidden>
+                    <button class="fs-btn dd__btn" type="button" data-dd="prev" aria-label="Previous step">←</button>
+                    <button class="fs-btn fs-btn--primary dd__btn dd__btn--play" type="button" data-dd="play" data-cta="play_drill_diagram" data-cta-detail="drills">Play</button>
+                    <button class="fs-btn dd__btn" type="button" data-dd="next" aria-label="Next step">→</button>
+                    <span class="dd__count fs-label" data-dd="count"></span>
+                </div>
+                <p class="dd__caption" data-dd="caption" aria-live="polite">{{ item.diagram.steps|length }} steps · the numbers on the arrows show the order{% if item.diagram.overview < item.diagram.steps|length %}; the picture shows the first {{ item.diagram.overview }}, press Play for all{% endif %}.</p>
+            </figcaption>
+            <ul class="dd__legend" aria-label="Legend">
+                <li><svg viewBox="0 0 40 10" aria-hidden="true"><path class="dd-key dd-key--pass" d="M2 5 H34"/><path class="dd-key-head" d="M32 1 L39 5 L32 9 Z"/></svg>Pass</li>
+                <li><svg viewBox="0 0 40 10" aria-hidden="true"><path class="dd-key dd-key--run" d="M2 5 H34"/><path class="dd-key-head" d="M32 1 L39 5 L32 9 Z"/></svg>Run</li>
+                <li><svg viewBox="0 0 40 10" aria-hidden="true"><path class="dd-key dd-key--run" d="M2 5 q2.5 -3 5 0 t5 0 t5 0 t5 0 t5 0 H34" style="stroke-dasharray:none"/><path class="dd-key-head" d="M32 1 L39 5 L32 9 Z"/></svg>Dribble</li>
+                <li><svg viewBox="0 0 40 10" aria-hidden="true"><path class="dd-key dd-key--shot" d="M2 5 H34"/><path class="dd-key-head dd-key-head--shot" d="M31 0 L40 5 L31 10 Z"/></svg>Shot</li>
+            </ul>
+            {# Share studio for Instagram, drawn in the browser by drill-diagram.js, so hidden until the script runs. #}
+            <section class="dd-share" data-dd-share hidden aria-label="Share on Instagram">
+                <h2 class="fs-label">Share on Instagram</h2>
+                <div class="dd-share__options">
+                    <div class="dd-share__group" role="group" aria-label="Format">
+                        <button type="button" class="dd-share__opt" data-dd-option="format:story" aria-pressed="true">Reel / Story <small>9:16</small></button>
+                        <button type="button" class="dd-share__opt" data-dd-option="format:post" aria-pressed="false">Post <small>4:5</small></button>
+                    </div>
+                    <div class="dd-share__group" role="group" aria-label="Theme">
+                        <button type="button" class="dd-share__opt" data-dd-option="theme:dark" aria-pressed="true">Dark</button>
+                        <button type="button" class="dd-share__opt" data-dd-option="theme:light" aria-pressed="false">Light</button>
+                    </div>
+                </div>
+                <div class="dd-share__make">
+                    <button class="fs-btn fs-btn--primary" type="button" data-dd-make="video" data-cta="create_drill_video" data-cta-detail="drills">Create Reel</button>
+                    <button class="fs-btn" type="button" data-dd-make="image" data-cta="create_drill_image" data-cta-detail="drills">Create image</button>
+                </div>
+                <div class="dd-share__result" data-dd-result hidden>
+                    <div class="dd-share__preview" data-dd-preview></div>
+                    <div class="dd-share__actions" data-dd-actions></div>
+                    <p class="dd-share__hint" data-dd-hint></p>
+                </div>
+            </section>
+            <script type="application/json" data-dd="data">{{ item.diagram.data|tojson }}</script>
+        </figure>
+        {% elif item.videos %}
         {# Drill clips: short animations, so they play muted on a loop like a moving diagram. #}
         {% for src in item.videos %}
         <figure class="fc-detail__media fc-detail__media--video">
@@ -42,10 +87,14 @@
         <figure class="fc-detail__media{% if collection.key == 'equipment' %} fc-detail__media--product{% endif %}">{{ m.image(item.image, item.title) }}</figure>
         {% endif %}
         {% set extra = item.images if item.videos else item.images[1:] %}
-        {% if collection.key == 'drills' and extra %}
+        {% if collection.key == 'drills' and extra and not item.diagram %}
         <div class="fc-gallery">{% for src in extra %}<figure>{{ m.image(src, item.title) }}</figure>{% endfor %}</div>
         {% endif %}
         {% if item.summary %}<p class="fc-lead">{{ item.summary }}</p>{% endif %}
+        {% if item.diagram and 'Sequence' not in item.body %}
+        {# Drills with little or no text (most video drills) get the diagram's steps as their sequence. #}
+        <div class="fc-prose fc-prose--detail"><h3>Sequence</h3><ol>{% for text in item.diagram.steps %}<li>{{ text }}</li>{% endfor %}</ol></div>
+        {% endif %}
         {% if item.body %}<div class="fc-prose fc-prose--detail">{{ item.body }}</div>{% endif %}
         {% set stat_links = related_stats(item, STATS_CURRENT_SEASON) %}
         {% if stat_links %}<section class="fc-panel"><h2 class="fs-panel-title">Explore the numbers</h2><ul>{% for path, label in stat_links %}<li><a href="{{ STATS_URL }}/{{ path }}">{{ label|e }}</a></li>{% endfor %}</ul></section>{% endif %}
@@ -61,7 +110,7 @@
             </dl>
             {% endif %}
             {% if item.link %}
-            <a class="fs-btn fs-btn--primary fc-panel__cta" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="{{ (collection.link_label or 'Open')|lower|replace(' ', '_') }}" data-cta-detail="{{ collection.key }}">{{ collection.link_label or 'Open' }} ↗</a>
+            <a class="fs-btn fs-btn--primary fc-panel__cta" href="{{ item.link }}" target="_blank" rel="noopener" data-cta="{{ (collection.link_label or 'Open')|lower|replace(' ', '_') }}" data-cta-detail="{{ collection.key }}">{{ 'Original source' if collection.key == 'drills' else (collection.link_label or 'Open') }} ↗</a>
             {% endif %}
             <button class="fs-btn fc-panel__cta" type="button" data-share data-share-title="{{ item.title }}">Share</button>
             <a class="fc-panel__all" href="{{ SITEURL }}/{{ collection.slug }}/">All {{ collection.title|lower }} →</a>
@@ -85,3 +134,4 @@
 </section>
 {% endif %}
 {% endblock %}
+{% block scripts %}{% if item.diagram %}<script src="{{ SITEURL }}/theme/js/drill-diagram.js" defer></script>{% endif %}{% endblock %}

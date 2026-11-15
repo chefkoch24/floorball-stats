@@ -1,0 +1,153 @@
+{
+  "view": "full",
+  "players": [
+    {
+      "id": "1",
+      "team": "red",
+      "at": [
+        20,
+        2.2
+      ]
+    },
+    {
+      "id": "2",
+      "team": "red",
+      "at": [
+        20,
+        17.8
+      ]
+    },
+    {
+      "id": "3",
+      "team": "blue",
+      "at": [
+        11,
+        10
+      ]
+    },
+    {
+      "id": "4",
+      "team": "blue",
+      "at": [
+        29,
+        10
+      ]
+    },
+    {
+      "id": "GL",
+      "team": "goalie",
+      "at": [
+        4.3,
+        10
+      ]
+    },
+    {
+      "id": "GR",
+      "team": "goalie",
+      "at": [
+        35.7,
+        10
+      ]
+    }
+  ],
+  "balls": [
+    {
+      "id": "b",
+      "with": "1"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Player 1 plays a cross pass to Player 2.",
+      "actions": [
+        {
+          "pass": "1",
+          "to": "2"
+        }
+      ]
+    },
+    {
+      "text": "Player 2 picks the right half and both attack Player 4: 2 vs 1. Player 3 in the left half sets off at once.",
+      "actions": [
+        {
+          "dribble": "2",
+          "to": [
+            27.5,
+            14.8
+          ],
+          "via": [
+            [
+              23.5,
+              16.4
+            ]
+          ]
+        },
+        {
+          "run": "1",
+          "to": [
+            31.0,
+            6.6
+          ],
+          "via": [
+            [
+              25,
+              3.8
+            ]
+          ]
+        },
+        {
+          "run": "4",
+          "to": [
+            31.4,
+            11.6
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            24.0,
+            10.4
+          ],
+          "via": [
+            [
+              17,
+              10.6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Player 2 draws Player 4 and passes across before Player 3 arrives.",
+      "actions": [
+        {
+          "dribble": "2",
+          "to": [
+            29.6,
+            13.8
+          ]
+        },
+        {
+          "run": "3",
+          "to": [
+            28.4,
+            9.4
+          ]
+        },
+        {
+          "pass": "2",
+          "to": "1",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "Player 1 finishes directly.",
+      "actions": [
+        {
+          "shot": "1"
+        }
+      ]
+    }
+  ]
+}
