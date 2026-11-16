@@ -22,7 +22,13 @@
   .fc-hero__text { display: grid; gap: var(--space-3); }
   .fc-hero__title { margin: 0; color: var(--ink); font: 800 clamp(40px, 8vw, 76px)/0.98 var(--font-display); font-stretch: 75%; text-wrap: balance; }
   .fc-hero__numbers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin: 0; }
-  .fc-hero__numbers div { padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface-raised); }
+  .fc-hero__numbers div { position: relative; padding: var(--space-4); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface-raised); }
+  .fc-hero__numbers div { transition: border-color 0.15s ease, transform 0.15s ease; }
+  .fc-hero__numbers div:hover, .fc-hero__numbers div:focus-within { border-color: var(--ink-muted); transform: translateY(-2px); }
+  .fc-hero__numbers dt a { color: inherit; text-decoration: none; }
+  .fc-hero__numbers dt a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+  .fc-hero__numbers dt a:focus-visible { outline: none; }
+  .fc-hero__numbers div:has(a:focus-visible) { outline: 2px solid var(--primary); outline-offset: 2px; }
   .fc-hero__numbers dt { color: var(--ink-muted); font: 600 12px/1.3 var(--font-body); letter-spacing: 0.07em; text-transform: uppercase; }
   .fc-hero__numbers dd { margin: 4px 0 0; color: var(--ink); font: 800 34px/1 var(--font-display); font-stretch: 85%; }
   @media (max-width: 800px) {
