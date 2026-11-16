@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Dominik Novák
 Category: players
 Slug: player-508dc8c6fb79a6c6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 3
+current_games: 11
+current_goals: 4
 current_assists: 1
-current_points: 4
+current_points: 5
 current_pim: 4
-regular_games: 10
-regular_goals: 3
+regular_games: 11
+regular_goals: 4
 regular_assists: 1
-regular_points: 4
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
-career_goals: 3
+career_games: 11
+career_goals: 4
 career_assists: 1
-career_points: 4
+career_points: 5
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|10|3|1|4|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|11|4|1|5|4
 assists: 1
-games: 10
-goals: 3
+games: 11
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 4
-rank: 132
+points: 5
+rank: 115
 season: cz-26-27

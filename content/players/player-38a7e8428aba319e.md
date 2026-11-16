@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lukáš Pešat
 Category: players
 Slug: player-38a7e8428aba319e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 113
+rank: 119
 season: cz-26-27

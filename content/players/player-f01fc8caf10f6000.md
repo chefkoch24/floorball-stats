@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Juuso Forsman
 Category: players
 Slug: player-f01fc8caf10f6000

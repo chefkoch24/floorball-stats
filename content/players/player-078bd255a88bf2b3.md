@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Isabella Weiss
 Category: players
 Slug: player-078bd255a88bf2b3

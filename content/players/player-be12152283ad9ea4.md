@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lucie Ema Navrátilová
 Category: players
 Slug: player-be12152283ad9ea4

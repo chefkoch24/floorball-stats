@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lukáš Holásek
 Category: players
 Slug: player-83df4d2d592f6ec6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 10
+current_games: 11
+current_goals: 11
 current_assists: 3
-current_points: 13
+current_points: 14
 current_pim: 0
-regular_games: 10
-regular_goals: 10
+regular_games: 11
+regular_goals: 11
 regular_assists: 3
-regular_points: 13
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
-career_goals: 10
+career_games: 11
+career_goals: 11
 career_assists: 3
-career_points: 13
+career_points: 14
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|10|10|3|13|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|11|11|3|14|0
 assists: 3
-games: 10
-goals: 10
+games: 11
+goals: 11
 penalties: 0
 phase: regular-season
 pim: 0
-points: 13
-rank: 27
+points: 14
+rank: 26
 season: cz-26-27

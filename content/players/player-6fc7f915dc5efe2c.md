@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Matthias Störi
 Category: players
 Slug: player-6fc7f915dc5efe2c

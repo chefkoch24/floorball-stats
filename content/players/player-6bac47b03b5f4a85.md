@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Martin Ronnklint
 Category: players
 Slug: player-6bac47b03b5f4a85

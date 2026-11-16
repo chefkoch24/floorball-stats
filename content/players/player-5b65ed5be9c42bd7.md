@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jakub Buršík
 Category: players
 Slug: player-5b65ed5be9c42bd7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 22
-rank: 10
+rank: 11
 season: cz-26-27

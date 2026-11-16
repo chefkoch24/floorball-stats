@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Klára Jiříková
 Category: players
 Slug: player-8dbe9ac6f7c10b4a

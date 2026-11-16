@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Micha Strohl
 Category: players
 Slug: player-d3dc29e69cec4fe8

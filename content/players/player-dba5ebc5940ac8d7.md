@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Patrik Vykoupil
 Category: players
 Slug: player-dba5ebc5940ac8d7
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 15
-rank: 20
+rank: 22
 season: cz-26-27

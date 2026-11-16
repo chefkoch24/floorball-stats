@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Alex Kubala
 Category: players
 Slug: player-33ac3a6342f8dc8b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 4
 current_assists: 0
 current_points: 4
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 4
 regular_assists: 0
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 16
+career_games: 17
 career_goals: 4
 career_assists: 0
 career_points: 4
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|10|4|0|4|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|6|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|11|4|0|4|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|6|0|0|0|0
 assists: 0
-games: 10
+games: 11
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 128
+rank: 137
 season: cz-26-27

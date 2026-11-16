@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Rastislav Jopek
 Category: players
 Slug: player-5daee6bc3fdf2b31

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Joni Koskinen
 Category: players
 Slug: player-ce375a60e46e2f95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 187
+rank: 190
 season: fi-26-27

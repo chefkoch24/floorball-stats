@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Aaro Ollikainen
 Category: players
 Slug: player-cf69812927de3b5f

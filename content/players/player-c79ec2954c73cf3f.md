@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Hampus Nelson
 Category: players
 Slug: player-c79ec2954c73cf3f

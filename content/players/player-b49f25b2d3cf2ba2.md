@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Pārstāvis Juris Butans
 Category: players
 Slug: player-b49f25b2d3cf2ba2

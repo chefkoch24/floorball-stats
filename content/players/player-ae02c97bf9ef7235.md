@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Rostislav Gattnar
 Category: players
 Slug: player-ae02c97bf9ef7235
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 218
+rank: 223
 season: cz-26-27

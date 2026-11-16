@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Adam Zubek
 Category: players
 Slug: player-a08e5df446941ef0
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 8
-current_assists: 9
-current_points: 17
+current_assists: 11
+current_points: 19
 current_pim: 4
-regular_games: 10
+regular_games: 11
 regular_goals: 8
-regular_assists: 9
-regular_points: 17
+regular_assists: 11
+regular_points: 19
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 24
 previous_assists: 26
 previous_points: 50
 previous_pim: 8
-career_games: 43
+career_games: 44
 career_goals: 35
-career_assists: 37
-career_points: 72
+career_assists: 39
+career_points: 74
 career_pim: 14
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|10|8|9|17|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|2|3|1|4|2||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|3|7|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|24|20|23|43|8||wfc-2024|tournament|IFF WFC|Czechia|1|0|1|1|0
-assists: 9
-games: 10
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|11|8|11|19|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|2|3|1|4|2||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|3|7|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|24|20|23|43|8||wfc-2024|tournament|IFF WFC|Czechia|1|0|1|1|0
+assists: 11
+games: 11
 goals: 8
 penalties: 2
 phase: regular-season
 pim: 4
-points: 17
-rank: 19
+points: 19
+rank: 16
 season: fi-26-27

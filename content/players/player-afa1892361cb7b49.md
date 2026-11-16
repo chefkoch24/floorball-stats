@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Rasmus Pasanen
 Category: players
 Slug: player-afa1892361cb7b49

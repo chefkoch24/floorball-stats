@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Karolína Rašková
 Category: players
 Slug: player-b54075ee70b3ca0b

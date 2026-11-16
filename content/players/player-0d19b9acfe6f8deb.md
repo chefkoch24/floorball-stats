@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Matěj Jambor
 Category: players
 Slug: player-0d19b9acfe6f8deb

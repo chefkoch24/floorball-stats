@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jesper Lindström
 Category: players
 Slug: player-8edc588c2f0aa142

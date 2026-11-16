@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Martin Čermák
 Category: players
 Slug: player-dcb710f27e74d4d6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 308
+rank: 309
 season: cz-26-27

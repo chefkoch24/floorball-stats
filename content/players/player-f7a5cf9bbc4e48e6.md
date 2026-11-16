@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Eddie Nissen-Sandberg
 Category: players
 Slug: player-f7a5cf9bbc4e48e6

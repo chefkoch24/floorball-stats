@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jonas Jens
 Category: players
 Slug: player-a1f92ee78519a13f

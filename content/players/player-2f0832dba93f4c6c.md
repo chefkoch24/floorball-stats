@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Radek Kužel
 Category: players
 Slug: player-2f0832dba93f4c6c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 102
+rank: 106
 season: cz-26-27

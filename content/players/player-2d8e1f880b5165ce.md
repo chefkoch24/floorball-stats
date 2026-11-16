@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Damián Imrich
 Category: players
 Slug: player-2d8e1f880b5165ce

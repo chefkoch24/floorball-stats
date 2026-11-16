@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Elli Bewer
 Category: players
 Slug: player-e42d3309a0c1b01d

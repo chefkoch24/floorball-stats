@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Daniel Gabrielsson
 Category: players
 Slug: player-50acde9f51c58d5d

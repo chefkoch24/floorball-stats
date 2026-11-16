@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Aaro Tammiranta
 Category: players
 Slug: player-c06dfe7d8ec58654
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 32
+rank: 33
 season: fi-26-27

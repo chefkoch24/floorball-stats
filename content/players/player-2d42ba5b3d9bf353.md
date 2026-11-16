@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Ville Harjunalanen
 Category: players
 Slug: player-2d42ba5b3d9bf353
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 161
+rank: 162
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Fizioterapeits Annija Vēvere
 Category: players
 Slug: player-b6dec6544395cf90

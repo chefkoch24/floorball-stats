@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Kateřina Jirsová
 Category: players
 Slug: player-9e93c1cedf8538fb

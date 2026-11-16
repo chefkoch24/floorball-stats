@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Florian Hannes
 Category: players
 Slug: player-10faaef74d47e3f7

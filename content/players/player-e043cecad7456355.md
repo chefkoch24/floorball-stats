@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Adam Filip Hrdlička
 Category: players
 Slug: player-e043cecad7456355
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 15
-current_goals: 4
+current_games: 16
+current_goals: 5
 current_assists: 1
-current_points: 5
+current_points: 6
 current_pim: 4
-regular_games: 11
-regular_goals: 3
+regular_games: 12
+regular_goals: 4
 regular_assists: 1
-regular_points: 4
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 1
 previous_points: 4
 previous_pim: 6
-career_games: 26
-career_goals: 6
+career_games: 27
+career_goals: 7
 career_assists: 2
-career_points: 8
+career_points: 9
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|11|3|1|4|2||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|4|1|0|1|2||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|15|3|1|4|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|12|4|1|5|2||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|4|1|0|1|2||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|15|3|1|4|6
 assists: 1
-games: 11
-goals: 3
+games: 12
+goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
-points: 4
-rank: 129
+points: 5
+rank: 114
 season: cz-26-27

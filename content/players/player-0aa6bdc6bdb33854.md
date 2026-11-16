@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Michelle Stieger
 Category: players
 Slug: player-0aa6bdc6bdb33854

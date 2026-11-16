@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Vanessa Basler
 Category: players
 Slug: player-f5a86c7d0ea21842

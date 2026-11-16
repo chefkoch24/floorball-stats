@@ -325,6 +325,7 @@ home_pregame_points_after_third_period: 3
 home_pregame_points_against_amix_florbal_mb: 0
 home_pregame_points_against_ba_sokoli_pardubice: 3
 home_pregame_points_against_fat_pipe_florbal_chodov: 0
+home_pregame_points_against_fbc_clt_ceska_lipa: 1
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 home_pregame_points_against_fbc_liberec: 0
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3
@@ -439,6 +440,7 @@ away_pregame_points_after_first_period_per_game: 0.14
 away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 2
 away_pregame_points_against_1_sc_tempish_vitkovice: 1
+away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_ba_sokoli_pardubice: 0
 away_pregame_points_against_bulldogs_brno: 3
 away_pregame_points_against_fat_pipe_florbal_chodov: 0

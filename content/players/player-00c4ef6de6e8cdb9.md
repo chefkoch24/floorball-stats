@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lukáš Vlach
 Category: players
 Slug: player-00c4ef6de6e8cdb9

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: David Johannesson
 Category: players
 Slug: player-a5f9f87e5f1f1fb0

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Rozálie Janošová
 Category: players
 Slug: player-d7aced3baf2f2d77

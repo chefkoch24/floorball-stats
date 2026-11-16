@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Michal Sladek
 Category: players
 Slug: player-9ef8d2e60a472e76
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
-current_goals: 5
+current_games: 11
+current_goals: 6
 current_assists: 4
-current_points: 9
+current_points: 10
 current_pim: 2
-regular_games: 10
-regular_goals: 5
+regular_games: 11
+regular_goals: 6
 regular_assists: 4
-regular_points: 9
+regular_points: 10
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 40
 previous_assists: 19
 previous_points: 59
 previous_pim: 8
-career_games: 45
-career_goals: 45
+career_games: 46
+career_goals: 46
 career_assists: 24
-career_points: 69
+career_points: 70
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|10|5|4|9|2||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|3|12|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|26|31|16|47|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|11|6|4|10|2||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|9|3|12|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|26|31|16|47|6
 assists: 4
-games: 10
-goals: 5
+games: 11
+goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
-points: 9
-rank: 71
+points: 10
+rank: 67
 season: cz-26-27

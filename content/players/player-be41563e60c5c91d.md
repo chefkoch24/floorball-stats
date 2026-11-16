@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Viktor Krížik
 Category: players
 Slug: player-be41563e60c5c91d

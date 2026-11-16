@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lukas Jäkel
 Category: players
 Slug: player-34d5a9b8bbd68ef8

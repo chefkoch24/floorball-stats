@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Markéta Lenfeldová
 Category: players
 Slug: player-dc9480482fb5d01f

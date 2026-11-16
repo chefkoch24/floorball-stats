@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Valte Karvonen
 Category: players
 Slug: player-225b860c50b5de5a
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
+current_games: 8
 current_goals: 4
-current_assists: 5
-current_points: 9
+current_assists: 6
+current_points: 10
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 3
-regular_assists: 4
-regular_points: 7
+regular_assists: 5
+regular_points: 8
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 7
 previous_points: 13
 previous_pim: 2
-career_games: 15
+career_games: 16
 career_goals: 9
-career_assists: 11
-career_points: 20
+career_assists: 12
+career_points: 21
 career_pim: 4
-history_rows_csv: fi-26-27|regular-season|Finland|OLS|6|3|4|7|2||fi-26-27|cup|Finland|OLS|1|1|1|2|0||fi-25-26|regular-season|Finland|Nokian KrP|9|6|7|13|2
-assists: 4
-games: 6
+history_rows_csv: fi-26-27|regular-season|Finland|OLS|7|3|5|8|2||fi-26-27|cup|Finland|OLS|1|1|1|2|0||fi-25-26|regular-season|Finland|Nokian KrP|9|6|7|13|2
+assists: 5
+games: 7
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 7
-rank: 83
+points: 8
+rank: 75
 season: fi-26-27

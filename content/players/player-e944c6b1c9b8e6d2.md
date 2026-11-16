@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Marcel Jakubec
 Category: players
 Slug: player-e944c6b1c9b8e6d2
@@ -11,12 +11,12 @@ season_count: 3
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 1
 previous_points: 6
 previous_pim: 10
-career_games: 28
+career_games: 29
 career_goals: 8
 career_assists: 3
 career_points: 11
 career_pim: 14
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|9|3|2|5|4||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|10|5|1|6|8||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|10|3|2|5|4||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|10|5|1|6|8||wfc-2024|tournament|IFF WFC|Slovakia|7|0|0|0|0
 assists: 2
-games: 9
+games: 10
 goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 114
+rank: 120
 season: cz-26-27

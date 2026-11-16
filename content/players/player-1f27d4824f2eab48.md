@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Felix Sunell
 Category: players
 Slug: player-1f27d4824f2eab48

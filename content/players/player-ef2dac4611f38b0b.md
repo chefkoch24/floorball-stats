@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Eva Řeháková
 Category: players
 Slug: player-ef2dac4611f38b0b

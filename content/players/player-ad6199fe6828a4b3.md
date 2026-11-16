@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Matěj Korbel
 Category: players
 Slug: player-ad6199fe6828a4b3

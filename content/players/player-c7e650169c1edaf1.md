@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Simon Steiner
 Category: players
 Slug: player-c7e650169c1edaf1

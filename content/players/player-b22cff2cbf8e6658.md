@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Kristína Hudáková
 Category: players
 Slug: player-b22cff2cbf8e6658

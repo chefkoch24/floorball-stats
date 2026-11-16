@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Kristián Šáda
 Category: players
 Slug: player-ccdab2d3e321f3a5

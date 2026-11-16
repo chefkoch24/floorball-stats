@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Záborský Branislav
 Category: players
 Slug: player-ffdd7b80658ce701

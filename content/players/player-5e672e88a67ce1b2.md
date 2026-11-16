@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jonáš Kreysa
 Category: players
 Slug: player-5e672e88a67ce1b2
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 145
+rank: 150
 season: cz-26-27

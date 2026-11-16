@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Ondřej Jankovský C
 Category: players
 Slug: player-a6d53710538adf0e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 328
+rank: 330
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Pascal Rieß
 Category: players
 Slug: player-e49502f9b53fec70

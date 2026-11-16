@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Lukáš Fukala
 Category: players
 Slug: player-651d32d73e6af4cc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 69
+rank: 75
 season: cz-26-27

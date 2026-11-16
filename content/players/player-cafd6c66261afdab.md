@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Petr Vávra
 Category: players
 Slug: player-cafd6c66261afdab
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 5
 current_assists: 3
 current_points: 8
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 4
 previous_points: 6
 previous_pim: 0
-career_games: 22
+career_games: 23
 career_goals: 4
 career_assists: 6
 career_points: 10
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|9|2|2|4|0||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|3|1|4|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|2|2|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|7|2|2|4|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|10|2|2|4|0||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|3|1|4|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|2|2|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|7|2|2|4|0
 assists: 2
-games: 9
+games: 10
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 143
+rank: 149
 season: cz-26-27

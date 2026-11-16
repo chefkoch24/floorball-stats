@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Anni Puumalainen
 Category: players
 Slug: player-ac0d2c4fa972e76e

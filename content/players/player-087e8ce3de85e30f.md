@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Peter Kotilainen
 Category: players
 Slug: player-087e8ce3de85e30f

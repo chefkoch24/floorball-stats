@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jakub Procházka
 Category: players
 Slug: player-14dc05cdf23152f6
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
-current_goals: 2
-current_assists: 2
-current_points: 4
+current_games: 10
+current_goals: 4
+current_assists: 4
+current_points: 8
 current_pim: 12
-regular_games: 9
-regular_goals: 2
-regular_assists: 2
-regular_points: 4
+regular_games: 10
+regular_goals: 4
+regular_assists: 4
+regular_points: 8
 regular_pim: 12
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 2
 previous_points: 6
 previous_pim: 2
-career_games: 21
-career_goals: 6
-career_assists: 4
-career_points: 10
+career_games: 22
+career_goals: 8
+career_assists: 6
+career_points: 14
 career_pim: 14
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|9|2|2|4|12||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|12|4|2|6|2
-assists: 2
-games: 9
-goals: 2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|10|4|4|8|12||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|12|4|2|6|2
+assists: 4
+games: 10
+goals: 4
 penalties: 6
 phase: regular-season
 pim: 12
-points: 4
-rank: 140
+points: 8
+rank: 83
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Virve Bjerkefeldt
 Category: players
 Slug: player-4027daa857a77dbd

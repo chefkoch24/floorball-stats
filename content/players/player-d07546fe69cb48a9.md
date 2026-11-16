@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Marek Kalivoda
 Category: players
 Slug: player-d07546fe69cb48a9

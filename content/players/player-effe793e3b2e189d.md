@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Emma Tamara Kušnierová
 Category: players
 Slug: player-effe793e3b2e189d

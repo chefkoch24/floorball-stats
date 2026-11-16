@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Viktorie Hrazdírová
 Category: players
 Slug: player-4041dffa34f9bc43

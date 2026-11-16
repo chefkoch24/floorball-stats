@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Niko Latvakoski
 Category: players
 Slug: player-fded6a165cc91a17

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Ivan Pergler
 Category: players
 Slug: player-f79ad60c35d073bb

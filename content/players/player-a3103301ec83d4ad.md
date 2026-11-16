@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Hanna Kamrad
 Category: players
 Slug: player-a3103301ec83d4ad

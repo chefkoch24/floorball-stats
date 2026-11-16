@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Luka Ainoa
 Category: players
 Slug: player-00c94725ea63a4be
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 209
+rank: 210
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Toms Peniķis
 Category: players
 Slug: player-c3da5abd1d9d76a3

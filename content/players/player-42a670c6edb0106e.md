@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Barbora Čechová
 Category: players
 Slug: player-42a670c6edb0106e

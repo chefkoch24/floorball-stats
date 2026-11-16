@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Tomáš Dlesk
 Category: players
 Slug: player-bbf100dfb1fe2083
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 220
+rank: 225
 season: cz-26-27

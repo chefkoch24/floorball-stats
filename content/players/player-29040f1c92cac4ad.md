@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Alex Carlstedt
 Category: players
 Slug: player-29040f1c92cac4ad

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jan Fousek
 Category: players
 Slug: player-5f7c3019fbaeff35
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 281
+rank: 283
 season: cz-26-27

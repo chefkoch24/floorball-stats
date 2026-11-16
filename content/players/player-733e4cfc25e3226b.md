@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Roman Thommen
 Category: players
 Slug: player-733e4cfc25e3226b

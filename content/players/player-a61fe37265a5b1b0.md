@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jan Malič
 Category: players
 Slug: player-a61fe37265a5b1b0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 57
+rank: 61
 season: cz-26-27

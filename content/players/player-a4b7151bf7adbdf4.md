@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Nikolass Burbo
 Category: players
 Slug: player-a4b7151bf7adbdf4

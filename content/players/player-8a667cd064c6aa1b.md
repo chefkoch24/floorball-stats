@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Raphael Hosennen
 Category: players
 Slug: player-8a667cd064c6aa1b

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Sofia Kitinoja
 Category: players
 Slug: player-cab035b9f0800f92

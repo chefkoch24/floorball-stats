@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Kateřina Strnadová
 Category: players
 Slug: player-d31c56d268cf97f6

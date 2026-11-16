@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Hanna Lööw
 Category: players
 Slug: player-35aefb9c1db77fbb

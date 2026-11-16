@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Vojtěch Kún
 Category: players
 Slug: player-c5dfb9c20a0aae28
@@ -13,14 +13,14 @@ current_season_is_tournament: no
 previous_season: cz-25-26
 current_games: 9
 current_goals: 3
-current_assists: 4
-current_points: 7
-current_pim: 2
+current_assists: 5
+current_points: 8
+current_pim: 4
 regular_games: 9
 regular_goals: 3
-regular_assists: 4
-regular_points: 7
-regular_pim: 2
+regular_assists: 5
+regular_points: 8
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -38,16 +38,16 @@ previous_points: 27
 previous_pim: 2
 career_games: 40
 career_goals: 16
-career_assists: 18
-career_points: 34
-career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|9|3|4|7|2||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|4|2|6|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|26|9|12|21|2
-assists: 4
+career_assists: 19
+career_points: 35
+career_pim: 6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|9|3|5|8|4||cz-25-26|playoffs|Czech Republic|FAT PIPE FLORBAL CHODOV|5|4|2|6|0||cz-25-26|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|26|9|12|21|2
+assists: 5
 games: 9
 goals: 3
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
-points: 7
-rank: 96
+pim: 4
+points: 8
+rank: 89
 season: cz-26-27

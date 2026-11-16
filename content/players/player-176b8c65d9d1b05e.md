@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jana Pleisch
 Category: players
 Slug: player-176b8c65d9d1b05e

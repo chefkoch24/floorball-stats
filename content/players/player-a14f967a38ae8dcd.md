@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Treneris Ingus Panteļejevs
 Category: players
 Slug: player-a14f967a38ae8dcd

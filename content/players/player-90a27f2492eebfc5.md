@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Yves Walliser
 Category: players
 Slug: player-90a27f2492eebfc5

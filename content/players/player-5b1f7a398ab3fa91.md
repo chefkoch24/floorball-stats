@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Michaela Sabolová
 Category: players
 Slug: player-5b1f7a398ab3fa91

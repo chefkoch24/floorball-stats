@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Pavlina Bacova
 Category: players
 Slug: player-fc75b1fd0a0a2b67

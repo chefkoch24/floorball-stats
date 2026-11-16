@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Douglas Wetterstrand
 Category: players
 Slug: player-7cc9b8fc8b6c0c3b

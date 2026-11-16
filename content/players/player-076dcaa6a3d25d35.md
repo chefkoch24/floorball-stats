@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Sanija Ramona Ābeltiņa
 Category: players
 Slug: player-076dcaa6a3d25d35

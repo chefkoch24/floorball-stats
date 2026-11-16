@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Samuel Zemančík
 Category: players
 Slug: player-61bfa1e8fa68cd74

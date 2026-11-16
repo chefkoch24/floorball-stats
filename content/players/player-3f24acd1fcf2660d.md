@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Barbora Jaskova
 Category: players
 Slug: player-3f24acd1fcf2660d

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jakub Mádlo
 Category: players
 Slug: player-217e9714bb969dcf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 58
+rank: 62
 season: cz-26-27

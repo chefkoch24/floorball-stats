@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Noah Bisig
 Category: players
 Slug: player-6f5e0acbc514772e
@@ -31,17 +31,17 @@ cup_goals: 3
 cup_assists: 1
 cup_points: 4
 cup_pim: 0
-previous_games: 33
+previous_games: 32
 previous_goals: 4
 previous_assists: 4
 previous_points: 8
 previous_pim: 2
-career_games: 42
+career_games: 41
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|9|4|1|5|0||ch-26-27|cup|Switzerland|Zug United|2|3|1|4|0||ch-25-26|playoffs|Switzerland|Zug United|11|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|22|4|4|8|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|9|4|1|5|0||ch-26-27|cup|Switzerland|Zug United|2|3|1|4|0||ch-25-26|playoffs|Switzerland|Zug United|11|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|21|4|4|8|2
 assists: 1
 games: 9
 goals: 4

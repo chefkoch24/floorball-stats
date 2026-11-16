@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Matias Mäenpää
 Category: players
 Slug: player-1c95c6ce1d55a372
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 64
+rank: 65
 season: fi-26-27

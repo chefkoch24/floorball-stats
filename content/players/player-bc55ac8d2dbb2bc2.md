@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Olli Wikstedt
 Category: players
 Slug: player-bc55ac8d2dbb2bc2

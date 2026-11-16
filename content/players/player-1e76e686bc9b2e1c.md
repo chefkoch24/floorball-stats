@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Noah Larano
 Category: players
 Slug: player-1e76e686bc9b2e1c

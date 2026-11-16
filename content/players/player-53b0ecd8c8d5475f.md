@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Dāvis Auziņš
 Category: players
 Slug: player-53b0ecd8c8d5475f

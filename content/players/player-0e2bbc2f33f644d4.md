@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Mirjam Wyss
 Category: players
 Slug: player-0e2bbc2f33f644d4

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Alva Degerstedt
 Category: players
 Slug: player-c21c4a3d65c8c7f7

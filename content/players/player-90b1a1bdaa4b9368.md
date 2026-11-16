@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Zoja Priečková
 Category: players
 Slug: player-90b1a1bdaa4b9368

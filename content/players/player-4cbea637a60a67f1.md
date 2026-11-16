@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Martin Hriško
 Category: players
 Slug: player-4cbea637a60a67f1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 91
+rank: 94
 season: cz-26-27

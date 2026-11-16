@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Viktor Steinz
 Category: players
 Slug: player-b6d032aaad3d765a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
+current_games: 15
 current_goals: 1
 current_assists: 4
 current_points: 5
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 22
+career_games: 23
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|11|1|2|3|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|0|2|2|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|11|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|12|1|2|3|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|0|2|2|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|11|0|0|0|0
 assists: 2
-games: 11
+games: 12
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 173
+rank: 177
 season: cz-26-27

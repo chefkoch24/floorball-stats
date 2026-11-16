@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Naništa Jakub
 Category: players
 Slug: player-0fff4ae8475c2d55

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Marek Hozman
 Category: players
 Slug: player-7eb47a60a0d9c786
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 5
+current_games: 6
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 2
-regular_games: 4
+regular_games: 5
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 6
 previous_points: 13
 previous_pim: 14
-career_games: 31
+career_games: 32
 career_goals: 8
 career_assists: 6
 career_points: 14
 career_pim: 16
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|4|1|0|1|2||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|2|1|3|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|3|0|0|0|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|24|7|6|13|12
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|5|1|0|1|2||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|2|1|3|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|3|0|0|0|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|24|7|6|13|12
 assists: 0
-games: 4
+games: 5
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 211
+rank: 216
 season: cz-26-27

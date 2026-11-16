@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Samuli Junnila
 Category: players
 Slug: player-fa70c4eac009c5f0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 27
+rank: 28
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Marco Eyer
 Category: players
 Slug: player-b96c2dadfb3a17fc

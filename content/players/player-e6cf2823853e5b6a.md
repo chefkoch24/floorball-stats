@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Marek Oriešek
 Category: players
 Slug: player-e6cf2823853e5b6a

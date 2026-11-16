@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Kilian Meyberg
 Category: players
 Slug: player-054e3fc16b9f5e43

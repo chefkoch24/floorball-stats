@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Martin Lauko
 Category: players
 Slug: player-fedf8673717cb1fa

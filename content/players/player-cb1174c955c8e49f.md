@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Setti Roimela
 Category: players
 Slug: player-cb1174c955c8e49f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 68
+rank: 69
 season: fi-26-27

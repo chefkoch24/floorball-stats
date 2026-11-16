@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Radek Drba
 Category: players
 Slug: player-1b073211faafbe4f
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 5
-rank: 121
+rank: 129
 season: cz-26-27

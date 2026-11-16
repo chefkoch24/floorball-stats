@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Niklas Äijälä
 Category: players
 Slug: player-ab663c2478fe201b
@@ -11,16 +11,16 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 5
-current_goals: 6
+current_games: 6
+current_goals: 7
 current_assists: 2
-current_points: 8
-current_pim: 0
-regular_games: 5
-regular_goals: 6
+current_points: 9
+current_pim: 2
+regular_games: 6
+regular_goals: 7
 regular_assists: 2
-regular_points: 8
-regular_pim: 0
+regular_points: 9
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 15
 previous_assists: 17
 previous_points: 32
 previous_pim: 0
-career_games: 25
-career_goals: 21
+career_games: 26
+career_goals: 22
 career_assists: 19
-career_points: 40
-career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|5|6|2|8|0||fi-25-26|regular-season|Finland|Jymy|20|15|17|32|0
+career_points: 41
+career_pim: 2
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|6|7|2|9|2||fi-25-26|regular-season|Finland|Jymy|20|15|17|32|0
 assists: 2
-games: 5
-goals: 6
-penalties: 0
+games: 6
+goals: 7
+penalties: 1
 phase: regular-season
-pim: 0
-points: 8
-rank: 65
+pim: 2
+points: 9
+rank: 55
 season: fi-26-27

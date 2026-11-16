@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Linnea Hedman
 Category: players
 Slug: player-f36a197e0e45d0c9

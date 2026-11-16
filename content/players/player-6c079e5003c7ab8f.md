@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Petruš Branislav
 Category: players
 Slug: player-6c079e5003c7ab8f

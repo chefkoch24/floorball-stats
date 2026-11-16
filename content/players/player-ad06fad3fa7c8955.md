@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Jáchym Frontz
 Category: players
 Slug: player-ad06fad3fa7c8955
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 291
 season: cz-26-27

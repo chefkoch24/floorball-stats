@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Roberts Brants
 Category: players
 Slug: player-1a99a6cc464a65c6

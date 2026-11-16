@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: David Winzinger
 Category: players
 Slug: player-aeaa82055ed664c2

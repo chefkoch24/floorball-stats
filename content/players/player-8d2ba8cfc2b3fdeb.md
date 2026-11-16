@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Heikki Hirvisuo
 Category: players
 Slug: player-8d2ba8cfc2b3fdeb

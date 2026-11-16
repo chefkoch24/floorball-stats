@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Molly Sturesson
 Category: players
 Slug: player-aa0a62f594a163c4

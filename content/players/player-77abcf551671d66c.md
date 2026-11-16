@@ -1,4 +1,4 @@
-Date: 2026-11-15
+Date: 2026-11-16
 Title: Vojtěch Kún C
 Category: players
 Slug: player-77abcf551671d66c
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 1
+current_games: 2
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 1
+regular_games: 2
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 1
+career_games: 2
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|1|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FAT PIPE FLORBAL CHODOV|2|0|0|0|0
 assists: 0
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 370
+rank: 373
 season: cz-26-27
