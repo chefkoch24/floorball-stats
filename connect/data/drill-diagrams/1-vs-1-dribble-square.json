@@ -5,6 +5,7 @@
     4.5,
     15.5
   ],
+  "intro": "1 vs 1: the attacker dribbles through one of two gates, the defender tries to win the ball. Whoever wins the ball, the roles flip.",
   "markings": false,
   "players": [
     {

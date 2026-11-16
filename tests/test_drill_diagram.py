@@ -125,13 +125,31 @@ def test_a_carried_ball_moves_with_its_player_and_a_pass_into_a_run_waits_for_th
     steps = dd.render(_diagram())["data"]["steps"]
     # Step 2: player 1 runs, player 2 passes into the run -> the pass is tied to the runner.
     run, pass_ = steps[1]["stages"][0]
-    assert run == {"e": "p-1", "path": run["path"]}
+    assert run == {"e": "p-1", "path": run["path"], "kind": "run"}
     assert pass_["ball"] is True and pass_["into"] == "p-1"
     # Step 3: player 1 dribbles -> the ball takes the player's timing.
     dribble, ball = steps[2]["stages"][0]
     assert dribble["e"] == "p-1" and ball["e"] == "b-b" and ball["with"] == "p-1"
     # A plain pass to a standing player is not tied to anyone.
     assert "into" not in steps[0]["stages"][0][0]
+
+
+def test_the_goalie_leans_towards_a_shot_and_stays_there() -> None:
+    data = dd.render(_diagram())["data"]
+    shot_stage = data["steps"][2]["stages"][1]
+    assert shot_stage[0]["kind"] == "shot"
+    lean = shot_stage[1]
+    assert lean["e"] == "p-G" and lean["kind"] == "react"
+    # The shot aims at the upper post, so the goalie leans up; later steps would start from there.
+    assert data["initial"]["p-G"][1] == 100.0
+
+
+def test_a_game_can_open_with_its_rule_and_the_rule_must_fit_the_video() -> None:
+    out = dd.render(_diagram(intro="3 vs 3 on one goal. Who scores more?"))
+    assert out["intro"] == out["data"]["intro"] == "3 vs 3 on one goal. Who scores more?"
+    assert dd.render(_diagram())["intro"] == ""
+    with pytest.raises(dd.DiagramError, match="intro"):
+        dd.render(_diagram(intro="x" * 171))
 
 
 def test_field_players_are_numbered_on_every_drill() -> None:

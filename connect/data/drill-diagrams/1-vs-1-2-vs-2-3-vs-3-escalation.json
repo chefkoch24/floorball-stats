@@ -1,5 +1,6 @@
 {
   "view": "right",
+  "intro": "20 seconds 1 vs 1. On the whistle the next pair joins: 2 vs 2, then 3 vs 3. Next round the number 2 players start.",
   "players": [
     {
       "id": "r1",

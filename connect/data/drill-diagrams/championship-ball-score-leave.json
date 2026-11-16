@@ -1,5 +1,6 @@
 {
   "view": "right",
+  "intro": "3 vs 3 on one or more goals. Whoever scores must leave the field, so the scoring team plays one player down.",
   "players": [
     {
       "id": "r1",

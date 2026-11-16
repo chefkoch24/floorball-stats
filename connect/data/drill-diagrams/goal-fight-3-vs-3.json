@@ -5,6 +5,7 @@
     2.5,
     17.5
   ],
+  "intro": "3 vs 3 on one goal. The coach plays in a ball, both teams fight for it and shoot at the same goal. 20 seconds: who scores more?",
   "players": [
     {
       "id": "C",
@@ -81,50 +82,105 @@
   ],
   "steps": [
     {
-      "text": "The coach plays in a ball; 3 vs 3 in front of the goal.",
+      "text": "The coach plays a ball into the middle. Red 1 and Blue 1 race for it.",
       "actions": [
+        {
+          "pass": "C",
+          "to": [
+            30.6,
+            9.9
+          ],
+          "stage": 0
+        },
         {
           "run": "r1",
           "to": [
-            29.4,
-            8.6
+            30.2,
+            9.4
           ]
-        },
-        {
-          "pass": "C",
-          "to": "r1",
-          "stage": 0
         },
         {
           "run": "b1",
           "to": [
-            30.6,
-            9.6
+            31.2,
+            9.1
           ]
         }
       ]
     },
     {
-      "text": "Red 1 finds Red 3 next to the goal, who shoots at once.",
+      "text": "Red 1 gets there first and plays to Red 3, while Blue 3 marks him.",
       "actions": [
         {
-          "pass": "r1",
-          "to": "r3"
+          "run": "b1",
+          "to": [
+            31.3,
+            9.7
+          ]
         },
         {
-          "shot": "r3",
+          "run": "r3",
+          "to": [
+            34.2,
+            9.4
+          ]
+        },
+        {
+          "run": "b3",
+          "to": [
+            34.7,
+            10.9
+          ]
+        },
+        {
+          "pickup": "r1"
+        },
+        {
+          "pass": "r1",
+          "to": "r3",
           "stage": 2
         }
       ]
     },
     {
-      "text": "The next ball comes straight away: Blue 2 takes it and shoots.",
+      "text": "Red 3 shoots at once. Everyone follows the shot for the rebound.",
+      "actions": [
+        {
+          "shot": "r3"
+        },
+        {
+          "run": "r2",
+          "to": [
+            34.2,
+            12.0
+          ],
+          "stage": 1
+        },
+        {
+          "run": "b2",
+          "to": [
+            33.4,
+            10.6
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "text": "The coach plays the next ball straight away. Blue 2 takes it and shoots.",
       "actions": [
         {
           "run": "b2",
           "to": [
-            31.4,
-            12.2
+            31.6,
+            12.0
+          ]
+        },
+        {
+          "run": "r2",
+          "to": [
+            32.4,
+            11.4
           ]
         },
         {
