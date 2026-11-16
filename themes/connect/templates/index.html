@@ -15,10 +15,10 @@
         </div>
     </div>
     <dl class="fc-hero__numbers">
-        <div><dt>Stick and blade reviews</dt><dd class="fs-num">{{ CONNECT_REVIEW_COUNT }}</dd></div>
-        <div><dt>Drills and guides</dt><dd class="fs-num">{{ CONNECT_ITEMS.drills|length + CONNECT_ITEMS.guides|length }}</dd></div>
-        <div><dt>Leagues with stats</dt><dd class="fs-num">14</dd></div>
-        <div><dt>Followers</dt><dd class="fs-num">{{ FOLLOWERS }}</dd></div>
+        <div><dt><a href="{{ SITEURL }}/floorball-sticks/" data-cta="stat_reviews" data-cta-placement="hero_numbers">Stick and blade reviews</a></dt><dd class="fs-num">{{ CONNECT_REVIEW_COUNT }}</dd></div>
+        <div><dt><a href="{{ SITEURL }}/floorball-drills/" data-cta="stat_drills_guides" data-cta-placement="hero_numbers">Drills and guides</a></dt><dd class="fs-num">{{ CONNECT_ITEMS.drills|length + CONNECT_ITEMS.guides|length }}</dd></div>
+        <div><dt><a href="{{ STATS_URL }}/" data-cta="stat_leagues" data-cta-placement="hero_numbers">Leagues with stats</a></dt><dd class="fs-num">14</dd></div>
+        <div><dt><a href="{{ SOCIAL_LINKS[0][1] }}" target="_blank" rel="noopener" data-cta="stat_followers" data-cta-placement="hero_numbers">Followers</a></dt><dd class="fs-num">{{ FOLLOWERS }}</dd></div>
     </dl>
 </section>
 
