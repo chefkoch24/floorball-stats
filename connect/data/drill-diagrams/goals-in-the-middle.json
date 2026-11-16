@@ -1,5 +1,6 @@
 {
   "view": "full",
+  "intro": "Both teams may score on both goals, so the play keeps changing direction: always attack the goal that is free.",
   "standard_goals": false,
   "goals": [
     {

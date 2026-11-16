@@ -102,6 +102,7 @@ Not yet planned. Move an idea into **Open** (with a concept doc if it is bigger 
 ### Main site (floorballconnect.com)
 
 - [x] Drill diagrams: drills drawn as data (`connect/data/drill-diagrams/<slug>.json`), rendered to SVG at build time, played step by step on the drill page (`connect/drill_diagram.py`, `drill-diagram.js`), "▶ Animated" thumbnails in the list, share on Instagram as Story/Reel or Post, image or MP4 video, dark or light, via the share sheet on phones. Diagrams for all 31 Notion drills plus 4 new drills from mobilesport.ch in `connect/data/drills_local.json`, with the source credited ([concept](docs/features/drill-diagrams.md)) Players are always numbered, goalies are added to every goal in view, list cards show the diagram, video drills without text get the steps as their sequence
+- [x] Drill animations reworked (2026-11-16): reel without step numbers and with a seamless loop (last frame = first frame), fluid movement (easing, carried ball, goalie reaction), rule intro for game drills (`intro`), Goal Fight redrawn with a real duel, minimal reel card (brand, title, rink, dots, caption, URL) ([concept](docs/features/drill-diagrams.md))
 
 - [x] Main site floorballconnect.com off Softr: own Pelican site in `connect/` on the stats design system, content imported, Softr URLs redirected ([ARCHITECTURE.md 4.8a](docs/architecture/ARCHITECTURE.md))
 - [x] Go live with the new main site: www.floorballconnect.com and floorballconnect.com on the stats Netlify site (DNS at STRATO: A 75.2.60.5, www CNAME floorball-stats.netlify.app)

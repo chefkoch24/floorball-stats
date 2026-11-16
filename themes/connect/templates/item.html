@@ -33,7 +33,7 @@
                     <button class="fs-btn dd__btn" type="button" data-dd="next" aria-label="Next step">→</button>
                     <span class="dd__count fs-label" data-dd="count"></span>
                 </div>
-                <p class="dd__caption" data-dd="caption" aria-live="polite">{{ item.diagram.steps|length }} steps · the numbers on the arrows show the order{% if item.diagram.overview < item.diagram.steps|length %}; the picture shows the first {{ item.diagram.overview }}, press Play for all{% endif %}.</p>
+                <p class="dd__caption" data-dd="caption" aria-live="polite">{% if item.diagram.intro %}{{ item.diagram.intro }} The picture shows one example run: {% endif %}{{ item.diagram.steps|length }} steps · the numbers on the arrows show the order{% if item.diagram.overview < item.diagram.steps|length %}; the picture shows the first {{ item.diagram.overview }}, press Play for all{% endif %}.</p>
             </figcaption>
             <ul class="dd__legend" aria-label="Legend">
                 <li><svg viewBox="0 0 40 10" aria-hidden="true"><path class="dd-key dd-key--pass" d="M2 5 H34"/><path class="dd-key-head" d="M32 1 L39 5 L32 9 Z"/></svg>Pass</li>

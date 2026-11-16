@@ -5,6 +5,7 @@
     -0.5,
     20.5
   ],
+  "intro": "Keep the ball: string together as many passes as you can. The other team tries to touch it. Ball lost: the roles switch.",
   "markings": false,
   "players": [
     {

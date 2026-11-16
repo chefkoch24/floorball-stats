@@ -19,9 +19,9 @@
   const stepNodes = [...svg.querySelectorAll('[data-step]')];
   const overviewNote = caption.textContent;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const PLAYER_SPEED = 95; // SVG units (decimetres) per second
-  const BALL_SPEED = 280;
-  const PAUSE = 420; // between steps
+  // SVG units (decimetres) per second: a floorball player runs about 7 m/s, with the ball a bit slower.
+  const SPEED = { run: 72, dribble: 58, react: 30, pass: 190, shot: 300, pickup: 120 };
+  const PAUSE = 380; // between steps
 
   let current = -1; // -1: overview with every arrow
   let finished = true; // whether the current step ran to its end
@@ -48,12 +48,13 @@
       count.textContent = '';
     } else {
       caption.textContent = steps[index].text || '';
-      count.textContent = `Step ${index + 1} / ${steps.length}`;
+      count.textContent = `${data.intro ? 'Example run · ' : ''}Step ${index + 1} / ${steps.length}`;
     }
   };
 
-  // Players speed up and slow down softly; a pass or shot leaves the stick fast and only eases a little.
-  const playerEase = (t) => -(Math.cos(Math.PI * t) - 1) / 2;
+  // Players pick up speed and slow down softly but never stand still in the middle of a run (a pure
+  // sine ease looks like a machine); a pass or shot leaves the stick fast and only eases a little.
+  const playerEase = (t) => 0.3 * t + 0.7 * (t * t * (3 - 2 * t));
   const ballEase = (t) => 1 - Math.pow(1 - t, 1.6);
 
   // The timing of one stage of a step. A carried ball ("with") shares its player's timing, so it
@@ -65,15 +66,22 @@
       if (!path) return null;
       const length = path.getTotalLength();
       const ball = Boolean(move.ball);
-      const natural = ball ? Math.max(240, (length / BALL_SPEED) * 1000) : Math.max(380, (length / PLAYER_SPEED) * 1000);
+      const speed = SPEED[move.kind] || (ball ? SPEED.pass : SPEED.run);
+      const natural = Math.max(ball ? 260 : 450, (length / speed) * 1000);
       return { move, path, length, duration: instant ? 0 : natural, delay: 0, ease: ball ? ballEase : playerEase };
     }).filter(Boolean);
-    const leaders = new Map(plan.filter((p) => !p.move.ball && !p.move.with).map((p) => [p.move.e, p]));
+    const leaders = new Map(plan.filter((p) => !p.move.ball && !p.move.with && p.move.kind !== 'react').map((p) => [p.move.e, p]));
     plan.forEach((p) => {
       const carrier = p.move.with && leaders.get(p.move.with);
       if (carrier) { p.duration = carrier.duration; p.ease = carrier.ease; }
       const runner = p.move.into && leaders.get(p.move.into);
       if (runner) p.delay = Math.max(0, runner.duration - p.duration);
+      // A goalie leans as long as the shot flies.
+      if (p.move.kind === 'react') {
+        const shot = plan.find((other) => other.move.kind === 'shot');
+        p.duration = shot ? Math.max(shot.duration, 300) : p.duration;
+        p.ease = (t) => 1 - Math.pow(1 - t, 2);
+      }
     });
     return { plan, total: Math.max(0, ...plan.map((p) => p.delay + p.duration)) };
   };
@@ -204,7 +212,8 @@
     .dd-cone{fill:${c.ball};stroke:${c.ballInk};stroke-width:.6}
     .dd-step-label circle{fill:${c.raised};stroke:${c.ink};stroke-width:.7}
     .dd-step-label text{font:700 6.4px/1 Arial,Helvetica,sans-serif;text-anchor:middle;fill:${c.ink}}
-    svg:not(.x-playing) .is-later{opacity:0}.x-playing .is-future{opacity:0}.x-playing .is-past{opacity:.22}.x-playing .dd-step-label.is-past{opacity:0}`;
+    svg:not(.x-playing) .is-later{opacity:0}.x-playing .is-future{opacity:0}.x-playing .is-past{opacity:.22}.x-playing .dd-step-label.is-past{opacity:0}
+    .x-clean .dd-step-label{display:none}`;
 
   const copy = svg.cloneNode(true);
   const viewBox = svg.viewBox.baseVal;
@@ -217,16 +226,19 @@
   const copyEntities = new Map([...copy.querySelectorAll('[data-entity]')].map((node) => [node.dataset.entity, node]));
   const copySteps = [...copy.querySelectorAll('[data-step]')];
 
-  const drawSvg = (positions, index) => new Promise((resolve, reject) => {
+  // ops: opacity per step (the video fades arrows in and out) and no number badges; null: the still
+  // picture with every arrow and its step number.
+  const drawSvg = (positions, ops) => new Promise((resolve, reject) => {
     Object.entries(positions).forEach(([id, point]) => {
       const node = copyEntities.get(id);
       if (node) node.setAttribute('transform', `translate(${point[0].toFixed(1)} ${point[1].toFixed(1)})`);
     });
-    copy.classList.toggle('x-playing', index >= 0);
+    copy.classList.toggle('x-playing', Boolean(ops));
+    copy.classList.toggle('x-clean', Boolean(ops));
     copySteps.forEach((node) => {
       const step = Number(node.dataset.step);
-      node.setAttribute('class', node.getAttribute('class').replace(/ ?is-(current|past|future)/g, '') +
-        (index < 0 ? '' : step === index ? ' is-current' : step < index ? ' is-past' : ' is-future'));
+      node.setAttribute('class', node.getAttribute('class').replace(/ ?is-(current|past|future)/g, ''));
+      if (ops) node.setAttribute('style', `opacity:${(ops[step] || 0).toFixed(3)}`); else node.removeAttribute('style');
     });
     const url = URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(copy)], { type: 'image/svg+xml' }));
     const image = new Image();
@@ -275,9 +287,11 @@
     return { size, lh, items, height };
   };
 
-  // One card: brand and chip on top, then title, rink and text centred in the space left,
+  // One card: the brand on top, then title, rink and text centred in the space left,
   // the site at the bottom. Everything stays inside the zones Instagram leaves free.
-  const drawCard = (ctx, fmt, c, image, { label, text, list }) => {
+  // card.underImage + card.imageMix: the picture dissolves from one state into another (loop);
+  // card.prevText + card.textMix: the caption dissolves; card.dots: progress without numbers.
+  const drawCard = (ctx, fmt, c, image, { label, text, list, underImage, imageMix = 1, prevText, textMix = 1, dots }) => {
     const right = W - SIDE;
     const width = right - SIDE;
     ctx.textBaseline = 'alphabetic';
@@ -287,16 +301,8 @@
     font(ctx, 800, 44, DISPLAY, 'condensed');
     ctx.fillStyle = c.rink;
     ctx.fillText('Floorball Connect', SIDE, fmt.top + 40);
-    font(ctx, 600, 26, BODY);
-    const chip = 'Floorball drill';
-    const chipW = ctx.measureText(chip).width + 44;
-    roundRect(ctx, right - chipW, fmt.top + 4, chipW, 50, 25, null, c.line);
-    ctx.fillStyle = c.muted;
-    ctx.fillText(chip, right - chipW + 22, fmt.top + 38);
     // The site name may sit lower than the content: Instagram covers the very bottom only partly.
     const footerY = fmt.h - fmt.footer;
-    font(ctx, 500, 28, BODY);
-    ctx.fillText('Free animated drills', SIDE, footerY);
     font(ctx, 700, 32, DISPLAY);
     ctx.fillStyle = c.rink;
     ctx.textAlign = 'right';
@@ -308,7 +314,7 @@
     const areaBottom = fmt.h - fmt.bottom - (fmt.footer === fmt.bottom ? 64 : 0);
     const head = fit(ctx, title, width, fmt.titleSize, 44, 2, 800, DISPLAY, 'condensed');
     const headH = Math.round(head.size * 1.02) * head.lines.length;
-    const labelH = label ? 48 : 0;
+    const labelH = label || dots ? 48 : 0;
     let body;
     if (list) {
       const room = (areaBottom - areaTop) * (fmt.h > 1500 ? 0.34 : 0.36);
@@ -319,7 +325,7 @@
     } else {
       body = fit(ctx, text, width, fmt.textSize, 28, 3, 500, BODY);
       body.lh = Math.round(body.size * 1.3);
-      body.height = body.lh * 3;  // fixed, so the rink does not jump between steps
+      body.height = Math.round(fmt.textSize * 1.3) * 3;  // fixed, so the rink does not jump between steps
     }
     const gaps = 36 + 44;
     const natural = width * (image.height / image.width) + 40;
@@ -336,9 +342,23 @@
     const scale = Math.min((width - 40) / image.width, (boxH - 40) / image.height);
     const iw = image.width * scale;
     const ih = image.height * scale;
+    if (underImage) ctx.drawImage(underImage, SIDE + (width - iw) / 2, y + (boxH - ih) / 2, iw, ih);
+    ctx.globalAlpha = underImage ? imageMix : 1;
     ctx.drawImage(image, SIDE + (width - iw) / 2, y + (boxH - ih) / 2, iw, ih);
+    ctx.globalAlpha = 1;
     y += boxH + 44;
 
+    if (dots) {
+      const r = dots.n > 12 ? 8 : 11;
+      const gap = r * 2.7;
+      for (let i = 0; i < dots.n; i += 1) {
+        ctx.beginPath();
+        ctx.arc(SIDE + r + i * gap, y + 14, i === dots.active ? r * 1.25 : r, 0, Math.PI * 2);
+        ctx.fillStyle = i <= dots.active ? c.rink : c.line;
+        ctx.fill();
+      }
+      y += labelH;
+    }
     if (label) {
       font(ctx, 700, 26, BODY);
       ctx.fillStyle = c.rink;
@@ -360,9 +380,19 @@
         y += lines.length * body.lh + Math.round(body.size * 0.45);
       });
     } else {
-      font(ctx, 500, body.size, BODY);
       ctx.fillStyle = c.ink;
-      body.lines.forEach((line, i) => ctx.fillText(line, SIDE, y + i * body.lh + body.size * 0.92));
+      const caption = (lines, size, lh, alpha) => {
+        ctx.globalAlpha = alpha;
+        font(ctx, 500, size, BODY);
+        lines.forEach((line, i) => ctx.fillText(line, SIDE, y + i * lh + size * 0.92));
+        ctx.globalAlpha = 1;
+      };
+      if (prevText && textMix < 1) {
+        const old = fit(ctx, prevText, width, fmt.textSize, 28, 3, 500, BODY);
+        caption(old.lines, old.size, Math.round(old.size * 1.3), Math.max(0, 1 - 2 * textMix));
+      }
+      // One text fades out, then the next fades in; two texts on top of each other are unreadable.
+      caption(body.lines, body.size, body.lh, prevText ? Math.max(0, 2 * textMix - 1) : 1);
     }
   };
 
@@ -375,7 +405,7 @@
     const fmt = FORMATS[format];
     const c = palette(theme);
     copyStyle.textContent = exportCss(c);
-    const image = await drawSvg(data.initial, -1);
+    const image = await drawSvg(data.initial, null);
     const canvas = document.createElement('canvas');
     canvas.width = W;
     canvas.height = fmt.h;
@@ -383,28 +413,60 @@
     return new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
   };
 
-  // The same timeline as the player: overview, every step, short pauses, and an end card.
+  // The video loops: it starts and ends on the same picture (everyone on their starting spot, no
+  // arrows, the first step's text), so Instagram's loop shows no cut. No step numbers, no overview
+  // and no end card; arrows fade in with their step and fade back, the caption dissolves.
+  const PAST = 0.22;
+  const LEAD = 700; // first picture, before the first move
+  const INTRO = 3200; // the rule of a game, long enough to read it
+  const FADE = 300; // arrows and caption of the next step fade in at the end of the pause
+  const HOLD = 560; // pause between steps
+  const TAIL = 700; // last picture before it dissolves back into the first
+  const DISSOLVE = 800;
+  const smooth = (t) => { const x = Math.max(0, Math.min(1, t)); return x * x * (3 - 2 * x); };
+  // Opacity of every step's arrows `ms` after step `index` began to fade in.
+  const opsAt = (index, ms) => steps.map((_, j) => (j < index - 1 ? PAST : j === index - 1 ? 1 - (1 - PAST) * smooth(ms / FADE) : j === index ? smooth(ms / FADE) : 0));
   const timeline = () => {
     const frames = [];
-    const hold = (positions, index, ms, end) => { for (let t = 0; t < ms; t += 1000 / FPS) frames.push({ positions, index, end }); };
-    hold(data.initial, -1, 1400);
+    const slot = 1000 / FPS;
+    const still = (positions, ops, step, ms, extra) => { for (let t = 0; t < ms; t += slot) frames.push({ positions, ops, step, ...(extra ? extra(t) : {}) }); };
+    if (data.intro) {
+      // The rule first (step -1), then the example run fades in on the same picture.
+      still(data.initial, opsAt(-1, 0), -1, INTRO);
+      still(data.initial, null, 0, FADE, (t) => ({ ops: opsAt(0, t), prev: -1, mix: smooth(t / FADE) }));
+      still(data.initial, opsAt(0, Infinity), 0, 300);
+    } else {
+      still(data.initial, null, 0, LEAD, (t) => ({ ops: opsAt(0, t) }));
+    }
     let positions = data.initial;
     steps.forEach((step, index) => {
       positions = { ...step.start };
-      hold(positions, index, 300);
+      const full = opsAt(index, Infinity);
       step.stages.forEach((stage) => {
         const { plan, total } = planStage(stage, false);
-        for (let t = 0; t <= total; t += 1000 / FPS) {
+        for (let t = 0; t <= total; t += slot) {
           const now = { ...positions };
           plan.forEach((p) => { const point = pointAt(p, t); if (point) now[p.move.e] = point; });
-          frames.push({ positions: now, index });
+          frames.push({ positions: now, ops: full, step: index });
         }
         positions = { ...positions };
         plan.forEach((p) => { positions[p.move.e] = pointAt(p, Infinity); });
       });
-      hold(positions, index, index === steps.length - 1 ? 900 : PAUSE + 250);
+      if (index < steps.length - 1) {
+        // The pause: the next step's arrows and caption fade in during its last FADE ms.
+        still(positions, full, index, HOLD, (t) => {
+          const m = t - (HOLD - FADE);
+          return m <= 0 ? {} : { ops: opsAt(index + 1, m), step: index + 1, prev: index, mix: smooth(m / FADE) };
+        });
+      }
     });
-    hold(positions, steps.length - 1, 1800, true);
+    const last = steps.length - 1;
+    const end = { positions, ops: steps.map((_, j) => (j === last ? 1 : PAST)) };
+    still(end.positions, end.ops, last, TAIL);
+    const first = data.intro ? -1 : 0;
+    still(end.positions, end.ops, first, DISSOLVE, (t) => ({ loop: smooth(t / DISSOLVE), prev: last, mix: smooth(t / DISSOLVE) }));
+    frames.push({ positions: data.initial, ops: steps.map(() => 0), step: first, loop: 1, prev: last, mix: 1 });
+    frames.end = end;
     return frames;
   };
 
@@ -423,7 +485,22 @@
     canvas.height = fmt.h;
     const ctx = canvas.getContext('2d');
     const frames = timeline();
-    drawCard(ctx, fmt, c, await drawSvg(frames[0].positions, -1), { label: 'Overview', text: `${steps.length} steps · watch the drill step by step` });
+    const dots = (active) => ({ n: steps.length, active });
+    const startImage = await drawSvg(data.initial, steps.map(() => 0));
+    const endImage = await drawSvg(frames.end.positions, frames.end.ops);
+    const captionOf = (index) => (index < 0 ? data.intro : steps[index].text);
+    const cardFor = async (frame) => {
+      const text = captionOf(frame.step);
+      const prevText = frame.prev === undefined ? undefined : captionOf(frame.prev);
+      if (frame.loop !== undefined) {
+        const shown = frame.loop > 0.5 ? frame.step : frame.prev;
+        return { underImage: endImage, image: startImage, imageMix: frame.loop, text, prevText, textMix: frame.mix, dots: dots(shown) };
+      }
+      const shown = frame.mix !== undefined && frame.mix < 0.5 ? frame.prev : frame.step;
+      return { image: await drawSvg(frame.positions, frame.ops), text, prevText, textMix: frame.mix === undefined ? 1 : frame.mix, dots: dots(shown) };
+    };
+    let card = await cardFor(frames[0]);
+    drawCard(ctx, fmt, c, card.image, card);
     const stream = canvas.captureStream(FPS);
     const recorder = new MediaRecorder(stream, { mimeType: type, videoBitsPerSecond: 8000000 });
     const chunks = [];
@@ -432,20 +509,14 @@
     recorder.start();
     // MediaRecorder records in real time, so every frame is drawn at its moment.
     const start = performance.now();
-    // A canvas stream only emits a frame when the canvas changes, so a still part (the pauses,
-    // the end card) is drawn again on every frame; otherwise it would get no duration in the video.
+    // A canvas stream only emits a frame when the canvas changes, so a still part (the pauses)
+    // is drawn again on every frame; otherwise it would get no duration in the video.
     let lastKey = '';
-    let card = null;
     for (let i = 0; i < frames.length; i += 1) {
       const frame = frames[i];
       const key = JSON.stringify(frame);
       if (key !== lastKey) {
-        const image = await drawSvg(frame.positions, frame.end ? -1 : frame.index);
-        let label = `Step ${frame.index + 1} / ${steps.length}`;
-        let text = frame.index >= 0 ? steps[frame.index].text : '';
-        if (frame.index < 0) { label = 'Overview'; text = `${steps.length} steps · watch the drill step by step`; }
-        if (frame.end) { label = 'More drills'; text = 'Animated drills with setup and coaching points: floorballconnect.com'; }
-        card = { image, label, text };
+        card = await cardFor(frame);
         lastKey = key;
       }
       drawCard(ctx, fmt, c, card.image, card);

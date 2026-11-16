@@ -9,6 +9,7 @@ described in docs/features/drill-diagrams.md; in short:
       "balls":   [{"id": "b", "with": "1"}] or [{"id": "b", "at": [x, y]}],
       "cones":   [[x, y], ...],
       "overview": 2,                                  # optional: steps the still picture shows
+      "intro": "3 vs 3 on one goal ...",              # optional: the rule of a game, shown first; the steps are an example run
       "steps": [
         {"text": "1 passes to 2.", "actions": [{"pass": "1", "to": "2"}]},
         {"text": "1 runs, 2 passes back into the run.",
@@ -209,6 +210,11 @@ class _Builder:
             else:
                 self.balls.append(Ball(bid, None, _point(ball.get("at"), f"ball {bid}")))
         self.cones = [_point(cone, f"cones[{i}]") for i, cone in enumerate(diagram.get("cones") or [])]
+        # The rule of the game in a sentence or two. The video opens with it, the page shows it above
+        # the picture; the steps then read as one example run of the game.
+        self.intro = str(diagram.get("intro") or "").strip()
+        if len(self.intro) > 170:
+            raise DiagramError(f"intro is {len(self.intro)} characters; keep it to 170 so it fits the video")
         self.steps = diagram.get("steps") or []
         # How many steps the still picture shows; drills that go back and forth several times
         # would be a tangle of arrows otherwise. The rest appears when the drill is played.
@@ -317,6 +323,24 @@ class _Builder:
         )
         return arrow_id
 
+    def _goalie_reaction(self, aim: tuple[float, float]) -> dict | None:
+        """The goalie in the goal a shot flies at leans towards the ball, so the save is not a statue.
+        Only a few decimetres; the player script plays it as long as the shot flies and the goalie stays
+        where he ended up (the next step starts from there)."""
+        goal_x = RINK_W - GOAL_LINE if aim[0] > RINK_W / 2 else GOAL_LINE
+        keepers = [pid for pid, player in self.players.items()
+                   if player["team"] == "goalie" and abs(self.pos[pid][0] - goal_x) < 4]
+        if not keepers:
+            return None
+        pid = keepers[0]
+        at = self.pos[pid]
+        lean = max(-0.7, min(0.7, (aim[1] - at[1]) * 1.4)) * self.k
+        if abs(lean) < 0.05:
+            return None
+        end = (at[0], at[1] + lean)
+        self.pos[pid] = end
+        return {"e": f"p-{pid}", "path": self._motion([at, end]), "kind": "react"}
+
     def _motion(self, points) -> str:
         motion_id = self._id("m")
         self.motion.append(f'<path id="{motion_id}" class="dd-motion" d="{_fmt(_smooth(points))}"/>')
@@ -355,7 +379,7 @@ class _Builder:
             via = [_point(p, where) for p in action.get("via") or []]
             points = [start, *via, end]
             self._arrow(kind, points, step, (PLAYER_R + 0.15) * self.k, (PLAYER_R + 0.25) * self.k)
-            moves.append({"e": f"p-{pid}", "path": self._motion(points)})
+            moves.append({"e": f"p-{pid}", "path": self._motion(points), "kind": kind})
             self.pos[pid] = end
             moved.add(pid)
             for ball in self.balls:
@@ -379,7 +403,7 @@ class _Builder:
                     raise DiagramError(f"{where}: the nearest free ball is more than 3 m away from {pid}")
                 ball.holder = pid
                 target = self._carried(self.pos[pid])
-                moves.append({"e": f"b-{ball.id}", "path": self._motion([ball.at, target]), "ball": True})
+                moves.append({"e": f"b-{ball.id}", "path": self._motion([ball.at, target]), "ball": True, "kind": "pickup"})
                 ball.at = target
                 continue
             ball = self._ball_of(pid, where)
@@ -402,11 +426,15 @@ class _Builder:
                 end = self._goal(target, from_at, where)
                 self._arrow("shot", [from_at, end], step, (PLAYER_R + 0.2) * self.k, 0.1)
                 ball.holder = None
-            move = {"e": f"b-{ball.id}", "path": self._motion([source, end]), "ball": True}
+            move = {"e": f"b-{ball.id}", "path": self._motion([source, end]), "ball": True, "kind": kind}
             if into:
                 move["into"] = into
             moves.append(move)
             ball.at = end
+            if kind == "shot" and target in (None, "goal", "left", "right"):
+                reaction = self._goalie_reaction(end)
+                if reaction:
+                    moves.append(reaction)
         return moves
 
     # -- drawing ---------------------------------------------------------------------------
@@ -493,8 +521,8 @@ def render(diagram: dict, uid: str = "dd", title: str = "") -> dict:
         f'<g class="dd-labels">{"".join(builder.labels)}</g>'
         f'</svg>'
     )
-    data = {"initial": initial, "steps": builder.timeline}
-    return {"svg": svg, "data": data, "steps": [entry["text"] for entry in builder.timeline], "overview": builder.overview}
+    data = {"initial": initial, "steps": builder.timeline, "intro": builder.intro}
+    return {"svg": svg, "data": data, "steps": [entry["text"] for entry in builder.timeline], "overview": builder.overview, "intro": builder.intro}
 
 
 def load_all(directory: Path | str) -> dict[str, dict]:

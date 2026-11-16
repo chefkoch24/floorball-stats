@@ -5,6 +5,7 @@
     -0.5,
     20.5
   ],
+  "intro": "Every child may score on every goal. Whoever has no ball tries to win one. Who scores the most goals?",
   "markings": false,
   "goals": [
     {
