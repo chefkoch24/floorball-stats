@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Santtu Ek
 Category: players
 Slug: player-f27ba34ab698ae92

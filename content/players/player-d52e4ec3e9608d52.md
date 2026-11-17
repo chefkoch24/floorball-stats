@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Svrčková Klára
 Category: players
 Slug: player-d52e4ec3e9608d52

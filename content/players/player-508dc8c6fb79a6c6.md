@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Dominik Novák
 Category: players
 Slug: player-508dc8c6fb79a6c6

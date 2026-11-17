@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Sophia Mangs
 Category: players
 Slug: player-3aabd723eac807fb

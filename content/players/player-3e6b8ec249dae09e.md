@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Dani Jaaranen
 Category: players
 Slug: player-3e6b8ec249dae09e

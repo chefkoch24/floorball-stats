@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Emelie Samuelsson
 Category: players
 Slug: player-3b3eee6025f7ff0c

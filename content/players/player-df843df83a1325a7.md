@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Max Johansson
 Category: players
 Slug: player-df843df83a1325a7

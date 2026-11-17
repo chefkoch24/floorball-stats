@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Viktória Komzalová
 Category: players
 Slug: player-269f80d8be0e4ad5

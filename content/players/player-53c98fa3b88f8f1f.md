@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Lauris Šterns
 Category: players
 Slug: player-53c98fa3b88f8f1f

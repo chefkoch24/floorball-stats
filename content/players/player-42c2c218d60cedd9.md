@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Emma Hedlund
 Category: players
 Slug: player-42c2c218d60cedd9

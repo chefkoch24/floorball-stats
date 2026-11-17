@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Michaela Žikavská
 Category: players
 Slug: player-f9e55f64b1e0e96d

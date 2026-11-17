@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Dominika Schiffelova
 Category: players
 Slug: player-0f50c1afd08beb87

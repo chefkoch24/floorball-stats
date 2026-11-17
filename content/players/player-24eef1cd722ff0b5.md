@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Rasmus Kainulainen
 Category: players
 Slug: player-24eef1cd722ff0b5

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Marie Suske
 Category: players
 Slug: player-d1589ad26a2ecaad

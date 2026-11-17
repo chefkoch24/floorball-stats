@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Nea Pirttilä
 Category: players
 Slug: player-d7ef5badca504544

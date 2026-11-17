@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Vojtěch Ott
 Category: players
 Slug: player-ee4ee0c73af92ed7

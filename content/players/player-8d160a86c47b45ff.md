@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Lisa Mumenthaler
 Category: players
 Slug: player-8d160a86c47b45ff

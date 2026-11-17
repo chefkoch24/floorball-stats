@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Joni Koskinen
 Category: players
 Slug: player-ce375a60e46e2f95

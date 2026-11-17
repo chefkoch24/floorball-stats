@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Viktorie Slezáková
 Category: players
 Slug: player-7c66c8439dfc2d4d

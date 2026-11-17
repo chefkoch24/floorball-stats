@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Timo Muggli
 Category: players
 Slug: player-2fcd9236a8867ab8

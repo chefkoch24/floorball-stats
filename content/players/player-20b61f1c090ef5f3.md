@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: David Surý
 Category: players
 Slug: player-20b61f1c090ef5f3

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Katarína Klapitová
 Category: players
 Slug: player-da785faf309741d4

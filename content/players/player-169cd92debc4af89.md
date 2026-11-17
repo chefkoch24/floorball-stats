@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Sophia Ryttergaard
 Category: players
 Slug: player-169cd92debc4af89

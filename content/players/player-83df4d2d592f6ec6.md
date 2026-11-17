@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Lukáš Holásek
 Category: players
 Slug: player-83df4d2d592f6ec6

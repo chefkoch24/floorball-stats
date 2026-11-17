@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Juni Söderqvist
 Category: players
 Slug: player-cff42dbef7318dcd

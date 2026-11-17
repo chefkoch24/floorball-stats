@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Minna Lantz
 Category: players
 Slug: player-4adaef7279beacf8

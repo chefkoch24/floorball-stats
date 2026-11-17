@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Florian Niederberger
 Category: players
 Slug: player-a6ae45b1d9d44ebf

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Kamila Posoldová
 Category: players
 Slug: player-cb65254af4c13d12

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Veronika Novotná
 Category: players
 Slug: player-bbbf83d8e2c6d396

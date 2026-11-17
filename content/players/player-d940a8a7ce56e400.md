@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Teemu Lakso
 Category: players
 Slug: player-d940a8a7ce56e400

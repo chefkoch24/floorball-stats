@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Victor Frisch
 Category: players
 Slug: player-c3fb646b6e703a1a

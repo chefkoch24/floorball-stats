@@ -73,7 +73,7 @@ pregame_h2h_special_away_pp_eff: 50.0
 pregame_h2h_special_home_pk_eff: 33.33
 pregame_h2h_special_home_pp_eff: 70.0
 result_string: None
-start_time: 00:00
+start_time: 18:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
@@ -81,6 +81,8 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
 tournament_stage_label: osmifinále
 tournament_stage_type: elimination
+venue: Kategorie II Slavia VŠ Plzeň
+venue_address: U Borského parku 2916/19 Plzeň
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

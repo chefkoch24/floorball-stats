@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Václav Vavruška C
 Category: players
 Slug: player-d5846217ea7aacf7

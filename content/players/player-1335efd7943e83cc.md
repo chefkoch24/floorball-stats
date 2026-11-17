@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Karolína Janatková
 Category: players
 Slug: player-1335efd7943e83cc

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Gian Boner
 Category: players
 Slug: player-ade95704c7ce04e5

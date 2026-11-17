@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Martin Hriško
 Category: players
 Slug: player-4cbea637a60a67f1

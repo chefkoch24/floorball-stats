@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Tereza Havlová
 Category: players
 Slug: player-e917ba4caeb979ec

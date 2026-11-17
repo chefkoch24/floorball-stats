@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Noah Siegenthaler
 Category: players
 Slug: player-59db572fcd61b843

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Jenna Jolkkonen
 Category: players
 Slug: player-db95e36c4a3396cb

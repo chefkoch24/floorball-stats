@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Martin Fronc
 Category: players
 Slug: player-096ccd194a6d3b0b

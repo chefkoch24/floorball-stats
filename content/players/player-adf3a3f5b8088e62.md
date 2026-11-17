@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Peter Žofaj
 Category: players
 Slug: player-adf3a3f5b8088e62

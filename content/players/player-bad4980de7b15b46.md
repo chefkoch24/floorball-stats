@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Anna Vodhánělová
 Category: players
 Slug: player-bad4980de7b15b46

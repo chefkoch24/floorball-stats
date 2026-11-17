@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Adrija Krieviņa
 Category: players
 Slug: player-679da57a19ee554d

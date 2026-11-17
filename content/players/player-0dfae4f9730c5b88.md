@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Helmer Hernegran
 Category: players
 Slug: player-0dfae4f9730c5b88

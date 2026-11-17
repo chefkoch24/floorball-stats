@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Elizabete Malnača
 Category: players
 Slug: player-9d50bae6ecdd0de7

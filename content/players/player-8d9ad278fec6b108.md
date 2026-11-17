@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Dārta Derupa
 Category: players
 Slug: player-8d9ad278fec6b108

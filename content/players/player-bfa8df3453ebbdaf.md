@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Ladina Töndury
 Category: players
 Slug: player-bfa8df3453ebbdaf

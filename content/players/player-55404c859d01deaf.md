@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Paavo Hakala
 Category: players
 Slug: player-55404c859d01deaf

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Tomáš Veselý
 Category: players
 Slug: player-b82d72abe189fab2

@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Richard Hodák
 Category: players
 Slug: player-fdc1c425134f9c99

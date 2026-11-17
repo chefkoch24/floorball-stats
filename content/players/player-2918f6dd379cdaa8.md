@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Hemmingberg Porral
 Category: players
 Slug: player-2918f6dd379cdaa8

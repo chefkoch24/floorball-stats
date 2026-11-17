@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Léon Cosandey
 Category: players
 Slug: player-1e46ae5a46d7a300

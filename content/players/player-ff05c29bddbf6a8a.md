@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Petra Miková
 Category: players
 Slug: player-ff05c29bddbf6a8a

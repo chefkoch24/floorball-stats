@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Markéta Vrlíková
 Category: players
 Slug: player-35bd1df3b07181b4

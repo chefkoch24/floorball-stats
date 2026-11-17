@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Simon Möller
 Category: players
 Slug: player-b6b45ec7015ff707

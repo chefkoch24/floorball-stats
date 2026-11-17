@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Jasper Kunzendorf
 Category: players
 Slug: player-c4bd957e30ede9a3

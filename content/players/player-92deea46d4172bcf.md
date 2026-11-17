@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Filip Schönbeck
 Category: players
 Slug: player-92deea46d4172bcf

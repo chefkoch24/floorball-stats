@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Linda Streďanská
 Category: players
 Slug: player-0c40e674f7f4c26d

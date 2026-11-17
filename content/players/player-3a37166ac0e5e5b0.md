@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Kristína Hajasová
 Category: players
 Slug: player-3a37166ac0e5e5b0

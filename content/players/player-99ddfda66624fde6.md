@@ -1,4 +1,4 @@
-Date: 2026-11-16
+Date: 2026-11-17
 Title: Vojtěch Doleček
 Category: players
 Slug: player-99ddfda66624fde6
