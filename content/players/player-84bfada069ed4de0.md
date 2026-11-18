@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Neea Isomäki
 Category: players
 Slug: player-84bfada069ed4de0

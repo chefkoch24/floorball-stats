@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Hana Kuchařová
 Category: players
 Slug: player-1c89fe2ef554808f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 234
+rank: 235
 season: czw-26-27

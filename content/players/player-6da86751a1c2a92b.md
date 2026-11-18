@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Arvid Lundholm
 Category: players
 Slug: player-6da86751a1c2a92b

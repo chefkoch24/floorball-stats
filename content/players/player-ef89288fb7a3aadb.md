@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Tereza Zvěřinová
 Category: players
 Slug: player-ef89288fb7a3aadb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 290
 season: czw-26-27

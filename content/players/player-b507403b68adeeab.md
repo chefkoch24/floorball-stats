@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Kateřina Stoklásková
 Category: players
 Slug: player-b507403b68adeeab
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 62
+rank: 65
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Klára Pabiánová
 Category: players
 Slug: player-ec50ba6ed56bca37
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 133
+rank: 135
 season: czw-26-27

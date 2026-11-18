@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Dennis Kramer
 Category: players
 Slug: player-947bdca874c9da34

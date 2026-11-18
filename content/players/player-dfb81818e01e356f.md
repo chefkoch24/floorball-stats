@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Henna Kuukasjärvi
 Category: players
 Slug: player-dfb81818e01e356f

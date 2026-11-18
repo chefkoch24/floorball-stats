@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Michaela Cidlinská
 Category: players
 Slug: player-25751eef535eae09
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 59
+rank: 62
 season: czw-26-27

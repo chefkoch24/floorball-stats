@@ -443,6 +443,7 @@ away_pregame_points_against_fbs_bohemians: 1
 away_pregame_points_against_fbs_olomouc: 3
 away_pregame_points_against_gc_system_bulldogs_brno: 0
 away_pregame_points_against_k1_florbal_brno_zidenice: 3
+away_pregame_points_against_prague_tigers_nehvizdy: 3
 away_pregame_points_against_tatran_stresovice: 1
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ellen Lundin
 Category: players
 Slug: player-505fedee4fe1709b

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Monika Šolleová
 Category: players
 Slug: player-066fa5a02b8b44bc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 180
+rank: 181
 season: czw-26-27

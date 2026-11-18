@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Nikola Skoková
 Category: players
 Slug: player-e01bbcfae78be8c4

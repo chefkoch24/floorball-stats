@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Adam Kuchař
 Category: players
 Slug: player-0fb38c275bbf1b3c

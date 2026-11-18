@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Nikola Štekerová
 Category: players
 Slug: player-7d02cf6a25ece151
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 16
+rank: 17
 season: czw-26-27

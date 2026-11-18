@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Tomáš Dlesk C
 Category: players
 Slug: player-803d6aeae46e2631

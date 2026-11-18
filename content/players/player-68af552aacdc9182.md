@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Vojtek Erik
 Category: players
 Slug: player-68af552aacdc9182

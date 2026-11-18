@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Aneta Machulková
 Category: players
 Slug: player-90e3731bf1fc6dc5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 196
+rank: 197
 season: czw-26-27

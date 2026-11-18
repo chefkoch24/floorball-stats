@@ -322,6 +322,7 @@ home_pregame_points_after_first_period: 10
 home_pregame_points_after_first_period_per_game: 1.43
 home_pregame_points_after_second_period: 16
 home_pregame_points_after_third_period: 15
+home_pregame_points_against_1_sc_tempish_vitkovice: 3
 home_pregame_points_against_acema_sparta_praha: 3
 home_pregame_points_against_amix_florbal_mb: 3
 home_pregame_points_against_ba_sokoli_pardubice: 3
@@ -440,6 +441,7 @@ away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 1
 away_pregame_points_against_1_sc_tempish_vitkovice: 0
 away_pregame_points_against_acema_sparta_praha: 0
+away_pregame_points_against_amix_florbal_mb: 0
 away_pregame_points_against_ba_sokoli_pardubice: 0
 away_pregame_points_against_bulldogs_brno: 0
 away_pregame_points_against_fat_pipe_florbal_chodov: 1

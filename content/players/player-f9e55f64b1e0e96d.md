@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Michaela Žikavská
 Category: players
 Slug: player-f9e55f64b1e0e96d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 58
+rank: 61
 season: czw-26-27

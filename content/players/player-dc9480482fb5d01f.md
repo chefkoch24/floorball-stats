@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Markéta Lenfeldová
 Category: players
 Slug: player-dc9480482fb5d01f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 26
+rank: 28
 season: czw-26-27

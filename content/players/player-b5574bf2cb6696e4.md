@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Karolína Priknerová
 Category: players
 Slug: player-b5574bf2cb6696e4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 240
+rank: 241
 season: czw-26-27

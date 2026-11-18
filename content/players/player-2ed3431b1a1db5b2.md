@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Petra Škodová
 Category: players
 Slug: player-2ed3431b1a1db5b2
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 53
+rank: 56
 season: czw-26-27

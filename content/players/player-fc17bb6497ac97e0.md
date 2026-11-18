@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Emma Šlopková
 Category: players
 Slug: player-fc17bb6497ac97e0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 227
+rank: 228
 season: czw-26-27

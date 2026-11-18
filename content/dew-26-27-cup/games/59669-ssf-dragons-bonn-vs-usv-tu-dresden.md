@@ -1,11 +1,11 @@
 Date: 2026-12-20
-Title: 59667-forde-deerns-vs-noch-nicht-bekannt
+Title: 59669-ssf-dragons-bonn-vs-usv-tu-dresden
 Category: dew-26-27-cup, game
-Slug: 59667-forde-deerns-vs-noch-nicht-bekannt-dew-26-27-cup
+Slug: 59669-ssf-dragons-bonn-vs-usv-tu-dresden-dew-26-27-cup
 type: game
-game_id: 59667
-home_team: Förde Deerns
-away_team: Noch nicht bekannt
+game_id: 59669
+home_team: SSF Dragons Bonn
+away_team: USV TU Dresden
 attendance: None
 away_goal_diffs_csv: 
 away_goal_minutes_csv: 
@@ -73,7 +73,7 @@ pregame_h2h_special_away_pp_eff: n.a.
 pregame_h2h_special_home_pk_eff: n.a.
 pregame_h2h_special_home_pp_eff: n.a.
 result_string: None
-start_time: 16:00
+start_time: None
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Joonatan Lindholm
 Category: players
 Slug: player-a53bf34dec8574c1

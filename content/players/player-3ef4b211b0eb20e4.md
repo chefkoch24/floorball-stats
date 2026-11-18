@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Markus Holenstein
 Category: players
 Slug: player-3ef4b211b0eb20e4

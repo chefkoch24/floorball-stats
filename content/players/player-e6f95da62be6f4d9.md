@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Nikola Liberdová C
 Category: players
 Slug: player-e6f95da62be6f4d9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 284
+rank: 285
 season: czw-26-27

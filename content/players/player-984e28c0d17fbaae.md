@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Sami Johansson
 Category: players
 Slug: player-bad99b26f77ae879

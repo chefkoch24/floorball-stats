@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Vendula Kasal
 Category: players
 Slug: player-609c9e78d11fd59d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 293
+rank: 294
 season: czw-26-27

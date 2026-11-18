@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ester Kovaříková
 Category: players
 Slug: player-a9fe01ea6f971050
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 228
+rank: 229
 season: czw-26-27

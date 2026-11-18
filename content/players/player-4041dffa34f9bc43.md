@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Viktorie Hrazdírová
 Category: players
 Slug: player-4041dffa34f9bc43
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 300
+rank: 301
 season: czw-26-27

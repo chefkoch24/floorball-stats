@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ondřej Martinec
 Category: players
 Slug: player-a9e4c65059a1fd43

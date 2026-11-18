@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Tereza Adamišová
 Category: players
 Slug: player-b3305ee0e44b88e9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 287
+rank: 288
 season: czw-26-27

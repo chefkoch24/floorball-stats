@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Markéta Baťková
 Category: players
 Slug: player-1a514ff571bebbd6
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 178
+rank: 179
 season: czw-26-27

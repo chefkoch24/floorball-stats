@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Katerina Seemannova
 Category: players
 Slug: player-7b7448c581df8c2b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 82
+rank: 86
 season: czw-26-27

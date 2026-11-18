@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Markéta Prontekerová
 Category: players
 Slug: player-5d73c7be1f0e03bb
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 9
-rank: 27
+rank: 29
 season: czw-26-27

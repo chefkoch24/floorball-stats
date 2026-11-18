@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Kristýna Pospíšilová
 Category: players
 Slug: player-af7556726e2ea2da
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 174
+rank: 175
 season: czw-26-27

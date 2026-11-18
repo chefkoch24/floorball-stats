@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Laurenz Kahlmann
 Category: players
 Slug: player-b34bdd745f275fb9

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Noora Koskinen
 Category: players
 Slug: player-e3e08b7e7d12d8aa

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Tanja Lingelbach
 Category: players
 Slug: player-dc3ea588c123623f

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Anna Stará
 Category: players
 Slug: player-ed0f73609fde6528
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 78
+rank: 83
 season: czw-26-27

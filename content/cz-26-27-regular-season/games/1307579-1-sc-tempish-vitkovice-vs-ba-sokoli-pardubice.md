@@ -332,6 +332,7 @@ home_pregame_points_against_fbc_liberec: 3
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 0
 home_pregame_points_against_kanonyri_kladno: 2
+home_pregame_points_against_tatran_stresovice: 0
 home_pregame_points_max_difference_2: 10
 home_pregame_points_more_2_difference: 8
 home_pregame_points_per_game: 2.0
@@ -447,6 +448,7 @@ away_pregame_points_against_fbc_clt_ceska_lipa: 1
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbs_hummel_hattrick_brno: 3
 away_pregame_points_against_florbal_usti: 3
+away_pregame_points_against_hdt_cz_florbal_vary_bohemians: 2
 away_pregame_points_against_kanonyri_kladno: 3
 away_pregame_points_against_tatran_stresovice: 0
 away_pregame_points_max_difference_2: 4

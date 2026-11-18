@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Adrians Bukšs
 Category: players
 Slug: player-0ed5a8b2d67fb8fa

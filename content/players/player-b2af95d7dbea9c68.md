@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Zuzana Žampachová
 Category: players
 Slug: player-b2af95d7dbea9c68
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 115
+rank: 117
 season: czw-26-27

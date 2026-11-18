@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ema Varošová
 Category: players
 Slug: player-50f9c69aa7fcdd5e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 169
+rank: 171
 season: czw-26-27

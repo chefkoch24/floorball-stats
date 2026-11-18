@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Zuzana Cihelková
 Category: players
 Slug: player-4bb2f9aa912b4dd1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 303
+rank: 304
 season: czw-26-27

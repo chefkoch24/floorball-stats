@@ -6,19 +6,19 @@ type: game
 game_id: 1308173
 home_team: FBC ČPP MPL STAVEBNINY OSTRAVA
 away_team: Prague Tigers Nehvizdy
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 143.0
+away_goal_diffs_csv: -1,1,3,2,1
+away_goal_minutes_csv: 2.75,21.08,41.22,44.05,51.13
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMDI6NDUiLCJwZXJpb2QiOjEsInRlYW0iOiJQcmFndWUgVGlnZXJzIE5laHZpemR5Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiLFoMOhcmthIEplxb5kw61rb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci1jNTkzMmE4MjMwMjE4MTU0IiwiYXNzaXN0IjoiS2F0ZcWZaW5hIEt2YXBpbG92w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTk2ODI0Y2RmOTVmMjA2YTQiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIwNDo1MCIsInBlcmlvZCI6MSwidGVhbSI6IkZCQyDEjFBQIE1QTCBTVEFWRUJOSU5ZIE9TVFJBVkEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMToxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlBhdWzDrW5hIEh1ZMOha292w6EiLCJ0aXRsZV91aWQiOiJwbGF5ZXItNDU1MTY2YWFkNGM3NjgyYiIsImFzc2lzdCI6IkRlbmlzYSBLb3R6dXJvdsOhIiwiYXNzaXN0X3VpZCI6InBsYXllci1lMzNjOWFhOGEzZjc5OGUzIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTQ6NDQiLCJwZXJpb2QiOjEsInRlYW0iOiJGQkMgxIxQUCBNUEwgU1RBVkVCTklOWSBPU1RSQVZBIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJHYWJyaWVsYSBWYWN1bG92w6EiLCJ0aXRsZV91aWQiOiJwbGF5ZXItODU2N2RjYWM3ZmY5MzI3MyIsImFzc2lzdCI6IkRlbmlzYSBLb3R6dXJvdsOhIiwiYXNzaXN0X3VpZCI6InBsYXllci1lMzNjOWFhOGEzZjc5OGUzIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTg6MDMiLCJwZXJpb2QiOjEsInRlYW0iOiJGQkMgxIxQUCBNUEwgU1RBVkVCTklOWSBPU1RSQVZBIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJOZWxhIEthcGNvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLTMzODUwMmM5MmE4OGY2MWUiLCJhc3Npc3QiOiJWZW5kdWxhIFBvZHNlZG7DrWtvdsOhIiwiYXNzaXN0X3VpZCI6InBsYXllci1kNTExMDFhMzUxZjYyM2RiIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMjE6MDUiLCJwZXJpb2QiOjIsInRlYW0iOiJQcmFndWUgVGlnZXJzIE5laHZpemR5Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjM6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJNYXJrw6l0YSBWcmzDrWtvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLTM1YmQxZGYzYjA3MTgxYjQiLCJhc3Npc3QiOiJLcmlzdMO9bmEgWmVsZW7DoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItYzVkN2U3ZDI0NTdjMjI0NiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjIxOjE4IiwicGVyaW9kIjoyLCJ0ZWFtIjoiRkJDIMSMUFAgTVBMIFNUQVZFQk5JTlkgT1NUUkFWQSIsInNpZGUiOiJob21lIiwic2NvcmUiOiI0OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiQW5uYSBWxI1lbG7DoSIsInRpdGxlX3VpZCI6InBsYXllci1iOTY0YTIxOTMwZDYwZmNiIiwiYXNzaXN0IjoiTmVsYSBLYXBjb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItMzM4NTAyYzkyYTg4ZjYxZSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjI1OjE4IiwicGVyaW9kIjoyLCJ0ZWFtIjoiRkJDIMSMUFAgTVBMIFNUQVZFQk5JTlkgT1NUUkFWQSIsInNpZGUiOiJob21lIiwic2NvcmUiOiI1OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiR2FicmllbGEgVmFjdWxvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLTg1NjdkY2FjN2ZmOTMyNzMiLCJhc3Npc3QiOiJEZW5pc2EgS290enVyb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItZTMzYzlhYThhM2Y3OThlMyIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjM5OjI5IiwicGVyaW9kIjoyLCJ0ZWFtIjoiRkJDIMSMUFAgTVBMIFNUQVZFQk5JTlkgT1NUUkFWQSIsInNpZGUiOiJob21lIiwic2NvcmUiOiI2OjIiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiRGVuaXNhIEtvdHp1cm92w6EiLCJ0aXRsZV91aWQiOiJwbGF5ZXItZTMzYzlhYThhM2Y3OThlMyIsImFzc2lzdCI6IlBhdWzDrW5hIEh1ZMOha292w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTQ1NTE2NmFhZDRjNzY4MmIiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI0MToxMyIsInBlcmlvZCI6MywidGVhbSI6IlByYWd1ZSBUaWdlcnMgTmVodml6ZHkiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiNjozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1hcmvDqXRhIFZybMOta292w6EiLCJ0aXRsZV91aWQiOiJwbGF5ZXItMzViZDFkZjNiMDcxODFiNCIsImFzc2lzdCI6IkVsacWha2EgSG9yw6Frb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItZmRmMGMwN2RmNjgyMGQ3ZCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjQ0OjAzIiwicGVyaW9kIjozLCJ0ZWFtIjoiUHJhZ3VlIFRpZ2VycyBOZWh2aXpkeSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiI2OjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiS2F0ZcWZaW5hIEt2YXBpbG92w6EgYmV6IGFzaXN0ZW5jZSIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjpudWxsLCJhc3Npc3RfdWlkIjpudWxsLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI1MTowOCIsInBlcmlvZCI6MywidGVhbSI6IlByYWd1ZSBUaWdlcnMgTmVodml6ZHkiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiNjo1IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlZlcm9uaWthIEJhbGVqb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci04ZWMzN2FhMzY1OGUxMzcyIiwiYXNzaXN0IjoiS2Fyb2zDrW5hIEZvxZl0b3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItY2E4ZDcyOWVmNWFiOTcxOSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 13
+game_state: played
+game_status: None
+home_goal_diffs_csv: 0,1,2,2,3,4
+home_goal_minutes_csv: 4.83,14.73,18.05,21.3,25.3,39.48
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 50.0
 pregame_h2h_special_away_pp_eff: 0.0
 pregame_h2h_special_home_pk_eff: 71.43
 pregame_h2h_special_home_pp_eff: 0.0
-result_string: None
-start_time: 15:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+result_string: 6:5
+start_time: 02:45
+timeline_away_goals_csv: 0,1,1,1,1,2,2,2,2,3,4,5
+timeline_diffs_csv: 0,-1,0,1,2,1,2,3,4,3,2,1
+timeline_home_goals_csv: 0,0,1,2,3,3,4,5,6,6,6,6
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,2.75,4.83,14.73,18.05,21.08,21.3,25.3,39.48,41.22,44.05,51.13
 venue: Kategorie I ČPP Aréna Ostrava
 venue_address: Hladnovská 259/128 Ostrava
 home_away_points: 0
@@ -91,34 +91,34 @@ home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
-home_equalizer_goals: 0
+home_draws: 0
+home_equalizer_goals: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: 1
+home_goals: 6
+home_goals_against: 5
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 5
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 6
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period: 3
+home_goals_in_first_period_against: 1
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
+home_goals_in_second_period: 3
+home_goals_in_second_period_against: 1
 home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
-home_home_points: 1
+home_goals_in_third_period_against: 3
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -136,15 +136,16 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
-home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
+home_points_after_first_period: 3
+home_points_after_second_period: 3
+home_points_after_third_period: 3
+home_points_against_prague_tigers_nehvizdy: 3
 home_points_max_difference_2: 0
-home_points_more_2_difference: 0
+home_points_more_2_difference: 3
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
 home_powerplay_first_period: 0
@@ -152,11 +153,11 @@ home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_seconds: 0
 home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
-home_win_1: 0
-home_wins: 0
-away_away_points: 1
+home_take_the_lead_goals: 1
+home_take_the_lead_goals_against: 1
+home_win_1: 1
+home_wins: 1
+away_away_points: 0
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -167,36 +168,36 @@ away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
-away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_equalizer_goals_against: 1
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: -1
+away_goals: 5
+away_goals_against: 6
+away_goals_against_away: 6
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 5
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period: 1
+away_goals_in_first_period_against: 3
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
+away_goals_in_second_period: 1
+away_goals_in_second_period_against: 3
+away_goals_in_third_period: 3
 away_goals_in_third_period_against: 0
 away_home_points: 0
-away_loss_1: 0
-away_losses: 0
+away_loss_1: 1
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
 away_penalties: 0
@@ -212,13 +213,14 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 0
+away_points_against_fbc_cpp_mpl_stavebniny_ostrava: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -228,8 +230,8 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals: 1
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 4
@@ -327,6 +329,7 @@ home_pregame_points_against_fbs_bohemians: 1
 home_pregame_points_against_fbs_olomouc: 3
 home_pregame_points_against_gc_system_bulldogs_brno: 0
 home_pregame_points_against_k1_florbal_brno_zidenice: 3
+home_pregame_points_against_prague_tigers_nehvizdy: 3
 home_pregame_points_against_tatran_stresovice: 1
 home_pregame_points_max_difference_2: 6
 home_pregame_points_more_2_difference: 7
@@ -437,6 +440,7 @@ away_pregame_points_after_third_period: 5
 away_pregame_points_against_1_sc_tempish_vitkovice: 0
 away_pregame_points_against_crazy_girls_fbc_liberec: 3
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
+away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 0
 away_pregame_points_against_fbc_intevo_trinec: 1
 away_pregame_points_against_fbs_olomouc: 2
 away_pregame_points_against_gc_system_bulldogs_brno: 0

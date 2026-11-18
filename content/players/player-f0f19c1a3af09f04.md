@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Alžběta Hánová
 Category: players
 Slug: player-f0f19c1a3af09f04
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 192
+rank: 193
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Matěj Prašivka
 Category: players
 Slug: player-27def6e853f2a93f

@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Jiří Curney
 Category: players
 Slug: player-c8b838bb04b6a09f

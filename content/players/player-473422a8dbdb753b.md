@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Šárka Zhébalová
 Category: players
 Slug: player-473422a8dbdb753b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 32
+rank: 34
 season: czw-26-27

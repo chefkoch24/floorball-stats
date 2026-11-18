@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ralfs Redjko
 Category: players
 Slug: player-0849ab6dacc94437

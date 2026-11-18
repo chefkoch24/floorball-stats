@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Klára Makyčová
 Category: players
 Slug: player-b3d91c5a6864abac
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 251
+rank: 252
 season: czw-26-27

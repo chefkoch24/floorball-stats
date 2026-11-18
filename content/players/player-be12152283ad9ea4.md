@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Lucie Ema Navrátilová
 Category: players
 Slug: player-be12152283ad9ea4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 156
+rank: 157
 season: czw-26-27

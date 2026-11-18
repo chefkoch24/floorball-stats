@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Lukas Wahl
 Category: players
 Slug: player-af6decd677ddb180

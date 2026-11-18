@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Vendula Řeřichová
 Category: players
 Slug: player-0fbd8fee74532bcf

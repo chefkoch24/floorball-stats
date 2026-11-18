@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Barbora Levová
 Category: players
 Slug: player-bdbf18190e49f6ab
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 206
+rank: 207
 season: czw-26-27

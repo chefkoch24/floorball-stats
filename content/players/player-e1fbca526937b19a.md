@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Alexander Dancák
 Category: players
 Slug: player-e1fbca526937b19a

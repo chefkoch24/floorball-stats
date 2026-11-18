@@ -6,7 +6,7 @@ type: game
 game_id: 1097119
 home_team: Kloten-Dietlikon Jets
 away_team: Zug United
-attendance: 0
+attendance: 247
 away_goal_diffs_csv: -1,-2,-3,-4,-3
 away_goal_minutes_csv: 15.13,36.98,44.73,50.18,59.12
 away_major_penalty_minutes_csv: 

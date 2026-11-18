@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Siljan Ritz
 Category: players
 Slug: player-f1ac4ea0b23b2a65

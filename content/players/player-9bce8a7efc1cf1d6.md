@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Eva Böhmová
 Category: players
 Slug: player-9bce8a7efc1cf1d6
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 229
+rank: 230
 season: czw-26-27

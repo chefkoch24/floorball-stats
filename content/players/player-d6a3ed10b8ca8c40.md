@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Lukas Cordes
 Category: players
 Slug: player-d6a3ed10b8ca8c40

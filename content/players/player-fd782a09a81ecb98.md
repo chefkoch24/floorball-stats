@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Julia Croneld
 Category: players
 Slug: player-fd782a09a81ecb98

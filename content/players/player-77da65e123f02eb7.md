@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Adam Šmíd
 Category: players
 Slug: player-77da65e123f02eb7

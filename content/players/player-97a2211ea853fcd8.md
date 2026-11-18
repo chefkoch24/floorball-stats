@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Hugo Lindberg
 Category: players
 Slug: player-97a2211ea853fcd8

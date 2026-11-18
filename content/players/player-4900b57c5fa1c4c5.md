@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Lucie Seifertová
 Category: players
 Slug: player-4900b57c5fa1c4c5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 90
+rank: 92
 season: czw-26-27

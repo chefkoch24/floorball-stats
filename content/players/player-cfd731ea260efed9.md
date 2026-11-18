@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Eliška Hotová
 Category: players
 Slug: player-cfd731ea260efed9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 223
 season: czw-26-27

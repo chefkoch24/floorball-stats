@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Ondřej Zientek
 Category: players
 Slug: player-640fed1d941bbb57

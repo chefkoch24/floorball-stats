@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Adela Casteckova
 Category: players
 Slug: player-c2304c6c22b0fd34
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 52
+rank: 55
 season: czw-26-27

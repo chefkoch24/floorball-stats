@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Dorota Iwanuszek
 Category: players
 Slug: player-b244a1a23bcb3bde
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 218
+rank: 219
 season: czw-26-27

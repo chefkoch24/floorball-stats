@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Linda Hrnčířová
 Category: players
 Slug: player-1a13bcf9af37c4eb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 175
+rank: 176
 season: czw-26-27

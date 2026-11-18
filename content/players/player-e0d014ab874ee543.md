@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Filip Prokop
 Category: players
 Slug: player-e0d014ab874ee543

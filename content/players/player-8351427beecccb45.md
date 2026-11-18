@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Moritz Krebs
 Category: players
 Slug: player-8351427beecccb45

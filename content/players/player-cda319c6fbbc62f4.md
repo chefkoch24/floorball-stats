@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Roni Tammi
 Category: players
 Slug: player-cda319c6fbbc62f4

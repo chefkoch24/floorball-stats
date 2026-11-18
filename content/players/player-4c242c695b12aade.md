@@ -1,4 +1,4 @@
-Date: 2026-11-17
+Date: 2026-11-18
 Title: Karolina Bartonkova
 Category: players
 Slug: player-4c242c695b12aade
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 56
+rank: 59
 season: czw-26-27
