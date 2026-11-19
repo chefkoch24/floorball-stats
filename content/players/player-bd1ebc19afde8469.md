@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Milla Nordlund
 Category: players
 Slug: player-bd1ebc19afde8469
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 23
-rank: 1
+rank: 2
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Nevio Principe
 Category: players
 Slug: player-ab16c9d353adc853

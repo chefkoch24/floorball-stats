@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jakub Hromada
 Category: players
 Slug: player-77dc95773d12fba8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 6
 current_assists: 6
 current_points: 12
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 6
 regular_assists: 6
 regular_points: 12
@@ -36,18 +36,18 @@ previous_goals: 19
 previous_assists: 16
 previous_points: 35
 previous_pim: 12
-career_games: 38
+career_games: 39
 career_goals: 25
 career_assists: 22
 career_points: 47
 career_pim: 12
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|11|6|6|12|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|3|5|8|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|21|16|11|27|10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|12|6|6|12|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|3|5|8|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|21|16|11|27|10
 assists: 6
-games: 11
+games: 12
 goals: 6
 penalties: 0
 phase: regular-season
 pim: 0
 points: 12
-rank: 46
+rank: 52
 season: cz-26-27

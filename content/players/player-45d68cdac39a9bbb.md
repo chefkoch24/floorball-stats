@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Simon Stransky
 Category: players
 Slug: player-45d68cdac39a9bbb
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
-current_goals: 15
-current_assists: 9
-current_points: 24
-current_pim: 2
-regular_games: 12
-regular_goals: 15
-regular_assists: 9
-regular_points: 24
-regular_pim: 2
+current_games: 14
+current_goals: 18
+current_assists: 11
+current_points: 29
+current_pim: 4
+regular_games: 14
+regular_goals: 18
+regular_assists: 11
+regular_points: 29
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 32
 previous_assists: 38
 previous_points: 70
 previous_pim: 6
-career_games: 46
-career_goals: 49
-career_assists: 47
-career_points: 96
-career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|12|15|9|24|2||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|2|0|2|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|6|7|13|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|26|31|57|4
-assists: 9
-games: 12
-goals: 15
-penalties: 1
+career_games: 48
+career_goals: 52
+career_assists: 49
+career_points: 101
+career_pim: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|14|18|11|29|4||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|2|0|2|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|6|7|13|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|25|26|31|57|4
+assists: 11
+games: 14
+goals: 18
+penalties: 2
 phase: regular-season
-pim: 2
-points: 24
-rank: 7
+pim: 4
+points: 29
+rank: 4
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michal Malec
 Category: players
 Slug: player-9e4912b7ef2ff412
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
-current_goals: 0
+current_games: 12
+current_goals: 1
 current_assists: 4
-current_points: 4
+current_points: 5
 current_pim: 4
-regular_games: 11
-regular_goals: 0
+regular_games: 12
+regular_goals: 1
 regular_assists: 4
-regular_points: 4
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 13
 previous_points: 33
 previous_pim: 4
-career_games: 44
-career_goals: 20
+career_games: 45
+career_goals: 21
 career_assists: 17
-career_points: 37
+career_points: 38
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|11|0|4|4|4||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|20|13|33|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|12|1|4|5|4||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|33|20|13|33|4
 assists: 4
-games: 11
-goals: 0
+games: 12
+goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
-points: 4
-rank: 153
+points: 5
+rank: 139
 season: cz-26-27

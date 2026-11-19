@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Peter Solár
 Category: players
 Slug: player-bb2662e3ed0a9c89

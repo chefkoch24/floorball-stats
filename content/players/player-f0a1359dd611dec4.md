@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michaela Kadlecová
 Category: players
 Slug: player-f0a1359dd611dec4

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Matej Hrabovský
 Category: players
 Slug: player-238e094b6a12b7ea

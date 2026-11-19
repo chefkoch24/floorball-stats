@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Mikael Kiukkonen
 Category: players
 Slug: player-7111eba0480c03ab

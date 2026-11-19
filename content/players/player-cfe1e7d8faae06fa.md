@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Martin Kisugite
 Category: players
 Slug: player-cfe1e7d8faae06fa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 180
+rank: 182
 season: cz-26-27

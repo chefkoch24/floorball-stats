@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Zigmārs Pudenko
 Category: players
 Slug: player-93ebe59b646be6e7

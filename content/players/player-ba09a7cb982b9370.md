@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Dennis Schiffer
 Category: players
 Slug: player-ba09a7cb982b9370

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jakub Gruber
 Category: players
 Slug: player-07d82d9e7dc5b1d8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 13
+current_games: 14
 current_goals: 11
 current_assists: 3
 current_points: 14
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 5
 regular_assists: 1
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 16
 previous_points: 32
 previous_pim: 4
-career_games: 45
+career_games: 46
 career_goals: 21
 career_assists: 17
 career_points: 38
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|11|5|1|6|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|6|2|8|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|9|5|4|9|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|25|11|12|23|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|12|5|1|6|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|6|2|8|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|9|5|4|9|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|25|11|12|23|4
 assists: 1
-games: 11
+games: 12
 goals: 5
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 102
+rank: 109
 season: cz-26-27

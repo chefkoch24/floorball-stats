@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Filip Silverhall
 Category: players
 Slug: player-be39276c2be875f8

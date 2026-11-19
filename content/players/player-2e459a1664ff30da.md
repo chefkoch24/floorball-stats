@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Tiitus Salokangas
 Category: players
 Slug: player-2e459a1664ff30da

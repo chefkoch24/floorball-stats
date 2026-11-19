@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Elena Böttrich
 Category: players
 Slug: player-324c8b93253ebcb7

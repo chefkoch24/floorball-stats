@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Kalle Nilsson
 Category: players
 Slug: player-654bf032fc1c7ba3

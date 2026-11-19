@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Vojtěch Novák
 Category: players
 Slug: player-d88e2b698bd0583b
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 9
-rank: 78
+rank: 83
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Céline Stäubli
 Category: players
 Slug: player-86cc9eee0f8cc616

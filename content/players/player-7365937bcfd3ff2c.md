@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Niklas Fiemel
 Category: players
 Slug: player-7365937bcfd3ff2c

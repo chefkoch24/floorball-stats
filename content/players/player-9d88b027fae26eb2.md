@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Elīza Anastasija Pētersone
 Category: players
 Slug: player-9d88b027fae26eb2

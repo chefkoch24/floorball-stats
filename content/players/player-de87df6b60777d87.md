@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Tomáš Tvrdý
 Category: players
 Slug: player-de87df6b60777d87

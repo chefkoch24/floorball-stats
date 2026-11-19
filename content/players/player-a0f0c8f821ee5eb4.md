@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Nicol Fryčová
 Category: players
 Slug: player-a0f0c8f821ee5eb4

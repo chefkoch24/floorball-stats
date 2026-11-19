@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Edvards Egliens
 Category: players
 Slug: player-6b8b5f8d7d5f90f7

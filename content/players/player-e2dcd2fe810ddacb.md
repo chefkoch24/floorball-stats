@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Viktória Kukučová
 Category: players
 Slug: player-e2dcd2fe810ddacb

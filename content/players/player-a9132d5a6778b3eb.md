@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Sebastián Hachlica
 Category: players
 Slug: player-a9132d5a6778b3eb
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 4
+current_games: 5
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 3
+regular_games: 4
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 11
+career_games: 12
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|3|0|0|0|0||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|1|1|2|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|2|0|0|0|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|6|0|0|0|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|4|0|0|0|0||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|1|1|2|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|2|0|0|0|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|6|0|0|0|2
 assists: 0
-games: 3
+games: 4
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 354
+rank: 361
 season: cz-26-27

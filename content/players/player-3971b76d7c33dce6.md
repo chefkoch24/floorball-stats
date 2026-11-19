@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Annika Hautojärvi
 Category: players
 Slug: player-3971b76d7c33dce6
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 128
+rank: 131
 season: fiw-26-27

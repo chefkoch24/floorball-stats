@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Klára Hodulíková
 Category: players
 Slug: player-f7299761ddd98a1c

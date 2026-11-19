@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Daniel Chatrný C
 Category: players
 Slug: player-2c9fa0e70c59f976
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 260
+rank: 264
 season: cz-26-27

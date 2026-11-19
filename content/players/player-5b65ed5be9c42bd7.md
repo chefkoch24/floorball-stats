@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jakub Buršík
 Category: players
 Slug: player-5b65ed5be9c42bd7
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 13
-current_assists: 15
-current_points: 28
+current_assists: 18
+current_points: 31
 current_pim: 2
-regular_games: 10
+regular_games: 11
 regular_goals: 10
-regular_assists: 12
-regular_points: 22
+regular_assists: 15
+regular_points: 25
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 47
 previous_assists: 23
 previous_points: 70
 previous_pim: 14
-career_games: 44
+career_games: 45
 career_goals: 57
-career_assists: 35
-career_points: 92
+career_assists: 38
+career_points: 95
 career_pim: 16
-history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|10|10|12|22|2||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|2|3|3|6|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|11|10|5|15|8||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|23|37|18|55|6
-assists: 12
-games: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|11|10|15|25|2||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|2|3|3|6|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|11|10|5|15|8||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|23|37|18|55|6
+assists: 15
+games: 11
 goals: 10
 penalties: 1
 phase: regular-season
 pim: 2
-points: 22
-rank: 11
+points: 25
+rank: 10
 season: cz-26-27

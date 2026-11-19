@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lina Hägg
 Category: players
 Slug: player-b74ecc8b3d6f572b

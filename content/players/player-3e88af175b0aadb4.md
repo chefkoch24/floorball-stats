@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Adam Bures
 Category: players
 Slug: player-3e88af175b0aadb4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 81
+rank: 86
 season: cz-26-27

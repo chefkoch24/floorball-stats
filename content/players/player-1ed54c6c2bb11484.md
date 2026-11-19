@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Annija Dārta Dankfelde
 Category: players
 Slug: player-1ed54c6c2bb11484

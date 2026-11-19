@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Matěj Stránský
 Category: players
 Slug: player-fe3c6df2cd189586
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 220
+rank: 223
 season: cz-26-27

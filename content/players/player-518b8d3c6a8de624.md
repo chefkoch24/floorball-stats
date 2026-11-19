@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Adéla Žampachová
 Category: players
 Slug: player-518b8d3c6a8de624

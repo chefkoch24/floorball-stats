@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Janne Makkonen
 Category: players
 Slug: player-c0e0fc72b2666ff2

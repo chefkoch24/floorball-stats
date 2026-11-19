@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Mias Wellauer
 Category: players
 Slug: player-d1079a9e8afbdc0b

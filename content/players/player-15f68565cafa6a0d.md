@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Andrea Wildermuth
 Category: players
 Slug: player-15f68565cafa6a0d

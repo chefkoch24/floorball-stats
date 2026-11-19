@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Matěj Adamec
 Category: players
 Slug: player-dfd40c71aae6ddec
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 314
+rank: 321
 season: cz-26-27

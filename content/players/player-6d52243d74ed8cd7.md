@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Vanesa Hudecová
 Category: players
 Slug: player-6d52243d74ed8cd7

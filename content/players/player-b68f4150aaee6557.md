@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michaela Žáková
 Category: players
 Slug: player-b68f4150aaee6557

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Nadia Cattaneo
 Category: players
 Slug: player-039ac19e903fa26f

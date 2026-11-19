@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Noah Wolbold
 Category: players
 Slug: player-a70d9ed2743ce84f

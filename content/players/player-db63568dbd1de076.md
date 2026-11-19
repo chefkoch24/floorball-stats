@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Alma Hedman
 Category: players
 Slug: player-db63568dbd1de076

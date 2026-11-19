@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Linda Fuchsova
 Category: players
 Slug: player-dabf243360ad5510

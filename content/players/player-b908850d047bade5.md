@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Samuel Savka
 Category: players
 Slug: player-b908850d047bade5

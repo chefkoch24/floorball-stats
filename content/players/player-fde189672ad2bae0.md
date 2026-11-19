@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Rianna Palmroth
 Category: players
 Slug: player-fde189672ad2bae0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 197
+rank: 200
 season: fiw-26-27

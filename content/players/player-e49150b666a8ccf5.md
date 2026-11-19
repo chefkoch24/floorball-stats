@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Aleksi Elmeranta
 Category: players
 Slug: player-e49150b666a8ccf5

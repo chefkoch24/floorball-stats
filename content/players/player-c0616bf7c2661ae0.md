@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jánošík Jakub
 Category: players
 Slug: player-c0616bf7c2661ae0

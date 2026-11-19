@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Viktor Steinz
 Category: players
 Slug: player-b6d032aaad3d765a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 177
+rank: 180
 season: cz-26-27

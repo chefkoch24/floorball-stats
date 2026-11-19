@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Daniel Vik
 Category: players
 Slug: player-a8a6d9a89e3fd6d0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 27
+rank: 33
 season: cz-26-27

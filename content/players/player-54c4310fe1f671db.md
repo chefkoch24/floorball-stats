@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jenni Leppänen
 Category: players
 Slug: player-54c4310fe1f671db
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 94
+rank: 97
 season: fiw-26-27

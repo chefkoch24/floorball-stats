@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lucie Seifertová
 Category: players
 Slug: player-4900b57c5fa1c4c5

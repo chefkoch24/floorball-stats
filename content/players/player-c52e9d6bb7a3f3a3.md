@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Milja-Maria Saarikoski
 Category: players
 Slug: player-c52e9d6bb7a3f3a3
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 135
+rank: 139
 season: fiw-26-27

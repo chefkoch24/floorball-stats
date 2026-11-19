@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Laura Vytrhlíková
 Category: players
 Slug: player-637ddc63ab9213db

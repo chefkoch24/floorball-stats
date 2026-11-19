@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Vojtěch Janeček
 Category: players
 Slug: player-9a036eb7c186ab7f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 124
+rank: 131
 season: cz-26-27

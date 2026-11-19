@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Bára Kováříková
 Category: players
 Slug: player-7aa4c4d67b9e1f2f

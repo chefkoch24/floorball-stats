@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jakub Kopecký
 Category: players
 Slug: player-3441ab2d70cbac9b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 14
-rank: 29
+rank: 35
 season: cz-26-27

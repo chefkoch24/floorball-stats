@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jorina Rutschi
 Category: players
 Slug: player-e3eff0f1045ce7e6

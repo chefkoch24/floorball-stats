@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lukáš Laštík
 Category: players
 Slug: player-a85729efa3c2ca8f

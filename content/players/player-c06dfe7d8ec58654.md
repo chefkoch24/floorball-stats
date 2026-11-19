@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Aaro Tammiranta
 Category: players
 Slug: player-c06dfe7d8ec58654
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 7
+current_games: 8
 current_goals: 5
-current_assists: 7
-current_points: 12
+current_assists: 9
+current_points: 14
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 5
-regular_assists: 7
-regular_points: 12
+regular_assists: 9
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 27
 previous_points: 44
 previous_pim: 6
-career_games: 35
+career_games: 36
 career_goals: 23
-career_assists: 34
-career_points: 57
+career_assists: 36
+career_points: 59
 career_pim: 6
-history_rows_csv: fi-26-27|regular-season|Finland|SPV|7|5|7|12|0||cc-26-27|tournament|IFF Champions Cup|SPV|1|1|0|1|0||fi-25-26|regular-season|Finland|SPV|27|17|27|44|6
-assists: 7
-games: 7
+history_rows_csv: fi-26-27|regular-season|Finland|SPV|8|5|9|14|0||cc-26-27|tournament|IFF Champions Cup|SPV|1|1|0|1|0||fi-25-26|regular-season|Finland|SPV|27|17|27|44|6
+assists: 9
+games: 8
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 12
-rank: 33
+points: 14
+rank: 26
 season: fi-26-27

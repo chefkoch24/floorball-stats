@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Václav Jurdzin
 Category: players
 Slug: player-6a46c7b521e8a7ce
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 0
 current_assists: 1
 current_points: 1
-current_pim: 0
-regular_games: 11
+current_pim: 2
+regular_games: 12
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 0
-career_games: 31
+career_games: 32
 career_goals: 1
 career_assists: 1
 career_points: 2
-career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|11|0|1|1|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|18|1|0|1|0
+career_pim: 2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|12|0|1|1|2||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|18|1|0|1|0
 assists: 1
-games: 11
+games: 12
 goals: 0
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 1
-rank: 248
+rank: 253
 season: cz-26-27

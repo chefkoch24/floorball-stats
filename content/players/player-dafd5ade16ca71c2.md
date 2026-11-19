@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Pavlina Soukupova
 Category: players
 Slug: player-dafd5ade16ca71c2

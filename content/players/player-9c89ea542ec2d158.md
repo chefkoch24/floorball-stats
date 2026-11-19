@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Sofie Gocova
 Category: players
 Slug: player-9c89ea542ec2d158

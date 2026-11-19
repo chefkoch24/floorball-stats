@@ -327,6 +327,7 @@ home_pregame_points_against_lasb: 3
 home_pregame_points_against_nokian_krp: 1
 home_pregame_points_against_oilers: 0
 home_pregame_points_against_ols: 2
+home_pregame_points_against_spv: 0
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 1.67

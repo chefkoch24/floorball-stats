@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Veronika Králová
 Category: players
 Slug: player-5ef9d34ec1e53e4c

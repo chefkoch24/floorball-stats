@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Aleksis Šērs
 Category: players
 Slug: player-fd7ac852e132bf65

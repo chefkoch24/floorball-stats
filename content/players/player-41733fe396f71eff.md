@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lukáš Rada
 Category: players
 Slug: player-41733fe396f71eff
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 3
 current_assists: 6
 current_points: 9
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 10
 previous_points: 27
 previous_pim: 2
-career_games: 41
+career_games: 42
 career_goals: 19
 career_assists: 14
 career_points: 33
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|9|2|4|6|2||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians / HDT.cz Florbal Vary Bohemians / Florbal Sokolov|3|1|2|3|2||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|7|1|1|2|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|25|16|9|25|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|10|2|4|6|2||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians / HDT.cz Florbal Vary Bohemians / Florbal Sokolov|3|1|2|3|2||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|7|1|1|2|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|25|16|9|25|0
 assists: 4
-games: 9
+games: 10
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 108
+rank: 116
 season: cz-26-27

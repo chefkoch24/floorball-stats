@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Nelia Ahlholm
 Category: players
 Slug: player-1b36f320a5a5a5ce

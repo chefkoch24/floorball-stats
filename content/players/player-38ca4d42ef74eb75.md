@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Ilmari Saarinen
 Category: players
 Slug: player-38ca4d42ef74eb75

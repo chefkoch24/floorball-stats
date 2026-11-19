@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: David Slončík
 Category: players
 Slug: player-29633d67ed94beaa
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 9
-current_assists: 6
-current_points: 15
+current_assists: 7
+current_points: 16
 current_pim: 2
-regular_games: 10
+regular_games: 11
 regular_goals: 9
-regular_assists: 6
-regular_points: 15
+regular_assists: 7
+regular_points: 16
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 6
 previous_points: 17
 previous_pim: 0
-career_games: 42
+career_games: 43
 career_goals: 20
-career_assists: 12
-career_points: 32
+career_assists: 13
+career_points: 33
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|10|9|6|15|2||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|3|1|4|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|26|8|5|13|0
-assists: 6
-games: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|11|9|7|16|2||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|3|1|4|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|26|8|5|13|0
+assists: 7
+games: 11
 goals: 9
 penalties: 1
 phase: regular-season
 pim: 2
-points: 15
+points: 16
 rank: 23
 season: cz-26-27

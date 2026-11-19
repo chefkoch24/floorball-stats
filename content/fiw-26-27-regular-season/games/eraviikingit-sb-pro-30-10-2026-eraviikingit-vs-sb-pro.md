@@ -321,6 +321,7 @@ home_pregame_points_after_first_period_per_game: 1.86
 home_pregame_points_after_second_period: 13
 home_pregame_points_after_third_period: 15
 home_pregame_points_against_fbc_loisto: 0
+home_pregame_points_against_koovee: 3
 home_pregame_points_against_northern_stars: 3
 home_pregame_points_against_pirkat: 3
 home_pregame_points_against_pss: 3

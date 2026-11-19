@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Tomáš Daněk
 Category: players
 Slug: player-e3e5199fde46e705
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 361
+rank: 368
 season: cz-26-27

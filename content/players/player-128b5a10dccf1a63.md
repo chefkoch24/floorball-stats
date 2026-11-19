@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Treneris Ivars Jēkabsons
 Category: players
 Slug: player-128b5a10dccf1a63

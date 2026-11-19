@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Karel Petrák
 Category: players
 Slug: player-9ced8eb0c77fc40b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 20
-rank: 12
+rank: 13
 season: cz-26-27

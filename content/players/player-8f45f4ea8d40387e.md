@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Anna Marttala
 Category: players
 Slug: player-8f45f4ea8d40387e
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 5
+current_games: 8
+current_goals: 6
 current_assists: 12
-current_points: 17
+current_points: 18
 current_pim: 4
-regular_games: 6
-regular_goals: 5
+regular_games: 7
+regular_goals: 6
 regular_assists: 11
-regular_points: 16
+regular_points: 17
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 5
+career_games: 7
+career_goals: 6
 career_assists: 11
-career_points: 16
+career_points: 17
 career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|5|11|16|2||fiw-26-27|cup|Finland Women|TPS|1|0|1|1|2
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|7|6|11|17|2||fiw-26-27|cup|Finland Women|TPS|1|0|1|1|2
 assists: 11
-games: 6
-goals: 5
+games: 7
+goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
-points: 16
+points: 17
 rank: 12
 season: fiw-26-27

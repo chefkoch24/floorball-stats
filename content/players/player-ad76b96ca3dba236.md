@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Martin Tomek
 Category: players
 Slug: player-ad76b96ca3dba236
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 8
-regular_games: 11
+regular_games: 12
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 3
 previous_points: 5
 previous_pim: 0
-career_games: 30
+career_games: 31
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|11|0|1|1|8||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|17|2|2|4|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|12|0|1|1|8||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|17|2|2|4|0
 assists: 1
-games: 11
+games: 12
 goals: 0
 penalties: 4
 phase: regular-season
 pim: 8
 points: 1
-rank: 239
+rank: 242
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lovisa Hedin
 Category: players
 Slug: player-db520e89b952f5e2

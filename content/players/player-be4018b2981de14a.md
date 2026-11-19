@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Ilona Hlavínová
 Category: players
 Slug: player-be4018b2981de14a

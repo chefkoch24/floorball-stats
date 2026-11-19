@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Johann Fohrenkamm
 Category: players
 Slug: player-57c08e3b87c431bf

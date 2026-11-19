@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Joona Mattila
 Category: players
 Slug: player-a04b0ef9f381499d

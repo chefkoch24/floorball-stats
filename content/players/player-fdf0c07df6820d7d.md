@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Eliška Horáková
 Category: players
 Slug: player-fdf0c07df6820d7d

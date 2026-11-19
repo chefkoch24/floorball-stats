@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michal Feňo
 Category: players
 Slug: player-ec9d112112df27c6

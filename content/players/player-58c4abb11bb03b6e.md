@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michal Fišera
 Category: players
 Slug: player-58c4abb11bb03b6e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 194
+rank: 200
 season: cz-26-27

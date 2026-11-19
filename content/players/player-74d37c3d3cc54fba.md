@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Michal Valachovič
 Category: players
 Slug: player-74d37c3d3cc54fba
@@ -11,12 +11,12 @@ season_count: 1
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 8
 current_assists: 2
 current_points: 10
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 8
 regular_assists: 2
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 12
 career_goals: 8
 career_assists: 2
 career_points: 10
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|11|8|2|10|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Bulldogs Brno|12|8|2|10|2
 assists: 2
-games: 11
+games: 12
 goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 65
+rank: 72
 season: cz-26-27

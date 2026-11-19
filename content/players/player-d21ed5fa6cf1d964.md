@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Kristers Orlovs
 Category: players
 Slug: player-d21ed5fa6cf1d964

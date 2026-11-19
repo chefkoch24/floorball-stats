@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Jesper Alm
 Category: players
 Slug: player-ae3b1fd7645d0cc5

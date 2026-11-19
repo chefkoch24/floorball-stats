@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Kristýna Dvořáková C
 Category: players
 Slug: player-2eacfdcaef8d732c

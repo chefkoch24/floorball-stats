@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lukas Stempfle
 Category: players
 Slug: player-adbc399c18cef8a3

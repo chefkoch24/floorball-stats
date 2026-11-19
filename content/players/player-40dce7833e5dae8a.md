@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Pārstāvis Karīna Saidova
 Category: players
 Slug: player-40dce7833e5dae8a

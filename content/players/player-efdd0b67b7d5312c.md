@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Daofu Jin
 Category: players
 Slug: player-efdd0b67b7d5312c

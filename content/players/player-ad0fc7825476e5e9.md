@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Barbora Zamazal Husková
 Category: players
 Slug: player-ad0fc7825476e5e9

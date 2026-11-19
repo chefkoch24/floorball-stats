@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Stella Starkopf
 Category: players
 Slug: player-afb8f5a210255fc2

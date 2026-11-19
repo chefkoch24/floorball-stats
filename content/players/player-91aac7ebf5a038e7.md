@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Matúš Gajdoš
 Category: players
 Slug: player-91aac7ebf5a038e7
@@ -11,15 +11,15 @@ season_count: 3
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 8
 current_goals: 4
-current_assists: 6
-current_points: 10
+current_assists: 7
+current_points: 11
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 4
-regular_assists: 6
-regular_points: 10
+regular_assists: 7
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 31
 previous_assists: 26
 previous_points: 57
 previous_pim: 6
-career_games: 50
+career_games: 51
 career_goals: 39
-career_assists: 36
-career_points: 75
+career_assists: 37
+career_points: 76
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|7|4|6|10|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|4|4|8|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|27|22|49|4||wfc-2024|tournament|IFF WFC|Slovakia|7|4|4|8|4
-assists: 6
-games: 7
+history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|8|4|7|11|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|10|4|4|8|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|26|27|22|49|4||wfc-2024|tournament|IFF WFC|Slovakia|7|4|4|8|4
+assists: 7
+games: 8
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
-points: 10
-rank: 71
+points: 11
+rank: 68
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Sandra Stark Jönsson
 Category: players
 Slug: player-fea8d657ede27ef8

@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Ernests Ronis
 Category: players
 Slug: player-ce8b724a1b93c978
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 4
+current_games: 5
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 12
 previous_points: 23
 previous_pim: 10
-career_games: 24
+career_games: 25
 career_goals: 12
 career_assists: 12
 career_points: 24
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|4|1|0|1|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|3|1|1|2|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|17|10|11|21|8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|5|1|0|1|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|3|1|1|2|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|17|10|11|21|8
 assists: 0
-games: 4
+games: 5
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 208
+rank: 214
 season: cz-26-27

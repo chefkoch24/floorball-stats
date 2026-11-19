@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Daniel Štěrba
 Category: players
 Slug: player-a603b94d68e79eb0
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 90
+rank: 93
 season: cz-26-27

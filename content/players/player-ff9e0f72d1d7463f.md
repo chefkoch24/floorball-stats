@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Ondrej Nemecek
 Category: players
 Slug: player-ff9e0f72d1d7463f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 16
-rank: 21
+rank: 24
 season: cz-26-27

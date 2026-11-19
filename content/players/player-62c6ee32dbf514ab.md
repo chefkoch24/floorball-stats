@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Nellie Öhgren
 Category: players
 Slug: player-62c6ee32dbf514ab

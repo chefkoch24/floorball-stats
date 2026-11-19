@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Lukas Sjöblom
 Category: players
 Slug: player-e0a39b7c6089e3ad

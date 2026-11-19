@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Matyáš Šindler
 Category: players
 Slug: player-ec52b5b89f21eb46
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 5
-current_assists: 16
-current_points: 21
+current_assists: 17
+current_points: 22
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 3
-regular_assists: 14
-regular_points: 17
+regular_assists: 15
+regular_points: 18
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 23
 previous_points: 29
 previous_pim: 2
-career_games: 46
+career_games: 47
 career_goals: 9
-career_assists: 37
-career_points: 46
+career_assists: 38
+career_points: 47
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|10|3|14|17|0||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|2|2|4|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|1|7|8|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|5|16|21|2
-assists: 14
-games: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|11|3|15|18|0||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|2|2|4|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|1|7|8|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|5|16|21|2
+assists: 15
+games: 11
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 17
-rank: 20
+points: 18
+rank: 21
 season: cz-26-27

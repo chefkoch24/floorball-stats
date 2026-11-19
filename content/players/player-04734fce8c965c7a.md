@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Helen Bircher
 Category: players
 Slug: player-04734fce8c965c7a

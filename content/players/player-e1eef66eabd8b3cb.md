@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: eeva-maria heininen
 Category: players
 Slug: player-e1eef66eabd8b3cb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 168
+rank: 172
 season: fiw-26-27

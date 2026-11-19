@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Milan Tomasik
 Category: players
 Slug: player-3cfaeb607dfc6965
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 9
-current_assists: 4
-current_points: 13
+current_games: 8
+current_goals: 11
+current_assists: 5
+current_points: 16
 current_pim: 0
-regular_games: 7
-regular_goals: 9
-regular_assists: 4
-regular_points: 13
+regular_games: 8
+regular_goals: 11
+regular_assists: 5
+regular_points: 16
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 21
 previous_points: 38
 previous_pim: 2
-career_games: 26
-career_goals: 26
-career_assists: 26
-career_points: 52
+career_games: 27
+career_goals: 28
+career_assists: 27
+career_points: 55
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|7|9|4|13|0||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|5|6|11|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|10|12|15|27|0
-assists: 4
-games: 7
-goals: 9
+history_rows_csv: cz-26-27|regular-season|Czech Republic|AMIX Florbal MB|8|11|5|16|0||cc-26-27|tournament|IFF Champions Cup|AMIX Florbal MB|1|0|1|1|0||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|8|5|6|11|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|10|12|15|27|0
+assists: 5
+games: 8
+goals: 11
 penalties: 0
 phase: regular-season
 pim: 0
-points: 13
-rank: 36
+points: 16
+rank: 22
 season: cz-26-27

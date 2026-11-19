@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Filip Forman
 Category: players
 Slug: player-2cf4db881ec2143f
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 30
-rank: 1
+rank: 3
 season: cz-26-27

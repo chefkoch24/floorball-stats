@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Albert Haasz
 Category: players
 Slug: player-6a71ab5be9aff71d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
+current_games: 8
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 1
 previous_points: 4
 previous_pim: 2
-career_games: 26
+career_games: 27
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|7|0|1|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|1|0|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|10|2|1|3|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|8|0|1|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|1|0|1|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|10|2|1|3|2
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 228
+rank: 231
 season: cz-26-27

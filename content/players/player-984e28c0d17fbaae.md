@@ -1,25 +1,25 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
 type: player
 player: Own Goal
 player_uid: player-984e28c0d17fbaae
-team: Classic / Indians / Jymy / Nokian KrP / SPV
-league: Finland
+team: EräViikingit / FBC Loisto / Pirkat / TPS
+league: Finland Women
 season_count: 3
-current_season: fi-26-27
+current_season: fiw-26-27
 current_season_is_tournament: no
-previous_season: fiw-26-27
-current_games: 5
-current_goals: 5
+previous_season: fi-26-27
+current_games: 4
+current_goals: 4
 current_assists: 0
-current_points: 5
+current_points: 4
 current_pim: 0
-regular_games: 5
-regular_goals: 5
+regular_games: 4
+regular_goals: 4
 regular_assists: 0
-regular_points: 5
+regular_points: 4
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,17 +31,17 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 3
-previous_goals: 3
+previous_games: 5
+previous_goals: 5
 previous_assists: 0
-previous_points: 3
+previous_points: 5
 previous_pim: 0
-career_games: 9
-career_goals: 9
+career_games: 10
+career_goals: 10
 career_assists: 0
-career_points: 9
+career_points: 10
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / SPV|5|5|0|5|0||fiw-26-27|regular-season|Finland Women|FBC Loisto / Pirkat / TPS|3|3|0|3|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
+history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / SPV|5|5|0|5|0||fiw-26-27|regular-season|Finland Women|EräViikingit / FBC Loisto / Pirkat / TPS|4|4|0|4|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
 assists: 0
 games: 5
 goals: 5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 98
+rank: 99
 season: fi-26-27

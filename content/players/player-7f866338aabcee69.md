@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Mila Strüngmann
 Category: players
 Slug: player-7f866338aabcee69

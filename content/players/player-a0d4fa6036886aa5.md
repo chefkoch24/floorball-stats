@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Hugo Bertilsson
 Category: players
 Slug: player-a0d4fa6036886aa5

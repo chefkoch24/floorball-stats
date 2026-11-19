@@ -1,4 +1,4 @@
-Date: 2026-11-18
+Date: 2026-11-19
 Title: Petro Rautio
 Category: players
 Slug: player-c1653c858c9ab93d
