@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Anders Skoog
 Category: players
 Slug: player-0108855820acfbda

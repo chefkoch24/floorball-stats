@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Kateřina Vrlová
 Category: players
 Slug: player-146b47c1fcde9c57

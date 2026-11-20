@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Victor Jensen
 Category: players
 Slug: player-9af74e76ff13276b

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Paul Denk
 Category: players
 Slug: player-ccaf8399798f1f5c

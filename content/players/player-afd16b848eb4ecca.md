@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Mikšánek
 Category: players
 Slug: player-afd16b848eb4ecca
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 281
+rank: 283
 season: cz-26-27

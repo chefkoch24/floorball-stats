@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Valérie Veverková
 Category: players
 Slug: player-aef371130fe5a1fb

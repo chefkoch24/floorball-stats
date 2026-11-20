@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Eva Böhmová
 Category: players
 Slug: player-9bce8a7efc1cf1d6

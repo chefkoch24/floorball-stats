@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Filip Neklan
 Category: players
 Slug: player-03260aab5efaa0f2

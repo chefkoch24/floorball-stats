@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Lukáš Täuber
 Category: players
 Slug: player-4a836dd0e1ccc117
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 304
+rank: 305
 season: cz-26-27

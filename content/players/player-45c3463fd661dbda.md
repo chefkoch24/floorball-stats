@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Mária Pánová
 Category: players
 Slug: player-45c3463fd661dbda

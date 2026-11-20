@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Daniel Vik
 Category: players
 Slug: player-a8a6d9a89e3fd6d0
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 13
+current_games: 14
 current_goals: 13
-current_assists: 8
-current_points: 21
+current_assists: 9
+current_points: 22
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 9
-regular_assists: 5
-regular_points: 14
+regular_assists: 6
+regular_points: 15
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 10
 previous_points: 26
 previous_pim: 4
-career_games: 42
+career_games: 43
 career_goals: 25
-career_assists: 15
-career_points: 40
+career_assists: 16
+career_points: 41
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|10|9|5|14|0||cz-26-27|cup|Czech Republic|FBC Liberec|3|4|3|7|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|32|16|10|26|4
-assists: 5
-games: 10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|11|9|6|15|0||cz-26-27|cup|Czech Republic|FBC Liberec|3|4|3|7|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|32|16|10|26|4
+assists: 6
+games: 11
 goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 14
-rank: 33
+points: 15
+rank: 28
 season: cz-26-27

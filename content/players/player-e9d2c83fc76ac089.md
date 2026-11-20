@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Minka Rönnberg
 Category: players
 Slug: player-e9d2c83fc76ac089

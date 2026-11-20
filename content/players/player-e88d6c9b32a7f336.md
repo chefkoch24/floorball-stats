@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Natália Galčíková
 Category: players
 Slug: player-e88d6c9b32a7f336

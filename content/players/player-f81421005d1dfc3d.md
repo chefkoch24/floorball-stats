@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Magnus-Ernst Scholz
 Category: players
 Slug: player-f81421005d1dfc3d

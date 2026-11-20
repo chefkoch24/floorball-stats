@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Oskars Venckus
 Category: players
 Slug: player-8707ef806aebe7c9

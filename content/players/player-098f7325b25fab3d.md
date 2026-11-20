@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Klāvs Kaspars
 Category: players
 Slug: player-098f7325b25fab3d

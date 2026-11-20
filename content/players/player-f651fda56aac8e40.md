@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Matteo Gervasoni
 Category: players
 Slug: player-f651fda56aac8e40

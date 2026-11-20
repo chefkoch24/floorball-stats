@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Latka
 Category: players
 Slug: player-a5bd129220da6da3

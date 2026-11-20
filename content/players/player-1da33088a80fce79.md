@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Wilma Svedlund
 Category: players
 Slug: player-1da33088a80fce79

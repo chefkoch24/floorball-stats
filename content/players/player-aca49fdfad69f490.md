@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Viktória Stanková
 Category: players
 Slug: player-aca49fdfad69f490

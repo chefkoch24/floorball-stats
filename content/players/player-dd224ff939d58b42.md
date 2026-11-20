@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Aino Järvinen
 Category: players
 Slug: player-dd224ff939d58b42

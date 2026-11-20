@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Filip Zakonov
 Category: players
 Slug: player-3bbcc546b73f9e09
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 53
+rank: 55
 season: cz-26-27

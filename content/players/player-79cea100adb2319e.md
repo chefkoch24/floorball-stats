@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Petra Aallonen
 Category: players
 Slug: player-79cea100adb2319e

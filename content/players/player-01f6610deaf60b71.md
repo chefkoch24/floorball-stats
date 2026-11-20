@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Elisa Vilhunen
 Category: players
 Slug: player-01f6610deaf60b71

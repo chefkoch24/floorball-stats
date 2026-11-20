@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Bohuslávek
 Category: players
 Slug: player-99466b9ed9b6fa5f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 77
+rank: 78
 season: cz-26-27

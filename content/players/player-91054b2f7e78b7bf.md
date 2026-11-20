@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Olafs Zvīnis
 Category: players
 Slug: player-91054b2f7e78b7bf

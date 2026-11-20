@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Linus Felix
 Category: players
 Slug: player-00e202d7e16ab27a

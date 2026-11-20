@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Loreta Vaļģe
 Category: players
 Slug: player-25eaec77dd5bc64a

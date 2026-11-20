@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ella Carlén
 Category: players
 Slug: player-66b0f6ba562e7eb2

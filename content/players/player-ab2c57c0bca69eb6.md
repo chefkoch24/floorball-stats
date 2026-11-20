@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ludwig Persson
 Category: players
 Slug: player-ab2c57c0bca69eb6

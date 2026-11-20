@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Simon Kráčmar
 Category: players
 Slug: player-6a1ba2cf603da079

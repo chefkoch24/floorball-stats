@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Teppo Liukkonen
 Category: players
 Slug: player-15dc8b93d7bdcb6d

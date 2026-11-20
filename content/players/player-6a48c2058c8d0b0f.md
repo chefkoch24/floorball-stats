@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Markuss Kaņeps
 Category: players
 Slug: player-6a48c2058c8d0b0f

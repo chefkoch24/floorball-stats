@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Miroslav Fořt
 Category: players
 Slug: player-e5e39398cf8be6cf
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 209
+rank: 211
 season: cz-26-27

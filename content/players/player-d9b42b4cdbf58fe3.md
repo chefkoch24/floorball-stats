@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Anze Habjan
 Category: players
 Slug: player-d9b42b4cdbf58fe3

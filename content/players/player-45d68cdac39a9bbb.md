@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Simon Stransky
 Category: players
 Slug: player-45d68cdac39a9bbb
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 29
-rank: 4
+rank: 5
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Klara Molin
 Category: players
 Slug: player-8fab8d4f980c0a6e

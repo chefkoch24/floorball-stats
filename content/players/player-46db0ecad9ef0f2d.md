@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Smutný
 Category: players
 Slug: player-46db0ecad9ef0f2d

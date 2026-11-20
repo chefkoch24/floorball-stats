@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Anton Åkerlund
 Category: players
 Slug: player-dc74e08db76b0105

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Martin Hrabánek
 Category: players
 Slug: player-681e4a56c8add2ca
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 187
+rank: 188
 season: cz-26-27

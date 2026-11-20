@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Janella Järvinen
 Category: players
 Slug: player-6ee45d5c141b140d

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Veronika Bezoušková
 Category: players
 Slug: player-6d41765b6adc891d

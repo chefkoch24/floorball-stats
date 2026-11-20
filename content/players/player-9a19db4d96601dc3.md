@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jiří Pecka
 Category: players
 Slug: player-9a19db4d96601dc3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 294
+rank: 295
 season: cz-26-27

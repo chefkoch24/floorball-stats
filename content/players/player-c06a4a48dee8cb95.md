@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Nils Baillif
 Category: players
 Slug: player-c06a4a48dee8cb95

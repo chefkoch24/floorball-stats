@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Max Kiener
 Category: players
 Slug: player-46ec6d8ee117829e

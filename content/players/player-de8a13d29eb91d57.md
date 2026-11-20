@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Rendl Andrej
 Category: players
 Slug: player-de8a13d29eb91d57

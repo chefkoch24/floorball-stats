@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Juraj Matejka
 Category: players
 Slug: player-61d02ce6ef3b973a

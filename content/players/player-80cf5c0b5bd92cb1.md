@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Martha Nylund
 Category: players
 Slug: player-80cf5c0b5bd92cb1

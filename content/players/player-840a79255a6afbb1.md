@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Michal Strachota
 Category: players
 Slug: player-840a79255a6afbb1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 14
-current_goals: 10
-current_assists: 9
-current_points: 19
+current_games: 15
+current_goals: 13
+current_assists: 10
+current_points: 23
 current_pim: 4
-regular_games: 11
-regular_goals: 8
-regular_assists: 2
-regular_points: 10
+regular_games: 12
+regular_goals: 11
+regular_assists: 3
+regular_points: 14
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 26
 previous_assists: 16
 previous_points: 42
 previous_pim: 2
-career_games: 31
-career_goals: 34
-career_assists: 18
-career_points: 52
+career_games: 32
+career_goals: 37
+career_assists: 19
+career_points: 56
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|11|8|2|10|4||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|3|2|7|9|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|2|2|0||25-26|regular-season|Germany|Unihockey Igels Dresden|18|26|14|40|2
-assists: 2
-games: 11
-goals: 8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|12|11|3|14|4||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|3|2|7|9|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|2|2|0||25-26|regular-season|Germany|Unihockey Igels Dresden|18|26|14|40|2
+assists: 3
+games: 12
+goals: 11
 penalties: 2
 phase: regular-season
 pim: 4
-points: 10
-rank: 71
+points: 14
+rank: 34
 season: cz-26-27

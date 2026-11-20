@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Procházka C
 Category: players
 Slug: player-911e638ed0c315da
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 282
+rank: 284
 season: cz-26-27

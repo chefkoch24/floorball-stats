@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Aneta Machulková
 Category: players
 Slug: player-90e3731bf1fc6dc5

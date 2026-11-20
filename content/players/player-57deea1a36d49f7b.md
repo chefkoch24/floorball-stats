@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Chris Hrušovský
 Category: players
 Slug: player-57deea1a36d49f7b

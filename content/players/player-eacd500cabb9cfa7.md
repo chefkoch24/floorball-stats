@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Michal Pešák
 Category: players
 Slug: player-eacd500cabb9cfa7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 246
+rank: 248
 season: cz-26-27

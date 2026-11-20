@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Sini-Tuulia Liljavirta
 Category: players
 Slug: player-9b35ea2af5a88f6a

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Eliška Planková
 Category: players
 Slug: player-fe0ef863a065317c

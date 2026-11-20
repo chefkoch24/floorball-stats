@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ville Harjunalanen
 Category: players
 Slug: player-2d42ba5b3d9bf353

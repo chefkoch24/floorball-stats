@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Adam Šmíd
 Category: players
 Slug: player-77da65e123f02eb7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 183
+rank: 184
 season: cz-26-27

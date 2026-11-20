@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Cameron Buck
 Category: players
 Slug: player-a5b7dcb7970242b0

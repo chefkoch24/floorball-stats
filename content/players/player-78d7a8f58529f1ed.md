@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Evelina Petersson
 Category: players
 Slug: player-78d7a8f58529f1ed

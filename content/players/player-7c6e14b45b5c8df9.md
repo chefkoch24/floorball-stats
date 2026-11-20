@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Hampus Öhgren
 Category: players
 Slug: player-7c6e14b45b5c8df9

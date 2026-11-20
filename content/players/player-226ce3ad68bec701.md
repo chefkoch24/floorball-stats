@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Robert Olma
 Category: players
 Slug: player-226ce3ad68bec701
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 225
+rank: 228
 season: cz-26-27

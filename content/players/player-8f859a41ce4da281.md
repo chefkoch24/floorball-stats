@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Lova Edwall
 Category: players
 Slug: player-8f859a41ce4da281

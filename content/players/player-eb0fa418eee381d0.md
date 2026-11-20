@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Gvido Grjunbergs
 Category: players
 Slug: player-eb0fa418eee381d0

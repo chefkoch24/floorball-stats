@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Anja Gross
 Category: players
 Slug: player-0a18ed9034cfdf70

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Mike Jäger
 Category: players
 Slug: player-bbddf44782ab46ce

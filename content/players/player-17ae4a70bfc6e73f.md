@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Matúš Machara
 Category: players
 Slug: player-17ae4a70bfc6e73f

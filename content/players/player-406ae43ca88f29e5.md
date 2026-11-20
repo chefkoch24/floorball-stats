@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Matěj Šmerda
 Category: players
 Slug: player-406ae43ca88f29e5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 138
+rank: 139
 season: cz-26-27

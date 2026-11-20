@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ilja Brunner
 Category: players
 Slug: player-0ce33e58a2a7c33c

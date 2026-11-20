@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Matias Kyykoski
 Category: players
 Slug: player-cff2ee8eb6cd3d42

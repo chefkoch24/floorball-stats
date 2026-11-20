@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: David Horký
 Category: players
 Slug: player-ea63f51cf2db9768
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 133
+rank: 135
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Simon Laraño
 Category: players
 Slug: player-fa0963a2c834e08e

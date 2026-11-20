@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Fredi Petersson
 Category: players
 Slug: player-acc0cea0e98372d0

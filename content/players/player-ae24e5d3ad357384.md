@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jakub Habrún
 Category: players
 Slug: player-ae24e5d3ad357384

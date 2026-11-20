@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Regnārs Kreičmanis
 Category: players
 Slug: player-8fd56f91c40ac36c

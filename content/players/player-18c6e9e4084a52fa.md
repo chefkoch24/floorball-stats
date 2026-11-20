@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Arttu Sassi
 Category: players
 Slug: player-18c6e9e4084a52fa

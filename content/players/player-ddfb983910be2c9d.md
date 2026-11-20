@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Sven Gebert
 Category: players
 Slug: player-ddfb983910be2c9d

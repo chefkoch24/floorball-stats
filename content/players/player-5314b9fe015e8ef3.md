@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Keno Volkmann
 Category: players
 Slug: player-5314b9fe015e8ef3

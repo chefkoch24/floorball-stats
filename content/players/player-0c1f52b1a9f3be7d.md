@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Linnea Stenqvist
 Category: players
 Slug: player-0c1f52b1a9f3be7d

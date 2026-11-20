@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Pārstāvis Andris Pīlups
 Category: players
 Slug: player-6c18f15badfad087

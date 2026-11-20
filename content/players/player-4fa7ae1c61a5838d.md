@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Karo Kantola
 Category: players
 Slug: player-4fa7ae1c61a5838d

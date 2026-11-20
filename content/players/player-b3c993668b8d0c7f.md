@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Kaapo Siekkinen
 Category: players
 Slug: player-b3c993668b8d0c7f

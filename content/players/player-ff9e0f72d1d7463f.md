@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ondrej Nemecek
 Category: players
 Slug: player-ff9e0f72d1d7463f

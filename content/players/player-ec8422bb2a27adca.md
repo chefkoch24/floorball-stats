@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Simona Pilíková
 Category: players
 Slug: player-ec8422bb2a27adca

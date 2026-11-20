@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: David Frolík
 Category: players
 Slug: player-44b8db6dec60f91c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 267
+rank: 269
 season: cz-26-27

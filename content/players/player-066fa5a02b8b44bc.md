@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Monika Šolleová
 Category: players
 Slug: player-066fa5a02b8b44bc

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Daniel Czapelka
 Category: players
 Slug: player-29c96cda094f9f07

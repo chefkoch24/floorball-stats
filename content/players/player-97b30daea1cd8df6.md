@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Arttu Pylväläinen
 Category: players
 Slug: player-97b30daea1cd8df6

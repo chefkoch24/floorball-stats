@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Leander Wittig
 Category: players
 Slug: player-0c38435a98edd4b8

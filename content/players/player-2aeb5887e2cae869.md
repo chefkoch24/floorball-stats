@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ondřej Trčka
 Category: players
 Slug: player-2aeb5887e2cae869
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 201
+rank: 203
 season: cz-26-27

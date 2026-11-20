@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Axel Telkki
 Category: players
 Slug: player-6ed1901a8debaae5

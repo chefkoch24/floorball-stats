@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ričards Eglītis
 Category: players
 Slug: player-3983df8d1acc6724

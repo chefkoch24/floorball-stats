@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Deniss Afanasjevs
 Category: players
 Slug: player-00ac5c6bed41cdfb

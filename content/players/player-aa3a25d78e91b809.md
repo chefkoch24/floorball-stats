@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Martin Bohumský
 Category: players
 Slug: player-aa3a25d78e91b809
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 0
-rank: 314
+rank: 315
 season: cz-26-27

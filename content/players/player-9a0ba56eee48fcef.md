@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Noel Johansson
 Category: players
 Slug: player-9a0ba56eee48fcef

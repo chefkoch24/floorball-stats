@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Manuel Hardegger
 Category: players
 Slug: player-d64bde9e5773541c

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Niklas Rutz
 Category: players
 Slug: player-d3e40eec70e142ce

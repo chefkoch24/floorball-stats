@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Tim Nyander
 Category: players
 Slug: player-f7d11fddc0c49e8c

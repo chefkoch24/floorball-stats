@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jonna-Liina Varis
 Category: players
 Slug: player-0a889ba51e05f7de

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Albin Carlsten
 Category: players
 Slug: player-dc5a6af04c8442bf

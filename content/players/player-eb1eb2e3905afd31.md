@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Albin Sjögren
 Category: players
 Slug: player-eb1eb2e3905afd31

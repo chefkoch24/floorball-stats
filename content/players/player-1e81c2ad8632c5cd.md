@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Filippa Öberg
 Category: players
 Slug: player-1e81c2ad8632c5cd

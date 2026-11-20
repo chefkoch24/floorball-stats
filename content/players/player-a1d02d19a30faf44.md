@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: René Slezák
 Category: players
 Slug: player-a1d02d19a30faf44
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 188
+rank: 189
 season: cz-26-27

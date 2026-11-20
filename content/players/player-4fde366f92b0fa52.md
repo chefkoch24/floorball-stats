@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Samuli Markus Kolho
 Category: players
 Slug: player-4fde366f92b0fa52
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 74
+rank: 75
 season: cz-26-27

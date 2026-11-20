@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Lena Rathje
 Category: players
 Slug: player-8730dec226ebe412

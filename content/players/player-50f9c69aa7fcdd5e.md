@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Ema Varošová
 Category: players
 Slug: player-50f9c69aa7fcdd5e

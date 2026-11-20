@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Mea Stigell
 Category: players
 Slug: player-426ec0ea10d4d66b

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Erika Nilsson
 Category: players
 Slug: player-9baedfa7e534c1a0

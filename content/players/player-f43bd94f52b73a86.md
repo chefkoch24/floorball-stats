@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Noah Norlander
 Category: players
 Slug: player-f43bd94f52b73a86

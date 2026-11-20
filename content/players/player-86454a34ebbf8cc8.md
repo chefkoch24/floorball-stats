@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Vlastimil Kolman
 Category: players
 Slug: player-86454a34ebbf8cc8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 374
+rank: 375
 season: cz-26-27

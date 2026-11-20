@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Emilia Pietilä
 Category: players
 Slug: player-24afab48be392a55

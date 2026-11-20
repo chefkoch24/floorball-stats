@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Lena Lorenz
 Category: players
 Slug: player-9e3cca0bf314e50a

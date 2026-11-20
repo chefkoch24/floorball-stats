@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Eemeli Karjanlahti
 Category: players
 Slug: player-8d18a963eaee6974

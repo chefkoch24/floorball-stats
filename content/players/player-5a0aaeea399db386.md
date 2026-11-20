@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Māris Parts
 Category: players
 Slug: player-5a0aaeea399db386

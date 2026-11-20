@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Martin Haleš
 Category: players
 Slug: player-b5c9fe02333111ce
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 240
+rank: 243
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jonas Kever
 Category: players
 Slug: player-6ca3b2ba8545bcea

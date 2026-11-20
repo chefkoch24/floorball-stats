@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Daniel Kellermann
 Category: players
 Slug: player-e60f2a0e0144dda4

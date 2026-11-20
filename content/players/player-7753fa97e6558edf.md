@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Marek Korych
 Category: players
 Slug: player-7753fa97e6558edf
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
+current_games: 15
 current_goals: 6
-current_assists: 13
-current_points: 19
+current_assists: 14
+current_points: 20
 current_pim: 10
-regular_games: 12
+regular_games: 13
 regular_goals: 4
-regular_assists: 10
-regular_points: 14
+regular_assists: 11
+regular_points: 15
 regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 22
 previous_assists: 31
 previous_points: 53
 previous_pim: 2
-career_games: 42
+career_games: 43
 career_goals: 26
-career_assists: 41
-career_points: 67
+career_assists: 42
+career_points: 68
 career_pim: 12
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|12|4|10|14|10||cz-26-27|cup|Czech Republic|FBC Liberec|2|2|3|5|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|30|22|31|53|2
-assists: 10
-games: 12
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|13|4|11|15|10||cz-26-27|cup|Czech Republic|FBC Liberec|2|2|3|5|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|30|22|31|53|2
+assists: 11
+games: 13
 goals: 4
 penalties: 5
 phase: regular-season
 pim: 10
-points: 14
-rank: 40
+points: 15
+rank: 33
 season: cz-26-27

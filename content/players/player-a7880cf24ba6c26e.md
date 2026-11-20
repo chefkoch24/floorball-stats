@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Benjamin Schill
 Category: players
 Slug: player-a7880cf24ba6c26e

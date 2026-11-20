@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Monika Krmelová
 Category: players
 Slug: player-748d5ab0694a04bb

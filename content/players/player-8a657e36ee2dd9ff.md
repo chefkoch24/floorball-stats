@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Svea André
 Category: players
 Slug: player-8a657e36ee2dd9ff

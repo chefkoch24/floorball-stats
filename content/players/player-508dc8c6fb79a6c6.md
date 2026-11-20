@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Dominik Novák
 Category: players
 Slug: player-508dc8c6fb79a6c6
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 125
+rank: 127
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Vanessa Weikum
 Category: players
 Slug: player-7a89917db0c39db6

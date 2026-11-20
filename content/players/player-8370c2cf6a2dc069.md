@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Lukáš Kubíček
 Category: players
 Slug: player-8370c2cf6a2dc069
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 219
+rank: 222
 season: cz-26-27

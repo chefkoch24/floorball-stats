@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Teppo Salo
 Category: players
 Slug: player-c33da4eab9a033c7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 136
+rank: 138
 season: cz-26-27

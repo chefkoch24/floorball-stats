@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Aurelia Gisler
 Category: players
 Slug: player-f61eff918f6d84fe

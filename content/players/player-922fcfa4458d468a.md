@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Milan Melis
 Category: players
 Slug: player-922fcfa4458d468a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 114
+rank: 115
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Linnea Hammar
 Category: players
 Slug: player-fb2af2908a01a9f4

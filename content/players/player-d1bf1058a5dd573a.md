@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Tristan Benetka
 Category: players
 Slug: player-d1bf1058a5dd573a

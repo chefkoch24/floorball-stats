@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Felix Ifwer
 Category: players
 Slug: player-ae7494050888bcdb

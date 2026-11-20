@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Milo Enzler
 Category: players
 Slug: player-bb662eedfbdc7c31

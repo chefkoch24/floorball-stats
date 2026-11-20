@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Michal Sladek
 Category: players
 Slug: player-9ef8d2e60a472e76
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 58
+rank: 61
 season: cz-26-27

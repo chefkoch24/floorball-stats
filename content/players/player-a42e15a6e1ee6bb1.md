@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Radim Křenek
 Category: players
 Slug: player-a42e15a6e1ee6bb1

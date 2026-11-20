@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Jan Samuel Polák
 Category: players
 Slug: player-a2d978d170eadaf3
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 292
+rank: 293
 season: cz-26-27

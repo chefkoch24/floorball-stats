@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Tobias Schaffner
 Category: players
 Slug: player-abda084a9e4ef138

@@ -1,4 +1,4 @@
-Date: 2026-11-19
+Date: 2026-11-20
 Title: Kristers Keišs
 Category: players
 Slug: player-ea317723bed5528b
