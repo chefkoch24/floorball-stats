@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Kevins Šmits
 Category: players
 Slug: player-14ef8c6bdfdc689b
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 16
-rank: 8
+rank: 12
 season: lv-26-27

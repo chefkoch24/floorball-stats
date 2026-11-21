@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Julia Turunen
 Category: players
 Slug: player-c6c628920ba420df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 105
+rank: 106
 season: fiw-26-27

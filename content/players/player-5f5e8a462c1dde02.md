@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Rolands Gustavs Vaivads
 Category: players
 Slug: player-5f5e8a462c1dde02
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 1
+current_games: 2
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 1
+regular_games: 2
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,14 +36,14 @@ previous_goals: 1
 previous_assists: 3
 previous_points: 4
 previous_pim: 6
-career_games: 26
+career_games: 27
 career_goals: 1
 career_assists: 3
 career_points: 4
 career_pim: 6
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|1|0|0|0|0||lv-25-26|playoffs|Latvia|FBK SĀC|2|0|0|0|2||lv-25-26|regular-season|Latvia|FBK SĀC|23|1|3|4|4
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|2|0|0|0|0||lv-25-26|playoffs|Latvia|FBK SĀC|2|0|0|0|2||lv-25-26|regular-season|Latvia|FBK SĀC|23|1|3|4|4
 assists: 0
-games: 1
+games: 2
 goals: 0
 penalties: 0
 phase: regular-season

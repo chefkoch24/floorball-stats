@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Markuss Januševskis
 Category: players
 Slug: player-6771da16c4fbc449

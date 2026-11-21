@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Semanová Kristína
 Category: players
 Slug: player-ccafec5483583c4d
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 12
-rank: 10
+rank: 11
 season: skw-26-27

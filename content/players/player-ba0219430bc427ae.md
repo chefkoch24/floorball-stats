@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Celine Stettler
 Category: players
 Slug: player-ba0219430bc427ae

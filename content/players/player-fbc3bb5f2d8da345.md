@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Nuutti Savela
 Category: players
 Slug: player-fbc3bb5f2d8da345

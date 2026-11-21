@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Veselovský Martin
 Category: players
 Slug: player-e83ca389fcd92114

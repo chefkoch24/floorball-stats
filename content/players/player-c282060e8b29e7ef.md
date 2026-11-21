@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: August Bergkvist
 Category: players
 Slug: player-c282060e8b29e7ef

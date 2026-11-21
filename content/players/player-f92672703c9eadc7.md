@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Senni Luukkonen
 Category: players
 Slug: player-f92672703c9eadc7

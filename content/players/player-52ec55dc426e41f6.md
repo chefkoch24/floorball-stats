@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Maija Justīne Jēkabsone
 Category: players
 Slug: player-52ec55dc426e41f6

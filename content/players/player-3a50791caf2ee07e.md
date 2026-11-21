@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jorens Štāls
 Category: players
 Slug: player-3a50791caf2ee07e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 100
+rank: 104
 season: lv-26-27

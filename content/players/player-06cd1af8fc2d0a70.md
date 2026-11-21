@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Barbora Panesova
 Category: players
 Slug: player-06cd1af8fc2d0a70

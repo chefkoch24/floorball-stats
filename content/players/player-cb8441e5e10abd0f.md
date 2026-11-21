@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Martin Glončák
 Category: players
 Slug: player-cb8441e5e10abd0f

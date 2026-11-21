@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Veera Kurikkala
 Category: players
 Slug: player-2b3147f6fa0967dc

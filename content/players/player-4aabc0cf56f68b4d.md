@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Kucej Jaroslav
 Category: players
 Slug: player-4aabc0cf56f68b4d

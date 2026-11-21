@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Laura Chúpeková
 Category: players
 Slug: player-9b0cf7d2dd430d5f
@@ -11,15 +11,15 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 11
-current_assists: 13
-current_points: 24
+current_games: 10
+current_goals: 13
+current_assists: 15
+current_points: 28
 current_pim: 2
-regular_games: 9
-regular_goals: 11
-regular_assists: 13
-regular_points: 24
+regular_games: 10
+regular_goals: 13
+regular_assists: 15
+regular_points: 28
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 11
-career_assists: 13
-career_points: 24
+career_games: 10
+career_goals: 13
+career_assists: 15
+career_points: 28
 career_pim: 2
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|MKŠS FBK Kysucké Nové Mesto|9|11|13|24|2
-assists: 13
-games: 9
-goals: 11
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|MKŠS FBK Kysucké Nové Mesto|10|13|15|28|2
+assists: 15
+games: 10
+goals: 13
 penalties: 1
 phase: regular-season
 pim: 2
-points: 24
-rank: 3
+points: 28
+rank: 2
 season: skw-26-27

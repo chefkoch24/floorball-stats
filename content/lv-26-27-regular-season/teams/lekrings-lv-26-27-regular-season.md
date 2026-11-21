@@ -1,4 +1,4 @@
-Date: 2026-11-08
+Date: 2026-11-20
 Title: Lekrings
 Category: lv-26-27-regular-season, teams
 Slug: lekrings-lv-26-27-regular-season-lv-26-27-regular-season

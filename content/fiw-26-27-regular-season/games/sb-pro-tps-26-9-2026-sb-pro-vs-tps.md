@@ -437,6 +437,7 @@ away_pregame_points_after_second_period: 4
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_classic: 0
 away_pregame_points_against_eraviikingit: 0
+away_pregame_points_against_fbc_loisto: 3
 away_pregame_points_against_koovee: 3
 away_pregame_points_against_northern_stars: 3
 away_pregame_points_against_pirkat: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jan Samuel Polák
 Category: players
 Slug: player-a2d978d170eadaf3

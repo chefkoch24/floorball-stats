@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Záteková Sára
 Category: players
 Slug: player-ef801950b0ce6b19
@@ -11,15 +11,15 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 4
-current_assists: 4
-current_points: 8
+current_assists: 6
+current_points: 10
 current_pim: 4
-regular_games: 7
+regular_games: 8
 regular_goals: 4
-regular_assists: 4
-regular_points: 8
+regular_assists: 6
+regular_points: 10
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 4
-career_assists: 4
-career_points: 8
+career_assists: 6
+career_points: 10
 career_pim: 4
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|MKŠS FBK Kysucké Nové Mesto|7|4|4|8|4
-assists: 4
-games: 7
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|MKŠS FBK Kysucké Nové Mesto|8|4|6|10|4
+assists: 6
+games: 8
 goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 8
-rank: 26
+points: 10
+rank: 15
 season: skw-26-27

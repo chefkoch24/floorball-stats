@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jáger Daniel
 Category: players
 Slug: player-2ecb3e9444debc05

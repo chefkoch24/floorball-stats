@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Trošková Jana
 Category: players
 Slug: player-71d018e2cfdba87f
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 6
-rank: 39
+rank: 41
 season: skw-26-27

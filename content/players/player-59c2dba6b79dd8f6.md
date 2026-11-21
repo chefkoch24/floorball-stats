@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jakub Boček
 Category: players
 Slug: player-59c2dba6b79dd8f6

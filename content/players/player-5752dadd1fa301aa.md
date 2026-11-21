@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Kristina Venerová
 Category: players
 Slug: player-5752dadd1fa301aa

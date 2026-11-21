@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Artis Matīss Fogels
 Category: players
 Slug: player-7fa3aa752c06cc04
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 7
 current_assists: 2
 current_points: 9
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 7
 regular_assists: 2
 regular_points: 9
@@ -36,18 +36,18 @@ previous_goals: 21
 previous_assists: 11
 previous_points: 32
 previous_pim: 12
-career_games: 48
+career_games: 49
 career_goals: 28
 career_assists: 13
 career_points: 41
 career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|11|7|2|9|0||lv-25-26|playoffs|Latvia|Rubene|11|1|1|2|4||lv-25-26|regular-season|Latvia|Rubene|26|20|10|30|8
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|12|7|2|9|0||lv-25-26|playoffs|Latvia|Rubene|11|1|1|2|4||lv-25-26|regular-season|Latvia|Rubene|26|20|10|30|8
 assists: 2
-games: 11
+games: 12
 goals: 7
 penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 32
+rank: 34
 season: lv-26-27

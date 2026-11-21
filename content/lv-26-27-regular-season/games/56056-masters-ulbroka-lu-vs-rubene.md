@@ -437,7 +437,7 @@ away_pregame_points_after_third_period: 10
 away_pregame_points_against_fbk_sac: 3
 away_pregame_points_against_fbk_valmiera: 6
 away_pregame_points_against_fk_kursi: 3
-away_pregame_points_against_fk_talsi_tnss_krauzers: 3
+away_pregame_points_against_fk_talsi_tnss_krauzers: 5
 away_pregame_points_against_kekava_rb_b: 6
 away_pregame_points_against_lekrings: 4
 away_pregame_points_against_lielvarde_unihoc: 2

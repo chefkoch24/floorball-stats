@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Céline Grimm
 Category: players
 Slug: player-5720bdbdba792eb1

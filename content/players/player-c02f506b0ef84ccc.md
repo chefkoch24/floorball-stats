@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Sophie Puttnins
 Category: players
 Slug: player-c02f506b0ef84ccc

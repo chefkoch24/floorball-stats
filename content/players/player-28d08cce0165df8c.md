@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Markuss Šterns
 Category: players
 Slug: player-28d08cce0165df8c
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 152
+rank: 154
 season: lv-26-27

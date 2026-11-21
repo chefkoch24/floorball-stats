@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Linnea Könnecke
 Category: players
 Slug: player-1c29bbae18f080df

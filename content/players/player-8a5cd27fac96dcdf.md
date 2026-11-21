@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Pintérová Monika
 Category: players
 Slug: player-8a5cd27fac96dcdf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 33
+rank: 34
 season: skw-26-27

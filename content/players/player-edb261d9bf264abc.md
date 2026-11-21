@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Nubya Schir
 Category: players
 Slug: player-edb261d9bf264abc

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Miķelis Koknesis Roops
 Category: players
 Slug: player-17c7cbe2d4073a0a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 106
+rank: 109
 season: lv-26-27

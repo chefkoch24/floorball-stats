@@ -441,7 +441,7 @@ away_pregame_points_against_kekava_rb_b: 6
 away_pregame_points_against_lekrings: 3
 away_pregame_points_against_lielvarde_unihoc: 3
 away_pregame_points_against_masters_ulbroka_lu: 3
-away_pregame_points_against_rubene: 0
+away_pregame_points_against_rubene: 1
 away_pregame_points_max_difference_2: 1
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 1.0

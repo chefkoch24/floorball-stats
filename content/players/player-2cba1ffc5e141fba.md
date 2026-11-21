@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Anton Weyrauch
 Category: players
 Slug: player-2cba1ffc5e141fba

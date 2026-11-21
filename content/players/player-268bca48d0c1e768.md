@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Chantal Renz
 Category: players
 Slug: player-268bca48d0c1e768

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Maarten Mittmann
 Category: players
 Slug: player-b7543046e5fbddcc

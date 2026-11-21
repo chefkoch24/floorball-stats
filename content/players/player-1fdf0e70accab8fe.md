@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Annina Gerber
 Category: players
 Slug: player-1fdf0e70accab8fe

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Teemu Halmela
 Category: players
 Slug: player-ec8db4abaab9a078
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 125
+rank: 129
 season: fi-26-27

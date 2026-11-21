@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Wilhelm Vihtari Hansson
 Category: players
 Slug: player-c6d1c32f9e776fd4

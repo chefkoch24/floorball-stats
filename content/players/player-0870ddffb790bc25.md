@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ondřej Kawulok C
 Category: players
 Slug: player-0870ddffb790bc25

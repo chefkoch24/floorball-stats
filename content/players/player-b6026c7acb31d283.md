@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Roberts Trofimenko
 Category: players
 Slug: player-b6026c7acb31d283
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 125
+rank: 127
 season: lv-26-27

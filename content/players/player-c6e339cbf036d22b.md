@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Štěpán Dvořák
 Category: players
 Slug: player-c6e339cbf036d22b

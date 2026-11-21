@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jēkabs Jānis Balodis
 Category: players
 Slug: player-c95750cef285aec5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 137
+rank: 138
 season: lv-26-27

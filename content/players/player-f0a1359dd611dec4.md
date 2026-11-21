@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Michaela Kadlecová
 Category: players
 Slug: player-f0a1359dd611dec4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 70
+rank: 71
 season: skw-26-27

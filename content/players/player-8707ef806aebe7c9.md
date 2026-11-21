@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Oskars Venckus
 Category: players
 Slug: player-8707ef806aebe7c9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 156
+rank: 157
 season: lv-26-27

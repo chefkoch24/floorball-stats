@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Arian Trützschler
 Category: players
 Slug: player-f9649fa59d6af3d5

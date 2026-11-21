@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jānis Škutāns
 Category: players
 Slug: player-1bdb0935c327f12b
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 0
 current_points: 1
-current_pim: 0
-regular_games: 10
+current_pim: 2
+regular_games: 11
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 8
 previous_points: 11
 previous_pim: 12
-career_games: 48
+career_games: 49
 career_goals: 4
 career_assists: 8
 career_points: 12
-career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|10|1|0|1|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|1|4|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|26|2|4|6|8
+career_pim: 14
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|11|1|0|1|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|1|4|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|26|2|4|6|8
 assists: 0
-games: 10
+games: 11
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 1
-rank: 136
+rank: 137
 season: lv-26-27

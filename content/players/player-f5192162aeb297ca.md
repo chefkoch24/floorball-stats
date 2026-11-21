@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Zuzana Mrázová
 Category: players
 Slug: player-f5192162aeb297ca
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 6
+rank: 7
 season: skw-26-27

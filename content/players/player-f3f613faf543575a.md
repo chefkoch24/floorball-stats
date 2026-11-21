@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ivan Čekan
 Category: players
 Slug: player-f3f613faf543575a

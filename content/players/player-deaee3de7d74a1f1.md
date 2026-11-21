@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Škvareninová Emma
 Category: players
 Slug: player-deaee3de7d74a1f1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 40
+rank: 42
 season: skw-26-27

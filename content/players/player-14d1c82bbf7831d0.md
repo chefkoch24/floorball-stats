@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Olli Halkola
 Category: players
 Slug: player-14d1c82bbf7831d0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 182
+rank: 185
 season: fi-26-27

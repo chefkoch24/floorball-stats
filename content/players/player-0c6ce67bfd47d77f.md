@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Joris Hänseler
 Category: players
 Slug: player-0c6ce67bfd47d77f

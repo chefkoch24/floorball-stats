@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Tomáš Vinkler
 Category: players
 Slug: player-1ed67239d9ad0b4a

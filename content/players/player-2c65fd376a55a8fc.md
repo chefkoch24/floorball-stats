@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Tomáš Máte
 Category: players
 Slug: player-2c65fd376a55a8fc

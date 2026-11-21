@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Olafs Zvīnis
 Category: players
 Slug: player-91054b2f7e78b7bf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 38
+rank: 40
 season: lv-26-27

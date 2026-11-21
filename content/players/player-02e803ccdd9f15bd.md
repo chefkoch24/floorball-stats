@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Dilans Kronentāls
 Category: players
 Slug: player-02e803ccdd9f15bd
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 7
-current_goals: 3
+current_games: 8
+current_goals: 4
 current_assists: 1
-current_points: 4
+current_points: 5
 current_pim: 4
-regular_games: 7
-regular_goals: 3
+regular_games: 8
+regular_goals: 4
 regular_assists: 1
-regular_points: 4
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 16
 previous_assists: 18
 previous_points: 34
 previous_pim: 10
-career_games: 44
-career_goals: 19
+career_games: 45
+career_goals: 20
 career_assists: 19
-career_points: 38
+career_points: 39
 career_pim: 14
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|7|3|1|4|4||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|4|7|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|25|13|14|27|6
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|8|4|1|5|4||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|4|7|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|25|13|14|27|6
 assists: 1
-games: 7
-goals: 3
+games: 8
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 4
-rank: 78
+points: 5
+rank: 64
 season: lv-26-27

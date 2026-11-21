@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Klāvs Araks
 Category: players
 Slug: player-aef9bd1d94d51336
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 4
 current_assists: 6
 current_points: 10
 current_pim: 2
-regular_games: 10
+regular_games: 11
 regular_goals: 4
 regular_assists: 6
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 8
 previous_points: 18
 previous_pim: 8
-career_games: 45
+career_games: 46
 career_goals: 14
 career_assists: 14
 career_points: 28
 career_pim: 10
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|10|4|6|10|2||cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|35|10|8|18|8
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|11|4|6|10|2||cz-25-26|regular-season|Czech Republic|TJ Sokol Královské Vinohrady|35|10|8|18|8
 assists: 6
-games: 10
+games: 11
 goals: 4
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 28
+rank: 32
 season: lv-26-27

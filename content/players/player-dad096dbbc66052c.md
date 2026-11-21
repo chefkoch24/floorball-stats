@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ondrejcová Olívia
 Category: players
 Slug: player-dad096dbbc66052c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 62
+rank: 64
 season: skw-26-27

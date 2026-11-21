@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Joline Briston
 Category: players
 Slug: player-3a610a58d3c6dbef

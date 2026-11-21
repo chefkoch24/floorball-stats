@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Matěj Stránský
 Category: players
 Slug: player-fe3c6df2cd189586

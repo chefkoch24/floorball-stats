@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Māris Parts
 Category: players
 Slug: player-5a0aaeea399db386
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 6
 current_points: 7
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 6
 regular_points: 7
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 2
 previous_points: 7
 previous_pim: 4
-career_games: 43
+career_games: 44
 career_goals: 6
 career_assists: 8
 career_points: 14
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|9|1|6|7|4||lv-25-26|playoffs|Latvia|Rubene|11|1|0|1|2||lv-25-26|regular-season|Latvia|Rubene|23|4|2|6|2
+history_rows_csv: lv-26-27|regular-season|Latvia|Rubene|10|1|6|7|4||lv-25-26|playoffs|Latvia|Rubene|11|1|0|1|2||lv-25-26|regular-season|Latvia|Rubene|23|4|2|6|2
 assists: 6
-games: 9
+games: 10
 goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
 points: 7
-rank: 51
+rank: 52
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Pietari Jääskeläinen
 Category: players
 Slug: player-26eeb7669fda2226

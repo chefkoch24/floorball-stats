@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Treneris Rebeka Laure
 Category: players
 Slug: player-328e5e9c4b7b52ec

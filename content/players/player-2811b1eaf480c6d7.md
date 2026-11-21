@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Adam Hanek
 Category: players
 Slug: player-2811b1eaf480c6d7

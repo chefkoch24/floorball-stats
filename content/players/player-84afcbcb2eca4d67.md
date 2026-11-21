@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Aivis Barkovskis
 Category: players
 Slug: player-84afcbcb2eca4d67

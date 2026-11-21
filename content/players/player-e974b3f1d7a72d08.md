@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Henna Piironen
 Category: players
 Slug: player-e974b3f1d7a72d08

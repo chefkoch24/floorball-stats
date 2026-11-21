@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Måns Parsjö
 Category: players
 Slug: player-11cebd7333314ab2

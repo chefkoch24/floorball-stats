@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Michal Trgiňa
 Category: players
 Slug: player-cd1c1adc3e289d16

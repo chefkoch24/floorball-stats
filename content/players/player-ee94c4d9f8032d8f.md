@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Kristýna Halousková
 Category: players
 Slug: player-ee94c4d9f8032d8f

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Gustavs Celmiņš
 Category: players
 Slug: player-abc7cfd9724c9551
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
-current_goals: 2
+current_games: 11
+current_goals: 3
 current_assists: 0
-current_points: 2
+current_points: 3
 current_pim: 2
-regular_games: 10
-regular_goals: 2
+regular_games: 11
+regular_goals: 3
 regular_assists: 0
-regular_points: 2
+regular_points: 3
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 22
-career_goals: 2
+career_games: 23
+career_goals: 3
 career_assists: 0
-career_points: 2
+career_points: 3
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|10|2|0|2|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|9|0|0|0|2
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|11|3|0|3|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|9|0|0|0|2
 assists: 0
-games: 10
-goals: 2
+games: 11
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 2
-rank: 109
+points: 3
+rank: 91
 season: lv-26-27

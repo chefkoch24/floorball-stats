@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Finja Helbling
 Category: players
 Slug: player-4fff3e2e1c7c46d4

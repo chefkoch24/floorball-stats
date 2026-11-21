@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Tímea Kožarová
 Category: players
 Slug: player-199c505317cecec0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 160
+rank: 161
 season: skw-26-27

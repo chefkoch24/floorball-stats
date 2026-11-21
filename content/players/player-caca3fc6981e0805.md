@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Emil Helmrich
 Category: players
 Slug: player-caca3fc6981e0805

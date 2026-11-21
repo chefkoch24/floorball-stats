@@ -7,18 +7,18 @@ game_id: 137571
 home_team: MKŠS FBK Kysucké Nové Mesto
 away_team: FTC Bojkun Trucks Fiľakovo
 attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+away_goal_diffs_csv: 2
+away_goal_minutes_csv: 12.23
 away_major_penalty_minutes_csv: 
-away_penalty_ends_csv: 
-away_penalty_goals_csv: 
-away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+away_penalty_ends_csv: 51.12
+away_penalty_goals_csv: 1
+away_penalty_minutes_csv: 49.12
+game_events_b64: W3sibWludXRlIjoiMDU6MTMiLCJwZXJpb2QiOjEsInRlYW0iOiJNS8WgUyBGQksgS3lzdWNrw6kgTm92w6kgTWVzdG8iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTowIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkNow7pwZWtvdsOhIExhdXJhIiwidGl0bGVfdWlkIjoicGxheWVyLTliMGNmN2QyZGQ0MzBkNWYiLCJhc3Npc3QiOiLFoGFtYWpvdsOhIFNpbHZpYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItOGIyZjllM2U5NTFjNmJhMCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA4OjIyIiwicGVyaW9kIjoxLCJ0ZWFtIjoiTUvFoFMgRkJLIEt5c3Vja8OpIE5vdsOpIE1lc3RvIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJGYWt0b3JvdsOhIEFsZXhhbmRyYSIsInRpdGxlX3VpZCI6InBsYXllci00MDZlNTQ1ZTdiZmI0YjAwIiwiYXNzaXN0IjoiWsOhdGVrb3bDoSBTw6FyYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItZWY4MDE5NTBiMGNlNmIxOSIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA4OjQ0IiwicGVyaW9kIjoxLCJ0ZWFtIjoiTUvFoFMgRkJLIEt5c3Vja8OpIE5vdsOpIE1lc3RvIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MCIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJLdWJhxaFrb3bDoSBUYW1hcmEiLCJ0aXRsZV91aWQiOiJwbGF5ZXItNTgwNmEyODk3ODdhYjUxNCIsImFzc2lzdCI6IkNow7pwZWtvdsOhIExhdXJhIiwiYXNzaXN0X3VpZCI6InBsYXllci05YjBjZjdkMmRkNDMwZDVmIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTI6MTQiLCJwZXJpb2QiOjEsInRlYW0iOiJGVEMgQm9qa3VuIFRydWNrcyBGacS+YWtvdm8iLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzoxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkthbGxhaSBGYW5uaSBBbm5hIiwidGl0bGVfdWlkIjoicGxheWVyLTVkOGIyODFmZDliZWMyODkiLCJhc3Npc3QiOm51bGwsImFzc2lzdF91aWQiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjE2OjA4IiwicGVyaW9kIjoxLCJ0ZWFtIjoiTUvFoFMgRkJLIEt5c3Vja8OpIE5vdsOpIE1lc3RvIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjQ6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiLFoGFtYWpvdsOhIFNpbHZpYSIsInRpdGxlX3VpZCI6InBsYXllci04YjJmOWUzZTk1MWM2YmEwIiwiYXNzaXN0IjoiS3ViYcWha292w6EgVGFtYXJhIiwiYXNzaXN0X3VpZCI6InBsYXllci01ODA2YTI4OTc4N2FiNTE0IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDA6NDkiLCJwZXJpb2QiOjMsInRlYW0iOiJNS8WgUyBGQksgS3lzdWNrw6kgTm92w6kgTWVzdG8iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiNToxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IsWgYW1ham92w6EgU2lsdmlhIiwidGl0bGVfdWlkIjoicGxheWVyLThiMmY5ZTNlOTUxYzZiYTAiLCJhc3Npc3QiOiJaw6F0ZWtvdsOhIFPDoXJhIiwiYXNzaXN0X3VpZCI6InBsYXllci1lZjgwMTk1MGIwY2U2YjE5IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDQ6NTIiLCJwZXJpb2QiOjMsInRlYW0iOiJNS8WgUyBGQksgS3lzdWNrw6kgTm92w6kgTWVzdG8iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiNzoxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlpnaWVyc2thIE5lbCBBbm5hIiwidGl0bGVfdWlkIjoicGxheWVyLTFiMjZmNDJmMGE3NjRlOWMiLCJhc3Npc3QiOiJDaMO6cGVrb3bDoSBMYXVyYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItOWIwY2Y3ZDJkZDQzMGQ1ZiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA5OjA3IiwicGVyaW9kIjozLCJ0ZWFtIjoiRlRDIEJvamt1biBUcnVja3MgRmnEvmFrb3ZvIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6Ijc6MSIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjoiVGVyw6l6aWEgS2FtZW5za8OhIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoicGVuYWx0eV8yIn0seyJtaW51dGUiOiIxNjoxOSIsInBlcmlvZCI6MywidGVhbSI6Ik1LxaBTIEZCSyBLeXN1Y2vDqSBOb3bDqSBNZXN0byIsInNpZGUiOiJob21lIiwic2NvcmUiOiI4OjEiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiQ2jDunBla292w6EgTGF1cmEiLCJ0aXRsZV91aWQiOiJwbGF5ZXItOWIwY2Y3ZDJkZDQzMGQ1ZiIsImFzc2lzdCI6IlZyw7piZWxvdsOhIEVsYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItY2I0MGQwMGM5NWZlN2I0NSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 10
+game_state: played
+game_status: Played
+home_goal_diffs_csv: 1,2,3,3,4,5,6
+home_goal_minutes_csv: 5.22,8.37,8.73,16.13,40.82,44.87,56.32
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 80.0
 pregame_h2h_special_away_pp_eff: 36.36
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 5.56
-result_string: None
+result_string: 8:1
 start_time: 19:30
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,0,0,0,1,1,1,1,1
+timeline_diffs_csv: 0,1,2,3,2,3,4,5,6
+timeline_home_goals_csv: 0,1,2,3,3,4,5,6,7
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,5.22,8.37,8.73,12.23,16.13,40.82,44.87,56.32
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.
@@ -89,24 +89,24 @@ home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
+home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
-home_first_goal_of_match: 0
+home_first_goal_of_match: 1
 home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_games: 1
+home_goal_difference: 7
+home_goals: 8
+home_goals_against: 1
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 1
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 8
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period: 4
+home_goals_in_first_period_against: 1
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
@@ -114,9 +114,9 @@ home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
 home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_third_period: 3
 home_goals_in_third_period_against: 0
-home_home_points: 1
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -134,55 +134,56 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
-home_points_after_first_period: 0
-home_points_after_second_period: 0
-home_points_after_third_period: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
+home_points_after_first_period: 3
+home_points_after_second_period: 3
+home_points_after_third_period: 3
+home_points_against_ftc_bojkun_trucks_filakovo: 3
 home_points_max_difference_2: 0
-home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_points_more_2_difference: 3
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
-home_powerplay_seconds: 0
-home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
+home_powerplay_seconds: 120
+home_powerplay_third_period: 1
+home_take_the_lead_goals: 1
 home_take_the_lead_goals_against: 0
 home_win_1: 0
-home_wins: 0
-away_away_points: 1
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+home_wins: 1
+away_away_points: 0
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
-away_boxplay_seconds: 0
-away_boxplay_third_period: 0
+away_boxplay_seconds: 120
+away_boxplay_third_period: 1
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
 away_first_goal_of_match: 0
-away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_first_goal_of_match_against: 1
+away_games: 1
+away_goal_difference: -7
+away_goals: 1
+away_goals_against: 8
+away_goals_against_away: 8
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 1
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period: 1
+away_goals_in_first_period_against: 4
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
@@ -191,15 +192,15 @@ away_goals_in_powerplay: 0
 away_goals_in_second_period: 0
 away_goals_in_second_period_against: 0
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 3
 away_home_points: 0
 away_loss_1: 0
-away_losses: 0
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
-away_penalties: 0
+away_penalties: 1
 away_penalty_10: 0
-away_penalty_2: 0
+away_penalty_2: 1
 away_penalty_2and2: 0
 away_penalty_first_period: 0
 away_penalty_ms: 0
@@ -209,14 +210,15 @@ away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
-away_penalty_third_period: 0
-away_points: 1
+away_penalty_third_period: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 0
+away_points_against_mkss_fbk_kysucke_nove_mesto: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -227,7 +229,7 @@ away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 9
@@ -319,7 +321,7 @@ home_pregame_points_after_first_period_per_game: 2.12
 home_pregame_points_after_second_period: 14
 home_pregame_points_after_third_period: 15
 home_pregame_points_against_fbk_harvard_partizanske: 2
-home_pregame_points_against_ftc_bojkun_trucks_filakovo: 3
+home_pregame_points_against_ftc_bojkun_trucks_filakovo: 6
 home_pregame_points_against_nts_fk_zs_nemsova: 2
 home_pregame_points_against_oxdog_snipers_bratislava: 3
 home_pregame_points_against_sk_98_pruske: 3

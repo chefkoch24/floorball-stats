@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Sofia Hambálková
 Category: players
 Slug: player-842a13af58e0bba0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 73
+rank: 74
 season: skw-26-27

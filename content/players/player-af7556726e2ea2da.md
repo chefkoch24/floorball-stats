@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Kristýna Pospíšilová
 Category: players
 Slug: player-af7556726e2ea2da

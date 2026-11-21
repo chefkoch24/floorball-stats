@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Blaz Tomc
 Category: players
 Slug: player-e7f945b53ab58efe

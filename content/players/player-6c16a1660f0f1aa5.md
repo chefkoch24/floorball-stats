@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Matīss Kristiāns Millers
 Category: players
 Slug: player-6c16a1660f0f1aa5

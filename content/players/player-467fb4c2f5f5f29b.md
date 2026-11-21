@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Nuno Brosi
 Category: players
 Slug: player-467fb4c2f5f5f29b

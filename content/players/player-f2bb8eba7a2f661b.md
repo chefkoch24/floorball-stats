@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Lucie Řezáčová
 Category: players
 Slug: player-f2bb8eba7a2f661b

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Viktória Podmajerská
 Category: players
 Slug: player-6d70b4db94e9196a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 167
+rank: 168
 season: skw-26-27

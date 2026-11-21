@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Rasmus Pasanen
 Category: players
 Slug: player-afa1892361cb7b49
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 214
+rank: 215
 season: fi-26-27

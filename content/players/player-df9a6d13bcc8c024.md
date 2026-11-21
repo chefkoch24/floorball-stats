@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Monika Chromá
 Category: players
 Slug: player-df9a6d13bcc8c024

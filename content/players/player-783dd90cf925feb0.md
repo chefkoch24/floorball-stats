@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Frīdrihs Feldmanis
 Category: players
 Slug: player-783dd90cf925feb0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 65
+rank: 68
 season: lv-26-27

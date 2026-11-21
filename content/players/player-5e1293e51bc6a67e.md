@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Vivien Mészárosová
 Category: players
 Slug: player-5e1293e51bc6a67e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 170
+rank: 171
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Bruno Beķeris
 Category: players
 Slug: player-bb9e7a1eeb673670
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 22
+rank: 28
 season: lv-26-27

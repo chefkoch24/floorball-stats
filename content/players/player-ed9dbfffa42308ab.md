@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Elsa Holopainen
 Category: players
 Slug: player-ed9dbfffa42308ab
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 8
+current_games: 10
+current_goals: 9
 current_assists: 8
-current_points: 16
+current_points: 17
 current_pim: 0
-regular_games: 8
-regular_goals: 7
+regular_games: 9
+regular_goals: 8
 regular_assists: 6
-regular_points: 13
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 7
+career_games: 9
+career_goals: 8
 career_assists: 6
-career_points: 13
+career_points: 14
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|8|7|6|13|0||fiw-26-27|cup|Finland Women|TPS|1|1|2|3|0
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|9|8|6|14|0||fiw-26-27|cup|Finland Women|TPS|1|1|2|3|0
 assists: 6
-games: 8
-goals: 7
+games: 9
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 13
+points: 14
 rank: 19
 season: fiw-26-27

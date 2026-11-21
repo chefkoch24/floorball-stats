@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Treneris Mārtiņš Krūms
 Category: players
 Slug: player-390bf453d082ecd5

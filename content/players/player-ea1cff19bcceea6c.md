@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Vera Meer
 Category: players
 Slug: player-ea1cff19bcceea6c

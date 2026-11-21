@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Klavs Jansons
 Category: players
 Slug: player-9d353bc822c6f01f

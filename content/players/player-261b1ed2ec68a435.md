@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jakub Krkoš
 Category: players
 Slug: player-261b1ed2ec68a435

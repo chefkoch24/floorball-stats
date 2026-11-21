@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Marcel Arnet
 Category: players
 Slug: player-8732c79adf0dbf06

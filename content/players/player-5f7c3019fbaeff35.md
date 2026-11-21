@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jan Fousek
 Category: players
 Slug: player-5f7c3019fbaeff35

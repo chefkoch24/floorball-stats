@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Miisa Turunen
 Category: players
 Slug: player-0b7fd7c24f356d96
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 10
-current_assists: 10
-current_points: 20
+current_games: 8
+current_goals: 13
+current_assists: 11
+current_points: 24
 current_pim: 0
-regular_games: 6
-regular_goals: 10
-regular_assists: 9
-regular_points: 19
+regular_games: 7
+regular_goals: 13
+regular_assists: 10
+regular_points: 23
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 10
-career_assists: 9
-career_points: 19
+career_games: 7
+career_goals: 13
+career_assists: 10
+career_points: 23
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|10|9|19|0||fiw-26-27|cup|Finland Women|TPS|1|0|1|1|0
-assists: 9
-games: 6
-goals: 10
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|7|13|10|23|0||fiw-26-27|cup|Finland Women|TPS|1|0|1|1|0
+assists: 10
+games: 7
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 19
-rank: 6
+points: 23
+rank: 3
 season: fiw-26-27

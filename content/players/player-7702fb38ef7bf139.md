@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Vojtěch Gut
 Category: players
 Slug: player-7702fb38ef7bf139

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Wilma Lundin
 Category: players
 Slug: player-4525c5edd8c4af5d

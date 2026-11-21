@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Benno Gohrbandt
 Category: players
 Slug: player-5d30a7d6d846fd0c

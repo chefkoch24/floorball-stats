@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Václav VAVRUŠKA
 Category: players
 Slug: player-0e7100afa664aeeb

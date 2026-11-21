@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Hanna Simonsson
 Category: players
 Slug: player-e3e0b8455af8b849

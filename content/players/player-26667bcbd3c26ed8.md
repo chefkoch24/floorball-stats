@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Matejička Jakub
 Category: players
 Slug: player-26667bcbd3c26ed8

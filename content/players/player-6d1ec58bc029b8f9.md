@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Vanessa Hrubčinová
 Category: players
 Slug: player-6d1ec58bc029b8f9
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 0
-rank: 163
+rank: 164
 season: skw-26-27

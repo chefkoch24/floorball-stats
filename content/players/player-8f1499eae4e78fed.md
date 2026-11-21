@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Tuukka Korhonen
 Category: players
 Slug: player-8f1499eae4e78fed

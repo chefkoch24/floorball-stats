@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Sára Adamcová
 Category: players
 Slug: player-50ff0a7e71cece8d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 74
+rank: 75
 season: skw-26-27

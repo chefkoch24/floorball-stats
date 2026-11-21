@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ester Kovaříková
 Category: players
 Slug: player-a9fe01ea6f971050

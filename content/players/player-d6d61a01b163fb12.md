@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Karolina Johansson
 Category: players
 Slug: player-d6d61a01b163fb12

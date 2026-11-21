@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Jan Kratochvil
 Category: players
 Slug: player-1f81ef60eb9aefb0

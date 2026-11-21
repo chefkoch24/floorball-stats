@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Borovská Alexandra
 Category: players
 Slug: player-c47ab610f731b5a0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 52
+rank: 53
 season: skw-26-27

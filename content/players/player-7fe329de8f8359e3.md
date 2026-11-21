@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ričards Riba
 Category: players
 Slug: player-7fe329de8f8359e3
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
-current_goals: 4
+current_games: 11
+current_goals: 5
 current_assists: 2
-current_points: 6
+current_points: 7
 current_pim: 0
-regular_games: 10
-regular_goals: 4
+regular_games: 11
+regular_goals: 5
 regular_assists: 2
-regular_points: 6
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 3
 previous_points: 11
 previous_pim: 2
-career_games: 26
-career_goals: 12
+career_games: 27
+career_goals: 13
 career_assists: 5
-career_points: 17
+career_points: 18
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|10|4|2|6|0||lv-25-26|playoffs|Latvia|FBK Valmiera|5|0|3|3|0||lv-25-26|regular-season|Latvia|FBK Valmiera|11|8|0|8|2
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|11|5|2|7|0||lv-25-26|playoffs|Latvia|FBK Valmiera|5|0|3|3|0||lv-25-26|regular-season|Latvia|FBK Valmiera|11|8|0|8|2
 assists: 2
-games: 10
-goals: 4
+games: 11
+goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 56
+points: 7
+rank: 48
 season: lv-26-27

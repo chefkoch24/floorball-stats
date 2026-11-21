@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Andrei Taima
 Category: players
 Slug: player-5dcd14f70c8d3e2c

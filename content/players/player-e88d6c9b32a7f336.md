@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Natália Galčíková
 Category: players
 Slug: player-e88d6c9b32a7f336
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 71
+rank: 72
 season: skw-26-27

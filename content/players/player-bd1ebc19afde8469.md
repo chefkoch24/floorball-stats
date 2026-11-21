@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Milla Nordlund
 Category: players
 Slug: player-bd1ebc19afde8469
@@ -11,15 +11,15 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 14
-current_assists: 11
-current_points: 25
+current_games: 8
+current_goals: 15
+current_assists: 12
+current_points: 27
 current_pim: 0
-regular_games: 6
-regular_goals: 13
-regular_assists: 10
-regular_points: 23
+regular_games: 7
+regular_goals: 14
+regular_assists: 11
+regular_points: 25
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 13
-career_assists: 10
-career_points: 23
+career_games: 7
+career_goals: 14
+career_assists: 11
+career_points: 25
 career_pim: 0
-history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|6|13|10|23|0||fiw-26-27|cup|Finland Women|TPS|1|1|1|2|0
-assists: 10
-games: 6
-goals: 13
+history_rows_csv: fiw-26-27|regular-season|Finland Women|TPS|7|14|11|25|0||fiw-26-27|cup|Finland Women|TPS|1|1|1|2|0
+assists: 11
+games: 7
+goals: 14
 penalties: 0
 phase: regular-season
 pim: 0
-points: 23
-rank: 2
+points: 25
+rank: 1
 season: fiw-26-27

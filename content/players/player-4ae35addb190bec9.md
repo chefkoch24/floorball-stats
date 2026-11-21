@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Marta Drille
 Category: players
 Slug: player-4ae35addb190bec9

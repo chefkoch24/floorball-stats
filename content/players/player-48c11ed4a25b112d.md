@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Ivana Hrehušová
 Category: players
 Slug: player-48c11ed4a25b112d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 48
+rank: 49
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Lukáš Pobořil
 Category: players
 Slug: player-5cc55a09c1c8016d

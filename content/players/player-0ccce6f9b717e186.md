@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Sandis Lēvalds
 Category: players
 Slug: player-0ccce6f9b717e186
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 12
-rank: 17
+rank: 21
 season: lv-26-27

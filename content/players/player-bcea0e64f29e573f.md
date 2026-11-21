@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Vargová Barbora
 Category: players
 Slug: player-bcea0e64f29e573f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 56
+rank: 57
 season: skw-26-27

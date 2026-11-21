@@ -326,6 +326,7 @@ home_pregame_points_against_hawks: 0
 home_pregame_points_against_jymy: 1
 home_pregame_points_against_nokian_krp: 0
 home_pregame_points_against_o2_jyvaskyla: 0
+home_pregame_points_against_oilers: 0
 home_pregame_points_against_spv: 0
 home_pregame_points_against_tps: 0
 home_pregame_points_max_difference_2: 1

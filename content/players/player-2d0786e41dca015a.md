@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Chantal Grundbacher
 Category: players
 Slug: player-2d0786e41dca015a

@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: Renārs Liepiņš
 Category: players
 Slug: player-f47cccc9ec2e9690
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 96
+rank: 101
 season: lv-26-27
