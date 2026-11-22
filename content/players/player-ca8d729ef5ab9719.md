@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Karolína Fořtová
 Category: players
 Slug: player-ca8d729ef5ab9719
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 147
+rank: 149
 season: czw-26-27

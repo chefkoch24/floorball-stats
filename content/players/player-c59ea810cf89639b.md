@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Adam Bařtipán
 Category: players
 Slug: player-c59ea810cf89639b

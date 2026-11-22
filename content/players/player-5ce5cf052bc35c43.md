@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ralfs Krūmiņš
 Category: players
 Slug: player-5ce5cf052bc35c43
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 222
+rank: 224
 season: lv-26-27

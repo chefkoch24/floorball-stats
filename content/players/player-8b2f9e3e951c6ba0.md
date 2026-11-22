@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šamajová Silvia
 Category: players
 Slug: player-8b2f9e3e951c6ba0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 15
-rank: 6
+rank: 8
 season: skw-26-27

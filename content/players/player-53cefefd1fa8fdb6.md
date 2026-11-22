@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kateřina Radostová
 Category: players
 Slug: player-53cefefd1fa8fdb6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 46
+rank: 49
 season: czw-26-27

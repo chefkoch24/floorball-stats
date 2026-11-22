@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Linus Felix
 Category: players
 Slug: player-00e202d7e16ab27a
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
-current_goals: 5
+current_games: 13
+current_goals: 6
 current_assists: 0
-current_points: 5
+current_points: 6
 current_pim: 4
-regular_games: 9
-regular_goals: 3
+regular_games: 10
+regular_goals: 4
 regular_assists: 0
-regular_points: 3
+regular_points: 4
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 3
 previous_points: 6
 previous_pim: 2
-career_games: 25
-career_goals: 6
+career_games: 26
+career_goals: 7
 career_assists: 3
-career_points: 9
+career_points: 10
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|9|3|0|3|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|2|0|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|16|3|3|6|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|4|0|4|4||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|2|0|2|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|16|3|3|6|2
 assists: 0
-games: 9
-goals: 3
+games: 10
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 3
-rank: 112
+points: 4
+rank: 99
 season: ch-26-27

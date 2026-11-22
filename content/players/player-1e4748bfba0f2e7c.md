@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Natálie Königová
 Category: players
 Slug: player-1e4748bfba0f2e7c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 282
+rank: 284
 season: czw-26-27

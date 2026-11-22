@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kateřina Strnadová
 Category: players
 Slug: player-d31c56d268cf97f6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
+current_games: 9
 current_goals: 5
-current_assists: 2
-current_points: 7
+current_assists: 5
+current_points: 10
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 2
-regular_assists: 2
-regular_points: 4
+regular_assists: 5
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 2
-career_assists: 2
-career_points: 4
+career_assists: 5
+career_points: 7
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|6|2|2|4|0||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|3|0|3|2
-assists: 2
-games: 6
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|7|2|5|7|0||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|3|0|3|2
+assists: 5
+games: 7
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 4
-rank: 56
+points: 7
+rank: 33
 season: chw-26-27

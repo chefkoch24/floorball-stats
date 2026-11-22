@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kristers Mucenieks
 Category: players
 Slug: player-08f140a20bab183f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 183
+rank: 185
 season: lv-26-27

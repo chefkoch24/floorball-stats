@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Benedikt Richardon
 Category: players
 Slug: player-e5460e23dadc83e0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 112
+rank: 117
 season: 26-27

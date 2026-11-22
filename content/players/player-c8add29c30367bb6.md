@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ebba Linde
 Category: players
 Slug: player-c8add29c30367bb6

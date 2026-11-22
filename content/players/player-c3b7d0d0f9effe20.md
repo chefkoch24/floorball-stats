@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marylin Thomi
 Category: players
 Slug: player-c3b7d0d0f9effe20
@@ -11,16 +11,16 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 4
-current_assists: 3
-current_points: 7
-current_pim: 8
-regular_games: 7
-regular_goals: 3
-regular_assists: 2
-regular_points: 5
-regular_pim: 8
+current_games: 10
+current_goals: 5
+current_assists: 5
+current_points: 10
+current_pim: 10
+regular_games: 8
+regular_goals: 4
+regular_assists: 4
+regular_points: 8
+regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 3
-career_assists: 2
-career_points: 5
-career_pim: 8
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|7|3|2|5|8||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|1|1|2|0
-assists: 2
-games: 7
-goals: 3
-penalties: 4
+career_games: 8
+career_goals: 4
+career_assists: 4
+career_points: 8
+career_pim: 10
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|8|4|4|8|10||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|1|1|2|0
+assists: 4
+games: 8
+goals: 4
+penalties: 5
 phase: regular-season
-pim: 8
-points: 5
-rank: 43
+pim: 10
+points: 8
+rank: 25
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Christian Stucki
 Category: players
 Slug: player-1f8e3cff7f028101
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
-current_goals: 3
-current_assists: 0
-current_points: 3
+current_games: 12
+current_goals: 4
+current_assists: 1
+current_points: 5
 current_pim: 4
-regular_games: 9
-regular_goals: 3
-regular_assists: 0
-regular_points: 3
+regular_games: 10
+regular_goals: 4
+regular_assists: 1
+regular_points: 5
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 2
 previous_points: 14
 previous_pim: 8
-career_games: 35
-career_goals: 15
-career_assists: 2
-career_points: 17
+career_games: 36
+career_goals: 16
+career_assists: 3
+career_points: 19
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|9|3|0|3|4||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|1|2|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|11|1|12|6
-assists: 0
-games: 9
-goals: 3
+history_rows_csv: ch-26-27|regular-season|Switzerland|Tigers Langnau|10|4|1|5|4||ch-26-27|cup|Switzerland|Tigers Langnau|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Tigers Langnau|4|1|1|2|2||ch-25-26|regular-season|Switzerland|Tigers Langnau|22|11|1|12|6
+assists: 1
+games: 10
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 3
-rank: 111
+points: 5
+rank: 83
 season: ch-26-27

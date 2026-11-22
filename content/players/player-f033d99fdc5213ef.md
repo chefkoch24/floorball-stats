@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sheryl Kiener
 Category: players
 Slug: player-f033d99fdc5213ef
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|7|0|1|1|2||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|0|0|0|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHV Skorpion Emmental|8|0|1|1|2||chw-26-27|cup|Switzerland Women|UHV Skorpion Emmental|2|0|0|0|0
 assists: 1
-games: 7
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 152
+rank: 156
 season: chw-26-27

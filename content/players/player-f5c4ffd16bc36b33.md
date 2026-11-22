@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Victorie Moravcová
 Category: players
 Slug: player-f5c4ffd16bc36b33
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 187
+rank: 191
 season: czw-26-27

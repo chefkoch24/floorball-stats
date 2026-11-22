@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Škvareninová Emma
 Category: players
 Slug: player-deaee3de7d74a1f1
@@ -11,15 +11,15 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 2
+current_games: 9
+current_goals: 3
 current_assists: 4
-current_points: 6
+current_points: 7
 current_pim: 2
-regular_games: 8
-regular_goals: 2
+regular_games: 9
+regular_goals: 3
 regular_assists: 4
-regular_points: 6
+regular_points: 7
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 2
+career_games: 9
+career_goals: 3
 career_assists: 4
-career_points: 6
+career_points: 7
 career_pim: 2
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|8|2|4|6|2
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|9|3|4|7|2
 assists: 4
-games: 8
-goals: 2
+games: 9
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 6
-rank: 42
+points: 7
+rank: 35
 season: skw-26-27

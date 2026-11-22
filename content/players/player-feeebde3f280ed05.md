@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Tereza Hlaviznová
 Category: players
 Slug: player-feeebde3f280ed05
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 143
+rank: 145
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Isa Böcker
 Category: players
 Slug: player-b58eaeb093611f95

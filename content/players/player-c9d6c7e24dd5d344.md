@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Artūrs Bergs
 Category: players
 Slug: player-c9d6c7e24dd5d344
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 103
+rank: 104
 season: lv-26-27

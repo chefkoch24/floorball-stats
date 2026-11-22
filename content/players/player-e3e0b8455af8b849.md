@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Hanna Simonsson
 Category: players
 Slug: player-e3e0b8455af8b849
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 55
+rank: 59
 season: chw-26-27

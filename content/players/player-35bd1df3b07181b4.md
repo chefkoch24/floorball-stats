@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Markéta Vrlíková
 Category: players
 Slug: player-35bd1df3b07181b4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 53
+rank: 57
 season: czw-26-27

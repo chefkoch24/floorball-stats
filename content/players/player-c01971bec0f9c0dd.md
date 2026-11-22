@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kristaps Kazlovskis
 Category: players
 Slug: player-c01971bec0f9c0dd

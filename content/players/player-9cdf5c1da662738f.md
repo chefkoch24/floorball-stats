@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Natálie Janečková
 Category: players
 Slug: player-9cdf5c1da662738f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 54
+rank: 58
 season: czw-26-27

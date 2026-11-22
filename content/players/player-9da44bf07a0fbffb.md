@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Martin Máťuš
 Category: players
 Slug: player-9da44bf07a0fbffb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 254
+rank: 258
 season: sk-26-27

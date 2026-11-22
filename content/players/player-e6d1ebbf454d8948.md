@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Oona Hämäläinen
 Category: players
 Slug: player-e6d1ebbf454d8948
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 185
+rank: 187
 season: fiw-26-27

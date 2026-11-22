@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Maroš Kovaľ
 Category: players
 Slug: player-3bb18c85f2cd3ce5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 7
-current_goals: 5
-current_assists: 14
-current_points: 19
+current_games: 8
+current_goals: 6
+current_assists: 16
+current_points: 22
 current_pim: 2
-regular_games: 7
-regular_goals: 5
-regular_assists: 14
-regular_points: 19
+regular_games: 8
+regular_goals: 6
+regular_assists: 16
+regular_points: 22
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 28
 previous_points: 42
 previous_pim: 4
-career_games: 37
-career_goals: 19
-career_assists: 42
-career_points: 61
+career_games: 38
+career_goals: 20
+career_assists: 44
+career_points: 64
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|7|5|14|19|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|9|4|6|10|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|10|22|32|2
-assists: 14
-games: 7
-goals: 5
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|8|6|16|22|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|9|4|6|10|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|10|22|32|2
+assists: 16
+games: 8
+goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
-points: 19
+points: 22
 rank: 8
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Maria Ålund
 Category: players
 Slug: player-d43cea8daa6ad218
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 211
+rank: 214
 season: chw-26-27

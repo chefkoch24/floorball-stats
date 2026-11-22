@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Cid Fiedler
 Category: players
 Slug: player-447c48eb0b903d2a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 211
+rank: 219
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nils Bohlin
 Category: players
 Slug: player-84f4feae126aa258

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Anežka Műllerová
 Category: players
 Slug: player-8db3ccdf7624a832
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 200
+rank: 204
 season: czw-26-27

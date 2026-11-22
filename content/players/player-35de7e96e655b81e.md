@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michal Amrich
 Category: players
 Slug: player-35de7e96e655b81e
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 14
-current_assists: 7
-current_points: 21
+current_games: 10
+current_goals: 15
+current_assists: 8
+current_points: 23
 current_pim: 0
-regular_games: 9
-regular_goals: 14
-regular_assists: 7
-regular_points: 21
+regular_games: 10
+regular_goals: 15
+regular_assists: 8
+regular_points: 23
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 25
 previous_assists: 21
 previous_points: 46
 previous_pim: 4
-career_games: 39
-career_goals: 39
-career_assists: 28
-career_points: 67
+career_games: 40
+career_goals: 40
+career_assists: 29
+career_points: 69
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|9|14|7|21|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|5|3|8|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|20|18|38|0
-assists: 7
-games: 9
-goals: 14
+history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|10|15|8|23|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|5|3|8|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|20|20|18|38|0
+assists: 8
+games: 10
+goals: 15
 penalties: 0
 phase: regular-season
 pim: 0
-points: 21
-rank: 6
+points: 23
+rank: 4
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lazor Alex
 Category: players
 Slug: player-a5c4e1bf6e98c6f3
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 10
+current_games: 11
 current_goals: 11
 current_assists: 7
 current_points: 18
-current_pim: 4
-regular_games: 10
+current_pim: 6
+regular_games: 11
 regular_goals: 11
 regular_assists: 7
 regular_points: 18
-regular_pim: 4
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 23
 previous_assists: 12
 previous_points: 35
 previous_pim: 6
-career_games: 32
+career_games: 33
 career_goals: 34
 career_assists: 19
 career_points: 53
-career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|10|11|7|18|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|23|12|35|6
+career_pim: 12
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|11|11|7|18|6||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|23|12|35|6
 assists: 7
-games: 10
+games: 11
 goals: 11
-penalties: 2
+penalties: 3
 phase: regular-season
-pim: 4
+pim: 6
 points: 18
-rank: 10
+rank: 17
 season: sk-26-27

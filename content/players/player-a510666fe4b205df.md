@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jenni Rautanen
 Category: players
 Slug: player-a510666fe4b205df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 68
+rank: 73
 season: fiw-26-27

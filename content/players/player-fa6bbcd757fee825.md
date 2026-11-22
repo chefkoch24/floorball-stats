@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nela Severová
 Category: players
 Slug: player-fa6bbcd757fee825
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 182
+rank: 185
 season: czw-26-27

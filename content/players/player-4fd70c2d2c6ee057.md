@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Noah Püntener
 Category: players
 Slug: player-4fd70c2d2c6ee057
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 6
 current_assists: 7
 current_points: 13
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 6
 regular_assists: 4
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 18
 previous_assists: 0
 previous_points: 18
 previous_pim: 2
-career_games: 40
+career_games: 41
 career_goals: 24
 career_assists: 4
 career_points: 28
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|9|6|4|10|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|0|3|3|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|9|0|9|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|10|6|4|10|4||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|0|3|3|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|9|0|9|2||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|21|9|0|9|0
 assists: 4
-games: 9
+games: 10
 goals: 6
 penalties: 2
 phase: regular-season
 pim: 4
 points: 10
-rank: 32
+rank: 38
 season: ch-26-27

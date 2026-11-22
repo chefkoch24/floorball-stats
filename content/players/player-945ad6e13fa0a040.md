@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Imo Ziemendorf
 Category: players
 Slug: player-945ad6e13fa0a040
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 6
+current_games: 11
+current_goals: 7
 current_assists: 7
-current_points: 13
+current_points: 14
 current_pim: 4
-regular_games: 9
-regular_goals: 6
+regular_games: 10
+regular_goals: 7
 regular_assists: 6
-regular_points: 12
+regular_points: 13
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 6
+career_games: 10
+career_goals: 7
 career_assists: 6
-career_points: 12
+career_points: 13
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|FBC München|9|6|6|12|4||26-27|cup|Germany|FBC München|1|0|1|1|0
+history_rows_csv: 26-27|regular-season|Germany|FBC München|10|7|6|13|4||26-27|cup|Germany|FBC München|1|0|1|1|0
 assists: 6
-games: 9
-goals: 6
+games: 10
+goals: 7
 penalties: 2
 phase: regular-season
 pim: 4
-points: 12
-rank: 30
+points: 13
+rank: 29
 season: 26-27

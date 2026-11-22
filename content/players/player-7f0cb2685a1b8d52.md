@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šimočko Matúš
 Category: players
 Slug: player-7f0cb2685a1b8d52
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 1
-current_assists: 0
-current_points: 1
-current_pim: 0
-regular_games: 9
-regular_goals: 1
-regular_assists: 0
-regular_points: 1
-regular_pim: 0
+current_games: 10
+current_goals: 2
+current_assists: 1
+current_points: 3
+current_pim: 2
+regular_games: 10
+regular_goals: 2
+regular_assists: 1
+regular_points: 3
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 1
 previous_points: 1
 previous_pim: 2
-career_games: 18
-career_goals: 1
-career_assists: 1
-career_points: 2
-career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|9|1|0|1|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|9|0|1|1|2
-assists: 0
-games: 9
-goals: 1
-penalties: 0
+career_games: 19
+career_goals: 2
+career_assists: 2
+career_points: 4
+career_pim: 4
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|2|1|3|2||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|9|0|1|1|2
+assists: 1
+games: 10
+goals: 2
+penalties: 1
 phase: regular-season
-pim: 0
-points: 1
-rank: 173
+pim: 2
+points: 3
+rank: 131
 season: sk-26-27

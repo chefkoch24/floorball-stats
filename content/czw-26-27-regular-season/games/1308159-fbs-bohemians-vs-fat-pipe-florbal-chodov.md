@@ -323,6 +323,7 @@ home_pregame_points_after_first_period_per_game: 2.0
 home_pregame_points_after_second_period: 3
 home_pregame_points_after_third_period: 7
 home_pregame_points_against_1_sc_tempish_vitkovice: 0
+home_pregame_points_against_crazy_girls_fbc_liberec: 3
 home_pregame_points_against_fat_pipe_florbal_chodov: 0
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 2
 home_pregame_points_against_fbc_intevo_trinec: 3
@@ -438,6 +439,7 @@ away_pregame_points_after_first_period_per_game: 2.33
 away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_crazy_girls_fbc_liberec: 3
+away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbc_intevo_trinec: 3
 away_pregame_points_against_fbs_bohemians: 3
 away_pregame_points_against_fbs_olomouc: 3

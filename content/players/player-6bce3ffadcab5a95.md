@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Iida Sinkko
 Category: players
 Slug: player-6bce3ffadcab5a95
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 120
+rank: 124
 season: fiw-26-27

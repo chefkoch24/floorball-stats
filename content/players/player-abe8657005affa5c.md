@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Adam Zukal
 Category: players
 Slug: player-abe8657005affa5c
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 3
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 5
 previous_points: 9
 previous_pim: 2
-career_games: 31
+career_games: 32
 career_goals: 7
 career_assists: 8
 career_points: 15
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|9|3|3|6|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|1|2|3|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|4|5|9|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|10|3|3|6|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|1|2|3|2||ch-25-26|regular-season|Switzerland|WASA St. Gallen|22|4|5|9|2
 assists: 3
-games: 9
+games: 10
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 69
+rank: 73
 season: ch-26-27

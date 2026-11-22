@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Annina Gerber
 Category: players
 Slug: player-1fdf0e70accab8fe
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 163
+rank: 168
 season: chw-26-27

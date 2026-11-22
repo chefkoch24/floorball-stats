@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Veronika Šmídková
 Category: players
 Slug: player-ae0cfd21c795b366
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 299
+rank: 300
 season: czw-26-27

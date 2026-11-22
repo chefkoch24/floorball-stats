@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kamenský František
 Category: players
 Slug: player-831b2fe06c544fb1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
-current_assists: 5
-current_points: 7
+current_assists: 6
+current_points: 8
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 2
-regular_assists: 5
-regular_points: 7
+regular_assists: 6
+regular_points: 8
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 6
 previous_points: 11
 previous_pim: 0
-career_games: 27
+career_games: 28
 career_goals: 7
-career_assists: 11
-career_points: 18
+career_assists: 12
+career_points: 19
 career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|DTF team Detva Joxers|9|2|5|7|0||sk-25-26|regular-season|Slovakia|DTF team Detva Joxers|18|5|6|11|0
-assists: 5
-games: 9
+history_rows_csv: sk-26-27|regular-season|Slovakia|DTF team Detva Joxers|10|2|6|8|0||sk-25-26|regular-season|Slovakia|DTF team Detva Joxers|18|5|6|11|0
+assists: 6
+games: 10
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 7
-rank: 74
+points: 8
+rank: 71
 season: sk-26-27

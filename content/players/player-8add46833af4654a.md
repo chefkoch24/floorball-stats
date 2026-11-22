@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kerttu Eko
 Category: players
 Slug: player-8add46833af4654a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 93
+rank: 97
 season: fiw-26-27

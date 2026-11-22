@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Janis Graf
 Category: players
 Slug: player-ae69f068383fc43a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 8
 current_assists: 6
 current_points: 14
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 7
 regular_assists: 6
 regular_points: 13
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 21
 previous_points: 41
 previous_pim: 6
-career_games: 44
+career_games: 45
 career_goals: 28
 career_assists: 28
 career_points: 56
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|7|6|13|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|1|0|1|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|1|1|2|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|7|9|16|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|13|12|25|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|10|7|6|13|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|1|0|1|0||cc-26-27|tournament|IFF Champions Cup|Floorball Thurgau|1|1|1|2|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|7|9|16|2||ch-25-26|regular-season|Switzerland|Floorball Thurgau|22|13|12|25|4
 assists: 6
-games: 9
+games: 10
 goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 14
+rank: 19
 season: ch-26-27

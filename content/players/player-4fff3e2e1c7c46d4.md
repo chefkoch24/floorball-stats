@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Finja Helbling
 Category: players
 Slug: player-4fff3e2e1c7c46d4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 9
+rank: 12
 season: chw-26-27

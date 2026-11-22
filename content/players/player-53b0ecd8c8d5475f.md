@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Dāvis Auziņš
 Category: players
 Slug: player-53b0ecd8c8d5475f
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,14 +36,14 @@ previous_goals: 3
 previous_assists: 12
 previous_points: 15
 previous_pim: 8
-career_games: 46
+career_games: 47
 career_goals: 6
 career_assists: 14
 career_points: 20
 career_pim: 10
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|11|3|2|5|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|0|2|2|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|3|10|13|6
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|12|3|2|5|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|0|2|2|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|23|3|10|13|6
 assists: 2
-games: 11
+games: 12
 goals: 3
 penalties: 1
 phase: regular-season

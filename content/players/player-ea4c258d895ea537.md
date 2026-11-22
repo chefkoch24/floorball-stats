@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Annalena Josi
 Category: players
 Slug: player-ea4c258d895ea537
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 135
+rank: 138
 season: chw-26-27

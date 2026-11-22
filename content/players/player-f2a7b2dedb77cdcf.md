@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sebastian Theorin
 Category: players
 Slug: player-f2a7b2dedb77cdcf

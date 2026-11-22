@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Richard Dluhoš
 Category: players
 Slug: player-44cad3ac694ef200
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 12
-rank: 31
+rank: 38
 season: sk-26-27

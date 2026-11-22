@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Török Gréti
 Category: players
 Slug: player-ff518cc4adff5286
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 76
+rank: 77
 season: skw-26-27

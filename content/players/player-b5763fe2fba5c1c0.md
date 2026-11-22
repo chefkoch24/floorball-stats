@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Oskar Weissbach
 Category: players
 Slug: player-b5763fe2fba5c1c0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 29
+rank: 35
 season: ch-26-27

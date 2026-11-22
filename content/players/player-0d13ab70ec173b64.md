@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Patáková Nikol
 Category: players
 Slug: player-0d13ab70ec173b64
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 30
+rank: 34
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michaela Sabolová
 Category: players
 Slug: player-5b1f7a398ab3fa91
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 140
+rank: 143
 season: czw-26-27

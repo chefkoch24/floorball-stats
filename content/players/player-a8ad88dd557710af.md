@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Valérie Žižková
 Category: players
 Slug: player-a8ad88dd557710af
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|8|0|1|1|0||czw-26-27|cup|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|3|3|2|5|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|9|0|1|1|0||czw-26-27|cup|Czech Republic Women|FBC ČPP MPL STAVEBNINY OSTRAVA|3|3|2|5|0
 assists: 1
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 186
+rank: 190
 season: czw-26-27

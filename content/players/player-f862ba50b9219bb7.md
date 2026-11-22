@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Oliver Olekšák
 Category: players
 Slug: player-f862ba50b9219bb7
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 9
-current_assists: 5
-current_points: 14
-current_pim: 0
-regular_games: 9
-regular_goals: 9
-regular_assists: 5
-regular_points: 14
-regular_pim: 0
+current_games: 10
+current_goals: 10
+current_assists: 7
+current_points: 17
+current_pim: 2
+regular_games: 10
+regular_goals: 10
+regular_assists: 7
+regular_points: 17
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 2
 previous_points: 10
 previous_pim: 0
-career_games: 31
-career_goals: 17
-career_assists: 7
-career_points: 24
-career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|9|9|5|14|0||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|18|8|2|10|0
-assists: 5
-games: 9
-goals: 9
-penalties: 0
+career_games: 32
+career_goals: 18
+career_assists: 9
+career_points: 27
+career_pim: 2
+history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|10|10|7|17|2||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|0|0|0|0||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|18|8|2|10|0
+assists: 7
+games: 10
+goals: 10
+penalties: 1
 phase: regular-season
-pim: 0
-points: 14
-rank: 22
+pim: 2
+points: 17
+rank: 18
 season: sk-26-27

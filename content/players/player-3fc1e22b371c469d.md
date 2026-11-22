@@ -1,22 +1,22 @@
-Date: 2026-11-21
-Title: Michal Sasinek
+Date: 2026-11-22
+Title: Mika Rymarzewicz
 Category: players
-Slug: player-ba6130183280f1ab
+Slug: player-3fc1e22b371c469d
 type: player
-player: Michal Sasinek
-player_uid: player-ba6130183280f1ab
-team: Tsunami Záhorská Bystrica
-league: Slovakia
+player: Mika Rymarzewicz
+player_uid: player-3fc1e22b371c469d
+team: Berlin Rockets
+league: Germany
 season_count: 1
-current_season: sk-26-27
+current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 0
+current_games: 2
+current_goals: 1
 current_assists: 0
-current_points: 0
+current_points: 1
 current_pim: 0
-regular_games: 7
+regular_games: 1
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -26,28 +26,28 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
-cup_goals: 0
+cup_games: 1
+cup_goals: 1
 cup_assists: 0
-cup_points: 0
+cup_points: 1
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 1
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|7|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|1|0|0|0|0||26-27|cup|Germany|Berlin Rockets|1|1|0|1|0
 assists: 0
-games: 7
+games: 1
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 271
-season: sk-26-27
+rank: 278
+season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Švedová Anna
 Category: players
 Slug: player-6bbaa5cdcd244b3c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 110
+rank: 113
 season: skw-26-27

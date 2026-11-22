@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šifra Michal
 Category: players
 Slug: player-742b2a9f81d64eae
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 11
-current_assists: 11
-current_points: 22
-current_pim: 0
-regular_games: 9
-regular_goals: 11
-regular_assists: 11
-regular_points: 22
-regular_pim: 0
+current_games: 10
+current_goals: 12
+current_assists: 14
+current_points: 26
+current_pim: 2
+regular_games: 10
+regular_goals: 12
+regular_assists: 14
+regular_points: 26
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 43
 previous_assists: 21
 previous_points: 64
 previous_pim: 2
-career_games: 40
-career_goals: 54
-career_assists: 32
-career_points: 86
-career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|9|11|11|22|0||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|12|5|17|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|31|16|47|0
-assists: 11
-games: 9
-goals: 11
-penalties: 0
+career_games: 41
+career_goals: 55
+career_assists: 35
+career_points: 90
+career_pim: 4
+history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|10|12|14|26|2||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|10|12|5|17|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|21|31|16|47|0
+assists: 14
+games: 10
+goals: 12
+penalties: 1
 phase: regular-season
-pim: 0
-points: 22
-rank: 4
+pim: 2
+points: 26
+rank: 2
 season: sk-26-27

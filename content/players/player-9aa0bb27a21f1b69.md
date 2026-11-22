@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Justýna Šigutová
 Category: players
 Slug: player-9aa0bb27a21f1b69
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 173
+rank: 176
 season: czw-26-27

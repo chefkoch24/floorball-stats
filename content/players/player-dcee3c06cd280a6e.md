@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Svenja Klingner
 Category: players
 Slug: player-dcee3c06cd280a6e

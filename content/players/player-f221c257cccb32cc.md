@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sedliak Matej
 Category: players
 Slug: player-f221c257cccb32cc
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 10
-current_goals: 2
-current_assists: 9
-current_points: 11
+current_games: 11
+current_goals: 4
+current_assists: 10
+current_points: 14
 current_pim: 6
-regular_games: 10
-regular_goals: 2
-regular_assists: 9
-regular_points: 11
+regular_games: 11
+regular_goals: 4
+regular_assists: 10
+regular_points: 14
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 22
 previous_points: 33
 previous_pim: 2
-career_games: 37
-career_goals: 13
-career_assists: 31
-career_points: 44
+career_games: 38
+career_goals: 15
+career_assists: 32
+career_points: 47
 career_pim: 8
-history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|10|2|9|11|6||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|2|4|6|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|22|9|18|27|2
-assists: 9
-games: 10
-goals: 2
+history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|11|4|10|14|6||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|2|4|6|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|22|9|18|27|2
+assists: 10
+games: 11
+goals: 4
 penalties: 3
 phase: regular-season
 pim: 6
-points: 11
-rank: 40
+points: 14
+rank: 33
 season: sk-26-27

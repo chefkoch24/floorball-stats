@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sabina Šnajberková
 Category: players
 Slug: player-afced24f08fb5f33
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 115
+rank: 119
 season: czw-26-27

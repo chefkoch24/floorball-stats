@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Magda Jansová
 Category: players
 Slug: player-dc13e09794f50d8b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 178
+rank: 181
 season: czw-26-27

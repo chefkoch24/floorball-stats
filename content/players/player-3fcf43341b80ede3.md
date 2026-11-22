@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Timo-Toumas Koivisto
 Category: players
 Slug: player-3fcf43341b80ede3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 293
+rank: 297
 season: 26-27

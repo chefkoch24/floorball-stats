@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Martin Lauko
 Category: players
 Slug: player-fedf8673717cb1fa
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 1
+current_games: 10
+current_goals: 2
 current_assists: 3
-current_points: 4
-current_pim: 2
-regular_games: 9
-regular_goals: 1
+current_points: 5
+current_pim: 4
+regular_games: 10
+regular_goals: 2
 regular_assists: 3
-regular_points: 4
-regular_pim: 2
+regular_points: 5
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 7
 previous_points: 14
 previous_pim: 2
-career_games: 31
-career_goals: 8
+career_games: 32
+career_goals: 9
 career_assists: 10
-career_points: 18
-career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|9|1|3|4|2||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|7|7|14|2
+career_points: 19
+career_pim: 6
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|2|3|5|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|22|7|7|14|2
 assists: 3
-games: 9
-goals: 1
-penalties: 1
+games: 10
+goals: 2
+penalties: 2
 phase: regular-season
-pim: 2
-points: 4
-rank: 111
+pim: 4
+points: 5
+rank: 102
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Dani Jaaranen
 Category: players
 Slug: player-3e6b8ec249dae09e
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 1
 current_assists: 2
 current_points: 3
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 8
 previous_points: 25
 previous_pim: 16
-career_games: 41
+career_games: 42
 career_goals: 17
 career_assists: 8
 career_points: 25
 career_pim: 18
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|9|0|0|0|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|2|3|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|3|0|3|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|22|14|8|22|16
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|10|0|0|0|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|1|2|3|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|3|0|3|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|22|14|8|22|16
 assists: 0
-games: 9
+games: 10
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 220
+rank: 224
 season: ch-26-27

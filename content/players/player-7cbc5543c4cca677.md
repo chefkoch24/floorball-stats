@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Peter Bednár
 Category: players
 Slug: player-7cbc5543c4cca677
@@ -11,12 +11,12 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 6
-regular_games: 7
+regular_games: 8
 regular_goals: 3
 regular_assists: 1
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 3
 career_assists: 1
 career_points: 4
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|7|3|1|4|6
+history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|8|3|1|4|6
 assists: 1
-games: 7
+games: 8
 goals: 3
 penalties: 3
 phase: regular-season
 pim: 6
 points: 4
-rank: 100
+rank: 109
 season: sk-26-27

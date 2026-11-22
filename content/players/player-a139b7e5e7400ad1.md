@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Muzslay Lili
 Category: players
 Slug: player-a139b7e5e7400ad1
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 39
+rank: 43
 season: skw-26-27

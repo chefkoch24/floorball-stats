@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marlena Paloaho
 Category: players
 Slug: player-c18f56c0784e36ea
@@ -11,16 +11,16 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
-current_goals: 3
-current_assists: 2
-current_points: 5
-current_pim: 6
-regular_games: 6
-regular_goals: 3
-regular_assists: 2
-regular_points: 5
-regular_pim: 6
+current_games: 7
+current_goals: 4
+current_assists: 3
+current_points: 7
+current_pim: 8
+regular_games: 7
+regular_goals: 4
+regular_assists: 3
+regular_points: 7
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
-career_goals: 3
-career_assists: 2
-career_points: 5
-career_pim: 6
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Pirkat|6|3|2|5|6
-assists: 2
-games: 6
-goals: 3
-penalties: 3
+career_games: 7
+career_goals: 4
+career_assists: 3
+career_points: 7
+career_pim: 8
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Pirkat|7|4|3|7|8
+assists: 3
+games: 7
+goals: 4
+penalties: 4
 phase: regular-season
-pim: 6
-points: 5
-rank: 69
+pim: 8
+points: 7
+rank: 52
 season: fiw-26-27

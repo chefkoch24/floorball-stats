@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Céline Stäubli
 Category: players
 Slug: player-86cc9eee0f8cc616
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 50
+rank: 54
 season: chw-26-27

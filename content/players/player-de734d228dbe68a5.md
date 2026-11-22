@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šimon Masár
 Category: players
 Slug: player-de734d228dbe68a5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 87
+rank: 94
 season: sk-26-27

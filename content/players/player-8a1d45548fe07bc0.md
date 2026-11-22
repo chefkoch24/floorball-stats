@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Monika Flajzarová
 Category: players
 Slug: player-8a1d45548fe07bc0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 161
+rank: 164
 season: czw-26-27

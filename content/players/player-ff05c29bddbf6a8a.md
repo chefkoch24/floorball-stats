@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Petra Miková
 Category: players
 Slug: player-ff05c29bddbf6a8a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 286
+rank: 288
 season: czw-26-27

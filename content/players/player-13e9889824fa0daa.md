@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marius Schwartz
 Category: players
 Slug: player-13e9889824fa0daa
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 8
-rank: 48
+rank: 53
 season: 26-27

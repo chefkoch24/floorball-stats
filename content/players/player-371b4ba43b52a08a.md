@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Karolína Mezerová
 Category: players
 Slug: player-371b4ba43b52a08a
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 1
-current_assists: 4
-current_points: 5
+current_assists: 6
+current_points: 7
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 1
-regular_assists: 4
-regular_points: 5
+regular_assists: 6
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 1
-career_assists: 4
-career_points: 5
+career_assists: 6
+career_points: 7
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FAT PIPE FLORBAL CHODOV|9|1|4|5|0
-assists: 4
-games: 9
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FAT PIPE FLORBAL CHODOV|10|1|6|7|0
+assists: 6
+games: 10
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 70
+points: 7
+rank: 45
 season: czw-26-27

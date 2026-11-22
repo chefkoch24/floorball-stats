@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Viktória Kukučová
 Category: players
 Slug: player-e2dcd2fe810ddacb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 167
+rank: 168
 season: skw-26-27

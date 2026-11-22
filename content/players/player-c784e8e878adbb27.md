@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jakub Faksa
 Category: players
 Slug: player-c784e8e878adbb27

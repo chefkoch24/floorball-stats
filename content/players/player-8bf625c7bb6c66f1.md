@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Valtteri Viitakoski
 Category: players
 Slug: player-8bf625c7bb6c66f1
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 8
+current_games: 9
 current_goals: 13
-current_assists: 8
-current_points: 21
+current_assists: 11
+current_points: 24
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 13
-regular_assists: 8
-regular_points: 21
+regular_assists: 11
+regular_points: 24
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 13
 previous_points: 24
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 29
-career_assists: 25
-career_points: 54
+career_assists: 28
+career_points: 57
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|8|13|8|21|0||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|2|1|0|1|2||fi-25-26|regular-season|Finland|Nokian KrP|17|11|13|24|0||wfc-2024|tournament|IFF WFC|Canada|5|4|4|8|0
-assists: 8
-games: 8
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|9|13|11|24|0||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|2|1|0|1|2||fi-25-26|regular-season|Finland|Nokian KrP|17|11|13|24|0||wfc-2024|tournament|IFF WFC|Canada|5|4|4|8|0
+assists: 11
+games: 9
 goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 21
-rank: 13
+points: 24
+rank: 11
 season: fi-26-27

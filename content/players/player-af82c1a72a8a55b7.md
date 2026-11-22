@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Eduards Sokolovs
 Category: players
 Slug: player-af82c1a72a8a55b7
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 4
-current_goals: 0
+current_games: 5
+current_goals: 1
 current_assists: 2
-current_points: 2
-current_pim: 0
-regular_games: 4
-regular_goals: 0
+current_points: 3
+current_pim: 2
+regular_games: 5
+regular_goals: 1
 regular_assists: 2
-regular_points: 2
-regular_pim: 0
+regular_points: 3
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 2
 previous_points: 3
 previous_pim: 2
-career_games: 12
-career_goals: 1
+career_games: 13
+career_goals: 2
 career_assists: 4
-career_points: 5
-career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|4|0|2|2|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|1|0|0|0|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|7|1|2|3|2
+career_points: 6
+career_pim: 4
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|5|1|2|3|2||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|1|0|0|0|0||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|7|1|2|3|2
 assists: 2
-games: 4
-goals: 0
-penalties: 0
+games: 5
+goals: 1
+penalties: 1
 phase: regular-season
-pim: 0
-points: 2
-rank: 130
+pim: 2
+points: 3
+rank: 105
 season: lv-26-27

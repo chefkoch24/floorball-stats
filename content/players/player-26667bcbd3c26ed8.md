@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Matejička Jakub
 Category: players
 Slug: player-26667bcbd3c26ed8
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 6
-current_assists: 3
-current_points: 9
+current_games: 10
+current_goals: 7
+current_assists: 4
+current_points: 11
 current_pim: 2
-regular_games: 9
-regular_goals: 6
-regular_assists: 3
-regular_points: 9
+regular_games: 10
+regular_goals: 7
+regular_assists: 4
+regular_points: 11
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 5
 previous_points: 13
 previous_pim: 4
-career_games: 29
-career_goals: 14
-career_assists: 8
-career_points: 22
+career_games: 30
+career_goals: 15
+career_assists: 9
+career_points: 24
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|9|6|3|9|2||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|20|8|5|13|4
-assists: 3
-games: 9
-goals: 6
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|10|7|4|11|2||sk-25-26|regular-season|Slovakia|FBC Grasshoppers AC UNIZA Žilina|20|8|5|13|4
+assists: 4
+games: 10
+goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
-points: 9
-rank: 49
+points: 11
+rank: 45
 season: sk-26-27

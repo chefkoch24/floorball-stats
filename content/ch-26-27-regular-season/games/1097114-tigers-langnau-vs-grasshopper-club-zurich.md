@@ -321,7 +321,7 @@ home_pregame_points_after_first_period: 10
 home_pregame_points_after_first_period_per_game: 1.43
 home_pregame_points_after_second_period: 16
 home_pregame_points_after_third_period: 17
-home_pregame_points_against_floorball_koniz_bern: 3
+home_pregame_points_against_floorball_koniz_bern: 6
 home_pregame_points_against_floorball_thurgau: 2
 home_pregame_points_against_grasshopper_club_zurich: 0
 home_pregame_points_against_hc_rychenberg_winterthur: 3

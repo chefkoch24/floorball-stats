@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jan Blažek
 Category: players
 Slug: player-de29a321cbfff189

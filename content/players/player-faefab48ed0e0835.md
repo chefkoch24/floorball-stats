@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Rasmus Ristimäki
 Category: players
 Slug: player-faefab48ed0e0835
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 174
+rank: 177
 season: fi-26-27

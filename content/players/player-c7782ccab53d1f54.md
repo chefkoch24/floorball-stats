@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Aida Koskinen
 Category: players
 Slug: player-c7782ccab53d1f54
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 116
+rank: 120
 season: fiw-26-27

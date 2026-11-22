@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Annika Huter
 Category: players
 Slug: player-c583cf6b86ca0668
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 162
+rank: 167
 season: chw-26-27

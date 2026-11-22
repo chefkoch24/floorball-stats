@@ -326,7 +326,7 @@ home_pregame_points_against_mkss_fbk_kysucke_nove_mesto: 1
 home_pregame_points_against_oxdog_snipers_bratislava: 3
 home_pregame_points_against_sk_98_pruske: 5
 home_pregame_points_against_sk_fbk_kometa_spisska_nova_ves: 0
-home_pregame_points_against_sk_florbal_modra: 3
+home_pregame_points_against_sk_florbal_modra: 6
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 3
 home_pregame_points_per_game: 2.5

@@ -321,6 +321,7 @@ home_pregame_points_after_first_period: 11
 home_pregame_points_after_first_period_per_game: 2.2
 home_pregame_points_after_second_period: 8
 home_pregame_points_after_third_period: 10
+home_pregame_points_against_floorball_uri: 3
 home_pregame_points_against_kloten_dietlikon_jets: 3
 home_pregame_points_against_red_ants_winterthur: 3
 home_pregame_points_against_uhc_laupen_zh: 3
@@ -440,6 +441,7 @@ away_pregame_points_against_floorball_uri: 3
 away_pregame_points_against_kloten_dietlikon_jets: 1
 away_pregame_points_against_red_ants_winterthur: 0
 away_pregame_points_against_unihockey_berner_oberland: 3
+away_pregame_points_against_wizards_bern_burgdorf: 3
 away_pregame_points_against_zug_united: 1
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 9

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kimmi O'Grady
 Category: players
 Slug: player-f2df3a96643ef995
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 62
+rank: 65
 season: chw-26-27

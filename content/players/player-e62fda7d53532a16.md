@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michal Bačišin
 Category: players
 Slug: player-e62fda7d53532a16
@@ -11,15 +11,15 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 11
+current_games: 10
+current_goals: 12
 current_assists: 3
-current_points: 14
+current_points: 15
 current_pim: 2
-regular_games: 9
-regular_goals: 11
+regular_games: 10
+regular_goals: 12
 regular_assists: 3
-regular_points: 14
+regular_points: 15
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 11
+career_games: 10
+career_goals: 12
 career_assists: 3
-career_points: 14
+career_points: 15
 career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|9|11|3|14|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|10|12|3|15|2
 assists: 3
-games: 9
-goals: 11
+games: 10
+goals: 12
 penalties: 1
 phase: regular-season
 pim: 2
-points: 14
-rank: 19
+points: 15
+rank: 21
 season: sk-26-27

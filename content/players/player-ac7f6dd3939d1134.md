@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Klára Kamenská
 Category: players
 Slug: player-ac7f6dd3939d1134
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 26
+rank: 30
 season: skw-26-27

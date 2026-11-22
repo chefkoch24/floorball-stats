@@ -1,4 +1,4 @@
-Date: 2026-11-20
+Date: 2026-11-21
 Title: FBK Valmiera
 Category: lv-26-27-regular-season, teams
 Slug: fbk-valmiera-lv-26-27-regular-season-lv-26-27-regular-season

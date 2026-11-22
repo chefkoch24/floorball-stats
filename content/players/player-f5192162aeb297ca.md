@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Zuzana Mrázová
 Category: players
 Slug: player-f5192162aeb297ca
@@ -11,15 +11,15 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 6
+current_games: 9
+current_goals: 7
 current_assists: 8
-current_points: 14
+current_points: 15
 current_pim: 0
-regular_games: 8
-regular_goals: 6
+regular_games: 9
+regular_goals: 7
 regular_assists: 8
-regular_points: 14
+regular_points: 15
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 6
+career_games: 9
+career_goals: 7
 career_assists: 8
-career_points: 14
+career_points: 15
 career_pim: 0
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|8|6|8|14|0
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|FBK Harvard Partizánske|9|7|8|15|0
 assists: 8
-games: 8
-goals: 6
+games: 9
+goals: 7
 penalties: 0
 phase: regular-season
 pim: 0
-points: 14
-rank: 7
+points: 15
+rank: 10
 season: skw-26-27

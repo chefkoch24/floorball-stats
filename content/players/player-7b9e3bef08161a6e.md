@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Annika Toivanen
 Category: players
 Slug: player-7b9e3bef08161a6e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 103
+rank: 108
 season: fiw-26-27

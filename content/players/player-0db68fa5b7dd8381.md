@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Tjorven Dethlefsen
 Category: players
 Slug: player-0db68fa5b7dd8381
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 154
+rank: 156
 season: 26-27

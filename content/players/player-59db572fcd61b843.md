@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Noah Siegenthaler
 Category: players
 Slug: player-59db572fcd61b843
@@ -11,15 +11,15 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
+current_games: 9
 current_goals: 0
-current_assists: 6
-current_points: 6
+current_assists: 7
+current_points: 7
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 0
-regular_assists: 5
-regular_points: 5
+regular_assists: 6
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 14
 previous_points: 22
 previous_pim: 4
-career_games: 44
+career_games: 45
 career_goals: 11
-career_assists: 20
-career_points: 31
+career_assists: 21
+career_points: 32
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|7|0|5|5|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|1|0|1|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|1|4|5|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|7|10|17|4||wfc-2024|tournament|IFF WFC|Switzerland|6|3|1|4|0
-assists: 5
-games: 7
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|0|6|6|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|1|0|1|1|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|1|4|5|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|7|10|17|4||wfc-2024|tournament|IFF WFC|Switzerland|6|3|1|4|0
+assists: 6
+games: 8
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 92
+points: 6
+rank: 80
 season: ch-26-27

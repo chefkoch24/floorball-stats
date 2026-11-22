@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Uhrinová Rebeka
 Category: players
 Slug: player-d030958e8e3b3d7a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 96
+rank: 97
 season: skw-26-27

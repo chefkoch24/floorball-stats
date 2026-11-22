@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michal Franek
 Category: players
 Slug: player-ce3158ee6252abd7
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
+current_games: 10
 current_goals: 4
 current_assists: 2
 current_points: 6
-current_pim: 6
-regular_games: 9
+current_pim: 8
+regular_games: 10
 regular_goals: 4
 regular_assists: 2
 regular_points: 6
-regular_pim: 6
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 3
 previous_points: 5
 previous_pim: 0
-career_games: 27
+career_games: 28
 career_goals: 6
 career_assists: 5
 career_points: 11
-career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|4|2|6|6||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|5|0|0|0|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|13|2|3|5|0
+career_pim: 8
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|10|4|2|6|8||sk-25-26|playoffs|Slovakia|ŠK Lido Prírodovedec Bratislava|5|0|0|0|0||sk-25-26|regular-season|Slovakia|ŠK Lido Prírodovedec Bratislava|13|2|3|5|0
 assists: 2
-games: 9
+games: 10
 goals: 4
-penalties: 3
+penalties: 4
 phase: regular-season
-pim: 6
+pim: 8
 points: 6
-rank: 78
+rank: 82
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Barbora Bartoňová
 Category: players
 Slug: player-1fd8ba589073c64e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 205
+rank: 209
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Manuel Matt
 Category: players
 Slug: player-ff9bc433c1ad452a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 1
 previous_points: 4
 previous_pim: 2
-career_games: 41
+career_games: 42
 career_goals: 5
 career_assists: 1
 career_points: 6
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|9|2|0|2|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|0|1|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|22|3|0|3|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|HC Rychenberg Winterthur|10|2|0|2|2||ch-26-27|cup|Switzerland|HC Rychenberg Winterthur|3|0|1|1|0||ch-25-26|playoffs|Switzerland|HC Rychenberg Winterthur|10|0|1|1|0||ch-25-26|regular-season|Switzerland|HC Rychenberg Winterthur|22|3|0|3|2
 assists: 0
-games: 9
+games: 10
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 149
+rank: 150
 season: ch-26-27

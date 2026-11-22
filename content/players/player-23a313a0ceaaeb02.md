@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sarina Bandschapp
 Category: players
 Slug: player-23a313a0ceaaeb02
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 151
+rank: 155
 season: chw-26-27

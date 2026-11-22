@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Amálie Balíková
 Category: players
 Slug: player-6b8cfed0f217ad49
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 195
+rank: 199
 season: czw-26-27

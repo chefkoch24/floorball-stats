@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Eliška Horáková
 Category: players
 Slug: player-fdf0c07df6820d7d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 80
+rank: 81
 season: czw-26-27

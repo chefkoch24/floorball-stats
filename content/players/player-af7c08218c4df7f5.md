@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Peter Banga
 Category: players
 Slug: player-af7c08218c4df7f5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 10
-current_goals: 14
-current_assists: 4
-current_points: 18
+current_games: 11
+current_goals: 15
+current_assists: 7
+current_points: 22
 current_pim: 6
-regular_games: 10
-regular_goals: 14
-regular_assists: 4
-regular_points: 18
+regular_games: 11
+regular_goals: 15
+regular_assists: 7
+regular_points: 22
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 41
 previous_assists: 23
 previous_points: 64
 previous_pim: 22
-career_games: 46
-career_goals: 55
-career_assists: 27
-career_points: 82
+career_games: 47
+career_goals: 56
+career_assists: 30
+career_points: 86
 career_pim: 28
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|10|14|4|18|6||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|13|11|8|19|12||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|23|30|15|45|10
-assists: 4
-games: 10
-goals: 14
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|11|15|7|22|6||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|13|11|8|19|12||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|23|30|15|45|10
+assists: 7
+games: 11
+goals: 15
 penalties: 3
 phase: regular-season
 pim: 6
-points: 18
-rank: 9
+points: 22
+rank: 7
 season: sk-26-27

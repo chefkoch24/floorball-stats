@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Leo Saarinen
 Category: players
 Slug: player-f453321ff04abfcb
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 19
-rank: 6
+rank: 9
 season: 26-27

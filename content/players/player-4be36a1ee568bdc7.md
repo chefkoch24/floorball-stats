@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Boran Jäger
 Category: players
 Slug: player-4be36a1ee568bdc7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 110
+rank: 115
 season: 26-27

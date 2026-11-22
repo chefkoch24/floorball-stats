@@ -7,22 +7,22 @@ game_id: 137572
 home_team: Oxdog Snipers Bratislava
 away_team: ŠK 98 Pruské
 attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+away_goal_diffs_csv: -1,-2,-2
+away_goal_minutes_csv: 33.73,34.12,49.17
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMDI6MDgiLCJwZXJpb2QiOjIsInRlYW0iOiJPeGRvZyBTbmlwZXJzIEJyYXRpc2xhdmEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMDowIiwiZXZlbnRfa2luZCI6InBlbmFsdHkiLCJ0aXRsZSI6IjIgbWluIHBlbmFsdHkiLCJhc3Npc3QiOiJOaWtvbGEgQnXEjWnEjW92w6EiLCJhc3Npc3RfdWlkIjpudWxsLCJ0YWciOiJwZW5hbHR5XzIifSx7Im1pbnV0ZSI6IjEzOjQ0IiwicGVyaW9kIjoyLCJ0ZWFtIjoixaBLIDk4IFBydXNrw6kiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkhyZWh1xaFvdsOhIEl2YW5hIiwidGl0bGVfdWlkIjoicGxheWVyLTQ4YzExZWQ0YTI1YjExMmQiLCJhc3Npc3QiOiJUcm/FoWtvdsOhIEphbmEiLCJhc3Npc3RfdWlkIjoicGxheWVyLTcxZDAxOGUyY2ZkYmE4N2YiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxNDowNyIsInBlcmlvZCI6MiwidGVhbSI6IsWgSyA5OCBQcnVza8OpIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJIcmVodcWhb3bDoSBJdmFuYSIsInRpdGxlX3VpZCI6InBsYXllci00OGMxMWVkNGEyNWIxMTJkIiwiYXNzaXN0IjoiVHJvxaFrb3bDoSBKYW5hIiwiYXNzaXN0X3VpZCI6InBsYXllci03MWQwMThlMmNmZGJhODdmIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDU6NDMiLCJwZXJpb2QiOjMsInRlYW0iOiJPeGRvZyBTbmlwZXJzIEJyYXRpc2xhdmEiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMjozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkthZGxlY292w6EgTWljaGFlbGEiLCJ0aXRsZV91aWQiOiJwbGF5ZXItZjBhMTM1OWRkNjExZGVjNCIsImFzc2lzdCI6IsWgdXN0ZWtvdsOhIEzDrXZpYSIsImFzc2lzdF91aWQiOiJwbGF5ZXItMzIxNTEwZGNmMjFmMTAyNyIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA5OjEwIiwicGVyaW9kIjozLCJ0ZWFtIjoixaBLIDk4IFBydXNrw6kiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMjo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlRyb8Wha292w6EgSmFuYSIsInRpdGxlX3VpZCI6InBsYXllci03MWQwMThlMmNmZGJhODdmIiwiYXNzaXN0IjoiSHJlaHXFoW92w6EgSXZhbmEiLCJhc3Npc3RfdWlkIjoicGxheWVyLTQ4YzExZWQ0YTI1YjExMmQiLCJ0YWciOiJnb2FsIn1d
+game_events_count: 6
+game_state: played
+game_status: Played
+home_goal_diffs_csv: -1
+home_goal_minutes_csv: 45.72
 home_major_penalty_minutes_csv: 
-home_penalty_ends_csv: 
-home_penalty_goals_csv: 
-home_penalty_minutes_csv: 
+home_penalty_ends_csv: 24.13
+home_penalty_goals_csv: 0
+home_penalty_minutes_csv: 22.13
 ingame_status: None
 pregame_h2h_away_split_goal_diff_per_game: 1.5
 pregame_h2h_away_split_points_per_game: 2.0
@@ -71,39 +71,39 @@ pregame_h2h_special_away_pk_eff: 57.14
 pregame_h2h_special_away_pp_eff: 10.0
 pregame_h2h_special_home_pk_eff: 42.86
 pregame_h2h_special_home_pp_eff: 0.0
-result_string: None
+result_string: 2:4
 start_time: 16:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,2,3
+timeline_diffs_csv: 0,-1,-2,-1,-2
+timeline_home_goals_csv: 0,0,0,1,1
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,33.73,34.12,45.72,49.17
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 100.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
-home_boxplay_second_period: 0
-home_boxplay_seconds: 0
+home_boxplay_second_period: 1
+home_boxplay_seconds: 120
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
+home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -2
+home_goals: 2
+home_goals_against: 4
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 2
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
 home_goals_in_first_period_against: 0
@@ -113,34 +113,35 @@ home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
 home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
-home_home_points: 1
+home_goals_in_second_period_against: 2
+home_goals_in_third_period: 1
+home_goals_in_third_period_against: 1
+home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
-home_penalties: 0
+home_penalties: 1
 home_penalty_10: 0
-home_penalty_2: 0
+home_penalty_2: 1
 home_penalty_2and2: 0
 home_penalty_first_period: 0
 home_penalty_ms: 0
 home_penalty_overtime: 0
-home_penalty_second_period: 0
+home_penalty_second_period: 1
 home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
+home_points: 0
 home_points_after_55_min: 0
 home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
 home_points_after_third_period: 0
+home_points_against_sk_98_pruske: 0
 home_points_max_difference_2: 0
 home_points_more_2_difference: 0
 home_powerplay: 0
@@ -154,7 +155,7 @@ home_take_the_lead_goals: 0
 home_take_the_lead_goals_against: 0
 home_win_1: 0
 home_wins: 0
-away_away_points: 1
+away_away_points: 3
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -165,20 +166,20 @@ away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: 2
+away_goals: 4
+away_goals_against: 2
+away_goals_against_away: 2
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
@@ -188,10 +189,10 @@ away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
+away_goals_in_second_period: 2
 away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period: 1
+away_goals_in_third_period_against: 1
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
@@ -210,26 +211,27 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
 away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
+away_points_after_second_period: 3
+away_points_after_third_period: 3
+away_points_against_oxdog_snipers_bratislava: 3
 away_points_max_difference_2: 0
-away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_points_more_2_difference: 3
+away_powerplay: 1
+away_powerplay_efficiency: 0.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
-away_powerplay_second_period: 0
-away_powerplay_seconds: 0
+away_powerplay_second_period: 1
+away_powerplay_seconds: 120
 away_powerplay_third_period: 0
 away_take_the_lead_goals: 0
 away_take_the_lead_goals_against: 0
 away_win_1: 0
-away_wins: 0
+away_wins: 1
 home_pregame_away_points: 3
 home_pregame_boxplay: 8
 home_pregame_boxplay_efficiency: 37.5
@@ -435,7 +437,7 @@ away_pregame_points_against_fbk_harvard_partizanske: 3
 away_pregame_points_against_ftc_bojkun_trucks_filakovo: 0
 away_pregame_points_against_mkss_fbk_kysucke_nove_mesto: 0
 away_pregame_points_against_nts_fk_zs_nemsova: 1
-away_pregame_points_against_oxdog_snipers_bratislava: 3
+away_pregame_points_against_oxdog_snipers_bratislava: 6
 away_pregame_points_against_sk_fbk_kometa_spisska_nova_ves: 0
 away_pregame_points_against_sk_florbal_modra: 3
 away_pregame_points_max_difference_2: 4

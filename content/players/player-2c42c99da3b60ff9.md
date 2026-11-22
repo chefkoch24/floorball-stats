@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lucie Waloszková
 Category: players
 Slug: player-2c42c99da3b60ff9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 143
+rank: 144
 season: skw-26-27

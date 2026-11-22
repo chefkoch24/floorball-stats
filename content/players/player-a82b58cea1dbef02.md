@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Tamara Eszter Kovács
 Category: players
 Slug: player-a82b58cea1dbef02
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 159
+rank: 160
 season: skw-26-27

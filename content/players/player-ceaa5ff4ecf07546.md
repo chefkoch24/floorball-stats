@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šiša Damian
 Category: players
 Slug: player-ceaa5ff4ecf07546
@@ -11,15 +11,15 @@ season_count: 1
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 8
+current_games: 10
+current_goals: 9
 current_assists: 2
-current_points: 10
+current_points: 11
 current_pim: 2
-regular_games: 9
-regular_goals: 8
+regular_games: 10
+regular_goals: 9
 regular_assists: 2
-regular_points: 10
+regular_points: 11
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 8
+career_games: 10
+career_goals: 9
 career_assists: 2
-career_points: 10
+career_points: 11
 career_pim: 2
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|8|2|10|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|10|9|2|11|2
 assists: 2
-games: 9
-goals: 8
+games: 10
+goals: 9
 penalties: 1
 phase: regular-season
 pim: 2
-points: 10
-rank: 42
+points: 11
+rank: 44
 season: sk-26-27

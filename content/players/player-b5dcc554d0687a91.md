@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Hannes Kowalewicz
 Category: players
 Slug: player-b5dcc554d0687a91
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 12
 current_assists: 4
 current_points: 16
-current_pim: 8
-regular_games: 10
+current_pim: 10
+regular_games: 11
 regular_goals: 11
 regular_assists: 4
 regular_points: 15
-regular_pim: 8
+regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 2
 previous_points: 6
 previous_pim: 8
-career_games: 42
+career_games: 43
 career_goals: 15
 career_assists: 6
 career_points: 21
-career_pim: 16
-history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|10|11|4|15|8||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|1|0|1|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|2|0|2|2||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|2|2|4|6
+career_pim: 18
+history_rows_csv: 26-27|regular-season|Germany|UHC Sparkasse Weißenfels|11|11|4|15|10||26-27|cup|Germany|UHC Sparkasse Weißenfels|1|1|0|1|0||25-26|playoffs|Germany|UHC Sparkasse Weißenfels|12|2|0|2|2||25-26|regular-season|Germany|UHC Sparkasse Weißenfels|20|2|2|4|6
 assists: 4
-games: 10
+games: 11
 goals: 11
-penalties: 4
+penalties: 5
 phase: regular-season
-pim: 8
+pim: 10
 points: 15
-rank: 20
+rank: 22
 season: 26-27

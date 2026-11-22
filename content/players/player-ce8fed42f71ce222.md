@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Evelīna Drozdova
 Category: players
 Slug: player-ce8fed42f71ce222
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 31
+rank: 36
 season: lvw-26-27

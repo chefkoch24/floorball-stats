@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Paul Kretzschmar
 Category: players
 Slug: player-6b44274badb49e05
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 8
 previous_points: 18
 previous_pim: 4
-career_games: 21
+career_games: 22
 career_goals: 10
 career_assists: 9
 career_points: 19
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|6|0|1|1|2||26-27|cup|Germany|MFBC Leipzig|1|1|0|1|0||25-26|playoffs|Germany|MFBC Leipzig|10|7|5|12|2||25-26|regular-season|Germany|MFBC Leipzig|5|3|3|6|2
+history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|7|0|1|1|2||26-27|cup|Germany|MFBC Leipzig|1|1|0|1|0||25-26|playoffs|Germany|MFBC Leipzig|10|7|5|12|2||25-26|regular-season|Germany|MFBC Leipzig|5|3|3|6|2
 assists: 1
-games: 6
+games: 7
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 201
+rank: 209
 season: 26-27

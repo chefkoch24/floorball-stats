@@ -443,6 +443,7 @@ away_pregame_points_against_koovee: 3
 away_pregame_points_against_northern_stars: 3
 away_pregame_points_against_pss: 0
 away_pregame_points_against_sb_pro: 0
+away_pregame_points_against_sbs_wirmo: 0
 away_pregame_points_against_spv: 2
 away_pregame_points_against_tps: 0
 away_pregame_points_max_difference_2: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Aliya Bühler
 Category: players
 Slug: player-c135f082e4a2f5b4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 111
+rank: 114
 season: chw-26-27

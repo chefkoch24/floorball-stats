@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Adam Hemerka
 Category: players
 Slug: player-780ee5fc067e198a
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 8
+current_goals: 6
+current_assists: 6
+current_points: 12
 current_pim: 4
-regular_games: 7
-regular_goals: 4
-regular_assists: 5
-regular_points: 9
+regular_games: 8
+regular_goals: 6
+regular_assists: 6
+regular_points: 12
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 18
 previous_points: 38
 previous_pim: 10
-career_games: 41
-career_goals: 24
-career_assists: 24
-career_points: 48
+career_games: 42
+career_goals: 26
+career_assists: 25
+career_points: 51
 career_pim: 16
-history_rows_csv: fi-26-27|regular-season|Finland|Classic|7|4|5|9|4||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|4|0|2|2|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|24|20|16|36|8||wfc-2024|tournament|IFF WFC|Czechia|6|0|1|1|2
-assists: 5
-games: 7
-goals: 4
+history_rows_csv: fi-26-27|regular-season|Finland|Classic|8|6|6|12|4||cz-25-26|playoffs|Czech Republic|Předvýběr.CZ Florbal MB|4|0|2|2|2||cz-25-26|regular-season|Czech Republic|Předvýběr.CZ Florbal MB|24|20|16|36|8||wfc-2024|tournament|IFF WFC|Czechia|6|0|1|1|2
+assists: 6
+games: 8
+goals: 6
 penalties: 2
 phase: regular-season
 pim: 4
-points: 9
-rank: 66
+points: 12
+rank: 41
 season: fi-26-27

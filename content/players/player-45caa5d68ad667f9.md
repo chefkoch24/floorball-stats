@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lieke Sloof
 Category: players
 Slug: player-45caa5d68ad667f9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 105
+rank: 109
 season: chw-26-27

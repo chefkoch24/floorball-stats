@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Rendl Andrej
 Category: players
 Slug: player-de8a13d29eb91d57
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 1
 current_points: 1
 current_pim: 0
-regular_games: 2
+regular_games: 3
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 11
 previous_points: 18
 previous_pim: 14
-career_games: 34
+career_games: 35
 career_goals: 7
 career_assists: 12
 career_points: 19
 career_pim: 14
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|2|0|1|1|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|3|1|4|2||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|22|4|10|14|12
+history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|3|0|1|1|0||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|10|3|1|4|2||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|22|4|10|14|12
 assists: 1
-games: 2
+games: 3
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 191
+rank: 200
 season: sk-26-27

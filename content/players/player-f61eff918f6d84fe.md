@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Aurelia Gisler
 Category: players
 Slug: player-f61eff918f6d84fe
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 83
+rank: 88
 season: chw-26-27

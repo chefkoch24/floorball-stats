@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kallai Fanni Anna
 Category: players
 Slug: player-5d8b281fd9bec289
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 31
+rank: 36
 season: skw-26-27

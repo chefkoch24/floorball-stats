@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Viktória Komzalová
 Category: players
 Slug: player-269f80d8be0e4ad5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 54
+rank: 55
 season: skw-26-27

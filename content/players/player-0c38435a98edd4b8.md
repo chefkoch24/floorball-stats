@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Leander Wittig
 Category: players
 Slug: player-0c38435a98edd4b8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 245
+rank: 253
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lucia Smolková
 Category: players
 Slug: player-89b04e03f6defa0e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 142
+rank: 143
 season: skw-26-27

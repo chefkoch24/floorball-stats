@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Tessa Pietilä
 Category: players
 Slug: player-d3da285b25f029bb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 81
+rank: 87
 season: fiw-26-27

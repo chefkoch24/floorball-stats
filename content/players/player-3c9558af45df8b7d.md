@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Oliver Wiedmer
 Category: players
 Slug: player-3c9558af45df8b7d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 3
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 10
 previous_points: 13
 previous_pim: 4
-career_games: 42
+career_games: 43
 career_goals: 6
 career_assists: 13
 career_points: 19
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|3|3|6|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|0|4|4|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|3|6|9|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|10|3|3|6|2||ch-26-27|cup|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|0|4|4|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|21|3|6|9|4
 assists: 3
-games: 9
+games: 10
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 70
+rank: 75
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Barbora Zamazal Husková
 Category: players
 Slug: player-ad0fc7825476e5e9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 14
-rank: 9
+rank: 12
 season: czw-26-27

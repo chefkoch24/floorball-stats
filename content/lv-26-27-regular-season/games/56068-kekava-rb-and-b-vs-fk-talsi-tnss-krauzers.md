@@ -326,7 +326,7 @@ home_pregame_points_against_fk_kursi: 0
 home_pregame_points_against_fk_talsi_tnss_krauzers: 0
 home_pregame_points_against_lekrings: 2
 home_pregame_points_against_lielvarde_unihoc: 3
-home_pregame_points_against_masters_ulbroka_lu: 1
+home_pregame_points_against_masters_ulbroka_lu: 4
 home_pregame_points_against_rubene: 0
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 9
@@ -434,7 +434,7 @@ away_pregame_points_after_first_period: 6
 away_pregame_points_after_first_period_per_game: 0.75
 away_pregame_points_after_second_period: 8
 away_pregame_points_after_third_period: 16
-away_pregame_points_against_fbk_sac: 3
+away_pregame_points_against_fbk_sac: 6
 away_pregame_points_against_fbk_valmiera: 1
 away_pregame_points_against_fk_kursi: 3
 away_pregame_points_against_kekava_rb_b: 6

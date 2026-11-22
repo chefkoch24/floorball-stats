@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Daniel Czapelka
 Category: players
 Slug: player-29c96cda094f9f07
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 71
+rank: 75
 season: 26-27

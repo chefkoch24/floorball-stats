@@ -333,6 +333,7 @@ home_pregame_points_against_fbc_liberec: 1
 home_pregame_points_against_fbs_hummel_hattrick_brno: 3
 home_pregame_points_against_florbal_usti: 3
 home_pregame_points_against_hdt_cz_florbal_vary_bohemians: 1
+home_pregame_points_against_kanonyri_kladno: 3
 home_pregame_points_against_tatran_stresovice: 0
 home_pregame_points_max_difference_2: 7
 home_pregame_points_more_2_difference: 13

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Friederike Schlotmann
 Category: players
 Slug: player-4af8c11d09a675d5

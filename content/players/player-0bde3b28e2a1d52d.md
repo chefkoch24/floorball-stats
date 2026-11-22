@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Klinta Rovīte
 Category: players
 Slug: player-0bde3b28e2a1d52d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 40
+rank: 43
 season: lvw-26-27

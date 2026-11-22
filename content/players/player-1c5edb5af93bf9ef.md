@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Elina Koskinen
 Category: players
 Slug: player-1c5edb5af93bf9ef
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 159
+rank: 163
 season: fiw-26-27

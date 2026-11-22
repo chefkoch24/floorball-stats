@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Svrčková Klára
 Category: players
 Slug: player-d52e4ec3e9608d52
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 79
+rank: 80
 season: skw-26-27

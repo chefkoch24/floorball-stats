@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lukas Franck
 Category: players
 Slug: player-5e4d1e7f1b676e1d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 147
+rank: 148
 season: 26-27

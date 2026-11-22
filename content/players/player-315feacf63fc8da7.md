@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Christopher Matheson
 Category: players
 Slug: player-315feacf63fc8da7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 210
+rank: 218
 season: 26-27

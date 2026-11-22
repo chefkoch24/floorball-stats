@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Klinta Mārtiņjēkaba
 Category: players
 Slug: player-757442bffc95d2da
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 13
+rank: 14
 season: lvw-26-27

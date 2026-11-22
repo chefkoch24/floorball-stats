@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Markuss Šterns
 Category: players
 Slug: player-28d08cce0165df8c
@@ -11,16 +11,16 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 1
 current_points: 1
-current_pim: 4
-regular_games: 10
+current_pim: 6
+regular_games: 11
 regular_goals: 0
 regular_assists: 1
 regular_points: 1
-regular_pim: 4
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 0
 career_assists: 1
 career_points: 1
-career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|10|0|1|1|4
+career_pim: 6
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|11|0|1|1|6
 assists: 1
-games: 10
+games: 11
 goals: 0
-penalties: 2
+penalties: 3
 phase: regular-season
-pim: 4
+pim: 6
 points: 1
-rank: 154
+rank: 155
 season: lv-26-27

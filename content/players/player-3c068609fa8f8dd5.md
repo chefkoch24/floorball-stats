@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kryštof Milichovský
 Category: players
 Slug: player-3c068609fa8f8dd5

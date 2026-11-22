@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michaela Urbanová
 Category: players
 Slug: player-f90ed5babd55d076
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 46
+rank: 52
 season: chw-26-27

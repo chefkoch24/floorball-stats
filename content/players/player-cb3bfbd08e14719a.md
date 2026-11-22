@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ponomarenko Bohdan
 Category: players
 Slug: player-cb3bfbd08e14719a
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
-current_goals: 11
+current_games: 10
+current_goals: 12
 current_assists: 7
-current_points: 18
+current_points: 19
 current_pim: 0
-regular_games: 9
-regular_goals: 11
+regular_games: 10
+regular_goals: 12
 regular_assists: 7
-regular_points: 18
+regular_points: 19
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 19
 previous_assists: 17
 previous_points: 36
 previous_pim: 10
-career_games: 37
-career_goals: 30
+career_games: 38
+career_goals: 31
 career_assists: 24
-career_points: 54
+career_points: 55
 career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|9|11|7|18|0||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|3|1|4|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|23|16|16|32|10
+history_rows_csv: sk-26-27|regular-season|Slovakia|Oxdog Snipers Bratislava|10|12|7|19|0||sk-25-26|playoffs|Slovakia|Snipers Bratislava|5|3|1|4|0||sk-25-26|regular-season|Slovakia|Snipers Bratislava|23|16|16|32|10
 assists: 7
-games: 9
-goals: 11
+games: 10
+goals: 12
 penalties: 0
 phase: regular-season
 pim: 0
-points: 18
-rank: 11
+points: 19
+rank: 13
 season: sk-26-27

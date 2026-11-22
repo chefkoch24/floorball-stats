@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Linda Fuchsová C
 Category: players
 Slug: player-46a2fb5db9e49d9c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 267
 season: czw-26-27

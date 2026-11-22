@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Eva Stará
 Category: players
 Slug: player-c03aae22b7bca702
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 123
+rank: 126
 season: czw-26-27

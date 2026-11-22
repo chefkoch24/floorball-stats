@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Olli Jokela
 Category: players
 Slug: player-7077dd3c5feda5d6
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 128
+rank: 131
 season: fi-26-27

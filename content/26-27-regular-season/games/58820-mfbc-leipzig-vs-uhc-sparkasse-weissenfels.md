@@ -323,6 +323,7 @@ home_pregame_points_after_third_period: 2
 home_pregame_points_against_berlin_rockets: 1
 home_pregame_points_against_blau_weiss_96_schenefeld: 3
 home_pregame_points_against_djk_holzbuttgen: 0
+home_pregame_points_against_etv_piranhhas_hamburg: 2
 home_pregame_points_against_fbc_munchen: 3
 home_pregame_points_against_floor_fighters_chemnitz: 2
 home_pregame_points_against_sc_dhfk_leipzig: 2
@@ -446,6 +447,7 @@ away_pregame_points_against_mfbc_leipzig: 0
 away_pregame_points_against_sc_dhfk_leipzig: 3
 away_pregame_points_against_ssf_dragons_bonn: 0
 away_pregame_points_against_unihockey_igels_dresden: 3
+away_pregame_points_against_vfl_red_hocks_kaufering: 2
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 5
 away_pregame_points_per_game: 2.5

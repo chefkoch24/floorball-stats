@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jēkabs Berkolts
 Category: players
 Slug: player-d6b7ba38ec0e533c
@@ -7,10 +7,10 @@ player: Jēkabs Berkolts
 player_uid: player-d6b7ba38ec0e533c
 team: FBC ČPP MPL STAVEBNINY OSTRAVA
 league: Czech Republic
-season_count: 2
+season_count: 3
 current_season: cz-26-27
 current_season_is_tournament: no
-previous_season: lv-25-26
+previous_season: lv-26-27
 current_games: 7
 current_goals: 0
 current_assists: 1
@@ -31,17 +31,17 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 41
-previous_goals: 10
-previous_assists: 24
-previous_points: 34
-previous_pim: 22
-career_games: 48
+previous_games: 1
+previous_goals: 0
+previous_assists: 0
+previous_points: 0
+previous_pim: 0
+career_games: 49
 career_goals: 10
 career_assists: 25
 career_points: 35
 career_pim: 24
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|7|0|1|1|2||lv-25-26|playoffs|Latvia|Lekrings|15|3|5|8|12||lv-25-26|regular-season|Latvia|Lekrings|26|7|19|26|10
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČPP MPL STAVEBNINY OSTRAVA|7|0|1|1|2||lv-26-27|regular-season|Latvia|Lekrings|1|0|0|0|0||lv-25-26|playoffs|Latvia|Lekrings|15|3|5|8|12||lv-25-26|regular-season|Latvia|Lekrings|26|7|19|26|10
 assists: 1
 games: 7
 goals: 0

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Niko Latvakoski
 Category: players
 Slug: player-fded6a165cc91a17
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 13
-rank: 24
+rank: 26
 season: 26-27

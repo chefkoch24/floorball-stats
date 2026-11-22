@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Olekšák Daniel
 Category: players
 Slug: player-9f91cab358bd4437
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 88
+rank: 96
 season: sk-26-27

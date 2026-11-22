@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kristýna Halousková
 Category: players
 Slug: player-ee94c4d9f8032d8f
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 13
+current_games: 14
 current_goals: 10
-current_assists: 5
-current_points: 15
+current_assists: 6
+current_points: 16
 current_pim: 2
-regular_games: 8
+regular_games: 9
 regular_goals: 7
-regular_assists: 1
-regular_points: 8
+regular_assists: 2
+regular_points: 9
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 7
-career_assists: 1
-career_points: 8
+career_assists: 2
+career_points: 9
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|8|7|1|8|2||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|3|4|7|0
-assists: 1
-games: 8
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|9|7|2|9|2||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|3|4|7|0
+assists: 2
+games: 9
 goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
-points: 8
-rank: 31
+points: 9
+rank: 30
 season: czw-26-27

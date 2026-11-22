@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Yves Klöti
 Category: players
 Slug: player-1d528c82bd5b78f9
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
-current_goals: 9
-current_assists: 8
-current_points: 17
+current_games: 12
+current_goals: 10
+current_assists: 9
+current_points: 19
 current_pim: 2
-regular_games: 9
-regular_goals: 6
-regular_assists: 7
-regular_points: 13
+regular_games: 10
+regular_goals: 7
+regular_assists: 8
+regular_points: 15
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 21
 previous_assists: 20
 previous_points: 41
 previous_pim: 0
-career_games: 35
-career_goals: 27
-career_assists: 27
-career_points: 54
+career_games: 36
+career_goals: 28
+career_assists: 28
+career_points: 56
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|9|6|7|13|2||ch-26-27|cup|Switzerland|UHC Uster|2|3|1|4|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Uster|22|16|19|35|0
-assists: 7
-games: 9
-goals: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|10|7|8|15|2||ch-26-27|cup|Switzerland|UHC Uster|2|3|1|4|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Uster|22|16|19|35|0
+assists: 8
+games: 10
+goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
-points: 13
-rank: 17
+points: 15
+rank: 14
 season: ch-26-27

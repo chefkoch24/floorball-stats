@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Toms Akmeņlauks
 Category: players
 Slug: player-8b0d1e62c0f5fedd
@@ -11,15 +11,15 @@ season_count: 3
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 5
-current_goals: 2
-current_assists: 4
-current_points: 6
+current_games: 6
+current_goals: 3
+current_assists: 5
+current_points: 8
 current_pim: 0
-regular_games: 5
-regular_goals: 2
-regular_assists: 4
-regular_points: 6
+regular_games: 6
+regular_goals: 3
+regular_assists: 5
+regular_points: 8
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 24
 previous_assists: 32
 previous_points: 56
 previous_pim: 18
-career_games: 48
-career_goals: 26
-career_assists: 37
-career_points: 63
+career_games: 49
+career_goals: 27
+career_assists: 38
+career_points: 65
 career_pim: 18
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|5|2|4|6|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|5|8|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|24|21|27|48|14||wfc-2024|tournament|IFF WFC|Latvia|7|0|1|1|0
-assists: 4
-games: 5
-goals: 2
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|6|3|5|8|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|5|8|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|24|21|27|48|14||wfc-2024|tournament|IFF WFC|Latvia|7|0|1|1|0
+assists: 5
+games: 6
+goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 61
+points: 8
+rank: 50
 season: lv-26-27

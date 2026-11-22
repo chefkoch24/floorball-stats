@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Danute Tinkuse
 Category: players
 Slug: player-08ce9e89039d4d3d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 12
+rank: 13
 season: lvw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Aaro Helin
 Category: players
 Slug: player-94cac90d73febffc
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 24
+rank: 29
 season: ch-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sara Piispa
 Category: players
 Slug: player-6c1ce6757e5b17bd
@@ -11,15 +11,15 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
-current_goals: 10
-current_assists: 8
-current_points: 18
+current_games: 10
+current_goals: 11
+current_assists: 9
+current_points: 20
 current_pim: 0
-regular_games: 7
-regular_goals: 7
-regular_assists: 5
-regular_points: 12
+regular_games: 8
+regular_goals: 8
+regular_assists: 6
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 7
-career_assists: 5
-career_points: 12
+career_games: 8
+career_goals: 8
+career_assists: 6
+career_points: 14
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|7|7|5|12|0||chw-26-27|cup|Switzerland Women|Red Ants Winterthur|2|3|3|6|0
-assists: 5
-games: 7
-goals: 7
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Red Ants Winterthur|8|8|6|14|0||chw-26-27|cup|Switzerland Women|Red Ants Winterthur|2|3|3|6|0
+assists: 6
+games: 8
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 12
-rank: 8
+points: 14
+rank: 5
 season: chw-26-27

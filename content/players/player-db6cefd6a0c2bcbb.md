@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Terezie Gálová
 Category: players
 Slug: player-db6cefd6a0c2bcbb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 291
+rank: 292
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jan Niklas Buckermann
 Category: players
 Slug: player-fe43dfbacbc63bdf
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 0
-current_assists: 2
-current_points: 2
+current_assists: 3
+current_points: 3
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 0
-regular_assists: 1
-regular_points: 1
+regular_assists: 2
+regular_points: 2
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 8
 previous_points: 15
 previous_pim: 0
-career_games: 35
+career_games: 36
 career_goals: 7
-career_assists: 9
-career_points: 16
+career_assists: 10
+career_points: 17
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|7|0|1|1|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|0|1|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|0|2|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|7|6|13|0
-assists: 1
-games: 7
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|8|0|2|2|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|0|1|1|0||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|0|2|2|0||25-26|regular-season|Germany|ETV Piranhhas Hamburg|20|7|6|13|0
+assists: 2
+games: 8
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
-points: 1
-rank: 184
+points: 2
+rank: 161
 season: 26-27

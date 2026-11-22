@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marek Jurkulak
 Category: players
 Slug: player-d52b7cc906efd901

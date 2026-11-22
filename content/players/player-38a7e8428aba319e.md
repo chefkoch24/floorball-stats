@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lukáš Pešat
 Category: players
 Slug: player-38a7e8428aba319e

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Martin Fronc
 Category: players
 Slug: player-096ccd194a6d3b0b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 6
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 4
 previous_points: 4
 previous_pim: 18
-career_games: 28
+career_games: 29
 career_goals: 0
 career_assists: 4
 career_points: 4
 career_pim: 24
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|0|0|0|6||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|19|0|4|4|18
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|10|0|0|0|6||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|19|0|4|4|18
 assists: 0
-games: 9
+games: 10
 goals: 0
 penalties: 3
 phase: regular-season
 pim: 6
 points: 0
-rank: 251
+rank: 256
 season: sk-26-27

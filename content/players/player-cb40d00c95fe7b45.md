@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Vrúbelová Ela
 Category: players
 Slug: player-cb40d00c95fe7b45
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 55
+rank: 57
 season: skw-26-27

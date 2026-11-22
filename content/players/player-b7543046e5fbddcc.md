@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Maarten Mittmann
 Category: players
 Slug: player-b7543046e5fbddcc
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 5
 current_assists: 2
 current_points: 7
 current_pim: 4
-regular_games: 10
+regular_games: 11
 regular_goals: 4
 regular_assists: 2
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 8
 previous_points: 14
 previous_pim: 4
-career_games: 32
+career_games: 33
 career_goals: 10
 career_assists: 10
 career_points: 20
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|10|4|2|6|4||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|2|2|4|0||25-26|regular-season|Germany|Unihockey Igels Dresden|20|4|6|10|4
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|11|4|2|6|4||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|2|2|4|0||25-26|regular-season|Germany|Unihockey Igels Dresden|20|4|6|10|4
 assists: 2
-games: 10
+games: 11
 goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 68
+rank: 71
 season: 26-27

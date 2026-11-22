@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Mark-Oliver Bothe
 Category: players
 Slug: player-7f7ec2af2ddc35a5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
-current_goals: 13
+current_games: 11
+current_goals: 14
 current_assists: 6
-current_points: 19
+current_points: 20
 current_pim: 0
-regular_games: 9
-regular_goals: 13
+regular_games: 10
+regular_goals: 14
 regular_assists: 6
-regular_points: 19
+regular_points: 20
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 23
 previous_assists: 21
 previous_points: 44
 previous_pim: 2
-career_games: 35
-career_goals: 36
+career_games: 36
+career_goals: 37
 career_assists: 27
-career_points: 63
+career_points: 64
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|9|13|6|19|0||26-27|cup|Germany|MFBC Leipzig|1|0|0|0|0||25-26|playoffs|Germany|MFBC Leipzig|11|9|6|15|0||25-26|regular-season|Germany|MFBC Leipzig|15|14|15|29|2
+history_rows_csv: 26-27|regular-season|Germany|MFBC Leipzig|10|14|6|20|0||26-27|cup|Germany|MFBC Leipzig|1|0|0|0|0||25-26|playoffs|Germany|MFBC Leipzig|11|9|6|15|0||25-26|regular-season|Germany|MFBC Leipzig|15|14|15|29|2
 assists: 6
-games: 9
-goals: 13
+games: 10
+goals: 14
 penalties: 0
 phase: regular-season
 pim: 0
-points: 19
-rank: 7
+points: 20
+rank: 5
 season: 26-27

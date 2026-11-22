@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Samuel Hurajt
 Category: players
 Slug: player-31bd0b7c57b65e49
@@ -11,16 +11,16 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
-current_goals: 7
+current_games: 10
+current_goals: 8
 current_assists: 1
-current_points: 8
-current_pim: 4
-regular_games: 8
-regular_goals: 7
+current_points: 9
+current_pim: 6
+regular_games: 10
+regular_goals: 8
 regular_assists: 1
-regular_points: 8
-regular_pim: 4
+regular_points: 9
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 8
 previous_points: 18
 previous_pim: 6
-career_games: 29
-career_goals: 17
+career_games: 31
+career_goals: 18
 career_assists: 9
-career_points: 26
-career_pim: 10
-history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|8|7|1|8|4||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|21|10|8|18|6
+career_points: 27
+career_pim: 12
+history_rows_csv: sk-26-27|regular-season|Slovakia|FBC Predator Sabinov|10|8|1|9|6||sk-25-26|regular-season|Slovakia|TEMPISH CAPITOL Floorball Club|21|10|8|18|6
 assists: 1
-games: 8
-goals: 7
-penalties: 2
+games: 10
+goals: 8
+penalties: 3
 phase: regular-season
-pim: 4
-points: 8
-rank: 53
+pim: 6
+points: 9
+rank: 55
 season: sk-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Barbora Vorbsová
 Category: players
 Slug: player-0eb1a9b00843c2fc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 210
+rank: 214
 season: czw-26-27

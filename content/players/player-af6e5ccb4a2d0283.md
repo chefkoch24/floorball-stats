@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nina Káčeríkova
 Category: players
 Slug: player-af6e5ccb4a2d0283
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 153
+rank: 154
 season: skw-26-27

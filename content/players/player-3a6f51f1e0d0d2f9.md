@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Tim Trebal
 Category: players
 Slug: player-3a6f51f1e0d0d2f9
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 5
 current_assists: 1
 current_points: 6
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 4
 regular_assists: 1
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
+career_games: 5
 career_goals: 4
 career_assists: 1
 career_points: 5
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|4|4|1|5|0||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|5|4|1|5|0||26-27|cup|Germany|Unihockey Igels Dresden|1|1|0|1|0
 assists: 1
-games: 4
+games: 5
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 81
+rank: 84
 season: 26-27

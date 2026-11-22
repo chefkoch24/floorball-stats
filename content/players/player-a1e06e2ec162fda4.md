@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sofia Krnáčová
 Category: players
 Slug: player-a1e06e2ec162fda4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 106
+rank: 109
 season: skw-26-27

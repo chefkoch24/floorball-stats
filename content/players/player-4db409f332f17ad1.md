@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Vanesa Goldčiterová
 Category: players
 Slug: player-4db409f332f17ad1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 108
+rank: 111
 season: skw-26-27

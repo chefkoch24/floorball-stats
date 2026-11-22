@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Aapo Kilpelainen
 Category: players
 Slug: player-2ddf987b7058ced2
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 9
-current_goals: 12
-current_assists: 5
-current_points: 17
+current_games: 10
+current_goals: 13
+current_assists: 6
+current_points: 19
 current_pim: 0
-regular_games: 9
-regular_goals: 12
-regular_assists: 5
-regular_points: 17
+regular_games: 10
+regular_goals: 13
+regular_assists: 6
+regular_points: 19
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 7
 previous_points: 16
 previous_pim: 2
-career_games: 23
-career_goals: 22
-career_assists: 13
-career_points: 35
+career_games: 24
+career_goals: 23
+career_assists: 14
+career_points: 37
 career_pim: 2
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|9|12|5|17|0||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|1|1|1|2|0||fi-25-26|regular-season|Finland|Nokian KrP|13|9|7|16|2
-assists: 5
-games: 9
-goals: 12
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|10|13|6|19|0||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|1|1|1|2|0||fi-25-26|regular-season|Finland|Nokian KrP|13|9|7|16|2
+assists: 6
+games: 10
+goals: 13
 penalties: 0
 phase: regular-season
 pim: 0
-points: 17
-rank: 23
+points: 19
+rank: 20
 season: fi-26-27

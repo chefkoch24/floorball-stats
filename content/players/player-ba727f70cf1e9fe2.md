@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Martin Kupec
 Category: players
 Slug: player-ba727f70cf1e9fe2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 3
+current_games: 4
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 3
+regular_games: 4
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 13
 previous_points: 25
 previous_pim: 6
-career_games: 32
+career_games: 33
 career_goals: 14
 career_assists: 15
 career_points: 29
 career_pim: 6
-history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|3|2|2|4|0||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|9|0|0|0|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|20|12|13|25|4
+history_rows_csv: sk-26-27|regular-season|Slovakia|Tsunami Záhorská Bystrica|4|2|2|4|0||sk-25-26|playoffs|Slovakia|Tsunami Záhorská Bystrica|9|0|0|0|2||sk-25-26|regular-season|Slovakia|Tsunami Záhorská Bystrica|20|12|13|25|4
 assists: 2
-games: 3
+games: 4
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 107
+rank: 115
 season: sk-26-27

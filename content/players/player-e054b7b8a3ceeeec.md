@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Yanik Castelberg
 Category: players
 Slug: player-e054b7b8a3ceeeec
@@ -11,16 +11,16 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
-current_goals: 3
+current_games: 13
+current_goals: 4
 current_assists: 4
-current_points: 7
-current_pim: 0
-regular_games: 9
-regular_goals: 2
+current_points: 8
+current_pim: 2
+regular_games: 10
+regular_goals: 3
 regular_assists: 4
-regular_points: 6
-regular_pim: 0
+regular_points: 7
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 10
 previous_points: 27
 previous_pim: 4
-career_games: 31
-career_goals: 19
+career_games: 32
+career_goals: 20
 career_assists: 14
-career_points: 33
-career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|9|2|4|6|0||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|17|10|27|4
+career_points: 34
+career_pim: 6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|3|4|7|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|0|1|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|22|17|10|27|4
 assists: 4
-games: 9
-goals: 2
-penalties: 0
+games: 10
+goals: 3
+penalties: 1
 phase: regular-season
-pim: 0
-points: 6
-rank: 74
+pim: 2
+points: 7
+rank: 66
 season: ch-26-27

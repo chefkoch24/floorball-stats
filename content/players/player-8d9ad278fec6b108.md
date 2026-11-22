@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Dārta Derupa
 Category: players
 Slug: player-8d9ad278fec6b108
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 37
+rank: 40
 season: lvw-26-27

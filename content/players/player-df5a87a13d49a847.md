@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Max Kottke
 Category: players
 Slug: player-df5a87a13d49a847
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 0
-current_assists: 0
-current_points: 0
+current_assists: 1
+current_points: 1
 current_pim: 2
-regular_games: 10
+regular_games: 11
 regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_assists: 1
+regular_points: 1
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 4
-career_games: 31
+career_games: 32
 career_goals: 1
-career_assists: 0
-career_points: 1
+career_assists: 1
+career_points: 2
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|10|0|0|0|2||26-27|cup|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|19|1|0|1|4
-assists: 0
-games: 10
+history_rows_csv: 26-27|regular-season|Germany|Unihockey Igels Dresden|11|0|1|1|2||26-27|cup|Germany|Unihockey Igels Dresden|1|0|0|0|0||25-26|playoffs|Germany|Unihockey Igels Dresden|2|0|0|0|0||25-26|regular-season|Germany|Unihockey Igels Dresden|19|1|0|1|4
+assists: 1
+games: 11
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
-points: 0
-rank: 270
+points: 1
+rank: 206
 season: 26-27

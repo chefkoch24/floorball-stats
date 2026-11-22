@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ted Nivestam
 Category: players
 Slug: player-73f2a4817caa320d
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
-current_goals: 3
+current_games: 12
+current_goals: 4
 current_assists: 10
-current_points: 13
+current_points: 14
 current_pim: 4
-regular_games: 9
-regular_goals: 3
+regular_games: 10
+regular_goals: 4
 regular_assists: 8
-regular_points: 11
+regular_points: 12
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 13
 previous_assists: 23
 previous_points: 36
 previous_pim: 0
-career_games: 35
-career_goals: 16
+career_games: 36
+career_goals: 17
 career_assists: 31
-career_points: 47
+career_points: 48
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|9|3|8|11|4||ch-26-27|cup|Switzerland|UHC Uster|2|0|2|2|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|2|3|0||ch-25-26|regular-season|Switzerland|UHC Uster|22|12|21|33|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|10|4|8|12|4||ch-26-27|cup|Switzerland|UHC Uster|2|0|2|2|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|2|3|0||ch-25-26|regular-season|Switzerland|UHC Uster|22|12|21|33|0
 assists: 8
-games: 9
-goals: 3
+games: 10
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 11
-rank: 30
+points: 12
+rank: 26
 season: ch-26-27

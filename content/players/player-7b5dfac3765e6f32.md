@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jānis Ragovskis
 Category: players
 Slug: player-7b5dfac3765e6f32
@@ -11,15 +11,15 @@ season_count: 3
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 10
-current_goals: 12
+current_games: 11
+current_goals: 14
 current_assists: 6
-current_points: 18
+current_points: 20
 current_pim: 4
-regular_games: 10
-regular_goals: 12
+regular_games: 11
+regular_goals: 14
 regular_assists: 6
-regular_points: 18
+regular_points: 20
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 46
 previous_assists: 28
 previous_points: 74
 previous_pim: 6
-career_games: 56
-career_goals: 60
+career_games: 57
+career_goals: 62
 career_assists: 36
-career_points: 96
+career_points: 98
 career_pim: 10
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|10|12|6|18|4||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|5|5|10|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|41|23|64|4||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|0
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Talsi/TNSS/Krauzers|11|14|6|20|4||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|5|5|10|2||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|41|23|64|4||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|0
 assists: 6
-games: 10
-goals: 12
+games: 11
+goals: 14
 penalties: 2
 phase: regular-season
 pim: 4
-points: 18
-rank: 5
+points: 20
+rank: 6
 season: lv-26-27

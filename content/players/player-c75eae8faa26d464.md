@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sandris Virsnītis
 Category: players
 Slug: player-c75eae8faa26d464
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 87
+rank: 89
 season: lv-26-27

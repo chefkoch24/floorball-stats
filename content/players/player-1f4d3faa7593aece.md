@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Alina Rieder
 Category: players
 Slug: player-1f4d3faa7593aece
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 156
+rank: 161
 season: chw-26-27

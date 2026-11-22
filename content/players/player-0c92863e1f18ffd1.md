@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Šima Marko
 Category: players
 Slug: player-0c92863e1f18ffd1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 6
-current_goals: 3
-current_assists: 1
-current_points: 4
+current_games: 7
+current_goals: 4
+current_assists: 2
+current_points: 6
 current_pim: 4
-regular_games: 6
-regular_goals: 3
-regular_assists: 1
-regular_points: 4
+regular_games: 7
+regular_goals: 4
+regular_assists: 2
+regular_points: 6
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 7
 previous_assists: 5
 previous_points: 12
 previous_pim: 8
-career_games: 27
-career_goals: 10
-career_assists: 6
-career_points: 16
+career_games: 28
+career_goals: 11
+career_assists: 7
+career_points: 18
 career_pim: 12
-history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|6|3|1|4|4||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|1|0|1|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|17|6|5|11|6
-assists: 1
-games: 6
-goals: 3
+history_rows_csv: sk-26-27|regular-season|Slovakia|FaBK ATU Košice|7|4|2|6|4||sk-25-26|playoffs|Slovakia|FaBK ATU Košice|4|1|0|1|2||sk-25-26|regular-season|Slovakia|FaBK ATU Košice|17|6|5|11|6
+assists: 2
+games: 7
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 4
-rank: 104
+points: 6
+rank: 83
 season: sk-26-27

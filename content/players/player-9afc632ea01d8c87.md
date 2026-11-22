@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sereina Zwissler
 Category: players
 Slug: player-9afc632ea01d8c87
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 71
+rank: 74
 season: chw-26-27

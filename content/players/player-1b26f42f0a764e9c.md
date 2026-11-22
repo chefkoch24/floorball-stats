@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Zgierska Nel Anna
 Category: players
 Slug: player-1b26f42f0a764e9c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 58
+rank: 61
 season: skw-26-27

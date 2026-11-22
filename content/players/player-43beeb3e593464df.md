@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nooa Laurila
 Category: players
 Slug: player-43beeb3e593464df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 53
+rank: 56
 season: 26-27

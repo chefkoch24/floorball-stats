@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nikolas Saarinen
 Category: players
 Slug: player-3001deef0e8be54a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 223
+rank: 224
 season: fi-26-27

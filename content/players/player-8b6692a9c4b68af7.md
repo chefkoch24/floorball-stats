@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Mirka Schatz
 Category: players
 Slug: player-8b6692a9c4b68af7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 77
+rank: 82
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lara Meisel
 Category: players
 Slug: player-986aa37fe276c0ea
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 76
+rank: 80
 season: chw-26-27

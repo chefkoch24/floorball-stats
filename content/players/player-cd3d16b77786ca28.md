@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lacko Ján
 Category: players
 Slug: player-cd3d16b77786ca28
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 8
+current_games: 9
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 22
 previous_assists: 14
 previous_points: 36
 previous_pim: 12
-career_games: 28
+career_games: 29
 career_goals: 24
 career_assists: 15
 career_points: 39
 career_pim: 12
-history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|8|2|1|3|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|20|22|14|36|12
+history_rows_csv: sk-26-27|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|9|2|1|3|0||sk-25-26|regular-season|Slovakia|VŠK FTVŠ UK Hurikán Bratislava|20|22|14|36|12
 assists: 1
-games: 8
+games: 9
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 117
+rank: 124
 season: sk-26-27

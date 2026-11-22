@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ivo Lüthi
 Category: players
 Slug: player-4baf1abde3051a56
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 4
 current_assists: 6
 current_points: 10
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 1
 previous_points: 6
 previous_pim: 0
-career_games: 32
+career_games: 33
 career_goals: 8
 career_assists: 5
 career_points: 13
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|9|3|4|7|0||ch-26-27|cup|Switzerland|Floorball Thurgau|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|11|0|1|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|12|5|0|5|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|10|3|4|7|0||ch-26-27|cup|Switzerland|Floorball Thurgau|2|1|2|3|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|11|0|1|1|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|12|5|0|5|0
 assists: 4
-games: 9
+games: 10
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 57
+rank: 64
 season: ch-26-27

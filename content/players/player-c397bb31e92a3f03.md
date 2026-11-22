@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Malwina Zagórska
 Category: players
 Slug: player-c397bb31e92a3f03
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 81
+rank: 82
 season: czw-26-27

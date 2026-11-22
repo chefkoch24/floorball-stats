@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Henri Kukkonen
 Category: players
 Slug: player-5abddc7b4313e602
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 8
-rank: 39
+rank: 42
 season: lv-26-27

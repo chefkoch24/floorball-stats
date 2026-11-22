@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Mikko Laakso
 Category: players
 Slug: player-ab0d946c817b4ec3
@@ -11,15 +11,15 @@ season_count: 2
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 12
-current_goals: 22
+current_games: 13
+current_goals: 23
 current_assists: 10
-current_points: 32
+current_points: 33
 current_pim: 4
-regular_games: 12
-regular_goals: 22
+regular_games: 13
+regular_goals: 23
 regular_assists: 10
-regular_points: 32
+regular_points: 33
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 31
 previous_assists: 22
 previous_points: 53
 previous_pim: 0
-career_games: 39
-career_goals: 54
+career_games: 40
+career_goals: 55
 career_assists: 33
-career_points: 87
+career_points: 88
 career_pim: 6
-history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|12|22|10|32|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|3|1|1|2|2||fi-25-26|regular-season|Finland|Nokian KrP|24|31|22|53|0
+history_rows_csv: fi-26-27|regular-season|Finland|Nokian KrP|13|23|10|33|4||cc-26-27|tournament|IFF Champions Cup|Nokian KrP|3|1|1|2|2||fi-25-26|regular-season|Finland|Nokian KrP|24|31|22|53|0
 assists: 10
-games: 12
-goals: 22
+games: 13
+goals: 23
 penalties: 2
 phase: regular-season
 pim: 4
-points: 32
+points: 33
 rank: 3
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Renārs Eglītis
 Category: players
 Slug: player-f95be4d8baecb6e0
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 5
-current_goals: 0
+current_games: 6
+current_goals: 1
 current_assists: 0
-current_points: 0
+current_points: 1
 current_pim: 4
-regular_games: 5
-regular_goals: 0
+regular_games: 6
+regular_goals: 1
 regular_assists: 0
-regular_points: 0
+regular_points: 1
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 4
-career_games: 30
-career_goals: 1
+career_games: 31
+career_goals: 2
 career_assists: 0
-career_points: 1
+career_points: 2
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|5|0|0|0|4||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|18|1|0|1|4
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|6|1|0|1|4||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|0|0|0|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|18|1|0|1|4
 assists: 0
-games: 5
-goals: 0
+games: 6
+goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
-points: 0
-rank: 227
+points: 1
+rank: 142
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Charlotte Reenskaug Johnsrud
 Category: players
 Slug: player-e728d6bf0c2b4b15
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Uri|8|0|0|0|0||chw-26-27|cup|Switzerland Women|Floorball Uri|2|0|0|0|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Uri|9|0|0|0|0||chw-26-27|cup|Switzerland Women|Floorball Uri|2|0|0|0|0
 assists: 0
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 167
+rank: 172
 season: chw-26-27

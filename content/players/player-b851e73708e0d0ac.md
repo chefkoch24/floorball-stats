@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jonas-Fynn Wende
 Category: players
 Slug: player-b851e73708e0d0ac
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 3
-current_assists: 2
-current_points: 5
-current_pim: 0
-regular_games: 10
+current_assists: 3
+current_points: 6
+current_pim: 2
+regular_games: 11
 regular_goals: 2
-regular_assists: 2
-regular_points: 4
-regular_pim: 0
+regular_assists: 3
+regular_points: 5
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 1
 previous_points: 5
 previous_pim: 14
-career_games: 29
+career_games: 30
 career_goals: 6
-career_assists: 3
-career_points: 9
-career_pim: 14
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|10|2|2|4|0||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|19|4|1|5|14
-assists: 2
-games: 10
+career_assists: 4
+career_points: 10
+career_pim: 16
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|11|2|3|5|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|19|4|1|5|14
+assists: 3
+games: 11
 goals: 2
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
-points: 4
-rank: 101
+pim: 2
+points: 5
+rank: 91
 season: 26-27

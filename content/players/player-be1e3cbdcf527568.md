@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jeanine Bieri
 Category: players
 Slug: player-be1e3cbdcf527568
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 183
+rank: 187
 season: chw-26-27

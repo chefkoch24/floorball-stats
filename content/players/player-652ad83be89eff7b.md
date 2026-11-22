@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michaela Zmrzlá
 Category: players
 Slug: player-652ad83be89eff7b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 278
+rank: 280
 season: czw-26-27

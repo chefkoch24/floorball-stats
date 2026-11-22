@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Monika Blahova
 Category: players
 Slug: player-279de3cf45e9d085
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 24
+rank: 25
 season: czw-26-27

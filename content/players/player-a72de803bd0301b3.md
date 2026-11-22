@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Košinár Filip
 Category: players
 Slug: player-a72de803bd0301b3
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 10
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 8
 previous_points: 10
 previous_pim: 24
-career_games: 37
+career_games: 38
 career_goals: 4
 career_assists: 8
 career_points: 12
 career_pim: 34
-history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|9|2|0|2|10||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|1|2|3|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|17|1|6|7|20
+history_rows_csv: sk-26-27|regular-season|Slovakia|1. FBC Trenčín|10|2|0|2|10||sk-25-26|playoffs|Slovakia|1. FBC Trenčín|11|1|2|3|4||sk-25-26|regular-season|Slovakia|1. FBC Trenčín|17|1|6|7|20
 assists: 0
-games: 9
+games: 10
 goals: 2
 penalties: 5
 phase: regular-season
 pim: 10
 points: 2
-rank: 134
+rank: 142
 season: sk-26-27

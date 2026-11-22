@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Saša Lindušková
 Category: players
 Slug: player-c4358bcb41d5c27e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 155
+rank: 156
 season: skw-26-27

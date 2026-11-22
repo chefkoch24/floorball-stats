@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Noemi Stoll
 Category: players
 Slug: player-b7a3cb2f98c1c8e9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 78
+rank: 84
 season: chw-26-27

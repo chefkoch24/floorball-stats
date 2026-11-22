@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kristers Orlovs
 Category: players
 Slug: player-d21ed5fa6cf1d964
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 15
-rank: 14
+rank: 15
 season: lv-26-27

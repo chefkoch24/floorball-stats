@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Mlíchová Kristína
 Category: players
 Slug: player-cc1e69d83d539a12
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 102
+rank: 104
 season: skw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Terézia Kamenská
 Category: players
 Slug: player-b7c1df5d12fa904f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 160
+rank: 161
 season: skw-26-27

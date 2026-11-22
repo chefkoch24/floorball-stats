@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Nico Moser
 Category: players
 Slug: player-39a8b01d3b2631de
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
-current_goals: 2
+current_games: 13
+current_goals: 3
 current_assists: 3
-current_points: 5
+current_points: 6
 current_pim: 2
-regular_games: 9
-regular_goals: 2
+regular_games: 10
+regular_goals: 3
 regular_assists: 2
-regular_points: 4
+regular_points: 5
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 2
 previous_points: 6
 previous_pim: 0
-career_games: 27
-career_goals: 6
+career_games: 28
+career_goals: 7
 career_assists: 4
-career_points: 10
+career_points: 11
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|9|2|2|4|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|0|1|1|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|18|4|2|6|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|10|3|2|5|2||ch-26-27|cup|Switzerland|WASA St. Gallen|3|0|1|1|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|18|4|2|6|0
 assists: 2
-games: 9
-goals: 2
+games: 10
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 4
-rank: 103
+points: 5
+rank: 88
 season: ch-26-27

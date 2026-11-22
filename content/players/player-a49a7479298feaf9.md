@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Saku Liikka
 Category: players
 Slug: player-a49a7479298feaf9
@@ -7,10 +7,10 @@ player: Saku Liikka
 player_uid: player-a49a7479298feaf9
 team: Jymy
 league: Finland
-season_count: 1
-current_season: fi-25-26
+season_count: 2
+current_season: fi-26-27
 current_season_is_tournament: no
-previous_season: n.a.
+previous_season: fi-25-26
 current_games: 1
 current_goals: 0
 current_assists: 0
@@ -31,17 +31,17 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 0
+previous_games: 1
 previous_goals: 0
 previous_assists: 0
 previous_points: 0
-previous_pim: 0
-career_games: 1
+previous_pim: 2
+career_games: 2
 career_goals: 0
 career_assists: 0
 career_points: 0
-career_pim: 2
-history_rows_csv: fi-25-26|regular-season|Finland|Jymy|1|0|0|0|2
+career_pim: 4
+history_rows_csv: fi-26-27|regular-season|Finland|Jymy|1|0|0|0|2||fi-25-26|regular-season|Finland|Jymy|1|0|0|0|2
 assists: 0
 games: 1
 goals: 0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 277
-season: fi-25-26
+rank: 225
+season: fi-26-27

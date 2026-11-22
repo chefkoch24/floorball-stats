@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Thierry Horal
 Category: players
 Slug: player-176ff1880fcefa08
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 315
+rank: 318
 season: ch-26-27

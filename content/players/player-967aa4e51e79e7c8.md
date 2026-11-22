@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kate Meldere
 Category: players
 Slug: player-967aa4e51e79e7c8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 96
+rank: 102
 season: chw-26-27

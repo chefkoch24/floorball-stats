@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Pavel Semenov
 Category: players
 Slug: player-aa9c5034ae5e058d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 56
+rank: 60
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Záteková Sára
 Category: players
 Slug: player-ef801950b0ce6b19
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 10
-rank: 15
+rank: 16
 season: skw-26-27

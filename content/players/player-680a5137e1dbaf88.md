@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marko Krištof
 Category: players
 Slug: player-680a5137e1dbaf88
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 250
+rank: 254
 season: sk-26-27

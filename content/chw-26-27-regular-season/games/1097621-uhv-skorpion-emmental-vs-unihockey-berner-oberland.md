@@ -327,6 +327,7 @@ home_pregame_points_against_floorball_uri: 3
 home_pregame_points_against_kloten_dietlikon_jets: 1
 home_pregame_points_against_red_ants_winterthur: 0
 home_pregame_points_against_unihockey_berner_oberland: 3
+home_pregame_points_against_wizards_bern_burgdorf: 3
 home_pregame_points_against_zug_united: 1
 home_pregame_points_max_difference_2: 2
 home_pregame_points_more_2_difference: 6

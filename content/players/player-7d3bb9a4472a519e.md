@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Veronika Straková
 Category: players
 Slug: player-7d3bb9a4472a519e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 89
+rank: 90
 season: czw-26-27

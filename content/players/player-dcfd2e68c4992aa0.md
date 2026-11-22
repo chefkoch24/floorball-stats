@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Til Robert Franke
 Category: players
 Slug: player-dcfd2e68c4992aa0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 111
+rank: 116
 season: 26-27

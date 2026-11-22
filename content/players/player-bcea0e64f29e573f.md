@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Vargová Barbora
 Category: players
 Slug: player-bcea0e64f29e573f
@@ -11,12 +11,12 @@ season_count: 1
 current_season: skw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 7
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 2
-regular_games: 6
+regular_games: 7
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 2
-history_rows_csv: skw-26-27|regular-season|Slovakia Women|Oxdog Snipers Bratislava|6|3|0|3|2
+history_rows_csv: skw-26-27|regular-season|Slovakia Women|Oxdog Snipers Bratislava|7|3|0|3|2
 assists: 0
-games: 6
+games: 7
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 57
+rank: 60
 season: skw-26-27

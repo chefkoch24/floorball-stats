@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Mia Oehri
 Category: players
 Slug: player-a676ffd732e3601e
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 67
+rank: 70
 season: chw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Emily Zoé Tóthová
 Category: players
 Slug: player-ade48faa545b3d0d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 126
+rank: 128
 season: skw-26-27

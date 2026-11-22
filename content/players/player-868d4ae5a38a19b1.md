@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Albert Kouba
 Category: players
 Slug: player-868d4ae5a38a19b1

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Levi Walser
 Category: players
 Slug: player-1ccfe203fab7809f
@@ -11,12 +11,12 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 5
 current_assists: 5
 current_points: 10
 current_pim: 6
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 4
-career_games: 29
+career_games: 30
 career_goals: 6
 career_assists: 6
 career_points: 12
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|9|3|4|7|6||ch-26-27|cup|Switzerland|Floorball Chur United|3|2|1|3|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|20|3|2|5|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|10|3|4|7|6||ch-26-27|cup|Switzerland|Floorball Chur United|3|2|1|3|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|20|3|2|5|4
 assists: 4
-games: 9
+games: 10
 goals: 3
 penalties: 3
 phase: regular-season
 pim: 6
 points: 7
-rank: 58
+rank: 65
 season: ch-26-27

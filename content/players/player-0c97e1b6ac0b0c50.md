@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jonáš Bagín
 Category: players
 Slug: player-0c97e1b6ac0b0c50
@@ -11,12 +11,12 @@ season_count: 2
 current_season: sk-26-27
 current_season_is_tournament: no
 previous_season: sk-25-26
-current_games: 9
+current_games: 10
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 3
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 3
 previous_points: 9
 previous_pim: 2
-career_games: 24
+career_games: 25
 career_goals: 9
 career_assists: 6
 career_points: 15
 career_pim: 4
-history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|9|3|3|6|2||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|15|6|3|9|2
+history_rows_csv: sk-26-27|regular-season|Slovakia|Florbalový klub AS Trenčín|10|3|3|6|2||sk-25-26|regular-season|Slovakia|Florbalový klub AS Trenčín|15|6|3|9|2
 assists: 3
-games: 9
+games: 10
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 80
+rank: 84
 season: sk-26-27

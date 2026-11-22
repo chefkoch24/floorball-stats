@@ -320,6 +320,7 @@ home_pregame_points_after_first_period: 9
 home_pregame_points_after_first_period_per_game: 2.25
 home_pregame_points_after_second_period: 6
 home_pregame_points_after_third_period: 4
+home_pregame_points_against_berlin_rockets: 3
 home_pregame_points_against_blau_weiss_96_schenefeld: 3
 home_pregame_points_against_djk_holzbuttgen: 0
 home_pregame_points_against_etv_piranhhas_hamburg: 0

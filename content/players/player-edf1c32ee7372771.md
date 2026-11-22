@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lia Edwertz
 Category: players
 Slug: player-edf1c32ee7372771

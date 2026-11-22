@@ -330,6 +330,7 @@ home_pregame_points_against_mfbc_leipzig: 0
 home_pregame_points_against_sc_dhfk_leipzig: 3
 home_pregame_points_against_ssf_dragons_bonn: 0
 home_pregame_points_against_unihockey_igels_dresden: 3
+home_pregame_points_against_vfl_red_hocks_kaufering: 2
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 6
 home_pregame_points_per_game: 1.8

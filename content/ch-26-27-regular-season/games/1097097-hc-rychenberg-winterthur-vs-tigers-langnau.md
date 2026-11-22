@@ -324,7 +324,7 @@ home_pregame_points_after_third_period: 5
 home_pregame_points_against_floorball_chur_united: 3
 home_pregame_points_against_floorball_koniz_bern: 3
 home_pregame_points_against_floorball_thurgau: 3
-home_pregame_points_against_grasshopper_club_zurich: 2
+home_pregame_points_against_grasshopper_club_zurich: 5
 home_pregame_points_against_sv_wiler_ersigen: 0
 home_pregame_points_against_tigers_langnau: 0
 home_pregame_points_against_uhc_uster: 3
@@ -436,7 +436,7 @@ away_pregame_points_after_first_period: 6
 away_pregame_points_after_first_period_per_game: 1.5
 away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 8
-away_pregame_points_against_floorball_koniz_bern: 3
+away_pregame_points_against_floorball_koniz_bern: 6
 away_pregame_points_against_floorball_thurgau: 2
 away_pregame_points_against_grasshopper_club_zurich: 0
 away_pregame_points_against_hc_rychenberg_winterthur: 3

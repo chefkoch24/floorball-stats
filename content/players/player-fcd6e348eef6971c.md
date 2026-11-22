@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Ian Meyer
 Category: players
 Slug: player-fcd6e348eef6971c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 142
+rank: 143
 season: 26-27

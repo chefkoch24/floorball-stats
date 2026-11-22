@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Michal Valachovič
 Category: players
 Slug: player-74d37c3d3cc54fba

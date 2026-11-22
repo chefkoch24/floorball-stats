@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Lisa Svarfvar
 Category: players
 Slug: player-2d9f23a1efaafd72

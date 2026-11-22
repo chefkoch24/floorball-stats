@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Léon Cosandey
 Category: players
 Slug: player-1e46ae5a46d7a300
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 271
 season: ch-26-27

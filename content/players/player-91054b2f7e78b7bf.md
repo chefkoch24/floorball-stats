@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Olafs Zvīnis
 Category: players
 Slug: player-91054b2f7e78b7bf
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 5
 current_assists: 3
 current_points: 8
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 5
 regular_assists: 3
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 21
 previous_assists: 18
 previous_points: 39
 previous_pim: 4
-career_games: 49
+career_games: 50
 career_goals: 26
 career_assists: 21
 career_points: 47
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|5|3|8|0||lv-25-26|playoffs|Latvia|Lekrings|15|6|5|11|0||lv-25-26|regular-season|Latvia|Lekrings|23|15|13|28|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|12|5|3|8|0||lv-25-26|playoffs|Latvia|Lekrings|15|6|5|11|0||lv-25-26|regular-season|Latvia|Lekrings|23|15|13|28|4
 assists: 3
-games: 11
+games: 12
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 40
+rank: 43
 season: lv-26-27

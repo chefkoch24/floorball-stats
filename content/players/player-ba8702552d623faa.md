@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Rohit Chiplunkar
 Category: players
 Slug: player-ba8702552d623faa
@@ -11,15 +11,15 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 8
-current_goals: 9
+current_games: 9
+current_goals: 10
 current_assists: 5
-current_points: 14
+current_points: 15
 current_pim: 6
-regular_games: 5
-regular_goals: 6
+regular_games: 6
+regular_goals: 7
 regular_assists: 4
-regular_points: 10
+regular_points: 11
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 25
-career_goals: 6
+career_games: 26
+career_goals: 7
 career_assists: 4
-career_points: 10
+career_points: 11
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|5|6|4|10|6||ch-26-27|cup|Switzerland|WASA St. Gallen|3|3|1|4|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|20|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|WASA St. Gallen|6|7|4|11|6||ch-26-27|cup|Switzerland|WASA St. Gallen|3|3|1|4|0||ch-25-26|regular-season|Switzerland|WASA St. Gallen|20|0|0|0|0
 assists: 4
-games: 5
-goals: 6
+games: 6
+goals: 7
 penalties: 3
 phase: regular-season
 pim: 6
-points: 10
-rank: 33
+points: 11
+rank: 30
 season: ch-26-27

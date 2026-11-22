@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Paul Dall
 Category: players
 Slug: player-b53dcb70dd06408e
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 5
 current_assists: 6
 current_points: 11
-current_pim: 4
-regular_games: 10
+current_pim: 6
+regular_games: 11
 regular_goals: 4
 regular_assists: 5
 regular_points: 9
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 10
 previous_points: 16
 previous_pim: 8
-career_games: 37
+career_games: 38
 career_goals: 10
 career_assists: 15
 career_points: 25
-career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|10|4|5|9|2||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|1|2|2||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|4|2|6|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|19|2|8|10|4
+career_pim: 12
+history_rows_csv: 26-27|regular-season|Germany|ETV Piranhhas Hamburg|11|4|5|9|4||26-27|cup|Germany|ETV Piranhhas Hamburg|1|1|1|2|2||25-26|playoffs|Germany|ETV Piranhhas Hamburg|8|4|2|6|4||25-26|regular-season|Germany|ETV Piranhhas Hamburg|19|2|8|10|4
 assists: 5
-games: 10
+games: 11
 goals: 4
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 9
-rank: 44
+rank: 48
 season: 26-27

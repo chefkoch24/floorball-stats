@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Jēkabs Jānis Balodis
 Category: players
 Slug: player-c95750cef285aec5
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,14 +36,14 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 2
-career_games: 21
+career_games: 22
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|1|0|1|0||lv-25-26|playoffs|Latvia|Lekrings|1|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|9|1|1|2|2
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|12|1|0|1|0||lv-25-26|playoffs|Latvia|Lekrings|1|0|0|0|0||lv-25-26|regular-season|Latvia|Lekrings|9|1|1|2|2
 assists: 0
-games: 11
+games: 12
 goals: 1
 penalties: 0
 phase: regular-season

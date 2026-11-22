@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Marta Lība Zameca
 Category: players
 Slug: player-9ff973ce4334d6d1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 27
+rank: 32
 season: lvw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Raphael Heinzelmann
 Category: players
 Slug: player-8c86e97687ccfb49
@@ -11,12 +11,12 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 2
-regular_games: 10
+regular_games: 11
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|10|2|1|3|2||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|11|2|1|3|2||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|0|0|0
 assists: 1
-games: 10
+games: 11
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 121
+rank: 124
 season: 26-27

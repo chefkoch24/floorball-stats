@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Leon Tringaniello
 Category: players
 Slug: player-646ddd28209a8cda
@@ -11,16 +11,16 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 6
 current_points: 7
-current_pim: 0
-regular_games: 9
+current_pim: 2
+regular_games: 10
 regular_goals: 1
 regular_assists: 5
 regular_points: 6
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 9
 previous_points: 13
 previous_pim: 2
-career_games: 37
+career_games: 38
 career_goals: 5
 career_assists: 14
 career_points: 19
-career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|9|1|5|6|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|1|3|4|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|3|6|9|2
+career_pim: 4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|1|5|6|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|0|1|1|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|1|3|4|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|22|3|6|9|2
 assists: 5
-games: 9
+games: 10
 goals: 1
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 6
-rank: 75
+rank: 79
 season: ch-26-27

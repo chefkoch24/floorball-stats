@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Záň Michal
 Category: players
 Slug: player-9f8e5abedafac18a

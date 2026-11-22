@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Severin Schmid
 Category: players
 Slug: player-6b0b7a8bea9a460a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 313
+rank: 315
 season: ch-26-27

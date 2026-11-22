@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Eemil Laube
 Category: players
 Slug: player-f9f32ab65d4a38c3
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 7
 current_assists: 3
 current_points: 10
 current_pim: 2
-regular_games: 7
+regular_games: 8
 regular_goals: 6
 regular_assists: 3
 regular_points: 9
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 10
 previous_points: 18
 previous_pim: 0
-career_games: 26
+career_games: 27
 career_goals: 14
 career_assists: 13
 career_points: 27
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|7|6|3|9|2||26-27|cup|Germany|Berlin Rockets|1|1|0|1|0||25-26|regular-season|Germany|Berlin Rockets|19|8|10|18|0
+history_rows_csv: 26-27|regular-season|Germany|Berlin Rockets|8|6|3|9|2||26-27|cup|Germany|Berlin Rockets|1|1|0|1|0||25-26|regular-season|Germany|Berlin Rockets|19|8|10|18|0
 assists: 3
-games: 7
+games: 8
 goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 39
+rank: 43
 season: 26-27

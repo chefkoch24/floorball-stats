@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Leonie Christen
 Category: players
 Slug: player-5c8e3b07656cda26
@@ -11,12 +11,12 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 3
 current_points: 6
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
+career_games: 9
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Uri|8|3|2|5|0||chw-26-27|cup|Switzerland Women|Floorball Uri|2|0|1|1|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Floorball Uri|9|3|2|5|0||chw-26-27|cup|Switzerland Women|Floorball Uri|2|0|1|1|0
 assists: 2
-games: 8
+games: 9
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 41
+rank: 46
 season: chw-26-27

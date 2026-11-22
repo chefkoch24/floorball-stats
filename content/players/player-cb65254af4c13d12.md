@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Kamila Posoldová
 Category: players
 Slug: player-cb65254af4c13d12
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 101
+rank: 103
 season: czw-26-27

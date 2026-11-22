@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Petrík Marko
 Category: players
 Slug: player-e9941a01c5a7cd8f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 89
+rank: 97
 season: sk-26-27

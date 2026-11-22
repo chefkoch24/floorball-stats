@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Sina Rüdisühli
 Category: players
 Slug: player-77ecca5924c4f03a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 131
+rank: 134
 season: chw-26-27

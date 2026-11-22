@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Senni Mustakoski
 Category: players
 Slug: player-02d9c5b2c646b1c6

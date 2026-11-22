@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Leevi Väänänen
 Category: players
 Slug: player-fe27919c6cd16c42
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 58
+rank: 62
 season: 26-27

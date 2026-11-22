@@ -1,4 +1,4 @@
-Date: 2026-11-21
+Date: 2026-11-22
 Title: Dominique Fuchs
 Category: players
 Slug: player-5fd107ab67b20f9a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 84
+rank: 89
 season: chw-26-27
