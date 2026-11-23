@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Neea Isomäki
 Category: players
 Slug: player-84bfada069ed4de0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 184
+rank: 189
 season: fiw-26-27

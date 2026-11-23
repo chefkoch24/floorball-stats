@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Andrejs Kristens Saļkovs
 Category: players
 Slug: player-bfc3d3fe94864c16
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 134
+rank: 137
 season: lv-26-27

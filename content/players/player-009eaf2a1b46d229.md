@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nea Hulkko
 Category: players
 Slug: player-009eaf2a1b46d229
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 144
+rank: 146
 season: fiw-26-27

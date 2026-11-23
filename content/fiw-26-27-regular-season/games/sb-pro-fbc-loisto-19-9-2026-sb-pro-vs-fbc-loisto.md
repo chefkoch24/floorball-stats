@@ -326,6 +326,7 @@ home_pregame_points_against_fbc_loisto: 3
 home_pregame_points_against_koovee: 3
 home_pregame_points_against_northern_stars: 2
 home_pregame_points_against_pirkat: 3
+home_pregame_points_against_pss: 0
 home_pregame_points_against_spv: 3
 home_pregame_points_against_ssra: 0
 home_pregame_points_against_tps: 0

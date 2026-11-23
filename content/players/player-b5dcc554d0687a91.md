@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Hannes Kowalewicz
 Category: players
 Slug: player-b5dcc554d0687a91
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 15
-rank: 22
+rank: 23
 season: 26-27

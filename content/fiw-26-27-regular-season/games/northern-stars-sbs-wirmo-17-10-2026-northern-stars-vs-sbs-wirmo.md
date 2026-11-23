@@ -328,6 +328,7 @@ home_pregame_points_against_pirkat: 0
 home_pregame_points_against_pss: 3
 home_pregame_points_against_sb_pro: 1
 home_pregame_points_against_sbs_wirmo: 3
+home_pregame_points_against_spv: 2
 home_pregame_points_against_ssra: 0
 home_pregame_points_against_tps: 0
 home_pregame_points_max_difference_2: 1

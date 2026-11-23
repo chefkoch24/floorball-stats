@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Toms Akmeņlauks
 Category: players
 Slug: player-8b0d1e62c0f5fedd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 50
+rank: 51
 season: lv-26-27

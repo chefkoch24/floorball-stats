@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Martin Sulc
 Category: players
 Slug: player-9520c85c0df7d1b2
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 3
+current_points: 6
 current_pim: 4
-regular_games: 10
+regular_games: 11
 regular_goals: 3
-regular_assists: 2
-regular_points: 5
+regular_assists: 3
+regular_points: 6
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 2
 previous_assists: 2
 previous_points: 4
 previous_pim: 6
-career_games: 32
+career_games: 33
 career_goals: 5
-career_assists: 4
-career_points: 9
+career_assists: 5
+career_points: 10
 career_pim: 10
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|10|3|2|5|4||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
-assists: 2
-games: 10
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|11|3|3|6|4||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|2|0|0|0|2||cz-25-26|regular-season|Czech Republic|FBC ČPP Bystroň Group OSTRAVA|20|2|2|4|4
+assists: 3
+games: 11
 goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
-points: 5
-rank: 89
+points: 6
+rank: 80
 season: 26-27

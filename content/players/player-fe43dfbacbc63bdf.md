@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jan Niklas Buckermann
 Category: players
 Slug: player-fe43dfbacbc63bdf
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 161
+rank: 164
 season: 26-27

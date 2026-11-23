@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Loreta Nemiro
 Category: players
 Slug: player-9142ffac6bcec5c0
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 13
-rank: 4
+rank: 5
 season: lvw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Vincent Jordan
 Category: players
 Slug: player-3f98895ac77bb85b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 15
+rank: 16
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Mediķis Normunds Vaivads
 Category: players
 Slug: player-a5d61da4602cadc6

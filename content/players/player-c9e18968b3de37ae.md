@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nikola Laure
 Category: players
 Slug: player-c9e18968b3de37ae
@@ -11,15 +11,15 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 7
+current_games: 8
+current_goals: 8
 current_assists: 1
-current_points: 8
+current_points: 9
 current_pim: 6
-regular_games: 7
-regular_goals: 7
+regular_games: 8
+regular_goals: 8
 regular_assists: 1
-regular_points: 8
+regular_points: 9
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
-career_goals: 7
+career_games: 8
+career_goals: 8
 career_assists: 1
-career_points: 8
+career_points: 9
 career_pim: 6
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|7|7|1|8|6
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|8|8|1|9|6
 assists: 1
-games: 7
-goals: 7
+games: 8
+goals: 8
 penalties: 3
 phase: regular-season
 pim: 6
-points: 8
+points: 9
 rank: 8
 season: lvw-26-27

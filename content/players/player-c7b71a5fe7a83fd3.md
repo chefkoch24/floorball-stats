@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Juuso Varjokumpu
 Category: players
 Slug: player-c7b71a5fe7a83fd3

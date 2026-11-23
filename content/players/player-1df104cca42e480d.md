@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jēkabs Skrīveris
 Category: players
 Slug: player-1df104cca42e480d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 183
+rank: 184
 season: lv-26-27

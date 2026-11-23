@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Cira Virta
 Category: players
 Slug: player-d1fad3b03e8e3fec
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 79
+rank: 82
 season: fiw-26-27

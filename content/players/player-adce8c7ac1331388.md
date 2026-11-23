@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Fredrik Bäckman
 Category: players
 Slug: player-adce8c7ac1331388
@@ -11,10 +11,10 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 13
+current_games: 14
 current_goals: 7
-current_assists: 8
-current_points: 15
+current_assists: 9
+current_points: 16
 current_pim: 0
 regular_games: 10
 regular_goals: 4
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 3
-cup_assists: 1
-cup_points: 4
+cup_assists: 2
+cup_points: 5
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 4
 career_assists: 7
 career_points: 11
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|10|4|7|11|0||ch-26-27|cup|Switzerland|Floorball Chur United|3|3|1|4|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|10|4|7|11|0||ch-26-27|cup|Switzerland|Floorball Chur United|4|3|2|5|0
 assists: 7
 games: 10
 goals: 4

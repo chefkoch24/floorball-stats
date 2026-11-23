@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Georgs Māziņš
 Category: players
 Slug: player-a5dc4ad2c4a386de
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
-current_goals: 6
-current_assists: 9
-current_points: 15
-current_pim: 0
-regular_games: 12
-regular_goals: 6
-regular_assists: 9
-regular_points: 15
-regular_pim: 0
+current_games: 13
+current_goals: 7
+current_assists: 10
+current_points: 17
+current_pim: 4
+regular_games: 13
+regular_goals: 7
+regular_assists: 10
+regular_points: 17
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 14
 previous_points: 26
 previous_pim: 12
-career_games: 36
-career_goals: 18
-career_assists: 23
-career_points: 41
-career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|12|6|9|15|0||lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|4||lv-25-26|regular-season|Latvia|FBK Valmiera|18|9|13|22|8
-assists: 9
-games: 12
-goals: 6
-penalties: 0
+career_games: 37
+career_goals: 19
+career_assists: 24
+career_points: 43
+career_pim: 16
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|13|7|10|17|4||lv-25-26|playoffs|Latvia|FBK Valmiera|6|3|1|4|4||lv-25-26|regular-season|Latvia|FBK Valmiera|18|9|13|22|8
+assists: 10
+games: 13
+goals: 7
+penalties: 2
 phase: regular-season
-pim: 0
-points: 15
-rank: 17
+pim: 4
+points: 17
+rank: 13
 season: lv-26-27

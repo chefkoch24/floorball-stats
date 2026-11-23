@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Gustavs Celmiņš
 Category: players
 Slug: player-abc7cfd9724c9551
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 93
+rank: 96
 season: lv-26-27

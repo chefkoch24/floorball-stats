@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kārlis Dūmiņš
 Category: players
 Slug: player-04de3e6c320cbf20
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 17
-rank: 8
+rank: 12
 season: lv-26-27

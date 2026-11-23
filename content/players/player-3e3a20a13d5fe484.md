@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Matej Gula
 Category: players
 Slug: player-3e3a20a13d5fe484

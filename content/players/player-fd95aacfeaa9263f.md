@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Tommy Bolin
 Category: players
 Slug: player-fd95aacfeaa9263f
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 13
 current_assists: 7
 current_points: 20
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 2
 cup_assists: 2
 cup_points: 4
@@ -41,7 +41,7 @@ career_goals: 33
 career_assists: 12
 career_points: 45
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|11|5|16|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|2|2|4|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|3|2|3|5|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|20|4|24|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|11|5|16|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|4|2|2|4|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|3|2|3|5|0||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|20|4|24|2
 assists: 5
 games: 10
 goals: 11

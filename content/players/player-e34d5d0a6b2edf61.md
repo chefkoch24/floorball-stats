@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jakub Vejs
 Category: players
 Slug: player-e34d5d0a6b2edf61

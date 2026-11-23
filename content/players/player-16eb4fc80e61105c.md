@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elias Miladinov
 Category: players
 Slug: player-16eb4fc80e61105c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 159
+rank: 162
 season: 26-27

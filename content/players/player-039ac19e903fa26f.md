@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nadia Cattaneo
 Category: players
 Slug: player-039ac19e903fa26f
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 2
 current_points: 3
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Wizards Bern Burgdorf|8|1|2|3|0||chw-26-27|cup|Switzerland Women|Wizards Bern Burgdorf|2|0|0|0|0||ccw-26-27|tournament|IFF Champions Cup Women|Wizards Bern Burgdorf|2|2|0|2|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Wizards Bern Burgdorf|8|1|2|3|0||chw-26-27|cup|Switzerland Women|Wizards Bern Burgdorf|3|0|0|0|0||ccw-26-27|tournament|IFF Champions Cup Women|Wizards Bern Burgdorf|2|2|0|2|0
 assists: 2
 games: 8
 goals: 1

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kim Lundelin
 Category: players
 Slug: player-ba6afee2c9db6950
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 31
+rank: 32
 season: 26-27

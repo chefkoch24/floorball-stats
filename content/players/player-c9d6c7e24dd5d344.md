@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Artūrs Bergs
 Category: players
 Slug: player-c9d6c7e24dd5d344
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 2
 current_points: 3
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 6
 previous_points: 12
 previous_pim: 10
-career_games: 44
+career_games: 45
 career_goals: 7
 career_assists: 8
 career_points: 15
 career_pim: 10
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|11|1|2|3|0||lv-25-26|playoffs|Latvia|FBK Valmiera|6|0|0|0|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|6|6|12|10
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|12|1|2|3|0||lv-25-26|playoffs|Latvia|FBK Valmiera|6|0|0|0|0||lv-25-26|regular-season|Latvia|FBK Valmiera|27|6|6|12|10
 assists: 2
-games: 11
+games: 12
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 104
+rank: 108
 season: lv-26-27

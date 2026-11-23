@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Isa Mattsson
 Category: players
 Slug: player-ec7cd42a1cbf2e62

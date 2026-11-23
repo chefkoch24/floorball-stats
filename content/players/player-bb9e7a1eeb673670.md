@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Bruno Beķeris
 Category: players
 Slug: player-bb9e7a1eeb673670
@@ -11,16 +11,16 @@ season_count: 3
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 8
 current_assists: 2
 current_points: 10
-current_pim: 2
-regular_games: 11
+current_pim: 4
+regular_games: 12
 regular_goals: 8
 regular_assists: 2
 regular_points: 10
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 22
 previous_assists: 10
 previous_points: 32
 previous_pim: 18
-career_games: 59
+career_games: 60
 career_goals: 31
 career_assists: 12
 career_points: 43
-career_pim: 20
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|8|2|10|2||lv-25-26|playoffs|Latvia|Lekrings|15|9|4|13|10||lv-25-26|regular-season|Latvia|Lekrings|26|13|6|19|8||wfc-2024|tournament|IFF WFC|Latvia|7|1|0|1|0
+career_pim: 22
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|12|8|2|10|4||lv-25-26|playoffs|Latvia|Lekrings|15|9|4|13|10||lv-25-26|regular-season|Latvia|Lekrings|26|13|6|19|8||wfc-2024|tournament|IFF WFC|Latvia|7|1|0|1|0
 assists: 2
-games: 11
+games: 12
 goals: 8
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 10
-rank: 32
+rank: 34
 season: lv-26-27

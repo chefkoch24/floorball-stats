@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pascal Rieß
 Category: players
 Slug: player-e49502f9b53fec70
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
-current_goals: 3
+current_games: 13
+current_goals: 4
 current_assists: 4
-current_points: 7
+current_points: 8
 current_pim: 4
-regular_games: 11
-regular_goals: 3
+regular_games: 12
+regular_goals: 4
 regular_assists: 4
-regular_points: 7
+regular_points: 8
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
-career_goals: 3
+career_games: 12
+career_goals: 4
 career_assists: 4
-career_points: 7
+career_points: 8
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|11|3|4|7|4||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|0|0|0
+history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|12|4|4|8|4||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|0|0|0
 assists: 4
-games: 11
-goals: 3
+games: 12
+goals: 4
 penalties: 2
 phase: regular-season
 pim: 4
-points: 7
-rank: 67
+points: 8
+rank: 62
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pārstāvis Zane Liepiņa
 Category: players
 Slug: player-6c1b0cdf52073dff

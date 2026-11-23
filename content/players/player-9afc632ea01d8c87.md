@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Sereina Zwissler
 Category: players
 Slug: player-9afc632ea01d8c87
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 4
 current_assists: 1
 current_points: 5
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 2
 cup_assists: 0
 cup_points: 2
@@ -41,7 +41,7 @@ career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|7|2|1|3|0||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|2|2|0|2|2
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|7|2|1|3|0||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|3|2|0|2|2
 assists: 1
 games: 7
 goals: 2

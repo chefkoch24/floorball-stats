@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pit Seifert
 Category: players
 Slug: player-5326ffd2a1aa283f
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 7
+current_games: 8
 current_goals: 5
-current_assists: 0
-current_points: 5
+current_assists: 1
+current_points: 6
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 5
-regular_assists: 0
-regular_points: 5
+regular_assists: 1
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 2
-career_games: 19
+career_games: 20
 career_goals: 6
-career_assists: 0
-career_points: 6
+career_assists: 1
+career_points: 7
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|7|5|0|5|0||25-26|playoffs|Germany|SC DHfK Leipzig|1|0|0|0|0||25-26|regular-season|Germany|SC DHfK Leipzig|11|1|0|1|2
-assists: 0
-games: 7
+history_rows_csv: 26-27|regular-season|Germany|SC DHfK Leipzig|8|5|1|6|0||25-26|playoffs|Germany|SC DHfK Leipzig|1|0|0|0|0||25-26|regular-season|Germany|SC DHfK Leipzig|11|1|0|1|2
+assists: 1
+games: 8
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 80
+points: 6
+rank: 74
 season: 26-27

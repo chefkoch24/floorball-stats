@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lukas Jäkel
 Category: players
 Slug: player-34d5a9b8bbd68ef8
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 263
+rank: 264
 season: 26-27

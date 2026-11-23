@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Julian Klados
 Category: players
 Slug: player-366b8fcded50bf2c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 245
+rank: 246
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Adam Hemerka
 Category: players
 Slug: player-780ee5fc067e198a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 12
-rank: 41
+rank: 44
 season: fi-26-27

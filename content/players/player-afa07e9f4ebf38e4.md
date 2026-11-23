@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Casper Karlsson
 Category: players
 Slug: player-afa07e9f4ebf38e4
@@ -10,8 +10,8 @@ league: Switzerland
 season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
-previous_season: se-25-26
-current_games: 10
+previous_season: ch-25-26
+current_games: 11
 current_goals: 5
 current_assists: 8
 current_points: 13
@@ -26,22 +26,22 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 2
 cup_assists: 4
 cup_points: 6
 cup_pim: 0
-previous_games: 8
-previous_goals: 0
-previous_assists: 1
-previous_points: 1
-previous_pim: 0
+previous_games: 11
+previous_goals: 11
+previous_assists: 10
+previous_points: 21
+previous_pim: 2
 career_games: 26
 career_goals: 14
 career_assists: 15
 career_points: 29
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|3|4|7|4||ch-26-27|cup|Switzerland|Floorball Chur United|3|2|4|6|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|11|11|10|21|2||se-25-26|regular-season|Sweden|Mullsjö AIS|8|0|1|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|7|3|4|7|4||ch-26-27|cup|Switzerland|Floorball Chur United|4|2|4|6|0||ch-25-26|regular-season|Switzerland|Floorball Chur United|11|11|10|21|2||se-25-26|regular-season|Sweden|Mullsjö AIS|8|0|1|1|0
 assists: 4
 games: 7
 goals: 3

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jasper Kunzendorf
 Category: players
 Slug: player-c4bd957e30ede9a3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 236
+rank: 238
 season: 26-27

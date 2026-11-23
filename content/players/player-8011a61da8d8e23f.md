@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Veera Ihamäki
 Category: players
 Slug: player-8011a61da8d8e23f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 174
+rank: 177
 season: fiw-26-27

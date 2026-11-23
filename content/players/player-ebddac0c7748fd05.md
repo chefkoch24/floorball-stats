@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pārstāvis Sandis Kārkliņš
 Category: players
 Slug: player-ebddac0c7748fd05

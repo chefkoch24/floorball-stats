@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Eemil Ukkonen
 Category: players
 Slug: player-aadd4285dfe3186b
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 9
+current_games: 10
 current_goals: 6
 current_assists: 6
 current_points: 12
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 1
 cup_assists: 1
 cup_points: 2
@@ -41,7 +41,7 @@ career_goals: 10
 career_assists: 12
 career_points: 22
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|5|5|10|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|2|1|1|2|2||fi-25-26|regular-season|Finland|Nokian KrP|12|5|7|12|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|7|5|5|10|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|1|1|2|2||fi-25-26|regular-season|Finland|Nokian KrP|12|5|7|12|2
 assists: 5
 games: 7
 goals: 5

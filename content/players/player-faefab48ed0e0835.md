@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Rasmus Ristimäki
 Category: players
 Slug: player-faefab48ed0e0835

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Laurenz Kahlmann
 Category: players
 Slug: player-b34bdd745f275fb9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 200
+rank: 202
 season: 26-27

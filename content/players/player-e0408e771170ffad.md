@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pepe Wurlitzer
 Category: players
 Slug: player-e0408e771170ffad
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 286
+rank: 287
 season: 26-27

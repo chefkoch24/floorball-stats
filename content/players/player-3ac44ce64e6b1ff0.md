@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Alvis Dāle
 Category: players
 Slug: player-3ac44ce64e6b1ff0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 8
-rank: 48
+rank: 49
 season: lv-26-27

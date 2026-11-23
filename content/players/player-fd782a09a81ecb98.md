@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Julia Croneld
 Category: players
 Slug: player-fd782a09a81ecb98
@@ -11,10 +11,10 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 18
-current_assists: 8
-current_points: 26
+current_games: 11
+current_goals: 22
+current_assists: 10
+current_points: 32
 current_pim: 2
 regular_games: 8
 regular_goals: 12
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
-cup_goals: 6
-cup_assists: 3
-cup_points: 9
+cup_games: 3
+cup_goals: 10
+cup_assists: 5
+cup_points: 15
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 12
 career_assists: 6
 career_points: 18
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|8|12|5|17|2||chw-26-27|cup|Switzerland Women|Zug United|2|6|3|9|0||ccw-26-27|tournament|IFF Champions Cup Women|Zug United|1|0|1|1|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Zug United|8|12|5|17|2||chw-26-27|cup|Switzerland Women|Zug United|3|10|5|15|0||ccw-26-27|tournament|IFF Champions Cup Women|Zug United|1|0|1|1|0
 assists: 5
 games: 8
 goals: 12

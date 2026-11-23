@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Tomass Kristofers Birstiņš
 Category: players
 Slug: player-4cdca85b0ef895fd
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
 current_assists: 4
 current_points: 7
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
@@ -36,14 +36,14 @@ previous_goals: 23
 previous_assists: 23
 previous_points: 46
 previous_pim: 4
-career_games: 34
+career_games: 35
 career_goals: 26
 career_assists: 27
 career_points: 53
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|3|4|7|0||lv-25-26|regular-season|Latvia|FBK SĀC|23|23|23|46|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|12|3|4|7|0||lv-25-26|regular-season|Latvia|FBK SĀC|23|23|23|46|4
 assists: 4
-games: 11
+games: 12
 goals: 3
 penalties: 0
 phase: regular-season

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Dilans Kronentāls
 Category: players
 Slug: player-02e803ccdd9f15bd
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 5
-rank: 64
+rank: 65
 season: lv-26-27

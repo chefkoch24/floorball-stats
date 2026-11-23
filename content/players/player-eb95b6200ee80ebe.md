@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Georg-Martin Gahnz
 Category: players
 Slug: player-eb95b6200ee80ebe
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 3
+current_points: 6
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 3
-regular_assists: 2
-regular_points: 5
+regular_assists: 3
+regular_points: 6
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 3
 previous_points: 6
 previous_pim: 0
-career_games: 22
+career_games: 23
 career_goals: 6
-career_assists: 5
-career_points: 11
+career_assists: 6
+career_points: 12
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|8|3|2|5|4||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|14|3|3|6|0
-assists: 2
-games: 8
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|9|3|3|6|4||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|14|3|3|6|0
+assists: 3
+games: 9
 goals: 3
 penalties: 2
 phase: regular-season
 pim: 4
-points: 5
-rank: 87
+points: 6
+rank: 78
 season: 26-27

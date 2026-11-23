@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Max Bandrock
 Category: players
 Slug: player-3e2d53b34fb2f853
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 205
+rank: 207
 season: 26-27

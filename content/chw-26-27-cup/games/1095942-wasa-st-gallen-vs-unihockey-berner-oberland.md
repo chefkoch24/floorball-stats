@@ -6,24 +6,24 @@ type: game
 game_id: 1095942
 home_team: WASA St. Gallen
 away_team: Unihockey Berner Oberland
-attendance: 0
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 143
+away_goal_diffs_csv: -1,-2,-3,-4,-5,-4
+away_goal_minutes_csv: 12.38,19.75,21.63,24.33,28.03,44.8
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
 competition_name: Mobiliar Unihockey Cup Frauen
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMTI6MjMiLCJwZXJpb2QiOjEsInRlYW0iOiJVbmlob2NrZXkgQmVybmVyIE9iZXJsYW5kIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJBbGluZSBTY2h1cHBpc3NlciIsInRpdGxlX3VpZCI6InBsYXllci0zMjU3MzJmN2IzNTAxN2MxIiwiYXNzaXN0IjoiTm9yaW5hIFJldXNzZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLTI0MWNlNzg4ZGQ4YjJkMjYiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIxOTo0NSIsInBlcmlvZCI6MSwidGVhbSI6IlVuaWhvY2tleSBCZXJuZXIgT2JlcmxhbmQiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlNhbmRyaW5lIEVnZ2VsIiwidGl0bGVfdWlkIjoicGxheWVyLTE0MTE3ZGZiMzlmMjM5NGYiLCJhc3Npc3QiOiJLYXJpbiBXZW5nZXIiLCJhc3Npc3RfdWlkIjoicGxheWVyLThmY2U1ODU0MmU2NTZlNzAiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyMDowMCIsInBlcmlvZCI6MSwidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIDFzdCBwZXJpb2QiLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiIwMTozOCIsInBlcmlvZCI6MiwidGVhbSI6IlVuaWhvY2tleSBCZXJuZXIgT2JlcmxhbmQiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkthcmluIEJpZXJpIiwidGl0bGVfdWlkIjoicGxheWVyLTU5N2Q4OTNhODQ4MmM3ZWQiLCJhc3Npc3QiOiJTYW5kcmluZSBFZ2dlbCIsImFzc2lzdF91aWQiOiJwbGF5ZXItMTQxMTdkZmIzOWYyMzk0ZiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjA0OjIwIiwicGVyaW9kIjoyLCJ0ZWFtIjoiVW5paG9ja2V5IEJlcm5lciBPYmVybGFuZCIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjQiLCJldmVudF9raW5kIjoiZ29hbCIsInRpdGxlIjoiQWxpbmUgU2NodXBwaXNzZXIiLCJ0aXRsZV91aWQiOiJwbGF5ZXItMzI1NzMyZjdiMzUwMTdjMSIsImFzc2lzdCI6Ik5vcmluYSBSZXVzc2VyIiwiYXNzaXN0X3VpZCI6InBsYXllci0yNDFjZTc4OGRkOGIyZDI2IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDg6MDIiLCJwZXJpb2QiOjIsInRlYW0iOiJVbmlob2NrZXkgQmVybmVyIE9iZXJsYW5kIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6NSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJLYXJpbiBXZW5nZXIiLCJ0aXRsZV91aWQiOiJwbGF5ZXItOGZjZTU4NTQyZTY1NmU3MCIsImFzc2lzdCI6IkthcmluIEJpZXJpIiwiYXNzaXN0X3VpZCI6InBsYXllci01OTdkODkzYTg0ODJjN2VkIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMTU6MTIiLCJwZXJpb2QiOjIsInRlYW0iOiJXQVNBIFN0LiBHYWxsZW4iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMTo1IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Ik1pY2hlbGxlIFdhZ25lciIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiTmluYSBNZXR6Z2VyIiwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMDI6MzciLCJwZXJpb2QiOjMsInRlYW0iOiJXQVNBIFN0LiBHYWxsZW4iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMjo1IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkxpdmlhIEhhcmRlZ2dlciIsInRpdGxlX3VpZCI6bnVsbCwiYXNzaXN0IjoiTWFsaW4gU3VsemJlcmdlciIsImFzc2lzdF91aWQiOm51bGwsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjAzOjU1IiwicGVyaW9kIjozLCJ0ZWFtIjoiV0FTQSBTdC4gR2FsbGVuIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6NSIsImV2ZW50X2tpbmQiOiJwZW5hbHR5IiwidGl0bGUiOiIyIG1pbiBwZW5hbHR5IiwiYXNzaXN0IjoiU2VsaW5hIEJ1Y2hlZ2dlciIsImFzc2lzdF91aWQiOm51bGwsInRhZyI6InBlbmFsdHlfMiJ9LHsibWludXRlIjoiMDQ6NDgiLCJwZXJpb2QiOjMsInRlYW0iOiJVbmlob2NrZXkgQmVybmVyIE9iZXJsYW5kIiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjI6NiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJMYXJhIE1laXNlbCIsInRpdGxlX3VpZCI6InBsYXllci05ODZhYTM3ZmUyNzZjMGVhIiwiYXNzaXN0IjoiTmlrb2wgUmFpcyIsImFzc2lzdF91aWQiOiJwbGF5ZXItYjhmZjU4OTk0Mjg0NDkyOSIsInRhZyI6ImdvYWwifV0=
+game_events_count: 11
+game_state: played
+game_status: None
+home_goal_diffs_csv: -4,-3
+home_goal_minutes_csv: 35.2,42.62
 home_major_penalty_minutes_csv: 
-home_penalty_ends_csv: 
-home_penalty_goals_csv: 
-home_penalty_minutes_csv: 
+home_penalty_ends_csv: 44.8
+home_penalty_goals_csv: 2
+home_penalty_minutes_csv: 43.92
 ingame_status: None
 pregame_h2h_away_split_goal_diff_per_game: 6.0
 pregame_h2h_away_split_points_per_game: 3.0
@@ -72,62 +72,62 @@ pregame_h2h_special_away_pk_eff: 50.0
 pregame_h2h_special_away_pp_eff: n.a.
 pregame_h2h_special_home_pk_eff: 50.0
 pregame_h2h_special_home_pp_eff: 25.0
-result_string: None
+result_string: 2:6 (0:2, 1:3, 1:1)
 start_time: 16:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+timeline_away_goals_csv: 0,1,2,3,4,5,5,5,6
+timeline_diffs_csv: 0,-1,-2,-3,-4,-5,-4,-3,-4
+timeline_home_goals_csv: 0,0,0,0,0,0,1,2,2
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,12.38,19.75,21.63,24.33,28.03,35.2,42.62,44.8
 tournament_stage_label: Viertelfinal
 tournament_stage_type: elimination
 venue: Sporthalle Tal der Demut St. Gallen
 home_away_points: 0
-home_boxplay: 0
-home_boxplay_efficiency: n.a.
+home_boxplay: 1
+home_boxplay_efficiency: 0.0
 home_boxplay_first_period: 0
 home_boxplay_overtime: 0
 home_boxplay_second_period: 0
-home_boxplay_seconds: 0
-home_boxplay_third_period: 0
+home_boxplay_seconds: 53
+home_boxplay_third_period: 1
 home_close_game_loss: 0
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
+home_draws: 0
 home_equalizer_goals: 0
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -4
+home_goals: 2
+home_goals_against: 6
 home_goals_against_away: 0
-home_goals_against_home: 0
-home_goals_against_in_boxplay: 0
+home_goals_against_home: 6
+home_goals_against_in_boxplay: 1
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 2
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period_against: 2
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
-home_goals_in_third_period_against: 0
-home_home_points: 1
+home_goals_in_second_period: 1
+home_goals_in_second_period_against: 3
+home_goals_in_third_period: 1
+home_goals_in_third_period_against: 1
+home_home_points: 0
 home_loss_1: 0
-home_losses: 0
+home_losses: 1
 home_over_time_losses: 0
 home_over_time_wins: 0
-home_penalties: 0
+home_penalties: 1
 home_penalty_10: 0
-home_penalty_2: 0
+home_penalty_2: 1
 home_penalty_2and2: 0
 home_penalty_first_period: 0
 home_penalty_ms: 0
@@ -137,8 +137,8 @@ home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
-home_penalty_third_period: 0
-home_points: 1
+home_penalty_third_period: 1
+home_points: 0
 home_points_after_55_min: 0
 home_points_after_58_min: 0
 home_points_after_59_min: 0
@@ -155,10 +155,10 @@ home_powerplay_second_period: 0
 home_powerplay_seconds: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 1
+away_away_points: 3
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -169,33 +169,33 @@ away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
 away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: 4
+away_goals: 6
+away_goals_against: 2
+away_goals_against_away: 2
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 6
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
+away_goals_in_first_period: 2
 away_goals_in_first_period_against: 0
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
-away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
-away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_powerplay: 1
+away_goals_in_second_period: 3
+away_goals_in_second_period_against: 1
+away_goals_in_third_period: 1
+away_goals_in_third_period_against: 1
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
@@ -214,26 +214,26 @@ away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
+away_points: 3
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
+away_points_after_first_period: 3
+away_points_after_second_period: 3
+away_points_after_third_period: 3
 away_points_max_difference_2: 0
-away_points_more_2_difference: 0
-away_powerplay: 0
-away_powerplay_efficiency: n.a.
+away_points_more_2_difference: 3
+away_powerplay: 1
+away_powerplay_efficiency: 100.0
 away_powerplay_first_period: 0
 away_powerplay_overtime: 0
 away_powerplay_second_period: 0
-away_powerplay_seconds: 0
-away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
+away_powerplay_seconds: 53
+away_powerplay_third_period: 1
+away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
 away_win_1: 0
-away_wins: 0
+away_wins: 1
 home_pregame_away_points: 0
 home_pregame_boxplay: 2
 home_pregame_boxplay_efficiency: 50.0

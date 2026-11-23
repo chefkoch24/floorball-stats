@@ -429,7 +429,7 @@ away_pregame_points_after_first_period: 0
 away_pregame_points_after_first_period_per_game: 0.0
 away_pregame_points_after_second_period: 0
 away_pregame_points_after_third_period: 0
-away_pregame_points_against_lekrings_cpss: 3
+away_pregame_points_against_lekrings_cpss: 5
 away_pregame_points_against_rubene: 0
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 0

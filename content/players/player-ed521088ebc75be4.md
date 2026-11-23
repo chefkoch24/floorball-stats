@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Dominik Bürger
 Category: players
 Slug: player-ed521088ebc75be4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 187
+rank: 188
 season: 26-27

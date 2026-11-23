@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Niko Halme
 Category: players
 Slug: player-f85d1c11e6ef9128

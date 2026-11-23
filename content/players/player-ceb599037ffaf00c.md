@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Vilja Kuutniemi
 Category: players
 Slug: player-ceb599037ffaf00c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 21
+rank: 22
 season: fiw-26-27

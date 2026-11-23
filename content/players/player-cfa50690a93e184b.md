@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 5
 current_assists: 6
 current_points: 11
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 1
 cup_assists: 0
 cup_points: 1
@@ -41,7 +41,7 @@ career_goals: 4
 career_assists: 6
 career_points: 10
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|4|6|10|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|1|0|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|4|6|10|2||ch-26-27|cup|Switzerland|UHC Alligator Malans|4|1|0|1|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|1|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|15|0|0|0|0
 assists: 6
 games: 10
 goals: 4

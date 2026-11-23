@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jakob Caspar Schnaithmann
 Category: players
 Slug: player-93d0beaf2f3f6c99
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 234
+rank: 236
 season: 26-27

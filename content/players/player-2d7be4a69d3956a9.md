@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Takáč Jakub
 Category: players
 Slug: player-2d7be4a69d3956a9

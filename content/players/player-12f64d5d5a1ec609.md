@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Moritz Neustadt
 Category: players
 Slug: player-12f64d5d5a1ec609
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 8
+current_games: 9
 current_goals: 3
-current_assists: 2
-current_points: 5
+current_assists: 3
+current_points: 6
 current_pim: 0
-regular_games: 7
+regular_games: 8
 regular_goals: 2
-regular_assists: 2
-regular_points: 4
+regular_assists: 3
+regular_points: 5
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 6
 previous_assists: 5
 previous_points: 11
 previous_pim: 0
-career_games: 29
+career_games: 30
 career_goals: 8
-career_assists: 7
-career_points: 15
+career_assists: 8
+career_points: 16
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|7|2|2|4|0||26-27|cup|Germany|DJK Holzbüttgen|1|1|0|1|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|1|1|2|0||25-26|regular-season|Germany|DJK Holzbüttgen|19|5|4|9|0
-assists: 2
-games: 7
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|8|2|3|5|0||26-27|cup|Germany|DJK Holzbüttgen|1|1|0|1|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|1|1|2|0||25-26|regular-season|Germany|DJK Holzbüttgen|19|5|4|9|0
+assists: 3
+games: 8
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 4
-rank: 107
+points: 5
+rank: 99
 season: 26-27

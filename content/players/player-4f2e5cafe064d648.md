@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Anton Westergren
 Category: players
 Slug: player-4f2e5cafe064d648

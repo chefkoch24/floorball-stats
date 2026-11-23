@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Vlastimil Kolman
 Category: players
 Slug: player-86454a34ebbf8cc8

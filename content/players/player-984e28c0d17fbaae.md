@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 92
+rank: 95
 season: fi-26-27

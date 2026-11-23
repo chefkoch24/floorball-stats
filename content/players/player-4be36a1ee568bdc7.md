@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Boran Jäger
 Category: players
 Slug: player-4be36a1ee568bdc7
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 0
 current_assists: 4
 current_points: 4
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 0
 regular_assists: 4
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 2
-career_games: 27
+career_games: 28
 career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|8|0|4|4|0||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|0|0|0|0||25-26|regular-season|Germany|SSF Dragons Bonn|16|3|2|5|2
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|0|4|4|0||26-27|cup|Germany|SSF Dragons Bonn|1|0|0|0|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|0|0|0|0||25-26|regular-season|Germany|SSF Dragons Bonn|16|3|2|5|2
 assists: 4
-games: 8
+games: 9
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 115
+rank: 120
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Treneris Normunds Kīsnics
 Category: players
 Slug: player-62d6376c8e86efeb

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Markuss Strazdiņš-Stradiņš
 Category: players
 Slug: player-e8abfe3dc3a4bd85
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 10
 current_goals: 2
 current_assists: 1
 current_points: 3
-current_pim: 6
-regular_games: 9
+current_pim: 8
+regular_games: 10
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
-regular_pim: 6
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 3
 previous_points: 8
 previous_pim: 8
-career_games: 39
+career_games: 40
 career_goals: 7
 career_assists: 4
 career_points: 11
-career_pim: 14
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|9|2|1|3|6||lv-25-26|playoffs|Latvia|FBK Valmiera|4|0|0|0|0||lv-25-26|regular-season|Latvia|FBK Valmiera|26|5|3|8|8
+career_pim: 16
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|10|2|1|3|8||lv-25-26|playoffs|Latvia|FBK Valmiera|4|0|0|0|0||lv-25-26|regular-season|Latvia|FBK Valmiera|26|5|3|8|8
 assists: 1
-games: 9
+games: 10
 goals: 2
-penalties: 3
+penalties: 4
 phase: regular-season
-pim: 6
+pim: 8
 points: 3
-rank: 98
+rank: 102
 season: lv-26-27

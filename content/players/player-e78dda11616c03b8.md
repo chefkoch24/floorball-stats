@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Johannes Probst
 Category: players
 Slug: player-e78dda11616c03b8
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
-current_goals: 6
-current_assists: 8
-current_points: 14
+current_games: 11
+current_goals: 7
+current_assists: 9
+current_points: 16
 current_pim: 8
-regular_games: 9
-regular_goals: 6
-regular_assists: 7
-regular_points: 13
+regular_games: 10
+regular_goals: 7
+regular_assists: 8
+regular_points: 15
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 6
-career_assists: 7
-career_points: 13
+career_games: 10
+career_goals: 7
+career_assists: 8
+career_points: 15
 career_pim: 6
-history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|9|6|7|13|6||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|1|1|2
-assists: 7
-games: 9
-goals: 6
+history_rows_csv: 26-27|regular-season|Germany|VfL Red Hocks Kaufering|10|7|8|15|6||26-27|cup|Germany|VfL Red Hocks Kaufering|1|0|1|1|2
+assists: 8
+games: 10
+goals: 7
 penalties: 3
 phase: regular-season
 pim: 6
-points: 13
-rank: 30
+points: 15
+rank: 25
 season: 26-27

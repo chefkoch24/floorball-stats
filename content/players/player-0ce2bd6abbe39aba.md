@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Theo Genesener
 Category: players
 Slug: player-0ce2bd6abbe39aba
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 166
+rank: 169
 season: 26-27

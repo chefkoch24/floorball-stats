@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Alvar Alanne
 Category: players
 Slug: player-8fda28758dd3d2ba

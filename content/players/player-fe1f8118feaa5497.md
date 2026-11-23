@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kerttu Rusanen
 Category: players
 Slug: player-fe1f8118feaa5497
@@ -11,16 +11,16 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 5
+current_games: 6
 current_goals: 5
 current_assists: 1
 current_points: 6
-current_pim: 2
-regular_games: 5
+current_pim: 4
+regular_games: 6
 regular_goals: 5
 regular_assists: 1
 regular_points: 6
-regular_pim: 2
+regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 5
+career_games: 6
 career_goals: 5
 career_assists: 1
 career_points: 6
-career_pim: 2
-history_rows_csv: fiw-26-27|regular-season|Finland Women|PSS|5|5|1|6|2
+career_pim: 4
+history_rows_csv: fiw-26-27|regular-season|Finland Women|PSS|6|5|1|6|4
 assists: 1
-games: 5
+games: 6
 goals: 5
-penalties: 1
+penalties: 2
 phase: regular-season
-pim: 2
+pim: 4
 points: 6
 rank: 58
 season: fiw-26-27

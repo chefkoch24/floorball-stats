@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Samuel Volkart
 Category: players
 Slug: player-2d9777f05079bcae
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 5
+current_games: 6
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 1
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 1
 career_assists: 3
 career_points: 4
 career_pim: 14
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|5|0|0|0|4||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|1|3|4|10
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|5|0|0|0|4||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|1|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|1|3|4|10
 assists: 0
 games: 5
 goals: 0

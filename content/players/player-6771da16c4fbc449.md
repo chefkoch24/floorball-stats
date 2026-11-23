@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Markuss Januševskis
 Category: players
 Slug: player-6771da16c4fbc449
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 18
-rank: 12
+rank: 13
 season: 26-27

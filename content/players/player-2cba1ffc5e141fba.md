@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Anton Weyrauch
 Category: players
 Slug: player-2cba1ffc5e141fba
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 18
-rank: 13
+rank: 14
 season: 26-27

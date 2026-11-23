@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Sofia Kitinoja
 Category: players
 Slug: player-cab035b9f0800f92
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 173
+rank: 176
 season: fiw-26-27

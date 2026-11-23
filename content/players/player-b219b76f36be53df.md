@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Matīss Kristiāns Kirmuška
 Category: players
 Slug: player-b219b76f36be53df
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 126
+rank: 128
 season: lv-26-27

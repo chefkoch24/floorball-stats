@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Adam Filip Hrdlička
 Category: players
 Slug: player-e043cecad7456355

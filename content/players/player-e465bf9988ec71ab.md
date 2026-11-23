@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Veeti Nieminen
 Category: players
 Slug: player-e465bf9988ec71ab
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 11
-rank: 33
+rank: 35
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Leo Häfner
 Category: players
 Slug: player-a0c3b2305a783ba2
@@ -11,12 +11,12 @@ season_count: 3
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 7
 current_points: 8
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 7
 regular_points: 8
@@ -36,18 +36,18 @@ previous_goals: 11
 previous_assists: 13
 previous_points: 24
 previous_pim: 4
-career_games: 39
+career_games: 40
 career_goals: 13
 career_assists: 20
 career_points: 33
 career_pim: 8
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|9|1|7|8|2||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|2
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|10|1|7|8|2||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|2|0|2|2||25-26|regular-season|Germany|DJK Holzbüttgen|20|9|13|22|2||wfc-2024|tournament|IFF WFC|Germany|7|1|0|1|2
 assists: 7
-games: 9
+games: 10
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 8
-rank: 57
+rank: 63
 season: 26-27

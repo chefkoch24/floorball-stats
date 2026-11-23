@@ -431,7 +431,7 @@ away_pregame_points_after_second_period: 3
 away_pregame_points_after_third_period: 3
 away_pregame_points_against_nnd_rjtc: 1
 away_pregame_points_against_rubene: 0
-away_pregame_points_against_sparta: 3
+away_pregame_points_against_sparta: 4
 away_pregame_points_max_difference_2: 0
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 1.0

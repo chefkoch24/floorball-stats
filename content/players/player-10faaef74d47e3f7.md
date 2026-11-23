@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Florian Hannes
 Category: players
 Slug: player-10faaef74d47e3f7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 86
+rank: 94
 season: 26-27

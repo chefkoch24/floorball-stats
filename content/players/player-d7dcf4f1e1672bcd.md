@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Corina Maurer
 Category: players
 Slug: player-d7dcf4f1e1672bcd
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 3
 current_points: 4
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 1
 cup_points: 1
@@ -41,7 +41,7 @@ career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Unihockey Berner Oberland|9|1|2|3|0||chw-26-27|cup|Switzerland Women|Unihockey Berner Oberland|2|0|1|1|2
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Unihockey Berner Oberland|9|1|2|3|0||chw-26-27|cup|Switzerland Women|Unihockey Berner Oberland|3|0|1|1|2
 assists: 2
 games: 9
 goals: 1

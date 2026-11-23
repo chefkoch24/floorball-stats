@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Sofia Krnáčová
 Category: players
 Slug: player-a1e06e2ec162fda4

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jonas Damm
 Category: players
 Slug: player-5bdd16d9f35226cd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 113
+rank: 118
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Alan Fliegner
 Category: players
 Slug: player-a8e315da95edf4f1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 139
+rank: 145
 season: 26-27

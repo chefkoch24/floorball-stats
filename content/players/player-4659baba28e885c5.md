@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Renàrs Capars
 Category: players
 Slug: player-4659baba28e885c5
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 1
 current_points: 3
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 1
 previous_points: 2
 previous_pim: 2
-career_games: 24
+career_games: 25
 career_goals: 2
 career_assists: 2
 career_points: 4
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|9|1|1|2|0||26-27|cup|Germany|SSF Dragons Bonn|1|1|0|1|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|0|0|0|0||25-26|regular-season|Germany|SSF Dragons Bonn|12|1|1|2|2
+history_rows_csv: 26-27|regular-season|Germany|SSF Dragons Bonn|10|1|1|2|0||26-27|cup|Germany|SSF Dragons Bonn|1|1|0|1|0||25-26|playoffs|Germany|SSF Dragons Bonn|3|0|0|0|0||25-26|regular-season|Germany|SSF Dragons Bonn|12|1|1|2|2
 assists: 1
-games: 9
+games: 10
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 154
+rank: 159
 season: 26-27

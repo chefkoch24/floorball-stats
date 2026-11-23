@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Axel Rasmussen
 Category: players
 Slug: player-a2e08a7bb0c2a993

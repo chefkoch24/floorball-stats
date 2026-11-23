@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Valentin König
 Category: players
 Slug: player-73c76f72b5bdf216
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 301
+rank: 302
 season: 26-27

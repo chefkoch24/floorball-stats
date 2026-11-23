@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Matyáš Malkus
 Category: players
 Slug: player-454fb190c81e8bda

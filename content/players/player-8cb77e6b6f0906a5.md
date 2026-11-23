@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Johannes Jens Voigt
 Category: players
 Slug: player-8cb77e6b6f0906a5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 238
+rank: 240
 season: 26-27

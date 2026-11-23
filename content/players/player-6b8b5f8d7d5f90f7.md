@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Edvards Egliens
 Category: players
 Slug: player-6b8b5f8d7d5f90f7
@@ -11,12 +11,12 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 3
 current_assists: 6
 current_points: 9
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 3
 regular_assists: 6
 regular_points: 9
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 12
 career_goals: 3
 career_assists: 6
 career_points: 9
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|11|3|6|9|0
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|12|3|6|9|0
 assists: 6
-games: 11
+games: 12
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 39
+rank: 42
 season: lv-26-27

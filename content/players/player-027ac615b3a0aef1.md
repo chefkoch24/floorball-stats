@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Eduards Meisters
 Category: players
 Slug: player-027ac615b3a0aef1
@@ -11,12 +11,12 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 2
 regular_assists: 3
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 11
+career_games: 12
 career_goals: 2
 career_assists: 3
 career_points: 5
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|11|2|3|5|2
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|12|2|3|5|2
 assists: 3
-games: 11
+games: 12
 goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 72
+rank: 73
 season: lv-26-27

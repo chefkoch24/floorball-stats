@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Joona Heiskanen
 Category: players
 Slug: player-b51958067fed9c9a
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
-current_goals: 10
-current_assists: 5
-current_points: 15
-current_pim: 22
-regular_games: 8
-regular_goals: 9
-regular_assists: 5
-regular_points: 14
-regular_pim: 18
+current_games: 10
+current_goals: 11
+current_assists: 6
+current_points: 17
+current_pim: 24
+regular_games: 9
+regular_goals: 10
+regular_assists: 6
+regular_points: 16
+regular_pim: 20
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 7
 previous_points: 24
 previous_pim: 22
-career_games: 27
-career_goals: 26
-career_assists: 12
-career_points: 38
-career_pim: 40
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|8|9|5|14|18||26-27|cup|Germany|DJK Holzbüttgen|1|1|0|1|4||25-26|playoffs|Germany|DJK Holzbüttgen|3|1|2|3|4||25-26|regular-season|Germany|DJK Holzbüttgen|16|16|5|21|18
-assists: 5
-games: 8
-goals: 9
-penalties: 9
+career_games: 28
+career_goals: 27
+career_assists: 13
+career_points: 40
+career_pim: 42
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|9|10|6|16|20||26-27|cup|Germany|DJK Holzbüttgen|1|1|0|1|4||25-26|playoffs|Germany|DJK Holzbüttgen|3|1|2|3|4||25-26|regular-season|Germany|DJK Holzbüttgen|16|16|5|21|18
+assists: 6
+games: 9
+goals: 10
+penalties: 10
 phase: regular-season
-pim: 18
-points: 14
-rank: 25
+pim: 20
+points: 16
+rank: 22
 season: 26-27

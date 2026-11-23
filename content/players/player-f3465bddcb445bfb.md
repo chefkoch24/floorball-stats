@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lassi Tuhkanen
 Category: players
 Slug: player-f3465bddcb445bfb
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 14
-rank: 31
+rank: 33
 season: fi-26-27

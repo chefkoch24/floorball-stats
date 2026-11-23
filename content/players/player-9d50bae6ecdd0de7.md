@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elizabete Malnača
 Category: players
 Slug: player-9d50bae6ecdd0de7
@@ -11,12 +11,12 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 6
+current_games: 7
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 6
-regular_games: 6
+regular_games: 7
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 6
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|6|1|0|1|6
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|Lekrings/CPSS|7|1|0|1|6
 assists: 0
-games: 6
+games: 7
 goals: 1
 penalties: 3
 phase: regular-season
 pim: 6
 points: 1
-rank: 34
+rank: 36
 season: lvw-26-27

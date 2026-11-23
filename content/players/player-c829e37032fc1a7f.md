@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Anton Wikner
 Category: players
 Slug: player-c829e37032fc1a7f

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nea Pirttilä
 Category: players
 Slug: player-d7ef5badca504544
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 68
+rank: 72
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Tobias Schaffner
 Category: players
 Slug: player-abda084a9e4ef138
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 1
 current_assists: 1
 current_points: 2
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 1
 cup_assists: 1
 cup_points: 2
@@ -41,7 +41,7 @@ career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|0|0|0|4||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|1|1|2|4||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|2|1|3|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|0|0|0|4||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|4|1|1|2|4||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|0|0|0|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|2|1|3|4
 assists: 0
 games: 10
 goals: 0

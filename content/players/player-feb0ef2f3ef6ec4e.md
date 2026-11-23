@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Cem Beischl
 Category: players
 Slug: player-feb0ef2f3ef6ec4e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 101
+rank: 108
 season: 26-27

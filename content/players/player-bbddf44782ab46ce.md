@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Mike Jäger
 Category: players
 Slug: player-bbddf44782ab46ce
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 12
 current_assists: 1
 current_points: 13
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 5
 cup_assists: 1
 cup_points: 6
@@ -41,7 +41,7 @@ career_goals: 12
 career_assists: 8
 career_points: 20
 career_pim: 22
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|7|0|7|8||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|5|8|13|14
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|7|0|7|8||ch-26-27|cup|Switzerland|UHC Alligator Malans|4|5|1|6|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|22|5|8|13|14
 assists: 0
 games: 10
 goals: 7

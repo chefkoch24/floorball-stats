@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Oscar Magnusson
 Category: players
 Slug: player-9bf3fa25cae9e8ea

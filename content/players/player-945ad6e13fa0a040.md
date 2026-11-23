@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Imo Ziemendorf
 Category: players
 Slug: player-945ad6e13fa0a040
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 13
-rank: 29
+rank: 31
 season: 26-27

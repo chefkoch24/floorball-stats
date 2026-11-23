@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Maciej Jastrzebski
 Category: players
 Slug: player-bda2d8728554fe9c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 268
+rank: 269
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Olekšák Daniel
 Category: players
 Slug: player-9f91cab358bd4437

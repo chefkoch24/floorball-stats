@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Aleksejs Jakovļevs
 Category: players
 Slug: player-bb8ae0f2e5161fe8
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 9
+current_games: 10
 current_goals: 1
-current_assists: 0
-current_points: 1
+current_assists: 1
+current_points: 2
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 1
-regular_assists: 0
-regular_points: 1
+regular_assists: 1
+regular_points: 2
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 8
 previous_points: 16
 previous_pim: 6
-career_games: 41
+career_games: 42
 career_goals: 9
-career_assists: 8
-career_points: 17
+career_assists: 9
+career_points: 18
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|9|1|0|1|2||lv-25-26|playoffs|Latvia|FBK Valmiera|6|1|0|1|2||lv-25-26|regular-season|Latvia|FBK Valmiera|26|7|8|15|4
-assists: 0
-games: 9
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK Valmiera|10|1|1|2|2||lv-25-26|playoffs|Latvia|FBK Valmiera|6|1|0|1|2||lv-25-26|regular-season|Latvia|FBK Valmiera|26|7|8|15|4
+assists: 1
+games: 10
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
-points: 1
-rank: 133
+points: 2
+rank: 122
 season: lv-26-27

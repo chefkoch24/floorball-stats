@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Viktor Pyszko
 Category: players
 Slug: player-c2909c3afd6c4a11

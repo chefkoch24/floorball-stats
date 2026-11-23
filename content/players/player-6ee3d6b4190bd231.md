@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Stefan Hutzli
 Category: players
 Slug: player-6ee3d6b4190bd231
@@ -11,10 +11,10 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: se-25-26
-current_games: 12
-current_goals: 4
-current_assists: 5
-current_points: 9
+current_games: 13
+current_goals: 5
+current_assists: 6
+current_points: 11
 current_pim: 0
 regular_games: 10
 regular_goals: 3
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
-cup_goals: 1
-cup_assists: 0
-cup_points: 1
+cup_games: 3
+cup_goals: 2
+cup_assists: 1
+cup_points: 3
 cup_pim: 0
 previous_games: 30
 previous_goals: 19
@@ -41,7 +41,7 @@ career_goals: 25
 career_assists: 11
 career_points: 36
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|3|5|8|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|0|1|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|1|0|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|18|6|24|6||wfc-2024|tournament|IFF WFC|Switzerland|6|3|0|3|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|3|5|8|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|3|2|1|3|0||se-25-26|playoffs|Sweden|FBC Kalmarsund|4|1|0|1|0||se-25-26|regular-season|Sweden|FBC Kalmarsund|26|18|6|24|6||wfc-2024|tournament|IFF WFC|Switzerland|6|3|0|3|2
 assists: 5
 games: 10
 goals: 3

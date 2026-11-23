@@ -438,6 +438,7 @@ away_pregame_points_after_first_period_per_game: 0.33
 away_pregame_points_after_second_period: 2
 away_pregame_points_after_third_period: 5
 away_pregame_points_against_berlin_rockets: 3
+away_pregame_points_against_blau_weiss_96_schenefeld: 3
 away_pregame_points_against_djk_holzbuttgen: 0
 away_pregame_points_against_etv_piranhhas_hamburg: 3
 away_pregame_points_against_fbc_munchen: 3

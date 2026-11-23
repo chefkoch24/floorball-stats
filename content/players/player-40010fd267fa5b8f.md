@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Eemeli Salin
 Category: players
 Slug: player-40010fd267fa5b8f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 28
-rank: 7
+rank: 8
 season: fi-26-27

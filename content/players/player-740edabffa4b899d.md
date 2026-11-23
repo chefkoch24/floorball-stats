@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Andri Brägger
 Category: players
 Slug: player-740edabffa4b899d
@@ -11,7 +11,7 @@ season_count: 1
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 0
 current_points: 1
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 1
 cup_assists: 0
 cup_points: 1
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|6|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Chur United|3|1|0|1|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Chur United|6|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Chur United|4|1|0|1|0
 assists: 0
 games: 6
 goals: 0

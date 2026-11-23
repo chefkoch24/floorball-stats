@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Laura Katajisto
 Category: players
 Slug: player-2d15145b2c5ddec5
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 169
+rank: 173
 season: fiw-26-27

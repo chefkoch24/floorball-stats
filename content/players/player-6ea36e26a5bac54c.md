@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lukáš Kučera C
 Category: players
 Slug: player-6ea36e26a5bac54c

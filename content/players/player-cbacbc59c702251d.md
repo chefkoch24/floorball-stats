@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Miroslav Fazekaš
 Category: players
 Slug: player-cbacbc59c702251d

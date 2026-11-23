@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Annalena Josi
 Category: players
 Slug: player-ea4c258d895ea537
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 0
 current_assists: 2
 current_points: 2
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 1
 cup_points: 1
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Unihockey Berner Oberland|8|0|1|1|0||chw-26-27|cup|Switzerland Women|Unihockey Berner Oberland|2|0|1|1|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Unihockey Berner Oberland|8|0|1|1|0||chw-26-27|cup|Switzerland Women|Unihockey Berner Oberland|3|0|1|1|0
 assists: 1
 games: 8
 goals: 0

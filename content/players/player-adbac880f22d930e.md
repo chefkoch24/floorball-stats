@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Milan Tichy
 Category: players
 Slug: player-adbac880f22d930e
@@ -49,5 +49,5 @@ penalties: 6
 phase: regular-season
 pim: 12
 points: 6
-rank: 76
+rank: 82
 season: 26-27

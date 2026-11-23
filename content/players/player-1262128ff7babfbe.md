@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Treneris Santa Muceniece
 Category: players
 Slug: player-1262128ff7babfbe

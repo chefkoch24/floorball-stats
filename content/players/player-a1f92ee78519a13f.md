@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jonas Jens
 Category: players
 Slug: player-a1f92ee78519a13f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 239
+rank: 241
 season: 26-27

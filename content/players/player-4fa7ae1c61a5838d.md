@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Karo Kantola
 Category: players
 Slug: player-4fa7ae1c61a5838d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 27
+rank: 29
 season: 26-27

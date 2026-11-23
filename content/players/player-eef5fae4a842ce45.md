@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elli Kylmäluoma
 Category: players
 Slug: player-eef5fae4a842ce45
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 29
+rank: 30
 season: fiw-26-27

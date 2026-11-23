@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Sandis Lēvalds
 Category: players
 Slug: player-0ccce6f9b717e186
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 7
 current_assists: 6
 current_points: 13
-current_pim: 4
-regular_games: 11
+current_pim: 6
+regular_games: 12
 regular_goals: 7
 regular_assists: 6
 regular_points: 13
-regular_pim: 4
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 8
 previous_points: 17
 previous_pim: 8
-career_games: 44
+career_games: 45
 career_goals: 16
 career_assists: 14
 career_points: 30
-career_pim: 12
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|11|7|6|13|4||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|2|1|3|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|7|7|14|6
+career_pim: 14
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|12|7|6|13|6||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|2|1|3|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|23|7|7|14|6
 assists: 6
-games: 11
+games: 12
 goals: 7
-penalties: 2
+penalties: 3
 phase: regular-season
-pim: 4
+pim: 6
 points: 13
 rank: 21
 season: lv-26-27

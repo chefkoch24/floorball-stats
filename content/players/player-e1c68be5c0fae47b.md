@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Björn Hoppe
 Category: players
 Slug: player-e1c68be5c0fae47b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 183
+rank: 184
 season: 26-27

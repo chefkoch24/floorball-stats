@@ -443,6 +443,7 @@ away_pregame_points_against_fbc_loisto: 0
 away_pregame_points_against_koovee: 0
 away_pregame_points_against_northern_stars: 0
 away_pregame_points_against_pirkat: 3
+away_pregame_points_against_sb_pro: 3
 away_pregame_points_against_spv: 3
 away_pregame_points_against_ssra: 0
 away_pregame_points_against_tps: 0

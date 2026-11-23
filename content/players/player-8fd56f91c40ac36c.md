@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Regnārs Kreičmanis
 Category: players
 Slug: player-8fd56f91c40ac36c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 160
+rank: 161
 season: lv-26-27

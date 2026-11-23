@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Eetu Puntanen
 Category: players
 Slug: player-ca8b64d47c8c6ef7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 42
+rank: 45
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jan Ziehli
 Category: players
 Slug: player-5d70b0292ecdb66f
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 3
 current_points: 5
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 1
 cup_assists: 2
 cup_points: 3
@@ -41,7 +41,7 @@ career_goals: 3
 career_assists: 7
 career_points: 10
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|1|1|2|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|1|2|3|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|0|1|1|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|2|5|7|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|8|1|1|2|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|3|1|2|3|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|0|1|1|0||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|21|2|5|7|2
 assists: 1
 games: 8
 goals: 1

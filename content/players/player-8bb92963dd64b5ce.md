@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jannis Röst
 Category: players
 Slug: player-8bb92963dd64b5ce
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 0
 current_assists: 1
 current_points: 1
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|0|1|1|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|3|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|2|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Alligator Malans|10|0|1|1|0||ch-26-27|cup|Switzerland|UHC Alligator Malans|4|0|0|0|0||ch-25-26|regular-season|Switzerland|UHC Alligator Malans|2|0|0|0|0
 assists: 1
 games: 10
 goals: 0

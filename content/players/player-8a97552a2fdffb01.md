@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Simon Laubscher
 Category: players
 Slug: player-8a97552a2fdffb01
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 2
 current_points: 4
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 4
 career_assists: 8
 career_points: 12
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|9|2|2|4|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|0|0|0|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|1|0|1|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|19|1|6|7|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|9|2|2|4|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|3|0|0|0|0||ch-25-26|playoffs|Switzerland|SV Wiler-Ersigen|10|1|0|1|2||ch-25-26|regular-season|Switzerland|SV Wiler-Ersigen|19|1|6|7|0
 assists: 2
 games: 9
 goals: 2

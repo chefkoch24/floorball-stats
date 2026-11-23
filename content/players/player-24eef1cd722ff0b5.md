@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Rasmus Kainulainen
 Category: players
 Slug: player-24eef1cd722ff0b5
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 23
-rank: 13
+rank: 15
 season: fi-26-27

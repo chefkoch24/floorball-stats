@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nooa Laurila
 Category: players
 Slug: player-43beeb3e593464df
@@ -11,15 +11,15 @@ season_count: 1
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 11
+current_games: 12
 current_goals: 2
-current_assists: 7
-current_points: 9
+current_assists: 9
+current_points: 11
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 2
-regular_assists: 6
-regular_points: 8
+regular_assists: 8
+regular_points: 10
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 2
-career_assists: 6
-career_points: 8
+career_assists: 8
+career_points: 10
 career_pim: 0
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|2|6|8|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|1|1|0
-assists: 6
-games: 10
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|11|2|8|10|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|1|1|0
+assists: 8
+games: 11
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 8
-rank: 56
+points: 10
+rank: 46
 season: 26-27

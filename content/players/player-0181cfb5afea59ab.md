@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jonathan Nilsson
 Category: players
 Slug: player-0181cfb5afea59ab

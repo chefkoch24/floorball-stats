@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Florian Niederberger
 Category: players
 Slug: player-a6ae45b1d9d44ebf
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 13
+current_games: 14
 current_goals: 4
 current_assists: 7
 current_points: 11
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 3
+cup_games: 4
 cup_goals: 2
 cup_assists: 4
 cup_points: 6
@@ -41,7 +41,7 @@ career_goals: 3
 career_assists: 7
 career_points: 10
 career_pim: 4
-history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|2|3|5|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|3|2|4|6|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|1|2|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|0|3|3|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Grasshopper Club Zürich|10|2|3|5|2||ch-26-27|cup|Switzerland|Grasshopper Club Zürich|4|2|4|6|0||ch-25-26|playoffs|Switzerland|Grasshopper Club Zürich|5|1|1|2|2||ch-25-26|regular-season|Switzerland|Grasshopper Club Zürich|22|0|3|3|0
 assists: 3
 games: 10
 goals: 2

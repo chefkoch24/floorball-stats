@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Alexander Hedlund
 Category: players
 Slug: player-1acaf7997a73682b

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Noa Raths
 Category: players
 Slug: player-8b871d65de7fa6ef
@@ -11,10 +11,10 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 1
-current_assists: 0
-current_points: 1
+current_assists: 1
+current_points: 2
 current_pim: 0
 regular_games: 5
 regular_goals: 1
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
-cup_assists: 0
-cup_points: 0
+cup_assists: 1
+cup_points: 1
 cup_pim: 0
 previous_games: 0
 previous_goals: 0
@@ -41,7 +41,7 @@ career_goals: 1
 career_assists: 0
 career_points: 1
 career_pim: 0
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHC Laupen ZH|5|1|0|1|0||chw-26-27|cup|Switzerland Women|UHC Laupen ZH|2|0|0|0|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|UHC Laupen ZH|5|1|0|1|0||chw-26-27|cup|Switzerland Women|UHC Laupen ZH|3|0|1|1|0
 assists: 0
 games: 5
 goals: 1

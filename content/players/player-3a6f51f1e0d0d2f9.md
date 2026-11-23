@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Tim Trebal
 Category: players
 Slug: player-3a6f51f1e0d0d2f9
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 84
+rank: 91
 season: 26-27

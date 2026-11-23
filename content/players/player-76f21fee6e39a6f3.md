@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Pēteris Trekše
 Category: players
 Slug: player-76f21fee6e39a6f3
@@ -11,10 +11,10 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: fi-25-26
-current_games: 11
+current_games: 12
 current_goals: 13
-current_assists: 6
-current_points: 19
+current_assists: 7
+current_points: 20
 current_pim: 0
 regular_games: 9
 regular_goals: 10
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 3
-cup_assists: 0
-cup_points: 3
+cup_assists: 1
+cup_points: 4
 cup_pim: 0
 previous_games: 22
 previous_goals: 11
@@ -41,7 +41,7 @@ career_goals: 23
 career_assists: 25
 career_points: 48
 career_pim: 10
-history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|9|10|6|16|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|2|3|0|3|0||fi-25-26|regular-season|Finland|Classic|22|11|17|28|8||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|SV Wiler-Ersigen|9|10|6|16|0||ch-26-27|cup|Switzerland|SV Wiler-Ersigen|3|3|1|4|0||fi-25-26|regular-season|Finland|Classic|22|11|17|28|8||wfc-2024|tournament|IFF WFC|Latvia|7|2|2|4|2
 assists: 6
 games: 9
 goals: 10

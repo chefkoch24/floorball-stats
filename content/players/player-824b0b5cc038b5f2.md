@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Maximilian Schrick
 Category: players
 Slug: player-824b0b5cc038b5f2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 9
+current_games: 10
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 0
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 3
 previous_points: 4
 previous_pim: 4
-career_games: 26
+career_games: 27
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|8|1|1|2|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|0|0|0|0||25-26|regular-season|Germany|DJK Holzbüttgen|15|1|3|4|4
+history_rows_csv: 26-27|regular-season|Germany|DJK Holzbüttgen|9|1|1|2|0||26-27|cup|Germany|DJK Holzbüttgen|1|0|0|0|0||25-26|playoffs|Germany|DJK Holzbüttgen|3|0|0|0|0||25-26|regular-season|Germany|DJK Holzbüttgen|15|1|3|4|4
 assists: 1
-games: 8
+games: 9
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 150
+rank: 154
 season: 26-27

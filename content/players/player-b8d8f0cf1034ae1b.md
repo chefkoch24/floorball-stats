@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Emīls Šūmanis
 Category: players
 Slug: player-b8d8f0cf1034ae1b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 11
+current_games: 12
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 4
-regular_games: 11
+regular_games: 12
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 5
 previous_points: 19
 previous_pim: 16
-career_games: 47
+career_games: 48
 career_goals: 16
 career_assists: 7
 career_points: 23
 career_pim: 20
-history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|11|2|2|4|4||lv-25-26|playoffs|Latvia|Lekrings|13|4|2|6|8||lv-25-26|regular-season|Latvia|Lekrings|23|10|3|13|8
+history_rows_csv: lv-26-27|regular-season|Latvia|Lekrings|12|2|2|4|4||lv-25-26|playoffs|Latvia|Lekrings|13|4|2|6|8||lv-25-26|regular-season|Latvia|Lekrings|23|10|3|13|8
 assists: 2
-games: 11
+games: 12
 goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 83
+rank: 84
 season: lv-26-27

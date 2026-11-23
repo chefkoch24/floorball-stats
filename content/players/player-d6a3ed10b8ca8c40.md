@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lukas Cordes
 Category: players
 Slug: player-d6a3ed10b8ca8c40
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 88
+rank: 95
 season: 26-27

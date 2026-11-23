@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Filip Åkerblom
 Category: players
 Slug: player-492fcd99d24bab8a

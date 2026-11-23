@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Linus Hedlund
 Category: players
 Slug: player-5cdd16fc5952fb43
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 2
+current_games: 3
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 0
+cup_games: 1
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 12
 career_assists: 2
 career_points: 14
 career_pim: 6
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|10|2|0|2|0||ch-25-26|regular-season|Switzerland|Zug United|22|10|2|12|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|2|0|0|0|0||ch-26-27|cup|Switzerland|Zug United|1|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|10|2|0|2|0||ch-25-26|regular-season|Switzerland|Zug United|22|10|2|12|6
 assists: 0
 games: 2
 goals: 0

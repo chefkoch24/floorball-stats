@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Niclas Lösel
 Category: players
 Slug: player-ce044bf6486ff3f8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 165
+rank: 168
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elmeri Haveri
 Category: players
 Slug: player-ca77f8dbad40ea2d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 11
-rank: 49
+rank: 51
 season: fi-26-27

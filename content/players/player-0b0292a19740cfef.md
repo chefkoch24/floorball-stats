@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Moritz Unterberger
 Category: players
 Slug: player-0b0292a19740cfef
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 152
+rank: 157
 season: 26-27

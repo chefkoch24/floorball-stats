@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Vivien Mészárosová
 Category: players
 Slug: player-5e1293e51bc6a67e

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Eemil Laube
 Category: players
 Slug: player-f9f32ab65d4a38c3
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 43
+rank: 50
 season: 26-27

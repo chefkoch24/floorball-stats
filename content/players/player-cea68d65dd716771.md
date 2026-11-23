@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Krišs Jančuks
 Category: players
 Slug: player-cea68d65dd716771
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 139
+rank: 142
 season: lv-26-27

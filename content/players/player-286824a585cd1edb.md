@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Marcel Schulze
 Category: players
 Slug: player-286824a585cd1edb
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 176
+rank: 179
 season: 26-27

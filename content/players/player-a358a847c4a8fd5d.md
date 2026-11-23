@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Nela Gugová
 Category: players
 Slug: player-a358a847c4a8fd5d

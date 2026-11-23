@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kay Erik Kunath
 Category: players
 Slug: player-4fa1c3e1b620d514
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 251
+rank: 253
 season: 26-27

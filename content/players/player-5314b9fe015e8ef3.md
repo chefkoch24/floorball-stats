@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Keno Volkmann
 Category: players
 Slug: player-5314b9fe015e8ef3
@@ -11,12 +11,12 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 0
 current_points: 1
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 1
 regular_assists: 0
 regular_points: 1
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 1
 previous_points: 4
 previous_pim: 4
-career_games: 28
+career_games: 29
 career_goals: 4
 career_assists: 1
 career_points: 5
 career_pim: 4
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|10|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|18|3|1|4|4
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|11|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|18|3|1|4|4
 assists: 0
-games: 10
+games: 11
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 174
+rank: 176
 season: 26-27

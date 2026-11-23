@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Tereza Hlaviznová
 Category: players
 Slug: player-feeebde3f280ed05

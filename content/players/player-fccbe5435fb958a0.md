@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Marta Reke
 Category: players
 Slug: player-fccbe5435fb958a0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 33
+rank: 35
 season: lvw-26-27

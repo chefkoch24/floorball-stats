@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Paavo Hakala
 Category: players
 Slug: player-55404c859d01deaf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 146
+rank: 147
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Grēta Berga
 Category: players
 Slug: player-c8cbffa4329ede67
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 26
+rank: 28
 season: lvw-26-27

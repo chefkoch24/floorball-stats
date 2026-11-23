@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Silja Collin
 Category: players
 Slug: player-300ae6a42e06d48d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 115
+rank: 116
 season: fiw-26-27

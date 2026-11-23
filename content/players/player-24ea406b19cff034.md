@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jan Zaugg
 Category: players
 Slug: player-24ea406b19cff034
@@ -11,10 +11,10 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
-current_goals: 16
-current_assists: 8
-current_points: 24
+current_games: 13
+current_goals: 18
+current_assists: 9
+current_points: 27
 current_pim: 4
 regular_games: 10
 regular_goals: 15
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
-cup_goals: 1
-cup_assists: 3
-cup_points: 4
+cup_games: 3
+cup_goals: 3
+cup_assists: 4
+cup_points: 7
 cup_pim: 2
 previous_games: 27
 previous_goals: 31
@@ -41,7 +41,7 @@ career_goals: 52
 career_assists: 17
 career_points: 69
 career_pim: 12
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|15|5|20|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|1|3|4|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|4|4|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|27|6|33|2||wfc-2024|tournament|IFF WFC|Switzerland|6|6|2|8|6
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|15|5|20|2||ch-26-27|cup|Switzerland|Floorball Köniz Bern|3|3|4|7|2||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|4|4|8|2||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|27|6|33|2||wfc-2024|tournament|IFF WFC|Switzerland|6|6|2|8|6
 assists: 5
 games: 10
 goals: 15

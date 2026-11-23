@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Samuli Leppäniemi
 Category: players
 Slug: player-ff4c0be735a18845
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 220
+rank: 222
 season: fi-26-27

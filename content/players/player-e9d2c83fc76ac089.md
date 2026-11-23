@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Minka Rönnberg
 Category: players
 Slug: player-e9d2c83fc76ac089
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 183
+rank: 188
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Sára Adamcová
 Category: players
 Slug: player-50ff0a7e71cece8d

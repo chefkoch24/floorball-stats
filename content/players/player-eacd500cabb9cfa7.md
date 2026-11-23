@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Michal Pešák
 Category: players
 Slug: player-eacd500cabb9cfa7

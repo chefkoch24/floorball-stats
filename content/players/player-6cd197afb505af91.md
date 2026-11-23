@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kristers Tīsiņš
 Category: players
 Slug: player-6cd197afb505af91
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 2
-rank: 131
+rank: 135
 season: lv-26-27

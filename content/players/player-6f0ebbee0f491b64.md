@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Laura Göbel
 Category: players
 Slug: player-6f0ebbee0f491b64

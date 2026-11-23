@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Roni Tammi
 Category: players
 Slug: player-cda319c6fbbc62f4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 70
+rank: 71
 season: fi-26-27

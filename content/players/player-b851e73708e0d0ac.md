@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jonas-Fynn Wende
 Category: players
 Slug: player-b851e73708e0d0ac
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 91
+rank: 98
 season: 26-27

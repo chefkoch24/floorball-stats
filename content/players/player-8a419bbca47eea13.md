@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Josia Pfister
 Category: players
 Slug: player-8a419bbca47eea13
@@ -11,10 +11,10 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
-current_assists: 3
-current_points: 6
+current_assists: 4
+current_points: 7
 current_pim: 2
 regular_games: 10
 regular_goals: 3
@@ -26,10 +26,10 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 1
+cup_games: 2
 cup_goals: 0
-cup_assists: 1
-cup_points: 1
+cup_assists: 2
+cup_points: 2
 cup_pim: 0
 previous_games: 26
 previous_goals: 7
@@ -41,7 +41,7 @@ career_goals: 10
 career_assists: 9
 career_points: 19
 career_pim: 8
-history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|10|3|2|5|2||ch-26-27|cup|Switzerland|UHC Uster|1|0|1|1|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|4|5|2||ch-25-26|regular-season|Switzerland|UHC Uster|22|6|3|9|4
+history_rows_csv: ch-26-27|regular-season|Switzerland|UHC Uster|10|3|2|5|2||ch-26-27|cup|Switzerland|UHC Uster|2|0|2|2|0||ch-25-26|playoffs|Switzerland|UHC Uster|4|1|4|5|2||ch-25-26|regular-season|Switzerland|UHC Uster|22|6|3|9|4
 assists: 2
 games: 10
 goals: 3

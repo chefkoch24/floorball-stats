@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Kristiāns Melkus
 Category: players
 Slug: player-31201dc35a3fa9e4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 153
+rank: 154
 season: lv-26-27

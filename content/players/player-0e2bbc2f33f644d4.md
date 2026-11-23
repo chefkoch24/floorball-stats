@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Mirjam Wyss
 Category: players
 Slug: player-0e2bbc2f33f644d4
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 11
 current_assists: 5
 current_points: 16
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 2
 cup_assists: 2
 cup_points: 4
@@ -41,7 +41,7 @@ career_goals: 9
 career_assists: 6
 career_points: 15
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Wizards Bern Burgdorf|8|9|3|12|0||chw-26-27|cup|Switzerland Women|Wizards Bern Burgdorf|2|2|2|4|0||ccw-26-27|tournament|IFF Champions Cup Women|Wizards Bern Burgdorf|2|0|3|3|2
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Wizards Bern Burgdorf|8|9|3|12|0||chw-26-27|cup|Switzerland Women|Wizards Bern Burgdorf|3|2|2|4|0||ccw-26-27|tournament|IFF Champions Cup Women|Wizards Bern Burgdorf|2|0|3|3|2
 assists: 3
 games: 8
 goals: 9

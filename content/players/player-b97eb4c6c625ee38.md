@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jason Tsiakas
 Category: players
 Slug: player-b97eb4c6c625ee38
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 194
+rank: 195
 season: 26-27

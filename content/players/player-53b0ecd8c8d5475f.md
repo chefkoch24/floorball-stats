@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Dāvis Auziņš
 Category: players
 Slug: player-53b0ecd8c8d5475f
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 67
+rank: 68
 season: lv-26-27

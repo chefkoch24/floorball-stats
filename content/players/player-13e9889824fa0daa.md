@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Marius Schwartz
 Category: players
 Slug: player-13e9889824fa0daa
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 10
-current_goals: 5
+current_games: 11
+current_goals: 7
 current_assists: 3
-current_points: 8
+current_points: 10
 current_pim: 10
-regular_games: 9
-regular_goals: 5
+regular_games: 10
+regular_goals: 7
 regular_assists: 3
-regular_points: 8
+regular_points: 10
 regular_pim: 10
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 15
 previous_assists: 10
 previous_points: 25
 previous_pim: 12
-career_games: 29
-career_goals: 20
+career_games: 30
+career_goals: 22
 career_assists: 13
-career_points: 33
+career_points: 35
 career_pim: 22
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|9|5|3|8|10||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|20|15|10|25|12
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|10|7|3|10|10||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|0|0|0|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|20|15|10|25|12
 assists: 3
-games: 9
-goals: 5
+games: 10
+goals: 7
 penalties: 5
 phase: regular-season
 pim: 10
-points: 8
-rank: 53
+points: 10
+rank: 43
 season: 26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Leon Schweiger
 Category: players
 Slug: player-f252c2eb281c7eba
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 11
-rank: 36
+rank: 39
 season: 26-27

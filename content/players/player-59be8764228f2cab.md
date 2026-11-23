@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lukas Genhart
 Category: players
 Slug: player-59be8764228f2cab
@@ -11,7 +11,7 @@ season_count: 3
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 0
 current_assists: 0
 current_points: 0
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 1
 career_points: 1
 career_pim: 0
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|0|1|1|0||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Köniz Bern|10|0|0|0|0||ch-26-27|cup|Switzerland|Floorball Köniz Bern|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Floorball Köniz Bern|6|0|0|0|0||ch-25-26|regular-season|Switzerland|Floorball Köniz Bern|21|0|1|1|0||wfc-2024|tournament|IFF WFC|Switzerland|6|0|0|0|0
 assists: 0
 games: 10
 goals: 0

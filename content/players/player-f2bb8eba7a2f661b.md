@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Lucie Řezáčová
 Category: players
 Slug: player-f2bb8eba7a2f661b
@@ -11,7 +11,7 @@ season_count: 1
 current_season: chw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
+current_games: 8
 current_goals: 1
 current_assists: 1
 current_points: 2
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 1
 cup_assists: 1
 cup_points: 2
@@ -41,7 +41,7 @@ career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|5|0|0|0|2||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|2|1|1|2|0
+history_rows_csv: chw-26-27|regular-season|Switzerland Women|Kloten-Dietlikon Jets|5|0|0|0|2||chw-26-27|cup|Switzerland Women|Kloten-Dietlikon Jets|3|1|1|2|0
 assists: 0
 games: 5
 goals: 0

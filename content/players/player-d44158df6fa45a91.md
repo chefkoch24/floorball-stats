@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elīna Dīce
 Category: players
 Slug: player-d44158df6fa45a91
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 13
-rank: 5
+rank: 6
 season: lvw-26-27

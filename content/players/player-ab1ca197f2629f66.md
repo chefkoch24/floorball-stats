@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Elīna Ulme
 Category: players
 Slug: player-ab1ca197f2629f66

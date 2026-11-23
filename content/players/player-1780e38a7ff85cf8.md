@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jonas Stettler
 Category: players
 Slug: player-1780e38a7ff85cf8
@@ -11,7 +11,7 @@ season_count: 2
 current_season: ch-26-27
 current_season_is_tournament: no
 previous_season: ch-25-26
-current_games: 12
+current_games: 13
 current_goals: 1
 current_assists: 3
 current_points: 4
@@ -26,7 +26,7 @@ playoff_goals: 0
 playoff_assists: 0
 playoff_points: 0
 playoff_pim: 0
-cup_games: 2
+cup_games: 3
 cup_goals: 0
 cup_assists: 0
 cup_points: 0
@@ -41,7 +41,7 @@ career_goals: 1
 career_assists: 3
 career_points: 4
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|10|1|3|4|0||ch-26-27|cup|Switzerland|Zug United|2|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|22|0|0|0|2
+history_rows_csv: ch-26-27|regular-season|Switzerland|Zug United|10|1|3|4|0||ch-26-27|cup|Switzerland|Zug United|3|0|0|0|0||ch-25-26|playoffs|Switzerland|Zug United|9|0|0|0|0||ch-25-26|regular-season|Switzerland|Zug United|22|0|0|0|2
 assists: 3
 games: 10
 goals: 1

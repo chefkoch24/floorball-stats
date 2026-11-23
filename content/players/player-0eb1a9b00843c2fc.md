@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Barbora Vorbsová
 Category: players
 Slug: player-0eb1a9b00843c2fc

@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Amanda Carlsson
 Category: players
 Slug: player-6e24dc9c921babc4

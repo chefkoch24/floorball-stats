@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Timo Rother
 Category: players
 Slug: player-d1b8ef6f275718d0
@@ -11,16 +11,16 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 5
-current_goals: 3
+current_games: 6
+current_goals: 7
 current_assists: 3
-current_points: 6
-current_pim: 4
-regular_games: 4
-regular_goals: 2
+current_points: 10
+current_pim: 6
+regular_games: 5
+regular_goals: 6
 regular_assists: 3
-regular_points: 5
-regular_pim: 4
+regular_points: 9
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 10
 previous_points: 19
 previous_pim: 14
-career_games: 17
-career_goals: 11
+career_games: 18
+career_goals: 15
 career_assists: 13
-career_points: 24
-career_pim: 18
-history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|4|2|3|5|4||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|13|9|10|19|14
+career_points: 28
+career_pim: 20
+history_rows_csv: 26-27|regular-season|Germany|Blau-Weiß 96 Schenefeld|5|6|3|9|6||26-27|cup|Germany|Blau-Weiß 96 Schenefeld|1|1|0|1|0||25-26|regular-season|Germany|Blau-Weiß 96 Schenefeld|13|9|10|19|14
 assists: 3
-games: 4
-goals: 2
-penalties: 2
+games: 5
+goals: 6
+penalties: 3
 phase: regular-season
-pim: 4
-points: 5
-rank: 95
+pim: 6
+points: 9
+rank: 52
 season: 26-27

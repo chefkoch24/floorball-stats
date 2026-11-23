@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Jere Hiironen
 Category: players
 Slug: player-219aabedfe02549b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 195
+rank: 196
 season: 26-27

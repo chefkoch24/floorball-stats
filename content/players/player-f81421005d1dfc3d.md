@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Magnus-Ernst Scholz
 Category: players
 Slug: player-f81421005d1dfc3d
@@ -11,15 +11,15 @@ season_count: 2
 current_season: 26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 11
+current_games: 12
 current_goals: 5
-current_assists: 3
-current_points: 8
+current_assists: 4
+current_points: 9
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 5
-regular_assists: 2
-regular_points: 7
+regular_assists: 3
+regular_points: 8
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 5
 previous_points: 19
 previous_pim: 2
-career_games: 31
+career_games: 32
 career_goals: 19
-career_assists: 7
-career_points: 26
+career_assists: 8
+career_points: 27
 career_pim: 2
-history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|10|5|2|7|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|1|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|1|0|1|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|13|5|18|2
-assists: 2
-games: 10
+history_rows_csv: 26-27|regular-season|Germany|Floor Fighters Chemnitz|11|5|3|8|0||26-27|cup|Germany|Floor Fighters Chemnitz|1|0|1|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|1|0|1|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|18|13|5|18|2
+assists: 3
+games: 11
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 7
-rank: 61
+points: 8
+rank: 59
 season: 26-27

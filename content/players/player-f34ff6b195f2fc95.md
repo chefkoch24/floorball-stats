@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Noël Greber
 Category: players
 Slug: player-f34ff6b195f2fc95

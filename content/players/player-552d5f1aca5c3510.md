@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-23
 Title: Everts Miezis
 Category: players
 Slug: player-552d5f1aca5c3510
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 113
+rank: 115
 season: lv-26-27
