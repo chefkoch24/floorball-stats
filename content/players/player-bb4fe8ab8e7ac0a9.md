@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jakub Šimák
 Category: players
 Slug: player-bb4fe8ab8e7ac0a9
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 13
+current_games: 14
 current_goals: 0
-current_assists: 3
-current_points: 3
+current_assists: 4
+current_points: 4
 current_pim: 2
-regular_games: 12
+regular_games: 13
 regular_goals: 0
-regular_assists: 0
-regular_points: 0
+regular_assists: 1
+regular_points: 1
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 1
 previous_assists: 0
 previous_points: 1
 previous_pim: 2
-career_games: 44
+career_games: 45
 career_goals: 1
-career_assists: 0
-career_points: 1
+career_assists: 1
+career_points: 2
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|12|0|0|0|2||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|0|3|3|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|26|1|0|1|2
-assists: 0
-games: 12
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|13|0|1|1|2||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|0|3|3|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|26|1|0|1|2
+assists: 1
+games: 13
 goals: 0
 penalties: 1
 phase: regular-season
 pim: 2
-points: 0
-rank: 285
+points: 1
+rank: 241
 season: cz-26-27

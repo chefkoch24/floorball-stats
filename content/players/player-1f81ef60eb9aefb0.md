@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jan Kratochvil
 Category: players
 Slug: player-1f81ef60eb9aefb0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 196
+rank: 206
 season: cz-26-27

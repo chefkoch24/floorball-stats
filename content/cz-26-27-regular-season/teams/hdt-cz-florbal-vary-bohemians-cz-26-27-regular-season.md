@@ -22,7 +22,7 @@ close_game_points_share: 66.67
 close_game_win: 1
 close_games: 2
 draws: 0
-equalizer_goals: 5
+equalizer_goals: 6
 equalizer_goals_against: 12
 first_goal_of_match: 11
 first_goal_of_match_against: 2
@@ -33,8 +33,8 @@ goal_difference: 37
 goal_difference_first_period: 23
 goal_difference_overtime: 0
 goal_difference_per_game: 2.85
-goal_difference_second_period: 13
-goal_difference_third_period: 1
+goal_difference_second_period: 14
+goal_difference_third_period: 0
 goals: 121
 goals_against: 84
 goals_against_away: 58
@@ -54,9 +54,9 @@ goals_in_penalty_shootout: 1
 goals_in_penalty_shootout_against: 1
 goals_in_powerplay: 19
 goals_in_second_period: 39
-goals_in_second_period_against: 26
+goals_in_second_period_against: 25
 goals_in_third_period: 41
-goals_in_third_period_against: 40
+goals_in_third_period_against: 41
 goals_per_game: 9.31
 home_points: 12
 loss_1: 1
@@ -82,11 +82,11 @@ percent_goals_first_period_against: 20.24
 percent_goals_overtime: 0.0
 percent_goals_overtime_against: 0.0
 percent_goals_second_period: 32.23
-percent_goals_second_period_against: 30.95
+percent_goals_second_period_against: 29.759999999999998
 percent_goals_third_period: 33.879999999999995
-percent_goals_third_period_against: 47.620000000000005
+percent_goals_third_period_against: 48.809999999999995
 points: 30
-points_after_55_min: 22
+points_after_55_min: 24
 points_after_58_min: 24
 points_after_59_min: 27
 points_after_first_period: 31
@@ -110,6 +110,6 @@ powerplay_time_per_goal: 2:11
 rank: 3
 scoring_ratio: 1.44
 take_the_lead_goals: 21
-take_the_lead_goals_against: 7
+take_the_lead_goals_against: 8
 win_1: 2
 wins: 9

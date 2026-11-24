@@ -438,6 +438,7 @@ away_pregame_points_after_first_period: 16
 away_pregame_points_after_first_period_per_game: 2.29
 away_pregame_points_after_second_period: 9
 away_pregame_points_after_third_period: 12
+away_pregame_points_against_1_sc_tempish_vitkovice: 3
 away_pregame_points_against_fat_pipe_florbal_chodov: 3
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 away_pregame_points_against_fbc_intevo_trinec: 3

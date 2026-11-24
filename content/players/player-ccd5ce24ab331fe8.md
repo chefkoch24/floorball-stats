@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Joakim Victor Lund
 Category: players
 Slug: player-ccd5ce24ab331fe8

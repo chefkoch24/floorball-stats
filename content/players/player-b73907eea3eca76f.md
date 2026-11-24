@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Matúš Fiam
 Category: players
 Slug: player-b73907eea3eca76f
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
-current_goals: 8
+current_games: 12
+current_goals: 9
 current_assists: 0
-current_points: 8
+current_points: 9
 current_pim: 0
-regular_games: 11
-regular_goals: 8
+regular_games: 12
+regular_goals: 9
 regular_assists: 0
-regular_points: 8
+regular_points: 9
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 0
-career_games: 24
-career_goals: 11
+career_games: 25
+career_goals: 12
 career_assists: 2
-career_points: 13
+career_points: 14
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|8|0|8|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|2|2|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|4|1|0|1|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|12|9|0|9|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|2|2|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|4|1|0|1|0
 assists: 0
-games: 11
-goals: 8
+games: 12
+goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 8
-rank: 85
+points: 9
+rank: 86
 season: cz-26-27

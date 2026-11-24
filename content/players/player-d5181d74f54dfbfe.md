@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Fabio Flütsch
 Category: players
 Slug: player-d5181d74f54dfbfe
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 167
+rank: 168
 season: ch-26-27

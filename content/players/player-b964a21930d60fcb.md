@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Anna Včelná
 Category: players
 Slug: player-b964a21930d60fcb
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 75
+rank: 83
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Emma Ubaleht
 Category: players
 Slug: player-74f308f7e2df448a

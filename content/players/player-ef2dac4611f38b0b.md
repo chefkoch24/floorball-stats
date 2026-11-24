@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Eva Řeháková
 Category: players
 Slug: player-ef2dac4611f38b0b
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 9
 current_assists: 4
 current_points: 13
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 8
 regular_assists: 2
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 8
 career_assists: 2
 career_points: 10
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|9|8|2|10|2||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|1|2|3|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|10|8|2|10|2||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|1|2|3|0
 assists: 2
-games: 9
+games: 10
 goals: 8
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 20
+rank: 23
 season: czw-26-27

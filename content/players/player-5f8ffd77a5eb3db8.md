@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jan Procházka
 Category: players
 Slug: player-5f8ffd77a5eb3db8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 1
 current_assists: 5
 current_points: 6
 current_pim: 0
-regular_games: 11
+regular_games: 12
 regular_goals: 1
 regular_assists: 5
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 10
 previous_points: 19
 previous_pim: 4
-career_games: 44
+career_games: 45
 career_goals: 10
 career_assists: 15
 career_points: 25
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|1|5|6|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|4|2|6|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|24|5|8|13|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|12|1|5|6|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|4|2|6|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|24|5|8|13|4
 assists: 5
-games: 11
+games: 12
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 121
+rank: 131
 season: cz-26-27

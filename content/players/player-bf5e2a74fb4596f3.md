@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kateřina Kovaříková
 Category: players
 Slug: player-bf5e2a74fb4596f3
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 6
-rank: 61
+rank: 65
 season: czw-26-27

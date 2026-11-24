@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Alice Jirásková
 Category: players
 Slug: player-cede8024f7bbabb1
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 27
+rank: 29
 season: czw-26-27

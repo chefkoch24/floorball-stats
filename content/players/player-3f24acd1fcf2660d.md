@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Barbora Jaskova
 Category: players
 Slug: player-3f24acd1fcf2660d
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 8
+current_games: 9
+current_goals: 10
 current_assists: 4
-current_points: 12
+current_points: 14
 current_pim: 0
-regular_games: 8
-regular_goals: 8
+regular_games: 9
+regular_goals: 10
 regular_assists: 4
-regular_points: 12
+regular_points: 14
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 9
+career_games: 10
+career_goals: 11
 career_assists: 4
-career_points: 13
+career_points: 15
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|8|8|4|12|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|1|0|1|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|9|10|4|14|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|1|0|1|0
 assists: 4
-games: 8
-goals: 8
+games: 9
+goals: 10
 penalties: 0
 phase: regular-season
 pim: 0
-points: 12
-rank: 15
+points: 14
+rank: 9
 season: czw-26-27

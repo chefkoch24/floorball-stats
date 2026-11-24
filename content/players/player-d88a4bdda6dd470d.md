@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Yannic Hüppi
 Category: players
 Slug: player-d88a4bdda6dd470d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 174
+rank: 175
 season: ch-26-27

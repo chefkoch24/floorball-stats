@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Markéta Lenfeldová
 Category: players
 Slug: player-dc9480482fb5d01f
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 4
 current_assists: 5
 current_points: 9
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 4
 regular_assists: 5
 regular_points: 9
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 4
 career_assists: 5
 career_points: 9
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|9|4|5|9|0||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|0|0|0|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|10|4|5|9|0||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|0|0|0|0
 assists: 5
-games: 9
+games: 10
 goals: 4
 penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 32
+rank: 35
 season: czw-26-27

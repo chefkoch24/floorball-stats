@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Nuppu Hästbacka
 Category: players
 Slug: player-d281d3798e0a9bc5

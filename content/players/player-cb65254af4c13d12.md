@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kamila Posoldová
 Category: players
 Slug: player-cb65254af4c13d12
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 14
+current_games: 15
 current_goals: 3
 current_assists: 2
 current_points: 5
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|9|2|1|3|0||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|1|1|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|10|2|1|3|0||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|1|1|2|0
 assists: 1
-games: 9
+games: 10
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 103
+rank: 107
 season: czw-26-27

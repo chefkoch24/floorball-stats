@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Gustavs Silins
 Category: players
 Slug: player-8a3d5c5fbf5e50b8

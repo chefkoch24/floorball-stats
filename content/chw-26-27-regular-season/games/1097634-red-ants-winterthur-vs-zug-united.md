@@ -6,7 +6,7 @@ type: game
 game_id: 1097634
 home_team: Red Ants Winterthur
 away_team: Zug United
-attendance: 0
+attendance: 282
 away_goal_diffs_csv: -1,-2,-2,-1,-2
 away_goal_minutes_csv: 2.97,9.65,14.75,30.08,50.67
 away_major_penalty_minutes_csv: 

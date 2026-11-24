@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Marius Suominen
 Category: players
 Slug: player-04d0ab62e600ed24

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Karolína Nováková
 Category: players
 Slug: player-fdd67bebd73988b6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 177
+rank: 182
 season: czw-26-27

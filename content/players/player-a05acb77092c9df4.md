@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Nico Hoffmann
 Category: players
 Slug: player-a05acb77092c9df4

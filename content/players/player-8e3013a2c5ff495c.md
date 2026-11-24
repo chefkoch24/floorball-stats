@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Markéta Kajzarová
 Category: players
 Slug: player-8e3013a2c5ff495c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 274
+rank: 276
 season: czw-26-27

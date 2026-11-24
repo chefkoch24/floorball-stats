@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Nea Hulkko
 Category: players
 Slug: player-009eaf2a1b46d229

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Ondřej Trčka
 Category: players
 Slug: player-2aeb5887e2cae869
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 4
-regular_games: 8
+regular_games: 9
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 2
 previous_points: 5
 previous_pim: 4
-career_games: 36
+career_games: 37
 career_goals: 4
 career_assists: 3
 career_points: 7
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|8|1|1|2|4||cz-26-27|cup|Czech Republic|Florbal Ústí|2|1|2|3|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|28|3|2|5|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|9|1|1|2|4||cz-26-27|cup|Czech Republic|Florbal Ústí|2|1|2|3|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|28|3|2|5|4
 assists: 1
-games: 8
+games: 9
 goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 203
+rank: 212
 season: cz-26-27

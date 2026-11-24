@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Mikuláš Krbec C
 Category: players
 Slug: player-0ec3a06e79cdd83d
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
+current_games: 15
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 12
+regular_games: 13
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 45
+career_games: 46
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|12|0|0|0|0||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|0|0|0|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|0|0|0|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|23|0|0|0|0
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|13|0|0|0|0||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|0|0|0|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|0|0|0|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|23|0|0|0|0
 assists: 0
-games: 12
+games: 13
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 330
+rank: 336
 season: cz-26-27

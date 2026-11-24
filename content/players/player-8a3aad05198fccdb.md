@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Karita Silde
 Category: players
 Slug: player-8a3aad05198fccdb

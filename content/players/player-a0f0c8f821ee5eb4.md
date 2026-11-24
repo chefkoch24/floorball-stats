@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Nicol Fryčová
 Category: players
 Slug: player-a0f0c8f821ee5eb4
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 9
-rank: 29
+rank: 31
 season: czw-26-27

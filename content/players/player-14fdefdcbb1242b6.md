@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Michel Wocke
 Category: players
 Slug: player-14fdefdcbb1242b6
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 112
+rank: 111
 season: ch-26-27

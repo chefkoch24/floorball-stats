@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Adam Bures
 Category: players
 Slug: player-3e88af175b0aadb4
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 10
-current_goals: 5
+current_games: 11
+current_goals: 6
 current_assists: 3
-current_points: 8
+current_points: 9
 current_pim: 0
-regular_games: 10
-regular_goals: 5
+regular_games: 11
+regular_goals: 6
 regular_assists: 3
-regular_points: 8
+regular_points: 9
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 19
 previous_assists: 8
 previous_points: 27
 previous_pim: 6
-career_games: 46
-career_goals: 25
+career_games: 47
+career_goals: 26
 career_assists: 11
-career_points: 36
+career_points: 37
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|10|5|3|8|0||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|1|1|0|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|2|12|4||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|9|6|15|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|6|3|9|0||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|1|1|0|1|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|10|2|12|4||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|9|6|15|2
 assists: 3
-games: 10
-goals: 5
+games: 11
+goals: 6
 penalties: 0
 phase: regular-season
 pim: 0
-points: 8
-rank: 86
+points: 9
+rank: 88
 season: cz-26-27

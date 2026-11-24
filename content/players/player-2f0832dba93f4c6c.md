@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Radek Kužel
 Category: players
 Slug: player-2f0832dba93f4c6c
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 3
+current_games: 8
+current_goals: 4
 current_assists: 5
-current_points: 8
+current_points: 9
 current_pim: 6
-regular_games: 6
-regular_goals: 3
+regular_games: 7
+regular_goals: 4
 regular_assists: 4
-regular_points: 7
+regular_points: 8
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 14
 previous_assists: 8
 previous_points: 22
 previous_pim: 20
-career_games: 33
-career_goals: 17
+career_games: 34
+career_goals: 18
 career_assists: 12
-career_points: 29
+career_points: 30
 career_pim: 26
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|6|3|4|7|6||cz-26-27|cup|Czech Republic|Florbal Ústí|1|0|1|1|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|27|14|8|22|20
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|7|4|4|8|6||cz-26-27|cup|Czech Republic|Florbal Ústí|1|0|1|1|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|27|14|8|22|20
 assists: 4
-games: 6
-goals: 3
+games: 7
+goals: 4
 penalties: 3
 phase: regular-season
 pim: 6
-points: 7
-rank: 106
+points: 8
+rank: 99
 season: cz-26-27

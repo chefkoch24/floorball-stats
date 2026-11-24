@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Sakari Kataja-Rahko
 Category: players
 Slug: player-d9acaa7a53369e75

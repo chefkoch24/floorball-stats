@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Bára Kováříková
 Category: players
 Slug: player-7aa4c4d67b9e1f2f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 217
+rank: 220
 season: czw-26-27

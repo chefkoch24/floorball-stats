@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Tomáš Chroust
 Category: players
 Slug: player-d8ee4c8afce1568a
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 164
+rank: 168
 season: cz-26-27

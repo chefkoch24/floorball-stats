@@ -446,6 +446,7 @@ away_pregame_points_against_fbs_bohemians: 3
 away_pregame_points_against_fbs_olomouc: 3
 away_pregame_points_against_gms_florbal_chomutov: 3
 away_pregame_points_against_k1_florbal_brno_zidenice: 3
+away_pregame_points_against_prague_tigers_nehvizdy: 3
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 3
 away_pregame_points_per_game: 2.5

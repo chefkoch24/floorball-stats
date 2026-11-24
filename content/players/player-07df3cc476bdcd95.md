@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Ondřej Sidunov
 Category: players
 Slug: player-07df3cc476bdcd95
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 3
 current_assists: 4
 current_points: 7
-current_pim: 0
-regular_games: 11
+current_pim: 2
+regular_games: 12
 regular_goals: 3
 regular_assists: 4
 regular_points: 7
-regular_pim: 0
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 4
 previous_points: 12
 previous_pim: 0
-career_games: 43
+career_games: 44
 career_goals: 11
 career_assists: 8
 career_points: 19
-career_pim: 0
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|11|3|4|7|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|0|4|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|26|4|4|8|0
+career_pim: 2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|12|3|4|7|2||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|4|0|4|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|26|4|4|8|0
 assists: 4
-games: 11
+games: 12
 goals: 3
-penalties: 0
+penalties: 1
 phase: regular-season
-pim: 0
+pim: 2
 points: 7
-rank: 105
+rank: 116
 season: cz-26-27

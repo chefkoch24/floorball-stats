@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jana Kulhavá
 Category: players
 Slug: player-08925cf657a4ef7a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 136
+rank: 142
 season: czw-26-27

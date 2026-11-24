@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Bohumil Piskáček
 Category: players
 Slug: player-c28baa23b12dbb79
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 12
-rank: 57
+rank: 66
 season: cz-26-27

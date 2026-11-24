@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Emīls Kašs
 Category: players
 Slug: player-8a80a787e5f4ade2

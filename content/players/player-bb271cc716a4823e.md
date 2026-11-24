@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Eliška Drbalová
 Category: players
 Slug: player-bb271cc716a4823e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 224
+rank: 227
 season: czw-26-27

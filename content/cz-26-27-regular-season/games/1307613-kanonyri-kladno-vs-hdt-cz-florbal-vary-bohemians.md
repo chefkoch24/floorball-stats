@@ -368,7 +368,7 @@ away_pregame_close_game_points_share: 66.67
 away_pregame_close_game_win: 1
 away_pregame_close_games: 2
 away_pregame_draws: 0
-away_pregame_equalizer_goals: 5
+away_pregame_equalizer_goals: 6
 away_pregame_equalizer_goals_against: 12
 away_pregame_first_goal_of_match: 11
 away_pregame_first_goal_of_match_against: 2
@@ -379,8 +379,8 @@ away_pregame_goal_difference: 37
 away_pregame_goal_difference_first_period: 23
 away_pregame_goal_difference_overtime: 0
 away_pregame_goal_difference_per_game: 2.85
-away_pregame_goal_difference_second_period: 13
-away_pregame_goal_difference_third_period: 1
+away_pregame_goal_difference_second_period: 14
+away_pregame_goal_difference_third_period: 0
 away_pregame_goals: 121
 away_pregame_goals_against: 84
 away_pregame_goals_against_away: 58
@@ -400,9 +400,9 @@ away_pregame_goals_in_penalty_shootout: 1
 away_pregame_goals_in_penalty_shootout_against: 1
 away_pregame_goals_in_powerplay: 19
 away_pregame_goals_in_second_period: 39
-away_pregame_goals_in_second_period_against: 26
+away_pregame_goals_in_second_period_against: 25
 away_pregame_goals_in_third_period: 41
-away_pregame_goals_in_third_period_against: 40
+away_pregame_goals_in_third_period_against: 41
 away_pregame_goals_per_game: 9.31
 away_pregame_home_points: 12
 away_pregame_loss_1: 1
@@ -428,11 +428,11 @@ away_pregame_percent_goals_first_period_against: 20.24
 away_pregame_percent_goals_overtime: 0.0
 away_pregame_percent_goals_overtime_against: 0.0
 away_pregame_percent_goals_second_period: 32.23
-away_pregame_percent_goals_second_period_against: 30.95
+away_pregame_percent_goals_second_period_against: 29.759999999999998
 away_pregame_percent_goals_third_period: 33.879999999999995
-away_pregame_percent_goals_third_period_against: 47.620000000000005
+away_pregame_percent_goals_third_period_against: 48.809999999999995
 away_pregame_points: 30
-away_pregame_points_after_55_min: 22
+away_pregame_points_after_55_min: 24
 away_pregame_points_after_58_min: 24
 away_pregame_points_after_59_min: 27
 away_pregame_points_after_first_period: 31
@@ -467,6 +467,6 @@ away_pregame_powerplay_time: 41:23
 away_pregame_powerplay_time_per_goal: 2:11
 away_pregame_scoring_ratio: 1.44
 away_pregame_take_the_lead_goals: 21
-away_pregame_take_the_lead_goals_against: 7
+away_pregame_take_the_lead_goals_against: 8
 away_pregame_win_1: 2
 away_pregame_wins: 9

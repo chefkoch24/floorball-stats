@@ -251,7 +251,7 @@ home_pregame_close_game_points_share: 66.67
 home_pregame_close_game_win: 1
 home_pregame_close_games: 2
 home_pregame_draws: 0
-home_pregame_equalizer_goals: 5
+home_pregame_equalizer_goals: 6
 home_pregame_equalizer_goals_against: 10
 home_pregame_first_goal_of_match: 9
 home_pregame_first_goal_of_match_against: 2
@@ -262,8 +262,8 @@ home_pregame_goal_difference: 23
 home_pregame_goal_difference_first_period: 18
 home_pregame_goal_difference_overtime: 0
 home_pregame_goal_difference_per_game: 2.09
-home_pregame_goal_difference_second_period: 5
-home_pregame_goal_difference_third_period: 0
+home_pregame_goal_difference_second_period: 6
+home_pregame_goal_difference_third_period: -1
 home_pregame_goals: 97
 home_pregame_goals_against: 74
 home_pregame_goals_against_away: 50
@@ -283,9 +283,9 @@ home_pregame_goals_in_penalty_shootout: 1
 home_pregame_goals_in_penalty_shootout_against: 1
 home_pregame_goals_in_powerplay: 18
 home_pregame_goals_in_second_period: 29
-home_pregame_goals_in_second_period_against: 24
+home_pregame_goals_in_second_period_against: 23
 home_pregame_goals_in_third_period: 34
-home_pregame_goals_in_third_period_against: 34
+home_pregame_goals_in_third_period_against: 35
 home_pregame_goals_per_game: 8.82
 home_pregame_home_points: 9
 home_pregame_loss_1: 1
@@ -311,11 +311,11 @@ home_pregame_percent_goals_first_period_against: 20.27
 home_pregame_percent_goals_overtime: 0.0
 home_pregame_percent_goals_overtime_against: 0.0
 home_pregame_percent_goals_second_period: 29.9
-home_pregame_percent_goals_second_period_against: 32.43
+home_pregame_percent_goals_second_period_against: 31.080000000000002
 home_pregame_percent_goals_third_period: 35.05
-home_pregame_percent_goals_third_period_against: 45.95
+home_pregame_percent_goals_third_period_against: 47.3
 home_pregame_points: 24
-home_pregame_points_after_55_min: 19
+home_pregame_points_after_55_min: 21
 home_pregame_points_after_58_min: 21
 home_pregame_points_after_59_min: 24
 home_pregame_points_after_first_period: 25
@@ -350,7 +350,7 @@ home_pregame_powerplay_time: 38:53
 home_pregame_powerplay_time_per_goal: 2:10
 home_pregame_scoring_ratio: 1.31
 home_pregame_take_the_lead_goals: 17
-home_pregame_take_the_lead_goals_against: 7
+home_pregame_take_the_lead_goals_against: 8
 home_pregame_win_1: 2
 home_pregame_wins: 7
 away_pregame_away_points: 12
@@ -444,6 +444,7 @@ away_pregame_points_after_third_period: 13
 away_pregame_points_against_1_sc_tempish_vitkovice: 0
 away_pregame_points_against_acema_sparta_praha: 2
 away_pregame_points_against_amix_florbal_mb: 0
+away_pregame_points_against_ba_sokoli_pardubice: 1
 away_pregame_points_against_bulldogs_brno: 3
 away_pregame_points_against_fat_pipe_florbal_chodov: 3
 away_pregame_points_against_fbc_clt_ceska_lipa: 3

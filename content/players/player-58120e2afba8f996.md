@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Krister Savonen
 Category: players
 Slug: player-58120e2afba8f996
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 121
+rank: 120
 season: ch-26-27

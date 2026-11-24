@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Josef Sedláček
 Category: players
 Slug: player-c1bed112085f9eaa
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 15
-current_goals: 4
+current_games: 16
+current_goals: 5
 current_assists: 2
-current_points: 6
+current_points: 7
 current_pim: 0
-regular_games: 12
-regular_goals: 2
+regular_games: 13
+regular_goals: 3
 regular_assists: 1
-regular_points: 3
+regular_points: 4
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 5
 previous_points: 8
 previous_pim: 4
-career_games: 41
-career_goals: 5
+career_games: 42
+career_goals: 6
 career_assists: 6
-career_points: 11
+career_points: 12
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|12|2|1|3|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|2|1|3|0||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|26|3|4|7|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|13|3|1|4|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|2|1|3|0||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|0|1|1|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|26|3|4|7|4
 assists: 1
-games: 12
-goals: 2
+games: 13
+goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 171
+points: 4
+rank: 153
 season: cz-26-27

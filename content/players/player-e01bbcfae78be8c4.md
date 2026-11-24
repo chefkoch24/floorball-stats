@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Nikola Skoková
 Category: players
 Slug: player-e01bbcfae78be8c4
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 14
-rank: 11
+rank: 13
 season: czw-26-27

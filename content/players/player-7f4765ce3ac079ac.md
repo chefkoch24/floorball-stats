@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Petra Müllerová
 Category: players
 Slug: player-7f4765ce3ac079ac
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 289
+rank: 290
 season: czw-26-27

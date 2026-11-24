@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Josef Rous
 Category: players
 Slug: player-85cd0241d5c6da1d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 298
+rank: 302
 season: cz-26-27

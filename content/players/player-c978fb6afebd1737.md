@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Leevi Auranen
 Category: players
 Slug: player-c978fb6afebd1737

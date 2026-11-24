@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Massimo Petris
 Category: players
 Slug: player-ab11a8b234149e5f

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Martin Bútora
 Category: players
 Slug: player-d57d497e5ac0856d

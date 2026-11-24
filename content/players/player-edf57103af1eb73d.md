@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kevin Rigogiannis
 Category: players
 Slug: player-edf57103af1eb73d

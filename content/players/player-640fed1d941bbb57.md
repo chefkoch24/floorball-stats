@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Ondřej Zientek
 Category: players
 Slug: player-640fed1d941bbb57
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 342
+rank: 348
 season: cz-26-27

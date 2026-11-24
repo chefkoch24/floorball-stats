@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Matyáš Hartmann
 Category: players
 Slug: player-5ee256ed638d25a7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 319
+rank: 324
 season: cz-26-27

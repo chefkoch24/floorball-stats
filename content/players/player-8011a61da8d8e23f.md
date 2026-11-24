@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Veera Ihamäki
 Category: players
 Slug: player-8011a61da8d8e23f

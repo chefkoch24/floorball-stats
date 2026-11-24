@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Samuli Leppäniemi
 Category: players
 Slug: player-ff4c0be735a18845

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Lara Ulrich
 Category: players
 Slug: player-ada763b53fb2ffeb

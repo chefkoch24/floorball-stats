@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Andrin Hollenstein
 Category: players
 Slug: player-8b48a4c8fc964e6b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 108
+rank: 107
 season: ch-26-27

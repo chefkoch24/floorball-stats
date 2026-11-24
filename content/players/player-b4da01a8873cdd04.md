@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Tadeáš Gryc
 Category: players
 Slug: player-b4da01a8873cdd04
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 364
+rank: 369
 season: cz-26-27

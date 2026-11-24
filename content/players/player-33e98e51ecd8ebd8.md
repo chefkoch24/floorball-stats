@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Markéta Žbánková
 Category: players
 Slug: player-33e98e51ecd8ebd8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 7
-rank: 46
+rank: 53
 season: czw-26-27

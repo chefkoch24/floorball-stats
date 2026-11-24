@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Daniel Štěrba
 Category: players
 Slug: player-a603b94d68e79eb0
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 16
+current_games: 17
 current_goals: 5
-current_assists: 7
-current_points: 12
+current_assists: 9
+current_points: 14
 current_pim: 4
-regular_games: 12
+regular_games: 13
 regular_goals: 2
-regular_assists: 6
-regular_points: 8
+regular_assists: 8
+regular_points: 10
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 8
 previous_points: 18
 previous_pim: 4
-career_games: 40
+career_games: 41
 career_goals: 12
-career_assists: 14
-career_points: 26
+career_assists: 16
+career_points: 28
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|12|2|6|8|4||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|4|3|1|4|0||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|3|2|5|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|25|7|6|13|4
-assists: 6
-games: 12
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|13|2|8|10|4||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|4|3|1|4|0||cz-25-26|playoffs|Czech Republic|FBC 4CLEAN Česká Lípa|3|3|2|5|0||cz-25-26|regular-season|Czech Republic|FBC 4CLEAN Česká Lípa|25|7|6|13|4
+assists: 8
+games: 13
 goals: 2
 penalties: 2
 phase: regular-season
 pim: 4
-points: 8
-rank: 93
+points: 10
+rank: 85
 season: cz-26-27

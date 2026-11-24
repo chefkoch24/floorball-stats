@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Marek Stodola
 Category: players
 Slug: player-846f7be0e6f68a24
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 309
+rank: 313
 season: cz-26-27

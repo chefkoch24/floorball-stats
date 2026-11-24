@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Barbora Fáčková
 Category: players
 Slug: player-8cbeb0ea11ef796f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 152
+rank: 159
 season: czw-26-27

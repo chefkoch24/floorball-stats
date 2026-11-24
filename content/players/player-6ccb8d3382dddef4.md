@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Tomáš Hanák
 Category: players
 Slug: player-6ccb8d3382dddef4
@@ -11,15 +11,15 @@ season_count: 3
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 10
-current_assists: 10
-current_points: 20
+current_assists: 13
+current_points: 23
 current_pim: 6
-regular_games: 11
+regular_games: 12
 regular_goals: 10
-regular_assists: 10
-regular_points: 20
+regular_assists: 13
+regular_points: 23
 regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 28
 previous_assists: 32
 previous_points: 60
 previous_pim: 12
-career_games: 51
+career_games: 52
 career_goals: 44
-career_assists: 45
-career_points: 89
+career_assists: 48
+career_points: 92
 career_pim: 18
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|10|10|20|6||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|7|9|16|6||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|21|23|44|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|3|9|0
-assists: 10
-games: 11
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|12|10|13|23|6||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|7|9|16|6||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|25|21|23|44|6||wfc-2024|tournament|IFF WFC|Czechia|6|6|3|9|0
+assists: 13
+games: 12
 goals: 10
 penalties: 3
 phase: regular-season
 pim: 6
-points: 20
+points: 23
 rank: 15
 season: cz-26-27

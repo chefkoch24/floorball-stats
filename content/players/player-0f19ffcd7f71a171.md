@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Ryan Ulrich
 Category: players
 Slug: player-0f19ffcd7f71a171
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 4
-rank: 106
+rank: 105
 season: ch-26-27

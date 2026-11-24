@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Barbora Vávrová
 Category: players
 Slug: player-ab96c3c8f55cdab8
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 60
+rank: 64
 season: czw-26-27

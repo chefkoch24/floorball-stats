@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jan Sitora
 Category: players
 Slug: player-a3b647bfafa33350
@@ -11,16 +11,16 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 7
 current_assists: 3
 current_points: 10
-current_pim: 4
-regular_games: 11
+current_pim: 6
+regular_games: 12
 regular_goals: 5
 regular_assists: 1
 regular_points: 6
-regular_pim: 4
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 12
 previous_assists: 5
 previous_points: 17
 previous_pim: 8
-career_games: 42
+career_games: 43
 career_goals: 17
 career_assists: 6
 career_points: 23
-career_pim: 12
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|11|5|1|6|4||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|2|2|4|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|2|2|4|2||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|25|10|3|13|6
+career_pim: 14
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|12|5|1|6|6||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|2|2|4|0||cz-25-26|playoffs|Czech Republic|1. SC NATIOS Vítkovice|6|2|2|4|2||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|25|10|3|13|6
 assists: 1
-games: 11
+games: 12
 goals: 5
-penalties: 2
+penalties: 3
 phase: regular-season
-pim: 4
+pim: 6
 points: 6
-rank: 111
+rank: 123
 season: cz-26-27

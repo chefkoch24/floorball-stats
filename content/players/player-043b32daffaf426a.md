@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Karolína Sovadinová
 Category: players
 Slug: player-043b32daffaf426a
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
+current_games: 13
 current_goals: 4
 current_assists: 1
 current_points: 5
 current_pim: 6
-regular_games: 7
+regular_games: 8
 regular_goals: 2
 regular_assists: 1
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 7
+career_games: 8
 career_goals: 2
 career_assists: 1
 career_points: 3
 career_pim: 6
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|7|2|1|3|6||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|2|0|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|8|2|1|3|6||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|2|0|2|0
 assists: 1
-games: 7
+games: 8
 goals: 2
 penalties: 3
 phase: regular-season
 pim: 6
 points: 3
-rank: 105
+rank: 108
 season: czw-26-27

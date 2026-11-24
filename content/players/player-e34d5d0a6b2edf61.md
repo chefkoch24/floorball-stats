@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jakub Vejs
 Category: players
 Slug: player-e34d5d0a6b2edf61
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 219
+rank: 224
 season: cz-26-27

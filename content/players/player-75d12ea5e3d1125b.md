@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Adam Delong
 Category: players
 Slug: player-75d12ea5e3d1125b
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 32
-rank: 2
+rank: 3
 season: cz-26-27

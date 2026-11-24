@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Karel Petrák
 Category: players
 Slug: player-9ced8eb0c77fc40b
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
-current_goals: 18
-current_assists: 8
-current_points: 26
+current_games: 15
+current_goals: 22
+current_assists: 9
+current_points: 31
 current_pim: 0
-regular_games: 11
-regular_goals: 14
-regular_assists: 7
-regular_points: 21
+regular_games: 12
+regular_goals: 18
+regular_assists: 8
+regular_points: 26
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 57
 previous_assists: 15
 previous_points: 72
 previous_pim: 10
-career_games: 46
-career_goals: 71
-career_assists: 22
-career_points: 93
+career_games: 47
+career_goals: 75
+career_assists: 23
+career_points: 98
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|11|14|7|21|0||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|3|4|1|5|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|8|10|1|11|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|27|47|14|61|8
-assists: 7
-games: 11
-goals: 14
+history_rows_csv: cz-26-27|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|12|18|8|26|0||cz-26-27|cup|Czech Republic|HDT.cz Florbal Vary Bohemians|3|4|1|5|0||cz-25-26|playoffs|Czech Republic|HDT.cz Florbal Vary Bohemians|8|10|1|11|2||cz-25-26|regular-season|Czech Republic|HDT.cz Florbal Vary Bohemians|27|47|14|61|8
+assists: 8
+games: 12
+goals: 18
 penalties: 0
 phase: regular-season
 pim: 0
-points: 21
+points: 26
 rank: 12
 season: cz-26-27

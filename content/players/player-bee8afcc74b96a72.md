@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Lukáš Trojáček C
 Category: players
 Slug: player-bee8afcc74b96a72

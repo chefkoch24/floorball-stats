@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Simon Laubscher
 Category: players
 Slug: player-8a97552a2fdffb01
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 115
+rank: 114
 season: ch-26-27

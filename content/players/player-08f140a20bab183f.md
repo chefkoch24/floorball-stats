@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kristers Mucenieks
 Category: players
 Slug: player-08f140a20bab183f

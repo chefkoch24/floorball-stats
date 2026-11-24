@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Tuulia Lahti
 Category: players
 Slug: player-fc0cc7695d48a442

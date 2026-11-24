@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Vincent Kaufmann
 Category: players
 Slug: player-7633dfcac9a2003e

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: David Horký
 Category: players
 Slug: player-ea63f51cf2db9768
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
-current_goals: 3
-current_assists: 6
-current_points: 9
+current_games: 15
+current_goals: 4
+current_assists: 7
+current_points: 11
 current_pim: 2
-regular_games: 12
-regular_goals: 2
-regular_assists: 3
-regular_points: 5
+regular_games: 13
+regular_goals: 3
+regular_assists: 4
+regular_points: 7
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 8
 previous_points: 12
 previous_pim: 2
-career_games: 46
-career_goals: 6
-career_assists: 11
-career_points: 17
+career_games: 47
+career_goals: 7
+career_assists: 12
+career_points: 19
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|12|2|3|5|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|1|3|4|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|8|1|1|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|3|7|10|2
-assists: 3
-games: 12
-goals: 2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|13|3|4|7|2||cz-26-27|cup|Czech Republic|ACEMA Sparta Praha|2|1|3|4|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|8|1|1|2|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|26|3|7|10|2
+assists: 4
+games: 13
+goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
-points: 5
-rank: 135
+points: 7
+rank: 112
 season: cz-26-27

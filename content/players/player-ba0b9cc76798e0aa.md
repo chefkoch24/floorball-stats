@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Matyáš Bachmaier
 Category: players
 Slug: player-ba0b9cc76798e0aa
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 9
-current_goals: 4
+current_games: 10
+current_goals: 7
 current_assists: 7
-current_points: 11
+current_points: 14
 current_pim: 2
-regular_games: 9
-regular_goals: 4
+regular_games: 10
+regular_goals: 7
 regular_assists: 7
-regular_points: 11
+regular_points: 14
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 13
 previous_points: 22
 previous_pim: 2
-career_games: 29
-career_goals: 13
+career_games: 30
+career_goals: 16
 career_assists: 20
-career_points: 33
+career_points: 36
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|4|7|11|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|5|2|5|7|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|15|7|8|15|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|7|7|14|2||cz-25-26|playoffs|Czech Republic|Kanonýři Kladno|5|2|5|7|0||cz-25-26|regular-season|Czech Republic|Kanonýři Kladno|15|7|8|15|2
 assists: 7
-games: 9
-goals: 4
+games: 10
+goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
-points: 11
-rank: 70
+points: 14
+rank: 47
 season: cz-26-27

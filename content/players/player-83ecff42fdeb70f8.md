@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Martin Horn
 Category: players
 Slug: player-83ecff42fdeb70f8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 14
+current_games: 15
 current_goals: 11
 current_assists: 4
 current_points: 15
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 7
 regular_assists: 3
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 39
 previous_assists: 13
 previous_points: 52
 previous_pim: 2
-career_games: 45
+career_games: 46
 career_goals: 46
 career_assists: 16
 career_points: 62
 career_pim: 4
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|11|7|3|10|2||cz-26-27|cup|Czech Republic|FBC Liberec|3|4|1|5|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|34|39|13|52|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC Liberec|12|7|3|10|2||cz-26-27|cup|Czech Republic|FBC Liberec|3|4|1|5|0||cz-25-26|regular-season|Czech Republic|FBC Liberec|34|39|13|52|2
 assists: 3
-games: 11
+games: 12
 goals: 7
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 73
+rank: 77
 season: cz-26-27

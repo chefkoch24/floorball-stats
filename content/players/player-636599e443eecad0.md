@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Maja Helman
 Category: players
 Slug: player-636599e443eecad0
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 9
 current_assists: 8
 current_points: 17
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 9
 regular_assists: 8
 regular_points: 17
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 9
 career_assists: 8
 career_points: 17
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|9|9|8|17|0||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|0|0|0|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|1. SC TEMPISH Vítkovice|10|9|8|17|0||czw-26-27|cup|Czech Republic Women|1. SC TEMPISH Vítkovice|1|0|0|0|0
 assists: 8
-games: 9
+games: 10
 goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 4
+rank: 5
 season: czw-26-27

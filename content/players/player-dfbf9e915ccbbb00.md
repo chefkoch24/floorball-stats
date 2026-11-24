@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kalle Lintala
 Category: players
 Slug: player-dfbf9e915ccbbb00

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jesper Lagemyr
 Category: players
 Slug: player-c4d541e1da7bfd46

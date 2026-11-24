@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Matias Kyykoski
 Category: players
 Slug: player-cff2ee8eb6cd3d42
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: 25-26
-current_games: 15
+current_games: 16
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 0
-regular_games: 12
+regular_games: 13
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 13
 previous_assists: 9
 previous_points: 22
 previous_pim: 8
-career_games: 34
+career_games: 35
 career_goals: 15
 career_assists: 11
 career_points: 26
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|12|2|2|4|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|0|1|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|1|2|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|19|12|7|19|8
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBC ČLT Česká Lípa|13|2|2|4|0||cz-26-27|cup|Czech Republic|FBC ČLT Česká Lípa / FBC Česká Lípa / FBC ČLT Česká Lípa|3|0|1|1|0||25-26|playoffs|Germany|Floor Fighters Chemnitz|3|1|2|3|0||25-26|regular-season|Germany|Floor Fighters Chemnitz|19|12|7|19|8
 assists: 2
-games: 12
+games: 13
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 153
+rank: 158
 season: cz-26-27

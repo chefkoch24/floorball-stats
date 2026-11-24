@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kristýna Dvořáková
 Category: players
 Slug: player-ad1a4bc2f0e2641e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 64
+rank: 68
 season: czw-26-27

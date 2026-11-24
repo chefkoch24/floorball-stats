@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jan Krejča
 Category: players
 Slug: player-05bafa1ce7a8a7e5
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 4
+current_games: 5
 current_goals: 1
-current_assists: 2
-current_points: 3
+current_assists: 4
+current_points: 5
 current_pim: 0
-regular_games: 4
+regular_games: 5
 regular_goals: 1
-regular_assists: 2
-regular_points: 3
+regular_assists: 4
+regular_points: 5
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 17
 previous_assists: 10
 previous_points: 27
 previous_pim: 2
-career_games: 32
+career_games: 33
 career_goals: 18
-career_assists: 12
-career_points: 30
+career_assists: 14
+career_points: 32
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|4|1|2|3|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|2|11|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|18|8|8|16|2
-assists: 2
-games: 4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|ACEMA Sparta Praha|5|1|4|5|0||cz-25-26|playoffs|Czech Republic|ACEMA Sparta Praha|10|9|2|11|0||cz-25-26|regular-season|Czech Republic|ACEMA Sparta Praha|18|8|8|16|2
+assists: 4
+games: 5
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
-points: 3
-rank: 177
+points: 5
+rank: 146
 season: cz-26-27

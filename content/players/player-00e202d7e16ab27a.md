@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Linus Felix
 Category: players
 Slug: player-00e202d7e16ab27a
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 99
+rank: 98
 season: ch-26-27

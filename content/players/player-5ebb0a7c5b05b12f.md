@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Viktor Záborský
 Category: players
 Slug: player-5ebb0a7c5b05b12f

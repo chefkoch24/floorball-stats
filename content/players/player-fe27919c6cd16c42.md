@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Leevi Väänänen
 Category: players
 Slug: player-fe27919c6cd16c42

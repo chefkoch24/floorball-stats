@@ -6,19 +6,19 @@ type: game
 game_id: 1308193
 home_team: GC System Bulldogs Brno
 away_team: 1. SC TEMPISH Vítkovice
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 165.0
+away_goal_diffs_csv: -1
+away_goal_minutes_csv: 20.67
 away_major_penalty_minutes_csv: 
-away_penalty_ends_csv: 
-away_penalty_goals_csv: 
-away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+away_penalty_ends_csv: 50.2
+away_penalty_goals_csv: 1
+away_penalty_minutes_csv: 48.2
+game_events_b64: W3sibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMjA6NDAiLCJwZXJpb2QiOjIsInRlYW0iOiIxLiBTQyBURU1QSVNIIFbDrXRrb3ZpY2UiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMDoxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6Iktsw6FyYSBIb3LEjWnEjWtvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLWQyNTE1ZTg1ZWVmYWE0YTUiLCJhc3Npc3QiOiJKZXNzaWNhIEthYmVsa292w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTA1NjVkNzcwNmFkOTJiMTkiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyNjozNSIsInBlcmlvZCI6MiwidGVhbSI6IkdDIFN5c3RlbSBCdWxsZG9ncyBCcm5vIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjE6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJBbm5hIEJydWNow6HEjWtvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLWIyMGFiYjJmYjc3MjY4YTYiLCJhc3Npc3QiOiJCYXJib3JhIEphbm/FoW92w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTM2NTk5NjMwYjY3NDdlOWYiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiIyODozOCIsInBlcmlvZCI6MiwidGVhbSI6IkdDIFN5c3RlbSBCdWxsZG9ncyBCcm5vIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjI6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJCYXJib3JhIEphxaFrb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci0zZjI0YWNkMWZjZjI2NjBkIiwiYXNzaXN0IjoiQW5uYSBCcnVjaMOhxI1rb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItYjIwYWJiMmZiNzcyNjhhNiIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjQwOjQzIiwicGVyaW9kIjozLCJ0ZWFtIjoiR0MgU3lzdGVtIEJ1bGxkb2dzIEJybm8iLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMzoxIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkJhcmJvcmEgSmHFoWtvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLTNmMjRhY2QxZmNmMjY2MGQiLCJhc3Npc3QiOiJCYXJib3JhIEphbm/FoW92w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTM2NTk5NjMwYjY3NDdlOWYiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI0ODoxMiIsInBlcmlvZCI6MywidGVhbSI6IjEuIFNDIFRFTVBJU0ggVsOtdGtvdmljZSIsInNpZGUiOiJhd2F5Iiwic2NvcmUiOiIwOjAiLCJldmVudF9raW5kIjoicGVuYWx0eSIsInRpdGxlIjoiMiBtaW4gcGVuYWx0eSIsImFzc2lzdCI6IkVsacWha2EgUExBTktPVsOBIiwiYXNzaXN0X3VpZCI6InBsYXllci1mZTBlZjg2M2EwNjUzMTdjIiwidGFnIjoicGVuYWx0eV8yIn1d
+game_events_count: 6
+game_state: played
+game_status: None
+home_goal_diffs_csv: 0,1,2
+home_goal_minutes_csv: 26.58,28.63,40.72
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 100.0
 pregame_h2h_special_away_pp_eff: 75.0
 pregame_h2h_special_home_pk_eff: 100.0
 pregame_h2h_special_home_pp_eff: 40.0
-result_string: None
-start_time: 13:30
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
+result_string: 3:1
+start_time: 20:40
+timeline_away_goals_csv: 0,1,1,1,1
+timeline_diffs_csv: 0,-1,0,1,2
+timeline_home_goals_csv: 0,0,1,2,3
 timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+timeline_minutes_csv: 0.0,20.67,26.58,28.63,40.72
 venue: Kategorie II SH SportPoint Brno
 venue_address: Střední 595/26 Brno
 home_away_points: 0
@@ -90,22 +90,22 @@ home_boxplay_seconds: 0
 home_boxplay_third_period: 0
 home_close_game_loss: 0
 home_close_game_overtime: 0
-home_close_game_win: 0
-home_draws: 1
-home_equalizer_goals: 0
+home_close_game_win: 1
+home_draws: 0
+home_equalizer_goals: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: 2
+home_goals: 3
+home_goals_against: 1
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 1
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 3
 home_goals_in_boxplay: 0
 home_goals_in_first_period: 0
 home_goals_in_first_period_against: 0
@@ -114,11 +114,11 @@ home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
 home_goals_in_penalty_shootout_against: 0
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_second_period: 2
+home_goals_in_second_period_against: 1
+home_goals_in_third_period: 1
 home_goals_in_third_period_against: 0
-home_home_points: 1
+home_home_points: 3
 home_loss_1: 0
 home_losses: 0
 home_over_time_losses: 0
@@ -136,51 +136,52 @@ home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
 home_penalty_shot_goals_against: 0
 home_penalty_third_period: 0
-home_points: 1
-home_points_after_55_min: 0
-home_points_after_58_min: 0
-home_points_after_59_min: 0
+home_points: 3
+home_points_after_55_min: 3
+home_points_after_58_min: 3
+home_points_after_59_min: 3
 home_points_after_first_period: 0
-home_points_after_second_period: 0
+home_points_after_second_period: 3
 home_points_after_third_period: 0
-home_points_max_difference_2: 0
+home_points_against_1_sc_tempish_vitkovice: 3
+home_points_max_difference_2: 3
 home_points_more_2_difference: 0
-home_powerplay: 0
-home_powerplay_efficiency: n.a.
+home_powerplay: 1
+home_powerplay_efficiency: 0.0
 home_powerplay_first_period: 0
 home_powerplay_overtime: 0
 home_powerplay_second_period: 0
 home_powerplay_seconds: 0
-home_powerplay_third_period: 0
-home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_powerplay_third_period: 1
+home_take_the_lead_goals: 1
+home_take_the_lead_goals_against: 1
 home_win_1: 0
-home_wins: 0
-away_away_points: 1
-away_boxplay: 0
-away_boxplay_efficiency: n.a.
+home_wins: 1
+away_away_points: 0
+away_boxplay: 1
+away_boxplay_efficiency: 100.0
 away_boxplay_first_period: 0
 away_boxplay_overtime: 0
 away_boxplay_second_period: 0
 away_boxplay_seconds: 0
-away_boxplay_third_period: 0
-away_close_game_loss: 0
+away_boxplay_third_period: 1
+away_close_game_loss: 1
 away_close_game_overtime: 0
 away_close_game_win: 0
-away_draws: 1
+away_draws: 0
 away_equalizer_goals: 0
-away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_equalizer_goals_against: 1
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: -2
+away_goals: 1
+away_goals_against: 3
+away_goals_against_away: 3
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 1
 away_goals_home: 0
 away_goals_in_boxplay: 0
 away_goals_in_first_period: 0
@@ -190,18 +191,18 @@ away_goals_in_overtime_against: 0
 away_goals_in_penalty_shootout: 0
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
+away_goals_in_second_period: 1
+away_goals_in_second_period_against: 2
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 1
 away_home_points: 0
 away_loss_1: 0
-away_losses: 0
+away_losses: 1
 away_over_time_losses: 0
 away_over_time_wins: 0
-away_penalties: 0
+away_penalties: 1
 away_penalty_10: 0
-away_penalty_2: 0
+away_penalty_2: 1
 away_penalty_2and2: 0
 away_penalty_first_period: 0
 away_penalty_ms: 0
@@ -211,14 +212,15 @@ away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
 away_penalty_shot_goals: 0
 away_penalty_shot_goals_against: 0
-away_penalty_third_period: 0
-away_points: 1
+away_penalty_third_period: 1
+away_points: 0
 away_points_after_55_min: 0
 away_points_after_58_min: 0
 away_points_after_59_min: 0
 away_points_after_first_period: 0
 away_points_after_second_period: 0
 away_points_after_third_period: 0
+away_points_against_gc_system_bulldogs_brno: 0
 away_points_max_difference_2: 0
 away_points_more_2_difference: 0
 away_powerplay: 0
@@ -228,8 +230,8 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
-away_take_the_lead_goals_against: 0
+away_take_the_lead_goals: 1
+away_take_the_lead_goals_against: 1
 away_win_1: 0
 away_wins: 0
 home_pregame_away_points: 15
@@ -320,6 +322,7 @@ home_pregame_points_after_first_period: 19
 home_pregame_points_after_first_period_per_game: 2.38
 home_pregame_points_after_second_period: 12
 home_pregame_points_after_third_period: 12
+home_pregame_points_against_1_sc_tempish_vitkovice: 3
 home_pregame_points_against_fat_pipe_florbal_chodov: 3
 home_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 3
 home_pregame_points_against_fbc_intevo_trinec: 3
@@ -439,6 +442,7 @@ away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 1
 away_pregame_points_against_fbc_intevo_trinec: 3
 away_pregame_points_against_fbs_bohemians: 3
 away_pregame_points_against_fbs_olomouc: 3
+away_pregame_points_against_gc_system_bulldogs_brno: 0
 away_pregame_points_against_gms_florbal_chomutov: 3
 away_pregame_points_against_k1_florbal_brno_zidenice: 3
 away_pregame_points_against_prague_tigers_nehvizdy: 3

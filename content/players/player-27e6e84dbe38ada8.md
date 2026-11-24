@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Jan Buzík
 Category: players
 Slug: player-27e6e84dbe38ada8
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 13
+current_games: 14
 current_goals: 0
 current_assists: 0
 current_points: 0
 current_pim: 0
-regular_games: 12
+regular_games: 13
 regular_goals: 0
 regular_assists: 0
 regular_points: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 43
+career_games: 44
 career_goals: 0
 career_assists: 0
 career_points: 0
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|12|0|0|0|0||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|25|0|0|0|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|13|0|0|0|0||cz-26-27|cup|Czech Republic|BA SOKOLI Pardubice|1|0|0|0|0||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|0|0|0||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|25|0|0|0|2
 assists: 0
-games: 12
+games: 13
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 289
+rank: 292
 season: cz-26-27

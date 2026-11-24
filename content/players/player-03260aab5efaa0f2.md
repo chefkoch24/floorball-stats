@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Filip Neklan
 Category: players
 Slug: player-03260aab5efaa0f2
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 12
+current_games: 13
 current_goals: 1
 current_assists: 5
 current_points: 6
 current_pim: 4
-regular_games: 12
+regular_games: 13
 regular_goals: 1
 regular_assists: 5
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 3
 previous_assists: 9
 previous_points: 12
 previous_pim: 4
-career_games: 41
+career_games: 42
 career_goals: 4
 career_assists: 14
 career_points: 18
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|12|1|5|6|4||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|4|4|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|23|3|5|8|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|BA SOKOLI Pardubice|13|1|5|6|4||cz-25-26|playoffs|Czech Republic|BA SOKOLI Pardubice|6|0|4|4|2||cz-25-26|regular-season|Czech Republic|BA SOKOLI Pardubice|23|3|5|8|2
 assists: 5
-games: 12
+games: 13
 goals: 1
 penalties: 2
 phase: regular-season
 pim: 4
 points: 6
-rank: 120
+rank: 130
 season: cz-26-27

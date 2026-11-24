@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Rostislav Gattnar
 Category: players
 Slug: player-ae02c97bf9ef7235
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 7
-current_goals: 1
+current_games: 8
+current_goals: 2
 current_assists: 2
-current_points: 3
+current_points: 4
 current_pim: 2
-regular_games: 6
-regular_goals: 1
+regular_games: 7
+regular_goals: 2
 regular_assists: 0
-regular_points: 1
+regular_points: 2
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 8
 previous_assists: 1
 previous_points: 9
 previous_pim: 6
-career_games: 26
-career_goals: 9
+career_games: 27
+career_goals: 10
 career_assists: 1
-career_points: 10
+career_points: 11
 career_pim: 8
-history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|6|1|0|1|2||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|2|2|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|20|8|1|9|6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|1. SC TEMPISH Vítkovice|7|2|0|2|2||cz-26-27|cup|Czech Republic|1. SC TEMPISH Vítkovice|1|0|2|2|0||cz-25-26|regular-season|Czech Republic|1. SC NATIOS Vítkovice|20|8|1|9|6
 assists: 0
-games: 6
-goals: 1
+games: 7
+goals: 2
 penalties: 1
 phase: regular-season
 pim: 2
-points: 1
-rank: 229
+points: 2
+rank: 196
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Adam Klusoň
 Category: players
 Slug: player-620896f98bfb1de1
@@ -11,15 +11,15 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
-current_goals: 6
-current_assists: 9
-current_points: 15
+current_games: 12
+current_goals: 7
+current_assists: 11
+current_points: 18
 current_pim: 4
-regular_games: 11
-regular_goals: 6
-regular_assists: 9
-regular_points: 15
+regular_games: 12
+regular_goals: 7
+regular_assists: 11
+regular_points: 18
 regular_pim: 4
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 10
 previous_assists: 14
 previous_points: 24
 previous_pim: 12
-career_games: 36
-career_goals: 16
-career_assists: 23
-career_points: 39
+career_games: 37
+career_goals: 17
+career_assists: 25
+career_points: 42
 career_pim: 16
-history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|11|6|9|15|4||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|25|10|14|24|12
-assists: 9
-games: 11
-goals: 6
+history_rows_csv: cz-26-27|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|12|7|11|18|4||cz-25-26|regular-season|Czech Republic|FBŠ Hummel Hattrick Brno|25|10|14|24|12
+assists: 11
+games: 12
+goals: 7
 penalties: 2
 phase: regular-season
 pim: 4
-points: 15
-rank: 31
+points: 18
+rank: 26
 season: cz-26-27

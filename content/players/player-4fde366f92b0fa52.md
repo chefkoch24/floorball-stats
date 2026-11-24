@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Samuli Markus Kolho
 Category: players
 Slug: player-4fde366f92b0fa52
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 16
+current_games: 17
 current_goals: 10
 current_assists: 6
 current_points: 16
 current_pim: 2
-regular_games: 11
+regular_games: 12
 regular_goals: 6
 regular_assists: 4
 regular_points: 10
@@ -36,18 +36,18 @@ previous_goals: 9
 previous_assists: 8
 previous_points: 17
 previous_pim: 4
-career_games: 40
+career_games: 41
 career_goals: 15
 career_assists: 12
 career_points: 27
 career_pim: 6
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|11|6|4|10|2||cz-26-27|cup|Czech Republic|Florbal Ústí|5|4|2|6|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|29|9|8|17|4
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Florbal Ústí|12|6|4|10|2||cz-26-27|cup|Czech Republic|Florbal Ústí|5|4|2|6|0||cz-25-26|regular-season|Czech Republic|Florbal Ústí|29|9|8|17|4
 assists: 4
-games: 11
+games: 12
 goals: 6
 penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 75
+rank: 78
 season: cz-26-27

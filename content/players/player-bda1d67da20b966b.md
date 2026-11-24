@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Petr Majer
 Category: players
 Slug: player-bda1d67da20b966b
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 5
 current_assists: 13
 current_points: 18
 current_pim: 6
-regular_games: 11
+regular_games: 12
 regular_goals: 5
 regular_assists: 13
 regular_points: 18
@@ -36,18 +36,18 @@ previous_goals: 31
 previous_assists: 19
 previous_points: 50
 previous_pim: 4
-career_games: 49
+career_games: 50
 career_goals: 37
 career_assists: 35
 career_points: 72
 career_pim: 10
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|11|5|13|18|6||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|3|1|3|4|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|5|2|7|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|26|17|43|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Tatran Střešovice|12|5|13|18|6||cc-26-27|tournament|IFF Champions Cup|Tatran Střešovice|3|1|3|4|0||cz-25-26|playoffs|Czech Republic|ESA logistika Tatran Střešovice|9|5|2|7|2||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|26|26|17|43|2
 assists: 13
-games: 11
+games: 12
 goals: 5
 penalties: 3
 phase: regular-season
 pim: 6
 points: 18
-rank: 20
+rank: 27
 season: cz-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Almiro Stüdeli
 Category: players
 Slug: player-e72c3b5f8d7c67b0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 192
+rank: 193
 season: ch-26-27

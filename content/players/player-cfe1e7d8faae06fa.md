@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Martin Kisugite
 Category: players
 Slug: player-cfe1e7d8faae06fa
@@ -11,12 +11,12 @@ season_count: 2
 current_season: cz-26-27
 current_season_is_tournament: no
 previous_season: cz-25-26
-current_games: 11
+current_games: 12
 current_goals: 0
 current_assists: 7
 current_points: 7
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 0
 regular_assists: 3
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 3
 previous_points: 3
 previous_pim: 2
-career_games: 15
+career_games: 16
 career_goals: 0
 career_assists: 6
 career_points: 6
 career_pim: 2
-history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|9|0|3|3|0||cz-26-27|cup|Czech Republic|Kanonýři Kladno|2|0|4|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|6|0|3|3|2
+history_rows_csv: cz-26-27|regular-season|Czech Republic|Kanonýři Kladno|10|0|3|3|0||cz-26-27|cup|Czech Republic|Kanonýři Kladno|2|0|4|4|0||cz-25-26|regular-season|Czech Republic|ESA logistika Tatran Střešovice|6|0|3|3|2
 assists: 3
-games: 9
+games: 10
 goals: 0
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 183
+rank: 190
 season: cz-26-27

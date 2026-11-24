@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Kateřina Stoklásková
 Category: players
 Slug: player-b507403b68adeeab
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 14
+current_games: 15
 current_goals: 5
 current_assists: 2
 current_points: 7
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 3
 regular_assists: 2
 regular_points: 5
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 3
 career_assists: 2
 career_points: 5
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|9|3|2|5|2||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|2|0|2|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FBC Intevo Třinec|10|3|2|5|2||czw-26-27|cup|Czech Republic Women|FBC Intevo Třinec|5|2|0|2|2
 assists: 2
-games: 9
+games: 10
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 70
+rank: 75
 season: czw-26-27

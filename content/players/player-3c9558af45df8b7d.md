@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Oliver Wiedmer
 Category: players
 Slug: player-3c9558af45df8b7d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 6
-rank: 75
+rank: 74
 season: ch-26-27

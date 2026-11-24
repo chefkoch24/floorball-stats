@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Samuel Olexa
 Category: players
 Slug: player-3c81e54ffaaa8655

@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Sofianna Tuominen
 Category: players
 Slug: player-a59e2703d99ddafc
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 73
+rank: 74
 season: fiw-26-27

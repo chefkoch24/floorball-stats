@@ -107,7 +107,7 @@ powerplay_seconds: 631
 powerplay_third_period: 4
 powerplay_time: 10:31
 powerplay_time_per_goal: 2:06
-rank: 6
+rank: 7
 scoring_ratio: 0.9
 take_the_lead_goals: 13
 take_the_lead_goals_against: 11

@@ -328,6 +328,7 @@ home_pregame_points_against_amix_florbal_mb: 0
 home_pregame_points_against_ba_sokoli_pardubice: 0
 home_pregame_points_against_bulldogs_brno: 0
 home_pregame_points_against_fat_pipe_florbal_chodov: 1
+home_pregame_points_against_fbc_clt_ceska_lipa: 0
 home_pregame_points_against_fbc_liberec: 0
 home_pregame_points_against_fbs_hummel_hattrick_brno: 0
 home_pregame_points_against_florbal_usti: 3

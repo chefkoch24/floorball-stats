@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Radim Piškula
 Category: players
 Slug: player-39171dd5d9ffda86
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 357
+rank: 362
 season: cz-26-27

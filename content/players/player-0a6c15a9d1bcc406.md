@@ -1,4 +1,4 @@
-Date: 2026-11-23
+Date: 2026-11-24
 Title: Pavol Jonek
 Category: players
 Slug: player-0a6c15a9d1bcc406
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 346
+rank: 351
 season: cz-26-27
