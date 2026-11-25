@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Klára Horčičková
 Category: players
 Slug: player-d2515e85eefaa4a5

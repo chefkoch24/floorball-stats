@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: John Callenryd De la Pena
 Category: players
 Slug: player-7e6d03362a894cae

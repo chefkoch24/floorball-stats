@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Nejc Peklaj
 Category: players
 Slug: player-538bf1aa9838cdf9

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Aldis Banders
 Category: players
 Slug: player-d3ae9a303532cba9
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 9
-rank: 41
+rank: 43
 season: lv-26-27

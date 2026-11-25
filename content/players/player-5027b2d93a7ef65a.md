@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tobiáš Božek
 Category: players
 Slug: player-5027b2d93a7ef65a

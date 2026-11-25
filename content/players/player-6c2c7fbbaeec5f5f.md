@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Noora Lapinkoski
 Category: players
 Slug: player-6c2c7fbbaeec5f5f

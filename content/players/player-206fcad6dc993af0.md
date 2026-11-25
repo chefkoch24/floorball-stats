@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Pārstāvis Keita Jākobsone
 Category: players
 Slug: player-206fcad6dc993af0

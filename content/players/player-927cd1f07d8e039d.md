@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Krišjānis Tiltiņš
 Category: players
 Slug: player-927cd1f07d8e039d
@@ -11,15 +11,15 @@ season_count: 3
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 8
-current_goals: 14
-current_assists: 8
-current_points: 22
+current_games: 9
+current_goals: 17
+current_assists: 10
+current_points: 27
 current_pim: 2
-regular_games: 8
-regular_goals: 14
-regular_assists: 8
-regular_points: 22
+regular_games: 9
+regular_goals: 17
+regular_assists: 10
+regular_points: 27
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 33
 previous_assists: 32
 previous_points: 65
 previous_pim: 22
-career_games: 47
-career_goals: 48
-career_assists: 43
-career_points: 91
+career_games: 48
+career_goals: 51
+career_assists: 45
+career_points: 96
 career_pim: 26
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|8|14|8|22|2||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|15|7|22|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|18|25|43|20||wfc-2024|tournament|IFF WFC|Latvia|7|1|3|4|2
-assists: 8
-games: 8
-goals: 14
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|9|17|10|27|2||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|15|7|22|2||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|22|18|25|43|20||wfc-2024|tournament|IFF WFC|Latvia|7|1|3|4|2
+assists: 10
+games: 9
+goals: 17
 penalties: 1
 phase: regular-season
 pim: 2
-points: 22
-rank: 3
+points: 27
+rank: 1
 season: lv-26-27

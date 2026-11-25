@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Jona Kuhle
 Category: players
 Slug: player-e2cb18cde9c3a888

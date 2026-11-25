@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Yannik Zölzer
 Category: players
 Slug: player-45c7fef7049750fc

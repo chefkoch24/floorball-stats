@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Neal Rychener
 Category: players
 Slug: player-aa568e548ee31d72

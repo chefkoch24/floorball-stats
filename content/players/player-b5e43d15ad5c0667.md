@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tomáš Matula
 Category: players
 Slug: player-b5e43d15ad5c0667

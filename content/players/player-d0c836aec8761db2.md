@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Edijs Šenbergs
 Category: players
 Slug: player-d0c836aec8761db2
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
-current_goals: 0
-current_assists: 3
-current_points: 3
+current_games: 13
+current_goals: 1
+current_assists: 5
+current_points: 6
 current_pim: 2
-regular_games: 12
-regular_goals: 0
-regular_assists: 3
-regular_points: 3
+regular_games: 13
+regular_goals: 1
+regular_assists: 5
+regular_points: 6
 regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 20
 previous_assists: 17
 previous_points: 37
 previous_pim: 0
-career_games: 47
-career_goals: 20
-career_assists: 20
-career_points: 40
+career_games: 48
+career_goals: 21
+career_assists: 22
+career_points: 43
 career_pim: 2
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|12|0|3|3|2||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|6|4|10|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|25|14|13|27|0
-assists: 3
-games: 12
-goals: 0
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|13|1|5|6|2||lv-25-26|playoffs|Latvia|Masters Ulbroka/LU|10|6|4|10|0||lv-25-26|regular-season|Latvia|Masters Ulbroka/LU|25|14|13|27|0
+assists: 5
+games: 13
+goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
-points: 3
-rank: 112
+points: 6
+rank: 65
 season: lv-26-27

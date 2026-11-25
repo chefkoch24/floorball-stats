@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Kasper Lundén
 Category: players
 Slug: player-731e1065e3d1eb3c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 215
+rank: 216
 season: fi-26-27

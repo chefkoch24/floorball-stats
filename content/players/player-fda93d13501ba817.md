@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Michal Blažek
 Category: players
 Slug: player-fda93d13501ba817

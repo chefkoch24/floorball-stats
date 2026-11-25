@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Sophie Baruth
 Category: players
 Slug: player-e6ea59a45ec2ccde

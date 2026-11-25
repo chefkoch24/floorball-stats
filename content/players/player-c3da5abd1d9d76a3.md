@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Toms Peniķis
 Category: players
 Slug: player-c3da5abd1d9d76a3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 121
+rank: 124
 season: lv-26-27

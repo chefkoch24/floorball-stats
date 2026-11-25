@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Andreas Egegård
 Category: players
 Slug: player-b725ab2eb700c6f0

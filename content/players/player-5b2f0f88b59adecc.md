@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Emilia Mukkala
 Category: players
 Slug: player-5b2f0f88b59adecc

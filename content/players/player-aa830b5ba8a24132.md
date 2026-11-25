@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Filip Mazáč
 Category: players
 Slug: player-aa830b5ba8a24132

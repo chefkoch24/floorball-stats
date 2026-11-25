@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Gregor Denk
 Category: players
 Slug: player-1cb12614c8d185fe

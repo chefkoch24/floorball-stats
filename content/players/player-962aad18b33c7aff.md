@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Teemu Karppanen
 Category: players
 Slug: player-962aad18b33c7aff

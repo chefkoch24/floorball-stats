@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Fizioterapeits Elīza Astra Vectirāne
 Category: players
 Slug: player-7fe51328c2631fad
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 176
+rank: 177
 season: lv-26-27

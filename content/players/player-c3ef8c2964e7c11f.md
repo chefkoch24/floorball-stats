@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Andrin Jäggi
 Category: players
 Slug: player-c3ef8c2964e7c11f

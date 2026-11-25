@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-24
 Title: FK Kurši
 Category: lv-26-27-regular-season, teams
 Slug: fk-kursi-lv-26-27-regular-season-lv-26-27-regular-season

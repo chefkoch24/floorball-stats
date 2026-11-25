@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tobias Schroers
 Category: players
 Slug: player-d2c5c1cb4f8a18a2

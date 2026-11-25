@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Rovin Thalmann
 Category: players
 Slug: player-d6224e9fdbd09349
@@ -13,8 +13,8 @@ current_season_is_tournament: no
 previous_season: ch-25-26
 current_games: 12
 current_goals: 3
-current_assists: 5
-current_points: 8
+current_assists: 6
+current_points: 9
 current_pim: 2
 regular_games: 10
 regular_goals: 1
@@ -28,8 +28,8 @@ playoff_points: 0
 playoff_pim: 0
 cup_games: 2
 cup_goals: 2
-cup_assists: 3
-cup_points: 5
+cup_assists: 4
+cup_points: 6
 cup_pim: 0
 previous_games: 31
 previous_goals: 3
@@ -41,7 +41,7 @@ career_goals: 4
 career_assists: 6
 career_points: 10
 career_pim: 2
-history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|10|1|2|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|2|3|5|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|2|5|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|19|0|2|2|0
+history_rows_csv: ch-26-27|regular-season|Switzerland|Floorball Thurgau|10|1|2|3|2||ch-26-27|cup|Switzerland|Floorball Thurgau|2|2|4|6|0||ch-25-26|playoffs|Switzerland|Floorball Thurgau|12|3|2|5|0||ch-25-26|regular-season|Switzerland|Floorball Thurgau|19|0|2|2|0
 assists: 2
 games: 10
 goals: 1

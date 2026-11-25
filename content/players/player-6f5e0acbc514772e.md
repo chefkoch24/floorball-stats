@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Noah Bisig
 Category: players
 Slug: player-6f5e0acbc514772e

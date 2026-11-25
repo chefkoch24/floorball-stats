@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Ludvig Wu
 Category: players
 Slug: player-518a710bb417e4ce

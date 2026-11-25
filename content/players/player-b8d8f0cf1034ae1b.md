@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Emīls Šūmanis
 Category: players
 Slug: player-b8d8f0cf1034ae1b
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 84
+rank: 85
 season: lv-26-27

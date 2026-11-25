@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Marcel Schulze
 Category: players
 Slug: player-286824a585cd1edb

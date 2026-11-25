@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Renārs Eglītis
 Category: players
 Slug: player-f95be4d8baecb6e0
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 130
+rank: 133
 season: lv-26-27

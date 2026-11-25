@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-24
 Title: FK Talsi/TNSS/Krauzers
 Category: lv-26-27-regular-season, teams
 Slug: fk-talsi-tnss-krauzers-lv-26-27-regular-season-lv-26-27-regular-season
@@ -107,7 +107,7 @@ powerplay_seconds: 1775
 powerplay_third_period: 12
 powerplay_time: 29:35
 powerplay_time_per_goal: 3:17
-rank: 2
+rank: 3
 scoring_ratio: 1.63
 take_the_lead_goals: 18
 take_the_lead_goals_against: 17

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Klāvs Araks
 Category: players
 Slug: player-aef9bd1d94d51336
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 12
-rank: 26
+rank: 27
 season: lv-26-27

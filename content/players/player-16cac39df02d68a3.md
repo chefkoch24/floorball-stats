@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Treneris Morten Talviste
 Category: players
 Slug: player-16cac39df02d68a3

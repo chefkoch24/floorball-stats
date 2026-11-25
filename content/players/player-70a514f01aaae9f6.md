@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tomas Nushart
 Category: players
 Slug: player-70a514f01aaae9f6

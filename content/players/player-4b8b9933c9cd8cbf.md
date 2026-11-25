@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Pagáč Ondrej
 Category: players
 Slug: player-4b8b9933c9cd8cbf

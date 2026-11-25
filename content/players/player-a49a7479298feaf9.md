@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Saku Liikka
 Category: players
 Slug: player-a49a7479298feaf9
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 227
+rank: 228
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Toms Zanders
 Category: players
 Slug: player-fcead834aa372c77
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 111
+rank: 114
 season: lv-26-27

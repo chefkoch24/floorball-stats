@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Julian Langfeldt
 Category: players
 Slug: player-d3b34c638cc827d2

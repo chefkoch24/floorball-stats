@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Artis Matīss Fogels
 Category: players
 Slug: player-7fa3aa752c06cc04
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 9
-rank: 37
+rank: 38
 season: lv-26-27

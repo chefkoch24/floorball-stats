@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Lucas Werelius
 Category: players
 Slug: player-bfa2be28a124169b

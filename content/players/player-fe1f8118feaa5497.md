@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Kerttu Rusanen
 Category: players
 Slug: player-fe1f8118feaa5497

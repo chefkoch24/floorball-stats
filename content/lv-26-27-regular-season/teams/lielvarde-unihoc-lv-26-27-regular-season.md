@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-24
 Title: Lielvārde/Unihoc
 Category: lv-26-27-regular-season, teams
 Slug: lielvarde-unihoc-lv-26-27-regular-season-lv-26-27-regular-season

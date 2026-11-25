@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Kuráň Filip
 Category: players
 Slug: player-5681bfdcb924768e

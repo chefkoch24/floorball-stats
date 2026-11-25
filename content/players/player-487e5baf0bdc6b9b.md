@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Patriks Bliska
 Category: players
 Slug: player-487e5baf0bdc6b9b
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 9
-rank: 39
+rank: 40
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Klara Bachmann
 Category: players
 Slug: player-5bbf47c41a11aff2

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tomáš Dlesk
 Category: players
 Slug: player-bbf100dfb1fe2083

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Iiro Jurvainen
 Category: players
 Slug: player-1e6618e43cc3fdac

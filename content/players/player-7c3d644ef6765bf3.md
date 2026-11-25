@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Ričards Čudnovs
 Category: players
 Slug: player-7c3d644ef6765bf3
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 120
+rank: 123
 season: lv-26-27

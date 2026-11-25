@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Lucas Nyman
 Category: players
 Slug: player-3f90bb79a89a25c2

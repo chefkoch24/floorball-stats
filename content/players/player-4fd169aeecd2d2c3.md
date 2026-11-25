@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Eduards Stūre
 Category: players
 Slug: player-4fd169aeecd2d2c3

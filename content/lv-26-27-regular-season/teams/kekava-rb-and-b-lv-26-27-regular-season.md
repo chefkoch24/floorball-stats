@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-24
 Title: Ķekava/RB&B
 Category: lv-26-27-regular-season, teams
 Slug: kekava-rb-and-b-lv-26-27-regular-season-lv-26-27-regular-season

@@ -252,7 +252,7 @@ home_pregame_close_game_win: 0
 home_pregame_close_games: 0
 home_pregame_draws: 0
 home_pregame_equalizer_goals: 0
-home_pregame_equalizer_goals_against: 0
+home_pregame_equalizer_goals_against: 1
 home_pregame_first_goal_of_match: 1
 home_pregame_first_goal_of_match_against: 0
 home_pregame_first_period_goals_against_per_game: 0.0
@@ -336,7 +336,7 @@ home_pregame_powerplay_third_period: 1
 home_pregame_powerplay_time: 0:00
 home_pregame_powerplay_time_per_goal: 0:00
 home_pregame_scoring_ratio: 3.0
-home_pregame_take_the_lead_goals: 1
+home_pregame_take_the_lead_goals: 2
 home_pregame_take_the_lead_goals_against: 0
 home_pregame_win_1: 0
 home_pregame_wins: 1

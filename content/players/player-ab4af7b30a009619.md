@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Tone Einstulen
 Category: players
 Slug: player-ab4af7b30a009619

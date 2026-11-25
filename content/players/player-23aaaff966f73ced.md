@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Kasper Tähkä
 Category: players
 Slug: player-23aaaff966f73ced

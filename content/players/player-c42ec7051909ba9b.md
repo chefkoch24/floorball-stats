@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Markus Salmi
 Category: players
 Slug: player-c42ec7051909ba9b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 24
-rank: 13
+rank: 14
 season: fi-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Joel Müller
 Category: players
 Slug: player-33d9be85deb60107

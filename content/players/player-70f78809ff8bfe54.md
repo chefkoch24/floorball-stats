@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: William Sjöqvist
 Category: players
 Slug: player-70f78809ff8bfe54

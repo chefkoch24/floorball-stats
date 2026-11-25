@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Charlotte Michler
 Category: players
 Slug: player-511cbf67381a7d9d

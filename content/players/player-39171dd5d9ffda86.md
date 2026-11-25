@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Radim Piškula
 Category: players
 Slug: player-39171dd5d9ffda86

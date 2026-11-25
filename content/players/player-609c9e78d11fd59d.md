@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Vendula Kasal
 Category: players
 Slug: player-609c9e78d11fd59d

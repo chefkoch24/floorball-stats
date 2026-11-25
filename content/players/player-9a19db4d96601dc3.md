@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Jiří Pecka
 Category: players
 Slug: player-9a19db4d96601dc3

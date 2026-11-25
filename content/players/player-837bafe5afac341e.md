@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Justus Savolainen
 Category: players
 Slug: player-837bafe5afac341e

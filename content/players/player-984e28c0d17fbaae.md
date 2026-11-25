@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
@@ -11,15 +11,15 @@ season_count: 3
 current_season: fi-26-27
 current_season_is_tournament: no
 previous_season: fiw-26-27
-current_games: 6
-current_goals: 6
+current_games: 7
+current_goals: 7
 current_assists: 0
-current_points: 6
+current_points: 7
 current_pim: 0
-regular_games: 6
-regular_goals: 6
+regular_games: 7
+regular_goals: 7
 regular_assists: 0
-regular_points: 6
+regular_points: 7
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 5
 previous_assists: 0
 previous_points: 5
 previous_pim: 0
-career_games: 12
-career_goals: 12
+career_games: 13
+career_goals: 13
 career_assists: 0
-career_points: 12
+career_points: 13
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / Oilers / SPV|6|6|0|6|0||fiw-26-27|regular-season|Finland Women|EräViikingit / FBC Loisto / PSS / Pirkat / TPS|5|5|0|5|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
+history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / Oilers / SPV|7|7|0|7|0||fiw-26-27|regular-season|Finland Women|EräViikingit / FBC Loisto / PSS / Pirkat / TPS|5|5|0|5|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
 assists: 0
-games: 6
-goals: 6
+games: 7
+goals: 7
 penalties: 0
 phase: regular-season
 pim: 0
-points: 6
-rank: 95
+points: 7
+rank: 86
 season: fi-26-27

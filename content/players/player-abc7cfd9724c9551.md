@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Gustavs Celmiņš
 Category: players
 Slug: player-abc7cfd9724c9551
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
+current_games: 13
 current_goals: 3
 current_assists: 0
 current_points: 3
 current_pim: 2
-regular_games: 12
+regular_games: 13
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 2
-career_games: 24
+career_games: 25
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|12|3|0|3|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|9|0|0|0|2
+history_rows_csv: lv-26-27|regular-season|Latvia|FBK SĀC|13|3|0|3|2||lv-25-26|playoffs|Latvia|FBK SĀC|3|0|0|0|0||lv-25-26|regular-season|Latvia|FBK SĀC|9|0|0|0|2
 assists: 0
-games: 12
+games: 13
 goals: 3
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 96
+rank: 97
 season: lv-26-27

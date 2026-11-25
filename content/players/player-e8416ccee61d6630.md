@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Mārcis Brīvulis
 Category: players
 Slug: player-e8416ccee61d6630
@@ -49,5 +49,5 @@ penalties: 5
 phase: regular-season
 pim: 10
 points: 4
-rank: 91
+rank: 92
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Krišs Treimanis
 Category: players
 Slug: player-fa0ca90522a679cd

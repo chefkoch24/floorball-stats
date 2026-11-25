@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Karolina Bartonkova
 Category: players
 Slug: player-4c242c695b12aade

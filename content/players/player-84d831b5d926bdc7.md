@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Lauri Lahti
 Category: players
 Slug: player-84d831b5d926bdc7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 121
+rank: 123
 season: fi-26-27

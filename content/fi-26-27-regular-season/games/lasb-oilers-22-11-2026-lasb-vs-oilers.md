@@ -6,7 +6,7 @@ type: game
 game_id: lasb-oilers-22-11-2026
 home_team: LASB
 away_team: Oilers
-attendance: None
+attendance: 152.0
 away_goal_diffs_csv: -1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-11,-12,-13,-14,-15,-16,-16,-17,-18,-18,-19,-20,-21,-22,-23,-24
 away_goal_minutes_csv: 1.18,3.68,6.1,11.13,12.7,13.1,15.87,16.13,17.35,20.52,22.13,23.32,25.85,26.6,31.57,32.1,35.42,42.5,44.85,46.0,50.18,51.8,55.38,56.53,57.5,57.87,58.38
 away_major_penalty_minutes_csv: 

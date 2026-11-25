@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Matěj Adamec
 Category: players
 Slug: player-dfd40c71aae6ddec

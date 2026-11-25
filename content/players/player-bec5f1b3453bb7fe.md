@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Matúš Strieženec
 Category: players
 Slug: player-bec5f1b3453bb7fe

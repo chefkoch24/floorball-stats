@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Christian Stucki
 Category: players
 Slug: player-1f8e3cff7f028101

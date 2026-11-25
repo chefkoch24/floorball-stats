@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Valdemar Ahlroth
 Category: players
 Slug: player-697f8bf275b29f2f

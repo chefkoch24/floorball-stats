@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Andrin Caviezel
 Category: players
 Slug: player-52c0c5d68d65c7b7

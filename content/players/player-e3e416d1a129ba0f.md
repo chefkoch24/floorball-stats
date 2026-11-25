@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Sindy Rüegger
 Category: players
 Slug: player-e3e416d1a129ba0f

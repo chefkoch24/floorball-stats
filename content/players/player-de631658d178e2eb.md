@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Victor Schedin-Huisman
 Category: players
 Slug: player-de631658d178e2eb

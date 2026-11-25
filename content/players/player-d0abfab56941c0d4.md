@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Karolína Raszková
 Category: players
 Slug: player-d0abfab56941c0d4

@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Gvido Grjunbergs
 Category: players
 Slug: player-eb0fa418eee381d0
@@ -11,16 +11,16 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
-current_goals: 5
+current_games: 13
+current_goals: 6
 current_assists: 5
-current_points: 10
-current_pim: 6
-regular_games: 12
-regular_goals: 5
+current_points: 11
+current_pim: 8
+regular_games: 13
+regular_goals: 6
 regular_assists: 5
-regular_points: 10
-regular_pim: 6
+regular_points: 11
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 13
 previous_assists: 6
 previous_points: 19
 previous_pim: 10
-career_games: 43
-career_goals: 18
+career_games: 44
+career_goals: 19
 career_assists: 11
-career_points: 29
-career_pim: 16
-history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|12|5|5|10|6||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|0|1|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|12|6|18|10
+career_points: 30
+career_pim: 18
+history_rows_csv: lv-26-27|regular-season|Latvia|Masters Ulbroka/LU|13|6|5|11|8||lv-25-26|playoffs|Latvia|Lielvārde/Unihoc|4|1|0|1|0||lv-25-26|regular-season|Latvia|Lielvārde/Unihoc|27|12|6|18|10
 assists: 5
-games: 12
-goals: 5
-penalties: 3
+games: 13
+goals: 6
+penalties: 4
 phase: regular-season
-pim: 6
-points: 10
-rank: 36
+pim: 8
+points: 11
+rank: 31
 season: lv-26-27

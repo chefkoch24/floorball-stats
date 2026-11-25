@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Ellen Gunnarsson
 Category: players
 Slug: player-da2f3878cf8e48b8

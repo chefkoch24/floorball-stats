@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Matyáš Šindler
 Category: players
 Slug: player-ec52b5b89f21eb46

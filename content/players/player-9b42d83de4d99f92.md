@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Thea Ernberg
 Category: players
 Slug: player-9b42d83de4d99f92

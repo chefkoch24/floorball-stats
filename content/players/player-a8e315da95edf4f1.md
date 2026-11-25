@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Alan Fliegner
 Category: players
 Slug: player-a8e315da95edf4f1

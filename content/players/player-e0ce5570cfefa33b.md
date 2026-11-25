@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Arvis Kalniņš
 Category: players
 Slug: player-e0ce5570cfefa33b
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 168
+rank: 169
 season: lv-26-27

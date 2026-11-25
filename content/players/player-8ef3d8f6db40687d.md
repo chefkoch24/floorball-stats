@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Luukas Salin
 Category: players
 Slug: player-8ef3d8f6db40687d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 100
+rank: 101
 season: fi-26-27

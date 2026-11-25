@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Ričards Orste
 Category: players
 Slug: player-3a2cd191b876a7c6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 106
+rank: 107
 season: lv-26-27

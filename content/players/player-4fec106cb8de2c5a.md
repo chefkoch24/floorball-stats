@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Pārstāvis Edvards Staķis
 Category: players
 Slug: player-4fec106cb8de2c5a

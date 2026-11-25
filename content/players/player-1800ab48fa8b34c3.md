@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Jesperi Kainulainen
 Category: players
 Slug: player-1800ab48fa8b34c3

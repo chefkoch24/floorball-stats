@@ -1,4 +1,4 @@
-Date: 2026-11-24
+Date: 2026-11-25
 Title: Marek Matejčík
 Category: players
 Slug: player-15f776e5c961dfd8
