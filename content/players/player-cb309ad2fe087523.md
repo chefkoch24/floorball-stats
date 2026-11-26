@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Bára Matějková
 Category: players
 Slug: player-cb309ad2fe087523
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
+current_games: 13
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 10
+regular_games: 11
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Prague Tigers Nehvizdy|10|1|1|2|0||czw-26-27|cup|Czech Republic Women|Prague Tigers Nehvizdy|2|1|1|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Prague Tigers Nehvizdy|11|1|1|2|0||czw-26-27|cup|Czech Republic Women|Prague Tigers Nehvizdy|2|1|1|2|0
 assists: 1
-games: 10
+games: 11
 goals: 1
 penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 140
+rank: 141
 season: czw-26-27

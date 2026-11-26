@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Nela Sikorova
 Category: players
 Slug: player-3be3ac10a6be0476
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 24
+rank: 26
 season: czw-26-27

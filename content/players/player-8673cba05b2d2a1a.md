@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Veikko Paajanen
 Category: players
 Slug: player-8673cba05b2d2a1a

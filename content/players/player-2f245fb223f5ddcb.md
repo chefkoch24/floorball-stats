@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Aino-Maisa Järvenpää
 Category: players
 Slug: player-2f245fb223f5ddcb
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 136
+rank: 137
 season: fiw-26-27

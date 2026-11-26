@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Pārstāvis Kristers Tiltiņš
 Category: players
 Slug: player-df255f07c894ecd0

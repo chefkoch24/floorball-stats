@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Pavlina Bacova
 Category: players
 Slug: player-fc75b1fd0a0a2b67
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 25
+rank: 27
 season: czw-26-27

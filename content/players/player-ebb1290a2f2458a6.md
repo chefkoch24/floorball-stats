@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lucie Švajcrová
 Category: players
 Slug: player-ebb1290a2f2458a6
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 147
+rank: 149
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jonas Wernthaler
 Category: players
 Slug: player-c00ec0e7aa21a58c

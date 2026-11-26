@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jenna Potinoja
 Category: players
 Slug: player-30c7cdbcf3cf98d5
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 141
+rank: 142
 season: fiw-26-27

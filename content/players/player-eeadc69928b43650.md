@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Veeti Koivisto
 Category: players
 Slug: player-eeadc69928b43650

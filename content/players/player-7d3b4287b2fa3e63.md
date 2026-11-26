@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Filip Šimek
 Category: players
 Slug: player-7d3b4287b2fa3e63

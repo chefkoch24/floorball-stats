@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Gwen Bleckmann
 Category: players
 Slug: player-20cc9ccaccdf27b2

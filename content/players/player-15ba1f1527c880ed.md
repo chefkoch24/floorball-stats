@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Emil Jacobsson
 Category: players
 Slug: player-15ba1f1527c880ed

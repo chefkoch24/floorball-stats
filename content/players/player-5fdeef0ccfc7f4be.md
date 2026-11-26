@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Tuomas Markkula
 Category: players
 Slug: player-5fdeef0ccfc7f4be

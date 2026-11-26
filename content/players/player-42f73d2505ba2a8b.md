@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Marek Navrátil
 Category: players
 Slug: player-42f73d2505ba2a8b

@@ -1,4 +1,4 @@
-Date: 2026-12-02
+Date: 2026-12-16
 Title: 1306634-fbc-cpp-mpl-stavebniny-ostrava-vs-1-sc-tempish-vitkovice
 Category: czw-26-27-cup, game
 Slug: 1306634-fbc-cpp-mpl-stavebniny-ostrava-vs-1-sc-tempish-vitkovice-czw-26-27-cup

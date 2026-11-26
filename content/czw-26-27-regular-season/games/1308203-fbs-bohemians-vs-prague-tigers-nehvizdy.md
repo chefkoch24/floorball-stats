@@ -6,19 +6,19 @@ type: game
 game_id: 1308203
 home_team: FbŠ Bohemians
 away_team: Prague Tigers Nehvizdy
-attendance: None
-away_goal_diffs_csv: 
-away_goal_minutes_csv: 
+attendance: 1126.0
+away_goal_diffs_csv: -1,-2,-2
+away_goal_minutes_csv: 6.03,6.78,20.3
 away_major_penalty_minutes_csv: 
 away_penalty_ends_csv: 
 away_penalty_goals_csv: 
 away_penalty_minutes_csv: 
-game_events_b64: 
-game_events_count: 0
-game_state: scheduled
-game_status: Scheduled
-home_goal_diffs_csv: 
-home_goal_minutes_csv: 
+game_events_b64: W3sibWludXRlIjoiMDY6MDIiLCJwZXJpb2QiOjEsInRlYW0iOiJQcmFndWUgVGlnZXJzIE5laHZpemR5Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MSIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJOaWtvbGEgSGFtZXJuw61rb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci0xMjM5YWRjNTMxYjEwODk4IiwiYXNzaXN0IjoiQmFyYm9yYSBLbGluZXJvdsOhIiwiYXNzaXN0X3VpZCI6InBsYXllci1iNTg4NjhjNzYzZTVlMDFlIiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMDY6NDciLCJwZXJpb2QiOjEsInRlYW0iOiJQcmFndWUgVGlnZXJzIE5laHZpemR5Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjA6MiIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiLFoMOhcmthIEplxb5kw61rb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci1jNTkzMmE4MjMwMjE4MTU0IiwiYXNzaXN0IjoiQmFyYm9yYSDFoHBhxI1rb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItNThmMzc0MzNkMjdhODY3MCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjEyOjIzIiwicGVyaW9kIjoxLCJ0ZWFtIjoiRmLFoCBCb2hlbWlhbnMiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMToyIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFsaWNlIEppcsOhc2tvdsOhIiwidGl0bGVfdWlkIjoicGxheWVyLWNlZGU4MDI0ZjdiYmFiYjEiLCJhc3Npc3QiOiJMdWNpZSBWZXNlbMOhIiwiYXNzaXN0X3VpZCI6InBsYXllci04ZDBlMzkwODZjNzk4OWI4IiwidGFnIjoiZ29hbCJ9LHsibWludXRlIjoiMjA6MDAiLCJwZXJpb2QiOjEsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAxc3QgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiNDA6MDAiLCJwZXJpb2QiOjIsInRlYW0iOm51bGwsInNpZGUiOiJicmVhayIsInNjb3JlIjpudWxsLCJldmVudF9raW5kIjoiYnJlYWsiLCJ0aXRsZSI6IkVuZCAybmQgcGVyaW9kIiwiYXNzaXN0IjpudWxsLCJ0YWciOm51bGx9LHsibWludXRlIjoiMjA6MTgiLCJwZXJpb2QiOjIsInRlYW0iOiJQcmFndWUgVGlnZXJzIE5laHZpemR5Iiwic2lkZSI6ImF3YXkiLCJzY29yZSI6IjE6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJLYXRlxZlpbmEgS3ZhcGlsb3bDoSIsInRpdGxlX3VpZCI6InBsYXllci05NjgyNGNkZjk1ZjIwNmE0IiwiYXNzaXN0IjoiQmFyYm9yYSDFoHBhxI1rb3bDoSIsImFzc2lzdF91aWQiOiJwbGF5ZXItNThmMzc0MzNkMjdhODY3MCIsInRhZyI6ImdvYWwifSx7Im1pbnV0ZSI6IjM2OjUyIiwicGVyaW9kIjoyLCJ0ZWFtIjoiRmLFoCBCb2hlbWlhbnMiLCJzaWRlIjoiaG9tZSIsInNjb3JlIjoiMjozIiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IkFubmEgU3RhcsOhIiwidGl0bGVfdWlkIjoicGxheWVyLWVkMGY3MzYwOWZkZTY1MjgiLCJhc3Npc3QiOiJLcmlzdMO9bmEgSGFsb3Vza292w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLWVlOTRjNGQ5ZjgwMzJkOGYiLCJ0YWciOiJnb2FsIn0seyJtaW51dGUiOiI2MDowMCIsInBlcmlvZCI6MywidGVhbSI6bnVsbCwic2lkZSI6ImJyZWFrIiwic2NvcmUiOm51bGwsImV2ZW50X2tpbmQiOiJicmVhayIsInRpdGxlIjoiRW5kIG9mIHJlZ3VsYXRpb24iLCJhc3Npc3QiOm51bGwsInRhZyI6bnVsbH0seyJtaW51dGUiOiJQUyIsInBlcmlvZCI6NSwidGVhbSI6IlByYWd1ZSBUaWdlcnMgTmVodml6ZHkiLCJzaWRlIjoiYXdheSIsInNjb3JlIjoiMzo0IiwiZXZlbnRfa2luZCI6ImdvYWwiLCJ0aXRsZSI6IlVua25vd24iLCJ0aXRsZV91aWQiOm51bGwsImFzc2lzdCI6bnVsbCwiYXNzaXN0X3VpZCI6bnVsbCwidGFnIjoicGVuYWx0eV9zaG90In0seyJtaW51dGUiOiI1Mjo1NyIsInBlcmlvZCI6MywidGVhbSI6IkZixaAgQm9oZW1pYW5zIiwic2lkZSI6ImhvbWUiLCJzY29yZSI6IjM6MyIsImV2ZW50X2tpbmQiOiJnb2FsIiwidGl0bGUiOiJBbm5hIFN0YXLDoSIsInRpdGxlX3VpZCI6InBsYXllci1lZDBmNzM2MDlmZGU2NTI4IiwiYXNzaXN0IjoiTHVjaWUgU2VpZmVydG92w6EiLCJhc3Npc3RfdWlkIjoicGxheWVyLTQ5MDBiNTdjNWZhMWM0YzUiLCJ0YWciOiJnb2FsIn1d
+game_events_count: 10
+game_state: played
+game_status: None
+home_goal_diffs_csv: -1,-1,0
+home_goal_minutes_csv: 12.38,36.87,52.95
 home_major_penalty_minutes_csv: 
 home_penalty_ends_csv: 
 home_penalty_goals_csv: 
@@ -71,13 +71,13 @@ pregame_h2h_special_away_pk_eff: 66.67
 pregame_h2h_special_away_pp_eff: 0.0
 pregame_h2h_special_home_pk_eff: 57.14
 pregame_h2h_special_home_pp_eff: 33.33
-result_string: None
-start_time: 10:00
-timeline_away_goals_csv: 0
-timeline_diffs_csv: 0
-timeline_home_goals_csv: 0
-timeline_max_minute: 60.0
-timeline_minutes_csv: 0.0
+result_string: 3:4
+start_time: 06:02
+timeline_away_goals_csv: 0,1,2,2,3,3,3
+timeline_diffs_csv: 0,-1,-2,-1,-2,-1,0
+timeline_home_goals_csv: 0,0,0,1,1,2,3
+timeline_max_minute: 70.0
+timeline_minutes_csv: 0.0,6.03,6.78,12.38,20.3,36.87,52.95
 venue: Kategorie I UNYP ARENA
 venue_address: Kovanecká 2405/27 Praha
 home_away_points: 0
@@ -88,40 +88,40 @@ home_boxplay_overtime: 0
 home_boxplay_second_period: 0
 home_boxplay_seconds: 0
 home_boxplay_third_period: 0
-home_close_game_loss: 0
+home_close_game_loss: 1
 home_close_game_overtime: 0
 home_close_game_win: 0
-home_draws: 1
-home_equalizer_goals: 0
+home_draws: 0
+home_equalizer_goals: 1
 home_equalizer_goals_against: 0
 home_first_goal_of_match: 0
-home_first_goal_of_match_against: 0
-home_games: 0
-home_goal_difference: 0
-home_goals: 0
-home_goals_against: 0
+home_first_goal_of_match_against: 1
+home_games: 1
+home_goal_difference: -1
+home_goals: 3
+home_goals_against: 4
 home_goals_against_away: 0
-home_goals_against_home: 0
+home_goals_against_home: 4
 home_goals_against_in_boxplay: 0
 home_goals_against_in_powerplay: 0
 home_goals_away: 0
-home_goals_home: 0
+home_goals_home: 3
 home_goals_in_boxplay: 0
-home_goals_in_first_period: 0
-home_goals_in_first_period_against: 0
+home_goals_in_first_period: 1
+home_goals_in_first_period_against: 2
 home_goals_in_overtime: 0
 home_goals_in_overtime_against: 0
 home_goals_in_penalty_shootout: 0
-home_goals_in_penalty_shootout_against: 0
+home_goals_in_penalty_shootout_against: 1
 home_goals_in_powerplay: 0
-home_goals_in_second_period: 0
-home_goals_in_second_period_against: 0
-home_goals_in_third_period: 0
+home_goals_in_second_period: 1
+home_goals_in_second_period_against: 1
+home_goals_in_third_period: 1
 home_goals_in_third_period_against: 0
 home_home_points: 1
-home_loss_1: 0
+home_loss_1: 1
 home_losses: 0
-home_over_time_losses: 0
+home_over_time_losses: 1
 home_over_time_wins: 0
 home_penalties: 0
 home_penalty_10: 0
@@ -134,7 +134,7 @@ home_penalty_second_period: 0
 home_penalty_shootout_losses: 0
 home_penalty_shootout_wins: 0
 home_penalty_shot_goals: 0
-home_penalty_shot_goals_against: 0
+home_penalty_shot_goals_against: 1
 home_penalty_third_period: 0
 home_points: 1
 home_points_after_55_min: 0
@@ -142,8 +142,9 @@ home_points_after_58_min: 0
 home_points_after_59_min: 0
 home_points_after_first_period: 0
 home_points_after_second_period: 0
-home_points_after_third_period: 0
-home_points_max_difference_2: 0
+home_points_after_third_period: 1
+home_points_against_prague_tigers_nehvizdy: 1
+home_points_max_difference_2: 1
 home_points_more_2_difference: 0
 home_powerplay: 0
 home_powerplay_efficiency: n.a.
@@ -153,10 +154,10 @@ home_powerplay_second_period: 0
 home_powerplay_seconds: 0
 home_powerplay_third_period: 0
 home_take_the_lead_goals: 0
-home_take_the_lead_goals_against: 0
+home_take_the_lead_goals_against: 1
 home_win_1: 0
 home_wins: 0
-away_away_points: 1
+away_away_points: 2
 away_boxplay: 0
 away_boxplay_efficiency: n.a.
 away_boxplay_first_period: 0
@@ -166,39 +167,39 @@ away_boxplay_seconds: 0
 away_boxplay_third_period: 0
 away_close_game_loss: 0
 away_close_game_overtime: 0
-away_close_game_win: 0
-away_draws: 1
+away_close_game_win: 1
+away_draws: 0
 away_equalizer_goals: 0
-away_equalizer_goals_against: 0
-away_first_goal_of_match: 0
+away_equalizer_goals_against: 1
+away_first_goal_of_match: 1
 away_first_goal_of_match_against: 0
-away_games: 0
-away_goal_difference: 0
-away_goals: 0
-away_goals_against: 0
-away_goals_against_away: 0
+away_games: 1
+away_goal_difference: 1
+away_goals: 4
+away_goals_against: 3
+away_goals_against_away: 3
 away_goals_against_home: 0
 away_goals_against_in_boxplay: 0
 away_goals_against_in_powerplay: 0
-away_goals_away: 0
+away_goals_away: 4
 away_goals_home: 0
 away_goals_in_boxplay: 0
-away_goals_in_first_period: 0
-away_goals_in_first_period_against: 0
+away_goals_in_first_period: 2
+away_goals_in_first_period_against: 1
 away_goals_in_overtime: 0
 away_goals_in_overtime_against: 0
-away_goals_in_penalty_shootout: 0
+away_goals_in_penalty_shootout: 1
 away_goals_in_penalty_shootout_against: 0
 away_goals_in_powerplay: 0
-away_goals_in_second_period: 0
-away_goals_in_second_period_against: 0
+away_goals_in_second_period: 1
+away_goals_in_second_period_against: 1
 away_goals_in_third_period: 0
-away_goals_in_third_period_against: 0
+away_goals_in_third_period_against: 1
 away_home_points: 0
 away_loss_1: 0
 away_losses: 0
 away_over_time_losses: 0
-away_over_time_wins: 0
+away_over_time_wins: 1
 away_penalties: 0
 away_penalty_10: 0
 away_penalty_2: 0
@@ -209,17 +210,18 @@ away_penalty_overtime: 0
 away_penalty_second_period: 0
 away_penalty_shootout_losses: 0
 away_penalty_shootout_wins: 0
-away_penalty_shot_goals: 0
+away_penalty_shot_goals: 1
 away_penalty_shot_goals_against: 0
 away_penalty_third_period: 0
-away_points: 1
-away_points_after_55_min: 0
-away_points_after_58_min: 0
-away_points_after_59_min: 0
-away_points_after_first_period: 0
-away_points_after_second_period: 0
-away_points_after_third_period: 0
-away_points_max_difference_2: 0
+away_points: 2
+away_points_after_55_min: 3
+away_points_after_58_min: 3
+away_points_after_59_min: 3
+away_points_after_first_period: 3
+away_points_after_second_period: 3
+away_points_after_third_period: 1
+away_points_against_fbs_bohemians: 2
+away_points_max_difference_2: 2
 away_points_more_2_difference: 0
 away_powerplay: 0
 away_powerplay_efficiency: n.a.
@@ -228,9 +230,9 @@ away_powerplay_overtime: 0
 away_powerplay_second_period: 0
 away_powerplay_seconds: 0
 away_powerplay_third_period: 0
-away_take_the_lead_goals: 0
+away_take_the_lead_goals: 1
 away_take_the_lead_goals_against: 0
-away_win_1: 0
+away_win_1: 1
 away_wins: 0
 home_pregame_away_points: 11
 home_pregame_boxplay: 14
@@ -329,6 +331,7 @@ home_pregame_points_against_fbs_olomouc: 3
 home_pregame_points_against_gc_system_bulldogs_brno: 0
 home_pregame_points_against_gms_florbal_chomutov: 3
 home_pregame_points_against_k1_florbal_brno_zidenice: 0
+home_pregame_points_against_prague_tigers_nehvizdy: 1
 home_pregame_points_against_tatran_stresovice: 0
 home_pregame_points_max_difference_2: 3
 home_pregame_points_more_2_difference: 11
@@ -441,6 +444,7 @@ away_pregame_points_against_crazy_girls_fbc_liberec: 3
 away_pregame_points_against_fat_pipe_florbal_chodov: 0
 away_pregame_points_against_fbc_cpp_mpl_stavebniny_ostrava: 0
 away_pregame_points_against_fbc_intevo_trinec: 1
+away_pregame_points_against_fbs_bohemians: 2
 away_pregame_points_against_fbs_olomouc: 2
 away_pregame_points_against_gc_system_bulldogs_brno: 0
 away_pregame_points_against_gms_florbal_chomutov: 3

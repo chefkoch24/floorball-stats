@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Finn Ribler
 Category: players
 Slug: player-b62cb05b29f132a0

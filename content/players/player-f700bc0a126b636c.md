@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lucie Cidlinská C
 Category: players
 Slug: player-f700bc0a126b636c

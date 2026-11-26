@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Aino Haapaniemi
 Category: players
 Slug: player-04cd9bee13c4e5f2
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 135
+rank: 136
 season: fiw-26-27

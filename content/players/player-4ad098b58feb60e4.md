@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Sándor Varga
 Category: players
 Slug: player-4ad098b58feb60e4

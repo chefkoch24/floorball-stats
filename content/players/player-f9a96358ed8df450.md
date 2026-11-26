@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Justus Lerchl
 Category: players
 Slug: player-f9a96358ed8df450

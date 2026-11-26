@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Sandis Lēvalds
 Category: players
 Slug: player-0ccce6f9b717e186

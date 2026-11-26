@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jenna Kangas
 Category: players
 Slug: player-655258dc63dd02fd

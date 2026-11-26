@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lilly Geppert
 Category: players
 Slug: player-6609f864ddfe3f59

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Benedikt Föhr
 Category: players
 Slug: player-56ccb8b31da794a1

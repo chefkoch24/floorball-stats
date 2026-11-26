@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Dominika Lískovcová
 Category: players
 Slug: player-6ffe7a336c4db66d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 54
+rank: 55
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Rasmus Nyström
 Category: players
 Slug: player-83fe5fbb2e25fc6f

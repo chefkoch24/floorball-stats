@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Tobias Ledergerber
 Category: players
 Slug: player-7fde9c6e040a8bd2

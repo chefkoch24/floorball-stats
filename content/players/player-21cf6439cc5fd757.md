@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Viola Värränkivi
 Category: players
 Slug: player-21cf6439cc5fd757
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 134
+rank: 135
 season: fiw-26-27

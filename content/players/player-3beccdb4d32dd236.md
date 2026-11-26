@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Noah Zielke
 Category: players
 Slug: player-3beccdb4d32dd236

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Edla Similä
 Category: players
 Slug: player-bd5eea093fc249dd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 138
+rank: 139
 season: fiw-26-27

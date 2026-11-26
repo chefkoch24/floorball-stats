@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Alexandra Vítková
 Category: players
 Slug: player-c05cb6796f8ea837
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 97
+rank: 98
 season: czw-26-27

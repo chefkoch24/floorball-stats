@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Nuppu Hästbacka
 Category: players
 Slug: player-d281d3798e0a9bc5
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 127
+rank: 128
 season: fiw-26-27

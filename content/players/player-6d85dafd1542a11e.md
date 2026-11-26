@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jana Pokorná
 Category: players
 Slug: player-6d85dafd1542a11e
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 161
+rank: 163
 season: czw-26-27

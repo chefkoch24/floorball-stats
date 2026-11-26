@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jiří Hájek
 Category: players
 Slug: player-50fcebc0400ea903

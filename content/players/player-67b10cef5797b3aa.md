@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Daniel Grézl
 Category: players
 Slug: player-67b10cef5797b3aa

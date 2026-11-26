@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Eva Ragačová
 Category: players
 Slug: player-3a7e4fc1f408fc5a
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 9
+current_games: 10
 current_goals: 4
 current_assists: 2
 current_points: 6
 current_pim: 0
-regular_games: 6
+regular_games: 7
 regular_goals: 3
 regular_assists: 0
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 6
+career_games: 7
 career_goals: 3
 career_assists: 0
 career_points: 3
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|6|3|0|3|0||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|3|1|2|3|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|7|3|0|3|0||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|3|1|2|3|0
 assists: 0
-games: 6
+games: 7
 goals: 3
 penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 102
+rank: 103
 season: czw-26-27

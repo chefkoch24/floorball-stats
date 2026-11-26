@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Klára Horčičková
 Category: players
 Slug: player-d2515e85eefaa4a5
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 10
-rank: 30
+rank: 31
 season: czw-26-27

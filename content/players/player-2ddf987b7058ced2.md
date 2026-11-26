@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Aapo Kilpelainen
 Category: players
 Slug: player-2ddf987b7058ced2

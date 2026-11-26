@@ -445,7 +445,7 @@ away_pregame_points_against_sb_pro: 2
 away_pregame_points_against_sbs_wirmo: 3
 away_pregame_points_against_spv: 3
 away_pregame_points_against_ssra: 3
-away_pregame_points_against_tps: 3
+away_pregame_points_against_tps: 4
 away_pregame_points_max_difference_2: 2
 away_pregame_points_more_2_difference: 12
 away_pregame_points_per_game: 2.8

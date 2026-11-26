@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Valtteri Viitakoski
 Category: players
 Slug: player-8bf625c7bb6c66f1

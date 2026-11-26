@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Ralfs Krūmiņš
 Category: players
 Slug: player-5ce5cf052bc35c43

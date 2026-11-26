@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kay Erik Kunath
 Category: players
 Slug: player-4fa1c3e1b620d514

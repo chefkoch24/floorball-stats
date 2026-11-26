@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Cid Fiedler
 Category: players
 Slug: player-447c48eb0b903d2a

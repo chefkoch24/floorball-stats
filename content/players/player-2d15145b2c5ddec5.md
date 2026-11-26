@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Laura Katajisto
 Category: players
 Slug: player-2d15145b2c5ddec5
@@ -11,16 +11,16 @@ season_count: 1
 current_season: fiw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 2
-current_goals: 1
+current_games: 3
+current_goals: 2
 current_assists: 0
-current_points: 1
-current_pim: 4
-regular_games: 2
-regular_goals: 1
+current_points: 2
+current_pim: 6
+regular_games: 3
+regular_goals: 2
 regular_assists: 0
-regular_points: 1
-regular_pim: 4
+regular_points: 2
+regular_pim: 6
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 2
-career_goals: 1
+career_games: 3
+career_goals: 2
 career_assists: 0
-career_points: 1
-career_pim: 4
-history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|2|1|0|1|4
+career_points: 2
+career_pim: 6
+history_rows_csv: fiw-26-27|regular-season|Finland Women|Classic|3|2|0|2|6
 assists: 0
-games: 2
-goals: 1
-penalties: 2
+games: 3
+goals: 2
+penalties: 3
 phase: regular-season
-pim: 4
-points: 1
-rank: 173
+pim: 6
+points: 2
+rank: 126
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Teemu Turigin
 Category: players
 Slug: player-1d2d9908eacc0025

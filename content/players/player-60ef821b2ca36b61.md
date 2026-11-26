@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Elisa Virtanen
 Category: players
 Slug: player-60ef821b2ca36b61

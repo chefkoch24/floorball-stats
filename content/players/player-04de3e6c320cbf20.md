@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kārlis Dūmiņš
 Category: players
 Slug: player-04de3e6c320cbf20

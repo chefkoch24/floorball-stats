@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lenya-Marie Pester
 Category: players
 Slug: player-37438e3b690ed5dc

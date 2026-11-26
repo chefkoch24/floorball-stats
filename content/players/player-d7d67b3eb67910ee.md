@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Omar Aldeeb
 Category: players
 Slug: player-d7d67b3eb67910ee

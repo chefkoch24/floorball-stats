@@ -1,4 +1,4 @@
-Date: 2027-01-23
+Date: 2027-02-08
 Title: 929793-nokian-krp-vs-oilers
 Category: fi-26-27-regular-season, game
 Slug: 929793-nokian-krp-vs-oilers-fi-26-27-regular-season
@@ -72,7 +72,7 @@ pregame_h2h_special_away_pp_eff: 75.0
 pregame_h2h_special_home_pk_eff: 66.67
 pregame_h2h_special_home_pp_eff: 44.440000000000005
 result_string: None
-start_time: 16:30
+start_time: 18:30
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0

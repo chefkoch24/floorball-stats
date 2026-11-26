@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Helmi Järvi
 Category: players
 Slug: player-ebd4f61d90f18461

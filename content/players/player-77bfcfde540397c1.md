@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Malte Wåhlin
 Category: players
 Slug: player-77bfcfde540397c1

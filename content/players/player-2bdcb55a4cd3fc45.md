@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Johannes Ventz
 Category: players
 Slug: player-2bdcb55a4cd3fc45

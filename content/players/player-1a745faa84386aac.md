@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Saso Bizjak
 Category: players
 Slug: player-1a745faa84386aac

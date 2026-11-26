@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lucie Seifertová
 Category: players
 Slug: player-4900b57c5fa1c4c5
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 14
+current_games: 15
 current_goals: 4
-current_assists: 3
-current_points: 7
+current_assists: 4
+current_points: 8
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 2
-regular_assists: 3
-regular_points: 5
+regular_assists: 4
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 2
-career_assists: 3
-career_points: 5
+career_assists: 4
+career_points: 6
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|9|2|3|5|0||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|2|0|2|0
-assists: 3
-games: 9
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|10|2|4|6|0||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|2|0|2|0
+assists: 4
+games: 10
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
-points: 5
-rank: 80
+points: 6
+rank: 68
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Gustavs Celmiņš
 Category: players
 Slug: player-abc7cfd9724c9551

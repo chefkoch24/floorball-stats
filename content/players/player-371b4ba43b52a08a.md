@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Karolína Mezerová
 Category: players
 Slug: player-371b4ba43b52a08a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 52
+rank: 53
 season: czw-26-27

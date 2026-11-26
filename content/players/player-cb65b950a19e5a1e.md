@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Julia Bärthel
 Category: players
 Slug: player-cb65b950a19e5a1e

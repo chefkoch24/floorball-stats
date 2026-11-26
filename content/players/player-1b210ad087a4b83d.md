@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kenne Kemoh
 Category: players
 Slug: player-1b210ad087a4b83d

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Barbora Soušková
 Category: players
 Slug: player-ea349c09ea965c62
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 160
+rank: 162
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Nela Fojtíková
 Category: players
 Slug: player-86b0e1ab089bc460
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 2
-rank: 150
+rank: 152
 season: czw-26-27

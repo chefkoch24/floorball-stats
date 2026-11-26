@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Onni Ihala
 Category: players
 Slug: player-278f15c0f1bfaa22

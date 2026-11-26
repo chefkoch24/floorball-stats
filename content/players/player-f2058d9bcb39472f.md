@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Denisa Vyborna
 Category: players
 Slug: player-f2058d9bcb39472f
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 5
-rank: 71
+rank: 74
 season: czw-26-27

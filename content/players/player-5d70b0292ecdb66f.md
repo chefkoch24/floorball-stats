@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jan Ziehli
 Category: players
 Slug: player-5d70b0292ecdb66f

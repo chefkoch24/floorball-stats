@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Patrik Nessbo
 Category: players
 Slug: player-f39b437fe8cf3531

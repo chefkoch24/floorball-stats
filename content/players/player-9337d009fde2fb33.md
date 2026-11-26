@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jolana Konečná
 Category: players
 Slug: player-9337d009fde2fb33
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 143
+rank: 144
 season: czw-26-27

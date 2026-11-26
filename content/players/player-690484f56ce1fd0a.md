@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Inka Lippojoki
 Category: players
 Slug: player-690484f56ce1fd0a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 65
+rank: 68
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Iliev Mina Rosi
 Category: players
 Slug: player-fe02ffdd19f79603

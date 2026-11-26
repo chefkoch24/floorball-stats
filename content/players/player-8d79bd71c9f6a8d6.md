@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Michaela Cendelínová
 Category: players
 Slug: player-8d79bd71c9f6a8d6
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 98
+rank: 99
 season: czw-26-27

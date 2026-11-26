@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kristina Venerová
 Category: players
 Slug: player-5752dadd1fa301aa
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 103
+rank: 104
 season: czw-26-27

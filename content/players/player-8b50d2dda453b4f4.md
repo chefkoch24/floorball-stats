@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Matej Václavík
 Category: players
 Slug: player-8b50d2dda453b4f4

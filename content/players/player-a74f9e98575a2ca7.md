@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Saana Kurvinen
 Category: players
 Slug: player-a74f9e98575a2ca7
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 130
+rank: 131
 season: fiw-26-27

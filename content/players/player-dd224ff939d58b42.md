@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Aino Järvinen
 Category: players
 Slug: player-dd224ff939d58b42
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 1
-rank: 163
+rank: 164
 season: fiw-26-27

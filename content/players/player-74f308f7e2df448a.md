@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Emma Ubaleht
 Category: players
 Slug: player-74f308f7e2df448a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 168
+rank: 169
 season: fiw-26-27

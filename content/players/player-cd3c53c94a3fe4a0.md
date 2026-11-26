@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Pārstāvis Jorens Malkavs
 Category: players
 Slug: player-cd3c53c94a3fe4a0

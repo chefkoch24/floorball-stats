@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Valerie Skalická
 Category: players
 Slug: player-6c769bca9d66025d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 119
+rank: 120
 season: czw-26-27

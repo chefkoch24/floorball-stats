@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Karolína Vlachová
 Category: players
 Slug: player-fb6be5273d23a2ec
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 164
+rank: 166
 season: czw-26-27

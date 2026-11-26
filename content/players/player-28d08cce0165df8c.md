@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Markuss Šterns
 Category: players
 Slug: player-28d08cce0165df8c

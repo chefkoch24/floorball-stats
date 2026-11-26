@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Václav Bajko
 Category: players
 Slug: player-855da22176c1bab5

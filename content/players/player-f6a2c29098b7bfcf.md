@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jasmin Rautanen
 Category: players
 Slug: player-f6a2c29098b7bfcf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 1
-rank: 171
+rank: 172
 season: fiw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jesperi Lindfors
 Category: players
 Slug: player-3fef114db401c9bc

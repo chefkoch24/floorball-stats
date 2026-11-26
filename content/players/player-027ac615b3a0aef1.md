@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Eduards Meisters
 Category: players
 Slug: player-027ac615b3a0aef1

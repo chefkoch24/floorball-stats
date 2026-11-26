@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Ben Bötschi
 Category: players
 Slug: player-c3f1af5257e7cfd4

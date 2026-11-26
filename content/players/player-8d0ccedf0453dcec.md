@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kay Bier
 Category: players
 Slug: player-8d0ccedf0453dcec

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jakub Mikulok
 Category: players
 Slug: player-9a12db8f01a618fc

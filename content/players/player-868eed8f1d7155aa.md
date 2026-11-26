@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Otto Weidman
 Category: players
 Slug: player-868eed8f1d7155aa

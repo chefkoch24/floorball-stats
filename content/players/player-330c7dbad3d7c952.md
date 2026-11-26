@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Isabel Balzano
 Category: players
 Slug: player-330c7dbad3d7c952

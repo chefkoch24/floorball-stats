@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jan Niklas Buckermann
 Category: players
 Slug: player-fe43dfbacbc63bdf

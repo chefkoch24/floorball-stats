@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Michaela Moravcová
 Category: players
 Slug: player-46d37220fe3b33cd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 2
-rank: 149
+rank: 151
 season: czw-26-27

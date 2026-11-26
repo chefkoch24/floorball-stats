@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Bohdan Novák
 Category: players
 Slug: player-73bb2b6de738ef0c

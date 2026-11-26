@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Jules Lasseck
 Category: players
 Slug: player-baa9cbc0e7c6560f

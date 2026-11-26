@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Liliana Šindelářová
 Category: players
 Slug: player-f7581ef2f755f4d9
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 146
+rank: 147
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Sina Bothe
 Category: players
 Slug: player-6ad89fe78ffb8d78

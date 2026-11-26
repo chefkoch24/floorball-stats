@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Albin Jakobsson
 Category: players
 Slug: player-dacbed8e72a6fe75

@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Vilma Linden
 Category: players
 Slug: player-eff8d09a0a27def3

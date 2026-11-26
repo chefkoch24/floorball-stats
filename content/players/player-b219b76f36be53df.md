@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Matīss Kristiāns Kirmuška
 Category: players
 Slug: player-b219b76f36be53df

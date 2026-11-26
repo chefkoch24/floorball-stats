@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Tore Kvint
 Category: players
 Slug: player-a89bc5cf0cf2792d

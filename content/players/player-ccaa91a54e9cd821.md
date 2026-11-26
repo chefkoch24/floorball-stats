@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Lukáš Suk
 Category: players
 Slug: player-ccaa91a54e9cd821

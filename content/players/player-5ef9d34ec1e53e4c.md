@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Veronika Králová
 Category: players
 Slug: player-5ef9d34ec1e53e4c
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 4
-rank: 94
+rank: 95
 season: czw-26-27

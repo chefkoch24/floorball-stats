@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Natalie Sandstrom
 Category: players
 Slug: player-7a3996bf8b6e9a08
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 16
-rank: 15
+rank: 16
 season: fiw-26-27

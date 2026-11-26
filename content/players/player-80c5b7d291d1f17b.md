@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Emīls Zīverts
 Category: players
 Slug: player-80c5b7d291d1f17b

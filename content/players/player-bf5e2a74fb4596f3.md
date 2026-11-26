@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Kateřina Kovaříková
 Category: players
 Slug: player-bf5e2a74fb4596f3
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 15
+current_games: 16
 current_goals: 10
 current_assists: 7
 current_points: 17
 current_pim: 10
-regular_games: 10
+regular_games: 11
 regular_goals: 2
 regular_assists: 4
 regular_points: 6
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 2
 career_assists: 4
 career_points: 6
 career_pim: 8
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|10|2|4|6|8||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|8|3|11|2
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|FbŠ Bohemians|11|2|4|6|8||czw-26-27|cup|Czech Republic Women|FbŠ Bohemians|5|8|3|11|2
 assists: 4
-games: 10
+games: 11
 goals: 2
 penalties: 4
 phase: regular-season
 pim: 8
 points: 6
-rank: 65
+rank: 67
 season: czw-26-27

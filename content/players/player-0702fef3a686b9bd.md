@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Veronika Kyšková
 Category: players
 Slug: player-0702fef3a686b9bd
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 105
+rank: 106
 season: czw-26-27

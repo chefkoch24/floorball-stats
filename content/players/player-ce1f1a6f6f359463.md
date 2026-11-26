@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Antonín Votava
 Category: players
 Slug: player-ce1f1a6f6f359463

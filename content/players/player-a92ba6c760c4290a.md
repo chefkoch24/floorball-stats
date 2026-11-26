@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Matúš Gajdošík
 Category: players
 Slug: player-a92ba6c760c4290a

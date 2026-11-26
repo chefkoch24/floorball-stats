@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
@@ -31,17 +31,17 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 5
-previous_goals: 5
+previous_games: 6
+previous_goals: 6
 previous_assists: 0
-previous_points: 5
+previous_points: 6
 previous_pim: 0
-career_games: 13
-career_goals: 13
+career_games: 14
+career_goals: 14
 career_assists: 0
-career_points: 13
+career_points: 14
 career_pim: 0
-history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / Oilers / SPV|7|7|0|7|0||fiw-26-27|regular-season|Finland Women|EräViikingit / FBC Loisto / PSS / Pirkat / TPS|5|5|0|5|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
+history_rows_csv: fi-26-27|regular-season|Finland|Classic / Indians / Jymy / Nokian KrP / Oilers / SPV|7|7|0|7|0||fiw-26-27|regular-season|Finland Women|EräViikingit / FBC Loisto / PSS / Pirkat / TPS|6|6|0|6|0||wfc-2024|tournament|IFF WFC|Germany|1|1|0|1|0
 assists: 0
 games: 7
 goals: 7

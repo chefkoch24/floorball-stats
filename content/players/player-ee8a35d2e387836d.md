@@ -1,4 +1,4 @@
-Date: 2026-11-25
+Date: 2026-11-26
 Title: Vendula Beránková
 Category: players
 Slug: player-ee8a35d2e387836d
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 56
+rank: 57
 season: czw-26-27
