@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Hannes Kowalewicz
 Category: players
 Slug: player-b5dcc554d0687a91

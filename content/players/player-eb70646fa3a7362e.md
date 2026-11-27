@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Aleksanteri Tirkkonen
 Category: players
 Slug: player-eb70646fa3a7362e

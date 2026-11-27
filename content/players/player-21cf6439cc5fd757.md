@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Viola Värränkivi
 Category: players
 Slug: player-21cf6439cc5fd757

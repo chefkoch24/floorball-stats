@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Michal Hložanka
 Category: players
 Slug: player-55ca2b58d1495ac8

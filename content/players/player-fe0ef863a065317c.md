@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Eliška Planková
 Category: players
 Slug: player-fe0ef863a065317c
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 21
-rank: 2
+rank: 3
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Johana Hacklová
 Category: players
 Slug: player-fbf30549d853a9d4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 90
+rank: 93
 season: czw-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Daria Drzymała
 Category: players
 Slug: player-4b0787dc9a159a7e
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 107
+rank: 110
 season: czw-26-27

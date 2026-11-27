@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Valérie Veverková
 Category: players
 Slug: player-aef371130fe5a1fb
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 3
 current_assists: 1
 current_points: 4
 current_pim: 4
-regular_games: 9
+regular_games: 10
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 2
 career_assists: 0
 career_points: 2
 career_pim: 4
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|9|2|0|2|4||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|1|1|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|10|2|0|2|4||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|1|1|2|0
 assists: 0
-games: 9
+games: 10
 goals: 2
 penalties: 2
 phase: regular-season

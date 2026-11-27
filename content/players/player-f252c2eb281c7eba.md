@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Leon Schweiger
 Category: players
 Slug: player-f252c2eb281c7eba

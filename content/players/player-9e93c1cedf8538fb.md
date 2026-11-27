@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Kateřina Jirsová
 Category: players
 Slug: player-9e93c1cedf8538fb
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 3
-rank: 110
+rank: 113
 season: czw-26-27

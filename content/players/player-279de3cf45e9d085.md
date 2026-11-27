@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Monika Blahova
 Category: players
 Slug: player-279de3cf45e9d085
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 5
-current_assists: 5
-current_points: 10
+current_assists: 6
+current_points: 11
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 5
-regular_assists: 5
-regular_points: 10
+regular_assists: 6
+regular_points: 11
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 6
-career_assists: 6
-career_points: 12
+career_assists: 7
+career_points: 13
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|9|5|5|10|0||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|0|0|0|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|1|2|0
-assists: 5
-games: 9
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|10|5|6|11|0||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|0|0|0|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|1|2|0
+assists: 6
+games: 10
 goals: 5
 penalties: 0
 phase: regular-season
 pim: 0
-points: 10
-rank: 29
+points: 11
+rank: 24
 season: czw-26-27

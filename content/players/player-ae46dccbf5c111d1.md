@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Michaela Voráčková
 Category: players
 Slug: player-ae46dccbf5c111d1
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 116
+rank: 118
 season: czw-26-27

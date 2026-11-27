@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Kimmo Reich
 Category: players
 Slug: player-cfd8f4600077e73b

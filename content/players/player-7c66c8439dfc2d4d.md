@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Viktorie Slezáková
 Category: players
 Slug: player-7c66c8439dfc2d4d
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 5
-rank: 82
+rank: 85
 season: czw-26-27

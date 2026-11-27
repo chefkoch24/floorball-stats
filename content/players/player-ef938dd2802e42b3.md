@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Sasinek Michal
 Category: players
 Slug: player-ef938dd2802e42b3

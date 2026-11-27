@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Lauri Eloluoto
 Category: players
 Slug: player-e4d57426eb13aa29

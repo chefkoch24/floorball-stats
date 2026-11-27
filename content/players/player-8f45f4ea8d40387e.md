@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Anna Marttala
 Category: players
 Slug: player-8f45f4ea8d40387e

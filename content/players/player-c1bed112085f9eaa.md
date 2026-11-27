@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Josef Sedláček
 Category: players
 Slug: player-c1bed112085f9eaa

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Melani Arusalu
 Category: players
 Slug: player-930c4883cc0c1daf
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 25
+rank: 26
 season: lvw-26-27

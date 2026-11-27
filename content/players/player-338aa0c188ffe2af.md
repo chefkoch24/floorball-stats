@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Justīne Simakova
 Category: players
 Slug: player-338aa0c188ffe2af

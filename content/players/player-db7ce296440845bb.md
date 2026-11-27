@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Pārstāvis Alvis Čākurs
 Category: players
 Slug: player-db7ce296440845bb

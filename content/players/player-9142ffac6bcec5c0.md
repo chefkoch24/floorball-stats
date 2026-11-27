@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Loreta Nemiro
 Category: players
 Slug: player-9142ffac6bcec5c0
@@ -11,16 +11,16 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
-current_goals: 9
-current_assists: 4
-current_points: 13
-current_pim: 6
-regular_games: 4
-regular_goals: 9
-regular_assists: 4
-regular_points: 13
-regular_pim: 6
+current_games: 5
+current_goals: 13
+current_assists: 5
+current_points: 18
+current_pim: 8
+regular_games: 5
+regular_goals: 13
+regular_assists: 5
+regular_points: 18
+regular_pim: 8
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 9
-career_assists: 4
-career_points: 13
-career_pim: 6
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|4|9|4|13|6
-assists: 4
-games: 4
-goals: 9
-penalties: 3
+career_games: 5
+career_goals: 13
+career_assists: 5
+career_points: 18
+career_pim: 8
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|5|13|5|18|8
+assists: 5
+games: 5
+goals: 13
+penalties: 4
 phase: regular-season
-pim: 6
-points: 13
-rank: 5
+pim: 8
+points: 18
+rank: 4
 season: lvw-26-27

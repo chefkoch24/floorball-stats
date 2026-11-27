@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Pavel Zeman
 Category: players
 Slug: player-f0dea78e3a2c53d0

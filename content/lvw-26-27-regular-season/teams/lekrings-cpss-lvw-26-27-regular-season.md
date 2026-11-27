@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-26
 Title: Lekrings/CPSS
 Category: lvw-26-27-regular-season, teams
 Slug: lekrings-cpss-lvw-26-27-regular-season-lvw-26-27-regular-season

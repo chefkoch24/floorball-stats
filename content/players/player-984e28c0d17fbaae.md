@@ -1,25 +1,25 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Own Goal
 Category: players
 Slug: player-984e28c0d17fbaae
 type: player
 player: Own Goal
 player_uid: player-984e28c0d17fbaae
-team: Classic / Indians / Jymy / Nokian KrP / Oilers / SPV
-league: Finland
+team: EräViikingit / FBC Loisto / PSS / Pirkat / TPS
+league: Finland Women
 season_count: 3
-current_season: fi-26-27
+current_season: fiw-26-27
 current_season_is_tournament: no
-previous_season: fiw-26-27
-current_games: 7
-current_goals: 7
+previous_season: fi-26-27
+current_games: 6
+current_goals: 6
 current_assists: 0
-current_points: 7
+current_points: 6
 current_pim: 0
-regular_games: 7
-regular_goals: 7
+regular_games: 6
+regular_goals: 6
 regular_assists: 0
-regular_points: 7
+regular_points: 6
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -31,10 +31,10 @@ cup_goals: 0
 cup_assists: 0
 cup_points: 0
 cup_pim: 0
-previous_games: 6
-previous_goals: 6
+previous_games: 7
+previous_goals: 7
 previous_assists: 0
-previous_points: 6
+previous_points: 7
 previous_pim: 0
 career_games: 14
 career_goals: 14

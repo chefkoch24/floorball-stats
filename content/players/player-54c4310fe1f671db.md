@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Jenni Leppänen
 Category: players
 Slug: player-54c4310fe1f671db

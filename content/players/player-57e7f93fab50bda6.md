@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Nikol Kovárníková
 Category: players
 Slug: player-57e7f93fab50bda6
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 2
 current_assists: 3
 current_points: 5
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 2
 regular_points: 3
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 1
 career_assists: 2
 career_points: 3
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|9|1|2|3|2||czw-26-27|cup|Czech Republic Women|GC System Bulldogs Brno|1|1|1|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|10|1|2|3|2||czw-26-27|cup|Czech Republic Women|GC System Bulldogs Brno|1|1|1|2|0
 assists: 2
-games: 9
+games: 10
 goals: 1
 penalties: 1
 phase: regular-season
 pim: 2
 points: 3
-rank: 124
+rank: 125
 season: czw-26-27

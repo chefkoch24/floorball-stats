@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Otto Rylander
 Category: players
 Slug: player-b8bc14054adc5aaa

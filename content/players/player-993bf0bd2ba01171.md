@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Erik Schnecke
 Category: players
 Slug: player-993bf0bd2ba01171

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Karolína Lískovcová
 Category: players
 Slug: player-18e3bfa4aa507cd0
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 10
-rank: 28
+rank: 30
 season: czw-26-27

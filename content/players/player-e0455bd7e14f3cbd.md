@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Florentina Büchler
 Category: players
 Slug: player-e0455bd7e14f3cbd

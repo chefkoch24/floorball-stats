@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Eva Ragačová
 Category: players
 Slug: player-3a7e4fc1f408fc5a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 3
-rank: 103
+rank: 106
 season: czw-26-27

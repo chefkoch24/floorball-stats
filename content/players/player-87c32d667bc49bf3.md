@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Rina Rautala
 Category: players
 Slug: player-87c32d667bc49bf3

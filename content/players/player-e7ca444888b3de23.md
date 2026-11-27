@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Matias Vaajala
 Category: players
 Slug: player-e7ca444888b3de23

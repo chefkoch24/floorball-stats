@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Elīna Dīce
 Category: players
 Slug: player-d44158df6fa45a91
@@ -11,16 +11,16 @@ season_count: 1
 current_season: lvw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 4
-current_goals: 7
-current_assists: 6
-current_points: 13
-current_pim: 0
-regular_games: 4
-regular_goals: 7
-regular_assists: 6
-regular_points: 13
-regular_pim: 0
+current_games: 5
+current_goals: 9
+current_assists: 7
+current_points: 16
+current_pim: 2
+regular_games: 5
+regular_goals: 9
+regular_assists: 7
+regular_points: 16
+regular_pim: 2
 playoff_games: 0
 playoff_goals: 0
 playoff_assists: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 4
-career_goals: 7
-career_assists: 6
-career_points: 13
-career_pim: 0
-history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|4|7|6|13|0
-assists: 6
-games: 4
-goals: 7
-penalties: 0
+career_games: 5
+career_goals: 9
+career_assists: 7
+career_points: 16
+career_pim: 2
+history_rows_csv: lvw-26-27|regular-season|Latvia Women|NND/RJTC|5|9|7|16|2
+assists: 7
+games: 5
+goals: 9
+penalties: 1
 phase: regular-season
-pim: 0
-points: 13
-rank: 6
+pim: 2
+points: 16
+rank: 5
 season: lvw-26-27

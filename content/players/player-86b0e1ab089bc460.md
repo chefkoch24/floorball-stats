@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Nela Fojtíková
 Category: players
 Slug: player-86b0e1ab089bc460

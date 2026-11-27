@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Kadre Lahtmets
 Category: players
 Slug: player-6db66bc699a07d7c
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 7
-rank: 10
+rank: 12
 season: lvw-26-27

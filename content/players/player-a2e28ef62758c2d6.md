@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Topias Ruisla
 Category: players
 Slug: player-a2e28ef62758c2d6

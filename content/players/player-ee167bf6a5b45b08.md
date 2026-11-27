@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Toms Gredzens
 Category: players
 Slug: player-ee167bf6a5b45b08

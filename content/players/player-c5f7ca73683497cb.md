@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Juho Riihimäki
 Category: players
 Slug: player-c5f7ca73683497cb

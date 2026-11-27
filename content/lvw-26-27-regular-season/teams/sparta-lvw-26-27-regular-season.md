@@ -1,4 +1,4 @@
-Date: 2026-11-22
+Date: 2026-11-26
 Title: Sparta
 Category: lvw-26-27-regular-season, teams
 Slug: sparta-lvw-26-27-regular-season-lvw-26-27-regular-season

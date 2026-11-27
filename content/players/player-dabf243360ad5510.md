@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Linda Fuchsova
 Category: players
 Slug: player-dabf243360ad5510
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 7
-current_goals: 7
-current_assists: 4
-current_points: 11
+current_games: 8
+current_goals: 8
+current_assists: 5
+current_points: 13
 current_pim: 0
-regular_games: 7
-regular_goals: 7
-regular_assists: 4
-regular_points: 11
+regular_games: 8
+regular_goals: 8
+regular_assists: 5
+regular_points: 13
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 8
-career_goals: 8
-career_assists: 4
-career_points: 12
+career_games: 9
+career_goals: 9
+career_assists: 5
+career_points: 14
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|7|7|4|11|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|0|1|0
-assists: 4
-games: 7
-goals: 7
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|8|8|5|13|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|0|1|0
+assists: 5
+games: 8
+goals: 8
 penalties: 0
 phase: regular-season
 pim: 0
-points: 11
-rank: 19
+points: 13
+rank: 14
 season: czw-26-27

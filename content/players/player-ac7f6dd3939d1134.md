@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Klára Kamenská
 Category: players
 Slug: player-ac7f6dd3939d1134

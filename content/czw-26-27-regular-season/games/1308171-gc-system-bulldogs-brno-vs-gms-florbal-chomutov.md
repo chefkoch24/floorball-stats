@@ -331,6 +331,7 @@ home_pregame_points_against_fbs_olomouc: 3
 home_pregame_points_against_gms_florbal_chomutov: 3
 home_pregame_points_against_k1_florbal_brno_zidenice: 3
 home_pregame_points_against_prague_tigers_nehvizdy: 3
+home_pregame_points_against_tatran_stresovice: 3
 home_pregame_points_max_difference_2: 0
 home_pregame_points_more_2_difference: 15
 home_pregame_points_per_game: 3.0

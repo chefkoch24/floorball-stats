@@ -73,7 +73,7 @@ pregame_h2h_special_away_pp_eff: 100.0
 pregame_h2h_special_home_pk_eff: 60.0
 pregame_h2h_special_home_pp_eff: 33.33
 result_string: None
-start_time: 00:00
+start_time: 19:00
 timeline_away_goals_csv: 0
 timeline_diffs_csv: 0
 timeline_home_goals_csv: 0
@@ -81,6 +81,8 @@ timeline_max_minute: 60.0
 timeline_minutes_csv: 0.0
 tournament_stage_label: osmifinále
 tournament_stage_type: elimination
+venue: Kategorie I SH Štěrkoviště Otrokovice
+venue_address: tř. Tomáše Bati 1270 Otrokovice
 home_away_points: 0
 home_boxplay: 0
 home_boxplay_efficiency: n.a.

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Ralfs Krutkēvičs
 Category: players
 Slug: player-2f0d8f5490e661bf

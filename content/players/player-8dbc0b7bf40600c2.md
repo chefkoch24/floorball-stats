@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Timo Renner
 Category: players
 Slug: player-8dbc0b7bf40600c2

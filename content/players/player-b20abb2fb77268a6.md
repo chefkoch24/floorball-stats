@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Anna Bruchackova
 Category: players
 Slug: player-b20abb2fb77268a6
@@ -11,15 +11,15 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 8
-current_goals: 9
-current_assists: 8
-current_points: 17
+current_games: 9
+current_goals: 11
+current_assists: 11
+current_points: 22
 current_pim: 0
-regular_games: 8
-regular_goals: 9
-regular_assists: 8
-regular_points: 17
+regular_games: 9
+regular_goals: 11
+regular_assists: 11
+regular_points: 22
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
-career_goals: 9
-career_assists: 9
-career_points: 18
+career_games: 10
+career_goals: 11
+career_assists: 12
+career_points: 23
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|8|9|8|17|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|0|1|1|0
-assists: 8
-games: 8
-goals: 9
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|9|11|11|22|0||ccw-26-27|tournament|IFF Champions Cup Women|GC System Bulldogs Brno|1|0|1|1|0
+assists: 11
+games: 9
+goals: 11
 penalties: 0
 phase: regular-season
 pim: 0
-points: 17
-rank: 4
+points: 22
+rank: 2
 season: czw-26-27

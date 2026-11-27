@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Mike Trolle
 Category: players
 Slug: player-effc3983cdf47a96

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Inka Lippojoki
 Category: players
 Slug: player-690484f56ce1fd0a

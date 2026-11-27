@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Elton Jihde
 Category: players
 Slug: player-d9a000a2fcf0f5e0

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Maja Helman
 Category: players
 Slug: player-636599e443eecad0
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 17
-rank: 5
+rank: 7
 season: czw-26-27

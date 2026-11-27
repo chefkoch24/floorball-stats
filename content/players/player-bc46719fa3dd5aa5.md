@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Joël Nadler
 Category: players
 Slug: player-bc46719fa3dd5aa5

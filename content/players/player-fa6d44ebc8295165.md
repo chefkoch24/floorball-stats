@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Matej Jusko
 Category: players
 Slug: player-fa6d44ebc8295165

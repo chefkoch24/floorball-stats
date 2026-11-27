@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Michaela Žáková
 Category: players
 Slug: player-b68f4150aaee6557
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 9
 current_assists: 7
 current_points: 16
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 7
 regular_assists: 7
 regular_points: 14
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 7
 career_assists: 7
 career_points: 14
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|9|7|7|14|0||czw-26-27|cup|Czech Republic Women|GC System Bulldogs Brno|1|2|0|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|GC System Bulldogs Brno|10|7|7|14|0||czw-26-27|cup|Czech Republic Women|GC System Bulldogs Brno|1|2|0|2|0
 assists: 7
-games: 9
+games: 10
 goals: 7
 penalties: 0
 phase: regular-season

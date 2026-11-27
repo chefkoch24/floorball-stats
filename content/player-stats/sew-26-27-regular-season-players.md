@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Sweden Women Player Stats 26/27 Regular Season
 Category: sew-26-27-regular-season-players
 Slug: sew-26-27-regular-season-players

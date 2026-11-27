@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Toms Zanders
 Category: players
 Slug: player-fcead834aa372c77

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Denisa Vyborna
 Category: players
 Slug: player-f2058d9bcb39472f
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 6
 current_assists: 1
 current_points: 7
 current_pim: 0
-regular_games: 9
+regular_games: 10
 regular_goals: 4
 regular_assists: 1
 regular_points: 5
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 10
+career_games: 11
 career_goals: 5
 career_assists: 2
 career_points: 7
 career_pim: 0
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|9|4|1|5|0||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|2|0|2|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|1|2|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|10|4|1|5|0||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|2|0|2|0||ccw-26-27|tournament|IFF Champions Cup Women|Tatran Střešovice|1|1|1|2|0
 assists: 1
-games: 9
+games: 10
 goals: 4
 penalties: 0
 phase: regular-season

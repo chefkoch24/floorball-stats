@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Viggo Nielsen
 Category: players
 Slug: player-be4c2c3fcebb8606

@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Tereza Hlaviznová
 Category: players
 Slug: player-feeebde3f280ed05
@@ -11,12 +11,12 @@ season_count: 1
 current_season: czw-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 10
+current_games: 11
 current_goals: 1
 current_assists: 1
 current_points: 2
 current_pim: 2
-regular_games: 9
+regular_games: 10
 regular_goals: 1
 regular_assists: 1
 regular_points: 2
@@ -36,14 +36,14 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 9
+career_games: 10
 career_goals: 1
 career_assists: 1
 career_points: 2
 career_pim: 2
-history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|9|1|1|2|2||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|0|0|0|0
+history_rows_csv: czw-26-27|regular-season|Czech Republic Women|Tatran Střešovice|10|1|1|2|2||czw-26-27|cup|Czech Republic Women|Tatran Střešovice|1|0|0|0|0
 assists: 1
-games: 9
+games: 10
 goals: 1
 penalties: 1
 phase: regular-season

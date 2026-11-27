@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Agris Rogainis
 Category: players
 Slug: player-dc4c0196237df39e

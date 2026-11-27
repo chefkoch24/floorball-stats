@@ -1,4 +1,4 @@
-Date: 2026-11-26
+Date: 2026-11-27
 Title: Vojtěch Murín C
 Category: players
 Slug: player-9b4c5166264aed7b
