@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Elīna Dīce
 Category: players
 Slug: player-d44158df6fa45a91

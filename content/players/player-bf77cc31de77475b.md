@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Simon Westgärds
 Category: players
 Slug: player-bf77cc31de77475b

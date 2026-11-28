@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Gvido Grjunbergs
 Category: players
 Slug: player-eb0fa418eee381d0
@@ -49,5 +49,5 @@ penalties: 4
 phase: regular-season
 pim: 8
 points: 11
-rank: 31
+rank: 32
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Matěj Hronek
 Category: players
 Slug: player-22597fc30df44df0

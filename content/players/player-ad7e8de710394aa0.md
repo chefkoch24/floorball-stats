@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Zuzana Štípková
 Category: players
 Slug: player-ad7e8de710394aa0

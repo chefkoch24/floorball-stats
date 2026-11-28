@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Oskar Malmgren
 Category: players
 Slug: player-89184a5f9cbbaaeb

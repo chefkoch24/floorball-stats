@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Julians Aizupietis
 Category: players
 Slug: player-26bd3cec13187ce4
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 183
+rank: 185
 season: lv-26-27

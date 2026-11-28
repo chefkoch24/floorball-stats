@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Maija Taitto
 Category: players
 Slug: player-7cb8b98bc8847b93

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Christopher Aune Klungervik
 Category: players
 Slug: player-2fba142fc362c8ff

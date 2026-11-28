@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Paula Kuschel
 Category: players
 Slug: player-287537ec332badd4

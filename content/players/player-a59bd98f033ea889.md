@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Paulikovič Patrik
 Category: players
 Slug: player-a59bd98f033ea889

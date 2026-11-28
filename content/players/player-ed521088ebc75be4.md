@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Dominik Bürger
 Category: players
 Slug: player-ed521088ebc75be4

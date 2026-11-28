@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Mika Rymarzewicz
 Category: players
 Slug: player-3fc1e22b371c469d

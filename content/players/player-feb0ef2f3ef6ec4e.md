@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Cem Beischl
 Category: players
 Slug: player-feb0ef2f3ef6ec4e

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Markus Sanders
 Category: players
 Slug: player-57dfca51e8569abb
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 0
-rank: 192
+rank: 193
 season: lv-26-27

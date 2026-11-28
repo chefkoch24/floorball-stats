@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Lukas Thieme
 Category: players
 Slug: player-ca31ff575fb0e1e0

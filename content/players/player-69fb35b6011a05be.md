@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Rieger Andreas
 Category: players
 Slug: player-69fb35b6011a05be

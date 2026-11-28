@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Kristi Rickberg
 Category: players
 Slug: player-da6ffeaac9af01f1

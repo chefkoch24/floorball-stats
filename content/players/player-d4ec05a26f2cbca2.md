@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Adam Kohút
 Category: players
 Slug: player-d4ec05a26f2cbca2

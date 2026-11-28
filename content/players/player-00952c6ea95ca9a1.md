@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Patriks Zvejnieks
 Category: players
 Slug: player-00952c6ea95ca9a1
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 13
+current_games: 14
 current_goals: 2
 current_assists: 0
 current_points: 2
 current_pim: 0
-regular_games: 13
+regular_games: 14
 regular_goals: 2
 regular_assists: 0
 regular_points: 2
@@ -36,14 +36,14 @@ previous_goals: 20
 previous_assists: 3
 previous_points: 23
 previous_pim: 4
-career_games: 42
+career_games: 43
 career_goals: 22
 career_assists: 3
 career_points: 25
 career_pim: 4
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|13|2|0|2|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|4|1|0|1|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|25|19|3|22|4
+history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|14|2|0|2|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|4|1|0|1|0||lv-25-26|regular-season|Latvia|Ķekava/RB&B|25|19|3|22|4
 assists: 0
-games: 13
+games: 14
 goals: 2
 penalties: 0
 phase: regular-season

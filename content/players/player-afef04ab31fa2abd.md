@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Ralfs Matīss Balodis
 Category: players
 Slug: player-afef04ab31fa2abd

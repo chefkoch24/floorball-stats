@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Linards Putniņš
 Category: players
 Slug: player-fafc269ca0bdf535
@@ -11,15 +11,15 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
-current_goals: 8
+current_games: 13
+current_goals: 9
 current_assists: 3
-current_points: 11
+current_points: 12
 current_pim: 0
-regular_games: 12
-regular_goals: 8
+regular_games: 13
+regular_goals: 9
 regular_assists: 3
-regular_points: 11
+regular_points: 12
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 13
 previous_assists: 12
 previous_points: 25
 previous_pim: 8
-career_games: 51
-career_goals: 21
+career_games: 52
+career_goals: 22
 career_assists: 15
-career_points: 36
+career_points: 37
 career_pim: 8
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|12|8|3|11|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|2|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|10|10|20|4
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|13|9|3|12|0||lv-25-26|playoffs|Latvia|Talsu NSS/Krauzers|12|3|2|5|4||lv-25-26|regular-season|Latvia|Talsu NSS/Krauzers|27|10|10|20|4
 assists: 3
-games: 12
-goals: 8
+games: 13
+goals: 9
 penalties: 0
 phase: regular-season
 pim: 0
-points: 11
-rank: 30
+points: 12
+rank: 26
 season: lv-26-27

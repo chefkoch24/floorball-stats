@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Kristýna Bartošová
 Category: players
 Slug: player-54e3f438e24aca0e

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Valters Priede
 Category: players
 Slug: player-ef9cf018b2914f3a
@@ -11,12 +11,12 @@ season_count: 2
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: lv-25-26
-current_games: 12
+current_games: 13
 current_goals: 2
 current_assists: 2
 current_points: 4
 current_pim: 0
-regular_games: 12
+regular_games: 13
 regular_goals: 2
 regular_assists: 2
 regular_points: 4
@@ -36,18 +36,18 @@ previous_goals: 4
 previous_assists: 2
 previous_points: 6
 previous_pim: 6
-career_games: 40
+career_games: 41
 career_goals: 6
 career_assists: 4
 career_points: 10
 career_pim: 6
-history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|12|2|2|4|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|1|0|1|4||lv-25-26|regular-season|Latvia|Ķekava/RB&B|21|3|2|5|2
+history_rows_csv: lv-26-27|regular-season|Latvia|Ķekava/RB&B|13|2|2|4|0||lv-25-26|playoffs|Latvia|Ķekava/RB&B|7|1|0|1|4||lv-25-26|regular-season|Latvia|Ķekava/RB&B|21|3|2|5|2
 assists: 2
-games: 12
+games: 13
 goals: 2
 penalties: 0
 phase: regular-season
 pim: 0
 points: 4
-rank: 88
+rank: 89
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Terézia Kamenská
 Category: players
 Slug: player-b7c1df5d12fa904f

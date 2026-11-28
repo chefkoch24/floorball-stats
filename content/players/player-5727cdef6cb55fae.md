@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jan Peška
 Category: players
 Slug: player-5727cdef6cb55fae

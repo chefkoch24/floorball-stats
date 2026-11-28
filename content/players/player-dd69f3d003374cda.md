@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Tabea Pantzier
 Category: players
 Slug: player-dd69f3d003374cda

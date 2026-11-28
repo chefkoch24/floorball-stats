@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Emil Wiklund
 Category: players
 Slug: player-d0745c723eb43b8f

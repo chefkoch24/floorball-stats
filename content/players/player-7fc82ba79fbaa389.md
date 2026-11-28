@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Thea Ekholt
 Category: players
 Slug: player-7fc82ba79fbaa389

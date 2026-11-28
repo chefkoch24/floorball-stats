@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Timo Rahkola
 Category: players
 Slug: player-292cddefc51834a0

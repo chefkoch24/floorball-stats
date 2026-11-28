@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Angelica Prytz
 Category: players
 Slug: player-6411839ada140cbf

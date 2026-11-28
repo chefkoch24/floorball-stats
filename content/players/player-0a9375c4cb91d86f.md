@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Nikolas Laaksonen
 Category: players
 Slug: player-0a9375c4cb91d86f

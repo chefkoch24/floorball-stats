@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Georgs Māziņš
 Category: players
 Slug: player-a5dc4ad2c4a386de
@@ -49,5 +49,5 @@ penalties: 2
 phase: regular-season
 pim: 4
 points: 17
-rank: 13
+rank: 14
 season: lv-26-27

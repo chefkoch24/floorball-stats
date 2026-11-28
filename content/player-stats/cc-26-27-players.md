@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: IFF Champions Cup Player Stats 26/27 Tournament
 Category: cc-26-27-players
 Slug: cc-26-27-players

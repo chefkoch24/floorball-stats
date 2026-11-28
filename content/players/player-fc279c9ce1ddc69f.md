@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Venla Kumpumäki
 Category: players
 Slug: player-fc279c9ce1ddc69f

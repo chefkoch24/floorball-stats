@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Tomass Freiverts
 Category: players
 Slug: player-cfb31cb03253d06c

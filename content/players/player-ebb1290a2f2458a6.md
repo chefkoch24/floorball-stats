@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Lucie Švajcrová
 Category: players
 Slug: player-ebb1290a2f2458a6

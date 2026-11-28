@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jan Kabourek
 Category: players
 Slug: player-fba76540b3a8d902

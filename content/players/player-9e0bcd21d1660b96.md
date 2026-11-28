@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Mariss Bergmanis
 Category: players
 Slug: player-9e0bcd21d1660b96
@@ -49,5 +49,5 @@ penalties: 3
 phase: regular-season
 pim: 6
 points: 15
-rank: 17
+rank: 19
 season: lv-26-27

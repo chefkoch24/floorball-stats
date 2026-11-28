@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Elmeri Haveri
 Category: players
 Slug: player-ca77f8dbad40ea2d

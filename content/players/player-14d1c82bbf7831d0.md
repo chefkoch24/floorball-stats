@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Olli Halkola
 Category: players
 Slug: player-14d1c82bbf7831d0

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Anton Breicha
 Category: players
 Slug: player-9d6fc06cb08ce1fc

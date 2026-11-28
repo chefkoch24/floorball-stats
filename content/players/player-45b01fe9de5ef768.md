@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Vilém Vrzala
 Category: players
 Slug: player-45b01fe9de5ef768

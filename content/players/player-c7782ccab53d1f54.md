@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Aida Koskinen
 Category: players
 Slug: player-c7782ccab53d1f54

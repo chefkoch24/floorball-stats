@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Michaela Cidlinská
 Category: players
 Slug: player-25751eef535eae09

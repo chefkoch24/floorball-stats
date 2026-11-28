@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Pontus Bäckman
 Category: players
 Slug: player-aeee5de896b20e62

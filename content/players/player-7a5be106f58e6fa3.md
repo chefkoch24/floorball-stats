@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Marco Näf
 Category: players
 Slug: player-7a5be106f58e6fa3

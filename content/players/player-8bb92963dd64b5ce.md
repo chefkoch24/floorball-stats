@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jannis Röst
 Category: players
 Slug: player-8bb92963dd64b5ce

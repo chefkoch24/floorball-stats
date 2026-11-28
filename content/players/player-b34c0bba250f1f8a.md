@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Luis Moes
 Category: players
 Slug: player-b34c0bba250f1f8a

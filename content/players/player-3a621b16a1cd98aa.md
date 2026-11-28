@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Nicole Siegenthaler
 Category: players
 Slug: player-3a621b16a1cd98aa

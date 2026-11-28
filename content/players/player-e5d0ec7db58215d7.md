@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Vilma Lehtola
 Category: players
 Slug: player-e5d0ec7db58215d7

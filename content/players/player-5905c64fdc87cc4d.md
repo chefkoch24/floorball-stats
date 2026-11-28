@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jana Spiess
 Category: players
 Slug: player-5905c64fdc87cc4d

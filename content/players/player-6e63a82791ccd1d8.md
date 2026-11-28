@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Dominik Janda
 Category: players
 Slug: player-6e63a82791ccd1d8

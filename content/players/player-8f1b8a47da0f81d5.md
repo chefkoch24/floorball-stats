@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Ida Vinberg
 Category: players
 Slug: player-8f1b8a47da0f81d5

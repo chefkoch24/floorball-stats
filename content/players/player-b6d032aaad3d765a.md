@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Viktor Steinz
 Category: players
 Slug: player-b6d032aaad3d765a

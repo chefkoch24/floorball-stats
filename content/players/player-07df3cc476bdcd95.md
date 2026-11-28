@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Ondřej Sidunov
 Category: players
 Slug: player-07df3cc476bdcd95

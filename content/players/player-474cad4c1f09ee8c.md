@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Mateo Viturin Christen
 Category: players
 Slug: player-474cad4c1f09ee8c

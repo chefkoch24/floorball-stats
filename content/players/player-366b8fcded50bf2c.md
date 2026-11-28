@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Julian Klados
 Category: players
 Slug: player-366b8fcded50bf2c

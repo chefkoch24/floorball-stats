@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Luca Kneubühler
 Category: players
 Slug: player-7643ff0aa0787dda

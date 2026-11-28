@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Eero Kuutsa
 Category: players
 Slug: player-0eee5d0861ac8cee

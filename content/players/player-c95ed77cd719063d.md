@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Lucie Aidlpesová
 Category: players
 Slug: player-c95ed77cd719063d

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Kasper Lundén
 Category: players
 Slug: player-731e1065e3d1eb3c

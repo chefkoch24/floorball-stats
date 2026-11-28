@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Juuso Kekki
 Category: players
 Slug: player-1f64dff7c2b5651f

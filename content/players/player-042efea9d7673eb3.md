@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Štupák Matúš
 Category: players
 Slug: player-042efea9d7673eb3

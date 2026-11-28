@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Wiktor Åkerstedt
 Category: players
 Slug: player-e8bddf42328f9520

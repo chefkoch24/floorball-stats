@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Taimi Mikkola
 Category: players
 Slug: player-bdbce3fb1545eb2a
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 6
-rank: 66
+rank: 65
 season: fiw-26-27

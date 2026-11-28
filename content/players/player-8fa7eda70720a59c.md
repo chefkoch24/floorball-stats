@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Melvin Hildingsson
 Category: players
 Slug: player-8fa7eda70720a59c

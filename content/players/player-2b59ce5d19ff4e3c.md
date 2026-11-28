@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Frida Meijer
 Category: players
 Slug: player-2b59ce5d19ff4e3c

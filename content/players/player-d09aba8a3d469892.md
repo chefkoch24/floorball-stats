@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Marius Niemelä
 Category: players
 Slug: player-d09aba8a3d469892

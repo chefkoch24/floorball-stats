@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Matej Martoňák
 Category: players
 Slug: player-eadac3c733c05da3

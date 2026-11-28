@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Seraina Fitzi
 Category: players
 Slug: player-e89ed34cc2956b5a

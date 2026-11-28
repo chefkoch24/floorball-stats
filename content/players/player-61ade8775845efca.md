@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Valters Kasjaņenko
 Category: players
 Slug: player-61ade8775845efca
@@ -49,5 +49,5 @@ penalties: 0
 phase: regular-season
 pim: 0
 points: 0
-rank: 251
+rank: 252
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Sofia Mittentag
 Category: players
 Slug: player-257fcda403e8ee95

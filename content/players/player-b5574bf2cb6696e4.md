@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Karolína Priknerová
 Category: players
 Slug: player-b5574bf2cb6696e4

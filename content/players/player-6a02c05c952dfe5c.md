@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Janis Siegenthaler
 Category: players
 Slug: player-6a02c05c952dfe5c

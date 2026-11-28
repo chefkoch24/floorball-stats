@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Lian Schefer
 Category: players
 Slug: player-cfa50690a93e184b

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Daniel Gidske
 Category: players
 Slug: player-d8ba7e831076f9a3

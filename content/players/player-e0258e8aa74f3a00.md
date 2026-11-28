@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Ingars Jansons
 Category: players
 Slug: player-e0258e8aa74f3a00
@@ -11,15 +11,15 @@ season_count: 1
 current_season: lv-26-27
 current_season_is_tournament: no
 previous_season: n.a.
-current_games: 12
-current_goals: 5
-current_assists: 9
-current_points: 14
+current_games: 13
+current_goals: 6
+current_assists: 10
+current_points: 16
 current_pim: 0
-regular_games: 12
-regular_goals: 5
-regular_assists: 9
-regular_points: 14
+regular_games: 13
+regular_goals: 6
+regular_assists: 10
+regular_points: 16
 regular_pim: 0
 playoff_games: 0
 playoff_goals: 0
@@ -36,18 +36,18 @@ previous_goals: 0
 previous_assists: 0
 previous_points: 0
 previous_pim: 0
-career_games: 12
-career_goals: 5
-career_assists: 9
-career_points: 14
+career_games: 13
+career_goals: 6
+career_assists: 10
+career_points: 16
 career_pim: 0
-history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|12|5|9|14|0
-assists: 9
-games: 12
-goals: 5
+history_rows_csv: lv-26-27|regular-season|Latvia|FK Kurši|13|6|10|16|0
+assists: 10
+games: 13
+goals: 6
 penalties: 0
 phase: regular-season
 pim: 0
-points: 14
-rank: 18
+points: 16
+rank: 16
 season: lv-26-27

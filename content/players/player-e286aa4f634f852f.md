@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Lina Meier
 Category: players
 Slug: player-e286aa4f634f852f

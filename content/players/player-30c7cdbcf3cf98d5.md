@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jenna Potinoja
 Category: players
 Slug: player-30c7cdbcf3cf98d5

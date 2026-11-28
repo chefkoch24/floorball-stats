@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Zigmārs Pudenko
 Category: players
 Slug: player-93ebe59b646be6e7
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 2
-rank: 134
+rank: 135
 season: lv-26-27

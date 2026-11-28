@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Nela Sikorova
 Category: players
 Slug: player-3be3ac10a6be0476

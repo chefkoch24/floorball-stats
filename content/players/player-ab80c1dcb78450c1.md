@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jonna Lindgren
 Category: players
 Slug: player-ab80c1dcb78450c1

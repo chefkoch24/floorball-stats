@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Beatrice Kangas
 Category: players
 Slug: player-fd83eaeb21d849e9

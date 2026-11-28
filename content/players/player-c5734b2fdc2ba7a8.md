@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Walter Dahlström
 Category: players
 Slug: player-c5734b2fdc2ba7a8

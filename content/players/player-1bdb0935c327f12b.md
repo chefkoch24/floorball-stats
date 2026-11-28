@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jānis Škutāns
 Category: players
 Slug: player-1bdb0935c327f12b
@@ -49,5 +49,5 @@ penalties: 1
 phase: regular-season
 pim: 2
 points: 1
-rank: 140
+rank: 141
 season: lv-26-27

@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Sakarias Ulriksson
 Category: players
 Slug: player-8d3ffcb8ff8b14b7

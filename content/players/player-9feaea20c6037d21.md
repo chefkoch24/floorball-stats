@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Steven Friedli
 Category: players
 Slug: player-9feaea20c6037d21

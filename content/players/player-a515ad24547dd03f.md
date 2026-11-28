@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Aurel Šitár
 Category: players
 Slug: player-a515ad24547dd03f

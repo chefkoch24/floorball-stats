@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: Jakub Mikšánek
 Category: players
 Slug: player-afd16b848eb4ecca

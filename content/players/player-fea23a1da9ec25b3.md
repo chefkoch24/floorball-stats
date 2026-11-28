@@ -1,4 +1,4 @@
-Date: 2026-11-27
+Date: 2026-11-28
 Title: David Kozelka
 Category: players
 Slug: player-fea23a1da9ec25b3
